@@ -1,12 +1,12 @@
 # ThaqalaynDataSources
 
-Source data repository for the Thaqalayn project. Contains raw scraped data, AI pipeline configuration, and AI-generated content that feeds into ThaqalaynDataGenerator.
+Source data repository for the Thaqalayn project. Contains scraped source data, AI pipeline configuration, and AI-generated content that feeds into ThaqalaynDataGenerator.
 
 ## Directory Structure
 
 ```
 ThaqalaynDataSources/
-  raw/                      # Scraped source data (HTML, XML, JSON)
+  scraped/                   # Scraped source data (HTML, XML, JSON)
     tanzil_net/             # Quran text + 27 translations (XML/TXT)
     hubeali_com/            # Al-Kafi Vols 1-8, Basair al-Darajaat (HTML)
     thaqalayn_api/          # 25 book folders from ThaqalaynAPI (JSON)
@@ -40,7 +40,7 @@ export SOURCE_DATA_DIR="../ThaqalaynDataSources/"
 
 Or use the default (which assumes the standard sibling directory layout).
 
-## Raw Data Sources
+## Scraped Data Sources
 
 | Directory | Source | Contents |
 |-----------|--------|----------|
@@ -53,4 +53,4 @@ Or use the default (which assumes the standard sibling directory layout).
 
 ## Re-scraping Data
 
-Raw data can be re-scraped using the scraper scripts in `ThaqalaynDataGenerator/app/scrapers/`. Set `SOURCE_DATA_DIR` to point scrapers' output here.
+Data can be re-scraped using the scraper scripts in `ThaqalaynDataGenerator/app/scrapers/`. Set `SOURCE_DATA_DIR` to point scrapers' output here.
