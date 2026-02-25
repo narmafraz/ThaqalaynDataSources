@@ -2,7 +2,7 @@
   "verse_path": "/books/al-kafi:1:2:1:1",
   "ai_attribution": {
     "model": "claude-opus-4-6-20260205",
-    "generated_date": "2026-02-23",
+    "generated_date": "2026-02-25",
     "pipeline_version": "1.0.0",
     "generation_method": "claude_code_direct"
   },
@@ -11,32 +11,375 @@
     "diacritics_status": "completed",
     "diacritics_changes": [],
     "word_analysis": [
-      {"word": "قَالَ", "translation_en": "he said", "root": "ق و ل", "pos": "V", "is_proper_noun": false},
-      {"word": "رَسُولُ", "translation_en": "the Messenger of", "root": "ر س ل", "pos": "N", "is_proper_noun": false},
-      {"word": "اللَّهِ", "translation_en": "Allah (God)", "root": "أ ل ه", "pos": "N", "is_proper_noun": true},
-      {"word": "صَلَّى", "translation_en": "may blessings be", "root": "ص ل و", "pos": "V", "is_proper_noun": false},
-      {"word": "اللَّهُ", "translation_en": "of Allah", "root": "أ ل ه", "pos": "N", "is_proper_noun": true},
-      {"word": "عَلَيْهِ", "translation_en": "upon him", "root": "ع ل و", "pos": "PREP", "is_proper_noun": false},
-      {"word": "وَآلِهِ", "translation_en": "and his family", "root": "أ و ل", "pos": "N", "is_proper_noun": false},
-      {"word": "طَلَبُ", "translation_en": "seeking", "root": "ط ل ب", "pos": "N", "is_proper_noun": false},
-      {"word": "الْعِلْمِ", "translation_en": "knowledge", "root": "ع ل م", "pos": "N", "is_proper_noun": false},
-      {"word": "فَرِيضَةٌ", "translation_en": "an obligation", "root": "ف ر ض", "pos": "N", "is_proper_noun": false},
-      {"word": "عَلَى", "translation_en": "upon", "root": "ع ل و", "pos": "PREP", "is_proper_noun": false},
-      {"word": "كُلِّ", "translation_en": "every", "root": "ك ل ل", "pos": "N", "is_proper_noun": false},
-      {"word": "مُسْلِمٍ", "translation_en": "Muslim", "root": "س ل م", "pos": "N", "is_proper_noun": false},
-      {"word": "أَلَا", "translation_en": "indeed / verily", "root": "أ ل ا", "pos": "PART", "is_proper_noun": false},
-      {"word": "إِنَّ", "translation_en": "surely", "root": "إ ن ن", "pos": "PART", "is_proper_noun": false},
-      {"word": "اللَّهَ", "translation_en": "Allah (God)", "root": "أ ل ه", "pos": "N", "is_proper_noun": true},
-      {"word": "يُحِبُّ", "translation_en": "loves", "root": "ح ب ب", "pos": "V", "is_proper_noun": false},
-      {"word": "بُغَاةَ", "translation_en": "seekers of", "root": "ب غ ي", "pos": "N", "is_proper_noun": false},
-      {"word": "الْعِلْمِ", "translation_en": "knowledge", "root": "ع ل م", "pos": "N", "is_proper_noun": false}
+      {
+        "word": "قَالَ",
+        "translation": {
+          "en": "said",
+          "ur": "فرمایا",
+          "tr": "dedi",
+          "fa": "فرمود",
+          "id": "berkata",
+          "bn": "বললেন",
+          "es": "dijo",
+          "fr": "dit",
+          "de": "sagte",
+          "ru": "сказал",
+          "zh": "说了"
+        },
+        "root": "ق و ل",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "رَسُولُ",
+        "translation": {
+          "en": "the Messenger",
+          "ur": "رسول",
+          "tr": "Elcisi",
+          "fa": "فرستاده",
+          "id": "Utusan",
+          "bn": "রাসূল",
+          "es": "el Mensajero",
+          "fr": "le Messager",
+          "de": "der Gesandte",
+          "ru": "Посланник",
+          "zh": "使者"
+        },
+        "root": "ر س ل",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "اللَّهِ",
+        "translation": {
+          "en": "of Allah",
+          "ur": "اللہ کے",
+          "tr": "Allah'ın",
+          "fa": "خدا",
+          "id": "Allah",
+          "bn": "আল্লাহর",
+          "es": "de Dios",
+          "fr": "de Dieu",
+          "de": "Gottes",
+          "ru": "Аллаха",
+          "zh": "安拉的"
+        },
+        "root": "أ ل ه",
+        "pos": "N",
+        "is_proper_noun": true
+      },
+      {
+        "word": "صَلَّى",
+        "translation": {
+          "en": "may blessings be upon",
+          "ur": "صلوات ہوں",
+          "tr": "salât olsun",
+          "fa": "درود باد بر",
+          "id": "semoga shalawat",
+          "bn": "সালাত হোক",
+          "es": "que las bendiciones sean sobre",
+          "fr": "que la priere soit sur",
+          "de": "Segen sei auf",
+          "ru": "да благословит",
+          "zh": "愿赐福于"
+        },
+        "root": "ص ل و",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "اللَّهُ",
+        "translation": {
+          "en": "Allah",
+          "ur": "اللہ",
+          "tr": "Allah",
+          "fa": "خداوند",
+          "id": "Allah",
+          "bn": "আল্লাহ",
+          "es": "Dios",
+          "fr": "Dieu",
+          "de": "Gott",
+          "ru": "Аллах",
+          "zh": "安拉"
+        },
+        "root": "أ ل ه",
+        "pos": "N",
+        "is_proper_noun": true
+      },
+      {
+        "word": "عَلَيْهِ",
+        "translation": {
+          "en": "upon him",
+          "ur": "اس پر",
+          "tr": "onun üzerine",
+          "fa": "بر او",
+          "id": "kepadanya",
+          "bn": "তাঁর উপর",
+          "es": "sobre el",
+          "fr": "sur lui",
+          "de": "auf ihm",
+          "ru": "на него",
+          "zh": "于他"
+        },
+        "root": "ع ل و",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَآلِهِ",
+        "translation": {
+          "en": "and his family",
+          "ur": "اور ان کی آل پر",
+          "tr": "ve ailesine",
+          "fa": "و خاندانش",
+          "id": "dan keluarganya",
+          "bn": "ও তাঁর পরিবারবর্গ",
+          "es": "y su familia",
+          "fr": "et sa famille",
+          "de": "und seiner Familie",
+          "ru": "и его семейство",
+          "zh": "及其家属"
+        },
+        "root": "أ و ل",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "طَلَبُ",
+        "translation": {
+          "en": "seeking",
+          "ur": "طلب کرنا",
+          "tr": "aramak",
+          "fa": "جستجوی",
+          "id": "menuntut",
+          "bn": "অন্বেষণ করা",
+          "es": "la busqueda de",
+          "fr": "la recherche du",
+          "de": "das Streben nach",
+          "ru": "стремление к",
+          "zh": "寻求"
+        },
+        "root": "ط ل ب",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْعِلْمِ",
+        "translation": {
+          "en": "knowledge",
+          "ur": "علم",
+          "tr": "ilmin",
+          "fa": "دانش",
+          "id": "ilmu",
+          "bn": "জ্ঞান",
+          "es": "conocimiento",
+          "fr": "savoir",
+          "de": "Wissen",
+          "ru": "знания",
+          "zh": "知识"
+        },
+        "root": "ع ل م",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "فَرِيضَةٌ",
+        "translation": {
+          "en": "an obligation",
+          "ur": "فرض ہے",
+          "tr": "bir farzdır",
+          "fa": "واجب است",
+          "id": "suatu kewajiban",
+          "bn": "একটি ফরজ",
+          "es": "una obligacion",
+          "fr": "une obligation",
+          "de": "eine Pflicht",
+          "ru": "обязанность",
+          "zh": "一项义务"
+        },
+        "root": "ف ر ض",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "عَلَى",
+        "translation": {
+          "en": "upon",
+          "ur": "پر",
+          "tr": "üzerine",
+          "fa": "بر",
+          "id": "atas",
+          "bn": "উপর",
+          "es": "sobre",
+          "fr": "sur",
+          "de": "auf",
+          "ru": "на",
+          "zh": "对于"
+        },
+        "root": "ع ل و",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "كُلِّ",
+        "translation": {
+          "en": "every",
+          "ur": "ہر",
+          "tr": "her",
+          "fa": "هر",
+          "id": "setiap",
+          "bn": "প্রত্যেক",
+          "es": "cada",
+          "fr": "chaque",
+          "de": "jedem",
+          "ru": "каждого",
+          "zh": "每一个"
+        },
+        "root": "ك ل ل",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "مُسْلِمٍ",
+        "translation": {
+          "en": "Muslim",
+          "ur": "مسلمان",
+          "tr": "Musluman",
+          "fa": "مسلمانی",
+          "id": "Muslim",
+          "bn": "মুসলিমের",
+          "es": "musulman",
+          "fr": "musulman",
+          "de": "Muslim",
+          "ru": "мусульманина",
+          "zh": "穆斯林"
+        },
+        "root": "س ل م",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَلَا",
+        "translation": {
+          "en": "verily / behold",
+          "ur": "خبردار رہو",
+          "tr": "biliniz ki",
+          "fa": "آگاه باشید که",
+          "id": "ketahuilah",
+          "bn": "জেনে রেখো",
+          "es": "sabed que",
+          "fr": "sachez que",
+          "de": "wisset",
+          "ru": "знайте же",
+          "zh": "须知"
+        },
+        "root": "أ ل ا",
+        "pos": "PART",
+        "is_proper_noun": false
+      },
+      {
+        "word": "إِنَّ",
+        "translation": {
+          "en": "indeed",
+          "ur": "بے شک",
+          "tr": "muhakkak ki",
+          "fa": "همانا",
+          "id": "sesungguhnya",
+          "bn": "নিশ্চয়ই",
+          "es": "ciertamente",
+          "fr": "certes",
+          "de": "wahrlich",
+          "ru": "поистине",
+          "zh": "的确"
+        },
+        "root": "إ ن ن",
+        "pos": "PART",
+        "is_proper_noun": false
+      },
+      {
+        "word": "اللَّهَ",
+        "translation": {
+          "en": "Allah",
+          "ur": "اللہ",
+          "tr": "Allah",
+          "fa": "خداوند",
+          "id": "Allah",
+          "bn": "আল্লাহ",
+          "es": "Dios",
+          "fr": "Dieu",
+          "de": "Gott",
+          "ru": "Аллах",
+          "zh": "安拉"
+        },
+        "root": "أ ل ه",
+        "pos": "N",
+        "is_proper_noun": true
+      },
+      {
+        "word": "يُحِبُّ",
+        "translation": {
+          "en": "loves",
+          "ur": "پسند فرماتا ہے",
+          "tr": "sever",
+          "fa": "دوست می‌دارد",
+          "id": "menyukai",
+          "bn": "ভালোবাসেন",
+          "es": "ama a",
+          "fr": "aime",
+          "de": "liebt",
+          "ru": "любит",
+          "zh": "喜爱"
+        },
+        "root": "ح ب ب",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "بُغَاةَ",
+        "translation": {
+          "en": "the seekers of",
+          "ur": "طالبان",
+          "tr": "arayanları",
+          "fa": "جویندگان",
+          "id": "para penuntut",
+          "bn": "অনুসন্ধানকারীদের",
+          "es": "los buscadores de",
+          "fr": "les chercheurs de",
+          "de": "die Suchenden nach",
+          "ru": "ищущих",
+          "zh": "追求者们"
+        },
+        "root": "ب غ ي",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْعِلْمِ",
+        "translation": {
+          "en": "knowledge",
+          "ur": "علم کے",
+          "tr": "ilmin",
+          "fa": "دانش",
+          "id": "ilmu",
+          "bn": "জ্ঞানের",
+          "es": "conocimiento",
+          "fr": "savoir",
+          "de": "Wissen",
+          "ru": "знания",
+          "zh": "知识的"
+        },
+        "root": "ع ل م",
+        "pos": "N",
+        "is_proper_noun": false
+      }
     ],
     "tags": ["knowledge", "ethics", "prophetic_tradition"],
     "hadith_type": "prophetic_tradition",
     "related_quran": [
       {"ref": "96:1", "relationship": "thematic"},
       {"ref": "20:114", "relationship": "thematic"},
-      {"ref": "58:11", "relationship": "thematic"}
+      {"ref": "58:11", "relationship": "thematic"},
+      {"ref": "39:9", "relationship": "thematic"}
     ],
     "isnad_matn": {
       "isnad_ar": "أَخْبَرَنَا مُحَمَّدُ بْنُ يَعْقُوبَ عَنْ عَلِيِّ بْنِ إِبْرَاهِيمَ بْنِ هَاشِمٍ عَنْ أَبِيهِ عَنِ الْحَسَنِ بْنِ أَبِي الْحُسَيْنِ الْفَارِسِيِّ عَنْ عَبْدِ الرَّحْمَنِ بْنِ زَيْدٍ عَنْ أَبِيهِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
@@ -59,7 +402,7 @@
           "position": 2,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Ali ibn Ibrahim ibn Hashim al-Qummi (d. ~329 AH), prominent Shia exegete"
+          "known_identity": "Ali ibn Ibrahim ibn Hashim al-Qummi (d. ~329 AH), prominent Shia exegete and author of Tafsir al-Qummi"
         },
         {
           "name_ar": "أَبِيهِ",
@@ -68,7 +411,7 @@
           "position": 3,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Ibrahim ibn Hashim al-Qummi, father of Ali"
+          "known_identity": "Ibrahim ibn Hashim al-Qummi (d. ~early 3rd century AH), father of Ali, a prominent narrator who transmitted from the companions of the Imams"
         },
         {
           "name_ar": "الْحَسَنُ بْنُ أَبِي الْحُسَيْنِ الْفَارِسِيُّ",
@@ -76,7 +419,7 @@
           "role": "narrator",
           "position": 4,
           "identity_confidence": "likely",
-          "ambiguity_note": "Known narrator but relatively less documented. Most likely al-Hasan ibn Abi al-Husayn al-Farisi, a narrator from Fars (Persia).",
+          "ambiguity_note": "A narrator from the Fars region of Persia. Less extensively documented in rijal literature compared to other narrators in this chain. Identified as al-Hasan ibn Abi al-Husayn al-Farisi based on chain context.",
           "known_identity": "Al-Hasan ibn Abi al-Husayn al-Farisi"
         },
         {
@@ -85,7 +428,7 @@
           "role": "narrator",
           "position": 5,
           "identity_confidence": "likely",
-          "ambiguity_note": "Multiple individuals named Abd al-Rahman ibn Zayd in hadith literature. Most likely Abd al-Rahman ibn Zayd ibn Aslam based on the chain context.",
+          "ambiguity_note": "Several individuals bear this name in hadith literature. Most probably Abd al-Rahman ibn Zayd ibn Aslam, given the chain context and the subsequent reference to 'his father' (Zayd ibn Aslam).",
           "known_identity": "Abd al-Rahman ibn Zayd ibn Aslam"
         },
         {
@@ -95,7 +438,7 @@
           "position": 6,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Zayd ibn Aslam, father of Abd al-Rahman"
+          "known_identity": "Zayd ibn Aslam, father of Abd al-Rahman, a well-known narrator"
         },
         {
           "name_ar": "أَبُو عَبْدِ اللَّهِ",
@@ -104,70 +447,76 @@
           "position": 7,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Imam Ja'far al-Sadiq (AS), the sixth Imam (d. 148 AH)"
+          "known_identity": "Imam Ja'far al-Sadiq (AS), the sixth Shia Imam (d. 148 AH)"
         }
       ]
     },
     "translations": {
+      "en": {
+        "text": "The Messenger of Allah, may the blessings of Allah be upon him and his family, said: 'Seeking knowledge is an obligation upon every Muslim. Verily, Allah loves the seekers of knowledge.'",
+        "summary": "The Prophet Muhammad (peace be upon him and his family) proclaimed that seeking knowledge is a compulsory duty upon every Muslim, and emphasized that Allah loves those who actively pursue knowledge.",
+        "key_terms": {"طلب العلم": "Seeking knowledge; the active pursuit of learning and understanding", "فريضة": "An obligation; a mandatory religious duty that every Muslim must fulfill", "بغاة العلم": "Seekers of knowledge; those who earnestly strive in the pursuit of learning"},
+        "seo_question": "What did the Prophet Muhammad say about the obligation of seeking knowledge in Islam?"
+      },
       "ur": {
-        "text": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا: علم حاصل کرنا ہر مسلمان پر فرض ہے۔ آگاہ رہو! بے شک اللہ علم کے طلبگاروں سے محبت فرماتا ہے۔",
-        "summary": "نبی اکرم صلی اللہ علیہ وآلہ وسلم نے علم حاصل کرنے کو ہر مسلمان پر فرض قرار دیا اور فرمایا کہ اللہ علم کے متلاشیوں سے محبت کرتا ہے۔",
-        "key_terms": {"طلب العلم": "علم حاصل کرنا، تعلیم حاصل کرنا", "فريضة": "فرض، لازمی فریضہ", "بغاة العلم": "علم کے طلبگار، علم کے متلاشی"},
-        "seo_question": "کیا اسلام میں علم حاصل کرنا فرض ہے اور نبی اکرم نے اس بارے میں کیا فرمایا؟"
+        "text": "رسول اللہ صلی اللہ علیہ وآلہ وسلم نے فرمایا: علم کا حصول ہر مسلمان پر فرض ہے۔ آگاہ رہو کہ اللہ تعالیٰ علم کے طلب گاروں سے محبت فرماتا ہے۔",
+        "summary": "حضرت رسول اکرم صلی اللہ علیہ وآلہ وسلم نے علم حاصل کرنا ہر مسلمان کے لیے فرض قرار دیا اور بتایا کہ اللہ تعالیٰ علم کے متلاشیوں سے محبت کرتا ہے۔",
+        "key_terms": {"طلب العلم": "علم کی تلاش؛ سیکھنے اور سمجھنے کی فعال کوشش", "فريضة": "فرض؛ ایک لازمی دینی ذمہ داری", "بغاة العلم": "علم کے متلاشی؛ وہ لوگ جو سنجیدگی سے علم حاصل کرنے کی کوشش کریں"},
+        "seo_question": "اسلام میں علم حاصل کرنے کی فرضیت کے بارے میں نبی اکرم نے کیا فرمایا؟"
       },
       "tr": {
-        "text": "Resulullah (s.a.v.s.) buyurdu: İlim talep etmek her Müslüman üzerine farzdır. Bilin ki Allah ilim talep edenleri sever.",
-        "summary": "Hz. Peygamber (s.a.v.s.) ilim öğrenmeyi her Müslüman için farz kılmış ve Allah'ın ilim talep edenleri sevdiğini bildirmiştir.",
-        "key_terms": {"طلب العلم": "İlim talep etmek, öğrenmek", "فريضة": "Farz, zorunlu görev", "بغاة العلم": "İlim talep edenler, arayanlar"},
-        "seo_question": "Hz. Peygamber ilim öğrenmenin farz olduğunu nasıl açıklamıştır?"
+        "text": "Resulullah (sallallahu aleyhi ve alihi) buyurdu: 'Ilim talep etmek her Musluman uzerine farzdır. Biliniz ki Allah ilim arayanlari sever.'",
+        "summary": "Hz. Peygamber (s.a.a.) ilim oğrenmeyi her Musluman icin farz ilan etmis ve Allah'in ilim talep edenleri sevdiğini vurgulamistir.",
+        "key_terms": {"طلب العلم": "Ilim aramak; oğrenme ve anlama cabasinda bulunmak", "فريضة": "Farz; her Muslumanin yerine getirmesi gereken dini gorev", "بغاة العلم": "Ilim talep edenler; bilgiyi ciddi olarak arayanlar"},
+        "seo_question": "Hz. Peygamber Islam'da ilim oğrenmenin farz olusu hakkinda ne buyurmustur?"
       },
       "fa": {
-        "text": "رسول خدا صلی الله علیه وآله فرمود: طلب علم بر هر مسلمانی واجب است. آگاه باشید! همانا خداوند جویندگان علم را دوست دارد.",
-        "summary": "پیامبر اکرم صلی الله علیه وآله طلب علم را بر هر مسلمان واجب دانستند و فرمودند خداوند جویندگان علم را دوست دارد.",
-        "key_terms": {"طلب العلم": "جستجوی علم، کسب دانش", "فريضة": "واجب، فریضه", "بغاة العلم": "جویندگان علم، طالبان دانش"},
-        "seo_question": "آیا طلب علم در اسلام واجب است و پیامبر اکرم در این باره چه فرمودند؟"
+        "text": "رسول خدا صلی الله علیه وآله فرمود: طلب علم بر هر مسلمانی واجب است. آگاه باشید که خداوند جویندگان علم را دوست دارد.",
+        "summary": "پیامبر اکرم صلی الله علیه وآله کسب دانش را بر هر مسلمان واجب اعلام کردند و تاکید فرمودند که خداوند جویندگان علم را دوست دارد.",
+        "key_terms": {"طلب العلم": "جستجوی دانش؛ تلاش فعالانه برای یادگیری و فهم", "فريضة": "واجب؛ تکلیف دینی الزامی بر هر مسلمان", "بغاة العلم": "جویندگان علم؛ کسانی که با جدیت در پی کسب دانش هستند"},
+        "seo_question": "پیامبر اکرم درباره واجب بودن کسب علم در اسلام چه فرمودند؟"
       },
       "id": {
-        "text": "Rasulullah shallallahu 'alaihi wa alihi bersabda: Menuntut ilmu adalah kewajiban atas setiap Muslim. Ketahuilah, sesungguhnya Allah mencintai para pencari ilmu.",
-        "summary": "Nabi Muhammad (saww) mewajibkan menuntut ilmu atas setiap Muslim dan menyatakan bahwa Allah mencintai para pencari ilmu.",
-        "key_terms": {"طلب العلم": "Menuntut ilmu, belajar", "فريضة": "Kewajiban, fardhu", "بغاة العلم": "Para pencari ilmu"},
-        "seo_question": "Apakah menuntut ilmu wajib dalam Islam dan apa sabda Nabi Muhammad tentangnya?"
+        "text": "Rasulullah shallallahu alaihi wa alihi bersabda: 'Menuntut ilmu adalah kewajiban bagi setiap Muslim. Ketahuilah bahwa Allah mencintai para pencari ilmu.'",
+        "summary": "Nabi Muhammad (saww) menyatakan bahwa menuntut ilmu adalah kewajiban bagi setiap Muslim dan menegaskan bahwa Allah mencintai mereka yang giat mencari ilmu.",
+        "key_terms": {"طلب العلم": "Menuntut ilmu; usaha aktif dalam belajar dan memahami", "فريضة": "Kewajiban; tugas keagamaan yang wajib dipenuhi setiap Muslim", "بغاة العلم": "Para pencari ilmu; mereka yang bersungguh-sungguh mencari pengetahuan"},
+        "seo_question": "Apa yang disabdakan Nabi Muhammad tentang kewajiban menuntut ilmu dalam Islam?"
       },
       "bn": {
-        "text": "রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়া আলিহি বলেছেন: ইলম অন্বেষণ করা প্রতিটি মুসলমানের উপর ফরজ। জেনে রাখো! নিশ্চয়ই আল্লাহ ইলমের সন্ধানকারীদের ভালোবাসেন।",
-        "summary": "নবী মুহাম্মাদ (সাওও) জ্ঞান অর্জনকে প্রতিটি মুসলমানের জন্য ফরজ ঘোষণা করেছেন এবং বলেছেন যে আল্লাহ জ্ঞান অন্বেষণকারীদের ভালোবাসেন।",
-        "key_terms": {"طلب العلم": "জ্ঞান অন্বেষণ, শিক্ষা অর্জন", "فريضة": "ফরজ, আবশ্যিক কর্তব্য", "بغاة العلم": "জ্ঞানের সন্ধানকারী"},
-        "seo_question": "ইসলামে জ্ঞান অর্জন কি ফরজ এবং নবী মুহাম্মাদ এ বিষয়ে কী বলেছেন?"
+        "text": "রাসূলুল্লাহ সাল্লাল্লাহু আলাইহি ওয়া আলিহি বলেছেন: 'জ্ঞান অন্বেষণ করা প্রতিটি মুসলমানের উপর ফরজ। জেনে রেখো, নিশ্চয়ই আল্লাহ জ্ঞান অন্বেষণকারীদের ভালোবাসেন।'",
+        "summary": "নবী মুহাম্মাদ (সাওও) ঘোষণা করেছেন যে জ্ঞান অর্জন করা প্রতিটি মুসলমানের জন্য বাধ্যতামূলক এবং জোর দিয়ে বলেছেন যে আল্লাহ জ্ঞানের অন্বেষণকারীদের ভালোবাসেন।",
+        "key_terms": {"طلب العلم": "জ্ঞান অন্বেষণ; শেখা ও বোঝার সক্রিয় প্রচেষ্টা", "فريضة": "ফরজ; প্রতিটি মুসলমানের পালনীয় ধর্মীয় বাধ্যতামূলক কর্তব্য", "بغاة العلم": "জ্ঞানের সন্ধানকারী; যারা আন্তরিকভাবে জ্ঞান অর্জনে সচেষ্ট"},
+        "seo_question": "ইসলামে জ্ঞান অর্জনের বাধ্যতামূলকতা সম্পর্কে নবী মুহাম্মাদ কী বলেছেন?"
       },
       "es": {
-        "text": "El Mensajero de Dios (la paz y las bendiciones sean con él y su familia) dijo: La búsqueda del conocimiento es una obligación para todo musulmán. ¡Sabed que Dios ama a los buscadores del conocimiento!",
-        "summary": "El Profeta Muhammad (P) declaró obligatoria la búsqueda del conocimiento para todo musulmán y afirmó que Dios ama a quienes buscan el saber.",
-        "key_terms": {"طلب العلم": "Búsqueda del conocimiento, aprendizaje", "فريضة": "Obligación religiosa", "بغاة العلم": "Buscadores del conocimiento"},
-        "seo_question": "¿Es obligatorio buscar el conocimiento en el Islam según el Profeta Muhammad?"
+        "text": "El Mensajero de Dios, que las bendiciones de Dios sean sobre el y su familia, dijo: 'La busqueda del conocimiento es una obligacion para todo musulman. Sabed que Dios ama a quienes buscan el conocimiento.'",
+        "summary": "El Profeta Muhammad (P) declaro que la busqueda del conocimiento es un deber obligatorio para todo musulman y enfatizo que Dios ama a quienes se dedican activamente a buscar el saber.",
+        "key_terms": {"طلب العلم": "Busqueda del conocimiento; esfuerzo activo por aprender y comprender", "فريضة": "Obligacion; deber religioso que todo musulman debe cumplir", "بغاة العلم": "Buscadores del conocimiento; aquellos que se esfuerzan seriamente por aprender"},
+        "seo_question": "Que dijo el Profeta Muhammad sobre la obligacion de buscar el conocimiento en el Islam?"
       },
       "fr": {
-        "text": "Le Messager de Dieu (que la paix et les bénédictions soient sur lui et sa famille) a dit : La recherche du savoir est une obligation pour tout musulman. Sachez que Dieu aime les chercheurs de savoir !",
-        "summary": "Le Prophète Muhammad (P) a déclaré la recherche du savoir obligatoire pour tout musulman et affirmé que Dieu aime ceux qui cherchent le savoir.",
-        "key_terms": {"طلب العلم": "Recherche du savoir, apprentissage", "فريضة": "Obligation religieuse", "بغاة العلم": "Chercheurs de savoir"},
-        "seo_question": "La recherche du savoir est-elle obligatoire en Islam selon le Prophète Muhammad ?"
+        "text": "Le Messager de Dieu, que les benedictions de Dieu soient sur lui et sa famille, a dit : 'La quete du savoir est une obligation pour tout musulman. Sachez que Dieu aime ceux qui recherchent le savoir.'",
+        "summary": "Le Prophete Muhammad (P) a proclame que la quete du savoir est un devoir obligatoire pour tout musulman et a souligne que Dieu aime ceux qui s'engagent activement dans la recherche du savoir.",
+        "key_terms": {"طلب العلم": "Quete du savoir ; effort actif d'apprentissage et de comprehension", "فريضة": "Obligation ; devoir religieux que tout musulman doit accomplir", "بغاة العلم": "Chercheurs de savoir ; ceux qui s'efforcent serieusement d'apprendre"},
+        "seo_question": "Que dit le Prophete Muhammad sur l'obligation de rechercher le savoir en Islam ?"
       },
       "de": {
-        "text": "Der Gesandte Gottes (Gottes Segen und Friede seien auf ihm und seiner Familie) sagte: Das Streben nach Wissen ist eine Pflicht für jeden Muslim. Wisset, dass Gott die Suchenden des Wissens liebt!",
-        "summary": "Prophet Muhammad (F) erklärte das Streben nach Wissen zur Pflicht für jeden Muslim und sagte, dass Gott die Wissensuchenden liebt.",
-        "key_terms": {"طلب العلم": "Streben nach Wissen, Lernen", "فريضة": "Religiöse Pflicht", "بغاة العلم": "Suchende des Wissens"},
-        "seo_question": "Ist das Streben nach Wissen im Islam gemäß Prophet Muhammad eine Pflicht?"
+        "text": "Der Gesandte Gottes, Gottes Segen sei auf ihm und seiner Familie, sagte: 'Das Streben nach Wissen ist eine Pflicht fuer jeden Muslim. Wisset, dass Gott die Suchenden des Wissens liebt.'",
+        "summary": "Prophet Muhammad (F) erklaerte das Streben nach Wissen zur Pflicht fuer jeden Muslim und betonte, dass Gott diejenigen liebt, die sich aktiv um Wissen bemuehen.",
+        "key_terms": {"طلب العلم": "Streben nach Wissen; aktives Bemuehen um Lernen und Verstehen", "فريضة": "Pflicht; eine religiose Verpflichtung, die jeder Muslim erfuellen muss", "بغاة العلم": "Suchende des Wissens; jene, die ernsthaft nach Wissen streben"},
+        "seo_question": "Was sagte der Prophet Muhammad ueber die Pflicht zur Wissenssuche im Islam?"
       },
       "ru": {
-        "text": "Посланник Аллаха (да благословит Аллах его и его род) сказал: Стремление к знанию — обязанность каждого мусульманина. Знайте, что Аллах любит ищущих знания!",
-        "summary": "Пророк Мухаммад (мир ему и его семье) объявил стремление к знанию обязанностью каждого мусульманина и сказал, что Аллах любит ищущих знания.",
-        "key_terms": {"طلب العلم": "Стремление к знанию, обучение", "فريضة": "Религиозная обязанность", "بغاة العلم": "Ищущие знания"},
-        "seo_question": "Является ли стремление к знанию обязанностью в Исламе по словам Пророка Мухаммада?"
+        "text": "Посланник Аллаха, да благословит его Аллах и его род, сказал: 'Поиск знания является обязанностью каждого мусульманина. Знайте же, что Аллах любит ищущих знания.'",
+        "summary": "Пророк Мухаммад (мир ему и его семье) провозгласил поиск знания обязанностью каждого мусульманина и подчеркнул, что Аллах любит тех, кто активно стремится к знанию.",
+        "key_terms": {"طلب العلم": "Поиск знания; активное стремление к обучению и пониманию", "فريضة": "Обязанность; религиозный долг, который должен выполнять каждый мусульманин", "بغاة العلم": "Ищущие знания; те, кто серьезно стремится к обретению знаний"},
+        "seo_question": "Что сказал Пророк Мухаммад об обязанности поиска знаний в Исламе?"
       },
       "zh": {
-        "text": "安拉的使者（愿安拉赐福他及其家族）说：求知是每个穆斯林的义务。须知，安拉喜爱求知者！",
-        "summary": "先知穆罕默德（愿主赐福他及其家族）宣布求知是每个穆斯林的义务，并说安拉喜爱求知者。",
-        "key_terms": {"طلب العلم": "追求知识，求学", "فريضة": "宗教义务", "بغاة العلم": "求知者，知识的追寻者"},
-        "seo_question": "根据先知穆罕默德的教导，求知在伊斯兰教中是否是一项义务？"
+        "text": "安拉的使者，愿安拉赐福他及其家族，说：'求知是每个穆斯林的义务。须知，安拉喜爱追求知识的人。'",
+        "summary": "先知穆罕默德（愿主赐福他及其家族）宣布求知是每个穆斯林的必尽义务，并强调安拉喜爱那些积极追求知识的人。",
+        "key_terms": {"طلب العلم": "求知；主动学习和理解的努力", "فريضة": "义务；每个穆斯林必须履行的宗教责任", "بغاة العلم": "求知者；认真致力于获取知识的人"},
+        "seo_question": "先知穆罕默德关于伊斯兰教中求知义务说了什么？"
       }
     }
   }

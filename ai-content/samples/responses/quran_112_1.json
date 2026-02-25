@@ -2,7 +2,7 @@
   "verse_path": "/books/quran:112:1",
   "ai_attribution": {
     "model": "claude-opus-4-6-20260205",
-    "generated_date": "2026-02-23",
+    "generated_date": "2026-02-25",
     "pipeline_version": "1.0.0",
     "generation_method": "claude_code_direct"
   },
@@ -13,36 +13,92 @@
     "word_analysis": [
       {
         "word": "قُلْ",
-        "translation_en": "Say",
+        "translation": {
+          "en": "Say",
+          "ur": "کہہ دیجئے",
+          "tr": "De ki",
+          "fa": "بگو",
+          "id": "Katakanlah",
+          "bn": "বলুন",
+          "es": "Di",
+          "fr": "Dis",
+          "de": "Sprich",
+          "ru": "Скажи",
+          "zh": "你说"
+        },
         "root": "ق و ل",
         "pos": "V",
         "is_proper_noun": false
       },
       {
         "word": "هُوَ",
-        "translation_en": "He",
+        "translation": {
+          "en": "He (is)",
+          "ur": "وہ",
+          "tr": "O",
+          "fa": "او",
+          "id": "Dia",
+          "bn": "তিনি",
+          "es": "Él",
+          "fr": "Il",
+          "de": "Er",
+          "ru": "Он",
+          "zh": "他"
+        },
         "root": "ه و",
         "pos": "PRON",
         "is_proper_noun": false
       },
       {
         "word": "اللَّهُ",
-        "translation_en": "Allah (God)",
+        "translation": {
+          "en": "Allah (God)",
+          "ur": "اللہ",
+          "tr": "Allah'tır",
+          "fa": "خداوند",
+          "id": "Allah",
+          "bn": "আল্লাহ",
+          "es": "Dios",
+          "fr": "Dieu",
+          "de": "Gott",
+          "ru": "Аллах",
+          "zh": "安拉"
+        },
         "root": "أ ل ه",
         "pos": "N",
         "is_proper_noun": true
       },
       {
         "word": "أَحَدٌ",
-        "translation_en": "the One / unique",
+        "translation": {
+          "en": "the One / absolutely unique",
+          "ur": "ایک / یکتا",
+          "tr": "bir tek / eşsiz",
+          "fa": "یگانه / یکتا",
+          "id": "Yang Maha Esa",
+          "bn": "এক-অদ্বিতীয়",
+          "es": "el Único",
+          "fr": "l'Unique",
+          "de": "der Einzige",
+          "ru": "Единый",
+          "zh": "独一的"
+        },
         "root": "و ح د",
         "pos": "ADJ",
         "is_proper_noun": false
       }
     ],
-    "tags": ["theology", "worship"],
+    "tags": ["theology", "worship", "quran_commentary"],
     "hadith_type": "creedal",
-    "related_quran": [],
+    "related_quran": [
+      {"ref": "2:163", "relationship": "thematic"},
+      {"ref": "6:19", "relationship": "thematic"},
+      {"ref": "16:22", "relationship": "thematic"},
+      {"ref": "21:108", "relationship": "thematic"},
+      {"ref": "37:4", "relationship": "thematic"},
+      {"ref": "38:65", "relationship": "thematic"},
+      {"ref": "59:22", "relationship": "thematic"}
+    ],
     "isnad_matn": {
       "isnad_ar": "",
       "matn_ar": "قُلْ هُوَ اللَّهُ أَحَدٌ",
@@ -50,65 +106,104 @@
       "narrators": []
     },
     "translations": {
+      "en": {
+        "text": "Say: He is Allah, the One.",
+        "summary": "The foundational declaration of divine unity (tawhid). This verse commands the Prophet to proclaim that God is absolutely one — not merely singular in number, but uniquely and indivisibly one in His essence, attributes, and actions, without any partner, equal, or comparable being.",
+        "key_terms": {
+          "أحد": "Ahad — The Absolutely One; distinct from 'wahid' (one in number), 'ahad' denotes absolute, indivisible uniqueness with no second, no component parts, and no peer whatsoever",
+          "هو": "Huwa — 'He'; the pronoun of divine absence (gha'ib), pointing to God's transcendence beyond human perception and comprehension"
+        },
+        "seo_question": "What is the meaning of the first verse of Surah Al-Ikhlas 'Qul Huwa Allahu Ahad' and why is it central to Islamic monotheism?"
+      },
       "ur": {
         "text": "کہہ دیجئے: وہ اللہ ایک ہے۔",
-        "summary": "اللہ تعالیٰ کی وحدانیت اور یکتائی کا بنیادی اعلان۔",
-        "key_terms": {"أحد": "احد - مطلق یکتا، بے مثل، جس کا کوئی شریک نہیں"},
-        "seo_question": "سورہ اخلاص کی پہلی آیت 'قل ہو اللہ احد' کا مفہوم کیا ہے؟"
+        "summary": "توحید کا بنیادی اعلان۔ یہ آیت نبی اکرم کو حکم دیتی ہے کہ وہ اعلان کریں کہ اللہ مطلقاً یکتا ہے — نہ صرف عدد میں ایک بلکہ اپنی ذات، صفات اور افعال میں بے مثل اور لا شریک ہے۔",
+        "key_terms": {
+          "أحد": "احد — مطلق یکتائی؛ 'واحد' (عددی ایک) سے مختلف ہے، 'احد' سے مراد ایسی بے مثل وحدانیت ہے جس کا کوئی ثانی، کوئی جزو اور کوئی ہمسر نہیں",
+          "هو": "ہو — وہ؛ غائب کی ضمیر جو اللہ تعالیٰ کی انسانی ادراک سے ماورائیت کی طرف اشارہ کرتی ہے"
+        },
+        "seo_question": "سورہ اخلاص کی پہلی آیت 'قل ہو اللہ احد' کا مفہوم کیا ہے اور توحید میں اس کی اہمیت کیا ہے؟"
       },
       "tr": {
         "text": "De ki: O, Allah'tır, bir tektir.",
-        "summary": "Allah'ın birliğini ve eşsizliğini ilan eden temel ayet.",
-        "key_terms": {"أحد": "Ahad - Mutlak tek, eşsiz, hiçbir ortağı olmayan"},
-        "seo_question": "İhlas Suresi'nin ilk ayeti 'Kul hüvallahü ehad' ne anlama gelir?"
+        "summary": "İslam'ın tevhid inancının temel ilanı. Bu ayet Peygamber'e Allah'ın mutlak birliğini ilan etmesini emreder — yalnızca sayıca bir değil, zâtında, sıfatlarında ve fiillerinde eşsiz ve benzersiz bir tek.",
+        "key_terms": {
+          "أحد": "Ahad — Mutlak birlik; sayısal bir anlamına gelen 'vâhid'den farklı olarak 'ahad' hiçbir eşi, parçası ve benzeri olmayan eşsiz birliği ifade eder",
+          "هو": "Hüve — O; gaib zamiri olup Allah'ın insan idrakinin ötesinde olduğuna işaret eder"
+        },
+        "seo_question": "İhlas Suresi'nin ilk ayeti 'Kul hüvallahü ehad' ne anlama gelir ve İslam tevhidindeki yeri nedir?"
       },
       "fa": {
         "text": "بگو: او خداوند یگانه است.",
-        "summary": "اعلام یکتایی و بی‌همتایی خداوند متعال.",
-        "key_terms": {"أحد": "احد - یکتای مطلق، بی‌نظیر، بدون شریک"},
-        "seo_question": "معنای آیه «قُلْ هُوَ اللَّهُ أَحَدٌ» در سوره اخلاص چیست؟"
+        "summary": "اعلام بنیادین توحید الهی. این آیه به پیامبر فرمان می‌دهد که یکتایی مطلق خداوند را اعلام کند — نه تنها در عدد یکی، بلکه در ذات، صفات و افعال خویش بی‌همتا و بی‌نظیر است.",
+        "key_terms": {
+          "أحد": "احد — یکتایی مطلق؛ متفاوت از «واحد» (یک عددی)، «احد» بیانگر وحدت تجزیه‌ناپذیری است که نه ثانی دارد، نه جزء و نه همتا",
+          "هو": "هو — او؛ ضمیر غایب که به تعالی و برتری خداوند از درک بشری اشاره دارد"
+        },
+        "seo_question": "معنای آیه «قُلْ هُوَ اللَّهُ أَحَدٌ» در سوره اخلاص چیست و چرا پایه توحید اسلامی است؟"
       },
       "id": {
         "text": "Katakanlah: Dialah Allah, Yang Maha Esa.",
-        "summary": "Pernyataan mendasar tentang keesaan dan keunikan Allah.",
-        "key_terms": {"أحد": "Ahad - Yang Maha Esa, tiada sekutu, tiada bandingan"},
-        "seo_question": "Apa makna ayat pertama Surah Al-Ikhlas 'Qul Huwa Allahu Ahad'?"
+        "summary": "Pernyataan mendasar tentang keesaan ilahi (tauhid). Ayat ini memerintahkan Nabi untuk menyatakan bahwa Allah itu mutlak Esa — bukan sekadar satu secara bilangan, melainkan unik dan tak terbagi dalam zat, sifat, dan perbuatan-Nya, tanpa sekutu, tandingan, atau bandingan.",
+        "key_terms": {
+          "أحد": "Ahad — Yang Mutlak Esa; berbeda dari 'wahid' (satu secara bilangan), 'ahad' menunjukkan keunikan mutlak yang tak terbagi, tanpa kedua, tanpa komponen, dan tanpa bandingan",
+          "هو": "Huwa — Dia; kata ganti orang ketiga yang menunjukkan transendensi Allah melampaui persepsi manusia"
+        },
+        "seo_question": "Apa makna ayat pertama Surah Al-Ikhlas 'Qul Huwa Allahu Ahad' dan mengapa ia menjadi inti tauhid Islam?"
       },
       "bn": {
         "text": "বলুন: তিনিই আল্লাহ, এক-অদ্বিতীয়।",
-        "summary": "আল্লাহর একত্ব ও অতুলনীয়তার মৌলিক ঘোষণা।",
-        "key_terms": {"أحد": "আহাদ - পরম একক, অতুলনীয়, কোনো শরীক নেই"},
-        "seo_question": "সূরা ইখলাসের প্রথম আয়াত 'কুল হুওয়াল্লাহু আহাদ' এর অর্থ কী?"
+        "summary": "তাওহীদের মৌলিক ঘোষণা। এই আয়াত নবীকে আদেশ করে ঘোষণা করতে যে আল্লাহ একেবারে এক — শুধু সংখ্যায় এক নয়, বরং তাঁর সত্তা, গুণাবলী ও কর্মে অতুলনীয় ও অবিভাজ্যভাবে এক, কোনো শরীক, সমকক্ষ বা তুলনীয় সত্তা ছাড়া।",
+        "key_terms": {
+          "أحد": "আহাদ — পরম একক; 'ওয়াহিদ' (সংখ্যাগত এক) থেকে ভিন্ন, 'আহাদ' এমন অবিভাজ্য একত্ব বোঝায় যার কোনো দ্বিতীয়, কোনো অংশ এবং কোনো সমকক্ষ নেই",
+          "هو": "হুওয়া — তিনি; গায়েব সর্বনাম যা আল্লাহর মানবিক উপলব্ধির ঊর্ধ্বে থাকার দিকে ইঙ্গিত করে"
+        },
+        "seo_question": "সূরা ইখলাসের প্রথম আয়াত 'কুল হুওয়াল্লাহু আহাদ' এর অর্থ কী এবং ইসলামী তাওহীদে এটি কেন কেন্দ্রীয়?"
       },
       "es": {
         "text": "Di: Él es Dios, el Único.",
-        "summary": "Declaración fundamental de la unicidad absoluta e incomparable de Dios.",
-        "key_terms": {"أحد": "Ahad - El Absolutamente Único, sin par ni asociado"},
-        "seo_question": "¿Cuál es el significado del primer versículo de Surat Al-Ijlás?"
+        "summary": "La declaración fundamental de la unicidad divina (tawhid). Este versículo ordena al Profeta proclamar que Dios es absolutamente uno — no meramente singular en número, sino única e indivisiblemente uno en Su esencia, atributos y acciones, sin socio, igual ni comparable.",
+        "key_terms": {
+          "أحد": "Ahad — El Absolutamente Único; distinto de 'wahid' (uno numérico), 'ahad' denota una unicidad absoluta e indivisible sin segundo, sin partes componentes y sin par alguno",
+          "هو": "Huwa — Él; pronombre de tercera persona que señala la trascendencia de Dios más allá de la percepción humana"
+        },
+        "seo_question": "¿Cuál es el significado del primer versículo de Surat Al-Ijlás 'Qul Huwa Allahu Ahad' y por qué es central en el monoteísmo islámico?"
       },
       "fr": {
         "text": "Dis : Il est Dieu, l'Unique.",
-        "summary": "Déclaration fondamentale de l'unicité absolue et incomparable de Dieu.",
-        "key_terms": {"أحد": "Ahad - L'Absolument Unique, sans égal ni associé"},
-        "seo_question": "Quelle est la signification du premier verset de la Sourate Al-Ikhlâs ?"
+        "summary": "La déclaration fondamentale de l'unicité divine (tawhid). Ce verset ordonne au Prophète de proclamer que Dieu est absolument un — non pas simplement un en nombre, mais un de manière unique et indivisible dans Son essence, Ses attributs et Ses actes, sans associé, égal ni comparable.",
+        "key_terms": {
+          "أحد": "Ahad — L'Absolument Unique ; distinct de 'wahid' (un numérique), 'ahad' désigne une unicité absolue et indivisible sans second, sans parties composantes et sans pareil",
+          "هو": "Huwa — Il ; pronom d'absence (ghâ'ib) indiquant la transcendance de Dieu au-delà de la perception humaine"
+        },
+        "seo_question": "Quelle est la signification du premier verset de la Sourate Al-Ikhlâs 'Qul Huwa Allahu Ahad' et pourquoi est-il central dans le monothéisme islamique ?"
       },
       "de": {
         "text": "Sprich: Er ist Gott, der Einzige.",
-        "summary": "Grundlegende Erklärung der absoluten Einheit und Einzigartigkeit Gottes.",
-        "key_terms": {"أحد": "Ahad - Der absolut Einzige, ohne Gleichen und ohne Teilhaber"},
-        "seo_question": "Was bedeutet der erste Vers der Sure Al-Ikhlas?"
+        "summary": "Die grundlegende Erklärung der göttlichen Einheit (Tawhid). Dieser Vers befiehlt dem Propheten zu verkünden, dass Gott absolut einer ist — nicht bloß zahlenmäßig einer, sondern einzigartig und unteilbar in Seinem Wesen, Seinen Eigenschaften und Seinen Handlungen, ohne Teilhaber, Gleichen oder Vergleichbares.",
+        "key_terms": {
+          "أحد": "Ahad — Der absolut Einzige; verschieden von 'wahid' (numerisch eins), 'ahad' bezeichnet eine absolute, unteilbare Einzigkeit ohne Zweites, ohne Bestandteile und ohne Gleichen",
+          "هو": "Huwa — Er; Pronomen der dritten Person, das auf Gottes Transzendenz jenseits menschlicher Wahrnehmung hinweist"
+        },
+        "seo_question": "Was bedeutet der erste Vers der Sure Al-Ikhlas 'Qul Huwa Allahu Ahad' und warum ist er zentral für den islamischen Monotheismus?"
       },
       "ru": {
         "text": "Скажи: Он — Аллах, Единый.",
-        "summary": "Фундаментальное провозглашение абсолютного единства и уникальности Бога.",
-        "key_terms": {"أحد": "Ахад - Абсолютно Единый, не имеющий равных и сотоварищей"},
-        "seo_question": "Каково значение первого аята суры Аль-Ихлас?"
+        "summary": "Основополагающее провозглашение божественного единства (таухид). Этот аят повелевает Пророку провозгласить, что Бог абсолютно един — не просто один по числу, а уникально и неделимо един в Своей сущности, атрибутах и действиях, без какого-либо сотоварища, равного или подобного.",
+        "key_terms": {
+          "أحد": "Ахад — Абсолютно Единый; в отличие от 'вахид' (один числом), 'ахад' обозначает абсолютную, неделимую единственность без второго, без составных частей и без равного",
+          "هو": "Хува — Он; местоимение третьего лица, указывающее на трансцендентность Бога, превосходящую человеческое восприятие"
+        },
+        "seo_question": "Каково значение первого аята суры Аль-Ихлас 'Куль Хува Аллаху Ахад' и почему он является основой исламского монотеизма?"
       },
       "zh": {
         "text": "你说：他是安拉，是独一的。",
-        "summary": "关于安拉绝对独一性和无与伦比性的根本宣言。",
-        "key_terms": {"أحد": "艾哈德 - 绝对唯一的，无与伦比的，没有伙伴的"},
-        "seo_question": "《忠诚章》第一节经文「你说：他是安拉，是独一的」是什么意思？"
+        "summary": "认主独一（陶希德）的根本宣言。此节经文命令先知宣告安拉是绝对独一的——不仅仅是数量上的一，而是在其本体、属性和行为上都是无与伦比、不可分割的唯一，没有任何伙伴、对等者或可比拟者。",
+        "key_terms": {
+          "أحد": "艾哈德——绝对的独一；不同于'瓦希德'（数量上的一），'艾哈德'表示绝对的、不可分割的独一性，无第二者、无组成部分、无任何匹敌者",
+          "هو": "胡瓦——他；第三人称代词，指向安拉超越人类感知和理解之上的超然性"
+        },
+        "seo_question": "《忠诚章》第一节经文「你说：他是安拉，是独一的」是什么意思？它为何是伊斯兰一神论的核心？"
       }
     }
   }

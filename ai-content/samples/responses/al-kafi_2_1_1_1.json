@@ -2,7 +2,7 @@
   "verse_path": "/books/al-kafi:2:1:1:1",
   "ai_attribution": {
     "model": "claude-opus-4-6-20260205",
-    "generated_date": "2026-02-23",
+    "generated_date": "2026-02-25",
     "pipeline_version": "1.0.0",
     "generation_method": "claude_code_direct"
   },
@@ -11,32 +11,755 @@
     "diacritics_status": "completed",
     "diacritics_changes": [],
     "word_analysis": [
-      {"word": "إِنَّ", "translation_en": "indeed/verily", "root": "إ ن ن", "pos": "PART", "is_proper_noun": false},
-      {"word": "اللَّهَ", "translation_en": "Allah (God)", "root": "أ ل ه", "pos": "N", "is_proper_noun": true},
-      {"word": "عَزَّ", "translation_en": "Mighty", "root": "ع ز ز", "pos": "V", "is_proper_noun": false},
-      {"word": "وَجَلَّ", "translation_en": "and Majestic", "root": "ج ل ل", "pos": "V", "is_proper_noun": false},
-      {"word": "خَلَقَ", "translation_en": "He created", "root": "خ ل ق", "pos": "V", "is_proper_noun": false},
-      {"word": "النَّبِيِّينَ", "translation_en": "the prophets", "root": "ن ب أ", "pos": "N", "is_proper_noun": false},
-      {"word": "طِينَةِ", "translation_en": "clay/nature of", "root": "ط ي ن", "pos": "N", "is_proper_noun": false},
-      {"word": "عِلِّيِّينَ", "translation_en": "'Illiyyin (the highest realm)", "root": "ع ل و", "pos": "N", "is_proper_noun": true},
-      {"word": "قُلُوبَهُمْ", "translation_en": "their hearts", "root": "ق ل ب", "pos": "N", "is_proper_noun": false},
-      {"word": "وَأَبْدَانَهُمْ", "translation_en": "and their bodies", "root": "ب د ن", "pos": "N", "is_proper_noun": false},
-      {"word": "الْمُؤْمِنِينَ", "translation_en": "the believers", "root": "أ م ن", "pos": "N", "is_proper_noun": false},
-      {"word": "الْكُفَّارَ", "translation_en": "the disbelievers", "root": "ك ف ر", "pos": "N", "is_proper_noun": false},
-      {"word": "سِجِّينٍ", "translation_en": "Sijjin (the lowest realm)", "root": "س ج ن", "pos": "N", "is_proper_noun": true},
-      {"word": "فَخَلَطَ", "translation_en": "then He mixed", "root": "خ ل ط", "pos": "V", "is_proper_noun": false},
-      {"word": "الطِّينَتَيْنِ", "translation_en": "the two clays", "root": "ط ي ن", "pos": "N", "is_proper_noun": false},
-      {"word": "يَلِدُ", "translation_en": "begets/gives birth to", "root": "و ل د", "pos": "V", "is_proper_noun": false},
-      {"word": "الْكَافِرَ", "translation_en": "the disbeliever", "root": "ك ف ر", "pos": "N", "is_proper_noun": false},
-      {"word": "السَّيِّئَةَ", "translation_en": "evil/sin", "root": "س و أ", "pos": "N", "is_proper_noun": false},
-      {"word": "الْحَسَنَةَ", "translation_en": "good deed", "root": "ح س ن", "pos": "N", "is_proper_noun": false},
-      {"word": "تَحِنُّ", "translation_en": "yearns/longs for", "root": "ح ن ن", "pos": "V", "is_proper_noun": false}
+      {
+        "word": "إِنَّ",
+        "translation": {
+          "en": "indeed/verily",
+          "ur": "بے شک",
+          "tr": "şüphesiz ki",
+          "fa": "همانا",
+          "id": "sesungguhnya",
+          "bn": "নিশ্চয়ই",
+          "es": "ciertamente",
+          "fr": "certes",
+          "de": "wahrlich",
+          "ru": "воистину",
+          "zh": "确实"
+        },
+        "root": "إ ن ن",
+        "pos": "PART",
+        "is_proper_noun": false
+      },
+      {
+        "word": "اللَّهَ",
+        "translation": {
+          "en": "Allah (God)",
+          "ur": "اللہ",
+          "tr": "Allah",
+          "fa": "خداوند",
+          "id": "Allah",
+          "bn": "আল্লাহ",
+          "es": "Dios",
+          "fr": "Dieu",
+          "de": "Gott",
+          "ru": "Аллах",
+          "zh": "安拉"
+        },
+        "root": "أ ل ه",
+        "pos": "N",
+        "is_proper_noun": true
+      },
+      {
+        "word": "عَزَّ",
+        "translation": {
+          "en": "Mighty",
+          "ur": "عزت والا",
+          "tr": "Aziz olan",
+          "fa": "گرامی",
+          "id": "Yang Maha Mulia",
+          "bn": "মহাপরাক্রমশালী",
+          "es": "Poderoso",
+          "fr": "Puissant",
+          "de": "der Mächtige",
+          "ru": "Могущественный",
+          "zh": "尊贵的"
+        },
+        "root": "ع ز ز",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَجَلَّ",
+        "translation": {
+          "en": "and Majestic",
+          "ur": "اور جلالت والا",
+          "tr": "ve Celil olan",
+          "fa": "و بزرگوار",
+          "id": "dan Maha Agung",
+          "bn": "এবং মহিমান্বিত",
+          "es": "y Majestuoso",
+          "fr": "et Majestueux",
+          "de": "und Erhabene",
+          "ru": "и Величественный",
+          "zh": "和威严的"
+        },
+        "root": "ج ل ل",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "خَلَقَ",
+        "translation": {
+          "en": "He created",
+          "ur": "اس نے پیدا کیا",
+          "tr": "yarattı",
+          "fa": "آفرید",
+          "id": "menciptakan",
+          "bn": "সৃষ্টি করেছেন",
+          "es": "creó",
+          "fr": "créa",
+          "de": "erschuf",
+          "ru": "создал",
+          "zh": "创造了"
+        },
+        "root": "خ ل ق",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "النَّبِيِّينَ",
+        "translation": {
+          "en": "the prophets",
+          "ur": "انبیاء",
+          "tr": "peygamberleri",
+          "fa": "پیامبران",
+          "id": "para nabi",
+          "bn": "নবীগণকে",
+          "es": "los profetas",
+          "fr": "les prophètes",
+          "de": "die Propheten",
+          "ru": "пророков",
+          "zh": "众先知"
+        },
+        "root": "ن ب أ",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "مِنْ",
+        "translation": {
+          "en": "from",
+          "ur": "سے",
+          "tr": "-den/-dan",
+          "fa": "از",
+          "id": "dari",
+          "bn": "থেকে",
+          "es": "de",
+          "fr": "de",
+          "de": "aus/von",
+          "ru": "из",
+          "zh": "从"
+        },
+        "root": "م ن",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "طِينَةِ",
+        "translation": {
+          "en": "clay/nature of",
+          "ur": "مٹی / فطرت",
+          "tr": "çamurundan",
+          "fa": "سرشت",
+          "id": "tanah",
+          "bn": "মাটি / প্রকৃতি",
+          "es": "barro / naturaleza",
+          "fr": "argile / nature",
+          "de": "Ton / Natur",
+          "ru": "глина / природа",
+          "zh": "泥土 / 本性"
+        },
+        "root": "ط ي ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "عِلِّيِّينَ",
+        "translation": {
+          "en": "'Illiyyin (the highest realm)",
+          "ur": "علیین (بلند ترین مقام)",
+          "tr": "İlliyyîn (en yüce makam)",
+          "fa": "علّیّین (بالاترین مرتبه)",
+          "id": "Illiyyin (alam tertinggi)",
+          "bn": "ইল্লিয়্যীন (সর্বোচ্চ স্থান)",
+          "es": "'Illiyyin (el reino más elevado)",
+          "fr": "Illiyyîn (le royaume le plus élevé)",
+          "de": "'Illiyyin (das höchste Reich)",
+          "ru": "Иллиййин (высшая обитель)",
+          "zh": "伊利因（至高天）"
+        },
+        "root": "ع ل و",
+        "pos": "N",
+        "is_proper_noun": true
+      },
+      {
+        "word": "قُلُوبَهُمْ",
+        "translation": {
+          "en": "their hearts",
+          "ur": "ان کے دل",
+          "tr": "kalplerini",
+          "fa": "دل‌هایشان",
+          "id": "hati mereka",
+          "bn": "তাদের অন্তর",
+          "es": "sus corazones",
+          "fr": "leurs cœurs",
+          "de": "ihre Herzen",
+          "ru": "их сердца",
+          "zh": "他们的心灵"
+        },
+        "root": "ق ل ب",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَأَبْدَانَهُمْ",
+        "translation": {
+          "en": "and their bodies",
+          "ur": "اور ان کے جسم",
+          "tr": "ve bedenlerini",
+          "fa": "و بدن‌هایشان",
+          "id": "dan tubuh mereka",
+          "bn": "এবং তাদের দেহ",
+          "es": "y sus cuerpos",
+          "fr": "et leurs corps",
+          "de": "und ihre Körper",
+          "ru": "и их тела",
+          "zh": "和他们的身体"
+        },
+        "root": "ب د ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَخَلَقَ",
+        "translation": {
+          "en": "and He created",
+          "ur": "اور اس نے بنایا",
+          "tr": "ve yarattı",
+          "fa": "و آفرید",
+          "id": "dan Dia menciptakan",
+          "bn": "এবং সৃষ্টি করেছেন",
+          "es": "y creó",
+          "fr": "et Il créa",
+          "de": "und Er erschuf",
+          "ru": "и создал",
+          "zh": "并创造了"
+        },
+        "root": "خ ل ق",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "قُلُوبَ",
+        "translation": {
+          "en": "hearts",
+          "ur": "دل",
+          "tr": "kalpleri",
+          "fa": "دل‌های",
+          "id": "hati",
+          "bn": "অন্তরসমূহ",
+          "es": "corazones",
+          "fr": "les cœurs",
+          "de": "die Herzen",
+          "ru": "сердца",
+          "zh": "心灵"
+        },
+        "root": "ق ل ب",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْمُؤْمِنِينَ",
+        "translation": {
+          "en": "the believers",
+          "ur": "مؤمنین",
+          "tr": "müminlerin",
+          "fa": "مؤمنان",
+          "id": "orang-orang beriman",
+          "bn": "মু'মিনদের",
+          "es": "los creyentes",
+          "fr": "les croyants",
+          "de": "die Gläubigen",
+          "ru": "верующих",
+          "zh": "信士们"
+        },
+        "root": "أ م ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "تِلْكَ",
+        "translation": {
+          "en": "that (same)",
+          "ur": "اسی",
+          "tr": "o (aynı)",
+          "fa": "همان",
+          "id": "itu (yang sama)",
+          "bn": "সেই (একই)",
+          "es": "esa (misma)",
+          "fr": "cette (même)",
+          "de": "jene (selbe)",
+          "ru": "той (самой)",
+          "zh": "那同样的"
+        },
+        "root": "ذ ل ك",
+        "pos": "DEM",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الطِّينَةِ",
+        "translation": {
+          "en": "the clay",
+          "ur": "مٹی",
+          "tr": "çamurdan",
+          "fa": "سرشت",
+          "id": "tanah itu",
+          "bn": "মাটি",
+          "es": "el barro",
+          "fr": "l'argile",
+          "de": "den Ton",
+          "ru": "глину",
+          "zh": "泥土"
+        },
+        "root": "ط ي ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَجَعَلَ",
+        "translation": {
+          "en": "and He made",
+          "ur": "اور بنایا",
+          "tr": "ve kıldı",
+          "fa": "و قرار داد",
+          "id": "dan Dia menjadikan",
+          "bn": "এবং তিনি বানিয়েছেন",
+          "es": "e hizo",
+          "fr": "et Il fit",
+          "de": "und Er machte",
+          "ru": "и сделал",
+          "zh": "并使"
+        },
+        "root": "ج ع ل",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "خَلْقَ",
+        "translation": {
+          "en": "the creation of",
+          "ur": "تخلیق",
+          "tr": "yaratılışını",
+          "fa": "آفرینش",
+          "id": "penciptaan",
+          "bn": "সৃষ্টি",
+          "es": "la creación de",
+          "fr": "la création de",
+          "de": "die Erschaffung",
+          "ru": "сотворение",
+          "zh": "创造"
+        },
+        "root": "خ ل ق",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَبْدَانِ",
+        "translation": {
+          "en": "the bodies of",
+          "ur": "جسموں",
+          "tr": "bedenlerini",
+          "fa": "بدن‌های",
+          "id": "tubuh-tubuh",
+          "bn": "দেহগুলি",
+          "es": "los cuerpos de",
+          "fr": "les corps de",
+          "de": "die Körper",
+          "ru": "тела",
+          "zh": "身体"
+        },
+        "root": "ب د ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "دُونِ",
+        "translation": {
+          "en": "below/lesser than",
+          "ur": "کم تر",
+          "tr": "altından",
+          "fa": "پایین‌تر از",
+          "id": "lebih rendah dari",
+          "bn": "নিম্নতর",
+          "es": "inferior a",
+          "fr": "en dessous de",
+          "de": "unterhalb von",
+          "ru": "ниже",
+          "zh": "低于"
+        },
+        "root": "د و ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "ذَلِكَ",
+        "translation": {
+          "en": "that",
+          "ur": "اس",
+          "tr": "bunun",
+          "fa": "آن",
+          "id": "itu",
+          "bn": "তা",
+          "es": "eso",
+          "fr": "cela",
+          "de": "jenes",
+          "ru": "этого",
+          "zh": "那"
+        },
+        "root": "ذ ل ك",
+        "pos": "DEM",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْكُفَّارَ",
+        "translation": {
+          "en": "the disbelievers",
+          "ur": "کافروں",
+          "tr": "kafirleri",
+          "fa": "کافران",
+          "id": "orang-orang kafir",
+          "bn": "কাফিরদের",
+          "es": "los incrédulos",
+          "fr": "les mécréants",
+          "de": "die Ungläubigen",
+          "ru": "неверующих",
+          "zh": "不信者"
+        },
+        "root": "ك ف ر",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "سِجِّينٍ",
+        "translation": {
+          "en": "Sijjin (the lowest realm)",
+          "ur": "سجین (پست ترین مقام)",
+          "tr": "Siccîn (en alçak makam)",
+          "fa": "سجّین (پست‌ترین مرتبه)",
+          "id": "Sijjin (alam terendah)",
+          "bn": "সিজ্জীন (নিম্নতম স্থান)",
+          "es": "Siyyín (el reino más bajo)",
+          "fr": "Sijjîn (le royaume le plus bas)",
+          "de": "Sijjin (das niedrigste Reich)",
+          "ru": "Сиджжин (низшая обитель)",
+          "zh": "西吉因（深渊）"
+        },
+        "root": "س ج ن",
+        "pos": "N",
+        "is_proper_noun": true
+      },
+      {
+        "word": "فَخَلَطَ",
+        "translation": {
+          "en": "then He mixed",
+          "ur": "پھر ملایا",
+          "tr": "sonra karıştırdı",
+          "fa": "سپس آمیخت",
+          "id": "lalu Dia mencampur",
+          "bn": "তারপর মিশ্রিত করলেন",
+          "es": "luego mezcló",
+          "fr": "puis Il mélangea",
+          "de": "dann vermischte Er",
+          "ru": "затем смешал",
+          "zh": "然后混合了"
+        },
+        "root": "خ ل ط",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "بَيْنَ",
+        "translation": {
+          "en": "between",
+          "ur": "کے درمیان",
+          "tr": "arasında",
+          "fa": "میان",
+          "id": "antara",
+          "bn": "মধ্যে",
+          "es": "entre",
+          "fr": "entre",
+          "de": "zwischen",
+          "ru": "между",
+          "zh": "之间"
+        },
+        "root": "ب ي ن",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الطِّينَتَيْنِ",
+        "translation": {
+          "en": "the two clays",
+          "ur": "دونوں مٹیوں",
+          "tr": "iki çamuru",
+          "fa": "دو سرشت",
+          "id": "kedua tanah",
+          "bn": "দুই মাটি",
+          "es": "los dos barros",
+          "fr": "les deux argiles",
+          "de": "die beiden Tonarten",
+          "ru": "обе глины",
+          "zh": "两种泥土"
+        },
+        "root": "ط ي ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "يَلِدُ",
+        "translation": {
+          "en": "begets/gives birth to",
+          "ur": "جنم دیتا ہے",
+          "tr": "doğurur",
+          "fa": "می‌زاید",
+          "id": "melahirkan",
+          "bn": "জন্ম দেয়",
+          "es": "engendra",
+          "fr": "engendre",
+          "de": "gebiert",
+          "ru": "рождает",
+          "zh": "生出"
+        },
+        "root": "و ل د",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْمُؤْمِنُ",
+        "translation": {
+          "en": "the believer",
+          "ur": "مؤمن",
+          "tr": "mümin",
+          "fa": "مؤمن",
+          "id": "orang beriman",
+          "bn": "মু'মিন",
+          "es": "el creyente",
+          "fr": "le croyant",
+          "de": "der Gläubige",
+          "ru": "верующий",
+          "zh": "信士"
+        },
+        "root": "أ م ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْكَافِرَ",
+        "translation": {
+          "en": "the disbeliever",
+          "ur": "کافر",
+          "tr": "kafiri",
+          "fa": "کافر",
+          "id": "orang kafir",
+          "bn": "কাফির",
+          "es": "el incrédulo",
+          "fr": "le mécréant",
+          "de": "den Ungläubigen",
+          "ru": "неверующего",
+          "zh": "不信者"
+        },
+        "root": "ك ف ر",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "هَاهُنَا",
+        "translation": {
+          "en": "from here/this reason",
+          "ur": "یہاں سے / اسی سبب",
+          "tr": "burada / bu nedenle",
+          "fa": "از اینجا / به این سبب",
+          "id": "dari sinilah",
+          "bn": "এখান থেকে / এই কারণে",
+          "es": "de aquí / por esto",
+          "fr": "d'ici / pour cette raison",
+          "de": "von hier / aus diesem Grund",
+          "ru": "отсюда / по этой причине",
+          "zh": "从这里 / 因此"
+        },
+        "root": "ه ن ا",
+        "pos": "ADV",
+        "is_proper_noun": false
+      },
+      {
+        "word": "يُصِيبُ",
+        "translation": {
+          "en": "befalls/commits",
+          "ur": "مبتلا ہوتا ہے",
+          "tr": "isabet eder",
+          "fa": "مرتکب می‌شود",
+          "id": "menimpa/melakukan",
+          "bn": "আক্রান্ত হয় / করে",
+          "es": "le sobreviene/comete",
+          "fr": "atteint/commet",
+          "de": "trifft/begeht",
+          "ru": "совершает/постигает",
+          "zh": "遭遇/犯下"
+        },
+        "root": "ص و ب",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "السَّيِّئَةَ",
+        "translation": {
+          "en": "evil/sin",
+          "ur": "برائی / گناہ",
+          "tr": "kötülük",
+          "fa": "بدی / گناه",
+          "id": "keburukan",
+          "bn": "মন্দ / পাপ",
+          "es": "maldad / pecado",
+          "fr": "mal / péché",
+          "de": "Übel / Sünde",
+          "ru": "зло / грех",
+          "zh": "恶行 / 罪过"
+        },
+        "root": "س و أ",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْحَسَنَةَ",
+        "translation": {
+          "en": "good deed",
+          "ur": "نیکی",
+          "tr": "iyilik",
+          "fa": "نیکی",
+          "id": "kebaikan",
+          "bn": "ভালো কাজ",
+          "es": "buena obra",
+          "fr": "bonne action",
+          "de": "gute Tat",
+          "ru": "добро",
+          "zh": "善行"
+        },
+        "root": "ح س ن",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "فَقُلُوبُ",
+        "translation": {
+          "en": "so the hearts of",
+          "ur": "پس دل",
+          "tr": "kalpleri ise",
+          "fa": "پس دل‌های",
+          "id": "maka hati",
+          "bn": "তাই অন্তরসমূহ",
+          "es": "así que los corazones de",
+          "fr": "alors les cœurs de",
+          "de": "so sehnen sich die Herzen",
+          "ru": "и вот сердца",
+          "zh": "因此心灵"
+        },
+        "root": "ق ل ب",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "تَحِنُّ",
+        "translation": {
+          "en": "yearns/longs for",
+          "ur": "کھنچتا ہے / ترستا ہے",
+          "tr": "özlem duyar",
+          "fa": "مشتاق است",
+          "id": "merindukan",
+          "bn": "আকুল হয়",
+          "es": "anhela",
+          "fr": "aspire à",
+          "de": "sehnt sich nach",
+          "ru": "тоскует по",
+          "zh": "向往 / 渴望"
+        },
+        "root": "ح ن ن",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "مَا",
+        "translation": {
+          "en": "that which",
+          "ur": "جو",
+          "tr": "şeye",
+          "fa": "آنچه",
+          "id": "apa yang",
+          "bn": "যা",
+          "es": "lo que",
+          "fr": "ce dont",
+          "de": "das, woraus",
+          "ru": "то, из чего",
+          "zh": "所...的"
+        },
+        "root": "م ا",
+        "pos": "REL",
+        "is_proper_noun": false
+      },
+      {
+        "word": "خُلِقُوا",
+        "translation": {
+          "en": "they were created",
+          "ur": "وہ بنائے گئے",
+          "tr": "yaratıldıkları",
+          "fa": "آفریده شده‌اند",
+          "id": "mereka diciptakan",
+          "bn": "তারা সৃষ্ট হয়েছে",
+          "es": "fueron creados",
+          "fr": "ils furent créés",
+          "de": "sie erschaffen wurden",
+          "ru": "они были созданы",
+          "zh": "他们被创造"
+        },
+        "root": "خ ل ق",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "مِنْهُ",
+        "translation": {
+          "en": "from it",
+          "ur": "اس سے",
+          "tr": "ondan",
+          "fa": "از آن",
+          "id": "darinya",
+          "bn": "তা থেকে",
+          "es": "de ello",
+          "fr": "de cela",
+          "de": "daraus",
+          "ru": "из этого",
+          "zh": "从中"
+        },
+        "root": "م ن",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "الْكَافِرِينَ",
+        "translation": {
+          "en": "the disbelievers",
+          "ur": "کافروں",
+          "tr": "kafirlerin",
+          "fa": "کافران",
+          "id": "orang-orang kafir",
+          "bn": "কাফিরদের",
+          "es": "los incrédulos",
+          "fr": "les mécréants",
+          "de": "die Ungläubigen",
+          "ru": "неверующих",
+          "zh": "不信者们"
+        },
+        "root": "ك ف ر",
+        "pos": "N",
+        "is_proper_noun": false
+      }
     ],
     "tags": ["theology", "ethics", "afterlife"],
     "hadith_type": "creedal",
     "related_quran": [
       {"ref": "83:18", "relationship": "explicit"},
-      {"ref": "83:7", "relationship": "explicit"}
+      {"ref": "83:7", "relationship": "explicit"},
+      {"ref": "83:19", "relationship": "thematic"},
+      {"ref": "83:8", "relationship": "thematic"}
     ],
     "isnad_matn": {
       "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ رِبْعِيِّ بْنِ عَبْدِ اللَّهِ عَنْ رَجُلٍ عَنْ عَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ قَالَ",
@@ -50,7 +773,7 @@
           "position": 1,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Ali ibn Ibrahim ibn Hashim al-Qummi (d. ~329 AH), prominent Shia exegete and narrator"
+          "known_identity": "Ali ibn Ibrahim ibn Hashim al-Qummi (d. ~329 AH), prominent Shia exegete, hadith scholar, and author of a well-known Quranic commentary (Tafsir al-Qummi)"
         },
         {
           "name_ar": "أَبِيهِ",
@@ -59,7 +782,7 @@
           "position": 2,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Ibrahim ibn Hashim al-Qummi (d. ~early 4th c. AH), father of Ali, teacher of al-Kulayni"
+          "known_identity": "Ibrahim ibn Hashim al-Qummi (d. ~early 4th century AH), father of Ali, one of the most prolific narrators in Shia hadith collections and a teacher of al-Kulayni"
         },
         {
           "name_ar": "حَمَّادُ بْنُ عِيسَى",
@@ -68,7 +791,7 @@
           "position": 3,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Hammad ibn Isa al-Juhani (d. 209 AH), companion of Imam al-Sadiq (AS)"
+          "known_identity": "Hammad ibn Isa al-Juhani (d. 209 AH), considered among the companions of Imam al-Sadiq (AS) and Imam al-Kadhim (AS), known for his precision in narrating"
         },
         {
           "name_ar": "رِبْعِيُّ بْنُ عَبْدِ اللَّهِ",
@@ -77,7 +800,7 @@
           "position": 4,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Rib'i ibn Abdullah ibn al-Jarud, companion of Imam al-Sadiq (AS)"
+          "known_identity": "Rib'i ibn Abdullah ibn al-Jarud al-Basri, a companion of Imam al-Sadiq (AS), considered reliable (thiqah) by Shia rijal scholars"
         },
         {
           "name_ar": "رَجُلٍ",
@@ -85,7 +808,7 @@
           "role": "narrator",
           "position": 5,
           "identity_confidence": "ambiguous",
-          "ambiguity_note": "Unnamed narrator (rajul). Identity cannot be determined from the chain.",
+          "ambiguity_note": "Unnamed narrator (rajul). Identity cannot be determined from the chain. This creates a break in the chain (irsal), which is why Allamah al-Majlisi graded this hadith as mursal.",
           "known_identity": null
         },
         {
@@ -95,70 +818,76 @@
           "position": 6,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Imam Ali ibn al-Husayn Zayn al-Abidin (AS), the fourth Imam (d. 95 AH)"
+          "known_identity": "Imam Ali ibn al-Husayn Zayn al-Abidin (AS), the fourth Imam of Twelver Shia Islam (d. 95 AH / 713 CE), renowned for his piety and the collection of supplications known as al-Sahifa al-Sajjadiyya"
         }
       ]
     },
     "translations": {
+      "en": {
+        "text": "Indeed, Allah, Mighty and Majestic, created the prophets from the clay of 'Illiyyin -- both their hearts and their bodies. And He created the hearts of the believers from that same clay, but made the bodies of the believers from a lesser substance. And He created the disbelievers from the clay of Sijjin -- both their hearts and their bodies. Then He mixed the two clays together. It is from this that a believer begets a disbeliever and a disbeliever begets a believer. And from this a believer commits sin, and from this a disbeliever performs good deeds. Thus the hearts of the believers yearn toward that from which they were created, and the hearts of the disbelievers yearn toward that from which they were created.",
+        "summary": "Imam Zayn al-Abidin (peace be upon him) taught that Allah created prophets entirely from the exalted clay of 'Illiyyin, believers' hearts from that same clay but their bodies from a lower grade, and disbelievers from the clay of Sijjin. The mixing of the two clays explains the diversity within families and the moral complexity of human behavior.",
+        "key_terms": {"عليين": "'Illiyyin - The highest realm mentioned in Quran 83:18, associated with the register of the righteous and the upper echelons of Paradise", "سجين": "Sijjin - The lowest realm mentioned in Quran 83:7, associated with the register of the wicked and the depths of Hell", "طينة": "Tinah - Primordial clay or creational essence; in this context, the metaphysical substance from which souls and bodies are fashioned"},
+        "seo_question": "What is the Islamic teaching about the primordial clay of believers and disbelievers according to Imam Zayn al-Abidin?"
+      },
       "ur": {
-        "text": "بے شک اللہ عزوجل نے انبیاء علیہم السلام کو علیین کی مٹی سے پیدا فرمایا، ان کے دلوں اور جسموں کو۔ اور مؤمنین کے دلوں کو اسی مٹی سے بنایا اور مؤمنین کے جسموں کو اس سے کم تر درجے سے بنایا۔ اور کافروں کو سجین کی مٹی سے بنایا، ان کے دلوں اور جسموں کو۔ پھر دونوں مٹیوں کو آپس میں ملا دیا۔ اسی وجہ سے مؤمن سے کافر پیدا ہوتا ہے اور کافر سے مؤمن پیدا ہوتا ہے، اسی لیے مؤمن برائی کا ارتکاب کرتا ہے اور اسی لیے کافر نیکی کرتا ہے۔ مؤمنین کے دل اس چیز کی طرف کھنچتے ہیں جس سے وہ بنائے گئے ہیں اور کافروں کے دل اس چیز کی طرف کھنچتے ہیں جس سے وہ بنائے گئے ہیں۔",
-        "summary": "امام زین العابدین علیہ السلام نے فرمایا کہ اللہ نے انبیاء اور مؤمنین کو علیین کی مٹی سے اور کافروں کو سجین سے بنایا، پھر دونوں کو ملا دیا جس سے مختلف نتائج ظاہر ہوتے ہیں۔",
-        "key_terms": {"عليين": "علیین - بلند ترین مقام، جنت کا اعلیٰ درجہ", "سجين": "سجین - پست ترین مقام، جہنم کا نچلا درجہ", "طينة": "طینت - فطرت، سرشت"},
-        "seo_question": "مؤمن اور کافر کی طینت میں کیا فرق ہے؟"
+        "text": "بے شک اللہ عزوجل نے انبیاء علیہم السلام کو علیین کی مٹی سے پیدا فرمایا — ان کے دلوں اور جسموں کو۔ اور مؤمنین کے دلوں کو بھی اسی مٹی سے بنایا، لیکن مؤمنین کے جسموں کو اس سے نچلے درجے سے بنایا۔ اور کافروں کو سجین کی مٹی سے بنایا — ان کے دلوں اور جسموں کو۔ پھر دونوں مٹیوں کو آپس میں ملا دیا۔ اسی وجہ سے مؤمن سے کافر پیدا ہوتا ہے اور کافر سے مؤمن پیدا ہوتا ہے۔ اور اسی سبب سے مؤمن برائی کا ارتکاب کرتا ہے اور کافر نیکی کرتا ہے۔ پس مؤمنین کے دل اس چیز کی طرف کھنچتے ہیں جس سے وہ بنائے گئے ہیں اور کافروں کے دل اس چیز کی طرف کھنچتے ہیں جس سے وہ بنائے گئے ہیں۔",
+        "summary": "امام زین العابدین علیہ السلام نے فرمایا کہ اللہ تعالیٰ نے انبیاء کو علیین کی مٹی سے، مؤمنین کے دلوں کو اسی مٹی سے اور کافروں کو سجین کی مٹی سے پیدا کیا، پھر دونوں مٹیوں کو ملا دیا جس سے انسانی فطرت میں تنوع پیدا ہوا۔",
+        "key_terms": {"عليين": "علیین - قرآن مجید (سورة المطففین ۸۳:۱۸) میں مذکور بلند ترین مقام، نیک لوگوں کے اعمال کا دفتر اور جنت کا اعلیٰ درجہ", "سجين": "سجین - قرآن مجید (سورة المطففین ۸۳:۷) میں مذکور پست ترین مقام، بدکاروں کے اعمال کا دفتر اور جہنم کا نچلا درجہ", "طينة": "طینت - اصل مٹی یا سرشت؛ یہاں وہ مابعدالطبیعیاتی مادہ مراد ہے جس سے روحیں اور جسم بنائے گئے"},
+        "seo_question": "امام زین العابدین علیہ السلام کے مطابق مؤمن اور کافر کی طینت میں کیا فرق ہے؟"
       },
       "tr": {
-        "text": "Şüphesiz ki Allah Azze ve Celle, peygamberleri İlliyyîn'in çamurundan yarattı; kalplerini ve bedenlerini. Müminlerin kalplerini de aynı çamurdan, bedenlerini ise onun altından yarattı. Kafirleri ise Siccîn'in çamurundan yarattı; kalplerini ve bedenlerini. Sonra iki çamuru birbirine karıştırdı. Bu yüzden müminden kafir doğar ve kafirden mümin doğar. Bu nedenle mümin kötülük yapar ve kafir iyilik yapar. Müminlerin kalpleri yaratıldıkları şeye özlem duyar, kafirlerin kalpleri de yaratıldıkları şeye özlem duyar.",
-        "summary": "İmam Zeynelâbidîn (a.s.) peygamberlerin ve müminlerin İlliyyîn, kafirlerin Siccîn çamurundan yaratıldığını ve iki çamurun karıştırıldığını açıklamıştır.",
-        "key_terms": {"عليين": "İlliyyîn - En yüce makam, cennetin en üst derecesi", "سجين": "Siccîn - En alçak makam, cehennemin en alt tabakası", "طينة": "Tıynet - Yaratılış, fıtrat"},
-        "seo_question": "Mümin ve kafirin yaratılış farkı nedir?"
+        "text": "Şüphesiz ki Allah Azze ve Celle, peygamberleri İlliyyîn'in çamurundan yarattı — kalplerini ve bedenlerini. Müminlerin kalplerini de aynı çamurdan yarattı, ancak bedenlerini bunun altında bir dereceden yarattı. Kafirleri ise Siccîn'in çamurundan yarattı — kalplerini ve bedenlerini. Sonra iki çamuru birbirine karıştırdı. Bu nedenle müminden kafir doğar ve kafirden mümin doğar. Yine bundan dolayı mümin kötülük yapar ve kafir iyilik yapar. Müminlerin kalpleri yaratıldıkları şeye özlem duyar, kafirlerin kalpleri de yaratıldıkları şeye özlem duyar.",
+        "summary": "İmam Zeynelâbidîn (a.s.), peygamberlerin tamamen İlliyyîn çamurundan, mümin kalplerin aynı çamurdan fakat bedenlerinin daha düşük dereceden, kafirlerin Siccîn çamurundan yaratıldığını ve iki çamurun karıştırılmasının insan tabiatındaki çeşitliliği açıkladığını bildirmiştir.",
+        "key_terms": {"عليين": "İlliyyîn - Kur'an 83:18'de geçen en yüce makam, iyilerin amel defteri ve cennetin en üst derecesi", "سجين": "Siccîn - Kur'an 83:7'de geçen en alçak makam, kötülerin amel defteri ve cehennemin en alt tabakası", "طينة": "Tıynet - İlk yaratılış çamuru; burada ruhların ve bedenlerin şekillendirildiği metafizik madde kastedilmektedir"},
+        "seo_question": "İmam Zeynelâbidîn'e göre mümin ve kafirin yaratılış çamuru arasındaki fark nedir?"
       },
       "fa": {
-        "text": "همانا خداوند عزوجل پیامبران را از سرشت علّیّین آفرید، دل‌ها و بدن‌هایشان را. و دل‌های مؤمنان را از همان سرشت آفرید و بدن‌های مؤمنان را از مرتبه‌ای پایین‌تر قرار داد. و کافران را از سرشت سجّین آفرید، دل‌ها و بدن‌هایشان را. سپس دو سرشت را با هم آمیخت. از این رو مؤمن فرزند کافر می‌زاید و کافر فرزند مؤمن می‌زاید. و از همین جاست که مؤمن بدی می‌کند و کافر نیکی می‌کند. دل‌های مؤمنان به سوی آنچه از آن آفریده شده‌اند مشتاق است و دل‌های کافران به سوی آنچه از آن آفریده شده‌اند مشتاق است.",
-        "summary": "امام سجاد علیه السلام فرمود که خداوند پیامبران و مؤمنان را از طینت علیین و کافران را از طینت سجین آفرید و این دو را درآمیخت.",
-        "key_terms": {"عليين": "علّیّین - بالاترین مرتبه، مقام برتر بهشتی", "سجين": "سجّین - پست‌ترین مرتبه، طبقه پایین جهنم", "طينة": "طینت - سرشت، فطرت"},
-        "seo_question": "تفاوت طینت مؤمن و کافر از دیدگاه امام سجاد علیه السلام چیست؟"
+        "text": "همانا خداوند عزوجل پیامبران را از سرشت علّیّین آفرید — دل‌ها و بدن‌هایشان را. و دل‌های مؤمنان را از همان سرشت آفرید، اما بدن‌های مؤمنان را از مرتبه‌ای فروتر قرار داد. و کافران را از سرشت سجّین آفرید — دل‌ها و بدن‌هایشان را. سپس هر دو سرشت را با هم آمیخت. از همین رو مؤمن فرزند کافر می‌زاید و کافر فرزند مؤمن. و به همین سبب مؤمن مرتکب بدی می‌شود و کافر کار نیک انجام می‌دهد. پس دل‌های مؤمنان به سوی آنچه از آن آفریده شده‌اند مشتاق‌اند و دل‌های کافران به سوی آنچه از آن آفریده شده‌اند مشتاق‌اند.",
+        "summary": "امام سجاد علیه السلام فرمود که خداوند پیامبران را به تمامی از طینت علیین، دل‌های مؤمنان را از همان طینت ولی بدن‌هایشان از مرتبه‌ای پایین‌تر، و کافران را از طینت سجین آفرید و سپس این دو را درآمیخت تا تنوع سرشت انسانی پدید آید.",
+        "key_terms": {"عليين": "علّیّین - بلندترین مرتبه ذکر شده در قرآن (سوره مطففین ۸۳:۱۸)، دفتر اعمال نیکان و مقام برتر بهشتی", "سجين": "سجّین - پست‌ترین مرتبه ذکر شده در قرآن (سوره مطففین ۸۳:۷)، دفتر اعمال بدکاران و طبقه پایین جهنم", "طينة": "طینت - سرشت اولیه؛ در اینجا ماده مابعدالطبیعی که ارواح و اجساد از آن ساخته شده‌اند"},
+        "seo_question": "از دیدگاه امام سجاد علیه السلام تفاوت طینت مؤمن و کافر چیست؟"
       },
       "id": {
-        "text": "Sesungguhnya Allah Azza wa Jalla menciptakan para nabi dari tanah Illiyyin — hati dan tubuh mereka. Dan Dia menciptakan hati orang-orang beriman dari tanah yang sama, sedangkan tubuh mereka dari derajat yang lebih rendah. Dan Dia menciptakan orang-orang kafir dari tanah Sijjin — hati dan tubuh mereka. Kemudian Dia mencampur kedua tanah itu. Karena itulah orang beriman melahirkan orang kafir dan orang kafir melahirkan orang beriman. Dari sinilah orang beriman berbuat buruk dan orang kafir berbuat baik. Hati orang-orang beriman merindukan asal penciptaan mereka dan hati orang-orang kafir merindukan asal penciptaan mereka.",
-        "summary": "Imam Zainal Abidin (a.s.) menjelaskan bahwa nabi dan mukmin diciptakan dari tanah Illiyyin, kafir dari Sijjin, dan kedua tanah dicampur sehingga menjelaskan keragaman manusia.",
-        "key_terms": {"عليين": "Illiyyin - Tempat tertinggi, derajat surga paling tinggi", "سجين": "Sijjin - Tempat terendah, lapisan neraka paling bawah", "طينة": "Thinah - Fitrah, sifat asal penciptaan"},
-        "seo_question": "Apa perbedaan fitrah mukmin dan kafir menurut Imam Zainal Abidin?"
+        "text": "Sesungguhnya Allah Azza wa Jalla menciptakan para nabi dari tanah Illiyyin — hati dan tubuh mereka. Dan Dia menciptakan hati orang-orang beriman dari tanah yang sama, namun menciptakan tubuh mereka dari derajat yang lebih rendah. Dan Dia menciptakan orang-orang kafir dari tanah Sijjin — hati dan tubuh mereka. Kemudian Dia mencampur kedua tanah itu. Maka dari itulah orang beriman melahirkan orang kafir dan orang kafir melahirkan orang beriman. Dan dari sinilah orang beriman berbuat dosa dan orang kafir berbuat kebaikan. Maka hati orang-orang beriman merindukan asal penciptaan mereka, dan hati orang-orang kafir merindukan asal penciptaan mereka.",
+        "summary": "Imam Zainal Abidin (a.s.) mengajarkan bahwa Allah menciptakan para nabi sepenuhnya dari tanah Illiyyin, hati orang mukmin dari tanah yang sama tetapi tubuh mereka dari derajat lebih rendah, dan orang kafir dari tanah Sijjin, kemudian mencampur keduanya yang menjelaskan keragaman dalam keluarga dan kompleksitas moral manusia.",
+        "key_terms": {"عليين": "Illiyyin - Tempat tertinggi yang disebutkan dalam Al-Quran 83:18, catatan amal orang saleh dan derajat surga paling tinggi", "سجين": "Sijjin - Tempat terendah yang disebutkan dalam Al-Quran 83:7, catatan amal orang jahat dan lapisan neraka paling bawah", "طينة": "Thinah - Tanah penciptaan primordial; di sini mengacu pada substansi metafisik dari mana jiwa dan tubuh dibentuk"},
+        "seo_question": "Apa perbedaan tanah penciptaan mukmin dan kafir menurut Imam Zainal Abidin?"
       },
       "bn": {
-        "text": "নিশ্চয়ই আল্লাহ আয্‌যা ওয়া জাল্লা নবীগণকে ইল্লিয়্যীনের মাটি থেকে সৃষ্টি করেছেন — তাঁদের অন্তর ও দেহ। এবং মু'মিনদের অন্তর সেই মাটি থেকে সৃষ্টি করেছেন এবং তাদের দেহ তার চেয়ে নিম্ন মর্যাদার থেকে বানিয়েছেন। আর কাফিরদের সিজ্জীনের মাটি থেকে সৃষ্টি করেছেন — তাদের অন্তর ও দেহ। তারপর উভয় মাটিকে মিশ্রিত করেছেন। এই কারণে মু'মিন থেকে কাফির জন্ম নেয় এবং কাফির থেকে মু'মিন জন্ম নেয়। এই কারণে মু'মিন মন্দ কাজ করে এবং কাফির ভালো কাজ করে। মু'মিনদের অন্তর যা থেকে তারা সৃষ্ট তার প্রতি আকৃষ্ট এবং কাফিরদের অন্তরও তাদের উৎসের প্রতি আকৃষ্ট।",
-        "summary": "ইমাম যায়নুল আবেদীন (আ.) বলেছেন যে আল্লাহ নবী ও মু'মিনদের ইল্লিয়্যীনের মাটি থেকে এবং কাফিরদের সিজ্জীনের মাটি থেকে সৃষ্টি করে উভয়কে মিশ্রিত করেছেন।",
-        "key_terms": {"عليين": "ইল্লিয়্যীন - সর্বোচ্চ স্থান, জান্নাতের উচ্চতম স্তর", "سجين": "সিজ্জীন - নিম্নতম স্থান, জাহান্নামের তলদেশ", "طينة": "তীনাত - সৃষ্টিগত প্রকৃতি, ফিতরাত"},
-        "seo_question": "মু'মিন ও কাফিরের সৃষ্টিগত পার্থক্য কী?"
+        "text": "নিশ্চয়ই আল্লাহ আয্‌যা ওয়া জাল্লা নবীগণকে ইল্লিয়্যীনের মাটি থেকে সৃষ্টি করেছেন — তাঁদের অন্তর ও দেহ উভয়ই। এবং মু'মিনদের অন্তর সেই একই মাটি থেকে সৃষ্টি করেছেন, তবে তাদের দেহ তার চেয়ে নিম্নতর উৎস থেকে বানিয়েছেন। আর কাফিরদের সিজ্জীনের মাটি থেকে সৃষ্টি করেছেন — তাদের অন্তর ও দেহ উভয়ই। অতঃপর উভয় মাটিকে মিশ্রিত করেছেন। এই কারণে মু'মিন থেকে কাফির জন্ম নেয় এবং কাফির থেকে মু'মিন জন্ম নেয়। এবং এই কারণে মু'মিন পাপ করে ও কাফির সৎকর্ম করে। তাই মু'মিনদের অন্তর তাদের সৃষ্টির উৎসের প্রতি আকুল, এবং কাফিরদের অন্তর তাদের সৃষ্টির উৎসের প্রতি আকুল।",
+        "summary": "ইমাম যায়নুল আবেদীন (আ.) শিক্ষা দিয়েছেন যে আল্লাহ নবীগণকে পুরোপুরি ইল্লিয়্যীনের মাটি থেকে, মু'মিনদের অন্তর একই মাটি থেকে কিন্তু তাদের দেহ নিম্নতর স্তর থেকে, এবং কাফিরদের সিজ্জীনের মাটি থেকে সৃষ্টি করে উভয়কে মিশ্রিত করেছেন, যা মানব প্রকৃতির বৈচিত্র্য ব্যাখ্যা করে।",
+        "key_terms": {"عليين": "ইল্লিয়্যীন - কুরআনে (৮৩:১৮) উল্লিখিত সর্বোচ্চ স্থান, সৎকর্মশীলদের আমলনামা এবং জান্নাতের উচ্চতম স্তর", "سجين": "সিজ্জীন - কুরআনে (৮৩:৭) উল্লিখিত নিম্নতম স্থান, দুষ্কৃতকারীদের আমলনামা এবং জাহান্নামের তলদেশ", "طينة": "তীনাত - আদি সৃষ্টির মাটি; এখানে সেই অধিবিদ্যাগত সত্তা বোঝানো হচ্ছে যা থেকে আত্মা ও দেহ গঠন করা হয়েছে"},
+        "seo_question": "ইমাম যায়নুল আবেদীন (আ.) এর মতে মু'মিন ও কাফিরের সৃষ্টিগত মাটির পার্থক্য কী?"
       },
       "es": {
-        "text": "Ciertamente, Dios, Poderoso y Majestuoso, creó a los profetas del barro de 'Illiyyin — sus corazones y sus cuerpos. Y creó los corazones de los creyentes del mismo barro, y sus cuerpos de un grado inferior. Y creó a los incrédulos del barro de Siyyín — sus corazones y sus cuerpos. Luego mezcló ambos barros. Por eso el creyente engendra al incrédulo y el incrédulo engendra al creyente. De ahí que el creyente cometa maldades y el incrédulo haga bondades. Los corazones de los creyentes anhelan aquello de lo que fueron creados, y los corazones de los incrédulos anhelan aquello de lo que fueron creados.",
-        "summary": "El Imam Zayn al-Abidin (P) explicó que los profetas y creyentes fueron creados del barro de 'Illiyyin y los incrédulos del de Siyyín, y ambos fueron mezclados.",
-        "key_terms": {"عليين": "'Illiyyin - El lugar más elevado, el grado más alto del Paraíso", "سجين": "Siyyín - El lugar más bajo, las profundidades del Infierno", "طينة": "Naturaleza primordial, esencia creacional"},
-        "seo_question": "¿Cuál es la diferencia entre la naturaleza del creyente y el incrédulo?"
+        "text": "Ciertamente, Dios, Poderoso y Majestuoso, creó a los profetas del barro de 'Illiyyin — sus corazones y sus cuerpos. Y creó los corazones de los creyentes del mismo barro, pero hizo los cuerpos de los creyentes de una sustancia inferior. Y creó a los incrédulos del barro de Siyyín — sus corazones y sus cuerpos. Luego mezcló ambos barros. Por eso el creyente engendra al incrédulo y el incrédulo engendra al creyente. Y por eso el creyente comete pecados y el incrédulo realiza buenas obras. Así, los corazones de los creyentes anhelan aquello de lo que fueron creados, y los corazones de los incrédulos anhelan aquello de lo que fueron creados.",
+        "summary": "El Imam Zayn al-Abidin (la paz sea con él) enseñó que Dios creó a los profetas enteramente del barro de 'Illiyyin, los corazones de los creyentes del mismo barro pero sus cuerpos de un grado inferior, y a los incrédulos del barro de Siyyín. La mezcla de ambos barros explica la diversidad dentro de las familias y la complejidad moral humana.",
+        "key_terms": {"عليين": "'Illiyyin - El lugar más elevado mencionado en el Corán 83:18, registro de los justos y grado supremo del Paraíso", "سجين": "Siyyín - El lugar más bajo mencionado en el Corán 83:7, registro de los malvados y las profundidades del Infierno", "طينة": "Naturaleza primordial, esencia creacional; aquí se refiere a la sustancia metafísica de la que se formaron las almas y los cuerpos"},
+        "seo_question": "¿Cuál es la diferencia entre la naturaleza creacional del creyente y el incrédulo según el Imam Zayn al-Abidin?"
       },
       "fr": {
-        "text": "Certes, Dieu, Puissant et Majestueux, a créé les prophètes de l'argile d'Illiyyîn — leurs cœurs et leurs corps. Et Il a créé les cœurs des croyants de cette même argile, et leurs corps d'un rang inférieur. Et Il a créé les mécréants de l'argile de Sijjîn — leurs cœurs et leurs corps. Puis Il a mélangé les deux argiles. C'est pourquoi le croyant engendre le mécréant et le mécréant engendre le croyant. C'est de là que le croyant commet le mal et que le mécréant fait le bien. Les cœurs des croyants aspirent à ce dont ils ont été créés, et les cœurs des mécréants aspirent à ce dont ils ont été créés.",
-        "summary": "L'Imam Zayn al-Âbidîn (P) a expliqué que les prophètes et croyants furent créés de l'argile d'Illiyyîn et les mécréants de celle de Sijjîn, puis les deux furent mélangées.",
-        "key_terms": {"عليين": "Illiyyîn - Le lieu le plus élevé, le degré suprême du Paradis", "سجين": "Sijjîn - Le lieu le plus bas, les profondeurs de l'Enfer", "طينة": "Nature primordiale, essence créationnelle"},
-        "seo_question": "Quelle est la différence entre la nature du croyant et celle du mécréant ?"
+        "text": "Certes, Dieu, Puissant et Majestueux, a créé les prophètes de l'argile d'Illiyyîn — leurs cœurs et leurs corps. Et Il a créé les cœurs des croyants de cette même argile, mais a fait les corps des croyants d'une substance inférieure. Et Il a créé les mécréants de l'argile de Sijjîn — leurs cœurs et leurs corps. Puis Il a mélangé les deux argiles. C'est pourquoi le croyant engendre le mécréant et le mécréant engendre le croyant. Et c'est pour cela que le croyant commet le péché et que le mécréant fait le bien. Ainsi les cœurs des croyants aspirent à ce dont ils ont été créés, et les cœurs des mécréants aspirent à ce dont ils ont été créés.",
+        "summary": "L'Imam Zayn al-Âbidîn (paix sur lui) a enseigné qu'Allah a créé les prophètes entièrement de l'argile d'Illiyyîn, les cœurs des croyants de cette même argile mais leurs corps d'un rang inférieur, et les mécréants de l'argile de Sijjîn. Le mélange des deux argiles explique la diversité au sein des familles et la complexité morale de l'être humain.",
+        "key_terms": {"عليين": "Illiyyîn - Le lieu le plus élevé mentionné dans le Coran 83:18, registre des justes et degré suprême du Paradis", "سجين": "Sijjîn - Le lieu le plus bas mentionné dans le Coran 83:7, registre des méchants et les profondeurs de l'Enfer", "طينة": "Nature primordiale, essence créationnelle ; ici la substance métaphysique dont les âmes et les corps sont façonnés"},
+        "seo_question": "Quelle est la différence entre la nature créationnelle du croyant et celle du mécréant selon l'Imam Zayn al-Âbidîn ?"
       },
       "de": {
-        "text": "Wahrlich, Gott, der Mächtige und Erhabene, erschuf die Propheten aus dem Ton von 'Illiyyin — ihre Herzen und ihre Körper. Und Er erschuf die Herzen der Gläubigen aus demselben Ton und ihre Körper aus einem niedrigeren Rang. Und Er erschuf die Ungläubigen aus dem Ton von Sijjin — ihre Herzen und ihre Körper. Dann vermischte Er die beiden Tonarten. Daher gebiert der Gläubige den Ungläubigen und der Ungläubige den Gläubigen. Daher begeht der Gläubige Übel und der Ungläubige tut Gutes. Die Herzen der Gläubigen sehnen sich nach dem, woraus sie erschaffen wurden, und die Herzen der Ungläubigen sehnen sich nach dem, woraus sie erschaffen wurden.",
-        "summary": "Imam Zayn al-Abidin (F) erklärte, dass Propheten und Gläubige aus dem Ton von 'Illiyyin und Ungläubige aus dem von Sijjin erschaffen und dann vermischt wurden.",
-        "key_terms": {"عليين": "'Illiyyin - Der höchste Ort, die oberste Stufe des Paradieses", "سجين": "Sijjin - Der niedrigste Ort, die Tiefen der Hölle", "طينة": "Urnatur, Schöpfungswesen"},
-        "seo_question": "Was ist der Unterschied zwischen der Natur des Gläubigen und des Ungläubigen?"
+        "text": "Wahrlich, Gott, der Mächtige und Erhabene, erschuf die Propheten aus dem Ton von 'Illiyyin — ihre Herzen und ihre Körper. Und Er erschuf die Herzen der Gläubigen aus demselben Ton, machte jedoch die Körper der Gläubigen aus einer geringeren Substanz. Und Er erschuf die Ungläubigen aus dem Ton von Sijjin — ihre Herzen und ihre Körper. Dann vermischte Er die beiden Tonarten. Daher gebiert der Gläubige den Ungläubigen und der Ungläubige den Gläubigen. Und daher begeht der Gläubige Sünden und der Ungläubige tut Gutes. So sehnen sich die Herzen der Gläubigen nach dem, woraus sie erschaffen wurden, und die Herzen der Ungläubigen sehnen sich nach dem, woraus sie erschaffen wurden.",
+        "summary": "Imam Zayn al-Abidin (Friede sei mit ihm) lehrte, dass Allah die Propheten vollständig aus dem Ton von 'Illiyyin, die Herzen der Gläubigen aus demselben Ton, ihre Körper jedoch aus einem niedrigeren Rang erschuf, und die Ungläubigen aus dem Ton von Sijjin. Die Vermischung beider Tonarten erklärt die Vielfalt innerhalb von Familien und die moralische Komplexität des Menschen.",
+        "key_terms": {"عليين": "'Illiyyin - Der höchste Ort, erwähnt im Koran 83:18, das Register der Rechtschaffenen und die höchste Stufe des Paradieses", "سجين": "Sijjin - Der niedrigste Ort, erwähnt im Koran 83:7, das Register der Übeltäter und die Tiefen der Hölle", "طينة": "Urnatur, Schöpfungswesen; hier die metaphysische Substanz, aus der Seelen und Körper geformt wurden"},
+        "seo_question": "Was ist der Unterschied zwischen der Schöpfungsnatur des Gläubigen und des Ungläubigen laut Imam Zayn al-Abidin?"
       },
       "ru": {
-        "text": "Воистину, Аллах, Могущественный и Величественный, создал пророков из глины Иллиййин — их сердца и их тела. И Он создал сердца верующих из той же глины, а их тела — из более низкого источника. И создал неверующих из глины Сиджжин — их сердца и их тела. Затем Он смешал обе глины. Поэтому от верующего рождается неверующий, и от неверующего рождается верующий. Потому верующий совершает зло, а неверующий совершает добро. Сердца верующих тоскуют по тому, из чего они были созданы, и сердца неверующих тоскуют по тому, из чего они были созданы.",
-        "summary": "Имам Зайн аль-Абидин (мир ему) объяснил, что пророки и верующие созданы из глины Иллиййин, а неверующие — из глины Сиджжин, и обе были смешаны.",
-        "key_terms": {"عليين": "Иллиййин - Высочайшее место, высшая ступень Рая", "سجين": "Сиджжин - Низшее место, глубины Ада", "طينة": "Изначальная природа, сущность творения"},
-        "seo_question": "В чём разница между природой верующего и неверующего?"
+        "text": "Воистину, Аллах, Могущественный и Величественный, создал пророков из глины Иллиййин — их сердца и их тела. И Он создал сердца верующих из той же глины, но тела верующих — из более низкого источника. И Он создал неверующих из глины Сиджжин — их сердца и их тела. Затем Он смешал обе глины. Вот почему от верующего рождается неверующий, а от неверующего рождается верующий. И потому верующий совершает грех, а неверующий совершает благое дело. И сердца верующих тоскуют по тому, из чего они были созданы, и сердца неверующих тоскуют по тому, из чего они были созданы.",
+        "summary": "Имам Зайн аль-Абидин (мир ему) учил, что Аллах создал пророков целиком из глины Иллиййин, сердца верующих — из той же глины, но их тела — из более низкого источника, а неверующих — из глины Сиджжин. Смешение двух глин объясняет разнообразие внутри семей и нравственную сложность человеческой природы.",
+        "key_terms": {"عليين": "Иллиййин - Высочайшее место, упомянутое в Коране 83:18, реестр праведных и наивысшая ступень Рая", "سجين": "Сиджжин - Низшее место, упомянутое в Коране 83:7, реестр нечестивых и глубины Ада", "طينة": "Изначальная природа, сущность творения; здесь метафизическая субстанция, из которой сформированы души и тела"},
+        "seo_question": "В чём разница между природой создания верующего и неверующего по учению Имама Зайн аль-Абидина?"
       },
       "zh": {
-        "text": "确实，安拉——尊贵而威严——用至高天（伊利因）的泥土创造了众先知——包括他们的心灵和身体。祂用同样的泥土创造了信士们的心灵，而他们的身体则从低一等级创造。祂用地狱深渊（西吉因）的泥土创造了不信者——包括他们的心灵和身体。然后祂将两种泥土混合在一起。因此信士会生出不信者，不信者会生出信士。从这里信士会犯罪，不信者会行善。信士的心灵向往他们被创造的源头，不信者的心灵也向往他们被创造的源头。",
-        "summary": "伊玛目宰因·阿比丁（愿主赐他平安）解释说，安拉用至高天的泥土创造了先知和信士，用深渊的泥土创造了不信者，然后将两者混合。",
-        "key_terms": {"عليين": "伊利因 - 最高境界，天堂的最高层", "سجين": "西吉因 - 最低境界，火狱的最深处", "طينة": "本性，创造本质"},
-        "seo_question": "信士与不信者的本性有什么区别？"
+        "text": "确实，安拉——尊贵而威严——用至高天（伊利因）的泥土创造了众先知——包括他们的心灵和身体。祂用同样的泥土创造了信士们的心灵，但用较低等级的物质创造了他们的身体。祂用地狱深渊（西吉因）的泥土创造了不信者——包括他们的心灵和身体。然后祂将两种泥土混合在一起。因此信士会生出不信者，不信者会生出信士。也因此信士会犯罪，不信者会行善。所以信士的心灵向往他们被创造的本源，不信者的心灵也向往他们被创造的本源。",
+        "summary": "伊玛目宰因·阿比丁（愿主赐他平安）教导说，安拉完全用至高天的泥土创造了先知，用同样的泥土创造了信士的心灵但用较低等级的物质创造了他们的身体，用深渊的泥土创造了不信者。两种泥土的混合解释了人类家庭中的多样性和道德复杂性。",
+        "key_terms": {"عليين": "伊利因 - 《古兰经》83:18中提到的最高境界，义人的功过簿和天堂的最高层", "سجين": "西吉因 - 《古兰经》83:7中提到的最低境界，恶人的功过簿和火狱的最深处", "طينة": "本性 - 原初的泥土/创造本质；此处指塑造灵魂和身体的形而上的物质"},
+        "seo_question": "根据伊玛目宰因·阿比丁的教导，信士与不信者的创造本质有什么区别？"
       }
     }
   }

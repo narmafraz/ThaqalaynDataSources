@@ -2,7 +2,7 @@
   "verse_path": "/books/al-kafi:1:1:1:1",
   "ai_attribution": {
     "model": "claude-opus-4-6-20260205",
-    "generated_date": "2026-02-23",
+    "generated_date": "2026-02-25",
     "pipeline_version": "1.0.0",
     "generation_method": "claude_code_direct"
   },
@@ -11,40 +11,641 @@
     "diacritics_status": "completed",
     "diacritics_changes": [],
     "word_analysis": [
-      {"word": "لَمَّا", "translation_en": "when", "root": "ل م م", "pos": "COND", "is_proper_noun": false},
-      {"word": "خَلَقَ", "translation_en": "He created", "root": "خ ل ق", "pos": "V", "is_proper_noun": false},
-      {"word": "اللَّهُ", "translation_en": "Allah (God)", "root": "أ ل ه", "pos": "N", "is_proper_noun": true},
-      {"word": "الْعَقْلَ", "translation_en": "the intellect", "root": "ع ق ل", "pos": "N", "is_proper_noun": false},
-      {"word": "اسْتَنْطَقَهُ", "translation_en": "He interrogated it", "root": "ن ط ق", "pos": "V", "is_proper_noun": false},
-      {"word": "ثُمَّ", "translation_en": "then", "root": "ث م م", "pos": "CONJ", "is_proper_noun": false},
-      {"word": "قَالَ", "translation_en": "He said", "root": "ق و ل", "pos": "V", "is_proper_noun": false},
-      {"word": "لَهُ", "translation_en": "to it", "root": "ل", "pos": "PREP", "is_proper_noun": false},
-      {"word": "أَقْبِلْ", "translation_en": "come forward", "root": "ق ب ل", "pos": "V", "is_proper_noun": false},
-      {"word": "فَأَقْبَلَ", "translation_en": "so it came forward", "root": "ق ب ل", "pos": "V", "is_proper_noun": false},
-      {"word": "أَدْبِرْ", "translation_en": "turn back", "root": "د ب ر", "pos": "V", "is_proper_noun": false},
-      {"word": "فَأَدْبَرَ", "translation_en": "so it turned back", "root": "د ب ر", "pos": "V", "is_proper_noun": false},
-      {"word": "وَعِزَّتِي", "translation_en": "by My Might", "root": "ع ز ز", "pos": "N", "is_proper_noun": false},
-      {"word": "وَجَلَالِي", "translation_en": "and My Majesty", "root": "ج ل ل", "pos": "N", "is_proper_noun": false},
-      {"word": "مَا", "translation_en": "not", "root": "م ا", "pos": "NEG", "is_proper_noun": false},
-      {"word": "خَلَقْتُ", "translation_en": "I created", "root": "خ ل ق", "pos": "V", "is_proper_noun": false},
-      {"word": "خَلْقًا", "translation_en": "a creation", "root": "خ ل ق", "pos": "N", "is_proper_noun": false},
-      {"word": "أَحَبُّ", "translation_en": "more beloved", "root": "ح ب ب", "pos": "ADJ", "is_proper_noun": false},
-      {"word": "إِلَيَّ", "translation_en": "to Me", "root": "إ ل ى", "pos": "PREP", "is_proper_noun": false},
-      {"word": "مِنْكَ", "translation_en": "than you", "root": "م ن", "pos": "PREP", "is_proper_noun": false},
-      {"word": "أَكْمَلْتُكَ", "translation_en": "I perfected you", "root": "ك م ل", "pos": "V", "is_proper_noun": false},
-      {"word": "إِلَّا", "translation_en": "except", "root": "إ ل ل", "pos": "PART", "is_proper_noun": false},
-      {"word": "فِيمَنْ", "translation_en": "in whom", "root": "ف ي", "pos": "PREP", "is_proper_noun": false},
-      {"word": "أُحِبُّ", "translation_en": "I love", "root": "ح ب ب", "pos": "V", "is_proper_noun": false},
-      {"word": "آمُرُ", "translation_en": "I command", "root": "أ م ر", "pos": "V", "is_proper_noun": false},
-      {"word": "أَنْهَى", "translation_en": "I forbid", "root": "ن ه ي", "pos": "V", "is_proper_noun": false},
-      {"word": "أُعَاقِبُ", "translation_en": "I punish", "root": "ع ق ب", "pos": "V", "is_proper_noun": false},
-      {"word": "أُثِيبُ", "translation_en": "I reward", "root": "ث و ب", "pos": "V", "is_proper_noun": false}
+      {
+        "word": "لَمَّا",
+        "translation": {
+          "en": "when",
+          "ur": "جب",
+          "tr": "ne zaman ki",
+          "fa": "هنگامی که",
+          "id": "ketika",
+          "bn": "যখন",
+          "es": "cuando",
+          "fr": "lorsque",
+          "de": "als",
+          "ru": "когда",
+          "zh": "当...时"
+        },
+        "root": "ل م م",
+        "pos": "COND",
+        "is_proper_noun": false
+      },
+      {
+        "word": "خَلَقَ",
+        "translation": {
+          "en": "He created",
+          "ur": "اس نے پیدا کیا",
+          "tr": "yarattı",
+          "fa": "آفرید",
+          "id": "Dia menciptakan",
+          "bn": "তিনি সৃষ্টি করলেন",
+          "es": "Él creó",
+          "fr": "Il créa",
+          "de": "Er erschuf",
+          "ru": "Он создал",
+          "zh": "祂创造了"
+        },
+        "root": "خ ل ق",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "اللَّهُ",
+        "translation": {
+          "en": "Allah (God)",
+          "ur": "اللہ",
+          "tr": "Allah",
+          "fa": "خداوند",
+          "id": "Allah",
+          "bn": "আল্লাহ",
+          "es": "Dios",
+          "fr": "Dieu",
+          "de": "Gott",
+          "ru": "Аллах",
+          "zh": "安拉"
+        },
+        "root": "أ ل ه",
+        "pos": "N",
+        "is_proper_noun": true
+      },
+      {
+        "word": "الْعَقْلَ",
+        "translation": {
+          "en": "the intellect",
+          "ur": "عقل کو",
+          "tr": "aklı",
+          "fa": "عقل را",
+          "id": "akal",
+          "bn": "আকলকে",
+          "es": "el intelecto",
+          "fr": "l'intellect",
+          "de": "den Verstand",
+          "ru": "разум",
+          "zh": "理智"
+        },
+        "root": "ع ق ل",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "اسْتَنْطَقَهُ",
+        "translation": {
+          "en": "He made it speak",
+          "ur": "اسے بولنے کی طاقت دی",
+          "tr": "onu konuşturdu",
+          "fa": "آن را به سخن درآورد",
+          "id": "membuatnya berbicara",
+          "bn": "তাকে কথা বলালেন",
+          "es": "lo hizo hablar",
+          "fr": "Il le fit parler",
+          "de": "ließ ihn sprechen",
+          "ru": "заставил его говорить",
+          "zh": "使它开口说话"
+        },
+        "root": "ن ط ق",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "ثُمَّ",
+        "translation": {
+          "en": "then",
+          "ur": "پھر",
+          "tr": "sonra",
+          "fa": "سپس",
+          "id": "kemudian",
+          "bn": "তারপর",
+          "es": "luego",
+          "fr": "puis",
+          "de": "dann",
+          "ru": "затем",
+          "zh": "然后"
+        },
+        "root": "ث م م",
+        "pos": "CONJ",
+        "is_proper_noun": false
+      },
+      {
+        "word": "قَالَ",
+        "translation": {
+          "en": "He said",
+          "ur": "فرمایا",
+          "tr": "dedi",
+          "fa": "فرمود",
+          "id": "berfirman",
+          "bn": "বললেন",
+          "es": "dijo",
+          "fr": "dit",
+          "de": "sagte",
+          "ru": "сказал",
+          "zh": "说"
+        },
+        "root": "ق و ل",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "لَهُ",
+        "translation": {
+          "en": "to it",
+          "ur": "اس سے",
+          "tr": "ona",
+          "fa": "به آن",
+          "id": "kepadanya",
+          "bn": "তাকে",
+          "es": "a él",
+          "fr": "à lui",
+          "de": "zu ihm",
+          "ru": "ему",
+          "zh": "对它"
+        },
+        "root": "ل",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَقْبِلْ",
+        "translation": {
+          "en": "come forward",
+          "ur": "آگے آ",
+          "tr": "ilerle",
+          "fa": "پیش بیا",
+          "id": "majulah",
+          "bn": "সামনে এসো",
+          "es": "avanza",
+          "fr": "avance",
+          "de": "tritt vor",
+          "ru": "подойди",
+          "zh": "上前来"
+        },
+        "root": "ق ب ل",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "فَأَقْبَلَ",
+        "translation": {
+          "en": "so it came forward",
+          "ur": "تو وہ آگے آئی",
+          "tr": "o da ilerledi",
+          "fa": "پس پیش آمد",
+          "id": "maka ia maju",
+          "bn": "তখন সে সামনে এলো",
+          "es": "y avanzó",
+          "fr": "et il avança",
+          "de": "und er trat vor",
+          "ru": "и тот подошёл",
+          "zh": "它便上前了"
+        },
+        "root": "ق ب ل",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَدْبِرْ",
+        "translation": {
+          "en": "turn back",
+          "ur": "پیچھے ہٹ",
+          "tr": "geri dön",
+          "fa": "برگرد",
+          "id": "mundurlah",
+          "bn": "পিছনে ফিরে যাও",
+          "es": "retrocede",
+          "fr": "recule",
+          "de": "tritt zurück",
+          "ru": "отступи",
+          "zh": "退回去"
+        },
+        "root": "د ب ر",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "فَأَدْبَرَ",
+        "translation": {
+          "en": "so it turned back",
+          "ur": "تو وہ پیچھے ہٹ گئی",
+          "tr": "o da geri döndü",
+          "fa": "پس بازگشت",
+          "id": "maka ia mundur",
+          "bn": "তখন সে ফিরে গেল",
+          "es": "y retrocedió",
+          "fr": "et il recula",
+          "de": "und er trat zurück",
+          "ru": "и тот отступил",
+          "zh": "它便退回了"
+        },
+        "root": "د ب ر",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَعِزَّتِي",
+        "translation": {
+          "en": "by My Might",
+          "ur": "میری عزت کی قسم",
+          "tr": "izzetim hakkı için",
+          "fa": "به عزتم سوگند",
+          "id": "demi kemuliaan-Ku",
+          "bn": "আমার ইজ্জতের শপথ",
+          "es": "por Mi Poder",
+          "fr": "par Ma Puissance",
+          "de": "bei Meiner Macht",
+          "ru": "клянусь Моим Могуществом",
+          "zh": "以我的尊严起誓"
+        },
+        "root": "ع ز ز",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَجَلَالِي",
+        "translation": {
+          "en": "and My Majesty",
+          "ur": "اور میری جلالت کی",
+          "tr": "ve celalim hakkı için",
+          "fa": "و به جلالم",
+          "id": "dan keagungan-Ku",
+          "bn": "এবং আমার জালালের",
+          "es": "y Mi Majestad",
+          "fr": "et Ma Majesté",
+          "de": "und Meiner Erhabenheit",
+          "ru": "и Моим Величием",
+          "zh": "和我的威严"
+        },
+        "root": "ج ل ل",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "مَا",
+        "translation": {
+          "en": "not",
+          "ur": "نہیں",
+          "tr": "değil",
+          "fa": "نه",
+          "id": "tidak",
+          "bn": "না",
+          "es": "no",
+          "fr": "ne...pas",
+          "de": "nicht",
+          "ru": "не",
+          "zh": "没有"
+        },
+        "root": "م ا",
+        "pos": "NEG",
+        "is_proper_noun": false
+      },
+      {
+        "word": "خَلَقْتُ",
+        "translation": {
+          "en": "I created",
+          "ur": "میں نے بنایا",
+          "tr": "yarattım",
+          "fa": "نیافریدم",
+          "id": "Aku menciptakan",
+          "bn": "আমি সৃষ্টি করেছি",
+          "es": "he creado",
+          "fr": "J'ai créé",
+          "de": "Ich habe erschaffen",
+          "ru": "Я создал",
+          "zh": "我创造了"
+        },
+        "root": "خ ل ق",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "خَلْقًا",
+        "translation": {
+          "en": "a creation",
+          "ur": "کوئی مخلوق",
+          "tr": "bir yaratık",
+          "fa": "مخلوقی",
+          "id": "makhluk",
+          "bn": "কোনো সৃষ্টি",
+          "es": "criatura",
+          "fr": "créature",
+          "de": "Geschöpf",
+          "ru": "творение",
+          "zh": "造物"
+        },
+        "root": "خ ل ق",
+        "pos": "N",
+        "is_proper_noun": false
+      },
+      {
+        "word": "هُوَ",
+        "translation": {
+          "en": "it (is)",
+          "ur": "وہ",
+          "tr": "o",
+          "fa": "آن",
+          "id": "ia",
+          "bn": "সে",
+          "es": "él",
+          "fr": "il",
+          "de": "es",
+          "ru": "оно",
+          "zh": "它"
+        },
+        "root": "ه و",
+        "pos": "PRON",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَحَبُّ",
+        "translation": {
+          "en": "more beloved",
+          "ur": "زیادہ محبوب",
+          "tr": "daha sevgili",
+          "fa": "محبوب‌تر",
+          "id": "lebih dicintai",
+          "bn": "অধিক প্রিয়",
+          "es": "más amado",
+          "fr": "plus aimé",
+          "de": "geliebter",
+          "ru": "более любимое",
+          "zh": "更受喜爱的"
+        },
+        "root": "ح ب ب",
+        "pos": "ADJ",
+        "is_proper_noun": false
+      },
+      {
+        "word": "إِلَيَّ",
+        "translation": {
+          "en": "to Me",
+          "ur": "مجھے",
+          "tr": "bana",
+          "fa": "نزد من",
+          "id": "bagi-Ku",
+          "bn": "আমার কাছে",
+          "es": "para Mí",
+          "fr": "pour Moi",
+          "de": "für Mich",
+          "ru": "для Меня",
+          "zh": "在我这里"
+        },
+        "root": "إ ل ى",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "مِنْكَ",
+        "translation": {
+          "en": "than you",
+          "ur": "تجھ سے",
+          "tr": "senden",
+          "fa": "از تو",
+          "id": "darimu",
+          "bn": "তোমার চেয়ে",
+          "es": "que tú",
+          "fr": "que toi",
+          "de": "als du",
+          "ru": "чем ты",
+          "zh": "比你"
+        },
+        "root": "م ن",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "وَلَا",
+        "translation": {
+          "en": "and not",
+          "ur": "اور نہ",
+          "tr": "ve değil",
+          "fa": "و نه",
+          "id": "dan tidak",
+          "bn": "এবং না",
+          "es": "y no",
+          "fr": "et ne...pas",
+          "de": "und nicht",
+          "ru": "и не",
+          "zh": "也没有"
+        },
+        "root": "ل ا",
+        "pos": "NEG",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَكْمَلْتُكَ",
+        "translation": {
+          "en": "I perfected you",
+          "ur": "میں نے تجھے مکمل کیا",
+          "tr": "seni kemale erdirdim",
+          "fa": "تو را کامل کردم",
+          "id": "Aku menyempurnakanmu",
+          "bn": "আমি তোমাকে পূর্ণ করেছি",
+          "es": "te perfeccioné",
+          "fr": "Je t'ai perfectionné",
+          "de": "Ich habe dich vollendet",
+          "ru": "Я сделал тебя совершенным",
+          "zh": "我完善了你"
+        },
+        "root": "ك م ل",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "إِلَّا",
+        "translation": {
+          "en": "except",
+          "ur": "سوائے",
+          "tr": "ancak",
+          "fa": "جز",
+          "id": "kecuali",
+          "bn": "ব্যতীত",
+          "es": "excepto",
+          "fr": "sauf",
+          "de": "außer",
+          "ru": "кроме как",
+          "zh": "除了"
+        },
+        "root": "إ ل ل",
+        "pos": "PART",
+        "is_proper_noun": false
+      },
+      {
+        "word": "فِيمَنْ",
+        "translation": {
+          "en": "in whom",
+          "ur": "جس میں",
+          "tr": "kimde ki",
+          "fa": "در کسی که",
+          "id": "pada orang yang",
+          "bn": "যার মধ্যে",
+          "es": "en quien",
+          "fr": "chez celui que",
+          "de": "in demjenigen, den",
+          "ru": "в том, кого",
+          "zh": "在...之中"
+        },
+        "root": "ف ي",
+        "pos": "PREP",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أُحِبُّ",
+        "translation": {
+          "en": "I love",
+          "ur": "میں پسند کرتا ہوں",
+          "tr": "sevdiğim",
+          "fa": "دوست دارم",
+          "id": "Aku cintai",
+          "bn": "আমি ভালোবাসি",
+          "es": "amo",
+          "fr": "J'aime",
+          "de": "Ich liebe",
+          "ru": "Я люблю",
+          "zh": "我所喜爱的"
+        },
+        "root": "ح ب ب",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَمَا",
+        "translation": {
+          "en": "verily / indeed",
+          "ur": "خبردار",
+          "tr": "şunu bilin ki",
+          "fa": "آگاه باش",
+          "id": "ketahuilah",
+          "bn": "জেনে রাখো",
+          "es": "ciertamente",
+          "fr": "certes",
+          "de": "wisset",
+          "ru": "знай же",
+          "zh": "须知"
+        },
+        "root": "أ م ا",
+        "pos": "PART",
+        "is_proper_noun": false
+      },
+      {
+        "word": "إِنِّي",
+        "translation": {
+          "en": "indeed I",
+          "ur": "بے شک میں",
+          "tr": "muhakkak ben",
+          "fa": "همانا من",
+          "id": "sesungguhnya Aku",
+          "bn": "নিশ্চয়ই আমি",
+          "es": "ciertamente yo",
+          "fr": "certes je",
+          "de": "wahrlich ich",
+          "ru": "поистине Я",
+          "zh": "确实我"
+        },
+        "root": "إ ن ن",
+        "pos": "PART",
+        "is_proper_noun": false
+      },
+      {
+        "word": "إِيَّاكَ",
+        "translation": {
+          "en": "you (emphatic)",
+          "ur": "تجھے ہی",
+          "tr": "seni",
+          "fa": "تو را",
+          "id": "kamulah",
+          "bn": "তোমাকেই",
+          "es": "a ti",
+          "fr": "c'est toi que",
+          "de": "dich",
+          "ru": "тебя",
+          "zh": "你"
+        },
+        "root": "إ ي ي",
+        "pos": "PRON",
+        "is_proper_noun": false
+      },
+      {
+        "word": "آمُرُ",
+        "translation": {
+          "en": "I command",
+          "ur": "حکم دوں گا",
+          "tr": "emrederim",
+          "fa": "فرمان می‌دهم",
+          "id": "Aku memerintah",
+          "bn": "আমি আদেশ করি",
+          "es": "ordeno",
+          "fr": "Je commande",
+          "de": "Ich befehle",
+          "ru": "Я повелеваю",
+          "zh": "我命令"
+        },
+        "root": "أ م ر",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أَنْهَى",
+        "translation": {
+          "en": "I forbid",
+          "ur": "منع کروں گا",
+          "tr": "yasaklarım",
+          "fa": "نهی می‌کنم",
+          "id": "Aku melarang",
+          "bn": "আমি নিষেধ করি",
+          "es": "prohíbo",
+          "fr": "J'interdis",
+          "de": "Ich verbiete",
+          "ru": "Я запрещаю",
+          "zh": "我禁止"
+        },
+        "root": "ن ه ي",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أُعَاقِبُ",
+        "translation": {
+          "en": "I punish",
+          "ur": "سزا دوں گا",
+          "tr": "cezalandırırım",
+          "fa": "عقوبت می‌کنم",
+          "id": "Aku menghukum",
+          "bn": "আমি শাস্তি দিই",
+          "es": "castigo",
+          "fr": "Je châtie",
+          "de": "Ich bestrafe",
+          "ru": "Я наказываю",
+          "zh": "我惩罚"
+        },
+        "root": "ع ق ب",
+        "pos": "V",
+        "is_proper_noun": false
+      },
+      {
+        "word": "أُثِيبُ",
+        "translation": {
+          "en": "I reward",
+          "ur": "ثواب دوں گا",
+          "tr": "mükafatlandırırım",
+          "fa": "پاداش می‌دهم",
+          "id": "Aku memberi pahala",
+          "bn": "আমি পুরস্কার দিই",
+          "es": "recompenso",
+          "fr": "Je récompense",
+          "de": "Ich belohne",
+          "ru": "Я вознаграждаю",
+          "zh": "我奖赏"
+        },
+        "root": "ث و ب",
+        "pos": "V",
+        "is_proper_noun": false
+      }
     ],
-    "tags": ["theology", "knowledge"],
+    "tags": ["theology", "knowledge", "ethics"],
     "hadith_type": "narrative",
     "related_quran": [
       {"ref": "2:164", "relationship": "thematic"},
-      {"ref": "3:190", "relationship": "thematic"}
+      {"ref": "3:190", "relationship": "thematic"},
+      {"ref": "39:18", "relationship": "thematic"},
+      {"ref": "13:19", "relationship": "thematic"}
     ],
     "isnad_matn": {
       "isnad_ar": "أَخْبَرَنَا أَبُو جَعْفَرٍ مُحَمَّدُ بْنُ يَعْقُوبَ قَالَ حَدَّثَنِي عِدَّةٌ مِنْ أَصْحَابِنَا مِنْهُمْ مُحَمَّدُ بْنُ يَحْيَى الْعَطَّارُ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنِ الْعَلَاءِ بْنِ رَزِينٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
@@ -76,7 +677,7 @@
           "position": 3,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Muhammad ibn Yahya ibn Ahmad al-Attar al-Qummi (d. ~300 AH), prominent student of al-Kulayni"
+          "known_identity": "Muhammad ibn Yahya ibn Ahmad al-Attar al-Qummi (d. ~300 AH), one of al-Kulayni's most prolific teachers and a major transmitter from the scholars of Qom"
         },
         {
           "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
@@ -94,7 +695,7 @@
           "position": 5,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Al-Hasan ibn Mahbub al-Sarrad (d. 224 AH), one of the ashab al-ijma' (scholars of consensus)"
+          "known_identity": "Al-Hasan ibn Mahbub al-Sarrad (d. 224 AH), one of the ashab al-ijma' (scholars of consensus) whose narrations are accepted without further scrutiny"
         },
         {
           "name_ar": "الْعَلَاءُ بْنُ رَزِينٍ",
@@ -103,7 +704,7 @@
           "position": 6,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Al-'Ala' ibn Razin al-Qalla', companion of Imam al-Sadiq (AS)"
+          "known_identity": "Al-'Ala' ibn Razin al-Qalla', a trusted companion of Imam al-Sadiq (AS) and a prominent narrator of hadith"
         },
         {
           "name_ar": "مُحَمَّدُ بْنُ مُسْلِمٍ",
@@ -112,7 +713,7 @@
           "position": 7,
           "identity_confidence": "definite",
           "ambiguity_note": null,
-          "known_identity": "Muhammad ibn Muslim ibn Riyah al-Thaqafi al-Kufi (d. 150 AH), one of the ashab al-ijma'"
+          "known_identity": "Muhammad ibn Muslim ibn Riyah al-Thaqafi al-Kufi (d. 150 AH), one of the ashab al-ijma' and a close companion of both Imam al-Baqir and Imam al-Sadiq (AS)"
         },
         {
           "name_ar": "أَبُو جَعْفَرٍ",
@@ -126,65 +727,71 @@
       ]
     },
     "translations": {
+      "en": {
+        "text": "When Allah created the intellect, He made it speak, then said to it: 'Come forward!' So it came forward. Then He said to it: 'Turn back!' So it turned back. Then He said: 'By My Might and My Majesty! I have not created any creation more beloved to Me than you, nor have I perfected you except in whom I love. Verily, it is you whom I shall command and you whom I shall forbid, it is you whom I shall punish and you whom I shall reward.'",
+        "summary": "Allah created the intellect as the most beloved of all His creations, tested its obedience by commanding it to come forward and turn back, and declared that all divine commands, prohibitions, punishments, and rewards are addressed to it.",
+        "key_terms": {"العقل": "The intellect (al-'aql) — the faculty of rational understanding and discernment that Allah created as the first and most honoured creation", "استنطقه": "He made it speak (istantaqahu) — Form X verb from n-t-q, meaning to cause speech, indicating Allah endowed the intellect with the capacity for expression", "أثيب": "I reward (uthib) — from th-w-b, meaning to grant divine recompense and reward"},
+        "seo_question": "What does the first hadith of Al-Kafi say about the creation and status of the intellect?"
+      },
       "ur": {
         "text": "جب اللہ تعالیٰ نے عقل کو پیدا فرمایا تو اسے بولنے کی طاقت دی، پھر اسے فرمایا: آگے آ! تو وہ آگے آئی۔ پھر فرمایا: پیچھے ہٹ! تو وہ پیچھے ہٹ گئی۔ پھر فرمایا: میری عزت اور میری جلالت کی قسم! میں نے کوئی مخلوق تجھ سے زیادہ محبوب نہیں بنائی، اور نہ ہی میں تجھے کسی میں مکمل کروں گا سوائے اس کے جسے میں پسند کرتا ہوں۔ سنو! میں تجھے ہی حکم دوں گا اور تجھے ہی منع کروں گا، اور تجھے ہی سزا دوں گا اور تجھے ہی ثواب دوں گا۔",
-        "summary": "اللہ تعالیٰ نے عقل کو پیدا کر کے فرمایا کہ وہ سب سے محبوب مخلوق ہے اور اسی کی بنیاد پر حکم و جزا ہوگی۔",
-        "key_terms": {"العقل": "عقل - فہم و شعور کی صلاحیت", "خلق": "خلق - تخلیق کرنا، پیدا کرنا", "أثيب": "ثواب دینا، اجر دینا"},
-        "seo_question": "الکافی کی پہلی حدیث میں عقل کے بارے میں کیا بیان کیا گیا ہے؟"
+        "summary": "اللہ تعالیٰ نے عقل کو پیدا کیا، اس کی اطاعت کا امتحان لیا اور فرمایا کہ وہ سب سے محبوب مخلوق ہے اور تمام احکام، ممانعتیں، سزائیں اور جزائیں اسی کی بنیاد پر ہیں۔",
+        "key_terms": {"العقل": "عقل — فہم و ادراک کی صلاحیت جسے اللہ نے سب سے پہلے اور سب سے معزز مخلوق کے طور پر پیدا فرمایا", "استنطقه": "اسے بولنے کی طاقت دی — یعنی اللہ نے عقل کو اظہار کی صلاحیت عطا فرمائی", "أثيب": "ثواب دینا — الٰہی اجر و ثواب عطا کرنا"},
+        "seo_question": "الکافی کی پہلی حدیث میں عقل کی تخلیق اور مقام کے بارے میں کیا بیان کیا گیا ہے؟"
       },
       "tr": {
         "text": "Allah aklı yarattığında onu konuşturdu, sonra ona 'İlerle!' dedi, o da ilerledi. Sonra 'Geri dön!' dedi, o da geri döndü. Sonra buyurdu: 'İzzetim ve celalime yemin ederim ki, senden daha sevimli bir yaratık yaratmadım ve seni ancak sevdiğim kimselerde kemale erdiririm. Şunu bil ki, sana emredeceğim ve seni yasaklayacağım, seni cezalandıracağım ve seni mükafatlandıracağım.'",
-        "summary": "Allah aklı yaratarak onu en sevgili yaratık ilan etmiş ve emir, yasak, ceza ve mükafatın akıl temelinde olacağını bildirmiştir.",
-        "key_terms": {"العقل": "Akıl - İdrak ve anlama yetisi", "خلق": "Yaratma, var etme", "أثيب": "Mükafatlandırmak"},
-        "seo_question": "El-Kafi'nin ilk hadisinde akıl hakkında ne buyurulmuştur?"
+        "summary": "Allah aklı yaratarak onun itaatini sınamış, onu en sevgili yaratık ilan etmiş ve tüm emir, yasak, ceza ve mükafatların akla yönelik olduğunu bildirmiştir.",
+        "key_terms": {"العقل": "Akıl — Allah'ın ilk ve en şerefli yaratığı olarak yarattığı anlama ve idrak yetisi", "استنطقه": "Onu konuşturdu — Allah'ın akla ifade kabiliyeti vermesi", "أثيب": "Mükafatlandırmak — ilahi ödül ve karşılık vermek"},
+        "seo_question": "El-Kafi'nin ilk hadisinde aklın yaratılışı ve makamı hakkında ne buyurulmuştur?"
       },
       "fa": {
         "text": "هنگامی که خداوند عقل را آفرید، آن را به سخن درآورد، سپس به آن فرمود: پیش بیا! پس پیش آمد. سپس فرمود: برگرد! پس بازگشت. سپس فرمود: به عزت و جلالم سوگند، هیچ مخلوقی را محبوب‌تر از تو نیافریدم و تو را جز در کسی که دوست دارم کامل نمی‌کنم. آگاه باش که تو را فرمان می‌دهم و تو را نهی می‌کنم، و تو را عقوبت می‌کنم و تو را پاداش می‌دهم.",
-        "summary": "خداوند عقل را آفرید و آن را محبوب‌ترین مخلوق خود خواند و فرمود که امر و نهی و ثواب و عقاب بر اساس عقل است.",
-        "key_terms": {"العقل": "عقل - نیروی فهم و ادراک", "خلق": "خلق - آفرینش", "أثيب": "پاداش دادن، ثواب دادن"},
-        "seo_question": "نخستین حدیث الکافی درباره عقل چه می‌گوید؟"
+        "summary": "خداوند عقل را آفرید، اطاعتش را آزمود، آن را محبوب‌ترین مخلوق خود خواند و فرمود که تمام اوامر، نواهی، عقوبت‌ها و پاداش‌ها متوجه عقل است.",
+        "key_terms": {"العقل": "عقل — نیروی فهم و ادراک که خداوند آن را به عنوان نخستین و گرامی‌ترین مخلوق آفرید", "استنطقه": "آن را به سخن درآورد — یعنی خداوند به عقل توانایی بیان بخشید", "أثيب": "پاداش دادن — اعطای ثواب و جزای الهی"},
+        "seo_question": "نخستین حدیث الکافی درباره آفرینش و جایگاه عقل چه می‌گوید؟"
       },
       "id": {
         "text": "Ketika Allah menciptakan akal, Dia membuatnya berbicara, lalu berfirman kepadanya: 'Majulah!' Maka ia maju. Lalu berfirman: 'Mundurlah!' Maka ia mundur. Lalu berfirman: 'Demi kemuliaan-Ku dan keagungan-Ku, Aku tidak menciptakan makhluk yang lebih Aku cintai darimu, dan Aku tidak menyempurnakanmu kecuali pada orang yang Aku cintai. Ketahuilah, kepadamulah Aku memerintah dan melarang, kepadamulah Aku menghukum dan memberi pahala.'",
-        "summary": "Allah menciptakan akal sebagai makhluk yang paling dicintai-Nya, dan menjadikan perintah, larangan, hukuman, serta pahala berdasarkan akal.",
-        "key_terms": {"العقل": "Akal - kemampuan memahami dan berpikir", "خلق": "Khalq - penciptaan", "أثيب": "Memberi pahala, memberi ganjaran"},
-        "seo_question": "Apa isi hadis pertama Al-Kafi tentang akal?"
+        "summary": "Allah menciptakan akal, menguji ketaatannya, menyatakannya sebagai makhluk paling dicintai, dan menegaskan bahwa semua perintah, larangan, hukuman, serta pahala ditujukan kepadanya.",
+        "key_terms": {"العقل": "Akal — kemampuan memahami dan berpikir yang diciptakan Allah sebagai makhluk pertama dan paling mulia", "استنطقه": "Membuatnya berbicara — Allah menganugerahi akal kemampuan untuk mengekspresikan diri", "أثيب": "Memberi pahala — memberikan ganjaran dan balasan ilahi"},
+        "seo_question": "Apa isi hadis pertama Al-Kafi tentang penciptaan dan kedudukan akal?"
       },
       "bn": {
         "text": "যখন আল্লাহ আকলকে সৃষ্টি করলেন, তখন তাকে কথা বলার ক্ষমতা দিলেন, তারপর তাকে বললেন: সামনে এসো! তখন সে সামনে এলো। তারপর বললেন: পিছনে ফিরে যাও! তখন সে ফিরে গেল। তারপর বললেন: আমার ইজ্জত ও জালালের শপথ! আমি তোমার চেয়ে প্রিয় কোনো সৃষ্টি বানাইনি এবং আমি তোমাকে কেবল তার মধ্যেই পূর্ণ করব যাকে আমি ভালোবাসি। জেনে রাখো, তোমাকেই আমি আদেশ করব ও নিষেধ করব, এবং তোমাকেই শাস্তি দেব ও পুরস্কার দেব।",
-        "summary": "আল্লাহ আকলকে সৃষ্টি করে তাকে সবচেয়ে প্রিয় সৃষ্টি ঘোষণা করলেন এবং সকল আদেশ-নিষেধ ও পুরস্কার-শাস্তির ভিত্তি আকলের উপর রাখলেন।",
-        "key_terms": {"العقل": "আকল - বোধশক্তি ও বিচারবুদ্ধি", "خلق": "সৃষ্টি করা", "أثيب": "পুরস্কার দেওয়া"},
-        "seo_question": "আল-কাফির প্রথম হাদিসে আকল সম্পর্কে কী বলা হয়েছে?"
+        "summary": "আল্লাহ আকলকে সৃষ্টি করে তার আনুগত্য পরীক্ষা করলেন, তাকে সবচেয়ে প্রিয় সৃষ্টি ঘোষণা করলেন এবং বললেন যে সকল আদেশ-নিষেধ, শাস্তি ও পুরস্কার আকলের প্রতি নির্দেশিত।",
+        "key_terms": {"العقل": "আকল — বোধশক্তি ও বিচারবুদ্ধি যা আল্লাহ প্রথম ও সর্বাধিক সম্মানিত সৃষ্টি হিসেবে বানিয়েছেন", "استنطقه": "তাকে কথা বলালেন — আল্লাহ আকলকে প্রকাশের সক্ষমতা দিলেন", "أثيب": "পুরস্কার দেওয়া — ঐশ্বরিক প্রতিদান ও সওয়াব প্রদান করা"},
+        "seo_question": "আল-কাফির প্রথম হাদিসে আকলের সৃষ্টি ও মর্যাদা সম্পর্কে কী বলা হয়েছে?"
       },
       "es": {
         "text": "Cuando Dios creó el intelecto, lo hizo hablar, luego le dijo: '¡Avanza!' Y avanzó. Luego le dijo: '¡Retrocede!' Y retrocedió. Entonces dijo: '¡Por Mi Poder y Mi Majestad! No he creado ninguna criatura más amada para Mí que tú, ni te perfeccionaré excepto en aquel a quien amo. Sabe que a ti te ordenaré y a ti te prohibiré, y a ti te castigaré y a ti te recompensaré.'",
-        "summary": "Dios creó el intelecto como la criatura más amada y declaró que los mandatos, prohibiciones, castigos y recompensas se basan en él.",
-        "key_terms": {"العقل": "Intelecto, razón", "خلق": "Creación", "أثيب": "Recompensar"},
-        "seo_question": "¿Qué dice el primer hadiz de Al-Kafi sobre el intelecto?"
+        "summary": "Dios creó el intelecto, probó su obediencia, lo declaró la criatura más amada y afirmó que todos los mandatos, prohibiciones, castigos y recompensas se dirigen a él.",
+        "key_terms": {"العقل": "El intelecto (al-'aql) — la facultad de comprensión racional que Dios creó como la primera y más honrada de las criaturas", "استنطقه": "Lo hizo hablar — Dios dotó al intelecto de la capacidad de expresión", "أثيب": "Recompensar — otorgar la retribución y recompensa divina"},
+        "seo_question": "¿Qué dice el primer hadiz de Al-Kafi sobre la creación y el estatus del intelecto?"
       },
       "fr": {
-        "text": "Lorsque Dieu créa l'intellect, Il le fit parler, puis lui dit : 'Avance !' Et il avança. Puis Il lui dit : 'Recule !' Et il recula. Puis Il dit : 'Par Ma Puissance et Ma Majesté ! Je n'ai créé aucune créature plus aimée de Moi que toi, et Je ne te perfectionnerai que chez celui que J'aime. Sache que c'est toi que Je commanderai et que Je prohiberai, c'est toi que Je châtierai et que Je récompenserai.'",
-        "summary": "Dieu a créé l'intellect comme la créature la plus aimée et a déclaré que les commandements, interdictions, châtiments et récompenses reposent sur lui.",
-        "key_terms": {"العقل": "Intellect, raison", "خلق": "Création", "أثيب": "Récompenser"},
-        "seo_question": "Que dit le premier hadith d'Al-Kafi sur l'intellect ?"
+        "text": "Lorsque Dieu créa l'intellect, Il le fit parler, puis lui dit : 'Avance !' Et il avança. Puis Il lui dit : 'Recule !' Et il recula. Puis Il dit : 'Par Ma Puissance et Ma Majesté ! Je n'ai créé aucune créature plus aimée de Moi que toi, et Je ne te perfectionnerai que chez celui que J'aime. Sache que c'est toi que Je commanderai et que J'interdirai, c'est toi que Je châtierai et que Je récompenserai.'",
+        "summary": "Dieu a créé l'intellect, éprouvé son obéissance, l'a déclaré la créature la plus aimée, et a affirmé que tous les commandements, interdictions, châtiments et récompenses lui sont adressés.",
+        "key_terms": {"العقل": "L'intellect (al-'aql) — la faculté de compréhension rationnelle que Dieu a créée comme la première et la plus honorée des créatures", "استنطقه": "Il le fit parler — Dieu a doté l'intellect de la capacité d'expression", "أثيب": "Récompenser — accorder la rétribution et la récompense divine"},
+        "seo_question": "Que dit le premier hadith d'Al-Kafi sur la création et le statut de l'intellect ?"
       },
       "de": {
         "text": "Als Gott den Verstand erschuf, ließ Er ihn sprechen, dann sagte Er zu ihm: 'Tritt vor!' Und er trat vor. Dann sagte Er: 'Tritt zurück!' Und er trat zurück. Dann sprach Er: 'Bei Meiner Macht und Meiner Erhabenheit! Ich habe kein Geschöpf erschaffen, das Mir lieber ist als du, und Ich werde dich nur in demjenigen vollenden, den Ich liebe. Wisse, dass Ich dir befehlen und verbieten werde, dich bestrafen und belohnen werde.'",
-        "summary": "Gott erschuf den Verstand als das geliebteste Geschöpf und erklärte, dass Gebote, Verbote, Strafe und Belohnung auf dem Verstand basieren.",
-        "key_terms": {"العقل": "Verstand, Intellekt", "خلق": "Schöpfung", "أثيب": "Belohnen"},
-        "seo_question": "Was sagt der erste Hadith in Al-Kafi über den Verstand?"
+        "summary": "Gott erschuf den Verstand, prüfte seinen Gehorsam, erklärte ihn zum geliebtesten Geschöpf und stellte klar, dass alle Gebote, Verbote, Strafen und Belohnungen an ihn gerichtet sind.",
+        "key_terms": {"العقل": "Der Verstand (al-'aql) — das Vermögen rationalen Verstehens, das Gott als erstes und ehrvollstes Geschöpf erschuf", "استنطقه": "Er ließ ihn sprechen — Gott verlieh dem Verstand die Fähigkeit des Ausdrucks", "أثيب": "Belohnen — göttliche Vergeltung und Lohn gewähren"},
+        "seo_question": "Was sagt der erste Hadith in Al-Kafi über die Erschaffung und den Rang des Verstandes?"
       },
       "ru": {
         "text": "Когда Аллах создал разум, Он заставил его говорить, затем сказал ему: «Подойди!» — и тот подошёл. Затем сказал: «Отступи!» — и тот отступил. Тогда Он сказал: «Клянусь Моим Могуществом и Моим Величием! Я не создал творения более любимого Мной, чем ты, и Я не сделаю тебя совершенным, кроме как в том, кого Я люблю. Знай, что тебе Я буду повелевать и запрещать, тебя Я буду наказывать и вознаграждать».",
-        "summary": "Аллах создал разум как самое любимое творение и объявил, что повеления, запреты, наказания и награды основаны на нём.",
-        "key_terms": {"العقل": "Разум, интеллект", "خلق": "Творение", "أثيب": "Вознаграждать"},
-        "seo_question": "Что говорится в первом хадисе Аль-Кафи о разуме?"
+        "summary": "Аллах создал разум, испытал его послушание, объявил его самым любимым творением и заявил, что все повеления, запреты, наказания и награды обращены к нему.",
+        "key_terms": {"العقل": "Разум (аль-акль) — способность рационального понимания, которую Аллах создал как первое и наиболее почитаемое творение", "استنطقه": "Заставил его говорить — Аллах наделил разум способностью к выражению", "أثيب": "Вознаграждать — даровать божественное воздаяние и награду"},
+        "seo_question": "Что говорится в первом хадисе Аль-Кафи о сотворении и статусе разума?"
       },
       "zh": {
         "text": "当安拉创造了理智时，让它开口说话，然后对它说：'上前来！'它便上前了。然后说：'退回去！'它便退回了。然后说：'以我的尊严和威严起誓！我没有创造比你更受我喜爱的造物，我只在我所喜爱的人中完善你。你要知道，我将命令你、禁止你，惩罚你、奖赏你。'",
-        "summary": "安拉创造理智为最受喜爱的造物，并宣布一切命令、禁止、惩罚和奖赏都基于理智。",
-        "key_terms": {"العقل": "理智，智慧", "خلق": "创造", "أثيب": "奖赏，回报"},
-        "seo_question": "《原理之书》(Al-Kafi)的第一段圣训关于理智说了什么？"
+        "summary": "安拉创造了理智，考验了它的顺从，宣布它是最受喜爱的造物，并声明一切命令、禁止、惩罚和奖赏都是针对它的。",
+        "key_terms": {"العقل": "理智（阿格勒）——安拉作为第一个也是最尊贵的造物而创造的理性认知能力", "استنطقه": "使它开口说话——安拉赋予理智表达的能力", "أثيب": "奖赏——给予神圣的报酬和回赐"},
+        "seo_question": "《原理之书》(Al-Kafi)的第一段圣训关于理智的创造和地位说了什么？"
       }
     }
   }

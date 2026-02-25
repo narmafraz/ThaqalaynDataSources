@@ -2,7 +2,7 @@
   "verse_path": "/books/quran:1:1",
   "ai_attribution": {
     "model": "claude-opus-4-6-20260205",
-    "generated_date": "2026-02-23",
+    "generated_date": "2026-02-25",
     "pipeline_version": "1.0.0",
     "generation_method": "claude_code_direct"
   },
@@ -13,36 +13,88 @@
     "word_analysis": [
       {
         "word": "بِسْمِ",
-        "translation_en": "In the name of",
+        "translation": {
+          "en": "In the name of",
+          "ur": "کے نام سے",
+          "tr": "adıyla",
+          "fa": "به نام",
+          "id": "Dengan nama",
+          "bn": "নামে",
+          "es": "En el nombre de",
+          "fr": "Au nom de",
+          "de": "Im Namen",
+          "ru": "Во имя",
+          "zh": "以...之名"
+        },
         "root": "س م و",
         "pos": "PREP",
         "is_proper_noun": false
       },
       {
         "word": "اللَّهِ",
-        "translation_en": "Allah (God)",
+        "translation": {
+          "en": "Allah (God)",
+          "ur": "اللہ",
+          "tr": "Allah'ın",
+          "fa": "خداوند",
+          "id": "Allah",
+          "bn": "আল্লাহর",
+          "es": "Dios",
+          "fr": "Dieu",
+          "de": "Gottes",
+          "ru": "Аллаха",
+          "zh": "安拉"
+        },
         "root": "أ ل ه",
         "pos": "N",
         "is_proper_noun": true
       },
       {
         "word": "الرَّحْمٰنِ",
-        "translation_en": "the All-beneficent",
+        "translation": {
+          "en": "the All-beneficent",
+          "ur": "بے حد مہربان",
+          "tr": "Rahman olan",
+          "fa": "بخشنده",
+          "id": "Yang Maha Pengasih",
+          "bn": "পরম করুণাময়",
+          "es": "el Clementísimo",
+          "fr": "le Tout Miséricordieux",
+          "de": "des Allerbarmers",
+          "ru": "Милостивого",
+          "zh": "至仁的"
+        },
         "root": "ر ح م",
         "pos": "ADJ",
         "is_proper_noun": false
       },
       {
         "word": "الرَّحِيمِ",
-        "translation_en": "the All-merciful",
+        "translation": {
+          "en": "the All-merciful",
+          "ur": "نہایت رحم والا",
+          "tr": "Rahim olan",
+          "fa": "مهربان",
+          "id": "lagi Maha Penyayang",
+          "bn": "অতি দয়ালু",
+          "es": "el Misericordiosísimo",
+          "fr": "le Très Miséricordieux",
+          "de": "des Barmherzigen",
+          "ru": "Милосердного",
+          "zh": "至慈的"
+        },
         "root": "ر ح م",
         "pos": "ADJ",
         "is_proper_noun": false
       }
     ],
-    "tags": ["theology", "worship"],
+    "tags": ["theology", "worship", "dua"],
     "hadith_type": "creedal",
-    "related_quran": [],
+    "related_quran": [
+      {"ref": "27:30", "relationship": "thematic"},
+      {"ref": "11:41", "relationship": "thematic"},
+      {"ref": "56:96", "relationship": "thematic"}
+    ],
     "isnad_matn": {
       "isnad_ar": "",
       "matn_ar": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ",
@@ -50,65 +102,126 @@
       "narrators": []
     },
     "translations": {
+      "en": {
+        "text": "In the Name of Allah, the All-beneficent, the All-merciful.",
+        "summary": "The Basmala is the opening invocation of the Quran, consecrating every act and utterance in the name of God, whose all-encompassing mercy (Rahman) and particular compassion (Rahim) are the foremost of His divine attributes presented to creation.",
+        "key_terms": {
+          "بسم": "Bi-smi - 'In the name of'; a prepositional phrase invoking divine authority and blessing before any undertaking",
+          "الله": "Allah - The supreme proper name of God in Arabic, encompassing all divine attributes; derived from al-ilah (the deity worthy of worship)",
+          "الرحمن": "Ar-Rahman - The All-beneficent; an intensive form (fa'lan) denoting God's universal mercy that encompasses all of creation without distinction",
+          "الرحيم": "Ar-Rahim - The All-merciful; an intensive form (fa'il) denoting God's special, sustaining mercy bestowed particularly upon the believers"
+        },
+        "seo_question": "What is the meaning and significance of Bismillah ar-Rahman ar-Rahim, the opening verse of the Quran?"
+      },
       "ur": {
-        "text": "اللہ کے نام سے جو بے حد مہربان نہایت رحم والا ہے۔",
-        "summary": "اللہ تعالیٰ کے بابرکت نام سے آغاز، جو رحمان اور رحیم ہے۔",
-        "key_terms": {"الرحمن": "رحمٰن - وہ ذات جس کی رحمت ہر چیز پر محیط ہے", "الرحيم": "رحیم - وہ ذات جو خاص طور پر مؤمنین پر رحم فرماتی ہے"},
-        "seo_question": "بسم اللہ الرحمٰن الرحیم کا مکمل ترجمہ اور مفہوم کیا ہے؟"
+        "text": "شروع کرتا ہوں اللہ کے نام سے جو بے حد مہربان نہایت رحم والا ہے۔",
+        "summary": "بسم اللہ قرآن کریم کی ابتدائی آیت ہے جو ہر عمل اور کلام کو خدا کے نام سے مقدس کرتی ہے، جس کی رحمت عامہ (رحمٰن) تمام مخلوقات کو شامل ہے اور رحمت خاصہ (رحیم) بالخصوص مؤمنین کے لیے ہے۔",
+        "key_terms": {
+          "بسم": "بسم - خدا کے نام سے آغاز، ہر کام میں برکت اور تقدیس کا اعلان",
+          "الله": "اللہ - خداوند کا ذاتی نام، تمام صفات کمال کا جامع",
+          "الرحمن": "رحمٰن - بے حد مہربان، وہ ذات جس کی رحمت ہر چیز پر محیط ہے",
+          "الرحيم": "رحیم - نہایت رحم والا، وہ ذات جو خاص طور پر مؤمنین پر رحم فرماتی ہے"
+        },
+        "seo_question": "بسم اللہ الرحمٰن الرحیم کا مکمل ترجمہ، مفہوم اور اہمیت کیا ہے؟"
       },
       "tr": {
         "text": "Rahman ve Rahim olan Allah'ın adıyla.",
-        "summary": "Sonsuz rahmet ve merhamet sahibi Allah'ın adıyla başlangıç.",
-        "key_terms": {"الرحمن": "Rahman - Rahmeti her şeyi kuşatan", "الرحيم": "Rahim - Özellikle müminlere merhamet eden"},
-        "seo_question": "Besmele ne anlama gelir ve neden her işin başında söylenir?"
+        "summary": "Besmele, Kur'an-ı Kerim'in açılış ayeti olup her işi ve sözü Allah'ın adıyla kutsayan bir başlangıçtır. Allah'ın her şeyi kapsayan rahmeti (Rahman) ve müminlere özel merhameti (Rahim) ilahi sıfatların en önemlileridir.",
+        "key_terms": {
+          "بسم": "Bism - Allah'ın adıyla; her işe bereket ve kutsallık katarak başlama ifadesi",
+          "الله": "Allah - Yüce Yaratıcı'nın özel ismi, tüm ilahi sıfatları bünyesinde barındırır",
+          "الرحمن": "Rahman - Rahmeti tüm yaratılmışları kuşatan, sonsuz merhamet sahibi",
+          "الرحيم": "Rahim - Özellikle müminlere merhamet eden, sürekli şefkat gösteren"
+        },
+        "seo_question": "Besmele (Bismillahirrahmanirrahim) ne anlama gelir ve neden her işin başında söylenir?"
       },
       "fa": {
-        "text": "به نام خداوند بخشنده بخشایشگر.",
-        "summary": "آغاز به نام خداوند رحمان و رحیم که رحمتش همه چیز را فرا گرفته است.",
-        "key_terms": {"الرحمن": "رحمان - آن که رحمتش همگانی و فراگیر است", "الرحيم": "رحیم - آن که رحمت خاصش شامل حال مؤمنان است"},
-        "seo_question": "معنی و مفهوم کامل بسم الله الرحمن الرحیم چیست؟"
+        "text": "به نام خداوند بخشنده مهربان.",
+        "summary": "بسم الله آیه آغازین قرآن کریم است که هر عمل و سخن را به نام خداوند متبرک می‌سازد. رحمت فراگیر الهی (رحمان) شامل همه آفریدگان است و رحمت ویژه (رحیم) به طور خاص مؤمنان را در بر می‌گیرد.",
+        "key_terms": {
+          "بسم": "بسم - به نام خدا؛ عبارت استعانت و تبرک در آغاز هر کار",
+          "الله": "الله - نام ذات اقدس خداوند متعال، جامع تمام صفات کمال",
+          "الرحمن": "رحمان - بسیار بخشنده؛ صفتی که رحمت فراگیر و عمومی خداوند را بر تمام مخلوقات نشان می‌دهد",
+          "الرحيم": "رحیم - بسیار مهربان؛ صفتی که رحمت خاص و پایدار خداوند را بویژه برای مؤمنان بیان می‌کند"
+        },
+        "seo_question": "معنی و مفهوم کامل بسم الله الرحمن الرحیم، آیه نخست قرآن، چیست؟"
       },
       "id": {
         "text": "Dengan nama Allah Yang Maha Pengasih lagi Maha Penyayang.",
-        "summary": "Pembukaan dengan menyebut nama Allah yang memiliki sifat kasih sayang yang sempurna.",
-        "key_terms": {"الرحمن": "Ar-Rahman - Yang kasih sayang-Nya meliputi seluruh makhluk", "الرحيم": "Ar-Rahim - Yang kasih sayang-Nya khusus bagi orang-orang beriman"},
-        "seo_question": "Apa makna lengkap Bismillahirrahmanirrahim dalam Al-Quran?"
+        "summary": "Basmala adalah ayat pembuka Al-Quran yang mengawali setiap perbuatan dan ucapan dengan nama Allah. Sifat kasih sayang-Nya yang universal (Rahman) meliputi seluruh makhluk, sedangkan kasih sayang khusus-Nya (Rahim) ditujukan terutama kepada orang-orang beriman.",
+        "key_terms": {
+          "بسم": "Bismi - Dengan nama Allah; ungkapan permohonan berkah dan penyucian dalam memulai segala perkara",
+          "الله": "Allah - Nama dzat Tuhan Yang Maha Esa, mencakup seluruh sifat kesempurnaan",
+          "الرحمن": "Ar-Rahman - Yang Maha Pengasih; sifat yang menunjukkan rahmat Allah yang universal bagi seluruh makhluk tanpa terkecuali",
+          "الرحيم": "Ar-Rahim - Yang Maha Penyayang; sifat yang menunjukkan rahmat Allah yang khusus dan berkesinambungan bagi orang-orang beriman"
+        },
+        "seo_question": "Apa makna lengkap Bismillahirrahmanirrahim, ayat pertama Al-Quran?"
       },
       "bn": {
         "text": "পরম করুণাময় অতি দয়ালু আল্লাহর নামে।",
-        "summary": "সীমাহীন দয়া ও করুণার অধিকারী আল্লাহর পবিত্র নামে শুরু।",
-        "key_terms": {"الرحمن": "আর-রাহমান - যাঁর দয়া সমস্ত সৃষ্টিকে পরিব্যাপ্ত", "الرحيم": "আর-রাহীম - যাঁর বিশেষ দয়া মুমিনদের জন্য"},
-        "seo_question": "বিসমিল্লাহির রাহমানির রাহীম এর পূর্ণ অর্থ ও তাৎপর্য কী?"
+        "summary": "বিসমিল্লাহ হলো পবিত্র কুরআনের প্রারম্ভিক আয়াত যা প্রতিটি কাজ ও বাণীকে আল্লাহর নামে পবিত্র করে। আল্লাহর সার্বজনীন রহমত (রাহমান) সমস্ত সৃষ্টিকে পরিব্যাপ্ত এবং তাঁর বিশেষ রহমত (রাহীম) বিশেষভাবে মুমিনদের জন্য নির্ধারিত।",
+        "key_terms": {
+          "بسم": "বিসমি - আল্লাহর নামে; প্রতিটি কাজে বরকত ও পবিত্রতার প্রার্থনা",
+          "الله": "আল্লাহ - মহান সৃষ্টিকর্তার নিজস্ব নাম, সকল পূর্ণ গুণাবলির সমন্বয়",
+          "الرحمن": "আর-রাহমান - পরম করুণাময়; যাঁর রহমত বিনা বিচারে সমস্ত সৃষ্টিকে পরিব্যাপ্ত করে",
+          "الرحيم": "আর-রাহীম - অতি দয়ালু; যাঁর বিশেষ ও চিরস্থায়ী দয়া মুমিনদের জন্য নির্ধারিত"
+        },
+        "seo_question": "বিসমিল্লাহির রাহমানির রাহীম, কুরআনের প্রথম আয়াতের পূর্ণ অর্থ ও তাৎপর্য কী?"
       },
       "es": {
-        "text": "En el nombre de Dios, el Compasivo, el Misericordioso.",
-        "summary": "Invocación al nombre de Dios, cuyos atributos de compasión y misericordia son infinitos.",
-        "key_terms": {"الرحمن": "Ar-Rahman - El Compasivo, cuya misericordia abarca todo", "الرحيم": "Ar-Rahim - El Misericordioso, cuya misericordia especial es para los creyentes"},
-        "seo_question": "¿Cuál es el significado completo de Bismillah ar-Rahman ar-Rahim?"
+        "text": "En el nombre de Dios, el Clementísimo, el Misericordiosísimo.",
+        "summary": "La Basmala es la invocación inaugural del Corán que consagra cada acción y palabra en el nombre de Dios. Su misericordia universal (Rahman) abarca toda la creación sin distinción, mientras que Su compasión particular (Rahim) se dirige especialmente a los creyentes.",
+        "key_terms": {
+          "بسم": "Bismi - En el nombre de Dios; expresión de invocación de la bendición y sacralización divina al inicio de toda empresa",
+          "الله": "Allah - El nombre propio supremo de Dios en árabe, que engloba todos los atributos divinos",
+          "الرحمن": "Ar-Rahman - El Clementísimo; forma intensiva que denota la misericordia universal de Dios que abarca toda la creación",
+          "الرحيم": "Ar-Rahim - El Misericordiosísimo; forma intensiva que denota la misericordia especial y continua de Dios hacia los creyentes"
+        },
+        "seo_question": "¿Cuál es el significado completo de Bismillah ar-Rahman ar-Rahim, el primer versículo del Corán?"
       },
       "fr": {
         "text": "Au nom de Dieu, le Tout Miséricordieux, le Très Miséricordieux.",
-        "summary": "Invocation au nom de Dieu dont la miséricorde englobe toute chose.",
-        "key_terms": {"الرحمن": "Ar-Rahmân - Celui dont la miséricorde englobe toute la création", "الرحيم": "Ar-Rahîm - Celui dont la miséricorde particulière est pour les croyants"},
-        "seo_question": "Quelle est la signification complète de Bismillah ar-Rahman ar-Rahim ?"
+        "summary": "La Basmala est l'invocation inaugurale du Coran qui consacre chaque acte et parole au nom de Dieu. Sa miséricorde universelle (Rahman) englobe toute la création sans distinction, tandis que Sa compassion particulière (Rahim) est destinée spécialement aux croyants.",
+        "key_terms": {
+          "بسم": "Bismi - Au nom de Dieu ; formule d'invocation de la bénédiction et de la sacralisation divine au commencement de toute entreprise",
+          "الله": "Allah - Le nom propre suprême de Dieu en arabe, englobant tous les attributs divins",
+          "الرحمن": "Ar-Rahmân - Le Tout Miséricordieux ; forme intensive désignant la miséricorde universelle de Dieu qui englobe toute la création",
+          "الرحيم": "Ar-Rahîm - Le Très Miséricordieux ; forme intensive désignant la miséricorde particulière et constante de Dieu envers les croyants"
+        },
+        "seo_question": "Quelle est la signification complète de Bismillah ar-Rahman ar-Rahim, le premier verset du Coran ?"
       },
       "de": {
         "text": "Im Namen Gottes, des Allerbarmers, des Barmherzigen.",
-        "summary": "Anrufung im Namen Gottes, dessen Barmherzigkeit alles umfasst.",
-        "key_terms": {"الرحمن": "Ar-Rahmân - Der Allerbarmer, dessen Gnade alles umfasst", "الرحيم": "Ar-Rahîm - Der Barmherzige, dessen besondere Gnade den Gläubigen gilt"},
-        "seo_question": "Was bedeutet Bismillah ar-Rahman ar-Rahim vollständig?"
+        "summary": "Die Basmala ist die Eröffnungsanrufung des Korans, die jede Handlung und Äußerung im Namen Gottes heiligt. Seine allumfassende Barmherzigkeit (Rahman) erstreckt sich über die gesamte Schöpfung ohne Unterschied, während Sein besonderes Erbarmen (Rahim) insbesondere den Gläubigen gilt.",
+        "key_terms": {
+          "بسم": "Bismi - Im Namen Gottes; Ausdruck der Anrufung des göttlichen Segens und der Heiligung zu Beginn jedes Vorhabens",
+          "الله": "Allah - Der höchste Eigenname Gottes im Arabischen, der alle göttlichen Attribute umfasst",
+          "الرحمن": "Ar-Rahmân - Der Allerbarmer; eine intensive Form, die Gottes universale Barmherzigkeit bezeichnet, die die gesamte Schöpfung umfasst",
+          "الرحيم": "Ar-Rahîm - Der Barmherzige; eine intensive Form, die Gottes besondere und beständige Barmherzigkeit gegenüber den Gläubigen bezeichnet"
+        },
+        "seo_question": "Was bedeutet Bismillah ar-Rahman ar-Rahim, der erste Vers des Korans, vollständig?"
       },
       "ru": {
         "text": "Во имя Аллаха, Милостивого, Милосердного.",
-        "summary": "Обращение к имени Аллаха, милость Которого объемлет всё сущее.",
-        "key_terms": {"الرحمن": "Ар-Рахман - Тот, чья милость охватывает всё творение", "الرحيم": "Ар-Рахим - Тот, чья особая милость предназначена верующим"},
-        "seo_question": "Каково полное значение Бисмиллях ар-Рахман ар-Рахим?"
+        "summary": "Басмала — это вступительная формула Корана, освящающая каждое действие и слово именем Бога. Его всеобъемлющая милость (Рахман) охватывает всё творение без различия, а Его особое милосердие (Рахим) предназначено прежде всего верующим.",
+        "key_terms": {
+          "بسم": "Бисми - Во имя Бога; формула призывания божественного благословения и освящения в начале всякого дела",
+          "الله": "Аллах - Высшее собственное имя Бога в арабском языке, объемлющее все божественные качества",
+          "الرحمن": "Ар-Рахман - Милостивый; интенсивная форма, обозначающая всеобъемлющую милость Бога, охватывающую всё творение",
+          "الرحيم": "Ар-Рахим - Милосердный; интенсивная форма, обозначающая особую и постоянную милость Бога к верующим"
+        },
+        "seo_question": "Каково полное значение Бисмиллях ар-Рахман ар-Рахим, первого аята Корана?"
       },
       "zh": {
         "text": "奉至仁至慈的安拉之名。",
-        "summary": "以安拉的尊名开始，祂的仁慈涵盖万物。",
-        "key_terms": {"الرحمن": "至仁主（拉赫曼）- 其慈悯涵盖一切被造物", "الرحيم": "至慈主（拉希姆）- 其特殊慈悯惠及信士"},
-        "seo_question": "比斯米拉·拉赫曼·拉希姆的完整含义是什么？"
+        "summary": "太斯米是《古兰经》的开篇祈祷词，以安拉之名圣化每一个行为和言辞。安拉普遍的慈悯（拉赫曼）无差别地涵盖一切被造物，而祂特殊的怜悯（拉希姆）则专门赐予信士。",
+        "key_terms": {
+          "بسم": "比斯米 - 以安拉之名；在一切事务开始时祈求神圣祝福与圣化的用语",
+          "الله": "安拉 - 阿拉伯语中至高无上的真主固有名称，涵盖一切神圣属性",
+          "الرحمن": "至仁主（拉赫曼）- 强调形式，指安拉普遍的慈悯，无差别地涵盖一切被造物",
+          "الرحيم": "至慈主（拉希姆）- 强调形式，指安拉特殊而持久的慈悯，尤其赐予信士"
+        },
+        "seo_question": "《古兰经》第一节经文「比斯米拉·拉赫曼·拉希姆」（太斯米）的完整含义是什么？"
       }
     }
   }
