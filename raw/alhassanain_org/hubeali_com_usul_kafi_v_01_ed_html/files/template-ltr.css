@@ -1,0 +1,93 @@
+html {
+  direction: ltr;
+}
+
+body {
+  font-family: Times New Roman, Arial, sans-serif;
+}
+
+h1.logo a
+{
+	background-position: top right;
+}
+
+.main {
+  text-align: left;
+}
+
+#ja-mainbody {
+  float: left;
+}
+
+#ja-current-content, #ja-main {
+  float: right;
+}
+
+/*
+Content
+*/
+.ja-content-main {
+  background: 
+		url("../images/content_spacer.gif") left calc(100% - 10px),
+		url("../images/content_tr.gif") right top,
+		url("../images/content_tl.gif") left top;
+	background-repeat: no-repeat;
+  float: right;
+}
+
+p.ja-typo-icon span.icon {
+	float: left;
+}
+
+p.icon-error {
+  background-position: center left;
+  padding-left: 25px;
+  padding-right: 0;
+}
+p.icon-message {
+  background-position: center left;
+  padding-left: 25px;
+  padding-right: 0;
+}
+p.icon-tips {
+  background-position: center left;
+  padding-left: 25px;
+  padding-right: 0;
+}
+
+p.readmore {
+  float: left;
+}
+
+#ja-footlogo {
+  background-image: url("../images/footer.png");
+  background-position: right top;
+  left: 0 !important;
+  right: 0 !important;
+  float: right;
+  position: relative;
+  height: 42px;
+}
+
+#ja-footlogo a {
+  margin-right: auto;
+  margin-left: 20px;
+}
+
+#ja-footer .ja-copyright {
+  border-right: 0 none;
+  border-left: medium none;
+  margin-right: 0;
+  margin-left: 4px;
+  text-align: left;
+  width: 60%;
+  float: left;
+}
+
+ul.treeview {
+	float: left;
+}
+
+ul.treeview li {
+	text-align: left;
+}

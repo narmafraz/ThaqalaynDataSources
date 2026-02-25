@@ -1,0 +1,34 @@
+.page p {
+	direction:ltr;
+}
+
+/* Left Style */
+.libLeft, .libLeftBold, .libFootnoteLeft {
+	text-align:left;
+}
+.libEnFootnote, .libEn {
+  direction: ltr;
+  text-align:left;
+}
+/* Alaem Style */
+
+.pageContent {
+	direction: ltr;
+}
+
+.page h1, .page h2, .page h3, .Heading1, .Heading2, .Heading3 {
+	text-align: left;
+}
+
+.libTocNum {
+	float: right;
+}
+
+p.libAie, p.libAieChar, p.libFootnoteAie, p.libArAie, .libAie, .libAieChar, .libFootnoteAie, .libArAie
+.libAlaem:before{
+	content: "‎";
+}
+.libAlaem {
+    vertical-align: super;
+    font-size: small;
+}
