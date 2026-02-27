@@ -1,0 +1,178 @@
+{
+  "version": "1.0.0",
+  "description": "Two-level topic taxonomy for hadith/verse classification. Level 1 matches the 14 VALID_TAGS. Level 2 provides granular sub-topics (~80-100) for meaningful cross-referencing.",
+  "taxonomy": {
+    "theology": {
+      "en": "Theology",
+      "ar": "العقيدة",
+      "topics": {
+        "tawhid": { "en": "Divine Unity (Tawhid)", "ar": "التوحيد" },
+        "divine_attributes": { "en": "Divine Attributes & Names", "ar": "الأسماء والصفات" },
+        "divine_justice": { "en": "Divine Justice (Adl)", "ar": "العدل الإلهي" },
+        "imamate": { "en": "Imamate & Wilaya", "ar": "الإمامة والولاية" },
+        "prophethood": { "en": "Prophethood (Nubuwwa)", "ar": "النبوة" },
+        "divine_decree": { "en": "Divine Decree & Free Will", "ar": "القضاء والقدر" },
+        "divine_knowledge": { "en": "Divine Knowledge", "ar": "علم الله" }
+      }
+    },
+    "ethics": {
+      "en": "Ethics & Morality",
+      "ar": "الأخلاق",
+      "topics": {
+        "patience": { "en": "Patience (Sabr)", "ar": "الصبر" },
+        "honesty": { "en": "Honesty & Truthfulness", "ar": "الصدق" },
+        "humility": { "en": "Humility & Modesty", "ar": "التواضع" },
+        "rights_of_others": { "en": "Rights of Others", "ar": "حقوق الآخرين" },
+        "repentance": { "en": "Repentance (Tawba)", "ar": "التوبة" },
+        "gratitude": { "en": "Gratitude (Shukr)", "ar": "الشكر" },
+        "sincerity": { "en": "Sincerity (Ikhlas)", "ar": "الإخلاص" },
+        "forbidding_evil": { "en": "Enjoining Good & Forbidding Evil", "ar": "الأمر بالمعروف والنهي عن المنكر" },
+        "anger_control": { "en": "Controlling Anger", "ar": "كظم الغيظ" },
+        "backbiting": { "en": "Backbiting & Slander", "ar": "الغيبة والنميمة" }
+      }
+    },
+    "jurisprudence": {
+      "en": "Jurisprudence (Fiqh)",
+      "ar": "الفقه",
+      "topics": {
+        "ritual_purity": { "en": "Ritual Purity (Tahara)", "ar": "الطهارة" },
+        "prayer_rulings": { "en": "Prayer Rulings", "ar": "أحكام الصلاة" },
+        "fasting_rulings": { "en": "Fasting Rulings", "ar": "أحكام الصيام" },
+        "financial_law": { "en": "Financial Law (Zakat, Khums)", "ar": "الأحكام المالية" },
+        "marriage_family_law": { "en": "Marriage & Family Law", "ar": "أحكام الزواج والأسرة" },
+        "halal_haram": { "en": "Permissible & Forbidden", "ar": "الحلال والحرام" },
+        "judicial_rulings": { "en": "Judicial Rulings & Testimony", "ar": "الأحكام القضائية والشهادة" },
+        "inheritance": { "en": "Inheritance (Mirath)", "ar": "الميراث" }
+      }
+    },
+    "worship": {
+      "en": "Worship (Ibada)",
+      "ar": "العبادة",
+      "topics": {
+        "salat": { "en": "Ritual Prayer (Salat)", "ar": "الصلاة" },
+        "fasting": { "en": "Fasting (Sawm)", "ar": "الصوم" },
+        "hajj": { "en": "Pilgrimage (Hajj & Umra)", "ar": "الحج والعمرة" },
+        "zakat_khums": { "en": "Zakat & Khums", "ar": "الزكاة والخمس" },
+        "dhikr": { "en": "Remembrance of God (Dhikr)", "ar": "الذكر" },
+        "quran_recitation": { "en": "Quran Recitation & Etiquette", "ar": "تلاوة القرآن وآدابه" },
+        "night_prayer": { "en": "Night Prayer (Tahajjud)", "ar": "صلاة الليل" },
+        "mosque_etiquette": { "en": "Mosque Etiquette", "ar": "آداب المسجد" }
+      }
+    },
+    "knowledge": {
+      "en": "Knowledge & Learning",
+      "ar": "العلم",
+      "topics": {
+        "seeking_knowledge": { "en": "Obligation of Seeking Knowledge", "ar": "طلب العلم" },
+        "scholars_virtues": { "en": "Virtues of Scholars", "ar": "فضل العلماء" },
+        "teaching": { "en": "Teaching & Transmission", "ar": "التعليم ونقل العلم" },
+        "reasoning": { "en": "Intellect & Reasoning (Aql)", "ar": "العقل" },
+        "ignorance": { "en": "Ignorance & Its Dangers", "ar": "الجهل" },
+        "religious_authority": { "en": "Religious Authority & Taqlid", "ar": "المرجعية والتقليد" }
+      }
+    },
+    "afterlife": {
+      "en": "Afterlife & Eschatology",
+      "ar": "المعاد",
+      "topics": {
+        "resurrection": { "en": "Day of Resurrection", "ar": "يوم القيامة" },
+        "paradise_hell": { "en": "Paradise & Hell", "ar": "الجنة والنار" },
+        "barzakh": { "en": "Intermediate Realm (Barzakh)", "ar": "البرزخ" },
+        "intercession": { "en": "Intercession (Shafa'a)", "ar": "الشفاعة" },
+        "signs_of_end": { "en": "Signs of the End Times", "ar": "علامات آخر الزمان" },
+        "death_dying": { "en": "Death & The Dying Process", "ar": "الموت والاحتضار" },
+        "reckoning": { "en": "Reckoning & Judgment", "ar": "الحساب" }
+      }
+    },
+    "dua": {
+      "en": "Supplication (Du'a)",
+      "ar": "الدعاء",
+      "topics": {
+        "specific_supplications": { "en": "Specific Supplications", "ar": "أدعية مأثورة" },
+        "etiquette_of_dua": { "en": "Etiquette of Supplication", "ar": "آداب الدعاء" },
+        "times_for_dua": { "en": "Best Times for Supplication", "ar": "أوقات الدعاء" },
+        "seeking_forgiveness": { "en": "Seeking Forgiveness (Istighfar)", "ar": "الاستغفار" },
+        "seeking_refuge": { "en": "Seeking Refuge (Isti'adha)", "ar": "الاستعاذة" }
+      }
+    },
+    "history": {
+      "en": "History",
+      "ar": "التاريخ",
+      "topics": {
+        "prophets": { "en": "Stories of the Prophets", "ar": "قصص الأنبياء" },
+        "imams_biography": { "en": "Lives of the Imams", "ar": "سير الأئمة" },
+        "companions": { "en": "Companions & Followers", "ar": "الصحابة والتابعين" },
+        "events": { "en": "Historical Events", "ar": "الأحداث التاريخية" },
+        "karbala": { "en": "Karbala & Ashura", "ar": "كربلاء وعاشوراء" },
+        "ghadir": { "en": "Event of Ghadir", "ar": "حديث الغدير" }
+      }
+    },
+    "family": {
+      "en": "Family & Kinship",
+      "ar": "الأسرة",
+      "topics": {
+        "parenting": { "en": "Parenting & Child Rearing", "ar": "تربية الأولاد" },
+        "spousal_rights": { "en": "Spousal Rights & Duties", "ar": "حقوق الزوجين" },
+        "kinship": { "en": "Maintaining Family Ties", "ar": "صلة الرحم" },
+        "orphans": { "en": "Care for Orphans", "ar": "رعاية اليتامى" },
+        "womens_rights": { "en": "Women's Rights & Status", "ar": "حقوق المرأة" }
+      }
+    },
+    "social_relations": {
+      "en": "Social Relations",
+      "ar": "العلاقات الاجتماعية",
+      "topics": {
+        "neighbors": { "en": "Rights of Neighbors", "ar": "حقوق الجار" },
+        "hospitality": { "en": "Hospitality & Generosity", "ar": "الضيافة والكرم" },
+        "trust": { "en": "Trust & Keeping Promises", "ar": "الأمانة والوفاء" },
+        "community": { "en": "Community & Brotherhood", "ar": "المجتمع والأخوة" },
+        "etiquette": { "en": "Social Etiquette & Manners", "ar": "آداب المعاشرة" },
+        "friendship": { "en": "Friendship & Companionship", "ar": "الصداقة والصحبة" }
+      }
+    },
+    "quran_commentary": {
+      "en": "Quran Commentary",
+      "ar": "تفسير القرآن",
+      "topics": {
+        "tafsir_specific_verse": { "en": "Commentary on Specific Verses", "ar": "تفسير آيات مخصوصة" },
+        "occasions_of_revelation": { "en": "Occasions of Revelation", "ar": "أسباب النزول" },
+        "abrogation": { "en": "Abrogation (Naskh)", "ar": "الناسخ والمنسوخ" },
+        "quran_virtues": { "en": "Virtues of Quran", "ar": "فضائل القرآن" },
+        "quran_interpretation_method": { "en": "Methods of Interpretation", "ar": "مناهج التفسير" }
+      }
+    },
+    "prophetic_tradition": {
+      "en": "Prophetic Tradition",
+      "ar": "السنة النبوية",
+      "topics": {
+        "sunnah": { "en": "Sunnah & Prophetic Practice", "ar": "السنة النبوية" },
+        "prophetic_character": { "en": "Prophetic Character & Conduct", "ar": "أخلاق النبي وسيرته" },
+        "miracles": { "en": "Miracles & Extraordinary Events", "ar": "المعجزات والكرامات" },
+        "ahlulbayt_virtues": { "en": "Virtues of Ahlulbayt", "ar": "فضائل أهل البيت" },
+        "hadith_sciences": { "en": "Hadith Sciences & Transmission", "ar": "علوم الحديث" }
+      }
+    },
+    "economy": {
+      "en": "Economy & Livelihood",
+      "ar": "الاقتصاد والمعيشة",
+      "topics": {
+        "trade_ethics": { "en": "Trade Ethics & Fair Dealing", "ar": "أخلاق التجارة" },
+        "poverty_wealth": { "en": "Poverty, Wealth & Contentment", "ar": "الفقر والغنى والقناعة" },
+        "charity": { "en": "Charity & Generosity (Sadaqa)", "ar": "الصدقة والإنفاق" },
+        "usury": { "en": "Prohibition of Usury (Riba)", "ar": "تحريم الربا" },
+        "work_livelihood": { "en": "Work & Earning a Livelihood", "ar": "العمل والكسب" }
+      }
+    },
+    "governance": {
+      "en": "Governance & Leadership",
+      "ar": "الحكم والقيادة",
+      "topics": {
+        "leadership": { "en": "Qualities of Leadership", "ar": "صفات القيادة" },
+        "justice_system": { "en": "Justice & Rule of Law", "ar": "العدالة والنظام القضائي" },
+        "rights_of_rulers": { "en": "Rights & Duties of Rulers", "ar": "حقوق الحاكم وواجباته" },
+        "consultation": { "en": "Consultation (Shura)", "ar": "الشورى" },
+        "oppression": { "en": "Oppression & Tyranny", "ar": "الظلم والاستبداد" }
+      }
+    }
+  }
+}
