@@ -1,0 +1,60 @@
+**Analysis of Flagged Issues:**
+
+- **Issues 1–24 (LOW, arabic_echo):** All flagged words are proper nouns (personal names like Muhammad, Ali, Marwan, Sinan, Hanzala, Ziyad, Sahl, al-Hasan, al-Ijli) or shared Semitic terms (بن "son of", عبد "servant of"). These are correctly retained in Urdu and Farsi as they are standard proper nouns/shared terms in both languages. **No change required.**
+
+- **Issue 26 (LOW, word_count_mismatch):** The word_analysis correctly includes the full isnad chain (34 words total), not just the 14-word body verse. This is expected tokenization behavior. **No change required.**
+
+- **Issue 25 (MEDIUM, chunk_translation_mismatch):** The body chunk's English translation diverges from the authoritative English reference provided ("upon a measurement of their reporting from us (Our Ahadeeth)"). This requires alignment. **Fix applied to `chunks[1].translations.en`.**
+
+```json
+{
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": 0,
+      "word_end": 20,
+      "translations": {
+        "en": "Muhammad ibn al-Hasan, from Sahl ibn Ziyad, from Ibn Sinan, from Muhammad ibn Marwan al-Ijli, from Ali ibn Hanzala, who said:",
+        "ur": "محمد بن الحسن، سہل بن زیاد سے، ابن سنان سے، محمد بن مروان العجلی سے، علی بن حنظلہ سے، انہوں نے کہا:",
+        "tr": "Muhammed ibn el-Hasan, Sehl ibn Ziyad'dan, İbn Sinan'dan, Muhammed ibn Mervan el-İcli'den, Ali ibn Hanzala'dan rivayet etmiştir; o dedi ki:",
+        "fa": "محمد بن الحسن، از سهل بن زیاد، از ابن سنان، از محمد بن مروان العجلی، از علی بن حنظله، که گفت:",
+        "id": "Muhammad ibn al-Hasan, dari Sahl ibn Ziyad, dari Ibn Sinan, dari Muhammad ibn Marwan al-Ijli, dari Ali ibn Hanzala, ia berkata:",
+        "bn": "মুহাম্মাদ ইবনুল হাসান, সাহল ইবন যিয়াদ থেকে, ইবন সিনান থেকে, মুহাম্মাদ ইবন মারওয়ান আল-ইজলী থেকে, আলী ইবন হানযালা থেকে, তিনি বলেছেন:",
+        "es": "Muhammad ibn al-Hasan, de Sahl ibn Ziyad, de Ibn Sinan, de Muhammad ibn Marwan al-Ijli, de Ali ibn Hanzala, quien dijo:",
+        "fr": "Muhammad ibn al-Hasan, de Sahl ibn Ziyad, d'Ibn Sinan, de Muhammad ibn Marwan al-Ijli, d'Ali ibn Hanzala, qui a dit :",
+        "de": "Muhammad ibn al-Hasan, von Sahl ibn Ziyad, von Ibn Sinan, von Muhammad ibn Marwan al-Ijli, von Ali ibn Hanzala, der sagte:",
+        "ru": "Мухаммад ибн аль-Хасан — от Сахля ибн Зияда — от Ибн Синана — от Мухаммада ибн Марвана аль-Иджли — от Али ибн Ханзалы, который сказал:",
+        "zh": "穆罕默德·本·哈桑，传自萨赫勒·本·齐亚德，传自伊本·西南，传自穆罕默德·本·马尔旺·阿吉里，传自阿里·本·汉扎拉，他说："
+      },
+      "arabic_text": "مُحَمَّدُ بْنُ الْحَسَنِ عَنْ سَهْلِ بْنِ زِيَادٍ عَنِ ابْنِ سِنَانٍ عَنْ مُحَمَّدِ بْنِ مَرْوَانَ الْعِجْلِيِّ عَنْ عَلِيِّ بْنِ حَنْظَلَةَ قَالَ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 20,
+      "word_end": 34,
+      "translations": {
+        "en": "'I heard Abu Abdullah (peace be upon him) saying: 'Recognise the statuses of the people upon a measurement of their reporting from us (Our Ahadeeth)'.",
+        "ur": "'میں نے ابو عبد اللہ (علیہ السلام) کو فرماتے ہوئے سنا: لوگوں کے مراتب کو ہم سے ان کی روایت کے اندازے کے مطابق پہچانو۔'",
+        "tr": "'Ebu Abdullah'ı (aleyhisselam) şöyle derken duydum: İnsanların derecelerini bizden rivayetlerinin ölçüsüne göre tanıyın.'",
+        "fa": "'شنیدم که ابو عبداللّه (علیه السلام) می‌فرمود: منزلت مردم را به اندازه روایت آنها از ما بشناسید.'",
+        "id": "'Saya mendengar Abu Abdullah (alaihissalam) berkata: Kenalilah derajat-derajat manusia sesuai dengan ukuran periwayatan mereka dari kami.'",
+        "bn": "'আমি আবু আব্দুল্লাহ (আলাইহিস সালাম)-কে বলতে শুনেছি: মানুষের মর্যাদাকে আমাদের থেকে তাদের বর্ণনার পরিমাণ অনুযায়ী চিনে নাও।'",
+        "es": "'Escuché a Abu Abdullah (la paz sea con él) decir: Reconoced los rangos de las personas según la medida de su narración de nosotros.'",
+        "fr": "'J'ai entendu Abu Abdullah (que la paix soit sur lui) dire : Reconnaissez les rangs des gens à la mesure de leurs narrations de nous.'",
+        "de": "'Ich hörte Abu Abdullah (Friede sei mit ihm) sagen: Erkennt die Ränge der Menschen gemäß dem Maß ihrer Überlieferung von uns.'",
+        "ru": "'Я слышал, как Абу Абдуллах (мир ему) говорил: Познавайте положения людей по мере их передачи от нас.'",
+        "zh": "'我听到阿布·阿卜杜拉（愿主赐他平安）说：依据人们从我们传述的程度来认识他们的地位。'"
+      },
+      "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ اعْرِفُوا مَنَازِلَ النَّاسِ عَلَى قَدْرِ رِوَايَتِهِمْ عَنَّا"
+    }
+  ]
+}
+```
+
+**Summary of changes made:**
+
+| Issue | Field | Change |
+|-------|-------|--------|
+| #25 (MEDIUM) | `chunks[1].translations.en` | Updated from `"…say: Recognise the statuses of the people according to the measure of their narrating from us."` → `"…saying: 'Recognise the statuses of the people upon a measurement of their reporting from us (Our Ahadeeth)'."` — now aligned with the authoritative English reference ("upon a measurement of their reporting", "Our Ahadeeth" addendum, and "saying" per the Arabic *يَقُولُ*) |
+| #1–24 (LOW) | Various `.ur`/`.fa` proper noun fields | **No change** — all are confirmed proper nouns (names) or shared Semitic terms legitimately retained in Urdu/Farsi script |
+| #26 (LOW) | `word_analysis` count | **No change** — 34-word count correctly reflects full isnad + body tokenization |

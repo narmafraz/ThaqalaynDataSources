@@ -1,0 +1,413 @@
+Continuing the full JSON from the start, more compactly:
+
+```json
+{
+  "diacritized_text": "قَالَ أَبُو شَاكِرٍ الدَّيَصَانِيُّ إِنَّ فِي الْقُرْآنِ آيَةً هِيَ قَوْلُنَا قُلْتُ مَا هِيَ فَقَالَ وَهُوَ الَّذِي فِي السَّمَاءِ إِلَهٌ وَفِي الْأَرْضِ إِلَهٌ فَلَمْ أَدْرِ بِمَا أُجِيبُهُ فَحَجَجْتُ فَخَبَّرْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ فَقَالَ هَذَا كَلَامُ زِنْدِيقٍ خَبِيثٍ إِذَا رَجَعْتَ إِلَيْهِ فَقُلْ لَهُ مَا اسْمُكَ بِالْكُوفَةِ فَإِنَّهُ يَقُولُ فُلَانٌ فَقُلْ لَهُ مَا اسْمُكَ بِالْبَصْرَةِ فَإِنَّهُ يَقُولُ فُلَانٌ فَقُلْ كَذَلِكَ اللَّهُ رَبُّنَا فِي السَّمَاءِ إِلَهٌ وَفِي الْأَرْضِ إِلَهٌ وَفِي الْبِحَارِ إِلَهٌ وَفِي الْقِفَارِ إِلَهٌ وَفِي كُلِّ مَكَانٍ إِلَهٌ قَالَ فَقَدِمْتُ فَأَتَيْتُ أَبَا شَاكِرٍ فَأَخْبَرْتُهُ فَقَالَ هَذِهِ نُقِلَتْ مِنَ الْحِجَازِ",
+  "diacritics_status": "completed",
+  "diacritics_changes": [
+    {"original": "السَّماءِ", "corrected": "السَّمَاءِ", "note": "Completed alif madd in سَمَاء (two occurrences)"},
+    {"original": "الارْضِ", "corrected": "الْأَرْضِ", "note": "Added sukun on lam al-taʿrif and hamza on alif (two occurrences)"},
+    {"original": "إِلهٌ", "corrected": "إِلَهٌ", "note": "Added fatha on ha (first Quran-quote occurrence)"},
+    {"original": "فلان / فُلانٌ", "corrected": "فُلَانٌ", "note": "Added full diacritics to both occurrences"}
+  ],
+  "word_analysis": [
+    ["قَالَ","V","he said","اس نے کہا","dedi","گفت","berkata","বলেছেন","dijo","dit","sagte","сказал","他说"],
+    ["أَبُو","N","Abu (father of)","ابو","Ebû","ابو","Abu","আবু","Abū","Abou","Abu","Абу","阿布"],
+    ["شَاكِرٍ","N","Shakir","شاکر","Şâkir","شاکر","Syakir","শাকির","Shākir","Shâkir","Schākir","Шакир","沙基尔"],
+    ["الدَّيَصَانِيُّ","N","al-Daysani","الدیصانی","ed-Deysânî","دیصانی","al-Daisani","আদ-দায়সানী","al-Daysānī","al-Daysânî","al-Daysānī","ад-Дайсани","代萨尼"],
+    ["إِنَّ","PART","indeed","بے شک","şüphesiz","به درستی","sesungguhnya","নিশ্চয়ই","ciertamente","certes","wahrlich","поистине","确实"],
+    ["فِي","PREP","in","میں","içinde","در","di dalam","মধ্যে","en","dans","in","в","在"],
+    ["الْقُرْآنِ","N","the Quran","قرآن","Kur'an","قرآن","Al-Quran","কুরআনে","el Corán","le Coran","dem Koran","Коране","古兰经"],
+    ["آيَةً","N","a verse","ایک آیت","bir ayet","آیه‌ای","sebuah ayat","একটি আয়াত","un versículo","un verset","einen Vers","аят","一节经文"],
+    ["هِيَ","PRON","it is","یہ ہے","o","آن است","itu","এটি","es","c'est","es ist","она","它是"],
+    ["قَوْلُنَا","N","our claim/saying","ہمارا قول","bizim sözümüz","گفتار ما","perkataan kami","আমাদের বক্তব্য","nuestra afirmación","notre parole","unser Wort","наше утверждение","我们的主张"],
+    ["قُلْتُ","V","I said","میں نے کہا","dedim","گفتم","aku berkata","আমি বললাম","dije","je dis","ich sagte","я сказал","我说"],
+    ["مَا","INTERR","what","کیا","ne","چه","apa","কী","¿qué?","quel","was","что","什么"],
+    ["هِيَ","PRON","it","وہ","o","آن","itu","তা","ella","elle","es","она","那是"],
+    ["فَقَالَ","V","so he said","تو اس نے کہا","dedi ki","پس گفت","maka ia berkata","তখন সে বলল","entonces dijo","il dit alors","so sagte er","и он сказал","于是他说"],
+    ["وَهُوَ","PRON","and He","اور وہی","ve O","و او","dan Dialah","এবং তিনিই","y Él","et Lui","und Er","и Он","而他就是"],
+    ["الَّذِي","REL","who/which","جو","ki/olan","که","yang","যিনি","que","qui","der","который","那位"],
+    ["فِي","PREP","in","میں","içinde","در","di","مধ্যে","en","dans","in","в","在"],
+    ["السَّمَاءِ","N","the heaven","آسمان","gökte","آسمان","langit","আকাশে","el cielo","le ciel","dem Himmel","небе","天上"],
+    ["إِلَهٌ","N","God/deity","معبود","ilah","معبود","ilah","ইলাহ","Dios","Dieu","Gott","Бог","神"],
+    ["وَفِي","PREP","and in","اور میں","ve içinde","و در","dan di","এবং -তে","y en","et dans","und in","и в","并且在"],
+    ["الْأَرْضِ","N","the earth","زمین","yerde","زمین","bumi","পৃথিবীতে","la tierra","la terre","der Erde","земле","大地"],
+    ["إِلَهٌ","N","God/deity","معبود","ilah","معبود","ilah","ইলাহ","Dios","Dieu","Gott","Бог","神"],
+    ["فَلَمْ","NEG","so [I] did not","تو میں نہیں","ve...medim","پس ندانستم","maka tidak","তাই পারিনি","y no","et ne...pas","und nicht","и не","于是我不"],
+    ["أَدْرِ","V","know","جانا","bilebildim","دانستم","tahu","জানলাম","supe","sus","wusste","знал","知道"],
+    ["بِمَا","PREP","with what/how","کس سے","neyle","به چه","dengan apa","কীভাবে","con qué","par quoi","womit","чем","用什么"],
+    ["أُجِيبُهُ","V","I answer him","جواب دوں","cevap vereyim","پاسخ دهم","menjawabnya","উত্তর দেব","responderle","lui répondre","ihm antworten","ответить ему","回答他"],
+    ["فَحَجَجْتُ","V","so I performed hajj","حج کیا","hac yaptım","حج گزاردم","lalu berhaji","হজ করলাম","y realicé el hajj","j'accomplis le hajj","vollzog ich den Hajj","совершил хадж","于是我去朝觐"],
+    ["فَخَبَّرْتُ","V","so I informed","میں نے بتایا","haber verdim","خبر دادم","lalu memberitahu","জানালাম","e informé","et j'informai","und ich berichtete","и сообщил","于是我告知"],
+    ["أَبَا","N","Abu (acc.)","ابو","Ebû","ابو","Abu","আবু","Abā","Abou","Abu","Абу","阿布"],
+    ["عَبْدِ","N","servant of","عبد","Abd","عبد","Abd","আব্দ","Abd","Abd","Abd","Абда","阿布德"],
+    ["اللَّهِ","N","God","اللہ","Allah","خدا","Allah","আল্লাহর","Dios","Dieu","Gottes","Аллаха","真主"],
+    ["عَلَيْهِ","PREP","upon him","ان پر","üzerine","بر او","atas beliau","তাঁর উপর","sobre él","sur lui","auf ihn","на него","于他"],
+    ["السَّلَامُ","N","the peace","سلام","selam","السلام","as-salaam","সালাম","el salām","le salām","der Friede","мир","平安"],
+    ["فَقَالَ","V","so he said","تو انہوں نے فرمایا","buyurdu","پس فرمود","maka bersabda","তখন তিনি বললেন","entonces dijo","dit-il","so sprach er","и он сказал","于是他说"],
+    ["هَذَا","DEM","this","یہ","bu","این","ini","এটি","esto","ceci","dies","это","这"],
+    ["كَلَامُ","N","speech/words","کلام","sözü","کلام","perkataan","কথা","discurso","parole","Rede","речь","话语"],
+    ["زِنْدِيقٍ","N","a zindiq (heretic)","زندیق","zındıkın","زندیق","seorang zindiq","এক যিনদীকের","un zindiq","d'un zindîq","eines Zindiq","зиндика","异端者"],
+    ["خَبِيثٍ","ADJ","wicked/vile","خبیث","habis","خبیث","yang keji","দুষ্ট","malvado","vil","verdorben","мерзкого","邪恶的"],
+    ["إِذَا","COND","when","جب","ne zaman","وقتی که","ketika","যখন","cuando","quand","wenn","когда","当...时"],
+    ["رَجَعْتَ","V","you return","تم لوٹو","döndüğünde","بازگشتی","kamu kembali","তুমি ফিরে যাও","vuelvas","tu reviendras","du zurückkehrst","вернёшься","你回去"],
+    ["إِلَيْهِ","PREP","to him","اس کے پاس","ona","نزد او","kepadanya","তার কাছে","a él","vers lui","zu ihm","к нему","到他那里"],
+    ["فَقُلْ","V","so say","تو کہو","söyle","پس بگو","maka katakanlah","তাহলে বলো","di entonces","dis-lui","dann sage","тогда скажи","那么就说"],
+    ["لَهُ","PREP","to him","اس کو","ona","به او","kepadanya","তাকে","a él","à lui","ihm","ему","对他"],
+    ["مَا","INTERR","what","کیا","ne","چه","apa","কী","¿qué?","quel","was","что","什么"],
+    ["اسْمُكَ","N","your name","تمہارا نام","adın","نام تو","namamu","তোমার নাম","tu nombre","ton nom","dein Name","твоё имя","你的名字"],
+    ["بِالْكُوفَةِ","PREP","in al-Kufa","کوفہ میں","Kûfe'de","در کوفه","di Kufah","কুফায়","en al-Kufa","à al-Koufah","in al-Kufa","в аль-Куфе","在库法"],
+    ["فَإِنَّهُ","PART","for indeed he","کیونکہ وہ","çünkü o","زیرا او","karena sesungguhnya dia","কেননা সে","pues él","car il","denn er","ибо он","因为他"],
+    ["يَقُولُ","V","will say","کہے گا","diyecek","خواهد گفت","akan berkata","বলবে","dirá","dira","wird sagen","скажет","将会说"],
+    ["فُلَانٌ","N","so-and-so","فلاں","falan","فلان","fulan","অমুক","tal o cual","untel","Soundso","такой-то","某某"],
+    ["فَقُلْ","V","so say","تو کہو","söyle","پس بگو","maka katakanlah","তাহলে বলো","di entonces","puis dis","dann sage","тогда скажи","再说"],
+    ["لَهُ","PREP","to him","اس کو","ona","به او","kepadanya","তাকে","a él","à lui","ihm","ему","对他"],
+    ["مَا","INTERR","what","کیا","ne","چه","apa","কী","¿qué?","quel","was","что","什么"],
+    ["اسْمُكَ","N","your name","تمہارا نام","adın","نام تو","namamu","তোমার নাম","tu nombre","ton nom","dein Name","твоё имя","你的名字"],
+    ["بِالْبَصْرَةِ","PREP","in al-Basra","بصرہ میں","Basra'da","در بصره","di Basrah","বসরায়","en al-Basra","à al-Basrah","in al-Basra","в аль-Басре","在巴士拉"],
+    ["فَإِنَّهُ","PART","for indeed he","کیونکہ وہ","çünkü o","زیرا او","karena sesungguhnya dia","কেননা সে","pues él","car il","denn er","ибо он","因为他"],
+    ["يَقُولُ","V","will say","کہے گا","diyecek","خواهد گفت","akan berkata","বলবে","dirá","dira","wird sagen","скажет","将会说"],
+    ["فُلَانٌ","N","so-and-so","فلاں","falan","فلان","fulan","অমুক","tal o cual","untel","Soundso","такой-то","某某"],
+    ["فَقُلْ","V","so say","تو کہو","söyle","پس بگو","maka katakanlah","তাহলে বলো","di entonces","puis dis","dann sage","тогда скажи","那么就说"],
+    ["كَذَلِكَ","DEM","likewise","اسی طرح","aynı şekilde","همچنین","demikian pula","তেমনিভাবে","de igual modo","de même","ebenso","точно так же","同样地"],
+    ["اللَّهُ","N","God","اللہ","Allah","خدا","Allah","আল্লাহ","Dios","Dieu","Gott","Аллах","真主"],
+    ["رَبُّنَا","N","our Lord","ہمارا رب","Rabbimiz","پروردگار ما","Tuhan kami","আমাদের রব","nuestro Señor","notre Seigneur","unser Herr","наш Господь","我们的主"],
+    ["فِي","PREP","in","میں","içinde","در","di","মধ্যে","en","dans","in","в","在"],
+    ["السَّمَاءِ","N","the heaven","آسمان","gökte","آسمان","langit","আকাশে","el cielo","le ciel","dem Himmel","небе","天上"],
+    ["إِلَهٌ","N","God/deity","معبود","ilah","معبود","ilah","ইলাহ","Dios","Dieu","Gott","Бог","神"],
+    ["وَفِي","PREP","and in","اور میں","ve içinde","و در","dan di","এবং -তে","y en","et dans","und in","и в","并且在"],
+    ["الْأَرْضِ","N","the earth","زمین","yerde","زمین","bumi","পৃথিবীতে","la tierra","la terre","der Erde","земле","大地"],
+    ["إِلَهٌ","N","God/deity","معبود","ilah","معبود","ilah","ইলাহ","Dios","Dieu","Gott","Бог","神"],
+    ["وَفِي","PREP","and in","اور میں","ve içinde","و در","dan di","এবং -তে","y en","et dans","und in","и в","并且在"],
+    ["الْبِحَارِ","N","the seas","سمندروں میں","denizlerde","دریاها","lautan","সমুদ্রে","los mares","les mers","den Meeren","морях","海洋中"],
+    ["إِلَهٌ","N","God/deity","معبود","ilah","معبود","ilah","ইলাহ","Dios","Dieu","Gott","Бог","神"],
+    ["وَفِي","PREP","and in","اور","ve içinde","و در","dan di","এবং -তে","y en","et dans","und in","и в","并且在"],
+    ["الْقِفَارِ","N","the deserts/wastelands","ویرانوں میں","çöllerde","بیابان‌ها","padang tandus","মরুভূমিতে","los desiertos","les déserts","den Wüsten","пустынях","荒漠中"],
+    ["إِلَهٌ","N","God/deity","معبود","ilah","معبود","ilah","ইলাহ","Dios","Dieu","Gott","Бог","神"],
+    ["وَفِي","PREP","and in","اور","ve içinde","و در","dan di","এবং -তে","y en","et dans","und in","и в","并且在"],
+    ["كُلِّ","N","every/all","ہر","her","هر","setiap","প্রতিটি","todo","tout","jedem","каждом","每"],
+    ["مَكَانٍ","N","place","جگہ","yerde","مکانی","tempat","স্থানে","lugar","lieu","Ort","месте","地方"],
+    ["إِلَهٌ","N","God/deity","معبود","ilah","معبود","ilah","ইলাহ","Dios","Dieu","Gott","Бог","神"],
+    ["قَالَ","V","he said","اس نے کہا","dedi","گفت","berkata","সে বলল","dijo","dit","sagte","сказал","他说"],
+    ["فَقَدِمْتُ","V","so I returned","تو میں واپس آیا","gelip döndüm","پس بازگشتم","maka aku kembali","আমি ফিরে এলাম","y regresé","je revins","und ich kehrte zurück","и я вернулся","于是我回来了"],
+    ["فَأَتَيْتُ","V","so I came to","تو میں آیا","gittim","پس آمدم","lalu mendatangi","আমি গেলাম","y fui a","je me rendis à","und ich ging zu","и пришёл к","然后我去找"],
+    ["أَبَا","N","Abu (acc.)","ابو","Ebû","ابو","Abu","আবু","Abā","Abou","Abu","Абу","阿布"],
+    ["شَاكِرٍ","N","Shakir","شاکر","Şâkir","شاکر","Syakir","শাকির","Shākir","Shâkir","Schākir","Шакира","沙基尔"],
+    ["فَأَخْبَرْتُهُ","V","so I informed him","تو میں نے اسے بتایا","haber verdim","خبر دادمش","lalu memberitahunya","তাকে জানালাম","y le informé","et je l'informai","und teilte ihm mit","и сообщил ему","于是我告诉了他"],
+    ["فَقَالَ","V","so he said","تو اس نے کہا","dedi ki","پس گفت","maka ia berkata","তখন সে বলল","entonces dijo","dit-il","so sagte er","и он сказал","于是他说"],
+    ["هَذِهِ","DEM","this (f.)","یہ","bu","این","ini","এটি","esto","ceci","dies","это","这"],
+    ["نُقِلَتْ","V","was brought/transmitted","منتقل کی گئی","nakledildi","منتقل شد","dibawa","আনা হয়েছে","fue traída","a été rapportée","wurde gebracht","была передана","是被带来的"],
+    ["مِنَ","PREP","from","سے","den","از","dari","থেকে","de","de","von","из","从"],
+    ["الْحِجَازِ","N","al-Hijaz","حجاز","Hicaz","حجاز","Hijaz","হিজাজ","al-Hiyaz","le Hijaz","dem Hijaz","Хиджаза","汉志"]
+  ],
+  "tags": ["theology","quran_commentary"],
+  "content_type": "theological",
+  "related_quran": [
+    {"ref": "43:84", "relationship": "explicit", "word_start": 14, "word_end": 22},
+    {"ref": "57:4", "relationship": "thematic"}
+  ],
+  "isnad_matn": {
+    "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ هِشَامِ بْنِ الْحَكَمِ قَالَ",
+    "matn_ar": "قَالَ أَبُو شَاكِرٍ الدَّيَصَانِيُّ إِنَّ فِي الْقُرْآنِ آيَةً هِيَ قَوْلُنَا قُلْتُ مَا هِيَ فَقَالَ وَهُوَ الَّذِي فِي السَّمَاءِ إِلَهٌ وَفِي الْأَرْضِ إِلَهٌ فَلَمْ أَدْرِ بِمَا أُجِيبُهُ فَحَجَجْتُ فَخَبَّرْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ فَقَالَ هَذَا كَلَامُ زِنْدِيقٍ خَبِيثٍ إِذَا رَجَعْتَ إِلَيْهِ فَقُلْ لَهُ مَا اسْمُكَ بِالْكُوفَةِ فَإِنَّهُ يَقُولُ فُلَانٌ فَقُلْ لَهُ مَا اسْمُكَ بِالْبَصْرَةِ فَإِنَّهُ يَقُولُ فُلَانٌ فَقُلْ كَذَلِكَ اللَّهُ رَبُّنَا فِي السَّمَاءِ إِلَهٌ وَفِي الْأَرْضِ إِلَهٌ وَفِي الْبِحَارِ إِلَهٌ وَفِي الْقِفَارِ إِلَهٌ وَفِي كُلِّ مَكَانٍ إِلَهٌ قَالَ فَقَدِمْتُ فَأَتَيْتُ أَبَا شَاكِرٍ فَأَخْبَرْتُهُ فَقَالَ هَذِهِ نُقِلَتْ مِنَ الْحِجَازِ",
+    "has_chain": true,
+    "narrators": [
+      {
+        "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+        "name_en": "Ali ibn Ibrahim al-Qummi",
+        "role": "narrator",
+        "position": 1,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Ali ibn Ibrahim al-Qummi, major transmitter and compiler; primary teacher of al-Kulayni",
+        "word_ranges": []
+      },
+      {
+        "name_ar": "أَبُوهُ",
+        "name_en": "Ibrahim ibn Hashim al-Qummi (his father)",
+        "role": "narrator",
+        "position": 2,
+        "identity_confidence": "definite",
+        "ambiguity_note": "Referred to only as 'his father' (أَبِيهِ) in the isnad",
+        "known_identity": "Ibrahim ibn Hashim al-Qummi, first to disseminate Kufan traditions in Qom",
+        "word_ranges": []
+      },
+      {
+        "name_ar": "ابْنُ أَبِي عُمَيْرٍ",
+        "name_en": "Ibn Abi Umayr (Muhammad ibn Abi Umayr al-Azdi)",
+        "role": "narrator",
+        "position": 3,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Muhammad ibn Abi Umayr al-Azdi, one of the ashab al-ijmaʿ; among the most trusted transmitters",
+        "word_ranges": []
+      },
+      {
+        "name_ar": "هِشَامُ بْنُ الْحَكَمِ",
+        "name_en": "Hisham ibn al-Hakam",
+        "role": "narrator",
+        "position": 4,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Hisham ibn al-Hakam, renowned theologian and close companion of Imam al-Sadiq (AS); eyewitness narrator of this hadith",
+        "word_ranges": []
+      },
+      {
+        "name_ar": "أَبَا عَبْدِ اللَّهِ",
+        "name_en": "Abu Abdillah (Imam Jaʿfar al-Sadiq, peace be upon him)",
+        "role": "imam",
+        "position": 5,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Imam Jaʿfar ibn Muhammad al-Sadiq (AS), sixth Imam of the Twelver Shia",
+        "word_ranges": [{"word_start": 28, "word_end": 31}]
+      }
+    ]
+  },
+  "translations": {
+    "en": {
+      "text": "Abu Shakir al-Daysani said, 'In the Quran there is a verse that supports our claim.' I asked, 'What is it?' He said, '[It is:] \"And He is the one who is God in the heaven and God on earth.\"' [43:84] I did not know how to answer him. So I performed hajj and informed Abu Abdillah (peace be upon him). He said, 'This is the speech of a wicked zindiq. When you return to him, say to him: \"What is your name in al-Kufa?\" He will say so-and-so. Say to him: \"What is your name in al-Basra?\" He will say so-and-so. Then say: Likewise, God our Lord — in the heaven He is God, on earth He is God, in the seas He is God, in the deserts He is God, and in every place He is God.' He (the narrator) said: I returned and came to Abu Shakir and informed him. He said, 'This was brought from al-Hijaz.'",
+      "summary": "Hisham ibn al-Hakam narrates a theological debate with Abu Shakir al-Daysani, a Manichaean dualist who attempted to use Quran 43:84 to argue for polytheism. Imam al-Sadiq (AS) refutes him with a brilliant analogy: just as a person retains the same identity in different cities, God is the one deity in every realm — heaven, earth, seas, deserts, and all places. Abu Shakir's remark that 'this was brought from al-Hijaz' implicitly concedes the force of the argument.",
+      "key_terms": {
+        "زِنْدِيقٍ": "zindiq — a heretic/dualist, specifically a Manichaean who denies divine unity",
+        "الْقِفَارِ": "deserts/wastelands — barren uninhabited lands, underscoring God's omnipresence",
+        "إِلَهٌ": "ilah — deity, object of worship; used here to assert God's unique sovereignty in every realm"
+      },
+      "seo_question": "What did Imam al-Sadiq (AS) say in response to Abu Shakir al-Daysani's claim that Quran 43:84 supports the existence of multiple gods?"
+    },
+    "ur": {
+      "text": "ابو شاکر دیصانی نے کہا: 'قرآن میں ایک آیت ہے جو ہمارے قول کی تائید کرتی ہے۔' میں نے کہا: 'وہ کون سی ہے؟' اس نے کہا: '[یہ:] \"اور وہی ہے جو آسمان میں معبود ہے اور زمین میں معبود۔\"' [۴۳:۸۴] میں سمجھ نہ پایا کہ اسے کیا جواب دوں۔ تو میں نے حج ادا کیا اور ابو عبداللہ علیہ السلام کو بتایا۔ انہوں نے فرمایا: 'یہ ایک خبیث زندیق کی بات ہے۔ جب تم اس کے پاس لوٹو تو اس سے کہو: \"کوفہ میں تمہارا نام کیا ہے؟\" وہ فلاں کہے گا۔ پھر پوچھو: \"بصرہ میں تمہارا نام کیا ہے؟\" وہ فلاں کہے گا۔ پھر کہو: اسی طرح اللہ ہمارا رب آسمان میں معبود ہے، زمین میں معبود ہے، سمندروں میں معبود ہے، ویرانوں میں معبود ہے، اور ہر جگہ معبود ہے۔' راوی نے کہا: میں واپس آیا اور ابو شاکر کے پاس گیا اور انہیں بتایا۔ اس نے کہا: 'یہ حجاز سے لائی گئی ہے۔'",
+      "summary": "ہشام بن حکم ابو شاکر دیصانی کے ساتھ ایک کلامی مناظرے کی روایت کرتے ہیں۔ ابو شاکر نے قرآن آیت ۴۳:۸۴ کو ثنویت کی دلیل بنانے کی کوشش کی۔ امام صادق علیہ السلام نے ایک لطیف قیاسی استدلال سے جواب دیا: جیسے ایک شخص مختلف شہروں میں اپنی یکساں پہچان رکھتا ہے، اللہ تعالیٰ آسمان، زمین، سمندروں، ویرانوں اور ہر جگہ ایک ہی معبود ہے۔",
+      "key_terms": {
+        "زِنْدِيقٍ": "زندیق — ملحد یا ثنوی، خاص طور پر مانوی جو الٰہی وحدانیت کا انکار کرے",
+        "الْقِفَارِ": "ویران و بیابان علاقے — خدا کی ہر جگہ موجودگی پر زور",
+        "إِلَهٌ": "معبود/اله — وہ ذات جس کی عبادت کی جائے، یہاں ہر عالَم میں خدا کی یکتائی پر دلالت"
+      },
+      "seo_question": "امام جعفر صادق علیہ السلام نے ابو شاکر دیصانی کے اس دعوے کا کیا جواب دیا کہ قرآن ۴۳:۸۴ ایک سے زیادہ خداؤں کا ثبوت ہے؟"
+    },
+    "tr": {
+      "text": "Ebû Şâkir ed-Deysânî şöyle dedi: 'Kur'an'da bizim sözümüzü destekleyen bir ayet var.' Ben: 'Nedir o?' dedim. O: '[Şudur:] \"O, gökte de ilahtır, yerde de ilahtır.\"' [43:84] dedi. Ona nasıl cevap vereceğimi bilemedim. Hac yaptım ve Ebû Abdillah'a (aleyhisselam) anlattım. O buyurdu: 'Bu, habis bir zındığın sözüdür. Ona döndüğünde sor: \"Kûfe'de adın ne?\" O falan diyecek. \"Basra'da adın ne?\" de; o falan diyecek. Şöyle de: İşte bunun gibi, Rabbimiz Allah gökte de ilahtır, yerde de ilahtır, denizlerde de ilahtır, çöllerde de ilahtır, her yerde de ilahtır.' Ravi dedi: Döndüm ve Ebû Şâkir'e gidip anlattım. O: 'Bu, Hicaz'dan taşındı.' dedi.",
+      "summary": "Hişam b. el-Hakem, maniheist bir düalist olan Ebû Şâkir ed-Deysânî ile yaşanan kelâmî bir tartışmayı aktarır. Ed-Deysânî, Kur'an 43:84'ü çok tanrıcılığa delil olarak kullanmaya çalışmıştır. İmam es-Sâdık (AS) zarif bir analoji ile yanıt verir: Bir kişi farklı şehirlerde aynı kimliğini taşıdığı gibi, Allah gökte, yerde, denizlerde, çöllerde ve her yerde tek ilahtır.",
+      "key_terms": {
+        "زِنْدِيقٍ": "zındık — kafir/düalist, özellikle ilahî birliği reddeden maniheist",
+        "الْقِفَارِ": "ıssız çöller/bozkırlar — Allah'ın her yerde hazır olduğunu vurgulayan tenha alanlar",
+        "إِلَهٌ": "ilah — ibadet edilen tek tanrı; burada tüm âlemlerdeki ilahî eşsizliği ifade eder"
+      },
+      "seo_question": "İmam Sâdık (AS), Ebû Şâkir ed-Deysânî'nin Kur'an 43:84'ün birden fazla ilahın varlığını desteklediği iddiasına nasıl cevap verdi?"
+    },
+    "fa": {
+      "text": "ابو شاکر دیصانی گفت: «در قرآن آیه‌ای است که گفتار ما را تأیید می‌کند.» گفتم: «آن کدام است؟» گفت: «[این:] "و اوست که در آسمان خداست و در زمین خدا."» [۴۳:۸۴] ندانستم چگونه به او پاسخ دهم. پس حج گزاردم و به ابو عبدالله (علیه السلام) خبر دادم. ایشان فرمودند: «این سخن زندیقی خبیث است. وقتی نزد او بازگشتی بگو: "نام تو در کوفه چیست؟" او خواهد گفت: فلان. بگو: "نام تو در بصره چیست؟" او خواهد گفت: فلان. سپس بگو: همچنین الله پروردگار ما در آسمان خداست، در زمین خداست، در دریاها خداست، در بیابان‌ها خداست، و در هر جایی خداست.» راوی گفت: بازگشتم و نزد ابو شاکر رفتم و او را آگاه کردم. گفت: «این از حجاز نقل شده است.»",
+      "summary": "هشام بن حکم ماجرای مناظره‌ای کلامی با ابو شاکر دیصانی، پیرو آیین مانوی، را روایت می‌کند که آیه ۴۳:۸۴ را شاهدی بر تعدد خدایان می‌دانست. امام صادق (ع) با قیاسی هوشمندانه پاسخ دادند: همان‌طور که یک شخص در شهرهای مختلف هویت یکسانی دارد، خداوند در آسمان، زمین، دریاها، بیابان‌ها و همه جا معبود واحد است.",
+      "key_terms": {
+        "زِنْدِيقٍ": "زندیق — کافر/ثنوی، به‌ویژه مانوی که وحدانیت الهی را انکار می‌کند",
+        "الْقِفَارِ": "بیابان‌های خالی — مناطق بی‌سکنه که بر حضور همه‌جانبه خداوند تأکید دارد",
+        "إِلَهٌ": "معبود — آنکه عبادت می‌شود؛ اینجا بر یکتایی خداوند در همه عوالم دلالت دارد"
+      },
+      "seo_question": "امام صادق (ع) در پاسخ به ادعای ابو شاکر دیصانی مبنی بر تأیید چندخدایی در قرآن ۴۳:۸۴ چه فرمودند؟"
+    },
+    "id": {
+      "text": "Abu Syakir al-Daisani berkata, 'Dalam Al-Quran ada sebuah ayat yang mendukung pernyataan kami.' Aku bertanya, 'Apa itu?' Ia berkata, '[Yaitu:] \"Dan Dialah yang menjadi Tuhan di langit dan Tuhan di bumi.\"' [43:84] Aku tidak tahu bagaimana menjawabnya. Lalu aku melaksanakan haji dan memberitahu Abu Abdillah (aleyhisselam). Beliau bersabda, 'Ini adalah perkataan seorang zindiq yang keji. Ketika kamu kembali kepadanya, tanyakan: \"Siapa namamu di Kufah?\" Ia akan menjawab fulan. Tanyakan: \"Siapa namamu di Basrah?\" Ia akan menjawab fulan. Kemudian katakanlah: Demikian pula Allah Tuhan kami — di langit Dia adalah Tuhan, di bumi Dia adalah Tuhan, di lautan Dia adalah Tuhan, di padang tandus Dia adalah Tuhan, dan di setiap tempat Dia adalah Tuhan.' Perawi berkata: Aku kembali dan menemui Abu Syakir lalu memberitahunya. Ia berkata, 'Ini dibawa dari Hijaz.'",
+      "summary": "Hisyam ibn al-Hakam meriwayatkan perdebatan teologis dengan Abu Syakir al-Daisani, penganut dualisme Mani yang mencoba menggunakan QS 43:84 sebagai bukti politeisme. Imam al-Sadiq (AS) memberikan bantahan analogi yang brilian: sebagaimana seseorang mempertahankan identitas yang sama di berbagai kota, Allah adalah satu-satunya Tuhan di setiap alam — langit, bumi, lautan, gurun, dan segala tempat.",
+      "key_terms": {
+        "زِنْدِيقٍ": "zindiq — kafir/dualis, khususnya penganut Mani yang mengingkari keesaan Tuhan",
+        "الْقِفَارِ": "padang tandus/gurun — wilayah tak berpenghuni yang menekankan kemahaadirannya Allah",
+        "إِلَهٌ": "ilah — Tuhan yang disembah; menegaskan kedaulatan tunggal Allah di semua alam"
+      },
+      "seo_question": "Apa jawaban Imam al-Sadiq (AS) terhadap klaim Abu Syakir al-Daisani bahwa QS 43:84 mendukung keberadaan banyak tuhan?"
+    },
+    "bn": {
+      "text": "আবু শাকির আদ-দায়সানী বলল, 'কুরআনে এমন একটি আয়াত আছে যা আমাদের বক্তব্যকে সমর্থন করে।' আমি জিজ্ঞেস করলাম, 'সেটি কী?' সে বলল, '[এটি:] \"এবং তিনিই আকাশে ইলাহ এবং পৃথিবীতে ইলাহ।\"' [৪৩:৮৪] আমি জানতাম না কীভাবে তাকে উত্তর দেব। তখন আমি হজ পালন করলাম এবং আবু আব্দিল্লাহ (আলাইহিস সালাম)-কে জানালাম। তিনি বললেন, 'এটি একজন দুষ্ট যিনদীকের কথা। তুমি যখন তার কাছে ফিরে যাও, জিজ্ঞেস করো: \"কুফায় তোমার নাম কী?\" সে বলবে অমুক। বলো: \"বসরায় তোমার নাম কী?\" সে বলবে অমুক। তারপর বলো: তেমনিভাবে আল্লাহ আমাদের রব — আকাশে ইলাহ, পৃথিবীতে ইলাহ, সমুদ্রে ইলাহ, মরুভূমিতে ইলাহ, এবং প্রতিটি স্থানে ইলাহ।' রাবী বলল: আমি ফিরে আবু শাকিরের কাছে গিয়ে তাকে জানালাম। সে বলল, 'এটি হিজাজ থেকে আনা হয়েছে।'",
+      "summary": "হিশাম ইবনে হাকাম আবু শাকির আদ-দায়সানীর সাথে একটি ধর্মতাত্ত্বিক বিতর্ক বর্ণনা করেন, যিনি মানিখীয় দ্বৈতবাদী ছিলেন। ইমাম আস-সাদিক (আ) একটি চমৎকার উপমায় জবাব দেন: যেমন একজন মানুষ বিভিন্ন শহরে একই পরিচয় বহন করে, আল্লাহও আকাশ, পৃথিবী, সমুদ্র, মরুভূমি ও সর্বত্র একক ইলাহ।",
+      "key_terms": {
+        "زِنْدِيقٍ": "যিনদীক — ধর্মদ্রোহী/দ্বৈতবাদী, বিশেষত মানিখীয় যিনি ঐশ্বরিক একত্ববাদ অস্বীকার করেন",
+        "الْقِفَارِ": "মরুভূমি/বিরানভূমি — জনমানবহীন অঞ্চল, সর্বত্র আল্লাহর উপস্থিতির জোর",
+        "إِلَهٌ": "ইলাহ — উপাস্য; সকল রাজ্যে আল্লাহর একক কর্তৃত্ব বোঝাতে ব্যবহৃত"
+      },
+      "seo_question": "ইমাম আস-সাদিক (আ) কুরআন ৪৩:৮৪ দ্বারা বহু-ঈশ্বরবাদ প্রমাণের আবু শাকির দায়সানীর দাবির জবাবে কী বলেছিলেন?"
+    },
+    "es": {
+      "text": "Abu Shakir al-Daysani dijo: 'En el Corán hay un versículo que respalda nuestra afirmación.' Pregunté: '¿Cuál es?' Respondió: '[Es:] \"Y Él es quien es Dios en el cielo y Dios en la tierra.\"' [43:84] No supe cómo responderle. Entonces realicé el hajj e informé a Abu Abdillah (paz sea sobre él). Él dijo: 'Esto es el discurso de un malvado zindiq. Cuando regreses a él, pregúntale: \"¿Cuál es tu nombre en al-Kufa?\" Dirá tal o cual. Pregúntale: \"¿Cuál es tu nombre en al-Basra?\" Dirá tal o cual. Entonces di: Así mismo, Dios nuestro Señor — en el cielo es Dios, en la tierra es Dios, en los mares es Dios, en los desiertos es Dios, y en todo lugar es Dios.' El narrador dijo: Regresé, fui a Abu Shakir y le informé. Dijo: 'Esto fue traído de al-Hiyaz.'",
+      "summary": "Hisham ibn al-Hakam narra un debate teológico con Abu Shakir al-Daysani, un dualista maniqueo que intentó usar el Corán 43:84 como prueba del politeísmo. El Imam al-Sadiq (AS) ofrece una brillante refutación por analogía: así como una persona conserva la misma identidad en distintas ciudades, Dios es el único Dios en todo reino — cielo, tierra, mares, desiertos y en todo lugar.",
+      "key_terms": {
+        "زِنْدِيقٍ": "zindiq — hereje/dualista, específicamente un maniqueo que niega la unidad divina",
+        "الْقِفَارِ": "desiertos/yermos — tierras inhabitadas, subrayan la omnipresencia de Dios",
+        "إِلَهٌ": "ilah — Dios adorado; usado aquí para afirmar la soberanía única de Dios en todos los ámbitos"
+      },
+      "seo_question": "¿Qué respondió el Imam al-Sadiq (AS) a la afirmación de Abu Shakir al-Daysani de que el Corán 43:84 apoya la existencia de múltiples dioses?"
+    },
+    "fr": {
+      "text": "Abû Shâkir al-Daysânî dit : « Dans le Coran, il y a un verset qui appuie notre propos. » Je demandai : « Lequel ? » Il dit : « [C'est :] "Et c'est Lui qui est Dieu dans le ciel et Dieu sur terre." » [43:84] Je ne sus comment lui répondre. Je partis en hajj et informai Abû Abdillah (paix sur lui). Il dit : « C'est la parole d'un zindîq vil. Lorsque tu retourneras vers lui, demande-lui : "Quel est ton nom à al-Koufa ?" Il dira untel. Demande-lui : "Quel est ton nom à al-Basra ?" Il dira untel. Dis alors : De même, Allah notre Seigneur — dans le ciel, Il est Dieu ; sur terre, Il est Dieu ; dans les mers, Il est Dieu ; dans les déserts, Il est Dieu ; et en tout lieu, Il est Dieu. » Le narrateur dit : Je revins et allai trouver Abû Shâkir pour l'en informer. Il dit : « Ceci a été rapporté du Hijaz. »",
+      "summary": "Hishâm ibn al-Hakam rapporte un débat théologique avec Abû Shâkir al-Daysânî, un dualiste manichéen qui tenta d'utiliser le Coran 43:84 pour prouver le polythéisme. L'Imam al-Sâdiq (AS) propose une réfutation analogique lumineuse : de même qu'une personne garde la même identité dans différentes villes, Dieu est le seul Dieu dans tous les domaines — ciel, terre, mers, déserts et partout.",
+      "key_terms": {
+        "زِنْدِيقٍ": "zindîq — hérétique/dualiste, en particulier un manichéen qui nie l'unicité divine",
+        "الْقِفَارِ": "déserts/terres arides — régions inhabitées, soulignant l'omniprésence de Dieu",
+        "إِلَهٌ": "ilah — Dieu adoré ; affirme ici la souveraineté unique de Dieu dans tous les royaumes"
+      },
+      "seo_question": "Que répondit l'Imam al-Sâdiq (AS) à la prétention d'Abû Shâkir al-Daysânî selon laquelle le Coran 43:84 soutient l'existence de plusieurs dieux ?"
+    },
+    "de": {
+      "text": "Abū Shākir al-Daysānī sagte: „Im Koran gibt es einen Vers, der unserer Aussage entspricht." Ich fragte: „Welchen?" Er sagte: „[Es ist:] ‚Und Er ist derjenige, der Gott im Himmel und Gott auf Erden ist.'" [43:84] Ich wusste nicht, wie ich ihm antworten sollte. So vollzog ich den Hajj und berichtete Abū Abdillāh (Friede sei auf ihm). Er sagte: „Das ist die Rede eines verdorbenen Zindiq. Wenn du zu ihm zurückkehrst, frage ihn: ‚Wie ist dein Name in al-Kūfa?' Er wird Soundso sagen. Frage ihn: ‚Wie ist dein Name in al-Basra?' Er wird Soundso sagen. Sage dann: Ebenso ist Gott, unser Herr — im Himmel ist Er Gott, auf Erden ist Er Gott, in den Meeren ist Er Gott, in den Wüsten ist Er Gott, und an jedem Ort ist Er Gott." Der Überlieferer sagte: Ich kehrte zurück, ging zu Abū Shākir und berichtete ihm. Er sagte: „Das wurde aus dem Hijaz gebracht."",
+      "summary": "Hishām ibn al-Hakam berichtet von einem theologischen Disput mit Abū Shākir al-Daysānī, einem manichäischen Dualisten, der Koran 43:84 als Beweis für Polytheismus nutzen wollte. Imam al-Sādiq (AS) widerlegt ihn mit einer brillanten Analogie: So wie eine Person in verschiedenen Städten dieselbe Identität bewahrt, ist Gott der einzige Gott in allen Bereichen — Himmel, Erde, Meere, Wüsten und überall.",
+      "key_terms": {
+        "زِنْدِيقٍ": "Zindiq — Ketzer/Dualist, insbesondere ein Manichäer, der die göttliche Einheit leugnet",
+        "الْقِفَارِ": "Wüsten/Einöden — unbewohnte Gebiete, die Gottes Allgegenwart unterstreichen",
+        "إِلَهٌ": "Ilah — angebetete Gottheit; bekräftigt hier Gottes einzige Souveränität in allen Bereichen"
+      },
+      "seo_question": "Was antwortete Imam al-Sādiq (AS) auf Abū Shākir al-Daysānīs Behauptung, Koran 43:84 belege die Existenz mehrerer Götter?"
+    },
+    "ru": {
+      "text": "Абу Шакир ад-Дайсани сказал: «В Коране есть аят, подтверждающий наши слова». Я спросил: «Какой же?» Он ответил: «[Это:] "И Он — тот, кто является Богом на небе и Богом на земле"». [43:84] Я не знал, как ему ответить. Тогда я совершил хадж и сообщил Абу Абдиллаху (мир ему). Тот сказал: «Это слова мерзкого зиндика. Когда вернёшься к нему, спроси: "Как тебя зовут в аль-Куфе?" Он скажет: такой-то. Спроси: "Как тебя зовут в аль-Басре?" Он скажет: такой-то. Тогда скажи: Точно так же Аллах, наш Господь — на небе Он Бог, на земле Он Бог, в морях Он Бог, в пустынях Он Бог, и в каждом месте Он Бог». Рассказчик сказал: Я вернулся и пришёл к Абу Шакиру и сообщил ему. Он сказал: «Это было принесено из Хиджаза».",
+      "summary": "Хишам ибн аль-Хакам повествует о богословском споре с Абу Шакиром ад-Дайсани — манихейским дуалистом, пытавшимся использовать аят Корана 43:84 в пользу многобожия. Имам ас-Садик (МИР) опровергает его блестящей аналогией: как человек сохраняет одну и ту же личность в разных городах, так Аллах является единственным Богом во всех мирах — на небе, на земле, в морях, в пустынях и повсюду.",
+      "key_terms": {
+        "زِنْدِيقٍ": "зиндик — еретик/дуалист, в частности манихей, отрицающий Единство Бога",
+        "الْقِفَارِ": "пустыни/безлюдные земли — необитаемые местности, подчёркивающие вездесущность Аллаха",
+        "إِلَهٌ": "илах — Бог, объект поклонения; утверждает единственную верховную власть Аллаха во всех сферах"
+      },
+      "seo_question": "Что ответил Имам ас-Садик (МИР) на утверждение Абу Шакира ад-Дайсани о том, что Коран 43:84 поддерживает существование нескольких богов?"
+    },
+    "zh": {
+      "text": "艾布·沙基尔·代萨尼说："《古兰经》中有一节经文支持我们的主张。"我问："那是哪节？"他说："[就是：]'而他在天上是神，在地上也是神。'"[43:84]我不知道如何回答他。于是我去朝觐，将此事告知艾布·阿卜杜拉（愿真主赐福于他）。他说："这是一个邪恶异端者的话。当你回到他那里时，问他：'你在库法叫什么名字？'他会说某某。问他：'你在巴士拉叫什么名字？'他会说某某。然后说：同样地，真主我们的主——在天上是神，在地上是神，在海洋中是神，在荒漠中是神，在每个地方都是神。"叙述者说：我回来后去找艾布·沙基尔，告诉了他。他说："这是从汉志带来的。"",
+      "summary": "希沙姆·伊本·哈卡姆讲述了与摩尼教二元论者艾布·沙基尔·代萨尼之间的神学辩论，后者试图以《古兰经》43:84证明多神论。伊玛目萨迪格（愿主赐福于他）以一个精妙类比加以反驳：正如一个人在不同城市保持同一身份，真主是天上、大地、海洋、荒漠及所有地方唯一的神。代萨尼含蓄承认"这是从汉志带来的"，暗示他认可了论证的力量。",
+      "key_terms": {
+        "زِنْدِيقٍ": "异端者——尤指否认神圣独一性的摩尼教二元论者",
+        "الْقِفَارِ": "荒漠——人迹罕至之地，强调真主无处不在",
+        "إِلَهٌ": "伊拉赫（神）——被崇拜者；此处确认真主在一切领域的唯一主权"
+      },
+      "seo_question": "伊玛目萨迪格如何回应艾布·沙基尔·代萨尼关于《古兰经》43:84支持多神论的主张？"
+    }
+  },
+  "chunks": [
+    {
+      "chunk_type": "body",
+      "arabic_text": "قَالَ أَبُو شَاكِرٍ الدَّيَصَانِيُّ إِنَّ فِي الْقُرْآنِ آيَةً هِيَ قَوْلُنَا قُلْتُ مَا هِيَ",
+      "word_start": 0,
+      "word_end": 13,
+      "translations": {
+        "en": "Abu Shakir al-Daysani said, 'In the Quran there is a verse that supports our claim.' I asked, 'What is it?'",
+        "ur": "ابو شاکر دیصانی نے کہا: 'قرآن میں ایک آیت ہے جو ہمارے قول کی تائید کرتی ہے۔' میں نے کہا: 'وہ کون سی ہے؟'",
+        "tr": "Ebû Şâkir ed-Deysânî dedi: 'Kur'an'da bizim sözümüzü destekleyen bir ayet var.' Ben dedim: 'Nedir o?'",
+        "fa": "ابو شاکر دیصانی گفت: «در قرآن آیه‌ای است که گفتار ما را تأیید می‌کند.» گفتم: «آن کدام است؟»",
+        "id": "Abu Syakir al-Daisani berkata, 'Dalam Al-Quran ada sebuah ayat yang mendukung pernyataan kami.' Aku bertanya, 'Apa itu?'",
+        "bn": "আবু শাকির আদ-দায়সানী বলল, 'কুরআনে এমন একটি আয়াত আছে যা আমাদের বক্তব্যকে সমর্থন করে।' আমি জিজ্ঞেস করলাম, 'সেটি কী?'",
+        "es": "Abu Shakir al-Daysani dijo: 'En el Corán hay un versículo que respalda nuestra afirmación.' Pregunté: '¿Cuál es?'",
+        "fr": "Abû Shâkir al-Daysânî dit : « Dans le Coran, il y a un verset qui appuie notre propos. » Je demandai : « Lequel ? »",
+        "de": "Abū Shākir al-Daysānī sagte: „Im Koran gibt es einen Vers, der unserer Aussage entspricht." Ich fragte: „Welchen?"",
+        "ru": "Абу Шакир ад-Дайсани сказал: «В Коране есть аят, подтверждающий наши слова». Я спросил: «Какой же?»",
+        "zh": "艾布·沙基尔·代萨尼说："《古兰经》中有一节经文支持我们的主张。"我问："那是哪节？""
+      }
+    },
+    {
+      "chunk_type": "quran_quote",
+      "arabic_text": "فَقَالَ وَهُوَ الَّذِي فِي السَّمَاءِ إِلَهٌ وَفِي الْأَرْضِ إِلَهٌ",
+      "word_start": 13,
+      "word_end": 22,
+      "translations": {
+        "en": "He said, '[It is:] \"And He is the one who is God in the heaven and God on earth.\"' [43:84]",
+        "ur": "اس نے کہا: '[یہ:] \"اور وہی ہے جو آسمان میں معبود ہے اور زمین میں معبود۔\"' [۴۳:۸۴]",
+        "tr": "O dedi: '[Şudur:] \"O, gökte de ilahtır, yerde de ilahtır.\"' [43:84]",
+        "fa": "گفت: «[این:] "و اوست که در آسمان خداست و در زمین خدا."» [۴۳:۸۴]",
+        "id": "Ia berkata, '[Yaitu:] \"Dan Dialah yang menjadi Tuhan di langit dan Tuhan di bumi.\"' [QS 43:84]",
+        "bn": "সে বলল, '[এটি:] \"এবং তিনিই আকাশে ইলাহ এবং পৃথিবীতে ইলাহ।\"' [৪৩:৮৪]",
+        "es": "Respondió: '[Es:] \"Y Él es quien es Dios en el cielo y Dios en la tierra.\"' [43:84]",
+        "fr": "Il dit : « [C'est :] "Et c'est Lui qui est Dieu dans le ciel et Dieu sur terre." » [43:84]",
+        "de": "Er sagte: „[Es ist:] ‚Und Er ist derjenige, der Gott im Himmel und Gott auf Erden ist.'" [43:84]",
+        "ru": "Он ответил: «[Это:] "И Он — тот, кто является Богом на небе и Богом на земле"». [43:84]",
+        "zh": "他说："[就是：]'而他在天上是神，在地上也是神。'"[43:84]"
+      }
+    },
+    {
+      "chunk_type": "body",
+      "arabic_text": "فَلَمْ أَدْرِ بِمَا أُجِيبُهُ فَحَجَجْتُ فَخَبَّرْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
+      "word_start": 22,
+      "word_end": 33,
+      "translations": {
+        "en": "I did not know how to answer him. So I performed hajj and informed Abu Abdillah (peace be upon him).",
+        "ur": "میں سمجھ نہ پایا کہ اسے کیا جواب دوں۔ تو میں نے حج ادا کیا اور ابو عبداللہ علیہ السلام کو بتایا۔",
+        "tr": "Ona nasıl cevap vereceğimi bilemedim. Hac yaptım ve Ebû Abdillah'a (aleyhisselam) anlattım.",
+        "fa": "ندانستم چگونه به او پاسخ دهم. پس حج گزاردم و به ابو عبدالله (علیه السلام) خبر دادم.",
+        "id": "Aku tidak tahu bagaimana menjawabnya. Lalu aku melaksanakan haji dan memberitahu Abu Abdillah (aleyhisselam).",
+        "bn": "আমি জানতাম না কীভাবে তাকে উত্তর দেব। তখন আমি হজ করলাম এবং আবু আব্দিল্লাহ (আলাইহিস সালাম)-কে জানালাম।",
+        "es": "No supe cómo responderle. Entonces realicé el hajj e informé a Abu Abdillah (paz sea sobre él).",
+        "fr": "Je ne sus comment lui répondre. Je partis en hajj et informai Abû Abdillah (paix sur lui).",
+        "de": "Ich wusste nicht, wie ich ihm antworten sollte. So vollzog ich den Hajj und berichtete Abū Abdillāh (Friede sei auf ihm).",
+        "ru": "Я не знал, как ему ответить. Тогда я совершил хадж и сообщил Абу Абдиллаху (мир ему).",
+        "zh": "我不知道如何回答他。于是我去朝觐，将此事告知艾布·阿卜杜拉（愿真主赐福于他）。"
+      }
+    },
+    {
+      "chunk_type": "body",
+      "arabic_text": "فَقَالَ هَذَا كَلَامُ زِنْدِيقٍ خَبِيثٍ إِذَا رَجَعْتَ إِلَيْهِ فَقُلْ لَهُ مَا اسْمُكَ بِالْكُوفَةِ فَإِنَّهُ يَقُولُ فُلَانٌ فَقُلْ لَهُ مَا اسْمُكَ بِالْبَصْرَةِ فَإِنَّهُ يَقُولُ فُلَانٌ فَقُلْ كَذَلِكَ اللَّهُ رَبُّنَا فِي السَّمَاءِ إِلَهٌ وَفِي الْأَرْضِ إِلَهٌ وَفِي الْبِحَارِ إِلَهٌ وَفِي الْقِفَارِ إِلَهٌ وَفِي كُلِّ مَكَانٍ إِلَهٌ",
+      "word_start": 33,
+      "word_end": 77,
+      "translations": {
+        "en": "He said, 'This is the speech of a wicked zindiq. When you return to him say: \"What is your name in al-Kufa?\" He will say so-and-so. Say: \"What is your name in al-Basra?\" He will say so-and-so. Then say: Likewise, God our Lord — in the heaven He is God, on earth He is God, in the seas He is God, in the deserts He is God, and in every place He is God.'",
+        "ur": "انہوں نے فرمایا: 'یہ ایک خبیث زندیق کی بات ہے۔ جب تم اس کے پاس واپس جاؤ تو کہو: \"کوفہ میں تمہارا نام کیا ہے؟\" وہ فلاں کہے گا۔ پھر کہو: \"بصرہ میں تمہارا نام کیا ہے؟\" وہ فلاں کہے گا۔ پھر کہو: اسی طرح اللہ ہمارا رب آسمان میں معبود ہے، زمین میں معبود ہے، سمندروں میں معبود ہے، ویرانوں میں معبود ہے، اور ہر جگہ معبود ہے۔'",
+        "tr": "Buyurdu: 'Bu, habis bir zındığın sözüdür. Ona döndüğünde sor: \"Kûfe'de adın ne?\" Falan diyecek. \"Basra'da adın ne?\" de; falan diyecek. Şöyle de: İşte bunun gibi, Rabbimiz Allah gökte de ilahtır, yerde de ilahtır, denizlerde de ilahtır, çöllerde de ilahtır, her yerde de ilahtır.'",
+        "fa": "فرمودند: «این سخن زندیقی خبیث است. وقتی نزد او بازگشتی بگو: "نام تو در کوفه چیست؟" خواهد گفت: فلان. بگو: "نام تو در بصره چیست؟" خواهد گفت: فلان. سپس بگو: همچنین الله پروردگار ما در آسمان خداست، در زمین خداست، در دریاها خداست، در بیابان‌ها خداست، و در هر جایی خداست.»",
+        "id": "Beliau bersabda, 'Ini perkataan seorang zindiq yang keji. Ketika kamu kembali kepadanya, tanyakan: \"Siapa namamu di Kufah?\" Ia akan menjawab fulan. Tanyakan: \"Siapa namamu di Basrah?\" Ia akan menjawab fulan. Kemudian katakanlah: Demikian pula Allah Tuhan kami — di langit Dia Tuhan, di bumi Dia Tuhan, di lautan Dia Tuhan, di padang tandus Dia Tuhan, dan di setiap tempat Dia Tuhan.'",
+        "bn": "তিনি বললেন, 'এটি একজন দুষ্ট যিনদীকের কথা। তার কাছে ফিরে জিজ্ঞেস করো: \"কুফায় তোমার নাম কী?\" বলবে অমুক। বলো: \"বসরায় তোমার নাম কী?\" বলবে অমুক। তারপর বলো: তেমনিভাবে আল্লাহ আমাদের রব — আকাশে ইলাহ, পৃথিবীতে ইলাহ, সমুদ্রে ইলাহ, মরুভূমিতে ইলাহ, প্রতিটি স্থানে ইলাহ।'",
+        "es": "Él dijo: 'Esto es el discurso de un malvado zindiq. Cuando regreses a él, pregúntale: \"¿Cuál es tu nombre en al-Kufa?\" Dirá tal o cual. Pregúntale: \"¿Cuál es tu nombre en al-Basra?\" Dirá tal o cual. Entonces di: Así mismo, Dios nuestro Señor — en el cielo es Dios, en la tierra es Dios, en los mares es Dios, en los desiertos es Dios, y en todo lugar es Dios.'",
+        "fr": "Il dit : « C'est la parole d'un zindîq vil. Lorsque tu retourneras vers lui, demande-lui : "Quel est ton nom à al-Koufa ?" Il dira untel. "Quel est ton nom à al-Basra ?" Il dira untel. Dis alors : De même, Allah notre Seigneur — dans le ciel Il est Dieu ; sur terre Il est Dieu ; dans les mers Il est Dieu ; dans les déserts Il est Dieu ; en tout lieu Il est Dieu. »",
+        "de": "Er sagte: „Das ist die Rede eines verdorbenen Zindiq. Wenn du zu ihm zurückkehrst, frage: ‚Wie ist dein Name in al-Kūfa?' Er sagt Soundso. Frage: ‚Wie ist dein Name in al-Basra?' Er sagt Soundso. Sage dann: Ebenso ist Gott, unser Herr — im Himmel ist Er Gott, auf Erden ist Er Gott, in den Meeren ist Er Gott, in den Wüsten ist Er Gott, an jedem Ort ist Er Gott."",
+        "ru": "Тот сказал: «Это слова мерзкого зиндика. Когда вернёшься, спроси: "Как тебя зовут в аль-Куфе?" Он скажет: такой-то. "Как тебя зовут в аль-Басре?" Скажет: такой-то. Тогда скажи: Точно так же Аллах, наш Господь — на небе Он Бог, на земле Он Бог, в морях Он Бог, в пустынях Он Бог, в каждом месте Он Бог».",
+        "zh": "他说："这是一个邪恶异端者的话。当你回到他那里，问他：'你在库法叫什么名字？'他会说某某。问他：'你在巴士拉叫什么名字？'他会说某某。然后说：同样地，真主我们的主——在天上是神，在地上是神，在海洋中是神，在荒漠中是神，在每个地方都是神。""
+      }
+    },
+    {
+      "chunk_type": "closing",
+      "arabic_text": "قَالَ فَقَدِمْتُ فَأَتَيْتُ أَبَا شَاكِرٍ فَأَخْبَرْتُهُ فَقَالَ هَذِهِ نُقِلَتْ مِنَ الْحِجَازِ",
+      "word_start": 77,
+      "word_end": 88,
+      "translations": {
+        "en": "He (the narrator) said: I returned and came to Abu Shakir and informed him. He said, 'This was brought from al-Hijaz.'",
+        "ur": "راوی نے کہا: میں واپس آیا اور ابو شاکر کے پاس گیا اور انہیں بتایا۔ اس نے کہا: 'یہ حجاز سے لائی گئی ہے۔'",
+        "tr": "Ravi dedi: Döndüm ve Ebû Şâkir'e gidip anlattım. O dedi: 'Bu, Hicaz'dan taşındı.'",
+        "fa": "راوی گفت: بازگشتم و نزد ابو شاکر رفتم و او را آگاه کردم. گفت: «این از حجاز نقل شده است.»",
+        "id": "Perawi berkata: Aku kembali dan menemui Abu Syakir lalu memberitahunya. Ia berkata, 'Ini dibawa dari Hijaz.'",
+        "bn": "রাবী বলল: আমি ফিরে আবু শাকিরের কাছে গিয়ে তাকে জানালাম। সে বলল, 'এটি হিজাজ থেকে আনা হয়েছে।'",
+        "es": "El narrador dijo: Regresé y fui a Abu Shakir y le informé. Dijo: 'Esto fue traído de al-Hiyaz.'",
+        "fr": "Le narrateur dit : Je revins et allai trouver Abû Shâkir pour l'en informer. Il dit : « Ceci a été rapporté du Hijaz. »",
+        "de": "Der Überlieferer sagte: Ich kehrte zurück, ging zu Abū Shākir und berichtete ihm. Er sagte: „Das wurde aus dem Hijaz gebracht."",
+        "ru": "Рассказчик сказал: Я вернулся, пришёл к Абу Шакиру и сообщил ему. Он сказал: «Это было принесено из Хиджаза».",
+        "zh": "叙述者说：我回来后去找艾布·沙基尔，告诉了他。他说："这是从汉志带来的。""
+      }
+    }
+  ],
+  "topics": ["tawhid", "divine_attributes", "tafsir_specific_verse"],
+  "key_phrases": [
+    {
+      "phrase_ar": "عَلَيْهِ السَّلَامُ",
+      "phrase_en": "Peace be upon him",
+      "category": "prophetic_formula"
+    },
+    {
+      "phrase_ar": "كَلَامُ زِنْدِيقٍ خَبِيثٍ",
+      "phrase_en": "the speech of a wicked heretic",
+      "category": "theological_concept"
+    },
+    {
+      "phrase_ar": "وَهُوَ الَّذِي فِي السَّمَاءِ إِلَهٌ وَفِي الْأَرْضِ إِلَهٌ",
+      "phrase_en": "And He is the one who is God in the heaven and God on earth",
+      "category": "quranic_echo"
+    },
+    {
+      "phrase_ar": "وَفِي كُلِّ مَكَانٍ إِلَهٌ",
+      "phrase_en": "and in every place He is God",
+      "category": "theological_concept"
+    }
+  ],
+  "similar_content_hints": [
+    {
+      "description": "Other dialogue hadiths in al-Kafi's Kitab al-Tawhid where Imam al-Sadiq (AS) refutes atheists and dualists (zandiqs) using rational analogies about divine unity and the impossibility of multiple deities.",
+      "theme": "imam_debates_zandiqs"
+    },
+    {
+      "description": "Hadiths in Kitab al-Tawhid of al-Saduq addressing Manichaean and dualist misreadings of Quranic verses about God's presence in heaven and earth, defending tawhid against the claim of spatial multiplicity.",
+      "theme": "refutation_of_dualism"
+    },
+    {
+      "description": "Hadiths and commentary on Quran 57:4 ('And He is with you wherever you are') affirming divine omnipresence without spatial localisation, the same doctrinal point made here by the Imam's analogy.",
+      "theme": "divine_omnipresence"
+    }
+  ]
+}
+```

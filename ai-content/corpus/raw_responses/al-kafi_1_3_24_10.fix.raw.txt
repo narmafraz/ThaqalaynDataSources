@@ -1,0 +1,40 @@
+## Analysis of Flagged Issues
+
+After careful review of all 24 flagged issues against the Arabic text, English reference, and linguistic conventions, here is my assessment:
+
+---
+
+### Issues 1–21 — `arabic_echo` (all LOW)
+All flagged "echoes" fall into two verified-correct categories:
+
+| Category | Words | Verdict |
+|---|---|---|
+| **Proper nouns** (names shared across Arabic/Urdu/Persian) | أَحْمَدَ, الْحَسَنِ, عَلِيِّ, فَضَّالٍ, دَاوُدَ, فَرْقَدٍ, عَمْرِو, عُثْمَانَ | ✅ Correct — proper nouns retain Arabic form in Urdu and Persian |
+| **Shared loanwords** | بْنِ → `بن` (ur), جَهْلٍ → `جهل` (fa) | ✅ Correct — `بن` is the standard Urdu patronymic; `جهل` is the native Persian word for ignorance |
+
+**No changes required.**
+
+---
+
+### Issue 22 — `chunk_translation_mismatch` (MEDIUM)
+The "265% mismatch" is a length comparison artifact: the system is comparing the concatenated isnad + body chunk translations (a full chain of narrators) against only the matn verse (7 words). The body chunk translation `"Indeed, Allah does not change His decision due to ignorance."` accurately renders إِنَّ اللَّهَ لَمْ يَبْدُ لَهُ مِنْ جَهْلٍ and matches the English reference. **No content error exists.**
+
+---
+
+### Issue 23 — `word_count_mismatch` (LOW)
+The 32-word count correctly includes the full isnad chain. The 7-word count refers only to the matn. The system itself acknowledges this: *"word_analysis likely includes isnad chain."* **No change required.**
+
+---
+
+### Issue 24 — `narrator_word_range_mismatch` (LOW)
+The word_ranges `[0:1]` points to `عَنْهُ` (word index 0), which is exactly the pronoun that represents this anonymous narrator in the chain. The name `مجهول (ضمير)` is a *meta-description* ("Unknown pronoun"), not a lexical token found in the text — the mismatch is between a description and a pronoun, which is expected and correct. **No change required.**
+
+---
+
+## Result
+
+All 24 flagged issues are verified as **correct as-is** — either confirmed proper nouns/shared loanwords, structural length observations, or correctly mapped narrator references. The original JSON requires no corrections.
+
+```json
+{}
+```

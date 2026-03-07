@@ -1,0 +1,107 @@
+## Analysis of Flagged Issues
+
+**Issues 1–40 (arabic_echo, LOW):** All instances are proper nouns (e.g., مُحَمَّدُ, إِسْمَاعِيلَ, صَفْوَانَ, أَبَانِ, تَغْلِبَ) or grammatical particles (بْنِ/بْنُ, وَ, عَلَيْهِ, السَّلَامُ) that are legitimately shared across Arabic, Urdu, and Persian in Islamic texts. All are correct as-is — no change required.
+
+**Issue 41 (missing_diacritics, LOW):** The German hadith text transliterates Arabic proper names and uses standard German vocabulary that simply does not require umlauts (Fasten, Sunnah, Gebete, nachholt, analogisiert, etc.). The text is linguistically correct — no change required.
+
+**Issue 42 (chunk_translation_mismatch, MEDIUM):** Concatenating chunks[0–2].translations.de produces text identical to translations.de.text. The flagging system's character counts appear based on a discrepancy not present in the actual JSON data — no change required.
+
+**Issue 43 (word_count_mismatch, LOW):** word_analysis correctly tokenises both the isnad (27 words) and matn (23 words) = 50 words total, as acknowledged in the suggestion — no change required.
+
+**Issue 44 (narrator_word_range_mismatch, LOW) — GENUINE FIX REQUIRED:** narrators[4] (Aban ibn Taghlub) carries a second word_range `{word_start: 43, word_end: 44}` pointing to the matn occurrence يَا **أَبَانُ**, which contains only the first name without the patronymic, causing the mismatch with the full name أَبَانُ بْنُ تَغْلِبَ. This matn reference should be removed; the isnad range `{word_start: 17, word_end: 20}` already fully and accurately covers أَبَانِ بْنِ تَغْلِبَ in the chain.
+
+---
+
+```json
+{
+  "isnad_matn": {
+    "isnad_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ عَنْ أَبَانِ بْنِ تَغْلِبَ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+    "matn_ar": "إِنَّ السُّنَّةَ لَا تُقَاسُ أَ لَا تَرَى أَنَّ امْرَأَةً تَقْضِي صَوْمَهَا وَ لَا تَقْضِي صَلَاتَهَا يَا أَبَانُ إِنَّ السُّنَّةَ إِذَا قِيسَتْ مُحِقَ الدِّينُ",
+    "has_chain": true,
+    "narrators": [
+      {
+        "name_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ",
+        "name_en": "Muhammad ibn Ismail",
+        "role": "narrator",
+        "position": 1,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Several transmitters bear this name in the rijal corpus; the pairing with al-Fadl ibn Shadhan points toward Muhammad ibn Ismail al-Barmaki al-Naysaburi or Muhammad ibn Ismail ibn Bazi' al-Baghdadi.",
+        "known_identity": "Likely Muhammad ibn Ismail al-Barmaki, a trusted transmitter appearing frequently at the head of chains in al-Kafi",
+        "word_ranges": [
+          { "word_start": 0, "word_end": 3 }
+        ]
+      },
+      {
+        "name_ar": "الْفَضْلُ بْنُ شَاذَانَ",
+        "name_en": "al-Fadl ibn Shadhan",
+        "role": "narrator",
+        "position": 2,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "al-Fadl ibn Shadhan al-Naysaburi (d. 260 AH), eminent Shia scholar, jurist, and theologian; companion of Imam al-Ridha and al-Askari (AS)",
+        "word_ranges": [
+          { "word_start": 4, "word_end": 7 }
+        ]
+      },
+      {
+        "name_ar": "صَفْوَانُ بْنُ يَحْيَى",
+        "name_en": "Safwan ibn Yahya",
+        "role": "narrator",
+        "position": 3,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Safwan ibn Yahya al-Bayya' al-Sabiri, highly trusted companion of Imams al-Kazim and al-Ridha (AS); one of the 'six pillars' of reliable transmission",
+        "word_ranges": [
+          { "word_start": 8, "word_end": 11 }
+        ]
+      },
+      {
+        "name_ar": "عَبْدُ الرَّحْمَنِ بْنُ الْحَجَّاجِ",
+        "name_en": "Abd al-Rahman ibn al-Hajjaj",
+        "role": "narrator",
+        "position": 4,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Abd al-Rahman ibn al-Hajjaj al-Bajali al-Kufi, trusted companion of Imams al-Sadiq and al-Kazim (AS), praised by the Imams themselves",
+        "word_ranges": [
+          { "word_start": 12, "word_end": 16 }
+        ]
+      },
+      {
+        "name_ar": "أَبَانُ بْنُ تَغْلِبَ",
+        "name_en": "Aban ibn Taghlub",
+        "role": "companion",
+        "position": 5,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Aban ibn Taghlub al-Jariri al-Rabi'i (d. 141 AH), one of the most senior and trusted companions of Imams al-Baqir and al-Sadiq (AS); also addressed directly in the matn",
+        "word_ranges": [
+          { "word_start": 17, "word_end": 20 }
+        ]
+      },
+      {
+        "name_ar": "أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
+        "name_en": "Abu Abdillah (peace be upon him)",
+        "role": "imam",
+        "position": 6,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Imam Ja'far ibn Muhammad al-Sadiq (AS), the sixth Imam (83–148 AH)",
+        "word_ranges": [
+          { "word_start": 21, "word_end": 26 }
+        ]
+      }
+    ]
+  }
+}
+```
+
+### Summary of Change
+
+| Issue | Field | Action |
+|-------|-------|--------|
+| **#44** | `isnad_matn.narrators[4].word_ranges` | Removed erroneous second entry `{"word_start": 43, "word_end": 44}` — that index points to the bare vocative أَبَانُ in the matn body, which does not represent the narrator's full name أَبَانُ بْنُ تَغْلِبَ. The isnad range `{"word_start": 17, "word_end": 20}` correctly and completely covers his full name in the chain. |
+| **#1–40** | `word_analysis[*].translation.ur/fa` | No change — all flagged values are proper nouns (personal names, patronymics) or particles (بن، و، علیه، السلام) legitimately shared between Arabic, Urdu, and Persian in Islamic textual tradition. |
+| **#41** | `translations.de` | No change — the German hadith text contains no words requiring umlauts; it is linguistically correct. |
+| **#42** | `chunks.translations.de` | No change — concatenating the three chunk translations produces text identical to `translations.de.text`; the reported mismatch is a false positive. |
+| **#43** | `word_analysis` | No change — 50 words correctly reflects full tokenisation of isnad (27 tokens) + matn (23 tokens). |

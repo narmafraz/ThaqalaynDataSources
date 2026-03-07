@@ -1,0 +1,85 @@
+## Analysis of Flagged Issues
+
+**Issues 1–29 (LOW – arabic_echo):** All flagged words are verified proper nouns (علی، ابراہیم، محمد، عیسیٰ، عبید، یونس، حریز، زرارہ، عبد) or legitimately shared Islamic terms (بن، حلال، و) that are correctly identical in Arabic, Urdu, and Farsi script. **No changes required.**
+
+**Issue 31 (LOW – word_count_mismatch):** The system itself notes "word_analysis likely includes isnad chain or uses different tokenization" — confirming this is acceptable. **No changes required.**
+
+**Issue 30 (MEDIUM – chunk_translation_mismatch in `chunks.translations.ur`):** The concatenated Urdu chunk translations are ~32% longer than the verse-level text due to: (1) repetition of `انہوں نے` in the isnad chain, (2) verbose constructions in the body chunks. These need tightening for consistency.
+
+---
+
+```json
+{
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": 0,
+      "word_end": 16,
+      "translations": {
+        "en": "Ali ibn Ibrahim, from Muhammad ibn Isa ibn Ubayd, from Yunus, from Hariz, from Zurara, who said:",
+        "ur": "علی بن ابراہیم، محمد بن عیسیٰ بن عبید سے، یونس سے، حریز سے، زرارہ سے روایت ہے کہ انہوں نے کہا:",
+        "tr": "Ali ibn İbrahim'den, Muhammed ibn İsa ibn Ubeyd'den, Yunus'tan, Hariz'den, Zürare'den naklen, o şöyle dedi:",
+        "fa": "علی بن ابراهیم از محمد بن عیسی بن عبید، از یونس، از حریز، از زرارة روایت کرد که گفت:",
+        "id": "Ali ibn Ibrahim, dari Muhammad ibn Isa ibn Ubayd, dari Yunus, dari Hariz, dari Zurara, yang berkata:",
+        "bn": "আলী ইবনে ইব্রাহীম, মুহাম্মদ ইবনে ঈসা ইবনে উবায়দ থেকে, ইউনুস থেকে, হারীয থেকে, যুরারাহ থেকে, তিনি বলেছেন:",
+        "es": "Ali ibn Ibrahim, de Muhammad ibn Isa ibn Ubayd, de Yunus, de Hariz, de Zurara, quien dijo:",
+        "fr": "Ali ibn Ibrahim, de Muhammad ibn Isa ibn Ubayd, de Yunus, de Hariz, de Zurara, qui dit :",
+        "de": "Ali ibn Ibrahim, von Muhammad ibn Isa ibn Ubayd, von Yunus, von Hariz, von Zurara, der sagte:",
+        "ru": "Али ибн Ибрахим от Мухаммада ибн Исы ибн Убайда от Юнуса от Хариза от Зурары, который сказал:",
+        "zh": "阿里·本·易卜拉欣传自穆罕默德·本·尔撒·本·欧拜德，传自优努斯，传自哈里兹，传自祖拉拉，他说："
+      },
+      "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى بْنِ عُبَيْدٍ عَنْ يُونُسَ عَنْ حَرِيزٍ عَنْ زُرَارَةَ قَالَ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 16,
+      "word_end": 48,
+      "translations": {
+        "en": "I asked Abu Abdullah (peace be upon him) about halal and haram, so he said: 'The halal of Muhammad (peace be upon him and his family) is halal forever, until the Day of Judgment, and his haram is haram forever, until the Day of Judgment. There will be nothing else, nor will anything else come.'",
+        "ur": "میں نے ابو عبداللہ (علیہ السلام) سے حلال اور حرام کے بارے میں پوچھا، تو فرمایا: 'محمد (صلی اللہ علیہ وآلہ وسلم) کا حلال قیامت تک ہمیشہ حلال ہے اور ان کا حرام قیامت تک ہمیشہ حرام ہے۔ اس کے علاوہ کچھ نہیں ہوگا اور نہ کچھ آئے گا۔'",
+        "tr": "Ebu Abdullah'a (aleyhisselam) helal ve haram hakkında sordum, o da dedi ki: 'Muhammed'in helali kıyamet gününe kadar sonsuza dek helaldir ve haramı kıyamet gününe kadar sonsuza dek haramdır. Bunun dışında bir şey olmayacak ve bunun dışında bir şey gelmeyecektir.'",
+        "fa": "از ابو عبدالله (علیه السلام) درباره حلال و حرام پرسیدم، پس فرمود: 'حلال محمد تا روز قیامت برای همیشه حلال است و حرامش تا روز قیامت برای همیشه حرام است. چیز دیگری نخواهد بود و چیز دیگری نخواهد آمد.'",
+        "id": "Aku bertanya kepada Abu Abdullah (alaihissalam) tentang halal dan haram, maka beliau berkata: 'Halal Muhammad adalah halal selamanya hingga Hari Kiamat, dan haramnya adalah haram selamanya hingga Hari Kiamat. Tidak akan ada yang lain, dan tidak akan datang yang lain.'",
+        "bn": "আমি আবু আব্দুল্লাহ (আলাইহিস সালাম)-কে হালাল ও হারাম সম্পর্কে জিজ্ঞেস করলাম, তখন তিনি বললেন: 'মুহাম্মদের হালাল চিরকালের জন্য কিয়ামত পর্যন্ত হালাল, এবং তাঁর হারাম চিরকালের জন্য কিয়ামত পর্যন্ত হারাম। এছাড়া অন্য কিছু হবে না এবং অন্য কিছু আসবেও না।'",
+        "es": "Pregunté a Abu Abdullah (que la paz sea con él) sobre lo halal y lo haram, y dijo: 'Lo halal de Muhammad es halal para siempre hasta el Día de la Resurrección, y su haram es haram para siempre hasta el Día de la Resurrección. No habrá ninguna otra cosa, ni vendrá ninguna otra cosa.'",
+        "fr": "J'ai demandé à Abou Abdillah (que la paix soit sur lui) au sujet du halal et du haram, alors il dit : 'Le halal de Muhammad est halal pour toujours jusqu'au Jour de la Résurrection, et son haram est haram pour toujours jusqu'au Jour de la Résurrection. Il n'y aura rien d'autre et rien d'autre ne viendra.'",
+        "de": "Ich fragte Abu Abdullah (Friede sei auf ihm) über das Erlaubte und das Verbotene, und er sagte: 'Das Erlaubte Muhammads ist für immer erlaubt bis zum Tag der Auferstehung, und sein Verbotenes ist für immer verboten bis zum Tag der Auferstehung. Es wird nichts anderes geben und nichts anderes kommen.'",
+        "ru": "Я спросил Абу Абдуллаха (мир ему) о дозволенном и запретном, и он сказал: «Дозволенное Мухаммада является дозволенным вечно, до Дня Воскресения, а его запретное является запретным вечно, до Дня Воскресения. Не будет ничего иного и не придёт ничего иного».",
+        "zh": "我向阿布·阿卜杜拉（愿主赐福于他）请教合法与禁止之事，他说：'穆罕默德所定之合法直至复活日永远是合法的，其所定之禁止直至复活日永远是禁止的。不会有其他，也不会有其他到来。'"
+      },
+      "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ عَنِ الْحَلَالِ وَ الْحَرَامِ فَقَالَ حَلَالُ مُحَمَّدٍ حَلَالٌ أَبَداً إِلَى يَوْمِ الْقِيَامَةِ وَ حَرَامُهُ حَرَامٌ أَبَداً إِلَى يَوْمِ الْقِيَامَةِ لَا يَكُونُ غَيْرُهُ وَ لَا يَجِيءُ غَيْرُهُ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 48,
+      "word_end": 62,
+      "translations": {
+        "en": "And he said: 'Ali (peace be upon him) said: No one introduced a bid'a (innovation) except that by it a sunnah was abandoned.'",
+        "ur": "اور فرمایا: 'علی (علیہ السلام) نے فرمایا: جس نے بدعت ایجاد کی اس نے اس کی وجہ سے ایک سنت ترک کر دی۔'",
+        "tr": "Ve dedi ki: 'Ali (aleyhisselam) dedi: Hiç kimse bir bid'at çıkarmadı ki onunla birlikte bir sünneti terk etmiş olmasın.'",
+        "fa": "و فرمود: 'علی (علیه السلام) فرمود: هیچ‌کس بدعتی نگذاشت مگر اینکه با آن سنتی را ترک کرد.'",
+        "id": "Dan beliau berkata: 'Ali (alaihissalam) berkata: Tidak ada seorang pun yang membuat bid'ah kecuali dengannya ia meninggalkan suatu sunnah.'",
+        "bn": "এবং তিনি বললেন: 'আলী (আলাইহিস সালাম) বলেছেন: কেউ একটি বিদআত উদ্ভাবন করেনি ছাড়া সেই কারণে একটি সুন্নাত পরিত্যাগ করা হয়েছে।'",
+        "es": "Y dijo: 'Ali (que la paz sea con él) dijo: Nadie introdujo una bid'a excepto que por ello abandonó una sunna.'",
+        "fr": "Et il dit : 'Ali (que la paix soit sur lui) a dit : Personne n'a introduit une bid'a sans qu'une sunna n'ait été abandonnée par cela.'",
+        "de": "Und er sagte: 'Ali (Friede sei auf ihm) sagte: Niemand hat eine Bid'a eingeführt, ohne dass dadurch eine Sunna aufgegeben worden wäre.'",
+        "ru": "И он сказал: «Али (мир ему) сказал: Никто не ввёл бид'а, не оставив тем самым сунны».",
+        "zh": "他又说：'阿里（愿主赐福于他）说：没有任何人引入一项异端创新，除非因此遗弃了一项圣行。'"
+      },
+      "arabic_text": "وَ قَالَ قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ مَا أَحَدٌ ابْتَدَعَ بِدْعَةً إِلَّا تَرَكَ بِهَا سُنَّةً"
+    }
+  ]
+}
+```
+
+---
+
+### Summary of Changes
+
+| Issue | Field | Action |
+|---|---|---|
+| 1–29 (LOW) | `word_analysis[*].translation.ur/fa` | **No change** — all flagged items are verified proper nouns (علی، محمد، عیسی، etc.) or legitimately shared Islamic/Semitic terms (بن، حلال، و) correctly written in Arabic script in both Urdu and Farsi |
+| **30 (MEDIUM)** | `chunks[0].translations.ur` | Removed redundant `انہوں نے` repetitions in isnad chain; simplified to parallel structure matching other languages |
+| **30 (MEDIUM)** | `chunks[1].translations.ur` | Removed duplicate `انہوں نے` before `فرمایا`; condensed closing phrase (`اس کے علاوہ کچھ نہیں ہوگا اور نہ کچھ آئے گا`) to match concision of other-language equivalents |
+| **30 (MEDIUM)** | `chunks[2].translations.ur` | Simplified `اور انہوں نے فرمایا` → `اور فرمایا`; removed `بھی` and redundant comma; reduced overall length while preserving meaning |
+| 31 (LOW) | `word_analysis` word count | **No change** — 62-word count is correct and expected, as `word_analysis` legitimately includes the isnad chain words |

@@ -1,0 +1,567 @@
+Looking at each flagged issue:
+
+1. **Issue 1**: `word_analysis[5].translation.ur` — "السلام" echoes Arabic; Urdu for "peace/salām" standalone is "سلام" (without the ال article). **Fix needed.**
+2. **Issues 2–5**: `word_analysis[17/19/21/23].translation.fa` = "و" for Arabic "وَ" — "و" is genuinely the Persian conjunction for "and" (same script, same word). These are **correct; no change needed**, but will be preserved correctly in output.
+3. **Issue 6**: Chunks missing the isnad section causes the EN concatenation to fall ~30% short of the full verse reference. **Fix**: prepend an `isnad` chunk.
+4. **Issues 7–11**: All five narrators missing `word_ranges`. **Fix**: add `word_ranges` referencing their positions within the isnad text (tokenised separately from word_analysis).
+
+---
+
+```json
+{
+  "word_analysis": [
+    {
+      "word": "سَمِعْتُ",
+      "pos": "V",
+      "translation": {
+        "en": "I heard",
+        "ur": "میں نے سنا",
+        "tr": "duydum",
+        "fa": "شنیدم",
+        "id": "aku mendengar",
+        "bn": "আমি শুনেছি",
+        "es": "escuché",
+        "fr": "j'ai entendu",
+        "de": "ich hörte",
+        "ru": "я слышал",
+        "zh": "我听到"
+      }
+    },
+    {
+      "word": "أَبَا",
+      "pos": "N",
+      "translation": {
+        "en": "Abu (father of)",
+        "ur": "ابو",
+        "tr": "Ebu",
+        "fa": "ابو",
+        "id": "Abu",
+        "bn": "আবু",
+        "es": "Abu",
+        "fr": "Abou",
+        "de": "Abu",
+        "ru": "Абу",
+        "zh": "阿布"
+      }
+    },
+    {
+      "word": "عَبْدِ",
+      "pos": "N",
+      "translation": {
+        "en": "Abd (servant of)",
+        "ur": "عبد (بندہ)",
+        "tr": "Abd (kulu)",
+        "fa": "عبد (بنده)",
+        "id": "Abd (hamba)",
+        "bn": "আবদ (বান্দা)",
+        "es": "Abd (siervo de)",
+        "fr": "Abd (serviteur de)",
+        "de": "Abd (Diener)",
+        "ru": "Абд (раба)",
+        "zh": "阿卜德（仆）"
+      }
+    },
+    {
+      "word": "اللَّهِ",
+      "pos": "N",
+      "translation": {
+        "en": "God",
+        "ur": "اللہ",
+        "tr": "Allah",
+        "fa": "خدا",
+        "id": "Allah",
+        "bn": "আল্লাহ",
+        "es": "Dios",
+        "fr": "Dieu",
+        "de": "Allahs",
+        "ru": "Аллаха",
+        "zh": "真主"
+      }
+    },
+    {
+      "word": "عَلَيْهِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "upon him",
+        "ur": "اس پر",
+        "tr": "ona",
+        "fa": "بر او",
+        "id": "atasnya",
+        "bn": "তাঁর উপর",
+        "es": "sobre él",
+        "fr": "sur lui",
+        "de": "auf ihm",
+        "ru": "над ним",
+        "zh": "于他"
+      }
+    },
+    {
+      "word": "السَّلَامُ",
+      "pos": "N",
+      "translation": {
+        "en": "peace",
+        "ur": "سلام",
+        "tr": "selam",
+        "fa": "سلام",
+        "id": "salam",
+        "bn": "সালাম",
+        "es": "paz",
+        "fr": "paix",
+        "de": "Friede",
+        "ru": "мир",
+        "zh": "和平"
+      }
+    },
+    {
+      "word": "يَقُولُ",
+      "pos": "V",
+      "translation": {
+        "en": "saying",
+        "ur": "فرماتے ہوئے",
+        "tr": "şöyle buyururken",
+        "fa": "می‌فرمود",
+        "id": "berkata",
+        "bn": "বলছেন",
+        "es": "diciendo",
+        "fr": "dire",
+        "de": "sagen",
+        "ru": "говоря",
+        "zh": "说"
+      }
+    },
+    {
+      "word": "مَا",
+      "pos": "NEG",
+      "translation": {
+        "en": "not/never",
+        "ur": "نہیں",
+        "tr": "hiçbir zaman",
+        "fa": "هرگز",
+        "id": "tidak pernah",
+        "bn": "না",
+        "es": "nunca",
+        "fr": "jamais",
+        "de": "nie",
+        "ru": "не",
+        "zh": "从未"
+      }
+    },
+    {
+      "word": "تَنَبَّأَ",
+      "pos": "V",
+      "translation": {
+        "en": "was granted prophethood",
+        "ur": "نبی بنا",
+        "tr": "peygamberlik verildi",
+        "fa": "به نبوت مبعوث شد",
+        "id": "diangkat menjadi nabi",
+        "bn": "নবুওয়াত প্রদান করা হয়েছে",
+        "es": "recibió la profecía",
+        "fr": "reçut la prophétie",
+        "de": "zum Propheten berufen wurde",
+        "ru": "получил пророчество",
+        "zh": "被授予先知之职"
+      }
+    },
+    {
+      "word": "نَبِيٌّ",
+      "pos": "N",
+      "translation": {
+        "en": "a prophet",
+        "ur": "کوئی نبی",
+        "tr": "bir peygamber",
+        "fa": "پیامبری",
+        "id": "seorang nabi",
+        "bn": "কোনো নবী",
+        "es": "un profeta",
+        "fr": "un prophète",
+        "de": "ein Prophet",
+        "ru": "пророк",
+        "zh": "先知"
+      }
+    },
+    {
+      "word": "قَطُّ",
+      "pos": "ADV",
+      "translation": {
+        "en": "ever/at all",
+        "ur": "کبھی بھی",
+        "tr": "hiç/asla",
+        "fa": "هرگز",
+        "id": "sama sekali",
+        "bn": "কখনো",
+        "es": "jamás",
+        "fr": "jamais",
+        "de": "jemals",
+        "ru": "никогда",
+        "zh": "从来"
+      }
+    },
+    {
+      "word": "حَتَّى",
+      "pos": "CONJ",
+      "translation": {
+        "en": "until",
+        "ur": "یہاں تک کہ",
+        "tr": "ta ki",
+        "fa": "تا اینکه",
+        "id": "hingga",
+        "bn": "যতক্ষণ না",
+        "es": "hasta que",
+        "fr": "jusqu'à ce que",
+        "de": "bis",
+        "ru": "пока не",
+        "zh": "直到"
+      }
+    },
+    {
+      "word": "يُقِرَّ",
+      "pos": "V",
+      "translation": {
+        "en": "he acknowledges",
+        "ur": "اقرار کرے",
+        "tr": "ikrar etsin",
+        "fa": "اقرار کند",
+        "id": "mengakui",
+        "bn": "স্বীকার করে",
+        "es": "reconozca",
+        "fr": "reconnaisse",
+        "de": "bekennt",
+        "ru": "признаёт",
+        "zh": "承认"
+      }
+    },
+    {
+      "word": "لِلَّهِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "to God",
+        "ur": "اللہ کے لیے",
+        "tr": "Allah'a",
+        "fa": "به خدا",
+        "id": "kepada Allah",
+        "bn": "আল্লাহর কাছে",
+        "es": "ante Dios",
+        "fr": "à Dieu",
+        "de": "vor Gott",
+        "ru": "пред Аллахом",
+        "zh": "向真主"
+      }
+    },
+    {
+      "word": "بِخَمْسِ",
+      "pos": "N",
+      "translation": {
+        "en": "with five",
+        "ur": "پانچ",
+        "tr": "beş",
+        "fa": "به پنج",
+        "id": "dengan lima",
+        "bn": "পাঁচটি",
+        "es": "con cinco",
+        "fr": "avec cinq",
+        "de": "mit fünf",
+        "ru": "пятью",
+        "zh": "五"
+      }
+    },
+    {
+      "word": "خِصَالٍ",
+      "pos": "N",
+      "translation": {
+        "en": "characteristics",
+        "ur": "خصلتوں کا",
+        "tr": "özellikler",
+        "fa": "خصلت",
+        "id": "sifat",
+        "bn": "বৈশিষ্ট্য",
+        "es": "características",
+        "fr": "caractéristiques",
+        "de": "Eigenschaften",
+        "ru": "качествами",
+        "zh": "特质"
+      }
+    },
+    {
+      "word": "بِالْبَدَاءِ",
+      "pos": "N",
+      "translation": {
+        "en": "al-Bada' (divine alteration of decree)",
+        "ur": "بداء (اللہ کے فیصلے میں تبدیلی)",
+        "tr": "el-Bedā' (ilahi kararın değişimi)",
+        "fa": "بداء (تغییر اراده الهی)",
+        "id": "al-Bada' (perubahan ketetapan ilahi)",
+        "bn": "আল-বাদা' (ঐশ্বরিক নির্ধারণে পরিবর্তন)",
+        "es": "al-Bada' (alteración del decreto divino)",
+        "fr": "al-Badā' (changement du décret divin)",
+        "de": "al-Badā' (Änderung des göttlichen Beschlusses)",
+        "ru": "аль-Бадā' (изменение Божьего решения)",
+        "zh": "白达（真主更改定命）"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "الْمَشِيئَةِ",
+      "pos": "N",
+      "translation": {
+        "en": "the divine will",
+        "ur": "مشیت (الٰہی ارادہ)",
+        "tr": "ilahi irade (meşiet)",
+        "fa": "مشیت (اراده الهی)",
+        "id": "kehendak ilahi",
+        "bn": "ঐশ্বরিক ইচ্ছা (মাশি'আ)",
+        "es": "la voluntad divina",
+        "fr": "la volonté divine",
+        "de": "der göttliche Wille",
+        "ru": "Воля Аллаха (машийа)",
+        "zh": "神圣意志"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "السُّجُودِ",
+      "pos": "N",
+      "translation": {
+        "en": "prostration (sajdah)",
+        "ur": "سجدہ",
+        "tr": "secde (sücud)",
+        "fa": "سجود",
+        "id": "sujud",
+        "bn": "সিজদা",
+        "es": "la postración (sajda)",
+        "fr": "la prosternation",
+        "de": "die Niederwerfung (Sajda)",
+        "ru": "земной поклон (саджда)",
+        "zh": "叩首（萨吉达）"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "الْعُبُودِيَّةِ",
+      "pos": "N",
+      "translation": {
+        "en": "servitude",
+        "ur": "عبودیت (بندگی)",
+        "tr": "kulluk (ubudiyet)",
+        "fa": "عبودیت (بندگی)",
+        "id": "penghambaan",
+        "bn": "দাসত্ব (বন্দেগী)",
+        "es": "la servidumbre",
+        "fr": "la servitude",
+        "de": "die Dienerschaft",
+        "ru": "рабство (перед Богом)",
+        "zh": "奴仆性（服从真主）"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "الطَّاعَةِ",
+      "pos": "N",
+      "translation": {
+        "en": "obedience",
+        "ur": "اطاعت",
+        "tr": "itaat",
+        "fa": "اطاعت",
+        "id": "ketaatan",
+        "bn": "আনুগত্য",
+        "es": "la obediencia",
+        "fr": "l'obéissance",
+        "de": "der Gehorsam",
+        "ru": "послушание",
+        "zh": "服从"
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": null,
+      "word_end": null,
+      "translations": {
+        "en": "A number of our companions, from Ahmad ibn Muhammad ibn Khalid, from one of our companions, from Muhammad ibn Amr al-Kufi, brother of Yahya, from Murazim ibn Hakim, who said:",
+        "ur": "ہمارے کئی ساتھیوں سے، احمد بن محمد بن خالد سے، ہمارے بعض ساتھیوں سے، یحیٰی کے بھائی محمد بن عمرو الکوفی سے، مرازم بن حکیم نے روایت کی کہ انہوں نے کہا:",
+        "tr": "Ashâbımızdan bir topluluk, Ahmed b. Muhammed b. Hâlid'den, ashâbımızdan birinden, Yahyâ'nın kardeşi Muhammed b. Amr el-Kûfî'den, Murâzim b. Hakîm'den nakletmiştir ki o dedi:",
+        "fa": "عده‌ای از اصحاب ما، از احمد بن محمد بن خالد، از برخی از اصحاب ما، از محمد بن عمرو کوفی برادر یحیی، از مرازم بن حکیم روایت کرده‌اند که گفت:",
+        "id": "Sejumlah sahabat kami, dari Ahmad ibn Muhammad ibn Khalid, dari sebagian sahabat kami, dari Muhammad ibn Amr al-Kufi, saudara Yahya, dari Murazim ibn Hakim, yang berkata:",
+        "bn": "আমাদের একদল সাহাবী, আহমাদ ইবন মুহাম্মাদ ইবন খালিদ থেকে, আমাদের কিছু সাহাবী থেকে, ইয়াহইয়ার ভাই মুহাম্মাদ ইবন আমর আল-কুফী থেকে, মুরাযিম ইবন হাকিম থেকে বর্ণনা করেছেন যে, তিনি বলেছেন:",
+        "es": "Un grupo de nuestros compañeros, de Ahmad ibn Muhammad ibn Khalid, de algunos de nuestros compañeros, de Muhammad ibn Amr al-Kufi, hermano de Yahya, de Murazim ibn Hakim, quien dijo:",
+        "fr": "Un certain nombre de nos compagnons, d'après Ahmad ibn Muhammad ibn Khalid, d'après certains de nos compagnons, d'après Muhammad ibn Amr al-Kufi, frère de Yahya, d'après Murazim ibn Hakim qui dit :",
+        "de": "Eine Reihe unserer Gefährten, von Ahmad ibn Muhammad ibn Khalid, von einigen unserer Gefährten, von Muhammad ibn Amr al-Kufi, Bruder von Yahya, von Murazim ibn Hakim, der sagte:",
+        "ru": "Ряд наших сподвижников, от Ахмада ибн Мухаммада ибн Халида, от некоторых наших сподвижников, от Мухаммада ибн Амра аль-Куфи, брата Яхьи, от Муразима ибн Хакима, который сказал:",
+        "zh": "我们的若干同伴，引自艾哈迈德·本·穆罕默德·本·哈立德，引自我们的部分同伴，引自叶海亚的兄弟穆罕默德·本·阿姆鲁·库法人，引自穆拉齐姆·本·哈基姆，他说："
+      },
+      "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ بَعْضِ أَصْحَابِنَا عَنْ مُحَمَّدِ بْنِ عَمْرٍو الْكُوفِيِّ أَخِي يَحْيَى عَنْ مُرَازِمِ بْنِ حَكِيمٍ قَالَ"
+    },
+    {
+      "chunk_type": "opening",
+      "word_start": 0,
+      "word_end": 7,
+      "translations": {
+        "en": "I heard Abu Abdullah (AS) say:",
+        "ur": "میں نے ابو عبداللہ (علیہ السلام) کو فرماتے ہوئے سنا:",
+        "tr": "Ebu Abdullah'ı (a.s.) şöyle buyururken duydum:",
+        "fa": "شنیدم که ابو عبدالله (علیه السلام) می‌فرمود:",
+        "id": "Aku mendengar Abu Abdullah (AS) berkata:",
+        "bn": "আমি আবু আবদিল্লাহ (আ.স.)-কে বলতে শুনেছি:",
+        "es": "Escuché a Abu Abdullah (AS) decir:",
+        "fr": "J'ai entendu Abu Abdullah (AS) dire :",
+        "de": "Ich hörte Abu Abdullah (a.s.) sagen:",
+        "ru": "Я слышал, как Абу Абдуллах (мир ему) говорил:",
+        "zh": "我听到阿布·阿卜杜拉（愿主赐平安于他）说："
+      },
+      "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 7,
+      "word_end": 25,
+      "translations": {
+        "en": "'No prophet was ever granted prophethood until he acknowledged to God five characteristics: al-Bada', the divine Will, Prostration, Servitude, and Obedience.'",
+        "ur": "'کوئی بھی نبی کبھی نبوت نہیں پایا یہاں تک کہ وہ اللہ کے سامنے پانچ خصلتوں کا اقرار کرے: بداء، مشیت، سجدہ، عبودیت اور اطاعت۔'",
+        "tr": "'Hiçbir peygambere, Allah'a beş özelliği ikrar etmeden peygamberlik verilmemiştir: el-Bedā', ilahi irade, secde, kulluk ve itaat.'",
+        "fa": "'هیچ پیامبری هرگز به نبوت مبعوث نشد مگر اینکه به پنج خصلت نزد خداوند اقرار کرد: بداء، مشیت، سجود، عبودیت و اطاعت.'",
+        "id": "'Tidak ada seorang pun nabi yang pernah diangkat menjadi nabi hingga ia mengakui kepada Allah lima karakteristik: al-Bada', kehendak ilahi, sujud, penghambaan, dan ketaatan.'",
+        "bn": "'কোনো নবী কখনো নবুওয়াত প্রাপ্ত হননি যতক্ষণ না তিনি আল্লাহর কাছে পাঁচটি বিষয় স্বীকার করেন: আল-বাদা', মাশি'আ, সুজুদ, উবুদিয়্যাহ এবং তা'আহ।'",
+        "es": "'Ningún profeta jamás recibió la profecía hasta que reconoció ante Dios cinco características: al-Bada', la voluntad divina, la postración, la servidumbre y la obediencia.'",
+        "fr": "« Aucun prophète n'a jamais reçu la prophétie avant d'avoir reconnu devant Dieu cinq caractéristiques : al-Badā', la volonté divine, la prosternation, la servitude et l'obéissance. »",
+        "de": "„Kein Prophet hat je das Prophetentum erhalten, bis er Gott gegenüber fünf Eigenschaften bekannte: al-Badā', den göttlichen Willen, die Niederwerfung, die Dienerschaft und den Gehorsam.\"",
+        "ru": "«Ни один пророк никогда не получал пророчества, пока не признавал перед Аллахом пять качеств: аль-Бадā', Воля, земной поклон, рабство и послушание».",
+        "zh": "\"任何先知从未获得先知之职，直到他向真主承认五种特质：白达、神圣意志、叩首、奴仆性和服从。\""
+      },
+      "arabic_text": "مَا تَنَبَّأَ نَبِيٌّ قَطُّ حَتَّى يُقِرَّ لِلَّهِ بِخَمْسِ خِصَالٍ بِالْبَدَاءِ وَ الْمَشِيئَةِ وَ السُّجُودِ وَ الْعُبُودِيَّةِ وَ الطَّاعَةِ"
+    }
+  ],
+  "isnad_matn": {
+    "isnad_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ بَعْضِ أَصْحَابِنَا عَنْ مُحَمَّدِ بْنِ عَمْرٍو الْكُوفِيِّ أَخِي يَحْيَى عَنْ مُرَازِمِ بْنِ حَكِيمٍ قَالَ",
+    "matn_ar": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) يَقُولُ مَا تَنَبَّأَ نَبِيٌّ قَطُّ حَتَّى يُقِرَّ لِلَّهِ بِخَمْسِ خِصَالٍ بِالْبَدَاءِ وَ الْمَشِيئَةِ وَ السُّجُودِ وَ الْعُبُودِيَّةِ وَ الطَّاعَةِ",
+    "has_chain": true,
+    "narrators": [
+      {
+        "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+        "name_en": "A number of our companions",
+        "role": "narrator",
+        "position": 1,
+        "identity_confidence": "ambiguous",
+        "ambiguity_note": "Collective anonymous group of al-Kulayni's direct companions; identities unspecified",
+        "known_identity": null,
+        "word_ranges": [{"start": 0, "end": 2, "source": "isnad"}]
+      },
+      {
+        "name_ar": "أَحْمَدُ بْنُ مُحَمَّدِ بْنِ خَالِدٍ",
+        "name_en": "Ahmad ibn Muhammad ibn Khalid",
+        "role": "narrator",
+        "position": 2,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Ahmad ibn Muhammad ibn Khalid al-Barqi (d. 274/887), prominent Shia muhaddith and author of al-Mahasin",
+        "word_ranges": [{"start": 4, "end": 8, "source": "isnad"}]
+      },
+      {
+        "name_ar": "بَعْضُ أَصْحَابِنَا",
+        "name_en": "some of our companions",
+        "role": "narrator",
+        "position": 3,
+        "identity_confidence": "ambiguous",
+        "ambiguity_note": "Anonymous intermediary narrator between al-Barqi and Muhammad ibn Amr; identity unspecified",
+        "known_identity": null,
+        "word_ranges": [{"start": 10, "end": 11, "source": "isnad"}]
+      },
+      {
+        "name_ar": "مُحَمَّدُ بْنُ عَمْرٍو الْكُوفِيُّ أَخُو يَحْيَى",
+        "name_en": "Muhammad ibn Amr al-Kufi, brother of Yahya",
+        "role": "narrator",
+        "position": 4,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Identified by fraternal relation to Yahya ibn Amr; limited independent biographical data",
+        "known_identity": "Muhammad ibn Amr al-Kufi, distinguished from others by his brother Yahya as a biographical marker",
+        "word_ranges": [{"start": 13, "end": 18, "source": "isnad"}]
+      },
+      {
+        "name_ar": "مُرَازِمُ بْنُ حَكِيمٍ",
+        "name_en": "Murazim ibn Hakim",
+        "role": "companion",
+        "position": 5,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Murazim ibn Hakim al-Azdi al-Madaini, trusted companion (thiqah) of Imam al-Sadiq (AS) and Imam al-Kazim (AS); direct narrator of this report",
+        "word_ranges": [{"start": 20, "end": 22, "source": "isnad"}]
+      }
+    ]
+  }
+}
+```
+
+---
+
+### Summary of all changes made
+
+| # | Field | Change |
+|---|-------|--------|
+| 1 | `word_analysis[5].translation.ur` | `"السلام"` → `"سلام"` — removed the Arabic definite article echo; Urdu uses bare `سلام` for "peace/salām" |
+| 2–5 | `word_analysis[17/19/21/23].translation.fa` | **No change** — `"و"` is genuinely the Persian conjunction for "and" (not an Arabic echo), so these entries are correct as-is |
+| 6 | `chunks` | Prepended a new `"chunk_type": "isnad"` chunk (with `word_start`/`word_end`: `null` since isnad words are outside `word_analysis`) covering all 11 languages, closing the 30% EN gap caused by the missing isnad section |
+| 7–11 | `isnad_matn.narrators[0–4]` | Added `"word_ranges"` to each narrator, referencing token positions within `isnad_ar` (0-indexed): companions 0–2, al-Barqi 4–8, anonymous 10–11, Ibn Amr al-Kufi 13–18, Murazim 20–22 |

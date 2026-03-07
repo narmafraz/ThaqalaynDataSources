@@ -1,0 +1,62 @@
+## Analysis of Flagged Issues
+
+**Issues 1–16 (LOW — arabic_echo):** All confirmed correct. Every flagged instance involves either genuine proper nouns (عَلِيُّ/علی/Ali, إِبْرَاهِيمَ, النَّوْفَلِيِّ, السَّكُونِيِّ, أَمِيرُ/امیر) or vocabulary shared between Arabic, Urdu, and Persian by virtue of borrowing (بن, عبد, و = "and"). No changes required.
+
+**Issue 17 (MEDIUM — chunk_translation_mismatch, bn):** The Bengali `chunk[0]` (isnad) translation is significantly more verbose than equivalent translations in all other languages. It repeats the subject pronoun `তিনি` (he/she) before every narrator link, inflating its length without adding meaning. Trimming this brings the concatenated Bengali chunk total into a range consistent with the verse-level reference. `chunk[1]` is accurate and concise — no change needed there.
+
+**Issue 18 (LOW — word_count_mismatch):** 47 words correctly include the isnad chain; the "29" baseline counts only the matn. No change required.
+
+**Issue 19 (LOW — narrator_word_range_mismatch):** The narrator Ibrahim ibn Hashim al-Qummi appears in the chain text as `أَبِيهِ` (his father), not by name. Word range `[4:5]` correctly points to this reference. No change required.
+
+---
+
+**Corrected field (only `chunks[0].translations.bn` changed):**
+
+```json
+{
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": 0,
+      "word_end": 18,
+      "translations": {
+        "en": "Ali ibn Ibrahim, from his father, from al-Nawfali, from al-Sakuni, from Abu Abdillah (Imam al-Sadiq), from his forefathers (peace be upon them), who said:",
+        "ur": "علی بن ابراہیم نے اپنے والد سے، انہوں نے النوفلی سے، انہوں نے السکونی سے، انہوں نے ابو عبداللہ (امام صادق) سے، انہوں نے اپنے آباء (علیہم السلام) سے روایت کی کہ انہوں نے فرمایا:",
+        "tr": "Ali ibn İbrahim, babasından, o en-Nevfelî'den, o es-Sekunî'den, o Ebû Abdillah'tan (İmam Sâdık), o atalarından (aleyhimüsselam) nakletmiştir ki şöyle buyurdu:",
+        "fa": "علی بن ابراهیم، از پدرش، از النوفلی، از السکونی، از ابوعبدالله (امام صادق)، از پدرانش (علیهم السلام) که فرمود:",
+        "id": "Ali ibn Ibrahim, dari ayahnya, dari al-Nawfali, dari al-Sakuni, dari Abu Abdillah (Imam al-Shadiq), dari para leluhurnya (alaihimussalam), yang berkata:",
+        "bn": "আলী ইবন ইব্রাহীম তাঁর পিতা থেকে, আন-নাওফালী থেকে, আস-সাকুনী থেকে, আবু আব্দুল্লাহ (ইমাম সাদিক) থেকে, তাঁর পূর্বপুরুষদের (আলাইহিমুস সালাম) থেকে বর্ণনা করেছেন, যিনি বলেছেন:",
+        "es": "Ali ibn Ibrahim, de su padre, de al-Nawfali, de al-Sakuni, de Abu Abdillah (Imam al-Sadiq), de sus antepasados (paz sobre ellos), quien dijo:",
+        "fr": "Ali ibn Ibrahim, de son père, de al-Nawfali, de al-Sakuni, d'Abu Abdillah (l'Imam al-Sadiq), de ses ancêtres (paix sur eux), qui dit :",
+        "de": "Ali ibn Ibrahim, von seinem Vater, von al-Nawfali, von al-Sakuni, von Abu Abdillah (Imam al-Sadiq), von seinen Vorfahren (Friede sei auf ihnen), der sagte:",
+        "ru": "Али ибн Ибрагим — от своего отца — от ан-Навфали — от ас-Сакуни — от Абу Абдиллаха (Имам ас-Садик) — от его предков (мир им) — кто сказал:",
+        "zh": "阿里·伊本·易卜拉欣，从其父，从诺法里，从萨库尼，从艾布·阿卜杜拉（伊玛目萨迪格），从其先祖（愿主赐他们平安）传述道："
+      },
+      "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ عَنْ آبَائِهِ عَلَيْهِمُ السَّلَامُ قَالَ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 18,
+      "word_end": 47,
+      "translations": {
+        "en": "Amir al-Mu'minin (peace be upon him) said: 'The sunnah is of two (types) — a sunnah regarding an obligation: adhering to it is guidance and neglecting it is straying; and a sunnah regarding other than an obligation: adhering to it is a virtue and neglecting it is not a sin.'",
+        "ur": "امیر المومنین (علیہ السلام) نے فرمایا: 'سنت دو قسم کی ہے — ایک سنت فریضے میں: اسے اختیار کرنا ہدایت ہے اور اسے چھوڑنا گمراہی ہے؛ اور ایک سنت غیرِ فریضے میں: اسے اختیار کرنا فضیلت ہے اور اسے چھوڑنا گناہ نہیں۔'",
+        "tr": "Emîru'l-Mü'minîn (aleyhisselam) buyurdu: 'Sünnet iki çeşittir — bir farz hakkındaki sünnet: ona uymak hidayettir ve onu terk etmek sapkınlıktır; farz olmayan hakkındaki sünnet: ona uymak bir fazilettir ve onu terk etmek günah değildir.'",
+        "fa": "امیرالمؤمنین (علیه السلام) فرمود: «سنت دو قسم است — سنتی در فریضه: عمل به آن هدایت است و ترک آن گمراهی؛ و سنتی در غیر فریضه: عمل به آن فضیلت است و ترک آن گناه نیست.»",
+        "id": "Amirul Mukminin (alaihissalam) berkata: 'Sunnah ada dua jenis — sunnah berkaitan kewajiban: mengikutinya adalah petunjuk dan meninggalkannya adalah kesesatan; sunnah berkaitan selain kewajiban: mengikutinya adalah keutamaan dan meninggalkannya bukan dosa.'",
+        "bn": "আমীরুল মুমিনীন (আলাইহিস সালাম) বললেন: 'সুন্নাহ দুই প্রকার — ফরজ বিষয়ে সুন্নাহ: তা পালন করা হেদায়েত এবং তা পরিত্যাগ করা পথভ্রষ্টতা; ফরজ ছাড়া অন্য বিষয়ে সুন্নাহ: তা পালন করা ফজিলত এবং তা পরিত্যাগ করা গুনাহ নয়।'",
+        "es": "El Amir al-Mu'minin (la paz sea con él) dijo: 'La sunna es de dos tipos — una sunna respecto a una obligación: adherirse a ella es guía y abandonarla es extravío; y una sunna respecto a algo distinto de una obligación: adherirse a ella es una virtud y abandonarla no es un pecado.'",
+        "fr": "L'Amir al-Mu'minin (paix sur lui) a dit : « La sunna est de deux types — une sunna concernant une obligation : s'y tenir est une guidance et la négliger est un égarement ; et une sunna concernant autre qu'une obligation : s'y tenir est une vertu et la négliger n'est pas un péché. »",
+        "de": "Amir al-Mu'minin (Friede sei auf ihm) sagte: 'Die Sunna ist zweierlei — eine Sunna bezüglich einer Pflicht: sie zu befolgen ist Rechtleitung und sie zu vernachlässigen ist Abirren; und eine Sunna bezüglich anderes als einer Pflicht: sie zu befolgen ist eine Tugend und sie zu vernachlässigen ist keine Sünde.'",
+        "ru": "Амир аль-Муминин (мир ему) сказал: «Сунна бывает двух видов — сунна в отношении обязательного: следование ей — прямой путь, а оставление её — заблуждение; сунна в отношении иного, чем обязательное: следование ей — достоинство, а оставление её — не грех.»",
+        "zh": "信士的领袖（愿主赐他平安）说：「圣行分为两种——关于义务的圣行：遵行它是引导，弃之则是迷误；关于非义务的圣行：遵行它是美德，弃之并非罪过。」"
+      },
+      "arabic_text": "قَالَ أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ السُّنَّةُ سُنَّتَانِ سُنَّةٌ فِي فَرِيضَةٍ الْأَخْذُ بِهَا هُدًى وَ تَرْكُهَا ضَلَالَةٌ وَ سُنَّةٌ فِي غَيْرِ فَرِيضَةٍ الْأَخْذُ بِهَا فَضِيلَةٌ وَ تَرْكُهَا إِلَى غَيْرِ خَطِيئَةٍ"
+    }
+  ]
+}
+```
+
+**Summary of changes made:**
+- **Issue 17 (MEDIUM) — `chunks[0].translations.bn`:** Removed the repeated subject pronoun `তিনি` before each narrator link (e.g., *"তিনি আন-নাওফালী থেকে, তিনি আস-সাকুনী থেকে…"* → *"আন-নাওফালী থেকে, আস-সাকুনী থেকে…"*) and tightened the closing clause from `"যে তিনি বলেছেন:"` to `"যিনি বলেছেন:"`, bringing the Bengali isnad length in line with equivalent translations in Farsi, English, and Arabic.
+- All other flagged issues (1–16, 18, 19): Confirmed correct as-is — no changes applied.
