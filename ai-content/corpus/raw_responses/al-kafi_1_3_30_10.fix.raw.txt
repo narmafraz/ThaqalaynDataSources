@@ -1,0 +1,988 @@
+Analyzing all flagged issues:
+
+- **Issues 1–30 (LOW, arabic_echo):** All flagged words are proper nouns (personal names: Ali, Muhammad, Ibrahim, Yunus, Isa, Salih, Sahl), or Arabic loanwords/theological terms (بن, عبد, الرحمن, بعض, جبر, قدر, و) that are legitimately identical in Urdu and Persian script. **No text change needed** — these are correct.
+- **Issue 31 (MEDIUM, chunk_translation_mismatch bn):** The body chunk's Bengali translation contains inflated, inaccurate phrasing: redundant `আছে`, unsupported `মধ্যম` (middle) added to `অবস্থান`, and `মধ্যবর্তী সত্য নিহিত` ("between-truth is hidden") which misrenders the Arabic `فِيهَا الْحَقُّ الَّتِي بَيْنَهُمَا` ("in it is the Truth which is between the two"). **Fix applied.**
+- **Issue 32 (LOW, word_count_mismatch):** Acknowledged informational note; word_analysis correctly includes the full isnad chain. **No change needed.**
+
+```json
+{
+  "word_analysis": [
+    {
+      "word": "عَلِيُّ",
+      "pos": "N",
+      "translation": {
+        "en": "Ali",
+        "ur": "علی",
+        "tr": "Ali",
+        "fa": "علی",
+        "id": "Ali",
+        "bn": "আলী",
+        "es": "Ali",
+        "fr": "Ali",
+        "de": "Ali",
+        "ru": "Али",
+        "zh": "阿里"
+      }
+    },
+    {
+      "word": "بْنُ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "oğlu",
+        "fa": "پسر",
+        "id": "putra",
+        "bn": "পুত্র",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "сын",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "إِبْرَاهِيمَ",
+      "pos": "N",
+      "translation": {
+        "en": "Ibrahim",
+        "ur": "ابراہیم",
+        "tr": "İbrahim",
+        "fa": "ابراهیم",
+        "id": "Ibrahim",
+        "bn": "ইবরাহীম",
+        "es": "Ibrahim",
+        "fr": "Ibrahim",
+        "de": "Ibrahim",
+        "ru": "Ибрагим",
+        "zh": "易卜拉欣"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "مُحَمَّدِ",
+      "pos": "N",
+      "translation": {
+        "en": "Muhammad",
+        "ur": "محمد",
+        "tr": "Muhammed",
+        "fa": "محمد",
+        "id": "Muhammad",
+        "bn": "মুহাম্মাদ",
+        "es": "Muhammad",
+        "fr": "Muhammad",
+        "de": "Muhammad",
+        "ru": "Мухаммад",
+        "zh": "穆罕默德"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "oğlu",
+        "fa": "پسر",
+        "id": "putra",
+        "bn": "পুত্র",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "сына",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "عِيسَى",
+      "pos": "N",
+      "translation": {
+        "en": "Isa",
+        "ur": "عیسیٰ",
+        "tr": "İsa",
+        "fa": "عیسی",
+        "id": "Isa",
+        "bn": "ঈসা",
+        "es": "Isa",
+        "fr": "Isa",
+        "de": "Isa",
+        "ru": "尔萨",
+        "zh": "尔萨"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "يُونُسَ",
+      "pos": "N",
+      "translation": {
+        "en": "Yunus",
+        "ur": "یونس",
+        "tr": "Yunus",
+        "fa": "یونس",
+        "id": "Yunus",
+        "bn": "ইউনুস",
+        "es": "Yunus",
+        "fr": "Yunus",
+        "de": "Yunus",
+        "ru": "Юнус",
+        "zh": "优努斯"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "oğlu",
+        "fa": "پسر",
+        "id": "putra",
+        "bn": "পুত্র",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "сына",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "عَبْدِ",
+      "pos": "N",
+      "translation": {
+        "en": "Abd",
+        "ur": "عبد",
+        "tr": "Abd",
+        "fa": "عبد",
+        "id": "Abd",
+        "bn": "আব্দ",
+        "es": "Abd",
+        "fr": "Abd",
+        "de": "Abd",
+        "ru": "Абд",
+        "zh": "阿卜德"
+      }
+    },
+    {
+      "word": "الرَّحْمَنِ",
+      "pos": "N",
+      "translation": {
+        "en": "al-Rahman",
+        "ur": "الرحمن",
+        "tr": "er-Rahman",
+        "fa": "الرحمن",
+        "id": "al-Rahman",
+        "bn": "আর-রহমান",
+        "es": "al-Rahman",
+        "fr": "al-Rahman",
+        "de": "al-Rahman",
+        "ru": "ар-Рахман",
+        "zh": "慈悲者"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "صَالِحِ",
+      "pos": "N",
+      "translation": {
+        "en": "Salih",
+        "ur": "صالح",
+        "tr": "Salih",
+        "fa": "صالح",
+        "id": "Salih",
+        "bn": "সালিহ",
+        "es": "Salih",
+        "fr": "Salih",
+        "de": "Salih",
+        "ru": "Салих",
+        "zh": "萨利赫"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "oğlu",
+        "fa": "پسر",
+        "id": "putra",
+        "bn": "পুত্র",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "سына",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "سَهْلٍ",
+      "pos": "N",
+      "translation": {
+        "en": "Sahl",
+        "ur": "سہل",
+        "tr": "Sehl",
+        "fa": "سهل",
+        "id": "Sahl",
+        "bn": "সাহল",
+        "es": "Sahl",
+        "fr": "Sahl",
+        "de": "Sahl",
+        "ru": "萨赫勒",
+        "zh": "萨赫勒"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "بَعْضِ",
+      "pos": "N",
+      "translation": {
+        "en": "some of",
+        "ur": "بعض",
+        "tr": "bazısından",
+        "fa": "بعضی از",
+        "id": "sebagian dari",
+        "bn": "কিছু",
+        "es": "algunos de",
+        "fr": "certains de",
+        "de": "einige von",
+        "ru": "некоторых",
+        "zh": "某些"
+      }
+    },
+    {
+      "word": "أَصْحَابِهِ",
+      "pos": "N",
+      "translation": {
+        "en": "his companions",
+        "ur": "اس کے اصحاب",
+        "tr": "ashabından",
+        "fa": "اصحابش",
+        "id": "para sahabatnya",
+        "bn": "তাঁর সাহাবীদের",
+        "es": "sus compañeros",
+        "fr": "ses compagnons",
+        "de": "seinen Gefährten",
+        "ru": "его сподвижников",
+        "zh": "其同伴们"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "أَبِي",
+      "pos": "N",
+      "translation": {
+        "en": "Abu",
+        "ur": "ابو",
+        "tr": "Ebu",
+        "fa": "ابو",
+        "id": "Abu",
+        "bn": "আবু",
+        "es": "Abu",
+        "fr": "Abou",
+        "de": "Abu",
+        "ru": "Абу",
+        "zh": "艾布"
+      }
+    },
+    {
+      "word": "عَبْدِ",
+      "pos": "N",
+      "translation": {
+        "en": "Abd",
+        "ur": "عبد",
+        "tr": "Abd",
+        "fa": "عبد",
+        "id": "Abd",
+        "bn": "আব্দ",
+        "es": "Abd",
+        "fr": "Abd",
+        "de": "Abd",
+        "ru": "Абд",
+        "zh": "阿卜德"
+      }
+    },
+    {
+      "word": "اللَّهِ",
+      "pos": "N",
+      "translation": {
+        "en": "God",
+        "ur": "اللہ",
+        "tr": "Allah",
+        "fa": "خدا",
+        "id": "Allah",
+        "bn": "আল্লাহ",
+        "es": "Dios",
+        "fr": "Dieu",
+        "de": "Gottes",
+        "ru": "Аллаха",
+        "zh": "真主"
+      }
+    },
+    {
+      "word": "عَلَيْهِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "upon him",
+        "ur": "اس پر",
+        "tr": "onun üzerine",
+        "fa": "بر او",
+        "id": "atasnya",
+        "bn": "তাঁর উপর",
+        "es": "sobre él",
+        "fr": "sur lui",
+        "de": "auf ihm",
+        "ru": "на нём",
+        "zh": "愿主赐其"
+      }
+    },
+    {
+      "word": "السَّلَامُ",
+      "pos": "N",
+      "translation": {
+        "en": "peace",
+        "ur": "سلام",
+        "tr": "selam",
+        "fa": "سلام",
+        "id": "salam",
+        "bn": "সালাম",
+        "es": "la paz",
+        "fr": "la paix",
+        "de": "der Friede",
+        "ru": "мир",
+        "zh": "平安"
+      }
+    },
+    {
+      "word": "قَالَ",
+      "pos": "V",
+      "translation": {
+        "en": "he said",
+        "ur": "اس نے کہا",
+        "tr": "dedi",
+        "fa": "گفت",
+        "id": "berkata",
+        "bn": "তিনি বললেন",
+        "es": "dijo",
+        "fr": "dit-il",
+        "de": "er sagte",
+        "ru": "он сказал",
+        "zh": "他说"
+      }
+    },
+    {
+      "word": "سُئِلَ",
+      "pos": "V",
+      "translation": {
+        "en": "he was asked",
+        "ur": "اس سے پوچھا گیا",
+        "tr": "soruldu",
+        "fa": "از او پرسیده شد",
+        "id": "ditanyakan kepadanya",
+        "bn": "তাঁকে জিজ্ঞেস করা হলো",
+        "es": "fue preguntado",
+        "fr": "il fut interrogé",
+        "de": "er wurde gefragt",
+        "ru": "его спросили",
+        "zh": "被问及"
+      }
+    },
+    {
+      "word": "عَنِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "about",
+        "ur": "کے بارے میں",
+        "tr": "hakkında",
+        "fa": "درباره",
+        "id": "tentang",
+        "bn": "সম্পর্কে",
+        "es": "acerca de",
+        "fr": "au sujet de",
+        "de": "über",
+        "ru": "о",
+        "zh": "关于"
+      }
+    },
+    {
+      "word": "الْجَبْرِ",
+      "pos": "N",
+      "translation": {
+        "en": "compulsion (jabr)",
+        "ur": "جبر",
+        "tr": "cebr",
+        "fa": "جبر",
+        "id": "jabr",
+        "bn": "জবর",
+        "es": "la compulsión (jabr)",
+        "fr": "la contrainte (jabr)",
+        "de": "dem Zwang (Jabr)",
+        "ru": "принуждении (джабр)",
+        "zh": "强迫论（贾布尔）"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "与"
+      }
+    },
+    {
+      "word": "الْقَدَرِ",
+      "pos": "N",
+      "translation": {
+        "en": "pre-determination (qadar)",
+        "ur": "قدر",
+        "tr": "kader",
+        "fa": "قدر",
+        "id": "qadar",
+        "bn": "কদর",
+        "es": "la predeterminación (qadar)",
+        "fr": "la prédétermination (qadar)",
+        "de": "der Vorherbestimmung (Qadar)",
+        "ru": "предопределении (кадар)",
+        "zh": "前定论（盖德尔）"
+      }
+    },
+    {
+      "word": "فَقَالَ",
+      "pos": "V",
+      "translation": {
+        "en": "so he said",
+        "ur": "پس آپؑ نے فرمایا",
+        "tr": "bunun üzerine buyurdu",
+        "fa": "پس فرمود",
+        "id": "lalu beliau bersabda",
+        "bn": "তখন তিনি বললেন",
+        "es": "entonces dijo",
+        "fr": "alors il dit",
+        "de": "dann sagte er",
+        "ru": "тогда он сказал",
+        "zh": "于是他说"
+      }
+    },
+    {
+      "word": "لَا",
+      "pos": "NEG",
+      "translation": {
+        "en": "neither",
+        "ur": "نہیں",
+        "tr": "ne",
+        "fa": "نه",
+        "id": "tidak ada",
+        "bn": "না",
+        "es": "ni",
+        "fr": "ni",
+        "de": "weder",
+        "ru": "нет",
+        "zh": "没有"
+      }
+    },
+    {
+      "word": "جَبْرَ",
+      "pos": "N",
+      "translation": {
+        "en": "compulsion",
+        "ur": "جبر",
+        "tr": "cebr",
+        "fa": "جبر",
+        "id": "jabr",
+        "bn": "জবর",
+        "es": "compulsión",
+        "fr": "contrainte",
+        "de": "Zwang",
+        "ru": "принуждения",
+        "zh": "强迫"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "也无"
+      }
+    },
+    {
+      "word": "لَا",
+      "pos": "NEG",
+      "translation": {
+        "en": "neither",
+        "ur": "نہیں",
+        "tr": "ne",
+        "fa": "نه",
+        "id": "tidak ada",
+        "bn": "না",
+        "es": "ni",
+        "fr": "ni",
+        "de": "kein",
+        "ru": "нет",
+        "zh": "没有"
+      }
+    },
+    {
+      "word": "قَدَرَ",
+      "pos": "N",
+      "translation": {
+        "en": "pre-determination",
+        "ur": "قدر",
+        "tr": "kader",
+        "fa": "قدر",
+        "id": "qadar",
+        "bn": "কদর",
+        "es": "predeterminación",
+        "fr": "prédétermination",
+        "de": "Vorherbestimmung",
+        "ru": "предопределения",
+        "zh": "前定"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "而"
+      }
+    },
+    {
+      "word": "لَكِنْ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "however",
+        "ur": "لیکن",
+        "tr": "lakin",
+        "fa": "لیکن",
+        "id": "akan tetapi",
+        "bn": "কিন্তু",
+        "es": "sin embargo",
+        "fr": "cependant",
+        "de": "jedoch",
+        "ru": "однако",
+        "zh": "然而"
+      }
+    },
+    {
+      "word": "مَنْزِلَةٌ",
+      "pos": "N",
+      "translation": {
+        "en": "a station/position",
+        "ur": "ایک مقام ہے",
+        "tr": "bir konum",
+        "fa": "مرتبه‌ای",
+        "id": "suatu kedudukan",
+        "bn": "একটি মধ্যম অবস্থান",
+        "es": "una posición",
+        "fr": "une station",
+        "de": "eine Stufe",
+        "ru": "положение",
+        "zh": "一个位置"
+      }
+    },
+    {
+      "word": "بَيْنَهُمَا",
+      "pos": "PREP",
+      "translation": {
+        "en": "between the two",
+        "ur": "ان دونوں کے درمیان",
+        "tr": "ikisi arasında",
+        "fa": "میان آن دو",
+        "id": "di antara keduanya",
+        "bn": "উভয়ের মাঝে",
+        "es": "entre los dos",
+        "fr": "entre les deux",
+        "de": "zwischen beiden",
+        "ru": "между ними двумя",
+        "zh": "在两者之间"
+      }
+    },
+    {
+      "word": "فِيهَا",
+      "pos": "PREP",
+      "translation": {
+        "en": "in it/therein",
+        "ur": "اس میں",
+        "tr": "içinde",
+        "fa": "در آن",
+        "id": "di dalamnya",
+        "bn": "যার মধ্যে",
+        "es": "en ella",
+        "fr": "en laquelle",
+        "de": "in ihr",
+        "ru": "в ней",
+        "zh": "其中"
+      }
+    },
+    {
+      "word": "الْحَقُّ",
+      "pos": "N",
+      "translation": {
+        "en": "the Truth",
+        "ur": "حق",
+        "tr": "Hak",
+        "fa": "حق",
+        "id": "Kebenaran",
+        "bn": "সত্য",
+        "es": "la Verdad",
+        "fr": "la Vérité",
+        "de": "die Wahrheit",
+        "ru": "Истина",
+        "zh": "真理"
+      }
+    },
+    {
+      "word": "الَّتِي",
+      "pos": "REL",
+      "translation": {
+        "en": "which",
+        "ur": "جو",
+        "tr": "ki",
+        "fa": "که",
+        "id": "yang",
+        "bn": "যা",
+        "es": "que",
+        "fr": "qui",
+        "de": "die",
+        "ru": "которая",
+        "zh": "这"
+      }
+    },
+    {
+      "word": "بَيْنَهُمَا",
+      "pos": "PREP",
+      "translation": {
+        "en": "between the two",
+        "ur": "ان دونوں کے درمیان",
+        "tr": "ikisi arasında",
+        "fa": "میان آن دو",
+        "id": "di antara keduanya",
+        "bn": "উভয়ের মাঝে",
+        "es": "entre los dos",
+        "fr": "entre les deux",
+        "de": "zwischen beiden",
+        "ru": "между ними",
+        "zh": "在两者之间"
+      }
+    },
+    {
+      "word": "لَا",
+      "pos": "NEG",
+      "translation": {
+        "en": "no one",
+        "ur": "کوئی نہیں",
+        "tr": "kimse",
+        "fa": "کسی نه",
+        "id": "tidak ada yang",
+        "bn": "কেউ না",
+        "es": "nadie",
+        "fr": "nul",
+        "de": "niemand",
+        "ru": "никто",
+        "zh": "无人"
+      }
+    },
+    {
+      "word": "يَعْلَمُهَا",
+      "pos": "V",
+      "translation": {
+        "en": "knows it",
+        "ur": "اسے جانتا ہے",
+        "tr": "onu bilir",
+        "fa": "آن را می‌داند",
+        "id": "mengetahuinya",
+        "bn": "তা জানে",
+        "es": "la conoce",
+        "fr": "la connaît",
+        "de": "kennt sie",
+        "ru": "знает её",
+        "zh": "知晓此理"
+      }
+    },
+    {
+      "word": "إِلَّا",
+      "pos": "PART",
+      "translation": {
+        "en": "except",
+        "ur": "سوائے",
+        "tr": "ancak",
+        "fa": "مگر",
+        "id": "kecuali",
+        "bn": "ব্যতীত",
+        "es": "excepto",
+        "fr": "sinon",
+        "de": "außer",
+        "ru": "кроме",
+        "zh": "除了"
+      }
+    },
+    {
+      "word": "الْعَالِمُ",
+      "pos": "N",
+      "translation": {
+        "en": "the Knowledgeable One (the Imam)",
+        "ur": "عالِم (امام)",
+        "tr": "Alim (İmam)",
+        "fa": "عالِم (امام)",
+        "id": "Yang Berilmu (Imam)",
+        "bn": "জ্ঞানীজন (ইমাম)",
+        "es": "el Sabio (el Imam)",
+        "fr": "le Savant (l'Imam)",
+        "de": "der Wissende (Imam)",
+        "ru": "Знающий (Имам)",
+        "zh": "知者（伊玛目）"
+      }
+    },
+    {
+      "word": "أَوْ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "or",
+        "ur": "یا",
+        "tr": "ya da",
+        "fa": "یا",
+        "id": "atau",
+        "bn": "অথবা",
+        "es": "o",
+        "fr": "ou",
+        "de": "oder",
+        "ru": "или",
+        "zh": "或"
+      }
+    },
+    {
+      "word": "مَنْ",
+      "pos": "REL",
+      "translation": {
+        "en": "one who/whoever",
+        "ur": "جو شخص",
+        "tr": "kişi",
+        "fa": "کسی که",
+        "id": "siapa yang",
+        "bn": "যে",
+        "es": "quien",
+        "fr": "celui qui",
+        "de": "wem",
+        "ru": "кому",
+        "zh": "那些"
+      }
+    },
+    {
+      "word": "عَلَّمَهَا",
+      "pos": "V",
+      "translation": {
+        "en": "taught it",
+        "ur": "اسے سکھایا",
+        "tr": "onu öğretti",
+        "fa": "آن را آموخت",
+        "id": "mengajarkannya",
+        "bn": "তা শেখালেন",
+        "es": "se la enseñó",
+        "fr": "l'a enseignée",
+        "de": "es lehrte",
+        "ru": "научил её",
+        "zh": "教导了他"
+      }
+    },
+    {
+      "word": "إِيَّاهُ",
+      "pos": "PRON",
+      "translation": {
+        "en": "to him",
+        "ur": "اسے",
+        "tr": "ona",
+        "fa": "به او",
+        "id": "kepadanya",
+        "bn": "তাকে",
+        "es": "a él",
+        "fr": "à lui",
+        "de": "ihm",
+        "ru": "ему",
+        "zh": "他"
+      }
+    },
+    {
+      "word": "الْعَالِمُ",
+      "pos": "N",
+      "translation": {
+        "en": "the Knowledgeable One (the Imam)",
+        "ur": "عالِم (امام)",
+        "tr": "Alim (İmam)",
+        "fa": "عالِم (امام)",
+        "id": "Yang Berilmu (Imam)",
+        "bn": "জ্ঞানীজন (ইমাম)",
+        "es": "el Sabio (el Imam)",
+        "fr": "le Savant (l'Imam)",
+        "de": "der Wissende (Imam)",
+        "ru": "Знающий (Имам)",
+        "zh": "知者（伊玛目）"
+      }
+    }
+  ],
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": 0,
+      "word_end": 26,
+      "translations": {
+        "en": "Ali ibn Ibrahim, from Muhammad ibn Isa, from Yunus ibn Abd al-Rahman, from Salih ibn Sahl, from some of his companions, from Abu Abdillah (peace be upon him), who said:",
+        "ur": "علی بن ابراہیم، محمد بن عیسیٰ سے، یونس بن عبدالرحمن سے، صالح بن سہل سے، ان کے بعض اصحاب سے، ابو عبداللہ علیہ السلام سے روایت ہے کہ آپؑ نے فرمایا:",
+        "tr": "Ali ibn İbrahim'den, Muhammed ibn İsa'dan, Yunus ibn Abdurrahman'dan, Salih ibn Sehl'den, onun ashabından bazısından, Ebu Abdillah (aleyhisselam)'dan rivayet edildi ki o dedi:",
+        "fa": "علی بن ابراهیم از محمد بن عیسی از یونس بن عبدالرحمن از صالح بن سهل از برخی از اصحابش از ابوعبدالله علیه‌السلام روایت کرد که فرمود:",
+        "id": "Ali ibn Ibrahim, dari Muhammad ibn Isa, dari Yunus ibn Abd al-Rahman, dari Salih ibn Sahl, dari sebagian sahabatnya, dari Abu Abdillah (AS), beliau berkata:",
+        "bn": "আলী ইবনে ইবরাহীম, মুহাম্মাদ ইবনে ঈসা থেকে, ইউনুস ইবনে আব্দুর রহমান থেকে, সালিহ ইবনে সাহল থেকে, তাঁর কিছু সাহাবী থেকে, আবু আব্দিল্লাহ (আলাইহিস সালাম) থেকে বর্ণিত হয়েছে, তিনি বললেন:",
+        "es": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus ibn Abd al-Rahman, de Salih ibn Sahl, de algunos de sus compañeros, de Abu Abdillah (la paz sea con él), quien dijo:",
+        "fr": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus ibn Abd al-Rahman, de Salih ibn Sahl, de certains de ses compagnons, d'Abu Abdillah (paix sur lui), qui dit :",
+        "de": "Ali ibn Ibrahim, von Muhammad ibn Isa, von Yunus ibn Abd al-Rahman, von Salih ibn Sahl, von einigen seiner Gefährten, von Abu Abdillah (Friede sei mit ihm), der sagte:",
+        "ru": "Али ибн Ибрагим, от Мухаммада ибн Исы, от Юнуса ибн Абд ар-Рахмана, от Салиха ибн Сахля, от некоторых его сподвижников, от Абу Абдиллаха (мир ему), который сказал:",
+        "zh": "阿里·伊本·易卜拉欣，从穆罕默德·伊本·尔萨，从优努斯·伊本·阿卜杜·拉赫曼，从萨利赫·伊本·萨赫勒，从其部分同伴，从艾布·阿卜杜拉（愿主赐其平安）传述，他说："
+      },
+      "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ عَنْ صَالِحِ بْنِ سَهْلٍ عَنْ بَعْضِ أَصْحَابِهِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 26,
+      "word_end": 54,
+      "translations": {
+        "en": "He was asked about compulsion (jabr) and pre-determination (qadar). So he said: 'There is neither compulsion nor pre-determination; but there is a station between the two, in which lies the Truth that is between the two. None knows it except the Knowledgeable One (the Imam), or one whom the Knowledgeable One has taught it.'",
+        "ur": "اس سے جبر اور قدر کے بارے میں پوچھا گیا۔ پس آپؑ نے فرمایا: نہ جبر ہے اور نہ قدر، بلکہ ان دونوں کے درمیان ایک مقام ہے جس میں وہ حق ہے جو ان دونوں کے درمیان ہے۔ اسے کوئی نہیں جانتا مگر عالِم، یا وہ جسے عالِم نے یہ تعلیم دی ہو۔",
+        "tr": "Kendisine cebr ve kader hakkında soruldu. Bunun üzerine buyurdu: 'Ne cebr vardır ne de kader; fakat ikisi arasında bir konum vardır ki içinde ikisi arasındaki Hak mevcuttur. Onu ancak Alim (İmam) bilir ya da Alim'in bizzat öğrettiği kişi.'",
+        "fa": "از او درباره جبر و قدر پرسیده شد. پس فرمود: نه جبر است و نه قدر، بلکه مرتبه‌ای میان آن دو است که در آن حق میان آن دو نهفته است. کسی آن را نمی‌داند مگر عالِم، یا کسی که عالِم آن را به او آموخته باشد.",
+        "id": "Beliau ditanya tentang jabr dan qadar. Lalu beliau bersabda: 'Tidak ada jabr dan tidak ada qadar; melainkan ada suatu kedudukan di antara keduanya yang di dalamnya terdapat Kebenaran yang ada di antara keduanya. Tidak ada yang mengetahuinya kecuali Yang Berilmu (Imam), atau orang yang diajarkan oleh Yang Berilmu.'",
+        "bn": "তাঁকে জবর ও কদর সম্পর্কে জিজ্ঞেস করা হলো। তখন তিনি বললেন: 'না জবর আছে, না কদর; বরং উভয়ের মাঝে একটি অবস্থান রয়েছে যার মধ্যে সেই সত্য রয়েছে যা উভয়ের মাঝে। তা কেবল জ্ঞানীজন (ইমাম) জানেন, অথবা যাকে জ্ঞানীজন শিক্ষা দিয়েছেন।'",
+        "es": "Le fue preguntado sobre la compulsión (jabr) y la predeterminación (qadar). Entonces dijo: 'No hay compulsión ni predeterminación; sino una posición intermedia entre ambas en la que se halla la Verdad que existe entre las dos. Nadie la conoce excepto el Sabio (el Imam), o aquel a quien el Sabio le ha enseñado.'",
+        "fr": "Il fut interrogé sur la contrainte (jabr) et la prédétermination (qadar). Alors il dit : 'Il n'y a ni contrainte ni prédétermination ; mais il y a une station entre les deux, en laquelle se trouve la Vérité qui est entre elles. Nul ne la connaît sinon le Savant (l'Imam), ou celui à qui le Savant l'a enseignée.'",
+        "de": "Er wurde über Zwang (Jabr) und Vorherbestimmung (Qadar) befragt. Dann sagte er: 'Es gibt weder Zwang noch Vorherbestimmung; sondern es gibt eine Stufe zwischen ihnen beiden, in der die Wahrheit liegt, die zwischen den beiden ist. Niemand kennt sie außer dem Wissenden (dem Imam) oder demjenigen, dem der Wissende sie gelehrt hat.'",
+        "ru": "Его спросили о принуждении (джабр) и предопределении (кадар). Тогда он сказал: 'Нет ни принуждения, ни предопределения; но есть положение между ними двумя, в котором содержится Истина, пролегающая между ними. Никто не знает её, кроме Знающего (Имама), или того, кому Знающий её преподал.'",
+        "zh": "被问及强迫（贾布尔）与前定（盖德尔）之事，他答道：'既无强迫，也无前定；而是在两者之间有一个位置，其中蕴含着介于两者之间的真理。除了知者（伊玛目）之外，无人知晓此理，或只有知者亲自教导的人才能知晓。'"
+      },
+      "arabic_text": "سُئِلَ عَنِ الْجَبْرِ وَ الْقَدَرِ فَقَالَ لَا جَبْرَ وَ لَا قَدَرَ وَ لَكِنْ مَنْزِلَةٌ بَيْنَهُمَا فِيهَا الْحَقُّ الَّتِي بَيْنَهُمَا لَا يَعْلَمُهَا إِلَّا الْعَالِمُ أَوْ مَنْ عَلَّمَهَا إِيَّاهُ الْعَالِمُ"
+    }
+  ]
+}
+```
+
+---
+
+**Summary of changes made:**
+
+**Issue 31 — `chunks[1].translations.bn` (MEDIUM, the only substantive fix):**
+
+Three inaccuracies in the body chunk Bengali translation were corrected:
+
+| Location | Before | After | Reason |
+|---|---|---|---|
+| Negation phrase | `না জবর আছে, না কদর আছে` | `না জবর আছে, না কদর` | Redundant second `আছে` removed; Arabic `لَا جَبْرَ وَ لَا قَدَرَ` does not repeat the verb |
+| `مَنْزِلَةٌ` rendering | `একটি মধ্যম অবস্থান` | `একটি অবস্থান` | `মধ্যম` ("middle/intermediate") is an addition not present in the Arabic; the betweenness is already expressed by `বَيْنَهُمَا` |
+| `الْحَقُّ الَّتِي بَيْنَهُمَا` rendering | `উভয়ের মধ্যবর্তী সত্য নিহিত` | `সেই সত্য রয়েছে যা উভয়ের মাঝে` | `নিহিত` ("hidden/embedded") misrepresents `فِيهَا الْحَقُّ` ("in it is the Truth"); restructured as a relative clause faithfully mirroring the Arabic |
+
+**Issues 1–30 (LOW, arabic_echo):** No changes made. All flagged `ur`/`fa` values are proper personal names (علی، محمد، ابراهیم، یونس، عیسی، صالح، سهل) or Islamic theological terms (`بن`، `عبد`، `الرحمن`، `بعض`، `جبر`، `قدر`، `و`) legitimately shared between Arabic, Urdu, and Persian scripts. These are correct as-is.
+
+**Issue 32 (LOW, word_count_mismatch):** No change made. The 54-word count correctly reflects full isnad tokenization per the suggestion.

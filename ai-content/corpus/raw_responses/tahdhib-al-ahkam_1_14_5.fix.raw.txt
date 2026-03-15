@@ -1,0 +1,397 @@
+**Analysis of flagged issues:**
+
+- **Issues 1, 2, 3, 4 (LOW):** All verified as correct. "المفيد" is a proper name used in Urdu in Arabic script; "[رحمه الله]" is a standard religious formula used in Farsi in Arabic script; "رمضان" is a proper noun shared identically in Urdu and Farsi. No changes needed.
+- **Issue 5 (HIGH):** "وَلَازَمَهُ" incorrectly merges two distinct words from the original — the conjunction "وَ" and the verb "لَازَمَهُ". These must be split into separate word_analysis entries.
+
+```json
+{
+  "word_analysis": [
+    {
+      "word": "حَضَرَ",
+      "pos": "V",
+      "translation": {
+        "en": "he attended",
+        "ur": "حاضر ہوا",
+        "tr": "hazır bulundu",
+        "fa": "حاضر شد",
+        "id": "hadir",
+        "bn": "উপস্থিত হলেন",
+        "es": "asistió",
+        "fr": "assista",
+        "de": "war anwesend",
+        "ru": "присутствовал",
+        "zh": "出席"
+      }
+    },
+    {
+      "word": "عِنْدَ",
+      "pos": "PREP",
+      "translation": {
+        "en": "with/at",
+        "ur": "پاس",
+        "tr": "yanında",
+        "fa": "نزد",
+        "id": "di sisi",
+        "bn": "কাছে",
+        "es": "junto a",
+        "fr": "auprès de",
+        "de": "bei",
+        "ru": "при",
+        "zh": "在…身边"
+      }
+    },
+    {
+      "word": "الشَّيْخِ",
+      "pos": "N",
+      "translation": {
+        "en": "the Shaykh",
+        "ur": "شیخ کے",
+        "tr": "Şeyhin",
+        "fa": "شیخِ",
+        "id": "Syaikh",
+        "bn": "শায়খের",
+        "es": "del Shaykh",
+        "fr": "du Cheikh",
+        "de": "des Scheichs",
+        "ru": "шейха",
+        "zh": "谢赫"
+      }
+    },
+    {
+      "word": "الْمُفِيدِ",
+      "pos": "N",
+      "translation": {
+        "en": "al-Mufid",
+        "ur": "المفید",
+        "tr": "el-Müfid",
+        "fa": "مفید",
+        "id": "al-Mufid",
+        "bn": "আল-মুফিদের",
+        "es": "al-Mufid",
+        "fr": "al-Mufid",
+        "de": "al-Mufid",
+        "ru": "аль-Муфида",
+        "zh": "穆菲德"
+      }
+    },
+    {
+      "word": "نَحْوًا",
+      "pos": "N",
+      "translation": {
+        "en": "approximately",
+        "ur": "تقریباً",
+        "tr": "yaklaşık",
+        "fa": "تقریباً",
+        "id": "sekitar",
+        "bn": "প্রায়",
+        "es": "aproximadamente",
+        "fr": "environ",
+        "de": "ungefähr",
+        "ru": "около",
+        "zh": "约"
+      }
+    },
+    {
+      "word": "مِنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "of",
+        "ur": "سے",
+        "tr": "kadar",
+        "fa": "از",
+        "id": "dari",
+        "bn": "এর",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "的"
+      }
+    },
+    {
+      "word": "خَمْسِ",
+      "pos": "N",
+      "translation": {
+        "en": "five",
+        "ur": "پانچ",
+        "tr": "beş",
+        "fa": "پنج",
+        "id": "lima",
+        "bn": "পাঁচ",
+        "es": "cinco",
+        "fr": "cinq",
+        "de": "fünf",
+        "ru": "пяти",
+        "zh": "五"
+      }
+    },
+    {
+      "word": "سِنِينَ",
+      "pos": "N",
+      "translation": {
+        "en": "years",
+        "ur": "سال",
+        "tr": "yıl",
+        "fa": "سال",
+        "id": "tahun",
+        "bn": "বছর",
+        "es": "años",
+        "fr": "ans",
+        "de": "Jahre",
+        "ru": "лет",
+        "zh": "年"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "并"
+      }
+    },
+    {
+      "word": "لَازَمَهُ",
+      "pos": "V",
+      "translation": {
+        "en": "remained with him",
+        "ur": "ان کے ساتھ ملازم رہے",
+        "tr": "onunla kaldı",
+        "fa": "همراهش ماند",
+        "id": "tetap bersamanya",
+        "bn": "তাঁর সাথে থাকলেন",
+        "es": "permaneció con él",
+        "fr": "resta à ses côtés",
+        "de": "blieb bei ihm",
+        "ru": "оставался с ним",
+        "zh": "陪伴其左右"
+      }
+    },
+    {
+      "word": "إِلَى",
+      "pos": "PREP",
+      "translation": {
+        "en": "until",
+        "ur": "یہاں تک",
+        "tr": "ta ki",
+        "fa": "تا",
+        "id": "hingga",
+        "bn": "যতক্ষণ",
+        "es": "hasta",
+        "fr": "jusqu'à ce que",
+        "de": "bis",
+        "ru": "до",
+        "zh": "直至"
+      }
+    },
+    {
+      "word": "أَنْ",
+      "pos": "PART",
+      "translation": {
+        "en": "that",
+        "ur": "کہ",
+        "tr": "ki",
+        "fa": "که",
+        "id": "bahwa",
+        "bn": "যে",
+        "es": "que",
+        "fr": "que",
+        "de": "dass",
+        "ru": "того что",
+        "zh": ""
+      }
+    },
+    {
+      "word": "تُوُفِّيَ",
+      "pos": "V",
+      "translation": {
+        "en": "he passed away",
+        "ur": "وفات پا گئے",
+        "tr": "vefat etti",
+        "fa": "درگذشت",
+        "id": "wafat",
+        "bn": "ইন্তেকাল করলেন",
+        "es": "falleció",
+        "fr": "il décéda",
+        "de": "er verstarb",
+        "ru": "он скончался",
+        "zh": "归真"
+      }
+    },
+    {
+      "word": "[رَحِمَهُ اللَّهُ]",
+      "pos": "PART",
+      "translation": {
+        "en": "[may God have mercy on him]",
+        "ur": "[رحمہ اللہ]",
+        "tr": "[rahimehullah]",
+        "fa": "[رحمه الله]",
+        "id": "[rahimahullah]",
+        "bn": "[রহিমাহুল্লাহ]",
+        "es": "[que Dios se apiade de él]",
+        "fr": "[que Dieu lui accorde Sa miséricorde]",
+        "de": "[möge Gott ihm gnädig sein]",
+        "ru": "[да помилует его Аллах]",
+        "zh": "[愿主慈悯之]"
+      }
+    },
+    {
+      "word": "لِثَلَاثِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "on [the] three",
+        "ur": "تین پر",
+        "tr": "üç",
+        "fa": "در سه",
+        "id": "tiga",
+        "bn": "তিন",
+        "es": "en [las] tres",
+        "fr": "trois",
+        "de": "drei",
+        "ru": "три",
+        "zh": "在三"
+      }
+    },
+    {
+      "word": "لَيَالٍ",
+      "pos": "N",
+      "translation": {
+        "en": "nights",
+        "ur": "راتیں",
+        "tr": "gece",
+        "fa": "شب",
+        "id": "malam",
+        "bn": "রাত",
+        "es": "noches",
+        "fr": "nuits",
+        "de": "Nächte",
+        "ru": "ночи",
+        "zh": "夜"
+      }
+    },
+    {
+      "word": "خَلَوْنَ",
+      "pos": "V",
+      "translation": {
+        "en": "had passed",
+        "ur": "گزرنے پر",
+        "tr": "geçmiş olan",
+        "fa": "گذشته",
+        "id": "yang telah berlalu",
+        "bn": "অতিবাহিত হওয়ার পর",
+        "es": "que habían transcurrido",
+        "fr": "écoulées",
+        "de": "die verstrichen waren",
+        "ru": "прошедших",
+        "zh": "之后"
+      }
+    },
+    {
+      "word": "مِنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "of",
+        "ur": "کے",
+        "tr": "ayının",
+        "fa": "از",
+        "id": "dari",
+        "bn": "এর",
+        "es": "de",
+        "fr": "du",
+        "de": "des",
+        "ru": "из",
+        "zh": "的"
+      }
+    },
+    {
+      "word": "شَهْرِ",
+      "pos": "N",
+      "translation": {
+        "en": "month of",
+        "ur": "ماہِ",
+        "tr": "ayı",
+        "fa": "ماه",
+        "id": "bulan",
+        "bn": "মাস",
+        "es": "mes de",
+        "fr": "mois de",
+        "de": "Monats",
+        "ru": "месяца",
+        "zh": "月份"
+      }
+    },
+    {
+      "word": "رَمَضَانَ",
+      "pos": "N",
+      "translation": {
+        "en": "Ramadan",
+        "ur": "رمضان",
+        "tr": "Ramazan",
+        "fa": "رمضان",
+        "id": "Ramadan",
+        "bn": "রমজান",
+        "es": "Ramadán",
+        "fr": "Ramadan",
+        "de": "Ramadan",
+        "ru": "Рамадана",
+        "zh": "斋月"
+      }
+    },
+    {
+      "word": "سَنَةَ",
+      "pos": "N",
+      "translation": {
+        "en": "in the year",
+        "ur": "سنہ",
+        "tr": "yılında",
+        "fa": "سال",
+        "id": "tahun",
+        "bn": "সনে",
+        "es": "del año",
+        "fr": "de l'an",
+        "de": "des Jahres",
+        "ru": "в году",
+        "zh": "年"
+      }
+    },
+    {
+      "word": "٤١٣",
+      "pos": "N",
+      "translation": {
+        "en": "413 AH",
+        "ur": "413 ہجری",
+        "tr": "413 H.",
+        "fa": "413 هجری",
+        "id": "413 H",
+        "bn": "৪১৩ হি.",
+        "es": "413 H.",
+        "fr": "413 H.",
+        "de": "413 n.H.",
+        "ru": "413 г.х.",
+        "zh": "四一三年"
+      }
+    }
+  ]
+}
+```
+
+---
+
+**Summary of changes made:**
+
+| Issue | Action |
+|---|---|
+| #1 LOW – `word_analysis[3].translation.ur` = "المفید" | ✅ **No change** — "المفید" is the correct Urdu rendering of the proper name *al-Mufid*, universally used in Arabic script in Urdu biographical literature. |
+| #2 LOW – `word_analysis[12].translation.fa` = "[رحمه الله]" | ✅ **No change** — This is the standard Arabic-script form of the *rahimahullah* formula used identically in Persian texts. |
+| #3 LOW – `word_analysis[18].translation.ur` = "رمضان" | ✅ **No change** — "رمضان" is the proper Urdu spelling of *Ramadan*, shared with Arabic. |
+| #4 LOW – `word_analysis[18].translation.fa` = "رمضان" | ✅ **No change** — "رمضان" is the standard Farsi spelling of *Ramadan*, shared with Arabic. |
+| **#5 HIGH** – `word_analysis[8]` was "وَلَازَمَهُ" | ✅ **Fixed** — Split into two entries: **"وَ"** (CONJ, "and") and **"لَازَمَهُ"** (V, "remained with him"), matching the two distinct words in the original Arabic text *و لازمه*. |

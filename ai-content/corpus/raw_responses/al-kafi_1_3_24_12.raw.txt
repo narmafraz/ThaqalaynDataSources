@@ -1,38 +1,52 @@
 ```json
 {
-  "diacritized_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ لَوْ عَلِمَ النَّاسُ مَا فِي الْقَوْلِ بِالْبَدَاءِ مِنَ الْأَجْرِ مَا فَتَرُوا عَنِ الْكَلَامِ فِيهِ",
+  "diacritized_text": "عَلِيٌّ عَنْ مُحَمَّدٍ عَنْ يُونُسَ عَنْ مَالِكٍ الْجُهَنِيِّ قَالَ سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ لَوْ عَلِمَ النَّاسُ مَا فِي الْقَوْلِ بِالْبَدَاءِ مِنَ الْأَجْرِ مَا فَتَرُوا عَنِ الْكَلَامِ فِيهِ",
   "diacritics_status": "completed",
   "diacritics_changes": [
-    {"word": "عليه", "before": "عليه", "after": "عَلَيْهِ", "note": "Added full tashkeel to honorific preposition+pronoun"},
-    {"word": "السلام", "before": "السلام", "after": "السَّلَامُ", "note": "Added full tashkeel to honorific noun"}
+    {"word": "عَلِيٌّ", "note": "Added full tashkeel to narrator name in isnad"},
+    {"word": "مُحَمَّدٍ", "note": "Added full tashkeel to narrator name in isnad"},
+    {"word": "يُونُسَ", "note": "Added full tashkeel to narrator name in isnad"},
+    {"word": "مَالِكٍ الْجُهَنِيِّ", "note": "Added full tashkeel to narrator name and nisba in isnad"},
+    {"word": "قَالَ", "note": "Added tashkeel to verb in isnad"},
+    {"word": "عَلَيْهِ السَّلَامُ", "note": "Completed diacritics on honorific (was bare 'عليه السلام' without tashkeel in source)"}
   ],
   "word_analysis": [
-    ["سَمِعْتُ", "V", "I heard", "میں نے سنا", "duydum", "شنیدم", "aku mendengar", "আমি শুনেছি", "escuché", "j'ai entendu", "ich hörte", "я слышал", "我听到"],
-    ["أَبَا", "N", "Abu (father of; part of kunya)", "ابو", "Ebu", "ابو", "Abu", "আবু", "Abu", "Abou", "Abu", "Абу", "艾布"],
-    ["عَبْدِ", "N", "servant of (Abd; part of kunya)", "عبد", "Abd", "عبد", "Abd", "আবদ", "Abd", "Abd", "Abd", "Абд", "阿卜德"],
-    ["اللَّهِ", "N", "God", "اللہ", "Allah", "خدا", "Allah", "আল্লাহ", "Allah", "Allah", "Allah", "Аллаха", "安拉"],
-    ["عَلَيْهِ", "PREP", "upon him", "ان پر", "üzerine", "بر او", "atasnya", "তাঁর উপর", "sobre él", "sur lui", "auf ihm", "на него", "在他身上"],
-    ["السَّلَامُ", "N", "peace", "سلام", "selam", "سلام", "keselamatan", "সালাম", "la paz", "la paix", "Friede", "мир", "平安"],
-    ["يَقُولُ", "V", "saying", "فرماتے ہوئے", "şöyle diyordu", "می‌فرمود", "berkata", "বলছেন", "diciendo", "disant", "sagend", "говоря", "说道"],
-    ["لَوْ", "COND", "if", "اگر", "eğer", "اگر", "seandainya", "যদি", "si", "si", "wenn", "если бы", "若"],
-    ["عَلِمَ", "V", "knew", "جانتے", "bilselerdi", "می‌دانستند", "mengetahui", "জানত", "supieran", "savaient", "wüssten", "знали бы", "知道"],
-    ["النَّاسُ", "N", "the people", "لوگ", "insanlar", "مردم", "orang-orang", "মানুষ", "la gente", "les gens", "die Menschen", "люди", "人们"],
-    ["مَا", "PRON", "what", "کیا/جو", "ne", "چه", "apa", "কী", "qué", "ce que", "was", "что", "什么"],
-    ["فِي", "PREP", "in", "میں", "içinde", "در", "dalam", "মধ্যে", "en", "dans", "in", "в", "在"],
-    ["الْقَوْلِ", "N", "the speech", "قول/گفتگو", "söz/konuşma", "سخن/گفتار", "ucapan", "কথা বলায়", "el hablar", "la parole", "das Sprechen", "речи", "言说"],
-    ["بِالْبَدَاءِ", "N", "about al-bada' (divine change of decree)", "بداء کے بارے میں", "el-beda' hakkında", "درباره بداء", "tentang al-bada'", "বাদা' সম্পর্কে", "sobre el bada'", "sur le bada'", "über al-bada'", "о бада'", "关于"巴达""],
-    ["مِنَ", "PREP", "of", "سے/کا", "olan", "از", "dari", "থেকে", "de", "de", "von", "из", "的"],
-    ["الْأَجْرِ", "N", "the recompense", "اجر/ثواب", "mükâfat", "پاداش", "pahala", "পুরস্কার", "la recompensa", "la récompense", "der Lohn", "воздаяния", "回报"],
-    ["مَا", "NEG", "not", "نہیں", "değil", "نه", "tidak", "না", "no", "ne … pas", "nicht", "не", "不"],
-    ["فَتَرُوا", "V", "they would slacken", "سست پڑتے", "geri durmazlardı", "سست می‌شدند", "mereka tidak akan lemah", "তারা শিথিল হত", "cesarían", "ils se relâcheraient", "würden sie nachlassen", "они бы ослабли", "懈怠"],
-    ["عَنِ", "PREP", "from", "سے", "-den", "از", "dari", "থেকে বিরত", "de", "de", "von", "от", "离开"],
-    ["الْكَلَامِ", "N", "the discourse", "گفتگو/کلام", "konuşmaktan", "سخن گفتن", "pembicaraan", "আলোচনা", "el hablar de ello", "d'en parler", "das Reden", "речей", "谈论"],
-    ["فِيهِ", "PREP", "about it", "اس کے بارے میں", "onun hakkında", "درباره آن", "tentangnya", "সে বিষয়ে", "al respecto", "à son sujet", "darüber", "о нём", "关于它"]
+    ["عَلِيٌّ","N","Ali","علی","Ali","علی","Ali","আলী","Ali","Ali","Ali","Али","阿里"],
+    ["عَنْ","PREP","from","سے","hakkında","از","dari","থেকে","de","de","von","от","从"],
+    ["مُحَمَّدٍ","N","Muhammad","محمد","Muhammed","محمد","Muhammad","মুহাম্মদ","Muhammad","Muhammad","Muhammad","Мухаммада","穆罕默德"],
+    ["عَنْ","PREP","from","سے","hakkında","از","dari","থেকে","de","de","von","от","从"],
+    ["يُونُسَ","N","Yunus","یونس","Yunus","یونس","Yunus","ইউনুস","Yunus","Yunus","Yunus","Юнуса","优努斯"],
+    ["عَنْ","PREP","from","سے","hakkında","از","dari","থেকে","de","de","von","от","从"],
+    ["مَالِكٍ","N","Malik","مالک","Malik","مالک","Malik","মালিক","Malik","Malik","Malik","Малика","马利克"],
+    ["الْجُهَنِيِّ","N","al-Juhani","الجہنی","el-Cüheni","الجهنی","al-Juhani","আল-জুহানী","al-Juhani","al-Juhani","al-Juhani","аль-Джухани","祝赫尼"],
+    ["قَالَ","V","he said","اس نے کہا","dedi","گفت","berkata","বলেছেন","dijo","a dit","sagte","сказал","他说"],
+    ["سَمِعْتُ","V","I heard","میں نے سنا","işittim","شنیدم","aku mendengar","আমি শুনেছি","escuché","j'ai entendu","ich hörte","я слышал","我听到"],
+    ["أَبَا","N","Abu (father of)","ابو","Ebu","ابو","Abu","আবু","Abu","Abu","Abu","Абу","阿布"],
+    ["عَبْدِ","N","'Abd (servant of)","عبد","Abd","عبد","Abd","আব্দ","'Abd","'Abd","'Abd","Абда","阿卜德"],
+    ["اللَّهِ","N","God","اللہ","Allah","خدا","Allah","আল্লাহ","Allah","Allah","Allahs","Аллаха","真主"],
+    ["عَلَيْهِ","PREP","upon him","اس پر","ona","بر او","atasnya","তাঁর উপর","sobre él","sur lui","auf ihm","на него","其上"],
+    ["السَّلَامُ","N","peace","سلام","selam","سلام","salam","শান্তি","la paz","la paix","Friede","мир","平安"],
+    ["يَقُولُ","V","saying","فرماتے ہوئے","söylemekte","می‌فرمود","berkata","বলছিলেন","diciendo","disant","sagend","говоря","说道"],
+    ["لَوْ","COND","if","اگر","eğer","اگر","seandainya","যদি","si","si","wenn","если","若"],
+    ["عَلِمَ","V","knew","جانتے","bilseydi","می‌دانستند","mengetahui","জানত","supieran","savaient","wüssten","знали","知晓"],
+    ["النَّاسُ","N","the people","لوگ","insanlar","مردم","manusia","মানুষেরা","la gente","les gens","die Menschen","люди","众人"],
+    ["مَا","PRON","what","جو کچھ","ne","آنچه","apa","যা কিছু","lo que","ce qui","was","что","何事"],
+    ["فِي","PREP","in","میں","içinde","در","dalam","মধ্যে","en","dans","in","в","在"],
+    ["الْقَوْلِ","N","the speech/affirming","قول میں","söz","سخن","perkataan","কথায়","la afirmación","la parole","der Aussage","речи","言谈"],
+    ["بِالْبَدَاءِ","N","about al-Bada'","بداء کے بارے میں","Bedā' hakkında","درباره بداء","tentang al-Bada'","বাদা' সম্পর্কে","sobre al-Bada'","au sujet du Badā'","über al-Badā'","о Бадāʾ","关于白达欧"],
+    ["مِنَ","PREP","of","سے","içinden","از","dari","থেকে","de","de","von","из","之"],
+    ["الْأَجْرِ","N","the reward","اجر/ثواب","ecirden","اجر","pahala","পুরস্কারের","la recompensa","la récompense","des Lohnes","награды","回报"],
+    ["مَا","NEG","not","نہیں","değil","نه","tidak","না","no","ne … pas","nicht","не","绝不"],
+    ["فَتَرُوا","V","they would languish/slacken","وہ سست پڑ جاتے","gevşerlerdi","سستی می‌کردند","berhenti","বিরত হত","desistirían","ne cesseraient","würden ablassen","переставали бы","懈怠"],
+    ["عَنِ","PREP","from","سے","hakkında","از","dari","থেকে","de","de","von","от","关于"],
+    ["الْكَلَامِ","N","the speaking/discourse","بات/کلام","konuşmaktan","صحبت","pembicaraan","আলোচনা","hablar","parler","Sprechen","разговора","谈论"],
+    ["فِيهِ","PREP","about it","اس کے بارے میں","onun hakkında","درباره آن","tentangnya","এ বিষয়ে","al respecto","à son sujet","darüber","о нём","关于此事"]
   ],
-  "tags": ["theology", "knowledge", "prophetic_tradition"],
+  "tags": ["theology", "knowledge"],
   "content_type": "theological",
   "related_quran": [
-    {"ref": "13:39", "relationship": "thematic"}
+    {"ref": "13:39", "relationship": "thematic"},
+    {"ref": "2:106", "relationship": "thematic"}
   ],
   "isnad_matn": {
     "isnad_ar": "عَلِيٌّ عَنْ مُحَمَّدٍ عَنْ يُونُسَ عَنْ مَالِكٍ الْجُهَنِيِّ قَالَ",
@@ -45,241 +59,234 @@
         "role": "narrator",
         "position": 1,
         "identity_confidence": "likely",
-        "ambiguity_note": "Multiple narrators named Ali in al-Kafi chains; likely Ali ibn Ibrahim al-Qummi based on chain structure and proximity to Yunus ibn Abd al-Rahman",
-        "known_identity": "Ali ibn Ibrahim al-Qummi (likely)"
+        "ambiguity_note": "The reference translation specifies 'Ali Bin Muhammad'; likely a senior transmitter at the top of al-Kafi's chain, possibly 'Ali ibn Muhammad al-Barqi or similar.",
+        "known_identity": "'Ali ibn Muhammad (senior transmitter in al-Kafi chains)",
+        "word_ranges": [{"word_start": 0, "word_end": 1}]
       },
       {
-        "name_ar": "مُحَمَّدٌ",
+        "name_ar": "مُحَمَّدٍ",
         "name_en": "Muhammad",
         "role": "narrator",
         "position": 2,
         "identity_confidence": "ambiguous",
-        "ambiguity_note": "Several narrators named Muhammad appear in al-Kafi; could be Muhammad ibn Yahya al-Attar or Muhammad ibn al-Husayn; the English reference collapses 'Ali' and 'Muhammad' as one name (Ali ibn Muhammad) but the Arabic isnad uses explicit عَنْ between them",
-        "known_identity": null
+        "ambiguity_note": "Muhammad is extremely common; insufficient specificity to identify without broader chain context.",
+        "known_identity": null,
+        "word_ranges": [{"word_start": 2, "word_end": 3}]
       },
       {
-        "name_ar": "يُونُسُ",
+        "name_ar": "يُونُسَ",
         "name_en": "Yunus",
         "role": "narrator",
         "position": 3,
         "identity_confidence": "likely",
-        "ambiguity_note": null,
-        "known_identity": "Yunus ibn Abd al-Rahman, a prominent and reliable narrator in al-Kafi chains"
+        "ambiguity_note": "Likely Yunus ibn Abd al-Rahman, a major and prolific transmitter in al-Kafi's chains from the era of Imam al-Sadiq (AS).",
+        "known_identity": "Yunus ibn Abd al-Rahman",
+        "word_ranges": [{"word_start": 4, "word_end": 5}]
       },
       {
-        "name_ar": "مَالِكٌ الْجُهَنِيُّ",
-        "name_en": "Malik al-Juhni",
+        "name_ar": "مَالِكٍ الْجُهَنِيِّ",
+        "name_en": "Malik al-Juhani",
         "role": "companion",
         "position": 4,
         "identity_confidence": "definite",
         "ambiguity_note": null,
-        "known_identity": "Malik ibn Ayan al-Juhni, a companion of Imam al-Sadiq (AS)"
+        "known_identity": "Malik ibn A'yan al-Juhani, a close companion of Imam Ja'far al-Sadiq (AS)",
+        "word_ranges": [{"word_start": 6, "word_end": 8}]
       },
       {
-        "name_ar": "أَبُو عَبْدِ اللَّهِ",
-        "name_en": "Abu Abd Allah (Imam Ja'far al-Sadiq)",
+        "name_ar": "أَبَا عَبْدِ اللَّهِ",
+        "name_en": "Abu Abdillah",
         "role": "imam",
         "position": 5,
         "identity_confidence": "definite",
         "ambiguity_note": null,
-        "known_identity": "Imam Ja'far ibn Muhammad al-Sadiq (AS), the 6th Imam",
-        "word_ranges": [{"word_start": 1, "word_end": 6}]
+        "known_identity": "Imam Ja'far ibn Muhammad al-Sadiq (AS), the 6th Imam of the Twelver Shia",
+        "word_ranges": [{"word_start": 10, "word_end": 13}]
       }
     ]
   },
   "translations": {
     "en": {
-      "text": "I heard Abu ʿAbd Allah (peace be upon him) saying: 'If the people knew what recompense lies in the speech about al-bada', they would not slacken from discoursing about it.'",
-      "summary": "Imam Ja'far al-Sadiq (AS) declares that if people truly grasped the immense spiritual reward in speaking about and affirming al-bada' — God's sovereign prerogative to alter His decrees — they would never cease their discourse on the subject. This hadith positions al-bada' as one of the most significant theological concepts in Shia Islam; its very discussion is framed as a meritorious act carrying great divine recompense, encouraging believers to engage actively in this theological tradition.",
+      "text": "I heard Abu Abdillah (peace be upon him) saying: 'If the people knew what reward lies in speaking about al-Bada', they would not languish from speaking about it.'",
+      "summary": "This hadith from Imam Ja'far al-Sadiq (AS) urges believers to engage with and affirm the doctrine of al-Bada' — the Shia theological principle affirming God's sovereign freedom to manifest new decisions and alter apparent decrees, not from ignorance but as an expression of absolute power. The Imam underscores the immense spiritual reward attached to discussing this doctrine, implying that the community's neglect of this topic results in a significant loss of divine merit.",
       "key_terms": {
-        "الْبَدَاءِ": "al-bada': God's sovereign prerogative to alter or revoke divine decrees; a core Shia theological concept affirming God's absolute freedom in governance, distinct from mere predetermination",
-        "الْأَجْرِ": "recompense; spiritual reward granted by God for religious speech and pious action",
-        "فَتَرُوا": "they would slacken/languish; to weaken or cease in one's religious resolve or activity",
-        "الْكَلَامِ": "discourse; sustained theological speech and scholarly discussion"
+        "الْبَدَاءِ": "al-Bada': the Shia theological doctrine of God's sovereign freedom to alter His apparent decrees, a manifestation of absolute divine power (not ignorance)",
+        "الْأَجْرِ": "reward, divine recompense, spiritual merit",
+        "فَتَرُوا": "they would languish, slacken, grow weary and cease"
       },
-      "seo_question": "What did Imam al-Sadiq say about the spiritual reward for speaking about al-bada' in Shia Islam?"
+      "seo_question": "What did Imam al-Sadiq (AS) say about the spiritual reward for speaking about al-Bada' in al-Kafi?"
     },
     "ur": {
-      "text": "میں نے ابوعبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا: 'اگر لوگ جانتے کہ بداء کے بارے میں گفتگو کرنے میں کتنا اجر ہے، تو وہ اس کے بارے میں کلام کرنے سے ہرگز سست نہ پڑتے۔'",
-      "summary": "امام جعفر صادق (علیہ السلام) نے فرمایا کہ اگر لوگوں کو بداء کے بارے میں کلام کرنے کا حقیقی اجر معلوم ہو جائے، تو وہ اس بحث کو کبھی ترک نہ کریں۔ بداء شیعہ عقیدے کا ایک بنیادی اصول ہے جو اللہ کی مطلق قدرت اور اپنے فیصلوں میں تبدیلی کے حق پر دلالت کرتا ہے، اور اس حدیث میں اس پر گفتگو کو بذاتِ خود عظیم ثواب کا ذریعہ قرار دیا گیا ہے۔",
+      "text": "میں نے ابو عبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا: 'اگر لوگ جانتے کہ بداء کے بارے میں گفتگو کرنے میں کتنا اجر ہے، تو وہ اس کے بارے میں بات کرنے سے ہرگز سست نہ پڑتے۔'",
+      "summary": "اس حدیث میں امام جعفر صادق (علیہ السلام) نے بداء کے عقیدے کے بارے میں گفتگو کرنے کی عظیم فضیلت بیان فرمائی ہے۔ بداء اللہ کی مطلق قدرت کا اظہار ہے — یعنی اللہ اپنی مشیت سے احکام و تقادیر میں تغیر فرما سکتا ہے، اور اس پر گفتگو کرنا عظیم ثواب کا باعث ہے۔",
       "key_terms": {
-        "الْبَدَاءِ": "بداء: اللہ کا اپنے احکام اور تقدیر میں تبدیلی کا اختیار؛ شیعہ کلام کا بنیادی عقیدہ",
-        "الْأَجْرِ": "اجر: دینی گفتگو اور نیک عمل پر ملنے والا روحانی ثواب",
-        "فَتَرُوا": "سست پڑنا: کسی نیک کام یا دینی سعی سے رک جانا یا کمزور پڑ جانا",
-        "الْكَلَامِ": "کلام: دینی گفتگو اور علمی بحث"
+        "الْبَدَاءِ": "بداء: اللہ کی مطلق قدرت کے اظہار کے طور پر تقادیر میں تغیر کا شیعہ عقیدہ",
+        "الْأَجْرِ": "اجر، ثواب، الٰہی صلہ",
+        "فَتَرُوا": "سست پڑ جاتے، باز رہتے، چھوڑ دیتے"
       },
-      "seo_question": "امام صادق نے بداء کے بارے میں گفتگو کرنے کے اجر کے بارے میں کیا فرمایا؟"
+      "seo_question": "امام صادق (علیہ السلام) نے بداء کے بارے میں گفتگو کرنے کے اجر کے متعلق کیا فرمایا؟"
     },
     "tr": {
-      "text": "Ebu Abdillah'ı (aleyhisselam) şöyle söylerken duydum: 'Eğer insanlar el-beda' hakkında konuşmadaki mükâfatı bilselerdi, onun hakkında konuşmaktan asla geri durmazlardı.'",
-      "summary": "İmam Cafer el-Sadık (AS), insanların el-beda' hakkında konuşmanın büyük manevi mükâfatını bilmeleri halinde bu konudaki söylemi hiç bırakmayacaklarını ifade etmektedir. El-beda', Allah'ın kendi hükümlerini dilediği zaman değiştirme hakkını ve mutlak iradesini vurgulayan temel bir Şia kelam doktrinidir; bu hadis, konunun tartışılmasını başlı başına ibadet değeri taşıyan bir eylem olarak konumlandırmaktadır.",
+      "text": "Ebu Abdillah'ı (aleyhisselam) şöyle derken işittim: 'Eğer insanlar Bedā' hakkında konuşmanın ne kadar sevap taşıdığını bilselerdi, onun hakkında konuşmaktan asla geri durmazlardı.'",
+      "summary": "Bu hadis, İmam Cafer es-Sadık'ın (a.s.) Bedā' doktrinini — Allah'ın mutlak kudretinin bir tezahürü olarak kaderini ezeli ilmiyle çelişmeksizin değiştirebileceğine dair Şii teolojik anlayışını — konuşmanın büyük sevabına dikkat çektiği bir öğretidir. İmam, bu konuyu ihmal etmenin önemli bir manevi kayba yol açtığını vurgulamaktadır.",
       "key_terms": {
-        "الْبَدَاءِ": "el-beda': Allah'ın kaderî hükümleri değiştirme egemenliği; Şia kelamında temel bir inanç",
-        "الْأَجْرِ": "mükâfat; dinî söylem ve eylem karşılığında verilen manevi ödül",
-        "فَتَرُوا": "geri durmak/gevşemek; dinî kararlılıktan ya da faaliyetten vazgeçmek",
-        "الْكَلَامِ": "söylem; kelam ilmi tartışması ve teolojik konuşma"
+        "الْبَدَاءِ": "Bedā': Allah'ın mutlak kudretinin tecellisi olarak kaderini değiştirebileceğine dair Şii doktrini",
+        "الْأَجْرِ": "sevap, ilahi ödül, manevi mükâfat",
+        "فَتَرُوا": "geri dururlardı, gevşerlerdi, konuşmayı bırakırlardı"
       },
-      "seo_question": "İmam Sadık, el-beda' hakkında konuşmanın manevi mükâfatı hakkında ne söyledi?"
+      "seo_question": "İmam Sadık (a.s.) Bedā' hakkında konuşmanın sevabı hakkında ne söylemiştir?"
     },
     "fa": {
-      "text": "از ابو عبدالله (علیه السلام) شنیدم که می‌فرمود: «اگر مردم می‌دانستند که در سخن گفتن درباره بداء چه پاداشی نهفته است، هرگز از سخن گفتن درباره آن سست نمی‌شدند.»",
-      "summary": "امام جعفر صادق (علیه السلام) بیان می‌فرمایند که اگر مردم از پاداش عظیم سخن گفتن درباره بداء آگاه بودند، هرگز از این بحث دست نمی‌کشیدند. بداء از اصول مهم کلام شیعی است که بر اختیار مطلق خداوند در تغییر احکام تقدیری تأکید می‌کند، و این حدیث خود گفتگو درباره آن را عملی دارای ثواب فراوان معرفی می‌کند.",
+      "text": "شنیدم که ابو عبدالله (علیه السلام) می‌فرمود: «اگر مردم می‌دانستند که در سخن گفتن درباره بداء چه اجری نهفته است، هرگز از صحبت درباره آن سستی نمی‌کردند.»",
+      "summary": "این حدیث از امام جعفر صادق (علیه السلام) مؤمنان را به بحث و تأیید عقیده بداء — که بیانگر قدرت مطلق خداوند در تغییر مقدرات ظاهری است — ترغیب می‌کند. امام بر ثواب عظیم این بحث تأکید می‌فرماید و تلویحاً نشان می‌دهد که بی‌توجهی به این موضوع موجب از دست رفتن اجر معنوی فراوان می‌شود.",
       "key_terms": {
-        "الْبَدَاءِ": "بداء: اختیار مطلق خداوند در تغییر احکام تقدیری؛ اصلی بنیادین در کلام شیعه",
-        "الْأَجْرِ": "پاداش؛ ثواب معنوی در برابر سخن و عمل دینی",
-        "فَتَرُوا": "سست شدن؛ کوتاهی و ضعف در عزم دینی",
-        "الْكَلَامِ": "کلام؛ گفتار علمی و بحث کلامی"
+        "الْبَدَاءِ": "بداء: عقیده شیعی درباره قدرت مطلق خداوند بر تغییر مقدرات ظاهری",
+        "الْأَجْرِ": "اجر، پاداش الهی، ثواب",
+        "فَتَرُوا": "سستی می‌کردند، باز می‌ایستادند، دست می‌کشیدند"
       },
-      "seo_question": "امام صادق درباره پاداش سخن گفتن از بداء چه فرمودند؟"
+      "seo_question": "امام صادق (علیه السلام) درباره ثواب صحبت کردن درباره بداء در کتاب کافی چه فرمود؟"
     },
     "id": {
-      "text": "Aku mendengar Abu ʿAbd Allah (AS) berkata: 'Seandainya orang-orang mengetahui pahala apa yang terdapat dalam membicarakan al-bada', mereka tidak akan lemah dalam membicarakannya.'",
-      "summary": "Imam Ja'far al-Sadiq (AS) menyatakan bahwa seandainya umat memahami besarnya pahala dalam membicarakan al-bada' — hak prerogatif Allah dalam mengubah ketetapan — mereka tidak akan pernah berhenti mendiskusikannya. Hadis ini menegaskan pentingnya al-bada' dalam teologi Syiah dan menempatkan pembahasan tentangnya sebagai amal yang bernilai ibadah.",
+      "text": "Aku mendengar Abu Abdillah (aleyhisselam) berkata: 'Seandainya manusia mengetahui pahala apa yang terdapat dalam membicarakan al-Bada', niscaya mereka tidak akan berhenti membicarakannya.'",
+      "summary": "Hadis ini dari Imam Ja'far al-Shadiq (AS) mendorong kaum mukminin untuk membahas dan menegaskan doktrin al-Bada' — keyakinan teologis Syiah bahwa Allah dapat mengubah ketetapan-Nya sebagai manifestasi kekuasaan mutlak-Nya, bukan karena ketidaktahuan. Imam menekankan besarnya pahala yang terkait dengan pembahasan doktrin ini, menyiratkan bahwa mengabaikannya berarti kehilangan pahala spiritual yang sangat besar.",
       "key_terms": {
-        "الْبَدَاءِ": "al-bada': hak prerogatif Allah untuk mengubah ketetapan ilahi; konsep teologis inti dalam Syiah",
-        "الْأَجْرِ": "pahala; ganjaran spiritual atas ucapan dan amal keagamaan",
-        "فَتَرُوا": "melemah/lalai; berhenti atau melemah dalam keteguhan keagamaan",
-        "الْكَلَامِ": "wacana; pembicaraan teologis dan diskusi keilmuan"
+        "الْبَدَاءِ": "al-Bada': doktrin Syiah tentang kemampuan Allah mengubah ketetapan-Nya sebagai manifestasi kekuasaan mutlak-Nya",
+        "الْأَجْرِ": "pahala, ganjaran ilahi, imbalan spiritual",
+        "فَتَرُوا": "berhenti, melemah, enggan berbicara"
       },
-      "seo_question": "Apa yang dikatakan Imam al-Sadiq tentang pahala membicarakan al-bada' dalam Islam Syiah?"
+      "seo_question": "Apa yang dikatakan Imam al-Shadiq (AS) tentang pahala berbicara mengenai al-Bada' dalam al-Kafi?"
     },
     "bn": {
-      "text": "আমি আবু আবদিল্লাহ (আ.স.) কে বলতে শুনেছি: 'যদি মানুষ জানত যে বাদা' সম্পর্কে কথা বলায় কী পুরস্কার রয়েছে, তাহলে তারা এ বিষয়ে কথা বলা থেকে কখনো বিরত হত না।'",
-      "summary": "ইমাম জাফর আস-সাদিক (আ.স.) ঘোষণা করেছেন যে, মানুষ যদি বাদা' সম্পর্কে কথা বলার মহান আধ্যাত্মিক পুরস্কার সম্পর্কে সচেতন হত, তাহলে এ বিষয়ে আলোচনা কখনো বন্ধ করত না। শিয়া ধর্মতত্ত্বে বাদা' একটি মৌলিক ধারণা যা আল্লাহর তাঁর ফয়সালা পরিবর্তন করার সার্বভৌম ক্ষমতাকে বোঝায়।",
+      "text": "আমি আবু আব্দিল্লাহকে (আলাইহিস সালাম) বলতে শুনেছি: 'যদি মানুষেরা জানত যে বাদা' সম্পর্কে কথা বলার মধ্যে কী পরিমাণ পুরস্কার রয়েছে, তাহলে তারা এ বিষয়ে আলোচনা থেকে কখনো বিরত হত না।'",
+      "summary": "ইমাম জাফর আস-সাদিক (আ.স.)-এর এই হাদিসে বাদা' — আল্লাহর পরম ক্ষমতার প্রকাশ হিসেবে তাঁর সিদ্ধান্ত পরিবর্তন করার শিয়া আকীদা — সম্পর্কে আলোচনার মহান পুরস্কারের কথা উল্লেখ করা হয়েছে। ইমাম বলেন যে মানুষ এই পুরস্কার সম্পর্কে অজ্ঞ থাকার কারণে এ বিষয়ে যথেষ্ট কথা বলে না।",
       "key_terms": {
-        "الْبَدَاءِ": "বাদা': আল্লাহর তাঁর ফয়সালা পরিবর্তন করার ক্ষমতা; শিয়া কালামের মূল আকিদা",
-        "الْأَجْرِ": "পুরস্কার/সওয়াব; ধর্মীয় বক্তব্য ও আমলের জন্য আধ্যাত্মিক প্রতিফল",
-        "فَتَرُوا": "শিথিল হওয়া; ধর্মীয় সংকল্পে দুর্বল বা বিরত হওয়া",
-        "الْكَلَامِ": "আলোচনা; কালামী বক্তব্য ও ধর্মতাত্ত্বিক বিতর্ক"
+        "الْبَدَاءِ": "বাদা': আল্লাহর পরম ক্ষমতার প্রকাশ হিসেবে তাকদির পরিবর্তনের শিয়া আকীদা",
+        "الْأَجْرِ": "পুরস্কার, সওয়াব, আল্লাহর প্রতিদান",
+        "فَتَرُوا": "বিরত হত, দুর্বল হয়ে পড়ত, থেমে যেত"
       },
-      "seo_question": "শিয়া ইসলামে বাদা' সম্পর্কে কথা বলার পুরস্কার নিয়ে ইমাম আস-সাদিক কী বলেছেন?"
+      "seo_question": "ইমাম সাদিক (আ.স.) বাদা' সম্পর্কে কথা বলার পুরস্কার সম্পর্কে কী বলেছেন?"
     },
     "es": {
-      "text": "Escuché a Abu ʿAbd Allah (la paz sea con él) decir: 'Si la gente supiera qué recompensa hay en hablar sobre el bada', no cesarían de hablar al respecto.'",
-      "summary": "El Imam Ja'far al-Sadiq (AS) declara que si la gente comprendiera la inmensa recompensa espiritual de hablar y afirmar el bada' — la prerrogativa soberana de Dios de alterar Sus decretos — nunca cesarían de discutirlo. El hadiz subraya la centralidad del bada' en la teología chií, posicionando su misma discusión como un acto meritorio ante Dios.",
+      "text": "Escuché a Abu Abdillah (la paz sea con él) decir: 'Si la gente supiera qué recompensa hay en hablar sobre al-Bada', no cesarían de hablar al respecto.'",
+      "summary": "Este hadiz del Imam Ja'far al-Sadiq (AS) anima a los creyentes a hablar y afirmar la doctrina de al-Bada' — la creencia chií de que Dios puede alterar Sus decretos como manifestación de Su poder absoluto, no por ignorancia. El Imam destaca la inmensa recompensa espiritual asociada a discutir esta doctrina, sugiriendo que descuidarla supone una gran pérdida espiritual.",
       "key_terms": {
-        "الْبَدَاءِ": "al-bada': prerrogativa soberana de Dios de alterar Sus decretos divinos; concepto teológico central en el chiísmo",
-        "الْأَجْرِ": "recompensa; galardón espiritual por el habla y la acción religiosa",
-        "فَتَرُوا": "cesar/languidecer; debilitarse o detenerse en la resolución religiosa",
-        "الْكَلَامِ": "discurso; habla teológica y debate académico sostenido"
+        "الْبَدَاءِ": "al-Bada': doctrina chií sobre la soberanía de Dios para alterar Sus decretos, manifestación de Su poder absoluto",
+        "الْأَجْرِ": "recompensa, retribución espiritual, mérito divino",
+        "فَتَرُوا": "cesarían, se debilitarían, dejarían de hablar"
       },
-      "seo_question": "¿Qué dijo el Imam al-Sadiq sobre la recompensa espiritual de hablar sobre el bada' en el islam chií?"
+      "seo_question": "¿Qué dijo el Imam al-Sadiq (AS) sobre la recompensa por hablar sobre al-Bada' en al-Kafi?"
     },
     "fr": {
-      "text": "J'ai entendu Abū ʿAbd Allāh (paix sur lui) dire : « Si les gens savaient quelle récompense se trouve dans le fait de parler du bada', ils ne se relâcheraient pas d'en parler. »",
-      "summary": "L'Imam Ja'far al-Sādiq (AS) déclare que si les croyants connaissaient la grande récompense spirituelle accordée pour le discours sur le bada' — la prérogative souveraine de Dieu de modifier Ses décrets —, ils ne cesseraient jamais d'en parler. Ce hadith souligne l'importance centrale du bada' dans la théologie chiite en plaçant sa discussion au rang d'acte cultuel méritoire.",
+      "text": "J'ai entendu Abu Abdillah (paix sur lui) dire : 'Si les gens savaient quelle récompense il y a dans la parole sur al-Badā', ils ne cesseraient pas d'en parler.'",
+      "summary": "Ce hadith de l'Imam Ja'far al-Sadiq (AS) encourage les croyants à discuter et à affirmer la doctrine du Badā' — la croyance chiite en la liberté souveraine de Dieu d'altérer Ses décrets apparents, manifestation de Sa puissance absolue et non d'une ignorance. L'Imam souligne la grande récompense spirituelle attachée à ce discours, laissant entendre que négliger ce sujet entraîne une importante perte de mérite divin.",
       "key_terms": {
-        "الْبَدَاءِ": "le bada' : prérogative divine de modifier les décrets ; concept fondamental de la théologie chiite",
-        "الْأَجْرِ": "récompense ; rétribution spirituelle pour la parole et l'action religieuses",
-        "فَتَرُوا": "se relâcher ; s'affaiblir ou cesser dans sa résolution religieuse",
-        "الْكَلَامِ": "discours ; parole théologique et débat savant soutenu"
+        "الْبَدَاءِ": "al-Badā': doctrine chiite de la souveraineté divine à modifier les décrets apparents, manifestation de la toute-puissance de Dieu",
+        "الْأَجْرِ": "récompense, rétribution divine, mérite spirituel",
+        "فَتَرُوا": "ils cesseraient, ils s'affaibliraient, ils arrêteraient de parler"
       },
-      "seo_question": "Que dit l'Imam al-Sadiq sur la récompense spirituelle accordée pour parler du bada' dans l'islam chiite ?"
+      "seo_question": "Que dit l'Imam al-Sadiq (AS) sur la récompense de parler du Badā' dans al-Kafi ?"
     },
     "de": {
-      "text": "Ich hörte Abu ʿAbd Allah (Friede sei auf ihm) sagen: 'Wenn die Menschen wüssten, welchen Lohn es im Sprechen über al-bada' gibt, würden sie nicht nachlassen, darüber zu sprechen.'",
-      "summary": "Imam Ja'far al-Sadiq (AS) erklärt, dass die Menschen, wenn sie die gewaltige spirituelle Belohnung für das Sprechen über al-bada' — Gottes souveräne Befugnis, Seine Verfügungen zu ändern — kennen würden, niemals aufhören würden, darüber zu diskutieren. Der Hadith betont die zentrale Bedeutung von al-bada' in der schiitischen Theologie und stellt seine Erörterung als gottgefällige Handlung dar.",
+      "text": "Ich hörte Abu Abdillah (Friede sei auf ihm) sagen: 'Wenn die Menschen wüssten, welche Belohnung im Sprechen über al-Badā' liegt, würden sie nicht davon ablassen, darüber zu sprechen.'",
+      "summary": "Dieser Hadith von Imam Ja'far al-Sadiq (AS) ermutigt die Gläubigen, die Lehre des al-Badā' — die schiitische theologische Überzeugung, dass Gott Seine Entscheidungen als Ausdruck Seiner absoluten Macht ändern kann — zu besprechen und zu bekräftigen. Der Imam betont die große geistliche Belohnung, die mit dem Sprechen über diese Lehre verbunden ist, und deutet an, dass das Vernachlässigen dieses Themas einen bedeutenden Verlust an spirituellem Verdienst bedeutet.",
       "key_terms": {
-        "الْبَدَاءِ": "al-bada': Gottes souveräne Befugnis, göttliche Verfügungen zu ändern; zentrales Konzept der schiitischen Theologie",
-        "الْأَجْرِ": "Lohn/Vergeltung; spirituelle Belohnung für religiöse Rede und Handlung",
-        "فَتَرُوا": "nachlassen/ermatten; im religiösen Eifer schwächer werden oder aufhören",
-        "الْكَلَامِ": "Diskurs; theologische Rede und gelehrte Diskussion"
+        "الْبَدَاءِ": "al-Badā': schiitische Lehre von Gottes souveräner Fähigkeit, Seine Beschlüsse zu ändern, als Ausdruck absoluter Macht",
+        "الْأَجْرِ": "Belohnung, göttliche Vergütung, geistliches Verdienst",
+        "فَتَرُوا": "würden ablassen, würden nachlassen, würden aufhören zu sprechen"
       },
-      "seo_question": "Was sagte Imam al-Sadiq über die spirituelle Belohnung für das Sprechen über al-bada' im schiitischen Islam?"
+      "seo_question": "Was sagte Imam al-Sadiq (AS) über die Belohnung für das Sprechen über al-Badā' in al-Kafi?"
     },
     "ru": {
-      "text": "Я слышал, как Абу Абдуллах (мир ему) сказал: «Если бы люди знали, какая награда заключена в речи о бада', они бы никогда не переставали говорить об этом.»",
-      "summary": "Имам Джа'фар ас-Садык (МС) заявляет, что если бы люди осознали огромное духовное вознаграждение за разговор о бада' — суверенной прерогативе Бога изменять Свои предначертания — они бы никогда не прекращали обсуждать эту тему. Данный хадис подчёркивает центральное место бада' в шиитском богословии, представляя само его обсуждение как богоугодное деяние.",
+      "text": "Я слышал, как Абу Абдуллах (мир ему) говорил: «Если бы люди знали, какая награда заключена в речах о Бадāʾ, они никогда не переставали бы говорить об этом».",
+      "summary": "Этот хадис от имама Джафара ас-Садика (мир ему) побуждает верующих обсуждать и утверждать доктрину Бадāʾ — шиитское богословское убеждение о том, что Бог может изменять Свои решения как проявление Своей абсолютной власти, а не по незнанию. Имам подчёркивает огромную духовную награду, связанную с обсуждением этой доктрины, намекая, что пренебрежение этой темой влечёт значительную утрату духовных заслуг.",
       "key_terms": {
-        "الْبَدَاءِ": "бада': суверенная прерогатива Бога изменять Свои предначертания; ключевая концепция шиитского богословия",
-        "الْأَجْرِ": "воздаяние; духовная награда за религиозную речь и благочестивые деяния",
-        "فَتَرُوا": "ослабнуть/опустить руки; утратить решимость в религиозном рвении",
-        "الْكَلَامِ": "речь/дискурс; теологическое высказывание и учёная дискуссия"
+        "الْبَدَاءِ": "Бадāʾ: шиитская доктрина о суверенном праве Бога изменять Свои решения как проявление абсолютной власти",
+        "الْأَجْرِ": "награда, воздаяние, духовная заслуга",
+        "فَتَرُوا": "переставали бы, ослабевали бы, прекращали говорить"
       },
-      "seo_question": "Что Имам ас-Садык сказал о духовном вознаграждении за разговор о бада' в шиитском исламе?"
+      "seo_question": "Что сказал имам ас-Садик (мир ему) о награде за разговор о Бадāʾ в аль-Кафи?"
     },
     "zh": {
-      "text": "我听到艾布·阿卜杜拉（愿主赐其平安）说道："若人们知道谈论'巴达'有何回报，他们绝不会懈怠于谈论它。"",
-      "summary": "伊玛目贾法尔·萨迪格（愿主赐其平安）宣示：若人们真正了解谈论"巴达"——即真主更改定数之主权——所蕴含的巨大精神回报，他们绝不会停止对这一议题的探讨。此圣训强调"巴达"在什叶派神学中的核心地位，将其探讨本身视为可获神圣回报的宗教行为。",
+      "text": "我听闻阿布·阿卜迪拉（愿安拉赐福于他）说：「若人们知晓谈论白达欧（البداء）中所蕴含的回报，他们绝不会懈怠于谈论此事。」",
+      "summary": "这段圣训来自伊玛目贾法尔·萨迪格（愿主赐福于他），鼓励信徒讨论和肯定白达欧教义——即真主可按其绝对意志显现新的决定并改变表面定数的什叶派神学信仰，此乃真主全能之彰显而非无知。伊玛目强调，谈论这一教义有极大的精神回报，暗示忽视这一话题将导致重大精神功德的损失。",
       "key_terms": {
-        "الْبَدَاءِ": "巴达（بداء）：真主更改定数的主权特权；什叶派神学的核心教义",
-        "الْأَجْرِ": "回报/奖赏；宗教言行所获得的精神报偿",
-        "فَتَرُوا": "懈怠：在宗教热情上减弱或停止",
-        "الْكَلَامِ": "言说；神学话语与学术讨论"
+        "الْبَدَاءِ": "白达欧：真主以绝对权能改变表面定数的什叶派教义",
+        "الْأَجْرِ": "回报，奖赏，精神功德",
+        "فَتَرُوا": "懈怠，停止，不再谈论"
       },
-      "seo_question": "伊玛目萨迪格关于谈论"巴达"的精神回报说了什么？"
+      "seo_question": "伊玛目萨迪格（愿主赐福于他）关于谈论白达欧之回报在《卡非》中说了什么？"
     }
   },
   "chunks": [
     {
-      "chunk_type": "body",
-      "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ",
+      "chunk_type": "isnad",
+      "arabic_text": "عَلِيٌّ عَنْ مُحَمَّدٍ عَنْ يُونُسَ عَنْ مَالِكٍ الْجُهَنِيِّ قَالَ",
       "word_start": 0,
-      "word_end": 7,
+      "word_end": 9,
       "translations": {
-        "en": "I heard Abu ʿAbd Allah (peace be upon him) saying:",
-        "ur": "میں نے ابوعبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا:",
-        "tr": "Ebu Abdillah'ı (aleyhisselam) şöyle söylerken duydum:",
-        "fa": "از ابو عبدالله (علیه السلام) شنیدم که می‌فرمود:",
-        "id": "Aku mendengar Abu ʿAbd Allah (AS) berkata:",
-        "bn": "আমি আবু আবদিল্লাহ (আ.স.) কে বলতে শুনেছি:",
-        "es": "Escuché a Abu ʿAbd Allah (la paz sea con él) decir:",
-        "fr": "J'ai entendu Abū ʿAbd Allāh (paix sur lui) dire :",
-        "de": "Ich hörte Abu ʿAbd Allah (Friede sei auf ihm) sagen:",
-        "ru": "Я слышал, как Абу Абдуллах (мир ему) сказал:",
-        "zh": "我听到艾布·阿卜杜拉（愿主赐其平安）说道："
+        "en": "Ali from Muhammad from Yunus from Malik al-Juhani, who said:",
+        "ur": "علی نے محمد سے، محمد نے یونس سے، یونس نے مالک الجہنی سے روایت کی، انہوں نے کہا:",
+        "tr": "Ali'den, Muhammed'den, Yunus'tan, Malik el-Cüheni'den — dedi ki:",
+        "fa": "علی از محمد، از یونس، از مالک جهنی روایت کرد، مالک گفت:",
+        "id": "Ali dari Muhammad dari Yunus dari Malik al-Juhani, ia berkata:",
+        "bn": "আলী থেকে, মুহাম্মদ থেকে, ইউনুস থেকে, মালিক আল-জুহানী থেকে বর্ণিত, তিনি বলেছেন:",
+        "es": "Ali de Muhammad de Yunus de Malik al-Juhani, quien dijo:",
+        "fr": "Ali de Muhammad de Yunus de Malik al-Juhani, qui dit :",
+        "de": "Ali von Muhammad von Yunus von Malik al-Juhani, der sagte:",
+        "ru": "Али от Мухаммада от Юнуса от Малика аль-Джухани, который сказал:",
+        "zh": "阿里传自穆罕默德，传自优努斯，传自马利克·祝赫尼，后者说："
       }
     },
     {
       "chunk_type": "body",
-      "arabic_text": "لَوْ عَلِمَ النَّاسُ مَا فِي الْقَوْلِ بِالْبَدَاءِ مِنَ الْأَجْرِ مَا فَتَرُوا عَنِ الْكَلَامِ فِيهِ",
-      "word_start": 7,
-      "word_end": 21,
+      "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ لَوْ عَلِمَ النَّاسُ مَا فِي الْقَوْلِ بِالْبَدَاءِ مِنَ الْأَجْرِ مَا فَتَرُوا عَنِ الْكَلَامِ فِيهِ",
+      "word_start": 9,
+      "word_end": 30,
       "translations": {
-        "en": "If the people knew what recompense lies in the speech about al-bada', they would not slacken from discoursing about it.",
-        "ur": "اگر لوگ جانتے کہ بداء کے بارے میں گفتگو کرنے میں کتنا اجر ہے، تو وہ اس کے بارے میں کلام سے ہرگز سست نہ پڑتے۔",
-        "tr": "Eğer insanlar el-beda' hakkında konuşmadaki mükâfatı bilselerdi, onun hakkında konuşmaktan asla geri durmazlardı.",
-        "fa": "اگر مردم می‌دانستند که در سخن گفتن درباره بداء چه پاداشی نهفته است، هرگز از سخن گفتن درباره آن سست نمی‌شدند.",
-        "id": "Seandainya orang-orang mengetahui pahala apa yang terdapat dalam membicarakan al-bada', mereka tidak akan lemah dalam membicarakannya.",
-        "bn": "যদি মানুষ জানত যে বাদা' সম্পর্কে কথা বলায় কী পুরস্কার রয়েছে, তাহলে তারা এ বিষয়ে কথা বলা থেকে কখনো বিরত হত না।",
-        "es": "Si la gente supiera qué recompensa hay en hablar sobre el bada', no cesarían de hablar al respecto.",
-        "fr": "Si les gens savaient quelle récompense se trouve dans le fait de parler du bada', ils ne se relâcheraient pas d'en parler.",
-        "de": "Wenn die Menschen wüssten, welchen Lohn es im Sprechen über al-bada' gibt, würden sie nicht nachlassen, darüber zu sprechen.",
-        "ru": "Если бы люди знали, какая награда заключена в речи о бада', они бы никогда не переставали говорить об этом.",
-        "zh": "若人们知道谈论"巴达"有何回报，他们绝不会懈怠于谈论它。""
+        "en": "I heard Abu Abdillah (peace be upon him) saying: 'If the people knew what reward lies in speaking about al-Bada', they would not languish from speaking about it.'",
+        "ur": "میں نے ابو عبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا: 'اگر لوگ جانتے کہ بداء کے بارے میں گفتگو کرنے میں کتنا اجر ہے، تو وہ اس کے بارے میں بات کرنے سے ہرگز سست نہ پڑتے۔'",
+        "tr": "Ebu Abdillah'ı (aleyhisselam) şöyle derken işittim: 'Eğer insanlar Bedā' hakkında konuşmanın ne kadar sevap taşıdığını bilselerdi, onun hakkında konuşmaktan asla geri durmazlardı.'",
+        "fa": "شنیدم که ابو عبدالله (علیه السلام) می‌فرمود: «اگر مردم می‌دانستند که در سخن گفتن درباره بداء چه اجری نهفته است، هرگز از صحبت درباره آن سستی نمی‌کردند.»",
+        "id": "Aku mendengar Abu Abdillah (aleyhisselam) berkata: 'Seandainya manusia mengetahui pahala apa yang terdapat dalam membicarakan al-Bada', niscaya mereka tidak akan berhenti membicarakannya.'",
+        "bn": "আমি আবু আব্দিল্লাহকে (আলাইহিস সালাম) বলতে শুনেছি: 'যদি মানুষেরা জানত যে বাদা' সম্পর্কে কথা বলার মধ্যে কী পরিমাণ পুরস্কার রয়েছে, তাহলে তারা এ বিষয়ে আলোচনা থেকে কখনো বিরত হত না।'",
+        "es": "Escuché a Abu Abdillah (la paz sea con él) decir: 'Si la gente supiera qué recompensa hay en hablar sobre al-Bada', no cesarían de hablar al respecto.'",
+        "fr": "J'ai entendu Abu Abdillah (paix sur lui) dire : 'Si les gens savaient quelle récompense il y a dans la parole sur al-Badā', ils ne cesseraient pas d'en parler.'",
+        "de": "Ich hörte Abu Abdillah (Friede sei auf ihm) sagen: 'Wenn die Menschen wüssten, welche Belohnung im Sprechen über al-Badā' liegt, würden sie nicht davon ablassen, darüber zu sprechen.'",
+        "ru": "Я слышал, как Абу Абдуллах (мир ему) говорил: «Если бы люди знали, какая награда заключена в речах о Бадāʾ, они никогда не переставали бы говорить об этом».",
+        "zh": "我听闻阿布·阿卜迪拉（愿安拉赐福于他）说：「若人们知晓谈论白达欧（البداء）中所蕴含的回报，他们绝不会懈怠于谈论此事。」"
       }
     }
   ],
-  "topics": ["divine_decree", "divine_attributes", "seeking_knowledge"],
+  "topics": ["divine_decree", "seeking_knowledge", "divine_attributes"],
   "key_phrases": [
     {
+      "phrase_ar": "الْقَوْلُ بِالْبَدَاءِ",
+      "phrase_en": "affirming/speaking about al-Bada'",
+      "category": "theological_concept"
+    },
+    {
       "phrase_ar": "عَلَيْهِ السَّلَامُ",
-      "phrase_en": "peace be upon him",
+      "phrase_en": "Peace be upon him (AS)",
       "category": "prophetic_formula"
     },
     {
       "phrase_ar": "أَبَا عَبْدِ اللَّهِ",
-      "phrase_en": "Abu Abd Allah (kunya of Imam Ja'far al-Sadiq, AS)",
+      "phrase_en": "Abu Abdillah (well-known kunya of Imam al-Sadiq)",
       "category": "prophetic_formula"
-    },
-    {
-      "phrase_ar": "الْقَوْلِ بِالْبَدَاءِ",
-      "phrase_en": "the speech/affirmation of al-bada' (divine alteration of decree)",
-      "category": "theological_concept"
     }
   ],
   "similar_content_hints": [
     {
-      "description": "Narrations in al-Kafi's chapter on al-bada' asserting that God has not been worshipped through anything more excellent than al-bada', and that no prophet was sent without first acknowledging al-bada' as a divine attribute, attributed to Imam al-Sadiq (AS) or Imam al-Baqir (AS).",
-      "theme": "bada_and_tawhid"
+      "description": "Other hadiths in al-Kafi's chapter on al-Bada' from Imam al-Sadiq (AS) stating that al-Bada' is the greatest distinguishing doctrine God has made specific to the Shia, comparable in rank to tawhid, and that no prophet was commissioned except upon acknowledging it.",
+      "theme": "bada_doctrine_centrality"
     },
     {
-      "description": "Hadiths in which Imam al-Sadiq (AS) equates belief in al-bada' with the highest form of tawhid, explaining that denying al-bada' amounts to limiting God's absolute sovereignty over His own creation and decrees.",
-      "theme": "bada_and_divine_sovereignty"
+      "description": "Hadiths in al-Kafi and other primary sources connecting al-Bada' to Quran 13:39 ('Allah eliminates what He wills and confirms — with Him is the Mother of the Book'), providing the scriptural basis for this doctrine.",
+      "theme": "bada_quran_basis"
     },
     {
-      "description": "Narrations encouraging believers to speak openly about Shia-specific doctrines and promising great spiritual reward for those who uphold and discuss them, found in al-Kafi and Bihar al-Anwar.",
-      "theme": "reward_for_theological_discourse"
+      "description": "Hadiths encouraging believers to speak about and propagate distinctive Shia theological doctrines (such as wilayah and imamate), emphasizing that doing so carries great divine reward even if others reject them.",
+      "theme": "reward_for_shia_theological_discourse"
     }
   ]
 }
@@ -287,13 +294,8 @@
 
 ---
 
-## Commentary on Key Analytical Decisions
+### Analytical Notes
 
-### On البَدَاء (al-Bada')
-This is the theological centrepiece of the hadith. In Shia *kalām*, **al-bada'** denotes God's absolute and ongoing freedom to alter, revoke, or fulfil divine decrees — affirming that God is not "locked in" to any prior determination. It is often connected to Quran **13:39** (*يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ*) and is considered in Shia sources as among the highest expressions of *tawhid*, since it negates any constraint on God's will.
+**On al-Bada' (الْبَدَاءُ):** This is one of the most theologically distinctive concepts in Shia Islam. The term literally means "appearing" or "becoming manifest," and in Shia theology it refers to God's sovereign freedom to manifest new divine decisions and alter apparent decrees — not because God lacked prior knowledge (which is impossible), but as a positive affirmation of His absolute sovereignty and living, active will over creation. It is closely tied to Quran 13:39: *يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ ۖ وَعِندَهُ أُمُّ الْكِتَابِ* ("Allah eliminates what He wills and confirms — and with Him is the Mother of the Book"). The Imam's framing — that speaking about al-Bada' carries great *ajr* — suggests the community was underestimating or avoiding this doctrine, possibly due to its perceived controversy with opponents.
 
-### On the Conditional Structure (لَوْ … مَا فَتَرُوا)
-Classical Arabic *law* (لَوْ) + past tense + *mā* (مَا) + past tense is the standard **counterfactual conditional** (*imtinā'iyya*): "if [something contrary to fact] were the case, then [consequence contrary to fact] would follow." The Imam is expressing a *longing regret* that people remain unaware of this reward — a rhetorical device to spur them to action.
-
-### On the Isnad Ambiguity (Ali/Muhammad)
-The English reference translation renders *عَلِيٌّ عَنْ مُحَمَّدٍ* as "Ali Bin Muhammad" (one narrator), but the Arabic **عَنْ** explicitly separates them as two narrators. Both readings are documented in al-Kafi scholarship; this JSON follows the Arabic text strictly, flagging the ambiguity via `identity_confidence`.
+**On the narrator Malik al-Juhani:** He is Malik ibn A'yan al-Juhani, a well-attested companion (*sahib*) of Imam al-Sadiq (AS) and a trusted transmitter. His direct audition (*sami'tu*) gives this report a high degree of proximity to the Imam.

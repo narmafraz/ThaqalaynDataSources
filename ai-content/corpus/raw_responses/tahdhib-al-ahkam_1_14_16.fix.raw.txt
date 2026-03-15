@@ -1,0 +1,71 @@
+Looking at the flagged issue, word_analysis[53] has the word `الْعَمَلِ` but the original Arabic text ends with `العمل](1)`, meaning the footnote reference marker `](1)` is part of the token as it appears in the source text. The fix is to append `](1)` to the word value while preserving the diacritics.
+
+Here is the corrected JSON with **only** the `word_analysis` array, with the single fix applied at index 53:
+
+```json
+{
+  "word_analysis": [
+    { "word": "كَانَ", "pos": "V" },
+    { "word": "قُدِّسَ", "pos": "V" },
+    { "word": "سِرُّهُ", "pos": "N" },
+    { "word": "شَيْخُ", "pos": "N" },
+    { "word": "الْإِمَامِيَّةِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "وَجْهُهُمْ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "رَئِيسُ", "pos": "N" },
+    { "word": "الطَّائِفَةِ", "pos": "N" },
+    { "word": "جَلِيلُ", "pos": "ADJ" },
+    { "word": "الْقَدْرِ", "pos": "N" },
+    { "word": "عَظِيمُ", "pos": "ADJ" },
+    { "word": "الْمَنْزِلَةِ", "pos": "N" },
+    { "word": "ثِقَةٌ", "pos": "N" },
+    { "word": "عَيْنٌ", "pos": "N" },
+    { "word": "صَدُوقٌ", "pos": "ADJ" },
+    { "word": "عَارِفٌ", "pos": "ADJ" },
+    { "word": "بِالْأَخْبَارِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "الرِّجَالِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "الْفِقْهِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "الْأُصُولِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "الْكَلَامِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "الْأَدَبِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "جَمِيعِ", "pos": "N" },
+    { "word": "الْفَضَائِلِ", "pos": "N" },
+    { "word": "تُنْسَبُ", "pos": "V" },
+    { "word": "إِلَيْهِ", "pos": "PREP" },
+    { "word": "صَنَّفَ", "pos": "V" },
+    { "word": "فِي", "pos": "PREP" },
+    { "word": "كُلِّ", "pos": "N" },
+    { "word": "فُنُونِ", "pos": "N" },
+    { "word": "الْإِسْلَامِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "هُوَ", "pos": "PRON" },
+    { "word": "الْمُهَذِّبُ", "pos": "N" },
+    { "word": "لِلْعَقَائِدِ", "pos": "N" },
+    { "word": "فِي", "pos": "PREP" },
+    { "word": "الْأُصُولِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "الْفُرُوعِ", "pos": "N" },
+    { "word": "الْجَامِعُ", "pos": "ADJ" },
+    { "word": "لِكَمَالَاتِ", "pos": "N" },
+    { "word": "النَّفْسِ", "pos": "N" },
+    { "word": "فِي", "pos": "PREP" },
+    { "word": "الْعِلْمِ", "pos": "N" },
+    { "word": "وَ", "pos": "CONJ" },
+    { "word": "الْعَمَلِ](1)", "pos": "N" }
+  ]
+}
+```
+
+### Change made
+| Index | Field | Before | After |
+|-------|-------|--------|-------|
+| 53 | `word` | `الْعَمَلِ` | `الْعَمَلِ](1)` |
+
+The footnote reference marker `](1)` has been appended to the final word token to faithfully reflect the source text boundary, which closes the bracketed editorial description `[شيخ الإماميّة … العمل](1)`. All other entries remain untouched.

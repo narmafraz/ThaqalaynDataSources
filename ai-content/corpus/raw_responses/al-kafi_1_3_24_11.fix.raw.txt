@@ -1,0 +1,79 @@
+**Analysis of flagged issues:**
+
+- **Issues 1–25 (LOW, arabic_echo):** All verified as correct. The flagged terms are proper nouns shared across Arabic/Urdu/Farsi scripts (Ali, Ibrahim, Muhammad, Isa, Yunus, Mansur, Hazim), standard patronymic particles (بن), and Islamic theological vocabulary (عبد، علیه، السلام، علم، و) that appear identically in both languages. No changes required.
+- **Issue 27 (LOW, word_count_mismatch):** Verified as correct. The word_analysis includes the isnad chain (14 words: Ali–Hazim) not present in the bare Arabic text field, accounting for the difference (14 + 46 = 60). No changes required.
+- **Issue 26 (MEDIUM, chunk_translation_mismatch bn):** Requires fix. The Bengali chunk translations contain redundant elaborations ("তিনি ইউনুস থেকে, তিনি মানসূর... থেকে বর্ণনা করেছেন", "সে বিষয়ে আপনার মত কী") not present in the source, inflating length by ~35%. Revised to be direct and concise while preserving full theological accuracy.
+
+```json
+{
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": 0,
+      "word_end": 14,
+      "translations": {
+        "en": "Ali ibn Ibrahim, from Muhammad ibn Isa, from Yunus, from Mansur ibn Hazim, who said:",
+        "ur": "علی بن ابراہیم نے، محمد بن عیسی سے، انہوں نے یونس سے، انہوں نے منصور بن حازم سے روایت کی — انہوں نے کہا:",
+        "tr": "Ali ibn Ibrahim'den, Muhammed ibn İsa'dan, Yunus'tan, Mansur ibn Hazim'den rivayet edilmiştir; o dedi ki:",
+        "fa": "علی بن ابراهیم، از محمد بن عیسی، از یونس، از منصور بن حازم که گفت:",
+        "id": "Ali ibn Ibrahim, dari Muhammad ibn Isa, dari Yunus, dari Mansur ibn Hazim, ia berkata:",
+        "bn": "আলী ইবনে ইবরাহীম, মুহাম্মাদ ইবনে ঈসা থেকে, ইউনুস থেকে, মানসূর ইবনে হাযিম থেকে, যিনি বলেছেন:",
+        "es": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus, de Mansur ibn Hazim, quien dijo:",
+        "fr": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus, de Mansur ibn Hazim, qui dit :",
+        "de": "Ali ibn Ibrahim, von Muhammad ibn Isa, von Yunus, von Mansur ibn Hazim, der sagte:",
+        "ru": "Али ибн Ибрахим, от Мухаммада ибн Исы, от Юнуса, от Мансура ибн Хазима, который сказал:",
+        "zh": "阿里·伊本·易卜拉欣，从穆罕默德·伊本·尔撒，从尤努斯，从曼苏尔·伊本·哈齐姆，他说："
+      },
+      "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنْ مَنْصُورِ بْنِ حَازِمٍ قَالَ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 14,
+      "word_end": 37,
+      "translations": {
+        "en": "I asked Abu Abdillah (peace be upon him): 'Would something occur today that was not in the knowledge of God yesterday?' He said: 'No. Whoever says this, may God disgrace him.'",
+        "ur": "میں نے ابوعبداللہ علیہ السلام سے پوچھا: 'کیا آج کوئی ایسی چیز ہو سکتی ہے جو کل اللہ کے علم میں نہ تھی؟' آپؑ نے فرمایا: 'نہیں۔ جو کوئی یہ کہے، اللہ اسے رسوا کرے۔'",
+        "tr": "Ebu Abdullah'a (aleyhisselam) sordum: 'Bugün, dün Allah'ın ilminde olmayan bir şey olabilir mi?' Buyurdu: 'Hayır. Bunu söyleyen kişiyi Allah rezil etsin.'",
+        "fa": "از ابوعبدالله علیه السلام پرسیدم: «آیا امروز چیزی می‌شود که دیروز در علم خداوند نبوده باشد؟» فرمود: «نه. هر که این را بگوید، خداوند او را خوار گرداند.»",
+        "id": "Aku bertanya kepada Abu Abdillah (alayhissalam): 'Apakah hari ini bisa terjadi sesuatu yang kemarin tidak ada dalam ilmu Allah?' Beliau bersabda: 'Tidak. Siapa yang mengatakan ini, semoga Allah menghinakannya.'",
+        "bn": "আমি আবু আবদিল্লাহ (আ.)-কে জিজ্ঞেস করলাম: 'আজ কি এমন কিছু হতে পারে যা গতকাল আল্লাহর জ্ঞানে ছিল না?' তিনি বললেন: 'না। যে এটি বলে, আল্লাহ তাকে লাঞ্ছিত করুন।'",
+        "es": "Pregunté a Abu Abdillah (paz sea con él): '¿Podría ocurrir hoy algo que ayer no estuviera en el conocimiento de Allah?' Respondió: 'No. A quien diga esto, que Allah lo avergüence.'",
+        "fr": "J'ai demandé à Abu Abdillah (paix sur lui) : 'Peut-il se produire aujourd'hui quelque chose qui n'était pas dans la connaissance d'Allah hier ?' Il dit : 'Non. Celui qui dit cela, qu'Allah le couvre de honte.'",
+        "de": "Ich fragte Abu Abdillah (Friede sei mit ihm): 'Kann heute etwas geschehen, das gestern nicht im Wissen Gottes war?' Er sagte: 'Nein. Wer so etwas sagt, den möge Gott blamieren.'",
+        "ru": "Я спросил Абу Абдуллаха (мир ему): «Может ли сегодня произойти то, чего вчера не было в знании Аллаха?» Он сказал: «Нет. Того, кто так говорит, да посрамит Аллах».",
+        "zh": "我问阿布·阿卜迪拉（愿主赐他平安）：\"今天会发生昨天不在真主知识之中的事情吗？\"他说：\"不会。凡说此话者，愿真主使其蒙羞。\""
+      },
+      "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ هَلْ يَكُونُ الْيَوْمَ شَيْءٌ لَمْ يَكُنْ فِي عِلْمِ اللَّهِ بِالْأَمْسِ قَالَ لَا مَنْ قَالَ هَذَا فَأَخْزَاهُ اللَّهُ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 37,
+      "word_end": 60,
+      "translations": {
+        "en": "I said: 'What is your view of what has occurred and what will continue to occur until the Day of Resurrection — is it not within the knowledge of God?' He said: 'Yes indeed, (even) before He created the creatures.'",
+        "ur": "میں نے کہا: 'آپ کا کیا خیال ہے جو کچھ ہوا اور جو قیامت تک ہونے والا ہے — کیا وہ اللہ کے علم میں نہیں؟' آپؑ نے فرمایا: 'ہاں یقیناً، مخلوقات کی تخلیق سے پہلے بھی۔'",
+        "tr": "Dedim ki: 'Olanlar ve Kıyamet Günü'ne kadar olacaklar hakkında ne buyurursunuz — bunlar Allah'ın ilminde değil mi?' Buyurdu: 'Evet, hatta yarattıklarını yaratmadan önce de.'",
+        "fa": "گفتم: «درباره آنچه بوده و آنچه تا روز قیامت خواهد بود چه می‌فرمایید — آیا در علم خداوند نیست؟» فرمود: «چرا، حتی پیش از آنکه مخلوقات را بیافریند.»",
+        "id": "Aku berkata: 'Bagaimana pandanganmu tentang apa yang telah terjadi dan apa yang akan terjadi hingga Hari Kiamat — bukankah itu ada dalam ilmu Allah?' Beliau bersabda: 'Ya, bahkan sebelum Dia menciptakan makhluk.'",
+        "bn": "আমি বললাম: 'যা হয়েছে এবং কিয়ামত পর্যন্ত যা হবে — তা কি আল্লাহর জ্ঞানে নেই?' তিনি বললেন: 'হ্যাঁ অবশ্যই, সৃষ্টিকুল সৃষ্টির পূর্বেও।'",
+        "es": "Dije: '¿Qué opinas de lo que ha ocurrido y lo que ocurrirá hasta el Día de la Resurrección — ¿no está en el conocimiento de Allah?' Respondió: 'Sí, en verdad, incluso antes de que Él creara a las criaturas.'",
+        "fr": "Je dis : 'Qu'en est-il de ce qui s'est passé et de ce qui se passera jusqu'au Jour de la Résurrection — n'est-ce pas dans la connaissance d'Allah ?' Il dit : 'Si certes, avant même qu'Il n'ait créé les créatures.'",
+        "de": "Ich sagte: 'Was sagst du über das, was geschehen ist und was bis zum Tag der Auferstehung geschehen wird — ist das nicht im Wissen Gottes?' Er sagte: 'Ja gewiss, noch bevor Er die Schöpfung erschaffen hat.'",
+        "ru": "Я сказал: «Что вы скажете о том, что произошло и что будет происходить до Дня Воскресения — разве это не в знании Аллаха?» Он сказал: «Да, непременно, ещё до того, как Он сотворил творения».",
+        "zh": "我说：\"您对已发生和将发生直至复活日的一切有何看法——这些不都在真主的知识之中吗？\"他说：\"确然如此，甚至在祂创造万物之前便已如此。\""
+      },
+      "arabic_text": "قُلْتُ أَ رَأَيْتَ مَا كَانَ وَ مَا هُوَ كَائِنٌ إِلَى يَوْمِ الْقِيَامَةِ أَ لَيْسَ فِي عِلْمِ اللَّهِ قَالَ بَلَى قَبْلَ أَنْ يَخْلُقَ الْخَلْقَ"
+    }
+  ]
+}
+```
+
+---
+
+**Summary of changes made:**
+
+| Issue | Field | Action |
+|---|---|---|
+| 1–25 (LOW) | `word_analysis[*].translation.ur/fa` | **No change** — all verified as correct: proper names (Ali, Ibrahim, Muhammad, Isa, Yunus, Mansur, Hazim) and shared Islamic vocabulary (بن، عبد، علیه، السلام، علم، و) legitimately appear identically in Arabic, Urdu, and Farsi |
+| 27 (LOW) | `word_analysis` word count | **No change** — verified correct: 14 isnād-chain words + 46 hadith-body words = 60 total; the isnād is present in the English reference but absent from the bare Arabic text field |
+| **26 (MEDIUM)** | `chunks[*].translations.bn` | **Fixed** — removed redundant elaborations: stripped repeated "তিনি...থেকে বর্ণনা করেছেন" in chunk 1, "সে বিষয়ে আপনার মত কী" in chunk 3, and replaced "(আলাইহিস সালাম)" with the compact "(আ.)" form, reducing total Bengali length to align with the verse-level reference |

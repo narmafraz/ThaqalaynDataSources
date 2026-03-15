@@ -1,0 +1,837 @@
+After careful review of all 25 flagged issues:
+
+**Issues 1–24 (LOW — arabic_echo):** Upon verification, all flagged `fa` and `ur` translations are linguistically correct. Persian (`fa`) shares "و" (and), "تاریخ" (history), "مشایخ" (sheikhs), "رئیس" (chief), "اهل" (people), "کثیر" (abundant/many), "عظیم" (great), and Urdu (`ur`) shares "ابن" (son of), "تاریخ", "مشایخ", "رئیس", "عظیم" as legitimate borrowed/shared vocabulary from Arabic. Proper nouns (طیّ, الحلبی) are correctly retained. **No changes required for issues 1–24.**
+
+**Issue 25 (HIGH — word_text_mismatch):** `word_analysis[47].word` must include the footnote marker `)(1)` as it appears in the original Arabic text.
+
+```json
+{
+  "word_analysis": [
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "而"
+      }
+    },
+    {
+      "word": "قَالَ",
+      "pos": "V",
+      "translation": {
+        "en": "he said",
+        "ur": "اس نے کہا",
+        "tr": "dedi",
+        "fa": "گفت",
+        "id": "berkata",
+        "bn": "বলেছেন",
+        "es": "dijo",
+        "fr": "a dit",
+        "de": "sagte",
+        "ru": "сказал",
+        "zh": "他说"
+      }
+    },
+    {
+      "word": "ابْنُ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "ابن",
+        "tr": "oğlu",
+        "fa": "پسر",
+        "id": "putra dari",
+        "bn": "পুত্র",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "сын",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "أَبِي",
+      "pos": "N",
+      "translation": {
+        "en": "father of",
+        "ur": "ابو",
+        "tr": "babası",
+        "fa": "پدر",
+        "id": "ayah dari",
+        "bn": "পিতার",
+        "es": "del padre de",
+        "fr": "du père de",
+        "de": "des Vaters von",
+        "ru": "отца",
+        "zh": "父亲"
+      }
+    },
+    {
+      "word": "طَيٍّ",
+      "pos": "N",
+      "translation": {
+        "en": "Tayy (proper name)",
+        "ur": "طیّ",
+        "tr": "Tayy",
+        "fa": "طیّ",
+        "id": "Tayy",
+        "bn": "তাইয়",
+        "es": "Tayy",
+        "fr": "Tayy",
+        "de": "Tayy",
+        "ru": "Тайй",
+        "zh": "泰伊"
+      }
+    },
+    {
+      "word": "الْحَلَبِيُّ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "al-Halabi (of Aleppo)",
+        "ur": "الحلبی",
+        "tr": "el-Halebî",
+        "fa": "الحلبی",
+        "id": "al-Halabi",
+        "bn": "আল-হালাবি",
+        "es": "al-Halabi",
+        "fr": "al-Halabî",
+        "de": "al-Halabi",
+        "ru": "аль-Халаби",
+        "zh": "哈拉比人"
+      }
+    },
+    {
+      "word": "فِي",
+      "pos": "PREP",
+      "translation": {
+        "en": "in",
+        "ur": "میں",
+        "tr": "-de",
+        "fa": "در",
+        "id": "di",
+        "bn": "-তে",
+        "es": "en",
+        "fr": "dans",
+        "de": "in",
+        "ru": "в",
+        "zh": "在"
+      }
+    },
+    {
+      "word": "تَارِيخِ",
+      "pos": "N",
+      "translation": {
+        "en": "history of",
+        "ur": "تاریخ",
+        "tr": "tarihi",
+        "fa": "تاریخ",
+        "id": "sejarah",
+        "bn": "ইতিহাসে",
+        "es": "historia de",
+        "fr": "histoire de",
+        "de": "Geschichte von",
+        "ru": "история",
+        "zh": "历史"
+      }
+    },
+    {
+      "word": "الْإِمَامِيَّةِ",
+      "pos": "N",
+      "translation": {
+        "en": "the Imamiyya",
+        "ur": "الامامیہ",
+        "tr": "İmamiyye",
+        "fa": "امامیه",
+        "id": "Imamiyah",
+        "bn": "ইমামিয়া",
+        "es": "Imamiyya",
+        "fr": "Imamiyya",
+        "de": "Imamiyya",
+        "ru": "Имамийи",
+        "zh": "伊玛目派"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "而"
+      }
+    },
+    {
+      "word": "هُوَ",
+      "pos": "PRON",
+      "translation": {
+        "en": "he",
+        "ur": "وہ",
+        "tr": "o",
+        "fa": "او",
+        "id": "dia",
+        "bn": "তিনি",
+        "es": "él",
+        "fr": "il",
+        "de": "er",
+        "ru": "он",
+        "zh": "他"
+      }
+    },
+    {
+      "word": "شَيْخٌ",
+      "pos": "N",
+      "translation": {
+        "en": "a sheikh",
+        "ur": "ایک شیخ",
+        "tr": "bir şeyh",
+        "fa": "شیخی",
+        "id": "seorang syekh",
+        "bn": "একজন শায়খ",
+        "es": "un jeque",
+        "fr": "un cheikh",
+        "de": "ein Scheich",
+        "ru": "шейх",
+        "zh": "一位谢赫"
+      }
+    },
+    {
+      "word": "مِنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from among",
+        "ur": "میں سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari antara",
+        "bn": "মধ্য হতে",
+        "es": "de entre",
+        "fr": "parmi",
+        "de": "aus",
+        "ru": "из",
+        "zh": "从中"
+      }
+    },
+    {
+      "word": "مَشَايِخِ",
+      "pos": "N",
+      "translation": {
+        "en": "sheikhs of",
+        "ur": "مشایخ",
+        "tr": "şeyhleri",
+        "fa": "مشایخ",
+        "id": "para syekh",
+        "bn": "শায়খগণের",
+        "es": "los jeques de",
+        "fr": "les cheikhs de",
+        "de": "den Scheichen",
+        "ru": "шейхов",
+        "zh": "众谢赫"
+      }
+    },
+    {
+      "word": "الصُّوفِيَّةِ",
+      "pos": "N",
+      "translation": {
+        "en": "the Sufis",
+        "ur": "صوفیہ",
+        "tr": "Sûfîler",
+        "fa": "صوفیه",
+        "id": "kaum sufi",
+        "bn": "সুফিগণের",
+        "es": "los sufíes",
+        "fr": "les soufis",
+        "de": "der Sufis",
+        "ru": "суфиев",
+        "zh": "苏菲派"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "且"
+      }
+    },
+    {
+      "word": "لِسَانُ",
+      "pos": "N",
+      "translation": {
+        "en": "tongue of",
+        "ur": "زبان",
+        "tr": "dili",
+        "fa": "زبان",
+        "id": "lisan",
+        "bn": "মুখপাত্র",
+        "es": "lengua de",
+        "fr": "langue de",
+        "de": "Zunge",
+        "ru": "уста",
+        "zh": "口舌"
+      }
+    },
+    {
+      "word": "الْإِمَامِيَّةِ",
+      "pos": "N",
+      "translation": {
+        "en": "the Imamiyya",
+        "ur": "الامامیہ",
+        "tr": "İmamiyye",
+        "fa": "امامیه",
+        "id": "Imamiyah",
+        "bn": "ইমামিয়া",
+        "es": "Imamiyya",
+        "fr": "Imamiyya",
+        "de": "Imamiyya",
+        "ru": "Имамийи",
+        "zh": "伊玛目派"
+      }
+    },
+    {
+      "word": "رَئِيسُ",
+      "pos": "N",
+      "translation": {
+        "en": "chief of",
+        "ur": "رئیس",
+        "tr": "reisi",
+        "fa": "رئیس",
+        "id": "pemimpin",
+        "bn": "প্রধান",
+        "es": "jefe de",
+        "fr": "chef de",
+        "de": "Oberhaupt",
+        "ru": "глава",
+        "zh": "领袖"
+      }
+    },
+    {
+      "word": "الْكَلَامِ",
+      "pos": "N",
+      "translation": {
+        "en": "kalam (theology)",
+        "ur": "علم کلام",
+        "tr": "kelam",
+        "fa": "کلام",
+        "id": "ilmu kalam",
+        "bn": "কালাম",
+        "es": "el kalam",
+        "fr": "le kalam",
+        "de": "Kalam",
+        "ru": "калам",
+        "zh": "卡拉姆学"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "与"
+      }
+    },
+    {
+      "word": "الْفِقْهِ",
+      "pos": "N",
+      "translation": {
+        "en": "fiqh (jurisprudence)",
+        "ur": "فقہ",
+        "tr": "fıkıh",
+        "fa": "فقه",
+        "id": "fikih",
+        "bn": "ফিকহ",
+        "es": "fiqh",
+        "fr": "fiqh",
+        "de": "Fiqh",
+        "ru": "фикха",
+        "zh": "伊斯兰法学"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "الْجَدَلِ",
+      "pos": "N",
+      "translation": {
+        "en": "dialectics",
+        "ur": "جدل/مناظرہ",
+        "tr": "cedel",
+        "fa": "جدل",
+        "id": "dialektika",
+        "bn": "বিতর্ক",
+        "es": "la dialéctica",
+        "fr": "la dialectique",
+        "de": "Dialektik",
+        "ru": "диалектики",
+        "zh": "辩论术"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "而"
+      }
+    },
+    {
+      "word": "كَانَ",
+      "pos": "V",
+      "translation": {
+        "en": "he was",
+        "ur": "وہ تھا",
+        "tr": "idi",
+        "fa": "بود",
+        "id": "adalah",
+        "bn": "ছিলেন",
+        "es": "era",
+        "fr": "était",
+        "de": "war",
+        "ru": "был",
+        "zh": "他是"
+      }
+    },
+    {
+      "word": "يُنَاظِرُ",
+      "pos": "V",
+      "translation": {
+        "en": "he would debate",
+        "ur": "مناظرہ کرتا تھا",
+        "tr": "münazara ederdi",
+        "fa": "مناظره می‌کرد",
+        "id": "berdebat",
+        "bn": "বিতর্ক করতেন",
+        "es": "disputaba",
+        "fr": "débattait",
+        "de": "disputierte",
+        "ru": "вступал в диспут",
+        "zh": "辩论"
+      }
+    },
+    {
+      "word": "أَهْلَ",
+      "pos": "N",
+      "translation": {
+        "en": "adherents of",
+        "ur": "اہل",
+        "tr": "ehlini",
+        "fa": "اهل",
+        "id": "penganut",
+        "bn": "অনুসারীদের",
+        "es": "a los seguidores de",
+        "fr": "les adeptes de",
+        "de": "den Anhängern",
+        "ru": "последователей",
+        "zh": "信众"
+      }
+    },
+    {
+      "word": "كُلِّ",
+      "pos": "DET",
+      "translation": {
+        "en": "every",
+        "ur": "ہر",
+        "tr": "her",
+        "fa": "هر",
+        "id": "setiap",
+        "bn": "প্রতিটি",
+        "es": "cada",
+        "fr": "toute",
+        "de": "jeder",
+        "ru": "каждого",
+        "zh": "每一"
+      }
+    },
+    {
+      "word": "عَقِيدَةٍ",
+      "pos": "N",
+      "translation": {
+        "en": "creed",
+        "ur": "عقیدہ/مذہب",
+        "tr": "akide",
+        "fa": "عقیده",
+        "id": "akidah",
+        "bn": "আকিদা",
+        "es": "credo",
+        "fr": "croyance",
+        "de": "Glauben",
+        "ru": "вероучения",
+        "zh": "信条"
+      }
+    },
+    {
+      "word": "مَعَ",
+      "pos": "PREP",
+      "translation": {
+        "en": "with",
+        "ur": "کے ساتھ",
+        "tr": "ile",
+        "fa": "با",
+        "id": "dengan",
+        "bn": "সহ",
+        "es": "con",
+        "fr": "avec",
+        "de": "mit",
+        "ru": "с",
+        "zh": "带着"
+      }
+    },
+    {
+      "word": "الْجَلَالَةِ",
+      "pos": "N",
+      "translation": {
+        "en": "grandeur/majesty",
+        "ur": "جلالت/عظمت",
+        "tr": "celalet",
+        "fa": "جلالت",
+        "id": "keagungan",
+        "bn": "মহিমা",
+        "es": "la majestad",
+        "fr": "la grandeur",
+        "de": "die Majestät",
+        "ru": "величием",
+        "zh": "威严"
+      }
+    },
+    {
+      "word": "الْعَظِيمَةِ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "the great",
+        "ur": "عظیم/بڑی",
+        "tr": "büyük",
+        "fa": "عظیم",
+        "id": "yang besar",
+        "bn": "মহান",
+        "es": "grande",
+        "fr": "grande",
+        "de": "großen",
+        "ru": "великим",
+        "zh": "伟大的"
+      }
+    },
+    {
+      "word": "فِي",
+      "pos": "PREP",
+      "translation": {
+        "en": "in",
+        "ur": "میں",
+        "tr": "-de",
+        "fa": "در",
+        "id": "di",
+        "bn": "-এ",
+        "es": "en",
+        "fr": "dans",
+        "de": "in",
+        "ru": "в",
+        "zh": "在"
+      }
+    },
+    {
+      "word": "الدَّوْلَةِ",
+      "pos": "N",
+      "translation": {
+        "en": "the state/dynasty",
+        "ur": "ریاست/سلطنت",
+        "tr": "devlet",
+        "fa": "دولت",
+        "id": "kerajaan",
+        "bn": "রাষ্ট্রে",
+        "es": "la dinastía",
+        "fr": "la dynastie",
+        "de": "der Dynastie",
+        "ru": "государстве",
+        "zh": "王朝"
+      }
+    },
+    {
+      "word": "الْبُوَيْهِيَّةِ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "the Buyid",
+        "ur": "بویہی",
+        "tr": "Büveyhî",
+        "fa": "بویهی",
+        "id": "Buwaihi",
+        "bn": "বুয়িহি",
+        "es": "Buyí",
+        "fr": "Bouyide",
+        "de": "Buyidischen",
+        "ru": "Буидской",
+        "zh": "布韦希"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "而"
+      }
+    },
+    {
+      "word": "كَانَ",
+      "pos": "V",
+      "translation": {
+        "en": "he was",
+        "ur": "وہ تھا",
+        "tr": "idi",
+        "fa": "بود",
+        "id": "adalah",
+        "bn": "ছিলেন",
+        "es": "era",
+        "fr": "était",
+        "de": "war",
+        "ru": "был",
+        "zh": "他是"
+      }
+    },
+    {
+      "word": "كَثِيرَ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "abundant in",
+        "ur": "کثیر/بکثرت",
+        "tr": "çok",
+        "fa": "کثیر",
+        "id": "banyak",
+        "bn": "প্রচুর",
+        "es": "abundante en",
+        "fr": "abondant en",
+        "de": "reichlich an",
+        "ru": "обильным в",
+        "zh": "多于"
+      }
+    },
+    {
+      "word": "الصَّدَقَاتِ",
+      "pos": "N",
+      "translation": {
+        "en": "charitable donations",
+        "ur": "صدقات/خیرات",
+        "tr": "sadakalar",
+        "fa": "صدقات",
+        "id": "sedekah",
+        "bn": "সদকাহ",
+        "es": "las limosnas",
+        "fr": "les aumônes",
+        "de": "Almosen",
+        "ru": "раздаче милостыни",
+        "zh": "施舍"
+      }
+    },
+    {
+      "word": "عَظِيمَ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "great in",
+        "ur": "عظیم",
+        "tr": "büyük",
+        "fa": "عظیم",
+        "id": "besar dalam",
+        "bn": "মহান",
+        "es": "grande en",
+        "fr": "grand en",
+        "de": "groß in",
+        "ru": "великим в",
+        "zh": "于…伟大"
+      }
+    },
+    {
+      "word": "الْخُشُوعِ",
+      "pos": "N",
+      "translation": {
+        "en": "humility/reverence",
+        "ur": "خشوع/عاجزی",
+        "tr": "huşu",
+        "fa": "خشوع",
+        "id": "kekhusyukan",
+        "bn": "খুশু/বিনয়",
+        "es": "la humildad",
+        "fr": "l'humilité",
+        "de": "Demut",
+        "ru": "смирении",
+        "zh": "虔诚谦逊"
+      }
+    },
+    {
+      "word": "كَثِيرَ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "abundant in",
+        "ur": "کثیر/بکثرت",
+        "tr": "çok",
+        "fa": "کثیر",
+        "id": "banyak",
+        "bn": "প্রচুর",
+        "es": "abundante en",
+        "fr": "abondant en",
+        "de": "reichlich an",
+        "ru": "обильным в",
+        "zh": "多于"
+      }
+    },
+    {
+      "word": "الصَّلَاةِ",
+      "pos": "N",
+      "translation": {
+        "en": "salat (prayer)",
+        "ur": "نماز",
+        "tr": "namaz",
+        "fa": "نماز",
+        "id": "salat",
+        "bn": "নামাজ",
+        "es": "la oración",
+        "fr": "la prière",
+        "de": "Gebet",
+        "ru": "намаза",
+        "zh": "礼拜"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "与"
+      }
+    },
+    {
+      "word": "الصَّوْمِ",
+      "pos": "N",
+      "translation": {
+        "en": "sawm (fasting)",
+        "ur": "روزہ",
+        "tr": "oruç",
+        "fa": "روزه",
+        "id": "puasa",
+        "bn": "রোজা",
+        "es": "el ayuno",
+        "fr": "le jeûne",
+        "de": "Fasten",
+        "ru": "поста",
+        "zh": "斋戒"
+      }
+    },
+    {
+      "word": "حَسَنَ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "excellent in",
+        "ur": "اچھا/خوبصورت",
+        "tr": "güzel",
+        "fa": "نیکو",
+        "id": "indah",
+        "bn": "সুন্দর",
+        "es": "bello en",
+        "fr": "beau en",
+        "de": "schön in",
+        "ru": "прекрасным в",
+        "zh": "端庄于"
+      }
+    },
+    {
+      "word": "اللِّبَاسِ)(1)",
+      "pos": "N",
+      "translation": {
+        "en": "dress/clothing",
+        "ur": "لباس/پوشاک",
+        "tr": "giyim",
+        "fa": "لباس",
+        "id": "pakaian",
+        "bn": "পোশাক",
+        "es": "la vestimenta",
+        "fr": "le vêtement",
+        "de": "Kleidung",
+        "ru": "одеянии",
+        "zh": "衣着"
+      }
+    }
+  ]
+}
+```
+
+---
+
+**Summary of changes made:**
+
+| # | Issue | Action |
+|---|-------|--------|
+| 1–24 | LOW arabic_echo (fa/ur translations matching Arabic) | **No change** — all verified as legitimate shared vocabulary: "و/و" (conjunction shared in Arabic-Persian), "تاریخ" (loanword in both Urdu & Persian), "مشایخ/رئیس/عظیم/کثیر/اهل" (common Arabic loanwords used identically in Persian & Urdu), proper nouns "طیّ/الحلبی" (correct retention in both scripts) |
+| 25 | HIGH word_text_mismatch — `word_analysis[47].word` | **Fixed**: changed `"اللِّبَاسِ"` → `"اللِّبَاسِ)(1)"` to faithfully reflect the footnote marker `)(1)` present in the original Arabic source text |

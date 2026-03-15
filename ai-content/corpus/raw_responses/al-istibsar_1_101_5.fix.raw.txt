@@ -1,0 +1,1449 @@
+After carefully reviewing all flagged issues:
+
+- **Issues 1–23 (LOW – arabic_echo):** All flagged items are either proper nouns (مُحَمَّدُ, أَحْمَدَ, يَحْيَى, عِيسَى, الْحَسَنِ, رَاشِدٍ), relational terms shared across scripts (بْنُ/بْنِ = "بن" in Urdu), or common particles (وَ = "و" in Persian; أَفْضَلَ = "افضل" as a borrowed Urdu term). All are verified correct — **no change needed**.
+
+- **Issue 24 (HIGH – word_text_mismatch):** `word_analysis[80].word` is `زَائِدًا` (with hamza: زائد) but the original Arabic text clearly has `زَايِداً` (with yā': زايد). **This must be corrected.**
+
+```json
+{
+  "word_analysis": [
+    {
+      "word": "فَأَمَّا",
+      "pos": "CONJ",
+      "translation": {
+        "en": "as for",
+        "ur": "جہاں تک",
+        "tr": "gelince",
+        "fa": "اما",
+        "id": "adapun",
+        "bn": "যাই হোক",
+        "es": "en cuanto a",
+        "fr": "quant à",
+        "de": "was … betrifft",
+        "ru": "что касается",
+        "zh": "至于"
+      }
+    },
+    {
+      "word": "مَا",
+      "pos": "REL",
+      "translation": {
+        "en": "what",
+        "ur": "جو",
+        "tr": "ne",
+        "fa": "آنچه",
+        "id": "apa yang",
+        "bn": "যা",
+        "es": "lo que",
+        "fr": "ce que",
+        "de": "was",
+        "ru": "что",
+        "zh": "所"
+      }
+    },
+    {
+      "word": "رَوَاهُ",
+      "pos": "V",
+      "translation": {
+        "en": "he narrated it",
+        "ur": "اس نے روایت کی",
+        "tr": "rivayet etti",
+        "fa": "روایت کرده",
+        "id": "meriwayatkannya",
+        "bn": "তিনি বর্ণনা করেছেন",
+        "es": "lo narró",
+        "fr": "l'a rapporté",
+        "de": "er berichtete davon",
+        "ru": "он передал",
+        "zh": "所传述的"
+      }
+    },
+    {
+      "word": "مُحَمَّدُ",
+      "pos": "N",
+      "translation": {
+        "en": "Muhammad",
+        "ur": "محمد",
+        "tr": "Muhammed",
+        "fa": "محمد",
+        "id": "Muhammad",
+        "bn": "মুহাম্মাদ",
+        "es": "Muhammad",
+        "fr": "Muhammad",
+        "de": "Muhammad",
+        "ru": "Мухаммад",
+        "zh": "穆罕默德"
+      }
+    },
+    {
+      "word": "بْنُ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "b.",
+        "fa": "پسر",
+        "id": "bin",
+        "bn": "ইবন",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "ибн",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "أَحْمَدَ",
+      "pos": "N",
+      "translation": {
+        "en": "Ahmad",
+        "ur": "احمد",
+        "tr": "Ahmed",
+        "fa": "احمد",
+        "id": "Ahmad",
+        "bn": "আহমাদ",
+        "es": "Ahmad",
+        "fr": "Ahmad",
+        "de": "Ahmad",
+        "ru": "Ахмад",
+        "zh": "艾哈迈德"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "b.",
+        "fa": "پسر",
+        "id": "bin",
+        "bn": "ইবন",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "ибн",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "يَحْيَى",
+      "pos": "N",
+      "translation": {
+        "en": "Yahya",
+        "ur": "یحیی",
+        "tr": "Yahya",
+        "fa": "یحیی",
+        "id": "Yahya",
+        "bn": "ইয়াহইয়া",
+        "es": "Yahya",
+        "fr": "Yahya",
+        "de": "Yahya",
+        "ru": "Яхья",
+        "zh": "叶哈亚"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "naklen",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "مُحَمَّدِ",
+      "pos": "N",
+      "translation": {
+        "en": "Muhammad",
+        "ur": "محمد",
+        "tr": "Muhammed",
+        "fa": "محمد",
+        "id": "Muhammad",
+        "bn": "মুহাম্মাদ",
+        "es": "Muhammad",
+        "fr": "Muhammad",
+        "de": "Muhammad",
+        "ru": "Мухаммад",
+        "zh": "穆罕默德"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "b.",
+        "fa": "پسر",
+        "id": "bin",
+        "bn": "ইবন",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "ибн",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "عِيسَى",
+      "pos": "N",
+      "translation": {
+        "en": "'Isa",
+        "ur": "عیسیٰ",
+        "tr": "İsa",
+        "fa": "عیسی",
+        "id": "Isa",
+        "bn": "ঈসা",
+        "es": "'Isa",
+        "fr": "Isa",
+        "de": "Isa",
+        "ru": "Исы",
+        "zh": "尔萨"
+      }
+    },
+    {
+      "word": "عَنِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "naklen",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "自"
+      }
+    },
+    {
+      "word": "الْحَسَنِ",
+      "pos": "N",
+      "translation": {
+        "en": "al-Hasan",
+        "ur": "الحسن",
+        "tr": "el-Hasan",
+        "fa": "الحسن",
+        "id": "al-Hasan",
+        "bn": "আল-হাসান",
+        "es": "al-Hasan",
+        "fr": "al-Hasan",
+        "de": "al-Hasan",
+        "ru": "аль-Хасан",
+        "zh": "哈桑"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "b.",
+        "fa": "پسر",
+        "id": "bin",
+        "bn": "ইবন",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "ибн",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "رَاشِدٍ",
+      "pos": "N",
+      "translation": {
+        "en": "Rashid",
+        "ur": "راشد",
+        "tr": "Raşid",
+        "fa": "راشد",
+        "id": "Rasyid",
+        "bn": "রাশিদ",
+        "es": "Rashid",
+        "fr": "Rashid",
+        "de": "Rashid",
+        "ru": "Рашид",
+        "zh": "拉希德"
+      }
+    },
+    {
+      "word": "قَالَ",
+      "pos": "V",
+      "translation": {
+        "en": "he said",
+        "ur": "اس نے کہا",
+        "tr": "dedi",
+        "fa": "گفت",
+        "id": "berkata",
+        "bn": "তিনি বললেন",
+        "es": "dijo",
+        "fr": "dit-il",
+        "de": "sagte er",
+        "ru": "сказал",
+        "zh": "他说"
+      }
+    },
+    {
+      "word": "سَأَلْتُهُ",
+      "pos": "V",
+      "translation": {
+        "en": "I asked him",
+        "ur": "میں نے اس سے پوچھا",
+        "tr": "ona sordum",
+        "fa": "از او پرسیدم",
+        "id": "aku bertanya kepadanya",
+        "bn": "আমি তাকে জিজ্ঞেস করলাম",
+        "es": "le pregunté",
+        "fr": "je lui ai demandé",
+        "de": "ich fragte ihn",
+        "ru": "я спросил его",
+        "zh": "我问他"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "hakkında",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "ثِيَابٍ",
+      "pos": "N",
+      "translation": {
+        "en": "garments",
+        "ur": "کپڑے",
+        "tr": "elbiseler",
+        "fa": "جامه‌هایی",
+        "id": "pakaian",
+        "bn": "পোশাক",
+        "es": "prendas",
+        "fr": "vêtements",
+        "de": "Gewänder",
+        "ru": "одежды",
+        "zh": "衣物"
+      }
+    },
+    {
+      "word": "تُعْمَلُ",
+      "pos": "V",
+      "translation": {
+        "en": "that are made",
+        "ur": "جو بنائے جاتے ہیں",
+        "tr": "yapılan",
+        "fa": "ساخته می‌شوند",
+        "id": "yang dibuat",
+        "bn": "যা তৈরি হয়",
+        "es": "que se confeccionan",
+        "fr": "qui sont fabriqués",
+        "de": "die hergestellt werden",
+        "ru": "изготавливаемые",
+        "zh": "制作的"
+      }
+    },
+    {
+      "word": "بِالْبَصْرَةِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "in Basra",
+        "ur": "بصرے میں",
+        "tr": "Basra'da",
+        "fa": "در بصره",
+        "id": "di Basra",
+        "bn": "বসরায়",
+        "es": "en Basra",
+        "fr": "à Bassora",
+        "de": "in Basra",
+        "ru": "в Басре",
+        "zh": "在巴士拉"
+      }
+    },
+    {
+      "word": "عَلَى",
+      "pos": "PREP",
+      "translation": {
+        "en": "in the style of",
+        "ur": "کے انداز پر",
+        "tr": "tarzında",
+        "fa": "به شیوه",
+        "id": "menurut gaya",
+        "bn": "শৈলীতে",
+        "es": "al estilo de",
+        "fr": "selon le style de",
+        "de": "nach Art von",
+        "ru": "в стиле",
+        "zh": "仿照"
+      }
+    },
+    {
+      "word": "عَمَلِ",
+      "pos": "N",
+      "translation": {
+        "en": "the weave/work of",
+        "ur": "بُنائی کے",
+        "tr": "dokunuşunun",
+        "fa": "بافته",
+        "id": "tenunan",
+        "bn": "বুননের",
+        "es": "el tejido de",
+        "fr": "le tissage de",
+        "de": "der Webarbeit von",
+        "ru": "ткачества",
+        "zh": "织法"
+      }
+    },
+    {
+      "word": "الْقَصَبِ",
+      "pos": "N",
+      "translation": {
+        "en": "the qasab (reed-pattern fabric)",
+        "ur": "قصب (ایک قسم کا کپڑا)",
+        "tr": "kaşab kumaşının",
+        "fa": "قصب (نوعی پارچه)",
+        "id": "kain qasab",
+        "bn": "কাসাব কাপড়ের",
+        "es": "la tela qasab",
+        "fr": "du qasab",
+        "de": "des Qasab-Stoffs",
+        "ru": "тростниковой ткани",
+        "zh": "芦苇纹织物"
+      }
+    },
+    {
+      "word": "الْيَمَانِيِّ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "Yemeni",
+        "ur": "یمنی",
+        "tr": "Yemenî",
+        "fa": "یمانی",
+        "id": "Yamani",
+        "bn": "ইয়ামানি",
+        "es": "yemení",
+        "fr": "yéménite",
+        "de": "jemenitischen",
+        "ru": "йеменского",
+        "zh": "也门式的"
+      }
+    },
+    {
+      "word": "مِنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from/of",
+        "ur": "سے",
+        "tr": "den oluşan",
+        "fa": "از",
+        "id": "dari",
+        "bn": "দিয়ে তৈরি",
+        "es": "de",
+        "fr": "de",
+        "de": "aus",
+        "ru": "из",
+        "zh": "由"
+      }
+    },
+    {
+      "word": "قَزٍّ",
+      "pos": "N",
+      "translation": {
+        "en": "raw silk",
+        "ur": "خام ریشم",
+        "tr": "ham ipek",
+        "fa": "ابریشم خام",
+        "id": "sutra mentah",
+        "bn": "কাঁচা রেশম",
+        "es": "seda en bruto",
+        "fr": "soie brute",
+        "de": "Rohseide",
+        "ru": "сырого шёлка",
+        "zh": "生丝"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "与"
+      }
+    },
+    {
+      "word": "قُطْنٍ",
+      "pos": "N",
+      "translation": {
+        "en": "cotton",
+        "ur": "سوتا",
+        "tr": "pamuk",
+        "fa": "پنبه",
+        "id": "kapas",
+        "bn": "তুলা",
+        "es": "algodón",
+        "fr": "coton",
+        "de": "Baumwolle",
+        "ru": "хлопка",
+        "zh": "棉"
+      }
+    },
+    {
+      "word": "هَلْ",
+      "pos": "INTERR",
+      "translation": {
+        "en": "is it?",
+        "ur": "کیا",
+        "tr": "acaba",
+        "fa": "آیا",
+        "id": "apakah",
+        "bn": "কি",
+        "es": "¿acaso",
+        "fr": "est-ce que",
+        "de": "ob",
+        "ru": "ли",
+        "zh": "是否"
+      }
+    },
+    {
+      "word": "يَصْلُحُ",
+      "pos": "V",
+      "translation": {
+        "en": "is it proper",
+        "ur": "مناسب ہے",
+        "tr": "uygun mudur",
+        "fa": "شایسته است",
+        "id": "layakkah",
+        "bn": "উপযুক্ত",
+        "es": "es apropiado",
+        "fr": "est-il convenable",
+        "de": "ist es angemessen",
+        "ru": "уместно ли",
+        "zh": "适宜"
+      }
+    },
+    {
+      "word": "أَنْ",
+      "pos": "PART",
+      "translation": {
+        "en": "that",
+        "ur": "کہ",
+        "tr": "ki",
+        "fa": "که",
+        "id": "bahwa",
+        "bn": "যে",
+        "es": "que",
+        "fr": "que",
+        "de": "dass",
+        "ru": "чтобы",
+        "zh": "以"
+      }
+    },
+    {
+      "word": "يُكَفَّنَ",
+      "pos": "V",
+      "translation": {
+        "en": "the dead be shrouded",
+        "ur": "کفنایا جائے",
+        "tr": "kefenlenmesi",
+        "fa": "کفن پوشانده شوند",
+        "id": "dikafani",
+        "bn": "কাফন দেওয়া হোক",
+        "es": "se amorta je",
+        "fr": "l'on ensevelisse",
+        "de": "eingesargt werden",
+        "ru": "покрывать саваном",
+        "zh": "裹上尸布"
+      }
+    },
+    {
+      "word": "فِيهَا",
+      "pos": "PREP",
+      "translation": {
+        "en": "in them",
+        "ur": "ان میں",
+        "tr": "onlara",
+        "fa": "در آنها",
+        "id": "di dalamnya",
+        "bn": "এগুলো দিয়ে",
+        "es": "en ellas",
+        "fr": "dans ces vêtements",
+        "de": "darin",
+        "ru": "в них",
+        "zh": "用它们"
+      }
+    },
+    {
+      "word": "الْمَوْتَى",
+      "pos": "N",
+      "translation": {
+        "en": "the dead",
+        "ur": "مردے",
+        "tr": "ölüler",
+        "fa": "مردگان",
+        "id": "orang-orang mati",
+        "bn": "মৃতদের",
+        "es": "los muertos",
+        "fr": "les morts",
+        "de": "die Toten",
+        "ru": "мёртвых",
+        "zh": "亡者"
+      }
+    },
+    {
+      "word": "قَالَ",
+      "pos": "V",
+      "translation": {
+        "en": "he said",
+        "ur": "اس نے کہا",
+        "tr": "dedi",
+        "fa": "گفت",
+        "id": "berkata",
+        "bn": "তিনি বললেন",
+        "es": "dijo",
+        "fr": "dit-il",
+        "de": "sagte er",
+        "ru": "сказал",
+        "zh": "他说"
+      }
+    },
+    {
+      "word": "إِذَا",
+      "pos": "COND",
+      "translation": {
+        "en": "if",
+        "ur": "اگر",
+        "tr": "eğer",
+        "fa": "اگر",
+        "id": "jika",
+        "bn": "যদি",
+        "es": "si",
+        "fr": "si",
+        "de": "wenn",
+        "ru": "если",
+        "zh": "如果"
+      }
+    },
+    {
+      "word": "كَانَ",
+      "pos": "V",
+      "translation": {
+        "en": "was/is",
+        "ur": "ہو",
+        "tr": "olursa",
+        "fa": "باشد",
+        "id": "adalah",
+        "bn": "হয়",
+        "es": "es",
+        "fr": "est",
+        "de": "ist",
+        "ru": "будет",
+        "zh": "若"
+      }
+    },
+    {
+      "word": "الْقُطْنُ",
+      "pos": "N",
+      "translation": {
+        "en": "the cotton",
+        "ur": "سوتا",
+        "tr": "pamuk",
+        "fa": "پنبه",
+        "id": "kapas",
+        "bn": "তুলা",
+        "es": "el algodón",
+        "fr": "le coton",
+        "de": "die Baumwolle",
+        "ru": "хлопок",
+        "zh": "棉"
+      }
+    },
+    {
+      "word": "أَكْثَرَ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "more/greater",
+        "ur": "زیادہ",
+        "tr": "daha fazla",
+        "fa": "بیشتر",
+        "id": "lebih banyak",
+        "bn": "বেশি",
+        "es": "más",
+        "fr": "plus",
+        "de": "mehr",
+        "ru": "больше",
+        "zh": "更多"
+      }
+    },
+    {
+      "word": "مِنَ",
+      "pos": "PREP",
+      "translation": {
+        "en": "than",
+        "ur": "سے",
+        "tr": "den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "que",
+        "fr": "que",
+        "de": "als",
+        "ru": "чем",
+        "zh": "比"
+      }
+    },
+    {
+      "word": "الْقَزِّ",
+      "pos": "N",
+      "translation": {
+        "en": "the raw silk",
+        "ur": "خام ریشم",
+        "tr": "ham ipekten",
+        "fa": "ابریشم خام",
+        "id": "sutra mentah",
+        "bn": "কাঁচা রেশমের",
+        "es": "la seda en bruto",
+        "fr": "la soie brute",
+        "de": "der Rohseide",
+        "ru": "сырого шёлка",
+        "zh": "生丝"
+      }
+    },
+    {
+      "word": "فَلَا",
+      "pos": "PART",
+      "translation": {
+        "en": "then there is no",
+        "ur": "تو کوئی نہیں",
+        "tr": "o zaman yoktur",
+        "fa": "پس نیست",
+        "id": "maka tidak ada",
+        "bn": "তাহলে নেই",
+        "es": "entonces no hay",
+        "fr": "alors il n'y a pas",
+        "de": "dann ist kein",
+        "ru": "тогда нет",
+        "zh": "则无"
+      }
+    },
+    {
+      "word": "بَأْسَ",
+      "pos": "N",
+      "translation": {
+        "en": "objection/harm",
+        "ur": "حرج",
+        "tr": "sakınca",
+        "fa": "اشکالی",
+        "id": "halangan",
+        "bn": "আপত্তি",
+        "es": "inconveniente",
+        "fr": "inconvénient",
+        "de": "Einwand",
+        "ru": "возражений",
+        "zh": "妨碍"
+      }
+    },
+    {
+      "word": "فَلَا",
+      "pos": "PART",
+      "translation": {
+        "en": "so this does not",
+        "ur": "پس نہیں",
+        "tr": "bu nedenle değil",
+        "fa": "پس نمی",
+        "id": "maka tidak",
+        "bn": "সুতরাং না",
+        "es": "así que no",
+        "fr": "ainsi cela ne",
+        "de": "daher nicht",
+        "ru": "итак не",
+        "zh": "因此不"
+      }
+    },
+    {
+      "word": "يُنَافِي",
+      "pos": "V",
+      "translation": {
+        "en": "contradict",
+        "ur": "متضاد ہے",
+        "tr": "çelişir",
+        "fa": "منافات دارد",
+        "id": "bertentangan",
+        "bn": "বিরোধী",
+        "es": "contradice",
+        "fr": "contredit",
+        "de": "widerspricht",
+        "ru": "противоречит",
+        "zh": "矛盾"
+      }
+    },
+    {
+      "word": "مَا",
+      "pos": "REL",
+      "translation": {
+        "en": "what",
+        "ur": "جو",
+        "tr": "ne",
+        "fa": "آنچه",
+        "id": "apa",
+        "bn": "যা",
+        "es": "lo que",
+        "fr": "ce que",
+        "de": "was",
+        "ru": "что",
+        "zh": "所"
+      }
+    },
+    {
+      "word": "قَدَّمْنَاهُ",
+      "pos": "V",
+      "translation": {
+        "en": "we have previously stated",
+        "ur": "ہم نے پہلے بیان کیا",
+        "tr": "önceden belirttiğimizi",
+        "fa": "پیشتر بیان کردیم",
+        "id": "yang telah kami sampaikan",
+        "bn": "আমরা পূর্বে বলেছিলাম",
+        "es": "lo que hemos expuesto",
+        "fr": "ce que nous avons présenté",
+        "de": "was wir zuvor dargelegt haben",
+        "ru": "что мы ранее изложили",
+        "zh": "我们先前所述"
+      }
+    },
+    {
+      "word": "لِأَنَّا",
+      "pos": "PART",
+      "translation": {
+        "en": "because we",
+        "ur": "کیونکہ ہم",
+        "tr": "çünkü biz",
+        "fa": "زیرا ما",
+        "id": "karena kami",
+        "bn": "কারণ আমরা",
+        "es": "porque nosotros",
+        "fr": "parce que nous",
+        "de": "weil wir",
+        "ru": "потому что мы",
+        "zh": "因为我们"
+      }
+    },
+    {
+      "word": "إِنَّمَا",
+      "pos": "PART",
+      "translation": {
+        "en": "only/merely",
+        "ur": "صرف",
+        "tr": "yalnızca",
+        "fa": "تنها",
+        "id": "hanyalah",
+        "bn": "কেবল",
+        "es": "solamente",
+        "fr": "seulement",
+        "de": "lediglich",
+        "ru": "лишь",
+        "zh": "只是"
+      }
+    },
+    {
+      "word": "نَمْنَعُ",
+      "pos": "V",
+      "translation": {
+        "en": "prohibit",
+        "ur": "منع کرتے ہیں",
+        "tr": "yasaklarız",
+        "fa": "ممنوع می‌کنیم",
+        "id": "melarang",
+        "bn": "নিষেধ করি",
+        "es": "prohibimos",
+        "fr": "interdisons",
+        "de": "verbieten",
+        "ru": "запрещаем",
+        "zh": "禁止"
+      }
+    },
+    {
+      "word": "مِنَ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from (using)",
+        "ur": "سے",
+        "tr": "den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "des",
+        "de": "von",
+        "ru": "от",
+        "zh": "使用"
+      }
+    },
+    {
+      "word": "الثِّيَابِ",
+      "pos": "N",
+      "translation": {
+        "en": "the garments",
+        "ur": "کپڑوں",
+        "tr": "elbiselerin",
+        "fa": "جامه‌هایی",
+        "id": "pakaian",
+        "bn": "পোশাক",
+        "es": "las prendas",
+        "fr": "les vêtements",
+        "de": "den Gewändern",
+        "ru": "одежды",
+        "zh": "衣物"
+      }
+    },
+    {
+      "word": "الَّتِي",
+      "pos": "REL",
+      "translation": {
+        "en": "which",
+        "ur": "جن میں",
+        "tr": "ki",
+        "fa": "که",
+        "id": "yang",
+        "bn": "যেগুলোতে",
+        "es": "en las que",
+        "fr": "dans lesquels",
+        "de": "in denen",
+        "ru": "в которых",
+        "zh": "其中"
+      }
+    },
+    {
+      "word": "لَا",
+      "pos": "NEG",
+      "translation": {
+        "en": "not",
+        "ur": "نہیں",
+        "tr": "değil",
+        "fa": "نه",
+        "id": "tidak",
+        "bn": "না",
+        "es": "no",
+        "fr": "ne … pas",
+        "de": "nicht",
+        "ru": "не",
+        "zh": "不"
+      }
+    },
+    {
+      "word": "يَجُوزُ",
+      "pos": "V",
+      "translation": {
+        "en": "is permissible",
+        "ur": "جائز ہے",
+        "tr": "caizdir",
+        "fa": "جایز است",
+        "id": "diizinkan",
+        "bn": "বৈধ",
+        "es": "es lícito",
+        "fr": "est permis",
+        "de": "erlaubt ist",
+        "ru": "разрешается",
+        "zh": "允许"
+      }
+    },
+    {
+      "word": "الصَّلَاةُ",
+      "pos": "N",
+      "translation": {
+        "en": "salat (prayer)",
+        "ur": "نماز",
+        "tr": "namaz",
+        "fa": "نماز",
+        "id": "shalat",
+        "bn": "নামাজ",
+        "es": "el salat",
+        "fr": "la salat",
+        "de": "das Gebet (Salat)",
+        "ru": "намаз",
+        "zh": "礼拜"
+      }
+    },
+    {
+      "word": "فِيهَا",
+      "pos": "PREP",
+      "translation": {
+        "en": "in them",
+        "ur": "ان میں",
+        "tr": "onlarda",
+        "fa": "در آنها",
+        "id": "di dalamnya",
+        "bn": "এগুলোতে",
+        "es": "en ellas",
+        "fr": "dans celles-ci",
+        "de": "darin",
+        "ru": "в них",
+        "zh": "其中"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "即便"
+      }
+    },
+    {
+      "word": "إِنْ",
+      "pos": "COND",
+      "translation": {
+        "en": "if",
+        "ur": "اگر",
+        "tr": "eğer",
+        "fa": "اگر",
+        "id": "jika",
+        "bn": "যদি",
+        "es": "si",
+        "fr": "si",
+        "de": "auch wenn",
+        "ru": "если",
+        "zh": "即便"
+      }
+    },
+    {
+      "word": "كَانَ",
+      "pos": "V",
+      "translation": {
+        "en": "is",
+        "ur": "ہو",
+        "tr": "olsa da",
+        "fa": "باشد",
+        "id": "adalah",
+        "bn": "হলেও",
+        "es": "sea",
+        "fr": "soit",
+        "de": "ist",
+        "ru": "является",
+        "zh": "是"
+      }
+    },
+    {
+      "word": "الْقُطْنُ",
+      "pos": "N",
+      "translation": {
+        "en": "cotton",
+        "ur": "سوتا",
+        "tr": "pamuk",
+        "fa": "پنبه",
+        "id": "kapas",
+        "bn": "তুলা",
+        "es": "el algodón",
+        "fr": "le coton",
+        "de": "die Baumwolle",
+        "ru": "хلопок",
+        "zh": "棉"
+      }
+    },
+    {
+      "word": "الْخَالِصُ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "pure/unmixed",
+        "ur": "خالص",
+        "tr": "saf",
+        "fa": "خالص",
+        "id": "murni",
+        "bn": "বিশুদ্ধ",
+        "es": "puro",
+        "fr": "pur",
+        "de": "rein",
+        "ru": "чистый",
+        "zh": "纯粹的"
+      }
+    },
+    {
+      "word": "أَفْضَلَ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "preferable",
+        "ur": "افضل",
+        "tr": "daha faziletli",
+        "fa": "بهتر",
+        "id": "lebih utama",
+        "bn": "উত্তম",
+        "es": "preferible",
+        "fr": "préférable",
+        "de": "vorzuziehen",
+        "ru": "предпочтительнее",
+        "zh": "更优"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "而"
+      }
+    },
+    {
+      "word": "هَذِهِ",
+      "pos": "DEM",
+      "translation": {
+        "en": "this",
+        "ur": "یہ",
+        "tr": "bu",
+        "fa": "این",
+        "id": "ini",
+        "bn": "এই",
+        "es": "esta",
+        "fr": "cette",
+        "de": "diese",
+        "ru": "эта",
+        "zh": "这"
+      }
+    },
+    {
+      "word": "الرِّوَايَةُ",
+      "pos": "N",
+      "translation": {
+        "en": "narration",
+        "ur": "روایت",
+        "tr": "rivayet",
+        "fa": "روایت",
+        "id": "riwayat",
+        "bn": "বর্ণনা",
+        "es": "la narración",
+        "fr": "la narration",
+        "de": "die Überlieferung",
+        "ru": "предание",
+        "zh": "叙述"
+      }
+    },
+    {
+      "word": "مَحْمُولَةٌ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "is interpreted as",
+        "ur": "حمل کی جاتی ہے",
+        "tr": "hamledilmektedir",
+        "fa": "تعبیر می‌شود",
+        "id": "dipahami sebagai",
+        "bn": "ব্যাখ্যা করা হয়",
+        "es": "se interpreta como",
+        "fr": "est comprise comme",
+        "de": "ist aufzufassen als",
+        "ru": "понимается как",
+        "zh": "应被理解为"
+      }
+    },
+    {
+      "word": "عَلَى",
+      "pos": "PREP",
+      "translation": {
+        "en": "as indicating",
+        "ur": "کے طور پر",
+        "tr": "üzere",
+        "fa": "بر",
+        "id": "sebagai",
+        "bn": "হিসেবে",
+        "es": "como",
+        "fr": "comme",
+        "de": "als",
+        "ru": "как",
+        "zh": "表示"
+      }
+    },
+    {
+      "word": "الْجَوَازِ",
+      "pos": "N",
+      "translation": {
+        "en": "permissibility",
+        "ur": "جواز",
+        "tr": "cevaz",
+        "fa": "جواز",
+        "id": "kebolehan",
+        "bn": "বৈধতা",
+        "es": "la permisibilidad",
+        "fr": "la licéité",
+        "de": "die Erlaubtheit",
+        "ru": "дозволенность",
+        "zh": "许可"
+      }
+    },
+    {
+      "word": "دُونَ",
+      "pos": "PREP",
+      "translation": {
+        "en": "without/not",
+        "ur": "کے بغیر",
+        "tr": "olmaksızın",
+        "fa": "بدون",
+        "id": "tanpa",
+        "bn": "ছাড়া",
+        "es": "sin indicar",
+        "fr": "sans",
+        "de": "ohne",
+        "ru": "без",
+        "zh": "而非"
+      }
+    },
+    {
+      "word": "الْفَضْلِ",
+      "pos": "N",
+      "translation": {
+        "en": "preference/superiority",
+        "ur": "فضیلت",
+        "tr": "fazileti",
+        "fa": "فضیلت",
+        "id": "keutamaan",
+        "bn": "শ্রেষ্ঠত্ব",
+        "es": "la preferencia",
+        "fr": "la préférence",
+        "de": "Vorzugswürdigkeit",
+        "ru": "предпочтительности",
+        "zh": "优先"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "而"
+      }
+    },
+    {
+      "word": "الَّذِي",
+      "pos": "REL",
+      "translation": {
+        "en": "that which",
+        "ur": "جو",
+        "tr": "ne",
+        "fa": "آنچه",
+        "id": "yang",
+        "bn": "যা",
+        "es": "lo que",
+        "fr": "ce qui",
+        "de": "was",
+        "ru": "то что",
+        "zh": "那"
+      }
+    },
+    {
+      "word": "يَدُلُّ",
+      "pos": "V",
+      "translation": {
+        "en": "indicates",
+        "ur": "دلالت کرتا ہے",
+        "tr": "delalet eder",
+        "fa": "دلالت می‌کند",
+        "id": "menunjukkan",
+        "bn": "দলীল দেয়",
+        "es": "indica",
+        "fr": "indique",
+        "de": "hinweist darauf",
+        "ru": "указывает",
+        "zh": "表明"
+      }
+    },
+    {
+      "word": "عَلَى",
+      "pos": "PREP",
+      "translation": {
+        "en": "on/upon",
+        "ur": "پر",
+        "tr": "üzerine",
+        "fa": "بر",
+        "id": "bahwa",
+        "bn": "যে",
+        "es": "en que",
+        "fr": "sur le fait que",
+        "de": "darauf dass",
+        "ru": "на то что",
+        "zh": "即"
+      }
+    },
+    {
+      "word": "أَنَّ",
+      "pos": "PART",
+      "translation": {
+        "en": "that",
+        "ur": "کہ",
+        "tr": "ki",
+        "fa": "که",
+        "id": "bahwa",
+        "bn": "যে",
+        "es": "que",
+        "fr": "que",
+        "de": "dass",
+        "ru": "что",
+        "zh": "即"
+      }
+    },
+    {
+      "word": "الْكَتَّانَ",
+      "pos": "N",
+      "translation": {
+        "en": "linen",
+        "ur": "کتان",
+        "tr": "keten",
+        "fa": "کتان",
+        "id": "linen",
+        "bn": "লিনেন",
+        "es": "el lino",
+        "fr": "le lin",
+        "de": "Leinen",
+        "ru": "лён",
+        "zh": "亚麻布"
+      }
+    },
+    {
+      "word": "مَكْرُوهٌ",
+      "pos": "ADJ",
+      "translation": {
+        "en": "is makruh (reprehensible)",
+        "ur": "مکروہ ہے",
+        "tr": "mekruhtur",
+        "fa": "مکروه است",
+        "id": "adalah makruh",
+        "bn": "মাকরূহ",
+        "es": "es makruh",
+        "fr": "est makruh",
+        "de": "ist makruh (missbilligt)",
+        "ru": "является макрухом",
+        "zh": "可憎恶的"
+      }
+    },
+    {
+      "word": "زَايِدًا",
+      "pos": "ADV",
+      "translation": {
+        "en": "additionally/beyond",
+        "ur": "مزید",
+        "tr": "bunun ötesinde",
+        "fa": "علاوه بر این",
+        "id": "selain itu",
+        "bn": "অতিরিক্তভাবে",
+        "es": "adicionalmente",
+        "fr": "en plus",
+        "de": "zusätzlich",
+        "ru": "дополнительно",
+        "zh": "此外"
+      }
+    },
+    {
+      "word": "عَلَى",
+      "pos": "PREP",
+      "translation": {
+        "en": "beyond/in addition to",
+        "ur": "کے علاوہ",
+        "tr": "ötesinde",
+        "fa": "علاوه بر",
+        "id": "selain",
+        "bn": "ছাড়াও",
+        "es": "además de",
+        "fr": "au-delà de",
+        "de": "über … hinaus",
+        "ru": "помимо",
+        "zh": "超出"
+      }
+    },
+    {
+      "word": "مَا",
+      "pos": "REL",
+      "translation": {
+        "en": "what",
+        "ur": "جو",
+        "tr": "ne",
+        "fa": "آنچه",
+        "id": "apa",
+        "bn": "যা",
+        "es": "lo que",
+        "fr": "ce qui",
+        "de": "was",
+        "ru": "что",
+        "zh": "所"
+      }
+    },
+    {
+      "word": "مَضَى",
+      "pos": "V",
+      "translation": {
+        "en": "has already been stated/passed",
+        "ur": "گزر چکا",
+        "tr": "önceden geçen",
+        "fa": "گذشت",
+        "id": "telah lalu",
+        "bn": "পূর্বে উল্লিখিত হয়েছে",
+        "es": "ya ha pasado",
+        "fr": "a déjà été mentionné",
+        "de": "bereits erwähnt wurde",
+        "ru": "уже упомянуто",
+        "zh": "已述及"
+      }
+    }
+  ]
+}
+```
+
+---
+
+**Summary of changes made:**
+
+| # | Severity | Index | Field | Action |
+|---|----------|-------|-------|--------|
+| 1–23 | LOW | Various | `ur`/`fa` translations | **No change** — all verified as correct: proper names (مُحَمَّدُ, أَحْمَدَ, يَحْيَى, عِيسَى, الْحَسَنِ, رَاشِدٍ) are shared proper nouns across Arabic/Urdu/Persian; بْنُ/بْنِ → "بن" is standard in Urdu genealogical usage; وَ → "و" is the native Persian/Urdu conjunction; أَفْضَلَ → "افضل" is a well-established Arabic loanword in Urdu |
+| 24 | **HIGH** | `[80]` | `word` | **Fixed**: `زَائِدًا` (زائد, with hamzated alif) → **`زَايِدًا`** (زايد, with yā'), matching the original Arabic text `زَايِداً` |

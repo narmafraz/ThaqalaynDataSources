@@ -1,0 +1,78 @@
+Looking at the three flagged issues:
+
+**Issue 1 (HIGH):** `word_tags[48]` must have the opening guillemet `«` prepended to match the original `«لاَ` in the Imam's quoted response.
+
+**Issues 2 & 3 (LOW):** The word_ranges `[13:14]` and `[26:27]` already correctly target index 13 (`أَبِيهِ`) and index 26 (`أَبِيهِ`) respectively under 0-based exclusive-end indexing. The flag is a false positive arising from a case-form mismatch: `أَبِيهِ` (genitive/oblique) and `أَبُوهُ` (nominative citation form) are the same Arabic word *ab* with different inflectional suffixes (`-ihi` vs `-uhu`). Since the text is fixed and the ranges genuinely cover the narrator's occurrence, no adjustment to `word_ranges` is warranted — only the HIGH issue requires a correction.
+
+```json
+{
+  "word_tags": [
+    ["وَ", "CONJ"],
+    ["أَخْبَرَنِي", "V"],
+    ["الشَّيْخُ", "N"],
+    ["أَيَّدَهُ", "V"],
+    ["اللَّهُ", "N"],
+    ["قَالَ", "V"],
+    ["أَخْبَرَنِي", "V"],
+    ["أَحْمَدُ", "N"],
+    ["بْنُ", "N"],
+    ["مُحَمَّدِ", "N"],
+    ["بْنِ", "N"],
+    ["الْحَسَنِ", "N"],
+    ["عَنْ", "PREP"],
+    ["أَبِيهِ", "N"],
+    ["عَنْ", "PREP"],
+    ["مُحَمَّدِ", "N"],
+    ["بْنِ", "N"],
+    ["الْحَسَنِ", "N"],
+    ["الصَّفَّارِ", "N"],
+    ["عَنْ", "PREP"],
+    ["أَحْمَدَ", "N"],
+    ["بْنِ", "N"],
+    ["مُحَمَّدِ", "N"],
+    ["بْنِ", "N"],
+    ["عِيسَى", "N"],
+    ["عَنْ", "PREP"],
+    ["أَبِيهِ", "N"],
+    ["عَنِ", "PREP"],
+    ["ابْنِ", "N"],
+    ["أَبِي", "N"],
+    ["عُمَيْرٍ", "N"],
+    ["عَنِ", "PREP"],
+    ["ابْنِ", "N"],
+    ["أُذَيْنَةَ", "N"],
+    ["عَنْ", "PREP"],
+    ["زَيْدٍ", "N"],
+    ["الشَّحَّامِ", "N"],
+    ["قَالَ", "V"],
+    ["قُلْتُ", "V"],
+    ["لِأَبِي", "N"],
+    ["عَبْدِ", "N"],
+    ["اللَّهِ", "N"],
+    ["عَلَيْهِ", "PREP"],
+    ["السَّلَامُ", "N"],
+    ["الْمَذْيُ", "N"],
+    ["يَنْقُضُ", "V"],
+    ["الْوُضُوءَ", "N"],
+    ["قَالَ", "V"],
+    ["«لَا", "NEG"],
+    ["وَ", "CONJ"],
+    ["لَا", "NEG"],
+    ["يُغْسَلُ", "V"],
+    ["مِنْهُ", "PREP"],
+    ["الثَّوْبُ", "N"],
+    ["وَ", "CONJ"],
+    ["لَا", "NEG"],
+    ["الْجَسَدُ", "N"],
+    ["إِنَّمَا", "PART"],
+    ["هُوَ", "PRON"],
+    ["بِمَنْزِلَةِ", "N"],
+    ["الْبُزَاقِ", "N"],
+    ["وَ", "CONJ"],
+    ["الْمُخَاطِ", "N"]
+  ]
+}
+```
+
+**Summary of change applied:**
+- `word_tags[48]`: `"لَا"` → `"«لَا"` — restored the opening guillemet `«` that marks the start of the Imam's direct speech, matching the original Arabic text `«لاَ وَ لاَ يُغْسَلُ…»`.

@@ -1,0 +1,15 @@
+After carefully reviewing all 38 flagged issues, here is my analysis and corrected output:
+
+**Issues 1–32 (arabic_echo, LOW — proper nouns & shared terms):** All flagged words are proper names (Ja'far, Ali, Muhammad, Yahya, al-Husayn, al-Khattab, Asbat, al-Hasan, Musa) or the particle بن (ibn/bin). These words carry identical or near-identical forms in Urdu and Persian by convention — they are shared Islamic proper nouns and genealogical particles, not translation errors. ✅ Verified correct, no fix required.
+
+**Issues 33–36 (arabic_echo, LOW — "وَ" in fa):** Persian/Farsi uses "و" as its native word for "and," which is the same script as Arabic "وَ". This is a genuine shared lexical item across Arabic, Persian, and Urdu, not an untranslated echo. ✅ Verified correct, no fix required.
+
+**Issue 37 (chunk_translation_mismatch, MEDIUM):** The chunk translations are accurate and complete representations of their respective portions (isnad and body). The automated mismatch is due to the chunk translations being longer because they render the full isnad chain and both Q&A turns, while a verse-level summary would be more compact. The content is theologically and linguistically accurate. ✅ No fix required.
+
+**Issue 38 (word_count_mismatch, LOW):** The manuscript uses "ع" as an abbreviation for "عليه السلام". The word analysis correctly expands this to two words (عَلَيْهِ + السَّلَامُ), yielding 60 entries vs. 59 raw tokens. This is proper scholarly expansion, not an error. ✅ No fix required.
+
+Since all flagged issues verify as correct — proper nouns, shared cross-linguistic terms, acceptable abbreviation expansion, and accurate chunk translations — **no corrections are needed**:
+
+```json
+{}
+```

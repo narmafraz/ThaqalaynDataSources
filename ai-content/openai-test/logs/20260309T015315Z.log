@@ -1,0 +1,25 @@
+01:53:15 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\openai-test\logs\20260309T015315Z.log
+01:53:15 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\openai-test\logs\pipeline.jsonl
+01:53:15 INFO Word dictionary: 609 entries
+01:53:15 INFO Narrator templates: 1074 entries
+Pipeline v4 starting: 1 verses, 5 workers, backend=openai, model=gpt-4.1-mini
+01:53:15 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\al-kafi_1_1_1_1\system_prompt.txt
+01:53:15 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\al-kafi_1_1_1_1\user_message.txt
+01:53:15 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\al-kafi_1_1_1_1\metadata.json
+01:53:15 INFO GEN al-kafi_1_1_1_1 (48 words, single, openai)...
+01:54:38 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+01:54:38 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\al-kafi_1_1_1_1\raw_response.txt
+01:54:38 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\openai-test\raw_responses\al-kafi_1_1_1_1.raw.txt
+01:54:38 INFO Auto-fixed 1 issues: removed all invalid topics: ['theology', 'prophetic_tradition']
+01:54:38 INFO ERR al-kafi_1_1_1_1 [81s, $0.0110, 5462 tok]
+01:54:38 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\openai-test\stats\al-kafi_1_1_1_1.stats.json
+
+============================================================
+Pipeline Complete (1.4 min)
+  Total: 1 processed, 0 skipped
+  Pass: 0 | Fixed: 0 | Errors: 1
+  Cost: $0.01 | In: 5,729 | Out: 5,462
+============================================================
+01:54:38 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+01:54:38 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\openai-test\sessions\20260309T015315Z.json
+01:54:38 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\openai-test\logs\20260309T015315Z.log

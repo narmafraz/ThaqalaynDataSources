@@ -1,0 +1,66 @@
+Looking at each flagged issue:
+
+- **Issues 1–5 (LOW, arabic_echo):** All verified as correct:
+  - `بن` (ibn) is a standard shared Arabic-Urdu term for "son of."
+  - `احمد` (Ahmad) is a proper name used identically in Urdu and Persian.
+  - `و` (wāw) is the standard "and" conjunction used identically in Persian.
+  No changes needed for these fields.
+
+- **Issue 6 (MEDIUM, chunk_translation_mismatch zh):** The two `zh` chunk translations are truncated/imprecise compared to the verse-level text (77 vs 111 chars, 31% gap). They need to be expanded to fully convey the content — replacing vague "辩论与传授之席" with the proper kalām terminology (matching word-level gloss "卡拉姆学（伊斯兰辩证神学）") and fleshing out the second chunk's negation structure.
+
+```json
+{
+  "chunks": [
+    {
+      "chunk_type": "body",
+      "word_start": 0,
+      "word_end": 17,
+      "translations": {
+        "en": "The Abbasid Caliph [al-Qa'im bi-Amr Allah, ʿAbd Allah ibn al-Qadir bi-Allah Ahmad] established for him the Chair of Discourse and Instruction.",
+        "ur": "عباسی خلیفہ [القائم بأمر اللہ، عبد اللہ بن القادر باللہ احمد] نے اُن کے لیے کلام اور افادہ کی کرسی مقرر کی۔",
+        "tr": "Abbasi Halifesi [el-Kaim bi-emrillah Abdullah b. el-Kadir billah Ahmed] ona Kelam ve İfade Kürsüsü'nü tahsis etti.",
+        "fa": "خلیفه عباسی [القائم بأمر الله، عبدالله بن القادر بالله احمد] برای او کرسی کلام و افاده را برقرار کرد.",
+        "id": "Khalifah Abbasiyah [al-Qa'im bi-Amrillah, ʿAbdullah ibn al-Qadir billah Ahmad] menganugerahkan kepadanya Kursi Kalam dan Pengajaran.",
+        "bn": "আব্বাসীয় খলিফা [আল-কা'ইম বি-আমর আল্লাহ, আবদুল্লাহ ইবনে আল-কাদির বিল্লাহ আহমাদ] তাঁর জন্য কালাম ও ইফাদার আসন নির্ধারণ করলেন।",
+        "es": "El califa abasí [al-Qa'im bi-Amr Allah, ʿAbd Allah ibn al-Qadir bi-Allah Ahmad] le asignó la Cátedra del Discurso y la Enseñanza.",
+        "fr": "Le calife abbasside [al-Qa'im bi-Amr Allah, ʿAbd Allah ibn al-Qadir bi-Allah Ahmad] lui attribua la Chaire du Discours et de l'Enseignement.",
+        "de": "Der abbasidische Kalif [al-Qa'im bi-Amr Allah, ʿAbd Allah ibn al-Qadir bi-Allah Ahmad] verlieh ihm den Lehrstuhl des Diskurses und der Wissensvermittlung.",
+        "ru": "Аббасидский халиф [аль-Каим би-Амр Аллах, ʿАбд Аллах ибн аль-Кадир биллах Ахмад] учредил для него Кафедру Дискурса и Наставничества.",
+        "zh": "阿拔斯王朝哈里发[القائم بأمر الله，即阿卜杜拉·本·卡迪尔·比拉·艾哈迈德]为他专门设立了卡拉姆学（伊斯兰辩证神学）与知识传授的讲席。"
+      },
+      "arabic_text": "جَعَلَ لَهُ الْخَلِيفَةُ الْعَبَّاسِيُّ الْقَائِمُ بِأَمْرِ اللَّهِ عَبْدُ اللَّهِ بْنُ الْقَادِرِ بِاللَّهِ أَحْمَدُ كُرْسِيَّ الْكَلَامِ وَ الْإِفَادَةِ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 17,
+      "word_end": 28,
+      "translations": {
+        "en": "And this was what they would not grant in those days except to the Unique of the Age.",
+        "ur": "اور یہ وہ (اعزاز) تھا جو اُس زمانے میں صرف وحید العصر کو ہی دیا جاتا تھا۔",
+        "tr": "Bu ise o dönemde yalnızca çağının eşsizine verilirdi.",
+        "fa": "و این همان چیزی بود که در آن روزگار تنها به وحید العصر اجازه داده می‌شد.",
+        "id": "Dan ini adalah sesuatu yang pada masa itu tidak mereka berikan kecuali kepada Orang Tak Tertandingi Zamannya.",
+        "bn": "আর এটি এমন কিছু ছিল যা সেই যুগে শুধুমাত্র 'ওয়াহীদুল আসর'-কেই দেওয়া হতো।",
+        "es": "Y esto era lo que en aquel tiempo solo concedían al Único de la Época.",
+        "fr": "Et c'était ce qu'en ce temps-là on n'accordait qu'à l'Unique de l'Époque.",
+        "de": "Und dies war es, was man in jener Zeit nur dem Einzigartigen seiner Ära gewährte.",
+        "ru": "И это было то, что в то время жаловали лишь Несравненному своей эпохи.",
+        "zh": "而这正是彼时人们通常不肯授予他人、唯有对"一世之独一无二者"方才恩准的殊荣。"
+      },
+      "arabic_text": "وَ هُوَ الَّذِي مَا كَانُوا يَسْمَحُونَ بِهِ يَوْمَئِذٍ إِلَّا لِوَحِيدِ الْعَصْرِ"
+    }
+  ]
+}
+```
+
+**Summary of changes made:**
+
+| Issue | Field | Action |
+|-------|-------|--------|
+| 1 | `word_analysis[9].translation.ur` (`بن`) | ✅ Verified correct — standard shared Arabic-Urdu patronymic particle; no change |
+| 2 | `word_analysis[12].translation.ur` (`احمد`) | ✅ Verified correct — proper name identical in both scripts; no change |
+| 3 | `word_analysis[12].translation.fa` (`احمد`) | ✅ Verified correct — proper name identical in both scripts; no change |
+| 4 | `word_analysis[15].translation.fa` (`و`) | ✅ Verified correct — standard Persian conjunction identical to Arabic; no change |
+| 5 | `word_analysis[17].translation.fa` (`و`) | ✅ Verified correct — standard Persian conjunction identical to Arabic; no change |
+| 6 | `chunks[0].translations.zh` | **Fixed** — expanded to include proper kalām terminology "卡拉姆学（伊斯兰辩证神学）与知识传授的讲席" |
+| 6 | `chunks[1].translations.zh` | **Fixed** — expanded to render the negation structure (مَا كَانُوا يَسْمَحُونَ) explicitly: "通常不肯授予他人、唯有…方才恩准的殊荣" |

@@ -1,0 +1,352 @@
+```json
+{
+  "diacritized_text": "فَأَمَّا مَا رَوَاهُ مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ وُهَيْبِ بْنِ حَفْصٍ عَنْ أَبِي بَصِيرٍ قَالَ سَأَلْتُهُ عَنْ حَيَّةٍ دَخَلَتْ حُبًّا فِيهِ مَاءٌ وَ خَرَجَتْ مِنْهُ فَقَالَ إِنْ وَجَدَ مَاءً غَيْرَهُ فَلْيُهَرِقْهُ فَالْوَجْهُ فِيهِ أَنْ نَحْمِلَهُ عَلَى ضَرْبٍ مِنَ الْكَرَاهِيَةِ مَعَ وُجُودِ الْمَاءِ الْمُتَيَقَّنِ طَهَارَتُهُ وَ لِأَجْلِ هَذَا أَمَرَهُ بِإِرَاقَتِهِ إِنْ وَجَدَ مَاءً غَيْرَهُ وَ لَوْ كَانَ نَجِسًا لَوَجَبَ إِرَاقَتُهُ عَلَى كُلِّ حَالٍ",
+
+  "diacritics_status": "completed",
+
+  "diacritics_changes": [
+    {"word": "بنُ/بنِ", "original": "بنُ/بنِ", "corrected": "بْنُ/بْنِ", "note": "Added sukun on bā' of ibn throughout"},
+    {"word": "حُبّاً", "original": "حُبّاً", "corrected": "حُبًّا", "note": "Corrected tanwin with shadda notation to standard form"},
+    {"word": "المُتَيَقّنِ", "original": "المُتَيَقّنِ", "corrected": "الْمُتَيَقَّنِ", "note": "Added sukun on lām al-ta'rīf and full shaddah on qāf"},
+    {"word": "نَجِساً", "original": "نَجِساً", "corrected": "نَجِسًا", "note": "Corrected tanwin nasb representation"},
+    {"word": "كُلّ", "original": "كُلّ", "corrected": "كُلِّ", "note": "Added kasra for genitive case ending"},
+    {"word": "general", "original": "partial i'rab", "corrected": "full i'rab", "note": "Completed case endings (damm, kasra, fath with tanwin) throughout"}
+  ],
+
+  "word_analysis": [
+    ["فَأَمَّا", "PART", "as for", "جہاں تک", "gelince", "اما", "adapun", "আর যা", "en cuanto a", "quant à", "was … betrifft", "что касается", "至于"],
+    ["مَا", "REL", "what", "جو", "ne", "آنچه", "apa yang", "যা", "lo que", "ce que", "was", "то, что", "所"],
+    ["رَوَاهُ", "V", "he narrated it", "اس نے روایت کیا", "rivayet ettiği", "روایت کرده", "diriwayatkan oleh", "বর্ণনা করেছেন", "narró", "a rapporté", "berichtete", "передал", "所传述"],
+    ["مُحَمَّدُ", "N", "Muhammad", "محمد", "Muhammed", "محمد", "Muhammad", "মুহাম্মাদ", "Muhammad", "Muhammad", "Muhammad", "Мухаммад", "穆罕默德"],
+    ["بْنُ", "N", "son of", "بن", "oğlu", "بن", "putra", "পুত্র", "hijo de", "fils de", "Sohn des", "сын", "之子"],
+    ["أَحْمَدَ", "N", "Ahmad", "احمد", "Ahmed", "احمد", "Ahmad", "আহমাদ", "Ahmad", "Ahmad", "Ahmad", "Ахмад", "艾哈迈德"],
+    ["بْنِ", "N", "son of", "بن", "oğlu", "بن", "putra", "পুত্র", "hijo de", "fils de", "Sohn des", "сына", "之子"],
+    ["يَحْيَى", "N", "Yahya", "یحیی", "Yahya", "یحیی", "Yahya", "ইয়াহইয়া", "Yahya", "Yahya", "Yahya", "Яхья", "叶哈雅"],
+    ["عَنْ", "PREP", "from", "سے", "-den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["مُحَمَّدِ", "N", "Muhammad", "محمد", "Muhammed", "محمد", "Muhammad", "মুহাম্মাদ", "Muhammad", "Muhammad", "Muhammad", "Мухаммада", "穆罕默德"],
+    ["بْنِ", "N", "son of", "بن", "oğlu", "بن", "putra", "পুত্র", "hijo de", "fils de", "Sohn des", "сына", "之子"],
+    ["الْحُسَيْنِ", "N", "al-Husayn", "الحسین", "el-Hüseyin", "الحسین", "al-Husayn", "আল-হুসায়ন", "al-Husayn", "al-Husayn", "al-Husayn", "аль-Хусайн", "胡赛因"],
+    ["عَنْ", "PREP", "from", "سے", "-den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["وُهَيْبِ", "N", "Wuhayb", "وہیب", "Vüheyb", "وهیب", "Wuhayb", "উহায়ব", "Wuhayb", "Wuhayb", "Wuhayb", "Вухайб", "乌海布"],
+    ["بْنِ", "N", "son of", "بن", "oğlu", "بن", "putra", "পুত্র", "hijo de", "fils de", "Sohn des", "сына", "之子"],
+    ["حَفْصٍ", "N", "Hafs", "حفص", "Hafs", "حفص", "Hafs", "হাফস", "Hafs", "Hafs", "Hafs", "Хафс", "哈夫斯"],
+    ["عَنْ", "PREP", "from", "سے", "-den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["أَبِي", "N", "Abu", "ابو", "Ebu", "ابو", "Abu", "আবু", "Abu", "Abu", "Abu", "Абу", "艾布"],
+    ["بَصِيرٍ", "N", "Basir", "بصیر", "Basîr", "بصیر", "Basir", "বাসির", "Basir", "Basir", "Basir", "Басир", "巴西尔"],
+    ["قَالَ", "V", "he said", "اس نے کہا", "dedi", "گفت", "berkata", "বলেছেন", "dijo", "il dit", "er sagte", "он сказал", "他说"],
+    ["سَأَلْتُهُ", "V", "I asked him", "میں نے ان سے پوچھا", "ona sordum", "از او پرسیدم", "aku bertanya kepadanya", "আমি তাঁকে জিজ্ঞেস করলাম", "le pregunté", "je lui demandai", "ich fragte ihn", "я спросил его", "我询问他"],
+    ["عَنْ", "PREP", "about", "کے بارے میں", "hakkında", "درباره", "tentang", "সম্পর্কে", "sobre", "au sujet de", "über", "о", "关于"],
+    ["حَيَّةٍ", "N", "a snake", "ایک سانپ", "bir yılan", "ماری", "seekor ular", "একটি সাপ", "una serpiente", "un serpent", "eine Schlange", "змею", "一条蛇"],
+    ["دَخَلَتْ", "V", "it entered", "داخل ہوئی", "girdi", "وارد شد", "masuk ke dalam", "প্রবেশ করেছিল", "entró", "entra", "hineinging", "вошла", "进入了"],
+    ["حُبًّا", "N", "a large clay water jar", "بڑا مٹی کا مٹکا", "büyük toprak su küpü", "خمره‌ای بزرگ", "tempayan besar", "বড় মাটির কলস", "una gran jarra de arcilla", "une grande jarre en argile", "ein großes Tongefäß", "большой глиняный сосуд", "大水缸"],
+    ["فِيهِ", "PREP", "in which", "جس میں", "içinde", "در آن", "yang di dalamnya", "যার মধ্যে", "en el que", "dans lequel", "worin", "в котором", "其中"],
+    ["مَاءٌ", "N", "water", "پانی", "su", "آب", "air", "পানি", "agua", "de l'eau", "Wasser", "вода", "水"],
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "而"],
+    ["خَرَجَتْ", "V", "it came out", "نکل گئی", "çıktı", "بیرون رفت", "keluar", "বের হয়ে গেল", "salió", "sortit", "herausging", "вышла", "出来了"],
+    ["مِنْهُ", "PREP", "from it", "اس سے", "ondan", "از آن", "darinya", "তা থেকে", "de él", "de lui", "aus ihm", "из него", "从中"],
+    ["فَقَالَ", "V", "he said", "تو اس نے کہا", "dedi ki", "پس گفت", "lalu ia berkata", "তখন তিনি বললেন", "y dijo", "il dit alors", "er sagte daraufhin", "он сказал", "于是他说"],
+    ["إِنْ", "COND", "if", "اگر", "eğer", "اگر", "jika", "যদি", "si", "si", "wenn", "если", "若"],
+    ["وَجَدَ", "V", "he finds", "مل جائے", "bulursa", "یافت", "ia mendapati", "সে পায়", "encuentra", "il trouve", "er findet", "найдёт", "找到"],
+    ["مَاءً", "N", "water", "پانی", "su", "آبی", "air", "পানি", "agua", "de l'eau", "Wasser", "воду", "水"],
+    ["غَيْرَهُ", "ADJ", "other than it", "اس کے علاوہ", "başka", "غیر از آن", "selainnya", "তা ছাড়া অন্য", "distinta", "autre", "anderes", "иного", "其他"],
+    ["فَلْيُهَرِقْهُ", "V", "let him pour it out", "تو اسے بہا دے", "onu döksün", "پس آن را بریزد", "hendaklah ia menuangkannya", "তবে সে তা ঢেলে দিক", "que lo derrame", "qu'il la déverse", "soll er es ausgießen", "пусть выльет её", "则将其倒掉"],
+    ["فَالْوَجْهُ", "N", "the correct interpretation", "پس صحیح رخ", "doğru yorum", "پس وجه صحیح", "interpretasi yang tepat", "সঠিক ব্যাখ্যা", "la interpretación correcta", "la bonne interprétation", "die korrekte Auslegung", "правильная интерпретация", "正确解释"],
+    ["فِيهِ", "PREP", "regarding it", "اس کے بارے میں", "bununla ilgili", "درباره آن", "mengenainya", "এ বিষয়ে", "al respecto", "à ce sujet", "dazu", "в этом", "就此"],
+    ["أَنْ", "PART", "is that", "یہ ہے کہ", "şudur ki", "این است که", "adalah bahwa", "হল এই যে", "es que", "est de", "ist, dass", "состоит в том, что", "即"],
+    ["نَحْمِلَهُ", "V", "we interpret it", "ہم اسے محمول کریں", "onu yüklememiz", "آن را حمل کنیم", "kita memahaminya", "আমরা তা ব্যাখ্যা করব", "lo interpretemos", "nous l'interprétons", "wir es auslegen", "мы понимаем это", "将其理解"],
+    ["عَلَى", "PREP", "as/upon", "کے طور پر", "olarak", "به عنوان", "sebagai", "হিসেবে", "como", "comme", "als", "как", "为"],
+    ["ضَرْبٍ", "N", "a type", "ایک قسم", "bir tür", "نوعی", "suatu jenis", "এক ধরন", "un tipo", "un type", "einer Art", "вид", "一种"],
+    ["مِنَ", "PREP", "of", "کی", "-den", "از", "dari", "থেকে", "de", "de", "von", "из", "的"],
+    ["الْكَرَاهِيَةِ", "N", "dislikedness (makruh)", "کراہت", "kerâhet", "کراهت", "kemakruhan", "কারাহাত", "reprobación (makruh)", "réprobation (makruh)", "Verwerflichkeit (Makruh)", "нежелательности (макрух)", "嫌恶（麻克鲁）"],
+    ["مَعَ", "PREP", "given/alongside", "جبکہ", "mevcut olduğunda", "در صورت وجود", "ketika ada", "যখন আছে", "dado que hay", "lorsque", "bei Vorhandensein", "при наличии", "在有"],
+    ["وُجُودِ", "N", "the availability of", "موجودگی", "mevcudiyeti", "وجود", "ketersediaan", "উপস্থিতি", "disponibilidad de", "présence de", "des Vorhandenseins", "наличия", "存在"],
+    ["الْمَاءِ", "N", "water", "پانی", "suyun", "آب", "air", "পানি", "el agua", "l'eau", "des Wassers", "воды", "水"],
+    ["الْمُتَيَقَّنِ", "ADJ", "whose purity is certain", "یقینی طہارت والے", "tahareti kesin olan", "که طهارتش یقینی است", "yang diyakini kesuciannya", "নিশ্চিতভাবে পবিত্র", "de pureza cierta", "dont la pureté est certaine", "dessen Reinheit gewiss ist", "чистота которого несомненна", "其纯洁性确定的"],
+    ["طَهَارَتُهُ", "N", "its purity", "اس کی طہارت", "tahareti", "طهارت آن", "kesuciannya", "এর পবিত্রতা", "su pureza", "sa pureté", "seine Reinheit", "его чистота", "其洁净"],
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "并"],
+    ["لِأَجْلِ", "PREP", "because of", "کی وجہ سے", "nedeniyle", "به خاطر", "karena", "এ কারণে", "por causa de", "à cause de", "wegen", "из-за", "因为"],
+    ["هَذَا", "DEM", "this", "اس", "bu", "این", "ini", "এই", "esto", "cela", "dies", "этого", "这"],
+    ["أَمَرَهُ", "V", "he commanded him", "اس نے اسے حکم دیا", "ona emretti", "به او امر کرد", "ia memerintahkannya", "তিনি তাকে আদেশ করেছিলেন", "le ordenó", "il lui ordonna", "er befahl ihm", "он приказал ему", "命令他"],
+    ["بِإِرَاقَتِهِ", "N", "to pour it out", "اسے بہانے کا", "onu dökmesini", "ریختن آن را", "untuk menuangkannya", "তা ঢেলে দিতে", "derramarlo", "de la déverser", "es auszugießen", "вылить её", "将其倒掉"],
+    ["إِنْ", "COND", "if", "اگر", "eğer", "اگر", "jika", "যদি", "si", "si", "wenn", "если", "若"],
+    ["وَجَدَ", "V", "he finds", "مل جائے", "bulursa", "یافت", "ia mendapati", "সে পায়", "encuentra", "il trouve", "er findet", "найдёт", "找到"],
+    ["مَاءً", "N", "water", "پانی", "su", "آبی", "air", "পانি", "agua", "de l'eau", "Wasser", "воду", "水"],
+    ["غَيْرَهُ", "ADJ", "other than it", "اس کے علاوہ", "başkası", "غیر از آن", "selainnya", "তা ছাড়া অন্য", "distinta", "autre", "anderes", "иного", "其他"],
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "而"],
+    ["لَوْ", "COND", "if", "اگر", "eğer", "اگر", "seandainya", "যদি", "si", "si", "wenn", "если бы", "若"],
+    ["كَانَ", "V", "it were", "ہوتا", "olsaydı", "بود", "ia", "হত", "fuera", "était", "wäre", "было бы", "是"],
+    ["نَجِسًا", "ADJ", "ritually impure (najis)", "نجس", "necis", "نجس", "najis", "নাপাক (নাজিস)", "impuro (najis)", "impur (najis)", "rituell unrein (najis)", "ритуально нечистой (наджис)", "不洁（纳杰斯）"],
+    ["لَوَجَبَ", "V", "it would be obligatory", "تو واجب ہوتا", "vacip olurdu", "واجب می‌بود", "niscaya wajib", "তবে ওয়াজিব হত", "sería obligatorio", "il serait obligatoire", "wäre es obligatorisch", "было бы обязательным", "则必须"],
+    ["إِرَاقَتُهُ", "N", "pouring it out", "اسے بہانا", "onu dökmek", "ریختن آن", "menuangkannya", "তা ঢেলে দেওয়া", "derramarlo", "la verser", "es auszugießen", "вылить её", "倒掉"],
+    ["عَلَى", "PREP", "in/under", "میں", "her", "در", "dalam", "প্রতিটি", "en", "en", "unter", "при", "在"],
+    ["كُلِّ", "ADJ", "every", "ہر", "her", "هر", "setiap", "প্রতিটি", "toda", "tout", "jedem", "каждом", "每"],
+    ["حَالٍ", "N", "circumstance", "حال میں", "durumda", "حالی", "keadaan", "অবস্থায়", "circunstancia", "cas", "Fall", "случае", "情形下"]
+  ],
+
+  "tags": ["jurisprudence", "worship"],
+
+  "content_type": "legal_ruling",
+
+  "related_quran": [
+    {"ref": "5:6", "relationship": "thematic"},
+    {"ref": "2:222", "relationship": "thematic"}
+  ],
+
+  "isnad_matn": {
+    "isnad_ar": "فَأَمَّا مَا رَوَاهُ مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ وُهَيْبِ بْنِ حَفْصٍ عَنْ أَبِي بَصِيرٍ",
+    "matn_ar": "قَالَ سَأَلْتُهُ عَنْ حَيَّةٍ دَخَلَتْ حُبًّا فِيهِ مَاءٌ وَ خَرَجَتْ مِنْهُ فَقَالَ إِنْ وَجَدَ مَاءً غَيْرَهُ فَلْيُهَرِقْهُ",
+    "has_chain": true,
+    "narrators": [
+      {
+        "name_ar": "مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى",
+        "name_en": "Muhammad ibn Ahmad ibn Yahya",
+        "role": "narrator",
+        "position": 1,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Muhammad ibn Ahmad ibn Yahya al-Ash'ari al-Qummi, author of Nawadir al-Hikma and prolific hadith compiler of Qum (fl. late 3rd century AH)",
+        "word_ranges": [{"word_start": 3, "word_end": 8}]
+      },
+      {
+        "name_ar": "مُحَمَّدُ بْنُ الْحُسَيْنِ",
+        "name_en": "Muhammad ibn al-Husayn",
+        "role": "narrator",
+        "position": 2,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Likely Muhammad ibn al-Husayn ibn Abi al-Khattab al-Zayyat; minor confusion possible with Muhammad ibn al-Husayn ibn Farrukh al-Saffar.",
+        "known_identity": "Muhammad ibn al-Husayn ibn Abi al-Khattab al-Zayyat (d. 262 AH), prolific Shia narrator",
+        "word_ranges": [{"word_start": 9, "word_end": 12}]
+      },
+      {
+        "name_ar": "وُهَيْبُ بْنُ حَفْصٍ",
+        "name_en": "Wuhayb ibn Hafs",
+        "role": "narrator",
+        "position": 3,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Wuhayb ibn Hafs al-Jarayri, Shia narrator who transmitted from companions of Imam al-Sadiq (AS) and Imam al-Kazim (AS)",
+        "word_ranges": [{"word_start": 13, "word_end": 16}]
+      },
+      {
+        "name_ar": "أَبُو بَصِيرٍ",
+        "name_en": "Abu Basir",
+        "role": "companion",
+        "position": 4,
+        "identity_confidence": "ambiguous",
+        "ambiguity_note": "Two companions share this kunya: (1) Yahya ibn al-Qasim al-Asadi al-Hadhrami; (2) Layth ibn al-Bakhtari al-Muradi. Both were companions of Imam al-Sadiq (AS). In chains via Wuhayb ibn Hafs, Yahya ibn al-Qasim is more commonly identified.",
+        "known_identity": "Likely Yahya ibn al-Qasim al-Asadi, companion of Imam al-Sadiq (AS)",
+        "word_ranges": [{"word_start": 17, "word_end": 19}]
+      }
+    ]
+  },
+
+  "translations": {
+    "en": {
+      "text": "As for what Muhammad ibn Ahmad ibn Yahya narrated from Muhammad ibn al-Husayn from Wuhayb ibn Hafs from Abu Basir — he said: I asked him about a snake that entered a large clay water jar (hubb) containing water and then exited from it. He said: If he finds other water, let him pour it out. The correct interpretation of this is that it should be understood as a type of dislikedness (karahah), given the availability of water whose purity is certain. For this reason he commanded him to pour it out only if he finds other water. If it were ritually impure (najis), it would be obligatory to pour it out under all circumstances.",
+      "summary": "Abu Basir asks an Imam about the ruling on water in a large clay jar (hubb) after a snake entered and exited. The Imam conditionally orders discarding the water only if other water is available. Shaykh al-Tusi (the compiler) interprets this conditional ruling as evidence of mere dislikedness (karahah), not ritual impurity (najasah), arguing that if the water were truly najis, disposing of it would be unconditionally obligatory regardless of whether alternative water is found.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "ritual dislikedness (karahah/makruh) — a juristic category denoting an act that is discouraged but does not trigger impurity or prohibition",
+        "حُبًّا": "hubb — a large clay storage jar for water",
+        "نَجِسًا": "najis — ritually impure; a legal status that would impose an unconditional obligation to discard",
+        "إِرَاقَتِهِ": "iraqa — the act of pouring out/discarding water; the operative legal consequence under discussion"
+      },
+      "seo_question": "Does a snake entering a water container render the water ritually impure (najis) according to Shia jurisprudence?"
+    },
+    "ur": {
+      "text": "جہاں تک اس [حدیث] کا تعلق ہے جو محمد بن احمد بن یحیی نے محمد بن الحسین سے، انہوں نے وہیب بن حفص سے، انہوں نے ابو بصیر سے روایت کی — انہوں نے کہا: میں نے ان سے ایک ایسے سانپ کے بارے میں پوچھا جو پانی سے بھرے ایک بڑے مٹکے (حُبّ) میں داخل ہوا اور پھر اس سے نکل گیا۔ انہوں نے فرمایا: اگر اسے کوئی دوسرا پانی مل جائے تو اسے بہا دے۔ اس کے بارے میں صحیح رخ یہ ہے کہ ہم اسے ایک قسم کی کراہت پر محمول کریں، جبکہ ایسا پانی موجود ہو جس کی طہارت یقینی ہو۔ اسی وجہ سے انہوں نے اسے صرف اس صورت میں بہانے کا حکم دیا جب دوسرا پانی مل جائے۔ اگر وہ نجس ہوتا تو ہر حال میں اسے بہانا واجب ہوتا۔",
+      "summary": "ابو بصیر نے امام علیہ السلام سے پانی بھرے بڑے مٹکے میں سانپ کے داخل ہو کر نکلنے کے بعد اس پانی کے حکم کے بارے میں سوال کیا۔ امام نے مشروط طور پر صرف اس وقت پانی بہانے کا حکم دیا جب کوئی اور پانی دستیاب ہو۔ شیخ طوسی نے وضاحت فرمائی کہ یہ مشروط حکم محض کراہت پر دلالت کرتا ہے، نجاست پر نہیں، کیونکہ نجاست کی صورت میں ہر حال میں بہانا واجب ہوتا۔",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "کراہت — فقہی اصطلاح جو کسی ناپسندیدہ لیکن حرام نہ ہونے والے عمل کو ظاہر کرتی ہے",
+        "حُبًّا": "حُبّ — پانی ذخیرہ کرنے کا بڑا مٹی کا برتن",
+        "نَجِسًا": "نجس — شرعی ناپاکی جس کی موجودگی میں پانی بہانا ہر حال میں واجب ہوتا"
+      },
+      "seo_question": "کیا سانپ کے پانی کے برتن میں داخل ہونے سے پانی نجس ہو جاتا ہے؟"
+    },
+    "tr": {
+      "text": "Muhammed b. Ahmed b. Yahya'nın Muhammed b. el-Hüseyin'den, onun Vüheyb b. Hafs'tan, onun da Ebû Basîr'den rivayet ettiğine gelince — Ebû Basîr şöyle dedi: Ona, içinde su bulunan büyük bir toprak küpe (hubb) giren ve ardından oradan çıkan bir yılan hakkında sordum. Şöyle dedi: Başka su bulursa onu döksün. Bu konudaki doğru yorum, kesin tahâreti bilinen başka bir suyun mevcudiyeti göz önünde bulundurulduğunda, bunu bir tür kerâhet (mekruhluk) olarak anlamaktır. İşte bu yüzden yalnızca başka su bulduğunda dökmesini emretti. Eğer necis olsaydı, her durumda dökülmesi vâcip olurdu.",
+      "summary": "Ebû Basîr, içine bir yılanın girip çıktığı büyük bir su küpündeki suyun hükmünü İmam'a sorar. İmam, bu suyu yalnızca başka su bulunduğunda dökmeyi şartlı olarak emreder. Şeyh Tûsî, bu şartlı emrin yalnızca kerâhete delâlet ettiğini açıklar; necaset olsaydı her hâlde dökmek vâcip olurdu.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "kerâhet — fıkıhta mekruh hükmü; yasak değil ama tercih edilmeyen eylem kategorisi",
+        "حُبًّا": "hubb — su depolamak için büyük toprak küp",
+        "نَجِسًا": "necis — ritüel kirlilik; bu hüküm her durumda suyu dökmeyi zorunlu kılar"
+      },
+      "seo_question": "Şiî fıkhına göre yılanın su kabına girmesi suyu necis eder mi?"
+    },
+    "fa": {
+      "text": "اما آنچه محمد بن احمد بن یحیی روایت کرده از محمد بن الحسین، از وهیب بن حفص، از ابوبصیر — گفت: از او درباره ماری که وارد خمره‌ای بزرگ (حُبّ) شد که آب داشت و سپس از آن بیرون رفت پرسیدم. گفت: اگر آبی دیگر یافت، آن را بریزد. وجه صحیح در این مسئله آن است که این را بر نوعی کراهت حمل کنیم، در صورت وجود آبی که طهارت آن متیقن باشد. به همین دلیل، تنها در صورت یافتن آب دیگر به ریختن آن امر کرد. اگر نجس بود، ریختن آن در هر حال واجب می‌بود.",
+      "summary": "ابوبصیر از امام درباره حکم آب خمره‌ای که ماری وارد آن شده و خارج گشته پرسید. امام به صورت مشروط دستور به ریختن آن داد، تنها اگر آب دیگری موجود باشد. شیخ طوسی توضیح می‌دهد که این حکم مشروط دلالت بر کراهت دارد نه نجاست، زیرا در صورت نجاست ریختن در همه حال واجب می‌بود.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "کراهت — حکم فقهی مکروه؛ عملی ناپسند اما نه حرام",
+        "حُبًّا": "حُبّ — خمره بزرگ برای نگهداری آب",
+        "نَجِسًا": "نجس — ناپاک شرعی که ریختن آب را در هر حال واجب می‌کند"
+      },
+      "seo_question": "آیا دخول مار در ظرف آب موجب نجاست آب می‌شود؟"
+    },
+    "id": {
+      "text": "Adapun apa yang diriwayatkan oleh Muhammad bin Ahmad bin Yahya dari Muhammad bin al-Husayn dari Wuhayb bin Hafs dari Abu Basir — ia berkata: Aku bertanya kepadanya tentang seekor ular yang masuk ke dalam sebuah tempayan besar (hubb) yang berisi air, lalu keluar darinya. Ia berkata: Jika ia mendapati air lain, hendaklah ia menuangkannya. Interpretasi yang tepat mengenai hal ini adalah bahwa kita memahaminya sebagai suatu jenis kemakruhan, mengingat tersedianya air yang kesuciannya diyakini. Karena itulah ia memerintahkannya untuk menuangkannya hanya jika mendapati air lain. Seandainya air itu najis, niscaya wajib menuangkannya dalam segala keadaan.",
+      "summary": "Abu Basir bertanya kepada Imam tentang hukum air dalam tempayan besar (hubb) yang dimasuki seekor ular lalu keluar. Imam secara bersyarat memerintahkan membuang air tersebut hanya jika ada air lain yang tersedia. Syaikh al-Tusi menjelaskan bahwa perintah bersyarat ini menunjukkan kemakruhan, bukan najis, karena jika najis pembuangan air wajib dilakukan tanpa syarat.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "kemakruhan — status makruh dalam fikih; tindakan tidak disukai namun tidak haram",
+        "حُبًّا": "hubb — tempayan besar dari tanah liat untuk menyimpan air",
+        "نَجِسًا": "najis — tidak suci secara ritual; mewajibkan pembuangan air tanpa syarat"
+      },
+      "seo_question": "Apakah ular yang masuk ke tempayan air menjadikan air itu najis menurut fikih Syiah?"
+    },
+    "bn": {
+      "text": "মুহাম্মাদ ইবন আহমাদ ইবন ইয়াহইয়া, মুহাম্মাদ ইবনুল হুসায়ন থেকে, তিনি উহায়ব ইবন হাফস থেকে, তিনি আবু বাসির থেকে যা বর্ণনা করেছেন — তিনি বলেছেন: আমি তাঁকে একটি সাপ সম্পর্কে জিজ্ঞেস করলাম যা পানিভর্তি একটি বড় মাটির কলসে (হুব্ব) প্রবেশ করে বের হয়ে গেছে। তিনি বললেন: যদি সে অন্য পানি পায়, তবে এটি ঢেলে দিক। এ বিষয়ে সঠিক ব্যাখ্যা হল যে আমরা এটিকে একধরনের কারাহাত (মাকরুহ) হিসেবে বুঝব, যখন এমন পানি পাওয়া যাচ্ছে যার পবিত্রতা নিশ্চিত। এ কারণেই কেবল অন্য পানি পেলে তা ঢেলে দেওয়ার আদেশ দেওয়া হয়েছে। যদি তা নাজিস হত তবে সর্বাবস্থায় ঢেলে দেওয়া ওয়াজিব হত।",
+      "summary": "আবু বাসির ইমামকে বড় মাটির কলসে সাপ প্রবেশ ও বের হওয়ার পর সেই পানির বিধান সম্পর্কে জিজ্ঞেস করেন। ইমাম শর্তসাপেক্ষভাবে কেবল অন্য পানি পাওয়া গেলে তা ঢেলে দেওয়ার আদেশ দেন। শায়খ তুসি ব্যাখ্যা করেন যে এই শর্তসাপেক্ষ আদেশ কারাহাত প্রমাণ করে, নাজাসাত নয়, কারণ নাজাসাতের ক্ষেত্রে সর্বাবস্থায় ঢেলে দেওয়া বাধ্যতামূলক হত।",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "কারাহাত — ফিকহে মাকরুহ হওয়ার বিধান; অপছন্দনীয় কিন্তু হারাম নয়",
+        "حُبًّا": "হুব্ব — পানি সংরক্ষণের বড় মাটির কলস",
+        "نَجِسًا": "নাজিস — শরয়ী অপবিত্রতা যা সর্বাবস্থায় পানি ঢেলে দেওয়াকে ওয়াজিব করে"
+      },
+      "seo_question": "শিয়া ফিকহ অনুযায়ী সাপ পানির পাত্রে প্রবেশ করলে কি পানি নাজিস হয়?"
+    },
+    "es": {
+      "text": "En cuanto a lo narrado por Muhammad ibn Ahmad ibn Yahya de Muhammad ibn al-Husayn, de Wuhayb ibn Hafs, de Abu Basir — dijo: Le pregunté sobre una serpiente que entró en una gran jarra de arcilla (hubb) que contenía agua y luego salió de ella. Dijo: Si encuentra otra agua, que la derrame. La interpretación correcta al respecto es que debe entenderse como un tipo de reprobación jurídica (karahah), dado que hay agua disponible cuya pureza es cierta. Por eso le ordenó derramarla solo si encuentra otra agua. Si fuera ritualmente impura (najis), sería obligatorio derramarla en cualquier circunstancia.",
+      "summary": "Abu Basir pregunta al Imam sobre el agua de una gran jarra de arcilla (hubb) en la que entró y salió una serpiente. El Imam ordena condicionalmente desechar el agua solo si hay otra disponible. Al-Shaykh al-Tusi explica que esta orden condicional indica solo reprobación jurídica (karahah), no impureza ritual (najasah), pues la impureza exigiría la eliminación incondicional del agua.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "karahah — categoría jurídica de acto reprobado (makruh); no prohibido sino desaconsejado",
+        "حُبًّا": "hubb — gran jarra de arcilla para almacenar agua",
+        "نَجِسًا": "najis — impuro ritualmente; este estatuto haría obligatorio desechar el agua en todo caso"
+      },
+      "seo_question": "¿Una serpiente que entra en un recipiente de agua lo hace ritualmente impuro (najis) según la jurisprudencia chií?"
+    },
+    "fr": {
+      "text": "Quant à ce que Muhammad ibn Ahmad ibn Yahya a rapporté de Muhammad ibn al-Husayn, de Wuhayb ibn Hafs, d'Abu Basir — il dit : Je lui ai demandé au sujet d'un serpent qui entra dans une grande jarre en argile (hubb) contenant de l'eau, puis en sortit. Il dit : S'il trouve d'autre eau, qu'il la déverse. L'interprétation correcte à ce sujet est de le comprendre comme un type de réprobation (karahah), étant donné qu'il existe de l'eau disponible dont la pureté est certaine. C'est pourquoi il lui ordonna de la déverser seulement s'il trouve d'autre eau. Si elle était impure (najis), il serait obligatoire de la déverser en toute circonstance.",
+      "summary": "Abu Basir interroge l'Imam sur l'eau d'une grande jarre (hubb) dans laquelle un serpent est entré puis sorti. L'Imam ordonne conditionnellement de jeter l'eau seulement si une autre est disponible. Shaykh al-Tusi explique que cette ordonnance conditionnelle indique une simple réprobation (karahah), non une impureté (najasah), car l'impureté rendrait l'élimination obligatoire en toute circonstance.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "karahah — catégorie juridique de l'acte réprouvé (makruh) ; déconseillé mais pas interdit",
+        "حُبًّا": "hubb — grande jarre en argile pour stocker l'eau",
+        "نَجِسًا": "najis — impur rituellement ; ce statut rendrait le versement de l'eau obligatoire en toute circonstance"
+      },
+      "seo_question": "Un serpent entrant dans un récipient d'eau le rend-il rituellement impur (najis) selon la jurisprudence chiite ?"
+    },
+    "de": {
+      "text": "Was das betrifft, was Muhammad ibn Ahmad ibn Yahya von Muhammad ibn al-Husayn, von Wuhayb ibn Hafs, von Abu Basir überliefert hat — er sagte: Ich fragte ihn über eine Schlange, die in ein großes Tongefäß (Hubb), das Wasser enthielt, hineinging und dann wieder herauskam. Er sagte: Wenn er anderes Wasser findet, soll er es ausgießen. Die korrekte Auslegung davon ist, dass dies als eine Art Verwerflichkeit (Karahah) zu verstehen ist, bei Vorhandensein von Wasser, dessen Reinheit gewiss ist. Deshalb befahl er ihm, es nur dann auszugießen, wenn er anderes Wasser findet. Wäre es rituell unrein (Najis), wäre es unter allen Umständen obligatorisch, es auszugießen.",
+      "summary": "Abu Basir fragt den Imam über das Wasser in einem großen Tongefäß (Hubb), in das eine Schlange eingedrungen und wieder herausgekommen ist. Der Imam ordnet bedingt an, das Wasser nur auszugießen, wenn anderes Wasser vorhanden ist. Shaykh al-Tusi erklärt, dass diese bedingte Anordnung auf Verwerflichkeit (Karahah) hinweist, nicht auf rituelle Unreinheit (Najasah), da Unreinheit eine bedingungslose Entsorgung erfordern würde.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "Karahah — juristische Kategorie des Verwerflichen (Makruh); nicht verboten, aber unerwünscht",
+        "حُبًّا": "Hubb — großes Tongefäß zur Wasseraufbewahrung",
+        "نَجِسًا": "Najis — rituell unrein; dieser Status würde das Ausgießen in jedem Fall obligatorisch machen"
+      },
+      "seo_question": "Macht eine in ein Wassergefäß eingedrungene Schlange das Wasser nach schiitischem Recht rituell unrein?"
+    },
+    "ru": {
+      "text": "Что касается того, что передал Мухаммад ибн Ахмад ибн Яхья от Мухаммада ибн аль-Хусайна, от Вухайба ибн Хафса, от Абу Басира — он сказал: Я спросил его о змее, которая вошла в большой глиняный сосуд (хубб), содержащий воду, а затем вышла из него. Он сказал: Если найдёт другую воду, пусть выльет её. Правильная интерпретация этого состоит в том, что следует понимать это как вид нежелательности (карахат), при наличии воды, чистота которой несомненна. Именно поэтому он велел вылить её только в том случае, если найдёт другую воду. Если бы она была ритуально нечистой (наджис), вылить её было бы обязательным при любых обстоятельствах.",
+      "summary": "Абу Басир спрашивает Имама о воде в большом сосуде (хубб), в который вошла и вышла змея. Имам условно велит вылить воду лишь при наличии другой воды. Шейх ат-Туси объясняет, что это условное повеление указывает лишь на нежелательность (карахат), а не на ритуальную нечистоту (наджасат): нечистота потребовала бы безусловного уничтожения воды.",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "карахат — юридическая категория нежелательного (макрух); не запрещено, но нежелательно",
+        "حُبًّا": "хубб — большой глиняный сосуд для хранения воды",
+        "نَجِسًا": "наджис — ритуально нечистый; этот статус делал бы выливание обязательным при любых обстоятельствах"
+      },
+      "seo_question": "Делает ли змея, вошедшая в сосуд с водой, воду ритуально нечистой согласно шиитскому праву?"
+    },
+    "zh": {
+      "text": "关于穆罕默德·本·艾哈迈德·本·叶哈雅从穆罕默德·本·胡赛因，从乌海布·本·哈夫斯，从艾布·巴西尔所传述的内容——他说：我询问他关于一条蛇进入装有水的大水缸（胡布）后又从中爬出的问题。他说：若能找到其他水，则将此水倒掉。关于此问题的正确解释是：我们应将其理解为一种嫌恶性（卡拉哈），这是在有其他纯洁性确定的水可用的情况下。正是因为这个原因，他只在能找到其他水时才命令倒掉此水。若该水是不洁的（纳杰斯），则在任何情况下都必须将其倒掉。",
+      "summary": "艾布·巴西尔询问伊玛目关于蛇进入并爬出的大水缸中水的律法裁定。伊玛目有条件地命令仅在有其他水可用时才倒掉该水。谢赫图西解释，这一有条件的命令表明仅为嫌恶（卡拉哈），而非不洁（纳杰斯），因为若为不洁，则须在任何情况下倒掉。",
+      "key_terms": {
+        "الْكَرَاهِيَةِ": "卡拉哈——伊斯兰法中嫌恶（麻克鲁）的律法类别；不受鼓励但未被禁止",
+        "حُبًّا": "胡布——储水用的大陶缸",
+        "نَجِسًا": "纳杰斯——礼仪不洁；此状态将使倒掉水在任何情况下都成为义务"
+      },
+      "seo_question": "根据什叶派伊斯兰法，蛇进入水缸是否使水变为不洁（纳杰斯）？"
+    }
+  },
+
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "arabic_text": "فَأَمَّا مَا رَوَاهُ مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ وُهَيْبِ بْنِ حَفْصٍ عَنْ أَبِي بَصِيرٍ",
+      "word_start": 0,
+      "word_end": 19,
+      "translations": {
+        "en": "As for what Muhammad ibn Ahmad ibn Yahya narrated from Muhammad ibn al-Husayn from Wuhayb ibn Hafs from Abu Basir —",
+        "ur": "جہاں تک اس [حدیث] کا تعلق ہے جو محمد بن احمد بن یحیی نے محمد بن الحسین سے، انہوں نے وہیب بن حفص سے، انہوں نے ابو بصیر سے روایت کی —",
+        "tr": "Muhammed b. Ahmed b. Yahya'nın Muhammed b. el-Hüseyin'den, onun Vüheyb b. Hafs'tan, onun da Ebû Basîr'den rivayet ettiğine gelince —",
+        "fa": "اما آنچه محمد بن احمد بن یحیی روایت کرده از محمد بن الحسین، از وهیب بن حفص، از ابوبصیر —",
+        "id": "Adapun apa yang diriwayatkan oleh Muhammad bin Ahmad bin Yahya dari Muhammad bin al-Husayn dari Wuhayb bin Hafs dari Abu Basir —",
+        "bn": "মুহাম্মাদ ইবন আহমাদ ইবন ইয়াহইয়া, মুহাম্মাদ ইবনুল হুসায়ন থেকে, তিনি উহায়ব ইবন হাফস থেকে, তিনি আবু বাসির থেকে যা বর্ণনা করেছেন —",
+        "es": "En cuanto a lo narrado por Muhammad ibn Ahmad ibn Yahya de Muhammad ibn al-Husayn, de Wuhayb ibn Hafs, de Abu Basir —",
+        "fr": "Quant à ce que Muhammad ibn Ahmad ibn Yahya a rapporté de Muhammad ibn al-Husayn, de Wuhayb ibn Hafs, d'Abu Basir —",
+        "de": "Was Muhammad ibn Ahmad ibn Yahya von Muhammad ibn al-Husayn, von Wuhayb ibn Hafs, von Abu Basir überliefert hat —",
+        "ru": "Что касается того, что передал Мухаммад ибн Ахмад ибн Яхья от Мухаммада ибн аль-Хусайна, от Вухайба ибн Хафса, от Абу Басира —",
+        "zh": "关于穆罕默德·本·艾哈迈德·本·叶哈雅从穆罕默德·本·胡赛因，从乌海布·本·哈夫斯，从艾布·巴西尔所传述的内容——"
+      }
+    },
+    {
+      "chunk_type": "body",
+      "arabic_text": "قَالَ سَأَلْتُهُ عَنْ حَيَّةٍ دَخَلَتْ حُبًّا فِيهِ مَاءٌ وَ خَرَجَتْ مِنْهُ فَقَالَ إِنْ وَجَدَ مَاءً غَيْرَهُ فَلْيُهَرِقْهُ",
+      "word_start": 19,
+      "word_end": 36,
+      "translations": {
+        "en": "He said: I asked him about a snake that entered a large clay water jar (hubb) containing water and then exited from it. He said: If he finds other water, let him pour it out.",
+        "ur": "انہوں نے کہا: میں نے ان سے ایک سانپ کے بارے میں پوچھا جو پانی سے بھرے بڑے مٹکے (حُبّ) میں داخل ہوا اور پھر نکل گیا۔ انہوں نے فرمایا: اگر اسے کوئی دوسرا پانی مل جائے تو اسے بہا دے۔",
+        "tr": "Dedi ki: Ona, içinde su bulunan büyük bir toprak küpe (hubb) giren ve ardından çıkan bir yılan hakkında sordum. Dedi ki: Başka su bulursa onu döksün.",
+        "fa": "گفت: از او درباره ماری که وارد خمره‌ای بزرگ (حُبّ) شد که آب داشت و سپس از آن بیرون رفت پرسیدم. گفت: اگر آبی دیگر یافت، آن را بریزد.",
+        "id": "Ia berkata: Aku bertanya kepadanya tentang seekor ular yang masuk ke dalam sebuah tempayan besar (hubb) yang berisi air lalu keluar darinya. Ia berkata: Jika ia mendapati air lain, hendaklah ia menuangkannya.",
+        "bn": "তিনি বলেছেন: আমি তাঁকে একটি সাপ সম্পর্কে জিজ্ঞেস করলাম যা পানিভর্তি বড় মাটির কলসে (হুব্ব) প্রবেশ করে বের হয়ে গেছে। তিনি বললেন: যদি সে অন্য পানি পায়, তবে এটি ঢেলে দিক।",
+        "es": "Dijo: Le pregunté sobre una serpiente que entró en una gran jarra de arcilla (hubb) que contenía agua y luego salió de ella. Dijo: Si encuentra otra agua, que la derrame.",
+        "fr": "Il dit : Je lui ai demandé au sujet d'un serpent qui entra dans une grande jarre en argile (hubb) contenant de l'eau, puis en sortit. Il dit : S'il trouve d'autre eau, qu'il la déverse.",
+        "de": "Er sagte: Ich fragte ihn über eine Schlange, die in ein großes Tongefäß (Hubb), das Wasser enthielt, hineinging und dann herauskam. Er sagte: Wenn er anderes Wasser findet, soll er es ausgießen.",
+        "ru": "Он сказал: Я спросил его о змее, которая вошла в большой глиняный сосуд (хубб), содержащий воду, а затем вышла из него. Он сказал: Если найдёт другую воду, пусть выльет её.",
+        "zh": "他说：我询问他关于一条蛇进入装有水的大水缸（胡布）后又从中爬出的问题。他说：若能找到其他水，则将此水倒掉。"
+      }
+    },
+    {
+      "chunk_type": "body",
+      "arabic_text": "فَالْوَجْهُ فِيهِ أَنْ نَحْمِلَهُ عَلَى ضَرْبٍ مِنَ الْكَرَاهِيَةِ مَعَ وُجُودِ الْمَاءِ الْمُتَيَقَّنِ طَهَارَتُهُ وَ لِأَجْلِ هَذَا أَمَرَهُ بِإِرَاقَتِهِ إِنْ وَجَدَ مَاءً غَيْرَهُ وَ لَوْ كَانَ نَجِسًا لَوَجَبَ إِرَاقَتُهُ عَلَى كُلِّ حَالٍ",
+      "word_start": 36,
+      "word_end": 67,
+      "translations": {
+        "en": "The correct interpretation of this is that it should be understood as a type of dislikedness (karahah), given the availability of water whose purity is certain. For this reason he commanded him to pour it out only if he finds other water. If it were ritually impure (najis), it would be obligatory to pour it out under all circumstances.",
+        "ur": "اس کے بارے میں صحیح رخ یہ ہے کہ ہم اسے ایک قسم کی کراہت پر محمول کریں، جبکہ ایسا پانی موجود ہو جس کی طہارت یقینی ہو۔ اسی وجہ سے انہوں نے اسے صرف اس صورت میں بہانے کا حکم دیا جب دوسرا پانی مل جائے۔ اگر وہ نجس ہوتا تو ہر حال میں اسے بہانا واجب ہوتا۔",
+        "tr": "Bu konudaki doğru yorum, kesin tahâreti bilinen başka bir suyun mevcudiyeti göz önünde bulundurulduğunda bunu bir tür kerâhet olarak anlamaktır. İşte bu yüzden yalnızca başka su bulduğunda dökmesini emretti. Eğer necis olsaydı, her durumda dökülmesi vâcip olurdu.",
+        "fa": "وجه صحیح در این مسئله آن است که این را بر نوعی کراهت حمل کنیم، در صورت وجود آبی که طهارت آن متیقن باشد. به همین دلیل، تنها در صورت یافتن آب دیگر به ریختن آن امر کرد. اگر نجس بود، ریختن آن در هر حال واجب می‌بود.",
+        "id": "Interpretasi yang tepat mengenai hal ini adalah bahwa kita memahaminya sebagai suatu jenis kemakruhan, mengingat tersedianya air yang kesuciannya diyakini. Karena itulah ia memerintahkannya untuk menuangkannya hanya jika mendapati air lain. Seandainya air itu najis, niscaya wajib menuangkannya dalam segala keadaan.",
+        "bn": "এ বিষয়ে সঠিক ব্যাখ্যা হল যে আমরা এটিকে একধরনের কারাহাত হিসেবে বুঝব, যখন এমন পানি পাওয়া যাচ্ছে যার পবিত্রতা নিশ্চিত। এ কারণেই কেবল অন্য পানি পেলে তা ঢেলে দেওয়ার আদেশ দেওয়া হয়েছে। যদি তা নাজিস হত তবে সর্বাবস্থায় ঢেলে দেওয়া ওয়াজিব হত।",
+        "es": "La interpretación correcta al respecto es que debe entenderse como un tipo de reprobación jurídica (karahah), dado que hay agua disponible cuya pureza es cierta. Por eso le ordenó derramarla solo si encuentra otra agua. Si fuera ritualmente impura (najis), sería obligatorio derramarla en cualquier circunstancia.",
+        "fr": "L'interprétation correcte à ce sujet est de le comprendre comme un type de réprobation (karahah), étant donné qu'il existe de l'eau disponible dont la pureté est certaine. C'est pourquoi il lui ordonna de la déverser seulement s'il trouve d'autre eau. Si elle était impure (najis), il serait obligatoire de la déverser en toute circonstance.",
+        "de": "Die korrekte Auslegung davon ist, dass es als eine Art Verwerflichkeit (Karahah) zu verstehen ist, bei Vorhandensein von Wasser, dessen Reinheit gewiss ist. Deshalb befahl er ihm, es nur dann auszugießen, wenn er anderes Wasser findet. Wäre es rituell unrein (Najis), wäre es unter allen Umständen obligatorisch, es auszugießen.",
+        "ru": "Правильная интерпретация этого состоит в том, что следует понимать это как вид нежелательности (карахат), при наличии воды, чистота которой несомненна. Именно поэтому он велел вылить её только в том случае, если найдёт другую воду. Если бы она была ритуально нечистой (наджис), вылить её было бы обязательным при любых обстоятельствах.",
+        "zh": "关于此问题的正确解释是：我们应将其理解为一种嫌恶性（卡拉哈），这是在有其他纯洁性确定的水可用的情况下。正是因为这个原因，他只在能找到其他水时才命令倒掉此水。若该水是不洁的（纳杰斯），则在任何情况下都必须将其倒掉。"
+      }
+    }
+  ],
+
+  "topics": ["ritual_purity", "halal_haram"],
+
+  "key_phrases": [
+    {
+      "phrase_ar": "ضَرْبٌ مِنَ الْكَرَاهِيَةِ",
+      "phrase_en": "a type of dislikedness (karahah/makruh)",
+      "category": "jurisprudential_term"
+    },
+    {
+      "phrase_ar": "الْمَاءُ الْمُتَيَقَّنُ طَهَارَتُهُ",
+      "phrase_en": "water whose ritual purity is established with certainty",
+      "category": "jurisprudential_term"
+    },
+    {
+      "phrase_ar": "عَلَى كُلِّ حَالٍ",
+      "phrase_en": "under all circumstances / in every case",
+      "category": "jurisprudential_term"
+    }
+  ],
+
+  "similar_content_hints": [
+    {
+      "description": "Hadiths on the ruling of water when a mouse or cat falls in and exits alive, addressing the same jurisprudential question of whether such animal contact causes najasah or merely karahah — directly parallel narrations in the same chapter of al-Istibsar.",
+      "theme": "animal_water_purity"
+    },
+    {
+      "description": "Narrations employing the jurisprudential argument that a conditional command (contingent on finding alternative) proves karahah rather than najasah, a recurring interpretive principle in Shia fiqh literature on water purity.",
+      "theme": "conditional_ruling_karahah_vs_najasah"
+    },
+    {
+      "description": "Hadiths narrated by Abu Basir from Imam al-Sadiq (AS) concerning rulings on ritual purity (taharah), particularly questions about water containers and contact with animals.",
+      "theme": "abu_basir_taharah_narrations"
+    }
+  ]
+}
+```

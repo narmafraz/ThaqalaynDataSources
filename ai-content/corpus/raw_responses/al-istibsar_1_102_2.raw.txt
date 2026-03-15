@@ -1,0 +1,353 @@
+```json
+{
+  "diacritized_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ أَيُّوبَ بْنِ نُوحٍ عَنِ ابْنِ مُسْكَانَ عَنِ الْكَاهِلِيِّ وَ حُسَيْنِ بْنِ الْمُخْتَارِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ يُوضَعُ الْكَافُورُ مِنَ الْمَيِّتِ عَلَى مَوْضِعِ الْمَسَاجِدِ وَ عَلَى اللَّبَّةِ وَ بَاطِنِ الْقَدَمَيْنِ وَ مَوْضِعِ الشِّرَاكِ مِنَ الْقَدَمَيْنِ وَ عَلَى الرُّكْبَتَيْنِ وَ الرَّاحَتَيْنِ وَ الْجَبْهَةِ وَ اللَّبَّةِ",
+  "diacritics_status": "completed",
+  "diacritics_changes": [
+    {"original": "عَلِيّ", "corrected": "عَلِيُّ", "note": "Added dammah-shaddah on final yaa' for nominative case"},
+    {"original": "بنُ / بنِ", "corrected": "بْنُ / بْنِ", "note": "Added sukun on baa' (multiple occurrences)"},
+    {"original": "مُحَمّدٍ", "corrected": "مُحَمَّدٍ", "note": "Normalized shaddah-fathah sequence on meem"},
+    {"original": "عَن", "corrected": "عَنْ", "note": "Added sukun on noon (multiple occurrences)"},
+    {"original": "أَيّوبَ", "corrected": "أَيُّوبَ", "note": "Normalized shaddah-dammah on yaa'"},
+    {"original": "الكاَهلِيِ ّ", "corrected": "الْكَاهِلِيِّ", "note": "Added hamzat wasl, kasrah on laam, shaddah-kasrah on yaa'"},
+    {"original": "حُسَينِ", "corrected": "حُسَيْنِ", "note": "Added sukun on yaa'"},
+    {"original": "المُختَارِ", "corrected": "الْمُخْتَارِ", "note": "Added hamzat wasl and sukun on khaa'"},
+    {"original": "عَبدِ", "corrected": "عَبْدِ", "note": "Added sukun on baa'"},
+    {"original": "ع", "corrected": "عَلَيْهِ السَّلَامُ", "note": "Expanded standard abbreviation ع to full honorific"},
+    {"original": "عَلَي", "corrected": "عَلَى", "note": "Corrected alef maqsoura spelling (three occurrences)"},
+    {"original": "الكَافُورُ", "corrected": "الْكَافُورُ", "note": "Added hamzat wasl"},
+    {"original": "المَيّتِ", "corrected": "الْمَيِّتِ", "note": "Added hamzat wasl; normalized shaddah-kasrah on yaa'"},
+    {"original": "مَوضِعِ", "corrected": "مَوْضِعِ", "note": "Added sukun on waw (two occurrences)"},
+    {"original": "المَسَاجِدِ", "corrected": "الْمَسَاجِدِ", "note": "Added hamzat wasl"},
+    {"original": "اللّبّةِ", "corrected": "اللَّبَّةِ", "note": "Normalized shaddah-fathah on both laam and baa' (two occurrences)"},
+    {"original": "الشّرَاكِ", "corrected": "الشِّرَاكِ", "note": "Normalized shaddah-kasrah on sheen"},
+    {"original": "القَدَمَينِ", "corrected": "الْقَدَمَيْنِ", "note": "Added hamzat wasl and sukun on yaa' (two occurrences)"},
+    {"original": "الرّكبَتَينِ", "corrected": "الرُّكْبَتَيْنِ", "note": "Normalized shaddah-dammah on raa'; added sukun on kaaf and yaa'"},
+    {"original": "الرّاحَتَينِ", "corrected": "الرَّاحَتَيْنِ", "note": "Normalized shaddah-fathah on raa'; added sukun on yaa'"},
+    {"original": "الجَبهَةِ", "corrected": "الْجَبْهَةِ", "note": "Added hamzat wasl and sukun on baa'"}
+  ],
+  "word_analysis": [
+    {"word": "عَلِيُّ", "translation": {"en": "Ali", "ur": "علی", "tr": "Ali", "fa": "علی", "id": "Ali", "bn": "আলী", "es": "Ali", "fr": "Ali", "de": "Ali", "ru": "Али", "zh": "阿里"}, "pos": "N"},
+    {"word": "بْنُ", "translation": {"en": "son of", "ur": "بن", "tr": "oğlu", "fa": "پسر", "id": "putra", "bn": "ইবন", "es": "hijo de", "fr": "fils de", "de": "Sohn des", "ru": "сын", "zh": "之子"}, "pos": "N"},
+    {"word": "مُحَمَّدٍ", "translation": {"en": "Muhammad", "ur": "محمد", "tr": "Muhammed", "fa": "محمد", "id": "Muhammad", "bn": "মুহাম্মদ", "es": "Muhammad", "fr": "Muhammad", "de": "Muhammad", "ru": "Мухаммад", "zh": "穆罕默德"}, "pos": "N"},
+    {"word": "عَنْ", "translation": {"en": "from", "ur": "سے", "tr": "-den", "fa": "از", "id": "dari", "bn": "থেকে", "es": "de", "fr": "de", "de": "von", "ru": "от", "zh": "从"}, "pos": "PREP"},
+    {"word": "أَيُّوبَ", "translation": {"en": "Ayyub", "ur": "ایوب", "tr": "Eyyub", "fa": "ایوب", "id": "Ayyub", "bn": "আইয়ুব", "es": "Ayyub", "fr": "Ayyub", "de": "Ayyub", "ru": "Айюб", "zh": "艾优布"}, "pos": "N"},
+    {"word": "بْنِ", "translation": {"en": "son of", "ur": "بن", "tr": "oğlu", "fa": "پسر", "id": "putra", "bn": "ইবন", "es": "hijo de", "fr": "fils de", "de": "Sohn des", "ru": "сын", "zh": "之子"}, "pos": "N"},
+    {"word": "نُوحٍ", "translation": {"en": "Nuh", "ur": "نوح", "tr": "Nuh", "fa": "نوح", "id": "Nuh", "bn": "নূহ", "es": "Nuh", "fr": "Nuh", "de": "Nuh", "ru": "Нух", "zh": "努哈"}, "pos": "N"},
+    {"word": "عَنِ", "translation": {"en": "from", "ur": "سے", "tr": "-den", "fa": "از", "id": "dari", "bn": "থেকে", "es": "de", "fr": "de", "de": "von", "ru": "от", "zh": "从"}, "pos": "PREP"},
+    {"word": "ابْنِ", "translation": {"en": "son of", "ur": "ابن", "tr": "oğlu", "fa": "پسر", "id": "putra", "bn": "ইবন", "es": "hijo de", "fr": "fils de", "de": "Sohn des", "ru": "сын", "zh": "之子"}, "pos": "N"},
+    {"word": "مُسْكَانَ", "translation": {"en": "Muskan", "ur": "مسکان", "tr": "Muskan", "fa": "مسکان", "id": "Muskan", "bn": "মুসকান", "es": "Muskan", "fr": "Muskan", "de": "Muskan", "ru": "Мускан", "zh": "穆斯坎"}, "pos": "N"},
+    {"word": "عَنِ", "translation": {"en": "from", "ur": "سے", "tr": "-den", "fa": "از", "id": "dari", "bn": "থেকে", "es": "de", "fr": "de", "de": "von", "ru": "от", "zh": "从"}, "pos": "PREP"},
+    {"word": "الْكَاهِلِيِّ", "translation": {"en": "al-Kahili", "ur": "الکاہلی", "tr": "el-Kahili", "fa": "الکاهلی", "id": "al-Kahili", "bn": "আল-কাহিলী", "es": "al-Kahili", "fr": "al-Kahili", "de": "al-Kahili", "ru": "аль-Кахили", "zh": "卡希利"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "和"}, "pos": "CONJ"},
+    {"word": "حُسَيْنِ", "translation": {"en": "Husayn", "ur": "حسین", "tr": "Hüseyin", "fa": "حسین", "id": "Husayn", "bn": "হুসাইন", "es": "Husayn", "fr": "Husayn", "de": "Husayn", "ru": "Хусейн", "zh": "侯赛因"}, "pos": "N"},
+    {"word": "بْنِ", "translation": {"en": "son of", "ur": "بن", "tr": "oğlu", "fa": "پسر", "id": "putra", "bn": "ইবন", "es": "hijo de", "fr": "fils de", "de": "Sohn des", "ru": "сын", "zh": "之子"}, "pos": "N"},
+    {"word": "الْمُخْتَارِ", "translation": {"en": "al-Mukhtar", "ur": "المختار", "tr": "el-Muhtar", "fa": "المختار", "id": "al-Mukhtar", "bn": "আল-মুখতার", "es": "al-Mukhtar", "fr": "al-Mukhtar", "de": "al-Mukhtar", "ru": "аль-Мухтар", "zh": "穆赫塔尔"}, "pos": "N"},
+    {"word": "عَنْ", "translation": {"en": "from", "ur": "سے", "tr": "-den", "fa": "از", "id": "dari", "bn": "থেকে", "es": "de", "fr": "de", "de": "von", "ru": "от", "zh": "从"}, "pos": "PREP"},
+    {"word": "أَبِي", "translation": {"en": "Abu (father of)", "ur": "ابو", "tr": "Ebu", "fa": "ابو", "id": "Abu", "bn": "আবু", "es": "Abu", "fr": "Abu", "de": "Abu", "ru": "Абу", "zh": "艾布"}, "pos": "N"},
+    {"word": "عَبْدِ", "translation": {"en": "Abd (servant of)", "ur": "عبد", "tr": "Abd", "fa": "عبد", "id": "Abd", "bn": "আব্দ", "es": "Abd", "fr": "Abd", "de": "Abd", "ru": "Абд", "zh": "阿卜杜"}, "pos": "N"},
+    {"word": "اللَّهِ", "translation": {"en": "God", "ur": "اللہ", "tr": "Allah", "fa": "خدا", "id": "Allah", "bn": "আল্লাহ", "es": "Dios", "fr": "Dieu", "de": "Gottes", "ru": "Аллаха", "zh": "安拉"}, "pos": "N"},
+    {"word": "عَلَيْهِ", "translation": {"en": "upon him", "ur": "ان پر", "tr": "üzerine", "fa": "بر او", "id": "atasnya", "bn": "তাঁর উপর", "es": "sobre él", "fr": "sur lui", "de": "auf ihm", "ru": "на него", "zh": "他身上"}, "pos": "PREP"},
+    {"word": "السَّلَامُ", "translation": {"en": "peace", "ur": "سلام", "tr": "selam", "fa": "سلام", "id": "salam", "bn": "শান্তি", "es": "la paz", "fr": "la paix", "de": "der Friede", "ru": "мир", "zh": "平安"}, "pos": "N"},
+    {"word": "قَالَ", "translation": {"en": "he said", "ur": "آپ نے فرمایا", "tr": "dedi", "fa": "فرمود", "id": "berkata", "bn": "বললেন", "es": "dijo", "fr": "dit", "de": "sagte", "ru": "сказал", "zh": "他说"}, "pos": "V"},
+    {"word": "يُوضَعُ", "translation": {"en": "is placed", "ur": "رکھا جائے", "tr": "konulur", "fa": "گذاشته می‌شود", "id": "diletakkan", "bn": "রাখা হয়", "es": "se coloca", "fr": "est placé", "de": "wird aufgelegt", "ru": "кладётся", "zh": "放置"}, "pos": "V"},
+    {"word": "الْكَافُورُ", "translation": {"en": "the camphor", "ur": "کافور", "tr": "kafur", "fa": "کافور", "id": "kapur barus", "bn": "কর্পূর", "es": "el alcanfor", "fr": "le camphre", "de": "der Kampfer", "ru": "камфора", "zh": "樟脑"}, "pos": "N"},
+    {"word": "مِنَ", "translation": {"en": "of/for", "ur": "کے لیے", "tr": "için", "fa": "برای", "id": "untuk", "bn": "জন্য", "es": "del", "fr": "du", "de": "des", "ru": "для", "zh": "为"}, "pos": "PREP"},
+    {"word": "الْمَيِّتِ", "translation": {"en": "the deceased", "ur": "میت", "tr": "ölünün", "fa": "میت", "id": "jenazah", "bn": "মৃতের", "es": "el difunto", "fr": "le défunt", "de": "des Verstorbenen", "ru": "умершего", "zh": "亡者"}, "pos": "N"},
+    {"word": "عَلَى", "translation": {"en": "upon", "ur": "پر", "tr": "üzerine", "fa": "بر", "id": "pada", "bn": "উপর", "es": "sobre", "fr": "sur", "de": "auf", "ru": "на", "zh": "于"}, "pos": "PREP"},
+    {"word": "مَوْضِعِ", "translation": {"en": "the place(s) of", "ur": "مواضع", "tr": "yerlerine", "fa": "مواضع", "id": "tempat-tempat", "bn": "স্থানসমূহে", "es": "los lugares de", "fr": "les endroits de", "de": "den Stellen der", "ru": "местах", "zh": "处所"}, "pos": "N"},
+    {"word": "الْمَسَاجِدِ", "translation": {"en": "the prostration points (body parts used in sajdah)", "ur": "سجدہ کے مواضع", "tr": "secde yerleri (secdede yere değen uzuvlar)", "fa": "مواضع سجده", "id": "tempat-tempat sujud", "bn": "সিজদার স্থানসমূহ", "es": "las postraciones (miembros del cuerpo en la postración)", "fr": "les prosternations (membres du corps touchant le sol)", "de": "der Prostrationsstellen (Körperstellen beim Niederwurf)", "ru": "простирания ниц (части тела при саджде)", "zh": "叩头之处（叩头时接触地面的肢体）"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "及"}, "pos": "CONJ"},
+    {"word": "عَلَى", "translation": {"en": "upon", "ur": "پر", "tr": "üzerine", "fa": "بر", "id": "pada", "bn": "উপর", "es": "sobre", "fr": "sur", "de": "auf", "ru": "на", "zh": "于"}, "pos": "PREP"},
+    {"word": "اللَّبَّةِ", "translation": {"en": "the labbah (jugular notch/throat-pit)", "ur": "لبّہ (گلے کا گڑھا)", "tr": "labbah (boyun çukuru)", "fa": "لبّه (فرورفتگی گردن)", "id": "labbah (lekuk tenggorokan)", "bn": "লাব্বাহ (গলার গর্ত)", "es": "la labbah (hueco de la garganta)", "fr": "la labbah (creux de la gorge)", "de": "die Labbah (Kehlengrube)", "ru": "лаббу (ямка у основания шеи)", "zh": "颈窝（拉巴）"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "及"}, "pos": "CONJ"},
+    {"word": "بَاطِنِ", "translation": {"en": "the inner part/sole of", "ur": "تلوے / باطن", "tr": "iç kısmı / tabanı", "fa": "کف / باطن", "id": "telapak / bagian dalam", "bn": "তলদেশ / অভ্যন্তর", "es": "la planta / parte interior de", "fr": "la plante / partie intérieure de", "de": "der Innenseite / Sohle der", "ru": "подошвы / внутренней части", "zh": "脚掌心（内侧）"}, "pos": "N"},
+    {"word": "الْقَدَمَيْنِ", "translation": {"en": "both feet", "ur": "دونوں قدموں", "tr": "iki ayağın", "fa": "دو پا", "id": "kedua kaki", "bn": "উভয় পায়ের", "es": "ambos pies", "fr": "des deux pieds", "de": "beider Füße", "ru": "обеих ног", "zh": "双脚"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "及"}, "pos": "CONJ"},
+    {"word": "مَوْضِعِ", "translation": {"en": "the place of", "ur": "جگہ", "tr": "yeri", "fa": "جای", "id": "tempat", "bn": "স্থান", "es": "el lugar de", "fr": "l'endroit de", "de": "der Stelle des", "ru": "место", "zh": "处"}, "pos": "N"},
+    {"word": "الشِّرَاكِ", "translation": {"en": "the sandal strap", "ur": "جوتے کی تسمہ", "tr": "sandal kayışı", "fa": "بند کفش", "id": "tali sandal", "bn": "স্যান্ডেলের ফিতা", "es": "la correa de la sandalia", "fr": "la lanière de la sandale", "de": "des Sandalriemens", "ru": "ремня сандалии", "zh": "凉鞋带"}, "pos": "N"},
+    {"word": "مِنَ", "translation": {"en": "of", "ur": "کے", "tr": "-in", "fa": "از", "id": "dari", "bn": "এর", "es": "de", "fr": "des", "de": "der", "ru": "на", "zh": "的"}, "pos": "PREP"},
+    {"word": "الْقَدَمَيْنِ", "translation": {"en": "both feet", "ur": "دونوں قدموں", "tr": "iki ayağın", "fa": "دو پا", "id": "kedua kaki", "bn": "উভয় পায়ের", "es": "ambos pies", "fr": "des deux pieds", "de": "beider Füße", "ru": "обеих ног", "zh": "双脚"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "及"}, "pos": "CONJ"},
+    {"word": "عَلَى", "translation": {"en": "upon", "ur": "پر", "tr": "üzerine", "fa": "بر", "id": "pada", "bn": "উপর", "es": "sobre", "fr": "sur", "de": "auf", "ru": "на", "zh": "于"}, "pos": "PREP"},
+    {"word": "الرُّكْبَتَيْنِ", "translation": {"en": "both knees", "ur": "دونوں گھٹنوں", "tr": "her iki dize", "fa": "دو زانو", "id": "kedua lutut", "bn": "উভয় হাঁটু", "es": "ambas rodillas", "fr": "les deux genoux", "de": "beide Knie", "ru": "оба колена", "zh": "双膝"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "及"}, "pos": "CONJ"},
+    {"word": "الرَّاحَتَيْنِ", "translation": {"en": "both palms", "ur": "دونوں ہتھیلیوں", "tr": "her iki avuca", "fa": "دو کف دست", "id": "kedua telapak tangan", "bn": "উভয় হাতের তালু", "es": "ambas palmas", "fr": "les deux paumes", "de": "beide Handflächen", "ru": "обе ладони", "zh": "双手掌"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "及"}, "pos": "CONJ"},
+    {"word": "الْجَبْهَةِ", "translation": {"en": "the forehead", "ur": "پیشانی", "tr": "alın", "fa": "پیشانی", "id": "dahi", "bn": "কপাল", "es": "la frente", "fr": "le front", "de": "die Stirn", "ru": "лоб", "zh": "额头"}, "pos": "N"},
+    {"word": "وَ", "translation": {"en": "and", "ur": "اور", "tr": "ve", "fa": "و", "id": "dan", "bn": "এবং", "es": "y", "fr": "et", "de": "und", "ru": "и", "zh": "及"}, "pos": "CONJ"},
+    {"word": "اللَّبَّةِ", "translation": {"en": "the labbah (jugular notch/throat-pit)", "ur": "لبّہ", "tr": "labbah (boyun çukuru)", "fa": "لبّه", "id": "labbah", "bn": "লাব্বাহ", "es": "la labbah", "fr": "la labbah", "de": "die Labbah", "ru": "лаббу", "zh": "颈窝"}, "pos": "N"}
+  ],
+  "tags": ["jurisprudence", "worship"],
+  "content_type": "legal_ruling",
+  "related_quran": [
+    {"ref": "72:18", "relationship": "thematic"}
+  ],
+  "isnad_matn": {
+    "isnad_ar": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ أَيُّوبَ بْنِ نُوحٍ عَنِ ابْنِ مُسْكَانَ عَنِ الْكَاهِلِيِّ وَ حُسَيْنِ بْنِ الْمُخْتَارِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+    "matn_ar": "يُوضَعُ الْكَافُورُ مِنَ الْمَيِّتِ عَلَى مَوْضِعِ الْمَسَاجِدِ وَ عَلَى اللَّبَّةِ وَ بَاطِنِ الْقَدَمَيْنِ وَ مَوْضِعِ الشِّرَاكِ مِنَ الْقَدَمَيْنِ وَ عَلَى الرُّكْبَتَيْنِ وَ الرَّاحَتَيْنِ وَ الْجَبْهَةِ وَ اللَّبَّةِ",
+    "has_chain": true,
+    "narrators": [
+      {
+        "name_ar": "عَلِيُّ بْنُ مُحَمَّدٍ",
+        "name_en": "Ali ibn Muhammad",
+        "role": "narrator",
+        "position": 1,
+        "identity_confidence": "ambiguous",
+        "ambiguity_note": "Multiple narrators named 'Ali ibn Muhammad appear in al-Istibsar chains. Possibly 'Ali ibn Muhammad ibn Qutayba al-Naysaburi or 'Ali ibn Muhammad ibn al-Zubayri.",
+        "known_identity": null,
+        "word_ranges": [{"word_start": 0, "word_end": 3}]
+      },
+      {
+        "name_ar": "أَيُّوبُ بْنُ نُوحٍ",
+        "name_en": "Ayyub ibn Nuh",
+        "role": "narrator",
+        "position": 2,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Ayyub ibn Nuh ibn Darraj al-Nakha'i, prominent Shia narrator and trusted agent (wakil) of Imam al-Hadi and Imam al-'Askari (peace be upon them).",
+        "word_ranges": [{"word_start": 4, "word_end": 7}]
+      },
+      {
+        "name_ar": "ابْنُ مُسْكَانَ",
+        "name_en": "Ibn Muskan",
+        "role": "narrator",
+        "position": 3,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "'Abd Allah ibn Muskan, prominent Shia narrator and companion of Imam al-Sadiq (peace be upon him).",
+        "word_ranges": [{"word_start": 8, "word_end": 10}]
+      },
+      {
+        "name_ar": "الْكَاهِلِيُّ",
+        "name_en": "al-Kahili",
+        "role": "narrator",
+        "position": 4,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Most likely 'Abd Allah ibn Yahya al-Kahili, companion of Imam al-Sadiq (peace be upon him); other bearers of this nisba are less prominent.",
+        "known_identity": "'Abd Allah ibn Yahya al-Kahili",
+        "word_ranges": [{"word_start": 11, "word_end": 12}]
+      },
+      {
+        "name_ar": "حُسَيْنُ بْنُ الْمُخْتَارِ",
+        "name_en": "Husayn ibn al-Mukhtar",
+        "role": "narrator",
+        "position": 4,
+        "identity_confidence": "definite",
+        "ambiguity_note": "Parallel transmitter alongside al-Kahili at the same chain level, both reporting from Abu 'Abd Allah (peace be upon him).",
+        "known_identity": "Husayn ibn al-Mukhtar al-Qalansawi, companion of Imam al-Sadiq (peace be upon him).",
+        "word_ranges": [{"word_start": 13, "word_end": 16}]
+      },
+      {
+        "name_ar": "أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
+        "name_en": "Abu 'Abd Allah (peace be upon him)",
+        "role": "imam",
+        "position": 5,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Imam Ja'far ibn Muhammad al-Sadiq (peace be upon him), the sixth Imam.",
+        "word_ranges": [{"word_start": 17, "word_end": 22}]
+      }
+    ]
+  },
+  "translations": {
+    "en": {
+      "text": "'Ali ibn Muhammad, from Ayyub ibn Nuh, from Ibn Muskan, from al-Kahili and Husayn ibn al-Mukhtar, from Abu 'Abd Allah (peace be upon him), who said: Camphor is placed on the deceased at the places of prostration, and upon the labbah (throat-pit), and the soles of both feet, and the place of the sandal strap on the feet, and upon both knees, and both palms, and the forehead, and the labbah.",
+      "summary": "Imam al-Sadiq (peace be upon him) specifies the exact bodily sites where camphor must be applied when preparing the deceased for burial. The sites include the mawadi' al-masajid — the seven body parts that contact the ground during sajdah (forehead, two palms, two knees, two toe-tips) — along with the labbah (jugular notch), the soles of the feet, the dorsal line of the sandal strap, and the knees and palms explicitly restated. The repeated mention of the labbah at both the opening and close of the list is noted by classical jurists and may reflect either textual transmission variants or deliberate emphasis.",
+      "key_terms": {
+        "الْكَافُورُ": "camphor — ritual purifying substance applied to the body of the deceased during funeral preparation",
+        "مَوْضِعِ الْمَسَاجِدِ": "places of prostration — the seven body parts that contact the ground in sajdah, given special status in fiqh",
+        "اللَّبَّةِ": "labbah — the jugular notch, the hollow at the base of the throat between neck and sternum",
+        "الشِّرَاكِ": "sandal strap — the thong of a sandal; its position on the dorsum of the foot marks a distinct camphor application point"
+      },
+      "seo_question": "According to Imam al-Sadiq (AS) in al-Istibsar, which specific body parts of the deceased receive camphor during Shia funeral preparation?"
+    },
+    "ur": {
+      "text": "علی بن محمد نے ایوب بن نوح سے، انہوں نے ابن مسکان سے، انہوں نے الکاہلی اور حسین بن المختار سے، انہوں نے ابو عبد اللہ علیہ السلام سے روایت کی، آپ نے فرمایا: میت پر کافور سجدے کے مواضع پر، لبّہ پر، دونوں قدموں کے تلووں پر، قدموں پر جوتے کی تسمہ کی جگہ پر، دونوں گھٹنوں پر، دونوں ہتھیلیوں پر، پیشانی پر اور لبّہ پر رکھا جائے۔",
+      "summary": "امام جعفر صادق علیہ السلام کی یہ حدیث میت کی تیاری کے دوران کافور لگانے کے مخصوص مواضع بیان کرتی ہے۔ یہ مقامات سجدے کے سات اعضاء کے ساتھ ساتھ لبّہ، تلوے، جوتے کی تسمہ کی جگہ، گھٹنے، ہتھیلیاں اور پیشانی ہیں، اور لبّہ کا ذکر فہرست کے اختتام پر دوبارہ آیا ہے جسے فقہاء نے نوٹ کیا ہے۔",
+      "key_terms": {
+        "الْكَافُورُ": "کافور — تدفین کی تیاری میں میت کے جسم پر لگایا جانے والا تطہیری مادہ",
+        "مَوْضِعِ الْمَسَاجِدِ": "سجدے کے مواضع — وہ سات اعضاء جو نماز میں سجدے کے وقت زمین سے لگتے ہیں",
+        "اللَّبَّةِ": "لبّہ — گردن اور سینے کے درمیان کا گڑھا",
+        "الشِّرَاکِ": "تسمہ — جوتے کی پٹی؛ قدم کے اوپری حصے پر اس کی جگہ کافور لگانے کی ایک مخصوص جگہ ہے"
+      },
+      "seo_question": "شیعہ فقہ میں کتاب الاستبصار کے مطابق امام صادق علیہ السلام نے میت پر کافور کن مخصوص مواضع پر لگانے کا حکم دیا؟"
+    },
+    "tr": {
+      "text": "Ali ibn Muhammed, Eyyub ibn Nuh'tan, o İbn Muskan'dan, o el-Kahili ve Hüseyin ibn el-Muhtar'dan, onlar Ebu Abdullah'tan (aleyhisselam) rivayet etti; dedi ki: Ölüye kafur (kâfur) secde yerlerine, labbaya (boyun çukuruna), her iki ayağın tabanına, ayaklardaki sandal kayışının yerine, her iki dizin üzerine, her iki avucun üzerine, alna ve labbaya konulur.",
+      "summary": "İmam Sadık'tan (aleyhisselam) gelen bu hadis, cenaze hazırlığı sırasında kafurun uygulanacağı kesin vücut noktalarını belirtmektedir. Bu noktalar; secdede yere değen yedi uzuv (mevazi'u'l-mesacid), labbah (boyun çukuru), ayak tabanları, sandal kayışının bulunduğu yer, dizler, avuçlar ve alından oluşmakta; labbah ise listenin hem başında hem de sonunda geçmektedir.",
+      "key_terms": {
+        "الْكَافُورُ": "kafur — cenaze hazırlığında ölünün bedenine uygulanan arındırıcı madde",
+        "مَوْضِعِ الْمَسَاجِدِ": "secde yerleri — secdede yere değen yedi uzuv; fıkıhta özel statüye sahip",
+        "اللَّبَّةِ": "labbah — boyun ile göğüs kemiği arasındaki çukur",
+        "الشِّرَاکِ": "sandal kayışı — ayakkabı kayışının ayak üstündeki konumu, kafur uygulama noktası olarak belirlenir"
+      },
+      "seo_question": "Şii fıkhında el-İstibsar'a göre İmam Sadık (a.s.) kafurun cenazenin hangi bedensel bölgelerine konulmasını emretmiştir?"
+    },
+    "fa": {
+      "text": "علی بن محمد از ایوب بن نوح، از ابن مسکان، از الکاهلی و حسین بن المختار، از ابوعبدالله علیه السلام روایت کرد که فرمود: کافور از میت بر مواضع سجده، و بر لبّه (فرورفتگی گردن)، و کف دو پا، و جای بند کفش بر دو پا، و بر دو زانو، و دو کف دست، و پیشانی، و لبّه گذاشته می‌شود.",
+      "summary": "این حدیث از امام جعفر صادق علیه السلام محل‌های دقیق قرار دادن کافور بر بدن میت را در آماده‌سازی برای تدفین مشخص می‌کند. این محل‌ها با مواضع سجده (هفت عضو لمس‌کننده زمین در هنگام سجده) و همچنین لبّه، کف پا، جای بند کفش، زانوها، کف دست‌ها و پیشانی مطابقت دارند؛ ذکر تکراری لبّه در پایان فهرست مورد توجه فقها بوده است.",
+      "key_terms": {
+        "الْكَافُورُ": "کافور — ماده‌ای تطهیری که در آماده‌سازی میت برای تدفین بر بدن نهاده می‌شود",
+        "مَوْضِعِ الْمَسَاجِدِ": "مواضع سجده — هفت عضوی که در سجده با زمین تماس دارند و در فقه دارای جایگاه ویژه‌اند",
+        "اللَّبَّةِ": "لبّه — فرورفتگی میان گردن و جناغ سینه",
+        "الشِّرَاکِ": "بند کفش — محل قرارگیری تسمه کفش بر روی پا، نقطه‌ای معین برای گذاشتن کافور"
+      },
+      "seo_question": "طبق الاستبصار، امام صادق علیه السلام در فقه شیعه کافور را بر کدام مواضع بدن میت قرار دادن را واجب دانسته‌اند؟"
+    },
+    "id": {
+      "text": "Ali ibn Muhammad, dari Ayyub ibn Nuh, dari Ibn Muskan, dari al-Kahili dan Husayn ibn al-Mukhtar, dari Abu 'Abd Allah (as), beliau berkata: Kapur barus diletakkan pada jenazah di tempat-tempat sujud, dan pada labbah (lekuk tenggorokan), dan telapak kedua kaki, dan tempat tali sandal pada kedua kaki, dan pada kedua lutut, dan kedua telapak tangan, dan dahi, dan labbah.",
+      "summary": "Hadis dari Imam al-Sadiq (as) ini menetapkan titik-titik spesifik pada tubuh jenazah tempat kapur barus harus diaplikasikan saat mempersiapkan pemakaman. Titik-titik tersebut meliputi tujuh anggota tubuh yang menyentuh tanah saat sujud, serta labbah, telapak kaki, tempat tali sandal, lutut, telapak tangan, dan dahi; labbah disebut dua kali dalam penghitungan ini.",
+      "key_terms": {
+        "الْكَافُورُ": "kapur barus — zat penyucian yang diaplikasikan pada tubuh jenazah saat persiapan pemakaman",
+        "مَوْضِعِ الْمَسَاجِدِ": "tempat-tempat sujud — tujuh anggota tubuh yang menyentuh tanah saat sujud, memiliki status khusus dalam fikih",
+        "اللَّبَّةِ": "labbah — lekukan di pangkal leher antara leher dan tulang dada",
+        "الشِّرَاکِ": "tali sandal — posisi tali sandal di punggung kaki menandai titik aplikasi tertentu"
+      },
+      "seo_question": "Menurut al-Istibsar, di bagian tubuh mana Imam al-Sadiq (as) memerintahkan kapur barus diletakkan pada jenazah dalam fikih Syiah?"
+    },
+    "bn": {
+      "text": "আলী ইবন মুহাম্মদ, আইয়ুব ইবন নূহ থেকে, তিনি ইবন মুসকান থেকে, তিনি আল-কাহিলী ও হুসাইন ইবন আল-মুখতার থেকে, তারা আবু আব্দুল্লাহ (আ.স.) থেকে বর্ণনা করেছেন যে, তিনি বললেন: মৃতের শরীরে সিজদার স্থানসমূহে, লাব্বাহতে (গলার গর্তে), উভয় পায়ের তলায়, পায়ের স্যান্ডেলের ফিতার স্থানে, উভয় হাঁটুতে, উভয় হাতের তালুতে, কপালে এবং লাব্বাহতে কর্পূর রাখা হবে।",
+      "summary": "ইমাম আল-সাদিক (আ.স.)-এর এই হাদিসটি দাফনের প্রস্তুতিকালে মৃতের শরীরের নির্দিষ্ট স্থানে কর্পূর প্রয়োগের বিধান বর্ণনা করে। নির্ধারিত স্থানগুলো সিজদার সাতটি অঙ্গ এবং লাব্বাহ, পায়ের তলা, স্যান্ডেলের ফিতার স্থান, হাঁটু, হাতের তালু ও কপালের সাথে সামঞ্জস্যপূর্ণ; তালিকার শেষেও লাব্বাহ পুনরায় উল্লিখিত হয়েছে।",
+      "key_terms": {
+        "الْكَافُورُ": "কর্পূর — দাফনের প্রস্তুতিতে মৃতের শরীরে প্রয়োগ করা শুদ্ধিকারক পদার্থ",
+        "مَوْضِعِ الْمَسَاجِدِ": "সিজদার স্থানসমূহ — সিজদায় মাটি স্পর্শকারী সাতটি অঙ্গ, ফিকহে বিশেষ মর্যাদাসম্পন্ন",
+        "اللَّبَّةِ": "লাব্বাহ — গলা ও বুকের হাড়ের মাঝখানের গর্ত",
+        "الشِّرَاکِ": "স্যান্ডেলের ফিতা — পায়ের উপরিভাগে ফিতার অবস্থান কর্পূর প্রয়োগের নির্দিষ্ট বিন্দু নির্ধারণ করে"
+      },
+      "seo_question": "আল-ইস্তিবসার অনুযায়ী শিয়া ফিকহে ইমাম আল-সাদিক (আ.স.) মৃতের শরীরের কোন নির্দিষ্ট স্থানগুলোতে কর্পূর রাখার নির্দেশ দিয়েছেন?"
+    },
+    "es": {
+      "text": "Ali ibn Muhammad, de Ayyub ibn Nuh, de Ibn Muskan, de al-Kahili y Husayn ibn al-Mukhtar, de Abu 'Abd Allah (que la paz sea con él), quien dijo: Se coloca el alcanfor en el difunto en los lugares de postración, y sobre la labbah (hueco de la garganta), y las plantas de ambos pies, y el lugar de la correa de la sandalia en los pies, y sobre ambas rodillas, y ambas palmas, y la frente, y la labbah.",
+      "summary": "Este hadiz del Imam al-Sadiq (que la paz sea con él) especifica los puntos exactos del cuerpo del difunto donde debe aplicarse el alcanfor durante la preparación para el entierro. Los sitios designados comprenden los siete miembros que tocan el suelo en la postración (mawadi' al-masajid), así como la labbah, las plantas de los pies, el lugar de la correa de la sandalia, las rodillas, las palmas y la frente; la labbah aparece mencionada también al final de la enumeración.",
+      "key_terms": {
+        "الْكَافُورُ": "alcanfor — sustancia purificadora aplicada al cuerpo del difunto en la preparación funeraria",
+        "مَوْضِعِ الْمَسَاجِدِ": "lugares de postración — los siete miembros del cuerpo que tocan el suelo durante el sajdah, con estatus especial en el fiqh",
+        "اللَّبَّةِ": "labbah — la cavidad en la base del cuello entre la garganta y el esternón",
+        "الشِّرَاکِ": "correa de la sandalia — su posición en el dorso del pie señala un punto específico de aplicación del alcanfor"
+      },
+      "seo_question": "Según al-Istibsar, ¿en qué partes específicas del cuerpo del difunto ordena el Imam al-Sadiq (AS) colocar el alcanfor en el rito funerario chií?"
+    },
+    "fr": {
+      "text": "Ali ibn Muhammad, de Ayyub ibn Nuh, d'Ibn Muskan, d'al-Kahili et Husayn ibn al-Mukhtar, d'Abu 'Abd Allah (que la paix soit sur lui), qui dit: Le camphre est placé sur le défunt aux endroits de la prosternation, et sur la labbah (creux de la gorge), et les plantes des deux pieds, et l'endroit de la lanière de la sandale sur les pieds, et sur les deux genoux, et les deux paumes, et le front, et la labbah.",
+      "summary": "Ce hadith de l'Imam al-Sadiq (que la paix soit sur lui) précise les emplacements exacts sur le corps du défunt où le camphre doit être appliqué lors de la préparation à l'inhumation. Les sites désignés correspondent aux sept membres touchant le sol lors du sajdah (mawadi' al-masajid), ainsi qu'à la labbah, aux plantes des pieds, à la position de la lanière de la sandale, aux genoux, aux paumes et au front; la labbah étant mentionnée une seconde fois en fin de liste.",
+      "key_terms": {
+        "الْكَافُورُ": "camphre — substance purificatrice appliquée sur le corps du défunt lors de la préparation funéraire",
+        "مَوْضِعِ الْمَسَاجِدِ": "endroits de la prosternation — les sept membres touchant le sol lors du sajdah, ayant un statut spécial en fiqh",
+        "اللَّبَّةِ": "labbah — le creux à la base du cou entre la gorge et le sternum",
+        "الشِّرَاکِ": "lanière de la sandale — sa position sur le dos du pied marque un point spécifique d'application"
+      },
+      "seo_question": "Selon al-Istibsar, à quels endroits précis du corps du défunt l'Imam al-Sadiq (AS) ordonne-t-il de placer le camphre dans le rite funèbre chiite?"
+    },
+    "de": {
+      "text": "Ali ibn Muhammad, von Ayyub ibn Nuh, von Ibn Muskan, von al-Kahili und Husayn ibn al-Mukhtar, von Abu 'Abd Allah (Friede sei auf ihm), der sagte: Kampfer wird auf den Verstorbenen an den Prostrationsstellen, auf der Labbah (Kehlengrube), den Fußsohlen, der Stelle des Sandalriemens an den Füßen, auf beiden Knien, beiden Handflächen, der Stirn und der Labbah aufgelegt.",
+      "summary": "Dieses Hadith von Imam al-Sadiq (Friede sei auf ihm) legt die genauen Körperstellen des Verstorbenen fest, an denen Kampfer während der Bestattungsvorbereitung aufgebracht werden soll. Die vorgeschriebenen Stellen entsprechen den sieben Körperpunkten des Niederwurfs (mawadi' al-masajid), der Labbah, den Fußsohlen, der Sandalriemenposition, den Knien, den Handflächen und der Stirn; die Labbah wird am Ende der Aufzählung nochmals erwähnt.",
+      "key_terms": {
+        "الْكَافُورُ": "Kampfer — eine reinigende Substanz, die bei der Bestattungsvorbereitung auf den Körper des Verstorbenen aufgetragen wird",
+        "مَوْضِعِ الْمَسَاجِدِ": "Prostrationsstellen — die sieben Körperstellen, die beim Niederwurf den Boden berühren, mit besonderem fiqh-rechtlichem Status",
+        "اللَّبَّةِ": "Labbah — die Kehlengrube an der Basis des Halses zwischen Kehle und Brustbein",
+        "الشِّرَاکِ": "Sandalriemen — seine Position auf dem Fußrücken markiert einen spezifischen Auftragspunkt"
+      },
+      "seo_question": "An welchen genauen Körperstellen des Verstorbenen ordnet Imam al-Sadiq (AS) gemäß al-Istibsar das Auftragen von Kampfer im schiitischen Bestattungsritus an?"
+    },
+    "ru": {
+      "text": "Али ибн Мухаммад, от Айюба ибн Нуха, от Ибн Мускана, от аль-Кахили и Хусейна ибн аль-Мухтара, от Абу Абдуллаха (мир ему), который сказал: Камфора кладётся на умершего в местах простирания ниц, и на лаббу (ямку у основания шеи), и на подошвы обеих ног, и на место ремня сандалии на ногах, и на оба колена, и на обе ладони, и на лоб, и на лаббу.",
+      "summary": "Этот хадис от Имама ас-Садика (мир ему) определяет точные места на теле умершего, где следует нанести камфору при подготовке к погребению. Указанные места соответствуют семи точкам тела, касающимся земли при простирании ниц (mawadi' al-masajid), а также лаббе, подошвам ног, месту ремня сандалии, коленям, ладоням и лбу; лабба упоминается повторно в конце перечня.",
+      "key_terms": {
+        "الْكَافُورُ": "камфора — очищающее вещество, наносимое на тело умершего при подготовке к погребению",
+        "مَوْضِعِ الْمَسَاجِدِ": "места простирания ниц — семь частей тела, касающихся земли при саджде, имеющих особый статус в фикхе",
+        "اللَّبَّةِ": "лабба — ямка у основания шеи между горлом и грудиной",
+        "الشِّرَاکِ": "ремень сандалии — его положение на тыльной стороне стопы определяет конкретную точку нанесения"
+      },
+      "seo_question": "В каких именно местах на теле умершего Имам ас-Садик (мир ему) согласно аль-Истибсару предписывает наносить камфору в шиитском погребальном обряде?"
+    },
+    "zh": {
+      "text": "阿里·本·穆罕默德，由艾优布·本·努哈，由伊本·穆斯坎，由卡希利和侯赛因·本·穆赫塔尔，由艾布·阿卜杜拉（愿主赐他平安）传述，他说：在亡者身上，于叩头之处、颈窝（拉巴）、双脚掌心、双脚凉鞋带的位置、双膝、双手掌、额头和颈窝（拉巴）各处放置樟脑。",
+      "summary": "这段圣训来自伊玛目萨迪格（愿主赐他平安），详细规定了为亡者准备下葬时，应在身体哪些具体部位涂抹樟脑。这些部位包括叩头（萨杰达）时接触地面的七个肢体（叩头处）、颈窝、脚掌心、凉鞋带处、膝盖、手掌和额头；颈窝在列举的首尾均被提及。",
+      "key_terms": {
+        "الْكَافُورُ": "樟脑 — 葬礼准备中涂抹于亡者身体的净化物质",
+        "مَوْضِعِ الْمَسَاجِدِ": "叩头之处 — 叩头（萨杰达）时接触地面的七个肢体部位，在伊斯兰法学中具有特殊地位",
+        "اللَّبَّةِ": "颈窝（拉巴）— 颈部底端、喉部与胸骨之间的凹陷",
+        "الشِّرَاکِ": "凉鞋带 — 鞋带在脚背上的位置，标志着一个特定的樟脑涂抹点"
+      },
+      "seo_question": "根据《伊斯提卜萨尔》，伊玛目萨迪格（愿主赐他平安）在什叶派葬礼规定中命令将樟脑置于亡者身体的哪些具体部位？"
+    }
+  },
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ عَنْ أَيُّوبَ بْنِ نُوحٍ عَنِ ابْنِ مُسْكَانَ عَنِ الْكَاهِلِيِّ وَ حُسَيْنِ بْنِ الْمُخْتَارِ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+      "word_start": 0,
+      "word_end": 23,
+      "translations": {
+        "en": "'Ali ibn Muhammad, from Ayyub ibn Nuh, from Ibn Muskan, from al-Kahili and Husayn ibn al-Mukhtar, from Abu 'Abd Allah (peace be upon him), who said:",
+        "ur": "علی بن محمد نے ایوب بن نوح سے، انہوں نے ابن مسکان سے، انہوں نے الکاہلی اور حسین بن المختار سے، انہوں نے ابو عبد اللہ علیہ السلام سے روایت کی کہ آپ نے فرمایا:",
+        "tr": "Ali ibn Muhammed, Eyyub ibn Nuh'tan, o İbn Muskan'dan, o el-Kahili ve Hüseyin ibn el-Muhtar'dan, onlar Ebu Abdullah'tan (aleyhisselam) rivayet etti; dedi ki:",
+        "fa": "علی بن محمد از ایوب بن نوح، از ابن مسکان، از الکاهلی و حسین بن المختار، از ابوعبدالله علیه السلام روایت کرد که فرمود:",
+        "id": "Ali ibn Muhammad, dari Ayyub ibn Nuh, dari Ibn Muskan, dari al-Kahili dan Husayn ibn al-Mukhtar, dari Abu 'Abd Allah (as), beliau berkata:",
+        "bn": "আলী ইবন মুহাম্মদ, আইয়ুব ইবন নূহ থেকে, তিনি ইবন মুসকান থেকে, তিনি আল-কাহিলী ও হুসাইন ইবন আল-মুখতার থেকে, তারা আবু আব্দুল্লাহ (আ.স.) থেকে বর্ণনা করেছেন, তিনি বললেন:",
+        "es": "Ali ibn Muhammad, de Ayyub ibn Nuh, de Ibn Muskan, de al-Kahili y Husayn ibn al-Mukhtar, de Abu 'Abd Allah (que la paz sea con él), quien dijo:",
+        "fr": "Ali ibn Muhammad, de Ayyub ibn Nuh, d'Ibn Muskan, d'al-Kahili et Husayn ibn al-Mukhtar, d'Abu 'Abd Allah (que la paix soit sur lui), qui dit:",
+        "de": "Ali ibn Muhammad, von Ayyub ibn Nuh, von Ibn Muskan, von al-Kahili und Husayn ibn al-Mukhtar, von Abu 'Abd Allah (Friede sei auf ihm), der sagte:",
+        "ru": "Али ибн Мухаммад, от Айюба ибн Нуха, от Ибн Мускана, от аль-Кахили и Хусейна ибн аль-Мухтара, от Абу Абдуллаха (мир ему), который сказал:",
+        "zh": "阿里·本·穆罕默德，由艾优布·本·努哈，由伊本·穆斯坎，由卡希利和侯赛因·本·穆赫塔尔，由艾布·阿卜杜拉（愿主赐他平安）传述，他说："
+      }
+    },
+    {
+      "chunk_type": "body",
+      "arabic_text": "يُوضَعُ الْكَافُورُ مِنَ الْمَيِّتِ عَلَى مَوْضِعِ الْمَسَاجِدِ وَ عَلَى اللَّبَّةِ وَ بَاطِنِ الْقَدَمَيْنِ وَ مَوْضِعِ الشِّرَاكِ مِنَ الْقَدَمَيْنِ وَ عَلَى الرُّكْبَتَيْنِ وَ الرَّاحَتَيْنِ وَ الْجَبْهَةِ وَ اللَّبَّةِ",
+      "word_start": 23,
+      "word_end": 50,
+      "translations": {
+        "en": "Camphor is placed on the deceased at the places of prostration, and upon the labbah (throat-pit), and the soles of both feet, and the place of the sandal strap on the feet, and upon both knees, and both palms, and the forehead, and the labbah.",
+        "ur": "میت پر کافور سجدے کے مواضع پر، لبّہ پر، دونوں قدموں کے تلووں پر، قدموں پر جوتے کی تسمہ کی جگہ پر، دونوں گھٹنوں پر، دونوں ہتھیلیوں پر، پیشانی پر اور لبّہ پر رکھا جائے۔",
+        "tr": "Ölüye kafur secde yerlerine, labbaya (boyun çukuruna), her iki ayağın tabanına, ayaklardaki sandal kayışının yerine, her iki dizin üzerine, her iki avucun üzerine, alna ve labbaya konulur.",
+        "fa": "کافور از میت بر مواضع سجده، و بر لبّه (فرورفتگی گردن)، و کف دو پا، و جای بند کفش بر دو پا، و بر دو زانو، و دو کف دست، و پیشانی، و لبّه گذاشته می‌شود.",
+        "id": "Kapur barus diletakkan pada jenazah di tempat-tempat sujud, dan pada labbah (lekuk tenggorokan), dan telapak kedua kaki, dan tempat tali sandal pada kedua kaki, dan pada kedua lutut, dan kedua telapak tangan, dan dahi, dan labbah.",
+        "bn": "মৃতের শরীরে সিজদার স্থানসমূহে, লাব্বাহতে (গলার গর্তে), উভয় পায়ের তলায়, পায়ের স্যান্ডেলের ফিতার স্থানে, উভয় হাঁটুতে, উভয় হাতের তালুতে, কপালে এবং লাব্বাহতে কর্পূর রাখা হবে।",
+        "es": "Se coloca el alcanfor en el difunto en los lugares de postración, y sobre la labbah (hueco de la garganta), y las plantas de ambos pies, y el lugar de la correa de la sandalia en los pies, y sobre ambas rodillas, y ambas palmas, y la frente, y la labbah.",
+        "fr": "Le camphre est placé sur le défunt aux endroits de la prosternation, et sur la labbah (creux de la gorge), et les plantes des deux pieds, et l'endroit de la lanière de la sandale sur les pieds, et sur les deux genoux, et les deux paumes, et le front, et la labbah.",
+        "de": "Kampfer wird auf den Verstorbenen an den Prostrationsstellen, auf der Labbah (Kehlengrube), den Fußsohlen, der Stelle des Sandalriemens an den Füßen, auf beiden Knien, beiden Handflächen, der Stirn und der Labbah aufgelegt.",
+        "ru": "Камфора кладётся на умершего в местах простирания ниц, и на лаббу (ямку у основания шеи), и на подошвы обеих ног, и на место ремня сандалии на ногах, и на оба колена, и на обе ладони, и на лоб, и на лаббу.",
+        "zh": "在亡者身上，于叩头之处、颈窝（拉巴）、双脚掌心、双脚凉鞋带的位置、双膝、双手掌、额头和颈窝（拉巴）各处放置樟脑。"
+      }
+    }
+  ],
+  "topics": ["ritual_purity", "prayer_rulings", "halal_haram"],
+  "key_phrases": [
+    {
+      "phrase_ar": "مَوْضِعِ الْمَسَاجِدِ",
+      "phrase_en": "places of prostration — body parts used in sajdah",
+      "category": "jurisprudential_term"
+    },
+    {
+      "phrase_ar": "بَاطِنِ الْقَدَمَيْنِ",
+      "phrase_en": "soles of both feet",
+      "category": "jurisprudential_term"
+    },
+    {
+      "phrase_ar": "مَوْضِعِ الشِّرَاكِ",
+      "phrase_en": "place of the sandal strap on the foot",
+      "category": "jurisprudential_term"
+    },
+    {
+      "phrase_ar": "عَلَيْهِ السَّلَامُ",
+      "phrase_en": "peace be upon him",
+      "category": "prophetic_formula"
+    }
+  ],
+  "similar_content_hints": [
+    {
+      "description": "A parallel narration in Tahdhib al-Ahkam by Sheikh al-Tusi prescribing the application of camphor on the deceased, listing the same or overlapping body parts with minor chain differences.",
+      "theme": "kafur_application_on_deceased"
+    },
+    {
+      "description": "A hadith from al-Kafi enumerating the seven body parts used in prostration (mawadi' al-masajid) and discussing their ritual significance in salat and beyond.",
+      "theme": "seven_prostration_members"
+    },
+    {
+      "description": "A hadith detailing the complete procedure of ghusl al-mayyit — the ritual washing of the deceased — including the sequence of sidr, camphor, and pure water washings.",
+      "theme": "ghusl_al_mayyit"
+    }
+  ]
+}
+```

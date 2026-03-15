@@ -1,0 +1,40 @@
+{
+  "verse_id": "al-kafi_3_1_1_1",
+  "verse_path": "/books/al-kafi:3:1:1:1",
+  "pipeline_version": "3.0.0",
+  "generated_at": "2026-03-13T02:07:10.558907+00:00",
+  "status": "error",
+  "word_count": 15,
+  "mode": "single",
+  "model": "gpt-5.2",
+  "generation": {
+    "cost_usd": 0.082486,
+    "output_tokens": 5221,
+    "elapsed_s": 71.57,
+    "turns": 1
+  },
+  "fix": {
+    "needed": false,
+    "applied": false,
+    "model": "",
+    "cost_usd": 0,
+    "output_tokens": 0,
+    "elapsed_s": 0
+  },
+  "quality": {
+    "warnings_high": 0,
+    "warnings_medium": 0,
+    "warnings_low": 0,
+    "validation_errors": [
+      "chunks[1] word_end (40) exceeds word_analysis length (39)",
+      "last chunk word_end (40) must equal word_analysis length (39)"
+    ]
+  },
+  "content": {
+    "content_type": "legal_ruling",
+    "has_chain": true
+  },
+  "system_prompt_hash": "17ead77ac9a169b6",
+  "failure_count": 1,
+  "false_positive_accepted": false
+}

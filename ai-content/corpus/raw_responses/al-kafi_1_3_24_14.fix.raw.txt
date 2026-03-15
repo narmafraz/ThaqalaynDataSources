@@ -1,0 +1,61 @@
+Looking at the flagged issues, I'll analyze each:
+
+- **Issues 1–23 (LOW, arabic_echo):** All flagged words are either proper nouns (Ahmad, Muhammad, Ja'far, Yunus, Jahm, Abu, Abd, bin) or the conjunction `وَ`/`و` which is genuinely shared across Arabic, Persian, and Urdu. These are correct as-is — no change needed.
+- **Issue 24 (MEDIUM, chunk_translation_mismatch bn):** The concatenated Bengali chunk translations (509 chars) are 59% longer than the verse-level Bengali text (320 chars). The body chunk inflates length by spelling out the full ṣalawāt ("সাল্লাল্লাহু আলাইহি ওয়া আলিহিকে") and using verbose phrasing. Both chunks need more concise Bengali translations.
+- **Issue 25 (LOW, word_count_mismatch):** The word_analysis intentionally covers both the isnād chain and the body (59 words total), not just the 32-word body verse. This is correct tokenization behavior — no change needed.
+
+Only **Issue 24** requires a fix:
+
+```json
+{
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": 0,
+      "word_end": 27,
+      "translations": {
+        "en": "And by this chain, from Ahmad ibn Muhammad, from Ja'far ibn Muhammad, from Yunus, from Jahm ibn Abi Jahma, from the one who narrated to him, from Abu 'Abdillah (Imam al-Sadiq), peace be upon him — he said:",
+        "ur": "اور اسی اسناد سے، احمد بن محمد سے، جعفر بن محمد سے، یونس سے، جہم بن ابی جہمہ سے، جس نے انہیں روایت کی اس سے، ابوعبداللہ علیہ السلام سے — انہوں نے فرمایا:",
+        "tr": "Bu isnadla: Ahmed b. Muhammed'den, Ca'fer b. Muhammed'den, Yunus'tan, Cahm b. Ebî Cahme'den, ona rivayet edenden, Ebû Abdillah (İmam Sâdık) aleyhisselam'dan naklen — o şöyle dedi:",
+        "fa": "و به همین اسناد از احمد بن محمد، از جعفر بن محمد، از یونس، از جهم بن ابی جهمه، از کسی که برای او نقل کرده، از ابوعبدالله علیه السلام — ایشان فرمودند:",
+        "id": "Dan dengan isnad ini, dari Ahmad ibn Muhammad, dari Ja'far ibn Muhammad, dari Yunus, dari Jahm ibn Abi Jahma, dari orang yang meriwayatkan kepadanya, dari Abu 'Abdillah (Imam al-Shadiq), alaihissalam — beliau berkata:",
+        "bn": "এই সনদে, আহমাদ ইবন মুহাম্মাদ থেকে, জাফর ইবন মুহাম্মাদ থেকে, ইউনুস থেকে, জাহম ইবন আবী জাহমা থেকে, যিনি তাঁকে বর্ণনা করেছেন তার থেকে, আবু আবদিল্লাহ (ইমাম সাদিক) (আ.) থেকে — তিনি বলেছেন:",
+        "es": "Y por esta cadena, de Ahmad ibn Muhammad, de Ja'far ibn Muhammad, de Yunus, de Jahm ibn Abi Jahma, del que le narró, de Abu 'Abdillah (Imam al-Sadiq), paz sea con él — dijo:",
+        "fr": "Et par cette chaîne, de Ahmad ibn Muhammad, de Ja'far ibn Muhammad, de Yunus, de Jahm ibn Abi Jahma, de celui qui lui a narré, de Abu 'Abdillah (Imam al-Sadiq), paix soit sur lui — il dit:",
+        "de": "Und durch diese Überliefererkette, von Ahmad ibn Muhammad, von Ja'far ibn Muhammad, von Yunus, von Jahm ibn Abi Jahma, von dem, der es ihm berichtete, von Abu 'Abdillah (Imam al-Sadiq), Friede sei auf ihm — er sagte:",
+        "ru": "И по этой цепи передатчиков, от Ахмада ибн Мухаммада, от Джафара ибн Мухаммада, от Юнуса, от Джахма ибн Аби Джахмы, от того, кто передал ему, от Абу 'Абдиллаха (имама ас-Садика), мир ему — он сказал:",
+        "zh": "经此传述链，从阿赫迈德·本·穆罕默德，从贾法尔·本·穆罕默德，从优努斯，从贾赫姆·本·阿比·贾赫迈，从传述给他的人，从阿布·阿卜迪拉（伊玛目萨迪格）——愿主赐福于他——他说："
+      },
+      "arabic_text": "وَ بِهَذَا الْإِسْنَادِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ جَهْمِ بْنِ أَبِي جَهْمَةَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 27,
+      "word_end": 59,
+      "translations": {
+        "en": "'Verily, Allah azwj Mighty and Majestic informed Muhammad saww of whatever had existed since the coming into being of the world, and of whatever would occur until the expiry of the world, and informed him of the Ordained (mahtum) matters from that, and He made an exception upon him regarding what was besides it.'",
+        "ur": "'بے شک اللہ عزَّ وجلَّ نے محمد صلی اللہ علیہ وآلہ کو اس سب چیز سے آگاہ فرمایا جو دنیا کے وجود میں آنے سے تھا، اور اس چیز سے جو دنیا کے ختم ہونے تک ہوگی، اور انہیں اس میں سے محتوم امور سے آگاہ فرمایا، اور باقی امور میں ان کے اوپر استثناء رکھا۔'",
+        "tr": "'Şüphesiz Allah azze ve celle, Muhammed'e (s.a.v.s.) dünyanın var olduğundan beri olanların tamamını ve dünyanın sonuna kadar olacak her şeyi bildirdi; bunlardan kesinleşmiş (mahtum) olanları da ona bildirdi ve geri kalanlar hakkında istisna bıraktı.'",
+        "fa": "'به درستی که خداوند عزَّ وجلَّ، محمد صلی الله علیه وآله را از آنچه از ابتدای پیدایش دنیا بوده و آنچه تا پایان دنیا خواهد بود آگاه ساخت، و او را از امور محتوم از آن آگاه کرد، و در آنچه غیر از آن بود برای او استثناء قرار داد.'",
+        "id": "'Sesungguhnya Allah 'azza wa jalla telah memberitahukan kepada Muhammad (saw) tentang segala yang telah terjadi sejak dunia ada, dan tentang segala yang akan terjadi hingga berakhirnya dunia, dan memberitahukan kepadanya tentang perkara-perkara yang telah dipastikan (mahtum) dari hal itu, serta menetapkan pengecualian baginya mengenai apa yang selain itu.'",
+        "bn": "'নিশ্চয়ই আল্লাহ আজ্জা ওয়া জাল্লা মুহাম্মাদ (সা.ও.আ.)-কে দুনিয়ার সূচনা থেকে যা হয়েছিল এবং দুনিয়ার সমাপ্তি পর্যন্ত যা হবে তা জানিয়েছেন, এবং তাঁকে সেসব থেকে নির্ধারিত (মাহতুম) বিষয়গুলো অবহিত করেছেন, এবং বাকি বিষয়ে তাঁর জন্য ব্যতিক্রম রেখেছেন।'",
+        "es": "'En verdad, Allah azze wa yalle informó a Muhammad (s.a.v.s.) de todo lo que había ocurrido desde que el mundo vino a existir, y de todo lo que ocurriría hasta el fin del mundo, y le informó de los asuntos ordenados irrevocablemente (mahtum) de ello, y puso una excepción para él respecto a lo demás.'",
+        "fr": "'En vérité, Allah azze wa jelle a informé Muhammad (s.a.v.s.) de tout ce qui s'était passé depuis que le monde existe, et de tout ce qui se passerait jusqu'à la fin du monde, et Il lui a informé des affaires irrévocablement décidées (mahtum) parmi cela, et Il a mis une exception pour lui quant au reste.'",
+        "de": "'Wahrlich, Allah azze wa jalle informierte Muhammad (s.a.v.s.) über all das, was seit dem Entstehen der Welt geschehen war, und über all das, was bis zum Ende der Welt geschehen wird, und Er informierte ihn über das unabänderlich Beschlossene (Mahtum) darunter, und Er machte für ihn einen Vorbehalt bezüglich des Übrigen.'",
+        "ru": "'Воистину, Аллах азза ва джалла сообщил Мухаммаду (мир ему и его роду) обо всём, что происходило с момента возникновения мира, и обо всём, что произойдёт до конца мира, и сообщил ему о предрешённых (махтум) из этого делах, и сделал для него исключение относительно остального.'",
+        "zh": "「确实，真主（عزَّ وجلَّ）将世界自其存在以来所发生的一切以及将在世界终结之前发生的一切都告知了穆罕默德（愿真主赐福于他及其家人）；并将其中已定之事（محتوم）告知于他，对其余之事则为他保留了例外。」"
+      },
+      "arabic_text": "إِنَّ اللَّهَ عَزَّ وَ جَلَّ أَخْبَرَ مُحَمَّداً صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ بِمَا كَانَ مُنْذُ كَانَتِ الدُّنْيَا وَ بِمَا يَكُونُ إِلَى انْقِضَاءِ الدُّنْيَا وَ أَخْبَرَهُ بِالْمَحْتُومِ مِنْ ذَلِكَ وَ اسْتَثْنَى عَلَيْهِ فِيمَا سِوَاهُ"
+    }
+  ]
+}
+```
+
+**Summary of changes:**
+
+| Issue | Field | Action |
+|---|---|---|
+| 1–23 (LOW) | `word_analysis[*].translation.fa/ur` | **No change** — all flagged words are proper names (Ahmad, Muḥammad, Jaʿfar, Yūnus, Jahm, Abū, ʿAbd, bin) or the shared Semitic conjunction `و/وَ`, all correctly preserved in Persian and Urdu scripts. |
+| 24 (MEDIUM) | `chunks[0].translations.bn` | **Fixed** — removed redundant "এবং এই সনদ দ্বারা" opener; replaced verbose honorific "আলাইহিস সালাম" with the compact "(আ.)" |
+| 24 (MEDIUM) | `chunks[1].translations.bn` | **Fixed** — replaced the fully-spelled-out ṣalawāt "সাল্লাল্লাহু আলাইহি ওয়া আলিহিকে" with the standard abbreviation "(সা.ও.আ.)-কে"; tightened verbose phrases ("দুনিয়া অস্তিত্বে আসার সূচনা থেকে" → "দুনিয়ার সূচনা থেকে"; "সে বিষয়গুলোর মধ্য থেকে…সম্পর্কে অবহিত করেছেন" → "সেসব থেকে…অবহিত করেছেন"). |
+| 25 (LOW) | `word_analysis` | **No change** — 59-word count correctly reflects isnād + body tokenization. |

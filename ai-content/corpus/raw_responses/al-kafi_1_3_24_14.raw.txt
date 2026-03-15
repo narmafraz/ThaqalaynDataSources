@@ -1,81 +1,91 @@
 ```json
 {
-  "diacritized_text": "وَ بِهَذَا الْإِسْنَادِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ جَهْمِ بْنِ أَبِي جَهْمَةَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ إِنَّ اللَّهَ عَزَّ وَجَلَّ أَخْبَرَ مُحَمَّداً صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ بِمَا كَانَ مُنْذُ كَانَتِ الدُّنْيَا وَبِمَا يَكُونُ إِلَى انْقِضَاءِ الدُّنْيَا وَأَخْبَرَهُ بِالْمَحْتُومِ مِنْ ذَلِكَ وَاسْتَثْنَى عَلَيْهِ فِيمَا سِوَاهُ",
+  "diacritized_text": "وَبِهَذَا الْإِسْنَادِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ جَهْمِ بْنِ أَبِي جَهْمَةَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ إِنَّ اللَّهَ عَزَّ وَجَلَّ أَخْبَرَ مُحَمَّداً صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ بِمَا كَانَ مُنْذُ كَانَتِ الدُّنْيَا وَبِمَا يَكُونُ إِلَى انْقِضَاءِ الدُّنْيَا وَأَخْبَرَهُ بِالْمَحْتُومِ مِنْ ذَلِكَ وَاسْتَثْنَى عَلَيْهِ فِيمَا سِوَاهُ",
   "diacritics_status": "completed",
   "diacritics_changes": [
-    "Added full tashkeel to honorific 'صلى الله عليه وآله' → 'صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ'",
-    "Added full tashkeel to honorific 'عليه السلام' → 'عَلَيْهِ السَّلَامُ'"
+    {
+      "location": "isnad honorific",
+      "original": "عليه السلام",
+      "corrected": "عَلَيْهِ السَّلَامُ",
+      "note": "Added full tashkeel to the honorific of Abu 'Abdillah (AS) in the isnad"
+    },
+    {
+      "location": "matn salawat",
+      "original": "صلى الله عليه وآله",
+      "corrected": "صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ",
+      "note": "Added full tashkeel to the salawat upon the Prophet (SAWW) in the matn"
+    }
   ],
   "word_analysis": [
-    ["وَ","CONJ","and","اور","ve","و","dan","এবং","y","et","und","и","而"],
-    ["بِهَذَا","PREP","by this","اس کے ذریعے","bununla","به این","dengan ini","এর দ্বারা","por este","par ce","durch diesen","посредством этого","凭此"],
-    ["الْإِسْنَادِ","N","chain of narrators","اسناد","isnad","اسناد","sanad","সনদ","cadena de narradores","chaîne des transmetteurs","Überlieferungskette","цепочки передатчиков","传述链"],
-    ["عَنْ","PREP","from","سے","den","از","dari","থেকে","de","de","von","от","从"],
-    ["أَحْمَدَ","N","Ahmad","احمد","Ahmed","احمد","Ahmad","আহমাদ","Ahmad","Ahmad","Ahmad","Ахмада","艾哈迈德"],
-    ["بْنِ","N","son of","بن","ibn","بن","ibn","ইবনু","hijo de","fils de","Sohn des","ибн","之子"],
-    ["مُحَمَّدٍ","N","Muhammad","محمد","Muhammed","محمد","Muhammad","মুহাম্মাদ","Muḥammad","Muḥammad","Muhammad","Мухаммада","穆罕默德"],
-    ["عَنْ","PREP","from","سے","den","از","dari","থেকে","de","de","von","от","从"],
-    ["جَعْفَرِ","N","Ja'far","جعفر","Ca'fer","جعفر","Ja'far","জাফর","Ja'far","Ja'far","Dschafar","Джафара","贾法尔"],
-    ["بْنِ","N","son of","بن","ibn","بن","ibn","ইবনু","hijo de","fils de","Sohn des","ибн","之子"],
-    ["مُحَمَّدٍ","N","Muhammad","محمد","Muhammed","محمد","Muhammad","মুহাম্মাদ","Muḥammad","Muḥammad","Muhammad","Мухаммада","穆罕默德"],
-    ["عَنْ","PREP","from","سے","den","از","dari","থেকে","de","de","von","от","从"],
-    ["يُونُسَ","N","Yunus","یونس","Yunus","یونس","Yunus","ইউনুস","Yunus","Yunus","Yunus","Юнуса","优努斯"],
-    ["عَنْ","PREP","from","سے","den","از","dari","থেকে","de","de","von","от","从"],
-    ["جَهْمِ","N","Jahm","جہم","Cahm","جهم","Jahm","জাহম","Jahm","Jahm","Dschahm","Джахма","贾赫姆"],
-    ["بْنِ","N","son of","بن","ibn","بن","ibn","ইবনু","hijo de","fils de","Sohn des","ибн","之子"],
-    ["أَبِي","N","Abu (father of)","ابی","Ebu","ابی","Abu","আবি","Abu","Abou","Abi","Аби","阿比"],
-    ["جَهْمَةَ","N","Jahma","جہمۃ","Cahme","جهمه","Jahma","জাহমা","Jahma","Jahma","Jahma","Джахма","贾赫迈"],
-    ["عَمَّنْ","REL","from the one who","جس سے جس نے","kimden","از کسی که","dari siapa yang","যার কাছ থেকে","de quien","de celui qui","von demjenigen der","от того кто","从那位"],
-    ["حَدَّثَهُ","V","narrated it to him","اسے روایت کیا","ona rivayet etti","برای او روایت کرده","menyampaikannya kepadanya","তাকে বর্ণনা করেছেন","le narró","lui avait raconté","ihm überliefert hatte","передал ему","向他传述"],
-    ["عَنْ","PREP","from","سے","den","از","dari","থেকে","de","de","von","от","从"],
-    ["أَبِي","N","Abu (father of)","ابی","Ebu","ابی","Abu","آبی","Abu","Abou","Abi","Аби","阿比"],
-    ["عَبْدِ","N","servant of","عبد","Abd","عبد","Abd","আব্দ","Abd","Abd","Abd","Абди","阿卜杜"],
-    ["اللَّهِ","N","God","اللہ","Allah","خدا","Allah","আল্লাহ","Allah","Allah","Allahs","Аллаха","真主"],
-    ["عَلَيْهِ","PREP","upon him","اس پر","üzerine","بر او","atasnya","তার উপর","sobre él","sur lui","auf ihm","на нём","在他身上"],
-    ["السَّلَامُ","N","peace","سلام","selam","سلام","salam","সালাম","la paz","la paix","Friede","мир","平安"],
-    ["قَالَ","V","he said","انہوں نے فرمایا","dedi","فرمود","berkata","তিনি বলেছেন","dijo","dit-il","sagte","сказал","他说道"],
-    ["إِنَّ","PART","indeed","بے شک","şüphesiz","همانا","sesungguhnya","নিশ্চয়ই","ciertamente","certes","fürwahr","воистину","确实"],
-    ["اللَّهَ","N","God","اللہ","Allah","خداوند","Allah","আল্লাহ","Allah","Allah","Allah","Аллах","真主"],
-    ["عَزَّ","V","is Mighty","عزیز ہے","Aziz","عزیز است","Maha Mulia","মহিমান্বিত","es Glorioso","est Glorieux","Erhaben ist er","Велик","至尊"],
-    ["وَ","CONJ","and","اور","ve","و","dan","এবং","y","et","und","и","而"],
-    ["جَلَّ","V","is Majestic","جلیل ہے","Celil","جلیل است","Maha Agung","মহামহিম","Majestuoso","est Majestueux","Majestätisch","Величествен","至高"],
-    ["أَخْبَرَ","V","informed","آگاہ فرمایا","haber verdi","آگاه ساخت","memberitahukan","অবহিত করলেন","informó","a informé","unterrichtete","известил","告知了"],
-    ["مُحَمَّداً","N","Muhammad","محمدؐ کو","Muhammed'i","محمد را","Muhammad","মুহাম্মাদকে","a Muḥammad","Muhammad","Muhammad","Мухаммада","穆罕默德"],
-    ["صَلَّى","V","may bless","درود","salât getirsin","صلوات فرستد","semoga merahmati","রহমত বর্ষণ করুন","bendiga","bénisse","segne","да благословит","赐福"],
-    ["اللَّهُ","N","God","اللہ","Allah","خداوند","Allah","আল্লাহ","Allah","Allah","Allah","Аллах","真主"],
-    ["عَلَيْهِ","PREP","upon him","اس پر","üzerine","بر او","atasnya","তার উপর","sobre él","sur lui","auf ihm","на нём","于他"],
-    ["وَآلِهِ","CONJ+N","and his family","اور ان کی آل","ve ailesine","و آل او","dan keluarganya","এবং তাঁর পরিবারের","y su familia","et sa famille","und seine Familie","и его семью","及其家族"],
-    ["بِمَا","PREP+REL","of what","اس بارے میں جو","ile olan şeyden","از آنچه","tentang apa yang","যা সম্পর্কে","de lo que","de ce qui","von dem was","о том что","关于所有"],
-    ["كَانَ","V","had occurred","ہوا","olmuştu","رخ داده","telah terjadi","হয়েছিল","había ocurrido","s'était passé","geschehen war","произошло","已发生的"],
-    ["مُنْذُ","PREP","since","جب سے","beri","از زمانی که","sejak","যখন থেকে","desde","depuis","seit","с тех пор как","自从"],
-    ["كَانَتِ","V","came into being","وجود میں آئی","var oldu","به وجود آمده","ada","ছিল","existió","a existé","entstand","возникла","存在"],
-    ["الدُّنْيَا","N","the world","دنیا","dünya","دنیا","dunia","দুনিয়া","el mundo","le monde","die Welt","мир","今世"],
-    ["وَ","CONJ","and","اور","ve","و","dan","এবং","y","et","und","и","以及"],
-    ["بِمَا","PREP+REL","of what","اس بارے میں جو","ile olan şeyden","از آنچه","tentang apa yang","যা সম্পর্কে","de lo que","de ce qui","von dem was","о том что","关于所有"],
-    ["يَكُونُ","V","will occur","ہوگا","olacak","خواهد شد","akan terjadi","হবে","ocurrirá","se passera","geschehen wird","произойдёт","将发生的"],
-    ["إِلَى","PREP","up to/until","تک","kadar","تا","hingga","পর্যন্ত","hasta","jusqu'à","bis zu","до","直到"],
-    ["انْقِضَاءِ","N","the expiry/end","اختتام","sona ermesine","پایان","berakhirnya","সমাপ্তি","el fin de","la fin","dem Ende","конца","终结"],
-    ["الدُّنْيَا","N","the world","دنیا","dünyanın","دنیا","dunia","দুনিয়ার","del mundo","du monde","der Welt","мира","今世"],
-    ["وَ","CONJ","and","اور","ve","و","dan","এবং","y","et","und","и","并且"],
-    ["أَخْبَرَهُ","V","informed him","انہیں آگاہ فرمایا","onu haberdar etti","او را آگاه ساخت","memberitahukan kepadanya","তাঁকে অবহিত করলেন","le informó","l'informa","unterrichtete ihn","известил его","告知了他"],
-    ["بِالْمَحْتُومِ","PREP+N","of the Ordained","محتوم (قطعی طور پر طے شدہ) کے بارے میں","kaza edilmiş olan hakkında","از محتوم (حتمی)","tentang yang telah ditetapkan","নির্ধারিত বিষয়ে","de lo Decretado","de l'Ordonné","über das endgültig Beschlossene","об окончательно предрешённом","关于已定之事"],
-    ["مِنْ","PREP","from/of","میں سے","den","از","dari","থেকে","de","de","von","из","之中"],
-    ["ذَلِكَ","DEM","that","اس","bundan","آن","itu","সেটা থেকে","aquello","cela","davon","этого","那其中"],
-    ["وَ","CONJ","and","اور","ve","و","dan","এবং","y","et","und","и","而"],
-    ["اسْتَثْنَى","V","made exception","استثنا کیا","istisna etti","استثنا کرد","membuat pengecualian","ব্যতিক্রম করলেন","hizo una excepción","fit une exception","machte einen Vorbehalt","сделал исключение","作了例外"],
-    ["عَلَيْهِ","PREP","upon him / for him","اس کے لیے","üzerinde","برای او","atasnya","তার জন্য","sobre él","pour lui","für ihn","для него","对他"],
-    ["فِيمَا","PREP+REL","regarding what","جس کے بارے میں","ile ilgili olarak","در مورد آنچه","mengenai apa yang","যা বিষয়ে","respecto a lo que","à l'égard de ce qui","hinsichtlich dessen was","в отношении того что","关于"],
-    ["سِوَاهُ","N","other than it","اس کے علاوہ","bunun dışında","غیر از آن","selain itu","তা ছাড়া","fuera de eso","en dehors de cela","außerhalb davon","иного","除此之外"]
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "并"],
+    ["بِهَذَا", "PREP", "by this", "اس کے ذریعے", "bu ile", "به همین", "dengan ini", "এই দ্বারা", "por este", "par ce", "durch diese", "по этому", "以此"],
+    ["الْإِسْنَادِ", "N", "isnad (chain of narrators)", "اسناد (سلسلۂ راویان)", "isnad (ravi zinciri)", "اسناد", "isnad (rantai perawi)", "সনদ (বর্ণনাকারীর শৃঙ্খল)", "isnad (cadena de narradores)", "isnad (chaîne de narrateurs)", "Isnad (Überliefererkette)", "иснад", "传述链"],
+    ["عَنْ", "PREP", "from", "سے", "den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["أَحْمَدَ", "N", "Ahmad", "احمد", "Ahmad", "احمد", "Ahmad", "আহমাদ", "Ahmad", "Ahmad", "Ahmad", "Ахмад", "阿赫迈德"],
+    ["بْنِ", "N", "son of", "ابن", "ibn", "پسر", "bin", "পুত্র", "hijo de", "fils de", "Sohn des", "сын", "之子"],
+    ["مُحَمَّدٍ", "N", "Muhammad", "محمد", "Muhammed", "محمد", "Muhammad", "মুহাম্মাদ", "Muhammad", "Muhammad", "Muhammad", "Мухаммад", "穆罕默德"],
+    ["عَنْ", "PREP", "from", "سے", "den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["جَعْفَرِ", "N", "Ja'far", "جعفر", "Ca'fer", "جعفر", "Ja'far", "জাফর", "Ja'far", "Ja'far", "Ja'far", "Джафар", "贾法尔"],
+    ["بْنِ", "N", "son of", "ابن", "ibn", "پسر", "bin", "পুত্র", "hijo de", "fils de", "Sohn des", "сын", "之子"],
+    ["مُحَمَّدٍ", "N", "Muhammad", "محمد", "Muhammed", "محمد", "Muhammad", "মুহাম্মাদ", "Muhammad", "Muhammad", "Muhammad", "Мухаммад", "穆罕默德"],
+    ["عَنْ", "PREP", "from", "سے", "den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["يُونُسَ", "N", "Yunus", "یونس", "Yunus", "یونس", "Yunus", "ইউনুস", "Yunus", "Yunus", "Yunus", "Юнус", "优努斯"],
+    ["عَنْ", "PREP", "from", "سے", "den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["جَهْمِ", "N", "Jahm", "جہم", "Cahm", "جهم", "Jahm", "জাহম", "Jahm", "Jahm", "Jahm", "Джахм", "贾赫姆"],
+    ["بْنِ", "N", "son of", "ابن", "ibn", "پسر", "bin", "পুত্র", "hijo de", "fils de", "Sohn des", "сын", "之子"],
+    ["أَبِي", "N", "Abu (father of)", "ابی", "Ebu (babası)", "ابو", "Abu (ayah dari)", "আবু", "Abu (padre de)", "Abou (père de)", "Abu (Vater des)", "Абу", "阿布"],
+    ["جَهْمَةَ", "N", "Jahma", "جہمہ", "Cahme", "جهمه", "Jahma", "জাহমা", "Jahma", "Jahma", "Jahma", "Джахма", "贾赫迈"],
+    ["عَمَّنْ", "PREP", "from the one who", "اس سے جس نے", "den kimse ki", "از کسی که", "dari orang yang", "যার কাছ থেকে", "de quien", "de celui qui", "von dem, der", "от того, кто", "从那位"],
+    ["حَدَّثَهُ", "V", "narrated to him", "اسے روایت کی", "ona rivayet etti", "برای او نقل کرد", "meriwayatkan kepadanya", "তাকে বর্ণনা করেছেন", "le narró", "lui a narré", "ihm berichtet hatte", "передал ему", "向他传述"],
+    ["عَنْ", "PREP", "from", "سے", "den", "از", "dari", "থেকে", "de", "de", "von", "от", "从"],
+    ["أَبِي", "N", "Abu", "ابی", "Ebu", "ابو", "Abu", "আবু", "Abu", "Abou", "Abu", "Абу", "阿布"],
+    ["عَبْدِ", "N", "'Abd (servant of)", "عبد", "Abd", "عبد", "Abd", "আবদ", "'Abd", "'Abd", "'Abd", "Абд", "阿卜德"],
+    ["اللَّهِ", "N", "God", "اللہ", "Allah", "خدا", "Allah", "আল্লাহ", "Allah", "Allah", "Gottes", "Аллаха", "真主"],
+    ["عَلَيْهِ", "PREP", "upon him", "ان پر", "onun üzerine", "بر او", "atasnya", "তাঁর উপর", "sobre él", "sur lui", "auf ihm", "на нём", "在其上"],
+    ["السَّلَامُ", "N", "peace (AS)", "السلام (علیہ السلام)", "selam (a.s.)", "السلام (ع)", "as-salam", "সালাম (আ.স.)", "la paz", "la paix", "Friede (a.s.)", "мир (а.с.)", "平安"],
+    ["قَالَ", "V", "he said", "انہوں نے فرمایا", "dedi", "فرمود", "berkata", "তিনি বলেছেন", "dijo", "dit-il", "er sagte", "он сказал", "他说"],
+    ["إِنَّ", "PART", "verily", "بے شک", "muhakkak ki", "به درستی", "sesungguhnya", "নিশ্চয়ই", "en verdad", "en vérité", "wahrlich", "воистину", "确实"],
+    ["اللَّهَ", "N", "God", "اللہ", "Allah", "خداوند", "Allah", "আল্লাহ", "Allah", "Allah", "Allah", "Аллаха", "真主"],
+    ["عَزَّ", "V", "is Mighty/Glorious", "عزت والا ہے", "aziz ve", "عزیز است", "Maha Mulia", "মহিমান্বিত", "es Poderoso", "est Puissant", "ist mächtig", "Велик", "至尊"],
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "且"],
+    ["جَلَّ", "V", "is Majestic", "جلیل ہے", "celildir", "جلیل است", "Maha Agung", "মহামহিম", "es Majestuoso", "est Majestueux", "ist erhaben", "Велик", "至高"],
+    ["أَخْبَرَ", "V", "He informed", "اس نے آگاہ کیا", "haber verdi", "آگاه کرد", "memberitahukan", "অবহিত করেছেন", "informó", "a informé", "Er informierte", "Он сообщил", "告知了"],
+    ["مُحَمَّداً", "N", "Muhammad", "محمد کو", "Muhammed'i", "محمد را", "Muhammad", "মুহাম্মাদকে", "a Muhammad", "Muhammad", "Muhammad", "Мухаммада", "穆罕默德"],
+    ["صَلَّى", "V", "may (God) bless", "صلی (اللہ)", "sallallahu", "درود فرستاد", "semoga bershalawat", "রহমত বর্ষণ করুন", "bendiga (Allah)", "bénisse (Allah)", "segne (Gott)", "да благословит", "愿真主赐福"],
+    ["اللَّهُ", "N", "God", "اللہ", "Allah", "خداوند", "Allah", "আল্লাহ", "Allah", "Allah", "Allah", "Аллах", "真主"],
+    ["عَلَيْهِ", "PREP", "upon him", "ان پر", "ona", "بر او", "atasnya", "তাঁর উপর", "sobre él", "sur lui", "auf ihm", "на него", "赐福于他"],
+    ["وَآلِهِ", "CONJ", "and his family", "اور ان کی آل پر", "ve âline", "و بر آل او", "dan keluarganya", "এবং তাঁর পরিবারের উপর", "y su familia", "et sa famille", "und seiner Familie", "и его семье", "及其家族"],
+    ["بِمَا", "PREP", "of/with what", "اس سے جو", "olanlar hakkında", "از آنچه", "tentang apa yang", "যা সম্পর্কে", "de lo que", "de ce qui", "über das, was", "о том, что", "关于所有"],
+    ["كَانَ", "V", "had existed/occurred", "تھا/ہوا", "olmuştu", "بوده", "telah ada", "ছিল/ঘটেছিল", "había existido", "avait existé", "geschehen war", "произошло", "曾发生的"],
+    ["مُنْذُ", "PREP", "since", "جب سے", "beri", "از آن زمان که", "sejak", "যখন থেকে", "desde", "depuis", "seit", "с тех пор как", "自从"],
+    ["كَانَتِ", "V", "came into being", "وجود میں آئی", "var olduğundan", "پدیدار شد", "ada/eksis", "অস্তিত্বে এসেছে", "comenzó a existir", "a existé", "entstanden ist", "появился", "存在以来"],
+    ["الدُّنْيَا", "N", "the world", "دنیا", "dünya", "دنیا", "dunia", "দুনিয়া", "el mundo", "le monde", "die Welt", "мир", "今世"],
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "以及"],
+    ["بِمَا", "PREP", "of/with what", "اس سے جو", "olacaklar hakkında", "از آنچه", "tentang apa yang", "যা সম্পর্কে", "de lo que", "de ce qui", "über das, was", "о том, что", "关于"],
+    ["يَكُونُ", "V", "will occur", "ہوگا", "olacak", "خواهد بود", "akan terjadi", "হবে", "ocurrirá", "se passera", "geschehen wird", "произойдёт", "将发生的"],
+    ["إِلَى", "PREP", "until", "تک", "kadar", "تا", "hingga", "পর্যন্ত", "hasta", "jusqu'à", "bis", "до", "直到"],
+    ["انْقِضَاءِ", "N", "expiry/end", "ختم/انتہا", "sona ermesi", "پایان/فنا", "berakhirnya", "পরিসমাপ্তি", "fin/término", "fin", "Ende", "конца", "终结"],
+    ["الدُّنْيَا", "N", "the world", "دنیا", "dünya", "دنیا", "dunia", "দুনিয়া", "el mundo", "le monde", "die Welt", "мира", "今世"],
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "并"],
+    ["أَخْبَرَهُ", "V", "He informed him", "انہیں آگاہ کیا", "onu haberdar etti", "او را آگاه کرد", "memberitahukannya", "তাঁকে অবহিত করেছেন", "le informó", "Il l'a informé", "Er informierte ihn", "Он сообщил ему", "告知了他"],
+    ["بِالْمَحْتُومِ", "PREP", "of the Ordained (mahtum)", "محتوم امور سے", "mahkum (kesin) olanları", "از محتوم (قطعی)", "tentang yang pasti (mahtum)", "নির্ধারিত (মাহতুম) বিষয়ে", "de lo Ordenado irrevocablemente", "des affaires irrévocablement décidées", "über das unabänderlich Beschlossene", "о предрешённом (махтум)", "关于已定之事"],
+    ["مِنْ", "PREP", "of/from", "میں سے", "içinden", "از", "dari", "থেকে", "de", "de", "von", "из", "其中"],
+    ["ذَلِكَ", "DEM", "that", "اس میں سے", "bunun", "آن", "itu", "সেটার", "de ello", "cela", "davon", "этого", "其中"],
+    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "并"],
+    ["اسْتَثْنَى", "V", "He made an exception", "استثناء رکھا", "istisna koydu", "استثناء کرد", "mengecualikan", "ব্যতিক্রম রেখেছেন", "exceptuó", "a mis une exception", "machte einen Vorbehalt", "сделал исключение", "保留了例外"],
+    ["عَلَيْهِ", "PREP", "upon/for him", "اس پر/ان کے لیے", "onun için", "بر او", "kepadanya", "তাঁর জন্য", "para él", "pour lui", "für ihn", "для него", "对他"],
+    ["فِيمَا", "PREP", "regarding what", "جو کہ", "şey hakkında", "در آنچه", "mengenai apa yang", "যে বিষয়ে", "en cuanto a lo que", "en ce qui concerne", "hinsichtlich dessen, was", "относительно того, что", "关于其余"],
+    ["سِوَاهُ", "N", "besides it/other than it", "اس کے علاوہ", "bunun dışındakiler", "غیر از آن", "selain itu", "এ ছাড়া অন্য বিষয়", "lo demás", "ce qui en différait", "das Übrige", "остального", "其他之事"]
   ],
   "tags": ["theology", "knowledge", "prophetic_tradition"],
   "content_type": "theological",
   "related_quran": [
     {"ref": "13:39", "relationship": "thematic"},
     {"ref": "6:59", "relationship": "thematic"},
-    {"ref": "57:22", "relationship": "thematic"}
+    {"ref": "72:26", "relationship": "thematic"}
   ],
   "isnad_matn": {
-    "isnad_ar": "وَ بِهَذَا الْإِسْنَادِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ جَهْمِ بْنِ أَبِي جَهْمَةَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+    "isnad_ar": "وَبِهَذَا الْإِسْنَادِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ جَهْمِ بْنِ أَبِي جَهْمَةَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
     "matn_ar": "إِنَّ اللَّهَ عَزَّ وَجَلَّ أَخْبَرَ مُحَمَّداً صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ بِمَا كَانَ مُنْذُ كَانَتِ الدُّنْيَا وَبِمَا يَكُونُ إِلَى انْقِضَاءِ الدُّنْيَا وَأَخْبَرَهُ بِالْمَحْتُومِ مِنْ ذَلِكَ وَاسْتَثْنَى عَلَيْهِ فِيمَا سِوَاهُ",
     "has_chain": true,
     "narrators": [
@@ -85,8 +95,8 @@
         "role": "narrator",
         "position": 1,
         "identity_confidence": "likely",
-        "ambiguity_note": "Most likely Ahmad ibn Muhammad ibn Isa al-Ash'ari al-Qummi; Ahmad ibn Muhammad ibn Khalid al-Barqi is also possible",
-        "known_identity": "Ahmad ibn Muhammad ibn Isa al-Ash'ari al-Qummi",
+        "ambiguity_note": "Could be Ahmad ibn Muhammad ibn 'Isa al-Ash'ari or Ahmad ibn Muhammad ibn Khalid al-Barqi, both frequent transmitters in al-Kafi",
+        "known_identity": "Likely Ahmad ibn Muhammad ibn 'Isa al-Ash'ari",
         "word_ranges": [{"word_start": 4, "word_end": 7}]
       },
       {
@@ -95,7 +105,7 @@
         "role": "narrator",
         "position": 2,
         "identity_confidence": "ambiguous",
-        "ambiguity_note": "Multiple narrators named Ja'far ibn Muhammad exist in this generation; cannot be determined without wider chain context",
+        "ambiguity_note": "Multiple narrators share this name in this period; context indicates a narrator distinct from Imam al-Sadiq (AS) himself",
         "known_identity": null,
         "word_ranges": [{"word_start": 8, "word_end": 11}]
       },
@@ -105,8 +115,8 @@
         "role": "narrator",
         "position": 3,
         "identity_confidence": "likely",
-        "ambiguity_note": "Likely Yunus ibn Abd al-Rahman, the prominent companion of Imam al-Ridha (AS)",
-        "known_identity": "Yunus ibn Abd al-Rahman",
+        "ambiguity_note": "Likely Yunus ibn 'Abd al-Rahman, a major and trusted transmitter throughout al-Kafi",
+        "known_identity": "Likely Yunus ibn 'Abd al-Rahman",
         "word_ranges": [{"word_start": 12, "word_end": 13}]
       },
       {
@@ -115,200 +125,181 @@
         "role": "narrator",
         "position": 4,
         "identity_confidence": "ambiguous",
-        "ambiguity_note": "Limited biographical information available for this narrator in the rijal literature",
+        "ambiguity_note": "Rare narrator; limited biographical data available in rijal sources",
         "known_identity": null,
         "word_ranges": [{"word_start": 14, "word_end": 18}]
       },
       {
         "name_ar": "عَمَّنْ حَدَّثَهُ",
-        "name_en": "(Anonymous narrator)",
+        "name_en": "from the one who narrated to him (anonymous)",
         "role": "narrator",
         "position": 5,
         "identity_confidence": "ambiguous",
-        "ambiguity_note": "Deliberately anonymous intermediary; the formula 'from the one who narrated it to him' signals a gap in the chain",
+        "ambiguity_note": "Explicit mursal (anonymous) link in the chain; identity unknown, rendering the isnad munqati'",
         "known_identity": null,
         "word_ranges": [{"word_start": 18, "word_end": 20}]
       },
       {
-        "name_ar": "أَبُو عَبْدِ اللَّهِ",
-        "name_en": "Abu Abdillah",
+        "name_ar": "أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
+        "name_en": "Abu 'Abdillah (Imam Ja'far al-Sadiq, peace be upon him)",
         "role": "imam",
         "position": 6,
         "identity_confidence": "definite",
         "ambiguity_note": null,
-        "known_identity": "Imam Ja'far ibn Muhammad al-Sadiq (AS), sixth Imam of the Twelver Shia",
+        "known_identity": "Imam Ja'far ibn Muhammad al-Sadiq (AS), the sixth Imam, d. 148 AH",
         "word_ranges": [{"word_start": 21, "word_end": 26}]
       }
     ]
   },
   "translations": {
     "en": {
-      "text": "Indeed, Allah (azwj) Mighty and Majestic informed Muhammad (saww) of whatever had occurred since the coming into being of the world, and of whatever would occur until the expiry of the world; and He informed him (saww) of the Ordained (al-mahtum) from that, and made exception upon him (saww) regarding what was besides it.",
-      "summary": "Imam al-Sadiq (AS) reports that God informed the Prophet Muhammad (SAWW) of all events from the creation of the world to its end. God specifically disclosed the Ordained matters (al-mahtum — irrevocably decreed) and made an 'exception' (al-istithna') for the non-ordained — a foundational narration in the Shia chapter on Bada', illustrating the theological distinction between immutable and mutable divine decrees.",
+      "text": "Verily, Allah azwj Mighty and Majestic informed Muhammad saww of whatever had existed since the coming into being of the world, and of whatever would occur until the expiry of the world, and informed him of the Ordained (mahtum) matters from that, and He made an exception upon him regarding what was besides it.",
+      "summary": "Imam al-Sadiq (AS) reports that Allah disclosed to the Prophet Muhammad (SAWW) all events from the world's beginning to its end. Crucially, this disclosure distinguished al-Mahtum — irrevocably and definitively decreed matters — from other matters, for which Allah retained the capacity to alter His decree. This distinction is the theological core of the doctrine of al-Bada' (apparent alteration of divine will), the very chapter topic in al-Kafi within which this hadith appears.",
       "key_terms": {
-        "الْمَحْتُومِ": "the Ordained — irrevocably decreed matters that cannot be altered",
-        "اسْتَثْنَى": "made exception — God reserved the right of alteration, the operative mechanism of Bada'",
-        "انْقِضَاءِ الدُّنْيَا": "expiry of the world — the end of this worldly existence"
+        "الْمَحْتُومِ": "the Ordained — matters irrevocably and definitively decreed by God, not subject to Bada' (alteration of decree)",
+        "اسْتَثْنَى": "He made an exception/excluded — God retained the ability to alter what is not Mahtum, a foundation of the Bada' doctrine",
+        "انْقِضَاءِ": "expiry, termination — the end/destruction of the world"
       },
-      "seo_question": "What did God inform the Prophet Muhammad about ordained and non-ordained matters, according to Imam al-Sadiq in al-Kafi?"
+      "seo_question": "What distinction did Allah make between ordained (mahtum) and non-ordained matters when informing the Prophet of all past and future events, according to Imam al-Sadiq in al-Kafi?"
     },
     "ur": {
-      "text": "بے شک اللہ عزّ وجلّ نے محمد صلّى اللہ علیہ وآلہ کو دنیا کے وجود میں آنے کے بعد سے جو کچھ ہوا اور دنیا کے اختتام تک جو کچھ ہوگا اس سب سے آگاہ فرمایا؛ اور انہیں اس میں سے محتوم (قطعی) امور سے آگاہ کیا، اور جو امور اس کے علاوہ تھے ان میں استثنا فرمایا۔",
-      "summary": "امام جعفر صادق علیہ السلام نے فرمایا کہ اللہ تعالیٰ نے نبی اکرمؐ کو ابتدائے دنیا سے انتہائے دنیا تک کے تمام واقعات سے آگاہ فرمایا۔ محتوم (ناقابلِ تبدیل) امور کو علیحدہ بتایا اور باقی میں استثنا فرمایا — یہ روایت بداء کے باب سے ہے جو قضائے محتوم اور قابلِ تبدیل قضاء کے درمیان شیعہ عقیدے کی اہم بنیاد کو واضح کرتی ہے۔",
+      "text": "بے شک اللہ عزَّ وجلَّ نے محمد صلی اللہ علیہ وآلہ کو اس سب چیز سے آگاہ فرمایا جو دنیا کے وجود میں آنے سے تھا، اور اس چیز سے جو دنیا کے ختم ہونے تک ہوگی، اور انہیں اس میں سے محتوم امور سے آگاہ فرمایا، اور باقی امور میں ان کے اوپر استثناء رکھا۔",
+      "summary": "امام جعفر صادق علیہ السلام فرماتے ہیں کہ اللہ تعالیٰ نے نبی اکرم صلی اللہ علیہ وآلہ کو دنیا کی ابتداء سے انتہا تک کے تمام واقعات سے آگاہ فرمایا۔ اس آگاہی میں محتوم (ناقابلِ تغییر) اور غیر محتوم امور کے درمیان فرق واضح کیا گیا — غیر محتوم میں اللہ نے اپنے لیے تغییر کا اختیار محفوظ رکھا، جو شیعہ عقیدۂ بداء کی بنیاد ہے۔",
       "key_terms": {
-        "الْمَحْتُومِ": "محتوم — قطعی طور پر طے شدہ، ناقابلِ تبدیل امور",
-        "اسْتَثْنَى": "استثنا — تبدیلی کا حق محفوظ رکھنا، بداء کا بنیادی اصول",
-        "انْقِضَاءِ الدُّنْيَا": "دنیا کا اختتام"
+        "الْمَحْتُومِ": "محتوم — وہ امور جو اللہ نے یقینی طور پر طے فرمائے ہیں اور جن میں بداء نہیں ہو سکتی",
+        "اسْتَثْنَى": "استثناء رکھا — اللہ نے غیر محتوم امور میں بداء (تبدیلی) کا اختیار اپنے پاس محفوظ رکھا",
+        "انْقِضَاءِ": "انقضاء — ختم ہونا، دنیا کی انتہا"
       },
-      "seo_question": "امام صادق علیہ السلام کے مطابق اللہ نے نبی اکرمؐ کو محتوم اور غیر محتوم امور کے بارے میں کیا بتایا؟"
+      "seo_question": "اللہ نے نبی صلی اللہ علیہ وآلہ کو گزشتہ اور آئندہ واقعات سے آگاہ کرتے وقت محتوم اور غیر محتوم امور میں کیا فرق رکھا؟"
     },
     "tr": {
-      "text": "Şüphesiz Allah Azze ve Celle, Muhammed (sallallahu aleyhi ve alihi)'ye dünyanın var olmasından bu yana olup bitenleri ve dünyanın sonuna kadar olacakları haber verdi; ve ona bunların içinden kesinleşmiş olanları (el-mahtum) bildirdi ve bunun dışında kalanlar hakkında ise istisna koydu.",
-      "summary": "İmam Sâdık (AS), Allah'ın Peygamber Muhammed'e (SAVS) dünyanın yaratılışından kıyamete kadar tüm olayları bildirdiğini aktarmaktadır. Kesinleşmiş (el-mahtum) hükümler ayrıca bildirilmiş; geri kalanlar için istisna yapılmıştır. Bu hadis, değiştirilemez ve değiştirilebilir ilahi hükümler arasındaki ayrımı ortaya koyarak Şia kelâmındaki Bedâ doktriniyle doğrudan ilişkilidir.",
+      "text": "Şüphesiz Allah azze ve celle, Muhammed'e (s.a.v.s.) dünyanın var olduğundan beri olanların tamamını ve dünyanın sonuna kadar olacak her şeyi bildirdi; bunlardan kesinleşmiş (mahtum) olanları da ona bildirdi ve geri kalanlar hakkında ise istisna bıraktı (değişikliğe açık tuttu).",
+      "summary": "İmam Sadık (as), Allah'ın Peygamber Muhammed'e (s.a.v.s.) dünyanın başlangıcından sonuna kadar tüm olayları bildirdiğini aktarır. Bildirimdeki temel ayrım, mahkum — kesin ve değiştirilemez — meseleler ile diğer meseleler arasında yapılmıştır; ikinciler için Allah hüküm değiştirme iradesini saklı tutmuştur. Bu ayrım, Şia kelam geleneğinde Beda' doktrininin teolojik temelidir.",
       "key_terms": {
-        "الْمَحْتُومِ": "el-mahtum — değiştirilmez, kesinleşmiş ilahi hükümler",
-        "اسْتَثْنَى": "istisna koydu — değiştirme hakkını saklı tuttu (Bedâ doktriniyle ilişkili)",
-        "انْقِضَاءِ الدُّنْيَا": "dünyanın sona ermesi"
+        "الْمَحْتُومِ": "mahtum — Allah tarafından kesin olarak hükme bağlanmış, değiştirilemez kararlar (Beda'ya konu olmaz)",
+        "اسْتَثْنَى": "istisna koydu — Allah, mahtum olmayanlar için Beda' (hüküm değiştirme) yetkisini saklı tuttu",
+        "انْقِضَاءِ": "انقضاء — son bulma, dünyanın sona ermesi"
       },
-      "seo_question": "İmam Sâdık'a göre Allah, Peygamber'e kesinleşmiş (mahtum) ve diğer kader konusunda ne bildirdi?"
+      "seo_question": "Allah, geçmiş ve gelecekteki tüm olayları Peygamber'e bildirirken mahkum ve mahkum olmayan meseleler arasında nasıl bir ayrım yaptı?"
     },
     "fa": {
-      "text": "همانا خداوند عزّ و جلّ، محمد صلّی الله علیه و آله را از آنچه از ابتدای پیدایش دنیا رخ داده و از آنچه تا پایان دنیا رخ خواهد داد آگاه ساخت؛ و او را از امور محتوم (حتمی) از آن آگاه فرمود، و در غیر آن بر او استثنا کرد.",
-      "summary": "امام صادق علیه‌السلام روایت می‌کند که خداوند، پیامبر اکرم را از تمام وقایع از آغاز تا پایان دنیا آگاه ساخت. امور محتوم (تغییرناپذیر) را صریحاً بیان فرمود و در امور غیر محتوم استثنا قائل شد — این حدیث در باب بداء آمده و از آموزه‌های ممتاز شیعه درباره اراده الهی است.",
+      "text": "به درستی که خداوند عزَّ وجلَّ، محمد صلی الله علیه وآله را از آنچه از ابتدای پیدایش دنیا بوده و آنچه تا پایان دنیا خواهد بود آگاه ساخت، و او را از امور محتوم (قطعی) از آن آگاه کرد، و در آنچه غیر از آن بود برای او استثناء قرار داد.",
+      "summary": "امام صادق علیه السلام روایت می‌کند که خداوند تمام رویدادها را از آغاز تا پایان جهان به پیامبر (صلی الله علیه وآله) اعلام فرمود. در این افشاء، بین امور محتوم — قطعی و غیرقابل تغییر — و سایر امور تمایز گذاشته شد؛ در موارد دوم، خداوند توانایی تغییر اراده‌اش را برای خود محفوظ داشت. این تمایز، پایه‌ی عقیده‌ی «بداء» در کلام شیعی است.",
       "key_terms": {
-        "الْمَحْتُومِ": "محتوم — امور حتمی و تغییرناپذیر الهی",
-        "اسْتَثْنَى": "استثنا کرد — حق تغییر را برای خود نگه داشت، اساس بداء",
-        "انْقِضَاءِ الدُّنْيَا": "پایان دنیا"
+        "الْمَحْتُومِ": "محتوم — اموری که خداوند به‌طور قطعی تعیین فرموده و تغییر نمی‌پذیرند (بداء در آن‌ها نیست)",
+        "اسْتَثْنَى": "استثناء کرد — خداوند در امور غیرمحتوم، اختیار تغییر (بداء) را برای خود نگه داشت",
+        "انْقِضَاءِ": "انقضاء — پایان یافتن، فنای دنیا"
       },
-      "seo_question": "امام صادق علیه‌السلام در مورد آگاهی پیامبر از امور محتوم و غیر محتوم چه فرموده‌اند؟"
+      "seo_question": "خداوند هنگام آگاه‌سازی پیامبر از رویدادهای گذشته و آینده، چه تمایزی میان امور محتوم و غیرمحتوم قرار داد؟"
     },
     "id": {
-      "text": "Sesungguhnya Allah Azza wa Jalla telah memberitahukan kepada Muhammad (saww) tentang segala yang telah terjadi sejak adanya dunia dan tentang segala yang akan terjadi hingga berakhirnya dunia; dan Dia memberitahukan kepadanya tentang yang telah ditetapkan secara pasti (al-mahtum) dari hal itu, dan membuat pengecualian atasnya mengenai selain itu.",
-      "summary": "Imam al-Shadiq (AS) menyampaikan bahwa Allah telah memberitahukan kepada Nabi Muhammad (saww) semua peristiwa dari awal hingga akhir dunia. Allah khusus memberitahukan perkara yang ditetapkan secara pasti (al-mahtum) dan membuat pengecualian untuk yang lainnya — narasi kunci dalam bab Bada' tentang perubahan ketetapan Allah dalam teologi Syiah.",
+      "text": "Sesungguhnya Allah 'azza wa jalla telah memberitahukan kepada Muhammad (saw) tentang segala yang telah terjadi sejak dunia ada, dan tentang segala yang akan terjadi hingga berakhirnya dunia, dan memberitahukan kepadanya tentang perkara-perkara yang telah dipastikan (mahtum) dari hal itu, serta menetapkan pengecualian baginya mengenai apa yang selain itu.",
+      "summary": "Imam al-Shadiq (AS) meriwayatkan bahwa Allah memberitahu Nabi Muhammad (saw) semua peristiwa dari awal hingga akhir dunia. Pemberitahuan ini secara krusial membedakan al-Mahtum — perkara yang telah dipastikan dan tak dapat diubah — dengan perkara lainnya, yang Allah tetap berkuasa untuk mengubahnya. Perbedaan ini merupakan inti teologis doktrin al-Bada' dalam tradisi Syiah.",
       "key_terms": {
-        "الْمَحْتُومِ": "al-mahtum — perkara yang ditetapkan secara pasti dan tidak dapat diubah",
-        "اسْتَثْنَى": "membuat pengecualian — menyimpan hak perubahan, mekanisme Bada'",
-        "انْقِضَاءِ الدُّنْيَا": "berakhirnya dunia"
+        "الْمَحْتُومِ": "mahtum — perkara yang telah ditetapkan secara pasti oleh Allah, tidak dapat diubah melalui Bada'",
+        "اسْتَثْنَى": "mengecualikan — Allah mempertahankan kemampuan untuk mengubah apa yang tidak mahtum (Bada')",
+        "انْقِضَاءِ": "انقضاء — berakhirnya, hancurnya dunia"
       },
-      "seo_question": "Apa yang disampaikan Imam al-Shadiq tentang perkara mahtum dan non-mahtum yang diberitahukan Allah kepada Nabi dalam al-Kafi?"
+      "seo_question": "Apa perbedaan antara perkara mahtum (yang dipastikan) dan non-mahtum dalam pengetahuan ilahi yang diungkapkan kepada Nabi menurut hadith al-Kafi?"
     },
     "bn": {
-      "text": "নিশ্চয়ই আল্লাহ আজ্জা ওয়া জাল্লা মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া আলিহিকে দুনিয়ার সৃষ্টি থেকে যা ঘটেছে এবং দুনিয়ার সমাপ্তি পর্যন্ত যা ঘটবে তা সম্পর্কে অবহিত করলেন; এবং তা থেকে মাহতুম (নির্ধারিত) বিষয়গুলো সম্পর্কে তাঁকে জানালেন, আর এর বাইরে যা ছিল সে বিষয়ে তাঁর জন্য ব্যতিক্রম করলেন।",
-      "summary": "ইমাম সাদিক (আ.) বর্ণনা করেন যে আল্লাহ নবী মুহাম্মাদকে দুনিয়ার শুরু থেকে শেষ পর্যন্ত সমস্ত ঘটনা সম্পর্কে অবহিত করেছিলেন। মাহতুম (অপরিবর্তনীয়) বিষয়গুলো স্পষ্টভাবে জানিয়েছিলেন এবং অ-মাহতুম বিষয়ে ব্যতিক্রম করেছিলেন — এটি শিয়া ধর্মতত্ত্বের বাদা' মতবাদ সংক্রান্ত একটি গুরুত্বপূর্ণ হাদীস।",
+      "text": "নিশ্চয়ই আল্লাহ আজ্জা ওয়া জাল্লা মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া আলিহিকে দুনিয়া অস্তিত্বে আসার সূচনা থেকে যা ঘটেছে তা জানিয়েছেন, এবং দুনিয়ার শেষ পর্যন্ত যা ঘটবে তাও জানিয়েছেন, এবং তাঁকে সে বিষয়গুলোর মধ্য থেকে নির্ধারিত (মাহতুম) বিষয়গুলো সম্পর্কে অবহিত করেছেন, এবং তার বাইরের বিষয়ে তাঁর জন্য ব্যতিক্রম রেখেছেন।",
+      "summary": "ইমাম জাফর আস-সাদিক (আ.স.) বর্ণনা করেন যে আল্লাহ নবী মুহাম্মাদ (সাঃ)-কে দুনিয়ার শুরু থেকে শেষ পর্যন্ত সমস্ত ঘটনা সম্পর্কে অবহিত করেছেন। গুরুত্বপূর্ণভাবে, এই অবহিতিতে আল-মাহতুম — অপরিবর্তনীয়ভাবে নির্ধারিত বিষয় — এবং অন্যান্য বিষয়ের মধ্যে পার্থক্য করা হয়েছে, যেগুলোর ক্ষেত্রে আল্লাহ তাঁর সিদ্ধান্ত পরিবর্তনের ক্ষমতা সংরক্ষিত রেখেছেন। এই পার্থক্য শিয়া মতবাদে আল-বাদা' মতবাদের ধর্মতাত্ত্বিক ভিত্তি।",
       "key_terms": {
-        "الْمَحْتُومِ": "মাহতুম — অপরিবর্তনীয়ভাবে নির্ধারিত বিষয়সমূহ",
-        "اسْتَثْنَى": "ব্যতিক্রম করলেন — পরিবর্তনের অধিকার সংরক্ষণ করলেন, বাদা'র ভিত্তি",
-        "انْقِضَاءِ الدُّنْيَا": "দুনিয়ার সমাপ্তি"
+        "الْمَحْتُومِ": "মাহতুম — আল্লাহ কর্তৃক চূড়ান্তভাবে নির্ধারিত বিষয়, বাদা' (পরিবর্তন) এর অধীন নয়",
+        "اسْتَثْنَى": "ব্যতিক্রম রেখেছেন — অ-মাহতুম বিষয়ে আল্লাহ তাঁর ইচ্ছা পরিবর্তনের (বাদা') ক্ষমতা সংরক্ষিত রাখেন",
+        "انْقِضَاءِ": "পরিসমাপ্তি — দুনিয়ার অন্ত, ধ্বংস"
       },
-      "seo_question": "ইমাম সাদিক কি বলেছেন আল্লাহ নবীকে মাহতুম ও অ-মাহতুম বিষয়ে কী জানিয়েছিলেন?"
+      "seo_question": "নবীকে অতীত ও ভবিষ্যতের সমস্ত ঘটনা সম্পর্কে অবহিত করার সময় আল্লাহ মাহতুম ও অ-মাহতুম বিষয়ের মধ্যে কী পার্থক্য করেছেন?"
     },
     "es": {
-      "text": "En verdad, Allah (azwj) Glorioso y Majestuoso informó a Muhammad (saww) de todo lo que había ocurrido desde la creación del mundo y de todo lo que ocurriría hasta el fin del mundo; y le informó de lo Decretado irrevocablemente (al-mahtum) de eso, e hizo una excepción sobre él respecto a lo que había fuera de ello.",
-      "summary": "El Imam al-Sâdiq (AS) relata que Dios informó al Profeta Muhammad (PBUH) de todos los eventos desde la creación hasta el fin del mundo. Le reveló específicamente los asuntos irrevocablemente decretados (al-mahtum) haciendo una excepción para los demás — narración clave en el capítulo sobre el Badâ' (alteración del decreto divino) en la teología chií.",
+      "text": "En verdad, Allah azze wa yalle informó a Muhammad (s.a.v.s.) de todo lo que había ocurrido desde que el mundo vino a existir, y de todo lo que ocurriría hasta el fin del mundo, y le informó de los asuntos ordenados irrevocablemente (mahtum) de ello, y puso una excepción para él respecto a lo demás.",
+      "summary": "El Imam al-Sadiq (AS) relata que Allah informó al Profeta Muhammad (saw) de todos los eventos desde el principio hasta el fin del mundo. Esta revelación distinguió crucialmente al-Mahtum — los asuntos irrevocablemente decretados — de otros asuntos, respecto a los cuales Allah se reservó la capacidad de alterar Su decreto. Esta distinción es el núcleo teológico de la doctrina del al-Bada' en la tradición chií.",
       "key_terms": {
-        "الْمَحْتُومِ": "al-mahtum — lo irrevocablemente decretado, inmutable",
-        "اسْتَثْنَى": "hizo excepción — reservó el derecho de cambio, mecanismo del Bada'",
-        "انْقِضَاءِ الدُّنْيَا": "el fin del mundo"
+        "الْمَحْتُومِ": "mahtum — asuntos decretados irrevocablemente por Allah, no sujetos a alteración (Bada')",
+        "اسْتَثْنَى": "exceptuó — Allah se reservó la capacidad de alterar lo que no es Mahtum, fundamento del Bada'",
+        "انْقِضَاءِ": "انقضاء — expiración, fin del mundo"
       },
-      "seo_question": "¿Qué dice el Imam al-Sâdiq que Dios le informó al Profeta sobre los decretos irrevocables (mahtum) y los demás en al-Kafi?"
+      "seo_question": "¿Cuál es la distinción entre los asuntos mahtum (ordenados) y no-mahtum en el conocimiento divino revelado al Profeta según este hadith de al-Kafi?"
     },
     "fr": {
-      "text": "Certes, Allah (azwj) le Puissant et le Majestueux a informé Muhammad (saww) de tout ce qui s'était passé depuis l'avènement du monde et de tout ce qui se passera jusqu'à la fin du monde ; et Il l'a informé de ce qui était ordonné de manière irrévocable (al-mahtum) parmi cela, et a fait une exception à son égard concernant ce qui était en dehors de cela.",
-      "summary": "L'Imam al-Sâdiq (AS) rapporte qu'Allah a informé le Prophète Muhammad (SAWW) de tous les événements depuis la création du monde jusqu'à sa fin. Il lui a révélé les affaires ordonnées de façon irrévocable (al-mahtum) en faisant exception pour les autres — un hadith du chapitre sur le Badâ' (modification du décret divin), doctrine distinctive du chiisme.",
+      "text": "En vérité, Allah azze wa jelle a informé Muhammad (s.a.v.s.) de tout ce qui s'était passé depuis que le monde existe, et de tout ce qui se passerait jusqu'à la fin du monde, et Il lui a informé des affaires irrévocablement décidées (mahtum) parmi cela, et Il a mis une exception pour lui quant au reste.",
+      "summary": "L'Imam al-Sadiq (AS) rapporte qu'Allah a informé le Prophète Muhammad (saw) de tous les événements depuis le début jusqu'à la fin du monde. Cette révélation a distingué de façon décisive al-Mahtum — les affaires irrévocablement décidées — des autres affaires, pour lesquelles Allah s'est réservé le pouvoir d'altérer Son décret. Cette distinction constitue le fondement théologique de la doctrine du al-Bada' dans la tradition chiite.",
       "key_terms": {
-        "الْمَحْتُومِ": "al-mahtum — les affaires irrévocablement décrétées, non sujettes à changement",
-        "اسْتَثْنَى": "fit une exception — se réserva le droit de modification, mécanisme du Badâ'",
-        "انْقِضَاءِ الدُّنْيَا": "la fin du monde"
+        "الْمَحْتُومِ": "mahtum — affaires décrétées irrévocablement par Allah, non soumises au Bada' (altération du décret)",
+        "اسْتَثْنَى": "a mis une exception — Allah a conservé la capacité d'altérer ce qui n'est pas Mahtum (Bada')",
+        "انْقِضَاءِ": "انقضاء — expiration, fin du monde"
       },
-      "seo_question": "Que rapporte l'Imam al-Sâdiq sur ce qu'Allah a communiqué au Prophète concernant les décrets irrévocables (mahtum) et les autres?"
+      "seo_question": "Quelle distinction Allah a-t-Il faite entre les affaires mahtum (ordonnées) et non-mahtum lorsqu'Il a informé le Prophète de tous les événements passés et futurs?"
     },
     "de": {
-      "text": "Wahrlich, Allah (azwj) der Mächtige und Majestätische unterrichtete Muhammad (saww) über alles, was seit dem Entstehen der Welt geschehen war, und über alles, was bis zum Ende der Welt geschehen wird; und Er unterrichtete ihn (saww) über das endgültig Beschlossene (al-mahtum) davon, und machte ihm gegenüber einen Vorbehalt hinsichtlich dessen, was außerhalb davon lag.",
-      "summary": "Imam al-Sâdiq (AS) berichtet, dass Allah dem Propheten Muhammad (SAWW) Kenntnis über alle Ereignisse von der Erschaffung bis zum Ende der Welt gegeben hat. Er offenbarte ihm die endgültig beschlossenen (al-mahtum) Angelegenheiten und machte für die übrigen einen Vorbehalt — ein Hadith aus dem Kapitel über Badâ' (göttliche Änderung des Schicksals), einem zentralen Konzept der schiitischen Theologie.",
+      "text": "Wahrlich, Allah azze wa jalle informierte Muhammad (s.a.v.s.) über all das, was seit dem Entstehen der Welt geschehen war, und über all das, was bis zum Ende der Welt geschehen wird, und Er informierte ihn über das unabänderlich Beschlossene (Mahtum) darunter, und Er machte für ihn einen Vorbehalt bezüglich des Übrigen.",
+      "summary": "Imam al-Sadiq (AS) berichtet, dass Allah dem Propheten Muhammad (saw) alle Ereignisse von Anbeginn bis zum Ende der Welt offenbarte. Dabei wurde entscheidend zwischen al-Mahtum — unabänderlich beschlossenen Angelegenheiten — und anderen Angelegenheiten unterschieden, bei denen Allah sich die Möglichkeit zur Abänderung Seines Beschlusses vorbehielt. Diese Unterscheidung ist der theologische Kern der Bada'-Lehre in der schiitischen Tradition.",
       "key_terms": {
-        "الْمَحْتُومِ": "al-mahtum — die endgültig beschlossenen, unwandelbaren Angelegenheiten",
-        "اسْتَثْنَى": "machte einen Vorbehalt — behielt sich das Recht der Änderung vor, Mechanismus des Badâ'",
-        "انْقِضَاءِ الدُّنْيَا": "das Ende der Welt"
+        "الْمَحْتُومِ": "Mahtum — von Allah unabänderlich beschlossene Angelegenheiten, nicht dem Bada' unterworfen",
+        "اسْتَثْنَى": "machte einen Vorbehalt — Allah behielt die Fähigkeit, das Nicht-Mahtum zu ändern (Bada')",
+        "انْقِضَاءِ": "انقضاء — Ablauf, Ende der Welt"
       },
-      "seo_question": "Was berichtet Imam al-Sâdiq darüber, was Allah dem Propheten über das endgültig Beschlossene (mahtum) und anderes mitgeteilt hat?"
+      "seo_question": "Welchen Unterschied machte Allah zwischen Mahtum (beschlossenen) und Nicht-Mahtum-Angelegenheiten, als Er den Propheten über alle vergangenen und zukünftigen Ereignisse informierte?"
     },
     "ru": {
-      "text": "Поистине, Аллах (азза ва джалл) Великий и Величественный известил Мухаммада (да благословит его Аллах и его семью) обо всём, что произошло с момента появления мира, и обо всём, что произойдёт вплоть до конца мира; и известил его об окончательно предрешённом (аль-махтум) из этого, и сделал исключение для него в отношении того, что было помимо этого.",
-      "summary": "Имам ас-Садик (мир ему) передаёт, что Аллах сообщил Пророку Мухаммаду обо всех событиях от сотворения до конца мира. Он особо указал на окончательно предрешённые (аль-махтум) вещи и сделал исключение для остальных — хадис из главы о Бада' (изменении Божьего решения), ключевой доктрины шиитского богословия.",
+      "text": "Воистину, Аллах азза ва джалла сообщил Мухаммаду (мир ему и его роду) обо всём, что происходило с момента возникновения мира, и обо всём, что произойдёт до конца мира, и сообщил ему о предрешённых (махтум) из этого делах, и сделал для него исключение относительно остального.",
+      "summary": "Имам ас-Садик (мир ему) передаёт, что Аллах сообщил Пророку Мухаммаду (мир ему и его роду) обо всех событиях от начала до конца мира. Принципиально важно, что это откровение разграничило аль-Махтум — дела, предрешённые окончательно и бесповоротно — и остальные дела, в отношении которых Аллах сохранил способность изменять Своё решение. Это разграничение составляет теологическую основу доктрины аль-Бада' в шиитской традиции.",
       "key_terms": {
-        "الْمَحْتُومِ": "аль-махтум — окончательно предрешённые, неизменные дела",
-        "اسْتَثْنَى": "сделал исключение — оставил за собой право изменения, механизм Бада'",
-        "انْقِضَاءِ الدُّنْيَا": "конец мира"
+        "الْمَحْتُومِ": "махтум — дела, окончательно предрешённые Аллахом, не подлежащие изменению через Бада'",
+        "اسْتَثْنَى": "сделал исключение — Аллах сохранил способность изменять не-махтум (Бада')",
+        "انْقِضَاءِ": "انقضاء — окончание, конец мира"
       },
-      "seo_question": "Что передаёт Имам ас-Садик о том, чем Аллах известил Пророка в отношении окончательно предрешённых и прочих дел?"
+      "seo_question": "Какое различие провёл Аллах между махтум (предрешёнными) и не-махтум делами, сообщая Пророку обо всех прошлых и будущих событиях?"
     },
     "zh": {
-      "text": "确实，真主（عزّ وجلّ）至尊至高，将今世存在以来发生的一切以及直至今世终结将要发生的一切，告知了穆罕默德（صلى الله عليه وآله）；并将其中已定之事（محتوم）特别告知了他，而对其余之事则为他作了例外保留。",
-      "summary": "伊玛目萨迪格（عليه السلام）传述，真主将世界从创始到终结的全部事件都告知了先知穆罕默德。真主明确告知了那些已定（محتوم，不可更改）之事，并对其余之事作了例外——此圣训出自《卡菲》关于"白达"（真主旨意的变更）一章，是什叶派神学区分不可变与可变天命的重要依据。",
+      "text": "确实，真主（عزَّ وجلَّ）将世界自其存在以来所发生的一切，以及将在世界终结之前发生的一切，都告知了穆罕默德（愿真主赐福于他及其家人）；并将其中已定之事（محتوم）告知于他，对其余之事则为他保留了例外（可予更改）。",
+      "summary": "伊玛目贾法尔·萨迪格（愿主赐福于他）传述：真主将世界从起始到终结的所有事件都启示给了先知穆罕默德（愿主赐福于他及其家人）。这一启示关键地区分了"محتوم"（已定之事，不可更改）与其他事务——对于后者，真主保留了改变其旨意的权能。这一区分是什叶派神学中"بداء"（真主显现改变旨意）教义的神学核心。",
       "key_terms": {
-        "الْمَحْتُومِ": "محتوم（已定之事）——不可更改的已决定事项",
-        "اسْتَثْنَى": "作了例外——保留了变更权，白达的运作机制",
-        "انْقِضَاءِ الدُّنْيَا": "今世的终结"
+        "الْمَحْتُومِ": "محتوم（已定之事）——真主最终裁定、不可改变的事务，不受白达（بداء）影响",
+        "اسْتَثْنَى": "保留例外——真主对非محتوم之事保留更改权能（白达教义之基础）",
+        "انْقِضَاءِ": "انقضاء——终结，世界的末日"
       },
-      "seo_question": "根据伊玛目萨迪格，真主告知先知穆罕默德关于已定之事与其余之事的内容是什么？"
+      "seo_question": "真主在将所有过去和未来事件启示给先知时，如何区分已定（محتوم）与未定事务？"
     }
   },
   "chunks": [
     {
       "chunk_type": "isnad",
-      "arabic_text": "وَ بِهَذَا الْإِسْنَادِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ جَهْمِ بْنِ أَبِي جَهْمَةَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+      "arabic_text": "وَبِهَذَا الْإِسْنَادِ عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ يُونُسَ عَنْ جَهْمِ بْنِ أَبِي جَهْمَةَ عَمَّنْ حَدَّثَهُ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
       "word_start": 0,
       "word_end": 27,
       "translations": {
-        "en": "And by this chain, from Ahmad ibn Muhammad, from Ja'far ibn Muhammad, from Yunus, from Jahm ibn Abi Jahma, from the one who narrated it to him, from Abu Abdillah (AS), he said:",
-        "ur": "اور اسی سند کے ساتھ، احمد بن محمد سے، انہوں نے جعفر بن محمد سے، انہوں نے یونس سے، انہوں نے جہم بن ابی جہمۃ سے، انہوں نے اس شخص سے جس نے انہیں روایت کی، ابو عبداللہ علیہ السلام سے — انہوں نے فرمایا:",
-        "tr": "Ve bu isnad ile, Ahmed b. Muhammed'den, o Ca'fer b. Muhammed'den, o Yunus'tan, o Cahm b. Ebu Cahme'den, o kendisine rivayet eden kişiden, Ebu Abdullah (AS)'tan rivayet edilmiştir, o şöyle dedi:",
-        "fa": "و به همین اسناد، از احمد بن محمد، از جعفر بن محمد، از یونس، از جهم بن ابی جهمه، از کسی که برای او روایت کرده، از ابو عبدالله علیه السلام، فرمود:",
-        "id": "Dan dengan sanad ini, dari Ahmad ibn Muhammad, dari Ja'far ibn Muhammad, dari Yunus, dari Jahm ibn Abi Jahma, dari orang yang menyampaikannya kepadanya, dari Abu Abdillah (AS), beliau berkata:",
-        "bn": "এবং এই সনদে, আহমাদ ইবনু মুহাম্মাদ থেকে, জাফর ইবনু মুহাম্মাদ থেকে, ইউনুস থেকে, জাহম ইবনু আবি জাহমা থেকে, যিনি তাকে হাদীস বলেছিলেন তার থেকে, আবু আব্দিল্লাহ (আ.) থেকে বর্ণিত, তিনি বলেছেন:",
-        "es": "Y por esta cadena, de Ahmad ibn Muhammad, de Ja'far ibn Muhammad, de Yunus, de Jahm ibn Abi Jahma, de quien le narró, de Abu Abdillah (AS), él dijo:",
-        "fr": "Et par cette chaîne, de Ahmad ibn Muhammad, de Ja'far ibn Muhammad, de Yunus, de Jahm ibn Abi Jahma, de celui qui lui avait raconté, de Abu Abdillah (AS), il dit :",
-        "de": "Und durch diese Überlieferungskette, von Ahmad ibn Muhammad, von Ja'far ibn Muhammad, von Yunus, von Jahm ibn Abi Jahma, von demjenigen, der es ihm überliefert hatte, von Abu Abdillah (AS), sagte er:",
-        "ru": "И по этой цепочке передатчиков, от Ахмада ибн Мухаммада, от Джафара ибн Мухаммада, от Юнуса, от Джахма ибн Аби Джахмы, от того, кто передал ему, от Абу Абдиллы (мир ему), он сказал:",
-        "zh": "以此传述链，从艾哈迈德·本·穆罕默德，从贾法尔·本·穆罕默德，从优努斯，从贾赫姆·本·阿比·贾赫迈，从那位向他传述的人，从阿布·阿卜迪拉（عليه السلام）传来，他说："
+        "en": "And by this chain, from Ahmad ibn Muhammad, from Ja'far ibn Muhammad, from Yunus, from Jahm ibn Abi Jahma, from the one who narrated to him, from Abu 'Abdillah (Imam al-Sadiq), peace be upon him — he said:",
+        "ur": "اور اسی اسناد سے، احمد بن محمد سے، جعفر بن محمد سے، یونس سے، جہم بن ابی جہمہ سے، جس نے انہیں روایت کی اس سے، ابوعبداللہ علیہ السلام سے — انہوں نے فرمایا:",
+        "tr": "Bu isnadla: Ahmed b. Muhammed'den, Ca'fer b. Muhammed'den, Yunus'tan, Cahm b. Ebî Cahme'den, ona rivayet edenden, Ebû Abdillah (İmam Sâdık) aleyhisselam'dan naklen — o şöyle dedi:",
+        "fa": "و به همین اسناد از احمد بن محمد، از جعفر بن محمد، از یونس، از جهم بن ابی جهمه، از کسی که برای او نقل کرده، از ابوعبدالله علیه السلام — ایشان فرمودند:",
+        "id": "Dan dengan isnad ini, dari Ahmad ibn Muhammad, dari Ja'far ibn Muhammad, dari Yunus, dari Jahm ibn Abi Jahma, dari orang yang meriwayatkan kepadanya, dari Abu 'Abdillah (Imam al-Shadiq), alaihissalam — beliau berkata:",
+        "bn": "এবং এই সনদ দ্বারা, আহমাদ ইবন মুহাম্মাদ থেকে, জাফর ইবন মুহাম্মাদ থেকে, ইউনুস থেকে, জাহম ইবন আবী জাহমা থেকে, যিনি তাঁকে বর্ণনা করেছেন তার থেকে, আবু আবদিল্লাহ (ইমাম সাদিক) আলাইহিস সালাম থেকে — তিনি বলেছেন:",
+        "es": "Y por esta cadena, de Ahmad ibn Muhammad, de Ja'far ibn Muhammad, de Yunus, de Jahm ibn Abi Jahma, del que le narró, de Abu 'Abdillah (Imam al-Sadiq), paz sea con él — dijo:",
+        "fr": "Et par cette chaîne, de Ahmad ibn Muhammad, de Ja'far ibn Muhammad, de Yunus, de Jahm ibn Abi Jahma, de celui qui lui a narré, de Abu 'Abdillah (Imam al-Sadiq), paix soit sur lui — il dit:",
+        "de": "Und durch diese Überliefererkette, von Ahmad ibn Muhammad, von Ja'far ibn Muhammad, von Yunus, von Jahm ibn Abi Jahma, von dem, der es ihm berichtete, von Abu 'Abdillah (Imam al-Sadiq), Friede sei auf ihm — er sagte:",
+        "ru": "И по этой цепи передатчиков, от Ахмада ибн Мухаммада, от Джафара ибн Мухаммада, от Юнуса, от Джахма ибн Аби Джахмы, от того, кто передал ему, от Абу 'Абдиллаха (имама ас-Садика), мир ему — он сказал:",
+        "zh": "经此传述链，从阿赫迈德·本·穆罕默德，从贾法尔·本·穆罕默德，从优努斯，从贾赫姆·本·阿比·贾赫迈，从传述给他的人，从阿布·阿卜迪拉（伊玛目萨迪格）——愿主赐福于他——他说："
       }
     },
     {
       "chunk_type": "body",
-      "arabic_text": "إِنَّ اللَّهَ عَزَّ وَجَلَّ أَخْبَرَ مُحَمَّداً صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ بِمَا كَانَ مُنْذُ كَانَتِ الدُّنْيَا وَبِمَا يَكُونُ إِلَى انْقِضَاءِ الدُّنْيَا",
+      "arabic_text": "إِنَّ اللَّهَ عَزَّ وَجَلَّ أَخْبَرَ مُحَمَّداً صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ بِمَا كَانَ مُنْذُ كَانَتِ الدُّنْيَا وَبِمَا يَكُونُ إِلَى انْقِضَاءِ الدُّنْيَا وَأَخْبَرَهُ بِالْمَحْتُومِ مِنْ ذَلِكَ وَاسْتَثْنَى عَلَيْهِ فِيمَا سِوَاهُ",
       "word_start": 27,
-      "word_end": 49,
-      "translations": {
-        "en": "Indeed, Allah (azwj) Mighty and Majestic informed Muhammad (saww) of whatever had occurred since the coming into being of the world, and of whatever would occur until the expiry of the world;",
-        "ur": "بے شک اللہ عزّ وجلّ نے محمد صلّى اللہ علیہ وآلہ کو دنیا کے وجود میں آنے کے بعد سے جو کچھ ہوا اور دنیا کے اختتام تک جو کچھ ہوگا، اس سب سے آگاہ فرمایا؛",
-        "tr": "Şüphesiz Allah Azze ve Celle, Muhammed (sallallahu aleyhi ve alihi)'ye dünyanın var olmasından bu yana olup bitenleri ve dünyanın sonuna kadar olacakları haber verdi;",
-        "fa": "همانا خداوند عزّ و جلّ، محمد صلّی الله علیه و آله را از آنچه از ابتدای پیدایش دنیا رخ داده و از آنچه تا پایان دنیا رخ خواهد داد آگاه ساخت؛",
-        "id": "Sesungguhnya Allah Azza wa Jalla telah memberitahukan kepada Muhammad (saww) tentang segala yang telah terjadi sejak adanya dunia dan tentang segala yang akan terjadi hingga berakhirnya dunia;",
-        "bn": "নিশ্চয়ই আল্লাহ আজ্জা ওয়া জাল্লা মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া আলিহিকে দুনিয়ার সৃষ্টি থেকে যা ঘটেছে এবং দুনিয়ার সমাপ্তি পর্যন্ত যা ঘটবে তা সম্পর্কে অবহিত করলেন;",
-        "es": "En verdad, Allah (azwj) Glorioso y Majestuoso informó a Muhammad (saww) de todo lo que había ocurrido desde la creación del mundo y de todo lo que ocurriría hasta el fin del mundo;",
-        "fr": "Certes, Allah (azwj) le Puissant et le Majestueux a informé Muhammad (saww) de tout ce qui s'était passé depuis l'avènement du monde et de tout ce qui se passera jusqu'à la fin du monde ;",
-        "de": "Wahrlich, Allah (azwj) der Mächtige und Majestätische unterrichtete Muhammad (saww) über alles, was seit dem Entstehen der Welt geschehen war, und über alles, was bis zum Ende der Welt geschehen wird;",
-        "ru": "Поистине, Аллах (азза ва джалл) Великий и Величественный известил Мухаммада (да благословит его Аллах и его семью) обо всём, что произошло с момента появления мира, и обо всём, что произойдёт вплоть до конца мира;",
-        "zh": "确实，真主（عزّ وجلّ）至尊至高，将今世存在以来发生的一切以及直至今世终结将要发生的一切，告知了穆罕默德（صلى الله عليه وآله）；"
-      }
-    },
-    {
-      "chunk_type": "body",
-      "arabic_text": "وَأَخْبَرَهُ بِالْمَحْتُومِ مِنْ ذَلِكَ وَاسْتَثْنَى عَلَيْهِ فِيمَا سِوَاهُ",
-      "word_start": 49,
       "word_end": 59,
       "translations": {
-        "en": "and He informed him (saww) of the Ordained (al-mahtum) from that, and made exception upon him (saww) regarding what was besides it.",
-        "ur": "اور انہیں اس میں سے محتوم (قطعی طور پر طے شدہ) امور کے بارے میں آگاہ کیا، اور جو امور اس کے علاوہ تھے ان میں استثنا فرمایا۔",
-        "tr": "ve ona bunların içinden kesinleşmiş olanları (el-mahtum) bildirdi ve bunun dışında kalanlar hakkında istisna koydu.",
-        "fa": "و او را از امور محتوم (حتمی) از آن آگاه فرمود، و در غیر آن بر او استثنا کرد.",
-        "id": "dan Dia memberitahukan kepadanya tentang yang telah ditetapkan secara pasti (al-mahtum) dari hal itu, dan membuat pengecualian atasnya mengenai selain itu.",
-        "bn": "এবং তা থেকে মাহতুম (নির্ধারিত) বিষয়গুলো সম্পর্কে তাঁকে জানালেন, আর এর বাইরে যা ছিল সে বিষয়ে তাঁর জন্য ব্যতিক্রম করলেন।",
-        "es": "y le informó de lo Decretado irrevocablemente (al-mahtum) de eso, e hizo una excepción sobre él respecto a lo que había fuera de ello.",
-        "fr": "et Il l'a informé de ce qui était ordonné de manière irrévocable (al-mahtum) parmi cela, et a fait une exception à son égard concernant ce qui était en dehors de cela.",
-        "de": "und Er unterrichtete ihn (saww) über das endgültig Beschlossene (al-mahtum) davon, und machte ihm gegenüber einen Vorbehalt hinsichtlich dessen, was außerhalb davon lag.",
-        "ru": "и известил его об окончательно предрешённом (аль-махтум) из этого, и сделал исключение для него в отношении того, что было помимо этого.",
-        "zh": "并将其中已定之事（محتوم）特别告知了他，而对其余之事则为他作了例外保留。"
+        "en": "'Verily, Allah azwj Mighty and Majestic informed Muhammad saww of whatever had existed since the coming into being of the world, and of whatever would occur until the expiry of the world, and informed him of the Ordained (mahtum) matters from that, and He made an exception upon him regarding what was besides it.'",
+        "ur": "'بے شک اللہ عزَّ وجلَّ نے محمد صلی اللہ علیہ وآلہ کو اس سب چیز سے آگاہ فرمایا جو دنیا کے وجود میں آنے سے تھا، اور اس چیز سے جو دنیا کے ختم ہونے تک ہوگی، اور انہیں اس میں سے محتوم امور سے آگاہ فرمایا، اور باقی امور میں ان کے اوپر استثناء رکھا۔'",
+        "tr": "'Şüphesiz Allah azze ve celle, Muhammed'e (s.a.v.s.) dünyanın var olduğundan beri olanların tamamını ve dünyanın sonuna kadar olacak her şeyi bildirdi; bunlardan kesinleşmiş (mahtum) olanları da ona bildirdi ve geri kalanlar hakkında istisna bıraktı.'",
+        "fa": "'به درستی که خداوند عزَّ وجلَّ، محمد صلی الله علیه وآله را از آنچه از ابتدای پیدایش دنیا بوده و آنچه تا پایان دنیا خواهد بود آگاه ساخت، و او را از امور محتوم از آن آگاه کرد، و در آنچه غیر از آن بود برای او استثناء قرار داد.'",
+        "id": "'Sesungguhnya Allah 'azza wa jalla telah memberitahukan kepada Muhammad (saw) tentang segala yang telah terjadi sejak dunia ada, dan tentang segala yang akan terjadi hingga berakhirnya dunia, dan memberitahukan kepadanya tentang perkara-perkara yang telah dipastikan (mahtum) dari hal itu, serta menetapkan pengecualian baginya mengenai apa yang selain itu.'",
+        "bn": "'নিশ্চয়ই আল্লাহ আজ্জা ওয়া জাল্লা মুহাম্মাদ সাল্লাল্লাহু আলাইহি ওয়া আলিহিকে দুনিয়া অস্তিত্বে আসার সূচনা থেকে যা ঘটেছে এবং দুনিয়ার শেষ পর্যন্ত যা ঘটবে তা জানিয়েছেন, এবং তাঁকে সে বিষয়গুলোর মধ্য থেকে নির্ধারিত (মাহতুম) বিষয়গুলো সম্পর্কে অবহিত করেছেন, এবং তার বাইরের বিষয়ে তাঁর জন্য ব্যতিক্রম রেখেছেন।'",
+        "es": "'En verdad, Allah azze wa yalle informó a Muhammad (s.a.v.s.) de todo lo que había ocurrido desde que el mundo vino a existir, y de todo lo que ocurriría hasta el fin del mundo, y le informó de los asuntos ordenados irrevocablemente (mahtum) de ello, y puso una excepción para él respecto a lo demás.'",
+        "fr": "'En vérité, Allah azze wa jelle a informé Muhammad (s.a.v.s.) de tout ce qui s'était passé depuis que le monde existe, et de tout ce qui se passerait jusqu'à la fin du monde, et Il lui a informé des affaires irrévocablement décidées (mahtum) parmi cela, et Il a mis une exception pour lui quant au reste.'",
+        "de": "'Wahrlich, Allah azze wa jalle informierte Muhammad (s.a.v.s.) über all das, was seit dem Entstehen der Welt geschehen war, und über all das, was bis zum Ende der Welt geschehen wird, und Er informierte ihn über das unabänderlich Beschlossene (Mahtum) darunter, und Er machte für ihn einen Vorbehalt bezüglich des Übrigen.'",
+        "ru": "'Воистину, Аллах азза ва джалла сообщил Мухаммаду (мир ему и его роду) обо всём, что происходило с момента возникновения мира, и обо всём, что произойдёт до конца мира, и сообщил ему о предрешённых (махтум) из этого делах, и сделал для него исключение относительно остального.'",
+        "zh": "「确实，真主（عزَّ وجلَّ）将世界自其存在以来所发生的一切以及将在世界终结之前发生的一切都告知了穆罕默德（愿真主赐福于他及其家人）；并将其中已定之事（محتوم）告知于他，对其余之事则为他保留了例外。」"
       }
     }
   ],
@@ -321,54 +312,38 @@
     },
     {
       "phrase_ar": "صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ",
-      "phrase_en": "May Allah's blessings be upon him and his family",
+      "phrase_en": "May Allah bless him and his family (SAWW)",
       "category": "prophetic_formula"
     },
     {
       "phrase_ar": "عَلَيْهِ السَّلَامُ",
-      "phrase_en": "Peace be upon him",
+      "phrase_en": "Peace be upon him (AS)",
       "category": "prophetic_formula"
     },
     {
       "phrase_ar": "انْقِضَاءِ الدُّنْيَا",
-      "phrase_en": "expiry/end of the world",
+      "phrase_en": "The expiry/end of the world",
       "category": "theological_concept"
     },
     {
       "phrase_ar": "الْمَحْتُومِ مِنْ ذَلِكَ",
-      "phrase_en": "the Ordained from that — the irrevocably decreed matters",
+      "phrase_en": "The Ordained matters thereof — the irrevocably and definitively decreed affairs",
       "category": "theological_concept"
     }
   ],
   "similar_content_hints": [
     {
-      "description": "Other hadiths in al-Kafi's chapter on Bada' that distinguish between al-mahtum (irrevocably ordained matters) and conditional matters subject to divine alteration, narrated from the Imams (AS).",
-      "theme": "bada_mahtum_distinction"
+      "description": "Hadiths in al-Kafi (Kitab al-Tawhid, Bab al-Bada') from Imam al-Sadiq and other Imams explicitly distinguishing between al-Mahtum (definitive decree) and al-Mawquf (conditional/provisional decree), elaborating the same theological distinction made here regarding what is and is not subject to Bada'.",
+      "theme": "mahtum_vs_mawquf_in_bada"
     },
     {
-      "description": "Hadiths affirming that the Prophet (SAWW) and the Imams of Ahlulbayt were granted comprehensive knowledge of all past and future events by God.",
-      "theme": "prophetic_comprehensive_knowledge"
+      "description": "Hadiths affirming that the Imams of the Ahlulbayt inherited from the Prophet (SAWW) knowledge of all past and future events — framing the transmission of this comprehensive divine knowledge as a continuing legacy through the imamate.",
+      "theme": "prophetic_knowledge_inherited_by_imams"
     },
     {
-      "description": "Narrations citing Q. 13:39 ('God erases what He wills and confirms, and with Him is the Mother of the Book') as the Quranic basis for the doctrine of Bada' in Shia theological tradition.",
-      "theme": "bada_quranic_basis"
+      "description": "Hadiths and Quranic commentary on the Tablet of Erasure and Establishment (لَوْحُ الْمَحْوِ وَالْإِثْبَاتِ) and the Preserved Tablet (اللَّوْحُ الْمَحْفُوظُ), which provide the cosmological framework underlying the mahtum/non-mahtum distinction in divine decree.",
+      "theme": "tablet_of_erasure_and_establishment"
     }
   ]
 }
 ```
-
----
-
-### Annotation Notes
-
-**Theological Context — الْبَدَاء (Bada'):**
-This hadith is situated within al-Kafi's chapter on **Bada'**, the distinctively Shia doctrine that God may manifest a different outcome from what was previously understood. The hadith draws a precise binary:
-
-| Term | Nature | Status |
-|---|---|---|
-| **الْمَحْتُومُ** (al-mahtum) | Irrevocably ordained decrees | Explicitly communicated, immutable |
-| **مَا سِوَاهُ** (what is besides it) | Non-fixed matters | Subject to **اسْتِثْنَاء** (divine exception/reservation) |
-
-The verb **اسْتَثْنَى** (*ista-thna*) — Form X of ث-ن-ي — carries the specific technical sense of God *reserving an exception*, i.e., retaining the prerogative to manifest outcomes differently. This is not divine uncertainty; classical Shia scholars consistently interpret it as God's sovereign freedom over the contingent order, supported by **Q. 13:39**: *يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ*.
-
-**Isnad Note:** The presence of **عَمَّنْ حَدَّثَهُ** (from the one who narrated it) creates a deliberate anonymisation, rendering this chain **mursal** at that link, which affects its rijal evaluation.

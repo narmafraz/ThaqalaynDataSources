@@ -1,65 +1,460 @@
 ```json
 {
-  "diacritized_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) يَقُولُ مَا تَنَبَّأَ نَبِيٌّ قَطُّ حَتَّى يُقِرَّ لِلَّهِ بِخَمْسِ خِصَالٍ بِالْبَدَاءِ وَ الْمَشِيئَةِ وَ السُّجُودِ وَ الْعُبُودِيَّةِ وَ الطَّاعَةِ",
+  "diacritized_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ مَا تَنَبَّأَ نَبِيٌّ قَطُّ حَتَّى يُقِرَّ لِلَّهِ بِخَمْسِ خِصَالٍ بِالْبَدَاءِ وَ الْمَشِيئَةِ وَ السُّجُودِ وَ الْعُبُودِيَّةِ وَ الطَّاعَةِ",
   "diacritics_status": "completed",
   "diacritics_changes": [
     {
-      "word_original": "عليه",
-      "word_corrected": "عَلَيْهِ",
-      "note": "Added full diacritics to honorific particle (was undiacritized in parenthetical)"
-    },
-    {
-      "word_original": "السلام",
-      "word_corrected": "السَّلَامُ",
-      "note": "Added full diacritics to honorific noun (was undiacritized in parenthetical)"
+      "original": "عليه السلام",
+      "corrected": "عَلَيْهِ السَّلَامُ",
+      "reason": "Added missing diacritics to the honorific formula عَلَيْهِ السَّلَامُ"
     }
   ],
   "word_analysis": [
-    ["سَمِعْتُ", "V", "I heard", "میں نے سنا", "duydum", "شنیدم", "aku mendengar", "আমি শুনেছি", "escuché", "j'ai entendu", "ich hörte", "я слышал", "我听到"],
-    ["أَبَا", "N", "Abu (father of)", "ابو", "Ebu", "ابو", "Abu", "আবু", "Abu", "Abou", "Abu", "Абу", "阿布"],
-    ["عَبْدِ", "N", "Abd (servant of)", "عبد (بندہ)", "Abd (kulu)", "عبد (بنده)", "Abd (hamba)", "আবদ (বান্দা)", "Abd (siervo de)", "Abd (serviteur de)", "Abd (Diener)", "Абд (раба)", "阿卜德（仆）"],
-    ["اللَّهِ", "N", "God", "اللہ", "Allah", "خدا", "Allah", "আল্লাহ", "Dios", "Dieu", "Allahs", "Аллаха", "真主"],
-    ["عَلَيْهِ", "PREP", "upon him", "اس پر", "ona", "بر او", "atasnya", "তাঁর উপর", "sobre él", "sur lui", "auf ihm", "над ним", "于他"],
-    ["السَّلَامُ", "N", "peace (be upon him)", "السلام", "selam", "سلام", "salam", "সালাম", "paz", "paix", "Friede", "мир", "和平"],
-    ["يَقُولُ", "V", "saying", "فرماتے ہوئے", "şöyle buyururken", "می‌فرمود", "berkata", "বলছেন", "diciendo", "dire", "sagen", "говоря", "说"],
-    ["مَا", "NEG", "not/never", "نہیں", "hiçbir zaman", "هرگز", "tidak pernah", "না", "nunca", "jamais", "nie", "не", "从未"],
-    ["تَنَبَّأَ", "V", "was granted prophethood", "نبی بنا", "peygamberlik verildi", "به نبوت مبعوث شد", "diangkat menjadi nabi", "নবুওয়াত প্রদান করা হয়েছে", "recibió la profecía", "reçut la prophétie", "zum Propheten berufen wurde", "получил пророчество", "被授予先知之职"],
-    ["نَبِيٌّ", "N", "a prophet", "کوئی نبی", "bir peygamber", "پیامبری", "seorang nabi", "কোনো নবী", "un profeta", "un prophète", "ein Prophet", "пророк", "先知"],
-    ["قَطُّ", "ADV", "ever/at all", "کبھی بھی", "hiç/asla", "هرگز", "sama sekali", "কখনো", "jamás", "jamais", "jemals", "никогда", "从来"],
-    ["حَتَّى", "CONJ", "until", "یہاں تک کہ", "ta ki", "تا اینکه", "hingga", "যতক্ষণ না", "hasta que", "jusqu'à ce que", "bis", "пока не", "直到"],
-    ["يُقِرَّ", "V", "he acknowledges", "اقرار کرے", "ikrar etsin", "اقرار کند", "mengakui", "স্বীকার করে", "reconozca", "reconnaisse", "bekennt", "признаёт", "承认"],
-    ["لِلَّهِ", "PREP", "to God", "اللہ کے لیے", "Allah'a", "به خدا", "kepada Allah", "আল্লাহর কাছে", "ante Dios", "à Dieu", "vor Gott", "пред Аллахом", "向真主"],
-    ["بِخَمْسِ", "N", "with five", "پانچ", "beş", "به پنج", "dengan lima", "পাঁচটি", "con cinco", "avec cinq", "mit fünf", "пятью", "五"],
-    ["خِصَالٍ", "N", "characteristics", "خصلتوں کا", "özellikler", "خصلت", "sifat", "বৈশিষ্ট্য", "características", "caractéristiques", "Eigenschaften", "качествами", "特质"],
-    ["بِالْبَدَاءِ", "N", "al-Bada' (divine alteration of decree)", "بداء (اللہ کے فیصلے میں تبدیلی)", "el-Bedā' (ilahi kararın değişimi)", "بداء (تغییر اراده الهی)", "al-Bada' (perubahan ketetapan ilahi)", "আল-বাদা' (ঐশ্বরিক নির্ধারণে পরিবর্তন)", "al-Bada' (alteración del decreto divino)", "al-Badā' (changement du décret divin)", "al-Badā' (Änderung des göttlichen Beschlusses)", "аль-Бадā' (изменение Божьего решения)", "白达（真主更改定命）"],
-    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "和"],
-    ["الْمَشِيئَةِ", "N", "the divine will", "مشیت (الٰہی ارادہ)", "ilahi irade (meşiet)", "مشیت (اراده الهی)", "kehendak ilahi", "ঐশ্বরিক ইচ্ছা (মাশি'আ)", "la voluntad divina", "la volonté divine", "der göttliche Wille", "Воля Аллаха (машийа)", "神圣意志"],
-    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "和"],
-    ["السُّجُودِ", "N", "prostration (sajdah)", "سجدہ", "secde (sücud)", "سجود", "sujud", "সিজদা", "la postración (sajda)", "la prosternation", "die Niederwerfung (Sajda)", "земной поклон (саджда)", "叩首（萨吉达）"],
-    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "和"],
-    ["الْعُبُودِيَّةِ", "N", "servitude", "عبودیت (بندگی)", "kulluk (ubudiyet)", "عبودیت (بندگی)", "penghambaan", "দাসত্ব (বন্দেগী)", "la servidumbre", "la servitude", "die Dienerschaft", "рабство (перед Богом)", "奴仆性（服从真主）"],
-    ["وَ", "CONJ", "and", "اور", "ve", "و", "dan", "এবং", "y", "et", "und", "и", "和"],
-    ["الطَّاعَةِ", "N", "obedience", "اطاعت", "itaat", "اطاعت", "ketaatan", "আনুগত্য", "la obediencia", "l'obéissance", "der Gehorsam", "послушание", "服从"]
+    {
+      "word": "سَمِعْتُ",
+      "pos": "V",
+      "translation": {
+        "en": "I heard",
+        "ur": "میں نے سنا",
+        "tr": "duydum",
+        "fa": "شنیدم",
+        "id": "aku mendengar",
+        "bn": "আমি শুনেছি",
+        "es": "escuché",
+        "fr": "j'entendis",
+        "de": "ich hörte",
+        "ru": "я слышал",
+        "zh": "我听到"
+      }
+    },
+    {
+      "word": "أَبَا",
+      "pos": "N",
+      "translation": {
+        "en": "Abu (father of; honorific kunya prefix)",
+        "ur": "ابو",
+        "tr": "Ebu",
+        "fa": "ابو",
+        "id": "Abu",
+        "bn": "আবু",
+        "es": "Abu",
+        "fr": "Abû",
+        "de": "Abu",
+        "ru": "Абу",
+        "zh": "艾布"
+      }
+    },
+    {
+      "word": "عَبْدِ",
+      "pos": "N",
+      "translation": {
+        "en": "'Abd (servant of)",
+        "ur": "عبد",
+        "tr": "Abd",
+        "fa": "عبد",
+        "id": "'Abd",
+        "bn": "আব্দ",
+        "es": "'Abd",
+        "fr": "'Abd",
+        "de": "'Abd",
+        "ru": "Абд",
+        "zh": "阿卜德"
+      }
+    },
+    {
+      "word": "اللَّهِ",
+      "pos": "N",
+      "translation": {
+        "en": "God",
+        "ur": "اللہ",
+        "tr": "Allah",
+        "fa": "خدا",
+        "id": "Allah",
+        "bn": "আল্লাহর",
+        "es": "Dios",
+        "fr": "Dieu",
+        "de": "Gottes",
+        "ru": "Аллаха",
+        "zh": "安拉"
+      }
+    },
+    {
+      "word": "عَلَيْهِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "upon him",
+        "ur": "ان پر",
+        "tr": "üzerine/aleyhisselam",
+        "fa": "بر او",
+        "id": "atasnya",
+        "bn": "তাঁর উপর",
+        "es": "sobre él",
+        "fr": "sur lui",
+        "de": "auf ihm",
+        "ru": "над ним",
+        "zh": "于他"
+      }
+    },
+    {
+      "word": "السَّلَامُ",
+      "pos": "N",
+      "translation": {
+        "en": "peace (AS — honorific)",
+        "ur": "السلام (علیہ السلام)",
+        "tr": "selam (a.s.)",
+        "fa": "سلام (علیه السلام)",
+        "id": "keselamatan (AS)",
+        "bn": "শান্তি (আ.স.)",
+        "es": "la paz (AS)",
+        "fr": "la paix (AS)",
+        "de": "der Friede (a.s.)",
+        "ru": "мир (мир ему)",
+        "zh": "平安（願主賜其平安）"
+      }
+    },
+    {
+      "word": "يَقُولُ",
+      "pos": "V",
+      "translation": {
+        "en": "saying / he says",
+        "ur": "فرما رہے تھے",
+        "tr": "diyordu",
+        "fa": "می‌گفت",
+        "id": "berkata",
+        "bn": "বলতেন",
+        "es": "diciendo",
+        "fr": "dire",
+        "de": "sagend",
+        "ru": "говорить",
+        "zh": "说"
+      }
+    },
+    {
+      "word": "مَا",
+      "pos": "NEG",
+      "translation": {
+        "en": "not / no",
+        "ur": "نہیں",
+        "tr": "hiçbir",
+        "fa": "هیچ",
+        "id": "tidak",
+        "bn": "না",
+        "es": "ningún",
+        "fr": "aucun",
+        "de": "kein",
+        "ru": "ни один",
+        "zh": "没有"
+      }
+    },
+    {
+      "word": "تَنَبَّأَ",
+      "pos": "V",
+      "translation": {
+        "en": "was granted prophethood",
+        "ur": "نبوت پائی",
+        "tr": "peygamber oldu",
+        "fa": "به نبوت رسید",
+        "id": "diangkat menjadi nabi",
+        "bn": "নবুওয়াত প্রাপ্ত হয়েছেন",
+        "es": "recibió la profecía",
+        "fr": "reçut la prophétie",
+        "de": "wurde zum Propheten berufen",
+        "ru": "был наделён пророчеством",
+        "zh": "被授予先知职"
+      }
+    },
+    {
+      "word": "نَبِيٌّ",
+      "pos": "N",
+      "translation": {
+        "en": "a prophet",
+        "ur": "کوئی نبی",
+        "tr": "bir peygamber",
+        "fa": "هیچ پیامبری",
+        "id": "seorang nabi",
+        "bn": "কোনো নবী",
+        "es": "un profeta",
+        "fr": "un prophète",
+        "de": "ein Prophet",
+        "ru": "пророк",
+        "zh": "先知"
+      }
+    },
+    {
+      "word": "قَطُّ",
+      "pos": "ADV",
+      "translation": {
+        "en": "ever / at all (with negation: never)",
+        "ur": "ہرگز",
+        "tr": "hiç / asla",
+        "fa": "هرگز",
+        "id": "sama sekali",
+        "bn": "কখনো",
+        "es": "jamás",
+        "fr": "jamais",
+        "de": "jemals",
+        "ru": "никогда",
+        "zh": "从未"
+      }
+    },
+    {
+      "word": "حَتَّى",
+      "pos": "CONJ",
+      "translation": {
+        "en": "until",
+        "ur": "یہاں تک کہ",
+        "tr": "ta ki",
+        "fa": "تا اینکه",
+        "id": "hingga",
+        "bn": "যতক্ষণ না",
+        "es": "hasta que",
+        "fr": "jusqu'à ce que",
+        "de": "bis",
+        "ru": "пока не",
+        "zh": "直到"
+      }
+    },
+    {
+      "word": "يُقِرَّ",
+      "pos": "V",
+      "translation": {
+        "en": "he acknowledges / confesses",
+        "ur": "اقرار کرے",
+        "tr": "ikrar etsin",
+        "fa": "اقرار کند",
+        "id": "ia mengakui",
+        "bn": "সে স্বীকার করে",
+        "es": "reconociera",
+        "fr": "reconnaisse",
+        "de": "bekennt",
+        "ru": "признаёт",
+        "zh": "承认"
+      }
+    },
+    {
+      "word": "لِلَّهِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "to God / before God",
+        "ur": "اللہ کے سامنے",
+        "tr": "Allah'a",
+        "fa": "برای خدا / نزد خدا",
+        "id": "kepada Allah",
+        "bn": "আল্লাহর নিকট",
+        "es": "a Dios",
+        "fr": "à Dieu / devant Dieu",
+        "de": "vor Gott",
+        "ru": "перед Аллахом",
+        "zh": "向真主"
+      }
+    },
+    {
+      "word": "بِخَمْسِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "with five",
+        "ur": "پانچ کا",
+        "tr": "beş",
+        "fa": "به پنج",
+        "id": "dengan lima",
+        "bn": "পাঁচটি",
+        "es": "con cinco",
+        "fr": "avec cinq",
+        "de": "mit fünf",
+        "ru": "пятью",
+        "zh": "五"
+      }
+    },
+    {
+      "word": "خِصَالٍ",
+      "pos": "N",
+      "translation": {
+        "en": "characteristics / traits",
+        "ur": "خصلتوں",
+        "tr": "özellik",
+        "fa": "خصلت",
+        "id": "karakteristik / sifat",
+        "bn": "বৈশিষ্ট্য",
+        "es": "características",
+        "fr": "caractéristiques",
+        "de": "Eigenschaften",
+        "ru": "качеств",
+        "zh": "特质"
+      }
+    },
+    {
+      "word": "بِالْبَدَاءِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "al-Bada' (the Manifestation of a New Divine Decree)",
+        "ur": "بداء (تبدیلیِ مشیتِ الٰہی) کا",
+        "tr": "el-Bedâ' (ilahi kararın yeni tecellisi)",
+        "fa": "به بداء (ظهور اراده جدید الهی)",
+        "id": "al-Bada' (manifestasi keputusan ilahi baru)",
+        "bn": "আল-বাদা' (নতুন ঐশী সিদ্ধান্তের প্রকাশ)",
+        "es": "al-Bada' (la manifestación de un nuevo decreto divino)",
+        "fr": "al-Badâ' (la manifestation d'une nouvelle décision divine)",
+        "de": "al-Bada' (die Manifestation eines neuen göttlichen Beschlusses)",
+        "ru": "аль-Бада' (проявление нового Божественного решения)",
+        "zh": "巴达（新神圣旨意之彰显）"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "الْمَشِيئَةِ",
+      "pos": "N",
+      "translation": {
+        "en": "the [Divine] Will / Desire",
+        "ur": "مشیئت (الٰہی ارادہ)",
+        "tr": "irade / meşîet",
+        "fa": "مشیئت (اراده الهی)",
+        "id": "kehendak [ilahi]",
+        "bn": "ঐশী ইচ্ছা / মাশিআ",
+        "es": "la voluntad [divina]",
+        "fr": "la Volonté [divine]",
+        "de": "der [göttliche] Wille",
+        "ru": "[Божественная] воля",
+        "zh": "神圣意志"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "السُّجُودِ",
+      "pos": "N",
+      "translation": {
+        "en": "prostration (sajdah)",
+        "ur": "سجدہ",
+        "tr": "secde",
+        "fa": "سجده",
+        "id": "sujud (sajdah)",
+        "bn": "সাজদাহ",
+        "es": "la postración",
+        "fr": "la prosternation",
+        "de": "die Niederwerfung (Sajda)",
+        "ru": "земной поклон (саджда)",
+        "zh": "叩头礼（叩拜）"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "الْعُبُودِيَّةِ",
+      "pos": "N",
+      "translation": {
+        "en": "servitude / worshipful submission",
+        "ur": "عبودیت (بندگی)",
+        "tr": "kulluk / ubudiyet",
+        "fa": "عبودیت (بندگی)",
+        "id": "penghambaan diri",
+        "bn": "দাসত্ব / বিনম্র আনুগত্য",
+        "es": "la servidumbre adorante",
+        "fr": "la servitude adorante",
+        "de": "die dienende Unterwerfung",
+        "ru": "рабство / поклонение",
+        "zh": "奴仆性（虔诚顺从）"
+      }
+    },
+    {
+      "word": "وَ",
+      "pos": "CONJ",
+      "translation": {
+        "en": "and",
+        "ur": "اور",
+        "tr": "ve",
+        "fa": "و",
+        "id": "dan",
+        "bn": "এবং",
+        "es": "y",
+        "fr": "et",
+        "de": "und",
+        "ru": "и",
+        "zh": "和"
+      }
+    },
+    {
+      "word": "الطَّاعَةِ",
+      "pos": "N",
+      "translation": {
+        "en": "obedience",
+        "ur": "اطاعت",
+        "tr": "itaat",
+        "fa": "اطاعت",
+        "id": "ketaatan",
+        "bn": "আনুগত্য",
+        "es": "la obediencia",
+        "fr": "l'obéissance",
+        "de": "der Gehorsam",
+        "ru": "послушание",
+        "zh": "服从"
+      }
+    }
   ],
-  "tags": ["theology", "prophetic_tradition", "worship", "ethics"],
+  "tags": ["theology", "prophetic_tradition", "worship", "knowledge"],
   "content_type": "creedal",
   "related_quran": [
     {
-      "ref": "13:39",
+      "ref": "19:93",
+      "relationship": "thematic"
+    },
+    {
+      "ref": "22:77",
       "relationship": "thematic"
     },
     {
       "ref": "3:83",
       "relationship": "thematic"
-    },
-    {
-      "ref": "2:285",
-      "relationship": "thematic"
     }
   ],
   "isnad_matn": {
     "isnad_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ بَعْضِ أَصْحَابِنَا عَنْ مُحَمَّدِ بْنِ عَمْرٍو الْكُوفِيِّ أَخِي يَحْيَى عَنْ مُرَازِمِ بْنِ حَكِيمٍ قَالَ",
-    "matn_ar": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) يَقُولُ مَا تَنَبَّأَ نَبِيٌّ قَطُّ حَتَّى يُقِرَّ لِلَّهِ بِخَمْسِ خِصَالٍ بِالْبَدَاءِ وَ الْمَشِيئَةِ وَ السُّجُودِ وَ الْعُبُودِيَّةِ وَ الطَّاعَةِ",
+    "matn_ar": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ مَا تَنَبَّأَ نَبِيٌّ قَطُّ حَتَّى يُقِرَّ لِلَّهِ بِخَمْسِ خِصَالٍ بِالْبَدَاءِ وَالْمَشِيئَةِ وَالسُّجُودِ وَالْعُبُودِيَّةِ وَالطَّاعَةِ",
     "has_chain": true,
     "narrators": [
       {
@@ -68,7 +463,7 @@
         "role": "narrator",
         "position": 1,
         "identity_confidence": "ambiguous",
-        "ambiguity_note": "Collective anonymous group of al-Kulayni's direct companions; identities unspecified",
+        "ambiguity_note": "Collective anonymous designation used by al-Kulayni for a group of trusted transmitters; individual identities unspecified",
         "known_identity": null
       },
       {
@@ -78,7 +473,7 @@
         "position": 2,
         "identity_confidence": "definite",
         "ambiguity_note": null,
-        "known_identity": "Ahmad ibn Muhammad ibn Khalid al-Barqi (d. 274/887), prominent Shia muhaddith and author of al-Mahasin"
+        "known_identity": "Ahmad ibn Muhammad ibn Khalid al-Barqi (d. ~274 AH), prominent Shia hadith scholar and author of al-Mahasin; highly prolific transmitter in al-Kafi"
       },
       {
         "name_ar": "بَعْضُ أَصْحَابِنَا",
@@ -86,17 +481,17 @@
         "role": "narrator",
         "position": 3,
         "identity_confidence": "ambiguous",
-        "ambiguity_note": "Anonymous intermediary narrator between al-Barqi and Muhammad ibn Amr; identity unspecified",
+        "ambiguity_note": "Anonymous intermediary narrator between al-Barqi and Ibn 'Amr al-Kufi; identity unknown",
         "known_identity": null
       },
       {
         "name_ar": "مُحَمَّدُ بْنُ عَمْرٍو الْكُوفِيُّ أَخُو يَحْيَى",
-        "name_en": "Muhammad ibn Amr al-Kufi, brother of Yahya",
+        "name_en": "Muhammad ibn 'Amr al-Kufi, brother of Yahya",
         "role": "narrator",
         "position": 4,
         "identity_confidence": "likely",
-        "ambiguity_note": "Identified by fraternal relation to Yahya ibn Amr; limited independent biographical data",
-        "known_identity": "Muhammad ibn Amr al-Kufi, distinguished from others by his brother Yahya as a biographical marker"
+        "ambiguity_note": "Identified by his brother Yahya to distinguish him from others of the same name; limited independent biographical data in rijal sources",
+        "known_identity": "Muhammad ibn 'Amr al-Kufi, Shia narrator from Kufa, brother of Yahya ibn 'Amr al-Kufi"
       },
       {
         "name_ar": "مُرَازِمُ بْنُ حَكِيمٍ",
@@ -105,151 +500,161 @@
         "position": 5,
         "identity_confidence": "definite",
         "ambiguity_note": null,
-        "known_identity": "Murazim ibn Hakim al-Azdi al-Madaini, trusted companion (thiqah) of Imam al-Sadiq (AS) and Imam al-Kazim (AS); direct narrator of this report"
+        "known_identity": "Murazim ibn Hakim al-Azdi al-Madaini, trusted companion (sahabī) of Imam Ja'far al-Sadiq (AS); positively assessed in Shia rijal"
+      },
+      {
+        "name_ar": "أَبُو عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ",
+        "name_en": "Abu Abdullah, peace be upon him (Imam Ja'far al-Sadiq)",
+        "role": "imam",
+        "position": 6,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Imam Ja'far ibn Muhammad al-Sadiq (AS), sixth Imam of the Twelver Shia, d. 148 AH; the kunya Abu Abdillah in al-Kafi designates him exclusively",
+        "word_ranges": [{"word_start": 1, "word_end": 6}]
       }
     ]
   },
   "translations": {
     "en": {
-      "text": "I heard Abu Abdullah (AS) say: 'No prophet was ever granted prophethood until he acknowledged to God five characteristics: al-Bada' (divine alteration of decree), the divine Will (al-Mashi'ah), Prostration (al-Sujud), Servitude (al-'Ubūdiyyah), and Obedience (al-Ta'ah).'",
-      "summary": "Imam Ja'far al-Sadiq (AS) declares that every prophet throughout history was required, as a prerequisite for prophethood, to acknowledge five foundational theological realities before God. Foremost among them is al-Bada' — a distinctively Shia doctrine affirming God's absolute sovereignty to manifest change in His decree — alongside divine will, prostration, servitude, and obedience.",
+      "text": "I heard Abu Abdullah (peace be upon him) saying: 'No prophet was ever granted prophethood until he acknowledged to God five characteristics: al-Bada' (the Manifestation of a New Divine Decree), and the [Divine] Will (al-Mashi'a), and prostration (al-Sujud), and servitude (al-'Ubodiyya), and obedience (al-Ta'a).'",
+      "summary": "Imam Ja'far al-Sadiq (AS) declares through his companion Murazim ibn Hakim that prophethood is universally conditional upon a prophet's prior acknowledgment of five foundational divine realities. Heading the list is al-Bada' — the distinctively Shia theological doctrine that God manifests new decisions that may appear to human observers as alterations of prior decrees — affirming His absolute and unrestricted sovereignty over all affairs.",
       "key_terms": {
-        "الْبَدَاءِ": "al-Bada' — the Shia doctrine that God manifests alteration in His decree; not ignorance but an expression of absolute divine sovereignty",
-        "الْمَشِيئَةِ": "al-Mashi'ah — the absolute divine will; nothing occurs outside it",
-        "الْعُبُودِيَّةِ": "al-'Ubūdiyyah — total servitude and worshipping submission to God",
-        "الطَّاعَةِ": "al-Ta'ah — obedience; compliance with God's commands and prohibitions"
+        "الْبَدَاءِ": "al-Bada': the central Shia theological doctrine of God manifesting a new divine decision; affirms God's absolute sovereign will, unlimited by any prior decree; often misrepresented as 'change of mind' but understood in Shia kalam as the constant, dynamic expression of divine omnipotence",
+        "الْمَشِيئَةِ": "al-Mashi'a: the Divine Will or Desire; God's sovereign volition that underlies all creation, decree, and action",
+        "الْعُبُودِيَّةِ": "al-'Ubodiyya: total servitude and worshipful submission to God; recognition of one's ontological status as a created servant entirely dependent upon the Creator",
+        "الطَّاعَةِ": "al-Ta'a: obedience; the practical and active compliance with God's commands as an expression of faith"
       },
-      "seo_question": "What five characteristics must every prophet acknowledge before receiving prophethood according to Imam al-Sadiq (AS) in al-Kafi?"
+      "seo_question": "What are the five characteristics every prophet must acknowledge before being granted prophethood, according to Imam al-Sadiq (AS) in al-Kafi?"
     },
     "ur": {
-      "text": "میں نے ابو عبداللہ (علیہ السلام) کو فرماتے ہوئے سنا: 'کوئی بھی نبی کبھی نبوت نہیں پایا یہاں تک کہ وہ اللہ کے سامنے پانچ خصلتوں کا اقرار کرے: بداء، مشیت، سجدے، عبودیت اور اطاعت کا۔'",
-      "summary": "امام جعفر صادق (علیہ السلام) فرماتے ہیں کہ ہر نبی کو نبوت سے پہلے اللہ کے حضور پانچ بنیادی حقائق کا اقرار لازم تھا۔ ان میں سب سے نمایاں بداء ہے — جو شیعہ عقیدے کا ایک ممتاز اصول ہے — اس کے ساتھ مشیتِ الٰہی، سجدہ، عبودیت اور اطاعت شامل ہیں۔",
+      "text": "میں نے ابو عبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا: 'کسی بھی نبی کو ہرگز نبوت نہیں دی گئی جب تک کہ اس نے اللہ کے سامنے پانچ خصلتوں کا اقرار نہ کیا: بداء کا، مشیئت کا، سجود کا، عبودیت کا اور اطاعت کا۔'",
+      "summary": "امام جعفر صادق علیہ السلام نے اپنے صحابی مرازم بن حکیم کے واسطے سے فرمایا کہ نبوت کا عطا ہونا پانچ بنیادی الٰہی حقائق کے اعتراف سے مشروط ہے۔ ان میں بداء سرفہرست ہے — جو شیعہ کلام کا وہ اہم ترین اصول ہے جو اللہ کی مطلق اور غیر محدود قدرت و ارادے کو بیان کرتا ہے۔",
       "key_terms": {
-        "الْبَدَاءِ": "بداء — شیعہ عقیدے میں اللہ کی وہ صفت جس سے وہ اپنے فیصلے میں تبدیلی ظاہر فرما سکتا ہے؛ یہ جہل نہیں بلکہ مطلق اقتدار کا اظہار ہے",
-        "الْمَشِيئَةِ": "مشیت — اللہ کا مطلق ارادہ؛ کوئی چیز اس سے باہر نہیں ہوتی",
-        "الْعُبُودِيَّةِ": "عبودیت — اللہ کے حضور مکمل بندگی اور تسلیم",
-        "الطَّاعَةِ": "اطاعت — اللہ کے احکامات کی مکمل پیروی"
+        "الْبَدَاءِ": "بداء: شیعہ کلام کا مرکزی عقیدہ؛ اللہ کے کسی نئے فیصلے کا ظہور جو بظاہر پچھلے حکم سے مختلف ہو — اس سے اللہ کی مطلق اور لا محدود قدرت ثابت ہوتی ہے",
+        "الْمَشِيئَةِ": "مشیئت: اللہ کی مرضی اور ارادہ؛ تمام تخلیق، تقدیر اور عمل کی بنیاد",
+        "الْعُبُودِيَّةِ": "عبودیت: اللہ کے سامنے مکمل بندگی اور سر تسلیم خم؛ مخلوق ہونے کا پورا شعور",
+        "الطَّاعَةِ": "اطاعت: اللہ کے احکام کی عملی اور فعال فرمانبرداری"
       },
-      "seo_question": "امام صادق (علیہ السلام) کے مطابق ہر نبی کو نبوت سے پہلے کن پانچ خصلتوں کا اقرار ضروری تھا؟"
+      "seo_question": "امام جعفر صادق علیہ السلام کے مطابق الکافی میں نبوت ملنے سے پہلے ہر نبی کو کن پانچ خصلتوں کا اقرار کرنا ضروری تھا؟"
     },
     "tr": {
-      "text": "Ebu Abdullah'ı (a.s.) şöyle buyururken duydum: 'Hiçbir peygambere, Allah'a beş özelliği ikrar etmeden peygamberlik verilmemiştir: el-Bedā' (ilahi kararın değişimi), ilahi irade (el-Meşiet), secde (es-Sücud), kulluk (el-Ubudiyet) ve itaat (et-Taat).'",
-      "summary": "İmam Cafer es-Sadık (a.s.), her peygamberin nübüvvet almadan önce Allah'a beş temel teolojik gerçeği ikrar etmesinin zorunlu olduğunu beyan eder. Bunların en önemlisi, Allah'ın kaderini değiştirebildiğini öngören el-Bedā' doktrinidir; buna ilahi irade, secde, kulluk ve itaat eşlik eder.",
+      "text": "Ebû Abdullah'ı (aleyhisselam) şöyle derken duydum: 'Hiçbir peygamber, Allah'a beş özelliği ikrar etmeden peygamberliğe nail olmamıştır: el-Bedâ' (ilahi kararın yeni tecellisi), irade (el-Meşîet), secde (es-Sücûd), kulluk (el-Ubûdiyyet) ve itaat (et-Tâat).'",
+      "summary": "İmam Câfer es-Sâdık (a.s.), sahabisi Murâzim ibn Hakîm aracılığıyla peygamberliğin beş temel ilahi hakikati kabul etmeye evrensel olarak bağlı olduğunu beyan etmiştir. Listenin başında yer alan el-Bedâ', Allah'ın mutlak ve sınırsız egemenliğini ifade eden, Şiî kelâmına özgü köklü bir doktrindir.",
       "key_terms": {
-        "الْبَدَاءِ": "el-Bedā' — Allah'ın kaderinde değişiklik yapabileceğini öngören Şii kelam doktrini; cehalet değil mutlak egemenliğin ifadesidir",
-        "الْمَشِيئَةِ": "el-Meşiet — mutlak ilahi irade; hiçbir şey onsuz gerçekleşmez",
-        "الْعُبُودِيَّةِ": "el-Ubudiyet — Allah'a tam kulluk ve teslimiyet",
-        "الطَّاعَةِ": "et-Taat — Allah'ın emirlerine itaat"
+        "الْبَدَاءِ": "el-Bedâ': Şiî kelâmının merkezi doktrini; Allah'ın yeni bir kararı izhar etmesi; Allah'ın mutlak ve sınırsız iradesini teyit eder",
+        "الْمَشِيئَةِ": "el-Meşîet: İlahi irade; tüm yaratılış, kader ve eylemin temeli",
+        "الْعُبُودِيَّةِ": "el-Ubûdiyyet: Allah'a tam kulluk ve ibadet edercesine teslimiyet; yaratılmış olmanın bilinciyle bağımlılık",
+        "الطَّاعَةِ": "et-Tâat: İtaat; imanın pratik ifadesi olarak Allah'ın emirlerine etkin uyum"
       },
-      "seo_question": "İmam Sadık'a (a.s.) göre her peygamberin nübüvvetten önce ikrar etmesi gereken beş özellik nedir?"
+      "seo_question": "İmam Câfer es-Sâdık'a (a.s.) göre el-Kâfî'de her peygamberin peygamberlik verilmeden önce Allah'a ikrar etmesi gereken beş özellik nelerdir?"
     },
     "fa": {
-      "text": "شنیدم که ابو عبدالله (علیه السلام) می‌فرمود: «هیچ پیامبری هرگز به نبوت مبعوث نشد مگر اینکه به پنج خصلت نزد خداوند اقرار کرد: بداء، مشیت، سجود، عبودیت و اطاعت.»",
-      "summary": "امام جعفر صادق (علیه السلام) بیان می‌فرمایند که هر پیامبری پیش از دریافت نبوت، ملزم به اقرار پنج حقیقت بنیادین الهی بوده است. برجسته‌ترین آنها بداء است — آموزه‌ای ویژه در کلام شیعی مبنی بر حاکمیت مطلق خداوند در ظهور تغییر در قضای خود — در کنار مشیت، سجود، عبودیت و اطاعت.",
+      "text": "شنیدم که ابوعبداللّه (علیه السلام) می‌فرمود: «هیچ پیامبری هرگز به مقام نبوت نرسید مگر آنکه پنج خصلت را برای خدا اقرار کرد: بداء، مشیئت، سجود، عبودیت و اطاعت.»",
+      "summary": "امام جعفر صادق (علیه السلام) از طریق صحابی‌اش مرازم بن حکیم تصریح می‌کند که نبوت مشروط به اقرار پنج واقعیت بنیادین الهی است. در رأس این فهرست بداء قرار دارد — آموزه‌ای محوری در کلام شیعی که اراده مطلق و نامحدود الهی را بر تمامی امور تأیید می‌کند.",
       "key_terms": {
-        "الْبَدَاءِ": "بداء — آموزه کلامی شیعه که خداوند می‌تواند تغییری در قضای خود آشکار سازد؛ نه از روی جهل، بلکه نشانه حاکمیت مطلق اوست",
-        "الْمَشِيئَةِ": "مشیت — اراده مطلق الهی؛ هیچ چیز بیرون از آن واقع نمی‌شود",
-        "الْعُبُودِيَّةِ": "عبودیت — بندگی کامل و تسلیم در برابر خداوند",
-        "الطَّاعَةِ": "اطاعت — فرمانبرداری از اوامر و نواهی الهی"
+        "الْبَدَاءِ": "بداء: آموزه محوری در کلام شیعی؛ ظهور اراده جدید الهی که برای انسان به‌صورت تغییر به نظر می‌رسد؛ اقتدار مطلق و نامحدود خدا را تأیید می‌کند",
+        "الْمَشِيئَةِ": "مشیئت: اراده الهی؛ اساس همه آفرینش، قضا و قدر",
+        "الْعُبُودِيَّةِ": "عبودیت: بندگی کامل و تسلیم عبادی در برابر خدا؛ آگاهی به وابستگی ذاتی مخلوق به خالق",
+        "الطَّاعَةِ": "اطاعت: فرمانبرداری عملی و فعال از احکام الهی به‌مثابه بیان ایمان"
       },
-      "seo_question": "امام صادق (علیه السلام) در کافی چه پنج خصلتی را شرط نبوت هر پیامبر دانسته‌اند؟"
+      "seo_question": "بر اساس روایت امام صادق (علیه السلام) در الکافی، هر پیامبر پیش از دریافت نبوت باید به چه پنج خصلتی اقرار می‌کرد؟"
     },
     "id": {
-      "text": "Aku mendengar Abu Abdullah (AS) berkata: 'Tidak ada seorang pun nabi yang pernah diangkat menjadi nabi hingga ia mengakui kepada Allah lima karakteristik: al-Bada' (perubahan ketetapan ilahi), kehendak ilahi (al-Mashi'ah), sujud (al-Sujud), penghambaan (al-'Ubudiyyah), dan ketaatan (al-Ta'ah).'",
-      "summary": "Imam Ja'far al-Shadiq (AS) menyatakan bahwa setiap nabi sepanjang sejarah wajib mengakui kepada Allah lima realitas teologis mendasar sebelum menerima kenabian. Yang paling menonjol adalah al-Bada' — doktrin khas teologi Syiah tentang kedaulatan mutlak Allah untuk memanifestasikan perubahan pada ketetapan-Nya — beserta kehendak ilahi, sujud, penghambaan, dan ketaatan.",
+      "text": "Aku mendengar Abu Abdullah (salam sejahtera atasnya) berkata: 'Tidak ada seorang nabi pun yang pernah diangkat menjadi nabi kecuali ia terlebih dahulu mengakui kepada Allah lima karakteristik: al-Bada' (manifestasi keputusan ilahi baru), dan kehendak [ilahi] (al-Mashi'a), dan sujud (al-Sujud), dan penghambaan diri (al-'Ubodiyya), dan ketaatan (al-Ta'a).'",
+      "summary": "Imam Ja'far al-Sadiq (AS), melalui sahabatnya Murazim ibn Hakim, menyatakan bahwa kenabian secara universal dikaitkan dengan pengakuan atas lima realitas ilahi yang mendasar. Al-Bada' — doktrin khas Syiah tentang manifestasi keputusan ilahi baru — menempati urutan pertama, menegaskan kedaulatan mutlak Allah yang tak terbatas atas segala sesuatu.",
       "key_terms": {
-        "الْبَدَاءِ": "al-Bada' — doktrin teologi Syiah bahwa Allah dapat memanifestasikan perubahan pada ketetapan-Nya; bukan ketidaktahuan melainkan ekspresi kedaulatan mutlak",
-        "الْمَشِيئَةِ": "al-Mashi'ah — kehendak ilahi yang mutlak; tidak ada yang terjadi di luar kehendak-Nya",
-        "الْعُبُودِيَّةِ": "al-'Ubudiyyah — penghambaan total kepada Allah",
-        "الطَّاعَةِ": "al-Ta'ah — ketaatan terhadap perintah dan larangan Allah"
+        "الْبَدَاءِ": "al-Bada': doktrin sentral kalam Syiah; manifestasi keputusan ilahi baru yang menegaskan kehendak berdaulat Allah yang mutlak dan tak terbatas",
+        "الْمَشِيئَةِ": "al-Mashi'a: kehendak ilahi; landasan semua ciptaan, takdir, dan tindakan",
+        "الْعُبُودِيَّةِ": "al-'Ubodiyya: penghambaan diri total dan ketundukan penuh kepada Allah; kesadaran akan ketergantungan ontologis makhluk kepada Sang Pencipta",
+        "الطَّاعَةِ": "al-Ta'a: ketaatan; kepatuhan aktif dan praktis terhadap perintah Allah sebagai ungkapan iman"
       },
-      "seo_question": "Menurut Imam al-Shadiq (AS) dalam al-Kafi, apa lima karakteristik yang harus diakui setiap nabi sebelum menerima kenabian?"
+      "seo_question": "Menurut Imam al-Sadiq (AS) dalam al-Kafi, apa lima karakteristik yang harus diakui setiap nabi kepada Allah sebelum diangkat menjadi nabi?"
     },
     "bn": {
-      "text": "আমি আবু আবদিল্লাহ (আ.স.)-কে বলতে শুনেছি: 'কোনো নবী কখনো নবুওয়াত প্রাপ্ত হননি যতক্ষণ না তিনি আল্লাহর কাছে পাঁচটি বিষয় স্বীকার করেন: আল-বাদা' (ঐশ্বরিক নির্ধারণে পরিবর্তন), মাশি'আ (ঐশ্বরিক ইচ্ছা), সুজুদ (সিজদা), উবুদিয়্যাহ (দাসত্ব) এবং তা'আহ (আনুগত্য)।'",
-      "summary": "ইমাম জাফর সাদিক (আ.স.) ঘোষণা করেন যে ইতিহাসের প্রতিটি নবী নবুওয়াত লাভের পূর্বশর্ত হিসেবে আল্লাহর কাছে পাঁচটি মৌলিক সত্য স্বীকার করতে বাধ্য ছিলেন। সবচেয়ে উল্লেখযোগ্য হলো আল-বাদা' — শিয়া কালামের একটি বিশেষ মতবাদ — এর সাথে ঐশ্বরিক ইচ্ছা, সিজদা, দাসত্ব ও আনুগত্য।",
+      "text": "আমি আবু আব্দুল্লাহ (আলাইহিস সালাম)-কে বলতে শুনেছি: 'কোনো নবী কখনো নবুওয়াত প্রাপ্ত হননি যতক্ষণ না তিনি আল্লাহর কাছে পাঁচটি বৈশিষ্ট্য স্বীকার করেন: আল-বাদা' (নতুন ঐশী সিদ্ধান্তের প্রকাশ), ঐশী ইচ্ছা (আল-মাশিআ), সাজদাহ (আল-সুজুদ), দাসত্ব (আল-'উবুদিয়্যা), এবং আনুগত্য (আল-তা'আ)।'",
+      "summary": "ইমাম জা'ফর আল-সাদিক (আ.স.) তাঁর সাহাবী মুরাযিম ইবন হাকিমের মাধ্যমে ঘোষণা করেন যে নবুওয়াত পাঁচটি মৌলিক ঐশী বাস্তবতা স্বীকারের উপর শর্তযুক্ত। তালিকার প্রথমে রয়েছে আল-বাদা' — শিয়া ধর্মতত্ত্বের এক কেন্দ্রীয় মতবাদ যা আল্লাহর পরম ও অসীম সার্বভৌম ইচ্ছাকে নিশ্চিত করে।",
       "key_terms": {
-        "الْبَدَاءِ": "আল-বাদা' — শিয়া ধর্মতাত্ত্বিক মতবাদ যে আল্লাহ তাঁর নির্ধারণে পরিবর্তন প্রকাশ করতে পারেন; অজ্ঞতা নয়, পরম সার্বভৌমত্বের প্রকাশ",
-        "الْمَشِيئَةِ": "মাশি'আ — আল্লাহর পরম ইচ্ছা; কিছুই তার বাইরে ঘটে না",
-        "الْعُبُودِيَّةِ": "উবুদিয়্যাহ — আল্লাহর প্রতি সম্পূর্ণ দাসত্ব ও আত্মসমর্পণ",
-        "الطَّاعَةِ": "তা'আহ — আল্লাহর আদেশের আনুগত্য"
+        "الْبَدَاءِ": "আল-বাদা': শিয়া কালামের কেন্দ্রীয় মতবাদ; নতুন ঐশী সিদ্ধান্তের প্রকাশ যা আল্লাহর পরম ও অসীম সার্বভৌমত্ব প্রমাণ করে",
+        "الْمَشِيئَةِ": "আল-মাশিআ: ঐশী ইচ্ছা; সকল সৃষ্টি, তকদির ও কর্মের ভিত্তি",
+        "الْعُبُودِيَّةِ": "আল-'উবুদিয়্যা: সম্পূর্ণ দাসত্ব ও ইবাদতপূর্ণ সমর্পণ; মাখলুকের স্রষ্টার উপর নির্ভরতার চেতনা",
+        "الطَّاعَةِ": "আল-তা'আ: আনুগত্য; ঈমানের প্রকাশ হিসেবে আল্লাহর আদেশের সক্রিয় পালন"
       },
-      "seo_question": "ইমাম সাদিক (আ.স.) অনুযায়ী প্রতিটি নবীকে নবুওয়াত লাভের আগে কোন পাঁচটি বিষয় স্বীকার করতে হয়েছিল?"
+      "seo_question": "আল-কাফিতে ইমাম আল-সাদিক (আ.স.)-এর মতে, নবুওয়াত প্রদানের আগে প্রতিটি নবীকে আল্লাহর নিকট কোন পাঁচটি বৈশিষ্ট্য স্বীকার করতে হয়েছিল?"
     },
     "es": {
-      "text": "Escuché a Abu Abdullah (AS) decir: 'Ningún profeta jamás recibió la profecía hasta que reconoció ante Dios cinco características: al-Bada' (la alteración del decreto divino), la voluntad divina (al-Mashi'ah), la postración (al-Suyud), la servidumbre (al-'Ubudiyyah) y la obediencia (al-Ta'ah).'",
-      "summary": "El Imam Ja'far al-Sadiq (AS) declara que todo profeta a lo largo de la historia debía reconocer ante Dios cinco realidades teológicas fundamentales como requisito previo para recibir la profecía. El más destacado es al-Bada' — doctrina distintiva de la teología chií sobre la soberanía absoluta de Dios para manifestar cambio en Su decreto — junto a la voluntad divina, la postración, la servidumbre y la obediencia.",
+      "text": "Escuché a Abu Abdullah (la paz sea con él) decir: 'Ningún profeta recibió jamás la profecía hasta que reconoció ante Dios cinco características: al-Bada' (la manifestación de un nuevo decreto divino), y la voluntad [divina] (al-Mashi'a), y la postración (al-Suyud), y la servidumbre (al-'Ubodiyya), y la obediencia (al-Ta'a).'",
+      "summary": "El Imam Ja'far al-Sadiq (AS), a través de su compañero Murazim ibn Hakim, declara que la profecía está universalmente condicionada al reconocimiento previo de cinco realidades divinas fundamentales. Al-Bada' —la doctrina chií sobre la manifestación de una nueva decisión divina— encabeza la lista, subrayando la soberanía absoluta e ilimitada de Dios sobre todas las cosas.",
       "key_terms": {
-        "الْبَدَاءِ": "al-Bada' — doctrina teológica chií de que Dios puede manifestar un cambio en Su decreto; no es ignorancia sino expresión de soberanía absoluta",
-        "الْمَشِيئَةِ": "al-Mashi'ah — la voluntad divina absoluta; nada ocurre fuera de ella",
-        "الْعُبُودِيَّةِ": "al-'Ubudiyyah — servidumbre total ante Dios",
-        "الطَّاعَةِ": "al-Ta'ah — obediencia a los mandatos de Dios"
+        "الْبَدَاءِ": "al-Bada': doctrina central del kalám chií; manifestación de una nueva decisión divina que afirma la voluntad soberana absoluta e ilimitada de Allah",
+        "الْمَشِيئَةِ": "al-Mashi'a: la voluntad divina; fundamento de toda creación, predestinación y decreto",
+        "الْعُبُودِيَّةِ": "al-'Ubodiyya: servidumbre total y sumisión adorante a Dios; conciencia de la dependencia ontológica de la criatura respecto al Creador",
+        "الطَّاعَةِ": "al-Ta'a: obediencia; cumplimiento activo y práctico de los mandatos de Dios como expresión de fe"
       },
-      "seo_question": "¿Cuáles son las cinco características que todo profeta debe reconocer antes de recibir la profecía según el Imam al-Sadiq (AS) en al-Kafi?"
+      "seo_question": "¿Cuáles son las cinco características que todo profeta debía reconocer ante Dios antes de recibir la profecía, según el Imam al-Sadiq (AS) en al-Kafi?"
     },
     "fr": {
-      "text": "J'ai entendu Abu Abdullah (AS) dire : « Aucun prophète n'a jamais reçu la prophétie avant d'avoir reconnu devant Dieu cinq caractéristiques : al-Badā' (le changement du décret divin), la volonté divine (al-Mashi'ah), la prosternation (al-Sujūd), la servitude (al-'Ubūdiyyah) et l'obéissance (al-Tā'ah). »",
-      "summary": "L'Imam Ja'far al-Sadiq (AS) déclare que tout prophète au fil de l'histoire était tenu de reconnaître devant Dieu cinq réalités théologiques fondamentales avant de recevoir la prophétie. Le plus saillant est al-Badā' — doctrine propre à la théologie chiite sur la souveraineté absolue de Dieu à manifester un changement dans Son décret — accompagné de la volonté divine, de la prosternation, de la servitude et de l'obéissance.",
+      "text": "J'entendis Abu Abdullah (paix sur lui) dire : 'Aucun prophète ne fut jamais gratifié de la prophétie sans qu'il ait reconnu envers Dieu cinq caractéristiques : al-Badâ' (la manifestation d'une nouvelle décision divine), et la Volonté [divine] (al-Machi'a), et la prosternation (as-Sujûd), et la servitude (al-'Ubûdiyya), et l'obéissance (at-Tâ'a).'",
+      "summary": "L'Imam Ja'far al-Sâdiq (AS), par l'intermédiaire de son compagnon Murâzim ibn Hakîm, déclare que la prophétie est universellement conditionnée à la reconnaissance préalable de cinq réalités divines fondamentales. Al-Badâ' — la doctrine chiite propre sur la manifestation d'une nouvelle décision divine — figure en tête de liste, soulignant la souveraineté absolue et illimitée de Dieu sur toutes choses.",
       "key_terms": {
-        "الْبَدَاءِ": "al-Badā' — doctrine chiite que Dieu peut manifester un changement dans Son décret; non par ignorance, mais expression de Sa souveraineté absolue",
-        "الْمَشِيئَةِ": "al-Mashi'ah — la volonté divine absolue; rien ne se produit en dehors d'elle",
-        "الْعُبُودِيَّةِ": "al-'Ubūdiyyah — servitude totale envers Dieu",
-        "الطَّاعَةِ": "al-Tā'ah — obéissance aux commandements divins"
+        "الْبَدَاءِ": "al-Badâ': doctrine centrale du kalâm chiite ; manifestation d'une nouvelle décision divine, confirmant la volonté souveraine absolue et illimitée d'Allah",
+        "الْمَشِيئَةِ": "al-Machi'a : la Volonté divine ; fondement de toute création, prédestination et décret",
+        "الْعُبُودِيَّةِ": "al-'Ubûdiyya : servitude totale et soumission adorante à Dieu ; conscience de la dépendance ontologique de la créature vis-à-vis du Créateur",
+        "الطَّاعَةِ": "at-Tâ'a : obéissance ; conformité active et pratique aux commandements de Dieu en tant qu'expression de la foi"
       },
-      "seo_question": "Quelles sont les cinq caractéristiques que tout prophète doit reconnaître avant de recevoir la prophétie selon l'Imam al-Sadiq (AS) ?"
+      "seo_question": "Quelles sont les cinq caractéristiques que tout prophète devait reconnaître devant Dieu avant de recevoir la prophétie, selon l'Imam al-Sâdiq (AS) dans al-Kâfî ?"
     },
     "de": {
-      "text": "Ich hörte Abu Abdullah (a.s.) sagen: „Kein Prophet hat je das Prophetentum erhalten, bis er Gott gegenüber fünf Eigenschaften bekannte: al-Badā' (die Änderung des göttlichen Beschlusses), den göttlichen Willen (al-Maschi'a), die Niederwerfung (as-Sudschūd), die Dienerschaft (al-'Ubūdiyya) und den Gehorsam (at-Tā'a)."",
-      "summary": "Imam Dscha'far al-Sadiq (a.s.) erklärt, dass jeder Prophet im Laufe der Geschichte verpflichtet war, Gott gegenüber fünf grundlegende theologische Realitäten zu bekennen, bevor er das Prophetentum empfing. Herausragend ist al-Badā' — eine charakteristische Lehre der schiitischen Theologie über Gottes absolute Souveränität, Seinen Beschluss zu verändern — neben göttlichem Willen, Niederwerfung, Dienerschaft und Gehorsam.",
+      "text": "Ich hörte Abu Abdullah (Friede sei auf ihm) sagen: 'Kein Prophet wurde je mit der Prophetschaft beschenkt, bis er vor Gott fünf Eigenschaften bekannte: al-Bada' (die Manifestation eines neuen göttlichen Beschlusses), und den [göttlichen] Willen (al-Mashi'a), und die Niederwerfung (as-Sujud), und die Dienerschaft (al-'Ubodiyya), und den Gehorsam (at-Ta'a).'",
+      "summary": "Imam Ja'far al-Sadiq (a.s.) erklärt durch seinen Gefährten Murazim ibn Hakim, dass das Prophetentum universell an das vorherige Bekenntnis zu fünf grundlegenden göttlichen Wahrheiten geknüpft ist. An erster Stelle steht al-Bada' — die spezifisch schiitische Lehre von der Manifestation eines neuen göttlichen Willens — was deren Zentralität als Bekenntnis zur absoluten und uneingeschränkten Souveränität Gottes unterstreicht.",
       "key_terms": {
-        "الْبَدَاءِ": "al-Badā' — schiitische Lehre, dass Gott eine Änderung in Seinem Beschluss manifestieren kann; nicht Unwissenheit, sondern Ausdruck absoluter Souveränität",
-        "الْمَشِيئَةِ": "al-Maschi'a — der absolute göttliche Wille; nichts geschieht außerhalb davon",
-        "الْعُبُودِيَّةِ": "al-'Ubūdiyya — vollständige Dienerschaft vor Gott",
-        "الطَّاعَةِ": "at-Tā'a — Gehorsam gegenüber Gottes Geboten"
+        "الْبَدَاءِ": "al-Bada': zentrales Dogma des schiitischen Kalâm; Manifestation eines neuen göttlichen Beschlusses, der Gottes absolute und uneingeschränkte Souveränität bestätigt",
+        "الْمَشِيئَةِ": "al-Mashi'a: der göttliche Wille; Grundlage aller Schöpfung, Vorherbestimmung und Dekrete",
+        "الْعُبُودِيَّةِ": "al-'Ubodiyya: vollständige Dienerschaft und anbetende Unterwerfung unter Gott; Bewusstsein der ontologischen Abhängigkeit des Geschöpfs vom Schöpfer",
+        "الطَّاعَةِ": "at-Ta'a: Gehorsam; aktive und praktische Befolgung der göttlichen Gebote als Ausdruck des Glaubens"
       },
-      "seo_question": "Welche fünf Eigenschaften muss laut Imam al-Sadiq (a.s.) in al-Kafi jeder Prophet anerkennen, bevor er das Prophetentum empfängt?"
+      "seo_question": "Welche fünf Eigenschaften musste jeder Prophet nach Imam al-Sadiq (a.s.) in al-Kafi vor Gott bekennen, bevor er das Prophetentum erlangte?"
     },
     "ru": {
-      "text": "Я слышал, как Абу Абдуллах (мир ему) говорил: «Ни один пророк никогда не получал пророчества, пока не признавал перед Аллахом пять качеств: аль-Бадā' (изменение Божьего решения), Воля (аль-Машийа), земной поклон (ас-Суджуд), рабство [пред Богом] (аль-'Убудийя) и послушание (ат-Та'а)».",
-      "summary": "Имам Джа'фар ас-Садик (мир ему) заявляет, что каждый пророк на протяжении всей истории был обязан признать пред Аллахом пять основополагающих теологических истин как предварительное условие получения пророчества. Наиболее выдающимся является аль-Бадā' — отличительная доктрина шиитской теологии об абсолютном суверенитете Аллаха — наряду с Волей, земным поклоном, рабством и послушанием.",
+      "text": "Я слышал, как Абу Абдулла (мир ему) говорил: «Ни один пророк никогда не удостаивался пророчества, пока не признавал перед Аллахом пять качеств: аль-Бада' (проявление нового Божественного решения), и [Божественную] волю (аль-Маши'а), и земной поклон (ас-Суджуд), и рабство/служение (аль-'Убудиййа), и послушание (ат-Та'а)».",
+      "summary": "Имам Джафар ас-Садик (мир ему) через своего сподвижника Муразима ибн Хакима заявляет, что пророчество универсально обусловлено предварительным признанием пяти основополагающих Божественных реальностей. Во главе списка стоит аль-Бада' — специфически шиитская доктрина о проявлении нового Божественного решения, подтверждающая абсолютный и неограниченный суверенитет Аллаха над всеми делами.",
       "key_terms": {
-        "الْبَدَاءِ": "аль-Бадā' — шиитская теологическая доктрина о том, что Аллах может явить изменение в Своём решении; не невежество, а выражение абсолютной власти",
-        "الْمَشِيئَةِ": "аль-Машийа — абсолютная Воля Аллаха; ничто не происходит вне её",
-        "الْعُبُودِيَّةِ": "аль-'Убудийя — полное рабство и покорность пред Аллахом",
-        "الطَّاعَةِ": "ат-Та'а — послушание велениям Аллаха"
+        "الْبَدَاءِ": "аль-Бада': центральная доктрина шиитского калама; проявление нового Божественного решения, утверждающее абсолютный и неограниченный суверенитет Аллаха",
+        "الْمَشِيئَةِ": "аль-Маши'а: Божественная воля; основа всего творения, предопределения и декретов",
+        "الْعُبُودِيَّةِ": "аль-'Убудиййа: полное рабство и поклоняющееся подчинение Богу; осознание онтологической зависимости твари от Творца",
+        "الطَّاعَةِ": "ат-Та'а: послушание; активное и практическое соблюдение Божественных повелений как выражение веры"
       },
-      "seo_question": "Какие пять качеств, согласно Имаму ас-Садику (мир ему) в аль-Кафи, должен признать каждый пророк до получения пророчества?"
+      "seo_question": "Какие пять качеств должен был признать перед Аллахом каждый пророк до обретения пророчества, согласно имаму ас-Садику (мир ему) в аль-Кафи?"
     },
     "zh": {
-      "text": "我听到阿布·阿卜杜拉（愿主赐平安于他）说："任何先知从未获得先知之职，直到他向真主承认五种特质：白达（真主更改定命）、神圣意志（麦什阿）、叩首（苏俱德）、奴仆性（乌布迪叶）和服从（塔阿）。"",
-      "summary": "伊玛目贾法尔·萨迪克（愿主赐平安于他）宣称，历史上每一位先知在接受先知职务之前，都必须向真主承认五项基本神学实质。其中最突出的是"白达"——什叶派独特的神学教义，确认真主对其定命拥有绝对主权——以及神圣意志、叩首、奴仆性和服从。",
+      "text": "我听到艾布阿卜杜拉（願主賜其平安）說：「没有任何先知曾获授先知职，除非他在真主面前承认五项特质：巴达（新神圣旨意之彰显）、神圣意志（玛西阿）、叩头礼（苏朱德）、奴仆性（乌布迪亚）以及服从（塔阿）。」",
+      "summary": "伊玛目贾尔法尔·萨迪格（願主賜其平安）通过其弟子穆拉齐姆·本·哈基姆宣告，先知职普遍地以承认五项根本神圣实在为前提。居首位的是"巴达"——什叶派神学特有的核心教义，指真主彰显新的旨意，彰显其对万事万物绝对而无限的主权意志。",
       "key_terms": {
-        "الْبَدَاءِ": "白达（巴达）——什叶派神学教义，认为真主可在其定命上显示变化；非出于无知，乃绝对主权之彰显",
-        "الْمَشِيئَةِ": "麦什阿——真主的绝对意志；万事皆在其中",
-        "الْعُبُودِيَّةِ": "乌布迪叶——对真主的完全服从与奴仆性",
-        "الطَّاعَةِ": "塔阿——对真主命令的服从"
+        "الْبَدَاءِ": "巴达（al-Bada'）：什叶派卡拉姆的核心教义；真主彰显新旨意，确认其绝对而无限的主权意志",
+        "الْمَشِيئَةِ": "玛西阿（al-Mashi'a）：神圣意志；一切创造、前定与法令之基础",
+        "الْعُبُودِيَّةِ": "乌布迪亚（al-'Ubodiyya）：完全的奴仆性与虔诚顺服；受造物对造物主本体依赖性的自觉",
+        "الطَّاعَةِ": "塔阿（al-Ta'a）：服从；作为信仰表达对真主命令的积极、实践性遵守"
       },
-      "seo_question": "根据伊玛目萨迪克（愿主赐平安于他）在《卡菲》中所述，每位先知在获得先知职务前必须承认哪五种特质？"
+      "seo_question": "根据伊玛目萨迪格（願主賜其平安）在《卡非》中的教导，每位先知在获授先知职之前须向真主承认哪五项特质？"
     }
   },
   "chunks": [
     {
       "chunk_type": "opening",
-      "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) يَقُولُ",
+      "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عَلَيْهِ السَّلَامُ ) يَقُولُ",
       "word_start": 0,
       "word_end": 7,
       "translations": {
-        "en": "I heard Abu Abdullah (AS) say:",
-        "ur": "میں نے ابو عبداللہ (علیہ السلام) کو فرماتے ہوئے سنا:",
-        "tr": "Ebu Abdullah'ı (a.s.) şöyle buyururken duydum:",
-        "fa": "شنیدم که ابو عبدالله (علیه السلام) می‌فرمود:",
-        "id": "Aku mendengar Abu Abdullah (AS) berkata:",
-        "bn": "আমি আবু আবদিল্লাহ (আ.স.)-কে বলতে শুনেছি:",
-        "es": "Escuché a Abu Abdullah (AS) decir:",
-        "fr": "J'ai entendu Abu Abdullah (AS) dire :",
-        "de": "Ich hörte Abu Abdullah (a.s.) sagen:",
-        "ru": "Я слышал, как Абу Абдуллах (мир ему) говорил:",
-        "zh": "我听到阿布·阿卜杜拉（愿主赐平安于他）说："
+        "en": "I heard Abu Abdullah (peace be upon him) saying:",
+        "ur": "میں نے ابو عبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا:",
+        "tr": "Ebû Abdullah'ı (aleyhisselam) şöyle derken duydum:",
+        "fa": "شنیدم که ابوعبداللّه (علیه السلام) می‌فرمود:",
+        "id": "Aku mendengar Abu Abdullah (salam sejahtera atasnya) berkata:",
+        "bn": "আমি আবু আব্দুল্লাহ (আলাইহিস সালাম)-কে বলতে শুনেছি:",
+        "es": "Escuché a Abu Abdullah (la paz sea con él) decir:",
+        "fr": "J'entendis Abu Abdullah (paix sur lui) dire :",
+        "de": "Ich hörte Abu Abdullah (Friede sei auf ihm) sagen:",
+        "ru": "Я слышал, как Абу Абдулла (мир ему) говорил:",
+        "zh": "我听到艾布阿卜杜拉（願主賜其平安）說："
       }
     },
     {
@@ -258,60 +663,55 @@
       "word_start": 7,
       "word_end": 25,
       "translations": {
-        "en": "'No prophet was ever granted prophethood until he acknowledged to God five characteristics: al-Bada', the divine Will, Prostration, Servitude, and Obedience.'",
-        "ur": "'کوئی بھی نبی کبھی نبوت نہیں پایا یہاں تک کہ وہ اللہ کے سامنے پانچ خصلتوں کا اقرار کرے: بداء، مشیت، سجدہ، عبودیت اور اطاعت۔'",
-        "tr": "'Hiçbir peygambere, Allah'a beş özelliği ikrar etmeden peygamberlik verilmemiştir: el-Bedā', ilahi irade, secde, kulluk ve itaat.'",
-        "fa": "'هیچ پیامبری هرگز به نبوت مبعوث نشد مگر اینکه به پنج خصلت نزد خداوند اقرار کرد: بداء، مشیت، سجود، عبودیت و اطاعت.'",
-        "id": "'Tidak ada seorang pun nabi yang pernah diangkat menjadi nabi hingga ia mengakui kepada Allah lima karakteristik: al-Bada', kehendak ilahi, sujud, penghambaan, dan ketaatan.'",
-        "bn": "'কোনো নবী কখনো নবুওয়াত প্রাপ্ত হননি যতক্ষণ না তিনি আল্লাহর কাছে পাঁচটি বিষয় স্বীকার করেন: আল-বাদা', মাশি'আ, সুজুদ, উবুদিয়্যাহ এবং তা'আহ।'",
-        "es": "'Ningún profeta jamás recibió la profecía hasta que reconoció ante Dios cinco características: al-Bada', la voluntad divina, la postración, la servidumbre y la obediencia.'",
-        "fr": "« Aucun prophète n'a jamais reçu la prophétie avant d'avoir reconnu devant Dieu cinq caractéristiques : al-Badā', la volonté divine, la prosternation, la servitude et l'obéissance. »",
-        "de": "„Kein Prophet hat je das Prophetentum erhalten, bis er Gott gegenüber fünf Eigenschaften bekannte: al-Badā', den göttlichen Willen, die Niederwerfung, die Dienerschaft und den Gehorsam."",
-        "ru": "«Ни один пророк никогда не получал пророчества, пока не признавал перед Аллахом пять качеств: аль-Бадā', Воля, земной поклон, рабство и послушание».",
-        "zh": ""任何先知从未获得先知之职，直到他向真主承认五种特质：白达、神圣意志、叩首、奴仆性和服从。""
+        "en": "'No prophet was ever granted prophethood until he acknowledged to God five characteristics: al-Bada' (the Manifestation of a New Divine Decree), and the [Divine] Will (al-Mashi'a), and prostration (al-Sujud), and servitude (al-'Ubodiyya), and obedience (al-Ta'a).'",
+        "ur": "'کسی بھی نبی کو ہرگز نبوت نہیں دی گئی جب تک کہ اس نے اللہ کے سامنے پانچ خصلتوں کا اقرار نہ کیا: بداء کا، مشیئت کا، سجود کا، عبودیت کا اور اطاعت کا۔'",
+        "tr": "'Hiçbir peygamber, Allah'a beş özelliği ikrar etmeden peygamberliğe nail olmamıştır: el-Bedâ' (ilahi kararın yeni tecellisi), irade (el-Meşîet), secde (es-Sücûd), kulluk (el-Ubûdiyyet) ve itaat (et-Tâat).'",
+        "fa": "«هیچ پیامبری هرگز به مقام نبوت نرسید مگر آنکه پنج خصلت را برای خدا اقرار کرد: بداء، مشیئت، سجود، عبودیت و اطاعت.»",
+        "id": "'Tidak ada seorang nabi pun yang pernah diangkat menjadi nabi kecuali ia mengakui kepada Allah lima karakteristik: al-Bada' (manifestasi keputusan ilahi baru), kehendak [ilahi] (al-Mashi'a), sujud (al-Sujud), penghambaan diri (al-'Ubodiyya), dan ketaatan (al-Ta'a).'",
+        "bn": "'কোনো নবী কখনো নবুওয়াত প্রাপ্ত হননি যতক্ষণ না তিনি আল্লাহর কাছে পাঁচটি বৈশিষ্ট্য স্বীকার করেন: আল-বাদা' (নতুন ঐশী সিদ্ধান্তের প্রকাশ), ঐশী ইচ্ছা (আল-মাশিআ), সাজদাহ (আল-সুজুদ), দাসত্ব (আল-'উবুদিয়্যা) এবং আনুগত্য (আল-তা'আ)।'",
+        "es": "'Ningún profeta recibió jamás la profecía hasta que reconoció ante Dios cinco características: al-Bada' (la manifestación de un nuevo decreto divino), y la voluntad [divina] (al-Mashi'a), y la postración (al-Suyud), y la servidumbre (al-'Ubodiyya), y la obediencia (al-Ta'a).'",
+        "fr": "'Aucun prophète ne fut jamais gratifié de la prophétie sans qu'il ait reconnu envers Dieu cinq caractéristiques : al-Badâ' (la manifestation d'une nouvelle décision divine), et la Volonté [divine] (al-Machi'a), et la prosternation (as-Sujûd), et la servitude (al-'Ubûdiyya), et l'obéissance (at-Tâ'a).'",
+        "de": "'Kein Prophet wurde je mit der Prophetschaft beschenkt, bis er vor Gott fünf Eigenschaften bekannte: al-Bada' (die Manifestation eines neuen göttlichen Beschlusses), und den [göttlichen] Willen (al-Mashi'a), und die Niederwerfung (as-Sujud), und die Dienerschaft (al-'Ubodiyya), und den Gehorsam (at-Ta'a).'",
+        "ru": "«Ни один пророк никогда не удостаивался пророчества, пока не признавал перед Аллахом пять качеств: аль-Бада' (проявление нового Божественного решения), и [Божественную] волю (аль-Маши'а), и земной поклон (ас-Суджуд), и рабство/служение (аль-'Убудиййа), и послушание (ат-Та'а)».",
+        "zh": "「没有任何先知曾获授先知职，除非他在真主面前承认五项特质：巴达（新神圣旨意之彰显）、神圣意志（玛西阿）、叩头礼（苏朱德）、奴仆性（乌布迪亚）以及服从（塔阿）。」"
       }
     }
   ],
-  "topics": [
-    "prophethood",
-    "divine_decree",
-    "divine_attributes",
-    "imamate"
-  ],
+  "topics": ["prophethood", "divine_decree", "tawhid", "divine_attributes"],
   "key_phrases": [
     {
-      "phrase_ar": "أَبَا عَبْدِ اللَّهِ",
-      "phrase_en": "Abu Abdullah — honorific title of Imam Ja'far al-Sadiq (AS)",
+      "phrase_ar": "عَلَيْهِ السَّلَامُ",
+      "phrase_en": "Peace be upon him (AS)",
       "category": "prophetic_formula"
     },
     {
-      "phrase_ar": "عَلَيْهِ السَّلَامُ",
-      "phrase_en": "Peace be upon him",
-      "category": "prophetic_formula"
+      "phrase_ar": "بِخَمْسِ خِصَالٍ",
+      "phrase_en": "with five characteristics/traits",
+      "category": "theological_concept"
     },
     {
       "phrase_ar": "مَا تَنَبَّأَ نَبِيٌّ قَطُّ",
       "phrase_en": "No prophet was ever granted prophethood",
-      "category": "theological_concept"
+      "category": "well_known_saying"
     },
     {
-      "phrase_ar": "بِخَمْسِ خِصَالٍ",
-      "phrase_en": "with five characteristics",
-      "category": "well_known_saying"
+      "phrase_ar": "بِالْبَدَاءِ وَالْمَشِيئَةِ",
+      "phrase_en": "al-Bada' and al-Mashi'a (the paired divine decree-change and divine will)",
+      "category": "theological_concept"
     }
   ],
   "similar_content_hints": [
     {
-      "description": "Other hadiths in the chapter on al-Bada' in al-Kafi where the Imams (AS) emphasize al-Bada' as a major pillar of Shia theology and distinguish it from any attribution of ignorance to God; some narrations state 'God has not been worshipped by anything greater than al-Bada'.'",
-      "theme": "doctrine_of_bada"
+      "description": "Other hadiths in al-Kafi's chapter on al-Bada' narrated from Imam al-Sadiq (AS) or Imam al-Baqir (AS) explaining that God's Bada' is an acknowledgment of His unrestrained power and that those who deny it diminish God's greatness.",
+      "theme": "bada_divine_decree"
     },
     {
-      "description": "Hadiths in which Imam al-Sadiq (AS) or other Imams (AS) enumerate foundational beliefs required of the prophets or the faithful, pairing divine will (mashi'ah) with divine decree (qadar) and establishing them as non-negotiable creedal commitments.",
-      "theme": "prerequisites_of_prophethood"
+      "description": "Hadiths listing the conditions or qualities required of prophets before their commissioning, particularly relating to their acknowledgment of divine sovereignty, tawhid, and submission — found in Usul al-Kafi and Bihar al-Anwar.",
+      "theme": "conditions_of_prophethood"
     },
     {
-      "description": "Hadiths from the Usul al-Kafi on the primacy of God's will and the relationship between divine will, divine knowledge, and divine decree, establishing that nothing occurs outside the divine will and that acknowledging this is obligatory for every prophet and believer.",
-      "theme": "divine_will_and_decree"
+      "description": "Hadiths from the Imams equating 'ubodiyya (servitude) as the summit of human virtue and the station of the prophets and Imams, and distinguishing it from mere ta'a (obedience).",
+      "theme": "servitude_and_prophethood"
     }
   ]
 }
@@ -319,13 +719,13 @@
 
 ---
 
-**Annotation notes:**
+### Analytical Notes
 
-| Field | Decision rationale |
-|---|---|
-| **diacritics_status** | `completed` — the parenthetical honorific *(عليه السلام)* lacked tashkeel in the source; all other words were already fully diacritized. |
-| **content_type** | `creedal` — the hadith formulates a doctrinal prerequisite for prophethood, structurally parallel to a statement of creedal requirements rather than an ethical exhortation or legal ruling. |
-| **al-Bada' (الْبَدَاءِ)** | Preserved as a technical Islamic term. It is a distinctively Shia theological concept (God's manifest alteration of decree) with no single-word equivalent in any target language; bracketed explanations are provided in all translations. |
-| **word_analysis index 16 (بِالْبَدَاءِ)** | Tagged `N` because the semantic nucleus is the noun *al-bada'*; the prefixed *bā'* preposition is a grammatical clitic subsumed into the orthographic unit. Same logic applied to بِخَمْسِ (index 14). |
-| **Chunk boundary** | Split at word 7 (*مَا*): words 0–6 are the narrator's attribution formula (*opening*); words 7–24 are the Imam's doctrinal pronouncement (*body*). |
-| **related_quran 13:39** | *يَمْحُو اللَّهُ مَا يَشَاءُ وَيُثْبِتُ* is the classical Quranic proof-text cited by Shia scholars to support al-Bada'; relation is thematic (not explicitly cited in the matn). |
+**On al-Bada' (الْبَدَاءِ) — The Leading Term:**
+Al-Bada' occupies first position deliberately. In Shia kalam, it is the doctrine that God may manifest (*yuẓhiru*) a new decision — e.g., extending a lifespan through charity, or averting a calamity through repentance — in a way that *appears* to human observers as a change, while affirming that God's eternal knowledge is immutable. The Imams repeatedly insisted on this doctrine as a mark of distinguishing genuine tawhid from a theology that constrains God's will. That *every prophet* must first acknowledge it confirms its creedal weight.
+
+**Diacritics Note:**
+The matn was substantially pre-diacritized; the sole completion required was the honorific `عليه السلام → عَلَيْهِ السَّلَامُ`.
+
+**Chain Weakness:**
+The presence of **بَعْضِ أَصْحَابِنَا** (an anonymous link) at position 3 introduces a break in verifiability per classical rijal methodology. Al-Barqi's overall reliability is uncontested, but this link renders the isnad *munqati'* (interrupted) by strict standards — a common pattern in al-Kafi that Shia scholars address through corroborating chains.

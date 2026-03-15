@@ -1,0 +1,38 @@
+{
+  "started_at": "2026-03-08T16:39:38.498861+00:00",
+  "completed_at": "2026-03-08T18:41:56.239628+00:00",
+  "elapsed_minutes": 122.3,
+  "batches": 1,
+  "total_new_completions": 43,
+  "pipeline_cost_usd": 42.2621,
+  "improvement_cost_usd": 1.8562,
+  "total_cost_usd": 44.1183,
+  "batch_log": [
+    {
+      "batch_num": 1,
+      "returncode": 0,
+      "elapsed_s": 6912.0
+    }
+  ],
+  "improvement_log": [
+    {
+      "batch_num": 1,
+      "status": "ok",
+      "response": "",
+      "cost_usd": 1.8562132500000001,
+      "turns": 31,
+      "elapsed_s": 376.8
+    }
+  ],
+  "config": {
+    "total_verses": 20,
+    "batch_size": 20,
+    "workers": 20,
+    "model": "sonnet",
+    "fix_model": "sonnet",
+    "improve_model": "sonnet",
+    "max_words": null,
+    "book": "al-istibsar",
+    "volume": null
+  }
+}

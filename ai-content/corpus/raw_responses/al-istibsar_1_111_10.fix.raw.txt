@@ -1,0 +1,685 @@
+Analyzing the flagged issues:
+
+- **Issues 1–16 (LOW):** All flagged as "likely correct for proper nouns/terms." Every flagged word is either a proper name (جعفر، الحسن، علی، فضال، عمار، عمار، عبد) or a shared term (بن، اهل) that legitimately carries over into Urdu and Farsi with the same Arabic script. No translation changes are warranted.
+- **Issue 17 (HIGH):** `word_analysis[19].word` is `"عَلَيْهِ"` but the original Arabic text has the scribal abbreviation `"ع"` (standing for عليه السلام). This must be corrected to match the source.
+
+Only `word_analysis[19].word` requires a change. Below is the corrected full `word_analysis` array:
+
+```json
+{
+  "word_analysis": [
+    {
+      "word": "عَنْهُ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from him",
+        "ur": "اس سے",
+        "tr": "ondan",
+        "fa": "از او",
+        "id": "darinya",
+        "bn": "তার থেকে",
+        "es": "de él",
+        "fr": "de lui",
+        "de": "von ihm",
+        "ru": "от него",
+        "zh": "从他"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "أَبِي",
+      "pos": "N",
+      "translation": {
+        "en": "Abu (father of)",
+        "ur": "ابو",
+        "tr": "Ebu",
+        "fa": "ابو",
+        "id": "Abu",
+        "bn": "আবু",
+        "es": "Abú",
+        "fr": "Abou",
+        "de": "Abu",
+        "ru": "Абу",
+        "zh": "艾布"
+      }
+    },
+    {
+      "word": "جَعْفَرٍ",
+      "pos": "N",
+      "translation": {
+        "en": "Ja'far",
+        "ur": "جعفر",
+        "tr": "Ca'fer",
+        "fa": "جعفر",
+        "id": "Ja'far",
+        "bn": "জাফর",
+        "es": "Ja'far",
+        "fr": "Ja'far",
+        "de": "Ja'far",
+        "ru": "Джафар",
+        "zh": "贾法尔"
+      }
+    },
+    {
+      "word": "عَنِ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "الْحَسَنِ",
+      "pos": "N",
+      "translation": {
+        "en": "al-Hasan",
+        "ur": "الحسن",
+        "tr": "el-Hasan",
+        "fa": "الحسن",
+        "id": "al-Hasan",
+        "bn": "আল-হাসান",
+        "es": "al-Hasan",
+        "fr": "al-Hasan",
+        "de": "al-Hasan",
+        "ru": "аль-Хасан",
+        "zh": "哈桑"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "ibn",
+        "fa": "ابن",
+        "id": "ibn",
+        "bn": "ইবনে",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "ибн",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "عَلِيِّ",
+      "pos": "N",
+      "translation": {
+        "en": "Ali",
+        "ur": "علی",
+        "tr": "Ali",
+        "fa": "علی",
+        "id": "Ali",
+        "bn": "আলী",
+        "es": "Alí",
+        "fr": "Ali",
+        "de": "Ali",
+        "ru": "Али",
+        "zh": "阿里"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "ibn",
+        "fa": "ابن",
+        "id": "ibn",
+        "bn": "ইবনে",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "ибн",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "فَضَّالٍ",
+      "pos": "N",
+      "translation": {
+        "en": "Faddal",
+        "ur": "فضال",
+        "tr": "Faddal",
+        "fa": "فضال",
+        "id": "Faddal",
+        "bn": "ফাদ্দাল",
+        "es": "Faddal",
+        "fr": "Faddal",
+        "de": "Faddal",
+        "ru": "Фаддал",
+        "zh": "法达勒"
+      }
+    },
+    {
+      "word": "عَنْ",
+      "pos": "PREP",
+      "translation": {
+        "en": "from",
+        "ur": "سے",
+        "tr": "-den",
+        "fa": "از",
+        "id": "dari",
+        "bn": "থেকে",
+        "es": "de",
+        "fr": "de",
+        "de": "von",
+        "ru": "от",
+        "zh": "从"
+      }
+    },
+    {
+      "word": "مُعَاوِيَةَ",
+      "pos": "N",
+      "translation": {
+        "en": "Mu'awiya",
+        "ur": "معاویہ",
+        "tr": "Muaviye",
+        "fa": "معاویه",
+        "id": "Mu'awiyah",
+        "bn": "মুআবিয়া",
+        "es": "Muawiya",
+        "fr": "Muawiya",
+        "de": "Mu'awiya",
+        "ru": "Муавия",
+        "zh": "穆阿维叶"
+      }
+    },
+    {
+      "word": "بْنِ",
+      "pos": "N",
+      "translation": {
+        "en": "son of",
+        "ur": "بن",
+        "tr": "ibn",
+        "fa": "ابن",
+        "id": "ibn",
+        "bn": "ইবনে",
+        "es": "hijo de",
+        "fr": "fils de",
+        "de": "Sohn von",
+        "ru": "ибн",
+        "zh": "之子"
+      }
+    },
+    {
+      "word": "عَمَّارٍ",
+      "pos": "N",
+      "translation": {
+        "en": "Ammar",
+        "ur": "عمار",
+        "tr": "Ammar",
+        "fa": "عمار",
+        "id": "Ammar",
+        "bn": "আম্মার",
+        "es": "Ammar",
+        "fr": "Ammar",
+        "de": "Ammar",
+        "ru": "Аммар",
+        "zh": "阿玛尔"
+      }
+    },
+    {
+      "word": "قَالَ",
+      "pos": "V",
+      "translation": {
+        "en": "he said",
+        "ur": "اس نے کہا",
+        "tr": "dedi",
+        "fa": "گفت",
+        "id": "berkata",
+        "bn": "বললেন",
+        "es": "dijo",
+        "fr": "dit",
+        "de": "sagte",
+        "ru": "сказал",
+        "zh": "他说"
+      }
+    },
+    {
+      "word": "قُلْتُ",
+      "pos": "V",
+      "translation": {
+        "en": "I said",
+        "ur": "میں نے کہا",
+        "tr": "dedim",
+        "fa": "گفتم",
+        "id": "aku berkata",
+        "bn": "আমি বললাম",
+        "es": "dije",
+        "fr": "j'ai dit",
+        "de": "ich sagte",
+        "ru": "я сказал",
+        "zh": "我说"
+      }
+    },
+    {
+      "word": "لِأَبِي",
+      "pos": "PREP",
+      "translation": {
+        "en": "to Abu",
+        "ur": "ابو کے لیے",
+        "tr": "Ebu'ya",
+        "fa": "به ابو",
+        "id": "kepada Abu",
+        "bn": "আবুকে",
+        "es": "a Abú",
+        "fr": "à Abou",
+        "de": "zu Abu",
+        "ru": "к Абу",
+        "zh": "向艾布"
+      }
+    },
+    {
+      "word": "عَبْدِ",
+      "pos": "N",
+      "translation": {
+        "en": "Abd (servant of)",
+        "ur": "عبد",
+        "tr": "Abd",
+        "fa": "عبد",
+        "id": "Abd",
+        "bn": "আবদ",
+        "es": "Abd",
+        "fr": "Abd",
+        "de": "Abd",
+        "ru": "Абд",
+        "zh": "阿卜杜"
+      }
+    },
+    {
+      "word": "اللَّهِ",
+      "pos": "N",
+      "translation": {
+        "en": "God",
+        "ur": "اللہ",
+        "tr": "Allah",
+        "fa": "خدا",
+        "id": "Allah",
+        "bn": "আল্লাহ",
+        "es": "Dios",
+        "fr": "Dieu",
+        "de": "Gottes",
+        "ru": "Аллаха",
+        "zh": "真主"
+      }
+    },
+    {
+      "word": "ع",
+      "pos": "PREP",
+      "translation": {
+        "en": "upon him",
+        "ur": "اس پر",
+        "tr": "ona",
+        "fa": "بر او",
+        "id": "atasnya",
+        "bn": "তাঁর উপর",
+        "es": "sobre él",
+        "fr": "sur lui",
+        "de": "auf ihm",
+        "ru": "над ним",
+        "zh": "在他"
+      }
+    },
+    {
+      "word": "السَّلَامُ",
+      "pos": "N",
+      "translation": {
+        "en": "peace",
+        "ur": "سلام",
+        "tr": "selam",
+        "fa": "سلام",
+        "id": "salam",
+        "bn": "সালাম",
+        "es": "la paz",
+        "fr": "la paix",
+        "de": "der Friede",
+        "ru": "мир",
+        "zh": "和平"
+      }
+    },
+    {
+      "word": "فِي",
+      "pos": "PREP",
+      "translation": {
+        "en": "at (what distance)",
+        "ur": "میں/پر",
+        "tr": "kaçta",
+        "fa": "در",
+        "id": "pada",
+        "bn": "এ",
+        "es": "en",
+        "fr": "à",
+        "de": "bei",
+        "ru": "при",
+        "zh": "在"
+      }
+    },
+    {
+      "word": "كَمْ",
+      "pos": "INTERR",
+      "translation": {
+        "en": "how much/many",
+        "ur": "کتنے",
+        "tr": "kaç",
+        "fa": "چقدر",
+        "id": "berapa",
+        "bn": "কত",
+        "es": "cuánto",
+        "fr": "combien",
+        "de": "wie viel",
+        "ru": "сколько",
+        "zh": "多少"
+      }
+    },
+    {
+      "word": "أُقَصِّرُ",
+      "pos": "V",
+      "translation": {
+        "en": "do I shorten",
+        "ur": "میں قصر کروں",
+        "tr": "kısaltırım",
+        "fa": "کوتاه کنم",
+        "id": "aku mempersingkat",
+        "bn": "আমি সংক্ষিপ্ত করি",
+        "es": "acorto",
+        "fr": "je raccourcis",
+        "de": "kürze ich",
+        "ru": "я сокращаю",
+        "zh": "我缩短"
+      }
+    },
+    {
+      "word": "الصَّلَاةَ",
+      "pos": "N",
+      "translation": {
+        "en": "the salat (prayer)",
+        "ur": "نماز",
+        "tr": "namazı",
+        "fa": "نماز",
+        "id": "salat",
+        "bn": "সালাত",
+        "es": "la salat",
+        "fr": "la salat",
+        "de": "das Gebet",
+        "ru": "молитву",
+        "zh": "礼拜"
+      }
+    },
+    {
+      "word": "فَقَالَ",
+      "pos": "V",
+      "translation": {
+        "en": "then he said",
+        "ur": "تو اس نے کہا",
+        "tr": "dedi ki",
+        "fa": "پس گفت",
+        "id": "maka dia berkata",
+        "bn": "তখন তিনি বললেন",
+        "es": "entonces dijo",
+        "fr": "alors il dit",
+        "de": "dann sagte er",
+        "ru": "тогда он сказал",
+        "zh": "他答道"
+      }
+    },
+    {
+      "word": "فِي",
+      "pos": "PREP",
+      "translation": {
+        "en": "at/for",
+        "ur": "پر",
+        "tr": "-de",
+        "fa": "در",
+        "id": "pada",
+        "bn": "এ",
+        "es": "en",
+        "fr": "en",
+        "de": "bei",
+        "ru": "при",
+        "zh": "在"
+      }
+    },
+    {
+      "word": "بَرِيدٍ",
+      "pos": "N",
+      "translation": {
+        "en": "a barid (unit of distance ~22 km)",
+        "ur": "ایک برید (مسافت کی اکائی، تقریباً ۲۲ کلومیٹر)",
+        "tr": "bir berid (yaklaşık 22 km'lik mesafe birimi)",
+        "fa": "یک برید (واحد مسافت حدود ۲۲ کیلومتر)",
+        "id": "satu barid (satuan jarak ~22 km)",
+        "bn": "এক বারিদ (প্রায় ২২ কি.মি. দূরত্বের একক)",
+        "es": "un barid (unidad de distancia ~22 km)",
+        "fr": "un barid (unité de distance ~22 km)",
+        "de": "einer Barid (Entfernungsmaß ~22 km)",
+        "ru": "одного барида (единица расстояния ~22 км)",
+        "zh": "一巴里德（距离单位约22公里）"
+      }
+    },
+    {
+      "word": "أَلَا",
+      "pos": "PART",
+      "translation": {
+        "en": "do you not (see)",
+        "ur": "کیا نہیں دیکھتے",
+        "tr": "görmüyor musun",
+        "fa": "آیا نمی‌بینی",
+        "id": "tidakkah",
+        "bn": "তুমি কি দেখছ না",
+        "es": "¿acaso no",
+        "fr": "ne vois-tu pas",
+        "de": "siehst du nicht",
+        "ru": "разве ты не видишь",
+        "zh": "难道你不看"
+      }
+    },
+    {
+      "word": "تَرَى",
+      "pos": "V",
+      "translation": {
+        "en": "you see",
+        "ur": "دیکھتے ہو",
+        "tr": "görüyorsun",
+        "fa": "می‌بینی",
+        "id": "kamu lihat",
+        "bn": "তুমি দেখছ",
+        "es": "ves",
+        "fr": "tu vois",
+        "de": "siehst",
+        "ru": "видишь",
+        "zh": "你看到"
+      }
+    },
+    {
+      "word": "أَهْلَ",
+      "pos": "N",
+      "translation": {
+        "en": "people of / inhabitants of",
+        "ur": "اہل",
+        "tr": "halkını",
+        "fa": "اهل",
+        "id": "penduduk",
+        "bn": "অধিবাসীদের",
+        "es": "gente de",
+        "fr": "habitants de",
+        "de": "Leute von",
+        "ru": "жителей",
+        "zh": "居民"
+      }
+    },
+    {
+      "word": "مَكَّةَ",
+      "pos": "N",
+      "translation": {
+        "en": "Mecca",
+        "ur": "مکہ",
+        "tr": "Mekke",
+        "fa": "مکه",
+        "id": "Mekah",
+        "bn": "মক্কা",
+        "es": "La Meca",
+        "fr": "La Mecque",
+        "de": "Mekka",
+        "ru": "Мекки",
+        "zh": "麦加"
+      }
+    },
+    {
+      "word": "إِذَا",
+      "pos": "COND",
+      "translation": {
+        "en": "when",
+        "ur": "جب",
+        "tr": "ne zaman",
+        "fa": "هنگامی که",
+        "id": "ketika",
+        "bn": "যখন",
+        "es": "cuando",
+        "fr": "quand",
+        "de": "wenn",
+        "ru": "когда",
+        "zh": "当"
+      }
+    },
+    {
+      "word": "خَرَجُوا",
+      "pos": "V",
+      "translation": {
+        "en": "they went out",
+        "ur": "وہ نکلے",
+        "tr": "çıktıklarında",
+        "fa": "خارج شدند",
+        "id": "mereka keluar",
+        "bn": "তারা বের হল",
+        "es": "salieron",
+        "fr": "ils sortirent",
+        "de": "sie hinauszogen",
+        "ru": "они вышли",
+        "zh": "他们出发"
+      }
+    },
+    {
+      "word": "إِلَى",
+      "pos": "PREP",
+      "translation": {
+        "en": "to/toward",
+        "ur": "کی طرف",
+        "tr": "-ye",
+        "fa": "به سوی",
+        "id": "ke",
+        "bn": "দিকে",
+        "es": "hacia",
+        "fr": "vers",
+        "de": "nach",
+        "ru": "к",
+        "zh": "向"
+      }
+    },
+    {
+      "word": "عَرَفَةَ",
+      "pos": "N",
+      "translation": {
+        "en": "Arafa (the plain near Mecca)",
+        "ur": "عرفہ",
+        "tr": "Arafat",
+        "fa": "عرفه",
+        "id": "Arafah",
+        "bn": "আরাফা",
+        "es": "Arafat",
+        "fr": "Arafat",
+        "de": "Arafat",
+        "ru": "Арафа",
+        "zh": "阿拉法特"
+      }
+    },
+    {
+      "word": "كَانَ",
+      "pos": "V",
+      "translation": {
+        "en": "was / it was (obligatory)",
+        "ur": "تھا (واجب)",
+        "tr": "vacip olurdu",
+        "fa": "واجب بود",
+        "id": "adalah (wajib)",
+        "bn": "ছিল (ওয়াজিব)",
+        "es": "era (obligatorio)",
+        "fr": "était (obligatoire)",
+        "de": "war (verpflichtend)",
+        "ru": "было (обязательным)",
+        "zh": "是（义务的）"
+      }
+    },
+    {
+      "word": "عَلَيْهِمُ",
+      "pos": "PREP",
+      "translation": {
+        "en": "upon them",
+        "ur": "ان پر",
+        "tr": "onlara (vacip)",
+        "fa": "بر آنها",
+        "id": "atas mereka",
+        "bn": "তাদের উপর",
+        "es": "sobre ellos",
+        "fr": "sur eux",
+        "de": "auf ihnen",
+        "ru": "на них",
+        "zh": "在他们"
+      }
+    },
+    {
+      "word": "التَّقْصِيرُ",
+      "pos": "N",
+      "translation": {
+        "en": "the shortening of prayer (qasr)",
+        "ur": "نماز قصر / تقصیر",
+        "tr": "namazı kısaltma (kasr)",
+        "fa": "تقصیر (نماز قصر)",
+        "id": "pemendekan shalat (qasr)",
+        "bn": "নামাজ সংক্ষিপ্ত করা (তাকসীর)",
+        "es": "el acortamiento de la oración (qasr)",
+        "fr": "l'abrègement de la prière (qasr)",
+        "de": "das Verkürzen des Gebets (Qasr)",
+        "ru": "сокращение молитвы (таксир/каср)",
+        "zh": "礼拜缩短（格斯尔）"
+      }
+    }
+  ]
+}
+```
+
+---
+
+**Summary of changes made:**
+
+| # | Issue | Action |
+|---|-------|--------|
+| 1–16 | LOW arabic_echo | **No change required.** All flagged words are proper names (جعفر، الحسن، علی، فضال، عمار) or established shared terms (بن، عبد، اهل) that are legitimately written identically in Urdu and Farsi. These are correct as-is. |
+| 17 | HIGH word_text_mismatch | **Fixed:** `word_analysis[19].word` changed from `"عَلَيْهِ"` → `"ع"`, restoring the scribal abbreviation (رمز) for عليه السلام as it appears verbatim in the original Arabic source text. |

@@ -1,0 +1,47 @@
+Looking at the flagged issues, I need to:
+
+1. **Issues 1 & 2 (HIGH):** Expand `translations.ur.text` and `translations.fa.text` — both have length ratios below the 0.4 minimum, indicating they read more like summaries than full faithful translations.
+2. **Issues 3–43 (LOW, arabic_echo):** All flagged words are proper names (جَعْفَرُ, مُحَمَّدٍ, يَعْقُوبَ, الْحُسَيْنِ, etc.) or established Islamic theological terms (تَعَالَى, السَّلَامُ) legitimately shared between Arabic, Urdu, and Farsi. No change needed — verified correct.
+3. **Issue 44 (MEDIUM):** The current `translations.en.text` already equals the exact concatenation of chunk 0 + chunk 1 English translations — verified consistent. No change needed.
+4. **Issue 45 (LOW):** After careful tokenisation of the original Arabic, I count exactly 59 space-delimited Arabic words. The system's count of 60 appears to be caused by the in-text footnote marker `(1)` being tokenised as a word token. Adding a non-linguistic entry would corrupt the word-analysis semantics; the 59-entry array is philologically accurate. No change applied.
+
+**Applying fixes for Issues 1 & 2 only:**
+
+```json
+{
+  "translations": {
+    "ur": {
+      "summary": "امام صادق علیہ السلام امام علی علیہ السلام کا یہ فقہی موقف نقل فرماتے ہیں کہ مذی (جنسی تحریک کے وقت خارج ہونے والا پانی) نہ وضو کو توڑتا ہے اور نہ اس سے آلودہ کپڑا دھونا واجب ہوتا ہے — استثناء صرف اس صورت کا ہے جب جنابت ہو اور غسل واجب ہو۔ یہ شیعہ فقہ کا مشہور موقف ہے۔",
+      "key_terms": {
+        "الْمَذْيِ": "مذی: جنسی تحریک کے وقت خارج ہونے والا پانی، منی سے مختلف؛ اس کا شرعی حکم مذاہب میں مختلف ہے",
+        "الْمَاءِ الْأَكْبَرِ": "ماء اکبر: جنابت کی حالت جس میں غسل واجب ہو جاتا ہے",
+        "وُضُوءًا": "وضو: نماز کے لیے طہارتِ صغریٰ"
+      },
+      "seo_question": "شیعہ فقہ میں مذی کا کیا حکم ہے؟ کیا اس سے وضو ٹوٹتا ہے اور کپڑا دھونا واجب ہوتا ہے؟",
+      "text": "اور شیخ (اللہ تعالیٰ انہیں توفیق عطا فرمائے) نے مجھے خبر دی، انہوں نے کہا: ابو القاسم جعفر بن محمد نے مجھے خبر دی، محمد بن یعقوب سے، الحسین بن محمد سے، معلی بن محمد سے، الوشاء سے، ابان سے، عنبسہ سے — جنہوں نے کہا: میں نے ابو عبداللہ علیہ السلام کو یہ فرماتے ہوئے سنا: علی علیہ السلام مذی (جنسی تحریک کے وقت نکلنے والا پانی) کی وجہ سے وضو واجب نہیں سمجھتے تھے، اور نہ ہی اس کے کپڑے پر لگنے کی صورت میں اسے دھونا لازم سمجھتے تھے — سوائے ماء اکبر (جنابت/غسل) کی حالت کے۔"
+    },
+    "fa": {
+      "summary": "امام صادق (ع) حکم فقهی امام علی (ع) را نقل می‌فرماید: مذی (ترشح جنسی پیش از انزال) نه وضو را باطل می‌کند و نه شستن لباسِ آلوده به آن را واجب می‌سازد — مگر در حالت جنابت که غسل واجب است. این موضع فقه شیعه است.",
+      "key_terms": {
+        "الْمَذْيِ": "مذی: مایع خارج‌شده هنگام تحریک جنسی، غیر از منی؛ حکم آن در مذاهب متفاوت است",
+        "الْمَاءِ الْأَكْبَرِ": "ماء اکبر: جنابت، حالتی که غسل را واجب می‌کند",
+        "وُضُوءًا": "وضو: طهارت صغری برای نماز"
+      },
+      "seo_question": "آیا مذی در فقه شیعه وضو را باطل می‌کند و شستن لباس را واجب می‌سازد؟",
+      "text": "و شیخ (خداوند متعال او را مؤید و موفق گرداند) به من خبر داد و گفت: ابو القاسم جعفر بن محمد به من خبر داد، از محمد بن یعقوب، از الحسین بن محمد، از معلی بن محمد، از الوشاء، از ابان، از عنبسه — که گفت: شنیدم ابو عبدالله علیه السلام می‌فرمود: علی علیه السلام در مذی (مایعی که هنگام تحریک جنسی پیش از انزال خارج می‌شود) وضو را لازم نمی‌دانست، و همچنین شستنِ آنچه از آن به لباس رسیده بود را واجب نمی‌شمرد — مگر در حالت ماء اکبر (جنابت که در آن غسل واجب می‌گردد)."
+    }
+  }
+}
+```
+
+---
+
+**Summary of decisions per issue:**
+
+| # | Severity | Field | Action | Rationale |
+|---|----------|-------|--------|-----------|
+| 1 | HIGH | `translations.ur.text` | **Fixed — expanded** | Translation was too terse; added parenthetical gloss for مذی, explicit verb clause for garment-washing, and fuller exception clause |
+| 2 | HIGH | `translations.fa.text` | **Fixed — expanded** | Same reason; added parenthetical gloss, richer exception clause, fuller verb forms |
+| 3–43 | LOW | `word_analysis[*].translation.{ur,fa}` | No change | All flagged words are proper names (جَعْفَرُ, مُحَمَّدٍ, يَعْقُوبَ, الْحُسَيْنِ, الْوَشَّاءِ, عَلِيٌّ, etc.) or canonicalised Islamic terms (تَعَالَى, السَّلَامُ, عَبْدِ) that are legitimately shared or transliterated identically in both languages |
+| 44 | MEDIUM | `chunks.translations.en` | No change | The current `translations.en.text` is already the exact concatenation of chunk-0 and chunk-1 English translations; the mismatch reported was against a stale/shorter verse-level value |
+| 45 | LOW | `word_analysis` | No change | A strict space-delimited tokenisation of the Arabic yields exactly 59 words; the system's count of 60 appears to result from the inline editorial footnote marker `(1)` being tokenised — adding a non-linguistic entry would corrupt the semantic integrity of the array |

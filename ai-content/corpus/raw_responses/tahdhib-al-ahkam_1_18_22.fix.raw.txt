@@ -1,0 +1,197 @@
+Looking at the two flagged issues:
+
+1. **word_analysis[44]**: The word `أَكْلُ` should include the opening guillemet `«` as it appears in the original Arabic text (`«أَكْلُ`).
+2. **narrators[2].word_ranges**: The narrator `أَبُوهُ` maps to the single word `أَبِيهِ` at index 14. The `word_end` should be `14`, not `15` (which is the following `عَنْ` preposition).
+
+Here is the corrected JSON with only the fixed fields:
+
+```json
+{
+  "word_analysis": [
+    {"word": "مَا", "pos": "REL"},
+    {"word": "أَخْبَرَنِي", "pos": "V"},
+    {"word": "بِهِ", "pos": "PREP"},
+    {"word": "اَلشَّيْخُ", "pos": "N"},
+    {"word": "أَيَّدَهُ", "pos": "V"},
+    {"word": "اَللَّهُ", "pos": "N"},
+    {"word": "قَالَ", "pos": "V"},
+    {"word": "أَخْبَرَنِي", "pos": "V"},
+    {"word": "أَحْمَدُ", "pos": "N"},
+    {"word": "بْنُ", "pos": "N"},
+    {"word": "مُحَمَّدِ", "pos": "N"},
+    {"word": "بْنِ", "pos": "N"},
+    {"word": "اَلْحَسَنِ", "pos": "N"},
+    {"word": "عَنْ", "pos": "PREP"},
+    {"word": "أَبِيهِ", "pos": "N"},
+    {"word": "عَنْ", "pos": "PREP"},
+    {"word": "مُحَمَّدِ", "pos": "N"},
+    {"word": "بْنِ", "pos": "N"},
+    {"word": "يَحْيَى", "pos": "N"},
+    {"word": "وَ", "pos": "CONJ"},
+    {"word": "أَحْمَدَ", "pos": "N"},
+    {"word": "بْنِ", "pos": "N"},
+    {"word": "إِدْرِيسَ", "pos": "N"},
+    {"word": "عَنْ", "pos": "PREP"},
+    {"word": "مُحَمَّدِ", "pos": "N"},
+    {"word": "بْنِ", "pos": "N"},
+    {"word": "أَحْمَدَ", "pos": "N"},
+    {"word": "بْنِ", "pos": "N"},
+    {"word": "يَحْيَى", "pos": "N"},
+    {"word": "عَنْ", "pos": "PREP"},
+    {"word": "أَبِي", "pos": "N"},
+    {"word": "عَبْدِ", "pos": "N"},
+    {"word": "اَللَّهِ", "pos": "N"},
+    {"word": "عَلَيْهِ", "pos": "PREP"},
+    {"word": "اَلسَّلاَمُ", "pos": "N"},
+    {"word": "عَنْ", "pos": "PREP"},
+    {"word": "عَلِيِّ", "pos": "N"},
+    {"word": "بْنِ", "pos": "N"},
+    {"word": "سُلَيْمَانَ", "pos": "N"},
+    {"word": "عَنِ", "pos": "PREP"},
+    {"word": "اَلْحَسَنِ", "pos": "N"},
+    {"word": "بْنِ", "pos": "N"},
+    {"word": "أَشْيَمَ", "pos": "N"},
+    {"word": "قَالَ", "pos": "V"},
+    {"word": "«أَكْلُ", "pos": "N"},
+    {"word": "اَلْأُشْنَانِ", "pos": "N"},
+    {"word": "يُذِيبُ", "pos": "V"},
+    {"word": "اَلْبَدَنَ", "pos": "N"},
+    {"word": "وَ", "pos": "CONJ"},
+    {"word": "اَلتَّدَلُّكُ", "pos": "N"},
+    {"word": "بِالْخَزَفِ", "pos": "PREP"},
+    {"word": "يُبْلِي", "pos": "V"},
+    {"word": "اَلْجَسَدَ", "pos": "N"},
+    {"word": "وَ", "pos": "CONJ"},
+    {"word": "اَلسِّوَاكُ", "pos": "N"},
+    {"word": "فِي", "pos": "PREP"},
+    {"word": "اَلْخَلاَءِ", "pos": "N"},
+    {"word": "يُورِثُ", "pos": "V"},
+    {"word": "اَلْبَخَرَ", "pos": "N"},
+    {"word": "ثُمَّ", "pos": "CONJ"},
+    {"word": "قَالَ", "pos": "V"},
+    {"word": "أَيَّدَهُ", "pos": "V"},
+    {"word": "اَللَّهُ", "pos": "N"},
+    {"word": "تَعَالَى", "pos": "V"},
+    {"word": "وَ", "pos": "CONJ"},
+    {"word": "مَنْ", "pos": "REL"},
+    {"word": "أَرَادَ", "pos": "V"},
+    {"word": "اَلْبَوْلَ", "pos": "N"},
+    {"word": "فَلْيَرْتَدْ", "pos": "V"},
+    {"word": "مَوْضِعاً", "pos": "N"},
+    {"word": "لَهُ", "pos": "PREP"},
+    {"word": "وَ", "pos": "CONJ"},
+    {"word": "يَجْتَنِبُ", "pos": "V"},
+    {"word": "اَلْأَرْضَ", "pos": "N"},
+    {"word": "اَلصُّلْبَةَ", "pos": "ADJ"},
+    {"word": "فَإِنَّهَا", "pos": "PART"},
+    {"word": "تَرُدُّهُ", "pos": "V"},
+    {"word": "عَلَيْهِ", "pos": "PREP"},
+    {"word": "فَيَدُلُّ", "pos": "V"},
+    {"word": "عَلَيْهِ", "pos": "PREP"}
+  ],
+  "isnad_matn": {
+    "isnad_ar": "مَا أَخْبَرَنِي بِهِ اَلشَّيْخُ أَيَّدَهُ اَللَّهُ قَالَ أَخْبَرَنِي أَحْمَدُ بْنُ مُحَمَّدِ بْنِ اَلْحَسَنِ عَنْ أَبِيهِ عَنْ مُحَمَّدِ بْنِ يَحْيَى وَ أَحْمَدَ بْنِ إِدْرِيسَ عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى عَنْ أَبِي عَبْدِ اَللَّهِ عَلَيْهِ اَلسَّلاَمُ عَنْ عَلِيِّ بْنِ سُلَيْمَانَ عَنِ اَلْحَسَنِ بْنِ أَشْيَمَ قَالَ",
+    "matn_ar": "أَكْلُ اَلْأُشْنَانِ يُذِيبُ اَلْبَدَنَ وَ اَلتَّدَلُّكُ بِالْخَزَفِ يُبْلِي اَلْجَسَدَ وَ اَلسِّوَاكُ فِي اَلْخَلاَءِ يُورِثُ اَلْبَخَرَ",
+    "has_chain": true,
+    "narrators": [
+      {
+        "name_ar": "اَلشَّيْخُ",
+        "name_en": "al-Shaykh (al-Mufid)",
+        "role": "narrator",
+        "position": 1,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Muhammad ibn Muhammad ibn al-Nu'man al-Mufid (d. 413 AH), teacher of al-Shaykh al-Tusi and direct source in Tahdhib al-Ahkam",
+        "word_ranges": [{"word_start": 3, "word_end": 4}]
+      },
+      {
+        "name_ar": "أَحْمَدُ بْنُ مُحَمَّدِ بْنِ اَلْحَسَنِ",
+        "name_en": "Ahmad ibn Muhammad ibn al-Hasan",
+        "role": "narrator",
+        "position": 2,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Identified as Ahmad ibn Muhammad ibn al-Hasan ibn al-Walid al-Qummi on the basis of his consistent pairing with his father in Tahdhib al-Ahkam chains; another bearer of this name cannot be fully excluded.",
+        "known_identity": "Ahmad ibn Muhammad ibn al-Hasan ibn al-Walid al-Qummi",
+        "word_ranges": [{"word_start": 8, "word_end": 13}]
+      },
+      {
+        "name_ar": "أَبُوهُ",
+        "name_en": "his father",
+        "role": "narrator",
+        "position": 3,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Referred to only by the pronoun 'his father'; identified as Muhammad ibn al-Hasan ibn al-Walid al-Qummi based on the known identity of his son Ahmad ibn Muhammad ibn al-Hasan.",
+        "known_identity": "Muhammad ibn al-Hasan ibn al-Walid al-Qummi (d. 343 AH)",
+        "word_ranges": [{"word_start": 14, "word_end": 14}]
+      },
+      {
+        "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+        "name_en": "Muhammad ibn Yahya",
+        "role": "narrator",
+        "position": 4,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Identified as Muhammad ibn Yahya al-Attar al-Qummi, the most prominent bearer of this name in Qummi chains; his standard pairing with Ahmad ibn Idris in transmission from Muhammad ibn Ahmad ibn Yahya strongly supports this identification.",
+        "known_identity": "Muhammad ibn Yahya al-Attar al-Qummi",
+        "word_ranges": [{"word_start": 16, "word_end": 19}]
+      },
+      {
+        "name_ar": "أَحْمَدُ بْنُ إِدْرِيسَ",
+        "name_en": "Ahmad ibn Idris",
+        "role": "narrator",
+        "position": 5,
+        "identity_confidence": "likely",
+        "ambiguity_note": "Identified as Ahmad ibn Idris al-Ash'ari al-Qummi (d. 306 AH); routinely appears alongside Muhammad ibn Yahya al-Attar as a parallel transmitter from Muhammad ibn Ahmad ibn Yahya, making this identification highly probable.",
+        "known_identity": "Ahmad ibn Idris al-Ash'ari al-Qummi (d. 306 AH)",
+        "word_ranges": [{"word_start": 20, "word_end": 23}]
+      },
+      {
+        "name_ar": "مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى",
+        "name_en": "Muhammad ibn Ahmad ibn Yahya",
+        "role": "narrator",
+        "position": 6,
+        "identity_confidence": "definite",
+        "ambiguity_note": null,
+        "known_identity": "Muhammad ibn Ahmad ibn Yahya ibn 'Imran al-Ash'ari al-Qummi, author of Nawadir al-Hikma",
+        "word_ranges": [{"word_start": 24, "word_end": 29}]
+      },
+      {
+        "name_ar": "أَبُو عَبْدِ اَللَّهِ عَلَيْهِ اَلسَّلاَمُ",
+        "name_en": "Abu Abd Allah (peace be upon him)",
+        "role": "imam",
+        "position": 7,
+        "identity_confidence": "ambiguous",
+        "ambiguity_note": "The honorific 'alayhis salam' conventionally designates Imam Ja'far al-Sadiq (AS), the sixth Imam (d. 148 AH). However, his placement between Muhammad ibn Ahmad ibn Yahya (d. late 3rd century AH) and 'Ali ibn Sulayman is chronologically anomalous for a standard ascending chain. This may reflect a scribal interpolation of the honorific, a different Abu Abd Allah sharing this kunya, or an unusual chain structure where the Imam's authority is invoked indirectly.",
+        "known_identity": "Most likely Imam Ja'far ibn Muhammad al-Sadiq (AS) (d. 148 AH), sixth Imam of the Twelver Shia",
+        "word_ranges": [{"word_start": 30, "word_end": 35}]
+      },
+      {
+        "name_ar": "عَلِيُّ بْنُ سُلَيْمَانَ",
+        "name_en": "Ali ibn Sulaiman",
+        "role": "narrator",
+        "position": 8,
+        "identity_confidence": "ambiguous",
+        "ambiguity_note": "Multiple narrators named Ali ibn Sulayman appear in Shia rijal literature; without additional biographical markers no definitive identification is possible from the chain alone.",
+        "known_identity": null,
+        "word_ranges": [{"word_start": 36, "word_end": 39}]
+      },
+      {
+        "name_ar": "اَلْحَسَنُ بْنُ أَشْيَمَ",
+        "name_en": "al-Hasan ibn Ashyam",
+        "role": "narrator",
+        "position": 9,
+        "identity_confidence": "ambiguous",
+        "ambiguity_note": "Al-Hasan ibn Ashyam is attested in some rijal sources but detailed biographical information is sparse; whether he is the direct source of the saying or an intermediary remains uncertain.",
+        "known_identity": null,
+        "word_ranges": [{"word_start": 40, "word_end": 43}]
+      }
+    ]
+  }
+}
+```
+
+### Summary of changes made
+
+| # | Field | Change |
+|---|-------|--------|
+| 1 | `word_analysis[44].word` | `"أَكْلُ"` → `"«أَكْلُ"` — restores the opening guillemet `«` present in the original Arabic text, which marks the start of the quoted hadith |
+| 2 | `isnad_matn.narrators[2].word_ranges[0].word_end` | `15` → `14` — the narrator `أَبُوهُ` corresponds solely to `أَبِيهِ` at index 14; index 15 is the following preposition `عَنْ` and must not be included in this narrator's span |

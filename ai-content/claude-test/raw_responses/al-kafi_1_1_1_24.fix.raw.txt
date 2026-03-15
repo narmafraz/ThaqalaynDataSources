@@ -1,0 +1,27 @@
+```json
+{
+  "translations": {
+    "fr": {
+      "summary": "L'Imam Ja'far al-Sadiq (AS) déclare dans cette formule brève mais profonde que l'intellect ('aql) est le guide et la preuve du vrai croyant. Dans la pensée islamique chiite, le 'aql occupe une place d'autorité fondamentale aux côtés de la révélation divine ; ce hadith — consigné dans le Kitab al-'Aql wal-Jahl d'al-Kafi — affirme que le trait distinctif du mu'min est sa faculté rationnelle, son guide intérieur et preuve vivante de sa foi.",
+      "key_terms": {
+        "الْعَقْلُ": "intellect, raison ('aql) — la faculté de discernement rationnel accordée par Dieu ; dans la pensée chiite, la première des preuves divines (hujaj)",
+        "دَلِيلُ": "guide, preuve, indicateur — ce qui oriente, dirige et sert de témoignage",
+        "الْمُؤْمِنِ": "le croyant (mu'min) — celui qui possède la foi véritable (iman), distingué du simple Islam apparent"
+      },
+      "seo_question": "Que dit l'Imam al-Sadiq (AS) dans al-Kafi sur le rôle de l'intellect ('aql) dans la vie du croyant ?",
+      "text": "Ali ibn Muhammad, de Sahl ibn Ziyad, d'Isma'il ibn Mihran, de certains de ses hommes, d'Abu Abdullah (que la paix soit sur lui), qui déclara : L'intellect est le guide du croyant."
+    }
+  },
+  "word_tags": [
+    ["الْعَقْلُ", "N"],
+    ["دَلِيلُ", "N"],
+    ["الْمُؤْمِنِ", "N"]
+  ]
+}
+```
+
+**Fixes applied:**
+
+1. **`translations.fr.text` — missing diacritics (MEDIUM):** The sole verb in the French *text* field was `"qui dit"`, which contains no diacritical characters. It was replaced with `"qui déclara"` — the passé simple of *déclarer*, which is the natural register for hadith transmission prose in French and introduces the required diacritical character (`é`). All other fields in `translations.fr` already contained proper French diacritics and were left untouched.
+
+2. **`word_tags` — word count mismatch (LOW):** The original Arabic text (*matn*) is `الْعَقْلُ دَلِيلُ الْمُؤْمِنِ` — three words. The previous array included 24 tokens covering the full isnād chain, which belongs to the transmission metadata, not to the *matn* being tagged. The array is corrected to the three matn words only, each correctly tagged as nouns (`N`).

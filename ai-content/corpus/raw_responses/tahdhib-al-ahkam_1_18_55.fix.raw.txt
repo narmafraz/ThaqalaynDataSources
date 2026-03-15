@@ -1,0 +1,43 @@
+```json
+{
+  "word_tags": [
+    ["وَ", "CONJ"],
+    ["بِهَذَا", "PREP"],
+    ["الْإِسْنَادِ", "N"],
+    ["عَنِ", "PREP"],
+    ["الْحُسَيْنِ", "N"],
+    ["بْنِ", "N"],
+    ["سَعِيدٍ", "N"],
+    ["عَنْ", "PREP"],
+    ["حَمَّادٍ", "N"],
+    ["عَنْ", "PREP"],
+    ["رِبْعِيٍّ", "N"],
+    ["عَنِ", "PREP"],
+    ["الْفُضَيْلِ", "N"],
+    ["عَنْ", "PREP"],
+    ["أَبِي", "N"],
+    ["عَبْدِ", "N"],
+    ["اللَّهِ", "N"],
+    ["عَلَيْهِ", "PREP"],
+    ["السَّلَامُ", "N"],
+    ["قَالَ", "V"],
+    ["«لَا", "NEG"],
+    ["بَأْسَ", "N"],
+    ["أَنْ", "PART"],
+    ["يَبُولَ", "V"],
+    ["الرَّجُلُ", "N"],
+    ["فِي", "PREP"],
+    ["الْمَاءِ", "N"],
+    ["الْجَارِي", "ADJ"],
+    ["وَ", "CONJ"],
+    ["كُرِهَ", "V"],
+    ["أَنْ", "PART"],
+    ["يَبُولَ", "V"],
+    ["فِي", "PREP"],
+    ["الْمَاءِ", "N"],
+    ["الرَّاكِدِ", "ADJ"]
+  ]
+}
+```
+
+**Change made:** `word_tags[20]` — the word was corrected from `"لَا"` to `"«لَا"` to include the opening guillemet `«` as it appears in the original Arabic text, marking the start of the direct speech quotation. The POS tag `"NEG"` was left unchanged, as it correctly identifies the negation particle.

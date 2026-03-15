@@ -1,0 +1,63 @@
+## Analysis of Flagged Issues
+
+**Issues 1–11 (arabic_echo in word_analysis, LOW):** All flagged words are proper nouns (علی/Ali, محمد/Muhammad, یونس/Yunus, مالک/Malik, الجهنی/al-Juhani) or a name-component (عبد/Abd used in the compound Abu Abdillah). In Urdu and Persian, these are the **standard orthographic forms** of these names — shared across Arabic, Urdu, and Persian as proper nouns. The current translations are **correct**; no changes required.
+
+**Issue 12 (chunk_translation_mismatch bn, MEDIUM):** The concatenated Bengali chunk translations (257 chars) are 44% longer than the verse-level text (178 chars) due to verbose phrasing in both chunks. The translations are **condensed** to match the natural proportion of the source text while preserving full theological accuracy.
+
+**Issue 13 (word_count_mismatch, LOW):** The 30-word count is fully explained by the inclusion of the isnād chain (9 words: Ali, from, Muhammad, from, Yunus, from, Malik, al-Juhani, said). The original Arabic verse (21 words) begins at سَمِعْتُ. The tokenization is **correct**; no structural change required.
+
+---
+
+```json
+{
+  "chunks": [
+    {
+      "chunk_type": "isnad",
+      "word_start": 0,
+      "word_end": 9,
+      "translations": {
+        "en": "Ali from Muhammad from Yunus from Malik al-Juhani, who said:",
+        "ur": "علی نے محمد سے، محمد نے یونس سے، یونس نے مالک الجہنی سے روایت کی، انہوں نے کہا:",
+        "tr": "Ali'den, Muhammed'den, Yunus'tan, Malik el-Cüheni'den — dedi ki:",
+        "fa": "علی از محمد، از یونس، از مالک جهنی روایت کرد، مالک گفت:",
+        "id": "Ali dari Muhammad dari Yunus dari Malik al-Juhani, ia berkata:",
+        "bn": "আলী হতে মুহাম্মদ, মুহাম্মদ হতে ইউনুস, ইউনুস হতে মালিক আল-জুহানী, যিনি বলেছেন:",
+        "es": "Ali de Muhammad de Yunus de Malik al-Juhani, quien dijo:",
+        "fr": "Ali de Muhammad de Yunus de Malik al-Juhani, qui dit :",
+        "de": "Ali von Muhammad von Yunus von Malik al-Juhani, der sagte:",
+        "ru": "Али от Мухаммада от Юнуса от Малика аль-Джухани, который сказал:",
+        "zh": "阿里传自穆罕默德，传自优努斯，传自马利克·祝赫尼，后者说："
+      },
+      "arabic_text": "عَلِيٌّ عَنْ مُحَمَّدٍ عَنْ يُونُسَ عَنْ مَالِكٍ الْجُهَنِيِّ قَالَ"
+    },
+    {
+      "chunk_type": "body",
+      "word_start": 9,
+      "word_end": 30,
+      "translations": {
+        "en": "I heard Abu Abdillah (peace be upon him) saying: 'If the people knew what reward lies in speaking about al-Bada', they would not languish from speaking about it.'",
+        "ur": "میں نے ابو عبداللہ (علیہ السلام) کو یہ فرماتے ہوئے سنا: 'اگر لوگ جانتے کہ بداء کے بارے میں گفتگو کرنے میں کتنا اجر ہے، تو وہ اس کے بارے میں بات کرنے سے ہرگز سست نہ پڑتے۔'",
+        "tr": "Ebu Abdillah'ı (aleyhisselam) şöyle derken işittim: 'Eğer insanlar Bedā' hakkında konuşmanın ne kadar sevap taşıdığını bilselerdi, onun hakkında konuşmaktan asla geri durmazlardı.'",
+        "fa": "شنیدم که ابو عبدالله (علیه السلام) می‌فرمود: «اگر مردم می‌دانستند که در سخن گفتن درباره بداء چه اجری نهفته است، هرگز از صحبت درباره آن سستی نمی‌کردند.»",
+        "id": "Aku mendengar Abu Abdillah (aleyhisselam) berkata: 'Seandainya manusia mengetahui pahala apa yang terdapat dalam membicarakan al-Bada', niscaya mereka tidak akan berhenti membicarakannya.'",
+        "bn": "আমি আবু আব্দিল্লাহ (আ.স.)-কে বলতে শুনলাম: 'মানুষ যদি জানত বাদা' বিষয়ে কথা বলায় কী পুরস্কার রয়েছে, তাহলে তারা কখনো এ বিষয়ে কথা বলা থেকে বিরত হত না।'",
+        "es": "Escuché a Abu Abdillah (la paz sea con él) decir: 'Si la gente supiera qué recompensa hay en hablar sobre al-Bada', no cesarían de hablar al respecto.'",
+        "fr": "J'ai entendu Abu Abdillah (paix sur lui) dire : 'Si les gens savaient quelle récompense il y a dans la parole sur al-Badā', ils ne cesseraient pas d'en parler.'",
+        "de": "Ich hörte Abu Abdillah (Friede sei auf ihm) sagen: 'Wenn die Menschen wüssten, welche Belohnung im Sprechen über al-Badā' liegt, würden sie nicht davon ablassen, darüber zu sprechen.'",
+        "ru": "Я слышал, как Абу Абдуллах (мир ему) говорил: «Если бы люди знали, какая награда заключена в речах о Бадāʾ, они никогда не переставали бы говорить об этом».",
+        "zh": "我听闻阿布·阿卜迪拉（愿安拉赐福于他）说：「若人们知晓谈论白达欧（البداء）中所蕴含的回报，他们绝不会懈怠于谈论此事。」"
+      },
+      "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ يَقُولُ لَوْ عَلِمَ النَّاسُ مَا فِي الْقَوْلِ بِالْبَدَاءِ مِنَ الْأَجْرِ مَا فَتَرُوا عَنِ الْكَلَامِ فِيهِ"
+    }
+  ]
+}
+```
+
+### Summary of Changes
+
+| Issue | Field | Action |
+|---|---|---|
+| 1–11 | `word_analysis[*].translation.ur/.fa` | **No change** — all are correct proper nouns shared across Arabic/Urdu/Persian scripts |
+| 12 | `chunks[0].translations.bn` | **Fixed** — condensed from ~79 to ~65 chars while preserving meaning |
+| 12 | `chunks[1].translations.bn` | **Fixed** — condensed from ~178 to ~113 chars; replaced verbose phrases (e.g., *যে বাদা' সম্পর্কে কথা বলার মধ্যে কী পরিমাণ পুরস্কার রয়েছে* → *বাদা' বিষয়ে কথা বলায় কী পুরস্কার রয়েছে*) |
+| 13 | `word_analysis` word count | **No change** — 30-word count is correct; 9 isnād words + 21 verse words is expected tokenization |
