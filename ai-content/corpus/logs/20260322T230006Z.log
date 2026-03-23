@@ -1,0 +1,66 @@
+23:00:06 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260322T230006Z.log
+23:00:06 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\pipeline.jsonl
+23:00:06 INFO Word dictionary: 609 entries
+23:00:06 INFO Narrator templates: 1074 entries
+23:00:06 INFO Narrator registry: 4629 entries
+Pipeline v4 starting: 5 verses, 3 workers, mode=phased, backend=claude, p1=sonnet, p4=gpt-5.4-mini
+23:00:07 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+23:00:07 INFO P1-GEN al-kafi_2_1_105_3 (61 words, phased, claude/sonnet)...
+23:00:08 INFO P1-GEN al-kafi_2_1_105_4 (34 words, phased, claude/sonnet)...
+23:00:08 INFO P1-GEN al-kafi_2_1_105_5 (12 words, phased, claude/sonnet)...
+23:00:55 INFO P2-ENRICH al-kafi_2_1_105_5...
+23:00:55 INFO P4-TRANSLATE al-kafi_2_1_105_5...
+23:00:55 INFO P1-GEN al-kafi_2_1_105_6 (64 words, phased, claude/sonnet)...
+23:01:27 INFO P2-ENRICH al-kafi_2_1_105_4...
+23:01:27 INFO P4-TRANSLATE al-kafi_2_1_105_4...
+23:01:27 INFO P1-GEN al-kafi_2_1_105_7 (18 words, phased, claude/sonnet)...
+23:01:47 INFO P2-ENRICH al-kafi_2_1_105_3...
+23:01:47 INFO P4-TRANSLATE al-kafi_2_1_105_3...
+23:02:04 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:02:04 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_2_1_105_5.json
+23:02:04 INFO WARN al-kafi_2_1_105_5 [phased, $0.0911, 3542 tok]
+
+--- Progress [2m] ---
+  Done: 1/5 (pass=1, fix=0, fixed=0, err=0)
+  Rate: 30/hr | ETA: 0.1h
+  Cost: $0.37 (avg $0.3746/verse)
+  Phases: P1=$0.36 | P4=$0.01
+  Out tokens: 18,942
+---
+23:02:20 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:02:20 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_2_1_105_4.json
+23:02:20 INFO OK al-kafi_2_1_105_4 [phased, $0.1453, 7015 tok]
+23:02:21 INFO P2-ENRICH al-kafi_2_1_105_6...
+23:02:21 INFO P4-TRANSLATE al-kafi_2_1_105_6...
+23:02:27 INFO P2-ENRICH al-kafi_2_1_105_7...
+23:02:27 INFO P4-TRANSLATE al-kafi_2_1_105_7...
+
+--- Progress [3m] ---
+  Done: 2/5 (pass=2, fix=0, fixed=0, err=0)
+  Rate: 48/hr | ETA: 0.1h
+  Cost: $0.58 (avg $0.2908/verse)
+  Phases: P1=$0.55 | P4=$0.03
+  Out tokens: 30,077
+---
+23:02:41 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:02:41 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_2_1_105_7.json
+23:02:41 INFO OK al-kafi_2_1_105_7 [phased, $0.0926, 4505 tok]
+23:02:43 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:02:43 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_2_1_105_3.json
+23:02:43 INFO OK al-kafi_2_1_105_3 [phased, $0.1724, 8385 tok]
+23:02:44 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+23:02:44 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_2_1_105_6.json
+23:02:44 INFO OK al-kafi_2_1_105_6 [phased, $0.1348, 6630 tok]
+
+============================================================
+Pipeline Complete (2.6 min)
+  Total: 5 processed, 0 skipped
+  Pass: 5 | Fixed: 0 | Errors: 0
+  Cost: $0.64 (avg $0.1273/verse)
+  Phase breakdown: P1=$0.55 | P4=$0.08
+  Tokens: In: 15 | Cache-create: 24,332 | Cache-read: 39,347 | Out: 30,077
+  Projected 58K corpus: $7381
+============================================================
+23:02:44 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+23:02:44 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\sessions\20260322T230006Z.json
+23:02:44 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260322T230006Z.log

@@ -1,0 +1,130 @@
+00:46:33 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260323T004633Z.log
+00:46:33 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\pipeline.jsonl
+00:46:33 INFO Word dictionary: 609 entries
+00:46:33 INFO Narrator templates: 1074 entries
+00:46:33 INFO Narrator registry: 4629 entries
+Pipeline v4 starting: 10 verses, 10 workers, mode=phased, backend=openai, p1=gpt-5.4, p4=gpt-5.4-mini
+00:46:34 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+00:46:34 INFO P1-GEN al-kafi_1_2_19_13 (147 words, phased, openai/gpt-5.4)...
+00:46:36 INFO P1-GEN al-kafi_1_2_19_14 (62 words, phased, openai/gpt-5.4)...
+00:46:36 INFO P1-GEN al-kafi_1_2_21_1 (866 words, phased, openai/gpt-5.4)...
+00:46:36 INFO P1-GEN al-kafi_1_2_21_10 (399 words, phased, openai/gpt-5.4)...
+00:46:37 INFO P1-GEN al-kafi_1_2_22_11 (8 words, phased, openai/gpt-5.4)...
+00:46:37 INFO P1-GEN al-kafi_1_3_10_12 (123 words, phased, openai/gpt-5.4)...
+00:46:37 INFO P1-GEN al-kafi_1_3_12_6 (96 words, phased, openai/gpt-5.4)...
+00:46:37 INFO P1-GEN al-kafi_1_3_17_2 (914 words, phased, openai/gpt-5.4)...
+00:46:38 INFO P1-GEN al-kafi_1_3_17_3 (800 words, phased, openai/gpt-5.4)...
+00:46:38 INFO P1-GEN al-kafi_1_3_19_10 (97 words, phased, openai/gpt-5.4)...
+00:46:48 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:46:48 INFO P2-ENRICH al-kafi_1_2_22_11...
+00:46:48 INFO P4-TRANSLATE al-kafi_1_2_22_11...
+00:46:53 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:46:53 INFO P2-ENRICH al-kafi_1_2_19_14...
+00:46:53 INFO P4-TRANSLATE al-kafi_1_2_19_14...
+00:46:54 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:46:54 INFO P2-ENRICH al-kafi_1_3_12_6...
+00:46:54 INFO P4-TRANSLATE al-kafi_1_3_12_6...
+00:46:57 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:46:57 INFO P2-ENRICH al-kafi_1_3_10_12...
+00:46:57 INFO P4-TRANSLATE al-kafi_1_3_10_12...
+00:46:57 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:46:57 INFO P2-ENRICH al-kafi_1_3_19_10...
+00:46:57 INFO P4-TRANSLATE al-kafi_1_3_19_10...
+00:46:59 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:46:59 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_2_22_11.json
+00:46:59 INFO OK al-kafi_1_2_22_11 [phased, $0.0265, 675 tok]
+00:47:00 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:00 INFO P2-ENRICH al-kafi_1_2_19_13...
+00:47:00 INFO P4-TRANSLATE al-kafi_1_2_19_13...
+
+--- Progress [1m] ---
+  Done: 1/10 (pass=1, fix=0, fixed=0, err=0)
+  Rate: 0/hr | ETA: 0.0h
+  Cost: $0.18 (avg $0.1763/verse)
+  Phases: P1=$0.17 | P4=$0.01
+  Out tokens: 8,071
+---
+00:47:07 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:07 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_2_19_14.json
+00:47:07 INFO OK al-kafi_1_2_19_14 [phased, $0.0407, 1185 tok]
+00:47:13 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:13 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_3_12_6.json
+00:47:13 INFO OK al-kafi_1_3_12_6 [phased, $0.0484, 1336 tok]
+00:47:17 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:17 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_3_19_10.json
+00:47:17 INFO OK al-kafi_1_3_19_10 [phased, $0.0504, 1406 tok]
+00:47:18 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:18 INFO P2-ENRICH al-kafi_1_2_21_10...
+00:47:18 INFO P4-TRANSLATE al-kafi_1_2_21_10...
+00:47:21 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:21 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_3_10_12.json
+00:47:21 INFO OK al-kafi_1_3_10_12 [phased, $0.0597, 1670 tok]
+00:47:25 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:25 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_2_19_13.json
+00:47:25 INFO OK al-kafi_1_2_19_13 [phased, $0.0634, 1799 tok]
+
+--- Progress [1m] ---
+  Done: 6/10 (pass=6, fix=0, fixed=0, err=0)
+  Rate: 360/hr | ETA: 0.0h
+  Cost: $0.36 (avg $0.0599/verse)
+  Phases: P1=$0.24 | P4=$0.12
+  Out tokens: 11,851
+---
+00:47:44 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:44 INFO P2-ENRICH al-kafi_1_2_21_1...
+00:47:45 INFO P4-TRANSLATE al-kafi_1_2_21_1...
+00:47:54 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:54 INFO P2-ENRICH al-kafi_1_3_17_3...
+00:47:54 INFO P4-TRANSLATE al-kafi_1_3_17_3...
+00:47:58 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:47:58 INFO P2-ENRICH al-kafi_1_3_17_2...
+00:47:58 INFO P4-TRANSLATE al-kafi_1_3_17_2...
+00:48:03 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:48:03 WARNING PHASED al-kafi_1_2_21_1: 10 validation errors: ["chunks[2] translations missing languages: ['bn', 'de', 'es', 'fa', 'fr', 'id', 'ru', 'tr', 'ur', 'zh']", "chunks[3] translations missing languages: ['bn', 'de', 'es', 'fa', 'fr', 'id', 'ru', 'tr', 'ur', 'zh']", "chunks[4] translations missing languages: ['bn', 'de', 'es', 'fa', 'fr', 'id', 'ru', 'tr', 'ur', 'zh']"]
+00:48:03 INFO QUARANTINED al-kafi_1_2_21_1 (10 errors)
+
+--- Progress [2m] ---
+  Done: 7/10 (pass=6, fix=0, fixed=0, err=1)
+  Rate: 280/hr | ETA: 0.0h
+  Cost: $0.75 (avg $0.1066/verse)
+  Phases: P1=$0.60 | P4=$0.15
+  Out tokens: 31,825
+---
+00:48:08 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:48:09 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_2_21_10.json
+00:48:09 INFO OK al-kafi_1_2_21_10 [phased, $0.1268, 3780 tok]
+
+--- Progress [2m] ---
+  Done: 8/10 (pass=7, fix=0, fixed=0, err=1)
+  Rate: 240/hr | ETA: 0.0h
+  Cost: $0.80 (avg $0.1004/verse)
+  Phases: P1=$0.60 | P4=$0.20
+  Out tokens: 31,825
+---
+00:49:33 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:49:33 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_3_17_3.json
+00:49:33 INFO OK al-kafi_1_3_17_3 [phased, $0.2340, 6852 tok]
+
+--- Progress [3m] ---
+  Done: 9/10 (pass=8, fix=0, fixed=0, err=1)
+  Rate: 180/hr | ETA: 0.0h
+  Cost: $0.91 (avg $0.1016/verse)
+  Phases: P1=$0.60 | P4=$0.32
+  Out tokens: 31,825
+---
+00:49:40 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:49:40 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_3_17_2.json
+00:49:40 INFO OK al-kafi_1_3_17_2 [phased, $0.2413, 6925 tok]
+
+============================================================
+Pipeline Complete (3.1 min)
+  Total: 10 processed, 0 skipped
+  Pass: 9 | Fixed: 0 | Errors: 1
+  Cost: $1.03 (avg $0.1030/verse)
+  Phase breakdown: P1=$0.60 | P4=$0.43
+  Tokens: In: 48,574 | Out: 31,825
+  Projected 58K corpus: $5971
+============================================================
+00:49:40 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+00:49:40 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\sessions\20260323T004633Z.json
+00:49:40 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260323T004633Z.log
