@@ -1,0 +1,5 @@
+# Extracted SQLite databases — re-extract via `tar xf *.tar.xz`
+# Only the .tar.xz archives (~40 MB) are committed; the extracted .db files
+# (~253 MB) are reproducible so we keep them out of git.
+*.db
+database/
