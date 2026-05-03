@@ -1,0 +1,88 @@
+22:26:34 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260503T212634Z.log
+22:26:34 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\pipeline.jsonl
+22:26:35 INFO Word dictionary: 609 entries
+22:26:35 INFO Narrator templates: 1074 entries
+22:26:35 INFO Narrator registry: 4629 entries
+Pipeline v4 starting: 5 verses, 1 workers, mode=phased, backend=openai, p1=gpt-5.4, p4=gpt-5.4-mini
+22:26:35 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+22:26:35 INFO P1-GEN al-khisal_1_1_1 (207 words, phased, openai/gpt-5.4)...
+22:27:06 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:27:06 INFO P2-ENRICH al-khisal_1_1_1...
+22:27:06 INFO P4-TRANSLATE al-khisal_1_1_1...
+22:27:06 INFO P1-GEN al-khisal_10_1_1 (134 words, phased, openai/gpt-5.4)...
+22:27:26 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:27:26 INFO P2-ENRICH al-khisal_10_1_1...
+22:27:26 INFO P4-TRANSLATE al-khisal_10_1_1...
+22:27:26 INFO P1-GEN al-khisal_10_10_1 (44 words, phased, openai/gpt-5.4)...
+22:27:36 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:27:36 INFO P2-ENRICH al-khisal_10_10_1...
+22:27:36 INFO P4-TRANSLATE al-khisal_10_10_1...
+22:27:36 INFO P1-GEN al-khisal_10_11_1 (199 words, phased, openai/gpt-5.4)...
+22:28:02 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:28:02 INFO P2-ENRICH al-khisal_10_11_1...
+22:28:02 INFO P4-TRANSLATE al-khisal_10_11_1...
+22:28:02 INFO P1-GEN al-khisal_10_12_1 (133 words, phased, openai/gpt-5.4)...
+22:28:23 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:28:23 INFO P2-ENRICH al-khisal_10_12_1...
+22:28:23 INFO P4-TRANSLATE al-khisal_10_12_1...
+22:29:04 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:29:04 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-khisal_1_1_1.json
+22:29:04 INFO OK al-khisal_1_1_1 [phased, $0.0792, 2350 tok]
+
+--- Progress [3m] ---
+  Done: 1/5 (pass=1, fix=0, fixed=0, err=0)
+  Rate: 24/hr | ETA: 0.2h
+  Cost: $0.20 (avg $0.1995/verse)
+  Phases: P1=$0.16 | P4=$0.04
+  Out tokens: 16,373
+---
+22:29:29 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:29:29 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-khisal_10_1_1.json
+22:29:29 INFO OK al-khisal_10_1_1 [phased, $0.0557, 1667 tok]
+
+--- Progress [3m] ---
+  Done: 2/5 (pass=2, fix=0, fixed=0, err=0)
+  Rate: 40/hr | ETA: 0.1h
+  Cost: $0.22 (avg $0.1118/verse)
+  Phases: P1=$0.16 | P4=$0.06
+  Out tokens: 21,546
+---
+22:29:41 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:29:41 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-khisal_10_10_1.json
+22:29:41 INFO WARN al-khisal_10_10_1 [phased, $0.0276, 732 tok]
+
+--- Progress [4m] ---
+  Done: 3/5 (pass=3, fix=0, fixed=0, err=0)
+  Rate: 51/hr | ETA: 0.0h
+  Cost: $0.23 (avg $0.0781/verse)
+  Phases: P1=$0.16 | P4=$0.07
+  Out tokens: 23,824
+---
+22:30:13 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:30:13 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-khisal_10_11_1.json
+22:30:13 INFO OK al-khisal_10_11_1 [phased, $0.0726, 2163 tok]
+
+--- Progress [4m] ---
+  Done: 4/5 (pass=4, fix=0, fixed=0, err=0)
+  Rate: 60/hr | ETA: 0.0h
+  Cost: $0.27 (avg $0.0667/verse)
+  Phases: P1=$0.16 | P4=$0.10
+  Out tokens: 30,781
+---
+22:30:37 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:30:43 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+22:30:43 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-khisal_10_12_1.json
+22:30:43 INFO OK al-khisal_10_12_1 [phased, $0.0563, 1657 tok]
+
+============================================================
+Pipeline Complete (4.1 min)
+  Total: 5 processed, 0 skipped
+  Pass: 5 | Fixed: 0 | Errors: 0
+  Cost: $0.29 (avg $0.0583/verse)
+  Phase breakdown: P1=$0.16 | P4=$0.13
+  Tokens: In: 20,318 | Out: 35,977
+  Projected 58K corpus: $3380
+============================================================
+22:30:43 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+22:30:43 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\sessions\20260503T212634Z.json
+22:30:43 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260503T212634Z.log
