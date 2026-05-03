@@ -1,0 +1,324 @@
+13:34:20 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260503T123420Z.log
+13:34:20 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\pipeline.jsonl
+13:34:20 INFO Word dictionary: 609 entries
+13:34:20 INFO Narrator templates: 1074 entries
+13:34:20 INFO Narrator registry: 4629 entries
+Pipeline v4 starting: 22 verses, 10 workers, mode=phased, backend=openai, p1=gpt-5.4, p4=gpt-5.4-mini
+13:34:20 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+13:34:20 INFO P1-GEN al-kafi_1_4_102_2 (100 words, phased, openai/gpt-5.4)...
+13:34:22 INFO P1-GEN al-kafi_1_4_111_13 (212 words, phased, openai/gpt-5.4)...
+13:34:23 INFO P1-GEN al-kafi_1_4_125_4 (285 words, phased, openai/gpt-5.4)...
+13:34:23 INFO P1-GEN al-kafi_1_4_80_26 (98 words, phased, openai/gpt-5.4)...
+13:34:23 INFO P1-GEN al-kafi_1_4_87_4 (63 words, phased, openai/gpt-5.4)...
+13:34:23 INFO P1-GEN al-kafi_1_4_91_7 (87 words, phased, openai/gpt-5.4)...
+13:34:24 INFO P1-GEN tahdhib-al-ahkam_10_13_1 (71 words, phased, openai/gpt-5.4)...
+13:34:24 INFO P1-GEN tahdhib-al-ahkam_10_14_2 (57 words, phased, openai/gpt-5.4)...
+13:34:24 INFO P1-GEN tahdhib-al-ahkam_10_14_20 (38 words, phased, openai/gpt-5.4)...
+13:34:25 INFO P1-GEN tahdhib-al-ahkam_10_18_29 (39 words, phased, openai/gpt-5.4)...
+13:34:35 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:35 INFO P2-ENRICH tahdhib-al-ahkam_10_14_20...
+13:34:35 INFO P4-TRANSLATE tahdhib-al-ahkam_10_14_20...
+13:34:35 INFO P1-GEN tahdhib-al-ahkam_1_11_24 (388 words, phased, openai/gpt-5.4)...
+13:34:36 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:36 INFO P2-ENRICH tahdhib-al-ahkam_10_18_29...
+13:34:36 INFO P4-TRANSLATE tahdhib-al-ahkam_10_18_29...
+13:34:36 INFO P1-GEN tahdhib-al-ahkam_1_11_8 (49 words, phased, openai/gpt-5.4)...
+13:34:36 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:36 INFO P2-ENRICH tahdhib-al-ahkam_10_14_2...
+13:34:36 INFO P4-TRANSLATE tahdhib-al-ahkam_10_14_2...
+13:34:36 INFO P1-GEN tahdhib-al-ahkam_1_16_17 (205 words, phased, openai/gpt-5.4)...
+13:34:37 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:37 INFO P2-ENRICH al-kafi_1_4_87_4...
+13:34:37 INFO P4-TRANSLATE al-kafi_1_4_87_4...
+13:34:37 INFO P1-GEN tahdhib-al-ahkam_1_16_19 (147 words, phased, openai/gpt-5.4)...
+13:34:38 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:38 INFO P2-ENRICH tahdhib-al-ahkam_10_13_1...
+13:34:38 INFO P4-TRANSLATE tahdhib-al-ahkam_10_13_1...
+13:34:38 INFO P1-GEN tahdhib-al-ahkam_1_16_24 (322 words, phased, openai/gpt-5.4)...
+13:34:40 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:40 INFO P2-ENRICH al-kafi_1_4_91_7...
+13:34:40 INFO P4-TRANSLATE al-kafi_1_4_91_7...
+13:34:40 INFO P1-GEN tahdhib-al-ahkam_1_16_40 (149 words, phased, openai/gpt-5.4)...
+13:34:40 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:40 INFO P2-ENRICH al-kafi_1_4_80_26...
+13:34:41 INFO P4-TRANSLATE al-kafi_1_4_80_26...
+13:34:41 INFO P1-GEN tahdhib-al-ahkam_1_16_41 (279 words, phased, openai/gpt-5.4)...
+13:34:41 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:41 INFO P2-ENRICH al-kafi_1_4_102_2...
+13:34:41 INFO P4-TRANSLATE al-kafi_1_4_102_2...
+13:34:41 INFO P1-GEN tahdhib-al-ahkam_1_16_48 (145 words, phased, openai/gpt-5.4)...
+13:34:45 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:45 INFO P2-ENRICH tahdhib-al-ahkam_1_11_8...
+13:34:45 INFO P4-TRANSLATE tahdhib-al-ahkam_1_11_8...
+13:34:45 INFO P1-GEN tahdhib-al-ahkam_1_18_1 (155 words, phased, openai/gpt-5.4)...
+13:34:49 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:49 INFO P2-ENRICH al-kafi_1_4_111_13...
+13:34:49 INFO P4-TRANSLATE al-kafi_1_4_111_13...
+13:34:49 INFO P1-GEN tahdhib-al-ahkam_1_18_20 (81 words, phased, openai/gpt-5.4)...
+13:34:54 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:54 INFO QUARANTINED raw P1 al-kafi_1_4_125_4 (parse error)
+13:34:54 ERROR P1-GEN al-kafi_1_4_125_4 JSON parse failed: Invalid control character at: line 29 column 566 (char 2827)
+13:34:54 INFO P1-GEN tahdhib-al-ahkam_1_18_21 (121 words, phased, openai/gpt-5.4)...
+13:34:57 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:57 INFO P2-ENRICH tahdhib-al-ahkam_1_16_48...
+13:34:57 INFO P4-TRANSLATE tahdhib-al-ahkam_1_16_48...
+13:34:57 INFO P1-GEN tahdhib-al-ahkam_1_33_14 (70 words, phased, openai/gpt-5.4)...
+13:34:57 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:57 INFO P2-ENRICH tahdhib-al-ahkam_1_16_40...
+13:34:57 INFO P4-TRANSLATE tahdhib-al-ahkam_1_16_40...
+13:34:58 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:34:58 INFO P2-ENRICH tahdhib-al-ahkam_1_16_19...
+13:34:58 INFO P4-TRANSLATE tahdhib-al-ahkam_1_16_19...
+13:35:02 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:02 INFO P2-ENRICH tahdhib-al-ahkam_1_18_20...
+13:35:02 INFO P4-TRANSLATE tahdhib-al-ahkam_1_18_20...
+13:35:03 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:03 INFO P2-ENRICH tahdhib-al-ahkam_1_16_17...
+13:35:03 INFO P4-TRANSLATE tahdhib-al-ahkam_1_16_17...
+13:35:07 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:07 INFO P2-ENRICH tahdhib-al-ahkam_1_18_1...
+13:35:07 INFO P4-TRANSLATE tahdhib-al-ahkam_1_18_1...
+13:35:08 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:08 INFO P2-ENRICH tahdhib-al-ahkam_1_16_41...
+13:35:08 INFO P4-TRANSLATE tahdhib-al-ahkam_1_16_41...
+13:35:08 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:08 INFO P2-ENRICH tahdhib-al-ahkam_1_16_24...
+13:35:08 INFO P4-TRANSLATE tahdhib-al-ahkam_1_16_24...
+13:35:09 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:09 ERROR Phase 4 translation batch 0 JSON parse failed: Extra data: line 1 column 6550 (char 6549)
+13:35:09 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_10_14_20.json
+13:35:09 INFO OK tahdhib-al-ahkam_10_14_20 [phased, $0.0265, 718 tok]
+13:35:09 ERROR CRASH tahdhib-al-ahkam_10_14_20 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:11 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:11 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_10_18_29.json
+13:35:11 INFO OK tahdhib-al-ahkam_10_18_29 [phased, $0.0271, 667 tok]
+13:35:11 ERROR CRASH tahdhib-al-ahkam_10_18_29 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:12 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:12 INFO P2-ENRICH tahdhib-al-ahkam_1_18_21...
+13:35:12 INFO P4-TRANSLATE tahdhib-al-ahkam_1_18_21...
+13:35:12 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:12 INFO P2-ENRICH tahdhib-al-ahkam_1_33_14...
+13:35:12 INFO P4-TRANSLATE tahdhib-al-ahkam_1_33_14...
+13:35:16 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:16 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_10_14_2.json
+13:35:16 INFO OK tahdhib-al-ahkam_10_14_2 [phased, $0.0313, 845 tok]
+13:35:16 ERROR CRASH tahdhib-al-ahkam_10_14_2 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:18 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:18 INFO P2-ENRICH tahdhib-al-ahkam_1_11_24...
+13:35:18 INFO P4-TRANSLATE tahdhib-al-ahkam_1_11_24...
+13:35:20 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:20 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_4_87_4.json
+13:35:20 INFO OK al-kafi_1_4_87_4 [phased, $0.0348, 867 tok]
+13:35:20 ERROR CRASH al-kafi_1_4_87_4 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+
+--- Progress [1m] ---
+  Done: 9/22 (pass=4, fix=0, fixed=0, err=5)
+  Rate: 540/hr | ETA: 0.0h
+  Cost: $0.71 (avg $0.0789/verse)
+  Phases: P1=$0.66 | P4=$0.05
+  Out tokens: 33,154
+---
+13:35:24 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:24 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_11_8.json
+13:35:24 INFO OK tahdhib-al-ahkam_1_11_8 [phased, $0.0289, 743 tok]
+13:35:24 ERROR CRASH tahdhib-al-ahkam_1_11_8 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:25 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:25 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:25 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_10_13_1.json
+13:35:25 INFO OK tahdhib-al-ahkam_10_13_1 [phased, $0.0366, 1001 tok]
+13:35:25 ERROR CRASH tahdhib-al-ahkam_10_13_1 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:28 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:29 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:29 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_4_91_7.json
+13:35:29 INFO OK al-kafi_1_4_91_7 [phased, $0.0420, 1138 tok]
+13:35:29 ERROR CRASH al-kafi_1_4_91_7 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:31 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:31 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_4_102_2.json
+13:35:31 INFO OK al-kafi_1_4_102_2 [phased, $0.0477, 1306 tok]
+13:35:31 ERROR CRASH al-kafi_1_4_102_2 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:32 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:32 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_4_80_26.json
+13:35:32 INFO OK al-kafi_1_4_80_26 [phased, $0.0469, 1291 tok]
+13:35:32 ERROR CRASH al-kafi_1_4_80_26 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:35 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:38 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:38 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_16_48.json
+13:35:38 INFO OK tahdhib-al-ahkam_1_16_48 [phased, $0.0556, 1535 tok]
+13:35:38 ERROR CRASH tahdhib-al-ahkam_1_16_48 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:38 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:39 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:39 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_18_20.json
+13:35:39 INFO OK tahdhib-al-ahkam_1_18_20 [phased, $0.0387, 1019 tok]
+13:35:39 ERROR CRASH tahdhib-al-ahkam_1_18_20 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:42 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:43 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:43 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_16_40.json
+13:35:43 INFO OK tahdhib-al-ahkam_1_16_40 [phased, $0.0545, 1585 tok]
+13:35:43 ERROR CRASH tahdhib-al-ahkam_1_16_40 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:44 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:45 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:46 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:46 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_16_19.json
+13:35:46 INFO OK tahdhib-al-ahkam_1_16_19 [phased, $0.0551, 1537 tok]
+13:35:46 ERROR CRASH tahdhib-al-ahkam_1_16_19 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+
+--- Progress [2m] ---
+  Done: 27/22 (pass=13, fix=0, fixed=0, err=14)
+  Rate: 1079/hr | ETA: -0.0h
+  Cost: $0.89 (avg $0.0328/verse)
+  Phases: P1=$0.66 | P4=$0.22
+  Out tokens: 33,154
+---
+13:35:51 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:51 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_18_1.json
+13:35:51 INFO OK tahdhib-al-ahkam_1_18_1 [phased, $0.0562, 1621 tok]
+13:35:51 ERROR CRASH tahdhib-al-ahkam_1_18_1 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:53 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:53 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\al-kafi_1_4_111_13.json
+13:35:53 INFO OK al-kafi_1_4_111_13 [phased, $0.0792, 2112 tok]
+13:35:53 ERROR CRASH al-kafi_1_4_111_13 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:53 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:56 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:56 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_18_21.json
+13:35:56 INFO OK tahdhib-al-ahkam_1_18_21 [phased, $0.0482, 1321 tok]
+13:35:56 ERROR CRASH tahdhib-al-ahkam_1_18_21 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:56 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:56 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_33_14.json
+13:35:56 INFO OK tahdhib-al-ahkam_1_33_14 [phased, $0.0380, 1052 tok]
+13:35:56 ERROR CRASH tahdhib-al-ahkam_1_33_14 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:35:59 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:35:59 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_16_17.json
+13:35:59 INFO OK tahdhib-al-ahkam_1_16_17 [phased, $0.0712, 2081 tok]
+13:35:59 ERROR CRASH tahdhib-al-ahkam_1_16_17 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:36:09 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:36:09 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_16_41.json
+13:36:09 INFO OK tahdhib-al-ahkam_1_16_41 [phased, $0.0786, 2322 tok]
+13:36:09 ERROR CRASH tahdhib-al-ahkam_1_16_41 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+13:36:18 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:36:18 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\tahdhib-al-ahkam_1_16_24.json
+13:36:18 INFO OK tahdhib-al-ahkam_1_16_24 [phased, $0.0911, 2594 tok]
+13:36:18 ERROR CRASH tahdhib-al-ahkam_1_16_24 (phased): name 'stripped' is not defined
+Traceback (most recent call last):
+  File "C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\app\pipeline_cli\pipeline.py", line 1109, in process_verse_phased
+    result_dict=stripped,
+                ^^^^^^^^
+NameError: name 'stripped' is not defined
+
+--- Progress [2m] ---
+  Done: 41/22 (pass=20, fix=0, fixed=0, err=21)
+  Rate: 1229/hr | ETA: -0.0h
+  Cost: $1.09 (avg $0.0267/verse)
+  Phases: P1=$0.66 | P4=$0.43
+  Out tokens: 33,154
+---
+13:36:34 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+13:36:34 WARNING PHASED tahdhib-al-ahkam_1_11_24: 39 validation errors: ["word_tags[4] word 'في' has no diacritics (must be fully diacritized)", "word_tags[13] word 'ذا' has no diacritics (must be fully diacritized)", "word_tags[16] word 'في' has no diacritics (must be fully diacritized)"]
+13:36:34 INFO QUARANTINED tahdhib-al-ahkam_1_11_24 (39 errors)
+
+============================================================
+Pipeline Complete (2.2 min)
+  Total: 42 processed, 0 skipped
+  Pass: 20 | Fixed: 0 | Errors: 22
+  Cost: $1.14 (avg $0.0272/verse)
+  Phase breakdown: P1=$0.66 | P4=$0.48
+  Tokens: In: 66,079 | Out: 33,154
+  Projected 58K corpus: $1577
+============================================================
+13:36:34 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+13:36:34 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\sessions\20260503T123420Z.json
+13:36:34 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260503T123420Z.log
