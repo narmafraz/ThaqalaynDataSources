@@ -1,0 +1,127 @@
+00:50:43 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260503T235043Z.log
+00:50:43 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\pipeline.jsonl
+00:50:43 INFO Word dictionary: 609 entries
+00:50:43 INFO Narrator templates: 1074 entries
+00:50:43 INFO Narrator registry: 4629 entries
+Pipeline v4 starting: 10 verses, 2 workers, mode=phased, backend=openai, p1=gpt-5.4, p4=gpt-4.1-mini
+00:50:43 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+00:50:43 INFO P1-GEN man-la-yahduruhu-al-faqih_1_1_1 (376 words, phased, openai/gpt-5.4)...
+00:50:45 INFO P1-GEN man-la-yahduruhu-al-faqih_1_10_1 (268 words, phased, openai/gpt-5.4)...
+00:51:18 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:51:18 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_10_1...
+00:51:18 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_10_1...
+00:51:18 INFO P1-GEN man-la-yahduruhu-al-faqih_1_10_2 (56 words, phased, openai/gpt-5.4)...
+00:51:30 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:51:30 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_10_2...
+00:51:30 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_10_2...
+00:51:30 INFO P1-GEN man-la-yahduruhu-al-faqih_1_10_3 (18 words, phased, openai/gpt-5.4)...
+00:51:31 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:51:31 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_1_1...
+00:51:31 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_1_1...
+00:51:31 INFO P1-GEN man-la-yahduruhu-al-faqih_1_10_4 (72 words, phased, openai/gpt-5.4)...
+00:51:37 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:51:37 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_10_3...
+00:51:37 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_10_3...
+00:51:37 INFO P1-GEN man-la-yahduruhu-al-faqih_1_11_1 (124 words, phased, openai/gpt-5.4)...
+00:51:43 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:51:43 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_10_4...
+00:51:43 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_10_4...
+00:51:43 INFO P1-GEN man-la-yahduruhu-al-faqih_1_11_2 (65 words, phased, openai/gpt-5.4)...
+00:51:55 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:51:55 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_11_1...
+00:51:55 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_11_1...
+00:51:55 INFO P1-GEN man-la-yahduruhu-al-faqih_1_11_3 (29 words, phased, openai/gpt-5.4)...
+00:51:56 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:51:56 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_11_2...
+00:51:56 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_11_2...
+00:51:56 INFO P1-GEN man-la-yahduruhu-al-faqih_1_11_4 (19 words, phased, openai/gpt-5.4)...
+00:52:03 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:52:03 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_11_4...
+00:52:03 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_11_4...
+00:52:03 INFO P1-GEN man-la-yahduruhu-al-faqih_1_11_5 (11 words, phased, openai/gpt-5.4)...
+00:52:04 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:52:04 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_11_3...
+00:52:04 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_11_3...
+00:52:10 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:52:10 INFO P2-ENRICH man-la-yahduruhu-al-faqih_1_11_5...
+00:52:10 INFO P4-TRANSLATE man-la-yahduruhu-al-faqih_1_11_5...
+00:52:28 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:52:28 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_10_2.json
+00:52:28 INFO OK man-la-yahduruhu-al-faqih_1_10_2 [phased, $0.0242, 843 tok]
+00:52:29 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+
+--- Progress [2m] ---
+  Done: 1/10 (pass=1, fix=0, fixed=0, err=0)
+  Rate: 30/hr | ETA: 0.3h
+  Cost: $0.26 (avg $0.2561/verse)
+  Phases: P1=$0.25 | P4=$0.00
+  Out tokens: 14,830
+---
+00:52:47 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:01 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:01 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_10_1.json
+00:53:01 INFO OK man-la-yahduruhu-al-faqih_1_10_1 [phased, $0.0644, 2560 tok]
+00:53:07 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:12 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:12 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_10_3.json
+00:53:12 INFO OK man-la-yahduruhu-al-faqih_1_10_3 [phased, $0.0160, 503 tok]
+
+--- Progress [3m] ---
+  Done: 3/10 (pass=3, fix=0, fixed=0, err=0)
+  Rate: 72/hr | ETA: 0.1h
+  Cost: $0.27 (avg $0.0913/verse)
+  Phases: P1=$0.25 | P4=$0.02
+  Out tokens: 24,847
+---
+00:53:28 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:29 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_10_4.json
+00:53:29 INFO OK man-la-yahduruhu-al-faqih_1_10_4 [phased, $0.0257, 920 tok]
+00:53:38 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:38 WARNING PHASED man-la-yahduruhu-al-faqih_1_1_1: 7 validation errors: ["word_tags[120] word 'لا' has no diacritics (must be fully diacritized)", "word_tags[142] word 'ما' has no diacritics (must be fully diacritized)", "word_tags[149] word 'لا' has no diacritics (must be fully diacritized)"]
+00:53:38 INFO QUARANTINED man-la-yahduruhu-al-faqih_1_1_1 (7 errors)
+
+--- Progress [3m] ---
+  Done: 5/10 (pass=4, fix=0, fixed=0, err=1)
+  Rate: 100/hr | ETA: 0.1h
+  Cost: $0.30 (avg $0.0597/verse)
+  Phases: P1=$0.25 | P4=$0.05
+  Out tokens: 38,898
+---
+00:53:50 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:55 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:55 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_11_1.json
+00:53:55 INFO OK man-la-yahduruhu-al-faqih_1_11_1 [phased, $0.0345, 1322 tok]
+00:53:56 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:53:56 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_11_2.json
+00:53:56 INFO OK man-la-yahduruhu-al-faqih_1_11_2 [phased, $0.0250, 911 tok]
+00:54:04 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:54:04 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_11_4.json
+00:54:04 INFO OK man-la-yahduruhu-al-faqih_1_11_4 [phased, $0.0136, 511 tok]
+00:54:10 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:54:10 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_11_3.json
+00:54:10 INFO OK man-la-yahduruhu-al-faqih_1_11_3 [phased, $0.0180, 585 tok]
+
+--- Progress [4m] ---
+  Done: 9/10 (pass=8, fix=0, fixed=0, err=1)
+  Rate: 154/hr | ETA: 0.0h
+  Cost: $0.32 (avg $0.0351/verse)
+  Phases: P1=$0.25 | P4=$0.07
+  Out tokens: 48,917
+---
+00:54:14 INFO HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+00:54:14 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\responses\man-la-yahduruhu-al-faqih_1_11_5.json
+00:54:14 INFO OK man-la-yahduruhu-al-faqih_1_11_5 [phased, $0.0140, 412 tok]
+
+============================================================
+Pipeline Complete (3.5 min)
+  Total: 10 processed, 0 skipped
+  Pass: 9 | Fixed: 0 | Errors: 1
+  Cost: $0.32 (avg $0.0318/verse)
+  Phase breakdown: P1=$0.25 | P4=$0.07
+  Tokens: In: 47,909 | Cache-read: 4,992 | Out: 50,174
+  Cache: 10% hit rate (saved ~$0.01 vs full input rate)
+  Projected 58K corpus: $1847
+============================================================
+00:54:14 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+00:54:14 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\sessions\20260503T235043Z.json
+00:54:14 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\corpus\logs\20260503T235043Z.log
