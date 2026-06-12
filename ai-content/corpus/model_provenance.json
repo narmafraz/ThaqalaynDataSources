@@ -1,0 +1,12 @@
+{
+  "qwen36-35b-heretic": {
+    "hf_repo": "AEON-7/Qwen3.6-35B-A3B-heretic-NVFP4",
+    "drafter_hf_repo": "z-lab/Qwen3.6-35B-A3B-DFlash",
+    "base_model": "Qwen/Qwen3.6-35B-A3B",
+    "quantization": "NVFP4",
+    "inference_backend": "vllm via ghcr.io/aeon-7/vllm-spark-omni-q36:v1.2",
+    "hardware": "NVIDIA DGX Spark (GB10, SM_121)",
+    "reasoning_parser": "qwen3 (thinking disabled via chat_template_kwargs)",
+    "notes": "Served with --enable-prefix-caching, --quantization compressed-tensors, --speculative-config dflash, --max-num-seqs 16, --max-model-len 65536. VLLM_NVFP4_GEMM_BACKEND=marlin required for SM_121."
+  }
+}
