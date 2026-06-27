@@ -1,0 +1,266 @@
+{
+  "verse_path": "/books/al-kafi:6:5:15:12",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 10 en words vs 1 ar words (ratio=10.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "worship"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "halal_haram",
+      "ritual_purity"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "arabic_text",
+        "translations": {
+          "en": "From him, from Ibn Sinan, from Quteyba Al-A'sha who said:",
+          "ur": "وہ سے، ابن سینان سے، قتیبہ اعشا سے جو کہتے ہیں:",
+          "tr": "Onunla, İbnü's-Sinân, Kutaybetü'l-Eşâ rivayet etmiştir ki dedi ki:",
+          "fa": "عَنْهُ عَنِ ابْنِ سِنَانٍ عَنْ قُتَيْبَةَ الْأَعْشَى قَالَ",
+          "id": "Dari beliau, dari Ibn Sinan, dari Quteyba Al-A'sha yang Al-A'sha yang berkata:",
+          "bn": "তিনি হতে, ইবনে সিনান হতে, কুতাইবা আল-আশা হতে, যিনি বলেন:",
+          "es": "De él, de Ibn Sinan, de Quteyba Al-Sinán, de Quteyba Al-A'sha, quien dijo:",
+          "fr": "De lui, d'Ibn Sinan, de Quteyba Al-A'sha qui a dit :",
+          "de": "Von ihm, von Ibn Sinan, von Quteyba Al-A'sha, der sagte:",
+          "ru": "От него, от Ибн Синана, от Курайбы аль-Аш'а, который сказал:",
+          "zh": "从他，从伊本·西南，从库泰巴·阿什，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ ذَبَائِحِ الْيَهُودِ وَ النَّصَارَى فَقَالَ الذَّبِيحَةُ اسْمٌ وَ لَا يُؤْمَنُ عَلَى الِاسْمِ إِلَّا مُسْلِمٌ",
+        "translations": {
+          "en": "I asked Abu Abdullah (peace be upon him) about the slaughters of the Jews and the Christians, so he (peace be upon him) said: 'The slaughter is the Naming (Bismillah), and none can be relied upon for the Naming except a Muslim.'",
+          "ur": "میں نے امام عبداللہ (علیہ السلام) سے یہودیوں اور عیسائیوں کے ذبیحے کے بارے میں پوچھا، تو انہوں نے (علیہ السلام) فرمایا: ''ذبیحہ کا اصل نام ہے (بسم اللہ)، اور نام کے لیے مسلمان کے سوا کسی پر بھروسہ نہیں کیا جا سکتا۔''",
+          "tr": "Ben, Ebu Abdullah'd-Derba (aleyhisselam) Yahudilerin ve Hristiyanların kurbanlarından bahsettiğimde, o (aleyhisselam) şöyle buyurdu: 'Kurban, Bismillah demektir ve Bismillah demekten güvenilir olan yalnızca Müslümandir.'",
+          "fa": "از ابو عبدالله (علیه السلام) درباره ذبح یهودیان و مسیحیان پرسیدم، پس او (علیه السلام) فرمود: «ذبح، بسم‌الله گفتن است و جز مسلمان کسی را نمی‌توان در بسم‌الله گفتن مورد اعتماد دانست.»",
+          "id": "Aku bertanya kepada Abu Abdullah (shalatullah ‘alaihi) tentang hewan sembelihan orang-orang Yahudi dan Nasrani, maka beliau (shalatullah ‘alaihi) bersabda: \"Sembelihan itu adalah dengan menyebut nama (Bismillah), dan tidak dapat diandalkan untuk menyebut nama kecuali seorang Muslim.\"",
+          "bn": "আমি আবু আবদুল্লাহর (র.) কাছে ইহুদী ও খ্রিস্টানদের পশুবধ সম্পর্কে জিজ্ঞাসা করলাম, তিনি (র.) বললেন: 'পশুবধ হলো নাম নেওয়া (বিসমিল্লাহ), এবং নাম নেওয়ার বিষয়ে মুসলমান ছাড়া অন্য কারো ওপর নির্ভর করা যাবে না।'",
+          "es": "Pregunté a Abu Abdullah (que la paz sea con él) sobre las carnes sacrificadas de los judíos y los cristianos, y él (que la paz sea con él) dijo: 'El sacrificio es la Mención (Bismillah), y nadie puede ser tenido por fiable para la Mención excepto un musulmán.'",
+          "fr": "J'ai demandé à Abou Abdullah (que la paix soit sur lui) au sujet des abattages des Juifs et des Chrétiens, et il (que la paix soit sur lui) a dit : « L'abattage est la Mention (Bismillah), et on ne peut se fier à la Mention qu'à un Musulman. »",
+          "de": "Ich fragte Abu Abdullah (Friede sei mit ihm) fragte nach dem Schlachten der Juden und der Christen, da sagte er (Friede sei mit ihm): „Das Schlachten ist das Aussprechen des Namens (Bismillah), und außer einem Muslim kann sich niemand auf das Aussprechen des Namens verlassen.“",
+          "ru": "Я спросил Абу Абдуллаха (да будет мир с ним) о забоях иудеев и христиан, и он (да будет мир с ним) сказал: «Забой — это произнесение имени (Бисмиллях), и на произнесение имени можно полагаться только от мусульманина».",
+          "zh": "我问阿卜杜拉（愿主福安之）关于犹太人和基督徒的宰杀，他（愿主福安之）说：宰杀的关键在于念诵（比斯米拉），而念诵比斯米拉者唯有穆斯林方可信赖。"
+        },
+        "word_start": 1,
+        "word_end": 24
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Sadiq (peace be upon him) clarifies that 'al-dhabihah' (the slaughtered animal) is intrinsically linked to the invocation of God's name, establishing a condition for validity. He asserts that since we cannot be certain the People of the Book invoke the true God exclusively or correctly, only a Muslim is trusted (mu'man 'alayhi) to have performed the valid naming, thereby rendering their general slaughter suspect unless specified otherwise. This ruling highlights the Shia emphasis on the certainty of the divine name in the act of slaughter rather than merely the identity of the slaughterer.",
+        "seo_question": "What is the condition for the validity of slaughtering animals from the People of the Book according to Shia jurisprudence?",
+        "key_terms": {
+          "ذَبَائِحِ": "Slaughters (plural of dhabihah)",
+          "الْيَهُودِ": "The Jews",
+          "النَّصَارَى": "The Christians",
+          "الذَّبِيحَةُ": "The slaughtered animal / The act of slaughter",
+          "الاسْمِ": "The Name (referring to Bismillah)",
+          "مُسْلِمٌ": "Muslim"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (علیہ السلام) واضح کرتے ہیں کہ 'الذبیحہ' (کوتا ہوا جانور) اللہ کے نام لینے سے ذاتی طور پر منسلک ہے، جو اس کی صحت کے لیے ایک شرط قائم کرتا ہے۔ وہ کہتے ہیں کہ چونکہ ہم اس بات کا یقین نہیں کر سکتے کہ اہل کتاب صرف اور صرف حق خدا کا نام لیتے ہیں یا درست طریقے سے لیتے ہیں، اس لیے صرف مسلمان کو قابل اعتماد (مؤمن علیہ) سمجھا جاتا ہے کہ اس نے صحیح نام لینے کا کام انجام دیا ہے، لہذا ان کا عام ذبح مشکوک ہے جب تک کہ خاص طور پر بیان نہ کیا جائے۔ یہ حکم شیعہ کے ذبح کے عمل میں ذبح کرنے والے کی شناخت کے بجائے الٰہی نام کی یقینیت پر زور کو اجاگر کرتا ہے۔",
+        "seo_question": "شیعہ فقہ کے مطابق اہل کتاب کے جانوروں کے ذبح کرنے کی صحت کی شرط کیا ہے؟",
+        "key_terms": {
+          "ذَبَائِحِ": "ذبیح (ذبیحہ کا جمع)",
+          "الْيَهُودِ": "یہود",
+          "النَّصَارَى": "نصاریٰ",
+          "الذَّبِيحَةُ": "کوتا ہوا جانور / ذبح کا عمل",
+          "الاسْمِ": "نام (بسم اللہ کی طرف اشارہ)",
+          "مُسْلِمٌ": "مسلمان"
+        }
+      },
+      "tr": {
+        "summary": "İmam es-Sadık (aleyhümla, 'el-zebîha'nın (kesilen hayvan) Allah'ın isminin anılmasına içsel olarak bağlı olduğunu ve geçerlilik için bir şart oluşturduğunu açıklar. Ehl-i Kitap'ın Allah'ı yalnızca ve doğru şekilde anıp anmadığından emin olamayacağımız için, yalnızca Müslüman'ın geçerli isimlendirmeyi yaptığına güvenildiğini (mü'men aleyhi) ileri sürer; bu nedenle onların genel kesimleri aksi belirtilmedikçe şüpheli kabul edilir. Bu hüküm, Şii fıkhında kesim eyleminde kesen kişinin kimliğinden çok, ilahi ismin kesinliğine vurgu yapılmasını ortaya koyar.",
+        "seo_question": "Şii fıkhına göre Ehl-i Kitap'tan gelen hayvanların kesilmesinin geçerliliği için hangi şart aranır?",
+        "key_terms": {
+          "ذَبَائِحِ": "Kesimler (zebîha'nın çoğulu)",
+          "الْيَهُودِ": "Yahudiler",
+          "النَّصَارَى": "Hristiyanlar",
+          "الذَّبِيحَةُ": "Kesilen hayvan / Kesim eylemi",
+          "الاسْمِ": "İsim (Bismillah'a atıfta bulunur)",
+          "مُسْلِمٌ": "Müslüman"
+        }
+      },
+      "fa": {
+        "summary": "امام صادق (علیه السلام) توضیح می‌دهد که «ذبیحه» (حیوان ذبح شده) ذاتاً با ذکر نام خدا پیوند دارد و شرط صحت را ایجاد می‌کند. او بیان می‌کند که از آنجا که نمی‌توان مطمئن بود اهل کتاب تنها یا به درستی نام خدای حقیقی را می‌برند، تنها مسلمان مورد اعتماد است (مؤمن‌الیه) که نام‌گذاری صحیح را انجام داده است، بنابراین ذبح عمومی آن‌ها مشکوک است مگر اینکه خلاف آن مشخص شود. این حکم بر تأکید شیعه بر قطعیت ذکر نام الهی در عمل ذبح، نه صرفاً هویت ذبح‌کننده، تأکید دارد.",
+        "seo_question": "شرط صحت ذبح حیوانات از اهل کتاب طبق فقه شیعه چیست؟",
+        "key_terms": {
+          "ذَبَائِحِ": "ذبیح‌ها (جمع ذبیحه)",
+          "الْيَهُودِ": "یهودیان",
+          "النَّصَارَى": "نصارا (مسیحیان)",
+          "الذَّبِيحَةُ": "حیوان ذبح شده / عمل ذبح",
+          "الاسْمِ": "نام (اشاره به بسم‌الله)",
+          "مُسْلِمٌ": "مسلمان"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Sadiq (alamah) menjelaskan bahwa 'al-dhabihah' (hewan yang disembelih) secara intrinsik terkait dengan seruan nama Allah, yang menetapkan syarat keabsahan. Ia menegaskan bahwa karena kita tidak dapat memastikan apakah Ahli Kitab menyebut nama Allah yang benar secara eksklusif atau dengan benar, hanya seorang Muslim yang dipercaya (mu'man 'alayhi) untuk telah melakukan penamaan yang valid, sehingga penyembelihan umum mereka dianggap meragukan kecuali dinyatakan sebaliknya. Hukum ini menyoroti penekanan Syiah pada kepastian nama ilahi dalam tindakan penyembelihan daripada sekadar identitas penyembelih.",
+        "seo_question": "Apa syarat keabsahan penyembelihan hewan dari Ahli Kitab menurut fikih Syiah?",
+        "key_terms": {
+          "ذَبَائِحِ": "Penyembelihan (jamak dari dhabihah)",
+          "الْيَهُودِ": "Orang-orang Yahudi",
+          "النَّصَارَى": "Orang-orang Nasrani",
+          "الذَّبِيحَةُ": "Hewan yang disembelih / Tindakan penyembelihan",
+          "الاسْمِ": "Nama (merujuk pada Bismillah)",
+          "مُسْلِمٌ": "Muslim"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিق (আলাইহিস সালাম) স্পষ্ট করেন যে, 'আল-যাবিহা' (খাসা পশু) ঈশ্বরের নামের উল্লেখের সাথে অন্তর্নিহিতভাবে যুক্ত, যা বৈধতার একটি শর্ত প্রতিষ্ঠা করে। তিনি দাবি করেন যে, যেহেতু আমরা নিশ্চিত নই যে কিতাবি লোকেরা একমাত্র সত্য ঈশ্বরের নাম সঠিকভাবে উচ্চারণ করেছেন, তাই বৈধ নামকরণ সম্পন্ন করেছেন বলে কেবল একজন মুসলমানকে বিশ্বাসযোগ্য (মু'মান আলাইহি) মনে করা হয়, ফলে তাদের সাধারণ খাসা পশু সন্দেহজনক হয়ে দাঁড়ায়, যদি না অন্যথা উল্লেখ করা হয়। এই ফতোয়া খাসা পশুর কাজে কেবল খাসা পশুর পরিচয় নয়, বরং ঈশ্বরের নামের নিশ্চয়তার ওপর শিয়া জোর দেয়।",
+        "seo_question": "শিয়া ফিকহের মতে কিতাবি লোকদের খাসা পশুর বৈধতার শর্ত কী?",
+        "key_terms": {
+          "ذَبَائِحِ": "খাসা পশু (যাবিহাহ-এর বহুবচন)",
+          "الْيَهُودِ": "ইহুদীরা",
+          "النَّصَارَى": "খ্রিস্টানরা",
+          "الذَّبِيحَةُ": "খাসা পশু / খাসা করার কাজ",
+          "الاسْمِ": "নাম (বিসমিল্লাহ-কে নির্দেশ করে)",
+          "مُسْلِمٌ": "মুসলিম"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Sadiq (que la paz sea con él) aclara que 'al-dhabihah' (el animal sacrificado) está intrínsecamente vinculada a la invocación del nombre de Dios, estableciendo una condición para su validez. Afirma que, dado que no podemos estar seguros de que la Gente del Libro invoque exclusivamente o correctamente al Dios verdadero, solo se confía en que un musulmán ha realizado la invocación válida, lo que hace que su sacrificio general sea dudoso a menos que se especifique lo contrario. Este dictamen destaca el énfasis chií en la certeza del nombre divino en el acto del sacrificio más que en la identidad del sacrificador.",
+        "seo_question": "¿Cuál es la condición para la validez del sacrificio de animales de la Gente del Libro según la jurisprudencia chií?",
+        "key_terms": {
+          "ذَبَائِحِ": "Sacrificios (plural de dhabihah)",
+          "الْيَهُودِ": "Los judíos",
+          "النَّصَارَى": "Los cristianos",
+          "الذَّبِيحَةُ": "El animal sacrificado / El acto de sacrificio",
+          "الاسْمِ": "El Nombre (refiriéndose a Bismillah)",
+          "مُسْلِمٌ": "Musulmán"
+        }
+      },
+      "fr": {
+        "summary": "L'imam al-Sadiq (que la paix soit sur lui) précise que 'al-dhabihah' (l'animal abattu) est intrinsèquement lié à l'invocation du nom de Dieu, établissant une condition de validité. Il affirme que, puisque nous ne pouvons être certains que les Gens du Livre invoquent exclusivement ou correctement le vrai Dieu, seul un musulman est considéré comme digne de confiance (mu'man 'alayhi) pour avoir accompli la dénomination valide, rendant ainsi leur abattage général suspect sauf indication contraire. Ce jugement met en évidence l'accent mis par le chiisme sur la certitude du nom divin dans l'acte d'abattage plutôt que sur la simple identité de l'abatteur.",
+        "seo_question": "Quelle est la condition de validité de l'abattage des animaux par les Gens du Livre selon la jurisprudence chiite ?",
+        "key_terms": {
+          "ذَبَائِحِ": "Abattages (pluriel de dhabihah)",
+          "الْيَهُودِ": "Les Juifs",
+          "النَّصَارَى": "Les Chrétiens",
+          "الذَّبِيحَةُ": "L'animal abattu / L'acte d'abattage",
+          "الاسْمِ": "Le Nom (se référant à Bismillah)",
+          "مُسْلِمٌ": "Musulman"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Sadiq (Friede sei mit ihm) klärt auf, dass die 'al-dhabihah' (das geschlachtete Tier) untrennbar mit der Nennung des Namens Gottes verbunden ist, was eine Bedingung für die Gültigkeit darstellt. Er behauptet, dass, da wir nicht sicher sein können, ob die People of the Book (Schriftbesitzer) Gott ausschließlich oder korrekt anrufen, nur ein Muslim als vertrauenswürdig (mu'man 'alayhi) gilt, die gültige Nennung durchgeführt zu haben, wodurch ihr allgemeines Schlachten verdächtig ist, sofern nicht anders angegeben. Diese Rechtsregel unterstreicht die schiitische Betonung der Sicherheit des göttlichen Namens im Akt des Schlachtens, anstatt nur der Identität des Schlachters.",
+        "seo_question": "Was ist die Bedingung für die Gültigkeit des Schlachtens von Tieren aus den People of the Book (Schriftbesitzern) nach der schiitischen Jurisprudenz?",
+        "key_terms": {
+          "ذَبَائِحِ": "Schlachten (Plural von dhabihah)",
+          "الْيَهُودِ": "Die Juden",
+          "النَّصَارَى": "Die Christen",
+          "الذَّبِيحَةُ": "Das geschlachtete Tier / Der Akt des Schlachtens",
+          "الاسْمِ": "Der Name (bezieht sich auf Bismillah)",
+          "مُسْلِمٌ": "Muslim"
+        }
+      },
+      "ru": {
+        "summary": "Имам ас-Садык (да будет над ним мир) разъясняет, что «аз-забиха» (забойное животное) неразрывно связано с произнесением имени Аллаха, что устанавливает условие действительности. Он утверждает, что, поскольку мы не можем быть уверены, что Люди Писания призывают истинного Бога исключительно или правильно, только мусульманин заслуживает доверия (муъман алейхи) в том, что он совершил действительное произнесение имени, тем самым делая их общий забой сомнительным, если не указано иное. Это постановление подчеркивает шиитский акцент на достоверности божественного имени в акте забоя, а не просто на личности забойщика.",
+        "seo_question": "Какое условие является действительным для забоя животных от Людей Писания согласно шиитскому фикху?",
+        "key_terms": {
+          "ذَبَائِحِ": "Забои (множественное число от забиха)",
+          "الْيَهُودِ": "Иудеи",
+          "النَّصَارَى": "Христиане",
+          "الذَّبِيحَةُ": "Забойное животное / Акт забоя",
+          "الاسْمِ": "Имя (относится к Бисмиллях)",
+          "مُسْلِمٌ": "Мусульманин"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目萨迪克德（愿主福安之）阐明，宰杀动物（al-dhabihah）与奉真主之名（tasmiyah）内在相连，构成其有效性的条件。他断言，由于我们无法确定有经人是否独一且正确地奉真主之名，因此只有穆斯林被信任（mu'man 'alayhi）已正确执行了有效的命名，从而使其一般性的宰杀行为变得可疑，除非另有说明。这一裁决凸显了什叶派强调宰杀行为中真主之名的确定性，而非仅仅关注宰杀者的身份。",
+        "seo_question": "根据什叶派教法学，有经人宰杀动物的有效性条件是什么？",
+        "key_terms": {
+          "ذَبَائِحِ": "宰杀（dhabihah的复数）",
+          "الْيَهُودِ": "犹太人",
+          "النَّصَارَى": "基督徒",
+          "الذَّبِيحَةُ": "被宰杀的动物/宰杀行为",
+          "الاسْمِ": "尊名（指Bismillah）",
+          "مُسْلِمٌ": "穆斯林"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "6:118",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:5",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "6:121",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "arabic_text سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ ذَبَائِحِ الْيَهُودِ وَ النَّصَارَى فَقَالَ الذَّبِيحَةُ اسْمٌ وَ لَا يُؤْمَنُ عَلَى الِاسْمِ إِلَّا مُسْلِمٌ",
+    "isnad_matn": {
+      "isnad_ar": "arabic_text",
+      "matn_ar": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ ذَبَائِحِ الْيَهُودِ وَ النَّصَارَى فَقَالَ الذَّبِيحَةُ اسْمٌ وَ لَا يُؤْمَنُ عَلَى الِاسْمِ إِلَّا مُسْلِمٌ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَنْهُ",
+          "name_en": "from him",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 11
+        },
+        {
+          "name_ar": "ابْنِ سِنَانٍ",
+          "name_en": "Ibn Sinan",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 104
+        },
+        {
+          "name_ar": "قُتَيْبَةَ الْأَعْشَى",
+          "name_en": "Qutayba al-A'sha",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 451
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

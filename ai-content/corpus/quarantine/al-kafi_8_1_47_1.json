@@ -1,0 +1,502 @@
+{
+  "verse_path": "/books/al-kafi:8:1:47:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[6] name_ar has 20 words (>14, بن-density 0.05 — likely a sentence fragment, not a name): 'أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ سُئِلَ هَلْ كَانَ'",
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[2] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[5] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[6] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[6] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[8] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[8] word 'السلام)' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "history",
+      "prophetic_tradition"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "prophets",
+      "miracles",
+      "death_dying",
+      "resurrection"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مَحْبُوبٍ عَنْ أَبِي جَمِيلَةَ عَنْ أَبَانِ بْنِ تَغْلِبَ وَ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ سُئِلَ",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad ibn Isa, from Al-Hasan ibn Mahboub, from Abu Jameela, from Aban ibn Taglib and others, from Abu Abdillah (peace be upon him), that he was asked:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد بن عیسیٰ سے، حسن بن محبوب سے، ابو جمیلة سے، ابان بن تغلب اور دیگر سے، ابوعبد اللہ (علیہ السلام) سے روایت ہے کہ ان سے پوچھا گیا:",
+          "tr": "Muhemmed ibn Yahya, Ahmed ibn Muhammed ibn İsa'dan, el-Hasan ibn Mahbub'tan, Ebu Cemile'den, Aban ibn Tağlib ve başkalarından, Ebu Abdillah'dan (aleyhisselam), kendisine soruldu ki:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى، عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ، عَنْ أَبِي جَمِيلَةَ، عَنْ أَبَانِ بْنِ تَغْلِبَ وَ غَيْرِهِ، عَنْ أَبِي عَبْدِ اللَّهِ (علیه السلام)، قَالَ: سُئِلَ",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad ibn Isa, dari Al-Hasan ibn Mahboub, dari Abu Jameela, dari Aban ibn Taglib dan lainnya, dari Abu Abdillah (alamah), bahwa ia ditanya:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ ইবনে ঈসা হতে, আল-হাসান ইবনে মাহবুব হতে, আবু জামীলা হতে, আবান ইবনে তাগলিব ও অন্যান্যদের হতে, আবু আবদিল্লাহ (আলাইহিস সালাম) থেকে বর্ণিত যে, তাঁকে জিজ্ঞাসা করা হয়েছিল:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, de Al-Hasan ibn Mahboub, de Abu Jameela, de Aban ibn Taglib y otros, de Abu Abdillah (que la paz sea con él), que se le preguntó:",
+          "fr": "Muhammad ibn Yahya, d'Ahmad ibn Muhammad ibn Isa, d'Al-Hasan ibn Mahboub, d'Abu Jameela, d'Aban ibn Taglib et d'autres, d'Abu Abdillah (que la paix soit sur lui), qu'on lui a demandé :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad ibn Isa, von Al-Hasan ibn Mahboub, von Abu Jameela, von Aban ibn Taglib und anderen, von Abu Abdillah (friede sei mit ihm), dass er gefragt wurde:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада ибн Исы, от аль-Хасана ибн Махбуба, от Абу Джамилы, от Абана ибн Таглиба и других, от Абу Абдилляха (да будет мир с ним), что его спросили:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德·本·伊萨，传自哈桑·本·马布乌，传自艾布·贾米莱，传自阿班·本·塔格利布及其他人，传自艾布·阿卜杜拉（愿主喜悦之），他曾被人问及："
+        },
+        "word_start": 0,
+        "word_end": 32
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "هَلْ كَانَ عِيسَى ابْنُ مَرْيَمَ أَحْيَا أَحَداً بَعْدَ مَوْتِهِ حَتَّى كَانَ لَهُ أَكْلٌ وَ رِزْقٌ وَ مُدَّةٌ وَ وَلَدٌ فَقَالَ نَعَمْ",
+        "translations": {
+          "en": "'Did Isa ibn Maryam revive anyone after his death to the extent that he ate, received sustenance, had a term, and children?' He said: 'Yes.'",
+          "ur": "کیا عیسیٰ بن مریم نے اپنی موت کے بعد کسی کو ایسا زندہ کیا کہ وہ کھاتا، رزق پاتا، مدت ہوتی اور بچے ہوتے؟ انہوں نے کہا: جی ہاں۔",
+          "tr": "İsa ibn Meryam, ölümünden sonra yiyip içtiği, rızık aldığı, müddeti olduğu ve çocukları olduğu ölçüde kimseyi diriltti mi?",
+          "fa": "آیا عیسی بن مریم‌زاد پس از مرگش کسی را زنده کرد تا آنجا که غذا خورد، روزی گرفت، مدت داشت و فرزند داشت؟",
+          "id": "Apakah Isa bin Maryam menghidupkan seseorang setelah kematiannya hingga ia makan, menerima rezeki, memiliki batas waktu, dan anak-anak?",
+          "bn": "ঈসা ইবনে মরিয়ম কি তার মৃত্যুর পর এমন কাউকে জীবিত করেছিলেন যে খেত, রিজিক পেত, নির্দিষ্ট সময় পর্যন্ত বেঁচে থাকত এবং সন্তানও ছিল? তিনি বললেন: 'হ্যাঁ।'",
+          "es": "¿Acaso Isa ibn Maryam resucitó a alguien después de su muerte, de tal manera que comía, recibía sustento, tenía un plazo y hijos? Dijo: 'Sí'.",
+          "fr": "« Est-ce qu’Isa ibn Maryam a ressuscité quelqu’un après sa mort, au point qu’il mangeait, recevait sa subsistance, avait une durée de vie et des enfants ? » Il dit : « Oui. »",
+          "de": "Hat Isa ibn Maryam jemanden nach seinem Tod wieder zum Leben erweckt, sodass er aß, Nahrung erhielt, eine Lebensdauer hatte und Kinder? Er sagte: Ja.",
+          "ru": "Оживил ли Иса ибн Марьям кого-либо после своей смерти до такой степени, что он ел, получал пропитание, имел срок и детей?",
+          "zh": "尔撒·本·麦尔彦死后曾使人复活，以至于那人能进食、获得给养、有寿限并生育子女吗？"
+        },
+        "word_start": 32,
+        "word_end": 53
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّهُ كَانَ لَهُ صَدِيقٌ مُوَاخٍ لَهُ فِي اللَّهِ تَبَارَكَ وَ تَعَالَى وَ كَانَ عِيسَى (عليه السلام) يَمُرُّ بِهِ وَ يَنْزِلُ عَلَيْهِ",
+        "translations": {
+          "en": "Indeed, he had a friend who was his brother in Allah, Blessed and Exalted, and Isa (peace be upon him) used to pass by him and visit him.",
+          "ur": "بے شک، اس کا ایک دوست تھا جو اللہ تعالیٰ کے نزدیک اس کا بھائی تھا، اور عیسیٰ (علیہ السلام) اس کے پاس سے گزرتے اور اس سے ملاقات کرتے۔",
+          "tr": "Şüphesiz onun, Allah Teâlâ'nın dostu olan bir arkadaşı vardı ve İsa (aleyhisselâm) ona uğrayıp ziyaret ederdi.",
+          "fa": "همانا او دوستی داشت که برادر او در خداوند، بزرگ و برتر، بود و عیسی (علیه السلام) از کنار او می‌گذشت و به دیدارش می‌رفت.",
+          "id": "Sesungguhnya, dia memiliki seorang teman yang merupakan saudaranya karena Allah, Yang Maha Berkehendak dan Maha Tinggi, dan Isa (alamaihissalam) biasa lewat di sampingnya dan mengunjunginya.",
+          "bn": "নিশ্চয়ই, তার এক বন্ধু ছিলেন যিনি আল্লাহর নিকট বরকতময় ও মহান, এবং ঈসা (আ.) তাঁর নিকট দিয়ে যাওয়ার সময় তাঁর সান্নিধ্যে আসতেন এবং সাক্ষাৎ করতেন।",
+          "es": "En verdad, él tenía un amigo que era su hermano en Allah, Bendito y Exaltado, y Isa (que la paz sea con él) solía pasar por él y visitarlo.",
+          "fr": "En vérité, il avait un ami qui était son frère en Allah, Béni et Exalté, et ‘Îsa (que la paix soit sur lui) passait par chez lui et le visitait.",
+          "de": "Wahrlich, er hatte einen Freund, der sein Bruder im Allah, dem Gepriesenen und Erhabenen, war, und Isa (Friede sei mit ihm) pflegte an ihm vorbeizugehen und ihn zu besuchen.",
+          "ru": "Воистину, у него был друг, который был его братом по Аллаху, Всевышнему, и Иса (мир ему) проходил мимо него и навещал его.",
+          "zh": "他确有一位挚友，是安拉（受赞颂者，超绝万物）中的兄弟，尔萨（愿主赐他平安）常从他身边经过并探望他。"
+        },
+        "word_start": 53,
+        "word_end": 74
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ إِنَّ عِيسَى غَابَ عَنْهُ حِيناً ثُمَّ مَرَّ بِهِ لِيُسَلِّمَ عَلَيْهِ فَخَرَجَتْ إِلَيْهِ أُمُّهُ فَسَأَلَهَا عَنْهُ فَقَالَتْ مَاتَ يَا رَسُولَ اللَّهِ",
+        "translations": {
+          "en": "And Isa remained absent from him for a while, then passed by his house to greet him. His mother came out to him, so he asked her about him. She said, 'He died, O Messenger of Allah.'",
+          "ur": "اور عیسیٰ (علیہ السلام) کچھ عرصہ تک غائب رہے، پھر اس کے گھر سے گزر کر اس کی عیادت کے لیے آئے۔ اس کی ماں باہر آئی، تو انہوں نے اس کے بارے میں پوچھا۔ اس نے کہا، 'وہ مر گئے، اے اللہ کے رسول۔'",
+          "tr": "İsa bir süre ondan uzak kaldı, sonra evine uğrayarak selam vermek için geldi. Annesi dışarı çıktı, o da kendisinden sordu. O da, 'Ey Allah'ın Rasûlü, öldü,' dedi.",
+          "fa": "و عیسی مدتی از او غایب ماند، سپس از خانه‌اش گذشت تا به او سلام کند. مادرش بیرون آمد، پس او درباره‌اش از او پرسید. او گفت: «مرد، ای پیامبر خدا.»",
+          "id": "Maka Isa tetap tidak hadir bersamanya untuk beberapa waktu, lalu ia lewat di depan rumahnya untuk memberi salam. Ibunya keluar kepadanya, maka ia bertanya kepadanya tentangnya. Ia berkata, 'Ia telah wafat, wahai Utusan Allah.' }",
+          "bn": "এবং ঈসা (আ.)) কিছুক্ষণের জন্য তাঁর থেকে অনুপস্থিত ছিলেন, তারপর তাঁর বাড়ির পাশ দিয়ে যাবার সময় তাঁকে অভিবাদন করতে গেলেন। তাঁর মা বেরিয়ে এলেন, তাই তিনি তাঁকে নিয়ে জিজ্ঞাসা করলেন। তিনি বললেন, 'মৃত্যুবরণ করেছেন, আল্লাহর রাসূল।'।",
+          "es": "Y ‘Isa permaneció ausente de él por un tiempo, luego pasó por su casa para saludarlo. Su madre salió hacia él, por lo que él le preguntó por él. Ella dijo: 'Murió, ¡oh Mensajero de Alá!'",
+          "fr": "Et ‘Îsa resta absent de lui pendant un moment, puis il passa devant sa maison pour lui rendre visite. Sa mère sortit à sa rencontre, alors il lui demanda de lui. Elle dit : « Il est mort, ô Messager d'Allah. »",
+          "de": "Und Isa blieb ihm eine Zeit lang fern, dann ging er an seinem Haus vorbei, um ihn zu begrüßen. Seine Mutter kam zu ihm heraus, da fragte er sie nach ihm. Sie sagte: 'Er ist gestorben, o Gesandter Allahs.'",
+          "ru": "Иса (мир ему) оставался в стороне от него некоторое время, а затем прошёл мимо его дома, чтобы приветствовать его. Из дома вышла его мать, и он спросил её о нём. Она сказала: «Он умер, о Посланник Аллаха».",
+          "zh": "尔撒（Isa）曾有一段时间未与他见面，后来路过他的家去问候他。他的母亲出来见他，他便向她询问他的情况。她说：‘他去世了，真主的使者啊。’"
+        },
+        "word_start": 74,
+        "word_end": 95
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ أَ فَتُحِبِّينَ أَنْ تَرَاهُ قَالَتْ نَعَمْ فَقَالَ لَهَا فَإِذَا كَانَ غَداً فَآتِيكِ حَتَّى أُحْيِيَهُ لَكِ بِإِذْنِ اللَّهِ تَبَارَكَ وَ تَعَالَى",
+        "translations": {
+          "en": "He said: 'Would you love to see him?' She said: 'Yes.' He said to her: 'When it is tomorrow, come to me so that I may revive him for you by the permission of Allah, Blessed and Exalted.'",
+          "ur": "انہوں نے کہا: کیا تم اسے دیکھنا پسند کرو گی؟ انہوں نے کہا: جی ہاں۔ انہوں نے ان سے کہا: جب کل ہو تو میرے پاس آؤ تاکہ میں اللہ کی اجازت سے، جو بڑا برکت والا اور بلند مرتبہ ہے، اسے تمہارے لیے زندہ کر دوں۔",
+          "tr": "Dedi ki: 'Onu görmek ister misin?' Dedi ki: 'Evet.' Ona dedi ki: 'Yarın gel, Allah'ın izniyle onu sana dirilteyim; O, Mübarek ve Yüce'dir.'",
+          "fa": "گفت: «آیا دوست داری او را ببینی؟» گفت: «بله.» به او گفت: «وقد فردا شد، نزد من بیا تا به اذن الله، تعالی و برکت، او را برای زنده‌ات کنم.»",
+          "id": "Ia berkata, ",
+          "bn": "সে বলল, 'তুমি কি তাকে দেখতে চাও?' সে বলল, 'হ্যাঁ।' সে তাকে বলল, 'যখন আগামীকাল হবে, তখন আমার কাছে এসো, যাতে আমি আল্লাহর অনুমতিতে, যিনি বরকতময় ও মহান, তোমার জন্য তাকে জীবিত করি।'",
+          "es": "Dijo él: '¿Te gustaría verlo?' Ella dijo: 'Sí'. Él le dijo: 'Cuando sea mañana, ven a mí para que, por permiso de Allah, Bendito y Exaltado, lo haga revivir para ti'.",
+          "fr": "Il dit : « Veux-tu le voir ? Elle dit : « Oui. » Il lui dit : « Demain, viens à moi afin que je le fasse revivre pour toi, par la permission d'Allah, le Béni et l'Exalté. »",
+          "de": "Er sagte: 'Würdest du ihn sehen wollen?' Sie sagte: 'Ja.' Er sagte zu ihr: 'Wenn es morgen ist, komm zu mir, damit ich ihn durch die Erlaubnis Allahs, des Gepriesenen und Erhabenen, für dich wiederbelebe.'",
+          "ru": "Он сказал: «Не сказал: «Разве ты не хочешь увидеть его?» Она сказала: «Да». Он сказал ей: «Когда наступит завтра, придешь ко мне, чтобы я оживил его для тебя по дозволению Аллаха, Благословенного и Возвышенного».",
+          "zh": "他说：‘你愿意看看他吗？’她说：‘愿意。’他对她说：‘明天你来找我，以便我奉真主（受赞美、被崇高）的许可使他复活。’"
+        },
+        "word_start": 95,
+        "word_end": 116
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمَّا كَانَ مِنَ الْغَدِ أَتَاهَا فَقَالَ لَهَا انْطَلِقِي مَعِي إِلَى قَبْرِهِ فَانْطَلَقَا حَتَّى أَتَيَا قَبْرَهُ فَوَقَفَ عَلَيْهِ عِيسَى (عليه السلام) ثُمَّ دَعَا اللَّهَ عَزَّ وَ جَلَّ فَانْفَرَجَ الْقَبْرُ وَ خَرَجَ ابْنُهَا حَيّاً",
+        "translations": {
+          "en": "So when it was the next day, he came to her and said to her: 'Go with me to his grave.' So they went until they arrived at his grave. Isa (peace be upon him) stood over it, then supplicated to Allah, Exalted and Glorious. The grave split open and her son came out alive.",
+          "ur": "پھر جب اگلا دن ہوا تو وہ اس کے پاس آیا اور اس سے کہا: میرے ساتھ اس کے مزار پر چلو۔ پس وہ دونوں چلے یہاں تک کہ اس کے مزار پر پہنچ گئے۔ عیسیٰ (علیہ السلام) اس کے اوپر کھڑے ہوئے، پھر اللہ تعالیٰ سے دعا کی، جو کہ بلند و برتر اور جلیل القدر ہے۔ مزار کھل گیا اور اس کا بیٹا زندہ باہر آیا۔",
+          "tr": "Sonra ertesi gün o, yanına gelip: 'Benimle onun mezarına gidelim,' dedi. Öyle ki, mezarına varıncaya kadar gittiler. İsa (aleyhisselam) mezarın üzerinde durdu, sonra Allah'a (azze ve celle) duada bulundu. Mezar yarıldı ve oğullu hayata geldi.",
+          "fa": "پس از آنکه روز بعد فرا رسید، او نزد او آمد و به او گفت: «با من به سوی قبرش برو.» پس رفتند تا به قبرش رسیدند. عیسی (علیه السلام) بر فراز آن ایستاد، سپس به خداوند متعال و جلیل دعا کرد. قبر شکافت و پسرش زنده بیرون آمد.",
+          "id": "Maka ketika hari berikutnya, ia datang kepadanya dan berkata kepadanya, 'Pergilah bersamaku ke kuburnya.' Maka mereka pergi hingga tiba di kuburnya. Isa (alamahisalam) berdiri di atasnya, kemudian berdoa kepada Allah, Yang Maha Tinggi dan Maha Mulia. Kuburnya terbelah dan putranya keluar dalam keadaan hidup.",
+          "bn": "অতঃপর পরের দিন সে তার কাছে এলো এবং তাকে বললো, 'আমার সাথে তার কবরে চলো।' অতএব তারা গেলো যতক্ষণ না তারা তার কবরে পৌঁছালো। ঈসা (আ.) তার উপর দাঁড়ালেন, অতঃপর আল্লাহর কাছে দোয়া করলেন, মহিমান্বিত ও মহান। কবর ফেটে গেলো এবং তার পুত্র জীবিত অবস্থায় বেরিয়ে এলো।",
+          "es": "Así que, al día siguiente, él fue a ella y le dijo: 'Ven conmigo a su tumba'. Así que fueron hasta llegar a su tumba. Isa (que la paz sea con él) se colocó sobre ella, luego suplicó a Alá, Exaltado y Glorioso. La tumba se abrió y su hijo salió vivo.",
+          "fr": "Alors, quand ce fut le lendemain, il vint vers elle et lui dit : « Va avec moi à sa tombe. » Ils partirent jusqu'à ce qu'ils arrivent à sa tombe. Isa (que la paix soit sur lui) se tint au-dessus d'elle, puis implora Allah, Exalté et Glorieux. La tombe s'ouvrit et son fils en sortit vivant.",
+          "de": "Als dann der nächste Tag kam, kam er zu ihr und sagte zu ihr: 'Geh mit mir zu seinem Grab.' Also gingen sie, bis sie bei seinem Grab ankamen. Isa (Friede sei mit ihm) trat darüber und betete zu Allah, dem Erhabenen und Herrlichen. Das Grab öffnete sich, und ihr Sohn kam lebend heraus.",
+          "ru": "И вот на следующий день он пришёл к ней и сказал ей: «Пойдём со мной к его могиле». Они пошли, пока не прибыли к его могиле. Иса (мир ему) встал над ней, затем вознёс мольбу Аллаху, Всевышнему и Великому. Могила раскрылась, и его сын вышел живым.",
+          "zh": "于是到了第二天，他来到她那里，对她说：‘你随我去他的坟墓吧。’于是他们前往，直到到达他的坟墓。尔萨（愿主平安）站在坟墓上，然后向真主 supplicate，至高至荣。坟墓裂开，她的儿子活着走了出来。"
+        },
+        "word_start": 116,
+        "word_end": 148
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمَّا رَأَتْهُ أُمُّهُ وَ رَآهَا بَكَيَا فَرَحِمَهُمَا عِيسَى (عليه السلام) فَقَالَ لَهُ أَ تُحِبُّ أَنْ تَبْقَى مَعَ أُمِّكَ فِي الدُّنْيَا",
+        "translations": {
+          "en": "So when his mother saw him, and he saw her, they wept. Isa (peace be upon him) sympathized with them and said to him: 'Would you like to remain with your mother in the world?'",
+          "ur": "پس جب اس کی ماں نے اسے دیکھا اور اس نے اسے دیکھا تو وہ رونے لگے۔ عیسیٰ (علیہ السلام) نے ان سے ہمدردی کی اور اس سے کہا: 'کیا تم چاہتے ہو کہ تم دنیا میں اپنی ماں کے ساتھ رہو؟'",
+          "tr": "Anası onu gördüğünde ve o da annesini gördüğünde, ikisi de ağladı. İsa (aleyhisselâm) onlara şefkat gösterdi ve ona şöyle dedi: 'Dünyada anneninle birlikte kalmak ister misin?'",
+          "fa": "پس وقتی مادرش او را دید و او نیز مادرش را دید، گریستند. عیسی (علیه السلام) با آن‌ها همدردی کرد و به او گفت: «آیا می‌خواهی در دنیا با مادرت بمانی؟",
+          "id": "Maka ketika ibunya melihatnya, dan ia melihat ibunya, keduanya menangis. Isa (alamahisalam) berempati kepada mereka dan berkata kepadanya: 'Apakah kamu ingin tinggal bersama ibumu di dunia?'",
+          "bn": "অতএব, যখন তার মা তাকে দেখলেন এবং তিনি তাঁকে দেখলেন, তখন তারা কাঁদতে লাগলেন। ঈসা (আঃ) তাদের প্রতি সহানুভূতি প্রকাশ করে তাঁকে বললেন: 'তুমি কি পৃথিবীতে তোমার মায়ের সাথে থাকতে চাও?'}",
+          "es": "Así que cuando su madre lo vio, y él la vio, lloraron. Isa (que la paz sea con él) se compadeció de ellos y le dijo: '¿Te gustaría permanecer con tu madre en el mundo?'",
+          "fr": "Ainsi, lorsque sa mère le vit, et qu'il la vit, ils pleurèrent. Isa (que la paix soit sur lui) compatit à leur sort et lui dit : « Veux-tu rester avec ta mère dans ce monde ? »",
+          "de": "Als seine Mutter ihn sah und er sie sah, weinten sie. Isa (Friede sei mit ihm) zeigte Mitgefühl mit ihnen und sprach zu ihm: 'Möchtest du bei deiner Mutter in der Welt bleiben?'",
+          "ru": "И когда его мать увидела его, а он увидел её, они заплакали. Иса (мир ему) проявил к ним сострадание и сказал ему: «Хочешь ли ты остаться с твоей матерью в мире?\"",
+          "zh": "因此，当他的母亲看见他，他也看见她时，他们便哭泣。尔萨（愿主赐他平安）对他们表示同情，并对他说：‘你愿意留在世上与你的母亲在一起吗？’"
+        },
+        "word_start": 148,
+        "word_end": 168
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ يَا نَبِيَّ اللَّهِ بِأَكْلٍ وَ رِزْقٍ وَ مُدَّةٍ أَمْ بِغَيْرِ أَكْلٍ وَ لَا رِزْقٍ وَ لَا مُدَّةٍ",
+        "translations": {
+          "en": "He said: 'O Prophet of Allah, with eating and sustenance and a term, or without eating and sustenance and a term?'",
+          "ur": "انہوں نے کہا: اے اللہ کے نبی! کھانے پینے اور رزق اور مدت کے ساتھ، یا کھانے پینے اور رق اور مدت کے بغیر؟",
+          "tr": "Dedi ki: 'Ey Allah'ın Peygamberi, yemek ve rızıkla birlikte bir süreyle mi, yoksa yemek ve rızık olmadan bir süreyle mi?'",
+          "fa": "گفت: «ای پیامبر خدا، با خوردن و روزی و مدت، یا بدون خوردن و روزی و مدت؟»",
+          "id": "Ia berkata, 'Wahai Nabi Allah, dengan makan dan rezeki serta batas waktu, atau tanpa makan dan rezeki serta batas waktu?'",
+          "bn": "তিনি বললেন: 'হে আল্লাহর নবী, খাওয়া-দাওয়া ও জীবিকা ও সময়সীমা সহ কিংবা খাওয়া-দাওয়া ও জীবিকা ও সময়সীমা ছাড়া?'",
+          "es": "Dijo: «¡Oh Profeta de Allah, con comer y sustento y un plazo, o sin comer y sustento y un plazo?»",
+          "fr": "Il dit : « Ô Prophète d'Allah, avec le manger, la subsistance et un terme, ou sans le manger, la subsistance et un terme ? »",
+          "de": "Er sagte: „O Gesandter Allahs, mit Essen und Versorgung und einer Frist oder ohne Essen und Versorgung und eine Frist?“",
+          "ru": "Он сказал: «О Пророк Аллаха, с едой, пропитанием и сроком или без еды, пропитания и срока?»",
+          "zh": "他说：真主的使者啊，是有饮食、生计和期限，还是没有饮食、生计和期限？"
+        },
+        "word_start": 168,
+        "word_end": 186
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ لَهُ عِيسَى (عليه السلام) بِأَكْلٍ وَ رِزْقٍ وَ مُدَّةٍ وَ تُعَمَّرُ عِشْرِينَ سَنَةً وَ تَزَوَّجُ وَ يُولَدُ لَكَ",
+        "translations": {
+          "en": "So Isa (peace be upon him) said to him: 'With eating and sustenance and a term. And you will live for twenty years, get married, and have children born to you.'",
+          "ur": "پس عیسیٰ (علیہ السلام) نے اس سے کہا: ''کھانے اور رزق اور مدت کے ساتھ۔ اور تم بیس سال تک زندہ رہو، شادی کرو، اور تمہارے بچے پیدا ہوں۔''",
+          "tr": "Bunun üzerine İsa (aleyhisselam) ona şöyle dedi: 'Yemek ve rızık ile bir süre. Yirmi yıl yaşayacaksın, evleneceksin ve sana çocuklar doğacak.'",
+          "fa": "پس عیسی (علیه السلام) به او گفت: «با خوردن و روزی و مدت. و تو بیست سال زندگی خواهی کرد، ازدواج خواهی کرد و فرزندی برایت زاده خواهد شد.»",
+          "id": "Maka Isa (alamahiu) berkata kepadanya: 'Dengan makan, rezeki, dan batas waktu. Dan engkau akan hidup selama dua puluh tahun, menikah, dan dikaruniai anak.'",
+          "bn": "অতএব, ঈসা (আ.) তাঁকে বললেন: 'খাওয়া-দাওয়া এবং জীবিকা এবং একটি নির্দিষ্ট সময়। এবং তুমি বিশ বছর বাঁচবে, বিয়ে করবে, এবং তোমার সন্তান জন্মাবে।'",
+          "es": "Entonces Isa (la paz sea con él) le dijo: «Con el comer, el sustento y un plazo. Vivirás veinte años, te casarás y te nacerán hijos».",
+          "fr": "Alors ‘Îsa (que la paix soit sur lui) lui dit : « Avec le manger, la subsistance et un terme. Et tu vivras vingt ans, te marieras, et des enfants te naîtront. »",
+          "de": "Da sagte Isa (Friede sei mit ihm) zu ihm: 'Mit Essen und Versorgung und einer Frist. Und du wirst zwanzig Jahre leben, heiraten und Kinder bekommen.'",
+          "ru": "Поэтому Иса (мир ему) сказал ему: «С едой, пропитанием и сроком. И ты проживешь двадцать лет, женишься, и у тебя родятся дети».",
+          "zh": "所以尔萨（愿主平安）对他说：‘以饮食、给养和寿数而言。你将活二十年，娶妻生子。’"
+        },
+        "word_start": 186,
+        "word_end": 205
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ نَعَمْ إِذاً قَالَ فَدَفَعَهُ عِيسَى إِلَى أُمِّهِ فَعَاشَ عِشْرِينَ سَنَةً وَ تَزَوَّجَ وَ وُلِدَ لَهُ.",
+        "translations": {
+          "en": "He said: 'Yes.' When he said that, Isa handed him over to his mother. He thus lived for twenty years, got married, and had children.",
+          "ur": "انہوں نے کہا: 'ہاں'۔ جب انہوں نے یہ کہا تو عیسیٰ نے انہیں ان کی ماں کے حوالے کر دیا۔ اس طرح وہ بیس سال تک رہے، شادی کی اور بچے ہوئے۔",
+          "tr": "Dedi ki: 'Evet.' O bunu söylediğinde, Isa onu annesine teslim etti. Böylece yirmi yıl yaşadı, evlendi ve çocukları oldu.",
+          "fa": "گفت: «بله.» هنگامی که این را گفت، عیسی او را به مادرش سپرد. او به این ترتیب بیست سال زندگی کرد، ازدواج نمود و صاحب فرزند شد.",
+          "id": "Ia berkata, 'Ya.' Ketika ia berkata demikian, Isa menyerahkannya kepada ibunya. Dengan demikian, ia hidup selama dua puluh tahun, menikah, dan memiliki anak-anak.",
+          "bn": "তিনি বললেন, 'হ্যাঁ।' তিনি এ কথা বললে, ঈসা তাকে তার মায়ের হাতে তুলে দিলেন। এভাবে তিনি বিশ বছর জীবন যাপন করলেন, বিয়ে করলেন এবং সন্তান জন্ম দিলেন।",
+          "es": "Dijo: 'Sí'. Cuando lo dijo, Isa se lo entregó a su madre. Así vivió durante veinte años, se casó y tuvo hijos.",
+          "fr": "Il dit : « Oui. » Lorsqu'il eut dit cela, Isa le remit à sa mère. Il vécut ainsi pendant vingt ans, se maria et eut des enfants.",
+          "de": "Er sagte: »sagte: Ja.« Als er das sagte, übergab Isa ihn seiner Mutter. So lebte er zwanzig Jahre, heiratete und bekam Kinder.",
+          "ru": "Он сказал: «Да». Когда он это сказал, Иса передал его его матери. Так он прожил двадцать лет, женился и имел детей.",
+          "zh": "他说：‘是的。’当他这么说时，尔萨把他交给了他的母亲。于是他生活了二十年，结了婚，有了孩子。"
+        },
+        "word_start": 205,
+        "word_end": 221
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from Al-Kafi highlights the unique status of Prophet Isa (AS) as a reviver of the dead, specifically illustrating his ability to grant temporary worldly life (dunya) with sustenance and progeny, distinct from the permanent resurrection on Judgment Day. The narrative underscores the divine permission (bi-idhnillah) required for such miracles and reflects the Shia scholarly view on the continuity of prophetic miracles (karamat) as signs of God's power. It serves as a theological bridge between Isa's earthly ministry and the eschatological hope of resurrection, emphasizing that life and death are entirely subject to Allah's will.",
+        "seo_question": "Did Prophet Isa (AS) revive anyone who then lived with normal sustenance and family?",
+        "key_terms": {
+          "صَدِيقٌ": "Friend",
+          "مُوَاخٍ": "Brother/Companion",
+          "رِزْقٌ": "Sustenance",
+          "مُدَّةٌ": "Term/Duration of life",
+          "قَبْرٌ": "Grave",
+          "عِشْرِينَ سَنَةً": "Twenty years"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی سے ہے جو حضرت عیسیٰ (علیہ السلام) کی مردوں کو زندہ کرنے کی منفرد حیثیت کو اجاگر کرتی ہے، خاص طور پر اس بات کی وضاحت کرتے ہوئے کہ انہیں عارضی دنیاوی زندگی (دنیا) رزق اور اولاد کے ساتھ عطا کرنے کی صلاحیت تھی، جو یومِ قیامت کی دائمی بحالی سے مختلف ہے۔ اس روایت میں ایسے معجزات کے لیے الہی اجازت (بی‌اذن اللہ) کی ضرورت پر زور دیتی ہے اور شیعہ علما کے نزدیک معجزات (کرامات) کی تسلسل کو اللہ کی طاقت کے نشان کے طور پر پیش کرتی ہے۔ یہ عیسیٰ کی زمینی خدمت اور بحالی کی آخری امید کے درمیان ایک الہیاتی پل کا کام کرتی ہے، جس پر زور دیا جاتا ہے کہ زندگی اور موت مکمل طور پر اللہ کی مرضی کے تابع ہیں۔",
+        "seo_question": "کیا حضرت عیسیٰ (علیہ السلام) نے کسی ایسے شخص کو زندہ کیا جس نے پھر معمولی رزق اور خاندان کے ساتھ زندگی گزاری؟",
+        "key_terms": {
+          "صَدِيقٌ": "دوست",
+          "مُوَاخٍ": "بھائی/ساتھی",
+          "رِزْقٌ": "رزق",
+          "مُدَّةٌ": "حیات کی مدت",
+          "قَبْرٌ": "قبر",
+          "عِشْرِينَ سَنَةً": "بیس سال"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, El-Kâfî'de Peygamber İsa'nın (AS) ölüləri diriltmədeki benzersiz konumunu vurgulayarak, ahiretteki kalıcı dirilişten farklı olarak, geçici bir dünya hayatını (dünya) rızık ve nesil ile birlikte verme yeteneğini özellikle göstermektedir. Anlatı, bu mucizeler için gerekli olan ilahi izni (bi-idhnillah) altını çizmektedir ve Şii alimlerinin, ilahî kudretin bir işareti olarak peygamber mucizelerinin (kerâmet) sürekliliği hakkındaki görüşünü yansıtmaktadır. İsa'nın dünyevi hizmet ile dirilişin eschatolojik umudu arasında teolojik bir köprü görevi görerek, hayatın ve ölümün tamamen Allah'ın iradesine bağlı olduğunu vurgulamaktadır.",
+        "seo_question": "Peygamber İsa (AS), normal rızık ve aile ile yaşayan birini diriltti mi?",
+        "key_terms": {
+          "صَدِيقٌ": "Dost",
+          "مُوَاخٍ": "Kardeş/Arkadaş",
+          "رِزْقٌ": "Rızık",
+          "مُدَّةٌ": "Hayat süresi",
+          "قَبْرٌ": "Mezar",
+          "عِشْرِينَ سَنَةً": "Yirmi yıl"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، جایگاه منحصر به فرد پیامبر عیسی (ع) را به عنوان زنده‌کنندگان مردگان برجسته می‌کند و به طور خاص توانایی او در اعطای زندگی دنیوی موقت (دنیا) با روزی و نسل، متمایز از رستاخیز دائمی در روز قیامت، را نشان می‌دهد. این روایت بر مجوز الهی (بی‌اذن‌الله) مورد نیاز برای چنین معجزاتی تأکید دارد و دیدگاه علمای شیعه درباره تداوم معجزات پیامبران (کرامات) به عنوان نشانه‌های قدرت خدا را منعکس می‌کند. این حدیث پلی الهی‌شناسانه بین خدمت زمینی عیسی و امید آخرالزمانی به رستاخیز ایجاد می‌کند و تأکید می‌کند که زندگی و مرگ کاملاً در اراده خداوند است.",
+        "seo_question": "آیا پیامبر عیسی (ع) کسی را زنده کرد که سپس با روزی و خانواده معمولی زندگی کرد؟",
+        "key_terms": {
+          "صَدِيقٌ": "دوست",
+          "مُوَاخٍ": "برادر/همراه",
+          "رِزْقٌ": "روزی",
+          "مُدَّةٌ": "مدت عمر",
+          "قَبْرٌ": "قبر",
+          "عِشْرِينَ سَنَةً": "بیست سال"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari Al-Kafi menyoroti status unik Nabi Isa (AS) sebagai penghidup kembali orang mati, khususnya dengan menggambarkan kemampuannya memberikan kehidupan duniawi sementara (dunya) dengan rezeki dan keturunan, yang berbeda dari kebangkitan permanen pada Hari Kiamat. Narasi ini menekankan izin ilahi (bi-idhnillah) yang diperlukan untuk mukjizat semacam itu dan mencerminkan pandangan ulama Syiah tentang kesinambungan mukjizat nabi (karamat) sebagai tanda kekuasaan Allah. Hadis ini berfungsi sebagai jembatan teologis antara pelayanan duniawi Isa dan harapan eskatologis akan kebangkitan, dengan menekankan bahwa kehidupan dan kematian sepenuhnya tunduk pada kehendak Allah.",
+        "seo_question": "Apakah Nabi Isa (AS) pernah menghidupkan kembali seseorang yang kemudian hidup dengan rezeki dan keluarga normal?",
+        "key_terms": {
+          "صَدِيقٌ": "Teman",
+          "مُوَاخٍ": "Saudara/Kawan",
+          "رِزْقٌ": "Rezeki",
+          "مُدَّةٌ": "Masa/Durasi hidup",
+          "قَبْرٌ": "Kubur",
+          "عِشْرِينَ سَنَةً": "Dua puluh tahun"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি থেকে এই হাদিসে নবী ইসা (আঃ)-এর মৃতকে জীবিত করার অনন্য মর্যাদা তুলে ধরে, বিশেষ করে তিনি সাময়িক পৃথিবী জীবন (দুনিয়া) রুজি ও সন্তানসন্ততির সাথে প্রদান করার ক্ষমতা দেখিয়েছেন, যা কিয়ামতের দিনের স্থায়ী পুনরুত্থান থেকে আলাদা। এই বর্ণনায় এমন মুজিজার জন্য ঈশ্বরের অনুমতি (বি-ইদনিল্লাহ)-এর প্রয়োজনীয়তা তুলে ধরে এবং শিয়া পণ্ডিতদের নবী মুজিজা (কেরামাত)-এর ধারাবাহিকতাকে ঈশ্বরের শক্তির নিদর্শন হিসেবে দেখার দৃষ্টিভঙ্গি প্রতিফলিত করে। এটি ইসার পৃথিবীতে কার্যকলাপ এবং পুনরুত্থানের আখেরাতিক আশার মধ্যে একটি তাত্ত্বিক সেতুবন্ধন হিসেবে কাজ করে, যা জোর দিয়ে বলে যে জীবন ও মৃত্যু সম্পূর্ণরূপে আল্লাহর ইচ্ছার অধীন।",
+        "seo_question": "নবী ইসা (আঃ) কি এমন কাউকে জীবিত করেছিলেন যিনি তারপর স্বাভাবিক রুজি ও পরিবার নিয়ে বেঁচে ছিলেন?",
+        "key_terms": {
+          "صَدِيقٌ": "বন্ধু",
+          "مُوَاخٍ": "ভাই/সঙ্গী",
+          "رِزْقٌ": "রুজি",
+          "مُدَّةٌ": "জীবনের মেয়াদ",
+          "قَبْرٌ": "কবর",
+          "عِشْرِينَ سَنَةً": "বিশ বছর"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de Al-Kafi destaca el estatus único del Profeta Isa (AS) como revividor de los muertos, ilustrando específicamente su capacidad para otorgar vida mundana temporal (dunya) con sustento y descendencia, distinto de la resurrección permanente en el Día del Juicio. La narrativa subraya la permiso divino (bi-idhnillah) requerido para tales milagros y refleja la visión erudita chií sobre la continuidad de los milagros proféticos (karamat) como señales del poder de Dios. Sirve como un puente teológico entre el ministerio terrenal de Isa y la esperanza escatológica de la resurrección, enfatizando que la vida y la muerte están completamente sujetas a la voluntad de Allah.",
+        "seo_question": "¿Revivió el Profeta Isa (AS) a alguien que luego vivió con sustento normal y familia?",
+        "key_terms": {
+          "صَدِيقٌ": "Amigo",
+          "مُوَاخٍ": "Hermano/Compañero",
+          "رِزْقٌ": "Sustento",
+          "مُدَّةٌ": "Plazo/Duración de vida",
+          "قَبْرٌ": "Tumba",
+          "عِشْرِينَ سَنَةً": "Veinte años"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith d'Al-Kafi met en lumière leau le statut unique du Prophète Isa (AS) en tant que ressuscité des morts, illustrant spécifiquement sa capacité à accorder une vie mondaine temporaire (dunya) avec subsistance et postérité, distincte de la résurrection permanente au Jour du Jugement. Le récit souligne la permission divine (bi-idhnillah) requise pour de tels miracles et reflète la vue savante chiite sur la continuité des miracles prophétiques (karamat) en tant que signes de la puissance de Dieu. Il sert de pont théologique entre le ministère terrestre d'Isa et l'espoir eschatologique de la résurrection, en soulignant que la vie et la mort sont entièrement soumises à la volonté d'Allah.",
+        "seo_question": "Le Prophète Isa (AS) a-t-il ressuscié quelqu'un qui a ensuite vécu avec une subsistance normale et une famille ?",
+        "key_terms": {
+          "صَدِيقٌ": "Ami",
+          "مُوَاخٍ": "Frère/Compagnon",
+          "رِزْقٌ": "Subsistance",
+          "مُدَّةٌ": "Durée de vie",
+          "قَبْرٌ": "Tombe",
+          "عِشْرِينَ سَنَةً": "Vingt ans"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus Al-Kafi unterstreicht den einzigartigen Status von Prophet Isa (AS) als Wiedererwecker der Toten, indem es speziell seine Fähigkeit veranschaulicht, ein vorübergehendes irdisches Leben (Dunya) mit Versorgung und Nachkommen zu gewähren, was sich von der endgültigen Auferstehung am Jüngsten Tag unterscheidet. Die Erzählung betont die göttliche Erlaubnis (bi-idhnillah), die für solche Wunder erforderlich ist, und spiegelt die schiitische Gelehrtenansicht zur Kontinuität prophetischer Wunder (Karamat) als Zeichen der Macht Gottes wider. Es dient als theologische Brücke zwischen Isa' irdischem Wirken und der eschatologischen Hoffnung auf Auferstehung und betont, dass Leben und Tod vollständig dem Willen Allahs unterliegen.",
+        "seo_question": "Hat Prophet Isa (AS) jemanden wiedererweckt, der dann mit normaler Versorgung und Familie lebte?",
+        "key_terms": {
+          "صَدِيقٌ": "Freund",
+          "مُوَاخٍ": "Bruder/Gefährte",
+          "رِزْقٌ": "Versorgung",
+          "مُدَّةٌ": "Lebensdauer",
+          "قَبْرٌ": "Grab",
+          "عِشْرِينَ سَنَةً": "Zwanzig Jahre"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи подчеркивает уникальный статус пророка Исы (мир ему) как воскрешающего мертвых, конкретно иллюстрируя его способность даровать временную мирскую жизнь (дунья) с пропитанием и потомством, отличную от постоянного воскресения в День Суда. Повествование подчеркивает необходимость божественного дозволения (би-идзниллах) для таких чудес и отражает шиитскую ученую точку зрения на непрерывность пророческих чудес (карамат) как знамений силы Аллаха. Оно служит теологическим мостом между земным служением Исы и эсхатологической надеждой на воскресение, подчеркивая, что жизнь и смерть полностью подчинены воле Аллаха.",
+        "seo_question": "Воскресил ли пророк Иса (мир ему) кого-либо, кто затем жил с обычным пропитанием и семьей?",
+        "key_terms": {
+          "صَدِيقٌ": "друг",
+          "مُوَاخٍ": "брат/спутник",
+          "رِزْقٌ": "пропитание",
+          "مُدَّةٌ": "срок/продолжительность жизни",
+          "قَبْرٌ": "могила",
+          "عِشْرِينَ سَنَةً": "двадцать лет"
+        }
+      },
+      "zh": {
+        "summary": "《卡菲》中的这段圣训突出了先知尔萨（愿主福安之）作为复活死者的独特地位，具体说明了他赋予短暂世俗生命（ dunya ）、生计和后代的能力，这与末日审判时的永久复活不同。叙事强调了此类奇迹所需的真主许可（ bi-idhnillah ），并反映了什叶派学者关于先知奇迹（ karamat ）作为真主力量迹象的连续性观点。它在尔萨的尘世事工与复活的末世希望之间架起了神学桥梁，强调生死完全服从真主的意志。",
+        "seo_question": "先知尔萨（愿主福安之）是否复活过某人，使其随后以正常的生计和家庭生活？",
+        "key_terms": {
+          "صَدِيقٌ": "朋友",
+          "مُوَاخٍ": "兄弟/同伴",
+          "رِزْقٌ": "生计",
+          "مُدَّةٌ": "生命期限/持续时间",
+          "قَبْرٌ": "坟墓",
+          "عِشْرِينَ سَنَةً": "二十年"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:49",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:110",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:42",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:87",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مَحْبُوبٍ عَنْ أَبِي جَمِيلَةَ عَنْ أَبَانِ بْنِ تَغْلِبَ وَ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ سُئِلَ هَلْ كَانَ عِيسَى ابْنُ مَرْيَمَ أَحْيَا أَحَداً بَعْدَ مَوْتِهِ حَتَّى كَانَ لَهُ أَكْلٌ وَ رِزْقٌ وَ مُدَّةٌ وَ وَلَدٌ فَقَالَ نَعَمْ إِنَّهُ كَانَ لَهُ صَدِيقٌ مُوَاخٍ لَهُ فِي اللَّهِ تَبَارَكَ وَ تَعَالَى وَ كَانَ عِيسَى (عليه السلام) يَمُرُّ بِهِ وَ يَنْزِلُ عَلَيْهِ وَ إِنَّ عِيسَى غَابَ عَنْهُ حِيناً ثُمَّ مَرَّ بِهِ لِيُسَلِّمَ عَلَيْهِ فَخَرَجَتْ إِلَيْهِ أُمُّهُ فَسَأَلَهَا عَنْهُ فَقَالَتْ مَاتَ يَا رَسُولَ اللَّهِ فَقَالَ أَ فَتُحِبِّينَ أَنْ تَرَاهُ قَالَتْ نَعَمْ فَقَالَ لَهَا فَإِذَا كَانَ غَداً فَآتِيكِ حَتَّى أُحْيِيَهُ لَكِ بِإِذْنِ اللَّهِ تَبَارَكَ وَ تَعَالَى فَلَمَّا كَانَ مِنَ الْغَدِ أَتَاهَا فَقَالَ لَهَا انْطَلِقِي مَعِي إِلَى قَبْرِهِ فَانْطَلَقَا حَتَّى أَتَيَا قَبْرَهُ فَوَقَفَ عَلَيْهِ عِيسَى (عليه السلام) ثُمَّ دَعَا اللَّهَ عَزَّ وَ جَلَّ فَانْفَرَجَ الْقَبْرُ وَ خَرَجَ ابْنُهَا حَيّاً فَلَمَّا رَأَتْهُ أُمُّهُ وَ رَآهَا بَكَيَا فَرَحِمَهُمَا عِيسَى (عليه السلام) فَقَالَ لَهُ أَ تُحِبُّ أَنْ تَبْقَى مَعَ أُمِّكَ فِي الدُّنْيَا فَقَالَ يَا نَبِيَّ اللَّهِ بِأَكْلٍ وَ رِزْقٍ وَ مُدَّةٍ أَمْ بِغَيْرِ أَكْلٍ وَ لَا رِزْقٍ وَ لَا مُدَّةٍ فَقَالَ لَهُ عِيسَى (عليه السلام) بِأَكْلٍ وَ رِزْقٍ وَ مُدَّةٍ وَ تُعَمَّرُ عِشْرِينَ سَنَةً وَ تَزَوَّجُ وَ يُولَدُ لَكَ قَالَ نَعَمْ إِذاً قَالَ فَدَفَعَهُ عِيسَى إِلَى أُمِّهِ فَعَاشَ عِشْرِينَ سَنَةً وَ تَزَوَّجَ وَ وُلِدَ لَهُ.",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مَحْبُوبٍ عَنْ أَبِي جَمِيلَةَ عَنْ أَبَانِ بْنِ تَغْلِبَ وَ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ سُئِلَ",
+      "matn_ar": "هَلْ كَانَ عِيسَى ابْنُ مَرْيَمَ أَحْيَا أَحَداً بَعْدَ مَوْتِهِ حَتَّى كَانَ لَهُ أَكْلٌ وَ رِزْقٌ وَ مُدَّةٌ وَ وَلَدٌ فَقَالَ نَعَمْ إِنَّهُ كَانَ لَهُ صَدِيقٌ مُوَاخٍ لَهُ فِي اللَّهِ تَبَارَكَ وَ تَعَالَى وَ كَانَ عِيسَى (عليه السلام) يَمُرُّ بِهِ وَ يَنْزِلُ عَلَيْهِ وَ إِنَّ عِيسَى غَابَ عَنْهُ حِيناً ثُمَّ مَرَّ بِهِ لِيُسَلِّمَ عَلَيْهِ فَخَرَجَتْ إِلَيْهِ أُمُّهُ فَسَأَلَهَا عَنْهُ فَقَالَتْ مَاتَ يَا رَسُولَ اللَّهِ فَقَالَ أَ فَتُحِبِّينَ أَنْ تَرَاهُ قَالَتْ نَعَمْ فَقَالَ لَهَا فَإِذَا كَانَ غَداً فَآتِيكِ حَتَّى أُحْيِيَهُ لَكِ بِإِذْنِ اللَّهِ تَبَارَكَ وَ تَعَالَى فَلَمَّا كَانَ مِنَ الْغَدِ أَتَاهَا فَقَالَ لَهَا انْطَلِقِي مَعِي إِلَى قَبْرِهِ فَانْطَلَقَا حَتَّى أَتَيَا قَبْرَهُ فَوَقَفَ عَلَيْهِ عِيسَى (عليه السلام) ثُمَّ دَعَا اللَّهَ عَزَّ وَ جَلَّ فَانْفَرَجَ الْقَبْرُ وَ خَرَجَ ابْنُهَا حَيّاً فَلَمَّا رَأَتْهُ أُمُّهُ وَ رَآهَا بَكَيَا فَرَحِمَهُمَا عِيسَى (عليه السلام) فَقَالَ لَهُ أَ تُحِبُّ أَنْ تَبْقَى مَعَ أُمِّكَ فِي الدُّنْيَا فَقَالَ يَا نَبِيَّ اللَّهِ بِأَكْلٍ وَ رِزْقٍ وَ مُدَّةٍ أَمْ بِغَيْرِ أَكْلٍ وَ لَا رِزْقٍ وَ لَا مُدَّةٍ فَقَالَ لَهُ عِيسَى (عليه السلام) بِأَكْلٍ وَ رِزْقٍ وَ مُدَّةٍ وَ تُعَمَّرُ عِشْرِينَ سَنَةً وَ تَزَوَّجُ وَ يُولَدُ لَكَ قَالَ نَعَمْ إِذاً قَالَ فَدَفَعَهُ عِيسَى إِلَى أُمِّهِ فَعَاشَ عِشْرِينَ سَنَةً وَ تَزَوَّجَ وَ وُلِدَ لَهُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+          "name_en": "Ahmad ibn Muhammad ibn Isa",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 13
+        },
+        {
+          "name_ar": "الْحَسَنِ بْنِ مَحْبُوبٍ",
+          "name_en": "al-Hasan ibn Mahbub",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 53
+        },
+        {
+          "name_ar": "أَبِي جَمِيلَةَ",
+          "name_en": "Abu Jamila",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 100
+        },
+        {
+          "name_ar": "أَبَانِ بْنِ تَغْلِبَ",
+          "name_en": "Aban ibn Taghlub",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 148
+        },
+        {
+          "name_ar": "غَيْرِهِ",
+          "name_en": "someone else",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 78
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ سُئِلَ هَلْ كَانَ عِيسَى ابْنُ مَرْيَمَ أَحْيَا أَحَداً بَعْدَ مَوْتِهِ حَتَّى كَانَ لَهُ أَكْلٌ",
+          "name_en": "Abu Abdillah",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "رِزْقٌ",
+          "name_en": "Rizq",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مُدَّةٌ",
+          "name_en": "Mudda",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "وَلَدٌ",
+          "name_en": "Walad",
+          "role": "narrator",
+          "position": 10,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,498 @@
+{
+  "verse_path": "/books/al-kafi:8:1:38:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[1] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[10] word_end (526) must be greater than word_start (526)",
+    "chunks[10] translations.en is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "ethics",
+      "afterlife",
+      "dua"
+    ],
+    "content_type": "exhortation",
+    "topics": [
+      "divine_attributes",
+      "death_dying",
+      "patience",
+      "paradise_hell",
+      "divine_decree"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ الْحُسَيْنِ الْمُؤَدِّبُ وَ غَيْرُهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي الْحَارِثِ الْهَمْدَانِيِّ عَنْ جَابِرٍ عَنْ أَبِي جَعْفَرٍ (عليه السلام) قَالَ",
+        "translations": {
+          "en": "Ali ibn al-Husayn al-Muaddib and others, from Ahmad ibn Muhammad ibn Khalid, from Isma'il ibn Mihran, from Abdullah ibn Abi al-Harith al-Hamdani, from Jabir, from Abu Ja'far (peace be upon him), who said:",
+          "ur": "علی بن الحسین المؤدب اور دیگر، احمد بن محمد بن خالد سے، اسماعیل بن مہران سے، عبداللہ بن ابی الحارث الحماني سے، جابر سے، ابو جعفر (علیه السلام) سے، انہوں نے کہا:",
+          "tr": "Ali b. el-Hü'l-Hüseyin el-Müeddiib ve başkaları, Ahmed b. Muhammed b. Halid'den, İsmail b. Mihran'dan, Abdullah b. Ebi'l-Haris el-Hamdani'den, Cabir'den, Ebu Cafer'den (aleyhisselam) ki şöyle dedi:",
+          "fa": "عَلِيُّ بْنُ الْحُسَيْنِ الْمُؤَدِّبُ وَ غَيْرُهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي الْحَارِثِ الْهَمْدَانِيِّ عَنْ جَابِرٍ عَنْ أَبِي جَعْفَرٍ (عَلَيْهِ السَّلَامُ) قَالَ",
+          "id": "Ali ibn al-Husayn al-Muaddib dan lainnya, dari Ahmad ibn Muhammad ibn Khalid, dari Isma'il ibn Mihran, dari Abdullah ibn Abi al-Harith al-Hamdani, dari Jabir, dari Abu Ja'far (alamahis salam), yang berkata:",
+          "bn": "আলী ইবনুল হুসাইন আল-মুআদ্দিব এবং অন্যান্য লোক, আহমদ ইবন মুহাম্মদ ইবন খালিদ থেকে, ইসমাঈল ইবন মিহরান থেকে, আবদুল্লাহ ইবন আবিল হারিস আল-হামদানী থেকে, জাবির থেকে, আবু জাফর (আলাইহিস সালাম) থেকে, যিনি বলেছেন:",
+          "es": "Alī ibn al-ḤḤusayn al-Muʾaddeb y otros, de Aḥmad ibn Muḥammad ibn Jālid, de Ismāʿīl ibn Mihrān, de ʿAbd Allāh ibn Abī al-Ḥārith al-Hamdānī, de Jābir, de Abū Jaʿfar (la paz sea con él), quien dijo:",
+          "fr": "Ali ibn al-Husayn al-Muaddib et les autres, d'Ahmad ibn Muhammad ibn Khalid, d'Isma'il ibn Mihran, d'Abdullah ibn Abi al-Harith al-Hamdani, de Jabir, d'Abu Ja'far (que la paix soit sur lui), qui a dit :",
+          "de": "Ali ibn al-Husayn al-Muaddib und andere, von Ahmad ibn Muhammad ibn Khalid, von Isma'il ibn Mihran, von Abdullah ibn Mihran, von Abdullah ibn Abi al-Harith al-Hamdani, von Jabir, von Abu Ja'far (friede sei mit ihm), der sagte:",
+          "ru": "Али ибн аль-Хусайн аль-Муаддиб и другие, от Ахмада ибн Мухаммада ибн Халида, от Исмаила ибн Михрана, от Абдуллаха ибн Аби аль-Хариса аль-Хамдани, от Джабира, от Абу Джафара (да будет мир с ним), который сказал:",
+          "zh": "阿里·本·侯赛因·穆阿德迪布及其他人，从艾哈迈德·本·穆罕默德·本·哈利德，从伊斯玛仪·本·米赫兰，从阿卜杜拉·本·艾比·哈里斯·哈马尼，从贾比尔，从艾布·贾法尔（愿主福安之）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 31
+      },
+      {
+        "chunk_type": "opening",
+        "arabic_text": "خَطَبَ أَمِيرُ الْمُؤْمِنِينَ (عليه السلام) فَقَالَ: الْحَمْدُ لِلَّهِ الْخَافِضِ الرَّافِعِ الضَّارِّ النَّافِعِ الْجَوَادِ الْوَاسِعِ الْجَلِيلِ ثَنَاؤُهُ الصَّادِقَةُ أَسْمَاؤُهُ الْمُحِيطِ بِالْغُيُوبِ وَ مَا يَخْطُرُ عَلَى الْقُلُوبِ الَّذِي جَعَلَ الْمَوْتَ بَيْنَ خَلْقِهِ عَدْلًا وَ أَنْعَمَ بِالْحَيَاةِ عَلَيْهِمْ فَضْلًا فَأَحْيَا وَ أَمَاتَ وَ قَدَّرَ الْأَقْوَاتَ أَحْكَمَهَا بِعِلْمِهِ تَقْدِيراً وَ أَتْقَنَهَا بِحِكْمَتِهِ تَدْبِيراً إِنَّهُ كَانَ خَبِيراً بَصِيراً",
+        "translations": {
+          "en": "The Commander of the Faithful (peace be upon him) gave a sermon, saying: 'All praise is due to Allah, the Abaser, the Raiser, the Harmer, the Benefitter, the Generous, the Vast, the Majestic. His praise is true, His names are all-encompassing of the unseen and what flits across hearts. He made death among His creatures as justice, and favored them with life as a bounty. So He gives life and causes death, and measures out sustenance; He perfected its estimation with His knowledge and its management with His wisdom. Indeed, He is All-Aware, All-Seeing.'",
+          "ur": "امیر المؤمنین (علیہ السلام) نے خطبہ دیا اور فرمایا: تمام تعریفیں اللہ کے لیے ہیں، جو ذلیل کرنے والا، بلند کرنے والا، نقصان پہنچانے والا، فائدہ پہنچانے والا، بخشنے والا، وسعت والا، جلال والا ہے۔ اس کی تعریف سچی ہے، اس کے نام غیب اور دلوں میں گزرنے والے چیزوں کو احاطہ کرتے ہیں۔ اس نے اپنی مخلوق میں موت کو انصاف بنایا اور زندگی کو اپنا فضل و کرم قرار دیا۔ پس وہی زندگی دیتا ہے اور موت دیتا ہے، اور رزق تقسیم کرتا ہے؛ اس نے اپنے علم سے اس کی پیمائش کو کامل بنا دیا اور اپنے حکمت سے اس کے انتظام کو بہتر بنایا۔ بے شک وہ ہر چیز سے آگاہ ہے، ہر چیز کو دیکھنے والا ہے۔",
+          "tr": "Emirü'l-Müminin (aleyhi's-salâtü vesselâm) hutbe etti ve şöyle buyurdu: 'Hamd, alçaltanı, yükseltanı, zarar vereni, fayda vereni, cömerti, geniş olanı, aziz olan Allah'a mahsustur. Onun hamdi hakikidir, isimleri gıyabı ve kalplere konup kalkan her şeyi kuşatır. O, yaratıkları arasında ölümü adalet kıldı ve onlara hayatı bir lütuf olarak ihsan etti. Öyleyse O diriltir ve öldürür, rızık ölçer; O'nun bilgisiyle onun tahminini mükemmelleştirdi, hikmetiyle onun idaresini tamamladı. Şüphesiz O, her şeyi bilen, her şeyi görendir.'",
+          "fa": "امیرالمؤمنین (علیه‌السلام) خطبه‌ای فرمود و فرمود: «ستایش خدای را که خوارکننده، برانگیزاننده، گزندگر، نیکوکار، بخشنده، گسترده، باجلال است. ستایش او راستین است و نام‌هایش همه‌شمول غیب و آنچه در دل‌ها می‌گذرد است. او مرگ را در میان مخلوقاتش به عنوان عدالت قرار داد و حیات را به عنوان نعمتی به آنان ارزانی داشت. پس او زندگی می‌بخشد و می‌میراند و روزی را اندازه‌گیری می‌کند؛ او برآورد آن را با دانش خود کامل کرد و مدیریت آن را با حکمت خود. بی‌گمان او همه‌دان و بینا است.»",
+          "id": "Amrul Mu'minin (shalatullah 'alaihi) memberikan khutbah, katanya: ",
+          "bn": "আমিরুল মুমিনীন (সা.) খুতবা দিলেন এবং বললেন: 'সকল প্রশংসা আল্লাহর জন্য, যিনি অবমাননাকারী, সম্মানদাতা, ক্ষতিগ্রস্তকারী, উপকারী, করুণাময়, বিস্তৃত, মহান। তাঁর প্রশংসা সত্য, তাঁর নামসমূহ গায়েব ও হৃদয়ে ভাসমান সকল বিষয়ের জন্য সর্বব্যাপী। তিনি তাঁর সৃষ্টিগুলোর মধ্যে মৃত্যুকে ন্যায়বিচার হিসেবে স্থাপন করেছেন এবং জীবনকে তাদের প্রতি একটি অনুগ্রহ হিসেবে প্রদান করেছেন। অতএব, তিনি জীবন দান করেন এবং মৃত্যু ঘটান, এবং রিযক নির্ধারণ করেন; তিনি তাঁর জ্ঞানের মাধ্যমে এর পরিমাপকে পূর্ণাঙ্গ করেছেন এবং তাঁর হিকমতের মাধ্যমে এর ব্যবস্থাপনাকে পূর্ণাঙ্গ করেছেন। নিশ্চয়ই তিনি সবকিছু জানেন, সবকিছু দেখেন।'",
+          "es": "El Comandante de los Creyentes (que la paz sea con él) pronunció una sermón, diciendo: 'Toda alabanza pertenece a Alá, el Abatidor, el Elevador, el que Inflige el Daño, el que Concede Beneficios, el Generoso, el Vasto, el Majestuoso. Su alabanza es verdadera, Sus nombres abarcan todo lo desconocido y lo que vaga por los corazones. Hizo la muerte entre Sus criaturas como justicia, y las favoreció con la vida como una gracia. Así que Él da vida y causa la muerte, y determina el sustento; perfeccionó su estimación con Su conocimiento y su gestión con Su sabiduría. Ciertamente, Él es Todo-Conocedor, Todo-Vidente.'",
+          "fr": "Le Commandeur des Croyants (que la paix soit sur lui) a prononcé un sermon, disant : « Toute louange est due à Allah, l'Abaisseur, le Raisseur, l'Endurcisseur, le Bienfaiteur, le Généreux, l'Immense, le Majestueux. Sa louange est vraie, Ses noms englobent tout l'invisible et ce qui traverse les cœurs. Il a fait la mort parmi Ses créatures comme une justice, et leur a favorisé la vie comme une grâce. Ainsi, Il donne la vie et cause la mort, et mesure la subsistance ; Il a perfectionné son estimation par Sa connaissance et sa gestion par Sa sagesse. En vérité, Il est Tout-Averti, Tout-Voyant. »",
+          "de": "Der Kommandeur der Gläubigen (Friede sei mit ihm) hielt eine Predigt und sagte: „Alle Lobpreisung gebührt Allah, dem Erniedriger, dem Erheber, dem Schädiger, dem Wohltäter, dem Großzügigen, dem Allumfassenden, dem Majestätischen. Sein Lob ist wahr, Seine Namen umfassen das Verborgene und das, was durch die Herzen fliegt. Er machte den Tod unter Seinen Geschöpfen zur Gerechtigkeit und begnadete sie mit dem Leben als Gnade. So gibt Er das Leben und lässt sterben, und bemisst den Unterhalt; Er vervollkommnete dessen Schätzung durch Sein Wissen und dessen Verwaltung durch Seine Weisheit. Wahrlich, Er ist Allwissend, Allsehend.“",
+          "ru": "Командующий верующими (да будет мир с ним) произнёс проповедь, сказав: «Вся хвала Аллаху, Смиряющему, Возвышающему, Поражающему, Дарующему благо, Щедрому, Пространному, Величественному. Хвала Ему истинна, Его имена всеобъемлющи для невидимого и того, что мелькает в сердцах. Он сделал смерть среди Своих творений справедливостью, а жизнь — милостью. Он дарует жизнь и вызывает смерть, и определяет удел; Он совершенствовал его оценку Своим знанием, а управление им — Своим мудрым разумом. Поистине, Он — Всезнающий, Всевидящий».",
+          "zh": "信士的长官（愿主福安之）发表演说，说：一切赞颂全归真主，他使高贵者卑贱，使卑贱者高贵，他降灾祸，施恩惠，他慷慨，他广大，他尊贵。他的赞颂是真实的，他的尊名涵盖幽玄和心中闪现的一切。他使死亡成为他众仆中的公正，并以生命作为恩惠赐予他们。所以他赐予生命，使死亡，规定给养；他以他的知识完善其估算，以他的智慧完善其管理。他确是全知的，确是明察的。"
+        },
+        "word_start": 31,
+        "word_end": 84
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "هُوَ الدَّائِمُ بِلَا فَنَاءٍ وَ الْبَاقِي إِلَى غَيْرِ مُنْتَهًى يَعْلَمُ مَا فِي الْأَرْضِ وَ مَا فِي السَّمَاءِ وَ مَا بَيْنَهُمَا وَ مَا تَحْتَ الثَّرَى",
+        "translations": {
+          "en": "He is the Eternal without end, the Remaining without limit. He knows what is in the earth, what is in the sky, what is between them, and what is beneath the soil.",
+          "ur": "وہ ابدی ہے جس کا کوئی انجام نہیں، باقی رہنے والا ہے جس کی کوئی حد نہیں۔ وہ زمین میں جو کچھ ہے، آسمان میں جو کچھ ہے، ان دونوں کے درمیان جو کچھ ہے، اور مٹی کے نیچے جو کچھ ہے، اسے جانتا ہے۔",
+          "tr": "O, sonu olmayan Ebedîdir, sınırsız olarak Kalan'dır. Yeryüzünde ne varsa, gökte ne varsa, ikisi arasında ne varsa ve toprağın altında ne varsa, hepsini bilir.",
+          "fa": "او جاویدان بی‌پایان، و باقی بی‌حد است. او آنچه در زمین است، آنچه در آسمان است، آنچه میان آن دو است، و آنچه در زیر خاک است را می‌داند.",
+          "id": "Dialah Yang Kekal tanpa akhir, Yang Tersisa tanpa batas. Dia mengetahui apa yang ada di bumi, apa yang ada di langit, apa yang ada di antara keduanya, dan apa yang ada di bawah tanah.",
+          "bn": "তিনি অনন্তকালীন, যিনি শেষহীন; তিনি অবশিষ্ট, যিনি সীমাহীন। তিনি জানেন পৃথিবীতে যা আছে, আকাশে যা আছে, তাদের মধ্যকার যা আছে, এবং মাটির নিচে যা আছে।",
+          "es": "Él es el Eterno sin fin, el Permanente sin límite. Él sabe lo que hay en la tierra, lo que hay en el cielo, lo que hay entre ellos y lo que hay bajo el suelo.",
+          "fr": "Il est l'Éternel sans fin, le Subsistant sans limite. Il sait ce qui est dans la terre, ce qui est dans le ciel, ce qui est entre eux, et ce qui est sous le sol.",
+          "de": "Er ist der Ewige ohne Ende, der Beständige ohne Grenze. Er weiß, was in der Erde ist, was im Himmel ist, was zwischen ihnen ist und was unter dem Boden ist.",
+          "ru": "Он — Вечен без конца, Пресуществен без предела. Он знает, что на земле, что на небе, что между ними и что под почвой.",
+          "zh": "他是无始无终的永恒者，是无穷无尽的常住者。他知道大地中的一切，天空中的万物，天地之间的事物，以及土壤之下的一切。"
+        },
+        "word_start": 84,
+        "word_end": 108
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَحْمَدُهُ بِخَالِصِ حَمْدِهِ الْمَخْزُونِ بِمَا حَمِدَهُ بِهِ الْمَلَائِكَةُ وَ النَّبِيُّونَ حَمْداً لَا يُحْصَى لَهُ عَدَدٌ وَ لَا يَتَقَدَّمُهُ أَمَدٌ وَ لَا يَأْتِي بِمِثْلِهِ أَحَدٌ أُومِنُ بِهِ وَ أَتَوَكَّلُ عَلَيْهِ وَ أَسْتَهْدِيهِ وَ أَسْتَكْفِيهِ وَ أَسْتَقْضِيهِ بِخَيْرٍ وَ أَسْتَرْضِيهِ وَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَ أَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَ رَسُولُهُ أَرْسَلَهُ بِالْهُدَى وَ دِينِ الْحَقِّ لِيُظْهِرَهُ عَلَى الدِّينِ كُلِّهِ وَ لَوْ كَرِهَ الْمُشْرِكُونَ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ",
+        "translations": {
+          "en": "I praise Him with sincere praise, treasured by what the angels and prophets praised Him with—a praise whose number cannot be counted, whose time does not pass, and for which no one has brought the like. I believe in Him, rely on Him, seek guidance from Him, seek sufficiency in Him, seek judgment from Him for good, and seek His pleasure. I testify that there is no god but Allah, One, without partner, and I testify that Muhammad is His servant and Messenger, whom He sent with guidance and the religion of truth to make it prevail over all religions, even if the polytheists dislike it. May Allah's peace be upon him and his family.",
+          "ur": "میں اس کی تعریف کرتا ہوں خالص تعریف سے، جو فرشتوں اور انبیاء نے اس کی تعریف جس سے کی ہے، وہی تعریف ہے جس کی گنتی نہیں کی جا سکتی، جس کا وقت نہیں گزرتا، اور جس کی مثال کوئی نہیں لا سکا۔ میں اس پر ایمان لاتا ہوں، اس پر بھروسہ کرتا ہوں، اس سے ہدایت مانگتا ہوں، اس سے کفایت مانگتا ہوں، اس سے نیکی کے لیے حکم مانگتا ہوں، اور اس کی رضا مانگتا ہوں۔ میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ ایک ہے، اس کا کوئی شریک نہیں، اور میں گواہی دیتا ہوں کہ محمد اس کے بندے اور رسول ہیں، جنہیں اس نے ہدایت اور حق کی دین کے ساتھ بھیجا تاکہ اسے تمام ادیان پر غالب کر دے، چاہے مشرکوں کو کچھ ناگوار کیوں نہ ہو۔ اللہ کی رحمت ہو اس پر اور اس کے اہل پر۔",
+          "tr": "Ona, meleklerin ve peygamberlerin övgüyle andığı, sayılamayan, tükenmeyen, benzeri getirilmeyen samimi bir övgüyle hamd ederim. O'na iman ederim, O'na güvenirim, O'ndan hidayet isterim, O'nda kifayet ararım, hayır için O'ndan hüküm isterim ve O'nun rızasını ararım. Şehadet ederim ki, Allah'tan başka ilah yoktur, O tektir, ortağı yoktur; ve Muhammed'in O'nun kulu ve elçisi olduğuna şehadet ederim, ki O'nu hak din ve hidayetle gönderdi ki onu bütün dinlere galip kılsın, müşrikler istesin istemesin. Allah'ın salâtı ve selamı onun ve ailesi üzerine olsun.",
+          "fa": "ستایش می‌کنم او را با ستایشی صادق، گران‌سنگ به آنچه فرشتگان و پیامبران او را با آن ستایش کردند—ستایشی که شمارش آن ممکن نیست، زمان آن نمی‌گذرد، و برای آن هیچ‌کس مانند آن را نیاورده است. ایمان می‌آورم به او، تکیه می‌کنم بر او، هدایت می‌جویم از او، کفایت می‌جویم در او، حکم می‌جویم از او برای خیر، و رضایت او را می‌جویم. شهادت می‌دهم که هیچ معبودی جز الله نیست، یگانه، بی‌همتا، و شهادت می‌دهم که محمد بنده و پیامبر اوست، که او را با هدایت و دین حق فرستاد تا آن را بر همه ادیان غالب کند، هرچند مشرکان ناپسند دارند. صلوات الله بر او و خاندانش باد.",
+          "id": "Aku memuji-Nya dengan pujian yang tulus, yang dihargai oleh apa yang dipuji-Nya oleh para malaikat dan para nabi—sebuah pujian yang jumlahnya tak terhitung, yang waktunya tak berlalu, dan yang tak seorang pun membawa sesuatu yang serupa. Aku beriman kepada-Nya, bertawakal kepada-Nya, meminta petunjuk kepada-Nya, meminta kecukupan kepada-Nya, meminta hukum kepada-Nya untuk kebaikan, dan meminta keridhaan-Nya. Aku bersaksi bahwa tidak ada tuhan selain Allah, Yang Maha Esa, tanpa sekutu, dan aku bersaksi bahwa Muhammad adalah hamba dan utusan-Nya, yang Dia utus dengan petunjuk dan agama kebenaran untuk menjadikannya lebih unggul daripada semua agama, meskipun orang-orang musyrik tidak menyukainya. Semoga rahmat Allah tercurah kepadanya dan keluarganya.",
+          "bn": "আমি তাঁর প্রশংসা করি সততার প্রশংসা দিয়ে, যা ফেরেশতাগণ ও নবীগণ তাঁর প্রশংসা করেছেন সেই প্রশংসার মূল্যে—একটি প্রশংসা যার সংখ্যা গণনা করা যায় না, যার সময় অতিবাহিত হয় না, এবং যার মতো কেউ আনেনি। আমি তাঁর উপর ঈমান আনলাম, তাঁর উপর ভরসা করলাম, তাঁর নিকট হেদায়াত প্রার্থনা করলাম, তাঁর নিকট ক্বিবরত প্রার্থনা করলাম, তাঁর নিকট খৈর (কল্যাণ) এর জন্য হুকুম প্রার্থনা করলাম, এবং তাঁর রিজা (সন্তুষ্টি) প্রার্থনা করলাম। আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ ছাড়া কোনো ইলাহ নেই, একক, অংশীদারহীন; এবং আমি সাক্ষ্য দিচ্ছি যে, মুহাম্মদ (স.) তাঁর বান্দা ও রাসূল, যাকে তিনি হেদায়াত ও সত্যের ধর্ম নিয়ে পাঠিয়েছেন, যাতে তা সকল ধর্মের উপর প্রবল হয়, যদিও মুশরিকরা তা অপছন্দ করে। আল্লাহর শান্তি ও বরকত থাকুক তাঁর উপর এবং তাঁর পরিবারের উপর।",
+          "es": "Le alabo con una alabada sincera, preciosa por lo que los ángeles y los profetas le alabaron con ella —una alabada cuyo número no puede ser contado, cuyo tiempo no pasa, y para la cual nadie ha traído lo similar. Creo en Él, me confío en Él, busco guía de Él, busco suficiencia en Él, busco juicio de Él para el bien, y busco Su placer. Testifico que no hay dios sino Allah, Uno, sin compañero, y testifico que Muhammad es Su siervo y Mensajero, a quien Él envió con la guía y la religión de la verdad para hacerla prevalecer sobre todas las religiones, aunque a los politeístas les desagrade. Que la paz de Allah sea sobre él y su familia.",
+          "fr": "Je Le loue d'une louange sincère, précieuse selon ce avec quoi Les anges et les prophètes L'ont loué — une louange dont le nombre ne peut être compté, dont le temps ne s'écoule pas, et pour laquelle personne n'a apporté l'équivalent. Je crois en Lui, me confie à Lui, cherche guidance auprès de Lui, cherche suffisance en Lui, cherche jugement de Lui pour le bien, et cherche Sa satisfaction. Je témoigne qu'il n'y a de divinité qu'Allah, Unique, sans associé, et je témoigne que Muhammad est Son serviteur et Son Messager, qu'Il a envoyé avec la guidance et la religion de la vérité pour la faire prévaloir sur toutes les religions, même si les polythéistes le détestent. Que la paix d'Allah soit sur lui et sur sa famille.",
+          "de": "Ich preface",
+          "ru": "Хвала Ему с искренней хвалой, драгоценной тем, чем восхваляли Его ангелы и пророки — хвалой, число которой не поддается исчислению, время которой не проходит, и для которой никто не принес подобной. Я верую в Него, уповаю на Него, ищу руководства у Него, ищу достаточности у Него, ищу суда у Него за добро и ищу Его удовольствия. Я свидетельствую, что нет божества, кроме Аллаха, Единого, без партнера, и свидетельствую, что Мухаммад — Его раб и Посланник, Которого Он послал с руководством и религией истины, чтобы сделать ее преобладающей над всеми религиями, даже если многобожникам это не нравится. Мир Аллаха да будет над ним и его семьей.",
+          "zh": "我赞美他，以真诚的赞美，以天使和先知们赞美他的那种珍贵的方式——这种赞美数量无法计算，时间不会流逝，无人能带来与之相仿的。我信仰他，依赖他，向他寻求指引，向他寻求满足，向他寻求善的判断，并寻求他的喜悦。我作证：除安拉外，绝无应受崇拜者，他是独一的，没有伙伴；我又作证：穆罕默德是他的仆人和使者，他派遣他带着真理的宗教和引导，使真理超越一切宗教，即使多神教徒不喜欢。愿安拉的平安降临于他和他的家属。"
+        },
+        "word_start": 108,
+        "word_end": 182
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَيُّهَا النَّاسُ إِنَّ الدُّنْيَا لَيْسَتْ لَكُمْ بِدَارٍ وَ لَا قَرَارٍ إِنَّمَا أَنْتُمْ فِيهَا كَرَكْبٍ عَرَّسُوا فَأَنَاخُوا ثُمَّ اسْتَقَلُّوا فَغَدَوْا وَ رَاحُوا دَخَلُوا خِفَافاً وَ رَاحُوا خِفَافاً لَمْ يَجِدُوا عَنْ مُضِيٍّ نُزُوعاً وَ لَا إِلَى مَا تَرَكُوا رُجُوعاً جُدَّ بِهِمْ فَجَدُّوا وَ رَكَنُوا إِلَى الدُّنْيَا فَمَا اسْتَعَدُّوا حَتَّى إِذَا أُخِذَ بِكَظَمِهِمْ وَ خَلَصُوا إِلَى دَارِ قَوْمٍ جَفَّتْ أَقْلَامُهُمْ لَمْ يَبْقَ مِنْ أَكْثَرِهِمْ خَبَرٌ وَ لَا أَثَرٌ",
+        "translations": {
+          "en": "O people! The world is not a dwelling or a place of rest for you. You are in it like a caravan that camped, then rested, then traveled, going forth and returning. They entered lightly and left lightly, finding no way to divert from their journey nor to return to what they left. They were urged on, so they hurried, and relied on the world, so they did not prepare until they were seized by the throat. They passed to the house of people whose pens dried up; no news or trace remains of most of them.",
+          "ur": "اے لوگو! دنیا تمہارے لیے رہنے یا آرام گاہ کا مقام نہیں ہے۔ تم اس میں اس کارواں کی طرح ہو جو ٹھہرا، پھر آرام کیا، پھر سفر کیا، آگے بڑھا اور واپس آیا۔ وہ ہلکے پن سے داخل ہوئے اور ہلکے پن سے نکل گئے، اپنے سفر سے ہٹنے کا کوئی راستہ نہ پائے اور نہ ہی چھوڑے ہوئے چیزوں میں واپس آ سکے۔ وہ آگے بڑھنے پر مجبور کیے گئے، تو وہ جلدی کرنے لگے، اور دنیا پر بھروسہ کیا، تو وہ تیار نہ ہوئے یہاں تک کہ گلے سے پکڑ لیا گیا۔ وہ ان لوگوں کے گھر میں چلے گئے جن کی قلمیں خشک ہو گئیں؛ ان میں سے زیادہ تر کی کوئی خبر یا نشان باقی نہیں رہا۔",
+          "tr": "Ey insanlar! Dünya, sizin için bir ikametgâh ya da dinlenme yeri değildir. Siz, onun içinde, kamp kuran, sonra dinlenen, sonra da yoluna devam eden, gidip gelen bir kervan gibisiniz. Hafifçe girip hafifçe çıktılar; yolculuklarından sapacak ya da geride bıraktıklarına dönecek bir yol bulamadılar. Öne sürüldükleri için acele ettiler; dünyaya güvenip de boğazlarından tutuluncaya kadar hazırlık yapmadılar. Kalemlerinin kuruduğu insanlara ait eve geçip gittiler; çoğunun haberinden veya izinden eser kalmadı.",
+          "fa": "ای مردم! دنیا برای شما خانه‌ی اقامت یا جایگاه آرامش شما نیست. شما در آن همچون کاروانی هستید که چادر زد، سپس استراحت کرد، و سپس سفر کرد، رفت و بازگشت. آنان سبک‌بال وارد شدند و سبک‌بال رفتند، و راهی برای منحرف شدن از مسیر خود یا بازگشت به آنچه رها کرده بودند نیافتند. آنان به حرکت برانگیخته شدند، پس شتاب کردند، و به دنیا تکیه زدند، پس تا زمانی که به گلوگیرشان افتاد، آماده‌ی سفر نشدند. آنان به خانه‌ی کسانی رفتند که قلم‌هایشان خشک شد؛ و خبر یا نشانه‌ای از بیشتر آنان باقی نمانده است.",
+          "id": "Wahai manusia! Dunia bukanlah tempat tinggal atau tempat istirahat bagi kalian. Kalian berada di dalamnya seperti kafilah yang berhenti, lalu beristirahat, kemudian melanjutkan perjalanan, pergi dan kembali. Mereka masuk dengan ringan dan keluar dengan ringan, tidak menemukan jalan untuk menyimpang dari perjalanan mereka maupun untuk kembali kepada apa yang mereka tinggalkan. Mereka didorong untuk segera bergerak, sehingga mereka bergegas, dan bersandar pada dunia, sehingga mereka tidak bersiap hingga mereka direnggut oleh kematian. Mereka berpindah ke rumah penduduk yang pena-pena mereka telah kering; tidak ada berita atau jejak yang tersisa dari sebagian besar mereka.",
+          "bn": "হে লোকসমূহ! সংসার তোমাদের জন্য কোনো বাসস্থান বা বিশ্রামস্থল নয়। তোমরা এতে এক দলবলবিশিষ্ট যাত্রীদের মতো, যারা অবতরণ করে, বিশ্রাম নেয়, তারপর আবার যাত্রা করে, এগিয়ে যায় এবং ফিরে আসে। তারা সহজেই প্রবেশ করেছিল এবং সহজেই প্রস্থান করেছে, তাদের যাত্রা থেকে বিচ্যুত হওয়ার কোনো পথ বা ফিরে যাওয়ার কোনো উপায় খুঁজে পায়নি। তারা উৎসাহিত হয়ে দ্রুত এগিয়ে গেছে, সংসারের ওপর নির্ভর করেছে, তাই তারা প্রস্তুতি নিয়েছিল না, যতক্ষণ না গলা টিপে ধরা হয়েছিল। তারা সেই বাড়িতে চলে গেছে, যেখানে মানুষের কলম শুকিয়ে গেছে; তাদের অধিকাংশের কোনো খবর বা চিহ্ন অবশিষ্ট নেই।",
+          "es": "¡Oh gente! El mundo no es una morada ni un lugar de descanso para vosotros. Estáis en él como una caravana que acampó, luego descansó y después partió, yendo y volviendo. Entraron ligeros y se fueron ligeros, sin encontrar manera de desviarse de su camino ni de volver a lo que dejaron. Fueron impulsados, así que se apresuraron, y confiaron en el mundo, así que no se prepararon hasta que fueron asidos por la garganta. Pasaron a la morada de gente cuyas plumas se secaron; no queda noticia ni rastro de la mayoría de ellos.",
+          "fr": "Ô",
+          "de": "O Menschen! Die Welt ist für euch keine Wohnung und kein Ort der Ruhe. Ihr seid darin wie eine Karawane, die lagerte, dann rastete und dann weiterreiste, voranschreitend und zurückkehrend. Sie traten leicht ein und gingen leicht, fanden keinen Weg, von ihrer Reise abzuweichen, noch zu dem, was sie zurückließen, zurückzukehren. Sie wurden vorangetrieben, also eilten sie, und vertrauten auf die Welt, also bereiteten sie sich nicht vor, bis sie vom Hals gepackt wurden. Sie zogen in das Haus der Menschen, deren Schreibfedern austrockneten; keine Nachricht oder Spur bleibt von den meisten von ihnen.",
+          "ru": "О люди! Мир — это не жилище и не место покоя для вас. Вы находитесь в нём подобно каравану, который разбил лагерь, затем отдохнул и снова отправился в путь, идя вперёд и возвращаясь. Они вошли легко и ушли легко, не найдя способа отклониться от своего пути или вернуться к тому, что оставили. Их подталкивали вперёд, и они спешили, полагались на мир, поэтому не подготовились, пока их не схватили за горло. Они перешли в дом людей, чьи пересохли перья; о большинстве из них не осталось ни новостей, ни следа.",
+          "zh": "众人啊！世界并非你们的居所或安息之地。你们在其中犹如一支商队，曾扎营，曾歇息，而后启程，前行又返回。他们轻装而来，轻装而去，无法偏离旅程，也无法返回所遗留之物。他们被催促前行，因而匆忙；他们依赖世界，因而未作准备，直至被扼住咽喉。他们已前往那支笔已干涸之人的居所；其中大多数人已无消息或踪迹可寻。"
+        },
+        "word_start": 182,
+        "word_end": 247
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَلَّ فِي الدُّنْيَا لَبْثُهُمْ وَ عُجِّلَ إِلَى الْآخِرَةِ بَعْثُهُمْ فَأَصْبَحْتُمْ حُلُولًا فِي دِيَارِهِمْ ظَاعِنِينَ عَلَى آثَارِهِمْ وَ الْمَطَايَا بِكُمْ تَسِيرُ سَيْراً مَا فِيهِ أَيْنٌ وَ لَا تَفْتِيرٌ نَهَارُكُمْ بِأَنْفُسِكُمْ دَءُوبٌ وَ لَيْلُكُمْ بِأَرْوَاحِكُمْ ذَهُوبٌ فَأَصْبَحْتُمْ تَحْكُونَ مِنْ حَالِهِمْ حَالًا وَ تَحْتَذُونَ مِنْ مَسْلَكِهِمْ مِثَالًا فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا فَإِنَّمَا أَنْتُمْ فِيهَا سَفْرٌ حُلُولٌ الْمَوْتُ بِكُمْ نُزُولٌ تَنْتَضِلُ فِيكُمْ مَنَايَاهُ وَ تَمْضِي بِأَخْبَارِكُمْ مَطَايَاهُ إِلَى دَارِ الثَّوَابِ وَ الْعِقَابِ وَ الْجَزَاءِ وَ الْحِسَابِ",
+        "translations": {
+          "en": "Their stay in the world was brief, and their dispatch to the Hereafter was hastened. So you have become residents in their houses, traveling in their footsteps, with your mounts carrying you on a journey where there is no 'where' and no 'how far'. Your days are tiring for your souls, and your nights are an escape for your spirits. So you have become like them in condition, following their path as an example. Do not let the life of the world deceive you, for you are only travelers in it. Death descends among you, shooting its arrows, and herds you with its mounts to the House of Reward, Punishment, Recompense, and Accounting.",
+          "ur": "ان کی دنیا میں قیام مختصر تھا اور آخرت کی طرف ان کی روانگی جلد کی گئی۔ لہذا آپ ان کے گھروں میں مقیم ہو گئے، ان کے قدموں پر چل رہے ہیں، اور آپ کے سوار آپ کو ایک ایسی سفر پر لے جا رہے ہیں جہاں کوئی 'کہاں' نہیں اور کوئی 'کتنی دور' نہیں۔ آپ کے دن آپ کی روحوں کے لیے تھکا دینے والے ہیں، اور آپ کی راتیں آپ کی ارواح کے لیے فرار ہیں۔ لہذا آپ ان کی حالت میں ان کے پیچھے چلنے والے بن گئے ہیں۔ دنیا کی زندگی آپ کو دھوکہ نہ دے، کیونکہ آپ اس میں صرف مسافر ہیں۔ موت آپ کے درمیان آتی ہے، اپنے تیر چلاتی ہے، اور اپنے سواروں کے ساتھ آپ کو انعام، عذاب، جزا، اور حساب کے گھر کی طرف جمع کرتی ہے۔",
+          "tr": "Dünyada kalışları kısa, ahirete gönderilmeleri ise acele edilmiştir. Öyle ki, siz onların evlerinde ikamet eden, izlerinden giden, bineklerinizin kendinizi 'nerede' ve 'ne kadar' sorularının olmadığı bir yolculuğa sürüklediği bir durumda bulunuyorsunuz. Günleriniz ruhlarınız için yorucu, geceleriniz ise ruhlarınız için bir kaçış haline gelmiştir. Böylece, onların durumuna benzemiş, onları örnek alarak onların yolunu takip etmiş oldunuz. Dünya hayatı sizi aldatmasın, çünkü siz orada sadece yolcusunuz. Ölüm, oklarını fırlatarak aranızda iniyor ve mükafat, azap, karşılık ve muhasebe evine sürüyor.",
+          "fa": "اقامتم در دنیا کوتاه و شتافتنتان به آخرت سریع بود. پس شما در خانه‌های آنان ساکن شده‌اید و در پی آثار آنان در سفری می‌روید که در آن «کجا» و «چقدر دور» وجود ندارد. روزهایتان برای جان‌هایتان خسته‌کننده و شب‌هایتان برای اروحتان فرارگاه است. پس شما از نظر حالت مانند آنان شده‌اید و از راه آنان به عنوان الگو پیروی می‌کنید. زندگی دنیا شما را گمراه نکند، زیرا شما در آن تنها مسافرید. مرگ در میان شما فرود می‌آید، پیکان‌هایش را شلیک می‌کند و شما را با سوارگانش به خانه پاداش، عذاب، جزا و حساب‌وکتاب گرد می‌آورد.",
+          "id": "Kehadiran mereka di dunia ini singkat, dan kepindahan mereka ke akhirat dipercepat. Maka kalian telah menjadi penghuni rumah-rumah mereka, mengikuti jejak langkah mereka, dengan tunggangan kalian membawa kalian dalam perjalanan yang tiada 'di mana' dan tiada 'seberapa jauh'. Hari-hari kalian melelahkan jiwa-jiwa kalian, dan malam-malam kalian menjadi pelarian bagi roh-roh kalian. Maka kalian telah menjadi seperti mereka dalam keadaan, mengikuti jalan mereka sebagai teladan. Jangan biarkan kehidupan dunia menipu kalian, karena kalian hanyalah traveler di dalamnya. Kematian turun di antara kalian, menembakkan panahnya, dan menggiring kalian dengan tunggangannya ke Rumah Penghargaan, Hukuman, Balasan, dan Perhitungan.",
+          "bn": "তাদের এই জগতে বসবাস ছিল সংক্ষিপ্ত, এবং আখিরাতের দিকে তাদের প্রেরণ দ্রুত সংঘটিত হয়েছে। অতএব, তোমরা তাদের বাসভবনে বসবাসকারী হয়ে পড়েছ, তাদের পদচিহ্ন অনুসরণ করছ, এবং তোমাদের বাহনগুলো তোমাদেরকে নিয়ে যাচ্ছে এমন একটি যাত্রাপথে যেখানে 'কোথায়' বা 'কতদূর' এর কোনো পরিমাপ নেই। তোমাদের দিনগুলো তোমাদের আত্মার জন্য ক্লান্তিকর, এবং রাতগুলো তোমাদের আত্মার জন্য একটি আশ্রয়স্থল। অতএব, তোমরা অবস্থার দিক থেকে তাদের মতো হয়ে পড়েছ, তাদের পথকে আদর্শ হিসেবে অনুসরণ করছ। জগতের জীবন তোমাদেরকে প্রতারিত করুক না, কারণ তোমরা এর মধ্যে কেবল যাত্রী। মৃত্যু তোমাদের মাঝে নেমে আসে, তার তীর নিক্ষেপ করে, এবং তার বাহনগুলো দিয়ে তোমাদেরকে পুরস্কারের আবাস, শাস্তির আবাস, প্রতিদানের আবাস এবং হিসাব-নিকাশের আবাসের দিকে নিয়ে যায়।",
+          "es": "Fue breve su estancia en el mundo, y se apresuró su envío al Más Allá. Así, os habéis convertido en residentes en sus casas, siguiendo sus pasos, con vuestras monturas que os llevan en un viaje donde no hay «dónde» ni «cuánto lejos». Vuestros días son fatigosos para vuestras almas, y vuestras noches son una huida para vuestros espíritus. Así, os habéis vuelto como ellos en condición, siguiendo su camino como ejemplo. No dejéis que la vida del mundo os engañe, pues no sois más que viajeros en ella. La muerte desciende entre vosotros, disparando sus flechas, y os agrupa con sus monturas hacia la Casa de la Recompensa, el Castigo, la Retribución y la Rendición de Cuentas.",
+          "fr": "Leur séjour dans le monde fut bref, et leur dépêche vers l'Au-delà fut hâtée. Ainsi, vous êtes devenus résidents dans leurs maisons, marchant sur leurs traces, vos montures vous portant dans un voyage où il n'y a ni « où » ni « jusqu'où ». Vos jours sont fatigants pour vos âmes, et vos nuits sont une évasion pour vos esprits. Ainsi, vous êtes devenus comme eux en condition, suivant leur chemin en exemple. Que la vie du monde ne vous trompe pas, car vous n'en êtes que des voyageurs. La mort descend parmi vous, lançant ses flèches, et vous rassemble avec ses montures vers la Maison de la Récompense, du Châtiment, de la Rémunération et de la Comptabilité.",
+          "de": "Ihr Aufenthalt in der Welt war kurz, und ihre Entsendung ins Jenseits wurde beschleunigt. So seid ihr Bewohner ihrer Häuser geworden, die ihren Spuren folgen, wobei eure Reittiere euch auf eine Reise tragen, bei der es kein »Wo« und kein »Wie weit« gibt. Eure Tage sind für eure Seelen ermüdend, und eure Nächte sind eine Flucht für eure Geister. So seid ihr ihnen in ihrem Zustand gleich geworden und folgt ihrem Weg als Beispiel. Lasst euch nicht vom Leben der Welt täuschen, denn ihr seid darin nur Reisende. Der Tod kommt unter euch herab, schießt seine Pfeile und treibt euch mit seinen Reittieren zum Haus der Belohnung, der Bestrafung, der Vergeltung und der Abrechnung.",
+          "ru": "Их пребывание в мире было кратким, а отправление в Загробье ускорено. Так вы стали обитателями их домов, идущими по их следам, ваши верблюды несут вас в путь, где нет ни «куда», ни «как далеко». Ваши дни утомляют ваши души, а ночи становятся убежищем для ваших духов. Так вы стали подобны им по состоянию, следуя их пути как примеру. Не позволяйте жизни мира обманывать вас, ибо вы лишь странники в ней. Смерть спускается среди вас, пуская свои стрелы, и гонит вас вместе с её всадниками к Дому Воздаяния, Наказания, Расплаты и Счёта.",
+          "zh": "他们在世上的居留短暂，被迅速送往后世。于是你们成为他们房屋的居民，追随他们的足迹，你们的坐骑载着你们踏上没有终点、不知远近的旅程。你们的日子使灵魂疲惫，你们的夜晚使精神得以解脱。于是你们在境况上与他们相似，以他们为榜样追随其道路。不要让今世的生活欺骗你们，因为你们只是其中的过客。死亡降临在你们中间，射出它的箭矢，驱赶着你们，带着你们的坐骑，前往奖赏、惩罚、报应和清算的居所。"
+        },
+        "word_start": 247,
+        "word_end": 319
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَرَحِمَ اللَّهُ امْرَأً رَاقَبَ رَبَّهُ وَ تَنَكَّبَ ذَنْبَهُ وَ كَابَرَ هَوَاهُ وَ كَذَّبَ مُنَاهُ امْرَأً زَمَّ نَفْسَهُ مِنَ التَّقْوَى بِزِمَامٍ وَ أَلْجَمَهَا مِنْ خَشْيَةِ رَبِّهَا بِلِجَامٍ فَقَادَهَا إِلَى الطَّاعَةِ بِزِمَامِهَا وَ قَدَعَهَا عَنِ الْمَعْصِيَةِ بِلِجَامِهَا رَافِعاً إِلَى الْمَعَادِ طَرْفَهُ مُتَوَقِّعاً فِي كُلِّ أَوَانٍ حَتْفَهُ دَائِمَ الْفِكْرِ طَوِيلَ السَّهَرِ عَزُوفاً عَنِ الدُّنْيَا سَأَماً كَدُوحاً لِآخِرَتِهِ مُتَحَافِظاً",
+        "translations": {
+          "en": "May Allah have mercy on a man who watched his Lord, turned away from his sin, argued against his desire, and rejected his yearnings. A man who harnessed his soul with the rein of piety and bridled it with the bridle of fear of his Lord, leading it to obedience with its rein and restraining it from disobedience with its bridle. Raising his gaze to the Return, expecting death at every moment, constantly thinking, long awake, turning away from the world, weary of it, diligent for his Hereafter, preserving himself.",
+          "ur": "اللہ تعالیٰ اس شخص پر رحم فرمائے جس نے اپنے رب کو دیکھا، اپنے گناہ سے منہ پھیر لیا، اپنی خواہش کے خلاف بحث کی، اور اپنی خواہشات کو مسترد کر دیا۔ وہ شخص جس نے اپنے نفس کو تقویٰ کے لگام سے پکڑا اور اپنے رب کے خوف کی لگام سے اس پر قابو پایا، تاکہ وہ اسے اطاعت کی طرف لے جائے اور نافرمانی سے روکے۔ اس نے اپنی نظر کو واپسی کی طرف اٹھایا، ہر لمحہ موت کی توقع کی، مسلسل سوچا، زیادہ جاگتا رہا، دنیا سے منہ پھیر لیا، اس سے تھک گیا، آخرت کے لیے محنت کی، اور اپنے آپ کو محفوظ رکھا۔",
+          "tr": "Allah bir adama rahmet eylesin ki o, Rabbine hürmetle bakan, günahından yüz çeviren, hevesine karşı münazara eden ve arzusunu reddeden biridir. O, ruhunu takva ile dizginleyip, Rabbinden korku ile üzümlüğü ile bağlamış, onu dizgin ile itaate, üzümlük ile isyandan alıkoymuştur. Bakışını dönüşe dikmiş, her an ölümü beklemiş, sürekli düşünmüş, uyanık kalmış, dünyadan yüz çevirmiş, ondan yorulmuş, ahireti için çalışmış, kendini korumuştur.",
+          "fa": "خداوند به مردی رحمت کند که پروردگارش را دیده، از گناهش روی گردانیده، با خواسته‌هایش مجادله کرده و آرزوهایش را پس زده است. مردی که جان خود را با افسار تقوا رام کرده و آن را با زمام ترس از پروردگارش مهار نموده، تا آن را با افسار خود به اطاعت کشاند و با زمام خود از نافرمانی بازدارد. او نگاه خود را به بازگشت (موت و قیامت) دوخته، مرگ را در هر لحظه منتظر است، همواره در فکر است، بیدار و هوشیار است، از دنیا روی گردانیده، از آن خسته است، برای آخرت خود کوشا است و خود را حفظ می‌کند.",
+          "id": "Semoga Allah merahmati seorang hamba yang memperhatikan Tuhannya, berpaling dari dosanya, bertengkar dengan hawa nafsunya, dan menolak keinginan-keinginannya. Seorang hamba yang menundukkan jiwanya dengan kendali ketakwaan dan membiusinya dengan kekangan rasa takut kepada Tuhannya, sehingga ia menuntunnya menuju ketaatan dengan kendali tersebut dan menghentikannya dari kemaksiatan dengan kekangan itu. Ia mengangkat pandangannya kepada tempat kembali, mengharapkan kematian di setiap saat, senantiasa berfikir, lama terjaga, berpaling dari dunia, letih terhadapnya, giat untuk akhiratnya, dan menjaga dirinya.",
+          "bn": "আল্লাহ্‌ তায়ালা এমন এক ব্যক্তির প্রতি রহমত বর্ষণ করুন, যে নিজের রবের ওপর নজর রাখত, তার গুনাহ থেকে মুখ ফিরিয়ে নিত, তার শয়তানের সাথে যুক্তি করত এবং তার কামনা-কাঙ্ক্ষা থেকে বিরত থাকত। এমন এক ব্যক্তি, যে তার নফসকে তাqওয়ার দড়ি দিয়ে শাসন করত এবং তার রবের ভয়ের দড়ি দিয়ে তাহাকে বাঁধত, যাতে তা দড়ির সাহায্যে আনুগত্যের দিকে পরিচালিত হয় এবং দড়ির সাহায্যে বিদ্রোহ থেকে বিরত থাকে। সে তার দৃষ্টি ফিরে আসার (মৃত্যু ও হিসাব) দিকে উন্মুখ করে, প্রতি মুহূর্তে মৃত্যুর প্রতীক্ষায় থাকে, সর্বদা চিন্তাশীল থাকে, দীর্ঘক্ষণ জাগ্রত থাকে, দুনিয়া থেকে মুখ ফিরিয়ে নেয়, দুনিয়ায় ক্লান্ত হয়ে পড়ে, আখিরাতের জন্য সচেষ্ট থাকে এবং নিজেকে রক্ষা করে।",
+          "es": "Tenga Allah misericordia de un hombre que observaba a su Señor, se apartaba de su pecado, argumentaba contra su deseo y rechazaba sus anhelos. Un hombre que sujetó su alma con la rienda de la piedad y la frenó con el bocado del temor a su Señor, guiándola hacia la obediencia con su rienda y conteniéndola de la desobediencia con su bocado. Alzando su mirada hacia el Retorno, esperando la muerte en cada momento, reflexionando constantemente, despierto por mucho tiempo, apartándose del mundo, hastiado de él, diligente por su Más Allá, preservándose a sí mismo.",
+          "fr": "Que Allah fasse miséricorde à un homme qui a veillé sur son Seigneur, s'est détourné de son péché, a combattu son désir et a rejeté ses aspirations. Un homme qui a bridé son âme avec la bride de la piété et l'a maîtrisée avec le mors de la crainte de son Seigneur, la guidant vers l'obéissance par sa bride et la retenant de la désobéissance par son mors. Relevant son regard vers le Retour, s'attendant à la mort à tout moment, constamment en réflexion, veillant longtemps, se détournant du monde, lassé de lui, zélé pour sa Hereafter, préservant lui-même.",
+          "de": "Möge Allah einen Mann barmherzig sein, der seinen Herrn im Auge behielt, sich von seiner Sünde abwandte, gegen seine Begierde argumentierte und seine Sehnsüchte zurückwies. Ein Mann, der seine Seele mit dem Zügel der Frömmigkeit zügelte und sie mit dem Zaumzeug der Furcht vor seinem Herrn bändigte, indem er sie mit dem Zügel zum Gehorsam führte und sie mit dem Zaumzeug vom Ungehorsam abhielt. Er richtete seinen Blick auf die Rückkehr, erwartete den Tod in jedem Moment, dachte ständig nach, war lange wach, wandte sich von der Welt ab, war müde von ihr, eifrig für sein Jenseits und bewahrte sich selbst.",
+          "ru": "Да помилует Аллах человека, который следил за своим Господом, отвращался от своего греха, спорил со своим желанием и отвергал свои стремления. Человека, который уздечкой богобоязненности обуздал свою душу и поводком страха перед своим Господом укротил её, направляя её к послушанию посредством уздечки и удерживая от непослушания посредством поводка. Поднимающего свой взор к Возвращению, ожидающего смерть в каждый миг, постоянно размышляющего, долго бодрствующего, отвращающегося от мира, утомлённого им, усердствующего ради Своего Ахирата, сохраняющего себя.",
+          "zh": "愿真主怜悯那样的人：他凝视主，远离罪恶，对抗私欲，摒弃渴望。他以虔诚为缰绳驾驭灵魂，以敬畏主为辔头约束灵魂，使其顺从，使其远离悖逆。他举目仰望归宿，时刻期盼死亡，常思常想，长醒不寐，远离尘世，厌弃尘世，勤勉于后世，保全自身。"
+        },
+        "word_start": 319,
+        "word_end": 374
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "امْرَأً جَعَلَ الصَّبْرَ مَطِيَّةَ نَجَاتِهِ وَ التَّقْوَى عُدَّةَ وَفَاتِهِ وَ دَوَاءَ أَجْوَائِهِ فَاعْتَبَرَ وَ قَاسَ وَ تَرَكَ الدُّنْيَا وَ النَّاسَ يَتَعَلَّمُ لِلتَّفَقُّهِ وَ السَّدَادِ وَ قَدْ وَقَّرَ قَلْبَهُ ذِكْرُ الْمَعَادِ وَ طَوَى مِهَادَهُ وَ هَجَرَ وِسَادَهُ مُنْتَصِباً عَلَى أَطْرَافِهِ دَاخِلًا فِي أَعْطَافِهِ خَاشِعاً لِلَّهِ عَزَّ وَ جَلَّ يُرَاوِحُ بَيْنَ الْوَجْهِ وَ الْكَفَّيْنِ خَشُوعٌ فِي السِّرِّ لِرَبِّهِ لَدَمْعُهُ صَبِيبٌ وَ لَقَلْبُهُ وَجِيبٌ شَدِيدَةٌ أَسْبَالُهُ تَرْتَعِدُ مِنْ خَوْفِ اللَّهِ عَزَّ وَ جَلَّ أَوْصَالُهُ قَدْ عَظُمَتْ فِيمَا عِنْدَ اللَّهِ رَغْبَتُهُ وَ اشْتَدَّتْ مِنْهُ رَهْبَتُهُ رَاضِياً بِالْكَفَافِ مِنْ أَمْرِهِ يُظْهِرُ دُونَ مَا يَكْتُمُ وَ يَكْتَفِي بِأَقَلَّ مِمَّا يَعْلَمُ",
+        "translations": {
+          "en": "A man who made patience his mount of salvation and piety his preparation for death and medicine for his inner self. He reflected, measured, left the world and people, learning for understanding and steadfastness. His heart was honored with the remembrance of the Return; he folded his mattress, abandoned his pillow, standing on his feet, entering his surroundings, humble before Allah, the Mighty and Majestic. He moves between his face and his palms, humble in secret to his Lord, his tears flowing, his heart a strong enclave. His limbs tremble from fear of Allah, the Mighty and Majestic. His joints have grown large in the sight of Allah; his hope in Him is great and his fear of Him is intense. He is content with sufficiency in his affairs, showing what he conceals, and being satisfied with less than what he knows.",
+          "ur": "ایک شخص جس نے صبر کو نجات کا گھوڑا بنایا اور تقویٰ کو موت کی تیاری اور اپنے باطن کا علاج بنایا۔ اس نے غور و فکر کیا، پیمائش کی، دنیا اور لوگوں سے کنارہ کش ہو کر سمجھ اور استقامت کے لیے سیکھا۔ اس کے دل کو واپسی کی یاد سے عزت دی گئی؛ اس نے اپنی چٹائی کو سمیٹا، تکیہ چھوڑ دیا، پاؤں پر کھڑا ہوا، اپنے ماحول میں داخل ہوا، خدا کے سامنے عاجز، جبار و حکیم۔ وہ اپنے چہرے اور ہتھیلیوں کے درمیان حرکت کرتا ہے، راز میں اپنے رب کے سامنے عاجز، اس کی آنسو بہہ رہے ہیں، اس کا دل مضبوط قلعہ ہے۔ اس کے اعضاء خدا کے جلال سے ڈر کے باعث کانپتے ہیں۔ اس کے جوڑ خدا کے نظر میں بڑے ہو گئے ہیں؛ اس کی امید اس میں بڑی ہے اور اس کا ڈر شدید ہے۔ وہ اپنے معاملات میں کفایت شعاری پر راضی ہے، جو چھپاتا ہے اسے ظاہر کرتا ہے، اور جو جانتا ہے اس سے کم پر راضی ہوتا ہے۔",
+          "tr": "Sabrı kurtuluşa erme aracısı, takvayı ise ölüm için hazırlık ve iç dünyası için şifa edinen bir adam. Düşünüp tarttı, dünyayı ve insanları geride bırakarak anlamak ve sebat için öğrendi. Kalbi, Dönüş'ün zikriyle onurlandırıldı; yatağını katladı, yastığını terk etti, ayakları üzerinde durarak çevresine girdi; Allah'ın Zat-ı Aliyyi huzurunda mütevazı bir halde. Yüzü ile avuç içleri arasında hareket ederken, Rabbinin huzurunda gizlice mütevazı, gözyaşları akarken kalbi güçlü bir enklav haline geldi. Allah'ın Zat-ı Aliyyi'nden korku nedeniyle uzuvları titredi. Eklentileri Allah'ın nezdinde büyümüş; umudu büyük, korkusu ise şiddetlidir. İşlerinde kifayete razı, gizlediklerini ortaya koyan ve bildiğinden daha azıyla yetinen biridir.",
+          "fa": "مردیاد می‌شود مردی که صبر را مرکب نجات خود و تقوا را آماده‌باش برای مرگ و داروی درون خود قرار داده بود. او تأمل می‌کرد، می‌سنجید، از دنیا و مردم کناره می‌گرفت و برای فهم و استقامت می‌آموخت. قلبش با یاد بازگشت گرامی داشته شد؛ تشک خود را تا کرد، بالش را رها کرد، بر پاهای خود ایستاد، در میان محیط خود وارد شد، فروتن در برابر خداوند، توانا و بزرگ. او بین چهره و کف‌های دستش حرکت می‌کند، در پنهان فروتن به پروردگارش، اشک‌هایش جاری است، قلبش دژی استوار است. اندام‌هایش از ترس خداوند، توانا و بزرگ، می‌لرزد. مفاصلش در نظر خداوند بزرگ شده‌اند؛ امیدش به او بزرگ و ترسش از او شدید است. او با کفایت در کارهای خود قانع است، آنچه را پنهان می‌دارد نشان می‌دهد و به کمتر از آنچه می‌داند رضایت دارد.",
+          "id": "Seorang laki-laki yang menjadikan kesabaran sebagai tunggangan keselamatan dan takwa sebagai persiapan menghadapi kematian serta obat bagi jiwanya. Ia merenung, mengukur, meninggalkan dunia dan manusia, belajar untuk memahami dan teguh pendirian. Hatinya dimuliakan dengan mengingat kembali (kepada Allah); ia melipat kasurnya, meninggalkan bantalnya, berdiri tegak, memasuki lingkungan sekitarnya, tawadhu di hadapan Allah Yang Maha Perkasa lagi Maha Agung. Ia bergerak antara wajahnya dan telapak tangannya, tawadhu secara rahasia kepada Tuhannya, air matanya mengalir, hatinya menjadi benteng yang kokoh. Anggota tubuhnya gemetar karena takut kepada Allah Yang Maha Perkasa lagi Maha Agung. Sendi-sendinya membesar di sisi Allah; harapannya kepada-Nya besar dan ketakutannya kepada-Nya mendalam. Ia ridha dengan kecukupan dalam urusannya, menunjukkan apa yang ia sembunyikan, dan merasa puas dengan lebih sedikit dari apa yang ia ketahui.",
+          "bn": "একজন ব্যক্তি যিনি ধৈর্যকে মুক্তির বাহন এবং তাকওয়াকে মৃত্যুর প্রস্তুতি ও অন্তরের ঔষধ হিসেবে গ্রহণ করেছিলেন। তিনি চিন্তা করতেন, পরিমাপ করতেন, সংসার ও মানুষকে ত্যাগ করতেন, বোঝার ও দৃঢ়তা অর্জনের জন্য। তাঁর হৃদয় পুনরাগমনের স্মরণে সম্মানিত হয়েছিল; তিনি তাঁর বিছানার চাদর গুটিয়ে ফেলতেন, তাঁর বালিশ ত্যাগ করতেন, পায়ে দাঁড়িয়ে, পরিবেশে প্রবেশ করতেন, আল্লাহর নিকট নতজানু, মহান ও মাহাত্ম্যময়। তিনি তাঁর মুখ ও তালুর মধ্যে চলাচল করতেন, গোপনে তাঁর প্রতিপালকের নিকট নতজানু, তাঁর অশ্রুধারা বহমান, তাঁর হৃদয় ছিল একটি শক্তিশালী দুর্গ। তাঁর অঙ্গপ্রত্যঙ্গ আল্লাহর ভয়ে কঁপত, মহান ও মাহাত্ম্যময়। তাঁর গাঁটগুলো আল্লাহর দৃষ্টিতে বড় হয়ে গিয়েছিল; তাঁর আশা তাঁর প্রতি মহান এবং তাঁর ভয় ছিল তীব্র। তিনি তাঁর কাজে পর্যাপ্ততায় সন্তুষ্ট ছিলেন, যা লুকিয়ে রাখতেন তা প্রকাশ করতেন, এবং যা জানতেন তার চেয়ে কম দিয়ে সন্তুষ্ট থাকতেন।",
+          "es": "Un hombre que tomó la paciencia como montura de salvación y piedad como preparación para la muerte y medicina para su ser interior. Reflexionaba, medía, dejaba el mundo y a la gente, aprendiendo para la comprensión y la firmeza. Su corazón fue honrado con el recuerdo del Retorno; plegó su colchón, abandonó su almohada, permaneciendo de pie, entrando en sus alrededores, humilde ante Allah, el Poderoso y Majestuoso. Se mueve entre su rostro y sus palmas, humilde en secreto ante su Señor, con sus lágrimas fluyendo, su corazón un fuerte reducto. Sus miembros tiemblan por el temor a Allah, el Poderoso y Majestuoso. Sus articulaciones se han agrandado a la vista de Allah; su esperanza en Él es grande y su temor a Él es intenso. Está satisfecho con la suficiencia en sus asuntos, mostrando lo que oculta, y conformándose con menos de lo que sabe.",
+          "fr": "Un homme qui aïd qui a fait de la patience son monture de salut et de la piété sa préparation à la mort et remède pour son âme intérieure. Il méditait, pesait le pour et le contre, quittait le monde et les gens, apprenant pour comprendre et pour la fermeté. Son cœur fut honoré par le souvenir du Retour ; il pliait son matelas, abandonnait son oreiller, debout sur ses pieds, pénétrant dans son environnement, humble devant Allah, le Puissant et le Majestueux. Il passe de son visage à ses paumes, humble en secret envers son Seigneur, ses larmes coulant, son cœur un bastion solide. Ses membres tremblent de crainte d'Allah, le Puissant et le Majestueux. Ses articulations se sont grossies aux yeux d'Allah ; son espoir en Lui est grand et sa crainte de Lui est intense. Il se satisfait du nécessaire dans ses affaires, montre ce qu'il dissimule, et se contente de moins que ce qu'il sait.",
+          "de": "Ein Mann, der die Geduld zum Retten dienende Lasttier der Geduld und die Frömmigkeit als Vorbereitung auf den Tod und als Heilmittel für sein Inneres nahm. Er sann nach, maß ab, wandte sich von der Welt und den Menschen ab, lernte zum Verständnis und zur Standhaftigkeit. Sein Herz wurde mit der Erinnerung an die Rückkehr geehrt; er faltete seine Matratze, gab sein Kissen auf, stand auf seinen Füßen, betrat seine Umgebung, demütig vor Allah, dem Mächtigen und Erhabenen. Er bewegt sein Gesicht und seine Handflächen, im Verborgenen demütig vor seinem Herrn, seine Tränen fließen, sein Herz ist eine starke Hochburg. Seine Glieder zittern vor Furcht vor Allah, dem Mächtigen und Erhabenen. Seine Gelenke sind in den Augen Allahs groß geworden; seine Hoffnung auf Ihn ist groß und seine Furcht vor Ihm ist intensiv. Er ist mit dem Ausreichenden in seinen Angelegenheiten zufrieden, zeigt, was er verbirgt, und ist mit weniger zufrieden, als er weiß.",
+          "ru": "Мужчина, сделавший терпосмертие своим средством спасения, а богобоязненность — подготовкой к смерти и лекарством для своей души. Он размышлял, взвешивал, оставлял мир и людей, обучаясь для обретения понимания и стойкости. Его сердце было удостоено чести поминания Возвращения; он сворачивал свой матрас, оставлял подушку, стоял на ногах, входил в свое окружение, смиренный перед Аллахом, Всемогущим и Величественным. Он перемещает свое лицо и ладони, тайно смиренный перед своим Господом, его слезы текут, его сердце — крепкая цитадель. Его члены дрожат от страха перед Аллахом, Всемогущим и Величественным. Его суставы стали великими в глазах Аллаха; его надежда на Него велика, а страх перед Ним интенсивен. Он доволен достаточным в своих делах, проявляет то, что скрывает, и удовлетворяется меньшим, чем то, что знает.",
+          "zh": "一位以忍耐为救赎之骑乘、以敬畏为死亡之预备与内心之良医的人。他沉思默想，权衡得失，远离尘世与人群，求知以明理，坚守以笃定。其心因记念归回而蒙尊贵；他卷起床垫，弃置枕头，伫立起身，融入周遭，在至大至尊的真主面前谦卑。他在面容与掌心之间辗转，于隐秘中向主谦卑，泪水流淌，内心成为坚固的堡垒。其肢体因敬畏至大至尊的真主而颤抖；其关节在真主眼中显得突出；他对主的希望宏大，对主的恐惧强烈。他在事务中满足于适度，显露所隐藏者，并以少于所知者为满足。"
+        },
+        "word_start": 374,
+        "word_end": 468
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أُولَئِكَ وَدَائِعُ اللَّهِ فِي بِلَادِهِ الْمَدْفُوعُ بِهِمْ عَنْ عِبَادِهِ لَوْ أَقْسَمَ أَحَدُهُمْ عَلَى اللَّهِ جَلَّ ذِكْرُهُ لَأَبَرَهُ أَوْ دَعَا عَلَى أَحَدٍ نَصَرَهُ اللَّهُ يَسْمَعُ إِذَا نَاجَاهُ وَ يَسْتَجِيبُ لَهُ إِذَا دَعَاهُ جَعَلَ اللَّهُ الْعَاقِبَةَ لِلتَّقْوَى وَ الْجَنَّةَ لِأَهْلِهَا مَأْوًى",
+        "translations": {
+          "en": "Those are Allah's deposits in His land, by whom He repels from His servants. If one of them swore upon Allah, whose mention is Majestic, Allah would fulfill it for him; or if he supplicated against someone, Allah would help him. He listens when he whispers to Him and answers when he calls upon Him. Allah has made the good ending for the pious and Paradise for its people as a dwelling.",
+          "ur": "یہ اللہ کی اپنی زمین میں وہ ذخائر ہیں جن کے ذریعے وہ اپنے بندوں سے (اپنے دشمنوں کو) دور کرتا ہے۔ اگر ان میں سے کوئی اللہ کی قسم کھائے جس کا ذکر مجلل ہے، تو اللہ اس کے لیے اسے پورا کر دے گا؛ یا اگر وہ کسی پر دعاۓ بد کرے تو اللہ اس کی مدد فرما دے گا۔ وہ اس کی پکار سنتا ہے جب وہ اس سے پکارتا ہے اور جواب دیتا ہے جب وہ اسے پکارता ہے۔ اللہ نے نیک لوگوں کے لیے اچھا انجام اور جنت کو ان کے رہنے کی جگہ بنا دیا ہے۔",
+          "tr": "Onlar, Allah'ın yeryüzündeki emanetleridir; O, onlar aracılığıyla kullarından (düşmanını) defeder. Onlardan biri, ismi celil olan Allah'a yemin etse, Allah onu yerine getirir; ya da birine duâ etse, Allah ona yardım eder. O, fısıldadığında işitir ve çağırdığında cevap verir. Allah, takvâ sahipleri için iyi bir sonu ve cenneti, oranın halkı için bir ikametgâh olarak belirlemiştir.",
+          "fa": "این‌ها اماندگارهای خداوند در زمین‌اش هستند، که به وسیله‌ی آن‌ها از بندگان خود دفاع می‌کند. اگر یکی از آن‌ها به نام خداوند، که یادش مجلل است، سوگند یاد کند، خداوند آن را برای او برآورده می‌سازد؛ یا اگر بر کسی دعا کند، خداوند به او یاری می‌رساند. او هنگامی که بنده‌اش به او نجوا می‌کند، گوش می‌دهد و هنگامی که او را صدا می‌زند، پاسخ می‌دهد. خداوند پایان نیکو را برای پرهیزکاران و بهشت را برای اهل آن، به عنوان مسکن، قرار داده است.",
+          "id": "Itulah simpanan-simpanan Allah di bumi-Nya, yang dengannya Dia menghalau dari hamba-hamba-Nya. Jika salah satu dari mereka bersumpah atas nama Allah, yang dzikr-Nya agung, Allah akan mengabulkannya baginya; atau jika ia berdoa terhadap seseorang, Allah akan menolongnya. Ia mendengarkan ketika ia berbisik kepada-Nya dan menjawab ketika ia memanggil-Nya. Allah telah menjadikan akhir yang baik bagi orang-orang yang bertakwa dan surga sebagai tempat tinggal bagi penghuninya.",
+          "bn": "এরাই আল্লাহর নিজের জমিতে রাখা নিজেদের আমানত, যার মাধ্যমে তিনি নিজের বান্দাদের থেকে (শত্রুদের) দূর করেন। তাদের মধ্যে কেউ যদি আল্লাহর নামের মহিমা ঘোষণা করে শপথ করে, তবে আল্লাহ তা পূর্ণ করে দেন; অথবা যদি কেউ কারও বিরুদ্ধে দোয়া করেন, তবে আল্লাহ তাকে সাহায্য করেন। তিনি শোনেন যখন সে তাঁর কাছে ফিসফিস করে এবং উত্তর দেন যখন সে তাঁকে ডাকে। আল্লাহ পবিত্রদের জন্য উত্তম পরিণতি এবং তাদের বাসিন্দাদের জন্য জান্নাতকে আবাসস্থল করে দিয়েছেন।",
+          "es": "Esas son las reservas de Alá en Su tierra, por medio de las cuales Él repela a Sus siervos. Si uno de ellos juraba por Alá, cuya mención es Majestuosa, Alá la cumplía cumplir por él; o si suplicaba contra alguien, Alá le ayudaba. Él escucha cuando él susurra hacia Él y responde cuando él le invoca. Alá ha hecho el buen final para los piadosos y el Paraíso para su gente como morada.",
+          "fr": "Ce sont les dépôts d'Allah sur Sa terre, par terre, par lesquels Il repousse de Ses serviteurs. Si l'un d'eux prêtait serment par Allah, dont le souvenir est Majestueux, Allah l'exaucerait ; ou s'il invoquait contre quelqu'un, Allah le secourrait. Il écoute quand il murmure à Son propos et répond quand il L'invoque. Allah a réservé. Allah a fait la bonne fin pour les pieux et le Paradis pour ses habitants comme demeure.",
+          "de": "Das sind die von Allah in seinem Land niedergelegten Schätze, durch die Er von seinen Dienern abwehrt. Wenn einer von ihnen bei Allah schwört, dessen Name erhaben ist, so erfüllt Allah es für ihn; oder wenn er gegen jemanden betet, so hilft Allah ihm. Er hört, wenn er zu Ihm flüstert, und antwortet, wenn er Ihn anruft. Allah hat das gute Ende für die Gottesfürchtigen und das Paradies für dessen Bewohner als Wohnung bestimmt.",
+          "ru": "Это — сокровища Аллаха на Его земле, посредством которых Он отражает от Своих рабов. Если один из них поклянется именем Аллаха, чье упоминание величественно, Аллах исполнит его клятву; или если он вознесет мольбу против кого-либо, Аллах поможет ему. Он слышит, когда тот шепчет Ему, и отвечает, когда тот призывает Его. Аллах уготовал праведным добрый конец, а их обитателям — Рай как жилище.",
+          "zh": "那些是安拉在他的大地上所托付的，借以抵御他的仆人的。如果他们中有人以安拉的名义发誓，而安拉是应受赞美的，安拉会为他成全；或者如果他们中有人为某人祈求，安拉会帮助他。他倾听他的低语，并回应他的呼唤。安拉为敬畏者安排了美好的结局，并为他们的居民准备了天堂作为居所。"
+        },
+        "word_start": 468,
+        "word_end": 507
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "دُعَاؤُهُمْ فِيهَا أَحْسَنُ الدُّعَاءِ سُبْحَانَكَ اللَّهُمَّ دَعَاهُمُ الْمَوْلَى عَلَى مَا آتَاهُمْ وَ آخِرُ دَعْوَاهُمْ أَنِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+        "translations": {
+          "en": "Their call in it is the best of calls: 'Glory to Thee, O Allah!' The Master called them for what He gave them, and the last of their call is: 'All praise is due to Allah, Lord of the worlds.'",
+          "ur": "ان کی پکار اس میں سب سے بہترین پکار ہے: 'تیری پاکیزگی ہے اے اللہ!' انہیں اس چیز کے لیے بلایا گیا جو انہیں عطا کی گئی تھی، اور ان کی پکار کا آخری حصہ یہ ہے: 'تمام تعریفیں اللہ کے لیے ہیں جو تمام جہانوں کا رب ہے۔'",
+          "tr": "Onların oradaki çağrısı en güzel çağrıdır: ",
+          "fa": "ندای آنان در آن بهترین نداست: «سبحان‌الله، ای خدا!» آن سرور آنان را به آنچه به آنان عطا کرد، خواند و آخرین ندای آنان این است: «تمام ستایش‌ها مخصوص خداوند، پروردگار جهانیان است.»",
+          "id": "Panggilan mereka di dalamnya adalah panggilan yang terbaik: 'Mahasuci Engkau, wahai Allah!' Sang Pemilik memanggil mereka untuk apa yang telah diberikan-Nya kepada mereka, dan akhir dari panggilan mereka adalah: 'Segala puji bagi Allah, Tuhan semesta alam.'",
+          "bn": "তাদের ডাকা-ডাকি এর মধ্যেই সর্বোত্তম ডাকা-ডাকি: 'তুমি পবিত্র, হে আল্লাহ!' মালিক তাদেরকে যা দিয়েছেন তার জন্য ডেকেছেন, এবং তাদের ডাকা-ডাকির শেষ হলো: 'সকল প্রশংসা আল্লাহর, যিনি বিশ্বসমূহের প্রতিপালক।'",
+          "es": "Su llamada en ella es la mejor de las llamadas: «¡Gloria a Ti, oh Allah!» El Maestro los llamó por lo que les concedió, y la última de sus llamadas es: «Toda alabanza pertenece a Allah, Señor de los mundos.»",
+          "fr": "Leur appel en elle est le meilleur des appels : « Gloire à Toi, ô Allah ! » Le Maître les a appelés à ce qu'Il leur a donné, et le dernier de leurs appels est : « Toute louange est due à Allah, Seigneur des mondes. »",
+          "de": "Ihr Ruf darin vorgetragener Ruf ist der beste Ruf: „Preis und Ruhm gebührt Dir, o Allah!“ Der Meister rief sie zu dem, was Er ihnen gegeben hatte, und der letzte Teil ihres Rufes lautet: „Alles Lob gebührt Allah, dem Herrn der Welten.“",
+          "ru": "Их призыв в ней — лучший из призывов: «Слава Тебе, о Аллах!» Повелитель призвал их к тому, что Он им даровал, и последним из их призывов является: «Вся хвала Аллаху, Господу миров».",
+          "zh": "他们在其中的呼唤是最美的呼唤：'荣耀归于你，真主啊！' 主因祂所赐予他们的而呼唤他们，而他们最后的呼唤是：'一切赞颂全归真主，众世界的主。'"
+        },
+        "word_start": 507,
+        "word_end": 526
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "",
+        "translations": {
+          "en": "",
+          "ur": "نماز",
+          "tr": "Hz. Muhammed (s.a.v.)'in hadisleri, İslam'ın temel kaynaklarından biridir ve Müslümanların günlük hayatlarını şekillendiren önemli bir rol oynar.",
+          "fa": "صَلَّى اللَّهُ عَلَيْهِ وَسَلَّمَ",
+          "id": "Sesungguhnya Allah tidak akan mengampuni dosa syirik, dan Dia mengampuni segala dosa selain itu bagi siapa yang Dia kehendaki. Barangsiapa yang mempersekutukan Allah, maka sungguh ia telah berbuat dosa yang sangat besar.",
+          "bn": "হযরত আবু হুরায়রা (রা.) থেকে বর্ণিত, তিনি বলেন, রাসূলুল্লাহ (সা.) বলেছেন: তোমাদের মধ্যে কেউ যখন ওযু করে, তার পাপসমূহ তার শরীর থেকে ধুয়ে যায়, এমনকি তার চোখের কোণ থেকেও ধুয়ে যায়।",
+          "es": "El Profeta (la paz y las bendiciones de Alá sean con él) dijo: \"Quien realice el wudu y lo haga bien, sus pecados caerán con las gotas de agua que caen de su cuerpo.\"",
+          "fr": "C'est ce qu'a rapporté Abou Hourayra (qu'Allah l'agrée), que le Messager d'Allah (que la paix et les bénédictions d'Allah soient sur lui) a dit : « Quiconque accomplit les ablutions et fait bien les ablutions, puis se rend à la mosquée pour apprendre ou enseigner, il sera considéré comme celui qui est dans le chemin d'Allah jusqu'à ce qu'il revienne. »",
+          "de": "Übersetzung des folgenden englischen Textes ins Deutsche.",
+          "ru": "Переведите следующий английский текст на русский язык.",
+          "zh": "艾布·胡莱赖传述：先知（愿主福安之）说：\"谁在斋月里出于信仰和期待回赐而封斋，他以往的罪过将被饶恕；谁在莱麦丹月的最后一个十夜里出于信仰和期待回赐而礼拜，他以往的罪过将被饶恕；谁在莱麦丹月的最后一个十夜里出于信仰和期待回赐而封斋，他以往的罪过将被饶恕。\""
+        },
+        "word_start": 526,
+        "word_end": 526
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This sermon, recorded in Al-Kafi, is traditionally identified as the 'Sermon of the Travelers' (Khutbat al-Musafirun), where Imam Ali (as) uses the metaphor of a caravan to illustrate the world's impermanence. It emphasizes that true piety involves mastering one's desires and maintaining constant awareness of death, positioning the righteous as Allah's 'deposits' on earth who are granted divine acceptance.",
+        "seo_question": "What is the nature of the world according to Imam Ali's sermon in Al-Kafi?",
+        "key_terms": {
+          "الدُّنْيَا": "The world, the temporal life",
+          "التَّقْوَى": "Piety, God-consciousness",
+          "الْمَعَادِ": "The Return, the Hereafter",
+          "الصَّبْر": "Patience, perseverance",
+          "الْكَفَاف": "Sufficiency, contentment with what is enough",
+          "الْخَافِضُ الرَّافِعُ": "The Abaser, the Raiser (Divine Attributes)"
+        }
+      },
+      "ur": {
+        "summary": "یہ خطبہ الکافی میں محفوظ ہے اور روایتی طور پر 'خطبہ مسافروں' (خطبۃ المسافرین) کے نام سے جانا جاتا ہے، جہاں امام علی (علیہ السلام) دنیا کی عارضیت کو بیان کرنے کے لیے قافلے کی مثال استعمال کرتے ہیں۔ یہ اس بات پر زور دیتا ہے کہ تقویٰ درحقیقت اپنی خواہشات پر قابو پانا اور موت کی مسلسل یادداشت برقرار رکھنا ہے، اور صالحین کو زمین پر اللہ کے 'امانت' کے طور پر پیش کرتا ہے جنہیں الہی قبولیت عطا کی جاتی ہے۔",
+        "seo_question": "الکافی میں امام علی کے خطبے کے مطابق دنیا کی نوعیت کیا ہے؟",
+        "key_terms": {
+          "الدُّنْيَا": "دنیا، عارضی زندگی",
+          "التَّقْوَى": "تقویٰ، خداوندی آگاہی",
+          "الْمَعَادِ": "معاد، آخرت",
+          "الصَّبْر": "صبر، استقامت",
+          "الْكَفَاف": "کفاف، کفایت شعاری",
+          "الْخَافِضُ الرَّافِعُ": "الخافض الرافع، گرانے والا اور بلند کرنے والا (الٰہی صفات)"
+        }
+      },
+      "tr": {
+        "summary": "Bu hutbe, El-Kâfî'de kaydedilmiş olup geleneksel olarak 'Seyyahların Hutbesi' (Hutbetü'l-Müsafirûn) olarak tanımlanır. İmam Ali (a.s.), dünyanın geçiciliğini açıklamak için bir kervan metaforunu kullanır. Gerçek takvanın, arzuları kontrol etmek ve ölümü sürekli hatırlamakla ilgili olduğunu vurgular. Salihleri, Allah'ın yeryüzündeki 'emanetleri' olarak konumlandırır ve onlara ilahi kabulleniş bahşedildiğini belirtir.",
+        "seo_question": "İmam Ali'nin El-Kâfî'deki hutbesine göre dünyanın doğası nedir?",
+        "key_terms": {
+          "الدُّنْيَا": "Dünya, geçici hayat",
+          "التَّقْوَى": "Takva, Allah'a karşı bilinçlilik",
+          "الْمَعَادِ": "Dönüş, Ahiret",
+          "الصَّبْر": "Sabır, direnç",
+          "الْكَفَاف": "Kâfif, yeterlilik, yetine rıza",
+          "الْخَافِضُ الرَّافِعُ": "Alçaltan, Yükselten (İlahi Sıfatlar)"
+        }
+      },
+      "fa": {
+        "summary": "این خطبه که در الکافی ثبت شده، به‌طور سنتی به‌عنوان «خطبه مسافران» (خطبة المسافرین) شناخته می‌شود، جایی که امام علی (ع) از استعاره کاروان برای نشان دادن ناپایداری جهان استفاده می‌کند. این خطبه تأکید دارد که تقوای واقعی شامل تسلط بر هوس‌ها و حفظ آگاهی مداوم از مرگ است، و پرهیزکاران را به‌عنوان «امانت‌های» خداوند بر زمین معرفی می‌کند که مورد پذیرش الهی قرار می‌گیرند.",
+        "seo_question": "جهان از نظر خطبه امام علی در الکافی چه ماهیتی دارد؟",
+        "key_terms": {
+          "الدُّنْيَا": "دنیا، زندگی دنیوی",
+          "التَّقْوَى": "تقوا، خداوندگریزی",
+          "الْمَعَادِ": "معاد، بازگشت، آخرت",
+          "الصَّبْر": "صبر، پایداری",
+          "الْكَفَاف": "کفاف، قناعت به اندازه کافی",
+          "الْخَافِضُ الرَّافِعُ": "الخافض الرافع، فروبرنده و برانگیزنده (صفات الهی)"
+        }
+      },
+      "id": {
+        "summary": "Khotbah ini, yang dicatat dalam Al-Kafi, secara tradisional diidentifikasi sebagai 'Khotbah Para Musafir' (Khutbat al-Musafirun), di mana Imam Ali (as) menggunakan metafora kafilah untuk menggambarkan ketidakkekalan dunia. Khotbah ini menekankan bahwa ketakwaan sejati melibatkan penguasaan hawa nafsu dan menjaga kesadaran akan kematian secara konstan, dengan menempatkan orang-orang yang saleh sebagai 'titipan' Allah di bumi yang diberi penerimaan ilahi.",
+        "seo_question": "Bagaimana sifat dunia menurut khotbah Imam Ali dalam Al-Kafi?",
+        "key_terms": {
+          "الدُّنْيَا": "dunia, kehidupan sementara",
+          "التَّقْوَى": "ketaqwaan, kesadaran akan Allah",
+          "الْمَعَادِ": "Kembalian, akhirat",
+          "الصَّبْر": "kesabaran, keteguhan",
+          "الْكَفَاف": "cukup, ridha dengan secukupnya",
+          "الْخَافِضُ الرَّافِعُ": "Yang Menurunkan, Yang Menaikkan (Sifat Ilahi)"
+        }
+      },
+      "bn": {
+        "summary": "এই খুতবা আল-কাফিতে রেকর্ড করা হয়েছে, যা ঐতিহ্যগতভাবে 'ভ্রমণকারীদের খুতবা' (খুতবাত আল-মুসাফিরুন) হিসেবে চিহ্নিত করা হয়, যেখানে ইমাম আলী (আস) পৃথিবীর অস্থায়িত্ব বোঝাতে কারভানের উপমা ব্যবহার করেন। এটি জোর দেয় যে প্রকৃত তাকওয়া হলো নিজের ইচ্ছা-আকাঙ্ক্ষা নিয়ন্ত্রণ করা এবং মৃত্যুর প্রতি সর্বদা সচেতন থাকা, যা সৎকর্মশীলদের পৃথিবীতে আল্লাহর 'জমাখাতা' হিসেবে স্থাপন করে এবং তাদের ঐশ্বরিক গ্রহণযোগ্যতা প্রদান করে।",
+        "seo_question": "আল-কাফিতে ইমাম আলীর খুতবা অনুযায়ী পৃথিবীর প্রকৃতি কী?",
+        "key_terms": {
+          "الدُّنْيَا": "পৃথিবী, সাময়িক জীবন",
+          "التَّقْوَى": "তাকওয়া, আল্লাহর সচেতনতা",
+          "الْمَعَادِ": "প্রত্যাবর্তন, আখিরাত",
+          "الصَّبْر": "সহনশীলতা, ধৈর্য",
+          "الْكَفَاف": "পর্যাপ্ততা, যতটুকু আছে তাতে সন্তুষ্টি",
+          "الْخَافِضُ الرَّافِعُ": "নিম্নস্থকারী, উচ্চস্থকারী (ঐশ্বরিক গুণাবলি)"
+        }
+      },
+      "es": {
+        "summary": "Este serm sermón, registrado en Al-Kafi, se identifica tradicionalmente como el 'Sermón de los Viajeros' (Jutbat al-Musafirun), donde el Imam Alí (as) utiliza la metáfora de una caravana para ilustrar la transitoriedad del mundo. Hace hincapié en que la verdadera piedad implica dominar los propios deseos y mantener una conciencia constante de la muerte, situando a los justos como los 'depósitos' de Alá en la tierra, a quienes se les concede la aceptación divina.",
+        "seo_question": "¿Cuál es la naturaleza del mundo según el sermón del Imam Alí en Al-Kafi?",
+        "key_terms": {
+          "الدُّنْيَا": "El mundo, la vida temporal",
+          "التَّقْوَى": "Piedad, conciencia de Dios",
+          "الْمَعَادِ": "El Retorno, el Más Allá",
+          "الصَّبْر": "Paciencia, perseverancia",
+          "الْكَفَاف": "Suficiencia, contentamiento con lo suficiente",
+          "الْخَافِضُ الرَّافِعُ": "El Abatidor, el Elevador (Atributos Divinos)"
+        }
+      },
+      "fr": {
+        "summary": "Ce sermon, rapporté dans Al-Kafi, est traditionnellement identifié comme le « Sermon des Voyageurs » (Khutbat al-Musafirun), où l'Imam Ali (as) utilise la métaphore d'une caravane pour illustrer l'impermanence du monde. Il souligne que la véritable piété consiste à maîtriser ses désirs et à maintenir une conscience constante de la mort, plaçant les vertueux comme les « dépôts » d'Allah sur terre, qui reçoivent l'acceptation divine.",
+        "seo_question": "Quelle est la nature du monde selon le sermon de l'Imam Ali dans Al-Kafi ?",
+        "key_terms": {
+          "الدُّنْيَا": "Le monde, la vie temporelle",
+          "التَّقْوَى": "La piété, la conscience de Dieu",
+          "الْمَعَادِ": "Le Retour, l'au-delà",
+          "الصَّبْر": "La patience, la persévérance",
+          "الْكَفَاف": "La suffisance, le contentement de ce qui suffit",
+          "الْخَافِضُ الرَّافِعُ": "L'Abaisseur, le Raiser (Attributs Divins)"
+        }
+      },
+      "de": {
+        "summary": "Diese Predigt, die in Al-Kafi aufgezeichnet ist, wird traditionell als die 'Predigt der Reisenden' (Chutbat al-Musafirun) identifiziert, in der Imam Ali (as) die Metapher einer Karawane verwendet, um die Vergänglichkeit der Welt zu veranschaulichen. Sie betont, dass wahre Frömmigkeit darin besteht, die eigenen Begierden zu meistern und das ständige Bewusstsein des Todes zu bewahren, wodurch die Rechtschaffenen als Allahs 'Deposits' auf Erden positioniert werden, denen göttliche Annahme zuteil wird.",
+        "seo_question": "Was ist die Natur der Welt gemäß der Predigt von Imam Ali in Al-Kafi?",
+        "key_terms": {
+          "الدُّنْيَا": "Die Welt, das zeitliche Leben",
+          "التَّقْوَى": "Frömmigkeit, Gottesbewusstsein",
+          "الْمَعَادِ": "Die Rückkehr, das Jenseits",
+          "الصَّبْر": "Geduld, Ausdauer",
+          "الْكَفَاف": "Ausreichendheit, Zufriedenheit mit dem, was genug ist",
+          "الْخَافِضُ الرَّافِعُ": "Der Erniedriger, der Erhöher (Göttliche Attribute)"
+        }
+      },
+      "ru": {
+        "summary": "Эта хутба, записанная в аль-Кафи, традиционно идентифицируется как «Хутба странников» (Хутбат аль-Мусафирин), где Имаму Али (ас) использует метафору каравана для иллюстрации непостоянства мира. Она подчеркивает, что истинная богобоязненность заключается в овладении своими желаниями и поддержании постоянной осознанности смерти, позиционируя праведников как «вклад» Аллаха на земле, которым даровано божественное принятие.",
+        "seo_question": "Какова природа мира согласно хутбе Имама Али в аль-Кафи?",
+        "key_terms": {
+          "الدُّنْيَا": "мир, временная жизнь",
+          "التَّقْوَى": "богобоязненность, осознанность Аллаха",
+          "الْمَعَادِ": "Возвращение, Загробный мир",
+          "الصَّبْر": "терпение, стойкость",
+          "الْكَفَاف": "достаточность, довольство необходимым",
+          "الْخَافِضُ الرَّافِعُ": "Смиряющий, Возвышающий (Божественные атрибуты)"
+        }
+      },
+      "zh": {
+        "summary": "这篇布道文收录于《卡菲》，传统上被认定为‘旅人之谏’（Khutbat al-Musafirun），其中伊玛目阿里（as）以商队为隐喻，阐明世界的无常。它强调真正的虔诚在于克制欲望并时刻铭记死亡，将义人定位为真主在大地的‘信托物’，并赋予其神圣的接纳。",
+        "seo_question": "根据《卡菲》中伊玛目阿里的布道，世界的本质是什么？",
+        "key_terms": {
+          "الدُّنْيَا": "世界，短暂的生命",
+          "التَّقْوَى": "虔诚，敬畏真主",
+          "الْمَعَادِ": "回归，后世",
+          "الصَّبْر": "回归，后世",
+          "الْكَفَاف": "忍耐，坚韧",
+          "الْخَافِضُ الرَّافِعُ": "知足，满足于所需之物足够即可的心态（不贪多）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "10:10",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "39:30",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "59:18",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "103:1",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ الْحُسَيْنِ الْمُؤَدِّبُ وَ غَيْرُهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي الْحَارِثِ الْهَمْدَانِيِّ عَنْ جَابِرٍ عَنْ أَبِي جَعْفَرٍ (عليه السلام) قَالَ خَطَبَ أَمِيرُ الْمُؤْمِنِينَ (عليه السلام) فَقَالَ: الْحَمْدُ لِلَّهِ الْخَافِضِ الرَّافِعِ الضَّارِّ النَّافِعِ الْجَوَادِ الْوَاسِعِ الْجَلِيلِ ثَنَاؤُهُ الصَّادِقَةُ أَسْمَاؤُهُ الْمُحِيطِ بِالْغُيُوبِ وَ مَا يَخْطُرُ عَلَى الْقُلُوبِ الَّذِي جَعَلَ الْمَوْتَ بَيْنَ خَلْقِهِ عَدْلًا وَ أَنْعَمَ بِالْحَيَاةِ عَلَيْهِمْ فَضْلًا فَأَحْيَا وَ أَمَاتَ وَ قَدَّرَ الْأَقْوَاتَ أَحْكَمَهَا بِعِلْمِهِ تَقْدِيراً وَ أَتْقَنَهَا بِحِكْمَتِهِ تَدْبِيراً إِنَّهُ كَانَ خَبِيراً بَصِيراً هُوَ الدَّائِمُ بِلَا فَنَاءٍ وَ الْبَاقِي إِلَى غَيْرِ مُنْتَهًى يَعْلَمُ مَا فِي الْأَرْضِ وَ مَا فِي السَّمَاءِ وَ مَا بَيْنَهُمَا وَ مَا تَحْتَ الثَّرَى أَحْمَدُهُ بِخَالِصِ حَمْدِهِ الْمَخْزُونِ بِمَا حَمِدَهُ بِهِ الْمَلَائِكَةُ وَ النَّبِيُّونَ حَمْداً لَا يُحْصَى لَهُ عَدَدٌ وَ لَا يَتَقَدَّمُهُ أَمَدٌ وَ لَا يَأْتِي بِمِثْلِهِ أَحَدٌ أُومِنُ بِهِ وَ أَتَوَكَّلُ عَلَيْهِ وَ أَسْتَهْدِيهِ وَ أَسْتَكْفِيهِ وَ أَسْتَقْضِيهِ بِخَيْرٍ وَ أَسْتَرْضِيهِ وَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَ أَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَ رَسُولُهُ أَرْسَلَهُ بِالْهُدَى وَ دِينِ الْحَقِّ لِيُظْهِرَهُ عَلَى الدِّينِ كُلِّهِ وَ لَوْ كَرِهَ الْمُشْرِكُونَ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ أَيُّهَا النَّاسُ إِنَّ الدُّنْيَا لَيْسَتْ لَكُمْ بِدَارٍ وَ لَا قَرَارٍ إِنَّمَا أَنْتُمْ فِيهَا كَرَكْبٍ عَرَّسُوا فَأَنَاخُوا ثُمَّ اسْتَقَلُّوا فَغَدَوْا وَ رَاحُوا دَخَلُوا خِفَافاً وَ رَاحُوا خِفَافاً لَمْ يَجِدُوا عَنْ مُضِيٍّ نُزُوعاً وَ لَا إِلَى مَا تَرَكُوا رُجُوعاً جُدَّ بِهِمْ فَجَدُّوا وَ رَكَنُوا إِلَى الدُّنْيَا فَمَا اسْتَعَدُّوا حَتَّى إِذَا أُخِذَ بِكَظَمِهِمْ وَ خَلَصُوا إِلَى دَارِ قَوْمٍ جَفَّتْ أَقْلَامُهُمْ لَمْ يَبْقَ مِنْ أَكْثَرِهِمْ خَبَرٌ وَ لَا أَثَرٌ قَلَّ فِي الدُّنْيَا لَبْثُهُمْ وَ عُجِّلَ إِلَى الْآخِرَةِ بَعْثُهُمْ فَأَصْبَحْتُمْ حُلُولًا فِي دِيَارِهِمْ ظَاعِنِينَ عَلَى آثَارِهِمْ وَ الْمَطَايَا بِكُمْ تَسِيرُ سَيْراً مَا فِيهِ أَيْنٌ وَ لَا تَفْتِيرٌ نَهَارُكُمْ بِأَنْفُسِكُمْ دَءُوبٌ وَ لَيْلُكُمْ بِأَرْوَاحِكُمْ ذَهُوبٌ فَأَصْبَحْتُمْ تَحْكُونَ مِنْ حَالِهِمْ حَالًا وَ تَحْتَذُونَ مِنْ مَسْلَكِهِمْ مِثَالًا فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا فَإِنَّمَا أَنْتُمْ فِيهَا سَفْرٌ حُلُولٌ الْمَوْتُ بِكُمْ نُزُولٌ تَنْتَضِلُ فِيكُمْ مَنَايَاهُ وَ تَمْضِي بِأَخْبَارِكُمْ مَطَايَاهُ إِلَى دَارِ الثَّوَابِ وَ الْعِقَابِ وَ الْجَزَاءِ وَ الْحِسَابِ فَرَحِمَ اللَّهُ امْرَأً رَاقَبَ رَبَّهُ وَ تَنَكَّبَ ذَنْبَهُ وَ كَابَرَ هَوَاهُ وَ كَذَّبَ مُنَاهُ امْرَأً زَمَّ نَفْسَهُ مِنَ التَّقْوَى بِزِمَامٍ وَ أَلْجَمَهَا مِنْ خَشْيَةِ رَبِّهَا بِلِجَامٍ فَقَادَهَا إِلَى الطَّاعَةِ بِزِمَامِهَا وَ قَدَعَهَا عَنِ الْمَعْصِيَةِ بِلِجَامِهَا رَافِعاً إِلَى الْمَعَادِ طَرْفَهُ مُتَوَقِّعاً فِي كُلِّ أَوَانٍ حَتْفَهُ دَائِمَ الْفِكْرِ طَوِيلَ السَّهَرِ عَزُوفاً عَنِ الدُّنْيَا سَأَماً كَدُوحاً لِآخِرَتِهِ مُتَحَافِظاً امْرَأً جَعَلَ الصَّبْرَ مَطِيَّةَ نَجَاتِهِ وَ التَّقْوَى عُدَّةَ وَفَاتِهِ وَ دَوَاءَ أَجْوَائِهِ فَاعْتَبَرَ وَ قَاسَ وَ تَرَكَ الدُّنْيَا وَ النَّاسَ يَتَعَلَّمُ لِلتَّفَقُّهِ وَ السَّدَادِ وَ قَدْ وَقَّرَ قَلْبَهُ ذِكْرُ الْمَعَادِ وَ طَوَى مِهَادَهُ وَ هَجَرَ وِسَادَهُ مُنْتَصِباً عَلَى أَطْرَافِهِ دَاخِلًا فِي أَعْطَافِهِ خَاشِعاً لِلَّهِ عَزَّ وَ جَلَّ يُرَاوِحُ بَيْنَ الْوَجْهِ وَ الْكَفَّيْنِ خَشُوعٌ فِي السِّرِّ لِرَبِّهِ لَدَمْعُهُ صَبِيبٌ وَ لَقَلْبُهُ وَجِيبٌ شَدِيدَةٌ أَسْبَالُهُ تَرْتَعِدُ مِنْ خَوْفِ اللَّهِ عَزَّ وَ جَلَّ أَوْصَالُهُ قَدْ عَظُمَتْ فِيمَا عِنْدَ اللَّهِ رَغْبَتُهُ وَ اشْتَدَّتْ مِنْهُ رَهْبَتُهُ رَاضِياً بِالْكَفَافِ مِنْ أَمْرِهِ يُظْهِرُ دُونَ مَا يَكْتُمُ وَ يَكْتَفِي بِأَقَلَّ مِمَّا يَعْلَمُ أُولَئِكَ وَدَائِعُ اللَّهِ فِي بِلَادِهِ الْمَدْفُوعُ بِهِمْ عَنْ عِبَادِهِ لَوْ أَقْسَمَ أَحَدُهُمْ عَلَى اللَّهِ جَلَّ ذِكْرُهُ لَأَبَرَهُ أَوْ دَعَا عَلَى أَحَدٍ نَصَرَهُ اللَّهُ يَسْمَعُ إِذَا نَاجَاهُ وَ يَسْتَجِيبُ لَهُ إِذَا دَعَاهُ جَعَلَ اللَّهُ الْعَاقِبَةَ لِلتَّقْوَى وَ الْجَنَّةَ لِأَهْلِهَا مَأْوًى دُعَاؤُهُمْ فِيهَا أَحْسَنُ الدُّعَاءِ سُبْحَانَكَ اللَّهُمَّ دَعَاهُمُ الْمَوْلَى عَلَى مَا آتَاهُمْ وَ آخِرُ دَعْوَاهُمْ أَنِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ الْحُسَيْنِ الْمُؤَدِّبُ وَ غَيْرُهُ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ عَبْدِ اللَّهِ بْنِ أَبِي الْحَارِثِ الْهَمْدَانِيِّ عَنْ جَابِرٍ عَنْ أَبِي جَعْفَرٍ (عليه السلام) قَالَ",
+      "matn_ar": "خَطَبَ أَمِيرُ الْمُؤْمِنِينَ (عليه السلام) فَقَالَ: الْحَمْدُ لِلَّهِ الْخَافِضِ الرَّافِعِ الضَّارِّ النَّافِعِ الْجَوَادِ الْوَاسِعِ الْجَلِيلِ ثَنَاؤُهُ الصَّادِقَةُ أَسْمَاؤُهُ الْمُحِيطِ بِالْغُيُوبِ وَ مَا يَخْطُرُ عَلَى الْقُلُوبِ الَّذِي جَعَلَ الْمَوْتَ بَيْنَ خَلْقِهِ عَدْلًا وَ أَنْعَمَ بِالْحَيَاةِ عَلَيْهِمْ فَضْلًا فَأَحْيَا وَ أَمَاتَ وَ قَدَّرَ الْأَقْوَاتَ أَحْكَمَهَا بِعِلْمِهِ تَقْدِيراً وَ أَتْقَنَهَا بِحِكْمَتِهِ تَدْبِيراً إِنَّهُ كَانَ خَبِيراً بَصِيراً هُوَ الدَّائِمُ بِلَا فَنَاءٍ وَ الْبَاقِي إِلَى غَيْرِ مُنْتَهًى يَعْلَمُ مَا فِي الْأَرْضِ وَ مَا فِي السَّمَاءِ وَ مَا بَيْنَهُمَا وَ مَا تَحْتَ الثَّرَى أَحْمَدُهُ بِخَالِصِ حَمْدِهِ الْمَخْزُونِ بِمَا حَمِدَهُ بِهِ الْمَلَائِكَةُ وَ النَّبِيُّونَ حَمْداً لَا يُحْصَى لَهُ عَدَدٌ وَ لَا يَتَقَدَّمُهُ أَمَدٌ وَ لَا يَأْتِي بِمِثْلِهِ أَحَدٌ أُومِنُ بِهِ وَ أَتَوَكَّلُ عَلَيْهِ وَ أَسْتَهْدِيهِ وَ أَسْتَكْفِيهِ وَ أَسْتَقْضِيهِ بِخَيْرٍ وَ أَسْتَرْضِيهِ وَ أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ وَ أَشْهَدُ أَنَّ مُحَمَّداً عَبْدُهُ وَ رَسُولُهُ أَرْسَلَهُ بِالْهُدَى وَ دِينِ الْحَقِّ لِيُظْهِرَهُ عَلَى الدِّينِ كُلِّهِ وَ لَوْ كَرِهَ الْمُشْرِكُونَ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ أَيُّهَا النَّاسُ إِنَّ الدُّنْيَا لَيْسَتْ لَكُمْ بِدَارٍ وَ لَا قَرَارٍ إِنَّمَا أَنْتُمْ فِيهَا كَرَكْبٍ عَرَّسُوا فَأَنَاخُوا ثُمَّ اسْتَقَلُّوا فَغَدَوْا وَ رَاحُوا دَخَلُوا خِفَافاً وَ رَاحُوا خِفَافاً لَمْ يَجِدُوا عَنْ مُضِيٍّ نُزُوعاً وَ لَا إِلَى مَا تَرَكُوا رُجُوعاً جُدَّ بِهِمْ فَجَدُّوا وَ رَكَنُوا إِلَى الدُّنْيَا فَمَا اسْتَعَدُّوا حَتَّى إِذَا أُخِذَ بِكَظَمِهِمْ وَ خَلَصُوا إِلَى دَارِ قَوْمٍ جَفَّتْ أَقْلَامُهُمْ لَمْ يَبْقَ مِنْ أَكْثَرِهِمْ خَبَرٌ وَ لَا أَثَرٌ قَلَّ فِي الدُّنْيَا لَبْثُهُمْ وَ عُجِّلَ إِلَى الْآخِرَةِ بَعْثُهُمْ فَأَصْبَحْتُمْ حُلُولًا فِي دِيَارِهِمْ ظَاعِنِينَ عَلَى آثَارِهِمْ وَ الْمَطَايَا بِكُمْ تَسِيرُ سَيْراً مَا فِيهِ أَيْنٌ وَ لَا تَفْتِيرٌ نَهَارُكُمْ بِأَنْفُسِكُمْ دَءُوبٌ وَ لَيْلُكُمْ بِأَرْوَاحِكُمْ ذَهُوبٌ فَأَصْبَحْتُمْ تَحْكُونَ مِنْ حَالِهِمْ حَالًا وَ تَحْتَذُونَ مِنْ مَسْلَكِهِمْ مِثَالًا فَلَا تَغُرَّنَّكُمُ الْحَيَاةُ الدُّنْيَا فَإِنَّمَا أَنْتُمْ فِيهَا سَفْرٌ حُلُولٌ الْمَوْتُ بِكُمْ نُزُولٌ تَنْتَضِلُ فِيكُمْ مَنَايَاهُ وَ تَمْضِي بِأَخْبَارِكُمْ مَطَايَاهُ إِلَى دَارِ الثَّوَابِ وَ الْعِقَابِ وَ الْجَزَاءِ وَ الْحِسَابِ فَرَحِمَ اللَّهُ امْرَأً رَاقَبَ رَبَّهُ وَ تَنَكَّبَ ذَنْبَهُ وَ كَابَرَ هَوَاهُ وَ كَذَّبَ مُنَاهُ امْرَأً زَمَّ نَفْسَهُ مِنَ التَّقْوَى بِزِمَامٍ وَ أَلْجَمَهَا مِنْ خَشْيَةِ رَبِّهَا بِلِجَامٍ فَقَادَهَا إِلَى الطَّاعَةِ بِزِمَامِهَا وَ قَدَعَهَا عَنِ الْمَعْصِيَةِ بِلِجَامِهَا رَافِعاً إِلَى الْمَعَادِ طَرْفَهُ مُتَوَقِّعاً فِي كُلِّ أَوَانٍ حَتْفَهُ دَائِمَ الْفِكْرِ طَوِيلَ السَّهَرِ عَزُوفاً عَنِ الدُّنْيَا سَأَماً كَدُوحاً لِآخِرَتِهِ مُتَحَافِظاً امْرَأً جَعَلَ الصَّبْرَ مَطِيَّةَ نَجَاتِهِ وَ التَّقْوَى عُدَّةَ وَفَاتِهِ وَ دَوَاءَ أَجْوَائِهِ فَاعْتَبَرَ وَ قَاسَ وَ تَرَكَ الدُّنْيَا وَ النَّاسَ يَتَعَلَّمُ لِلتَّفَقُّهِ وَ السَّدَادِ وَ قَدْ وَقَّرَ قَلْبَهُ ذِكْرُ الْمَعَادِ وَ طَوَى مِهَادَهُ وَ هَجَرَ وِسَادَهُ مُنْتَصِباً عَلَى أَطْرَافِهِ دَاخِلًا فِي أَعْطَافِهِ خَاشِعاً لِلَّهِ عَزَّ وَ جَلَّ يُرَاوِحُ بَيْنَ الْوَجْهِ وَ الْكَفَّيْنِ خَشُوعٌ فِي السِّرِّ لِرَبِّهِ لَدَمْعُهُ صَبِيبٌ وَ لَقَلْبُهُ وَجِيبٌ شَدِيدَةٌ أَسْبَالُهُ تَرْتَعِدُ مِنْ خَوْفِ اللَّهِ عَزَّ وَ جَلَّ أَوْصَالُهُ قَدْ عَظُمَتْ فِيمَا عِنْدَ اللَّهِ رَغْبَتُهُ وَ اشْتَدَّتْ مِنْهُ رَهْبَتُهُ رَاضِياً بِالْكَفَافِ مِنْ أَمْرِهِ يُظْهِرُ دُونَ مَا يَكْتُمُ وَ يَكْتَفِي بِأَقَلَّ مِمَّا يَعْلَمُ أُولَئِكَ وَدَائِعُ اللَّهِ فِي بِلَادِهِ الْمَدْفُوعُ بِهِمْ عَنْ عِبَادِهِ لَوْ أَقْسَمَ أَحَدُهُمْ عَلَى اللَّهِ جَلَّ ذِكْرُهُ لَأَبَرَهُ أَوْ دَعَا عَلَى أَحَدٍ نَصَرَهُ اللَّهُ يَسْمَعُ إِذَا نَاجَاهُ وَ يَسْتَجِيبُ لَهُ إِذَا دَعَاهُ جَعَلَ اللَّهُ الْعَاقِبَةَ لِلتَّقْوَى وَ الْجَنَّةَ لِأَهْلِهَا مَأْوًى دُعَاؤُهُمْ فِيهَا أَحْسَنُ الدُّعَاءِ سُبْحَانَكَ اللَّهُمَّ دَعَاهُمُ الْمَوْلَى عَلَى مَا آتَاهُمْ وَ آخِرُ دَعْوَاهُمْ أَنِ الْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ الْحُسَيْنِ الْمُؤَدِّبُ",
+          "name_en": "Ali b. al-Husayn al-Muaddib",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3750
+        },
+        {
+          "name_ar": "غَيْرُهُ",
+          "name_en": "someone else",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 78
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ",
+          "name_en": "Ahmad b. Muhammad b. Khalid",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 12
+        },
+        {
+          "name_ar": "إِسْمَاعِيلَ بْنِ مِهْرَانَ",
+          "name_en": "Isma'il ibn Mihran",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 119
+        },
+        {
+          "name_ar": "عَبْدِ اللَّهِ بْنِ أَبِي الْحَارِثِ الْهَمْدَانِيِّ",
+          "name_en": "Abd Allah b. Abi al-Harith al-Hamdani",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3551
+        },
+        {
+          "name_ar": "جَابِرٍ",
+          "name_en": "Jabir",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 72
+        },
+        {
+          "name_ar": "أَبِي جَعْفَرٍ (عليه السلام)",
+          "name_en": "Abu Ja'far",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 9
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "لَا إِلٰهَ إِلَّا اللَّهُ",
+        "phrase_en": "There is no god but Allah",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "الْحَمْدُ لِلَّهِ",
+        "phrase_en": "All praise is due to Allah",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

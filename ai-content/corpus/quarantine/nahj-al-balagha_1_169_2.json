@@ -1,0 +1,261 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:169:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 30 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): '[الامور الجامعة للمسلمين :] إن الله تعالى بعث رسولا هاديا بك'"
+  ],
+  "result": {
+    "tags": [
+      "governance",
+      "theology",
+      "social_relations"
+    ],
+    "content_type": "exhortation",
+    "topics": [
+      "ghadir",
+      "imamate",
+      "leadership",
+      "religious_authority",
+      "sunnah"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "الْأُمُورُ الْجَامِعَةُ لِلْمُسْلِمِينَ:",
+        "translations": {
+          "en": "The Unifying Matters for the Muslims:",
+          "ur": "مسلمانوں کے لیے جامع امور:",
+          "tr": "Müslümanları Birleştiren Konular:",
+          "fa": "امور الجامعة للمسلمين:",
+          "id": "Hal-hal yang menyatukan umat Islam:",
+          "bn": "মুসলমানদের জন্য ঐক্যের বিষয়সমূহ:",
+          "es": "Los asuntos unificadores para los musulmanes:",
+          "fr": "Les affaires unifiant les musulmans :",
+          "de": "Die die Muslime vereinigenden Angelegenheiten:",
+          "ru": "Объединяющие вопросы для мусульман:",
+          "zh": "穆斯林团结统一的事项："
+        },
+        "word_start": 0,
+        "word_end": 3
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ اللَّهَ تَعَالَى بَعَثَ رَسُولاً هَادِيًا بِكِتَابٍ نَاطِقٍ وَأَمْرٍ قَائِمٍ، لَا يَهْلِكُ عَنْهُ إِلَّا هَالِكٌ، وَإِنَّ الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ هُنَّ الْمُهْلِكَاتُ إِلَّا مَا حَفِظَ اللَّهُ مِنْهَا، وَإِنَّ فِي سُلْطَانِ اللَّهِ عِصْمَةً لِأَمْرِكُمْ، فَأَعْطُوهُ طَاعَتَكُمْ غَيْرَ مُلَوَّمَةٍ وَلَا مُسْتَكْرَهٍ بِهَا. وَاللَّهِ لَتَفْعَلُنَّ أَوْ لَيَنْقُلَنَّ اللَّهُ عَنْكُمْ سُلْطَانَ الْإِسْلَامِ، ثُمَّ لَا يَنْقُلُهُ إِلَيْكُمْ أَبَدًا حَتَّى يَأْرِزَ الْأَمْرُ إِلَى غَيْرِكُمْ.",
+        "translations": {
+          "en": "Indeed, Allah the Exalted sent a guiding Messenger with an eloquent Book and a standing command. No one will be ruined by it except one who ruins himself. And indeed, the doubtful innovations are the ruiners, except those from which Allah may protect. And indeed, in Allah's authority lies the safety of your affairs, so give it your obedience, neither blameworthy nor insincere. By Allah, you must do so, otherwise Allah will take away from you the power of Islam, and will never return it to you until the matter reverts to others.",
+          "ur": "بے شک اللہ تعالیٰ نے ایک ہدایت کرنے والا رسول اور ایک فصیح کتاب اور قائم فرمان کے ساتھ بھیجا۔ جسے یہی ہلاک کرے گا سوائے اس کے کہ وہ خود اپنی ہلاکت کا سبب بنے۔ اور بے شک شک و شبہ والی بدعات ہی ہلاکت کا سبب ہیں سوائے ان کے جن سے اللہ تعالیٰ حفاظت فرما لے۔ اور بے شک اللہ کی بادشاہتی میں تمہارے امور کی حفاظت ہے، پس اس کی اطاعت کرو نہ کہ سرزنش کے لائق ہو اور نہ ہی بے ایمانی سے۔ اللہ کی قسم، تمہیں ایسا ہی کرنا ہوگا، ورنہ اللہ تعالیٰ تم سے اسلام کی طاقت چھین لے گا اور جب تک معاملہ دوسروں کے ہاتھ میں نہ آ جائے، وہ اسے تمہیں واپس نہیں کرے گا۔",
+          "tr": "Şüphesiz ki Allah, yüce olan, ilhamlı bir kitap ve sabit bir emirle bir rehber peygamber gönderdi. Onunla ancak kendini helak eden helak olur. Şüphesiz ki şüpheli bid'atler helak edicilerdir, Allah'ın koruduğu müstesna. Şüphesiz ki emirlerinizin güveni Allah'ın elindedir, o halde ona itaat edin, ne ayıplanır ne de samimiyetsiz. Allah'a yemin ederim ki, bunu yapmanız gerekir, aksi takdirde Allah sizden İslam'ın gücünü alır ve iş başkalarına dönene kadar size onu geri vermez.",
+          "fa": "همانا خداوند بلندمرتبه پیامبری راهنما با کتابی فصیح و فرمانی پایدار فرستاد. هر کس به سبب آن هلاک نشود جز کسی که خود را هلاک کند. و همانا بدعت‌های گمراه‌کننده هلاک‌کنندگان‌اند، مگر آن‌هایی که خداوند از آن‌ها حفظ کند. و همانا در اختیار خداوند است ایمنی کارهای شما، پس اطاعت او را بجا آورید، نه به گونه‌ای که قابل سرزنش باشد و نه ناسپاسانه. به خدا سوگند، باید چنین کنید، در غیر این صورت خداوند قدرت اسلام را از شما خواهد گرفت و تا زمانی که امر به دیگران بازنگردد، آن را به شما بازنگرداند.",
+          "id": "Sesungguhnya, Allah Yang Maha Tinggi mengutus seorang Rasul yang memberi petunjuk dengan Kitab yang fasih dan perintah yang teguh. Tidak ada yang akan binasa karenanya kecuali orang yang membinasakan dirinya sendiri. Dan sesungguhnya, bid'ah-bidah yang meragukan adalah penyebab kehancuran, kecuali yang dilindungi oleh Allah. Dan sesungguhnya, dalam kekuasaan Allah terletak keselamatan urusan kalian, maka taatilah Dia, baik dengan penuh kesadaran maupun tanpa keraguan. Demi Allah, kalian harus melakukannya, jika tidak, Allah akan mencabut kekuatan Islam dari kalian, dan tidak akan mengembalikannya kepada kalian hingga urusan itu kembali kepada yang lain.",
+          "bn": "নিশ্চয়ই আল্লাহ তায়ালা একজন পথপ্রদর্শক রাসূলকে একটি প্রকাশ্য কিতাব এবং স্থায়ী বিধানসহ পাঠিয়েছেন। যার মাধ্যমে কেবলমাত্র সেই ব্যক্তিই ধ্বংসের মুখে পড়বে যে নিজেকে ধ্বংস করে। আর নিশ্চয়ই সন্দেহজনক বিদআতগুলোই ধ্বংসকারী, যাদের থেকে আল্লাহ তায়ালা রক্ষা করেন না। আর নিশ্চয়ই আল্লাহর আয়তে আপনার বিষয়গুলোর নিরাপত্তা রয়েছে, সুতরাং তাকে আপনার আনুগত্য দিন, যাতে কোনো দোষ না থাকে এবং তা সততার সাথে হয়। আল্লাহর শপথ, আপনাকে তা করতেই হবে, অন্যথায় আল্লাহ তায়ালা আপনাদের থেকে ইসলামের শক্তিকে ছিনিয়ে নেবেন এবং যতক্ষণ না বিষয়টি অন্যদের কাছে ফিরে যায়, ততক্ষণ পর্যন্ত তা আর আপনাদের কাছে ফিরিয়ে দেবেন না।",
+          "es": "En verdad, Alá, el Exaltado, envió a un Mensajero que guía, con un Libro elocuente y un mandato firme. Nadie será arruinado por él, excepto quien se arruine a sí mismo. Y en verdad, las innovaciones dudosas son las que arruinan, excepto aquellas de las que Alá pueda proteger. Y en verdad, en la autoridad de Alá reside la seguridad de vuestros asuntos, así que obedecedle, sin ser censurables ni insinceros. Por Alá, debéis hacerlo, de lo contrario Alá os arrebatará el poder del Islam, y no os lo devolverá hasta que el asunto vuelva a otros.",
+          "fr": "En vérité, Allah, le Très-Haut, a envoyé un Messager guideur avec un Livre éloquent et un commandement ferme. Nul ne sera ruiné par lui, sauf celui qui se ruine lui-même. Et en vérité, les innovations douteuses sont des causes de ruine, sauf celles dont Allah préserve. Et en vérité, c'est dans l'autorité d'Allah que réside la sécurité de vos affaires, alors accordez-lui votre obéissance, sans être blâmables ni insincères. Par Allah, vous devez le faire, sinon Allah vous retirera le pouvoir de l'islam et ne vous le rendra jamais jusqu'à ce que la question revienne à d'autres.",
+          "de": "Wahrlich, Allah, der Erhabener, sandte einen leitenden Gesandten mit einem eloquenten Buch und einem beständigen Gebot. Nichts wird jemanden verderben außer dem, der sich selbst verdirbt. Und wahrlich, die zweifelhaften Neuschöpfungen sind die Verderber, außer denen, vor denen Allah beschützt. Und wahrlich, in Allahs Autorität liegt die Sicherheit eurer Angelegenheiten, so erweist Ihm Gehorsam, weder tadelhaft noch unaufrichtig. Bei Allah, ihr müsst es tun, sonst wird Allah euch die Kraft des Islam entziehen und sie euch nicht wieder zurückgeben, bis die Angelegenheit auf andere zurückgeht.",
+          "ru": "Воистину, Всевышний Аллах послал направляющего Посланника с красноречивой Книгой и незыблемым повелением. От него погибнет лишь тот, кто погубит себя. И воистину, сомнительные нововведения являются губительными, кроме тех, от которых Аллах защитит. И воистину, в власти Аллаха заключается безопасность ваших дел, так что подчиняйтесь Ему, не порицаемо и искренне. Клянусь Аллахом, вы должны так поступить, иначе Аллах отнимет у вас силу ислама и не вернёт её вам, пока дело не перейдёт к другим.",
+          "zh": "真主确已派遣一位带来明晰经典和持久命令的引导使者。除自毁者外，无人会因它而毁灭。确已，可疑的创新是毁灭者，除非真主所保护者。真主的权柄中确包含你们事务的安全，故当顺从之，不致受责备且真诚。以真主发誓，你们必须如此，否则真主将收回你们的伊斯兰之力，且直至事务归于他人之前永不归还。"
+        },
+        "word_start": 3,
+        "word_end": 59
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In the context of the Battle of Jamal, Imam Ali uses this passage to justify his political authority as the necessary 'sultan' (power/authority) that preserves the unity of the Muslim community against the destructive force of bid'ah (innovations). This reflects the Shia scholarly view that obedience to the Imam is not merely political but a divine imperative for spiritual and communal survival, linking the concept of 'Ismah' (infallibility/protection) to the continuity of Islamic governance.",
+        "seo_question": "What is the significance of 'sultan' and obedience in Nahj al-Balagha's sermon on unifying the Muslims?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "The unifying matters/affairs",
+          "كِتَابٍ نَاطِقٍ": "An eloquent/speaking Book (Quran)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "The doubtful innovations (that resemble truth)",
+          "سُلْطَانِ اللَّهِ": "The authority/power of God",
+          "عِصْمَةً": "Safety/protection",
+          "غَيْرَ مُلَوَّمَةٍ": "Neither blameworthy/censurable",
+          "يَأْرِزَ الْأَمْرُ": "The matter settles/reverts"
+        }
+      },
+      "ur": {
+        "summary": "جنگِ جمال کے سیاق و سباق میں امام علیؑ اس آیت کو اپنی سیاسی حیثیت کے طور پر ضروری 'سلطان' (حکومت/اختیار) کی تائید میں استعمال کرتے ہیں جو مسلمانوں کی امت کی وحدت کو 'بدعت' (نئی ایجادات) کے تباہ کن اثر سے محفوظ رکھتی ہے۔ یہ شیعہ علما کے اس نظریے کی عکاسی کرتا ہے کہ امام کی اطاعت محض سیاسی نہیں بلکہ روحانی اور اجتماعی بقا کے لیے ایک الہیٰ حکم ہے، جو 'عصمت' (بے عیبی/حفاظت) کے تصور کو اسلامی حکومت کی تسلسل سے جوڑتی ہے۔",
+        "seo_question": "نہج البلاغہ کی خطبہِ اتحادِ امت میں 'سلطان' اور اطاعت کی اہمیت کیا ہے؟",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "جمع کرنے والے امور",
+          "كِتَابٍ نَاطِقٍ": "بولتا ہوا کتاب",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "مشتبہ بدعتیں",
+          "سُلْطَانِ اللَّهِ": "اللہ کا سلطان",
+          "عِصْمَةً": "حفاظت",
+          "غَيْرَ مُلَوَّمَةٍ": "نہایت قابلِ تعریف",
+          "يَأْرِزَ الْأَمْرُ": "امر مستحکم ہو جائے"
+        }
+      },
+      "tr": {
+        "summary": "Cemal Savaşı bağlamında İmam Ali, bu ayeti, Müslüman topluluğun birliğini koruyan ve bid'ahın (yeniliklerin) yıkıcı gücüne karşı duran gerekli 'sultan' (güç/otorite) olarak siyasi otoritesini meşrulaştırmak için kullanır. Bu durum, İmam'a itaatin sadece siyasi değil, aynı zamanda manevi ve toplumsal hayatta kalma için ilahi bir emir olduğunu savunan Şii alimlerin görüşünü yansıtır ve 'İsmet' (masumiyet/korunma) kavramını İslam yönetiminin sürekliliği ile ilişkilendirir.",
+        "seo_question": "Nahcül Belâga'daki Müslümanları birleştirme hutbesinde 'sultan' ve itaat kavramlarının önemi nedir?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "birleştirici meseleler/işler",
+          "كِتَابٍ نَاطِقٍ": "hitap eden/sohbet eden Kitap (Kuran)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "doubtful yenilikler (hakikate benzeyenler)",
+          "سُلْطَانِ اللَّهِ": "Allah'ın otoritesi/gücü",
+          "عِصْمَةً": "güvenlik/korunma",
+          "غَيْرَ مُلَوَّمَةٍ": "ne kınanır ne de tenkit edilir",
+          "يَأْرِزَ الْأَمْرُ": "iş yerleşir/dönüş yapar"
+        }
+      },
+      "fa": {
+        "summary": "در بافت جنگ جمل، امام علی این آیه را برای توجیه اقتدار سیاسی خود به عنوان سلطان لازم که وحدت جامعه مسلمین را در برابر نیروی مخرب بدعت حفظ می‌کند، به کار می‌برد. این بازتاب دیدگاه علمای شیعه است که اطاعت از امام نه تنها سیاسی بلکه ضرورتی الهی برای بقای معنوی و اجتماعی است که مفهوم عصمت را به تداوم حکومت اسلامی پیوند می‌زند.",
+        "seo_question": "اهمیت سلطان و اطاعت در خطبه وحدت‌بخش نهج‌البلاغه چیست؟",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "امور جامع",
+          "كِتَابٍ نَاطِقٍ": "کتاب ناطق",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "مبتعثات مشبهات",
+          "سُلْطَانِ اللَّهِ": "سلطان الله",
+          "عِصْمَةً": "عصمت",
+          "غَيْرَ مُلَوَّمَةٍ": "غیر ملوم",
+          "يَأْرِزَ الْأَمْرُ": "یأرز الأمر"
+        }
+      },
+      "id": {
+        "summary": "Dalam konteks Perang Jamal, Imam Ali menggunakan ayat ini untuk membenarkan otoritas politiknya sebagai 'sultan' (kekuasaan/otoritas) yang diperlukan untuk menjaga persatuan umat Muslim melawan kekuatan destruktif bid'ah (inovasi). Hal ini mencerminkan pandangan ulama Syiah bahwa ketaatan kepada Imam bukan hanya bersifat politis, melainkan keharusan ilahi untuk kelangsungan spiritual dan komunal, yang menghubungkan konsep 'Ismah' (kesalahan/keperlindungan) dengan kesinambungan pemerintahan Islam.",
+        "seo_question": "Apa pentingnya 'sultan' dan ketaatan dalam khutbah Nahj al-Balagha tentang penyatuan umat Muslim?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "urusan-urusan yang mempersatukan",
+          "كِتَابٍ نَاطِقٍ": "Kitab yang fasih/bertutur (Al-Quran)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "Inovasi-inovasi yang meragukan (yang menyerupai kebenaran)",
+          "سُلْطَانِ اللَّهِ": "Kekuasaan/otoritas Allah",
+          "عِصْمَةً": "Keamanan/keperlindungan",
+          "غَيْرَ مُلَوَّمَةٍ": "Tidak tercela/dihukum",
+          "يَأْرِزَ الْأَمْرُ": "Urusan tersebut menetap/kembali"
+        }
+      },
+      "bn": {
+        "summary": "জামাতের যুদ্ধের প্রেক্ষাপটে, ইমাম আলী এই আয়াতটি ব্যবহার করে তাঁর রাজনৈতিক কর্তৃত্বকে যৌক্তিকতা দেন, যা মুসলিম সম্প্রদায়ের ঐক্য রক্ষাকারী প্রয়োজনীয় 'সুলতান' (শক্তি/কর্তৃত্ব) হিসেবে বিবেচিত, যা বদআতের (নবীনত্ব/উদ্ভাবন) ধ্বংসাত্মক শক্তির বিরুদ্ধে ঐক্য রক্ষা করে। এটি শিয়া পণ্ডিতদের দৃষ্টিভঙ্গি প্রতিফলিত করে যে, ইমামের আনুগত্য কেবল রাজনৈতিক নয়, বরং আধ্যাত্মিক ও সামাজিক টিকে থাকার জন্য ঐশ্বরিক বাধ্যবাধকতা, যা 'ইসমাহ' (অপরাহ্নতা/সুরক্ষা) ধারণাকে ইসলামি শাসনের ধারাবাহিকতার সাথে যুক্ত করে।",
+        "seo_question": "নহজুল বালাগহার মুসলমানদের ঐক্যবদ্ধ করার খুতবাতে 'সুলতান' এবং আনুগত্যের গুরুত্ব কী?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "ঐক্যবদ্ধ বিষয়সমূহ",
+          "كِتَابٍ نَاطِقٍ": "একটি প্রবক্তা/ভাষী গ্রন্থ (কুরআন)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "দ্বিধাজনক নবীনত্ব (যা সত্যের মতো মনে হয়)",
+          "سُلْطَانِ اللَّهِ": "আল্লাহর কর্তৃত্ব/শক্তি",
+          "عِصْمَةً": "নিরাপত্তা/সুরক্ষা",
+          "غَيْرَ مُلَوَّمَةٍ": "নিন্দনীয় নয়",
+          "يَأْرِزَ الْأَمْرُ": "বিষয়টি স্থিতিশীল হয়/প্রত্যাবর্তিত হয়"
+        }
+      },
+      "es": {
+        "summary": "En el contexto de la Batalla de Jamal, el Imam Ali utiliza este pasaje para justificar su autoridad política como el 'sultán' (poder/autoridad) necesario que preserva la unidad de la comunidad musulmana frente a la fuerza destructiva de la bid'ah (innovaciones). Esto refleja la visión erudita chií de que la obediencia al Imam no es meramente política, sino un imperativo divino para la supervividad espiritual y comunitaria, vinculando el concepto de 'Ismah' (infallibilidad/protección) con la continuidad del gobierno islámico.",
+        "seo_question": "¿Cuál es la importancia del 'sultán' y la obediencia en el sermón de Nahj al-Balagha sobre la unificación de los musulmanes?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "Los asuntos/asuntos unificadores",
+          "كِتَابٍ نَاطِقٍ": "Un Libro elocuente/que habla (Corán)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "Las innovaciones dudosas (que se asemejan a la verdad)",
+          "سُلْطَانِ اللَّهِ": "La autoridad/poder de Dios",
+          "عِصْمَةً": "Seguridad/protección",
+          "غَيْرَ مُلَوَّمَةٍ": "Ni censurable ni reprochable",
+          "يَأْرِزَ الْأَمْرُ": "El asunto se asienta/regresa"
+        }
+      },
+      "fr": {
+        "summary": "Dans le contexte de la bataille de Siffîn (Jamal), l'Imam Ali utilise ce passage pour justifier son autorité politique en tant que « sultan » (pouvoir/autorité) nécessaire, préservant l'unité de la communauté musulmane contre la force destructrice de la bid'ah (innovations). Cela reflète la vue savante chiite selon laquelle l'obéissance à l'Imam n'est pas seulement politique, mais un impératif divin pour la survie spirituelle et communautaire, reliant le concept d'« Ismah » (infaillibilité/protection) à la continuité de la gouvernance islamique.",
+        "seo_question": "Quelle est l'importance du « sultan » et de l'obéissance dans le khutba de Nahj al-Balagha sur l'unification des musulmans ?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "Les affaires unificatrices",
+          "كِتَابٍ نَاطِقٍ": "Un Livre éloquent/parlant (Coran)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "Les innovations douteuses (qui ressemblent à la vérité)",
+          "سُلْطَانِ اللَّهِ": "L'autorité/le pouvoir de Dieu",
+          "عِصْمَةً": "Sécurité/protection",
+          "غَيْرَ مُلَوَّمَةٍ": "Ni blâmable/censurable",
+          "يَأْرِزَ الْأَمْرُ": "L'affaire s'installe/redevient"
+        }
+      },
+      "de": {
+        "summary": "Im Kontext der Schlacht von Dschamal nutzt Imam Ali diese Passage, um seine politische Autorität als notwendige 'Sultan' (Macht/Autorität) zu rechtfertigen, die die Einheit der muslimischen Gemeinschaft vor der zerstörerischen Kraft der Bid'ah (Neuerungen) bewahrt. Dies spiegelt die schiitische Gelehrtenansicht wider, dass die Gehorsamspflicht gegenüber dem Imam nicht nur politisch, sondern ein göttliches Gebot für das spirituelle und gemeinschaftliche Überleben ist, wobei das Konzept der 'Ismah' (Unfehlbarkeit/Schutz) mit der Kontinuität der islamischen Herrschaft verknüpft wird.",
+        "seo_question": "Was ist die Bedeutung von 'Sultan' und Gehorsam in der Predigt von Nahj al-Balagha über die Einigung der Muslime?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "die vereinheitlichenden Angelegenheiten",
+          "كِتَابٍ نَاطِقٍ": "ein redendes Buch (Koran)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "die zweifelhaften Neuerungen (die der Wahrheit ähneln)",
+          "سُلْطَانِ اللَّهِ": "die Autorität/die Macht Gottes",
+          "عِصْمَةً": "Sicherheit/Schutz",
+          "غَيْرَ مُلَوَّمَةٍ": "weder tadelbar noch verurteilenswert",
+          "يَأْرِزَ الْأَمْرُ": "die Angelegenheit findet ihren Ruhestand/kehrt zurück"
+        }
+      },
+      "ru": {
+        "summary": "В контексте Битвы при Камеле имам Али использует этот аят, чтобы обосновать свою политическую власть как необходимую «султан» (власть/авторитет), которая сохраняет единство мусульманской общины против разрушительной силы бид’а (нововведений). Это отражает шиитское ученое мнение о том, что повиновение имаму — это не просто политический вопрос, но божественная императива для духовного и общинного выживания, связывающая концепцию «исмы» (беспорочности/защиты) с непрерывностью исламского управления.",
+        "seo_question": "Каково значение «султан» и повиновения в проповеди Нахдж аль-Балага об объединении мусульман?",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "Объединяющие дела/вопросы",
+          "كِتَابٍ نَاطِقٍ": "Ясноговорящая/говорящая Книга (Коран)",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "Сомнительные нововведения (которые напоминают истину)",
+          "سُلْطَانِ اللَّهِ": "Власть/авторитет Аллаха",
+          "عِصْمَةً": "Безопасность/защита",
+          "غَيْرَ مُلَوَّمَةٍ": "Ни в чем не упрекаемая/не порицаемая",
+          "يَأْرِزَ الْأَمْرُ": "Дело улаживается/возвращается"
+        }
+      },
+      "zh": {
+        "summary": "在贾马勒战役的背景下，阿里伊玛目引用这段经文来证明其作为维护穆斯林社区统一、抵御异端（bid'ah）破坏性力量的必要‘苏丹’（权力/权威）的政治合法性。这反映了什叶派学者的观点，即服从伊玛目不仅是政治义务，更是精神和社区生存的神圣命令，将‘伊什玛’（无误性/保护）的概念与伊斯兰治理的连续性联系起来。",
+        "seo_question": "《纳赫朱·巴拉格》中关于统一穆斯林的布道里，‘苏丹’和服从的意义是什么？",
+        "key_terms": {
+          "الْأُمُورُ الْجَامِعَةُ": "统一的事务",
+          "كِتَابٍ نَاطِقٍ": "能言的经书（古兰经）",
+          "الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ": "可疑的异端（看似真理的）",
+          "سُلْطَانِ اللَّهِ": "真主的权威/权力",
+          "عِصْمَةً": "安全/保护",
+          "غَيْرَ مُلَوَّمَةٍ": "无可指责的",
+          "يَأْرِزَ الْأَمْرُ": "事务安定/回归"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:32",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:59",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "33:45",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:103",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "47:33",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "الْأُمُورُ الْجَامِعَةُ لِلْمُسْلِمِينَ: إِنَّ اللَّهَ تَعَالَى بَعَثَ رَسُولاً هَادِيًا بِكِتَابٍ نَاطِقٍ وَأَمْرٍ قَائِمٍ، لَا يَهْلِكُ عَنْهُ إِلَّا هَالِكٌ، وَإِنَّ الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ هُنَّ الْمُهْلِكَاتُ إِلَّا مَا حَفِظَ اللَّهُ مِنْهَا، وَإِنَّ فِي سُلْطَانِ اللَّهِ عِصْمَةً لِأَمْرِكُمْ، فَأَعْطُوهُ طَاعَتَكُمْ غَيْرَ مُلَوَّمَةٍ وَلَا مُسْتَكْرَهٍ بِهَا. وَاللَّهِ لَتَفْعَلُنَّ أَوْ لَيَنْقُلَنَّ اللَّهُ عَنْكُمْ سُلْطَانَ الْإِسْلَامِ، ثُمَّ لَا يَنْقُلُهُ إِلَيْكُمْ أَبَدًا حَتَّى يَأْرِزَ الْأَمْرُ إِلَى غَيْرِكُمْ.",
+    "isnad_matn": {
+      "isnad_ar": "[الامور الجامعة للمسلمين :] إنَّ اللهَ تَعالَى بَعَثَ رَسُولاً هَادِياً بِكِتَاب نَاطِق وَأَمْر قَائم، لاَ يَهْلِكُ عَنْهُ إلاَّ هَالِكٌ، وَإنَّ الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ هُنَّ الْمُهْلِكَاتُ إلاَّ مَا حَفِظَ اللهُ مِنْهَا، وَإنَّ فِي",
+      "matn_ar": "الْأُمُورُ الْجَامِعَةُ لِلْمُسْلِمِينَ: إِنَّ اللَّهَ تَعَالَى بَعَثَ رَسُولاً هَادِيًا بِكِتَابٍ نَاطِقٍ وَأَمْرٍ قَائِمٍ، لَا يَهْلِكُ عَنْهُ إِلَّا هَالِكٌ، وَإِنَّ الْمُبْتَدَعَاتِ الْمُشَبَّهَاتِ هُنَّ الْمُهْلِكَاتُ إِلَّا مَا حَفِظَ اللَّهُ مِنْهَا، وَإِنَّ فِي سُلْطَانِ اللَّهِ عِصْمَةً لِأَمْرِكُمْ، فَأَعْطُوهُ طَاعَتَكُمْ غَيْرَ مُلَوَّمَةٍ وَلَا مُسْتَكْرَهٍ بِهَا. وَاللَّهِ لَتَفْعَلُنَّ أَوْ لَيَنْقُلَنَّ اللَّهُ عَنْكُمْ سُلْطَانَ الْإِسْلَامِ، ثُمَّ لَا يَنْقُلُهُ إِلَيْكُمْ أَبَدًا حَتَّى يَأْرِزَ الْأَمْرُ إِلَى غَيْرِكُمْ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "[الامور الجامعة للمسلمين :] إن الله تعالى بعث رسولا هاديا بكتاب ناطق وأمر قائم، لا يهلك عنه إلا هالك، وإن المبتدعات المشبهات هن المهلكات إلا ما حفظ الله منها، وإن",
+          "name_en": "al-Amr al-Jami'a li-l-Muslimin",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,476 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:11:36",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 145 en words vs 1 ar words (ratio=145.00, expected 0.2-8.0)",
+    "chunks[7] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[7] word 'لا' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "quran_commentary",
+      "theology",
+      "ethics"
+    ],
+    "content_type": "quranic_commentary",
+    "topics": [
+      "quran_interpretation_method",
+      "divine_attributes",
+      "tawhid",
+      "paradise_hell"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Muhammad ibn al-Qasim (the interpreter) may God be pleased with him narrated to us, saying: Yusuf ibn Muhammad ibn Ziyad and Ali ibn Muhammad ibn Sayyar narrated to me, on the authority of their fathers, on the authority of al-Hasan ibn Ali (peace be upon him), on the authority of his father Ali ibn Muhammad (peace be upon him), on the authority of his father Muhammad ibn Ali (peace be upon him), on the authority of his father Ali ibn Musa al-Ridha (peace be upon him), on the authority of his father Musa ibn Ja'far (peace be upon him), on the authority of his father Ja'far ibn Muhammad (peace be upon him), on the authority of his father Muhammad ibn Ali (peace be upon him), on the authority of his father Ali ibn al-Husayn (peace be upon them all), regarding His Exalted and Mighty saying:",
+          "ur": "محمد بن القاسم المفسر رضی اللہ عنہ نے ہمیں روایت کی، انہوں نے کہا: یوسف بن محمد بن زیاد اور علی بن محمد بن سیار نے مجھے روایت کی، ان کے باپوں کی طرف سے، حسن بن علی علیہ السلام کی طرف سے، ان کے باپ علی بن محمد علیہ السلام کی طرف سے، ان کے باپ محمد بن علی علیہ السلام کی طرف سے، ان کے باپ علی بن موسی الرضا علیہ السلام کی طرف سے، ان کے باپ موسیٰ بن جعفر علیہ السلام کی طرف سے، ان کے باپ جعفر بن محمد علیہ السلام کی طرف سے، ان کے باپ محمد بن علی علیہ السلام کی طرف سے، ان کے باپ علی بن الحسین علیہم السلام کی طرف سے، اس کے تعالیٰ و جلال کے قولِ عالی کے بارے میں:",
+          "tr": "Muhammed ibn el-Kasım (müfessir) Allah ondan razı olsun bize rivayet etti, dedi ki: Yusuf ibn Muhammed ibn Ziyad ve Ali ibn Muhammed ibn Seyyar, babalarından, Hasan ibn Ali'nin (aleyhisselam) babası Ali ibn Muhammed'in (aleyhisselam), onun babası Muhammed ibn Ali'nin (aleyhisselam), onun babası Ali ibn Musa er-Rıza'nın (aleyhisselam), onun babası Musa ibn Ca'fer'in (aleyhisselam), onun babası Ca'fer ibn Muhammed'in (aleyhisselam), onun babası Muhammed ibn Ali'nin (aleyhisselam), onun babası Ali ibn el-Hüseyin'in (aleyhimüsselam) zikrettiği, Yüce ve Azîz'in: «",
+          "fa": "محمد بن قاسم مفسر رضی‌الله‌عنه به ما حدیث گفت و گفت: یوسف بن محمد بن زیاد و علی بن محمد بن سیار از پدرانشان از حسن بن علی (علیه‌السلام) از پدرش علی بن محمد (علیه‌السلام) از پدرش محمد بن علی (علیه‌السلام) از پدرش علی بن موسی الرضا (علیه‌السلام) از پدرش موسی بن جعفر (علیه‌السلام) از پدرش جعفر بن محمد (علیه‌السلام) از پدرش محمد بن علی (علیه‌السلام) از پدرش علی بن الحسین (علیهم‌السلام) درباره فرمایه عزوجل: «الَّذِی جَعَلَ لَکُمُ الْأَرْضَ فِراشاً وَالسَّماءَ بِناءً»",
+          "id": "Muhammad ibn al-Qasim (yang ahli tafsir) semoga Allah meridhainya telah meriwayatkan kepada kami, ia berkata: Yusuf ibn Muhammad ibn Ziyad dan Ali ibn Muhammad ibn Sayyar telah meriwayatkan kepadaku, dari ayah-ayah mereka, dari al-Hasan ibn Ali (alamah), dari ayahnya, Ali ibn Muhammad (alamah), dari ayahnya, Muhammad ibn Ali (alamah), dari ayahnya, Ali ibn Musa al-Ridha (alamah), dari ayahnya, Musa ibn Ja'far (alamah), dari ayahnya, Ja'far ibn Muhammad (alamah), dari ayahnya, Muhammad ibn Ali (alamah), dari ayahnya, Ali ibn al-Husayn (alamah), mengenai firman-Nya yang Maha Tinggi dan Maha Perkasa:",
+          "bn": "মুহাম্মাদ ইবনে আল-কাসিম (তাফসিরকারী) রাদিয়াল্লাহু আনহু আমাদের নিকট বর্ণনা করেন, তিনি বলেন: ইউসুফ ইবনে মুহাম্মাদ ইবনে জিয়াদ ও আলী ইবনে মুহাম্মাদ ইবনে সায়্যার আমাকে বর্ণনা করেন, তাদের পিতাদের মাধ্যমে, আল-হাসান ইবনে আলী (আলাইহিস সালাম)-এর মাধ্যমে, তার পিতা আলী ইবনে মুহাম্মাদ (আলাইহিস সালাম)-এর মাধ্যমে, তার পিতা মুহাম্মাদ ইবনে আলী (আলাইহিস সালাম)-এর মাধ্যমে, তার পিতা আলী ইবনে মুসা আল-রিদা (আলাইহিস সালাম)-এর মাধ্যমে, তার পিতা মুসা ইবনে জাফর (আলাইহিস সালাম)-এর মাধ্যমে, তার পিতা জাফর ইবনে মুহাম্মাদ (আলাইহিস সালাম)-এর মাধ্যমে, তার পিতা মুহাম্মাদ ইবনে আলী (আলাইহিস সালাম)-এর মাধ্যমে, তার পিতা আলী ইবনে আল-হুসাইন (আলাইহিমুস সালাম)-এর মাধ্যমে, আল্লাহ তাআলার মহিমান্বিত বাক্যের প্রসঙ্গে:",
+          "es": "Muhammad ibn al-Qasim (cid:115)ammad ibn al-Qasim (el int (cid:131)r (cid:150)prete) pueda Dios estar complacido con (cid:101) narr (cid:157) a nosotros, diciendo: Y (cid:161)uf ibn Muhammad ibn Ziyad y (cid:101)l ibn Muhammad ibn Sayyar narraron a m (cid:150), por autoridad de sus padres, por autoridad de al-Hasan ibn (cid:101)l (la paz sea con (cid:101)l), por autoridad de su padre (cid:101)l ibn Muhammad (la paz sea con (cid:101)l), por autoridad de su padre Muhammad ibn (cid:101)l (la paz sea con (cid:101)l), por autoridad de su padre (cid:101)l ibn M (cid:161)a al-Ri (cid:115)a (la paz sea con (cid:101)l), por autoridad de su padre M (cid:161)a ibn Ja (cid:115)ar (la paz sea con (cid:101)l), por autoridad de su padre Ja (cid:115)ar ibn Muhammad (la paz sea con (cid:101)l), por autoridad de su padre Muhammad ibn (cid:101)l (la paz sea con (cid:101)l), por autoridad de su padre (cid:101)l ibn al-Husayn (la paz sea con todos ellos), en relaci (cid:157)n con su dicho Exaltado y Majestuoso:",
+          "fr": "Muhammad ibn al-Qasim (l'interprète) que Dieu soit satisfait de lui nous a rapporté, disant : Yusuf ibn Muhammad ibn Ziyad et Ali ibn Muhammad ibn Sayyar nous ont rapporté, de par leurs pères, de par al-Hasan ibn Ali (que la paix soit sur lui), de par son père Ali ibn Muhammad (que la paix soit sur lui), de par son père Muhammad ibn Ali (que la paix soit sur lui), de par son père Ali ibn Musa al-Ridha (que la paix soit sur lui), de par son père Musa ibn Ja'far (que la paix soit sur lui), de par son père Ja'far ibn Muhammad (que la paix soit sur lui), de par son père Muhammad ibn Ali (que la paix soit sur lui), de par son père Ali ibn al-Husayn (que la paix soit sur eux tous), concernant Sa Parole Exaltée et Puissante :",
+          "de": "Muhammad ibn al-Qasim (der Ausleger) möge Gott mit ihm zufrieden sein, berichtete uns und sagte: Yusuf ibn Muhammad ibn Ziyad und Ali ibn Muhammad ibn Sayyar berichteten mir auf der Autorität ihrer Väter, auf der Autorität von al-Hasan ibn Ali (Friede sei mit ihm), auf der Autorität seines Vaters Ali ibn Muhammad (Friede sei mit ihm), auf der Autorität seines Vaters Muhammad ibn Ali (Friede sei mit ihm), auf der Autorität seines Vaters Ali ibn Musa al-Ridha (Friede sei mit ihm), auf der Autorität seines Vaters Musa ibn Ja'far (Friede sei mit ihm), auf der Autorität seines Vaters Ja'far ibn Muhammad (Friede sei mit ihm), auf der Autorität seines Vaters Muhammad ibn Ali (Friede sei mit ihm), auf der Autorität seines Vaters Ali ibn al-Husayn (Friede sei mit ihnen allen), bezüglich Seines erhabenen und mächtigen Wortes:",
+          "ru": "Рассказал нам Мухаммад ибн аль-Касим аль-Мусаввар, да будет доволен им Аллах, сказав: мне рассказали Юсуф ибн Мухаммад ибн Зияд и Али ибн Мухаммад ибн Сайяр, от их отцов, от аль-Хасана ибн Али (да будет мир с ним), от его отца Али ибн Мухаммада (да будет мир с ним), от его отца Мухаммада ибн Али (да будет мир с ним), от его отца Али ибн Мусы ар-Риды (да будет мир с ним), от его отца Мусы ибн Джафара (да будет мир с ним), от его отца Джафара ибн Мухаммада (да будет мир с ним), от его отца Мухаммада ибн Али (да будет мир с ним), от его отца Али ибн аль-Хусайна (да будет мир с ними всеми), касаясь Его, Всевышнего и Могущественного, слова:",
+          "zh": "36 - 穆罕默德·本·卡西姆（注释家）愿主喜悦之，传述给我们说：优素福·本·穆罕默德·本·齐亚德和阿里·本·穆罕默德·本·赛亚尔传述给我，经由其父辈，经由哈桑·本·阿里（愿主福安之），经由其父阿里·本·穆罕默德（愿主福安之），经由其父穆罕默德·本·阿里（愿主福安之），经由其父阿里·本·穆萨·里达（愿主福安之），经由其父穆萨·本·贾法尔（愿主福安之），经由其父贾法尔·本·穆罕默德（愿主福安之），经由其父穆罕默德·本·阿里（愿主福安之），经由其父阿里·本·侯赛因（愿主福安之），关于他尊贵而伟大的言论："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "«الَّذِي جَعَلَ لَكُمُ الأَرْضَ فِراشاً وَالسَّماءَ بِناءً»",
+        "translations": {
+          "en": "“Who has made the earth your couch, and the heavens your canopy…”",
+          "ur": "جس نے تمہارے لیے زمین کو بچھونا بنایا اور آسمانوں کو چھت…",
+          "tr": "Yeryüzünü sizin yatağınız, gökleri ise sizin kubbeniz yapan kimdir…",
+          "fa": "آن کسی که زمین را برای شما گهواره و آسمان را برای شما چتر قرار داد…",
+          "id": "“Dialah yang menjadikan bumi sebagai hamparan bagimu, dan langit sebagai atap…”",
+          "bn": "যিনি তোমাদের জন্য পৃথিবীকে বিছানা এবং আকাশকে ছাদ করেছেন…",
+          "es": "«Quien ha hecho de la tierra vuestro lecho y del cielo vuestro dosel…»",
+          "fr": "« Celui qui a fait de la terre votre lit et du ciel votre dais… »",
+          "de": "„Wer hat die Erde zu eurer Lagerstätte gemacht und den Himmel zu eurer Decke…“",
+          "ru": "«Кто сделал землю вашим ложем, а небо — вашим шатром…»",
+          "zh": "text"
+        },
+        "word_start": 1,
+        "word_end": 8
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ: جَعَلَهَا مُلائِمَةً لِطَبَائِعِكُمْ مُوَافِقَةً لاجْسَادِكُمْ وَلَمْ يَجْعَلْهَا شَدِيدَةَ الْحَمْيِ وَالْحَرَارَةِ فَتُحْرِقَكُمْ وَلا شَدِيدَةَ الْبُرُودَةِ فَتُجْمِدَكُمْ وَلا شَدِيدَةَ طِيبِ الرِّيحِ فَتُصَدَّعَ هَامَاتُكُمْ وَلا شَدِيدَةَ النَّتْنِ فَتُعْطِبَكُمْ وَلا شَدِيدَةَ اللِّينِ كَالْمَاءِ فَتُغْرِقَكُمْ وَلا شَدِيدَةَ الصَّلابَةِ فَتَمْتَنِعَ عَلَيْكُمْ فِي دُورِكُمْ وَأَبْنِيَتِكُمْ وَقُبُورِ مَوْتَاكُمْ وَلَكِنَّهُ عَزَّ وَجَلَّ جَعَلَ فِيهَا مِنَ الْمَتَانَةِ مَا تَنْتَفِعُونَ بِهِ وَتَتََماسَكُ عَلَيْهَا أَبْدَانُكُمْ وَبُنْيَانُكُمْ وَجَعَلَ فِيهَا مَا تَنْقَادُ بِهِ لِدُورِكُمْ وَقُبُورِكُمْ وَكَثِيرٍ مِنْ مَنَافِعِكُمْ فَذَلِكَ جَعَلَ لَكُمُ الأَرْضَ فِراشاً",
+        "translations": {
+          "en": "He said: He made it suitable for your natures, matching your bodies. He did not make it intensely hot and warm so as to burn you, nor intensely cold so as to freeze you, nor intensely fragrant in the wind so that your heads split, nor intensely foul-smelling so as to ruin you, nor intensely soft like water so as to drown you, nor intensely hard so that it resists you in your houses, buildings, and graves of your dead. But He, the Exalted and Mighty, made in it such firmness that you benefit from it and your bodies and structures remain stable upon it, and He made in it that which yields to your houses, graves, and many of your benefits. That is why He made the earth your couch.",
+          "ur": "انہوں نے کہا: اس نے اسے تمہاری فطرت کے مطابق موزوں بنایا، تمہارے جسموں کے مطابق۔ اس نے اسے اتنا شدید گرم اور گرم نہیں بنایا کہ وہ تمہیں جلا دے، نہ ہی اتنا شدید سرد کہ وہ تمہیں جمادے، نہ ہی ہوا میں اتنا شدید خوشبو دار کہ تمہاری سریں پھٹ جائیں، نہ ہی اتنا شدید بدبو دار کہ وہ تمہیں خراب کر دے، نہ ہی پانی کی طرح اتنا نرم کہ وہ تمہیں ڈبو دے، نہ ہی اتنا سخت کہ وہ تمہارے گھروں، عمارتوں اور مردوں کے قبرستانوں میں تمہاری مخالفت کرے۔ بلکہ اس نے اس میں ایسی مضبوطی پیدا کی کہ تم اس سے فائدہ اٹھا سکو اور تمہارے جسم اور عمارات اس پر مستحکم رہیں، اور اس نے اس میں وہ چیز پیدا کی جو تمہارے گھروں، قبروں اور تمہارے بہت سے فوائد کے لیے نرم ہو جائے۔ اسی لیے اس نے زمین کو تمہارا بستر بنایا۔",
+          "tr": "Dedi ki: Onu sizin doğalarınıza uygun, bedenlerinize uygun kıldı. Sizi yakacak kadar aşırı sıcak ve sıcak yapmadı, donduracak kadar aşırı soğuk yapmadı, rüzgarda başlarınızı yaracak kadar aşırı hoş koku yayacak kadar yoğun yapmadı, sizi bozacak kadar kötü kokulu yapmadı, sizi boğacak kadar su gibi aşırı yumuşak yapmadı, evlerinizde, yapılarınızda ve ölülerinizin mezarlarında size direnecek kadar aşırı sert yapmadı. Aksine, Yüce ve Azîz olan, onda öyle bir dayanıklılık yarattı ki siz ondan faydalanırsınız ve bedenleriniz ile yapılarınız onun üzerinde sabit kalır; ve onda evleriniz, mezarlarınız ve birçok faydalarınıza uygun olan şeyi yarattı. İşte bu yüzden yeri yatağınız olarak yarattı.",
+          "fa": "گفت: آن را متناسب با طبیعت شما و هم‌خوان با بدن‌هایتان قرار داد. آن را چنان داغ و گرم نکرد که شما را بسوزاند، و چنان سرد نکرد که شما را یخ بزند، و چنان خوش‌بوی در باد نکرد که سرهایتان را بشکافد، و چنان بدبو نکرد که شما را تباه کند، و چنان نرم مانند آب نکرد که شما را غرق کند، و چنان سخت نکرد که در خانه‌ها، بناها و گورستان‌های مردگان‌تان در برابر شما مقاومت کند. بلکه او، بلندمرتبه و توانا، در آن استواریی قرار داد که از آن بهره ببرید و بدن‌ها و بناهای‌تان بر آن پایدار بمانند، و در آن چیزی قرار داد که در برابر خانه‌ها، گورها و بسیاری از منافع‌تان نرم باشد. به همین دلیل، زمین را بستر شما قرار داد.",
+          "id": "Ia berkata: Allah menjadikannya sesuai dengan fitrah kalian, selaras dengan tubuh kalian. Ia tidak menjadikannya sangat panas dan hangat sehingga membakar kalian, tidak sangat dingin sehingga membekukan kalian, tidak sangat harum dalam angin sehingga kepala kalian pecah, tidak sangat bau sehingga merusak kalian, tidak sangat lembut seperti air sehingga menenggelamkan kalian, tidak sangat keras sehingga menolak kalian di rumah-rumah, bangunan, dan kuburan orang-orang mati kalian. Namun, Dia Yang Maha Tinggi dan Maha Perkasa, menjadikannya kokoh sehingga kalian mendapat manfaat darinya, dan tubuh serta bangunan kalian tetap stabil di atasnya, dan Ia menjadikannya lentur bagi rumah-rumah, kuburan, dan banyak manfaat kalian. Itulah sebabnya Ia menjadikan bumi sebagai tempat tidur kalian.",
+          "bn": "তিনি বললেন: তিনি এটিকে আপনার প্রকৃতির অনুকূল করেছেন, আপনার শরীরের সাথে মিল রেখে। তিনি এটিকে অত্যন্ত উত্তপ্ত ও উষ্ণ করেননি যাতে এটি আপনাকে পোড়ায় না, অত্যন্ত শীতল করেননি যাতে এটি আপনাকে হিমবদ্ধ করে না, বাতাসে অত্যন্ত সুগন্ধি করেননি যাতে আপনার মাথা ফেটে না যায়, অথবা অত্যন্ত দুর্গন্ধযুক্ত করেননি যাতে এটি আপনাকে নষ্ট করে না, অথবা পানির মতো অত্যন্ত নরম করেননি যাতে এটি আপনাকে ডুবিয়ে না দেয়, অথবা অত্যন্ত কঠিন করেননি যাতে এটি আপনার বাসস্থান, ভবন এবং মৃতদের কবরে আপনাকে বাধা দেয় না। বরং তিনি, মহান ও শক্তিশালী, এতে এমন দৃঢ়তা সৃষ্টি করেছেন যাতে আপনি এর থেকে উপকৃত হন এবং আপনার শরীর ও গঠনগুলো এর উপর স্থিতিশীল থাকে, এবং তিনি এতে এমন কিছু সৃষ্টি করেছেন যা আপনার বাসস্থান, কবর এবং আপনার অনেক উপকারের জন্য নমনীয় হয়। তাই তিনি পৃথিবীকে আপনার শয়নস্থান করেছেন।",
+          "es": "Dijo: Lo adaptó a vuestras naturalezas, ajustándolo a vuestros cuerpos. No lo hizo ardiente y cálido en exceso para que os quemara, ni frío en exceso para que os congelara, ni perfumado en exceso en el viento para que se os abriera la cabeza, ni hediondo en exceso para que os arruinara, ni blando en exceso como el agua para que os ahogara, ni duro en exceso para que os resistiera en vuestras casas, edificios y tumbas de vuestros muertos. Pero Él, el Exaltado y Poderoso, le infundió tal firmeza que os beneficiáis de él y vuestros cuerpos y estructuras permanecen estables sobre él, y le infundió aquello que cede ante vuestras casas, tumbas y muchos de vuestros beneficios. Por eso hizo de la tierra vuestro lecho.",
+          "fr": "Il a dit : Il l’a adaptée à vos natures, en harmonie avec vos corps. Il ne l’a pas rendue excessivement chaude et tiède pour vous brûler, ni excessivement froide pour vous geler, ni excessivement parfumée par le vent pour fendre vos têtes, ni excessivement nauséabonde pour vous corrompre, ni excessivement molle comme l’eau pour vous noyer, ni excessivement dure pour résister à vos maisons, bâtiments et tombes de vos défunts. Mais Lui, le Sublime et le Puissant, y a insufflé une telle fermeté que vous en tirez profit et que vos corps et structures demeurent stables sur elle, et Il y a placé ce qui cède devant vos maisons, tombes et nombreux bienfaits. C’est pourquoi Il a fait de la terre votre couche.",
+          "de": "Er sagte: Er hat es eurer Natur entsprechend gestaltet, abgestimmt auf eure Körper. Er machte es nicht übermäßig heiß und warm, damit es euch verbrennt, und nicht übermäßig kalt, damit es euch gefrieren lässt, und nicht übermäßig duftend im Wind, damit eure Köpfe splittern, und nicht übermäßig übelriechend, damit es euch ruiniert, und nicht übermäßig weich wie Wasser, damit es euch ertränkt, und nicht übermäßig hart, damit es euch in euren Häusern, Gebäuden und den Gräbern eurer Toten widersteht. Doch Er, der Erhabene und Mächtige, verlieh ihm eine solche Festigkeit, dass ihr daraus Nutzen zieht und eure Körper und Bauwerke darauf stabil bleiben, und Er verlieh ihm das, was sich euren Häusern, Gräbern und vielen eurer Bedürfnisse anpasst. Deshalb hat Er die Erde zu eurem Lager gemacht.",
+          "ru": "Он сказал: Он приспособил её к вашей природе, сообразно вашим телам. Он не сделал её чрезмерно горячей и тёплой, чтобы она не обжигала вас, и не чрезмерно холодной, чтобы она не замораживала вас, и не чрезмерно ароматной на ветру, чтобы ваши головы не раскалывались, и не чрезмерно зловонной, чтобы она не губила вас, и не чрезмерно мягкой, подобно воде, чтобы она не утопляла вас, и не чрезмерно твёрдой, чтобы она сопротивлялась вам в ваших домах, постройках и могилах ваших умерших. Но Он, Всевышний и Могущественный, наделил её такой прочностью, чтобы вы извлекали из неё пользу, а ваши тела и сооружения оставались устойчивыми на ней, и Он наделил её тем, что уступает место вашим домам, могилам и многим вашим потребностям. Поэтому Он сделал землю вашим ложем.",
+          "zh": "他说：他使大地适合你们的本性，与你们的身体相配。他未使其酷热灼人以致烧伤你们，也未使其严寒刺骨以致冻伤你们，未使其风香浓烈以致令你们头痛欲裂，也未使其气味恶臭以致毁坏你们，未使其柔软如水以致淹没你们，也未使其坚硬无比以致在你们的房屋、建筑及亡者坟墓中阻碍你们。但他，至尊至强者，在其中赋予其坚固，使你们从中受益，你们的身体与建筑得以稳固于其上；同时，在其中赋予其柔顺，使你们的房屋、坟墓及诸多用途得以实现。因此，他使大地成为你们的床榻。"
+        },
+        "word_start": 8,
+        "word_end": 78
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَـالَ: «وَالسَّمـاءَ بِنـاءً» سَقْفـاً مَحْفُوظـاً مِنْفَوْقِكُمْ يُدِيرُ فِيهَا شَمْسَهَا وَقَمَرَهَا وَنُجُومَهَا لِمَنَافِعِكُمْ",
+        "translations": {
+          "en": "Then He said: “and the heavens your canopy” — a protected roof above you, in which He directs its sun, moon, and stars for your benefits.",
+          "ur": "پھر اس نے فرمایا: \"اور آسمان تمہاری چھت\" — تمہارے اوپر ایک محفوظ چھت، جس میں اس نے تمہاری بھلائی کے لیے سورج، چاند اور ستاروں کو ترتیب دیا ہے۔",
+          "tr": "Sonra şöyle dedi: «Gökleri sizin için bir çatı kıldı» — sizin üzerinde koruyucu bir çatı olarak, ki onun güneşini, ayını ve yıldızlarını sizin faydanız için O yönlendirir.",
+          "fa": "سپس فرمود: «و آسمان‌ها چتری برای شما» — سقفی محافظ بالای شما، که خورشید و ماه و ستارگان آن را برای منافع شما هدایت می‌کند.",
+          "id": "Kemudian Dia berfirman: “dan langit sebagai atapmu” — sebuah atap yang melindungi di atasmu, di mana Dia mengatur matahari, bulan, dan bintang-bintang untuk manfaatmu.",
+          "bn": "অতঃপর তিনি বললেন: \"এবং আকাশমণ্ডল তোমাদের জন্য একটি ছাদ\" — তোমাদের উপরে একটি সুরক্ষিত ছাদ, যেখানে তিনি তোমাদের কল্যাণের জন্য সূর্য, চন্দ্র ও নক্ষত্রগুলোর গতিপথ নির্ধারণ করেন।",
+          "es": "Luego dijo: «y los cielos, vuestro dosel» — un techo protector sobre vosotros, en el cual Él dirige el sol, la luna y las estrellas para vuestro beneficio.",
+          "fr": "Puis Il dit : « et les cieux, votre au-dessus de vous, comme une voûte » — un toit protecteur au-dessus de vous, dans lequel Il dirige le soleil, la lune et les étoiles pour vos bienfaits.",
+          "de": "Dann sagte Er: „und der Himmel als euer Baldachin“ — ein geschütztes Dach über euch, in dem Er die Sonne, den Mond und die Sterne zu eurem Nutzen lenkt.",
+          "ru": "Затем Он сказал: «и небеса — ваша покровыло» — защищённая кровля над вами, в которой Он направляет их солнце, луну и звёзды во благо вам.",
+          "zh": "然后他说：“天穹为你们的华盖”，即你们头顶之上受保护的屋顶，在其中他安排太阳、月亮和星辰，以造福你们。"
+        },
+        "word_start": 78,
+        "word_end": 91
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ عَزَّ وَجَلَّ «وَأَنْزَلَ مِنَ السَّماءِ ماءً» يَعْنِي الْمَطَرَ يُنْزِلُهُ مِنْ عَلًى [عَلاً] لِيَبْلُغَ قُلَلَ جِبَالِكُمْ وَتِلالَكُمْ وَهِضَابَكُمْ وَأَوْهَادَكُمْ ثُمَّ فَرَّقَهُ رَذَاذاً وَوَابِلاً وَهَطْلاً وَطَلّاً لِتَنْشَفَهُ أَرَضُوكُمْ",
+        "translations": {
+          "en": "Then He, the Exalted and Mighty, said: “and sent down from the heaven water” — meaning rain. He sends it from above to reach the peaks of your mountains, hills, plateaus, and valleys. Then He scattered it as drizzle, heavy rain, pouring rain, and dew, so that your land may absorb it.",
+          "ur": "پس اس نے، جو بلند و برتر اور غالب ہے، فرمایا: اور آسمان سے پانی نازل کیا — یعنی بارش۔ وہ اسے اوپر سے بھیجتا ہے تاکہ وہ تمہاری پہاڑوں، ٹیلوں، پٹیوں اور وادیوں کی چوٹیوں تک پہنچ سکے۔ پھر اسے ہلکی بوندا باندی، بھاری بارش، طوفانی بارش اور شبنم کی صورت میں بکھیرا تاکہ تمہاری زمین اسے جذب کر سکے۔",
+          "tr": "Sonra O, Azîz ve Celîl buyurdu: “Gökten su indirdi” — yani yağmur. Onu dağlarınızın, tepelerinizin, platolarınızın ve vadilerinizin zirvelerine ulaşması için yukarıdan gönderir. Sonra onu çisne, şiddetli yağmur, sağanak yağmur ve çiy olarak yayar, böylece toprağınız onu emebilsin.",
+          "fa": "سپس او، بلندمرتبه و توانا، فرمود: «و از آسمان آب نازل کرد»؛ یعنی باران. او آن را از بالا می‌فرستد تا به قله‌های کوه‌ها، تپه‌ها، دشت‌ها و دره‌های شما برسد. سپس آن را به صورت نم‌نم باران، باران سنگین، باران سیل‌آسا و شبنم پراکنده می‌کند، تا زمین شما آن را جذب کند.",
+          "id": "Kemudian Dia Yang Maha Tinggi dan Maha Perkasa berfirman: “dan menurunkan air dari langit” — yaitu hujan. Dia menurunkan air itu dari atas untuk mencapai puncak-puncak gunung, bukit, dataran tinggi, dan lembah-lembah kalian. Kemudian Dia menyebarkannya sebagai gerimis, hujan lebat, hujan deras, dan embun, agar tanah kalian dapat menyerapnya.",
+          "bn": "অতঃপর তিনি, যিনি মহান ও শক্তিশালী, বললেন: \"আকাশ থেকে পানি নামিয়ে পাঠালেন\" — অর্থাৎ বৃষ্টি। তিনি এটিকে উপর থেকে পাঠান যাতে এটি আপনার পাহাড়ের চূড়া, পাহাড়, সমভূমি এবং উপত্যকায় পৌঁছায়। অতঃপর তিনি এটিকে ছোট বৃষ্টি, ভারী বৃষ্টি, ঝমঝমে বৃষ্টি এবং শিশির হিসেবে ছড়িয়ে দেন, যাতে আপনার ভূমি এটিকে শোষণ করে।",
+          "es": "Luego, Él, el Exaltado y Poderoso, dijo: «y envió desde el cielo agua» —es decir, lluvia—. La envía desde arriba para alcanzar las cumbres de tus montañas, colinas, mesetas y valles. Luego la dispersó como llovizna, lluvia torrencial, lluvia abundante y rocío, para que tu tierra la absorba.",
+          "fr": "Puis Lui, le Sublime et le Puissant, a dit : « et Il fit descendre du ciel de l’eau » — c’est-à-dire la pluie. Il la fait descendre d’en haut pour atteindre les sommets de vos montagnes, collines, plateaux et vallées. Puis Il la dispersa sous forme de bruine, de pluie abondante, de pluie diluvienne et de rosée, afin que votre terre puisse l’absorber.",
+          "de": "Dann sprach Er, der Erhabene und Mächtige: „und sandte vom Himmel Wasser herab“ – das bedeutet Regen. Er sendet es von oben herab, damit es die Gipfel eurer Berge, Hügel, Hochebenen und Täler erreicht. Dann zerstreute Er es als Nieselregen, als starken Regen, als ergießigen Regen und als Tau, damit euer Land es aufsaugen kann.",
+          "ru": "Затм: Затем Он, Всевышний и Могущественный, сказал: «и ниспослал с неба воду» — то есть дождь. Он ниспосылает её сверху, чтобы она достигла вершин ваших гор, холмов, плато и долин. Затем Он рассеивает её в виде мелкого дождя, сильного ливня, проливного дождя и росы, чтобы ваша земля могла впитать её.",
+          "zh": "随后，他，至高至大者，说：“他从天空降下雨水”，意指降雨。他将雨水从高处降下，以滋润你们的山峰、丘陵、高原和山谷。然后，他以细雨、大雨、倾盆大雨和露水的方式散布雨水，使你们的土地得以吸收。"
+        },
+        "word_start": 91,
+        "word_end": 119
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَمْ يَجْعَلْ ذَلِكَ الْمَطَرَ نَازِلاً عَلَيْكُمْ قِطْعَةً وَاحِدَةً فَيُفْسِدَ أَرَضِيكُمْ وَأَشْجَارَكُمْ وَزُرُوعَكُمْ وَثِمَارَكُمْ",
+        "translations": {
+          "en": "And He did not make that rain fall upon you in one single mass, lest it corrupt your land, trees, crops, and fruits.",
+          "ur": "اور اس نے اس بارش کو تم پر ایک ہی ٹکڑے میں نہ برسایا تاکہ تمہاری زمین، درخت، فصلیں اور پھل خراب نہ ہو جائیں۔",
+          "tr": "O, o yağmuru toprağınızı, ağaçlarınızı, ekinlerinizi ve meyvelerinizi bozmasın diye tek bir kütle halinde üzerinize yağdırmadı.",
+          "fa": "و او باران را به صورت یک توده واحد بر شما نازل نکرد، تا اینکه زمین، درختان، محصولات و میوه‌های شما را فاسد نکند.",
+          "id": "Dan Dia tidak menurunkan hujan itu kepadamu dalam satu gumpalan, agar tidak merusak tanah, pohon, tanaman, dan buah-buahanmu.",
+          "bn": "এবং তিনি তোমাদের উপর সেই বৃষ্টি একক বৃষ্টিধারারূপে না নামিয়ে, যাতে তোমাদের ভূমি, গাছপালা, ফসল ও ফলফল নষ্ট না হয়।",
+          "es": "Y no hizo que esa lluvia cayera sobre vosotros en una sola masa, para no corromper vuestra tierra, árboles, cultivos y frutos.",
+          "fr": "Et Il ne fit pas tomber cette pluie sur vous en une seule masse, de peur qu'elle ne corrompe votre terre, vos arbres, vos récoltes et vos fruits.",
+          "de": "Und Er ließ diesen Regen nicht in einer einzigen Masse auf dich herniederfallen, damit er dein Land, deine Bäume, deine Ernten und deine Früchte nicht verderbe.",
+          "ru": "И Он не ниспосылал этот дождь на вас единой массой, дабы он не испортил вашу землю, деревья, посевы и плоды.",
+          "zh": "他使那雨水不致于一股脑地降落在你们身上，以免它腐坏你们的土地、树木、庄稼和果实。"
+        },
+        "word_start": 119,
+        "word_end": 132
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ عَزَّ وَجَلَّ: «فَأَخْرَجَ بِهِ مِنَ الَّثمَراتِ رِزْقاً لَكُمْ» يَعْنِي مِمَّا يُخْرِجُهُ مِنَ الأَرْضِ رِزْقاً لَكُمْ",
+        "translations": {
+          "en": "Then He, the Exalted and Mighty, said: “and brought forth therewith fruits for your sustenance” — meaning what He brings forth from the earth as sustenance for you.",
+          "ur": "پھر اس نے، جو بلند و برتر اور غالب ہے، فرمایا: \"اور اس کے ذریعے تمہاری روزی کے لیے پھل نکالا\" — یعنی وہ جو زمین سے تمہاری روزی کے طور پر نکالتا ہے۔",
+          "tr": "Sonra O, Azîz ve Celîl şöyle buyurdu: \"Sizin rızkınız için meyveler çıkardı\" — yani, sizin rızkınız olarak yeryüzünden çıkardığı şeyleri.",
+          "fa": "سپس او، بلندمرتبه و توانا، فرمود: «و با آن میوه‌هایی برای روزی شما بیرون آورد» — یعنی آنچه از زمین به عنوان روزی شما بیرون می‌آورد.",
+          "id": "Kemudian Dia, Yang Mahatinggi dan Mahabesar, berfirman: \"dan mengeluarkan dengannya buah-buahan untuk rezeki kamu\" — maksudnya apa yang Dia keluarkan dari bumi sebagai rezeki bagi kamu.",
+          "bn": "অতঃপর তিনি, যিনি মহান ও শক্তিশালী, বললেন: \"এবং এর মাধ্যমে তোমাদের জীবিকা-সূচক ফলসমূহ উদ্ভূত করলেন\" — অর্থাৎ, তিনি পৃথিবী থেকে তোমাদের জীবিকা হিসেবে যা উদ্ভূত করেন।",
+          "es": "Luego Él, el Exaltado y el Poderoso, dijo: «e hizo brotar con ello frutos para vuestro sustento» — es decir, lo que Él hace brotar de la tierra como sustento para vosotros.",
+          "fr": "Puis Lui, le Sublime et le Puissant, a dit : « et Il en fait sortir des fruits pour votre subsistance » — ce qui signifie ce qu’Il fait sortir de la terre comme subsistance pour vous.",
+          "de": "Dann sprach Er, der Erhabene und Mächtige: „und hervorbrachte damit Früchte zu eurer Ernährung“ — das bedeutet, was Er aus der Erde als Nahrung für euch hervorbringt.",
+          "ru": "Затем Он, Всевышний и Могущественный, сказал: «и извлек с ними плоды для вашего пропитания» — то есть то, что Он извлекает из земли как пропитание для вас.",
+          "zh": "随后，他，至高至强者说：“并由此为你们从中结出果实作为给养”——意指他从大地中为你们所产生的一切作为给养。"
+        },
+        "word_start": 132,
+        "word_end": 149
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "«فَلا تَجْعَلُوا لِلَّهِ أَنْداداً» أَيْ أَشْبَاهاً وَأَمْثَالاً مِنَ الأَصْنَامِ الَّتِي لا تَعْقِلُ وَلا تَسْمَعُ وَلا تُبْصِرُ وَلا تَقْدِرُ عَلَى شَيْ‏ءٍ وَأَنْتُمْ تَعْلَمُونَ أَنَّهَا لا تَقْدِرُ عَلَى شَيْ‏ءٍ مِنْ هَذِهِ النِّعَمِ الْجَلِيلَةِ الَّتِي أَنْعَمَهَا عَلَيْكُمْ رَبُّكُمْ تَبَارَكَ وَتَعَالَى.",
+        "translations": {
+          "en": "“So do not make rivals for Allah” — meaning similar and equal ones from the idols that do not think, nor hear, nor see, nor have power over anything, while you know that they are unable to do anything of those great blessings that your Lord, Blessed and Exalted, has bestowed upon you.",
+          "ur": "پس اللہ کے لیے مشرک نہ بناؤ",
+          "tr": "İşte bu yüzden Allah için eş ve benzerler yapmayın — yani düşünmeyen, işitmeyen, görmeyen ve hiçbir şeye güç yetiremeyen putlardan; oysa ki Rabbiniz, Celil ve Azîz olan, size lütfettiği bu büyük nimetlerin çoğunu yapamayıp güçsüz olduklarını bilirsiniz.",
+          "fa": "پس برای خدا همتا قرار مدهید» — یعنی مانند و برابر آن‌ها از بت‌انی که اندیشه نمی‌کنند، و نمی‌شنوند، و نمی‌بینند، و بر هیچ چیز توانایی ندارند، در حالی که شما می‌دانید که آن‌ها توانایی انجام هیچ‌یک از آن نعمت‌های بزرگ را ندارند که پروردگارتان، پربرکت و برتر، به شما عطا کرده است.",
+          "id": "Maka janganlah kamu menjadikan sekutu-sekutu bagi Allah,",
+          "bn": "অতএব, আল্লাহর জন্য প্রতিদ্বন্দ্বী স্থাপন করো না",
+          "es": "«Así que no hagáis rivales para Alá» — es decir, semejantes e iguales entre los ídolos que no piensan, ni oyen, ni ven, ni tienen poder sobre nada, mientras que vosotros sabéis que son incapaces de hacer nada de aquellas grandes bendiciones que tu Señor, Bendito y Exaltado, te ha concedido.",
+          "fr": "« Ainsi, ne faites pas d'associés à Allah » — c'est-à-dire des êtres semblables et égaux aux idoles qui ne pensent pas, n'entendent pas, ne voient pas et n'ont pouvoir sur rien, alors que vous savez qu'ils sont incapables de faire quoi que ce soit de ces grandes bénédictions que votre Seigneur, Béni et Exalté, vous a accordées.",
+          "de": "\"So macht keine Nebenwesen für Allah\" — das bedeutet solche, die den Götzen ähnlich und gleich sind, die nicht denken, nicht hören, nicht sehen und keine Macht über etwas haben, während ihr wisst, dass sie unfähig sind, irgendeine jener großen Segnungen zu vollbringen, die euer Herr, der Gepriesene und Erhabene, euch erwiesen hat.",
+          "ru": "«Итак, не приобщайте сотоварищей Аллаху» — то есть подобных и равных Ему идолов, которые не мыслят, не слышат, не видят и не властны ни над чем, тогда как вы знаете, что они не способны совершить ни одно из тех великих благ, которые даровал вам ваш Господь, Благословенный и Всевышний.",
+          "zh": "text"
+        },
+        "word_start": 149,
+        "word_end": 186
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Transmitted through the Imams of Ahl al-Bayt in *Uyun Akhbar al-Rida*, this hadith offers a cosmological exegesis of the earth as a 'couch' (firash) and heavens as a 'canopy' (bina'), emphasizing divine wisdom in calibrating physical properties to sustain human life. It highlights the balanced nature of rain and the earth's material consistency as signs of God's mercy, culminating in the logical argument against idolatry by contrasting the inert idols with the active, life-sustaining Creator.",
+        "seo_question": "How does the Imam explain the meaning of the earth being a 'couch' and the heavens a 'canopy' in the Quran?",
+        "key_terms": {
+          "فِراشاً": "couch or bed (metaphor for the earth's suitability for resting and living)",
+          "بِناءً": "canopy or structure (metaphor for the heavens as a protective covering)",
+          "طَبَائِعِكُمْ": "your natures or constitutions",
+          "رَذَاذاً": "drizzle or light rain",
+          "وَابِلاً": "heavy or pouring rain",
+          "أَنْداداً": "rivals or equals (idols set up alongside God)"
+        }
+      },
+      "ur": {
+        "summary": "سنان اخبار الرضا میں اہل بیت کے ائمہ کے ذریعے منقول یہ حدیث زمین کو 'فرش' اور آسمانوں کو 'بناء' کے طور پر کائناتی تفسیر پیش کرتی ہے، جو انسانی زندگی کو برقرار رکھنے کے لیے طبیعیاتی خصوصیات کی الہی حکمت پر زور دیتی ہے۔ یہ بارش کے متوازن نوعیت اور زمین کی مادّی استحکام کو اللہ کی رحمت کے نشان کے طور پر اجاگر کرتی ہے، اور آخر میں بے جان بتوں اور فعال، زندگی دینے والے خالق کے تقابل کے ذریعے شرک کے خلاف منطقی استدلال پر ختم ہوتی ہے۔",
+        "seo_question": "امام قرآن میں زمین کے 'فرش' اور آسمانوں کے 'بناء' ہونے کے معنی کیسے بیان کرتے ہیں؟",
+        "key_terms": {
+          "فِراشاً": "فرش یا بستر (زمین کے آرام اور رہائش کے لیے موزونیت کی استعارہ)",
+          "بِناءً": "چھت یا ساخت (آسمانوں کو حفاظتی ڈھانپنے والے کے طور پر استعارہ)",
+          "طَبَائِعِكُمْ": "تمہاری فطرتیں یا بناوٹ",
+          "رَذَاذاً": "ہلکی بارش یا بوندا باندی",
+          "وَابِلاً": "بھاری یا طوفانی بارش",
+          "أَنْداداً": "مقابلے یا برابر (اللہ کے ساتھ لگائے گئے بت)"
+        }
+      },
+      "tr": {
+        "summary": "Ünlü Akbar al-Rida'da Ehl-i Beyt İmamları üzerinden nakledilen bu hadîs, yeryüzünü bir 'yatak' (firş) ve gökleri bir 'bina' (çatı/kubbe) olarak yorumlayan kozmolojik bir tefsir sunar; fiziksel özelliklerin insan hayatını sürdürebilmesi için ilahi hikmetle ayarlandığını vurgular. Yağmurun dengeli yapısı ve yeryüzünün maddesel tutarlılığı, Allah'ın rahmetinin delilleri olarak öne çıkar ve hareketsiz putlarla hayatı devam ettiren Yaratıcı arasındaki zıtlık üzerinden putperestliğe karşı mantıksal bir argümanla sonuçlanır.",
+        "seo_question": "İmam, Kur'an'da yeryüzünün 'yatak' ve göklerin 'bina' (çatı/kubbe) olarak açıklanmasının anlamını nasıl yorumlar?",
+        "key_terms": {
+          "فِراشاً": "yatak veya yataklık (yeryüzünün dinlenmek ve yaşamak için uygunluğunu metaforik olarak ifade eder)",
+          "بِناءً": "çatı veya yapı (göklerin koruyucu bir örtü olarak metaforik ifadesi)",
+          "طَبَائِعِكُمْ": "sizin doğalarınız veya yapılarınız",
+          "رَذَاذاً": "çisenti veya hafif yağmur",
+          "وَابِلاً": "ağır veya şiddetli yağmur",
+          "أَنْداداً": "rakip veya eş (Allah'ın yanına konulan putlar)"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث که از طریق ائمه اهل بیت در عین اخبار الرضا نقل شده است، تفسیری کیهان‌شناختی از زمین به عنوان 'بستر' (فراش) و آسمان‌ها به عنوان 'سقف' (بنا) ارائه می‌دهد و بر حکمت الهی در تنظیم ویژگی‌های فیزیکی برای حفظ حیات انسان تأکید دارد. این حدیث ماهیت متعادل باران و سازگاری مادی زمین را به عنوان نشانه‌های رحمت خداوند برجسته می‌کند و با مقایسه بت‌های بی‌جان با خالق فعال و حیات‌بخش، استدلالی منطقی علیه بت‌پرستی ارائه می‌دهد.",
+        "seo_question": "امام چگونه معنای زمین به عنوان 'بستر' و آسمان‌ها به عنوان 'سقف' را در قرآن توضیح می‌دهد؟",
+        "key_terms": {
+          "فِراشاً": "بستر یا تخت (استعاره از تناسب زمین برای استراحت و زندگی)",
+          "بِناءً": "سقف یا ساختار (استعاره از آسمان‌ها به عنوان پوشش محافظ)",
+          "طَبَائِعِكُمْ": "طبیعت یا قوام شما",
+          "رَذَاذاً": "نم‌نم باران یا باران سبک",
+          "وَابِلاً": "باران سنگین یا سیل‌آسا",
+          "أَنْداداً": "همتاها یا رقبای (بت‌هایی که در کنار خدا قرار گرفته‌اند)"
+        }
+      },
+      "id": {
+        "summary": "Diriwayatkan melalui para Imam Ahl al-Bayt dalam *Uyun Akhbar al-Rida*, hadis ini menawarkan tafsir kosmologis tentang bumi sebagai 'tempat tidur' (firash) dan langit sebagai 'atap' (bina'), dengan menekankan hikmah Ilahi dalam menyesuaikan sifat fisik untuk menopang kehidupan manusia. Hadis ini menyoroti sifat seimbang dari hujan dan konsistensi material bumi sebagai tanda rahmat Allah, yang berujung pada argumen logis melawan penyembahan berhala dengan membandingkan berhala yang mati dengan Pencipta yang aktif dan menopang kehidupan.",
+        "seo_question": "Bagaimana Imam menjelaskan makna bumi sebagai 'tempat tidur' dan langit sebagai 'atap' dalam Al-Qur'an?",
+        "key_terms": {
+          "فِراشاً": "tempat tidur atau ranjang (metafora untuk kesesuaian bumi untuk beristirahat dan hidup)",
+          "بِناءً": "atap atau struktur (metafora untuk langit sebagai penutup pelindung)",
+          "طَبَائِعِكُمْ": "sifat atau konstitusi kalian",
+          "رَذَاذاً": "gerimis atau hujan ringan",
+          "وَابِلاً": "hujan lebat atau hujan deras",
+          "أَنْداداً": "tandingan atau setara (berhala yang didirikan di samping Allah)"
+        }
+      },
+      "bn": {
+        "summary": "উয়ুনুল আখবার আল-রিদা গ্রন্থে আহলুল বাইতের ইমামগণের মাধ্যমে বর্ণিত এই হাদিসে পৃথিবীকে 'চাতাল' (ফিরশ) এবং আকাশকে 'ছাদ' (বিনা) হিসেবে ব্যাখ্যা করে একটি মহাজাগতিক তাফসির উপস্থাপন করা হয়েছে, যেখানে মানবজীবন ধারণের জন্য ভৌত গুণাবলীর সমন্বয়ে ঈশ্বরের জ্ঞানের প্রতিফলন দেখা যায়। বৃষ্টির ভারসাম্য এবং পৃথিবীর উপাদানের স্থিতিশীলতাকে আল্লাহর রহমতের নিদর্শন হিসেবে তুলে ধরা হয়েছে, যা শেষ পর্যন্ত নিষ্ক্রিয় মূর্তি ও সক্রিয় জীবনদাতা স্রষ্টার মধ্যে পার্থক্য তুলে ধরে শিরকের যৌক্তিক বিরোধিতায় পৌঁছায়।",
+        "seo_question": "কুরআনে পৃথিবীকে 'চাতাল' এবং আকাশকে 'ছাদ' বলা হওয়ার অর্থ ইমাম কীভাবে ব্যাখ্যা করেছেন?",
+        "key_terms": {
+          "فِراشاً": "চাতাল বা বিছানা (পৃথিবীর বিশ্রাম ও বসবাসের উপযোগিতার রূপক)",
+          "بِناءً": "ছাদ বা গঠন (রক্ষাকবচ হিসেবে আকাশের রূপক)",
+          "طَبَائِعِكُمْ": "আপনাদের স্বভাব বা গঠন",
+          "رَذَاذاً": "হালকা বৃষ্টি বা টিপে টিপে বৃষ্টি",
+          "وَابِلاً": "ভারী বা ঝমঝমে বৃষ্টি",
+          "أَنْداداً": "প্রতিদ্বন্দ্বী বা সমকক্ষ (আল্লাহর পাশাপাশি স্থাপিত মূর্তি)"
+        }
+      },
+      "es": {
+        "summary": "Transmitad ",
+        "seo_question": "¿Cómo explica el Imam el significado de la tierra como un 'couch' y los cielos como un 'canopy' en el Corán?",
+        "key_terms": {
+          "فِراشاً": "couch o cama (metáfora de la aptitud de la tierra para descansar y vivir)",
+          "بِناءً": "dosel o estructura (metáfora de los cielos como una cobertura protectora)",
+          "طَبَائِعِكُمْ": "vuestras naturalezas o constituciones",
+          "رَذَاذاً": "llovizna o lluvia ligera",
+          "وَابِلاً": "lluvia abundante o torrencial",
+          "أَنْداداً": "rivales o iguales (ídolos colocados junto a Dios)"
+        }
+      },
+      "fr": {
+        "summary": "Transmis par les Imams de l'Ahl al-Bayt dans *'Uyun Akhbar al-Rida*, ce hadith offre une exégèse cosmologique de la terre en tant que 'couchette' (firash) et des cieux en tant que 'dôme' (bina'), soulignant la sagesse divine dans l'équilibrage des propriétés physiques pour soutenir la vie humaine. Il met en lumière la nature équilibrée de la pluie et la cohérence matérielle de la terre comme signes de la miséricorde d'Allah, aboutissant à un argument logique contre l'idolâtrie en opposant les idoles inertes au Créateur actif qui soutient la vie.",
+        "seo_question": "Comment l'Imam explique-t-il le sens de la terre étant une 'couchette' et des cieux un 'dôme' dans le Coran ?",
+        "key_terms": {
+          "فِراشاً": "couchette ou lit (métaphore de l'aptitude de la terre à accueillir le repos et la vie)",
+          "بِناءً": "dôme ou structure (métaphore des cieux en tant que couverture protectrice)",
+          "طَبَائِعِكُمْ": "vos natures ou constitutions",
+          "رَذَاذاً": "bruine ou pluie légère",
+          "وَابِلاً": "pluie abondante ou diluvienne",
+          "أَنْداداً": "rivaux ou égaux (idoles placées aux côtés d'Allah)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith, überliefert durch die Imame der Ahl al-Bayt in *Uyun Akhbar al-Rida*, bietet eine kosmologische Exegese der Erde als 'Lagerstätte' (firash) und des Himmels als 'Dach' (bina'), wobei die göttliche Weisheit bei der Kalibrierung physikalischer Eigenschaften zur Aufrechterhaltung des menschlichen Lebens betont wird. Es hebt die ausgeglichene Natur des Regens und die materielle Beständigkeit der Erde als Zeichen der Barmherzigkeit Gottes hervor, was in einem logischen Argument gegen den Götzendienst gipfelt, indem die träge Natur der Götzen mit dem aktiven, das Leben erhaltenden Schöpfer kontrastiert wird.",
+        "seo_question": "Wie erklärt der Imam die Bedeutung der Erde als 'Lagerstätte' und des Himmels als 'Dach' im Koran?",
+        "key_terms": {
+          "فِراشاً": "Lagerstätte oder Bett (Metapher für die Eignung der Erde zum Ruhen und Leben)",
+          "بِناءً": "Dach oder Struktur (Metapher für den Himmel als schützende Hülle)",
+          "طَبَائِعِكُمْ": "eure Naturen oder Konstitutionen",
+          "رَذَاذاً": "Nieseln oder leichter Regen",
+          "وَابِلاً": "starker oder ergiebiger Regen",
+          "أَنْداداً": "Gleichgestellte oder Ebenbürtige (neben Gott aufgestellte Götzen)"
+        }
+      },
+      "ru": {
+        "summary": "Хадис, переданный через имамов Ахль аль-Байт в книге «Уюн акбар ар-Рида», предлагает космологическое толкование земли как ложа (фираш) и небес как покрытия (бина'), подчеркивая божественную мудрость в настройке физических свойств для поддержания человеческой жизни. Он выделяет сбалансированность дождя и материальную устойчивость земли как знамения милости Аллаха, завершаясь логическим аргументом против идолопоклонства путем противопоставления безжизненных идолов активному Творцу, поддерживающему жизнь.",
+        "seo_question": "Как имам объясняет значение земли как ложа и небес как покрытия в Коране?",
+        "key_terms": {
+          "فِراشاً": "ложе или кровать (метафора пригодности земли для отдыха и жизни)",
+          "بِناءً": "покрытие или структура (метафора небес как защитного покрова)",
+          "طَبَائِعِكُمْ": "ваши натуры или конституции",
+          "رَذَاذاً": "морось или легкий дождь",
+          "وَابِلاً": "проливной или сильный дождь",
+          "أَنْداداً": "соперники или равные (идолы, поставленные рядом с Аллахом)"
+        }
+      },
+      "zh": {
+        "summary": "通过伊玛目圣训传述，这段圣训在《优素福·阿克巴尔·里达》中提供了对地球作为‘床铺’（firash）和天空作为‘穹顶’（bina'）的宇宙论注释，强调真主在调节物理属性以维持人类生命方面的智慧。它突出了雨水的平衡性质和地球物质的一致性作为真主慈恩的迹象，并通过将无生命的偶像与活跃且维持生命的创造者进行对比，最终得出反对偶像崇拜的逻辑论证。",
+        "seo_question": "伊玛目如何解释《古兰经》中地球是‘床铺’而天空是‘穹顶’的含义？",
+        "key_terms": {
+          "فِراشاً": "床铺或床（比喻地球适合休息和居住）",
+          "بِناءً": "穹顶或结构（比喻天空作为保护性覆盖物）",
+          "طَبَائِعِكُمْ": "你们的本性或体质",
+          "رَذَاذاً": "毛毛雨或小雨",
+          "وَابِلاً": "大雨或倾盆大雨",
+          "أَنْداداً": "对手或同等者（与真主并列设立的偶像）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:58",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "13:3",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "23:18",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:30",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "31:10",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad «الَّذِي جَعَلَ لَكُمُ الأَرْضَ فِراشاً وَالسَّماءَ بِناءً» قَالَ: جَعَلَهَا مُلائِمَةً لِطَبَائِعِكُمْ مُوَافِقَةً لاجْسَادِكُمْ وَلَمْ يَجْعَلْهَا شَدِيدَةَ الْحَمْيِ وَالْحَرَارَةِ فَتُحْرِقَكُمْ وَلا شَدِيدَةَ الْبُرُودَةِ فَتُجْمِدَكُمْ وَلا شَدِيدَةَ طِيبِ الرِّيحِ فَتُصَدَّعَ هَامَاتُكُمْ وَلا شَدِيدَةَ النَّتْنِ فَتُعْطِبَكُمْ وَلا شَدِيدَةَ اللِّينِ كَالْمَاءِ فَتُغْرِقَكُمْ وَلا شَدِيدَةَ الصَّلابَةِ فَتَمْتَنِعَ عَلَيْكُمْ فِي دُورِكُمْ وَأَبْنِيَتِكُمْ وَقُبُورِ مَوْتَاكُمْ وَلَكِنَّهُ عَزَّ وَجَلَّ جَعَلَ فِيهَا مِنَ الْمَتَانَةِ مَا تَنْتَفِعُونَ بِهِ وَتَتََماسَكُ عَلَيْهَا أَبْدَانُكُمْ وَبُنْيَانُكُمْ وَجَعَلَ فِيهَا مَا تَنْقَادُ بِهِ لِدُورِكُمْ وَقُبُورِكُمْ وَكَثِيرٍ مِنْ مَنَافِعِكُمْ فَذَلِكَ جَعَلَ لَكُمُ الأَرْضَ فِراشاً ثُمَّ قَـالَ: «وَالسَّمـاءَ بِنـاءً» سَقْفـاً مَحْفُوظـاً مِنْفَوْقِكُمْ يُدِيرُ فِيهَا شَمْسَهَا وَقَمَرَهَا وَنُجُومَهَا لِمَنَافِعِكُمْ ثُمَّ قَالَ عَزَّ وَجَلَّ «وَأَنْزَلَ مِنَ السَّماءِ ماءً» يَعْنِي الْمَطَرَ يُنْزِلُهُ مِنْ عَلًى [عَلاً] لِيَبْلُغَ قُلَلَ جِبَالِكُمْ وَتِلالَكُمْ وَهِضَابَكُمْ وَأَوْهَادَكُمْ ثُمَّ فَرَّقَهُ رَذَاذاً وَوَابِلاً وَهَطْلاً وَطَلّاً لِتَنْشَفَهُ أَرَضُوكُمْ وَلَمْ يَجْعَلْ ذَلِكَ الْمَطَرَ نَازِلاً عَلَيْكُمْ قِطْعَةً وَاحِدَةً فَيُفْسِدَ أَرَضِيكُمْ وَأَشْجَارَكُمْ وَزُرُوعَكُمْ وَثِمَارَكُمْ ثُمَّ قَالَ عَزَّ وَجَلَّ: «فَأَخْرَجَ بِهِ مِنَ الَّثمَراتِ رِزْقاً لَكُمْ» يَعْنِي مِمَّا يُخْرِجُهُ مِنَ الأَرْضِ رِزْقاً لَكُمْ «فَلا تَجْعَلُوا لِلَّهِ أَنْداداً» أَيْ أَشْبَاهاً وَأَمْثَالاً مِنَ الأَصْنَامِ الَّتِي لا تَعْقِلُ وَلا تَسْمَعُ وَلا تُبْصِرُ وَلا تَقْدِرُ عَلَى شَيْ‏ءٍ وَأَنْتُمْ تَعْلَمُونَ أَنَّهَا لا تَقْدِرُ عَلَى شَيْ‏ءٍ مِنْ هَذِهِ النِّعَمِ الْجَلِيلَةِ الَّتِي أَنْعَمَهَا عَلَيْكُمْ رَبُّكُمْ تَبَارَكَ وَتَعَالَى.",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "«الَّذِي جَعَلَ لَكُمُ الأَرْضَ فِراشاً وَالسَّماءَ بِناءً» قَالَ: جَعَلَهَا مُلائِمَةً لِطَبَائِعِكُمْ مُوَافِقَةً لاجْسَادِكُمْ وَلَمْ يَجْعَلْهَا شَدِيدَةَ الْحَمْيِ وَالْحَرَارَةِ فَتُحْرِقَكُمْ وَلا شَدِيدَةَ الْبُرُودَةِ فَتُجْمِدَكُمْ وَلا شَدِيدَةَ طِيبِ الرِّيحِ فَتُصَدَّعَ هَامَاتُكُمْ وَلا شَدِيدَةَ النَّتْنِ فَتُعْطِبَكُمْ وَلا شَدِيدَةَ اللِّينِ كَالْمَاءِ فَتُغْرِقَكُمْ وَلا شَدِيدَةَ الصَّلابَةِ فَتَمْتَنِعَ عَلَيْكُمْ فِي دُورِكُمْ وَأَبْنِيَتِكُمْ وَقُبُورِ مَوْتَاكُمْ وَلَكِنَّهُ عَزَّ وَجَلَّ جَعَلَ فِيهَا مِنَ الْمَتَانَةِ مَا تَنْتَفِعُونَ بِهِ وَتَتََماسَكُ عَلَيْهَا أَبْدَانُكُمْ وَبُنْيَانُكُمْ وَجَعَلَ فِيهَا مَا تَنْقَادُ بِهِ لِدُورِكُمْ وَقُبُورِكُمْ وَكَثِيرٍ مِنْ مَنَافِعِكُمْ فَذَلِكَ جَعَلَ لَكُمُ الأَرْضَ فِراشاً ثُمَّ قَـالَ: «وَالسَّمـاءَ بِنـاءً» سَقْفـاً مَحْفُوظـاً مِنْفَوْقِكُمْ يُدِيرُ فِيهَا شَمْسَهَا وَقَمَرَهَا وَنُجُومَهَا لِمَنَافِعِكُمْ ثُمَّ قَالَ عَزَّ وَجَلَّ «وَأَنْزَلَ مِنَ السَّماءِ ماءً» يَعْنِي الْمَطَرَ يُنْزِلُهُ مِنْ عَلًى [عَلاً] لِيَبْلُغَ قُلَلَ جِبَالِكُمْ وَتِلالَكُمْ وَهِضَابَكُمْ وَأَوْهَادَكُمْ ثُمَّ فَرَّقَهُ رَذَاذاً وَوَابِلاً وَهَطْلاً وَطَلّاً لِتَنْشَفَهُ أَرَضُوكُمْ وَلَمْ يَجْعَلْ ذَلِكَ الْمَطَرَ نَازِلاً عَلَيْكُمْ قِطْعَةً وَاحِدَةً فَيُفْسِدَ أَرَضِيكُمْ وَأَشْجَارَكُمْ وَزُرُوعَكُمْ وَثِمَارَكُمْ ثُمَّ قَالَ عَزَّ وَجَلَّ: «فَأَخْرَجَ بِهِ مِنَ الَّثمَراتِ رِزْقاً لَكُمْ» يَعْنِي مِمَّا يُخْرِجُهُ مِنَ الأَرْضِ رِزْقاً لَكُمْ «فَلا تَجْعَلُوا لِلَّهِ أَنْداداً» أَيْ أَشْبَاهاً وَأَمْثَالاً مِنَ الأَصْنَامِ الَّتِي لا تَعْقِلُ وَلا تَسْمَعُ وَلا تُبْصِرُ وَلا تَقْدِرُ عَلَى شَيْ‏ءٍ وَأَنْتُمْ تَعْلَمُونَ أَنَّهَا لا تَقْدِرُ عَلَى شَيْ‏ءٍ مِنْ هَذِهِ النِّعَمِ الْجَلِيلَةِ الَّتِي أَنْعَمَهَا عَلَيْكُمْ رَبُّكُمْ تَبَارَكَ وَتَعَالَى.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا مُحَمَّدِ بْنِ القاسِم المفسر رَضِىَ اللهُ عَنْهُ قالَ: حَدَّثَني يُوسف بْن مُحَمَّدِ بْنِ زِياد وَعَلِىِّ بْنِ مُحَمَّدِ بْنِ سيّارٍ،",
+          "name_en": "Muhammad b. al-Qasim al-Mufassir",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبَوَيهُما،",
+          "name_en": "Abu-huma",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الحَسَن بْنِ عَلِىِّ،",
+          "name_en": "al-Hasan ibn Ali",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 63
+        },
+        {
+          "name_ar": "أَبيهِ عَلِىِّ بْنِ مُحَمَّد،",
+          "name_en": "Abihi Ali b. Muhammad",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ مُحَمَّدِ بْنِ عَلِىٍّ،",
+          "name_en": "Abihi Muhammad b. Ali",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبِيهِ عَلِىِّ بْنِ مُوسَى الرِّضا عَلَيْهِ السَّلامُ،",
+          "name_en": "Abihi Ali b. Musa al-Rida",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ مُوسَى بْنِ جَعْفَرٍ،",
+          "name_en": "Abihi Musa b. Ja'far",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ جَعْفَرِ بْنِ مُحَمَّدٍ،",
+          "name_en": "Abihi Ja'far b. Muhammad",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبِيهِ مُحَمَّدِ بْنِ عَلِى،",
+          "name_en": "Abihi Muhammad b. Ali",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ عَلِىِّ بْنِ الحُسَيْن‏ عَلَيْهِمُ السَّلاَمُ",
+          "name_en": "Abihi Ali b. al-Husayn",
+          "role": "narrator",
+          "position": 10,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+        "phrase_en": "Peace be upon them",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "تَبَارَكَ وَتَعَالَىٰ",
+        "phrase_en": "Blessed and Exalted (God)",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

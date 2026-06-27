@@ -1,14 +1,14 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:22:5",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "narrator[1] name_ar has 19 words (>14 — likely a sentence fragment, not a name): 'رَجُلٍ اِسْتَأْجَرَ ظِئْراً فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِ'"
+    "narrator[1] name_ar has 19 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'رَجُلٍ اِسْتَأْجَرَ ظِئْراً فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِ'"
   ],
   "result": {
     "tags": [
@@ -18,152 +18,170 @@
     ],
     "content_type": "legal_ruling",
     "topics": [
-      "judicial_rulings",
+      "financial_law",
       "marriage_family_law",
-      "rights_of_others",
-      "parenting"
+      "judicial_rulings"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَسَأَلَ سُلَيْمَانُ بْنُ خَالِدٍ أَبَا عَبْدِ اللَّهِ عَنْ رَجُلٍ",
+        "arabic_text": "وَسَأَلَ سُلَيْمَانُ بْنُ خَالِدٍ أَبَا عَبْدِ اللَّهِ ع: عَنْ رَجُلٍ اسْتَأْجَرَ ظِئْرًا فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِنْدَهَا فَانْطَلَقَتِ الظِّئْرُ فَاسْتَأْجَرَتْ أُخْرَى فَغَابَتِ الظِّئْرُ بِالْوَلَدِ فَلاَ يُدْرَى مَا صُنِعَ بِهِ وَالظِّئْرُ لاَ تُكَافَى",
         "translations": {
-          "en": "Sulaymān ibn Khālid asked Abū ʿAbdillāh about a man.",
-          "ur": "سلیمان ابن خالد نے ابو عبداللہ سے ایک شخص کے بارے میں پوچھا۔",
-          "tr": "Süleyman ibn Halid, Ebu Abdillah'a bir adam hakkında sordu.",
-          "fa": "سلیمان بن خالد از ابو عبدالله درباره مردی پرسید.",
-          "id": "Sulayman ibn Khalid bertanya kepada Abu ʿAbdillah tentang seorang pria.",
-          "bn": "সুলেমান ইবনে খালিদ আবু আব্দিল্লাহর কাছে একজন ব্যক্তির সম্পর্কে প্রশ্ন করলেন।",
-          "es": "Sulaymán ibn Jálid preguntó a Abu ʿAbdillah acerca de un hombre.",
-          "fr": "Sulaymān ibn Khālid a demandé à Abū ʿAbdillāh au sujet d’un homme.",
-          "de": "Sulaymān ibn Khālid fragte Abū ʿAbdillāh nach einem Mann.",
-          "ru": "Сулейман ибн Халид спросил у Абу ʿАбдиллаха о человеке.",
-          "zh": "苏莱曼本哈立德向阿布阿卜杜拉询问一名男子。"
+          "en": "Sulayman ibn Khalid asked Abu Abdullah (peace be upon him): About a man who hired a wet nurse and gave her his child, and it was with her. Then the wet nurse went and hired another [woman], and the wet nurse disappeared with the child, so it is not known what was done with it, and the wet nurse is not held accountable.",
+          "ur": "سلمان بن خالد نے ابو عبداللہ (علیہ السلام) سے پوچھا: ایک شخص نے ایک دایہ کو کرایے پر رکھا اور اسے اپنا بچہ دے دیا، تو وہ بچہ دایہ کے پاس تھا۔ پھر دایہ گئی اور کسی اور عورت کو کرایے پر رکھا، اور دایہ بچے کے ساتھ غائب ہو گئی، لہذا یہ معلوم نہیں کہ اس کے ساتھ کیا کیا گیا، اور دایہ کو جوابدہ نہیں ٹھہرایا جائے گا۔",
+          "tr": "Süleyman b. Hâlid, Ebu Abdillah'dan (aleyhisselâm) şunu sordu: Bir adam bir süt anneyi işe tuttu ve çocuğunu ona verdi, süt anne çocuğu yanında bulunduruyordu. Sonra süt anne gidip başka birini işe tuttu ve süt anne çocuğuyla birlikte kayboldu, böylece çocuğa ne yapıldığı bilinmemektedir ve süt anne sorumlu tutulmamaktadır.",
+          "fa": "سُلیمان بن خالد از اباعبدالله (علیه السلام) پرسید: درباره مردی که یک شیرده اجیر کرد و فرزندش را به او سپرد و او با او بود، سپس شیرده رفت و دیگری را اجیر کرد و شیرده با کودک غیب شد، پس معلوم نیست با او چه کردند و شیرده مسئول نیست.",
+          "id": "Sulaiman bin Khalid bertanya kepada Abu Abdullah (alamah): Tentang seorang laki-laki yang menyewa seorang pengasuh susu dan memberikannya anaknya, lalu anak itu berada di sisinya. Kemudian pengasuh susu itu pergi dan menyewa wanita lain, lalu pengasuh susu itu hilang bersama anak tersebut, sehingga tidak diketahui apa yang terjadi dengan anak itu, dan pengasuh susu itu tidak dimintai pertanggungjawaban.",
+          "bn": "সুলমান ইবনে খালিদ (রহ.) আবদুল্লাহ ইমামকে (আ.) জিজ্ঞাসা করলেন: এক ব্যক্তি একজন দুধ খাওয়ানো মা (রাতি) নিয়োগ করেছিল এবং তার সন্তানটিকে তার কাছে দিয়েছিল। পরে ওই রাতি আরেকজনকে নিয়োগ করে সন্তানসহ অদৃশ্য হয়ে গেল, ফলে জানা যায় না তার সাথে কী করা হলো, এবং রাতি দায়ীও নয়।",
+          "es": "Sulayman ibn Khalid preguntó a Abu Abdullah (que la paz sea su paz): Sobre un hombre que contrató a una nodriza y le entregó su hijo, y este estaba con ella. Luego la nodriza fue y contrató a otra [mujer], y la nodriza desapareció con el niño, por lo que no se sabe qué se hizo con él, y la nodriza no es considerada responsable.",
+          "fr": "5199 - Et Sulayman ibn Khalid demanda à Abou Abdillah (que la paix soit sur lui) : Au sujet d'un homme qui avait embauché une nourrice et lui avait confié son enfant, et elle le gardait. Puis la nourrice partit et en engagea une autre, et la nourrice disparut avec l'enfant, de sorte qu'on ne sait pas ce qui lui est arrivé, et la nourrice n'est pas tenue pour responsable.",
+          "de": "Sulmān ibn Ḫālid fragte Abū ʿAbdillāh (friede sei mit ihm): Über einen Mann, der eine Amme anheuerte und ihr sein Kind gab, und es war bei ihr. Dann ging die Amme und heuerte eine andere [Frau] an, und die Amme verschwand mit dem Kind, sodass nicht bekannt ist, was mit ihm geschah, und die Amme wird nicht zur Rechenschaft gezogen.",
+          "ru": "Салим ибн Халид спросил Абу Абдуллу (да будет над ним мир): о мужчине, который нанял кормилицу и отдал ей своего ребенка, и он был у нее. Затем кормилица ушла и наняла другую [женщину], и кормилица исчезла с ребенком, так что неизвестно, что с ним стало, а кормилица не несет ответственности.",
+          "zh": "苏莱曼·本·哈立德问阿布·阿卜杜拉（愿主喜悦之）：关于一个男人雇佣了一名乳母，并将他的孩子交给她，孩子就在她那里。后来乳母又雇佣了另一名女子，乳母带着孩子失踪了，因此不知道孩子被怎么样了，而乳母无需赔偿。"
         },
         "word_start": 0,
-        "word_end": 9
+        "word_end": 31
       },
       {
         "chunk_type": "body",
-        "arabic_text": "اِسْتَأْجَرَ ظِئْرًا فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِنْدَهَا فَانْطَلَقَتِ الظِّئْرُ فَاسْتَأْجَرَتْ أُخْرَى فَغَابَتِ الظِّئْرُ بِالْوَلَدِ فَلَا يُدْرَى مَا صُنِعَ بِهِ وَالظِّئْرُ لَا تُكَافَى",
+        "arabic_text": "قَالَ \"الدِّيَةُ كَامِلَةً\"",
         "translations": {
-          "en": "He hired a wet nurse and gave his child to her. The child remained with her, then the wet nurse went and hired another woman. Then the wet nurse disappeared with the child, so it was not known what had been done with him, and the wet nurse was not subject to retaliation.",
-          "ur": "اس نے دودھ پلانے والی کو کرایہ پر رکھا اور اپنے بچے کو اس کے سپرد کیا۔ بچہ اس کے پاس رہا، پھر دودھ پلانے والی گئی اور دوسری عورت کو کرایہ پر رکھا۔ پھر دودھ پلانے والی بچے کے ساتھ غائب ہو گئی، اس لیے معلوم نہ ہو سکا کہ بچے کے ساتھ کیا کیا گیا، اور دودھ پلانے والی کو قصاص کا حق نہ تھا۔",
-          "tr": "Bir süt emziren kadın kiraladı ve çocuğunu ona verdi. Çocuk onun yanında kaldı, sonra süt emziren kadın başka birini kiraladı. Sonra süt emziren kadın çocukla birlikte kayboldu, çocuğa ne yapıldığı bilinmedi ve süt emziren kadına karşı misilleme uygulanmadı.",
-          "fa": "او یک شیرخوار استخدام کرد و فرزندش را به او سپرد. کودک نزد او ماند، سپس شیرخوار زن دیگری را استخدام کرد. سپس شیرخوار به همراه کودک ناپدید شد، بنابراین معلوم نشد با کودک چه شده و شیرخوار مشمول قصاص نشد.",
-          "id": "Dia menyewa seorang pengasuh dan menyerahkan anaknya kepadanya. Anak itu tinggal bersamanya, kemudian pengasuh itu menyewa wanita lain. Kemudian pengasuh itu menghilang bersama anak tersebut, sehingga tidak diketahui apa yang terjadi pada anak itu, dan pengasuh tidak dikenai pembalasan.",
-          "bn": "তিনি একজন দুধ খাওয়ানো নারীকেআয়েশে নিয়োগ দিলেন এবং তার সন্তানকে তার কাছে দিলেন। সন্তান তার কাছে ছিল, তারপর দুধ খাওয়ানো নারী অন্য একজনকে নিয়োগ দিলেন। তারপর দুধ খাওয়ানো নারী সন্তানসহ অদৃশ্য হয়ে গেলেন, তাই জানা যায়নি সন্তানের সঙ্গে কী হয়েছে, এবং দুধ খাওয়ানো নারীর বিরুদ্ধে প্রতিশোধ নেওয়া যায়নি।",
-          "es": "Él contrató a una nodriza y le entregó a su hijo. El niño permaneció con ella, luego la nodriza contrató a otra mujer. Después, la nodriza desapareció con el niño, por lo que no se supo qué le había ocurrido, y la nodriza no fue objeto de represalias.",
-          "fr": "Il a engagé une nourrice et lui a confié son enfant. L’enfant est resté avec elle, puis la nourrice a engagé une autre femme. Ensuite, la nourrice a disparu avec l’enfant, si bien qu’on ne savait pas ce qu’il était advenu de lui, et la nourrice n’était pas soumise à une représaille.",
-          "de": "Er stellte eine Amme ein und gab ihr sein Kind. Das Kind blieb bei ihr, dann stellte die Amme eine andere Frau ein. Danach verschwand die Amme mit dem Kind, sodass nicht bekannt war, was mit ihm geschehen war, und die Amme war nicht der Vergeltung unterworfen.",
-          "ru": "Он нанял кормилицу и отдал ей своего ребенка. Ребенок остался с ней, затем кормилица наняла другую женщину. Потом кормилица исчезла с ребенком, и не было известно, что с ним произошло, а кормилица не подлежала возмездию.",
-          "zh": "他雇佣了一位奶妈并将孩子交给她。孩子留在她那里，后来奶妈又雇佣了另一位妇女。随后奶妈带着孩子消失了，因此不知道孩子发生了什么，奶妈不受报复。"
+          "en": "He (peace be upon him) said: \"The blood money (diyyah) is complete.\"",
+          "ur": "آپ (صلی اللہ علیہ وسلم) نے فرمایا: ''خون بہا (دیہ) مکمل ہے۔'",
+          "tr": "O (aleyhisselam) şöyle buyurdu: \"Kan parası (diyye) tamdır.\"",
+          "fa": "او (صلی الله علیه و آله) فرمود: «دیّه کامل است.»",
+          "id": "Beliau (shallallahu 'alaihi wasallam) bersabda, \"Darah (diyyah) itu sempurna.\"",
+          "bn": "তিনি (সা.) বললেন: \"খুন-খরচ (দিয়্যাত) সম্পূর্ণ।\"",
+          "es": "Dijo (que la paz sea con él): «La diyyah está completa.»",
+          "fr": "Il (que la paix soit sur lui) a dit : « Le prix du sang (diyyah) est complet.\"",
+          "de": "Er (Friede sei mit ihm) sagte: „Das Blutgeld (Diyya) ist vollständig.“",
+          "ru": "Он (да будет над ним мир) сказал: «Диyyа полная».",
+          "zh": "他（愿主福安之）说：\"血金（迪叶）已完备。\""
         },
-        "word_start": 9,
-        "word_end": 30
-      },
-      {
-        "chunk_type": "closing",
-        "arabic_text": "قَالَ الدِّيَةُ كَامِلَةً",
-        "translations": {
-          "en": "He said: \"The full blood money (diyyah) is due.\"",
-          "ur": "انہوں نے کہا: \"مکمل دیہ واجب ہے۔\"",
-          "tr": "Dedi ki: \"Tam diyet ödenmelidir.\"",
-          "fa": "فرمود: «کامل دیه واجب است.»",
-          "id": "Dia berkata: \"Diyyah penuh harus dibayar.\"",
-          "bn": "তিনি বললেন: \"পূর্ণ দীয়্যাহ واجب।\"",
-          "es": "Él dijo: \"Se debe pagar la diyya completa.\"",
-          "fr": "Il a dit : « La diyya complète est due. »",
-          "de": "Er sagte: „Die vollständige Dschiyāh ist fällig.“",
-          "ru": "Он сказал: «Полная дийя обязательна.»",
-          "zh": "他说：“全额血价（迪耶）应当支付。”"
-        },
-        "word_start": 30,
-        "word_end": 33
+        "word_start": 31,
+        "word_end": 34
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith gives a legal ruling regarding liability when a hired wet nurse causes the disappearance of a child by entrusting the child to another woman who then vanishes. Imam al-Ṣādiq عليه السلام rules that the full diyyah must be paid, establishing financial responsibility in a case where the child’s fate is unknown and retaliation does not apply.",
-        "seo_question": "What is the ruling if a hired wet nurse gives a child to another woman and the child disappears?",
+        "summary": "Imam al-Sadiq (peace be upon him) ruled that if a hired wet nurse entrusts the child to another woman who then disappears with the child, and the original wet nurse cannot be held directly accountable for the disappearance, the father is entitled to receive the full blood money (diyyah) for the child. This ruling highlights the principle of *kafā’ah* (guarantee) in Shia jurisprudence, where the primary custodian remains liable for the child's safety even after delegating care, ensuring the father’s rights are preserved despite the uncertainty of the child's fate.",
+        "seo_question": "What is the legal ruling for a missing child when the hired wet nurse is not held accountable?",
         "key_terms": {
-          "ظِئْرًا": "a wet nurse hired to nurse and care for an infant",
-          "اِسْتَأْجَرَ": "he hired on wages or contract",
-          "بِالْوَلَدِ": "with the child entrusted to her care",
-          "لَا تُكَافَى": "she is not subject to retaliatory punishment",
-          "الدِّيَةُ كَامِلَةً": "the full blood money is due"
+          "ظِئْر": "Wet nurse",
+          "الدِّيَةُ": "Blood money",
+          "كَامِلَةً": "Complete/Full"
         }
       },
       "ur": {
-        "summary": "یہ حدیث اس قانونی حکم کو بیان کرتی ہے کہ جب کرایہ پر لی گئی دودھ پلانے والی بچے کو دوسری عورت کے سپرد کر دے جو پھر غائب ہو جائے تو مالی ذمہ داری کیسی ہوگی۔ امام الصادق علیہ السلام نے حکم دیا کہ مکمل دیہ ادا کرنا لازم ہے کیونکہ بچے کا انجام معلوم نہیں اور قصاص لاگو نہیں ہوتا۔",
-        "seo_question": "اگر کرایہ پر لی گئی دودھ پلانے والی بچے کو دوسری عورت کے سپرد کر دے اور بچہ غائب ہو جائے تو حکم کیا ہے؟",
-        "key_terms": {}
+        "summary": "امام صادق علیہ السلام کا حکم ہے کہ اگر مقرر شدہ دایہ بچے کو کسی اور عورت کے حوالے کر دے جو بچے کے ساتھ غائب ہو جائے اور اصل دایہ کی غائب ہونے میں براہ راست ذمہ داری نہ ہو تو باپ کو بچے کی مکمل دی ملتی ہے۔ یہ حکم شیعہ فقہ میں کفالت کے اصول کو اجاگر کرتا ہے جہاں بنیادی نگہبان بچے کی حفاظت کے لیے ذمہ دار رہتا ہے چاہے وہ دیکھ بھال کسی اور کو سونپ دے اس طرح بچے کے مستقبل کے عدم یقینی کے باوجود باپ کے حقوق محفوظ رہتے ہیں۔",
+        "seo_question": "جب مقرر شدہ دایہ کو ذمہ دار نہ ٹھہرایا جائے تو غائب بچے کے لیے قانونی حکم کیا ہے؟",
+        "key_terms": {
+          "ظِئْر": "دایہ",
+          "الدِّيَةُ": "دی",
+          "كَامِلَةً": "مکمل"
+        }
       },
       "tr": {
-        "summary": "Bu hadis, kiralanan bir süt emzirenin çocuğu başka bir kadına vermesi ve çocuğun kaybolması durumunda sorumluluğun nasıl olacağına dair hukuki hükmü verir. İmam Sadık (aleyhisselam), tam diyetin ödenmesi gerektiğini hükmetmiştir; çünkü çocuğun akıbeti bilinmemekte ve misilleme uygulanmamaktadır.",
-        "seo_question": "Kiralanan bir süt emziren kadın çocuğu başka bir kadına verip çocuk kaybolursa hüküm nedir?",
-        "key_terms": {}
+        "summary": "İmam es-Sâdık (aleyhisselâm), kiralanmış emziren kadının çocuğu başka bir kadına emanet etmesi ve o kadının çocukla birlikte kaybolması durumunda, orijinal emziren kadının doğrudan sorumlu tutulamaması halinde babanın çocuğun tam kan parasını (diye) alma hakkına sahip olduğuna hükmetmiştir. Bu hüküm, Şii fıkhında *kafâ’ah* (garanti) ilkesini vurgular; birincil koruyucu, bakımı devretse bile çocuğun güvenliği için sorumlu kalır ve çocuğun kaderindeki belirsizliğe rağmen babanın hakları korunur.",
+        "seo_question": "Kiralanmış emziren kadın sorumlu tutulmadığında kayıp çocuk için yasal hüküm nedir?",
+        "key_terms": {
+          "ظِئْر": "emziren kadın",
+          "الدِّيَةُ": "kan parası",
+          "كَامِلَةً": "tam"
+        }
       },
       "fa": {
-        "summary": "این حدیث حکم شرعی درباره مسئولیت زمانی که یک شیرخوار اجاره‌ای کودک را به زن دیگری می‌سپارد و کودک ناپدید می‌شود را بیان می‌کند. امام صادق علیه‌السلام حکم می‌کند که دیه کامل باید پرداخت شود، زیرا سرنوشت کودک نامعلوم است و قصاص اعمال نمی‌شود.",
-        "seo_question": "اگر شیرخوار اجاره‌ای کودک را به زن دیگری بدهد و کودک ناپدید شود حکم چیست؟",
-        "key_terms": {}
+        "summary": "امام صادق (علیه السلام) حکم) حکم دادند که اگر دایه اجاره‌ای کودک را به زن دیگری بسپارد و آن زن با کودک ناپدید شود و دایه اصلی به طور مستقیم مسئول ناپدیدگی نباشد، پدر حق دارد دیه کامل کودک را دریافت کند. این حکم اصل کفالت در فقه شیعه را برجسته می‌کند، جایی که سرپرست اصلی حتی پس از واگذاری مراقبت، مسئول ایمنی کودک باقی می‌ماند و اطمینان حاصل می‌شود که حقوق پدر علی‌رغم عدم قطعیت درباره سرنوشت کودک حفظ شود.",
+        "seo_question": "حکم قانونی برای کودک گمشده زمانی که دایه اجاره‌ای مسئول دانسته نمی‌شود چیست؟",
+        "key_terms": {
+          "ظِئْر": "دایه",
+          "الدِّيَةُ": "دیه",
+          "كَامِلَةً": "کامل"
+        }
       },
       "id": {
-        "summary": "Hadis ini memberikan ketetapan hukum mengenai tanggung jawab ketika pengasuh yang disewa menyerahkan anak kepada wanita lain yang kemudian menghilang. Imam al-Ṣādiq عليه السلام memutuskan bahwa diyat penuh harus dibayar, menetapkan tanggung jawab finansial ketika nasib anak tidak diketahui dan pembalasan tidak berlaku.",
-        "seo_question": "Apa hukum jika pengasuh yang disewa memberikan anak kepada wanita lain dan anak itu menghilang?",
-        "key_terms": {}
+        "summary": "Imam al-Sadiq (alamah) memutuskan bahwa jika seorang pengasuh bayi yang disewa menitipkan anak kepada wanita lain yang kemudian menghilang bersama anak tersebut, dan pengasuh asli tidak dapat dimintai pertanggungjawaban langsung atas hilangnya anak, maka ayah berhak menerima tebusan darah (diyyah) penuh untuk anak. Putusan ini menyoroti prinsip *kafā’ah* (jaminan) dalam fikih Syiah, di mana penjaga utama tetap bertanggung jawab atas keselamatan anak meskipun telah mendelegasikan perawatan, sehingga memastikan hak-hak ayah tetap terjaga meskipun nasib anak tidak pasti.",
+        "seo_question": "Apa hukum hukumnya bagi anak yang hilang ketika pengasuh bayi yang disewa tidak dimintai pertanggungjawaban?",
+        "key_terms": {
+          "ظِئْر": "pengasuh bayi",
+          "الدِّيَةُ": "tebusan darah",
+          "كَامِلَةً": "penuh"
+        }
       },
       "bn": {
-        "summary": "এই হাদিসটি একটি আইনি সিদ্ধান্ত প্রদান করে যখন একজন ভাড়া নেওয়া দুধ খাওয়ানো নারী শিশুকে অন্য একজন নারীর কাছে দিয়ে দেয় এবং শিশু অদৃশ্য হয়ে যায়। ইমাম আল-সাদিক عليه السلام নির্দেশ দেন যে পূর্ণ দীয়্যাহ প্রদান করা আবশ্যক, যা আর্থিক দায়িত্ব প্রতিষ্ঠা করে যেখানে শিশুর ভাগ্য অজানা এবং প্রতিশোধ প্রযোজ্য নয়।",
-        "seo_question": "যদি ভাড়া নেওয়া দুধ খাওয়ানো নারী শিশুকে অন্য একজন নারীর কাছে দিয়ে দেয় এবং শিশু অদৃশ্য হয়ে যায় তাহলে কী হুকুম?",
-        "key_terms": {}
+        "summary": "ইমাম আস-সাডিক (আ.) রায় দিয়েছেন যে, যদি নিযুক্ত স্তন্যদাত্রী শিশুকে অন্য এক নারীর কাছে সোপর্দ করেন এবং সেই নারী শিশুসহ অদৃশ্য হয়ে যান, এবং মূল স্তন্যদাত্রীকে সরাসরি দায়ী করা না হয়, তবে পিতা শিশুর জন্য পূর্ণ রক্তমূল্য (দিয়া) পাওয়ার অধিকারী। এই রায় শিয়া ফিকহে কাফাআহ (জামিন) নীতিটি তুলে ধরে, যেখানে প্রধান অভিভাবক যতক্ষণ পর্যন্ত যত্ন সোপর্দ করেন, শিশুর নিরাপত্তার জন্য তিনি দায়ী থাকেন, যা শিশুর ভাগ্যের অনিশ্চয়তা সত্ত্বেও পিতার অধিকার রক্ষা নিশ্চিত করে।",
+        "seo_question": "যখন নিযুক্ত স্তন্যদাত্রীকে দায়ী করা হয় না, তখন হারানো শিশুর জন্য আইনি রায় কী?",
+        "key_terms": {
+          "ظِئْر": "স্তন্যদাত্রী",
+          "الدِّيَةُ": "রক্তমূল্য",
+          "كَامِلَةً": "পূর্ণ"
+        }
       },
       "es": {
-        "summary": "Este hadiz establece un fallo legal sobre la responsabilidad cuando una nodriza contratada entrega al niño a otra mujer que luego desaparece. El Imam al-Ṣādiq عليه السلام dictamina que se debe pagar la diyya completa, estableciendo la responsabilidad financiera en un caso donde el destino del niño es desconocido y no aplica la represalia.",
-        "seo_question": "¿Cuál es el fallo si una nodriza contratada entrega a un niño a otra mujer y el niño desaparece?",
-        "key_terms": {}
+        "summary": "El Imán al-Sadiq (que la-Sadiq (que la paz sea con él) dictaminó que si una nodriza contratada confía al niño a otra mujer que luego desaparece con él, y la nodriza original no puede ser considerada directamente responsable de la desaparición, el padre tiene derecho a recibir la indemnización completa (diyyah) por el niño. Este dictamen destaca el principio de kafā’ah (garantía) en la jurisprudencia chií, donde el custodio principal sigue siendo responsable de la seguridad del niño incluso después de delegar el cuidado, asegurando que los derechos del padre se preserven a pesar de la incertidumbre sobre el destino del niño.",
+        "seo_question": "¿Cuál es el dictamen legal para un niño desaparecido cuando la nodriza contratada no es considerada responsable?",
+        "key_terms": {
+          "ظِئْر": "Nodriza",
+          "الدِّيَةُ": "Indemnización",
+          "كَامِلَةً": "Completa"
+        }
       },
       "fr": {
-        "summary": "Ce hadith donne un jugement juridique concernant la responsabilité lorsqu’une nourrice engagée confie l’enfant à une autre femme qui disparaît ensuite. L’Imam al-Ṣādiq عليه السلام ordonne que la diyya complète soit versée, établissant la responsabilité financière dans un cas où le sort de l’enfant est inconnu et où la représaille ne s’applique pas.",
-        "seo_question": "Quel est le jugement si une nourrice engagée donne un enfant à une autre femme et que l’enfant disparaît ?",
-        "key_terms": {}
+        "summary": "L’Imam al-Sadiq (que la paix soit sur lui) a statué que si une nourrice à gage confie l’enfant à une autre femme qui disparaît ensuite avec l’enfant, et que la nourrice initiale ne peut être tenue directement responsable de la disparition, le père a droit à la totalité de la rançon de sang (diyyah) pour l’enfant. Cette décision met en lumière le principe de *kafā’ah* (garantie) en jurisprudence chiite, selon lequel le gardien principal reste responsable de la sécurité de l’enfant même après avoir délégué les soins, assurant ainsi la préservation des droits du père malgré l’incertitude concernant le sort de l’enfant.",
+        "seo_question": "Quelle est la décision juridique concernant un enfant disparu lorsque la nourrice à gage n’est pas tenue pour responsable ?",
+        "key_terms": {
+          "ظِئْر": "Nourrice",
+          "الدِّيَةُ": "Rançon de sang",
+          "كَامِلَةً": "Complète/Intégrale"
+        }
       },
       "de": {
-        "summary": "Dieser Hadith gibt eine rechtliche Regelung zur Haftung, wenn eine angestellte Amme das Kind einer anderen Frau anvertraut, die dann verschwindet. Imam al-Ṣādiq عليه السلام entscheidet, dass die volle Dschiyāh zu zahlen ist und damit die finanzielle Verantwortung in einem Fall, in dem das Schicksal des Kindes unbekannt ist und keine Vergeltung möglich ist.",
-        "seo_question": "Wie lautet das Urteil, wenn eine angestellte Amme ein Kind einer anderen Frau gibt und das Kind verschwindet?",
-        "key_terms": {}
+        "summary": "Imam al-Sadiq (Friede sei mit ihm) entschied, dass wenn eine angestellte Amme das Kind einer anderen Frau anvertraut und diese mit dem Kind verschwindet und die ursprüngliche Amme nicht direkt für das Verschwinden verantwortlich gemacht werden kann hat der Vater Anspruch auf die volle Blutgeld (Diyyah) für das Kind. Diese Rechtsentscheidung unterstreicht das Prinzip der Kafā’ah (Garantie) in der schiitischen Jurisprudenz wobei der primäre Hüter auch nach der Delegation der Fürsorge für die Sicherheit des Kindes haftet und so die Rechte des Vaters trotz der Ungewissheit über das Schicksal des Kindes wahrt.",
+        "seo_question": "Wie lautet das Rechtsurteil für ein vermisstes Kind wenn die angestellte Amme nicht zur Verantwortung gezogen wird?",
+        "key_terms": {
+          "ظِئْر": "Amme",
+          "الدِّيَةُ": "Blutgeld",
+          "كَامِلَةً": "Vollständig"
+        }
       },
       "ru": {
-        "summary": "Этот хадис содержит юридическое постановление о ответственности, когда нанятая кормилица передает ребенка другой женщине, которая затем исчезает. Имам ас-Садик عليه السلام постановляет, что должна быть выплачена полная дийя, устанавливая финансовую ответственность в случае, когда судьба ребенка неизвестна и возмездие не применяется.",
-        "seo_question": "Каково постановление, если нанятая кормилица передает ребенка другой женщине, и ребенок исчезает?",
-        "key_terms": {}
+        "summary": "Имам ас-Садык (да будет над ним мир) постановил, что если нанятая кормилица доверит ребенка другой женщине, которая затем исчезнет с ребенком, и первоначальная кормилица не может быть напрямую привлечена к ответственности за исчезновение, отец имеет право получить полную выкупную сумму (дийя) за ребенка. Это постановление подчеркивает принцип *кафа’а* (гарантии) в шиитском фикхе, согласно которому основной опекун остается ответственным за безопасность ребенка даже после передачи ухода, обеспечивая сохранение прав отца, несмотря на неопределенность судьбы ребенка.",
+        "seo_question": "Каков правовой статус пропавшего ребенка, когда нанятая кормилица не привлекается к ответственности?",
+        "key_terms": {
+          "ظِئْر": "кормилица",
+          "الدِّيَةُ": "дийя",
+          "كَامِلَةً": "полная"
+        }
       },
       "zh": {
-        "summary": "此圣训就雇佣的奶妈将孩子交给另一妇女后孩子失踪的责任问题给出法律裁决。伊玛目萨迪克 عليه السلام裁定应支付全额血价（迪耶），确立在孩子命运不明且不适用报复的情况下的经济责任。",
-        "seo_question": "如果雇佣的奶妈将孩子交给另一妇女后孩子失踪，判决是什么？",
-        "key_terms": {}
+        "summary": "伊玛目萨迪克（愿主福安之）裁定，若受雇的乳母将孩子托付给另一名女子，而该女子带着孩子失踪，且原乳母对失踪不承担直接责任，则父亲有权获得孩子的全额血金（迪亚）。这一裁决凸显了什叶派法学中的“卡法阿”（担保）原则，即主要监护人在委托他人照顾后仍对孩子安全负责，确保父亲的权利在孩子的命运不确定的情况下得到保障。",
+        "seo_question": "当受雇乳母不承担责任时，失踪孩子的法律裁决是什么？",
+        "key_terms": {
+          "ظِئْر": "乳母",
+          "الدِّيَةُ": "血金",
+          "كَامِلَةً": "全额"
+        }
       }
     },
     "related_quran": [
       {
-        "ref": "4:92",
+        "ref": "2:282",
         "relationship": "thematic"
       },
       {
-        "ref": "17:33",
+        "ref": "4:9",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "وَسَأَلَ سُلَيْمَانُ بْنُ خَالِدٍ أَبَا عَبْدِ اللَّهِ عَنْ رَجُلٍ اِسْتَأْجَرَ ظِئْرًا فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِنْدَهَا فَانْطَلَقَتِ الظِّئْرُ فَاسْتَأْجَرَتْ أُخْرَى فَغَابَتِ الظِّئْرُ بِالْوَلَدِ فَلَا يُدْرَى مَا صُنِعَ بِهِ وَالظِّئْرُ لَا تُكَافَى قَالَ الدِّيَةُ كَامِلَةً",
+    "diacritized_text": "وَسَأَلَ سُلَيْمَانُ بْنُ خَالِدٍ أَبَا عَبْدِ اللَّهِ ع: عَنْ رَجُلٍ اسْتَأْجَرَ ظِئْرًا فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِنْدَهَا فَانْطَلَقَتِ الظِّئْرُ فَاسْتَأْجَرَتْ أُخْرَى فَغَابَتِ الظِّئْرُ بِالْوَلَدِ فَلاَ يُدْرَى مَا صُنِعَ بِهِ وَالظِّئْرُ لاَ تُكَافَى قَالَ \"الدِّيَةُ كَامِلَةً\"",
     "isnad_matn": {
-      "isnad_ar": "وَسَأَلَ سُلَيْمَانُ بْنُ خَالِدٍ أَبَا عَبْدِ اللَّهِ عَنْ رَجُلٍ",
-      "matn_ar": "اِسْتَأْجَرَ ظِئْرًا فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِنْدَهَا فَانْطَلَقَتِ الظِّئْرُ فَاسْتَأْجَرَتْ أُخْرَى فَغَابَتِ الظِّئْرُ بِالْوَلَدِ فَلَا يُدْرَى مَا صُنِعَ بِهِ وَالظِّئْرُ لَا تُكَافَى قَالَ الدِّيَةُ كَامِلَةً",
+      "isnad_ar": "وَسَأَلَ سُلَيْمَانُ بْنُ خَالِدٍ أَبَا عَبْدِ اللَّهِ ع: عَنْ رَجُلٍ اسْتَأْجَرَ ظِئْرًا فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِنْدَهَا فَانْطَلَقَتِ الظِّئْرُ فَاسْتَأْجَرَتْ أُخْرَى فَغَابَتِ الظِّئْرُ بِالْوَلَدِ فَلاَ يُدْرَى مَا صُنِعَ بِهِ وَالظِّئْرُ لاَ تُكَافَى",
+      "matn_ar": "قَالَ \"الدِّيَةُ كَامِلَةً\"",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "سَأَلَ سُلَيْمَانُ بْنُ خَالِدٍ أَبَا عَبْدِ اَللَّهِ ع:",
-          "name_en": "",
+          "name_en": "Sulayman b. Khalid",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -173,7 +191,7 @@
         },
         {
           "name_ar": "رَجُلٍ اِسْتَأْجَرَ ظِئْراً فَأَعْطَاهَا وَلَدَهُ فَكَانَ عِنْدَهَا فَانْطَلَقَتِ اَلظِّئْرُ فَاسْتَأْجَرَتْ أُخْرَى فَغَابَتِ اَلظِّئْرُ بِالْوَلَدِ فَلاَ يُدْرَى مَا صُنِعَ بِهِ",
-          "name_en": "",
+          "name_en": "Abd Allah",
           "role": "narrator",
           "position": 2,
           "identity_confidence": "ambiguous",
@@ -183,7 +201,7 @@
         },
         {
           "name_ar": "اَلظِّئْرُ لاَ تُكَافَى",
-          "name_en": "",
+          "name_en": "al-Dhi'",
           "role": "narrator",
           "position": 3,
           "identity_confidence": "ambiguous",
@@ -197,6 +215,8 @@
     "diacritics_changes": [],
     "key_phrases": [],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

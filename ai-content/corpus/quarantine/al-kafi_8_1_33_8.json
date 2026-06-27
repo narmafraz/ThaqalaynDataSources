@@ -1,0 +1,289 @@
+{
+  "verse_path": "/books/al-kafi:8:1:33:8",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[1] type='body' starts with chain transmission verb 'اخبرني' — likely mis-typed isnad content",
+    "chunks[1] word '(صلى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وآله)' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "quran_commentary",
+      "prophetic_tradition",
+      "history"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "prophetic_character",
+      "quran_interpretation_method",
+      "companions"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "ابْنُ مَحْبُوبٍ عَنْ جَمِيلِ بْنِ صَالِحٍ عَنْ سَدِيرٍ عَنْ أَبِي جَعْفَرٍ (عليه السلام) قَالَ",
+        "translations": {
+          "en": "Ibn Mahboub, from Jameel ibn Salih, from Sadeer, from Abu Ja'far (peace be upon him), who said:",
+          "ur": "ابن محبوب، جمیل بن صالح سے، سدید سے، ابوجعفر (علیہ السلام) سے، انہوں نے کہا:",
+          "tr": "İbn Mahbûb, Câmil ibn Sâlih'den, Sâdir'den, Ebû Ca'far'den (aleyhisselâm), şöyle dedi:",
+          "fa": "ابن محبوب از جابر جلیل بن صالح، از سادیر، از ابوجعفر (علیه السلام) که فرمود:",
+          "id": "Ibnu Mahbub, dari Jamil bin Shalih, dari Sadir, dari Abu Ja'far (alamah), yang berkata:",
+          "bn": "ইবনে মাহবূব, জামিল ইবনে সালিহ, সাদীর, আবু জাফর (আলাইহিস সালাম) থেকে, যিনি বলেছেন:",
+          "es": "Ibn Mahbub, de Jamil ibn Salih, de Sadir, de Abu Ja'far (la paz sea con él), quien dijo:",
+          "fr": "Ibn Mahboub, de Jameel ibn Salih, de S ibn Salih, de Sadeer, d'Abou Ja'far (que la paix soit sur lui), qui a dit :",
+          "de": "Ibn Mahboub, von Dschamil ibn Salih, von Sadir, von Abu Dscha'far (friede sei mit ihm), der sagte:",
+          "ru": "Ибн Махбуб, от Джамил ибн Салих, от Садира, от Абу Джафара (да будет с ним мир), который сказал:",
+          "zh": "伊本·马布德，从贾米勒·本·萨利赫，从萨迪尔，从阿布·贾法尔（愿主安宁）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 14
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَخْبَرَنِي جَابِرُ بْنُ عَبْدِ اللَّهِ أَنَّ الْمُشْرِكِينَ كَانُوا إِذَا مَرُّوا بِرَسُولِ اللَّهِ حَوْلَ الْبَيْتِ طَأْطَأَ أَحَدُهُمْ ظَهْرَهُ وَ رَأْسَهُ هَكَذَا وَ غَطَّى رَأْسَهُ بِثَوْبِهِ لَا يَرَاهُ رَسُولُ اللَّهِ (صلى الله عليه وآله) فَأَنْزَلَ اللَّهُ عَزَّ وَ جَلَّ",
+        "translations": {
+          "en": "Jabir ibn Abdullah informed me that when the polytheists would pass by the Messenger of Allah around the House, one of them would bow his back and head thus, and cover his head with his garment so that the Messenger of Allah (peace be upon him and his family) would not see him. So Allah, Mighty and Majestic, revealed:",
+          "ur": "جابر بن عبداللہ نے مجھے بتایا کہ جب مشرکین کعبہ کے گرد رسول اللہ ﷺ کے پاس سے گزرتے تو ان میں سے کوئی اپنا پیٹھ اور سر جھکا لیتا اور اپنے کپڑے سے سر ڈھانپ لیتا تاکہ رسول اللہ ﷺ اسے نہ دیکھ لیں۔ پس اللہ تعالیٰ نے وحی فرمائی:",
+          "tr": "Câbir ibn Abdullah bana haber verdi ki, müşrikler Kâbe'nin etrafında Resûlullah'ın yanından geçerken, onlardan biri sırtını ve başını eğerek böyle yapar ve Resûlullah'ın (ona ve âline salât ve selâm olsun) kendisini görmemesi için başını elbisesiyle örtürdü. Bunun üzerine Allah, Celîl ve Kerîm, şu âyeti indirdi:",
+          "fa": "جابر بن عبدالله برایم خبر داد که هنگامی که مشرکان در اطراف کعبه از کنار پیامبر خدا (صلی الله علیه و آله) می‌گذشتند، یکی از آن‌ها پشت و سر خود را خم می‌کرد و با لباس خود سرش را می‌پوشاند تا پیامبر خدا (صلی الله علیه و آله) او را نبیند. آنگاه خداوند، توانا و بزرگ، این آیه را نازل فرمود:",
+          "id": "Jabir bin Abdullah memberitahuku bahwa ketika kaum musyrikin melewati Rasulullah di sekitar Baitullah, salah seorang dari mereka akan membungkukkan punggung dan kepalanya, lalu menutup kepalanya dengan pakaiannya agar Rasulullah (shallallahu 'alaihi wa sallam) tidak melihatnya. Maka Allah, Maha Perkasa lagi Maha Mulia, menurunkan ayat:",
+          "bn": "জাবির ইবনে আবদুল্লাহ (রা.) আমাকে জানিয়েছেন যে, যখন মুশরিকরা কাবাশ্রয় নবী করীম (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম)-এর পাশ দিয়ে যেতেন, তখন তাদের মধ্যে কেউ কেউ নিজের পিঠ ও মাথা নত করে নিতেন এবং নিজের পোশাক দিয়ে মাথা ঢেকে নিতেন, যাতে নবী করীম (সাল্লাল্লাহু আলাইহি ওয়াসাল্লাম) তাদের দেখতে না পান। অতঃপর আল্লাহ তায়ালা, মহান ও মাহান, এই আয়াতটি নাযিল করলেন:",
+          "es": "Informó Yábir ibn Abdalá que, cuando los politeístas pasaban junto al Mensajero de Alá (que la paz y las bendiciones de Alá sean con él y con su familia) alrededor de la Casa, uno de ellos se inclinaba con la espalda y la cabeza, y se cubría la cabeza con su manto para que el Mensajero de Alá no lo viera. Entonces Alá, Poderoso y Majestuoso, reveló:",
+          "fr": "Jabir ibn Abdullah m'a informé que lorsque les polyth polythéistes passaient près du Messager d'Allah autour de la Maison (la Kaaba), l'un d'eux inclinait le dos et la tête, et se couvrait la tête avec son vêtement afin que le Messager d'Allah (que la paix soit sur lui et sur sa famille) ne le voie pas. Alors Allah, Puissant et Majestueux, a révélé :",
+          "de": "Djabar ibn Abdullah berichtete mir, dass, als die Polytheisten am Gesandten Allahs (Friede sei mit ihm und seiner Familie) um das Haus herumgingen, einer von ihnen seinen Rücken und Kopf neigte und sich mit seinem Gewand den Kopf bedeckte, damit ihn der Gesandte Allahs (Friede sei mit ihm und seiner Familie) nicht sehen würde. Da offenbarte Allah, Der Mächtige und Erhabene:",
+          "ru": "text\": ",
+          "zh": "贾比尔·本·阿卜杜拉传述，当多神教徒在克尔白周围经过先知（愿主福安之及其家属）时，其中一人会弓背低头，并用自己的衣服遮住头部，以免先知（愿主福安之及其家属）看见他。于是，真主（至尊至贵）降示了："
+        },
+        "word_start": 14,
+        "word_end": 51
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "أَلَا إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ لِيَسْتَخْفُوا مِنْهُ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَ مَا يُعْلِنُونَ",
+        "translations": {
+          "en": "Surely they fold up their breasts that they may conceal (their enmity) from Him; surely, when they use their garments as a covering, He knows what they conceal and what they make public.",
+          "ur": "بے شک وہ اپنے سینوں کو تہہ کر لیتے ہیں تاکہ اس سے اپنی کینہ پوشیدہ رکھ سکیں، بے شک جب وہ اپنے کپڑوں کو ڈھانپنے کے لیے استعمال کرتے ہیں تو وہ جانتا ہے جو وہ پوشیدہ رکھتے ہیں اور جو ظاہر کرتے ہیں۔",
+          "tr": "Şüphesiz ki onlar, (düşmanlıklarını) O'ndan gizlemek için göğüslerini bükerler; şüphesiz ki onlar, giysilerini bir örtü olarak kullandıklarında, O, onların neyi gizlediklerini ve neyi açıkça ortaya koyduklarını bilir.",
+          "fa": "همانا که سینه‌هایشان را تا غیب کنند (دشمنی‌شان را) از او، همانا وقتی که لباس‌هایشان را به عنوان پوشش استفاده می‌کنند، او می‌داند چه پنهان می‌کنند و چه آشکار می‌سازند.",
+          "id": "Sesungguhnya mereka melipat dadanya untuk menyembunyikan (permusuhan) dari-Nya; sesungguhnya, ketika mereka menggunakan pakaian mereka sebagai penutup, Dia mengetahui apa yang mereka sembunyikan dan apa yang mereka nyatakan.",
+          "bn": "নিশ্চয়ই তারা তাদের বুকে গোপন করে, যাতে তারা তাঁর নিকট থেকে (তাদের শত্রুতা) লুকিয়ে রাখে; নিশ্চয়ই, যখন তারা তাদের পোশাককে আবরণ হিসেবে ব্যবহার করে, তখন তিনি জানেন তারা কী গোপন করে এবং কী প্রকাশ করে।",
+          "es": "Ciertamente, pliegan sus pechos para ocultar (su enemistad) de Él; ciertamente, cuando usan sus vestiduras como cobertura, Él sabe lo que ocultan y lo que hacen público.",
+          "fr": "Certes, ils plient leurs poitrines pour dissimuler (leur inimitié) à Lui ; certes, lorsqu'ils utilisent leurs vêtements comme couverture, Il sait ce qu'ils cachent et ce qu'ils manifestent.",
+          "de": "Gewiss, sie falten ihre Brüste, um (ihre Feindseligkeit) vor Ihm zu verbergen. Gewiss, wenn sie ihre Gewänder als Bedeckung verwenden, weiß Er, was sie verbergen und was sie offenbaren. ",
+          "ru": "Воистину, они сворачивают свои груди, чтобы скрыть (свою враждебность) от Него. Воистину, когда они используют свои одежды как покрывало, Он знает, что они скрывают и что проявляют. }",
+          "zh": "他们确已折叠他们的胸膛，以向真主隐瞒（他们的敌意）；的确，当他们用衣服遮盖时，他知道他们隐瞒的和他们公开的。"
+        },
+        "word_start": 51,
+        "word_end": 67
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi illustrates the phenomenon of *kaff al-basr* (hiding the eyes) practiced by the Quraysh polytheists to avoid the Prophet’s gaze, a behavior cited as a practical basis for modesty in Shia jurisprudence. It connects their physical concealment with divine omniscience, emphasizing that Allah perceives both their internal secrets and external actions. This narrative serves as a foundational text for understanding the spiritual and legal dimensions of modesty (*haya*) and self-accounting (*muhasaba*) in Shia tradition.",
+        "seo_question": "What specific behavior of the polytheists led to the revelation of 'Ala inna hum yathnoona sudoorahum'?",
+        "key_terms": {
+          "طَأْطَأَ": "to bow or incline (the back/head)",
+          "يَسْتَخْفُوا": "to conceal themselves",
+          "يَسْتَغْشُونَ": "to cover with garments",
+          "رَسُولِ اللَّهِ": "Messenger of Allah",
+          "الْمُشْرِكِينَ": "the polytheists"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث الکافی سے ہے جو قریش کے مشرکین کی طرف سے نبی کریم ﷺ کی نظر سے بچنے کے لیے آنکھیں جھکانے (کف البصر) کے عمل کی نشاندہی کرتی ہے، جسے شیعہ فقہ میں حیا کے لیے عملی بنیاد کے طور پر پیش کیا گیا ہے۔ یہ ان کی جسمانی پوشیدگی کو الہی علم سے جوڑتی ہے، جس پر زور دیا جاتا ہے کہ اللہ تعالیٰ ان کے اندرونی رازوں اور بیرونی اعمال دونوں کو دیکھتا ہے۔ یہ روایت شیعہ روایت میں حیا اور محاسبہ کی روحانی اور قانونی ابعاد کو سمجھنے کے لیے ایک بنیادی متن کے طور پر کام کرتی ہے۔",
+        "seo_question": "مشرکین کا کون سا خاص عمل 'علی انہم یثثنون صدورہم' کی نزول کا سبب بنا؟",
+        "key_terms": {
+          "طَأْطَأَ": "جھکنا یا جھکاؤ ڈالنا (پیٹھ/سر)",
+          "يَسْتَخْفُوا": "خود کو چھپانا",
+          "يَسْتَغْشُونَ": "کپڑوں سے ڈھانپنا",
+          "رَسُولِ اللَّهِ": "رسول اللہ",
+          "الْمُشْرِكِينَ": "مشرکین"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, Kufi'den nakledilmiş olup, Kureyş müşriklerinin Peygamber'in bakışından kaçınmak için uyguladıkları *kaff al-basr* (gözleri gizleme) âdetini anlatır; bu davranış, Şii fıkhında iffet için pratik bir temel olarak gösterilir. Hadis, onların fiziksel gizlenmesini ilahi herşeyi görme sıfatıyla ilişkilendirir ve Allah'ın hem içlerindeki sırları hem de dışarıdaki hareketlerini bildiğini vurgular. Bu anlatı, Şii geleneğinde iffet (*haya*) ve muhasebe (*muhasaba*) kavramlarının manevi ve hukuki boyutlarını anlamak için temel bir metin olarak hizmet eder.",
+        "seo_question": "Müşriklerin hangi belirli davranışı, 'Elâ innahum yathnoona sudoorahum' ayetinin inmesine yol açtı?",
+        "key_terms": {
+          "طَأْطَأَ": "eğilmek veya eğmek (sırtı/kafayı)",
+          "يَسْتَخْفُوا": "gizlenmek",
+          "يَسْتَغْشُونَ": "giysilerle örtünmek",
+          "رَسُولِ اللَّهِ": "Allah'ın Elçisi",
+          "الْمُشْرِكِينَ": "müşrikler"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی پدیده‌ی «کف البصر» (پوشاندن چشم) را نشان می‌دهد که توسط مشرکان قریش برای اجتناب از نگاه پیامبر انجام می‌شد و به عنوان مبنای عملی حیا در فقه شیعه ذکر شده است. این روایت پنهان‌سازی فیزیکی آن‌ها را با علم الهی پیوند می‌زند و تأکید می‌کند که خداوند هم اسرار درونی و هم اعمال بیرونی آن‌ها را می‌بیند. این داستان متنی بنیادین برای درک ابعاد معنوی و حقوقی حیا و محاسبه نفس در سنت شیعه است.",
+        "seo_question": "رفتار خاص مشرکان چه بود که منجر به نزول آیه «علا انهم یثنون صدورهم» شد؟",
+        "key_terms": {
+          "طَأْطَأَ": "خم کردن یا کج کردن (پشت/سر)",
+          "يَسْتَخْفُوا": "خود را پنهان کردن",
+          "يَسْتَغْشُونَ": "پوشاندن با لباس",
+          "رَسُولِ اللَّهِ": "پیامبر خدا",
+          "الْمُشْرِكِينَ": "مشرکان"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari al-Kafi ini menggambarkan fenomena *kaff al-basr* (menundukkan pandangan) yang dipraktikkan oleh kaum musyikin Quraisy untuk menghindari tatapan Nabi, sebuah perilaku yang dijadikan dasar praktis bagi kesopanan dalam fikih Syiah. Hadis ini menghubungkan penyembunyian fisik mereka dengan pengetahuan ilahi, menekankan bahwa Allah mengetahui baik rahasia batin maupun tindakan lahiriah mereka. Narasi ini berfungsi sebagai teks dasar untuk memahami dimensi spiritual dan hukum dari kesopanan (*haya*) dan perhitungan diri (*muhasaba*) dalam tradisi Syiah.",
+        "seo_question": "Perilaku spesifik apa dari kaum musyikin yang menyebabkan turunnya ayat 'Ala inna hum yathnoona sudoorahum'?",
+        "key_terms": {
+          "طَأْطَأَ": "menundukkan atau membungkuk (punggung/kepala)",
+          "يَسْتَخْفُوا": "menyembunyikan diri",
+          "يَسْتَغْشُونَ": "menutup dengan pakaian",
+          "رَسُولِ اللَّهِ": "Utusan Allah",
+          "الْمُشْرِكِينَ": "kaum musyikin"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে উদ্ধৃত, যা কুরাইশ মুশরিকদের *কাফ আল-বাসর* (চোখ লুকানো) এর ঘটনার বর্ণনা দেয়, যা নবীর দৃষ্টি এড়াতে ব্যবহৃত হতো। এটি শিয়া ফিকহে বিনয়-নম্রতার একটি ব্যবহারিক ভিত্তি হিসেবে উল্লেখ করা হয়েছে। এটি তাদের শারীরিক লুকানোর সাথে ঈশ্বরের সর্বজ্ঞতার সংযোগ স্থাপন করে, জোর দিয়ে বলে যে আল্লাহ তাদের অভ্যন্তরীণ গোপনীয়তা এবং বাহ্যিক কাজ উভয়ই দেখেন। এই বর্ণনা শিয়া ঐতিহ্যে বিনয়-নম্রতা (*হায়া*) এবং আত্ম-হিসাব (*মুহাসাবা*) এর আধ্যাত্মিক ও আইনি মাত্রা বোঝার জন্য একটি ভিত্তিভূমি পাঠ হিসেবে কাজ করে।",
+        "seo_question": "মুশরিকদের কোন নির্দিষ্ট আচরণের ফলে 'আল্লাহুম্মা ইন্না হুম যান্থুনুদ সুদুরাহুম' আয়াতটি অবতীর্ণ হয়?",
+        "key_terms": {
+          "طَأْطَأَ": "পিঠ/মাথা ঝুকানো বা নত করা",
+          "يَسْتَخْفُوا": "নিজেদের লুকানো",
+          "يَسْتَغْشُونَ": "পোশাক দিয়ে ঢাকা",
+          "رَسُولِ اللَّهِ": "আল্লাহর রাসূল",
+          "الْمُشْرِكِينَ": "মুশরিকরা"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz hadiz de al-Kafi ilustra el fenómeno de *kaff al-basr* (ocultar la mirada) practicado por los politeístas de Quraysh para evitar la mirada del Profeta, un comportamiento citado como base práctica para la modestia en la jurisprudencia chií. Conecta su ocultamiento físico con la omnisciencia divina, enfatizando que Alá percibe tanto sus secretos internos como sus acciones externas. Esta narrativa sirve como texto fundacional para comprender las dimensiones espirituales y legales de la modestia (*haya*) y la rendición de cuentas (*muhasaba*) en la tradición chií.",
+        "seo_question": "¿Qué comportamiento específico de los politeístas llevó a la revelación de 'Ala inna hum yathnoona sudoorahum'?",
+        "key_terms": {
+          "طَأْطَأَ": "inclinarse o doblar (la espalda/cabeza)",
+          "يَسْتَخْفُوا": "ocultarse",
+          "يَسْتَغْشُونَ": "cubrirse con prendas",
+          "رَسُولِ اللَّهِ": "Mensajero de Alá",
+          "الْمُشْرِكِينَ": "los politeístas"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'Al-Kafi illustre le phénomène de *kaff al-basr* (baisser les yeux) pratiqué par les polythéistes de Quraysh pour éviter le regard du Prophète, un comportement cité comme fondement pratique de la modestie dans la jurisprudence chiite. Il relie leur dissimulation physique à l'omniscience divine, soulignant qu'Allah perçoit à la fois leurs secrets intérieurs et leurs actions extérieures. Ce récit constitue un texte fondateur pour comprendre les dimensions spirituelle et juridique de la modestie (*haya*) et de l'auto-évaluation (*muhasaba*) dans la tradition chiite.",
+        "seo_question": "Quel comportement spécifique des polythéistes a conduit à la révélation de 'Ala inna hum yathnoona sudoorahum' ?",
+        "key_terms": {
+          "طَأْطَأَ": "s'incliner ou pencher (le dos/la tête)",
+          "يَسْتَخْفُوا": "se cacher",
+          "يَسْتَغْشُونَ": "se couvrir de vêtements",
+          "رَسُولِ اللَّهِ": "Messager d'Allah",
+          "الْمُشْرِكِينَ": "les polythéistes"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi veranschaulicht das Phänomen der *kaff al-basr* (das Verbergen der Blicke), das von den polytheistischen Quraysh praktiziert wurde, um dem Blick des Propheten zu entgehen, ein Verhalten, das als praktische Grundlage für die Bescheidenheit in der schiitischen Jurisprudenz dient. Es verbindet ihre physische Verbergung mit der göttlichen Allwissenheit und betont, dass Allah sowohl ihre inneren Geheimnisse als auch ihre äußeren Handlungen wahrnimmt. Diese Erzählung dient als grundlegender Text zum Verständnis der spirituellen und rechtlichen Dimensionen der Bescheidenheit (*haya*) und der Selbstabrechnung (*muhasaba*) in der schiitischen Tradition.",
+        "seo_question": "Welches spezifische Verhalten der Polytheisten führte zur Offenbarung von 'Ala inna hum yathnoona sudoorahum'?",
+        "key_terms": {
+          "طَأْطَأَ": "sich neigen oder beugen (den Rücken/den Kopf)",
+          "يَسْتَخْفُوا": "sich verbergen",
+          "يَسْتَغْشُونَ": "sich mit Gewändern bedecken",
+          "رَسُولِ اللَّهِ": "Gesandter Allahs",
+          "الْمُشْرِكِينَ": "die Polytheisten"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи иллюстрирует явление *кафф аль-баср* (скрывание взора), практикуемое многобожниками из курайшитов, чтобы избежать взгляда Пророка; это поведение приводится как практическое основание для скромности в шиитском фикхе. Оно связывает их физическое сокрытие с божественным всеведением, подчеркивая, что Аллах видит как их внутренние тайны, так и внешние поступки. Этот нарратив служит основополагающим текстом для понимания духовных и правовых аспектов скромности (*хая*) и самоподотчетности (*мухасаба*) в шиитской традиции.",
+        "seo_question": "Какое конкретное поведение многобожников привело к ниспосланию аята 'Алла хум ятхноун судурахум'?",
+        "key_terms": {
+          "طَأْطَأَ": "опускать или наклонять (спину/голову)",
+          "يَسْتَخْفُوا": "скрываться",
+          "يَسْتَغْشُونَ": "накрываться одеждой",
+          "رَسُولِ اللَّهِ": "Посланник Аллаха",
+          "الْمُشْرِكِينَ": "многобожники"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《卡菲》的圣训描述了古莱氏多神教徒为避免先知注视而 practiced 的 *kaff al-basr*（遮眼）现象，这一行为被引为什叶派法学中谦逊的实践依据。它将他们的身体遮蔽与真主的全知联系起来，强调真主洞察他们的内心秘密和外在行为。这一叙事是理解什叶派传统中谦逊（*haya*）和自我反省（*muhasaba*）的精神与法律维度的基础文本。",
+        "seo_question": "多神教徒的哪种具体行为导致了‘Ala inna hum yathnoona sudoorahum’的启示？",
+        "key_terms": {
+          "طَأْطَأَ": "低头或弯腰（背部/头部）",
+          "يَسْتَخْفُوا": "隐藏自己",
+          "يَسْتَغْشُونَ": "用衣物遮盖",
+          "رَسُولِ اللَّهِ": "真主的使者",
+          "الْمُشْرِكِينَ": "多神教徒"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "11:5",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "7:31",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "24:30",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "ابْنُ مَحْبُوبٍ عَنْ جَمِيلِ بْنِ صَالِحٍ عَنْ سَدِيرٍ عَنْ أَبِي جَعْفَرٍ (عليه السلام) قَالَ أَخْبَرَنِي جَابِرُ بْنُ عَبْدِ اللَّهِ أَنَّ الْمُشْرِكِينَ كَانُوا إِذَا مَرُّوا بِرَسُولِ اللَّهِ حَوْلَ الْبَيْتِ طَأْطَأَ أَحَدُهُمْ ظَهْرَهُ وَ رَأْسَهُ هَكَذَا وَ غَطَّى رَأْسَهُ بِثَوْبِهِ لَا يَرَاهُ رَسُولُ اللَّهِ (صلى الله عليه وآله) فَأَنْزَلَ اللَّهُ عَزَّ وَ جَلَّ أَلَا إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ لِيَسْتَخْفُوا مِنْهُ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَ مَا يُعْلِنُونَ",
+    "isnad_matn": {
+      "isnad_ar": "ابْنُ مَحْبُوبٍ عَنْ جَمِيلِ بْنِ صَالِحٍ عَنْ سَدِيرٍ عَنْ أَبِي جَعْفَرٍ (عليه السلام) قَالَ",
+      "matn_ar": "أَخْبَرَنِي جَابِرُ بْنُ عَبْدِ اللَّهِ أَنَّ الْمُشْرِكِينَ كَانُوا إِذَا مَرُّوا بِرَسُولِ اللَّهِ حَوْلَ الْبَيْتِ طَأْطَأَ أَحَدُهُمْ ظَهْرَهُ وَ رَأْسَهُ هَكَذَا وَ غَطَّى رَأْسَهُ بِثَوْبِهِ لَا يَرَاهُ رَسُولُ اللَّهِ (صلى الله عليه وآله) فَأَنْزَلَ اللَّهُ عَزَّ وَ جَلَّ أَلَا إِنَّهُمْ يَثْنُونَ صُدُورَهُمْ لِيَسْتَخْفُوا مِنْهُ أَلَا حِينَ يَسْتَغْشُونَ ثِيَابَهُمْ يَعْلَمُ مَا يُسِرُّونَ وَ مَا يُعْلِنُونَ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "ابْنُ مَحْبُوبٍ",
+          "name_en": "Ibn Mahbub",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 10
+        },
+        {
+          "name_ar": "جَمِيلِ بْنِ صَالِحٍ",
+          "name_en": "Jamil ibn Salih",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 137
+        },
+        {
+          "name_ar": "سَدِيرٍ",
+          "name_en": "Sadir",
+          "role": "companion",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 348
+        },
+        {
+          "name_ar": "أَبِي جَعْفَرٍ (عليه السلام)",
+          "name_en": "Abu Ja'far",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 9
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,604 @@
+{
+  "verse_path": "/books/al-kafi:7:1:35:8",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrators has 21 entries (>15 — real isnad chains rarely exceed 12; likely matn fragments)",
+    "narrator[12] name_ar has 16 words (>14, بن-density 0.06 — likely a sentence fragment, not a name): 'عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ أَنَّ أَبَا الْحَسَنِ مُ'",
+    "narrator[13] name_ar has 15 words (>14, بن-density 0.07 — likely a sentence fragment, not a name): 'بِصَدَقَتِهِ مَعَ أَبِي إِسْمَاعِيلَ مُصَادِفٍ بِسْمِ اللَّه'",
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "economy",
+      "history"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "charity",
+      "inheritance",
+      "imams_biography",
+      "financial_law",
+      "ahlulbayt_virtues"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ وَ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ أَنَّ أَبَا الْحَسَنِ مُوسَى ( عليه السلام ) بَعَثَ إِلَيْهِ بِوَصِيَّةِ أَبِيهِ وَ بِصَدَقَتِهِ مَعَ أَبِي إِسْمَاعِيلَ مُصَادِفٍ",
+        "translations": {
+          "en": "Abu Ali al-Ash'ari from Muhammad ibn al-Jabbar from Safwan and Muhammad ibn Ismail from al-Fadl ibn Shadhan from Safwan and Ali ibn Ibrahim from his father from Safwan and Muhammad ibn Yahya from Muhammad ibn al-Husayn from Safwan ibn Yahya from Abd al-Rahman ibn al-Hajjaj that Abu al-Hasan Musa (peace be upon him) sent to him the will of his father and his charity, along with Abu Ismail Musadif.",
+          "ur": "ابو علی اشعری سے محمد بن جببر سے صفوان اور محمد بن اسماعیل سے فضل بن شاذان سے صفوان اور علی بن ابراہیم سے اپنے والد سے صفوان اور محمد بن یحییٰ سے محمد بن حسین سے صفوان بن یحییٰ سے عبدالرحمن بن حجاج سے روایت ہے کہ ابو الحسن موسیٰ (علیہ السلام) نے اپنے والد کی وصیت اور صدقہ اپنے ہمراہ ابو اسماعیل مصاف کے ساتھ بھیجا۔",
+          "tr": "Ebu Ali el-Eş'ari, Muhammed b. el-Cebbar'dan, Safvan'dan; Muhammed b. İsmail, el-Faz- Fazl b. Şazân'dan, Safvan'dan; Ali b. İbrahim, babasından, Safvan'dan; Muhammed b. Yahya, Muhammed b. el-Hüseyin'den, Safvan b. Yahya'dan, Abdurrahman b. el-Haccâc'tan; Ebu'l-Hasen Musa'nın (aleyhisselâm) babasının vasiyetini ve sadakağını, Ebu İsmail Musadif ile birlikte kendisine gönderdiğini rivayet etmiştir.",
+          "fa": "أَبُو عَلِيٍّ عَلِيٍّ الْأَشْعَرِيُّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ وَ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ أَنَّ أَبَا الْحَسَنِ مُوسَى ( عَلَيْهِ السَّلَامُ ) بَعَثَ إِلَيْهِ بِوَصِيَّةِ أَبِيهِ وَ بِصَدَقَتِهِ مَعَ أَبِي إِسْمَاعِيلَ مُصَادِفٍ",
+          "id": "Abu Ali al-Ash'ari dari Muhammad ibn al-Jabbar dari Safwan dan Muhammad ibn Ismail dari al-Fadl ibn Shadhan dari Safwan dan Ali ibn Ibrahim dari ayahnya dari Safwan dan Muhammad ibn Yahya dari Muhammad ibn al-Husayn dari Safwan ibn Yahya dari Abd al-Rahman ibn al-Hajjaj bahwa Abu al-Hasan Musa (alamah) mengutus kepadanya wasiat ayahnya dan sedekahnya, bersama Abu Ismail Musadif.",
+          "bn": "আবু আলী আল-আশআরি, মুহাম্মাদ ইবনুল জাব্বারের নিকট হতে, সফওয়ান এবং মুহাম্মাদ ইবনু ইসমাইল, আল-ফাদল ইবনু শাধানের নিকট হতে, সফওয়ান এবং আলী ইবনু ইব্রাহীম, তার পিতার নিকট হতে, সফওয়ান এবং মুহাম্মাদ ইবনু ইয়াহ্যা, মুহাম্মাদ ইবনুল হুসাইনের নিকট হতে, সফওয়ান ইবনু ইয়াহ্যা, আবদুর রহমান ইবনুল হাজ্জাজের নিকট হতে বর্ণনা করেন যে, আবুল হাসন মুসা (আলাইহিস সালাম) তার পিতার ওয়াজ্জনামা এবং তার সাদাকাহ, আবু ইসমাইল মুসাদিফের সহিত, তার নিকট পাঠিয়েছিলেন।",
+          "es": "Abu Ali al-Ash'ari de al-Ash'ari, de Muhammad ibn al-Jabbar, de Safwan, y Muhammad ibn Ismail, de al-Fadl ibn Shadhan, de Safwan, y Ali ibn Ibrahim, de su padre, de Safwan, y Muhammad ibn Yahya, de Muhammad ibn al-Husayn, de Safwan ibn Yahya, de Abd al-Rahman ibn al-Hajjaj, que Abu al-Hasan Musa (que la paz sea con él) le envió el testamento de su padre y su limosna, junto con Abu Ismail Musadif.",
+          "fr": "Abu Ali al-Ash'ari de Muhammad ibn al-Jabbar de Safwan et Muhammad ibn Ismail de al-Fadl ibn Shadhan de Safwan et Ali ibn Ibrahim de son père de Safwan et Muhammad ibn Yahya de Muhammad ibn al-Husayn de Safwan ibn Yahya de Abd al-Rahman ibn al-Hajjaj qu'Abu al-Hasan Musa (que la paix soit sur lui) lui envoya le testament de son père et sa charité, avec Abu Ismail Musadif.",
+          "de": "Abū ʿAlī al-Ašʿarī von Muḥammad ibn al-Dschabbar von Ṣafwān und Muḥammad ibn Ismāʿīl von al-Faḍl ibn Šādhān von Ṣafwān und ʿAlī ibn Ibrāhīm von seinem Vater von Ṣafwān und Muḥammad ibn Yaḥyā von Muḥammad ibn al-Ḥusayn von Ṣafwān ibn Yaḥyā von ʿAbd ar-Raḥmān ibn al-Ḥaddschādsch, dass Abū al-Ḥasan Mūsā (Friede sei mit ihm) ihm das Testament seines Vaters und seine Sadaqa sandte, zusammen mit Abū Ismāʿīl Muṣādif.",
+          "ru": "Абу Али аль-Ашари от Мухаммада ибн аль-Джаббара от Сафвана, и Мухаммад ибн Исмаил от аль-Фадла ибн Шадаана от Сафвана, и Али ибн Ибрахим от своего отца от Сафвана, и Мухаммад ибн Яхья от Мухаммада ибн аль-Хусайна от Сафвана ибн Яхьи от Абд ар-Рахмана ибн аль- Хаджаджа, что Абу аль-Хасан Муса (да будет мир с ним) послал ему завещание его отца и его садаку вместе с Абу Исмаилом Мусадифом.",
+          "zh": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ وَ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ أَنَّ أَبَا الْحَسَنِ مُوسَى ( عليه السلام ) بَعَثَ إِلَيْهِ بِوَصِيَّةِ أَبِيهِ وَ بِصَدَقَتِهِ مَعَ أَبِي إِسْمَاعِيلَ مُصَادِفٍ"
+        },
+        "word_start": 0,
+        "word_end": 63
+      },
+      {
+        "chunk_type": "opening",
+        "arabic_text": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ هَذَا مَا عَهِدَ جَعْفَرُ بْنُ مُحَمَّدٍ وَ هُوَ يَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَ لَهُ الْحَمْدُ يُحْيِي وَ يُمِيتُ بِيَدِهِ الْخَيْرُ وَ هُوَ عَلَى كُلِّ شَيْ‏ءٍ قَدِيرٌ وَ أَنَّ مُحَمَّداً عَبْدُهُ وَ رَسُولُهُ وَ أَنَّ السَّاعَةَ آتِيَةٌ لَا رَيْبَ فِيهَا وَ أَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُورِ عَلَى ذَلِكَ نَحْيَا وَ عَلَيْهِ نَمُوتُ وَ عَلَيْهِ نُبْعَثُ حَيّاً إِنْ شَاءَ اللَّهُ",
+        "translations": {
+          "en": "In the Name of Allah, the Beneficent, the Merciful. This is what Ja'far ibn Muhammad bequeathed, and he testifies that there is no god but Allah, One, with no partner, to Him belongs the Kingdom and the Praise. He gives life and causes death, in His hand is the Goodness, and He is Powerful over all things. And that Muhammad is His servant and Messenger, and that the Hour is coming, there is no doubt about it, and that Allah will resurrect those in the graves. Upon that we live, and upon it we die, and upon it we will be resurrected alive, if Allah wills.",
+          "ur": "بسم اللہ الرحمن الرحمان الرحیم۔ یہ وہ وصیت ہے جو جعفر بن محمد نے لکھی، اور وہ گواہی دیتا ہے کہ اللہ کے سوا کوئی معبود نہیں، وہ ایک ہے، اس کا کوئی شریک نہیں، اسی کی بادشاہی اور اس کی تعریف ہے۔ وہی زندگی دیتا ہے اور موت دیتا ہے، اسی کے ہاتھ میں خیر ہے، اور وہ ہر چیز پر قادر ہے۔ اور یہ کہ محمد اس کے بندے اور رسول ہیں، اور یہ کہ قیامت آنے والی ہے، اس میں کوئی شک نہیں، اور یہ کہ اللہ قبروں والوں کو اٹھائے گا۔ اسی پر ہم جیتے ہیں، اور اسی پر ہم مرتے ہیں، اور اسی پر ہم اٹھائے جائیں گے، اگر اللہ چاہے۔",
+          "tr": "Bismillahirrahmanirrahim. Cafer b. Muhammed'in vasiyeti budur ve o, Allah'tan başka ilah olmadığını, tek ve ortağı olmayan Allah'a, mülk ve hamd O'na ait olduğunu, hayat veren ve öldürenin O olduğunu, hayır O'nun elinde olduğunu ve O'nun her şeye kadir olduğunu şahitlik eder. Muhammed O'nun kulu ve elçisidir ve Saat gelmektedir, onda şüphe yoktur ve Allah mezarlıklardakileri diriltecektir. Biz O'nun üzerine yaşar, O'nun üzerine ölür ve O'nun üzerine, Allah dilerse diriltileceğiz.",
+          "fa": "بسم الله الرحمن الرحیم. این است. این است آنچه جعفر بن محمد وصیت کرد و گواهی داد که هیچ معبودی جز الله نیست، یگانه، بدون شریک، پادشاهی و ستایش از آن اوست. او زنده می‌کند و می‌د، و خیر در دست اوست و او بر همه چیز تواناست. و آنکه محمد بنده و پیامبر اوست، و ساعت نزدیک است، شک در آن نیست، و الله کسانی را که در قبرها هستند زنده خواهد کرد. بر آن ما زندگی می‌کنیم و بر آن می‌میریم و بر آن زنده خواهیم شد، اگر الله بخواهد.",
+          "id": "Bismillahirrahmanirrahim. Inilah wasiat Ja'far bin Muhammad, dan ia bersaksi bahwa tidak ada Tuhan selain Allah, Yang Maha Esa, tidak ada sekutu bagi-Nya, bagi-Nyalah kerajaan dan pujian. Dialah yang menghidupkan dan mematikan, di tangan-Nya lah kebaikan, dan Dia Mahakuasa atas segala sesuatu. Dan bahwa Muhammad adalah hamba dan utusan-Nya, dan bahwa Kiamat itu pasti datang, tidak ada keraguan tentangnya, dan bahwa Allah akan membangkitkan orang-orang yang di dalam kubur. Atas itulah kami hidup, dan atas itulah kami mati, dan atas itulah kami akan dibangkitkan kembali, jika Allah menghendaki.",
+          "bn": "আল্লাহর নামে, যিনি পরম করুণাময়, অতি দয়ালু। এটি হলো জাফর ইবনে মুহাম্মদ কর্তৃক পরিত্যক্ত বিষয়, এবং তিনি সাক্ষ্য দেন যে, আল্লাহ ছাড়া কোনো উপাস্য নেই, একক, যার কোনো অংশীদার নেই; তাঁরই রাজত্ব এবং প্রশংসা। তিনি প্রাণ দেন এবং প্রাণ নেন, তাঁর হাতেই কল্যাণ, এবং তিনি সকল বিষয়ে শক্তিমান। এবং মুহাম্মদ (স.) তাঁর বান্দা ও রাসূল, এবং সয়্যাহ (ঘটনা) আসছে, এতে কোনো সন্দেহ নেই, এবং আল্লাহ কবরস্থদেরকে পুনরুত্থিত করবেন। এই বিষয়ে আমরা জীবিত আছি, এবং এই বিষয়ে আমরা মৃত্যুবরণ করব, এবং এই বিষয়ে আমরা পুনরুত্থিত হব, যদি আল্লাহ চান।",
+          "es": "En el nombre de Alá, el Compasivo, el Misericordioso. Esto es lo que Yafar ibn Muhammad legó, y da testimonio de que no hay más dios que Alá, Uno, sin socio, suyo es el Reino y la Alabanza. Él da vida y causa la muerte, en Su mano está el Bien, y Él es Poderoso sobre todas las cosas. Y que Muhammad es Su siervo y Mensajero, y que la Hora está por venir, no hay duda al respecto, y que Alá resucitará a los que están en las tumbas. Sobre eso vivimos, y sobre eso morimos, y sobre eso seremos resucitados vivos, si Alá quiere.",
+          "fr": "Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. Voici ce qu'a légué Ja'far ibn Muhammad, et il témoigne qu'il n'y a de dieu qu'Allah, Unique, sans associé, à Lui appartient la Royauté et la Louange. Il donne la vie et fait mourir, le Bien est entre Ses mains, et Il est Puissant sur toute chose. Et que Muhammad est Son serviteur et Son Messager, et que l'Heure arrive, sans aucun doute, et qu'Allah ressuscitera ceux qui sont dans les tombes. C'est sur cela que nous vivons, c'est sur cela que nous mourons, et c'est sur cela que nous serons ressuscités, si Allah le veut.",
+          "de": "Im Namen Allahs, des Allerbarmers, des Barmherzigen. Dies ist, was Dschafar ibn Muhammad vermachte, und er bezeugt, dass es keinen Gott außer Allah gibt, den Einzigen, ohne Partner, Ihm gehört die Herrschaft und das Lob. Er gibt das Leben und lässt den Tod eintreten, in Seiner Hand liegt das Gute, und Er ist allmächtig über alle Dinge. Und dass Muhammad Sein Diener und Gesandter ist, und dass die Stunde kommt, ohne Zweifel, und dass Allah die in den Gräbern Auferweckt. Daraufhin leben wir, und daraufhin sterben wir, und daraufhin werden wir, wenn Allah will, auferweckt.",
+          "ru": "Бисмилляхи р-Рахмани р-Рахим. Это то, что завещал Джафар ибн Мухаммад, и он свидетельствует, что нет божества, кроме Аллаха, Единого, без сотоварища, Ему принадлежит Царство и Хвала. Он дарует жизнь и вызывает смерть, в Его руке — благо, и Он Всемогущ над всеми вещами. И что Мухаммад — Его раб и Посланник, и что Час приближается, нет сомнения в этом, и что Аллах воскресит тех, кто в могилах. На этом мы живем, и на этом мы умираем, и на этом мы будем воскрешены живыми, если пожелает Аллах.",
+          "zh": "奉至仁至慈的真主之名。这是贾法尔·本·穆罕默德的遗嘱，他作证除真主外绝无应受崇拜者，他是独一的，无有伙伴，国权与赞美只归真主。他赐生命，使死亡，一切善都在他手中，他对万事是全能的。他又作证穆罕默德是他的仆人和使者，时辰即将到来，毫无疑虑，真主将使坟墓中的人复活。我们因它而生活，因它而死亡，因它而复活，若真主意欲。"
+        },
+        "word_start": 63,
+        "word_end": 134
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ عَهِدَ إِلَى وُلْدِهِ أَلَّا يَمُوتُوا إِلَّا وَ هُمْ مُسْلِمُونَ وَ أَنْ يَتَّقُوا اللَّهَ وَ يُصْلِحُوا ذَاتَ بَيْنِهِمْ مَا اسْتَطَاعُوا فَإِنَّهُمْ لَنْ يَزَالُوا بِخَيْرٍ مَا فَعَلُوا ذَلِكَ وَ إِنْ كَانَ دَيْنٌ يُدَانُ بِهِ وَ عَهِدَ إِنْ حَدَثَ بِهِ حَدَثٌ وَ لَمْ يُغَيِّرْ عَهْدَهُ هَذَا وَ هُوَ أَوْلَى بِتَغْيِيرِهِ مَا أَبْقَاهُ اللَّهُ لِفُلَانٍ كَذَا وَ كَذَا وَ لِفُلَانٍ كَذَا وَ كَذَا وَ لِفُلَانٍ كَذَا وَ فُلَانٌ حُرٌّ",
+        "translations": {
+          "en": "And he bequeathed to his children that they should not die except as Muslims, and that they should fear Allah and reconcile among themselves as much as they can, for they will not cease to be in goodness as long as they do that, even if there is a debt to be paid. And he bequeathed that if death befalls him and he does not change this will, and he is the first to change it as long as Allah keeps him alive—for so-and-so is such and such, and for so-and-so is such and such, and for so-and-so is such and such, and so-and-so is free.",
+          "ur": "اور انہوں نے اپنے بچوں کو وصیت کی کہ وہ مسلمان ہی مرے اور اللہ سے ڈریں اور آپس میں صلح کر لیں جتنا ہو سکے، کیونکہ جب تک وہ ایسا کریں گے، وہ نیکی پر قائم رہیں گے، چاہے قرض ادا کرنا باقی ہو۔ اور انہوں نے وصیت کی کہ اگر موت آ جائے اور وہ اس وصیت میں تبدیلی نہ کریں، اور وہ خود ہی اس میں تبدیلی کریں گے جب تک اللہ انہیں زندہ رکھے — تو ایسا اور ایسا، اور ایسا اور ایسا، اور ایسا اور ایسا، اور ایسا آزاد ہے۔",
+          "tr": "O, çocuklarına vasiyet etti ki, onlar Müslüman olarak ölmesinler; Allah'tan korksunlar ve aralarında barışsınlar, ne kadar mümkünse; çünkü bunu yaptıkları sürece, ödenmesi gereken bir borç olsa bile, iyilik hâlinden ayrılmazlar. O, kendisine ölüm gelirse ve bu vasiyeti değiştirmezse, ve o, Allah onu dirilttiği sürece bunu değiştiren ilk kişi olursa, vasiyet etti; şöyle ki, şöyle ve böyle olan için şöyle ve böyledir, ve şöyle ve böyle olan için şöyle ve böyledir, ve şöyle ve böyle olan için şöyle ve böyledir, ve şöyle ve böyle olan hürdür.",
+          "fa": "و او به فرزندانش سفارش کرد که جز در حالی که مسلمان باشند نمرند، و از خدا بترسند و تا آنجا که می‌توانند با یکدیگر سازش کنند، زیرا تا زمانی که این کار را انجام دهند، از نیکی باز نمی‌مانند، حتی اگر بدهی‌ای برای پرداخت باشد. و او سفارش کرد که اگر مرگ او را فرا رسد و او این وصیت را تغییر ندهد، و او نخستین کسی است که آن را تغییر می‌دهد تا زمانی که خداوند او را زنده نگه دارد — و برای فلان کس چنین و چنان، و برای فلان کس چنین و چنان، و برای فلان کس چنین و چنان، و فلان کس آزاد است.",
+          "id": "Dan ia berwasiat kepada anak-anaknya agar mereka tidak mati kecuali dalam keadaan Muslim, dan agar mereka bertakwa kepada Allah serta mendamaikan diri mereka sendiri semampu mereka, karena mereka tidak akan berhenti berada dalam kebaikan selama mereka melakukan hal itu, meskipun ada utang yang harus dibayar. Dan ia berwasiat bahwa jika kematian menimpanya dan ia tidak mengubah wasiat ini, dan ia adalah orang pertama yang mengubahnya selama Allah menjaganya hidup—demikianlah si A, dan demikianlah si B, dan demikianlah si C, dan si D adalah orang yang bebas.",
+          "bn": "এবং তিনি তাঁর সন্তানদেরকে ওসিয়ত করলিখলেন যে, তারা মুসলমান অবস্থায় মৃত্যুবরণ করবে, এবং আল্লাহকে ভয় করবে এবং যতটা সম্ভব নিজেদের মধ্যে সালাহ-সলহ করবে, কারণ যতক্ষণ তারা এ কাজ করবে, ততক্ষণ তারা কল্যাণের উপর থাকবে, এমনকি যদি কোনো ঋণ পরিশোধ করতে হয়। এবং তিনি ওসিয়ত করলেন যে, যদি তাঁর মৃত্যু হয় এবং তিনি এই ওসিয়ত পরিবর্তন না করেন, এবং তিনিই প্রথম পরিবর্তনকারী হবেন যতক্ষণ আল্লাহ তাঁকে জীবিত রাখবেন—এবং এতদ্বিষয়ে সও-এবং-সো এর জন্য এতদ্বিষয়ে, এবং সও-এবং-সো এর জন্য এতদ্বিষয়ে, এবং সও-এবং-সো এর জন্য এতদ্বিষয়ে, এবং সও-এবং-সো মুক্ত।",
+          "es": "Y dejó como herencia a sus hijos que no murieran excepto como musulmanes, y que temieran a Alá y se reconciliaran entre sí en la medida de lo posible, pues no dejarán de estar en el bien mientras así lo hagan, incluso si hay una deuda que pagar. Y dejó como herencia que, si la muerte lo alcanza y él no modifica este testamento, y él es quien primero lo modifica mientras Alá lo mantenga con vida —pues tal persona es tal y cual, y tal persona es tal y cual, y tal persona es tal y cual, y tal persona es libre.",
+          "fr": "Et il légua à ses enfants de ne mourir qu’en musulmans, et de craindre Allah et de se réconcilier entre eux autant qu’ils le peuvent, car ils ne cesseront d’être dans le bien tant qu’ils feront cela, même s’il y a une dette à acquitter. Et il légua que si la mort le survenait et qu’il ne modifiait pas ce testament, et qu’il était le premier à le modifier tant qu’Allah le maintiendrait en vie — pour untel est tel et tel, et pour untel est tel et tel, et pour untel est tel et tel, et untel est libre.",
+          "de": "Und er vermachte seinen Kindern, dass sie nicht sterben sollten, außer als Muslime, und dass sie Allah fürchten und sich untereinander, so gut sie können, versöhnen sollten, denn sie werden nicht aufhören, im Guten zu sein, solange sie das tun, auch wenn eine Schuld zu begleichen ist. Und er vermachte, dass, wenn der Tod ihn ereilt und er dieses Testament nicht ändert, und er der Erste ist, der es ändert, solange Allah ihn am Leben erhält – für So-und-So ist es So-und-So, und für So-und-So ist es So-und-So, und für So-und-So ist es So-und-So, und So-und-So ist frei.",
+          "ru": "И он завещал своим детям, чтобы они умирали, не будучи мусульманами, и чтобы они боялись Аллаха и примирялись между собой, насколько это возможно, ибо они не перестанут быть в добродетели, пока они делают это, даже если есть долг, который нужно выплатить. И он завещал, что если смерть настигнет его, и он не изменит это завещание, и он первым изменит его, пока Аллах сохранит его живым — так-то и так-то, и так-то и так-то, и так-то и так-то, и так-то свободен.",
+          "zh": "他嘱咐他的子女们，他们当以穆斯林的身份去世，并当敬畏真主，尽可能彼此和解，只要他们这样做，即便有债务需要偿还，他们也不会停止行善。他嘱咐说，如果他在未改变这份遗嘱时去世，而他是第一个改变它的人（只要真主让他活着），那么某某是这样的，某某是这样的，某某是这样的，而某某是自由的。"
+        },
+        "word_start": 134,
+        "word_end": 200
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ جَعَلَ عَهْدَهُ إِلَى فُلَانٍ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ هَذَا مَا تَصَدَّقَ بِهِ مُوسَى بْنُ جَعْفَرٍ بِأَرْضٍ بِمَكَانِ كَذَا وَ كَذَا وَ حَدُّ الْأَرْضِ كَذَا وَ كَذَا كُلِّهَا وَ نَخْلِهَا وَ أَرْضِهَا وَ بَيَاضِهَا وَ مَائِهَا وَ أَرْجَائِهَا وَ حُقُوقِهَا وَ شِرْبِهَا مِنَ الْمَاءِ وَ كُلِّ حَقٍّ قَلِيلٍ أَوْ كَثِيرٍ هُوَ لَهَا فِي مَرْفَعٍ أَوْ مَظْهَرٍ أَوْ مَغِيضٍ أَوْ مِرْفَقٍ أَوْ سَاحَةٍ أَوْ شُعْبَةٍ أَوْ مَشْعَبٍ أَوْ مَسِيلٍ أَوْ عَامِرٍ أَوْ غَامِرٍ تَصَدَّقَ بِجَمِيعِ حَقِّهِ مِنْ ذَلِكَ عَلَى وُلْدِهِ مِنْ صُلْبِهِ الرِّجَالِ وَ النِّسَاءِ يَقْسِمُ وَالِيهَا مَا أَخْرَجَ اللَّهُ عَزَّ وَ جَلَّ مِنْ غَلَّتِهَا بَعْدَ الَّذِي يَكْفِيهَا مِنْ عِمَارَتِهَا وَ مَرَافِقِهَا",
+        "translations": {
+          "en": "And he made his bequest to so-and-so. In the Name of Allah, the Beneficent, the Merciful. This is what Musa ibn Ja'far gave in charity: a land at such and such a place, and its boundaries are such and such, all of it, its palms, its soil, its white parts, its water, its surroundings, its rights, its watering, and every right, little or much, that belongs to it in a high place or a courtyard, or branches, or dividing marks, or drainages, or inhabited or uninhabited places. He gave in charity all its rights from that to his children from his loins, the men and the women. Its guardian will distribute what Allah, Mighty and Majestic, brings out from its yield after what is sufficient for its cultivation and facilities.",
+          "ur": "اور انہوں نے اپنی وصیت اس شخص کو کی۔ اللہ کے نام سے جو بڑا مہربان نہایت مہربان ہے۔ یہ وہ صدقہ ہے جو موسیٰ بن جعفر نے دیا: ایک زمین فلاں جگہ پر، اور اس کی سرحدیں ایسی ہیں، ساری زمین، اس کے کھجور کے درخت، اس کی مٹی، اس کے سفید حصے، اس کا پانی، اس کے گرد و نواح، اس کے حقوق، اس کی سیراب کرنے کی جگہ، اور ہر حق، چھوٹا ہو یا بڑا، جو اس کا ہے اونچی جگہ پر یا صحن میں، یا شاخیں، یا تقسیم کے نشان، یا نالے، یا آباد یا غیر آباد مقامات۔ انہوں نے اس کے تمام حقوق اپنی اولادِ ذکور و انثیٰ کو صدقہ میں دے دیے۔ اس کے ناظر اللہ تعالیٰ کی شانِ عظمت و جلال کے مطابق اس کی پیداوار میں سے اس کی کاشت اور سہولتوں کے لیے کافی مقدار نکالنے کے بعد جو کچھ آئے گا اسے تقسیم کریں گے۔",
+          "tr": "Vasiyetini şöyle yaptı: Allah'ın adıyla, Rahman, Rahim. İşte Musa b. Ca'far'ın sadaka olarak verdiği şey: Belirli bir yerdeki bir arazi ve sınırları şunlardır: hepsi, hurmaları, toprağı, beyaz kısımları, suyu, çevresi, hakları, sulaması ve yüksek yerlerde veya avlularda, dallarda, sınır işaretlerinde, drenajlarda, iskanlı veya iskansız yerlerde ona ait olan her hak, az veya çok. Tüm haklarını, Allah'ın (celle celaluhu) veriminden, ekim ve tesis için gereken miktar çıkarıldıktan sonra, erkek ve kadın çocuklarına, belinden gelenlere sadaka olarak verdi. Bekçisi, verimden çıkanı, ekim ve tesis için gereken miktarı düşükten sonra dağıtacaktır.",
+          "fa": "و وصیت خود را به فلان کرد. بسم الله الرحمن الرحیم. این است آنچه موسی بن جعفر (علیه السلام) از صدقات خود بخشید: زمینی در چنین مکانی، و مرزهای آن چنین و چنان است، تمام آن، نخلستانش، خاکش، بخش‌های سفیدش، آبش، پیرامونش، حقوقش، آبیاری‌اش، و هر حقی، کم یا زیاد، که متعلق به آن است در جای بلند یا حیاط، یا شاخه‌ها، یا نشانه‌های تقسیم، یا زهکشی‌ها، یا مکان‌های مسکونی یا غیرمسکونی. او تمام حقوق آن را از آن به فرزندان خود از صلب خود، مردان و زنان، بخشید. سرپرست آن، آنچه خداوند، عز و جل، از محصول آن پس از آنچه برای کشت و تسهیلات آن کافی است، خارج کند، تقسیم خواهد کرد.",
+          "id": "Dan ia mewasiatkan kepada si fulan. Bismillahirrahmanirrahim. Ini adalah sedekah Musa ibn Ja'far: sebidang tanah di tempat tertentu, dan batas-batasnya adalah demikian, seluruhnya, mulai dari pohon kurma, tanah, bagian putihnya, air, lingkungan sekitarnya, hak-haknya, pengairannya, dan setiap hak, baik sedikit maupun banyak, yang menjadi miliknya di tempat tinggi atau halaman, atau ranting-rantingnya, atau tanda-tanda pembatas, atau saluran pembuangan, atau tempat yang berpenghuni atau tidak berpenghuni. Ia bersedekah dengan seluruh haknya dari itu kepada anak-anaknya dari tulang sulbinya, baik laki-laki maupun perempuan. Wali akan mendistribusikan apa yang dikeluarkan Allah, Maha Perkasa dan Maha Mulia, dari hasilnya setelah dikurangi untuk keperluan penggarapan dan fasilitasnya.",
+          "bn": "এবং তিনি তাঁর উইল করলেন সও-এ-এর কাছে। আল্লাহর নামে, যিনি পরম করুণাময়, যিনি অতি দয়ালু। এটি হলো মুসা ইবনে জাফর যা দান করলেন: একটি জমি এমন ও এমন স্থানে, এবং এর সীমানা হলো এমন ও এমন, এর সমগ্র অংশ, এর খেজুর, এর মাটি, এর সাদা অংশ, এর পানি, এর পার্শ্ববর্তী এলাকা, এর অধিকার, এর সেচ, এবং প্রতিটি অধিকার, সামান্য বা বহু, যা এর অন্তর্ভুক্ত উঁচু স্থানে বা আঙিনায়, বা শাখায়, বা বিভাজন চিহ্নে, বা নিকাশীতে, বা আবাসিক বা অনাবাসিক স্থানে। তিনি তাঁর সন্তানদের, তাঁর কোমল থেকে জাত পুরুষ ও নারীদের কাছে এর সমস্ত অধিকার দান করলেন। এর অভিভাবক বণ্টন করবেন যা আল্লাহ, মহান ও মাহান, এর উৎপাদন থেকে বের করেন, এর চাষ ও সুবিধার জন্য যথেষ্ট পরিমাণ বাদ দিয়ে।",
+          "es": "Y dejó su legado a tal y tal. En el nombre de Alá, el Compasivo, el Misericordioso. Esto es lo que Musa ibn Ja'far donó en limosna: una tierra en tal y tal lugar, y sus límites son tales y cuales, toda ella, sus palmeras, su suelo, sus partes blancas, su agua, sus alrededores, sus derechos, su riego, y todo derecho, pequeño o grande, que le corresponda en un lugar elevado o en un patio, o ramas, o marcas divisorias, o drenajes, o lugares habitados o deshabitados. Donó todos sus derechos de ello a sus hijos de sus lomos, hombres y mujeres. Su tutor distribuirá lo que Alá, Poderoso y Majestuoso, haga producir su rendimiento después de lo suficiente para su cultivo y facilidades.",
+          "fr": "Et il fit-il son legs à untel. Au nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. Voici ce qu'a donné en aumône Musa ibn Ja'far : une terre en tel endroit, et ses limites sont telles et telles, tout entière, ses palmiers, son sol, ses parties blanches, son eau, ses environs, ses droits, son arrosage, et tout droit, peu ou prou, qui lui appartient en un lieu élevé ou une cour, ou des branches, ou des marques de division, ou des drainages, ou des lieux habités ou inhabités. Il a donné en aumône tous ses droits de cela à ses enfants de ses reins, les hommes et les femmes. Son tuteur distribuera ce qu'Allah, Puissant et Majestueux, fait sortir de son rendement après ce qui est suffisant pour sa culture et ses installations.",
+          "de": "Und er vermachte es dem und dem. Im Namen Allahs, des Allerbarmers, des Barmherzigen. Dies ist, was Musa ibn Ja'far als Almosen gab: ein Land an einem bestimmten Ort, und seine Grenzen sind die folgenden, das Ganze, seine Palmen, sein Boden, seine weißen Teile, sein Wasser, seine Umgebung, seine Rechte, seine Bewässerung und jedes Recht, wenig oder viel, das ihm in einem hohen Ort oder einem Innenhof, oder Ästen, oder Abgrenzungsmarkierungen, oder Drainagen, oder bewohnten oder unbewohnten Orten zusteht. Er vermachte als Almosen alle seine Rechte davon seinen Kindern aus seinen Lenden, den Männern und den Frauen. Sein Vormund wird das, was Allah, Mächtig und Erhaben, aus seinem Ertrag hervorbringt, nach dem, was für seine Bewirtschaftung und Einrichtungen ausreichend ist, verteilen.",
+          "ru": "И он завещал тому-то и тому-то. Бисми Лляхи ар-Рахмани ар-Рахим. Это то, что Муса ибн Джафар отдал в садж: землю в таком-то и таком-то месте, и её границы такие-то и такие-то, всю её, её финиковые пальмы, её почву, её белые участки, её воду, её окрестности, её права, её орошение, и каждое право, малое или большое, которое принадлежит ей на возвышенном месте или во дворе, или ветвях, или разделительных знаках, или дренажах, или населённых или ненаселённых местах. Он отдал в садж все её права от этого своим детям от чресел своих, мужчинам и женщинам. Её опекун распределит то, что Аллах, Всемогущий и Всевеликий, извлечёт из её урожая после того, что достаточно для её обработки и обеспечения.",
+          "zh": "他将其遗嘱赠予某某。奉至仁至慈的真主之名。这是穆萨·本·贾法尔施舍的：某地的一块土地，其边界为某某，包括其全部，其椰枣树，其土壤，其白色部分，其水源，其周边，其权利，其灌溉，以及属于它的一切权利，无论大小，无论是在高处还是在庭院，或是树枝，或是分界标记，或是排水沟，或是有人居住或无人居住的地方。他将其所有权利施舍给他的子孙，无论男女。其监护人将在扣除足够的耕作费用及设施费用后，将真主——尊贵而伟大——从其收益中产生的部分分配出去。"
+        },
+        "word_start": 200,
+        "word_end": 301
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ بَعْدَ ثَلَاثِينَ عَذْقاً يَقْسِمُ فِي مَسَاكِينِ أَهْلِ الْقَرْيَةِ بَيْنَ وُلْدِ مُوسَى لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ فَإِنْ تَزَوَّجَتِ امْرَأَةٌ مِنْ وُلْدِ مُوسَى فَلَا حَقَّ لَهَا فِي هَذِهِ الصَّدَقَةِ حَتَّى تَرْجِعَ إِلَيْهَا بِغَيْرِ زَوْجٍ فَإِنْ رَجَعَتْ كَانَ لَهَا مِثْلُ حَظِّ الَّتِي لَمْ تَتَزَوَّجْ مِنْ بَنَاتِ مُوسَى وَ إِنَّ مَنْ تُوُفِّيَ مِنْ وُلْدِ مُوسَى وَ لَهُ وَلَدٌ فَوَلَدُهُ عَلَى سَهْمِ أَبِيهِ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ عَلَى مِثْلِ مَا شَرَطَ مُوسَى بْنُ جَعْفَرٍ فِي وُلْدِهِ مِنْ صُلْبِهِ وَ إِنَّ مَنْ تُوُفِّيَ مِنْ وُلْدِ مُوسَى وَ لَمْ يَتْرُكْ وَلَداً رُدَّ حَقُّهُ عَلَى أَهْلِ الصَّدَقَةِ وَ إِنَّهُ لَيْسَ لِوُلْدِ بَنَاتِي فِي صَدَقَتِي هَذِهِ حَقٌّ إِلَّا أَنْ يَكُونَ آبَاؤُهُمْ مِنْ وُلْدِي",
+        "translations": {
+          "en": "And after thirty clusters, it is distributed among the poor of the people of the town. Among the children of Musa, for the male is the portion of the two females. So if a woman from the children of Musa marries, she has no right in this charity until she returns without a husband. If she returns, she has a portion like that of the unmarried daughters of Musa. And whoever dies from the children of Musa and leaves children, his children are upon the share of their father, for the male is the portion of the two females, according to what Musa ibn Ja'far stipulated among his children from his loins. And whoever dies from the children of Musa and leaves no child, his right is returned to the people of the charity. And the children of my daughters have no right in this charity of mine unless their fathers are from my children.",
+          "ur": "اور تیس گنڈوں کے بعد، یہ شہر کے غریبوں میں تقسیم کی جاتی ہے۔ بنی موسیٰ کے بچوں میں، نر کی حصہ دو مادہ کے برابر ہے۔ لہذا اگر بنی موسیٰ کی کوئی عورت شادی کر لے، تو اسے اس صدقہ میں حق نہیں ہے جب تک کہ وہ بے شوہر واپس نہ آئے۔ اگر وہ واپس آئے، تو اسے بنی موسیٰ کی غیر شادی شدہ بیٹیوں جیسا حصہ ملتا ہے۔ اور جو شخص بنی موسیٰ میں سے فوت ہو جائے اور بچے چھوڑ جائے، تو اس کے بچے اپنے باپ کے حصے پر ہوں گے، کیونکہ نر کی حصہ دو مادہ کے برابر ہے، جیسا کہ موسیٰ بن جعفر نے اپنے بچوں میں سے اپنے صلب سے نکلی ہوئی بیٹیوں کے درمیان شرط کی تھی۔ اور جو شخص بنی موسیٰ میں سے فوت ہو جائے اور کوئی بچہ نہ چھوڑے، تو اس کا حق صدقہ والوں کے پاس لوٹایا جاتا ہے۔ اور میری بیٹیوں کے بچوں کو میرے اس صدقہ میں حق نہیں ہے جب تک کہ ان کے باپ میرے بچوں میں سے نہ ہوں۔",
+          "tr": "Otuz küsur küsur sonra, bu, kasabın fakirlerine dağıtılır. Musa oğullarında erkek, iki dişiye bir kısmet eder. Öyleyse Musa oğullarından bir kadın evlenirse, bu sadakada hakkı olmaz, kocasız olarak geri dönünceye kadar. Geri döndüğünde, Musa'nın bekar kızları gibi bir kısmet alır. Musa oğullarından kimse ölür ve çocuk bırakırsa, çocukları babalarının kısmetindedir, çünkü erkek, iki dişiye bir kısmet eder, Musa ibn Ca'far, kendi belinden çıkan çocukları arasında bunu şart koşmuştur. Musa oğullarından kimse ölür ve çocuk bırakmazsa, hakkı sadaka ehline iade edilir. Benim kızlarımın çocukları, babaları benim çocuklarımdan olmadıkça, bu benim sadakamda hakları yoktur.",
+          "fa": "و پس از سی خوشه، به فقیران مردم آن شهر توزیع می‌شود. در میان فرزندان موسی، برای نر، سهم دو ماده است. پس اگر زنی از فرزندان موسی ازدواج کند، در این صدقه حقی ندارد تا زمانی که بدون شوهر بازگردد. اگر بازگردد، سهمی مانند دختران مجرد موسی دارد. و هر کس از فرزندان موسی بمیرد و فرزندی از او باقی بماند، فرزندان او بر سهم پدرشان هستند، زیرا نر، سهم دو ماده است، به آنچه موسی بن جعفر در میان فرزندان خود از صلبش شرط کرده است. و هر کس از فرزندان موسی بمیرد و فرزندی از او باقی نماند، حق او به مردم صدقه بازگردانده می‌شود. و فرزندان دختران من در این صدقه من حقی ندارند مگر اینکه پدرانشان از فرزندان من باشند.",
+          "id": "Dan setelah tiga puluh bagian, ia dibagikan kepada orang-orang miskin di kalangan penduduk kota. Di antara keturunan Musa, bagi laki-laki adalah bagian dari dua perempuan. Maka jika seorang wanita dari keturunan Musa menikah, ia tidak berhak dalam sedekah ini hingga ia kembali tanpa suami. Jika ia kembali, ia mendapat bagian seperti anak-anak perempuan yang belum menikah dari Musa. Dan siapa pun dari keturunan Musa yang meninggal dan meninggalkan anak, anak-anaknya berada di atas bagian ayah mereka, karena bagi laki-laki adalah bagian dari dua perempuan, sesuai dengan apa yang disyaratkan Musa bin Ja'far di antara anak-anaknya dari tulang sulbinya. Dan siapa pun dari keturunan Musa yang meninggal dan tidak meninggalkan anak, haknya dikembalikan kepada orang-orang yang menerima sedekah. Dan anak-anak putri-putriku tidak berhak dalam sedekahku ini kecuali jika ayah mereka berasal dari anak-anakku.",
+          "bn": "এবং ত্রিশটি দল পরে তা শহরের দরিদ্রদের মধ্যে বিতরণ করা হয়। মুসার সন্তানদের মধ্যে পুরুষের অংশ দুই নারীর সমান। সুতরাং যদি মুসার সন্তানদের মধ্যে কোনো নারী বিবাহ করে, তবে তার এই দানে অংশ নেওয়ার অধিকার থাকে না যতক্ষণ না সে স্বামীহীন অবস্থায় ফিরে আসে। যদি সে ফিরে আসে, তবে তার অংশ মুসার অবিবাহিত কন্যাগুলোর মতোই হবে। এবং যিনি মুসার সন্তানদের মধ্যে থেকে মৃত্যুবরণ করেন এবং সন্তান রেখে যান, তার সন্তানরা তাদের পিতার অংশের উপর থাকেন, কারণ পুরুষের অংশ দুই নারীর সমান, যা মুসাবন জাফর তার লৌহ থেকে জাত সন্তানদের মধ্যে শর্ত করেছিলেন। এবং যিনি মুসার সন্তানদের মধ্যে থেকে মৃত্যুবরণ করেন এবং কোনো সন্তান না রেখে মৃত্যুবরণ করেন, তার অধিকার দানের লোকদের কাছে ফিরিয়ে দেওয়া হয়। এবং আমার কন্যাগুলোর সন্তানদের আমার এই দানে অধিকার থাকবে না, যদি না তাদের পিতারা আমার সন্তানদের মধ্যে থেকে হয়।",
+          "es": "Y después de treinta racimos, se distribuye entre los pobres de la gente de la ciudad. Entre los hijos de Musa, al varón le corresponde la porción de dos hembras. Así, si una mujer de los hijos de Musa se casa, no tiene derecho en esta limosna hasta que regrese sin esposo. Si regresa, tiene una porción como la de las hijas solteras de Musa. Y quien muera de los hijos de Musa y deje hijos, sus hijos están sobre la parte de su padre, pues al varón le corresponde la porción de dos hembras, según lo que Musa ibn Ja'far estipuló entre sus hijos de sus lomos. Y quien muera de los hijos de Musa y no deje hijo, su derecho se devuelve a la gente de la limosna. Y los hijos de mis hijas no tienen derecho en esta limosna mía a menos que sus padres sean de mis hijos.",
+          "fr": "Et après trente grappes, elle est distribuée aux pauvres des gens de la ville. Parmi les enfants de Moussa, le mâle reçoit la part de deux femelles. Ainsi, si une femme des enfants de Moussa se marie, elle n'a pas droit à cette aumône jusqu'à ce qu'elle revienne sans mari. Si elle revient, elle a une part semblable à celle des filles non mariées de Moussa. Et quiconque parmi les enfants de Moussa meurt en laissant des enfants, ses enfants sont sur la part de leur père, car le mâle reçoit la part de deux femelles, selon ce que Moussa ibn Ja'far a stipulé parmi ses enfants de ses reins. Et quiconque parmi les enfants de Moussa meurt en ne laissant pas d'enfant, son droit est rendu aux gens de l'aumône. Et les enfants de mes filles n'ont pas droit à cette aumône de ma part à moins que leurs pères soient parmi mes enfants. }",
+          "de": "Und nach dreißig Clustern wird es wird unter die Armen der Leute der Stadt verteilt. Unter den Kindern Musa, denn dem Männlichen gebührt der Anteil von zwei Weiblichen. So wenn eine Frau aus den Kindern Musa heiratet, hat sie kein Recht an dieser Wohltätigkeit, bis sie ohne Ehemann zurückkehrt. Wenn sie zurückkehrt, hat sie einen Anteil wie die unverheirateten Töchter Musas. Und wer von den Kindern Musa stirbt und Kinder hinterlässt, so sind seine Kinder auf dem Anteil ihres Vaters, denn dem Männlichen gebührt der Anteil von zwei Weiblichen, gemäß dem, was Musa ibn Ja'far unter seinen Kindern aus seinen Lenden festgelegt hat. Und wer von den Kindern Musa stirbt und kein Kind hinterlässt, so wird sein Recht an die Leute der Wohltätigkeit zurückgegeben. Und die Kinder meiner Töchter haben kein Recht an dieser Wohltätigkeit von mir, es sei denn, ihre Väter sind aus meinen Kindern.",
+          "ru": "И после тридцати кластеров оно распределяется между бедными жителей города. Среди детей Мусы, поскольку мужчине принадлежит доля двух женщин. Так если женщина из детей Мусы выходит замуж, она не имеет права в этой милостыне, пока не вернется без мужа. Если она вернется, у нее есть доля, как у незамужних дочерей Мусы. И кто бы из детей Мусы ни умер и оставил детей, его дети находятся на доле их отца, поскольку мужчине принадлежит доля двух женщин, согласно тому, что Муса ибн Джафар установил среди своих детей от чресл своих. И кто бы из детей Мусы ни умер и не оставил ребенка, его право возвращается людям милостыни. И дети моих дочерей не имеют права в этой моей милостыне, если их отцы не из моих детей.",
+          "zh": "三十簇之后，分给城中穷人的部分。在穆萨的后裔中，男子得双女子的份额。因此，若穆萨的后裔中有一女子出嫁，她在这一施舍中无份，直至她未携丈夫而归。若她归来，她所得份额如同穆萨未嫁之女。凡穆萨的后裔中有人去世且留下子嗣者，其子嗣承袭其父之份额，因男子得双女子之份额，此乃穆萨·本·贾法尔在其直系后裔中所规定。凡穆萨的后裔中有人去世且无子嗣者，其份额归回施舍众人。而我女儿们的子嗣，除非其父为我之子，否则在我这一施舍中无份。"
+        },
+        "word_start": 301,
+        "word_end": 406
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ إِنَّهُ لَيْسَ لِأَحَدٍ حَقٌّ فِي صَدَقَتِي مَعَ وُلْدِي أَوْ وُلْدِ وُلْدِي وَ أَعْقَابِهِمْ مَا بَقِيَ مِنْهُمْ أَحَدٌ وَ إِذَا انْقَرَضُوا وَ لَمْ يَبْقَ مِنْهُمْ أَحَدٌ فَصَدَقَتِي عَلَى وُلْدِ أَبِي مِنْ أُمِّي مَا بَقِيَ أَحَدٌ مِنْهُمْ عَلَى مَا شَرَطْتُهُ بَيْنَ وُلْدِي وَ عَقِبِي فَإِنِ انْقَرَضَ وُلْدُ أَبِي مِنْ أُمِّي فَصَدَقَتِي عَلَى وُلْدِ أَبِي وَ أَعْقَابِهِمْ مَا بَقِيَ مِنْهُمْ أَحَدٌ عَلَى مِثْلِ مَا شَرَطْتُ بَيْنَ وُلْدِي وَ عَقِبِي فَإِذَا انْقَرَضَ مِنْ وُلْدِ أَبِي وَ لَمْ يَبْقَ مِنْهُمْ أَحَدٌ فَصَدَقَتِي عَلَى الْأَوَّلِ فَالْأَوَّلِ حَتَّى يَرِثَهَا اللَّهُ الَّذِي وَرَّثَهَا وَ هُوَ خَيْرُ الْوَارِثِينَ",
+        "translations": {
+          "en": "And no one has a right in my charity along with my children, or children of my children, and their descendants, as long as one of them remains. And when they are extinct and no one remains from them, my charity is upon the children of my father from my mother, as long as one of them remains, upon what I stipulated between my children and their descendants. If the children of my father from my mother are extinct, my charity is upon the children of my father and their descendants, as long as one of them remains, upon similar to what I stipulated between my children and their descendants. When the children of my father are extinct and no one remains from them, my charity is upon the first then the first, until Allah inherits it, He who inherited it, and He is the best of inheritors.",
+          "ur": "اور میرے صدقے میں میرے بچوں اور ان کے بچوں اور ان کی اولاد کے ساتھ کوئی حق نہیں ہے، جب تک ان میں سے کوئی باقی رہے۔ اور جب وہ ختم ہو جائیں اور ان میں سے کوئی باقی نہ رہے، تو میرا صدقہ میرے والد کی اولاد پر ہے، جو میری ماں سے ہیں، جب تک ان میں سے کوئی باقی رہے، اسی طرح جیسا کہ میں نے اپنے بچوں اور ان کی اولاد کے درمیان شرط کی تھی۔ اگر میرے والد کی اولاد جو میری ماں سے ہیں ختم ہو جائیں، تو میرا صدقہ میرے والد کی اولاد اور ان کی اولاد پر ہے، جب تک ان میں سے کوئی باقی رہے، اسی طرح جیسا کہ میں نے اپنے بچوں اور ان کی اولاد کے درمیان شرط کی تھی۔ جب میرے والد کی اولاد ختم ہو جائیں اور ان میں سے کوئی باقی نہ رہے، تو میرا صدقہ پہلے والوں پر ہے، پھر پہلے والوں پر، یہاں تک کہ اللہ اس کی وراثت لے لے، وہ جس نے وراثت لی، اور وہ وراثت لینے والوں میں بہترین ہے۔",
+          "tr": "Vâlideyimin oğullarımdan ve onların neslinden olanlar var olduğu sürece, sadakamda onlarla birlikte başkasının hakkı yoktur. Onlar tükendiğinde ve onlardan kimse kalmadığında, sadakam vâlideyimin oğullarına, onlardan biri var olduğu sürece, oğullarım ve onların nesli arasında şart koştuğum gibi olur. Vâlideyimin oğulları tükendiğinde, sadakam babamın oğullarına ve onların nesline, onlardan biri var olduğu sürece, oğullarım ve onların nesli arasında şart koştuğuma benzer şekilde olur. Babamın oğulları tükendiğinde ve onlardan kimse kalmadığında, sadakam ilk gelenlere, sonra yine ilk gelenlere, Allah onu miras alana kadar, miras alan O'dur ve O mirasçıların en hayırlısıdır.",
+          "fa": "و هیچ‌کس در صدقه من حقّی ندارد، جز فرزندانم، یا فرزندانِ فرزندانم، و نوادگان آن‌ها، تا زمانی که یکی از آن‌ها باقی باشد. و هنگامی که آن‌ها منقرض شوند و کسی از آن‌ها باقی نماند، صدقه من بر فرزندان پدرم از مادرش است، تا زمانی که یکی از آن‌ها باقی باشد، بر آنچه بین فرزندانم و نوادگانشان شرط کرده‌ام. اگر فرزندان پدرم از مادرش منقرض شوند، صدقه من بر فرزندان پدرم و نوادگان آن‌ها است، تا زمانی که یکی از آن‌ها باقی باشد، بر چیزی مشابه آنچه بین فرزندانم و نوادگانشان شرط کرده‌ام. هنگامی که فرزندان پدرم منقرض شوند و کسی از آن‌ها باقی نماند، صدقه من بر نخستین و سپس نخستین است، تا زمانی که خداوند آن را ارث ببرد، او که ارث برنده است، و او بهترین وارثان است.",
+          "id": "Dan tidak ada hak bagi seseorang dalam sedekahku bersama dengan anak-anakku, atau anak-anak anakku, dan keturunan mereka, selama salah seorang dari mereka masih ada. Dan ketika mereka telah punah dan tidak ada seorang pun dari mereka yang tersisa, sedekahku menjadi hak bagi anak-anak ayahku dari ibuku, selama salah seorang dari mereka masih ada, sesuai dengan apa yang telah aku tetapkan antara anak-anakku dan keturunan mereka. Jika anak-anak ayahku dari ibuku telah punah, sedekahku menjadi hak bagi anak-anak ayahku dan keturunan mereka, selama salah seorang dari mereka masih ada, sesuai dengan apa yang serupa dengan apa yang telah aku tetapkan antara anak-anakku dan keturunan mereka. Ketika anak-anak ayahku telah punah dan tidak ada seorang pun dari mereka yang tersisa, sedekahku menjadi hak bagi yang pertama lalu yang pertama, hingga Allah mewarisinya, Dzat yang mewarisi, dan Dia adalah sebaik-baik ahli waris.",
+          "bn": "এবং আমার সাদাকাতে আমার সন্তানগণের সাথে, অথবা আমার সন্তানদের সন্তানগণের সাথে, এবং তাদের বংশধরদের সাথে, যতক্ষণ তাদের মধ্যে কেউ অবশিষ্ট থাকে, ততক্ষণ অন্য কারও অধিকার নেই। এবং যখন তারা বিলুপ্ত হয়ে যায় এবং তাদের মধ্যে কেউ অবশিষ্ট থাকে না, তখন আমার সাদাকা আমার পিতার সন্তানদের উপর, যতক্ষণ তাদের মধ্যে কেউ অবশিষ্ট থাকে, আমার সন্তানগণ ও তাদের বংশধরদের মধ্যে যে শর্ত আমি স্থাপন করেছি, তার উপর। যদি আমার পিতার সন্তানগণ বিলুপ্ত হয়ে যায়, তবে আমার সাদাকা আমার পিতার সন্তানদের এবং তাদের বংশধরদের উপর, যতক্ষণ তাদের মধ্যে কেউ অবশিষ্ট থাকে, আমার সন্তানগণ ও তাদের বংশধরদের মধ্যে যে শর্ত আমি স্থাপন করেছি, তার অনুরূপ শর্তের উপর। যখন আমার পিতার সন্তানগণ বিলুপ্ত হয়ে যায় এবং তাদের মধ্যে কেউ অবশিষ্ট থাকে না, তখন আমার সাদাকা প্রথম থেকে শুরু করে প্রথম পর্যন্ত, যতক্ষণ না আল্লাহ তাআলা তা উত্তরাধিকার নেন, তিনিই উত্তরাধিকারী, এবং তিনি উত্তরাধিকারীদের মধ্যে সর্বোত্তম।",
+          "es": "Y no tiene derecho a mi caridad nadie junto con mis hijos, o los hijos de mis hijos, y sus descendientes, mientras quede alguno de ellos. Y cuando se extingan y no quede ninguno de ellos, mi caridad recae sobre los hijos de mi padre de mi madre, mientras quede alguno de ellos, sobre lo que estipulé entre mis hijos y sus descendientes. Si se extinguen los hijos de mi padre de mi madre, mi caridad recae sobre los hijos de mi padre y sus descendientes, mientras quede alguno de ellos, sobre algo similar a lo que estipulé entre mis hijos y sus descendientes. Cuando se extinguen los hijos de mi padre y no queda ninguno de ellos, mi caridad recae sobre el primero y luego el primero, hasta que Alá la herede, Él que heredó, y Él es el mejor de los herederos.",
+          "fr": "Et nul n'a de droit dans ma charité avec mes enfants, ou les enfants de mes enfants, et leurs descendants, tant qu'il en reste un. Et lorsqu'ils sont éteints et qu'il n'en reste aucun, ma charité est sur les enfants de mon père de ma mère, tant qu'il en reste un, sur ce que j'ai stipulé entre mes enfants et leurs descendants. Si les enfants de mon père de ma mère sont éteints, ma charité est sur les enfants de mon père et leurs descendants, tant qu'il en reste un, sur semblable à ce que j'ai stipulé entre mes enfants et leurs descendants. Lorsque les enfants de mon père sont éteints et qu'il n'en reste aucun, ma charité est sur le premier puis le premier, jusqu'à ce qu'Allah l'hérite, Lui qui l'a héritée, et Il est le meilleur des héritiers.",
+          "de": "Und niemand hat ein Recht an meiner Stiftung haben neben meinen Kindern, den Kindern meiner Kinder und ihren Nachkommen, solange einer von ihnen übrig ist, keine anderen. Wenn sie aussterben und keiner von ihnen übrig ist, dann fällt meine Stiftung auf die Kinder meines Vaters von meiner Mutter, solange einer von ihnen übrig ist, gemäß dem, was ich zwischen meinen Kindern und ihren Nachkommen festgelegt habe. Wenn die Kinder meines Vaters von meiner Mutter aussterben, dann fällt meine Stiftung auf die Kinder meines Vaters und ihre Nachkommen, solange einer von ihnen übrig ist, entsprechend dem, was ich zwischen meinen Kindern und ihren Nachkommen festgelegt habe. Wenn die Kinder meines Vaters aussterben und keiner von ihnen übrig ist, dann fällt die Stiftung auf den Ersten, dann den Ersten, bis Allah sie erbt, Er, der sie geerbt hat, und Er ist der Beste der Erben.",
+          "ru": "И никто не имеет права в моей милостыне вместе с моими детьми, или детьми моих детей, и их потомками, пока кто-либо из них остаётся. Когда же они вымрут и не останется никого из них, моя милостыня переходит к детям моего отца от моей матери, пока кто-либо из них остаётся, согласно тому, что я установил между моими детьми и их потомками. Если дети моего отца от моей матери вымрут, моя милостыня переходит к детям моего отца и их потомкам, пока кто-либо из них остаётся, согласно подобному тому, что я установил между моими детьми и их потомками. Когда дети моего отца вымрут и не останется никого из них, моя милостыня переходит к первому из них, затем к следующему, пока Аллах не унаследует её, Тот, Кто унаследовал её, и Он — лучший из наследников.",
+          "zh": "且我的施舍中，我的子女及其子嗣，只要其中有一人尚存，便无人有资格分享；当他们绝嗣，再无一人留存时，我的施舍便归于我母亲所生的父亲之子，只要其中有一人尚存，即依我所规定于我的子女及其子嗣之间的条件执行。若我母亲所生的父亲之子绝嗣，我的施舍便归于我父亲之子及其子嗣，只要其中有一人尚存，即依类似我所规定于我的子女及其子嗣之间的条件执行。当我父亲之子绝嗣，再无一人留存时，我的施舍便按先后顺序依次传承，直至真主继承它，他是继承者中最好的。"
+        },
+        "word_start": 406,
+        "word_end": 496
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "تَصَدَّقَ مُوسَى بْنُ جَعْفَرٍ بِصَدَقَتِهِ هَذِهِ وَ هُوَ صَحِيحٌ صَدَقَةً حَبْساً بَتْلًا بَتّاً لَا مَشُوبَةَ فِيهَا وَ لَا رَدَّ أَبَداً ابْتِغَاءَ وَجْهِ اللَّهِ عَزَّ وَ جَلَّ وَ الدَّارِ الْآخِرَةِ لَا يَحِلُّ لِمُؤْمِنٍ يُؤْمِنُ بِاللَّهِ وَ الْيَوْمِ الْآخِرِ أَنْ يَبِيعَهَا أَوْ شَيْئاً مِنْهَا وَ لَا يَهَبَهَا وَ لَا يُنْحِلَهَا وَ لَا يُغَيِّرَ شَيْئاً مِنْهَا مِمَّا وَضَعْتُ عَلَيْهَا حَتَّى يَرِثَ اللَّهُ الْأَرْضَ وَ مَا عَلَيْهَا",
+        "translations": {
+          "en": "Musa ibn Ja'far gave in charity this charity, and he is sound, giving it as a permanent endowment, without doubt or reversion ever, seeking the Face of Allah, Mighty and Majestic, and the Hereafter. It is not permissible for a believer who believes in Allah and the Last Day to sell it or anything from it, nor gift it, nor give it away, nor change anything from it that I have placed upon it, until Allah inherits the earth and what is upon it.",
+          "ur": "موسیٰ بن جعفر نے یہ صدقہ صدقہ کیا، اور وہ صحیح ہے، اسے مستقل وقف کے طور پر دیا، بغیر کسی شک یا رجوع کے، اللہ کی رضا کی تلاش میں، جواکبر المجید، اور آخرت کے لیے۔ مومن کے لیے جائز نہیں ہے کہ وہ اللہ اور یوم آخرت پر ایمان لائے، اسے بیچ دے یا اس میں سے کچھ بھی، یا اسے تحفہ دے، یا اسے بخش دے، یا اس میں سے کچھ بھی تبدیل کر دے جو میں نے اس پر رکھا ہے، جب تک کہ اللہ زمین اور اس پر موجود چیزوں کو وراثت میں نہ لے لے۔",
+          "tr": "Musa b",
+          "fa": "موسی بن جعفر این صدقه را صدقه داد و او ثقه است، آن را به عنوان وقف دائمی، بدون شک و بدون بازگشت، طلب وجه الله، عز و جل، و آخرت می‌دهد. شایسته نیست که مؤمنی که به خدا و روز قیامت ایمان دارد، آن را یا چیزی از آن را بفروشد، یا هدیه دهد، یا ببخشد، یا چیزی را که من بر آن قرار داده‌ام تغییر دهد، تا زمانی که خداوند زمین و آنچه بر آن است را ارث برد.",
+          "id": "Musa ibn Ja'far bersedekah dengan sedekah ini, dan ia tsiqah, menjadikannya sebagai wakaf yang kekal, tanpa keraguan atau kembali, mencari Wajah Allah, Yang Maha Perkasa lagi Maha Agung, dan akhirat. Tidak halal bagi seorang mukmin yang beriman kepada Allah dan Hari Akhir untuk menjualnya atau sesuatu darinya, maupun memberikannya sebagai hadiah, maupun menyedekahkannya, maupun mengubah sesuatu darinya yang telah aku tetapkan atasnya, hingga Allah mewarisi bumi dan apa yang ada di atasnya.",
+          "bn": "মুসা ইবনে জা'ফর (রহ.) এই সদকাতুল খালিদা দান করেছেন, তিনি সুস্থ ও সচেতন অবস্থায়, স্থায়ী ওকফ হিসেবে দান করেছেন, কোনো সন্দেহ বা পুনর্বিবেচনা ছাড়াই, আল্লাহর সন্তুষ্টি ও আখিরাতের আশায়। যে মুমিন আল্লাহ ও আখিরাতের ওপর ঈমান রাখে, তার পক্ষে এটি বা এর যেকোনো অংশ বিক্রি করা, উপহার দেওয়া, দান করা বা আমি এর ওপর যে শর্ত আরোপ করেছি তা পরিবর্তন করা জায়েজ নয়, যতক্ষণ না আল্লাহ পৃথিবী ও তার উপস্থিত সকল জিনিসের উত্তরাধিকারী হন।",
+          "es": "Musa ibn Ja'far dio en limosna esta limosna, y es fiable, haciéndola como un waqf permanente, sin duda ni reversión jamás, buscando la Face de Allah, Mighty and Majestic, y el Hereafter. No es permitido a un creyente que cree en Allah y el Last Day venderla o cualquier cosa de ella, ni regalarla, ni dársela, ni cambiar nada de ella que he colocado sobre ella, hasta que Allah herede la tierra y lo que está sobre ella.",
+          "fr": "Mūsā ibn Ja'far a donné cette aumône, et il est fiable, la donnant comme un waqf perpétuel, sans aucun doute ni retour, cherchant la Face d'Allah, Puissant et Majestueux, et la Vie future. Il n'est pas permis à un croyant qui croit en Allah et au Jour Dernier de la vendre, ni de rien en vendre, ni de la donner en cadeau, ni de la donner en aumône, ni de changer quoi que ce soit de ce que j'y ai établi, jusqu'à ce qu'Allah hérite de la terre et de ce qui est dessus.",
+          "de": "Musa ibn Ja'far gab diese Sadaqa als Sadaqa, und er ist zuverlässig, gab sie als ewige Stiftung, ohne Zweifel oder Rückfall, in der Erwartung des Angesichts Allahs, des Mächtigen und Erhabenen, und des Jenseits. Es ist nicht erlaubt, dass ein Gläubiger, der an Allah und den Jüngsten Tag glaubt, sie oder etwas daraus verkauft, noch verschenkt, noch verschenkt, noch etwas davon verändert, was ich darauf gelegt habe, bis Allah die Erde und was darauf ist erbt.",
+          "ru": "Муса ибн Джафар отдал эту садаку, и он надёжен, отдав её как постоянное вакф, без сомнения и без возвращения, стремясь к Лицу Аллаха, Всевышнего и Величественного, и к Будущей жизни. Не дозволено верующему, который верует в Аллаха и в Последний день, продавать её или что-либо из неё, ни дарить, ни отдавать даром, ни изменять что-либо из того, что я установил на ней, пока Аллах не унаследует землю и то, что на ней.",
+          "zh": "穆萨达·本·贾法尔施舍了这笔施舍，他是可靠的，将其作为永久瓦克夫，毫无怀疑或回转，以求真主尊荣至尊的悦纳和后世。信士若信仰真主和末日，则不得将其出售或将其中的任何部分出售，不得赠予，不得无偿给予，也不得改变我置于其上的任何内容，直到真主继承大地及其上的一切。"
+        },
+        "word_start": 496,
+        "word_end": 559
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ جَعَلَ صَدَقَتَهُ هَذِهِ إِلَى عَلِيٍّ وَ إِبْرَاهِيمَ فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ الْقَاسِمُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ إِسْمَاعِيلُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ الْعَبَّاسُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا فَالْأَكْبَرُ مِنْ وُلْدِي فَإِنْ لَمْ يَبْقَ مِنْ وُلْدِي إِلَّا وَاحِدٌ فَهُوَ الَّذِي يَلِيهِ",
+        "translations": {
+          "en": "And he made this charity to Ali and Ibrahim. If one of the two is extinct, al-Qasim enters with the remaining one of the two. If one of the two is extinct, Ismail enters with the remaining one of the two. If one of the two is extinct, al-Abbas enters with the remaining one of the two. If one of the two is extinct, then the eldest of my children. If there remains from my children only one, he is the one to manage it.",
+          "ur": "اور انہوں نے یہ صدقہ علی اور ابراہیم کے لیے مقرر کیا۔ اگر ان دونوں میں سے ایک فوت ہو جائے تو قاسم باقی ایک کے ساتھ شریک ہو جائے گا۔ اگر ان دونوں میں سے ایک فوت ہو جائے تو اسماعیل باقی ایک کے ساتھ شریک ہو جائے گا۔ اگر ان دونوں میں سے ایک فوت ہو جائے تو عباس باقی ایک کے ساتھ شریک ہو جائے گا۔ اگر ان دونوں میں سے ایک فوت ہو جائے تو میرے بچوں میں سے سب سے بڑا (شریک ہو جائے گا)۔ اگر میرے بچوں میں سے صرف ایک باقی رہ جائے تو وہی اس کی نگرانی کرے گا۔",
+          "tr": "O, bu sadakayı Ali'ye ve İbrahim'e verdi. İki kişiden biri vefat ederse, el-Kasim kalanla birlikte pay alır. İki kişiden biri vefat ederse, İsmail kalanla birlikte pay alır. İki kişiden biri vefat ederse, el-Abbas kalanla birlikte pay alır. İki kişiden biri vefat ederse, çocuklarımdan en yaşlı olan gelir. Çocuklarımdan sadece biri kalırsa, onu yöneten odur.",
+          "fa": "و او این صدقه را به علی و ابراهیم بخشید. اگر یکی از آن‌گاه اگر یکی از آن دو از بین رفت، قاسم با یکی از آن دو باقی‌مانده وارد می‌شود. اگر یکی از آن دو از بین رفت، اسماعیل با یکی از آن دو باقی‌مانده وارد می‌شود. اگر یکی از آن دو از بین رفت، عباس با یکی از آن دو باقی‌مانده وارد می‌شود. اگر یکی از آن دو از بین رفت، پس پسر بزرگتر من [وارد می‌شود]. اگر از فرزندان من تنها یکی باقی بماند، او کسی است که آن را مدیریت کند.",
+          "id": "Dan ia menjadikan sedekah ini untuk Ali dan Ibrahim. Jika salah satu dari keduanya telah tiada, al-Qasim masuk bersama yang tersisa dari keduanya. Jika salah satu dari keduanya telah tiada, Ismail masuk bersama yang tersisa dari keduanya. Jika salah satu dari keduanya telah tiada, al-Abbas masuk bersama yang tersisa dari keduanya. Jika salah satu dari keduanya telah tiada, maka anak sulung dari anak-anakku. Jika dari anak-anakku hanya tersisa satu orang, dialah yang mengelolanya.",
+          "bn": "এবং তিনি এই দান আলী ও ইব্রাহিমের জন্য করলেন। যদি তাদের দুইজনের মধ্যে একজন মৃত্যুবরণ করেন, তবে আল-কাসিম বাকি একজনের সাথে অংশগ্রহণ করবেন। যদি তাদের দুইজনের মধ্যে একজন মৃত্যুবরণ করেন, তবে ইসমাইল বাকি একজনের সাথে অংশগ্রহণ করবেন। যদি তাদের দুইজনের মধ্যে একজন মৃত্যুবরণ করেন, তবে আল-আব্বাস বাকি একজনের সাথে অংশগ্রহণ করবেন। যদি তাদের দুইজনের মধ্যে একজন মৃত্যুবরণ করেন, তবে আমার সন্তানদের মধ্যে জ্যেষ্ঠতম। যদি আমার সন্তানদের মধ্যে কেবল একজন অবশিষ্ট থাকেন, তবে তিনিই তা পরিচালনা করবেন।",
+          "es": "Y destinó esta limosna a Alí e Ibrahim. Si uno de los dos desaparece, entra al-Qasim junto con el otro de los dos. Si uno de los dos desaparece, entra Ismail junto con el otro de los dos. Si uno de los dos desaparece, entra al-Abbas junto con el otro de los dos. Si desaparece uno de los dos, entonces el mayor de mis hijos. Si de mis hijos solo queda uno, ese es quien lo administra.",
+          "fr": "Et il a attribué cette aumône à Ali et Ibrahim. Si l'un des deux vient à manquer, al-Qasim entre en partage avec l'autre. Si l'un des deux vient à manquer, Ismail entre en partage avec l'autre. Si l'un des deux vient à manquer, al-Abbas entre en partage avec l'autre. Si l'un des deux vient à manquer, alors c'est l'aîné de mes enfants. S'il ne reste qu'un seul enfant, c'est lui qui en aura la gestion.",
+          "de": "Und er bestimmte diese Wohltat für Ali und Ibrahim. Wenn einer der beiden ausstirbt, tritt al-Qasim an die Stelle des verbleibenden der beiden. Wenn einer der beiden ausstirbt, tritt Ismail an die Stelle des verbleibenden der beiden. Wenn einer der beiden ausstirbt, tritt al-Abbas an die Stelle des verbleibenden der beiden. Wenn einer der beiden ausstirbt, dann der Älteste meiner Kinder. Wenn von meinen Kindern nur noch einer übrig bleibt, so ist er derjenige, der es verwaltet.",
+          "ru": "И он сделал эту милостыню для Али и Ибрахима. Если один из двоих вымрет, то с оставшимся из двоих войдет аль-Касим. Если один из двоих вымрет, то с оставшимся из двоих войдет Исмаил. Если один из двоих вымрет, то с оставшимся из двоих войдет аль-Аббас. Если один из двоих вымрет, то [наследует] старший из моих детей. Если из оставшихся. Если из моих детей останется только один, то он тот, кто будет управлять этим.",
+          "zh": "他将这施舍给予阿里和易卜拉欣。若二人中有一人去世，卡西姆便与另一人共同继承。若二人中有一人去世，伊斯梅尔便与另一人共同继承。若二人中有一人去世，阿巴斯便与另一人共同继承。若二人中有一人去世，则由我的孩子中最年长者继承。若我的孩子中仅存一人，则由他管理。"
+        },
+        "word_start": 559,
+        "word_end": 607
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَ زَعَمَ أَبُو الْحَسَنِ أَنَّ أَبَاهُ قَدَّمَ إِسْمَاعِيلَ فِي صَدَقَتِهِ عَلَى الْعَبَّاسِ وَ هُوَ أَصْغَرُ مِنْهُ",
+        "translations": {
+          "en": "And Abu al-Hasan claimed that his father placed Ismail ahead of al-Abbas in his charity, and he was younger than him.",
+          "ur": "اور ابو الحسن نے دعویٰ کیا کہ ان کے والد نے اسماعیل کو عباس پر صدقہ میں مقدم رکھا، اور وہ ان سے چھوٹے تھے۔",
+          "tr": "Ve Ebu'l-Hasan, babasının, İsmail'i Abbasa göre sadakada öne koyduğunu ve onun daha genç olduğunu iddia etti.",
+          "fa": "و ابو الحسن ادعا کرد که پدرش اسماعیل را در صدقه‌اش بر عباس مقدم داشت، و او از او کوچک‌تر بود.",
+          "id": "Dan Abu al-Hasan mengklaim bahwa ayahnya menempatkan Ismail lebih dahulu daripada al-Abbas daripada al-Abbas dalam sedekahnya, dan ia lebih muda darinya.",
+          "bn": "এবং আবুল হাসান দাবি করেছিলেন যে, তার পিতা ইসমাইলকে আল-আব্বাসের চেয়ে দান-খয়রে অগ্রাধিকার দিয়েছিলেন, এবং তিনি তার চেয়ে ছোট ছিলেন।",
+          "es": "Y",
+          "fr": "Et Abou al-Hasan a affirmé que son père avait placé Ismaïl avant al-Abbas dans son aumône, et il était plus jeune que lui.",
+          "de": "Und Abu al-Hasan behauptete, dass sein Vater Ismail vor al-Abbas in seiner Sadaqa (Wohltätigkeit) platzierte, und er war jünger als er.",
+          "ru": "И Абу аль-Хасан утверждал, что его отец отдал Исмаила в милостыню раньше, чем аль-Аббаса, и он был моложе его.",
+          "zh": "阿布·哈桑声称，他的父亲在施舍时将伊斯玛仪排在阿巴斯之前，而伊斯玛仪比他年幼。"
+        },
+        "word_start": 607,
+        "word_end": 623
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This detailed will of Imam Musa ibn Ja'far (al-Hadi) serves as a primary text for Shia jurisprudence on *waqf* (endowment), illustrating the practical application of permanent property holding until the Day of Judgment. It highlights the Imam's strategic management of family wealth through specific inheritance rules and the succession of guardianship among his sons, reflecting the socio-political realities of the Abbasid era. The document underscores the theological principle that true ownership belongs to Allah, with humans merely holding stewardship over the earth.",
+        "seo_question": "What are the specific inheritance and charity rules outlined in the will of Imam Musa ibn Ja'far?",
+        "key_terms": {
+          "صَدَقَة": "Charity/Endowment",
+          "وَصِيَّة": "Will/Testament",
+          "حَبْساً بَتْلًا": "Permanent endowment without reversion",
+          "وَالِيهَا": "Its guardian/administrator",
+          "عَذْقاً": "Cluster (of dates)",
+          "أَعْقَابِهِمْ": "Their descendants/offspring"
+        }
+      },
+      "ur": {
+        "summary": "امام موسی بن جعفر (ہادی) کی یہ تفصیلی وصیت شیعہ فقہ میں وقف کے لیے ایک بنیادی متن ہے، جو قیامت تک مستقل ملکیت کے عملی اطلاق کو ظاہر کرتی ہے۔ یہ امام کے خاندانی دولت کی حکمت عملی کے انتظام کو خاص وراثت کے قوانین اور ان کے بیٹوں میں سرپرستی کی جانشینی کے ذریعے اجاگر کرتی ہے، جو عباسی دور کے سماجی و سیاسی حقائق کی عکاسی کرتی ہے۔ یہ دستاویز اس نظریاتی اصول پر زور دیتی ہے کہ حقیقی ملکیت اللہ کی ہے، اور انسان زمین پر صرف امانت دار ہیں۔",
+        "seo_question": "امام موسی بن جعفر کی وصیت میں بیان کردہ خاص وراثت اور صدقہ کے قوانین کیا ہیں؟",
+        "key_terms": {
+          "صَدَقَة": "صدقہ",
+          "وَصِيَّة": "وصیت",
+          "حَبْساً بَتْلًا": "مستقل وقف بغیر واپسی",
+          "وَالِيهَا": "اس کا سرپرست/منتظم",
+          "عَذْقاً": "کھجوروں کا گچھا",
+          "أَعْقَابِهِمْ": "ان کے اولاد"
+        }
+      },
+      "tr": {
+        "summary": "İmam Musa b. Cafer'in (el-Hadi) bu detaylı vasiyeti, Şia hukukunda vakıf konusunun temel metinlerinden biridir ve ahiret gününe kadar mülkün kalıcı olarak tutulmasının pratik uygulamasını gösterir. İmamın aile servetini belirli miras kuralları ve oğulları arasındaki velayet devri yoluyla stratejik bir şekilde yönettiğini vurgular; bu durum Abbasi döneminin sosyo-politik gerçekliklerini yansıtır. Belge, gerçek mülkiyetin Allah'a ait olduğunu ve insanların dünyada sadece emanetçi olduğunu belirten teolojik ilkeyi altını çizer.",
+        "seo_question": "İmam Musa b. Cafer'in vasiyetinde belirtilen spesifik miras ve sadaka kuralları nelerdir?",
+        "key_terms": {
+          "صَدَقَة": "Sadaka",
+          "وَصِيَّة": "Vasiyet",
+          "حَبْساً بَتْلًا": "Kalıcı vakıf",
+          "وَالِيهَا": "Onun velisi",
+          "عَذْقاً": "Hurma salkımı",
+          "أَعْقَابِهِمْ": "Onların soyu"
+        }
+      },
+      "fa": {
+        "summary": "این وصیت‌نامه مفصل امام موسی بن جعفر (هادی) به عنوان یک متن اصلی برای فقه شیعه در باب وقف، کاربرد عملی حفظ دائمی اموال تا روز قیامت را نشان می‌دهد. این متن مدیریت راهبردی امام از ثروت خانوادگی را از طریق قوانین خاص ارث و جانشینی سرپرستی میان پسرانش برجسته می‌کند که بازتاب واقعیت‌های اجتماعی-سیاسی دوران عباسی است. این سند بر اصل الهی تأکید دارد که مالکیت واقعی متعلق به خداست و انسان‌ها تنها امین زمین هستند.",
+        "seo_question": "قوانین خاص ارث و صدقه در وصیت‌نامه امام موسی بن جعفر چیست؟",
+        "key_terms": {
+          "صَدَقَة": "صدقه",
+          "وَصِيَّة": "وصیت",
+          "حَبْساً بَتْلًا": "حبساً بطلا",
+          "وَالِيهَا": "ولی‌ها",
+          "عَذْقاً": "عذق",
+          "أَعْقَابِهِمْ": "اعقابهم"
+        }
+      },
+      "id": {
+        "summary": "Wacana ringkas (summary) dalam bahasa Indonesia: ",
+        "seo_question": "Apa saja aturan warisan dan sedekah yang diuraikan dalam wasiat Imam Musa bin Ja'far?",
+        "key_terms": {
+          "صَدَقَة": "Sedekah/Endowment",
+          "وَصِيَّة": "Wasiat/Testamen",
+          "حَبْساً بَتْلًا": "Endowment permanen tanpa kembali",
+          "وَالِيهَا": "Wali/pengelolanya",
+          "عَذْقاً": "Tandan (kurma)",
+          "أَعْقَابِهِمْ": "Keturunan/putra mereka"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম মুসা ইবনে জাফর (আল-হাদি)-এর এই বিস্তারিত ওয়াজাত শিয়া ফিকহে ওয়াকফের (দান/উপহার) একটি প্রধান পাঠ্য, যা যমদিন পর্যন্ত স্থায়ী সম্পত্তি ধারণের ব্যবহারিক প্রয়োগকে চিত্রিত করে। এটি আব্বাসীয় যুগের সামাজিক-রাজনৈতিক বাস্তবতাকে প্রতিফলিত করে, বিশেষ করে নির্দিষ্ট উত্তরাধিকার সূত্র এবং তাঁর পুত্রদের মধ্যে আয়ত্তাধীনতার উত্তরাধিকারের মাধ্যমে পরিবারের সম্পদ কৌশলগতভাবে পরিচালনার ওপর জোর দেয়। এই দলিলটি এই ঐতিহাসিক নীতিকে তুলে ধরে যে, প্রকৃত মালিকানা আল্লাহর, আর মানুষ কেবল পৃথিবীর ওপর আমানতদার।",
+        "seo_question": "ইমাম মুসা ইবনে জাফরের ওয়াজাতে বর্ণিত নির্দিষ্ট উত্তরাধিকার এবং দানের নিয়মাবলী কী কী?",
+        "key_terms": {
+          "صَدَقَة": "দান/উপহার",
+          "وَصِيَّة": "ওয়াজাত/পরীক্ষা",
+          "حَبْساً بَتْلًا": "স্থায়ী ওয়াকফ যা পুনরায় ফিরে আসে না",
+          "وَالِيهَا": "এর আয়ত্তাধীন/প্রশাসক",
+          "عَذْقاً": "খজুরের গাছা",
+          "أَعْقَابِهِمْ": "তাদের বংশধর/সন্তানসন্ততি"
+        }
+      },
+      "es": {
+        "summary": "Esta detallada voluntad del Imam Musa ibn Ja'far (al-Hadi) sirve como texto primario para la jurisprudencia chiita sobre el *waqf* (fundación pía), ilustrando la aplicación práctica de la tenencia permanente de propiedades hasta el Día del Juicio. Destaca la gestión estratégica de la riqueza familiar por parte del Imam mediante reglas específicas de herencia y la sucesión de la tutela entre sus hijos, reflejando las realidades socio-políticas de la era abasí. El documento subraya el principio teológico de que la verdadera propiedad pertenece a Allah, mientras que los humanos son meros administradores de la tierra.",
+        "seo_question": "¿Cuáles son las reglas específicas de herencia y caridad establecidas en la voluntad del Imam Musa ibn Ja'far?",
+        "key_terms": {
+          "صَدَقَة": "Caridad/Fundación pía",
+          "وَصِيَّة": "Voluntad/Testamento",
+          "حَبْساً بَتْلًا": "Endowment permanente sin reversión",
+          "وَالِيهَا": "Su guardián/administrador",
+          "عَذْقاً": "Racimo (de dátiles)",
+          "أَعْقَابِهِمْ": "Sus descendientes/prole"
+        }
+      },
+      "fr": {
+        "summary": "Ce testament détaillé d'Imam Musa ibn Ja'far (al-Hadi) constitue un texte fondamental pour la jurisprudence chiite en matière de waqf (endowment), illustrant l'application pratique de la détention permanente des biens jusqu'au Jour du Jugement. Il met en lumière la gestion stratégique des richesses familiales par l'Imam à travers des règles d'héritage spécifiques et la succession de la tutelle parmi ses fils, reflétant les réalités socio-politiques de l'ère abbasside. Le document souligne le principe théologique selon lequel la véritable propriété appartient à Allah, les humains n'étant que des dépositaires sur la terre.",
+        "seo_question": "Quelles sont les règles spécifiques d'héritage et de charité énoncées dans le testament d'Imam Musa ibn Ja'far ?",
+        "key_terms": {
+          "صَدَقَة": "Aumône/Endowment",
+          "وَصِيَّة": "Testament",
+          "حَبْساً بَتْلًا": "Endowment permanent sans retour",
+          "وَالِيهَا": "Son gardien/administrateur",
+          "عَذْقاً": "Grappe (de dattes)",
+          "أَعْقَابِهِمْ": "Leurs descendants/progéniture"
+        }
+      },
+      "de": {
+        "summary": "Dieses detaillierte Testament von Imam Musa ibn Ja'far (al-Hadi) dient als primärer Text für die schiitische Jurisprudenz bezüglich des *Waqf* (Stiftung), der die praktische Anwendung des dauerhaften Eigentums bis zum Jüngsten Tag veranschaulicht. Es hebt das strategische Management des Familienvermögens durch spezifische Erbschaftsregeln und die Nachfolge der Vormundschaft unter seinen Söhnen hervor, was die sozio-politischen Realitäten der Abbasidenzeit widerspiegelt. Das Dokument unterstreicht das theologische Prinzip, dass der wahre Besitz bei Allah liegt und die Menschen lediglich als Verwalter über die Erde verfügen.",
+        "seo_question": "Welche spezifischen Erbschafts- und Wohltätigkeitsregeln werden im Testament von Imam Musa ibn Ja'far dargelegt?",
+        "key_terms": {
+          "صَدَقَة": "Wohltätigkeit/Stiftung",
+          "وَصِيَّة": "Testament",
+          "حَبْساً بَتْلًا": "Dauerhafte Stiftung ohne Rückfall",
+          "وَالِيهَا": "Ihr Vormund/Verwalter",
+          "عَذْقاً": "Traube (von Datteln)",
+          "أَعْقَابِهِمْ": "Ihre Nachkommen/Nachkommenschaft"
+        }
+      },
+      "ru": {
+        "summary": "Это подробное завеще завещание имама Мусы ибн Джафара (аль-Хади) служит основным текстом для шиитского фикха в отношении вакфа (благотворительного фонда), иллюстрируя практическое применение постоянного владения недвижимостью до Судного дня. В нем подчеркивается стратегическое управление семьей богатством имама через конкретные правила наследования и преемственность опеки среди его сыновей, что отражает социально-политические реалии эпохи Аббасидов. Документ подчеркивает теологический принцип, согласно которому истинная собственность принадлежит Аллаху, а люди лишь являются попечителями над землей.",
+        "seo_question": "Каковы конкретные правила наследования и благотворительности, изложенные в завещании имама Мусы ибн Джафара?",
+        "key_terms": {
+          "صَدَقَة": "Садака",
+          "وَصِيَّة": "Васия",
+          "حَبْساً بَتْلًا": "Хабсан батлан",
+          "وَالِيهَا": "Валиха",
+          "عَذْقاً": "Азк",
+          "أَعْقَابِهِمْ": "Акябихим"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目穆萨·本·贾法尔（哈迪）的这份详细遗嘱是什叶派教法中关于瓦克夫（宗教基金）的主要文本，展示了永久持有财产直至审判日的实际应用。它突出了伊玛目通过特定的继承规则和儿子们监护权的继承来战略管理家族财富，反映了阿拔斯时代的社会政治现实。该文件强调了真正的所有权属于真主，人类只是大地的受托者这一神学原则。",
+        "seo_question": "伊玛目穆萨·本·贾法尔的遗嘱中概述了哪些具体的继承和慈善规则？",
+        "key_terms": {
+          "صَدَقَة": "施舍/宗教基金",
+          "وَصِيَّة": "遗嘱",
+          "حَبْساً بَتْلًا": "永久且不可撤销的宗教基金",
+          "وَالِيهَا": "其监护人/管理者",
+          "عَذْقاً": "一串（枣）",
+          "أَعْقَابِهِمْ": "他们的后代/子孙"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:284",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "11:17",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "15:23",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:281",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ وَ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ أَنَّ أَبَا الْحَسَنِ مُوسَى ( عليه السلام ) بَعَثَ إِلَيْهِ بِوَصِيَّةِ أَبِيهِ وَ بِصَدَقَتِهِ مَعَ أَبِي إِسْمَاعِيلَ مُصَادِفٍ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ هَذَا مَا عَهِدَ جَعْفَرُ بْنُ مُحَمَّدٍ وَ هُوَ يَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَ لَهُ الْحَمْدُ يُحْيِي وَ يُمِيتُ بِيَدِهِ الْخَيْرُ وَ هُوَ عَلَى كُلِّ شَيْ‏ءٍ قَدِيرٌ وَ أَنَّ مُحَمَّداً عَبْدُهُ وَ رَسُولُهُ وَ أَنَّ السَّاعَةَ آتِيَةٌ لَا رَيْبَ فِيهَا وَ أَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُورِ عَلَى ذَلِكَ نَحْيَا وَ عَلَيْهِ نَمُوتُ وَ عَلَيْهِ نُبْعَثُ حَيّاً إِنْ شَاءَ اللَّهُ وَ عَهِدَ إِلَى وُلْدِهِ أَلَّا يَمُوتُوا إِلَّا وَ هُمْ مُسْلِمُونَ وَ أَنْ يَتَّقُوا اللَّهَ وَ يُصْلِحُوا ذَاتَ بَيْنِهِمْ مَا اسْتَطَاعُوا فَإِنَّهُمْ لَنْ يَزَالُوا بِخَيْرٍ مَا فَعَلُوا ذَلِكَ وَ إِنْ كَانَ دَيْنٌ يُدَانُ بِهِ وَ عَهِدَ إِنْ حَدَثَ بِهِ حَدَثٌ وَ لَمْ يُغَيِّرْ عَهْدَهُ هَذَا وَ هُوَ أَوْلَى بِتَغْيِيرِهِ مَا أَبْقَاهُ اللَّهُ لِفُلَانٍ كَذَا وَ كَذَا وَ لِفُلَانٍ كَذَا وَ كَذَا وَ لِفُلَانٍ كَذَا وَ فُلَانٌ حُرٌّ وَ جَعَلَ عَهْدَهُ إِلَى فُلَانٍ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ هَذَا مَا تَصَدَّقَ بِهِ مُوسَى بْنُ جَعْفَرٍ بِأَرْضٍ بِمَكَانِ كَذَا وَ كَذَا وَ حَدُّ الْأَرْضِ كَذَا وَ كَذَا كُلِّهَا وَ نَخْلِهَا وَ أَرْضِهَا وَ بَيَاضِهَا وَ مَائِهَا وَ أَرْجَائِهَا وَ حُقُوقِهَا وَ شِرْبِهَا مِنَ الْمَاءِ وَ كُلِّ حَقٍّ قَلِيلٍ أَوْ كَثِيرٍ هُوَ لَهَا فِي مَرْفَعٍ أَوْ مَظْهَرٍ أَوْ مَغِيضٍ أَوْ مِرْفَقٍ أَوْ سَاحَةٍ أَوْ شُعْبَةٍ أَوْ مَشْعَبٍ أَوْ مَسِيلٍ أَوْ عَامِرٍ أَوْ غَامِرٍ تَصَدَّقَ بِجَمِيعِ حَقِّهِ مِنْ ذَلِكَ عَلَى وُلْدِهِ مِنْ صُلْبِهِ الرِّجَالِ وَ النِّسَاءِ يَقْسِمُ وَالِيهَا مَا أَخْرَجَ اللَّهُ عَزَّ وَ جَلَّ مِنْ غَلَّتِهَا بَعْدَ الَّذِي يَكْفِيهَا مِنْ عِمَارَتِهَا وَ مَرَافِقِهَا وَ بَعْدَ ثَلَاثِينَ عَذْقاً يَقْسِمُ فِي مَسَاكِينِ أَهْلِ الْقَرْيَةِ بَيْنَ وُلْدِ مُوسَى لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ فَإِنْ تَزَوَّجَتِ امْرَأَةٌ مِنْ وُلْدِ مُوسَى فَلَا حَقَّ لَهَا فِي هَذِهِ الصَّدَقَةِ حَتَّى تَرْجِعَ إِلَيْهَا بِغَيْرِ زَوْجٍ فَإِنْ رَجَعَتْ كَانَ لَهَا مِثْلُ حَظِّ الَّتِي لَمْ تَتَزَوَّجْ مِنْ بَنَاتِ مُوسَى وَ إِنَّ مَنْ تُوُفِّيَ مِنْ وُلْدِ مُوسَى وَ لَهُ وَلَدٌ فَوَلَدُهُ عَلَى سَهْمِ أَبِيهِ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ عَلَى مِثْلِ مَا شَرَطَ مُوسَى بْنُ جَعْفَرٍ فِي وُلْدِهِ مِنْ صُلْبِهِ وَ إِنَّ مَنْ تُوُفِّيَ مِنْ وُلْدِ مُوسَى وَ لَمْ يَتْرُكْ وَلَداً رُدَّ حَقُّهُ عَلَى أَهْلِ الصَّدَقَةِ وَ إِنَّهُ لَيْسَ لِوُلْدِ بَنَاتِي فِي صَدَقَتِي هَذِهِ حَقٌّ إِلَّا أَنْ يَكُونَ آبَاؤُهُمْ مِنْ وُلْدِي وَ إِنَّهُ لَيْسَ لِأَحَدٍ حَقٌّ فِي صَدَقَتِي مَعَ وُلْدِي أَوْ وُلْدِ وُلْدِي وَ أَعْقَابِهِمْ مَا بَقِيَ مِنْهُمْ أَحَدٌ وَ إِذَا انْقَرَضُوا وَ لَمْ يَبْقَ مِنْهُمْ أَحَدٌ فَصَدَقَتِي عَلَى وُلْدِ أَبِي مِنْ أُمِّي مَا بَقِيَ أَحَدٌ مِنْهُمْ عَلَى مَا شَرَطْتُهُ بَيْنَ وُلْدِي وَ عَقِبِي فَإِنِ انْقَرَضَ وُلْدُ أَبِي مِنْ أُمِّي فَصَدَقَتِي عَلَى وُلْدِ أَبِي وَ أَعْقَابِهِمْ مَا بَقِيَ مِنْهُمْ أَحَدٌ عَلَى مِثْلِ مَا شَرَطْتُ بَيْنَ وُلْدِي وَ عَقِبِي فَإِذَا انْقَرَضَ مِنْ وُلْدِ أَبِي وَ لَمْ يَبْقَ مِنْهُمْ أَحَدٌ فَصَدَقَتِي عَلَى الْأَوَّلِ فَالْأَوَّلِ حَتَّى يَرِثَهَا اللَّهُ الَّذِي وَرَّثَهَا وَ هُوَ خَيْرُ الْوَارِثِينَ تَصَدَّقَ مُوسَى بْنُ جَعْفَرٍ بِصَدَقَتِهِ هَذِهِ وَ هُوَ صَحِيحٌ صَدَقَةً حَبْساً بَتْلًا بَتّاً لَا مَشُوبَةَ فِيهَا وَ لَا رَدَّ أَبَداً ابْتِغَاءَ وَجْهِ اللَّهِ عَزَّ وَ جَلَّ وَ الدَّارِ الْآخِرَةِ لَا يَحِلُّ لِمُؤْمِنٍ يُؤْمِنُ بِاللَّهِ وَ الْيَوْمِ الْآخِرِ أَنْ يَبِيعَهَا أَوْ شَيْئاً مِنْهَا وَ لَا يَهَبَهَا وَ لَا يُنْحِلَهَا وَ لَا يُغَيِّرَ شَيْئاً مِنْهَا مِمَّا وَضَعْتُ عَلَيْهَا حَتَّى يَرِثَ اللَّهُ الْأَرْضَ وَ مَا عَلَيْهَا وَ جَعَلَ صَدَقَتَهُ هَذِهِ إِلَى عَلِيٍّ وَ إِبْرَاهِيمَ فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ الْقَاسِمُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ إِسْمَاعِيلُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ الْعَبَّاسُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا فَالْأَكْبَرُ مِنْ وُلْدِي فَإِنْ لَمْ يَبْقَ مِنْ وُلْدِي إِلَّا وَاحِدٌ فَهُوَ الَّذِي يَلِيهِ وَ زَعَمَ أَبُو الْحَسَنِ أَنَّ أَبَاهُ قَدَّمَ إِسْمَاعِيلَ فِي صَدَقَتِهِ عَلَى الْعَبَّاسِ وَ هُوَ أَصْغَرُ مِنْهُ",
+    "isnad_matn": {
+      "isnad_ar": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ وَ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ صَفْوَانَ وَ مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ أَنَّ أَبَا الْحَسَنِ مُوسَى ( عليه السلام ) بَعَثَ إِلَيْهِ بِوَصِيَّةِ أَبِيهِ وَ بِصَدَقَتِهِ مَعَ أَبِي إِسْمَاعِيلَ مُصَادِفٍ",
+      "matn_ar": "بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ هَذَا مَا عَهِدَ جَعْفَرُ بْنُ مُحَمَّدٍ وَ هُوَ يَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ وَ لَهُ الْحَمْدُ يُحْيِي وَ يُمِيتُ بِيَدِهِ الْخَيْرُ وَ هُوَ عَلَى كُلِّ شَيْ‏ءٍ قَدِيرٌ وَ أَنَّ مُحَمَّداً عَبْدُهُ وَ رَسُولُهُ وَ أَنَّ السَّاعَةَ آتِيَةٌ لَا رَيْبَ فِيهَا وَ أَنَّ اللَّهَ يَبْعَثُ مَنْ فِي الْقُبُورِ عَلَى ذَلِكَ نَحْيَا وَ عَلَيْهِ نَمُوتُ وَ عَلَيْهِ نُبْعَثُ حَيّاً إِنْ شَاءَ اللَّهُ وَ عَهِدَ إِلَى وُلْدِهِ أَلَّا يَمُوتُوا إِلَّا وَ هُمْ مُسْلِمُونَ وَ أَنْ يَتَّقُوا اللَّهَ وَ يُصْلِحُوا ذَاتَ بَيْنِهِمْ مَا اسْتَطَاعُوا فَإِنَّهُمْ لَنْ يَزَالُوا بِخَيْرٍ مَا فَعَلُوا ذَلِكَ وَ إِنْ كَانَ دَيْنٌ يُدَانُ بِهِ وَ عَهِدَ إِنْ حَدَثَ بِهِ حَدَثٌ وَ لَمْ يُغَيِّرْ عَهْدَهُ هَذَا وَ هُوَ أَوْلَى بِتَغْيِيرِهِ مَا أَبْقَاهُ اللَّهُ لِفُلَانٍ كَذَا وَ كَذَا وَ لِفُلَانٍ كَذَا وَ كَذَا وَ لِفُلَانٍ كَذَا وَ فُلَانٌ حُرٌّ وَ جَعَلَ عَهْدَهُ إِلَى فُلَانٍ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ هَذَا مَا تَصَدَّقَ بِهِ مُوسَى بْنُ جَعْفَرٍ بِأَرْضٍ بِمَكَانِ كَذَا وَ كَذَا وَ حَدُّ الْأَرْضِ كَذَا وَ كَذَا كُلِّهَا وَ نَخْلِهَا وَ أَرْضِهَا وَ بَيَاضِهَا وَ مَائِهَا وَ أَرْجَائِهَا وَ حُقُوقِهَا وَ شِرْبِهَا مِنَ الْمَاءِ وَ كُلِّ حَقٍّ قَلِيلٍ أَوْ كَثِيرٍ هُوَ لَهَا فِي مَرْفَعٍ أَوْ مَظْهَرٍ أَوْ مَغِيضٍ أَوْ مِرْفَقٍ أَوْ سَاحَةٍ أَوْ شُعْبَةٍ أَوْ مَشْعَبٍ أَوْ مَسِيلٍ أَوْ عَامِرٍ أَوْ غَامِرٍ تَصَدَّقَ بِجَمِيعِ حَقِّهِ مِنْ ذَلِكَ عَلَى وُلْدِهِ مِنْ صُلْبِهِ الرِّجَالِ وَ النِّسَاءِ يَقْسِمُ وَالِيهَا مَا أَخْرَجَ اللَّهُ عَزَّ وَ جَلَّ مِنْ غَلَّتِهَا بَعْدَ الَّذِي يَكْفِيهَا مِنْ عِمَارَتِهَا وَ مَرَافِقِهَا وَ بَعْدَ ثَلَاثِينَ عَذْقاً يَقْسِمُ فِي مَسَاكِينِ أَهْلِ الْقَرْيَةِ بَيْنَ وُلْدِ مُوسَى لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ فَإِنْ تَزَوَّجَتِ امْرَأَةٌ مِنْ وُلْدِ مُوسَى فَلَا حَقَّ لَهَا فِي هَذِهِ الصَّدَقَةِ حَتَّى تَرْجِعَ إِلَيْهَا بِغَيْرِ زَوْجٍ فَإِنْ رَجَعَتْ كَانَ لَهَا مِثْلُ حَظِّ الَّتِي لَمْ تَتَزَوَّجْ مِنْ بَنَاتِ مُوسَى وَ إِنَّ مَنْ تُوُفِّيَ مِنْ وُلْدِ مُوسَى وَ لَهُ وَلَدٌ فَوَلَدُهُ عَلَى سَهْمِ أَبِيهِ لِلذَّكَرِ مِثْلُ حَظِّ الْأُنْثَيَيْنِ عَلَى مِثْلِ مَا شَرَطَ مُوسَى بْنُ جَعْفَرٍ فِي وُلْدِهِ مِنْ صُلْبِهِ وَ إِنَّ مَنْ تُوُفِّيَ مِنْ وُلْدِ مُوسَى وَ لَمْ يَتْرُكْ وَلَداً رُدَّ حَقُّهُ عَلَى أَهْلِ الصَّدَقَةِ وَ إِنَّهُ لَيْسَ لِوُلْدِ بَنَاتِي فِي صَدَقَتِي هَذِهِ حَقٌّ إِلَّا أَنْ يَكُونَ آبَاؤُهُمْ مِنْ وُلْدِي وَ إِنَّهُ لَيْسَ لِأَحَدٍ حَقٌّ فِي صَدَقَتِي مَعَ وُلْدِي أَوْ وُلْدِ وُلْدِي وَ أَعْقَابِهِمْ مَا بَقِيَ مِنْهُمْ أَحَدٌ وَ إِذَا انْقَرَضُوا وَ لَمْ يَبْقَ مِنْهُمْ أَحَدٌ فَصَدَقَتِي عَلَى وُلْدِ أَبِي مِنْ أُمِّي مَا بَقِيَ أَحَدٌ مِنْهُمْ عَلَى مَا شَرَطْتُهُ بَيْنَ وُلْدِي وَ عَقِبِي فَإِنِ انْقَرَضَ وُلْدُ أَبِي مِنْ أُمِّي فَصَدَقَتِي عَلَى وُلْدِ أَبِي وَ أَعْقَابِهِمْ مَا بَقِيَ مِنْهُمْ أَحَدٌ عَلَى مِثْلِ مَا شَرَطْتُ بَيْنَ وُلْدِي وَ عَقِبِي فَإِذَا انْقَرَضَ مِنْ وُلْدِ أَبِي وَ لَمْ يَبْقَ مِنْهُمْ أَحَدٌ فَصَدَقَتِي عَلَى الْأَوَّلِ فَالْأَوَّلِ حَتَّى يَرِثَهَا اللَّهُ الَّذِي وَرَّثَهَا وَ هُوَ خَيْرُ الْوَارِثِينَ تَصَدَّقَ مُوسَى بْنُ جَعْفَرٍ بِصَدَقَتِهِ هَذِهِ وَ هُوَ صَحِيحٌ صَدَقَةً حَبْساً بَتْلًا بَتّاً لَا مَشُوبَةَ فِيهَا وَ لَا رَدَّ أَبَداً ابْتِغَاءَ وَجْهِ اللَّهِ عَزَّ وَ جَلَّ وَ الدَّارِ الْآخِرَةِ لَا يَحِلُّ لِمُؤْمِنٍ يُؤْمِنُ بِاللَّهِ وَ الْيَوْمِ الْآخِرِ أَنْ يَبِيعَهَا أَوْ شَيْئاً مِنْهَا وَ لَا يَهَبَهَا وَ لَا يُنْحِلَهَا وَ لَا يُغَيِّرَ شَيْئاً مِنْهَا مِمَّا وَضَعْتُ عَلَيْهَا حَتَّى يَرِثَ اللَّهُ الْأَرْضَ وَ مَا عَلَيْهَا وَ جَعَلَ صَدَقَتَهُ هَذِهِ إِلَى عَلِيٍّ وَ إِبْرَاهِيمَ فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ الْقَاسِمُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ إِسْمَاعِيلُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا دَخَلَ الْعَبَّاسُ مَعَ الْبَاقِي مِنْهُمَا فَإِنِ انْقَرَضَ أَحَدُهُمَا فَالْأَكْبَرُ مِنْ وُلْدِي فَإِنْ لَمْ يَبْقَ مِنْ وُلْدِي إِلَّا وَاحِدٌ فَهُوَ الَّذِي يَلِيهِ وَ زَعَمَ أَبُو الْحَسَنِ أَنَّ أَبَاهُ قَدَّمَ إِسْمَاعِيلَ فِي صَدَقَتِهِ عَلَى الْعَبَّاسِ وَ هُوَ أَصْغَرُ مِنْهُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أَبُو عَلِيٍّ الْأَشْعَرِيُّ",
+          "name_en": "Abu Ali al-Ash'ari",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 19
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ",
+          "name_en": "Muhammad b. Abd al-Jabbar",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 24
+        },
+        {
+          "name_ar": "صَفْوَانَ",
+          "name_en": "Safwan",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 43
+        },
+        {
+          "name_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ",
+          "name_en": "Muhammad ibn Ismail",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 17
+        },
+        {
+          "name_ar": "الْفَضْلِ بْنِ شَاذَانَ",
+          "name_en": "al-Fadl ibn Shadhan",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 33
+        },
+        {
+          "name_ar": "صَفْوَانَ",
+          "name_en": "Safwan",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 43
+        },
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "صَفْوَانَ",
+          "name_en": "Safwan",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 43
+        },
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 10,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ الْحُسَيْنِ",
+          "name_en": "Muhammad ibn al-Husayn",
+          "role": "narrator",
+          "position": 11,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 29
+        },
+        {
+          "name_ar": "صَفْوَانَ بْنِ يَحْيَى",
+          "name_en": "Safwan ibn Yahya",
+          "role": "narrator",
+          "position": 12,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 30
+        },
+        {
+          "name_ar": "عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ أَنَّ أَبَا الْحَسَنِ مُوسَى ( عليه السلام ) بَعَثَ إِلَيْهِ بِوَصِيَّةِ أَبِيهِ",
+          "name_en": "Abd al-Rahman b. al-Hajjaj",
+          "role": "narrator",
+          "position": 13,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "بِصَدَقَتِهِ مَعَ أَبِي إِسْمَاعِيلَ مُصَادِفٍ بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيمِ هَذَا مَا عَهِدَ جَعْفَرُ بْنُ مُحَمَّدٍ",
+          "name_en": "Abu Isma'il Musadif",
+          "role": "narrator",
+          "position": 14,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "هُوَ يَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ لَهُ الْمُلْكُ",
+          "name_en": "Ja'far b. Muhammad",
+          "role": "narrator",
+          "position": 15,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "لَهُ الْحَمْدُ يُحْيِي",
+          "name_en": "al-Hasan",
+          "role": "narrator",
+          "position": 16,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "يُمِيتُ بِيَدِهِ الْخَيْرُ",
+          "name_en": "al-Husayn",
+          "role": "narrator",
+          "position": 17,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "هُوَ عَلَى كُلِّ شَيْ‏ءٍ قَدِيرٌ",
+          "name_en": "Ali",
+          "role": "narrator",
+          "position": 18,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَنَّ مُحَمَّداً عَبْدُهُ",
+          "name_en": "Muhammad",
+          "role": "narrator",
+          "position": 19,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "رَسُولُهُ",
+          "name_en": "Rasul",
+          "role": "narrator",
+          "position": 20,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَنَّ السَّاعَةَ آتِيَةٌ لَا رَيْبَ",
+          "name_en": "al-Sa'a",
+          "role": "narrator",
+          "position": 21,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ",
+        "phrase_en": "In the name of Allah, the Most Gracious, the Most Merciful",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "لَا إِلٰهَ إِلَّا اللَّهُ",
+        "phrase_en": "There is no god but Allah",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "إِنْ شَاءَ اللَّهُ",
+        "phrase_en": "If Allah wills",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

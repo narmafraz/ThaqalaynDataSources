@@ -1,0 +1,282 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:2:14:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 20 words (>14, بن-density 0.15 — likely a sentence fragment, not a name): 'الحاكم أبو علي الحسين بن أحمدالبيهقي قال: حدثنا محمد بن يحيى'",
+    "chunks[2] translations.fa is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "knowledge",
+      "ethics",
+      "quran_commentary"
+    ],
+    "content_type": "biographical",
+    "topics": [
+      "imams_biography",
+      "quran_recitation",
+      "quran_virtues",
+      "divine_attributes",
+      "paradise_hell"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا الْحَاكِمُ أَبُو عَلِي الْحُسَيْنُ بْنُ أَحْمَدَ الْبَيْهَقِيُّ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى الصَّوْلِيُّ حَدَّثَنَا أَبُو ذِكْوَان قَالَ سَمِعْتُ إِبْرَاهِيمَ بْنَ الْعَبَّاسِ يَقُولُ",
+        "translations": {
+          "en": "Al-Hakim Abu Ali Al-Husayn ibn Ahmad al-Bayhaqi narrated to us, saying: Muhammad ibn Yahya al-Sawli narrated to us, Abu Thakwan narrated to us, and I heard Ibrahim ibn Al-Abbas saying:",
+          "ur": "الحاکم ابو علی الحسین بن احمد بیہقی نے ہمیں بیان کیا، انہوں نے کہا: محمد بن یحییٰ صولی نے ہمیں بیان کیا، ابو ذکوان نے ہمیں بیان کیا، اور میں نے ابراہیم بن العباس کو کہتے ہوئے سنا:",
+          "tr": "Hakim Ebu Ali el-Hüseyin b. Ahmed el-Beyhakî bize anlatarak şunları söyledi: Muhammed b. Yahya es-Sûlî bize anlatdı, Ebuzekvân bize anlatdı ve ben İbrahim b. Abbâs'ın şöyle dediğini işittim:",
+          "fa": "الحكيم أبو علي الحسين بن أحمد البيهقي حدثنا، قال: محمد بن يحيى الصولي حدثنا، أبو ذكوان حدثنا، وسمعت إبراهيم بن العباس يقول:",
+          "id": "Al-Hakim Abu Ali Al-Husayn ibn Ahmad al-Husayn ibn Ahmad al-Bayhaqi telah menceritakan kepada kami, ia berkata: Muhammad ibn Yahya al-Sawli telah menceritakan kepada kami, Abu Thakwan telah menceritakan kepada kami, dan aku mendengar Ibrahim ibn Al-Abbas berkata:",
+          "bn": "আল-হাকিম আবু আলী আল-হুসাইন ইবনে আহমদ আল-বায়হাকি আমাদেরকে বর্ণনা করেছেন, তিনি বলেছেন: মুহাম্মাদ ইবনে ইয়াহ্যা আস-সাওলি আমাদেরকে বর্ণনা করেছেন, আবু থাকওয়ান আমাদেরকে বর্ণনা করেছেন, এবং আমি ইব্রাহীম ইবনে আল-আব্বাসকে বলতে শুনেছি:",
+          "es": "Narró para nosotros Al-Hakim Abu Ali Al-Husayn ibn Ahmad al-Bayhaqi, diciendo: Narró para nosotros Muhammad ibn Yahya al-Sawli, narró para nosotros Abu Thakwan, y yo escuché a Ibrahim ibn Al-Abbas decir:",
+          "fr": "Raconte-nous Al-Hakim Abou Ali Al-Husayn ibn Ahmad al-Bayhaqi, disant : Raconte-nous Muhammad ibn Yahya al-Sawli, Raconte-nous Abou Thakwan, et j'ai entendu Ibrahim ibn Al-Abbas dire :",
+          "de": "Al-Hakim Abu Ali Al-Husayn ibn Ahmad al-Bayhaqi überlieferte uns und sagte: Muhammad ibn Yahya al-Sawli überlieferte uns, Abu Thakwan überlieferte uns, und ich hörte Ibrahim ibn Al-Abbas sagen:",
+          "ru": "Аль-Хаким Абу Али аль-Хусайн ибн Ахмад аль-Байхаки рассказал нам, сказав: Мухаммад ибн Яхья ас-Савли рассказал нам, Абу Такван рассказал нам, и я слышал, как Ибрахим ибн аль-Аббас говорил:",
+          "zh": "الحاكم أبو علي الحسين بن أحمد البيهقي حدثنا، قال: محمد بن يحيى الصولي حدثنا، أبو ذكوان حدثنا، وسمعت إبراهيم بن العباس يقول:"
+        },
+        "word_start": 0,
+        "word_end": 23
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مَا رَأَيْتُ الرِّضَا عَلَيْهِ السَّلَامُ سُئِلَ عَنْ شَيْءٍ قَطُّ إِلَّا عَلِمَهُ وَلَا رَأَيْتُ أَعْلَمَ مِنْهُ بِمَا كَانَ فِي الزَّمَانِ إِلَى وَقْتِهِ وَعَصْرِهِ وَكَانَ الْمَأْمُونُ يَمْتَحِنُهُ بِالسُّؤَالِ عَنْ كُلِّ شَيْءٍ فَيُجِيبُ فِيهِ وَكَانَ كَلَامُهُ كُلُّهُ وَجَابُهُ وَتَمَثُّلُهُ انْتِزَاعَاتٍ مِنَ الْقُرْآنِ وَكَانَ يَخْتِمُهُ فِي كُلِّ ثَلَاثٍ وَيَقُولُ لَوْ أَرَدْتُ أَنْ أَخْتِمَهُ فِي أَقْرَبَ مِنْ ثَلَاثَةٍ لَخَتَمْتُ وَلَكِنِّي مَا مَرَرْتُ بِآيَةٍ قَطُّ إِلَّا فَكَّرْتُ فِيهَا وَفِي أَيِّ شَيْءٍ أُنْزِلَتْ وَفِي أَيِّ وَقْتٍ فَلِذَلِكَ صِرْتُ أَخْتِمُ فِي كُلِّ ثَلَاثَةِ أَيَّامٍ",
+        "translations": {
+          "en": "I never saw Al-Rida (peace be upon him) asked about anything but that he knew it, and I never saw anyone more knowledgeable than him regarding what existed in the era up to his time and epoch. Al-Ma'mun used to test him by questioning him about everything, and he would answer. All his speech, answers, and similitudes were extracts from the Qur'an. He would complete the recitation of the Qur'an every three days, saying: 'If I wished, I could complete it in less than three days, but I do not pass a single verse without pondering over it, over what it was revealed concerning, and at what time, so I became one who completes it every three days.'",
+          "ur": "میں نے الرضا (علیہ السلام) کو کبھی کسی چیز کے بارے میں سوال پوچھتے نہیں دیکھا سوائے اس کے کہ وہ اس سے واقف ہوتے، اور میں نے ان سے زیادہ عالم کوئی نہیں دیکھا ان چیزوں کے بارے میں جو ان کے دور تک موجود تھیں۔ المامون انہیں ہر چیز کے بارے میں سوال پوچھ کر آزماتے تھے، اور وہ جواب دیتے۔ ان کی تمام گفتگو، جوابات اور امثال قرآن کے اقتباسات تھے۔ وہ تین دن میں قرآن کی تلاوت مکمل کرتے، یہ کہتے ہوئے: 'اگر میں چاہتا تو تین دن سے کم وقت میں اس کی تلاوت مکمل کر سکتا تھا، لیکن میں ایک ایک آیت کے بغیر اس پر غور نہیں کرتا کہ یہ کس بارے میں نازل ہوئی اور کس وقت، اس لیے میں تین دن میں اس کی تلاوت مکمل کرنے والا بن گیا۔'",
+          "tr": "Ben, İmam er-Rıza'nın (s.a.v.) hakkında sorulan hiçbir şeyi bilmediğini görmedim; ve ondan önceki çağlarda ve devirlerde mevcut olan konularda ondan daha fazla bilgi sahibi olan kimseyi görmedim. Me'mun, her şeyi sorarak onu imtihan eder, o da cevap verirdi. Tüm konuşmaları, cevapları ve benzetmeleri Kur'an'dan alınmış ibarelerdi. Üç günde bir Kur'an-ı Kerim'i tilavetini tamamlardı ve şöyle derdi: 'İstediğim takdirde üç günden daha kısa bir sürede tamamlayabilirim, ancak hiçbir ayeti, onun hakkında ne zaman ve ne sebeple indirildiğini düşünmeden geçmem; bu yüzden üç günde bir tamamlayanlardan oldum.'",
+          "fa": "من هرگز ندیدم که از الرضا (علیه السلام) درباره چیزی پرسیده شود مگر اینکه او به آن آگاه بود، و هرگز کسی را داناتر از او نسبت به آنچه در عصر و دوران او تا زمانش وجود داشت، ندیدم. المأمون او را با پرسیدن از او درباره همه چیز می‌آزمود، و او پاسخ می‌داد. تمام سخنانش، پاسخ‌ها و تشبیهاتش از قرآن استخراج شده بود. او هر سه روز یک‌بار قرآن را تلاوت کامل می‌کرد و می‌گفت: «اگر بخواهم می‌توانم آن را در کمتر از سه روز کامل کنم، اما هیچ آیه‌ای را بدون تأمل بر آن، بر آنچه درباره آن نازل شده و در چه زمانی نازل شده، رد نمی‌کنم، بنابراین من کسی هستم که هر سه روز یک‌بار آن را کامل می‌کنم.»",
+          "id": "Aku tidak pernah melihat Al-Rida (alamah) ditanya tentang sesuatu melainkan ia mengetahuinya, dan aku tidak pernah melihat seseorang yang lebih berilmu darinya mengenai apa yang ada pada zamannya hingga masanya. Al-Ma'mun biasa mengujinya dengan menanyakan segala hal kepadanya, dan ia pun menjawab. Seluruh ucapan, jawaban, dan perumpamaannya adalah kutipan dari Al-Qur'an. Ia menyelesaikan tilawah Al-Qur'an setiap tiga hari, sambil berkata: 'Jika aku mau, aku bisa menyelesaikannya dalam waktu kurang dari tiga hari, tetapi aku tidak melewatkan satu ayat pun tanpa merenungkannya, tentang apa yang diturunkan berkaitan dengannya, dan pada waktu kapan, sehingga aku menjadi orang yang menyelesaikannya setiap tiga hari.'",
+          "bn": "আমি কখনো আল-রিদা (আলৈহিস সালাম)-কে এমন কিছু জিজ্ঞাসা করতে দেখিনি যা তিনি জানতেন না, এবং আমি কখনো এমন কাউকে দেখিনি যিনি তাঁর যুগ ও যুগের সকল বিষয়ে তাঁর চেয়ে বেশি জ্ঞানী ছিলেন। আল-মামুন তাঁকে সকল বিষয়ে প্রশ্ন করে পরীক্ষা করতেন, এবং তিনি উত্তর দিতেন। তাঁর সকল বক্তব্য, উত্তর এবং উপমাগুলো কুরআনের উদ্ধৃতি ছিল। তিনি প্রতি তিন দিনে কুরআন তিলাওয়াত সম্পন্ন করতেন, বলতেন: 'যদি আমি চাইতাম, তবে আমি তিন দিনের চেয়ে কম সময়েই এটি সম্পন্ন করতে পারতাম, কিন্তু আমি কোনো আয়াতকেই এমনভাবে অতিক্রম করি না যে তা নিয়ে চিন্তা করি না, যে বিষয়ে তা অবতীর্ণ হয়েছিল এবং কখন অবতীর্ণ হয়েছিল, তাই আমি প্রতি তিন দিনেই এটি সম্পন্নকারী হয়েছি।'",
+          "es": "Nunca vi a Al-Rida (que la paz sea con él) que le preguntaran por algo sin que él lo supiera, y nunca vi a nadie más sabio que él en lo que existía en la era hasta su tiempo y época. Al-Ma'mun solía ponerlo a prueba preguntándole sobre todo, y él respondía. Toda su habla, respuestas y símiles eran extractos del Corán. Él completaba la recitación del Corán cada tres días, diciendo: \"Si yo quisiera, podría completarlo en menos de tres días, pero no paso un solo verso sin reflexionar sobre él, sobre lo que fue revelado concerniente a ello, y en qué momento, así que me convertí en alguien que lo completa cada tres días.\"",
+          "fr": "Je n'ai jamais vu Al-Rida (que la paix soit sur lui) interrogé sur quoi que ce soit sans qu'il ne le sache, et je n'ai jamais vu personne de plus savant que lui en ce qui concernait ce qui existait à son époque et à son époque. Al-Ma'mun avait l'habitude de le mettre à l'épreuve en l'interrogeant sur tout, et il répondait. Toutes ses paroles, ses réponses et ses similitudes étaient tirées du Coran. Il achevait la récitation du Coran tous les trois jours, en disant : « Si je le voulais, je pourrais l'achever en moins de trois jours, mais je ne passe pas un seul verset sans le méditer, sans réfléchir à ce pour quoi il a été révélé et à quel moment, de sorte que je deviens celui qui l'achève tous les trois jours. »",
+          "de": "Ich sah Al-Rida (friede sei mit ihm) nie, dass er nach etwas gefragt wurde, ohne dass er es wusste, und ich sah niemanden, der wissender war als er bezüglich dessen, was in der Zeit bis zu seiner Zeit und Epoche existierte. Al-Ma'mun versuchte ihn, indem er ihn über alles befragte, und er antwortete. All seine Rede, Antworten und Gleichnisse waren Entnahmen aus dem Qur'an. Er vollendete die Rezitation des Qur'an alle drei Tage und sagte: »Wenn ich wollte, könnte ich sie in weniger als drei Tagen vollenden, aber ich gehe keinen einzelnen Vers vorbei, ohne über ihn nachzudenken, darüber, worüber er offenbart wurde, und zu welcher Zeit, sodass ich einer wurde, der sie alle drei Tage vollendet.«",
+          "ru": "Я никогда не видел, чтобы аль-Рида (да будет мир с ним) спрашивали о чём-либо, кроме как он знал это, и я никогда не видел никого более сведущего, чем он, в том, что существовало в эпоху до его времени и его эпохи. Аль-Мамун испытывал его, задавая ему вопросы обо всём, и он отвечал. Вся его речь, ответы и сравнения были извлечениями из Корана. Он завершал чтение Корана каждые три дня, говоря: «Если бы я пожелал, я мог бы завершить его менее чем за три дня, но я не пропускаю ни одного аята, не размышляя над ним, над тем, о чём он был ниспослан, и в какое время, поэтому я стал тем, кто завершает его каждые три дня».",
+          "zh": "我从未见阿里·里达（愿主福安之）被问及任何事物而他不知晓，我也从未见任何人比他在其时代及纪元所存在的事物上更有学识。马蒙常通过向他询问一切来考验他，而他总能作答。他所有的言语、回答和比喻都源自《古兰经》。他每三天完成一次《古兰经》的诵读，并说：‘若我愿，我本可在少于三天的时间内完成，但我每读一节经文，必沉思其启示的背景、所涉内容及启示的时间，因此我每三天完成一次诵读。'"
+        },
+        "word_start": 23,
+        "word_end": 99
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَمِنْ كَلَامِهِ عَلَيْهِ السَّلَامُ الْمَشْهُورِ قَوْلُهُ: الصَّغَائِرُ مِنَ الذُّنُوبِ طُرُقٌ إِلَى الْكَبَائِرِ وَمَنْ لَمْ يَخَفِ اللَّهَ فِي الْقَلِيلِ لَمْ يَخَفْهُ فِي الْكَثِيرِ وَلَوْ لَمْ يُخَوِّفِ اللَّهُ النَّاسَ بِجَنَّةٍ وَنَارٍ لَكَانَ الْوَاجِبَ عَلَيْهِمْ أَنْ يُطِيعُوهُ وَلَا يَعْصُوهُ لِتَفَضُّلِهِ عَلَيْهِمْ وَإِحْسَانِهِ إِلَيْهِمْ وَمَا بَدَأَهُمْ بِهِ مِنْ إِنْعَامِهِ الَّذِي مَا اسْتَحَقُّوهُ",
+        "translations": {
+          "en": "And from his famous speech (peace be upon him) is his saying: 'Minor sins are paths to major sins, and whoever does not fear God in the little [sin] will not fear Him in the much. And if God had not warned people with Paradise and Hellfire, it would still be obligatory for them to obey Him and not disobey Him, due to His grace upon them and His kindness to them, and the favor He initiated with them which they did not deserve.'",
+          "ur": "اور ان کی مشہور خطابات (صلی اللہ علیہ وسلم) میں سے ایک یہ ہے کہ: ''صغیر گناہ کبیر گناہوں کے راستے ہیں، اور جو شخص چھوٹی [گناہ] میں اللہ کا ڈر نہیں رکھتا، وہ بڑی [گناہ] میں بھی اس کا ڈر نہیں رکھے گا۔ اور اگر اللہ نے لوگوں کو جنت اور دوزخ سے نہ ڈرایا ہوتا، تب بھی اس کی نعمت اور اس کی محبت کی وجہ سے، اور اس کے انعام کے سبب جو اس نے ان پر کیے ہیں، ان پر اس کی اطاعت اور نافرمانی نہ کرنا لازم ہوتا۔''",
+          "tr": "Onun meşhur hutbelerinden (aleyhisselam) birinde şöyle buyurmuştur: 'Küçük günahlar, büyük günahlara giden yollardır; ve küçükte Allah'tan korkmayan, büyükte de O'ndan korkmaz. Eğer Allah, insanları Cennet ve Cehennemle uyarmamış olsaydı, yine de O'na itaat etmek ve O'na isyan etmemek, O'nun üzerlerindeki lütfu ve onlara olan iyiliği, ve hak etmedikleri halde onlara başlattığı nimet nedeniyle farz olurdu.'",
+          "id": "Dan dari khutbahnya yang masyhur (shallallahu ‘alaihi wa sallam) adalah sabdanya: \"Dosa-dosa kecil adalah jalan menuju dosa-dosa besar, dan barangsiapa tidak takut kepada Allah dalam hal yang kecil (dosa), niscaya ia tidak akan takut kepada-Nya dalam hal yang banyak. Dan seandainya Allah tidak memperingatkan manusia dengan surga dan neraka, tetaplah wajib bagi mereka untuk taat kepada-Nya dan tidak mendurhaka-Nya, karena karunia-Nya kepada mereka dan kebaikan-Nya kepada mereka, serta nikmat yang Dia muliakan kepada mereka yang tidak layak mereka dapatkan.\"",
+          "bn": "তার বিখ্যাত খুতবাসমূহের (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম) অন্তর্ভুক্ত হলো তাঁর এই বাক্য: 'ছোট গুনাহগুলো বড় গুনাহের পথ, এবং যে ব্যক্তি ছোট [গুনাহে] আল্লাহর ভয় রাখে না, সে বড় [গুনাহে]ও তাঁর ভয় রাখবে না। আর যদি আল্লাহ জাহান্নাম ও জান্নাতের সতর্কবার্তা মানুষের কাছে না পাঠাতেন, তবুও তাঁর নিয়ামত ও কৃপার কারণে, এবং তাঁর অনুগ্রহের কারণে, যা তারা অর্হত ছিল না, তা সত্ত্বেও তাঁর আনুত্য করা এবং অবাধ্যতা থেকে বিরত থাকা তাদের ওপর ফরজ হতো।'",
+          "es": "Y de sus famosas disertaciones (que la paz sea con él) está) está su dicho: 'Los pecados menores son caminos hacia los pecados mayores, y quien no teme a Dios en lo pequeño [del pecado], no le temerá en lo grande. Y si Dios no hubiera advertido a las personas con el Paraíso y el Fuego del Infierno, seguiría siendo obligatorio para ellos obedecerle y no desobedecerle, debido a Su gracia sobre ellos y Su bondad hacia ellos, y al favor que Él les inició con ellos, los cuales no lo merecían.'",
+          "fr": "Parmi ses discours célèbres (que la paix soit sur lui), on trouve sa parole : « Les petits péchés sont des chemins vers les grands péchés, et celui qui ne craint pas Dieu dans le petit [péché] ne Le craindra pas dans le grand. Et si Dieu n'avait pas averti les gens par le Paradis et l'Enfer, il leur resterait obligatoire de Lui obéir et de ne pas désobéir, en raison de Sa grâce à leur égard et de Sa bonté envers eux, ainsi que de la faveur qu'Il a initiée avec eux, bien qu'ils ne l'aient pas méritée. »",
+          "de": "Und aus seiner berühmten Rede (Friede sei mit ihm) ist seine Aussage: „Die kleinen Sünden sind Pfade zu den großen Sünden, und wer Gott in der Kleinigkeit [der Sünde] nicht fürchtet, wird Ihn in der Großheit nicht fürchten. Und wenn Gott die Menschen nicht mit dem Paradies und der Hölle gewarnt hätte, wäre es ihnen dennoch aufgrund Seiner Gnade an ihnen und Seiner Güte zu ihnen und der Gunst, die Er ihnen erwies, die sie nicht verdienten, verpflichtend, Ihm zu gehorchen und Ihm nicht zu disobedieren.",
+          "ru": "И из его знаменитой проповеди (да будет над ним мир и благословение Аллаха) его слова: «Малые грехи — это пути к большим грехам, и тот, кто не боится Аллаха в малом [грехе], не будет бояться Его в большом. И если бы Аллах не предостерег людей Раем и Огнем, то повиновение Ему и непокорность Ему всё равно были бы обязательными для них из-за Его милости к ним и Его доброты к ним, а также благодеяния, которое Он оказал им, хотя они того не заслуживали».",
+          "zh": "从他著名的演说（愿主福安之）中，有他的言论：小罪是大罪的途径，谁在小罪上不畏真主，谁在大罪上就更不畏真主。如果真主没有以天堂和火狱警告世人，那么由于真主对他们的恩惠、对他们的慈爱，以及他赐予他们的、他们本不配得的恩宠，顺从他、不违抗他仍然是他们的义务。",
+          "fa": ""
+        },
+        "word_start": 99,
+        "word_end": 147
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This narration from *Uyun Akhbar al-Rida* underscores Imam Al-Rida’s (AS) comprehensive knowledge (*al-'Ilm al-Shamil*) and his deep, contemplative engagement with the Qur'an, where he derived his eloquent responses directly from its verses. It highlights the theological principle that minor sins are gateways to major transgressions and emphasizes that divine obedience is rooted in God’s inherent benevolence (*lutf* and *ihsan*), not merely in the fear of punishment or hope for reward.",
+        "seo_question": "What was Imam Al-Rida's method of reciting the Qur'an and what did he say about minor sins?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida (a title for Imam Musa al-Kadhim, the 7th Imam)",
+          "الْمَأْمُونُ": "Al-Ma'mun (the Abbasid Caliph who tested the Imams)",
+          "انْتِزَاعَاتٍ": "Extracts/derivations (referring to deriving speech from the Qur'an)",
+          "يَخْتِمُهُ": "He completes it (referring to completing the recitation of the Qur'an)",
+          "الصَّغَائِرُ": "Minor sins",
+          "الْكَبَائِرُ": "Major sins",
+          "تَفَضُّلِهِ": "His grace/favor"
+        }
+      },
+      "ur": {
+        "summary": "یہ روایت *عیون اخبار الرضا* سے ہے جو امام الرضا (ع) کی جامع علمیت (*علم شامل*) اور قرآن مجید کے ساتھ گہرے تأملی تعامل کو اجاگر کرتی ہے، جہاں انہوں نے اپنے فصیح جوابات براہِ راست آیات سے اخذ کیے۔ یہ اس کلامی اصول کی نشاندہی کرتی ہے کہ چھوٹے گناہ بڑے گناہوں کی طرف جانے کا دروازہ ہیں اور اس بات پر زور دیتا ہے کہ الٰہی اطاعت اللہ کی ذاتی بڑھائی (*لطف* اور *احسان*) پر مبنی ہے، نہ کہ صرف سزا کے خوف یا اجر کی امید پر۔",
+        "seo_question": "امام الرضا (ع) کا قرآن پڑھنے کا طریقہ کیا تھا اور انہوں نے چھوٹے گناہوں کے بارے میں کیا فرمایا؟",
+        "key_terms": {
+          "الرِّضَا": "امام الرضا",
+          "الْمَأْمُونُ": "امام المامون",
+          "انْتِزَاعَاتٍ": "اخذات/استخراج",
+          "يَخْتِمُهُ": "وہ اسے مکمل کرتے ہیں",
+          "الصَّغَائِرُ": "صغائر",
+          "الْكَبَائِرُ": "کبائر",
+          "تَفَضُّلِهِ": "ان کا فضل"
+        }
+      },
+      "tr": {
+        "summary": "Bu rivayet, *Uyun Akhbar al-Rida* kaynaklı olup, İmam Er-Riza'nın (AS) kapsamlı bilgisini (*al-'Ilm al-Shamil*) ve Kur'an'la derin, tefekkür dolu ilişkisini vurgular; zira o, hitabet dolu cevaplarını ayetlerden doğrudan çıkarırdı. Küçük günahların büyük günahlara kapı açtığını belirten teolojik ilkeyi öne çıkarır ve ilahi itaatin, ceza korkusu veya mükafat umuduyla değil, Allah'ın temel iyiliği (*lutf* ve *ihsan*) temelli olduğunu vurgular.",
+        "seo_question": "İmam Er-Riza'nın Kur'an okuma usulü neydi ve küçük günahlar hakkında ne dedi?",
+        "key_terms": {
+          "الرِّضَا": "Er-Riza",
+          "الْمَأْمُونُ": "El-Memun",
+          "انْتِزَاعَاتٍ": "Çıkarmalar",
+          "يَخْتِمُهُ": "Tamamlar",
+          "الصَّغَائِرُ": "Küçük günahlar",
+          "الْكَبَائِرُ": "Büyük günahlar",
+          "تَفَضُّلِهِ": "Lütfu"
+        }
+      },
+      "fa": {
+        "summary": "این روایت از *عیون اخبار الرضا* بر دانش جامع امام رضا (ع) (*علم شامل*) و درگیری عمیق و تأمل‌آمیز او با قرآن تأکید دارد، جایی که پاسخ‌های فصیح خود را مستقیماً از آیات قرآن استخراج می‌کرد. این روایت اصل کلامی را برجسته می‌کند که گناهان کوچک دروازه‌ای برای گناهان بزرگ هستند و تأکید می‌کند که اطاعت الهی ریشه در لطف ذاتی خداوند (*لطف* و *احسان*) دارد، نه صرفاً در ترس از مجازات یا امید به پاداش.",
+        "seo_question": "روش امام رضا (ع) در تلاوت قرآن چه بود و او درباره گناهان کوچک چه گفت؟",
+        "key_terms": {
+          "الرِّضَا": "رضا",
+          "الْمَأْمُونُ": "مأمون",
+          "انْتِزَاعَاتٍ": "استنباط‌ها",
+          "يَخْتِمُهُ": "ختم می‌کند",
+          "الصَّغَائِرُ": "صغایر",
+          "الْكَبَائِرُ": "کبایر",
+          "تَفَضُّلِهِ": "فضل او"
+        }
+      },
+      "id": {
+        "summary": "RINGKASAN: ",
+        "seo_question": "Apa metode Imam Al-Rida dalam membaca Al-Qur'an dan apa pendapatnya tentang dosa-dosa kecil?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida",
+          "الْمَأْمُونُ": "Al-Ma'mun",
+          "انْتِزَاعَاتٍ": "Ekstraksi/penurunan",
+          "يَخْتِمُهُ": "Ia menyelesaikannya",
+          "الصَّغَائِرُ": "Dosa-dosa kecil",
+          "الْكَبَائِرُ": "Dosa-dosa besar",
+          "تَفَضُّلِهِ": "Anugerahnya"
+        }
+      },
+      "bn": {
+        "summary": "উইয়ুন আল-আখবার আল-রিদা হাদিসটি ইমাম আল-রিদা (আস)-এর সার্বজনীন জ্ঞান (আল-ইলম আল-শামিল) এবং কুরআনের গভীর চিন্তাশীল সম্পৃক্ততাকে তুলে ধরে, যেখানে তিনি তাঁর প্রাঞ্জল উত্তরগুলো সরাসরি কুরআনের আয়াত থেকে আহরণ করেছিলেন। এটি তাত্ত্বিক নীতিটি তুলে ধরে যে ছোট গুনাহগুলো বড় অপরাধের দরজা এবং জোর দেয় যে ঐশ্বরিক আনুগত্য ঈশ্বরের অন্তর্নিহিত করুণা (লুত্ব ও ইহসান)-এর উপর ভিত্তি করে, কেবল শাস্তির ভয় বা পুরস্কারের আশার উপর নয়।",
+        "seo_question": "ইমাম আল-রিদা কুরআন তিলাওয়াতের যে পদ্ধতি অনুসরণ করতেন এবং ছোট গুনাহ সম্পর্কে তিনি কী বলেছিলেন?",
+        "key_terms": {
+          "الرِّضَا": "আল-রিদা",
+          "الْمَأْمُونُ": "আল-মামুন",
+          "انْتِزَاعَاتٍ": "নির্গত/উদ্ভূত",
+          "يَخْتِمُهُ": "সমাপ্ত করেন",
+          "الصَّغَائِرُ": "ছোট গুনাহ",
+          "الْكَبَائِرُ": "বড় গুনাহ",
+          "تَفَضُّلِهِ": "তার করুণা/অনুগ্রহ"
+        }
+      },
+      "es": {
+        "summary": "Esta narración de *Uyun Akhbar al-Riada (AS) subraya el conocimiento integral de Al-Rida (al-'Ilm al-Shamil) y su profunda y contemplativa relación con el Corán, de cuyas versículos derivaba sus elocuentes respuestas. Destaca el principio teológico de que los pecados menores son puertas a las grandes transgresiones y enfatiza que la obediencia divina se fundamenta en la benevolencia inherente de Dios (lutf e ihsan), no meramente en el temor al castigo o la esperanza de recompensa.",
+        "seo_question": "¿Cuál fue el método de recitación del Corán de Al-Rida y qué dijo sobre los pecados menores?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida (un título para Imam Musa al-Kadhim, el séptimo Imam)",
+          "الْمَأْمُونُ": "Al-Ma'mun (el califa abasí que puso a prueba a los Imames)",
+          "انْتِزَاعَاتٍ": "Derivaciones (referido a extraer el discurso del Corán)",
+          "يَخْتِمُهُ": "Lo completa (referido a completar la recitación del Corán)",
+          "الصَّغَائِرُ": "Pecados menores",
+          "الْكَبَائِرُ": "Pecados mayores",
+          "تَفَضُّلِهِ": "Su gracia/favor"
+        }
+      },
+      "fr": {
+        "summary": "Cette narration tirée d'*Uyun Akhbar al-Rida* souligne la connaissance complète de l'Imam Al-Rida (AS) (*al-'Ilm al-Shamil*) et son engagement profond et contemplatif avec le Coran, d'où il tirait ses réponses éloquentes directement des versets. Elle met en lumière le principe théologique selon lequel les péchés mineurs sont des portes d'entrée vers les transgressions majeures et souligne que l'obéissance divine est enracinée dans la bienveillance inhérente de Dieu (*lutf* et *ihsan*), et non simplement dans la crainte du châtiment ou l'espoir de la récompense.",
+        "seo_question": "Quelle était la méthode de récitation du Coran de l'Imam Al-Rida et que disait-il des péchés mineurs ?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida",
+          "الْمَأْمُونُ": "Al-Ma'mun",
+          "انْتِزَاعَاتٍ": "Extraits/déductions",
+          "يَخْتِمُهُ": "Il l'achève",
+          "الصَّغَائِرُ": "Péchés mineurs",
+          "الْكَبَائِرُ": "Péchés majeurs",
+          "تَفَضُّلِهِ": "Sa grâce/faveur"
+        }
+      },
+      "de": {
+        "summary": "Diese Überlieferung aus *Uyun Akhbar al-Rida* unterstreicht das umfassende Wissen (*al-'Ilm al-Shamil*) von Imam Al-Rida (AS) und sein tiefes, kontemplatives Engagement mit dem Koran, wobei er seine eloquenten Antworten direkt aus seinen Versen ableitete. Sie hebt das theologische Prinzip hervor, dass kleine Sünden Tore zu großen Übertretungen sind, und betont, dass göttliche Gehorsamkeit auf Gottes inhärenter Güte (*lutf* und *ihsan*) beruht, nicht nur auf der Furcht vor Strafe oder der Hoffnung auf Belohnung.",
+        "seo_question": "Was war die Methode von Imam Al-Rida beim Rezitieren des Korans und was sagte er über kleine Sünden?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida",
+          "الْمَأْمُونُ": "Al-Ma'mun",
+          "انْتِزَاعَاتٍ": "Ableitungen",
+          "يَخْتِمُهُ": "Er vollendet es",
+          "الصَّغَائِرُ": "Kleine Sünden",
+          "الْكَبَائِرُ": "Große Sünden",
+          "تَفَضُّلِهِ": "Seine Gnade"
+        }
+      },
+      "ru": {
+        "summary": "Это предание из «Уюн Ахбар ар-Рида» подчеркивает» подчеркивает всеобъемлющее знание имама ар-Рида (да будет над ним мир) (*аль-'Ильм аш-Шамил*) и его глубокое, созерцательное взаимодействие с Кораном, из которого он выводил свои красноречивые ответы непосредственно из его аятов. Оно выделяет богословский принцип, согласно которому малые грехи являются воротами к большим прегрешениям, и подчеркивает, что божественное послушание коренится в inherent благосклонности Бога (*лутф* и *иhsan*), а не просто в страхе наказания или надежде на награду.",
+        "seo_question": "Каков был метод чтения Корана имамом ар-Рида и что он говорил о малых грехах?",
+        "key_terms": {
+          "الرِّضَا": "ар-Рида",
+          "الْمَأْمُونُ": "аль-Ма'мун",
+          "انْتِزَاعَاتٍ": "извлечения/выводы",
+          "يَخْتِمُهُ": "он завершает его",
+          "الصَّغَائِرُ": "малые грехи",
+          "الْكَبَائِرُ": "большие грехи",
+          "تَفَضُّلِهِ": "его милость/благоволение"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《优素福·阿克巴尔·里达》的圣训强调了伊玛目阿里·里达（愿主喜悦之）广博的知识（al-'Ilm al-Shamil）以及他对《古兰经》的深刻沉思与互动，他的雄辩回答直接源自经文。它突出了神学原则：小罪是大罪的门户，并强调对神的顺从根植于神固有的仁慈（lutf 和 ihsan），而不仅仅是出于对惩罚的恐惧或对奖赏的希望。",
+        "seo_question": "伊玛目阿里·里达诵读《古兰经》的方法是什么？他对小罪有何看法？",
+        "key_terms": {
+          "الرِّضَا": "阿里·里达",
+          "الْمَأْمُونُ": "马蒙",
+          "انْتِزَاعَاتٍ": "提取/推导",
+          "يَخْتِمُهُ": "他完成它",
+          "الصَّغَائِرُ": "小罪",
+          "الْكَبَائِرُ": "大罪",
+          "تَفَضُّلِهِ": "他的恩典/恩惠"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:31",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "55:1",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "31:27",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "14:34",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا الْحَاكِمُ أَبُو عَلِي الْحُسَيْنُ بْنُ أَحْمَدَ الْبَيْهَقِيُّ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى الصَّوْلِيُّ حَدَّثَنَا أَبُو ذِكْوَان قَالَ سَمِعْتُ إِبْرَاهِيمَ بْنَ الْعَبَّاسِ يَقُولُ مَا رَأَيْتُ الرِّضَا عَلَيْهِ السَّلَامُ سُئِلَ عَنْ شَيْءٍ قَطُّ إِلَّا عَلِمَهُ وَلَا رَأَيْتُ أَعْلَمَ مِنْهُ بِمَا كَانَ فِي الزَّمَانِ إِلَى وَقْتِهِ وَعَصْرِهِ وَكَانَ الْمَأْمُونُ يَمْتَحِنُهُ بِالسُّؤَالِ عَنْ كُلِّ شَيْءٍ فَيُجِيبُ فِيهِ وَكَانَ كَلَامُهُ كُلُّهُ وَجَابُهُ وَتَمَثُّلُهُ انْتِزَاعَاتٍ مِنَ الْقُرْآنِ وَكَانَ يَخْتِمُهُ فِي كُلِّ ثَلَاثٍ وَيَقُولُ لَوْ أَرَدْتُ أَنْ أَخْتِمَهُ فِي أَقْرَبَ مِنْ ثَلَاثَةٍ لَخَتَمْتُ وَلَكِنِّي مَا مَرَرْتُ بِآيَةٍ قَطُّ إِلَّا فَكَّرْتُ فِيهَا وَفِي أَيِّ شَيْءٍ أُنْزِلَتْ وَفِي أَيِّ وَقْتٍ فَلِذَلِكَ صِرْتُ أَخْتِمُ فِي كُلِّ ثَلَاثَةِ أَيَّامٍ وَمِنْ كَلَامِهِ عَلَيْهِ السَّلَامُ الْمَشْهُورِ قَوْلُهُ: الصَّغَائِرُ مِنَ الذُّنُوبِ طُرُقٌ إِلَى الْكَبَائِرِ وَمَنْ لَمْ يَخَفِ اللَّهَ فِي الْقَلِيلِ لَمْ يَخَفْهُ فِي الْكَثِيرِ وَلَوْ لَمْ يُخَوِّفِ اللَّهُ النَّاسَ بِجَنَّةٍ وَنَارٍ لَكَانَ الْوَاجِبَ عَلَيْهِمْ أَنْ يُطِيعُوهُ وَلَا يَعْصُوهُ لِتَفَضُّلِهِ عَلَيْهِمْ وَإِحْسَانِهِ إِلَيْهِمْ وَمَا بَدَأَهُمْ بِهِ مِنْ إِنْعَامِهِ الَّذِي مَا اسْتَحَقُّوهُ",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا الْحَاكِمُ أَبُو عَلِي الْحُسَيْنُ بْنُ أَحْمَدَ الْبَيْهَقِيُّ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ يَحْيَى الصَّوْلِيُّ حَدَّثَنَا أَبُو ذِكْوَان قَالَ سَمِعْتُ إِبْرَاهِيمَ بْنَ الْعَبَّاسِ يَقُولُ",
+      "matn_ar": "مَا رَأَيْتُ الرِّضَا عَلَيْهِ السَّلَامُ سُئِلَ عَنْ شَيْءٍ قَطُّ إِلَّا عَلِمَهُ وَلَا رَأَيْتُ أَعْلَمَ مِنْهُ بِمَا كَانَ فِي الزَّمَانِ إِلَى وَقْتِهِ وَعَصْرِهِ وَكَانَ الْمَأْمُونُ يَمْتَحِنُهُ بِالسُّؤَالِ عَنْ كُلِّ شَيْءٍ فَيُجِيبُ فِيهِ وَكَانَ كَلَامُهُ كُلُّهُ وَجَابُهُ وَتَمَثُّلُهُ انْتِزَاعَاتٍ مِنَ الْقُرْآنِ وَكَانَ يَخْتِمُهُ فِي كُلِّ ثَلَاثٍ وَيَقُولُ لَوْ أَرَدْتُ أَنْ أَخْتِمَهُ فِي أَقْرَبَ مِنْ ثَلَاثَةٍ لَخَتَمْتُ وَلَكِنِّي مَا مَرَرْتُ بِآيَةٍ قَطُّ إِلَّا فَكَّرْتُ فِيهَا وَفِي أَيِّ شَيْءٍ أُنْزِلَتْ وَفِي أَيِّ وَقْتٍ فَلِذَلِكَ صِرْتُ أَخْتِمُ فِي كُلِّ ثَلَاثَةِ أَيَّامٍ وَمِنْ كَلَامِهِ عَلَيْهِ السَّلَامُ الْمَشْهُورِ قَوْلُهُ: الصَّغَائِرُ مِنَ الذُّنُوبِ طُرُقٌ إِلَى الْكَبَائِرِ وَمَنْ لَمْ يَخَفِ اللَّهَ فِي الْقَلِيلِ لَمْ يَخَفْهُ فِي الْكَثِيرِ وَلَوْ لَمْ يُخَوِّفِ اللَّهُ النَّاسَ بِجَنَّةٍ وَنَارٍ لَكَانَ الْوَاجِبَ عَلَيْهِمْ أَنْ يُطِيعُوهُ وَلَا يَعْصُوهُ لِتَفَضُّلِهِ عَلَيْهِمْ وَإِحْسَانِهِ إِلَيْهِمْ وَمَا بَدَأَهُمْ بِهِ مِنْ إِنْعَامِهِ الَّذِي مَا اسْتَحَقُّوهُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "الحاكم أبو علي الحسين بن أحمدالبيهقي قال: حدثنا محمد بن يحيى الصولي حدثنا أبو ذكوان قال سمعت إبراهيم بن العباس",
+          "name_en": "al-Hakim Abu Ali al-Husayn b. Ahmad al-Bayhaqi",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

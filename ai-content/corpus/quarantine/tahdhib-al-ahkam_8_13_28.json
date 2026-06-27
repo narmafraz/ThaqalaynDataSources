@@ -1,0 +1,355 @@
+{
+  "verse_path": "/books/tahdhib-al-ahkam:8:13:28",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-04",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] en translation length out of bounds: 30 en words vs 88 ar words (ratio=0.34, expected 35.2-352.0)",
+    "chunks[1] type='body' starts with chain transmission verb 'حدثني' — likely mis-typed isnad content",
+    "chunks[2] en translation length out of bounds: 13 en words vs 56 ar words (ratio=0.23, expected 22.4-224.0)",
+    "chunks[5] en translation length out of bounds: 18 en words vs 2 ar words (ratio=9.00, expected 0.4-16.0)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "ethics",
+      "social_relations"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imams_biography",
+      "financial_law",
+      "patience",
+      "spousal_rights",
+      "judicial_rulings"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+        "translations": {
+          "en": "Ahmad ibn Muhammad narrated from Ali ibn al-Hakam, from Ali ibn Abi Hamzah, from Abi Basir, from Abi Abdillah (peace be upon him) who said:",
+          "ur": "احمد بن محمد نے علی بن حکم سے، علی بن ابی حمزہ سے، ابی بصیر سے، ابی عبداللہ (علیه السلام) سے روایت کی جنہوں نے کہا:",
+          "tr": "Ahmed bin Muhammed, Ali bin el-Hakam'dan, Ali bin Ebu Basir'den, Ebu Abdillah (aleyhisselam)'dan rivayet etti ki:",
+          "fa": "احمد بن محمد از علی بن حکم، از علی بن ابی حمزه، از ابی بصیر، از ابی عبدالله (علیه السلام) روایت کرده است که گفت:",
+          "id": "Ahmad ibn Muhammad meriwayatkan dari Ali ibn al-Hakam, dari Ali ibn Abi Hamzah, dari Abi Basir, dari Abi Abdillah (alaihissalam) yang berkata:",
+          "bn": "আহমাদ ইবনে মুহাম্মাদ বর্ণনা করেছেন আলী ইবনে আল-হাকাম থেকে, আলী ইবনে আবী হামযা থেকে, আবী বসীর থেকে, আবী আবদিল্লাহ (আলাইহিস সালাম) থেকে, যিনি বলেছেন:",
+          "es": "Ahmad ibn Muhammad narró de Ali ibn al-Hakam, de Ali ibn Abi Hamzah, de Abi Basir, de Abi Abdillah (la paz sea con él) quien dijo:",
+          "fr": "Ahmad ibn Muhammad a raconté d'après Ali ibn al-Hakam, d'après Ali ibn Abi Hamzah, d'après Abi Basir, d'après Abi Abdillah (que la paix soit sur lui) qui a dit :",
+          "de": "Ahmad ibn Muhammad narrierte von Ali ibn al-Hakam, von Ali ibn Abi Hamzah, von Abi Basir, von Abi Abdillah (friede sei mit ihm), der sagte:",
+          "ru": "Ахмад ибн Мухаммад передал от Али ибн аль-Хакама, от Али ибн Аби Хамзы, от Аби Басира, от Аби Абдуллаха (да будет мир с ним), который сказал:",
+          "zh": "艾哈迈德·本·穆罕默德传自阿里·本·哈卡姆，从阿里·本·阿比·哈姆扎，从艾比·巴希尔，从艾比·阿卜杜拉（愿主福安之）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 22
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حَدَّثَنِي أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ : «أَنَّ أَبَاهُ كَانَتْ عِنْدَهُ امْرَأَةٌ مِنَ الْخَوَارِجِ أَظُنُّهُ قَالَ مِنْ بَنِي حَنِيفَةَ فَقَالَ لَهُ مَوْلًى لَهُ يَا ابْنَ رَسُولِ اللَّهِ إِنَّ عِنْدَكَ امْرَأَةً تَبَرَّأُ مِنْ جَدِّكَ فَقُضِيَ لِأَبِي أَنَّهُ طَلَّقَهَا فَادَّعَتْ عَلَيْهِ صَدَاقَهَا فَجَاءَتْ بِهِ إِلَى أَمِيرِ الْمَدِينَةِ تَسْتَعْدِيهِ فَقَالَ لَهُ أَمِيرُ الْمَدِينَةِ يَا عَلِيُّ إِمَّا أَنْ تَحْلِفَ وَإِمَّا أَنْ تُعْطِيَهَا فَقَالَ لِي يَا بُنَيَّ قُمْ فَأَعْطِهَا أَرْبَعَ مِائَةِ دِينَارٍ فَقُلْتُ لَهُ يَا أَبَتِ جُعِلْتُ فِدَاكَ أَ لَسْتَ مُحِقّاً قَالَ بَلَى وَلَكِنِّي أَجْلَلْتُ اللَّهَ عَزَّ وَ جَلَّ أَنْ أَحْلِفَ بِهِ يَمِينَ صَبْرٍ».",
+        "translations": {
+          "en": "Abu Ja'far (peace be upon him) told me: 'His father had a wife among the Khawarij, I think he said from Banu Hanifah. A slave of his said to him, ",
+          "ur": "ابو جعفر (علیہ السلام) نے مجھے بتایا: ان کے والد کی ایک بیوی خوارج میں سے تھی، میرا خیال ہے کہ انہوں نے بنو حنیفہ کہا تھا۔ ان کے ایک غلام نے ان سے کہا،",
+          "tr": "Ebu Cafer (aleyhisselam) bana şöyle dedi: \"Babasının Hareçîler'den bir karısı vardı, sanırım Beni Hanife'den dedi. Bir kölesi ona şöyle dedi:",
+          "fa": "ابو جعفر (علیه السلام) به من گفت: پدرش زنی از خوارج داشت، به گمانم از بنو حنیفه بود. یکی از غلامانش به او گفت:",
+          "id": "Abu Ja'far (alamah) berkata kepadaku: \"Ayahnya memiliki seorang istri dari kaum Khawarij, menurutku ia mengatakan dari Bani Hanifah. Seorang budaknya berkata kepadanya,\"",
+          "bn": "আবু জাফর (রহ.) আমাকে বললেন: 'তার পিতার এক স্ত্রী ছিলেন খাওয়ারিজ গোত্রের, আমার মনে হয় তিনি বানু হানিফা গোত্রের। তাঁর এক দাস তাঁকে বলল,'",
+          "es": "Abu Ja'far (la paz sea con él) me narró: «Su padre tenía una esposa entre los Jawariy, creo que dijo de Banu Hanifah. Un esclavo suyo le dijo:",
+          "fr": "Abou Ja'far (que la paix soit sur lui) mite sur lui) m'a dit : « Son père avait une épouse parmi les Khawarij, il a dit de Banou Hanifa. Un esclave de lui lui a dit,",
+          "de": "Abu Ja'far (friede sei mit ihm) sagte zu mir: „Sein Vater hatte eine Frau aus den Chawaridsch, glaube ich, sagte er, aus Banu Hanifah. Ein Sklave von ihm sagte zu ihm,",
+          "ru": "Абу Джафар (да будет мир с ним) сказал мне: «У его отца его была жена из хаваридов, я думаю, он сказал из Бану Ханифа. Его раб сказал ему,",
+          "zh": "阿卜杜·贾法尔（愿主喜悦他）告诉我：他的父亲有一位来自哈瓦利吉派的妻子，我想他是说来自巴尼·哈尼法部族。他的一个奴隶对他说："
+        },
+        "word_start": 22,
+        "word_end": 110
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "O son of the Messenger of Allah, you have a wife who is dissatisfied with your grandfather (i.e., Ali). So it was decreed for my father that he divorced her. She claimed her dowry from him and brought it to the ruler of the city, seeking his judgment. The ruler of the city said to him, ",
+        "translations": {
+          "en": "O Ali, either you swear an oath or you give her [the money].",
+          "ur": "اے علی، یا تو قسم کھاؤ یا اسے [پیسہ] دو۔",
+          "tr": "Ey Ali, ya yemin edersin ya da ona [parayı] verirsin.",
+          "fa": "ای علی، یا سوگند یاد می‌کنی یا به او [پول] می‌دهی.",
+          "id": "Wahai Ali, baiklah engkau bersumpah atau engkau memberikan kepadanya [uang].",
+          "bn": "হে আলী, তুমি শপথ করো অথবা তাকে [অর্থ] দাও।",
+          "es": "¡Oh, ʿAlī! O juras un juramento o le das el dinero [a ella].",
+          "fr": "Ô Ali, soit tu jures un serment, soit tu lui donnes [l'argent].",
+          "de": "O Ali, entweder schwörst du einen Eid oder du gibst ihr [das Geld].",
+          "ru": "О Али, либо ты либо поклянёшься, либо отдашь ей [деньги].",
+          "zh": "阿里啊，你要么发誓，要么给她[这笔钱]。"
+        },
+        "word_start": 110,
+        "word_end": 166
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "He said to me, ",
+        "translations": {
+          "en": "O my son, stand up and give her four hundred dinars.",
+          "ur": "اے میرے بیٹا! اٹھو اور اسے چار سو دینار دو۔",
+          "tr": "Ey oğlum, ayağa kalk ve ona dört yüz dinar ver.",
+          "fa": "ای پسر من، برخیز و چهل دینار به او بده. ",
+          "id": "Wahai anakku, berdirilah dan berikanlah kepadanya empat ratus dinar.",
+          "bn": "হে আমার পুত্র, উঠে তাকে চারশো দিরাম দাও।",
+          "es": "¡Oh, mi hijo! Párate y dale cuatrocientos dinares.",
+          "fr": "Ô mon fils, lève-toi et donne-lui quatre cents dinars.",
+          "de": "O mein Sohn, stehe auf und gib ihr vierhundert Dinare.",
+          "ru": "О сын мой, встань и дай ей четыреста динаров.",
+          "zh": "我的儿子，站起来给她四百第纳尔。"
+        },
+        "word_start": 166,
+        "word_end": 170
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "I said to him, ",
+        "translations": {
+          "en": "O my father, may I be your ransom, are you not in the right?",
+          "ur": "اے میرے والد! میں آپ کی فدا ہو، کیا آپ سیدھے راستے پر نہیں ہیں؟",
+          "tr": "Babacığım, canım senin fedaisi olayım, haklı değil misin?",
+          "fa": "ای پدرم پدر، جانم فدایت، آیا تو بر حق نیستی؟",
+          "id": "Wahai ayahku, semoga aku menjadi tebusan bagimu, bukankah engkau berada di jalan yang benar?",
+          "bn": "হে আমার পিতা, আমি কি আপনার প্রাণের বিনিময়ে দিতে পারি না, আপনি কি সঠিক পথে নন?",
+          "es": "¡Oh padre mío! Que yo sea tu rescate, ¿no estás en lo correcto?",
+          "fr": "Ô mon père, que je sois ton rançon, n'es-tu pas dans le droit ?",
+          "de": "O mein Vater, möge ich dein Lösegeld ich sein, bist du nicht auf dem rechten Weg?",
+          "ru": "О мой отец, пусть я буду выкупом за тебя, разве ты не на правильном пути?",
+          "zh": "我的父亲啊，愿我为您赎身，您难道不在正道之上吗？"
+        },
+        "word_start": 170,
+        "word_end": 174
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "He said, ",
+        "translations": {
+          "en": "Yes, but I wanted to spare Allah (glory be to Him) from me swearing an oath of certainty/truth.",
+          "ur": "ہاں، لیکن میں چاہتا تھا کہ اللہ تعالیٰ سے میری جانب سے یقین کی قسم کھانے سے بچاؤں۔",
+          "tr": "Evet, fakat Allah'ım (azze ve celle) benden kesinlik/doğruluk yemini etmemesini istedi.",
+          "fa": "آری، ولی می‌خواستم خداوند را از اینکه من با اطمینان قسم بخورم، بری نگه دارم.",
+          "id": "Ya, tetapi aku ingin membebaskan Allah (Mahasuci Dia) dari sumpahku yang bersifat pasti/benar.",
+          "bn": "হ্যাঁ, কিন্তু আমি চাইনি যে আল্লাহর (তায়ালা) কাছে আমি সত্যের শপথ নিই।",
+          "es": "Sí, pero quería ahorrarle a Allah (gloria sea a Él) el jurar un juramento de certeza/verdad.",
+          "fr": "Oui, mais je voulais épargner à Allah (Gloire Lui soit rendue) le fait de jurer un serment de certitude/vérité.",
+          "de": "Ja, aber ich wollte Allah (ihm sei Ehre) davor bewahren, dass ich einen Eid der Gewissheit/Wahrheit schwöre.",
+          "ru": "Да, но я хотел избавить Аллаха (да будет Он прославлен) от того, чтобы я клялся клятвой достоверности/истинности.",
+          "zh": "是的，但我想避免真主（荣耀归于祂）因我发确凿之誓而受累。"
+        },
+        "word_start": 174,
+        "word_end": 176
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Baqir (peace be upon him) chose to pay the four hundred dinars rather than swear an oath of truthfulness, illustrating the Shia scholarly principle of 'Ijlal' (concealing or sparing) Allah from the potential imperfection of a solemn oath, even when one is certain of their right. This act highlights the spiritual prudence of avoiding the risk of minor deficiency in an oath of truth, a concept deeply rooted in the distinction between *Yamin Sadiqah* and *Yamin Ghamus*. The narrative underscores the Imam's humility and his meticulous care for the spiritual weight of divine names in legal and personal contexts.",
+        "seo_question": "Why did Imam al-Baqir choose to pay the dowry instead of swearing an oath?",
+        "key_terms": {
+          "الْخَوَارِج": "The Khawarij, a early Islamic sect known for their political dissent",
+          "صَدَاقَهَا": "Her dowry (mahr)",
+          "أَمِيرُ الْمَدِينَةِ": "The ruler/governor of the city",
+          "يَمِينَ صَبْرٍ": "An oath of certainty/truthfulness",
+          "أَجْلَلْتُ اللَّهَ": "I spared/protected Allah (from me swearing)"
+        }
+      },
+      "ur": {
+        "summary": "امام باقر (علیہ السلام) نے سچ کا قسم کھانے کے بجائے چار سو دینار ادا کرنا پسند کیا، جو شیعہ علمی اصول 'اجلال' (اللہ کو قسم کی ممکنہ کمی سے بچانا) کی عکاسی کرتا ہے، حالانکہ وہ اپنے حق پر یقین رکھتے تھے۔ اس عمل میں سچ کی قسم میں معمولی کمی کے خطرے سے بچنے کی روحانی احتیاط نمایاں ہے، جو 'یمین صادقہ' اور 'یمین غموس' کے فرق سے گہرا تعلق رکھتا ہے۔ یہ واقعہ امام کی عاجزی اور شرعی و ذاتی حوالوں میں الٰہی ناموں کی روحانی اہمیت کی ان کی دقیق نگہداشت کو اجاگر کرتا ہے۔",
+        "seo_question": "امام باقر نے قسم کھانے کے بجائے مہر ادا کیوں کی؟",
+        "key_terms": {
+          "الْخَوَارِج": "خوارج",
+          "صَدَاقَهَا": "اس کی مہر",
+          "أَمِيرُ الْمَدِينَةِ": "شہر کا حاکم",
+          "يَمِينَ صَبْرٍ": "یقین/سچ کی قسم",
+          "أَجْلَلْتُ اللَّهَ": "میں نے اللہ کو (میری قسم سے) بچایا"
+        }
+      },
+      "tr": {
+        "summary": "İmam el-Bakır (aleyhisselam), haklı olmasına rağmen yemin etme riskini göze almak yerine dört yüz dinar ödemeyi tercih ederek, Şii ilim geleneğinde 'İjlal' (Allah'ı yemindeki olası kusurdan koruma) prensibini sergilemiştir. Bu davranış, 'Yemin-i Sadıka' (doğru yemin) ile 'Yemin-i Gamus' (büyük günah yemin) arasındaki ayrımın derinliklerinde yatan, yeminin manevi ağırlığına gösterilen hassasiyeti ve İmam'ın tevazusunu vurgulamaktadır.",
+        "seo_question": "İmam el-Bakır neden yemin etmek yerine çeyiz parasını ödemeyi tercih etti?",
+        "key_terms": {
+          "الْخَوَارِج": "Havariç, siyasi muhalefetleriyle bilinen erken İslam mezhebi",
+          "صَدَاقَهَا": "Onun çeyizi (mehir)",
+          "أَمِيرُ الْمَدِينَةِ": "Şehrin valisi/hakimi",
+          "يَمِينَ صَبْرٍ": "Kesinlik/doğruluk yemini",
+          "أَجْلَلْتُ اللَّهَ": "Allah'ı (benim yemin etmemden) korudum/emsal kıldım"
+        }
+      },
+      "fa": {
+        "summary": "امام باقر (علیه السلام) پرداخت چهارصد دینار را بر قسم خوردن به راستی ترجیح داد که نشان‌دهنده اصل شیعی «اجلال» (بزرگداشت یا دوری از نقص احتمالی) خداوند از قسم جادری است، حتی زمانی که فرد از حق خود مطمئن است. این عمل نشان‌دهنده تدبیر معنوی در پرهیز از خطر نقص جزئی در قسم راستی است، مفهومی که ریشه در تمایز میان «یمین صادق» و «یمین غموس» دارد. این روایت بر فروتنی امام و دقت او در وزن معنوی نام‌های الهی در زمینه‌های حقوقی و شخصی تأکید دارد.",
+        "seo_question": "چرا امام باقر (علیه السلام) به جای قسم خوردن، مهریه را پرداخت کرد؟",
+        "key_terms": {
+          "الْخَوَارِج": "خوارج",
+          "صَدَاقَهَا": "مهریه او",
+          "أَمِيرُ الْمَدِينَةِ": "حاکم/فرماندار شهر",
+          "يَمِينَ صَبْرٍ": "قسم یقین/راستی",
+          "أَجْلَلْتُ اللَّهَ": "خدا را از (قسم خوردن من) حفظ کردم"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Baqir (alamah) memilih membayar empat ratus dinar daripada bersumpah dengan sumpah kebenaran, yang menggambarkan prinsip ulama Syiah tentang 'Ijlal' (menyembunyikan atau memuliakan) Allah dari kemungkinan ketidaksempurnaan dalam sumpah yang serius, meskipun seseorang yakin akan haknya. Tindakan ini menyoroti kehati-hatian spiritual dalam menghindari risiko kekurangan kecil dalam sumpah kebenaran, sebuah konsep yang berakar kuat pada perbedaan antara *Yamin Sadiqah* dan *Yamin Ghamus*. Narasi ini menekankan kerendahan hati Imam dan perhatiannya yang teliti terhadap bobot spiritual nama-nama Ilahi dalam konteks hukum dan pribadi.",
+        "seo_question": "Mengapa Imam al-Baqir memilih membayar mahar daripada bersumpah?",
+        "key_terms": {
+          "الْخَوَارِج": "Kaum Khawarij, sebuah sekte Islam awal yang dikenal karena perbedaan politik mereka",
+          "صَدَاقَهَا": "Maharnya",
+          "أَمِيرُ الْمَدِينَةِ": "Penguasa/wali kota kota tersebut",
+          "يَمِينَ صَبْرٍ": "Sumpah pasti/kebenaran",
+          "أَجْلَلْتُ اللَّهَ": "Aku memuliakan Allah (dari sumpahku)"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আল-বাখির (আলৈহিস সালাম) সত্যের শপথ নেওয়ার পরিবর্তে চারশো দিরাম পরিশোধ করতে পছন্দ করেছিলেন, যা শিয়া আলেমদের 'ইজলাল' (আল্লাহকে শপথের সম্ভাব্য অসম্পূর্ণতা থেকে রক্ষা করা) নীতির উদাহরণ, এমনকি যখন একজন নিশ্চিত থাকেন যে তাদের অধিকার সঠিক। এই কাজটি সত্যের শপথে সামান্য ঘাটতির ঝুঁকি এড়ানোর আধ্যাত্মিক সতর্কতাকে তুলে ধরে, যা *ইয়ামিন সাদিকা* এবং *ইয়ামিন গামুস*-এর পার্থক্যের গভীরে নিহিত। এই কাহিনী ইমামের বিনম্রতা এবং আইনি ও ব্যক্তিগত প্রসঙ্গে ঐশ্বরিক নামগুলোর আধ্যাত্মিক ভার সম্পর্কে তাঁর যত্নশীলতার প্রতিফলন ঘটায়।",
+        "seo_question": "ইমাম আল-বাখির শপথ নেওয়ার পরিবর্তে দোহর পরিশোধ করতে কেন পছন্দ করেছিলেন?",
+        "key_terms": {
+          "الْخَوَارِج": "খাওয়ারিজ, রাজনৈতিক বিদ্রোহের জন্য পরিচিত একটি প্রাচীন ইসলামি সম্প্রদায়",
+          "صَدَاقَهَا": "তার দোহর (মাহর)",
+          "أَمِيرُ الْمَدِينَةِ": "শহরের শাসক/গভর্নর",
+          "يَمِينَ صَبْرٍ": "নিশ্চয়তা/সত্যের শপথ",
+          "أَجْلَلْتُ اللَّهَ": "আল্লাহকে (আমার শপথ থেকে) রক্ষা করেছি"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Baqr (que la paz sea con él) optó por pagar los cuatrocientos dinares en lugar de jurar veracidad, ilustrando el principio erudito chií de 'Ijlal' (ocultar o ahorrar) a Alá de la posible imperfección de un juramento solemne, incluso cuando uno está seguro de su derecho. Este acto destaca la prudencia espiritual de evitar el riesgo de una leve deficiencia en un juramento de verdad, un concepto profundamente arraigado en la distinción entre *Yamin Sadiqah* e *Yamin Ghamus*. La narrativa subraya la humildad del Imam y su cuidado meticuloso por el peso espiritual de los nombres divinos en contextos legales y personales.",
+        "seo_question": "¿Por qué el Imam al-Baqr eligió pagar la dote en lugar de jurar?",
+        "key_terms": {
+          "الْخَوَارِج": "Los Jawariy, una secta islámica temprana conocida por su disidencia política",
+          "صَدَاقَهَا": "Su dote (mahr)",
+          "أَمِيرُ الْمَدِينَةِ": "El gobernante o gobernador de la ciudad",
+          "يَمِينَ صَبْرٍ": "Un juramento de certeza/veracidad",
+          "أَجْلَلْتُ اللَّهَ": "Ahorre/protecté a Alá (de que yo jurara)"
+        }
+      },
+      "fr": {
+        "summary": "L’imam al-Baqir (que la paix soit sur lui) a choisi de payer les quatre cents dinars plutôt que de prêter serment de vérité, illustrant le principe chiite d’« Ijlal » (concevoir ou épargner) Allah contre l’imperfection potentielle d’un serment solennel, même lorsque l’on est certain de son droit. Cet acte met en lumière la prudence spirituelle consistant à éviter le risque d’une légère déficience dans un serment de vérité, un concept profondément enraciné dans la distinction entre *Yamin Sadiqah* et *Yamin Ghamus*. Le récit souligne l’humilité de l’imam et son soin méticuleux du poids spirituel des noms divins dans les contextes juridiques et personnels.",
+        "seo_question": "Pourquoi l’imam al-Baqir a-t-il choisi de payer la dot plutôt que de prêter serment ?",
+        "key_terms": {
+          "الْخَوَارِج": "Les Khawarij, une secte islamique ancienne connue pour son dissentiment politique",
+          "صَدَاقَهَا": "Sa dot (mahr)",
+          "أَمِيرُ الْمَدِينَةِ": "Le gouverneur de la ville",
+          "يَمِينَ صَبْرٍ": "Un serment de certitude/vérité",
+          "أَجْلَلْتُ اللَّهَ": "J’ai épargné/protégé Allah (de moi prêter serment)"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Baqir (Friede sei mit ihm) entschied sich, die vierhundert Dinare zu zahlen, anstatt einen Eid der Wahrhaftigkeit zu schwören, was das schiitische Gelehrtenprinzip der 'Ijlal' (Verbergen oder Verschonen) Allahs vor der potenziellen Unvollkommenheit eines feierlichen Eides veranschaulicht, selbst wenn man sich seiner Rechtmaßigkeit sicher ist. Diese Handlung unterstreicht die spirituelle Umsicht, das Risiko einer geringfugigen Mangelhaftigkeit in einem Eid der Wahrheit zu vermeiden, ein Konzept, das tief in der Unterscheidung zwischen *Yamin Sadiqah* und *Yamin Ghamus* verwurzelt ist. Die Erzahlung betont die Demut des Imams und seine sorgfaltige Beachtung des spirituellen Gewichts der gottlichen Namen in rechtlichen und personlichen Kontexten.",
+        "seo_question": "Warum entschied sich Imam al-Baqir, die Mitgift zu zahlen, anstatt einen Eid zu schworen?",
+        "key_terms": {
+          "الْخَوَارِج": "Die Chawaridsch, eine fruhe islamische Sekte, bekannt fur ihre politische Dissidenz",
+          "صَدَاقَهَا": "Ihre Mitgift (Mahr)",
+          "أَمِيرُ الْمَدِينَةِ": "Der Herrscher/Gouverneur der Stadt",
+          "يَمِينَ صَبْرٍ": "Ein Eid der Gewissheit/Wahrhaftigkeit",
+          "أَجْلَلْتُ اللَّهَ": "Ich verschonte Allah (davor, von mir schworen zu lassen)"
+        }
+      },
+      "ru": {
+        "summary": "Имам аль-Бакир (да (да будет над ним мир) предпочел выплатить четыреста динаров, чем дать клятву правдивости, что иллюстрирует шиитский научный принцип «иджал» (сокрытие или сбережение Аллаха от потенциального несовершенства торжественной клятвы), даже когда человек уверен в своей правоте. Этот поступок подчеркивает духовную осмотрительность в избегании риска незначительного недостатка в клятве правды, концепцию, глубоко укорененную в различии между *Ямин Садиqa* и *Ямин Гамус*. Повествование подчеркивает смирение имама и его тщательную заботу о духовном весе божественных имен в правовых и личных контекстах.",
+        "seo_question": "Почему имам аль-Бакир предпочел выплатить приданое, вместо того чтобы давать клятву?",
+        "key_terms": {
+          "الْخَوَارِج": "Хавариджи, ранняя исламская секта, известная своим политическим инакомыслием",
+          "صَدَاقَهَا": "Ее приданое (махра)",
+          "أَمِيرُ الْمَدِينَةِ": "Правитель/наместник города",
+          "يَمِينَ صَبْرٍ": "Клятва уверенности/правдивости",
+          "أَجْلَلْتُ اللَّهَ": "Я сберег/защитил Аллаха (от того, чтобы я дал клятву)"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目巴基尔（愿主福安之）选择支付四百第纳尔而非发誓确证，体现了什叶派学者关于“伊吉拉尔”（Ijlal，即对真主表示尊崇/避免瑕疵）的原则，即即使确信自己有理，也避免让真主承担誓言可能存在的微小瑕疵。这一行为凸显了避免在确证誓言中承担轻微缺陷风险的灵性审慎，该概念深深植根于“真实誓言”（Yamin Sadiqah）与“欺诈誓言”（Yamin Ghamus）的区别之中。叙事强调了伊玛目的谦逊，以及他在法律和私人语境中对神圣之名精神重量的细致关怀。",
+        "seo_question": "伊玛目巴基尔为何选择支付聘礼而非发誓？",
+        "key_terms": {
+          "الْخَوَارِج": "哈瓦利吉派",
+          "صَدَاقَهَا": "她的聘礼",
+          "أَمِيرُ الْمَدِينَةِ": "城市统治者/总督",
+          "يَمِينَ صَبْرٍ": "确证誓言",
+          "أَجْلَلْتُ اللَّهَ": "我使真主免受（我发誓的）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:224",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:79",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:82",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ حَدَّثَنِي أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ : «أَنَّ أَبَاهُ كَانَتْ عِنْدَهُ امْرَأَةٌ مِنَ الْخَوَارِجِ أَظُنُّهُ قَالَ مِنْ بَنِي حَنِيفَةَ فَقَالَ لَهُ مَوْلًى لَهُ يَا ابْنَ رَسُولِ اللَّهِ إِنَّ عِنْدَكَ امْرَأَةً تَبَرَّأُ مِنْ جَدِّكَ فَقُضِيَ لِأَبِي أَنَّهُ طَلَّقَهَا فَادَّعَتْ عَلَيْهِ صَدَاقَهَا فَجَاءَتْ بِهِ إِلَى أَمِيرِ الْمَدِينَةِ تَسْتَعْدِيهِ فَقَالَ لَهُ أَمِيرُ الْمَدِينَةِ يَا عَلِيُّ إِمَّا أَنْ تَحْلِفَ وَإِمَّا أَنْ تُعْطِيَهَا فَقَالَ لِي يَا بُنَيَّ قُمْ فَأَعْطِهَا أَرْبَعَ مِائَةِ دِينَارٍ فَقُلْتُ لَهُ يَا أَبَتِ جُعِلْتُ فِدَاكَ أَ لَسْتَ مُحِقّاً قَالَ بَلَى وَلَكِنِّي أَجْلَلْتُ اللَّهَ عَزَّ وَ جَلَّ أَنْ أَحْلِفَ بِهِ يَمِينَ صَبْرٍ». O son of the Messenger of Allah, you have a wife who is dissatisfied with your grandfather (i.e., Ali). So it was decreed for my father that he divorced her. She claimed her dowry from him and brought it to the ruler of the city, seeking his judgment. The ruler of the city said to him, He said to me, I said to him, He said,",
+    "isnad_matn": {
+      "isnad_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+      "matn_ar": "حَدَّثَنِي أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ : «أَنَّ أَبَاهُ كَانَتْ عِنْدَهُ امْرَأَةٌ مِنَ الْخَوَارِجِ أَظُنُّهُ قَالَ مِنْ بَنِي حَنِيفَةَ فَقَالَ لَهُ مَوْلًى لَهُ يَا ابْنَ رَسُولِ اللَّهِ إِنَّ عِنْدَكَ امْرَأَةً تَبَرَّأُ مِنْ جَدِّكَ فَقُضِيَ لِأَبِي أَنَّهُ طَلَّقَهَا فَادَّعَتْ عَلَيْهِ صَدَاقَهَا فَجَاءَتْ بِهِ إِلَى أَمِيرِ الْمَدِينَةِ تَسْتَعْدِيهِ فَقَالَ لَهُ أَمِيرُ الْمَدِينَةِ يَا عَلِيُّ إِمَّا أَنْ تَحْلِفَ وَإِمَّا أَنْ تُعْطِيَهَا فَقَالَ لِي يَا بُنَيَّ قُمْ فَأَعْطِهَا أَرْبَعَ مِائَةِ دِينَارٍ فَقُلْتُ لَهُ يَا أَبَتِ جُعِلْتُ فِدَاكَ أَ لَسْتَ مُحِقّاً قَالَ بَلَى وَلَكِنِّي أَجْلَلْتُ اللَّهَ عَزَّ وَ جَلَّ أَنْ أَحْلِفَ بِهِ يَمِينَ صَبْرٍ». O son of the Messenger of Allah, you have a wife who is dissatisfied with your grandfather (i.e., Ali). So it was decreed for my father that he divorced her. She claimed her dowry from him and brought it to the ruler of the city, seeking his judgment. The ruler of the city said to him,  He said to me,  I said to him,  He said,",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ اَلْحَكَمِ",
+          "name_en": "'Ali ibn al-Hakam",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 15
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ أَبِي حَمْزَةَ",
+          "name_en": "Ali ibn Abi Hamza",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 57
+        },
+        {
+          "name_ar": "أَبِي بَصِيرٍ",
+          "name_en": "Abu Basir",
+          "role": "companion",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 14
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اَللَّهِ عَلَيْهِ اَلسَّلاَمُ",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

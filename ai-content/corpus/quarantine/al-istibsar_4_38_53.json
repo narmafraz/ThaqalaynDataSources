@@ -1,0 +1,499 @@
+{
+  "verse_path": "/books/al-istibsar:4:38:53",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrators has 27 entries (>15 — real isnad chains rarely exceed 12; likely matn fragments)",
+    "narrator[9] name_ar has 16 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'مِنهُم مَن رَوَاهُ عَن أَحَدِهِمَا ع أَنّ المَرأَةَ لَا تَرِ'",
+    "narrator[14] name_ar has 22 words (>14, بن-density 0.09 — likely a sentence fragment, not a name): 'الحَسَنِ بنِ مَحبُوبٍ عَن عَلِيّ بنِ رِئَابٍ عَن زُرَارَةَ ع'",
+    "narrator[25] name_ar has 15 words (>14, بن-density 0.13 — likely a sentence fragment, not a name): 'القَصَبُ فَتُعطَي حَقّهَا مِنهُ 3- يُونُسُ بنُ عَبدِ الرّحمَ'"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "economy"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "inheritance",
+      "marriage_family_law",
+      "financial_law",
+      "spousal_rights"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَن عَلِيٍّ بْنِ رِئَابٍ عَن زُرَارَةَ عَن أَبِي جَعْفَرٍ ع أَنّ المَرأَةَ لَا تَرِثُ مِمّا تَرَكَ زَوجُهَا مِنَ القُرَي وَ الدّورِ وَ السّلَاحِ وَ الدّوَابّ شَيئاً وَ تَرِثُ مِنَ المَالِ وَ الفُرُشِ وَ الثّيَابِ وَ مَتَاعِ البَيتِ مِمّا تَرَكَ وَ يُقَوّمُ النّقضُ وَ الأَبوَابُ وَ الجُذُوعُ وَ القَصَبُ فَتُعطَي حَقّهَا مِنهُ",
+        "translations": {
+          "en": "Ahmad ibn Muhammad from al-Hasan ibn Mahbub from Ali ibn Ri'ab from Zurara from Abu Ja'far (peace be upon him) that the woman does not inherit from what her husband left of villages, houses, weapons, and animals anything, and she inherits from wealth, bedding, clothes, and household goods that he left, and the dismantling parts, doors, trunks, and reeds are valued, and her right is given to her from them.",
+          "ur": "احمد بن محمد سے حسن بن محبوب نے، ان سے علی بن رئاب نے، ان سے زرارة نے، ان سے ابو جعفر علیہ السلام سے روایت کی کہ عورت اپنے شوہر کی ترکہ میں سے دیہات، گھر، ہتھیار اور جانوروں میں سے کچھ نہیں ورثہ لیتی، اور وہ مال، بستر، کپڑے اور گھر کے سامان میں سے ورثہ لیتی ہے جو اس نے چھوڑا ہو، اور ٹوٹنے والے حصے، دروازے، تنے اور کھردی کی قیمت نکالی جاتی ہے، اور اس کا حق ان میں سے اسے دیا جاتا ہے۔",
+          "tr": "2- Ahmed bin Muhammed, el-Hasan bin Mahbub'dan, Ali bin Rıab'dan, Zurara'dan, Ebü Cafer (aleyhisselâm)'dan rivayet eder ki: Kadın, kocasının bıraktığı köyler, evler, silahlar ve hayvanlardan hiçbir şey miras almaz; mal, döşek, giysiler ve ev eşyasından ise miras alır. Yapı elemanları, kapılar, kütükler ve kamışlar takdir edilir ve kadının hakkı bunlardan verilir.",
+          "fa": "۲- احمد بن محمد از حسن بن محبوب از علی بن رئاب از زراره از ابوجعفر (علیه السلام) که زن از آنچه شوهرش از روستاها و خانه‌ها و سلاح‌ها و چهارپایان به جا گذاشته چیزی ارث نمی‌برد و از مال و فرش و لباس و متاع خانه که به جا گذاشته ارث می‌برد و نقض و درها و جذوع و قصب قیمت می‌شود و حق او از آن‌ها داده می‌شود.",
+          "id": "Ahmad ibn Muhammad dari al-Hasan ibn Mahbub dari Ali ibn Ri'ab dari Zurara dari Abu Ja'far (alaihis-salam) bahwa wanita tidak mewarisi dari apa yang ditinggalkan suaminya berupa desa-desa, rumah-rumah, senjata, dan hewan sedikit pun, dan ia mewarisi dari harta, tempat tidur, pakaian, dan barang-barang rumah tangga yang ditinggalkannya, dan bagian-bagian yang dapat dibongkar, pintu-pintu, batang pohon, dan buluh dihargai, dan haknya diberikan kepadanya dari nilai tersebut.",
+          "bn": "২- আহমাদ ইবনে মুহাম্মাদ আল-হাসান ইবনে মাহবুব থেকে, আলী ইবনে রি'আব থেকে, জুরারাহ থেকে, আবু জাফর (আ.) থেকে বর্ণিত যে, স্ত্রী স্বামীর ছেড়ে যাওয়া গ্রাম, বাড়ি, অস্ত্র ও পশুদের মধ্যে কিছুই উত্তরাধিকার হিসেবে পায় না, কিন্তু সে ধন-সম্পদ, বিছানা, পোশাক ও গৃহস্থালির সামগ্রী উত্তরাধিকার হিসেবে পায় যা সে ছেড়ে গেছে, এবং ভাঙা অংশ, দরজা, গাছের ডাঁড়া ও বাঁশের দণ্ডগুলোর মূল্য নির্ধারণ করা হয়, এবং তার অংশ তাদের থেকে তাকে প্রদান করা হয়।",
+          "es": "2- Ahmad ibn Muhammad de al-Hasan ibn Mahbub de Ali ibn Ri'ab de Zurara de Abu Ja'far (la paz sea con él) que la mujer no hereda de lo que su esposo dejó de aldeas, casas, armas y animales nada, y hereda de la riqueza, las camas, la ropa y los enseres del hogar que dejó, y se valora el desmonte, las puertas, los troncos y las cañas, y se le da su derecho de ellos.",
+          "fr": "2- أحمد بن محمد عن الحسن بن محبوب عن علي بن رئاب عن زرارة عن أبي جعفر عليه السلام أن المرأة لا ترث مما ترك زوجها من القرى والدور والأسلحة والدواب شيئا، وترث من المال والفراش والثياب ومتاع البيت مما ترك، ويقوّم النقض والأبواب والجذوع والقصب فتعطى حقها منه.",
+          "de": "2- Ahmad ibn Muhammad von al-Hasan ibn Mahbub von Ali ibn Ri'ab von Zurara von Abu Ja'far (friede sei mit ihm), dass die Frau von dem, was ihr Mann von Dörfern, Häusern, Waffen und Tieren hinterlassen hat, nichts erbt, und sie erbt von Vermögen, Betten, Kleidern und Hausrat, das er hinterlassen hat, und die abnehmbaren Teile, Türen, Stämme und Rohre werden bewertet, und ihr Anteil wird ihr daraus gegeben.",
+          "ru": "2- Ахмад ибн Мухаммад от аль-Хасан ибн Махбуб от Али ибн Ри'аба от Зурары от Абу Джа'фара (да будет мир с ним) о том, что женщина не наследует от того, что оставил её муж из деревень, домов, оружия и животных ничего, а наследует от богатства, постелей, одежды и домашних вещей, которые он оставил, и оцениваются части разборки, двери, стволы и тростник, и ей выдаётся её доля из них.",
+          "zh": "2-أحمد بن محمد عن الحسن بن محبوب عن علي بن رئاب عن زرارة عن أبي جعفر ع أن المرأة لا ترث مما ترك زوجها من القرى والدور والسلاح والدواب شيئا وتترث من المال والفرش والثياب ومتاع البيت مما ترك ويقوم النقض والأبواب والجذوع والقصب فتعطى حقها منه"
+        },
+        "word_start": 0,
+        "word_end": 58
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ عَن مُحَمَّدِ بْنِ حُمْرَانَ عَن زُرَارَةَ وَ مُحَمَّدِ بْنِ مُسْلِمٍ عَن أَبِي جَعْفَرٍ ع قَالَ النّسَاءُ لَا يَرِثنَ مِنَ الأَرضِ وَ لَا مِنَ العَقَارِ شَيئاً",
+        "translations": {
+          "en": "Yunus ibn Abd al-Rahman from Muhammad ibn Humran from Zurara and Muhammad ibn Muslim from Abu Ja'far (peace be upon him) said: The women do not inherit from the land or from real estate anything.",
+          "ur": "یونس بن عبدالرحمن، محمد بن حرم سے، زرارة اور محمد بن مسلم سے، ابوجعفر (علیہ السلام) سے روایت ہے کہ عورتیں زمین یا جائیداد سے کچھ نہیں ورث میں لیتی۔",
+          "tr": "Yunus ibn Abdurrahman, Humran oğlu Muhammed'den; Zürrar ve Müslim oğlu Muhammed'den; Ebu Cafer (aleyhisselam) şöyle dedi: Kadınlar, araziden veya gayrimenkulden hiçbir şey miras almazlar.",
+          "fa": "یونس بن عبدالرحمن از محمد بن حمران از زراره و محمد بن مسلم از ابوجعفر (علیه السلام) روایت کرد: زنان از زمین یا از ملک چیزی ارث نمی‌برند.",
+          "id": "Yunus bin Abd al-Rahman dari Muhammad bin Humran dari Zurara dan Muhammad bin Muslim dari Abu Ja'far (alamaihissalam) berkata: Para wanita tidak mewarisi dari tanah atau dari harta benda apapun.",
+          "bn": "ইউনুস ইবনে আবদুর রহমান, মুহাম্মাদ ইবনে হুমরান, জুরারার নিকট এবং মুহাম্মাদ ইবনে মুসলিমের নিকট থেকে, আবু জা'ফর (আলাইহিস সালাম) থেকে বর্ণিত: নারীরা জমি বা বাস্তব সম্পদ থেকে কিছুই উত্তরাধিকারসূত্রে পায় না।",
+          "es": "Yunus ibn Abd al-Rahman de Muhammad ibn Humran de Zurara y Muhammad ibn Muslim de Abu Ja'far (que la paz sea con él) dijo: Las mujeres no heredan de la tierra ni de los bienes inmuebles nada.",
+          "fr": "Yunus",
+          "de": "Yunus ibn Abd al-Rahman von Muhammad ibn Humran von Zurara und Muhammad ibn Muslim von Abu Ja'far (friede sei mit ihm) sagte: Die Frauen erben weder vom Land noch vom Immobilienbesitz etwas.",
+          "ru": "Юнус ибн Абд ар-Рахман от Мухаммада ибн Хумрана от Зурары и Мухаммада ибн Муслима от Абу Джа'фара (да будет мир с ним) сказал: Женщины не наследуют от земли или от недвижимости ничего.",
+          "zh": "优努斯·本·阿卜杜·拉赫曼从穆罕默德·本·胡姆兰传自祖拉勒和穆罕默德·本·穆斯林，从艾布·贾法尔（愿主喜悦他）说：妇女不继承土地或不动产的任何部分。"
+        },
+        "word_start": 58,
+        "word_end": 87
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "These hadiths from al-Istibsar articulate the Shia juristic consensus that a wife inherits the value of construction materials (turba) rather than the land itself, distinguishing her status as an 'outsider' (dakheel) to her husband's lineage. This ruling, supported by Imam al-Sadiq and Imam al-Rida, aims to prevent the influx of new families through remarriage from displacing the original heirs, a nuance further clarified by the distinction between fixed real estate and movable assets.",
+        "seo_question": "What does a wife inherit from her husband's estate in Shia jurisprudence regarding land and buildings?",
+        "key_terms": {
+          "العَقَار": "Real estate / immovable property",
+          "الرّبَاع": "Buildings / structures",
+          "الدّور": "Houses / dwellings",
+          "الدّخيل": "An outsider / one not of the lineage",
+          "النّقض": "Dismantled parts / components of a structure",
+          "الجُذُوع": "Tree trunks / logs used in construction"
+        }
+      },
+      "ur": {
+        "summary": "الاستبصار سے یہ احادیث شیعہ فقہی اجماع کو بیان کرتی ہیں کہ بیوی زمین کے بجائے تعمیراتی مواد (طُرْبہ) کی وراثت لیتی ہے، جو اسے شوہر کی نسل میں ایک 'باہری' (دَخیل) کے طور پر ممتاز کرتی ہے۔ یہ حکم امام صادق اور امام رضا کی حمایت یافتہ ہے، جو دوبارہ شادی کے ذریعے نئی خاندانوں کے داخلے سے اصل ورثاء کے بے دخل ہونے کو روکنے کے لیے ہے، اور یہ فرق ثابت جائیداد اور متحرک اثاثوں کے درمیان واضح کیا گیا ہے۔",
+        "seo_question": "شیعہ فقہ میں زمین اور عمارات کے حوالے سے بیوی اپنے شوہر کی جائیداد سے کیا وراثت لیتی ہے؟",
+        "key_terms": {
+          "العَقَار": "عَقَار",
+          "الرّبَاع": "رَبَاع",
+          "الدّور": "دُور",
+          "الدّخيل": "دَخیل",
+          "النّقض": "نَقض",
+          "الجُذُوع": "جُذُوع"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadisler, İstibsar'da yer alan ve bir kadının toprağın kendisinden ziyade inşaat malzemesinin (turba) değerini miras aldığını belirten Şii hukukçuların icma'sını ifade eder; bu durum, kadının kocasının soyuna bir 'dışarıdan gelen' (dakheel) olarak konumlandırılmasını ayırt eder. İmam es-Sadiq ve İmam er-Rıza tarafından desteklenen bu hüküm, yeniden evlilik yoluyla yeni ailelerin akışının orijinal miracılara yerlerini kaybetmelerini önlemeyi amaçlar; bu nüans, sabit gayrimenkul ile taşınır varlıklar arasındaki ayrım ile daha da netleştirilmiştir.",
+        "seo_question": "Şii hukukunda bir kadın, kocasının mirasından arsa ve binalar konusunda ne miras alır?",
+        "key_terms": {
+          "العَقَار": "Gayrimenkul / taşınmaz mal",
+          "الرّبَاع": "Binalar / yapılar",
+          "الدّور": "Evler / konutlar",
+          "الدّخيل": "Dışarıdan gelen / soya ait olmayan",
+          "النّقض": "Sökülmüş parçalar / yapı bileşenleri",
+          "الجُذُوع": "Ağaç gövdeleri / inşatta kullanılan kütükler"
+        }
+      },
+      "fa": {
+        "summary": "این احادیث از استبصار، اجماع فقهی شیعه را بیان می‌کنند که همسر ارزش مصالح ساختمانی (تُرب) را به ارث می‌برد نه، نه خود زمین را، و جایگاه او را به عنوان یک «بیگانه» (دخیل) در برابر نسل شوهرش متمایز می‌سازد. این حکم که توسط امام صادق و امام رضا پشتیبانی می‌شود، هدف آن جلوگیری از جابجایی ورثه اصلی توسط خانواده‌های جدید از طریق ازدواج مجدد است؛ نکته‌ای که با تمایز بین املاک ثابت و اموال منقول بیشتر روشن می‌شود.",
+        "seo_question": "همسر در فقه شیعه از اموال شوهرش در مورد زمین و ساختمان چه چیزی به ارث می‌برد؟",
+        "key_terms": {
+          "العَقَار": "املاک / اموال غیرمنقول",
+          "الرّبَاع": "ساختمان‌ها / سازه‌ها",
+          "الدّور": "خانه‌ها / مسکن‌ها",
+          "الدّخيل": "بیگانه / کسی که از نسل نیست",
+          "النّقض": "اجزای جدا شده / قطعات یک سازه",
+          "الجُذُوع": "تنه درختان / چوب‌های مورد استفاده در ساخت و ساز"
+        }
+      },
+      "id": {
+        "summary": "Hadis-hadis dari al-Istibsar ini mengartikulasikan konsensus fikih Syiah bahwa seorang istri mewarisi nilai bahan bangunan (turba) bukan tanahnya sendiri, membedakan statusnya sebagai 'orang luar' (dakheel) dari garis keturunan suaminya. Hukum ini, yang didukung oleh Imam al-Sadiq dan Imam al-Rida, bertujuan mencegah masuknya keluarga baru melalui pernikahan ulang yang dapat menggantikan ahli waris asli, dengan nuansa yang lebih jelas melalui pembedaan antara real estat tetap dan aset bergerak.",
+        "seo_question": "Apa yang diwarisi istri dari harta warisan suaminya dalam fikih Syiah mengenai tanah dan bangunan?",
+        "key_terms": {
+          "العَقَار": "real estat / properti tak bergerak",
+          "الرّبَاع": "bangunan / struktur",
+          "الدّور": "rumah / tempat tinggal",
+          "الدّخيل": "orang luar / yang tidak termasuk dalam garis keturunan",
+          "النّقض": "bagian yang dibongkar / komponen struktur",
+          "الجُذُوع": "batang pohon / kayu bulat yang digunakan dalam konstruksi"
+        }
+      },
+      "bn": {
+        "summary": "আল-ইস্তিবসার এই হাদিসগুলো শিয়া ফিকহের একমতকে প্রকাশ করে যে, স্ত্রী জমির মূল্যের পরিবর্তে নির্মাণ সামগ্রীর (তুরবা) মূল্য উত্তরাধিকার সূত্রে পান, যা তাকে স্বামীর বংশের একজন 'বহিঃস্থ' (দখীল) হিসেবে চিহ্নিত করে। ইমাম আস-সাদিq এবং ইমাম আল-রিদার দ্বারা সমর্থিত এই বিধানটি পুনর্বিবাহের মাধ্যমে নতুন পরিবারের আগমনের মাধ্যমে মূল উত্তরাধিকারীদের সরিয়ে দেওয়া রোধ করার লক্ষ্যে করা হয়েছে, যা স্থাবর সম্পত্তি এবং চলতি সম্পদের মধ্যে পার্থক্যের মাধ্যমে আরও স্পষ্ট করা হয়েছে।",
+        "seo_question": "শিয়া ফিকহে জমি ও ভবনের ক্ষেত্রে স্ত্রী স্বামীর সম্পত্তি থেকে কী উত্তরাধিকার সূত্রে পান?",
+        "key_terms": {
+          "العَقَار": "স্থাবর সম্পত্তি / অচল সম্পত্তি",
+          "الرّبَاع": "ভবন / গঠন",
+          "الدّور": "বাড়ি / আবাস",
+          "الدّخيل": "একজন বহিঃস্থ / যিনি বংশের নন",
+          "النّقض": "খণ্ডিত অংশ / গঠনের উপাদান",
+          "الجُذُوع": "গাছের ডাল / নির্মাণে ব্যবহৃত কাঠ"
+        }
+      },
+      "es": {
+        "summary": "Estos hadices narran el consenso jurístico chiita de que la esposa hereda el valor de los materiales de construcción (turba) en lugar de la tierra misma, distinguiendo su estatus como 'extraña' (dakheel) a la linaje de su esposo. Esta decisión, respaldada por el Imam al-Sadiq y el Imam al-Rida, tiene como objetivo evitar que la llegada de nuevas familias mediante el matrimonio vuelva a desplazar a los herederos originales, una matización aclarada por la distinción entre bienes inmuebles fijos y activos muebles.",
+        "seo_question": "¿Qué hereda la esposa del patrimonio de su esposo en la jurisprudencia chiita respecto a la tierra y los edificios?",
+        "key_terms": {
+          "العَقَار": "Bienes inmuebles / propiedad inmueble",
+          "الرّبَاع": "Edificios / estructuras",
+          "الدّور": "Casas / viviendas",
+          "الدّخيل": "Un extraño / uno que no es de la linaje",
+          "النّقض": "Partes desmontadas / componentes de una estructura",
+          "الجُذُوع": "Troncos de árboles / maderas usadas en la construcción"
+        }
+      },
+      "fr": {
+        "summary": "Ces hadiths d’al-Istibsbar expriment le consensus jurisprudentiel chiite selon lequel une épouse hérite de la valeur des matériaux de construction (turba) plutôt que du terrain lui-même, distinguant ainsi son statut d’« étrangère » (dakheel) à la lignée de son mari. Cette règle, soutenue par l’Imam al-Sadiq et l’Imam al-Rida, vise à empêcher que l’arrivée de nouvelles familles par remariage ne déplace les héritiers originaux, une nuance clarifiée par la distinction entre les biens immobiliers fixes et les actifs mobiliers.",
+        "seo_question": "Que hérite une épouse du patrimoine de son mari en jurisprudence chiite concernant les terres et les bâtiments ?",
+        "key_terms": {
+          "العَقَار": "biens immobiliers / immeubles",
+          "الرّبَاع": "bâtiments / structures",
+          "الدّور": "maisons / habitations",
+          "الدّخيل": "un étranger / celui qui n'est pas de la lignée",
+          "النّقض": "parties démontées / composants d'une structure",
+          "الجُذُوع": "troncs d'arbres / bûches utilisées dans la construction"
+        }
+      },
+      "de": {
+        "summary": "Diese Hadithe aus al-Istibsar artikulieren die schiitische juristische Übereinstimmung, dass eine Frau den Wert von Baumaterialien (Turba) erbt, nicht das Land selbst, und ihren Status als Außenseiterin (Dakheel) zur Linie ihres Ehemanns unterscheidet. Diese Regelung, unterstützt von Imam al-Sadiq und Imam al-Rida, zielt darauf ab, zu verhindern, dass neue Familien durch Wiederverheiratung die ursprünglichen Erben verdrängen, eine Nuance, die durch die Unterscheidung zwischen unbeweglichem Vermögen und beweglichen Gütern weiter geklärt wird.",
+        "seo_question": "Was erbt eine Frau von der Hinterlassenschaft ihres Ehemanns in der schiitischen Jurisprudenz in Bezug auf Land und Gebäude?",
+        "key_terms": {
+          "العَقَار": "Immobilien / unbewegliches Vermögen",
+          "الرّبَاع": "Gebäude / Strukturen",
+          "الدّور": "Häuser / Wohnstätten",
+          "الدّخيل": "Ein Außenseiter / einer nicht der Linie angehörend",
+          "النّقض": "Demontierte Teile / Komponenten einer Struktur",
+          "الجُذُوع": "Baumstämme / Hölzer, die im Bauwesen verwendet werden"
+        }
+      },
+      "ru": {
+        "summary": "В этих хадисах из «аль-Истисбара» излагается шиитское правовое согласие о том, что жена наследует стоимость строительных материалов (турба), а не саму землю, что отличает её статус как «чужой» (дакхиль) от родословной мужа. Это решение, поддержанное имамами ас-Садыком и ар-Ридой, направлено на предотвращение вытеснения первоначальных наследников новыми семьями через повторные браки, а нюанс дополнительно уточняется различием между недвижимостью и движимым имуществом и движимыми активами.",
+        "seo_question": "Что наследует жена от имущества мужа в шиитском праве в отношении земли и зданий?",
+        "key_terms": {
+          "العَقَار": "недвижимое имущество",
+          "الرّبَاع": "здания / сооружения",
+          "الدّور": "дома / жилища",
+          "الدّخيل": "чужак / не принадлежащий к родословной",
+          "النّقض": "разобранные части / компоненты конструкции",
+          "الجُذُوع": "стволы деревьев / бревна, используемые в строительстве"
+        }
+      },
+      "zh": {
+        "summary": "《精粹》中的这些圣训阐明了什叶派法学共识，即妻子继承的是建筑材料（土坯）的价值而非土地本身，这区分了她作为丈夫家族“外人”（dakheel）的地位。这一裁决由伊玛目萨迪格和伊玛目里达支持，旨在防止通过再婚涌入的新家庭取代原有继承人，这一细微差别通过固定不动产与动产之间的区别得到了进一步澄清。",
+        "seo_question": "在什叶派教法中，妻子从丈夫的遗产中继承关于土地和建筑物的什么内容？",
+        "key_terms": {
+          "العَقَار": "不动产",
+          "الرّبَاع": "建筑物",
+          "الدّور": "房屋",
+          "الدّخيل": "外人",
+          "النّقض": "拆卸部分",
+          "الجُذُوع": "树干"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "4:11",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:12",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَن عَلِيٍّ بْنِ رِئَابٍ عَن زُرَارَةَ عَن أَبِي جَعْفَرٍ ع أَنّ المَرأَةَ لَا تَرِثُ مِمّا تَرَكَ زَوجُهَا مِنَ القُرَي وَ الدّورِ وَ السّلَاحِ وَ الدّوَابّ شَيئاً وَ تَرِثُ مِنَ المَالِ وَ الفُرُشِ وَ الثّيَابِ وَ مَتَاعِ البَيتِ مِمّا تَرَكَ وَ يُقَوّمُ النّقضُ وَ الأَبوَابُ وَ الجُذُوعُ وَ القَصَبُ فَتُعطَي حَقّهَا مِنهُ يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ عَن مُحَمَّدِ بْنِ حُمْرَانَ عَن زُرَارَةَ وَ مُحَمَّدِ بْنِ مُسْلِمٍ عَن أَبِي جَعْفَرٍ ع قَالَ النّسَاءُ لَا يَرِثنَ مِنَ الأَرضِ وَ لَا مِنَ العَقَارِ شَيئاً",
+    "isnad_matn": {
+      "isnad_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَن عَلِيٍّ بْنِ رِئَابٍ عَن زُرَارَةَ عَن أَبِي جَعْفَرٍ ع أَنّ المَرأَةَ لَا تَرِثُ مِمّا تَرَكَ زَوجُهَا مِنَ القُرَي وَ الدّورِ وَ السّلَاحِ وَ الدّوَابّ شَيئاً وَ تَرِثُ مِنَ المَالِ وَ الفُرُشِ وَ الثّيَابِ وَ مَتَاعِ البَيتِ مِمّا تَرَكَ وَ يُقَوّمُ النّقضُ وَ الأَبوَابُ وَ الجُذُوعُ وَ القَصَبُ فَتُعطَي حَقّهَا مِنهُ",
+      "matn_ar": "يُونُسُ بْنُ عَبْدِ الرَّحْمَنِ عَن مُحَمَّدِ بْنِ حُمْرَانَ عَن زُرَارَةَ وَ مُحَمَّدِ بْنِ مُسْلِمٍ عَن أَبِي جَعْفَرٍ ع قَالَ النّسَاءُ لَا يَرِثنَ مِنَ الأَرضِ وَ لَا مِنَ العَقَارِ شَيئاً",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيّ بنُ اِبرَاهِيمَ عَن أَبِيهِ",
+          "name_en": "Ali b. Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "ابنِ أَبِي عُمَيرٍ",
+          "name_en": "Ibn Abi Umayr",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 7
+        },
+        {
+          "name_ar": "ابنِ أُذَينَةَ عَن زُرَارَةَ",
+          "name_en": "Ibn Udhayna",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "بُكَيرٍ",
+          "name_en": "Bukayr",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 420
+        },
+        {
+          "name_ar": "فُضَيلٍ",
+          "name_en": "Fadl",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 360
+        },
+        {
+          "name_ar": "بُرَيدٍ",
+          "name_en": "Burayd",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 419
+        },
+        {
+          "name_ar": "مُحَمّدِ بنِ مُسلِمٍ عَن أَبِي جَعفَرٍ",
+          "name_en": "Muhammad b. Muslim",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبِي عَبدِ اللّهِ ع مِنهُم مَن رَوَاهُ عَن أَبِي جَعفَرٍ ع",
+          "name_en": "Abi Abdillah",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مِنهُم مَن رَوَاهُ عَن أَبِي عَبدِ اللّهِ ع",
+          "name_en": "Abi Abdillah",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مِنهُم مَن رَوَاهُ عَن أَحَدِهِمَا ع أَنّ المَرأَةَ لَا تَرِثُ مِن تَرِكَةِ زَوجِهَا مِن تُربَةِ دَارٍ",
+          "name_en": "Abi Abdillah",
+          "role": "narrator",
+          "position": 10,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَرضٍ إِلّا أَن يُقَوّمَ الطّوبُ",
+          "name_en": "Ar",
+          "role": "narrator",
+          "position": 11,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الخَشَبُ قِيمَةً فَتُعطَي رُبُعَهَا أَو ثُمُنَهَا إِن كَانَت مِن قِيمَةِ الطّوبِ",
+          "name_en": "Al-Khashab",
+          "role": "narrator",
+          "position": 12,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الجُذُوعِ",
+          "name_en": "Al-Judh",
+          "role": "narrator",
+          "position": 13,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الخَشَبِ 2- أَحمَدُ بنُ مُحَمّدٍ",
+          "name_en": "Al-Khashab",
+          "role": "narrator",
+          "position": 14,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الحَسَنِ بنِ مَحبُوبٍ عَن عَلِيّ بنِ رِئَابٍ عَن زُرَارَةَ عَن أَبِي جَعفَرٍ ع أَنّ المَرأَةَ لَا تَرِثُ مِمّا تَرَكَ زَوجُهَا مِنَ القُرَي",
+          "name_en": "Al-Hasan b. Mahbub",
+          "role": "narrator",
+          "position": 15,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الدّورِ",
+          "name_en": "Al-Dur",
+          "role": "narrator",
+          "position": 16,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "السّلَاحِ",
+          "name_en": "Al-Silah",
+          "role": "narrator",
+          "position": 17,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الدّوَابّ شَيئاً",
+          "name_en": "Al-Dawabb",
+          "role": "narrator",
+          "position": 18,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "تَرِثُ مِنَ المَالِ",
+          "name_en": "Trith",
+          "role": "narrator",
+          "position": 19,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الفُرُشِ",
+          "name_en": "Al-Furush",
+          "role": "narrator",
+          "position": 20,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الثّيَابِ",
+          "name_en": "Al-Thiyab",
+          "role": "narrator",
+          "position": 21,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مَتَاعِ البَيتِ مِمّا تَرَكَ",
+          "name_en": "Mat",
+          "role": "narrator",
+          "position": 22,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "يُقَوّمُ النّقضُ",
+          "name_en": "Yuqawwim",
+          "role": "narrator",
+          "position": 23,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الأَبوَابُ",
+          "name_en": "Al-Abwab",
+          "role": "narrator",
+          "position": 24,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الجُذُوعُ",
+          "name_en": "Al-Judh",
+          "role": "narrator",
+          "position": 25,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "القَصَبُ فَتُعطَي حَقّهَا مِنهُ 3- يُونُسُ بنُ عَبدِ الرّحمَنِ عَن مُحَمّدِ بنِ حُمرَانَ عَن زُرَارَةَ",
+          "name_en": "Al-Qasab",
+          "role": "narrator",
+          "position": 26,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مُحَمّدِ بنِ مُسلِمٍ عَن أَبِي جَعفَرٍ ع",
+          "name_en": "Muhammad b. Muslim",
+          "role": "narrator",
+          "position": 27,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,108 +1,103 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:2:3:162:2",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-04",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.zh is empty string (likely Phase 4 batch failure)"
+    "chunks[0] word '[الوداع]' has no diacritics (must be fully diacritized)"
   ],
   "result": {
     "tags": [
       "worship",
       "dua",
       "afterlife",
-      "theology"
+      "family"
     ],
     "content_type": "supplication",
     "topics": [
       "specific_supplications",
-      "imamate",
       "intercession",
+      "etiquette",
       "paradise_hell",
-      "etiquette"
+      "ahlulbayt_virtues"
     ],
     "chunks": [
       {
         "chunk_type": "opening",
-        "arabic_text": "ٱلْوَدَاعُ",
+        "arabic_text": "[الوداع] فإذَا أَرَدْتَ أَنْ تودِعَهُ فَقُلْ: \"السلامُ عَلَيْكَ يَا مَوْلايَ وَابْنُ مَوْلايَ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ أَنْتَ لَنَا جَنَّةٌ مِنَ الْعَذَابِ وَهَذَا أَوَانُ انْصِرَافِنَا عَنْكَ غَيْرَ رَاغِبٍ عَنْكَ، وَلَا مُسْتَبْدِلٍ بِكَ، وَلَا مُؤَثِّرٍ عَلَيْكَ، وَلَا زَاهِدٍ فِي قُرْبِكَ، وَقَدْ جَدْتُ بِنَفْسِي لِلْحَدَثَانِ، وَتَرَكْتُ الْأَهْلَ وَالْأَوْطَانَ وَالْأَوْلَادَ، فَكُنْ لِي شَافِعًا يَوْمَ حَاجَتِي وَفَقْرِي وَفَاقَتِي، يَوْمَ لَا يُغْنِي عَنِّي حَمِيمِي وَلَا قَرِيبِي، يَوْمَ لَا يُغْنِي عَنِّي وَالِدِي، أَسْأَلُ اللَّهَ الَّذِي قَدَّرَ رَحِيلِي إِلَيْكَ أَنْ يُنْفِسَ بِكَ كَرْبَتِي، وَأَسْأَلُ اللَّهَ الَّذِي قَدَّرَ عَلَيَّ فِرَاقَ مَكَانِكَ أَنْ لَا يَجْعَلَهُ آخِرَ الْعَهْدِ مِنْ رَجُوعِي، وَأَسْأَلُ اللَّهَ الَّذِي أَبْكَى عَلَيْكَ عَيْنِي أَنْ يَجْعَلَهُ لِي سَبَبًا وَذُخْرًا، وَأَسْأَلُ اللَّهَ الَّذِي أَرَانِي مَكَانَكَ وَهَدَانِي لِلتَّسْلِيمِ عَلَيْكَ وَزِيَارَتِي إِيَّاكَ أَنْ يُورِدَنِي حَوْضَكُمْ، وَيُرْزِقَنِي مُرَافَقَتَكُمْ فِي الْجِنَانِ، السلامُ عَلَيْكَ يَا صَفْوَةَ اللَّهِ [السلامُ عَلَى مُحَمَّدِ بْنِ عَبْدِ اللَّهِ خَاتَمِ النَّبِيِّينَ]",
         "translations": {
-          "en": "Farewell.",
-          "ur": "الوداع۔",
-          "tr": "Veda.",
-          "fa": "وداع.",
-          "id": "Perpisahan.",
-          "bn": "বিদায়।",
-          "es": "Despedida.",
-          "fr": "Adieu.",
-          "de": "Abschied.",
-          "ru": "Прощание.",
-          "zh": "告别。"
+          "en": "[Farewell] When you wish to bid farewell, say: \"Peace be upon you, O my master and the son of my master, and the mercy and blessings of Allah. You are for us a refuge from torment. This is the time for my departure from you, not out of aversion to you, nor preferring anyone else over you, nor seeking an alternative to you, nor desiring distance from your proximity. I have sacrificed myself for adversities, left my family, homeland, and children. Be my intercessor on the day of my need, poverty, and destitution, the day when neither a close friend nor a relative will avail me, the day when my parents will not suffice for me. I ask Allah, who decreed my journey to you, to relieve my distress through you. I ask Allah, who ordained my departure from your location, not to make this the last time I visit you. I ask Allah, who caused my eyes to weep over you, to make it a means and provision for me. I ask Allah, who showed me your place and guided me to greet and visit you, to grant me access to your fountain and bless me with your companionship in Paradise. Peace be upon you, O chosen one of Allah. [Peace be upon Muhammad, son of Abdullah, the Seal of the Prophets.]",
+          "ur": "[وداع] جب تم چھوڑنا چاہو تو کہو: \"السلام علیک یا مولای وابن مولای ورحمۃ اللہ و برکاتہ، تم ہمارے لیے عذاب سے پناہ گاہ ہو۔ یہ میرا تم سے رخصت ہونے کا وقت ہے، تمہاری نفرت کی وجہ سے نہیں، نہ کسی دوسرے کو تم پر ترجیح دے رہا ہوں، نہ تمہاری جگہ کوئی اور لے رہا ہوں، نہ تمہاری قربت سے دوری چاہتا ہوں۔ میں نے مصیبتوں کے لیے اپنی جان نچھاور کی، اپنے اہل و عیال، وطن اور بچوں کو چھوڑ دیا۔ میری ضرورت، فقر اور تنگی کے دن میرے واسطے بن جانا، وہ دن جب نہ کوئی قریبی دوست نہ کوئی رشتہ دار میرے کام آئے، وہ دن جب میرے باپ میرے بس میں نہ ہوں۔ میں اللہ سے مانگتا ہوں جس نے میری تمہاری طرف آمد کا مقدر لکھا، وہ تمہارے ذریعے میری تکلیف دور فرمائے۔ میں اللہ سے مانگتا ہوں جس نے تمہاری جگہ سے میری جدائی کا حکم دیا، وہ اسے میری واپسی کا آخری وعدہ نہ بنائے۔ میں اللہ سے مانگتا ہوں جس نے میری آنکھیں تمہاری وجہ سے رونے پر مجبور کیں، وہ اسے میرے لیے سبب اور ذخیرہ بنائے۔ میں اللہ سے مانگتا ہوں جس نے تمہاری جگہ مجھے دکھائی اور تمہیں سلام پیش کرنے اور زیارت کرنے کی توفیق دی، وہ مجھے تمہاری حوض تک پہنچائے اور جنت میں تمہاری صحبت سے نوازے۔ السلام علیک یا صفوۃ اللہ۔ [السلام علی محمد بن عبد اللہ خاتم النبیین]",
+          "tr": "[Veda] Veda etmek istediğinde şunu de: «Ey efendim ve efendimin oğlu, Allah'ın rahmeti ve bereketi sana olsun. Sen bizim için azaptan bir sığınaksın. Seninle aramda nefret, senden başkasını tercih, senden başka birini aramak veya senin huzurundan uzaklaşma isteği olmadan, sana veda ediyorum. Zorluklar için canımı feda ettim, ailemi, yurdumu ve çocuklarımı geride bıraktım. İhtiyacımın, fakirliğimin ve yoksulluğumun olduğu, ne yakın dostumun ne de akrabamın bana fayda sağlayamadığı, ne de babamın annemin bana yetmediği günde benim için şefaatçi ol. Allah'a, beni sana yolculuğumu takdir edenine, senin aracılığımla sıkıntımı gidermesini diliyorum. Allah'a, yerinden ayrılışımı takdir edene, bunun son ziyaretim olmasını dilemiyorum. Allah'a, gözlerimi senin için yaşlatan, bana mekânını gösteren ve seni selamlayıp ziyaret etmeye hidayet veren, bizi havuza erdirsin ve cennetlerde sizinle beraber olmayı nasip etsin. Ey Allah'ın seçkini, sana selam olsun. [Selam, Abdullah oğlu Muhammed'e, Peygamberlerin Mühürsüzüne olsun.]",
+          "fa": "وداع\nپس چون خواهی وداع گویی: «السلام علیک یا مولای و ابن مولای و رحمة الله و برکاته، أنت لنا جنة من العذاب. هذا أو ان انصرافنا عنک غیر راغب عنک، ولا مستبدل بک، ولا مؤثر علیک، ولا زاهد فی قربک. وقد جدت بنفسی للحدثان، وترکت الأهل والأوطان والأولاد، فکن لی شافعا یوم حاجتی وفقری وفاقتی، یوم لا یغنی عنی حمیمی ولا قریبی، یوم لا یغنی عنی والدی. أسأل الله الذی قدر رحیلی إلیک أن ینفس بک کربتی، و أسأل الله الذی قدر علی فراق مکانک أن لا یجعلها آخر العهد من رجوعی، و أسأل الله الذی أبکی علیک عینی أن یجعلها لی سببا و ذخرا، و أسأل الله الذی أرانی مکانک و هدانی للتسلیم علیک و زیارتی إیاک أن یوردنی حوضکم، و یرزقنی مرافقتکم فی الجنان. السلام علیک یا صفوة الله. [السلام علی محمد بن عبد الله خاتم النبیین] السلام علی أمیر المؤمنین و وصی رسول رب العالمین، و قائد الغر المحجلین. السلام علی الحسن و الحسین سیدی شباب أهل الجنة. السلام علی الأئمة - و تسمیهم - علیهم السلام، و رحمة الله و برکاته. السلام علی ملائکة الله الحافین. السلام علی ملائکة الله المقیمین المسبحین الذین هم بأمره یعملون. السلام علینا و علی عباد الله الصالحین. اللهم لا تجعله آخر العهد من زیارتی إیاه، فإن جعلته فاحشرنی معه و مع آبائه الماضین، و إن أبقیتنی یا رب فارزقنی زیارته أبدا ما أبقیتنی إنک علی کل شئ قدید». و تقول: «أستودعک الله و أسترعیک و أقرأ علیک السلام آمنا بالله و بما دعوت إلیه. اللهم فاکنّا مع الشاهدین. اللهم ارزقنی حبهم و مودتهم أبدا [ما أبقیتنی]. السلام علی ملائکة الله و زوار قبر ابن الله. السلام منی أبدا ما بقیت و دائما إذا فنیت. السلام علینا و علی عبد الله الصالحین». فإذا خرجت من القبة فلا تول وجهک عنه حتی یغیب عن بصرک.",
+          "id": "[Perpisahan] Apabila engkau ingin berpisah, ucapkanlah: \"Assalamu'alaika ya Maulaya wa ibna Maulaya wa rahmatullahi wa barakatuh. Engkau adalah tempat berlindung kami dari siksa. Ini adalah waktu kepergianku darimu, bukan karena bosan kepadamu, bukan karena memilih orang lain daripada engkau, bukan karena mencari pengganti engkau, dan bukan karena ingin menjauhi kedekatanmu. Aku telah mengorbankan diriku demi menghadapi cobaan, meninggalkan keluarga, tanah air, dan anak-anak. Jadilah pemberi syafaat bagiku pada hari ketika aku membutuhkan pertolongan, pada hari kemiskinan dan kefakiran, pada hari ketika tidak ada seorang pun yang dapat menolongku, baik sahabat karib maupun kerabat, pada hari ketika ayah ibuku pun tidak akan mencukupi untukku. Aku memohon kepada Allah yang telah menentukan perjalananku kepadamu, agar Engkau menghilangkan kesusahanku melalui perantaraan engkau. Aku memohon kepada Allah yang telah menetapkan kepergianku dari tempatmu, agar jangan jadikan ini sebagai kunjungan terakhirku. Aku memohon kepada Allah yang telah membuat mataku berlinang air mata karena engkau, agar jadikan hal itu sebagai sebab dan bekal bagiku. Aku memohon kepada Allah yang telah menunjukkan tempatmu dan membimbingku untuk memberi salam dan berziarah kepadamu, agar Engkau masukkan aku ke dalam telaga kalian, dan berikanlah aku kesempatan untuk menyertai kalian di dalam surga. Assalamu'alaika ya shafwatallah. [Assalamu'alaika Muhammad ibn Abdullah khataman nabiyyin.]",
+          "bn": "বিদায়\nযখন তুমি বিদায় নিতে চাও, তখন বলো: \"আসসালামু আলাইকা ইয়া মালাইয়া ওয়া ইবনা মালাইয়া, ওয়া রহমাতুল্লাহি ওয়া বারাকাতুহু। তুমি আমাদের জন্যে জাহান্নামের আযাব থেকে একটি আশ্রয়স্থল। এটি তোমার কাছ থেকে আমার প্রস্থানের সময়, তোমার প্রতি অনুরাগহীনতা থেকে নয়, তোমার চেয়ে অন্যকে পছন্দ করা থেকে নয়, তোমার বিকল্প খোঁজা থেকে নয়, তোমার সান্নিধ্য থেকে দূরত্ব কামনা করা থেকে নয়। আমি কষ্টের জন্যে নিজেকে উৎসর্গ করেছি, পরিবার, স্বদেশ ও সন্তানদের ত্যাগ করেছি। আমার প্রয়োজন, দারিদ্র্য ও অভাবের দিনে, যেদিন নিকট আত্মীয় বা বন্ধু কোনো কাজে আসবে না, যেদিন আমার পিতা-মাতাও আমার জন্যে যথেষ্ট হবে না, তুমি আমার শাফিআ (মধ্যস্থতাকারী) হও। আমি আল্লাহর কাছে প্রার্থনা করি, যিনি তোমার কাছে আমার যাত্রা নির্ধারণ করেছেন, তিনি তোমার মাধ্যমে আমার কষ্ট দূর করুন। আমি আল্লাহর কাছে প্রার্থনা করি, যিনি তোমার স্থান থেকে আমার বিদায় নির্ধারণ করেছেন, তিনি এটিকে আমার বিদায়ের শেষ সময় না করে দেন। আমি আল্লাহর কাছে প্রার্থনা করি, যিনি আমার চোখকে তোমার জন্যে কাঁদিয়েছেন, তিনি এটিকে আমার জন্যে একটি মাধ্যম ও জমাদারী করে দেন। আমি আল্লাহর কাছে প্রার্থনা করি, যিনি তোমার স্থান আমাকে দেখিয়েছেন এবং তোমাকে সালাম ও দর্শন করার জন্যে আমাকে পথনির্দেশনা দিয়েছেন, তিনি আমাকে তোমাদের হাওয (ফোয়ারা)-তে প্রবেশ করান এবং জান্নাতে তোমাদের সাথে সঙ্গী হওয়ার রিজিক দান করুন। আসসালামু আলাইকা ইয়া সাফওয়াতুল্লাহ। [আসসালামু আলাইকা ইয়া মুহাম্মাদু ইবনে আবদিল্লাহি খাতামান নাবিয়্যীন।]",
+          "es": "[Despedida] Cuando desees despedirte, di: «La paz sea contigo, oh mi señor y hijo de mi señor, y la misericordia y las bendiciones de Alá. Tú eres para nosotros un refugio del castigo. Este es el momento de mi partida de ti, no por aversión hacia ti, ni por preferir a otro sobre ti, ni por buscar un sustituto para ti, ni por desear alejarme de tu proximidad. He sacrificado mi persona ante las adversidades, he dejado a mi familia, mi tierra natal y mis hijos. Sé mi intercesor el día de mi necesidad, pobreza y escasez, el día en que ni un amigo cercano ni un pariente me servirán de nada, el día en que mis padres no me basten. Pido a Alá, quien decretó mi viaje hacia ti, que alivie mi angustia a través de ti. Pido a Alá, quien ordenó mi partida de tu ubicación, que no haga de esto la última vez que te visite. Pido a Alá, quien hizo que mis ojos lloraran por ti, que lo convierta en un medio y provision para mí. Pido a Alá, quien me mostró tu lugar y me guió a saludarte y visitarte, que me conceda acceso a vuestra fuente y me bendiga con vuestra compañía en el Paraíso. La paz sea contigo, oh elegido de Alá. [La paz sea sobre Muhammad, hijo de Abdullah, el Sello de los Profetas.]",
+          "fr": "« Adieu »\nLorsque tu souhaites prendre congé, dis : « Que la paix soit sur toi, ô mon maître et le fils de mon maître, et la miséricorde et les bénédictions d'Allah. Tu es pour nous un refuge contre le châtiment. C'est le moment de mon départ d'avec toi, non par aversion pour toi, ni par préférence d'un autre à ta place, ni par recherche d'un substitut à toi, ni par désir de m'éloigner de ta proximité. Je me suis sacrifié pour les adversités, j'ai quitté ma famille, ma patrie et mes enfants. Sois mon intercesseur le jour de mon besoin, de ma pauvreté et de ma détresse, le jour où ni un ami proche ni un parent ne me seront utiles, le jour où mes parents ne suffiront pas pour moi. Je demande à Allah, qui a décrété mon voyage vers toi, de soulager ma détresse par ton intercession. Je demande à Allah, qui a ordonné mon départ de ton lieu, de ne pas faire de cela la dernière fois que je te visite. Je demande à Allah, qui a fait couler mes larmes pour toi, de faire de cela un moyen et une provision pour moi. Je demande à Allah, qui m'a montré ton lieu et m'a guidé pour te saluer et te visiter, de m'accéder à votre fontaine et de me bénir avec votre compagnie au Paradis. Que la paix soit sur toi, ô l'élu d'Allah. [Que la paix soit sur Muhammad, fils d'Abdullah, le Sceau des Prophètes.]",
+          "de": "Der Abschied. Wenn du dich verabschieden möchtest, sprich: »Friede sei mit dir, o mein Herr und der Sohn meines Herrn, und die Barmherzigkeit und die Segnungen Allahs. Du bist für uns ein Schutz vor der Qual. Dies ist die Zeit meiner Abreise von dir, nicht aus Abneigung gegen dich, noch aus Bevorzugung eines anderen gegenüber dir, noch aus dem Streben nach einem Ersatz für dich, noch aus dem Verlangen nach Distanz zu deiner Nähe. Ich habe mich für die Widrigkeiten geopfert, meine Familie, meine Heimat und meine Kinder verlassen. Sei mein Fürsprecher am Tag meines Bedarfs, meiner Armut und Not, am Tag, an dem weder ein enger Freund noch ein Verwandter mir nützen wird, am Tag, an dem meine Eltern nicht ausreichen werden. Ich bitte Allah, der meine Reise zu dir beschloss, dass Er durch dich mein Leid lindere. Ich bitte Allah, der meine Abreise von deinem Ort anordnete, dass Er dies nicht zum letzten Mal meiner Besuche bei dir mache. Ich bitte Allah, der meine Augen über dich weinen ließ, dass Er es mir als Mittel und Versorgung mache. Ich bitte Allah, der mir deinen Ort zeigte und mich zum Gruß und zur Besuche bei dir führte, dass Er mich zu eurem Teich führen und mir eure Gemeinschaft im Paradies gewähren möge. Friede sei mit dir, o Auserwählter Allahs. [Friede sei mit Muhammad, dem Sohn Abdullahs, dem Siegel der Propheten.]",
+          "ru": "«Прощание». Когда ты пожелаешь проститься, скажи: «Мир тебе, о господин мой и сын моего господина, и милость Аллаха и благословение Его. Ты для нас — убежище от мучений. Вот время моего ухода от тебя, не из-за отвращения к тебе, и не предпочтения кого-либо другого тебе, и не поиска замены тебе, и не желания удалиться от твоего близкого присутствия. Я пожертвовал собой ради невзгод, оставил семью, родной край и детей. Будь же моим заступником в день моей нужды, бедности и нищеты, в день, когда ни близкий друг, ни родственник не помогут мне, в день, когда мои родители не будут достаточны для меня. Прошу Аллаха, Который предопределил мое путешествие к тебе, чтобы Он облегчил мои страдания через тебя. Прошу Аллаха, Который предопределил мой уход от твоего места, чтобы Он не сделал это последним визитом с моей стороны. Прошу Аллаха, Который заставил мои глаза пролить слезы о тебе, чтобы Он сделал это средством и запасом для меня. Прошу Аллаха, Который показал мне твое место и направил меня приветствовать и посещать тебя, чтобы Он ввел меня к вашему источнику и даровал мне общение с вами в Раю. Мир тебе, о избранный Аллаха. [Мир Мухаммаду, сыну Абдуллаха, Печати Пророков.]",
+          "zh": "【告别】当你想要告别时，说：\"愿你平安，我的主啊，主的儿子，真主的慈悯和吉庆。你是我们的避难所，免受刑罚。这是我离开你的时刻，并非出于对你的厌恶，也不是偏爱他人胜过你，更不是以他人替代你，也不是疏远你的亲近。我为苦难牺牲了自己，离开了家人、故乡和儿女。请在需要、贫穷和困顿之日为我说情，在那日，挚友和亲属都不能帮助我，父母也不能满足我。我祈求真主，他注定我来到你这里，通过你解除我的痛苦。我祈求真主，他规定我离开你的地方，不要让我最后一次拜访你。我祈求真主，他让我的眼睛为你流泪，让它成为我的手段和储备。我祈求真主，他向我展示了你的地方，引导我去问候和拜访你，让我进入你们的池子，并赐予我在天堂与你们同在的福分。愿你平安，真主的精选者。[愿平安归于穆罕默德，阿卜杜拉的儿子，众先知的封印。]\""
         },
         "word_start": 0,
-        "word_end": 1
+        "word_end": 129
       },
       {
         "chunk_type": "body",
-        "arabic_text": "فَإِذَا أَرَدْتَ أَنْ تُوَدِّعَهُ فَقُلْ: «ٱلسَّلَامُ عَلَيْكَ يَا مَوْلَايَ وَٱبْنَ مَوْلَايَ وَرَحْمَةُ ٱللَّهِ وَبَرَكَاتُهُ أَنْتَ لَنَا جُنَّةٌ مِنَ ٱلْعَذَابِ وَهَذَا أَوَانُ ٱنْصِرَافِنَا عَنْكَ غَيْرَ رَاغِبٍ عَنْكَ، وَلَا مُسْتَبْدِلٍ بِكَ، وَلَا مُؤْثِرٍ عَلَيْكَ، وَلَا زَاهِدٍ فِي قُرْبِكَ، وَقَدْ جُدْتُ بِنَفْسِي لِلْحَدَثَانِ، وَتَرَكْتُ ٱلْأَهْلَ وَٱلْأَوْطَانَ وَٱلْأَوْلَادَ، فَكُنْ لِي شَافِعًا يَوْمَ حَاجَتِي وَفَقْرِي وَفَاقَتِي، يَوْمَ لَا يُغْنِي عَنِّي حَمِيمِي وَلَا قَرِيبِي، يَوْمَ لَا يُغْنِي عَنِّي وَالِدِي، أَسْأَلُ ٱللَّهَ ٱلَّذِي قَدَّرَ رَحِيلِي إِلَيْكَ أَنْ يُنَفِّسَ بِكَ كُرْبَتِي، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي قَدَّرَ عَلَيَّ فِرَاقَ مَكَانِكَ أَنْ لَا يَجْعَلَهُ آخِرَ ٱلْعَهْدِ مِنْ رُجُوعِي، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَبْكَى عَلَيْكَ عَيْنِي أَنْ يَجْعَلَهُ لِي سَبَبًا وَذُخْرًا، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَرَانِي مَكَانَكَ وَهَدَانِي لِلتَّسْلِيمِ عَلَيْكَ وَزِيَارَتِي إِيَّاكَ أَنْ يُورِدَنِي حَوْضَكُمْ، وَيَرْزُقَنِي مُرَافَقَتَكُمْ فِي ٱلْجِنَانِ، ٱلسَّلَامُ عَلَيْكَ يَا صَفْوَةَ ٱللَّهِ [ٱلسَّلَامُ عَلَى مُحَمَّدِ بْنِ عَبْدِ ٱللَّهِ خَاتَمِ ٱلنَّبِيِّينَ] ٱلسَّلَامُ عَلَى أَمِيرِ ٱلْمُؤْمِنِينَ وَوَصِيِّ رَسُولِ رَبِّ ٱلْعَالَمِينَ، وَقَائِدِ ٱلْغُرِّ ٱلْمُحَجَّلِينَ، ٱلسَّلَامُ عَلَى ٱلْحَسَنِ وَٱلْحُسَيْنِ سَيِّدَي شَبَابِ أَهْلِ ٱلْجَنَّةِ، ٱلسَّلَامُ عَلَى ٱلْأَئِمَّةِ - وَتُسَمِّيهِمْ عَلَيْهِمُ ٱلسَّلَامُ - وَرَحْمَةُ ٱللَّهِ وَبَرَكَاتُهُ، ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ ٱلْحَافِّينَ، ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ ٱلْمُقِيمِينَ ٱلْمُسَبِّحِينَ ٱلَّذِينَ هُمْ بِأَمْرِهِ يَعْمَلُونَ، ٱلسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ ٱللَّهِ ٱلصَّالِحِينَ، ٱللَّهُمَّ لَا تَجْعَلْهُ آخِرَ ٱلْعَهْدِ مِنْ زِيَارَتِي إِيَّاهُ، فَإِنْ جَعَلْتَهُ فَٱحْشُرْنِي مَعَهُ وَمَعَ آبَائِهِ ٱلْمَاضِينَ، وَإِنْ أَبْقَيْتَنِي يَا رَبِّ فَٱرْزُقْنِي زِيَارَتَهُ أَبَدًا مَا أَبْقَيْتَنِي إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ».",
+        "arabic_text": "السلامُ عَلَى أَمِيرِ الْمُؤْمِنِينَ وَوَصِيِّ رَسُولِ رَبِّ الْعَالَمِينَ، وَقَائِدِ الْغُرِّ الْمُحَجَّلِينَ، السلامُ عَلَى الْحَسَنِ وَالْحُسَيْنِ سَيِّدَيْ شَبَابِ أَهْلِ الْجَنَّةِ، السلامُ عَلَى الْأَئِمَّةِ - وَتُسَمِّيهِمْ عَلَيْهِمُ السَّلَامُ - وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السلامُ عَلَى مَلَائِكَةِ اللَّهِ الْحَافِّينَ، السلامُ عَلَى مَلَائِكَةِ اللَّهِ الْمُقِيمِينَ الْمُسَبِّحِينَ الَّذِينَ هُمْ بِأَمْرِهِ يَعْمَلُونَ، السلامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، اللَّهُمَّ لَا تَجْعَلْهُ آخِرَ الْعَهْدِ مِنْ زِيَارَتِي إِيَّاهُ، فَإِنْ جَعَلْتَهُ فَاحْشُرْنِي مَعَهُ وَمَعَ آبَائِهِ الْوَاضِحِينَ، وَإِنْ أَبْقَيْتَنِي يَا رَبِّ فَارْزُقْنِي زِيَارَتَهُ أَبَدًا مَا أَبْقَيْتَنِي إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ\".",
         "translations": {
-          "en": "When you wish to bid him farewell, say: “Peace be upon you, O my master and son of my master, and the mercy of Allah and His blessings. You are a protection for us from the punishment. This is the time of our departure from you, not turning away from you, nor seeking another in your place, nor preferring anyone over you, nor disinclined toward nearness to you. I have given of myself over to the vicissitudes of time and left family, homelands, and children. So be for me an intercessor on the day of my need, poverty, and want, the day when neither my intimate friend nor my relative will avail me, the day when my parent will not avail me. I ask Allah, who decreed my journeying to you, to relieve my distress through you. And I ask Allah, who decreed upon me separation from your place, not to make it the last covenant of my return. And I ask Allah, who caused my eye to weep over you, to make it for me a means and a ذخيرة. And I ask Allah, who showed me your place and guided me to offer salām upon you and to visit you, to bring me to your fountain and grant me your companionship in the gardens. Peace be upon you, O chosen one of Allah. [Peace be upon Muḥammad ibn ʿAbd Allāh, the Seal of the Prophets.] Peace be upon the Commander of the Faithful and the legatee of the Messenger of the Lord of the worlds, and the leader of those with radiant faces and limbs. Peace be upon al-Ḥasan and al-Ḥusayn, the two masters of the youth of the people of Paradise. Peace be upon the Imams—and you name them—peace be upon them, and the mercy of Allah and His blessings. Peace be upon the angels of Allah who surround. Peace be upon the angels of Allah who remain, who glorify, those who act by His command. Peace be upon us and upon the righteous servants of Allah. O Allah, do not make this the last of my covenant in visiting him. If You make it so, then gather me with him and with his forefathers who have passed. And if You keep me living, O Lord, then grant me his visitation forever, as long as You keep me alive. Indeed, You have power over all things.”",
-          "ur": "جب آپ اسے الوداع کہنا چاہیں تو کہیں: \"السلام علیک یا مولای وابن مولای ورحمة الله وبرکاته۔ آپ ہمارے لیے عذاب سے پناہ ہیں۔ یہ ہمارا آپ سے رخصت ہونے کا وقت ہے، نہ کہ آپ سے منہ موڑنا، نہ آپ کی جگہ کسی اور کو پسند کرنا، نہ کسی کو آپ پر ترجیح دینا، نہ آپ کے قرب سے کنارہ کشی۔ میں نے اپنی جان وقت کے اتار چڑھاؤ کے حوالے کر دی ہے اور خاندان، وطن اور اولاد کو چھوڑ دیا ہے۔ تو میرے لیے شفاعت کرنے والا بن اس دن جب مجھے ضرورت، فقر اور تنگدستی ہو، اس دن جب نہ میرا قریبی دوست نہ میرا رشتہ دار میری مدد کر سکے، اس دن جب میرا والد بھی میری مدد نہ کر سکے۔ میں اللہ سے دعا کرتا ہوں جس نے میری آپ کی طرف روانگی مقرر کی ہے کہ وہ میری پریشانی کو آپ کے ذریعے دور کرے۔ اور میں اللہ سے دعا کرتا ہوں جس نے میرے لیے آپ کی جگہ سے جدائی مقرر کی ہے کہ وہ اسے میری واپسی کا آخری وعدہ نہ بنائے۔ اور میں اللہ سے دعا کرتا ہوں جس نے میری آنکھ کو آپ پر رونے والا بنایا ہے کہ وہ اسے میرے لیے ذریعہ اور ذخیرہ بنائے۔ اور میں اللہ سے دعا کرتا ہوں جس نے مجھے آپ کی جگہ دکھائی اور مجھے آپ پر سلام پیش کرنے اور آپ کی زیارت کرنے کی ہدایت دی کہ وہ مجھے آپ کے حوض میں داخل کرے اور مجھے جنتوں میں آپ کی صحبت عطا کرے۔ السلام علیک یا صفوة الله۔ [السلام علی محمد بن عبد الله خاتم النبيین]۔ السلام علی امیر المؤمنین و وصی رسول رب العالمین، و قائد الغر المحجلین۔ السلام علی الحسن والحسین سیدی شباب أهل الجنة۔ السلام علی الأئمة - اور آپ ان کے نام لیں - علیہم السلام، ورحمة الله وبرکاته۔ السلام علی ملائکہ الله الحافین۔ السلام علی ملائکہ الله المقیمین المسبحین الذین هم بأمره یعملون۔ السلام علینا و علی عباد الله الصالحین۔ اللہم لا تجعلہ آخر العہد من زیارتی إیہ، فإن جعلتہ فاحشرنی معہ و مع آبائہ الماضین، و إن أبقیتنیا یا رب فارزقنی زیارتہ أبداً ما أبقیتنیا، إنک علی کل شی قدیر۔",
-          "tr": "Ona veda etmek istediğinde şöyle de: “Selam sana ey efendim ve efendimin oğlu, Allah’ın rahmeti ve bereketleri üzerine olsun. Sen bizim için azaptan bir sığınaksın. Bu, senden ayrılma zamanımızdır, senden yüz çevirme değil, yerini başkasıyla değiştirme değil, seni başkalarından üstün tutmama ya da sana yakın olmaktan kaçınma değil. Kendimi zamanın değişimlerine teslim ettim ve ailemi, vatanımı ve çocuklarımı bıraktım. Öyleyse benim için ihtiyacım, fakirliğim ve yokluğum gününde şefaatçi ol; o gün ne yakın dostum ne akrabam bana fayda sağlar, o gün ne babam bana fayda sağlar. Yolculuğumu sana takdir eden Allah’tan, sıkıntımı senin aracılığınla hafifletmesini dilerim. Ve Allah’tan, senin yerinden ayrılmamı takdir eden Allah’tan, bunun dönüşümün son ahdi olmamasını dilerim. Ve Allah’tan, gözümü senin için ağlatan Allah’tan, bunun benim için bir vesile ve bir hazine olmasını dilerim. Ve Allah’tan, bana yerini gösteren ve sana selam vermemi ve seni ziyaret etmemi öğreten Allah’tan, beni havuzuna sokmasını ve cennetlerde seninle beraberlik vermesini dilerim. Selam sana ey Allah’ın seçkin olanı. [Peygamberlerin sonuncusu Muḥammad ibn ʿAbd Allāh üzerine selam olsun.] Âlemlerin Rabbi’nin Resulünün vasisi ve Müminlerin Emiri üzerine selam olsun, parlak yüzlü ve parlak uzuvlu olanların önderi. Cennet halkının gençlerinin efendileri al-Ḥasan ve al-Ḥusayn üzerine selam olsun. İmamlar üzerine - onları isimlendirin - selam olsun, Allah’ın rahmeti ve bereketleri üzerine olsun. Allah’ın etrafını saran melekleri üzerine selam olsun. Allah’ın kalan, tesbih eden ve emriyle çalışan melekleri üzerine selam olsun. Bize ve Allah’ın salih kullarına selam olsun. Allah’ım, bunu onun ziyaretinde son ahdim yapma. Eğer yaparsan, beni onunla ve geçmiş atalarıyla birlikte haşret. Eğer beni yaşatırsan, ey Rabbim, onu ziyaret etmeyi bana ebedi olarak nasip et, beni yaşattığın sürece. Şüphesiz ki sen her şeye kadirsin.”",
-          "fa": "وقتی می‌خواهی به او وداع کنی، بگو: «السلام علیک یا مولای و ابن مولای، و رحمت الله و برکاته. تو برای ما پناهی از عذاب هستی. این زمان رفتن ما از توست، نه رویگردانی از تو، نه جستجوی دیگری به جای تو، نه ترجیح دادن کسی بر تو، و نه بی‌میلی به نزدیکی تو. من خود را به فراز و نشیب‌های زمان سپرده‌ام و خانواده، وطن و فرزندان را ترک کرده‌ام. پس در روز نیاز، فقر و تنگدستی‌ام، شفاعت‌کننده من باش، روزی که نه دوست صمیمی‌ام و نه خویشاوندم به من سود نمی‌رسانند، روزی که پدرم نیز به من سود نمی‌رساند. از خداوندی که سفرم به سوی تو را مقدر کرده است، می‌خواهم که گرفتاری‌ام را به واسطه تو برطرف کند. و از خداوندی که جدایی از مکان تو را بر من مقدر کرده است، می‌خواهم که آن را آخرین عهد بازگشتم قرار ندهد. و از خداوندی که چشمم را به خاطر تو به گریه انداخته است، می‌خواهم که آن را برای من وسیله و ذخیره قرار دهد. و از خداوندی که مکان تو را به من نشان داده و مرا به سلام دادن و زیارت تو هدایت کرده است، می‌خواهم که مرا به حوض تو وارد کند و مرا در باغ‌ها با تو همراه سازد. السلام علیک یا صفوة الله. [السلام علی محمد بن عبد الله خاتم النبيین.] السلام علی امیرالمؤمنین و وصی رسول رب العالمین، و قائد الغر المحجلین. السلام علی الحسن و الحسین، سیدی شباب أهل الجنة. السلام علی الأئمة - و شما آنها را نام ببرید - علیهم السلام، و رحمت الله و برکاته. السلام علی ملائکه الله الحافین. السلام علی ملائکه الله المقیمین المسبحین الذین هم بأمره یعملون. السلام علینا و علی عباد الله الصالحین. اللهم لا تجعل هذا آخر عهد زیارتم له، و اگر چنین کنی، مرا با او و پدرانش که گذشته‌اند محشور کن. و اگر مرا زنده بداری، ای پروردگار، زیارت او را تا زمانی که مرا زنده داری روزی کن. تو بر هر چیزی توانا هستی.»",
-          "id": "Ketika kamu ingin mengucapkan selamat tinggal kepadanya, katakan: “Salam sejahtera atasmu, wahai tuanku dan putra tuanku, serta rahmat Allah dan berkah-Nya. Engkau adalah perlindungan bagi kami dari siksa. Ini adalah waktu kepergian kami darimu, bukan berpaling darimu, bukan mencari pengganti, bukan mengutamakan orang lain atasmu, dan bukan menjauh dari kedekatan denganmu. Aku telah menyerahkan diriku pada pasang surut waktu dan meninggalkan keluarga, tanah air, dan anak-anak. Maka jadilah penolongku pada hari kebutuhanku, kemiskinan, dan kekurangan, hari ketika teman dekatku maupun kerabatku tidak dapat menolongku, hari ketika orang tuaku pun tidak dapat menolongku. Aku memohon kepada Allah yang telah menetapkan perjalananku kepadamu agar meringankan kesusahanku melalui dirimu. Dan aku memohon kepada Allah yang telah menetapkan perpisahanku dari tempatmu agar tidak menjadikannya perjanjian terakhir kembaliku. Dan aku memohon kepada Allah yang membuat mataku menangis karena dirimu agar menjadikannya sebab dan simpanan bagiku. Dan aku memohon kepada Allah yang menunjukkan tempatmu dan membimbingku untuk memberi salam kepadamu dan mengunjungimu agar memasukkanku ke kolammu dan memberiku pertemanan denganmu di surga. Salam sejahtera atasmu, wahai pilihan Allah. [Salam sejahtera atas Muḥammad ibn ʿAbd Allāh, Penutup para Nabi.] Salam sejahtera atas Amirul Mukminin dan pewaris Rasul Rabb semesta alam, dan pemimpin orang-orang bercahaya. Salam sejahtera atas al-Ḥasan dan al-Ḥusayn, pemuda-pemuda surga. Salam sejahtera atas para Imam—dan sebutkan nama mereka—semoga keselamatan atas mereka, serta rahmat dan berkah Allah. Salam sejahtera atas malaikat Allah yang mengelilingi. Salam sejahtera atas malaikat Allah yang tetap, yang bertasbih, yang bekerja atas perintah-Nya. Salam sejahtera atas kami dan atas hamba-hamba Allah yang saleh. Ya Allah, jangan jadikan ini perjanjian terakhirku dalam mengunjunginya. Jika Engkau jadikan, maka kumpulkanlah aku bersamanya dan dengan nenek moyangnya yang telah tiada. Dan jika Engkau biarkan aku hidup, ya Rabb, berikanlah aku kesempatan untuk mengunjunginya selama aku hidup. Sesungguhnya Engkau Maha Kuasa atas segala sesuatu.”",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
+          "en": "Peace be upon the Commander of the Faithful, the successor of the Messenger of the Lord of the Worlds, the leader of the radiant ones. Peace be upon Hasan and Husayn, the masters of the youth of Paradise. Peace be upon the Imams – and you name them – peace be upon them and the mercy of Allah and His blessings. Peace be upon the angels of Allah who encircle (this grave). Peace be upon the angels of Allah who remain stationed and glorify Him, fulfilling His command. Peace be upon us and upon the righteous servants of Allah. O Allah, do not make this the last of my visits to him. If You decree it to be so, then gather me with him and his righteous forefathers. If You extend my life, O Lord, then bless me with the opportunity to visit him perpetually as long as You keep me alive. Indeed, You are capable of all things.\"",
+          "ur": "سلام ہو امیر المؤمنین پر، جو عالموں کے رب کے رسول کے جانشین ہیں، اور چمکداروں کے سردار ہیں۔ سلام ہو حسن اور حسین پر، جو جنت کے نوجوانوں کے سردار ہیں۔ سلام ہو ائمہ پر – اور تم ان کے نام لو – سلام ہو ان پر اور اللہ کی رحمت اور اس کی برکتیں۔ سلام ہو اللہ کے فرشتوں پر جو اس قبر کے گرد گھیرے ہوئے ہیں۔ سلام ہو اللہ کے فرشتوں پر جو مقرر کیے گئے ہیں اور اس کی تعریف کرتے ہیں، اس کے حکم کی تکمیل کرتے ہوئے۔ سلام ہو ہم پر اور اللہ کے نیک بندوں پر۔ اے اللہ، اسے میری اس کی زیارت کا آخری موقع نہ بنا دے۔ اگر تو نے اسے ایسا ہی لکھ دیا ہے، تو مجھے اس کے ساتھ اور اس کے نیک باپ داداؤں کے ساتھ جمع کر دے۔ اگر تو نے میری عمر میں اضافہ کیا، اے میرے رب، تو مجھے اس کی مستقل زیارت کا موقع عطا فرما جب تک تو مجھے زندہ رکھے۔ بے شک تو ہر چیز پر قادر ہے۔",
+          "tr": "Emirü'l-Müminîn'e, Âlemlerin Rabbi'nin Peygamberinin halefine, parlayanların önderine selâm olsun. Cennetin gençlerinin efendileri Hasan ve Hüseyin'e selâm olsun. İmâmlara – isimlerini zikredin – onlara ve Allah'ın rahmeti ve bereketi olsun. Allah'ın meleklerine, (bu mezarı) çevreleyenlere selâm olsun. Allah'ın meleklerine, vazifede duran ve O'nu tesbih eden, emrini yerine getirenlere selâm olsun. Bize ve Allah'ın salih kullarına selâm olsun. Allah'ım, bunu benim için ziyaretımın sonu etme. Eğer takdir buyurursan, beni onun ve salih atalarının yanına toplama. Eğer ömrümü uzatırsan, ey Rabbim, beni hayattayken daima ziyaret etme fırsatıyla müjdele. Şüphesiz, O her şeye kadirdir.",
+          "fa": "سلام بر امیرالمؤمنین، جانشین پیامبر پروردگار جهانیان، پیشوای درخشانان. سلام بر حسن و حسین، سرور جوانان بهشت. سلام بر ائمه – و آنان را نام ببرید – سلام بر آنان و رحمت خدا و برکاتش. سلام بر فرشتگان خدا که این قبر را احاطه کرده‌اند. سلام بر فرشتگان خدا که پایدارند و او را تسبیح می‌گویند و فرمانش را به جا می‌آورند. سلام بر ما و بر بندگان شایسته خدا. ای خدا، این را آخرین بازدید من از او قرار مده. اگر چنین مقدر فرمایی، مرا با او و پدران شایسته‌اش جمع کن. اگر عمرم را طولانی فرمایی، ای پروردگار، مرا به فرصت بازدید همیشگی از او در حالی که زنده‌ام، ارزانی دار. بی‌گزار تو بر هر کاری توانایی.",
+          "id": "Salam sejahtera atas Pemimpin Orang-orang Beriman, penerus Utusan Tuhan Alam Semesta, pemimpin para yang bercahaya. Salam sejahtera atas Hasan dan Husayn, tuan-tuan kaum muda surga. Salam sejahtera atas para Imam – dan sebutlah nama mereka – salam sejahtera atas mereka dan rahmat Allah serta berkah-Nya. Salam sejahtera atas para malaikat Allah yang mengelilingi (makam ini). Salam sejahtera atas para malaikat Allah yang tetap berdiam dan bertasbih kepada-Nya, menunaikan perintah-Nya. Salam sejahtera atas kami dan atas hamba-hamba Allah yang saleh. Wahai Allah, jangan jadikan ini kunjungan terakhirku kepadanya. Jika Engkau menjadikannya demikian, maka kumpulkanlah aku bersamanya dan para leluhur yang saleh darinya. Jika Engkau memperpanjang umurku, wahai Tuhanku, maka anugerahkanlah kepadaku kesempatan untuk mengunjungi beliau secara terus-menerus selama Engkau menjagaku hidup. Sesungguhnya, Engkau Mahakuasa atas segala sesuatu.",
+          "bn": "আল্লাহর পক্ষ থেকে বিশ্বাসীদের নেতা, জাহান্নামের রাসূলের উত্তরসূরি, উজ্জ্বলদের নেতার উপর শান্তি বর্ষিত হোক। ফার্দাউসের যুবকদের অধিপতি হাসান ও হুসাইনের উপর শান্তি বর্ষিত হোক। ইমামদের উপর শান্তি বর্ষিত হোক — এবং আপনি তাদের নাম উল্লেখ করুন — তাদের উপর এবং আল্লাহর রহমত ও বরকত বর্ষিত হোক। আল্লাহর ফেরেশতাদের উপর শান্তি বর্ষিত হোক, যারা (এই কবরের) চারপাশে অবস্থান করেন। আল্লাহর ফেরেশতাদের উপর শান্তি বর্ষিত হোক, যারা স্থির হয়ে অবস্থান করে তাঁর গুণগান করেন এবং তাঁর আদেশ পালন করেন। আমাদের উপর এবং আল্লাহর সৎ বান্দাদের উপর শান্তি বর্ষিত হোক। হে আল্লাহ, এটি আমার তার দরশনের শেষ না হোক। যদি আপনি এটি নির্ধারণ করেন, তবে আমাকে তার এবং তার সৎ পূর্বপুরুষদের সাথে একত্রিত করুন। যদি আপনি আমার জীবন বর্ধিত করেন, হে প্রভু, তবে আমাকে চিরকাল তার দরশনের সুযোগ দান করুন, যতক্ষণ আপনি আমাকে জীবিত রাখেন। নিশ্চয়ই আপনি সকল বিষয়ে ক্ষমতাবান।",
+          "es": "La paz sea sobre el Comandante de los Creyentes, el sucesor del Mensajero del Señor de los Mundos, el líder de los resplandecientes. La paz sea sobre Hasan y Husayn, los señores de la juventud del Paraíso. La paz sea sobre los Imames —y los nombras—, la paz sea sobre ellos y la misericordia de Alá y Sus bendiciones. La paz sea sobre los ángeles de Alá que rodean (esta tumba). La paz sea sobre los ángeles de Alá que permanecen estacionados y Lo glorifican, cumpliendo Su mandato. La paz sea sobre nosotros y sobre los siervos justos de Alá. Oh Alá, no hagas que esta sea la última de mis visitas a él. Si decides que sea así, entonces agrégame a él y a sus antepasados justos. Si prolongas mi vida, oh Señor, entonces bendíceme con la oportunidad de visitarlo perpetu perpetuamente mientras me mantengas con vida. Ciertamente, Tú eres capaz de todas las cosas.",
+          "fr": "Que la paix soit sur le Commandeur des Croyants, le successeur du Messager du Seigneur des mondes, le guide des radieux. Que la paix soit sur Hasan et Husayn, les maîtres de la jeunesse du Paradis. Que la paix soit sur les Imams – et vous les nommez – paix sur eux et la miséricorde d'Allah et Ses bénédictions. Que la paix soit sur les anges d'Allah qui entourent (cette tombe). Que la paix soit sur les anges d'Allah qui demeurent stationnés et Le glorifient, accomplissant Son commandement. Que la paix soit sur nous et sur les serviteurs pieux d'Allah. Ô Allah, ne fais pas de cela ma dernière visite à lui. Si Tu décrètes que ce soit ainsi, alors réuni-moi avec lui et ses pieux ancêtres. Si Tu prolonges ma vie, ô Seigneur, alors accorde-moi la grâce de Le visiter perpétuellement aussi longtemps que Tu me gardes en vie. En vérité, Tu es capable de toutes choses.",
+          "de": "Friede sei mit dem Befehlshaber der Gläubigen, dem Nachfolger des Gesandten des Herrn der Welten, dem Anführer der Strahlenden. Friede sei mit Hasan und Husayn, den Herren der Jugend des Paradieses. Friede sei mit den Imamen – und ihr nennt sie – Friede sei mit ihnen und der Barmherzigkeit Allahs und Seinen Segensgaben. Friede sei mit den Engeln Allahs, die (dieses Grab) umkreisen. Friede sei mit den Engeln Allahs, die stationiert bleiben und Ihn preisen, indem sie Seinen Befehl erfüllen. Friede sei mit uns und mit den rechtschaffenen Dienern Allahs. O Allah, mache dies nicht zum letzten meiner Besuche bei ihm. Wenn Du es so beschließt, dann versammle mich mit ihm und seinen rechtschaffenen Vätern. Wenn Du mir das Leben verlängerst, o Herr, dann segne mich mit der Gelegenheit, ihn so lange zu besuchen, wie Du mich am Leben erhältst. Wahrlich, Du bist zu allem fähig.",
+          "ru": "Мир повелю верующих, преемника Посланника Господа миров, лидера сияющих. Мир Хасану и Хусейну, хозяевам юношей Рая. Мир имамам – и вы называете их – мир им и милость Аллаха и Его благословения. Мир ангелам Аллаха, которые окружают (эту могилу. Мир ангелам Аллаха, которые остаются на своих местах и прославляют Его, исполняя Его повеление. Мир нам и праведным рабам Аллаха. О Аллах, не делай это последним из моих посещений его. Если Ты предопределишь так, то собери меня с ним и его праведными предками. Если Ты продлишь мою жизнь, о Господь, то даруй мне возможность посещать его постоянно, пока Ты сохраняешь меня живым. Воистину, Ты способен ко всему.",
+          "zh": "愿信士们的长官、众世界之主使者的继任者、光辉者的领袖平安。愿哈桑和侯赛因，天堂青年的主宰平安。愿伊玛目们平安——你们提及他们的名字——愿他们及真主的仁慈和福分平安。愿环绕（此墓）的真主的众天使平安。愿驻守并赞颂真主、履行其命令的真主众天使平安。愿我们及真主的正直仆人们平安。真主啊，不要使这成为我最后一次来此朝拜。如果你意欲如此，就将我与他和他的正直祖先聚集在一起。如果你延长我的寿命，主啊，那么请赐福于我，让我在你让我活着的时候，能够永久地来此朝拜。的确，你有能力于万事。"
         },
-        "word_start": 1,
+        "word_start": 129,
         "word_end": 209
       },
       {
-        "chunk_type": "closing",
-        "arabic_text": "وَتَقُولُ: «أَسْتَوْدِعُكَ ٱللَّهَ وَأَسْتَرْعِيكَ وَأَقْرَأُ عَلَيْكَ ٱلسَّلَامَ آمَنَّا بِٱللَّهِ وَبِمَا دَعَوْتَ إِلَيْهِ، ٱللَّهُمَّ فَٱكْتُبْنَا مَعَ ٱلشَّاهِدِينَ، ٱللَّهُمَّ ٱرْزُقْنِي حُبَّهُمْ وَمَوَدَّتَهُمْ أَبَدًا [مَا أَبْقَيْتَنِي ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ وَزُوَّارِ قَبْرِ ٱبْنِ بِنْتِ ٱللَّهِ، ٱلسَّلَامُ مِنِّي أَبَدًا] مَا بَقِيتُ وَدَائِمًا إِذَا فَنِيتُ، ٱلسَّلَامُ عَلَيْنَا وَعَلَى عَبْدِ ٱللَّهِ ٱلصَّالِحِينَ».",
+        "chunk_type": "body",
+        "arabic_text": "وَتَقُولُ: \"أَسْتَوْدِعُكَ اللَّهَ وَأَسْتَرْعِيكَ وَأَقْرَأُ عَلَيْكَ السَّلَامَ آمِنًا بِاللَّهِ وَبِمَا دَعَوْتَ إِلَيْهِ، اللَّهُمَّ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ، اللَّهُمَّ ارْزُقْنِي حُبَّهُمْ وَمَوَدَّتَهُمْ أَبَدًا [مَا أَبْقَيْتَنِي] السلامُ عَلَى مَلَائِكَةِ اللَّهِ وَزُوَّارِ قَبْرِ ابْنِ بِنْتِ اللَّهِ، السلامُ مِنِّي أَبَدًا] مَا بَقِيتُ وَدَائِمًا إِذَا فَنِيَتُ، السلامُ عَلَيْنَا وَعَلَى عَبْدِ اللَّهِ الصَّالِحِينَ\".",
         "translations": {
-          "en": "And say: “I entrust you to Allah, seek that you be kept in His care, and recite peace upon you. We have believed in Allah and in what you called to. O Allah, write us among the witnesses. O Allah, grant me their love and their affection forever [so long as You keep me alive. Peace be upon the angels of Allah and the visitors of the grave of the son of the daughter of Allah. Peace from me forever] as long as I remain, and always when I have perished. Peace be upon us and upon the righteous servant of Allah.”",
-          "ur": "اور کہو: \"میں تمہیں اللہ کے سپرد کرتا ہوں، تمہیں اس کی حفاظت میں رکھتا ہوں، اور تم پر سلام پڑھتا ہوں۔ ہم اللہ پر اور اس بات پر ایمان لائے ہیں جس کی تم نے دعوت دی۔ اے اللہ، ہمیں گواہوں میں لکھ دے۔ اے اللہ، مجھے ان کی محبت اور مودت ہمیشہ عطا فرما [جب تک مجھے زندہ رکھے۔ اللہ کے فرشتوں اور ابن بنی اللہ کے قبر کے زائرین پر سلام ہو۔ میری طرف سے ہمیشہ سلام] جب تک میں باقی ہوں، اور ہمیشہ جب میں فنا ہو جاؤں۔ ہم پر اور اللہ کے صالح بندوں پر سلام ہو۔\"",
-          "tr": "Ve de ki: “Seni Allah’a emanet ediyorum, O’nun korumasında olmanı diliyorum ve üzerine selam okuyorum. Allah’a ve senin davet ettiğine iman ettik. Allah’ım, bizi şahitler arasında yaz. Allah’ım, bana onların sevgisini ve muhabbetini ebedi olarak ver [beni yaşattığın sürece. Allah’ın meleklerine ve Allah’ın oğlunun kabrini ziyaret edenlere selam olsun. Benim tarafımdan ebedi selam] Ben var olduğum sürece ve yok olduğumda daima. Üzerimize ve Allah’ın salih kullarına selam olsun.”",
-          "fa": "و بگو: «تو را به خدا می‌سپارم، از او می‌خواهم که تو را در پناه خود نگه دارد و بر تو سلام می‌فرستم. ما به خدا و به آنچه تو دعوت کردی ایمان آوردیم. خداوندا، ما را در میان شاهدان بنویس. خداوندا، محبت و مودت آنان را برایم تا ابد عطا کن [تا زمانی که مرا زنده داری. سلام بر فرشتگان خدا و زائران قبر پسر دختر خدا. سلام از جانب من تا ابد] تا زمانی که باقی هستم و همیشه وقتی که فنا شوم. سلام بر ما و بر بنده صالح خدا.»",
-          "id": "Dan katakan: “Aku menitipkanmu kepada Allah, memohon agar Engkau dijaga dalam perawatan-Nya, dan membaca salam atasmu. Kami beriman kepada Allah dan kepada apa yang Engkau serukan. Ya Allah, catatlah kami di antara para saksi. Ya Allah, anugerahkanlah aku cinta dan kasih sayang mereka selamanya [selama Engkau menjaga aku hidup. Salam atas malaikat Allah dan para pengunjung makam putra putri Allah. Salam dariku selamanya] selama aku masih ada, dan selalu ketika aku telah tiada. Salam atas kami dan atas hamba-hamba Allah yang saleh.”",
-          "bn": "এবং বলো: “আমি তোমাকে আল্লাহর কাছে সোপর্দ করছি, তোমাকে তাঁর সুরক্ষায় রাখার জন্য প্রার্থনা করছি, এবং তোমার উপর সালাম পাঠ করছি। আমরা আল্লাহর প্রতি এবং তোমার আহ্বানে বিশ্বাস স্থাপন করেছি। হে আল্লাহ, আমাদের সাক্ষীদের মধ্যে লিখ। হে আল্লাহ, আমাকে তাদের ভালোবাসা ও স্নেহ চিরকাল দান কর [যতদিন তুমি আমাকে বাঁচিয়ে রাখো। আল্লাহর ফেরেশতাদের এবং আল্লাহর কন্যার পুত্রের কবরের দর্শনার্থীদের উপর সালাম। আমার পক্ষ থেকে চিরকাল সালাম] যতদিন আমি বেঁচে থাকি, এবং যখন আমি মারা যাই তখনও। আমাদের উপর এবং আল্লাহর ধার্মিক বান্দাদের উপর সালাম।”",
-          "es": "Y di: “Te encomiendo a Allah, pido que seas protegido bajo Su cuidado, y recito la paz sobre ti. Hemos creído en Allah y en lo que has llamado. Oh Allah, inscríbenos entre los testigos. Oh Allah, concédeme su amor y afecto para siempre [mientras me mantengas con vida. Paz sobre los ángeles de Allah y los visitantes de la tumba del hijo de la hija de Allah. Paz de mi parte para siempre] mientras permanezca, y siempre cuando haya perecido. Paz sobre nosotros y sobre el siervo justo de Allah.”",
-          "fr": "Et dis : « Je te confie à Allah, je demande qu’Il te garde sous Sa protection, et je récite la paix sur toi. Nous avons cru en Allah et en ce à quoi tu as appelé. Ô Allah, inscris-nous parmi les témoins. Ô Allah, accorde-moi leur amour et leur affection pour toujours [tant que Tu me gardes en vie. Paix sur les anges d’Allah et les visiteurs de la tombe du fils de la fille d’Allah. Paix de ma part pour toujours] tant que je reste, et toujours lorsque je serai disparu. Paix sur nous et sur le serviteur juste d’Allah. »",
-          "de": "Und sprich: „Ich vertraue dich Allah an, bitte, dass du in Seiner Obhut bleibst, und spreche den Frieden über dich aus. Wir haben an Allah und an das geglaubt, wozu du aufgerufen hast. O Allah, schreibe uns unter die Zeugen. O Allah, gewähre mir ihre Liebe und Zuneigung für immer [solange Du mich am Leben erhältst. Frieden über die Engel Allahs und die Besucher des Grabes des Sohnes der Tochter Allahs. Frieden von mir für immer] solange ich bleibe, und immer wenn ich vergehen werde. Frieden über uns und über den rechtschaffenen Diener Allahs.“",
-          "ru": "И скажи: «Я вверяю тебя Аллаху, прошу, чтобы ты был под Его защитой, и возношу над тобой салам. Мы уверовали в Аллаха и в то, к чему ты призывал. О Аллах, запиши нас среди свидетелей. О Аллах, даруй мне их любовь и привязанность навсегда [пока Ты сохраняешь меня живым. Мир ангелам Аллаха и посетителям могилы сына дочери Аллаха. Мир от меня навсегда] пока я жив, и всегда, когда я умру. Мир нам и праведным рабам Аллаха.»",
-          "zh": "并说：“我将你托付给真主，祈求你被他看护，并向你致以问候。我们信仰真主和你所呼唤的。真主啊，将我们记入见证者之列。真主啊，赐我他们的爱与情谊，永远[只要你让我活着。真主的天使和真主女儿之子的坟墓访客，愿你们平安。我的问候永远]只要我还在，及我逝去时。愿我们和真主的虔诚信士平安。”"
+          "en": "And say: \"I entrust you to Allah, I place you in His care, and I send my peace to you. We believe in Allah and in what you called towards. O Allah, write us among the witnesses. O Allah, grant me their love and affection perpetually as long as I live. [Peace be upon the angels of Allah and the visitors to the grave of the son of the Prophet of Allah. Peace from me forever as long as I live and eternally even after I pass.] Peace be upon us and upon the righteous servants of Allah.\"",
+          "ur": "اور کہو: میں تمہیں اللہ کے حوالے کرتا ہوں، میں تمہیں اس کی حفاظت میں دیتا ہوں، اور میں تم پر اپنی سلامتی بھیجتا ہوں۔ ہم اللہ پر ایمان لاتے ہیں اور اس چیز پر جو تم نے دعوت دی ہے۔ اے اللہ! ہمیں گواہوں میں لکھ دے۔ اے اللہ! مجھے ان سے محبت اور الفت عطا فرما جب تک میں زندہ ہوں۔ [اللہ کے فرشتوں اور نبی اللہ کے بیٹا کے قبر میں آنے والوں پر سلامتی۔ میری طرف سے ہمیشہ کی سلامتی جب تک میں زندہ ہوں اور ہمیشہ بعد از مرگ بھی۔] ہم پر سلامتی ہو اور اللہ کے نیک بندوں پر۔",
+          "tr": "De ki: \"Sizi Allah'a emanet ediyorum, onu himayesine bırakıyorum ve size selam gönderiyorum. Allah'a ve davet ettiğine inandık. Ey Allah, Allah, bizi şahitler arasına yaz. Ey, Allah, bana onların sevgisini ve muhabbetini ömrüm süresince ve ölümden sonra ebediyen nasip et. [Allah'ın meleklerine ve Allah'ın Peygamberi'nin oğlunun kabrini ziyaret edenlere selam olsun. Benden selam ömrüm süresince ve ölümden sonra ebediyen olsun.] Selam olsun bize ve Allah'ın salih kullarına da.\"",
+          "fa": "و بگو: «تو را به خداوند سپردم، تو را در امان او قرار دادم و سلام خود را به تو می‌فرستم. ما به خداوند و به آنچه تو به آن دعوت می‌کردی، ایمان آوردیم. ای خداوند، ما را از جمله شاهدان بنویس. ای خداوند، محبت و الفت آنان را تا زمانی که زنده‌ام و پس از آن نیز ابدی به من عطا فرما. [سلام بر فرشتگان خداوند و زائران قبر پسر پیامبر خداوند. سلام از من تا ابد تا زمانی که زنده‌ام و پس از آن نیز ابدی.] سلام بر ما و بر بندگان شایسته خداوند باد.",
+          "id": "Dan katakanlah: \"Aku menitipkan kalian kepada Allah, aku menempatkan kalian dalam penjagaan-Nya, dan aku menyampaikan salam kepadamu. Kami beriman kepada Allah dan kepada apa yang kamu ajak kepadanya. Ya Allah, tuliskanlah kami di antara para saksi. Ya Allah, anugerahkanlah kepadaku cinta dan kasih sayang mereka selama aku hidup. [Salam bagi para malaikat Allah dan para pengunjung kuburan putra Nabi Allah. Salam dariku selamanya selama aku hidup dan abadi bahkan setelah aku wafat.] Salam bagi kami dan bagi hamba-hamba Allah yang saleh.\"",
+          "bn": "এবং বলুন: \"আমি আপনাদেরকে আল্লাহর নিকট হাওয়ালা করছি, আপনাদেরকে তাঁর হেফাজতে রাখছি, এবং আমি আপনাদেরকে শান্তি প্রেরণ করছি। আমরা আল্লাহর উপর এবং আপনি যার দিকে আহ্বান করেছেন তার উপর ঈমান আনছি। হে আল্লাহ, আমাকে সাক্ষীদের অন্তর্ভুক্ত করুন। হে আল্লাহ, আমাকে তাদের ভালোবাসা ও আকর্ষণীয়তা চিরকাল দান করুন, যতদিন আমি বেঁচে থাকি। [আল্লাহর ফেরেশতাদের উপর এবং আল্লাহর নবির পুত্রের কবরদর্শীদের উপর শান্তি বর্ষিত হোক। আমার চিরকালের শান্তি, যতদিন আমি বেঁচে থাকি এবং চিরকাল এমনকি আমি মৃত্যুর পরেও।] আমাদের উপর এবং আল্লাহর সৎ বান্দাদের উপর শান্তি বর্ষিত হোক।\"",
+          "es": "Y di: \"Te encomiendo a Alá, te pongo bajo Su cuidado y protección, y te envío mi paz. Creemos en Alá y en aquello hacia lo cual nos has llamado. Oh Alá, escríbenos entre los testigos. Oh Alá, concédeme su amor y afecto perpetuamente mientras viva. [La paz sea sobre los ángeles de Alá y los visitantes de la tumba del hijo del Profeta de Alá. Paz de mí para siempre mientras viva y eternamente incluso después de mi partida.] La paz sea sobre nosotros y sobre los siervos justos de Alá.\"",
+          "fr": "Et dis : « Je te confie à Allah, je te place sous Sa garde, et je t'adresse ma paix. Nous croyons en Allah et en ce vers quoi tu appelles. Ô Allah, inscris-nous parmi les témoins. Ô Allah, accorde-moi leur amour et leur affection perpétuellement aussi longtemps que je vis. [Que la paix soit sur les anges d'Allah et sur les visiteurs de la tombe du fils du Prophète d'Allah. Paix de ma part à jamais aussi longtemps que je vis et éternellement même après mon passage. Que la paix soit sur nous et sur les serviteurs vertueux d'Allah. »",
+          "de": "Und sprich: \"Ich beauftrage euch Allah, ich stelle euch in Seine Obhut, und ich sende euch meinen Frieden. Wir glauben an Allah und an das, wozu du aufrufst. O Allah, schreibe uns unter die Zeugen. O Allah, gewähre mir ihre Liebe und Zuneigung fortwährend, solange ich lebe. [Friede sei auf den Engeln Allahs und den Besuchern des Grabes des Sohnes des Propheten Allahs. Friede von mir fortwährend, solange ich lebe, und ewig, auch nachdem ich gegangen bin.] Friede sei auf uns und auf den rechtschaffenen Dienern Allahs.\"",
+          "ru": "И скажи: «Я поручаю вас Аллаху, я помещаю вас под Его опеку, и я посылаю вам свой мир. Мы веруем в Аллаха и в то, к чему вы призывали. О Аллах, запиши нас среди свидетелей. О Аллах, даруй мне их любовь и привязанность навсегда, пока я живу. [Мир ангелам Аллаха и посещающим могилу сына Пророка Аллаха. Мир от меня навсегда, пока я живу, и вечно, даже после того, как я уйду.] Мир нам и праведным рабам Аллаха».",
+          "zh": "然后说：我把你们托付给真主，我把你们交托于他的照管，我祝你们平安。我们信仰真主，也信仰你们所号召的。真主啊，求你把我们列入见证者之中。真主啊，求你让我终生乃至永恒地热爱他们、亲近他们。[真主的众天使和来拜谒真主先知之子坟墓的人啊，愿平安归于你们。我终生乃至永恒，甚至在我离世之后，愿平安归于你们。]愿平安归于我们，也归于真主的虔诚仆人们。"
         },
         "word_start": 209,
         "word_end": 255
       },
       {
         "chunk_type": "closing",
-        "arabic_text": "فَإِذَا خَرَجْتَ مِنَ ٱلْقُبَّةِ فَلَا تُوَلِّ وَجْهَكَ عَنْهُ حَتَّى يَغِيبَ عَنْ بَصَرِكَ.",
+        "arabic_text": "فإِذَا خَرَجْتَ مِنَ الْقُبَّةِ فَلَا تَوْلِ وَجْهَكَ عَنْهُ حَتَّى يَغِيبَ عَنْ بَصَرِكَ.",
         "translations": {
-          "en": "When you leave the dome, do not turn your face away from him until he disappears from your sight.",
-          "ur": "جب آپ گنبد سے باہر نکلیں تو اس کی طرف اپنا چہرہ نہ موڑیں جب تک کہ وہ آپ کی نظر سے غائب نہ ہو جائے۔",
-          "tr": "Kubbeden çıkarken, onu gözden kaybolana kadar yüzünü ondan çevirmeyin.",
-          "fa": "وقتی از گنبد خارج می‌شوی، روی خود را از او برنگردان تا از دید تو ناپدید شود.",
-          "id": "Ketika kamu keluar dari kubah, jangan membelakangi dia sampai dia hilang dari pandanganmu.",
-          "bn": "গম্বুজ থেকে বের হওয়ার সময় তার মুখ ফিরিয়ে নেবেন না যতক্ষণ না সে আপনার দৃষ্টিতে অদৃশ্য হয়ে যায়।",
-          "es": "Cuando salgas de la cúpula, no vuelvas tu rostro hasta que desaparezca de tu vista.",
-          "fr": "Lorsque tu sors du dôme, ne détourne pas ton visage de lui jusqu’à ce qu’il disparaisse de ta vue.",
-          "de": "Wenn du die Kuppel verlässt, wende dein Gesicht nicht von ihm ab, bis er aus deinem Blickfeld verschwunden ist.",
-          "ru": "Когда выходишь из купола, не отворачивайся от него, пока он не исчезнет из поля зрения.",
-          "zh": "当你离开穹顶时，不要转过脸去，直到他从你的视线中消失。"
+          "en": "When you leave the dome, do not turn your face away from it until it disappears from your sight.",
+          "ur": "جب تم گنبد سے نکلو تو جب تک وہ تمہاری نظر سے اوجھل نہ ہو جائے اس کی طرف منہ نہ ہٹانا۔",
+          "tr": "Kubbeden ayrıldığınızda, gözden kaybolana kadar yüzünüzü ondan çevirmeyin.",
+          "fa": "هنگامی که از گنبد خارج می‌شوید، تا زمانی که از دیدتان پنهان می‌شود، رویتان را از آن برنگردانید.",
+          "id": "Apabila kamu meninggalkan kubah, jangan memalingkan wajahmu darinya hingga ia hilang dari pandanganmu.",
+          "bn": "যখন আপনি গম্বুজ থেকে বের হবেন, তখন এটি আপনার দৃষ্টি থেকে অদৃশ্য না হওয়া পর্যন্ত মুখ ঘুরিয়ে নেবেন না।",
+          "es": "Cuando salaat, wudu, zakat",
+          "fr": "Lorsque vous quittez le dôme, ne détournez pas votre visage de celui-ci jusqu'à ce qu'il disparaisse de votre vue.",
+          "de": "Wenn ihr die Kuppel verlasst, wendet euer Gesicht nicht von ihr ab, bis sie aus eurem Blickfeld verschwindet.",
+          "ru": "Когда вы покинете купол, не отворачивайтесь от него, пока он не исчезнет из виду.",
+          "zh": "当你离开圆顶时，不要将脸移开，直到它从你的视线中消失。"
         },
         "word_start": 255,
         "word_end": 267
@@ -110,1165 +105,160 @@
     ],
     "translations": {
       "en": {
-        "summary": "This text teaches the farewell supplication to be recited at the end of a ziyārah, expressing devotion, loyalty, and hope for shafāʿah through the Imam عليه السلام. It also asks Allah to grant repeated visitation, companionship with the Ahl al-Bayt عليهم السلام in Paradise, and steadfast love for them.",
-        "seo_question": "What should be recited when bidding farewell after visiting Imam al-Riḍā عليه السلام?",
+        "summary": "This passage from Shaykh al-Saduq’s *Man La Yahduruhu al-Faqih* outlines the ritual etiquette for bidding farewell to Imam al-Ridha, emphasizing the theological concept of *shafa'ah* (intercession) and the pilgrim's sacrifice of leaving their homeland. The supplication connects the physical act of departure with eschatological hope, specifically requesting that this visit not be the last and that the pilgrim be granted entry through the Imam's intercession on the Day of Judgment. This reflects the Shia scholarly tradition of viewing ziarah as a means of spiritual proximity and divine favor.",
+        "seo_question": "What is the prescribed prayer and etiquette for bidding farewell after visiting the shrine of Imam al-Ridha?",
         "key_terms": {
-          "ٱلْوَدَاعُ": "farewell at the conclusion of ziyārah",
-          "شَافِعًا": "an intercessor on the Day of need",
-          "كُرْبَتِي": "my distress or anguish",
-          "حَوْضَكُمْ": "your fountain, sought as a blessing in the afterlife",
-          "ٱلْجِنَانِ": "the gardens of Paradise",
-          "زِيَارَتَهُ": "visiting him in devotion",
-          "مَوَدَّتَهُمْ": "love and affectionate loyalty toward them"
+          "الوداع": "Farewell",
+          "شفيعًا": "Intercessor",
+          "يوم حاجتي": "The day of my need",
+          "القبّة": "The dome (shrine)",
+          "الغُرّ المحجّلون": "The radiant ones (with bright foreheads from prostration)",
+          "حوضكم": "Your fountain (referring to the Prophet's Hawd in Paradise)"
         }
       },
       "ur": {
-        "summary": "یہ متن زیارت کے اختتام پر پڑھی جانے والی وداع کی دعا سکھاتا ہے، جو امام علیہ السلام کے ذریعے شفاعت کی امید، وفاداری اور محبت کا اظہار کرتی ہے۔ یہ اللہ سے دعا کرتا ہے کہ زیارت کی تواتر، اہل بیت علیہ السلام کی صحبت جنت میں عطا فرمائے اور ان کے لیے محبت قائم رکھے۔",
-        "seo_question": "امام الرضا علیہ السلام کی زیارت کے بعد وداع میں کیا پڑھنا چاہیے؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق کی کتاب *من لا یحضرہ الفقیہ* سے اس حصے میں امام رضا علیہ السلام کی زیارت کے بعد الوداع کی رسم و رواج بیان کی گئی ہے، جس میں شفاعت کے الہیاتی تصور اور زائر کے وطن چھوڑنے کے قربانی کے پہلوؤں پر زور دیا گیا ہے۔ دعا میں جدائی کے عمل کو قیامت کی امید سے جوڑا گیا ہے، خاص طور پر یہ درخواست کی گئی ہے کہ یہ زیارت آخری نہ ہو اور قیامت کے دن امام کی شفاعت کے ذریعے زائر کو داخلہ ملے۔ یہ شیعہ علمی روایت کی عکاسی کرتا ہے کہ زیارت روحانی قرب اور الہی فضل کا ذریعہ سمجھی جاتی ہے۔",
+        "seo_question": "امام رضا علیہ السلام کے مزار کی زیارت کے بعد الوداع کے لیے مقرر کردہ نماز اور آداب کیا ہیں؟",
+        "key_terms": {
+          "الوداع": "وداع",
+          "شفيعًا": "شفیع",
+          "يوم حاجتي": "میری حاجت کا دن",
+          "القبّة": "گنبد",
+          "الغُرّ المحجّلون": "غُرّ المحجّلون",
+          "حوضكم": "آپ کا حوض"
+        }
       },
       "tr": {
-        "summary": "Bu metin, bir ziyâretin sonunda okunacak veda duasını öğretir; İmam (aleyhisselam) aracılığıyla şefaat umudunu, bağlılığı ve sevgiyi ifade eder. Allah’tan, sürekli ziyaret, cennette Ehl-i Beyt (aleyhimesselam) ile beraberlik ve onlara karşı kalıcı sevgi vermesini diler.",
-        "seo_question": "İmam al-Riḍā عليه السلام’ı ziyaret ettikten sonra veda ederken ne okunmalıdır?",
-        "key_terms": {}
+        "summary": "Şeyh el-Saduk'un *Men La Yahduruhu'l-Fakih* adlı eserinden bu pasaj, İmam er-Rıza'ya vedalaşma ritüel adabını, teolojik *şefa'at* (aracılık) kavramını ve hacının memleketini terk etme fedakârlığını vurgulayarak özetler. Duâ, ayrılma fiilini ahiret umuduyla birleştirerek, özellikle bu ziyaretin son ziyaret olmamasını ve kıyamet gününde İmam'ın şefaatiyle cennete girişin sağlanmasını talep eder. Bu durum, Şii ilim geleneğinde ziyareti manevi yakınlık ve ilahi lütuf aracı olarak görme anlayışını yansıtır.",
+        "seo_question": "İmam er-Rıza'nın türbesini ziyaret ettikten sonra vedalaşma için öngörülen duâ ve adab nedir?",
+        "key_terms": {
+          "الوداع": "Veda",
+          "شفيعًا": "Şefaatçi",
+          "يوم حاجتي": "İhtiyacımın olduğu gün",
+          "القبّة": "Kübbe (türbe)",
+          "الغُرّ المحجّلون": "Parlak alınlılar (secde izleriyle parlak alınlar)",
+          "حوضكم": "Havuzunuz (Cennetteki Peygamber'in Havuzu'na işaret)"
+        }
       },
       "fa": {
-        "summary": "این متن دعای وداعی را آموزش می‌دهد که در پایان زیارت خوانده می‌شود و اظهار وفاداری، محبت و امید به شفاعت از طریق امام علیه‌السلام است. همچنین از خداوند درخواست می‌کند که زیارت مکرر، همراهی با اهل بیت علیهم‌السلام در بهشت و محبت پایدار به آنان را عطا فرماید.",
-        "seo_question": "پس از زیارت امام رضا علیه السلام چه دعایی باید خوانده شود؟",
-        "key_terms": {}
+        "summary": "این بخش از کتاب من لا یحضره الفقیه شیخ صدوق، آداب و رسوم خداحافظی با امام رضا(ع) را ترسیم می‌کند و بر مفهوم کلامی شفاعت و فداگری زائر در ترک میهن تأکید دارد. دعای خداحافظی، عمل فیزیکی جدایی را با امید به آخرت پیوند می‌زند و به‌طور خاص درخواست می‌کند که این زیارت آخرین نباشد و زائر از طریق شفاعت امام در روز قیامت به بهشت وارد شود. این امر بازتاب‌دهنده سنت علمی شیعه است که زیارت را وسیله‌ای برای قرب معنوی و فیض الهی می‌داند.",
+        "seo_question": "نماز و آداب تجوید پس از زیارت حرم امام رضا(ع) برای خداحافظی چیست؟",
+        "key_terms": {
+          "الوداع": "خداحافظی",
+          "شفيعًا": "شفیع",
+          "يوم حاجتي": "روز نیاز من",
+          "القبّة": "گنبد",
+          "الغُرّ المحجّلون": "غُرّ محجّلون",
+          "حوضكم": "حوض شما"
+        }
       },
       "id": {
-        "summary": "Teks ini mengajarkan doa perpisahan yang dibaca di akhir ziarah, yang mengungkapkan pengabdian, kesetiaan, dan harapan akan syafaat melalui Imam عليه السلام. Doa ini juga memohon kepada Allah agar diberikan kesempatan ziarah berulang, pertemanan dengan Ahl al-Bayt عليهم السلام di surga, dan cinta yang teguh kepada mereka.",
-        "seo_question": "Apa yang harus dibaca saat mengucapkan selamat tinggal setelah mengunjungi Imam al-Riḍā عليه السلام?",
-        "key_terms": {}
+        "summary": "Teks ini dari Syekh al-Shaduq dalam *Man La Yahduruhu al-Faqih* menguraikan tata krama ritual untuk berpisah dengan Imam al-Ridha, menekankan konsep teologis *shafa'ah* (syafaat) dan pengorbanan peziarah meninggalkan tanah airnya. Doa tersebut menghubungkan tindakan fisik keberangkatan dengan harapan eskatologis, khususnya memohon agar kunjungan ini bukan yang terakhir dan agar peziarah diberi masuk melalui syafaat Imam pada Hari Kiamat. Hal ini mencerminkan tradisi keilmuan Syiah yang memandang ziarah sebagai sarana kedekatan spiritual dan karunia ilahi.",
+        "seo_question": "Apa doa dan tata krama yang ditetapkan untuk berpisah setelah mengunjungi makam Imam al-Ridha?",
+        "key_terms": {
+          "الوداع": "Pamitan",
+          "شفيعًا": "Pemberi syafaat",
+          "يوم حاجتي": "Hari kebutuhanku",
+          "القبّة": "Kubah (makam)",
+          "الغُرّ المحجّلون": "Yang bercahaya (dengan dahi cerah akibat sujud)",
+          "حوضكم": "Telaga kalian"
+        }
       },
       "bn": {
-        "summary": "এই পাঠটি একটি জিয়ারতের শেষে পাঠ করার জন্য বিদায় প্রার্থনা শেখায়, যা ইমাম عليه السلام-এর মাধ্যমে শফাআহের প্রতি ভক্তি, আনুগত্য এবং আশা প্রকাশ করে। এটি আল্লাহর কাছে বারবার জিয়ারতের সুযোগ, আখল আল-বায়ত عليهم السلام-এর সঙ্গে জান্নাতে সঙ্গ এবং তাদের প্রতি স্থায়ী ভালোবাসার জন্য দোয়া করে।",
-        "seo_question": "ইমাম আল-রিদা عليه السلام-এর জিয়ারতের পর বিদায়ে কী পড়া উচিত?",
-        "key_terms": {}
+        "summary": "শেখ আল-সদুকের *মান লা যাহদুরুহুল ফাকিহ* গ্রন্থের এই অংশে ইমাম আল-রিদার (আ.)-কে বিদায়ের রীতিনীতি বর্ণনা করা হয়েছে, যেখানে *শাফা'আহ* (মধ্যস্থতা) নামক ঐতিহাসিক ধারণা এবং তীর্থযাত্রীর নিজ দেশ ত্যাগের বলিদানের কথা উল্লেখ করা হয়েছে। এই দোয়ায় বিদায়ের শারীরিক কাজকে পরকালের আশার সাথে যুক্ত করা হয়েছে, বিশেষ করে এই ভিক্ষা করা হয়েছে যে এই দর্শন যেন শেষ দর্শন না হয় এবং কিয়ামতের দিন ইমামের মধ্যস্থতার মাধ্যমে তীর্থযাত্রীকে প্রবেশাধিকার প্রদান করা হোক। এটি শিয়া পণ্ডিতদের ঐতিহ্যের প্রতিফলন, যেখানে জিয়ারাহকে আধ্যাত্মিক নৈকট্য এবং ঐশ্বরিক অনুগ্রহের মাধ্যম হিসেবে দেখা হয়।",
+        "seo_question": "ইমাম আল-রিদার (আ.)-এর মাজার দর্শনের পর বিদায়ের জন্য নির্ধারিত নামাজ ও রীতিনীতি কী?",
+        "key_terms": {
+          "الوداع": "বিদায়",
+          "شفيعًا": "মধ্যস্থতাকারী",
+          "يوم حاجتي": "আমার প্রয়োজনের দিন",
+          "القبّة": "গুম্বদ (মাজার)",
+          "الغُرّ المحجّلون": "উজ্জ্বল মুখবিন্যাসযুক্তরা (সিজদার চিহ্নে উজ্জ্বল ললাট)",
+          "حوضكم": "আপনার হাউদ (জান্নাতের নবীর হাউদ)"
+        }
       },
       "es": {
-        "summary": "Este texto enseña la súplica de despedida que se recita al final de una ziyārah, expresando devoción, lealtad y esperanza de intercesión a través del Imām عليه السلام. También pide a Allah que conceda visitas repetidas, compañía con Ahl al-Bayt عليهم السلام en el Paraíso y amor constante por ellos.",
-        "seo_question": "¿Qué se debe recitar al despedirse después de visitar al Imām al-Riḍā عليه السلام?",
-        "key_terms": {}
+        "summary": "Este pasaje del *Man La Yahduruhu al-Faqih* de Shaykh al-Saduq describe la etiqueta ritual para despedirse del Imam al-Ridha, destacando el concepto teológico de *shafa'ah* (intercesión) y el sacrificio del peregrino al dejar su tierra natal. La súplica vincula el acto físico de la partida con la esperanza escatológica, pidiendo específicamente que esta visita no sea la última y que se conceda al peregrino la entrada mediante la intercesión del Imam en el Día del Juicio. Esto refleja la tradición erudita chií que ve la ziarah como un medio de proximidad espiritual y favor divino.",
+        "seo_question": "¿Cuál es la oración y la etiqueta prescritas para despedirse después de visitar el santuario del Imam al-Ridha?",
+        "key_terms": {
+          "الوداع": "Despedida",
+          "شفيعًا": "Intercesor",
+          "يوم حاجتي": "El día de mi necesidad",
+          "القبّة": "La cúpula (santuario)",
+          "الغُرّ المحجّلون": "Los radiantes (con frentes brillantes por la postración)",
+          "حوضكم": "Tu fuente (refiriéndose al Hawd del Profeta en el Paraíso)"
+        }
       },
       "fr": {
-        "summary": "Ce texte enseigne la supplication d’adieu à réciter à la fin d’une ziyārah, exprimant dévotion, loyauté et espoir d’intercession par l’Imām عليه السلام. Il demande aussi à Allah d’accorder des visites répétées, la compagnie des Ahl al-Bayt عليهم السلام au Paradis, et un amour constant pour eux.",
-        "seo_question": "Que doit-on réciter en prenant congé après avoir visité l’Imām al-Riḍā عليه السلام ?",
-        "key_terms": {}
+        "summary": "Ce passage du *Man La Yahduruhu al-Faqih* de Cheikh al-Sadouq décrit l'étiquette rituelle pour prendre congé de l'imam al-Ridha, en mettant l'accent sur le concept théologique de *chafa'a* (intercession) et le sacrifice du pèlerin qui quitte sa patrie. La supplication relie l'acte physique du départ à l'espoir eschatologique, demandant spécifiquement que cette visite ne soit pas la dernière et que le pègre soit admis par l'intercession de l'imam au Jour du Jugement. Cela reflète la tradition savante chiite qui considère la ziyara comme un moyen de proximité spirituelle et de faveur divine.",
+        "seo_question": "Quelle est la prière et l'étiquette prescrites pour prendre congé après la visite du sanctuaire de l'imam al-Ridha ?",
+        "key_terms": {
+          "الوداع": "Adieu",
+          "شفيعًا": "Intercesseur",
+          "يوم حاجتي": "Le jour de mon besoin",
+          "القبّة": "Le dôme (sanctuaire)",
+          "الغُرّ المحجّلون": "Les radieux (au front brillant dû à la prosternation)",
+          "حوضكم": "Votre fontaine (se référant au Hawd du Prophète au Paradis)"
+        }
       },
       "de": {
-        "summary": "Dieser Text lehrt das Abschiedsgebet, das am Ende einer Ziyārah rezitiert wird, und drückt Hingabe, Treue und Hoffnung auf Fürsprache durch den Imām عليه السلام aus. Er bittet Allah auch um wiederholte Besuche, Gemeinschaft mit den Ahl al-Bayt عليهم السلام im Paradies und beständige Liebe zu ihnen.",
-        "seo_question": "Was soll man beim Abschied nach dem Besuch von Imām al-Riḍā عليه السلام rezitieren?",
-        "key_terms": {}
+        "summary": "Dieser Abschnitt aus Scheych al-Saduqs *Man La Yahduruhu al-Faqih* beschreibt die rituellen Gebräuche zum Abschied von Imam al-Ridha und betont das theologische Konzept der *Schafa'a* (Fürsprache) sowie das Opfer des Pilgers, seine Heimat zu verlassen. Die Fürbitte verbindet den physischen Akt der Abreise mit eschatologischer Hoffnung, indem sie bittet, dass diese Wallfahrt nicht die letzte sei und der Pilmer durch die Fürsprache des Imams am Jüngsten Tag Einlass finde. Dies spiegelt die schiitische Gelehrtentradition wider, die die Ziarah als Mittel zur spirituellen Nähe und göttlichen Gunst betrachtet.",
+        "seo_question": "Welches ist das vorgeschriebene Gebet und die Etikette zum Abschied nach dem Besuch des Schreins von Imam al-Ridha?",
+        "key_terms": {
+          "الوداع": "Abschied",
+          "شفيعًا": "Fürsprecher",
+          "يوم حاجتي": "Der Tag meines Bedarfs",
+          "القبّة": "Die Kuppel (Schrein)",
+          "الغُرّ المحجّلون": "Die Strahlenden (mit hellen Stirnen durch das Niederwerfen)",
+          "حوضكم": "Euer Brunnen (bezieht sich auf den Hawd des Propheten im Paradies)"
+        }
       },
       "ru": {
-        "summary": "Этот текст учит прощальной мольбе, которую читают в конце зияры, выражая преданность, верность и надежду на шефа’ах через Имама عليه السلام. Также просит Аллаха даровать повторные посещения, общение с Ахль аль-Байт عليهم السلام в Раю и постоянную любовь к ним.",
-        "seo_question": "Что следует читать при прощании после посещения Имама аль-Риджа عليه السلام?",
-        "key_terms": {}
+        "summary": "В этом отрывке из книги шейха ас-Садука «Ман ля йахдуруху аль-факих» описывается ритуальный этикет прощания с имамом ар-Ридой, подчеркивается теологическая концепция шафаат (заступничества) и жертва паломника, оставившего свою родину. Мольба связывает физический акт отъезда с эсхатологической надеждой, конкретно прося, чтобы это посещение не стало последним и чтобы паломник был допущен через заступничество имама в День Суда. Это отражает шиитскую ученую традицию рассматривать зиярат как средство духовной близости и божественной милости.",
+        "seo_question": "Какова предписанная молитва и этикет прощания после посещения мавзолея имама ар-Риды?",
+        "key_terms": {
+          "الوداع": "Прощание",
+          "شفيعًا": "Заступник",
+          "يوم حاجتي": "День моей нужды",
+          "القبّة": "Купол (святилище)",
+          "الغُرّ المحجّلون": "Сияющие (с яркими лбами от земных поклонов)",
+          "حوضكم": "Ваш фонтан (имеется в виду фонтан Пророка в Раю)"
+        }
       },
       "zh": {
-        "summary": "本文教授在访问结束时诵读的告别祈祷，表达通过伊玛目 عليه السلام 的虔诚、忠诚和求得代求的希望。它还祈求真主赐予反复的访问机会，在天堂与 أهل البيت عليهم السلام 陪伴，以及对他们的坚定爱意。",
-        "seo_question": "拜访伊玛目阿里·里达 عليه السلام 后告别时应诵读什么？",
-        "key_terms": {}
+        "summary": "这段出自谢赫·萨杜克《法基赫所不及者》的经文概述了向伊玛目里达辞行的仪式礼仪，强调了代祷（shafa'ah）的神学概念以及朝圣者离开故土所作出的牺牲。这段祷词将离别的物理行为与末世论的希望联系起来，特别祈求此次朝圣并非最后一次，并祈求在末日通过伊玛目的代祷获得进入天堂的资格。这反映了什叶派学者传统中将朝圣视为获得灵性亲近和神圣恩宠的途径。",
+        "seo_question": "参观伊玛目里达陵墓后，辞行时应遵循怎样的祈祷和礼仪？",
+        "key_terms": {
+          "الوداع": "辞行",
+          "شفيعًا": "代祷者",
+          "يوم حاجتي": "我所需之日",
+          "القبّة": "圆顶（陵墓）",
+          "الغُرّ المحجّلون": "额部因叩头而发亮的光辉者",
+          "حوضكم": "你们的池沼（指天堂中先知的哈乌德）"
+        }
       }
     },
     "related_quran": [
       {
-        "ref": "2:255",
+        "ref": "3:31",
         "relationship": "thematic"
       },
       {
-        "ref": "12:87",
+        "ref": "21:28",
         "relationship": "thematic"
       },
       {
-        "ref": "26:88-89",
+        "ref": "39:44",
         "relationship": "thematic"
       },
       {
-        "ref": "43:67",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "5:35",
+        "ref": "2:155",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "ٱلْوَدَاعُ فَإِذَا أَرَدْتَ أَنْ تُوَدِّعَهُ فَقُلْ: «ٱلسَّلَامُ عَلَيْكَ يَا مَوْلَايَ وَٱبْنَ مَوْلَايَ وَرَحْمَةُ ٱللَّهِ وَبَرَكَاتُهُ أَنْتَ لَنَا جُنَّةٌ مِنَ ٱلْعَذَابِ وَهَذَا أَوَانُ ٱنْصِرَافِنَا عَنْكَ غَيْرَ رَاغِبٍ عَنْكَ، وَلَا مُسْتَبْدِلٍ بِكَ، وَلَا مُؤْثِرٍ عَلَيْكَ، وَلَا زَاهِدٍ فِي قُرْبِكَ، وَقَدْ جُدْتُ بِنَفْسِي لِلْحَدَثَانِ، وَتَرَكْتُ ٱلْأَهْلَ وَٱلْأَوْطَانَ وَٱلْأَوْلَادَ، فَكُنْ لِي شَافِعًا يَوْمَ حَاجَتِي وَفَقْرِي وَفَاقَتِي، يَوْمَ لَا يُغْنِي عَنِّي حَمِيمِي وَلَا قَرِيبِي، يَوْمَ لَا يُغْنِي عَنِّي وَالِدِي، أَسْأَلُ ٱللَّهَ ٱلَّذِي قَدَّرَ رَحِيلِي إِلَيْكَ أَنْ يُنَفِّسَ بِكَ كُرْبَتِي، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي قَدَّرَ عَلَيَّ فِرَاقَ مَكَانِكَ أَنْ لَا يَجْعَلَهُ آخِرَ ٱلْعَهْدِ مِنْ رُجُوعِي، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَبْكَى عَلَيْكَ عَيْنِي أَنْ يَجْعَلَهُ لِي سَبَبًا وَذُخْرًا، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَرَانِي مَكَانَكَ وَهَدَانِي لِلتَّسْلِيمِ عَلَيْكَ وَزِيَارَتِي إِيَّاكَ أَنْ يُورِدَنِي حَوْضَكُمْ، وَيَرْزُقَنِي مُرَافَقَتَكُمْ فِي ٱلْجِنَانِ، ٱلسَّلَامُ عَلَيْكَ يَا صَفْوَةَ ٱللَّهِ [ٱلسَّلَامُ عَلَى مُحَمَّدِ بْنِ عَبْدِ ٱللَّهِ خَاتَمِ ٱلنَّبِيِّينَ] ٱلسَّلَامُ عَلَى أَمِيرِ ٱلْمُؤْمِنِينَ وَوَصِيِّ رَسُولِ رَبِّ ٱلْعَالَمِينَ، وَقَائِدِ ٱلْغُرِّ ٱلْمُحَجَّلِينَ، ٱلسَّلَامُ عَلَى ٱلْحَسَنِ وَٱلْحُسَيْنِ سَيِّدَي شَبَابِ أَهْلِ ٱلْجَنَّةِ، ٱلسَّلَامُ عَلَى ٱلْأَئِمَّةِ - وَتُسَمِّيهِمْ عَلَيْهِمُ ٱلسَّلَامُ - وَرَحْمَةُ ٱللَّهِ وَبَرَكَاتُهُ، ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ ٱلْحَافِّينَ، ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ ٱلْمُقِيمِينَ ٱلْمُسَبِّحِينَ ٱلَّذِينَ هُمْ بِأَمْرِهِ يَعْمَلُونَ، ٱلسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ ٱللَّهِ ٱلصَّالِحِينَ، ٱللَّهُمَّ لَا تَجْعَلْهُ آخِرَ ٱلْعَهْدِ مِنْ زِيَارَتِي إِيَّاهُ، فَإِنْ جَعَلْتَهُ فَٱحْشُرْنِي مَعَهُ وَمَعَ آبَائِهِ ٱلْمَاضِينَ، وَإِنْ أَبْقَيْتَنِي يَا رَبِّ فَٱرْزُقْنِي زِيَارَتَهُ أَبَدًا مَا أَبْقَيْتَنِي إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ». وَتَقُولُ: «أَسْتَوْدِعُكَ ٱللَّهَ وَأَسْتَرْعِيكَ وَأَقْرَأُ عَلَيْكَ ٱلسَّلَامَ آمَنَّا بِٱللَّهِ وَبِمَا دَعَوْتَ إِلَيْهِ، ٱللَّهُمَّ فَٱكْتُبْنَا مَعَ ٱلشَّاهِدِينَ، ٱللَّهُمَّ ٱرْزُقْنِي حُبَّهُمْ وَمَوَدَّتَهُمْ أَبَدًا [مَا أَبْقَيْتَنِي ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ وَزُوَّارِ قَبْرِ ٱبْنِ بِنْتِ ٱللَّهِ، ٱلسَّلَامُ مِنِّي أَبَدًا] مَا بَقِيتُ وَدَائِمًا إِذَا فَنِيتُ، ٱلسَّلَامُ عَلَيْنَا وَعَلَى عَبْدِ ٱللَّهِ ٱلصَّالِحِينَ». فَإِذَا خَرَجْتَ مِنَ ٱلْقُبَّةِ فَلَا تُوَلِّ وَجْهَكَ عَنْهُ حَتَّى يَغِيبَ عَنْ بَصَرِكَ.",
-    "word_tags": [
-      [
-        "ٱلْوَدَاعُ",
-        "N"
-      ],
-      [
-        "فَإِذَا",
-        "N"
-      ],
-      [
-        "أَرَدْتَ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "تُوَدِّعَهُ",
-        "N"
-      ],
-      [
-        "فَقُلْ:",
-        "N"
-      ],
-      [
-        "«ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَيْكَ",
-        "N"
-      ],
-      [
-        "يَا",
-        "N"
-      ],
-      [
-        "مَوْلَايَ",
-        "N"
-      ],
-      [
-        "وَٱبْنَ",
-        "N"
-      ],
-      [
-        "مَوْلَايَ",
-        "N"
-      ],
-      [
-        "وَرَحْمَةُ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "وَبَرَكَاتُهُ",
-        "N"
-      ],
-      [
-        "أَنْتَ",
-        "N"
-      ],
-      [
-        "لَنَا",
-        "N"
-      ],
-      [
-        "جُنَّةٌ",
-        "N"
-      ],
-      [
-        "مِنَ",
-        "N"
-      ],
-      [
-        "ٱلْعَذَابِ",
-        "N"
-      ],
-      [
-        "وَهَذَا",
-        "N"
-      ],
-      [
-        "أَوَانُ",
-        "N"
-      ],
-      [
-        "ٱنْصِرَافِنَا",
-        "N"
-      ],
-      [
-        "عَنْكَ",
-        "N"
-      ],
-      [
-        "غَيْرَ",
-        "N"
-      ],
-      [
-        "رَاغِبٍ",
-        "N"
-      ],
-      [
-        "عَنْكَ،",
-        "N"
-      ],
-      [
-        "وَلَا",
-        "N"
-      ],
-      [
-        "مُسْتَبْدِلٍ",
-        "N"
-      ],
-      [
-        "بِكَ،",
-        "N"
-      ],
-      [
-        "وَلَا",
-        "N"
-      ],
-      [
-        "مُؤْثِرٍ",
-        "N"
-      ],
-      [
-        "عَلَيْكَ،",
-        "N"
-      ],
-      [
-        "وَلَا",
-        "N"
-      ],
-      [
-        "زَاهِدٍ",
-        "N"
-      ],
-      [
-        "فِي",
-        "N"
-      ],
-      [
-        "قُرْبِكَ،",
-        "N"
-      ],
-      [
-        "وَقَدْ",
-        "N"
-      ],
-      [
-        "جُدْتُ",
-        "N"
-      ],
-      [
-        "بِنَفْسِي",
-        "N"
-      ],
-      [
-        "لِلْحَدَثَانِ،",
-        "N"
-      ],
-      [
-        "وَتَرَكْتُ",
-        "N"
-      ],
-      [
-        "ٱلْأَهْلَ",
-        "N"
-      ],
-      [
-        "وَٱلْأَوْطَانَ",
-        "N"
-      ],
-      [
-        "وَٱلْأَوْلَادَ،",
-        "N"
-      ],
-      [
-        "فَكُنْ",
-        "N"
-      ],
-      [
-        "لِي",
-        "N"
-      ],
-      [
-        "شَافِعًا",
-        "N"
-      ],
-      [
-        "يَوْمَ",
-        "N"
-      ],
-      [
-        "حَاجَتِي",
-        "N"
-      ],
-      [
-        "وَفَقْرِي",
-        "N"
-      ],
-      [
-        "وَفَاقَتِي،",
-        "N"
-      ],
-      [
-        "يَوْمَ",
-        "N"
-      ],
-      [
-        "لَا",
-        "N"
-      ],
-      [
-        "يُغْنِي",
-        "N"
-      ],
-      [
-        "عَنِّي",
-        "N"
-      ],
-      [
-        "حَمِيمِي",
-        "N"
-      ],
-      [
-        "وَلَا",
-        "N"
-      ],
-      [
-        "قَرِيبِي،",
-        "N"
-      ],
-      [
-        "يَوْمَ",
-        "N"
-      ],
-      [
-        "لَا",
-        "N"
-      ],
-      [
-        "يُغْنِي",
-        "N"
-      ],
-      [
-        "عَنِّي",
-        "N"
-      ],
-      [
-        "وَالِدِي،",
-        "N"
-      ],
-      [
-        "أَسْأَلُ",
-        "N"
-      ],
-      [
-        "ٱللَّهَ",
-        "N"
-      ],
-      [
-        "ٱلَّذِي",
-        "N"
-      ],
-      [
-        "قَدَّرَ",
-        "N"
-      ],
-      [
-        "رَحِيلِي",
-        "N"
-      ],
-      [
-        "إِلَيْكَ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "يُنَفِّسَ",
-        "N"
-      ],
-      [
-        "بِكَ",
-        "N"
-      ],
-      [
-        "كُرْبَتِي،",
-        "N"
-      ],
-      [
-        "وَأَسْأَلُ",
-        "N"
-      ],
-      [
-        "ٱللَّهَ",
-        "N"
-      ],
-      [
-        "ٱلَّذِي",
-        "N"
-      ],
-      [
-        "قَدَّرَ",
-        "N"
-      ],
-      [
-        "عَلَيَّ",
-        "N"
-      ],
-      [
-        "فِرَاقَ",
-        "N"
-      ],
-      [
-        "مَكَانِكَ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "لَا",
-        "N"
-      ],
-      [
-        "يَجْعَلَهُ",
-        "N"
-      ],
-      [
-        "آخِرَ",
-        "N"
-      ],
-      [
-        "ٱلْعَهْدِ",
-        "N"
-      ],
-      [
-        "مِنْ",
-        "N"
-      ],
-      [
-        "رُجُوعِي،",
-        "N"
-      ],
-      [
-        "وَأَسْأَلُ",
-        "N"
-      ],
-      [
-        "ٱللَّهَ",
-        "N"
-      ],
-      [
-        "ٱلَّذِي",
-        "N"
-      ],
-      [
-        "أَبْكَى",
-        "N"
-      ],
-      [
-        "عَلَيْكَ",
-        "N"
-      ],
-      [
-        "عَيْنِي",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "يَجْعَلَهُ",
-        "N"
-      ],
-      [
-        "لِي",
-        "N"
-      ],
-      [
-        "سَبَبًا",
-        "N"
-      ],
-      [
-        "وَذُخْرًا،",
-        "N"
-      ],
-      [
-        "وَأَسْأَلُ",
-        "N"
-      ],
-      [
-        "ٱللَّهَ",
-        "N"
-      ],
-      [
-        "ٱلَّذِي",
-        "N"
-      ],
-      [
-        "أَرَانِي",
-        "N"
-      ],
-      [
-        "مَكَانَكَ",
-        "N"
-      ],
-      [
-        "وَهَدَانِي",
-        "N"
-      ],
-      [
-        "لِلتَّسْلِيمِ",
-        "N"
-      ],
-      [
-        "عَلَيْكَ",
-        "N"
-      ],
-      [
-        "وَزِيَارَتِي",
-        "N"
-      ],
-      [
-        "إِيَّاكَ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "يُورِدَنِي",
-        "N"
-      ],
-      [
-        "حَوْضَكُمْ،",
-        "N"
-      ],
-      [
-        "وَيَرْزُقَنِي",
-        "N"
-      ],
-      [
-        "مُرَافَقَتَكُمْ",
-        "N"
-      ],
-      [
-        "فِي",
-        "N"
-      ],
-      [
-        "ٱلْجِنَانِ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَيْكَ",
-        "N"
-      ],
-      [
-        "يَا",
-        "N"
-      ],
-      [
-        "صَفْوَةَ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "[ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "مُحَمَّدِ",
-        "N"
-      ],
-      [
-        "بْنِ",
-        "N"
-      ],
-      [
-        "عَبْدِ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "خَاتَمِ",
-        "N"
-      ],
-      [
-        "ٱلنَّبِيِّينَ]",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "أَمِيرِ",
-        "N"
-      ],
-      [
-        "ٱلْمُؤْمِنِينَ",
-        "N"
-      ],
-      [
-        "وَوَصِيِّ",
-        "N"
-      ],
-      [
-        "رَسُولِ",
-        "N"
-      ],
-      [
-        "رَبِّ",
-        "N"
-      ],
-      [
-        "ٱلْعَالَمِينَ،",
-        "N"
-      ],
-      [
-        "وَقَائِدِ",
-        "N"
-      ],
-      [
-        "ٱلْغُرِّ",
-        "N"
-      ],
-      [
-        "ٱلْمُحَجَّلِينَ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "ٱلْحَسَنِ",
-        "N"
-      ],
-      [
-        "وَٱلْحُسَيْنِ",
-        "N"
-      ],
-      [
-        "سَيِّدَي",
-        "N"
-      ],
-      [
-        "شَبَابِ",
-        "N"
-      ],
-      [
-        "أَهْلِ",
-        "N"
-      ],
-      [
-        "ٱلْجَنَّةِ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "ٱلْأَئِمَّةِ",
-        "N"
-      ],
-      [
-        "-",
-        "N"
-      ],
-      [
-        "وَتُسَمِّيهِمْ",
-        "N"
-      ],
-      [
-        "عَلَيْهِمُ",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "-",
-        "N"
-      ],
-      [
-        "وَرَحْمَةُ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "وَبَرَكَاتُهُ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "مَلَائِكَةِ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "ٱلْحَافِّينَ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "مَلَائِكَةِ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "ٱلْمُقِيمِينَ",
-        "N"
-      ],
-      [
-        "ٱلْمُسَبِّحِينَ",
-        "N"
-      ],
-      [
-        "ٱلَّذِينَ",
-        "N"
-      ],
-      [
-        "هُمْ",
-        "N"
-      ],
-      [
-        "بِأَمْرِهِ",
-        "N"
-      ],
-      [
-        "يَعْمَلُونَ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَيْنَا",
-        "N"
-      ],
-      [
-        "وَعَلَى",
-        "N"
-      ],
-      [
-        "عِبَادِ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "ٱلصَّالِحِينَ،",
-        "N"
-      ],
-      [
-        "ٱللَّهُمَّ",
-        "N"
-      ],
-      [
-        "لَا",
-        "N"
-      ],
-      [
-        "تَجْعَلْهُ",
-        "N"
-      ],
-      [
-        "آخِرَ",
-        "N"
-      ],
-      [
-        "ٱلْعَهْدِ",
-        "N"
-      ],
-      [
-        "مِنْ",
-        "N"
-      ],
-      [
-        "زِيَارَتِي",
-        "N"
-      ],
-      [
-        "إِيَّاهُ،",
-        "N"
-      ],
-      [
-        "فَإِنْ",
-        "N"
-      ],
-      [
-        "جَعَلْتَهُ",
-        "N"
-      ],
-      [
-        "فَٱحْشُرْنِي",
-        "N"
-      ],
-      [
-        "مَعَهُ",
-        "N"
-      ],
-      [
-        "وَمَعَ",
-        "N"
-      ],
-      [
-        "آبَائِهِ",
-        "N"
-      ],
-      [
-        "ٱلْمَاضِينَ،",
-        "N"
-      ],
-      [
-        "وَإِنْ",
-        "N"
-      ],
-      [
-        "أَبْقَيْتَنِي",
-        "N"
-      ],
-      [
-        "يَا",
-        "N"
-      ],
-      [
-        "رَبِّ",
-        "N"
-      ],
-      [
-        "فَٱرْزُقْنِي",
-        "N"
-      ],
-      [
-        "زِيَارَتَهُ",
-        "N"
-      ],
-      [
-        "أَبَدًا",
-        "N"
-      ],
-      [
-        "مَا",
-        "N"
-      ],
-      [
-        "أَبْقَيْتَنِي",
-        "N"
-      ],
-      [
-        "إِنَّكَ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "كُلِّ",
-        "N"
-      ],
-      [
-        "شَيْءٍ",
-        "N"
-      ],
-      [
-        "قَدِيرٌ».",
-        "N"
-      ],
-      [
-        "وَتَقُولُ:",
-        "N"
-      ],
-      [
-        "«أَسْتَوْدِعُكَ",
-        "N"
-      ],
-      [
-        "ٱللَّهَ",
-        "N"
-      ],
-      [
-        "وَأَسْتَرْعِيكَ",
-        "N"
-      ],
-      [
-        "وَأَقْرَأُ",
-        "N"
-      ],
-      [
-        "عَلَيْكَ",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامَ",
-        "N"
-      ],
-      [
-        "آمَنَّا",
-        "N"
-      ],
-      [
-        "بِٱللَّهِ",
-        "N"
-      ],
-      [
-        "وَبِمَا",
-        "N"
-      ],
-      [
-        "دَعَوْتَ",
-        "N"
-      ],
-      [
-        "إِلَيْهِ،",
-        "N"
-      ],
-      [
-        "ٱللَّهُمَّ",
-        "N"
-      ],
-      [
-        "فَٱكْتُبْنَا",
-        "N"
-      ],
-      [
-        "مَعَ",
-        "N"
-      ],
-      [
-        "ٱلشَّاهِدِينَ،",
-        "N"
-      ],
-      [
-        "ٱللَّهُمَّ",
-        "N"
-      ],
-      [
-        "ٱرْزُقْنِي",
-        "N"
-      ],
-      [
-        "حُبَّهُمْ",
-        "N"
-      ],
-      [
-        "وَمَوَدَّتَهُمْ",
-        "N"
-      ],
-      [
-        "أَبَدًا",
-        "N"
-      ],
-      [
-        "[مَا",
-        "N"
-      ],
-      [
-        "أَبْقَيْتَنِي",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "مَلَائِكَةِ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "وَزُوَّارِ",
-        "N"
-      ],
-      [
-        "قَبْرِ",
-        "N"
-      ],
-      [
-        "ٱبْنِ",
-        "N"
-      ],
-      [
-        "بِنْتِ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "مِنِّي",
-        "N"
-      ],
-      [
-        "أَبَدًا]",
-        "N"
-      ],
-      [
-        "مَا",
-        "N"
-      ],
-      [
-        "بَقِيتُ",
-        "N"
-      ],
-      [
-        "وَدَائِمًا",
-        "N"
-      ],
-      [
-        "إِذَا",
-        "N"
-      ],
-      [
-        "فَنِيتُ،",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ",
-        "N"
-      ],
-      [
-        "عَلَيْنَا",
-        "N"
-      ],
-      [
-        "وَعَلَى",
-        "N"
-      ],
-      [
-        "عَبْدِ",
-        "N"
-      ],
-      [
-        "ٱللَّهِ",
-        "N"
-      ],
-      [
-        "ٱلصَّالِحِينَ».",
-        "N"
-      ],
-      [
-        "فَإِذَا",
-        "N"
-      ],
-      [
-        "خَرَجْتَ",
-        "N"
-      ],
-      [
-        "مِنَ",
-        "N"
-      ],
-      [
-        "ٱلْقُبَّةِ",
-        "N"
-      ],
-      [
-        "فَلَا",
-        "N"
-      ],
-      [
-        "تُوَلِّ",
-        "N"
-      ],
-      [
-        "وَجْهَكَ",
-        "N"
-      ],
-      [
-        "عَنْهُ",
-        "N"
-      ],
-      [
-        "حَتَّى",
-        "N"
-      ],
-      [
-        "يَغِيبَ",
-        "N"
-      ],
-      [
-        "عَنْ",
-        "N"
-      ],
-      [
-        "بَصَرِكَ.",
-        "N"
-      ]
-    ],
+    "diacritized_text": "[الوداع] فإذَا أَرَدْتَ أَنْ تودِعَهُ فَقُلْ: \"السلامُ عَلَيْكَ يَا مَوْلايَ وَابْنُ مَوْلايَ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ أَنْتَ لَنَا جَنَّةٌ مِنَ الْعَذَابِ وَهَذَا أَوَانُ انْصِرَافِنَا عَنْكَ غَيْرَ رَاغِبٍ عَنْكَ، وَلَا مُسْتَبْدِلٍ بِكَ، وَلَا مُؤَثِّرٍ عَلَيْكَ، وَلَا زَاهِدٍ فِي قُرْبِكَ، وَقَدْ جَدْتُ بِنَفْسِي لِلْحَدَثَانِ، وَتَرَكْتُ الْأَهْلَ وَالْأَوْطَانَ وَالْأَوْلَادَ، فَكُنْ لِي شَافِعًا يَوْمَ حَاجَتِي وَفَقْرِي وَفَاقَتِي، يَوْمَ لَا يُغْنِي عَنِّي حَمِيمِي وَلَا قَرِيبِي، يَوْمَ لَا يُغْنِي عَنِّي وَالِدِي، أَسْأَلُ اللَّهَ الَّذِي قَدَّرَ رَحِيلِي إِلَيْكَ أَنْ يُنْفِسَ بِكَ كَرْبَتِي، وَأَسْأَلُ اللَّهَ الَّذِي قَدَّرَ عَلَيَّ فِرَاقَ مَكَانِكَ أَنْ لَا يَجْعَلَهُ آخِرَ الْعَهْدِ مِنْ رَجُوعِي، وَأَسْأَلُ اللَّهَ الَّذِي أَبْكَى عَلَيْكَ عَيْنِي أَنْ يَجْعَلَهُ لِي سَبَبًا وَذُخْرًا، وَأَسْأَلُ اللَّهَ الَّذِي أَرَانِي مَكَانَكَ وَهَدَانِي لِلتَّسْلِيمِ عَلَيْكَ وَزِيَارَتِي إِيَّاكَ أَنْ يُورِدَنِي حَوْضَكُمْ، وَيُرْزِقَنِي مُرَافَقَتَكُمْ فِي الْجِنَانِ، السلامُ عَلَيْكَ يَا صَفْوَةَ اللَّهِ [السلامُ عَلَى مُحَمَّدِ بْنِ عَبْدِ اللَّهِ خَاتَمِ النَّبِيِّينَ] السلامُ عَلَى أَمِيرِ الْمُؤْمِنِينَ وَوَصِيِّ رَسُولِ رَبِّ الْعَالَمِينَ، وَقَائِدِ الْغُرِّ الْمُحَجَّلِينَ، السلامُ عَلَى الْحَسَنِ وَالْحُسَيْنِ سَيِّدَيْ شَبَابِ أَهْلِ الْجَنَّةِ، السلامُ عَلَى الْأَئِمَّةِ - وَتُسَمِّيهِمْ عَلَيْهِمُ السَّلَامُ - وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السلامُ عَلَى مَلَائِكَةِ اللَّهِ الْحَافِّينَ، السلامُ عَلَى مَلَائِكَةِ اللَّهِ الْمُقِيمِينَ الْمُسَبِّحِينَ الَّذِينَ هُمْ بِأَمْرِهِ يَعْمَلُونَ، السلامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، اللَّهُمَّ لَا تَجْعَلْهُ آخِرَ الْعَهْدِ مِنْ زِيَارَتِي إِيَّاهُ، فَإِنْ جَعَلْتَهُ فَاحْشُرْنِي مَعَهُ وَمَعَ آبَائِهِ الْوَاضِحِينَ، وَإِنْ أَبْقَيْتَنِي يَا رَبِّ فَارْزُقْنِي زِيَارَتَهُ أَبَدًا مَا أَبْقَيْتَنِي إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ\". وَتَقُولُ: \"أَسْتَوْدِعُكَ اللَّهَ وَأَسْتَرْعِيكَ وَأَقْرَأُ عَلَيْكَ السَّلَامَ آمِنًا بِاللَّهِ وَبِمَا دَعَوْتَ إِلَيْهِ، اللَّهُمَّ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ، اللَّهُمَّ ارْزُقْنِي حُبَّهُمْ وَمَوَدَّتَهُمْ أَبَدًا [مَا أَبْقَيْتَنِي] السلامُ عَلَى مَلَائِكَةِ اللَّهِ وَزُوَّارِ قَبْرِ ابْنِ بِنْتِ اللَّهِ، السلامُ مِنِّي أَبَدًا] مَا بَقِيتُ وَدَائِمًا إِذَا فَنِيَتُ، السلامُ عَلَيْنَا وَعَلَى عَبْدِ اللَّهِ الصَّالِحِينَ\". فإِذَا خَرَجْتَ مِنَ الْقُبَّةِ فَلَا تَوْلِ وَجْهَكَ عَنْهُ حَتَّى يَغِيبَ عَنْ بَصَرِكَ.",
     "isnad_matn": {
       "isnad_ar": "",
-      "matn_ar": "ٱلْوَدَاعُ فَإِذَا أَرَدْتَ أَنْ تُوَدِّعَهُ فَقُلْ: «ٱلسَّلَامُ عَلَيْكَ يَا مَوْلَايَ وَٱبْنَ مَوْلَايَ وَرَحْمَةُ ٱللَّهِ وَبَرَكَاتُهُ أَنْتَ لَنَا جُنَّةٌ مِنَ ٱلْعَذَابِ وَهَذَا أَوَانُ ٱنْصِرَافِنَا عَنْكَ غَيْرَ رَاغِبٍ عَنْكَ، وَلَا مُسْتَبْدِلٍ بِكَ، وَلَا مُؤْثِرٍ عَلَيْكَ، وَلَا زَاهِدٍ فِي قُرْبِكَ، وَقَدْ جُدْتُ بِنَفْسِي لِلْحَدَثَانِ، وَتَرَكْتُ ٱلْأَهْلَ وَٱلْأَوْطَانَ وَٱلْأَوْلَادَ، فَكُنْ لِي شَافِعًا يَوْمَ حَاجَتِي وَفَقْرِي وَفَاقَتِي، يَوْمَ لَا يُغْنِي عَنِّي حَمِيمِي وَلَا قَرِيبِي، يَوْمَ لَا يُغْنِي عَنِّي وَالِدِي، أَسْأَلُ ٱللَّهَ ٱلَّذِي قَدَّرَ رَحِيلِي إِلَيْكَ أَنْ يُنَفِّسَ بِكَ كُرْبَتِي، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي قَدَّرَ عَلَيَّ فِرَاقَ مَكَانِكَ أَنْ لَا يَجْعَلَهُ آخِرَ ٱلْعَهْدِ مِنْ رُجُوعِي، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَبْكَى عَلَيْكَ عَيْنِي أَنْ يَجْعَلَهُ لِي سَبَبًا وَذُخْرًا، وَأَسْأَلُ ٱللَّهَ ٱلَّذِي أَرَانِي مَكَانَكَ وَهَدَانِي لِلتَّسْلِيمِ عَلَيْكَ وَزِيَارَتِي إِيَّاكَ أَنْ يُورِدَنِي حَوْضَكُمْ، وَيَرْزُقَنِي مُرَافَقَتَكُمْ فِي ٱلْجِنَانِ، ٱلسَّلَامُ عَلَيْكَ يَا صَفْوَةَ ٱللَّهِ [ٱلسَّلَامُ عَلَى مُحَمَّدِ بْنِ عَبْدِ ٱللَّهِ خَاتَمِ ٱلنَّبِيِّينَ] ٱلسَّلَامُ عَلَى أَمِيرِ ٱلْمُؤْمِنِينَ وَوَصِيِّ رَسُولِ رَبِّ ٱلْعَالَمِينَ، وَقَائِدِ ٱلْغُرِّ ٱلْمُحَجَّلِينَ، ٱلسَّلَامُ عَلَى ٱلْحَسَنِ وَٱلْحُسَيْنِ سَيِّدَي شَبَابِ أَهْلِ ٱلْجَنَّةِ، ٱلسَّلَامُ عَلَى ٱلْأَئِمَّةِ - وَتُسَمِّيهِمْ عَلَيْهِمُ ٱلسَّلَامُ - وَرَحْمَةُ ٱللَّهِ وَبَرَكَاتُهُ، ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ ٱلْحَافِّينَ، ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ ٱلْمُقِيمِينَ ٱلْمُسَبِّحِينَ ٱلَّذِينَ هُمْ بِأَمْرِهِ يَعْمَلُونَ، ٱلسَّلَامُ عَلَيْنَا وَعَلَى عِبَادِ ٱللَّهِ ٱلصَّالِحِينَ، ٱللَّهُمَّ لَا تَجْعَلْهُ آخِرَ ٱلْعَهْدِ مِنْ زِيَارَتِي إِيَّاهُ، فَإِنْ جَعَلْتَهُ فَٱحْشُرْنِي مَعَهُ وَمَعَ آبَائِهِ ٱلْمَاضِينَ، وَإِنْ أَبْقَيْتَنِي يَا رَبِّ فَٱرْزُقْنِي زِيَارَتَهُ أَبَدًا مَا أَبْقَيْتَنِي إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ». وَتَقُولُ: «أَسْتَوْدِعُكَ ٱللَّهَ وَأَسْتَرْعِيكَ وَأَقْرَأُ عَلَيْكَ ٱلسَّلَامَ آمَنَّا بِٱللَّهِ وَبِمَا دَعَوْتَ إِلَيْهِ، ٱللَّهُمَّ فَٱكْتُبْنَا مَعَ ٱلشَّاهِدِينَ، ٱللَّهُمَّ ٱرْزُقْنِي حُبَّهُمْ وَمَوَدَّتَهُمْ أَبَدًا [مَا أَبْقَيْتَنِي ٱلسَّلَامُ عَلَى مَلَائِكَةِ ٱللَّهِ وَزُوَّارِ قَبْرِ ٱبْنِ بِنْتِ ٱللَّهِ، ٱلسَّلَامُ مِنِّي أَبَدًا] مَا بَقِيتُ وَدَائِمًا إِذَا فَنِيتُ، ٱلسَّلَامُ عَلَيْنَا وَعَلَى عَبْدِ ٱللَّهِ ٱلصَّالِحِينَ». فَإِذَا خَرَجْتَ مِنَ ٱلْقُبَّةِ فَلَا تُوَلِّ وَجْهَكَ عَنْهُ حَتَّى يَغِيبَ عَنْ بَصَرِكَ.",
+      "matn_ar": "[الوداع] فإذَا أَرَدْتَ أَنْ تودِعَهُ فَقُلْ: \"السلامُ عَلَيْكَ يَا مَوْلايَ وَابْنُ مَوْلايَ وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ أَنْتَ لَنَا جَنَّةٌ مِنَ الْعَذَابِ وَهَذَا أَوَانُ انْصِرَافِنَا عَنْكَ غَيْرَ رَاغِبٍ عَنْكَ، وَلَا مُسْتَبْدِلٍ بِكَ، وَلَا مُؤَثِّرٍ عَلَيْكَ، وَلَا زَاهِدٍ فِي قُرْبِكَ، وَقَدْ جَدْتُ بِنَفْسِي لِلْحَدَثَانِ، وَتَرَكْتُ الْأَهْلَ وَالْأَوْطَانَ وَالْأَوْلَادَ، فَكُنْ لِي شَافِعًا يَوْمَ حَاجَتِي وَفَقْرِي وَفَاقَتِي، يَوْمَ لَا يُغْنِي عَنِّي حَمِيمِي وَلَا قَرِيبِي، يَوْمَ لَا يُغْنِي عَنِّي وَالِدِي، أَسْأَلُ اللَّهَ الَّذِي قَدَّرَ رَحِيلِي إِلَيْكَ أَنْ يُنْفِسَ بِكَ كَرْبَتِي، وَأَسْأَلُ اللَّهَ الَّذِي قَدَّرَ عَلَيَّ فِرَاقَ مَكَانِكَ أَنْ لَا يَجْعَلَهُ آخِرَ الْعَهْدِ مِنْ رَجُوعِي، وَأَسْأَلُ اللَّهَ الَّذِي أَبْكَى عَلَيْكَ عَيْنِي أَنْ يَجْعَلَهُ لِي سَبَبًا وَذُخْرًا، وَأَسْأَلُ اللَّهَ الَّذِي أَرَانِي مَكَانَكَ وَهَدَانِي لِلتَّسْلِيمِ عَلَيْكَ وَزِيَارَتِي إِيَّاكَ أَنْ يُورِدَنِي حَوْضَكُمْ، وَيُرْزِقَنِي مُرَافَقَتَكُمْ فِي الْجِنَانِ، السلامُ عَلَيْكَ يَا صَفْوَةَ اللَّهِ [السلامُ عَلَى مُحَمَّدِ بْنِ عَبْدِ اللَّهِ خَاتَمِ النَّبِيِّينَ] السلامُ عَلَى أَمِيرِ الْمُؤْمِنِينَ وَوَصِيِّ رَسُولِ رَبِّ الْعَالَمِينَ، وَقَائِدِ الْغُرِّ الْمُحَجَّلِينَ، السلامُ عَلَى الْحَسَنِ وَالْحُسَيْنِ سَيِّدَيْ شَبَابِ أَهْلِ الْجَنَّةِ، السلامُ عَلَى الْأَئِمَّةِ - وَتُسَمِّيهِمْ عَلَيْهِمُ السَّلَامُ - وَرَحْمَةُ اللَّهِ وَبَرَكَاتُهُ، السلامُ عَلَى مَلَائِكَةِ اللَّهِ الْحَافِّينَ، السلامُ عَلَى مَلَائِكَةِ اللَّهِ الْمُقِيمِينَ الْمُسَبِّحِينَ الَّذِينَ هُمْ بِأَمْرِهِ يَعْمَلُونَ، السلامُ عَلَيْنَا وَعَلَى عِبَادِ اللَّهِ الصَّالِحِينَ، اللَّهُمَّ لَا تَجْعَلْهُ آخِرَ الْعَهْدِ مِنْ زِيَارَتِي إِيَّاهُ، فَإِنْ جَعَلْتَهُ فَاحْشُرْنِي مَعَهُ وَمَعَ آبَائِهِ الْوَاضِحِينَ، وَإِنْ أَبْقَيْتَنِي يَا رَبِّ فَارْزُقْنِي زِيَارَتَهُ أَبَدًا مَا أَبْقَيْتَنِي إِنَّكَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ\". وَتَقُولُ: \"أَسْتَوْدِعُكَ اللَّهَ وَأَسْتَرْعِيكَ وَأَقْرَأُ عَلَيْكَ السَّلَامَ آمِنًا بِاللَّهِ وَبِمَا دَعَوْتَ إِلَيْهِ، اللَّهُمَّ فَاكْتُبْنَا مَعَ الشَّاهِدِينَ، اللَّهُمَّ ارْزُقْنِي حُبَّهُمْ وَمَوَدَّتَهُمْ أَبَدًا [مَا أَبْقَيْتَنِي] السلامُ عَلَى مَلَائِكَةِ اللَّهِ وَزُوَّارِ قَبْرِ ابْنِ بِنْتِ اللَّهِ، السلامُ مِنِّي أَبَدًا] مَا بَقِيتُ وَدَائِمًا إِذَا فَنِيَتُ، السلامُ عَلَيْنَا وَعَلَى عَبْدِ اللَّهِ الصَّالِحِينَ\". فإِذَا خَرَجْتَ مِنَ الْقُبَّةِ فَلَا تَوْلِ وَجْهَكَ عَنْهُ حَتَّى يَغِيبَ عَنْ بَصَرِكَ.",
       "has_chain": false,
       "narrators": []
     },
@@ -1292,6 +282,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

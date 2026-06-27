@@ -1,120 +1,162 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:5:25:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[0] word 'في' has no diacritics (must be fully diacritized)"
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "knowledge",
-      "prophetic_tradition",
-      "history"
+      "prophetic_tradition"
     ],
-    "content_type": "biographical",
+    "content_type": "narrative",
     "topics": [
       "hadith_sciences",
-      "religious_authority",
-      "seeking_knowledge"
+      "scholars_virtues"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَما كانَ في هَ عَنْ مُحَمَّدِ بْنِ النُّعْمانِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ ماجِيلَوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَلِيِّ بْنِ إِبْراهِيمَ بْنِ هاشِمٍ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَالْحَسَنِ بْنِ مَحْبُوبٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ النُّعْمانِ.",
+        "arabic_text": "وَمَا كَانَ فِيهِ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ فَقَدْ رَوَرَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَلِيِّ بْنِ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَالْحَسَنِ بْنِ مَحْبُوبٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ.",
         "translations": {
-          "en": "As for whatever is in it from Muḥammad ibn al-Nuʿmān, I have narrated it from Muḥammad ibn ʿAlī Mājīlawayh—may Allah be pleased with him—from ʿAlī ibn Ibrāhīm ibn Hāshim, from his father, from Muḥammad ibn Abī ʿUmayr and al-Ḥasan ibn Maḥbūb together, from Muḥammad ibn al-Nuʿmān.",
-          "ur": "جہاں تک محمد بن النعمان کا تعلق ہے، میں نے اسے محمد بن علی ماجیلویہ-رضی اللہ عنہ- سے روایت کیا ہے، جو علی بن ابراہیم بن ہاشم سے، ان کے والد سے، محمد بن ابی عمیر اور حسن بن محبوب دونوں سے، محمد بن النعمان سے روایت کرتے ہیں۔",
-          "tr": "Muhammed ibn al-Nuʿmān ile ilgili olan ne varsa, onu Muhammed ibn ʿAlī Mājīlawayh—Allah ondan razı olsun—tarafından, babasından, Muhammed ibn Abī ʿUmayr ve el-Ḥasan ibn Maḥbūb ile birlikte, Muhammed ibn al-Nuʿmān’dan rivayet eden ʿAlī ibn İbrāhīm ibn Hāşim’den naklettim.",
-          "fa": "هر آنچه از محمّد بن النعمان در آن است، من آن را از محمّد بن علی ماجیلویه—رضی الله عنه—از علی بن ابراهیم بن هاشم، از پدرش، از محمّد بن ابی عمیر و حسن بن محبوب هر دو، از محمّد بن النعمان روایت کرده‌ام.",
-          "id": "Adapun apa pun yang berasal dari Muḥammad ibn al-Nuʿmān, saya meriwayatkannya dari Muḥammad ibn ʿAlī Mājīlawayh—semoga Allah meridhoi beliau—dari ʿAlī ibn Ibrāhīm ibn Hāshim, dari ayahnya, dari Muḥammad ibn Abī ʿUmayr dan al-Ḥasan ibn Maḥbūb bersama-sama, dari Muḥammad ibn al-Nuʿmān.",
-          "bn": "যে কিছুই মুহাম্মদ ইবনে আল-নু'মান থেকে আছে, আমি তা মুহাম্মদ ইবনে আলী মাজিলাওয়েহ—আল্লাহ তাঁর প্রতি সন্তুষ্ট হন—থেকে বর্ণনা করেছি, যিনি আলী ইবনে ইব্রাহিম ইবনে হাশিম থেকে, তাঁর পিতা থেকে, মুহাম্মদ ইবনে আবি উমায়র এবং আল-হাসান ইবনে মাহবুব উভয় থেকে, মুহাম্মদ ইবনে আল-নু'মান থেকে বর্ণনা করেছেন।",
-          "es": "En cuanto a lo que proviene de Muḥammad ibn al-Nuʿmān, lo he narrado de Muḥammad ibn ʿAlī Mājīlawayh—que Allah esté complacido con él—de ʿAlī ibn Ibrāhīm ibn Hāshim, de su padre, de Muḥammad ibn Abī ʿUmayr y al-Ḥasan ibn Maḥbūb juntos, de Muḥammad ibn al-Nuʿmān.",
-          "fr": "Quant à ce qui provient de Muḥammad ibn al-Nuʿmān, je l'ai rapporté de Muḥammad ibn ʿAlī Mājīlawayh—qu'Allah soit satisfait de lui—de ʿAlī ibn Ibrāhīm ibn Hāshim, de son père, de Muḥammad ibn Abī ʿUmayr et al-Ḥasan ibn Maḥbūb ensemble, de Muḥammad ibn al-Nuʿmān.",
-          "de": "Was auch immer von Muḥammad ibn al-Nuʿmān darin ist, habe ich von Muḥammad ibn ʿAlī Mājīlawayh—möge Allah mit ihm zufrieden sein—von ʿAlī ibn Ibrāhīm ibn Hāshim, von seinem Vater, von Muḥammad ibn Abī ʿUmayr und al-Ḥasan ibn Maḥbūb gemeinsam, von Muḥammad ibn al-Nuʿmān überliefert.",
-          "ru": "Что касается всего, что связано с Мухаммадом ибн ан-Нуʿманом, я передал это от Мухаммада ибн ʿАли Маджилувайха—да будет доволен им Аллах—от ʿАли ибн Ибрахима ибн Хашима, от его отца, от Мухаммада ибн Аби ʿУмайра и аль-Хасана ибн Махбуба вместе, от Мухаммада ибн ан-Нуʿмана.",
-          "zh": "至于其中来自穆罕默德伊本努曼的部分，我是从穆罕默德伊本阿里马吉洛维—愿安拉喜悦他—通过阿里伊本易卜拉欣伊本哈希姆，从他的父亲，从穆罕默德伊本阿比乌迈尔和哈桑伊本马赫布布一起，传述自穆罕默德伊本努曼。"
+          "en": "And whatever in this book is narrated from Muhammad ibn Al-Nu'man, I have transmitted it from Muhammad ibn Ali Majilawayh - may Allah be pleased with him - from Ali ibn Ibrahim ibn Hashim, from his father, from Muhammad ibn Abi 'Umayr and Al-Hasan ibn Mahbub together, from Muhammad ibn Al-Nu'man.",
+          "ur": "اور جو کچھ اس کتاب میں محمد بن النعمان سے روایت کیا گیا ہے، میں نے اسے محمد بن علی ماجیلویہ - رضی اللہ عنہ - سے روایت کیا ہے، علی بن ابراہیم بن ہاشم سے، ان کے والد سے، محمد بن ابی عمیر اور حسن بن محبوب دونوں سے، محمد بن النعمان سے۔",
+          "tr": "Bu kitapta Muhammed b. en-Numan'dan rivayet edilen her şeyi, Allah'tan razı olsun, Muhammed b. Ali Mâcilûyeh'ten; Ali b. İbrahim b. Haşim'den; babasından; Muhammed b. Ebi Umeyr ile Hasan b. Mehbub'tan birlikte; Muhammed b. en-Numan'dan rivayet ettim.",
+          "fa": "و هر آنچه در این کتاب از محمد بن نعمان روایت شده است، من آن را از محمد بن علی مجیلیوه - رضی الله عنه - از علی بن ابراهیم بن هاشم، از پدرشیم، از پدرش، از محمد بن ابی عمیر و حسن بن محبوب هر دو، از محمد بن نعمان، نقل کرده‌ام.",
+          "id": "Dan apa saja dalam kitab ini yang diriwayatkan dari Muhammad bin An-Nu'man, maka aku telah men transmit-kan dari Muhammad bin Ali Majilawayh - semoga Allah ridha kepadanya - dari Ali bin Ibrahim bin Hasyim, dari ayahnya, dari Muhammad bin Abi 'Umayr dan Al-Hasan bin Mahbub bersama-sama, dari Muhammad bin An-Nu'man.",
+          "bn": "এবং এই গ্রন্থে যেসব বর্ণনা মুহাম্মাদ ইবন আল-নুমান থেকে বর্ণিত হয়েছে, আমি তা বর্ণনা করেছি মুহাম্মাদ ইবন আলী মাজিলোয়াহ (রহ.) থেকে, আলী ইবন ইব্রাহীম ইবন হাশিম থেকে, তার পিতা থেকে, মুহাম্মাদ ইবন আবি উমাইর এবং আল-হাসন ইবন মাহবুব উভয় থেকে, মুহাম্মাদ ইবন আল-নুমান থেকে।",
+          "es": "Y todo",
+          "fr": "Et tout ce qui dans ce livre est rapporté de Muhammad ibn Al-Nu'man, je l'ai transmis de Muhammad ibn Ali Majilawayh - qu'Allah soit satisfait de lui - d'Ali ibn Ibrahim ibn Hashim, de son père, de Muhammad ibn Abi 'Umayr et Al-Hasan ibn Mahbub ensemble, de Muhammad ibn Al-Nu'man.",
+          "de": "Und was in diesem Buch von Muhammad ibn Al-Nu'man überliefert ist, habe ich von Muhammad ibn Ali Majilawayh – möge Allah mit ihm zufrieden sein – von Ali ibn Ibrahim ibn Hashim, von seinem Vater, von Muhammad ibn Abi 'Umayr und Al-Hasan ibn Mahbub gemeinsam, von Muhammad ibn Al-Nu'man, übermittelt.",
+          "ru": "И всё, что в этой книге передано от Мухаммада ибн ан-Ну‘мана, я передал от Мухаммада ибн Али Маджилуйи — да будет доволен им Аллах — от Али ибн Ибрахима ибн Хашима, от его отца, от Мухаммада ибн Аби Умайра и аль-Хасана ибн Махбуба совместно, от Мухаммада ибн ан-Ну‘мана.",
+          "zh": "凡此书中从穆罕默德·本·努尔曼传述的内容，我已从穆罕默德·本·阿里·马吉拉维（愿主喜悦之）从阿里·本·易卜拉欣·本·哈希姆从其父从穆罕默德·本·艾比·欧麦尔和哈桑·本·马赫布共同从穆罕默德·本·努尔曼传述。"
         },
         "word_start": 0,
-        "word_end": 39
+        "word_end": 40
       }
     ],
     "translations": {
       "en": {
-        "summary": "This passage clarifies the sanad/isnad through which the author transmits reports from Muḥammad ibn al-Nuʿmān in Man Lā Yaḥḍuruhu al-Faqīh. Its significance lies in documenting the chain of transmission, which is essential in hadith sciences for identifying sources and preserving textual reliability.",
-        "seo_question": "What is the transmission chain to Muḥammad ibn al-Nuʿmān in Man Lā Yaḥḍuruhu al-Faqīh?",
+        "summary": "Shaykh al-Saduq clarifies the specific isnad for narrations of Muhammad ibn Al-Nu'man, noting that while some are absent in this text, he personally transmitted them via the highly respected scholar Majilawayh. This highlights the scholarly rigor of the Kufan tradition, where Majilawayh served as a crucial link connecting the earlier Kufan authorities to the later generation of hadith compilers.",
+        "seo_question": "How is the narration chain for Muhammad ibn Al-Nu'man verified in this text?",
         "key_terms": {
-          "رَوَيْتُهُ": "I transmitted it",
-          "رَضِيَ اللَّهُ عَنْهُ": "may Allah be pleased with him",
-          "جَمِيعًا": "together; jointly in transmission"
+          "مَاجِيلَوَيْهَ": "Majilawayh, a prominent Shia scholar and narrator",
+          "سَنَد": "Chain of narrators transmitting a hadith",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "Muhammad ibn Al-Nu'man, a companion of the Imams whose narrations are cited"
         }
       },
       "ur": {
-        "summary": "یہ عبارت سند کی وضاحت کرتی ہے جس کے ذریعے مصنف نے من لا یحضره الفقیہ میں محمد بن النعمان کی روایات نقل کی ہیں۔ اس کی اہمیت حدیث کی علوم میں ذرائع کی شناخت اور متن کی صحت کے تحفظ کے لیے سند کی دستاویزات میں ہے۔",
-        "seo_question": "من لا یحضره الفقیہ میں محمد بن النعمان تک رسائی کی سند کیا ہے؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق محمد بن نعمان کی روایات کے لیے خاص سند کی وضاحت کرتے ہیں، نوٹ کرتے ہوئے کہ اگرچہ کچھ روایات اس متن میں موجود نہیں ہیں، لیکن انہوں نے انہیں خود باعزت عالم مجیلویہ کے ذریعے روایت کیا۔ یہ کوفی روایت کی علمی سختی کو اجاگر کرتا ہے، جہاں مجیلویہ نے ابتدائی کوفی مجتہدین کو بعد کی حدیث جمع کرنے والی نسل سے جوڑنے میں اہم کردار ادا کیا۔",
+        "seo_question": "اس متن میں محمد بن نعمان کی روایت کی زنجیر کی تصدیق کیسے کی گئی ہے؟",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "مجیلویہ، ایک prominent شیعہ عالم اور راوی",
+          "سَنَد": "سند، حدیث منتقل کرنے والے راویوں کی زنجیر",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "محمد بن نعمان، ائمہ کے صحابی جن کی روایات حوالہ دی گئی ہیں"
+        }
       },
       "tr": {
-        "summary": "Bu pasaj, yazarın Man Lā Yaḥḍuruhu al-Faqīh'te Muḥammad ibn al-Nuʿmān'dan rivayetleri aktardığı isnad zincirini açıklamaktadır. Önemi, hadis ilimlerinde kaynakların tespiti ve metin güvenilirliğinin korunması için zincirin belgelenmesindedir.",
-        "seo_question": "Man Lā Yaḥḍuruhu al-Faqīh'te Muḥammad ibn al-Nuʿmān'a ulaşımın isnad zinciri nedir?",
-        "key_terms": {}
+        "summary": "Şeyh el-Sadûk, Muhammed b. en-Nu'mman'ın rivayetlerine özgü isnadı açıklar; bazı rivayetlerin bu metinde bulunmamasına rağmen, kendisi bu rivayetleri saygın alim Mâcilâveyh üzerinden nakletmiştir. Bu durum, Kûfî geleneğinin ilmi titizliğini vurgular; burada Mâcilâveyh, erken dönem Kûfî otoritelerini sonraki hadis derleyiciler nesliyle bağlayan kritik bir halka olarak hizmet etmiştir.",
+        "seo_question": "Bu metinde Muhammed b. en-Nu'mman'ın rivayet zinciri nasıl doğrulanmaktadır?",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "Mâcilâveyh, önde gelen bir Şii alim ve râvi",
+          "سَنَد": "Bir hadisi nakleden râviler zinciri",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "İmamların sahabelerinden biri olan ve rivayetleri alıntılanan Muhammed b. en-Nu'mman"
+        }
       },
       "fa": {
-        "summary": "این بخش سندی را که نویسنده از طریق آن گزارش‌های محمّد بن النعمان را در من لا یحضره الفقیه نقل می‌کند، روشن می‌سازد. اهمیت آن در مستندسازی زنجیره انتقال است که در علوم حدیث برای شناسایی منابع و حفظ صحت متن ضروری است.",
-        "seo_question": "زنجیره انتقال به محمّد بن النعمان در من لا یحضره الفقیه چیست؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق اسناد خاص روایات محمد بن نعمان را توضیح می‌دهد و اشاره می‌کند که اگرچه برخی از آن‌ها در این متن غایب هستند، اما او شخصاً آن‌ها را از طریق مجیلویه، عالم برجسته، نقل کرده است. این امر بر دقت علمی سنت کوفی تأکید دارد، جایی که مجیلویه به عنوان حلقه‌ای حیاتی، مراجع کوفی پیشین را به نسل بعدی محدثان متصل می‌کرد.",
+        "seo_question": "زنجیره روایت محمد بن نعمان در این متن چگونه تأیید می‌شود؟",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "مجیلویه، عالم برجسته شیعه و راوی",
+          "سَنَد": "زنجیره راویان منتقل‌کننده حدیث",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "محمد بن نعمان، از یاران ائام که روایات او ذکر شده است"
+        }
       },
       "id": {
-        "summary": "Bagian ini menjelaskan sanad/isnad yang digunakan penulis untuk menyalurkan riwayat dari Muḥammad ibn al-Nuʿmān dalam Man Lā Yaḥḍuruhu al-Faqīh. Pentingnya terletak pada pendokumentasian rantai transmisi yang esensial dalam ilmu hadis untuk mengidentifikasi sumber dan menjaga keandalan teks.",
-        "seo_question": "Apa rantai transmisi ke Muḥammad ibn al-Nuʿmān dalam Man Lā Yaḥḍuruhu al-Faqīh?",
-        "key_terms": {}
+        "summary": "Syekh al-Shaduq menjelaskan isnad khusus untuk riwayat Muhammad ibn Al-Nu'man, dengan mencatat bahwa meskipun beberapa riwayat tidak ada dalam teks ini, ia secara pribadi meneruskannya melalui ulama yang sangat dihormati, Majilawayh. Hal ini menyoroti ketelitian ilmiah tradisi Kufan, di mana Majilawayh berperan sebagai tautan penting yang menghubungkan otoritas Kufan awal dengan generasi perawi hadis kemudian.",
+        "seo_question": "Bagaimana rantai riwayat untuk Muhammad ibn Al-Nu'man diverifikasi dalam teks ini?",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "Majilawayh, seorang ulama dan perawi Syiah terkemuka",
+          "سَنَد": "Rantai perawi yang meneruskan sebuah hadis",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "Muhammad ibn Al-Nu'man, seorang sahabat para Imam yang riwayatnya dikutip"
+        }
       },
       "bn": {
-        "summary": "এই অংশটি সেই sanad/isnad স্পষ্ট করে যার মাধ্যমে লেখক মন লা ইয়হদুরুহু আল-ফাকিহ-এ মুহাম্মদ ইবনে আল-নু'মান থেকে বর্ণনাগুলো প্রেরণ করেন। এর গুরুত্ব হাদিস বিজ্ঞানে সূত্র সনাক্তকরণ এবং পাঠের বিশ্বাসযোগ্যতা সংরক্ষণের জন্য সংক্রমণ শৃঙ্খল নথিভুক্তকরণে নিহিত।",
-        "seo_question": "মন লা ইয়হদুরুহু আল-ফাকিহ-এ মুহাম্মদ ইবনে আল-নু'মান-এর কাছে সংক্রমণ শৃঙ্খল কী?",
-        "key_terms": {}
+        "summary": "শায়খ আল-সাদুক মুহাম্মাদ ইবন আল-নুমানের হাদিস বর্ণনার নির্দিষ্ট ইসনাদ স্পষ্ট করেছেন, লক্ষ্য করেছেন যে যদিও কিছু বর্ণনা এই পাণ্ডুলিপিতে অনুপস্থিত, তিনি ব্যক্তিগতভাবে উচ্চ সম্মানিত আলেম মাজিলওয়াইহের মাধ্যমে তা বহন করেছেন। এটি কুফান ঐতিহ্যের বৌদ্ধিক কঠোরতাকে তুলে ধরে, যেখানে মাজিলওয়াইহ প্রাচীন কুফান কর্তৃপক্ষদের পরবর্তী হাদিস সংকলনকারী প্রজন্মের সাথে সংযুক্ত করে একটি গুরুত্বপূর্ণ সেতুবন্ধন হিসেবে কাজ করেছিলেন।",
+        "seo_question": "এই পাণ্ডুলিপিতে মুহাম্মাদ ইবন আল-নুমানের বর্ণনার শৃঙ্খল কীভাবে যাচাই করা হয়েছে?",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "মাজিলওয়াইহ, একজন উল্লেখযোগ্য শিয়া আলেম ও বর্ণনাকারী",
+          "سَنَد": "হাদিস বহনকারী বর্ণনাকারীদের শৃঙ্খল",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "মুহাম্মাদ ইবন আল-নুমান, ইমামদের একজন সাহাবী যার বর্ণনা উদ্ধৃত করা হয়েছে"
+        }
       },
       "es": {
-        "summary": "Este pasaje aclara la cadena de transmisión (sanad/isnad) a través de la cual el autor transmite los informes de Muḥammad ibn al-Nuʿmān en Man Lā Yaḥḍuruhu al-Faqīh. Su importancia radica en documentar la cadena de transmisión, esencial en las ciencias del hadiz para identificar fuentes y preservar la fiabilidad textual.",
-        "seo_question": "¿Cuál es la cadena de transmisión a Muḥammad ibn al-Nuʿmān en Man Lā Yaḥḍuruhu al-Faqīh?",
-        "key_terms": {}
+        "summary": "El jeque al-Saduq aclara la cadena de transmisión específica para las narraciones de Muhammad ibn Al-Nu'man, señalando que, aunque algunas están ausentes en este texto, él este texto, él las transmitió personalmente a través del muy respetado erudito Majilawayh. Esto destaca el rigor erudito de la tradición de Kufa, donde Majilawayh sirvió como un vínculo crucial que conectaba a las autoridades de Kufa anteriores con la generación posterior de compiladores de hadices.",
+        "seo_question": "¿Cómo se verifica la cadena de narración para Muhammad ibn Al-Nu'man en este texto?",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "Majilawayh, un prominente erudito chií y narrador",
+          "سَنَد": "Cadena de narradores que transmiten un hadiz",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "Muhammad ibn Al-Nu'man, un compañero de los Imames cuyas narraciones son citadas"
+        }
       },
       "fr": {
-        "summary": "Ce passage clarifie la chaîne de transmission (sanad/isnad) par laquelle l'auteur transmet les rapports de Muḥammad ibn al-Nuʿmān dans Man Lā Yaḥḍuruhu al-Faqīh. Son importance réside dans la documentation de la chaîne de transmission, essentielle dans les sciences du hadith pour identifier les sources et préserver la fiabilité textuelle.",
-        "seo_question": "Quelle est la chaîne de transmission vers Muḥammad ibn al-Nuʿmān dans Man Lā Yaḥḍuruhu al-Faqīh ?",
-        "key_terms": {}
+        "summary": "Le cheikh al-Sadouq clarifie l'isnad spécifique des narrations de Muhammad ibn Al-Nu'man, notant que bien que certaines soient absentes de ce texte, il les a personnellement transmises via le savant très respecté Majilawayh. Cela met en lumière la rigueur savante de la tradition koufane, où Majilawayh a servi de lien crucial reliant les autorités koufanes antérieures à la génération ultérieure des compilateurs de hadith.",
+        "seo_question": "Comment la chaîne de narration pour Muhammad ibn Al-Nu'man est-elle vérifiée dans ce texte ?",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "Majilawayh, un érudit chiite et narrateur proéminent",
+          "سَنَد": "Chaîne de narrateurs transmettant un hadith",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "Muhammad ibn Al-Nu'man, un compagnon des Imams dont les narrations sont citées"
+        }
       },
       "de": {
-        "summary": "Dieser Abschnitt erläutert die Überlieferungskette (Sanad/Isnad), durch die der Autor Berichte von Muḥammad ibn al-Nuʿmān in Man Lā Yaḥḍuruhu al-Faqīh übermittelt. Ihre Bedeutung liegt in der Dokumentation der Überlieferungskette, die in der Hadithwissenschaft für die Identifikation von Quellen und die Bewahrung der Textzuverlässigkeit unerlässlich ist.",
-        "seo_question": "Wie lautet die Überlieferungskette zu Muḥammad ibn al-Nuʿmān in Man Lā Yaḥḍuruhu al-Faqīh?",
-        "key_terms": {}
+        "summary": "Scheych al-Saduq klärt die spezifische Isnad für die Überlieferungen von Muhammad ibn Al-Nu'man und stellt fest, dass zwar einige in diesem Text fehlen, er sie jedoch persönlich über den hochgeschätzten Gelehrten Majilawayh überlieferte. Dies unterstreicht die wissenschaftliche Strenge der kuﬁanischen Tradition, in der Majilawayh als entscheidendes Bindeglied zwischen den früheren kuﬁanischen Autoritäten und der späteren Generation der Hadith-Kompilatoren diente.",
+        "seo_question": "Wie wird die Überlieferungskette für Muhammad ibn Al-Nu'man in diesem Text überprüft?",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "Majilawayh, ein prominenter schiitischer Gelehrter und Überlieferer",
+          "سَنَد": "Überliefererkette, die einen Hadith überträgt",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "Muhammad ibn Al-Nu'man, ein Gefährte der Imame, dessen Überlieferungen zitiert werden"
+        }
       },
       "ru": {
-        "summary": "Этот отрывок разъясняет цепочку передачи (санад/иснад), через которую автор передает сообщения от Мухаммада ибн ан-Нуʿмана в «Ман Ла Яхдуруху аль-Факих». Его значение заключается в документировании цепочки передачи, что является важным в науках хадиса для идентификации источников и сохранения достоверности текста.",
-        "seo_question": "Какова цепочка передачи к Мухаммаду ибн ан-Нуʿману в «Ман Ла Яхдуруху аль-Факих»?",
-        "key_terms": {}
+        "summary": "Шейх ас-Садук уточняет конкретную цепочку передатчиков (иснад) для хадисов Мухаммада ибн ан-Ну’мана, отмечая, что хотя некоторые из них отсутствуют в данном тексте, он лично передал их через высокоуважаемого ученого Маджилвайха. Это подчеркивает научную строгость куфской традиции, где Маджилвайх служил важным звеном, связывающим более ранних куфских авторитетов с последующим поколением составителей хадисов.",
+        "seo_question": "Как в данном тексте проверяется цепочка передатчиков для Мухаммада ибн ан-Ну’мана?",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "Маджилвайх, видный шиитский ученый и передатчик",
+          "سَنَد": "Цепочка передатчиков, передающих хадис",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "Мухаммад ибн ан-Ну’ман, сподвижник Имамов, чьи хадисы цитируются"
+        }
       },
       "zh": {
-        "summary": "此段阐明作者在《ManLāYaḥḍuruhual-Faqīh》中传述穆罕默德伊本努曼报告的传述链（sanad/isnad）。其重要性在于记录传述链，这在圣训学中对于识别来源和保持文本可靠性至关重要。",
-        "seo_question": "《ManLāYaḥḍuruhual-Faqīh》中通往穆罕默德伊本努曼的传述链是什么？",
-        "key_terms": {}
+        "summary": "谢赫·萨杜克澄清了穆罕默德·本·努曼传述的特定传述链，指出虽然有些传述在此文本中缺失，但他本人通过备受尊敬的学者马吉拉维赫传述了这些内容。这凸显了库法学派的学术严谨性，其中马吉拉维赫作为连接早期库法权威与后期圣训编纂者世代的关键纽带。",
+        "seo_question": "本文如何验证穆罕有地验证穆罕默德·本·努曼的传述链？",
+        "key_terms": {
+          "مَاجِيلَوَيْهَ": "马吉拉维赫，一位著名的什叶派学者和传述者",
+          "سَنَد": "传述链，传递圣训的传述者链条",
+          "مُحَمَّدُ بْنُ النُّعْمَانِ": "穆罕默德·本·努曼，伊玛目的同伴，其传述被引用"
+        }
       }
     },
-    "related_quran": [],
-    "diacritized_text": "وَما كانَ في هَ عَنْ مُحَمَّدِ بْنِ النُّعْمانِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ ماجِيلَوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَلِيِّ بْنِ إِبْراهِيمَ بْنِ هاشِمٍ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَالْحَسَنِ بْنِ مَحْبُوبٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ النُّعْمانِ.",
+    "related_quran": [
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا كَانَ فِيهِ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ فَقَدْ رَوَرَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَلِيِّ بْنِ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَالْحَسَنِ بْنِ مَحْبُوبٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ.",
     "isnad_matn": {
-      "isnad_ar": "وَما كانَ في هَ عَنْ مُحَمَّدِ بْنِ النُّعْمانِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ ماجِيلَوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَلِيِّ بْنِ إِبْراهِيمَ بْنِ هاشِمٍ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَالْحَسَنِ بْنِ مَحْبُوبٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ النُّعْمانِ.",
+      "isnad_ar": "وَمَا كَانَ فِيهِ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ فَقَدْ رَوَرَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَلِيِّ بْنِ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَالْحَسَنِ بْنِ مَحْبُوبٍ جَمِيعًا عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ.",
       "matn_ar": "ه عن محمّد بن النعمان فقد رويته عن محمّد بن عليّ ماجيلويه- رضي اللّه عنه- عن عليّ بن إبراهيم بن هاشم، عن أبيه، عن محمّد بن أبي عمير؛ و الحسن بن‌ محبوب جميعا عن محمّد بن النعمان‌.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "‌و ما كان في",
-          "name_en": "",
+          "name_en": "Wa ma kana fi",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -134,6 +176,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

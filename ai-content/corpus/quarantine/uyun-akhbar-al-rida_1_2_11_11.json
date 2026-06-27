@@ -1,0 +1,327 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:11:11",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[4] name_ar has 49 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'الإِرادَةِ؛ مِنَ اللَّهِ تَعالى\\u200f وَمِنَ الْخَلْقِ؟ فَقالَ: ا'",
+    "chunks[1] en translation length out of bounds: 15 en words vs 52 ar words (ratio=0.29, expected 20.8-208.0)",
+    "chunks[1] type='body' starts with chain transmission verb 'اخبرني' — likely mis-typed isnad content",
+    "chunks[1] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لا' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "knowledge"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "divine_attributes",
+      "divine_decree",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا الْحُسَيْنُ بْنُ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ صَفْوَانَ بْنِ يَحْيَى قَالَ: قُلْتُ لِأَبِي الْحَسَنِ عَلَيْهِ السَّلَامِ:",
+        "translations": {
+          "en": "Al-Husayn ibn Ahmad ibn Idris narrated to us, from his father, from Muhammad ibn Abd al-Jabbar, from Safwan ibn Yahya, who said: I said to Abu al-Hasan (peace be upon him):",
+          "ur": "الحسین بن احمد بن ادريس نے ہم سے روایت کی، ان کے والد سے، محمد بن عبد الجببار سے، صفوان بن يحيى سے، انہوں نے کہا: میں نے ابو الحسن (علیہ السلام) سے کہا:",
+          "tr": "Hind",
+          "fa": "حسین بن احمد بن ادریس از پدرش، از محمد بن عبدالجبار، از صفوان بن یحیی روایت کرد که گفت: به ابوالحسن (علیه السلام) گفتم:",
+          "id": "Al-Husayn ibn Ahmad ibn Ibrāhīm ibn Aḥmad ibn Idrīs telah menceritakan kepada kami, dari ayahnya, dari Muḥammad ibn ʿAbd al-Jabbār, dari Ṣafwān ibn Yaḥyā, yang berkata: Aku berkata kepada Abū al-Ḥasan (alamah):",
+          "bn": "আল-হুসাইন ইবনে আহমদ ইবনে ইদ্রিস আমাদেরকে বর্ণনা করেছেন, তার পিতার নিকট হতে, মুহাম্মাদ ইবনে আবদুল জব্বারের নিকট হতে, সফওয়ান ইবনে ইয়াহ্যার নিকট হতে, যে বলেছে: আমি আবুল হাসান (আস)-কে বললাম:",
+          "es": "Nos narró al-Husayn ibn Aḥmad ibn Idrīs, de su padre, de Muḥammad ibn ʿAbd al-Jabbār, de Ṣafwān ibn Yaḥyā, quien dijo: Dije a Abū al-Ḥasan (que la paz sea con él):",
+          "fr": "Al-Husayn ibn Ahmad ibn Idris nous a rapporté, de la part de son père, de la part de Muhammad ibn Abd al-Jabbar, de la part de Safwan ibn Yahya, qui a dit : J'ai dit à Abou al-Hasan (que la paix soit sur lui) :",
+          "de": "Al-Husayn ibn Ahmad ibn Idris überlieferte uns von seinem Vater, von Muhammad ibn Abd al-Jabbar, von Safwan ibn Yahya, der sagte: Ich sagte zu Abu al-Hasan (friede sei mit ihm):",
+          "ru": "Рассказал нам аль-Хусайн ибн Ахмад ибн Идрис, от его отца, от Мухаммада ибн Абд аль-Джаббара, от Сафвана ибн Яхьи, который сказал: Я сказал Абу аль-Хасану (да будет мир с ним):",
+          "zh": "侯赛因·本·艾哈迈德·本·伊德里斯传述给我们，从他父亲，从穆罕默德·本·阿卜杜·贾巴尔，从萨夫万·本·叶海亚，他说：我对艾布·哈桑（愿主安宁）说："
+        },
+        "word_start": 0,
+        "word_end": 23
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَخْبِرْنِي عَنِ الْإِرَادَةِ؛ مِنَ اللَّهِ تَعَالَى وَمِنَ الْخَلْقِ؟ فَقالَ: الْإِرَادَةُ مِنَ الْمَخْلُوقِ الضَّمِيرُ وَما يَبْدُو لَهُ بَعْدَ ذَلِكَ مِنَ الْفِعْلِ، وَأَمَّا مِنَ اللَّهِ عَزَّ وَجَلَّ: فَإِرَادَتُهُ إِحْدَاثُهُ غَيْرَ ذَلِكَ، لأَنَّهُ لا يُرَوِّي وَلا يَهُمُّ وَلا يَتَفَكَّرُ، وَهَذِهِ الصِّفَاتُ مَنْفِيَّةٌ عَنْهُ وَهِيَ مِنْ صِفَاتِ الْخَلْقِ، فَإِرَادَةُ اللَّهِ تَعَالَى هِيَ الْفِعْلُ لا غَيْرَ ذَلِكَ.",
+        "translations": {
+          "en": "Inform me about the Will; that of Allah the Exalted and that of the creatures.",
+          "ur": "مجھے وصیت کے بارے میں بتاؤ؛ اللہ تعالیٰ کی وصیت اور مخلوق کی وصیت۔",
+          "tr": "Bana Allah'ın aziz ve celil olan iradesi ve mahlukatın iradesi hakkında bilgi ver.",
+          "fa": "مرا از وصیت خبر ده؛ هم از وصیت خداوند بلندمرتبه و هم از وصیت مخلوقات.",
+          "id": "Beritahukan kepadaku tentang wasiat; yang dari Allah Yang Maha Tinggi dan yang dari makhluk.",
+          "bn": "আমাকে জানান ইরাদা সম্পর্কে; আল্লাহ তাআলার ইরাদা এবং সৃষ্টিগুলোর ইরাদা সম্পর্কে।",
+          "es": "Infórmame sobre la Voluntad; la de Allah, el Exaltado, y la de las criaturas.",
+          "fr": "Informe-moi du Testament, celui d'Allah le Très-Haut et celui des créatures.",
+          "de": "Berichte mir über den Willen; den Willen Allahs, des Erhabenen, und den Willen der Geschöpfe.",
+          "ru": "Сообщи мне о Воле; о Воле Аллаха Всевышнего и о Воле творений.",
+          "zh": "告诉我关于遗嘱的事，即真主至尊的遗嘱和受造物的遗嘱。"
+        },
+        "word_start": 23,
+        "word_end": 75
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يَقُولُ لَهُ: «كُنْ فَيَكُونُ»، بِلا لَفْظٍ وَلا نُطْقٍ بِلِسَانٍ وَلا هِمَّةٍ وَلا تَفَكُّرٍ، وَلا كَيْفَ كَذلِكَ، كَمَا أَنَّهُ بِلا كَيْفٍ.",
+        "translations": {
+          "en": "He says to it: 'Be,' and it is, without articulation or verbal expression with the tongue, without directed attention or thought, and without 'how-ness' in this way, just as He Himself is without 'how-ness'.",
+          "ur": "وہ اس سے کہتا ہے: 'ہو جا'، تو وہ ہو جاتا ہے، بغیر زبان سے ادا کیے گئے لفظ کے، بغیر توجہ یا فکر کے، اور بغیر اس طرح کے 'کیسے پن' کے، جیسے کہ وہ خود 'کیسے پن' سے پاک ہے۔",
+          "tr": "O, ona 'Ol' der ve o da olur; dilin artikülasyonu veya sözlü ifadesi olmaksızın, yöneltilemiş dikkat veya düşünce olmaksızın ve bu şekilde 'nasıllık' olmaksızın, tıpkı O'nun kendisinin 'nasıllık' olmaksızın olduğu gibi.",
+          "fa": "او به آن را می‌گوید: «باش»، و آن هست، بدون تلفظ یا بیان زبانی با زبان، بدون توجه یا تفکر معطوف، و بدون «چگونگی» به این شکل، همان‌گونه که او خود بدون «چگونگی» است.",
+          "id": "Beliau berfirman kepadanya: 'Jadilah,' maka ia pun menjadi, tanpa artikulasi atau ungkapan verbal dengan lidah, tanpa perhatian yang tertuju atau pikiran, dan tanpa 'bagaimana' dengan cara ini, sebagaimana Dia sendiri tanpa 'bagaimana'.",
+          "bn": "তিনি তাকে বলেন, 'হও', এবং তা হয়, জিহ্বার উচ্চারণ বা বাক্যপ্রকাশ ছাড়াই, দৃষ্টি বা চিন্তার দিকনির্দেশ ছাড়াই, এবং এইভাবে 'কীভাবে'-তারি ছাড়াই, ঠিক যেমন তিনি নিজেই 'কীভাবে'-তারি ছাড়াই।",
+          "es": "Él le dice: «Sé», y es, sin articulación ni expresión verbal con la lengua, sin atención dirigida ni pensamiento, y sin «cómo» de esta manera, tal como Él mismo es sin «cómo».",
+          "fr": "Il lui dit : « Sois, et cela est, sans articulation ni expression verbale avec la langue, sans attention dirigée ni pensée, et sans « comment-ité » de cette manière, tout comme Lui-même est sans « comment-ité ».",
+          "de": "Er sagt zu ihr: »Sei«, und sie ist, ohne Artikulation oder mündlichen Ausdruck mit der Zunge, ohne gerichtete Aufmerksamkeit oder Denken, und ohne »Wie« auf diese Weise, so wie Er selbst ohne »Wie« ist.",
+          "ru": "Он говорит ему: «Будь», и оно становится, без произнесения языком и без словесного выражения, без направленного внимания или размышления, и без «каковости» таким образом, подобно тому как Сам Он лишён «каковости».",
+          "zh": "他对它说：‘有’，它便有了，无需舌头的发声或言语表达，无需专注或思维，也无需‘如何’之方式，正如他自身无‘如何’之方式一样。"
+        },
+        "word_start": 75,
+        "word_end": 95
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith clarifies the theological distinction between human will, which involves deliberation (himma) and subsequent action, and Divine Will, which is identical to the act of creation itself (fi'l), free from the limitations of time, thought, or verbal articulation. It underscores the Shia doctrine of Tawhid by affirming that Allah's will is not a separate attribute but His very essence in bringing things into existence through the command 'Be' (Kun).",
+        "seo_question": "What is the difference between the Will of Allah and the will of creatures according to Imam al-Rida?",
+        "key_terms": {
+          "الْإِرَادَة": "Will",
+          "الضَّمِير": "Inner thought/mind",
+          "إِحْدَاث": "Creation/bringing into existence",
+          "يُرَوِّي": "To deliberate/ponder",
+          "يَهُمُّ": "To intend/have a mental inclination",
+          "يَتَفَكَّرُ": "To think/reflect",
+          "بِلا كَيْف": "Without 'how-ness' (without a specific manner or modality)"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث انسانی ارادے اور الٰہی ارادے کے درمیان کلامی تمیز کو واضح کرتی ہے، جہاں انسانی ارادے میں تدبر (ہِمَّة) اور اس کے بعد عمل شامل ہے، جبکہ الٰہی ارادہ خود تخلیق کے فعل (فعل) کے ساتھ یکساں ہے، جو وقت، خیال یا کلام کی محدودیتوں سے پاک ہے۔ یہ شیعہ عقیدہ توحید کی تائید کرتے ہوئے اس بات کی تصدیق کرتا ہے کہ اللہ کا ارادہ کوئی الگ صفت نہیں بلکہ وہی ذات ہے جو 'ہو' (کُن) کے حکم کے ذریعے چیزوں کو وجود میں لاتا ہے۔",
+        "seo_question": "امام رضا کے نزدیک اللہ کی ارادہ اور مخلوقات کی ارادہ میں کیا فرق ہے؟",
+        "key_terms": {
+          "الْإِرَادَة": "ارادہ",
+          "الضَّمِير": "اندرونی خیال/ذہن",
+          "إِحْدَاث": "تخلیق/وجود میں لانا",
+          "يُرَوِّي": "تدبر کرنا/غور کرنا",
+          "يَهُمُّ": "نیت کرنا/ذہنی رجحان رکھنا",
+          "يَتَفَكَّرُ": "سوچنا/غور و فکر کرنا",
+          "بِلا كَيْف": "بلا کیف"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, insan iradesinin (himma) ve onu takip eden eylemin, zaman, düşünce veya sözlü ifade sınırlamalarından arınmış olan yaratma eylemi (fi'l) ile özdeş olan ilahi irade arasındaki teolojik ayrımı açıklar. Allah'ın iradesinin ayrı bir sıfat değil, 'Ol' (Kun) emriyle varlıkları var etmede O'nun özü olduğunu vurgulayarak Şia Tevhid doktrinini teyit eder.",
+        "seo_question": "İmam er-Rıza'ya göre Allah'ın iradesi ile mahlukatın iradesi arasındaki fark nedir?",
+        "key_terms": {
+          "الْإِرَادَة": "İrade",
+          "الضَّمِير": "İç düşünce/zihin",
+          "إِحْدَاث": "Yaratma/var ediliş",
+          "يُرَوِّي": "Tefekkür etmek/derin düşünmek",
+          "يَهُمُّ": "Niyet etmek/zihinsel eğilim duymak",
+          "يَتَفَكَّرُ": "Düşünmek/taklit etmek",
+          "بِلا كَيْف": "Naslısızsız/özel bir şekilde nasıl olduğu olmaksızın"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث تمایز الهیاتی میان اراده انسان، که شامل تدبر (همّه) و عمل بعدی است، و اراده الهی، که با خود فعل خلقت (فعل) یکی است و از محدودیت‌های زمان، فکر یا بیان کلامی آزاد است، روشن می‌سازد. این حدیث با تأکید بر اینکه اراده خداوند صفتی جداگانه نیست بلکه ذات او در به وجود آوردن چیزها از طریق فرمان «باش» (کُن) است، بر مذهب شیعه در توحید تأکید می‌کند.",
+        "seo_question": "تفاوت بین اراده خداوند و اراده مخلوقات طبق امام الرضا چیست؟",
+        "key_terms": {
+          "الْإِرَادَة": "اراده",
+          "الضَّمِير": "اندیشه درونی/ذهن",
+          "إِحْدَاث": "خلق/به وجود آوردن",
+          "يُرَوِّي": "تدبر کردن/اندیشیدن",
+          "يَهُمُّ": "قصد کردن/داشتن میل ذهنی",
+          "يَتَفَكَّرُ": "فکر کردن/تأمل کردن",
+          "بِلا كَيْف": "بدون چگونگی (بدون شیوه یا حالت خاص)"
+        }
+      },
+      "id": {
+        "summary": "Hadis ini menjelaskan perbedaan teologis antara kehendak manusia, yang melibatkan deliberasi (himma) dan tindakan selanjutnya, serta Kehendak Ilahi, yang identik dengan tindakan penciptaan itu sendiri (fi'l), bebas dari batasan waktu, pikiran, atau artikulasi verbal. Hadis ini menegaskan doktrin Syiah tentang Tawhid dengan menyatakan bahwa kehendak Allah bukan atribut terpisah melainkan esensi-Nya sendiri dalam menghadirkan segala sesuatu ke dalam keberadaan melalui perintah 'Jadilah' (Kun).",
+        "seo_question": "Apa perbedaan antara Kehendak Allah dan kehendak makhluk menurut Imam al-Rida?",
+        "key_terms": {
+          "الْإِرَادَة": "Kehendak",
+          "الضَّمِير": "Pikiran batin",
+          "إِحْدَاث": "Penciptaan",
+          "يُرَوِّي": "Membuat pertimbangan",
+          "يَهُمُّ": "Bermaksud",
+          "يَتَفَكَّرُ": "Berpikir",
+          "بِلا كَيْف": "Tanpa 'bagaimana'"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসটি মানবিক ইচ্ছা এবং ঈশ্বরের ইচ্চার মধ্যে তাত্ত্বিক পার্থক্য স্পষ্ট করে, যেখানে মানবিক ইচ্ছা (হিমা) এবং পরবর্তী কর্মের মধ্যে সম্পর্ক রয়েছে, আর ঈশ্বরের ইচ্ছা সৃষ্টির কর্মের (ফিল) সাথে অভিন্ন, যা সময়, চিন্তা বা বাক্যের সীমাবদ্ধতা থেকে মুক্ত। এটি শিয়া তওহীদের মতবাদকে সমর্থন করে, যা নিশ্চিত করে যে আল্লাহর ইচ্ছা কোনো পৃথক গুণ নয়, বরং 'হও' (কুন) আদেশের মাধ্যমে বস্তুগুলোকে অস্তিত্বে আনতে তাঁর নিজের সত্তা।",
+        "seo_question": "ইমাম আল-রিদা অনুযায়ী আল্লাহর ইচ্ছা এবং সৃষ্টিজীবের ইচ্চার মধ্যে পার্থক্য কী?",
+        "key_terms": {
+          "الْإِرَادَة": "ইচ্ছা",
+          "الضَّمِير": "অন্তরীণ চিন্তা/মন",
+          "إِحْدَاث": "সৃষ্টি/অস্তিত্বে আনা",
+          "يُرَوِّي": "চিন্তা করা/মনোযোগ দেওয়া",
+          "يَهُمُّ": "ইচ্ছা করা/মানসিক প্রবণতা থাকা",
+          "يَتَفَكَّرُ": "চিন্তা করা/প্রতিফলিত হওয়া",
+          "بِلا كَيْف": "কিভাবে-ত্ব ছাড়া (নির্দিষ্ট রূপ বা ধরন ছাড়া)"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz hadith aclara la distinción teológica entre la voluntad humana, que implica deliberación (himma) y acción subsiguiente, y la Voluntad Divina, que es idéntica al acto de creación mismo (fi'l), libre de las limitaciones del tiempo, el pensamiento o la articulación verbal. Subraya la doctria chií del Tawhid al afirmar que la voluntad de Allah no es un atributo separado, sino Su esencia misma al traer las cosas a la existencia mediante el comando 'Sé' (Kun).",
+        "seo_question": "¿Cuál es la diferencia entre la Voluntad de Allah y la voluntad de las criaturas según el Imam al-Rida?",
+        "key_terms": {
+          "الْإِرَادَة": "Voluntad",
+          "الضَّمِير": "Pensamiento interior/mente",
+          "إِحْدَاث": "Creación/traer a la existencia",
+          "يُرَوِّي": "Deliberar/reflexionar",
+          "يَهُمُّ": "Intencionar/tener una inclinación mental",
+          "يَتَفَكَّرُ": "Pensar/reflexionar",
+          "بِلا كَيْف": "Sin 'cómo' (sin una manera o modalidad específica)"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith clarifie la distinction théologique entre la volonté humaine, qui implique la délibération (himma) et l'action subséquente, et la Volonté Divine, qui est identique à l'acte de création lui-même (fi'l), libre des limitations du temps, de la pensée ou de l'articulation verbale. Il souligne la doctrine chiite du Tawhid en affirmant que la volonté d'Allah n'est pas un attribut séparé mais Son essence même qui fait advenir les choses par le commandement « Sois » (Kun).",
+        "seo_question": "Quelle est la différence entre la Volonté d'Allah et la volonté des créatures selon l'Imam al-Rida ?",
+        "key_terms": {
+          "الْإِرَادَة": "Volonté",
+          "الضَّمِير": "Pensée intérieure/esprit",
+          "إِحْدَاث": "Création/faire advenir",
+          "يُرَوِّي": "Délibérer/réfléchir",
+          "يَهُمُّ": "Intentionner/avoir une inclination mentale",
+          "يَتَفَكَّرُ": "Penser/réfléchir",
+          "بِلا كَيْف": "Sans « comment-ité » (sans manière ou modalité spécifique)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith klärt die theologische Unterscheidung zwischen dem menschlichen Willen, der Überlegung (himma) und nachfolgender Handlung umfasst, und dementspricht, und dem göttlichen Willen, der mit dem Akt der Schöpfung selbst (fi'l) identisch ist und frei von den Einschränkungen von Zeit, Gedanken oder sprachlicher Artikulation ist. Es unterstreicht die schiitische Lehre des Tawhid, indem es bekräftigt, dass Allahs Wille kein separates Attribut ist, sondern Seine eigene Essenz, die Dinge durch das Gebot „Sei“ (Kun) ins Dasein bringt.",
+        "seo_question": "Was ist der Unterschied zwischen dem Willen Allahs und dem Willen der Geschöpfe gemäß Imam al-Rida?",
+        "key_terms": {
+          "الْإِرَادَة": "Wille",
+          "الضَّمِير": "Inneres Denken/Geist",
+          "إِحْدَاث": "Schöpfung/Hervorbringen ins Dasein",
+          "يُرَوِّي": "Überlegen/Erwägen",
+          "يَهُمُّ": "Vorhaben/geistige Neigung haben",
+          "يَتَفَكَّرُ": "Denken/nachdenken",
+          "بِلا كَيْف": "Ohne Wie"
+        }
+      },
+      "ru": {
+        "summary": "Эта хадис разъясняет богословское различие между человеческой волей, которая включает в себя размышление (химма) и последующее действие, и Божественной Волей, которая тождественна самому акту творения (филь), свободному от ограничений времени, мысли или словесного выражения. Он подчеркивает шиитскую доктрину Таухида, утверждая, что Воля Аллаха не является отдельным атрибутом, а является Его самой сущностью, приводящей вещи к существованию через повеление «Будь» (Кун).",
+        "seo_question": "В чем разница между Волей Аллаха и волей существ согласно Имаму ар-Риде?",
+        "key_terms": {
+          "الْإِرَادَة": "Воля",
+          "الضَّمِير": "Внутренняя мысль/ум",
+          "إِحْدَاث": "Творение/приведение к существованию",
+          "يُرَوِّي": "Размышлять/обдумывать",
+          "يَهُمُّ": "Намереваться/иметь умственное наклонение",
+          "يَتَفَكَّرُ": "Думать/размышлять",
+          "بِلا كَيْف": "Без «как-ности» (без определенного образа или модальности)"
+        }
+      },
+      "zh": {
+        "summary": "summary\": ",
+        "seo_question": "根据伊玛目阿里·里达的观点，真主的意志与受造物的意志有何区别？",
+        "key_terms": {
+          "الْإِرَادَة": "意志",
+          "الضَّمِير": "内心思想/心智",
+          "إِحْدَاث": "创造/使存在",
+          "يُرَوِّي": "深思/沉思",
+          "يَهُمُّ": "意图/心理倾向",
+          "يَتَفَكَّرُ": "思考/反思",
+          "بِلا كَيْف": "无方式"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:117",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "36:82",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "19:35",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "40:68",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا الْحُسَيْنُ بْنُ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ صَفْوَانَ بْنِ يَحْيَى قَالَ: قُلْتُ لِأَبِي الْحَسَنِ عَلَيْهِ السَّلَامِ: أَخْبِرْنِي عَنِ الْإِرَادَةِ؛ مِنَ اللَّهِ تَعَالَى وَمِنَ الْخَلْقِ؟ فَقالَ: الْإِرَادَةُ مِنَ الْمَخْلُوقِ الضَّمِيرُ وَما يَبْدُو لَهُ بَعْدَ ذَلِكَ مِنَ الْفِعْلِ، وَأَمَّا مِنَ اللَّهِ عَزَّ وَجَلَّ: فَإِرَادَتُهُ إِحْدَاثُهُ غَيْرَ ذَلِكَ، لأَنَّهُ لا يُرَوِّي وَلا يَهُمُّ وَلا يَتَفَكَّرُ، وَهَذِهِ الصِّفَاتُ مَنْفِيَّةٌ عَنْهُ وَهِيَ مِنْ صِفَاتِ الْخَلْقِ، فَإِرَادَةُ اللَّهِ تَعَالَى هِيَ الْفِعْلُ لا غَيْرَ ذَلِكَ. يَقُولُ لَهُ: «كُنْ فَيَكُونُ»، بِلا لَفْظٍ وَلا نُطْقٍ بِلِسَانٍ وَلا هِمَّةٍ وَلا تَفَكُّرٍ، وَلا كَيْفَ كَذلِكَ، كَمَا أَنَّهُ بِلا كَيْفٍ.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا الْحُسَيْنُ بْنُ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ صَفْوَانَ بْنِ يَحْيَى قَالَ: قُلْتُ لِأَبِي الْحَسَنِ عَلَيْهِ السَّلَامِ:",
+      "matn_ar": "أَخْبِرْنِي عَنِ الْإِرَادَةِ؛ مِنَ اللَّهِ تَعَالَى وَمِنَ الْخَلْقِ؟ فَقالَ: الْإِرَادَةُ مِنَ الْمَخْلُوقِ الضَّمِيرُ وَما يَبْدُو لَهُ بَعْدَ ذَلِكَ مِنَ الْفِعْلِ، وَأَمَّا مِنَ اللَّهِ عَزَّ وَجَلَّ: فَإِرَادَتُهُ إِحْدَاثُهُ غَيْرَ ذَلِكَ، لأَنَّهُ لا يُرَوِّي وَلا يَهُمُّ وَلا يَتَفَكَّرُ، وَهَذِهِ الصِّفَاتُ مَنْفِيَّةٌ عَنْهُ وَهِيَ مِنْ صِفَاتِ الْخَلْقِ، فَإِرَادَةُ اللَّهِ تَعَالَى هِيَ الْفِعْلُ لا غَيْرَ ذَلِكَ. يَقُولُ لَهُ: «كُنْ فَيَكُونُ»، بِلا لَفْظٍ وَلا نُطْقٍ بِلِسَانٍ وَلا هِمَّةٍ وَلا تَفَكُّرٍ، وَلا كَيْفَ كَذلِكَ، كَمَا أَنَّهُ بِلا كَيْفٍ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا الحُسَيْنُ بْنُ أَحْمَدَ بْنِ إِدْرِيسَ،",
+          "name_en": "al-Husayn b. Ahmad b. Idris",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ،",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ عَبْد الجَبَّارِ،",
+          "name_en": "Muhammad b. Abd al-Jabbar",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 24
+        },
+        {
+          "name_ar": "صَفْوان بْنِ يَحْيَى قالَ: قُلْتُ لأَبِي الحَسَنَ‏ عَلَيْهِ السَّلامُ: أَخْبِرنِي",
+          "name_en": "Safwan b. Yahya",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الإِرادَةِ؛ مِنَ اللَّهِ تَعالى‏ وَمِنَ الْخَلْقِ؟ فَقالَ: الإِرادَةُ مِنَ المخلُوقِ الضَّمِيرُ وَما يَبدُو لَهُ بَعْدَ ذلِكَ مِنَ الِفعلِ، وَأَمَّا مِنَاللَّهِ عَزَّ وَجَلَّ: فَإرادَتُهُ إِحداثُهُ غَيْرَ ذلِكَ، لأَنَّهُ لا يُرَوِّي وَلا يَهُمُّ وَلا يَتَفَكَّرُ، وَهذِهِ الصِّفاتُ مَنفَيَّةٌ عَنْهُ وَهِيَ مِن صِفاتِ الخَلقِ، فَإِرادَةُ اللَّهِ تَعالى‏ هِيَ الفِعلُ لا غَيْرُ ذلِكَ",
+          "name_en": "al-Irada",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

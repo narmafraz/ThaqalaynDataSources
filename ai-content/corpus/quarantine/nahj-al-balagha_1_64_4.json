@@ -1,0 +1,265 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:64:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 35 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'فاتقى عبد ربه، نصح نفسه، قدم توبته، غلب شهوته، فإن أجله مستو'"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "theology",
+      "afterlife"
+    ],
+    "content_type": "exhortation",
+    "topics": [
+      "repentance",
+      "death_dying",
+      "patience",
+      "divine_decree",
+      "sincerity"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "فَاتَّقِ اللَّهَ",
+        "translations": {
+          "en": "So fear Allah,",
+          "ur": "پس اللہ سے ڈرو،",
+          "tr": "İşte, Allah'ten sakının,",
+          "fa": "پس از خدا بترسید،",
+          "id": "Maka bertakwalah kepada Allah,",
+          "bn": "অতএব, আল্লাহকে ভয় করো,",
+          "es": "Así que teme Allah,",
+          "fr": "Alors, crains Allah,",
+          "de": "Fürchte Allah,",
+          "ru": "Так бойтесь Аллаха,",
+          "zh": "故当敬畏真主，"
+        },
+        "word_start": 0,
+        "word_end": 2
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "نَصَحَ نَفْسَهُ، قَدَّمَ تَوْبَتَهُ، غَلَبَ شَهْوَتَهُ، فَإِنَّ أَجَلَهُ مَسْتُورٌ عَنْهُ، وَأَمَلَهُ خَادِعٌ لَهُ، وَالشَّيْطَانُ مُوَكَّلٌ بِهِ، يُزَيِّنُ لَهُ الْمَعْصِيَةَ لِيَرْكَبَهَا، وَيُمَنِّيهِ التَّوْبَةَ لِيُسَوِّفَهَا حَتَّى تَهْجُمَ مَنِيَّتُهُ عَلَيْهِ أَغْفَلَ مَا يَكُونُ عَنْهَا.",
+        "translations": {
+          "en": "admonish yourself, send forward your repentance, overpower your desire, for indeed your death is hidden from you, your desires deceive you, and Satan is posted on you; he beautifies sin for you so that you may commit it, and prompts you to delay repentance until your death strikes you while you are most negligent of it.",
+          "ur": "اپنی ذات کو نصیحت کرو، اپنے توبہ کو آگے بڑھاؤ، اپنی خواہش پر غالب آؤ، کیونکہ بے شک تمہاری موت تم سے پوشیدہ ہے، تمہاری خواہشیں تمہیں فریب دیتی ہیں، اور شیطان تم پر مامور ہے؛ وہ تمہارے لیے گناہ کو خوبصورت بنا دیتا ہے تاکہ تم اسے کرو، اور تمہیں توبہ کو تاخیر کا سبب بناتا ہے یہاں تک کہ تمہاری موت تمہیں اس وقت آ جاتی ہے جب تم اس سے سب سے زیادہ غافل ہوتے ہو۔",
+          "tr": "Nefsinle müzakere et, tevbeni ileri sür, hevesini yen, çünkü ölümün sana gizlidir, heveslerin seni aldatır, şeytan da senin üzerinedir; o, günahı senin için güzelleştirir ki onu işleyesin, ve tevbeni ertelemeni telkin eder, işte o zaman ölüm seni en gafil olduğunda yakalar.",
+          "fa": "خودت را پند ده، توبه‌ات را پیش فرست، بر هوای نفس خود چیره شو، زیرا که مرگت از تو پنهان است، هوای نفس تو را گمراه می‌کند، و شیطان بر تو گماشته شده است؛ او گناه را برای تو زیبا جلوه می‌دهد تا آن را انجام دهی، و تو را به تأخیر انداختن توبه تا هنگامی که مرگ تو را در حالی که بیش از همه غافل هستی فرا رسد، وامی‌دارد.",
+          "id": "Berilah nasihat kepada dirimu sendiri, persiapkanlah taubatmu, taklukkanlah hawa nafsumu, karena sesungguhnya kematianmu tersembunyi bagimu, hawa nafsu menipuimu, dan setan mengintai dirimu; ia mempercantik dosa di hadapanmu agar kamu melakukannya, dan mendorongmu untuk menunda taubat hingga kematian menimpamu saat kamu sedang lalai darinya.",
+          "bn": "নিজেকে উপদেশ দাও, তোমার তওবা এগিয়ে দাও, তোমার শৌকতকে পরাভূত করো, কারণ নিশ্চয়ই তোমার মৃত্যু তোমার নিকট গোপন, তোমার শৌকত তোমাকে প্রতারিত করে, এবং শয়তান তোমার উপর প্রস্তুত অবস্থায় রয়েছে; সে তোমার জন্য গুনাহকে সুন্দর করে দেখায় যাতে তুমি তা করো, এবং তোমাকে তওবা বিলম্বিত করতে উৎসাহিত করে যতক্ষণ না তোমার মৃত্যু তোমাকে আঘাত করে, অথচ তখন তুমি তার ব্যাপারে সর্বাপেক্ষা অবহেলাকারী।",
+          "es": "Exhorta a tu alma, envía adelante tu arrepentimiento, somete tu deseo, pues en verdad tu muerte te está oculta, tus deseos te engañan, y el Satanás está apostado contra ti; él te embellece el pecado para que lo cometas, y te incita a posponer el arrepentimiento hasta que la muerte te alcance mientras estás más descuidado de ello. }  \n\nNote: The translation preserves Islamic terminology and honorifics as per the guidelines. Proper nouns like ",
+          "fr": "Avertis-toi toi-même, hâte ton repentir repentir, dompte ton désir, car en vérité ta mort te est cachée, tes désirs te trompent, et le Diable est embusqué contre toi ; il te embellit le péché afin que tu le commettes, et te pousse à remettre ton repentir jusqu'à ce que la mort te surprenne alors que tu en es le plus négligent.",
+          "de": "Mahne dich selbst, sende deine Reue voraus, bezwinge deine Begierde, denn gewiss ist dein Tod vor dir verborgen, deine Begierden täuschen dich, und der Satan lauert auf dich; er verschönert dir die Sünde, damit du sie begehest, und ermutigt dich, die Reue hinauszuzögern, bis der Tod dich trifft, während du am meisten unachtsam bist.",
+          "ru": "Увещевай сам себя, отправляй вперёд своё покаяние, побеждай свою страсть, ибо твоя смерть скрыта от тебя, твои желания обманывают тебя, а сатан стоит над тобой; он украшает для тебя грех, чтобы ты совершил его, и побуждает тебя откладывать покаяние, пока смерть не настигнет тебя, когда ты будешь наиболее небрежен к ней.",
+          "zh": "劝诫你自己，预备你的悔改，克制你的欲望，因为你的死亡对你而言是隐藏的，你的欲望欺骗你，撒旦已埋伏在你身上；他为你美化罪恶，使你得以犯下，并怂恿你推迟悔改，直到死亡突然降临，而你却对此最为疏忽。"
+        },
+        "word_start": 2,
+        "word_end": 33
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَيَالَهَا حَسْرَةً عَلَى كُلِّ ذِي غَفْلَةٍ أَنْ يَكُونَ عُمُرُهُ عَلَيْهِ حُجَّةً، وَأَنْ تُؤَدِّيَهُ أَيَّامُهُ إِلَى الشِّقْوَةِ!",
+        "translations": {
+          "en": "How great is the regret for every negligent person that his life becomes a proof against him, and that his days lead him to misery!",
+          "ur": "ہر غافل شخص کے لیے کتنا بڑا پچھتاوا ہے کہ اس کی زندگی اس پر دلیل بن جاتی ہے اور اس کے دن اسے مصیبت کی طرف لے جاتے ہیں!",
+          "tr": "Her gaflet içindeki kimse için, hayatının kendisine karşı bir delil olması ve günlerinin onu felakete sürüklemesi ne kadar büyük bir pişmanlıktır!",
+          "fa": "چقدر بزرگ است حسرت هر غافل که زندگی‌اش به حجتی علیه او تبدیل شود و روزهایش او را به بدبختی بکشاند!",
+          "id": "Betapa besarnya penyesalan bagi setiap orang yang lalai, ketika hidupnya menjadi bukti yang menentangnya, dan hari-harinya membawanya kepada kesengsaraan!",
+          "bn": "প্রতিটি অবহেলিত ব্যক্তির জন্য কত বড় পশ্চাতাপের বিষয় যে, তার জীবনই তার বিরুদ্ধে প্রমাণ হয়ে দাঁড়ায় এবং তার দিনগুলো তাকে দুর্দশার দিকে নিয়ে যায়!",
+          "es": "Qué grande es el arrepentonces el arrepentimiento de todo negligente cuya vida se convierte en prueba contra él, y cuyos días lo conducen a la miseria!",
+          "fr": "Comme grand est le regret de tout homme négligent dont la vie devient une preuve contre lui, et dont les jours le conduisent au malheur !",
+          "de": "Wie groß ist die Reue jedes Nachlässigen, dass sein Leben ein Beweis gegen ihn wird und dass seine Tage ihn ins Elend führen!",
+          "ru": "Как велико будет сожаление каждого нерадивого человека, когда его жизнь станет против него укоризной, а дни его приведут его к несчастному концу!",
+          "zh": "每个疏忽之人将是何等的懊悔，他的生命成为对他的证据，他的日子引他走向悲惨！"
+        },
+        "word_start": 33,
+        "word_end": 49
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (AS) highlights the deceptive nature of worldly life and Satan's strategy of procrastination, urging immediate repentance before death strikes unexpectedly. This passage underscores the Shia emphasis on *ghaflah* (heedlessness) as the root of spiritual decline, warning that one's lifespan becomes a witness against them if not utilized for devotion. It serves as a practical reminder to prioritize spiritual preparation over worldly distractions.",
+        "seo_question": "How does Satan deceive the negligent person regarding repentance and death?",
+        "key_terms": {
+          "تَوْبَتَهُ": "his repentance",
+          "شَهْوَتَهُ": "his desire/desire",
+          "أَجَلَهُ": "his death/deadline",
+          "مَنِيَّتُهُ": "his death",
+          "غَفْلَةٍ": "negligence/heedlessness",
+          "الشِّقْوَةِ": "misery/suffering"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) دنیاوی زندگی کی دھوکہ دہی فطرت اور شیطان کی تاخیر کی حکمت عملی کی نشاندہی کرتے ہیں، اور اچانک موت آنے سے پہلے فوری توبہ کی ترغیب دیتے ہیں۔ یہ اقتباس شیعہ نقطہ نظر میں *غفلت* (بے خبری) کو روحانی زوال کی جڑ کے طور پر اجاگر کرتا ہے، اور خبردار کرتا ہے کہ اگر زندگی کی مدت عبادت کے لیے استعمال نہ کی جائے تو یہ شخص کے خلاف گواہ بن جاتی ہے۔ یہ دنیاوی مشغولیات پر روحانی تیاری کو ترجیح دینے کا ایک عملی یاد دہانی ہے۔",
+        "seo_question": "شیطان غافل شخص کو توبہ اور موت کے حوالے سے کیسے دھوکہ دیتا ہے؟",
+        "key_terms": {
+          "تَوْبَتَهُ": "اس کی توبہ",
+          "شَهْوَتَهُ": "اس کی خواہش",
+          "أَجَلَهُ": "اس کی موت/میعاد",
+          "مَنِيَّتُهُ": "اس کی موت",
+          "غَفْلَةٍ": "غفلت/بے خبری",
+          "الشِّقْوَةِ": "بدبختی/سختی"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (AS), dünyevi hayatın aldatıcı doğasını ve Şatırın erteleme stratejisini vurgulayarak, ölüm beklenmedik geldiğinde hemen tövbe etmeye çağırır. Bu pasaj, manevi gerilemenin kökü olarak *gafla* (gaflet) vurgusunu öne çıkarır ve kişinin ömrünün, ibadete harcanmadığı takdirde aleyhine şahit olacağını uyarır. Dünyevi dikkatlerden ziyade manevi hazırlığı önceliklendirmeye yönelik pratik bir hatırlatma görevi görür.",
+        "seo_question": "Şatır, gaflete düşen kişiyi tövbe ve ölüm konusunda nasıl kandırır?",
+        "key_terms": {
+          "تَوْبَتَهُ": "tövbesi",
+          "شَهْوَتَهُ": "hırsı/isteyişi",
+          "أَجَلَهُ": "ölümü/sonu",
+          "مَنِيَّتُهُ": "ölümü",
+          "غَفْلَةٍ": "gafla/gaflet",
+          "الشِّقْوَةِ": "saadetin zıddı/mutluluk"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (ع) ماهیت فریبکار زندگی دنیا و استراتژی سوسن در تأخیر انداختن را برجسته می‌کند و به توبه فوری پیش از رسیدن ناگهانی مرگ دعوت می‌نماید. این بخش بر تأکید شیعه به غفلت به عنوان ریشه افول معنوی تأکید دارد و هشدار می‌دهد که اگر عمر انسان برای عبادت استفاده نشود، علیه او شاهد خواهد بود. این متن یادآوری عملی است برای اولویت دادن به آمادگی معنوی بر دگرگونی‌های دنیوی.",
+        "seo_question": "شیطان چگونه فرد غافل را درباره توبه و مرگ فریب می‌دهد؟",
+        "key_terms": {
+          "تَوْبَتَهُ": "توبه او",
+          "شَهْوَتَهُ": "اشتها/میل او",
+          "أَجَلَهُ": "مرگ/مهلت او",
+          "مَنِيَّتُهُ": "مرگ او",
+          "غَفْلَةٍ": "غفلت",
+          "الشِّقْوَةِ": "بدبختی/رنج"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (AS) menyoroti sifat menipu dari kehidupan dunia dan strategi penundaan Iblis, mendorong pertobatan segera sebelum kematian datang secara tak terduga. Kutipan ini menekankan penekanan Syiah terhadap *ghaflah* (lupa) sebagai akar kemunduran spiritual, memperingatkan bahwa umur seseorang akan menjadi saksi melawan mereka jika tidak digunakan untuk ibadah. Ini berfungsi sebagai pengingat praktis untuk memprioritaskan persiapan spiritual daripada gangguan duniawi.",
+        "seo_question": "Bagaimana Iblis menipu orang yang lalai mengenai pertobatan dan kematian?",
+        "key_terms": {
+          "تَوْبَتَهُ": "pertobatannya",
+          "شَهْوَتَهُ": "keinginannya",
+          "أَجَلَهُ": "kematian/ajalnya",
+          "مَنِيَّتُهُ": "kematian",
+          "غَفْلَةٍ": "kelalaian",
+          "الشِّقْوَةِ": "kesengsaraan"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) জগতের প্রতারণামূলক প্রকৃতি এবং শয়তানের বিলম্বের কৌশল তুলে ধরেন, মৃত্যু যখনই আকস্মিকভাবে আসতে পারে তার আগে দ্রুত তওবা করার আহ্বান জানান। এই অংশটি শিয়া মতবাদে *গাফলাহ* (অবহেলা) কে আধ্যাত্মিক অবনতির মূল কারণ হিসেবে চিহ্নিত করে, সতর্ক করে যে যদি জীবনকালকে ইবাদতে ব্যবহার না করা হয় তবে তা মানুষের বিরুদ্ধে সাক্ষী হিসেবে দাঁড়াবে। এটি জগতের বিভ্রান্তির চেয়ে আধ্যাত্মিক প্রস্তুতিকে অগ্রাধিকার দেওয়ার একটি ব্যবহারিক স্মরণী।",
+        "seo_question": "শয়তান অবহেলিত ব্যক্তিকে তওবা ও মৃত্যু সম্পর্কে কীভাবে প্রতারণা করে?",
+        "key_terms": {
+          "تَوْبَتَهُ": "তার তওবা",
+          "شَهْوَتَهُ": "তার ইচ্ছা/আকাঙ্ক্ষা",
+          "أَجَلَهُ": "তার মৃত্যু/সময়সীমা",
+          "مَنِيَّتُهُ": "তার মৃত্যু",
+          "غَفْلَةٍ": "অবহেলা/উপেক্ষা",
+          "الشِّقْوَةِ": "দুর্দশা/কষ্ট"
+        }
+      },
+      "es": {
+        "summary": "El Imam Ali (AS) destaca la naturaleza engañosa de la vida mundana y la estrategia de Satanás de posponer, instando al arrepentimiento inmediato antes de que la muerte llegue inesperadamente. Este pasaje subraya el énfasis chií en la *ghaflah* (descuido) como la raíz del declive espiritual, advirtiendo que la esperanza de vida se convierte en un testigo contra uno si no se utiliza para la devoción. Sirve como un recordatorio práctico para priorizar la preparación espiritual sobre las distracciones mundanas.",
+        "seo_question": "¿Cómo engaña Satanás a la persona negligente respecto al arrepentimiento y la muerte?",
+        "key_terms": {
+          "تَوْبَتَهُ": "su arrepentimiento",
+          "شَهْوَتَهُ": "su deseo",
+          "أَجَلَهُ": "su muerte/plazo",
+          "مَنِيَّتُهُ": "su muerte",
+          "غَفْلَةٍ": "descuido/insensibilidad",
+          "الشِّقْوَةِ": "desdicha/sufrimiento"
+        }
+      },
+      "fr": {
+        "summary": "L'imam Ali (AS) met en lumière le caractère trompeur de la vie mondaine et la stratégie de procrastination du diable, exhortant à un repentir immédiat avant que la mort ne frappe de manière inattendue. Ce passage souligne l'accent mis par les Chiites sur la *ghaflah* (insouciance) comme racine du déclin spirituel, avertissant que la durée de vie d'une personne devient un témoin contre elle si elle n'est pas utilisée pour la dévotion. Il sert de rappel pratique pour privilégier la préparation spirituelle aux distractions mondaines.",
+        "seo_question": "Comment le diable trompe-t-il l'homme négligent concernant le repentir et la mort ?",
+        "key_terms": {
+          "تَوْبَتَهُ": "son repentir",
+          "شَهْوَتَهُ": "son désir",
+          "أَجَلَهُ": "sa mort/échéance",
+          "مَنِيَّتُهُ": "sa mort",
+          "غَفْلَةٍ": "négligence/insouciance",
+          "الشِّقْوَةِ": "malheur/souffrance"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (AS) hebt die täuschende Natur des weltlichen Lebens und die Strategie Satans der Prokrastination hervor und mahnt zur sofortigen Reue, bevor der Tod unerwartet zuschlägt. Dieser Abschnitt unterstreicht die schiitische Betonung von *Ghaflah* (Unachtsamkeit) als Wurzel des geistigen Verfalls und warnt davor, dass die eigene Lebensspanne zum Zeugen gegen einen wird, wenn sie nicht für die Hingabe genutzt wird. Es dient als praktische Erinnerung, die spirituelle Vorbereitung vor weltlichen Ablenkungen zu priorisieren.",
+        "seo_question": "Wie täuscht Satan den Nachlässigen bezüglich der Reue und dem Tod?",
+        "key_terms": {
+          "تَوْبَتَهُ": "seine Reue",
+          "شَهْوَتَهُ": "sein Verlangen",
+          "أَجَلَهُ": "sein Tod",
+          "مَنِيَّتُهُ": "sein Tod",
+          "غَفْلَةٍ": "Nachlässigkeit",
+          "الشِّقْوَةِ": "Unglück"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (А) подчеркивает обманчивую природу мирской жизни и стратегию промедления сатана, призывая к немедленному покаянию, пока смерть не настигнет внезапно. Этот отрывок подчеркивает шиитский акцент на *гафля* (небрежности) как корне духовного упадка, предупреждая, что срок жизни станет свидетельством против человека, если он не будет использован для преданности. Это служит практическим напоминанием о том, чтобы отдавать приоритет духовной подготовке, а не мирским отвлечениям.",
+        "seo_question": "Как сатан обманывает небрежного человека относительно покаяния и смерти?",
+        "key_terms": {
+          "تَوْبَتَهُ": "его покаяние",
+          "شَهْوَتَهُ": "его желание",
+          "أَجَلَهُ": "его срок смерти",
+          "مَنِيَّتُهُ": "его смерть",
+          "غَفْلَةٍ": "небрежность",
+          "الشِّقْوَةِ": "несчастье"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）强调了世俗生活的欺骗性以及撒旦拖延的策略，敦促人们在死亡突然来临之前立即忏悔。这段经文突出了什叶派强调的 *ghaflah*（疏忽大意）作为精神衰退的根源，并警告说，如果一个人的寿命未被用于虔诚敬拜，它将成为反对他的见证。这作为一个实际的提醒，让人们优先考虑精神准备而非世俗的干扰。",
+        "seo_question": "撒旦如何欺骗疏忽大意的人关于忏悔和死亡？",
+        "key_terms": {
+          "تَوْبَتَهُ": "他的忏悔",
+          "شَهْوَتَهُ": "他的欲望",
+          "أَجَلَهُ": "他的死期",
+          "مَنِيَّتُهُ": "他的死亡",
+          "غَفْلَةٍ": "疏忽大意",
+          "الشِّقْوَةِ": "苦难"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "39:53",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "7:15",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:54",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "73:20",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "فَاتَّقِ اللَّهَ نَصَحَ نَفْسَهُ، قَدَّمَ تَوْبَتَهُ، غَلَبَ شَهْوَتَهُ، فَإِنَّ أَجَلَهُ مَسْتُورٌ عَنْهُ، وَأَمَلَهُ خَادِعٌ لَهُ، وَالشَّيْطَانُ مُوَكَّلٌ بِهِ، يُزَيِّنُ لَهُ الْمَعْصِيَةَ لِيَرْكَبَهَا، وَيُمَنِّيهِ التَّوْبَةَ لِيُسَوِّفَهَا حَتَّى تَهْجُمَ مَنِيَّتُهُ عَلَيْهِ أَغْفَلَ مَا يَكُونُ عَنْهَا. فَيَالَهَا حَسْرَةً عَلَى كُلِّ ذِي غَفْلَةٍ أَنْ يَكُونَ عُمُرُهُ عَلَيْهِ حُجَّةً، وَأَنْ تُؤَدِّيَهُ أَيَّامُهُ إِلَى الشِّقْوَةِ!",
+    "isnad_matn": {
+      "isnad_ar": "فَاتَّقَىْ عَبْدٌ رَبِّهُ، نَصَحَ نَفْسَهُ، قَدَّمَ تَوْبَتَهُ، غَلَبَ شَهْوَتَهُ، فَإِنَّ أَجَلَهُ مَسْتُورٌ عَنْهُ، وَأَمَلَهُ خَادِعٌ لَهُ، والشَّيْطَانُ مُوَكَّلٌ بِه، يُزَيِّنُ لَهُ الْمَعْصِيَةَ لِيَرْكَبَهَا، وَيُمَنِّيهِ التَّوْبَةَ لِيُسَوِّفَهَا حتّى تَهْجُم مَنِيَّتُهُ عَلَيْهِ أَغْفَلَ مَا يَكُونُ عَنْهَا. فَي",
+      "matn_ar": "فَاتَّقِ اللَّهَ نَصَحَ نَفْسَهُ، قَدَّمَ تَوْبَتَهُ، غَلَبَ شَهْوَتَهُ، فَإِنَّ أَجَلَهُ مَسْتُورٌ عَنْهُ، وَأَمَلَهُ خَادِعٌ لَهُ، وَالشَّيْطَانُ مُوَكَّلٌ بِهِ، يُزَيِّنُ لَهُ الْمَعْصِيَةَ لِيَرْكَبَهَا، وَيُمَنِّيهِ التَّوْبَةَ لِيُسَوِّفَهَا حَتَّى تَهْجُمَ مَنِيَّتُهُ عَلَيْهِ أَغْفَلَ مَا يَكُونُ عَنْهَا. فَيَالَهَا حَسْرَةً عَلَى كُلِّ ذِي غَفْلَةٍ أَنْ يَكُونَ عُمُرُهُ عَلَيْهِ حُجَّةً، وَأَنْ تُؤَدِّيَهُ أَيَّامُهُ إِلَى الشِّقْوَةِ!",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "فاتقى عبد ربه، نصح نفسه، قدم توبته، غلب شهوته، فإن أجله مستور عنه، وأمله خادع له، والشيطان موكل به، يزين له المعصية ليركبها، ويمنيه التوبة ليسوفها حتى تهجم منيته عليه أغفل ما يكون عنها. في",
+          "name_en": "Fattaqi 'Abd Rabbih, Nasah Nafsah, Qaddam Tawbatih, Ghalib Shahwatih, Fa-inna Ajlah Mustawar 'Anhu, wa-Amaluhu Khadi' Lahu, wa-al-Shaytan Muwalla Bih, Yuzayyin Lahu al-Ma'siyah Li-Yarkabaha, wa-Yumanihi al-Tawbah Li-Yaswifaha Hatta Tahjam Minniyatuhu 'Alayhi Aghfal Ma Yakun 'Anha. Fi",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,5 +1,237 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:17:2",
-  "phase1_raw": "{\n  \"has_chain\": false,\n  \"tags\": [\n    \"jurisprudence\",\n    \"social_relations\",\n    \"governance\",\n    \"ethics\"\n  ],\n  \"content_type\": \"narrative\",\n  \"chunks\": [\n    {\n      \"chunk_type\": \"opening\",\n      \"arabic_text\": \"وَ رُوِيَ: \\\"أَنَّ رَجُلًا جَاءَ بِرَجُلٍ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ إِنَّ هَذَا زَعَمَ أَنَّهُ احْتَلَمَ بِأُمِّي\",\n      \"translations\": {\n        \"en\": \"And it has been narrated: “A man brought another man to Amīr al-Muʾminīn عليه السلام and said: ‘O Amīr al-Muʾminīn, this man has claimed that he had a wet dream involving my mother.’”\n      }\n    },\n    {\n      \"chunk_type\": \"body\",\n      \"arabic_text\": \"فَقَالَ \\\"إِنَّ الْحُلُمَ بِمَنْزِلَةِ الظِّلِّ فَإِنْ شِئْتَ جَلَدْتُ لَكَ ظِلَّهُ\\\"\",\n      \"translations\": {\n        \"en\": \"So he said: “Indeed, the dream is like a shadow; if you wish, I will flog his shadow for you.”\"\n      }\n    },\n    {\n      \"chunk_type\": \"closing\",\n      \"arabic_text\": \"ثُمَّ قَالَ عَلَيْهِ السَّلَامُ \\\"لَكِنِّي أُوجِعُهُ لِئَلَّا يَعُودَ يُؤْذِي الْمُسْلِمِينَ\\\" \\\".\",\n      \"translations\": {\n        \"en\": \"Then he عليه السلام said: “But I will punish him so that he does not return to harming the Muslims.”\"\n      }\n    }\n  ],\n  \"translations\": {\n    \"en\": {\n      \"summary\": \"This report recounts a case brought before Amīr al-Muʾminīn عليه السلام concerning an offensive claim about a dream. He responds by distinguishing dreams from actionable realities, while still ordering disciplinary punishment to prevent harm and offense toward Muslims. The narration highlights judicial wisdom in balancing legal principle with public protection and deterrence.\",\n      \"seo_question\": \"How did Amīr al-Muʾminīn عليه السلام judge a case involving an offensive claim about a dream?\",\n      \"key_terms\": {\n        \"الْحُلُمَ\": \"a dream, specifically the claimed dream at issue in the case\",\n        \"بِمَنْزِلَةِ الظِّلِّ\": \"like a shadow; something without tangible legal substance in itself\",\n        \"جَلَدْتُ\": \"I would flog; a reference to corporal punishment\",\n        \"أُوجِعُهُ\": \"I will inflict pain on him; meaning to discipline or punish him\",\n        \"يُؤْذِي الْمُسْلِمِينَ\": \"he harms the Muslims; causing offense or injury to others\"\n      }\n    }\n  },\n  \"related_quran\": [\n    {\n      \"ref\": \"33:58\",\n      \"relationship\": \"thematic\"\n    },\n    {\n      \"ref\": \"4:148\",\n      \"relationship\": \"thematic\"\n    }\n  ],\n  \"topics\": [\n    \"judicial_rulings\",\n    \"justice_system\",\n    \"rights_of_others\",\n    \"halal_haram\"\n  ]\n}",
-  "parse_error": "Invalid control character at: line 15 column 199 (char 617)"
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='opening' starts with chain transmission verb 'روي' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "social_relations",
+      "governance"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "judicial_rulings",
+      "rights_of_others",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَرُوِيَ",
+        "translations": {
+          "en": "And it has been narrated",
+          "ur": "اور روایت ہے کہ",
+          "tr": "Ve rivayet edilmiştir:",
+          "fa": "و روایت شده است",
+          "id": "Dan telah diriwayatkan",
+          "bn": "এবং বর্ণিত হয়েছে",
+          "es": "Y ha sido narrado",
+          "fr": "Et il a été rapporté",
+          "de": "Und es wurde überliefert:",
+          "ru": "И передано,",
+          "zh": "且已传述"
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَنَّ رَجُلًا جَاءَ بِرَجُلٍ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ إِنَّ هَذَا زَعَمَ أَنَّهُ احْتَلَمَ بِأُمِّي فَقَالَ \"إِنَّ الْحُلُمَ بِمَنْزِلَةِ الظِّلِّ فَإِنْ شِئْتَ جَلَدْتُ لَكَ ظِلَّهُ\" ثُمَّ قَالَ عَلَيْهِ السَّلَامُ \"لَكِنِّي أُوجِعُهُ لِئَلَّا يَعُودَ يُؤْذِيَ الْمُسْلِمِينَ\"",
+        "translations": {
+          "en": "that a man brought another man to the Commander of the Faithful (peace be upon him) and said: 'O Commander of the Faithful, this man claimed that he had a wet dream involving my mother.' He (as) said: 'A dream is like a shadow; if you wish, I will flog his shadow for you.' Then he (as) said: 'However, I will punish him so that he does not return to harming the Muslims.'",
+          "ur": "کہ ایک آدمی نے امیر المؤمنین (علیہ السلام) کے پاس ایک شخص کو لایا اور کہا: اے امیر المؤمنین! اس شخص نے دعویٰ کیا کہ اس کی ماں کے ساتھ اس کا احتلام ہوا۔ آپ (علیہ السلام) نے فرمایا: خواب سایہ کی مانند ہے؛ اگر چاہو تو میں اس کا سایہ تمہارے لیے کوڑے ماروں گا۔ پھر آپ (علیہ السلام) نے فرمایا: البتہ، میں اسے سزا دوں گا تاکہ وہ مسلمانوں کو نقصان پہنچانے سے باز رہے۔",
+          "tr": "Bir adam, Müminlerin Emiri'ni (aleyhi's-selam) huzuruna bir adamı getirip: 'Ey Müminlerin Emiri, bu adam annemle birlikte rüyasında cünüplük yaşadığını iddia etti.' (as) buyurdu ki: 'Rüya bir gölgedir; istersen senin için onun gölgesini dövdürürüm.' Sonra (as) buyurdu ki: 'Ancak ben onu, Müslümanlara zarar vermemesi için cezalandıracağım.'",
+          "fa": "که مردی مردی را به فرماندهٔ مؤمنان (علیه‌السلام) آورد و گفت: «ای فرماندهٔ مؤمنان، این مرد ادعا کرد که با مادر من خواب مرده دیده است.» او (علیه‌السلام) فرمود: «خواب مانند سایه است؛ اگر بخواهی، سایه‌ه‌اش را برایت شلاق می‌زنم.» سپس فرمود: «با این حال، او را مجازات می‌کنم تا دیگر به آزار مسلمانان بازنگردد.»",
+          "id": "Bahwa seorang laki-laki membawa seorang laki-laki lain kepada Amirul Mukminin (shalatullahi alaihi) dan berkata, 'Wahai Amirul Mukminin, laki-laki ini mengaku bahwa ia mengalami mimpi basah yang melibatkan ibuku. Ia (as) berkata, 'Mimpi itu seperti bayangan; jika kau mau, aku akan mencambuk bayangannya untukmu.' Kemudian ia (as) berkata, 'Namun, aku akan menghukumnya agar ia tidak kembali menyakiti kaum Muslimin.'",
+          "bn": "একজন ব্যক্তি ফুযুলের আমীর (আ.)-কে এক ব্যক্তিকে নিয়ে এলেন এবং বললেন, 'হে ফুযুলের আমীর, এই ব্যক্তি দাবি করল যে, তার মা-এর সাথে তার একটি ঘুমের স্বপ্ন (মুস্তাযা) হয়েছে।' তিনি (আ.) বললেন, 'স্বপ্ন একটি ছায়ার মতো; যদি তোমার ইচ্ছা হয়, তবে আমি তোমার জন্য তার ছায়াকে কুপে মারব।' অতঃপর তিনি (আ.) বললেন, 'তবে আমি তাকে শাস্তি দেব, যাতে সে মুসলমানদের ক্ষতি করতে আবার ফিরে না আসে।'",
+          "es": "que un hombre trajo a otro hombre ante el Comandante de los Creyentes (que la paz sea con él) y dijo: «¡Oh Comandante de los Creyentes, este hombre afirmó que tuvo un sueño húmedo que involucraba a mi madre!». Él (as) dijo: «El sueño es como una sombra; si quieres, azotaré su sombra por ti». Luego él (as) dijo: «Sin embargo, lo castigaré para que no vuelva a perjudicar a los musulmanes».",
+          "fr": "qu'un homme amena un autre homme devant le Commandeur des Croyants (que la paix soit sur lui) et dit : « Ô Commandeur des Croyants, cet homme a affirmé qu'il avait eu un rêve humide impliquant ma mère. » Il (as) dit : « Le rêve est comme une ombre ; si tu le souhaites, je fouetterai son ombre pour toi son ombre. » Puis il (as) dit : « Cependant, je le châtierai afin qu'il ne revienne pas nuire aux musulmans. »",
+          "de": "Dass ein Mann einen anderen Mann zum Kommandeur der Gläubigen (Friede sei mit ihm) brachte und sagte: „O Kommandeur der Gläubigen, dieser Mann behauptete, er habe einen Traumsaft (Al-Mani) mit meiner Mutter gehabt.“ Er (as) sagte: „Ein Traum ist wie ein Schatten; wenn du willst, werde ich seinen Schatten für dich auspeitschen.“ Dann sagte er (as): „Jedoch werde ich ihn bestrafen, damit er nicht wieder den Muslimen schadet.“",
+          "ru": "Один человек привел к Повелителю верующих (да будет мир с ним) и сказал: «О Повелитель верующих, этот человек утверждал, что видел видение, в котором его мать участвовала в поллюции». Он (да будет мир с ним) сказал: «Видение подобно тени; если хочешь, я наказу его тень». Затем он (да будет мир с ним) сказал: «Однако я накажу его, чтобы он не возвращался к причинению вреда мусульманам».",
+          "zh": "一人带另一人到信德之长（愿主喜悦之）面前，说：‘信德之长啊，这人声称他梦遗时涉及我的母亲。’他（愿主喜悦之）说：‘梦如影，若你愿意，我便为你鞭打他的影。’随后他（愿主喜悦之）说：‘然而，我将惩罚他，使他不再伤害穆斯林。’"
+        },
+        "word_start": 1,
+        "word_end": 40
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this rare legal precedent from *Man La Yahduruhu al-Faqih*, Imam Ali (as) employs the metaphor of the shadow (*al-zill*) to illustrate the intangible nature of dreams, humorously suggesting that since the dreamer is the 'shadow' of the act, he could theoretically be punished for the shadow itself. However, moving beyond mere legal technicality, he opts for physical chastisement (*jald*) to serve as a practical deterrent (*li-al-la an ya'uda*), ensuring the individual ceases to disturb the community. This highlights the Shia jurisprudential balance between strict logical deduction and the broader objective of public welfare (*maslaha*).",
+        "seo_question": "What is the legal and social ruling regarding a man claiming a wet dream involving another man's mother in Shia jurisprudence?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commander of the Faithful",
+          "احْتَلَمَ": "had a wet dream",
+          "الْحُلُم": "dream (specifically wet dream)",
+          "الظِّل": "shadow",
+          "جَلَدَ": "to flog",
+          "أَوْجَعَ": "to cause pain/punish",
+          "الْمُسْلِمِينَ": "the Muslims"
+        }
+      },
+      "ur": {
+        "summary": "امام علیؑ نے من لا یحضرہ الفقیہ میں ایک نادر فقہی مثال پیش کی جہاں انہوں نے خواب کی غیر مادی نوعیت کو واضح کرنے کے لیے سایہ (الظل) کی مثال دی ہے۔ انہوں نے مزاحیہ انداز میں یہ تجویز پیش کی کہ چونکہ خواب دیکھنے والا عمل کا 'سایہ' ہے، اس لیے نظریاتی طور پر اسے خود سایہ کے لیے سزا دی جا سکتی ہے۔ تاہم، محض فقہی تکنیکی سے آگے بڑھتے ہوئے، انہوں نے عملی روک تھام (لیعلی ان یعود) کے لیے جسمانی سزا (جلد) کا انتخاب کیا تاکہ شخص کو برادری کو پریشان کرنے سے روکا جا سکے۔ یہ شیعہ فقہ میں سخت منطقی استدلال اور عوامی بہبود (مصلحہ) کے وسیع مقصد کے درمیان توازن کو اجاگر کرتا ہے۔",
+        "seo_question": "شیعہ فقہ میں ایک شخص کا دعویٰ کرنا کہ اسے کسی دوسرے شخص کی ماں کے ساتھ نیند میں منی خارج ہوئی، اس کا فقہی اور سماجی حکم کیا ہے؟",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "امیر المؤمنین",
+          "احْتَلَمَ": "احتلم",
+          "الْحُلُم": "حلم",
+          "الظِّل": "سایہ",
+          "جَلَدَ": "جلد کرنا",
+          "أَوْجَعَ": "درد یا سزا دینا",
+          "الْمُسْلِمِينَ": "مسلمان"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (as), *Men La Yahduruhu'l-Fakih* adlı nadir bir hukuk metninde, rüyaların soyut doğasını açıklamak için gölge (*ez-zill*) metaforunu kullanır; rüya görenin eylemin 'gölgesi' olduğu için teorik olarak gölge nedeniyle cezalandırılabileceğini mizahi bir dille ima eder. Ancak sadece hukuki bir tekniklikte kalmayıp, kişinin toplumu rahatsız etmemesini sağlamak için pratik bir caydırıcılık (*li'l-ala en ya'uda*) işlevi görecek şekilde fiziksel darp (*celd*) yöntemini seçer. Bu durum, Şii hukukunda katı mantıksal çıkarım ile geniş kamu yararı (*maslaha*) hedefi arasındaki dengeyi vurgular.",
+        "seo_question": "Şii hukukunda bir erkeğin başka bir erkeğin annesiyle ilgili rüyasını gördüğünü iddia etmesi durumunda hukuki ve sosyal hüküm nedir?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "Emirü'l-Müminin",
+          "احْتَلَمَ": "rüyâ gördü",
+          "الْحُلُم": "rüya (özellikle rüya)",
+          "الظِّل": "gölge",
+          "جَلَدَ": "dövmek",
+          "أَوْجَعَ": "acıtacak ceza vermek",
+          "الْمُسْلِمِينَ": "Müslümanlar"
+        }
+      },
+      "fa": {
+        "summary": "در این پیشینه حقوقی نادر از کتاب *من لا یحضره الفقیه*، امام علی (ع) از استعاره سایه (*الظِّل*) برای نشان دادن ماهیت نامشهود رویاها استفاده می‌کند و با طنز به طور طنزآمیز پیشنهاد می‌دهد که از آنجا که بیننده رویا «سایه» عمل است، می‌تواند از نظر تئوریک برای خودِ سایه مجازات شود. با این حال، او فراتر از یک تشریفات حقوقی صرف، تنبیه بدنی (*جلد*) را برای ایجاد بازدارندگی عملی (*لی‌علّ*) انتخاب می‌کند تا مطمئن شود فرد دیگر جامعه را آزار نمی‌دهد. این امر تعادل فقه شیعه بین استنتاج منطقی دقیق و هدف گسترده‌تر مصلحت عمومی (*مصالحه*) را برجسته می‌کند.",
+        "seo_question": "حکم حقوقی و اجتماعی در مورد مردی که ادعا می‌کند در خواب با مادر مرد دیگری رابطه داشته است، در فقه شیعه چیست؟",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "امیرالمؤمنین",
+          "احْتَلَمَ": "احتلام",
+          "الْحُلُم": "حلم",
+          "الظِّل": "سایه",
+          "جَلَدَ": "جلد کردن",
+          "أَوْجَعَ": "ضرب زدن/تنبیه کردن",
+          "الْمُسْلِمِينَ": "مسلمانان"
+        }
+      },
+      "id": {
+        "summary": "Dalam preseden hukum langka dari *Man La Yahduruhu al-Faqih*, Imam Ali (as) menggunakan metafora bayangan (*al-zill*) untuk menggambarkan sifat tak berwujud dari mimpi, dengan humoris menyarankan bahwa karena pemimpi adalah 'bayangan' dari tindakan tersebut, ia secara teoritis dapat dihukum karena bayangan itu sendiri. Namun, melampaui teknis hukum semata, ia memilih hukuman fisik (*jald*) sebagai pencegah praktis (*li-al-la an ya'uda*), memastikan individu tersebut berhenti mengganggu komunitas. Ini menyoroti keseimbangan jurisprudensi Syiah antara deduksi logis yang ketat dan tujuan luas kesejahteraan publik (*maslaha*).",
+        "seo_question": "Apa hukum dan ketentuan sosial mengenai seorang pria yang mengklaim mimpi basah melibatkan ibu pria lain dalam jurisprudensi Syiah?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "Pemimpin Orang Beriman",
+          "احْتَلَمَ": "mimpi basah",
+          "الْحُلُم": "mimpi (khususnya mimpi basah)",
+          "الظِّل": "bayangan",
+          "جَلَدَ": "memukul",
+          "أَوْجَعَ": "menyebabkan sakit/menghukum",
+          "الْمُسْلِمِينَ": "orang-orang Muslim"
+        }
+      },
+      "bn": {
+        "summary": "মান লা ইয়াহদুরুহুল ফাকিহ থেকে নেওয়া এই বিরল আইনি প্রেক্ষাপটে, ইমাম আলী (আস) স্বপ্নের অদৃশ্য প্রকৃতি বোঝাতে ছায়ার (আল-জিল) উপমা ব্যবহার করেছেন, হাস্যরসাত্মকভাবে suggesting করেছেন যে যেহেতু স্বপ্নদ্রষ্টা হলো কাজের 'ছায়া', তিনি তাত্ত্বিকভাবে ছায়াটির জন্যই শাস্তি পেতে পারেন। তবে কেবল আইনি কৌশলগত দিকের বাইরে গিয়ে, তিনি ব্যবহারিক প্রতিরোধমূলক পদক্ষেপ (লি-আল-লা আন ইয়াউদা) নিশ্চিত করার জন্য শারীরিক শাস্তি (জলদ) বেছে নিয়েছেন, যাতে ব্যক্তিটি সম্প্রদায়কে বিরক্ত করা বন্ধ করে দেয়। এটি শিয়া ফিকহের কঠোর যৌক্তিক অনুমান এবং জনকল্যাণের (মাসলাহা) ব্যাপক উদ্দেশ্যের মধ্যে ভারসাম্যকে তুলে ধরে।",
+        "seo_question": "শিয়া ফিকহে এমন একজন পুরুষের আইনি ও সামাজিক রuling কী যিনি দাবি করেন যে তাঁর একটি শুকর স্বপ্ন (wet dream) অন্য পুরুষের মায়ের সাথে ঘটেছে?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "বিশ্বাসের নেতা",
+          "احْتَلَمَ": "শুকর স্বপ্ন দেখা",
+          "الْحُلُم": "স্বপ্ন (বিশেষ করে শুকর স্বপ্ন)",
+          "الظِّل": "ছায়া",
+          "جَلَدَ": "ফাঁকা মারা",
+          "أَوْجَعَ": "ব্যথা দেওয়া/শাস্তি দেওয়া",
+          "الْمُسْلِمِينَ": "মুসলমানগণ"
+        }
+      },
+      "es": {
+        "summary": "En este raro precedente legal de *Man La Yahduruhu al-Faqih*, el Imam Alí (as) emplea la metáfora de la sombra (*al-zill*) para ilustrar la naturaleza intangible de los sueños, sugiriendo con humor que, dado que el soñador es la 'sombra' del acto, teóricamente podría ser castigado por la sombra misma. Sin embargo, yendo más allá de la mera técnica legal, opta por el castigo físico (*jald*) como disuasivo práctico (*li-al-la an ya'uda*), asegurando que el individuo deje de molestar a la comunidad. Esto destaca el equilibrio jurisprudencial chií entre la deducción lógica estricta y el objetivo más amplio del bienestar público (*maslaha*).",
+        "seo_question": "¿Cuál es la disposición legal y social respecto a un hombre que afirma tener un sueño húmedo con la madre de otro hombre en la jurisprudencia chií?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "Comandante de los Creyentes",
+          "احْتَلَمَ": "tuvo un sueño húmedo",
+          "الْحُلُم": "sueño (específicamente sueño húmedo)",
+          "الظِّل": "sombra",
+          "جَلَدَ": "azotar",
+          "أَوْجَعَ": "causar dolor/castigar",
+          "الْمُسْلِمِينَ": "los musulmanes"
+        }
+      },
+      "fr": {
+        "summary": "Dans ce précédent juridique rare tiré de *Man La Yahduruhu al-Faqih*, l'Imam Ali (as) utilise la métaphore de l'ombre (*al-zill*) pour illustrer la nature intangible des rêves, suggérant avec humour que puisque le rêveur est l'« ombre » de l'acte, il pourrait théoriquement être puni pour l'ombre elle-même. Cependant, allant au-delà de la simple technique juridique, il opte pour le châtiment corporel (*jald*) comme dissuasion pratique (*li-al-la an ya'uda*), assurant ainsi que l'individu cesse de perturber la communauté. Cela met en lumière l'équilibre de la jurisprudence chiite entre la déduction logique stricte et l'objectif plus large du bien public (*maslaha*).",
+        "seo_question": "Quelle est la décision juridique et sociale concernant un homme qui affirme avoir eu un rêve humide impliquant la mère d'un autre homme dans la jurisprudence chiite ?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commandeur des Croyants",
+          "احْتَلَمَ": "a eu un rêve humide",
+          "الْحُلُم": "rêve (spécifiquement rêve humide)",
+          "الظِّل": "ombre",
+          "جَلَدَ": "fouetter",
+          "أَوْجَعَ": "causer de la douleur / punir",
+          "الْمُسْلِمِينَ": "les musulmans"
+        }
+      },
+      "de": {
+        "summary": "In diesem seltenen Rechtspräzedenzfall aus *Man La Yahduruhu al-Faqih* nutzt Imam Ali (as) die Metapher des Schattens (*al-zill*), um die Intangibilität von Träumen zu veranschaulichen, und schlägt humorvoll vor, dass der Träumer, da er der ‚Schatten‘ der Handlung ist, theoretisch für den Schatten selbst bestraft werden könnte. Über die bloße rechtliche Technik hinaus entscheidet er sich jedoch für eine körperliche Züchtigung (*jald*), um als praktische Abschreckung (*li-al-la an ya'uda*) zu dienen und sicherzustellen, dass die Person die Gemeinschaft nicht weiter stört. Dies unterstreicht das schiitische juristische Gleichgewicht zwischen strenger logischer Deduktion und dem übergeordneten Ziel des öffentlichen Wohls (*maslaha*).",
+        "seo_question": "Wie lautet das rechtliche und soziale Urteil in der schiitischen Jurisprudenz, wenn ein Mann behauptet, einen Traumsamenverlust (Wet Dream) mit der Mutter eines anderen Mannes gehabt zu haben?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "Führer der Gläubigen",
+          "احْتَلَمَ": "hatte einen Traumsamenverlust",
+          "الْحُلُم": "Traum (speziell Traumsamenverlust)",
+          "الظِّل": "Schatten",
+          "جَلَدَ": "geißeln",
+          "أَوْجَعَ": "Schmerz verursachen/bestrafen",
+          "الْمُسْلِمِينَ": "die Muslime"
+        }
+      },
+      "ru": {
+        "summary": "В этом редком правовом прецеденте из книги «Ман ля йахдуруху аль-факих» Имама Али (мир ему) использует метафору тени (*аз-зиль*), чтобы проиллюстрировать нематериальную природу сновидений, с юмором предполагая, что поскольку сновидец является «тенью» действия, его теоретически можно наказать за саму тень. Однако, выходя за рамки чистой юридической техничности, он выбирает физическое наказание (*джальд*) в качестве практического сдерживающего фактора (*ли-аль-ла ан я’уда*), чтобы человек перестал беспокоить общину. Это подчеркивает шиитский баланс между строгим логическим выводом и более широкой целью общественного блага (*маслаха*).",
+        "seo_question": "Каков правовой и социальный вердикт в отношении мужчины, утверждающего, что у него было поллюция с матерью другого человека, согласно шиитскому фикху?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "Повелитель верующих",
+          "احْتَلَمَ": "испытал поллюцию",
+          "الْحُلُم": "сновидение (в частности, поллюция)",
+          "الظِّل": "тень",
+          "جَلَدَ": "бить плетьми",
+          "أَوْجَعَ": "причинить боль/наказать",
+          "الْمُسْلِمِينَ": "мусульмане"
+        }
+      },
+      "zh": {
+        "summary": "在《法基赫不在场者》中记载的罕见法律先例中，伊玛目阿里（愿主福安之）运用“影子”（al-zill）的隐喻来阐释梦境的无形性质，幽默地指出既然做梦者是行为的“影子”，理论上他本应因影子本身而受罚。然而，超越单纯的法律技术层面，他选择体罚（jald）作为一种实际的威慑手段（li-al-la an ya'uda），以确保该个体不再扰乱社区。这凸显了什叶派法学在严格逻辑推导与更广泛的公共利益（maslaha）目标之间的平衡。  在什叶派法学中，关于一名男子声称梦见与另一男子的母亲发生梦遗，其法律和社会裁决是什么？  [",
+        "seo_question": "在什叶派法学中，关于一名男子声称梦见与另一男子的母亲发生梦遗，其法律和社会裁决是什么？",
+        "key_terms": {
+          "أَمِيرُ الْمُؤْمِنِينَ": "信士长官",
+          "احْتَلَمَ": "梦遗",
+          "الْحُلُم": "梦（特指梦遗）",
+          "الظِّل": "影子",
+          "جَلَدَ": "鞭打",
+          "أَوْجَعَ": "使疼痛/惩罚",
+          "الْمُسْلِمِينَ": "穆斯林"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:286",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَرُوِيَ أَنَّ رَجُلًا جَاءَ بِرَجُلٍ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ إِنَّ هَذَا زَعَمَ أَنَّهُ احْتَلَمَ بِأُمِّي فَقَالَ \"إِنَّ الْحُلُمَ بِمَنْزِلَةِ الظِّلِّ فَإِنْ شِئْتَ جَلَدْتُ لَكَ ظِلَّهُ\" ثُمَّ قَالَ عَلَيْهِ السَّلَامُ \"لَكِنِّي أُوجِعُهُ لِئَلَّا يَعُودَ يُؤْذِيَ الْمُسْلِمِينَ\"",
+    "isnad_matn": {
+      "isnad_ar": "",
+      "matn_ar": "وَرُوِيَ أَنَّ رَجُلًا جَاءَ بِرَجُلٍ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ إِنَّ هَذَا زَعَمَ أَنَّهُ احْتَلَمَ بِأُمِّي فَقَالَ \"إِنَّ الْحُلُمَ بِمَنْزِلَةِ الظِّلِّ فَإِنْ شِئْتَ جَلَدْتُ لَكَ ظِلَّهُ\" ثُمَّ قَالَ عَلَيْهِ السَّلَامُ \"لَكِنِّي أُوجِعُهُ لِئَلَّا يَعُودَ يُؤْذِيَ الْمُسْلِمِينَ\"",
+      "has_chain": false,
+      "narrators": []
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
 }

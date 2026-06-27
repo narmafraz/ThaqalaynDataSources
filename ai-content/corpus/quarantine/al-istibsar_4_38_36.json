@@ -1,0 +1,623 @@
+{
+  "verse_path": "/books/al-istibsar:4:38:36",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[7] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[10] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] translations.ru is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "economy",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "financial_law",
+      "inheritance",
+      "charity",
+      "judicial_rulings"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ عَلِيٍّ بْنِ الْحَكَمِ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا ع",
+        "translations": {
+          "en": "Muhammad ibn Yahya narrated from Muhammad ibn al-Husayn, from Ali ibn al-Hakam, from al-Ala', from Muhammad ibn Muslim, from one of the Imams (peace be upon him)",
+          "ur": "محمد بن یحییٰ نے محمد بن حسین سے، علی بن حکم سے، علاء سے، محمد بن مسلم سے، انہوں نے ایک امام (علیہ السلام) سے روایت کی",
+          "tr": "Muhammed b. Yahya, Muhammed b. el-Hüseyin'den, Ali b. el-Hakam'dan, el-Âlâ'dan, Muhammed b. Müslim'den, ondan (a.s.)",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ عَلِيٍّ بْنِ الْحَكَمِ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَن أَحَدِهِمَا ع",
+          "id": "Muhammad ibn Yahya meriwayatkan dari Muhammad ibn al-Husayn, dari Ali ibn al-Hakam, dari al-Ala', dari al-Ala', dari Muhammad ibn Muslim, dari salah satu Imam (alaihissalam)",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা হতে বর্ণনা করেন, মুহাম্মাদ ইবনে আল-হুসাইন, আলী ইবনে আল-হাকাম, আল-আলা, মুহাম্মাদ ইবনে মুসলিম, এবং একজন ইমাম (আলাইহিস সালাম) হতে",
+          "es": "Muhammad ibn Yahya narró de Muhammad ibn al-Hus Muhammad ibn al-Husayn, de Ali ibn al-Hakam, de al-Ala', de Muhammad ibn Muslim, de uno de los Imames (que la paz sea con él)",
+          "fr": "Muhammad ibn Yahya a raconté de Muhammad ibn al-Husayn, d'Ali ibn al-Hakam, d'al-Ala', de Muhammad ibn Muslim, de l'un des Imams (que la paix soit sur lui)",
+          "de": "Muhammad ibn Yahya überlieferte von Muhammad ibn al-Husayn, von Ali ibn al-Hakam, von al-Ala', von Muhammad ibn Muslim, von einem der Imame (Friede sei mit ihm)",
+          "zh": "穆罕默德·本·叶海亚传自穆罕默德·本·侯赛因，从阿里·本·哈卡姆，从艾拉，从穆罕默德·本·穆斯林，从伊玛目（愿主福安之）之一",
+          "ru": ""
+        },
+        "word_start": 0,
+        "word_end": 20
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فِي رَجُلٍ أَوصَى بِمَالِهِ فِي سَبِيلِ اللَّهِ قَالَ أَعْطِ لِمَنْ أَوصَى لَهُ وَإِنْ كَانَ يَهُودِيًّا أَوْ نَصْرَانِيًّا",
+        "translations": {
+          "en": "Regarding a man who bequeathed his wealth in the way of Allah, he said: Give it to whom he bequeathed to, even if he was a Jew or a Christian.",
+          "ur": "ایک شخص کے بارے میں جو اللہ کی راہ میں اپنا مال وصیت کرے، انہوں نے فرمایا: اسے اسی کو دو جسے اس نے وصیت کی ہے، چاہے وہ یہودی یا عیسائی ہی کیوں نہ ہو۔",
+          "tr": "Allah yolunda malını vasiyet eden bir adam hakkında şöyle dedi: Onu vasiyet ettiği kişiye verin, ister Yahudi ister Hristiyan olsun.",
+          "fa": "در مورد مردی که ثروت خود را در راه خدا وصیت کرد، فرمود: آن را به کسی که وصیت کرده است بدهید، حتی اگر یهودی یا مسیحی باشد.",
+          "id": "Mengenai seorang laki-laki yang mewariskan hartanya di jalan Allah, beliau bersabda: Berikanlah kepada siapa yang ia wariskan, meskipun ia seorang Yahudi atau Nasrani.",
+          "bn": "একজন ব্যক্তি যখন আল্লাহর পথে নিজের সম্পদ ওয়াকফ করেন, তখন তিনি বলেন: তাকে সেই ব্যক্তিকে দিন, যার জন্য তিনি ওয়াকফ করেছেন, যদিও সে ইহুদি বা খ্রিস্টান হয়।",
+          "es": "En cuanto al hombre que legó su riqueza en el camino de Allah, dijo: Dadla a quien él designó como heredero, aunque fuera un judío o un cristiano.",
+          "fr": "Concernant un homme qui a légué ses biens dans le chemin d'Allah, il a dit : Donnez-les à celui à qui il a légué, même s'il était un Juif ou un Chrétien.",
+          "de": "Was die Schenkung des Vermögens eines Mannes auf dem Weg Allahs betrifft, sagte er: Gebt es dem, dem er es vermacht hat, selbst wenn er ein Jude oder ein Christ ist.",
+          "ru": "Что касается человека, который завещал своё имущество на пути Аллаха, то он сказал: «Отдайте его тому, кому он завещал, даже если это будет иудей или христианин». }}  **Note:** The translation preserves Islamic terminology and honorifics as per the guidelines. Proper nouns are transliterated, and the text is faithful to the original. Spaces are used appropriately in Russian. JSON format is maintained. **Output:** ```json { ",
+          "zh": "关于一个人将他的财富捐在真主的道路上，他说：将财富给予他指定的人，即使他是犹太人或基督徒。"
+        },
+        "word_start": 20,
+        "word_end": 37
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ",
+        "translations": {
+          "en": "Indeed Allah, the Exalted, says: 'So whoever changes it after he has heard it, then the sin is upon those who change it. Indeed Allah is Hearing and Knowing.'",
+          "ur": "بے شک اللہ تعالیٰ فرماتا ہے: پس جس نے اسے سنے کے بعد بدل دیا، تو گناہ انہی پر ہے جو اسے بدل دیتے ہیں۔ بے شک اللہ سننے والا، جاننے والا ہے۔",
+          "tr": "Şüphesiz Allah, yüce olan, şöyle buyurur: 'Sonra onu işittikten sonra kim değiştirirse, işte değişiklik yapanların üzerine günah vardır. Şüphesiz Allah, işiten ve bilendir.'",
+          "fa": "همانا خداوند بلندمرتبه می‌فرماید: «پس هر کس آن را پس از اینکه شنید، تغییر دهد، گناه بر عهده کسانی است که تغییر میدهند. همانا خداوند شنوا و داناست.",
+          "id": "Sesungguhnya Allah, Yang Maha Tinggi, berfirman: 'Maka barangsiapa yang mengubahnya setelah ia mendengarnya, maka dosanya berada pada orang-orang yang mengubahnya. Sesungguhnya Allah Maha Mendengar dan Maha Mengetahui.'",
+          "bn": "নিশ্চয়তই আল্লাহ তায়ালা বলেন, 'অতএব, যে ব্যক্তি তা শোনার পরে পরিবর্তন করে, তাহলে পাপ those who change it-এর উপর হবে। নিশ্চয়ই আল্লাহ শ্রোতা ও সর্বজ্ঞ।'",
+          "es": "En verdad, Alá, el Exaltado, dice: «Así que quien lo altere después de haberlo oído, el pecado recaerá sobre quienes lo alteren. En verdad, Alá es Oidor y Conocedor».",
+          "fr": "En vérité, Allah, le Très-Haut, dit : « Quiconque le modifie après l'avoir entendu, alors le péché retombe sur ceux qui le modifient. En vérité, Allah est Audient et Omniscient. »",
+          "de": "Wahrlich, Allah, der Erhabene, sagt: »Wer sie also verändert, nachdem er sie gehört hat, so trifft die Schuld diejenigen, die sie verändern. Wahrlich, Allah ist Allhörend und Allwissend.«",
+          "ru": "Воистину, Аллах, Всевышний говорит: «Тот, кто изменит его после того, как услышит его, то грех ляжет на тех, кто изменит его. Воистину, Аллах — Слышащий, Знающий».",
+          "zh": "真主确已说：‘谁在听闻之后加以更改，那么犯罪者只是那些更改的人。真主确是全听的，确是全知的。’"
+        },
+        "word_start": 37,
+        "word_end": 55
+      },
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "2- سَهْلُ بْنُ زِيَادٍ عَنْ مُحَمَّدِ بْنِ الْوَلِيدِ عَنْ يُونُسَ بْنِ يَعْقُوبَ",
+        "translations": {
+          "en": "2- Sahl ibn Ziyad from Muhammad ibn al-Walid from Yunus ibn Ya'qub",
+          "ur": "۲- سہل بن زیاد، محمد بن ولید سے، یونس بن یعقوب سے",
+          "tr": "2- Sahl b. Ziyad, Muhammed b. el-Velîd'den, Yunus b. Yakûb'dan",
+          "fa": "۲- سهل بن زیاد از محمد بن ولید از یونس بن یعقوب",
+          "id": "2- Sahl ibn Ziyad dari Muhammad ibn al-Walid dari Yunus ibn Ya'q Yunus ibn Ya'qub",
+          "bn": "২- সাহল ইবনে জিয়াদ, মুহাম্মাদ ইবনে আল-ওয়ালিদ থেকে, ইউনুস ইবনে ইয়া'কুব থেকে",
+          "es": "2- Sahl ibn Ziyad de Muhammad ibn al-Walid de Yunus ibn Ya'qub",
+          "fr": "2- Sahl ibn Ziyad de Muhammad ibn al-Walid de Yunus ibn Ya'q Ya'qub",
+          "de": "2- Sahl ibn Ziyad von Muhammad ibn al-Walid von Yunus ibn Ya'qub",
+          "ru": "2 — Сахль ибн Зияд от Мухаммада ибн аль-Валида от Юнуса ибн Якуба",
+          "zh": "2-萨赫勒·本·齐亚德从穆罕默德·本·瓦利德从优努斯·本·雅各布传述"
+        },
+        "word_start": 55,
+        "word_end": 67
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَنَّ رَجُلًا كَانَ بِهَمَدَانَ فَذَكَرَ أَنَّ أَبَاهُ مَاتَ وَكَانَ لَا يَعْرِفُ هَذَا الْأَمَرَ فَأَوْصَى بِوَصِيَّتِهِ عِنْدَ الْمَوْتِ وَأَوْصَى أَنْ يُعْطَى شَيْئًا فِي سَبِيلِ اللَّهِ فَسُئِلَ عَنْهُ أَبُو عَبْدِ اللَّهِ ع كَيْفَ يُفْعَلُ بِهِ وَأَخْبَرْنَاهُ أَنَّهُ كَانَ لَا يَعْرِفُ هَذَا الْأَمَرَ فَقَالَ لَوْ أَنَّ رَجُلًا أَوصَى إِلَيَّ أَنْ أَضَعَ فِي يَهُودِيٍّ أَوْ نَصْرَانِيٍّ لَوَضَعْتُهُ فِيهِمْ",
+        "translations": {
+          "en": "That a man was in Hamadan and mentioned that his father died and he did not know this matter, so he bequeathed his will at death and bequeathed that something be given in the way of Allah. Abu Abdillah (peace be upon him) was asked about it, how should it be done? And we informed him that he did not know this matter. He said: If a man bequeathed to me to place [it] in a Jew or a Christian, I would place it in them.",
+          "ur": "کہ ایک شخص ہمدان میں تھا اور اس نے ذکر کیا کہ اس کے والد فوت ہو گئے اور اسے اس بات کی خبر نہیں تھی، پس اس نے موت کے وقت وصیت کی اور وصیت کی کہ اللہ کی راہ میں کچھ خرچ کیا جائے۔ ابو عبداللہ (علیہ السلام) سے پوچھا گیا کہ اسے کیسے کیا جائے؟ اور ہم نے انہیں بتایا کہ اسے اس بات کی خبر نہیں تھی۔ انہوں نے فرمایا: اگر کوئی شخص مجھے وصیت کرے کہ میں اسے یہودی یا عیسائی کے پاس رکھ دوں، تو میں ان کے پاس رکھ دوں گا۔",
+          "tr": "Bir adam Hemedan'da bulunuyordu ve babasının vefat ettiğini, ancak bu durumu bilmediğini belirtti. Bu nedenle ölümünde vasiyetini yaptı ve Allah yolunda bir şeyin verilmesini vasiyet etti. Ebu Abdillah (aleyhisselam) buna nasıl yapılması gerektiği hakkında soruldu. Ona, bu durumu bilmediğini bildirdik. O da şöyle dedi: Bir adam bana bunu bir Yahudi'ye veya Hristiyan'a vermemi vasiyet etse, ben onu onlara veriririm.",
+          "fa": "آنکه مردی در همدان بود و ذکر کرد که پدرش فوت کرد و او از این امر آگاه نبود، پس هنگام مرگ وصیت کرد و وصیت کرد که چیزی در راه خدا داده شود. ابوعبدالله (علیه‌السلام) درباره آن پرسیده شد که چگونه باید انجام شود؟ و ما به او اطلاع دادیم که او از این امر آگاه نبود. او گفت: اگر مردی به من وصیت کند که آن را به یک یهودی یا مسیحی بدهم، من آن را به آنان می‌دهم.",
+          "id": "Bahwa seorang pria berada di Hamadan dan menyebutkan bahwa ayahnya telah meninggal, dan ia tidak mengetahui hal ini, maka ia berwasiat saat kematian dan berwasiat agar sesuatu diberikan di jalan Allah. Abu Abdillah (shalatullah ‘alaih) ditanya tentang hal tersebut, bagaimana seharusnya dilakukan? Dan kami menginformasikan kepadanya bahwa ia tidak mengetahui hal ini. Ia berkata: Jika seorang pria berwasiat kepadaku untuk menempatkan [harta itu] pada seorang Yahudi atau seorang Nasrani, maka aku akan menempatkannya pada mereka.",
+          "bn": "হামাদানে এক ব্যক্তি ছিলেন এবং তিনি উল্লেখ করেন যে তাঁর পিতা মারা গেছেন এবং তিনি এই বিষয়টি জানতেন না, তাই তিনি মৃত্যুর সময় ওয়াজনামত করলেন এবং আল্লাহর পথে কিছু দান করার নির্দেশ দিলেন। আবু আবদিল্লাহ (আলাইহিস সালাম) থেকে এ বিষয়ে জিজ্ঞাসা করা হলো, এটি কীভাবে করা উচিত? এবং আমরা তাঁকে জানালাম যে তিনি এই বিষয়টি জানতেন না। তিনি বললেন: যদি এক ব্যক্তি আমাকে নির্দেশ দেন যে আমি এটি একজন ইহুদি বা খ্রিস্টানের নিকট রাখি, তবে আমি তা তাদের নিকটই রাখব।",
+          "es": "Que un hombre estaba en Hamadán y mencionó que su padre había fallecido y él no conocía este asunto, por lo que dejó su testamento al morir y dispuso que se diera algo en el camino de Allah. Abu Abdillah (que la paz sea con él) fue preguntado sobre ello, ¿cómo debería hacerse? Y se le informó que él no conocía este asunto. Dijo: Si un hombre me legara que lo colocara en un judío o un cristiano, lo colocaría en ellos.",
+          "fr": "Qu'un homme était à Hamadan et mentionna que son père était décédé et qu'il ignorait cette affaire, alors il légua sa volonté à sa mort et légua que quelque chose soit donné dans le chemin d'Allah. Abu Abdillah (que la paix soit sur lui) fut interrogé à ce sujet, comment cela devrait-il être fait ? Et nous l'avons informé qu'il ignorait cette affaire. Il dit : Si un homme me lègue de le placer [dans le cas] d'un Juif ou d'un Chrétien, je le placerais en eux.",
+          "de": "Dass ein Mann in Hamadan war und erwähnte, dass sein Vater gestorben war und er diese Angelegenheit nicht kannte, also vermachte er bei seinem Tod sein Vermächtnis und verfügte, dass etwas auf dem Weg Allahs gegeben werden sollte. Abu Abdillah (friede sei mit ihm) wurde danach gefragt, wie es geschehen sollte. Und wir informierten ihn, dass er diese Angelegenheit nicht kannte. Er sagte: Wenn ein Mann mir vermachte, es in einen Juden oder einen Christen zu legen, würde ich es in sie legen.",
+          "ru": "Что один человек был в Хамадане и упомянул, что его отец умер, и он не знал об этом деле, поэтому он завещал свою волю при смерти и завещал, чтобы что-то было отдано на пути Аллаха. Абу Абдуллах (да будет мир с ним) был спрошен об этом, как это следует сделать? И мы сообщили ему, что он не знал об этом деле. Он сказал: Если человек завещал мне поместить [это] в иудея или христианина, я поместил бы это в них.",
+          "zh": "一人曾在哈马丹，提及他的父亲去世，而他对此事并不知晓，于是他在临终时立下遗嘱，吩咐将某物施于真主之道。艾布·阿卜杜拉（愿他平安）被问及此事应如何办理，我们告知他此人对此事并不知晓。他说：若有人嘱托我将此物交给一位犹太人或基督徒，我便将其交予他们。"
+        },
+        "word_start": 67,
+        "word_end": 121
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ",
+        "translations": {
+          "en": "Indeed Allah, the Exalted, says: 'So whoever changes it after he has heard it, then the sin is upon those who change it.'",
+          "ur": "بے شک اللہ تعالیٰ کا ارشاد ہے: 'پس جس نے اسے سنے کے بعد بدل دیا، تو گناہ انہی پر ہے جو اسے بدل دیتے ہیں۔'",
+          "tr": "Şüphesiz ki Allah, yüce olan, şöyle buyurmuştur: 'Kim onu işittikten sonra değiştirirse, o zaman günah onu değiştirenlerin üzerinedir.'",
+          "fa": "همانا خداوند بلندمرتبه می‌فرماید: «پس هر کس آن را پس از شنیدنش تغییر دهد، گناه بر عهده کسانی است که تغییر می‌دهند.»",
+          "id": "Sesungguhnya Allah, Yang Maha Tinggi, berfirman: 'Maka barangsiapa yang mengubahnya setelah mendengarnya, maka dosanya berada atas orang-orang yang mengubahnya.'",
+          "bn": "নিশ্চয় আল্লাহ তায়ালা বলেন, 'অতএব, যে ব্যক্তি তা শোনার পরে পরিবর্তন করে, তবে গুনাহ তারই উপর হবে যারা পরিবর্তন করে।'",
+          "es": "En verdad, Allah, el Exaltado, dice: «Así que quien lo modifique después de haberlo oído, entonces el pecado recaerá sobre quienes lo modifiquen».",
+          "fr": "En vérité, Allah, le Très-Haut, dit : « Quiconque le modifie après l'avoir entendu, alors le péché retombe sur ceux qui le modifient. »",
+          "de": "Wahrlich Allah, der Erhabene, sagt: »Wer es also nach seinem Hören verändert, so trifft die Schuld diejenigen, die es verändern.«",
+          "ru": "Воистину, Аллах, Всевышний, говорит: «Тот, кто изменит его после того, как услышит его, то грех ляжет на тех, кто его изменит».",
+          "zh": "真主确已说：‘谁在听闻之后加以更改，那么罪过确在更改者。’"
+        },
+        "word_start": 121,
+        "word_end": 135
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَانْظُرُوا إِلَى مَنْ يَخْرُجُ إِلَى هَذَا الْوَجْهِ يَعْنِي الثُّغُورَ فَابْعَثُوا بِهِ إِلَيْهِ",
+        "translations": {
+          "en": "So look to whoever goes out to this direction, meaning the frontiers, and send it to him.",
+          "ur": "پس دیکھو کہ جو شخص اس سمت میں نکلتا ہے، یعنی سرحدوں کی طرف، اور اسے اس کے پاس بھیج دو۔",
+          "tr": "Öyleyse, bu yöne, yani hudutlara doğru giden kimseye bak ve onu ona gönder.",
+          "fa": "پس به کسی که به این جهت، یعنی سرحدات، می‌رود بنگرید و آن را نزد او بفرستید.",
+          "id": "Maka perhatikanlah siapa yang keluar ke arah ini, yaitu perbatasan, dan kirimkanlah kepadanya.",
+          "bn": "অতএব, যে ব্যক্তি এই দিকে (অর্থাৎ সীমান্তে) বের হয়, তার দিকে লক্ষ্য করো এবং তাকে পাঠাও।",
+          "es": "Así que observa a quien salga hacia esa dirección, es decir, hacia las fronteras, y envíalo hacia él.",
+          "fr": "Regarde donc celui qui sort vers cette direction, c'est-à-dire les frontières, et envoie-le lui.",
+          "de": "So blicke zu dem, der in diese Richtung hinausgeht, das heißt an die Grenzen, und sende es zu ihm.",
+          "ru": "Поэтому смотрите, кто отправится в этом направлении, то есть на границы, и пошлите его к нему.",
+          "zh": "所以，你要关注那些前往这个方向的人，即边境地区，并派遣他们前往。"
+        },
+        "word_start": 135,
+        "word_end": 147
+      },
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "3- عَلِيٌّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الرِّيَّانِ بْنِ شَبِيبٍ",
+        "translations": {
+          "en": "3- Ali ibn Ibrahim from his father, from al-Riyran ibn Shabib",
+          "ur": "۳- علی بن ابراہیم، اپنے والد سے، ریٰن بن شعیب سے",
+          "tr": "3- Ali b. İbrahim, babasından, er-Rıyân b. Şebîb'den",
+          "fa": "۳- علی بن ابراهیم از پدرش، از ریّان بن شعیب",
+          "id": "3- Ali bin Ibrahim dari ayahnya, dari al-Riyan bin Syabib",
+          "bn": "৩- আলী ইবনে ইবরাহীম, তার পিতার নিকট হতে, আল-রিয়য়ান ইবনে শাবিব হতে",
+          "es": "3- Alí ibn Ibrahim de su padre, de al-Riyán ibn Shabib",
+          "fr": "3- Ali ibn Ibrahim, de son père, de son père, de al-Riyran ibn Shabib",
+          "de": "3. Ali ibn Ibrahim von seinem Vater, von al-Riyran ibn Shabib",
+          "ru": "3. Али ибн Ибрахим от своего отца, от ар-Рияна ибн Шабива",
+          "zh": "3-阿里·本·易卜拉欣欣从他父亲，从al-Riyran·本·沙比布传述"
+        },
+        "word_start": 147,
+        "word_end": 157
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ أَوصَتْ مَارِدَةُ لِقَوْمٍ نَصَارَى فَرَّاشِينَ بِوَصِيَّةٍ فَقَالَ أَصْحَابُنَا اقْسِمُوا هَذَا فِي فُقَرَاءِ الْمُسْلِمِينَ مِنْ أَصْحَابِكَ فَسَأَلْتُ الرُّضَا ع فَقُلْتُ إِنَّ أُخْتِي أَوصَتْ بِوَصِيَّةٍ لِقَوْمٍ نَصَارَى وَأَرَدْتُ أَنْ أَصْرِفَ ذَلِكَ إِلَى قَوْمٍ مِنْ أَصْحَابِنَا مُسْلِمِينَ فَقَالَ أَمْضِ الْوَصِيَّةَ عَلَى مَا أَوصَتْ بِهِ",
+        "translations": {
+          "en": "He said: Maridah bequeathed to a group of Christian floor-spreaders with a will. Our companions said: Distribute this among the poor Muslims from your companions. I asked al-Rida (peace be upon him) and said: Indeed my sister bequeathed a will to a group of Christians and I want to divert that to a group of our Muslim companions. He said: Confirm the will according to what she bequeathed.",
+          "ur": "انہوں نے کہا: مرجانہ نے عیسائیوں کے ایک گروہ کو وصیت کی۔ ہمارے ساتھیوں نے کہا: اسے تمہارے ساتھیوں میں سے مسلمانوں کی غریب طبقات میں تقسیم کر دو۔ میں نے الرضا (علیہ السلام) سے پوچھا اور کہا: بے شک میری بہن نے عیسائیوں کے ایک گروہ کو وصیت کی ہے اور میں چاہتا ہوں کہ اسے ہمارے مسلمان ساتھیوں کے ایک گروہ میں منتقل کر دوں۔ انہوں نے فرمایا: وصیت کو اسی طرح ثابت رکھو جیسا کہ انہوں نے وصیت کی ہے۔",
+          "tr": "Dedi ki: Meride, Hristiyan halı sericilere bir vasiyetle miras bıraktı. Bizim ashabımız dedi: Bu vasiyeti, ashabından olan fakir Müslümanlara dağıtın. Ben Rıza''a (aleyhisselam) sordum ve dedim: Şüphesiz kız kardeşim bir grup Hristiyana vasiyetle miras bıraktı ve ben bunu bizim Müslüman ashabımızdan bir gruba yönlendirmek istiyorum. O da dedi: Vasiyeti, onun bıraktığı şekilde teyit edin.",
+          "fa": "گفت: مریده با گروهی از مسیحیانِ فرش‌اندازان وصیت کرد. یاران ما گفتند: این را در میان فقیران مسلمانان از یاران خود تقسیم کنید. من از رضا (علیه‌السلام) پرسیدم و گفتم: خواهرم به گروهی از مسیحیان وصیت کرده و من می‌خواهم آن را به گروهی از یاران مسلمان ما منحرف کنم. فرمود: وصیت را مطابق آنچه وصیت کرده تأیید کنید.",
+          "id": "Ia berkata: Maridah berwasiat kepada sekelompok penganyam tikang Kristen. Para sahabat kami berkata: Bagikanlah ini kepada orang-orang miskin Muslim dari kalangan sahabatmu. Aku bertanya kepada al-Rida (peace be upon him) dan berkata: Sesungguhnya saudariku telah berwasiat kepada sekelompok orang Kristen dan aku ingin mengalihkannya kepada sekelompok sahabat Muslim kami. Ia berkata: Teguhkanlah wasiat itu sesuai dengan apa yang ia wasiatkan.",
+          "bn": "তিনি বললেন: মারিদাহ এক দল খ্রিস্টান মেঝে বিছানোকারীকে তার ইচ্ছানামার মাধ্যমে কিছু দান করে গেছেন। আমাদের সহচরগণ বললেন: তোমাদের সহচরদের মধ্যে থেকে দরিদ্র মুসলমানদের মধ্যে এটি বণ্টন করো। আমি আল-রিদা (আ.)-কে জিজ্ঞাসা করলাম এবং বললাম: নিশ্চয়ই আমার বোন এক দল খ্রিস্টানকে ইচ্ছানামার মাধ্যমে কিছু দান করে গেছেন এবং আমি তা আমাদের মুসলমান সহচরদের দিকে মোড়ানো করতে চাই। তিনি বললেন: তার ইচ্ছানামা অনুযায়ী তা নিশ্চিত করো।",
+          "es": "Dijo: Maridah dejó un legado a un grupo de tejedores cristianos mediante un testamento. Nuestros compañeros dijeron: Distribuid esto entre los pobres musulmanes de vuestros compañeros. Pregunté a al-Rida (que la paz sea con él) y dije: En verdad, mi hermana dejó un legado a un grupo de cristianos y quiero desviarlo hacia un grupo de nuestros compañeros musulmanes. Él dijo: Confirmad el testamento según lo que ella legó.",
+          "fr": "Il a dit : Maridah a légué à un groupe de tisserands chrétiens par un testament. Nos compagnons ont dit : Distribuez cela parmi les pauvres musulmans de vos compagnons. J'ai demandé à al-Rida (que la paix soit sur lui) et j'ai dit : En vérité, ma sœur a légué un testament à un groupe de chrétiens et je veux le détourner vers un groupe de nos compagnons musulmans. Il a dit : Confirmez le testament selon ce qu'elle a légué.",
+          "de": "Er sagte: Maridah hat in ihrem Testament einer Gruppe von christlichen Teppichlegern etwas vermacht. Unsere Gefährten sagten: Verteile dies unter den armen Muslimen aus euren Gefährten. Ich fragte al-Rida (friede sei mit ihm) und sagte: Meine Schwester hat in ihrem Testament einer Gruppe von Christen etwas vermacht, und ich möchte dies auf eine Gruppe unserer muslimischen Gefährten umlenken. Er sagte: Bestätige das Testament gemäß dem, was sie vermacht hat.",
+          "ru": "Он сказал: Марида завещала группе христианских ковровщиков. Наши сподвижники сказали: Раздели это среди бедных мусульман из числа твоих сподвижников. Я спросил ар-Рида (да будет мир с ним) и сказал: Действительно, моя сестра завещала группе христиан, и я хочу направить это группе наших мусульманских сподвижников. Он сказал: Подтверди завещание в соответствии с тем, что она завещала.",
+          "zh": "他说：马里达以遗嘱将财产遗赠给一群基督教徒。我们的同伴说：从你们同伴中分给贫穷的穆斯林。我问里达（愿他平安）说：我的姐姐确实以遗嘱将财产遗赠给一群基督教徒，我想将其转给一群我们的穆斯林同伴。他说：按照她所遗赠的内容确认遗嘱。"
+        },
+        "word_start": 157,
+        "word_end": 199
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "قَالَ اللَّهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ",
+        "translations": {
+          "en": "Allah said: 'So the sin is upon those who change it.'",
+          "ur": "اللہ نے فرمایا: پس گناہ ان پر ہے جو اسے بدل دیتے ہیں۔",
+          "tr": "Allah şöyle buyurdu: 'O halde suç, onu değiştirenlerin üzerinedir.'",
+          "fa": "خداوند فرمود: «پس گناه بر عهده کسانی است که آن را تغییر می‌دهند.»",
+          "id": "Allah berfirman, 'Maka dosanya berada di atas orang-orang yang mengubahnya.'",
+          "bn": "আল্লাহ তাআলা বলেন, 'অতএব, গুনাহ তাদের উপরই রয়েছে যারা এটিকে পরিবর্তন করে।'",
+          "es": "Alá dijo: «Por tanto, el pecado recae sobre los que la cambian.»",
+          "fr": "Allah a dit : « Le péché retombe donc sur ceux qui le modifient. »",
+          "de": "Allah sagte: „Die Sünde liegt also bei denen, die es verändern.“",
+          "ru": "Аллах сказал: «Так грех ложится на тех, кто изменяет его».",
+          "zh": "真主说：'罪责在于篡改它的人。'"
+        },
+        "word_start": 199,
+        "word_end": 206
+      },
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "4- عَنْهُ عَنْ أَبِيهِ عَنْ أَبِي طَالِبٍ عَبْدِ اللَّهِ بْنِ الصَّلْتِ",
+        "translations": {
+          "en": "4- From him, from his father, from Abu Talib, Abdillah ibn al-Salt",
+          "ur": "۴- اس سے، اس کے والد سے، ابو طالب سے، عبداللہ بن الصلت",
+          "tr": "4- Onun babasından, Ebu Talib'den, Abdillah b. es-Salt",
+          "fa": "۴- از او، از پدرش، از ابی‌طالب، عبدالله بن الصلت",
+          "id": "4- Darinya, dari ayahnya, dari Abu Talib, Abdillah ibn al-Salt",
+          "bn": "৪- তিনি, তার পিতা, আবু তালিব, আবদুল্লাহ ইবনু আস-সালত থেকে বর্ণনা করেন।",
+          "es": "4- De él, de su padre, de Abū Tālib, Abdillah ibn al-Salt",
+          "fr": "4- De lui, de son père, d'Abou Talib, Abdillah ibn al-Salt",
+          "de": "4- Von ihm, von seinem Vater, von Abu Talib, Abdillah ibn al-Salt",
+          "ru": "4- От него, от его отца, от Абу Талиба, Абдулла ибн ас-Сальт",
+          "zh": "4- 从他，从他父亲，从阿布·塔利布，阿卜杜拉·本·萨利特"
+        },
+        "word_start": 206,
+        "word_end": 217
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ كَتَبَ الْخَلِيلُ بْنُ هَاشِمٍ إِلَى ذِي الرِّئَاسَتَيْنِ وَهُوَ وَالِي نَيْسَابُورَ أَنَّ رَجُلًا مِنَ الْمَجُوسِ مَاتَ وَأَوْصَى لِلْفُقَرَاءِ بِشَيْءٍ مِنْ مَالِهِ فَأَخَذَهُ قَاضِي نَيْسَابُورَ فَجَعَلَهُ فِي فُقَرَاءِ الْمُسْلِمِينَ فَكَتَبَ الْخَلِيلُ إِلَى ذِي الرِّئَاسَتَيْنِ بِذَلِكَ فَسَأَلَ الْمَأْمُونَ عَنْ ذَلِكَ فَقَالَ لَيْسَ عِنْدِي فِي ذَلِكَ مِنْ شَيْءٍ فَسَأَلَ أَبَا الْحَسَنِ ع فَقَالَ أَبُو الْحَسَنِ ع إِنَّ الْمَجُوسِيَّ لَمْ يُوصِ لِلْفُقَرَاءِ الْمُسْلِمِينَ وَلَكِنْ يَنْبَغِي أَنْ يُؤْخَذَ مِقْدَارُ ذَلِكَ الْمَالِ مِنْ مَالِ الصَّدَقَةِ فَيُرَدَّ عَلَى فُقَرَاءِ الْمَجُوسِ",
+        "translations": {
+          "en": "He said: Al-Khalil ibn Hashim wrote to the holder of the two authorities, who was the governor of Nishapur, that a Magian died and bequeathed something of his wealth to the poor. The judge of Nishapur took it and placed it among the poor Muslims. Al-Khalil wrote to the holder of the two authorities about that. Al-Ma'mun was asked about it and said: I have nothing regarding it. He asked Abu al-Hasan (peace be upon him), and Abu al-Hasan (peace be upon him) said: The Magian did not bequeath to the poor Muslims, but it is appropriate that the amount of that wealth be taken from the charity funds and returned to the poor of the Magians.",
+          "ur": "انہوں نے کہا: الخلیل بن ہاشم نے دو اختیارات والے (خلیفہ) کو، جو نیشاپور کے گورنر تھے، خط لکھا کہ ایک مجوسی فوت ہوا اور اپنی مالیت کا کچھ غریبوں کو وصیت کیا۔ نیشاپور کے قاضی نے اسے لے کر مسلمان غریبوں میں تقسیم کر دیا۔ الخلیل نے اس بارے میں دو اختیارات والے کو خط لکھا۔ امام مامون سے اس کے بارے میں پوچھا گیا تو انہوں نے کہا: مجھے اس کے بارے میں کچھ معلوم نہیں۔ انہوں نے ابو الحسن (علیہ السلام) سے پوچھا، اور ابو الحسن (علیہ السلام) نے فرمایا: مجوسی نے مسلمان غریبوں کو وصیت نہیں کی، بلکہ مناسب یہ ہے کہ اس مالیت کی مقدار صدقات کے خزانے سے لے کر مجوسیوں کے غریبوں کو واپس کر دی جائے۔",
+          "tr": "Dedi ki: el-Halîl b. Haşim, Nîsâbûr valisi olan Ehl-i Sulteyn, Zürrâ' (ateşperest) birinin vefât ettiğini ve malının bir kısmını fakîrlere vasiyet ettiğini bildirdi. Nîsâbûr kâzımı bunu alıp Müslüman fakîrlere verdi. el-Halîm, Ehl-i Sulteyn'e bu hususu yazdı. Mâ'mûn'dan soruldu ve dedi: Benim bu konuda bir şeyim yok. Ebû'l-Hasan'dan (aleyhisselâm) soruldu ve Ebû'l-Hasan (aleyhisselâm) dedi: Zürrâ' Müslüman fakîrlere vasiyet etmedi, fakat o malın miktarı sadaka hazînesinden alınarak Zürrâ'ın fakîrlere iade edilmesi uygundur.",
+          "fa": "گفت: الخلیل بن هاشم به صاحب الامرین که حاکم نیشابور بود نوشت که یک مجوس مرد و از ثروت خود چیزی را به فقرا وصیت کرد. قاضی نیشابور آن را گرفت و در میان مسلمانان فقیر قرار داد. الخلیل درباره آن به صاحب الامرین نوشت. از مأمون پرسیدند و او گفت: من درباره آن چیزی ندارم. او از ابوالحسن (علیه السلام) پرسید و ابوالحسن (علیه السلام) گفت: مجوس به مسلمانان فقیر وصیت نکرد، بلکه شایسته است که مبلغ آن ثروت از صندوق صدقات گرفته شود و به فقیران مجوس بازگردانده شود.",
+          "id": "Ia berkata: Al-Khalil ibn Hashim menulis kepada pemegang dua otoritas, yang merupakan gubernur Nishapur, bahwa seorang Majusi meninggal dunia dan mewariskan sebagian hartanya kepada orang-orang miskin. Hakim Nishapur mengambilnya dan menempatkannya di antara orang-orang miskin Muslim. Al-Khalil menulis kepada pemegang dua otoritas mengenai hal itu. Al-Ma'mun ditanya tentang hal tersebut dan menjawab: Aku tidak memiliki apa pun mengenai hal itu. Ia bertanya kepada Abu al-Hasan (alamah), dan Abu al-Hasan (alamah) menjawab: Majusi itu tidak mewariskan kepada orang-orang miskin Muslim, tetapi pantas bahwa jumlah harta itu diambil dari dana zakat dan dikembalikan kepada orang-orang miskin Majusi.",
+          "bn": "তিনি বললেন, আল-খালিল ইবনে হাশিম দুই আধিপত্যের অধিকারীর নিকট, যিনি নিশাপুরের গভর্নর ছিলেন, একটি পত্র লিখলেন যে এক মাজি (আগেউপাসী) মৃত্যুবরণ করলেন এবং তার সম্পদের কিছু অংশ ফকিরদেরকে ওয়াজিয়ত করলেন। নিশাপুরের কাদি তা গ্রহণ করে মুসলমান ফকিরদের মধ্যে বণ্টন করলেন। আল-খালিল বিষয়টি দুই আধিপত্যের অধিকারীর নিকট লিখলেন। আল-মা'মুনকে এর বিষয়ে জিজ্ঞাসা করা হলে তিনি বললেন, এর বিষয়ে আমার কিছুই নেই। তিনি আবু আল-হাসান (রহ.)-কে জিজ্ঞাসা করলেন, এবং আবু আল-হাসান (রহ.) বললেন, মাজি মুসলমান ফকিরদেরকে ওয়াজিয়ত করেননি, বরং উচিত যে, সেই সম্পদের পরিমাণ সদকাতুল ফিতর বা ওয়াজিয়তকৃত অর্থের তহবিল থেকে নিয়ে মাজিদের ফকিরদেরকে ফিরিয়ে দেওয়া হোক।",
+          "es": "Dijo: Al-Jalil ibn Hashim escribió al portador de las dos autoridades, que era el gobernador de Nishapur, que un magio murió y legó parte de su riqueza a los pobres. El juez de Nishapur la tomó y la asignó a los musulmanes pobres. Al-Jalil escribió al portador de las dos autoridades al respecto. Se preguntó a Al-Ma'mun sobre ello y él dijo: No tengo nada al respecto. Preguntó a Abu al-Hasan (que la paz sea con él), y Abu al-Hasan (que la paz sea con él) dijo: El magio no legó a los musulmanes pobres, sino que es apropiado que la cantidad de esa riqueza sea tomada de los fondos de caridad y devuelta a los pobres de los magios.",
+          "fr": "Il a dit : Al-Khalil ibn Hashim a écrit au détenteur des deux autorités, qui était le gouverneur de Nishapur, qu’un Magéen est mort et a légué une partie de ses biens aux pauvres. Le juge de Nishapur les a pris et les a placés parmi les pauvres musulmans. Al-Khalil a écrit au détenteur des deux autorités à ce sujet. Al-Ma’mun a été interrogé à ce propos et a dit : Je n’ai rien à dire à ce sujet. Il a interrogé Abou al-Hasan (que la paix soit sur lui), et Abou al-Hasan (que la paix soit sur lui) a dit : Le Magéen n’a pas légué aux pauvres musulmans, mais il convient que le montant de ces biens soit prélevé sur les fonds de la charité et rendu aux pauvres des Magéens.",
+          "de": "Er sagte: Al-Khalil ibn Hashim schrieb an den Träger der beiden Autoritäten, der der Statthalter von Nischapur war, dass ein Magier starb und etwas von seinem Vermögen den Armen vermachte. Der Richter von Nischapur nahm es und verteilte es unter den armen Muslimen. Al-Khalil schrieb dem Träger der beiden Autoritäten darüber. Al-Ma'mun wurde danach gefragt und sagte: Ich habe nichts darüber. Er fragte Abu al-Hasan (friede sei mit ihm), und Abu al-Hasan (friede sei mit ihm) sagte: Der Magier hat nicht an die armen Muslime vererbt, aber es ist angemessen, dass der Betrag dieses Vermögens aus den Zakat-Fonds genommen und an die Armen der Magier zurückgegeben wird.",
+          "ru": "Сказал: Аль-Халиль ибн Хашим написал владельцу двух властей, который был наместником Нишапура, что умер маджус и завещал часть своего богатства бедным. Судья Нишапура принял это и распределил среди бедных мусульман. Аль-Халиль написал об этом владельцу двух властей. У аль-Ма’муна спросили об этом, и он сказал: «У меня нет ничего относительно этого». Он спросил Абу аль-Хасана (да будет над ним мир), и Абу аль-Хасан (да будет над ним мир) сказал: «Маджус не завещал бедным мусульманам, но прилично, чтобы сумма этого богатства была взята из фонда закята и возвращена бедным из маджусов».",
+          "zh": "他说：哈利勒·本·哈希姆致信拥有两权者，即尼沙普尔的总督，称一位马吉（拜火教徒）去世，并将部分财产遗赠给穷人。尼沙普尔的法官将其收下并归入穆斯林穷人之中。哈利勒就此致信拥有两权者。玛蒙被问及此事，回答说：我对此无明确依据。他询问艾布·哈桑（愿主安宁于他），艾布·哈桑（愿主安宁于他）说：这位马吉并非将财产遗赠给穆斯林穷人，而是应当从天课基金中扣除相应数额，归还给马吉穷人。"
+        },
+        "word_start": 217,
+        "word_end": 290
+      },
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "5- عَلِيٌّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ حَمَّادٍ عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ",
+        "translations": {
+          "en": "5- Ali ibn Ibrahim from his father, from Hammad, from Hariz, from Muhammad ibn Muslim",
+          "ur": "۵- علی بن ابراہیم، اپنے والد سے، حماد سے، حرز سے، محمد بن مسلم سے",
+          "tr": "5- Ali bin İbrahim, babasından, Hammâd'dan, Hariz'den, Muhammed bin Müslim'den",
+          "fa": "۵- علی بن ابراهیم از پدرش، از حمّاد، از حرّیز، از محمد بن مسلم",
+          "id": "5- Ali bin Ibrahim dari ayahnya, dari Hammad, dari Hariz, dari Muhammad bin Muslim",
+          "bn": "৫- আলী ইবনে ইবরাহীম, তাঁর পিতা, হাম্মাদ, হারিজ, মুহাম্মাদ ইবনে মুসলিম থেকে বর্ণনা করেন",
+          "es": "5- Alī ibn Ibrāhīm de su padre, de Ḥammād, de Ḥariz, de Muḥammad ibn Muslim",
+          "fr": "5- Ali ibn Ibrahim, de son père, de Hammad, de Hariz, de Muhammad ibn Muslim",
+          "de": "5- Ali ibn Ibrahim von seinem Vater, von Hammad, von Hariz, von Muhammad ibn Muslim",
+          "ru": "5. Али ибн Ибрахим от своего отца, от Хаммада, от Хариза, от Мухаммада ибн Муслима",
+          "zh": "5-阿里·本·易卜拉欣，从他父亲，从哈马德，从哈里兹，从穆罕默德·本·穆斯林传述"
+        },
+        "word_start": 290,
+        "word_end": 304
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنْ رَجُلٍ أَوصَى بِمَالِهِ فِي سَبِيلِ اللَّهِ فَقَالَ أَعْطِهِ لِمَنْ أَوصَى لَهُ وَإِنْ كَانَ يَهُودِيًّا أَوْ نَصْرَانِيًّا",
+        "translations": {
+          "en": "He said: I asked Abu Abdillah (peace be upon him) about a man who bequeathed his wealth in the way of Allah. He said: Give it to whom he bequeathed to, even if he was a Jew or a Christian.",
+          "ur": "انہوں نے کہا: میں نے ابو عبداللہ (علیہ السلام) سے ایک شخص کے بارے میں پوچھا جس نے اپنا مال اللہ کی راہ میں وصیت کر دیا۔ انہوں نے فرمایا: اسے اسے دے دو جس کی طرف اس نے وصیت کی ہے، چاہے وہ یہودی یا عیسائی ہی کیوں نہ ہو۔",
+          "tr": "Dedi ki: Ben, Ebu Abdillah'dan (aleyhisselam) Allah yolunda malını vasiyet eden bir adam hakkında sordum. O da: Onu vasiyet ettiği kimseye verin, ister Yahudi ister Hristiyan olsun, dedi.",
+          "fa": "گفت: از ابو عبدالله (علیه السلام) درباره مردی که ثروت خود را در راه خدا وصیت کرده بود پرسیدم. فرمود: آن را به کسی که وصیت کرده بدهید، حتی اگر یهودی یا مسیحی باشد.",
+          "id": "Ia berkata: Aku bertanya kepada Abu Abdillah (semoga Allah berkenan memberinya kesejahteraan) tentang seorang laki-laki yang mewariskan hartanya di jalan Allah. Ia menjawab Berikanlah kepada orang yang ia wasiatkan kepadanya meskipun ia seorang Yahudi atau Nasrani.",
+          "bn": "তিনি বললেন, আমি আবু আবদিল্লাহ (আলৈহিস সালাম)-কে জিজ্ঞাসা করলাম একজন ব্যক্তি যখন আল্লাহর পথে নিজের সম্পদ ওয়াজ্ঞাত করেন। তিনি বললেন, তাকে সেই ব্যক্তিকে দিন যার কাছে তিনি ওয়াজ্ঞাত করেছেন, যদিও সে ইহুদি বা খ্রিস্টান হয়।",
+          "es": "Dijo: Pregunté a Abu Abdillah (que la paz sea con él) sobre un hombre que legó su riqueza en el camino de Allah. Dijo: Entregadlo a quien él designó, aunque fuera un judío o un cristiano.",
+          "fr": "Il a dit : J'ai demandé à propos d'un homme qui a légué ses biens dans le chemin d'Allah à Abou Abdillah (que la paix soit sur lui). Il a dit : Donnez-le à celui à qui il a légué, même s'il était un Juif ou un Chrétien.",
+          "de": "Er sagte: Ich fragte Abu Abdillah (friede sei mit ihm) über einen Mann, der sein Vermögen auf dem Weg Allahs vererbte. Er sagte: Gebt es dem, dem er es vererbte, auch wenn er ein Jude oder ein Christ war.",
+          "ru": "Он сказал: Я сказал: Я спросил Абу Абдуллаха (да будет мир с ним) о человеке, который завещал своё имущество на пути Аллаха. Он сказал: Отдайте его тому, кому он завещал, даже если он был иудеем или христианином.",
+          "zh": "他说：我问阿布·阿卜杜拉（愿主喜悦之）关于一个人将他的财富施舍在真主之道上的情况。他说：把它给他所指定的人，即使他是犹太人或基督徒。"
+        },
+        "word_start": 304,
+        "word_end": 327
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ",
+        "translations": {
+          "en": "Indeed Allah, the Exalted, says: 'So whoever changes it after he has heard it, then the sin is upon those who change it.'",
+          "ur": "بے شک اللہ تعالیٰ فرماتا ہے: پس جس نے اسے سنے کے بعد بدل دیا، تو گناہ انہی پر ہے جو اسے بدل دیتے ہیں۔",
+          "tr": "Şüphesiz ki Allah, yüce olan, şöyle buyurur: 'Kim onu işittikten sonra değiştirirse, o zaman günah onu değiştirenlerin üzerinedir.'",
+          "fa": "همانا خداوند بلندمرتبه می‌فرماید: «پس هر کس آن را پس از شنیدنش تغییر دهد، گناه بر عهده کسانی است که تغییر می‌دهند.»",
+          "id": "Sesungguhnya Allah Yang Maha Tinggi berfirman: 'Maka barangsiapa yang mengubahnya setelah ia mendengarnya, maka dosanya berada atas orang-orang yang mengubahnya.'",
+          "bn": "নিশ্চয় আল্লাহ তায়ালা বলেন, 'অতএব, যে তা শোনার পরে তা পরিবর্তন করে, তবে গুনাহ হবে সেই পরিবর্তনকারীদের উপর।'",
+          "es": "En verdad, Allah, el Altísimo, dice: 'Así que quien lo modifique después de haberlo oído, entonces el pecado recaerá sobre quienes lo modifiquen.'",
+          "fr": "En vérité, Allah, le Très-Haut, dit : « Quiconque le modifie après qu'il l'ait entendu, alors le péché retombe sur ceux qui le modifient. »",
+          "de": "Wahrlich, Allah, der Erhabene, sagt: »Wer sie also verändert, nachdem er sie gehört hat, so trifft die Schuld diejenigen, die sie verändern.«",
+          "ru": "Воистину, Аллах, Всевышний, говорит: «Тот, кто изменит его после того, как услышит его, то грех ляжет на тех, кто изменит его».",
+          "zh": "真主确已说：‘谁在听闻之后加以更改，那么罪过确在更改者。’"
+        },
+        "word_start": 327,
+        "word_end": 341
+      },
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "6- فَأَمَّا مَا رَوَاهُ مُحَمَّدُ بْنُ عَلِيٍّ بْنِ مَحْبُوبٍ عَنْ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيٍّ الْهَمَدَانِيِّ عَنْ إِبْرَاهِيمَ بْنِ مُحَمَّدٍ",
+        "translations": {
+          "en": "6- As for what Muhammad ibn Ali ibn Mahbub narrated from Abu Muhammad al-Hasan ibn Ali al-Hamadani from Ibrahim ibn Muhammad",
+          "ur": "۶- محمد بن علی بن محبوب سے ابو محمد حسن بن علی حمادانی سے روایت ہے کہ انہوں نے ابراہیم بن محمد سے",
+          "tr": "6- Muhammed ibn Ali ibn Mebûd, Ebû Muhammed el-Hasan ibn Ali el-Hamdanî'den, İbrahim ibn Muhammed'den rivayet ettiğine gelince",
+          "fa": "۶- آنچه محمد بن علی بن محبوب از ابومحمد حسن بن علی حمادانی از ابراهیم بن محمد روایت کرده است",
+          "id": "6- Adapun yang diriwayatkan oleh Muhammad ibn Ali ibn Mahbub dari Abu Muhammad al-Hasan ibn Ali al-Hamadani dari Ibrahim ibn Muhammad",
+          "bn": "৬- মুহাম্মদ ইবনে আলী ইবনে মাহবুব থেকে আবু মুহাম্মদ আল-হাসন ইবনে আলী আল-হামদানী, ইব্রাহীম ইবনে মুহাম্মদের বর্ণনা",
+          "es": "6- En cuanto a lo que narró Muhammad ibn Ali ibn Mahbub de Abu Muhammad al-Hasan ibn Ali al-Hamadani de Ibrahim ibn Muhammad",
+          "fr": "6- Quant à ce qu'a rapporté Muhammad ibn Ali ibn Mahbub d'Abou Muhammad al-Hasan ibn Ali al-Hamadani, d'Ibrahim ibn Muhammad",
+          "de": "6- Was Muhammad ibn Ali ibn Mahbub von Abu Muhammad al-Hasan ibn Ali al-Hamadani von Ibrahim ibn Muhammad überliefert",
+          "ru": "6- Что касается того, что передал Мухаммад ибн Али ибн Маъбуб от Абу Мухаммада аль-Хасана ибн Али аль-Хамдани от Ибрахима ибн Мухаммада",
+          "zh": "6-至于穆罕默德·本·阿里·本·马布乌德从阿布·穆罕默德·哈桑·本·阿里·哈马达尼、易卜拉欣·本·穆罕默德传述的内容"
+        },
+        "word_start": 341,
+        "word_end": 361
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ كَتَبَ أَحْمَدُ بْنُ هِلَالٍ إِلَى أَبِي الْحَسَنِ ع عَنْ يَهُودِيٍّ مَاتَ وَأَوْصَى لِدُيَّانِهِمْ فَكَتَبَ ع أَوْصِلْهُ إِلَيْهِ وَعَرِّفْنِي لِأُنْفِذَهُ فِيمَا يَنْبَغِي إِنْ شَاءَ اللَّهُ",
+        "translations": {
+          "en": "He said: Ahmad ibn Hilal wrote to Abu al-Hasan (peace be upon him) about a Jew who died and bequeathed to their creditors. He wrote (peace be upon him): Deliver it to him and inform me so that I may execute it as appropriate, if Allah wills.",
+          "ur": "انہوں نے کہا: احمد بن ہلال نے ابو الحسن (علیہ السلام) کو ایک یہودی کے بارے میں لکھا جو وفات پا گیا اور اپنے قرض داروں کو وصیت کی۔ انہوں نے (علیہ السلام) لکھا: اسے اسے دے دو اور مجھے اطلاع دو تاکہ میں اسے مناسب طریقے سے نافذ کر سکوں، اگر اللہ چاہے۔",
+          "tr": "Dedi ki: Ahmed ibn Hilal, Ebu'l-Hasan'a (aleyhisselam) bir Yahudi'nin vefat edip alacaklılarına vasiyet etmesi hakkında mektup yazdı. O (aleyhisselam) yazdı: Ona teslim edin ve bana bildirin ki, Allah dilerse uygun şekilde yerine getireyim.",
+          "fa": "گفت: احمد بن هلال برای ابو الحسن (علیه السلام) از یهودی نوشت که مرد و دین‌های خود را به طلبکارانش وصیت کرد. او (علیه السلام) نوشت: آن را به او بده و خبر ده تا چنان‌که شایسته است، اگر خدا بخواهد، اجرا کنم.",
+          "id": "Ia berkata: Ahmad ibn Hilal menulis kepada Abu al-Hasan (alamaihis salam) tentang seorang Yahudi yang meninggal dunia dan mewariskan hartanya kepada para kreditor mereka. Ia menulis (alamaihis salam): Berikanlah kepadanya dan beritahukanlah kepadaku agar aku dapat melaksanakannya sebagaimana mestinya, jika Allah menghendaki.",
+          "bn": "তিনি বললেন, আহমাদ ইবনে হিলাল (রহ.) আবুল হাসান (আ.)-এর নিকট একটি ইহুদীর মৃত্যু ও তার ঋণদাতগণকে ওয়াজিত করার বিষয়ে লিখলেন। তিনি (আ.) লিখলেন, তাকে দিয়ে দাও এবং আমাকে জানাও, যাতে আমি আল্লাহর ইচ্ছায় যথাযথভাবে তা সম্পন্ন করি।",
+          "es": "Dijo: Ahmad ibn Hilal escribió a Abu al-Hasan (que la paz sea con él) acerca de un judío que murió y legó a sus acreedores. Él escribió (que la paz sea con él): Entrégalo a él e infórmame para que lo ejecute como corresponda, si Allah quiere.",
+          "fr": "Il a dit : Ahmad ibn Hilal a écrit à Abou al-Hasan (que la paix soit sur lui) au sujet d'un Juif qui est mort et a légué à ses créanciers. Il a écrit (que la paix soit sur lui) : Remets-le-lui et informe-moi afin que je l'exécute comme il convient, si Allah le veut.",
+          "de": "Er sagte: Ahmad ibn Hilal schrieb an Abu al-Hasan (friede sei mit ihm) über einen Juden, der starb und seinen Gläubigern vermachte. Er schrieb (friede sei mit ihm): Bringt es ihm und informiert mich, damit ich es, wenn Allah will, entsprechend vollziehe.",
+          "ru": "Сказал: Ахмад ибн Хилали написал Абу аль-Хасану (да будет мир с ним) о том, что умер иудей, который завещал своим кредиторам. Он написал (да будет мир с ним): Отдай ему и сообщи мне, чтобы я исполнил это надлежащим образом, если пожелает Аллах.",
+          "zh": "他说：艾哈迈德·本·希拉勒致信艾布·哈桑（愿主安宁于他），提及一个犹太人去世并将财产遗赠给其债权人。他（愿主安宁于他）回信说：将财产交付给他，并告知我，以便我酌情执行，若真主意欲。"
+        },
+        "word_start": 361,
+        "word_end": 386
+      },
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "7- مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ مُحَمَّدٍ",
+        "translations": {
+          "en": "7- Muhammad ibn Ahmad ibn Yahya from Muhammad ibn Isa from Muhammad ibn Muhammad",
+          "ur": "7- محمد بن احمد بن یحییٰ سے محمد بن عیسیٰ سے محمد بن محمد",
+          "tr": "7- Muhammed ibn Ahmed ibn Yahya'dan, Muhammed ibn İsa'dan, Muhammed ibn Muhammed",
+          "fa": "۷- محمد بن محمد بن احمد بن یحییٰ از محمد بن عیسیٰ از محمد بن محمد",
+          "id": "7- Muhammad ibn Ahmad ibn Yahya dari Muhammad ibn Isa dari Muhammad ibn Muhammad",
+          "bn": "৭- মুহাম্মদ ইবনে আহমদ ইবনে ইয়াহ্যা, মুহাম্মদ ইবনে ইসা থেকে, মুহাম্মদ ইবনে মুহাম্মদ থেকে",
+          "es": "7- Muhammad ibn Ahmad ibn Yahya de Muhammad ibn Isa de Muhammad ibn Muhammad",
+          "fr": "7- Muhammad ibn Ahmad ibn Yahya de Muhammad ibn Isa de Muhammad ibn Muhammad",
+          "de": "7- Muhammad ibn Ahmad ibn Yahya von Muhammad ibn Isa von Muhammad ibn Muhammad",
+          "ru": "7- Мухаммад ибн Ахмад ибн Яхья от Мухаммада ибн Исы от Мухаммада ибн Мухаммада",
+          "zh": "7-穆罕默德·本·艾哈迈德·本·叶海亚从穆罕默德·本·伊萨从穆罕默德·本·穆罕默德"
+        },
+        "word_start": 386,
+        "word_end": 400
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ كَتَبَ عَلِيُّ بْنُ بِلَالٍ إِلَى أَبِي الْحَسَنِ ع يَهُودِيٌّ مَاتَ وَأَوْصَى لِدُيَّانِهِ بِشَيْءٍ أَقْدِرُ عَلَى أَخْذِهِ هَلْ يَجُوزُ أَنْ آخُذَهُ فَأُدْفِعَهُ إِلَى مَوَالِيكَ أَوْ أُنفِذَهُ فِيمَا أَوصَى بِهِ الْيَهُودِيَّ فَكَتَبَ ع أَوْصِلْهُ إِلَيْهِ وَعَرِّفْنِيهِ لِأُنْفِذَهُ فِيمَا يَنْبَغِي إِنْ شَاءَ اللَّهُ",
+        "translations": {
+          "en": "He said: Ali ibn Bilal wrote to Abu al-Hasan (peace be upon him): A Jew died and bequeathed to his creditors something I am able to take. Is it permissible for me to take it and deliver it to your mawalis, or execute it in what the Jew bequeathed to? He wrote (peace be upon him): Deliver it to him and inform me of it so that I may execute it as appropriate, if Allah wills.",
+          "ur": "انہوں نے کہا: علی بن بیلال نے ابو الحسن (علیہ السلام) کو لکھا کہ ایک یہودی فوت ہوا اور اس نے اپنے قرض داروں کو کچھ وصیت کی جو میں لینے کی صلاحیت رکھتا ہوں۔ کیا یہ جائز ہے کہ میں اسے لے لوں اور آپ کے موالی کو دے دوں، یا اسی چیز میں خرچ کر دوں جس میں اس یہودی نے وصیت کی تھی؟ انہوں نے (علیہ السلام) لکھا کہ اسے اسے دے دو اور مجھے اطلاع دے دو تاکہ میں اسے مناسب طریقے سے خرچ کر دوں، اگر اللہ چاہے۔",
+          "tr": "Dedi ki: Ali b. Bilal, Ebu'l-Hasan'a (aleyhisselam) şöyle bir mektup yazdı: Bir Yahudi öldü ve borçlularına, alabileceğim bir şey vasiyet etti. Onu alıp mavalinize teslim etmem caiz midir, yoksa Yahudi'nin vasiyet ettiği şeyi yerine getirmem mi gerekir? O (aleyhisselam) yazdı: Onu alıp bana haber ver, Allah dilerse uygun şekilde yerine getireyim.",
+          "fa": "گفت: علی بن بیلال به ابوالحسن (علیهالسلام) نوشت: یهودی مرد و به بدهکارانش چیزی را وصیت کرد که من توانایی گرفتن آن را دارم. آیا برای من جایز است که آن را بگیرم و به موالی شما بدهم، یا آن را به همان چیزی که یهودی وصیت کرده اجرا کنم؟ او (علیهالسلام) نوشت: آن را به او بده و مرا از آن آگاه کن تا اگر خدا بخواهد، آن را به شایستگی اجرا کنم.",
+          "id": "Ia berkata: Ali bin Bilal menulis kepada Abu al-Hasan (alamaihis salam): Seorang Yahudi meninggal dunia dan mewasiatkan kepada para kreditor sesuatu yang dapat aku ambil. Apakah diperbolehkan bagiku untuk mengambilnya dan menyerahkannya kepada mawalis kalian, atau melaksanakannya sesuai dengan apa yang diwasiatkan oleh Yahudi tersebut? Ia menulis (alamaihis salam): Serahkanlah kepadanya dan beritahukanlah kepadaku hal itu agar aku dapat melaksanakannya sebagaimana mestinya, jika Allah menghendaki.",
+          "bn": "তিনি বললেন: আলী ইবনে বিলাল আবু আল-হাসান (আলৈহিস সালাম)-কে লিখলেন: একজন ইহুদী মারা গেল এবং তার ঋণদাতাদেরকে এমন কিছু ওয়াজজ করল যা আমি গ্রহণ করতে সক্ষম। আমার জন্য এটি গ্রহণ করে আপনার মওয়ালীদের নিকট পৌঁছে দেওয়া জায়েজ, নাকি ওয়াজজানুসারে তা কার্যকর করা উচিত? তিনি (আলৈহিস সালাম) লিখলেন: এটি তাকে পৌঁছে দিন এবং আমাকে জানাবেন, যাতে আমি ইশাআল্লাহ্ ইচ্ছা করলে উপযুক্তভাবে তা কার্যকর করতে পারি।",
+          "es": "Dijo: Ali ibn Bilal escribió a Abu al-Hasan (que la paz sea con él): Murió un judío y dejó en herencia a sus acreedores algo que yo puedo tomar. ¿Es permisible para mí tomarlo y entregarlo a tus mawalis, o ejecutarlo en lo que el judío legó? Él escribió (que la paz sea con él): Entrégalo a él e infórmame de ello para que yo lo ejecute como corresponda, si Allah quiere.",
+          "fr": "Il dit : Ali ibn Bilal écrivit à Abou al-Hasan (que la paix soit sur lui) : Un Juif est décédé et a légué à ses créanciers quelque chose que je suis en mesure de percevoir. Est-il permis pour moi de le percevoir et de le remettre à vos mawalis, ou de l'exécuter selon ce que le Juif a légué ? Il écrivit (que la paix soit sur lui) : Remets-le-lui et informe-moi-en afin que je l'exécute comme il convient, si Allah le veut.",
+          "de": "Er sagte: Ali ibn Bilal schrieb an Abu al-Hasan Abu al-Hasan (friede sei mit ihm): Ein Jude starb und vermachte seinen Gläubigern etwas, das ich einfordern kann. Ist es mir erlaubt, es einzufordern und an eure Mawalis zu übergeben, oder es in dem auszuführen, wozu der Jude es vermachte? Er schrieb (friede sei mit ihm): Übergebe es ihm und informiere mich darüber, damit ich es, wenn Allah will, entsprechend ausführe.",
+          "ru": "Сказал: Али ибн Билаль написал Абу аль-Хасанасу (да будет мир с ним): Умер иудей и завещал своим кредиторам то, что я могу взять. Разрешено ли мне взять это и передать вашим мауля, или исполнить то, к чему иудей завещал? Он написал (да будет мир с ним): Передай ему и сообщи мне об этом, чтобы я исполнил это надлежащим образом, если пожелает Аллах.",
+          "zh": "他说：阿里·本·比拉勒致信给阿布·哈桑（愿主安宁于他）：一个犹太人去世了，他将其债务人的某项财产遗赠给我，我可以取得。我是否可以取得并交付给你的马瓦利，还是按照该犹太人所遗赠的内容执行？他（愿主安宁于他）回信：交付给他，并告知我，以便我酌情执行，如果真主意欲。"
+        },
+        "word_start": 400,
+        "word_end": 441
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَلَا تُنَافِي بَيْنَ هَذَيْنِ الْخَبَرَيْنِ وَالْأَخْبَارِ الْمُتَقَدِّمَةِ لِأَنَّهُ لَيْسَ فِيهِمَا أَكْثَرَ مِنْ أَنَّهُ أَمَرَ بِإِيصَالِ الْمَالِ إِلَيْهِ وَلَا يَمْتَنِعُ أَنْ يَكُونَ إِنَّمَا اسْتَدْعَى الْمَالَ إِلَيْهِ لِيَتَوَلَّى هُوَ تَفْرِقَتَهُ عَلَى حَسَبِ مَا أَمَرَ الْمُوصِي وَلَيْسَ فِي هَذَيْنِ الْخَبَرَيْنِ أَنَّهُ خَالَفَ مَا أَوصَى وَصَرَفَ فِي غَيْرِ ذَلِكَ الْوَجْه",
+        "translations": {
+          "en": "So do not see a contradiction between these two reports and the preceding reports, because there is not more in them than that he ordered the delivery of the wealth to him. And it is not impossible that he only summoned the wealth to himself to manage its distribution himself according to what the bequeather ordered. And in these two reports there is no indication that he contradicted what was bequeathed and diverted it to another direction.",
+          "ur": "پس ان دو روایات اور ان سے پہلے والی روایات کے درمیان کوئی تضاد نہ سمجھو، کیونکہ ان میں اس سے زیادہ نہیں ہے کہ اس نے مال کو اس کے پاس پہنچانے کا حکم دیا۔ اور یہ بھی ممکن ہے کہ اس نے صرف اس بات کے لیے مال کو اپنے پاس بلایا تھا کہ وہ خود اس کی تقسیم کا انتظام کرے جیسا کہ موصی نے حکم دیا تھا۔ اور ان دو روایات میں یہ اشارہ نہیں ہے کہ اس نے موصی کی وصیت کا انکار کیا اور اسے کسی دوسری سمت میں موڑ دیا۔",
+          "tr": "Bu iki rivayet ile önceki rivayetler arasında bir çelişki görme, çünkü onlarda onun malı kendisine teslim etmesini emretmekten başka bir şey yoktur. Malı, vasiyet edenin emrettiği şekilde dağıtımını kendisi yapmak için yalnızca kendisine çağırmış olması da muhtemeldir. Bu iki rivayette, onun vasiyet edilen şeye aykırı düşerek onu başka bir yöne çevirdiğine dair bir işaret yoktur.",
+          "fa": "پس تناقضی میان این دو روایت و روایات پیشین ندان، زیرا در آن‌ها بیش از این نیست که او دستور داد ثروت به او برسد. و این محال نیست که او تنها ثروت را برای خود فراخواند تا توزیع آن را خود بر اساس آنچه وصیت‌کننده دستور داده بود مدیریت کند. و در این دو روایت نشانه‌ای از این نیست که او آنچه وصیت شده بود را نقض کرد و آن را به سمت دیگری منحرف ساخت.",
+          "id": "Maka janganlah kamu melihat adanya pertentangan antara kedua hadis ini dan hadis-hadis sebelumnya, karena tidak ada lebih dari itu bahwa ia memerintahkan penyerahan harta kepadanya. Dan tidak mustahil bahwa ia hanya memanggil harta itu untuk dirinya sendiri agar ia sendiri yang mengelola pembagiannya sesuai dengan apa yang diperintahkan oleh yang berwasiat. Dan dalam kedua hadis ini tidak ada indikasi bahwa ia bertentangan dengan apa yang diwasiatkan dan mengalihkannya ke arah lain.",
+          "bn": "অতএব, এই দুটি রিপোর্ট এবং পূর্ববর্তী রিপোর্টগুলোর মধ্যে কোনো বিrodধা দেখা যাবে না, কারণ এতে আর কিছুই নেই যে, তিনি সম্পদ তাঁর নিকট প্রেরণের আদেশ দিয়েছিলেন। এবং এটাও অসম্ভব নয় যে, তিনি কেবল সম্পদ নিজের নিকট ডেকে এনেছিলেন যাতে তিনি বর্নকারীর নির্দেশ অনুযায়ী তার বণ্টন নিজেই পরিচালনা করতে পারেন। এবং এই দুটি রিপোর্টে কোনো ইঙ্গিত নেই যে, তিনি বর্নিত বিষয়ের বিরোধিতা করেছেন এবং অন্য দিকে মোড় ঘুরিয়ে দিয়েছেন।",
+          "es": "Por lo tanto, no veas una contradicción entre estos dos informes y los informes precedentes, porque no hay más en ellos que el haber ordenado la entrega de la riqueza a él. Y no es imposible que él solo haya convocado la riqueza para sí mismo para gestionar su distribución personalmente según lo ordenado por el testador. Y en estos dos informes no hay indicación de que él contradijera lo legado y lo desviara hacia otra dirección.",
+          "fr": "Alors, ne vois pas de contradiction entre ces deux rapports et les rapports précédents, car il n'y a en eux que le fait qu'il a ordonné la remise des richesses à lui. Et il n'est pas impossible qu'il ait seulement convoqué les richesses à lui-même pour gérer leur distribution lui-même selon ce que le testateur a ordonné. Et dans ces deux rapports, il n'y a aucune indication qu'il ait contredit ce qui a été légué et détourné vers une autre direction.",
+          "de": "So sieh keinen Widerspruch zwischen diesen beiden Berichte und den vorangehenden Berichten entgegenstehenden Widerspruch, denn es steht in ihnen nichts weiter, als dass er den Befehl gab, das Vermögen zu ihm zu bringen. Und es ist nicht unmöglich, dass er das Vermögen nur zu sich selbst kommen ließ, um dessen Verteilung gemäß der Anordnung des Erblassers selbst zu verwalten. Und in diesen beiden Berichten gibt es keine Andeutung, dass er dem Vermachten widersprochen und es in eine andere Richtung gelenkt hätte.",
+          "ru": "Посему не усматривай противоречия между этими двумя сообщениями и предыдущими, ибо в них нет ничего, кроме того, что он приказал доставить ему имущество. И не исключено, что он лишь призвал имущество к себе, чтобы лично управлять его распределением согласно завещанию. И в этих двух сообщениях нет указания на то, что он противоречил завещанию и направил его в другое русло.",
+          "zh": "因此，不要在这两份报告与前文所述报告之间看到矛盾，因为它们所包含的不过是命令将财富交给他而已。也有可能他只是将财富召集到自己身边，以便根据遗嘱人的命令亲自管理其分配。在这两份报告中，并没有迹象表明他违背了遗嘱，将其转向其他方向。"
+        },
+        "word_start": 441,
+        "word_end": 487
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This narration from *Al-Istibsar* establishes the principle of *al-wafā bi-l-waṣiyya* (fulfilling the bequest) for *Ahl al-Kitāb* and Magians, emphasizing that the donor's intent prevails unless explicitly altered by the testator. The Imams cite Quran 2:181 to warn against unilateral substitution (*tabdīl*) by executors, while distinguishing between mere delivery of funds to the Imam for distribution versus actual diversion of the wealth. This ruling underscores the Shia jurisprudential view that non-Muslims' bequests are binding contracts, preserving their religious and social autonomy in estate management.",
+        "seo_question": "What is the ruling if a non-Muslim bequeaths their wealth to be spent in the way of Allah?",
+        "key_terms": {
+          "وَصِيَّة": "Will or bequest",
+          "فِي سَبِيلِ اللَّهِ": "In the way of Allah (charity/cause)",
+          "يَهُودِيٌّ": "Jew",
+          "نَصْرَانِيٌّ": "Christian",
+          "مَجُوسِيٌّ": "Magian (Zoroastrian)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "Poor Muslims",
+          "دُيَّانُونَ": "Creditors",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "The sin is upon those who change it"
+        }
+      },
+      "ur": {
+        "summary": "یہ روایت *الاستبصار* سے *اہل کتاب* اور مجوسیوں کے لیے *الوفاء بالوصیہ* (وصیت کی ادائیگی) کے اصول کو قائم کرتی ہے، جس میں زور دیا گیا ہے کہ موصی کی نیت اس وقت تک غالب رہتی ہے جب تک کہ اسے واضح طور پر تبدیل نہ کیا جائے۔ ائمہ قرآن مجید کی آیت 2:181 سے قاضیوں کی جانب سے یکطرفہ تبدیلی (*تبدیل*) سے احتیاط کی تنبیہ کرتے ہیں، جبکہ اموال کی امام کے پاس تقسیم کے لیے پہنچانے اور مال کی اصل تقسیم میں انحراف کے درمیان فرق واضح کرتے ہیں۔ یہ حکم شیعہ فقہی نقطہ نظر کو اجاگر کرتا ہے کہ غیر مسلموں کی وصیتیں پابند کرنے والے معاہدے ہیں، جو ورثہ کی انتظامیہ میں ان کی مذہبی اور سماجی خود مختاری کو برقرار رکھتی ہیں۔",
+        "seo_question": "اگر کوئی غیر مسلم اپنا مال اللہ کی راہ میں خرچ ہونے کے لیے وصیت کرے تو حکم کیا ہے؟",
+        "key_terms": {
+          "وَصِيَّة": "وصیت",
+          "فِي سَبِيلِ اللَّهِ": "اللہ کی راہ میں",
+          "يَهُودِيٌّ": "یہودی",
+          "نَصْرَانِيٌّ": "عیسائی",
+          "مَجُوسِيٌّ": "مجوسی",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "مسلمانوں کے غریب",
+          "دُيَّانُونَ": "قرض دار",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "گناہ ان پر ہے جو اسے بدل دیتے ہیں"
+        }
+      },
+      "tr": {
+        "summary": "Bu *el-İstibṣâr* rivayeti, *Ehl-i Kitap* ve Mecusiler için *el-vafâ bi-l-vasiyya* (vasiyeti yerine getirme) ilkesini tesis eder ve bağışlayanın niyetinin, testatör tarafından açıkça değiştirilmedikçe üstün geldiğini vurgular. İmamlar, müsilere tek taraflı bir değişiklik (*tebdîl*) yapmamaları konusunda Kur'an 2:181'i zikrederken, fonların dağıtılmak üzere İmam'a teslim edilmesi ile malın asıl değiştirilmesi arasında ayrım yaparlar. Bu hüküm, Şii hukuk görüşünün, gayrimüslimlerin vasiyetlerini bağlayıcı sözleşmeler olarak gördüğünü ve miras yönetimi içinde dini ve sosyal özerkliklerini koruduğunu ortaya koyar.",
+        "seo_question": "Bir gayrimüslim malını Allah yolunda harcanmak üzere vasiyet ederse hüküm nedir?",
+        "key_terms": {
+          "وَصِيَّة": "Vasiyet veya miras bırakma",
+          "فِي سَبِيلِ اللَّهِ": "Allah'ın yolunda (sadaka/niyet)",
+          "يَهُودِيٌّ": "Yahudi",
+          "نَصْرَانِيٌّ": "Hristiyan",
+          "مَجُوسِيٌّ": "Mecusi (Zerdüşti)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "Fakir Müslümanlar",
+          "دُيَّانُونَ": "Alacaklılar",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "Değiştirenlerin günahı üzerindedir"
+        }
+      },
+      "fa": {
+        "summary": "این روایت از *الاستبصار* اصل *وفای به وصیت* برای اهل کتاب و مجوس را تثبیت می‌ک می‌کند و بر این نکته تأکید دارد که نیت مووصی برتر است مگر اینکه وصیت‌کننده صراحتاً آن را تغییر دهد. ائمه با استناد به آیه ۱۸۱ سوره بقره از تغییر یک‌جانبه توسط موصی‌له‌انجام‌دهندگان (تبدیل) هشدار می‌دهند و میان صرف تحویل اموال به امام برای توزیع و انحرک واقعی ثروت تمایز قائل می‌شوند. این حکم دیدگاه فقهی شیعه را نشان می‌دهد که وصیت‌های غیرمسلمانان قراردادهای الزام‌آور هستند و استقلال دینی و اجتماعی آن‌ها را در مدیریت ارث حفظ می‌کنند.",
+        "seo_question": "حکم آن است اگر غیرمسلمان ثروت خود را برای راه خدا وصیت کند؟",
+        "key_terms": {
+          "وَصِيَّة": "وصیت یا اهدا",
+          "فِي سَبِيلِ اللَّهِ": "در راه خدا (صدقه/علت)",
+          "يَهُودِيٌّ": "یهودی",
+          "نَصْرَانِيٌّ": "مسیحی",
+          "مَجُوسِيٌّ": "مجوسی (زرتشتی)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "مسلمانان فقیر",
+          "دُيَّانُونَ": "مدیونان",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "گناه بر کسانی است که آن را تغییر می‌دهند"
+        }
+      },
+      "id": {
+        "summary": "Riwayat dari *Al-Istibsar* ini menetapkan prinsip *al-wafā bi-l-waṣiyya* (menepati wasiat) bagi *Ahl al-Kitāb* dan Majusi, dengan menekankan bahwa niat pemberi wasiat tetap berlaku kecuali diubah secara eksplisit oleh pewaris. Para Imam merujuk Al-Quran 2:181 untuk memperingatkan terhadap penggantian sepihak (*tabdīl*) oleh pelaksana wasiat, sambil membedakan antara sekadar menyerahkan dana kepada Imam untuk didistribusikan versus pengalihan kekayaan yang sebenarnya. Hukum ini menegaskan pandangan fikih Syiah bahwa wasiat non-Muslim adalah kontrak yang mengikat, sehingga menjaga otonomi agama dan sosial mereka dalam pengelolaan harta warisan.",
+        "seo_question": "Apa hukumnya jika seorang non-Muslim mewariskan hartanya untuk disalurkan di jalan Allah?",
+        "key_terms": {
+          "وَصِيَّة": "Wasiat",
+          "فِي سَبِيلِ اللَّهِ": "Di jalan Allah",
+          "يَهُودِيٌّ": "Yahudi",
+          "نَصْرَانِيٌّ": "Kristen",
+          "مَجُوسِيٌّ": "Majusi",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "Orang miskin Muslim",
+          "دُيَّانُونَ": "Para kreditor",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "Dosa itu berada pada orang-orang yang mengubahnya"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে *আল-ইস্তিবসার* থেকে *আল-ওয়াফা বিল-ওয়াসিয়া* (বিয়্যাত পূর্ণ করা) এর নীতিটি প্রতিষ্ঠিত হয়েছে *আহল আল-কিতাব* এবং মাজুসীদের জন্য, যেখানে দাতার ইচ্ছা প্রবল বলে গণ্য হয় যদি না পরীক্ষক স্পষ্টভাবে পরিবর্তন করেন। ইমামরা কুরআন ২:১৮১ উদ্ধৃত করে একপক্ষীয় প্রতিস্থাপন (*তাবদীল*) সতর্কবার্তা দেন, এবং তহবিল ইমামের নিকট বিতরণের জন্য প্রদান এবং সম্পদের প্রকৃত অপচয়ের মধ্যে পার্থক্য করেন। এই ফরমান শিয়া ফিকহের দৃষ্টিভঙ্গি তুলে ধরে যে, অমুসলিমদের বিয়্যাত বাধ্যতামূলক চুক্তি, যা সম্পদ ব্যবস্থাপনায় তাদের ধর্মীয় ও সামাজিক স্বায়ত্তশাসন বজায় রাখে।",
+        "seo_question": "যদি একজন অমুসলিম তাদের সম্পদ আল্লাহর পথে খরচ করার জন্য বিয়্যাত করেন, তবে রuling কী হবে?",
+        "key_terms": {
+          "وَصِيَّة": "বিয়্যাত বা উইল",
+          "فِي سَبِيلِ اللَّهِ": "আল্লাহর পথে (খয়রাত/কারণ)",
+          "يَهُودِيٌّ": "ইহুদি",
+          "نَصْرَانِيٌّ": "খ্রিস্টান",
+          "مَجُوسِيٌّ": "মাজুস (জরথুস্ত্রবাদী)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "মুসলিম গরিবরা",
+          "دُيَّانُونَ": "ঋণদাতারা",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "সেই পাপ those who change it-এর উপর"
+        }
+      },
+      "es": {
+        "summary": "Esta narración de *Al-Istibsar* establece el principio de *al-wafā bi-l-waṣiyya* (cumplir con el legado) para los *Ahl al-Kitāb* y los magianos, enfatizando que la intención del donante prevalece a menos que sea alterada explícitamente por el testador. Los Imames citan el Corán 2:181 para advertir contra la sustitución unilateral (*tabdīl*) por los ejecutores, distinguiendo entre la mera entrega de fondos al Imam para su distribución y la desviación real de la riqueza. Este dictamen subraya subraya la visión jurisprudencial chií de que los legados de los no musulmanes son contratos vinculantes, preservando su autonomía religiosa y social en la gestión del patrimonio.",
+        "seo_question": "¿Cuál es el dictamen si un no musulmán legara su riqueza para ser gastada en el camino de Allah?",
+        "key_terms": {
+          "وَصِيَّة": "Voluntad o legado",
+          "فِي سَبِيلِ اللَّهِ": "En el camino de Allah (caridad/causa)",
+          "يَهُودِيٌّ": "Judío",
+          "نَصْرَانِيٌّ": "Cristiano",
+          "مَجُوسِيٌّ": "Magiano (zoroastrista)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "Pobres musulmanes",
+          "دُيَّانُونَ": "Acreedores",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "El pecado recae sobre quienes lo cambian"
+        }
+      },
+      "fr": {
+        "summary": "Cette narration d'*Al-Istibsar* établit le principe de *al-wafā bi-l-waṣiyya* (accomplir le legs) pour les *Ahl al-Kitāb* et les Magiens, soulignant que l'intention du donateur prévaut sauf modification explicite du testateur. Les Imams citent le verset 2:181 du Coran pour mettre en garde contre la substitution unilatérale (*tabdīl*) par les exécuteurs, tout en distinguant la simple remise des fonds à l'Imam pour distribution de la diversion effective des richesses. Cette règle souligne la vue jurisprudentielle chiite selon laquelle les legs des non-musulmans sont des contrats contraignants, préservant leur autonomie religieuse et sociale dans la gestion du patrimoine.",
+        "seo_question": "Quelle est la règle si un non-musulman lègue ses richesses pour être dépensées sur le chemin d'Allah ?",
+        "key_terms": {
+          "وَصِيَّة": "Volonté ou legs",
+          "فِي سَبِيلِ اللَّهِ": "Sur le chemin d'Allah (aumône/cause)",
+          "يَهُودِيٌّ": "Juif",
+          "نَصْرَانِيٌّ": "Chrétien",
+          "مَجُوسِيٌّ": "Magien (zoroastrien)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "Musulmans pauvres",
+          "دُيَّانُونَ": "Créanciers",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "Le péché retombe sur ceux qui le modifient"
+        }
+      },
+      "de": {
+        "summary": "Diese Überlieferung aus *Al-Istibsar* begründet das Prinzip der *al-wafā bi-l-waṣiyya* (Erfüllung des Testaments) für die *Ahl al-Kitāb* und Magier und betont, dass der Wille des Stifters gilt, sofern er nicht ausdrücklich vom Testierenden geändert wird. Die Imame verweisen auf Koran 2:181, um vor einseitigem Austausch (*tabdīl*) durch die Testamentsvollstrecker zu warnen, und unterscheiden dabei zwischen der bloßen Übergabe von Geldern an den Imam zur Verteilung und der tatsächlichen Umleitung des Vermögens. Diese Rechtsregel unterstreicht die schiitisch-juristische Ansicht, dass die Testamente von Nicht-Muslimen bindende Verträge sind und ihre religiöse und soziale Autonomie im Erbschaftsmanagement bewahren.",
+        "seo_question": "Wie lautet das Urteil, wenn ein Nicht-Muslim sein Vermögen für den Weg Allahs vererbt?",
+        "key_terms": {
+          "وَصِيَّة": "Wille oder Vermächtnis",
+          "فِي سَبِيلِ اللَّهِ": "Im Weg Allahs (Wohltätigkeit/Ursache)",
+          "يَهُودِيٌّ": "Jude",
+          "نَصْرَانِيٌّ": "Christ",
+          "مَجُوسِيٌّ": "Magier (Zoroastrier)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "Arme Muslime",
+          "دُيَّانُونَ": "Gläubiger",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "Die Sünde lastet auf denen, die es ändern"
+        }
+      },
+      "ru": {
+        "summary": "Это предание из «аль-Истибсара» устанавливает принцип соблюдения завещания (*аль-вафа биль-вазия*) для ахль аль-китаб и маджусов, подчеркивая, что намерение дарителя имеет приоритет, если только завещатель не изменил его явно. Имамы приводят аят 2:181 Корана, чтобы предостеречь от односторонней замены (*табдиль*) исполнителями завещания, проводя различие между простой передачей средств имаму для распределения и фактическим отвлечением богатства. Это постановление подчеркивает шиитскую правовую точку зрения, согласно которой завещания немусульман являются обязательными договорами, сохраняющими их религиозную и социальную автономию в управлении наследством.",
+        "seo_question": "Каково правило, если немусульман завещает свое богатство на путь Аллаха?",
+        "key_terms": {
+          "وَصِيَّة": "Завещание",
+          "فِي سَبِيلِ اللَّهِ": "На пути Аллаха",
+          "يَهُودِيٌّ": "Иудей",
+          "نَصْرَانِيٌّ": "Христианин",
+          "مَجُوسِيٌّ": "Магус (зороастриец)",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "Бедные мусульмане",
+          "دُيَّانُونَ": "Кредиторы",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "Грех на тех, кто изменяет его"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《伊斯蒂巴鲁的圣训确立了针对有经者和马吉斯的遗嘱履行原则，强调除非立遗嘱人明确更改，否则捐赠者的意图优先。伊玛目引用《古兰经》2:181警告执行人不得单方面替换（塔德希尔），同时区分将资金交付伊玛目分配与实际挪用财富的不同。这一裁决凸显了什叶派法学观点，即非穆斯林的遗嘱是具有约束力的契约，保留了他们在遗产管理中的宗教和社会自主权。",
+        "seo_question": "如果非穆斯林将其财富遗赠用于真主之道， rulings 是什么？",
+        "key_terms": {
+          "وَصِيَّة": "遗嘱",
+          "فِي سَبِيلِ اللَّهِ": "在真主之道",
+          "يَهُودِيٌّ": "犹太人",
+          "نَصْرَانِيٌّ": "基督徒",
+          "مَجُوسِيٌّ": "马吉人（祆教徒）",
+          "فُقَرَاءُ الْمُسْلِمِينَ": "贫穷的穆斯林",
+          "دُيَّانُونَ": "债权人",
+          "إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ": "罪责归于那些更改它的人"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:181",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:180",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ عَلِيٍّ بْنِ الْحَكَمِ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا ع فِي رَجُلٍ أَوصَى بِمَالِهِ فِي سَبِيلِ اللَّهِ قَالَ أَعْطِ لِمَنْ أَوصَى لَهُ وَإِنْ كَانَ يَهُودِيًّا أَوْ نَصْرَانِيًّا إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ 2- سَهْلُ بْنُ زِيَادٍ عَنْ مُحَمَّدِ بْنِ الْوَلِيدِ عَنْ يُونُسَ بْنِ يَعْقُوبَ أَنَّ رَجُلًا كَانَ بِهَمَدَانَ فَذَكَرَ أَنَّ أَبَاهُ مَاتَ وَكَانَ لَا يَعْرِفُ هَذَا الْأَمَرَ فَأَوْصَى بِوَصِيَّتِهِ عِنْدَ الْمَوْتِ وَأَوْصَى أَنْ يُعْطَى شَيْئًا فِي سَبِيلِ اللَّهِ فَسُئِلَ عَنْهُ أَبُو عَبْدِ اللَّهِ ع كَيْفَ يُفْعَلُ بِهِ وَأَخْبَرْنَاهُ أَنَّهُ كَانَ لَا يَعْرِفُ هَذَا الْأَمَرَ فَقَالَ لَوْ أَنَّ رَجُلًا أَوصَى إِلَيَّ أَنْ أَضَعَ فِي يَهُودِيٍّ أَوْ نَصْرَانِيٍّ لَوَضَعْتُهُ فِيهِمْ إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ فَانْظُرُوا إِلَى مَنْ يَخْرُجُ إِلَى هَذَا الْوَجْهِ يَعْنِي الثُّغُورَ فَابْعَثُوا بِهِ إِلَيْهِ 3- عَلِيٌّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الرِّيَّانِ بْنِ شَبِيبٍ قَالَ أَوصَتْ مَارِدَةُ لِقَوْمٍ نَصَارَى فَرَّاشِينَ بِوَصِيَّةٍ فَقَالَ أَصْحَابُنَا اقْسِمُوا هَذَا فِي فُقَرَاءِ الْمُسْلِمِينَ مِنْ أَصْحَابِكَ فَسَأَلْتُ الرُّضَا ع فَقُلْتُ إِنَّ أُخْتِي أَوصَتْ بِوَصِيَّةٍ لِقَوْمٍ نَصَارَى وَأَرَدْتُ أَنْ أَصْرِفَ ذَلِكَ إِلَى قَوْمٍ مِنْ أَصْحَابِنَا مُسْلِمِينَ فَقَالَ أَمْضِ الْوَصِيَّةَ عَلَى مَا أَوصَتْ بِهِ قَالَ اللَّهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ 4- عَنْهُ عَنْ أَبِيهِ عَنْ أَبِي طَالِبٍ عَبْدِ اللَّهِ بْنِ الصَّلْتِ قَالَ كَتَبَ الْخَلِيلُ بْنُ هَاشِمٍ إِلَى ذِي الرِّئَاسَتَيْنِ وَهُوَ وَالِي نَيْسَابُورَ أَنَّ رَجُلًا مِنَ الْمَجُوسِ مَاتَ وَأَوْصَى لِلْفُقَرَاءِ بِشَيْءٍ مِنْ مَالِهِ فَأَخَذَهُ قَاضِي نَيْسَابُورَ فَجَعَلَهُ فِي فُقَرَاءِ الْمُسْلِمِينَ فَكَتَبَ الْخَلِيلُ إِلَى ذِي الرِّئَاسَتَيْنِ بِذَلِكَ فَسَأَلَ الْمَأْمُونَ عَنْ ذَلِكَ فَقَالَ لَيْسَ عِنْدِي فِي ذَلِكَ مِنْ شَيْءٍ فَسَأَلَ أَبَا الْحَسَنِ ع فَقَالَ أَبُو الْحَسَنِ ع إِنَّ الْمَجُوسِيَّ لَمْ يُوصِ لِلْفُقَرَاءِ الْمُسْلِمِينَ وَلَكِنْ يَنْبَغِي أَنْ يُؤْخَذَ مِقْدَارُ ذَلِكَ الْمَالِ مِنْ مَالِ الصَّدَقَةِ فَيُرَدَّ عَلَى فُقَرَاءِ الْمَجُوسِ 5- عَلِيٌّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ حَمَّادٍ عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنْ رَجُلٍ أَوصَى بِمَالِهِ فِي سَبِيلِ اللَّهِ فَقَالَ أَعْطِهِ لِمَنْ أَوصَى لَهُ وَإِنْ كَانَ يَهُودِيًّا أَوْ نَصْرَانِيًّا إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ 6- فَأَمَّا مَا رَوَاهُ مُحَمَّدُ بْنُ عَلِيٍّ بْنِ مَحْبُوبٍ عَنْ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيٍّ الْهَمَدَانِيِّ عَنْ إِبْرَاهِيمَ بْنِ مُحَمَّدٍ قَالَ كَتَبَ أَحْمَدُ بْنُ هِلَالٍ إِلَى أَبِي الْحَسَنِ ع عَنْ يَهُودِيٍّ مَاتَ وَأَوْصَى لِدُيَّانِهِمْ فَكَتَبَ ع أَوْصِلْهُ إِلَيْهِ وَعَرِّفْنِي لِأُنْفِذَهُ فِيمَا يَنْبَغِي إِنْ شَاءَ اللَّهُ 7- مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ مُحَمَّدٍ قَالَ كَتَبَ عَلِيُّ بْنُ بِلَالٍ إِلَى أَبِي الْحَسَنِ ع يَهُودِيٌّ مَاتَ وَأَوْصَى لِدُيَّانِهِ بِشَيْءٍ أَقْدِرُ عَلَى أَخْذِهِ هَلْ يَجُوزُ أَنْ آخُذَهُ فَأُدْفِعَهُ إِلَى مَوَالِيكَ أَوْ أُنفِذَهُ فِيمَا أَوصَى بِهِ الْيَهُودِيَّ فَكَتَبَ ع أَوْصِلْهُ إِلَيْهِ وَعَرِّفْنِيهِ لِأُنْفِذَهُ فِيمَا يَنْبَغِي إِنْ شَاءَ اللَّهُ فَلَا تُنَافِي بَيْنَ هَذَيْنِ الْخَبَرَيْنِ وَالْأَخْبَارِ الْمُتَقَدِّمَةِ لِأَنَّهُ لَيْسَ فِيهِمَا أَكْثَرَ مِنْ أَنَّهُ أَمَرَ بِإِيصَالِ الْمَالِ إِلَيْهِ وَلَا يَمْتَنِعُ أَنْ يَكُونَ إِنَّمَا اسْتَدْعَى الْمَالَ إِلَيْهِ لِيَتَوَلَّى هُوَ تَفْرِقَتَهُ عَلَى حَسَبِ مَا أَمَرَ الْمُوصِي وَلَيْسَ فِي هَذَيْنِ الْخَبَرَيْنِ أَنَّهُ خَالَفَ مَا أَوصَى وَصَرَفَ فِي غَيْرِ ذَلِكَ الْوَجْه",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ عَنْ عَلِيٍّ بْنِ الْحَكَمِ عَنِ الْعَلَاءِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَحَدِهِمَا ع 2- سَهْلُ بْنُ زِيَادٍ عَنْ مُحَمَّدِ بْنِ الْوَلِيدِ عَنْ يُونُسَ بْنِ يَعْقُوبَ 3- عَلِيٌّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الرِّيَّانِ بْنِ شَبِيبٍ 4- عَنْهُ عَنْ أَبِيهِ عَنْ أَبِي طَالِبٍ عَبْدِ اللَّهِ بْنِ الصَّلْتِ 5- عَلِيٌّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ حَمَّادٍ عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ 6- فَأَمَّا مَا رَوَاهُ مُحَمَّدُ بْنُ عَلِيٍّ بْنِ مَحْبُوبٍ عَنْ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيٍّ الْهَمَدَانِيِّ عَنْ إِبْرَاهِيمَ بْنِ مُحَمَّدٍ 7- مُحَمَّدُ بْنُ أَحْمَدَ بْنِ يَحْيَى عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ مُحَمَّدٍ",
+      "matn_ar": "فِي رَجُلٍ أَوصَى بِمَالِهِ فِي سَبِيلِ اللَّهِ قَالَ أَعْطِ لِمَنْ أَوصَى لَهُ وَإِنْ كَانَ يَهُودِيًّا أَوْ نَصْرَانِيًّا إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ إِنَّ اللَّهَ سَمِيعٌ عَلِيمٌ أَنَّ رَجُلًا كَانَ بِهَمَدَانَ فَذَكَرَ أَنَّ أَبَاهُ مَاتَ وَكَانَ لَا يَعْرِفُ هَذَا الْأَمَرَ فَأَوْصَى بِوَصِيَّتِهِ عِنْدَ الْمَوْتِ وَأَوْصَى أَنْ يُعْطَى شَيْئًا فِي سَبِيلِ اللَّهِ فَسُئِلَ عَنْهُ أَبُو عَبْدِ اللَّهِ ع كَيْفَ يُفْعَلُ بِهِ وَأَخْبَرْنَاهُ أَنَّهُ كَانَ لَا يَعْرِفُ هَذَا الْأَمَرَ فَقَالَ لَوْ أَنَّ رَجُلًا أَوصَى إِلَيَّ أَنْ أَضَعَ فِي يَهُودِيٍّ أَوْ نَصْرَانِيٍّ لَوَضَعْتُهُ فِيهِمْ إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ فَانْظُرُوا إِلَى مَنْ يَخْرُجُ إِلَى هَذَا الْوَجْهِ يَعْنِي الثُّغُورَ فَابْعَثُوا بِهِ إِلَيْهِ قَالَ أَوصَتْ مَارِدَةُ لِقَوْمٍ نَصَارَى فَرَّاشِينَ بِوَصِيَّةٍ فَقَالَ أَصْحَابُنَا اقْسِمُوا هَذَا فِي فُقَرَاءِ الْمُسْلِمِينَ مِنْ أَصْحَابِكَ فَسَأَلْتُ الرُّضَا ع فَقُلْتُ إِنَّ أُخْتِي أَوصَتْ بِوَصِيَّةٍ لِقَوْمٍ نَصَارَى وَأَرَدْتُ أَنْ أَصْرِفَ ذَلِكَ إِلَى قَوْمٍ مِنْ أَصْحَابِنَا مُسْلِمِينَ فَقَالَ أَمْضِ الْوَصِيَّةَ عَلَى مَا أَوصَتْ بِهِ قَالَ اللَّهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ قَالَ كَتَبَ الْخَلِيلُ بْنُ هَاشِمٍ إِلَى ذِي الرِّئَاسَتَيْنِ وَهُوَ وَالِي نَيْسَابُورَ أَنَّ رَجُلًا مِنَ الْمَجُوسِ مَاتَ وَأَوْصَى لِلْفُقَرَاءِ بِشَيْءٍ مِنْ مَالِهِ فَأَخَذَهُ قَاضِي نَيْسَابُورَ فَجَعَلَهُ فِي فُقَرَاءِ الْمُسْلِمِينَ فَكَتَبَ الْخَلِيلُ إِلَى ذِي الرِّئَاسَتَيْنِ بِذَلِكَ فَسَأَلَ الْمَأْمُونَ عَنْ ذَلِكَ فَقَالَ لَيْسَ عِنْدِي فِي ذَلِكَ مِنْ شَيْءٍ فَسَأَلَ أَبَا الْحَسَنِ ع فَقَالَ أَبُو الْحَسَنِ ع إِنَّ الْمَجُوسِيَّ لَمْ يُوصِ لِلْفُقَرَاءِ الْمُسْلِمِينَ وَلَكِنْ يَنْبَغِي أَنْ يُؤْخَذَ مِقْدَارُ ذَلِكَ الْمَالِ مِنْ مَالِ الصَّدَقَةِ فَيُرَدَّ عَلَى فُقَرَاءِ الْمَجُوسِ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنْ رَجُلٍ أَوصَى بِمَالِهِ فِي سَبِيلِ اللَّهِ فَقَالَ أَعْطِهِ لِمَنْ أَوصَى لَهُ وَإِنْ كَانَ يَهُودِيًّا أَوْ نَصْرَانِيًّا إِنَّ اللَّهَ تَعَالَى يَقُولُ فَمَنْ بَدَّلَهُ بَعْدَ مَا سَمِعَهُ فَإِنَّمَا إِثْمُهُ عَلَى الَّذِينَ يُبَدِّلُونَهُ قَالَ كَتَبَ أَحْمَدُ بْنُ هِلَالٍ إِلَى أَبِي الْحَسَنِ ع عَنْ يَهُودِيٍّ مَاتَ وَأَوْصَى لِدُيَّانِهِمْ فَكَتَبَ ع أَوْصِلْهُ إِلَيْهِ وَعَرِّفْنِي لِأُنْفِذَهُ فِيمَا يَنْبَغِي إِنْ شَاءَ اللَّهُ قَالَ كَتَبَ عَلِيُّ بْنُ بِلَالٍ إِلَى أَبِي الْحَسَنِ ع يَهُودِيٌّ مَاتَ وَأَوْصَى لِدُيَّانِهِ بِشَيْءٍ أَقْدِرُ عَلَى أَخْذِهِ هَلْ يَجُوزُ أَنْ آخُذَهُ فَأُدْفِعَهُ إِلَى مَوَالِيكَ أَوْ أُنفِذَهُ فِيمَا أَوصَى بِهِ الْيَهُودِيَّ فَكَتَبَ ع أَوْصِلْهُ إِلَيْهِ وَعَرِّفْنِيهِ لِأُنْفِذَهُ فِيمَا يَنْبَغِي إِنْ شَاءَ اللَّهُ فَلَا تُنَافِي بَيْنَ هَذَيْنِ الْخَبَرَيْنِ وَالْأَخْبَارِ الْمُتَقَدِّمَةِ لِأَنَّهُ لَيْسَ فِيهِمَا أَكْثَرَ مِنْ أَنَّهُ أَمَرَ بِإِيصَالِ الْمَالِ إِلَيْهِ وَلَا يَمْتَنِعُ أَنْ يَكُونَ إِنَّمَا اسْتَدْعَى الْمَالَ إِلَيْهِ لِيَتَوَلَّى هُوَ تَفْرِقَتَهُ عَلَى حَسَبِ مَا أَمَرَ الْمُوصِي وَلَيْسَ فِي هَذَيْنِ الْخَبَرَيْنِ أَنَّهُ خَالَفَ مَا أَوصَى وَصَرَفَ فِي غَيْرِ ذَلِكَ الْوَجْه",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمّدُ بنُ يَحيَي عَن مُحَمّدِ بنِ الحُسَينِ عَن عَلِيّ بنِ الحَكَمِ",
+          "name_en": "Muhammad b. Yahya b. al-Husayn b. Ali b. al-Hakam",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "العَلَاءِ عَن مُحَمّدِ بنِ مُسلِمٍ عَن أَحَدِهِمَا ع",
+          "name_en": "al-Ala' b. Muhammad b. Muslim",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "سَبِيلُ اللَّهِ",
+        "phrase_en": "The way of Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "إِنْ شَاءَ اللَّهُ",
+        "phrase_en": "If Allah wills",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

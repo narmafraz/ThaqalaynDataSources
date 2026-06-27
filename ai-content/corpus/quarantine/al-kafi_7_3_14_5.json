@@ -1,0 +1,259 @@
+{
+  "verse_path": "/books/al-kafi:7:3:14:5",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[5] name_ar has 17 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّ عَلِيّاً ( عليه ا'",
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[1] translations.fa is empty string (likely Phase 4 batch failure)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "judicial_rulings",
+      "ritual_purity"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادٍ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from his father, from Ibn Abi Umeyr, from Hammad, from Al-Halabi, from Abu Abdillah (peace be upon him)",
+          "ur": "علی بن ابراہیم، ان کے والد سے، ابن ابی عمر سے، حماد سے، حلبی سے، ابو عبداللہ (علیہ السلام) سے",
+          "tr": "Ali b. İbrahim, babasından, İbn Ebi Umeyr'den, Hammad'dan, el-Halabi'den, Ebu Abdillah'dan (aleyhisselam)",
+          "fa": "علی بن ابراهیم از پدرش از ابن ابی عیمیر از حماد از حلبی از ابوعبدالله (علیه السلام)",
+          "id": "Ali bin Ibrahim dari ayahnya, dari Ibn Abi Umair, dari Hammad, dari Al-Halabi, dari Abu Abdillah (alamah)",
+          "bn": "আলী ইবনে ইবরাহীম, তাঁর পিতার নিকট হতে, ইবনে আবি উমাইয়ের নিকট হতে, হাম্মাদের নিকট হতে, আল-হলবীর নিকট হতে, আবু আবদিল্লাহ (আসসালামু আলাইহি) হতে",
+          "es": "Ali ibn Ibrahim, de su padre, de Ibn Abi Umeyr, de Hammad, de Al-Hamd, de Hammad, de Al-Halabi, de Abu Abdillah (la paz sea con él)",
+          "fr": "Ali ibn Ibrahim, de son père, d'Ibn Abi Umeyr, de Hammad, d'Al-Halabi, d'Abou Abdillah (que la paix soit sur lui)",
+          "de": "Ali ibn Ibrahim, von seinem Vater, von Ibn Abi Umeyr, von Hammad, von Al-Halabi, von Abu Abdillah (Friede sei mit ihm)",
+          "ru": "Али ибн Ибрахим, от отца его, от Ибн Аби Умайра, от Хаммада, от аль-Халаби, от Абу Абдиллаха (да будет мир с ним)",
+          "zh": "阿里·本·易卜拉欣，从他父亲，从伊本·艾比·乌麦尔，从哈马德，从哈利比，从艾布·阿卜杜拉（愿主喜悦之）"
+        },
+        "word_start": 0,
+        "word_end": 21
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَنَّ عَلِيّاً ( عليه السلام ) ضَرَبَ رَجُلًا تَزَوَّجَ امْرَأَةً فِي نِفَاسِهَا قَبْلَ أَنْ تَطْهُرَ الْحَدَّ",
+        "translations": {
+          "en": "That Ali (peace be upon him) struck a man with the penalty (Hadd), who married a woman during her postpartum bleeding, before she had purified herself.",
+          "ur": "اس پر علی (علیہ السلام) نے اس شخص پر حد لگائی جس نے عورت کے پستہ خون کے دوران، اس کے پاک ہونے سے پہلے، نکاح کیا تھا۔",
+          "tr": "Ali (aleyhisselam), kadın loğalık kanaması iken, kendisi temizlenmeden önce onunla evlenen bir adama hadd vurdu.",
+          "id": "Ali (alamah) memukul seorang laki-laki dengan hukuman (Hadd), karena ia menikahi seorang wanita saat masih dalam masa nifas, sebelum ia bersuci.",
+          "bn": "আলী (র.) এক ব্যক্তিকে হদ্দ শাস্তি দেন, যে নারী সন্তানপ্রসবের পর রক্তপাতের সময় পবিত্র না হওয়ার আগেই তার সাথে বিবাহবন্ধনে আবদ্ধ হয়েছিল।",
+          "es": "Que Ali (que la paz sea con él) aplicó la pena (Hadd) a un hombre que se casó con una mujer durante su sangrado posparto, antes de que se purificara.",
+          "fr": "Qu'Ali (que la paix soit sur lui) ait appliqué la peine (Hadd) à un homme qui avait épousé une femme pendant sa saignature post-partum, avant qu'elle ne se soit purifiée.",
+          "de": "Dass Ali (Friede sei mit ihm) einen Mann mit der Hadd-Strafe schlug, der eine Frau während ihrer postpartalen Blutung geheiratet hatte, bevor sie sich gereinigt hatte.",
+          "ru": "Что Али (да будет мир с ним) нанес наказание (хадд) человеку, который женился на женщине во время её послеродового кровотечения, до того как она очистилась.",
+          "zh": "阿里（愿主福安之）对一名男子执行了石刑，该男子在其妻子产褥期出血期间、尚未洁净时与她结婚。",
+          "fa": ""
+        },
+        "word_start": 21,
+        "word_end": 37
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) administered the Hadd punishment to a man who contracted marriage with a woman before her postpartum bleeding (nifas) had fully ceased, establishing the validity of this specific marital irregularity. This ruling highlights the juristic precision in Shia fiqh regarding the completion of purification periods as a prerequisite for valid nuptial contracts. It underscores the practical application of corporal punishment in maintaining the sanctity of marital boundaries during transitional biological states.",
+        "seo_question": "What is the penalty for marrying a woman during her postpartum period before purification?",
+        "key_terms": {
+          "نِفَاسِهَا": "Postpartum bleeding period",
+          "الْحَدَّ": "The fixed corporal penalty",
+          "تَطْهُرَ": "To purify herself (from ritual impurity)"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) نے اس شخص پر حد لگائی جس نے اس عورت سے نکاح کیا جس کی نفاس کی خون ریزی مکمل طور پر ختم نہیں ہوئی تھی، جس سے اس خاص شادی کی غیر معمولی حالت کی صحت ثابت ہوئی۔ یہ حکم شیعہ فقہ میں طہارت کے ادوار کے مکمل ہونے کو درست نکاح کے لیے شرط کے طور پر جوری کی درستگی کو اجاگر کرتا ہے۔ یہ انتقالی حیاتیاتی حالات کے دوران شادی کی حدود کی تقدس کو برقرار رکھنے میں جسمانی سزا کے عملی اطلاق پر زور دیتا ہے۔",
+        "seo_question": "اگر عورت کے طہر ہونے سے پہلے اس سے نکاح کیا جائے تو اس کی سزا کیا ہے؟",
+        "key_terms": {
+          "نِفَاسِهَا": "نفاس کا دورانیہ",
+          "الْحَدَّ": "مقررہ جسمانی سزا",
+          "تَطْهُرَ": "خود کو پاک کرنا (غسل کی ناپاکی سے)"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aleyhisselam), kadının lohusalık kanaması (nifas) tamamen bitmeden evlilik akdi yapan bir adama Hadd cezasını uygulayarak, bu spesifik evlilik bozukluğunun geçerliliğini tesis etmiştir. Bu hüküm, Şia fıkhında evlilik akdinin geçerliliği için aranan arınma sürelerinin tamamlanmasına ilişkin hukuki hassasiyeti vurgulamaktadır. Geçici biyolojik durumlar sırasında evlilik sınırlarının kutsallığını korumada bedeni cezanın pratik uygulamasını altını çizmektedir.",
+        "seo_question": "Kadının arınma süreci tamamlanmadan lohusalık döneminde evlenmenin cezası nedir?",
+        "key_terms": {
+          "نِفَاسِهَا": "Lohusalık kanaması dönemi",
+          "الْحَدَّ": "Sabit bedeni ceza",
+          "تَطْهُرَ": "Kendisini ritüel hadesten arındırmak"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علیه‌السلام) حدّ را بر مردی که با زنی ازدواج کرده بود پیش از آنکه خون نفاس او کاملاً قطع شود، اجرا نمود و صحت این نوع نکاح نادره را تثبیت کرد. این حکم دقت فقهی در فقه شیعه را درباره تکمیل دوره‌های طهارت به عنوان شرط لازم برای صحت عقد نکاح برجسته می‌سازد. این امر کاربرد عملی مجازات بدنی را در حفظ قدسیّت مرزهای زناشویی در دوران گذار بیولوژیکی تأکید می‌کند.",
+        "seo_question": "جریمه ازدواج با زن در دوران نفاس پیش از طهارت چیست؟",
+        "key_terms": {
+          "نِفَاسِهَا": "دوره خون نفاس",
+          "الْحَدَّ": "جریمه مقطوع بدنی",
+          "تَطْهُرَ": "خود را پاک کردن (از ناپاکی ritually)"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (alamahis salam) menjatuhkan hukuman Hadd kepada seorang pria yang menikah dengan seorang wanita sebelum masa nifasnya (nifas) benar-benar selesai, yang menetapkan keabsahan ketidakberaturan pernikahan spesifik ini. Keputusan ini menyoroti ketepatan fikih Syiah mengenai penyelesaian masa penyucian sebagai prasyarat untuk kontrak pernikahan yang sah. Hal ini menekankan penerapan praktis hukuman badan untuk menjaga kesucian batas-batas pernikahan selama keadaan biologis transisi.",
+        "seo_question": "Apa hukuman bagi pria yang menikahi wanita selama masa nifas sebelum penyucian?",
+        "key_terms": {
+          "نِفَاسِهَا": "Masa perdarahan pasca melahirkan",
+          "الْحَدَّ": "Hukuman badan tetap",
+          "تَطْهُرَ": "Menyucikan diri (dari hadas)"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) একজন পুরুষকে হদ্দ শাস্তি প্রদান করেছিলেন, যিনি তার স্তন্যদানোত্তর রক্তস্রাব (নিফাস) সম্পূর্ণরূপে থামার আগেই বিবাহ বন্ধনে আবদ্ধ হয়েছিলেন, যা এই নির্দিষ্ট বিবাহের অনিয়মিত অবস্থার বৈধতা প্রতিষ্ঠা করে। এই রায় শিয়া ফিকহে পবিত্রতার সময়কাল সম্পূর্ণ হওয়াকে বৈবাহিক চুক্তির জন্য একটি প্রয়োজনীয় শর্ত হিসেবে বিবেচনা করার জুরিস্টিক স্পষ্টতাকে তুলে ধরে। এটি জৈবিক পরিবর্তনশীল অবস্থার সময় বিবাহের সীমানার পবিত্রতা বজায় রাখতে শারীরিক শাস্তির ব্যবহারিক প্রয়োগকে তুলে ধরে।",
+        "seo_question": "স্তন্যদানোত্তর সময়ে পবিত্রতা সম্পূর্ণ হওয়ার আগে মহিলার সাথে বিবাহের শাস্তি কী?",
+        "key_terms": {
+          "نِفَاسِهَا": "স্তন্যদানোত্তর রক্তস্রাবের সময়কাল",
+          "الْحَدَّ": "নির্দিষ্ট শারীরিক শাস্তি",
+          "تَطْهُرَ": "নিজে পবিত্র হওয়া (আচারগত অশুদ্ধি থেকে)"
+        }
+      },
+      "es": {
+        "summary": "El Imam Alí (que la paz sea con él) aplicó el castigo de Hadd a un hombre que contrajo matrimonio con una mujer antes de que cesara completamente su sangría posparto (nifas), estableciendo la validez de esta irregularidad matrimonial específica. Este dictamen resalta la precisión jurisdiccional en la fiqh chiita respecto a la finalización de los períodos de purificación como requisito previo para la validez de los contratos nupciales. Subraya la aplicación práctica del castigo corporal para mantener la santidad de los límites matrimoniales durante los estados biológicos transicionales.",
+        "seo_question": "¿Cuál es la pena por casarse con una mujer durante su período posparto antes de la purificación?",
+        "key_terms": {
+          "نِفَاسِهَا": "período de sangría posparto",
+          "الْحَدَّ": "la pena corporal fija",
+          "تَطْهُرَ": "purificarse (de la impureza ritual)"
+        }
+      },
+      "fr": {
+        "summary": "L’imam Ali (que la paix soit sur lui) a appliqué la peine un homme qui s’est marié avec une femme avant la cessation complète de ses saignements de puerpéralité (nifas), établissant ainsi la validité de cette irrégularité matrimoniale spécifique. Cette décision met en lumière la précision jurisprudentielle dans le fiqh chiite concernant l’accomplissement des périodes de purification comme condition préalable à la validité des contrats nuptiaux. Elle souligne l’application pratique de la peine corporelle pour maintenir la sainteté des limites matrimoniales pendant les états biologiques transitionnels.",
+        "seo_question": "Quelle est la peine pour avoir épousé une femme pendant sa période de puerpéralité avant sa purification ?",
+        "key_terms": {
+          "نِفَاسِهَا": "Période de saignements de puerpéralité",
+          "الْحَدَّ": "La peine corporelle fixe",
+          "تَطْهُرَ": "Se purifier (de l’impureté rituelle)"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede sei mit ihm) verhängte die Hadd-Strafe über einen Mann, der eine Frau heiratete, bevor ihre Nachgeburtsschwellung (Nifas) vollständig beendet war, und etablierte damit die Gültigkeit dieser spezifischen ehelichen Unregelmäßigkeit. Diese Rechtsprechung unterstreicht die juristische Präzision im schiitischen Fiqh hinsichtlich der Vollendung der Reinigungsperioden als Voraussetzung für gültige Eheverträge. Sie verdeutlicht die praktische Anwendung der Körperstrafe zur Wahrung der Heiligkeit der ehelichen Grenzen während Übergangszustände des Körpers.",
+        "seo_question": "Wie hoch ist die Strafe für die Heirat einer Frau während ihrer Nachgeburtsschwellung vor der Reinigung?",
+        "key_terms": {
+          "نِفَاسِهَا": "Nachgeburtsschwellungszeitraum",
+          "الْحَدَّ": "Die feste Körperstrafe",
+          "تَطْهُرَ": "Sich reinigen (von ritueller Unreinheit)"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (да будет над ним мир) применил хадд к мужчине, который вступил в брак с женщиной до полного прекращения её послеродовых кровотечений (нифас), тем самым утвердив действительность этого конкретного вида брачной неурядицы. Это решение подчеркивает джурисprudentialную точность в шиитском фикхе относительно завершения периодов очищения как необходимого условия для действительности брачных контрактов. Оно подчеркивает практическое применение телесных наказаний для поддержания святости брачных границ в переходные биологические состояния.",
+        "seo_question": "Каково наказание за брак с женщиной в период послеродового очищения до его завершения?",
+        "key_terms": {
+          "نِفَاسِهَا": "послеродовое кровотечение",
+          "الْحَدَّ": "фиксированное телесное наказание",
+          "تَطْهُرَ": "очиститься (от ритуальной нечистоты)"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）对一名在妇女产后出血期（尼法斯）尚未完全结束前与其结婚的男子执行了哈德刑罚，确立了这一特定婚姻瑕疵的有效性。这一裁决凸显了什叶派教法学中关于净化期完成作为有效婚姻契约前提条件的法理精确性。它强调了在过渡性生理状态下，通过体罚来维护婚姻神圣性的实际应用。",
+        "seo_question": "在妇女净化前产后期内结婚的刑罚是什么？",
+        "key_terms": {
+          "نِفَاسِهَا": "产后出血期",
+          "الْحَدَّ": "固定的体罚",
+          "تَطْهُرَ": "自我净化（从仪式不洁中）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "65:4",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادٍ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّ عَلِيّاً ( عليه السلام ) ضَرَبَ رَجُلًا تَزَوَّجَ امْرَأَةً فِي نِفَاسِهَا قَبْلَ أَنْ تَطْهُرَ الْحَدَّ",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنْ حَمَّادٍ عَنِ الْحَلَبِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+      "matn_ar": "أَنَّ عَلِيّاً ( عليه السلام ) ضَرَبَ رَجُلًا تَزَوَّجَ امْرَأَةً فِي نِفَاسِهَا قَبْلَ أَنْ تَطْهُرَ الْحَدَّ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+          "name_en": "Ibn Abi Umayr",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 7
+        },
+        {
+          "name_ar": "حَمَّادٍ",
+          "name_en": "Hammad",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 23
+        },
+        {
+          "name_ar": "الْحَلَبِيِّ",
+          "name_en": "al-Halabi",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 28
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّ عَلِيّاً ( عليه السلام ) ضَرَبَ رَجُلًا تَزَوَّجَ امْرَأَةً",
+          "name_en": "Abu Abdillah",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

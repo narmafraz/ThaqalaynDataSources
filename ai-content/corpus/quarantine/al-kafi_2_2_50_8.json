@@ -1,0 +1,307 @@
+{
+  "verse_path": "/books/al-kafi:2:2:50:8",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] en translation length out of bounds: 11 en words vs 34 ar words (ratio=0.32, expected 13.6-136.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "worship",
+      "quran_commentary"
+    ],
+    "content_type": "supplication",
+    "topics": [
+      "quran_recitation",
+      "specific_supplications",
+      "dhikr"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنِ الْحَسَنِ بْنِ عَطِيَّةَ عَنْ عُمَرَ بْنِ يَزِيدَ قَالَ",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from his father, from Ibn Abi Umeyr, from Al-Hasan ibn Atiyya, from Umar ibn Yazeed, who said:",
+          "ur": "علی بن ابراہیم، ان کے والد سے، ابن ابی عمر سے، حسن بن عطیہ سے، عمر بن یزید سے، انہوں نے کہا:",
+          "tr": "Ali b. İbrahim, babasından, İbn Ebi Umeyr'den, Hasan b. Atiyya'dan, Umur b. Yezid'den, o da şöyle dedi:",
+          "fa": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنِ الْحَسَنِ بْنِ عَطِيَّةَ عَنْ عُمَرَ بْنِ يَزِيدَ قَالَ",
+          "id": "Ali bin Ibrahim, Ibrahim, dari ayahnya, dari Ibn Abi Umeyr, dari Al-Hasan bin Atiyya, dari Umar bin Yazeed, yang berkata:",
+          "bn": "আলী ইবনে ইবরাহীম, তার পিতার নিকট হতে, ইবনে আবি উমাইর, আল-হাসান ইবনে আতিয়া, উমর ইবনে যায়িদ হতে বর্ণনা করেন, তিনি বলেন:",
+          "es": "Ali ibn Ibrahim, de su padre, de Ibn Abi Umeyr, de Al-Hasan ibn Atiyya, de Umar ibn Yazeed, quien dijo:",
+          "fr": "Ali ibn Ibrahim, de son père, d'Ibn Abi Umeyr, d'Al-Hasan ibn Atiyya, d'Umar ibn Yazeed, qui a dit :",
+          "de": "Ali ibn Ibrahim, von seinem Vater, von Ibn Abi Umeyr, von Al-Hasan ibn Atiyya, von Umar ibn Yazeed, der sagte:",
+          "ru": "Али ибн Ибрахим, от его отца, от Ибн Аби Умайра, от аль-Хасана ибн Атии, от Умара ибн Язида, который сказал:",
+          "zh": "阿里·本·易卜拉欣，从他父亲，从伊本·艾比·乌迈尔，从哈桑·本·阿提亚，从欧麦尔·本·叶齐德传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 18
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) مَنْ قَرَأَ قُلْ هُوَ اللَّهُ أَحَدٌ حِينَ يَخْرُجُ مِنْ مَنْزِلِهِ عَشْرَ مَرَّاتٍ لَمْ يَزَلْ فِي حِفْظِ اللَّهِ عَزَّ وَ جَلَّ وَ كِلَاءَتِهِ حَتَّى يَرْجِعَ إِلَى مَنْزِلِهِ",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) said: 'The one who recites ",
+          "ur": "ابو عبداللہ (علیہ السلام) نے فرمایا: ''جو شخص تلاوت کرتا ہے",
+          "tr": "Ebu Abdillah (aleyhisselam) buyurdu ki: 'Okuyan kimse",
+          "fa": "ابو عبدالله (علیه السلام) فرمود: آن کس که تلاوت کند",
+          "id": "Abu Abdillah (semoga Allah meridhainya) berkata: 'Seseorang yang membaca",
+          "bn": "আবু আব্দুল্লাহ (রহ.) বলেছেন: যে ব্যক্তি তিলাওয়াত করে",
+          "es": "Abu Abdillah (que la paz sea con él) dijo: «El que recita",
+          "fr": "Abou Abdillah (que la paix soit sur lui) a dit : « Celui qui récite",
+          "de": "Abu Abdillah (friede sei mit ihm) sagte: „Derjenige, der rezitiert",
+          "ru": "Абу Абдуллах (да будет доволен им Аллах) сказал: «Тот, кто читает",
+          "zh": "阿布杜拉（愿真主喜悦他）说：“诵读者……”"
+        },
+        "word_start": 18,
+        "word_end": 52
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        "translations": {
+          "en": "Say, He is Allah, [who is] One",
+          "ur": "کہو کہ وہ اللہ ایک ہے",
+          "tr": "De ki: O Allah'tur Allah'tır, tektir.",
+          "fa": "بگو او خدای یگانه است",
+          "id": "Katakanlah, \"Dialah Allah, Yang Maha Esa\"",
+          "bn": "বলুন, তিনি আল্লাহ, এক",
+          "es": "Di: Él es Alá, el Único",
+          "fr": "Dis : « Lui est Allah, [l']Un »",
+          "de": "Sprich: Er ist Allah, der Einzige",
+          "ru": "Скажи: «Он — Аллах, Единый»",
+          "zh": "你说：他是真主，是独一的主"
+        },
+        "word_start": 52,
+        "word_end": 56
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حِينَ يَخْرُجُ مِنْ مَنْزِلِهِ عَشْرَ مَرَّاتٍ لَمْ يَزَلْ فِي حِفْظِ اللَّهِ عَزَّ وَ جَلَّ وَ كِلَاءَتِهِ حَتَّى يَرْجِعَ إِلَى مَنْزِلِهِ",
+        "translations": {
+          "en": "when he goes out from his house ten times, will not cease to be in the Protection of Allah, Mighty and Majestic, and His Custody until he returns to his house.",
+          "ur": "جب وہ اپنے گھر سے دس بار نکلتا ہے تو وہ عزت و جلال والے اللہ کی حفاظت اور اس کی سرپرستی میں رہتا ہے جب تک کہ وہ اپنے گھر واپس نہیں آجاتا۔",
+          "tr": "Evinden on kere çıktığında, Allah'ın (Celile ve Azze'nin) himayesinde ve muhafazasında kalmaktan vazgeçmez, evine dönene kadar.",
+          "fa": "هنگامی که ده بار از خانه خود خارج شود، از حمایت خداوند، توانا و بزرگ، و حفظ او دورانی که به خانه خود بازگردد، محروم نخواهد شد.",
+          "id": "apabila ia keluar dari rumahnya sebanyak sepuluh kali, ia tidak akan senantiasa berada dalam perlindungan Allah, Yang Maha Perkasa lagi Maha Mulia, dan dalam penjagaan-Nya hingga ia kembali ke rumahnya.",
+          "bn": "যখন সে তার বাড়ি থেকে দশবার বের হয়, তখন আল্লাহ তায়ালা, মহান ও মাহান, এবং তাঁর হেফাজতে থাকেন না, যতক্ষণ না সে তার বাড়িতে ফিরে আসে।",
+          "es": "cuando sale de su casa diez veces, no dejará de estar bajo la Protección de Allah, el Poderoso y el Majestuoso, y su Custodia hasta que regrese a su casa.",
+          "fr": "ltext\": ",
+          "de": "Wenn er zehnmal aus seinem Haus hinausgeht, wird er nicht aufhören, sich im Schutz Allahs, des Mächtigen und Erhabenen, und in seiner Obhut zu befinden, bis er zu seinem Haus zurückkehrt.",
+          "ru": "когда он выходит из своего дома десять раз, он не перестает находиться под защитой Аллаха, Всевышнего и Величественного, и под Его покровительством, пока не вернется в свой дом.",
+          "zh": "当他从家中出来十次时，他将始终处于真主，至尊至荣的保护与监护之下，直至他返回家中。"
+        },
+        "word_start": 56,
+        "word_end": 76
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Recorded in Al-Kafi, this hadith from Imam al-Sadiq (AS) establishes the recitation of Surah Al-Ikhlas ten times upon exiting the home as a means of securing continuous divine protection (hifz) and custody (kilayah). This practice underscores the Shia emphasis on integrating Quranic recitation into daily routines to maintain spiritual vigilance and safety in the physical world.",
+        "seo_question": "What is the benefit of reciting Surah Al-Ikhlas ten times when leaving the house?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "Say, He is Allah, [who is] One (Surah Al-Ikhlas)",
+          "حِفْظِ اللَّهِ": "Protection of Allah",
+          "كِلَاءَتِهِ": "His Custody/Guardianship",
+          "عَشْرَ مَرَّاتٍ": "Ten times"
+        }
+      },
+      "ur": {
+        "summary": "الکافی میں مروی یہ حدث امام صادقؑ سے منقول ہے جس میں گھر سے نکلنے پر سورہ اخلاص دس بار پڑھنے کو مسلسل الہی حفاظت (حفظ) اور کفالت (کلاءہ) کا ذریعہ قرار دیا گیا ہے۔ یہ عمل شیعہ مکتب فکر کے اس زور کو اجاگر کرتا ہے کہ قرآن کی تلاوت کو روزمرہ کی زندگی میں شامل کر کے روحانی بیداری اور مادی دنیا میں حفاظت برقرار رکھی جائے۔",
+        "seo_question": "گھر سے نکلنے پر سورہ اخلاص دس بار پڑھنے کا کیا فائدہ ہے؟",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "کہو وہ اللہ ایک ہے (سورہ اخلاص)",
+          "حِفْظِ اللَّهِ": "اللہ کی حفاظت",
+          "كِلَاءَتِهِ": "اس کی کفالت/نگہبانی",
+          "عَشْرَ مَرَّاتٍ": "دس بار"
+        }
+      },
+      "tr": {
+        "summary": "El-Kâfî'de kaydedilen bu hadis, İmamü'l-Sâdık'tan (AS) nakledilmiş olup, evden çıkıldığında sürekli ilâhî koruma (hıfz) ve himaye (kileye) sağlamak için İhlâs Sûresi'nin on kere okunmasını bir âdet olarak belirler. Bu uygulama, Şiiliğin Kur'ân-ı Kerîm tilavetini günlük rutinlere entegre ederek maddî dünyada manevi uyanıklığı ve güvenliği sürdürmeye verdiği önemi vurgular.",
+        "seo_question": "Evdan çıkarken İhlâs Sûresi'nin on kere okunmasının faydası nedir?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "De ki, O Allah birdir",
+          "حِفْظِ اللَّهِ": "Allah'ın koruması",
+          "كِلَاءَتِهِ": "Onun himayesi/koruyuculuğu",
+          "عَشْرَ مَرَّاتٍ": "On kere"
+        }
+      },
+      "fa": {
+        "summary": "در روایتی از امام صادق (ع) که در کتاب الکافی ثبت شده، خواندن سوره اخلاص ده بار هنگام خروج از خانه، به عنوان وسیله‌ای برای کسب حفاظت و کفایت الهی مستمر بیان شده است. این عمل بر تأکید شیعه در تلفیق تلاوت قرآن با روال روزانه برای حفظ هوشیاری معنوی و امنیت در دنیای مادی تأکید دارد.",
+        "seo_question": "مزیت خواندن سوره اخلاص ده بار هنگام خروج از خانه چیست؟",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "بگو او خدای یگانه است (سوره اخلاص)",
+          "حِفْظِ اللَّهِ": "حفاظت خداوند",
+          "كِلَاءَتِهِ": "کفایت او",
+          "عَشْرَ مَرَّاتٍ": "ده بار"
+        }
+      },
+      "id": {
+        "summary": "Diringkas: Hadis dari Imam al-Sadiq (AS) yang diriwayatkan dalam Al-Kafi menetapkan bahwa membaca Surah Al-Ikhlas sebanyak sepuluh kali saat keluar rumah merupakan sarana untuk mendapatkan perlindungan ilahi (hifz) dan penjagaan (kilayah) yang berkelanjutan. Praktik ini menyoroti penekanan Syiah pada integrasi tilawah Al-Quran ke dalam rutinitas harian guna menjaga kewaspadaan spiritual dan keselamatan di dunia fisik.",
+        "seo_question": "Apa manfaat membaca Surah Al-Ikhlas sebanyak sepuluh kali saat meninggalkan rumah?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "Katakanlah, Dialah Allah, [yang] Esa (Surah Al-Ikhlas)",
+          "حِفْظِ اللَّهِ": "Perlindungan Allah",
+          "كِلَاءَتِهِ": "Penjagaan-Nya",
+          "عَشْرَ مَرَّاتٍ": "Sepuluh kali"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফিতে বর্ণিত, ইমাম আস-সাদিq (আ.) থেকে বর্ণিত এই হাদিসে ঘর থেকে বের হওয়ার সময় সুরা আল-ইখলাস দশবার তিলাওয়াতকে নিরন্তর ঐশ্বরিক রক্ষা (হিফয) এবং আত্মীয়তা (কিলায়ত) অর্জনের মাধ্যম হিসেবে প্রতিষ্ঠিত করা হয়েছে। এই আমল শিয়া মতবাদে দৈনন্দিন জীবনে কুরআন তিলাওয়াতকে সমন্বিত করার গুরুত্ব তুলে ধরে, যা শারীরিক জগতে আধ্যাত্মিক সতর্কতা ও নিরাপত্তা বজায় রাখতে সাহায্য করে।",
+        "seo_question": "ঘর থেকে বের হওয়ার সময় সুরা আল-ইখলাস দশবার তিলাওয়াত করার ফলাফল কী?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "বলুন, তিনিই আল্লাহ, এক (সুরা আল-ইখলাস)",
+          "حِفْظِ اللَّهِ": "আল্লাহর রক্ষা",
+          "كِلَاءَتِهِ": "তিনির আত্মীয়তা/পরিচালনা",
+          "عَشْرَ مَرَّاتٍ": "দশবার"
+        }
+      },
+      "es": {
+        "summary": "Registrado en Al-Kafi, este hadiz del Imam al-Sadiq (AS) establece la recitación de la Surah Al-Ikhlas diez veces al salir de casa como medio para asegurar la protección divina continua (hifz) y la custodia (kilayah). Esta práctica subraya el énfasis chií en integrar la recitación del Corán en las rutinas diarias para mantener la vigilancia espiritual y la seguridad en el mundo físico.",
+        "seo_question": "¿Cuál es el beneficio de recitar la Surah Al-Ikhlas diez veces al salir de casa?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "Di, Él es Allah, [quien es] Uno (Surah Al-Ikhlas)",
+          "حِفْظِ اللَّهِ": "Protección de Allah",
+          "كِلَاءَتِهِ": "Su Custodia/Tutela",
+          "عَشْرَ مَرَّاتٍ": "Diez veces"
+        }
+      },
+      "fr": {
+        "summary": "Enregistré dans Al-Kafi, ce hadith d'Imam al-Sadiq (AS) établit la récitation de la sourate Al-Ikhlas dix fois en sortant de la maison comme moyen d'assurer une protection divine continue (hifz) et une garde (kilayah). Cette pratique souligne l'accent mis par les Chiites sur l'intégration de la récitation coranique dans les routines quotidiennes pour maintenir la vigilance spirituelle et la sécurité dans le monde physique.",
+        "seo_question": "Quel est l'avantage de réciter la sourate Al-Ikhlas dix fois en quittant la maison ?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "Dis : Lui est Allah, [celui qui est] Unique (Sourate Al-Ikhlas)",
+          "حِفْظِ اللَّهِ": "Protection d'Allah",
+          "كِلَاءَتِهِ": "Sa garde/ tutelle",
+          "عَشْرَ مَرَّاتٍ": "Dix fois"
+        }
+      },
+      "de": {
+        "summary": "In Al-Kafi aufgezeichnet, begründet dieses Hadith von Imam al-Sadiq (AS) das zehnmalige Rezitieren der Sure Al-Ikhlas beim Verlassen des Hauses als Mittel zur Sicherung eines kontinuierlichen göttlichen Schutzes (Hifz) und der göttlichen Obhut (Kilayah). Diese Praxis unterstreicht die schiitische Betonung der Integration des Koranrezitierens in den täglichen Rhythmus, um geistige Wachsamkeit und Sicherheit in der physischen Welt zu wahren.",
+        "seo_question": "Welchen Nutzen hat das zehnmalige Rezitieren der Sure Al-Ikhlas beim Verlassen des Hauses?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "Sprich, Er ist Allah, der Eine (Sure Al-Ikhlas)",
+          "حِفْظِ اللَّهِ": "Schutz Allahs",
+          "كِلَاءَتِهِ": "Seine Obhut/Schutzgewalt",
+          "عَشْرَ مَرَّاتٍ": "Zehn Mal"
+        }
+      },
+      "ru": {
+        "summary": "Записанный в аль-Кафи, этот хадис от имама ас-Садыка (да будет с ним мир) устанавливает чтение суры аль-Ихлас десять раз при выходе из дома как средство обеспечения непрерывной божественной защиты (хифз) и покровительства (килая). Эта практика подчеркивает шиитский акцент на интеграции чтения Корана в повседневную рутину для поддержания духовной бдительности и безопасности в физическом мире.",
+        "seo_question": "Какова польза от чтения суры аль-Ихлас десять раз при выходе из дома?",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "Скажи: Он — Аллах, Единый (сура аль-Ихлас)",
+          "حِفْظِ اللَّهِ": "Защита Аллаха",
+          "كِلَاءَتِهِ": "Его покровительство/опека",
+          "عَشْرَ مَرَّاتٍ": "Десять раз"
+        }
+      },
+      "zh": {
+        "summary": "《卡菲》记载，伊玛目萨迪格（愿主安之）传述：出门时诵读《忠诚章》十遍，以获得持续的真主护佑（Hifz）与监护（Kilah）。这一实践凸显了什叶派将古兰经诵读融入日常生活的重视，以在物质世界中保持灵性警觉与安全。",
+        "seo_question": "出门时诵读《忠诚章》十遍有何益处？",
+        "key_terms": {
+          "قُلْ هُوَ اللَّهُ أَحَدٌ": "说：他是真主，是独一的主",
+          "حِفْظِ اللَّهِ": "真主的护佑",
+          "كِلَاءَتِهِ": "他的监护",
+          "عَشْرَ مَرَّاتٍ": "十次"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "112:1",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "2:157",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "36:1",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنِ الْحَسَنِ بْنِ عَطِيَّةَ عَنْ عُمَرَ بْنِ يَزِيدَ قَالَ قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) مَنْ قَرَأَ قُلْ هُوَ اللَّهُ أَحَدٌ حِينَ يَخْرُجُ مِنْ مَنْزِلِهِ عَشْرَ مَرَّاتٍ لَمْ يَزَلْ فِي حِفْظِ اللَّهِ عَزَّ وَ جَلَّ وَ كِلَاءَتِهِ حَتَّى يَرْجِعَ إِلَى مَنْزِلِهِ قُلْ هُوَ اللَّهُ أَحَدٌ حِينَ يَخْرُجُ مِنْ مَنْزِلِهِ عَشْرَ مَرَّاتٍ لَمْ يَزَلْ فِي حِفْظِ اللَّهِ عَزَّ وَ جَلَّ وَ كِلَاءَتِهِ حَتَّى يَرْجِعَ إِلَى مَنْزِلِهِ",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ أَبِي عُمَيْرٍ عَنِ الْحَسَنِ بْنِ عَطِيَّةَ عَنْ عُمَرَ بْنِ يَزِيدَ قَالَ",
+      "matn_ar": "قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) مَنْ قَرَأَ قُلْ هُوَ اللَّهُ أَحَدٌ حِينَ يَخْرُجُ مِنْ مَنْزِلِهِ عَشْرَ مَرَّاتٍ لَمْ يَزَلْ فِي حِفْظِ اللَّهِ عَزَّ وَ جَلَّ وَ كِلَاءَتِهِ حَتَّى يَرْجِعَ إِلَى مَنْزِلِهِ قُلْ هُوَ اللَّهُ أَحَدٌ حِينَ يَخْرُجُ مِنْ مَنْزِلِهِ عَشْرَ مَرَّاتٍ لَمْ يَزَلْ فِي حِفْظِ اللَّهِ عَزَّ وَ جَلَّ وَ كِلَاءَتِهِ حَتَّى يَرْجِعَ إِلَى مَنْزِلِهِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+          "name_en": "Ibn Abi Umayr",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 7
+        },
+        {
+          "name_ar": "الْحَسَنِ بْنِ عَطِيَّةَ",
+          "name_en": "al-Hasan b. Atiyya",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 436
+        },
+        {
+          "name_ar": "عُمَرَ بْنِ يَزِيدَ",
+          "name_en": "Umar ibn Yazid",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 120
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "قُلْ هُوَ اللَّهُ أَحَدٌ",
+        "phrase_en": "Say: He is Allah, the One",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

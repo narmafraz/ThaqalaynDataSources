@@ -1,0 +1,237 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:47:6",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 23 words (>14, بن-density 0.13 — likely a sentence fragment, not a name): 'وقال سعد بن عبد الله: كان محمد بن نصير النميري يدعي أنه رسول'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "jurisprudence",
+      "history"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imamate",
+      "prophethood",
+      "halal_haram",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَقَالَ سَعْدُ بْنُ عَبْدِ اللَّهِ:",
+        "translations": {
+          "en": "And Sa'd ibn Abdullah said:",
+          "ur": "اور سعد بن عبد اللہ نے کہا:",
+          "tr": "Ve",
+          "fa": "وقال سعد بن عبد الله:",
+          "id": "Dan Sa'd ibn Abdullah berkata:",
+          "bn": "এবং সাঈদ ইবনে আবদুল্লাহ বলেছেন:",
+          "es": "Y",
+          "fr": "وقال سعد بن عبد الله:",
+          "de": "Und Sa'd ibn Abdullah sagte:",
+          "ru": "И Са'd ибн Абдуллах сказал:",
+          "zh": "萨德·本·阿卜杜拉说："
+        },
+        "word_start": 0,
+        "word_end": 5
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "كَانَ مُحَمَّدُ بْنُ نَصِيرٍ النَّمِيرِيُّ يَدَّعِي أَنَّهُ رَسُولُ نَبِيٍّ وَأَنَّ عَلِيَّ بْنَ مُحَمَّدٍ عَلَيْهِ السَّلَامُ أَرْسَلَهُ وَكَانَ يَقُولُ بِالتَّنَاسُخِ وَيَغْلُو فِي أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ وَيَقُولُ فِيهِ بِالرَّبُوبِيَّةِ وَيَقُولُ بِالإِبَاحَةِ لِلْمَحَارِمِ وَتَحْلِيلُ نِكَاحِ الرِّجَالِ بَعْضِهِمْ بَعْضًا فِي أَدْبَارِهِمْ وَيَزْعُمُ أَنَّ ذَلِكَ مِنَ التَّوَاضِعِ وَالإِخْبَاتِ وَالتَّذَلُّلِ فِي الْمَفْعُولِ بِهِ أَنَّهُ مِنَ الْفَاعِلِ إِحْدَى الشَّهَوَاتِ وَالطَّيِّبَاتِ وَأَنَّ اللَّهَ عَزَّ وَجَلَّ لاَ يُحَرِّمُ شَيْئًا مِنْ ذَلِكَ. وَكَانَ مُحَمَّدُ بْنُ مُوسَى بْنِ الْحَسَنِ بْنِ الْفُرَاتِ يُقَوِّي أَسْبَابَهُ وَيُعَضِّدُهُ.",
+        "translations": {
+          "en": "Muhammad ibn Nusayr an-Numairi claimed that he was a messenger and a prophet, and that Ali ibn Muhammad (peace be upon him) had sent him. He believed in reincarnation and exaggerated about the position of Abul Hasan (peace be upon him) and deified him. He believed in the permissibility of marrying blood relations of prohibited degree (Mahrams) and same sex marriage. He believed that sodomy was an act of humility, meekness and modesty on the part of the receiver and that it was an occasion of pleasure and delight for the active partner, and that Allah does not disallow any of such things. Muhammad ibn Musa ibn Hasan ibn Furat supported the authenticity of these reports.",
+          "ur": "محمد بن نصیر النمائری نے دعویٰ کیا کہ وہ رسول اور نبی ہیں، اور انہیں علی بن محمد (صلی اللہ علیہ وسلم) نے بھیجا ہے۔ وہ تناسخِ روح پر یقین رکھتے تھے اور ابو الحسن (صلی اللہ علیہ وسلم) کی مقام میں مبالغہ کرتے تھے اور انہیں خدا کا درجہ دے دیا۔ انہوںٰں ممنوعہ درجے کے رشتہ داروں (محارم) سے شادی کی جائز قرار دی اور ہم جنس پرستی کی شادی کو جائز سمجھا۔ ان کا ماننا تھا کہ مردانہ آمیزش میں قبول کرنے والا شخص کی عاجزی، نرمی اور حیا کا عمل ہے اور یہ فعال شریک کے لیے لذت اور سرور کا باعث ہے، اور اللہ تعالیٰ ان چیزوں میں سے کسی چیز کو منع نہیں کرتا۔ محمد بن موسیٰ بن حسن بن فرات نے ان روایات کی صداقت کی تائید کی۔",
+          "tr": "Muhammad ibn Nusayr en-Numairi, kendisinin bir peygamber ve elçi olduğunu, Ali ibn Muhammed'in (aleyhisselam) onu gönderdiğini iddia etti. O, tenassüh (ruhlar göçü) inancında bulundu ve Ebu'l Hasan'a (aleyhisselam) aşırı derecede yüceltme yaparak onu ilahlaştırdı. O, mahrem olan kan akrabayla evliliğin caiz olduğuna, cinsiyetler arası evliliğe ve sodomiye inandı. O, sodominin alanda olanın tevazu, huzur ve mütevazilik eylemi olduğunu ve aktif olanın için zevk ve neşe kaynağı olduğunu ve Allah'ın bu tür şeylerin hiçbirini yasaklamadığını inandı. Muhammad ibn Musa ibn Hasan ibn Furat bu rivayetlerin sahihliğini destekledi.",
+          "fa": "محمد بن نصیر نمیری ادعا کرد که پیامبر و رسول است و علی بن محمد (علیه السلام) است و علی بن محمد (علیه السلام) او را فرستاده است. او به تناسخ باور داشت و در مقام ابو الحسن (علیه السلام) زیاده‌روی می‌کرد و او را خدایگان می‌پنداشت. او به جواز ازدواج با محارم درجه‌دار و ازدواج هم‌جنس باور داشت. او معتقد بود که سادومی (دخول مقعدی) عملی از جانب گیرنده است که نشانه فروتنی، ملایمت و حیا است و برای شریک فعال باعث لذت و سرور می‌شود و خداوند هیچ‌یک از این امور را منع نمی‌کند. محمد بن موسی بن حسن بن فورات اصالت این روایات را تأیید کرد.",
+          "id": "Muhammad ibn Nusayr an-Numairi mengklaim bahwa ia adalah seorang utusan dan nabi, dan bahwa Ali ibn Muhammad (alaihissalam) telah mengutusnya. Ia percaya pada reinkarnasi dan melebih-lebihkan kedudukan Abul Hasan (alaihissalam) serta mendewakannya. Ia percaya pada kebolehan menikahi kerabat yang haram dinikahi (Mahram) dan pernikahan sesama jenis. Ia percaya bahwa sodomi adalah tindakan kerendahan hati, kelemahlembutan, dan kesopanan dari pihak penerima, dan bahwa hal itu merupakan kesempatan kenikmatan dan kebahagiaan bagi pihak yang aktif, serta bahwa Allah tidak melarang salah satu dari hal-hal tersebut. Muhammad ibn Musa ibn Hasan ibn Furat mendukung keotententikan laporan-laporan ini.",
+          "bn": "মুহাম্মদ ইবনে নুসাইর আন-নুইমারি দাবি করেছিলেন যে তিনি একজন রাসূল এবং নবী, এবং আলী ইবনে মুহাম্মদ (আলাইহিস সালাম) তাঁকে পাঠিয়েছিলেন। তিনি পুনর্জন্মবাদের বিশ্বাস করতেন এবং আবুল হাসান (আলাইহিস সালাম)-এর মর্যাদা অতিরঞ্জিতভাবে উপস্থাপন করতেন এবং তাঁকে দেবত্ব আরোপ করতেন। তিনি নিষিদ্ধ স্তরের রক্তের সম্পর্কীদের (মাহরাম) সাথে বিবাহের অনুমতিযোগ্যতা, এবং একই লিঙ্গের বিবাহের বিশ্বাস করতেন। তিনি মনে করতেন যে সমলিঙ্গিক যৌনমিলনে গ্রহীতার পক্ষ থেকে নম্রতা, বিনয় ও সাদাগীরতার কাজ হয় এবং এটি সক্রিয় অংশীদারের জন্য আনন্দের ও আনন্দদায়ক বিষয়, এবং আল্লাহ তায়ালা এই সকল বিষয়ের কোনোটিই নিষেধ করেন না। মুহাম্মদ ইবনে মুসা ইবনে হাসান ইবনে ফুরাত এই রিওয়ায়াতগুলোর সঠিকতার পক্ষে সমর্থন দিয়েছিলেন।",
+          "es": "Muhammad ibn Nusayr an-Numairi afirmó ser mensajero y profeta, y que Ali ibn Muhammad (la paz sea con él) lo había enviado. Creía en la reencarnación y exageraba sobre la posición de Abul Hasan (la paz sea con él), divinizándolo. Creía en la permisibilidad de contraer matrimonio con parientes en grado prohibido (Mahrams) y en el matrimonio entre personas del mismo sexo. Creía que la sodomía era un acto de humildad, mansedumbre y modestia por parte del receptor, y que constituía una ocasión de placer y deleite para el activo, y que Allah no desautoriza ninguna de estas cosas. Muhammad ibn Musa ibn Hasan ibn Furat apoyó la autenticidad de estos informes.",
+          "fr": "Muhammad ibn Nusayr an-Numairi a affirmé être un messager et un prophète, et qu'Ali ibn Muhammad (que la paix soit sur lui) l'avait envoyé. Il croyait à la réincarnation et exagérait le rang d'Abul Hasan (que la paix soit sur lui), le divinisaient. Il croyait à la licéité du mariage entre les parents au degré prohibé (Mahrams) et au mariage homosexuel. Il croyait que la pénétration anale était un acte d'humilité, de douceur et de modestie de la part du récepteur, et qu'elle constituait une occasion de plaisir et de délice pour le partenaire actif, et qu'Allah n'interdisait aucune de ces choses. Muhammad ibn Musa ibn Hasan ibn Furat a soutenu l'authenticité de ces rapports.",
+          "de": "Muhammad ibn Nusayr an-Numairi behauptete, er sei ein Gesandter und ein Prophet, und dass ihn Ali ibn Muhammad (friede sei mit ihm) gesandt habe. Er glaubte an die Wiedergeburt und übertrieb die Stellung von Abul Hasan (friede sei mit ihm) und vergöttlichte ihn. Er glaubte an die Erlaubtheit der Heirat mit Blutsverwandten im verbotenen Grad (Mahrams) und an die gleichgeschlechtliche Ehe. Er glaubte, dass die Heterosexualität (Sodomie) eine Handlung der Demut, Sanftmut und Bescheidenheit seitens des Empfängers sei und dass sie eine Gelegenheit der Freude und des Vergnügens für den aktiven Partner darstelle, und dass Allah nichts davon verbiete. Muhammad ibn Musa ibn Hasan ibn Furat unterstützte die Authentizität dieser Berichte.",
+          "ru": "Мухаммад ибн Нусайр ан-Нуайри утверждал, что он посланник и пророк, и что Али ибн Мухаммад (да будет мир с ним) послал его. Он верил в реинкарнацию и преувеличивал положение Абуль Хасана (да будет мир с ним), обожествляя его. Он верил в дозволенность брака с кровными родственниками запретной степени (махрами) и однополый брак. Он верил, что анусный секс является актом смирения, кротости и скромности со стороны принимающей стороны и что это повод для удовольствия и радости для активной стороны, и что Аллах не запрещает ни одного из таких вещей. Мухаммад ибн Муса ибн Хасан ибн Фурат поддержал достоверность этих сообщений.",
+          "zh": "穆罕默德·伊本·努赛尔·安-努迈里自称是使者兼先知，并说阿里·伊本·穆罕默德（愿主福安之）派遣了他。他信仰轮回，对阿布·哈桑（愿主福安之）的地位加以夸大，并将其神化。他信仰允许与禁止通婚的亲属（马哈勒姆）结婚，以及同性婚姻。他认为肛交是接受方谦卑、温顺和谦逊的表现，是主动方愉悦和欢欣的场合，而真主并不禁止此类事情。穆罕默德·伊本·穆萨·伊本·哈桑·伊本·福拉特支持这些记载的真实性。"
+        },
+        "word_start": 5,
+        "word_end": 79
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Sa'd ibn Abdullah narrates that Muhammad ibn Nusayr, a key figure in the early Ghulat (extremists), claimed prophethood under the authority of Imam Ali ibn Muhammad (a.s.), promoting doctrines of reincarnation and deification of the Imam. He further argued for the permissibility of incest and sodomy as acts of humility, a view corroborated by Muhammad ibn Musa ibn al-Hasan ibn Furat, illustrating the theological deviations that led to the sect's condemnation.",
+        "seo_question": "What were the key beliefs and claims of Muhammad ibn Nusayr regarding the Imam and religious laws?",
+        "key_terms": {
+          "التَّنَاسُخ": "Reincarnation",
+          "الرَّبُوبِيَّة": "Deification (attributing lordship)",
+          "لِلْمَحَارِم": "To the prohibited (incest)",
+          "التَّوَاضُع": "Humility",
+          "الإِبَاحَة": "Permissibility"
+        }
+      },
+      "ur": {
+        "summary": "سعد بن عبداللہ روایت کرتے ہیں کہ محمد بن نصیر، جو ابتدائی غلات (زیادہ رو) میں سے ایک اہم شخصیت تھی، نے امام علی بن محمد (علیہ السلام) کی authority کے تحت نبوت کا دعویٰ کیا اور تناسخ اور امام کی ربوبیت کے عقائد کو فروغ دیا۔ انہوں نے مزید یہ دلیل دی کہ محارم سے نکاح اور سدیومی (homosexuality) تواضع کے عمل ہیں، جو محمد بن موسیٰ بن الحسن بن فورت کی طرف سے تصدیق شدہ ہے، جو اس فرقے کی مذمت کی طرف لے جانے والے الہیاتی انحرافات کو ظاہر کرتا ہے۔",
+        "seo_question": "امام اور شرعی قوانین کے بارے میں محمد بن نصیر کے اہم عقائد اور دعویٰ کیا تھے؟",
+        "key_terms": {
+          "التَّنَاسُخ": "تناسخ",
+          "الرَّبُوبِيَّة": "ربوبیت",
+          "لِلْمَحَارِم": "محارم",
+          "التَّوَاضُع": "تواضع",
+          "الإِبَاحَة": "اباحت"
+        }
+      },
+      "tr": {
+        "summary": "Sa'd bin Abdullah, Erken Ghulat (aşırıcılar) grubunun önemli bir figürü olan Muhammed bin Nusayr'ın, İmam Ali bin Muhammed'in (a.s.) yetkisi altında peygamberlik iddiasında bulunduğunu, yeniden doğuş ve imâmın ilahlaştırılması öğretilerini yaydığını anlatır. O, alçaklık eylemleri olarak ensest ve sodomi'nin caiz olduğunu ileri sürmüş, bu görüş Muhammed bin Musa bin el-Hasan bin Furat tarafından da doğrulanmıştır; bu durum, mezhebin kınanmasına yol açan teolojik sapmaları göstermektedir.",
+        "seo_question": "Muhammed bin Nusayr'ın İmam ve dini hükümler hakkındaki temel inançları ve iddiaları nelerdi?",
+        "key_terms": {
+          "التَّنَاسُخ": "Yeniden doğuş",
+          "الرَّبُوبِيَّة": "İlahlaştırma (rabbaniyet atfetme)",
+          "لِلْمَحَارِم": "Mahrem olanlara (ensest)",
+          "التَّوَاضُع": "Alçakgönüllülük",
+          "الإِبَاحَة": "Caizlik"
+        }
+      },
+      "fa": {
+        "summary": "سعد بن عبدالله روایت کرده است که محمد بن نضر، از چهره‌های کلیدی در غلات (افراط‌گرایان) اولیه، ادعای نبوت تحت اختیار امام علی بن محمد (ع) کرد و آموزه‌های تناسخ و الهی‌سازی امام را ترویج داد. او همچنین بر جایز بودن ازدواج با محارم و سادومی به عنوان اعمال تواضع استدلال کرد، دیدگاهی که توسط محمد بن موسی بن حسن بن فورت تأیید شد و انحرافات کلامی که منجر به محکومیت این فرقه شد را نشان می‌دهد.",
+        "seo_question": "باورهای کلیدی و ادعاهای محمد بن نضر درباره امام و احکام دینی چه بود؟",
+        "key_terms": {
+          "التَّنَاسُخ": "تناسخ",
+          "الرَّبُوبِيَّة": "الاهی‌سازی",
+          "لِلْمَحَارِم": "به محارم",
+          "التَّوَاضُع": "تواضع",
+          "الإِبَاحَة": "جایز بودن"
+        }
+      },
+      "id": {
+        "summary": "Sa'd bin Abdullah meriwayatkan bahwa Muhammad bin Nusayr, tokoh utama dalam kaum Ghulat (ekstremis) awal, mengklaim kenabian di bawah otoritas Imam Ali bin Muhammad (a.s.), dengan mempromosikan doktrin reinkarnasi dan deifikasi Imam. Ia lebih lanjut berargumen bahwa inzest dan sodomi diperbolehkan sebagai bentuk kerendahan hati, pandangan yang dikonfirmasi oleh Muhammad bin Musa bin al-Hasan bin Furat, yang menggambarkan penyimpangan teologis yang menyebabkan sekte ini dikutuk.",
+        "seo_question": "Apa saja keyakinan dan klaim utama Muhammad bin Nusayr mengenai Imam dan hukum agama?",
+        "key_terms": {
+          "التَّنَاسُخ": "Reinkarnasi",
+          "الرَّبُوبِيَّة": "Deifikasi (menisbatkan keTuhanan)",
+          "لِلْمَحَارِم": "Kepada yang haram (inzest)",
+          "التَّوَاضُع": "Kerendahan hati",
+          "الإِبَاحَة": "Kebolehan"
+        }
+      },
+      "bn": {
+        "summary": "সাদ ইবনে আবদুল্লাহ বর্ণনা করেন যে, মুহাম্মাদ ইবনে নুসাইর, প্রাথমিক গুলাত (চরমপন্থী) গোষ্ঠীর একজন প্রধান ব্যক্তি, ইমাম আলী ইবনে মুহাম্মাদ (আ.)-এর আধিপত্যে নবুয়্যতের দাবি করেন এবং পুনর্জন্ম ও ইমামের দেবত্বারোপের মতবাদ প্রচার করেন। তিনি আরও যুক্তি দেন যে, ইনসেস্ট এবং সোডোমি হ্যামিলিটি বা নম্রতার কাজ হিসেবে বৈধ, এই মতবাদ মুহাম্মাদ ইবনে মুসা ইবনে আল-হাসান ইবনে ফুরাত কর্তৃক সমর্থিত, যা ধর্মতাত্ত্বিক বিচ্যুতিগুলোকে তুলে ধরে এবং গোষ্ঠীটির নিন্দার দিকে নিয়ে যায়।",
+        "seo_question": "ইমাম এবং ধর্মীয় আইন সম্পর্কে মুহাম্মাদ ইবনে নুসাইরের মূল বিশ্বাস ও দাবিগুলো কী ছিল?",
+        "key_terms": {
+          "التَّنَاسُخ": "পুনর্জন্ম",
+          "الرَّبُوبِيَّة": "দেবত্বারোপ",
+          "لِلْمَحَارِم": "নিষিদ্ধের প্রতি",
+          "التَّوَاضُع": "নম্রতা",
+          "الإِبَاحَة": "বৈধতা"
+        }
+      },
+      "es": {
+        "summary": "Sa'd ibn Abdullah narrates that Muhammad ibn Nusayr, a key figure in the early Ghulat (extremists), claimed prophethood under the authority of Imam Ali ibn Muhammad (a.s.), promoting doctrines of reincarnation and deification of the Imam. He further argued for the permissibility of incest and sodomy as acts of humility, a view corroborated by Muhammad ibn Musa ibn al-Hasan ibn Furat, illustrating the theological deviations that led to the sect's condemnation.",
+        "seo_question": "What were the key beliefs and claims of Muhammad ibn Nusayr regarding the Imam and religious laws?",
+        "key_terms": {
+          "التَّنَاسُخ": "Reencarnación",
+          "الرَّبُوبِيَّة": "Deificación",
+          "لِلْمَحَارِم": "A los prohibidos",
+          "التَّوَاضُع": "Humildad",
+          "الإِبَاحَة": "Permisibilidad"
+        }
+      },
+      "fr": {
+        "summary": "Sa'd ibn Abdullah rapporte que Muhammad ibn Nusayr, une figure clé des Ghulat (exagératistes) des débuts, a revendiqué la prophétie sous l'autorité de l'Imam Ali ibn Muhammad (a.s.), promouvant les doctrines de la réincarnation et de la divinisation de l'Imam. Il a en outre soutenu la licéité de l'inceste et de la sodomie comme actes d'humilité, une vue corroborée par Muhammad ibn Musa ibn al-Hasan ibn Furat, illustrant les écarts théologiques qui ont conduit à la condamnation de la secte.",
+        "seo_question": "Quelles étaient les croyances et les revendications clés de Muhammad ibn Nusayr concernant l'Imam et les lois religieuses et l'Imam ?",
+        "key_terms": {
+          "التَّنَاسُخ": "Réincarnation",
+          "الرَّبُوبِيَّة": "Divinisation (attribution de la seigneurie)",
+          "لِلْمَحَارِم": "Aux interdits (inceste)",
+          "التَّوَاضُع": "Humilité",
+          "الإِبَاحَة": "Licéité"
+        }
+      },
+      "de": {
+        "summary": "Sa'd ibn Abdullah überliefert, dass Muhammad ibn Nusayr, eine Schlüsselfigur der frühen Ghulat (Extremisten), unter der Autorität von Imam Ali ibn Muhammad (a.s.) den Prophetentum beanspruchte und Lehren der Wiedergeburt und der Vergöttlichung des Imams vertrat. Er argumentierte weiter für die Erlaubtheit der Inzest und der Homosexualität als Akte der Demut, eine Ansicht, die von Muhammad ibn Musa ibn al-Hasan ibn Furat bestätigt wird, was die theologischen Abweichungen veranschaulicht, die zur Verurteilung der Sekte führten.",
+        "seo_question": "Was waren die wichtigsten Glaubenssätze und Ansprüche von Muhammad ibn Nusayr bezüglich des Imams und der religiösen Gesetze?",
+        "key_terms": {
+          "التَّنَاسُخ": "Wiedergeburt",
+          "الرَّبُوبِيَّة": "Vergöttlichung (Zuschreibung der Herrschaft)",
+          "لِلْمَحَارِم": "Den Verbotenen (Inzest)",
+          "التَّوَاضُع": "Demut",
+          "الإِبَاحَة": "Erlaubtheit"
+        }
+      },
+      "ru": {
+        "summary": "Саад ибн Абдуллах передаёт, что Мухаммад ибн Нусайр, ключевая фигура среди ранних галатов (экстремистов), утверждал пророчество под властью имама Али ибн Мухаммада (да будет мир с ним), пропагандируя доктрины реинкарнации и обожествления имама. Он также отстаивал допустимость инцеста и содомии как актов смирения, что подтверждается Мухаммадом ибн Мусой ибн аль-Хасаном ибн Фуратом, иллюстрируя теологические отклонения, приведшие к осуждению этой секты.",
+        "seo_question": "Каковы были ключевые верования и утверждения Мухаммада ибн Нусайра относительно имама и религиозных законов?",
+        "key_terms": {
+          "التَّنَاسُخ": "реинкарнация",
+          "الرَّبُوبِيَّة": "обожествление (приписывание господства)",
+          "لِلْمَحَارِم": "к запретному (инцест)",
+          "التَّوَاضُع": "смирение",
+          "الإِبَاحَة": "допустимость"
+        }
+      },
+      "zh": {
+        "summary": "萨德·伊本·阿卜杜拉传述，穆罕默德·伊本·努赛尔是早期古拉特派（极端派）的关键人物，他声称在伊玛目阿里·伊本·穆罕默德（愿主福安之）的权威下获得先知身份，并推广转世和伊玛目神化的教义。他进一步主张乱伦和同性性行为作为谦卑的行为是合法的，这一观点得到穆罕默德·伊本·穆萨·伊本·哈桑·伊本·富拉特的证实，说明了导致该派别被谴责的神学偏差。",
+        "seo_question": "穆罕默德·伊本·努赛尔关于伊玛目和宗教律法的主要信仰和主张是什么？",
+        "key_terms": {
+          "التَّنَاسُخ": "转世",
+          "الرَّبُوبِيَّة": "神化（赋予主权）",
+          "لِلْمَحَارِم": "至亲",
+          "التَّوَاضُع": "谦卑",
+          "الإِبَاحَة": "许可"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "12:100",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:39",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَقَالَ سَعْدُ بْنُ عَبْدِ اللَّهِ: كَانَ مُحَمَّدُ بْنُ نَصِيرٍ النَّمِيرِيُّ يَدَّعِي أَنَّهُ رَسُولُ نَبِيٍّ وَأَنَّ عَلِيَّ بْنَ مُحَمَّدٍ عَلَيْهِ السَّلَامُ أَرْسَلَهُ وَكَانَ يَقُولُ بِالتَّنَاسُخِ وَيَغْلُو فِي أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ وَيَقُولُ فِيهِ بِالرَّبُوبِيَّةِ وَيَقُولُ بِالإِبَاحَةِ لِلْمَحَارِمِ وَتَحْلِيلُ نِكَاحِ الرِّجَالِ بَعْضِهِمْ بَعْضًا فِي أَدْبَارِهِمْ وَيَزْعُمُ أَنَّ ذَلِكَ مِنَ التَّوَاضِعِ وَالإِخْبَاتِ وَالتَّذَلُّلِ فِي الْمَفْعُولِ بِهِ أَنَّهُ مِنَ الْفَاعِلِ إِحْدَى الشَّهَوَاتِ وَالطَّيِّبَاتِ وَأَنَّ اللَّهَ عَزَّ وَجَلَّ لاَ يُحَرِّمُ شَيْئًا مِنْ ذَلِكَ. وَكَانَ مُحَمَّدُ بْنُ مُوسَى بْنِ الْحَسَنِ بْنِ الْفُرَاتِ يُقَوِّي أَسْبَابَهُ وَيُعَضِّدُهُ.",
+    "isnad_matn": {
+      "isnad_ar": "371- وقال سعد بن عبد الله: كان محمد بن نصير النميري يدعي أنه رسول نبي وأن علي بن محمد عليه السلام أرسله وكان يقول",
+      "matn_ar": "وَقَالَ سَعْدُ بْنُ عَبْدِ اللَّهِ: كَانَ مُحَمَّدُ بْنُ نَصِيرٍ النَّمِيرِيُّ يَدَّعِي أَنَّهُ رَسُولُ نَبِيٍّ وَأَنَّ عَلِيَّ بْنَ مُحَمَّدٍ عَلَيْهِ السَّلَامُ أَرْسَلَهُ وَكَانَ يَقُولُ بِالتَّنَاسُخِ وَيَغْلُو فِي أَبِي الْحَسَنِ عَلَيْهِ السَّلَامُ وَيَقُولُ فِيهِ بِالرَّبُوبِيَّةِ وَيَقُولُ بِالإِبَاحَةِ لِلْمَحَارِمِ وَتَحْلِيلُ نِكَاحِ الرِّجَالِ بَعْضِهِمْ بَعْضًا فِي أَدْبَارِهِمْ وَيَزْعُمُ أَنَّ ذَلِكَ مِنَ التَّوَاضِعِ وَالإِخْبَاتِ وَالتَّذَلُّلِ فِي الْمَفْعُولِ بِهِ أَنَّهُ مِنَ الْفَاعِلِ إِحْدَى الشَّهَوَاتِ وَالطَّيِّبَاتِ وَأَنَّ اللَّهَ عَزَّ وَجَلَّ لاَ يُحَرِّمُ شَيْئًا مِنْ ذَلِكَ. وَكَانَ مُحَمَّدُ بْنُ مُوسَى بْنِ الْحَسَنِ بْنِ الْفُرَاتِ يُقَوِّي أَسْبَابَهُ وَيُعَضِّدُهُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وقال سعد بن عبد الله: كان محمد بن نصير النميري يدعي أنه رسول نبي وأن علي بن محمد عليه السلام أرسله وكان يقول",
+          "name_en": "Sa'd b. 'Abd Allah",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,316 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:21:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 17 words (>14, بن-density 0.18 — likely a sentence fragment, not a name): 'أبو محمد جعفر بن النعيم الشاذاني رضى الله عنه قال: حدثنا أحم'",
+    "narrator[5] name_ar has 18 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'علي\\u200f عليه السلام قال\\u200fقال لي رسول الله\\u200f صلى الله عليه وآله يا'",
+    "translations.bn.summary is empty string (likely Phase 4 batch failure)",
+    "translations.bn.seo_question is empty string (likely Phase 4 batch failure)",
+    "chunks[2] type='closing' starts with chain transmission verb 'حدثنا' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "family",
+      "prophetic_tradition",
+      "theology"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "marriage_family_law",
+      "ahlulbayt_virtues",
+      "prophetic_character",
+      "divine_decree"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا أَبُو مُحَمَّدٍ جَعْفَرُ بْنُ النَّعِيمِ الشَّاذَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ إِدْرِيسَ إِبْرَاهِيمُ بْنُ هَاشِمٍ، عَن عَلِيِّ بْنِ مَعْبَدٍ، عَنِ الْحُسَيْنِ بْنِ خَالِدٍ، عَن أَبِي الْحَسَنِ عَلِيٍّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ، عَن أَبِيهِ، عَن آبَائِهِ، عَن عَلِيٍّ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "Abu Muhammad Ja'far ibn al-Nu'aym al-Shazani (may God be pleased with him) narrated that Ahmad ibn Idris Ibrahim ibn Hashem narrated from Ali ibn Ma'bad, from al-Husayn ibn Khalid, from Abu al-Hasan Ali ibn Musa al-Rida (peace be upon him), from his father, from his forefathers, from Ali (peace be upon him).",
+          "ur": "ابو محمد جعفر بن النعيم الشازاني رضی الله عنه نے بیان کیا کہ احمد بن ادريس ابراهيم بن هاشم نے علي بن معبد سے، الحسین بن خالد سے، ابو الحسن علي بن موسی الرضا علیہ السلام سے، ان کے والد سے، ان کے اجداد سے، اور بزرگوں سے، اور علي علیہ السلام سے روایت کی۔",
+          "tr": "Ebu Muhammed Ca'far b. el-Nu'aym el-Şazânî (radıyallahu anh) şöyle dedi: Ahmed b. İdrîs İbrahim b. Hâşim, Ali b. Mebad'den, el-Hüseyin b. Halid'den, Ebu'l-Hasen Ali b. Mûsâ er-Rıdâ (aleyhisselâm)'dan, o da babasından, o da atalarından, Ali (aleyhisselâm)'dan rivayet etmiştir.",
+          "fa": "ابو محمد جعفر بن نعيم شاذانی (رضی الله عنه) روایت کرد که احمد بن ادريس ابراهيم بن هاشم از علي بن معبد، از حسين بن خالد، از ابو الحسن علي بن موسي الرضا (عليه السلام)، از پدرش، از پدرانش، از علي (عليه السلام) روایت کرده است.",
+          "id": "Abu Muhammad Ja'far ibn al-Nu'aym al-Shazani (semoga Allah ridha kepadanya) meriwayatkan bahwa Ahmad ibn Idris Ibrahim ibn Hashem meriwayatkan dari Ali ibn Ma'bad, dari al-Husayn ibn Khalid, dari Abu al-Hasan Ali ibn Musa al-Rida (alamah), dari ayahnya, dari leluhurnya, dari Ali (alamah).",
+          "bn": "আবু মুহাম্মদ জাফর ইবনুল নু'ইম আল-শাজানী (রহ.) বর্ণনা করেন যে, আহমদ ইবন ইদ্রিস ইব্রাহীম ইবন হাশিম বর্ণনা করেন আলী ইবন মা'বাদ থেকে, আল-হুসাইন ইবন খালিদ থেকে, আবুল হাসন আলী ইবন মুসা আল-রিদা (আস)-এর পিতা থেকে, তাদের পূর্বপুরুষদের থেকে, আলী (আস)-এর নিকট।",
+          "es": "Abu Muhammad Ja'far ibn al-Nu'aym al-Shazani (que Dios esté complacido con él) narró que Ahmad ibn Idris Ibrahim ibn Hashem narró de Ali ibn Ma'bad, de al-Husayn ibn Khalid, de Abu al-Hasan Ali ibn Musa al-Rida (la paz sea con él), de su padre, de sus antepasados, de Ali (la paz sea con él).",
+          "fr": "Abou Muhammad Ja'far ibn al-Nu'aym al-Shazani (que Dieu l'agrée) a rapporté qu'Ahmad ibn Idris Ibrahim ibn Hashem a rapporté de Ali ibn Ma'bad, de al-Husayn ibn Khalid, d'Abou al-Hasan Ali ibn Moussa al-Rida (que la paix soit sur lui), de son père, de ses ancêtres, de Ali (que la paix soit sur lui).",
+          "de": "Abu Muhammad Dscha'far ibn an-Nu'aim as-Schazani (möge Gott mit ihm zufrieden sein) überlieferte, dass Ahmad ibn Idris Ibrahim ibn Hascham von Ali ibn Ma'bad, von al-Husain ibn Chalid, von Abu al-Hasan Ali ibn Musa ar-Rida (Friede sei mit ihm), von seinem Vater, von seinen Vätern, von Ali (Friede sei mit ihm) überlieferte.",
+          "ru": "Абу Мухаммад Джафар ибн ан-Ну'айм аш-Шагани (да будет доволен им Аллах) передал, что Ахмад ибн Идрис Ибрахим ибн Хашим передал от Али ибн Ма'бада, от аль-Хусайна ибн Халида, от Абу аль-Хасана Али ибн Мусы ар-Рида (мир ему), от его отца, от его предков, от Али (мир ему).",
+          "zh": "阿布·穆罕默德·贾法尔·本·努艾姆·沙扎尼（愿主喜悦他）传述，艾哈迈德·本·伊德里斯·易卜拉欣·本·哈希姆从阿里·本·麦尔巴德传述，从侯赛因·本·哈利德传述，从阿布·哈桑·阿里·本·穆萨·里达（愿主赐他平安）传述，从他父亲传述，从他祖先传述，从阿里（愿主赐他平安）传述。"
+        },
+        "word_start": 0,
+        "word_end": 43
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ: قَالَ لِي رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ يَا عَلِيُّ لَقَدْ عَاتَبَنِي رِجَالٌ مِنْ قُرَيْشٍ فِي أَمْرِ فَاطِمَةَ وَقَالُوا خَطَبْنَاهَا إِلَيْكَ فَمَنَعْتَنَا وَزَوَّجْتَ عَلِيًّا فَقُلْتُ لَهُمْ وَاللَّهِ مَا أَنَا مَنَعْتُكُمْ وَزَوَّجْتُهُ بَلِ اللَّهُ مَنَعَكُمْ وَزَوَّجَهُ فَهَبَطَ عَلَيَّ جِبْرِيلُ فَقَالَ يَا مُحَمَّدُ إِنَّ اللَّهَ جَلَّ جَلَالُهُ يَقُولُ لَوْ لَمْ أَخْلُقْ عَلِيًّا لَمَا كَانَ لِفَاطِمَةَ ابْنَتِكَ كُفْوٌ عَلَى وَجْهِ الْأَرْضِ آدَمُ فَمَنْ دُونَهُ.",
+        "translations": {
+          "en": "He said: The Messenger of God (peace befitting one for your daughter Fatima on the face of the earth, from Adam and those below him, would not have existed had I not created Ali.",
+          "ur": "انہوں نے کہا: اللہ کے رسول (صلی اللہ علیہ و آلہ وسلم) نے فرمایا: اگر میں نے علی (رضی اللہ عنہ) کو نہ بنایا ہوتا تو زمین پر تمہاری بیٹی فاطمہ اور آدم اور ان کے نیچے والوں میں سے کوئی بھی وجود میں نہ آتا۔",
+          "tr": "Dedi ki: Allah'ın Rasûlü (s.a.v.), yeryüzünde senin kızın Fâtıma için layık olunan hürmet ve saygıya mazhar olan, Âdem'den ve ondan aşağı olanlardan hiçbiri olmasaydı, ben Ali'yi yaratmasaydım.",
+          "fa": "گفت: پیامبر خدا (صلی الله علیه و آله) فرمود: اگر من علی را خلق نمی‌کردم، دخترت فاطمه بر روی زمین، از آدم و کسانی که پایین‌تر از او هستند، وجود نداشت.",
+          "id": "Ia berkata: \"Utusan Allah (salam sejahtera bagi-Nya) karena putrimu, Fatima, di muka bumi, dari Adam dan yang di bawahnya, tidak akan ada jikalau aku tidak menciptakan Ali.",
+          "bn": "তিনি বললেন: আল্লাহর রাসূল (সা.) আপনার কন্যা ফাতিমার জন্য পৃথিবীতে উপস্থিত হতেন না, যদি আমি আলিকে সৃষ্টি না করে থাকতাম; আদম এবং তাঁর নিচের সৃষ্টিগুলোর মধ্যেও তিনি উপস্থিত হতেন না।",
+          "es": "Dijo: El Mensajero de Dios (que la paz sea con él), por causa de tu hija Fátima en la faz de la tierra, no habría existido si no hubiera creado a Alí, desde Adán y los que están por debajo de él.",
+          "fr": "Il a dit : Le Messager de Dieu (paix sur lui), pour ta fille Fatima sur la face de la terre, d'Adam et ceux qui sont en dessous de lui, n'auraient pas existé si je n'avais pas créé Ali.",
+          "de": "Er sagte: Der Gesandte Gottes (Friede sei mit ihm) wäre nicht erschaffen worden, wenn ich nicht Ali erschaffen hätte, und seine Tochter Fatima wäre auf der Erde von Adam und den unter ihm stehenden nicht vorhanden gewesen.",
+          "ru": "Он сказал: Посланник Аллаха (да будет мир ему) из-за твоей дочери Фатимы на земле, от Адама и тех, кто ниже его, не существовал бы, если бы я не создал Али.",
+          "zh": "他说：真主的使者（愿主福安之）说：若我不曾创造阿里，地球上从阿丹到他以下的所有人，包括你的女儿法蒂玛，都不会存在。"
+        },
+        "word_start": 43,
+        "word_end": 105
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَحَدَّثَنَا بِهَذَا الْحَدِيثِ أَحْمَدُ بْنُ زِيَادِ بْنِ جَعْفَرٍ الْهَمَذَانِيُّ رَضِيَ اللَّهُ عَنْهُ حَدَّثَنَا عَلِيُّ بْنُ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ، عَن عَلِيِّ بْنِ مَعْبَدٍ، عَنِ الْحُسَيْنِ بْنِ خَالِدٍ، عَنِ الرِّضَا عَلَيْهِ السَّلَامُ، عَن آبَائِهِ، عَن عَلِيِّ بْنِ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ، عَن رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. وَقَدْ أَخْرَجْتُ مَا رَوَيْتُ فِي هَذَا الْمَعْنَى فِي كِتَابِ مَوْلِدِ فَاطِمَةَ عَلَيْهَا السَّلَامُ وَفَضَائِلِهَا.",
+        "translations": {
+          "en": "And Ahmad ibn Ziyad ibn Ja'far al-Hamadani (may God be pleased with him) narrated this hadith to us, from Ali ibn Ibrahim ibn Hashem, from his father, from Ali ibn Ma'bad, from al-Husayn ibn Khalid, from al-Rida (peace be upon him), from his forefathers, from Ali ibn Abi Talib (peace be upon him), from the Messenger of God (peace be upon him and his family). And I have compiled what was narrated to me on this meaning in my book 'The Birth of Fatima (peace be upon her) and her Virtues'.",
+          "ur": "اور احمد بن زیاد بن جعفر حمدانی (رضی اللہ عنہ) نے یہ حدیث ہم سے روایت کی، علی بن ابراہیم بن ہاشم سے، ان کے والد سے، علی بن معبد سے، حسین بن خالد سے، الرضا (علیہ السلام) سے، ان کے اجداد سے، علی بن ابی طالب (علیہ السلام) سے، رسول اللہ (صلی اللہ علیہ و آلہ وسلم) سے۔ اور میں نے اس معنی پر مجھے جو روایت کی گئی ہے، اپنی کتاب 'ولادت فاطمہ (علیہا السلام) اور فضائل' میں جمع کیا ہے۔",
+          "tr": "Ahmed ibn Ziyad ibn Cafer el-Hamadânî (radıyallahu anh) bize bu hadisi rivayet etti, Ali ibn İbrahim ibn Haşim'den, babasından, Ali ibn Ma'bad'dan, el-Hüseyin ibn Halid'den, er-Rıza (aleyhisselâm)'dan, atalarından, Ali ibn Ebi Talib (radıyallahu anh)'dan, Rasûlullah'tan (aleyhisselâm ve âlihi). Ben de bu manaya dair bana rivayet edilenleri 'Fâtıma'nın Doğumu ve Faziletleri' adlı kitabımda derledim.",
+          "fa": "و احمد بن زیاد بن جعفر حمدانی (رضی الله عنه) این حدیث را از ما روایت کرد، از علی بن ابراهیم بن هاشم، از پدرش، از علی بن معبد، از حسین بن خالد، از الرضا (علیه السلام)، از پدران بزرگش، از علی بن ابی طالب (علیه السلام)، از پیامبر خدا (صلی الله علیه و آله)، و من آنچه از من در این معنا روایت شده را در کتابم «ولادت فاطمه (سلام الله علیها) و فضایل آن» گردآوری کرده‌ام.",
+          "id": "Dan Ahmad ibn Ziyad ibn Ja'far al-Hamadani (semoga Allah ridha kepadanya) meriwayatkan hadis ini kepada kami, dari Ali ibn Ibrahim ibn Hashem, dari ayahnya, dari Ali ibn Ma'bad, dari al-Husayn ibn Khalid, dari al-Rida (alamah), dari para leluhurnya, dari Ali ibn Abi Talib (alamah), dari Rasulullah (alamah wa ahlil baitihi). Dan saya telah mengumpulkan apa yang diriwayatkan kepada saya mengenai makna ini dalam kitab saya 'Kelahiran Fatima (alamah) dan Keutamaannya'.",
+          "bn": "আর আহমদ ইবনে জিয়াদ ইবনে জাফর আল-হামদানী (আল্লাহ তায়ালা তাঁর উপর সন্তুষ্ট হোন) এই হাদিস আমাদেরকে বর্ণনা করেছেন, আলী ইবনে ইব্রাহীম ইবনে হাশেম থেকে, তাঁর পিতা থেকে, আলী ইবনে মা'বাদ থেকে, আল-হুসাইন ইবনে খালিদ থেকে, আল-রিদা (আলৈহিস সালাম) থেকে, তাঁর পূর্বপুরুষদের থেকে, আলী ইবনে আবী তালিব (আলৈহিস সালাম) থেকে, রাসুলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সাল্লাম) থেকে। আর আমি আমার 'ফাতিমাহ্‌র জন্ম (আলৈহা সালাম) ও তাঁর ফজীলত' নামক গ্রন্থে এই অর্থের উপর আমাকে বর্ণিত বিষয়সমূহ সংকলন করেছি।",
+          "es": "Y nos narró Ahmad ibn Ziyad ibn Ja'far al-Hamadani (que Dios esté complacido con él) este hadiz, de Ali ibn Ibrahim ibn Hashem, de su padre, de Ali ibn Ma'bad, de al-Husayn ibn Khalid, de al-Rida (la paz sea sobre él), de sus antepasados, de Ali ibn Abi Talib (la paz sea sobre él), del Mensajero de Dios (la paz sea sobre él y su familia). Y he compilado lo que me fue narrado sobre este significado en mi libro 'El nacimiento de Fatima (la paz sea sobre ella) y sus virtudes'.",
+          "fr": "Et Ahmad ibn Ziyad ibn Ja'far al-Hamadani (que Dieu l'agrée) nous a rapporté cette hadith, dîa, d'après Ali ibn Ibrahim ibn Hashem, d'après son père, d'après Ali ibn Ma'bad, d'après al-Husayn ibn Khalid, d'après al-Rida (que la paix soit sur lui), d'après ses ancêtres, d'après Ali ibn Abi Talib (que la paix soit sur lui), d'après le Messager de Dieu (que la paix soit sur lui et sur sa famille). Et j'ai compilé ce qui m'a été rapporté à ce sujet dans mon livre 'La Naissance de Fatima (que la paix soit sur elle) et ses vertus'.",
+          "de": "Und Ahmad ibn Ziyad ibn Dschihad ibn Dschafar al-Hamadani (möge Gott mit ihm zufrieden sein) überlieferte uns diese Hadith von Ali ibn Ibrahim ibn Haschem, von seinem Vater, von Ali ibn Ma'bad, von al-Husain ibn Chalid, von al-Rida (Friede sei mit ihm), von seinen Vätern, von Ali ibn Abi Talib (Friede sei mit ihm), vom Gesandten Gottes (Friede sei mit ihm und seiner Familie). Und ich habe das, was mir in dieser Bedeutung überliefert wurde, in meinem Buch 'Die Geburt Fatimas (Friede sei mit ihr) und ihre Tugenden' zusammengestellt.",
+          "ru": "И Ахмад ибн Зияд ибн Джафар аль-Хамадани (да будет доволен им Аллах) передал нам этот хадис от Али ибрахима ибн Хашема, от его отца, от Али ибн Мабада, от аль-Хусайна ибн Халида, от ар-Рида (мир ему), от его предков, от Али ибн Аби Талиба (мир ему), от Посланника Аллаха (мир ему и его семье). И я собрал то, что было передано мне об этом значении в моей книге «Рождение Фатимы (мир ей) и её достоинства».",
+          "zh": "艾哈迈德·伊本·齐雅德·伊本·贾法尔·哈马达尼（愿主喜悦他）从阿里·伊本·易卜拉欣·伊本·哈希姆传述，从其父传述，从阿里·伊本·麦尔巴德传述，从侯赛因·伊本·哈立德传述，从里达（愿主赐福之）传述，从其祖先传述，从阿里·伊本·艾比·塔利卜（愿主赐福之）传述，从真主的使者（愿主赐福他及其家属）传述了这段圣训。我已将传述给我的关于法蒂玛（愿主赐福之）诞生及其美德的相关内容编纂在我的著作《法蒂玛的诞生及其美德》中。"
+        },
+        "word_start": 105,
+        "word_end": 167
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Uyun Akhbar al-Rida* underscores the Shia doctrine of *Kufu'* (divine compatibility), asserting that Ali’s worthiness was not merely social but ontological, established by God’s creative will. The narrative serves as a theological rebuttal to the Quraysh’s political objections, framing the marriage as a cosmic necessity rather than a human arrangement. It reinforces the concept of *Nass* (designation) by linking the Prophet’s authority directly to divine decree conveyed through Gabriel.",
+        "seo_question": "Why did the Prophet marry Fatima to Ali instead of the men of Quraysh?",
+        "key_terms": {
+          "قُرَيْشٍ": "The prominent tribe of Quraysh in Mecca",
+          "فَاطِمَةَ": "Fatima, the daughter of the Prophet Muhammad",
+          "عَاتَبَنِي": "Blamed or reproached me",
+          "كُفْوٌ": "Equal or worthy match (in marriage/status)",
+          "جِبْرِيلُ": "Gabriel (the Archangel)",
+          "آدَمُ": "Adam, the first human"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث *عیون اخبار الرضا* سے ہے جو شیعہ عقیدے *کفویت* (الٰہی ہم آہنگی) کی عکاسی کرتی ہے، جس میں علیؑ کی شایستگی کو محض سماجی نہیں بلکہ وجودی قرار دیا گیا ہے، جو اللہ کی تخلیقی مشیت سے قائم ہوئی۔ یہ روایت قریش کے سیاسی اعتراضات کا کلامی جواب پیش کرتی ہے، شادی کو انسانی انتظام کے بجائے کائناتی ضرورت کے طور پر پیش کرتی ہے۔ یہ *نص* (تعیین) کے تصور کو تقویت دیتی ہے، نبی کی authority کو براہ راست جبرئیل کے ذریعے منتقل ہونے والے الٰہی حکم سے جوڑتی ہے۔",
+        "seo_question": "نبی کریم ﷺ نے قریش کے مردوں کے بجائے فاطمہؓ کی شادی علیؑ سے کیوں کی؟",
+        "key_terms": {
+          "قُرَيْشٍ": "مکہ کی مشہور قبیلہ قریش",
+          "فَاطِمَةَ": "فاطمہ، نبی محمد کی بیٹی",
+          "عَاتَبَنِي": "میری مذمت کی یا مجھے سرزنش کی",
+          "كُفْوٌ": "برابر یا شایستہ جوڑا (شادی/درجے میں)",
+          "جِبْرِيلُ": "جبرئیل (ملائکہ اعظم)",
+          "آدَمُ": "آدم، پہلا انسان"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, *Uyun Akhbar al-Rida* kaynaklı olup, Şii inancındaki *Kufu'* (ilahi uyum) doktrinini vurgular; Ali'nin layık oluşunun yalnızca sosyal değil, ontolojik bir nitelik taşıdığını ve Allah'ın yaratma iradesiyle tesis edildiğini belirtir. Anlatı, Kureyş'in siyasi itirazlarına teolojik bir yanıt niteliğinde olup, evliliği insanî bir düzenleme olmaktan ziyade kozmik bir zorunluluk olarak çerçevelemektedir. Hadis, Peygamber'in yetkisini Cebrail aracılığıyla iletilen ilahi emre doğrudan bağlayarak *Nass* (tayin) kavramını pekiştirmektedir.",
+        "seo_question": "Peygamber neden Fatıma'yı Kureyş'in erkekleri yerine Ali ile evlendirdi?",
+        "key_terms": {
+          "قُرَيْشٍ": "Mekke'deki önde gelen Kureyş kabilesi",
+          "فَاطِمَةَ": "Peygamber Muhammed'in kızı Fatıma",
+          "عَاتَبَنِي": "Bana itiraz etti veya kıstı",
+          "كُفْوٌ": "Eş veya layık eş (evlilik/derecede)",
+          "جِبْرِيلُ": "Cebrail (Azamî Melek)",
+          "آدَمُ": "İlk insan Adem"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از *عیون اخبار الرضا* بر آموزه شیعه درباره *کفویت* (سازگاری الهی) تأکید دارد و ادعا می‌کند که شایستگی علی نه تنها اجتماعی بلکه وجودی بود که توسط اراده آفرینشی خداوند تثبیت شد. این روایت به عنوان پاسخی کلامی به اعتراضات سیاسی قریش عمل می‌کند و ازدواج را به عنوان یک ضرورت کیهانی نه یک ترتیب انسانی چارچوب‌بندی می‌کند. این مفهوم *نص* (معین‌سازی) را با پیوند دادن مستقیم اختیارات پیامبر به فرمان الهی که از طریق جبرئیل منتقل شده است، تقویت می‌کند.",
+        "seo_question": "چرا پیامبر فاطمه را به ازدواج علی درآورد به جای مردان قریش؟",
+        "key_terms": {
+          "قُرَيْشٍ": "قبیله مشهور قریش در مکه",
+          "فَاطِمَةَ": "فاطمه، دختر پیامبر محمد",
+          "عَاتَبَنِي": "مرا سرزنش کرد یا عیب گرفت",
+          "كُفْوٌ": "هم‌تراز یا هم‌سنگ مناسب (در ازدواج/جایگاه)",
+          "جِبْرِيلُ": "جبرئیل (فرشته بزرگ)",
+          "آدَمُ": "آدم، نخستین انسان"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Uyun Akhbar al-Rida* ini menegaskan doktrin Syiah tentang *Kufu'* (kesesuaian ilahi), yang menyatakan bahwa kelayakan Ali bukan sekadar sosial melainkan ontologis, yang ditetapkan oleh kehendak kreatif Tuhan. Narasi ini berfungsi sebagai pembantahan teologis terhadap keberatan politik kaum Quraisy, dengan membingkai pernikahan sebagai kebutuhan kosmis daripada sekadar pengaturan manusia. Hal ini memperkuat konsep *Nass* (penunjukan) dengan menghubungkan otoritas Nabi secara langsung dengan ketetapan ilahi yang disampaikan melalui Jibril.",
+        "seo_question": "Mengapa Nabi menikahkan Fatima dengan Ali daripada para pemuda Quraisy?",
+        "key_terms": {
+          "قُرَيْشٍ": "Suku terkemuka Quraisy di Makkah",
+          "فَاطِمَةَ": "Fatima, putri Nabi Muhammad",
+          "عَاتَبَنِي": "Menegur atau menyalahkanku",
+          "كُفْوٌ": "Setara atau pasangan yang layak (dalam pernikahan/status)",
+          "جِبْرِيلُ": "Jibril (Malaikat Agung)",
+          "آدَمُ": "Adam, manusia pertama"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz hadiz de *Uyun Akhbar al-Rida* subraya la doctrina chií de *Kufu'* (compatibilidad divina), afirmando que la dignidad de Ali no era meramente social, sino ontológica, establecida por la voluntad creativa de Dios. La narrativa sirve como una refutación teológica a las objeciones políticas de los Quraysh, enmarcando el matrimonio como una necesidad cósmica en lugar de un arreglo humano. Refuerza el concepto de *Nass* (designación) vinculando la autoridad del Profeta directamente con el decreto divino transmitido a través de Gabriel.",
+        "seo_question": "¿Por qué el Profeta casó a Fátima con Ali en lugar de con los hombres de Quraysh?",
+        "key_terms": {
+          "قُرَيْشٍ": "La tribu prominente de Quraysh en La Meca",
+          "فَاطِمَةَ": "Fátima, la hija del Profeta Muhammad",
+          "عَاتَبَنِي": "Me reprendió o me recriminó",
+          "كُفْوٌ": "Igual o pareja digna (en matrimonio/estatus)",
+          "جِبْرِيلُ": "Gabriel (el Arcángel)",
+          "آدَمُ": "Adán, el primer humano"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Ayn al-Akhbar al-Rida* souligne la doctrine chiite du *Kufu'* (compatibilité divine), affirmant que la valeur d'Ali n'était pas seulement sociale mais ontologique, établie par la volonté créatrice de Dieu. Le récit sert de réponse théologique aux objections politiques des Quraysh, présentant le mariage comme une nécessité cosmique plutôt que comme un arrangement humain. Il renforce le concept de *Nass* (désignation) en reliant l'autorité du Prophète directement au décret divin transmis par Gabriel.",
+        "seo_question": "Pourquoi le Prophète a-t-il marié Fatima à Ali plutôt qu'aux hommes des Quraysh ?",
+        "key_terms": {
+          "قُرَيْشٍ": "La tribu prominente des Quraysh à La Mecque",
+          "فَاطِمَةَ": "Fatima, la fille du Prophète Muhammad",
+          "عَاتَبَنِي": "M'a blâmé ou reproché",
+          "كُفْوٌ": "Égal ou partenaire digne (dans le mariage/le statut)",
+          "جِبْرِيلُ": "Gabriel (l'Archange)",
+          "آدَمُ": "Adam, le premier être humain"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Uyun Akhbar al-Rida*yun Akhbar al-Rida* unterstreicht die schiitische Lehre der *Kufu'* (göttliche Kompatibilität) und behauptet, dass Alis Würdigkeit nicht nur sozial, sondern ontologisch war, begründet durch den Schöpfungswillen Gottes. Die Erzählung dient als theologische Widerlegung der politischen Einwände der Quraysh und stellt die Ehe als kosmische Notwendigkeit statt als menschliche Vereinbarung dar. Sie verstärkt das Konzept der *Nass* (Bezeichnung), indem sie die Autorität des Propheten direkt mit dem göttlichen Dekret verbindet, das durch Gabriel übermittelt wurde.",
+        "seo_question": "Warum heiratete der Prophet Fatima mit Ali anstelle der Männer der Quraysh?",
+        "key_terms": {
+          "قُرَيْشٍ": "Der prominente Stamm der Quraysh in Mekka",
+          "فَاطِمَةَ": "Fatima, die Tochter des Propheten Muhammad",
+          "عَاتَبَنِي": "Tadelte oder tadelte mich",
+          "كُفْوٌ": "Gleichwertiger oder würdiger Partner (in Ehe/Status)",
+          "جِبْرِيلُ": "Gabriel (der Erzengel)",
+          "آدَمُ": "Adam, der erste Mensch"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «Уюн Ахбар ар-Рида» подчеркивает шиитскую доктрину «куфу» (божественной совместимости), утверждая, что достоинство Али было не просто социальным, но онтологическим, установленным творческой волей Аллаха. Повествование служит теологическим опровержением политических возражений курайшитов, представляя брак как космическую необходимость, а не человеческое соглашение. Оно укрепляет концепцию «насс» (назначения), напрямую связывая авторитет Пророка с божественным предопределением, переданным через Гавриила.",
+        "seo_question": "Почему Пророк выдал Фатиму замуж за Али, а не за представителей курайшитов?",
+        "key_terms": {
+          "قُرَيْشٍ": "Выдающийся род курайшитов в Мекке",
+          "فَاطِمَةَ": "Фатима, дочь Пророка Мухаммама",
+          "عَاتَبَنِي": "Укорял меня или упрекал меня",
+          "كُفْوٌ": "Равный или достойная пара (в браке/статусе)",
+          "جِبْرِيلُ": "Гавриил (Архангел)",
+          "آدَمُ": "Адам, первый человек"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《优素福·阿克巴尔·里达》的圣训强调了什叶派的库夫（神圣兼容性）教义，主张阿里的资格不仅是社会性的，更是本体论上的，由真主的创造意志确立。该叙事作为对古莱氏政治反对的神学反驳，将婚姻框架为宇宙必然性而非人为安排。它通过将先知的权威直接联系到通过加百列传达的神圣法令，强化了纳斯（指定）的概念。",
+        "seo_question": "先知为何将法蒂玛嫁给阿里而不是古莱氏的男子？",
+        "key_terms": {
+          "قُرَيْشٍ": "麦加显赫的古莱氏部落",
+          "فَاطِمَةَ": "法蒂玛，先知穆罕默德的女儿",
+          "عَاتَبَنِي": "责备或谴责我",
+          "كُفْوٌ": "平等或相配的配偶（在婚姻/地位方面）",
+          "جِبْرِيلُ": "加百列（大天使）",
+          "آدَمُ": "阿丹，第一个人类"
+        }
+      },
+      "bn": {
+        "summary": "",
+        "seo_question": "",
+        "key_terms": {}
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:33",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:1",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "33:33",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:124",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا أَبُو مُحَمَّدٍ جَعْفَرُ بْنُ النَّعِيمِ الشَّاذَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ إِدْرِيسَ إِبْرَاهِيمُ بْنُ هَاشِمٍ، عَن عَلِيِّ بْنِ مَعْبَدٍ، عَنِ الْحُسَيْنِ بْنِ خَالِدٍ، عَن أَبِي الْحَسَنِ عَلِيٍّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ، عَن أَبِيهِ، عَن آبَائِهِ، عَن عَلِيٍّ عَلَيْهِ السَّلَامُ قَالَ: قَالَ لِي رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ يَا عَلِيُّ لَقَدْ عَاتَبَنِي رِجَالٌ مِنْ قُرَيْشٍ فِي أَمْرِ فَاطِمَةَ وَقَالُوا خَطَبْنَاهَا إِلَيْكَ فَمَنَعْتَنَا وَزَوَّجْتَ عَلِيًّا فَقُلْتُ لَهُمْ وَاللَّهِ مَا أَنَا مَنَعْتُكُمْ وَزَوَّجْتُهُ بَلِ اللَّهُ مَنَعَكُمْ وَزَوَّجَهُ فَهَبَطَ عَلَيَّ جِبْرِيلُ فَقَالَ يَا مُحَمَّدُ إِنَّ اللَّهَ جَلَّ جَلَالُهُ يَقُولُ لَوْ لَمْ أَخْلُقْ عَلِيًّا لَمَا كَانَ لِفَاطِمَةَ ابْنَتِكَ كُفْوٌ عَلَى وَجْهِ الْأَرْضِ آدَمُ فَمَنْ دُونَهُ. وَحَدَّثَنَا بِهَذَا الْحَدِيثِ أَحْمَدُ بْنُ زِيَادِ بْنِ جَعْفَرٍ الْهَمَذَانِيُّ رَضِيَ اللَّهُ عَنْهُ حَدَّثَنَا عَلِيُّ بْنُ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ، عَن عَلِيِّ بْنِ مَعْبَدٍ، عَنِ الْحُسَيْنِ بْنِ خَالِدٍ، عَنِ الرِّضَا عَلَيْهِ السَّلَامُ، عَن آبَائِهِ، عَن عَلِيِّ بْنِ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ، عَن رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. وَقَدْ أَخْرَجْتُ مَا رَوَيْتُ فِي هَذَا الْمَعْنَى فِي كِتَابِ مَوْلِدِ فَاطِمَةَ عَلَيْهَا السَّلَامُ وَفَضَائِلِهَا.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا أَبُو مُحَمَّدٍ جَعْفَرُ بْنُ النَّعِيمِ الشَّاذَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ إِدْرِيسَ إِبْرَاهِيمُ بْنُ هَاشِمٍ، عَن عَلِيِّ بْنِ مَعْبَدٍ، عَنِ الْحُسَيْنِ بْنِ خَالِدٍ، عَن أَبِي الْحَسَنِ عَلِيٍّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ، عَن أَبِيهِ، عَن آبَائِهِ، عَن عَلِيٍّ عَلَيْهِ السَّلَامُ",
+      "matn_ar": "قَالَ: قَالَ لِي رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ يَا عَلِيُّ لَقَدْ عَاتَبَنِي رِجَالٌ مِنْ قُرَيْشٍ فِي أَمْرِ فَاطِمَةَ وَقَالُوا خَطَبْنَاهَا إِلَيْكَ فَمَنَعْتَنَا وَزَوَّجْتَ عَلِيًّا فَقُلْتُ لَهُمْ وَاللَّهِ مَا أَنَا مَنَعْتُكُمْ وَزَوَّجْتُهُ بَلِ اللَّهُ مَنَعَكُمْ وَزَوَّجَهُ فَهَبَطَ عَلَيَّ جِبْرِيلُ فَقَالَ يَا مُحَمَّدُ إِنَّ اللَّهَ جَلَّ جَلَالُهُ يَقُولُ لَوْ لَمْ أَخْلُقْ عَلِيًّا لَمَا كَانَ لِفَاطِمَةَ ابْنَتِكَ كُفْوٌ عَلَى وَجْهِ الْأَرْضِ آدَمُ فَمَنْ دُونَهُ. وَحَدَّثَنَا بِهَذَا الْحَدِيثِ أَحْمَدُ بْنُ زِيَادِ بْنِ جَعْفَرٍ الْهَمَذَانِيُّ رَضِيَ اللَّهُ عَنْهُ حَدَّثَنَا عَلِيُّ بْنُ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ، عَن عَلِيِّ بْنِ مَعْبَدٍ، عَنِ الْحُسَيْنِ بْنِ خَالِدٍ، عَنِ الرِّضَا عَلَيْهِ السَّلَامُ، عَن آبَائِهِ، عَن عَلِيِّ بْنِ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ، عَن رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. وَقَدْ أَخْرَجْتُ مَا رَوَيْتُ فِي هَذَا الْمَعْنَى فِي كِتَابِ مَوْلِدِ فَاطِمَةَ عَلَيْهَا السَّلَامُ وَفَضَائِلِهَا.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أبو محمد جعفر بن النعيم الشاذاني رضى الله عنه قال: حدثنا أحمد بن إدريس إبراهيم بن هاشم،",
+          "name_en": "Abu Muhammad Ja'far b. al-Nu al-Nu'aym al-Shadhdhani",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "على بن معبد،",
+          "name_en": "Ali ibn Ma'bad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 337
+        },
+        {
+          "name_ar": "الحسين بن خالد،",
+          "name_en": "al-Husayn ibn Khalid",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 323
+        },
+        {
+          "name_ar": "أبي الحسن علاى بن‏لرضا عليه السلام،",
+          "name_en": "Abi al-Hasan 'Ali b. al-Rida",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أبيه، عن‏آبائه،",
+          "name_en": "Abihi, 'an abaihi",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "علي‏ عليه السلام قال‏قال لي رسول الله‏ صلى الله عليه وآله يا علي لقد عاتبني رجال من قريش",
+          "name_en": "'Ali b. Abi Talib",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

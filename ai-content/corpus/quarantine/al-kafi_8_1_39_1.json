@@ -1,0 +1,927 @@
+{
+  "verse_path": "/books/al-kafi:8:1:39:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrators has 17 entries (>15 — real isnad chains rarely exceed 12; likely matn fragments)",
+    "narrator[4] name_ar has 19 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ ذَكَرَ هَذِهِ الْ'",
+    "chunks[0] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[3] word '(صلى' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'وآله)' has no diacritics (must be fully diacritized)",
+    "chunks[21] word '(صلى' has no diacritics (must be fully diacritized)",
+    "chunks[21] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[21] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[21] word 'وآله)' has no diacritics (must be fully diacritized)",
+    "key_phrases must have 0-5 items, got 9"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "worship",
+      "afterlife",
+      "dua"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "divine_attributes",
+      "prophethood",
+      "prayer_rulings",
+      "quran_virtues",
+      "specific_supplications"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ أَوْ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ ذَكَرَ هَذِهِ الْخُطْبَةَ لِأَمِيرِ الْمُؤْمِنِينَ (عليه السلام) يَوْمَ الْجُمُعَةِ",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from his father, from al-Hasan ibn Mahboub, from Muhammad ibn al-Nu'man, or others or he, from Abu Abdillah (peace be upon him), that he mentioned this sermon of the Commander of the Faithful (peace be upon him) on Friday.",
+          "ur": "علی بن ابراہیم، اپنے والد سے، حسن بن محبوب سے، محمد بن نعمان یا دیگر راویوں سے، ابو عبداللہ (علیہ السلام) سے روایت ہے کہ انہوں نے امیر المؤمنین (علیہ السلام) کی یہ خطبہ جمعہ کے دن بیان کیا۔",
+          "tr": "Ali b. İbrahim, babasından, el-Hasan b. Mahbub'tan, Muhammed b. en-Nu'man'dan veya başkalarından veya o, Ebu Abdillah'dan (aleyhisselam), o da Amirü'l-Müminin'in (aleyhisselam) Cuma günü yaptığı bu hutbeyi zikretti.",
+          "fa": "۱۴۶۴۲- عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ أَوْ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عَلَيْهِ السَّلَامُ) أَنَّهُ ذَكَرَ هَذِهِ الْخُطْبَةَ لِأَمِيرِ الْمُؤْمِنِينَ (عَلَيْهِ السَّلَامُ) يَوْمَ الْجُمُعَةِ",
+          "id": "Ali bin Ibrahim, dari ayahnya, dari al-Hasan bin Mahbub, dari Muhammad bin al-Nu'man, atau orang lain, dari Abu Abdillah (alamah), bahwa ia menyebutkan khutbah ini dari Amirul Mukminin (alamah) pada hari Jumat.",
+          "bn": "আলী ইবনে ইবরাহীম, তার পিতার নিকট হতে, আল-হাসান ইবনে মাহবুবের নিকট হতে, মুহাম্মাদ ইবনু আন-নুমান বা অন্য কেউ বা তিনি, আবু আবদিল্লাহ (আলাইহিস সালাম) নিকট হতে যে, তিনি আমীরুল মুমিনীন (আলাইহিস সালাম)-এর এই খুতবা জুমআর দিনে উল্লেখ করেছেন।",
+          "es": "14642- عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ أَوْ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ ذَكَرَ هَذِهِ الْخُطْبَةَ لِأَمِيرِ الْمُؤْمِنِينَ (عليه السلام) يَوْمَ الْجُمُعَةِ",
+          "fr": "14642- عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ أَوْ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ ذَكَرَ هَذِهِ الْخُطْبَةَ لِأَمِيرِ الْمُؤْمِنِينَ (عليه السلام) يَوْمَ الْجُمُعَةِ",
+          "de": "14642- ALĪ IBN IBRĀHĪM VON SEINEM VATER VON AL-ḤASAN IBN MAHBŪB VON MUḤAMMAD IBN AL-NUʿMĀN ODER ANDEREN ODER IHM VON ABŪ ʿABDILLĀH (friede sei mit ihm), dass er diese Predigt des Befehlhabers der Gläubigen (friede sei mit ihm) am Freitag erwähnte.",
+          "zh": "14642- 阿里·本·易卜拉欣，从他父亲，从哈桑·本·马布乌布，从穆罕默德·本·努尔曼，或他人，从他，从阿布·阿卜杜拉（愿主福安之），他提及了这位信士的长官（愿主福安之）在周五的这篇演说。",
+          "ru": ""
+        },
+        "word_start": 0,
+        "word_end": 31
+      },
+      {
+        "chunk_type": "opening",
+        "arabic_text": "الْحَمْدُ لِلَّهِ أَهْلِ الْحَمْدِ وَ وَلِيِّهِ وَ مُنْتَهَى الْحَمْدِ وَ مَحَلِّهِ الْبَدِي‏ءِ الْبَدِيعِ الْأَجَلِّ الْأَعْظَمِ الْأَعَزِّ الْأَكْرَمِ الْمُتَوَحِّدِ بِالْكِبْرِيَاءِ وَ الْمُتَفَرِّدِ بِالْآلَاءِ الْقَاهِرِ بِعِزِّهِ وَ الْمُسَلِّطِ بِقَهْرِهِ الْمُمْتَنِعِ بِقُوَّتِهِ الْمُهَيْمِنِ بِقُدْرَتِهِ وَ الْمُتَعَالِي فَوْقَ كُلِّ شَيْ‏ءٍ بِجَبَرُوتِهِ الْمَحْمُودِ بِامْتِنَانِهِ وَ بِإِحْسَانِهِ الْمُتَفَضِّلِ بِعَطَائِهِ وَ جَزِيلِ فَوَائِدِهِ الْمُوَسِّعِ بِرِزْقِهِ الْمُسْبِغِ بِنِعَمِهِ نَحْمَدُهُ عَلَى آلَائِهِ وَ تَظَاهُرِ نَعْمَائِهِ حَمْداً يَزِنُ عَظَمَةَ جَلَالِهِ وَ يَمْلَأُ قَدْرَ آلَائِهِ وَ كِبْرِيَائِهِ",
+        "translations": {
+          "en": "All praise is for Allah, the Deserving of praise and its Guardian, and the End of praise and its Place, the Originator, the Unique, the Majestic, the Magnificent, the Mighty, the Generous, the Unifier with Greatness, and the Unique with Grace, the Conqueror with His Honor, the Dominant with His Power, the Self-Sufficient with His Strength, the Controller with His Ability, the Exalted above all things with His Compulsiveness, the Praised with His Gratitude and His Goodness, the Bestower with His Gift and Abundant Benefits, the Expander with His Sustenance, the Bestower with His Bounties. We praise Him for His Bounties and the Manifestation of His Blessings, with a praise that weighs the Greatness of His Majesty and fills the Measure of His Blessings and Greatness.",
+          "ur": "تمام تعریف اللہ ہی کے لیے ہے، جو تعریف کا مستحق اور اس کا نگہبان ہے، اور تعریف کا انجام اور اس کا مقام ہے، جو خالق ہے، منفرد ہے، جلیل ہے، عظیم ہے، قوی ہے، کریم ہے، عظمت کے ساتھ متحد کرنے والا ہے، فضل کے ساتھ منفرد ہے، اپنے عزت کے ساتھ فاتح ہے، اپنے قدرت کے ساتھ غالب ہے، اپنے قوت کے ساتھ خود کفا ہے، اپنے استطاعت کے ساتھ قابض ہے، اپنے جبروت کے ساتھ ہر چیز سے بلند ہے، اپنے شکر اور اپنے نیکی کے ساتھ تعریف کیا گیا ہے، اپنے عطیہ اور فراوانی کے فائدوں کے ساتھ عطا کرنے والا ہے، اپنے رزق کے ساتھ وسعت دینے والا ہے، اپنے نعمتوں کے ساتھ عطا کرنے والا ہے۔ ہم اس کی نعمتوں اور اس کے برکات کے ظہور کے لیے اس کی تعریف کرتے ہیں، ایک ایسی تعریف کے ساتھ جو اس کی عظمت کے وزن کو پورا کرے اور اس کی نعمتوں اور عظمت کی پیمائش کو بھر دے۔",
+          "tr": "Hamd, hamda layık olan ve onun koruyucusu olan Allah’a aittir; hamdın sonu ve onun yeri, yaratıcı, benzersiz, aziz, mütekebbir, kudretli, cömert, büyük birleşen, lütufla benzersiz, onuruyla fetheden, gücüyle hâkim, kuvvetiyle zengin, yeteneğiyle kontrol eden, her şeyin üstünde zorlayıcılığıyla yüce, şükür ve iyiliğiyle hamdedilen, hediyesi ve bol faydalarıyla ihsan eden, rızkı genişleten, nimetleriyle ihsan eden Allah’a hamdolsun. O’nun nimetleri ve bereketlerinin tezahürü için hamdederiz; bu hamd, O’nun azameti ölçüsünde ağırlık taşır ve O’nun bereketi ve büyüklüğünün ölçüsünü doldurur.",
+          "fa": "ستایش خدای را سزاوار ستایش و نگهبان آن، و پایان ستایش و جایگاه آن، آفریننده، یگانه، جلیل، عظیم، توانا، کریم، بزرگ‌کننده با عظمت، یگانه با کرم، پیروز با عزت، غالب با قدرت، بی‌نیاز با قوت، فرمانروا با توانایی، برتر از همه چیز با اجبار، ستایش‌شده با شکر و نیکی، بخشایشگر با هدیه و فواید فراوان، گسترش‌دهنده با روزی، بخشایشگر با نعمت‌ها. ما او را به خاطر نعمت‌هایش و آشکار شدن برکاتش ستایش می‌کنیم، با ستایشی که عظمت جلال او را می‌سنجد و اندازه برکات و عظمت او را پر می‌کند.",
+          "id": "Segala puji bagi Allah, Yang Mahakuasa, Allah, yang layak dipuji dan menjadi Penjaga pujian, dan merupakan Akhir dari pujian dan Tempatnya, Sang Pencipta, Yang Maha Unik, Yang Maha Mulia, Yang Maha Agung, Yang Maha Kuat, Yang Maha Dermawan, Yang Maha Menyatukan dengan Keagungan, dan Yang Maha Unik dengan Kemuliaan, Sang Penakluk dengan Kemuliaan-Nya, Yang Maha Menguasai dengan Kekuatan-Nya, Yang Maha Kaya dengan Kekuatan-Nya, Yang Maha Mengatur dengan Kemampuan-Nya, Yang Maha Tinggi di atas segala sesuatu dengan Keabsahan-Nya, Yang Maha Terpuji dengan Syukur-Nya dan Kebaikan-Nya, Sang Pemberi dengan Anugerah-Nya dan Manfaat yang Melimpah, Sang Pembuka dengan Rezeki-Nya, Sang Pemberi dengan Karunia-Nya.",
+          "bn": "সমস্ত প্রশংসা আল্লাহর জন্য, যিনি প্রশংসার অধিকারী এবং এর রক্ষক, এবং প্রশংসার অন্তিম স্থান এবং এর আশ্রয়স্থল, সৃষ্টিকর্তা, অদ্বিতীয়, মহান, বিস্ময়কর, শক্তিশালী, করুণাময়, মহত্ত্বের সাথে একক, করুণার সাথে অদ্বিতীয়, তাঁর সম্মানের সাথে বিজয়ী, তাঁর ক্ষমতার সাথে প্রভুশালী, তাঁর শক্তির সাথে স্বয়ংসম্পূর্ণ, তাঁর সামর্থ্যের সাথে নিয়ন্ত্রণকারী, তাঁর বাধ্যতামূলক শক্তির সাথে সকল বস্তুর উপরে উচ্চস্থানীয়, তাঁর কৃতজ্ঞতা এবং তাঁর কল্যাণের সাথে প্রশংসিত, তাঁর উপহার এবং প্রচুর উপকারের সাথে দাতা, তাঁর রিযিকের সাথে প্রসারক, তাঁর বরকতের সাথে দাতা। আমরা তাঁর বরকতের জন্য এবং তাঁর নিয়ামতের প্রকাশের জন্য প্রশংসা করি, এমন প্রশংসা যা তাঁর মহিমার মহত্ত্বকে ওজন করে এবং তাঁর নিয়ামত ও মহত্ত্বের পরিমাপ পূর্ণ করে।",
+          "es": "Toda alabanza pertenece a Allah, Digno de alabanza y su Guardián, y el Final de la alabanza y su Lugar, el Creador, el Único, el Majestuoso, el Magnífico, el Poderoso, el Generoso, el Unificador con Grandeza, y el Único con Gracia, el Conquistador con Su Honor, el Dominante con Su Poder, el Autosuficiente con Su Fortaleza, el Controlador con Su Capacidad, el Exaltado por encima de todas las cosas con Su Imperiosidad, el Alabado con Su Gratitud y Su Bondad, el Otorgador con Su Don y Abundantes Beneficios, el Ampliador con Su Sustento, el Otorgador con Sus Gracias. Le alabamos por Sus Gracias y la Manifestación de Sus Bendiciones, con una alabanza que pesa la Grandeza de Su Majestad y llena la Medida de Sus Bendiciones y Grandeza.",
+          "fr": "Louange à Allah, Digne de louange et Garanti de celle-ci, et la Fin de la louange et son Lieu, le Créateur, l'Unique, le Majestueux, le Magnifique, le Puissant, le Généreux, l'Unificateur avec Grandeur, et l'Unique avec Grâce, le Conquérant avec Son Honneur, le Dominant avec Son Pouvoir, l'Autosuffisant avec Sa Force, le Contrôleur avec Sa Capacité, l'Exalté au-dessus de toutes choses par Son Impérativité, le Loué avec Sa Reconnaissance et Sa Bonté, le Donateur avec Son Cadeau et Ses Bienfaits Abondants, l'Expandeur avec Sa Subsistance, le Donateur avec Ses Faveurs. Nous Le louons pour Ses Faveurs et la Manifestation de Ses Blessings, avec une louange qui pèse la Grandeur de Sa Majesté et remplit la Mesure de Ses Blessings et de Sa Grandeur.",
+          "de": "Alles Lob gebührt Allah, dem Würdigen des Lobes und seinem Hüter, und dem Ende des Lobes und seinem Ort, dem Erschaffer, dem Einzigartigen, dem Majestätischen, dem Großartigen, dem Mächtigen, dem Großzügigen, dem Vereiniger mit Größe, und dem Einzigartigen mit Gnade, dem Sieger mit seiner Ehre, dem Herrschenden mit seiner Macht, dem Selbstgenügsamen mit seiner Stärke, dem控制器 mit seiner Fähigkeit, dem Erhabenen über alle Dinge mit seiner Zwingkraft, dem Gepriesenen mit seiner Dankbarkeit und seiner Güte, dem Geber mit seinem Geschenk und seinen reichlichen Vorteilen, dem Erweiterer mit seiner Versorgung, dem Geber mit seinen Wohltaten. Wir loben Ihn für seine Wohltaten und die Offenbarung seiner Segnungen, mit einem Lob, das die Größe seiner Majestät wiegt und das Maß seiner Segnungen und Größe füllt.",
+          "ru": "Вся хвала Аллаху, Достойному хвалы и Её Хранителю, и Концу хвалы и Её Месту, Творцу, Единственному, Величественному, Великолепному, Могущественному, Щедруму, Объединяющему с Величием, Единственному с Благородством, Покоряющему с Своей Честью, Доминирующему с Своей Силой, Самодостаточному с Своей Крепостью, Контролирующему с Своей Способностью, Возвышенному над всеми вещами с Своей Обязательностью, Восхваляемому с Своей Благодарностью и Своей Добродетелью, Дарующему с Своей Даром и Изобильными Благами, Расширяющему с Своей Пищей, Дарующему с Своей Щедростью. Мы восхваляем Его за Его Блага и Проявление Его Благодати, с хвалой, которая взвешивает Величие Его Величия и наполняет Мера Его Благодати и Величия.",
+          "zh": "一切赞颂全归真主，他是应受赞颂扬者及其守护者，是赞颂的终结及其归宿，是创造者，是独一者，是威严者，是壮丽者，是刚强者，是慷慨者，是以伟大联合者，是以恩典独一者，是以尊贵征服者，是以力量主宰者，是以力量自足者，是以能力统御者，是以强制力超绝万物者，是以感恩和善行被赞颂者，是以恩赐和丰厚利益施予者，是以给养扩张者，是以恩惠施予者。我们因他的恩惠和祝福的显现而赞颂他，以能称量他威严的伟大、充满他祝福和伟大的赞颂来赞颂他。"
+        },
+        "word_start": 31,
+        "word_end": 97
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَأَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ الَّذِي كَانَ فِي أَوَّلِيَّتِهِ مُتَقَادِماً وَ فِي دَيْمُومِيَّتِهِ مُتَسَيْطِراً خَضَعَ الْخَلَائِقُ لِوَحْدَانِيَّتِهِ وَ رُبُوبِيَّتِهِ وَ قَدِيمِ أَزَلِيَّتِهِ وَ دَانُوا لِدَوَامِ أَبَدِيَّتِهِ",
+        "translations": {
+          "en": "And I testify that there is no god but Allah, Alone, without partner, Who was Preeminent in His Primacy and Dominant in His Permanence. The creatures submitted to His Oneness and Lordship and His Ancient Eternity, and they humbled themselves to the Continuity of His Eternity.",
+          "ur": "اور میں گواہی دیتا ہوں کہ اللہ کے سوا کوئی معبود نہیں، وہ اکیلا ہے، جس کا کوئی شریک نہیں، جو اپنی پہچان میں برتر اور اپنی بقا میں غالب ہے۔ مخلوقات نے اس کی وحدانیت اور ربوبیت کے سامنے سر جھکایا اور اس کی ابدی بقا کے سامنے عاجزی اختیار کی۔",
+          "tr": "Ve ben şahitlik ederim ki, Allah'tan başka ilah yoktur, O tektir, ortağı yoktur; O, ilkeliğinde üstün ve kalıcılığında hâkimdir. Mahlukat, O'nun tevhidine ve rablıığına boyun eğmişlerdir ve O'nun ebedî kalıcılığına tevazu göstermişlerdir.",
+          "fa": "و گواهی می‌دهم که هیچ معبودی جز الله نیست، یگانه، بی‌همتا، که در پیشینی‌اش برتر و در پایداریش چیره‌دست است. آفریدگان به یگانگی و ربوبیت او و ازلیت دیرینه‌اش تسلیم شدند و در برابر تداوم ابدیت او فروتنی ورزیدند.",
+          "id": "Dan aku bersaksi bahwa tidak ada tuhan selain Allah, Yang Esa, tanpa sekutu, Yang Maha Luhur dalam Keutamaan-Nya dan Maha Kuasa dalam Keabadian-Nya. Makhluk-makhluk tunduk kepada Keesaan dan KeTuhanan-Nya serta Keabadian-Nya yang Purba, dan mereka merendahkan diri terhadap kesinambungan Keabadian-Nya.",
+          "bn": "আর আমি সাক্ষ্য দিচ্ছি যে, আল্লাহ্ ছাড়া কোনো ইলাহ নেই, একক, অংশীদারহীন, যিনি তাঁর প্রাধান্যে শ্রেষ্ঠ ও তাঁর স্থায়িত্বে প্রভুশালী। সৃষ্টিজগৎ তাঁর তৌহিদ ও রুবুবিয়্যাতের প্রতি আত্মসমর্পণ করেছে এবং তাঁর অনন্তকালীন স্থায়িত্বের প্রতি নতজানু হয়েছে।",
+          "es": "Y atestiguo que no hay más dios que Allah, Único, sin socio, que fue Preeminente en Su Primacía y Dominante en Su Permanencia. Las criaturas se sometieron a Su Unidad y Señorío y a Su Eternidad Antigua, y se humillaron ante la Continuidad de Su Eternidad.",
+          "fr": "Et j'atteste qu'il n'y a de divinité qu'Allah, Unique, sans associé, Qui est Suprême dans Son Antériorité et Dominant dans Sa Permanence. Les créatures se sont soumises à Son Unicité et à Sa Seigneurie, ainsi qu'à Son Éternité Antique, et elles se sont humiliées devant la Continuité de Son Éternité.",
+          "de": "Und ich bezeuge, dass es keinen Gott außer Allah gibt, den Einzigen, ohne Partner, Der in Seiner Erststellung erhaben und in Seiner Beständigkeit mächtig ist. Die Geschöpfe unterwarfen sich Seiner Einzigkeit und Seiner Herrschaft sowie Seiner uranfänglichen Ewigkeit, und sie demütigten sich vor der Kontinuität Seiner Ewigkeit.",
+          "ru": "И я свидетельствую, что нет божества, кроме Аллаха, Единого, без сотоварища, Который был Возвышен в Своем Первоначальном Величии и Преобладал в Своей Вечности. Твари покорились Его Единству и Господству и Его Древней Вечности, и они смирились перед Непрерывностью Его Вечности.",
+          "zh": "我作证：除安拉外，绝无应受崇拜者，他独一，无配，他在本原上至尊，在永恒中主宰。万物顺服于他的独一与主权，以及他古老的永恒，他们谦卑于他永恒的延续。"
+        },
+        "word_start": 97,
+        "word_end": 128
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَأَشْهَدُ أَنَّ مُحَمَّداً (صلى الله عليه وآله) عَبْدُهُ وَ رَسُولُهُ وَ خِيَرَتُهُ مِنْ خَلْقِهِ اخْتَارَهُ بِعِلْمِهِ وَ اصْطَفَاهُ لِوَحْيِهِ وَ ائْتَمَنَهُ عَلَى سِرِّهِ وَ ارْتَضَاهُ لِخَلْقِهِ وَ انْتَدَبَهُ لِعَظِيمِ أَمْرِهِ وَ لِضِيَاءِ مَعَالِمِ دِينِهِ وَ مَنَاهِجِ سَبِيلِهِ وَ مِفْتَاحِ وَحْيِهِ وَ سَبَباً لِبَابِ رَحْمَتِهِ ابْتَعَثَهُ عَلَى حِينِ فَتْرَةٍ مِنَ الرُّسُلِ وَ هَدْأَةٍ مِنَ الْعِلْمِ وَ اخْتِلَافٍ مِنَ الْمِلَلِ وَ ضَلَالٍ عَنِ الْحَقِّ وَ جَهَالَةٍ بِالرَّبِّ وَ كُفْرٍ بِالْبَعْثِ وَ الْوَعْدِ",
+        "translations": {
+          "en": "And I testify that Muhammad (peace be upon him and his family) is His servant and His Messenger and His Chosen One from His creatures. He chose him with His Knowledge, selected him for His Revelation, entrusted him with His Secret, was pleased with him for His creatures, appointed him for His Great Command and for the Light of the Landmarks of His Religion and the Paths of His Way and the Key of His Revelation, and a Means to the Door of His Mercy. He sent him during a period of absence of the Messengers, a respite of Knowledge, a difference of Sects, and straying from the Truth, and Ignorance of the Lord, and Disbelief in the Resurrection and the Promise.",
+          "ur": "اور میں گواہی دیتا ہوں کہ محمد (صلی اللہ علیہ و آلہ وسلم) اس کے بندے اور اس کے رسول اور اس کی مخلوق میں سے اس کا برگزیدہ ہے۔ اس نے اپنے علم سے اسے چنا، اپنے وحی کے لیے اسے منتخب کیا، اپنے راز کے لیے اسے امانت بنایا، اپنی مخلوق کے لیے اس پر راضی ہوا، اپنے عظیم حکم اور اپنے دین کے نشانوں کی روشنی اور اپنے راستے کے راستوں اور اپنے وحی کی کنجی کے لیے اسے مقرر کیا، اور اپنے رحم کے دروازے کی طرف ایک ذریعہ بنایا۔ اس نے اسے اس وقت بھیجا جب رسولوں کی غیبت، علم کی فراغت، فرقوں کا اختلاف، اور حق سے بھٹکنا، اور رب کی ignorance، اور قیامت اور وعدے پر کفر کا دور تھا۔",
+          "tr": "Ve ben şahitlik ederim ki Muhammed (ona ve âline salât ve selâm olsun) O'nun kulu ve O'nun Rasûlüdür ve O'nun mahlûkatından seçtiği birisidir. O, ilmiyle onu seçti, vahiy için onu tayin etti, sırrını ona emanet etti, mahlûkatı için ondan razı oldu, büyük emri ve dininin alâmetlerinin ve yolunun yollarının ışığı ve vahiy anahtarı için onu görevlendirdi ve rahmetinin kapısına bir vesile kıldı. O, Rasûllerin yokluğunda, ilmin ertelenmesinde, mezheplerin ayrılığında, hakka sapmada, Rabbin cehaletinde, kıyamete ve vaade inkârda olduğu bir dönemde onu gönderdi.",
+          "fa": "و من گواهی می‌دهم که محمد (صلی‌الله‌علیه‌وآله‌وسلم) بنده و پیامبر و برگزیده‌ی او از مخلوقاتش است. او را با دانش خود برگزید، برای وحی خود انتخاب کرد، راز خود را به او سپرد، از او برای مخلوقاتش خشنود شد، او را برای فرمان بزرگ خود و برای نور سرزمین نشانه‌های دینش و راه‌های راهش و کلید وحی خود منصوب کرد، و وسیله‌ای برای در رحمتش قرار داد. او را در دوره‌ای که پیامبران غایب بودند، دانش به تأخیر افتاده بود، فرق مختلف بودند، و از حقیقت گمراه شده بودند، و از پروردگار نادان بودند، و به رستاخیز و وعده کافر بودند، فرستاد.",
+          "id": "Dan aku bersaksi bahwa Muhammad (shalat dan salam atasnya serta keluarganya) adalah hamba-Nya dan utusan-Nya serta pilihan-Nya dari makhluk-makhluk-Nya. Allah memilihnya dengan Ilmu-Nya, memilihnya untuk Wahyu-Nya, mempercayakan Rahasia-Nya kepadanya, ridha kepadanya untuk makhluk-makhluk-Nya, menunjuknya untuk Perintah Agung-Nya dan untuk Cahaya Penanda-penanda Agama-Nya dan Jalan-jalan Cara-Nya serta Kunci Wahyu-Nya, dan sebagai Perantara menuju Pintu Rahmat-Nya. Allah mengutusnya pada masa ketika para utusan tidak hadir, ilmu mengalami jeda, terjadi perbedaan antar sekte, dan menyimpang dari Kebenaran, serta ketidaktahuan akan Tuhan, dan kekafiran terhadap Kebangkitan dan Janji (Allah).",
+          "bn": "আমি সাক্ষ্য দিচ্ছি যে মুহাম্মদ (আল্লাহর উপর ও তাঁর পরিবারের উপর শান্তি বর্ষিত হোক) তাঁর বান্দা, তাঁর রাসূল এবং তাঁর সৃষ্টির মধ্যে তাঁর নির্বাচিত ব্যক্তি। তিনি তাঁকে তাঁর জ্ঞান দিয়ে নির্বাচন করলেন, তাঁর ওহির জন্য তাঁকে নির্বাচন করলেন, তাঁর গোপনীয়তা তাঁর উপর ন্যস্ত করলেন, তাঁর বান্দাদের জন্য তাঁর প্রতি সন্তুষ্ট হলেন, তাঁর মহান আদেশের জন্য তাঁকে নিযুক্ত করলেন এবং তাঁর ধর্মের সীমানাচিহ্নের আলো, তাঁর পথের পথগুলির চাবি এবং তাঁর ওহির চাবি হিসেবে তাঁকে নিযুক্ত করলেন, এবং তাঁর রহমতের দরজার মাধ্যম হিসেবে। তিনি তাঁকে পাঠালেন রাসূলদের অনুপস্থিতির সময়কালে, জ্ঞানের বিরতি, সম্প্রদায়গুলির মধ্যে পার্থক্য, সত্য থেকে বিচ্যুতি, এবং রবের অজ্ঞানতা, এবং কিয়ামত এবং প্রতিশ্রুতির অবিদ্যমানতার সময়কালে।",
+          "es": "Y atestiguo que Muhammad (que la paz sea con él y con su familia) es Su siervo y Su Mensajero y Su Elegido entre Sus criaturas. Él lo eligió con Su Conocimiento, lo seleccionó para Su Revelación, le confió Su Secreto, se complació en él por Sus criaturas, lo designó para Su Gran Orden y para la Luz de los Hitos de Su Religión y las Sendas de Su Camino y la Llave de Su Revelación, y un Medio para la Puerta de Su Misericordia. Lo envió durante un período de ausencia de los Mensajeros, una tregua del Conocimiento, una divergencia de Sectas, y un extravío de la Verdad, y una Ignorancia del Señor, y una Descreencia en la Resurrección y la Promesa.",
+          "fr": "Et j'atteste que Muhammad (que la paix soit sur lui et sur sa famille) est Son serviteur et Son Messager et Son Élu parmi Ses créatures. Il l'a choisi par Sa Connaissance, l'a désigné pour Sa Révélation, lui a confié Son Secret, s'est complu en lui pour Ses créatures, l'a nommé pour Son Grand Commandement et pour la Lumière des Jalons de Sa Religion et des Voies de Son Chemin et la Clé de Sa Révélation, et un Moyen d'accès à la Porte de Sa Miséricorde. Il l'a envoyé durant une période d'absence des Messagers, un répit de la Connaissance, une divergence des Sectes, un égarement par rapport à la Vérité, une méconnaissance du Seigneur, et une incrédulité en la Résurrection et en la Promesse.",
+          "de": "Und ich bezeuge, dass Muhammad (Friede sei mit ihm und seiner Familie) Sein Diener und Sein Gesandter und Sein Auserwählter aus Seinen Geschöpfen ist. Er erwählte ihn mit Seinem Wissen, auserwählte ihn für Seine Offenbarung, vertraute ihm Sein Geheimnis an, war mit ihm für Seine Geschöpfe zufrieden, ernannte ihn für Sein Großes Gebot und für das Licht der Wegmarken Seiner Religion und die Pfade Seines Weges und den Schlüssel Seiner Offenbarung, und als Mittel zur Tür Seiner Barmherzigkeit. Er sandte ihn in einer Zeit des Fehlens der Gesandten, einer Verschnaufpause des Wissens, einer Spaltung der Sekten, und des Abirrens von der Wahrheit, und der Unwissenheit über den Herrn, und des Unglaubens an die Auferstehung und das Versprechen.",
+          "ru": "И я свидетельствую, что Мухаммаду (да будет мир ему и его семье), что он раб Его и Посланник Его и Избранный Им среди Его творений. Он избрал его Своим Знанием, выбрал его для Своего Откровения, доверил ему Свою Тайну, был доволен им ради Своих творений, назначил его для Своего Великого Повеления и для Света Ориентиров Его Религии и Путей Его Пути и Ключа Его Откровения, и Средством к Вратам Своего Милосердия. Он послал его в период отсутствия Посланников, перерыва Знания, разногласия Сект, отклонения от Истины, Незнания Господа, неверия в Воскресение и Обетование.",
+          "zh": "我作证，穆罕默德（愿主福安之及其家属）是他的仆人和使者，是他从受造物中拣选的一位。他以他的知识拣选了他，以他的启示选中了他，将他的秘密托付给他，对他的受造物感到喜悦，任命他负责他的伟大命令以及他宗教的地标和道路的光明，以及他启示的钥匙，并成为他慈悯之门的途径。他在使者缺席、知识暂停、教派分歧、偏离真理、不知主、不信复活和应许的时期派遣了他。"
+        },
+        "word_start": 128,
+        "word_end": 198
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَرْسَلَهُ إِلَى النَّاسِ أَجْمَعِينَ رَحْمَةً لِلْعَالَمِينَ بِكِتَابٍ كَرِيمٍ قَدْ فَضَّلَهُ وَ فَصَّلَهُ وَ بَيَّنَهُ وَ أَوْضَحَهُ وَ أَعَزَّهُ وَ حَفِظَهُ مِنْ أَنْ يَأْتِيَهُ الْبَاطِلُ مِنْ بَيْنِ يَدَيْهِ وَ مِنْ خَلْفِهِ تَنْزِيلٍ مِنْ حَكِيمٍ حَمِيدٍ",
+        "translations": {
+          "en": "He sent him to all people as a Mercy to the Worlds, with a Noble Book which He had Preferred, Detailed, Explained, Clarified, Strengthened, and Preserved from the Falsehood approaching it from before it and from behind it. A Revelation from the Wise, the Praised.",
+          "ur": "انہوں نے اسے تمام جہانوں کے لیے رحمت بنا کر بھیجا، ایک شریف کتاب کے ساتھ جو اس نے پسند فرمائی، تفصیل کے ساتھ، وضاحت کے ساتھ، روشن کی گئی، مضبوط کی گئی، اور اس کے آگے اور پیچھے سے جھوٹ سے محفوظ رکھی گئی۔ حکیم، ستائش والے کی طرف سے وحی۔",
+          "tr": "On",
+          "fa": "او او را به عنوان رحمتی برای جهانیان فرستاد، همراه با کتابی شریف که او برگزیده بود، مفصل، روشن، شفاف، مستحکم و محفوظ از هر باطلی که از پیش و پس به آن نزدیک شود. وحی از جانب خردمند، ستوده.",
+          "id": "text\": ",
+          "bn": "তিনি তাকে সারা জগতের জন্য রহমত হিসেবে পাঠিয়েছেন, একটি মহান গ্রন্থের সাথে যা তিনি পছন্দ করেছেন, বিস্তারিতভাবে বর্ণনা করেছেন, ব্যাখ্যা করেছেন, স্পষ্ট করেছেন, দৃঢ় করেছেন এবং তার前后 থেকে আসা ভুল থেকে রক্ষা করেছেন। এটি একজন প্রজ্ঞাময় ও প্রশংসিত আল্লাহর পক্ষ থেকে অবতীর্ণ।",
+          "es": "Lo envió a toda la humanidad como una Misericordia para los mundos, con un Libro Noble que Él había elegido, detallado, explicado, clarificado, fortalecido y preservado de la falsedad que se le acercaba por delante y por detrás. Una Revelación del Sabio, el Alabado.",
+          "fr": "Il l'a envoyé à tous les gens comme une Miséricorde pour les mondes, avec un Livre Noble qu'Il a Privilégié, Détaillé, Expliqué, Clarifié, Renforcé et Préserver de la fausseté qui l'approche de devant et de derrière. Une Révélation venant du Sage, le Loué.",
+          "de": "Er sandte ihn als eine Barmherzigkeit für die Welten hinab, mit einem edlen Buch, das Er auserwählt, detailliert, erläutert, geklärt, gestärkt und vor der von vorn und von hinten herantretenden Falschheit bewahrt hatte. Eine Offenbarung vom Allweisen, dem Gepriesenen.",
+          "ru": "Он послал его как милость для всех миров, с благородной Книгой, которую Он избрал, подробную, разъяснённую, ясную, укреплённую и сохранённую от лжи, которая приближается к ней спереди и сзади. Откровение от Мудрого, Достохвального.",
+          "zh": "他派遣他作为对全世界的慈恩，并赐予他一部尊贵、被拣选、详述、阐明、澄清、强化且被保守免受前后各方谬误侵扰的经典。这是来自至睿、受赞美的启示。"
+        },
+        "word_start": 198,
+        "word_end": 232
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ضَرَبَ لِلنَّاسِ فِيهِ الْأَمْثَالَ وَ صَرَّفَ فِيهِ الْآيَاتِ لَعَلَّهُمْ يَعْقِلُونَ أَحَلَّ فِيهِ الْحَلَالَ وَ حَرَّمَ فِيهِ الْحَرَامَ وَ شَرَعَ فِيهِ الدِّينَ لِعِبَادِهِ عُذْراً وَ نُذْراً لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ وَ يَكُونَ بَلَاغاً لِقَوْمٍ عَابِدِينَ",
+        "translations": {
+          "en": "He set forth for people parables in it and varied the Verses in it, so that they might understand. He made Halal in it the Permissible and Haram in it the Forbidden, and legislated in it the Religion for His servants as a Pretext and a Warning, so that there would not be for people a Proof against Allah after the Messengers, and that it might be a Conveyance for a worshipping people.",
+          "ur": "اس نے لوگوں کے لیے اس میں مثالیں بیان کیں اور اس کی آیات کو مختلف طرح سے پیش کیا تاکہ وہ سمجھ سکیں۔ اس نے اس میں حلال کو جائز اور حرام کو ناپسندیدہ قرار دیا، اور اس میں اپنے بندوں کے لیے دین کو دلیل اور خبردار کرنے والا بنا دیا، تاکہ رسولوں کے بعد لوگوں کے لیے اللہ کے خلاف کوئی حجت باقی نہ رہے، اور یہ عبادت گزار لوگوں کے لیے پہنچانے والا بن جائے۔",
+          "tr": "Allah, onda insanlara benzetmeler getirmiş ve onda ayetleri çeşitli hallerde sunmuştur ki, onlar anlasınlar. Onda helâli helâl, haramı haram kılmış ve kulları için bir gerekçe ve bir uyarı olarak dinini şer'etmiştir ki, peygamberlerden sonra insanların Allah'a karşı bir hücceti olmasın ve o, ibadet eden bir ümmet için bir tebliğ olsun.",
+          "fa": "او برای مردم در آن پند و اندرزها بیان کرد و آیات آن را گوناگون ساخت تا آن‌ها بیندیشند. حلال‌ها را در آن مجاز و حرام‌ها را در آن نهی‌شده قرار داد و دین را برای بندگان خود به عنوان مایه‌ی پند و هشدار در آن وضع کرد تا پس از آمدن پیامبران، حجتی بر مردم علیه خداوند باقی نماند و آن مایه‌ی رسانش برای قومی باشد که عبادت می‌کنند. }  \n\nNote: The translation preserves Islamic terminology and honorifics as per the instructions. Proper nouns like ",
+          "id": "Ia menyampaikan perumpamaan-perumpamaan bagi manusia di dalamnya dan memperjelas ayat-ayat di dalamnya, agar mereka memahami. Ia menjadikan yang halal di dalamnya sebagai yang diperbolehkan dan yang haram di dalamnya sebagai yang dilarang, serta menetapkan agama bagi hamba-hamba-Nya sebagai alasan dan peringatan, agar tidak ada bagi manusia suatu hujjah terhadap Allah setelah para rasul, dan agar ia menjadi penyampai bagi kaum yang menyembah-Nya.",
+          "bn": "তিনি তাতে লোকদের জন্য উপমা উপস্থাপন করলেন এবং তাতে আয়াতসমূহকে বিভিন্নভাবে পরিবর্তন করলেন, যাতে তারা বুঝতে পারে। তিনি তাতে হালালকে অনুমোদিত এবং হারামকে নিষিদ্ধ ঘোষণা করলেন, এবং তাতে তাঁর বান্দাদের জন্য ধর্ম বিধান করলেন, যাতে তা একটি কারণ ও সতর্ককারী হয়, যাতে রাসূলগণের পরে লোকদের জন্য আল্লাহর বিরুদ্ধে কোনো প্রমাণ অবশিষ্ট না থাকে, এবং যাতে তা একজন ইবাদতকারী সম্প্রদায়ের জন্য বহনকারী হয়।",
+          "es": "Él expuso para la gente parábolas en ella y varió las Versículos en ella, para que comprendieran. Halcó en ella lo Permitido y lo Prohibido en ella lo Vedado, y legisló en ella la Religión para Sus siervos como Pretexto y Advertencia, para que no quedara para la gente una Prueba contra Alá después de los Mensajeros, y que fuera una Transmisión para un pueblo adorador.",
+          "fr": "Il a exposé pour les gens des paraboles en elle et varié les Versets en elle, afin qu'ils comprennent. Il a rendu Halal en elle ce qui est permis et Haram en elle ce qui est interdit, et a légiféré en elle la Religion pour Ses serviteurs comme un Prétexte et un Avertissement, afin qu'il n'y ait pas pour les gens de Preuve contre Allah après les Messagers, et qu'elle puisse être un Moyen de Transmission pour un peuple adorateur.",
+          "de": "Er brachte darin Gleichnisse für die Menschen und variierte die Verse darin, damit sie verstehen mögen. Er machte darin das Erlaubte zu Halal und das Verbotene zu Haram, und erließ darin die Religion für Seine Diener als einen Vorwand und eine Warnung, damit es für die Menschen nach den Gesandten keinen Beweis gegen Allah gäbe und damit es eine Übermittlung für eine anbetende Gemeinschaft sei.",
+          "ru": "Он изложил для людей притчи в нём и разнообразил аяты в нём, чтобы они могли понять. Он сделал дозволенным (Халаль) в нём то, что дозволено, и запретным (Харам) в нём то, что запрещено, и установил в нём религию для Своих рабов как предлог и предостережение, чтобы у людей не осталось против Аллаха довода после прихода Посланников, и чтобы она стала средством передачи для поклоняющегося народа.",
+          "zh": "他借其中的比喻向人们阐明道理，并详述其中的经文以便人们理解他使其中合法者为 permissible 非法者为 forbidden 并为他的仆人们制定宗教作为藉口和警告以便在使者之后人们不再有无言以对真主之时它成为敬拜者的传达"
+        },
+        "word_start": 232,
+        "word_end": 270
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَبَلَّغَ رِسَالَتَهُ وَ جَاهَدَ فِي سَبِيلِهِ وَ عَبَدَهُ حَتَّى أَتَاهُ الْيَقِينُ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ وَ سَلَّمَ تَسْلِيماً كَثِيراً",
+        "translations": {
+          "en": "So he conveyed His Message, and strove in His Path, and worshipped Him until Death came to him. May Allah bless him and his family and grant them much peace.",
+          "ur": "پس انہوں نے اس کا پیغام پہنچایا، اور اس کی راہ میں جہاد کیا، اور موت آجانے تک اس کی عبادت کی۔ اللہ ان پر اور ان کے اہل پر رحمت نازل فرمائے اور انہیں بہت زیادہ سلامتی عطا فرمائے۔",
+          "tr": "Öyleyse O'nun mesajını iletti, O'nun yolunda cihad etti ve ölüm kendisine gelene kadar O'na ibadet etti. Allah ona ve ailesine rahmet etsin ve onlara bolca selametsizlik versin.",
+          "fa": "پس پیامش را رسانید و در راه او جهاد کرد و تا هنگام مرگ او را عبادت نمود. خداوند او و خاندانش را برکت دهد و به آنان آرامش فراوان عطا فرماید.",
+          "id": "Maka ia menyampaikan risalah-Nya, dan berjihad di jalan-Nya, dan beribadah kepada-Nya hingga kematian menjemputnya. Semoga Allah memberkati dia, keluarganya, dan memberikan kedamaian yang banyak kepada mereka.",
+          "bn": "অতএব তিনি তাঁর বার্তা পৌঁছে দিলেন, এবং তাঁর পথে জিহাদ করলেন, এবং মৃত্যু আসা পর্যন্ত তাঁর ইবাদত করলেন। আল্লাহ তাঁকে এবং তাঁর পরিবারকে রহমত বর্ষণ করুন এবং তাদেরকে প্রচুর শান্তি দান করুন।",
+          "es": "Por lo tanto, transmitió Su Mensaje, se esforzó en Su Camino y Le adoró hasta que llegó la muerte. Que Allah lo bendiga a él y a su familia y les conceda mucha paz.",
+          "fr": "Il a donc transmis Son Message, et a lMessage, et a lutté sur Son chemin, et L'a adoré jusqu'à ce que la mort vienne à lui. Qu'Allah le bénisse ainsi que sa famille, et leur accorde beaucoup de paix.",
+          "de": "So übertragt er seine Botschaft, und er mühte sich auf seinem Weg, und er betete Ihn an, bis der Tod zu ihm kam. Möge Allah ihn und seine Familie segnen und ihnen viel Frieden schenken. ",
+          "ru": "Так он передал Его Послание, прилежал в Его Пути и поклонялся Ему до прихода смерти. Да благословит его Аллах и его семью, и дарует им много мира.",
+          "zh": "于是他传达了他的使命，并在真主的道路上奋斗，崇拜他，直到死亡来临。愿真主赐福于他和他的家人，并赐予他们和平。"
+        },
+        "word_start": 270,
+        "word_end": 290
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أُوصِيكُمْ عِبَادَ اللَّهِ وَ أُوصِي نَفْسِي بِتَقْوَى اللَّهِ الَّذِي ابْتَدَأَ الْأُمُورَ بِعِلْمِهِ وَ إِلَيْهِ يَصِيرُ غَداً مِيعَادُهَا وَ بِيَدِهِ فَنَاؤُهَا وَ فَنَاؤُكُمْ وَ تَصَرُّمُ أَيَّامِكُمْ وَ فَنَاءُ آجَالِكُمْ وَ انْقِطَاعُ مُدَّتِكُمْ فَكَأَنْ قَدْ زَالَتْ عَنْ قَلِيلٍ عَنَّا وَ عَنْكُمْ كَمَا زَالَتْ عَمَّنْ كَانَ قَبْلَكُمْ",
+        "translations": {
+          "en": "I advise you, O servants of Allah, and I advise myself with the Taqwa of Allah, Who began the affairs with His Knowledge, and to Him is their destination tomorrow for their end. And in His Hand is their extinction, and your extinction, and the passing of your days, and the perishing of your terms, and the cutting off of your duration. So it is as if it has passed by a little from us and from you, just as it passed from those who were before you.",
+          "ur": "میں تمہیں نصیحت کرتا ہوں اے اللہ کے بندو! اور خود کو بھی اللہ کی تقویٰ سے نصیحت کرتا ہوں، جس نے اپنے علم کے ساتھ امور کا آغاز کیا اور ان کا انجام کل اسی کی طرف لوٹ کر ہے۔ اور ان کا فنا ہونا، اور تمہارا فنا ہونا، اور تمہارے دنوں کا گزر جانا، اور تمہاری مدتوں کا ختم ہونا، اور تمہاری عمر کا کٹ جانا سب اس کے ہاتھ میں ہے۔ پس ایسا ہی ہے جیسے یہ تھوڑا سا ہم سے اور تم سے گزر گیا، جیسے یہ تم سے پہلے والوں سے گزر گیا تھا۔",
+          "tr": "Ben size nasihat ediyorum ey Allah'ın kulları, ve kendime de Allah'ın Takvası ile nasihat ediyorum; O, işleri İlmi ile başlattı ve onların sonu için varış yerleri yarın O'na aittir. Ve O'nun elindedir onların yok oluşu, sizin yok oluşunuz, günlerinizin geçişi, sürelerinizin tükendiği yerler ve ömrünüzün kesilmesi. Öyle ki sanki az bir zaman önce sizden ve bizden geçti, tıpkı sizden öncekilerden geçtiği gibi.",
+          "fa": "به شما ای بندگان خدا سفارش می‌کنم و خودم را به تقوای خداوند سفارش می‌کنم، کسی که کارها را با دانش خود آغاز کرد و به سوی او مقصد آن‌ها در فردا برای پایان آن‌هاست. و در دست او نابودی آن‌هاست، و نابودی شما، و گذشتن روزهای شما، و فنا شدن مدت‌های شما، و بریده شدن طول عمر شما. پس گویی اندکی از ما و از شما گذشته است، همان‌گونه که از کسانی که پیش از شما بودند گذشته است.",
+          "id": "Aku menasihatimu, wahai hamba-hamba Allah, dan aku menasihatkan diriku sendiri dengan Taqwa Allah, Yang memulai segala urusan dengan Ilmu-Nya, dan kepada-Nyalah tujuan mereka besok untuk berakhirnya mereka. Dan di Tangan-Nya terletak kepunahan mereka, dan kepunahanmu, dan berlalunya hari-harimu, dan lenyapnya masa-masamu, dan terputusnya durasimu. Maka seakan-akan ia telah berlalu sedikit dari kita dan dari kamu, sebagaimana ia telah berlalu dari orang-orang yang sebelum kamu.",
+          "bn": "আমি আপনাদেরকে উপদেশ দিচ্ছি, হে আল্লাহর বান্দাগণ, এবং আমি নিজেকেও উপদেশ দিচ্ছি আল্লাহর তাকওয়ায়, যিনি জ্ঞানের মাধ্যমে কার্যক্রমের সূচনা করেছিলেন, এবং তাঁরই দিকে তাদের গন্তব্য আগামীকাল তাদের শেষের জন্য। আর তাঁর হাতেই তাদের বিলয়, আপনার বিলয়, আপনার দিনগুলোর অতীত হওয়া, এবং আপনার মেয়াদগুলোর ধ্বংস, এবং আপনার স্থায়িত্বের ছেদন। তাই এটি যেন আমাদের কাছ থেকে এবং আপনার কাছ থেকে সামান্য অতীত হয়ে গেছে, ঠিক যেমনটি আপনার আগের লোকদের কাছ থেকে অতীত হয়ে গেছে।",
+          "es": "Te aconsejo, oh siervos de Alá, y me aconsejo a mí mismo con la Taqwa de Alá, Quien comenzó los asuntos con Su Conocimiento, y a Él es su destino mañana para su fin. Y en Su Mano está su extinción, y tu extinción, y el paso de tus días, y el perecer de tus plazos, y el corte de tu duración. Así que es como si hubiera pasado un poco de nosotros y de ti, tal como pasó por aquellos que estaban antes que vosotros.",
+          "fr": "Je vous conseille, ô serviteurs d'Allah, et je me conseille moi-même de la Taqwa d'Allah, Qui a initié les affaires par Sa Connaissance, et c'est vers Lui que leur destination est demain pour leur fin. Et entre Sa Main est leur extinction, et votre extinction, et le passage de vos jours, et la disparition de vos termes, et la coupure de votre durée. Ainsi, il semble que cela soit passé un peu de nous et de vous, tout comme cela est passé de ceux qui étaient avant vous.",
+          "de": "Ich rate euch, o Diener Allahs, und rate mir selbst zur Gottesfurcht (Taqwa) Allahs, Der die Angelegenheiten mit Seinem Wissen begann, und zu Ihm ist ihre Bestimmung morgen für ihr Ende. Und in Seiner Hand liegt ihr Erlöschen, und euer Erlöschen, und das Vorübergehen eurer Tage, und das Vergehen eurer Fristen, und das Abschneiden eurer Dauer. So ist es, als wäre es ein wenig von uns und von euch vorübergegangen, genau wie es von denen vor euch vorübergegangen ist.",
+          "ru": "Советую вам, о рабы Аллаха, и советую себя самому, да обретёте вы таqву Аллаха, Который начал дела Своим Знанием, и к Нему — их конец завтра. И в Его Власти — их исчезновение, и ваше исчезновение, и прохождение ваших дней, и исчезновение ваших сроков, и прекращение вашей продолжительности. Так это, словно, прошло немного от нас и от вас, как оно прошло от тех, кто был до вас.",
+          "zh": "我劝诫你们，真主的众仆啊，我也劝诫自己，要敬畏真主；真主以祂的知識开启万事，而万事的归宿是明日，以达其终结。万事的消亡、你们的消亡、你们日子的流逝、你们期限的终结以及你们寿数的断绝，皆在祂的手中。因此，这仿佛从我们和你们身边匆匆掠过，正如它从你们前人所经历的那样。"
+        },
+        "word_start": 290,
+        "word_end": 334
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَاجْعَلُوا عِبَادَ اللَّهِ اجْتِهَادَكُمْ فِي هَذِهِ الدُّنْيَا التَّزَوُّدَ مِنْ يَوْمِهَا الْقَصِيرِ لِيَوْمِ الْآخِرَةِ الطَّوِيلِ فَإِنَّهَا دَارُ عَمَلٍ وَ الْآخِرَةَ دَارُ الْقَرَارِ وَ الْجَزَاءِ فَتَجَافَوْا عَنْهَا فَإِنَّ الْمُغْتَرَّ مَنِ اغْتَرَّ بِهَا",
+        "translations": {
+          "en": "So make, O servants of Allah, your striving in this world the provision from its short day for the long day of the Hereafter, for it is a House of Deeds and the Hereafter is a House of Settlement and Recompense. So turn away from it, for the Deceived is he who is deceived by it.",
+          "ur": "پس اے اللہ کے بندو! اپنے اس کوشش کو دنیا کی مختصر رات کے لیے آخرت کی لمبی رات کا زادِ راہ بناؤ، کیونکہ یہ اعمال کا گھر ہے اور آخرت حساب و جزا کا گھر ہے۔ پس اس سے منہ موڑ لو، کیونکہ وہی گمراہ ہے جو اس سے گمراہ ہوتا ہے۔",
+          "tr": "Öyleyse ey Allah'ın kulları, çabalarınızı bu dünyanın kısa gününden ahiretin uzun gününe hazırlık yapacak şekilde yapın; çünkü bu dünya amel evi, ahiret ise ikamet ve mükâfat evidir. Ona dönüp bakmayın; çünkü aldatılan, onunla aldatılan kimsedir.",
+          "fa": "پس ای بندگان خدا، کوشش خود را در این دنیا برای تأمین روزگاری درازِ آخرت، از روز کوتاه این دنیا قرار دهید، زیرا این دنیا خانه اعمال است و آخرت خانه قرار و پاداش. پس از آن روی گردانید، زیرا گمراه کسی است که به فریب آن دچار شود.",
+          "id": "Maka, wahai hamba-hamba Allah, jadikanlah perjuangan kalian di dunia ini sebagai bekal dari hari yang singkat itu untuk hari yang panjang di akhirat, karena dunia adalah rumah amal dan akhirat adalah rumah perhitungan dan pembalasan. Maka berpalinglah darinya, karena orang yang tertipu adalah orang yang tertipu olehnya.",
+          "bn": "অতএব, হে আল্লাহর বান্দাগণ, তোমরা এই সংসারের সংক্ষিপ্ত দিনের জন্য পরকালের দীর্ঘ দিনের জন্য প্রস্তুতি গ্রহণ করো, কেননা এটি আমলের ঘর এবং পরকাল হলো স্থায়িত্ব ও পুরস্কারের ঘর। অতএব, এ থেকে মুখ ফিরিয়ে নাও, কেননা যে এতে প্রতারিত হয়, সে-ই প্রতারক।",
+          "es": "Así que, oh siervos de Alá, haced de vuestro esfuerzo en esta vida la provision de su breve día para el largo día del Más Allá, pues es una Casa de Obras y el Más Allá es una Casa de Residencia y Recompensa. Apartaos de ella, pues el Engañado es aquel que se deja engañar por ella.",
+          "fr": "Alors, ô serviteurs d'Allah, faites de votre effort dans ce monde la provision tirée de sa courte journée pour la longue journée de l'Au-delà, car c'est la Maison des Actions et l'Au-delà est la Maison du Règlement et de la Rétribution. Détournez-vous-en, car celui qui est dupe est celui qui se laisse dupe par elle.",
+          "de": "So macht, o Diener Allahs, euer Streben in dieser Welt zur Versorgung von ihrem kurzen Tag für den langen Tag des Jenseits, denn es ist ein Haus der Taten und das Jenseits ist ein Haus der Niederlassung und der Vergeltung. So wendet euch davon ab, denn der Getäuschte ist der, der sich von ihm täuschen lässt.",
+          "ru": "Итак, о рабы Аллаха, сделайте ваши усилия в этом мире припасом на его короткий день для долгого дня Смертного мира, ибо это — Дом деяний, а Смертный мир — Дом расплаты и воздаяния. Итак, отвратитесь от него, ибо обманут тот, кого обманывает он.",
+          "zh": "故众仆啊，你们当以今世短暂之日为后世漫长之日储备资粮，因为今世是行为之屋，后世是归宿与报偿之屋。故当远离它，因为被它欺骗者便是受骗之人。"
+        },
+        "word_start": 334,
+        "word_end": 364
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَنْ تَعْدُوَ الدُّنْيَا إِذَا تَنَاهَتْ إِلَيْهَا أُمْنِيَّةُ أَهْلِ الرَّغْبَةِ فِيهَا الْمُحِبِّينَ لَهَا الْمُطْمَئِنِّينَ إِلَيْهَا الْمَفْتُونِينَ بِهَا أَنْ تَكُونَ كَمَا قَالَ اللَّهُ عَزَّ وَ جَلَّ كَمَاءٍ أَنْزَلْناهُ مِنَ السَّماءِ فَاخْتَلَطَ بِهِ نَباتُ الْأَرْضِ مِمَّا يَأْكُلُ النَّاسُ وَ الْأَنْعامُ",
+        "translations": {
+          "en": "The world will not exceed, when the desire of those who long for it, who love it, who are secure in it, and who are captivated by it reaches its limit, that it be as Allah, Mighty and Majestic, said: 'Like water which We send down from the sky, then the vegetation of the earth mixes with it from which men and cattle eat.'",
+          "ur": "دنیا اس وقت تک نہیں گزرے گی جب ان لوگوں کی خواہش جو اسے چاہتے ہیں، اس سے محبت کرتے ہیں، اس میں محفوظ سمجھتے ہیں اور اس پر فدا ہو جاتے ہیں، اپنی حد تک پہنچ جائے گی، جیسا کہ اللہ تعالیٰ نے فرمایا: \"جیسے پانی جسے ہم آسمان سے نازل کرتے ہیں، پھر زمین کی پودا اس میں شامل ہو جاتا ہے جس سے انسان اور مویشی کھاتے ہیں۔\"",
+          "tr": "Dünya, onu arzulayanların, onu sevenlerin, onda huzur bulanların ve ona aşık olanların arzusu son sınırına ulaştığında, Allah'ın (C.C.) buyurduğu gibi olur: 'Gökten indirdiğimiz su gibi; o suyla yeryüzündeki bitkiler karışır ki ondan insanlar ve hayvanlar yer.'",
+          "fa": "دنیا از حدّ خواستِ کسانی که آرزومند آن‌اند، کسانی که دوستش دارند، کسانی که در آن اطمینان دارند و کسانی که اسیر آن شده‌اند، فراتر نخواهد رفت، همان‌گونه که خداوند، توانا و بزرگ، فرموده است: «مانند آبی که از آسمان نازل می‌کنیم، سپس گیاهان زمین با آن آمیخته می‌شوند که از آن انسان‌ها و دام‌ها می‌خورند.»",
+          "id": "Dunia tidak akan melebihi batas ketika hawa nafsu orang-orang yang mendambakannya, yang mencintainya, yang merasa aman di dalamnya, dan yang terpesona olehnya telah mencapai puncaknya, sebagaimana yang dikatakan oleh Allah, Yang Maha Perkasa dan Maha Agung: 'Ibarat air yang Kami turunkan dari langit, lalu tumbuh-tumbuhan di bumi bercampur dengannya, yang dimakan oleh manusia dan hewan ternak.'",
+          "bn": "পৃথিবী তখনই অতিক্রম করবে না, যখন যারা এর প্রতি আকাঙ্ক্ষা করে, যারা এতে ভালোবাসে, যারা এতে নিরাপদ বোধ করে এবং যারা এতে মুগ্ধ হয়, তাদের আকাঙ্ক্ষা সীমায় পৌঁছাবে, যেমন আল্লাহ, মহান ও মাহান, বলেছেন: 'যেমন পানি যা আমরা আকাশ থেকে বর্ষণ করি, তখন পৃথিবীর উদ্ভিদ তাতে মিশে যায়, যা থেকে মানুষ ও পশুগণ খায়।' }",
+          "es": "El mundo no excederá, cuando el deseo de quienes anhelan, aman, se sienten seguros en él y quedan cautivados por él alcance su límite, más allá de lo que Allah, Poderoso y Majestuoso, dijo: 'Como el agua que enviamos desde el cielo, entonces la vegetación de la tierra se mezcla con ella, de la cual comen los hombres y el ganado.'",
+          "fr": "Le monde ne dépassera pas [ses limites] lorsque le désir de ceux qui le convoitent, qui l'aiment, qui s'y sentent en sécurité et qui en sont captivés atteindra son paroxysme, et cela sera comme ce qu'Allah, Puissant et Majestueux, a dit : « [C'est] comme l'eau que Nous faisons descendre du ciel, puis la végétation de la terre s'y mêle, dont mangent les hommes et le bétail. »",
+          "de": "Die Welt wird nicht länger bestehen, wenn das Verlangen derer, die sie herbeisehnen, die sie lieben, die sich in ihr sicher fühlen und die von ihr gefesselt sind, ihr Maximum erreicht hat, so wie Allah, der Mächtige und Erhabene, gesagt hat: 'Wie Wasser, das Wir vom Himmel herabsenden, dann sich die Vegetation der Erde damit mischt, wovon die Menschen und das Vieh essen.'",
+          "ru": "Мир не превзойдет (своего предела), когда стремление тех, кто жаждет его, любит его, чувствует себя в нем в безопасности и очарован им, достигнет своей границы, и он станет таким, каким сказал о нем Аллах, Всемогущий и Всевеликий: «(Он подобен) воде, которую Мы ниспосылаем с неба, и тогда растительность земли смешивается с ней, которой питаются люди и скот».",
+          "zh": "当那些渴望它、喜爱它、在其中感到安稳且被其心被它俘获的人的欲望达到极限时，世界便不会超越真主全能者至尊者所言：‘如我们从天空降下的雨水，大地的植物便与之混合，人和牲畜皆从中取食。’"
+        },
+        "word_start": 364,
+        "word_end": 401
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مَعَ أَنَّهُ لَمْ يُصِبِ امْرُؤٌ مِنْكُمْ فِي هَذِهِ الدُّيَا حَبْرَةً إِلَّا أَوْرَثَتْهُ عَبْرَةً وَ لَا يُصْبِحُ فِيهَا فِي جَنَاحٍ آمِنٍ إِلَّا وَ هُوَ يَخَافُ فِيهَا نُزُولَ جَائِحَةٍ أَوْ تَغَيُّرَ نِعْمَةٍ أَوْ زَوَالَ عَافِيَةٍ مَعَ أَنَّ الْمَوْتَ مِنْ وَرَاءِ ذَلِكَ وَ هَوْلَ الْمُطَّلَعِ وَ الْوُقُوفَ بَيْنَ يَدَيِ الْحَكَمِ الْعَدْلِ تُجْزَى كُلُّ نَفْسٍ بِمَا عَمِلَتْ لِيَجْزِيَ الَّذِينَ أَساؤُا بِما عَمِلُوا وَ يَجْزِيَ الَّذِينَ أَحْسَنُوا بِالْحُسْنَى",
+        "translations": {
+          "en": "With the fact that no one among you touches a clod of earth in this world except that it bequeaths him a lesson, and no one wakes up in it in a wing of security except that he fears in it the descent of a catastrophe, or the change of a blessing, or the passing of health, with the fact that Death is behind that, and the terror of the Glimpse, and the Standing before the Just Judge. Every soul will be recompensed for what it did, so that He may reward those who did evil with what they did, and reward those who did good with the Best.",
+          "ur": "اس بات کے ساتھ کہ تم میں سے کوئی بھی اس دنیا میں مٹی کے ایک ٹکڑے کو نہیں چھوتا مگر یہ اسے ایک عبرت کی بات دیتا ہے، اور کوئی بھی اس میں امان کے کسی گوشے میں جاگتا نہیں مگر وہ اس میں آفت کے نازل ہونے، یا نعمت کے بدل جانے، یا صحت کے گزر جانے کا خوف رکھتا ہے، اس بات کے ساتھ کہ موت اس کے پیچھے ہے، اور غشہ کی دلیری، اور عادل قاضی کے سامنے کھڑے ہونے کا خوف۔ ہر جان اس کے عمل کے بدلے جزا پائے گی، تاکہ وہ برائی کرنے والوں کو ان کے عمل کے بدلے جزا دے، اور نیکی کرنے والوں کو بہترین جزا دے۔",
+          "tr": "Dünyada aranızdan hiç kimse bir toprak parçasına değmez ki, o size bir ders bırakmasın; ve hiç kimse bir emniyet kanadında uyanmaz ki, bir felaketin inmesini veya bir nimetin değişmesini veya sağlığın gitmesini korkmasın. Oysa ölüm arkadadır, ve Glimpse'in (Hesap Günü) dehşeti ve Adaletli Yargıç'ın huzurunda duruş vardır. Her ruh, yaptıklarının karşılığını görecektir; böylece Kötülük yapanları, yaptıklarıyla cezalandırsın ve İyilik yapanları, En Güzel olanla mükafatlandırsın.",
+          "fa": "با این حقیقت که هیچ‌یک از شما در این جهان گلوله‌ای خاک را لمس نمی‌کند مگر آنکه به او عبرتی را وصیت کند، و هیچ‌کس در آن در پناهی از امنیت بیدار نمی‌شود مگر آنکه در آن از فرود آمدن یک فاجعه، یا تغییر یک نعمت، یا گذشتن سلامتی بترسد، با این حقیقت که مرگ در پشت سر آن است، و وحشتِ دیدارِ کوتاه، و ایستادن پیش از دادگرِ عادل. هر جان‌ای به آنچه انجام داده پاداش داده خواهد شد، تا آنکه کسانی که بدی کردند را به همان کاری که کرده‌اند پاداش دهد، و کسانی که نیکی کردند را به بهترین پاداش نائل آورد.",
+          "id": "Dengan kenyataan bahwa tidak ada seorang pun di antara kalian yang menyentuh gumpalan tanah di dunia ini kecuali ia mewariskan kepadanya sebuah pelajaran, dan tidak ada seorang pun yang terbangun di dalamnya dalam sayap keamanan kecuali ia takut akan turunnya bencana, atau perubahan nikmat, atau hilangnya kesehatan, dengan kenyataan bahwa Kematian berada di belakang itu, dan kegentaran dari Glimpse, dan Berdiri di hadapan Hakim yang Adil. Setiap jiwa akan diberi balasan atas apa yang ia kerjakan, agar Dia membalas orang-orang yang berbuat jahat dengan apa yang mereka lakukan, dan membalas orang-orang yang berbuat baik dengan yang Terbaik.",
+          "bn": "এই সত্যের সাথে যে, তোমাদের মধ্যে কেউ এই জগতে মাটির একটি কণা স্পর্শ করে না, যদি না তা তাকে একটি শিক্ষা দান করে, এবং কেউ এর মধ্যে নিরাপত্তার একটি প্রান্তে জাগ্রত হয় না, যদি না সেখানে একটি বিপর্যয়ের অবতরণ, বা একটি নিয়মতের পরিবর্তন, বা স্বাস্থ্যের অস্তিত্বের অবসান ভয় করে, এই সত্যের সাথে যে, মৃত্যু তার পিছনে রয়েছে, এবং দৃষ্টিভঙ্গির ভয়, এবং ন্যায়বিচারকারী বিচারকের সামনে দাঁড়ানো। প্রতিটি আত্মা তার কাজের জন্য প্রতিদান পাবে, যাতে তিনি যারা মন্দ করেছেন তাদেরকে তাদের কাজের সাথে পুরস্কার দেন, এবং যারা ভালো করেছেন তাদেরকে সর্বোত্তমের সাথে পুরস্কার দেন।",
+          "es": "Con el hecho de que nadie entre vosotros toca un terrón de tierra en este mundo sin que le legue una lección, y nadie despierta en él en un ala de seguridad sin que tema en él la llegada de una catástrofe, o el cambio de una bendición, o el paso de la salud, con el hecho de que la Muerte está detrás de eso, y el terror del Glanceo, y la Comparación ante el Juez Justo. Cada alma será recompensada por lo que hizo, para que Él recompense a los que hicieron el mal con lo que hicieron, y recompense a los que hicieron el bien con lo Mejor.",
+          "fr": "Puisque nul d'entre vous ne touche un morceau de terre en ce monde sans que cela ne lui laisse un enseignement, et nul ne s'éveille dans une aile de sécurité sans craindre en elle la chute d'une catastrophe, ou le changement d'une bénédiction, ou la disparition de la santé, alors que la Mort est derrière, et la terreur de l'Étreinte, et le fait de se tenir devant le Juge Juste. Toute âme sera rétribuée pour ce qu'elle a fait, afin qu'Il récompense ceux qui ont fait le mal par ce qu'ils ont fait, et récompense ceux qui ont fait le bien par le Meilleur.",
+          "de": "Damit niemand unter euch einen Klumpen Erde in dieser Welt berührt, ohne dass er ihm eine Lehre vererbt, und niemand in einem Flügel der Sicherheit aufwacht, ohne dass er den Absturz einer Katastrophe, die Veränderung eines Segens oder das Vorbeigehen der Gesundheit befürchtet, während der Tod dahinter lauert und die Furcht vor dem Blick und dem Stehen vor dem Gerechten Richter. Jede Seele wird für das, was sie getan hat, vergelten, damit Er diejenigen, die Böses taten, mit dem, was sie taten, belohnt und diejenigen, die Gutes taten, mit dem Besten belohnt.",
+          "ru": "С тем, что никто из вас не касается в этом мире комка земли, не оставив ему в наследство урок, и никто не просыпается в нем в крыле безопасности, не боясь в нем ниспослания катастрофы, или изменения благодати, или утечения здоровья, с тем, что Смерть находится позади этого, и ужас Видения, и Стояние перед Справедливым Судией. Каждая душа будет вознаграждена за то, что она совершила, чтобы Он наградил тех, кто совершил зло, тем, что они совершили, и наградил тех, кто совершил добро, Лучшим.",
+          "zh": "鉴于你们中无人触碰世间的一抔泥土而不从中获得教训，也无人安享片刻宁静而不担忧灾祸降临、恩典消逝或健康丧失，而死亡就在身后，畏惧那瞥见（死亡）的时刻，以及站在公正审判者面前的情景。每个灵魂都将因其行为而受报偿，以便他以其所行惩罚作恶者，并以至善奖赏行善者。"
+        },
+        "word_start": 401,
+        "word_end": 464
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَاتَّقُوا اللَّهَ عَزَّ ذِكْرُهُ وَ سَارِعُوا إِلَى رِضْوَانِ اللَّهِ وَ الْعَمَلِ بِطَاعَتِهِ وَ التَّقَرُّبِ إِلَيْهِ بِكُلِّ مَا فِيهِ الرِّضَا فَإِنَّهُ قَرِيبٌ مُجِيبٌ جَعَلَنَا اللَّهُ وَ إِيَّاكُمْ مِمَّنْ يَعْمَلُ بِمَحَابِّهِ وَ يَجْتَنِبُ سَخَطَهُ",
+        "translations": {
+          "en": "So fear Allah, Mighty is His Mention, and hasten to the Pleasure of Allah and the Deeds of Obedience to Him, and draw near to Him with everything in which there is Pleasure, for He is Near and Answering. May Allah make us and you among those who act with His Loves and avoid His Wrath.",
+          "ur": "پس اللہ سے ڈرو، جس کا ذکر بہت عظیم ہے، اور اللہ کی رضا اور اس کی اطاعت کے اعمال کی طرف جلدی کرو، اور ہر اس چیز کے ذریعے اس کے قریب ہو جس میں رضا ہے، کیونکہ وہ قریب ہے اور جواب دینے والا۔ اللہ ہمیں اور تمہیں ان لوگوں میں سے بنا دے جو اس کی محبتوں کے ساتھ عمل کرتے ہیں اور اس کے غضب سے بچتے ہیں۔",
+          "tr": "İşte, Allah'ın zikri yüce olduğu sürece Allah'tan korkun ve Allah'ın rızasına ve O'na itaet eylemeye hızlanın; içinde rızası bulunan her şeyle O'na yakınlaşın, zira O, yakın ve cevap verendir. Allah, bizi ve sizi, O'nun sevgilerine uyup gazabından sakınanlardan eylesin.",
+          "fa": "پس از خداوند ترسا که یاد او بزرگ است و به سوی خشنودی خداوند و اعمال اطاعت از او شتاب کن و با هر چیزی که در آن خشنودی است به او نزدیک شو، زیرا او نزدیک و اجابت‌کننده است. خداوند ما و شما را از کسانی قرار دهد که با محبت‌های او عمل کنند و از خشم او بپرهیزند.",
+          "id": "Karena itu, bertakwalah kepada Allah, Yang Maha Agung Dzikr-Nya, dan bersegeralah menuju Keridhaan Allah serta amal ketaatan kepada-Nya, dan dekati Dia dengan segala sesuatu yang menjadi sumber keridhaan, karena Dia Maha Dekat dan Maha Menjawab. Semoga Allah menjadikan kami dan kalian termasuk orang-orang yang beramal dengan kecintaan kepada-Nya dan menjauhi kemurkaan-Nya.",
+          "bn": "অতএব, আল্লাহকে ভয় করো, তাঁর নাম মহান, এবং আল্লাহর সন্তুষ্টির দিকে ও তাঁর আনুগত্যের কাজগুলোর দিকে দ্রুত আগান, এবং এমন সব বিষয়ের মাধ্যমে তাঁর কাছে নিকটবর্তী হও যেগুলোতে সন্তুষ্টি রয়েছে, কেননা তিনি নিকটবর্তী ও উত্তরদাতা। আল্লাহ আমাদের এবং আপনাকে তাঁর প্রিয় কাজগুলোর সাথে আমলকারী এবং তাঁর ক্রোধ থেকে বিরত থাককারীদের অন্তর্ভুক্ত করুন।",
+          "es": "Por tanto, temed a Allah, Majestuosa es Su Mención, y apresuraos hacia el Placer de Allah y las Obras de Obediencia a Él, y acercad a Él con todo aquello en lo que hay Placer, pues Él está Cerca y Responde. Que Allah nos haga a nosotros y a vosotros de aquellos que actúan con Sus Amores y evitan Su Ira.",
+          "fr": "Alors, craignez Allah, dont la Mention est Puissante, et hâtez-vous vers l'Agrément d'Allah et les actes d'obéissance envers Lui, et rapprochez-vous de Lui par tout ce qui est agréable, car Il est Proche et Répondant. Qu'Allah nous fasse, ainsi que vous, parmi ceux qui agissent selon Ses Amours et évitent Sa Colère.",
+          "de": "Fürchtet daher Allah, Erhaben ist Sein Angedenken, und eilt zur Zufriedenheit Allahs und zu den Taten des Gehorsams Ihm gegenüber, und naht Ihm mit allem, was Ihm gefällt, denn Er ist Nah und Erhörend. Allah mache uns und euch zu denen, die mit Seinen Lieben handeln und Seinen Zorn vermeiden.",
+          "ru": "Так бойтесь Аллаха, Велик Его Зикр, и спешите к довольству Аллаха и деяниям послушания Ему, и приближайтесь к Нему всем, что приносит довольство, ибо Он Близок и Отвечает. Пусть Аллах сделает нас и вас среди тех, кто действует согласно Его любви и избегает Его гнева.",
+          "zh": "故当敬畏真主，祂的尊名至大，且速往真主的喜悦与顺从祂的善功，并以一切能带来喜悦之事亲近祂，因祂是临近且应答的。愿真主使我们与你们成为那些践行祂所爱、远离祂之恼怒的人。"
+        },
+        "word_start": 464,
+        "word_end": 496
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ إِنَّ أَحْسَنَ الْقَصَصِ وَ أَبْلَغَ الْمَوْعِظَةِ وَ أَنْفَعَ التَّذَكُّرِ كِتَابُ اللَّهِ جَلَّ وَ عَزَّ قَالَ اللَّهُ عَزَّ وَ جَلَّ وَ إِذا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَ أَنْصِتُوا لَعَلَّكُمْ تُرْحَمُونَ",
+        "translations": {
+          "en": "Then indeed the best of stories, the most eloquent of advice, and the most beneficial of remembrance is the Book of Allah, Glorious and Mighty. Allah, Mighty and Majestic, said: 'And when the Quran is recited, then listen to it and be silent, so that mercy may be shown to you.'",
+          "ur": "پھر بیشک کہانیوں میں سب سے بہترین، نصیحتوں میں سب سے فصیح اور ذکر میں سب سے نافع اللہ کی کتاب ہے، جو عظیم و باعزت ہے۔ اللہ تعالیٰ نے فرمایا: 'اور جب قرآن پڑھا جائے تو اسے سنو اور خاموش رہو تاکہ تم پر رحم کیا جائے۔'",
+          "tr": "Sonra şüphesiz ki hikayelerin en güzeli, öğütlerin en açıklayıcısı ve zikirlerin en faydalısı, Allah'ın Kitabıdır, Celil ve Azim olan. Allah, Azim ve Celil buyurdu: 'Kur'an okunduğu zaman ona kulak verin ve sessiz olun, belki size rahmet edilir.'",
+          "fa": "پس بی‌گمان بهترین داستان‌ها، گویاترین پند و سودمندترین یادآوری، کتاب خدا، جلیل‌القدر و قدرتمند است. خداوند، توانا و بزرگ، فرموده است: «و هنگامی که قرآن خوانده می‌شود، پس به آن گوش فرا دهید و خاموش باشید، تا بر شما رحم شود.»",
+          "id": "Maka sesungguhnya sebaik-baik kisah, paling fasih nasihatnya, dan paling bermanfaat dzikirnya adalah Kitab Allah, Yang Maha Mulia dan Maha Perkasa. Allah, Yang Maha Perkasa dan Maha Agung, berfirman: 'Dan apabila Al-Qur'an dibacakan, maka dengarkanlah dan diamlah, agar kamu mendapat rahmat.'",
+          "bn": "অতএব, নিশ্চয়ই গল্পগুলোর মধ্যে সর্বোত্তম, উপদেশের মধ্যে সর্বোচ্চ প্রাঞ্জল এবং স্মরণের মধ্যে সর্বোপকারী হলো আল্লাহর কিতাব, মহিমান্বিত ও শ্রেষ্ঠ। আল্লাহ, মহান ও মাহান, বলেন: 'যখন কুরআন তিলাওয়াত করা হয়, তখন তা শ্রবণ করো এবং নীরব থাকো, যাতে তোমাদের প্রতি রহমত নাযিল হয়।'",
+          "es": "Entonces, en verdad, la mejor de las narraciones, la más elocuente de las exhortaciones y la más provechosa de las remembranzas es el Libro de Allah, Glorificado y Poderoso. Allah, Poderoso y Majestuoso, dijo: «Y cuando se recite el Corán, entonces escuchadlo y guardad silencio, para que se os muestre misericordia».",
+          "fr": "Puis, en vérité, le meilleur des récits, le plus éloquente des exhortations et le plus bénéfique des rappels est le Livre d'Allah, Gloire et Puissance. Allah, Puissant et Majestueux, a dit : « Et lorsque le Coran est récité, écoutez-le et taisez-vous, afin que la miséricorde vous soit accordée. »",
+          "de": "Dann ist wahrlich, das Beste der Geschichten, das Beredteste der Ermahnungen und das Nützlichste der Erinnerungen ist das Buch Allahs, des Erhabenen und Mächtigen. Allah, der Mächtige und Majestätische, sagte: »Und wenn der Quran verlesen wird, dann hört ihm zu und schweigt, damit euch Barmherzigkeit zuteil werde.«",
+          "ru": "После этого, несомненно, наилучшей из историй, наиболее красноречивым из наставлений и наиболее полезным из поминаний является Книга Аллаха, Величественный и Могущественный. Аллах, Величественный и Превознесённый, сказал: «Когда читается Коран, то слушайте его и будьте молчаливы, чтобы вам была оказана милость».",
+          "zh": "随后，确为最佳的故事、最雄辩的劝诫、最有益的记念，就是真主的经典，荣耀而伟大的真主说：‘当诵读《古兰经》时，你们当静听，并保持肃静，以便你们蒙受慈恩。’"
+        },
+        "word_start": 496,
+        "word_end": 526
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَسْتَعِيذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمنِ الرَّحِيمِ",
+        "translations": {
+          "en": "I seek Refuge with Allah from the Satan, the Accursed. In the Name of Allah, the Beneficent, the Merciful.",
+          "ur": "میں اللہ کی پناہ مانگتا ہوں شیطانِ بزرگ سے۔ اللہ کے نام سے جو بڑا مہربان نہایت مہربان ہے۔",
+          "tr": "Allah'a, kovulmuş şeytandan sığınırım. Rahman ve Rahim olan Allah'ın adıyla.",
+          "fa": "أعوذ بالله من الشيطان الرجيم. بسم الله الرحمن الرحيم.",
+          "id": "Aku berlindung kepada Allah dari setan yang terkutuk. Dengan nama Allah, Yang Maha Pengasih, Maha Penyayang. ",
+          "bn": "আমি শয়তান, অভিশপ্ত থেকে আল্লাহর শরণাপন্ন হচ্ছি। আল্লাহর নামে, যিনি পরম করুণাময়, অতি দয়ালু।",
+          "es": "Busco refugio en Alá del Satanás, el Maldito. En el Nombre de Alá, el Benéfico, el Misericordioso.",
+          "fr": "J'implore le Refuge auprès d'Allah, loin du Diable, l'Accablé. Au Nom d'Allah, le Tout Miséricordieux, le Très Miséricordieux. }  **Note:** - ",
+          "de": "Ich suche Zuflucht bei Allah vor dem Satan, dem Verfluchten. Im Namen Allahs, des Allerbarmers, des Barmherzigen. ",
+          "ru": "Аллаху, Всевышнему, прибегаю от проклятого шайтана. Во имя Аллаха, Милостивого, Милосердного.",
+          "zh": "我求真主庇护，免受被诅咒的恶魔的侵害。奉至仁至慈的真主之名。"
+        },
+        "word_start": 526,
+        "word_end": 535
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَالْعَصْرِ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ",
+        "translations": {
+          "en": "By the Time! Indeed, mankind is in loss, Except for those who believe and do righteous deeds, and advise each other to the truth, and advise each other to patience.",
+          "ur": "الوقت کے ساتھ! بے شک انسان نقصان میں ہے، سوائے ان کے جو ایمان لائے اور نیک عمل کیے، اور ایک دوسرے کو سچائی کی نصیحت کی، اور ایک دوسرے کو صبر کی نصیحت کی۔",
+          "tr": "Vaktine andolsun! Şüphesiz ki insan, hakikate ve sabra nasihat eden, salih amel işleyenler hariç, ziyan içindedir.",
+          "fa": "به زمان سوگند! بی‌گمان انسان در زیان است، مگر کسانی که ایمان آورده و کارهای شایسته انجام داده‌اند و یکدیگر را به حق و صبر سفارش کرده‌اند.",
+          "id": "Demi masa! Sesungguhnya manusia berada dalam kerugian, Kecuali orang-orang yang beriman dan mengerjakan amal saleh, dan saling menasihati supaya menaati kebenaran dan saling menasihati supaya menetapi kesabaran.",
+          "bn": "সময়ের শপথ! নিশ্চয়ই মানুষ ক্ষতির মধ্যে, যারা ঈমান আনে এবং সৎ কাজ করে, এবং পরস্পরকে সত্যের উপদেশ দেয়, এবং পরস্পরকে সহনশীলতার উপদেশ দেয়, তাদের ব্যতীত।",
+          "es": "¡Por el tiempo! Ciertamente, la humanidad está en pérdida, excepto aquellos que creen y realizan buenas obras, y se aconsejan mutuamente la verdad y se aconsejan mutuamente la paciencia.",
+          "fr": "Par le temps ! En vérité, les êtres humains sont en perte, sauf ceux qui croient et accomplissent de bonnes œuvres, et s'exhortent mutuellement à la vérité et à la patience.",
+          "de": "Bei der Zeit! Wahrlich, der Mensch ist in Verlust, außer denen, die glauben und rechte Taten vollbringen, und einander zur Wahrheit ermahnen und zur Geduld.",
+          "ru": "Клянусь временем! Поистине, люди находятся в убытке, кроме тех, которые уверовали и совершали праведные деяния, и советовали друг другу истину, и советовали друг другу терпение.",
+          "zh": "以时光誓！人类确在亏损中，除非是那些信道而且行善，并且互相以真理劝戒，互相以坚忍劝戒的人。"
+        },
+        "word_start": 535,
+        "word_end": 549
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "إِنَّ اللَّهَ وَمَلائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيماً",
+        "translations": {
+          "en": "Indeed, Allah and His angels send blessings on the Prophet. O you who believe! Send blessings on him and greet him with peace.",
+          "ur": "بے شک اللہ اور اس کے فرشتے نبی پر درود بھیجتے ہیں۔ اے ایمان والو! تم بھی اس پر درود بھیجو اور اسے سلام کہو۔",
+          "tr": "Şüphesiz Allah ve melekleri Peygamber'e salat eder. Ey iman edenler! Siz de ona salat edin ve selam verin.",
+          "fa": "همانا خداوند و فرشتگانش بر پیامبر درود می‌فرستند. ای کسانی که ایمان آورده‌اید! بر او درود فرستید و سلام دهید.",
+          "id": "Sesungguhnya Allah dan malaikat-malaikat-Nya bershalawat untuk Nabi. Hai orang-orang yang beriman, bershalawatlah kamu untuk Nabi dan ucapkanlah salam penghormatan kepadanya.",
+          "bn": "নিশ্চয়ই আল্লাহ ও তাঁর ফেরেশতারা নবীকে রহমত প্রেরণ করেন। হে ঈমানদারগণ! তোমরাও তাঁকে রহমত প্রেরণ করো এবং তাঁকে সালাম দাও।",
+          "es": "EnEs",
+          "fr": "En vérité, Allah et Ses anges envoient des bénédictions sur le Prophète. Ô ceux qui croyez ! Envoyez des bénédictions sur lui et saluez-le avec la paix.",
+          "de": "Wahrlich, Allah und Seine Engel senden Segen auf den Propheten. O ihr, die glaubt! Sendet Segen auf ihn und grüßt ihn mit Frieden.",
+          "ru": "Воистину, Аллах и Его ангелы посылают благословения Пророку. О вы, уверовавшие! Посылайте благословения ему и приветствуйте его миром.",
+          "zh": "真主和他的天使们确实为先知降福。信道的人们啊！你们当为先知降福，并问安。"
+        },
+        "word_start": 549,
+        "word_end": 563
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ بَارِكْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ تَحَنَّنْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ سَلِّمْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ كَأَفْضَلِ مَا صَلَّيْتَ وَ بَارَكْتَ وَ تَرَحَّمْتَ وَ تَحَنَّنْتَ وَ سَلَّمْتَ عَلَى إِبْرَاهِيمَ وَ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+        "translations": {
+          "en": "O Allah, send blessings on Muhammad and the family of Muhammad, and blessings on Muhammad and the family of Muhammad, and have mercy on Muhammad and the family of Muhammad, and grant peace to Muhammad and the family of Muhammad, as the best of what You blessed and sent mercy and had mercy and granted peace on Ibrahim and the family of Ibrahim. Indeed, You are the Praised, the Glorious.",
+          "ur": "اے اللہ، محمد اور آل محمد پر رحمت بھیج، اور محمد اور آل محمد پر رحمت بھیج، اور محمد اور آل محمد پر رحمت ہو، اور محمد اور آل محمد پر سلامتی ہو، جیسے تو نے ابراہیم اور آل ابراہیم پر جو بہترین نعمتیں اور رحمتیں اور سلامتی نازل کی ہیں۔ بے شک تو تعریف والا، جلیل القدر ہے۔",
+          "tr": "Allahümme sali Muhammede ve âl-i Muhammed, ve sali Muhammede ve âl-i Muhammed, ve rahim Muhammede ve âl-i Muhammed, ve selim Muhammede ve âl-i Muhammed, keyma besta min mâ beste ve rahimte ve rahimte ve selimte alâ İbrahim ve âl-i İbrahim. İnneke hamîdün mecîd.",
+          "fa": "ای خدا، بر محمد و خاندان محمد درود فرست و بر محمد و خاندان محمد رحمت کن و بر محمد و خاندان محمد سلامت ده، همان‌گونه که بر ابراهیم و خاندان ابراهیم بهترین آنچه را که بر او و خاندان او نازل کردی و رحمت و سلامت بخشیدی، نازل فرمودی و رحمت و سلامت بخشیدی. بی‌گمان تو ستوده و جلیل‌القدری.",
+          "id": "Ya Allah, limpahkanlah rahmat kepada Muhammad dan keluarga Muhammad, dan limpahkanlah rahmat kepada Muhammad dan keluarga Muhammad, dan rahmatilah Muhammad dan keluarga Muhammad, dan berilah keselamatan kepada Muhammad dan keluarga Muhammad, sebagaimana Engkau telah melimpahkan rahmat dan rahmat dan keselamatan kepada Ibrahim dan keluarga Ibrahim. Sesungguhnya, Engkau adalah Yang Terpuji, Yang Mulia.",
+          "bn": "হে আল্লাহ, মুহাম্মদ ও মুহাম্মদের পরিবারের উপর রহমত বর্ষণ করুন, এবং মুহাম্মদ মুহাম্মদের পরিবারের উপর রহমত বর্ষণ করুন, এবং মুহাম্মদ মুহাম্মদের পরিারের উপর রহমত করুন, এবং মুহাম্মদ মুহাম্মদের পরিবারের উপর শান্তি দান করুন, যেমন আপনি ইব্রাহীম ও ইব্রাহীমের পরিবারের উপর যা সর্বোত্তম রহমত বর্ষণ করেছেন, রহমত পাঠিয়েছেন, রহমত করেছেন এবং শান্তি দান করেছেন। নিশ্চয়ই আপনি প্রশংসিত, মহিমান্বিত।",
+          "es": "Oh Allah, envía bendiciones sobre Muhammad y la familia de Muhammad, y bendiciones sobre Muhammad y la familia de Muhammad, y misericordia sobre Muhammad y la familia de Muhammad, y paz sobre Muhammad y la familia de Muhammad, como lo mejor de lo que bendijiste y enviaste misericordia y tuviste misericordia y otorgánica y otorgaste paz sobre Ibrahim y la familia de Ibrahim. Ciertamente, Tú eres el Alabado, el Glorioso.",
+          "fr": "Ô Allah, envoie des bénédictions sur Muhammad et la famille de Muhammad, et des bénédictions sur Muhammad et la famille de Muhammad, et fais miséricorde sur Muhammad et la famille de Muhammad, et accorde la paix à Muhammad et la famille de Muhammad, comme le meilleur de ce que Tu as béni et envoyé la miséricorde et fait miséricorde et accordé la paix sur Ibrahim et la famille d'Ibrahim. En vérité, Tu es le Loué, le Glorieux.",
+          "de": "O Allah, send blessings on Muhammad and the family of Muhammad, and blessings on Muhammad and the family of Muhammad, and have mercy on Muhammad and the family of Muhammad, and grant peace to Muhammad and the family of Muhammad, as the best of what You blessed and sent mercy and had mercy and granted peace on Ibrahim and the family of Ibrahim. Indeed, You are the Praised, the Glorious.",
+          "ru": "О Аллах, пошли благословения на Мухаммада и семью Мухаммада, и благословения на Мухаммада и семью Мухаммада, и помилуй Мухаммада и семью Мухаммада, и даруй мир Мухаммаду и семье Мухаммада, как Ты благословил и послал милость и помилал и даровал мир Ибрахиму и семье Ибрахима. Воистину, Ты — Восхваляемый, Величественный.",
+          "zh": "真主啊，求你赐福于穆罕默德及其家属，求你赐福于穆罕默德及其家属，求你慈悯穆罕默德及其家属，求你赐平安给穆罕默德及其家属，正如你曾赐福、慈悯、赐平安给易卜拉欣及其家属一样。你确是应受赞美的，确是尊贵的。"
+        },
+        "word_start": 563,
+        "word_end": 610
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "اللَّهُمَّ أَعْطِ مُحَمَّداً الْوَسِيلَةَ وَ الشَّرَفَ وَ الْفَضِيلَةَ وَ الْمَنْزِلَةَ الْكَرِيمَةَ اللَّهُمَّ اجْعَلْ مُحَمَّداً وَ آلَ مُحَمَّدٍ أَعْظَمَ الْخَلَائِقِ كُلِّهِمْ شَرَفاً يَوْمَ الْقِيَامَةِ وَ أَقْرَبَهُمْ مِنْكَ مَقْعَداً وَ أَوْجَهَهُمْ عِنْدَكَ يَوْمَ الْقِيَامَةِ جَاهاً وَ أَفْضَلَهُمْ عِنْدَكَ مَنْزِلَةً وَ نَصِيباً",
+        "translations": {
+          "en": "O Allah, give Muhammad the Means, and the Dignity, and the Excellence, and the Noble Status. O Allah, make Muhammad and the family of Muhammad the greatest of all creatures in dignity on the Day of Resurrection, and the nearest to You in seating, and the most prominent in face before You on the Day of Resurrection in status, and the best in status and share before You.",
+          "ur": "اے اللہ، محمد ﷺ کو واسطہ، اور عزت، اور فضیلت، اور بلند مرتبہ عطا فرما۔ اے اللہ، محمد ﷺ اور آل محمد کو قیامت کے دن عزت میں تمام مخلوقات سے سب سے زیادہ، اور تجھ کے نزدیک نشست میں سب سے قریب، اور قیامت کے دن تجھ کے سامنے مرتبہ میں سب سے نمایاں، اور مرتبہ اور حصہ میں سب سے بہتر بنا دے۔",
+          "tr": "Ey Allah, Muhammed'e Vasıl olma derecesini, şerefi, faziletini ve yüce makamını ver. Ey Allah, Muhammed'i ve Muhammed'in ailesini, kıyamet gününde bütün varlıkların en şereflisi, en yakın oturduğu ve en yüce makamda olduğu, senin huzurunda en üstün ve en hayırlı paya sahip kıl.",
+          "fa": "ای خدا، به محمد وسیله و شرافت و برتری و مقام والای محمد عطا فرما. ای خدا، محمد و خاندان محمد را در روز قیامت بزرگ‌ترین همه مخلوقات در شرافت، و نزدیک‌ترین به خودت در جایگاه، و برجسته‌ترین در پیشگاهت در مقام، و بهترین در مقام و سهم پیش خودت قرار ده.",
+          "id": "Ya Allah, berikanlah kepada Muhammad wasilah, dan keagungan, dan keutamaan, dan kedudukan mulia. Ya Allah, jadikanlah Muhammad dan keluarga Muhammad sebagai yang paling agung di antara seluruh makhluk dalam keagungan pada Hari Kiamat, dan yang paling dekat dengan-Mu dalam tempat duduk, dan yang paling menonjol dalam kedudukan di hadapan-Mu pada Hari Kiamat, dan yang terbaik dalam kedudukan dan bagian di hadapan-Mu.",
+          "bn": "হে আল্লাহ, মুহাম্মাদকে দান করুন মাওলা, ওয়াসীলা, ফাদিলা, ও শাফাআহ। হে আল্লাহ, মুহাম্মাদ ও মুহাম্মাদের পরিবারকে কিয়ামতের দিন সমস্ত সৃষ্টির মধ্যে সর্বোচ্চ মর্যাদায় ভূষিত করুন, এবং আপনার নিকটতম আসনদানকারী ও সর্বোচ্চ মর্যাদাপ্রাপ্ত করুন, এবং আপনার নিকট সর্বোত্তম মর্যাদা ও অংশদানকারী করুন।",
+          "es": "¡Oh Allah, concede a Muhammad los Medios, la Dignidad, la Excelencia y el Noble Status! ¡Oh Allah, haz a Muhammad y a la familia de Muhammad los más grandes de todos los seres en dignidad el Día de la Resurrección, y los más cercanos a Ti en asiento, y los más destacados en presencia ante Ti el Día de la Resurrección en status, y los mejores en status y porción ante Ti.",
+          "fr": "Ô Allah, accorde à Muhammad le moyen, la dignité, l'excellence et le statut noble. Ô Allah, fais de Muhammad et de la famille de Muhammad les plus grands de toutes les créatures en dignité le Jour de la Résurrection, les plus proches de Toi par leur place, les plus éminents en statut devant Toi le Jour de la Résurrection, et les meilleurs en statut et en part devant Toi.",
+          "de": "O Allah, gib Muhammad die Mittel, die Würde, die Exzellenz und den edlen Rang. O Allah, mache Muhammad und die Familie Muhammads am Tag der Auferstehung in der Würde die größten aller Geschöpfe, die Dir am nächsten in der Sitzposition und die prominentesten in der Erscheinung vor Dir am Tag der Auferstehung im Rang, und die Besten im Rang und Anteil vor Dir.",
+          "ru": "О Аллах, даруй Мухаммаду средства, достоинство, превосходство и благородный статус. О Аллах, сделай Мухаммада и семью Мухаммада величайшими из всех творений по достоинству в День Воскресения, ближайшими к Тебе по месту сидения, наиболее выдающимися по статусу перед Тобой в День Воскресения и наилучшими по статусу и доле перед Тобой.",
+          "zh": "主啊，求你赐予穆罕默德手段、尊严、卓越和高贵的地位。主啊，求你使穆罕默德及其家属在复生日成为所有受造物中尊严最大者，在座位中最接近你者，在地位上最显赫者，在地位和份额上最佳者。"
+        },
+        "word_start": 610,
+        "word_end": 649
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "اللَّهُمَّ أَعْطِ مُحَمَّداً أَشْرَفَ الْمَقَامِ وَ حِبَاءَ السَّلَامِ وَ شَفَاعَةَ الْإِسْلَامِ اللَّهُمَّ وَ أَلْحِقْنَا بِهِ غَيْرَ خَزَايَا وَ لَا نَاكِبِينَ وَ لَا نَادِمِينَ وَ لَا مُبَدِّلِينَ إِلَهَ الْحَقِّ آمِينَ",
+        "translations": {
+          "en": "O Allah, give Muhammad the Most Noble of Stations, and the Cloak of Peace, and the Intercession of Islam. O Allah, join us to him without shame, or turning away, or regret, or alteration. O God of Truth, Amen.",
+          "ur": "اے اللہ، محمد ﷺ کو سب سے بلند مقام عطا فرما، اور سکون کی چادر، اور اسلام کی شفاعت۔ اے اللہ، ہمیں ان کے ساتھ بے شرمی، بے نیازی، پچھتاوا، یا تبدیلی کے بغیر ملال فرما۔ اے سچے اللہ، آمین۔",
+          "tr": "Ey Allah, Muhammed'e en yüce makamı, barışın cübbesini ve İslam'ın şefaatini ver. Ey Allah, bizi onla utanç, ıraklık, pişmanlık veya değişiklik olmadan birleştir. Ey Hakikatlerin Rabbi, Amin.",
+          "fa": "ای خدا، به محمد شرافتمندترین مقام و برترین جایگاه را عطا فرما، و جامه سلامتی، و شفاعت اسلام را. ای خدا، ما را بدون شرم، یا روی گردانی، یا پشیمانی، یا تغییری به او پیوند ده. ای خدای راستین، آمین.",
+          "id": "Ya Allah, anugerahkan kepada Muhammad kedudukan yang paling mulia, dan jubah kedamaian, dan syafaat Islam. Ya Allah, hubungkan kami kepadanya tanpa rasa malu, atau berpaling, atau penyesalan, atau perubahan. Wahai Tuhan Yang Maha Benar, Amin.",
+          "bn": "হে আল্লাহ, মুহাম্মাদকে (সা.) দান করুন সর্বোচ্চ মর্যাদা, শান্তির আবরণ এবং ইসলামের শাফাআত। হে আল্লাহ, তাঁর সাথে আমাদেরকে যোগ করুন লজ্জা, বিমুখতা, পশ্চাতাপ বা পরিবর্তনহীন অবস্থায়। হে সত্যের ঈশ্বর, আমীন।",
+          "es": "Oh Allah, concede a Muhammad el más noble de los estatus, y el manto de la paz, y la intercesión del Islam. Oh Allah, únenos a él sin vergüenza, ni desvío, ni arrepentimiento, ni alteración. Oh Dios de la Verdad, Amén.",
+          "fr": "Ô Allah, accorde à Muhammad le Plus Noble des Stations, et le Manteau de la Paix, et l'Intercession de l'Islam. Ô Allah, réunis-nous à lui sans honte, ni détournement, ni regret, ni altération. Ô Dieu de la Vérité, Amen.",
+          "de": "O Allah, gib Muhammad den Höchsten Rang und den Mantel des Friedens und die Fürsprache des Islam. O Allah, verbinde uns mit ihm ohne Scham, ohne Abwendung, ohne Reue und ohne Veränderung. O Gott der Wahrheit, Amen.",
+          "ru": "О Аллах, даруй Мухаммаду наивысшую степень, и покров мира, и заступничество Ислама. О Аллах, соедини нас с ним без стыда, или отворачивания, или сожаления, или изменения. О Бог Истины, Аминь.",
+          "zh": "真主啊，求你赐予穆罕默德最尊贵的地位，和平的斗篷，以及伊斯兰的代求。真主啊，求你使我们与他团聚，不蒙羞，不背过脸去，不后悔，不改变。真理之主啊，阿敏。"
+        },
+        "word_start": 649,
+        "word_end": 678
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ جَلَسَ قَلِيلًا ثُمَّ قَامَ فَقَالَ الْحَمْدُ لِلَّهِ أَحَقَّ مَنْ خُشِيَ وَ حُمِدَ وَ أَفْضَلَ مَنِ اتُّقِيَ وَ عُبِدَ وَ أَوْلَى مَنْ عُظِّمَ وَ مُجِّدَ نَحْمَدُهُ لِعَظِيمِ غَنَائِهِ وَ جَزِيلِ عَطَائِهِ وَ تَظَاهُرِ نَعْمَائِهِ وَ حُسْنِ بَلَائِهِ",
+        "translations": {
+          "en": "Then he sat for a while, then stood up and said: 'All praise is for Allah, the Most Deserving to be feared and praised, and the Foremost for the one who is feared and worshipped, and the Best for the one who is magnified and glorified. We praise Him for His Great Wealth, and Abundant Giving, and the Manifestation of His Blessings, and the Goodness of His Trials.'",
+          "ur": "پھر وہ کچھ دیر تک بیٹھے رہے، پھر کھڑے ہو کر فرمایا: تمام تعریف اللہ کے لیے ہے، جو ڈرانے اور تعریف کرنے کا سب سے مستحق ہے، اور جس سے ڈرا جاتا ہے اور عبادت کی جاتی ہے وہ سب سے آگے ہے، اور جس کی عظمت کی جاتی ہے اور اس کی بڑائی بیان کی جاتی ہے وہ بہترین ہے۔ ہم اس کی بڑی دولت، فراخ دانی، اور اس کی نعمتوں کے ظاہر ہونے کی تعریف کرتے ہیں، اور اس کے امتحانات کی خوبی کی۔",
+          "tr": "Sonra bir süre oturdu, sonra ayağa kalkıp şöyle dedi: 'Övülmeye ve korkulmaya en layık olan, korkulmaya ve ibadete en layık olan, büyüklüğe ve yüceltilmeye en layık olan Allah'a hamd olsun. Onun büyük zenginliğine, bol lütfuna, nimetlerinin tezahürüne ve sınavlarının hayrına hamd ederiz.'",
+          "fa": "سپس مدتی نشست، سپس برخاست و گفت: «ستایش خدای را سزاوارترین کسی است که از او بترسند و او را ستایش کنند، و پیشروترین کسی است که از او بترسند و او را پرستش کنند، و بهترین کسی است که بزرگ شمرده و مجلل شود. ما او را ستایش می‌کنیم به خاطر ثروت عظیمش، و بخشش فراوانش، و آشکار شدن نعمت‌هایش، و نیکی آزمایش‌هایش.»",
+          "id": "Kemudian ia duduk sejenak, lalu berdiri dan berkata: 'Segala puji bagi Allah, Yang paling berhak untuk ditakuti dan dipuji, dan Yang Maha Terdekat bagi yang ditakuti dan disembah, dan Yang Terbaik bagi yang dimuliakan dan diagungkan. Kami memuji-Nya karena Kekayaan-Nya yang Agung, Pemberian-Nya yang Melimpah, dan Nyata-Nya Nikmat-Nya, serta Kebaikan dari Cobaan-Nya.'",
+          "bn": "অনন্তর তিনি কিছুক্ষণ বসে রইলেন, তারপর দাঁড়িয়ে বললেন: 'সকল প্রশংসা আল্লাহর জন্য, যিনি ভয় ও প্রশংসার অধিকতম যোগ্য, এবং যিনি ভয় ও ইবাদতের অগ্রণী, এবং যিনি মহিমান্বিত ও গৌরবান্বিত। আমরা তাঁর মহান সম্পদ, প্রচুর দান, তাঁর নিয়ামতের প্রকাশ এবং তাঁর পরীক্ষার মঙ্গলের জন্য তাঁর প্রশংসা করি।'",
+          "es": "Luego se sentó por un momento, luego se levantó y dijo: 'Toda alabanza pertenece a Allah, el más digno de ser temido y alabado, y el Primero para quien es temido y adorado, y el Mejor para quien es magnificado y glorificado. Le alabamos por Su Gran Riqueza, Su Abundante Generosidad, la Manifestación de Sus Bendiciones y la Bondad de Sus Pruebas.'",
+          "fr": "Puis il s'assit un moment, puis se leva et dit : « Toute louange est à Allah, le Digne d'être craint et loué, le Premier pour celui qui est craint et adoré, et le Meilleur pour celui qui est magnifié et glorifié. Nous Le louons pour Sa Grande Richesse, Son Abondante Générosité, la Manifestation de Ses Bienfaits, et la Bonté de Ses épreuves. »",
+          "de": "Dann saß er eine Weile, stand dann auf und sagte: „Alles Lob gebührt Allah, dem am meisten zu Fürchtenden und zu Lobenden, dem Ersten für den, der gefürchtet und angebetet wird, und dem Besten für den, der vergrößert und verherrlicht wird. Wir loben Ihn für Seine große Fülle, Seine reichliche Gabe und die Offenbarung Seiner Segnungen sowie die Güte Seiner Prüfungen.“",
+          "ru": "Затем он посидел некоторое время, затем встал и сказал: «Вся хвала Аллаху, Которого более всего следует бояться и восхвалять, Который является Первопричиной того, Кого боятся и поклоняются, и Который является наилучшим тем, Кого величают и прославляют. Мы восхваляем Его за Его великое изобилие, щедрое дарование, проявление Его благословений и благо Его испытаний».",
+          "zh": "随后他坐了一会儿，然后站起来说：‘一切赞颂全归真主，他是最应受敬畏和赞美的，是最应受敬畏和崇拜的，是最应受尊崇和荣耀的。我们赞美他，因为他的财富伟大，施予丰沛，恩惠彰显，考验良善。’"
+        },
+        "word_start": 678,
+        "word_end": 715
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَنُؤْمِنُ بِهُدَاهُ الَّذِي لَا يَخْبُو ضِيَاؤُهُ وَ لَا يَتَمَهَّدُ سَنَاؤُهُ وَ لَا يُوهَنُ عُرَاهُ وَ نَعُوذُ بِاللَّهِ مِنْ سُوءِ كُلِّ الرَّيْبِ وَ ظُلَمِ الْفِتَنِ وَ نَسْتَغْفِرُهُ مِنْ مَكَاسِبِ الذُّنُوبِ وَ نَسْتَعْصِمُهُ مِنْ مَسَاوِي الْأَعْمَالِ وَ مَكَارِهِ الْآمَالِ وَ الْهُجُومِ فِي الْأَهْوَالِ وَ مُشَارَكَةِ أَهْلِ الرَّيْبِ وَ الرِّضَا بِمَا يَعْمَلُ الْفُجَّارُ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ",
+        "translations": {
+          "en": "And we believe in His Guidance, whose light does not dim, and whose brilliance does not fade, and whose handle does not weaken. And we seek Refuge with Allah from the evil of every doubt, and the darkness of the strifes, and we seek Forgiveness from Him for the Accumulation of Sins, and seek Protection from Him from the Wickedness of Deeds, and the Detestable of Hopes, and the Attacks in the Terrors, and the Association of the People of Doubt, and the Pleasure with what the Immoral do in the Earth without Right.",
+          "ur": "اور ہم اس کی ہدایت پر ایمان لاتے ہیں، جس کی روشنی مدھم نہیں ہوتی، اور جس کی چمک نہیں مٹتی، اور جس کا پکڑنے والا کمزور نہیں پڑتا۔ اور ہم شک کی برائی سے، اور جھگڑوں کی اندھیروں سے اللہ کی پناہ مانگتے ہیں، اور ہم گناہوں کے جمع ہونے کی وجہ سے اس سے مغفرت مانگتے ہیں، اور اعمال کی برائی سے، اور خواہشات کی ناپسندیدگی سے، اور خوف کے حملوں سے، اور شک والوں کی شراکت سے، اور زمین میں بے جا طور پر فاسقوں کی خوشی سے اس کی حفاظت مانگتے ہیں۔",
+          "tr": "Ve biz O'nun Hidayetine, ki onun nuru solmaz, parlaklığı solmaz, tutacağı zayıflamaz, iman ederiz. Ve her şüphenin şerrinden, fitnelerin karanlığından Allah'a sığınırız, ve günahların birikmesinden O'ndan mağfiret dileriz, ve amel bozukluklarından, umutların nefret edilebilirliğinden, korkuların saldırılarından, şüphe ehlinin ittihazından, ve yeryüzünde hak etmeden harama razı olmaktan O'na sığınırız.",
+          "fa": "و ما به هدایت او ایمان آورده‌ایم که نورش کم نمی‌شود و درخششش زائل نمی‌گردد و دسته‌اش سست نمی‌شود. و از شر هر شک و تاریکی جنگ‌ها پناه می‌جوییم به خدا، و از او آمرزش می‌طلبیم برای انباشت گناهان، و پناه می‌جوییم از او از بدی اعمال، و ناپسندی‌های آرزوها، و حملات در هیاهوها، و پیوند مردم شک‌ها، و لذت بردن از آنچه بى‌حق در زمین انجام می‌دهند فاسقان. }```json { ",
+          "id": "Dan kami beriman kepada Petunjuk-Nya, yang cahayanya tidak redup, yang kecerahannya tidak pudar, dan yang pegangannya tidak melemah. Dan kami memohon Perlindungan kepada Allah dari keburukan setiap keraguan, dan kegelapan dari fitnah, dan kami memohon Maghfirah kepada-Nya atas akumulasi dosa, dan memohon Perlindungan kepada-Nya dari keburukan amal, dan yang tercela dari harapan, dan serangan dalam kegentaran, dan persekutuan orang-orang yang ragu, dan kesenangan dengan apa yang dilakukan oleh orang-orang yang fasik di bumi tanpa hak.",
+          "bn": "আমরা তাঁর হিদায়াতের ওপর ঈমান আনছি, যার আলো কখনো ম্লান হয় না, যার ঝলকানি কখনো ম্লান হয় না, এবং যার হাত শক্তিশালী হয় না। আর আমরা আল্লাহর কাছে প্রতিটি সন্দেহের মন্দতা থেকে আশ্রয় চাই, এবং কলহের অন্ধকার থেকে, এবং তাঁর কাছে গুনাহের সঞ্চয়ের জন্য ক্ষমা চাই, এবং আমলের মন্দতা থেকে, এবং আশার অপ্রীতিকর দিক থেকে, এবং ভয়ের আক্রমণ থেকে, এবং সন্দেহকারী লোকদের সংযোগ থেকে, এবং আরেফুল গাফিলিনেরা যা করে তাতে আনন্দ পাওয়া থেকে আশ্রয় চাই।",
+          "es": "Y creemos en Su Guía, cuya luz no se apaga, cuyo brillo no se desvanece, y cuyo asidero no se debilita. Y buscamos Refugio en Alah del mal de toda duda, y de la oscuridad de las contiendas, y buscamos Su Perdón por la Acumulación de Pecados, y buscamos Su Protección contra la Maldad de las Acciones, y lo Detestable de las Esperanzas, y los Ataques en los Terrores, y la Asociación de la Gente de la Duda, y el Placer con lo que hacen los Inmorales en la Tierra sin Derecho.",
+          "fr": "Et nous croyons en Son Guidée, dont la lumière ne s’atténue pas, dont l’éclat ne s’efface pas, et dont la poignée ne s’affaiblit pas. Et nous cherchons Refuge auprès d’Allah contre le mal de chaque doute, et l’obscurité des conflits, et nous demandons Son Pardon pour l’Accumulation des Péchés, et cherchons Protection auprès de Lui contre la Méchanceté des Actions, et le Détestable des Espoirs, et les Attaques dans les Terreurs, et l’Association des Gens du Doute, et le Plaisir avec ce que les Immoraux font sur Terre sans Droit.",
+          "de": "Und wir glauben an Seine Führung, deren Licht nicht erlischt, deren Glanz nicht verblasst, deren Griff nicht schwach wird. Und wir suchen Zuflucht bei Allah vor dem Übel jedes Zweifels und der Dunkelheit der Streitigkeiten, und wir bitten Ihn um Vergebung für die Anhäufung der Sünden, und suchen Schutz bei Ihm vor dem Bösen der Taten und dem Verachteten der Hoffnungen, und den Angriffen in den Schrecken, und der Verbindung der Leute des Zweifels, und der Freude an dem, was die Unmoralischen auf der Erde ohne Recht tun.",
+          "ru": "И мы веруем в Его Наведение (Хидая), свет которого не тускнеет, яркость которого не угасает, а рукоять которого не слабеет. И мы ищем прибежища у Аллаха от зла каждого сомнения, и от тьмы смут, и мы ищем у Него Прощения за накопление грехов, и ищем у Него Защиты от злодеяний деяний, и от отвратительных надежд, и от нападений в ужасах, и от соединения людей сомнения, и от удовольствия тем, что нечестивые совершают на Земле без права.",
+          "zh": "我们信仰他的引导，其光明不昏暗，其光辉不褪色，其把手不软弱。我们向真主求庇护，免受一切怀疑的邪恶、纷争的黑暗；我们向他求饶恕，免受罪过的积累；我们向他求保护，免受行为的邪恶、希望的可憎、恐怖中的袭击、怀疑者的结党营私，以及不义者在地球上行乐。"
+        },
+        "word_start": 715,
+        "word_end": 769
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "اللَّهُمَّ اغْفِرْ لَنَا وَ لِلْمُؤْمِنِينَ وَ الْمُؤْمِنَاتِ الْأَحْيَاءِ مِنْهُمْ وَ الْأَمْوَاتِ الَّذِينَ تَوَفَّيْتَهُمْ عَلَى دِينِكَ وَ مِلَّةِ نَبِيِّكَ (صلى الله عليه وآله) اللَّهُمَّ تَقَبَّلْ حَسَنَاتِهِمْ وَ تَجَاوَزْ عَنْ سَيِّئَاتِهِمْ وَ أَدْخِلْ عَلَيْهِمُ الرَّحْمَةَ وَ الْمَغْفِرَةَ وَ الرِّضْوَانَ",
+        "translations": {
+          "en": "O Allah, forgive us and the Believing men and the Believing women, the living among them and the dead, whom You caused to die upon Your Religion and the Sect of Your Prophet (peace be upon him and his family). O Allah, accept their good deeds, and overlook their bad deeds, and enter upon them Mercy, and Forgiveness, and Pleasure.",
+          "ur": "اے اللہ! ہمیں اور مردوں اور عورتوں مومنوں کو بخش دے، جو ان میں سے زندہ ہیں اور جو مر چکے ہیں، جنہیں تو نے اپنے دین اور اپنے نبی (صلی اللہ علیہ وآلہ وسلم) کی جماعت پر مرنے والا بنایا۔ اے اللہ! ان کے نیک اعمال قبول فرما، اور ان کے برے اعمال معاف فرما، اور ان پر رحمت، اور مغفرت، اور رضوان نازل فرما۔",
+          "tr": "Ey Allah, bizi ve inanan erkekleri ve inanan kadınları bağışla; onlar arasında yaşayanları ve ölenleri, ki onları Dinin ve Peygamberinin (ona ve ailesine selam olsun) mezhebi üzerine öldürdün. Ey Allah, onların iyi amellerini kabul et, kötü amellerini affet, onlara Rahmet, Bağışlama ve Rıza ile yaklaş.",
+          "fa": "ای خدا، ما را و مردان و زنان با ایمان را، زندگان و مردگان آنان، که آنان را بر دین تو و مکتب پیامبرت (صلی الله علیه و آله) مردی، بیامرز. ای خدا، نیکی‌های آنان را بپذیر، بدی‌هایشان را ببخشای، و رحمت و آمرزش و رضایت را بر آنان نازل فرما.",
+          "id": "Ya Allah, ampunilah kami dan kaum pria yang beriman serta kaum wanita yang beriman, baik yang masih hidup maupun yang telah wafat di antara mereka, yang Engkau wafatkan dalam agama-Mu dan golongan Nabi-Mu (semoga salawat dan salam Allah atasnya dan keluarganya). Ya Allah, terimalah amal baik mereka, dan hapuskanlah amal buruk mereka, dan masukkanlah mereka ke dalam rahmat, ampunan, dan keridaan.",
+          "bn": "হে আল্লাহ, আমাদের ক্ষমা করুন এবং বিশ্বাসী পুরুষ ও বিশ্বাসী নারীদের ক্ষমা করুন, যারা তাদের মধ্যে জীবিত এবং যারা মৃত, যাদেরকে আপনি আপনার ধর্ম এবং আপনার নবীর (আলাইহি ওয়া আলেহি সালাম) মাজহাবের উপর মৃত্যুবরণ করিয়েছেন। হে আল্লাহ, তাদের ভালো আমলগুলো কবুল করুন, তাদের খারাপ আমলগুলো মাফ করুন, এবং তাদের উপর রহমত, মাফ এবং সন্তুষ্টি নازل করুন।",
+          "es": "Oh Allah, perdónanos a nosotros y a los hombres creyentes y a las mujeres creyentes, a los vivos entre ellos y a los muertos, a quienes hiciste morir sobre Tu Religión y la Secta de Tu Profeta (que la paz sea con él y con su familia). Oh Allah, acepta sus buenas obras, y pasa por alto sus malas obras, y haz que sobre ellos desciendan la Misericordia, el Perdón y el Placer.",
+          "fr": "Ô Allah, pardonne-nous ainsi qu'aux hommes croyants et aux femmes croyantes, parmi les vivants et les morts d'entre eux, que Tu as fait mourir sur Ta Religion et la Secte de Ton Prophète (que la paix soit sur lui et sur sa famille). Ô Allah, accepte leurs bonnes actions, passe outre leurs mauvaises actions, et fais descendre sur eux Ta Miséricorde, Ton Pardon et Ta Satisfaction.",
+          "de": "O Allah, vergib uns und den gläubigen Männern und den gläubigen Frauen, den Lebenden unter ihnen und den Toten, die Du auf Deine Religion und die Sekte Deines Propheten (Friede sei mit ihm und seiner Familie) sterben ließest. O Allah, nimm ihre guten Taten an, übersehe ihre schlechten Taten, und lasse Barmherzigkeit, Vergebung und Wohlgefallen über sie hereinbrechen.",
+          "ru": "О Аллах, прости нас и верующих мужчин и верующих женщин, живущих среди них и умерших, которых Ты заставил умереть на Твоей Религии и на пути Твоего Пророка (мир ему и его семье). О Аллах, прими их благие дела, проступки их оставь без внимания, и ниспошли им Милость, и Прощение, и Удовольствие.",
+          "zh": "真主啊，求你饶恕我们和信道的男人和信道的女人，其中生者和死者，你使他们在你的宗教和你的先知（愿主福安之及其家属）的教派中去世。真主啊，求你接受他们的善功，忽略他们的恶行，使他们进入仁慈、宽恕和喜悦之中。"
+        },
+        "word_start": 769,
+        "word_end": 806
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ اغْفِرْ لِلْأَحْيَاءِ مِنَ الْمُؤْمِنِينَ وَ الْمُؤْمِنَاتِ الَّذِينَ وَحَّدُوكَ وَ صَدَّقُوا رَسُولَكَ وَ تَمَسَّكُوا بِدِينِكَ وَ عَمِلُوا بِفَرَائِضِكَ وَ اقْتَدَوْا بِنَبِيِّكَ وَ سَنُّوا سُنَّتَكَ وَ أَحَلُّوا حَلَالَكَ وَ حَرَّمُوا حَرَامَكَ وَ خَافُوا عِقَابَكَ وَ رَجَوْا ثَوَابَكَ وَ وَالَوْا أَوْلِيَاءَكَ وَ عَادَوْا أَعْدَاءَكَ",
+        "translations": {
+          "en": "And forgive the living of the Believing men and the Believing women, who made You One, and confirmed Your Messenger, and held fast to Your Religion, and acted upon Your Obligations, and followed Your Prophet, and made Your Sunnah their Sunnah, and made Halal Your Permissibles, and made Haram Your Forbiddances, and feared Your Punishment, and hoped for Your Reward, and befriended Your Friends, and were inimical to Your Enemies.",
+          "ur": "اور ایمان والے مردوں اور عورتوں کو بخش دے جووں نے تجھے ایک مانا، اور تیرے رسول کی تصدیق کی، اور تیرے دین کو مضبوطی سے تھام لیا، اور تیری فرضیات پر عمل کیا، اور تیرے نبی کی پیروی کی، اور تیری سنت کو اپنی سنت بنایا، اور تیری حلال کو حلال مانا، اور تیری حرام کو حرام ٹھہرایا، اور تیری سزا سے ڈرے، اور تیری جزا کی امید کی، اور تیرے دوستوں سے دوستی کی، اور تیرے دشمنوں سے دشمنی برتی۔",
+          "tr": "Ve Ehl-i İman olan erkek ve kadınların, Allah'a birlik ve beraat etmelerini, Peygamberini tasdik etmelerini, dinine sarılmalarını, farzlarını yerine getirmelerini, peygamberini takip etmelerini, sünnetini sünnet edinmelerini, helallerini helal, haramlarını haram saymalarını, azabından korkmalarını, mükâfatını ummalarını, dostlarını dost edinmelerini, düşmanlarını düşman edinmelerini bağışla.",
+          "fa": "و آمرزش ده برای مردان و زنان مؤمن زنده، که تو را یگانه گردانیدند، و پیامبرت را تصدیق کردند، و به دینت چسبیدند، و به تکالیفت عمل کردند، و از پیامبرت پیروی کردند، و سنتت را سنت خود قرار دادند، و حلال‌هایت را حلال دانستند، و حرام‌هایت را حرام شمردند، و از عذاب تو هراس داشتند، و به پاداش تو امید بستند، و با دوستان تو دوست شدند و با دشمنانت دشمنی ورزیدند.",
+          "id": "Dan ampunilah kaum laki-laki dan perempuan yang beriman, yang menjadikan-Mu Esa, yang mengukuhkan Rasul-Mu, yang berpegang teguh pada Agama-Mu, yang mengamalkan kewajiban-kewajiban-Mu, yang mengikuti Nabi-Mu, yang menjadikan Sunnah-Mu sebagai sunnah mereka, yang menjadikan halal apa yang Engkau halalkan, dan menjadikan haram apa yang Engkau haramkan, yang takut pada azab-Mu, dan berharap pada pahala-Mu, yang menjadi teman bagi teman-Mu, dan menjadi musuh bagi musuh-Mu.",
+          "bn": "এবং ক্ষমা করুন বিশ্বাসী পুরুষ ও বিশ্বাসী নারীদের, যারা আপনাকে একক বলে স্বীকার করেছে, আপনার রাসূলকে সত্যায়িত করেছে, আপনার ধর্মকে দৃঢ়ভাবে ধারণ করেছে, আপনার ফরজগুলো পালন করেছে, আপনার নবীকে অনুসরণ করেছে, আপনার সুন্নাহকে তাদের সুন্নাহ বানিয়েছে, আপনার হালালগুলোকে হালাল বলেছে, আপনার হারামগুলোকে হারাম বলেছে, আপনার শাস্তির ভয় করেছে, আপনার পুরস্কারের আশা করেছে, আপনার বন্ধুদেরকে বন্ধু বলেছে এবং আপনার শত্রুদেরকে শত্রু বলেছে।",
+          "es": "Y",
+          "fr": "Et pardonne aux hommes croyants et croyantes, qui ont fait de Toi l'Unique, ont confirmé Ton Messager, se sont agrippés à Ta Religion, ont accompli Tes Obligations, suivi Ton Prophète, fait de Ta Sunna leur Sunna, rendu Halal Tes licites, rendu Haram Tes illicites, redouté Ton Châtiment, espéré Ta Récompense, lié d'amitié Tes amis, et été hostiles à Tes ennemis.",
+          "de": "Und vergib den Männern und Frauen der Gläubigen, die Dich als den Einen anerkannten, Deinen Gesandten bestätigten, an Deiner Religion festhielten, Deine Pflichten erfüllten, Deinem Propheten folgten, Deine Sunnah zu ihrer Sunnah machten, Deine Erlaubten zu ihren Erlaubten und Deine Verbotenen zu ihren Verbotenen erklärten, vor Deiner Strafe Furcht hegten und auf Deine Belohnung hofften, Deine Freunde zu ihren Freunden machten und Deine Feinde zu ihren Feinden erklärten.",
+          "ru": "И прости верующих мужчин и верующих женщин, которые сделали Тебя единоличным признали, Твоего Посланника подтвердили, и за Твою Религию ухватились, и Твои Обязанности исполняли, и за Твоим Пророком следовали, и Твою Сунну своей Сунной сделали, и Твои дозволенные (халаль) дозволенными сделали, и Твои запретные (харам) запретными сделали, и Твоего Наказания боялись, и Твоей Награды надеялись, и с Твоими друзьями в дружбе были, и с Твоими врагами в вражде.",
+          "zh": "求你恕饶那些认主独一、确认你的使者、坚守你的宗教、履行你的义务、追随你的先知、以你的圣行为自己的圣行、视你的允许为合法、视你的禁止为非法、敬畏你的刑罚、期望你的赏赐、结交你的朋友、与你的敌人为敌的男女信士。"
+        },
+        "word_start": 806,
+        "word_end": 848
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "اللَّهُمَّ اقْبَلْ حَسَنَاتِهِمْ وَ تَجَاوَزْ عَنْ سَيِّئَاتِهِمْ وَ أَدْخِلْهُمْ بِرَحْمَتِكَ فِي عِبَادِكَ الصَّالِحِينَ إِلَهَ الْحَقِّ آمِينَ",
+        "translations": {
+          "en": "O Allah, accept their good deeds, and overlook their bad deeds, and enter them by Your Mercy among Your Righteous Servants. O God of Truth, Amen.",
+          "ur": "اے اللہ! ان کے نیک اعمال قبول فرما اور ان کے برے اعمال معاف فرما، اور اپنی رحمت کے ذریعے انہیں اپنے نیک بندوں میں داخل فرما۔ اے سچے خدا! آمین۔",
+          "tr": "Ey Allah, onların iyiliklerini kabul et, kötülüklerini affet ve onları Rahmetinle, Kullarının salih olanları arasına sok. Ey Hakiki Allah, Amin.",
+          "fa": "ای خدا، نیکی‌های آنان را بپذیرای، بدی‌هایشان را ببخشای، و آنان را به رحمت خود در میان بندگان شایسته‌ات وارد گردان. ای خدای راستین، آمین.",
+          "id": "Ya Allah, terimalah amal baik mereka, dan hapuskanlah dosa-dosa mereka, dan masukkanlah mereka dengan rahmat-Mu ke dalam golongan hamba-hamba-Mu yang saleh. Ya Allah Yang Maha Benar, Amin.",
+          "bn": "হে আল্লাহ, তাদের ভালো আমলগুলো কবুল করুন, তাদের খারাপ আমলগুলো ক্ষমা করুন, এবং আপনার রহমতের মাধ্যমে তাদেরকে আপনার সৎ বান্দাদের মধ্যে প্রবেশ করান। হে সত্যের অধিপতি, আমীন।",
+          "es": "Oh Allah, acepta sus buenas obras y oculta sus malas obras e introdúcelos por Tu Misericordia entre Tus siervos justos. Oh Dios de la Verdad, Amén.",
+          "fr": "Ô Allah, accepte leurs bonnes actions pieuses, et excuse leurs mauvaises actions, et fais-les entrer par Ta miséricorde parmi Tes serviteurs vertueux. Ô Dieu de vérité, Amen.",
+          "de": "O Allah, nimm ihre guten Taten an, verzeihe ihre schlechten Taten, und führe sie durch Deine Barmherzigkeit unter Deine rechtschaffenen Diener ein. O Gott der Wahrheit, Amen.",
+          "ru": "О Аллах, прими их благие дела, проступки их не замечай, и по Твоей Милости введи их среди Твоих праведных рабов. О Бог Истинный, Аминь.",
+          "zh": "真主啊，求你接受他们的善功，饶恕他们的恶行，并凭你的慈悯，使他们进入你的义仆之中。真理之主啊，阿敏。"
+        },
+        "word_start": 848,
+        "word_end": 864
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This sermon, narrated by Imam al-Sadiq (as) from Imam Ali (as), serves as a comprehensive model for Friday khutbahs in Shia tradition, emphasizing the transition from divine praise to practical exhortation. It underscores the Shia theological concept of *al-dunya dar 'amal* (the world as a dwelling of action) and *al-akhirah dar qarar* (the Hereafter as a dwelling of permanence), urging believers to view worldly life as a temporary provision for the eternal realm. The text highlights the Quran as the ultimate source of guidance and concludes with specific supplications for the Prophet, his Ahl al-Bayt, and the general community of believers.",
+        "seo_question": "What is the content of the Friday sermon of Imam Ali (peace be upon him) as narrated in Al-Kafi?",
+        "key_terms": {
+          "الْخُطْبَةَ": "The sermon",
+          "أَمِيرِ الْمُؤْمِنِينَ": "Commander of the Faithful",
+          "التَّزَوُّدَ": "Provisioning/Preparation",
+          "الدُّنْيَا": "The World",
+          "الْآخِرَةِ": "The Hereafter",
+          "الْقِيَامَةِ": "The Day of Resurrection",
+          "شَفَاعَةَ": "Intercession",
+          "الْوَاسِيلَةَ": "The Means/Proximity"
+        }
+      },
+      "ur": {
+        "summary": "یہ خطبہ امام صادق (ع) کی روایت سے امام علی (ع) سے منقول ہے جو شیعہ روایت میں جمعہ کی خطبہ کا جامع نمونہ ہے، جو الہی تعریف سے عملی نصیحت کی طرف گذر پر زور دیتا ہے۔ یہ شیعہ کلامی تصور *الدنیا دار عمل* (دنیا عمل کا گھر ہے) اور *والآخرة دار قرار* (آخرت پائیداری کا گھر ہے) کو اجاگر کرتا ہے، اور مومنین کو دنیاوی زندگی کو ابدی عالم کے لیے عارضی تیاری کے طور پر دیکھنے کی ترغیب دیتا ہے۔ متن قرآن کو رہنمائی کے حتمی منبع کے طور پر نمایاں کرتا ہے اور نبی، ان کی اہل بیت، اور مومنین کی عمومی برادری کے لیے مخصوص دعائوں کے ساتھ ختم ہوتا ہے۔",
+        "seo_question": "الکافی میں منقول امام علی (علیہ السلام) کی جمعہ کی خطبہ کا مواد کیا ہے؟",
+        "key_terms": {
+          "الْخُطْبَةَ": "خطبہ",
+          "أَمِيرِ الْمُؤْمِنِينَ": "امیر المومنین",
+          "التَّزَوُّدَ": "تزید/تیاری",
+          "الدُّنْيَا": "دنیا",
+          "الْآخِرَةِ": "آخرت",
+          "الْقِيَامَةِ": "قیامت",
+          "شَفَاعَةَ": "شفاعت",
+          "الْوَاسِيلَةَ": "وسیلہ"
+        }
+      },
+      "tr": {
+        "summary": "Bu hutbe, İmam Cafer-i Sadık'ın (a.s.) İmam Ali'den (a.s.) naklettiği, Şii geleneğinde Cuma hutbeleri için kapsamlı bir model sunmakta ve ilahi hamddan pratik öğüde geçişi vurgulamaktadır. Metin, *ed-dünya daru amel* (dünya, amel yurdu) ve *el-ahiretu daru karar* (ahiret, kalıcılık yurdu) gibi Şii teolojik kavramlarını öne çıkararak, müminleri dünyevi hayatı ebedi aleme yönelik geçici bir hazırlık olarak görmeye davet etmektedir. Kur'an'ı mutlak rehber kaynağı olarak öne çıkaran metin, peygamber, Ehl-i Beyt ve genel müminler topluluğu için özel dualarla sona ermektedir.",
+        "seo_question": "El-Kâfî'de nakledilen İmam Ali'nin (a.s.) Cuma hutbesinin içeriği nedir?",
+        "key_terms": {
+          "الْخُطْبَةَ": "Hutbe",
+          "أَمِيرِ الْمُؤْمِنِينَ": "Emirü'l-Müminîn",
+          "التَّزَوُّدَ": "Tezeyyüd/Hazırlık",
+          "الدُّنْيَا": "Dünya",
+          "الْآخِرَةِ": "Âhiret",
+          "الْقِيَامَةِ": "Kıyamet",
+          "شَفَاعَةَ": "Şefaât",
+          "الْوَاسِيلَةَ": "Vâsile"
+        }
+      },
+      "fa": {
+        "summary": "این خطبه که از امام صادق (ع) از امام علی (ع) روایت شده، الگویی جامع برای خطبه‌های جمعه در سنت شیعه است و بر گذار از ستایش الهی به پند عملی تأکید دارد. این متن مفهوم کلامی شیعه مبنی بر «الدُّنیا دارُ عَمَل» (جهان محل عمل) و «الآخِرَة دارُ قَرار» (آخرت محل اقامت ابدی) را برجسته می‌کند و مؤمنان را به دیدن زندگی دنیوی به عنوان تدارکی موقت برای realm ابدی ترغیب می‌کند. متن قرآن را به عنوان منبع نهایی هدایت برجسته می‌کند و با دعا‌های خاصی برای پیامبر، اهل بیت و جامعه عمومی مؤمنان به پایان می‌رسد.",
+        "seo_question": "محتوای خطبه جمعه امام علی (علیه‌السلام) روایت شده در الکافی چیست؟",
+        "key_terms": {
+          "الْخُطْبَةَ": "خطبه",
+          "أَمِيرِ الْمُؤْمِنِينَ": "امیرالمؤمنین",
+          "التَّزَوُّدَ": "تزود",
+          "الدُّنْيَا": "دنیا",
+          "الْآخِرَةِ": "آخرت",
+          "الْقِيَامَةِ": "قیامت",
+          "شَفَاعَةَ": "شفاعت",
+          "الْوَاسِيلَةَ": "وسیله"
+        }
+      },
+      "id": {
+        "summary": "Khotbah",
+        "seo_question": "Apa isi khotbah Jumat Imam Ali (alamah) yang diriwayatkan dalam Al-Kafi?",
+        "key_terms": {
+          "الْخُطْبَةَ": "khotbah",
+          "أَمِيرِ الْمُؤْمِنِينَ": "Amirul Mukminin",
+          "التَّزَوُّدَ": "persediaan",
+          "الدُّنْيَا": "dunia",
+          "الْآخِرَةِ": "akhirat",
+          "الْقِيَامَةِ": "kiamat",
+          "شَفَاعَةَ": "syafaat",
+          "الْوَاسِيلَةَ": "wasilah"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আল-সাদিক (আ.) থেকে বর্ণিত এই খুতবা শিয়া ঐতিহ্যে জুমার খুতবার একটি সার্বজনীন মডেল হিসেবে বিবেচিত, যা ঈশ্বরের প্রশংসা থেকে ব্যবহারিক উপদেশে রূপান্তরকে তুলে ধরে। এটি শিয়া তাত্ত্বিক ধারণা *আদ-দুনিয়া দারু আমাল* (জগত হলো কর্মের আবাস) এবং *আল-আখিরাতু দারু কারার* (পরলোক হলো স্থায়িত্বের আবাস) এর ওপর জোর দেয়, যা বিশ্বাসীদেরকে পৃথিবীকে চিরন্তন জগতের জন্য সাময়িক সরবরাহ হিসেবে দেখতে উৎসাহিত করে। পাঠ্যটি কুরআনকে চূড়ান্ত গাইডেন্সের উৎস হিসেবে তুলে ধরে এবং নবী, তাঁর আহল আল-বাইত এবং সাধারণ বিশ্বাসীদের সম্প্রদায়ের জন্য নির্দিষ্ট দোয়া দিয়ে সমাপ্ত হয়।",
+        "seo_question": "আল-কাফিতে বর্ণিত ইমাম আলীর (আ.) জুমার খুতবার বিষয়বস্তু কী?",
+        "key_terms": {
+          "الْخُطْبَةَ": "খুতবা",
+          "أَمِيرِ الْمُؤْمِنِينَ": "আমিরুল মুমিনীন",
+          "التَّزَوُّدَ": "তাজ্জুদ/প্রস্তুতি",
+          "الدُّنْيَا": "দুনিয়া",
+          "الْآخِرَةِ": "আখিরাত",
+          "الْقِيَامَةِ": "কিয়ামাত",
+          "شَفَاعَةَ": "শাফাআত",
+          "الْوَاسِيلَةَ": "ওয়াসীলা"
+        }
+      },
+      "es": {
+        "summary": "Esta sermón, narrado por el Imam al-Sadiq (as) del Imam Ali (as), sirve como un modelo integral para las khutbahs del viernes en la tradición chiita, enfatizando la transición de la alabanza divina a la exhortación práctica. Subraya el concepto teológico chiita de *al-dunya dar 'amal* (el mundo como morada de la acción) y *al-akhirah dar qarar* (la Hereafter como morada de la permanencia), instando a los creyentes a ver la vida mundana como una provisión temporal para el reino eterno. El texto destaca al Corán como la fuente última de guía y concluye con súplicas específicas para el Profeta, su Ahl al-Bayt y la comunidad general de creyentes.",
+        "seo_question": "¿Cuál es el contenido del sermón del viernes del Imam Ali (que la paz sea con él) según se narra en Al-Kafi?",
+        "key_terms": {
+          "الْخُطْبَةَ": "El sermón",
+          "أَمِيرِ الْمُؤْمِنِينَ": "Comandante de los Creyentes",
+          "التَّزَوُّدَ": "Provisión/Preparación",
+          "الدُّنْيَا": "El Mundo",
+          "الْآخِرَةِ": "La Hereafter",
+          "الْقِيَامَةِ": "El Día de la Resurrección",
+          "شَفَاعَةَ": "Intercesión",
+          "الْوَاسِيلَةَ": "Los Medios/Proximidad"
+        }
+      },
+      "fr": {
+        "summary": "Ce sermon, narré par l'Imam al-Sadiq (as) depuis l'Imam Ali (as), sert de modèle complet pour les khutbahs du vendredi dans la tradition chiite, mettant l'accent sur la transition de la louange divine à l'exhortation pratique. Il souligne le concept théologique chiite de *al-dunya dar 'amal* (le monde comme demeure de l'action) et *al-akhirah dar qarar* (l'au-delà comme demeure de la permanence), exhortant les croyants à considérer la vie mondaine comme une provision temporaire pour le royaume éternel. Le texte met en lumière le Coran comme source ultime de guidée et se termine par des supplications spécifiques pour le Prophète, son Ahl al-Bayt et la communauté générale des croyants.",
+        "seo_question": "Quel est le contenu du sermon du vendredi de l'Imam Ali (que la paix soit sur lui) tel que narré dans Al-Kafi ?",
+        "key_terms": {
+          "الْخُطْبَةَ": "Le sermon",
+          "أَمِيرِ الْمُؤْمِنِينَ": "Commandant des Croyants",
+          "التَّزَوُّدَ": "Provision/Préparation",
+          "الدُّنْيَا": "Le Monde",
+          "الْآخِرَةِ": "L'Au-delà",
+          "الْقِيَامَةِ": "Le Jour de la Résurrection",
+          "شَفَاعَةَ": "Intercession",
+          "الْوَاسِيلَةَ": "Le Moyen/Proximité"
+        }
+      },
+      "de": {
+        "summary": "Diese Predigt, überliefert von Imam al-Sadiq (as) von Imam Ali (as), dient als umfassendes Modell für die Freitagspredigt (Khutbah) in der schiitischen Tradition und betont den Übergang von der göttlichen Lobpreisung zur praktischen Ermahnung. Sie unterstreicht das schiitische theologische Konzept von *al-dunya dar 'amal* (die Welt als Wohnsitz der Handlung) und *al-akhirah dar qarar* (das Jenseits als Wohnsitz der Beständigkeit) und ermutigt die Gläubigen, das irdische Leben als zeitliche Versorgung für die ewige Sphäre zu betrachten. Der Text hebt den Koran als ultimative Quelle der Führung hervor und schließt mit spezifischen Bittgebeten für den Propheten, seine Ahl al-Bayt und die allgemeine Gemeinschaft der Gläubigen.",
+        "seo_question": "Welchen Inhalt hat die Freitagspredigt von Imam Ali (Friede sei mit ihm), wie sie in Al-Kafi überliefert wird?",
+        "key_terms": {
+          "الْخُطْبَةَ": "Die Predigt",
+          "أَمِيرِ الْمُؤْمِنِينَ": "Führer der Gläubigen",
+          "التَّزَوُّدَ": "Versorgung/Vorbereitung",
+          "الدُّنْيَا": "Die Welt",
+          "الْآخِرَةِ": "Das Jenseits",
+          "الْقِيَامَةِ": "Der Tag der Auferstehung",
+          "شَفَاعَةَ": "Fürbitte",
+          "الْوَاسِيلَةَ": "Das Mittel/Die Nähe"
+        }
+      },
+      "ru": {
+        "summary": "Это проповедь, переданная Имамом ас-Садыком (да будет с ним мир) от Имама Али (да будет с ним мир), служит всеобъемлющей моделью для пятничной хутбы в шиитской традиции, подчеркивая переход от восхваления Бога к практическому наставлению. Она акцентирует шиитскую теологическую концепцию *ад-дунья дар амаля* (мир как обитель действия) и *ал-ахира карар* (Загробный мир как обитель постоянства), призывая верующих рассматривать земную жизнь как временное пропитание для вечного мира. Текст выделяет Коран как высший источник руководства и завершается конкретными мунджами за Пророка, его Ахль аль-Байт и общую общину верующих.",
+        "seo_question": "Каково содержание пятничной проповеди Имама Али (мир ему), переданной в аль-Кафи?",
+        "key_terms": {
+          "الْخُطْبَةَ": "проповедь",
+          "أَمِيرِ الْمُؤْمِنِينَ": "Повелитель верующих",
+          "التَّزَوُّدَ": "запасание/подготовка",
+          "الدُّنْيَا": "мир",
+          "الْآخِرَةِ": "Загробный мир",
+          "الْقِيَامَةِ": "День Воскресения",
+          "شَفَاعَةَ": "заступничество",
+          "الْوَاسِيلَةَ": "средство/близость"
+        }
+      },
+      "zh": {
+        "summary": "这篇由伊玛目萨迪格（愿主喜悦之）从伊玛目阿里（愿主喜悦之）传述的演讲，是什叶派传统中周五聚礼演讲的全面典范，强调从对真主的赞颂过渡到实际的劝诫。它突出了什叶派神学中“世界是行动之所”（al-dunya dar 'amal）和“后世是永居之所”（al-akhirah dar qarar）的概念，敦促信徒将世俗生活视为通往永恒领域的临时准备。文本强调《古兰经》是最终的指导源泉，并以针对先知、其圣裔（Ahl al-Bayt）及广大信徒群体的特定祈祷结束。",
+        "seo_question": "《卡菲》中传述的伊玛目阿里（愿主喜悦之）周五演讲的内容是什么？",
+        "key_terms": {
+          "الْخُطْبَةَ": "演讲",
+          "أَمِيرِ الْمُؤْمِنِينَ": "信士长官",
+          "التَّزَوُّدَ": "准备/储备",
+          "الدُّنْيَا": "世界",
+          "الْآخِرَةِ": "后世",
+          "الْقِيَامَةِ": "复活日",
+          "شَفَاعَةَ": "代求",
+          "الْوَاسِيلَةَ": "途径/亲近"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "10:24",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "53:31",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "7:204",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "103:1",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "103:2",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "103:3",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "33:56",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "31:33",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:201",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ أَوْ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ ذَكَرَ هَذِهِ الْخُطْبَةَ لِأَمِيرِ الْمُؤْمِنِينَ (عليه السلام) يَوْمَ الْجُمُعَةِ الْحَمْدُ لِلَّهِ أَهْلِ الْحَمْدِ وَ وَلِيِّهِ وَ مُنْتَهَى الْحَمْدِ وَ مَحَلِّهِ الْبَدِي‏ءِ الْبَدِيعِ الْأَجَلِّ الْأَعْظَمِ الْأَعَزِّ الْأَكْرَمِ الْمُتَوَحِّدِ بِالْكِبْرِيَاءِ وَ الْمُتَفَرِّدِ بِالْآلَاءِ الْقَاهِرِ بِعِزِّهِ وَ الْمُسَلِّطِ بِقَهْرِهِ الْمُمْتَنِعِ بِقُوَّتِهِ الْمُهَيْمِنِ بِقُدْرَتِهِ وَ الْمُتَعَالِي فَوْقَ كُلِّ شَيْ‏ءٍ بِجَبَرُوتِهِ الْمَحْمُودِ بِامْتِنَانِهِ وَ بِإِحْسَانِهِ الْمُتَفَضِّلِ بِعَطَائِهِ وَ جَزِيلِ فَوَائِدِهِ الْمُوَسِّعِ بِرِزْقِهِ الْمُسْبِغِ بِنِعَمِهِ نَحْمَدُهُ عَلَى آلَائِهِ وَ تَظَاهُرِ نَعْمَائِهِ حَمْداً يَزِنُ عَظَمَةَ جَلَالِهِ وَ يَمْلَأُ قَدْرَ آلَائِهِ وَ كِبْرِيَائِهِ وَأَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ الَّذِي كَانَ فِي أَوَّلِيَّتِهِ مُتَقَادِماً وَ فِي دَيْمُومِيَّتِهِ مُتَسَيْطِراً خَضَعَ الْخَلَائِقُ لِوَحْدَانِيَّتِهِ وَ رُبُوبِيَّتِهِ وَ قَدِيمِ أَزَلِيَّتِهِ وَ دَانُوا لِدَوَامِ أَبَدِيَّتِهِ وَأَشْهَدُ أَنَّ مُحَمَّداً (صلى الله عليه وآله) عَبْدُهُ وَ رَسُولُهُ وَ خِيَرَتُهُ مِنْ خَلْقِهِ اخْتَارَهُ بِعِلْمِهِ وَ اصْطَفَاهُ لِوَحْيِهِ وَ ائْتَمَنَهُ عَلَى سِرِّهِ وَ ارْتَضَاهُ لِخَلْقِهِ وَ انْتَدَبَهُ لِعَظِيمِ أَمْرِهِ وَ لِضِيَاءِ مَعَالِمِ دِينِهِ وَ مَنَاهِجِ سَبِيلِهِ وَ مِفْتَاحِ وَحْيِهِ وَ سَبَباً لِبَابِ رَحْمَتِهِ ابْتَعَثَهُ عَلَى حِينِ فَتْرَةٍ مِنَ الرُّسُلِ وَ هَدْأَةٍ مِنَ الْعِلْمِ وَ اخْتِلَافٍ مِنَ الْمِلَلِ وَ ضَلَالٍ عَنِ الْحَقِّ وَ جَهَالَةٍ بِالرَّبِّ وَ كُفْرٍ بِالْبَعْثِ وَ الْوَعْدِ أَرْسَلَهُ إِلَى النَّاسِ أَجْمَعِينَ رَحْمَةً لِلْعَالَمِينَ بِكِتَابٍ كَرِيمٍ قَدْ فَضَّلَهُ وَ فَصَّلَهُ وَ بَيَّنَهُ وَ أَوْضَحَهُ وَ أَعَزَّهُ وَ حَفِظَهُ مِنْ أَنْ يَأْتِيَهُ الْبَاطِلُ مِنْ بَيْنِ يَدَيْهِ وَ مِنْ خَلْفِهِ تَنْزِيلٍ مِنْ حَكِيمٍ حَمِيدٍ ضَرَبَ لِلنَّاسِ فِيهِ الْأَمْثَالَ وَ صَرَّفَ فِيهِ الْآيَاتِ لَعَلَّهُمْ يَعْقِلُونَ أَحَلَّ فِيهِ الْحَلَالَ وَ حَرَّمَ فِيهِ الْحَرَامَ وَ شَرَعَ فِيهِ الدِّينَ لِعِبَادِهِ عُذْراً وَ نُذْراً لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ وَ يَكُونَ بَلَاغاً لِقَوْمٍ عَابِدِينَ فَبَلَّغَ رِسَالَتَهُ وَ جَاهَدَ فِي سَبِيلِهِ وَ عَبَدَهُ حَتَّى أَتَاهُ الْيَقِينُ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ وَ سَلَّمَ تَسْلِيماً كَثِيراً أُوصِيكُمْ عِبَادَ اللَّهِ وَ أُوصِي نَفْسِي بِتَقْوَى اللَّهِ الَّذِي ابْتَدَأَ الْأُمُورَ بِعِلْمِهِ وَ إِلَيْهِ يَصِيرُ غَداً مِيعَادُهَا وَ بِيَدِهِ فَنَاؤُهَا وَ فَنَاؤُكُمْ وَ تَصَرُّمُ أَيَّامِكُمْ وَ فَنَاءُ آجَالِكُمْ وَ انْقِطَاعُ مُدَّتِكُمْ فَكَأَنْ قَدْ زَالَتْ عَنْ قَلِيلٍ عَنَّا وَ عَنْكُمْ كَمَا زَالَتْ عَمَّنْ كَانَ قَبْلَكُمْ فَاجْعَلُوا عِبَادَ اللَّهِ اجْتِهَادَكُمْ فِي هَذِهِ الدُّنْيَا التَّزَوُّدَ مِنْ يَوْمِهَا الْقَصِيرِ لِيَوْمِ الْآخِرَةِ الطَّوِيلِ فَإِنَّهَا دَارُ عَمَلٍ وَ الْآخِرَةَ دَارُ الْقَرَارِ وَ الْجَزَاءِ فَتَجَافَوْا عَنْهَا فَإِنَّ الْمُغْتَرَّ مَنِ اغْتَرَّ بِهَا لَنْ تَعْدُوَ الدُّنْيَا إِذَا تَنَاهَتْ إِلَيْهَا أُمْنِيَّةُ أَهْلِ الرَّغْبَةِ فِيهَا الْمُحِبِّينَ لَهَا الْمُطْمَئِنِّينَ إِلَيْهَا الْمَفْتُونِينَ بِهَا أَنْ تَكُونَ كَمَا قَالَ اللَّهُ عَزَّ وَ جَلَّ كَمَاءٍ أَنْزَلْناهُ مِنَ السَّماءِ فَاخْتَلَطَ بِهِ نَباتُ الْأَرْضِ مِمَّا يَأْكُلُ النَّاسُ وَ الْأَنْعامُ مَعَ أَنَّهُ لَمْ يُصِبِ امْرُؤٌ مِنْكُمْ فِي هَذِهِ الدُّيَا حَبْرَةً إِلَّا أَوْرَثَتْهُ عَبْرَةً وَ لَا يُصْبِحُ فِيهَا فِي جَنَاحٍ آمِنٍ إِلَّا وَ هُوَ يَخَافُ فِيهَا نُزُولَ جَائِحَةٍ أَوْ تَغَيُّرَ نِعْمَةٍ أَوْ زَوَالَ عَافِيَةٍ مَعَ أَنَّ الْمَوْتَ مِنْ وَرَاءِ ذَلِكَ وَ هَوْلَ الْمُطَّلَعِ وَ الْوُقُوفَ بَيْنَ يَدَيِ الْحَكَمِ الْعَدْلِ تُجْزَى كُلُّ نَفْسٍ بِمَا عَمِلَتْ لِيَجْزِيَ الَّذِينَ أَساؤُا بِما عَمِلُوا وَ يَجْزِيَ الَّذِينَ أَحْسَنُوا بِالْحُسْنَى فَاتَّقُوا اللَّهَ عَزَّ ذِكْرُهُ وَ سَارِعُوا إِلَى رِضْوَانِ اللَّهِ وَ الْعَمَلِ بِطَاعَتِهِ وَ التَّقَرُّبِ إِلَيْهِ بِكُلِّ مَا فِيهِ الرِّضَا فَإِنَّهُ قَرِيبٌ مُجِيبٌ جَعَلَنَا اللَّهُ وَ إِيَّاكُمْ مِمَّنْ يَعْمَلُ بِمَحَابِّهِ وَ يَجْتَنِبُ سَخَطَهُ ثُمَّ إِنَّ أَحْسَنَ الْقَصَصِ وَ أَبْلَغَ الْمَوْعِظَةِ وَ أَنْفَعَ التَّذَكُّرِ كِتَابُ اللَّهِ جَلَّ وَ عَزَّ قَالَ اللَّهُ عَزَّ وَ جَلَّ وَ إِذا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَ أَنْصِتُوا لَعَلَّكُمْ تُرْحَمُونَ أَسْتَعِيذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمنِ الرَّحِيمِ وَالْعَصْرِ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ إِنَّ اللَّهَ وَمَلائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيماً اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ بَارِكْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ تَحَنَّنْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ سَلِّمْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ كَأَفْضَلِ مَا صَلَّيْتَ وَ بَارَكْتَ وَ تَرَحَّمْتَ وَ تَحَنَّنْتَ وَ سَلَّمْتَ عَلَى إِبْرَاهِيمَ وَ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ اللَّهُمَّ أَعْطِ مُحَمَّداً الْوَسِيلَةَ وَ الشَّرَفَ وَ الْفَضِيلَةَ وَ الْمَنْزِلَةَ الْكَرِيمَةَ اللَّهُمَّ اجْعَلْ مُحَمَّداً وَ آلَ مُحَمَّدٍ أَعْظَمَ الْخَلَائِقِ كُلِّهِمْ شَرَفاً يَوْمَ الْقِيَامَةِ وَ أَقْرَبَهُمْ مِنْكَ مَقْعَداً وَ أَوْجَهَهُمْ عِنْدَكَ يَوْمَ الْقِيَامَةِ جَاهاً وَ أَفْضَلَهُمْ عِنْدَكَ مَنْزِلَةً وَ نَصِيباً اللَّهُمَّ أَعْطِ مُحَمَّداً أَشْرَفَ الْمَقَامِ وَ حِبَاءَ السَّلَامِ وَ شَفَاعَةَ الْإِسْلَامِ اللَّهُمَّ وَ أَلْحِقْنَا بِهِ غَيْرَ خَزَايَا وَ لَا نَاكِبِينَ وَ لَا نَادِمِينَ وَ لَا مُبَدِّلِينَ إِلَهَ الْحَقِّ آمِينَ ثُمَّ جَلَسَ قَلِيلًا ثُمَّ قَامَ فَقَالَ الْحَمْدُ لِلَّهِ أَحَقَّ مَنْ خُشِيَ وَ حُمِدَ وَ أَفْضَلَ مَنِ اتُّقِيَ وَ عُبِدَ وَ أَوْلَى مَنْ عُظِّمَ وَ مُجِّدَ نَحْمَدُهُ لِعَظِيمِ غَنَائِهِ وَ جَزِيلِ عَطَائِهِ وَ تَظَاهُرِ نَعْمَائِهِ وَ حُسْنِ بَلَائِهِ وَنُؤْمِنُ بِهُدَاهُ الَّذِي لَا يَخْبُو ضِيَاؤُهُ وَ لَا يَتَمَهَّدُ سَنَاؤُهُ وَ لَا يُوهَنُ عُرَاهُ وَ نَعُوذُ بِاللَّهِ مِنْ سُوءِ كُلِّ الرَّيْبِ وَ ظُلَمِ الْفِتَنِ وَ نَسْتَغْفِرُهُ مِنْ مَكَاسِبِ الذُّنُوبِ وَ نَسْتَعْصِمُهُ مِنْ مَسَاوِي الْأَعْمَالِ وَ مَكَارِهِ الْآمَالِ وَ الْهُجُومِ فِي الْأَهْوَالِ وَ مُشَارَكَةِ أَهْلِ الرَّيْبِ وَ الرِّضَا بِمَا يَعْمَلُ الْفُجَّارُ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ اللَّهُمَّ اغْفِرْ لَنَا وَ لِلْمُؤْمِنِينَ وَ الْمُؤْمِنَاتِ الْأَحْيَاءِ مِنْهُمْ وَ الْأَمْوَاتِ الَّذِينَ تَوَفَّيْتَهُمْ عَلَى دِينِكَ وَ مِلَّةِ نَبِيِّكَ (صلى الله عليه وآله) اللَّهُمَّ تَقَبَّلْ حَسَنَاتِهِمْ وَ تَجَاوَزْ عَنْ سَيِّئَاتِهِمْ وَ أَدْخِلْ عَلَيْهِمُ الرَّحْمَةَ وَ الْمَغْفِرَةَ وَ الرِّضْوَانَ وَ اغْفِرْ لِلْأَحْيَاءِ مِنَ الْمُؤْمِنِينَ وَ الْمُؤْمِنَاتِ الَّذِينَ وَحَّدُوكَ وَ صَدَّقُوا رَسُولَكَ وَ تَمَسَّكُوا بِدِينِكَ وَ عَمِلُوا بِفَرَائِضِكَ وَ اقْتَدَوْا بِنَبِيِّكَ وَ سَنُّوا سُنَّتَكَ وَ أَحَلُّوا حَلَالَكَ وَ حَرَّمُوا حَرَامَكَ وَ خَافُوا عِقَابَكَ وَ رَجَوْا ثَوَابَكَ وَ وَالَوْا أَوْلِيَاءَكَ وَ عَادَوْا أَعْدَاءَكَ اللَّهُمَّ اقْبَلْ حَسَنَاتِهِمْ وَ تَجَاوَزْ عَنْ سَيِّئَاتِهِمْ وَ أَدْخِلْهُمْ بِرَحْمَتِكَ فِي عِبَادِكَ الصَّالِحِينَ إِلَهَ الْحَقِّ آمِينَ",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ مُحَمَّدِ بْنِ النُّعْمَانِ أَوْ غَيْرِهِ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ ذَكَرَ هَذِهِ الْخُطْبَةَ لِأَمِيرِ الْمُؤْمِنِينَ (عليه السلام) يَوْمَ الْجُمُعَةِ",
+      "matn_ar": "الْحَمْدُ لِلَّهِ أَهْلِ الْحَمْدِ وَ وَلِيِّهِ وَ مُنْتَهَى الْحَمْدِ وَ مَحَلِّهِ الْبَدِي‏ءِ الْبَدِيعِ الْأَجَلِّ الْأَعْظَمِ الْأَعَزِّ الْأَكْرَمِ الْمُتَوَحِّدِ بِالْكِبْرِيَاءِ وَ الْمُتَفَرِّدِ بِالْآلَاءِ الْقَاهِرِ بِعِزِّهِ وَ الْمُسَلِّطِ بِقَهْرِهِ الْمُمْتَنِعِ بِقُوَّتِهِ الْمُهَيْمِنِ بِقُدْرَتِهِ وَ الْمُتَعَالِي فَوْقَ كُلِّ شَيْ‏ءٍ بِجَبَرُوتِهِ الْمَحْمُودِ بِامْتِنَانِهِ وَ بِإِحْسَانِهِ الْمُتَفَضِّلِ بِعَطَائِهِ وَ جَزِيلِ فَوَائِدِهِ الْمُوَسِّعِ بِرِزْقِهِ الْمُسْبِغِ بِنِعَمِهِ نَحْمَدُهُ عَلَى آلَائِهِ وَ تَظَاهُرِ نَعْمَائِهِ حَمْداً يَزِنُ عَظَمَةَ جَلَالِهِ وَ يَمْلَأُ قَدْرَ آلَائِهِ وَ كِبْرِيَائِهِ وَأَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ الَّذِي كَانَ فِي أَوَّلِيَّتِهِ مُتَقَادِماً وَ فِي دَيْمُومِيَّتِهِ مُتَسَيْطِراً خَضَعَ الْخَلَائِقُ لِوَحْدَانِيَّتِهِ وَ رُبُوبِيَّتِهِ وَ قَدِيمِ أَزَلِيَّتِهِ وَ دَانُوا لِدَوَامِ أَبَدِيَّتِهِ وَأَشْهَدُ أَنَّ مُحَمَّداً (صلى الله عليه وآله) عَبْدُهُ وَ رَسُولُهُ وَ خِيَرَتُهُ مِنْ خَلْقِهِ اخْتَارَهُ بِعِلْمِهِ وَ اصْطَفَاهُ لِوَحْيِهِ وَ ائْتَمَنَهُ عَلَى سِرِّهِ وَ ارْتَضَاهُ لِخَلْقِهِ وَ انْتَدَبَهُ لِعَظِيمِ أَمْرِهِ وَ لِضِيَاءِ مَعَالِمِ دِينِهِ وَ مَنَاهِجِ سَبِيلِهِ وَ مِفْتَاحِ وَحْيِهِ وَ سَبَباً لِبَابِ رَحْمَتِهِ ابْتَعَثَهُ عَلَى حِينِ فَتْرَةٍ مِنَ الرُّسُلِ وَ هَدْأَةٍ مِنَ الْعِلْمِ وَ اخْتِلَافٍ مِنَ الْمِلَلِ وَ ضَلَالٍ عَنِ الْحَقِّ وَ جَهَالَةٍ بِالرَّبِّ وَ كُفْرٍ بِالْبَعْثِ وَ الْوَعْدِ أَرْسَلَهُ إِلَى النَّاسِ أَجْمَعِينَ رَحْمَةً لِلْعَالَمِينَ بِكِتَابٍ كَرِيمٍ قَدْ فَضَّلَهُ وَ فَصَّلَهُ وَ بَيَّنَهُ وَ أَوْضَحَهُ وَ أَعَزَّهُ وَ حَفِظَهُ مِنْ أَنْ يَأْتِيَهُ الْبَاطِلُ مِنْ بَيْنِ يَدَيْهِ وَ مِنْ خَلْفِهِ تَنْزِيلٍ مِنْ حَكِيمٍ حَمِيدٍ ضَرَبَ لِلنَّاسِ فِيهِ الْأَمْثَالَ وَ صَرَّفَ فِيهِ الْآيَاتِ لَعَلَّهُمْ يَعْقِلُونَ أَحَلَّ فِيهِ الْحَلَالَ وَ حَرَّمَ فِيهِ الْحَرَامَ وَ شَرَعَ فِيهِ الدِّينَ لِعِبَادِهِ عُذْراً وَ نُذْراً لِئَلَّا يَكُونَ لِلنَّاسِ عَلَى اللَّهِ حُجَّةٌ بَعْدَ الرُّسُلِ وَ يَكُونَ بَلَاغاً لِقَوْمٍ عَابِدِينَ فَبَلَّغَ رِسَالَتَهُ وَ جَاهَدَ فِي سَبِيلِهِ وَ عَبَدَهُ حَتَّى أَتَاهُ الْيَقِينُ صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ وَ سَلَّمَ تَسْلِيماً كَثِيراً أُوصِيكُمْ عِبَادَ اللَّهِ وَ أُوصِي نَفْسِي بِتَقْوَى اللَّهِ الَّذِي ابْتَدَأَ الْأُمُورَ بِعِلْمِهِ وَ إِلَيْهِ يَصِيرُ غَداً مِيعَادُهَا وَ بِيَدِهِ فَنَاؤُهَا وَ فَنَاؤُكُمْ وَ تَصَرُّمُ أَيَّامِكُمْ وَ فَنَاءُ آجَالِكُمْ وَ انْقِطَاعُ مُدَّتِكُمْ فَكَأَنْ قَدْ زَالَتْ عَنْ قَلِيلٍ عَنَّا وَ عَنْكُمْ كَمَا زَالَتْ عَمَّنْ كَانَ قَبْلَكُمْ فَاجْعَلُوا عِبَادَ اللَّهِ اجْتِهَادَكُمْ فِي هَذِهِ الدُّنْيَا التَّزَوُّدَ مِنْ يَوْمِهَا الْقَصِيرِ لِيَوْمِ الْآخِرَةِ الطَّوِيلِ فَإِنَّهَا دَارُ عَمَلٍ وَ الْآخِرَةَ دَارُ الْقَرَارِ وَ الْجَزَاءِ فَتَجَافَوْا عَنْهَا فَإِنَّ الْمُغْتَرَّ مَنِ اغْتَرَّ بِهَا لَنْ تَعْدُوَ الدُّنْيَا إِذَا تَنَاهَتْ إِلَيْهَا أُمْنِيَّةُ أَهْلِ الرَّغْبَةِ فِيهَا الْمُحِبِّينَ لَهَا الْمُطْمَئِنِّينَ إِلَيْهَا الْمَفْتُونِينَ بِهَا أَنْ تَكُونَ كَمَا قَالَ اللَّهُ عَزَّ وَ جَلَّ كَمَاءٍ أَنْزَلْناهُ مِنَ السَّماءِ فَاخْتَلَطَ بِهِ نَباتُ الْأَرْضِ مِمَّا يَأْكُلُ النَّاسُ وَ الْأَنْعامُ مَعَ أَنَّهُ لَمْ يُصِبِ امْرُؤٌ مِنْكُمْ فِي هَذِهِ الدُّيَا حَبْرَةً إِلَّا أَوْرَثَتْهُ عَبْرَةً وَ لَا يُصْبِحُ فِيهَا فِي جَنَاحٍ آمِنٍ إِلَّا وَ هُوَ يَخَافُ فِيهَا نُزُولَ جَائِحَةٍ أَوْ تَغَيُّرَ نِعْمَةٍ أَوْ زَوَالَ عَافِيَةٍ مَعَ أَنَّ الْمَوْتَ مِنْ وَرَاءِ ذَلِكَ وَ هَوْلَ الْمُطَّلَعِ وَ الْوُقُوفَ بَيْنَ يَدَيِ الْحَكَمِ الْعَدْلِ تُجْزَى كُلُّ نَفْسٍ بِمَا عَمِلَتْ لِيَجْزِيَ الَّذِينَ أَساؤُا بِما عَمِلُوا وَ يَجْزِيَ الَّذِينَ أَحْسَنُوا بِالْحُسْنَى فَاتَّقُوا اللَّهَ عَزَّ ذِكْرُهُ وَ سَارِعُوا إِلَى رِضْوَانِ اللَّهِ وَ الْعَمَلِ بِطَاعَتِهِ وَ التَّقَرُّبِ إِلَيْهِ بِكُلِّ مَا فِيهِ الرِّضَا فَإِنَّهُ قَرِيبٌ مُجِيبٌ جَعَلَنَا اللَّهُ وَ إِيَّاكُمْ مِمَّنْ يَعْمَلُ بِمَحَابِّهِ وَ يَجْتَنِبُ سَخَطَهُ ثُمَّ إِنَّ أَحْسَنَ الْقَصَصِ وَ أَبْلَغَ الْمَوْعِظَةِ وَ أَنْفَعَ التَّذَكُّرِ كِتَابُ اللَّهِ جَلَّ وَ عَزَّ قَالَ اللَّهُ عَزَّ وَ جَلَّ وَ إِذا قُرِئَ الْقُرْآنُ فَاسْتَمِعُوا لَهُ وَ أَنْصِتُوا لَعَلَّكُمْ تُرْحَمُونَ أَسْتَعِيذُ بِاللَّهِ مِنَ الشَّيْطَانِ الرَّجِيمِ بِسْمِ اللَّهِ الرَّحْمنِ الرَّحِيمِ وَالْعَصْرِ إِنَّ الْإِنْسَانَ لَفِي خُسْرٍ إِلَّا الَّذِينَ آمَنُوا وَعَمِلُوا الصَّالِحَاتِ وَتَوَاصَوْا بِالْحَقِّ وَتَوَاصَوْا بِالصَّبْرِ إِنَّ اللَّهَ وَمَلائِكَتَهُ يُصَلُّونَ عَلَى النَّبِيِّ يَا أَيُّهَا الَّذِينَ آمَنُوا صَلُّوا عَلَيْهِ وَسَلِّمُوا تَسْلِيماً اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ بَارِكْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ تَحَنَّنْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ وَ سَلِّمْ عَلَى مُحَمَّدٍ وَ آلِ مُحَمَّدٍ كَأَفْضَلِ مَا صَلَّيْتَ وَ بَارَكْتَ وَ تَرَحَّمْتَ وَ تَحَنَّنْتَ وَ سَلَّمْتَ عَلَى إِبْرَاهِيمَ وَ آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ اللَّهُمَّ أَعْطِ مُحَمَّداً الْوَسِيلَةَ وَ الشَّرَفَ وَ الْفَضِيلَةَ وَ الْمَنْزِلَةَ الْكَرِيمَةَ اللَّهُمَّ اجْعَلْ مُحَمَّداً وَ آلَ مُحَمَّدٍ أَعْظَمَ الْخَلَائِقِ كُلِّهِمْ شَرَفاً يَوْمَ الْقِيَامَةِ وَ أَقْرَبَهُمْ مِنْكَ مَقْعَداً وَ أَوْجَهَهُمْ عِنْدَكَ يَوْمَ الْقِيَامَةِ جَاهاً وَ أَفْضَلَهُمْ عِنْدَكَ مَنْزِلَةً وَ نَصِيباً اللَّهُمَّ أَعْطِ مُحَمَّداً أَشْرَفَ الْمَقَامِ وَ حِبَاءَ السَّلَامِ وَ شَفَاعَةَ الْإِسْلَامِ اللَّهُمَّ وَ أَلْحِقْنَا بِهِ غَيْرَ خَزَايَا وَ لَا نَاكِبِينَ وَ لَا نَادِمِينَ وَ لَا مُبَدِّلِينَ إِلَهَ الْحَقِّ آمِينَ ثُمَّ جَلَسَ قَلِيلًا ثُمَّ قَامَ فَقَالَ الْحَمْدُ لِلَّهِ أَحَقَّ مَنْ خُشِيَ وَ حُمِدَ وَ أَفْضَلَ مَنِ اتُّقِيَ وَ عُبِدَ وَ أَوْلَى مَنْ عُظِّمَ وَ مُجِّدَ نَحْمَدُهُ لِعَظِيمِ غَنَائِهِ وَ جَزِيلِ عَطَائِهِ وَ تَظَاهُرِ نَعْمَائِهِ وَ حُسْنِ بَلَائِهِ وَنُؤْمِنُ بِهُدَاهُ الَّذِي لَا يَخْبُو ضِيَاؤُهُ وَ لَا يَتَمَهَّدُ سَنَاؤُهُ وَ لَا يُوهَنُ عُرَاهُ وَ نَعُوذُ بِاللَّهِ مِنْ سُوءِ كُلِّ الرَّيْبِ وَ ظُلَمِ الْفِتَنِ وَ نَسْتَغْفِرُهُ مِنْ مَكَاسِبِ الذُّنُوبِ وَ نَسْتَعْصِمُهُ مِنْ مَسَاوِي الْأَعْمَالِ وَ مَكَارِهِ الْآمَالِ وَ الْهُجُومِ فِي الْأَهْوَالِ وَ مُشَارَكَةِ أَهْلِ الرَّيْبِ وَ الرِّضَا بِمَا يَعْمَلُ الْفُجَّارُ فِي الْأَرْضِ بِغَيْرِ الْحَقِّ اللَّهُمَّ اغْفِرْ لَنَا وَ لِلْمُؤْمِنِينَ وَ الْمُؤْمِنَاتِ الْأَحْيَاءِ مِنْهُمْ وَ الْأَمْوَاتِ الَّذِينَ تَوَفَّيْتَهُمْ عَلَى دِينِكَ وَ مِلَّةِ نَبِيِّكَ (صلى الله عليه وآله) اللَّهُمَّ تَقَبَّلْ حَسَنَاتِهِمْ وَ تَجَاوَزْ عَنْ سَيِّئَاتِهِمْ وَ أَدْخِلْ عَلَيْهِمُ الرَّحْمَةَ وَ الْمَغْفِرَةَ وَ الرِّضْوَانَ وَ اغْفِرْ لِلْأَحْيَاءِ مِنَ الْمُؤْمِنِينَ وَ الْمُؤْمِنَاتِ الَّذِينَ وَحَّدُوكَ وَ صَدَّقُوا رَسُولَكَ وَ تَمَسَّكُوا بِدِينِكَ وَ عَمِلُوا بِفَرَائِضِكَ وَ اقْتَدَوْا بِنَبِيِّكَ وَ سَنُّوا سُنَّتَكَ وَ أَحَلُّوا حَلَالَكَ وَ حَرَّمُوا حَرَامَكَ وَ خَافُوا عِقَابَكَ وَ رَجَوْا ثَوَابَكَ وَ وَالَوْا أَوْلِيَاءَكَ وَ عَادَوْا أَعْدَاءَكَ اللَّهُمَّ اقْبَلْ حَسَنَاتِهِمْ وَ تَجَاوَزْ عَنْ سَيِّئَاتِهِمْ وَ أَدْخِلْهُمْ بِرَحْمَتِكَ فِي عِبَادِكَ الصَّالِحِينَ إِلَهَ الْحَقِّ آمِينَ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "الْحَسَنِ بْنِ مَحْبُوبٍ",
+          "name_en": "al-Hasan ibn Mahbub",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 53
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ النُّعْمَانِ أَوْ غَيْرِهِ",
+          "name_en": "Muhammad b. al-Nu'man aw ghayrihi",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4197
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام) أَنَّهُ ذَكَرَ هَذِهِ الْخُطْبَةَ لِأَمِيرِ الْمُؤْمِنِينَ (عليه السلام) يَوْمَ الْجُمُعَةِ الْحَمْدُ لِلَّهِ أَهْلِ الْحَمْدِ",
+          "name_en": "Abi 'Abd Allah (alayhis salam) annahu dhakara hadhihi al-khutba li-amir al-mu'minin (alayhis salam) yawm al-jumu'a al-hamdu lillahi ahlu al-hamdi",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "وَلِيِّهِ",
+          "name_en": "waliyyihi",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مُنْتَهَى الْحَمْدِ",
+          "name_en": "Muntaha al-hamdi",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مَحَلِّهِ الْبَدِي‏ءِ الْبَدِيعِ الْأَجَلِّ الْأَعْظَمِ الْأَعَزِّ الْأَكْرَمِ الْمُتَوَحِّدِ بِالْكِبْرِيَاءِ",
+          "name_en": "Mahallihi al-badi'i al-badi'i al-ajalli al-a'zami al-a'zazi al-akrami al-mutawahhidi bil-kibriya'i",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الْمُتَفَرِّدِ بِالْآلَاءِ الْقَاهِرِ بِعِزِّهِ",
+          "name_en": "Al-mutafarriqi bil-alai al-qahiri bi-'izzihi",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الْمُسَلِّطِ بِقَهْرِهِ الْمُمْتَنِعِ بِقُوَّتِهِ الْمُهَيْمِنِ بِقُدْرَتِهِ",
+          "name_en": "Al-musalli bi-qahrihi al-mumtani bi-quwwatihi al-muhayminu bi-qudratihi",
+          "role": "narrator",
+          "position": 10,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الْمُتَعَالِي فَوْقَ كُلِّ شَيْ‏ءٍ بِجَبَرُوتِهِ الْمَحْمُودِ بِامْتِنَانِهِ",
+          "name_en": "Al-muta'ali fawqa kulli shay' bi-jabarutihi al-mahmudi bi-imtanihi",
+          "role": "narrator",
+          "position": 11,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "بِإِحْسَانِهِ الْمُتَفَضِّلِ بِعَطَائِهِ",
+          "name_en": "Bi-ihsanihi al-mutafaddili bi-'ata'ihi",
+          "role": "narrator",
+          "position": 12,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "جَزِيلِ فَوَائِدِهِ الْمُوَسِّعِ بِرِزْقِهِ الْمُسْبِغِ بِنِعَمِهِ نَحْمَدُهُ عَلَى آلَائِهِ",
+          "name_en": "Jazili fawa'idihi al-mawsisi bi-rizqihi al-musbihi bi-ni'amihi nahmaduhu 'ala alaihi",
+          "role": "narrator",
+          "position": 13,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "تَظَاهُرِ نَعْمَائِهِ حَمْداً يَزِنُ عَظَمَةَ جَلَالِهِ",
+          "name_en": "Tazahuri ni'amahi hamdan yazinu 'azamata jalalihi",
+          "role": "narrator",
+          "position": 14,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "يَمْلَأُ قَدْرَ آلَائِهِ",
+          "name_en": "Yamla'u qadra alaihi",
+          "role": "narrator",
+          "position": 15,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "كِبْرِيَائِهِ",
+          "name_en": "Kibriya'ihi",
+          "role": "narrator",
+          "position": 16,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَشْهَدُ أَنْ لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ الَّذِي كَانَ",
+          "name_en": "Ashhadu an la ilaha illa Allahu wahdahu la sharika lahu alladhi kana",
+          "role": "narrator",
+          "position": 17,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "بِسْمِ اللَّهِ الرَّحْمٰنِ الرَّحِيمِ",
+        "phrase_en": "In the name of Allah, the Most Gracious, the Most Merciful",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "لَا إِلٰهَ إِلَّا اللَّهُ",
+        "phrase_en": "There is no god but Allah",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+        "phrase_en": "Day of Resurrection",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "كِتَابُ اللَّهِ",
+        "phrase_en": "The Book of Allah (Quran)",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "تَقْوَى اللَّهِ",
+        "phrase_en": "God-consciousness (Taqwa)",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "رِضْوَانُ اللَّهِ",
+        "phrase_en": "Pleasure of Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "الْحَمْدُ لِلَّهِ",
+        "phrase_en": "All praise is due to Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا",
+        "phrase_en": "O you who believe",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

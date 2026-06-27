@@ -1,160 +1,199 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:33:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[2] word_end (31) must be greater than word_start (31)",
-    "chunks[2] translations.en is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.zh is empty string (likely Phase 4 batch failure)"
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "jurisprudence",
-      "family",
+      "social_relations",
       "governance"
     ],
     "content_type": "legal_ruling",
     "topics": [
       "judicial_rulings",
-      "justice_system",
-      "rights_of_others",
-      "kinship"
+      "inheritance",
+      "financial_law"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "فِي رِوَايَةِ جَمِيلِ بْنِ دَرَّاجٍ قَالَ:",
+        "arabic_text": "فِي رِوَايَةِ جَمِيلِ بْنِ دَرَّاجٍ قَالَ: «قَضَى أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فِي رَجُلٍ قُتِلَ وَلَهُ وَلِيَّانِ فَعَفَا أَحَدُهُمَا وَأَرَادَ الْآخَرُ أَنْ يَقْتُلَ",
         "translations": {
-          "en": "In the narration of Jamil ibn Darraj, he said:",
-          "ur": "جميل ابن درّاج کی روایت میں، انہوں نے کہا:",
-          "tr": "Cemil ibn Derraj'ın rivayetinde, şöyle dedi:",
-          "fa": "در روایت جمیل بن درّاج، او گفت:",
-          "id": "Dalam riwayat Jamil ibn Darraj, dia berkata:",
-          "bn": "জামিল ইবনে দাররাজের বর্ণনায়, তিনি বললেন:",
-          "es": "En la narración de Jamil ibn Darraj, dijo:",
-          "fr": "Dans la narration de Jamil ibn Darraj, il a dit :",
-          "de": "In der Überlieferung von Jamil ibn Darraj sagte er:",
-          "ru": "В передаче Джамиля ибн Дарраджа он сказал:",
-          "zh": "在جميلبندرّاج的传述中他说："
+          "en": "In the narration of Jameel ibn Darraj, he said: The Commander of the Faithful (peace be upon him) ruled regarding a man who was killed and had two heirs; one of them forgave [the killer], and the other wanted to execute [him].",
+          "ur": "جمیل بن درّاج کی روایت میں ہے کہ انہوں نے کہا: امیر المؤمنین علیہ السلام نے ایک ایسے شخص کے بارے میں فیصلہ فرمایا جسے قتل کر دیا گیا تھا اور اس کے دو ولی تھے؛ ان میں سے ایک نے معاف کر دیا اور دوسرا چاہتا تھا کہ اسے قتل کیا جائے۔",
+          "tr": "Cemîl ibn Derrâc'ın rivayetinde dedi ki: Emîrü'l-mü'minîn (aleyhisselâm), öldürülen bir adamın iki velîsi bulunması hâlinde, bunlardan birinin affettiği, diğerinin ise onu idam etmek istediği bir kimsenin davasında hükmetti: \"(Öldüren) idam edilir ve mevtulun velîlerine ödenen diyetin yarısı iade edilir.\"",
+          "fa": "در روایت جمیل بن درّاج آمده است که گفت: امیرالمؤمنین (علیه السلام) درباره مردی که کشته شده و دو ولیّ داشته، حکم داد؛ یکی از آن‌ها بخشید و دیگری خواست او را بکشد.",
+          "id": "Dalam riwayat Jamil ibn Darraj, ia berkata: Amirul Mu'minin (alamah) memutuskan mengenai seorang pria yang dibunuh dan memiliki dua ahli waris; salah satu dari mereka memaafkan [pembunuhnya], dan yang lain ingin mengeksekusi [pembunuhnya].",
+          "bn": "জামিল ইবনে দাররাজের বর্ণনায় তিনি বলেন: আমিরুল মুমিনীন (আস)- একজন ব্যক্তির হত্যার বিষয়ে রায় দেন, যার দুই উত্তরাধিকারী ছিল; তাদের একজন ক্ষমা করেন এবং অপরজন তাকে হত্যা করতে চান।",
+          "es": "En la narración de Yamil ibn Darrach, dijo: El Comandante de los Creyentes (que la paz sea con él) dictaminó respecto a un hombre que fue asesinado y tenía dos herederos; uno de ellos perdonó [al asesino], y el otro quería ejecutarlo.",
+          "fr": "Dans la narration de Jamil de Jameel ibn Darraj, il a dit : Le Commandeur des Croyants (que la paix soit sur lui) a rendu un jugement concernant un homme qui a été tué et qui avait deux héritiers ; l'un d'eux a pardonné [au tueur], et l'autre a voulu l'exécuter.",
+          "de": "In der Überlieferung von Dschamīl ibn Darradsch sagte er: Der Kommandeur der Gläubigen (Friede sei mit ihm) entschied in der Angelegenheit eines Mannes, der getötet worden war und zwei Erben hatte; einer von ihnen vergab [dem Täter], und der andere wollte ihn hinrichten.",
+          "ru": "В предании Джиля ибн Дарраджа, который сказал: Повелитель верующих (да будет над ним мир) вынес решение относительно человека, которого убили, и у которого было два наследника; один из них простил [убийцу], а другой хотел казнить [его].",
+          "zh": "在贾米勒·本·达鲁格的传述中，他说：信士的长官（愿主福安之）对一名被杀者有两位继承人，其中一位宽恕了凶手，另一位则欲将其处死的情况作出裁决。"
         },
         "word_start": 0,
-        "word_end": 6
+        "word_end": 22
       },
       {
         "chunk_type": "body",
-        "arabic_text": "قَضَى أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فِي رَجُلٍ قُتِلَ وَلَهُ وَلِيَّانِ فَعَفَا أَحَدُهُمَا وَأَرَادَ الْآخَرُ أَنْ يَقْتُلَ قَالَ يَقْتُلُ وَيَرُدُّ عَلَى أَوْلِيَاءِ الْمَقْتُولِ الْمُقَادِ نِصْفَ الدِّيَةِ",
+        "arabic_text": "قَالَ «يَقْتُلُ وَيَرُدُّ عَلَى أَوْلِيَاءِ الْمَقْتُولِ النِّصْفَ مِنَ الدِّيَةِ».",
         "translations": {
-          "en": "Amir al-Mu'minin عليه السلام ruled regarding a man who was killed and had two heirs. One of them pardoned, while the other wanted to kill. He said: \"He may kill, and he must return to the heirs of the slain person against whom retaliation is carried out half of the blood money.\"",
-          "ur": "امیرالمؤمنین علیہ السلام نے ایک ایسے شخص کے بارے میں حکم دیا جو قتل ہوا اور اس کے دو وارث تھے۔ ان میں سے ایک نے معافی دی، جبکہ دوسرا قتل کرنا چاہتا تھا۔ انہوں نے فرمایا: \"وہ قتل کر سکتا ہے، اور مقتول کے وارثوں کو قصاص کے بدلے آدھی دیت واپس کرنی ہوگی۔\"",
-          "tr": "Emirü'l-Müminin عليه السلام, öldürülen ve iki varisi olan bir adam hakkında hüküm verdi. Birisi affetti, diğeri öldürmek istedi. Dedi ki: \"Öldürebilir ve öldürülenin varislerine, kıyasta yarısı kadar diyet iade edilir.\"",
-          "fa": "امیرالمؤمنین علیه السلام درباره مردی که کشته شده و دو وارث داشت حکم کرد. یکی از آنها عفو کرد و دیگری خواست که بکشد. فرمود: «می‌تواند بکشد و باید نصف دیه را به وارثان مقتول که قصاص بر آنها جاری می‌شود بازگرداند.»",
-          "id": "Amir al-Mu'minin عليه السلام memutuskan mengenai seorang pria yang dibunuh dan memiliki dua ahli waris. Salah satunya memaafkan, sementara yang lain ingin membunuh. Beliau berkata: \"Dia boleh membunuh, dan harus mengembalikan setengah dari diyat kepada ahli waris orang yang dibunuh yang dikenakan qisas.\"",
-          "bn": "আমীরুল মুমিনীন علیہ السلام এমন এক ব্যক্তির সম্পর্কে ফতোয়া দিলেন যিনি হত্যা হয়েছিলেন এবং তাঁর দুইজন উত্তরাধিকারী ছিল। একজন ক্ষমা করলেন, অন্যজন হত্যা করতে চাইলেন। তিনি বললেন: \"সে হত্যা করতে পারে, এবং হত্যাকৃতের উত্তরাধিকারীদের কাছে যাদের বিরুদ্ধে কিসাস কার্যকর হয়, অর্ধেক দীয়ত ফেরত দিতে হবে।\"",
-          "es": "Amir al-Mu'minin عليه السلام dictaminó respecto a un hombre que fue asesinado y tenía dos herederos. Uno de ellos perdonó, mientras que el otro quería matar. Él dijo: \"Puede matar, y debe devolver a los herederos del asesinado, contra quienes se lleva a cabo la retaliación, la mitad de la sangre.\"",
-          "fr": "Amir al-Mu'minin عليه السلام a statué concernant un homme qui a été tué et avait deux héritiers. L'un d'eux a pardonné, tandis que l'autre voulait tuer. Il a dit : « Il peut tuer, et il doit restituer aux héritiers de la personne tuée, contre qui la qisas est appliquée, la moitié du diyya. »",
-          "de": "Amir al-Mu'minin عليه السلام entschied über einen Mann, der getötet wurde und zwei Erben hatte. Einer von ihnen vergab, während der andere töten wollte. Er sagte: „Er darf töten und muss den Erben des Getöteten, gegen die die Qisas durchgeführt wird, die Hälfte der Blutgeldsumme zurückgeben.“",
-          "ru": "Амир аль-Му’минин عليه السلام вынес решение по поводу мужчины, который был убит и имел двух наследников. Один из них простил, а другой хотел убить. Он сказал: «Он может убить, и должен вернуть наследникам убитого, против которого применяется кисаc, половину дийи.»",
-          "zh": "أميرالمؤمنينعليهالسلام对一名被杀且有两位继承人的男子作出判决。其中一人赦免，另一人想要杀害。他说：“他可以杀害，但必须向被杀者的继承人返还对其实施报复的一半血钱。”"
+          "en": "He said: 'He may execute [the killer], but he must return half of the blood money to the heirs of the slain.'",
+          "ur": "انہوں نے کہا: وہ قاتل کو قتل کر سکتا ہے، لیکن اسے مقتول کے ورثاء کو نصف دیہ واپس کرنا ہوگا۔",
+          "tr": "Dedi ki: 'Öldüreni idam edebilir, ancak ölenin mirasçılarına kan parasının yarısını iade etmek zorundadır.'",
+          "fa": "گفت: «می‌تواند قاتل را اعدام کند، اما باید نصف دیه را به ورثه مقتول بازگرداند.»",
+          "id": "I ",
+          "bn": "তিনি বললেন, 'সে হত্যাকারীকে কার্যকর করতে পারে, কিন্তু সে নিহতের উত্তরাধিকারীদের রক্তমূল্যের অর্ধেক ফিরিয়ে দেবে।'",
+          "es": "Dijo: «Puede ejecutar [al asesino], pero debe devolver la mitad del alma a los herederos del muerto.»",
+          "fr": "Il dit : « Il peut exécuter [le tueur], mais il doit restituer la moitié du sang versé à la moitié des héritiers du défunt. »",
+          "de": "Er sagte: »Er kann den Töter hinrichten, aber er muss die Hälfte des Blutgeldes an die Erben des Getöteten zurückgeben.«",
+          "ru": "Он сказал: «Он может казнить [убийцу], но обязан вернуть половину дикии наследникам убитого».",
+          "zh": "他说：他可以处决凶手，但必须将血金的一半归还给死者家属。"
         },
-        "word_start": 6,
-        "word_end": 31
-      },
-      {
-        "chunk_type": "closing",
-        "arabic_text": "",
-        "translations": {
-          "en": "",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
-        },
-        "word_start": 31,
+        "word_start": 22,
         "word_end": 31
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith gives a legal ruling concerning qiṣāṣ when a slain person has two heirs and only one of them pardons the killer. Amir al-Mu'minin عليه السلام rules that the heir who still seeks retaliation may proceed, but half of the diyyah must be returned to account for the share of the heir who pardoned.",
-        "seo_question": "If one heir forgives a murderer and another still demands retaliation, can qiṣāṣ still be carried out?",
+        "summary": "In this ruling from *Man La Yahduruhu al-Faqih*, Imam Ali (AS) establishes that in cases of disagreement among heirs where one forgives and the other demands *qisas* (retaliation), the killer is executed, and the blood money (*diyah*) is returned to the heirs. This principle, known as *'Idd al-Diyah* or the return of the half, ensures that the forgiving heir does not lose their financial right despite the execution, reflecting the Shia juristic view that forgiveness of the killer does not automatically equate to forgiveness of the debt. The narration highlights the balance between justice (execution) and mercy (financial compensation) in Islamic criminal law.",
+        "seo_question": "What is the ruling when one heir forgives a murderer and the other demands execution?",
         "key_terms": {
-          "وَلِيَّانِ": "two legal heirs or avengers entitled to claim retaliation",
-          "فَعَفَا": "pardoned or waived the right of retaliation",
-          "يَقْتُلَ": "to carry out retaliatory killing (qiṣāṣ)",
-          "الْمُقَادِ": "the person subjected to retaliation",
-          "نِصْفَ الدِّيَةِ": "half of the blood money compensation"
+          "أَمِيرُ الْمُؤِمِنِينَ": "Commander of the Faithful (Imam Ali)",
+          "وَلِيَّانِ": "Two heirs/guardians",
+          "فَعَفَا": "Forgave (accepted blood money or waived right)",
+          "الْقِتْلَ": "Killing/Homicide",
+          "الدِّيَة": "Blood money",
+          "النِّصْفَ": "Half"
         }
       },
       "ur": {
-        "summary": "یہ حدیث قصاص کے بارے میں قانونی حکم دیتی ہے جب مقتول کے دو وارث ہوں اور صرف ایک معافی دے۔ امیرالمؤمنین علیہ السلام حکم دیتے ہیں کہ جو وارث قصاص چاہتا ہے وہ آگے بڑھ سکتا ہے، لیکن معاف کرنے والے وارث کے حصے کے بدلے آدھی دیت واپس کرنی ہوگی۔",
-        "seo_question": "اگر ایک وارث قاتل کو معاف کر دے اور دوسرا قصاص کا مطالبہ کرے، کیا قصاص پھر بھی کیا جا سکتا ہے؟",
-        "key_terms": {}
+        "summary": "امام علیؑ کی اس فتویٰ میں کہ *من لا یحضرہ الفقیہ* سے ہے، جب وارثوں میں اختلاف ہو کہ ایک معاف کرے اور دوسرا قصّہ مانے تو قاتل کو قتل کیا جاتا ہے اور خون بہا (دیہ) وارثوں کو واپس کر دیا جاتا ہے۔ اس اصول کو *عِدّۃُ الدیۃ* یا نصف کی واپسی کہتے ہیں، جو یہ یقینی بناتا ہے کہ معاف کرنے والا وارث اپنا مالی حق نہ گنوا بیٹھے، حالانکہ قاتل کو قتل کر دیا گیا ہے۔ یہ شیعہ فقہی نقطہ نظر کی عکاسی کرتا ہے کہ قاتل کو معاف کرنا خود بخود قرض کو معاف کرنا نہیں ہے۔ یہ روایت اسلامی قانونِ جزا میں انصاف (قتل) اور رحم (مالی معاوضہ) کے توازن کو اجاگر کرتی ہے۔",
+        "seo_question": "جب ایک وارث قاتل کو معاف کر دے اور دوسرا قتل کا مطالبہ کرے تو حکم کیا ہے؟",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "امیر المؤمنین (امام علی)",
+          "وَلِيَّانِ": "دو وارث/سرپرست",
+          "فَعَفَا": "معاف کر دیا (خون بہا لے لیا یا حق چھوڑ دیا)",
+          "الْقِتْلَ": "قتل/ہلاکت",
+          "الدِّيَة": "خون بہا",
+          "النِّصْفَ": "نصف"
+        }
       },
       "tr": {
-        "summary": "Bu hadis, öldürülen kişinin iki varisi olduğu ve sadece birinin affettiği durumlarda kıyasta yasal hükmü verir. Emirü'l-Müminin عليه السلام, kıyası isteyen varisin devam edebileceğini, ancak affeden varisin payı için yarım diyetin iade edilmesi gerektiğini hükmeder.",
-        "seo_question": "Eğer bir varis katili affeder ve diğeri hâlâ kıyası talep ederse, kıyası uygulanabilir mi?",
-        "key_terms": {}
+        "summary": "İmam Ali (AS), *Men La Yahduruhu'l-Fakih* adlı eserinde, mirasçılar arasında birinin affedip diğerinin *kisas* (intikam/öldürme cezası) talep ettiği durumlarda, katilin idam edildiğini ve kan parasının (*diye*) mirasçılara iade edildiğini hükme bağlar. Bu ilke, *İddü'd-Diye* veya yarının iadesi olarak bilinir ve affeden mirasçının idam sürecinde maddi hakkını kaybetmemesini sağlar; bu da Şii hukuk görüşüne göre katilin affedilmesinin borcun affedilmesiyle otomatik olarak eşdeğer olmadığı anlamına gelir. Rivayet, İslam ceza hukukunda adalet (idam) ve merhamet (maddi tazminat) arasındaki dengeyi vurgular.",
+        "seo_question": "Bir mirasçı katili affederken diğerinin idam cezasını talep etmesi durumunda hüküm nedir?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "Emirü'l-Müminin",
+          "وَلِيَّانِ": "İki mirasçı/koruyucu",
+          "فَعَفَا": "Affetti",
+          "الْقِتْلَ": "Öldürme/Cinayet",
+          "الدِّيَة": "Kan parası",
+          "النِّصْفَ": "Yarısı"
+        }
       },
       "fa": {
-        "summary": "این حدیث حکم شرعی درباره قصاص را بیان می‌کند وقتی مقتول دو وارث دارد و تنها یکی از آنها عفو می‌کند. امیرالمؤمنین علیه السلام حکم می‌کند که وارثی که هنوز خواهان قصاص است می‌تواند اقدام کند، اما باید نصف دیه را به وارثی که عفو کرده بازگرداند.",
-        "seo_question": "اگر یک وارث قاتل را ببخشد و وارث دیگر هنوز خواهان قصاص باشد، آیا قصاص می‌تواند اجرا شود؟",
-        "key_terms": {}
+        "summary": "در این حکم از کتاب *من لا یحضره الفقیه*، امام علی (ع) بیان می‌کند که در صورت اختلاف میان ورثه، یکی بخشش کند و دیگری قصاص (کیف نفس) بخواهد، قاتل اعدام می‌شود و دیه به ورثه بازگردانده می‌گردد. این اصل که به «عِدّ الدیه» یا بازگرداندن نصف دیه معروف است، تضمین می‌کند که وارث بخشاینده حق مالی خود را از دست نمی‌دهد، هرچند قاتل اعدام شود؛ این امر بازتاب‌دهنده دیدگاه فقه شیعه است که بخشش قاتل به معنای بخشش خودکار دین (دیه) نیست. این روایت تعادل میان عدالت (اعدام) و رحمت (جبران مالی) را در حقوق کیفری اسلام نشان می‌دهد.",
+        "seo_question": "حکم چیست وقتی یکی از ورثه قاتل را می‌بخشد و دیگری اعدام را می‌خواهد؟",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "امیرالمؤمنین",
+          "وَلِيَّانِ": "دو وارث/سرپرست",
+          "فَعَفَا": "بخشید",
+          "الْقِتْلَ": "قتل",
+          "الدِّيَة": "دیه",
+          "النِّصْفَ": "نصف"
+        }
       },
       "id": {
-        "summary": "Hadis ini memberikan ketetapan hukum mengenai qisas ketika orang yang dibunuh memiliki dua ahli waris dan hanya satu yang memaafkan. Amir al-Mu'minin عليه السلام memutuskan bahwa ahli waris yang masih menuntut qisas dapat melanjutkan, tetapi setengah dari diyat harus dikembalikan untuk bagian ahli waris yang memaafkan.",
-        "seo_question": "Jika satu ahli waris memaafkan pembunuh dan yang lain masih menuntut qisas, apakah qisas masih dapat dilaksanakan?",
-        "key_terms": {}
+        "summary": "Dalam fatwa dari *Man La Yahduruhu al-Faqih*, Imam Ali (AS) menetapkan bahwa dalam kasus perselisihan di antara ahli waris, di mana satu pihak memaafkan dan pihak lain menuntut *qisas* (pembalasan), pembunuh dieksekusi, dan uang darah (*diyah*) dikembalikan kepada ahli waris. Prinsip ini, yang dikenal sebagai *'Idd al-Diyah* atau pengembalian setengah, memastikan bahwa ahli waris yang memaafkan tidak kehilangan hak finansialnya meskipun terjadi eksekusi, mencerminkan pandangan fikih Syiah bahwa pembebasan pembunuh tidak secara otomatis berarti pembeasan utang. Narasi ini menyoroti keseimbangan antara keadilan (eksekusi) dan kasih sayang (kompensasi finansial) dalam hukum pidana Islam.",
+        "seo_question": "Apa hukumnya ketika satu ahli waris memaafkan pembunuh dan yang lain menuntut eksekusi?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "Pemimpin Orang Beriman",
+          "وَلِيَّانِ": "Dua ahli waris/pengasuh",
+          "فَعَفَا": "Memaafkan",
+          "الْقِتْلَ": "Pembunuhan",
+          "الدِّيَة": "Uang darah",
+          "النِّصْفَ": "Setengah"
+        }
       },
       "bn": {
-        "summary": "এই হাদিসটি কিসাস সম্পর্কে একটি আইনি ফতোয়া প্রদান করে যখন হত্যাকৃত ব্যক্তির দুইজন উত্তরাধিকারী থাকে এবং শুধুমাত্র একজন ক্ষমা করে। আমীরুল মুমিনীন علیہ السلام নির্দেশ দেন যে যে উত্তরাধিকারী এখনও প্রতিশোধ চায় সে এগিয়ে যেতে পারে, তবে ক্ষমা করা উত্তরাধিকারীর অংশ হিসেবে অর্ধেক দীয়ত ফেরত দিতে হবে।",
-        "seo_question": "যদি একজন উত্তরাধিকারী একজন হত্যাকারীকে ক্ষমা করে এবং অন্যজন এখনও প্রতিশোধ দাবি করে, তাহলে কি কিসাস কার্যকর করা যেতে পারে?",
-        "key_terms": {}
+        "summary": "মান লা ইয়াহদুরুহুল ফাকিহ গ্রন্থ থেকে ইমাম আলী (আ.)-এর এই ফতোয়ায় স্থির করা হয়েছে যে, উত্তরাধিকারীদের মধ্যে মতভেদ থাকলে যখন একজন ক্ষমা করে এবং অন্যজন কিসাস (প্রতিশোধ) দাবি করে, তখন হত্যাকারীকে ফাঁসি দেওয়া হয় এবং রক্তমূল্য (দিয়া) উত্তরাধিকারীদের ফিরিয়ে দেওয়া হয়। এই নীতিটি 'ইদ্দ আল-দিয়া' বা অর্ধেকের ফেরত নামে পরিচিত, যা নিশ্চিত করে যে হত্যাকারীকে ক্ষমা করলেও ক্ষমাকারী উত্তরাধিকারী তার আর্থিক অধিকার হারান না, যা শিয়া ফিকহের দৃষ্টিতে হত্যাকারীকে ক্ষমা করা স্বয়ংক্রিয়ভাবে ঋণকে ক্ষমা করার সমান নয়। এই বর্ণনায় ইসলামি অপরাধ আইনে ন্যায়বিচার (ফাঁসি) এবং করুণা (আর্থিক ক্ষতিপূরণ)-এর ভারসাম্য তুলে ধরা হয়েছে।",
+        "seo_question": "যখন একজন উত্তরাধিকারী হত্যাকারীকে ক্ষমা করে এবং অন্যজন ফাঁসির দাবি করে, তখন ফয়সালা কী হয়?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "বিশ্বাসের নেতা (ইমাম আলী)",
+          "وَلِيَّانِ": "দুইজন উত্তরাধিকারী/প্রহরী",
+          "فَعَفَا": "ক্ষমা করেছেন (রক্তমূল্য গ্রহণ বা অধিকার মুক্ত করা)",
+          "الْقِتْلَ": "হত্যা/হত্যাকাণ্ড",
+          "الدِّيَة": "রক্তমূল্য",
+          "النِّصْفَ": "অর্ধেক"
+        }
       },
       "es": {
-        "summary": "Este hadiz da un fallo legal sobre el qiṣāṣ cuando una persona asesinada tiene dos herederos y solo uno perdona al asesino. Amir al-Mu'minin عليه السلام dicta que el heredero que aún busca la retaliación puede proceder, pero debe devolver la mitad de la diyyah para compensar la parte del heredero que perdonó.",
-        "seo_question": "Si un heredero perdona a un asesino y otro aún exige retaliación, ¿se puede llevar a cabo el qiṣāṣ?",
-        "key_terms": {}
+        "summary": "En esta sentencia de *Man La Yahduruhu al-Faqih*, el Imam Ali (AS) establece que en casos de desacuerdo entre los herederos donde uno perdona y el otro exige *qisas* (retaliación), el asesino es ejecutado y se devuelve la sangre (*diyah*) a los herederos. Este principio, conocido como *'Idd al-Diyah* o el retorno de la mitad, asegura que el heredero que perdona no pierda su derecho financiero a pesar de la ejecución, reflejando la vista jurística chiita de que el perdón del asesino no equivale automáticamente al perdón de la deuda. La narración destaca el equilibrio entre justicia (ejecución) y misericordia (compensación financiera) en la ley penal islámica.",
+        "seo_question": "¿Cuál es la sentencia cuando un heredero perdona a un asesino y el otro exige la ejecución?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "Comandante de los Fieles",
+          "وَلِيَّانِ": "Dos herederos/tutores",
+          "فَعَفَا": "Perdonó",
+          "الْقِتْلَ": "Matar/Homicidio",
+          "الدِّيَة": "Dinero de sangre",
+          "النِّصْفَ": "La mitad"
+        }
       },
       "fr": {
-        "summary": "Ce hadith donne un jugement légal concernant le qiṣāṣ lorsqu'une personne tuée a deux héritiers et qu'un seul d'eux pardonne au meurtrier. Amir al-Mu'minin عليه السلام ordonne que l'héritier qui souhaite encore la qisas peut procéder, mais la moitié de la diyya doit être restituée pour la part de l'héritier qui a pardonné.",
-        "seo_question": "Si un héritier pardonne à un meurtrier et qu'un autre demande encore la qisas, la qisas peut-elle toujours être appliquée ?",
-        "key_terms": {}
+        "summary": "Dans cette décision tirée de *Man La Yahduruhu al-Faqih*, l'Imam Ali (AS) établit que dans les cas de désaccord entre les héritiers où l'un pardonne et l'autre réclame la *qisas* (châtiment), le tueur est exécuté et le sang versé (*diyah*) est restitué aux héritiers. Ce principe, connu sous le nom d*'Idd al-Diyah* ou le retour de la moitié, garantit que l'héritier qui a pardonné ne perd pas son droit financier malgré l'exécution, reflétant la vue jurisprudentielle chiite selon laquelle le pardon du tueur n'équivaut pas automatiquement au pardon de la dette. La narration met en lumière l'équilibre entre la justice (exécution) et la miséricorde (compensation financière) dans le droit pénal islamique.",
+        "seo_question": "Quelle est la règle lorsque l'un des héritiers pardonne au meurtrier et l'autre réclame l'exécution ?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "Commandeur des Croyants (Imam Ali)",
+          "وَلِيَّانِ": "Deux héritiers/gardiens",
+          "فَعَفَا": "A pardonné (a accepté le sang versé ou a renoncé à son droit)",
+          "الْقِتْلَ": "Meurtre/Homicide",
+          "الدِّيَة": "Sang versé",
+          "النِّصْفَ": "Moitié"
+        }
       },
       "de": {
-        "summary": "Dieser Hadith gibt eine rechtliche Regelung zum Qisas, wenn eine getötete Person zwei Erben hat und nur einer dem Mörder vergibt. Amir al-Mu'minin عليه السلام entscheidet, dass der Erbe, der noch Vergeltung fordert, vorgehen darf, aber die Hälfte der Diyya zurückgegeben werden muss, um den Anteil des vergebenden Erben auszugleichen.",
-        "seo_question": "Wenn ein Erbe einen Mörder vergibt und ein anderer weiterhin Vergeltung verlangt, kann der Qisas dann noch durchgeführt werden?",
-        "key_terms": {}
+        "summary": "In dieser Rechtsentscheidung aus *Man La Yahduruhu al-Faqih* legt Imam Ali (AS) fest, dass bei Uneinigkeit unter den Erben, wenn einer verzeiht und der andere *Qisas* (Vergeltung) fordert, zur Hinrichtung des Töters führt und das Blutgeld (*Diyah*) an die Erben zurückgegeben wird. Dieses Prinzip, bekannt als *'Idd al-Diyah* oder die Rückgabe der Hälfte, stellt sicher, dass der verzeihende Erbe sein finanzielles Recht trotz der Hinrichtung nicht verliert, was die schiitische juristische Ansicht widerspiegelt, dass das Verzeihen des Töters nicht automatisch das Verzeihen der Schuld bedeutet. Die Überlieferung unterstreicht das Gleichgewicht zwischen Gerechtigkeit (Hinrichtung) und Barmherzigkeit (finanzielle Entschädigung) im islamischen Strafrecht.",
+        "seo_question": "Wie lautet das Urteil, wenn ein Erbe einen Mörder verzeiht und der andere die Hinrichtung fordert?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "Kommandeur der Gläubigen (Imam Ali)",
+          "وَلِيَّانِ": "Zwei Erben/Beschützer",
+          "فَعَفَا": "Verzieh (akzeptierte Blutgeld oder verzichtete auf Recht)",
+          "الْقِتْلَ": "Tötung/Mord",
+          "الدِّيَة": "Blutgeld",
+          "النِّصْفَ": "Hälfte"
+        }
       },
       "ru": {
-        "summary": "Этот хадис даёт юридическое постановление относительно киcаса, когда у убитого есть два наследника, и только один из них прощает убийцу. Амир аль-Му’минин عليه السلام постановляет, что наследник, который всё ещё требует возмездия, может действовать, но половина дийи должна быть возвращена, чтобы учесть долю прощающего наследника.",
-        "seo_question": "Если один наследник прощает убийцу, а другой всё ещё требует возмездия, можно ли всё ещё осуществить киcас?",
-        "key_terms": {}
+        "summary": "В этом фетве из книги «Ман ля йахдуруху аль-факих» имам Али (мир ему) устанавливает, что в случае разногласий между наследниками, когда один прощает, а другой требует касы (возмездия), убийца казнится, а диия (выкуп за кровь) возвращается наследникам. Этот принцип, известный как «Идд аль-диия» или возврат половины, гарантирует, что прощающий наследник не теряет свое финансовое право несмотря на казнь, что отражает шиитскую джаффаритскую точку зрения: прощение убийцы не приравнивается автоматически к прощению долга. Хадис подчеркивает баланс между справедливостью (казнь) и милосердием (финансовая компенсация) в исламском уголовном праве.",
+        "seo_question": "Каково решение, когда один наследник прощает убийцу, а другой требует казни?",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "Повелитель верующих (имам Али)",
+          "وَلِيَّانِ": "Два наследника/опекуна",
+          "فَعَفَا": "Простил (принимал диию или отказывался от права)",
+          "الْقِتْلَ": "Убийство",
+          "الدِّيَة": "Диия (выкуп за кровь)",
+          "النِّصْفَ": "Половина"
+        }
       },
       "zh": {
-        "summary": "此圣训就被杀者有两位继承人且仅一人赦免杀人者时的قصاص作出法律裁决。أميرالمؤمنينعليهالسلام裁定，仍要求报复的继承人可继续执行قصاص，但必须返还一半的血钱以补偿赦免继承人的份额。",
-        "seo_question": "如果一位继承人赦免杀人者，而另一位仍要求报复，قصاص还能执行吗？",
-        "key_terms": {}
+        "summary": "在《法赫里·伊玛目阿里的裁决中，确立了当继承人之间出现分歧，一方宽恕而另一方要求实行基萨索（报复）时，凶手将被处决，血金（迪亚）将返还给继承人。这一原则被称为“迪亚的归还”或“半额归还”，确保宽恕方不会因处决而丧失其经济权利，反映了什叶派法学观点，即宽恕凶手并不自动等同于宽恕债务。这段叙述强调了伊斯兰刑法中正义（处决）与仁慈（经济补偿）之间的平衡。",
+        "seo_question": "当一名继承人宽恕凶手而另一名要求处决时，裁决是什么？",
+        "key_terms": {
+          "أَمِيرُ الْمُؤِمِنِينَ": "信士的长官（伊玛目阿里）",
+          "وَلِيَّانِ": "两名继承人/监护人",
+          "فَعَفَا": "宽恕（接受血金或放弃权利）",
+          "الْقِتْلَ": "杀害/凶杀",
+          "الدِّيَة": "血金",
+          "النِّصْفَ": "一半"
+        }
       }
     },
     "related_quran": [
@@ -163,18 +202,14 @@
         "relationship": "thematic"
       },
       {
-        "ref": "5:45",
-        "relationship": "thematic"
-      },
-      {
         "ref": "17:33",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "فِي رِوَايَةِ جَمِيلِ بْنِ دَرَّاجٍ قَالَ: قَضَى أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فِي رَجُلٍ قُتِلَ وَلَهُ وَلِيَّانِ فَعَفَا أَحَدُهُمَا وَأَرَادَ الْآخَرُ أَنْ يَقْتُلَ قَالَ يَقْتُلُ وَيَرُدُّ عَلَى أَوْلِيَاءِ الْمَقْتُولِ الْمُقَادِ نِصْفَ الدِّيَةِ",
+    "diacritized_text": "فِي رِوَايَةِ جَمِيلِ بْنِ دَرَّاجٍ قَالَ: «قَضَى أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فِي رَجُلٍ قُتِلَ وَلَهُ وَلِيَّانِ فَعَفَا أَحَدُهُمَا وَأَرَادَ الْآخَرُ أَنْ يَقْتُلَ قَالَ «يَقْتُلُ وَيَرُدُّ عَلَى أَوْلِيَاءِ الْمَقْتُولِ النِّصْفَ مِنَ الدِّيَةِ».",
     "isnad_matn": {
-      "isnad_ar": "فِي رِوَايَةِ جَمِيلِ بْنِ دَرَّاجٍ قَالَ:",
-      "matn_ar": "قَضَى أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فِي رَجُلٍ قُتِلَ وَلَهُ وَلِيَّانِ فَعَفَا أَحَدُهُمَا وَأَرَادَ الْآخَرُ أَنْ يَقْتُلَ قَالَ يَقْتُلُ وَيَرُدُّ عَلَى أَوْلِيَاءِ الْمَقْتُولِ الْمُقَادِ نِصْفَ الدِّيَةِ",
+      "isnad_ar": "فِي رِوَايَةِ جَمِيلِ بْنِ دَرَّاجٍ قَالَ: «قَضَى أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فِي رَجُلٍ قُتِلَ وَلَهُ وَلِيَّانِ فَعَفَا أَحَدُهُمَا وَأَرَادَ الْآخَرُ أَنْ يَقْتُلَ",
+      "matn_ar": "قَالَ «يَقْتُلُ وَيَرُدُّ عَلَى أَوْلِيَاءِ الْمَقْتُولِ النِّصْفَ مِنَ الدِّيَةِ».",
       "has_chain": true,
       "narrators": [
         {
@@ -199,6 +234,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

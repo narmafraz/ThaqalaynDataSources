@@ -1,0 +1,238 @@
+{
+  "verse_path": "/books/al-kafi:6:8:31:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 12 en words vs 1 ar words (ratio=12.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "ethics",
+      "prophetic_tradition"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imams_biography",
+      "sunnah",
+      "halal_haram"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Ibn Mahboub, from Al-A'ala ibn Razin, from Muhammad ibn Muslim, who said:",
+          "ur": "ابن محبوب، العلاء بن رزین سے، محمد بن مسلم سے، انہوں نے کہا:",
+          "tr": "İbn Mahbub, el-Âlâ b. Rezin'den, Muhammed b. Müslim'den; o da şöyle dedi:",
+          "fa": "ابن محبوب، از علاء بن رزین، از محمد بن مسلم، که گفت:",
+          "id": "Ibnu Mahbub, dari Al-A'la ibn Razin, dari Muhammad ibn Muslim, yang berkata:",
+          "bn": "ইবনে মাহবুব, আল-আলা ইবনে রযীন থেকে, মুহাম্মাদ ইবনে মুসলিম থেকে, যিনি বলেছেন:",
+          "es": "Ibn Mahbub, al-A'ala ibn Razin, de Muhammad ibn Muhammad ibn Muslim, quien dijo:",
+          "fr": "Ibn Mahboub, de Al-A'ala ibn Razin, de Muhammad ibn Muslim, qui a Muslim, qui a dit :",
+          "de": "Ibn Mahbub, von Al-A'ala ibn Razin, von Muhammad ibn Muslim, der sagte:",
+          "ru": "Ибн Махбуб, от аль-Аля ибн Разина, от Мухаммада ибн Муслима, который сказал:",
+          "zh": "伊本·马布乌德，从阿拉·本·拉齐因，从穆罕默德·本·穆斯林，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "رَأَيْتُ أَبَا جَعْفَرٍ ( عليه السلام ) يَمْضَغُ عِلْكاً فَقَالَ يَا مُحَمَّدُ نَقَضَتِ الْوَسِمَةُ أَضْرَاسِي فَمَضَغْتُ هَذَا الْعِلْكَ لِأَشُدَّهَا قَالَ وَ كَانَتِ اسْتَرْخَتْ فَشَدَّهَا بِالذَّهَبِ",
+        "translations": {
+          "en": "I saw Abu Ja'far (peace be upon him) chewing gum, so he said: 'O Muhammad! The woad (dye) has loosened my molars, so I am chewing this gum to strengthen them.' He said, 'And they had loosened, so he tightened them with gold.'",
+          "ur": "میں نے ابو جعفر (علیہ السلام) کو چبا رہے دیکھا، تو انہوں نے کہا: اے محمد! نیل نے میرے کونپلوں کو ڈھیلا کر دیا ہے، اس لیے میں انہیں مضبوط کرنے کے لیے یہ چبا رہا ہوں۔ انہوں نے کہا: اور وہ ڈھیلے ہو چکے تھے، تو انہوں نے سونے سے انہیں مضبوط کر دیا۔",
+          "tr": "Ben, Ebu Cafer'i (aleyhisselam) sakız çiğnerken gördüm. O da şöyle dedi: 'Ey Muhammed! Çörek otundan yapılan boya (boya bitkisi) azı dişlerimi gevşetti, bu yüzden onları güçlendirmek için bu sakızı çiğniyorum.' O da şöyle dedi: 'Onlar gevşemişti, o da onları altınla sıkılaştırdı.'",
+          "fa": "ابو جعفر (علیه السلام) را دیدم که آدامس می‌جوید، پس فرمود: «ای محمد! رنگ (صبا) دندان‌های آسیاب مرا سست کرده، پس من این آدامس را می‌جویم تا آن‌ها را محکم کنم.» فرمود: «و آن‌ها سست شده بودند، پس او آن‌ها را با طلا محکم کرد.»",
+          "id": "Aku melihat Abu Ja'far (alamah) mengunyah permen karet, lalu ia berkata, \"Wahai Muhammad! Indigo telah melonggarkan gigi gerahamku, maka aku mengunyah permen karet ini untuk menguatkannya.\" Ia berkata, \"Dan mereka telah melonggar, maka ia mengencangkannya dengan emas.\"",
+          "bn": "আমি আবু জাফারকে (আলাইহিস সালাম) চিবিয়ে থাকতে দেখলাম, তিনি বললেন: 'হে মুহাম্মদ! নীল রং (রং) আমার কুঁড়ি দাঁত শিথিল করে দিয়েছে, তাই আমি এগুলোকে শক্তিশালী করার জন্য এই চিবানো গাম চিবিয়েছি।' তিনি বললেন, 'এবং তারা শিথিল হয়ে গিয়েছিল, তাই তিনি সোনার সাথে তাদের শক্ত করে দিয়েছিলেন।'",
+          "es": "Vi a Abu Yá'far (que la paz sea con él) masticando chicle, entonces dijo: «¡Oh, Muhammad! El índigo ha aflojado mis muelas, así que estoy masticando este chicle para fortalecerlas». Dijo: «Y se habían aflojado, así que las firmó con oro».",
+          "fr": "J’ai vu Abou Ja’far (que la paix soit sur lui) mâcher de la gomme, alors il a dit : « Ô Muhammad ! Le pastel (teinture) a desserré mes molaires, alors je mâche cette gomme pour les renforcer. » Il a dit : « Et elles s’étaient desserrées, alors il les a resserrées avec de l’or. »",
+          "de": "Ich sah Abu Ja'far (friede sei mit ihm) Kaugummi kauen, da sagte er: »O Muhammad! Der Indigo (Färbemittel) hat meine Backenzähne gelockert, daher kaue ich diesen Kaugummi, um sie zu stärken.« Er sagte: »Und sie waren gelockert, also hat er sie mit Gold gestrafft.\"}",
+          "ru": "Я видел Абу Джа'фара (да будет мир с ним), жующего жевательную резинку, и он сказал: «О Мухаммад! Вайда (краситель) расшатала мои коренные зубы, поэтому я жую эту жевательную резинку, чтобы укрепить их». Он сказал: «И они были расшатаны, и он укрепил их золотом».",
+          "zh": "我看见艾布·贾法尔（愿主安之）在嚼口香糖，他便说：‘穆罕默德！靛蓝染料使我的臼齿松动，所以我嚼这口香糖以加固它们。’他说：‘它们确实松动了，他便用金子将它们固定。’"
+        },
+        "word_start": 1,
+        "word_end": 26
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Al-Kafi* illustrates the practical medical knowledge of the Imams, specifically Imam al-Baqir (AS), who utilized chewing gum (*ilk*) to strengthen molars loosened by the acidic properties of the dye plant *wasimah*. It further highlights the permissibility and aesthetic value of using gold for dental restoration, a practice that underscores the balance between health maintenance and dignified appearance in Shia jurisprudence. The narration serves as a primary evidence for the permissibility of cosmetic and functional dental work using precious metals.",
+        "seo_question": "What did Imam Abu Ja'far (peace be upon him) use to strengthen his loosened teeth?",
+        "key_terms": {
+          "الْوَسِمَة": "Woad, a dyeing plant used in ancient times, known here for its effect on teeth",
+          "أَضْرَاس": "Molars (plural of dars)",
+          "عِلْك": "Chewing gum or resin",
+          "الذَّهَب": "Gold"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث الکافی سے ہے جو ائمہ کی عملی طبی معلومات کو بیان کرتی ہے، خاص طور پر امام باقر (علیہ السلام) نے جو رنگین پودے وسیمہ کی تیزابیت کی وجہ سے ڈھیلے پڑے دانتوں کو مضبوط کرنے کے لیے علك (چewing gum) کا استعمال کیا۔ یہ حدث دانتوں کی بحالی کے لیے سونے کے استعمال کی جواز اور خوبصورتی کی قدر کو بھی اجاگر کرتی ہے، جو شیعہ فقہ میں صحت کی حفاظت اور وقار بھرے ظاہری حسن کے توازن کو نمایاں کرتی ہے۔ یہ روایت قیمتی دھاتوں کا استعمال کرتے ہوئے کاسمیٹک اور فعالی دانتوں کے کام کی جواز کے لیے بنیادی دلیل کے طور پر کام کرتی ہے۔",
+        "seo_question": "امام ابو جعفر (علیہ السلام) نے اپنے ڈھیلے پڑے دانتوں کو مضبوط کرنے کے لیے کیا استعمال کیا؟",
+        "key_terms": {
+          "الْوَسِمَة": "وسیمہ، قدیم زمانے میں استعمال ہونے والا ایک رنگین پودا، جو یہاں دانتوں پر اس کے اثر کے لیے جانا جاتا ہے",
+          "أَضْرَاس": "پیشانی کے دانت (دس کا جمع)",
+          "عِلْك": "چewing gum یا رال",
+          "الذَّهَب": "سونے"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, *El-Kafi*’den alınmış olup, İmamların pratik tıbbi bilgisini, özellikle İmam el-Bakir’in (AS), *vesime* adlı boyahane bitkisinin asidik özelliğinden kaynaklanan gevşeklikleri gidermek için sakız (*ilk*) kullanmasını göstermektedir. Ayrıca, diş restorasyonunda altın kullanımının caizliğini ve estetik değerini vurgular; bu uygulama, Şii fıkhında sağlık korunması ile saygın görünüm arasındaki dengeyi yansıtır. Rivayet, değerli metallerle yapılan kozmetik ve fonksiyonel diş tedavilerinin caizliliği için birincil delil olarak hizmet eder.",
+        "seo_question": "İmam Ebu Cafer (aleyhisselam) gevşeyen dişlerini güçlendirmek için ne kullandı?",
+        "key_terms": {
+          "الْوَسِمَة": "Vesime, antik çağlarda boyacılıkta kullanılan, burada dişler üzerindeki etkisiyle bilinen bir bitki",
+          "أَضْرَاس": "Azdar (dars'ın çoğulu) Dişler",
+          "عِلْك": "Sakız veya reçine",
+          "الذَّهَب": "Altın"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی دانش پزشکی عملی ائمه، به‌ویژه امام باقر (ع)، را نشان می‌دهد که از آدامس (عِلک) برای تقویت دندان‌های آسیای شل‌شده ناشی از خواص اسیدی گیاه رنگی وسمه استفاده کردند. این روایت همچنین بر جایز بودن و ارزش زیبایی‌شناختی استفاده از طلا برای ترمیم دندان تأکید دارد، که تعادل میان حفظ سلامت و ظاهر شایسته را در فقه شیعه برجسته می‌کند. این روایت به‌عنوان دلیل اصلی بر جایز بودن کارهای دندان‌پزشکی زیبایی و عملکردی با استفاده از فلزات گرانبها است.",
+        "seo_question": "امام ابوجعفر (علیه‌السلام) برای تقویت دندان‌های شل‌شده خود از چه چیزی استفاده کرد؟",
+        "key_terms": {
+          "الْوَسِمَة": "وسمه، گیاهی رنگین که در گذشته استفاده می‌شد و در اینجا به دلیل تأثیرش بر دندان‌ها شناخته شده است",
+          "أَضْرَاس": "دندان‌های آسیا (جمع دَرَس)",
+          "عِلْك": "آدامس یا صمغ",
+          "الذَّهَب": "طلا"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Al-Kafi* ini menggambarkan pengetahuan medis praktis para Imam, khususnya Imam al-Baqir (AS), yang menggunakan permen karet (*ilk*) untuk memperkuat gigi geraham yang longgar akibat sifat asam dari tanaman pewarna *wasimah*. Hal ini lebih lanjut menyoroti kebolehan dan nilai estetika penggunaan emas untuk restorasi gigi, sebuah praktik yang menekankan keseimbangan antara pemeliharaan kesehatan dan penampilan yang bermartabat dalam fikih Syiah. Riwayat ini berfungsi sebagai bukti utama kebolehan pekerjaan gigi kosmetik dan fungsional menggunakan logam mulia.",
+        "seo_question": "Apa yang digunakan Imam Abu Ja'far (damallah) untuk memperkuat giginya yang longgar?",
+        "key_terms": {
+          "الْوَسِمَة": "Indigo, tanaman pewarna yang digunakan di zaman kuno, dikenal di sini karena pengaruhnya terhadap gigi",
+          "أَضْرَاس": "Gigi geraham (jamak dari dars)",
+          "عِلْك": "Permen karet atau getah",
+          "الذَّهَب": "Emas"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে উদ্ধৃত, যা ইমামদের ব্যবহারিক চিকিৎসা জ্ঞানকে তুলে ধরে, বিশেষ করে ইমাম আল-বাখির (আস), যিনি রং করার উদ্ভিদ ওসিমাহর অ্যাসিডিক বৈশিষ্ট্যের কারণে ঢিলে হয়ে যাওয়া কুঁড়ি দাঁত শক্তিশালী করতে চিবিয়ে খাওয়া গাম (ইল্ক) ব্যবহার করেছিলেন। এটি স্বর্ণ দিয়ে দাঁতের পুনর্গঠনের অনুমোদন এবং সৌন্দর্যগত মূল্যকেও তুলে ধরে, যা শিয়া ফিকহে স্বাস্থ্য বজায় রাখা এবং মর্যাদাপূর্ণ চেহারার মধ্যে ভারসাম্যকে তুলে ধরে। এই বর্ণনা মূল্যবান ধাতু দিয়ে সৌন্দর্য ও কার্যকরী দাঁতের কাজের অনুমোদনের জন্য একটি প্রাথমিক প্রমাণ হিসেবে কাজ করে।",
+        "seo_question": "ইমাম আবু জাফর (রহ.) তাঁর ঢিলে হয়ে যাওয়া দাঁত শক্তিশালী করতে কী ব্যবহার করেছিলেন?",
+        "key_terms": {
+          "الْوَسِمَة": "ওয়াওদ, প্রাচীনকালে রং করার জন্য ব্যবহৃত একটি উদ্ভিদ, এখানে দাঁতের ওপর এর প্রভাবের জন্য পরিচিত",
+          "أَضْرَاس": "কুঁড়ি দাঁত (দার্স-এর বহুবচন)",
+          "عِلْك": "চিবিয়ে খাওয়া গাম বা রেজিন",
+          "الذَّهَب": "স্বর্ণ"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de *Al-Kafi* ilustra el conocimiento médico práctico de los Imames, específicamente el Imam al-Baqir (AS), quien utilizó la goma de mascar (*ilk*) para fortalecer las muelas debilitadas por las propiedades ácidas de la planta tintórea *wasimah*. Además, destaca la permisibilidad y el valor estético del uso del oro para la restauración dental, una práctica que subraya el equilibrio entre el mantenimiento de la salud y la apariencia digna en la jurisprudencia chií. La narración sirve como evidencia primaria para la permisibilidad del trabajo dental cosmético y funcional utilizando metales preciosos.",
+        "seo_question": "¿Qué utilizó el Imam Abu Ja'far (que la paz sea con él) para fortalecer sus dientes flojos?",
+        "key_terms": {
+          "الْوَسِمَة": "Isatis, una planta tintórea utilizada en la antigüedad, conocida aquí por su efecto en los dientes",
+          "أَضْرَاس": "Molares (plural de dars)",
+          "عِلْك": "Goma de mascar o resina",
+          "الذَّهَب": "Oro"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Al-Kafi* illustre les connaissances médicales pratiques des Imams, en particulier l'Imam al-Baqir (AS), qui a utilisé la gomme à mâcher (*ilk*) pour renforcer les molaires affaiblies par les propriétés acides de la plante tinctoriale *wasimah*. Il met également en lumière la permission et la valeur esthétique de l'utilisation de l'or pour la restauration dentaire, une pratique qui souligne l'équilibre entre le maintien de la santé et une apparence digne dans la jurisprudence chiite. La narration sert de preuve principale pour la permission des travaux dentaires cosmétiques et fonctionnels utilisant des métaux précieux.",
+        "seo_question": "Qu'est-ce que l'Imam Abou Ja'far (que la paix soit sur lui) a utilisé pour renforcer ses dents déchaussées ?",
+        "key_terms": {
+          "الْوَسِمَة": "Guède, une plante tinctoriale utilisée dans l'Antiquité, connue ici pour son effet sur les dents",
+          "أَضْرَاس": "Molaires (pluriel de dars)",
+          "عِلْك": "Gomme à mâcher ou résine",
+          "الذَّهَب": "Or"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Al-Kafi* veranschaulicht das praktische medizinische Wissen der Imame, insbesondere Imam al-Baqir (AS), der Kaugummi (*ilk*) nutzte, um die durch die säurehaltigen Eigenschaften der Färberpflanze *wasimah* gelockerten Backenzähne zu stärken. Es hebt zudem die Zulässigkeit und den ästhetischen Wert der Verwendung von Gold für zahnärztliche Restaurationen hervor, eine Praxis, die das Gleichgewicht zwischen Gesundheitspflege und würdevollem Aussehen im schiitischen Jurisprudenz unterstreicht. Die Überlieferung dient als primärer Beweis für die Zulässigkeit kosmetischer und funktionaler Zahnarbeiten mit Edelmetallen.",
+        "seo_question": "Was nutzte Imam Abu Ja'far (Friede sei mit ihm), um seine gelockerten Zähne zu stärken?",
+        "key_terms": {
+          "الْوَسِمَة": "Färberpflanze, die in der Antike verwendet wurde, bekannt hier für ihre Wirkung auf die Zähne",
+          "أَضْرَاس": "Backenzähne (Plural von dars)",
+          "عِلْك": "Kaugummi oder Harz",
+          "الذَّهَب": "Gold"
+        }
+      },
+      "ru": {
+        "summary": "Эта хадис из «аль-Кафи» иллюстрирует практические медицинские знания Имамов, в частности Имама аль-Бакира (мир ему), который использовал жевательную резинку (ильк) для укрепления коренных зубов, ослабленных кислотными свойствами красильного растения васима. В нем также подчеркивается допустимость и эстетическая ценность использования золота для стоматологического восстановления, что подчеркивает баланс между поддержанием здоровья и достойной внешностью в шиитском фикхе. Предание служит основным доказательством допустимости косметических и функциональных стоматологических работ с использованием драгоценных металлов.",
+        "seo_question": "Что использовал Имаму Абу Джафар (мир ему) для укрепления своих ослабленных зубов?",
+        "key_terms": {
+          "الْوَسِمَة": "Васима, красильное растение, используемое в древние времена, известное здесь своим воздействием на зубы",
+          "أَضْرَاس": "Коренные зубы (множественное число от дурс)",
+          "عِلْك": "Жевательная резинка или смола",
+          "الذَّهَب": "Золото"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《卡菲》的圣训展示了伊玛目们（特别是伊玛目巴吉尔，愿主安宁之他）实用的医学知识，他利用嚼胶（ilk）来强化因染料植物瓦西玛（wasimah）的酸性特性而松动的臼齿。该圣训进一步强调了使用黄金进行牙齿修复的合法性和美学价值，这一实践凸显了什叶派法学中在保持健康与维护尊严外貌之间的平衡。这段叙述是证明使用贵金属进行美容和功能性和牙齿修复合法性的主要证据。",
+        "seo_question": "伊玛目阿布贾法尔（愿主安宁之他）用什么来强化他松动的牙齿？",
+        "key_terms": {
+          "الْوَسِمَة": "蓼蓝，一种古代用于染色的植物，此处以其对牙齿的影响而闻名",
+          "أَضْرَاس": "臼齿（dars的复数）",
+          "عِلْك": "嚼胶或树脂",
+          "الذَّهَب": "黄金"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:31",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad رَأَيْتُ أَبَا جَعْفَرٍ ( عليه السلام ) يَمْضَغُ عِلْكاً فَقَالَ يَا مُحَمَّدُ نَقَضَتِ الْوَسِمَةُ أَضْرَاسِي فَمَضَغْتُ هَذَا الْعِلْكَ لِأَشُدَّهَا قَالَ وَ كَانَتِ اسْتَرْخَتْ فَشَدَّهَا بِالذَّهَبِ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "رَأَيْتُ أَبَا جَعْفَرٍ ( عليه السلام ) يَمْضَغُ عِلْكاً فَقَالَ يَا مُحَمَّدُ نَقَضَتِ الْوَسِمَةُ أَضْرَاسِي فَمَضَغْتُ هَذَا الْعِلْكَ لِأَشُدَّهَا قَالَ وَ كَانَتِ اسْتَرْخَتْ فَشَدَّهَا بِالذَّهَبِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "ابْنُ مَحْبُوبٍ",
+          "name_en": "Ibn Mahbub",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 10
+        },
+        {
+          "name_ar": "الْعَلَاءِ بْنِ رَزِينٍ",
+          "name_en": "al-A'la ibn Razin",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 75
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+          "name_en": "Muhammad ibn Muslim",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 16
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

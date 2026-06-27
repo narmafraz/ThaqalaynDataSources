@@ -1,0 +1,331 @@
+{
+  "verse_path": "/books/al-kafi:7:2:21:7",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 21 en words vs 1 ar words (ratio=21.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'ما' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "quran_commentary"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "inheritance",
+      "quran_interpretation_method",
+      "financial_law"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Al-Hasan ibn Ali, from Abdullah ibn Al-Mughira, from Musa ibn Bakr who said:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد سے، حسن بن علی سے، عبداللہ بن مغیرہ سے، موسیٰ بن بکر سے روایت ہے کہ انہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Ahmed b. Muhammed'den, el-Hasan b. Ali'den, Abdullah b. el-Mügîre'den, Musa b. Bekr'den; o da şöyle dedi:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ، عَنِ الْحَسَنِ بْنِ عَلِيٍّ، عَنْ عَبْدِ اللَّهِ بْنِ الْمُغِيرَةِ، عَنْ مُوسَى بْنِ بَكْرٍ، قَالَ:",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Al-Hasan ibn Ali, dari Abdullah ibn Al-Mughira, dari Musa ibn Bakr yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ হতে, আল-হাসান ইবনে আলী হতে, আবদুল্লাহ ইবনে আল-মুগিরা হতে, মুসা ইবনে বকর হতে, তিনি বললেন:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Al-Hasan ibn Ali, de Abdullah ibn Al-Mughira, de Musa ibn Bakr, quien dijo:",
+          "fr": "Muhammad ibn Yahya, d'Ahmad ibn Muhammad, d'Al-Hasan ibn Ali, d'Abdullah ibn Al-Mughira, de Musa ibn Bakr qui a dit :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Ahmad ibn Muhammad, von Al-Hasan ibn Ali, von Abdullah ibn Al-Mughira, von Musa ibn Bakr, der sagte:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибнн Мухаммада, от аль-Хасана ибн Али, от Абдуллаха ибн аль-Мугиры, от Мусы ибн Бакры, который сказал:",
+          "zh": "穆罕"
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ لِزُرَارَةَ إِنَّ بُكَيْراً حَدَّثَنِي عَنْ أَبِي جَعْفَرٍ ( عليه السلام ) أَنَّ الْإِخْوَةَ لِلْأَبِ وَ الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ يُزَادُونَ وَ يُنْقَصُونَ لِأَنَّهُنَّ لَا يَكُنَّ أَكْثَرَ نَصِيباً مِنَ الْإِخْوَةِ وَ الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ لَوْ كَانُوا مَكَانَهُنَّ",
+        "translations": {
+          "en": "I said to Zurara: Indeed, Bukayr narrated to me from Abu Ja'far (peace be upon him) that the paternal brothers and the paternal and maternal sisters are increased and decreased, because they would not have a greater share than the paternal and maternal brothers and sisters, even if they were in their place.",
+          "ur": "میں نے زرّارہ سے کہا: بے شک بکیر نے مجھ سے ابو جعفر (علیہ السلام) سے روایت کی ہے کہ paternal brothers اور paternal اور maternal sisters میں اضافہ اور نقصان ہوتا ہے، کیونکہ ان کا حصّہ paternal اور maternal brothers اور sisters سے زیادہ نہیں ہوگا، چاہے وہ ان کی جگہ ہوں۔",
+          "tr": "Zurara'ıma dedim ki: Buhayr, bana Ebu Cafer'den (aleyhisselam) rivayet etti ki, baba bir kardeşler ve baba ve anne tarafından kız kardeşler, payları artırılır ve azaltılır, çünkü onlar, yerlerinde olsalar bile, baba ve anne tarafından erkek kardeşler ve kız kardeşlerden daha fazla pay almazlardı.",
+          "fa": "گفتم به زراره: بکیر از من از ابوجعفر (علیه السلام) روایت کرد که برادران پدری و خواهران و برادران پدری و مادری افزایش و کاهش می‌یابند، زیرا سهم آن‌ها از سهم برادران و خواهران پدری و مادری بیشتر نخواهد بود، حتی اگر در جایگاه آن‌ها باشند.",
+          "id": "Aku berkata kepada Zurara: Sesungguhnya Bukayr telah meriwayatkan kepadaku dari Abu Ja'far (alamaihissalam) bahwa saudara-saudara seayah dan saudara-saudara perempuan seayah dan seibu bertambah dan berkurang, karena mereka tidak akan mendapatkan bagian yang lebih besar daripada saudara-saudara seayah dan seibu, meskipun mereka berada di tempat mereka.",
+          "bn": "আমি জুরারাকে বললাম, নিশ্চয়ই বুকাইর আমাকে আবু জাফর (আলাইহিস সালাম)-এর নিকট থেকে বর্ণনা করেছেন যে, পিতা ও মাতা উভয় পক্ষের ভাইবোনদের অংশ বৃদ্ধি ও হ্রাস করা হয়, কারণ তারা পিতা ও মাতা উভয় পক্ষের ভাইবোনের স্থানে থাকলেও তাদের অংশ অধিক হবে না।",
+          "es": "Dije a Zurara: En verdad, Bukayr me narró de Abu Ja'far (que la paz sea con él) que los hermanos paternos y las hermanas paternas y maternas se incrementan y disminuyen, porque no tendrían una porción mayor que la de los hermanos paternos y maternos, incluso si estuvieran en su lugar.",
+          "fr": "J'ai dit à Zurara : En vérité, Bukayr m'a raconté Bukayr d'après Abou Ja'far (que la paix soit sur lui) que les frères paternels et les sœurs paternelles et maternelles sont augmentés et diminués, car ils n'auraient pas une part plus grande que les frères et sœurs paternels et maternels, même s'ils se trouvaient à leur place.",
+          "de": "Ich sagte zu Zurara: Wahrlich, Bukayr hat mich Bukayr von Abu Ja'far (friede sei mit ihm) überliefert, dass die väterlichen Brüder und die väterlichen und mütterlichen Schwestern an Anteil zunehmen und abnehmen, weil sie keinen größeren Anteil erhalten würden als die väterlichen und mütterlichen Brüder und Schwestern, selbst wenn sie an deren Stelle träten.",
+          "ru": "Я сказал Зурраре: «Воистину, Букейр передал мне от Абу Джафара (да будет мир с ним), что отцы и матери, а также отцовские и материнские сёстры увеличиваются и уменьшаются, поскольку они не имели бы большей доли, чем отцовские и материнские братья и сёстры, даже если бы они находились на их месте».",
+          "zh": "：我对祖拉拉说：布凯尔确从艾布·贾法尔（愿主福安之）传述，父系兄弟和父系及母系姐妹的份额会增加和减少，因为即使他们处于这些人的位置，他们的份额也不会超过父系和母系兄弟及姐妹的份额。"
+        },
+        "word_start": 1,
+        "word_end": 39
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَ لَهُ أُخْتٌ فَلَها نِصْفُ ما تَرَكَ وَ هُوَ يَرِثُها إِنْ لَمْ يَكُنْ لَها وَلَدٌ",
+        "translations": {
+          "en": "If a man dies, leaving no child, and he has a sister, then for her is half of what he left; and she inherits him if he has no child.",
+          "ur": "اگر ایک مرد بچوں کے بغیر مر جائے اور اس کی ایک بہن ہو، تو اسے اس کی چھوڑی ہوئی چیزوں کا آدھا حصہ ملتا ہے؛ اور وہ اس کی وارث بنتی ہے اگر اس کا کوئی بچہ نہ ہو۔",
+          "tr": "Bir adam, çocuğu kalmadan ölür ve onun bir kız kardeşi varsa, ona bıraktıklarının yarısı o kız kardeşindir; o da, eğer çocuğu yoksa, ondan miras alır.",
+          "fa": "اگر مردی بمیرد و فرزندی نداشته باشد و خواهری داشته باشد، پس برای او نیمی از آنچه او به جا گذاشته است است؛ و او او را ارث می‌برد اگر او فرزندی نداشته باشد.",
+          "id": "Jika seorang pria meninggal dunia dan tidak meninggalkan anak, maka untuk saudarinya adalah setengah dari apa yang ia tinggalkan; dan ia mewarisinya jika ia tidak memiliki anak.",
+          "bn": "যদি কোনো পুরুষ মৃত্যুবরণ করেন, তার কোনো সন্তান না থাকে, কিন্তু তার একটি বোন থাকে, তবে তার জন্য রয়েছে তার ছেড়ে যাওয়া সম্পদের অর্ধেক; আর যদি তার কোনো সন্তান না থাকে, তবে সে তাকে উত্তরাধিকারী হয়।",
+          "es": "Si un hombre muere sin dejar hijo, y tiene una hermana, entonces a ella le corresponde la mitad de lo que dejó; y ella lo hereda si él no tiene hijo.",
+          "fr": "Si un homme meurt en laissant un enfant, et qu'il n'a pas d'enfant, et qu'il a une sœur, alors pour elle la moitié de ce qu'il a laissé ; et elle l'hérite s'il n'a pas d'enfant.",
+          "de": "Wenn ein Mann stirbt und kein Kind hinterlässt, so hat seine Schwester die Hälfte von dem, was er hinterlassen hat; und sie erbt ihn, wenn er kein Kind hat.",
+          "ru": "Если мужчина умирает, не оставив после себя детей, и у него есть сестра, то ей достается половина того, что он оставил; и она наследует его, если у него нет детей.",
+          "zh": "若一男子去世，无子，且有一姐妹，则她得其遗产之半；若他无子，她即继承他。"
+        },
+        "word_start": 39,
+        "word_end": 60
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يَقُولُ يَرِثُ جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَأَعْطَوْا مَنْ سَمَّى اللَّهُ لَهُ النِّصْفَ كَمَلًا وَ عَمَدُوا فَأَعْطَوُا الَّذِي سَمَّى اللَّهُ لَهُ الْمَالَ كُلَّهُ أَقَلَّ مِنَ النِّصْفِ وَ الْمَرْأَةُ لَا تَكُونُ أَبَداً أَكْثَرَ نَصِيباً مِنْ رَجُلٍ لَوْ كَانَ مَكَانَهَا",
+        "translations": {
+          "en": "He said: He inherits all her wealth if she has no child. So they gave to the one whom Allah named for the half, the full amount, and they directed [the distribution] to give to the one whom Allah named for the whole wealth, less than the half. And the woman would never be more in share than a man, even if he were in her place.",
+          "ur": "انہوں نے کہا: اگر اس کی کوئی اولاد نہ ہو تو وہ اس کی تمام جائیداد وارث بن جاتا ہے۔ پس انہوں نے اس شخص کو جس کے لیے اللہ نے آدھا حصہ مقرر کیا ہے، مکمل رقم دی، اور اس شخص کو جس کے لیے اللہ نے ساری جائیداد مقرر کی ہے، آدھے سے کم رقم دی۔ اور عورت کا حصہ کبھی مرد سے زیادہ نہیں ہوگا، چاہے وہ اس کی جگہ ہی کیوں نہ ہو۔",
+          "tr": "Dedi ki: Eğer onun çocuğu yoksa tüm malını miras alır. Öyle ki, Allah'ın yarısını belirlediği kişiye tam miktarı verdiler ve Allah'ın tümünü belirlediği kişiye yarısından azını verdiler. Kadın, erkekten daha fazla pay almaz, hatta erkek onun yerine geçse bile.",
+          "fa": "گفت: اگر فرزند اگر نداشته باشد تمام مال او را ارث می‌برد. پس به کسی که خداوند برای او نصف تعیین کرده بود، تمام مقدار را دادند و به کسی که خداوند برای او تمام مال را تعیین کرده بود، کمتر از نصف را اختصاص دادند. و زن هرگز در سهم از مرد بیشتر نخواهد بود، حتی اگر او در جایگاه او باشد.",
+          "id": "Ia berkata: Ia mewarisi seluruh hartanya jika ia tidak memiliki anak. Maka mereka memberikan kepada orang yang Allah tetapkan untuk mendapatkan setengah, jumlah yang penuh, dan mereka mengarahkan [distribusi] untuk memberikan kepada orang yang Allah tetapkan untuk mendapatkan seluruh harta, kurang dari setengah. Dan wanita tidak akan pernah mendapatkan bagian lebih banyak daripada laki-laki, meskipun ia berada di tempatnya.",
+          "bn": "তিনি বললেন: যদি তার কোনো সন্তান না থাকে, তবে সে তার সমস্ত সম্পত্তির উত্তরাধিকারী হয়। অতএব, যাকে আল্লাহ অর্ধেকের জন্য নির্ধারণ করেছেন, তাকে পূর্ণ পরিমাণ দেওয়া হলো, আর যাকে আল্লাহ সমগ্র সম্পত্তির জন্য নির্ধারণ করেছেন, তাকে অর্ধেকের চেয়ে কম পরিমাণ দেওয়ার নির্দেশ দেওয়া হলো। এবং নারী কখনো পুরুষের চেয়ে বেশি অংশগ্রহণকারী হবে না, এমনকি যদি সে তার স্থানেও থাকে।",
+          "es": "Dijo: Ella hereda toda su riqueza si no tiene hijo. Así que dieron al que Allah designó para la mitad, la cantidad completa, y dirigieron [la distribución] para dar al que Allah designó para toda la riqueza, menos de la mitad. Y la mujer nunca tendría más parte que un hombre, incluso si él estuviera en su lugar.",
+          "fr": "Il a dit : Elle hérite de toute sa fortune s'il n'y a pas d'enfant. Alors ils ont donné à celui qu'Allah a désigné pour la moitié, le montant intégral, et ils ont dirigé [la distribution] pour donner à celui qu'Allah a désigné pour la totalité de la fortune, moins la moitié. Et la femme ne serait jamais plus dans le partage qu'un homme, même s'il était à sa place.",
+          "de": "Er sagte: Sie erbt ihr ganzes Vermögen, wenn sie kein Kind hat. So gaben sie dem, für den Allah die Hälfte bestimmt hat, den vollen Betrag, und sie richteten [die Verteilung] so aus, dass dem, für den Allah das ganze Vermögen bestimmt hat, weniger als die Hälfte gegeben wurde. Und die Frau würde niemals mehr erben als ein Mann, selbst wenn er an ihrer Stelle wäre.",
+          "ru": "Он сказал: «Она наследует всё её имущество, если у неё нет детей». Поэтому тем, кому Аллах предписал половину, они дали полную сумму, а тем, кому Аллах предписал всё имущество, они дали меньше половины. И женщина никогда не получит долю больше, чем мужчина, даже если бы он оказался на её месте.",
+          "zh": "他说：如果她没有子女，她继承全部财产。于是，他们将全数给予真主规定得一半份额者，而将不足一半的份额给予真主规定得全部财产者。即使男子处于她的位置，女子的份额也绝不会超过男子。"
+        },
+        "word_start": 60,
+        "word_end": 100
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "قَالَ فَقَالَ زُرَارَةُ وَ هَذَا قَائِمٌ عِنْدَ أَصْحَابِنَا لَا يَخْتَلِفُونَ فِيهِ",
+        "translations": {
+          "en": "He said: So Zurara said: And this is established among our companions, who do not differ regarding it.",
+          "ur": "انہوں نے کہا: پس زرارة نے کہا اور یہ ہمارے اصحاب کے درمیان ثابت ہے جو اس میں اختلاف نہیں کرتے۔",
+          "tr": "Dedi ki: Zurara şöyle dedi: Bu, aralarında ihtilaf bulunmayan arkadaşlarımız arasında sabit olmuştur.",
+          "fa": "گفت: پس زراره گفت: و این در میان یاران ما ثابت است، که در آن اختلاف ندارند.",
+          "id": "Ia berkata: Maka Zurara berkata: Dan hal ini telah mapan di kalangan sahabat-sahabat kami, yang tidak berselisih mengenainya.",
+          "bn": "তিনি বললেন, সুতরাং জুরারা বললেন, এবং এটি আমাদের সহচরদের মধ্যে প্রতিষ্ঠিত, যারা এর বিষয়ে মতভেদ করেন না।",
+          "es": "Dijo: Entonces Zurara dijo Y esto está establecido entre nuestros compañeros, quienes no difieren al respecto.",
+          "fr": "Il a dit : Alors Zurara a dit : Et cela est établi parmi nos compagnons, qui ne diffèrent pas à ce sujet.",
+          "de": "Er sagte: So sagte Zurara: Und dies ist unter unseren Gefährten etabliert, die darin nicht unterschiedlicher Meinung sind.",
+          "ru": "Он сказал: Зурара сказал: И это утвердилось среди наших сподвижников, которые не расходятся во мнениях относительно этого.",
+          "zh": "他说：祖拉勒说：这在我们的同伴中是确定的，他们对此没有分歧。"
+        },
+        "word_start": 100,
+        "word_end": 111
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi elucidates the Shia jurisprudential principle of 'rad' (return), where the surplus estate is returned to the siblings to ensure their shares do not exceed those of full siblings, a view affirmed by the companions. It utilizes the Quranic verses on sibling inheritance to demonstrate the logical consistency of the female receiving half the male's share, thereby refuting practices that might invert this ratio. The narration highlights the scholarly consensus among the Ahl al-Bayt's companions regarding the precise application of these inheritance rules.",
+        "seo_question": "How are the inheritance shares of paternal and maternal siblings calculated according to Shia jurisprudence?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "Paternal brothers (half-brothers sharing the same father)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "Paternal and maternal sisters (half-sisters sharing both parents)",
+          "النِّصْفُ": "The half share",
+          "الْمَالَ كُلَّهُ": "The entire wealth/estate",
+          "أَصْحَابِنَا": "Our companions (referring to Shia jurists/scholars)"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی سے شیعہ فقہی اصول 'رد' کی وضاحت کرتی ہے، جہاں زیادہ والی میراث بھائیوں کو واپس کی جاتی ہے تاکہ ان کا حصہ مکمل بھائیوں کے حصے سے زیادہ نہ ہو، جس کی صحابہ نے تائید کی ہے۔ یہ قرآنی آیاتِ میراثِ بھائیوں کا استعمال کرتے ہوئے خواتین کے مرد کے نصف حصے کا منطقی تسلسل ثابت کرتی ہے، جس سے اس تناسب کو الٹنے والی روایات کی تردید ہوتی ہے۔ یہ روایت اہل بیت کے صحابہ میں ان میراثی قوانین کی درست تطبیق پر علمی اتفاق رائے کو اجاگر کرتی ہے۔",
+        "seo_question": "شیعہ فقہ کے مطابق پدری اور والدی بھائیوں کے میراثی حصے کیسے حساب کیے جاتے ہیں؟",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "پدری بھائی (وہ بھائی جو صرف باپ میں مشترک ہوں)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "پدری اور والدی بہنیں (وہ بہنیں جو باپ اور ماں دونوں میں مشترک ہوں)",
+          "النِّصْفُ": "نصف حصہ",
+          "الْمَالَ كُلَّهُ": "مکمل مال/میراث",
+          "أَصْحَابِنَا": "ہمارے صحابہ (شیعہ فقہاء/علماء کی طرف اشارہ)"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, el-Kâfî'den alınmış olup, fazlalığın tam kardeşlerin payını aşmayacak şekilde kardeşlere iade edildiği Şii hukuk ilkelerinden 'rad' (iade) ilkesini açıklar; bu görüş sahabeler tarafından onaylanmıştır. Kur'an'daki kardeş miras ayetlerini kullanarak, dişinin erkeğin payının yarısını almasının mantıksal tutarlılığını göstererek, bu oranı tersine çevirebilecek uygulamaları reddeder. Rivayet, Ehl-i Beyt sahabeleri arasında bu miras kurallarının kesin uygulaması konusunda akademik birliğin vurgulandığını belirtir.",
+        "seo_question": "Şii hukukuna göre baba ve anne taraflı kardeşlerin miras payları nasıl hesaplanır?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "Baba taraflı erkek kardeşler (aynı babayı paylaşan yarım kardeşler)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "Baba ve anne taraflı kız kardeşler (her iki ebeveyni de paylaşan yarım kız kardeşler)",
+          "النِّصْفُ": "Yarım pay",
+          "الْمَالَ كُلَّهُ": "Tüm mal/miras",
+          "أَصْحَابِنَا": "Sahibimiz (Şii hukukçular/alimler anlamında)"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، اصل فقهی شیعه به نام «رَدّ» (بازگشت) را روشن می‌سازد، بر این اساس که دارایی اضافی به خواهر و برادران بازگردانده می‌شود تا سهم آن‌ها از سهم برادران تمام‌نسلی فراتر نرود، دیدگاهی که توسط یاران تأیید شده است. این حدیث با استفاده از آیات قرآن درباره ارث خواهر و برادران، سازگاری منطقی این اصل را نشان می‌دهد که زن نصف سهم مرد را دریافت می‌کند و thereby اعمالی را که ممکن است این نسبت را معکوس کنند، رد می‌کند. این روایت اجماع علمی میان یاران اهل بیت را در مورد کاربرد دقیق این قوانین ارث برجسته می‌سازد.",
+        "seo_question": "سهم‌های ارث خواهر و برادران پدری و مادری طبق فقه شیعه چگونه محاسبه می‌شود؟",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "برادران پدری",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "خواهران پدری و مادری",
+          "النِّصْفُ": "نصف سهم",
+          "الْمَالَ كُلَّهُ": "کل مال",
+          "أَصْحَابِنَا": "یاران ما"
+        }
+      },
+      "id": {
+        "summary": "Hadith dari al-Kafi ini menjelaskan prinsip fiqih Syiah 'rad' (pengembalian), di mana sisa harta dikembalikan kepada saudara-saudara untuk memastikan bagian mereka tidak melebihi bagian saudara kandung, sebuah pandangan yang dikonfirmasi oleh para sahabat. Hadis ini menggunakan ayat-ayat Al-Quran tentang warisan saudara untuk menunjukkan konsistensi logis bahwa perempuan menerima setengah bagian laki-laki, sehingga menolak praktik yang mungkin membalikkan rasio ini. Narasi ini menyoroti konsensus ulama di antara para sahabat Ahl al-Bayt mengenai penerapan tepat aturan warisan ini.",
+        "seo_question": "Bagaimana bagian warisan saudara laki-laki dan perempuan dari ayah dan ibu dihitung menurut fiqih Syiah?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "Saudara laki-laki seayah",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "Saudara perempuan seayah dan seibu",
+          "النِّصْفُ": "Bagian setengah",
+          "الْمَالَ كُلَّهُ": "Seluruh harta",
+          "أَصْحَابِنَا": "Para sahabat kami"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে শিয়া ফিকহের 'রাদ' (প্রত্যাবর্তন) নীতিটি ব্যাখ্যা করে, যেখানে অতিরিক্ত সম্পত্তি ভাইদের মধ্যে ফেরত দেওয়া হয় যাতে তাদের অংশ পূর্ণ ভাইদের অংশের বেশি না হয়, যা সহাবিদগণ দ্বারা নিশ্চিত করা হয়েছে। এটি কুরআনের ভাইদের উত্তরাধিকার সম্পর্কিত আয়াত ব্যবহার করে নারীর অংশ পুরুষের অংশের অর্ধেক হওয়ার যৌক্তিক সামঞ্জস্য প্রদর্শন করে, যা এই অনুপাত উল্টে দেওয়ার চর্চাগুলিকে প্রত্যাখ্যান করে। বর্ণনায় আহল আল-বাইতের সহাবিদগণের মধ্যে এই উত্তরাধিকার নিয়মগুলির সঠিক প্রয়োগ নিয়ে বিদ্বানদের ঐক্যের উপর জোর দেওয়া হয়েছে।",
+        "seo_question": "শিয়া ফিকহ অনুসারে পিতৃপক্ষীয় ও মাতৃপক্ষীয় ভাইদের উত্তরাধিকারের অংশ কীভাবে গণনা করা হয়?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "পিতৃপক্ষীয় ভাই (অর্ধেক ভাই যারা একই বাবার সাথে ভাগ করে)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "পিতৃপক্ষীয় ও মাতৃপক্ষীয় বোন (অর্ধেক বোন যারা উভয় পিতা-মাতার সাথে ভাগ করে)",
+          "النِّصْفُ": "অর্ধেক অংশ",
+          "الْمَالَ كُلَّهُ": "সম্পূর্ণ সম্পত্তি/উত্তরাধিকার",
+          "أَصْحَابِنَا": "আমাদের সহাবিদ (শিয়া বিচারক/বিদ্বানদের নির্দেশ করে)"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi aclara el principio jurisprudencial chií de 'rad' (retorno), mediante el cual el excedente del patrimonio se devuelve a los hermanos para asegurar que sus cuotas no superen las de los hermanos completos, una opinión confirmada por los compañeros. Utiliza los versículos coránicos sobre la herencia de los hermanos para demostrar la coherencia lógica de que la mujer reciba la mitad de la cuota del hombre, refutando así las prácticas que podrían invertir esta proporción. La narración destaca el consenso erudito entre los compañeros de Ahl al-Bayt respecto a la aplicación precisa de estas normas de herencia.",
+        "seo_question": "¿Cómo se calculan las cuotas de herencia de los hermanos paternos y maternos según la jurisprudencia chií?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "Hermanos paternos (hermanos medios que comparten el mismo padre)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "Hermanas paternas y maternas (hermanas medias que comparten ambos padres)",
+          "النِّصْفُ": "La cuota de la mitad",
+          "الْمَالَ كُلَّهُ": "Toda la riqueza/el patrimonio",
+          "أَصْحَابِنَا": "Nuestros compañeros (refiriéndose a los juristas/eruditos chiíes)"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'al-Kafi éclaire le principe jurisprudentiel chiite du 'rad' (retour), selon lequel le surplus de la succession est rendu aux frères afin que leurs parts n'excèdent pas celles des frères pleins, une vue affirmée par les compagnons. Il utilise les versets coraniques sur l'héritage des frères pour démontrer la cohérence logique du fait que la femme reçoit la moitié de la part de l'homme, réfutant ainsi les pratiques qui pourraient inverser ce ratio. La narration met en lumière le consensus savant parmi les compagnons des Ahl al-Bayt concernant l'application précise de ces règles d'héritage.",
+        "seo_question": "Comment les parts d'héritage des frères paternels et maternels sont-elles calculées selon la jurisprudence chiite ?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "Frères paternels (demi-frères partageant le même père)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "Sœurs paternelles et maternelles (demi-sœurs partageant les deux parents)",
+          "النِّصْفُ": "La part de moitié",
+          "الْمَالَ كُلَّهُ": "Tout le bien/la succession",
+          "أَصْحَابِنَا": "Nos compagnons (se référant aux juristes/érudits chiites)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi erläutert das schiitische juristische Prinzip des 'Rad' (Rückkehr), wonach der Nachlassüberschuss an die Geschwister zurückgegeben wird, um sicherzustellen, dass ihre Anteile die von Vollgeschwistern nicht überschreiten, eine Ansicht, die von den Gefährten bestätigt wird. Es nutzt die koranischen Verse zur Erbfolge der Geschwister, um die logische Konsistenz der Tatsache zu demonstrieren, dass Frauen die Hälfte des Männeranteils erhalten, und widerlegt damit Praktiken, die dieses Verhältnis umkehren könnten. Die Erzählung hebt die wissenschaftliche Übereinstimmung unter den Gefährten der Ahl al-Bayt hinsichtlich der präzisen Anwendung dieser Erbregeln hervor.",
+        "seo_question": "Wie werden die Erbanteile von väterlichen und mütterlichen Geschwistern nach der schiitischen Jurisprudenz berechnet?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "Väterliche Brüder (Halbbrüder, die denselben Vater haben)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "Väterliche und mütterliche Schwestern (Halbschwestern, die beide Eltern teilen)",
+          "النِّصْفُ": "Der halbe Anteil",
+          "الْمَالَ كُلَّهُ": "Das gesamte Vermögen/Erbe",
+          "أَصْحَابِنَا": "Unsere Gefährten (bezieht sich auf schiitische Juristen/Wissenschaftler)"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи разъясняет шиитский юридический принцип «рад» (возврат), согласно которому излишек наследства возвращается братьям, чтобы их доли не превышали доли полнородных братьев, что подтверждается сподвижниками. В нем используются коранические стихи о наследовании братьев для демонстрации логической последовательности того, что женщина получает половину доли мужчины, тем самым опровергая практики, которые могут инвертировать это соотношение. Повествование подчеркивает научный консенсус среди сподвижников Ахль аль-Байт относительно точного применения этих правил наследования.",
+        "seo_question": "Как рассчитываются доли наследования отцовских и материнских братьев согласно шиитскому фикху?",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "Отцовские братья (единокровные братья, имеющие общего отца)",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "Отцовские и материнские сестры (единоутробные и единокровные сестры, имеющие обоих родителей)",
+          "النِّصْفُ": "Половина доли",
+          "الْمَالَ كُلَّهُ": "Всё имущество/наследство",
+          "أَصْحَابِنَا": "Наши сподвижники (относясь к шиитским юристам/ученым)"
+        }
+      },
+      "zh": {
+        "summary": "《卡菲》中的这段圣训阐明了什叶派法学中的“拉德”（回归）原则，即剩余遗产应返还给兄弟姐妹，以确保他们的份额不超过全兄弟姐妹的份额，这一观点得到了同伴们的肯定。它利用关于兄弟姐妹继承的古兰经经文，证明女性获得男性份额的一半在逻辑上是一致的，从而驳斥了可能颠倒这一比例的做法。这段叙述强调了安赫勒·拜特同伴们在精确应用这些继承规则方面的学者共识。",
+        "seo_question": "根据什叶派法学，父系和母系兄弟姐妹的继承份额是如何计算的？",
+        "key_terms": {
+          "الْإِخْوَةُ لِلْأَبِ": "同父异母兄弟",
+          "الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ": "同父同母姐妹",
+          "النِّصْفُ": "一半份额",
+          "الْمَالَ كُلَّهُ": "全部财产",
+          "أَصْحَابِنَا": "我们的同伴"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "4:176",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:11",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad قُلْتُ لِزُرَارَةَ إِنَّ بُكَيْراً حَدَّثَنِي عَنْ أَبِي جَعْفَرٍ ( عليه السلام ) أَنَّ الْإِخْوَةَ لِلْأَبِ وَ الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ يُزَادُونَ وَ يُنْقَصُونَ لِأَنَّهُنَّ لَا يَكُنَّ أَكْثَرَ نَصِيباً مِنَ الْإِخْوَةِ وَ الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ لَوْ كَانُوا مَكَانَهُنَّ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَ لَهُ أُخْتٌ فَلَها نِصْفُ ما تَرَكَ وَ هُوَ يَرِثُها إِنْ لَمْ يَكُنْ لَها وَلَدٌ يَقُولُ يَرِثُ جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَأَعْطَوْا مَنْ سَمَّى اللَّهُ لَهُ النِّصْفَ كَمَلًا وَ عَمَدُوا فَأَعْطَوُا الَّذِي سَمَّى اللَّهُ لَهُ الْمَالَ كُلَّهُ أَقَلَّ مِنَ النِّصْفِ وَ الْمَرْأَةُ لَا تَكُونُ أَبَداً أَكْثَرَ نَصِيباً مِنْ رَجُلٍ لَوْ كَانَ مَكَانَهَا قَالَ فَقَالَ زُرَارَةُ وَ هَذَا قَائِمٌ عِنْدَ أَصْحَابِنَا لَا يَخْتَلِفُونَ فِيهِ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "قُلْتُ لِزُرَارَةَ إِنَّ بُكَيْراً حَدَّثَنِي عَنْ أَبِي جَعْفَرٍ ( عليه السلام ) أَنَّ الْإِخْوَةَ لِلْأَبِ وَ الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ يُزَادُونَ وَ يُنْقَصُونَ لِأَنَّهُنَّ لَا يَكُنَّ أَكْثَرَ نَصِيباً مِنَ الْإِخْوَةِ وَ الْأَخَوَاتِ لِلْأَبِ وَ الْأُمِّ لَوْ كَانُوا مَكَانَهُنَّ إِنِ امْرُؤٌ هَلَكَ لَيْسَ لَهُ وَلَدٌ وَ لَهُ أُخْتٌ فَلَها نِصْفُ ما تَرَكَ وَ هُوَ يَرِثُها إِنْ لَمْ يَكُنْ لَها وَلَدٌ يَقُولُ يَرِثُ جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَأَعْطَوْا مَنْ سَمَّى اللَّهُ لَهُ النِّصْفَ كَمَلًا وَ عَمَدُوا فَأَعْطَوُا الَّذِي سَمَّى اللَّهُ لَهُ الْمَالَ كُلَّهُ أَقَلَّ مِنَ النِّصْفِ وَ الْمَرْأَةُ لَا تَكُونُ أَبَداً أَكْثَرَ نَصِيباً مِنْ رَجُلٍ لَوْ كَانَ مَكَانَهَا قَالَ فَقَالَ زُرَارَةُ وَ هَذَا قَائِمٌ عِنْدَ أَصْحَابِنَا لَا يَخْتَلِفُونَ فِيهِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "الْحَسَنِ بْنِ عَلِيٍّ",
+          "name_en": "al-Hasan ibn Ali",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 63
+        },
+        {
+          "name_ar": "عَبْدِ اللَّهِ بْنِ الْمُغِيرَةِ",
+          "name_en": "Abdullah b. al-Mughira",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 76
+        },
+        {
+          "name_ar": "مُوسَى بْنِ بَكْرٍ",
+          "name_en": "Musa ibn Bakr",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 96
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

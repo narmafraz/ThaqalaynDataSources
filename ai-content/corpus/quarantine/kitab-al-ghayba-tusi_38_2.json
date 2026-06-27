@@ -1,0 +1,273 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:38:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 22 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'فإن قيل: هلا منع الله من قتله بما يحول بينه وبين من يريد قتل'",
+    "narrator[1] name_ar has 33 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'خلافه والامر بوجوب اتباعه ونصرته والتزام الانقياد له، وكل ذل'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "governance"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "imamate",
+      "divine_decree",
+      "divine_justice"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "فَإِنْ قِيلَ: هَلَا مَنَعَ اللَّهُ مِنْ قَتْلِهِ بِمَا يُحَوِّلُ بَيْنَهُ وَبَيْنَ مَنْ يُرِيدُ قَتْلَهُ؟",
+        "translations": {
+          "en": "If it is said: Why did Allah not prevent his killing by means that would stand between him and the one who intends to kill him?",
+          "ur": "اگر کہا جائے کہ اللہ تعالیٰ نے اسے قتل کرنے والے کے درمیان میں ایسی چیزیں کیوں نہ رکھ دیں جو اس کے قتل کو مانع ہوں؟",
+          "tr": "Eğer denirse: Allah, onu öldürmek isteyen ile arasına bir engel koyarak onun öldürülmesini neden engellemedi?",
+          "fa": "اگر گفته شود: چرا خداوند جلوی کشته شدن او را با وسیله‌ای نگرفت که میان او و کسی که قصد کشتنش را داشت قرار گیرد؟",
+          "id": "Jika dikatakan: Mengapa Allah tidak mencegah Allah pembunuhannya dengan cara-cara yang menjadi penghalang antara dia dan orang yang berniat membunuhnya?",
+          "bn": "যদি বলা হয়: আল্লাহ কেন তাকে হত্যা করা থেকে এমন উপায়ে রোধ করলেন না যা তাকে এবং তাকে হত্যা করতে ইচ্ছুক ব্যক্তির মধ্যে দাঁড়িয়ে থাকত?",
+          "es": "Si se dice: ¿Por qué no impidió Allah su muerte por medios que se interpusieran entre él y quien pretendía matarlo?",
+          "fr": "Si l",
+          "de": "Wenn gesagt wird: Warum hat Allah seine Tötung nicht durch Mittel verhindert, die zwischen ihm und demjenigen stehen, der ihn töten will?",
+          "ru": "Если скажут: почему Аллах не предотвратил его убийство посредством того, что стало бы преградой между ним и тем, кто намеревался его убить?",
+          "zh": "若有人问：真主为何不通过设置障碍来阻止他，使他与欲杀者之间产生阻隔，从而避免被杀？"
+        },
+        "word_start": 0,
+        "word_end": 14
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْنَا: الْمَنَعُ الَّذِي لَا يُنَافِي التَّكْلِيلَ هُوَ النَّهْيُ عَنْ خِلَافِهِ وَالْأَمْرُ بِوُجُوبِ اتِّبَاعِهِ وَنَصْرَتِهِ وَالتِّزَامِ الِانْقِيَادِ لَهُ، وَكُلُّ ذَلِكَ فِعْلُهُ تَعَالَى، وَأَمَّا الْحِيلُولَةُ بَيْنَهُمْ وَبَيْنَهُ فَإِنَّهَا تُنَافِي التَّكْلِيلَ، وَتُنْقِضُ الْغَرَضَ بِهِ، لِأَنَّ الْغَرَضَ بِالتَّكْلِيلِ اسْتِحْقَاقُ الثَّوَابِ، وَالْحِيلُولَةُ تُنَافِي ذَلِكَ، وَرُبَّمَا كَانَ فِي الْحِيلُولَةِ وَالْمَنَعِ مِنْ قَتْلِهِ بِالْقَهْرِ مَفْسَدَةٌ لِلْخَلْقِ، فَلَا يَحْسُنُ مِنَ اللَّهِ فِعْلُهَا.",
+        "translations": {
+          "en": "We say: The prevention that does not contradict religious duty is the prohibition of acting against him, the command to obligatory follow him, to support him, and to commit to obedience to him; and all of that is the action of Allah, the Exalted. As for the obstruction between them and him, it contradicts religious duty and nullifies the purpose of it, because the purpose of religious duty is to deserve reward, and obstruction contradicts that. And perhaps in the obstruction and prevention of his killing by compulsion there is a corruption for the creation, so it is not fitting for Allah to do it.",
+          "ur": "ہم کہتے ہیں: وہ منع جو شریعت کے خلاف نہ ہو، اس کا حکم ہے کہ اس کی پیروی کی جائے، اس کی حمایت کی جائے، اور اس کی اطاعت کا عہد کیا جائے؛ اور یہ سب اللہ تعالیٰ کا فعل ہے۔ اور ان کے درمیان اور اس کے درمیان رکاوٹ شریعت کے خلاف ہے اور اس کے مقصد کو باطل کرتی ہے، کیونکہ شریعت کا مقصد ثواب کا مستحق بننا ہے، اور رکاوٹ اس کے خلاف ہے۔ اور شاید اس کے قتل کی جبراً منع میں مخلوق کے لیے فساد ہے، اس لیے اللہ تعالیٰ کا اس کا کرنا مناسب نہیں۔",
+          "tr": "Deriz ki: Dini görevle çelişmeyen men, ona muhalefet etmenin yasaklanması, ona itaat etmenin farz kılınması, ona destek olunması ve ona itaate bağlı kalınmasıdır; ve bunların hepsi Alî'nin (Celîle) fiilidir. Onlar ile arasında olan engelleme ise dini görevle çelişir ve amacını bozar, çünkü dini görevin amacı mükâfatı hak etmektir ve engelleme bunu bozar. Belki de onun öldürülmesinin zorla engellenmesinde yaratıklar için bir fesat vardır, bu yüzden Alî'nin bunu yapması uygun değildir.",
+          "fa": "می‌گوییم: منعِ ناسازگار با وظیفه دینی، نهی از عمل برخلاف اوست، امر به پیروی واجب از او، یاری رساندن به او و پایبندی به اطاعت از اوست؛ و همه این‌ها فعل خداوند، بلندمرتبه است. اما مانع میان آن‌ها و او، ناسازگار با وظیفه دینی است و هدف آن را باطل می‌کند، زیرا هدف وظیفه دینی، سزاوار پاداش شدن است، و مانع شدن با آن ناسازگار است. و شاید در مانع شدن و جلوگیری از کشتن او به اجبار، فسادی برای آفریدگان باشد، پس شایسته نیست که خداوند آن را انجام دهد.",
+          "id": "Kami berkata: Pencegahan yang tidak bertentangan dengan kewajiban agama adalah larangan bertindak melawan beliau, perintah untuk mengikuti beliau secara wajib, untuk mendukung beliau, dan untuk taat kepada beliau; dan semua itu adalah perbuatan Allah Yang Mahatinggi. Adapun penghalang antara mereka dan beliau, ia bertentangan dengan kewajiban agama dan membatalkan tujuannya, karena tujuan kewajiban agama adalah untuk memperoleh pahala, dan penghalang bertentangan dengan hal itu. Dan mungkin dalam penghalang dan pencegahan pembunuhan beliau secara paksa terdapat kerusakan bagi makhluk, maka tidak pantas bagi Allah untuk melakukannya.",
+          "bn": "আমরা বলি: এমন প্রতিবন্ধকতা যা ধর্মীয় কর্তব্যের বিরোধী নয়, তা হলো তাঁর অনুসরণে বিপরীত কাজ করা থেকে নিষেধাজ্ঞা, তাঁর অনুসরণে বাধ্যতামূলকভাবে অনুসরণের আদেশ, তাঁকে সমর্থন করা এবং তাঁর আনুগত্যে নিবেদিত হওয়া; এবং এ সমস্তই আল্লাহর (আল্লাহ তাআলা) কাজ। আর তাদের এবং তাঁর মধ্যে যে বাধা, তা ধর্মীয় কর্তব্যের বিরোধী এবং এর উদ্দেশ্যকে বাতিল করে, কারণ ধর্মীয় কর্তব্যের উদ্দেশ্য হলো সওয়াব অর্জন করা, এবং বাধা তা-এর বিরোধী। এবং হয়তো তাঁর হত্যা করা থেকে জোরপূর্বক প্রতিবন্ধকতা ও বাধার মধ্যে সৃষ্টির জন্য একটি ফাসাদ রয়েছে, তাই এটি আল্লাহর পক্ষে উপযুক্ত নয়।",
+          "es": "Decimos: La prevención que no contradice el deber religioso es la prohibición de actuar en contra de él, el mandato de seguirlo obligatoriamente, de apoyarlo y de comprometerse con la obediencia hacia él; y todo ello es obra de Allah, el Exaltado. En cuanto a la obstrucción entre ellos y él, contradice el deber religioso y anula su propósito, porque el propósito del deber religioso es merecer la recompensa, y la obstrucción contradice eso. Y quizás en la obstrucción y la prevención de su muerte por compulsión haya una corrupción para la creación, por lo que no es apropiado que Allah lo haga.",
+          "fr": "Nous disons : l'empêchement qui ne contredit pas le devoir religieux est l'interdiction d'agir contre lui, l'ordre de le suivre obligatoirement, de le soutenir et de s'engager à lui obéir ; et tout cela est l'action d'Allah, le Très-Haut. Quant à l'obstruction entre eux et lui, elle contredit le devoir religieux et annule son but, car le but du devoir religieux est de mériter la récompense, et l'obstruction contredit cela. Et peut-être que dans l'obstruction et l'empêchement de sa mort par contrainte il y a une corruption pour la création, donc il n'est pas convenable qu'Allah le fasse.",
+          "de": "Wir sagen: Die Verhinderung, die dem religiösen Pflichterfüllung nicht widerspricht, ist das Verbot, gegen ihn zu handeln, der Befehl, ihm obligatorisch zu folgen, ihn zu unterstützen und sich ihm gegenüber zum Gehorsam zu verpflichten; und all das ist das Handeln Allahs, des Erhabenen. Was jedoch die Behinderung zwischen ihnen und ihm betrifft, so widerspricht sie der religiösen Pflichterfüllung und hebt deren Zweck auf, denn der Zweck der religiösen Pflichterfüllung ist es, die Belohnung würdig zu sein, und die Behinderung widerspricht dem. Und vielleicht liegt in der Behinderung und dem Erzwingen seines Tötens eine Korruption für die Schöpfung, daher ist es nicht angemessen, dass Allah dies tut.",
+          "ru": "Говорим: предотвращение, не противоречащее религиозному долгу, — это запрет действовать вопреки ему, повеление обязательного следования ему, поддержки ему и преданности повиновению ему; и всё это — действие Аллаха, Всевышнего. Что же касается преграды между ними и им, то она противоречит религиозному долгу и аннулирует его цель, ибо цель религиозного долга — заслужить награду, а преграда противоречит этому. И, возможно, в преграде и предотвращении его убийства принуждением есть порча для творений, поэтому это не подобает Аллаху делать.",
+          "zh": "吾曰：不违背宗教义务之阻止，即禁止违抗他、命令必须顺从他、支持他并致力于服从他；而这一切皆出自真主（愿他受赞颂）之举。至于他们与他之间的阻碍，则违背了宗教义务，并使其目的落空，因为宗教义务之目的乃为赢得回赐，而阻碍与之相悖。或许在迫使他被杀之阻止与防范中，存在对众生的损害，故真主（愿他受赞颂）行此并不适宜。"
+        },
+        "word_start": 14,
+        "word_end": 68
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَيْسَ هَذَا كَمَا قَالَ بَعْضُ أَصْحَابِنَا: إِنَّهُ لَا يَمْتَنِعُ أَنْ يَكُونَ فِي ظُهُورِهِ مَفْسَدَةٌ وَفِي اسْتِتَارِهِ مُصْلَحَةٌ، لِأَنَّ الَّذِي قَالَهُ يُفْسِدُ طَرِيقَ وُجُوبِ الرِّسَالَةِ فِي كُلِّ حَالٍ وَتَطَرُّقَ الْقَوْلِ بِأَنَّهَا تَجْرِي مَجْرَى الْأَلْطَافِ الَّتِي تَتَغَيَّرُ بِالْأَزْمَانِ وَالْأَوْقَاتِ، وَالْقَهْرُ وَالْحِيلُولَةُ لَيْسَ كَذَلِكَ، وَلَا يَمْتَنِعُ أَنْ يُقَالَ: إِنَّ فِي ذَلِكَ مَفْسَدَةً وَلَا يُؤَدِّي إِلَى إِفْسَادِ وُجُوبِ الرِّئَاسَةِ.",
+        "translations": {
+          "en": "And this is not like what some of our companions said: That it is not impossible for there to be a corruption in his reappearance and a benefit in his concealment, because what he said invalidates the path of the obligation of prophethood in every state and allows the saying that it operates like the divine favors that change with times and moments. And compulsion and obstruction are not like that, and it is not impossible to say: That there is a corruption in that, and it does not lead to invalidating the obligation of Imamate.",
+          "ur": "اور یہ اس بات سے مختلف ہے جو ہمارے ہمراہیوں میں سے بعض نے کہی: کہ اس کی ظہور میں عیب اور اس کی غیبت میں فائدہ ہونا محال نہیں، کیونکہ اس کی قول سے نبوت کے فرض ہونے کا طریقہ ہر حالت میں باطل ہو جاتا ہے اور یہ کہنا جائز ہو جاتا ہے کہ یہ ایسا ہی ہے جیسے اللہ کے ان احسانات جو اوقات اور لمحات کے ساتھ بدلتے رہتے ہیں۔ اور جبر و مانع ایسا نہیں، اور یہ کہنا محال نہیں کہ اس میں عیب ہے اور یہ امامت کے فرض ہونے کو باطل نہیں کرتا۔",
+          "tr": "Ve bu, ashabımızdan bazıları söylediği gibi değildir: Onun re'yetinde bir bozukluk ve geybetinde bir fayda olması imkansız değildir, çünkü o söylediği şey, her durumda peygamberliğin farziyetinin yolunu geçersiz kılar ve bunun zamanlara ve anlara göre değişen ilmi lütuf gibi işlediği söylenebilmesine izin verir. ve mecburiyet ve mania böyle değildir ve onun içinde bir bozukluk olduğu ve imamet farziyetinin geçersiz kılınmasına yol açmadığı söylenebilir.",
+          "fa": "و این برخلاف آن چیزی است که برخی از یاران ما گفتند: که محال نیست در ظهور او فساد و در غیبت او منفعت باشد، زیرا آنچه او گفت، راه وجوب نبوت را در هر حالتی باطل می‌کند و امکان می‌دهد که بگوییم مانند نعمت‌های الهی است که با زمان‌ها و لحظه‌‌ها تغییر می‌کند. و اجبار و ممانعت چنین نیست، و محال نیست که بگوییم: در آن فساد وجود دارد، و منجر به باطل شدن وجوب امامت نمی‌شود.",
+          "id": "Dan ini tidak seperti apa yang dikatakan oleh sebagian sahabat kami, yaitu bahwa tidak mustahil terdapat kecacatan dalam kemunculannya dan manfaat dalam ketidakhadirannya, karena apa yang ia katakan membatalkan jalan kewajiban kenabian dalam setiap keadaan dan memungkinkan pendapat bahwa ia beroperasi seperti karunia Ilahi yang berubah seiring waktu dan momen. Dan paksaan dan penghalangan tidak seperti itu, dan tidak mustahil dikatakan bahwa terdapat kecacatan dalam hal itu, dan hal itu tidak mengarah pada pembatalan kewajiban imamah.",
+          "bn": "এবং এটি আমাদের সহচরদের মধ্যে কেউ কেউ যা বলেছেন তার মতো নয়: যে, তার পুনরাগমনে দোষ থাকতে পারে এবং তার গায়েব থাকায় লাভ থাকতে পারে, কারণ তিনি যা বলেছেন তা নবুয়্যের ফরজিয়্যাতের পথকে প্রতিটি অবস্থায় বাতিল করে দেয় এবং এটিকে আল্লাহর নিয়ামতগুলোর মতো বলে মনে করা হয়, যা সময় ও মুহূর্তের সাথে পরিবর্তিত হয়। এবং জবরদস্তি ও বাধা প্রদান এর মতো নয়, এবং এতে দোষ থাকতে পারে এবং এটি ইমামতের ফরজিয়্যাতকে বাতিল করে না, এমন বলা অসম্ভব নয়।",
+          "es": "Y esto no es como lo es como lo dijeron algunos de nuestros compañeros: que no es imposible que haya una corrupción en su reaparición y un beneficio en su ocultación, porque lo que él dijo invalida la vía de la obligación del profetado en todo estado y permite decir que opera como las gracias divinas que cambian con los tiempos y los momentos. Y la compulsión y la obstrucción no son así, y no es imposible decir que hay una corrupción en ello, y que no lleva a invalidar la obligación del Imamato.",
+          "fr": "Et ce n’est pas comme ce qu’ont dit certains de nos compagnons : qu’il n’est pas impossible qu’il y ait une altération (fasād) dans sa réapparition et un avantage dans sa occultation, car ce qu’il a dit invalide le chemin de l’obligation du prophétat dans tout état et permet de dire qu’il fonctionne comme les faveurs divines qui changent avec les temps et les moments. Et la contrainte et l’obstruction ne sont pas ainsi, et il n’est pas impossible de dire : qu’il y a une altération en cela, et qu’il ne mène pas à l’invalidation de l’obligation de l’Imamat.",
+          "de": "Und dies ist nicht wie das, was einige unserer Gefährten sagten: Dass es nicht unmöglich ist, dass es eine Korruption in seiner Wiederkehr und einen Nutzen in seiner Verborgenheit gibt, weil das, was er sagte, den Weg der Pflicht der Prophetenschaft in jedem Zustand ungültig macht und die Aussage zulässt, dass sie wie die göttlichen Gnaden wirkt, die sich mit Zeiten und Augenblicken ändern. Und Zwang und Behinderung sind nicht so, und es ist nicht unmöglich zu sagen: Dass es eine Korruption in dem gibt, und es führt nicht zur Ungültigmachung der Pflicht des Imamats.",
+          "ru": "И это не похоже на то, что сказали некоторые из наших сподвижников: что не невозможно, чтобы в его возвращении была порча, а в его сокрытии — польза, потому что то, что он сказал, опровергает путь обязательности пророчества в любом состоянии и допускает утверждение, что оно действует как божественные милости, которые меняются со временами и моментами. И принуждение и препятствие не таковы, и не невозможно сказать, что в этом есть порча, и это не приводит к опровержению обязательности имамата.",
+          "zh": "且这不同于我们一些同伴所言：其复现未必无弊，其隐遁未必无益，因其言足以使先知使命的义务在任何状态下皆被否定，并容许说其如神圣恩惠般随时间与时刻而变迁。强制与阻碍并非如此，亦非不可说：其中存在弊端，且并不导致伊玛目职务义务的否定。"
+        },
+        "word_start": 68,
+        "word_end": 123
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi elucidates the theological distinction between divine compulsion (Qahr) and the preservation of human free will (Ikhtiyar), arguing that physical prevention of the Imam's death would negate the merit of obedience and the test of faith. This passage reinforces the Shia doctrine that the Imamate's obligation is intrinsic and constant, rather than a transient favor, thereby validating the period of concealment (Ghayba) as a necessary phase for maintaining the validity of religious duty.",
+        "seo_question": "Why does Allah not physically prevent the killing of the Imam if He wills it?",
+        "key_terms": {
+          "التَّكْلِيلُ": "Religious duty or obligation",
+          "الْحِيلُولَةُ": "Obstruction or standing in the way",
+          "الْقَهْرُ": "Compulsion or force",
+          "الْمَفْسَدَةُ": "Corruption or harm",
+          "الرِّسَالَةُ": "Prophethood or messengership",
+          "الرِّئَاسَةُ": "Imamate or leadership"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی الہی جبر (قہر) اور انسانی اختیار کے درمیان کلامی تمیز کو واضح کرتے ہیں، اور استدلال کرتے ہیں کہ امام کی موت میں جسمانی رکاوٹ اطاعت کے ثواب اور ایمان کے امتحان کو ختم کر دے گی۔ یہ متن شیعہ عقیدے کی تائید کرتا ہے کہ امامت کا فرض ذاتی اور مستقل ہے، نہ کہ عارضی نعمت، جس سے غیبت کے دور کو دینی فرض کی صحت برقرار رکھنے کے لیے ضروری مرحلہ کے طور پر تسلیم کیا جاتا ہے۔",
+        "seo_question": "اگر اللہ چاہے تو امام کی قتل کو جسمانی طور پر کیوں نہیں روکتا؟",
+        "key_terms": {
+          "التَّكْلِيلُ": "فرض یا تکلیف",
+          "الْحِيلُولَةُ": "رکاوٹ یا راستے میں کھڑا ہونا",
+          "الْقَهْرُ": "جبر یا زبردستی",
+          "الْمَفْسَدَةُ": "فساد یا نقصان",
+          "الرِّسَالَةُ": "نبوت یا رسالت",
+          "الرِّئَاسَةُ": "امامت یا قیادت"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh et-Tusi, ilahi zorlama (Kahr) ile insanın özgür iradesinin (İhtiyar) korunması arasındaki teolojik ayrımı açıklar; İmam'ın ölümünün fiziksel olarak engellenmesinin itaatin faziletini ve imtihanı yok edeceğini savunur. Bu pasaj, İmamet yükümlülüğünün geçici bir lütuf değil, içsel ve sürekli olduğunu vurgulayarak, dini yükümlülüğün geçerliliğini korumak için gizlenme döneminin (Gaybet) gerekli bir aşama olduğunu doğrular.",
+        "seo_question": "Allah dilerse İmam'ın öldürülmesini fiziksel olarak neden engellemez?",
+        "key_terms": {
+          "التَّكْلِيلُ": "Dini yükümlülük veya farz",
+          "الْحِيلُولَةُ": "Engelleme veya önünde durma",
+          "الْقَهْرُ": "Zorlama veya kudret",
+          "الْمَفْسَدَةُ": "Bozgunculuk veya zarar",
+          "الرِّسَالَةُ": "Peygamberlik veya elçilik",
+          "الرِّئَاسَةُ": "İmamet veya liderlik"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی تمایز الهیاتی میان اجبار الهی (قهر) و حفظ اختیار انسان (اختیار) را تبیین می‌کند و استدلال می‌نماید که جلوگیری فیزیکی از شهادت امام، پادمان اطاعت و آزمایش ایمان را ساقط می‌سازد. این passage بر آموزه شیعه تأکید دارد که ولایت امام ذاتی و دائمی است، نه یک لطف گذرا، و بدین ترتیب دوره غیبت را به عنوان مرحله‌ای ضروری برای حفظ صحت تکلیف دینی معتبر می‌شمارد.",
+        "seo_question": "چرا خداوند اگر بخواهد، کشتن امام را به صورت فیزیکی جلوگیری نمی‌کند؟",
+        "key_terms": {
+          "التَّكْلِيلُ": "تکلیف یا وظیفه دینی",
+          "الْحِيلُولَةُ": "ممانعت یا مانع شدن",
+          "الْقَهْرُ": "اجبار یا زور",
+          "الْمَفْسَدَةُ": "فساد یا ضرر",
+          "الرِّسَالَةُ": "نبوت یا رسالت",
+          "الرِّئَاسَةُ": "امامت یا رهبری"
+        }
+      },
+      "id": {
+        "summary": "Syekh al-Thusi menjelaskan perbedaan teologis antara paksaan ilahi (Qahr) dan pemeliharaan kehendak bebas manusia (Ikhtiyar), dengan berargumen bahwa pencegahan fisik terhadap kematian Imam akan meniadakan pahala ketaatan dan ujian iman. Kutipan ini memperkuat doktrin Syiah bahwa kewajiban Imamah adalah intrinsik dan konstan, bukan sekadar anugerah sementara, sehingga memvalidasi periode penyembunyian (Ghayba) sebagai fase yang diperlukan untuk menjaga keabsahan kewajiban agama.",
+        "seo_question": "Mengapa Allah tidak mencegah secara fisik pembunuhan Imam jika Dia menghendakinya?",
+        "key_terms": {
+          "التَّكْلِيلُ": "Kewajiban agama",
+          "الْحِيلُولَةُ": "Penghalang atau rintangan",
+          "الْقَهْرُ": "Paksaan atau kekuatan",
+          "الْمَفْسَدَةُ": "Kerusakan atau bahaya",
+          "الرِّسَالَةُ": "Kenabian atau kerasulan",
+          "الرِّئَاسَةُ": "Imamah atau kepemimpinan"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-তুসি আল্লাহর ইচ্ছায় ইমামের মৃত্যুকে শারীরিকভাবে প্রতিরোধ করা হলে তা আনুগত্যের সওয়াব ও ঈমানের পরীক্ষাকে বাতিল করে দেবে, এই তাত্ত্বিক পার্থক্যটি (ক্বাহর ও ইখতিয়ার) ব্যাখ্যা করেছেন। এই অংশ শিয়া মতবাদকে শক্তিশালী করে যে ইমামতের দায়িত্ব একটি স্থায়ী ও অন্তর্নিহিত বিষয়, কোনো ক্ষণস্থায়ী অনুগ্রহ নয়, যা গোয়ব (লুকায়িত অবস্থা) কে ধর্মীয় দায়িত্বের বৈধতা বজায় রাখার জন্য একটি প্রয়োজনীয় পর্যায় হিসেবে বৈধতা প্রদান করে।",
+        "seo_question": "যদি আল্লাহ চান, তবে তিনি ইমামকে হত্যা করা থেকে শারীরিকভাবে কেন প্রতিরোধ করেন না?",
+        "key_terms": {
+          "التَّكْلِيلُ": "ধর্মীয় দায়িত্ব বা বাধ্যবাধকতা",
+          "الْحِيلُولَةُ": "বাধা বা পথে দাঁড়ানো",
+          "الْقَهْرُ": "বাধ্য করা বা জোর",
+          "الْمَفْسَدَةُ": "দুর্ব্যবহার বা ক্ষতি",
+          "الرِّسَالَةُ": "নবুয়ত বা দূতত্ব",
+          "الرِّئَاسَةُ": "ইমামত বা নেতৃত্ব"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi aclara la distinción teológica entre la compulsión divina (Qahr) y la preservación del libre albedrío humano (Ikhtiyar), argumentando que la prevención física de la muerte del Imam negaría el mérito de la obediencia y la prueba de fe. Este pasaje refuerza la doctria chií de que el Imamato es una obligación intrínseca y constante, no un favor transitorio, validando así el período de ocultación (Ghayba) como una fase necesaria para mantener la validez del deber religioso.",
+        "seo_question": "¿Por qué Allah no impide físicamente la matanza del Imam si lo desea?",
+        "key_terms": {
+          "التَّكْلِيلُ": "Deber u obligación religiosa",
+          "الْحِيلُولَةُ": "Obstrucción o interponerse en el camino",
+          "الْقَهْرُ": "Compulsión o fuerza",
+          "الْمَفْسَدَةُ": "Corrupción o daño",
+          "الرِّسَالَةُ": "Profetado o mensajería",
+          "الرِّئَاسَةُ": "Imamate o liderazgo"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi éclaire la distinction théologique entre la contrainte divine (Qahr) et la préservation du libre arbitre humain (Ikhtiyar), arguant que la prévention physique de la mort de l'Imam annulerait le mérite de l'obéissance et l'épreuve de la foi. Ce passage renforce la doctrine chiite selon laquelle l'obligation de l'Imamat est intrinsèque et constante, plutôt qu'une faveur transitoire, validant ainsi la période de la cachot (Ghayba) comme une phase nécessaire au maintien de la validité du devoir religieux.",
+        "seo_question": "Pourquoi Allah n'empêche-t-il pas physiquement la mort de l'Imam s'il le veut ?",
+        "key_terms": {
+          "التَّكْلِيلُ": "Devoir religieux ou obligation",
+          "الْحِيلُولَةُ": "Obstruction ou se dresser sur le chemin",
+          "الْقَهْرُ": "Contrainte ou force",
+          "الْمَفْسَدَةُ": "Corruption ou préjudice",
+          "الرِّسَالَةُ": "Prophétie ou messagerie",
+          "الرِّئَاسَةُ": "Imamat ou leadership"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi erläutert die theologische Unterscheidung zwischen göttlichem Zwang (Qahr) und der Bewahrung des menschlichen freien Willens (Ikhtiyar) und argumentiert, dass die physische Verhinderung des Todes des Imams den Lohn des Gehorsams und die Prüfung des Glaubens aufheben würde. Dieser Abschnitt untermauert die schiitische Lehre, dass die Pflicht des Imamats intrinsisch und beständig ist, anstatt eine vorübergehende Gunst zu sein, und validiert damit die Phase der Verborgenheit (Ghayba) als notwendigen Schritt zur Aufrechterhaltung der Gültigkeit der religiösen Pflicht.",
+        "seo_question": "Warum verhindert Allah physisch nicht die Tötung des Imams, wenn Er es will?",
+        "key_terms": {
+          "التَّكْلِيلُ": "Religionspflicht oder Verpflichtung",
+          "الْحِيلُولَةُ": "Hinderung oder Wegstehen",
+          "الْقَهْرُ": "Zwang oder Gewalt",
+          "الْمَفْسَدَةُ": "Korruption oder Schaden",
+          "الرِّسَالَةُ": "Prophetentum oder Gesandtschaft",
+          "الرِّئَاسَةُ": "Imamat oder Führung"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Туси разъясняет богословское различие между божественным принуждением (кахр) и сохранением человеческой свободы воли (ихтияр), утверждая, что физическое предотвращение смерти Имама лишило бы заслуги повиновения и смысла испытания верой. Этот отрывок укрепляет шиитскую доктрину о том, что обязанность Имамата является внутренней и постоянной, а не временной милостью, тем самым обосновывая период сокрытия (гайба) как необходимую фазу для поддержания действительности религиозного долга.",
+        "seo_question": "Почему Аллах не предотвращает физически убийство Имама, если пожелает?",
+        "key_terms": {
+          "التَّكْلِيلُ": "Религиозная обязанность или долг",
+          "الْحِيلُولَةُ": "Препятствие или преграда",
+          "الْقَهْرُ": "Принуждение или сила",
+          "الْمَفْسَدَةُ": "Искажение или вред",
+          "الرِّسَالَةُ": "Пророчество или посланничество",
+          "الرِّئَاسَةُ": "Имаматы или руководство"
+        }
+      },
+      "zh": {
+        "summary": "图西谢赫阐明了神圣强制（Qahr与人类自由意志（Ikhtiyar）之间的神学区别，认为对伊玛目死亡的物理阻止将否定顺从的功绩和信仰的考验。这段文字强化了什叶派教义，即伊玛目职位的义务是内在且恒常的，而非短暂的恩惠，从而证实了隐遁（Ghayba）时期是维持宗教义务有效性的必要阶段。",
+        "seo_question": "如果真主意愿，为何不物理上阻止伊玛目的被杀？",
+        "key_terms": {
+          "التَّكْلِيلُ": "宗教义务或责任",
+          "الْحِيلُولَةُ": "阻碍或挡在面前",
+          "الْقَهْرُ": "强制或力量",
+          "الْمَفْسَدَةُ": "腐败或伤害",
+          "الرِّسَالَةُ": "先知职或使者职",
+          "الرِّئَاسَةُ": "伊玛目职位或领导权"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:256",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:185",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:105",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:155",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "فَإِنْ قِيلَ: هَلَا مَنَعَ اللَّهُ مِنْ قَتْلِهِ بِمَا يُحَوِّلُ بَيْنَهُ وَبَيْنَ مَنْ يُرِيدُ قَتْلَهُ؟ قُلْنَا: الْمَنَعُ الَّذِي لَا يُنَافِي التَّكْلِيلَ هُوَ النَّهْيُ عَنْ خِلَافِهِ وَالْأَمْرُ بِوُجُوبِ اتِّبَاعِهِ وَنَصْرَتِهِ وَالتِّزَامِ الِانْقِيَادِ لَهُ، وَكُلُّ ذَلِكَ فِعْلُهُ تَعَالَى، وَأَمَّا الْحِيلُولَةُ بَيْنَهُمْ وَبَيْنَهُ فَإِنَّهَا تُنَافِي التَّكْلِيلَ، وَتُنْقِضُ الْغَرَضَ بِهِ، لِأَنَّ الْغَرَضَ بِالتَّكْلِيلِ اسْتِحْقَاقُ الثَّوَابِ، وَالْحِيلُولَةُ تُنَافِي ذَلِكَ، وَرُبَّمَا كَانَ فِي الْحِيلُولَةِ وَالْمَنَعِ مِنْ قَتْلِهِ بِالْقَهْرِ مَفْسَدَةٌ لِلْخَلْقِ، فَلَا يَحْسُنُ مِنَ اللَّهِ فِعْلُهَا. وَلَيْسَ هَذَا كَمَا قَالَ بَعْضُ أَصْحَابِنَا: إِنَّهُ لَا يَمْتَنِعُ أَنْ يَكُونَ فِي ظُهُورِهِ مَفْسَدَةٌ وَفِي اسْتِتَارِهِ مُصْلَحَةٌ، لِأَنَّ الَّذِي قَالَهُ يُفْسِدُ طَرِيقَ وُجُوبِ الرِّسَالَةِ فِي كُلِّ حَالٍ وَتَطَرُّقَ الْقَوْلِ بِأَنَّهَا تَجْرِي مَجْرَى الْأَلْطَافِ الَّتِي تَتَغَيَّرُ بِالْأَزْمَانِ وَالْأَوْقَاتِ، وَالْقَهْرُ وَالْحِيلُولَةُ لَيْسَ كَذَلِكَ، وَلَا يَمْتَنِعُ أَنْ يُقَالَ: إِنَّ فِي ذَلِكَ مَفْسَدَةً وَلَا يُؤَدِّي إِلَى إِفْسَادِ وُجُوبِ الرِّئَاسَةِ.",
+    "isnad_matn": {
+      "isnad_ar": "فإن قيل: هلا منع الله من قتله بما يحول بينه وبين من يريد قتله؟ قلنا: المنع الذي لا ينافي التكليف هو النهي عن خلافه والامر بوجوب اتباعه ونصرته والتزام الانقياد له، وكل ذلك فعله تعالى، وأما الحيلولة بينهم وبينه فإنه ينافي التكليف، وينقض الغرض (به)، لان الغرض بالتكليف استحقاق الثواب، والحيلولة ينافي ذلك، وربما كان في",
+      "matn_ar": "فَإِنْ قِيلَ: هَلَا مَنَعَ اللَّهُ مِنْ قَتْلِهِ بِمَا يُحَوِّلُ بَيْنَهُ وَبَيْنَ مَنْ يُرِيدُ قَتْلَهُ؟ قُلْنَا: الْمَنَعُ الَّذِي لَا يُنَافِي التَّكْلِيلَ هُوَ النَّهْيُ عَنْ خِلَافِهِ وَالْأَمْرُ بِوُجُوبِ اتِّبَاعِهِ وَنَصْرَتِهِ وَالتِّزَامِ الِانْقِيَادِ لَهُ، وَكُلُّ ذَلِكَ فِعْلُهُ تَعَالَى، وَأَمَّا الْحِيلُولَةُ بَيْنَهُمْ وَبَيْنَهُ فَإِنَّهَا تُنَافِي التَّكْلِيلَ، وَتُنْقِضُ الْغَرَضَ بِهِ، لِأَنَّ الْغَرَضَ بِالتَّكْلِيلِ اسْتِحْقَاقُ الثَّوَابِ، وَالْحِيلُولَةُ تُنَافِي ذَلِكَ، وَرُبَّمَا كَانَ فِي الْحِيلُولَةِ وَالْمَنَعِ مِنْ قَتْلِهِ بِالْقَهْرِ مَفْسَدَةٌ لِلْخَلْقِ، فَلَا يَحْسُنُ مِنَ اللَّهِ فِعْلُهَا. وَلَيْسَ هَذَا كَمَا قَالَ بَعْضُ أَصْحَابِنَا: إِنَّهُ لَا يَمْتَنِعُ أَنْ يَكُونَ فِي ظُهُورِهِ مَفْسَدَةٌ وَفِي اسْتِتَارِهِ مُصْلَحَةٌ، لِأَنَّ الَّذِي قَالَهُ يُفْسِدُ طَرِيقَ وُجُوبِ الرِّسَالَةِ فِي كُلِّ حَالٍ وَتَطَرُّقَ الْقَوْلِ بِأَنَّهَا تَجْرِي مَجْرَى الْأَلْطَافِ الَّتِي تَتَغَيَّرُ بِالْأَزْمَانِ وَالْأَوْقَاتِ، وَالْقَهْرُ وَالْحِيلُولَةُ لَيْسَ كَذَلِكَ، وَلَا يَمْتَنِعُ أَنْ يُقَالَ: إِنَّ فِي ذَلِكَ مَفْسَدَةً وَلَا يُؤَدِّي إِلَى إِفْسَادِ وُجُوبِ الرِّئَاسَةِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "فإن قيل: هلا منع الله من قتله بما يحول بينه وبين من يريد قتله؟ قلنا: المنع الذي لا ينافي التكليف هو النهي",
+          "name_en": "fainna qila: hala mana'a Allahu min qatlihi bima yuhawwilu baynahu wa bayna man yuridu qatlahu? qulna: al-mana'u alladhi la yanafi al-taklif huwa al-nahy",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "خلافه والامر بوجوب اتباعه ونصرته والتزام الانقياد له، وكل ذلك فعله تعالى، وأما الحيلولة بينهم وبينه فإنه ينافي التكليف، وينقض الغرض (به)، لان الغرض بالتكليف استحقاق الثواب، والحيلولة ينافي ذلك، وربما كان في",
+          "name_en": "khilafuhu wa al-amru bi-wujub itiba'ihi wa nasratihi wa al-talazzum bi-l-inqiadi lihi, wa kullu dhalika fi'luhu ta'ala, wa ama al-haylulatuhum baynahum wa baynahu fahuwa yanafi al-taklif, wa yanqudhu al-gharada (bihi), li-anna al-gharada bi-l-taklif istihqaq al-thawab, wa al-haylulatuhum yanafi dhalika, wa rabba ma kana fi",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

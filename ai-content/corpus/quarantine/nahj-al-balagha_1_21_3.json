@@ -1,0 +1,418 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:21:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 27 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'أفأمرهم الله ـ سبحانه ـ بالاختلاف فأطاعوه! أم نهاهم عنه فعصو'",
+    "chunks[4] word '(صلى' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'وآله)' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "quran_commentary",
+      "jurisprudence"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "quran_interpretation_method",
+      "divine_knowledge",
+      "scholars_virtues"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "أَفَأَمَرَهُمُ ٱللَّهُ ـ سُبْحَٰنَهُ ـ بِٱلْاخْتِلَافِ فَأَطَاعُوهُ!",
+        "translations": {
+          "en": "Is it that Allāh ordered them to differ and they obeyed Him?",
+          "ur": "کیا اللہ نے انہیں اختلاف کا حکم دیا اور انہوں نے اس کی اطاعت کی؟",
+          "tr": "Ya Allah onlara ihtilaf etmelerini emretti ve onlar da O'na itaat ettiler mi?",
+          "fa": "آیا خداوند آنان را به اختلاف امر کرد و آنان از او اطاعت نمودند؟",
+          "id": "Apakah Allah memerintahkan mereka untuk berselisih lalu mereka menaati-Nya?",
+          "bn": "আল্লাহ কি তাদেরকে বিভিন্নতা বরণ করতে আদেশ দিয়েছিলেন এবং তারা তাঁর আদেশ পালন করেছিল?",
+          "es": "¿Acabó ordenándoles que se diferenciasen y ellos le obedecieron?",
+          "fr": "Est-ception",
+          "de": "Ist es, dass Allāh ihnen befahl, sich zu unterscheiden, und sie Ihm gehorchten?",
+          "ru": "Разве Аллах повелел им разногласить, и они повиновались Ему?",
+          "zh": "难道是真主命令他们分歧，而他们顺从了吗？"
+        },
+        "word_start": 0,
+        "word_end": 7
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَمْ نَهَاهُمْ عَنْهُ فَعَصَوْهُ!",
+        "translations": {
+          "en": "Or He prohibited them from it but they disobeyed Him?",
+          "ur": "یا انہیں اس سے منع فرمایا مگر انہوں نے اس کی نافرمانی کی؟",
+          "tr": "Ya da Ona karşı isyan ederek O'nun yasakladığı şeyi yaptılar?",
+          "fa": "یا اینکه خداوند آن‌ها را از آن منع کرد، ولی آن‌ها از او نافرمانی کردند؟",
+          "id": "Atau Dia melarang mereka darinya, tetapi mereka mendurhakai-Nya?",
+          "bn": "অথবা তিনি তাদেরকে তা থেকে নিষেধ করেছিলেন, কিন্তু তারা তাঁর অবাধ্যতা করল?",
+          "es": "¿O les prohibió Él eso, pero ellos desobedecieron?",
+          "fr": "Ou bien Il leur a interdit cela, mais ils ont-ils désobéi ?",
+          "de": "Oder hat Er es ihnen verboten, aber sie haben Ihm ungehorsam gehandelt?",
+          "ru": "Или Он запретил им это, но они ослушались Его?",
+          "zh": "还是他禁止他们这样做，但他们却违抗了他？"
+        },
+        "word_start": 7,
+        "word_end": 11
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَمْ أَنْزَلَ ٱللَّهُ سُبْحَٰنَهُ دِيناً نَاقِصاً فَاسْتَعَانَ بِهِمْ عَلَىٰ إِتْمَامِهِ!",
+        "translations": {
+          "en": "Or (is it that) Allāh sent an incomplete Faith and sought their help to complete it?",
+          "ur": "یا اللہ نے ایک ناقص ایمان بھیجا اور اسے کامل بنانے کے لیے ان کی مدد طلب کی؟",
+          "tr": "Ya da (öyle mi?) Allah, eksik bir İman gönderdi ve onu tamamlamaları için onlardan yardım istedi mi?",
+          "fa": "یا (آیا) خداوند دینی ناکامل فرستاد و برای کامل کردن آن از آنان یاری خواست؟",
+          "id": "Atau (apakah) Allāh menurunkan agama yang tidak sempurna dan meminta bantuan mereka untuk menyempurnakannya?",
+          "bn": "অথবা (কি) আল্লাহ্‌ একটি অসম্পূর্ণ ঈমান পাঠিয়েছিলেন এবং তা সম্পূর্ণ করতে তাদের সাহায্য চেয়েছিলেন?",
+          "es": "O es que Alāh envió una fe incompleta y buscó su ayuda para completarla?",
+          "fr": "Ou bien (est-ce que) Allāh a envoyé une foi incomplète et a sollicité leur aide pour la compléter ?",
+          "de": "Oder (ist es so,) dass Allāh einen unvollständigen Glauben sandte und ihre Hilfe suchte, um ihn zu vervollständigen?",
+          "ru": "Или (так ли это), что Аллах ниспослал неполную веру и пожелал их помощи для её завершения?",
+          "zh": "还是说，真主降示了不完整的信仰，并寻求他们的帮助以完善它？"
+        },
+        "word_start": 11,
+        "word_end": 21
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَمْ كَانُواْ شُرَكَآءَ لَهُ فَلَهُمْ أَن يَقُولُ وَعَلَيْهِ أَن يَرْضَىٰ؟",
+        "translations": {
+          "en": "Or they are His partners in the affairs, so that it is their share of duty to pronounce and He has to agree?",
+          "ur": "یا وہی اس کے شریک ہیں ان کے کاموں میں، پس ان کا فرض ہے کہ وہ بولیں اور وہ اس پر راضی ہو؟",
+          "tr": "Ya da onlar, O'nun işlerdeki ortaklarıdır, böylece söz söylemek onların görev payıdır ve O'nun da buna razı olması gerekir mi?",
+          "fa": "یا آنان شریک‌کنندگانش در کارها هستند، تا اینکه از آنان وظیفه‌ای باشد که بگویند و او باید موافقت کند؟",
+          "id": "Atau mereka adalah sekutu-Nya dalam urusan-urusan, sehingga menjadi bagian kewajiban mereka untuk mengucapkan dan Allah harus menyetujuinya?",
+          "bn": "অথবা তারা তাঁর অংশীদার, তাই কর্তব্য পালন করা তাদের অংশ এবং তাঁর তা মেনে নিতে হয়?",
+          "es": "O son Sus socios en los asuntos, de modo que les corresponde a ellos pronunciar y Él tiene que estar de acuerdo?",
+          "fr": "Ou bien sont-ils Ses associés dans les affaires, de sorte que c'est leur part de devoir de prononcer et Lui doit accepter ?",
+          "de": "Oder sind sie Seine Gesellschafter in den Angelegenheiten, sodass es ihre Pflicht ist, zu sprechen, und Er muss zustimmen?",
+          "ru": "Или они являются Его соучастниками в делах, так что им принадлежит доля обязанности произносить [решение], а Ему остается лишь соглашаться?",
+          "zh": "或是他们在事务中为他的伙伴，因此宣告是他们的责任，而他必须同意？"
+        },
+        "word_start": 21,
+        "word_end": 31
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَمْ أَنْزَلَ ٱللَّهُ سُبْحَٰنَهُ دِيناً تَامّاً فَقَصَّرَ ٱلرَّسُولُ (صلى الله عليه وآله) عَن تَبْلِيغِهِ وَأَدَائِهِ؟",
+        "translations": {
+          "en": "Or is it that Allāh the Glorified sent a perfect faith but the Prophet fell short of conveying it and handing it over (to the people)?",
+          "ur": "یا یہ کہ اللہ تعالیٰ نے کامل ایمان بھیجا لیکن نبی کریم صلی اللہ علیہ وسلم نے اسے پہنچانے اور لوگوں کے سپرد کرنے میں کوتاہی کی؟",
+          "tr": "Yoksa Allah Teâlâ mükemmel bir imanı göndermiş de Peygamber (s.a.v.) onu tebliğ edip insanlara ulaştırmada eksiklik mi göstermiştir?",
+          "fa": "یا این که خداوند جلیل ایمانی کامل فرستاد، اما پیامبر در رساندن و ابلاغ آن به مردم کوتاهی کرد؟",
+          "id": "Atau apakah Allah Yang Maha Mulia menurunkan iman yang sempurna, namun Nabi kurang sempurna dalam menyampaikannya dan menyerahkannya (kepada umat)?",
+          "bn": "অথবা এটা কি যে, মহিমান্বিত আল্লাহ্ এক নিখুঁত ঈমান পাঠিয়েছেন, কিন্তু রাসূল (সা.) তা পৌঁছে দেওয়া ও হস্তান্তর করার ক্ষেত্রে ঘাটতি দেখিয়েছেন?",
+          "es": "¿O es que Alāh, el Glorificado, envió una fe perfecta, pero el Profeta se quedó corto en transmitirla y entregarla (al pueblo)?",
+          "fr": "Ou bien est-ce qu'Allāh le Glorifié a envoyé une foi parfaite, mais que le Prophète (paix et bénédictions sur lui) a manqué de la transmettre et de la remettre (au peuple) ?",
+          "de": "Oder ist es so, dass Allāh der Erhabene einen vollkommenen Glauben sandte, aber der Prophet es versäumte, ihn zu übermitteln und weiterzugeben (an die Menschen)?",
+          "ru": "Или, может быть, Аллах Всевышний ниспослал совершенную веру, но Пророк (мир ему и благословение) не смог в полной мере донести её и передать (людям)?",
+          "zh": "还是说，真主至尊降示了完美的信仰，但先知在传达和交付（给众人）时有所欠缺？"
+        },
+        "word_start": 31,
+        "word_end": 46
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَٱللَّهُ سُبْحَٰنَهُ يَقُولُ: ﴿مَّا فَرَّطْنَا فِي ٱلْكِتَابِ مِن شَيْءٍ﴾",
+        "translations": {
+          "en": "The fact is that Allāh the Glorified says : “... We have not neglected anything in the Book (Qur’ān) ...”",
+          "ur": "حقیقت یہ ہے کہ اللہ تعالیٰ کا ارشاد ہے: «... ہم نے کتاب (قرآن) میں کچھ بھی غفلت نہیں کی...»",
+          "tr": "Gerçek şudur ki, Allahu Teâlâ şöyle buyurur: «... Biz, Kitap'ta (Kur'ân'da) hiçbir şeyi ihmal etmedik...»",
+          "fa": "حقیقت این است که خداوند جلیل می‌فرماید: «... ما چیزی را در کتاب (قرآن) مغلوب نکرده‌ایم ...»",
+          "id": "Faktanya, Allāh yang Maha Mulia berfirman: \"... Kami tidak meninggalkan sesuatu pun dalam Kitab (Al-Qur'an)...\"",
+          "bn": "সত্য কথা এই যে, আল্লাহ তাআলা বলেন: \"...আমি কিতবে (কুরআনে) কিছুই অবহেলা করিনি...\"",
+          "es": "En efecto, Allāh el Glorificado dice: «... No hemos omitido nada en el Libro (el Corán)...»",
+          "fr": "En vérité, Allāh le Glorifié dit : « ... Nous n'avons négligé aucune chose dans le Livre (le Coran) ... »",
+          "de": "Tatsächlich sagt Allāh der Erhabene: „… Wir haben nichts im Buch (Qur’ān) vernachlässigt …“",
+          "ru": "Дело в том, что Всевышний Аллах говорит: «... Мы не оставили без внимания ничего в Книге (Коране)...»",
+          "zh": "事实是，真主荣耀他说：“……我们在经典（《古兰经》》中未忽略任何事物……”"
+        },
+        "word_start": 46,
+        "word_end": 55
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَفِيهِ تِبْيَانٌ لِكُلِّ شَيْء،",
+        "translations": {
+          "en": "and in it is a ‘clarification of everything’",
+          "ur": "اور اس میں ہر چیز کی تشریح ہے",
+          "tr": "ve onda her şeyin açıklaması vardır",
+          "fa": "و در آن «بیان همه چیز» است",
+          "id": "dan di dalamnya terdapat \"penjelasan segala sesuatu\"",
+          "bn": "এবং এতে রয়েছে 'সব কিছুর স্পষ্ট বিবরণ'",
+          "es": "y en ella está la «clarificación de todo»",
+          "fr": "et en elle se trouve une « clarification de toute chose »",
+          "de": "und darin ist eine „Klarstellung aller Dinge“",
+          "ru": "и в ней — «пояснение всего»",
+          "zh": "其中包含对万物的阐明"
+        },
+        "word_start": 55,
+        "word_end": 59
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَذَكَرَ أَنَّ ٱلْكِتَابَ يُصَدِّقُ بَعْضُهُ بَعْضاً،",
+        "translations": {
+          "en": "And says that one part of the Qur’ān verifies another part",
+          "ur": "اور کہتا ہے کہ قرآن کی ایک جگہ دوسری جگہ کی تصدیق کرتی ہے",
+          "tr": "Kur'ân'ın bir kısmının diğer kısmını doğruladığını söyler.",
+          "fa": "و می‌گوید که بخشی از قرآن، بخش دیگر را تأیید می‌کند",
+          "id": "Dan mengatakan bahwa satu bagian dari Al-Qur'an mengkonfirmasi bagian lainnya.",
+          "bn": "এবং বলে যে কুরআনের এক অংশ অন্য অংশকে সত্যায়িত করে",
+          "es": "Y dice que una parte del Corán verifica a otra parte",
+          "fr": "Et dit qu'une partie du Coran vérifie une autre partie",
+          "de": "Und sagt, dass ein Teil des Qur’ān einen anderen Teil bestätigt.",
+          "ru": "И говорит, что одна часть Корана подтверждает другую часть",
+          "zh": "并说《古兰经》的一部分证实另一部分"
+        },
+        "word_start": 59,
+        "word_end": 65
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَأَنَّهُ لاَ اخْتِلافَ فِيهِ،",
+        "translations": {
+          "en": "and that there is no divergence in it",
+          "ur": "اور اس میں کوئی اختلاف نہیں ہے",
+          "tr": "ve onda bir ayrılık olmadığını",
+          "fa": "و اینکه در آن هیچ گونه اختلافی نیست",
+          "id": "dan bahwa tidak ada perbedaan di dalamnya",
+          "bn": "text",
+          "es": "y que no hay divergencia en él",
+          "fr": "et qu'il n'y a aucune divergence en lui",
+          "de": "und dass es darin gibt es keine Abweichung",
+          "ru": "и что в нем нет разногласий",
+          "zh": "其中没有分歧"
+        },
+        "word_start": 65,
+        "word_end": 69
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَقَالَ سُبْحَٰنَهُ: ﴿وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُواْ فِيهِ اخْتِلَافًا كَثِيرًا﴾",
+        "translations": {
+          "en": "as He says : “... And if it had been from any other than Allāh, they would surely have found in it much discrepancy.”",
+          "ur": "جیسے کہ اس نے فرمایا: «اور اگر یہ کسی اور (اللہ) کی طرف سے ہوتا تو وہ اس میں بہت سی خرابیاں پاتے۔»",
+          "tr": "Allah'ın buyurduğu gibi: «... Ve o, Allah'tan başka bir yerden gelseydi, içinde çok farklılıklar bulurlardı.»",
+          "fa": "همان‌گونه که او می‌فرماید: «... و اگر از سوی غیر خدا بود، قطعاً در آن ناسازگاری‌های بسیاری می‌یافتند.»",
+          "id": "sebagaimana firman-Nya: \"... Dan sekiranya ia berasal dari selain Allah, niscaya mereka akan menemukan banyak perbedaan di dalamnya.\"",
+          "bn": "যেমন তিনি বলেন : \"... আর যদি এটি আল্লাহর পক্ষ থেকে অন্য কারো কাছ থেকে হতো, তবে তারা অবশ্যই এতে অনেক বিসংগতি খুঁজে পেত।\"",
+          "es": "como Él dice: «... Yijtaala dice: «Y si hubiera sido de distinto de Allāh, habrían encontrado en ella mucha discrepancia.»",
+          "fr": "comme Il dit : « ... Et si c'avait été de la part d'un autre qu'Allah, ils y auraient certes trouvé une grande discorde. »",
+          "de": "wie Er sagt: „… Und wenn es von einem anderen als von Allah wäre, so würden sie darin gewiss viele Widersprüche gefunden haben.“",
+          "ru": "как Он говорит: «… И если бы оно было не от Аллаха, то они, несомненно, нашли бы в нём много разногласий».",
+          "zh": "正如祂所说：“如果它不是来自真主，他们必定会在其中发现许多矛盾。”"
+        },
+        "word_start": 69,
+        "word_end": 81
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) employs a series of rhetorical questions to dismantle the legitimacy of sectarian division, arguing that if the Qur'an is complete and self-sufficient, as affirmed by the principle of *tibrāz* (mutual verification of verses), then discrepancies in juristic opinions must stem from human error rather than divine ambiguity. This passage is foundational in Shia usul al-fiqh for establishing the Qur'an's internal coherence and serving as the primary criterion for validating or invalidating interpretive traditions.",
+        "seo_question": "How does the Qur'an's internal consistency refute contradictory juristic opinions?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "Disagreement or divergence",
+          "دِيناً نَاقِصاً": "Incomplete religion/faith",
+          "إِتْمَام": "Completion",
+          "شُرَكَاءَ": "Partners",
+          "تَبْلِيغ": "Conveying/Transmission",
+          "تِبْيَان": "Clarification",
+          "يُصَدِّق": "Verifies/Confirms",
+          "ٱلْكِتَاب": "The Book (Qur'an)"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) اختلافِ مذہب کی مشروعیت کو ختم کرنے کے لیے ایک سیریز میں استفسارات کا استعمال کرتے ہوئے دلیل دیتے ہیں کہ اگر قرآن مکمل اور خود کفیل ہے، جیسا کہ اصولِ تبیین (آیات کا باہمی تصدیق) کی تائید کرتا ہے، تو فقہی آراء میں اختلاف انسانی غلطی کی وجہ سے ہے نہ کہ الٰہی ابہام کی۔ یہ passage شیعہ اصولِ فقہ میں قرآن کی داخلی ہم آہنگی قائم کرنے اور تفسیری روایات کی تصدیق یا رد کے لیے بنیادی معیار کے طور پر اہمیت رکھتا ہے۔",
+        "seo_question": "قرآن کی داخلی ہم آہنگی متضاد فقہی آراء کو کیسے رد کرتی ہے؟",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "اختلاف",
+          "دِيناً نَاقِصاً": "ناقص دین",
+          "إِتْمَام": "اتمام",
+          "شُرَكَاءَ": "شراکت دار",
+          "تَبْلِيغ": "تبلیغ",
+          "تِبْيَان": "بیان",
+          "يُصَدِّق": "تصدیق",
+          "ٱلْكِتَاب": "کتاب"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aleyhisselam), mezhepler arası bölünmenin meşruiyetini çürütmek için bir dizi retorik soru kullanır; Kur'an'ın, ayetlerin birbirini doğrulaması ilkesi (*tibrāz*) ile teyit edildiği üzere tam ve kendi kendine yeten bir metin ise, fıkıh görüşlerindeki farklılıklar ilahi belirsizlikten değil, insan hatasından kaynaklanmalıdır. Bu pasaj, Şia usulü'l-fıkıh'ında Kur'an'ın iç tutarlılığını tesis etmek ve yorum geleneğini doğrulama ya da geçersiz kılma için birincil ölçüt olarak hizmet etmek açısından temel bir yere sahiptir.",
+        "seo_question": "Kur'an'ın iç tutarlılığı, çelişkili fıkıh görüşlerini nasıl çürütür?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "Farklılık",
+          "دِيناً نَاقِصاً": "Eksik din",
+          "إِتْمَام": "Tamamlama",
+          "شُرَكَاءَ": "Ortaklar",
+          "تَبْلِيغ": "Teblig",
+          "تِبْيَان": "Açıklık",
+          "يُصَدِّق": "Doğrular",
+          "ٱلْكِتَاب": "Kitap"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علیه السلام) با به کارگیری سؤالات بلاغی متعدد، مشروعیت اختلافات فرقه‌ای را زیر سوال می‌برد و استدلال می‌کند که اگر قرآن کامل و خودکفا باشد، همان‌طور که اصل «تبرّز» (تأیید متقابل آیات) تأیید می‌کند، سپس اختلاف در آرای فقهی ناشی از خطای انسانی است نه ابهام الهی. این passage بنیادی در اصول فقه شیعه برای اثبات انسجام درونی قرآن و به عنوان معیار اصلی برای تأیید یا رد سنت‌های تفسیری است.",
+        "seo_question": "چگونه انسجام درونی قرآن، آرای فقهی متضاد را رد می‌کند؟",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "اختلاف یا گرایش",
+          "دِيناً نَاقِصاً": "دین ناقص",
+          "إِتْمَام": "کمال",
+          "شُرَكَاءَ": "شرکا",
+          "تَبْلِيغ": "تبلیغ",
+          "تِبْيَان": "بیان",
+          "يُصَدِّق": "تصدیق می‌کند",
+          "ٱلْكِتَاب": "کتاب"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali ( ",
+        "seo_question": "Bagaimana konsistensi internal Al-Qur'an membantah pendapat-pendapat fikih yang bertentangan?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "Perbedaan pendapat",
+          "دِيناً نَاقِصاً": "Agama yang tidak sempurna",
+          "إِتْمَام": "Penyempurnaan",
+          "شُرَكَاءَ": "Mitra",
+          "تَبْلِيغ": "Penyampaian",
+          "تِبْيَان": "Penjelasan",
+          "يُصَدِّق": "Memverifikasi",
+          "ٱلْكِتَاب": "Kitab"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আলৈহিসসালাম) বংশানুক্রমিক রиторিক্যাল প্রশ্নের মাধ্যমে সম্প্রদায়ভিত্তিক বিভাজনের বৈধতা খণ্ডন করেন, যুক্তি দেন যে যদি কুরআন সম্পূর্ণ এবং স্বয়ংসম্পূর্ণ হয়, যা *তিব্রাজ* (আয়াতগুলোর পারস্পরিক যাচাই) নীতি দ্বারা নিশ্চিত, তবে ফিকহী মতভেদগুলি ঈশ্বরের অস্পষ্টতা থেকে নয়, বরং মানবীয় ভুল থেকে উদ্ভূত। এই অংশ শিয়া উসুল আল-ফিকহে কুরআনের অভ্যন্তরীণ সামঞ্জস্য প্রতিষ্ঠা এবং ব্যাখ্যামূলক ঐতিহ্যগুলিকে বৈধ বা অবৈধ ঘোষণার প্রাথমিক মানদণ্ড হিসেবে এটিকে মৌলিক বলে গণ্য করা হয়।",
+        "seo_question": "কুরআনের অভ্যন্তরীণ সামঞ্জস্য কীভাবে পরস্পরবিরোধী ফিকহী মতামতকে প্রত্যাখ্যান করে?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "মতভেদ বা বিচ্যুতি",
+          "دِيناً نَاقِصاً": "অসম্পূর্ণ ধর্ম/ঈমান",
+          "إِتْمَام": "সম্পূর্ণতা",
+          "شُرَكَاءَ": "অংশীদার",
+          "تَبْلِيغ": "প্রেরণ/সংক্রমণ",
+          "تِبْيَان": "স্পষ্টীকরণ",
+          "يُصَدِّق": "যাচাই করে/নিশ্চিত করে",
+          "ٱلْكِتَاب": "কিতাব (কুরআন)"
+        }
+      },
+      "es": {
+        "summary": "El Imam Alí (que la paz sea con él) emplea una serie de preguntas retóricas para desmantelar la legitimidad de la división sectaria, argumentando que si el Corán es completo y autosuficiente, como afirma el principio de *tibrāz* (verificación mutua de los versículos), entonces las discrepancias en las opiniones jurídicas deben provenir del error humano en lugar de la ambigüedad divina. Este pasaje es fundamental en el usul al-fiqh chií para establecer la coherencia interna del Corán y servir como criterio principal para validar o invalidar las tradiciones interpretativas.",
+        "seo_question": "¿Cómo la consistencia interna del Corán refuta las opiniones jurídicas contradictorias?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "Desacuerdo o divergencia",
+          "دِيناً نَاقِصاً": "Religión/fe incompleta",
+          "إِتْمَام": "Completitud",
+          "شُرَكَاءَ": "Socios",
+          "تَبْلِيغ": "Transmisión",
+          "تِبْيَان": "Aclaración",
+          "يُصَدِّق": "Verifica/Confirma",
+          "ٱلْكِتَاب": "El Libro (Corán)"
+        }
+      },
+      "fr": {
+        "summary": "L'Imam Ali (que la paix soit sur lui) utilise une série de questions rhétoriques pour déconstruire la légitimité de la division sectaire, arguant que si le Coran est complet et autosuffisant, comme l'affirme le principe de *tibrāz* (vérification mutuelle des versets), alors les divergences dans les opinions juridiques doivent provenir de l'erreur humaine plutôt que de l'ambiguïté divine. Ce passage est fondamental dans l'usul al-fiqh chiite pour établir la cohérence interne du Coran et servir de critère principal pour valider ou invalider les traditions interprétatives.",
+        "seo_question": "Comment la cohérence interne du Coran réfute-t-elle les opinions juridiques contradictoires ?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "Désaccord ou divergence",
+          "دِيناً نَاقِصاً": "Religion/foi incomplète",
+          "إِتْمَام": "Achèvement",
+          "شُرَكَاءَ": "Partenaires",
+          "تَبْلِيغ": "Transmission",
+          "تِبْيَان": "Clarification",
+          "يُصَدِّق": "Vérifie/Confirme",
+          "ٱلْكِتَاب": "Le Livre (Coran)"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede sei mit ihm) nutzt eine Reihe rhetorischer Fragen, um die Legitimität der sektiererischen Spaltung zu widerlegen, und argumentiert, dass, wenn der Qur'an vollständig und in sich selbst ausreichend ist, wie durch das Prinzip der *Tibrāz* (gegenseitige Bestätigung der Verse) bestätigt, Diskrepanzen in den juristischen Meinungen auf menschliche Fehler und nicht auf göttliche Mehrdeutigkeit zurückzuführen sind. Dieser Abschnitt ist grundlegend für die schiitische Usul al-Fiqh, um die innere Kohärenz des Qur'an zu etablieren und als primäres Kriterium zur Validierung oder Invalidierung von Interpretationstraditionen zu dienen.",
+        "seo_question": "Wie widerlegt die innere Konsistenz des Qur'an widersprüchliche juristische Meinungen?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "Uneinigkeit oder Abweichung",
+          "دِيناً نَاقِصاً": "Unvollständige Religion/Glaube",
+          "إِتْمَام": "Vollendung",
+          "شُرَكَاءَ": "Partner",
+          "تَبْلِيغ": "Übermittlung/Übertragung",
+          "تِبْيَان": "Klärung",
+          "يُصَدِّق": "Bestätigt/Bestätigt",
+          "ٱلْكِتَاب": "Das Buch (Qur'an)"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (да будет над ним мир) использует ряд риторических вопросов, чтобы опровергнуть обоснованность сектантских разногласий, утверждая, что если Коран полон и самодостаточен, как подтверждается принципом *табраз* (взаимного подтверждения аятов), то расхождения в юридических мнениях должны проистекать из человеческой ошибки, а не из божественной неоднозначности. Этот отрывок является основополагающим в шиитском усуль аль-фикх для установления внутренней согласованности Корана и служит главным критерием для подтверждения или опровержения интерпретативных традиций.",
+        "seo_question": "Как внутренняя согласованность Корана опровергает противоречивые юридические мнения?",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "Разногласие или расхождение",
+          "دِيناً نَاقِصاً": "Неполная религия/вера",
+          "إِتْمَام": "Завершение",
+          "شُرَكَاءَ": "Партнёры",
+          "تَبْلِيغ": "Передача/Трансляция",
+          "تِبْيَان": "Уяснение",
+          "يُصَدِّق": "Подтверждает",
+          "ٱلْكِتَاب": "Книга (Коран)"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）通过一系列反问句驳斥教派分裂的合法性，主张如果《古兰经》如*提布拉兹*（经文互证）原则所肯定那样是完整且自足的，那么法学家意见的差异必然源于人为错误而非神圣启示的模糊。这段经文在什叶派乌苏勒·菲格赫（法理学原理）中具有奠基意义，确立了《古兰经》的内部连贯性，并作为验证或否定解释传统的最高标准。",
+        "seo_question": "《古兰经》的内部一致性如何反驳矛盾的法学家意见？",
+        "key_terms": {
+          "ٱلْاخْتِلَاف": "分歧",
+          "دِيناً نَاقِصاً": "不完美的宗教/信仰",
+          "إِتْمَام": "完成",
+          "شُرَكَاءَ": "伙伴",
+          "تَبْلِيغ": "传达/传递",
+          "تِبْيَان": "阐明",
+          "يُصَدِّق": "证实/确认",
+          "ٱلْكِتَاب": "经典（《古兰经》）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "6:38",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:82",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "أَفَأَمَرَهُمُ ٱللَّهُ ـ سُبْحَٰنَهُ ـ بِٱلْاخْتِلَافِ فَأَطَاعُوهُ! أَمْ نَهَاهُمْ عَنْهُ فَعَصَوْهُ! أَمْ أَنْزَلَ ٱللَّهُ سُبْحَٰنَهُ دِيناً نَاقِصاً فَاسْتَعَانَ بِهِمْ عَلَىٰ إِتْمَامِهِ! أَمْ كَانُواْ شُرَكَآءَ لَهُ فَلَهُمْ أَن يَقُولُ وَعَلَيْهِ أَن يَرْضَىٰ؟ أَمْ أَنْزَلَ ٱللَّهُ سُبْحَٰنَهُ دِيناً تَامّاً فَقَصَّرَ ٱلرَّسُولُ (صلى الله عليه وآله) عَن تَبْلِيغِهِ وَأَدَائِهِ؟ وَٱللَّهُ سُبْحَٰنَهُ يَقُولُ: ﴿مَّا فَرَّطْنَا فِي ٱلْكِتَابِ مِن شَيْءٍ﴾ وَفِيهِ تِبْيَانٌ لِكُلِّ شَيْء، وَذَكَرَ أَنَّ ٱلْكِتَابَ يُصَدِّقُ بَعْضُهُ بَعْضاً، وَأَنَّهُ لاَ اخْتِلافَ فِيهِ، فَقَالَ سُبْحَٰنَهُ: ﴿وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُواْ فِيهِ اخْتِلَافًا كَثِيرًا﴾",
+    "isnad_matn": {
+      "isnad_ar": "أَفَأَمَرَهُمُ اللهُ ـ سُبْحَانَهُ ـ بِالاخْتلاَفِ فَأَطَاعُوهُ! أَمْ نَهَاهُمْ عَنْهُ فَعَصَوْهُ! أَمْ أَنْزَلَ اللهُ سُبْحَانَهُ دِيناً نَاقِصاً فَاسْتَعَانَ بِهِمْ عَلَى إِتْمَامِهِ! أَمْ كَانُوا شُرَكَاءَ لَهُ فَلَهُمْ أَنْ يَقُولُ",
+      "matn_ar": "أَفَأَمَرَهُمُ ٱللَّهُ ـ سُبْحَٰنَهُ ـ بِٱلْاخْتِلَافِ فَأَطَاعُوهُ! أَمْ نَهَاهُمْ عَنْهُ فَعَصَوْهُ! أَمْ أَنْزَلَ ٱللَّهُ سُبْحَٰنَهُ دِيناً نَاقِصاً فَاسْتَعَانَ بِهِمْ عَلَىٰ إِتْمَامِهِ! أَمْ كَانُواْ شُرَكَآءَ لَهُ فَلَهُمْ أَن يَقُولُ وَعَلَيْهِ أَن يَرْضَىٰ؟ أَمْ أَنْزَلَ ٱللَّهُ سُبْحَٰنَهُ دِيناً تَامّاً فَقَصَّرَ ٱلرَّسُولُ (صلى الله عليه وآله) عَن تَبْلِيغِهِ وَأَدَائِهِ؟ وَٱللَّهُ سُبْحَٰنَهُ يَقُولُ: ﴿مَّا فَرَّطْنَا فِي ٱلْكِتَابِ مِن شَيْءٍ﴾ وَفِيهِ تِبْيَانٌ لِكُلِّ شَيْء، وَذَكَرَ أَنَّ ٱلْكِتَابَ يُصَدِّقُ بَعْضُهُ بَعْضاً، وَأَنَّهُ لاَ اخْتِلافَ فِيهِ، فَقَالَ سُبْحَٰنَهُ: ﴿وَلَوْ كَانَ مِنْ عِندِ غَيْرِ ٱللَّهِ لَوَجَدُواْ فِيهِ اخْتِلَافًا كَثِيرًا﴾",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أفأمرهم الله ـ سبحانه ـ بالاختلاف فأطاعوه! أم نهاهم عنه فعصوه! أم أنزل الله سبحانه دينا ناقصا فاستعان بهم على إتمامه! أم كانوا شركاء له فلهم أن",
+          "name_en": "Afamarrahum Allahu - subhanahu - bil-ikhtilaf fa-ata'u! Am nahahum 'anhu fa-'asahu! Am anzala Allahu subhanahu dinan naqisan fa-ista'ana bihim 'ala itmamih! Am kanu shuraka'a lahu falahum an",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

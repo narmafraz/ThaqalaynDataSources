@@ -1,0 +1,363 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:2:28:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 52 words (>14, بن-density 0.04 — likely a sentence fragment, not a name): 'أبو الخير علي بن أحمد النسابة عنمشايخه أن زيد بن موسى كان ين'",
+    "narrator[1] name_ar has 32 words (>14, بن-density 0.09 — likely a sentence fragment, not a name): 'توارى زيد بن موسى هذا فطلبه الحسن بن سهل حتى دل عليه، فأتي ب'"
+  ],
+  "result": {
+    "tags": [
+      "history",
+      "governance",
+      "family"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imams_biography",
+      "events",
+      "ghadir"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا أبُو الْخَيْرِ عَلِيُّ بْنُ أَحْمَدَ النَّسَّابَةُ عَنْ مَشَايِخِهِ أَنَّ زَيْدَ بْنَ مُوسَى كَانَ يُنَادِمُ الْمُسْتَنْصِرَ وَكَانَ فِي لِسَانِهِ فَضْلٌ وَكَانَ زَيْدِيّاً وَكَانَ زَيْدٌ هَذَا يَنْزِلُ بَغْدَادَ عَلَى نَهْرِ كَرْخَايَا وَهُوَ الَّذِي كَانَ بِالْكُوفَةِ أَيَّامَ أَبِي السَّرَايَا فَوَلَّاهُ،",
+        "translations": {
+          "en": "Abu al-Khayr Ali ibn Ahmad al-Nassaba narrated from his elders that Zayd ibn Musa was an intimate companion of al-Mustansir, and he possessed eloquence in speech, and he was a Zaydite, and this Zayd resided in Baghdad by the Karkhaya River, and he was the one who was in Kufa during the days of Abu al-Saraya, so he appointed him.",
+          "ur": "ابو الخیر علی بن احمد النسابة نے اپنے شیخوں سے روایت کی کہ زید بن موسیٰ المستنصر کے قریبی ساتھی تھے اور ان میں بولنے کی مہارت تھی اور وہ زیدی تھے اور یہ زید بغداد میں درِیائِ کرخایا کے قریب رہتے تھے اور وہی شخص کوفہ میں ابو السرّیا کے دور میں موجود تھے لہذا انہوں نے انہیں مقرر کیا۔",
+          "tr": "Ebü'l-Hayr Ali b. Ahmed en-Nessab, atalarından naklederek dedi ki: Zeyd b. Musa, el-Müstansır'ın yakın dostuydu; dilinde bir üstünlük (belagat) vardı; Zeydî idi; bu Zeyd, Bağdat'ta Karkâya nehri yanında ikamet ederdi; o, Ebu's-Serâyya'nın devrinde Küfe'de bulunan ve onu görevlendiren kişiydi.",
+          "fa": "ابو الخیر علی بن احمد النسابة از بزرگان خود روایت کرد که زید بن موسی از یاران نزدیک المستنیر بود و در سخن گفتن فصاحت داشت و زیدیتی بود و این زید در بغداد بر کنار رود کارخیا اقامت داشت و او همان کسی بود که در روزگار ابی السرایا در کوفه بود، پس او را گماشت.",
+          "id": "Abu al-Khayr Ali ibn Ahmad al-Nassaba meriwayatkan dari para syekh beliau bahwa Zayd ibn Musa adalah teman akrab al-Mustansir, dan ia memiliki kefasihan dalam berbicara, dan ia adalah seorang Zaydiyyah, dan Zayd ini tinggal di Baghdad di dekat Sungai Karkhaya, dan dialah yang berada di Kufah pada masa Abu al-Saraya, maka ia mengangkatnya.",
+          "bn": "আবুল খায়র আলী ইবনে আহমদ আন-নাসসাবা হতে বর্ণনা করেন যে, তিনি তাঁর শেখগণ থেকে জানতে পারলেন যে, জায়েদ ইবনে মুসা আল-মুস্তানসিরের ঘনিষ্ঠ সঙ্গী ছিলেন এবং তাঁর বাকশক্তিতে প্রাচুর্য ছিল, এবং তিনি ছিলেন জায়েদিয়া সম্প্রদায়ের, এবং এই জায়েদ বাগদাদে কারখায়া নদীর তীরে বাস করতেন, এবং তিনিই ছিলেন সেই ব্যক্তি যিনি আবু আস-সারায়ার দিনগুলোতে কুফায় ছিলেন, তাই তিনি তাকে নিয়োগ দিলেন।",
+          "es": "3- حَدَّثَنَا أبُو الْخَيْرِ عَلِيُّ بْنُ أحْمَدَ النَّسَّابَةُ عَنْمَشَايِخِهِ أنَّ زَيْدَ بْنَ مُوسَى كَانَ يُنَادِمُ الْمُسْتَنْصِرَ وَكَانَ فِی لِسَانِهِ فَضْلٌ وَكَانَ زَيْدِيّاً وَكَانَ زَيْدٌ هَذَا يَنْزِلُ بَغْدَادَ عَلَى نَهْرِ كَرْخَايَا وَهُوَ الَّذِي كَانَ بِالكُوفَةِ أيَّامَ أبِي السَّرَايَا فَوَلاَّهُ",
+          "fr": "Raconte-nous Abou al-Khayr Ali ibn Ahmad al-Nassaba, de ses aînés, que Zayd ibn Musa était un compagnon intime d'al-Mustansir, et qu'il possédait l'éloquence à la parole, et qu'il était Zaydite, et que ce Zayd résidait à Bagdad près de la rivière Karkhaya, et qu'il était celui qui se trouvait à Koufa du temps d'Abou al-Saraya, alors celui-ci l'investit.",
+          "de": "Abu al-Khayr Ali ibn Ahmad al-Nassaba überlieferte von seinen Lehrern, dass Zayd ibn Musa ein enger Gefährte al-Mustanirs war und Beredsamkeit in der Rede besaß, und er war ein Zaydit, und dieser Zayd residierte in Bagdad am Karkhaya-Fluss, und er war derjenige, der während der Tage des Abu al-Saraya in Kufa war, woraufhin er ihn ernannte.",
+          "ru": "Абу аль-Хайр Али ибн Ахмад ан-Нассаба передал от своих шейхов, что Зайд ибн Муса был близким другом аль-Мустансира, и он обладал красноречием, и он был зайдитом, и этот Зайд жил в Багдаде у реки Кархая, и он был тем, кто был в Куфе в дни Абу ас-Сарая, поэтому он назначил его.",
+          "zh": "3- 阿布·海赖·阿里·本·艾哈迈德·纳萨巴从他的前辈们传述，宰德·本·穆萨是穆斯希尔的亲密同伴，他口才出众，他是宰德派，这个宰德居住在巴格达的卡尔哈亚河畔，他就是阿布·萨拉亚时期在库法的那位，因此他被任命。"
+        },
+        "word_start": 0,
+        "word_end": 38
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمَّا قُتِلَ أَبُو السَّرَايَا تَفَرَّقَ الطَّالِبِيُّونَ فَتَوَارَى بَعْضُهُمْ بِبَغْدَادَ وَبَعْضُهُمْ بِالْكُوفَةِ، وَصَارَ بَعْضُهُمْ إِلَى الْمَدِينَةِ وَكَانَ مِمَّنْ تَوَارَى زَيْدُ بْنُ مُوسَى هَذَا فَطَلَبَهُ الْحَسَنُ بْنُ سَهْلٍ حَتَّى دُلَّ عَلَيْهِ، فَأُتِيَ بِهِ فَحَبَسَهُ ثُمَّ أَحْضَرَهُ عَلَى أَنْ يَضْرِبَ عُنُقَهُ وَجَرَّدَ السَّيَّافُ السَّيْفَ لِيَضْرِبَ عُنُقَهُ وَكَانَ حَضَرَ هُنَاكَ الْحَجَّاجُ بْنُ خَيْثَمَةَ فَقَالَ: أَيُّهَا الْأَمِيرُ إِنْ رَأَيْتَ أَنْ لَا تَعْجَلَ وَتَدْعُوَنِي إِلَيْكَ فَإِنَّ عِنْدِي نَصِيحَةً.",
+        "translations": {
+          "en": "So when Abu al-Saraya was killed, the Talibids dispersed; some of them hid in Baghdad and some in Kufa, and some went to Medina, and among those who hid was this Zayd ibn Musa, so al-Hasan ibn Sahl sought him until he was pointed out to him, so he was brought to him and imprisoned, then he was brought forward to have his neck struck, and the executioner drew his sword to strike his neck, and al-Hajjaj ibn Khaythama was present there and said: 'O Commander, if you see fit not to rush and call me to you, for I have advice for you.'",
+          "ur": "پس جب ابو السرایہ قتل ہو گئے تو طالبیان منتشر ہو گئے؛ ان میں سے کچھ بغداد میں چھپ گئے اور کچھ کوفہ میں، اور کچھ مدینہ چلے گئے، اور ان میں سے جو چھپے تھے ان میں یہ زید بن موسیٰ بھی تھا، پس حسن بن سهل نے اسے تلاش کیا یہاں تک کہ اسے اس کے سامنے پیش کیا گیا، پس اسے گرفتار کر لیا گیا، پھر اسے پیش کیا گیا تاکہ اس کی گردن کو کاٹا جائے، اور قاتل نے اپنی تلوار نکالی تاکہ اس کی گردن کو کاٹے، اور حجاج بن خیثمہ وہاں موجود تھا اور بولا: اے امیر، اگر تمہیں مناسب لگے تو جلدی نہ کرو اور مجھے اپنے پاس بلواؤ، کیونکہ میرے پاس تمہاریلئے مشورہ ہے۔",
+          "tr": "İşte bu yüzden Ebu's-Serâ kılıçlanıp öldürüldüğünde, Talîbiler dağıldı; bazılarları Bağdat'ta, bazılarları Kûfe'de saklandı, bazıları da Medine'ye gitti; ve saklananlar arasında Zeyd b. Mûsâ da vardı. Hasan b. Sahh, onu arayıp buluncaya kadar onu gösterilene kadar izledi, sonra huzuruna getirildi ve hapsedildi. Daha sonra boynu vurulmak üzere öne sürüldü; katil kılıcını çekip boynuna vurmak üzereyken, Haccâc b. Haythama orada bulunuyor ve şöyle diyordu: 'Ey Emîr, acele etmemeni uygun görürsen, bana doğru çağır, çünkü sana bir tavsiyem var.'",
+          "fa": "پس زمانی که ابوالصریا کشته شد، طالبیان پراکنده شدند؛ برخی از آنان در بغداد پنهان شدند و برخی در کوفه، و برخی به مدینه رفتند، و از جمله کسانی که پنهان شد این زید بن موسی بود، پس حسن بن سهل او را جستجو کرد تا زمانی که به او نشان داده شد، پس او را نزد او آوردند و زندانی کردند، سپس او را پیش آوردند تا گردنش زده شود، و جلاد شمشیر خود را کشید تا گردنش را بزند، و حجاج بن خیثمه در آنجا حاضر بود و گفت: «ای امیر، اگر شایه می‌دانی که عجله نکنی و مرا به سوی خود فراخوانی، زیرا من نصیحتی برای تو دارم.»",
+          "id": "Maka ketika Abu al-Saraya terbunuh, para Talibida bertebaran; sebagian dari mereka bersembunyi di Baghdad dan sebagian di Kufah, dan sebagian pergi ke Madinah, dan di antara yang bersembunyi adalah Zayd ibn Musa ini, maka al-Hasan ibn Sahl mencarinya hingga ia ditunjukkan kepadanya, maka ia dibawa kepadanya dan dipenjarakan, kemudian ia dihadapkan untuk dipenggal lehernya, dan algojo mengayunkan pedangnya untuk memenggal lehernya, dan al-Hajjaj ibn Khaythama hadir di sana dan berkata: 'Wahai Amir, jika Anda merasa pantas untuk tidak terburu-buru dan memanggil saya kepada Anda, karena saya memiliki nasihat untuk Anda.'",
+          "bn": "অতএব, যখন আবু আস-সারয়া নিহত হলো, তখন তালাবিয়াগণ ছত্রভঙ্গ হয়ে গেল; তাদের মধ্যে কেউ বাগদাদে, কেউ কুফায় এবং কেউ মদিনায় লুকিয়ে পড়ল; এবং তাদের মধ্যে এই জায়দ ইবনে মুসাও লুকিয়ে ছিল, তাই আল-হাসান ইবনে সাহল তাকে খুঁজতে লাগলেন যতক্ষণ না তাকে তার কাছে দেখানো হলো; অতঃপর তাকে নিয়ে আসা হলো এবং তাকে কারাগারে রাখা হলো, তারপর তাকে নিয়ে আসা হলো তার ঘাড় কাটার জন্য, এবং কাটিয়াকার তার ঘাড় কাটতে তলোয়ার তুলে ধরল; এবং আল-হাজ্জাজ ইবনে খায়তামা সেখানে উপস্থিত ছিলেন এবং বললেন: 'হে আমির, যদি আপনি যুক্তিযুক্ত মনে করেন যে দ্রুত না করে আমাকে আপনার কাছে ডেকে পাঠান, কারণ আমার আপনার জন্য পরামর্শ আছে।'",
+          "es": "Cuando Abu al-Saraya fue muerto, los taliditas se dispersaron; algunos de ellos se escondieron en Bagdad y otros en Kufa, y algunos fueron a Medina, y entre los que se escondieron estaba este Zayd ibn Musa, así al-Hasan ibn Sahl lo buscó hasta que se le señaló, así que fue traído ante él y encarcelado, luego fue presentado para que le cortaran el cuello, y el verdugo desenvainó su espada para golpear su cuello, y al-Hajjaj ibn Khaythama estaba presente allí y dijo: 'Oh Comandante, si ves conveniente no apresurarte y llamarme a ti, porque tengo un consejo para ti.'",
+          "fr": "Lorsque Abou al-Saraya fut tué, les Alides se dispersèrent ; certains se cachèrent à Bagdad, d'autres à Koufa, et d'autres encore se rendirent à Médine. Parmi ceux qui se cachèrent se trouvait ce Zayd ibn Moussa, et al-Hasan ibn Sahle le chercha jusqu'à ce qu'il lui soit signalé. Il fut alors amené à lui et emprisonné, puis on l'amena pour qu'on lui tranchât la nuque. Le bourreau leva son épée pour frapper, et al-Hajjaj ibn Khaythama, qui était présent, dit : « Ô Commandant, si tu le juges bon, ne te hâte pas et appelle-moi à toi, car j'ai un conseil à te donner. »",
+          "de": "Als also Abu al-Saraya getötet wurde, zerstreuten sich die Talibiden; einige von ihnen verbargen sich in Bagdad, andere in Kufa, und einige gingen nach Medina, und unter denen, die sich verbargen, befand sich dieser Zayd ibn Musa, so suchte al-Hasan ibn Sahl ihn, bis er ihm gezeigt wurde, so wurde er zu ihm gebracht und inhaftiert, dann wurde er hervorgeholt, um ihm den Nacken zu schlagen, und der Scharfrichter zog sein Schwert, um auf seinen Nacken zu schlagen, und al-Hajjaj ibn Khaythama war anwesend und sagte: »O Befehlshaber, wenn du es für angemessen hältst, nicht zu eilen und mich zu dir zu rufen, denn ich habe einen Rat für dich.«",
+          "ru": "Когда был убит Абу ас-Сарая, талибиты рассеялись; некоторые из них скрылись в Багдаде, некоторые в Куфе, а некоторые отправились в Медину, и среди скрывавшихся был этот Зайд ибн Муса, поэтому аль-Хасан ибн Сахль искал его, пока ему не указали на него, и его привели к нему и заключили в тюрьму, затем его вывели, чтобы ударить по шее, и палач поднял свой меч, чтобы ударить по его шее, и аль-Хаджжаж ибн Хайтама присутствовал там и сказал: «О эмир, если ты сочтешь уместным не торопиться и позовешь меня к себе, ибо у меня есть совет для тебя».",
+          "zh": "所以当阿布·萨赖亚被杀后，塔利卜家族的人四散奔逃；有些人在巴格达躲藏，有些人在库法，还有些人去了麦地那，其中躲藏的人中有宰德·本·穆萨，所以哈桑·本·萨赫寻找他，直到有人将他指认出来，于是他被带到哈桑·本·萨赫面前并被囚禁，随后他被带出来准备斩首，刽子手拔剑准备砍他的脖子，而哈贾吉·本·海赛姆在场，他说：\"指挥官啊，如果您认为不急于行动，请召我前来，因为我有建议要向您进言。\""
+        },
+        "word_start": 38,
+        "word_end": 100
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَفَعَلَ وَأَمْسَكَ السَّيَّافُ، فَلَمَّا دَنَا مِنْهُ قَالَ: أَيُّهَا الْأَمِيرُ أَتَاكَ بِمَا تُرِيدُ أَنْ تَفْعَلَهُ أَمْرٌ مِنْ أَمِيرِ الْمُؤْمِنِينَ؟ قَالَ: لَا. قَال: فَعَلَامَ تَقْتُلُ ابْنَ عَمِّ أَمِيرِ الْمُؤْمِنِينَ مِنْ غَيْرِ إِذْنِهِ وَأَمْرِهِ وَاسِطِلَاعِ رَأْيِهِ فِيهِ؟",
+        "translations": {
+          "en": "So he did and the executioner held back, and when he approached him he said: 'O Commander, has the Commander of the Faithful sent to you what you wish to do?' He said: 'No.' He said: 'Then why do you kill the cousin of the Commander of the Faithful without his permission, his order, and his being consulted on the matter?'",
+          "ur": "تو اس نے ایسا ہی کیا اور قاتل نے رکاوٹ ڈالی، اور جب وہ اس کے قریب پہنچا تو اس نے کہا: اے امیر! کیا امیر المومنین نے تمہیں وہ بھیجا ہے جو تم کرنا چاہتے ہو؟ اس نے کہا: نہیں۔ اس نے کہا: تو پھر تم امیر المومنین کے چچا زاد بھائی کو اس کی اجازت، اس کے حکم، اور اس کے مشورے کے بغیر کیوں قتل کر رہے ہو؟",
+          "tr": "Öyle de yaptı ve cellat geri durdu. O yaklaştığında, \"Ey Komutan, Müminlerin Emiri'den, yapmanı istediğin şeyi sana gönderdi mi?\" dedi. O da, \"Hayır\" dedi. O da, \"O halde, Müminlerin Emiri'nin kuzenini, onun izni, emri ve konuyla istişare edilmeden nasıl öldürüyorsun?\" dedi.",
+          "fa": "پس او چنین کرد و جلاد باز ایستاد، و هنگامی که نزدیک شد، گفت: «ای امیر، آیا امیرالمؤمنین به تو فرستاده است آنچه را که می‌خواهی انجام دهی؟» او گفت: «نه.» گفت: «پس چرا پسرعموی امیرالمؤمنین را بدون اذن او، بدون فرمان او، و بدون مشورت او در این باره می‌کشی؟»",
+          "id": "Maka ia pun melakukannya, dan algojo menahan diri. Ketika ia mendekat, ia berkata, 'Wahai Panglima, apakah Panglima Orang Beriman telah mengutus kepadamu apa yang ingin kamu lakukan?' Ia menjawab, 'Tidak.' Ia berkata, 'Lalu mengapa kamu membunuh sepupu Panglima Orang Beriman tanpa izinnya, perintahnya, dan tanpa ia dimintai pendapat dalam urusan ini?'",
+          "bn": "অতএব তিনি তা করলেন এবং কারাবাহক পেছিয়ে দাঁড়ালেন, এবং যখন তিনি তার কাছে এগিয়ে গেলেন, তখন তিনি বললেন: 'হে কমান্ডার, কি আমিরুল মুমিনীন আপনাকে যা করতে চান তা করার জন্য পাঠিয়েছেন?' তিনি বললেন: 'না।' তিনি বললেন: 'তাহলে আপনি কি কারণে আমিরুল মুমিনীনের চাচাতো ভাইকে তার অনুমতি ছাড়া, তার আদেশ ছাড়া, এবং এই বিষয়ে তাঁর পরামর্শ ছাড়াই হত্যা করছেন?'",
+          "es": "Así lo hizo, y el verdugo se detuvo, y cuando se acercó a él, le dijo: '¡Oh Comandante, ha enviado el Comandante de los Creyentes hacia ti lo que deseas hacer?' Él dijo: 'No.' Él dijo: 'Entonces, ¿por qué matas al primo del Comandante de los Creyentes sin su permiso, su orden y sin que se le haya consultado sobre el asunto?'",
+          "fr": "Alors il le fit, et le bourreau retint son coup, et lorsqu'il s'approcha de lui, il dit : « Ô Commandant, le Commandant des Croyants t'a-t-il envoyé ce que tu souhaites faire ? » Il dit : « Non. » Il dit : « Alors pourquoi tues-tu le cousin du Commandant des Croyants sans sa permission, son ordre, et sans qu'il ait été consulté sur la question ? »",
+          "de": "Da tat er es, und der Henker hielt zurück, und als er zu ihm trat, sprach er: »O Befehlshaber, hat der Befehlshaber der Gläubigen dir das gesandt, was du tun möchtest?« Er sagte: »Nein.« Er sagte: »Warum tötet du also den Cousin des Befehlshabers der Gläubigen ohne dessen Erlaubnis, seinen Befehl und ohne dass er in die Angelegenheit einbezogen wurde?«",
+          "ru": "И он сделал это, и палач задержался, и когда он приблизился к нему, то сказал: «О эмир, разве Повелитель правоверных послал тебе то, что ты хочешь сделать?» Он сказал: «Нет». Он сказал: «Тогда почему ты убиваешь двоюродного брата Повелителя правоверных без его разрешения, без его приказа и без того, чтобы он был проконсультирован по этому вопросу?»",
+          "zh": "于是他照做了，刽子手便按兵不动。当他走近时，问道：‘长官，信士的长官是否已派您来执行您所愿行之事？’他答：‘没有。’那人又说：‘那么，您为何在未经信士的长官许可、命令且未就此事征询其意见的情况下，杀害他的堂亲？’"
+        },
+        "word_start": 100,
+        "word_end": 134
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ حَدَّثَهُ بِحَدِيثِ أَبِي عَبْدِ اللهِ بْنِ الْأَفْطَسِ وَإنَّ الرَّشِيدَ حَبَسَهُ عِنْدَ جَعْفَرِ بْنِ يَحْيَى فَأَقْدَمَ عَلَيْهِ جَعْفَرٌ فَقَتَلَهُ مِنْ غَيْرِ أَمْرِهِ وَبَعَثَ بِرَأْسِهِ إِلَيْهِ فِي طَبَقٍ مَعَ هَدَايَا النَّيْرُوزِ وَإنَّ الرَّشِيدَ لَمَّا أَمَرَ مَسْرُوراً الْكَبِيرَ بِقَتْلِ جَعْفَرِ بْنِ يَحْيَى قَالَ لَهُ إِذَا سَألَكَ جَعْفَرٌ عَنْ ذَنْبِهِ الَّذِي تَقْتُلُهُ بِهِ فَقُلْ لَهُ إِنَّمَا أَقْتُلُكَ بِابْنِ عَمِّي ابْنِ الْأَفْطَسِ الَّذِي قَتَلْتَهُ مِنْ غَيْرِ أَمْرِي.",
+        "translations": {
+          "en": "Then he narrated to him the story of Abu Abdillah ibn al-Aftas, and indeed al-Rashid imprisoned him with Ja'far ibn Yahya, so Ja'far came to him and killed him without his order and sent his head to him on a tray along with the Nowruz gifts, and indeed when al-Rashid ordered Masrur al-Kabir to kill Ja'far ibn Yahya, he said to him: 'If Ja'far asks you about the sin for which you kill him, tell him: I am only killing you for my cousin ibn al-Aftas whom you killed without my order.'",
+          "ur": "پھر انہوں نے اسے ابو عبداللہ بن العفتاس کی کہی سنائی، اور بے شک الرشید نے انہیں جعفر بن یحییٰ کے ساتھ قید کیا تھا، پس جعفر ان کے پاس آیا اور ان کی اجازت کے بغیر انہیں قتل کر دیا اور ان کا سر ایک ٹرے پر نوروز کے تحائف کے ساتھ ان کے پاس بھیج دیا، اور بے شک جب الرشید نے مسرور الکبیر کو حکم دیا کہ وہ جعفر بن یحییٰ کو قتل کرے، تو اس نے اس سے کہا: اگر جعفر تم سے اس گناہ کے بارے میں پوچھے جس کی وجہ سے تم اسے قتل کر رہے ہو، تو اسے بتاؤ: میں تمہیں صرف اپنے چچا زاد بھائی بن العفتاس کی وجہ سے قتل کر رہا ہوں جسے تم نے میری اجازت کے بغیر قتل کر دیا تھا۔",
+          "tr": "Sonra ona Ebu Abdillah bül-Eftas'ın kıssasını anlattı. Şüphesiz Harun Reşid, Cafer b. Yahya ile birlikte onu hapsedmişti. Cafer gelip emri olmadan onu öldürdü ve başını, Nevruz hediyeleriyle birlikte bir tepsi üzerinde kendisine gönderdi. Şüphesiz Harun Reşid, Mesrûr-ı Kebir'e Cafer b. Yahya'yı öldürmesini emrettiğinde, o da kendisine: 'Cafer sana seni neden öldürdüğünü sorduğunda, ona: Ben seni, emrim olmadan öldürdüğün kuzenim bül-Eftas için öldürüyorum,' dedi.",
+          "fa": "سپس داستان ابوعبدالله بن الأفتاس را بر او روایت کرد و همانا مأمون او را با جعفر بن یحیی زندانی کرد، پس جعفر نزد او آمد و او را بدون فرمان مأمون کشت و سرش را با هدایای نوروز بر سینی نزد او فرستاد، و همانا هنگامی که مأمون دستور داد مسرور الکبیر جعفر بن یحیی را بکشد، مسرور به او گفت: اگر جعفر از تو درباره گناهی که به خاطر آن او را می‌کشی بپرسد، به او بگو: من تو را فقط برای پسرعمویم بن الأفتاس می‌کشم که تو او را بدون فرمان من کشتی.",
+          "id": "Kemudian ia menceritakan kepadanya kisah Abu Abdillah ibn al-Aftas, dan sesungguhnya al-Rashid memenjarakannya bersama Ja'far ibn Yahya, maka Ja'far datang kepadanya dan membunuhnya tanpa perintaannya, lalu mengirimkan kepalanya kepadanya di atas nampan bersama hadiah-hadiah Nowruz, dan sesungguhnya ketika al-Rashid memerintahkan Masrur al-Kabir untuk membunuh Ja'far ibn Yahya, ia berkata kepadanya: 'Jika Ja'far bertanya kepadamu tentang dosa yang menyebabkan kamu membunuhnya, katakanlah kepadanya: Aku hanya membunuhmu karena sepupuku, ibn al-Aftas, yang kamu bunuh tanpa perintaanku.'",
+          "bn": "অতঃপর তিনি আবু আবদিল্লাহ ইবনুল আফতাসের কাহিনী তাঁকে বর্ণনা করলেন, এবং নিশ্চয়ই আল-রশিদ তাঁকে জাফর ইবনুল ইয়াহ্যার সাথে কারাগারে আবদ্ধ করেছিলেন, তাই জাফর তাঁর নিকট এসে তাঁকে হত্যা করলেন, যদিও তিনি তা তাঁর আদেশ ছাড়াই করলেন, এবং তাঁর মস্তক একটি পাত্রে করে নওরুজের উপহারের সাথে তাঁর নিকট পাঠিয়ে দিলেন, এবং নিশ্চয়ই যখন আল-রশিদ মাসরুর আল-কাবিরকে জাফর ইবনুল ইয়াহ্যাকে হত্যা করার আদেশ দিলেন, তখন মাসরুর তাঁকে বললেন: 'যদি জাফর তোমাকে জিজ্ঞাসা করেন যে, কোন পাপের জন্য তুমি তাঁকে হত্যা করছ, তবে তাকে বলো: আমি কেবল আমার চাচাতো ভাই ইবনুল আফতাসের জন্যই তোমাকে হত্যা করছি, যাকে তুমি আমার আদেশ ছাড়াই হত্যা করেছিলে।'",
+          "es": "Luego le narró la historia de Abu Abdillah ibn al-Aftas, y en efecto, al-Rashid lo encarceló junto con Ja'far ibn Yahya, así que Ja'far fue a él y lo mató sin su orden, y envió su cabeza a él en una bandeja junto con los regalos de Nowruz, y en efecto, cuando al-Rashid ordenó a Masrur al-Kabir matar a Ja'far ibn Yahya, le dijo: 'Si Ja'far te pregunta por el pecado por el que lo matas, dile: Solo te estoy matando por mi primo ibn al-Aftas, a quien mataste sin mi orden'.",
+          "fr": "Puis il lui raconta l'histoire d'Abou Abou Abdillah ibn al-Aftas. En effet, al-Rashid l'emprisonna avec Ja'far ibn Yahya, alors Ja'far vint le tuer sans son ordre et lui envoya sa tête sur un plateau, accompagnée des cadeaux de Nowruz. Et lorsque al-Rashid ordonna à Masrour al-Kabir de tuer Ja'far ibn Yahya, celui-ci lui dit : « Si Ja'far te demande le péché pour lequel tu le tues, dis-lui : Je ne te tue que pour mon cousin ibn al-Aftas que tu as tué sans mon ordre. »",
+          "de": "Dann erzählte er ihm die Geschichte von Abu Abdillah ibn al-Aftas. Und wahrlich, al-Rashid inhaftierte ihn zusammen mit Ja'far ibn Yahya, da kam Ja'far zu ihm und tötete ihn, ohne dass er es befohlen hatte, und schickte ihm seinen Kopf auf einer Schale zusammen mit den Nowruz-Geschenken. Und als al-Rashid Masrur al-Kabir befahl, Ja'far ibn Yahya zu töten, sagte dieser zu ihm: 'Wenn Ja'far dich nach der Sünde fragt, wegen der du ihn tötet, so sage ihm: Ich töte dich nur wegen meines Cousins ibn al-Aftas, den du ohne meinen Befehl getötet hast.'",
+          "ru": "Затем он рассказал ему историю Абу Абдуллаха ибн аль-Афтаса, и действительно, аль-Махди заключил его в тюрьму вместе с Джафаром ибн Яхья, так что Джафар пришел к нему и убил его без его приказа, и отправил его голову на подносе вместе с дарами на Навруз, и действительно, когда аль-Мадид приказал Масруру аль-Кабир убить Джафара ибн Яхья, тот сказал ему: «Если Джафар спросит тебя о грехе, за который ты его убиваешь, скажи ему: Я убиваю тебя только за моего двоюродного брата ибн аль-Афтаса, которого ты убил без моего приказа».",
+          "zh": "随后他向他讲述了阿布·阿卜杜拉·伊本·阿尔-阿夫塔斯的故事，拉希德确实将他与贾法尔·伊本·叶海亚一同囚禁，于是贾法尔来到他那里，未经其命令便杀了他，并将他的头颅放在托盘上，连同诺鲁兹节的礼物一起送给他。当拉希德命令马斯鲁尔·阿尔-卡比尔去杀贾法尔·伊本·叶海亚时，马斯鲁尔对他说：‘如果贾法尔问你因何罪而杀他，你告诉他：我只是因你未经我命令杀害了我的表亲伊本·阿尔-阿夫塔斯而杀你。’"
+        },
+        "word_start": 134,
+        "word_end": 197
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ الْحَجَّاجُ بْنُ خَثِيمَةَ لِلْحَسَنِ بْنِ سَهْلٍ: أَفَتَأْمَنُ أَيُّهَا الْأَمِيرُ حَادِثَةً تَحْدُثُ بَيْنَكَ وَبَيْنَ أَمِيرِ الْمُؤْمِنِينَ وَقَدْ قَتَلْتَ هَذَا الرَّجُلَ فَيَحْتَجُّ عَلَيْكَ بِمِثْلِ مَا احْتَجَّ بِهِ الرَّشِيدُ عَلَى جَعْفَرِ بْنِ يَحْيَى؟",
+        "translations": {
+          "en": "Then al-Hajjaj ibn Khaythama said to al-Hasan ibn Sahl: 'Do you feel secure, O Commander, from an incident that occurs between you and the Commander of the Faithful, after you have killed this man, so he will use against you the same argument that al-Rashid used against Ja'far ibn Yahya?'",
+          "ur": "پھر حجاج بن خیثمہ نے حسن بن سهل سے کہا: اے امیر، کیا تمہیں یقین ہے کہ تم پر اور امیر المومنین کے درمیان کوئی واقعہ پیش نہ آئے گا، جب تم نے اس شخص کو قتل کر دیا ہے، تاکہ وہ تم پر وہی دلیل پیش کرے جو الرشید نے جعفر بن یحییٰ پر پیش کی تھی؟",
+          "tr": "Sonra Haccâc ibn Haytem, Hasan ibn Sahle: 'Bu adamı öldürdükten sonra, Rüşd'ün Cafer ibn Yahya'ya karşı kullandığı delili, seninle Halifetü'l-Mü'minin arasında geçen bir olayda sana karşı kullanmasından emin misin, ey Emir?' dedi.",
+          "fa": "سپس حجاج بن خیثمه به حسن بن سهل گفت: آیا از حادثه‌ای که میان تو و امیرالمؤمنین رخ می‌دهد، پس از آنکه این مرد را کشتی، اطمینان داری تا او همان استدلالی را که هارون‌الرشید علیه جعفر بن یحیی به کار برد، علیه تو به کار گیرد؟",
+          "id": "Kemudian al-Hajjaj ibn Khaythama berkata kepada al-Hasan ibn Sahl, \"Apakah kau merasa aman, wahai Panglima, dari suatu peristiwa yang terjadi antara kau dan Amirul Mukminin, setelah kau membunuh orang ini, sehingga ia akan menggunakan dalih yang sama yang digunakan al-Rashid terhadap Ja'far ibn Yahya?\"",
+          "bn": "অনন্তর আল-হাজ্জাজ ইবনে খাইতামাহ আল-হাসান ইবনে সাহলকে বললেন, 'হে আমিরুল মুমিনীন, আপনি কি নিশ্চিত যে, আপনি এই মানুষটিকে হত্যা করার পর আমিরুল মুমিনীন ও আপনার মধ্যে যে ঘটনা ঘটে, তাতে তিনি আপনার বিরুদ্ধে সেই যুক্তি ব্যবহার করবেন না, যা আল-রশিদ জাফর ইবনে ইয়াহ্যার বিরুদ্ধে ব্যবহার করেছিলেন?'",
+          "es": "Entonces al-Hajjaj ibn Khaythama dijo a al-Hasan ibn Sahl: «¿Te sientes seguro, oh Comandante, de un incidente que ocurra entre tú y el Comandante de los Creyentes, después de haber matado a este hombre, para que él utilice contra ti el mismo argumento que al-Rashid utilizó contra Ja'far ibn Yahya?»",
+          "fr": "Puis al-Hajjaj ibn Khaythama dit à dit à al-Hasan ibn Sahl : « Te sens-tu en sécurité, ô Commandant, face à un incident qui surviendra entre toi et le Commandant des Croyants, après que tu auras tué cet homme, de sorte qu'il utilisera contre toi le même argument qu'al-Rashid a utilisé contre Ja'far ibn Yahya ? »",
+          "de": "Dann sagte al-Hajjaj ibn Khaythama zu al-Hasan ibn Sahl: „Bist du sicher, o Kommandant, vor einem Vorfall, der zwischen dir und dem Kommandanten der Gläubigen entsteht, nachdem du diesen Mann getötet hast, sodass er dasselbe Argument gegen dich verwenden wird, das al-Rashid gegen Ja'far ibn Yahya verwendet hat?“",
+          "ru": "Затем аль-Хаджжадж ибн Хайтама сказал аль-Хасану ибн Сахлу: «Не боишься ли ты, о эмир, случая, который произойдет между тобой и Повелителем верующих, после того как ты убьешь этого человека, чтобы он использовал против тебя тот же аргумент, который использовал аль-Рашид против Джафара ибн Яхьи?»}  Note: The JSON format has been corrected to ensure proper syntax. Here is the final output:  ```json { ",
+          "zh": "随后哈贾吉·本·海赛姆对哈桑·本·萨赫勒说：‘指挥官啊，你杀了这个人之后，难道不怕发生一件你和信士长之间的事端，以致他会用拉希德对贾法尔·本·叶海亚所用的那个理由来对付你吗？’"
+        },
+        "word_start": 197,
+        "word_end": 229
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ الْحَسَنُ لِلْحَجَّاجِ: جَزَاكَ اللهُ خَيْراً. ثُمَّ أَمَرَ بِرَفْعِ زَيْدٍ وَأَنْ يُرَدَّ إِلَى مَحْبَسِهِ، فَلَمْ يَزَلْ مَحْبُوساً إِلَى أَنْ ظَهَرَ أَمْرُ إِبْرَاهِيمَ بْنِ الْمُهْتَدِي فَخَيَّرَ أَهْلَ بَغْدَادَ بِالْحَسَنِ بْنِ سَهْلٍ فَأَخْرَجُوهُ عَنْهَا فَلَمْ يَزَلْ مَحْبُوساً حَتَّى حُمِلَ إِلَى الْمَأْمُونِ فَبَعَثَ بِهِ إِلَى أَخِيهِ الرِّضَا عَلَيْهِ السَّلَامُ فَأَطْلَقَهُ.",
+        "translations": {
+          "en": "So al-Hasan said to al-Hajjaj: 'May God reward you with good.' Then he ordered that Zayd be raised and returned to his prison, and he remained imprisoned until the rise of Ibrahim ibn al-Muhtadi, and he gave the people of Baghdad the choice regarding al-Hasan ibn Sahl, so they expelled him from it, and he remained imprisoned until he was carried to al-Ma'mun, so he sent him to his brother al-Rida (peace be upon him), so he released him.",
+          "ur": "پس حسن نے حجاج سے کہا: اللہ تمہیں بھلائی عطا فرمائے۔ پھر اس نے حکم دیا کہ زید کو اٹھایا جائے اور اسے قید خانے میں واپس لے جایا جائے، اور وہ ابراہیم بن الہادی کی قیام تک قید رہا، اور اس نے اہل بغداد سے حسن بن سهل کے بارے میں انتخاب کروایا، تو انہوں نے اسے وہاں سے نکال باہر کیا، اور وہ قید رہا یہاں تک کہ اسے مامون کے پاس لے جایا گیا، تو مامون نے اسے اس کے بھائی رضا (علیہ السلام) کے پاس بھیج دیا، پس انہوں نے اسے آزاد کر دیا۔",
+          "tr": "Bunun üzerine el-Hasan, el-Haccâc'a: 'Allah sana hayır versin,' dedi. Sonra Zeyd'in kaldırılıp hapsine geri götürülmesini emretti ve o, İbrahim b. el-Mehdi'nin hilafeti yükselene kadar hapsedili kaldı; o da Bağdat halkından el-Hasan b. Sahle hakkında seçim yapmalarını istedi, onlar da onu oradan sürdüler. O, el-Me'mun'a götürülünceye kadar hapsedili kaldı; el-Me'mun da onu kardeşi er-Rıza'ya (aleyhisselâm) gönderdi, o da onu serbest bıraktı.",
+          "fa": "حسین بن حسن به حجاج گفت: خداوند تو را با خیر پاداش دهد. سپس دستور داد زید را بالا آورند و به زندانش بازگردانند، و او تا زمان قیام ابراهیم بن المهتدی در زندان ماند، و او به مردم بغداد اختیار داد درباره حسن بن سهل، پس آنان او را از آنجا بیرون راندند، و او در زندان ماند تا زمانی که به مأمون برده شد، پس او را به برادرش رضا (علیه السلام) فرستاد، پس او را آزاد کرد.",
+          "id": "Maka al-Hasan berkata kepada al-Hajjaj: 'Semoga Allah membalasmu dengan kebaikan.' Kemudian ia memerintahkan agar Zayd dibawa naik dan dikembalikan ke penjara, dan ia tetap dipenjarakan hingga masa kekuasaan Ibrahim ibn al-Muhtadi, dan ia memberikan pilihan kepada penduduk Baghdad mengenai al-Hasan ibn Sahl, sehingga mereka mengusirnya dari sana, dan ia tetap dipenjarakan hingga ia dibawa kepada al-Ma'mun, lalu ia mengutusnya kepada saudaranya al-Rida (alamah), sehingga ia dibebaskan.",
+          "bn": "অতএব আল-হাসান আল-হাজ্জাজকে বললেন: 'আল্লাহ তোমাকে কল্যাণ দান করুন।' অতঃপর তিনি আদেশ দিলেন যে জায়দকে উপরে তোলা হোক এবং তাকে তার কারাগারে ফেরত পাঠানো হোক, এবং তিনি বন্দি অবস্থায় ছিলেন যতক্ষণ না ইব্রাহীম ইবনে আল-মুহতাদির উত্থান ঘটে, এবং তিনি বাগদাদের লোকদের কাছে আল-হাসান ইবনে সাহলের বিষয়ে পছন্দ প্রদান করলেন, তাই তারা তাকে সেখান থেকে বহিস্কৃত করল, এবং তিনি বন্দি অবস্থায় ছিলেন যতক্ষণ না তাকে আল-মা'মূনের নিকট নিয়ে যাওয়া হলো, অতঃপর তিনি তাকে তার ভাই আল-রিদা (আলৈহিস সালাম)-এর নিকট পাঠালেন, তাই তিনি তাকে মুক্ত করলেন।",
+          "es": "فقال الحسن للحجاج: جزاك الله خيرا. ثم أمر أن يرفع زيد فيرد إلى سجنه، فمكث مسجونا حتى خلافة إبراهيم بن المهدي، فأمر أهل بغداد بالخيار في الحسن بن سهل فخرجوا به، ومكث مسجونا حتى حمل إلى المأمون، فأرسله إلى أخيه الرضا (عليه السلام) فخلّصه.",
+          "fr": "F",
+          "de": "Da sagte al-Hasan zu al-Hajj al-Hajjaj: »Möge Gott dir Gutes vergelten.« Dann befahl er, dass Zayd heraufgebracht und in sein Gefängnis zurückgebracht werde, und er blieb inhaftiert bis zum Aufstieg von Ibrahim ibn al-Muhtadi, und er gab den Leuten von Bagdad die Wahl bezüglich al-Hasan ibn Sahl, sodass sie ihn aus der Stadt vertrieben, und er blieb inhaftiert, bis er zu al-Ma'mun gebracht wurde, sodass er ihn zu seinem Bruder al-Rida (friede sei mit ihm) schickte, sodass er ihn freiließ.",
+          "ru": "Так аль-Хасан сказал аль-Хаджаджу: «Да вознаградит тебя Аллах добром». Затем он приказал поднять Зайда и вернуть его в тюрьму, и он оставался в заключении до восшествия Ибрахима ибн аль-Мухтади, который предоставил жителям Багдада выбор относительно аль-Хасана ибн Сахла, и они изгнали его оттуда. Он оставался в заключении, пока его не доставили аль-Мамуну, который отправил его к своему брату аль-Риде (да будет над ним мир), и тот освободил его.",
+          "zh": "于是哈桑对哈贾吉说：愿真主赐你善报。随后他下令将宰德带上并送回监狱，他一直被囚禁直到伊布拉欣·伊本·穆赫台迪兴起，他让巴格达人民就哈桑·伊本·萨赫作出选择，于是他们将他驱逐出城，他继续被囚禁直到被带到马蒙那里，马蒙便将他送还给他的兄弟里达（愿主福安之），里达便释放了他。"
+        },
+        "word_start": 229,
+        "word_end": 276
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَعَاشَ زَيْدُ بْنُ مُوسَى إِلَى آخِرِ خِلَافَةِ الْمُتَوَكِّلِ وَمَاتَ بِسُرَّ مَنْ رَأَى.",
+        "translations": {
+          "en": "And Zayd ibn Musa lived until the end of the caliphate of al-Mutawakkil and died in Sarr al-Mani.",
+          "ur": "اور زید بن موسیٰ خلافتِ متوکل کے اختتام تک زندہ رہے اور سر منیٰ میں وفات پائی۔",
+          "tr": "Zeyd b. Musa, Mutavakkil'in hilafetinin sonuna kadar yaşadı ve Sarra'l-Mani'de vefat etti.",
+          "fa": "و زید بن موسی تا پایان خلافت متوکل زندگی کرد و در سر منی درگذشت.",
+          "id": "Dan Zayd bin Musa hidup hingga akhir kekhalifahan al-Mutawakkil dan wafat di Sarr al-Mani.",
+          "bn": "এবং জায়দ ইবনে মুসা আল-মুতওয়াক্কিলের খিলাফতের শেষ পর্যন্ত জীবিত ছিলেন এবং সার্র আল-মানিতে মৃত্যুবরণ করেন।",
+          "es": "Y Zayd ibn Musa vivió hasta el final del califato de al-Mutawakkil y murió en Sarr al-Mani.",
+          "fr": "Et Zayd ibn Musa vécut Zayd ibn Musa jusqu'à la fin du califat d'al-Mutawakkil, et il mourut à Sarr al-Mani.",
+          "de": "Und Zayd ibn Musa lebte bis zum Ende des Kalifats von al-Mutawakkil und starb in Sarr al-Mani.",
+          "ru": "И Зайд ибн Муса жил до конца халифата аль-Мутаваккиля и умер в Сарр аль-Мани.",
+          "zh": "宰德·伊本·穆萨活到了穆塔瓦基勒哈里发统治末期，死于萨拉·马尼。"
+        },
+        "word_start": 276,
+        "word_end": 288
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This narrative highlights the political vulnerability of the Ahl al-Bayt under the Abbasids, illustrating how internal dynastic rivalries—specifically the precedent of Harun al-Rashid’s execution of Ja'far ibn Yahya—were leveraged by generals like al-Hajjaj ibn Khaythama to save Zayd ibn Musa from premature execution. The story underscores the theme of divine protection and the strategic patience of the Imams, as Zayd’s eventual release and long life until the caliphate of al-Mutawakkil serve as a testament to the enduring legacy of the Prophet’s progeny amidst political turmoil.",
+        "seo_question": "What was the reason for Zayd ibn Musa's imprisonment and how did al-Hajjaj ibn Khaythama advise against his execution?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "Zayd ibn Musa, brother of Imam al-Rida",
+          "الْمُسْتَنْصِرُ": "Al-Mustansir, Abbasid Caliph",
+          "أَبُو السَّرَايَا": "Abu al-Saraya, leader of the Qaramita/Zaydites",
+          "الْحَسَنُ بْنُ سَهْلٍ": "Al-Hasan ibn Sahl, Abbasid governor",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "Al-Hajjaj ibn Khaythama, Abbasid general",
+          "ابْنُ الْأَفْطَسِ": "Ibn al-Aftas, cousin of Harun al-Rashid",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "Al-Rida (peace be upon him), Imam Ali ibn Musa"
+        }
+      },
+      "ur": {
+        "summary": "یہ روایت عباسیوں کے دور میں اہل بیت کی سیاسی کمزوری کو اجاگر کرتی ہے، یہ دکھاتی ہے کہ اندرونی خاندانی تنازعات—خاص طور پر ہارون الرشید کے جعفر بن یحییٰ کو قتل کرنے کا سلسلہ—جنرل الحجاج بن خیثمہ جیسے افسروں نے زید بن موسیٰ کو جلدی قتل ہونے سے بچانے کے لیے کیسے استعمال کیا۔ کہانی الہیٰ تحفظ اور ائمہ کی حکمت عملی صبر کا موضوع اجاگر کرتی ہے، کیونکہ زید بن موسیٰ کی بعد میں رہائی اور الخلیفہ المتوکل تک طویل عمر ان کے سیاسی ہنگاموں کے درمیان نبی کریم ﷺ کی اولاد کے مستقل ورثے کی گواہی دیتی ہے۔",
+        "seo_question": "زید بن موسیٰ کی قید کی وجہ کیا تھی اور الحجاج بن خیثمہ نے ان کے قتل کے خلاف کیسے مشورہ دیا؟",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "زید بن موسیٰ، امام الرضا کے بھائی",
+          "الْمُسْتَنْصِرُ": "المستنصر، عباسی خلیفہ",
+          "أَبُو السَّرَايَا": "ابو السرایا، قرامطہ/زیادیت پسندوں کے رہنما",
+          "الْحَسَنُ بْنُ سَهْلٍ": "حسن بن سهل، عباسی گورنر",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "الحجاج بن خیثمہ، عباسی جنرل",
+          "ابْنُ الْأَفْطَسِ": "ابن الافطس، ہارون الرشید کا چچا زاد بھائی",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "الرضا علیہ السلام، امام علی بن موسیٰ"
+        }
+      },
+      "tr": {
+        "summary": "Bu rivayet, Abbasi döneminde Ehl-i Beyt'in siyasi açıdan ne kadar kırılgan olduğunu vurgular ve iç hanedan rekabetlerinin — özellikle Harun Reşid'in Ca'far ibn Yahya'yı idam etmesi örneği — generallerin Zeyd ibn Musa'nın erken idam edilmesini önlemek için nasıl kullandığını gösterir. Hikâye, ilahi koruma ve İmamların stratejik sabrı temasını öne çıkarır; Zeyd'in nihai olarak serbest bırakılması ve halifeliği döneminde uzun bir ömür sürmesi, siyasi kaosu içinde peygamber soyunun kalıcı mirasının bir kanıtı olarak sunulur.",
+        "seo_question": "Zeyd ibn Musa'nın hapsedilme nedeni neydi ve el-Haccac ibn Hayseme onu idam etmemek için nasıl tavsiye verdi?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "Zeyd ibn Musa, İmam er-Rıza'nın kardeşi",
+          "الْمُسْتَنْصِرُ": "el-Müstansır, Abbasi Halifesi",
+          "أَبُو السَّرَايَا": "Ebu es-Seraya, Karaitler/Zeydiler lideri",
+          "الْحَسَنُ بْنُ سَهْلٍ": "el-Hasan ibn Sahil, Abbasi valisi",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "el-Haccac ibn Hayseme, Abbasi generali",
+          "ابْنُ الْأَفْطَسِ": "İbn el-Eftas, Harun Reşid'in kuzeni",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "er-Rıza (aleyhisselam), İmam Ali ibn Musa"
+        }
+      },
+      "fa": {
+        "summary": "این روایت بر آسیب‌پذیری سیاسی اهل بیت در دوران عباسیان تأکید دارد و نشان می‌دهد که چگونه رقابت‌های درون‌خاندانی—به‌ویژه پیشینه اعدام جعفر بن یحیی توسط هارون‌الرشید—توسط فرماندگانی مانند حجاج بن خیثمه برای نجات زید بن موسی از اعدام زودهنگام مورد استفاده قرار گرفت. داستان بر موضوع حمایت الهی و صبر راهبردی ائمه تأکید می‌کند، زیرا آزادی نهایی زید و عمر طولانی او تا زمان خلافت متوکل، گواهی بر میراث پایدار نسل پیامبر در میان آشوب‌های سیاسی است.",
+        "seo_question": "دلیل زندانی شدن زید بن موسی چه بود و حجاج بن خیثمه چگونه از اعدام او توصیه کرد؟",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "زید بن موسی، برادر امام رضا",
+          "الْمُسْتَنْصِرُ": "مستنصر، خلیفه عباسی",
+          "أَبُو السَّرَايَا": "ابو السرایا، رهبر قرامطه/زیدیه",
+          "الْحَسَنُ بْنُ سَهْلٍ": "حسن بن سهل، حاکم عباسی",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "حجاج بن خیثمه، فرمانده عباسی",
+          "ابْنُ الْأَفْطَسِ": "ابن الافطس، پسرعموی هارون‌الرشید",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "رضا (علیه السلام)، امام علی بن موسی"
+        }
+      },
+      "id": {
+        "summary": "Narasi ini menyoroti kerentanan politik Ahl al-Bayt di bawah dinasti Abbasiyah, menggambarkan bagaimana rivalitas dinasti internal—khususnya preceden eksekusi Ja'far ibn Yahya oleh Harun al-Rashid—dimanfaatkan oleh para jenderal seperti al-Hajjaj ibn Khaythama untuk menyelamatkan Zayd ibn Musa dari eksekusi dini. Kisah ini menekankan tema perlindungan ilahi dan kesabaran strategis para Imam, karena pembebasan Zayd dan hidupnya yang panjang hingga masa kekhalifahan al-Mutawakkil menjadi bukti warisan abadi keturunan Nabi di tengah gejolak politik.",
+        "seo_question": "Apa alasan penahanan Zayd ibn Musa dan bagaimana al-Hajjaj ibn Khaythama menasihati agar eksekusinya dihindari?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "Zayd ibn Musa, saudara Imam al-Rida",
+          "الْمُسْتَنْصِرُ": "Al-Mustansir, Khalifah Abbasiyah",
+          "أَبُو السَّرَايَا": "Abu al-Saraya, pemimpin Qaramita/Zaydiyah",
+          "الْحَسَنُ بْنُ سَهْلٍ": "Al-Hasan ibn Sahl, gubernur Abbasiyah",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "Al-Hajjaj ibn Khaythama, jenderal Abbasiyah",
+          "ابْنُ الْأَفْطَسِ": "Ibn al-Aftas, sepupu Harun al-Rashid",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "Al-Rida (alamah), Imam Ali ibn Musa"
+        }
+      },
+      "bn": {
+        "summary": "এই বর্ণনায় আব্বাসীয়দের আমলে আহল আল-বাইতের রাজনৈতিক দুর্বলতা তুলে ধরা হয়েছে, যা দেখায় কীভাবে অভ্যন্তরীণ রাজবংশীয় বিরোধিতা—বিশেষ করে হারুন আল-রশিদের জাফর ইবনে ইয়াহ্যাকে হত্যার প্রেক্ষাপট—আল-হজ্জাজ ইবনে খাইথামা-এর মতো সেনাপতিদের দ্বারা জাফর ইবনে ইয়াহ্যাকে অকাল মৃত্যু থেকে রক্ষা করতে ব্যবহৃত হয়েছিল। গল্পটি ঈশ্বরের সুরক্ষা এবং ইমামদের কৌশলগত ধৈর্যের বিষয়টিকে তুলে ধরে, যেখানে জাফর ইবনে ইয়াহ্যার পরবর্তীতে মুক্তি এবং আল-মুতওয়াক্কিলের খিলাফত পর্যন্ত দীর্ঘ জীবন নবীর বংশধরদের রাজনৈতিক অশান্তির মধ্যে স্থায়ী উত্তরাধিকারের একটি সাক্ষ্য হিসেবে দাঁড়ায়।",
+        "seo_question": "জাফর ইবনে ইয়াহ্যার কারাগারে থাকার কারণ কী ছিল এবং আল-হজ্জাজ ইবনে খাইথামা তাকে হত্যার বিরুদ্ধে কীভাবে পরামর্শ দিয়েছিলেন?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "জাফর ইবনে ইয়াহ্যাম, ইমাম আল-রিদার ভাই",
+          "الْمُسْتَنْصِرُ": "আল-মুস্তানসির, আব্বাসীয় খলিফা",
+          "أَبُو السَّرَايَا": "আবু আল-সারয়া, কারমিতি/যাইদিদের নেতা",
+          "الْحَسَنُ بْنُ سَهْلٍ": "আল-হাসান ইবনে সাহল, আব্বাসীয় গভর্নর",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "আল-হজ্জাজ ইবনে খাইথামা, আব্বাসীয় সেনাপতি",
+          "ابْنُ الْأَفْطَسِ": "ইবনে আল-আফতাস, হারুন আল-রশিদের চাচাতো ভাই",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "আল-রিদা (আসসালামু আলাইহি), ইমাম আলী ইবনে মুসা"
+        }
+      },
+      "es": {
+        "summary": "Esta narración destaca la vulnerabilidad política de los Ahl al-Bayt bajo los abasíes, ilustrando cómo las rivalidades dinásticas internas, específicamente el precedente de la ejecución de Ja'far ibn Yahya por Harun al-Rashid, fueron aprovechadas por generales como al-Hajjaj ibn Khaythama para salvar a Zayd ibn Musa de una ejecución prematura. La historia subraya el tema de la protección divina y la paciencia estratégica de los Imames, ya que la liberación eventual de Zayd y su larga vida hasta el califato de al-Mutawakkil sirven como testimonio del legado perdurable de la descendencia del Profeta en medio de la agitación política.",
+        "seo_question": "¿Cuál fue la razón del encarcelamiento de Zayd ibn Musa y cómo aconsejó al-Hajjaj ibn Khaythama contra su ejecución?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "Zayd ibn Musa, hermano del Imam al-Rida",
+          "الْمُسْتَنْصِرُ": "Al-Mustansir, califa abasí",
+          "أَبُو السَّرَايَا": "Abu al-Saraya, líder de los qarátima/zaydíes",
+          "الْحَسَنُ بْنُ سَهْلٍ": "Al-Hasan ibn Sahl, gobernador abasí",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "Al-Hajjaj ibn Khaythama, general abasí",
+          "ابْنُ الْأَفْطَسِ": "Ibn al-Aftas, primo de Harun al-Rashid",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "Al-Rida (que la paz sea con él), Imam Ali ibn Musa"
+        }
+      },
+      "fr": {
+        "summary": "Ce récit met en lumière la vulnérabilité politique des Ahl al-Bayt sous les Abbassides, illustrant comment les rivalités dynastiques internes — en particulier le précédent de l'exécution de Ja'far ibn Yahya par Harun al-Rashid — ont été exploitées par des généraux comme al-Hajjaj ibn Khaythama pour épargner Zayd ibn Musa d'une exécution prématurée. L'histoire souligne le thème de la protection divine et de la patience stratégique des Imams, car la libération finale de Zayd et sa longue vie jusqu'au califat d'al-Mutawakkil témoignent du legs durable de la progéniture du Prophète au milieu des troubles politiques.",
+        "seo_question": "Quelle était la raison de l'emprisonnement de Zayd ibn Musa et comment al-Hajjaj ibn Khaythama a-t-il conseillé de s'opposer à son exécution ?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "Zayd ibn Musa, frère de l'Imam al-Rida",
+          "الْمُسْتَنْصِرُ": "Al-Mustansir, calife abbasside",
+          "أَبُو السَّرَايَا": "Abu al-Saraya, chef des Qaramita/Zaydites",
+          "الْحَسَنُ بْنُ سَهْلٍ": "Al-Hasan ibn Sahl, gouverneur abbasside",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "Al-Hajjaj ibn Khaythama, général abbasside",
+          "ابْنُ الْأَفْطَسِ": "Ibn al-Aftas, cousin de Harun al-Rashid",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "Al-Rida (que la paix soit sur lui), Imam Ali ibn Musa"
+        }
+      },
+      "de": {
+        "summary": "Diese Erzählung betont die politische Verwundbarkeit der Ahl al-Bayt unter den Abbasiden und veranschaulicht, wie interne dynastische Rivalitäten – insbesondere das Vorbild der Hinrichtung von Dscha'far ibn Yahhya durch Harun al-Raschid – von Generälen wie al-Hadschdschadsch ibn Chajthama genutzt wurden, um Zaid ibn Musa vor einer vorzeitigen Hinrichtung zu bewahren. Die Geschichte unterstreicht das Thema der göttlichen Protection und der strategischen Geduld der Imame, da Zaid's spätere Freilassung und sein langes Leben bis zur Kalifatszeit al-Mutawakkils als Zeugnis für das anhaltende Vermächtnis der Nachkommen des Propheten inmitten politischer Wirren dienen.",
+        "seo_question": "Was war der Grund für die Inhaftierung von Zaid ibn Musa und wie riet al-Hadschdschadsch ibn Chajthama von seiner Hinrichtung ab?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "Zaid ibn Musa, Bruder von Imam al-Rida",
+          "الْمُسْتَنْصِرُ": "Al-Mustansir, abbasidischer Kalif",
+          "أَبُو السَّرَايَا": "Abu al-Saraya, Anführer der Qaramita/Zaiditen",
+          "الْحَسَنُ بْنُ سَهْلٍ": "Al-Hasan ibn Sahl, abbasidischer Gouverneur",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "Al-Hadschdschadsch ibn Chajthama, abbasidischer General",
+          "ابْنُ الْأَفْطَسِ": "Ibn al-Aftas, Cousin von Harun al-Raschid",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "Al-Rida (Friede sei mit ihm), Imam Ali ibn Musa"
+        }
+      },
+      "ru": {
+        "summary": "В этом повествовании подчеркивается политическая уязвимость Ахль аль-Байт при аббасидах, иллюстрируется, как внутренние династические соперничества — в частности, прецедент казни Харуна аль-Рашидом Джафара ибн Яхьи — были использованы такими генералами, как аль-Хаджадж ибн Хайсама, чтобы спасти Зайда ибн Мусу от преждевременной казни. История подчеркивает тему божественной защиты и стратегического терпения Имамов, поскольку eventual освобождение Зайда и его долгая жизнь до халифата аль-Мутаваккиля служат свидетельством непреходящего наследия потомков Пророка в условиях политических потрясений.",
+        "seo_question": "Какова была причина заключения Зайда ибн Мусы в тюрьму и как аль-Хаджадж ибн Хайсама предостерег от его казни?",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "Зайд ибн Муса, брат имама аль-Риды",
+          "الْمُسْتَنْصِرُ": "Аль-Мустансир, аббасидский халиф",
+          "أَبُو السَّرَايَا": "Абу ас-Сарая, лидер кариматов/зайдитов",
+          "الْحَسَنُ بْنُ سَهْلٍ": "Аль- Хасан ибн Сахль, аббасидский наместник",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "Аль-Хаджадж ибн Хайсама, аббасидский генерал",
+          "ابْنُ الْأَفْطَسِ": "Ибн аль-Афтаc, двоюродный брат Харуна аль-Рашида",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "Аль-Рида (мир ему), имам Али ибн Муса"
+        }
+      },
+      "zh": {
+        "summary": "这段叙事突出了阿拔斯王朝时期圣裔（Ahl al-Bayt）的政治脆弱性，说明了内部王朝竞争——特别是哈伦·拉希德处决贾法尔·本·叶海亚的先例——如何被哈贾吉·本·海萨马等将军利用以拯救宰德·本·穆萨免于过早处决。故事强调了神圣保护的主题以及伊玛目的战略耐心，因为宰德·本·穆萨最终获释并长寿直至穆塔瓦基勒哈里发时期，这证明了先知后裔在政治动荡中持久的遗产。",
+        "seo_question": "宰德·本·穆萨被囚禁的原因是什么，哈贾吉·本·海萨马是如何建议不要处决他的？",
+        "key_terms": {
+          "زَيْدُ بْنُ مُوسَى": "宰德·本·穆萨，伊玛目阿里·本·穆萨（拉达）的兄弟",
+          "الْمُسْتَنْصِرُ": "穆斯塔希尔，阿拔斯哈里发",
+          "أَبُو السَّرَايَا": "阿布·萨拉亚，卡拉马塔/宰德派领袖",
+          "الْحَسَنُ بْنُ سَهْلٍ": "哈桑·本·萨赫勒，阿拔斯总督",
+          "الْحَجَّاجُ بْنُ خَيْثَمَةَ": "哈贾吉·本·海萨马，阿拔斯将军",
+          "ابْنُ الْأَفْطَسِ": "伊本·阿夫塔斯，哈伦·拉希德的堂兄弟",
+          "الرِّضَا عَلَيْهِ السَّلَامُ": "阿里·本·穆萨（愿主赐他平安），伊玛目"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "12:100",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:41",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا أبُو الْخَيْرِ عَلِيُّ بْنُ أَحْمَدَ النَّسَّابَةُ عَنْ مَشَايِخِهِ أَنَّ زَيْدَ بْنَ مُوسَى كَانَ يُنَادِمُ الْمُسْتَنْصِرَ وَكَانَ فِي لِسَانِهِ فَضْلٌ وَكَانَ زَيْدِيّاً وَكَانَ زَيْدٌ هَذَا يَنْزِلُ بَغْدَادَ عَلَى نَهْرِ كَرْخَايَا وَهُوَ الَّذِي كَانَ بِالْكُوفَةِ أَيَّامَ أَبِي السَّرَايَا فَوَلَّاهُ، فَلَمَّا قُتِلَ أَبُو السَّرَايَا تَفَرَّقَ الطَّالِبِيُّونَ فَتَوَارَى بَعْضُهُمْ بِبَغْدَادَ وَبَعْضُهُمْ بِالْكُوفَةِ، وَصَارَ بَعْضُهُمْ إِلَى الْمَدِينَةِ وَكَانَ مِمَّنْ تَوَارَى زَيْدُ بْنُ مُوسَى هَذَا فَطَلَبَهُ الْحَسَنُ بْنُ سَهْلٍ حَتَّى دُلَّ عَلَيْهِ، فَأُتِيَ بِهِ فَحَبَسَهُ ثُمَّ أَحْضَرَهُ عَلَى أَنْ يَضْرِبَ عُنُقَهُ وَجَرَّدَ السَّيَّافُ السَّيْفَ لِيَضْرِبَ عُنُقَهُ وَكَانَ حَضَرَ هُنَاكَ الْحَجَّاجُ بْنُ خَيْثَمَةَ فَقَالَ: أَيُّهَا الْأَمِيرُ إِنْ رَأَيْتَ أَنْ لَا تَعْجَلَ وَتَدْعُوَنِي إِلَيْكَ فَإِنَّ عِنْدِي نَصِيحَةً. فَفَعَلَ وَأَمْسَكَ السَّيَّافُ، فَلَمَّا دَنَا مِنْهُ قَالَ: أَيُّهَا الْأَمِيرُ أَتَاكَ بِمَا تُرِيدُ أَنْ تَفْعَلَهُ أَمْرٌ مِنْ أَمِيرِ الْمُؤْمِنِينَ؟ قَالَ: لَا. قَال: فَعَلَامَ تَقْتُلُ ابْنَ عَمِّ أَمِيرِ الْمُؤْمِنِينَ مِنْ غَيْرِ إِذْنِهِ وَأَمْرِهِ وَاسِطِلَاعِ رَأْيِهِ فِيهِ؟ ثُمَّ حَدَّثَهُ بِحَدِيثِ أَبِي عَبْدِ اللهِ بْنِ الْأَفْطَسِ وَإنَّ الرَّشِيدَ حَبَسَهُ عِنْدَ جَعْفَرِ بْنِ يَحْيَى فَأَقْدَمَ عَلَيْهِ جَعْفَرٌ فَقَتَلَهُ مِنْ غَيْرِ أَمْرِهِ وَبَعَثَ بِرَأْسِهِ إِلَيْهِ فِي طَبَقٍ مَعَ هَدَايَا النَّيْرُوزِ وَإنَّ الرَّشِيدَ لَمَّا أَمَرَ مَسْرُوراً الْكَبِيرَ بِقَتْلِ جَعْفَرِ بْنِ يَحْيَى قَالَ لَهُ إِذَا سَألَكَ جَعْفَرٌ عَنْ ذَنْبِهِ الَّذِي تَقْتُلُهُ بِهِ فَقُلْ لَهُ إِنَّمَا أَقْتُلُكَ بِابْنِ عَمِّي ابْنِ الْأَفْطَسِ الَّذِي قَتَلْتَهُ مِنْ غَيْرِ أَمْرِي. ثُمَّ قَالَ الْحَجَّاجُ بْنُ خَثِيمَةَ لِلْحَسَنِ بْنِ سَهْلٍ: أَفَتَأْمَنُ أَيُّهَا الْأَمِيرُ حَادِثَةً تَحْدُثُ بَيْنَكَ وَبَيْنَ أَمِيرِ الْمُؤْمِنِينَ وَقَدْ قَتَلْتَ هَذَا الرَّجُلَ فَيَحْتَجُّ عَلَيْكَ بِمِثْلِ مَا احْتَجَّ بِهِ الرَّشِيدُ عَلَى جَعْفَرِ بْنِ يَحْيَى؟ فَقَالَ الْحَسَنُ لِلْحَجَّاجِ: جَزَاكَ اللهُ خَيْراً. ثُمَّ أَمَرَ بِرَفْعِ زَيْدٍ وَأَنْ يُرَدَّ إِلَى مَحْبَسِهِ، فَلَمْ يَزَلْ مَحْبُوساً إِلَى أَنْ ظَهَرَ أَمْرُ إِبْرَاهِيمَ بْنِ الْمُهْتَدِي فَخَيَّرَ أَهْلَ بَغْدَادَ بِالْحَسَنِ بْنِ سَهْلٍ فَأَخْرَجُوهُ عَنْهَا فَلَمْ يَزَلْ مَحْبُوساً حَتَّى حُمِلَ إِلَى الْمَأْمُونِ فَبَعَثَ بِهِ إِلَى أَخِيهِ الرِّضَا عَلَيْهِ السَّلَامُ فَأَطْلَقَهُ. وَعَاشَ زَيْدُ بْنُ مُوسَى إِلَى آخِرِ خِلَافَةِ الْمُتَوَكِّلِ وَمَاتَ بِسُرَّ مَنْ رَأَى.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا أبُو الْخَيْرِ عَلِيُّ بْنُ أَحْمَدَ النَّسَّابَةُ عَنْ مَشَايِخِهِ أَنَّ زَيْدَ بْنَ مُوسَى كَانَ يُنَادِمُ الْمُسْتَنْصِرَ وَكَانَ فِي لِسَانِهِ فَضْلٌ وَكَانَ زَيْدِيّاً وَكَانَ زَيْدٌ هَذَا يَنْزِلُ بَغْدَادَ عَلَى نَهْرِ كَرْخَايَا وَهُوَ الَّذِي كَانَ بِالْكُوفَةِ أَيَّامَ أَبِي السَّرَايَا فَوَلَّاهُ،",
+      "matn_ar": "فَلَمَّا قُتِلَ أَبُو السَّرَايَا تَفَرَّقَ الطَّالِبِيُّونَ فَتَوَارَى بَعْضُهُمْ بِبَغْدَادَ وَبَعْضُهُمْ بِالْكُوفَةِ، وَصَارَ بَعْضُهُمْ إِلَى الْمَدِينَةِ وَكَانَ مِمَّنْ تَوَارَى زَيْدُ بْنُ مُوسَى هَذَا فَطَلَبَهُ الْحَسَنُ بْنُ سَهْلٍ حَتَّى دُلَّ عَلَيْهِ، فَأُتِيَ بِهِ فَحَبَسَهُ ثُمَّ أَحْضَرَهُ عَلَى أَنْ يَضْرِبَ عُنُقَهُ وَجَرَّدَ السَّيَّافُ السَّيْفَ لِيَضْرِبَ عُنُقَهُ وَكَانَ حَضَرَ هُنَاكَ الْحَجَّاجُ بْنُ خَيْثَمَةَ فَقَالَ: أَيُّهَا الْأَمِيرُ إِنْ رَأَيْتَ أَنْ لَا تَعْجَلَ وَتَدْعُوَنِي إِلَيْكَ فَإِنَّ عِنْدِي نَصِيحَةً. فَفَعَلَ وَأَمْسَكَ السَّيَّافُ، فَلَمَّا دَنَا مِنْهُ قَالَ: أَيُّهَا الْأَمِيرُ أَتَاكَ بِمَا تُرِيدُ أَنْ تَفْعَلَهُ أَمْرٌ مِنْ أَمِيرِ الْمُؤْمِنِينَ؟ قَالَ: لَا. قَال: فَعَلَامَ تَقْتُلُ ابْنَ عَمِّ أَمِيرِ الْمُؤْمِنِينَ مِنْ غَيْرِ إِذْنِهِ وَأَمْرِهِ وَاسِطِلَاعِ رَأْيِهِ فِيهِ؟ ثُمَّ حَدَّثَهُ بِحَدِيثِ أَبِي عَبْدِ اللهِ بْنِ الْأَفْطَسِ وَإنَّ الرَّشِيدَ حَبَسَهُ عِنْدَ جَعْفَرِ بْنِ يَحْيَى فَأَقْدَمَ عَلَيْهِ جَعْفَرٌ فَقَتَلَهُ مِنْ غَيْرِ أَمْرِهِ وَبَعَثَ بِرَأْسِهِ إِلَيْهِ فِي طَبَقٍ مَعَ هَدَايَا النَّيْرُوزِ وَإنَّ الرَّشِيدَ لَمَّا أَمَرَ مَسْرُوراً الْكَبِيرَ بِقَتْلِ جَعْفَرِ بْنِ يَحْيَى قَالَ لَهُ إِذَا سَألَكَ جَعْفَرٌ عَنْ ذَنْبِهِ الَّذِي تَقْتُلُهُ بِهِ فَقُلْ لَهُ إِنَّمَا أَقْتُلُكَ بِابْنِ عَمِّي ابْنِ الْأَفْطَسِ الَّذِي قَتَلْتَهُ مِنْ غَيْرِ أَمْرِي. ثُمَّ قَالَ الْحَجَّاجُ بْنُ خَثِيمَةَ لِلْحَسَنِ بْنِ سَهْلٍ: أَفَتَأْمَنُ أَيُّهَا الْأَمِيرُ حَادِثَةً تَحْدُثُ بَيْنَكَ وَبَيْنَ أَمِيرِ الْمُؤْمِنِينَ وَقَدْ قَتَلْتَ هَذَا الرَّجُلَ فَيَحْتَجُّ عَلَيْكَ بِمِثْلِ مَا احْتَجَّ بِهِ الرَّشِيدُ عَلَى جَعْفَرِ بْنِ يَحْيَى؟ فَقَالَ الْحَسَنُ لِلْحَجَّاجِ: جَزَاكَ اللهُ خَيْراً. ثُمَّ أَمَرَ بِرَفْعِ زَيْدٍ وَأَنْ يُرَدَّ إِلَى مَحْبَسِهِ، فَلَمْ يَزَلْ مَحْبُوساً إِلَى أَنْ ظَهَرَ أَمْرُ إِبْرَاهِيمَ بْنِ الْمُهْتَدِي فَخَيَّرَ أَهْلَ بَغْدَادَ بِالْحَسَنِ بْنِ سَهْلٍ فَأَخْرَجُوهُ عَنْهَا فَلَمْ يَزَلْ مَحْبُوساً حَتَّى حُمِلَ إِلَى الْمَأْمُونِ فَبَعَثَ بِهِ إِلَى أَخِيهِ الرِّضَا عَلَيْهِ السَّلَامُ فَأَطْلَقَهُ. وَعَاشَ زَيْدُ بْنُ مُوسَى إِلَى آخِرِ خِلَافَةِ الْمُتَوَكِّلِ وَمَاتَ بِسُرَّ مَنْ رَأَى.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أبو الخير علي بن أحمد النسابة عنمشايخه أن زيد بن موسى كان ينادم المستنصر وكان فی لسانه فضل وكان زيديا وكان زيد هذا ينزل بغداد على نهر كرخايا وهو الذي كان بالكوفة أيام أبي السرايا فولاه، فلما قتل أبو السرايا تفرق الطالبيون فتوارى بعضهم ببغداد وبعضهم بالكوفة، وصار بعضهم إلى المدينة وكان",
+          "name_en": "Abu al-Khayr Ali b. Ahmad al-Nassab",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "توارى زيد بن موسى هذا فطلبه الحسن بن سهل حتى دل عليه، فأتي به فحبسه ثم أحضره على أن يضرب عنقه وجرد السياف السيف ليضرب عنقه وكان حضر هناك الحجاج بن خيثمة",
+          "name_en": "Zayd b. Musa, al-Hasan b. Sahl, al-Hajjaj b. Khaythama",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "جَزَاكَ اللَّهُ خَيْرًا",
+        "phrase_en": "May Allah reward you with good",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,273 @@
+{
+  "verse_path": "/books/al-kafi:5:3:108:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] type='closing' starts with chain transmission verb 'روي' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "spousal_rights"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ قَالَ",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad ibn Isa, from Muhammad ibn Ismail who said:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد بن عیسیٰ سے، محمد بن اسماعیل سے روایت ہے کہ انہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Ahmed b. Muhammed b. İsa'dan, Muhammed b. İsmail'den; o da şöyle dedi:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّد بْنِ عِيسَى، عَنْ مُحَمَّد بْنِ إِسْمَاعِيلَ، قَالَ:",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad ibn Isa, dari Muhammad ibn Ismail yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ ইবনে ঈসা হতে, মুহাম্মাদ ইবনে ইসমাইল হতে বর্ণনা করেন যে, তিনি বললেন:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, de Muhammad ibn Ismail, quien dijo:",
+          "fr": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, de Muhammad ibn ibn Isa, de Muhammad ibn Ismail qui a dit :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad ibn Isa, von Muhammad ibn Ismail, der sagte:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада ибн Исы, от Мухаммада ибн Исмаиля, который сказал:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德·本·伊萨，传自穆罕默德·本·伊斯玛仪，他说："
+        },
+        "word_start": 0,
+        "word_end": 14
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُ أَبَا الْحَسَنِ ( عليه السلام ) هَلْ لِلرَّجُلِ أَنْ يَتَمَتَّعَ مِنَ الْمَمْلُوكَةِ بِإِذْنِ أَهْلِهَا وَ لَهُ امْرَأَةٌ حُرَّةٌ قَالَ نَعَمْ إِذَا رَضِيَتِ الْحُرَّةُ قُلْتُ فَإِنْ أَذِنَتِ الْحُرَّةُ يَتَمَتَّعُ مِنْهَا قَالَ نَعَمْ .",
+        "translations": {
+          "en": "I asked Abu Al-Hassan (peace be upon him), 'Is it permissible for a man to have temporary marriage (Mut'a) with a slave girl with the permission of her owner, while he already has a free woman (wife)?' He (peace be upon him) said: 'Yes, if the free woman agrees.' I said, 'If the free woman allows it, can he have temporary marriage with her (the slave girl)?' He (peace be upon him) said: 'Yes'.",
+          "ur": "میں نے ابو الحسن (علیہ السلام) سے پوچھا: کیا کسی مرد کے لیے اپنے مالک کی اجازت سے غلامی لڑکی سے عارضی نکاح (متاع) کرنا جائز ہے، جبکہ اس کے پاس ایک آزاد عورت (بیوی) پہلے سے موجود ہو؟ انہوں نے (علیہ السلام) فرمایا: جی ہاں، اگر آزاد عورت راضی ہو جائے۔ میں نے کہا: اگر آزاد عورت اجازت دے دے، تو کیا وہ اس غلامی لڑکی سے عارضی نکاح کر سکتا ہے؟ انہوں نے (علیہ السلام) فرمایا: جی ہاں۔",
+          "tr": "Ben, Ebu'l-Hasan'dan (aleyhisselam) sordum: 'Bir adam, efendisinin izniyle, hür bir kadını (karısı) varken, bir köle kızla geçici evlilik (Mut'a) yapabilir mi?' O (aleyhisselam) şöyle buyurdu: 'Evet, hür kadın razı olursa.' Dedim ki: 'Hür kadın buna izin verirse, o köle kızla geçici evlilik yapabilir mi?' O (aleyhisselam) şöyle buyurdu: 'Evet'.",
+          "fa": "از ابوالحسن (علیه‌السلام) پرسیدم: آیا برای مرد جایز است با اذن مالک، با کنیز ازدواج موقت کند، در حالی که همسر آزاد دارد؟ فرمود: بله، اگر همسر آزاد راضی باشد. گفتم: اگر همسر آزاد اجازه دهد، آیا می‌تواند با کنیز ازدواج موقت کند؟ فرمود: بله.",
+          "id": "Saya bertanya kepada Abu Al-Hassan (alamah), 'Apakah boleh seorang laki-laki melakukan pernikahan mut'ah dengan seorang budak perempuan dengan izin tuannya, padahal ia sudah memiliki seorang perempuan merdeka (istri)?' Ia (alamah) menjawab, 'Ya, jika perempuan merdeka itu setuju.' Saya berkata, 'Jika perempuan merdeka itu mengizinkan, bolehkah ia melakukan pernikahan mut'ah dengan budak perempuan itu?' Ia (alamah) menjawab, 'Ya'.",
+          "bn": "আমি আবুল হাসান (আ.)-কে জিজ্ঞাসা করলাম, 'একজন পুরুষ যদি তার মালিকের অনুমতিতে একজন দাসীর সাথে মুতা' (স্থায়ী বিবাহ) করেন, অথচ তার ইতিমধ্যেই একজন মুক্ত নারী (স্ত্রী) থাকে, তবে এটি জায়েজ হবে কি?' তিনি (আ.) বললেন, 'হ্যাঁ, যদি মুক্ত নারী সম্মত হন।' আমি বললাম, 'যদি মুক্ত নারী অনুমতি দেন, তবে তিনি কি দাসীর সাথে মুতা' করতে পারেন?' তিনি (আ.) বললেন, 'হ্যাঁ'।",
+          "es": "Pregunté a Abu Al-Hassan (que la paz sea con él): «¿Es permisible que un hombre contraiga matrimonio temporal (Mut'a) con una esclava con el permiso de su dueño, mientras ya tiene una mujer libre (esposa)?». Él (que la paz sea con él) dijo: «Sí, si la mujer libre está de acuerdo». Dije: «Si la mujer libre lo permite, ¿puede contraer matrimonio temporal con ella (la esclava)?». Él (que la paz sea con él) dijo: «Sí».",
+          "fr": "J'ai demandé à Abou Al-Hasan (que la paix soit sur lui) : « Est-il permis à un homme de contracter le mariage temporaire (Mut'a) avec une esclave, avec la permission de son maître, alors qu'il a déjà une femme libre ? » Il (que la paix soit sur lui) a dit : « Oui, si la femme libre y consent. » J'ai dit : « Si la femme libre le permet, peut-il contracter le mariage temporaire avec elle (l'esclave) ? » Il (que la paix soit sur lui) a dit : « Oui ». ",
+          "de": "Ich fragte Abu Al-Hasan (friede sei mit ihm): „Ist es für einen Mann erlaubt, eine zeitliche Ehe (Mut'a) mit einer Sklavin zu schließen, mit der Einverständnis ihres Besitzers, während er bereits eine freie Frau (Ehefrau) hat?“ Er (friede sei mit ihm) sagte: „Ja, wenn die freie Frau einverstanden ist.“ Ich sagte: „Wenn die freie Frau es erlaubt, kann er dann eine zeitliche Ehe mit ihr (der Sklavin) eingehen?“ Er (friede sei mit ihm) sagte: „Ja“.",
+          "ru": "Я спросил спросил Абу аль-Хасана (да будет мир с ним): «Разрешено ли мужчине вступать в временный брак (мута) с рабыней с разрешения её хозяина, если у него уже есть наложница из свободных женщин?» Он (да будет мир с ним) сказал: «Да, если свободная женщина даст согласие». Я спросил: «Если свободная женщина разрешит, может ли он вступить в временный брак с ней (рабыней)?» Он (да будет мир с ним) сказал: «Да».",
+          "zh": "我问阿布·哈桑（愿主安宁于他）：‘一个男人若已有一自由身妻子，在获得女奴主人允许的情况下，能否与女奴缔结临时婚姻（穆泰）？’他（愿主安宁于他）说：‘可以，只要自由身妻子同意。’我说：‘如果自由身妻子允许，他能否与女奴缔结临时婚姻？’他（愿主安宁于他）说：‘可以。’"
+        },
+        "word_start": 14,
+        "word_end": 47
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَرُوِيَ أَيْضاً أَنَّهُ لَا يَجُوزُ أَنْ يُتَمَتَّعَ بِالْأَمَةِ عَلَى الْحُرَّةِ .",
+        "translations": {
+          "en": "And it is reported as well that he (peace be upon him) did not allow that one should have temporary marriage with the slave girl upon the free woman.",
+          "ur": "اور یہ بھی روایت ہے کہ آپ (صلی اللہ علیہ وسلم) نے اس بات کی اجازت نہیں دی کہ غلامی عورت کے ساتھ عورتِ آزاد کی طرح موقت نکاح کیا جائے۔",
+          "tr": "Ve kendisine (sallallahu aleyhi vesellem) ait olan rivayete göre, o (sallallahu aleyhi vesellem), köle kadınla geçici evliliğin, hür kadına göre tercih edilmesine izin vermemiştir.",
+          "fa": "و نیز روایت شده است که او (صلی الله علیه و آله) اجازه نمی‌داد که مرد با برده، ازدواج موقت کند در حالی که همسر آزاد دارد.",
+          "id": "Dan diriwayatkan pula bahwa beliau (shallallahu 'alaihi wasallam) tidak memperbolehkan seseorang melakukan mut'ah dengan hamba sahaya, sebagaimana yang dilakukan oleh wanita merdeka.",
+          "bn": "এবং এটিও বর্ণিত হয়েছে যে, তিনি (সা.) মুক্ত নারীর সাথে দাসীর সাথে সাময়িক বিবাহের অনুমতি দেননি।",
+          "es": "Y también se ha transmitido que él (que la paz sea con él) no permitió que se realizara el matrimonio temporal con la esclava junto con la mujer libre.",
+          "fr": "Eté rapporté également qu'il (que la paix soit sur lui) n'a pas permis qu'on ait le mariage temporaire avec la servante sur la femme libre.",
+          "de": "Und es wird auch wird berichtet, dass er (Friede sei mit ihm) nicht zuließ, dass man mit der Sklavin eine vorübergehende Ehe eingeht, anstatt mit der Freien.",
+          "ru": "И также сообщается, что он (да будет над ним мир) не позволял временного брака с рабыней наравне со свободной женщиной.",
+          "zh": "亦有传述称，他（愿主福安）不允许在自由女子与婢女之间实行临时婚姻。"
+        },
+        "word_start": 47,
+        "word_end": 58
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this hadith from *Al-Kafi*, Imam al-Rida (AS) clarifies the conditions for a man to practice *Mut'ah* with a slave girl while maintaining a permanent marriage to a free woman, emphasizing that the free wife's consent is the primary condition. The text highlights a nuanced scholarly distinction: while the Imam affirms the permissibility upon her permission, a related report notes it is not permissible to take the slave girl 'upon' the free woman, suggesting that the slave girl's status is subordinate or dependent on the free wife's rights rather than being an equal concurrent spouse. This reflects the Shia juristic view that *Mut'ah* with a slave girl requires the owner's permission and, in this context, the free wife's approval to avoid conflict in the household structure.",
+        "seo_question": "Can a man have temporary marriage with a slave girl if he is already married to a free woman?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "to enjoy / to have temporary marriage (Mut'a)",
+          "الْمَمْلُوكَةِ": "the slave girl",
+          "الْحُرَّةُ": "the free woman",
+          "بِإِذْنِ أَهْلِهَا": "with the permission of her owner(s)",
+          "رَضِيَتِ": "agreed / was pleased"
+        }
+      },
+      "ur": {
+        "summary": "اس حدیث میں امام رضا (ع) نے اس بات کی وضاحت کی ہے کہ ایک مرد آزاد عورت سے دائمی نکاح کی حالت میں غلامی لڑکی سے متعہ کر سکتا ہے، جس میں آزاد بیوی کی رضامندی بنیادی شرط ہے۔ متن ایک باریک علمی تمیز کو اجاگر کرتا ہے: جبکہ امام رضامندی پر اس کی جواز کی تصدیق کرتے ہیں، ایک متعلقہ روایت میں یہ کہا گیا ہے کہ آزاد عورت کے 'اوپر' غلامی لڑکی کو لینا جائز نہیں ہے، جس سے ظاہر ہوتا ہے کہ غلامی لڑکی کا درجہ آزاد بیوی کے حقوق کے تحت تابع یا انحصاری ہے، نہ کہ اس کے برابر ہم عصر بیوی کے طور پر۔ یہ شیعہ فقہی نقطہ نظر کو ظاہر کرتا ہے کہ غلامی لڑکی سے متعہ کے لیے مالک کی اجازت اور اس سیاق و سباق میں آزاد بیوی کی منظری ضروری ہے تاکہ گھرانے کی ساخت میں تصادم سے بچا جا سکے۔",
+        "seo_question": "کیا ایک مرد اگر وہ پہلے سے ہی ایک آزاد عورت سے شادی شدہ ہے تو غلامی لڑکی سے متعہ کر سکتا ہے؟",
+        "key_terms": {
+          "يَتَمَتَّعُ": "متعہ کرنا / متعہ نکاح کرنا",
+          "الْمَمْلُوكَةِ": "غلامی لڑکی",
+          "الْحُرَّةُ": "آزاد عورت",
+          "بِإِذْنِ أَهْلِهَا": "اس کے مالک(وں) کی اجازت سے",
+          "رَضِيَتِ": "رضامند ہوئی / خوش ہوئی"
+        }
+      },
+      "tr": {
+        "summary": "Bu *el-Kâfî* hadisinde, İmam er-Rıza (AS, bir erkeğin serbest bir kadınla kalıcı evliliğini sürdürürken bir cariye ile *Mut'a* yapmasının şartlarını açıklar ve serbest eşin rızasını birincil şart olarak vurgular. Metin, ilmi bir nüansı öne çıkarır: İmam, onun izniyle caiz olduğunu onaylarken, ilgili bir rivayet, cariye serbest kadının 'üzerine' alınmazsa caiz değildir, yani cariye statüsü serbest eşin haklarına bağlı veya ona alt düzeyde bir konumdadır, eşit derecede eş zamanlı bir eş değildir. Bu, Şii fıkıh görüşünün, cariye ile *Mut'a* için sahibin iznini ve bu bağlamda hane yapısındaki çatışmayı önlemek için serbest eşin onayını gerektirdiğini yansıtır.",
+        "seo_question": "Bir erkek, serbest bir kadınla zaten evli ise, bir cariye ile geçici evlilik yapabilir mi?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "Mut'a yapmak / geçici evlilik yapmak",
+          "الْمَمْلُوكَةِ": "Cariye",
+          "الْحُرَّةُ": "Serbest kadın",
+          "بِإِذْنِ أَهْلِهَا": "Sahibinin izniyle",
+          "رَضِيَتِ": "Rıza gösterdi / razı oldu"
+        }
+      },
+      "fa": {
+        "summary": "در این حدیث از الکافی، امام رضا (ع) شرایط عمل مرد به متعه با کنیز را در حالی که با زنی آزاد ازدواج دائم دارد، روشن می‌سازد و تأکید می‌کند که رضایت همسر آزاد شرط اصلی است. متن تمایز ظریفی میان علما را برجسته می‌کند: در حالی که امام جواز آن را با اجازه همسر آزاد تأیید می‌کند، گزارش مرتبطی اشاره می‌کند که نمی‌توان کنیز را «بر روی» همسر آزاد گرفت، که نشان می‌دهد جایگاه کنیز subordinate یا وابسته به حقوق همسر آزاد است تا اینکه همسر هم‌تراز و همزمان باشد. این بازتاب دیدگاه فقهی شیعه است که متعه با کنیز نیازمند اجازه مالک است و در این زمینه، تأیید همسر آزاد برای جلوگیری از تعارض در ساختار خانه لازم است.",
+        "seo_question": "آیا مردی که هم‌اکنون با زنی آزاد ازدواج کرده است، می‌تواند با کنیز ازدواج موقت کند؟",
+        "key_terms": {
+          "يَتَمَتَّعُ": "لذت بردن / ازدواج موقت (متعه)",
+          "الْمَمْلُوكَةِ": "کنیز",
+          "الْحُرَّةُ": "زن آزاد",
+          "بِإِذْنِ أَهْلِهَا": "با اجازه صاحبان او",
+          "رَضِيَتِ": "راضی شد / خوشنود شد"
+        }
+      },
+      "id": {
+        "summary": "Dalam hadis dari *Al-Kafi*, Imam al-Rida (AS) menjelaskan syarat seorang pria dapat melakukan *Mut'ah* dengan seorang hamba perempuan sambil mempertahankan pernikahan tetap dengan seorang wanita merdeka, dengan menekankan bahwa persetujuan istri merdeka adalah syarat utama. Teks ini menyoroti perbedaan ilmiah yang halus: meskipun Imam menegaskan kebolehannya setelah mendapat izinnya, sebuah laporan terkait mencatat bahwa tidak diperbolehkan mengambil hamba perempuan 'atas' wanita merdeka, yang menunjukkan bahwa status hamba perempuan tersebut bersifat subordinat atau bergantung pada hak istri merdeka daripada menjadi pasangan yang setara secara bersamaan. Hal ini mencerminkan pandangan fikih Syiah bahwa *Mut'ah* dengan hamba perempuan memerlukan izin pemiliknya dan, dalam konteks ini, persetujuan istri merdeka untuk menghindari konflik dalam struktur rumah tangga.",
+        "seo_question": "Dapatkah seorang pria memiliki pernikahan sementara dengan seorang hamba perempuan jika ia sudah menikah dengan seorang wanita merdeka?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "menikmati / melakukan pernikahan sementara (Mut'ah)",
+          "الْمَمْلُوكَةِ": "hamba perempuan",
+          "الْحُرَّةُ": "wanita merdeka",
+          "بِإِذْنِ أَهْلِهَا": "dengan izin pemiliknya",
+          "رَضِيَتِ": "setuju / ridha"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি হাদিসে ইমাম আল-রিদা (আ.) স্পষ্ট করেছেন যে, একজন পুরুষ যদি একজন মুক্ত নারীর সাথে স্থায়ী বিবাহ বন্ধনে আবদ্ধ থাকেন, তবে তিনি একজন দাসী কন্যার সাথে মুতা' (স্থায়ী বিবাহ) করতে পারেন, যার প্রধান শর্ত হলো মুক্ত স্ত্রীর সম্মতি। পাঠ্যটি একটি সূক্ষ্ম বৈজ্ঞানিক পার্থক্য তুলে ধরে: ইমাম তার অনুমতির ওপর ভিত্তি করে মুতা'-র অনুমোদন করলেও, একটি সংশ্লিষ্ট বর্ণনায় উল্লেখ করা হয়েছে যে মুক্ত নারীর 'উপর' দাসী কন্যাকে নেওয়া যায় না, যা ইঙ্গিত দেয় যে দাসী কন্যার মর্যাদা মুক্ত স্ত্রীর অধিকারের উপর নির্ভরশীল বা অধীনস্থ, সমান সমকালীন স্ত্রী নয়। এটি শিয়া ফিকহের দৃষ্টিভঙ্গি প্রতিফলিত করে যে, দাসী কন্যার সাথে মুতা'-র জন্য মালিকের অনুমতি এবং এই প্রসঙ্গে, পরিবারের কাঠামোতে দ্বন্দ্ব এড়াতে মুক্ত স্ত্রীর অনুমোদন প্রয়োজন।",
+        "seo_question": "একজন পুরুষ যদি ইতিমধ্যে একজন মুক্ত নারীর সাথে বিবাহবন্ধনে আবদ্ধ থাকেন, তবে তিনি একজন দাসী কন্যার সাথে সাময়িক বিবাহ করতে পারেন?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "আনন্দ লাভ করা / মুতা' (স্থায়ী বিবাহ) করা",
+          "الْمَمْلُوكَةِ": "দাসী কন্যা",
+          "الْحُرَّةُ": "মুক্ত নারী",
+          "بِإِذْنِ أَهْلِهَا": "তার মালিক/মালিকদের অনুমতি সহ",
+          "رَضِيَتِ": "সম্মত হওয়া / সন্তুষ্ট হওয়া"
+        }
+      },
+      "es": {
+        "summary": "En este hadiz de *Al-Kafi*, el Imam al-Rida (AS) aclara las condiciones para que un hombre practique la *Mut'ah* con una esclava mientras mantiene un matrimonio permanente con una mujer libre, enfatizando que el consentimiento de la esposa libre es la condición principal. El texto destaca una distinción erudita matizada: aunque el Imam afirma la permisibilidad con su permiso, un informe relacionado señala que no es permitido tomar a la esclava 'sobre' la mujer libre, lo que sugiere que el estatus de la esclava es subordinado o dependiente de los derechos de la esposa libre en lugar de ser una cónyuge concurrente igual. Esto refleja la vista jurística chiita de que la *Mut'ah* con una esclava requiere el permiso del dueño y, en este contexto, la aprobación de la esposa libre para evitar conflictos en la estructura del hogar.",
+        "seo_question": "¿Puede un hombre tener un matrimonio temporal con una esclava si ya está casado con una mujer libre?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "disfrutar / contraer matrimonio temporal (Mut'a)",
+          "الْمَمْلُوكَةِ": "la esclava",
+          "الْحُرَّةُ": "la mujer libre",
+          "بِإِذْنِ أَهْلِهَا": "con el permiso de su(s) dueño(s)",
+          "رَضِيَتِ": "aceptó / estuvo complacida"
+        }
+      },
+      "fr": {
+        "summary": "Dans ce hadith d'*Al-Kafi*, l-Kafi*, l'Imam al-Rida (AS) clarifie les conditions pour qu'un homme pratique la *Mut'ah* avec une esclave tout en étant marié de manière permanente à une femme libre, en soulignant que le consentement de l'épouse libre est la condition principale. Le texte met en évidence une distinction savante nuancée : bien que l'Imam affirme la permission sous condition de son accord, un rapport connexe note qu'il n'est pas permis de prendre l'esclave 'sur' la femme libre, suggérant que le statut de l'esclave est subordonné ou dépendant des droits de l'épouse libre plutôt que d'être une épouse concurrente égale. Cela reflète la vue jurisprudentielle chiite selon laquelle la *Mut'ah* avec une esclave nécessite la permission du maître et, dans ce contexte, l'approbation de l'épouse libre pour éviter les conflits dans la structure du foyer.",
+        "seo_question": "Un homme peut-il contracter un mariage temporaire avec une esclave s'il est déjà marié à une femme libre ?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "jouir / avoir le mariage temporaire (Mut'a)",
+          "الْمَمْلُوكَةِ": "l'esclave",
+          "الْحُرَّةُ": "la femme libre",
+          "بِإِذْنِ أَهْلِهَا": "avec la permission de son maître",
+          "رَضِيَتِ": "a accepté / a été satisfaite"
+        }
+      },
+      "de": {
+        "summary": "In diesem hadith aus *Al-Kafi* klärt Imam al-Rida (AS) die Bedingungen für einen Mann, *Mut'ah* mit einer Sklavin zu praktizieren, während er eine dauerhafte Ehe mit einer freien Frau unterhält, und betont, dass die Zustimmung der freien Ehefrau die primäre Bedingung ist. Der Text hebt eine nuancierte gelehrtendiskussion hervor: Während der Imam die Erlaubtheit bei ihrer Erlaubnis bestätigt, bemerkt ein verwandter Bericht, dass es nicht erlaubt ist, die Sklavin 'über' der freien Frau zu nehmen, was darauf hindeutet, dass der Status der Sklavin untergeordnet oder abhängig von den Rechten der freien Ehefrau ist, anstatt eine gleichwertige gleichzeitige Ehefrau zu sein. Dies spiegelt die schiitische juristische Ansicht wider, dass *Mut'ah* mit einer Sklavin die Erlaubnis des Besitzers erfordert und in diesem Kontext die Zustimmung der freien Ehefrau, um Konflikte in der Haushaltsstruktur zu vermeiden. , Kann ein Mann eine vorübergehende Ehe mit einer Sklavin haben, wenn er bereits mit einer freien Frau verheiratet ist?, ",
+        "seo_question": "Kann ein Mann eine vorübergehende Ehe mit einer Sklavin haben, wenn er bereits mit einer freien Frau verheiratet ist?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "die vorübergehende Ehe (Mut'a) genießen",
+          "الْمَمْلُوكَةِ": "die Sklavin",
+          "الْحُرَّةُ": "die freie Frau",
+          "بِإِذْنِ أَهْلِهَا": "mit der Erlaubnis ihres Besitzers",
+          "رَضِيَتِ": "zustimmte / war zufrieden"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из «аль-Кафи» Имам ар-Рида (да будет с ним мир) разъясняет условия, при которых мужчина может вступать в временный брак (мута) с рабыней, сохраняя при этом постоянный брак со свободной женщиной, подчеркивая, что согласие свободной жены является основным условием. Текст подчеркивает тонкое различие в мнениях ученых: хотя Имамам подтверждает дозволенность при ее разрешении, в связанном сообщении отмечается, что нельзя брать рабыню «поверх» свободной жены, что предполагает, что статус рабыни подчинен или зависит от прав свободной жены, а не является равным одновременным супругом. Это отражает шиитскую юридическую точку зрения, согласно которой временный брак с рабыней требует разрешения владельца и, в данном контексте, одобрения свободной жены, чтобы избежать конфликта в структуре домохозяйства.",
+        "seo_question": "Может ли мужчина вступить во временный брак с рабыней, если он уже женат на свободной женщине?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "пользоваться / вступать во временный брак (мута)",
+          "الْمَمْلُوكَةِ": "рабыня",
+          "الْحُرَّةُ": "свободная женщина",
+          "بِإِذْنِ أَهْلِهَا": "с разрешения ее владельца(ов)",
+          "رَضِيَتِ": "согласилась / была довольна"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲圣训中，伊玛目里达（愿主喜悦之）阐明男子在保持与自由女子的永久婚姻的同时，可与女奴进行穆泰厄（临时婚姻）的条件，强调自由妻子的同意是首要条件。文本突显了学者间细微的区分：伊玛目在获得其许可后肯定其合法性，但相关报告指出不能‘在’自由妻子之上拥有女奴，暗示女奴的地位从属于或依赖于自由妻子的权利，而非作为平等的共同配偶。这反映了什叶派法学观点，即与女奴进行穆泰厄需获得主人的许可，在此语境下需获得自由妻子的批准，以避免家庭结构中的冲突。",
+        "seo_question": "男子在与自由女子结婚后，能否与女奴进行临时婚姻？",
+        "key_terms": {
+          "يَتَمَتَّعُ": "享受/进行临时婚姻（穆泰厄）",
+          "الْمَمْلُوكَةِ": "女奴",
+          "الْحُرَّةُ": "自由女子",
+          "بِإِذْنِ أَهْلِهَا": "经其主人（们）许可",
+          "رَضِيَتِ": "同意/满意"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:221",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:24",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "23:5",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ قَالَ سَأَلْتُ أَبَا الْحَسَنِ ( عليه السلام ) هَلْ لِلرَّجُلِ أَنْ يَتَمَتَّعَ مِنَ الْمَمْلُوكَةِ بِإِذْنِ أَهْلِهَا وَ لَهُ امْرَأَةٌ حُرَّةٌ قَالَ نَعَمْ إِذَا رَضِيَتِ الْحُرَّةُ قُلْتُ فَإِنْ أَذِنَتِ الْحُرَّةُ يَتَمَتَّعُ مِنْهَا قَالَ نَعَمْ . وَرُوِيَ أَيْضاً أَنَّهُ لَا يَجُوزُ أَنْ يُتَمَتَّعَ بِالْأَمَةِ عَلَى الْحُرَّةِ .",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ قَالَ",
+      "matn_ar": "سَأَلْتُ أَبَا الْحَسَنِ ( عليه السلام ) هَلْ لِلرَّجُلِ أَنْ يَتَمَتَّعَ مِنَ الْمَمْلُوكَةِ بِإِذْنِ أَهْلِهَا وَ لَهُ امْرَأَةٌ حُرَّةٌ قَالَ نَعَمْ إِذَا رَضِيَتِ الْحُرَّةُ قُلْتُ فَإِنْ أَذِنَتِ الْحُرَّةُ يَتَمَتَّعُ مِنْهَا قَالَ نَعَمْ . وَرُوِيَ أَيْضاً أَنَّهُ لَا يَجُوزُ أَنْ يُتَمَتَّعَ بِالْأَمَةِ عَلَى الْحُرَّةِ .",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+          "name_en": "Ahmad ibn Muhammad ibn Isa",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 13
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ إِسْمَاعِيلَ",
+          "name_en": "Muhammad ibn Ismail",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 17
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

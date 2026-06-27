@@ -1,0 +1,182 @@
+{
+  "verse_path": "/books/nahj-al-balagha:3:247:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-28",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "translations.bn.summary is empty string (likely Phase 4 batch failure)",
+    "translations.bn.seo_question is empty string (likely Phase 4 batch failure)",
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام):' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "social_relations"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "patience",
+      "prophetic_character"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَقَالَ (عليه السلام):",
+        "translations": {
+          "en": "And he (peace be upon him) said:",
+          "ur": "اور انہوں نے (علیہ السلام) فرمایا:",
+          "tr": "Ve o (aleyhisselam) buyurdu ki:",
+          "fa": "و قال (عليه السلام):",
+          "id": "Dan beliau (alamah) bersabda:",
+          "bn": "এবং তিনি (আলাইহিস সালাম) বলেছেন:",
+          "es": "Y él (la paz sea con él) dijo:",
+          "fr": "Et lui (que la paix soit sur lui) a dit :",
+          "de": "Und er (Ferner sagte er (Friede sei mit ihm):",
+          "ru": "И он (да будет мир с ним) сказал:",
+          "zh": "他说（愿主赐他平安）："
+        },
+        "word_start": 0,
+        "word_end": 3
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مَنْ أَبْطَأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ.",
+        "translations": {
+          "en": "Whomever his action detains behind, his lineage cannot put him forward.",
+          "ur": "جس کا عمل پیچھے رکھ دے، اس کی نسل آگے نہیں بڑھا سکتی۔",
+          "tr": "Kimin ameli onu geride bırakırsa, soyu onu öne çıkaramaz.",
+          "fa": "هر کس عملش او را عقب نگه دارد، نسلش نمی‌تواند او را جلو بیندازد.",
+          "id": "Barangsiapa yang tertinggal karena amalnya, nasabnya tidak akan mampu mengangkatnya.",
+          "bn": "যার আমল তাকে পিছিয়ে রাখে, তার বংশতালিকা তাকে এগিয়ে নিতে পারে না।",
+          "es": "A quien detenga su acción, su linaje no podrá impulsarlo hacia adelante.",
+          "fr": "Celui dont l'action retarde, sa lignée ne peut l'avancer.",
+          "de": "Wer von seiner Tat zurückgehalten wird, dessen Abstammung kann ihn nicht voranbringen.",
+          "ru": "Кого его деяние задержит позади, тот не сможет быть возвышен своим родословным древом.",
+          "zh": "谁的行为使他落后，他的血统也无法使他领先。"
+        },
+        "word_start": 3,
+        "word_end": 11
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this famous maxim from *Nahj al-Balagha*, Imam Ali (peace be upon him) contrasts the static nature of inherited lineage (*nasab*) with the dynamic, merit-based nature of personal deeds (*amal*), a concept central to Shia ethical theology. He emphasizes that noble ancestry cannot compensate for spiritual or practical stagnation, reinforcing the principle that true nobility is earned through action rather than bestowed by birth. This teaching serves as a critique of tribal elitism, asserting that divine acceptance depends on the quality of one's efforts. The Quranic verse 98:8, which contrasts those who disbelieve with those who believe and do righteous deeds, provides the foundational scriptural basis for this distinction between status and merit. Additional thematic references include Surah Al-Hujurat (49:13), which declares that nobility before God is based on *taqwa* (God-consciousness) rather than lineage, and Surah An-Najm (53:39-42), which explicitly states that man shall have nothing but what he strives for. These verses collectively underscore the Shia emphasis on individual accountability and the transcendence of ancestral privilege through personal piety and action. [ { ",
+        "seo_question": "What is the relationship between personal deeds and family lineage in Shia ethics?",
+        "key_terms": {
+          "عَمَلُهُ": "his action/deed",
+          "نَسَبُهُ": "his lineage/ancestry"
+        }
+      },
+      "ur": {
+        "summary": "اس مشہور حکمت میں، امام علی (علیہ السلام) وراثتی نسب (nasab) کی جامد نوعیت اور ذاتی اعمال (amal) کی پویا اور شایستگی پر مبنی نوعیت کے درمیان تضاد بیان کرتے ہیں، جو شیعہ اخلاقی الہیات کا ایک مرکزی تصور ہے۔ وہ اس بات پر زور دیتے ہیں کہ شریف نسب روحانی یا عملی سستی کی جبران نہیں کر سکتا، جس سے یہ اصول مضبوط ہوتا ہے کہ اصل شرافت پیدا ہونے سے عطا نہیں بلکہ عمل سے کمائی جاتی ہے۔ یہ تعلیم قبائلی اشرافیہ کی تنقید کے طور پر کام کرتی ہے، یہ دعویٰ کرتے ہوئے کہ الہی قبولیت کا انحصار ایک شخص کی کوششوں کی معیار پر ہے۔ قرآن مجید کی آیت 98:8، جو کافروں اور ایمان والوں اور نیک عمل کرنے والوں کے درمیان تضاد پیش کرتی ہے، اس مقام اور شایستگی کے درمیان تمیز کے لیے بنیادی تحریری بنیاد فراہم کرتی ہے۔ اضافی موضوعاتی حوالہ جات میں سورہ الحجرات (49:13) شامل ہے، جو یہ اعلان کرتی ہے کہ اللہ کے نزدیک شرافت نسب کے بجائے تقویٰ (God-consciousness) پر مبنی ہے، اور سورہ النجم (53:39-42)، جو صراحتاً بیان کرتی ہے کہ انسان کو وہی ملے گا جس کی اس نے کوشش کی ہے۔ یہ آیات اجتماعی طور پر شیعہ کے فرد کی ذمہ داری اور ذاتی تقویٰ اور عمل کے ذریعے جدوجہد کی اشرافیہ کے فائق ہونے پر زور دیتی ہیں۔",
+        "seo_question": "شیعہ اخلاقیات میں ذاتی اعمال اور خاندانی نسب کے درمیان تعلق کیا ہے؟",
+        "key_terms": {
+          "عَمَلُهُ": "اس کا عمل/نیکی",
+          "نَسَبُهُ": "اس کا نسب/آباؤ اجداد"
+        }
+      },
+      "tr": {
+        "summary": "Bu *Nahj al-Balagır Belâg*dan ünlü bir hadiste, İmam Ali (aleyhisselâm) kalıtsal soy (*nasab*) ile kişisel amel (*amel*) arasındaki farkı vurgular. Soyun soyluluğu, manevi veya pratik birikim eksikliği durumunda yetersiz kalır; gerçek soyluluk doğuştan gelen değil, eylemle kazanılan bir özelliktir. Bu öğüt, kabilecilik elitizmine karşı bir eleştiri niteliğindedir ve ilahi kabulün kişinin çabasının kalitesine bağlı olduğunu belirtir. Kuran'daki 98. ayet, inkâr edenlerle iman edip salih amel işleyenleri karşılaştırarak bu ayrımın temelini oluşturur. Ayrıca Hucurât Suresi (49:13) ve Necm Suresi (53:39-42) ayetleri, soyluluğun *takva*ya dayandığını ve insanın ancak çabasınca sahip olacağını vurgulayarak, Şii teolojisinde bireysel sorumluluk ve ataların ayrıcalıklarının kişisel takva ve eylemle aşıldığı fikrini destekler.",
+        "seo_question": "Şii ahlakında kişisel amel ile aile soyu arasındaki ilişki nedir?",
+        "key_terms": {
+          "عَمَلُهُ": "onun amel/iş",
+          "نَسَبُهُ": "onun soyu/soy kökeni"
+        }
+      },
+      "fa": {
+        "summary": "در این حکم مشهور از *نهج‌البلاغه*، امام علی (علیه‌السلام) طبیعت ثابت و موروثی نسب را در تقابل با طبیعت پویا و شایسته‌سالارانه اعمال فردی قرار می‌دهد که مفهومی محوری در الهیات اخلاقی شیعه است. او تأکید می‌کند که نژاد نجیب نمی‌تواند جبران‌کننده رکود معنوی یا عملی باشد و اصل این را تقویت می‌کند که اصالت واقعی از طریق عمل کسب می‌شود نه اینکه به تولد عطا گردد. این آموزه نقدی بر نخبگان‌گرایی قبیله‌ای است و ادعا می‌کند که پذیرش الهی به کیفیت تلاش‌های فرد بستگی دارد. آیه ۹۸ از سوره بینه که کافران را در تقابل با مؤمنان و کسانی که اعمال صالح انجام می‌دهند قرار می‌دهد، مبنای scriptural بنیادین برای این تمایز بین جایگاه و شایستگی را فراهم می‌کند. ارجاعات موضوعی اضافی شامل سوره حجرات (۴۹:۱۳) است که اعلام می‌دارد اصالت پیش از خدا بر اساس تقوا است نه نسب، و سوره نجم (۵۳:۳۹-۴۲) که صراحتاً بیان می‌کند انسان جز آنچه تلاش کرده چیزی نخواهد داشت. این آیات به طور جمعی بر تأکید شیعه بر مسئولیت‌پذیری فردی و فراتر رفتن از امتیازات اجدادی از طریق تقوا و عمل شخصی تأکید می‌کنند.",
+        "seo_question": "رابطه بین اعمال فردی و نسب خانوادگی در اخلاق شیعه چیست؟",
+        "key_terms": {
+          "عَمَلُهُ": "عمل او",
+          "نَسَبُهُ": "نسب او"
+        }
+      },
+      "id": {
+        "summary": "Dalam kaidah terkenal dari *Nahj al-Balag Balagha*, Imam Ali (alamah) membandingkan sifat statis keturunan yang diwariskan (*nasab*) dengan sifat dinamis dan berbasis merit dari perbuatan pribadi (*amal*), sebuah konsep sentral dalam teologi etika Syiah. Ia menekankan bahwa leluhur yang mulia tidak dapat mengkompensasi stagnasi spiritual atau praktis, memperkuat prinsip bahwa kemuliaan sejati diperoleh melalui tindakan bukan diberikan oleh kelahiran. Pengajaran ini berfungsi sebagai kritik terhadap elitisme suku, menegaskan bahwa penerimaan ilahi bergantung pada kualitas usaha seseorang. Ayat Alquran 98:8, yang membandingkan mereka yang kafir dengan mereka yang beriman dan melakukan perbuatan baik, memberikan dasar skriptural mendasar untuk pembedaan antara status dan merit. Referensi tematik tambahan termasuk Surah Al-Hujurat (49:13), yang menyatakan bahwa kemuliaan di hadapan Allah didasarkan pada *taqwa* (kesadaran akan Allah) bukan keturunan, dan Surah An-Najm (53:39-42), yang secara eksplisit menyatakan bahwa manusia tidak akan mendapatkan apa pun kecuali apa yang ia usahakan. Ayat-ayat ini secara kolektif menekankan penekanan Syiah pada akuntabilitas individu dan transcendensi hak istimewa leluhur melalui kesalehan dan tindakan pribadi.",
+        "seo_question": "Apa hubungan antara perbuatan pribadi dan garis keturunan dalam etika Syiah?",
+        "key_terms": {
+          "عَمَلُهُ": "perbuatannya",
+          "نَسَبُهُ": "keturunannya"
+        }
+      },
+      "es": {
+        "summary": "En esta famosa máxima de *Nahj al-Balagha*, el Imam Alí (que la paz sea con él) contrasta la naturaleza estática del linaje heredado (*nasab*) con la naturaleza dinámica y basada en el mérito de las acciones personales (*amal*), un concepto central en la teología ética chií. Él enfatiza que la nobleza ancestral no puede compensar la estancación espiritual o práctica, reforzando el principio de que la verdadera nobleza se gana mediante la acción en lugar de ser otorgada por nacimiento. Esta enseñanza sirve como una crítica al elitismo tribal, afirmando que la aceptación divina depende de la calidad de los esfuerzos propios. El versículo coránico 98:8, que contrasta a los incrédulos con aquellos que creen y realizan buenas obras, proporciona la base escritural fundamental para esta distinción entre estatus y mérito. Las referencias temáticas adicionales incluyen la Surah Al-Hujurat (49:13), que declara que la nobleza ante Dios se basa en la *taqwa* (consciencia de Dios) en lugar del linaje, y la Surah An-Najm (53:39-42), que afirma explícitamente que el hombre no tendrá nada más que lo que se esfuerce por lograr. Estos versículos subrayan colectivamente el énfasis chií en la responsabilidad individual y la trascendencia del privilegio ancestral a través de la piedad y la acción personal.",
+        "seo_question": "¿Cuál es la relación entre las acciones personales y el linaje familiar en la ética chií?",
+        "key_terms": {
+          "عَمَلُهُ": "su acción/obra",
+          "نَسَبُهُ": "su linaje/ancestría"
+        }
+      },
+      "fr": {
+        "summary": "Dans ce célèbre hadith de *Nahj al-Balagha*, l'Imam Ali (que la paix soit sur lui) oppose la nature statique de la lignée héréditaire (*nasab*) à la nature dynamique et fondée sur le mérite des actions personnelles (*amal*), un concept central dans la théologie éthique chiite. Il souligne qu'une ascendance noble ne peut compenser une stagnation spirituelle ou pratique, renforçant le principe selon lequel la véritable noblesse s'acquiert par l'action plutôt qu'elle n'est conférée par la naissance. Cet enseignement constitue une critique de l'élitisme tribal, affirmant que l'acceptation divine dépend de la qualité des efforts fournis. Le verset coranique 98:8, qui oppose les mécréants à ceux qui croient et accomplissent de bonnes œuvres, fournit la base scripturaire fondamentale de cette distinction entre statut et mérite. Des références thématiques supplémentaires incluent la sourate Al-Hujurat (49:13), qui déclare que la noblesse auprès de Dieu repose sur la *taqwa* (piété/conscience de Dieu) plutôt que sur la lignée, et la sourate An-Najm (53:39-42), qui énonce explicitement que l'homme n'aura rien d'autre que ce qu'il aura mérité par ses efforts. Ces versets soulignent collectivement l'accent mis par le chiisme sur la responsabilité individuelle et la transcendance des privilèges ancestraux grâce à la piété et à l'action personnelles.",
+        "seo_question": "Quelle est la relation entre les actions personnelles et la lignée familiale dans l'éthique chiite ?",
+        "key_terms": {
+          "عَمَلُهُ": "son action/œuvre",
+          "نَسَبُهُ": "sa lignée/ascendance"
+        }
+      },
+      "de": {
+        "summary": "In diesem berühmten Ausspruch aus *Nahj al-Balagha* stellt Imam Ali (Friede sei mit ihm) die statische Natur der erblichen Abstammung (*nasab*) der dynamischen, leistungsbezogenen Natur der persönlichen Taten (*amal*) gegenüber, ein Konzept, das für die schiitische ethische Theologie zentral ist. Er betont, dass edle Vorfahren spirituelle oder praktische Stagnation nicht ausgleichen können, und untermauert das Prinzip, dass wahre Edelfreiheit durch Handeln erworben wird, anstatt durch Geburt verliehen zu werden. Diese Lehre dient als Kritik am Stammeselitismus und behauptet, dass die göttliche Annahme von der Qualität der eigenen Bemühungen abhängt. Die Koranverse 98:8, die diejenigen, die ungläubig sind, denen gegenüberstellen, die glauben und rechte Taten vollbringen, bilden die grundlegende schriftliche Basis für diese Unterscheidung zwischen Status und Verdienst. Zusätzliche thematische Verweise umfassen Sure Al-Hujurat (49:13), die erklärt, dass Edelfreiheit vor Gott auf *taqwa* (Gottesfurcht) und nicht auf Abstammung beruht, sowie Sure An-Najm (53:39-42), die ausdrücklich besagt, dass der Mensch nichts anderes hat, als was er sich erarbeitet. Diese Verse unterstreichen gemeinsam die schiitische Betonung der individuellen Verantwortung und der Überwindung des väterlichen Privilegs durch persönliche Frömmigkeit und Handeln.",
+        "seo_question": "Was ist die Beziehung zwischen persönlichen Taten und der Familiengeschichte in der schiitischen Ethik?",
+        "key_terms": {
+          "عَمَلُهُ": "seine Tat",
+          "نَسَبُهُ": "seine Abstammung"
+        }
+      },
+      "ru": {
+        "summary": "В этой известной максиме из *Нахдж аль-Балага* имам Али (мир ему) противопоставляет статичную природу наследственного происхождения (*насаб*) динамичной, основанной на заслугах природе личных деяний (*амаль*), что является центральным понятием шиитской этико-теологической мысли. Он подчеркивает, что благородное происхождение не может компенсировать духовный или практический застой, укрепляя принцип, согласно которому истинное благородство приобретается через действие, а не даруется от рождения. Это учение служит критикой племенного элитизма, утверждая, что божественное принятие зависит от качества усилий человека. Коранический аят 98:8, который противопоставляет неверующих тем, кто верует и совершает праведные деяния, предоставляет фундаментальное писательское основание для этого различия между статусом и заслугами. Дополнительные тематические ссылки включают суру Аль-Худжурат (49:13), которая объявляет, что благородство перед Богом основано на *такве* (богобоязненности), а не на происхождении, и суру Ан-Нам (53:39-42), которая явно утверждает, что человеку не достанется ничего, кроме того, к чему он стремился. Эти аяты в совокупности подчеркивают шиитский акцент на индивидуальной ответственности и преодолении предковских привилегий через личное благочестие и действие.",
+        "seo_question": "Какова взаимосвязь между личными деяниями и семейным происхождением в шиитской этике?",
+        "key_terms": {
+          "عَمَلُهُ": "его деяние",
+          "نَسَبُهُ": "его происхождение"
+        }
+      },
+      "zh": {
+        "summary": "在这段出自《纳赫吉·巴拉格哈》的著名格言中，伊玛目阿里（愿主福安之）将继承的血统（nasab）的静态性质与个人功绩（amal）的动态、基于功绩的性质进行对比，这是什叶派伦理神学的核心概念。他强调高贵的祖先血统无法弥补精神或实践上的停滞，重申真正的尊贵是通过行动赢得的，而非与生俱来的。这一教导是对部落精英主义的批判，主张神圣的接纳取决于个人努力的质量。《古兰经》第98章第8节将不信道者与信道且行善者进行对比，为这种地位与功绩的区别提供了基础的经文依据。其他主题参考包括《古兰经》第49章第13节（苏拉特·胡朱拉特），其中宣布在真主面前的尊贵基于敬畏（taqwa）而非血统，以及第53章第39-42节（苏拉特·安·纳吉姆），明确指出人所得的只是他所努力的成果。这些经文共同强调了什叶派对个人责任以及通过个人虔诚和行动超越祖先特权的重视。",
+        "seo_question": "在什叶派伦理中，个人功绩与家族血统之间的关系是什么？",
+        "key_terms": {
+          "عَمَلُهُ": "他的行为/功绩",
+          "نَسَبُهُ": "他的血统/祖先"
+        }
+      },
+      "bn": {
+        "summary": "",
+        "seo_question": "",
+        "key_terms": {}
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "98:8",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "49:13",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:39",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَقَالَ (عليه السلام): مَنْ أَبْطَأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ.",
+    "isnad_matn": {
+      "isnad_ar": "",
+      "matn_ar": "وَقَالَ (عليه السلام): مَنْ أَبْطَأَ بِهِ عَمَلُهُ لَمْ يُسْرِعْ بِهِ نَسَبُهُ.",
+      "has_chain": false,
+      "narrators": []
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "verse_path": "/books/al-kafi:3:5:22:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[3] name_ar has 17 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ سُئِلَ أَ يَجْم'",
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "economy",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "zakat_khums",
+      "financial_law",
+      "community"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَمَّادُ بْنُ عِيسَى عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ سُئِلَ",
+        "translations": {
+          "en": "Hammad ibn Isa, from Hariz, from Muhammad ibn Muslim, from Abu Abdillah (peace be upon him), that he was asked:",
+          "ur": "حماد بن عيسى، حارث سے، محمد بن مسلم سے، ابو عبد اللہ (علیه السلام) سے، کہ ان سے پوچھا گیا:",
+          "tr": "Hammad b. İsa, Hariz'den, Muhammed b. Müslim'den, Ebu Abdillah'dan (aleyhisselam), kendisine şu soru soruldu:",
+          "fa": "حماد بن عیسی از حریز از محمد بن مسلم از ابوعبدالله (علیه السلام) که از او پرسیدند:",
+          "id": "Hammad bin Isa dari Hariz dari Muhammad bin Muslim dari Abu Abdillah (alam Abu Abdillah (alamah), bahwa beliau ditanya:",
+          "bn": "হাম্মাদ ইবনে ইসা, হারিজের নিকট থেকে, মুহাম্মাদ ইবনে মুসলিমের নিকট থেকে, আবু আবদিল্লাহ (আলৈহিস সালাম) এর নিকট থেকে, যে তিনি থেকে জিজ্ঞাসা করা হয়েছিল:",
+          "es": "Hammād ibn ʿĪsá, ʿan Hariz, ʿan Muḥammad ibn Muslim, ʿan Abī ʿAbdillāh (ʿalayhi al-salām), annahu sūʾila:",
+          "fr": "Hammād ibn ʿĪsā, ʿan Hariz, ʿan Muḥammad ibn Muslim, ʿan Abī ʿAbdillāh (ʿalayhi al-salām), annahu sūʾila:",
+          "de": "Hammād ibn ʿĪsā, von Ḥariz, von Muḥammad ibn Muslim, von Abū ʿAbdillāh (friede sei mit ihm), dass er gefragt wurde:",
+          "ru": "Хаммад ибн Иса, от Хариза, от Мухаммада ибн Муслима, от Абу Абдиллаха (да будет мир с ним), что его спросили:",
+          "zh": "哈马"
+        },
+        "word_start": 0,
+        "word_end": 19
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَ يَجْمَعُ النَّاسَ الْمُصَدِّقُ أَمْ يَأْتِيهِمْ عَلَى مَنَاهِلِهِمْ قَالَ لَا بَلْ يَأْتِيهِمْ عَلَى مَنَاهِلِهِمْ فَيُصَدِّقُهُمْ",
+        "translations": {
+          "en": "'Should the Zakat collector gather the people, or should he go to them at their watering places?' He said: 'No, but he should go to them at their watering places, so he would collect their Zakat.'",
+          "ur": "کیا زکوٰۃ کا جمع کرنے والا لوگوں کو جمع کرے یا ان کے پانی کے مقامات پر ان کے پاس جائے؟ انہوں نے کہا: نہیں، بلکہ اسے ان کے پانی کے مقامات پر ان کے پاس جانا چاہیے تاکہ وہ ان کی زکوٰۃ جمع کر سکے۔",
+          "tr": "Zekât tahsildarı insanları toplar mı, yoksa onlara su yerlerine giderek mi? O dedi: 'Hayır, ama o su yerlerine giderek onlara ulaşmalı ve zekâtlarını tahsil etmelidir.'",
+          "fa": "آیا جمع‌کننده زکات مردم را گرد می‌آورد یا اینکه به سراغ آنان در محل‌های آب‌خوری‌شان می‌رود؟",
+          "id": "Apakah pengumpul zakat mengumpulkan orang-orang, ataukah ia pergi kepada mereka di tempat-tempat mereka mengambil air?",
+          "bn": "যাকাত আদায়কারী কি লোকদেরকে ডেকে আনবেন, নাকি তিনি পানির স্থানে তাদের কাছে যাবেন? তিনি বললেন: 'না, বরং তিনি পানির স্থানে তাদের কাছে যাবেন, যাতে তিনি তাদের যাকাত আদায় করেন।'",
+          "es": "¿Debe el recaudador de la zakat reunir a la gente, o debe ir a ellos en sus lugares de abrevadero? Dijo: 'No, sino que debe ir a ellos en sus lugares de abrevadero, para que recaude su zakat.'",
+          "fr": "« Le percepteur de la zakat doit-il rassembler les gens, ou doit-il aller les trouver à leurs points d'eau ? » Il dit : « Non, mais il doit aller les trouver à leurs points d'eau, afin de percevoir leur zakat. »",
+          "de": "Soll der Zakat-Sammler die Menschen versammeln oder zu ihnen an ihre Tränken gehen? Er sagte: Nein, sondern er soll zu ihnen an ihre Tränken gehen, damit er ihre Zakat einsammelt.",
+          "ru": "«Соберет ли сборщик закята людей или же он пойдет к ним к местам водопоя?» Он сказал: «Нет, но он должен пойти к ним к местам водопоя, чтобы собрать их закят».",
+          "zh": "他问：‘收天课的人应该召集众人，还是去他们的饮水处？’他说：‘不，但他应该去他们的饮水处，以便收取他们的天课。’"
+        },
+        "word_start": 19,
+        "word_end": 34
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Al-Kafi* outlines the practical methodology for the *musaddiq* (Zakat collector), emphasizing a decentralized approach where the collector visits the people at their watering places (*manahil*) rather than assembling them in a single location. This method minimizes the burden on the populace and reflects the Shia scholarly emphasis on ease and accessibility in religious obligations, ensuring that the collection process is conducted with gentleness and efficiency.",
+        "seo_question": "How should the Zakat collector distribute themselves to collect charity from the people?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "The Zakat collector or official",
+          "مَنَاهِلِهِمْ": "Their watering places (plural of manhal)",
+          "يَجْمَعُ": "To gather/collect (people)",
+          "يَأْتِيهِمْ": "He goes to them"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی سے ہے جو مصدق (زکوٰۃ کے جمع کرنے والے) کے لیے عملی طریقہ کار بیان کرتی ہے، جس میں اس بات پر زور دیا گیا ہے کہ جمع کرنے والا لوگوں کو ایک جگہ جمع کرنے کے بجائے ان کے پانی کے مقامات (مناہل) پر ان کے پاس جاتا ہے۔ یہ طریقہ عوام پر بوجھ کم کرتا ہے اور شیعہ علما کے دینی فریضوں میں آسانی اور سہولت پر دینے والے زور کو ظاہر کرتا ہے، یقینی بناتا ہے کہ جمع کرنے کا عمل نرمی اور کارکردگی کے ساتھ انجام دیا جائے۔",
+        "seo_question": "زکوٰۃ کا جمع کرنے والا لوگوں سے صدقہ جمع کرنے کے لیے کیسے تقسیم ہونا چاہیے؟",
+        "key_terms": {
+          "الْمُصَدِّقُ": "زکوٰۃ کا جمع کرنے والا یا عہدیدار",
+          "مَنَاهِلِهِمْ": "ان کے پانی کے مقامات (منہل کا جمع)",
+          "يَجْمَعُ": "لوگوں کو جمع کرنا/جمع کرنا",
+          "يَأْتِيهِمْ": "وہ ان کے پاس جاتا ہے"
+        }
+      },
+      "tr": {
+        "summary": "Bu *el-Kafi* hadisi, *müsadık*ın (Zakât toplayıcısı) pratik metodolojisini, onları tek bir yerde toplamak yerine sulama yerlerinde (*menahil*) ziyaret etmelerini vurgulayan merkeziyetsiz bir yaklaşımı özetler. Bu yöntem, halkın yükünü azaltır ve dini yükümlülüklerde kolaylık ve erişilebilirliğe Shia alimlerinin vurgusunu yansıtarak, toplama sürecinin naziklik ve verimlilikle yürütülmesini sağlar.",
+        "seo_question": "Zakât toplayıcısı, halktan sadaka toplamak için nasıl dağılmalıdır?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "Zakât toplayıcısı veya yetkili",
+          "مَنَاهِلِهِمْ": "Sulama yerleri (menhal'in çoğulu)",
+          "يَجْمَعُ": "Toplamak/toplamak (insanlar)",
+          "يَأْتِيهِمْ": "Onlara gitmek"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، روش عمل‌کرد عملی مصدق (جمع‌کننده زکات) را ترسیم می‌کند و بر رویکردی غیرمتمرکز تأکید دارد که در آن جمع‌کننده به جای گردآوری مردم در یک مکان واحد، به محل‌های آب‌خوری آن‌ها (منهل) می‌رود. این روش بار را بر دوش مردم کم می‌کند و تأکید علمای شیعه بر آسانی و دسترسی‌پذیری در تکالیف دینی را بازتاب می‌دهد، که فرآیند جمع‌آوری را با ملایمت و کارایی انجام می‌دهد.",
+        "seo_question": "جمع‌کننده زکات چگونه باید برای دریافت صدقه از مردم توزیع شود؟",
+        "key_terms": {
+          "الْمُصَدِّقُ": "جمع‌کننده زکات یا مسئول",
+          "مَنَاهِلِهِمْ": "محل‌های آب‌خوری آن‌ها (جمع منهل)",
+          "يَجْمَعُ": "گردم کردن/جمع کردن (مردم)",
+          "يَأْتِيهِمْ": "به سوی آن‌ها رفتن"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Al-Kafi* ini menguraikan metodologi praktis bagi *musaddiq* (pengumpul zakat), dengan menekankan pendekatan terdesentralisasi di mana pengumpul mengunjungi masyarakat di tempat air mereka (*manahil*) daripada mengumpulkan mereka di satu lokasi. Metode ini meminimalkan beban pada rakyat dan mencerminkan penekanan ulama Syiah pada kemudahan dan aksesibilitas dalam kewajiban agama, memastikan bahwa proses pengumpulan dilakukan dengan lembut dan efisien.",
+        "seo_question": "Bagaimana seharusnya pengumpul zakat mendistribusikan diri untuk mengumpulkan sedekah dari masyarakat?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "Pengumpul zakat atau pejabat",
+          "مَنَاهِلِهِمْ": "Tempat air mereka (bentuk jamak dari manhal)",
+          "يَجْمَعُ": "Mengumpulkan/mengumpulkan (orang-orang)",
+          "يَأْتِيهِمْ": "Dia pergi kepada mereka"
+        }
+      },
+      "bn": {
+        "summary": "এসওই প্রশ্ন (seo_question): ",
+        "seo_question": "কিভাবে জাকাত আদায়কারীকে জনগণের নিকট থেকে সদকা আদায় করতে হতে হবে?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "জাকাত আদায়কারী বা কর্মকর্তা",
+          "مَنَاهِلِهِمْ": "তাদের পানির স্থানসমূহ",
+          "يَجْمَعُ": "জনগণকে সমবেত করা/আদায় করা",
+          "يَأْتِيهِمْ": "তাদের নিকট যাওয়া"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de *Al-Kafi* describe la metodología práctica del *musaddiq* (recaudador de Zakat), enfatizando un enfoque descentralizado donde el recaudador visita a las personas en sus lugares de abastecimiento de agua (*manahil*) en lugar de reunirlos en un solo lugar. Este método minimiza la carga sobre la población y refleja el énfasis de los eruditos chiíes en la facilidad y accesibilidad de las obligaciones religiosas, asegurando que el proceso de recolección se lleve a cabo con gentileza y eficiencia.",
+        "seo_question": "¿Cómo debe distribuirse el recaudador de Zakat para cobrar la limosna a la gente?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "El recaudador de Zakat o funcionario",
+          "مَنَاهِلِهِمْ": "Sus lugares de abastecimiento de agua (plural de manhal)",
+          "يَجْمَعُ": "Reunir/colectar (a las personas)",
+          "يَأْتِيهِمْ": "Él va a ellos"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Al-Kafi* décrit la méthodologie pratique du *musaddiq* (collecteur de la Zakat), en soulignant une approche décentralisée où le collecteur se rend vers les gens à leurs points d'eau (*manahil*) plutôt que de les rassembler en un seul lieu. Cette méthode allège le fardeau imposé à la population et reflète l'accent mis par les savants chiites sur la facilité et l'accessibilité des obligations religieuses, garantissant que le processus de collecte est mené avec douceur et efficacité.",
+        "seo_question": "Comment le collecteur de la Zakat doit-il se répartir pour collecter l'aumône auprès des gens ?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "Le collecteur de la Zakat ou l'officiel",
+          "مَنَاهِلِهِمْ": "Leurs points d'eau (pluriel de manhal)",
+          "يَجْمَعُ": "Rassembler/collecter (les gens)",
+          "يَأْتِيهِمْ": "Il va vers eux"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Al-Kafi* beschreibt die praktische Methodik des *Musaddiq* (Zakat-Sammlers) und betont einen dezentralen Ansatz, bei dem der Sammler die Menschen an ihren Tränkestellen (*Manahil*) aufsucht, anstatt sie an einem einzigen Ort zusammenzubringen. Diese Methode minimiert die Belastung der Bevölkerung und spiegelt die schiitische Gelehrtenbetonung auf Erleichterung und Zugänglichkeit bei religiösen Pflichten wider, wodurch sichergestellt wird, dass der Sammelprozess mit Sanftheit und Effizienz durchgeführt wird.",
+        "seo_question": "Wie sollte der Zakat-Sammler sich verteilen, um die Abgaben von den Menschen zu erheben?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "Der Zakat-Sammler oder Beamte",
+          "مَنَاهِلِهِمْ": "Ihre Tränkestellen (Plural von Manhal)",
+          "يَجْمَعُ": "Versammeln/Sammeln (der Menschen)",
+          "يَأْتِيهِمْ": "Er geht zu ihnen"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из «аль-Кафи» описывается практическая методология работы мусаддика (сборщика закята), которая подчеркивает децентрализованный подход: сборщик посещает людей в местах их водопоя (манахиль), а не собирает их в одном месте. Этот метод снижает нагрузку на население и отражает шиитское акцентирование внимания на облегчении и доступности религиозных обязанностей, обеспечивая проведение сбора с мягкостью и эффективностью.",
+        "seo_question": "Как должен распределяться сборщик закята для сбора милостыни у людей?",
+        "key_terms": {
+          "الْمُصَدِّقُ": "сборщик закята или должностное лицо",
+          "مَنَاهِلِهِمْ": "их места водопоя (множественное число от manhal)",
+          "يَجْمَعُ": "собирать/сводить (людей)",
+          "يَأْتِيهِمْ": "он идет к ним"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《卡菲》的圣训概述了收税官（穆萨迪格）的实践方法，强调一种去中心化的方式，即收税官前往人们的饮水处（马纳希尔）进行征收，而非将他们集中在一处。这种方法减轻了民众的负担，体现了什叶派学者在宗教义务中注重便利与可及性的观点，确保征收过程温和且高效。",
+        "seo_question": "收税官应如何分布以向民众征收天课？",
+        "key_terms": {
+          "الْمُصَدِّقُ": "收税官或官员",
+          "مَنَاهِلِهِمْ": "他们的饮水处（manhal的复数）",
+          "يَجْمَعُ": "聚集/收集（人群）",
+          "يَأْتِيهِمْ": "他前往他们那里"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "9:103",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَمَّادُ بْنُ عِيسَى عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ سُئِلَ أَ يَجْمَعُ النَّاسَ الْمُصَدِّقُ أَمْ يَأْتِيهِمْ عَلَى مَنَاهِلِهِمْ قَالَ لَا بَلْ يَأْتِيهِمْ عَلَى مَنَاهِلِهِمْ فَيُصَدِّقُهُمْ",
+    "isnad_matn": {
+      "isnad_ar": "حَمَّادُ بْنُ عِيسَى عَنْ حَرِيزٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ سُئِلَ",
+      "matn_ar": "أَ يَجْمَعُ النَّاسَ الْمُصَدِّقُ أَمْ يَأْتِيهِمْ عَلَى مَنَاهِلِهِمْ قَالَ لَا بَلْ يَأْتِيهِمْ عَلَى مَنَاهِلِهِمْ فَيُصَدِّقُهُمْ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَمَّادُ بْنُ عِيسَى",
+          "name_en": "Hammad ibn Isa",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 38
+        },
+        {
+          "name_ar": "حَرِيزٍ",
+          "name_en": "Hareez",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 40
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+          "name_en": "Muhammad ibn Muslim",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 16
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ سُئِلَ أَ يَجْمَعُ النَّاسَ الْمُصَدِّقُ أَمْ يَأْتِيهِمْ عَلَى مَنَاهِلِهِمْ",
+          "name_en": "Abu Abdillah",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

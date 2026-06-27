@@ -1,0 +1,313 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:83:10",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[1] name_ar has 17 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'عَشَاهَا، وَأَشْلاَءً جَامِعَةً لاِعْضَائِهَا، مُلاَئِمَةً ل'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "ethics",
+      "quran_commentary"
+    ],
+    "content_type": "exhortation",
+    "topics": [
+      "divine_attributes",
+      "gratitude",
+      "quran_interpretation_method"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَمِنْهَا [التَّذْكِيرُ بِضُرُوبِ النِّعَمِ]",
+        "translations": {
+          "en": "[A part of the same sermon: Reminding people of Allāh’s bounties]",
+          "ur": "اسی خطبے کا ایک حصہ: لوگوں کو اللہ کی نعمتوں کی یاد دہانی",
+          "tr": "Hudhayfah ibn al-Yaman (r.a.) anlatıyor: Peygamber (s.a.v.) şöyle buyurdu: [Bu hutbenin bir kısmı: İnsanları Allah'ın nimetleriyle hatırlatmak]",
+          "fa": "[بخشی از همان خطبه: یادآوری نعمت‌های خداوند به مردم]",
+          "id": "Sebagian dari khutbah yang sama: Mengingatkan akan berbagai nikmat Allāh",
+          "bn": "[এই খুতবার একটি অংশ: আল্লাহর নিয়ামতসমূহের স্মরণ করানো]",
+          "es": "[Parte del mismo sermismo sermón: Recordar a las personas las bendiciones de Allāh]",
+          "fr": "[Une partie du même sermon : Rappeler aux gens les bienfaits d'Allāh]",
+          "de": "Ein Teil derselben Predigt: Die Erinnerung an die Gnaden Allahs",
+          "ru": "Из того же проповеди: Напоминание о различных благах Аллаха",
+          "zh": "其中[提醒人们真主的恩惠"
+        },
+        "word_start": 0,
+        "word_end": 4
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "جَعَلَ لَكُمْ أَسْمَاعاً لِتَعِيَ مَا عَنَاهَا، وَأَبْصَاراً لِتَجْلُوَ عَنْ عَشَاهَا، وَأَشْلاَءً جَامِعَةً لِأَعْضَائِهَا، مُلاَئِمَةً لِأَحْنَائِهَا فِي تَرْكِيبِ صُوَرِهَا، وَمُدَدِ عُمُرِهَا، بِأَبْدَانٍ قَائِمَةٍ بِأَرْفَاقِهَا، وَقُلُوبٍ رَائِدَةٍ لِأَرْزَاقِهَا، فِي مُجَلِّلاَتِ نِعَمِهِ، وَمُوجِبَاتِ مِنَنِهِ، وَحَوَاجِزِ عَافِيَتِهِ.",
+        "translations": {
+          "en": "He has made for you ears to preserve what is important, eyes to have sight in place of blindness and limbs which consist of many (smaller) parts, whose curves are in proportion with the moulding of their shapes and lengths of their ages, and also bodies that are sustaining themselves and hearts that are busy in search of their food, besides other big bounties, obliging bestowings and fortresses of safety.",
+          "ur": "انہوں نے تمہارے لیے کان بنائے ہیں تاکہ اہم چیزوں کو محفوظ رکھ سکیں، آنکھیں تاکہ اندھیاری کی جگہ بصارت حاصل کی جا سکے، اور اعضاء جو کئی چھوٹے حصوں پر مشتمل ہیں، جن کی خمیدگیاں ان کی شکلوں کی بناوٹ اور عمر کے لمبے عرصے کے تناسب سے ہیں، نیز ایسے جسم جو خود کو سنبھالے رکھتے ہیں اور دل جو اپنی خوراک کی تلاش میں مصروف ہیں، دیگر بڑے انعامات، احسان مند عطیات اور حفاظت کے قلعوں کے ساتھ۔",
+          "tr": "O, sizin için önemli olanı korumanızı sağlayan kulaklar, körlük yerine görme yetisi kazandıran gözler, eğrileri şekillerinin kalıplarına ve yaşlarının uzunluklarına orantılı olan, birçok küçük parçadan oluşan uzuvlar, ayrıca yiyeceklerini aramakta meşgul olan kalpler ve kendilerini ayakta tutan bedenler, diğer büyük nimetlerin, müjdeleyen lütufların ve emniyet kalelerinin yanında yaratmıştır.",
+          "fa": "او برای شما گوش‌هایی قرار داده تا آنچه مهم است را حفظ کنید، چشم‌هایی تا به جای کوری بینایی داشته باشید، و اندام‌هایی که از بخش‌های کوچک‌تری تشکیل شده‌اند و انحناهایشان متناسب با شکل‌گیری و طول عمرشان است، و همچنین بدن‌هایی که خود را نگهداری می‌کنند و دل‌هایی که در جستجوی غذای خود مشغول هستند، علاوه بر سایر نعمت‌های بزرگ، بخشش‌های شایسته و دژهای امنیت.",
+          "id": "Ia telah menjadikan bagi kalian telinga untuk menjaga apa yang penting, mata untuk melihat menggantikan kebutaan, dan anggota tubuh yang terdiri dari banyak bagian (kecil), yang kelengkungannya sebanding dengan bentuk dan panjang usianya, serta tubuh yang menopang diri sendiri dan hati yang sibuk mencari makanan, selain nikmat-nikmat besar, karunia-karunia yang memuliakan, dan benteng-benteng keselamatan.",
+          "bn": "তিনি আপনাদের জন্য কান সৃষ্টি করেছেন যাতে গুরুত্বপূর্ণ বিষয় সংরক্ষিত হয়, চোখ সৃষ্টি করেছেন অন্ধকারের পরিবর্তে দৃষ্টি লাভ করার জন্য, এবং অঙ্গপ্রত্যঙ্গ সৃষ্টি করেছেন যা অনেক ছোট অংশে বিভক্ত, যাদের বক্রতা তাদের আকৃতির গঠন এবং বয়সের দৈর্ঘ্যের সাথে সমানুপাতিক, এবং এমন শরীর সৃষ্টি করেছেন যা নিজেকে বজায় রাখে এবং হৃদয় সৃষ্টি করেছেন যা খাবারের সন্ধানে ব্যস্ত, অন্যান্য বৃহৎ নিয়ামত, কৃতজ্ঞতাপূর্ণ দান এবং নিরাপত্তার দুর্গের পাশাপাশি।",
+          "es": "Él te ha dotado de oídos para preservar lo importante, de ojos para tener la vista en lugar de la ceguera, y de miembros que consisten en muchas partes (más pequeñas), cuyas curvaturas están en proporción con la conformación de sus formas y las longitudes de sus edades, además de cuerpos que se sostienen a sí mismos y corazones que se afanan en buscar su alimento, junto con otras grandes bendiciones, generosas dádivas y fortalezas de seguridad.",
+          "fr": "Il vous a donné des oreilles pour préserver ce qui est important, des yeux pour voir à la place de l'aveuglement, et des membres composés de nombreuses (petites) parties, dont les courbes sont proportionnées à la forme de leurs contours et à la longueur de leur durée de vie, ainsi que des corps qui se soutiennent eux-mêmes et des cœurs occupés à chercher leur nourriture, sans compter les autres grandes faveurs, les bienfaits obligatoires et les forteresses de sécurité.",
+          "de": "Er hat dir Ohren gegeben, um das Wichtige zu bewahren, Augen, um anstelle der Blindheit zu sehen, und Gliedmaßen, die aus vielen (kleineren) Teilen bestehen, deren Krümmungen im Verhältnis zur Formung ihrer Gestalten und Längen ihrer Lebensjahre stehen, sowie Körper, die sich selbst tragen, und Herzen, die mit der Suche nach ihrer Nahrung beschäftigt sind, neben anderen großen Gnaden, wohltätigen Gaben und Festungen der Sicherheit.",
+          "ru": "Он даровал вам уши, чтобы вы сохраняли важное, глаза, чтобы видеть вместо слепоты, и конечности, состоящие из многих (мелких) частей, чьи изгибы пропорциональны форме их очертаний и длине их жизни, а также тела, поддерживающие себя, и сердца, занятые поиском пищи, помимо других великих милостей, щедрого дарования и крепостей безопасности.",
+          "zh": "他为你创造了耳朵，以保存重要的事物；创造了眼睛，以取代失明而获得视力；创造了由许多（较小）部分组成的肢体，其曲线与形状的塑造以及寿命的长短成比例；还创造了能够自我支撑的身体和忙于寻找食物的内心，此外还有其他巨大的恩惠、慷慨的赐予和安全的堡垒。"
+        },
+        "word_start": 4,
+        "word_end": 37
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this passage from *Al-Gharra*, Imam Ali (peace be upon him) elucidates the teleological purpose of human anatomy, framing the ears, eyes, and limbs not merely as biological organs but as instruments of divine grace (*ni'am*) designed for specific spiritual and physical functions. This reflection aligns with the Shia scholarly tradition of *tadabbur* (contemplation), urging believers to recognize the intricate harmony of their creation as a catalyst for gratitude and piety. By linking bodily integrity to the sustenance of the heart, the text underscores the holistic nature of worship in Islam.",
+        "seo_question": "What are the specific physical and spiritual bounties mentioned in Imam Ali's sermon in Nahj al-Balagha?",
+        "key_terms": {
+          "أَسْمَاعاً": "ears",
+          "أَبْصَاراً": "eyes",
+          "أَشْلاَءً": "limbs/parts",
+          "أَعْضَائِهَا": "its members/organs",
+          "أَبْدَانٍ": "bodies",
+          "قُلُوبٍ": "hearts",
+          "رَائِدَةٍ": "seeking/searching",
+          "أَرْزَاقِهَا": "its sustenance/food",
+          "نِعَمِهِ": "His bounties",
+          "مِنَنِهِ": "His favors/graces",
+          "عَافِيَتِهِ": "His safety/health"
+        }
+      },
+      "ur": {
+        "summary": "اس متن میں امام علی (علیہ السلام) نے انسانی جسم کے اجزاء کے غائی مقصد کو بیان کیا ہے، جس میں کانوں، آنکھوں اور اعضاء کو محض حیاتیاتی اعضاء کے طور پر نہیں بلکہ الہی نعمتوں کے آلات کے طور پر پیش کیا گیا ہے جو مخصوص روحانی اور جسمانی افعال کے لیے ڈیزائن کیے گئے ہیں۔ یہ تفکر شیعہ علمی روایت کے تدبر سے ہم آہنگ ہے، جو مومنین کو اپنے تخلیق کے پیچیدہ ہم آہنگی کو شکرگزاری اور تقویٰ کا باعث سمجھنے کی ترغیب دیتا ہے۔ جسمانی سالمیت کو دل کی سیر و سلوک سے جوڑ کر، متن میں اسلام میں عبادت کے جامع پہلوؤں کو اجاگر کیا گیا ہے۔",
+        "seo_question": "امام علی کی خطبہ میں کون سے مخصوص جسمانی اور روحانی انعامات ذکر کیے گئے ہیں؟",
+        "key_terms": {
+          "أَسْمَاعاً": "کان",
+          "أَبْصَاراً": "آنکھیں",
+          "أَشْلاَءً": "جسم کے حصے",
+          "أَعْضَائِهَا": "اس کے اعضاء",
+          "أَبْدَانٍ": "جسم",
+          "قُلُوبٍ": "دل",
+          "رَائِدَةٍ": "تلاش کرنے والا",
+          "أَرْزَاقِهَا": "اس کی روزی",
+          "نِعَمِهِ": "اس کی نعمتیں",
+          "مِنَنِهِ": "اس کی بخششیں",
+          "عَافِيَتِهِ": "اس کی صحت"
+        }
+      },
+      "tr": {
+        "summary": "Bu *El-Garra* metninden pasajda, İmam Ali (aleyhisselam) insan anatomisinin teleolojik amacını açıklar; kulakları, gözleri ve uzuvları yalnızca biyolojik organlar olarak değil, belirli ruhani ve fiziksel işlevler için tasarlanmış ilahi lütuf araçları (*ni'm*) olarak çerçeveleyerek sunar. Bu tefekkür, inançlıları yaratılışlarının ince uyumunu şükür ve takvanın bir katalizörü olarak tanımaya teşvik eden Şii ilmi geleneğiyle (*tadabbur*) uyumludur. Bedensel bütünlüğü kalbin devamlılığına bağlayarak metin, İslam'da ibadetin bütüncül doğasını vurgular.",
+        "seo_question": "Nahılcülbelağa'daki İmam Ali'nin hutbesinde belirtilen spesifik fiziksel ve ruhani lütuf nelerdir?",
+        "key_terms": {
+          "أَسْمَاعاً": "kulaklar",
+          "أَبْصَاراً": "gözler",
+          "أَشْلاَءً": "uzuvlar/kısımlar",
+          "أَعْضَائِهَا": "üye/organlar",
+          "أَبْدَانٍ": "bedenler",
+          "قُلُوبٍ": "kalpler",
+          "رَائِدَةٍ": "aramakta/aranan",
+          "أَرْزَاقِهَا": "rızık/yiyecek",
+          "نِعَمِهِ": "lütuf",
+          "مِنَنِهِ": "nimetler",
+          "عَافِيَتِهِ": "sağlık/güvenlik"
+        }
+      },
+      "fa": {
+        "summary": "در این بخش از *غررالحکم*، امام علی (علیه‌السلام) هدف غایی آناتومی انسان را تبیین می‌کند و گوش‌ها، چشم‌ها و اندام‌ها را نه صرفاً به‌عندو ارگان‌های زیستی، بلکه به‌عنوان ابزارهای لطف الهی (*نعمت*) که برای کارکردهای معین روحی و جسمانی طراحی شده‌اند، چارچوب‌بندی می‌نماید. این تأمل با سنت علمی شیعه در *تدبر* (اندیشیدن) همسو است و مؤمنان را به شناخت هماهنگی پیچیده آفرینش خود به‌عنوان محرکی برای شکرگزاری و تقوا ترغیب می‌کند. با پیوند دادن سلامت جسمانی به تداوم قلب، متن بر ماهیت جامع‌نگر عبادت در اسلام تأکید می‌ورزد.",
+        "seo_question": "چه نعمت‌های جسمی و روحانی خاصی در خطبه امام علی در نهج‌البلاغه ذکر شده است؟",
+        "key_terms": {
+          "أَسْمَاعاً": "گوش‌ها",
+          "أَبْصَاراً": "چشم‌ها",
+          "أَشْلاَءً": "اندام‌ها/بخش‌ها",
+          "أَعْضَائِهَا": "اعضا/ارگان‌های آن",
+          "أَبْدَانٍ": "جسم‌ها",
+          "قُلُوبٍ": "دل‌ها",
+          "رَائِدَةٍ": "جستجوگر/در حال جستجو",
+          "أَرْزَاقِهَا": "روزی/غذای آن",
+          "نِعَمِهِ": "نعمت‌های او",
+          "مِنَنِهِ": "فضل‌ها/لطف‌های او",
+          "عَافِيَتِهِ": "سلامتی/عافیت او"
+        }
+      },
+      "id": {
+        "summary": "Dalam kutipan dari *Al-Gharra*, Imam Ali (damai baginya) menjelaskan tujuan teleologis anatomi manusia, yang menempatkan telinga, mata, dan anggota badan bukan sekadar sebagai organ biologis melainkan sebagai instrumen anugerah ilahi (*ni'am*) yang dirancang untuk fungsi spiritual dan fisik tertentu. Refleksi ini selaras dengan tradisi keilmuan Syiah tentang *tadabbur* (kontemplasi), yang mendorong umat beriman untuk mengenali harmoni rumit dalam penciptaan mereka sebagai katalis bagi rasa syukur dan ketakwaan. Dengan menghubungkan integritas tubuh dengan pemeliharaan hati, teks ini menekankan sifat holistik ibadah dalam Islam.",
+        "seo_question": "Apa saja anugerah fisik dan spiritual spesifik yang disebutkan dalam khutbah Imam Ali di Nahj al-Balagha?",
+        "key_terms": {
+          "أَسْمَاعاً": "telinga",
+          "أَبْصَاراً": "mata",
+          "أَشْلاَءً": "anggota badan",
+          "أَعْضَائِهَا": "anggota/organnya",
+          "أَبْدَانٍ": "tubuh",
+          "قُلُوبٍ": "hati",
+          "رَائِدَةٍ": "mencari/menjelajahi",
+          "أَرْزَاقِهَا": "rezeki/makanannya",
+          "نِعَمِهِ": "anugerah-Nya",
+          "مِنَنِهِ": "karunia-Nya",
+          "عَافِيَتِهِ": "keselamatan/kebugaran-Nya"
+        }
+      },
+      "bn": {
+        "summary": "এই অংশে *আল-গহার্রা* থেকে ইমাম আলী (আ.) মানব শরীরের দার্শনিক উদ্দেশ্য ব্যাখ্যা করেছেন, কান, চোখ এবং অঙ্গপ্রত্যঙ্গকে কেবল জৈবিক অঙ্গ হিসেবে নয়, বরং নির্দিষ্ট আধ্যাত্মিক ও শারীরবৃত্তীয় কাজের জন্য ডিজাইন করা ঈশ্বরের অনুগ্রহের (*নি'মাত*) যন্ত্র হিসেবে উপস্থাপন করেছেন। এই চিন্তা শিয়া পণ্ডিতদের *তাদাব্বুর* (ধ্যান) ঐতিহ্যের সাথে সামঞ্জস্যপূর্ণ, যা বিশ্বাসীদের তাদের সৃষ্টির জটিল সামঞ্জস্যকে কৃতজ্ঞতা ও তাকওয়ার উদ্দীপক হিসেবে স্বীকার করতে উৎসাহিত করে। শরীরের অখণ্ডতা হৃদয়ের পুষ্টির সাথে যুক্ত করে, এই পাঠটি ইসলামে worship-এর সার্বিক প্রকৃতি তুলে ধরে।",
+        "seo_question": "ইমাম আলীর নহজুল বালাগহা খুতবাতে উল্লিখিত নির্দিষ্ট শারীরিক ও আধ্যাত্মিক বরকতগুলো কী কী?",
+        "key_terms": {
+          "أَسْمَاعاً": "কান",
+          "أَبْصَاراً": "চোখ",
+          "أَشْلاَءً": "অঙ্গপ্রত্যঙ্গ/অংশ",
+          "أَعْضَائِهَا": "সদস্য/অঙ্গ",
+          "أَبْدَانٍ": "শরীর",
+          "قُلُوبٍ": "হৃদয়",
+          "رَائِدَةٍ": "অনুসন্ধানকারী/অনুসন্ধান",
+          "أَرْزَاقِهَا": "পুষ্টি/খাদ্য",
+          "نِعَمِهِ": "তার বরকত",
+          "مِنَنِهِ": "তার অনুগ্রহ/কৃপা",
+          "عَافِيَتِهِ": "তার নিরাপত্তা/স্বাস্থ্য"
+        }
+      },
+      "es": {
+        "summary": "Enlace a la traducción: ",
+        "seo_question": "¿Cuáles son las bendiciones físicas y espirituales específicas mencionadas en el sermón del Imam Ali en Nahj al-Balagha?",
+        "key_terms": {
+          "أَسْمَاعاً": "orejas",
+          "أَبْصَاراً": "ojos",
+          "أَشْلاَءً": "miembros/partes",
+          "أَعْضَائِهَا": "sus miembros/órganos",
+          "أَبْدَانٍ": "cuerpos",
+          "قُلُوبٍ": "corazones",
+          "رَائِدَةٍ": "buscando/indagando",
+          "أَرْزَاقِهَا": "su sustento/comida",
+          "نِعَمِهِ": "Sus bendiciones",
+          "مِنَنِهِ": "Sus favores/gracias",
+          "عَافِيَتِهِ": "Su seguridad/salud"
+        }
+      },
+      "fr": {
+        "summary": "Dans ce passage d'*Al-Gharra*, l'Imam Ali (que la paix soit sur lui) éclaire le but téléologique de l'anatomie humaine, présentant les oreilles, les yeux et les membres non pas comme de simples organes biologiques, mais comme des instruments de la grâce divine (*ni'am*) conçus pour des fonctions spirituelles et physiques spécifiques. Cette réflexion s'aligne sur la tradition savante chiite de *tadabbur* (contemplation), exhortant les croyants à reconnaître l'harmonie intricate de leur création comme un catalyseur de gratitude et de piété. En reliant l'intégrité corporelle à la subsistance du cœur, le texte souligne la nature holistique du culte en Islam.",
+        "seo_question": "Quelles sont les bénédictions physiques et spirituelles spécifiques mentionnées dans le sermon de l'Imam Ali dans Nahj al-Balagha ?",
+        "key_terms": {
+          "أَسْمَاعاً": "oreilles",
+          "أَبْصَاراً": "yeux",
+          "أَشْلاَءً": "membres/parties",
+          "أَعْضَائِهَا": "ses membres/organes",
+          "أَبْدَانٍ": "corps",
+          "قُلُوبٍ": "cœurs",
+          "رَائِدَةٍ": "cherchant/recherchant",
+          "أَرْزَاقِهَا": "sa subsistance/nourriture",
+          "نِعَمِهِ": "Ses bénédictions",
+          "مِنَنِهِ": "Ses faveurs/grâces",
+          "عَافِيَتِهِ": "Sa sécurité/santé"
+        }
+      },
+      "de": {
+        "summary": "In diesem Abschnitt aus *Al-Gharra* erläutert Imam Ali (Friede sei mit ihm) den teleologischen Zweck der menschlichen Anatomie, indem er Ohren, Augen und Gliedmaßen nicht bloß als biologische Organe, sondern als Instrumente göttlicher Gnade (*ni'am*) darstellt, die für spezifische spirituelle und physische Funktionen bestimmt sind. Diese Reflexion steht im Einklang mit der schiitischen Gelehrtenstradition der *tadabbur* (Kontemplation) und ermutigt die Gläubigen, die feine Harmonie ihrer Schöpfung als Katalysator für Dankbarkeit und Frömmigkeit zu erkennen. Durch die Verknüpfung der körperlichen Integrität mit der Erhaltung des Herzens unterstreicht der Text die ganzheitliche Natur der Anbetung im Islam.",
+        "seo_question": "Welche spezifischen physischen und spirituellen Gaben werden in der Predigt von Imam Ali in Nahj al-Balagha erwähnt?",
+        "key_terms": {
+          "أَسْمَاعاً": "Ohren",
+          "أَبْصَاراً": "Augen",
+          "أَشْلاَءً": "Gliedmaßen/Teile",
+          "أَعْضَائِهَا": "seine Glieder/Organe",
+          "أَبْدَانٍ": "Körper",
+          "قُلُوبٍ": "Herzen",
+          "رَائِدَةٍ": "suchend/suchend",
+          "أَرْزَاقِهَا": "seine Versorgung/Ernährung",
+          "نِعَمِهِ": "Seine Gnaden",
+          "مِنَنِهِ": "Seine Gunst/Gnaden",
+          "عَافِيَتِهِ": "Seine Sicherheit/Gesundheit"
+        }
+      },
+      "ru": {
+        "summary": "В этом отрывке из «Аль-Гарра» имам Али (мир ему) разъясняет телеологическую цель человеческой анатомии, представляя уши, глаза и конечности не просто как биологические органы, но как инструменты божественной милости (ни'ма), созданные для конкретных духовных и физических функций. Это размышление соответствует шиитской ученой традиции тадаббур (созерцание), призывающей верующих распознавать изысканную гармонию их творения как катализатор благодарности и благочестия. Связывая целостность тела с поддержанием сердца, текст подчеркивает холистический характер поклонения в исламе.",
+        "seo_question": "Какие конкретные физические и духовные блага упоминаются в проповеди имама Али в «Нахдж аль-Балаге»?",
+        "key_terms": {
+          "أَسْمَاعاً": "уши",
+          "أَبْصَاراً": "глаза",
+          "أَشْلاَءً": "конечности/части",
+          "أَعْضَائِهَا": "его члены/органы",
+          "أَبْدَانٍ": "тела",
+          "قُلُوبٍ": "сердца",
+          "رَائِدَةٍ": "ищущие/разыскивающие",
+          "أَرْزَاقِهَا": "его пропитание/пища",
+          "نِعَمِهِ": "Его блага",
+          "مِنَنِهِ": "Его милости/благодать",
+          "عَافِيَتِهِ": "Его безопасность/здоровье"
+        }
+      },
+      "zh": {
+        "summary": "在这段出自《光耀》的经文中，伊玛目阿里（愿主福安之）阐明了人体解剖学的目的论意义，将耳朵、眼睛和肢体不仅视为生物器官，更视为神圣恩典（ni'am）的工具，专为特定的精神和身体功能而设计。这种反思与什叶派学者的沉思（tadabbur）传统相一致，敦促信徒认识到其创造的复杂和谐，作为感恩和虔诚的催化剂。通过将身体的完整性与心脏的维持联系起来，文本强调了伊斯兰教中崇拜的整体性质。",
+        "seo_question": "伊玛目阿里在《辞章之道》的布道中提到的具体精神和身体恩惠有哪些？",
+        "key_terms": {
+          "أَسْمَاعاً": "耳朵",
+          "أَبْصَاراً": "眼睛",
+          "أَشْلاَءً": "肢体/部分",
+          "أَعْضَائِهَا": "其成员/器官",
+          "أَبْدَانٍ": "身体",
+          "قُلُوبٍ": "心脏",
+          "رَائِدَةٍ": "寻求/搜索",
+          "أَرْزَاقِهَا": "其维持/食物",
+          "نِعَمِهِ": "他的恩惠",
+          "مِنَنِهِ": "他的恩赐/恩典",
+          "عَافِيَتِهِ": "他的安全/健康"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:179",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "67:23",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "32:9",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "30:22",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "7:189",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمِنْهَا [التَّذْكِيرُ بِضُرُوبِ النِّعَمِ] جَعَلَ لَكُمْ أَسْمَاعاً لِتَعِيَ مَا عَنَاهَا، وَأَبْصَاراً لِتَجْلُوَ عَنْ عَشَاهَا، وَأَشْلاَءً جَامِعَةً لِأَعْضَائِهَا، مُلاَئِمَةً لِأَحْنَائِهَا فِي تَرْكِيبِ صُوَرِهَا، وَمُدَدِ عُمُرِهَا، بِأَبْدَانٍ قَائِمَةٍ بِأَرْفَاقِهَا، وَقُلُوبٍ رَائِدَةٍ لِأَرْزَاقِهَا، فِي مُجَلِّلاَتِ نِعَمِهِ، وَمُوجِبَاتِ مِنَنِهِ، وَحَوَاجِزِ عَافِيَتِهِ.",
+    "isnad_matn": {
+      "isnad_ar": "ومنها [التذكير بضروب النعم] جَعَلَ لَكُمْ أسْمَاعاً لِتَعِيَ مَا عَنَاهَا، وَأَبْصَاراً لِتَجْلُوَ عَنْ عَشَاهَا، وَأَشْلاَءً جَامِعَةً لاِعْضَائِهَا، مُلاَئِمَةً لاِحْنَائِهَا في تَرْكِيبِ صُوَرِهَا، وَمُدَدِ عُمُرِهَا، بِأَبْدَان قَائِمَة بِأَرْفَاقِهَا، وَقُلُوب رائِدَة لاِرْزَاقِهَا، فِي",
+      "matn_ar": "وَمِنْهَا [التَّذْكِيرُ بِضُرُوبِ النِّعَمِ] جَعَلَ لَكُمْ أَسْمَاعاً لِتَعِيَ مَا عَنَاهَا، وَأَبْصَاراً لِتَجْلُوَ عَنْ عَشَاهَا، وَأَشْلاَءً جَامِعَةً لِأَعْضَائِهَا، مُلاَئِمَةً لِأَحْنَائِهَا فِي تَرْكِيبِ صُوَرِهَا، وَمُدَدِ عُمُرِهَا، بِأَبْدَانٍ قَائِمَةٍ بِأَرْفَاقِهَا، وَقُلُوبٍ رَائِدَةٍ لِأَرْزَاقِهَا، فِي مُجَلِّلاَتِ نِعَمِهِ، وَمُوجِبَاتِ مِنَنِهِ، وَحَوَاجِزِ عَافِيَتِهِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "ومنها [التذكير بضروب النعم] جَعَلَ لَكُمْ أسْمَاعاً لِتَعِيَ مَا عَنَاهَا، وَأَبْصَاراً لِتَجْلُوَ",
+          "name_en": "al-Saduq",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "عَشَاهَا، وَأَشْلاَءً جَامِعَةً لاِعْضَائِهَا، مُلاَئِمَةً لاِحْنَائِهَا في تَرْكِيبِ صُوَرِهَا، وَمُدَدِ عُمُرِهَا، بِأَبْدَان قَائِمَة بِأَرْفَاقِهَا، وَقُلُوب رائِدَة لاِرْزَاقِهَا،",
+          "name_en": "al-Kulayni",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

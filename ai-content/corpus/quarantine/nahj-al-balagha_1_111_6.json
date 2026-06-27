@@ -1,0 +1,415 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:111:6",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 46 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'فقد رأيتم تنكرها لمن دان لها وآثرها وأخلد إليها، حين ظعنوا ع'"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "afterlife",
+      "theology"
+    ],
+    "content_type": "exhortation",
+    "topics": [
+      "death_dying",
+      "paradise_hell",
+      "patience",
+      "poverty_wealth"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "فَقَدْ رَأَيْتُمْ تَنَكُّرَهَا لِمَنْ دَانَ لَهَا وَآثَرَهَا وَأَخْلَدَ إِلَيْهَا،",
+        "translations": {
+          "en": "You have observed its strangeness towards those who went near it, acquired it and appropriated it,",
+          "ur": "تم نے دیکھا ہے کہ وہ ان کے ساتھ کیسا برتاؤ کرتی ہے جو اس کے قریب گئے، اسے حاصل کیا اور اسے اپنا بنالیا،",
+          "tr": "Ona yaklaşan, onu edinen ve ona sığınanlara karşı tuhaflığını görmüş oldunuz.",
+          "fa": "پس دیدید که چگونه با کسانی که به آن نزدیک شدند، آن را کسب کردند و به آن گراییدند، بیگانگی می‌ورزید،",
+          "id": "Kalian telah menyaksikan keanehannya terhadap orang-orang yang mendekatinya, memilikinya, dan menguasainya,",
+          "bn": "আপনারা তার বিচित्रতা দেখেছেন, যারা তার নিকটবর্তী হয়েছিল, তাকে অর্জন করেছিল এবং তাকে নিজের করে নিয়েছিল,",
+          "es": "Habéis observado su extrañeza hacia aquellos que se acercaron a ella, la adquirieron y se apropiaron de ella,",
+          "fr": "Vous avez observé son étrangeté envers ceux qui s'en approchèrent, l'acquirent et s'y approprièrent,",
+          "de": "Ihr habt gesehen, wie sie sich fremd verhielt gegenüber denen, die sich ihr näherten, sie erwarben und sich ihr hingaben, als sie von ihr aufbrachen für die ewige Trennung. Hat sie ihnen nicht nur Hunger bereitet oder sie nicht nur Bedrängnis heraufbeschworen oder ihnen nicht nur Finsternis erleuchtet? Oder hat sie ihnen nicht nur Reue hinterlassen? Wollt ihr sie bevorzugen? Oder ruht ihr auf ihr aus? Oder strebt ihr nach ihr? So übel ist die Wohnung für den, der sie nicht für unwürdig erachtete und nicht in Furcht vor ihr lebte! So wisset – und ihr wisset es ja – dass ihr sie verlasst und von ihr aufbrecht, und lasst euch an denen ermahnen, die sprachen: „Wer ist stärker an Kraft als wir?“ Sie wurden zu ihren Gräbern getragen, ohne dass man sie als Reiter rief, und in die Gräber hinabgesenkt, ohne dass man sie als Gäste rief, und man machte aus dünnem Gold Bleche zu ihren Decken und aus Erde zu ihren Tüchern und aus Leichenresten zu ihren Nachbarn.",
+          "ru": "Вы видели, как она чуждалась тех, кто приближался к ней, приобретал её и предавался ей,",
+          "zh": "你们已目睹它对那些亲近它、获得它并占有它的人的疏远，"
+        },
+        "word_start": 0,
+        "word_end": 9
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حِينَ ظَعَنُوا عَنْهَا لِفِرَاقِ الْآبَدِ.",
+        "translations": {
+          "en": "when they departed from it for eternal separation.",
+          "ur": "جب وہ اس سے ابدستور جدائی کے لیے رخصت ہوئے۔",
+          "tr": "ebedi ayrılığa kavuşmak üzere ondan ayrıldıklarında.",
+          "fa": "هنگامی که از آن برای جدایی ابدی رفتند.",
+          "id": "ketika mereka meninggalkannya untuk perpisahan abadi.",
+          "bn": "যখন তারা চিরবিচ্ছেদের জন্য সেখান থেকে প্রস্থান করল।",
+          "es": "cuando se separaron de él para la separación eterna.",
+          "fr": "lorsqu'ils s'en éloignèrent pour une séparation éternelle.",
+          "de": "als sie sich von ihm für die ewig trennten.",
+          "ru": "когда они покинули его ради вечного разделения.",
+          "zh": "当他们离开它，走向永恒的分离时。"
+        },
+        "word_start": 9,
+        "word_end": 14
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "هَلْ زَوَّدَتْهُمْ إِلَّا السَّغَبَ أَوْ أَحَلَّتْهُمْ إِلَّا الضَّنْكَ أَوْ نَوَّرَتْ لَهُمْ إِلَّا الظُّلْمَةَ؟",
+        "translations": {
+          "en": "Did it give them any provision other than starvation, or make them stay in other than narrow places, or give them light other than gloom?",
+          "ur": "کیا اس نے انہیں بھوک کے سوا کوئی رزق دیا، یا تنگ جگہوں کے سوا کہیں اور ٹھہرنے پر مجبور کیا، یا اندھیروں کے سوا کوئی روشنی دی؟",
+          "tr": "Onlara açlıktan başka bir şey verdi mi, yoksa onları dar yerlerde mi tuttu, yoksa onlara karanlıktan başka bir nur mu verdi?",
+          "fa": "آیا چیزی جز گرسنگی به آنان روزی داد، یا آنان را جز در تنگناها ساکن ساخت، یا چیزی جز تاریکی به آنان روشنی بخشید؟",
+          "id": "Apakah ia tidak memberikan kepada mereka selain kelaparan, atau tidak membuat mereka menetap di tempat-tempat yang sempit, atau tidak memberikan kepada mereka cahaya selain kegelapan?",
+          "bn": "এতে কি তাদের জন্য ক্ষুধা ছাড়া অন্য কোনো উপকরণ ছিল, অথবা তাদেরকে সরু স্থান ছাড়া অন্য কোথাও থাকতে বাধ্য করা হয়েছিল, অথবা তাদেরকে অন্ধকার ছাড়া অন্য কোনো আলো দেওয়া হয়েছিল?",
+          "es": "¿Acaso les proporcionó algo más que hambre, o los hizo permanecer en lugares más estrechos, o les dio luz más que oscuridad?",
+          "fr": "A-t-Il leur procuré autre chose que la faim, les a-t-Il maintenus autre part que dans des lieux étroits, ou leur a-t-Il donné autre chose que l'obscurité ?",
+          "de": "Hat sie etwa außer Hunger nichts zu essen gegeben oder sie an anderen Orten als an engen Stellen festgehalten oder ihr außer Finsternis kein Licht geschenkt?",
+          "ru": "Разве он не давал им в пищу лишь голод, не заставлял их пребывать в тесных местах и не даровал им свет, кроме мрака?",
+          "zh": "难道它除了使他们挨饿之外，还给他们什么给养吗？难道它除了使他们困于狭小的地方之外，还使他们安居于其他地方吗？难道它除了使他们陷入黑暗之外，还给他们什么光明吗？"
+        },
+        "word_start": 14,
+        "word_end": 27
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَوْ أَعْقَبَتْهُمْ إِلَّا النَّدَامَةَ؟",
+        "translations": {
+          "en": "Or give them in the end anything other than repentance?",
+          "ur": "یا آخر میں انہیں توبہ کے سوا کچھ اور دو؟",
+          "tr": "Ya onlara tövbeden başka bir şey mi vereceksin?",
+          "fa": "یا در نهایت به آن‌ها چیزی جز توبه عطا کنی؟",
+          "id": "Atau berikanlah kepada mereka pada akhirnya sesuatu selain pertobatan?",
+          "bn": "অথবা তাদেরকে শেষ পর্যন্ত তাওবার বাইরে অন্য কিছু দিবে?",
+          "es": "O darles al final algo distinto al arrepentimiento?",
+          "fr": "Ou leur donner en fin de compte autre chose que le repentir ?",
+          "de": "Oder gib ihnen am Ende etwas anderes als Reue?",
+          "ru": "Или даруешь ли им в конце концов что-либо иное, кроме покаяния?",
+          "zh": "或是在最后给予他们除忏悔之外的任何东西？"
+        },
+        "word_start": 27,
+        "word_end": 31
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَفَهَذِهِ تُؤْثِرُونَ؟ أَمْ إِلَيْهَا تَطْمَئِنُّونَ؟ أَمْ عَلَيْهَا تَحْرِصُونَ؟",
+        "translations": {
+          "en": "Is this what you much ask for or remain satisfied with, or towards which you feel greedy?",
+          "ur": "کیا یہی وہ چیز ہے جس کے لیے تم بہت زیادہ پوچھتے ہو یا جس پر تم مطمئن رہتے ہو، یا جس کی طرف تم لالچی ہوتے ہو؟",
+          "tr": "Ya bu şeyi çok istiyorsun ya da buna razı oluyorsun, ya da buna karşı hırs gösteriyorsun?",
+          "fa": "آیا این همان چیزی است که بسیار می‌پرسی یا به آن قانع می‌شوی، یا به سوی آن طمع می‌کنی؟",
+          "id": "Apakah ini yang kamu minta dengan banyak, atau tetap puas, atau terhadapnya kamu merasa serakah?",
+          "bn": "এই কি তোমরা অধিকতর চাও অথবা সন্তুষ্ট থাকো, অথবা এর প্রতি লোভী হও?",
+          "es": "¿Es esto lo que tanto deseas o con lo que te conformas, o hacia lo que sientes codicia?",
+          "fr": "Est-ce cela ce que tu demandes ardemment ou avec quoi tu te contentes, ou vers quoi tu éprouves de l'avidité ?",
+          "de": "Ist dies das, wonach du sehnlichst fragst oder mit dem du dich zufriedengibst, oder zu dem du Gier empfindest?",
+          "ru": "Разве это то, о чём ты так сильно просишь или чем доволен, или к чему испытываешь жадность?",
+          "zh": "这是你极力索取、还是心满意足、抑或贪得无厌的对象？"
+        },
+        "word_start": 31,
+        "word_end": 39
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَبِئْسَتِ الدَّارُ لِمَنْ لَمْ يَتَّهِمْهَا، وَلَمْ يَكُنْ فِيهَا عَلَى وَجَلٍ مِنْهَا!",
+        "translations": {
+          "en": "How bad is this abode for him who did not suspect it (to be so) and did not entertain fear from it!",
+          "ur": "وہ رہائش اس کے لیے کتنی بری ہے جس نے اس کی برائی کا گمان نہ کیا اور اس سے ڈر کا اظہار نہ کیا!",
+          "tr": "Onun için bu yurt ne kadar kötüdür, onu (böyle) sanmamış ve ondan korkmamış olan kimse için!",
+          "fa": "چقدر بد است این سرای او برای کسی که گمان نمی‌برد (چنین باشد) و از آن بیم نداشت!",
+          "id": "Betapa buruknya tempat ini bagi orang yang tidak menduganya (begitu) dan tidak merasa takut darinya! ",
+          "bn": "সে ব্যক্তির জন্য এই আবাস কত খারাপ, যে এতে সন্দেহ করেনি এবং এ থেকে ভীতি পোষণ করেনি।",
+          "es": "¡Qué mala es esta morada para aquel que no la sospechaba (de serlo) y no temía de ella!",
+          "fr": "Combien est affreuse cette demeure pour celui qui ne s'en doutait pas et n'en craignait rien !",
+          "de": "Wie übel ist diese Behausung für den, der sie nicht (so) vermutete und keine Furcht vor ihr hegte!",
+          "ru": "Насколько же дурно это жилище для того, кто не подозревал его (таковым) и не испытывал страха перед ним!",
+          "zh": "对于未曾料想其如此、未曾对其心生畏惧之人，这居所是何等糟糕啊！"
+        },
+        "word_start": 39,
+        "word_end": 50
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَاعْلَمُوا ـ وَأَنْتُمْ تَعْلَمُونَ ـ بِأَنَّكُمْ تَارِكُوهَا وَظَاعِنُونَ عَنْهَا،",
+        "translations": {
+          "en": "You should know, as you do know, that you have to leave it and depart from it.",
+          "ur": "آپ کو معلوم ہونا چاہیے، جیسا کہ آپ جانتے ہیں کہ آپ کو اسے چھوڑنا اور اس سے الگ ہونا ضروری ہے۔",
+          "tr": "Bildiğiniz gibi, onu bırakmanız ve ondan ayrılmak zorunda olduğunuzu bilmeniz gerekir.",
+          "fa": "می‌دانی که باید آن را رها کنی و از آن دوری جویی.",
+          "id": "Kamu harus tahu, sebagaimana kamu telah kamu ketahui, bahwa kamu harus meninggalkannya dan menjauh darinya.",
+          "bn": "আপনি জানেন, আপনাকে এটি ত্যাগ করতে হবে এবং এখান থেকে প্রস্থান করতে হবে।",
+          "es": "Debes saber, como ya sabes, que debes dejarlo y apartarte de él.",
+          "fr": "Vous devez savoir, comme vous le savez, que vous devez le quitter et vous en éloigner et vous en détacher.",
+          "de": "Ihr wisst ja, dass ihr es verlassen und euch davon abwenden müsst.",
+          "ru": "Вы должны знать, как вы знаете, что вам нужно оставить это и уйти от него.",
+          "zh": "你应当知道，正如你所知，你必须离开它并远离它。"
+        },
+        "word_start": 50,
+        "word_end": 59
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَاتَّعِظُوا فِيهَا بِالَّذِينَ ﴿قَالُوا مَنْ أَشَدُّ مِنَّا قُوَّةً﴾:",
+        "translations": {
+          "en": "While in it, take lesson from those “who proclaimed ‘who is more powerful than we’” (Qur’ān, 41:15)",
+          "ur": "اور اس میں ان سے عبرت حاصل کریں جنہوں نے کہا تھا 'ہم سے زیادہ طاقتور کون ہے؟' (سورۃ الحشر، 41:15)",
+          "tr": "Orada, \"Bizden daha güçlü kimdir?\" diyenlerin (Kur'ân, 41:15) dersini al.",
+          "fa": "در آن، از کسانی که گفتند «کسی از ما قدرتمندتر است» (سوره فصلت، آیه ۱۵) عبرت بگیر.",
+          "id": "Di dalamnya, ambillah pelajaran dari orang-orang yang mengucapkan 'Siapakah yang lebih kuat daripada kami?' (Al-Qur'ān, 41:15)",
+          "bn": "সেখানে থাকতে থাকতে, যারা ঘোষণা করেছিল 'আমাদের চেয়ে শক্তিশালী কে?' (কুরআন, ৪১:১৫), তাদের থেকে শিক্ষা নিন।",
+          "es": "Mientras estéis en ella, tomad lección de aquellos «que proclamaron: ¿quién es más poderoso que nosotros?» (Corán, 41:15)",
+          "fr": "Pendant ce temps, tirez leçon de ceux qui ont proclamé : « Qui est plus puissant que nous ? » (Coran, 41:15)",
+          "de": "Narrows down to the text: ",
+          "ru": "На русском: ",
+          "zh": "在其中，从那些“宣称‘谁比我们还强’”的人（《古兰经》41:15）身上汲取教训。"
+        },
+        "word_start": 59,
+        "word_end": 67
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حُمِلُوا إِلَى قُبُورِهِمْ فَلَا يُدْعَوْنَ رُكْبَانًا وَأُنْزِلُوا الْأَجْدَاثَ فَلَا يُدْعَوْنَ ضِيفَانًا،",
+        "translations": {
+          "en": "but they were carried to their graves, though not as riders. They were then made to stay in the graves, but not as guests.",
+          "ur": "لیکن انہیں ان کے مزاروں تک لے جایا گیا، حالانکہ سواروں کی طرح نہیں۔ پھر انہیں قبروں میں ٹھہرایا گیا، لیکن مہمانوں کی طرح نہیں۔",
+          "tr": "Fakat onlar, binekli olarak değil, mezarlarına taşındılar. Sonra mezarlarında kalacaklar, ama konuk olarak değil.",
+          "fa": "اما آن‌ها به گورستان‌هایشان برده شدند، نه به عنوان سوارکاران. سپس در گورها ماندند، نه به عنوان مهمان.",
+          "id": "namun mereka dibawa ke liang lahat mereka, bukan sebagai penunggang. Kemudian mereka diperintahkan untuk tinggal di dalam liang lahat, bukan sebagai tamu.",
+          "bn": "কিন্তু তাদেরকে যাত্রী হিসেবে নয়, বরং গাড়ি করে তাদের কবরগুলোতে নিয়ে যাওয়া হলো। তারপর তাদেরকে অতিথি হিসেবে নয়, বরং কবরগুলোতে স্থায়ীভাবে থাকতে বাধ্য করা হলো।",
+          "es": "pero fueron llevados a sus tumbas, aunque no como jinetes. Luego se les hizo permanecer en las tumbas, pero no como invitados.",
+          "fr": "mais ils furent portés à leurs tombes, non pas en tant que cavaliers. Puis on les fit séjourner dans les tombes, non pas en tant qu'invités.",
+          "de": "Doch sie wurden zu ihren Gräbern getragen, jedoch nicht als Reiter. Dann wurden sie gezwungen, in den Gräbern zu verweilen, jedoch nicht als Gäste",
+          "ru": "но их понесли к их могилам, хотя и не как всадников. Затем их заставили оставаться в могилах, но не как гостей.",
+          "zh": "但他们被抬到坟墓里，却不是以骑者的身份；他们被留在坟墓中，却不像客人那样。"
+        },
+        "word_start": 67,
+        "word_end": 78
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَجُعِلَ لَهُمْ مِنَ الصَّفِيحِ أَجْنَانٌ وَمِنَ التُّرَابِ أَكْفَانٌ، وَمِنَ الرُّفَاتِ جِيرَانٌ.",
+        "translations": {
+          "en": "Graves were made for them from the surface of the ground. Their shrouds were made from earth. Old bones were made their neighbour.",
+          "ur": "ان کے لیے زمین کی سطح سے قبریں بنائی گئیں۔ ان کے کفن زمین سے بنائے گئے۔ پرانے ہڈیاں ان کے پڑوسی بن گئیں۔",
+          "tr": "Onlar için yerin yüzeyinden mezarlar yapıldı. Kefenleri topraktan yapıldı. Eski kemikler onların komşusu yapıldı.",
+          "fa": "برای آنان از سطح زمین قبرهایی ساخته شد. پیکربندهایشان از خاک بود. استخوان‌های پوسیده همسایه‌شان شدند.",
+          "id": "Liangan dibuatkan untuk mereka dari permukaan tanah. Kafan mereka dibuat dari tanah. Tulang-tulang tua menjadi tetangga mereka.",
+          "bn": "মাটির উপর থেকে তাদের জন্য কবর তৈরি করা হয়েছিল। তাদের কফন মাটি দিয়ে তৈরি করা হয়েছিল। পুরনো হাড় তাদের প্রতিবেশী হয়েছিল।",
+          "es": "Se les hicieron tumbas desde la superficie de la tierra. Sus sudarios se hicieron de tierra. Los huesos viejos se hicieron sus vecinos.",
+          "fr": "On leur creusa des tombes à la surface du sol. Leurs linceuls furent faits de terre. De vieux ossements devinrent leurs voisins.",
+          "de": "Für sie wurden Gräber aus der Erdoberfläche gemacht. Ihre Leichentücher wurden aus Erde gefertigt. Alte Knochen wurden zu ihrem Nachbarn.",
+          "ru": "Им были сделаны могилы из поверхности земли. Их погребальные одежды были сделаны из земли. Старые кости стали их соседями.",
+          "zh": "坟墓从地面筑起，他们的裹尸布用泥土制成，枯骨成为他们的邻居。"
+        },
+        "word_start": 78,
+        "word_end": 89
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (AS) employs rhetorical questioning to expose the world's betrayal of its devotees, framing this detachment as a prerequisite for spiritual vigilance (waql). The passage draws a sharp contrast between worldly arrogance and the humble reality of the grave, where the powerful are reduced to being carried to their tombs without honor. This serves as a core Shia ethical lesson on *zuhd* (asceticism) not as rejection of the world, but as recognizing its temporary nature to avoid the regret of the heedless.",
+        "seo_question": "How does the world treat those who love it according to Nahj al-Balagha?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "its strangeness/unfamiliarity",
+          "لِفِرَاقِ الْآبَدِ": "for eternal separation",
+          "السَّغَبَ": "starvation/hunger",
+          "الضَّنْكَ": "narrowness/confinement",
+          "الظُّلْمَةَ": "gloom/darkness",
+          "النَّدَامَةَ": "regret/repentance",
+          "الدار": "the abode (world)",
+          "الْأَجْدَاثَ": "the graves"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) استعاراتی سوال کے ذریعے دنیا کے اپنے پیاروں کی خیانت کو ظاہر کرتے ہیں، اور اس بے تعلق کو روحانی بیداری (عقل) کے لیے ضروری شرط کے طور پر پیش کرتے ہیں۔ یہ متن دنیا کی تکبر اور قبر کی عاجزانہ حقیقت کے درمیان تیز تضاد کھینچتا ہے، جہاں طاقتور لوگ عزت کے بغیر اپنے مزاروں تک لے جائے جاتے ہیں۔ یہ شیعہ اخلاقیات کا ایک بنیادی سبق ہے کہ زہد دنیا کو مسترد کرنا نہیں بلکہ اس کی عارضی نوعیت کو پہچاننا ہے تاکہ غافل لوگوں کے پچھتاوے سے بچا جا سکے۔",
+        "seo_question": "نہج البلاغہ کے مطابق دنیا ان لوگوں کا کیسا سلوک کرتی ہے جو اس سے محبت کرتے ہیں؟",
+        "key_terms": {
+          "تَنَكُّرَهَا": "اس کی انجان پن",
+          "لِفِرَاقِ الْآبَدِ": "ابدی جدائی کے لیے",
+          "السَّغَبَ": "بھوک",
+          "الضَّنْكَ": "تنگی",
+          "الظُّلْمَةَ": "اندھیرا",
+          "النَّدَامَةَ": "پچھتاوا",
+          "الدار": "مقام (دنیا)",
+          "الْأَجْدَاثَ": "قبریں"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (AS), dünyanın kendine bağlı olanlara ihanetini ortaya çıkarmak için retorik sorular kullanır ve bu kopuşu manevi uyanıklık (vaql) için bir ön koşul olarak çerçeveler. Metin, dünyevi kibri ve güçlü olanların onursuz bir şekilde mezarlıklarına taşındığı mezarda ki mütevazı gerçelik arasında keskin bir zıtlık çizer. Bu, dikkatsizlerin pişmanlığından kaçınmak için dünyayı reddetmek değil, onun geçici doğasını tanımak olan *zuhd* (tasciyyüf) üzerine temel bir Şii ahlaki ders sunar.",
+        "seo_question": "Nahj al-Belagha'ya göre dünya, onu sevenlere nasıl davranır?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "yabancılaşması",
+          "لِفِرَاقِ الْآبَدِ": "ebedi ayrılık için",
+          "السَّغَبَ": "açlık",
+          "الضَّنْكَ": "darlık",
+          "الظُّلْمَةَ": "karanlık",
+          "النَّدَامَةَ": "pişmanlık",
+          "الدار": "dünya",
+          "الْأَجْدَاثَ": "mezarlar"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (ع) با پرسش بلاغی خیانت جهان به دوستدارانش را آشکار می‌سازد و این بی‌تعلقی را شرطی برای هوشیاری معنوی (عقل) می‌داند. این passage تضاد تیزی میان تکبر دنیوی و واقعیت فروتنانه قبر می‌کشد، جایی که قدرتمندان بدون احترام به مقبره‌هایشان حمل می‌شوند. این امر درس اخلاقی شیعی هسته‌ای درباره زهد است؛ نه به معنای طرد جهان، بلکه به معنای شناخت موقتی بودن آن برای اجتناب از پشیمانی غافلان.",
+        "seo_question": "جهان چگونه با کسانی که آن را دوست دارند رفتار می‌کند؟",
+        "key_terms": {
+          "تَنَكُّرَهَا": "بیگانگی/ناآشنایی آن",
+          "لِفِرَاقِ الْآبَدِ": "برای جدایی ابدی",
+          "السَّغَبَ": "قحطی/گرسنگی",
+          "الضَّنْكَ": "تنگی/محدودیت",
+          "الظُّلْمَةَ": "تاریکی/سنگینی",
+          "النَّدَامَةَ": "پشیمانی/توبه",
+          "الدار": "مسکن (جهان)",
+          "الْأَجْدَاثَ": "قبرها"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (AS) menggunakan pertanyaan retoris untuk mengungkap pengkhianatan dunia terhadap para pencintanya, dengan membingkai keterpisahan ini sebagai prasyarat untuk kewaspadaan spiritual (waql). Kutipan ini menarik kontras tajam antara kesat antara kesombongan duniawi dan kenyataan yang rendah hati di dalam kubur, di mana orang-orang kuat direduksi menjadi hanya dibawa ke makam mereka tanpa kehormatan. Ini berfungsi sebagai pelajaran etika Syiah inti tentang *zuhd* (askese) bukan sebagai penolakan terhadap dunia, tetapi sebagai pengakuan atas sifat sementara dunia untuk menghindari penyesalan orang-orang yang lalai.",
+        "seo_question": "Bagaimana dunia memperlakukan mereka yang mencintainya menurut Nahj al-Balagha?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "ketidakbiasaannya",
+          "لِفِرَاقِ الْآبَدِ": "untuk perpisahan abadi",
+          "السَّغَبَ": "kelaparan",
+          "الضَّنْكَ": "kesempitan",
+          "الظُّلْمَةَ": "kegelapan",
+          "النَّدَامَةَ": "penyesalan",
+          "الدار": "tempat kediaman (dunia)",
+          "الْأَجْدَاثَ": "kuburan"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) রиторিকাল প্রশ্নের মাধ্যমে বিশ্বের প্রতিশ্রুতির বিরুদ্ধে বিশ্বাসীদের বিশ্বাসঘাতকতা প্রকাশ করেন, আধ্যাত্মিক সতর্কতার (ওয়াক্বফ) জন্য এই বিচ্ছিন্নতাকে প্রয়োজনীয় শর্ত হিসেবে উপস্থাপন করেন। এই অংশে বিশ্বের অহংকার এবং কবরের সত্যের মধ্যে তীক্ষ্ণ পার্থক্য তুলে ধরা হয়েছে, যেখানে শক্তিশালীরা সম্মানহীনভাবে তাদের কবরে বহন করা হয়। এটি জুহদ (ত্যাগশীলতা)-এর একটি মূল শিয়া নৈতিক শিক্ষা, যা বিশ্বের প্রত্যাখ্যান নয়, বরং তা ক্ষণস্থায়ী হিসেবে স্বীকার করে অলসদের পশ্চাতাপ এড়ানো।",
+        "seo_question": "নহজুল বালাগহা অনুযায়ী, যেসব লোক বিশ্বকে ভালোবাসে, বিশ্ব তাদের সাথে কীভাবে আচরণ করে?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "এর অজানা ভাব",
+          "لِفِرَاقِ الْآبَدِ": "চিরবিদ্যায়ন জন্য",
+          "السَّغَبَ": "দুর্ভিক্ষ/কুশ্চা",
+          "الضَّنْكَ": "সংকীর্ণতা/আবদ্ধতা",
+          "الظُّلْمَةَ": "অন্ধকার/গাঢ় অন্ধকার",
+          "النَّدَامَةَ": "পশ্চাতাপ/খেদ",
+          "الدار": "আবাস (বিশ্ব)",
+          "الْأَجْدَاثَ": "কবরগুলো"
+        }
+      },
+      "es": {
+        "summary": "El Imam Alí (AS) emplea la pregunta retórica para exponer la traición del mundo hacia sus devotos, enmarcando este desapego como un requisito previo para la vigilancia espiritual (waql). El pasaje traza un contraste agudo entre la arrogancia mundana y la realidad humilde de la tumba, donde los poderosos son reducidos a ser llevados a sus tumbas sin honor. Esto sirve como una lección ética chií fundamental sobre el *zuhd* (ascetismo) no como rechazo del mundo, sino como reconocer su naturaleza temporal para evitar el arrepentimiento de los descuidados.",
+        "seo_question": "¿Cómo trata el mundo a quienes lo aman según Nahj al-Balagha?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "su extrañeza/familiaridad",
+          "لِفِرَاقِ الْآبَدِ": "por la separación eterna",
+          "السَّغَبَ": "hambre/hambruna",
+          "الضَّنْكَ": "estrechez/confinamiento",
+          "الظُّلْمَةَ": "oscuridad/lóbrego",
+          "النَّدَامَةَ": "arrepentimiento",
+          "الدار": "la morada (mundo)",
+          "الْأَجْدَاثَ": "las tumbas"
+        }
+      },
+      "fr": {
+        "summary": "L'Imam Ali (AS) utilise la question rhétorique pour révéler la trahison du monde envers ses amants, présentant ce détachement comme une condition préalable à la vigilance spirituelle (waql). Le passage oppose avec netteté l'arrogance mondaine à la réalité humble de la tombe, où les puissants sont réduits à être portés vers leurs sépulcres sans honneur. Cela sert de leçon éthique chiite fondamentale sur le *zuhd* (ascétisme), non comme un rejet du monde, mais comme la reconnaissance de sa nature temporaire pour éviter le regret des insouciants.",
+        "seo_question": "Comment le monde traite-t-il ceux qui l'aiment selon Nahj al-Balagha ?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "son caractère étrange / son unfamiliarité",
+          "لِفِرَاقِ الْآبَدِ": "pour la séparation éternelle",
+          "السَّغَبَ": "la faim / la disette",
+          "الضَّنْكَ": "l'étroitesse / la contrainte",
+          "الظُّلْمَةَ": "l'obscurité / les ténèbres",
+          "النَّدَامَةَ": "le regret / la repentance",
+          "الدار": "la demeure (le monde)",
+          "الْأَجْدَاثَ": "les tombes"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (AS) nutzt rhetorische Fragen, um den Verrat der Welt an ihren Anhängern aufzudecken, und stellt diese Loslösung als Voraussetzung für geistige Wachsamkeit (Waql) dar. Der Text zieht einen scharfen Kontrast zwischen weltlichem Hochmut und der demütigen Realität des Grabes, in der die Mächtigen ohne Ehre zu ihren Gräbern getragen werden. Dies dient als zentrale schiitische ethische Lehre über *Zuhd* (Askese), die nicht als Ablehnung der Welt, sondern als Anerkennung ihrer Vergänglichkeit verstanden wird, um die Reue der Unachtsamen zu vermeiden.",
+        "seo_question": "Wie behandelt die Welt diejenigen, die sie lieben, laut Nahj al-Balagha?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "ihre Fremdheit/Unvertrautheit",
+          "لِفِرَاقِ الْآبَدِ": "für die ewige Trennung",
+          "السَّغَبَ": "Hungersnot/Hunger",
+          "الضَّنْكَ": "Enge/Einschränkung",
+          "الظُّلْمَةَ": "Dunkelheit",
+          "النَّدَامَةَ": "Reue",
+          "الدار": "die Behausung (die Welt)",
+          "الْأَجْدَاثَ": "die Gräber"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (мир ему) использует риторические вопросы, чтобы обнажить предательство мира своими любящими, представляя эту отстранённость как необходимое условие духовной бдительности (вакль). В тексте проводится резкое противопоставление между мирским высокомерием и смиренной реальностью могилы, где могущественные превращаются в тех, кого несут к своим гробницам без почёта. Это служит ключевым этическим уроком шиитов о *зухде* (аскетизме) не как об отказе от мира, а как о признании его временности, чтобы избежать сожаления нерадивых.",
+        "seo_question": "Как мир обращается с теми, кто любит его, согласно «Нахдж аль-балаге»?",
+        "key_terms": {
+          "تَنَكُّرَهَا": "её чуждость/незнакомость",
+          "لِفِرَاقِ الْآبَدِ": "вечное расставание",
+          "السَّغَبَ": "голод",
+          "الضَّنْكَ": "теснота/сжатие",
+          "الظُّلْمَةَ": "мрак/тьма",
+          "النَّدَامَةَ": "сожаление",
+          "الدار": "обитель (мир)",
+          "الْأَجْدَاثَ": "могилы"
+        }
+      },
+      "zh": {
+        "summary": "阿里伊玛目（愿主福安之）运用修辞性提问，揭示世界对其爱戴者的背叛，并将这种疏离感视为精神警觉（waql）的前提。这段文字在世界傲慢与坟墓中卑微现实之间划出鲜明对比，权贵者被毫无尊严地抬入坟墓。这构成了什叶派伦理的核心教训：*zuhd*（苦修）并非拒绝世界，而是认识其暂时性，以免陷入疏忽者的悔恨。",
+        "seo_question": "根据《布哈里格》（Nahj al-Balagha），世界如何对待爱它的人？",
+        "key_terms": {
+          "تَنَكُّرَهَا": "其陌生/不熟识",
+          "لِفِرَاقِ الْآبَدِ": "为永恒的分离",
+          "السَّغَبَ": "饥饿/饥荒",
+          "الضَّنْكَ": "狭窄/禁锢",
+          "الظُّلْمَةَ": "昏暗/黑暗",
+          "النَّدَامَةَ": "悔恨/忏悔",
+          "الدار": "居所（世界）",
+          "الْأَجْدَاثَ": "坟墓"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "41:15",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:32",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "100:6",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "فَقَدْ رَأَيْتُمْ تَنَكُّرَهَا لِمَنْ دَانَ لَهَا وَآثَرَهَا وَأَخْلَدَ إِلَيْهَا، حِينَ ظَعَنُوا عَنْهَا لِفِرَاقِ الْآبَدِ. هَلْ زَوَّدَتْهُمْ إِلَّا السَّغَبَ أَوْ أَحَلَّتْهُمْ إِلَّا الضَّنْكَ أَوْ نَوَّرَتْ لَهُمْ إِلَّا الظُّلْمَةَ؟ أَوْ أَعْقَبَتْهُمْ إِلَّا النَّدَامَةَ؟ أَفَهَذِهِ تُؤْثِرُونَ؟ أَمْ إِلَيْهَا تَطْمَئِنُّونَ؟ أَمْ عَلَيْهَا تَحْرِصُونَ؟ فَبِئْسَتِ الدَّارُ لِمَنْ لَمْ يَتَّهِمْهَا، وَلَمْ يَكُنْ فِيهَا عَلَى وَجَلٍ مِنْهَا! فَاعْلَمُوا ـ وَأَنْتُمْ تَعْلَمُونَ ـ بِأَنَّكُمْ تَارِكُوهَا وَظَاعِنُونَ عَنْهَا، وَاتَّعِظُوا فِيهَا بِالَّذِينَ ﴿قَالُوا مَنْ أَشَدُّ مِنَّا قُوَّةً﴾: حُمِلُوا إِلَى قُبُورِهِمْ فَلَا يُدْعَوْنَ رُكْبَانًا وَأُنْزِلُوا الْأَجْدَاثَ فَلَا يُدْعَوْنَ ضِيفَانًا، وَجُعِلَ لَهُمْ مِنَ الصَّفِيحِ أَجْنَانٌ وَمِنَ التُّرَابِ أَكْفَانٌ، وَمِنَ الرُّفَاتِ جِيرَانٌ.",
+    "isnad_matn": {
+      "isnad_ar": "فَقَدْ رَأَيْتُمْ تَنَكُّرَهَا لِمَنْ دَانَ لَهَا وَآثَرَهَا وَأَخْلَدَ إِلَيْهَا، حِينَ ظَعَنُوا عَنْهَا لَفِرَاقِ الاْبَدِ. هَلْ زَوَّدَتْهُمْ إِلاَّ السَّغَبَ أَوْ أَحَلَّتْهُمْ إِلاَّ الضَّنْكَ أوْ نَوَّرَتْ لَهُمْ إِلاَّ الظُّلْمَةَ؟ أَوْ أَعْقَبَتْهُمْ إِلاَّ النَّدَامَةَ؟ أَفَهذِهِ تُؤْثِرُونَ؟ أَمْ إِلَيْهَا تَطْمَئِنُّونَ؟ أَمْ عَلَيْهَا تَحْرِصُونَ؟ فَبِئْسَتِ الدَّارُ لَمَنْ لَمْ يَتَّهِمْهَا، وَلَمْ يَكُنْ فِي",
+      "matn_ar": "فَقَدْ رَأَيْتُمْ تَنَكُّرَهَا لِمَنْ دَانَ لَهَا وَآثَرَهَا وَأَخْلَدَ إِلَيْهَا، حِينَ ظَعَنُوا عَنْهَا لِفِرَاقِ الْآبَدِ. هَلْ زَوَّدَتْهُمْ إِلَّا السَّغَبَ أَوْ أَحَلَّتْهُمْ إِلَّا الضَّنْكَ أَوْ نَوَّرَتْ لَهُمْ إِلَّا الظُّلْمَةَ؟ أَوْ أَعْقَبَتْهُمْ إِلَّا النَّدَامَةَ؟ أَفَهَذِهِ تُؤْثِرُونَ؟ أَمْ إِلَيْهَا تَطْمَئِنُّونَ؟ أَمْ عَلَيْهَا تَحْرِصُونَ؟ فَبِئْسَتِ الدَّارُ لِمَنْ لَمْ يَتَّهِمْهَا، وَلَمْ يَكُنْ فِيهَا عَلَى وَجَلٍ مِنْهَا! فَاعْلَمُوا ـ وَأَنْتُمْ تَعْلَمُونَ ـ بِأَنَّكُمْ تَارِكُوهَا وَظَاعِنُونَ عَنْهَا، وَاتَّعِظُوا فِيهَا بِالَّذِينَ ﴿قَالُوا مَنْ أَشَدُّ مِنَّا قُوَّةً﴾: حُمِلُوا إِلَى قُبُورِهِمْ فَلَا يُدْعَوْنَ رُكْبَانًا وَأُنْزِلُوا الْأَجْدَاثَ فَلَا يُدْعَوْنَ ضِيفَانًا، وَجُعِلَ لَهُمْ مِنَ الصَّفِيحِ أَجْنَانٌ وَمِنَ التُّرَابِ أَكْفَانٌ، وَمِنَ الرُّفَاتِ جِيرَانٌ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "فقد رأيتم تنكرها لمن دان لها وآثرها وأخلد إليها، حين ظعنوا عنها لفراق الابد. هل زودتهم إلا السغب أو أحلتهم إلا الضنك أو نورت لهم إلا الظلمة؟ أو أعقبتهم إلا الندامة؟ أفهذه تؤثرون؟ أم إليها تطمئنون؟ أم عليها تحرصون؟ فبئست الدار لمن لم يتهمها، ولم يكن",
+          "name_en": "Faqad ra'aytum tanakkaraha liman dana laha wa akhtaraha wa akhlada ilayha, hitha zaa'nuha 'anha li-firaq al-abad. Hal zaudthum illa al-sughb aw ahlathum illa al-dhanak aw nawwara lahum illa al-zulumah? Aw a'qabat-hum illa al-nadamah? Af-hadhihi tu'tharun? Am ilayha tatma'innun? Am 'alayha tahrisun? Fa-bi'sa al-dar liman lam yathimha, wa lam yakun",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,428 @@
+{
+  "verse_path": "/books/al-istibsar:3:15:5",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 15 words (>14, بن-density 0.13 — likely a sentence fragment, not a name): 'مَا رَوَاهُ مُحَمّدُ بنُ يَعقُوبَ عَن أَبِي عَلِيّ الأشَعرَي'"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "quran_commentary"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "quran_interpretation_method",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "وَمَا رَوَاهُ مُحَمَّدُ بْنُ يَعْقُوبَ عَنْ أَبِي عَلِيٍّ الْأَشْعَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ وَ مُحَمَّدِ بْنِ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ مَنْصُورِ بْنِ حَازِمٍ قَالَ كُنْتُ عِنْدَ أَبِي عَبْدِ اللَّهِ ع",
+        "translations": {
+          "en": "And Muhammad ibn Ya'qub narrated from Abu Ali al-Ash'ari, from Muhammad ibn al-Jabbar and Muhammad ibn Isma'il, from al-Fadl ibn Shadhan, from Safwan ibn Yahya, from Mansur ibn Hazim, who said: I was with Abu Abdillah (peace be upon him).",
+          "ur": "اور محمد بن یعقوب نے ابو علی اشعری سے، محمد بن جبّار اور محمد بن اسماعیل سے، الفضل بن شاذان سے، صفوان بن یحییٰ سے، منصور بن حازم سے روایت کی جنہوں نے کہا: میں امام ابو عبداللہ (علیہ السلام) کے پاس تھا۔",
+          "tr": "Ve Muhammed b. Yâkûb, Ebû Ali el-Eş'arî'den, Muhammed b. el-Cebbâr ve Muhammed b. İsmâîl'den, el-Fadl b. Şâdân'dan, Safvân b. Yahyâ'dan, Mansûr b. Hâzim'den rivayet etmiştir. O da şöyle demiştir: Ben, Ebû Abdillah'ın (aleyhisselâm) huzurundaydım.",
+          "fa": "و محمد بن یعقوب از ابو علی اشعری، از محمد بن جبّار و محمد بن اسماعیل، از فضل بن شاذان، از صفوان بن یحیی، از منصور بن حازم روایت کرده است که گفت: من نزد ابو عبدالله (علیه السلام) بودم.",
+          "id": "Dan Muhammad ibn Ya'qub meriwayatkan dari Abu Ali al-Ash'ari, dari Muhammad ibn al-Jabbar dan Muhammad ibn Isma'il, dari al-Fadl ibn Shadhan, dari Safwan ibn Yahya, dari Mansur ibn Hazim, yang berkata: Aku berada di sisi Abu Abdillah (alamah).",
+          "bn": "এবং মুহাম্মাদ ইবনে ইয়া'কুব আবু আলী আল-আশ'আরী থেকে, মুহাম্মাদ ইবনে আল-জব্বার এবং মুহাম্মাদ ইবনে ইসমাঈল থেকে, আল-ফাদল ইবনে শাধান থেকে, সফওয়ান ইবনে ইয়াহ্যা থেকে, মনসুর ইবনে হাজিম থেকে বর্ণনা করেছেন, যিনি বলেছেন: আমি আবু আবদিল্লাহ (আলৈহি আস-সালাম)-এর সাথে ছিলাম।",
+          "es": "Y narró Muhammad ibn Ya'qub desde Abu Ali al-Ash'ari, desde Muhammad ibn al-Jabbar y Muhammad ibn Isma'il, desde al-Fadl ibn Shadhan, desde Safwan ibn Yahya, desde Mansur ibn Hazim, quien dijo: Estaba con Abu Abdillah (que la paz sea con él).",
+          "fr": "Et Muhammad ibn Ya'qub a rapporté d'Abou Ali al-Ach'ari, de Muhammad ibn al-Jabbar et Muhammad ibn Isma'il, de al-Fadl ibn Chadhan, de Safwan ibn Yahya, de Mansour ibn Hazim, qui a dit : J'étais avec Abou Abdillah (que la paix soit sur lui).",
+          "de": "Und Muhammad ibn Ya'qub überlieferte von Abu Ali al-Ash'ari, von Muhammad ibn al-Jabbar und Muhammad ibn Isma'il, von al-Fadl ibn Shadhan, von Safwan ibn Yahya, von Mansur ibn Hazim, der sagte: Ich war bei Abu Abdillah (friede sei mit ihm).",
+          "ru": "И Мухаммад ибн Якуб передал от Абу Али аль-Ашари, от Мухаммада ибн аль-Джаббара и Мухаммада ибн Исмаила, от аль-Фадла ибн Шадаана, от Сафвана ибн Яхьи, от Мансура ибн Хазима, который сказал: «Я был у Абу Абдиллы (да будет над ним мир Божий).»",
+          "zh": "穆罕默德·本·雅各布传自艾布·阿里·阿什阿里，从穆罕默德·本·贾巴爾和穆罕默德·本·伊斯玛仪，从法德勒·本·沙赞，从萨凡·本·叶海亚，从曼苏尔·本·哈齐姆传述，他说：我曾与艾布·阿卜杜拉（愿主安宁）在一起。"
+        },
+        "word_start": 0,
+        "word_end": 37
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَتَاهُ رَجُلٌ فَسَأَلَهُ عَنْ رَجُلٍ تَزَوَّجَ امْرَأَةً فَمَاتَتْ قَبْلَ أَنْ يَدْخُلَ بِهَا أَ يَتَزَوَّجُ بِأُمِّهَا فَقَالَ أَبُو عَبْدِ اللَّهِ ع قَدْ فَعَلَهُ رَجُلٌ مِنَّا فَلَمْ نَرَ بِهِ بَأْسًا",
+        "translations": {
+          "en": "A man came to him and asked him about a man who married a woman but she died before he consummated the marriage with her: Should he marry her mother? Abu Abdillah (peace be upon him) said: A man from us has done this, and we saw no harm in it.",
+          "ur": "ایک شخص نے آ کر اس سے ایک ایسے شخص کے بارے میں پوچھا جس نے کسی عورت سے نکاح کیا لیکن اس سے جماع سے پہلے وہ وفات پا گئی: کیا اسے اس کی ماں سے نکاح کر لینا چاہیے؟ ابو عبداللہ (علیہ السلام) نے فرمایا: ہم میں سے ایک شخص نے ایسا ہی کیا اور ہم نے اس میں کوئی حرج نہیں دیکھا۔",
+          "tr": "Bir adam ona geldi ve bir adamın bir kadınla evlendiğini, ancak evliliği tüketmeden önce kadının öldüğünü ve bu durumda adamın kadının annesiyle evlenip evlenemeyeceğini sordu. Ebu Abdillah (aleyhimüsselam) şöyle dedi: Bizden bir adam bunu yaptı ve biz bunun bir zararı olmadığını gördük.",
+          "fa": "مردی نزد او آمد و درباره مردی پرسید که زنی را ازدواج کرد اما پیش از آنکه با او نزدیکی کند، زن مُرد: آیا باید با مادر او ازدواج کند؟ ابو عبدالله (علیه‌السلام) فرمود: مردی از ما این کار را انجام داده و ما در آن اشکالی ندیدیم.",
+          "id": "Seorang laki-laki datang kepadanya dan bertanya tentang seorang laki-laki yang menikahi seorang wanita, namun wanita itu meninggal sebelum ia mencampuri (menyempurnakan) pernikahan dengannya: Haruskah ia menikahi ibunya? Abu Abdillah (semoga Allah memberikan kesejahteraan kepadanya) berkata: Seorang laki-laki dari kalangan kami telah melakukan hal ini, dan kami tidak melihat adanya masalah dengannya.",
+          "bn": "এক ব্যক্তি তাঁর নিকট আসলেন এবং এক ব্যক্তির বিষয়ে জিজ্ঞাসা করলেন যে, সে এক নারীকে বিবাহ করল কিন্তু বিবাহের গুপ্তস্থান প্রবেশের পূর্বেই নারীটি মৃত্যুবরণ করল: সে কি তার মাকে বিবাহ করবে? আবু আবদিল্লাহ (রহ.) বললেন: আমাদের মধ্য থেকে এক ব্যক্তি এ কাজ করেছেন, এবং আমরা এতে কোনো ক্ষতি দেখিনি।",
+          "es": "Llegó un hombre y le preguntó acerca de un hombre que se casó con una mujer pero ella murió antes de que consumara el matrimonio con ella: ¿Debe casarse con su madre? Abu Abdillah (que la paz sea con él) dijo: Uno de nosotros ha hecho esto, y no vimos ningún perjuicio en ello.",
+          "fr": "Un homme vint le trouver et lui demanda au sujet d'un homme qui avait épousé une femme mais qui était décédé avant d'avoir consommé le mariage avec elle : Devait-il épouser sa mère ? Abou Abdillah (que la paix soit sur lui) dit : Un homme parmi nous a fait cela, et nous n'y avons vu aucun inconvénient.",
+          "de": "Ein Mann kam zu ihm und fragte ihn über einen Mann, der eine Frau geheiratet hatte, aber sie starb, bevor er die Ehe mit ihr vollzogen hatte: Sollte er ihre Mutter heiraten? Abu Abdillah (Friede sei mit ihm) sagte: Ein Mann von uns hat dies getan, und wir sahen keinen Schaden darin.",
+          "ru": "Пришел к нему один человек и спросил о том, кто женился на женщине, но она умерла, прежде чем он совершил с ней брачное соитие: следует ли ему жениться на ее матери? Абу Абдиллах (да будет над ним мир) сказал: Один из нас совершил это, и мы не усмотрели в этом никакого вреда. } 注意：在俄语中，",
+          "zh": "一人来问他，关于一个男子娶了一女子，但该女子在他未与她圆房前便去世的情况：他是否可以娶她的母亲？阿布·阿卜杜拉（愿主赐他平安）说：我们中有一人曾这样做，我们未见有何不妥。"
+        },
+        "word_start": 37,
+        "word_end": 65
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقُلْتُ جُعِلْتُ فِدَاكَ مَا تَفْخَرُ الشِّيعَةُ إِلَّا بِقَضَاءِ عَلِيٍّ ع فِي هَذِهِ الشُّمَخِيَّةِ الَّتِي أَفْتَاهَا ابْنُ مَسْعُودٍ أَنَّهُ لَا بَأْسَ بِذَلِكَ ثُمَّ إِنَّ عَلِيًّا ع سَأَلَهُ فَقَالَ لَهُ عَلِيٌّ ع مِنْ أَيْنَ أَخَذْتَهَا",
+        "translations": {
+          "en": "I said: Let me be your ransom, the Shi'a do not boast except about the legal ruling of Ali (peace be upon him) in this 'proud/arrogant' case, which Ibn Mas'ud ruled that there is no harm in it. Then Ali (peace be upon him) asked him, saying: From where did you take this?",
+          "ur": "میں نے کہا: میں آپ کی فدا ہو، شیعہ اس 'فخر کرنے والے/متکبر' معاملے میں علی (علیہ السلام) کے فتویٰ کے سوا کسی چیز پر فخر نہیں کرتے، جس میں ابن مسعود نے فتویٰ دیا کہ اس میں کوئی حرج نہیں۔ پھر علی (علیہ السلام) نے ان سے پوچھا، کہہ کر: آپ نے یہ کہاں سے لیا؟",
+          "tr": "Dedim ki: Canım senin feda olsun, Şiâ, Ali'nin (aleyhisselâm) bu 'kibirli/takbirli' vakadaki hükmünden başka bir şeyde iftihar etmezler; o da İbn Mes'ud'un içinde bir sakınca olmadığına hükmettiği husustur. Sonra Ali (aleyhisselâm) kendisine, 'Bunu nereden aldın?' diyerek sordu.",
+          "fa": "گفتم: قربانت شوم، شیعیان جز به حکم علی (علیه السلام) در این موردِ «مفتخر/مغرور» که ابن مسعود حکم کرد در آن حرجی نیست، مغرور نمی‌شوند. سپس علی (علیه السلام) از او پرسید و گفت: این را از کجا گرفتی؟",
+          "id": "Aku berkata: Biarlah aku menjadi tebusanmu, kaum Syi'ah tidak bermegah kecuali dengan hukum fikih Ali (alamah) dalam kasus 'sombong/angkuh' ini, yang Ibnu Mas'ud memutuskan bahwa tidak ada masalah dengannya. Kemudian Ali (alamah) bertanya kepadanya, seraya berkata: Dari mana kamu mengambil ini?",
+          "bn": "আমি বললাম, আমি আপনার প্রাণের বিনিময়ে, শিয়াগণ আলী (আ.)-এর এই 'অহংকারী/গর্বিত' বিষয়ক ফিকহী রায়ের ব্যতীত অন্য কিছুতে গর্ব করে না, যা ইবনে মাসউদ বলেছিলেন যে, এতে কোনো ক্ষতি নেই। অতঃপর আলী (আ.) তাকে জিজ্ঞাসা করলেন, বললেন: আপনি এটি কোথা থেকে নিয়েছেন?",
+          "es": "Dije: Que yo sea tu rescate, los chiíes no se enorgullecen más que de la sentencia legal de Ali (que la paz sea con él) en este caso del 'orgulloso/arrogante', en el que Ibn Mas'ud dictaminó que no hay perjuicio en ello. Entonces Ali (que la paz sea con él) le preguntó, diciendo: ¿De dónde has tomado esto?",
+          "fr": "J'ai dit : Que je sois ton rançon, les Chiites ne se glorifient que du jugement juridique d'Ali (que la paix soit sur lui) dans cette affaire de l'« orgueilleux/arrogant », que Ibn Mas'oud a jugé sans inconvénient. Puis Ali (que la paix soit sur lui) lui a demandé, disant : D'où as-tu pris cela ?",
+          "de": "Ich sagte: Lass mich dein Lösegeld sein, die Schi'a prahlen nicht außer mit der rechtlichen Entscheidung Ali's (Friede sei mit ihm) in diesem Fall der 'Stolzen/Arroganten', bei der Ibn Mas'ud entschied, dass kein Schaden darin liegt. Dann fragte ihn Ali (Friede sei mit ihm) und sagte: Woher hast du das genommen?",
+          "ru": "Я сказал: Пусть я буду твоим выкупом, шииты хвастаются лишь правовым решением Али (да будет мир с ним) в этом случае «гордеца/высокомерного», которое Ибн Масуд посчитал допустимым. Тогда Али (да будет мир с ним) спросил его, сказав: Откуда ты взял это?",
+          "zh": "我说：让我做你的赎金，什叶派只在阿里（愿主安宁）关于此“骄傲/傲慢”案例的法律裁决上自夸，而伊本·马苏德裁定其中无妨。随后阿里（愿主安宁）问他，说：你从何处得出此结论？"
+        },
+        "word_start": 65,
+        "word_end": 98
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ مِنْ قَوْلِ اللَّهِ تَعَالَى رَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُمْ مِنْ نِسَائِكُمُ اللَّاتِي دَخَلْتُمْ بِهِنَّ فَإِنْ لَمْ تَكُونُوا دَخَلْتُمْ بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ",
+        "translations": {
+          "en": "He said: From the saying of Allah, the Exalted: 'Your step-daughters who are in your households, from the wives with whom you have consummated the marriage; if you have not consummated the marriage with them, there is no sin upon you.'",
+          "ur": "انہوں نے کہا: اللہ تعالیٰ کے قولِ عالی کی طرف اشارہ کرتے ہوئے: ''تمہاری وہ بیٹیاں جو تمہارے گھروں میں ہوں، ان بیویوں سے جن سے تم نے نکاحِ کامل کر چکے ہوں؛ اگر تم نے ان سے نکاحِ کامل نہیں کیا تو تم پر کوئی گناہ نہیں۔''",
+          "tr": "Dedi ki: Allah’ın (celle şanühnu) sözünden: «Evlerinizdeki üvey kızlarınız, nikahı yaptığınız eşlerinizden; eğer onlarla nikahı tamamlamamışsanız, sizin için bir günah yoktur.»",
+          "fa": "گفت: از قول خداوند تعالی: «دختران همسرتان که در خانه‌های شما هستند، از زنانی که با آنان به همسری درآمده‌اید؛ اگر با آنان به همسری درنیامده‌اید، گناهی بر شما نیست.»",
+          "id": "Ia berkata: Dari firman Allah, Yang Maha Tinggi: 'Anak-anak tiri perempuan yang berada dalam rumah tanggamu, dari istri-istri yang telah kamu campuri; jika kamu belum mencampuri mereka, maka tidak ada dosa atasmu.'",
+          "bn": "তিনি বললেন: আল্লাহ তাআলার বাক্যের দিকে ইঙ্গিত করে: 'তোমাদের ঘরানায় অবস্থিত তোমাদের স্ত্রীরা, যাদের সাথে তোমরা বিবাহ সম্পন্ন করেছ; আর যদি তোমরা তাদের সাথে বিবাহ সম্পন্ন না করে থাকো, তবে তোমাদের উপর কোনো পাপ নেই।'",
+          "es": "Dijo: Por la palabra de Alá, el Exaltado: \"Vuestras hijastras que están en vuestros hogares, de las esposas con quienes habéis consumado el matrimonio; si no habéis consumado el matrimonio con ellas, no hay pecado sobre vosotros.\"",
+          "fr": "Il a dit : « Selon la parole dîre d'Allah, le Très-Haut : “Les filles adoptives qui sont dans vos foyers, parmi les épouses avec lesquelles vous avez consommé le mariage ; si vous n'avez pas consommé le mariage avec elles, il n'y a pas de péché sur vous.” »",
+          "de": "Er sagte: Ausgesagte: Von den Worten Allahs, des Erhabenen: ‚Deine Stieftöchter, die in euren Häusern sind, von den Ehefrauen, mit denen ihr die Ehe vollzogen habt; wenn ihr die Ehe mit ihnen nicht vollzogen habt, so ist keine Sünde auf euch.‘",
+          "ru": "Он сказал: «Из слов Аллаха, Всевышнего: „Ваши падчерицы, которые находятся в ваших домах, от жён, с которыми вы вступили в брак; если же вы не вступили с ними в брак, то на вас нет греха“».",
+          "zh": "他说：真主至高说：‘你们家中的养女，即你们已与其圆房的妻子；若未与其圆房，则你们无咎。’"
+        },
+        "word_start": 98,
+        "word_end": 120
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ عَلِيٌّ ع إِنَّ هَذِهِ مُسْتَثْنَاةٌ وَهَذِهِ مُرْسَلَةٌ وَأُمَّاتُ نِسَائِكُمْ",
+        "translations": {
+          "en": "Ali (peace be upon him) said: Indeed, this [verse] is specific/excluded, and this [verse] is general, and 'the mothers of your wives'.",
+          "ur": "علی (علیہ السلام نے فرمایا: بے شک یہ [آیت] خاص/مستثنیٰ ہے، اور یہ [آیت] عام ہے، اور ''تمہاری بیویوں کی مائیں''۔",
+          "tr": "Ali (aleyhisselam) buyurdu ki: Şüphesiz bu âyet nasihdir, bu âyet ise mütekaddimdir ve 'kocaların anneleri'.",
+          "fa": "علی (علیه السلام) فرمود: این [آیه] خاص استثناء شده] و این [آیه] عام است و «مادران همسرانت».",
+          "id": "Ali (alamahih) berkata: Sesungguhnya, ayat ini khusus/terkecuali, dan ayat ini umum, dan 'para ibu dari istri-istrimu'.",
+          "bn": "আলী (রহ.) বলেছেন: নিশ্চয় এই [আয়াতটি] বিশেষ/বর্জিত, এবং এই [আয়াতটি] সাধারণ, এবং 'তোমাদের স্ত্রীদের মায়ে'",
+          "es": "Ali (la paz sea con él) dijo: En verdad, esta [versículo] es específica/excluida, y esta [versículo] es general, y 'las madres de tus esposas'.",
+          "fr": "Ali (que",
+          "de": "Ali (friede sei mit ihm) sagte: Wahrlich, diese [Stelle] ist spezifisch/ausgeschlossen, und diese [Stelle] ist allgemein, und ‚die Mütter euter deiner Ehefrauen‘.",
+          "ru": "Али (да будет мир с ним) сказал: «Воистину, этот [аят] является конкретным/исключительным, а этот [аят] — общим, и [речь идет о] „матерях ваших жен“.",
+          "zh": "阿里（愿主福安之）说：确实，这节经文是特指的，这节经文是排除的，而这节经文是普遍的，以及“你们的岳母”。"
+        },
+        "word_start": 120,
+        "word_end": 130
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ أَبُو عَبْدِ اللَّهِ ع لِلرَّجُلِ أَمَا تَسْمَعُ مَا يَرَوِي هَذَا عَنْ عَلِيٍّ ع فَلَمَّا قُمْتُ نَدِمْتُ وَقُلْتُ أَيُّ شَيْءٍ صَنَعْتُ يَقُولُ هُوَ قَدْ فَعَلَهُ رَجُلٌ مِنَّا فَلَمْ نَرَ بِهِ بَأْسًا وَأَقُولُ أَنَا قَضَى عَلِيٌّ ع فِيهَا",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) said to the man: Do you not hear what this man narrates from Ali (peace be upon him)? When I stood up, I regretted and said: What have I done? He says: 'A man from us has done this, and we saw no harm in it,' and I say: 'Ali (peace be upon him) ruled regarding it.'",
+          "ur": "ابو عبداللہ (علیہ السلام) نے اس شخص سے کہا: کیا تم نے نہیں سنا کہ یہ شخص علی (علیہ السلام) سے کیا روایت کرتا ہے؟ جب میں کھڑا ہوا تو میں نے پشیمان ہو کر کہا: میں نے کیا کر دیا؟ وہ کہتا ہے: 'ہمارے میں سے ایک شخص نے یہ کام کیا، اور ہم نے اس میں کوئی نقصان نہیں دیکھا'، اور میں کہتا ہوں: 'علی (علیہ السلام) نے اس کے بارے میں فتویٰ دیا ہے'۔",
+          "tr": "Ebu Abdillah (aleyhisselam) adama şöyle dedi: Bu adamın Ali'den (aleyhisselam) naklettiğini işitmiyor musun? Ben ayağa kalktığımda pişman oldum ve dedim ki: Ne yaptım? O da şöyle dedi: 'Bizden bir adam bunu yaptı ve bizde bunda bir zarar görmedik,' ben de dedim ki: 'Ali (aleyhisselam) bunun hakkında hüküm verdi.'",
+          "fa": "ابو عبدالله (علیه السلام) به آن مرد فرمود: آیا نمی‌شنوی که این مرد از علی (علیه السلام) چه روایت می‌کند؟ هنگامی که برخاستم، پشیمان شدم و گفتم: چه کرده‌ام؟ او می‌گوید: «مردی از ما این کار را کرده و ما در آن زیانی ندیدیم»، و من می‌گویم: «علی (علیه السلام) درباره آن حکم کرده است». }  \n\nNote: The JSON format has been adjusted to ensure proper escaping of quotes and newlines. The honorifics and names have been preserved as per the instructions. The translation is faithful to the original text without adding commentary. Spaces between words are omitted as per the Chinese instruction, but since this is Farsi, spaces are retained for readability. If spaces are required to be omitted in Farsi as well, please specify. For now, the translation follows standard Farsi conventions. If you need spaces omitted in Farsi, the text would be: ",
+          "id": "Abu Abdillah (semoga Allah meridhainya) berkata kepada pria itu, \"Apakah kau tidak mendengar apa yang diriwayatkan oleh pria ini dari Ali (semoga Allah meridhainya)?\" Ketika aku berdiri, aku menyesal dan berkata, \"Apa yang telah aku lakukan?\" Ia berkata, \"Seorang pria dari kami telah melakukan ini, dan kami tidak melihat adanya kemudaratan di dalamnya,\" sedangkan aku berkata, \"Ali (semoga Allah meridhainya) telah menetapkan hukum mengenai hal itu.\"",
+          "bn": "আবু আবদিল্লাহ (রহ.) সেই ব্যক্তিকে বললেন: তুমি কি শুনছ না এই ব্যক্তি আলী (রহ.) থেকে যা বর্ণনা করছে? যখন আমি উঠে দাঁড়ালাম, তখন আমি পশ্চাৎপদত্ব বোধ করলাম এবং বললাম: আমি কী করলাম? সে বলল: 'আমাদের মধ্যে একজন এ কাজ করেছে, এবং আমরা এতে কোনো ক্ষতি দেখিনি,' আর আমি বলি: 'আলী (রহ.) এর বিষয়ে ফরমায়েশ করেছেন।'",
+          "es": "Abu Abdillah (la paz sea con él) le dijo al hombre: ¿no oyes lo que este hombre narra de Ali (la paz sea con él)? Cuando me levanté, me arrepentí y dije: ¿Qué he hecho? Él dice: 'Un hombre de nosotros ha hecho esto, y no vimos ningún perjuicio en ello', y yo digo: 'Ali (la paz sea con él) dictaminó al respecto'.",
+          "fr": "Abou Abdillah (que la paix soit sur lui) dit à l'homme : Ne t'arrêtes-tu pas à ce que cet homme rapporte d'Ali (que la paix soit sur lui) ? Lorsque je me suis levé, j'ai regretté et j'ai dit : Qu'ai-je fait ? Il dit : « Un homme de nous a fait cela, et nous n'y avons vu aucun mal », et moi je dis : « Ali (que la paix soit sur lui) a rendu un jugement à ce sujet ».",
+          "de": "Abu Abdillah (friede sei mit ihm) sagte zu dem Mann: Hörst du nicht, was dieser Mann von Ali (friede sei mit ihm) von Ali (friede sei mit ihm) überliefert? Als ich aufstand, bereute ich und sagte: Was habe ich getan? Er sagt: 'Ein Mann von uns hat dies getan, und wir sahen keinen Schaden darin,' und ich sage: 'Ali (friede sei mit ihm) hat darüber entschieden.'",
+          "ru": "Абу Абдуллах (да будет доволен им Аллах) сказал мужчине: Разве ты не слышишь, что этот человек передаёт от Али (да будет доволен им Аллах)? Когда я встал, я сожалею и говорю: Что я сделал? Он говорит: Один из нас сделал это, и мы не увидели в этом вреда, а я говорю: Али (да будет доволен им Аллах) вынес по этому поводу решение.",
+          "zh": "阿布杜拉（愿主喜悦之）对那人说：你没听见这人从阿里（愿主喜悦之）那里传述的内容吗？当我站起来时，我后悔并说：我做了什么？他说：‘我们中有一人做了这件事，我们并未见其有害，’而我说：‘阿里（愿主喜悦之）对此作出了裁决。’"
+        },
+        "word_start": 130,
+        "word_end": 167
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَقِيتُهُ بَعْدَ ذَلِكَ فَقُلْتُ جُعِلْتُ فِدَاكَ إِنَّ مَسْأَلَةَ الرَّجُلِ إِنَّمَا كَانَ الَّذِي كُنْتَ تَقُولُ كَانَ زَلَّةً مِنِّي فَمَا تَقُولُ فِيهَا",
+        "translations": {
+          "en": "I met him later and said: Let me be your ransom, the question of the man was only what you were saying; it was a slip from me. So what do you say about it?",
+          "ur": "میں نے بعد میں اس سے ملاقات کی اور کہا: میری جان فدا ہو آپ پر، اس شخص کا سوال وہی تھا جو آپ کہہ رہے تھے؛ یہ میری طرف سے لغزش تھی۔ تو آپ کا کیا کہنا ہے اس بارے میں؟",
+          "tr": "Daha sonra onunla karşılaştım ve dedim ki: Benim feda olayım, o adamın sorusu sadece senin söylediğin şeydi; benden bir kaygama çıktı. Sen onun hakkında ne dersin?",
+          "fa": "بعداً او را دیدم و گفتم: ای قربانت شوم، پرسش آن مرد همان چیزی بود که تو می‌گفتی؛ لغزشی از جانب من بود. پس تو درباره آن چه می‌گویی؟",
+          "id": "Aku bertemu dengannya kemudian dan berkata: \"Biarkan aku menjadi tebusanmu, pertanyaan pria itu hanyalah apa yang sedang kamu bicarakan; itu adalah keliru dariku.\" Maka apa pendapatmu tentang hal itu?",
+          "bn": "আমি পরে তাঁকে দেখা করলাম এবং বললাম, আমার প্রাণ আপনার জন্য ফদা হোক, ওই মানুষের প্রশ্ন ছিল আপনার যে কথা বলছিলেন, তাই; আমার কাছ থেকে ভুলে গেছে। তাই আপনি এর বিষয়ে কী বলেন?",
+          "es": "Lo encontré más tarde y le dije: Que yo sea tu rescate, la pregunta del hombre era solo lo que tú estabas diciendo; fue un desliz por mi parte. ¿Qué dices tú al respecto?",
+          "fr": "Je l'ai rencontré plus tard et lui dis : Que je sois ta rançon, la question de l'homme n'était que ce que tu disais ; c'était une erreur de ma part. Que dis-tu à ce sujet ?",
+          "de": "Ich traf ihn später und sagte: Lass mich dein Lösegeld sein, die Frage des Mannes war nur das, was du sagtest; es war ein Fehler von mir. Was sagst du dazu?",
+          "ru": "Я встретил его позже и сказал: «Да буду я выкупом за тебя, вопрос этого человека лишь то, что ты говорил; это было упущение с моей стороны». Так что ты скажешь об этом?",
+          "zh": "我后来遇见他后说：愿我为你赎身，那人的问题只是你所说的内容，是我口误。那么你对这件事有何看法？"
+        },
+        "word_start": 167,
+        "word_end": 187
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ يَا شَيْخُ تُخْبِرُنِي أَنَّ عَلِيًّا ع قَضَى فِيهَا وَ تَسْأَلُنِي مَا تَقُولُ فِيهَا فَهَذَانِ الْخَبَرَانِ شَاذَّانِ مُخَالِفَانِ لِظَاهِرِ كِتَابِ اللَّهِ تَعَالَى",
+        "translations": {
+          "en": "He said: O old man, you inform me that Ali (peace be upon him) ruled regarding it, and you ask me what I say about it? These two narrations are divergent, contradicting the apparent meaning of the Book of Allah, the Exalted.",
+          "ur": "انہوں نے کہا: اے بزرگ، تم مجھے بتاتے ہو کہ علی (علیہ السلام) نے اس بارے میں فتویٰ دیا ہے، اور تم مجھ سے پوچھتے ہو کہ میں اس بارے میں کیا کہتا ہوں؟ یہ دو روایات مختلف ہیں، جو ظاہرِ کتابِ اللہ تعالیٰ کے خلاف ہیں۔",
+          "tr": "Dedi ki: Ey ihtiyar, Ali'nin (aleyhisselam) bu konuda hüküm verdiğini bana bildiriyorsun, ben ne derim diye soruyorsun? Bu iki rivayet farklıdır ve Allah'ın (azze ve celle) Kitabının zahir manasına aykırıdır.",
+          "fa": "گفت: ای پیرمرد، تو به من خبر می‌دهی که علی (علیه‌السلام) درباره آن حکم کرده و من را می‌پرسی که من چه می‌گویم؟ این دو روایت متخالفند و با ظاهر کتاب خداوند بلندمرتبه در تضادند.",
+          "id": "Ia berkata, 'Wahai orang tua, engkau memberitahuku bahwa Ali (alamahih) telah memberikan hukum mengenai hal itu, lalu engkau bertanya kepadaku apa pendapatku tentangnya? Kedua riwayat ini berbeda, bertentangan dengan makna zhahir Kitab Allah yang Maha Tinggi.'",
+          "bn": "তিনি বললেন: হে বৃদ্ধ, তুমি আমাকে জানাচ্ছ যে আলী (আ.) এর বিধান দিয়েছেন, এবং তুমি আমাকে প্রশ্ন করছ আমি কী বলি? এই দুটি বর্ণনা পরস্পরবিরোধী, আল্লাহর গ্রন্থের প্রকাশ্য অর্থের বিরোধী।",
+          "es": "Dijo: ¡Oh anciano, tú me informas que Alí (que la paz sea con él) dictaminó al respecto, y tú me preguntas qué digo yo al respecto? Estas dos narraciones son divergentes, contradiciendo el significado aparente del Libro de Allah, el Exaltado.",
+          "fr": "Il dit : « Ô vieil homme, tu m’informes qu’Ali (que la paix soit sur lui) a émis un avis à ce sujet, et tu me demandes ce que j’en dis ? Ces deux narrations divergent et contredisent le sens du Coran, l’Exalté. »",
+          "de": "Er sagte: O Alter, du teilst mir mit, dass Ali (friede sei mit ihm) darüber entschieden hat, und du fragst mich, was ich darüber sage? Diese beiden Überlieferungen sind divergent und widersprechen dem offensichtlichen Sinn des Buches Allahs, des Erhabenen.",
+          "ru": "Он сказал: О старец, ты сообщаешь мне, что Али (да будет мир с ним) вынес решение по этому вопросу, а ты спрашиваешь меня, что я говорю об этом? Эти два предания расходятся, противореча очевидному смыслу Книги Аллаха, Всевышнего.",
+          "zh": "他说：老翁啊，你告诉我阿里（愿主福安之）对此有裁决，却问我对此有何看法？这两段传述相悖，与真主尊经的显义相违。"
+        },
+        "word_start": 187,
+        "word_end": 209
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "قَالَ اللَّهُ تَعَالَى وَأُمَّاتُ نِسَائِكُمْ",
+        "translations": {
+          "en": "Allah, the Exalted, said: 'And the mothers of your wives.'",
+          "ur": "اللہ تعالیٰ نے فرمایا: ''اور تمہاری بیویوں کی مائیں۔\"",
+          "tr": "Allah, az: ",
+          "fa": "خداوند متعال فرمود: «و مادران همسرانت.»",
+          "id": "Allah Ta'ala berfirman: 'Dan ibu-ibu istri-istrimu.'",
+          "bn": "আল্লাহ তাআলা বলেন: 'এবং তোমাদের বিবাহিতাদের মায়েরা।'",
+          "es": "Alá, el Exaltado, dijo: «Y las madres de vuestras esposas.»",
+          "fr": "Allah, le Très-Haut, a dit : « Et les mères de vos épouses. »",
+          "de": "Allah, der Erhabene, sagte: „Und die Mütter eurer Ehefrauen.“",
+          "ru": "Аллах, Всевышний сказал: «И матери ваших жён».",
+          "zh": "真主至高无上说：\"你妻子的母亲。\""
+        },
+        "word_start": 209,
+        "word_end": 214
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَمْ يَشْتَرِطِ الدُّخُولَ بِالْبِنْتِ كَمَا اشْتَرَطَ فِي الْأُمِّ الدُّخُولَ لِتَحْرِيمِ الرَّبِيبَةِ فَيَنْبَغِي أَنْ تَكُونَ الْآيَةَ عَلَى إِطْلَاقِهَا وَلَا يُلْتَفَتَ إِلَى مَا يُخَالِفُهُ وَيُضَادُّهُ لِمَا رُوِيَ عَنْهُمْ ع مَا آتَاكُم مِّنَّا فَاعْرِضُوهُ عَلَى كِتَابِ اللَّهِ فَمَا وَافَقَ كِتَابَ اللَّهِ فَخُذُوا بِهِ وَمَا خَالَفَهُ فَاطْرَحُوهُ",
+        "translations": {
+          "en": "And He did not stipulate consummation with the daughter, as He stipulated consummation with the mother for the prohibition of the step-daughter. Therefore, the verse should be understood as general, and no attention should be paid to what contradicts and opposes it, based on what is narrated from them (peace be upon him): 'Whatever comes to you from us, present it to the Book of Allah; whatever agrees with the Book of Allah, take it; and whatever contradicts it, discard it.'",
+          "ur": "اور اس نے بیٹی سے نکاح کی شرط نہیں لگائی، جیسے اس نے ماں سے نکاح کی شرط لگائی تھی جو بیٹی کی ممانعت کے لیے ہے۔ لہذا آیت کو عام سمجھا جائے گا، اور اس کی مخالفت کرنے والی باتوں پر توجہ نہیں دی جائے گی، جیسا کہ ان سے (علیہ السلام) سے روایت ہے: ''جو کچھ ہم سے آئے، اسے اللہ کی کتاب کے سامنے پیش کرو، جو کچھ اللہ کی کتاب سے موافق ہو اسے لو، اور جو کچھ اس کی مخالفت کرے اسے چھوڑ دو۔''",
+          "tr": "O, kızıyla nikahı şart koşmamıştır; oysa üvey kızın haram kılınması nedeniyle annesiyle nikahı şart koşmuştur. Bu nedenle ayet, onlardan (sallallahu aleyhi vesellem) rivayet edilen: 'Bize gelen her şeyi Allah'ın Kitabına sunun; Allah'ın Kitabına uyanı alın; uymayanı da bırakın.' hadisine dayanarak genel olarak anlaşılmalı ve ona aykırı ve zıt olanlara itibar edilmemelidir.",
+          "fa": "و او نکاح با دختر را شرط نکرد، همان‌گونه که نکاح با مادر را برای حرمت دختر‌زاد شرط کرد. بنابراین، آیه باید به صورت عام فهمیده شود و به آنچه با آن در تضاد و مخالفت است، توجهی نشود، بر اساس آنچه از ایشان (علیهم‌السلام) روایت شده است: «هر چه از ما به شما می‌رسد، آن را به کتاب خدا عرضه کنید؛ هر چه با کتاب خدا موافق است، بگیرید؛ و هر چه با آن مخالف است، رها کنید.»",
+          "id": "Dan Allah tidak mensyariatkan pernikahan dengan putri, sebagaimana Dia mensyariatkan pernikahan dengan ibu untuk keharaman anak tiri. Oleh karena itu, ayat tersebut harus dipahami secara umum, dan tidak perlu memperhatikan apa yang bertentangan dan menentangnya, berdasarkan apa yang diriwayatkan dari mereka (shallallahu 'alaihi wa sallam): 'Apa saja yang datang kepada kalian dari kami, serahkanlah kepada Kitab Allah; apa saja yang sesuai dengan Kitab Allah, ambillah; dan apa saja yang bertentangan dengannya, tinggalkanlah.'",
+          "bn": "আর তিনি কন্যার সাথে বিবাহের সম্পন্ন হওয়ার শর্ত রাখেননি, যেমন তিনি ধাপের কন্যার নিষিদ্ধ হওয়ার কারণে মায়ের সাথে বিবাহের সম্পন্ন হওয়ার শর্ত রেখেছিলেন। অতএব, আয়াটিকে সাধারণভাবে বুঝতে হবে, এবং তাদের নিকট থেকে বর্ণিত হয়েছে: 'আমাদের নিকট থেকে যা আসে, তা আল্লাহর কিতাবে উপস্থাপন করো; যা আল্লাহর কিতাবের সাথে মিলে, তা গ্রহণ করো; এবং যা তার বিরোধী, তা পরিত্যাগ করো।' এই ভিত্তিতে তার বিরোধী ও বিপরীতমুখী বিষয়ের প্রতি মনোযোগ দেওয়া হবে না।",
+          "es": "Y Él no estableció la consumación con la hija, como estableció la consumación con la madre para la prohibición de la hijastra. Por lo tanto, el versículo debe entenderse como general, y no se debe prestar atención a lo que contradice y se opone a él, basándose en lo narrado de ellos (que la paz sea con ellos): 'Lo que venga de nosotros, presentadlo al Libro de Alá; lo que concuerde con el Libro de Alá, tomadlo; y lo que contradiga, desechadlo.'",
+          "fr": "Et Il n'a pas stipulé la consommation avec la fille, comme Il a stipulé la consommation avec la mère pour l'interdiction de la belle-fille. Par conséquent, le verset doit être compris comme général, et il ne faut pas prêter attention à ce qui le contredit et s'y oppose, sur la base de ce qui est rapporté d'eux (que la paix soit sur lui) : « Tout ce qui vous parvient de nous, présentez-le au Livre d'Allah ; tout ce qui est conforme au Livre d'Allah, prenez-le ; et tout ce qui le contredit, rejetez-le. »",
+          "de": "Und Er stipulierte die Vollziehung der Ehe mit der Tochter nicht, so wie Er die Vollziehung der Ehe mit der Mutter für die Unheiligkeit der Stieftochter stipulierte. Daher ist die Vers allgemein zu verstehen, und es ist nicht auf das zu achten, was ihm widerspricht und ihm entgegensteht, basierend auf dem, was von ihnen (Friede sei mit ihm) überliefert wurde: 'Was auch immer von uns zu euch kommt, bringt es zum Buch Allahs; was mit dem Buch Allahs übereinstimmt, nehmt es; und was ihm widerspricht, lasst es fallen.'",
+          "ru": "И Он не установил запрет на вступление в брак с дочерью, как установил запрет на вступление в брак с матерью (ради запрета мачехи). Следовательно, аят следует понимать как общий, и не следует обращать внимание на то, что противоречит ему и opposes ему, основываясь на том, что передано от них (да будет доволен ими Аллах): «Всё, что придёт к вам от нас, сверяйте с Книгой Аллаха; всё, что согласуется с Книгой Аллаха, принимайте; а всё, что противоречит ей, отвергайте».",
+          "zh": "且他并未规定与养女的婚姻为必须，正如他为禁止娶继母而规定与母亲的婚姻为必须。因此，该节经文应理解为普遍适用，不应理会与之相悖和对立的内容，依据从他们（愿主福安之）传述的圣训：‘凡从我们这里传述到你们的内容，都要与真主的经典进行对照；凡与真主的经典相符的，就采纳；凡与真主的经典相悖的，就舍弃。’"
+        },
+        "word_start": 214,
+        "word_end": 257
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَيُمْكِنُ أَنْ يَكُونَ الْخَبَرَانِ وَرَدَا عَلَى ضَرْبٍ مِنَ التَّقِيَّةِ لِأَنَّ ذَلِكَ مَذْهَبُ بَعْضِ الْعَامَّةِ",
+        "translations": {
+          "en": "It is possible that the two narrations came as a form of dissimulation (taqiyyah), because that is the view of some of the Sunni scholars.",
+          "ur": "یہ ممکن ہے کہ دونوں روایات تکیه کی صورت میں آئی ہوں، کیونکہ یہ اہل سنت کے بعض علماء کا موقف ہے۔",
+          "tr": "İki rivayetin takıyye olarak gelmiş olma ihtimali vardır, çünkü bu, Ehl-i Sünnet alimlerinden bazılarının görüşüdür.",
+          "fa": "ممکن است این دو روایت به صورت تقیه آمده باشند، زیرا این دیدگاه برخی از علمای اهل سنت است.",
+          "id": "Mungkin kedua riwayat tersebut datang sebagai bentuk dissimulation (taqiyyah), karena itulah pandangan sebagian ulama Sunni.",
+          "bn": "সূর্য: ",
+          "es": "Es posible que las dos narraciones hayan sido una forma de disimulación (taqiyyah), ya que esa es la opinión de algunos de los eruditos suníes.",
+          "fr": "Il est possible que: ",
+          "de": "Es ist möglich, dass die beiden Überlieferungen als Form der Form der Dissimulation (taqiyyah) entstammen, da dies die Ansicht einiger sunnitischer Gelehrter ist.",
+          "ru": "Возможно, что два предания были переданы в форме таккии, поскольку таков взгляд некоторых суннитских учёных.",
+          "zh": "这两段圣训有可能是以隐遁（塔基亚）的形式传述的，因为这是部分逊尼派学者的观点。"
+        },
+        "word_start": 257,
+        "word_end": 271
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Sadiq (peace be upon him) resolves the apparent contradiction by distinguishing between the specific condition of consummation required for the prohibition of step-daughters (Ribaab) and the absolute prohibition of mothers-in-law (Ummahat), citing the principle that reports contradicting the clear text of the Quran must be set aside. He suggests the earlier permissive report may have been based on *taqiyyah* or a specific context, reinforcing the Shia methodology of prioritizing the Quranic literal meaning (*zahir*) over isolated narrations. This highlights the jurisprudential nuance in al-Istibsar regarding the permanence of marital prohibitions derived from kinship versus contract.",
+        "seo_question": "Does a man need to consummate the marriage with his wife for her mother to become permanently prohibited to him?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "Step-daughters",
+          "أُمَّاتُ نِسَائِكُمْ": "Mothers of your wives",
+          "الدُّخُول": "Consummation of marriage",
+          "التَّقِيَّة": "Dissimulation/prudence in concealment",
+          "شَاذَّانِ": "Divergent/contradictory narrations",
+          "ظَاهِر": "Apparent/general meaning"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (علیہ السلام ظاہری تضاد کو اس طرح حل کرتے ہیں کہ بیٹیوں (ربائب) کی حرمت کے لیے نکاحِ کامل کی شرط خاص ہے جبکہ سسرالی ماؤں (امہات) کی حرمت مطلق ہے، اور قرآن کے صریح نص کے خلاف روایات کو نظر انداز کیا جاتا ہے۔ انہوں نے تجویز کیا کہ ابتدائی جائز روایت تقیہ یا خاص سیاق و سباق پر مبنی ہو سکتی ہے، جو شیعہ طریقہ کار کی تائید کرتا ہے جہاں قرآن کے ظاہر معنی کو واحد روایات پر ترجیح دی جاتی ہے۔ یہ استبصار میں رشتہ داری اور عقد سے ماخوذ نکاحی حرمتوں کی دائمیت کے بارے میں فقہی باریکیوں کو اجاگر کرتا ہے۔",
+        "seo_question": "کیا مرد کی بیوی سے نکاحِ کامل ہونا ضروری ہے تاکہ اس کی ماں اس پر ہمیشہ کے لیے حرام ہو جائے؟",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "بیٹییں",
+          "أُمَّاتُ نِسَائِكُمْ": "بیوں کی ماؤں",
+          "الدُّخُول": "نکاحِ کامل",
+          "التَّقِيَّة": "تقیہ",
+          "شَاذَّانِ": "متضاد روایات",
+          "ظَاهِر": "ظاہر"
+        }
+      },
+      "tr": {
+        "summary": "İmam es-Sadık (aleyhisselam), üvey kızların (Ribaab) haram kılınması için gereken specific cinsî birleşme şartı ile kayınvalidelerin (Ummahat) mutlak haramlığı arasındaki görünürdeki çelişkiyi, Kur'an'ın açık metnine aykırı olan rivayetlerin bir kenara bırakılması prensibine atıfta bulunarak çözer. Daha önceki caiz görülen rivayetin takıyyeye veya özel bir bağlama dayandığını öne sürerek, Şii metodolojisinin Kur'an'ın zahir (açık) anlamını tekil rivayetlerin önünde tutmasını pekiştirir. Bu durum, al-Istibsar'da kanunî akrabalık ile nikah akdi üzerinden türetilen evlilik yasağının kalıcılığına ilişkin fıkıhsal nüansı vurgular.",
+        "seo_question": "Erkeğin karısının annesinin kendisine haram olması için evliliğin cinsî birleşme ile tamamlanması gerekir mi?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "Üvey kızlar",
+          "أُمَّاتُ نِسَائِكُمْ": "Karıların anneleri",
+          "الدُّخُول": "Evliliğin cinsî birleşme ile tamamlanması",
+          "التَّقِيَّة": "Gizleme/örtme sanatı",
+          "شَاذَّانِ": "Çelişkili rivayetler",
+          "ظَاهِر": "Açık/genel anlam"
+        }
+      },
+      "fa": {
+        "summary": "امام صادق (علیه‌السلام با تمایز قائل شدن میان شرط خاص دخول برای حرمت زوجه‌های خاص (ربایب) و حرمت مطلق مادران همسران (امهات)، تضاد ظاهری را حل می‌کند و اصل را بر این می‌داند که روایات مخالف نص صریح قرآن باید کنار گذاشته شوند. او پیشنهاد می‌کند که گزارش اولیه مجاز‌کننده ممکن است بر اساس تقیه یا در یک زمینه خاص بوده باشد که بر روش‌شناسی شیعه در اولویت دادن به معنای ظاهری قرآن نسبت به روایات منفرد تأکید می‌کند. این امر ظرافت فقهی در کتاب الاستبصار را در مورد دائمی بودن حرمت‌های زناشویی ناشی از نسبی بودن در مقابل قراردادی بودن برجسته می‌سازد.",
+        "seo_question": "آیا مرد برای اینکه مادر همسرش برای همیشه بر او حرام شود، باید با همسرش دخول کند؟",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "زن‌دختران",
+          "أُمَّاتُ نِسَائِكُمْ": "مادران همسران شما",
+          "الدُّخُول": "دخول",
+          "التَّقِيَّة": "تقیه",
+          "شَاذَّانِ": "متفرق/متعارض",
+          "ظَاهِر": "ظاهر"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Sadiq (alamah) menyelesaikan kontradiksi yang tampak dengan membedakan antara kondisi spesifik pendewasaan (pendewasaan) yang diperlukan untuk larangan anak tiri (Ribaab) dan larangan mutlak terhadap ibu mertua (Ummahat), dengan mengutip prinsip bahwa laporan yang bertentangan dengan teks jelas Al-Qur'an harus ditinggalkan. Ia menyarankan bahwa laporan yang lebih awal mengizinkan mungkin didasarkan pada *taqiyyah* atau konteks tertentu, memperkuat metodologi Syiah dalam memprioritaskan makna harfiah Al-Qur'an (*zahir*) di atas riwayat tunggal. Ini menyoroti nuansa fikih dalam al-Istibsar mengenai keabadian larangan pernikahan yang berasal dari hubungan kekerabatan versus kontrak.",
+        "seo_question": "Apakah seorang pria perlu mendewasakan pernikahan dengan istrinya agar ibunya menjadi dilarang secara permanen baginya?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "Anak tiri",
+          "أُمَّاتُ نِسَائِكُمْ": "Ibu istri-istrimu",
+          "الدُّخُول": "Pendewasaan pernikahan",
+          "التَّقِيَّة": "Dissimulation/ketelitian dalam penyembunyian",
+          "شَاذَّانِ": "Riwayat divergen/bertentangan",
+          "ظَاهِر": "Makna tampak/umum"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিق (আ.) স্ত্রী-পুত্রী (রবায়েব) নিষিদ্ধ হওয়ার জন্য প্রয়োজনীয় বিবাহের সম্পন্ন হওয়ার নির্দিষ্ট শর্ত এবং শ্বশুরমা (উম্মাহাত) এর পরম নিষিদ্ধতার মধ্যে পার্থক্য করে স্পষ্ট বৈসাদৃশ্য দূর করেন, কোরআনের স্পষ্ট আয়াতের বিরোধী রিওয়ায়াতগুলোকে অবহেলা করা উচিত বলে উল্লেখ করে। তিনি মনে করেন প্রাথমিক অনুমোদনকারী রিওয়ায়াতটি সম্ভবত তাকিয়া বা নির্দিষ্ট প্রেক্ষাপটের উপর ভিত্তি করে ছিল, যা কোরআনের স্পষ্ট অর্থ (যাহির) কে বিচ্ছিন্ন রিওয়ায়াতের উপর অগ্রাধিকার দেওয়ার শিয়া পদ্ধতিকে জোরদার করে। এটি ইস্তিবসার-এর বিচারশাস্ত্রগত সূক্ষ্মতাকে তুলে ধরে, যেখানে রক্তসম্পর্ক বা চুক্তির মাধ্যমে বিবাহের নিষিদ্ধতা স্থায়ী হয়।",
+        "seo_question": "একজন পুরুষের স্ত্রীর সাথে বিবাহ সম্পন্ন (দখল) হলে কি তার মা তার জন্য চিরকাল নিষিদ্ধ হয়ে যায়?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "স্ত্রী-পুত্রী",
+          "أُمَّاتُ نِسَائِكُمْ": "শ্বশুরমা",
+          "الدُّخُول": "বিবাহ সম্পন্ন",
+          "التَّقِيَّة": "তাকিয়া",
+          "شَاذَّانِ": "বিরোধী রিওয়ায়াত",
+          "ظَاهِر": "স্পষ্ট অর্থ"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Sadiq (que la paz sea de él) resuelve la contradicción aparente distinguiendo entre la condición específica de consumación requerida para la prohibición de las hijastras (Ribaab) y la prohibición absoluta de las suegras (Ummahat), citando el principio de que los informes que contradicen el texto claro del Corán deben dejarse a un lado. Sugiere que el informe permisivo anterior podría basarse en la *taqiyyah* o en un contexto específico, reforzando la metodología chií de priorizar el significado literal coránico (*zahir*) sobre las narraciones aisladas. Esto destaca la sutileza jurisprudencial en al-Istibsar respecto a la permanencia de las prohibiciones matrimoniales derivadas del parentesco frente al contrato.",
+        "seo_question": "¿Necesita un hombre consumar el matrimonio con su esposa para que su madre se le vuelva permanentemente prohibida?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "hijasstras",
+          "أُمَّاتُ نِسَائِكُمْ": "madres de tus esposas",
+          "الدُّخُول": "consumación del matrimonio",
+          "التَّقِيَّة": "disimulación/prudencia en el ocultamiento",
+          "شَاذَّانِ": "narraciones divergentes/contradictorias",
+          "ظَاهِر": "significado aparente/general"
+        }
+      },
+      "fr": {
+        "summary": "L'imam al-Sadiq (que la paix soit sur lui) résout la contradiction apparente en distinguant la condition spécifique de la consommation du mariage requise pour l'interdiction des belles-filles (Ribaab) de l'interdiction absolue des mères des épouses (Ummahat), citant le principe selon lequel les rapports qui contredisent le texte clair du Coran doivent être écartés. Il suggère que le rapport permissif antérieur pouvait être basé sur la *taqiyyah* ou un contexte spécifique, renforçant la méthodologie chiite qui privilégie le sens littéral coranique (*zahir*) par rapport aux narrations isolées. Cela met en lumière la nuance jurisprudentielle dans l'Istibsar concernant la permanence des interdictions matrimoniales dérivées de la parenté par rapport au contrat.",
+        "seo_question": "Un homme doit-il consommer le mariage avec sa femme pour que sa mère lui devienne définitivement interdite ?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "belle-filles",
+          "أُمَّاتُ نِسَائِكُمْ": "mères de vos épouses",
+          "الدُّخُول": "consommation du mariage",
+          "التَّقِيَّة": "dissimulation/prudence dans le fait de se cacher",
+          "شَاذَّانِ": "narrations divergentes/contradictoires",
+          "ظَاهِر": "sens apparent/général"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Sadiq (Friede sei mit ihm) löst den scheinbaren Widerspruch auf, indem er zwischen der spezifischen Bedingung der Eheschließung (Vollzug), die für das Verbot der Stieftöchter (Ribaab) erforderlich ist, und dem absoluten Verbot der Schwiegermütter (Ummahat) unterscheidet. Er beruft sich auf das Prinzip, dass Berichte, die dem klaren Text des Korans widersprechen, beiseite gelassen werden müssen. Er schlägt vor, dass der frühere, erlaubende Bericht auf *Taqiyya* oder einen spezifischen Kontext zurückgehen könnte, was die schiitische Methodik der Priorisierung der wörtlichen Bedeutung des Korans (*Zahir*) über isolierte Überlieferungen unterstreicht. Dies verdeutlicht die juristische Nuance in al-Istibsar hinsichtlich der Dauerhaftigkeit ehelicher Verbote, die aus Verwandtschaft oder Vertrag abgeleitet werden.",
+        "seo_question": "Muss ein Mann die Ehe mit seiner Frau vollziehen, damit ihre Mutter für ihn dauerhaft verboten ist?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "Stieftöchter",
+          "أُمَّاتُ نِسَائِكُمْ": "Mütter eurer Frauen",
+          "الدُّخُول": "Eheschließung/Vollzug",
+          "التَّقِيَّة": "Taqiyya",
+          "شَاذَّانِ": "Abweichende/ widersprüchliche Überlieferungen",
+          "ظَاهِر": "Offenbarer/ allgemeiner Sinn"
+        }
+      },
+      "ru": {
+        "summary": "Имам ас-Садык (да будет над ним мир) разрешает кажущееся противоречие, проводя различие между конкретным условием брачного соития, необходимым для запрета мачех (Рибааб), и абсолютным запретом тещ (Уммат), ссылаясь на принцип, согласно которому сообщения, противоречащие ясному тексту Корана, должны быть оставлены в стороне. Он предполагает, что более раннее разрешение могло основываться на такийе или специфическом контексте, что укрепляет шиитскую методологию приоритета буквального значения Корана (заahir) над изолированными преданиями. Это подчеркивает юриспруденциальный нюанс в аль-Истисбаре относительно постоянства брачных запретов, вытекающих из родства, в отличие от запретов, возникающих из контракта.",
+        "seo_question": "Нужно ли мужу вступить в брачные отношения со своей женой, чтобы ее мать стала навсегда запрещенной для него?",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "падчерицы",
+          "أُمَّاتُ نِسَائِكُمْ": "матери ваших жен",
+          "الدُّخُول": "брачное соитие",
+          "التَّقِيَّة": "такыйя",
+          "شَاذَّانِ": "расходящиеся/противоречащие предания",
+          "ظَاهِر": "явное/общее значение"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目萨迪克（愿主福安之）通过区分禁止继女（雷巴布）所需的特定同房条件与禁止岳母（乌玛特）的绝对性，解决了表面上的矛盾，并引用了与《古兰经》明确经文相悖的圣训应被搁置的原则。他建议早期允许性的圣训可能基于塔基亚或特定背景，从而强化了什叶派优先于孤立圣训的《古兰经》字面意义（扎希尔）的方法论。这突显了《伊斯特巴萨尔》中关于基于亲属关系与契约的婚姻禁忌永久性的法理细微差别。",
+        "seo_question": "男子与妻子同房后，其岳母才永久禁止与他结婚吗？",
+        "key_terms": {
+          "رَبَائِبُكُمُ": "继女",
+          "أُمَّاتُ نِسَائِكُمْ": "妻子的母亲",
+          "الدُّخُول": "同房",
+          "التَّقِيَّة": "塔基亚（隐忍/掩饰）",
+          "شَاذَّانِ": "相悖的圣训",
+          "ظَاهِر": "字面意义"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "4:23",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا رَوَاهُ مُحَمَّدُ بْنُ يَعْقُوبَ عَنْ أَبِي عَلِيٍّ الْأَشْعَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ وَ مُحَمَّدِ بْنِ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ مَنْصُورِ بْنِ حَازِمٍ قَالَ كُنْتُ عِنْدَ أَبِي عَبْدِ اللَّهِ ع فَأَتَاهُ رَجُلٌ فَسَأَلَهُ عَنْ رَجُلٍ تَزَوَّجَ امْرَأَةً فَمَاتَتْ قَبْلَ أَنْ يَدْخُلَ بِهَا أَ يَتَزَوَّجُ بِأُمِّهَا فَقَالَ أَبُو عَبْدِ اللَّهِ ع قَدْ فَعَلَهُ رَجُلٌ مِنَّا فَلَمْ نَرَ بِهِ بَأْسًا فَقُلْتُ جُعِلْتُ فِدَاكَ مَا تَفْخَرُ الشِّيعَةُ إِلَّا بِقَضَاءِ عَلِيٍّ ع فِي هَذِهِ الشُّمَخِيَّةِ الَّتِي أَفْتَاهَا ابْنُ مَسْعُودٍ أَنَّهُ لَا بَأْسَ بِذَلِكَ ثُمَّ إِنَّ عَلِيًّا ع سَأَلَهُ فَقَالَ لَهُ عَلِيٌّ ع مِنْ أَيْنَ أَخَذْتَهَا فَقَالَ مِنْ قَوْلِ اللَّهِ تَعَالَى رَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُمْ مِنْ نِسَائِكُمُ اللَّاتِي دَخَلْتُمْ بِهِنَّ فَإِنْ لَمْ تَكُونُوا دَخَلْتُمْ بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ فَقَالَ عَلِيٌّ ع إِنَّ هَذِهِ مُسْتَثْنَاةٌ وَهَذِهِ مُرْسَلَةٌ وَأُمَّاتُ نِسَائِكُمْ فَقَالَ أَبُو عَبْدِ اللَّهِ ع لِلرَّجُلِ أَمَا تَسْمَعُ مَا يَرَوِي هَذَا عَنْ عَلِيٍّ ع فَلَمَّا قُمْتُ نَدِمْتُ وَقُلْتُ أَيُّ شَيْءٍ صَنَعْتُ يَقُولُ هُوَ قَدْ فَعَلَهُ رَجُلٌ مِنَّا فَلَمْ نَرَ بِهِ بَأْسًا وَأَقُولُ أَنَا قَضَى عَلِيٌّ ع فِيهَا فَلَقِيتُهُ بَعْدَ ذَلِكَ فَقُلْتُ جُعِلْتُ فِدَاكَ إِنَّ مَسْأَلَةَ الرَّجُلِ إِنَّمَا كَانَ الَّذِي كُنْتَ تَقُولُ كَانَ زَلَّةً مِنِّي فَمَا تَقُولُ فِيهَا فَقَالَ يَا شَيْخُ تُخْبِرُنِي أَنَّ عَلِيًّا ع قَضَى فِيهَا وَ تَسْأَلُنِي مَا تَقُولُ فِيهَا فَهَذَانِ الْخَبَرَانِ شَاذَّانِ مُخَالِفَانِ لِظَاهِرِ كِتَابِ اللَّهِ تَعَالَى قَالَ اللَّهُ تَعَالَى وَأُمَّاتُ نِسَائِكُمْ وَلَمْ يَشْتَرِطِ الدُّخُولَ بِالْبِنْتِ كَمَا اشْتَرَطَ فِي الْأُمِّ الدُّخُولَ لِتَحْرِيمِ الرَّبِيبَةِ فَيَنْبَغِي أَنْ تَكُونَ الْآيَةَ عَلَى إِطْلَاقِهَا وَلَا يُلْتَفَتَ إِلَى مَا يُخَالِفُهُ وَيُضَادُّهُ لِمَا رُوِيَ عَنْهُمْ ع مَا آتَاكُم مِّنَّا فَاعْرِضُوهُ عَلَى كِتَابِ اللَّهِ فَمَا وَافَقَ كِتَابَ اللَّهِ فَخُذُوا بِهِ وَمَا خَالَفَهُ فَاطْرَحُوهُ وَيُمْكِنُ أَنْ يَكُونَ الْخَبَرَانِ وَرَدَا عَلَى ضَرْبٍ مِنَ التَّقِيَّةِ لِأَنَّ ذَلِكَ مَذْهَبُ بَعْضِ الْعَامَّةِ",
+    "isnad_matn": {
+      "isnad_ar": "وَمَا رَوَاهُ مُحَمَّدُ بْنُ يَعْقُوبَ عَنْ أَبِي عَلِيٍّ الْأَشْعَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ وَ مُحَمَّدِ بْنِ إِسْمَاعِيلَ عَنِ الْفَضْلِ بْنِ شَاذَانَ عَنْ صَفْوَانَ بْنِ يَحْيَى عَنْ مَنْصُورِ بْنِ حَازِمٍ قَالَ كُنْتُ عِنْدَ أَبِي عَبْدِ اللَّهِ ع",
+      "matn_ar": "فَأَتَاهُ رَجُلٌ فَسَأَلَهُ عَنْ رَجُلٍ تَزَوَّجَ امْرَأَةً فَمَاتَتْ قَبْلَ أَنْ يَدْخُلَ بِهَا أَ يَتَزَوَّجُ بِأُمِّهَا فَقَالَ أَبُو عَبْدِ اللَّهِ ع قَدْ فَعَلَهُ رَجُلٌ مِنَّا فَلَمْ نَرَ بِهِ بَأْسًا فَقُلْتُ جُعِلْتُ فِدَاكَ مَا تَفْخَرُ الشِّيعَةُ إِلَّا بِقَضَاءِ عَلِيٍّ ع فِي هَذِهِ الشُّمَخِيَّةِ الَّتِي أَفْتَاهَا ابْنُ مَسْعُودٍ أَنَّهُ لَا بَأْسَ بِذَلِكَ ثُمَّ إِنَّ عَلِيًّا ع سَأَلَهُ فَقَالَ لَهُ عَلِيٌّ ع مِنْ أَيْنَ أَخَذْتَهَا فَقَالَ مِنْ قَوْلِ اللَّهِ تَعَالَى رَبَائِبُكُمُ اللَّاتِي فِي حُجُورِكُمْ مِنْ نِسَائِكُمُ اللَّاتِي دَخَلْتُمْ بِهِنَّ فَإِنْ لَمْ تَكُونُوا دَخَلْتُمْ بِهِنَّ فَلَا جُنَاحَ عَلَيْكُمْ فَقَالَ عَلِيٌّ ع إِنَّ هَذِهِ مُسْتَثْنَاةٌ وَهَذِهِ مُرْسَلَةٌ وَأُمَّاتُ نِسَائِكُمْ فَقَالَ أَبُو عَبْدِ اللَّهِ ع لِلرَّجُلِ أَمَا تَسْمَعُ مَا يَرَوِي هَذَا عَنْ عَلِيٍّ ع فَلَمَّا قُمْتُ نَدِمْتُ وَقُلْتُ أَيُّ شَيْءٍ صَنَعْتُ يَقُولُ هُوَ قَدْ فَعَلَهُ رَجُلٌ مِنَّا فَلَمْ نَرَ بِهِ بَأْسًا وَأَقُولُ أَنَا قَضَى عَلِيٌّ ع فِيهَا فَلَقِيتُهُ بَعْدَ ذَلِكَ فَقُلْتُ جُعِلْتُ فِدَاكَ إِنَّ مَسْأَلَةَ الرَّجُلِ إِنَّمَا كَانَ الَّذِي كُنْتَ تَقُولُ كَانَ زَلَّةً مِنِّي فَمَا تَقُولُ فِيهَا فَقَالَ يَا شَيْخُ تُخْبِرُنِي أَنَّ عَلِيًّا ع قَضَى فِيهَا وَ تَسْأَلُنِي مَا تَقُولُ فِيهَا فَهَذَانِ الْخَبَرَانِ شَاذَّانِ مُخَالِفَانِ لِظَاهِرِ كِتَابِ اللَّهِ تَعَالَى قَالَ اللَّهُ تَعَالَى وَأُمَّاتُ نِسَائِكُمْ وَلَمْ يَشْتَرِطِ الدُّخُولَ بِالْبِنْتِ كَمَا اشْتَرَطَ فِي الْأُمِّ الدُّخُولَ لِتَحْرِيمِ الرَّبِيبَةِ فَيَنْبَغِي أَنْ تَكُونَ الْآيَةَ عَلَى إِطْلَاقِهَا وَلَا يُلْتَفَتَ إِلَى مَا يُخَالِفُهُ وَيُضَادُّهُ لِمَا رُوِيَ عَنْهُمْ ع مَا آتَاكُم مِّنَّا فَاعْرِضُوهُ عَلَى كِتَابِ اللَّهِ فَمَا وَافَقَ كِتَابَ اللَّهِ فَخُذُوا بِهِ وَمَا خَالَفَهُ فَاطْرَحُوهُ وَيُمْكِنُ أَنْ يَكُونَ الْخَبَرَانِ وَرَدَا عَلَى ضَرْبٍ مِنَ التَّقِيَّةِ لِأَنَّ ذَلِكَ مَذْهَبُ بَعْضِ الْعَامَّةِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مَا رَوَاهُ مُحَمّدُ بنُ يَعقُوبَ عَن أَبِي عَلِيّ الأشَعرَيِ ّ عَن مُحَمّدِ بنِ عَبدِ الجَبّارِ",
+          "name_en": "Muhammad b. Ya'qub b. Ilyas al-Ash'ari b. Muhammad b. Abd al-Jabbar",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مُحَمّدِ بنِ إِسمَاعِيلَ",
+          "name_en": "Muhammad ibn Ismail",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 17
+        },
+        {
+          "name_ar": "الفَضلِ بنِ شَاذَانَ عَن صَفوَانَ بنِ يَحيَي عَن مَنصُورِ بنِ حَازِمٍ",
+          "name_en": "al-Fadl b. Shadhan b. Safwan b. Yahya b. Mansur b. Hazim",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "كِتَابُ اللَّهِ",
+        "phrase_en": "The Book of Allah (Quran)",
+        "category": "theological_concept"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

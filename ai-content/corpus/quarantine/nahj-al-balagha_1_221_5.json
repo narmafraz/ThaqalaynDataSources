@@ -1,0 +1,301 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:221:5",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[1] name_ar has 20 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'طُولِ عَهْدِهِمْ، وَلاَ بُعْدِ مَحَلِّهِمْ، عَمِيَتْ أخْبَار'"
+  ],
+  "result": {
+    "tags": [
+      "social_relations",
+      "theology"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "community",
+      "friendship",
+      "death_dying",
+      "neighbors"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَمَا عَنْ طُولِ عَهْدِهِمْ، وَلاَ بُعْدِ مَحَلِّهِمْ، عَمِيَتْ أَخْبَارُهُمْ، وَصَمَّتْ دِيَارُهُمْ، وَلَكِنَّهُمْ سُقُوا كَأْساً بَدَّلَتْهُمْ بِالنُّطْقِ خَرَساً، وَبِالسَّمْعِ صَمَماً، وَبِالْحَرَكَاتِ سُكُوناً، فَكَأَنَّهُمْ فِي ارْتِجَالِ الصِّفَةِ صَرْعَى سُبَات، جِيرَانٌ لاَ يَتَأَنَّسُونَ، وَأَحِبَّاءُ لاَ يَتَزَاوَرُونَ، بَلِيَتْ بَيْنَهُمْ عُرَا التَّعَارُفِ، وَانْقَطَعَتْ مِنْهُمْ أَسْبَابُ الأَخَاءِ، فَكُلُّهُمْ وَحِيدٌ وَهُمْ جَمِيعٌ، وَبِجَانِبِ الْهَجْرِ وَهُمْ أَخِلَّاءُ، لاَ يَتَعَارَفُونَ لَيْلَ صَبَاحاً، وَلاَ لِنَهَارٍ مَسَاءً.",
+        "translations": {
+          "en": "Their accounts are unknown and their houses are silent, not because of length of time or distance of place, but because they have been made to drink the cup (of death) which has changed their speech into dumbness, their hearing into deafness and their movements into stillness. It seems as though they are fallen in slumber. They are neighbours not feeling affection for each other, or friends who do not meet each other. The bonds of their knowing each other have been worn out and the connections of their friendship have been cut asunder. Everyone of them is therefore alone although they are a group, and they are strangers, even though friends. They are unaware of morning after a night and of evening after a day.",
+          "ur": "ان کی خبریں غائب اور ان کے گھر خاموش ہو گئے، نہ کہ اس لیے کہ ان کے قیام کا عرصہ طویل ہو گیا تھا یا ان کے ٹھکانے دور ہو گئے تھے، بلکہ اس لیے کہ انہیں موت کا جام پلایا گیا جس نے ان کی بول چال کو خاموشی، ان کی سماعت کو کرپن اور ان کی حرکات کو سکون میں بدل دیا۔ گویا وہ غش کی حالت میں گرے ہوئے ہیں۔ وہ پڑوسی ہیں لیکن ایک دوسرے سے محبت محسوس نہیں کرتے، یا دوست ہیں لیکن ایک دوسرے سے ملتے نہیں۔ ان کی پہچان کے رشتے کھو چکے ہیں اور ان کی دوستی کے بندھن ٹوٹ گئے ہیں۔ لہذا ہر ایک اکیلا ہے حالانکہ وہ سب ایک گروہ ہیں، اور وہ اجنبی ہیں حالانکہ دوست ہیں۔ وہ رات کے بعد صبح اور دن کے بعد شام کو نہیں جانتے۔",
+          "tr": "Hikâyeleri meçhul ve evleri sessizdir; bu, uzun süre veya uzak yer yüzünden değil, onlara içirilen o kâs-ı mevtin onlara konuşma yerine sessizliği, işitme yerine sağırılığı ve hareket yerine sükûneti getirmesindendir. Tıpkı uykuda kalmış gibi görünürler. Birbirlerine sevgi duymayan komşular ve birbirleriyle görüşmeyen dostlardır. Aralarındaki tanıma bağları aşınmış ve kardeşlik ilişkileri kopmuştur. Dolayısıyla hepsi bir grup olmalarına rağmen yalnızdır ve dost olmalarına rağmen garip/gariptirler. Geceden sonra sabahı ve günden sonra akşamı bilmezler.",
+          "fa": "اخبارشان ناشناخته و خانه‌هایشان خاموش شده است، نه به سبب طولانی بودن زمان و نه به سبب دوری مکان، بلکه به این دلیل که جامی نوشانده‌اند که سخنشان را به خاموشی و شنوایشان را به کرّتی و حرکاتشان را به سکون بدل کرده است. گویی در خواب غفلت فرو رفته‌اند. همسایگانی که با یکدیگر انس نمی‌گیرند و دوستانی که با یکدیگر دیدار نمی‌کنند. پیوندهای آشنایی‌شان فرسوده شده و روابط دوستی‌شان گسسته است. پس هر یک از آنان تنهاست با اینکه گروهی‌اند، و بیگانه‌اند با اینکه دوستان‌اند. صبح را پس از شب و شام را پس از روز نمی‌شناسند.",
+          "id": "Kabar mereka tidak diketahui dan rumah-rumah mereka sunyi, bukan karena lamanya waktu atau jauhnya tempat, melainkan karena mereka telah diminum cawan (kematian) yang telah mengubah ucapan mereka menjadi bisu, pendengaran mereka menjadi tuli, dan gerakan mereka menjadi diam. Seakan-akan mereka terlelap dalam tidur. Mereka adalah tetangga yang tidak saling mengasihi, atau teman yang tidak saling bertemu. Ikatan saling mengenal di antara mereka telah aus, dan tali persahabatan telah terputus. Maka masing-masing dari mereka sendirian meskipun mereka adalah sekumpulan orang, dan mereka menjadi orang asing meskipun mereka adalah teman. Mereka tidak saling mengenal pagi setelah malam, dan senja setelah siang.",
+          "bn": "তাদের বর্ণনা অজ্ঞাত এবং তাদের আবাসস্থল নীরব, সময়ের দীর্ঘতা বা স্থানের দূরত্বের কারণে নয়, বরং কারণ তারা মৃত্যুর কাপ পান করেছেন যা তাদের বাকশক্তিকে মূঢ়তায়, শ্রুতিকে কর্ণশূন্যতায় এবং গতিশীলতাকে স্থিরতায় পরিণত করেছে। মনে হয় যেন তারা ঘুমিয়ে পড়েছেন। তারা প্রতিবেশী হলেও পরস্পরের প্রতি আন্তরিকতা অনুভব করেন না, অথবা বন্ধু হলেও একে অপরের সাথে সাক্ষাৎ করেন না। তাদের পরিচয়ের বন্ধন ক্ষয়প্রাপ্ত হয়েছে এবং বন্ধুত্বের সম্পর্ক ছিন্নভিন্ন হয়েছে। তাই প্রত্যেকে একা, যদিও তারা একটি দল, এবং তারা বিদেশী, যদিও বন্ধু। তারা রাতির পর সকাল এবং দিনের পর সন্ধ্যা সম্পর্কে অবহিত নন।",
+          "es": "Sus crónicas son desconocidas y sus moradas están silenciosas, no por la longitud del tiempo ni por la distancia del lugar, sino porque han sido hechos beber la copa (de la muerte) que ha cambiado su habla en mudez, su oído en sordera y sus movimientos en quietud. Parece como si estuvieran caídos en sueño. Son vecinos que no se sienten afecto el uno por el otro, o amigos que no se encuentran. Los lazos de su conocimiento mutuo se han desgastado y las conexiones de su amistad se han roto. Por tanto, cada uno de ellos está solo aunque sean un grupo, y son extraños, a pesar de ser amigos. No se conocen por la mañana después de la noche ni por la tarde después del día.",
+          "fr": "Leurs nouvelles sont ignorées et leurs demeures sont silencieuses, non point à cause de la longueur du temps ou de l'éloignement du lieu, mais parce qu'ils ont bu la coupe (de la mort) qui a transformé leur parole en muétisme, leur ouïe en surdité et leurs mouvements en immobilité. On dirait qu'ils sont tombés en un profond sommeil. Ce sont des voisins qui ne se portent plus d'affection, ou des amis qui ne se rencontrent plus. Les liens de leur connaissance mutuelle se sont usés et les attaches de leur amitié ont été rompues. Chacun d'eux est donc seul bien qu'ils soient un groupe, et ils sont étrangers bien qu'ils soient amis. Ils ne se connaissent pas du soir au matin ni de l'aube au crépuscule.",
+          "de": "Ihre Berichte sind unbekannt und ihre Häuser sind still, nicht wegen der Länge der Zeit oder der Ferne des Ortes, sondern weil sie den Kelch (des Todes) getrunken haben, der ihre Rede in Stummheit, ihr Gehör in Taubheit und ihre Bewegungen in Ruhe verwandelt hat. Es ist, als lägen sie in einem Tiefschlaf. Sie sind Nachbarn, die sich keine Zuneigung schenken, oder Freunde, die sich nicht begegnen. Die Bande ihrer Bekanntschaft sind abgenutzt und die Fäden ihrer Freundschaft sind zerrissen. Jeder von ihnen ist daher allein, obwohl sie eine Gruppe sind, und sie sind Fremde, obwohl sie Freunde sind. Sie kennen den Morgen nach der Nacht nicht und den Abend nach dem Tag nicht.",
+          "ru": "Их вести стали неизвестны, а жилища их замолчали, не из-за долгого времени или дальности места, но потому, что они были напоены чашей (смерти), которая обратила их речь в немоту, слух в глухоту, а движения в неподвижность. И кажется, будто они лежат в глубоком сне, как падшие. Это соседи, не испытывающие друг к другу привязанности, и друзья, которые не встречаются. Узы взаимного узнавания между ними истлели, а нити дружбы порвались. Поэтому каждый из них одинок, хотя их много, и они чужие, хотя и друзья. Они не узнают утро после ночи и вечер после дня.",
+          "zh": "他们的消息不为人知，他们的居所寂静无声，这并非因为时间久远或距离遥远，而是因为他们饮下了那杯（死亡之酒），使他们的言语变为哑默，听觉变为聋聩，动作变为静止。他们仿佛沉睡不醒，是互不亲昵的邻居，是互不往来的朋友。他们相识的纽带已经磨损，友谊的联系已经断绝。因此，他们虽为一群，却各自孤独；虽为朋友，却形同陌路。他们不知夜尽之后是清晨，亦不知日暮之后是傍晚。"
+        },
+        "word_start": 0,
+        "word_end": 56
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shia scholars interpret this passage as a critique of the companions' spiritual stagnation following the Prophet's death, where the 'cup' symbolizes the divine decree or consequence that rendered them mute and immobile in their duties. The text vividly portrays their social fragmentation, noting that despite physical proximity, the bonds of *mu'akhat* (brotherhood) and *ta'ruf* (mutual recognition) had withered, leaving them isolated in their collective silence.",
+        "seo_question": "What is the meaning of the 'cup' that caused silence and stillness in Nahj al-Balagha?",
+        "key_terms": {
+          "عُمَا": "became blind/unknown",
+          "صَمَّتْ": "became silent",
+          "سُقُوا كَأْساً": "they were made to drink a cup",
+          "النُّطْقِ": "speech",
+          "خَرَساً": "dumbness",
+          "الصَّمَمَ": "deafness",
+          "السُّكُونِ": "stillness",
+          "صَرْعَى سُبَات": "fallen in slumber",
+          "التَّعَارُفِ": "mutual recognition/knowing",
+          "الأَخَاءِ": "brotherhood/friendship",
+          "الْهَجْرِ": "estrangement/abandonment",
+          "الأَخِلَّاءُ": "close friends"
+        }
+      },
+      "ur": {
+        "summary": "شیعہ علماء اس آیت کو نبی کریم ﷺ کی وفات کے بعد صحابہ کرام کی روحانی جمود کی تنقید کے طور پر تشریح کرتے ہیں، جہاں 'کاسہ' الہیٰ حکم یا نتیجے کی علامت ہے جس نے انہیں اپنے فرائض میں خاموش اور بے حرکت کر دیا۔ متن ان کی سماجی بکھراؤ کو واضح طور پر پیش کرتا ہے، یہ نوٹ کرتے ہوئے کہ جسمانی قربت کے باوجود، اخوت اور باہمی شناخت کے رشتے مدہم ہو گئے، جس نے انہیں اجتماعی خاموشی میں تنہا چھوڑ دیا۔",
+        "seo_question": "نہج البلاغہ میں خاموشی اور سکون کا سبب بننے والا 'کاسہ' کیا ہے؟",
+        "key_terms": {
+          "عُمَا": "اندھا ہو جانا/نامعلوم ہو جانا",
+          "صَمَّتْ": "خاموش ہو جانا",
+          "سُقُوا كَأْساً": "انہیں کاسہ پلائی گئی",
+          "النُّطْقِ": "بولنا",
+          "خَرَساً": "خاموشی",
+          "الصَّمَمَ": "بہرا پن",
+          "السُّكُونِ": "سکون",
+          "صَرْعَى سُبَات": "نیند میں گر جانا",
+          "التَّعَارُفِ": "باہمی شناخت",
+          "الأَخَاءِ": "بھائی چارہ/دوستی",
+          "الْهَجْرِ": "جدائی/چھوڑ دینا",
+          "الأَخِلَّاءُ": "قریبی دوست"
+        }
+      },
+      "tr": {
+        "summary": "Şia alimleri, bu ayeti Peygamber'in vefatından sonra sahabelerin manevi donukluğuna yönelik bir eleştiri olarak yorumlar; burada 'kupa', ilahi hüküm veya sonuç anlamına gelir ve onları görevlerinde susturur ve hareketsiz bırakır. Metin, onların sosyal parçalanmasını canlı bir şekilde betimler; fiziksel yakınlıklarına rağmen, *mu'akhat* (kardeşlik) ve *ta'ruf* (karşılıklı tanıma) bağları solmuş, bu da onları kolektif sessizliklerinde yalnız bırakmıştır. } ",
+        "seo_question": "Nahcülbelâgâ'da susturan ve hareketsizleştiren 'kupa'nın anlamı nedir?",
+        "key_terms": {
+          "عُمَا": "körleşti/bilinmez hale geldi",
+          "صَمَّتْ": "sustı",
+          "سُقُوا كَأْساً": "bir kupa içirildi",
+          "النُّطْقِ": "konuşma",
+          "خَرَساً": "dilsizlik",
+          "الصَّمَمَ": "sağırlık",
+          "السُّكُونِ": "hareketsizlik",
+          "صَرْعَى سُبَات": "uykuda kalmış",
+          "التَّعَارُفِ": "karşılıklı tanıma",
+          "الأَخَاءِ": "kardeşlik",
+          "الْهَجْرِ": "ayrılık",
+          "الأَخِلَّاءُ": "yakın dostlar"
+        }
+      },
+      "fa": {
+        "summary": "محققان شیعه این آیه را نقدی بر رکود معنوی یاران پس از رحلت پیامبر می‌دانند که در آن «جام» نماد حکم الهی یا پیامدی است که آنان را در انجام وظایف خود خاموش و بی‌حرکت کرد. متن به وضوع تفرقه اجتماعی آنان را به تصویر می‌کشد و اشاره می‌کند که علی‌رغم نزدیکی فیزیکی، پیوندهای مؤاخات (برادری) و تعارف (شناخت متقابل) خشکیده بود و آنان را در سکوت جمعی‌شان تنها گذاشته است.",
+        "seo_question": "معنای «جام»ی که در نهج‌البلاغه باعث سکوت و بی‌حرکتی شد چیست؟",
+        "key_terms": {
+          "عُمَا": "کوری/ناشناخته شدن",
+          "صَمَّتْ": "خاموش شدن",
+          "سُقُوا كَأْساً": "آنها را به نوشیدن جامی واداشتند",
+          "النُّطْقِ": "سخن گفتن",
+          "خَرَساً": "خرسگی",
+          "الصَّمَمَ": "کرگی",
+          "السُّكُونِ": "بی‌حرکتی",
+          "صَرْعَى سُبَات": "خفته در خواب",
+          "التَّعَارُفِ": "شناخت متقابل",
+          "الأَخَاءِ": "برادری/دوستی",
+          "الْهَجْرِ": "قهر/رها کردن",
+          "الأَخِلَّاءُ": "دوستان نزدیک"
+        }
+      },
+      "id": {
+        "summary": "Para ulama Syiah menafsirkan ayat ini sebagai kritik terhadap kemunduran spiritual para sahabat setelah wafatnya Nabi, di mana 'cawan' melambangkan ketetapan ilahi atau konsekuensi yang membuat mereka bisu dan diam dalam menjalankan kewajiban. Teks ini menggambarkan dengan jelas fragmentasi sosial mereka, mencatat bahwa meskipun secara fisik berdekatan, ikatan *mu'akhat* (persaudaraan) dan *ta'ruf* (saling mengenal) telah layu, meninggalkan mereka terisolasi dalam keheningan kolektif.",
+        "seo_question": "Apa makna 'cawan' yang menyebabkan keheningan dan kebisuan dalam Nahj al-Balagha?",
+        "key_terms": {
+          "عُمَا": "buta/tidak diketahui",
+          "صَمَّتْ": "menjadi bisu",
+          "سُقُوا كَأْساً": "mereka diberi minum sebuah cawan",
+          "النُّطْقِ": "bicara",
+          "خَرَساً": "bisu",
+          "الصَّمَمَ": "tuli",
+          "السُّكُونِ": "diam",
+          "صَرْعَى سُبَات": "terlelap dalam tidur",
+          "التَّعَارُفِ": "saling mengenal",
+          "الأَخَاءِ": "persaudaraan",
+          "الْهَجْرِ": "pemisahan",
+          "الأَخِلَّاءُ": "teman dekat"
+        }
+      },
+      "bn": {
+        "summary": "শিয়া পণ্ডিতগণ এই আয়াতকে নবীজির মৃত্যুর পর সাহাবীদের আধ্যাত্মিক স্থবিরতার সমালোচনা হিসেবে ব্যাখ্যা করেন, যেখানে 'কাপ'টি ঈশ্বরের বিধান বা পরিণামকে প্রতীকীভাবে নির্দেশ করে, যা তাদের কর্তব্যে মৌন ও স্থির করে দেয়। পাঠ্যটি তাদের সামাজিক বিচ্ছিন্নতা স্পষ্টভাবে চিত্রিত করে, উল্লেখ করে যে শারীরিক নৈকট্য সত্ত্বেও *মুআখাত* (ভ্রাতৃত্ব) এবং *তা'রুফ* (পারস্পরিক পরিচয়) এর বন্ধন ক্ষীণ হয়ে যায়, যা তাদের সম্মিলিত মৌনতায় বিচ্ছিন্ন করে রাখে।",
+        "seo_question": "নহজুল বালাগহায় মৌনতা ও স্থিরতা সৃষ্টিকারী 'কাপ'-এর অর্থ কী?",
+        "key_terms": {
+          "عُمَا": "অন্ধ/অজ্ঞাত হয়ে পড়া",
+          "صَمَّتْ": "মৌন হয়ে পড়া",
+          "سُقُوا كَأْساً": "তাদেরকে একটি কাপ পান করানো হলো",
+          "النُّطْقِ": "বাক্য/ভাষণ",
+          "خَرَساً": "বাক্যহীনতা",
+          "الصَّمَمَ": "বধিরতা",
+          "السُّكُونِ": "স্থিরতা",
+          "صَرْعَى سُبَات": "ঘুমের মধ্যে পতিত",
+          "التَّعَارُفِ": "পারস্পরিক পরিচয়/জ্ঞান",
+          "الأَخَاءِ": "ভ্রাতৃত্ব/বন্ধুত্ব",
+          "الْهَجْرِ": "বিচ্ছিন্নতা/ত্যাগ",
+          "الأَخِلَّاءُ": "নিবিড় বন্ধু"
+        }
+      },
+      "es": {
+        "summary": "Los eruditos chiíes interpretan este pasaje como una crítica a la estancación espiritual de los compañeros tras la muerte del Profeta, donde la 'copa' simboliza el decreto divino o la consecuencia que los dejó mudos e inmovilizados en sus deberes. El texto retrata vívidamente su fragmentación social, señalando que, a pesar de la proximidad física, los lazos de *mu'akhat* (hermandad) y *ta'ruf* (reconocimiento mutuo) se habían marchitado, dejándolos aislados en su silencio colectivo.",
+        "seo_question": "¿Cuál es el significado de la 'copa' que causó silencio e inmovilidad en Nahj al-Balagha?",
+        "key_terms": {
+          "عُمَا": "se volvió ciego/ignorado",
+          "صَمَّتْ": "se volvió silencioso",
+          "سُقُوا كَأْساً": "se les hizo beber una copa",
+          "النُّطْقِ": "habla",
+          "خَرَساً": "mudez",
+          "الصَّمَمَ": "sordera",
+          "السُّكُونِ": "inmovilidad",
+          "صَرْعَى سُبَات": "caídos en sueño",
+          "التَّعَارُفِ": "reconocimiento mutuo",
+          "الأَخَاءِ": "hermandad/amistad",
+          "الْهَجْرِ": "enajenación/abandono",
+          "الأَخِلَّاءُ": "amigos íntimos"
+        }
+      },
+      "fr": {
+        "summary": "Les savants chiites interprètent ce passage comme une critique de la stagnation spirituelle des compagnons après la mort du Prophète, où la « coupe » symbolise le décret divin ou la volonté divine ou la conséquence qui les a rendus muets et immobiles dans leurs devoirs. Le texte dépeint vividement leur fragmentation sociale, notant qu'en dépit de la proximité physique, les liens de *mu'akhat* (fraternité) et de *ta'ruf* (reconnaissance mutuelle) s'étaient flétris, les laissant isolés dans leur silence collectif.",
+        "seo_question": "Quelle est la signification de la « coupe » qui a provoqué le silence et l'immobilité dans le Nahj al-Balagha ?",
+        "key_terms": {
+          "عُمَا": "devenu aveugle/inconnu",
+          "صَمَّتْ": "est devenu silencieux",
+          "سُقُوا كَأْساً": "on leur a fait boire une coupe",
+          "النُّطْقِ": "parole",
+          "خَرَساً": "mutisme",
+          "الصَّمَمَ": "surdité",
+          "السُّكُونِ": "immobilité",
+          "صَرْعَى سُبَات": "tombés en sommeil",
+          "التَّعَارُفِ": "reconnaissance mutuelle",
+          "الأَخَاءِ": "fraternité/amitié",
+          "الْهَجْرِ": "éloignement/abandon",
+          "الأَخِلَّاءُ": "amis proches"
+        }
+      },
+      "de": {
+        "summary": "Schia-Gelehrte deuten diese Passage als Kritik an der spirituellen Erstarrung der Gefährten nach dem Tod des Propheten, wobei der 'Becher' das göttliche Schicksal oder die Konsequenz symbolisiert, die sie in ihren Pflichten stumm und unbeweglich machte. Der Text zeichnet lebhaft ihre soziale Fragmentierung, wobei er feststellt, dass trotz physischer Nähe die Bande der *Mu'akhat* (Bruderschaft) und *Ta'ruf* (gegenseitige Anerkennung) verwelkt waren, was sie in ihrem kollektiven Schweigen isolierte.",
+        "seo_question": "Was bedeutet der 'Becher', der in Nahd al-Balagha Stille und Starre verursachte?",
+        "key_terms": {
+          "عُمَا": "wurde blind/unbekannt",
+          "صَمَّتْ": "wurde stumm",
+          "سُقُوا كَأْساً": "sie wurden einen Becher trinken lassen",
+          "النُّطْقِ": "Rede",
+          "خَرَساً": "Stummheit",
+          "الصَّمَمَ": "Taubheit",
+          "السُّكُونِ": "Ruhe/Stillstand",
+          "صَرْعَى سُبَات": "in Schlaf gefallen",
+          "التَّعَارُفِ": "gegenseitiges Erkennen",
+          "الأَخَاءِ": "Bruderschaft/Freundschaft",
+          "الْهَجْرِ": "Entfremdung/Aufgabe",
+          "الأَخِلَّاءُ": "nahe Freunde"
+        }
+      },
+      "ru": {
+        "summary": "Шиитские учёные трактуют этот аят как критику духовного застоя сподвижников после смерти Пророка, где «чаша» символизирует божественный указ или воздаяние, сделавшее их немыми и неподвижными в выполнении своих обязанностей. Текст ярко изображает их социальную разобщённость, отмечая, что, несмотря на физическую близость, узы братства (*муакхат*) и взаимного узнавания (*тааруф*) увяли, оставив их изолированными в коллективном молчании.",
+        "seo_question": "Каков смысл «чаши», вызвавшей молчание и неподвижность в «Худжате» (или в контексте Нахдж аль-Балагха)?",
+        "key_terms": {
+          "عُمَا": "ослепли/стали неизвестными",
+          "صَمَّتْ": "замолчали",
+          "سُقُوا كَأْساً": "им дали выпить чашу",
+          "النُّطْقِ": "речь",
+          "خَرَساً": "немой",
+          "الصَّمَمَ": "глухота",
+          "السُّكُونِ": "неподвижность",
+          "صَرْعَى سُبَات": "упавшие в сон",
+          "التَّعَارُفِ": "взаимное узнавание",
+          "الأَخَاءِ": "братство/дружба",
+          "الْهَجْرِ": "отчуждение/оставление",
+          "الأَخِلَّاءُ": "близкие друзья"
+        }
+      },
+      "zh": {
+        "summary": "什叶派学者将这段经文解释为对先知去世后圣门弟子精神停滞的批评，其中‘杯’象征着神圣的判决或后果，使他们因职责而失语且静止不动。文本生动地描绘了他们的社会分裂，指出尽管身体上彼此邻近，但兄弟情谊（mu'akhat）和相互认知（ta'ruf）的纽带已经枯萎，使他们在集体的沉默中孤立无援。",
+        "seo_question": "《纳赫吉·巴拉格》中导致沉默与静止的‘杯’是什么意思？",
+        "key_terms": {
+          "عُمَا": "失明/未知",
+          "صَمَّتْ": "沉默",
+          "سُقُوا كَأْساً": "他们被喝了一杯",
+          "النُّطْقِ": "言语",
+          "خَرَساً": "哑",
+          "الصَّمَمَ": "聋",
+          "السُّكُونِ": "静止",
+          "صَرْعَى سُبَات": "沉睡倒下",
+          "التَّعَارُفِ": "相互认知",
+          "الأَخَاءِ": "兄弟情谊",
+          "الْهَجْرِ": "疏远/抛弃",
+          "الأَخِلَّاءُ": "挚友"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:103",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:67",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:22",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:64",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا عَنْ طُولِ عَهْدِهِمْ، وَلاَ بُعْدِ مَحَلِّهِمْ، عَمِيَتْ أَخْبَارُهُمْ، وَصَمَّتْ دِيَارُهُمْ، وَلَكِنَّهُمْ سُقُوا كَأْساً بَدَّلَتْهُمْ بِالنُّطْقِ خَرَساً، وَبِالسَّمْعِ صَمَماً، وَبِالْحَرَكَاتِ سُكُوناً، فَكَأَنَّهُمْ فِي ارْتِجَالِ الصِّفَةِ صَرْعَى سُبَات، جِيرَانٌ لاَ يَتَأَنَّسُونَ، وَأَحِبَّاءُ لاَ يَتَزَاوَرُونَ، بَلِيَتْ بَيْنَهُمْ عُرَا التَّعَارُفِ، وَانْقَطَعَتْ مِنْهُمْ أَسْبَابُ الأَخَاءِ، فَكُلُّهُمْ وَحِيدٌ وَهُمْ جَمِيعٌ، وَبِجَانِبِ الْهَجْرِ وَهُمْ أَخِلَّاءُ، لاَ يَتَعَارَفُونَ لَيْلَ صَبَاحاً، وَلاَ لِنَهَارٍ مَسَاءً.",
+    "isnad_matn": {
+      "isnad_ar": "وَمَا عَنْ طُولِ عَهْدِهِمْ، وَلاَ بُعْدِ مَحَلِّهِمْ، عَمِيَتْ أخْبَارُهُمْ، وَصَمَّتْ دِيَارُهُمْ، وَلكِنَّهُمْ سُقُوا كَأْساً بَدَّلَتْهُمْ بِالنُّطْقِ خَرَساً، وَبِالسَّمْعِ صَمَماً، وَبِالْحَرَكَاتِ سُكُوناً، فَكَأَنَّهُمْ فِي",
+      "matn_ar": "وَمَا عَنْ طُولِ عَهْدِهِمْ، وَلاَ بُعْدِ مَحَلِّهِمْ، عَمِيَتْ أَخْبَارُهُمْ، وَصَمَّتْ دِيَارُهُمْ، وَلَكِنَّهُمْ سُقُوا كَأْساً بَدَّلَتْهُمْ بِالنُّطْقِ خَرَساً، وَبِالسَّمْعِ صَمَماً، وَبِالْحَرَكَاتِ سُكُوناً، فَكَأَنَّهُمْ فِي ارْتِجَالِ الصِّفَةِ صَرْعَى سُبَات، جِيرَانٌ لاَ يَتَأَنَّسُونَ، وَأَحِبَّاءُ لاَ يَتَزَاوَرُونَ، بَلِيَتْ بَيْنَهُمْ عُرَا التَّعَارُفِ، وَانْقَطَعَتْ مِنْهُمْ أَسْبَابُ الأَخَاءِ، فَكُلُّهُمْ وَحِيدٌ وَهُمْ جَمِيعٌ، وَبِجَانِبِ الْهَجْرِ وَهُمْ أَخِلَّاءُ، لاَ يَتَعَارَفُونَ لَيْلَ صَبَاحاً، وَلاَ لِنَهَارٍ مَسَاءً.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وَمَا",
+          "name_en": "Wa Ma",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "طُولِ عَهْدِهِمْ، وَلاَ بُعْدِ مَحَلِّهِمْ، عَمِيَتْ أخْبَارُهُمْ، وَصَمَّتْ دِيَارُهُمْ، وَلكِنَّهُمْ سُقُوا كَأْساً بَدَّلَتْهُمْ بِالنُّطْقِ خَرَساً، وَبِالسَّمْعِ صَمَماً، وَبِالْحَرَكَاتِ سُكُوناً، فَكَأَنَّهُمْ",
+          "name_en": "Tul 'Ahdihim, Wa La Bu'di Mahallihim, 'Amiyat Akhbaruham, Wa Sammatt Diyaruhum, Wa Lakinahum Suqau Ka'san Baddalahum bin-Nutqi Kharasan, Wa Bis-Sam'i Samaman, Wa Bil-Harakat Sukunan, Fa Ka'annahum",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,290 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:192:18",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 29 words (>14, بن-density 0.03 — likely a sentence fragment, not a name): '[تواضع الأنبياء :] ولقد دخل موسى بن عمران ومعه أخوه هارون(عل'",
+    "chunks[1] word 'السلام)' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "history",
+      "prophetic_tradition"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "prophets",
+      "humility",
+      "poverty_wealth",
+      "prophetic_character"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "[تَوَاضُعُ الْأَنْبِيَاءِ :]",
+        "translations": {
+          "en": "[The humility of the Prophets (peace be on them):]",
+          "ur": "[انباء کی عاجزی (علیہم السلام):]",
+          "tr": "[Peygamberlerin (aleyhimüsselam) tevazusu: ]",
+          "fa": "[ فروتنی پیامبران (صلوات خدا بر آنان باد): ]",
+          "id": "[Kerendahan hati para Nabi (semoga keselamatan atas mereka):]",
+          "bn": "[নবীদের বিনয় (আল্লাহর শান্তি ও বরকত তাদের উপর হোক):]",
+          "es": "[La humildad de los Profetas de los Profetas (que la paz sea con ellos):]",
+          "fr": "[La modestie des Prophètes (que la paix soit sur eux :]",
+          "de": "[Die Demut der Propheten (Friede sei auf ihnen):]",
+          "ru": "[Смирение пророков (мир им):]",
+          "zh": "[众先知的谦逊：]"
+        },
+        "word_start": 0,
+        "word_end": 3
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَقَدْ دَخَلَ مُوسَى بْنُ عِمْرَانَ وَمَعَهُ أَخُوهُ هَارُونُ(عليهما السلام) عَلَى فِرْعَوْنَ، وَعَلَيْهِمَا مَدَارِعُ الصُّوفِ، وَبِأَيْدِيهِمَا الْعِصِيُّ، فَشَرَطَا لَهُ ـ إِنْ أَسْلَمَ ـ بَقَاءَ مُلْكِهِ، وَدَوَامَ عِزِّهِ، فَقَالَ : أَلاَ تَعْجَبُونَ مِنْ هَذَيْنِ يَشْرِطَانِ لِي دَوَامَ الْعِزِّ، وَبَقَاءَ الْمُلْكِ، وَهُمَا بِمَا تَرَوْنَ مِنْ حَالِ الْفَقْرِ وَالذُّلِّ، فَهَلَّا أُلْقِيَ عَلَيْهِمَا أَسَاوِرَةٌ مِنْ ذَهَب؟ إِعْظَاماً لِلذَّهَبِ وَجَمْعِهِ، وَاحْتِقَاراً لِلصُّوفِ وَلُبْسِهِ!",
+        "translations": {
+          "en": "When Mūsā son of ‘Imrān went to Pharaoh along with his brother Hārūn (Aaron) wearing (coarse) shirts of wool and holding sticks in their hands, they guaranteed him retention of his country and continuity of his honour if he submitted; but he said: “Do you not wonder at these two men guaranteeing me the continuity of my honour and the retention of my country although you see their poverty and lowliness. Otherwise, why do they not have gold bangles on their wrists?” He said so feeling proud of his gold and collected possessions, and considering wool and its cloth as nothing.",
+          "ur": "جب موسیٰ بن عمران اپنے بھائی ہارون (ہارون) کے ساتھ فرعون کے پاس گئے، وہ اون کے کھردرے کپڑے پہنے ہوئے تھے اور ان کے ہاتھوں میں لٹیاں تھیں، تو انہوں نے فرعون کو یقین دلایا کہ اگر وہ تسلیم کر لے تو اس کی ملکیت برقرار رہے گی اور اس کی عزت قائم رہے گی؛ لیکن فرعون نے کہا: \"کیا تم حیران نہیں ہو کہ یہ دو مرد مجھے میری عزت کی بقا اور میری ملکیت کی حفاظت کا یقین دلا رہے ہیں، حالانکہ تم ان کی غربت اور ذلت دیکھ رہے ہو۔ ورنہ، ان کے ہاتھوں میں سونے کے چوڑے کیوں نہیں ہیں؟\" اس نے یہ کہا، اپنے سونے اور جمع کی ہوئی دولت پر فخر محسوس کرتے ہوئے، اور اون اور اس کے کپڑے کو کچھ نہ مان کر۔",
+          "tr": "Musa, oğlu İmrân'ın, kardeşi Harun (Harun) ile birlikte, ellerinde asaları ve üzerlerinde (kaba) yün gömleklerken Firavun'a gittiğinde, eğer boyun eğerse, ona ülkesinin korunması ve onurunun devamını garanti ettiler; o da dedi ki: \"Bu iki adamın, yoksulluklarını ve alçaklıklarını gördüğünüz halde, bana onurumun devamını ve ülkemin korunmasını garanti etmelerine şaşırmıyor musunuz? Aksi halde, neden bileklerinde altın bilezikleri yok?\" Altınlarına ve biriktirdiği mal varlığına gurur duyarak ve yünü ve onun kumaşını bir şey saymadığı için böyle dedi.",
+          "fa": "هنگامی که موسی پسر عمران به همراه برادرش هارون (هارون) که پیراهن‌های پشمی زبر بر تن داشتند و چوب‌دستی در دست می‌گرفتند، نزد فرعون رفت، اگر او تسلیم شود، ضمانت کردند که کشورش حفظ شود و عزتش پایدار بماند؛ اما او گفت: «آیا شما تعجب نمی‌کنید که این دو مرد با وجود اینکه فقر و فرومایگی‌شان را می‌بینید، برای من حفظ کشور و تداوم عزتم را ضمانت می‌کنند؟ در غیر این صورت، چرا دستبندهای طلا بر دستشان نیست؟» او این را گفت در حالی که به خاطر طلا و اموال جمع‌کرده‌اش مغرور بود و پشم و پارچه‌اش را بی‌ارزش می‌شمرد.",
+          "id": "Ketika Mūsā putra ‘Imrān pergi kepada Firaun bersama saudaranya Hārūn (Harun) dengan mengenakan baju wol kasar dan memegang tongkat di tangan mereka, mereka menjamin kepadanya pemertahanan negaranya dan kesinambungan kehormatannya jika ia berserah diri; tetapi ia berkata, \"Apakah kalian tidak heran dengan dua orang ini yang menjamin aku kesinambungan kehormatanku dan pemertahanan negarku, padahal kalian melihat kemiskinan dan kerendahan mereka? Atau mengapa mereka tidak memiliki gelang emas di pergelangan tangan mereka?\" Ia berkata demikian dengan merasa bangga atas emasnya dan harta yang dikumpulkannya, serta menganggap wol dan kainnya sebagai sesuatu yang tidak berharga.",
+          "bn": "যখন মুসা ইবনে ‘ইমরান তাঁর ভাই হারুন (আরোণ)-এর সাথে ফিরশৌয়ের কাছে গেলেন, তাঁরা উলের মোটা পোশাক পরিহিত ছিলেন এবং হাতে লাঠি ধরেছিলেন। তিনি যদি আত্মসমর্পণ করেন, তবে তাঁরা তাঁকে নিশ্চয়তা দিলেন যে তাঁর দেশ রক্ষা পাবে এবং তাঁর সম্মান বজায় থাকবে। কিন্তু তিনি বললেন: “আপনি কি এই দুই ব্যক্তিকে বিস্ময়কর মনে করেন না, যারা আমাকে আমার সম্মান বজায় রাখা এবং দেশ রক্ষার নিশ্চয়তা দিচ্ছেন, যদিও আপনি তাদের দারিদ্র্য ও নীচতা দেখছেন। অন্যথায়, তারা কেন তাদের কব্জিতে সোনার চুড়ি পরে না?” তিনি এ কথা বললেন সোনার প্রতি গর্ববোধ করে এবং জমা করা সম্পদকে গুরুত্ব দিয়ে, এবং উল ও এর কাপড়কে কিছুই মনে করে।",
+          "es": "Cuando Mūsā, hijo de ‘Imrān, fue al Faraón junto con su hermano Hārūn (Aarón), vistiendo túnicas de lana (ásperas) y llevando bastones en sus manos, le aseguraron la conservación de su país y la continuidad de su honor si él se sometía; pero él dijo: «¿No os maravilláis de que estos dos hombres me garanticen la continuidad de mi honor y la conservación de mi país, aunque veáis su pobreza y su humillación? En caso contrario, ¿por qué no llevan brazaletes de oro en sus muñecas?». Él lo dijo sintiéndose orgulloso de su oro y de sus bienes acumulados, y considerando la lana y su tejido como algo insignificante.",
+          "fr": "Lorsque Mūsā, fils d’‘Imrān, se rendit auprès du Pharaon, accompagné de son frère Hārūn (Aaron), vêtus de tuniques de laine grossière et tenant des bâtons à la main, ils lui garantirent le maintien de son royaume et la pérennité de son honneur s’il se soumettait ; mais il répondit : « Ne vous étonnez-vous pas que ces deux hommes me garantissent la pérennité de mon honneur et le maintien de mon royaume, alors que vous voyez leur pauvreté et leur abaissement ? Pourquoi donc n’ont-ils pas de bracelets d’or aux poignets ? » Il dit cela, fier de son or et de ses richesses accumulées, et considérant la laine et son tissu comme négligeables.",
+          "de": "Als Mūsā, der Sohn des ‘Imrān, zusammen mit seinem Bruder Hārūn (Aaron) zu Pharao ging, bekleidet mit groben Wollhemden und Stäbe in den Händen haltend, versprachen sie ihm die Bewahrung seines Landes und die Kontinuität seiner Ehre, falls er sich unterwerfe; doch er sagte: \"Wundert ihr euch nicht über diese beiden Männer, die mir die Kontinuität meiner Ehre und die Bewahrung meines Landes versprechen, obwohl ihr ihre Armut und Niedrigkeit seht? Andernfalls, warum tragen sie nicht goldene Armreifen an ihren Handgelenken?\" Er sagte dies, erfüllt von Stolz auf sein Gold und seine gesammelten Besitztümer, und betrachtete Wolle und ihren Stoff als nichts.",
+          "ru": "Когда Муса, сын Имрана сын, отправился к фараону вместе со своим братом Харуном (Аароном), одетый в грубые шерстяные рубашки и держа в руках посохи, они пообещали ему сохранение его страны и непрерывность его чести, если он подчинится; но он сказал: «Не удивительно ли вам, что эти два человека обещают мне непрерывность моей чести и сохранение моей страны, хотя вы видите их бедность и униженность? В противном случае, почему у них нет золотых браслетов на запястьях?» Он сказал это, чувствуя гордость от своего золота и собранных богатств, и считая шерсть и её ткань ничем.",
+          "zh": "当穆萨·本·阿姆兰与其兄哈伦（亚伦）身着粗羊毛衫，手持手杖，前往法老处。他们向法老保证，若他顺从，他将保有国土并延续尊荣；但法老说：“你们不觉得这两个人保证我延续尊荣、保有国土很奇怪吗？你们明明看到他们的贫穷与卑微。否则，他们手腕上为何没有金手镯？”法老如此说，是因他为自己的黄金和积聚的财富感到骄傲，而视羊毛及其织物为无物。"
+        },
+        "word_start": 3,
+        "word_end": 60
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This narration from Nahj al-Balagha illustrates the Prophetic model of *tawadu'* (humility), where Mūsā and Hārūn wore simple wool to signify their detachment from worldly pomp while retaining their divine authority. Pharaoh’s mockery of their attire reveals his superficial understanding of status, equating material wealth with power, a contrast often highlighted in Shia exegesis to warn against vanity and the corruption of pride.",
+        "seo_question": "How did Pharaoh react to the humble appearance of Prophet Musa and Aaron?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "shirts of wool",
+          "الْعِصِيُّ": "the sticks",
+          "بَقَاءَ مُلْكِهِ": "retention of his kingdom",
+          "دَوَامَ عِزِّهِ": "continuity of his honor",
+          "حَالِ الْفَقْرِ": "state of poverty",
+          "أَسَاوِرَةٌ": "bangles",
+          "إِعْظَاماً": "feeling proud/great",
+          "الذَّهَبِ": "gold",
+          "الذُّلِّ": "lowliness/humiliation",
+          "لُبْسِهِ": "its wearing"
+        }
+      },
+      "ur": {
+        "summary": "یہ روایت نہج البلاغہ سے ہے جو نبی کریم ﷺ کی تواضع (تواضع) کا نمونہ پیش کرتی ہے، جہاں موسیٰ اور ہارون نے دنیاوی جھمیلے سے بے نیاز رہنے کی علامت کے طور پر سادہ اون کے کپڑے پہنے ہوئے تھے، جبکہ وہ الہی اختیار برقرار رکھے ہوئے تھے۔ فرعون کی ان کے لباس کی ہنسی اڑانے سے اس کی سطحی فہم ظاہر ہوتی ہے، جو دولت کو طاقت کے مساوی سمجھتا ہے، جو شیعہ تفسیر میں اکثر تکبر اور فخر کی فساد سے بچنے کے لیے واضح کیا جاتا ہے۔",
+        "seo_question": "فرعون نے نبی موسیٰ اور ہارون کی عاجزانہ شکل و صورت پر کیسے ردعمل ظاہر کیا؟",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "اون کے کپڑے",
+          "الْعِصِيُّ": "لاٹھیاں",
+          "بَقَاءَ مُلْكِهِ": "اس کی بادشاہت کا برقرار رہنا",
+          "دَوَامَ عِزِّهِ": "اس کی عزت کا تسلسل",
+          "حَالِ الْفَقْرِ": "فقر کی حالت",
+          "أَسَاوِرَةٌ": "کنگن",
+          "إِعْظَاماً": "خود کو بڑا سمجھنا",
+          "الذَّهَبِ": "سونے",
+          "الذُّلِّ": "ذلت",
+          "لُبْسِهِ": "اس کا پہننا"
+        }
+      },
+      "tr": {
+        "summary": "Bu Nahj al-Belâğa'dan gelen rivayet, Mûsâ ve Hârûn'un dünyevi görkemden kopukluklarını belirtmek için sade yün giysiler giyerek ilahi otoritelerini korudukları *tevazu'* (alçakgönüllülük) peygamber modelini sergiler. Firavun'un giysilerine takındığı alay, statüyü maddi zenginlikle eşleştiren yüzeysel bir anlayışını ortaya koyar; bu durum, gururun bozuculuğuna ve kibirli olmanın tehlikelerine dair uyarı niteliğinde olup Şii tefsirinde sıkça vurgulanır.",
+        "seo_question": "Firavun, Peygamber Musa ve Harun'un alçakgönüllü görünümüne nasıl tepki verdi?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "yün gömlekler",
+          "الْعِصِيُّ": "sapanlar",
+          "بَقَاءَ مُلْكِهِ": "krallığının korunması",
+          "دَوَامَ عِزِّهِ": "onurun sürekliliği",
+          "حَالِ الْفَقْرِ": "fakirlik hali",
+          "أَسَاوِرَةٌ": "bilezikler",
+          "إِعْظَاماً": "büyüklük hissi",
+          "الذَّهَبِ": "altın",
+          "الذُّلِّ": "alçaklık/hor görülmek",
+          "لُبْسِهِ": "giyilmesi"
+        }
+      },
+      "fa": {
+        "summary": "این روایت از نهج‌البلاغه الگوی تواضع پیامبر را نشان می‌دهد، جایی که موسی و هارون پشم ساده می‌پوشیدند تا بی‌اعتنایی به تجملات دنیایی را نشان دهند و در عین حال اقتدار الهی خود را حفظ کنند. تمسخر فرعون از پوشش آن‌ها نشان‌دهنده درک سطحی او از جایگاه است که ثروت مادی را با قدرت مساوی می‌داند؛ تضادی که در تفسیر شیعه اغلب برای هشدار درباره تکبر و فساد غرور برجسته شده است.",
+        "seo_question": "فرعون چگونه به ظاهر ساده پیامبر موسی و هارون واکنش نشان داد؟",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "پیراهن‌های پشمی",
+          "الْعِصِيُّ": "عصاها",
+          "بَقَاءَ مُلْكِهِ": "حفظ پادشاهی‌اش",
+          "دَوَامَ عِزِّهِ": "تداوم عزتش",
+          "حَالِ الْفَقْرِ": "وضعیت فقر",
+          "أَسَاوِرَةٌ": "دستبند",
+          "إِعْظَاماً": "بزرگی‌پنداری",
+          "الذَّهَبِ": "طلا",
+          "الذُّلِّ": "ذلت",
+          "لُبْسِهِ": "پوشیدن آن"
+        }
+      },
+      "id": {
+        "summary": "Riwayat dari Nahj al-Balagha ini menggambarkan model kenabian *tawadu'* (kerendahan hati), di mana Musa dan Harun mengenakan wol sederhana sebagai tanda keterlepasan mereka dari kemewahan duniawi sambil mempertahankan otoritas ilahi. Cemoohan Firaun terhadap pakaian mereka mengungkapkan pemahaman yang dangkalnya tentang status, yang menyamakan kekayaan materi dengan kekuasaan, sebuah kontras yang sering disoroti dalam tafsir Syiah untuk memperingatkan terhadap kesombongan dan korupsi akibat keangkuhan.",
+        "seo_question": "Bagaimana reaksi Firaun terhadap penampilan sederhana Nabi Musa dan Harun?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "kemeja wol",
+          "الْعِصِيُّ": "tongkat",
+          "بَقَاءَ مُلْكِهِ": "pertahanan kerajaan",
+          "دَوَامَ عِزِّهِ": "keberlangsungan kehormatan",
+          "حَالِ الْفَقْرِ": "keadaan miskin",
+          "أَسَاوِرَةٌ": "gelang",
+          "إِعْظَاماً": "merasa bangga",
+          "الذَّهَبِ": "emas",
+          "الذُّلِّ": "kerendahan",
+          "لُبْسِهِ": "memakainya"
+        }
+      },
+      "bn": {
+        "summary": "এই নহজুল বালাগহা হাদিসে নবীর তওয়াযু’ (নিম্নতা) এর আদর্শ উপস্থাপিত হয়েছে, যেখানে মুসা ও হারুন পৃথিবীর ঐশ্বর্য থেকে বিচ্ছিন্নতার প্রতীক হিসেবে সাধারণ উলের পোশাক পরিধান করতেন, অথচ ঐশ্বরিক কর্তৃত্ব বজায় রাখতেন। ফেরাউনের তাদের পোশাকের উপর কৌতুক তার মর্যাদার প্রতি তার পৃষ্ঠপোষক বোঝাপড়া প্রকাশ করে, যেখানে তিনি ঐশ্বরিক ধন-সম্পদকে ক্ষমতার সাথে সমান মনে করতেন, যা শিয়া তাফসিরে গর্বের দোষ ও করুপশনের সতর্কতা হিসেবে প্রায়ই উল্লেখ করা হয়।",
+        "seo_question": "ফেরাউন নবী মুসা ও হারুনের নিম্নতা পূর্ণ চেহারার প্রতি কীভাবে প্রতিক্রিয়া দেখিয়েছিলেন?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "উলের শার্ট",
+          "الْعِصِيُّ": "লাঠি",
+          "بَقَاءَ مُلْكِهِ": "রাজত্বের ধারাবাহিকতা",
+          "دَوَامَ عِزِّهِ": "মর্যাদার ধারাবাহিকতা",
+          "حَالِ الْفَقْرِ": "দারিদ্র্যের অবস্থা",
+          "أَسَاوِرَةٌ": "কঙ্কণ",
+          "إِعْظَاماً": "গর্বিত বোধ",
+          "الذَّهَبِ": "স্বর্ণ",
+          "الذُّلِّ": "নিম্নতা/অপমান",
+          "لُبْسِهِ": "পরিধান"
+        }
+      },
+      "es": {
+        "summary": "Esta narración de Nahj al-Balagha ilustra el modelo profético de *tawético de *tawadu'* (humildad), donde Mūsā y Hārūn vestían sencilla lana para significar su desapego del esplendor mundano mientras retenían su autoridad divina. La burla del Faraón hacia su atuendo revela su comprensión superficial del estatus, equiparando la riqueza material con el poder, un contraste a menudo destacado en la exégesis chií para advertir contra la vanidad y la corrupción del orgullo.",
+        "seo_question": "¿Cómo reaccionó el Faraón ante la apariencia humilde del Profeta Mūsā y Aarón?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "camisas de lana",
+          "الْعِصِيُّ": "los bastones",
+          "بَقَاءَ مُلْكِهِ": "retención de su reino",
+          "دَوَامَ عِزِّهِ": "continuidad de su honor",
+          "حَالِ الْفَقْرِ": "estado de pobreza",
+          "أَسَاوِرَةٌ": "pulseras",
+          "إِعْظَاماً": "sintiéndose orgulloso/gran",
+          "الذَّهَبِ": "oro",
+          "الذُّلِّ": "bajeza/humillación",
+          "لُبْسِهِ": "su uso"
+        }
+      },
+      "fr": {
+        "summary": "Cette narration du Nahj al-Balagha illustre le modèle prophétique de *tawadu'* (humilité), où Mūsā et Hārūn portaient une simple laine pour signifier leur détachement de la pompe mondaine tout en conservant leur autorité divine. La moquerie du Pharaon envers leurs vêtements révèle sa compréhension superficielle du statut, assimilant la richesse matérielle au pouvoir, un contraste souvent souligné dans l'exégèse chiite pour mettre en garde contre la vanité et la corruption de l'orgueil.",
+        "seo_question": "Comment le Pharaon a-t-il réagi à l'apparence humble des prophètes Moussa et Aaron ?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "chemises de laine",
+          "الْعِصِيُّ": "les bâtons",
+          "بَقَاءَ مُلْكِهِ": "la rétention de son royaume",
+          "دَوَامَ عِزِّهِ": "la continuité de son honneur",
+          "حَالِ الْفَقْرِ": "l'état de pauvreté",
+          "أَسَاوِرَةٌ": "bracelets",
+          "إِعْظَاماً": "se sentir fier/grand",
+          "الذَّهَبِ": "l'or",
+          "الذُّلِّ": "la bassesse/l'humiliation",
+          "لُبْسِهِ": "son port"
+        }
+      },
+      "de": {
+        "summary": "Diese Überlieferung aus Nahj al-Balagha veranschaulicht das prophetische Modell der *Tawadu'* (Demut), bei dem Mūsā und Hārūn einfache Wolle trugen, um ihre Loslösung von weltlichem Prunk zu signalisieren, während sie ihre göttliche Autorität behielten. Pharaos Spott über ihre Kleidung offenbart sein oberflächliches Verständnis von Status, das materiellen Reichtum mit Macht gleichsetzt; ein Kontrast, der in der schiitischen Exegese oft hervorgehoben wird, um vor Eitelkeit und der Korruption des Stolzes zu warnen.",
+        "seo_question": "Wie reagierte Pharao auf das bescheidene Erscheinungsbild der Propheten Musa und Aaron?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "Wollhemden",
+          "الْعِصِيُّ": "die Stöcke",
+          "بَقَاءَ مُلْكِهِ": "Bewahrung seines Königreichs",
+          "دَوَامَ عِزِّهِ": "Kontinuität seiner Ehre",
+          "حَالِ الْفَقْرِ": "Zustand der Armut",
+          "أَسَاوِرَةٌ": "Armreifen",
+          "إِعْظَاماً": "Stolzgefühl",
+          "الذَّهَبِ": "Gold",
+          "الذُّلِّ": "Demütigung",
+          "لُبْسِهِ": "das Tragen"
+        }
+      },
+      "ru": {
+        "summary": "Это предание из «Нахдж аль-Балаги» иллюстрирует пророческую модель *таваду'* (смирения), при которой Муса и Харун носили простую шерстяную одежду, символизируя их отстранённость от мирского великолепия, сохраняя при этом божественный авторитет. Ирония Фараона над их одеждой раскрывает его поверхностное понимание статуса, приравнивающее материальное богатство к власти; этот контраст часто подчеркивается в шиитском тафсире как предостережение от тщеславия и порочности гордыни.",
+        "seo_question": "Как Фараон отреагировал на скромный вид пророков Мусы и Харуна?",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "шерстяные рубашки",
+          "الْعِصِيُّ": "посохи",
+          "بَقَاءَ مُلْكِهِ": "сохранение его царства",
+          "دَوَامَ عِزِّهِ": "непрерывность его чести",
+          "حَالِ الْفَقْرِ": "состояние бедности",
+          "أَسَاوِرَةٌ": "браслеты",
+          "إِعْظَاماً": "чувство величия/гордости",
+          "الذَّهَبِ": "золото",
+          "الذُّلِّ": "низость/унижение",
+          "لُبْسِهِ": "ношение его"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《布哈里圣训实录》的叙述展示了先知穆萨和哈伦穿着简朴羊毛衫的谦逊（tawadu'）典范，以此表明他们超脱世俗奢华，同时保留神圣权威。法老对他们服饰的嘲笑揭示了他对地位的肤浅理解，将物质财富与权力等同起来，这种对比在什叶派经注中常被强调，以警示虚荣和骄傲的腐蚀。",
+        "seo_question": "法老对先知穆萨和亚伦的谦逊外表有何反应？",
+        "key_terms": {
+          "مُدَارِعُ الصُّوفِ": "羊毛衫",
+          "الْعِصِيُّ": "手杖",
+          "بَقَاءَ مُلْكِهِ": "王权的保留",
+          "دَوَامَ عِزِّهِ": "尊荣的延续",
+          "حَالِ الْفَقْرِ": "贫困的状态",
+          "أَسَاوِرَةٌ": "手镯",
+          "إِعْظَاماً": "感到骄傲/伟大",
+          "الذَّهَبِ": "黄金",
+          "الذُّلِّ": "卑微/羞辱",
+          "لُبْسِهِ": "其穿着"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "20:47",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "26:10",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "28:39",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:32",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "[تَوَاضُعُ الْأَنْبِيَاءِ :] وَلَقَدْ دَخَلَ مُوسَى بْنُ عِمْرَانَ وَمَعَهُ أَخُوهُ هَارُونُ(عليهما السلام) عَلَى فِرْعَوْنَ، وَعَلَيْهِمَا مَدَارِعُ الصُّوفِ، وَبِأَيْدِيهِمَا الْعِصِيُّ، فَشَرَطَا لَهُ ـ إِنْ أَسْلَمَ ـ بَقَاءَ مُلْكِهِ، وَدَوَامَ عِزِّهِ، فَقَالَ : أَلاَ تَعْجَبُونَ مِنْ هَذَيْنِ يَشْرِطَانِ لِي دَوَامَ الْعِزِّ، وَبَقَاءَ الْمُلْكِ، وَهُمَا بِمَا تَرَوْنَ مِنْ حَالِ الْفَقْرِ وَالذُّلِّ، فَهَلَّا أُلْقِيَ عَلَيْهِمَا أَسَاوِرَةٌ مِنْ ذَهَب؟ إِعْظَاماً لِلذَّهَبِ وَجَمْعِهِ، وَاحْتِقَاراً لِلصُّوفِ وَلُبْسِهِ!",
+    "isnad_matn": {
+      "isnad_ar": "[تواضع الأنبياء :] وَلَقَدْ دَخَلَ مُوسَى بْنُ عِمْرَانَ وَمَعَهُ أَخُوهُ هَارُونُ(عليهما السلام) عَلَى فِرْعَوْنَ، وَعَلَيْهِمَا مَدَارِعُ الصُّوفِ، وَبِأَيْدِيهِمَا الْعِصِيُّ، فَشَرَطَا لَهُ ـ إِنْ أَسْلَمَ ـ بَقَاءَ مُلْكِهِ، وَدَوامَ عِزِّهِ، فَقَالَ",
+      "matn_ar": "[تَوَاضُعُ الْأَنْبِيَاءِ :] وَلَقَدْ دَخَلَ مُوسَى بْنُ عِمْرَانَ وَمَعَهُ أَخُوهُ هَارُونُ(عليهما السلام) عَلَى فِرْعَوْنَ، وَعَلَيْهِمَا مَدَارِعُ الصُّوفِ، وَبِأَيْدِيهِمَا الْعِصِيُّ، فَشَرَطَا لَهُ ـ إِنْ أَسْلَمَ ـ بَقَاءَ مُلْكِهِ، وَدَوَامَ عِزِّهِ، فَقَالَ : أَلاَ تَعْجَبُونَ مِنْ هَذَيْنِ يَشْرِطَانِ لِي دَوَامَ الْعِزِّ، وَبَقَاءَ الْمُلْكِ، وَهُمَا بِمَا تَرَوْنَ مِنْ حَالِ الْفَقْرِ وَالذُّلِّ، فَهَلَّا أُلْقِيَ عَلَيْهِمَا أَسَاوِرَةٌ مِنْ ذَهَب؟ إِعْظَاماً لِلذَّهَبِ وَجَمْعِهِ، وَاحْتِقَاراً لِلصُّوفِ وَلُبْسِهِ!",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "[تواضع الأنبياء :] ولقد دخل موسى بن عمران ومعه أخوه هارون(عليهما السلام) على فرعون، وعليهما مدارع الصوف، وبأيديهما العصي، فشرطا له ـ إن أسلم ـ بقاء ملكه، ودوام عزه،",
+          "name_en": "Musa b. 'Imran",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

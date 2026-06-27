@@ -1,0 +1,241 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:77:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[1] name_ar has 27 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'قوله (عليه السلام): «ليفوقونني» أي: يعطونني من المال قليلا ق'"
+  ],
+  "result": {
+    "tags": [
+      "history",
+      "economy",
+      "social_relations"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "events",
+      "poverty_wealth",
+      "quran_interpretation_method"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "قَالَ الشَّرِيفُ: وَيُرْوَى: «الْـتُّرَابُ الْوَذَمَةُ»",
+        "translations": {
+          "en": "As-Sayyid (al-Radi) said: It is narrated: \"The soil (sticking to) the piece of flesh.\"",
+          "ur": "قال السيد (الرازي): ويروى: «التراب الذي على قطعة اللحم».",
+          "tr": "Es-Sayyid (er-Radi) dedi: Rivayet edilir: \"Et parçasına yapışan toprak.\"",
+          "fa": "قال السيد (الرازي): ويروى: «التراب الذي على قطعة اللحم».",
+          "id": "As-Sayyid (al-Radi) berkata: Diriwayatkan: \"Tanah (yang menempel pada) sepotong daging.\"",
+          "bn": "আস-সাইয়্যিদ (আল-রাদি) বলেছেন: বর্ণিত হয়েছে, \"মাংসের টুকরোতে লাগে থাকা মাটি।\"",
+          "es": "Dijo al-Sayyid (al-Radi): Se narra: «La tierra (que se adhiere) al trozo de carne.»",
+          "fr": "As-Sayyid (al-Radi) a dit : On rapporte : « La terre (adhérant au) morceau de chair. »",
+          "de": "As-Sayyid (text\": \"As-Sayyid (al-Radi) sagte: Es wird überliefert: 'Der Staub (der an) dem Fleischstück haftet.'\"}",
+          "ru": "Сказал ас-Саййид (аль-Ради): передается: «Земля (прилипшая) к куску мяса».",
+          "zh": "قال السيد (الradi): ويروى: «التراب (الملتصق) بقطعة اللحم.»"
+        },
+        "word_start": 0,
+        "word_end": 5
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَهُوَ عَلَى الْقَلْبِ. وَ قَوْلُهُ (عَلَيْهِ السَّلَامُ): «لَيُفَوّقونَني» أَي: يُعْطُونَني مِنَ الْمَالِ قَلِيلًا قَلِيلًا كَفُوقِ النَّاقَةِ، وَهُوَ الْحِلْبَةُ الْوَاحِدَةُ مِنْ لَبَنِهَا. وَالْوِذَامُ: جَمْعُ وَذَمَة، وَهِيَ: الْحُزَّةُ مِنَ الْكَرْشِ أَوِ الْكَبِدِ تَقَعُ فِي الْـتُّرَابِ فَتَنْفُضُ.",
+        "translations": {
+          "en": "That is, the adjective and the noun are swapped. And his saying (peace be upon him): \"They will give me bit by bit,\" means: They will give me from the wealth little by little, like the milking of the she-camel, which is the single handful of her milk. And \"al-widham\" is the plural of \"wadhamah\", which is the piece of the stomach or the liver that falls on the ground and then the dust is removed from it.",
+          "ur": "یعنی صفت اور اسم جگہ بدل لیتے ہیں۔ اور اس کی بات (صلی اللہ علیہ وسلم) کہ \"وہ مجھے تھوڑا تھوڑا دیں گے\"، اس کا مطلب ہے کہ وہ مجھے مال سے تھوڑا تھوڑا دیں گے، جیسے اونٹنی کا دودھ نکالنا، جو کہ ایک ہاتھ بھر دودھ ہے۔ اور \"الوذام\" \"وذامہ\" کا جمع ہے، جو کہ پیٹ یا جگر کا وہ ٹکڑا ہے جو زمین پر گرتا ہے اور پھر اس سے مٹی صاف کی جاتی ہے۔",
+          "tr": "Yani sıfat ve isim yer değiştirmiştir. Onun (sallallahu aleyhi vesellem) \"Bana parça parça vereceklerdir\" sözü, onlardan bana azar azar, tıpkı dişi deveden sağılan tek avuç süt gibi, verilmesi anlamındadır. \"El-vidham\" ise \"vadame\"nin çoğuludur ki, karnın veya karaciğerin yere düşen parçasıdır, sonra üzerindeki toz temizlenir.",
+          "fa": "یعنی صفت و موصوف جابجا شده‌اند. و قول او (صلی الله علیه و آله وسلم): «آن‌ها تکه تکه به من می‌دهند» به این معناست: آن‌ها از ثروت کم کم به من می‌دهند، مانند دوشیدن شتر ماده که یک مشت شیر اوست. و «الوضام» جمع «وضامه» است که قطعه‌ای از معده یا کبد است که بر زمین می‌افتد و سپس گرد و غبار از آن پاک می‌شود.",
+          "id": "Yaitu, sifat dan maushufnya dipertukarkan. Dan firman beliau (shallallahu 'alaihi wasallam): \"Mereka akan memberikanku sedikit demi sedikit,\" maksudnya: Mereka akan memberikanku dari harta sedikit demi sedikit, seperti memerah unta betina, yang merupakan segengam susu. Dan \"al-widham\" adalah jamak dari \"wadhamah\", yaitu potongan perut atau hati yang jatuh ke tanah lalu debu dibersihkan darinya.",
+          "bn": "অর্থাৎ, বিশেষণ ও বিশেষ্যের স্থান বিনিময় হয়েছে। এবং তাঁর বাক্য (তাঁর উপর শান্তি বর্ষিত হোক): \"তারা আমাকে ধীরে ধীরে দেবে\", এর অর্থ: তারা আমাকে ধন-সম্পদ থেকে একটু একটু করে দেবে, উটনী থেকে দুধ চাপার মতো, যা তার দুধের এক মুঠো। আর \"আল-বিদাম\" হলো \"ওয়াধামাহ\"-এর বহুবচন, যা হলো পেটের বা যকৃতির একটি টুকরো যা মাটিতে পড়ে এবং তারপর তার উপর থেকে ধুলো মুছে ফেলা হয়।",
+          "es": "Es decir, se intercambian el adjetivo y el sustantivo. Y su dicho (que la paz y las bendiciones de Alá sean con él): \"Me darán poco a poco\", significa: Me darán de la riqueza poco a poco, como la ordeña de la camella hembra, que es la mano llena de su leche. Y \"al-widham\" es el plural de \"wadhamah\", que es la pieza del estómago o del hígado que cae al suelo y luego se le quita el polvo.",
+          "fr": "Cela signifie que l'adjectif et le nom sont échangés. Et sa parole (que la paix soit sur lui) : « Ils me donneront petit à petit », signifie : Ils me donneront de la richesse peu à peu, comme la traite de la chamelle, qui est la poignée unique de son lait. Et « al-widham » est le pluriel de « wadhamah », qui est le morceau de l'estomac ou du foie qui tombe par terre, puis dont on enlève la poussière.",
+          "de": "Das bedeutet, dass das Adjektiv und das Nomen vertauscht werden. Und seine Aussage (friede sei mit ihm): „Sie werden mir nach und nach geben“, bedeutet: Sie werden mir von dem Vermögen nach und nach geben, wie das Melken der Stute, bei dem nur eine einzige Handvoll Milch gewonnen wird. Und „al-widham“ ist der Plural von „wadhamah“, welches das Stück des Magens oder der Leber ist, das auf den Boden fällt und worauf dann der Staub entfernt wird.",
+          "ru": "То есть прилагательное и существительное меняются местами. И его слова (да благословит его Аллах и приветствует): «Они будут давать мне понемногу», означают: они будут давать мне из богатства они будут давать мне понемногу, подобно тому, как доят вербицу, которая дает лишь горсть молока за раз. А «аль-видхам» — это множественное число от «вадхама», что означает кусок желудка или печени, который падает на землю, после чего с него стряхивают пыль.",
+          "zh": "也就是说，形容词和名词互换位置。他的话说（愿主福安之）：“他们会一点一点地给我”，意思是：他们会从财富中一点一点地给我，就像挤母骆驼的奶一样，那是一小把奶。“al-widham”是“wadhamah”的复数形式，而“wadhamah”是指掉在地上的胃或肝脏的一块，然后将其上的灰尘去掉。"
+        },
+        "word_start": 5,
+        "word_end": 39
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Sharif al-Radi’s commentary clarifies the textual variant 'al-widhamu 'ttaribah' by linking it to 'at-turabu 'l-wadhimah,' emphasizing the imagery of a piece of meat cast aside and covered in dust, symbolizing the Umayyads' disregard for the Prophet's legacy. The explanation of 'layufawwiqunani' as giving little by little, likened to the single handful of milk from a camel's udder, highlights the stinginess and gradual depletion of resources by the Umayyads. This passage reflects the Shia scholarly tradition of using precise linguistic analysis to uncover deeper political and spiritual critiques within the sermons.",
+        "seo_question": "What is the meaning of 'al-widham' and the phrase 'layufawwiqunani' in Nahj al-Balagha?",
+        "key_terms": {
+          "الْوِذَامُ": "Plural of wadhamah, referring to pieces of flesh or organs",
+          "الْوَذَمَةُ": "A piece of flesh or organ, specifically from the stomach or liver",
+          "لَيُفَوّقونَني": "They will give me bit by bit / in small portions",
+          "فُوقِ النَّاقَةِ": "The milking of the she-camel (used as a metaphor for small, gradual amounts)",
+          "الْحِلْبَةُ": "A handful or a single milking session"
+        }
+      },
+      "ur": {
+        "summary": "شریف الرضی کی تشریح متن کی مختلف قراءت 'الوِذَامُ التَّرِیبَة' کو 'الترابُ الوَدیمَة' سے جوڑتی ہے، جس میں گوشت کے ٹکڑے کے تصویر کو دھول میں ڈھکا ہوا دکھایا گیا ہے، جو امویوں کی طرف سے نبی کریم ﷺ کے ورثے کی نظر اندازی کی علامت ہے۔ 'لیُفَوّقونَنی' کی تشریح تھوڑا تھوڑا دینے کے طور پر کی گئی ہے، جو اونٹ کے دودھ کے ایک ہاتھ بھر کے مشابہ ہے، جو امویوں کی بخل اور وسائل کی تدریجی کمی کو اجاگر کرتی ہے۔ یہ passage شیعہ علمی روایت کی عکاسی کرتا ہے جس میں خطبات کے اندر گہری سیاسی اور روحانی تنقید کو سمجھنے کے لیے دقیق لغوی تجزیہ کا استعمال کیا جاتا ہے۔",
+        "seo_question": "نہج البلاغہ میں 'الوِذَام' اور عبارت 'لیُفَوّقونَنی' کا کیا مطلب ہے؟",
+        "key_terms": {
+          "الْوِذَامُ": "ودمہ کا جمع، گوشت کے ٹکڑوں یا اعضاء کی طرف اشارہ",
+          "الْوَذَمَةُ": "گوشت کا ٹکڑا یا عضو، خاص طور پر معدے یا جگر سے",
+          "لَيُفَوّقونَني": "وہ مجھے تھوڑا تھوڑا / چھوٹے حصوں میں دیں گے",
+          "فُوقِ النَّاقَةِ": "اونٹنی کا دودھ نکالنا (چھوٹے، تدریجی مقداروں کی استعارے کے طور پر)",
+          "الْحِلْبَةُ": "ایک ہاتھ بھر یا ایک بار دودھ نکالنے کی نشست"
+        }
+      },
+      "tr": {
+        "summary": "Şerif er-Radi'nin tefsiri, 'el-vizâmü't-teribe' metin varyantını 'et-turabu'l-vadhimah' ile ilişkilendirerek, Umeyyilerin Peygamber'in mirasına gösterdiği kayıtsızlığı simgeleyen, toz içinde kalmış bir parça et tasvirini vurgular. 'Leyüfavvıkünani' ifadesinin azar azar vermek anlamında, bir deveden sağılan tek avuç sütün kıyaslandığı cimrilik ve kaynakların kademeli olarak tükenmesi anlamına geldiği açıklanır. Bu pasaj, Şii ilim geleneğinin hutbelerdeki derin siyasi ve manevi eleştirileri ortaya çıkarmak için hassas dilbilimsel analiz kullanmasını yansıtır.",
+        "seo_question": "Nehcü'l-Belâga'da 'el-vizâm' ve 'leyüfavvıkünani' ifadesinin anlamı nedir?",
+        "key_terms": {
+          "الْوِذَامُ": "Vadhamah'nın çoğulu, et parçalarını veya organları ifade eder",
+          "الْوَذَمَةُ": "Mideden veya karaciğerden gelen özel olarak et parçası veya organ",
+          "لَيُفَوّقونَني": "Bana azar azar / küçük porsiyonlar halinde verecekler",
+          "فُوقِ النَّاقَةِ": "Dişi deveden sağım (küçük, kademeli miktarlar için metafor olarak kullanılır)",
+          "الْحِلْبَةُ": "Bir avuç veya tek sağım seansı"
+        }
+      },
+      "fa": {
+        "summary": "تفسیر شریف رضی با روشن کردن تفاوت متنی «الوِذامُ التَّرابَة» و پیوند آن با «التُّرابِ الوَذَمَة»، تصویر گوشتی را که پرتاب شده و با غبار پوشیده شده، برجسته می‌کند که نماد بی‌اعتنایی امویان به میراث پیامبر است. توضیح «لیُفَوّقونَنی» به معنای کم‌کم دادن، تشبیه به یک مشت شیر از دوشانه شتر، خستگی و کاهش تدریجی منابع توسط امویان را نشان می‌دهد. این بخش بازتاب سنت علمی شیعه در استفاده از تحلیل زبانی دقیق برای کشف انتقادات سیاسی و معنوی عمیق‌تر در خطبه‌ها است.",
+        "seo_question": "معنی «الوِذام» و عبارت «لیُفَوّقونَنی» در نهج‌البلاغه چیست؟",
+        "key_terms": {
+          "الْوِذَامُ": "جمع وذهمة، اشاره به تکه‌های گوشت یا اندام‌ها",
+          "الْوَذَمَةُ": "تکه‌ای گوشت یا اندام، به‌ویژه از معده یا کبد",
+          "لَيُفَوّقونَني": "مرا تکه‌تکه / به مقدار کم می‌دهند",
+          "فُوقِ النَّاقَةِ": "دوشیدن شتر ماده (به عنوان استعاره برای مقادیر کوچک و تدریجی)",
+          "الْحِلْبَةُ": "یک مشت یا یک نوبت دوشیدن"
+        }
+      },
+      "id": {
+        "summary": "Komentar Syarif ar-Radi memperjelas varian teks 'al-widhamu 'ttaribah' dengan mengaitkannya pada 'at-turabu 'l-wadhimah', menekankan citra sepotong daging yang dibuang dan tertutup debu, yang melambangkan ketidakpedulian Bani Umayyah terhadap warisan Nabi. Penjelasan 'layufawwiqunani' sebagai memberikan sedikit demi sedikit, disamakan dengan segenggam susu dari kantung susu unta, menyoroti kekikiran dan pengurasan sumber daya secara bertahap oleh Bani Umayyah. Kutipan ini mencerminkan tradisi keilmuan Syiah dalam menggunakan analisis linguistik yang tepat untuk mengungkap kritik politik dan spiritual yang lebih dalam dalam khutbah.",
+        "seo_question": "Apa arti 'al-widham' dan frasa 'layufawwiqunani' dalam Nahj al-Balagha?",
+        "key_terms": {
+          "الْوِذَامُ": "Bentuk jamak dari wadhamah, merujuk pada potongan daging atau organ",
+          "الْوَذَمَةُ": "Sepotong daging atau organ, khususnya dari perut atau hati",
+          "لَيُفَوّقونَني": "Mereka memberiku sedikit demi sedikit / dalam porsi kecil",
+          "فُوقِ النَّاقَةِ": "Perah susu unta betina (digunakan sebagai metafora untuk jumlah kecil dan bertahap)",
+          "الْحِلْبَةُ": "Sebuah genggam atau satu sesi pemerahan"
+        }
+      },
+      "bn": {
+        "summary": "শরীফ আল-রাদির ব্যাখ্যায় 'আল-উযামু 'ত-তরীবাহ' পাঠের ভিন্নতা 'আত-তুরাবু 'ল-উযামাহ'-এর সাথে যুক্ত করে, যা মাংসের টুকরোকে ধুলোয় ঢাকা অবস্থায় ফেলে রাখার চিত্র তুলে ধরে, যা উমাইয়া বংশের নবীর উত্তরাধিকারের প্রতি অবহেলাকে প্রতীকীভাবে নির্দেশ করে। 'লাইউফাওউকুনানী'-কে একে একে অল্প অল্প দেওয়া হিসেবে ব্যাখ্যা করা হয়েছে, যা উটের দুধের এক মুঠোর সাথে তুলনা করা হয়েছে, যা উমাইয়া বংশের কৃপণতা এবং সম্পদের ধীরে ধীরে ক্ষয় হওয়াকে তুলে ধরে। এই অংশটি শিয়া পণ্ডিতদের ভাষিক বিশ্লেষণের মাধ্যমে খুতবাগুলোর মধ্যে গভীর রাজনৈতিক ও আধ্যাত্মিক সমালোচনা উন্মোচনের ঐতিহ্যকে প্রতিফলিত করে।",
+        "seo_question": "নহজুল বালাগহায় 'আল-উযাম' এবং 'লাইউফাওউকুনানী' এর অর্থ কী?",
+        "key_terms": {
+          "الْوِذَامُ": "ওয়াযামাহ-এর বহুবচন, মাংসের টুকরো বা অঙ্গসমূহকে নির্দেশ করে",
+          "الْوَذَمَةُ": "মাংসের টুকরো বা অঙ্গ, বিশেষ করে পেট বা যকৃৎ থেকে",
+          "لَيُفَوّقونَني": "তারা আমাকে একে একে বা ছোট ছোট অংশে দেবে",
+          "فُوقِ النَّاقَةِ": "উটের দুধ চাওয়া (ছোট, ধীরে ধীরে পরিমাণের উপমা হিসেবে ব্যবহৃত)",
+          "الْحِلْبَةُ": "এক মুঠো বা একবার দুধ চাওয়ার সেশন"
+        }
+      },
+      "es": {
+        "summary": "El comentario de Sharif al-Radi aclara la variante textual 'al-widhamu 'ttaribah' vinculándola con 'at-turabu 'l-wadhimah', enfatizando la imagen de un trozo de carne desechado y cubierto de polvo, lo que simboliza el desdén de los omeyas por el legado del Profeta. La explicación de 'layufawwiqunani' como dar poco a poco, comparado con la sola mano de leche de la ubre de una camella, resalta la tacañería y el agotamiento gradual de los recursos por parte de los omeyas. Este pasaje refleja la tradición erudita chiita de utilizar un análisis lingüístico preciso para desvelar críticas políticas y espirituales más profundas dentro de las sermones.",
+        "seo_question": "¿Cuál es el significado de 'al-widham' y la frase 'layufawwiqunani' en Nahj al-Balagha?",
+        "key_terms": {
+          "الْوِذَامُ": "Plural de wadhamah, que se refiere a trozos de carne u órganos",
+          "الْوَذَمَةُ": "Un trozo de carne u órgano, específicamente del estómago o el hígado",
+          "لَيُفَوّقونَني": "Me darán poco a poco / en pequeñas porciones",
+          "فُوقِ النَّاقَةِ": "La ordeña de la camella (utilizada como metáfora de cantidades pequeñas y graduales)",
+          "الْحِلْبَةُ": "Un puñado o una sola sesión de ordeña"
+        }
+      },
+      "fr": {
+        "summary": "Le commentaire de Sharif al-Radi clarifie la variante textuelle 'al-widhamu 'ttaribah' en la reliant à 'at-turabu 'l-wadhimah', soulignant l'image d'un morceau de viande jeté à part et couvert de poussière, symbolisant le mépris des Omeyyades pour l'héritage du Prophète. L'explication de 'layufawwiqunani' comme donnant peu à peu, comparé à la poignée unique de lait du pis d'une chamelle, met en évidence l'avarice et l'épuisement progressif des ressources par les Omeyyades. Ce passage reflète la tradition savante chiite consistant à utiliser une analyse linguistique précise pour dévoiler des critiques politiques et spirituelles plus profondes dans les sermons.",
+        "seo_question": "Quelle est la signification de 'al-widham' et de l'expression 'layufawwiqunani' dans Nahj al-Balagha ?",
+        "key_terms": {
+          "الْوِذَامُ": "Pluriel de wadhamah, désignant des morceaux de chair ou des organes",
+          "الْوَذَمَةُ": "Un morceau de chair ou un organe, spécifiquement de l'estomac ou du foie",
+          "لَيُفَوّقونَني": "Ils me donneront petit à petit / en petites portions",
+          "فُوقِ النَّاقَةِ": "La traite de la chamelle (utilisée comme métaphore pour de petites quantités progressives)",
+          "الْحِلْبَةُ": "Une poignée ou une seule séance de traite"
+        }
+      },
+      "de": {
+        "summary": "Sharif al-Radis Kommentar klärt die textliche Varianten wie 'al-widhamu 'ttaribah', indem er sie mit 'at-turabu 'l-wadhimah' verbindet und das Bild eines beiseite geworfenen, mit Staub bedeckten Fleischstücks betont, das die Missachtung des Prophetenerbes durch die Umayyaden symbolisiert. Die Erklärung von 'layufawwiqunani' als schrittweise Gabe, verglichen mit der einzelnen Handvoll Milch aus dem Euter einer Kamelstute, unterstreicht die Geizhaftigkeit und die schrittweise Erschöpfung der Ressourcen durch die Umayyaden. Dieser Abschnitt spiegelt die schiitische Gelehrtentradition wider, die präzise linguistische Analyse nutzt, um tiefere politische und spirituelle Kritiken in den Predigten aufzudecken.",
+        "seo_question": "Was bedeutet 'al-widham' und die Phrase 'layufawwiqunani' in Nahj al-Balagha?",
+        "key_terms": {
+          "الْوِذَامُ": "Mehrzahl von wadhamah, bezieht sich auf Fleischstücke oder Organe",
+          "الْوَذَمَةُ": "Ein Fleischstück oder Organ, spezifisch aus dem Magen oder der Leber",
+          "لَيُفَوّقونَني": "Sie werden mir nach und nach / in kleinen Portionen geben",
+          "فُوقِ النَّاقَةِ": "Das Melken der Kamelstute (als Metapher für kleine, schrittweise Mengen verwendet)",
+          "الْحِلْبَةُ": "Eine Handvoll oder eine einzelne Melkeinheit"
+        }
+      },
+      "ru": {
+        "summary": "Тафсир Шарифа ар-Ради проясняет текстовую вариацию «аль-видхаму ат-тариба», связывая её с «ат-тураби аль-вадиме», подчёркивая образ куска мяса, брошенного в сторону и покрытого пылью, что символизирует пренебрежение омейядов наследием Пророка. Объяснение «ляйуфаввикуна ни» как дробной выдачи, сравнимой с одним глотком молока из вымени верблюдицы, выделяет скупость и постепенное истощение ресурсов омейядами. Этот отрывок отражает шиитскую учёную традицию использования точного лингвистического анализа для выявления более глубоких политических и духовных критик в проповедях. | Какое значение имеют «аль-видхам» и фраза «ляйуфаввикуна ни» в «Хадж аль-Балаге»? | [",
+        "seo_question": "Какое значение имеют «аль-видхам» и фраза «ляйуфаввикуна ни» в «Хадж аль-Балаге»?",
+        "key_terms": {
+          "الْوِذَامُ": "Множественное число от вадама, обозначающее куски плоти или органы",
+          "الْوَذَمَةُ": "Кусок плоти или орган, конкретно из желудка или печени",
+          "لَيُفَوّقونَني": "Они будут давать мне понемногу / малыми порциями",
+          "فُوقِ النَّاقَةِ": "Доение верблюдицы (используется как метафора малых, постепенных количеств)",
+          "الْحِلْبَةُ": "Пригоршня или одна сессия доения"
+        }
+      },
+      "zh": {
+        "summary": "谢里夫·拉迪的注释通过联系“al-widhamu 'ttaribah”与“at-turabu 'l-wadhimah”，澄清了文本变体，强调了被抛弃并覆盖灰尘的肉块的意象，象征着倭马亚人对先知遗产的忽视。对“layufawwiqunani”解释为一点一点地给予，类似于从骆驼乳房中挤出的单把奶，突出了倭马亚人的吝啬和资源逐渐耗尽。这段文字反映了什叶派学术传统，即通过精确的语言分析在演讲中揭示更深层的政治和精神批评。",
+        "seo_question": "《纳赫吉·布拉格》中“al-widham”和短语“layufawwiqunani”的含义是什么？",
+        "key_terms": {
+          "الْوِذَامُ": "wadhamah的复数，指肉块或器官",
+          "الْوَذَمَةُ": "一块肉或器官，特指胃或肝脏",
+          "لَيُفَوّقونَني": "他们一点一点地给我/分小份",
+          "فُوقِ النَّاقَةِ": "母牛挤奶（用作小量、逐渐给予的隐喻）",
+          "الْحِلْبَةُ": "一把或单次挤奶"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:12",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "36:75",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "قَالَ الشَّرِيفُ: وَيُرْوَى: «الْـتُّرَابُ الْوَذَمَةُ» وَهُوَ عَلَى الْقَلْبِ. وَ قَوْلُهُ (عَلَيْهِ السَّلَامُ): «لَيُفَوّقونَني» أَي: يُعْطُونَني مِنَ الْمَالِ قَلِيلًا قَلِيلًا كَفُوقِ النَّاقَةِ، وَهُوَ الْحِلْبَةُ الْوَاحِدَةُ مِنْ لَبَنِهَا. وَالْوِذَامُ: جَمْعُ وَذَمَة، وَهِيَ: الْحُزَّةُ مِنَ الْكَرْشِ أَوِ الْكَبِدِ تَقَعُ فِي الْـتُّرَابِ فَتَنْفُضُ.",
+    "isnad_matn": {
+      "isnad_ar": "قال الشريف: ويروى: «التراب الوَذَمَة»، وهو على القلب. و قوله (عليه السلام): «لَيُفَوّقونَني» أي: يعطونني من المال قليلاً قليلاً كفُواق الناقة، وهو الحلبة الواحدة من لبنها. والوِذَامُ: جمع وَذَمة، وهي: الحُزّة من الكرش أوالكبد تقع في",
+      "matn_ar": "قَالَ الشَّرِيفُ: وَيُرْوَى: «الْـتُّرَابُ الْوَذَمَةُ» وَهُوَ عَلَى الْقَلْبِ. وَ قَوْلُهُ (عَلَيْهِ السَّلَامُ): «لَيُفَوّقونَني» أَي: يُعْطُونَني مِنَ الْمَالِ قَلِيلًا قَلِيلًا كَفُوقِ النَّاقَةِ، وَهُوَ الْحِلْبَةُ الْوَاحِدَةُ مِنْ لَبَنِهَا. وَالْوِذَامُ: جَمْعُ وَذَمَة، وَهِيَ: الْحُزَّةُ مِنَ الْكَرْشِ أَوِ الْكَبِدِ تَقَعُ فِي الْـتُّرَابِ فَتَنْفُضُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "قال الشريف: ويروى: «التراب الوذمة»، وهو على القلب.",
+          "name_en": "al-Sharif",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "قوله (عليه السلام): «ليفوقونني» أي: يعطونني من المال قليلا قليلا كفواق الناقة، وهو الحلبة الواحدة من لبنها. والوذام: جمع وذمة، وهي: الحزة من الكرش أوالكبد تقع في",
+          "name_en": "al-Salam",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,359 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:43:15",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[4] name_ar has 24 words (>14, بن-density 0.12 — likely a sentence fragment, not a name): 'عبد الله بن جعفر الحميري قال: إجتمعت أنا والشيخ أبوعمرو عند '",
+    "narrator[5] name_ar has 55 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'الخلف. فقلت له: يا با عمرو إني أريد (أن) أسألك وما أنا بشاك '"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "history",
+      "quran_commentary"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imamate",
+      "imams_biography",
+      "quran_interpretation_method",
+      "trust"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "وَأَخْبَرَنَا جَمَاعَةٌ، عَنْ أَبِي الْقَاسِمِ جَعْفَرِ بْنِ مُحَمَّدِ بْنِ قُلْوَيْهَ، وَأَبِي غَالِبٍ الزَّرَّارِيِّ وَأَبِي مُحَمَّدٍ التَّلْعَكْبَرِيِّ، كُلُّهُمْ عَنْ مُحَمَّدِ بْنِ يَعْقُوبَ الْكُلَيْنِيِّ رَحِمَهُ اللَّهُ تَعَالَى، عَنْ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ وَمُحَمَّدِ بْنِ يَحْيَى، عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ قَالَ: اجْتَمَعْتُ أَنَا وَالشَّيْخُ أَبُو عَمْرٍو عِنْدَ أَحْمَدَ بْنِ إِسْحَاقَ بْنِ سَعْدٍ الْأَشْعَرِيِّ الْقُمِّيِّ،",
+        "translations": {
+          "en": "And a group of scholars informed us, from Abi al-Qasim Ja'far ibn Muhammad ibn Quluwayh, and Abi Ghalib al-Zarari and Abi Muhammad al-Tala'kabari, all of them from Muhammad ibn Ya'qub al-Kulayni (may Allah have mercy on him), from Muhammad ibn Abdullah and Muhammad ibn Yahya, from Abdullah ibn Ja'far al-Himyari, who said: I and Shaykh Abu Amr were together at the house of Ahmad ibn Ishaq ibn Sa'd al-Ash'ari al-Qummi,",
+          "ur": "اور علماء کی ایک جماعت نے ہمیں بیان کیا، ابی القاسم جعفر بن محمد بن قولویہ سے، اور ابی غالب زراری اور ابی محمد تلکبری سے، سب نے محمد بن یعقوب کلینی (رحمہ اللہ) سے، محمد بن عبد اللہ اور محمد بن یحییٰ سے، عبد اللہ بن جعفر حمیری سے روایت کی کہ انہوں نے کہا: میں اور شیخ ابو عمرو احمد بن اسحاق بن سعد اشعری قمی کے گھر میں موجود تھے،",
+          "tr": "Ve bir grup alim, Ebülkasım Ca'far b. Muhammed b. Kuluveyh, ve Ebû Gâlib ez-Zerrârî ve Ebû Muhammed et-Telkeberî'den, hepsi Muhammed b. Yâkûb el-Kuleynî'den (Allah ondan razı olsun), Muhammed b. Abdullah ve Muhammed b. Yahyâ'dan, Abdullah b. Ca'far el-Himyrî'den rivayet ettiler; o da şöyle dedi: Ben ile Şeyh Ebû Amr, Ahmed b. İshak b. Sa'd el-Eş'arî el-Kummi'nin evinde birlikte idik.",
+          "fa": "وگروهی از علماء به ما خبر دادند، از ابی‌القاسم جعفر بن محمد بن قولویه، و ابی‌غالب زراری و ابی‌محمد تلعکبری، که همه آن‌ها از محمد بن یعقوب کلینی (رحمه‌الله) نقل کرده‌اند، از محمد بن عبدالله و محمد بن یحیی، از عبدالله بن جعفر حمیری، که گفت: من و شیخ ابی‌عمرمر در خانه احمد بن اسحاق بن سعد اشعری قمی حضور داشتم",
+          "id": "Dan sekelompok ulama memberitahu kami, dari Abi al-Qasim Ja'far ibn Muhammad ibn Quluwayh, dan Abi Ghalib al-Zarari dan Abi Muhammad al-Tala'kabari, semuanya dari Muhammad ibn Ya'qub al-Kulayni (semoga Allah memberinya rahmat), dari Muhammad ibn Abdullah dan Muhammad ibn Yahya, dari Abdullah ibn Ja'far al-Himyari, yang berkata: Aku dan Syekh Abu Amr berada di rumah Ahmad ibn Ishaq ibn Sa'd al-Ash'ari al-Qummi,",
+          "bn": "এবং একদল উলামা আমাদেরকে জানিয়েছেন, আবুল কাসিম জাফর ইবনে মুহাম্মদ ইবনে কুলুইহ, এবং আবুল গালিব আল-জারারি এবং আবুল মুহাম্মদ আল-তালকাবরী, সকলেই মুহাম্মদ ইবনে ইয়াকুব আল-কুলাইনি (আল্লাহ তায়ালার রহমত হোক তাঁর উপর), মুহাম্মদ ইবনে আবদুল্লাহ এবং মুহাম্মদ ইবনে ইয়াহ্যা, আবদুল্লাহ ইবনে জাফর আল-হিমারী থেকে, যিনি বলেছেন: আমি এবং শেখ আবু আমর একসাথে ছিলেন আহমদ ইবনে ইসহাক ইবনে সাঈদ আল-আশআরি আল-কুম্মির বাড়িতে,",
+          "es": "Y nos informaron un grupo de eruditos, de Abi al-Qasim Ja'far ibn Muhammad ibn Quluwayh, y Abi Ghalib al-Zarari y Abi Muhammad al-Tala'kabari, todos ellos de Muhammad ibn Ya'qub al-Kulayni (que Allah tenga misericordia de él), de Muhammad ibn Abdullah y Muhammad ibn Yahya, de Abdullah ibn Ja'far al-Himyari, quien dijo: Yo y el Jeque Abu Amr estábamos juntos en la casa de Ahmad ibn Ishaq ibn Sa'd al-Ash'ari al-Qummi,",
+          "fr": "Et un groupe de savants nous a informé, par Abi al-Qasim Ja'far ibn Muhammad ibn Quluwayh, et Abi Ghalib al-Zarari et Abi Muhammad al-Tala'kabari, tous d'après Muhammad ibn Ya'qub al-Kulayni (qu'Allah lui fasse miséricorde), par Muhammad ibn Abdullah et Muhammad ibn Yahya, par Abdullah ibn Ja'far al-Himyari, qui a dit : Moi et le Cheikh Abu Amr étions ensemble chez Ahmad ibn Ishaq ibn Sa'd al-Ash'ari al-Qummi,",
+          "de": "Und eine Gruppe von Gelehrten überlieferte uns von Abi al-Qasim Dscha'far ibn Muhammad ibn Quluwayh, und Abi Ghalib al-Zarari und Abi Muhammad al-Tala'kabari, alle von Muhammad ibn Ya'qub al-Kulayni (möge Allah ihn Allah mit Barmherzigkeit erfüllen), von Muhammad ibn Abdullah und Muhammad ibn Yahya, von Abdullah ibn Ja'far al-Himyari, der sagte: Ich und Scheich Abu Amr befanden uns bei Ahmad ibn Ishaq ibn Sa'd al-Ash'ari al-Qummi,",
+          "ru": "И группа ученых передала нам, от Абу аль-Касима Джафара ибн Мухаммада ибн Кулувайха, и Абу Галиба аз-Зарари, и Абу Мухаммада ат-Талякабари, все они от Мухаммада ибн Якуба аль-Кулайни (да помилует его Аллах), от Мухаммада ибн Абдуллаха и Мухаммада ибн Яхьи, от Абдуллаха ибн Джафара аль-Химари, который сказал: Я и шейх Абу Амр находились в доме Ахмада ибн Иshaqа ибн Са'да аль-Аш'ари аль-Кумми,",
+          "zh": "且众学者传述给我们，由艾比·卡西姆·贾法尔·本·穆罕默德·本·古鲁维，以及艾比·加里布·扎拉里和艾比·穆罕默德·塔拉卡巴里，他们皆传自穆罕默德·本·雅各布·库莱尼（愿真主怜悯他），由穆罕默德·本·阿卜杜拉和穆罕默德·本·叶海亚，由阿卜杜拉·本·贾法尔·希米里传述说：我和谢赫艾比·安马尔在艾哈迈德·本·伊斯哈格·本·萨德·阿什阿里·库米家中相聚，"
+        },
+        "word_start": 0,
+        "word_end": 53
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَغَمَزَنِي أَحْمَدُ (بْنُ إِسْحَاقَ) أَنْ أَسْأَلَهُ عَنِ الْخَلَفِ. فَقُلْتُ لَهُ: يَا أَبَا عَمْرٍو إِنِّي أُرِيدُ (أَنْ) أَسْأَلَكَ وَمَا أَنَا بِشَاكٍ فِيمَا أُرِيدُ أَنْ أَسْأَلَكَ عَنْهُ، فَإِنَّ اعْتِقَادِي وَدِينِي أَنَّ الْأَرْضَ لَا تَخْلُو مِنْ حُجَّةٍ إِلَّا إِذَا كَانَ قَبْلَ (يَوْمِ) الْقِيَامَةِ بِأَرْبَعِينَ يَوْمًا، فَإِذَا كَانَ ذَلِكَ وَقَعَتِ الْحُجَّةُ وَغُلِقَ بَابُ التَّوْبَةِ فَلَمْ يَنْفَعْ نَفْسًا إِيمَانُهَا لَمْ تَكُنْ آمَنَتْ مِنْ قَبْلُ أَوْ كَسَبَتْ فِي إِيمَانِهَا خَيْرًا فَأُولَئِكَ أَشْرَارٌ مِنْ خَلْقِ اللَّهِ عَزَّ وَجَلَّ، وَهُمْ الَّذِينَ تَقُومُ عَلَيْهِمُ الْقِيَامَةُ وَلَكِنْ أَحْبَبْتُ أَنْ أَزْدَادَ يَقِينًا، فَإِبْرَاهِيمَ (عَلَيْهِ السَّلَامُ) سَأَلَ رَبَّهُ أَنْ يُرِيَهُ كَيْفَ يُحْيِي الْمَوْتَى",
+        "translations": {
+          "en": "so Ahmad (ibn Ishaq) gestured to me to ask him about the successor. I said to him: O Abu Amr, I want to ask you, and I am not uncertain about what I want to ask you, for my belief and religion is that the earth does not remain without a Divine Proof (Hujjah) unless it is forty days before the Day of Resurrection. And when that happens, the Hujjah is raised and the door of repentance is closed, and it will not benefit any soul its faith if it had not believed before or earned good in its faith. Those are the wicked of Allah's creation, and they are the ones against whom the Resurrection stands. But I wished to increase my certainty, as Ibrahim (peace be upon him) asked his Lord to show him how He brings the dead to life.",
+          "ur": "پس احمد (ابن اسحاق) نے مجھے اشارہ کیا کہ میں ان سے خلیفہ کے بارے میں پوچھوں۔ میں نے ان سے کہا: اے ابو عمرو! میں آپ سے پوچھنا چاہتا ہوں، اور مجھے اس بات میں کوئی شک نہیں کہ میں آپ سے کیا پوچھنا چاہتا ہوں، کیونکہ میرا عقیدہ اور دین یہ ہے کہ زمین قیامت سے چالیس دن قبل کے سوا کسی بھی وقت الہی حجت (حجت) سے خالی نہیں رہتی۔ اور جب ایسا ہو جائے گا، تو حجت اٹھا لی جائے گی اور توبہ کا دروازہ بند کر دیا جائے گا، اور کسی جان کو اس کا ایمان فائدہ نہیں دے گا اگر اس نے پہلے سے ایمان نہ لایا ہو یا اپنے ایمان میں نیکی کمائی ہو۔ یہ اللہ کی مخلوق میں بدبخت ہیں، اور یہی وہ لوگ ہیں جن کے خلاف قیامت کھڑی ہوگی۔ لیکن میں اپنی یقینیت کو زیادہ کرنا چاہتا تھا، جیسے ابراہیم (علیہ السلام) نے اپنے رب سے درخواست کی تھی کہ وہ انہیں دکھائے کہ وہ مردوں کو کیسے زندہ کرتا ہے۔",
+          "tr": "Böylece Ahmed (ibn İshak) bana halefi hakkında sormam için işaret etti. Ben de ona: Ey Ebû Amr, sana sormak istiyorum ve sormak istediğim konuda şüphe duymuyorum; çünkü inanç ve dinim şudur ki, kıyamet günü gelinceye kadar kırk gün hariç, yeryüzü ilahi bir huccet (Hüccet) olmadan kalmaz. O zaman huccet kaldırılır ve tövbe kapısı kapanır; ve eğer önce iman etmemişse veya imanında hayır kazanmamışsa, her cana imanı fayda etmez. Bunlar Allah'ın yaratıklarından olan fâsıklardır ve onlar kıyametin karşısında duranlardır. Ama ben kesinliğimi artırmak istedim; tıpkı İbrahim'in (aleyhisselam) Rabbine ölülerdir nasıl dirilttiğini göstermesini istediği gibi.",
+          "fa": "پس احمد (ابن اسحاق) به من اشاره کرد که از او درباره جانشین بپرسم. گفتم: ای ابعمرو، می‌خواهم از تو بپرسم و در آنچه می‌خواهم بپرسم شکی ندارم، زیرا اعتقاد و دین من این است که زمین از حجت الهی خالی نمی‌ماند مگر چهل روز پیش از روز رستاخیز. و هنگامی که آن فرا رسد، حجت برکنار می‌شود و درِ توبه بسته می‌گردد، و به هر جانگوشی ایمانش سودی نبخشد اگر پیش از آن ایمان نیاورده یا در ایمانش نیکی کسب نکرده باشد. آنان بدکاران آفریدگان خداوندند و آنان کسانی هستند که قیامت در برابر آنان ایستاده است. اما من خواستم یقین خود را افزایش دهم، همان‌گونه که ابراهیم (علیه‌السلام) از پروردگارش خواست تا به او نشان دهد چگونه مردگان را زنده می‌کند.",
+          "id": "Maka Ahmad (ibn Ishaq) memberi isyarat kepadaku untuk bertanya kepadanya tentang penerus. Aku berkata kepadanya: Wahai Abu Amr, aku ingin bertanya kepadamu, dan aku tidak ragu-ragu tentang apa yang ingin aku tanyakan kepadamu, karena keyakinan dan agamaku adalah bahwa bumi tidak akan tetap tanpa Hujjah Ilahi (Dalil Ilahi) kecuali empat puluh hari sebelum Hari Kiamat. Dan ketika itu terjadi, Hujjah diangkat dan pintu taubat ditutup, dan keimanan tidak akan bermanfaat bagi jiwa manapun jika ia tidak beriman sebelumnya atau memperoleh kebaikan dalam keimanannya. Mereka adalah orang-orang yang celaka dari ciptaan Allah, dan merekalah yang menjadi lawan dalam Kiamat. Tetapi aku ingin meningkatkan kepastianku, sebagaimana Ibrahim (alamah) meminta Tuhannya untuk menunjukkan kepadanya bagaimana Dia menghidupkan orang mati.",
+          "bn": "অতএব আহমদ (ইবনে ইসহাক) আমার প্রতি ইশারা করলেন যে তাকে উত্তরাধিকারী সম্পর্কে জিজ্ঞাসা করি। আমি তাঁকে বললাম: হে আবু আমর, আমি আপনাকে জিজ্ঞাসা করতে চাই, এবং আমি আমার জিজ্ঞাসার বিষয়ে অনিশ্চিত নই, কারণ আমার বিশ্বাস ও ধর্ম হলো যে, কিয়ামতের দিন পর্যন্ত পৃথিবীতে আল্লাহর দলীল (হুজ্জা) ছাড়া কোনো দিনই অবশিষ্ট থাকে না, যদি না তা কিয়ামতের ঠিক চল্লিশ দিন আগে হয়। এবং যখন তা ঘটে, তখন হুজ্জা উঠিয়ে নেওয়া হয় এবং তওবার দরজা বন্ধ হয়ে যায়, এবং যে জীবের আগে থেকেই বিশ্বাস ছিল না বা সে নিজের বিশ্বাসে ভালো কাজ অর্জন করেনি, তার জন্য তার বিশ্বাস কোনো উপকারে আসবে না। তারা হলো আল্লাহর সৃষ্টির মধ্যে পাপাচারী, এবং তারা সেই সব লোক যাদের বিরুদ্ধে কিয়ামত দাঁড়িয়ে থাকে। কিন্তু আমি আমার নিশ্চিতকরণ বৃদ্ধি করতে চাইলাম, যেমন ইব্রাহীম (আ.) তাঁর রবকে জিজ্ঞাসা করেছিলেন যে তিনি মৃতদেরকে কীভাবে জীবিত করেন।",
+          "es": "Entonces Ahmad (Ibn Ishaq) me hizo un gesto para que le preguntara sobre el sucesor. Le dije: ¡Oh Abu Amr! Quiero preguntarte, y no tengo duda sobre lo que quiero preguntarte, pues mi creencia y religión son que la tierra no permanece sin una Prueba Divina (Hujjah) a menos que sean cuarenta días antes del Día de la Resurrección. Y cuando eso ocurra, la Hujjah será elevada y se cerrará la puerta del arrepentimiento, y no beneficiará a ninguna alma su fe si no había creído antes o ganado bien en su fe. Esos son los malvados de la creación de Allah, y son aquellos contra quienes se levanta la Resurrección. Pero deseaba aumentar mi certeza, como Ibrahim (que la paz sea con él) le pidió a su Señor que le mostrara cómo resucita a los muertos.",
+          "fr": "Alors Ahmad (Ibn Ishaq) me fit signe de lui demander au sujet du successeur. Je lui dis : Ô Abou Amr, je veux te poser une question, et je ne suis pas incertain quant à ce que je veux te demander, car ma croyance et ma religion sont que la terre ne reste pas sans une Preuve Divine (Hujjah), sauf pendant quarante jours avant le Jour de la Résurrection. Et lorsque cela se produit, la Hujjah est élevée et la porte du repentir est fermée, et la foi ne profitera à aucune âme si elle n'a pas cru auparavant ou acquis le bien dans sa foi. Ce sont les méchants de la création d'Allah, et ce sont ceux contre qui se dresse la Résurrection. Mais je souhaitais accroître ma certitude, comme Ibrahim (que la paix soit sur lui) a demandé à son Seigneur de lui montrer comment Il ressuscite les morts.",
+          "de": "Da deutete mir Ahmad (ibn Ishaq), ihn nach dem Nachfolger zu fragen. Ich sagte zu ihm: O Abu Amr, ich möchte dich fragen, und ich bin nicht unsicher über das, was ich dich fragen möchte, denn mein Glaube und meine Religion sind, dass die Erde nicht ohne einen göttlichen Beweis (Hujjah) verbleibt, es sei denn, vierzig Tage vor dem Jüngsten Tag. Und wenn das geschieht, wird die Hujjah erhoben und die Pforte der Reue wird geschlossen, und es wird keiner Seele nützen, ihren Glauben zu haben, wenn sie nicht vorher geglaubt oder in ihrem Glauben Gutes erworben hat. Das sind die Frevler unter der Schöpfung Allahs, und sie sind diejenigen, gegen die die Auferstehung steht. Aber ich wünschte, meine Gewissheit zu erhöhen, wie Ibrahim (Friede sei mit ihm) seinen Herrn bat, ihm zu zeigen, wie Er die Toten zum Leben erweckt.",
+          "ru": "так Ахмад (ибн Ишак) указал мне жестом дал мне спросить его о преемнике. Я сказал ему: О Абу Амр, я хочу спросить тебя, и я не сомневаюсь в том, что хочу спросить тебя, ибо моя вера и религия заключаются в том, что земля не остается без Божественного Доказательства (Худжи), кроме как сорок дней перед Днём Воскресения. И когда это произойдет, Худжа будет возвышена, и дверь покаяния будет закрыта, и не принесет пользы никакой душе ее вера, если она не уверовала прежде или не приобрела добра в своей вере. Это нечестивые из творений Аллаха, и они те, против кого стоит Воскресение. Но я желал укрепить свою уверенность, как Ибрахим (мир ему) просил своего Господа показать ему, как Он оживляет мертвых.",
+          "zh": "于是艾哈迈德（伊本·伊什哈克）向我示意，让我向他询问关于继任者的问题。我对他说：阿布·阿姆鲁啊，我想问你，我对所问之事并非不确定，因为我的信仰和宗教观是：大地不会在没有真主明证（胡贾）的情况下持续存在，除非在复活日前四十天。当那时到来，胡贾将被提升，忏悔之门关闭，任何灵魂若此前未曾信仰或在其信仰中未行善，其信仰将不再有益。这些是安拉创造中的恶人，复活之日将针对他们。但我希望增加我的确信，正如易卜拉欣（愿主福安之）向他的主祈求，让他看到主如何使死者复活一样。"
+        },
+        "word_start": 53,
+        "word_end": 144
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "﴿قَالَ: أَوَلَمْ تُؤْمِنْ؟ قَالَ: بَلَى، وَلَكِنْ لِيَطْمَئِنَّ قَلْبِي﴾",
+        "translations": {
+          "en": "He said: 'And have you not believed?' He said: 'Yes, but [I ask] that my heart may be satisfied.'",
+          "ur": "انہوں نے کہا: 'کیا تم نے ایمان نہیں لایا؟' انہوں نے کہا: 'ہاں، لیکن [یہ پوچھ رہا ہوں] تاکہ میرا دل مطمئن ہو جائے۔'",
+          "tr": "Dedi ki: 'İnanmadınız mı?' Dedi ki: 'EDEDİ: 'Evet, ama kalbim huzur bulsun diye [soruyorum].'",
+          "fa": "گفتم: «آیا ایمان نیاوردی؟» گفت: «آری، ولی [این را می‌پرسم] تا دلم آرام گیرد.»",
+          "id": "Ia berkata, 'Dan apakah kamu belum beriman?' Ia menjawab, 'Ya, tetapi [aku bertanya] agar hatiku menjadi tenang.'",
+          "bn": "তিনি বললেন, 'আপনি কি ঈমান আনেননি?' তিনি বললেন, 'হ্যাঁ, কিন্তু [আমি এটি জানতে চাইছি] যাতে আমার হৃদয় শান্তি পায়।'",
+          "es": "Dijo: '¿Y no habéis creído?' Dijo: 'Sí, pero [pregunto] para que mi corazón esté satisfecho.'",
+          "fr": "Il dit : « Et n'avez-vous pas cru ? » Il dit : « Si, mais [je demande] que mon cœur soit rassuré. »",
+          "de": "Er sagte: 'Und hast du nicht geglaubt?' Er sagte: 'Doch, aber [ich frage], damit mein Herz befriedigt wird.'",
+          "ru": "Он сказал: «Разве ты не уверовал?» Он сказал: «Да, но [я спрашиваю], чтобы успокоилось моё сердце».",
+          "zh": "他说：“难道你们没有信仰吗？”他说：“是的，但（我请求）以便我的心得以安宁。”"
+        },
+        "word_start": 144,
+        "word_end": 152
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَخْبَرَنَا أَحْمَدُ بْنُ إِسْحَاقَ أَبَا عَلِي عَنْ أَبِي الْحَسَنِ (عَلَيْهِ السَّلَامُ) قَالَ: سَأَلْتُهُ فَقُلْتُ لَهُ: لِمَنْ أُعَامِلُ وَعَمَّنْ آخُذُ وَقَوْلَ مَنْ أُقْبِلُ؟ فَقَالَ لَهُ: الْعُمَرِيُّ ثِقَتِي فَمَا أَدَّى إِلَيْكَ فَعَنِّي يُؤَدِّي، وَمَا قَالَ لَكَ فَعَنِّي يَقُولُ فَاسْمَعْ لَهُ وَأَطِعْ، فَإِنَّهُ الثِّقَةُ الْمَأْمُونُ. قَالَ: وَأَخْبَرَنِي أَبُوعَلِي أَنَّهُ سَأَلَ أَبَا مُحَمَّدٍ الْحَسَنَ بْنَ عَلِيٍّ عَنْ مِثْلِ ذَلِكَ فَقَالَ لَهُ: الْعُمَرِيُّ وَابْنُهُ ثِقَتَانِ، فَمَا أَدَيَا إِلَيْكَ فَعَنِّي يُؤَيِّدَانِ، وَمَا قَالَا لَكَ فَعَنِّي يَقُولَانِ، فَاسْمَعْ لَهُمَا وَأَطِعْهُمَا فَإِنَّهُمَا الثِّقَتَانِ الْمَأْمُونَانِ. فَهَذَا قَوْلُ إِمَامَيْنِ قَدْ مَضَيَا فِيكَ.",
+        "translations": {
+          "en": "And Ahmad ibn Ishaq Abu Ali narrated to me from Abu al-Hasan (peace be upon him), who said: I asked him and said to him: 'With whom should I transact, from whom should I take, and whose word should I accept?' He said to him: 'Al-Umari is my trustworthy man. Whatever he delivers to you, he delivers from me, and whatever he says to you, he says from me. So listen to him and obey him, for he is the trustworthy and reliable one.' He said: 'And Abu Ali informed me that he asked Abu Muhammad al-Hasan ibn Ali about the same thing, and he said to him: 'Al-Umari and his son are two trustworthy men. Whatever they deliver to you, they deliver from me, and whatever they say to you, they say from me. So listen to them and obey them, for they are the two trustworthy and reliable ones.' This is the statement of two Imams who have passed regarding you.",
+          "ur": "اور احمد بن اسحاق ابوالحسن (علیہ السلام) سے روایت کرتے ہیں کہ انہوں نے کہا: میں نے ان سے پوچھا اور کہا: 'میں کس سے لین دین کروں، کس سے لوں اور کس کی بات مانوں؟' انہوں نے کہا: 'العمری میرا قابل اعتماد آدمی ہے۔ جو کچھ وہ تمہارے پاس پہنچائے، وہ مجھ سے پہنچاتا ہے، اور جو کچھ وہ تم سے کہے، وہ مجھ سے کہتا ہے۔ پس اس کی بات سنو اور اس کی اطاعت کرو، کیونکہ وہ قابل اعتماد اور مستند ہے۔' انہوں نے کہا: 'اور ابوالعلی نے مجھے بتایا کہ انہوں نے ابومحمد الحسن بن علی سے بھی یہی سوال کیا، اور انہوں نے کہا: 'العمری اور اس کا بیٹا دو قابل اعتماد آدمی ہیں۔ جو کچھ وہ تمہارے پاس پہنچائیں، وہ مجھ سے پہنچاتے ہیں، اور جو کچھ وہ تم سے کہیں، وہ مجھ سے کہتے ہیں۔ پس ان کی بات سنو اور ان کی اطاعت کرو، کیونکہ وہ دو قابل اعتماد اور مستند ہیں۔' یہ ان دو ائمہ کا فرمان ہے جو تمہارے بارے میں گزر چکے ہیں۔",
+          "tr": "Ahmed bin İshak Ebu Ali bana rivayet etti, o da şöyle dedi: Ebu'l-Hasan (aleyhisselam) rivayet etti: Ben ona sordum ve dedim ki: 'Kiminle işlem yapmalıyım, kimden almalıyım ve kime güvenmeliyim?' O bana şöyle dedi: 'El-Ümari benim güvenilir adamımdır. Sana ne getirirse, benden getirir; sana ne söylerse, benden söyler. O halde ona kulak ver ve itaat et, çünkü o güvenilir ve emin olandır.' Dedim ki: 'Ebu Ali bana haber verdi ki, o da Ebu Muhammed Hasan bin Ali'den aynı şeyi sormuştu ve o da ona şöyle demişti: 'El-Ümari ve oğlu iki güvenilir adamdır. Sana ne getirirlerse, benden getirirler; sana ne söylerlerse, benden söylerler. O halde onlara kulak ver ve itaat et, çünkü onlar iki güvenilir ve emin olandır.' Bu, sizin hakkınızdaki iki İmam'ın sözleridir.",
+          "fa": "و احمد بن اسحاق ابوالحسن (علیه السلام) برایم روایت کرد که گفت: از او پرسیدم و گفتم: با چه کسی معامله کنم، از چه کسی بگیرم و از چه کسی سخن را بپذیرم؟ گفت: العُمَری مرد امین من است. هر چه به تو برساند، از جانب من برساند و هر چه به تو بگوید، از جانب من بگوید. پس به او گوش کن و اطاعت کن، زیرا او امین و قابل اعتماد است. گفت: و ابوالحسن برایم اطلاع داد که از ابومحمد حسن بن علی درباره همان چیز پرسید و به او گفت: العُمَری و پسرش دو مرد امین هستند. هر چه به تو برسانند، از جانب من برسانند و هر چه به تو بگویند، از جانب من بگویند. پس به آنها گوش کن و اطاعت کن، زیرا آنها دو امین و قابل اعتماد هستند. این سخن دو امامی است که درباره تو گذشته‌اند.",
+          "id": "Dan Ahmad bin Ishaq Abu Ali telah menceritakan kepadaku dari Abu al-Hasan (alamah), ia berkata: Aku bertanya kepadanya dan berkata kepadanya: 'Dengan siapa aku harus bertransaksi, dari siapa aku harus mengambil, dan ucapan siapa yang harus aku terima?' Ia berkata kepadanya: 'Al-Umari adalah orang yang terpercaya dariku. Apa pun yang ia sampaikan kepadamu, ia sampaikan dariku, dan apa pun yang ia katakan kepadamu, ia katakan dariku. Maka dengarkanlah ia dan taatilah ia, karena ia adalah orang yang terpercaya dan dapat diandalkan.' Ia berkata: 'Dan Abu Ali memberitahuku bahwa ia bertanya kepada Abu Muhammad al-Hasan bin Ali tentang hal yang sama, dan ia berkata kepadanya: 'Al-Umari dan putranya adalah dua orang yang terpercaya. Apa pun yang mereka sampaikan kepadamu, mereka sampaikan dariku, dan apa pun yang mereka katakan kepadamu, mereka katakan dariku. Maka dengarkanlah mereka dan taatilah mereka, karena mereka adalah dua orang yang terpercaya dan dapat diandalkan.' Ini adalah pernyataan dua Imam yang telah wafat mengenai kamu.",
+          "bn": "আর আহমাদ ইবনে ইশাক আবুল হাসান (রহ.) হতে বর্ণনা করেন, তিনি বলেন: আমি তাঁকে জিজ্ঞাসা করলাম এবং বললাম: 'আমি কার সাথে লেনদেন করব, কার নিকট থেকে নেব এবং কার কথাকে গ্রহণ করব?' তিনি বললেন: 'আল-উমারি আমার বিশ্বস্ত ব্যক্তি। তিনি যা তোমার নিকট পৌঁছান, তা আমার নিকট থেকে পৌঁছান, এবং তিনি যা তোমাকে বলেন, তা আমার নিকট থেকে বলেন। অতএব, তাঁর কথা শোনা এবং তাঁর আনুগত্য কর, কারণ তিনিই হলেন বিশ্বস্ত ও নির্ভরযোগ্য ব্যক্তি।' তিনি বলেন: 'আর আবুল আলী আমাকে জানিয়েছেন যে, তিনি আবু মুহাম্মাদ আল-হাসান ইবনে আলী (রহ.)-কে একই বিষয়ে জিজ্ঞাসা করেছিলেন, এবং তিনি তাঁকে বলেছিলেন: 'আল-উমারি এবং তাঁর পুত্র — এই দুজন হলেন বিশ্বস্ত ব্যক্তি। তারা যা তোমার নিকট পৌঁছান, তারা আমার নিকট থেকে পৌঁছান, এবং তারা যা তোমাকে বলেন, তারা আমার নিকট থেকে বলেন। অতএব, তাদের কথা শোনা এবং তাদের আনুগত্য কর, কারণ তারা হলেন দুই বিশ্বস্ত ও নির্ভরযোগ্য ব্যক্তি।' এটি হলো সেই দুই ইমামের বাক্য, যারা তোমাদের বিষয়ে মৃত্যুবরণ করেছেন।",
+          "es": "Y narró Ahmad ibn Ishaq Abu Ali a mí de Abu al-Hasan (que la paz sea con él), quien dijo: Le pregunté y le dije: '¿Con quién debo transigir, de quién debo tomar y de quién debo aceptar la palabra?' Él le dijo: 'Al-Umari es mi hombre confiable. Todo lo que te entrega, lo entrega de mi parte, y todo lo que te dice, lo dice de mi parte. Así que escúchalo y obedece, pues él es el confiable y fiable.' Dijo: 'Y Abu Ali me informó que preguntó a Abu Muhammad al-Hasan ibn Ali sobre lo mismo, y le dijo: 'Al-Umari y su hijo son dos hombres confiables. Todo lo que te entregan, lo entregan de mi parte, y todo lo que te dicen, lo dicen de mi parte. Así que escúchalos y obedece, pues ellos son los dos confiables y fiables.' Esta es la declaración de dos Imames que han fallecido respecto a ti.",
+          "fr": "Et Ahmad ibn Ishaq Abou Ali m'a rapporté d'après Abou Abou al-Hasan (que la paix soit sur lui), qui a dit : Je lui ai demandé et je lui ai dit : « Avec qui dois-je faire des transactions, de qui dois-je prendre, et la parole de qui dois-je accepter ? » Il lui a dit : « Al-Oumari est mon homme de confiance. Tout ce qu'il vous apporte, il l'apporte de ma part, et tout ce qu'il vous dit, il le dit de ma part. Écoutez-le donc et obéissez-lui, car il est le digne de confiance et le fiable. » Il a dit : « Et Abou Ali m'a informé qu'il avait posé la même question à Abou Muhammad al-Hasan ibn Ali, et celui-ci lui a dit : « Al-Oumari et son fils sont deux hommes de confiance. Tout ce qu'ils vous apportent, ils l'apportent de ma part, et tout ce qu'ils vous disent, ils le disent de ma part. Écoutez-les donc et obéissez-leur, car ils sont les deux dignes de confiance et fiables. » Telle est la parole de deux Imams qui nous ont précédés à votre sujet.",
+          "de": "Und Ahmad ibn Ishaq Abu Ali überlieferte mir von Abu al-Hasan (friede sei mit ihm), der sagte: Ich fragte ihn und sagte zu ihm: »Mit wem soll ich handeln, von wem soll ich nehmen und wessen Wort soll ich annehmen?« Er sagte zu ihm: »Al-Umari ist mein vertrauenswürdiger Mann. Was auch immer er dir überbringt, das überbringt er von mir, und was auch immer er dir sagt, das sagt er von mir. Also höre auf ihn und gehorche ihm, denn er ist der Vertrauenswürdige und Zuverlässige.« Er sagte: »Und Abu Ali informierte mich, dass er Abu Muhammad al-Hasan ibn Ali dasselbe fragte, und er sagte zu ihm: »Al-Umari und sein Sohn sind zwei vertrauenswürdige Männer. Was auch immer sie dir überbringen, das überbringen sie von mir, und was auch immer sie dir sagen, das sagen sie von mir. Also höre auf sie und gehorche ihnen, denn sie sind die beiden Vertrauenswürdigen und Zuverlässigen.« Dies ist die Aussage zweer Imame, die über dich gesprochen haben.",
+          "ru": "И Ахмад ибн Ишаку Абу Али рассказал мне от Абу аль-Хасана (да будет мир с ним), который сказал: Я спросил его и сказал ему: «С кем мне иметь дело, от кого мне брать и чье слово мне принимать?» Он сказал ему: «Аль-Умари — мой доверенный человек. Все, что он передает вам, он передает от меня, и все, что он говорит вам, он говорит от меня. Так слушайте его и слушайтесь его, ибо он — доверенный и надежный». Он сказал: «И Абу Али сообщил мне, что он спросил Абу Мухаммада аль-Хасана ибн Али об этом же, и он сказал ему: „Аль-Умари и его сын — два доверенных человека. Все, что они передают вам, они передают от меня, и все, что они говорят вам, они говорят от меня. Так слушайте их и слушайтесь их, ибо они — два доверенных и надежных“. Это слово двух Имамов, которые сошли, сказанное о вас.",
+          "zh": "艾哈迈德·伊本·伊沙克·艾布·阿里传述给我，他来自艾布·哈桑（愿主喜悦他），他说：我曾问他并说：‘我应该与谁交易？从谁那里接受？听谁的？’他说：‘阿尔-乌马里是我的可信之人。他带给你的，都是从我这里带来的；他对你说的，都是从我这里说的。所以听他的，服从他，因为他是可信可靠的。’他说：‘艾布·阿里告诉我，他曾向艾布·穆罕默德·哈桑·伊本·阿里询问同样的问题，他回答说：‘阿尔-乌马里和他的儿子是两位可信之人。他们带给你的，都是从我这里带来的；他们对你说的，都是从我这里说的。所以听他们的，服从他们，因为他们是两位可信可靠的。’这是两位已故伊玛目对你所说的话。"
+        },
+        "word_start": 152,
+        "word_end": 234
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ: فَخَرَّ أَبُو عَمْرٍو سَاجِدًا وَبَكَى، ثُمَّ قَالَ: سَلْ. فَقُلْتُ لَهُ: أَنْتَ رَأَيْتَ الْخَلَفَ مِنْ أَبِي مُحَمَّدٍ (عَلَيْهِ السَّلَامُ)؟ فَقَالَ: أَيِ اللَّهُ وَرَقْبَتُهُ مِثْلُ هَذَا. وَأَوْمَأَ بِيَدَيْهِ، فَقُلْتُ لَهُ: فَبَقِيَتْ وَاحِدَةٌ. فَقَالَ لِي: هَاتِ. قُلْتُ: فَالِاسْمُ. قَالَ: مَحْرُومٌ عَلَيْكُمْ أَنْ تَسْأَلُوا عَنْ ذَلِكَ، وَلَا أَقُولُ هَذَا مِنْ عِنْدِي وَلَيْسَ لِي أَنْ أُحِلَّ وَأُحَرِّمَ وَلَكِنْ عَنْهُ (عَلَيْهِ السَّلَامُ)، فَإِنَّ الْأَمْرَ عِنْدَ السُّلْطَانِ أَنَّ أَبَا مُحَمَّدٍ (عَلَيْهِ السَّلَامُ) مَضَى وَلَمْ يَخْلُفْ وَلَدًا وَقَسَمَ مِيرَاثَهُ، وَأَخَذَهُ مَنْ لَا حَقَّ لَهُ، وَصَبَرَ عَلَى ذَلِكَ، وَهُوَ ذَا عَيَالُهُ يَجُولُونَ وَلَيْسَ أَحَدٌ يَجْسُرُ أَنْ يَتَعَرَّفَ إِلَيْهِمْ أَوْ يُنِيلَهُمْ شَيْئًا، وَإِذَا وَقَعَ الِاسْمُ وَقَعَ الطَّلَبُ، فَاتَّقُوا اللَّهَ وَأَمْسِكُوا عَنْ ذَلِكَ.",
+        "translations": {
+          "en": "He said: So Abu Amr fell into prostration and wept, then he said: 'Ask.' I said to him: 'Have you seen the successor of Abu Muhammad (peace be upon him)?' He said: 'Yes, by Allah,' and he pointed to his neck with his hands. I said to him: 'Then one remains.' He said to me: 'Bring it forth.' I said: 'The name?' He said: 'It is forbidden for you to ask about that.' And I am not saying this from myself, nor do I have the authority to make halal or haram, but it is from him (peace be upon him). For the matter is with the ruler that Abu Muhammad (peace be upon him) passed away and did not leave a son, and he divided his inheritance, and those without right took it, and he was patient with that. And his household are wandering about, and no one dares to recognize them or provide for them. And when the name appears, the search will begin. So fear Allah and hold back from that.'",
+          "ur": "انہوں نے کہا: پس عمرو بن عاص سجدہ میں گر گئے اور روئے پھر انہوں نے کہا: پوچھو۔ میں نے ان سے کہا: کیا آپ نے ابو محمد (صلی اللہ علیہ وسلم) کے جانشین کو دیکھا ہے؟ انہوں نے کہا: جی ہاں، اللہ کی قسم، اور انہوں نے دونوں ہاتھوں سے اپنے گلے کی طرف اشارہ کیا۔ میں نے ان سے کہا: تو ایک باقی رہ گیا۔ انہوں نے مجھ سے کہا: اسے ظاہر کرو۔ میں نے کہا: نام؟ انہوں نے کہا: تم سے اس کے بارے میں پوچھنا منع ہے۔ اور میں یہ اپنی طرف سے نہیں کہہ رہا ہوں، نہ ہی میرے پاس حلال و حرام کرنے کا اختیار ہے، بلکہ یہ انہی (صلی اللہ علیہ وسلم) سے ہے۔ کیونکہ معاملہ اس حکمران کے پاس ہے جسے ابو محمد (صلی اللہ علیہ وسلم) نے چھوڑا اور انہوں نے کوئی بیٹا نہیں چھوڑا، اور انہوں نے اپنی وراثت تقسیم کی، اور جس کا حق نہیں تھا اس نے اسے لے لیا، اور وہ اس پر صبر کرنے والے تھے۔ اور ان کے خاندان کے لوگ بکھرے ہوئے ہیں، اور کوئی جرات نہیں کرتا کہ انہیں پہچانے یا ان کی کفالت کرے۔ اور جب نام ظاہر ہوگا تو تلاش شروع ہو جائے گی۔ پس اللہ سے ڈرو اور اس چیز سے روکے رہو۔",
+          "tr": "Dedi ki: Öyle ki, Amr oğulları secdeye kapandılar ve ağladılar, sonra dedi: 'Sor.' Ben de ona dedim: 'Abu Muhammed'in (s.a.v.) halefini gördün mü?' Dedi: 'Evet, Allah'a yemin ederim,' ve elleriyle boynuna işaret etti. Ben de ona dedim: 'O halde biri kaldı.' Bana dedi: 'Onu ortaya çıkar.' Dedim: 'İsmi?' Dedi: 'Sormana haramdır.' Ve ben bunu kendimden söylemiyorum, ne de helal veya haram yapmaya yetkim var, ama bu kendisindendir (s.a.v.). Çünkü iş, Abu Muhammed'in (s.a.v.) vefat ettiği ve oğul bırakmadığı hükümdara ait oldu ve mirasını paylaştı, ve hak etmeyenler onu aldı, ve o da buna sabretti. Ve ailesi dolaşıyor, ve kimse onları tanımaya veya onlara bakmaya cesaret edemiyor. Ve isim ortaya çıktığında, arama başlayacak. O halde Allah'tan kork ve bundan sakın.'",
+          "fa": "گفت: پس ابوعمر به سجده رفت و گریه کرد، سپس گفت: «بپرس.» به او گفتم: «جانشین ابومحمد (صلی‌الله‌علیه) را دیده‌ای؟» گفت: «آی به خدا،» و با دست به گردنش اشاره کرد. گفتم: «پس یکی باقی مانده است.» به من گفت: «آن را آشکار ساز.» گفتم: «نامش چیست؟» گفت: «بر تو پرسیدن از آن حرام است.» و من این را از خودم نمی‌گویم، و اختیار حلال و حرام کردن ندارم، بلکه از جانب اوست (صلی‌الله‌علیه). زیرا کار به حاکان رسیده است که ابومحمد (صلی‌الله‌علیه) درگذشت و پسر نداشت، و ارثش را تقسیم کردند، و بی‌حقوق‌ها آن را گرفتند، و او به آن صبر کرد. و خاندانش سرگردان‌اند، و کسی جرات نمی‌کند آن‌ها را بشناسد یا برای آن‌ها تأمین کند. و هنگامی که نام آشکار شود، جستجو آغاز خواهد شد. پس از خدا بترس و از آن بازدار.»",
+          "id": "Ia berkata: Maka Abu Amr sujud dan menangis, lalu ia berkata: 'Tanyakanlah.' Aku berkata kepadanya: 'Apakah engkau telah melihat pengganti Abu Muhammad (semoga Allah memberinya kedamaian)?' Ia berkata: 'Ya, demi Allah,' sambil menunjuk ke lehernya dengan kedua tangannya. Aku berkata kepadanya: 'Maka masih tersisa satu.' Ia berkata kepadaku: 'Keluarkanlah.' Aku berkata: 'Namanya?' Ia berkata: 'Diharamkan bagimu untuk bertanya tentang itu.' Dan aku tidak mengatakan ini dari diriku sendiri, maupun aku memiliki wewenang untuk menghalalkan atau mengharamkan, tetapi ini berasal dari dia (semoga Allah memberinya kedamaian). Karena urusannya berada di tangan penguasa bahwa Abu Muhammad (semoga Allah memberinya kedamaian) wafat dan tidak meninggalkan anak laki-laki, dan ia membagi warisannya, dan mereka yang tidak berhak mengambilnya, dan ia bersabar dengan hal itu. Dan keluarganya berkeliaran, dan tidak ada seorang pun yang berani mengakui atau memberi nafkah kepada mereka. Dan ketika nama itu muncul, pencarian akan dimulai. Maka bertakwalah kepada Allah dan tahanlah diri dari itu.'",
+          "bn": "সে বললেন: তাই আবু আমর সিজদায় পতিত হয়ে রোদন করলেন, অতঃপর তিনি বললেন: 'জিজ্ঞাসা করো।' আমি তাকে বললাম: 'আপনি কি আবু মুহাম্মদ (আলৈহিস সালাম)-এর উত্তরসূরীকে দেখেছেন?' তিনি বললেন: 'হ্যাঁ, আল্লাহর শপথ,' এবং তিনি তাঁর হাত দিয়ে তাঁর গলার দিকে ইশারা করলেন। আমি তাকে বললাম: 'তাহলে একজন অবশিষ্ট রইলেন।' তিনি আমাকে বললেন: 'তাকে প্রকাশ করো।' আমি বললাম: 'নাম?' তিনি বললেন: 'আপনার জন্য তা জানা হারাম।' আর আমি এটা নিজের পক্ষ থেকে বলছি না, এবং আমার হালাল বা হারাম করার ক্ষমতা নেই, বরং এটা তাঁর (আলৈহিস সালাম) পক্ষ থেকে। কারণ বিষয়টি সেই শাসকদের হাতে, যাদের কাছে আবু মুহাম্মদ (আলৈহিস সালাম) ইন্তেকাল করেন এবং তিনি কোনো পুত্র রেখে যাননি, এবং তিনি তাঁর উত্তরাধিকার বিভক্ত করে দিয়েছেন, এবং যাদের কোনো অধিকার নেই তারা তা নিয়ে নিয়েছে, এবং তিনি এতে ধৈর্য ধারণ করেছেন। এবং তাঁর পরিবারের লোকজন ঘুরে বেড়াচ্ছেন, এবং কেউ তাদেরকে চিনতে বা তাদের জন্য ব্যবস্থা করতে সাহস করছে না। এবং যখন নাম প্রকাশ পাবে, তখন অনুসন্ধান শুরু হবে। অতএব, আল্লাহকে ভয় করুন এবং সেই বিষয় থেকে বিরত থাকুন।'।",
+          "es": "Dijo: Entonces, Abu Amr se postró y lloró, y luego dijo: «Pregunta». Le dije: «¿Has visto al sucesor de Abu Muhammad (que la paz sea con él)?». Dijo: «Sí, por Allah», y señaló su cuello con las con sus manos. Le dije: «Entonces queda uno». Me dijo: «Preséntalo». Le dije: «¿El nombre?». Dijo: «Es prohibido para ti preguntar por eso». Y no lo digo por mí mismo, ni tengo la autoridad para declarar halal o haram, sino que es de él (que la paz sea con él). Porque el asunto está con el gobernante, Abu Muhammad (que la paz sea con él) falleció y no dejó un hijo, y repartió su herencia, y los que no tenían derecho la tomaron, y él fue paciente con ello. Y su familia deambula, y nadie se atreve a reconocerlos o mantenerlos. Y cuando aparezca el nombre, comenzará la búsqueda. Así que teme a Allah y abstente de eso».",
+          "fr": "Il dit : Alors Abu Amr se prosterna et pleura, puis il dit : « Demande. » Je lui dis : « As-tu vu le successeur d’Abu Muhammad (que la paix soit sur lui) ? » Il dit : « Oui, par Allah », et il désigna son cou avec ses mains. Je lui dis : « Alors il en reste un. » Il me dit : « Fais-le sortir. » Je dis : « Le nom ? » Il dit : « Il est interdit pour toi de demander cela. » Et je ne dis pas cela de moi-même, ni n’ai l’autorité de rendre le licite ou l’illicite, mais cela vient de lui (que la paix soit sur lui). Car l’affaire est avec le souverain qu’Abu Muhammad (que la paix soit sur lui) est décédé et n’a pas laissé de fils, et il a partagé son héritage, et ceux qui n’y avaient pas droit s’en sont emparés, et il a fait preuve de patience à cet égard. Et sa famille erre çà et là, et personne n’ose les reconnaître ou pourvoir à leurs besoins. Et lorsque le nom apparaîtra, la recherche commencera. Alors crains Allah et abstiens-toi de cela. »",
+          "de": "Er sagte: Da fiel Abu Amr in die Prostration und weinte, dann sagte er: ‚Frag‘. Ich sagte zu ihm: ‚Hast du den Nachfolger des Abu Muhammad (Friede sei mit ihm) gesehen?‘ Er sagte: ‚Ja, beim Allah,‘ und er zeigte mit den Händen auf seinen Hals. Ich sagte zu ihm: ‚Dann bleibt einer übrig.‘ Er sagte zu mir: ‚Bring es hervor.‘ Ich sagte: ‚Der Name?‘ Er sagte: ‚Er ist dir verborgen zu fragen.‘ Und ich sage dies nicht aus mir selbst heraus, noch habe ich die Autorität, Halal oder Haram zu bestimmen, aber es ist von ihm (Friede sei mit ihm). Denn die Angelegenheit ist bei dem Herrscher, dass Abu Muhammad (Friede sei mit ihm) verstarb und keinen Sohn hinterließ, und er sein Erbe aufteilte, und die ohne Recht nahmen es, und er war geduldig damit. Und seine Familie irrt umher, und niemand wagt, sie anzuerkennen oder für sie zu sorgen. Und wenn der Name erscheint, wird die Suche beginnen. So fürchte Allah und halte dich davon zurück.‘",
+          "ru": "Он сказал: Так Абу Амр пал в земной поклон и заплакал, затем он сказал: «Спрашивай». Я сказал ему: «Видел ли ты преемника Абу Мухаммада (да будет мир с ним)?». Он сказал: «Да, клянусь Аллахом», и указал руками на свою шею. Я сказал ему: «Тогда остаётся один». Он сказал мне: «Прояви его». Я сказал: «Имя?». Он сказал: «Тебе запрещено спрашивать об этом». И я говорю это не от себя, и у меня нет власти дозволять или запрещать, но это от него (да будет мир с ним). Ибо дело в том, что правитель, которого оставил Абу Мухаммад (да будет мир с ним), умер и не оставил сына, и он разделил своё наследство, и те, кто не имел права, завладели им, и он проявил терпение с этим. И его домочадцы скитаются, и никто не осмеливается признать их или обеспечивать их. И когда появится имя, начнутся поиски. Так бойся Аллаха и удержись от этого».",
+          "zh": "他说：于是阿布·阿姆尔跪下叩头并哭泣，然后他说：‘问吧。’我对他说：‘你见过阿布·穆罕默德（愿主福安之）的继任者吗？’他说：‘是的，以真主的名义。’他用手指着自己的脖子。我说：‘那么还有一位。’他对我说：‘把他带出来。’我说：‘名字？’他说：‘你问名字是禁止的。’我不是自说自话，我也没有权宜定 halal 或 haram，但这出自他（愿主福安之）。因为事情是这样的：阿布·穆罕默德（愿主福安之）去世时没有留下儿子，他分配了遗产，但无资格的人却夺取了它，而他对此保持忍耐。他的家人四处流浪，无人敢承认他们或供养他们。当名字出现时，搜寻就会开始。所以敬畏真主，克制自己不要问。’"
+        },
+        "word_start": 234,
+        "word_end": 337
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from Kitab al-Ghayba establishes the doctrine of continuous divine guidance (Istidraj) by affirming that the earth never lacks a Hujjah, even during the Major Occultation. It specifically validates Al-Umari and his son as the 'Trustworthy Ones' (Al-Thiqatan) whose authority is equivalent to the Imam's, while noting the transition from name concealment to name revelation upon the Imam's death. The narrative underscores the Shia scholarly emphasis on following the designated deputies during the period of waiting, balancing certainty in the Imam's existence with the practical necessity of adhering to his representatives.",
+        "seo_question": "Who is the successor of Imam al-Hasan al-Askari and what is the ruling on revealing his name during the Minor Occultation?",
+        "key_terms": {
+          "الْحُجَّة": "Divine Proof (Hujjah), referring to the Imam",
+          "الْخَلَف": "The successor",
+          "الْعُمَرِيُّ": "Al-Umari, a key companion and trustworthy narrator",
+          "الثِّقَةُ الْمَأْمُونُ": "The trustworthy and reliable one",
+          "الطَّلَب": "The search (for the Imam's name)",
+          "الْعَيَالُ": "The household/family"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث کتاب الغیبہ سے ہے جو اس بات کی تائید کرتی ہے کہ زمین پر کبھی بھی حجت کی کمی نہیں ہوتی، حتیٰ کہ کبریٰ غیبت کے دوران بھی۔ یہ خاص طور پر عمری اور ان کے بیٹے کو 'دو قابلِ اعتماد' (الثقلان) کے طور پر تسلیم کرتی ہے جن کا اختیار امام کے برابر ہے، اور یہ نوٹ کرتی ہے کہ امام کی وفات کے بعد نام کی پوشیدگی سے نام کی ظاہری حالت کی طرف منتقلی واقع ہوتی ہے۔ یہ روایت شیعہ علما کے اس زور کو اجاگر کرتی ہے کہ انتظار کے دور میں مقرر کردہ نوابوں کی پیروی کی جائے، امام کی موجودگی میں یقین کو ان کے نمائندوں کی پیروی کی عملی ضرورت کے ساتھ متوازن کرتی ہے۔",
+        "seo_question": "امام حسن عسکری کے جانشین کون ہیں اور صغریٰ غیبت کے دوران ان کے نام کے ظاہر کرنے کا حکم کیا ہے؟",
+        "key_terms": {
+          "الْحُجَّة": "حجت",
+          "الْخَلَف": "جانشین",
+          "الْعُمَرِيُّ": "عمری",
+          "الثِّقَةُ الْمَأْمُونُ": "قابلِ اعتماد اور مستند",
+          "الطَّلَب": "تلاش",
+          "الْعَيَالُ": "خاندان"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, Kitab al-Ghayba'dan alınmış olup, Büyük Gizlilik döneminde bile yeryüzünün bir Huccet'ten (İmam) boş kalmadığını belirterek sürekli ilahi rehberlik (İstidraj) doktrini tesis eder. Özellikle Al-Umari ve oğlunu, yetkisi İmam'ın yetkisine eşit olan 'Güvenilirler' (Ez-Zikatan) olarak doğrular ve İmam'ın ölümünden sonra isim gizliliğinden isim açıklamasına geçişi not eder. Anlatı, bekleme döneminde tayin edilmiş vekillere uymaya Shia alimlerinin vurgusunu vurgular, İmam'ın varlığındaki kesinlik ile temsilcilere uyma pratik zorunluluğunu dengeler.",
+        "seo_question": "İmam Hasan el-Askari'nin halefi kimdir ve Küçük Gizlilik döneminde isminin açıklanması hakkında hüküm nedir?",
+        "key_terms": {
+          "الْحُجَّة": "İmam",
+          "الْخَلَف": "Halef",
+          "الْعُمَرِيُّ": "El-Umari",
+          "الثِّقَةُ الْمَأْمُونُ": "Güvenilir ve güvenilir olan",
+          "الطَّلَب": "Arama",
+          "الْعَيَالُ": "Aile"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از کتاب الغیبه، اصل هدایت مستمر الهی (استدراج) را با تأکید بر اینکه زمین هرگز از حجت خالی نمی‌ماند، حتی در دوران غیبت کبری، تثبیت می‌کند. این حدیث به‌طور خاص از عمری و پسرش به عنوان «دو تن راستین» (الثقلین/الثقتان) که اقتدارشان معادل امام است، تأیید می‌کند و در عین حال، گذار از پنهان‌سازی نام به آشکارسازی آن را پس از مرگ امام یادآوری می‌نماید. این روایت بر تأکید شیعیان بر پیروی از نمایندگان منصوب در دوران انتظار، و تعادل میان یقین به وجود امام و ضرورت عملی تبعیت از نمایندگان او، تأکید ویژه‌ای دارد.",
+        "seo_question": "جانشین امام حسن عسکری کیست و حکم آشکارسازی نام او در دوران صغری چیست؟",
+        "key_terms": {
+          "الْحُجَّة": "حجت",
+          "الْخَلَف": "جانشین",
+          "الْعُمَرِيُّ": "عمری",
+          "الثِّقَةُ الْمَأْمُونُ": "ثقه مأمون",
+          "الطَّلَب": "طلب",
+          "الْعَيَالُ": "عیال"
+        }
+      },
+      "id": {
+        "summary": "Hadith dari Kitab al-Ghayba ini menetapkan doktrin bimbingan ilahi yang berkelanjutan (Istidraj) dengan menegaskan bahwa bumi tidak pernah kekurangan Hujjah, bahkan selama Occultation Besar. Hal ini secara khusus memvalidasi Al-Umari dan putranya sebagai 'Orang-Orang Terpercaya' (Al-Thiqatan) yang otoritasnya setara dengan Imam, sambil mencatat transisi dari penyembunyian nama menjadi pengungkapan nama setelah kematian Imam. Narasi ini menekankan penekanan syiah pada kepatuhan kepada wakil yang ditunjuk selama periode penantian, menyeimbangkan kepastian akan keberadaan Imam dengan kebutuhan praktis untuk mengikuti perwakilan mereka.",
+        "seo_question": "Siapa penerus Imam al-Hasan al-Askari dan apa hukum mengenai pengungkapan namanya selama Occultation Kecil?",
+        "key_terms": {
+          "الْحُجَّة": "Bukti Ilahi (Hujjah), merujuk pada Imam",
+          "الْخَلَف": "Penerus",
+          "الْعُمَرِيُّ": "Al-Umari, seorang sahabat kunci dan perawi terpercaya",
+          "الثِّقَةُ الْمَأْمُونُ": "Yang terpercaya dan dapat diandalkan",
+          "الطَّلَب": "Pencarian (terhadap nama Imam)",
+          "الْعَيَالُ": "Rumah tangga/keluarga"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসটি কিতাব আল-গায়েবা থেকে নেওয়া হয়েছে, যা ধর্মীয় নির্দেশের ধারাবাহিকতা (ইস্তিদরাজ) সম্পর্কে শিক্ষা দেয় এবং নিশ্চিত করে যে পৃথিবীতে কখনোই কোনো হুজ্জা (ইমাম) অনুপস্থিত থাকেন না, এমনকি মহা গায়েবতের সময়ও। এটি বিশেষভাবে আল-উমারি এবং তার পুত্রকে 'বিশ্বাসযোগ্য ব্যক্তিগণ' (আত-থিকাতান) হিসেবে স্বীকৃতি দেয়, যাদের কর্তৃত্ব ইমামের সমতুল্য, এবং ইমামের মৃত্যুর পর নাম গোপন থেকে নাম প্রকাশের দিকে পরিবর্তনের বিষয়টি উল্লেখ করে। এই বর্ণনা শিয়া আলেমদের অপেক্ষার সময় মনোনীত প্রতিনিধিদের অনুসরণের গুরুত্ব তুলে ধরে, ইমামের অস্তিত্বে নিশ্চয়তা এবং তার প্রতিনিধিদের অনুসরণের ব্যবহারিক প্রয়োজনীয়তার মধ্যে ভারসাম্য বজায় রাখে।",
+        "seo_question": "ইমাম আল-হাসান আল-আসকারির উত্তরসূরি কে এবং ক্ষুদ্র গায়েবতের সময় তাঁর নাম প্রকাশ করার বিধান কী?",
+        "key_terms": {
+          "الْحُجَّة": "ইমাম",
+          "الْخَلَف": "উত্তরসূরি",
+          "الْعُمَرِيُّ": "আল-উমারি",
+          "الثِّقَةُ الْمَأْمُونُ": "বিশ্বাসযোগ্য ও নির্ভরযোগ্য ব্যক্তি",
+          "الطَّلَب": "অনুসন্ধান",
+          "الْعَيَالُ": "পরিবার"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz del Kitab al-Ghayba establece la doctrina de la guía divina continua (Istidraj) al afirmar que la tierra nunca carece de un Hujjah, incluso durante la Gran Ocultación. Valida específicamente a Al-Umari y a su hijo como los 'Fidables' (Al-Thiqatan) cuya autoridad es equivalente a la del Imam, mientras señala la transición del ocultamiento del nombre a su revelación tras la muerte del Imam. La narrativa subraya el énfasis de los eruditos chiíes en seguir a los delegados designados durante el período de espera, equilibrando la certeza en la existencia del Imam con la necesidad práctica de adherirse a sus representantes. ¿Quién es el sucesor del Imam al-Hasan al-Askari y cuál es la norma sobre revelar su nombre durante la Pequeña Ocultación? [Hujjah], [El sucesor], [Al-Umari], [El fidedigno y confiable], [La búsqueda], [La familia] }```json { ",
+        "seo_question": "¿Quién es el sucesor del Imam al-Hasan al-Askari y cuál es la norma sobre revelar su nombre durante la Pequeña Ocultación?",
+        "key_terms": {
+          "الْحُجَّة": "La Prueba Divina (Hujjah), refiriéndose al Imam",
+          "الْخَلَف": "El sucesor",
+          "الْعُمَرِيُّ": "Al-Umari, un compañero clave y narrador fidedigno",
+          "الثِّقَةُ الْمَأْمُونُ": "El fidedigno y confiable",
+          "الطَّلَب": "La búsqueda (del nombre del Imam)",
+          "الْعَيَالُ": "El hogar/familia"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith du Kitab al-Ghayba établit la doctrine de la guidance divine continue (Istidraj) en affirmant que la terre ne manque jamais d'un Hujjah, même pendant la Grande Occultation. Il valide spécifiquement Al-Umari et son fils en tant que « Les Deux Fiables » (Al-Thiqatan), dont l'autorité est équivalente à celle de l'Imam, tout en notant la transition de la dissimulation du nom à sa révélation lors de la mort de l'Imam. Le récit souligne l'accent mis par les savants chiites sur le suivi des délégués désignés pendant la période d'attente, équilibrant la certitude de l'existence de l'Imam avec la nécessité pratique de se conformer à ses représentants.",
+        "seo_question": "Qui est le successeur de l'Imam al-Hasan al-Askari et quelle est la règle concernant la révélation de son nom pendant la Petite Occultation ?",
+        "key_terms": {
+          "الْحُجَّة": "Preuve divine (Hujjah), se référant à l'Imam",
+          "الْخَلَف": "Le successeur",
+          "الْعُمَرِيُّ": "Al-Umari, un compagnon clé et narrateur fiable",
+          "الثِّقَةُ الْمَأْمُونُ": "Le digne de confiance et fiable",
+          "الطَّلَب": "La recherche (du nom de l'Imam)",
+          "الْعَيَالُ": "Le ménage/la famille"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus dem Kitab al-Ghayba etabliert die Lehre der kontinuierlichen göttlichen Führung (Istidraj), indem es bestätigt, dass die Erde niemals einen Hujjah vermisst, selbst während der Großen Verborgenheit. Es bestätigt spezifisch Al-Umari und seinen Sohn als die 'Vertrauenswürdigen' (Al-Thiqatan), deren Autorität der des Imams gleichwertig ist, und vermerkt gleichzeitig den Übergang von der Namensverschleierung zur Namensoffenbarung beim Tod des Imams. Die Erzählung unterstreicht die schiitische Gelehrtenbetonung auf das Folgen der designierten Stellvertreter während der Wartezeit, wobei sie die Gewissheit in der Existenz des Imams mit der praktischen Notwendigkeit der Befolgung seiner Vertreter in Einklang bringt.",
+        "seo_question": "Wer ist der Nachfolger von Imam al-Hasan al-Askari und wie lautet das Urteil bezüglich der Offenbarung seines Namens während der Kleinen Verborgenheit?",
+        "key_terms": {
+          "الْحُجَّة": "Göttlicher Beweis (Hujjah), der sich auf den Imam bezieht",
+          "الْخَلَف": "Der Nachfolger",
+          "الْعُمَرِيُّ": "Al-Umari, ein wichtiger Gefährte und vertrauenswürdiger Erzähler",
+          "الثِّقَةُ الْمَأْمُونُ": "Der vertrauenswürdige und zuverlässige Mann",
+          "الطَّلَب": "Die Suche (nach dem Namen des Imams)",
+          "الْعَيَالُ": "Die Haushaltung/Familie"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из книги «Аль-Гайба» устанавливает доктрину непрерывного божественного руководства (истидрадж), утверждая, что земля никогда не остается без Худжи, даже в период Большого сокрытия. Он конкретно подтверждает Аль-Умари и его сына как «Надежных» (Ас-Сахибани), чья власть эквивалентна власти Имама, отмечая при этом переход от сокрытия имени к его открытию после смерти Имама. Повествование подчеркивает шиитское внимание к следованию назначенным наместникам в период ожидания, балансируя между уверенностью в существовании Имама и практической необходимостью придерживаться его представителей.",
+        "seo_question": "Кто является преемником Имама аль-Хасана аль-Аскари и каково правило относительно раскрытия его имени в период Малого сокрытия?",
+        "key_terms": {
+          "الْحُجَّة": "Божественное доказательство (Худжа), относящееся к Имаму",
+          "الْخَلَف": "Преемник",
+          "الْعُمَرِيُّ": "Аль-Умари, ключевой сподвижник и надежный передатчик",
+          "الثِّقَةُ الْمَأْمُونُ": "Надежный и достоверный",
+          "الطَّلَب": "Поиск (имени Имама)",
+          "الْعَيَالُ": "Дом/семья"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《隐匿之书》的圣训确立了真主持续引导（伊斯特拉吉）的教义，肯定大地从未缺少胡贾（Hujjah），即使在大隐遁期间也是如此。它特别确认了阿尔-乌马里及其儿子为“可信之人”（阿尔-提卡特恩），其权威等同于伊玛目，同时指出在伊玛目去世时从名字隐匿到名字揭示的转变。这一叙事强调了什叶派学者在等待期间遵循指定代理人的重要性，在确信伊玛目存在的同时，也兼顾遵循其代表的实际必要性。",
+        "seo_question": "伊玛目·哈桑·阿斯卡里的继任者是谁？在小隐遁期间揭示其名字的规定是什么？",
+        "key_terms": {
+          "الْحُجَّة": "伊玛目",
+          "الْخَلَف": "继任者",
+          "الْعُمَرِيُّ": "阿尔-乌马里",
+          "الثِّقَةُ الْمَأْمُونُ": "可信且可靠者",
+          "الطَّلَب": "寻找（伊玛目的名字）",
+          "الْعَيَالُ": "家属/家庭"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "4:17",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "12:108",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:124",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَأَخْبَرَنَا جَمَاعَةٌ، عَنْ أَبِي الْقَاسِمِ جَعْفَرِ بْنِ مُحَمَّدِ بْنِ قُلْوَيْهَ، وَأَبِي غَالِبٍ الزَّرَّارِيِّ وَأَبِي مُحَمَّدٍ التَّلْعَكْبَرِيِّ، كُلُّهُمْ عَنْ مُحَمَّدِ بْنِ يَعْقُوبَ الْكُلَيْنِيِّ رَحِمَهُ اللَّهُ تَعَالَى، عَنْ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ وَمُحَمَّدِ بْنِ يَحْيَى، عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ قَالَ: اجْتَمَعْتُ أَنَا وَالشَّيْخُ أَبُو عَمْرٍو عِنْدَ أَحْمَدَ بْنِ إِسْحَاقَ بْنِ سَعْدٍ الْأَشْعَرِيِّ الْقُمِّيِّ، فَغَمَزَنِي أَحْمَدُ (بْنُ إِسْحَاقَ) أَنْ أَسْأَلَهُ عَنِ الْخَلَفِ. فَقُلْتُ لَهُ: يَا أَبَا عَمْرٍو إِنِّي أُرِيدُ (أَنْ) أَسْأَلَكَ وَمَا أَنَا بِشَاكٍ فِيمَا أُرِيدُ أَنْ أَسْأَلَكَ عَنْهُ، فَإِنَّ اعْتِقَادِي وَدِينِي أَنَّ الْأَرْضَ لَا تَخْلُو مِنْ حُجَّةٍ إِلَّا إِذَا كَانَ قَبْلَ (يَوْمِ) الْقِيَامَةِ بِأَرْبَعِينَ يَوْمًا، فَإِذَا كَانَ ذَلِكَ وَقَعَتِ الْحُجَّةُ وَغُلِقَ بَابُ التَّوْبَةِ فَلَمْ يَنْفَعْ نَفْسًا إِيمَانُهَا لَمْ تَكُنْ آمَنَتْ مِنْ قَبْلُ أَوْ كَسَبَتْ فِي إِيمَانِهَا خَيْرًا فَأُولَئِكَ أَشْرَارٌ مِنْ خَلْقِ اللَّهِ عَزَّ وَجَلَّ، وَهُمْ الَّذِينَ تَقُومُ عَلَيْهِمُ الْقِيَامَةُ وَلَكِنْ أَحْبَبْتُ أَنْ أَزْدَادَ يَقِينًا، فَإِبْرَاهِيمَ (عَلَيْهِ السَّلَامُ) سَأَلَ رَبَّهُ أَنْ يُرِيَهُ كَيْفَ يُحْيِي الْمَوْتَى ﴿قَالَ: أَوَلَمْ تُؤْمِنْ؟ قَالَ: بَلَى، وَلَكِنْ لِيَطْمَئِنَّ قَلْبِي﴾ فَأَخْبَرَنَا أَحْمَدُ بْنُ إِسْحَاقَ أَبَا عَلِي عَنْ أَبِي الْحَسَنِ (عَلَيْهِ السَّلَامُ) قَالَ: سَأَلْتُهُ فَقُلْتُ لَهُ: لِمَنْ أُعَامِلُ وَعَمَّنْ آخُذُ وَقَوْلَ مَنْ أُقْبِلُ؟ فَقَالَ لَهُ: الْعُمَرِيُّ ثِقَتِي فَمَا أَدَّى إِلَيْكَ فَعَنِّي يُؤَدِّي، وَمَا قَالَ لَكَ فَعَنِّي يَقُولُ فَاسْمَعْ لَهُ وَأَطِعْ، فَإِنَّهُ الثِّقَةُ الْمَأْمُونُ. قَالَ: وَأَخْبَرَنِي أَبُوعَلِي أَنَّهُ سَأَلَ أَبَا مُحَمَّدٍ الْحَسَنَ بْنَ عَلِيٍّ عَنْ مِثْلِ ذَلِكَ فَقَالَ لَهُ: الْعُمَرِيُّ وَابْنُهُ ثِقَتَانِ، فَمَا أَدَيَا إِلَيْكَ فَعَنِّي يُؤَيِّدَانِ، وَمَا قَالَا لَكَ فَعَنِّي يَقُولَانِ، فَاسْمَعْ لَهُمَا وَأَطِعْهُمَا فَإِنَّهُمَا الثِّقَتَانِ الْمَأْمُونَانِ. فَهَذَا قَوْلُ إِمَامَيْنِ قَدْ مَضَيَا فِيكَ. قَالَ: فَخَرَّ أَبُو عَمْرٍو سَاجِدًا وَبَكَى، ثُمَّ قَالَ: سَلْ. فَقُلْتُ لَهُ: أَنْتَ رَأَيْتَ الْخَلَفَ مِنْ أَبِي مُحَمَّدٍ (عَلَيْهِ السَّلَامُ)؟ فَقَالَ: أَيِ اللَّهُ وَرَقْبَتُهُ مِثْلُ هَذَا. وَأَوْمَأَ بِيَدَيْهِ، فَقُلْتُ لَهُ: فَبَقِيَتْ وَاحِدَةٌ. فَقَالَ لِي: هَاتِ. قُلْتُ: فَالِاسْمُ. قَالَ: مَحْرُومٌ عَلَيْكُمْ أَنْ تَسْأَلُوا عَنْ ذَلِكَ، وَلَا أَقُولُ هَذَا مِنْ عِنْدِي وَلَيْسَ لِي أَنْ أُحِلَّ وَأُحَرِّمَ وَلَكِنْ عَنْهُ (عَلَيْهِ السَّلَامُ)، فَإِنَّ الْأَمْرَ عِنْدَ السُّلْطَانِ أَنَّ أَبَا مُحَمَّدٍ (عَلَيْهِ السَّلَامُ) مَضَى وَلَمْ يَخْلُفْ وَلَدًا وَقَسَمَ مِيرَاثَهُ، وَأَخَذَهُ مَنْ لَا حَقَّ لَهُ، وَصَبَرَ عَلَى ذَلِكَ، وَهُوَ ذَا عَيَالُهُ يَجُولُونَ وَلَيْسَ أَحَدٌ يَجْسُرُ أَنْ يَتَعَرَّفَ إِلَيْهِمْ أَوْ يُنِيلَهُمْ شَيْئًا، وَإِذَا وَقَعَ الِاسْمُ وَقَعَ الطَّلَبُ، فَاتَّقُوا اللَّهَ وَأَمْسِكُوا عَنْ ذَلِكَ.",
+    "isnad_matn": {
+      "isnad_ar": "وَأَخْبَرَنَا جَمَاعَةٌ، عَنْ أَبِي الْقَاسِمِ جَعْفَرِ بْنِ مُحَمَّدِ بْنِ قُلْوَيْهَ، وَأَبِي غَالِبٍ الزَّرَّارِيِّ وَأَبِي مُحَمَّدٍ التَّلْعَكْبَرِيِّ، كُلُّهُمْ عَنْ مُحَمَّدِ بْنِ يَعْقُوبَ الْكُلَيْنِيِّ رَحِمَهُ اللَّهُ تَعَالَى، عَنْ مُحَمَّدِ بْنِ عَبْدِ اللَّهِ وَمُحَمَّدِ بْنِ يَحْيَى، عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ قَالَ: اجْتَمَعْتُ أَنَا وَالشَّيْخُ أَبُو عَمْرٍو عِنْدَ أَحْمَدَ بْنِ إِسْحَاقَ بْنِ سَعْدٍ الْأَشْعَرِيِّ الْقُمِّيِّ،",
+      "matn_ar": "فَغَمَزَنِي أَحْمَدُ (بْنُ إِسْحَاقَ) أَنْ أَسْأَلَهُ عَنِ الْخَلَفِ. فَقُلْتُ لَهُ: يَا أَبَا عَمْرٍو إِنِّي أُرِيدُ (أَنْ) أَسْأَلَكَ وَمَا أَنَا بِشَاكٍ فِيمَا أُرِيدُ أَنْ أَسْأَلَكَ عَنْهُ، فَإِنَّ اعْتِقَادِي وَدِينِي أَنَّ الْأَرْضَ لَا تَخْلُو مِنْ حُجَّةٍ إِلَّا إِذَا كَانَ قَبْلَ (يَوْمِ) الْقِيَامَةِ بِأَرْبَعِينَ يَوْمًا، فَإِذَا كَانَ ذَلِكَ وَقَعَتِ الْحُجَّةُ وَغُلِقَ بَابُ التَّوْبَةِ فَلَمْ يَنْفَعْ نَفْسًا إِيمَانُهَا لَمْ تَكُنْ آمَنَتْ مِنْ قَبْلُ أَوْ كَسَبَتْ فِي إِيمَانِهَا خَيْرًا فَأُولَئِكَ أَشْرَارٌ مِنْ خَلْقِ اللَّهِ عَزَّ وَجَلَّ، وَهُمْ الَّذِينَ تَقُومُ عَلَيْهِمُ الْقِيَامَةُ وَلَكِنْ أَحْبَبْتُ أَنْ أَزْدَادَ يَقِينًا، فَإِبْرَاهِيمَ (عَلَيْهِ السَّلَامُ) سَأَلَ رَبَّهُ أَنْ يُرِيَهُ كَيْفَ يُحْيِي الْمَوْتَى ﴿قَالَ: أَوَلَمْ تُؤْمِنْ؟ قَالَ: بَلَى، وَلَكِنْ لِيَطْمَئِنَّ قَلْبِي﴾ فَأَخْبَرَنَا أَحْمَدُ بْنُ إِسْحَاقَ أَبَا عَلِي عَنْ أَبِي الْحَسَنِ (عَلَيْهِ السَّلَامُ) قَالَ: سَأَلْتُهُ فَقُلْتُ لَهُ: لِمَنْ أُعَامِلُ وَعَمَّنْ آخُذُ وَقَوْلَ مَنْ أُقْبِلُ؟ فَقَالَ لَهُ: الْعُمَرِيُّ ثِقَتِي فَمَا أَدَّى إِلَيْكَ فَعَنِّي يُؤَدِّي، وَمَا قَالَ لَكَ فَعَنِّي يَقُولُ فَاسْمَعْ لَهُ وَأَطِعْ، فَإِنَّهُ الثِّقَةُ الْمَأْمُونُ. قَالَ: وَأَخْبَرَنِي أَبُوعَلِي أَنَّهُ سَأَلَ أَبَا مُحَمَّدٍ الْحَسَنَ بْنَ عَلِيٍّ عَنْ مِثْلِ ذَلِكَ فَقَالَ لَهُ: الْعُمَرِيُّ وَابْنُهُ ثِقَتَانِ، فَمَا أَدَيَا إِلَيْكَ فَعَنِّي يُؤَيِّدَانِ، وَمَا قَالَا لَكَ فَعَنِّي يَقُولَانِ، فَاسْمَعْ لَهُمَا وَأَطِعْهُمَا فَإِنَّهُمَا الثِّقَتَانِ الْمَأْمُونَانِ. فَهَذَا قَوْلُ إِمَامَيْنِ قَدْ مَضَيَا فِيكَ. قَالَ: فَخَرَّ أَبُو عَمْرٍو سَاجِدًا وَبَكَى، ثُمَّ قَالَ: سَلْ. فَقُلْتُ لَهُ: أَنْتَ رَأَيْتَ الْخَلَفَ مِنْ أَبِي مُحَمَّدٍ (عَلَيْهِ السَّلَامُ)؟ فَقَالَ: أَيِ اللَّهُ وَرَقْبَتُهُ مِثْلُ هَذَا. وَأَوْمَأَ بِيَدَيْهِ، فَقُلْتُ لَهُ: فَبَقِيَتْ وَاحِدَةٌ. فَقَالَ لِي: هَاتِ. قُلْتُ: فَالِاسْمُ. قَالَ: مَحْرُومٌ عَلَيْكُمْ أَنْ تَسْأَلُوا عَنْ ذَلِكَ، وَلَا أَقُولُ هَذَا مِنْ عِنْدِي وَلَيْسَ لِي أَنْ أُحِلَّ وَأُحَرِّمَ وَلَكِنْ عَنْهُ (عَلَيْهِ السَّلَامُ)، فَإِنَّ الْأَمْرَ عِنْدَ السُّلْطَانِ أَنَّ أَبَا مُحَمَّدٍ (عَلَيْهِ السَّلَامُ) مَضَى وَلَمْ يَخْلُفْ وَلَدًا وَقَسَمَ مِيرَاثَهُ، وَأَخَذَهُ مَنْ لَا حَقَّ لَهُ، وَصَبَرَ عَلَى ذَلِكَ، وَهُوَ ذَا عَيَالُهُ يَجُولُونَ وَلَيْسَ أَحَدٌ يَجْسُرُ أَنْ يَتَعَرَّفَ إِلَيْهِمْ أَوْ يُنِيلَهُمْ شَيْئًا، وَإِذَا وَقَعَ الِاسْمُ وَقَعَ الطَّلَبُ، فَاتَّقُوا اللَّهَ وَأَمْسِكُوا عَنْ ذَلِكَ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وأخبرنا جماعة،",
+          "name_en": "wa-akhbarana jamāʿa",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 317
+        },
+        {
+          "name_ar": "أبي القاسم جعفر بن محمد بن قولويه، وأبي غالب الزراري وأبي محمد التلعكبري، كلهم",
+          "name_en": "Abū al-Qāsim Jaʿfar b. Muḥammad b. Qūlawayh, wa-Abū Gālib al-Zarrārī, wa-Abū Muḥammad al-Talaʼkabarī",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "محمد بن يعقوب الكليني رحمه الله تعالى،",
+          "name_en": "Muhammad ibn Ya'qub al-Kulayni",
+          "role": "author",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4345
+        },
+        {
+          "name_ar": "محمد بن عبد الله ومحمد بن يحيى،",
+          "name_en": "Muḥammad b. ʺbd Allāh wa-Muḥammad b. Yahyā",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "عبد الله بن جعفر الحميري قال: إجتمعت أنا والشيخ أبوعمرو عند أحمد بن إسحاق بن سعد الاشعري القمي، فغمزني أحمد (بن إسحاق) أن أسأله",
+          "name_en": "ʺbd Allāh b. Jaʿfar al-Ḥumayrī",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الخلف. فقلت له: يا با عمرو إني أريد (أن) أسألك وما أنا بشاك فيما أريد أن أسألك عنه، فإن اعتقادي وديني أن الارض لا تخلو من حجة إلا إذا كان قبل (يوم) القيامة بأربعين يوما، فإذا كان ذلك وقعت الحجة وغلق باب التوبة فلم يكن ﴿ينفع نفسا إيمانها لم تكن آمنت من قبل أو كسبت",
+          "name_en": "al-Khalaf",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

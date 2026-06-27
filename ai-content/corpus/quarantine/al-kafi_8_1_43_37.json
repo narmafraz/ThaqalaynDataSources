@@ -1,0 +1,540 @@
+{
+  "verse_path": "/books/al-kafi:8:1:43:37",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[2] en translation length out of bounds: 14 en words vs 59 ar words (ratio=0.24, expected 23.6-236.0)",
+    "chunks[2] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[5] en translation length out of bounds: 14 en words vs 38 ar words (ratio=0.37, expected 15.2-152.0)",
+    "chunks[8] en translation length out of bounds: 5 en words vs 34 ar words (ratio=0.15, expected 13.6-136.0)",
+    "chunks[10] translations.ru is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "quran_commentary",
+      "theology",
+      "family"
+    ],
+    "content_type": "quranic_commentary",
+    "topics": [
+      "quran_interpretation_method",
+      "imamate",
+      "ahlulbayt_virtues",
+      "death_dying",
+      "quran_virtues"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ خَالِدٍ وَ الْحُسَيْنِ بْنِ سَعِيدٍ جَمِيعاً عَنِ النَّضْرِ بْنِ سُوَيْدٍ عَنْ يَحْيَى الْحَلَبِيِّ عَنْ عَبْدِ اللَّهِ بْنِ مُسْكَانَ عَنْ زَيْدِ بْنِ الْوَلِيدِ الْخَثْعَمِيِّ عَنْ أَبِي الرَّبِيعِ الشَّامِيِّ قَالَ",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad ibn Isa, from Muhammad ibn Khalid and Al-Husayn ibn Sa'id together, from Al-Nadr ibn Suwayd, from Yahya Al-Halabi, from Abdullah ibn Miskan, from Zayd ibn Al-Walid Al-Khash'ami, from Abu Al-Rabi' Al-Shami, who said:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد بن عیسیٰ سے، محمد بن خالد اور حسین بن سعید دونوں سے، النضر بن سویڈ سے، یحییٰ الحلبی سے، عبداللہ بن مسکان سے، زید بن الولید الخثعمی سے، ابو الربیع الشامی سے، انہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Ahmed b. Muhammed b. İsa'dan, Muhammed b. Halid ve Hüseyin b. Said'den, en-Nadr b. Suveyd'den, Yahya el-Halabi'den, Abdullah b. Miskan'dan, Zeyd b. Velîd el-Kaş'ami'den, Ebu'r-Rabî eş-Şamî'den, o da dedi ki:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى، عَنْ مُحَمَّدِ بْنِ خَالِدٍ وَ الْحُسَعِيدٍ، عَنِ النَّضْرِ بْنِ سُوَيْدٍ، عَنْ يَحْيَى الْحَلَبِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ مُسْكَانَ، عَنْ زَيْدِ بْنِ الْوَلِيدِ الْخَثْعَمِيِّ، عَنْ أَبِي الرَّبِيعِ الشَّامِيِّ، قَالَ:",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad ibn Isa, dari Muhammad ibn Khalid dan Al-Husayn ibn Sa'id bersama-sama, dari Al-Nadr ibn Suwayd, dari Yahya Al-Halabi, dari Abdullah ibn Miskan, dari Zayd ibn Al-Walid Al-Khash'ami, dari Abu Al-Rabi' Al-Shami, yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ ইবনে ঈসা হতে, মুহাম্মাদ ইবনে খালিদ ও আল-হুসাইন ইবনে সাঈদ উভয় হতে, আল-নাদর ইবনে সুওয়াইদ হতে, ইয়াহ্যা আল-হালাবী হতে, আবদুল্লাহ ইবনে মুসকান হতে, জায়েদ ইবনে আল-ওয়ালিদ আল-খাশআমী হতে, আবু আল-রবী আল-শামী হতে, তিনি বলেন:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, de Muhammad ibn Khalid y Al-Husayn ibn Sa'id juntos, de Al-Nadr ibn Suwayd, de Yahya Al-Halabi, de Abdullah ibn Miskan, de Zayd ibn Al-Walid Al-Khash'ami, de Abu Al-Rabi' Al-Shami, quien dijo:",
+          "fr": "Muhammad ibn Yahya, d'Ahmad ibn Ahmad ibn Muhammad ibn Isa, de Muhammad ibn Khalid et Al-Husayn ibn Sa'id ensemble, de Al-Nadr ibn Suwayd, de Yahya Al-Halabi, d'Abdullah ibn Miskan, de Zayd ibn Al-Walid Al-Khash'ami, d'Abu Al-Rabi' Al-Shami, qui a dit :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad ibn Isa, von Muhammad ibn Khalid und Al-Husayn ibn Sa'id gemeinsam, von Al-Nadr ibn Suwayd, von Yahya Al-Halabi, von Abdullah ibn Miskan, von Zayd ibn Al-Walid Al-Khash'ami, von Abu Al-Rabi' Al-Shami, der sagte:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада ибн Исы, от Мухаммада ибн Халида и аль-Хусайна ибн Са‘да вместе, от ан-Надра ибн Сувайда, от Яхьи аль-Халаби, от Абдуллаха ибн Мискана, от Зайда ибн аль-Валида аль-Каш‘ами, от Абу ар-Раб‘и аш-Шами, который сказал:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德·本·伊萨，传自穆罕默德·本·哈立德和侯赛因·本·赛义德二人，传自纳德尔·本·苏韦德，传自叶海亚·哈勒比，传自阿卜杜拉·本·米斯坎，传自宰德·本·瓦利德·哈什阿米，传自艾布·阿尔-拉比·沙米，他说："
+        },
+        "word_start": 0,
+        "word_end": 40
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ (عليه السلام) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ يا أَيُّهَا الَّذِينَ آمَنُوا اسْتَجِيبُوا لِلَّهِ وَ لِلرَّسُولِ إِذا دَعاكُمْ لِما يُحْيِيكُمْ قَالَ نَزَلَتْ فِي وَلَايَةِ عَلِيٍّ (عليه السلام)",
+        "translations": {
+          "en": "I asked Abu Abdillah (peace be upon him) about the Statement of Allah, Mighty and Majestic: 'O you who believe! Answer (the call of) Allah and His Messenger when He calls you to that which gives you life.' He (peace be upon him) said: 'It was revealed regarding the Wilayah of Ali (peace be upon him).'",
+          "ur": "میں نے ابو عبداللہ (علیہ السلام) سے اللہ تعالیٰ کے ارشاد گرامی کے بارے میں پوچھا: اے ایمان والو! اللہ اور اس کے رسول کی آواز پر جواب دو جب وہ تمہیں زندگی دینے والی چیز کی طرف بلاتا ہے۔ انہوں نے (علیہ السلام) فرمایا: یہ آیت علی (علیہ السلام) کی ولایت کے بارے میں نازل ہوئی۔",
+          "tr": "Ben, Ebu Abdillah'dan (aleyhisselam), Allah'ın (celle şanü hû) ",
+          "fa": "ابو عبدالله (علیه السلام) را درباره آیه شریفه: «ای کسانی که ایمان آورده‌اید! به فراخوان خدا و پیامبرش پاسخ دهید، هنگامی که شما را به آن چیزی که به شما حیات می‌بخشد، فرا می‌خواند.» پرسیدم. فرمود: «در شأن ولایت علی (علیه السلام) نازل شده است.»",
+          "id": "Aku bertanya kepada Abu Abdillah (shalatullah ‘alaih) mengenai firman Allah, Maha Perkasa lagi Maha Agung: \"Wahai orang-orang yang beriman! Penuhilah (panggilan) Allah dan Rasul-Nya ketika Dia memanggil kalian kepada apa yang memberi kehidupan kepada kalian.\" Beliau (shalatullah ‘alaih) berkata: \"Ayat ini diturunkan mengenai Wilayah Ali (shalatullah ‘alaih).\"",
+          "bn": "আমি আবু আবদিল্লাহ (আলাইহিস সালাম)-কে আল্লাহ তাআলার বাক্য সম্পর্কে জিজ্ঞাসা করলাম, মহিমান্বিত ও মাহান: 'হে ঈমানদারগণ! আল্লাহ ও তাঁর রাসূলের ডাকে সাড়া দাও, যখন তিনি তোমাদের সেই জিনিসের দিকে ডাকেন যা তোমাদের জন্য জীবনদায়ক।' তিনি (আলাইহিস সালাম) বললেন: 'এটি আলীর ওলায়ত সম্পর্কে অবতীর্ণ হয়েছিল (আলাইহিস সালাম)।'",
+          "es": "Pregunté a Abu Abdillah (que la paz sea con él) sobre la declaración de Allah, Poderoso y Majestuoso: «¡Oh creyentes! Responded a Allah y a Su Mensajero cuando os llama a lo que os da vida». Él (que la paz sea con él) dijo: «Fue revelada respecto a la Wilayah de Ali (que la paz sea con él).»",
+          "fr": "J’ai demandé à Abou Abdillah (que la paix soit sur lui) au sujet de la parole d’Allah, Puissant et Majestueux : « Ô vous qui croyez ! Répondez à Allah et à Son Messager lorsqu’Il vous appelle à ce qui vous donne la vie. » Il (que la paix soit sur lui) a dit : « Elle a été révélée concernant la Wilayah d’Ali (que la paix soit sur lui). »",
+          "de": "Ich fragte Abu Abdillah (friede sei mit ihm) über die Aussage Allahs, des Mächtigen und Erhabenen: »O ihr, die ihr glaubt! Gehorcht Allah und Seinem Gesandten, wenn Er euch zu dem ruft, was euch Leben gibt.« Er (friede sei mit ihm) sagte: »Es wurde bezüglich der Wilayah Ali’s (friede sei mit ihm) offenbart.\"",
+          "ru": "Я спросил Абу Абдуллаха (да будет мир с ним) о словах Аллаха, Всемогущего и Величественного: «О вы, которые уверовали! Отвечайте на зов Аллаха и Его Посланника, когда Он призывает вас к тому, что дает вам жизнь». Он (да будет мир с ним) сказал: «Это было ниспослано относительно Вилаята Али (да будет мир с ним)».",
+          "zh": "我问阿布·阿卜杜拉（愿主福安之）关于真主尊贵者的话语：‘信道的人们啊！当召你们去实践（正义）的时候，你们要响应真主和使者。’他（愿主福安之）说：‘这节经文是关于阿里（愿主福安之）的维拉耶（权威）而降示的。'"
+        },
+        "word_start": 40,
+        "word_end": 71
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ وَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ ما تَسْقُطُ مِنْ وَرَقَةٍ إِلَّا يَعْلَمُها وَ لا حَبَّةٍ فِي ظُلُماتِ الْأَرْضِ وَ لا رَطْبٍ وَ لا يَابِسٍ إِلَّا فِي كِتابٍ مُبِينٍ قَالَ فَقَالَ الْوَرَقَةُ السِّقْطُ وَ الْحَبَّةُ الْوَلَدُ وَ ظُلُمَاتُ الْأَرْضِ الْأَرْحَامُ وَ الرَّطْبُ مَا يَحْيَى مِنَ النَّاسِ وَ الْيَابِسُ مَا يُقْبَضُ وَ كُلُّ ذَلِكَ فِي إِمَامٍ مُبِينٍ",
+        "translations": {
+          "en": "He said: 'And I asked him about the Statement of Allah, Mighty and Majestic: ",
+          "ur": "انہوں نے کہا: اور میں نے ان سے اللہ تعالیٰ کے ارشاد کے بارے میں پوچھا، جو کہ عظیم و بزرگوار ہے:",
+          "tr": "Dedi ki: 'Allah'ın (celle şanüh) buyruğu hakkında ona sordum, Yüce ve Azîz olan:",
+          "fa": "گفت: و من از او درباره statement خداوند، توانا و برتر، پرسیدم:",
+          "id": "Ia berkata, 'Dan aku bertanya kepadanya mengenai firman Allah, Yang Maha Perkasa lagi Maha Mulia:",
+          "bn": "তিনি বললেন, 'আমি তাকে আল্লাহর মহিমান্বিত ও মাহাত্ম্যময় বাক্য সম্পর্কে জিজ্ঞাসা করেছিলাম:",
+          "es": "Dijo: «Y le pregunté sobre la declaración de Allah, Poderoso y Majestuoso:",
+          "fr": "Il dit : « Et je lui ai demandé au sujet de la parole d'Allah, Puissant et Majestueux :",
+          "de": "Er sagte: 'Und ich fragte ihn bezüglich der Aussage Allahs, des Mächtigen und Erhabenen:",
+          "ru": "Он сказал: «И я спросил его о словах Аллаха, Всевышнего и Великого:",
+          "zh": "他说：‘我问他关于真主 Mighty and Majestic 的言辞：“'"
+        },
+        "word_start": 71,
+        "word_end": 130
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَ ما تَسْقُطُ مِنْ وَرَقَةٍ إِلَّا يَعْلَمُها وَ لا حَبَّةٍ فِي ظُلُماتِ الْأَرْضِ وَ لا رَطْبٍ وَ لا يَابِسٍ إِلَّا فِي كِتابٍ مُبِينٍ",
+        "translations": {
+          "en": "and there falls not a leaf but He knows it, nor a grain in the darkness of the earth, nor anything wet nor dry but (it is all) in a clear book",
+          "ur": "اور اس کا کوئی پتہ گرتا نہیں مگر وہ جانتا ہے، اور نہ زمین کی اندھیروں میں کوئی دانہ، اور نہ ہی کوئی گیلا اور نہ ہی کوئی خشک مگر (یہ سب) ایک واضح کتاب میں ہیں",
+          "tr": "ve yapraklardan biri bile düşmez ki, O onu bilmeyin; yerin karanlıklarında bir tane bile tane olmaz ki, O onu bilmeyin; ne ıslak ne kuru bir şey yoktur ki, hepsi açık bir kitapta (yazılı) olmasın.",
+          "fa": "و هیچ برگی نمی‌افتد مگر اینکه او آن را بداند، و هیچ دانه‌ای در تاریکی زمین، و هیچ چیز تر و خشکی نیست مگر اینکه در یک کتاب آشکار است",
+          "id": "dan tidak jatuh sehelai daun pun melainkan Dia mengetahuinya, dan tidak ada sebutir biji pun dalam kegelapan bumi, dan tidak ada yang basah maupun yang kering, melainkan semuanya terdapat dalam kitab yang nyata.",
+          "bn": "এবং একটি পাতাও পড়ে না, কিন্তু তিনি তা জানেন; এবং পৃথিবীর অন্ধকারে একটি দানাও থাকে না, এবং কোনো ভেজা বা শুকনো কিছুই নেই, কিন্তু (সবই) একটি স্পষ্ট গ্রন্থে রয়েছে।",
+          "es": "y no cae una hoja sin que Él la conozca, ni un grano en las tinieblas de la tierra, ni nada húmedo ni seco, sino que (todo está) en un libro claro.",
+          "fr": "Et qu'une feuille ne tombe pas sans qu'Il la connaisse, ni un grain dans les ténèbres de la terre, ni rien d'humide ni de sec, sans qu'il soit (tout) dans un livre explicite.",
+          "de": "und kein Blatt fällt, ohne dass Er es weiß, noch weiß, und keine Kornkörner in der Finsternis der Erde, und nichts Nasses und nichts Trockenes, ohne dass es in einem deutlichen Buch steht.",
+          "ru": "и ни один лист не падает, кроме как Он ведает о том, ни зерно во тьме земли, ни ничего влажного или сухого, кроме как (все это) в ясной Книге",
+          "zh": "他连一片树叶的落下也知晓，大地幽暗中的一粒微尘，以及一切湿润与干燥之物，无不记录在一本明晰的天经中。"
+        },
+        "word_start": 130,
+        "word_end": 153
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ فَقَالَ الْوَرَقَةُ السِّقْطُ وَ الْحَبَّةُ الْوَلَدُ وَ ظُلُمَاتُ الْأَرْضِ الْأَرْحَامُ وَ الرَّطْبُ مَا يَحْيَى مِنَ النَّاسِ وَ الْيَابِسُ مَا يُقْبَضُ وَ كُلُّ ذَلِكَ فِي إِمَامٍ مُبِينٍ",
+        "translations": {
+          "en": "He said: 'The fallen leaf is the miscarried child, and the grain is the child, and the darkness of the earth is the wombs, and the wet is what lives of the people, and the dry is what is captured (dies), and all of that is in the manifest Imam.'",
+          "ur": "انہوں نے کہا: 'گرا ہوا پتہ مشہور بچہ ہے، اور دانہ بچہ ہے، اور زمین کی اندھیرا رحم ہے، اور گیلا وہ ہے جو لوگوں میں زندہ رہتا ہے، اور خشک وہ ہے جو گرفت میں آتا ہے (مر جاتا ہے)، اور یہ سب ظاہر امام میں ہے۔'",
+          "tr": "Dedi ki: 'Düşen yaprak, gebelenen çocuktur, tahıl ise çocuktur, toprağın karanlığı rahimlerdir, ıslak olan insanlar arasında yaşayanlardır, kuru olan ise yakalananların (ölü) durumudur ve bunların hepsi zahir İmam'dadır.'",
+          "fa": "گفت: برگ ریخته فرزند ناهنگ است و دانه فرزند است و تاریکی زمین رحم‌هاست و تر آن است که از مردم زنده می‌ماند و خشک آن است که گرفته می‌شود (می‌میرد) و همه آن در امام ظاهر است.",
+          "id": "Ia berkata: 'Daun yang gugur adalah anak yang keguguran, dan biji-bijian adalah anak, dan kegelapan bumi adalah rahim-rahim, dan yang basah adalah yang hidup dari manusia, dan yang kering adalah yang tertangkap (mati), dan semuanya itu berada pada Imam yang nyata.'",
+          "bn": "তিনি বললেন: 'পড়া পাতা হলো গর্ভপাতের শিশু, এবং ধান্য হলো শিশু, এবং পৃথিবীর অন্ধকার হলো গর্ভাশয়, এবং আর্দ্রতা হলো মানুষের মধ্যে যে জীবিত থাকে, এবং শুষ্ক হলো যে ধৃত হয় (মৃত্যুবরণ করে), এবং এর সবকিছু প্রকাশিত ইমামের মধ্যে রয়েছে।'",
+          "es": "Dijo: 'La hoja caída es el niño que no ha nacido, y el grano es el niño, y la oscuridad de la tierra son los úteros, y lo húmedo es lo que vive de la gente, y lo seco es lo que es capturado (muere), y todo eso está en el Imam manifiesto.'",
+          "fr": "Il a dit : « La feuille tombée est l'enfant avorté, et le grain est l'enfant, et l'obscurité de la terre sont les ventres, et l'humide est ce qui vit du peuple, et le sec est ce qui est capturé (meurt), et tout cela se trouve dans l'Imam manifeste. »",
+          "de": "Er sagte: 'Der gefallene Blatt ist das Fehlgeborene, und das Korn ist das Kind, und die Dunkelheit der Erde sind die Gebärmütter, und das Feuchte ist das, was von den Menschen lebt, und das Trockene ist das, was gefangen wird (stirbt), und all das befindet sich im manifesten Imam.'",
+          "ru": "Он сказал: «Опавший лист — это недоразвившийся плод, зерно — это дитя, тьма земли — это чрева, влажное — это то, что выживает из людей, а сухое — это то, что захвачено (умирает), и всё это находится в явном Имаме».",
+          "zh": "他说：'落叶是未足月流产的胎儿，谷粒是胎儿，大地的黑暗是子宫，湿润的是存活的人，干燥的是被俘（死亡）的人，而这一切都在显明的伊玛目之中。'"
+        },
+        "word_start": 153,
+        "word_end": 180
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ وَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كانَ عاقِبَةُ الَّذِينَ مِنْ قَبْلُ فَقَالَ عَنَى بِذَلِكَ أَيِ انْظُرُوا فِي الْقُرْآنِ فَاعْلَمُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِنْ قَبْلِكُمْ وَ مَا أَخْبَرَكُمْ عَنْهُ",
+        "translations": {
+          "en": "He said: 'And I asked him about the Statement of Allah, Mighty and Majestic: ",
+          "ur": "انہوں نے کہا: اور میں نے ان سے اللہ تعالیٰ کے ارشاد کے بارے میں پوچھا، جو کہ عظیم و بزرگوار ہے:",
+          "tr": "Dedi ki: 'Allah'ın (celle şanüh) buyruğu hakkında ona sordum, Yüce ve Azîz olan:",
+          "fa": "گفت: و من از او درباره کلام خداوند متعال پرسیدم:",
+          "id": "Ia berkata, 'Dan aku bertanya kepadanya mengenai firman Allah, Yang Maha Perkasa lagi Maha Mulia:",
+          "bn": "তিনি বললেন, 'আমি তাকে আল্লাহর মহিমান্বিত ও মাহাত্ম্যময় বাক্য সম্পর্কে জিজ্ঞাসা করেছিলাম:",
+          "es": "Dijo: «Y le pregunté sobre la declaración de Allah, Poderoso y Majestuoso:",
+          "fr": "Il dit : « Et je lui ai demandé au sujet de la parole d'Allah, Puissant et Majestueux :",
+          "de": "Er sagte: „Und ich fragte ihn bezüglich der Aussage Allahs, des Mächtigen und Erhabenen:",
+          "ru": "Он сказал: «И я спросил его о словах Аллаха, Всевышнего и Великого:",
+          "zh": "他说：我问他关于真主 Mighty and Majestic 的言辞："
+        },
+        "word_start": 180,
+        "word_end": 218
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كانَ عاقِبَةُ الَّذِينَ مِنْ قَبْلُ",
+        "translations": {
+          "en": "Say: Travel in the land, then see how was the end of those before",
+          "ur": "کہو کہ زمین میں سفر کرو پھر دیکھو کہ ان سے پہلے والوں کا انجام کیا ہوا",
+          "tr": "De ki: Yeryüzünde gezin, sonra geçmiş olanların sonunun nasıl olduğuna bakın.",
+          "fa": "بگو: در زمین سفر کنید، سپس ببینید سرانجام کسانی که پیش از شما بودند چگونه بود",
+          "id": "Katakanlah: \"Berjalanlah di muka bumi, lalu perhatikanlah bagaimana kesudahan orang-orang yang terdahulu.\"",
+          "bn": "বলুন, পৃথিবীতে ভ্রমণ করুন, অতঃপর দেখুন পূর্ববর্তীদের পরিণাম কেমন হয়েছিল",
+          "es": "Di: Recorred la tierra y ved cuál fue el final de los que os precedieron.",
+          "fr": "Dis : Parcourez la terre, puis voyez quelle fut la fin de ceux qui vous ont précédés.",
+          "de": "Sprich: Reist durch die Erde und seht, wie das Ende derer vor euch war.",
+          "ru": "Скажи: «Путешествуйте по земле и посмотрите, каков был конец тех, кто был до вас».",
+          "zh": "你说：你们在大地上旅行，然后看看那些前人结局如何"
+        },
+        "word_start": 218,
+        "word_end": 229
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ عَنَى بِذَلِكَ أَيِ انْظُرُوا فِي الْقُرْآنِ فَاعْلَمُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِنْ قَبْلِكُمْ وَ مَا أَخْبَرَكُمْ عَنْهُ",
+        "translations": {
+          "en": "So he said: 'It means by that, look in the Quran so you will come to know how was the eventual end of those who were before you, and what it is informing you from it.'",
+          "ur": "پھر انہوں نے کہا: اس سے مراد یہ ہے کہ قرآن میں دیکھو تاکہ تمہیں معلوم ہو جائے کہ تم سے پہلے والوں کا انجام کیسا ہوا، اور وہ تمہیں کیا خبر دے رہا ہے۔",
+          "tr": "Sonra şöyle dedi: 'Bu, Kur'an'a bakmanı, öncekilerin sonunun nasıl olduğunu ve Kur'an'ın senden haberdar ettiklerini bilmeni sağlar.'",
+          "fa": "پس فرمود: «این بدان معناست که در قرآن بنگر تا بدانی که سرانجام کسانی که پیش از تو بودند چه شد، و قرآن چه چیزی از آن به تو اطلاع می‌دهد.»",
+          "id": "Maka ia berkata, 'Maksudnya adalah, bacalah Al-Qur'an agar kamu mengetahui bagaimana akhir dari orang-orang yang terdahulu dari kamu, dan apa yang Al-Qur'an sampaikan kepadamu darinya.",
+          "bn": "তখন তিনি বললেন: 'এর অর্থ হলো, কুরআনে তাকাও, যাতে তুমি জানতে পারো তোমার পূর্ববর্তী লোকদের অন্তিম পরিণতি কেমন হয়েছিল, এবং কুরআন তোমাকে এর মাধ্যমে কী সংবাদ দিচ্ছে।'",
+          "es": "Entonces dijo: «Eso significa que mires en el Corán para que sepas cuál fue el desenlace final de quienes vivieron antes que tú, y lo que te informa de ello».",
+          "fr": "Alors il dit : « Cela signifie : regarde dans le Coran afin que tu saches quelle fut la fin ultime de ceux qui t'ont précédé, et ce qu'il t'informe à ce sujet.»",
+          "de": "Da sagte er: 'Das bedeutet, schau in den Quran, damit du erfahren wirst, wie das endgültige Schicksal derer war, die vor dir waren, und was er dir daraus mitteilt.'",
+          "ru": "Поэтому он сказал: «Это означает, что обратись к Корану, и ты узнаешь, каков был конечный исход тех, кто был до тебя, и что он сообщает тебе об этом».",
+          "zh": "于是他说：‘其意是，你当在《古兰经》中观览，以便你得知在你之前的人们最终的结局，以及《古兰经》从中向你传达的信息。’"
+        },
+        "word_start": 229,
+        "word_end": 247
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ فَقُلْتُ فَقَوْلُهُ عَزَّ وَ جَلَّ وَ إِنَّكُمْ لَتَمُرُّونَ عَلَيْهِمْ مُصْبِحِينَ وَ بِاللَّيْلِ أَ فَلا تَعْقِلُونَ قَالَ تَمُرُّونَ عَلَيْهِمْ فِي الْقُرْآنِ إِذَا قَرَأْتُمُ الْقُرْآنَ تَقْرُؤُ مَا قَصَّ اللَّهُ عَزَّ وَ جَلَّ عَلَيْكُمْ مِنْ خَبَرِهِمْ",
+        "translations": {
+          "en": "He said: 'And I said, ",
+          "ur": "انہوں نے کہا: اور میں نے کہا:",
+          "tr": "Dedi ki: 'Ben de dedim ki,",
+          "fa": "گفت: و من گفتم،",
+          "id": "Ia berkata: 'Dan aku berkata,",
+          "bn": "তিনি বললেন, 'আমিও বলেছিলাম,",
+          "es": "Dijo: 'Y yo dije,",
+          "fr": "Il a dit : « Et j'ai dit,",
+          "de": "Er sagte: „Und ich sagte,",
+          "ru": "Он сказал: «И я сказал,",
+          "zh": "他说：\"我说，"
+        },
+        "word_start": 247,
+        "word_end": 281
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَ إِنَّكُمْ لَتَمُرُّونَ عَلَيْهِمْ مُصْبِحِينَ وَ بِاللَّيْلِ أَ فَلا تَعْقِلُونَ",
+        "translations": {
+          "en": "And most surely you pass by them in the morning, And at night; do you not then understand?",
+          "ur": "اور یقیناً تم ان کے پاس صبح و شام سے گزرتے ہو، پس کیا تم سمجھ نہیں سکتے؟",
+          "tr": "Ve şüphesiz onları sabah ve akşam geçip gidersiniz; hâlâ anlamıyor musunuz?",
+          "fa": "و به راستی که شما از آنان در بامداد و در شب می‌گذرید، آیا نمی‌اندیشید؟",
+          "id": "Dan sesungguhnya kamu melewati mereka pada pagi hari dan pada malam hari; maka apakah kamu tidak mengerti?",
+          "bn": "এবং নিশ্চয়ই তোমরা তাদেরকে সকালে ও রাত্রে অতিক্রম করে থাক; অতএব তোমরা কি বুঝ না?",
+          "es": "Y ciertamente los pasas por la mañana y por la noche; ¿acaso no entendéis?",
+          "fr": "Et certes, vous les passez le matin et le soir ; ne comprenez-vous donc pas ?",
+          "de": "Und gewiss, ihr zieht an ihnen vorüber am Morgen und in der Nacht; begreift ihr es denn nicht?",
+          "ru": "И поистине, вы проходите мимо них утром и вечером; неужели вы не разумеете?",
+          "zh": "你确实在早晨和夜晚经过他们，难道你们不领悟吗？"
+        },
+        "word_start": 281,
+        "word_end": 291
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ تَمُرُّونَ عَلَيْهِمْ فِي الْقُرْآنِ إِذَا قَرَأْتُمُ الْقُرْآنَ تَقْرُؤُ مَا قَصَّ اللَّهُ عَزَّ وَ جَلَّ عَلَيْكُمْ مِنْ خَبَرِهِمْ",
+        "translations": {
+          "en": "He said: 'You pass by them in the Quran when you recite the Quran, read what story Allah, Mighty and Majestic, has told you from their news.'",
+          "ur": "انہوں نے کہا: ''جب تم قرأت کرو تو تم انہیں قرآن میں پاس سے گزرتے ہو، اللہ تعالیٰ نے تمہیں ان کی خبروں میں سے جو کہانی سنائی ہے اسے پڑھو۔\"",
+          "tr": "Dedi ki: 'Onları Kur'ân'da okurken, Allah'ın (azze ve celle) onlardan haber verdiğini okursunuz.'",
+          "fa": "گفت: «در قرآن از آن‌ها یاد می‌شود هنگامی که قرآن را تلاوت می‌کنی، بخوان چه داستانی را خداوند، جلیل و عظیم، از اخبار آن‌ها برایت بیان کرده است.»",
+          "id": "Ia berkata, 'Kamu melewati mereka dalam Al-Qur'an ketika kamu membacanya, bacalah kisah apa yang Allah, Yang Maha Perkasa lagi Maha Mulia, telah menceritakan kepadamu dari berita mereka.'",
+          "bn": "তিনি বললেন: 'কুরআন তিলাওয়াত করার সময় তোমরা তাদেরকে কুরআনে পাওয়া, আল্লাহ তায়ালা (মহান ও মহিমাময়) তোমাদেরকে তাদের খবর থেকে যা বলেছেন তা পড়ো।'",
+          "es": "Dijo: «Pasan ante ti en el Corán cuando lo recitas; lee la lectura de la historia que Alá, Poderoso y Majestuoso, te ha narrado de su noticia».",
+          "fr": "Il dit : « Vous les croisez dans le Coran lorsque vous le récitez, lisez le récit qu'Allah, Puissant et Majestueux, vous a fait de leurs nouvelles. »",
+          "de": "Er sagte: 'Du begegnest ihnen im Quran, wenn du den Quran rezitierst; lies, welche Geschichte Allah, der Mächtige und Erhabene, dir von ihrer Nachricht erzählt.'",
+          "zh": "他说：'你们在诵读《古兰经》时，会经过关于他们的经文，请阅读真主，尊贵而伟大的，从他们的消息中告诉你们的故事。'",
+          "ru": ""
+        },
+        "word_start": 291,
+        "word_end": 309
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from Al-Kafi illustrates the Shia doctrine of the Imam as the living embodiment of divine knowledge, where the 'manifest Imam' serves as the repository for all cosmic and spiritual realities. It connects the physical world's details—such as life, death, and progeny—to the Imam's consciousness, while reinterpreting geographical 'travel' in the Quran as an intellectual journey through scriptural narratives. This reflects the scholarly view that the Imam is the ultimate hermeneutic key to understanding both the exoteric and esoteric dimensions of revelation.",
+        "seo_question": "How does the Imam interpret the 'fallen leaf' and 'wet and dry' in the Quran?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "Wilayah of Ali (Guardianship/Authority of Ali)",
+          "السِّقْطُ": "Miscarried child / Embryo",
+          "الْأَرْحَامُ": "Wombs",
+          "إِمَامٍ مُبِينٍ": "Manifest Imam",
+          "عَاقِبَةُ": "End / Consequence",
+          "خَبَرِهِمْ": "Their news / Stories"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی سے شیعہ عقیدے کی عکاسی کرتی ہے کہ امام الٰہی علم کی زندہ تجلی ہیں، جہاں 'ظاہر امام' کائناتی اور روحانی حقائق کا خزانہ ہے۔ یہ مادی دنیا کی تفصیلات جیسے زندگی، موت اور نسل کو امام کی آگاہی سے جوڑتا ہے، جبکہ قرآن میں جغرافیائی 'سفر' کو کتابی روایات کے ذریعے ایک فکری سفر میں دوبارہ تعبیر کرتا ہے۔ یہ اس علمی نقطہ نظر کی عکاسی کرتا ہے کہ امام وحی کے ظاہری اور باطنی دونوں پہلوؤں کو سمجھنے کے لیے حتمی تشریحی کلید ہیں۔",
+        "seo_question": "امام قرآن میں 'گرا ہوا پتہ' اور 'گیلا اور خشک' کی تشریح کیسے کرتے ہیں؟",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "علی کی ولایت",
+          "السِّقْطُ": "گمشده بچہ / جنین",
+          "الْأَرْحَامُ": "رحمیں",
+          "إِمَامٍ مُبِينٍ": "ظاہر امام",
+          "عَاقِبَةُ": "آخر / نتیجہ",
+          "خَبَرِهِمْ": "ان کی خبریں / کہانیاں"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, El-Kâfî'den alınmış olup, İmam'ı ilahi bilginin canlı bir tezahürü olarak sunan Şii doktrini örneklendirir; burada 'açık İmam' tüm kozmik ve manevi gerçekliklerin deposu olarak hizmet eder. Fiziksel dünyanın detaylarını —hayat, ölüm ve nesil gibi— İmam'ın bilincine bağlar ve Kuran'daki coğrafi 'seyahat' kavramını, metin anlatıları aracılığıyla entelektüel bir yolculuk olarak yeniden yorumlar. Bu durum, İmam'ın vahyin hem zahirî hem de batınî boyutlarını anlamak için nihai bir hermeneutik anahtar olduğu şeklindeki ilmi görüşü yansıtır.",
+        "seo_question": "İmam, Kuran'daki 'düşen yaprak' ve 'ıslak ve kuru' ifadelerini nasıl yorumlar?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "Ali'nin Velayeti",
+          "السِّقْطُ": "Sakat / Döşek",
+          "الْأَرْحَامُ": "Rahimler",
+          "إِمَامٍ مُبِينٍ": "Açık İmam",
+          "عَاقِبَةُ": "Sonuç / Akıbet",
+          "خَبَرِهِمْ": "Haberleri"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی نشان‌دهنده آموزه شیعه درباره امام به عنوان تجسم زنده دانش الهی است، جایی که «امام بین» به عنوان مخزن تمام حقایق کیهانی و معنوی عمل می‌کند. این حدیث جزئیات جهان مادی مانند زندگی، مرگ و نسل را به آگاهی امام پیوند می‌زند و در عین حال «سفر» جغرافیایی در قرآن را به عنوان یک سفر فکری از طریق روایت‌های کتاب مقدس بازتعریف می‌کند. این امر بازتاب‌کننده دیدگاه علمی است که امام کلید نهایی برای درک ابعاد ظاهری و باطنی وحی است.",
+        "seo_question": "امام چگونه «برگ افتاده» و «تر و خشک» را در قرآن تفسیر می‌کند؟",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "ولایت علی",
+          "السِّقْطُ": "جنین",
+          "الْأَرْحَامُ": "رحم‌ها",
+          "إِمَامٍ مُبِينٍ": "امام بین",
+          "عَاقِبَةُ": "پایان",
+          "خَبَرِهِمْ": "اخبار آن‌ها"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari Al-Kafi ini menggambarkan doktrin Syiah tentang Imam sebagai perwujudan hidup dari pengetahuan ilahi, di mana 'Imam yang nyata' berfungsi sebagai tempat penyimpanan segala realitas kosmik dan spiritual. Hadis ini menghubungkan detail dunia fisik—seperti kehidupan, kematian, dan keturunan—dengan kesadaran Imam, sambil menafsirkan ulang 'perjalanan' geografis dalam Al-Quran sebagai perjalanan intelektual melalui narasi kitab suci. Hal ini mencerminkan pandangan sarjana bahwa Imam adalah kunci hermeneutik utama untuk memahami dimensi zahir dan batin dari wahyu.",
+        "seo_question": "Bagaimana Imam menafsirkan 'daun yang gugur' dan 'basah dan kering' dalam Al-Quran?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "Wilayah Ali",
+          "السِّقْطُ": "Janin yang keguguran",
+          "الْأَرْحَامُ": "Rahim",
+          "إِمَامٍ مُبِينٍ": "Imam yang nyata",
+          "عَاقِبَةُ": "Akhir",
+          "خَبَرِهِمْ": "Berita mereka"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে শিয়া মতবাদকে তুলে ধরে যে ইমাম হলেন ঐশ্বরিক জ্ঞানের জীবন্ত প্রতীক, যেখানে 'প্রকাশিত ইমাম' সমস্ত মহাজাগতিক ও আধ্যাত্মিক সত্যের ভাণ্ডার হিসেবে কাজ করেন। এটি শারীরিক জগতের বিবরণ—যেমন জীবন, মৃত্যু এবং সন্তান—কে ইমামের চেতনার সাথে সংযুক্ত করে, এবং কুরআনের ভৌগোলিক 'যাত্রা'-কে ধর্মগ্রন্থের বর্ণনার মধ্য দিয়ে একটি বৌদ্ধিক যাত্রা হিসেবে পুনর্ব্যাক্যায়ন করে। এটি বৈজ্ঞানিক দৃষ্টিভঙ্গি প্রতিফলিত করে যে ইমাম হলেন প্রকাশ্য ও গুঢ় উভয় মাত্রায় ওহির বোঝার চূড়ান্ত ব্যাখ্যামূলক চাবি।",
+        "seo_question": "ইমাম কুরআনে 'পড়া পাতা' এবং 'ভেজা ও শুকনো' কীভাবে ব্যাখ্যা করেন?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "আলির ওয়ালায়াত (আলির কর্তৃত্ব/অধিকার)",
+          "السِّقْطُ": "গর্ভপাতের শিশু / ভ্রূণ",
+          "الْأَرْحَامُ": "গর্ভাশয়",
+          "إِمَامٍ مُبِينٍ": "প্রকাশিত ইমাম",
+          "عَاقِبَةُ": "শেষ / ফলাফল",
+          "خَبَرِهِمْ": "তাদের খবর / গল্প"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de Al-Kafi ilustra la doctria chií del Imam como la encarnación viviente del conocimiento divino, donde el 'Imam manifiesto' sirve como depósito de todas las realidades cósmicas y espirituales. Conecta los detalles del mundo físico, como la vida, la muerte y la descendencia, con la conciencia del Imam, mientras reinterpretan el 'viaje' geográfico en el Corán como un viaje intelectual a través de las narrativas escriturales. Esto refleja la visión erudita de que el Imam es la clave hermenéutica última para comprender tanto las dimensiones exotéricas como esotéricas de la revelación.",
+        "seo_question": "¿Cómo interpreta el Imam la 'hoja caída' y lo 'húmedo y seco' en el Corán?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "Guardianato/Autoridad de Ali",
+          "السِّقْطُ": "Hijo abortado / Embrión",
+          "الْأَرْحَامُ": "Úteros",
+          "إِمَامٍ مُبِينٍ": "Imam manifiesto",
+          "عَاقِبَةُ": "Fin / Consecuencia",
+          "خَبَرِهِمْ": "Sus noticias / Historias"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith d'Al-Kafi illustrepose sur la doctrine chiite de l'Imam comme incarnation vivante du savoir divin, où l'« Imam manifeste » sert de réceptacle à toutes les réalités cosmiques et spirituelles. Il relie les détails du monde physique — tels que la vie, la mort et la descendance — à la conscience de l'Imam, tout en réinterprétant le « voyage » géographique dans le Coran comme un voyage intellectuel à travers les récits scripturaires. Cela reflète la vue savante selon laquelle l'Imam est la clé herméneutique ultime pour comprendre à la fois les dimensions exotériques et ésotériques de la révélation.",
+        "seo_question": "Comment l'Imam interprète-t-il la « feuille tombée » et le « mou et le sec » dans le Coran ?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "Gouvernance/Autorité d'Ali",
+          "السِّقْطُ": "Enfant avorté / Embryon",
+          "الْأَرْحَامُ": "Ventrues",
+          "إِمَامٍ مُبِينٍ": "Imam manifeste",
+          "عَاقِبَةُ": "Fin / Conséquence",
+          "خَبَرِهِمْ": "Leur nouvelle / Histoires"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus Al-Kafi veranschaulicht die schiitische Lehre vom Imam als lebendiger Verkörperung göttlichen Wissens, wobei der ‚offenbare Imam‘ als Speicher aller kosmischen und spirituellen Realitäten dient. Es verbindet die Details der physischen Welt – wie Leben, Tod und Nachkommenschaft – mit dem Bewusstsein des Imams und interpretiert die geographische ‚Reise‘ im Koran als intellektuelle Reise durch die narrativen Texte der Schrift. Dies spiegelt die Ansicht der Gelehrten wider, dass der Imam der ultimative hermeneutische Schlüssel zum Verständnis sowohl der exoterischen als auch der esoterischen Dimensionen der Offenbarung ist.",
+        "seo_question": "Wie interpretiert der Imam den ‚herabfallenden Blatt‘ und das ‚Nasse und Trockene‘ im Koran?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "Waliya von Ali",
+          "السِّقْطُ": "Saqṭ",
+          "الْأَرْحَامُ": "Arḥām",
+          "إِمَامٍ مُبِينٍ": "Imām Mubīn",
+          "عَاقِبَةُ": "ʿĀqiba",
+          "خَبَرِهِمْ": "Ḫabarihim"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи иллюстрирует шиитскую доктриму имама как живого воплощения божественного знания, где «явный имамам» служит хранилищем всех космических и духовных реальностей. Он связывает детали физического мира — такие как жизнь, смерть и потомство — с сознанием имама, одновременно переосмысливая географическое «путешествие» в Коране как интеллектуальное путешествие через библейские нарративы. Это отражает ученую точку зрения, согласно которой имам является окончательным герменевтическим ключом к пониманию как экзотерических, так и эзотерических измерений откровения.",
+        "seo_question": "Как имам толкует «падающий лист» и «мокрый и сухой» в Коране?",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "Вилаята Али",
+          "السِّقْطُ": "Сикт",
+          "الْأَرْحَامُ": "Архам",
+          "إِمَامٍ مُبِينٍ": "Имам мубин",
+          "عَاقِبَةُ": "Акыбате",
+          "خَبَرِهِمْ": "Хабарихим"
+        }
+      },
+      "zh": {
+        "summary": "《卡菲》中的这段圣训阐释了什叶派关于伊玛目作为神圣知识活生生体现的教义，其中‘显明的伊玛目’是所有宇宙和精神现实的宝库。它将物理世界的细节——如生命、死亡和后代——与伊玛目的意识联系起来，同时将《古兰经》中的地理‘旅行’重新解释为通过经文叙事进行的智力旅程。这反映了学者们的观点，即伊玛目是理解启示的外显和内隐维度的最终诠释钥匙。",
+        "seo_question": "伊玛目如何解释《古兰经》中的‘落叶’和‘干湿’？",
+        "key_terms": {
+          "وَلَايَةِ عَلِيٍّ": "阿里之瓦拉亚（阿里的监护权/权威）",
+          "السِّقْطُ": "流产儿/胚胎",
+          "الْأَرْحَامُ": "子宫",
+          "إِمَامٍ مُبِينٍ": "显明的伊玛目",
+          "عَاقِبَةُ": "结局/后果",
+          "خَبَرِهِمْ": "他们的消息/故事"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "8:24",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "6:59",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "30:42",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "37:137",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "37:138",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "39:55",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "12:76",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ خَالِدٍ وَ الْحُسَيْنِ بْنِ سَعِيدٍ جَمِيعاً عَنِ النَّضْرِ بْنِ سُوَيْدٍ عَنْ يَحْيَى الْحَلَبِيِّ عَنْ عَبْدِ اللَّهِ بْنِ مُسْكَانَ عَنْ زَيْدِ بْنِ الْوَلِيدِ الْخَثْعَمِيِّ عَنْ أَبِي الرَّبِيعِ الشَّامِيِّ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ (عليه السلام) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ يا أَيُّهَا الَّذِينَ آمَنُوا اسْتَجِيبُوا لِلَّهِ وَ لِلرَّسُولِ إِذا دَعاكُمْ لِما يُحْيِيكُمْ قَالَ نَزَلَتْ فِي وَلَايَةِ عَلِيٍّ (عليه السلام) قَالَ وَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ ما تَسْقُطُ مِنْ وَرَقَةٍ إِلَّا يَعْلَمُها وَ لا حَبَّةٍ فِي ظُلُماتِ الْأَرْضِ وَ لا رَطْبٍ وَ لا يَابِسٍ إِلَّا فِي كِتابٍ مُبِينٍ قَالَ فَقَالَ الْوَرَقَةُ السِّقْطُ وَ الْحَبَّةُ الْوَلَدُ وَ ظُلُمَاتُ الْأَرْضِ الْأَرْحَامُ وَ الرَّطْبُ مَا يَحْيَى مِنَ النَّاسِ وَ الْيَابِسُ مَا يُقْبَضُ وَ كُلُّ ذَلِكَ فِي إِمَامٍ مُبِينٍ وَ ما تَسْقُطُ مِنْ وَرَقَةٍ إِلَّا يَعْلَمُها وَ لا حَبَّةٍ فِي ظُلُماتِ الْأَرْضِ وَ لا رَطْبٍ وَ لا يَابِسٍ إِلَّا فِي كِتابٍ مُبِينٍ قَالَ فَقَالَ الْوَرَقَةُ السِّقْطُ وَ الْحَبَّةُ الْوَلَدُ وَ ظُلُمَاتُ الْأَرْضِ الْأَرْحَامُ وَ الرَّطْبُ مَا يَحْيَى مِنَ النَّاسِ وَ الْيَابِسُ مَا يُقْبَضُ وَ كُلُّ ذَلِكَ فِي إِمَامٍ مُبِينٍ قَالَ وَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كانَ عاقِبَةُ الَّذِينَ مِنْ قَبْلُ فَقَالَ عَنَى بِذَلِكَ أَيِ انْظُرُوا فِي الْقُرْآنِ فَاعْلَمُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِنْ قَبْلِكُمْ وَ مَا أَخْبَرَكُمْ عَنْهُ قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كانَ عاقِبَةُ الَّذِينَ مِنْ قَبْلُ فَقَالَ عَنَى بِذَلِكَ أَيِ انْظُرُوا فِي الْقُرْآنِ فَاعْلَمُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِنْ قَبْلِكُمْ وَ مَا أَخْبَرَكُمْ عَنْهُ قَالَ فَقُلْتُ فَقَوْلُهُ عَزَّ وَ جَلَّ وَ إِنَّكُمْ لَتَمُرُّونَ عَلَيْهِمْ مُصْبِحِينَ وَ بِاللَّيْلِ أَ فَلا تَعْقِلُونَ قَالَ تَمُرُّونَ عَلَيْهِمْ فِي الْقُرْآنِ إِذَا قَرَأْتُمُ الْقُرْآنَ تَقْرُؤُ مَا قَصَّ اللَّهُ عَزَّ وَ جَلَّ عَلَيْكُمْ مِنْ خَبَرِهِمْ وَ إِنَّكُمْ لَتَمُرُّونَ عَلَيْهِمْ مُصْبِحِينَ وَ بِاللَّيْلِ أَ فَلا تَعْقِلُونَ قَالَ تَمُرُّونَ عَلَيْهِمْ فِي الْقُرْآنِ إِذَا قَرَأْتُمُ الْقُرْآنَ تَقْرُؤُ مَا قَصَّ اللَّهُ عَزَّ وَ جَلَّ عَلَيْكُمْ مِنْ خَبَرِهِمْ",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى عَنْ مُحَمَّدِ بْنِ خَالِدٍ وَ الْحُسَيْنِ بْنِ سَعِيدٍ جَمِيعاً عَنِ النَّضْرِ بْنِ سُوَيْدٍ عَنْ يَحْيَى الْحَلَبِيِّ عَنْ عَبْدِ اللَّهِ بْنِ مُسْكَانَ عَنْ زَيْدِ بْنِ الْوَلِيدِ الْخَثْعَمِيِّ عَنْ أَبِي الرَّبِيعِ الشَّامِيِّ قَالَ",
+      "matn_ar": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ (عليه السلام) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ يا أَيُّهَا الَّذِينَ آمَنُوا اسْتَجِيبُوا لِلَّهِ وَ لِلرَّسُولِ إِذا دَعاكُمْ لِما يُحْيِيكُمْ قَالَ نَزَلَتْ فِي وَلَايَةِ عَلِيٍّ (عليه السلام) قَالَ وَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ ما تَسْقُطُ مِنْ وَرَقَةٍ إِلَّا يَعْلَمُها وَ لا حَبَّةٍ فِي ظُلُماتِ الْأَرْضِ وَ لا رَطْبٍ وَ لا يَابِسٍ إِلَّا فِي كِتابٍ مُبِينٍ قَالَ فَقَالَ الْوَرَقَةُ السِّقْطُ وَ الْحَبَّةُ الْوَلَدُ وَ ظُلُمَاتُ الْأَرْضِ الْأَرْحَامُ وَ الرَّطْبُ مَا يَحْيَى مِنَ النَّاسِ وَ الْيَابِسُ مَا يُقْبَضُ وَ كُلُّ ذَلِكَ فِي إِمَامٍ مُبِينٍ وَ ما تَسْقُطُ مِنْ وَرَقَةٍ إِلَّا يَعْلَمُها وَ لا حَبَّةٍ فِي ظُلُماتِ الْأَرْضِ وَ لا رَطْبٍ وَ لا يَابِسٍ إِلَّا فِي كِتابٍ مُبِينٍ قَالَ فَقَالَ الْوَرَقَةُ السِّقْطُ وَ الْحَبَّةُ الْوَلَدُ وَ ظُلُمَاتُ الْأَرْضِ الْأَرْحَامُ وَ الرَّطْبُ مَا يَحْيَى مِنَ النَّاسِ وَ الْيَابِسُ مَا يُقْبَضُ وَ كُلُّ ذَلِكَ فِي إِمَامٍ مُبِينٍ قَالَ وَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كانَ عاقِبَةُ الَّذِينَ مِنْ قَبْلُ فَقَالَ عَنَى بِذَلِكَ أَيِ انْظُرُوا فِي الْقُرْآنِ فَاعْلَمُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِنْ قَبْلِكُمْ وَ مَا أَخْبَرَكُمْ عَنْهُ قُلْ سِيرُوا فِي الْأَرْضِ فَانْظُرُوا كَيْفَ كانَ عاقِبَةُ الَّذِينَ مِنْ قَبْلُ فَقَالَ عَنَى بِذَلِكَ أَيِ انْظُرُوا فِي الْقُرْآنِ فَاعْلَمُوا كَيْفَ كَانَ عَاقِبَةُ الَّذِينَ مِنْ قَبْلِكُمْ وَ مَا أَخْبَرَكُمْ عَنْهُ قَالَ فَقُلْتُ فَقَوْلُهُ عَزَّ وَ جَلَّ وَ إِنَّكُمْ لَتَمُرُّونَ عَلَيْهِمْ مُصْبِحِينَ وَ بِاللَّيْلِ أَ فَلا تَعْقِلُونَ قَالَ تَمُرُّونَ عَلَيْهِمْ فِي الْقُرْآنِ إِذَا قَرَأْتُمُ الْقُرْآنَ تَقْرُؤُ مَا قَصَّ اللَّهُ عَزَّ وَ جَلَّ عَلَيْكُمْ مِنْ خَبَرِهِمْ وَ إِنَّكُمْ لَتَمُرُّونَ عَلَيْهِمْ مُصْبِحِينَ وَ بِاللَّيْلِ أَ فَلا تَعْقِلُونَ قَالَ تَمُرُّونَ عَلَيْهِمْ فِي الْقُرْآنِ إِذَا قَرَأْتُمُ الْقُرْآنَ تَقْرُؤُ مَا قَصَّ اللَّهُ عَزَّ وَ جَلَّ عَلَيْكُمْ مِنْ خَبَرِهِمْ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+          "name_en": "Ahmad ibn Muhammad ibn Isa",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 13
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ خَالِدٍ",
+          "name_en": "Muhammad ibn Khalid",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 99
+        },
+        {
+          "name_ar": "الْحُسَيْنِ بْنِ سَعِيدٍ",
+          "name_en": "al-Husayn b. Sa'id",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 21
+        },
+        {
+          "name_ar": "النَّضْرِ بْنِ سُوَيْدٍ",
+          "name_en": "al-Nadr ibn Suwayd",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 65
+        },
+        {
+          "name_ar": "يَحْيَى الْحَلَبِيِّ",
+          "name_en": "Yahya al-Halabi",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 181
+        },
+        {
+          "name_ar": "عَبْدِ اللَّهِ بْنِ مُسْكَانَ",
+          "name_en": "'Abdullah b. Muskan",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 128
+        },
+        {
+          "name_ar": "زَيْدِ بْنِ الْوَلِيدِ الْخَثْعَمِيِّ",
+          "name_en": "Zayd b. al-Walid al-Kha'thami",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3295
+        },
+        {
+          "name_ar": "أَبِي الرَّبِيعِ الشَّامِيِّ",
+          "name_en": "Abu al-Rabi' al-Shami",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 344
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "وِلَايَةُ عَلِيٍّ",
+        "phrase_en": "Authority/guardianship of Ali",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "يَا أَيُّهَا الَّذِينَ آمَنُوا",
+        "phrase_en": "O you who believe",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,261 @@
+{
+  "verse_path": "/books/al-kafi:3:5:2:15",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 15 en words vs 1 ar words (ratio=15.00, expected 0.2-8.0)",
+    "chunks[1] type='body' starts with chain transmission verb 'حدثني' — likely mis-typed isnad content",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "worship",
+      "economy"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "zakat_khums",
+      "poverty_wealth",
+      "dhikr"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Ahmad ibn Muhammad, from Ali ibn al-Hasan, from Ali ibn al-Nu'man, from Is'haq who said:",
+          "ur": "احمد بن محمد، علی بن حسن سے، علی بن نعمان سے، اسحاق سے روایت ہے کہ انہوں نے کہا:",
+          "tr": "Ahmed bin Muhammed, Ali bin el-Hasan'dan, Ali bin en-Nu'man'dan, İshak'tan; o da şöyle dedi:",
+          "fa": "أَحْمَدُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَسَنِ عَنْ عَلِيِّ بْنِ النُّعْمَانِ عَنْ إِسْحَاقَ قَالَ",
+          "id": "Ahmad ibn Muhammad, dari Ali ibn al-Hasan, dari Ali ibn al-Nu'man, dari Is'haq yang berkata:",
+          "bn": "আহমাদ ইবনে মুহাম্মাদ, আলী ইবনে আল-হাসান হতে, আলী ইবনে আন-নুমান হতে, ইসহাক হতে, যিনি বলেন:",
+          "es": "Ahmad ibn Muhammad, de Ali ibn al-Hasan, de Ali ibn al-Nu'man, de Is'haq, quien dijo:",
+          "fr": "Ahmad ibn Muhammad, de Ali ibn al-Hasan, de Ali ibn al-Nu'man, de Is'haq qui a dit :",
+          "de": "Ahmad ibn Muhammad, von Ali ibn al-Hasan, von Ali ibn al-Nu'man, von Is'haq, der sagte:",
+          "ru": "Ахмад ибн Мухаммад, от Али ибн аль-Хасана, от Али ибн ан-Ну'мана, от Исака, который сказал:",
+          "zh": "艾哈迈德·本·穆罕默德传自阿里·本·哈桑，传自阿里·本·努尔曼，传自伊萨克，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حَدَّثَنِي مَنْ سَمِعَ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ مَا ضَاعَ مَالٌ فِي بَرٍّ وَ لَا بَحْرٍ إِلَّا بِتَضْيِيعِ الزَّكَاةِ وَ لَا يُصَادُ مِنَ الطَّيْرِ إِلَّا مَا ضَيَّعَ تَسْبِيحَهُ .",
+        "translations": {
+          "en": "It was narrated to me by the one who heard Abu Abdullah (peace be upon him) saying: 'Neither is wealth destroyed in a land nor a sea unless the Zakat was wasted (not taken out), and none from a bird gets hunted until it wastes its Glorification (not doing it)'.",
+          "ur": "مجھے ابو عبداللہ (علیہ السلام) سے سننے والے نے روایت کی کہ انہوں نے فرمایا: ''زمین میں زکوٰۃ نہ دیے جانے کی وجہ سے مال تلف ہوتا ہے، اور پرندوں میں سے کوئی بھی شکار نہیں ہوتا جب تک کہ وہ تسبیح نہ چھوڑ دے۔''",
+          "tr": "Bana, Ebu Abdullah'ı (aleyhis-selam) şöyle söylerken işiten kişi rivayet etti: 'Zekat verilmediği sürece bir memlekette mal helak olmaz, bir kuş da tesbihini yapmadığı sürece avlanmaz.'",
+          "fa": "مرا آن کسی که شنید از ابوعبدالله (علیه‌السلام) می‌گوید: ثروت در سرزمینی هلاک نمی‌شود و در دریایی هلاک نمی‌شود مگر اینکه زکات ضایع شود (پرداخت نشود)، و هیچ پرنده‌ای شکار نمی‌شود مگر اینکه تسبیح خود را ضایع کند (انجام ندهد).",
+          "id": "D diriwayatkan kepadaku oleh orang yang mendengar Abu Abdullah (alamah) berkata: \"Harta tidak dimusnahkan di suatu negeri atau di laut, kecuali karena zakat disia-siakan (tidak dikeluarkan), dan tidak ada burung yang diburu kecuali ia menyia-nyiakan tasbihnya (tidak melaksanakannya).\"",
+          "bn": "আমার নিকট বর্ণিত হয়েছে যে, একজন ব্যক্তি আবু আবদুল্লাহ (আলাইহিস সালাম)-কে বলতে শুনেছেন: 'যেমন জমিতে যাকাত প্রদান না করলে সম্পদ ধ্বংস হয়, তেমনি সমুদ্রেও তাই হয়; এবং কোনো পাখি যতক্ষণ না তার তাসবিহ (মহিমা ঘোষণা) নষ্ট করে, ততক্ষণ তা শিকার হয় না'।",
+          "es": "Se me narró narrar que quien escuchó a Abu Abdullah (que la paz sea con él) decir: «Ni se destruye la riqueza en una tierra ni en un mar, a menos que se desperdicie el zakat (no se extraiga), y ninguna ave es cazada hasta que desperdicie su glorificación (no la realice).»",
+          "fr": "On m'a rapporta que celui qui avait entendu Abou Abd Allah (que la paix soit sur lui) dire : « La richesse n est pas détruite dans un pays ni dans une mer, à moins que la zakat n ait été négligée (non acquittée), et aucun oiseau ne se fait chasser tant qu il ne néglige pas sa glorification (ne la prononce pas). »",
+          "de": "Mir wurde überliefert von demjenigen, der Abu Abdullah (Friede sei mit ihm) sagen hörte: »Weder wird der Wohlstand in einem Land noch im Meer vernichtet, es sei denn, die Zakat wird verschwendet (nicht entrichtet), und kein Vogel wird gejagt, es sei denn, er verschwendet seine Verherrlichung (sie nicht vollzieht).«",
+          "ru": "Мне передали, что тот, кто слышал, как Абу Абдуллах (да будет мир с ним) говорил: «Имущество не уничтожается в земле и море, если не растрачивается закят (не выплачивается), и ни одна птица не становится добычей, пока не перестает совершать восхваление (славу)».",
+          "zh": "有人向我传述，他听阿卜杜拉（愿主喜悦之）说：\"除非天课被浪费（未缴纳），否则财富不会在一个地方或海洋中毁灭；除非鸟儿浪费了对真主的赞颂（未进行赞颂），否则不会有鸟被猎杀。\""
+        },
+        "word_start": 1,
+        "word_end": 33
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In al-Kafi, Shaykh al-Kulayni records this narration from Imam al-Sadiq (AS) to highlight the metaphysical consequences of neglecting Zakat, framing it not merely as a financial duty but as a spiritual safeguard for material stability. The Imam employs the poetic metaphor of birds losing their 'Tasbih' (glorification) to illustrate that just as a bird without its song is vulnerable, wealth without the purifying act of Zakat is prone to loss and destruction. This underscores the Shia scholarly view that Zakat acts as a divine mechanism for preserving barakah (blessing) in one's assets.",
+        "seo_question": "How does neglecting Zakat affect the preservation of wealth according to Shia hadith?",
+        "key_terms": {
+          "الزَّكَاة": "Zakat (alms-tax)",
+          "تَسْبِيحَهُ": "His/its glorification (referring to the bird's natural praise)",
+          "بَرٍّ": "Land",
+          "بَحْرٍ": "Sea"
+        }
+      },
+      "ur": {
+        "summary": "الکافی میں شیخ کلینی نے امام صادق (علیہ السلام) سے یہ روایت نقل کی ہے تاکہ زکوٰۃ کی ترکگی کے روحانی اور مادی نتائج کو اجاگر کیا جا سکے، جسے صرف ایک مالی فرض نہیں بلکہ مادی استحکام کے لیے ایک روحانی تحفظ کے طور پر پیش کیا گیا ہے۔ امام (علیہ السلام) نے پرندوں کے 'تسبیح' (سبحان اللہ کہنے) کے کھونے کا شاعرانہ استعارہ استعمال کیا ہے تاکہ یہ واضح کیا جا سکے کہ جس طرح گانے کے بغیر پرندہ کمزور ہو جاتا ہے، اسی طرح زکوٰۃ کے پاک کرنے والے عمل کے بغیر دولت نقصان اور تباہی کا شکار ہونے کا خطرہ رکھتی ہے۔ یہ شیعہ علما کے اس نقطہ نظر کی تائید کرتا ہے کہ زکوٰۃ ایک الہی ذریعہ ہے جو انسان کے اثاثوں میں برکت کو محفوظ رکھتی ہے۔",
+        "seo_question": "شیعہ احادیث کے مطابق زکوٰۃ کی ترکگی دولت کے تحفظ پر کیسے اثر انداز ہوتی ہے؟",
+        "key_terms": {
+          "الزَّكَاة": "زکوٰۃ",
+          "تَسْبِيحَهُ": "اس کی تسبیح",
+          "بَرٍّ": "خشکی",
+          "بَحْرٍ": "سمندر"
+        }
+      },
+      "tr": {
+        "summary": "El-Kâfî'de Şeyh el-Kuleynî, Zekât'ın ihmalinin metafizik sonuçlarını vurgulamak için İmam el-Sâdık'tan (AS) bu hadisi nakleder; onu yalnızca maddi bir görev olarak değil, maddi istikrar için manevi bir kalkan olarak çerçevelemektedir. İmam, kuşların 'tesbih'ini (yüceltme/övgü) yitirmesi şiirsel metaforunu kullanarak, kuşun şarkısız kalmaya mahkûm olduğu gibi, Zekât'ın arındırıcı eyleminden yoksun zenginliğin de kayıp ve yok oluşa yatkın olduğunu gösterir. Bu durum, Zekât'ın varlıklarda bereketi korumak için ilahi bir mekanizma işlevi gördüğü Şii alimlerin görüşünü pekiştirmektedir.",
+        "seo_question": "Şii hadislerine göre Zekât'ın ihmal edilmesi zenginliğin korunmasını nasıl etkiler?",
+        "key_terms": {
+          "الزَّكَاة": "Zekât",
+          "تَسْبِيحَهُ": "Tesbih",
+          "بَرٍّ": "Karâ",
+          "بَحْرٍ": "Bahr"
+        }
+      },
+      "fa": {
+        "summary": "در الکافی، شیخ کلینی این روایت را از امام صادق (ع) نقل می‌کند تا پیامدهای متافیزیکی ترک زکات را برجسته سازد و آن را نه صرفاً یک وظیفه مالی، بلکه یک سپر معنوی برای ثبات مادی معرفی کند. امام از استعاره شاعرانه پرندگانی که «تسبیح» خود را از دست می‌دهند استفاده می‌کند تا نشان دهد همان‌طور که پرنده بدون آواز خود آسیب‌پذیر است، ثروت نیز بدون عمل پاک‌کننده زکات مستعد از دست رفتن و نابودی است. این موضوع بر دیدگاه علمای شیعه تأکید دارد که زکات به عنوان یک مکانیسم الهی برای حفظ برکت در اموال عمل می‌کند.",
+        "seo_question": "ترک زکات چگونه بر حفظ ثروت طبق حدیث شیعه تأثیر می‌گذارد؟",
+        "key_terms": {
+          "الزَّكَاة": "زکات",
+          "تَسْبِيحَهُ": "تسبیح او/آن",
+          "بَرٍّ": "خشکی",
+          "بَحْرٍ": "دریا"
+        }
+      },
+      "id": {
+        "summary": "Dalam al-Kafi al-Kafi, Syekh al-Kulayni meriwayatkan hadis dari Imam al-Sadiq (AS) untuk menyoroti konsekuensi metafisik dari mengabaikan Zakat, yang tidak hanya dipandang sebagai kewajiban finansial tetapi juga sebagai penjaga spiritual bagi stabilitas materi. Imam menggunakan metafora puitis tentang burung yang kehilangan 'Tasbih' (kemuliaan) untuk menggambarkan bahwa sebagaimana burung tanpa nyanyiannya menjadi rentan, kekayaan tanpa tindakan pemurnian Zakat rentan terhadap kehilangan dan kehancuran. Hal ini menegaskan pandangan ulama Syiah bahwa Zakat berfungsi sebagai mekanisme ilahi untuk menjaga barakah (berkah) dalam harta seseorang.",
+        "seo_question": "Bagaimana mengabaikan Zakat memengaruhi pelestarian kekayaan menurut hadis Syiah?",
+        "key_terms": {
+          "الزَّكَاة": "Zakat (zakat)",
+          "تَسْبِيحَهُ": "Kemuliaannya (merujuk pada pujian alami burung)",
+          "بَرٍّ": "Daratan",
+          "بَحْرٍ": "Lautan"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফিতে, শাইখ আল-কুলাইনি ইমাম আস-সাদিق (আ.) থেকে এই হাদিস বর্ণনা করেছেন যাতে জাকাতের অবহেলায় আধ্যাত্মিক ও আধ্যাত্মিক পরিণাম তুলে ধরা হয়েছে, যা কেবল একটি আর্থিক কর্তব্য নয় বরং ভৌতিক স্থিতিশীলতার জন্য একটি আধ্যাত্মিক সুরক্ষা হিসেবে চিহ্নিত। ইমাম পাখির 'তাসবিহ' (প্রশংসা) হারানোর কবিতাময় উপমা ব্যবহার করেছেন, যাতে বোঝানো হয়েছে যে যেমন গানহীন পাখি দুর্বল, তেমনি জাকাতের পবিত্রকারী কাজ ছাড়া সম্পদ হারানো ও ধ্বংসের প্রবণতা রাখে। এটি শিয়া বিদ্বানদের মতামতকে তুলে ধরে যে জাকাত সম্পদে বরকত (আশীর্বাদ) বজায় রাখার একটি ঐশ্বরিক ব্যবস্থা হিসেবে কাজ করে।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী জাকাতের অবহেলা সম্পদের সংরক্ষণে কী প্রভাব ফেলে?",
+        "key_terms": {
+          "الزَّكَاة": "জাকাত",
+          "تَسْبِيحَهُ": "তাসবিহ",
+          "بَرٍّ": "বর",
+          "بَحْرٍ": "বাহর"
+        }
+      },
+      "es": {
+        "summary": "En al-Kafi, el jeque al-Kulayni registra esta narración del Imam al-Sadiq (AS) para destacar las consecuencias metafísicas de descuidar la Zakat, enmarcándola no solo como un deber financiero sino como una salvaguardia espiritual para la estabilidad material. El Imam emplea la metáfora poética de las aves que pierden su 'Tasbih' (glorificación) para ilustrar que, al igual que un ave sin su canto es vulnerable, la riqueza sin el acto purificador de la Zakat está sujeta a la pérdida y la destrucción. Esto subraya la visión erudita chií de que la Zakat actúa como un mecanismo divino para preservar la barakah (bendición) en los bienes de uno.",
+        "seo_question": "¿Cómo afecta el descuido de la Zakat a la preservación de la riqueza según el hadiz chií?",
+        "key_terms": {
+          "الزَّكَاة": "Zakat (impuesto de limosna)",
+          "تَسْبِيحَهُ": "Su glorificación (refiriéndose a la alabanza natural del ave)",
+          "بَرٍّ": "Tierra",
+          "بَحْرٍ": "Mar"
+        }
+      },
+      "fr": {
+        "summary": "Dans al-Kafi, Cheikh al-Kulayni rapporte cette narration de l’Imam al-Sadiq (AS) pour mettre en lumière les conséquences métaphysiques de la négligence de la Zakat, la présentant non pas comme une simple obligation financière, mais comme une sauvegarde spirituelle pour la stabilité matérielle. L’Imam utilise la métaphore poétique des oiseaux perdant leur « Tasbih » (glorification) pour illustrer que, tout comme un oiseau sans son chant est vulnérable, la richesse sans l’acte purificateur de la Zakat est sujette à la perte et à la destruction. Cela souligne la vue savante chiite selon laquelle la Zakat agit comme un mécanisme divin pour préserver la barakah (bénédiction) dans les biens d’une personne. | Comment la négligence de la Zakat affecte-t-elle la préservation de la richesse selon les hadiths chiites ? | [",
+        "seo_question": "Comment la négligence de la Zakat affecte-t-elle la préservation de la richesse selon les hadiths chiites ?",
+        "key_terms": {
+          "الزَّكَاة": "aumône",
+          "تَسْبِيحَهُ": "sa glorification",
+          "بَرٍّ": "terre",
+          "بَحْرٍ": "mer"
+        }
+      },
+      "de": {
+        "summary": "In al-Kafi dokumentiert Scheych al-Kulayni diese Überlieferung von Imam al-Sadiq (AS), um die metaphysischen Konsequenzen der Vernachlässigung der Zakat hervorzuheben. Er stellt sie nicht nur als finanzielle Pflicht, sondern als spirituellen Schutz für die materielle Stabilität dar. Der Imam verwendet die poetische Metapher von Vögeln, die ihr Tasbih (Lobpreisung) verlieren, um zu veranschaulichen, dass ebenso wie ein Vogel ohne seinen Gesang verwundbar ist, auch Reichtum ohne die reinigende Tat der Zakat anfällig für Verlust und Zerstörung ist. Dies unterstreicht die schiitische Gelehrtenansicht, dass die Zakat als göttlicher Mechanismus zur Bewahrung der Barakah (Segen) im Vermögen wirkt.",
+        "seo_question": "Wie wirkt sich die Vernachlässigung der Zakat auf die Bewahrung des Vermögens gemäß schiitischer Hadithe aus?",
+        "key_terms": {
+          "الزَّكَاة": "Zakat (Almosensteuer)",
+          "تَسْبِيحَهُ": "Seine/ihre Lobpreisung (bezieht sich auf das natürliche Lob des Vogels)",
+          "بَرٍّ": "Land",
+          "بَحْرٍ": "Meer"
+        }
+      },
+      "ru": {
+        "summary": "В аль-Кафи шейх Шейх аль-Кулайни приводит это предание от Имама ас-Садыка (да будет с ним мир), чтобы подчеркнуть метафизические последствия пренебрежения закят, представляя его не просто как финансовую обязанность, но как духовную защиту материальной стабильности. Имам использует поэтическую метафору птиц, теряющих свое «тасбих» (прославление), чтобы проилегрировать, что так же, как птица без песни уязвима, богатство без очищающего акта закята подвержено потере и разрушению. Это подчеркивает шиитскую ученую точку зрения, согласно которой закят действует как божественный механизм сохранения баракат (благословения) в активах человека.",
+        "seo_question": "Как пренебрежение закят влияет на сохранение богатства согласно шиитским хадисам?",
+        "key_terms": {
+          "الزَّكَاة": "закят (алымс-налог)",
+          "تَسْبِيحَهُ": "его прославление (относясь к естественному восхвалению птицы)",
+          "بَرٍّ": "суша",
+          "بَحْرٍ": "море"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲》中，谢赫·库莱尼记录了伊玛目萨迪格（愿主安之）的这段圣训，以强调忽视天课（Zakat）的形而上学后果，将其不仅仅视为一项财务义务，更视为维持物质稳定的精神保障。伊玛目运用了鸟儿失去“泰斯比哈”（Tasbih，赞颂）的诗意隐喻，说明正如失去歌声的鸟儿易受伤害一样，缺乏净化行为天课的财富也易遭受损失和毁灭。这突显了什叶派学者的观点，即天课是保护资产中巴拉卡（barakah，吉庆）的神圣机制。",
+        "seo_question": "根据什叶派圣训，忽视天课如何影响财富的保存？",
+        "key_terms": {
+          "الزَّكَاة": "天课",
+          "تَسْبِيحَهُ": "赞颂",
+          "بَرٍّ": "陆地",
+          "بَحْرٍ": "海洋"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "9:60",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:267",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:103",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "73:20",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad حَدَّثَنِي مَنْ سَمِعَ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ مَا ضَاعَ مَالٌ فِي بَرٍّ وَ لَا بَحْرٍ إِلَّا بِتَضْيِيعِ الزَّكَاةِ وَ لَا يُصَادُ مِنَ الطَّيْرِ إِلَّا مَا ضَيَّعَ تَسْبِيحَهُ .",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "حَدَّثَنِي مَنْ سَمِعَ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ مَا ضَاعَ مَالٌ فِي بَرٍّ وَ لَا بَحْرٍ إِلَّا بِتَضْيِيعِ الزَّكَاةِ وَ لَا يُصَادُ مِنَ الطَّيْرِ إِلَّا مَا ضَيَّعَ تَسْبِيحَهُ .",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أَحْمَدُ بْنُ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ الْحَسَنِ",
+          "name_en": "Ali ibn al-Hasan",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 237
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ النُّعْمَانِ",
+          "name_en": "‘Ali ibn al-Nu‘man",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 88
+        },
+        {
+          "name_ar": "إِسْحَاقَ",
+          "name_en": "Isaac",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 380
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

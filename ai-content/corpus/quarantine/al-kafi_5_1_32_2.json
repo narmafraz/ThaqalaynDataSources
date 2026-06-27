@@ -1,0 +1,315 @@
+{
+  "verse_path": "/books/al-kafi:5:1:32:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 17 en words vs 1 ar words (ratio=17.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "ethics"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "divine_attributes",
+      "etiquette",
+      "patience"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "A number of our companions, from Ahmad ibn Muhammad, from Uthman ibn Isa, from Sama'ah, who said:",
+          "ur": "ہماری جماعت کے کئی لوگ احمد بن محمد سے، انہوں نے عثمان بن عیسیٰ سے، انہوں نے سماعہ سے روایت کی کہ انہوں نے کہا:",
+          "tr": "Bizim ashabımızdan bir grup, Ahmed bin Muhammed'den, O da Osman bin İsa'dan, O da Semaa'dan, şöyle dedi:",
+          "fa": "عده‌ای از اصحاب ما از احمد بن محمد، از عثمان بن عیسی، از سماعه، که گفت:",
+          "id": "Sejumlah sahabat kami, dari Ahmad bin Muhammad, dari Utsman bin Isa, dari Sama'ah, yang berkata:",
+          "bn": "আমাদের সহচরগণের একদল, আহমদ ইবনে মুহাম্মদ, উসমান ইবনে ইসা, সামা'হ হতে, যিনি বলেছেন:",
+          "es": "Una serie de nuestros compañeros, de Ahmad ibn Muhammad, de Uthman ibn Isa, de Sama'ah, quien dijo:",
+          "fr": "Un certain nombre de nos compagnons, d'après Ahmad ibn Muhammad, d'après Othman ibn 'Isa, d'après Sama'ah, qui a dit :",
+          "de": "Eine Anzahl unserer Gefährten, von Ahmad ibn Muhammad ibn Ahmad, von Uthman ibn Isa, von Sama'a, der sagte:",
+          "ru": "Несколько наших сподвижников, от Ахмада ибн Мухаммада, от Усмана ибн Иссы, от Сама'а, который сказал:",
+          "zh": "我们的一些同伴，从艾哈迈德·本·穆罕默德，从奥斯曼·本·伊萨，从萨马阿，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) إِنَّ اللَّهَ عَزَّ وَ جَلَّ فَوَّضَ إِلَى الْمُؤْمِنِ أُمُورَهُ كُلَّهَا وَ لَمْ يُفَوِّضْ إِلَيْهِ أَنْ يُذِلَّ نَفْسَهُ",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) said: Indeed, Allah, Mighty and Majestic, delegated to the Believer all of his affairs, and did not delegate to him that he should humble himself.",
+          "ur": "ابو عبداللہ (علیہ السلام) نے فرمایا: بے شک اللہ تعالیٰ نے مومن کو اپنے تمام امور سونپ دیے اور اسے یہ نہیں سونپا کہ وہ خود کو ذلیل کرے۔",
+          "tr": "Ebu Abdillah (aleyhisselam) buyurdu ki: Şüphesiz Allah, Azze ve Celle, müminin bütün işlerini kendisine havale etmiş, ancak kendini küçük düşmesini ona havale etmemiştir.",
+          "fa": "ابو عبدالله (علیه السلام) فرمود: همانا خداوند متعال و جلیل، تمام کارهای خود را به مؤمن واگذار کرد و به او واگذار نکرد که خویش را فروتن کند.",
+          "id": "Abu Abdillah (Indonesian): Abu Abdillah (semoga Allah meridhainya) berkata: Sesungguhnya Allah, Yang Maha Perkasa dan Mulia, telah mendelegasikan kepada orang mukmin seluruh urusan-Nya, dan tidak mendelegasikan kepadanya untuk merendahkan dirinya.",
+          "bn": "আবু আবদিল্লাহ (রহ.) বলেছেন, নিশ্চয়ই আল্লাহ তায়ালা মহান ও মাহান, বিশ্বাসীকে তার সকল বিষয় অর্পণ করেছেন এবং তাকে নিজেকে নত করে রাখার দায়িত্ব অর্পণ করেননি।",
+          "es": "Abu Abdillah (peace be upon him) dijo: En verdad, Alá, Poderoso y Majestuoso, delegó en el creyente todos sus asuntos, y no le delegó que se humillara.",
+          "fr": "Abou Abdillah (que la paix soit sur lui) a dit : En vérité, Allah, Puissant et Majestueux, a délégué au croyant toutes ses affaires, et ne lui a pas délégué le fait de s'humilier.",
+          "de": "Abu Abdillah (friede sei mit ihm) sagte: Wahrlich, Allah, der Mächtige und Erhabene, hat dem Gläubigen alle seine Angelegenheiten übertragen und ihm nicht übertragen, dass er sich demütigen soll.",
+          "ru": "Абу Абдуллах (да будет доволен им Аллах) сказал: Поистине, Аллах, Всевышний и Величественный, поручил верующему все его дела и не поручил ему унижать себя.",
+          "zh": "阿布杜拉（愿主喜悦之）说：真主，尊贵而伟大，将信士的一切事务委托给他，并未委托他自我谦卑。"
+        },
+        "word_start": 1,
+        "word_end": 26
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَلَمْ تَسْمَعْ لِقَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ لِلَّهِ الْعِزَّةُ وَ لِرَسُولِهِ وَ لِلْمُؤْمِنِينَ",
+        "translations": {
+          "en": "Have you not listened to the Word of Allah, Mighty and Majestic: 'And to Allah belongs the Honour, and to His Messenger, and to the Believers'?",
+          "ur": "کیا تم نے اللہ کے کلام کو نہیں سنا، جو کہ عزت و جلال والے ہیں: ''اور عزت اللہ کی ہے، اور اس کے رسول کی، اور مومنین کی''؟",
+          "tr": "Allah'ın (celle şanüh) sözüne kulak vermedin mi: 'Onurluluk Allah'a, Peygamberine ve Müminlere aittir'?",
+          "fa": "آیا به کلام خداوند، توانا و برتر، گوش نداده‌ای: «و شرافت از آنِ خداست، و از آنِ پیامبر او، و از آنِ مؤمنان»؟",
+          "id": "Tidakkah kamu mendengar firman Allah, Yang Maha Perkasa lagi Maha Mulia: 'Dan hanya kepada Allah-lah kemuliaan itu, dan bagi Rasul-Nya, dan bagi orang-orang beriman'?",
+          "bn": "আপনি কি আল্লাহর মহিমান্বিত ও মর্যাদাপূর্ণ বাক্য শ্রবণ করেননি: 'আল্লাহরই সম্মান, তাঁর রাসূলের এবং মুমিনদের'? ",
+          "es": "¿Acaso no habéis escuchado la Palabra de Allah, el Poderoso y el Majestuoso: «Y el honor pertenece a Allah, y a Su Mensajero, y a los Creyentes»?",
+          "fr": "N'avez-vous pas écouté la Parole d'Allah, le Puissant, le Majestueux : « Et l'honneur appartient à Allah, ainsi qu'à Son Messager, et aux Croyants » ?",
+          "de": "Hast du nicht das Wort Allahs, des Mächtigen und Erhabenen, gehört: 'Und Allah gehört die Ehre, und Seinem Gesandten und den Gläubigen'?",
+          "ru": "Разве ты не слышал Слово Аллаха, Могущественного и Величественного: «И честь принадлежит Аллаху, и посланнику Его, и верующим»?",
+          "zh": "你难道没有聆听真主尊贵而伟大的言辞吗：‘一切荣耀归于真主，也归于他的使者，以及信士们’？"
+        },
+        "word_start": 26,
+        "word_end": 40
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَالْمُؤْمِنُ يَنْبَغِي أَنْ يَكُونَ عَزِيزاً وَ لَا يَكُونَ ذَلِيلًا يُعِزُّهُ اللَّهُ بِالْإِيمَانِ وَ الْإِسْلَامِ",
+        "translations": {
+          "en": "So the Believer ought to be honourable (aziz) and not be humiliated (dhil). Allah Honours him with Faith and Islam.",
+          "ur": "لہٰذا مومن کو عزت والا ہونا چاہیے اور ذلیل نہیں ہونا چاہیے۔ اللہ تعالیٰ اسے ایمان اور اسلام سے عزت عطا فرماتا ہے۔",
+          "tr": "İşte bu yüzden Mümin, aziz (onurlu) olmalı ve dhil (küçümsenmiş) olmamalıdır. Allah, O'na İman ve İslam ile saygınlık verir.",
+          "fa": "پس مؤمن باید عزیز باشد و ذلیل نشود. خداوند او را با ایمان و اسلام گرامی می‌دارد.",
+          "id": "Maka seorang mukmin hendaknya mulia (aziz) dan tidak hina (dhil). Allah memuliakannya dengan Iman dan Islam.",
+          "bn": "অতএব, মুমিনকে সম্মানিত (আযীয) হওয়া উচিত এবং অবমানিত (ধীল) হওয়া উচিত নয়। আল্লাহ তাঁকে ঈমান ও ইসলামের মাধ্যমে সম্মান দান করেন।",
+          "es": "Por tanto, el creyente debe ser honorable (aziz) y no ser humillado (dhil). Allah lo honra con la Fe y el Islam.",
+          "fr": "Ainsi, le Croyant doit être honoré (aziz) et non humilié (dhil). Allah l'honore par la Foi et l'Islam.",
+          "de": "Der Gläubige soll daher ehrenhaft (aziz) sein und nicht gedemütigt (dhil) werden. Allah ehrt ihn mit dem Glauben und dem Islam.",
+          "ru": "Итак, верующий должен быть почитаемым (азиз) и не быть униженным (диль). Аллах почитает его верой и исламом.",
+          "zh": "因此，信士应当尊贵（aziz）而不被羞辱（dhil）。真主以信仰和伊斯兰教使他尊贵。"
+        },
+        "word_start": 40,
+        "word_end": 54
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In al-Kafi, Samaanah narrates from Imam al-Sadiq (AS) that while Allah delegated general affairs to the believer, He excluded self-humiliation, linking this principle to Surah Al-Munafiqun. This hadith is central to the Shia concept of 'Izzah' (dignity), teaching that believers must actively preserve their spiritual and social status rather than passively accepting degradation. It serves as a theological basis for avoiding situations where one's faith or intellect is compromised by undue humiliation.",
+        "seo_question": "What does it mean for a believer to be 'aziz' (honourable) and not 'dhil' (humiliated) according to Shia hadith?",
+        "key_terms": {
+          "فَوَّضَ": "Delegated / Entrusted with authority",
+          "أُمُورَهُ": "His affairs / matters",
+          "يُذِلَّ": "To humble / to degrade",
+          "الْعِزَّةُ": "Honour / Dignity / Power",
+          "عَزِيزاً": "Honourable / Dignified",
+          "ذَلِيلًا": "Humiliated / Lowly"
+        }
+      },
+      "ur": {
+        "summary": "الکافی میں سمیعہ نے امام صادق (علیہ السلام) سے روایت کی ہے کہ اللہ تعالیٰ نے مومن کو عام امور میں اختیار دیا لیکن خود ذلیل ہونے کو خارج رکھا، جسے سورہ المنافقون سے جوڑا گیا ہے۔ یہ حدیث شیعہ تصوراتِ عزت کی مرکزی حیثیت رکھتی ہے، جو سکھاتی ہے کہ مومن کو اپنی روحانی اور سماجی حیثیت کو فعال طور پر برقرار رکھنا چاہیے، نہ کہ خاموشی سے تنزلی کو قبول کرنا۔ یہ ایک ایسی صورت حال سے بچنے کے لیے کلامی بنیاد فراہم کرتی ہے جہاں مومن کا دین یا عقل غیر ضروری ذلت کے باعث متاثر ہو۔",
+        "seo_question": "شیعہ احادیث کے مطابق مومن کا عزیز (معزز) ہونا اور ذلیل نہ ہونا کیا مطلب ہے؟",
+        "key_terms": {
+          "فَوَّضَ": "اختیار دیا / اختیار سونپا",
+          "أُمُورَهُ": "اس کے امور / معاملات",
+          "يُذِلَّ": "ذلیل کرنا / تنزل دینا",
+          "الْعِزَّةُ": "عزت / وقار / طاقت",
+          "عَزِيزاً": "معزز / باوقار",
+          "ذَلِيلًا": "ذلیل / پست"
+        }
+      },
+      "tr": {
+        "summary": "El-Kâfî'de Semâne, Allah Teâlâ'nın müminin genel işlerini kendisine havale ettiğini, ancak kendini aşağılamayı (tezelzülü) hariç tuttuğunu İmam es-Sâdık'tan (AS) rivayet eder; bu prensip Mütekâ sûresi ile ilişkilendirilir. Bu hadis, Şia'da 'İzzet' (onur/mükerremiyet) kavramının merkezindedir ve müminlerin aşağılanmayı pasif olarak kabul etmek yerine, manevi ve sosyal statülerini aktif olarak korumaları gerektiğini öğretir. İnanç veya akıl zemininde gereğinden fazla aşağılanmaya maruz kalınacak durumların kaçınılması için bu hadis teolojik bir temel oluşturur.",
+        "seo_question": "Şia hadislerine göre bir mümin'in 'azîz' (onurlu) olup 'zelîl' (aşağılanmış) olmaması ne anlama gelir?",
+        "key_terms": {
+          "فَوَّضَ": "Havale etmek / Yetki vermek",
+          "أُمُورَهُ": "İşleri / Meseleleri",
+          "يُذِلَّ": "Aşağılamak / Zilletle karşılamak",
+          "الْعِزَّةُ": "İzzet / Onur / Güç",
+          "عَزِيزاً": "Azîz / Onurlu",
+          "ذَلِيلًا": "Zelîl / Aşağılanmış"
+        }
+      },
+      "fa": {
+        "summary": "در الکافی، سمانه از امام صادق (ع) روایت می‌کند که خداوند امور عامه را به مؤمن واگذار کرد، اما خویش‌ذلتی را استثنا نمود و این اصل را به سوره منافقون پیوند داد. این حدith محوری در مفهوم شیعی «عزت» است و آموزش می‌دهد که مؤمنان باید به‌طور فعال جایگاه معنوی و اجتماعی خود را حفظ کنند تا اینکه به‌طور انفعالی تحقیر را بپذیرند. این حدith مبنای کلامی برای پرهیز از موقعیت‌هایی است که در آن‌ها ایمان یا عقل انسان به دلیل تحقیر بی‌جا آسیب می‌بیند.",
+        "seo_question": "در حدith‌های شیعه، مؤمن «عزیز» (گرامی) و «ذلیل» (تحقیر شده) بودن به چه معناست؟",
+        "key_terms": {
+          "فَوَّضَ": "واگذار کرد / به او اختیار داد",
+          "أُمُورَهُ": "امور او / کارهایش",
+          "يُذِلَّ": "خود را کوچک کردن / تحقیر کردن",
+          "الْعِزَّةُ": "عزت / گرامی‌داشت / قدرت",
+          "عَزِيزاً": "گرامی / با عزت",
+          "ذَلِيلًا": "تحقیر شده / پست"
+        }
+      },
+      "id": {
+        "summary": "Dalam al-Kafi, Samaanah meriwayatkan dari Imam al-Sadiq (AS), Samaanah menyebutkan bahwa Allah menyerahkan urusan umum kepada orang beriman, namun mengecualikan kerendahan diri, dengan mengaitkan prinsip ini pada Surah Al-Munafiqun. Hadis ini menjadi pusat konsep 'Izzah' (kemuliaan) dalam Syi'ah, yang mengajarkan bahwa orang beriman harus secara aktif menjaga martabat spiritual dan sosial mereka daripada menerima degradasi secara pasif. Hal ini menjadi dasar teologis untuk menghindari situasi di mana iman atau akal mereka dikompromikan oleh kerendahan yang tidak semestinya.",
+        "seo_question": "Apa artinya bagi orang beriman untuk menjadi 'aziz' (mulia) dan tidak 'dhil' (rendah) menurut hadis Syi'ah?",
+        "key_terms": {
+          "فَوَّضَ": "Menyerahkan / Mempercayakan otoritas",
+          "أُمُورَهُ": "Urusan / matters-nya",
+          "يُذِلَّ": "Merendahkan / mendegradasi",
+          "الْعِزَّةُ": "Kemuliaan / Martabat / Kekuatan",
+          "عَزِيزاً": "Mulia / Bermartabat",
+          "ذَلِيلًا": "Rendah / Rendah hati"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফীতে, সামানাহ ইমাম আস-সাদিক (আ.) থেকে বর্ণনা করেন যে, যখন আল্লাহ বিশ্বাসীদের সাধারণ বিষয়গুলো অর্পণ করলেন, তখন তিনি আত্ম-নির্লজ্জতা বা অবনমনকে বাদ দিলেন, এই নীতিটিকে সূরা আল-মুনাজিকুন এর সাথে যুক্ত করেছেন। এই হাদিস শিয়া ধর্মের 'ইজ্জত' (মর্যাদা) ধারণার কেন্দ্রবিন্দু, যা শিক্ষা দেয় যে বিশ্বাসীদেরকে তাদের আধ্যাত্মিক ও সামাজিক মর্যাদা সক্রিয়ভাবে রক্ষা করতে হবে, নিষ্ক্রিয়ভাবে অবনমন গ্রহণ করা নয়। এটি এমন পরিস্থিতি এড়ানোর জন্য একটি তাত্ত্বিক ভিত্তি প্রদান করে যেখানে অযৌক্তিক অবনমনের কারণে তাদের ঈমান বা বুদ্ধি ক্ষুণ্ন হয়।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী, একজন বিশ্বাসী 'আযীজ' (মর্যাদাবান) এবং 'যালিল' (অবনত/নির্লজ্জ) নয়, এর অর্থ কী?",
+        "key_terms": {
+          "فَوَّضَ": "অর্পণ করা / কর্তৃত্ব প্রদান করা",
+          "أُمُورَهُ": "তার বিষয়সমূহ / ব্যাপার",
+          "يُذِلَّ": "নির্লজ্জ করা / অবনত করা",
+          "الْعِزَّةُ": "মর্যাদা / গৌরব / শক্তি",
+          "عَزِيزاً": "মর্যাদাবান / গৌরবান্বিত",
+          "ذَلِيلًا": "অবনত / নিম্ন"
+        }
+      },
+      "es": {
+        "summary": "En al-Kafi, Samaanah narra del Imam al-Sadiq (AS) que, aunque Allah delegó los asuntos generales al creyente, excluyó la autohumillación, vinculando este principio con la Surah Al-Munafiqun. Este hadiz es central en el concepto chií de 'Izzah' (dignidad), enseña que los creyentes deben preservar activamente su estatus espiritual y social en lugar de aceptar pasivamente la degradación. Sirve como base teológica para evitar situaciones donde la fe o el intelecto se comprometan por una humillación indebida.",
+        "seo_question": "¿Qué significa para un creyente ser 'aziz' (honorable) y no 'dhil' (humillado) según el hadiz chií?",
+        "key_terms": {
+          "فَوَّضَ": "Delegó / Confirió autoridad",
+          "أُمُورَهُ": "Sus asuntos / asuntos",
+          "يُذِلَّ": "Humillar / degradar",
+          "الْعِزَّةُ": "Honor / Dignidad / Poder",
+          "عَزِيزاً": "Honorable / Digno",
+          "ذَلِيلًا": "Humillado / Abajo"
+        }
+      },
+      "fr": {
+        "summary": "Dans al-Kafi, Samaanah rapporte de l'Imam al-Sadiq (AS) qu'Allah a délégué les affaires générales au croyant, à l'exception de l'humiliation de soi, reliant ce principe à la sourate Al-Munafiqun. Ce hadith est central dans le concept chiite d'‘Izzah (dignité), enseignant que les croyants doivent préserver activement leur statut spirituel et social plutôt que d'accepter passivement la dégradation. Il sert de base théologique pour éviter les situations où la foi ou l'intellect sont compromis par une humiliation indue.",
+        "seo_question": "Que signifie pour un croyant d'être 'aziz' (honorable) et non 'dhil' (humilié) selon le hadith chiite ?",
+        "key_terms": {
+          "فَوَّضَ": "A délégué / Conféré l'autorité",
+          "أُمُورَهُ": "Ses affaires / ses matters",
+          "يُذِلَّ": "Humilier / Dégrader",
+          "الْعِزَّةُ": "Honneur / Dignité / Pouvoir",
+          "عَزِيزاً": "Honorable / Digne",
+          "ذَلِيلًا": "Humilié / Abaissé"
+        }
+      },
+      "de": {
+        "summary": "In al-Kafi berichtet Samaanah von Imam al-Sadiq (AS), dass Allah dem Gläubigen die allgemeinen Angelegenheiten überlassen, aber die Selbstentwürdigung ausgenommen hat, und verknüpft dieses Prinzip mit der Sure Al-Munafiqun. Diese Hadith ist zentral für das schiitische Konzept der 'Izzah' (Würde) und lehrt, dass Gläubige ihre spirituelle und soziale Stellung aktiv wahren müssen, anstatt Demütigung passiv hinzunehmen. Sie dient als theologische Grundlage dafür, Situationen zu vermeiden, in denen Glaube oder Verstand durch unangemessene Demütigung beeinträchtigt werden.",
+        "seo_question": "Was bedeutet es für einen Gläubigen, 'aziz' (ehrwürdig) und nicht 'dhil' (gedemütigt) zu sein, gemäß schiitischer Hadith?",
+        "key_terms": {
+          "فَوَّضَ": "Überließ / Vertraute Autorität an",
+          "أُمُورَهُ": "Seine Angelegenheiten / matters",
+          "يُذِلَّ": "Demütigen / erniedrigen",
+          "الْعِزَّةُ": "Ehre / Würde / Macht",
+          "عَزِيزاً": "Ehrwürdig / Würdevoll",
+          "ذَلِيلًا": "Gedemütigt / Niedrig"
+        }
+      },
+      "ru": {
+        "summary": "В аль-Кафи Саамана передаёт от имама ас-Садыка (да будет с ним мир), что Аллах доверил верующему общие дела, но исключил унижение, связывая этот принцип с сурой «Аль-Мунафикун». Этот хадис является центральным для шиитской концепции «иззата» (достоинства), обучая верующих активно сохранять свой духовный и социальный статус, а не пассивно принимать унижение. Он служит теологическим основанием для избегания ситуаций, в которых вера или интеллект компрометируются из-за чрезмерного унижения.",
+        "seo_question": "Что означает для верующего быть «азизом» (почётным) и не быть «дхилем» (униженным) согласно шиитским хадисам?",
+        "key_terms": {
+          "فَوَّضَ": "Доверил / Поручил власть",
+          "أُمُورَهُ": "Его дела / вопросы",
+          "يُذِلَّ": "Унижать / Делать низким",
+          "الْعِزَّةُ": "Почёт / Достоинство / Власть",
+          "عَزِيزاً": "Почётный / Достойный",
+          "ذَلِيلًا": "Униженный / Низкий"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲书中，萨马纳从伊玛目萨迪克（愿主福安之）传述，真主将一般事务委托给信士，但排除了自我羞辱，并将这一原则与《伪信者章》联系起来。这则圣训是什叶派‘尊严’概念的核心，教导信士必须积极维护其精神和社交地位，而不是被动接受屈辱。它为避免信仰或理智因过度羞辱而受损的情况提供了神学基础。",
+        "seo_question": "根据什叶派圣训，信士作为‘尊贵者’而非‘受辱者’意味着什么？",
+        "key_terms": {
+          "فَوَّضَ": "委托/赋予权威",
+          "أُمُورَهُ": "他的事务/事项",
+          "يُذِلَّ": "使谦卑/使降级",
+          "الْعِزَّةُ": "尊贵/尊严/权力",
+          "عَزِيزاً": "尊贵的/有尊严的",
+          "ذَلِيلًا": "受辱的/低微的"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "63:8",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "39:10",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "48:1",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) إِنَّ اللَّهَ عَزَّ وَ جَلَّ فَوَّضَ إِلَى الْمُؤْمِنِ أُمُورَهُ كُلَّهَا وَ لَمْ يُفَوِّضْ إِلَيْهِ أَنْ يُذِلَّ نَفْسَهُ أَلَمْ تَسْمَعْ لِقَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ لِلَّهِ الْعِزَّةُ وَ لِرَسُولِهِ وَ لِلْمُؤْمِنِينَ فَالْمُؤْمِنُ يَنْبَغِي أَنْ يَكُونَ عَزِيزاً وَ لَا يَكُونَ ذَلِيلًا يُعِزُّهُ اللَّهُ بِالْإِيمَانِ وَ الْإِسْلَامِ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) إِنَّ اللَّهَ عَزَّ وَ جَلَّ فَوَّضَ إِلَى الْمُؤْمِنِ أُمُورَهُ كُلَّهَا وَ لَمْ يُفَوِّضْ إِلَيْهِ أَنْ يُذِلَّ نَفْسَهُ أَلَمْ تَسْمَعْ لِقَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ لِلَّهِ الْعِزَّةُ وَ لِرَسُولِهِ وَ لِلْمُؤْمِنِينَ فَالْمُؤْمِنُ يَنْبَغِي أَنْ يَكُونَ عَزِيزاً وَ لَا يَكُونَ ذَلِيلًا يُعِزُّهُ اللَّهُ بِالْإِيمَانِ وَ الْإِسْلَامِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+          "name_en": "A number of our companions",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 6
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "عُثْمَانَ بْنِ عِيسَى",
+          "name_en": "Uthman ibn Isa",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 41
+        },
+        {
+          "name_ar": "سَمَاعَةَ",
+          "name_en": "Sama'a",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 48
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

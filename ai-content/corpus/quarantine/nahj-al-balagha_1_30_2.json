@@ -1,0 +1,204 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:30:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 18 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'لو أمرت به لكنت قاتلا، أو نهيت عنه لكنت ناصرا، غير أن من نصر'"
+  ],
+  "result": {
+    "tags": [
+      "governance",
+      "history",
+      "ethics"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "companions",
+      "events",
+      "divine_justice",
+      "leadership"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَوْ أَمَرْتُ بِهِ لَكُنْتُ قَاتِلاً، أَوْ نَهَيْتُ عَنْهُ لَكُنْتُ نَاصِراً، غَيْرَ أَنَّ مَنْ نَصَرَهُ لَا يَسْتَطِيعُ أَنْ يَقُولَ: خَذَلَهُ مَنْ أَنَا خَيْرٌ مِنْهُ، وَمَنْ خَذَلَهُ لَا يَسْتَطِيعُ أَنْ يَقُولَ: نَصَرَهُ مَنْ هُوَ خَيْرٌ مِنِّي. وَأَنَا جَامِعٌ لَكُمْ أَمْرَهُ، اسْتَأْثَرَ فَأَسَاءَ الاِثْرَةَ وَجَزِعْتُمْ فَأَسَأْتُمُ الْجَزَعَ وَلِلَّهِ حُكْمٌ وَاقِعٌ فِي الْمُسْتَأْثِرِ وَالْجَازِعِ.",
+        "translations": {
+          "en": "If I had ordered his assassination, I would have been his killer, or if I had forbidden it, I would have been his helper. The point is that he who helped him cannot say: 'He was deserted by someone better than him,' and he who deserted him cannot say: 'He was helped by someone better than me.' And I am presenting his case to you: He appropriated (wealth) and did so badly, and you protested against it and did so excessively. And to Allah belongs the decisive verdict between the appropriator and the protester.",
+          "ur": "اگر میں نے اس کی قتل کا حکم دیا ہوتا تو میں اس کا قاتل ہوتا، یا اگر میں نے اس کی ممانعت کی ہوتی تو میں اس کا مددگار ہوتا۔ بات یہ ہے کہ جس نے اس کی مدد کی، وہ یہ نہیں کہہ سکتا کہ اس کی مدد مجھ سے بہتر نے کی، اور جس نے اس کی مدد نہ کی، وہ یہ نہیں کہہ سکتا کہ اس کی مدد مجھ سے بہتر نے کی۔ اور میں تمہارے سامنے اس کا معاملہ پیش کر رہا ہوں: اس نے مال کو خاص کر لیا اور بری طرح کیا، اور تم نے اس پر اعتراض کیا اور بڑھا چڑھا کر کیا۔ اور اللہ ہی کا فیصلہ ہے جو خاص کرنے والے اور اعتراض کرنے والے کے درمیان واقع ہوگا۔",
+          "tr": "Eğer onun katlini emretseydim, katili ben olurdum; ya da yasaklasaydım, yardımcı ben olurdum. Mesele şudur: Ona yardım eden, 'Benden daha hayırlı biri tarafından terk edildi' diyemez; onu terk eden de, 'Benden daha hayırlı biri tarafından desteklendi' diyemez. Ve onun davasını size sunuyorum: O, malı istisnai olarak ele geçirdi ve bunu kötü yaptı; siz de buna karşı çıktınız ve aşırıya gittiniz. Karar, istisnai olarak ele geçirene ve buna karşı çıkanlara ait olan hüküm Allah'a aittir.",
+          "fa": "اگر دستور قتل او را می‌دادم، قاتل او می‌شدم، یا اگر نهی می‌کردم، یاور او می‌شدم. اما کسی که او را یاری کند، نمی‌تواند بگوید: «او را کسی بهتر از من ترک کرد»، و کسی که او را ترک کند، نمی‌تواند بگوید: «او را کسی بهتر از من یاری کرد». و من قضیه او را برای شما جمع‌بندی می‌کنم: او ثروت را انحصاری کرد و بد انحصار کرد، و شما اعتراض کردید و بد اعتراض کردید. و حکم قطعی از آنِ خداست میان انحصارکننده و معترض.",
+          "id": "Seandainya aku memerintahkan pembunuhannya, niscaya aku akan menjadi pembunuhnya, atau seandainya aku melarangnya, niscaya aku akan menjadi penolongnya. Namun, orang yang menolongnya tidak dapat berkata: 'Dia ditinggalkan oleh seseorang yang lebih baik darinya,' dan orang yang meninggalkannya tidak dapat berkata: 'Dia ditolong oleh seseorang yang lebih baik dariku.' Dan aku menyampaikan urusannya kepada kalian: Dia menguasai (hkan (harta) dan melakukannya dengan buruk, dan kalian memprotesnya dan melakukannya secara berlebihan. Dan bagi Allah-lah keputusan yang pasti antara yang menguasaihkan dan yang memprotes.",
+          "bn": "যদি আমি তার হত্যা করার আদেশ দিতাম, তবে আমিই তার হত্যাকারী হতাম, অথবা যদি আমি তা নিষেধ করতাম, তবে আমিই তার সহায়ক হতাম। বিষয়টি হলো, যে ব্যক্তি তাকে সাহায্য করেছে সে বলে বলতে পারে না: 'তাকে আমার চেয়ে শ্রেষ্ঠ কেউ বঞ্চিত করেছে,' এবং যে ব্যক্তি তাকে বঞ্চিত করেছে সে বলে বলতে পারে না: 'তাকে আমার চেয়ে শ্রেষ্ঠ কেউ সাহায্য করেছে।' আর আমি আপনাদের সামনে তার বিষয়টি উপস্থাপন করছি: সে সম্পদ আয়ত্ত করেছে এবং তা খারাপভাবে করেছে, এবং আপনি তাতে আপত্তি করেছেন এবং তা অতিরিক্তভাবে করেছেন। আর আয়ত্তকারী ও আপত্তিকারীর মধ্যে চূড়ান্ত বিচার আল্লাহরই অধিকারে রয়েছে।",
+          "es": "Si hubiera ordenado su asesinato, habría sido su asesino, o si lo hubiera prohibido, habría sido su ayudante. El punto es que quien lo ayudó no puede decir: 'Fue abandonado por alguien mejor que él', y quien lo abandonado por alguien mejor que él', y quien lo abandonó no puede decir: 'Fue ayudado por alguien mejor que yo'. Y yo les presento su caso: Se apropió (de la riqueza) y lo hizo mal, y ustedes protestaron contra ello y lo hicieron en exceso. Y a Alá pertenece el veredicto decisivo entre el apropiador y el protestante.",
+          "fr": "Si je lui avais ordonné son assassinat, j'aurais été son tueur, ou si je lui avais interdit, j'aurais été son soutien. Le fait est que celui qui l'a soutenu ne peut pas dire : 'Il a été abandonné par quelqu'un de meilleur que lui', et celui qui l'a abandonné ne peut pas dire : 'Il a été soutenu par quelqu'un de meilleur que moi'. Et je vous présente son cas : Il s'est approprié (les biens) et l'a mal fait, et vous vous y êtes opposés et l'avez fait de manière excessive. Et à Allah appartient le verdict décisif entre celui qui s'est approprié et celui qui s'est opposé.",
+          "de": "Wenn ich hätte seinen Mord befohlen, wäre ich sein Mörder gewesen, oder wenn ich es verboten hätte, wäre ich sein Helfer gewesen. Der Punkt ist, dass derjenige, der ihm half, nicht sagen kann: 'Er wurde von jemandem verlassen, der besser ist als er,' und derjenige, der ihn verließ, nicht sagen kann: 'Er wurde von jemandem geholfen, der besser ist als ich.' Und ich lege euch seine Angelegenheit vor: Er hat sich (Vermögen) angeeignet und es schlecht gemacht, und ihr habt dagegen protestiert und es übertrieben. Und Allah gehört das entscheidende Urteil zwischen dem Anvertrauten und dem Protestierenden.",
+          "ru": "Если бы я приказал убить его, то я был бы его убийцей, а если бы я запретил это, то я был бы его помощником. Суть в том, что тот, кто помог ему, не может сказать: «Его оставил тот, кто лучше меня», а тот, кто оставил его, не может сказать: «Его поддержал тот, кто лучше меня». И я представляю вам его дело: он присвоил (богатство) и сделал это плохо, а вы возмутились против этого и сделали это чрезмерно. И Аллаху принадлежит окончательное решение между присвоившим и возмутившимся.",
+          "zh": "倘若我下令刺杀他，我便是他的杀手；倘若我禁止此事，我便是他的帮手。关键在于，帮助他之人无法说：‘抛弃他者比我更优’；抛弃他之人也无法说：‘帮助他者比我更优’。我在此向你们陈述他的情况：他独占了财富且做得不好，你们对此抗议却做得过分。判决权归于真主，在占有者与抗议者之间。"
+        },
+        "word_start": 0,
+        "word_end": 50
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) articulates the theological nuance of the Uthman affair, asserting that neither the supporters nor the opponents of the killers can claim absolute superiority, as both sides exhibited flaws in their actions. He characterizes Uthman’s accumulation of wealth as 'bad appropriation' and the people's reaction as 'improper impatience,' framing the event within the broader divine decree. This reflects the Shia scholarly view of the incident as a complex political and spiritual trial rather than a simple binary of right and wrong.",
+        "seo_question": "What was Imam Ali's view on the competing merits of those who killed Uthman and those who opposed it?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "The appropriator (one who monopolized wealth)",
+          "الْجَازِع": "The protester (one who showed impatience/excess in protest)",
+          "الِثْرَة": "Appropriation or monopolizing wealth",
+          "الْجَزَع": "Impatience or excessive reaction"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) عثمان کے واقعے کی کلامی باریکی کو بیان کرتے ہیں، یہ دعویٰ کرتے ہوئے کہ نہ تو قاتلوں کے حامی اور نہ ہی مخالفین مطلق برتری کا دعویٰ کر سکتے ہیں، کیونکہ دونوں فریقوں نے اپنی کارروائیوں میں خامیاں دکھائیں۔ وہ عثمان کی دولت کی جمع کرنے کی عمل کو 'برے طریقے سے اپنا لیا' (بد استئثار) اور لوگوں کے ردعمل کو 'نا مناسب جلد بازی' (جذع) قرار دیتے ہیں، اس واقعے کو وسیع تر الہیٰ تقدیر کے تناظر میں پیش کرتے ہوئے۔ یہ شیعہ علما کے اس نقطہ نظر کی عکاسی کرتا ہے کہ یہ واقعہ سیدھے سیدھے حق و باطل کے دو قطبی تقسیم کے بجائے ایک پیچیدہ سیاسی اور روحانی آزمائش ہے۔",
+        "seo_question": "امام علی کا قاتلوں اور ان کے مخالفین کے درمیان مقابلہ کرنے والی خوبیوں کے بارے میں کیا نظریہ تھا؟",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "مال کو اپنا لینے والا (جو دولت کو اکٹھا کرنے والا ہے)",
+          "الْجَازِع": "ظاہر کرنے والا (جو احتجاج میں جلد بازی یا زیادتی دکھاتا ہے)",
+          "الِثْرَة": "دولت کو اپنا لینا یا اکٹھا کرنا",
+          "الْجَزَع": "جلد بازی یا زیادہ ردعمل"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aleyhisselam), Osman olayının teolojik nüansını ortaya koyarak, katillerin taraftarları ile muhaliflerinin her ikisinin de eylemlerinde kusurlar bulunduğunu ve bu nedenle mutlak üstünlük iddia edemeyeceklerini belirtir. Osman'ın servet biriktirmesini 'kötü tasarruf' (istithar) ve halkın tepkisini 'uygunsuz sabırsızlık' (cezef) olarak nitelendirerek olayı daha geniş ilahi kader bağlamına yerleştirir. Bu durum, Şii alimlerinin olayı basit bir doğru/yanlış ikiye ayrılığından ziyade karmaşık bir siyasi ve manevi imtihan olarak gördüğünü yansıtır.",
+        "seo_question": "İmam Ali, Osman'ı öldürenlerin ve buna muhalefet edenlerin rekabet eden faziletleri konusunda ne görüşe sahipti?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "servet biriktiren (serveti tekelleştiren)",
+          "الْجَازِع": "gösteri yapan (gösteride aşırı/sabırsızlık gösteren)",
+          "الِثْرَة": "Servet biriktirme veya tekelleştirme",
+          "الْجَزَع": "Sabırsızlık veya aşırı tepki"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علیه السلام) ظرافت کلامی و الهیاتی ماجرای عثمان را بیان می‌کند و مدعی است که نه هواداران قاتلان و نه مخالفان آن‌ها می‌توانند برتری مطلق ادعا کنند، زیرا هر دو گروه در اعمال خود نقص داشتند. او انباشت ثروت عثمان را «استیثار» (به‌کارگیری نادرست) و واکنش مردم را «جزع» (بی‌قراری نادرست) توصیف می‌کند و این رویداد را در چارچوب سرنوشت الهی وسیع‌تر قرار می‌دهد. این دیدگاه، دیدگاه علمای شیعه نسبت به این حادثه را به عنوان یک آزمایش سیاسی و معنوی پیچیده نشان می‌دهد، نه یک تقابل ساده از درست و نادرست.",
+        "seo_question": "نظر امام علی (علیه السلام) درباره برتری‌های رقابتی میان کسانی که عثمان را کشتند و کسانی که با آن مخالفت کردند، چه بود؟",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "به‌کارگیرنده (کسی که ثروت را انحصار کرد)",
+          "الْجَازِع": "معترض (کسی که در اعتراض بی‌قراری یا افراط نشان داد)",
+          "الِثْرَة": "استیثار یا انحصار ثروت",
+          "الْجَزَع": "بی‌قراری یا واکنش افراطی"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (alamah) mengartikulasikan nuansa teologis dari peristiwa Utsman, menegaskan bahwa baik pendukung maupun lawan para pembunuh tidak dapat mengklaim keunggulan absolut, karena kedua belah pihak menunjukkan cacat dalam tindakan mereka. Ia mengkarakterisasi akumulasi kekayaan Utsman sebagai 'penguasaan yang buruk' dan reaksi rakyat sebagai 'ketidaksabaran yang tidak pantas', membingkai peristiwa tersebut dalam ketetapan ilahi yang lebih luas. Hal ini mencerminkan pandangan ulama Syiah tentang insiden tersebut sebagai ujian politik dan spiritual yang kompleks, bukan sekadar dikotomi benar dan salah.",
+        "seo_question": "Apa pandangan Imam Ali tentang keunggulan yang bersaing antara mereka yang membunuh Utsman dan mereka yang menentangnya?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "Penguasa (seseorang yang memonopoli kekayaan)",
+          "الْجَازِع": "Pemberi protes (seseorang yang menunjukkan ketidaksabaran/berlebihan dalam protes)",
+          "الِثْرَة": "Penguasaan atau pemonopolan kekayaan",
+          "الْجَزَع": "Ketidaksabaran atau reaksi berlebihan"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) উসমানের ঘটনার ঐতিহাসিক ও ধর্মতাত্ত্বিক জটিলতা ব্যাখ্যা করেছেন, যুক্তি দিয়েছেন যে হত্যাকারীদের সমর্থকরা এবং বিরোধীরা উভয়েই তাদের কাজে ত্রুটি দেখিয়েছে, তাই কেউই পরম শ্রেষ্ঠত্বের দাবিদার নয়। তিনি উসমানের সম্পদ সঞ্চয়কে 'অযথা সম্পদ সঞ্চয়' এবং জনগণের প্রতিক্রিয়াকে 'অযথা অধৈর্য' হিসেবে চিহ্নিত করেছেন, যা ঐতিহ্যগতভাবে আল্লাহর বিধানের মধ্যে ফ্রেম করা হয়েছে। এটি শিয়া আলেমদের মতে, এই ঘটনাকে সরল দ্বন্দ্বের চেয়ে একটি জটিল রাজনৈতিক ও আধ্যাত্মিক পরীক্ষা হিসেবে দেখে।",
+        "seo_question": "উসমানকে হত্যা করা এবং তাকে বিরোধিতা করা উভয় পক্ষের মধ্যে ইমাম আলী (আ.) কীভাবে প্রতিযোগিতামূলক গুণাবলী মূল্যায়ন করেছিলেন?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "সম্পদ সঞ্চয়কারী (যিনি সম্পদ একচেটিয়া করে নিয়েছিলেন)",
+          "الْجَازِع": "প্রতিবাদকারী (যিনি প্রতিবাদে অধৈর্য/অতিরিক্ত প্রতিক্রিয়া দেখিয়েছিলেন)",
+          "الِثْرَة": "সম্পদ সঞ্চয় বা একচেটিয়া করা",
+          "الْجَزَع": "অধৈর্য বা অতিরিক্ত প্রতিক্রিয়া"
+        }
+      },
+      "es": {
+        "summary": "El Imam Alí (que la paz sea con él) articula la sutileza teológica del asunto de Uthmán, afirmando que ni los partidarios ni los opositores de los asesinos pueden reclamar una superioridad absoluta, ya que ambos bandos mostraron defectos en sus acciones. Caracteriza la acumulación de riqueza de Uthmán como una 'apropiación defectuosa' y la reacción del pueblo como una 'imprudencia impropia', enmarcando el evento dentro del decreto divino más amplio. Esto refleja la visión erudita chií del incidente como una prueba política y espiritual compleja en lugar de una simple dicotomía de derecho e incorrecto.",
+        "seo_question": "¿Cuál fue la visión del Imam Alí sobre los méritos competitivos de los que mataron a Uthmán y de los que se opusieron a ello?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "El apropiador (quien monopolizó la riqueza)",
+          "الْجَازِع": "El protestante (quien mostró impaciencia/exceso en la protesta)",
+          "الِثْرَة": "Apropiación o monopolización de la riqueza",
+          "الْجَزَع": "Impaciencia o reacción excesiva"
+        }
+      },
+      "fr": {
+        "summary": "L’imam Ali (que la paix soit sur lui) expose la nuance théologique de l’affaire d’Othman, affirmant que ni les partisans ni les opposants des assassins ne peuvent prétendre à une supériorité absolue, car les deux camps ont montré des défauts dans leurs actions. Il caractérise l’accumulation de richesses d’Othman comme une « appropriation défectueuse » et la réaction du peuple comme une « impatience impropre », inscrivant l’événement dans le décret divin plus large. Cela reflète la vue savante chiite de l’incident comme un procès politique et spirituel complexe plutôt qu’une simple dichotomie entre le bien et le mal.",
+        "seo_question": "Quelle était la vue de l’imam Ali sur les mérites concurrents de ceux qui ont tué Othman et de ceux qui s’y sont opposés ?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "L’appropriateur (celui qui a monopolisé la richesse)",
+          "الْجَازِع": "Le protestataire (celui qui a montré de l’impatience/excès dans la protestation)",
+          "الِثْرَة": "Appropriation ou monopolisation de la richesse",
+          "الْجَزَع": "Impatience ou réaction excessive"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede sei mit ihm) bringt die theologische Nuance der Uthman-Angelegenheit auf den Punkt und behauptet, dass weder die Unterstützer noch die Gegner der Mörder absolut überlegen sein können, da beide Seiten Fehler in ihren Handlungen zeigten. Er charakterisiert Uthmans Anhäufung von Reichtum als 'schlechte Aneignung' und die Reaktion des Volkes als 'unangemessene Ungeduld', wobei er das Ereignis in den weiteren göttlichen Beschluss einordnet. Dies spiegelt die schiitische Gelehrtenansicht wider, die den Vorfall als komplexe politische und spirituelle Prüfung und nicht als einfaches Binärmodell von Recht und Unrecht betrachtet.",
+        "seo_question": "Was war Imam Alis Ansicht zu den konkurrierenden Verdiensten derer, die Uthman töteten, und derer, die es widersprachen?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "Der Aneigner (derjenige, der den Reichtum monopolisierte)",
+          "الْجَازِع": "Der Protestierende (derjenige, der Ungeduld/Überschuss im Protest zeigte)",
+          "الِثْرَة": "Aneignung oder Monopolisierung von Reichtum",
+          "الْجَزَع": "Ungeduld oder übermäßige Reaktion"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (да будет над ним мир) излагает богословский нюанс дела Усмана, утверждая, что ни сторонники, ни противники убийц не могут претендовать на абсолютное превосходство, поскольку обе стороны проявили недостатки в своих действиях. Он характеризует накопление богатства Усманом как «плохое присвоение», а реакцию народа — как «неуместное нетерпение», вписывая событие в более широкий контекст божественного предопределения. Это отражает шиитское ученое мнение об инциденте как о сложном политическом и духовном испытании, а не о простой бинарной дихотомии правоты и неправоты.",
+        "seo_question": "Каково было мнение имама Али относительно конкурирующих заслуг тех, кто убил Усмана, и тех, кто выступил против этого?",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "Присвоитель (тот, кто монополизировал богатство)",
+          "الْجَازِع": "Протестующий (тот, кто проявил нетерпение/избыточность в протесте)",
+          "الِثْرَة": "Присвоение или монополизация богатства",
+          "الْجَزَع": "Нетерпение или чрезмерная реакция"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）阐述了奥斯曼事件的 theological nuance，主张杀害者及其支持者与反对者均不能声称拥有绝对优越性，因为双方在其行为中都存在缺陷。他将奥斯曼积累财富的行为定性为“bad appropriation”，将民众的反应定性为“improper impatience”，并将该事件置于更广泛的 divine decree 框架内。这反映了什叶派学者将该事件视为一种复杂的政治与精神考验，而非简单的对错二元论。",
+        "seo_question": "伊玛目阿里对杀害奥斯曼者及其反对者各自的 merits 持何种观点？",
+        "key_terms": {
+          "الْمُسْتَأْثِر": "占有者（垄断财富者）",
+          "الْجَازِع": "抗议者（在抗议中表现出不耐烦/过度者）",
+          "الِثْرَة": "占有或垄断财富",
+          "الْجَزَع": "不耐烦或过度反应"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:26",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:105",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:154",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:59",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "لَوْ أَمَرْتُ بِهِ لَكُنْتُ قَاتِلاً، أَوْ نَهَيْتُ عَنْهُ لَكُنْتُ نَاصِراً، غَيْرَ أَنَّ مَنْ نَصَرَهُ لَا يَسْتَطِيعُ أَنْ يَقُولَ: خَذَلَهُ مَنْ أَنَا خَيْرٌ مِنْهُ، وَمَنْ خَذَلَهُ لَا يَسْتَطِيعُ أَنْ يَقُولَ: نَصَرَهُ مَنْ هُوَ خَيْرٌ مِنِّي. وَأَنَا جَامِعٌ لَكُمْ أَمْرَهُ، اسْتَأْثَرَ فَأَسَاءَ الاِثْرَةَ وَجَزِعْتُمْ فَأَسَأْتُمُ الْجَزَعَ وَلِلَّهِ حُكْمٌ وَاقِعٌ فِي الْمُسْتَأْثِرِ وَالْجَازِعِ.",
+    "isnad_matn": {
+      "isnad_ar": "لَوْ أَمَرْتُ بِهِ لَكُنْتُ قَاتِلاً، أَوْ نَهَيْتُ عَنْهُ لَكُنْتُ نَاصِراً، غَيْرَ أَنَّ مَنْ نَصَرَهُ لاَ يَسْتَطِيعُ أَنْ يَقُول",
+      "matn_ar": "لَوْ أَمَرْتُ بِهِ لَكُنْتُ قَاتِلاً، أَوْ نَهَيْتُ عَنْهُ لَكُنْتُ نَاصِراً، غَيْرَ أَنَّ مَنْ نَصَرَهُ لَا يَسْتَطِيعُ أَنْ يَقُولَ: خَذَلَهُ مَنْ أَنَا خَيْرٌ مِنْهُ، وَمَنْ خَذَلَهُ لَا يَسْتَطِيعُ أَنْ يَقُولَ: نَصَرَهُ مَنْ هُوَ خَيْرٌ مِنِّي. وَأَنَا جَامِعٌ لَكُمْ أَمْرَهُ، اسْتَأْثَرَ فَأَسَاءَ الاِثْرَةَ وَجَزِعْتُمْ فَأَسَأْتُمُ الْجَزَعَ وَلِلَّهِ حُكْمٌ وَاقِعٌ فِي الْمُسْتَأْثِرِ وَالْجَازِعِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "لو أمرت به لكنت قاتلا، أو نهيت عنه لكنت ناصرا، غير أن من نصره لا يستطيع أن يقول",
+          "name_en": "Lu amara bihi lakanta qatilan, aw nihita 'anhu lakanta nasiran, ghayra anna man nasrahu la yastati'u an yaqula",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

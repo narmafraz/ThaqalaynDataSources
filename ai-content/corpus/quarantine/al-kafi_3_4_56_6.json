@@ -1,0 +1,278 @@
+{
+  "verse_path": "/books/al-kafi:3:4:56:6",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 20 en words vs 1 ar words (ratio=20.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "worship"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "salat",
+      "prayer_rulings"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحرفي_text_with_tashkeel_placeholder_fix_needed_below",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Ali ibn al-Nu'man, from Ibn Muskan, from Sulayman ibn Khalid, who said:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد سے، علی بن النعمان سے، ابن مسکن سے، سلیمان بن خالد سے، انہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Ahmed b. Muhammed'den, Ali b. en-Nu'man'dan, İbnü'l-Miskân'dan, Süleyman b. Hâlid'den rivayetle, o da dedi ki:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ، عَنْ عَلِيِّ بْنِ النُّعْمَانِ، عَنِ ابْنِ مُسْكَانَ، عَنْ سُلَيْمَانَ بْنِ خَالِدٍ، قَالَ:",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Ali ibn al-Nu'man, dari Ibn Muskan, dari Sulayman ibn Khalid, yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ হতে, আলী ইবনে আন-নুমান হতে, ইবনে মুসকান হতে, সুলাইমান ইবনে খালিদ হতে, তিনি বলেন:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Ali ibn al-Nu'man, de Ibn Muskan, de Sulayman ibn Khalid, quien dijo:",
+          "fr": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Ali ibn al-Nu'man, d'Ibn Muskan, de Sulayman ibn Khalid, qui a dit :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Ali ibn al-Nu'man, von Ibn Muskan, von Sulayman ibn Khalid, der sagte:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от Али ибн ан-Ну’мана, от Ибн Мускана, от Сулеймана ибн Халида, который сказал:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德，传自阿里·本·努尔曼，传自伊本·穆斯卡恩，传自苏莱曼·本·哈立德，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) فِي الرَّجُلِ إِذَا أَدْرَكَ الْإِمَامَ وَ هُوَ رَاكِعٌ فَكَبَّرَ وَ هُوَ مُقِيمٌ صُلْبَهُ ثُمَّ رَكَعَ قَبْلَ أَنْ يَرْفَعَ الْإِمَامُ رَأْسَهُ فَقَدْ أَدْرَكَ .",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) said: Regarding the man who catches the Imam while he is bowing (ruku'), so he says Takbir while his back is straight, then he bows before the Imam raises his head, then he has caught (the rak'ah).",
+          "ur": "ابو عبداللہ (رضی اللہ عنہ) نے فرمایا: اس شخص کے بارے میں جو امام کے رکوع کرتے وقت ان کے پیچھے آ جاتا ہے، تو وہ سیدھا کھڑے ہو کر تکبیر کہتا ہے، پھر امام کا سر اٹھانے سے پہلے ہی رکوع کر لیتا ہے، تو اس نے رکعت پکڑ لی۔",
+          "tr": "Ebu Abdillah (aleyhisselam) buyurdu: İmam rükûdayken ona yetişen kimse, sırtı düz iken tekbir alır, sonra İmam başını kaldırmadan rükû eder; böylece rekâtı yakalamış olur.",
+          "fa": "ابو عبدالله (علیه السلام) فرمود: درباره مردی که امام را در حال رکوع می‌گیرد، پس تکبیر می‌گوید در حالی که پشتش صاف است، سپس قبل از اینکه امام سر از سجده بلند کند، رکوع می‌کند، پس رکعت را گرفته است.",
+          "id": "Abu Abdillah (semoga Allah meridhainya) berkata: Mengenai seseorang yang mendapati imam sedang ruku', lalu ia bertakbir dalam keadaan punggungnya lurus, kemudian ia ruku' sebelum imam mengangkat kepalanya, maka ia telah mendapatkan (sebuah rakaat).",
+          "bn": "আবু আবদিল্লাহ (রহ.) বলেন: যে ব্যক্তি ইমামের রুকু' অবস্থায় তাঁর পিছনে পৌঁছে যায়, অতঃপর তিনি তাঁর মেরুদণ্ড সোজা থাকাকালীন সময়ে তাكবীর বলেন, তারপর ইমাম মাথা তোলার পূর্বেই সে রুকু' করে, অতএব সে রাকআত লাভ করেছে।",
+          "es": "Abu Abdillah (que Allah esté complacido con él) dijo: En cuanto al hombre que alcanza al Imam mientras está inclinándose (ruku'), entonces dice el Takbir con la espalda recta, y luego se inclina antes de que el Imam levante la cabeza, entonces ha alcanzado (la rak'ah).",
+          "fr": "Abou Abdillah (que la paix soit sur lui) a dit : Concernant l'homme qui rejoint l'Imam alors qu'il est en prosternation (roukou'), il prononce le Takbir alors que son dos est droit, puis il s'incline avant que l'Imam ne relève la tête, alors il a attrapé (la rak'ah).",
+          "de": "Abu Abdillah (friede sei mit ihm) sagte: Was den Mann betrifft, der den Imam beim Verbeugen (ruku') einholt, so spricht er das Takbir, während sein Rücken noch gerade ist, und verbeugt sich, bevor der Imam den Kopf hebt; dann hat er die rak'a eingeholt.",
+          "ru": "Абу Абдуллах (да будет доволен им Аллах) сказал: Что касается человека, который поймал имама, когда тот кланялся (руку'), то он произносит такбир, когда его спина прямая, затем он кланяется, прежде чем имам поднимет голову, и таким образом он поймал (ракаат).",
+          "zh": "阿布·阿卜杜拉（愿真主喜悦他）说：关于一个人在伊玛目鞠躬（鲁库）时赶上礼拜，他在背部挺直时念大赞词（泰克比尔），然后在伊玛目抬头之前鞠躬，那么他就赶上了这一拜。"
+        },
+        "word_start": 1,
+        "word_end": 32
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi delineates the precise moment of 'attainment' (idrak) in congregational prayer, establishing that joining during ruku' with the necessary takbir and bowing constitutes a valid rak'ah. It reflects the Shia juristic consensus on the validity of partial participation, emphasizing that the physical act of bowing with the Imam is the critical threshold for counting the unit of prayer.",
+        "seo_question": "Does joining the Imam during Rukū count as a complete Rak'at if I bow before he stands up?",
+        "key_terms": {
+          "إِدْرَاك": "To catch or join the Imam in prayer",
+          "إِمَام": "The leader of prayer",
+          "رَاكِعٌ": "Bowing (in prayer)",
+          "تَكْبِير": "Saying 'Allahu Akbar'",
+          "صُلْب": "Back/spine",
+          "رَفْع": "Raising (head from bowing)"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی میں اجتماعی نماز میں 'اِدْرَاک' (پہنچنے) کے درست لمحے کی وضاحت کرتی ہے، جس سے یہ ثابت ہوتا ہے کہ امام کے ساتھ رکوع میں شامل ہونا اور ضروری تکبیر اور رکوع کرنا ایک درست رکعت شمار ہوتا ہے۔ یہ شیعہ فقہی اجماع کی عکاسی کرتا ہے کہ جزوی شرکت کی صحت کا انحصار اس بات پر ہے کہ امام کے ساتھ جسمانی طور پر رکوع کیا جائے، جو کہ نماز کی اکائی کو شمار کرنے کے لیے اہم معیار ہے۔",
+        "seo_question": "کیا اگر میں امام کے کھڑے ہونے سے پہلے رکوع کروں تو امام کے ساتھ شامل ہونا ایک مکمل رکعت شمار ہوگا؟",
+        "key_terms": {
+          "إِدْرَاك": "امام کے ساتھ نماز میں شامل ہونا",
+          "إِمَام": "نماز کا مقتدی",
+          "رَاكِعٌ": "رکوع (نماز میں)",
+          "تَكْبِير": "'اللہ اکبر' کہنا",
+          "صُلْب": "پیٹھ/ریڑھ کی ہڈی",
+          "رَفْع": "سر اٹھانا (رکوع سے)"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, al-Kafi'den alınmış olup, cemaat namazında 'idrak' (yakalama/ulaşma) anını kesin olarak belirler; imamla birlikte rükû'ya katılmak, gerekli tekbir ve eğilme hareketiyle geçerli bir rekat sayılır. Kısmi katılımın geçerliliğini vurgulayan Şii fıkıh ittifakını yansıtır; imama eşlik eden fiziksel eğilme hareketi, namaz biriminin sayılması için kritik eşik olarak kabul edilir.",
+        "seo_question": "İmam ayağa kalkmadan önce eğilirsem, ona rükû'da katılmak tam bir rekat sayılır mı?",
+        "key_terms": {
+          "إِدْرَاك": "İmama namazda katılmak veya yakalamak",
+          "إِمَام": "Namaz lideri",
+          "رَاكِعٌ": "Namazda eğilmek",
+          "تَكْبِير": "'Allahu Ekber' demek",
+          "صُلْب": "Sırt/omurga",
+          "رَفْع": "Başı rükû'dan kaldırmak"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، لحظه دقیق «ادراک» در نماز جماعت» را مشخص می‌کند و تعیین می‌دارد که پیوستن به امام در رکوع همراه با تکبیر و رکوع، یک رکعت معتبر محسوب می‌شود. این حدیث اجماع فقهی شیعه را درباره اعتبار مشارکت جزئی منعکس می‌کند و تأکید دارد که عمل فیزیکی رکوع با امام، آستانه حیاتی برای شمارش واحد نماز است.",
+        "seo_question": "آیا پیوستن به امام در رکوع، اگر پیش از بلند شدن او خم شوم، به عنوان یک رکعت کامل حساب می‌شود؟",
+        "key_terms": {
+          "إِدْرَاك": "گرفتن یا پیوستن به امام در نماز",
+          "إِمَام": "پیش‌نماز",
+          "رَاكِعٌ": "رکوع کردن (در نماز)",
+          "تَكْبِير": "گفتن الله اکبر",
+          "صُلْب": "کمر/ستون فقرات",
+          "رَفْع": "بالا آوردن (سر از رکوع)"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari al-Kafi ini menjelaskan momen tepat 'pencapaian' (idrak) dalam shalat berjamaah, menetapkan bahwa bergabung saat ruku' dengan takbir dan sujud yang diperlukan merupakan rakaat yang sah. Hal ini mencerminkan konsensus fikih Syiah mengenai keabsahan partisipasi parsial, dengan menekankan bahwa tindakan fisik sujud bersama Imam adalah ambang batas kritis untuk menghitung unit shalat.",
+        "seo_question": "Apakah bergabung dengan Imam saat Rukū' dihitung sebagai Raka'at lengkap jika saya sujud sebelum beliau berdiri?",
+        "key_terms": {
+          "إِدْرَاك": "Menyusul atau bergabung dengan Imam dalam shalat",
+          "إِمَام": "Pemimpin shalat",
+          "رَاكِعٌ": "Sujud (dalam shalat)",
+          "تَكْبِير": "Mengucapkan 'Allahu Akbar'",
+          "صُلْب": "Punggung/tulang belakang",
+          "رَفْع": "Mengangkat (kepala dari sujud)"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে আল-কাফি থেকে সমবেত নামাজে 'আদ্রাক' (প্রাপ্তি) এর সঠিক মুহূর্তটি চিহ্নিত করা হয়েছে, যা প্রতিষ্ঠা করে যে ইমামের সাথে রুকুতে যোগদান এবং প্রয়োজনীয় তাকবীর ও রুকু করার মাধ্যমে একটি বৈধ রাকআত গঠিত হয়। এটি আংশিক অংশগ্রহণের বৈধতা সম্পর্কে শিয়া ফিকহের সম্মত মতামতকে প্রতিফলিত করে, যেখানে ইমামের সাথে শারীরিকভাবে রুকু করাটিকে নামাজের একক গণনার জন্য গুরুত্বপূর্ণ সীমানা হিসেবে গণ্য করা হয়।",
+        "seo_question": "যদি আমি ইমাম উঠে যাওয়ার আগে রুকু করি, তবে ইমামের সাথে রুকুতে যোগদান একটি সম্পূর্ণ রাকআত হিসেবে গণ্য হবে কি?",
+        "key_terms": {
+          "إِدْرَاك": "ইমামের সাথে নামাজে যোগদান বা ধরা",
+          "إِمَام": "নামাজের নেতা",
+          "رَاكِعٌ": "নামাজে রুকু করা",
+          "تَكْبِير": "'আল্লাহু আকবর' বলা",
+          "صُلْب": "পিঠ/কোমর",
+          "رَفْع": "মাথা উঠানো (রুকু থেকে)"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi delimita el momento preciso de 'alcanzo' (idrak) en la oración congregacional, estableciendo que unirse durante el ruku' con la takbir necesaria y la inclinación constituye una rak'ah válida. Refleja el consenso jurístico chií sobre la validez de la participación parcial, enfatizando que el acto físico de inclinarse con el Imam es el umbral crítico para contar la unidad de oración.",
+        "seo_question": "¿Contar como una rak'ah completa unirse al Imam durante el Rukū' si me inclino antes de que él se ponga de pie?",
+        "key_terms": {
+          "إِدْرَاك": "Atrapar o unirse al Imam en la oración",
+          "إِمَام": "El líder de la oración",
+          "رَاكِعٌ": "Inclinación (en la oración)",
+          "تَكْبِير": "Decir 'Allahu Akbar'",
+          "صُلْب": "Espalda/columna vertebral",
+          "رَفْع": "Levantar (la cabeza de la inclinación)"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith d'Al-Kafi délimite le moment précis de l'« atteinte » (idrak) lors de la prière collective, établissant que rejoindre l'imam pendant le ruku' avec le takbir nécessaire et la prosternation constitue une rak'a valide. Il reflète le consensus jurisprudentiel chiite sur la validité de la participation partielle, soulignant que l'acte physique de s'incliner avec l'imam est le seuil critique pour compter l'unité de prière.",
+        "seo_question": "Rejoindre l'imam pendant le Rukū compte-t-il comme une Rak'at complète si je m'incline avant qu'il ne se redresse ?",
+        "key_terms": {
+          "إِدْرَاك": "Attraper ou rejoindre l'imam en prière",
+          "إِمَام": "Le leader de la prière",
+          "رَاكِعٌ": "S'incliner (en prière)",
+          "تَكْبِير": "Dire 'Allahu Akbar'",
+          "صُلْب": "Dos/colonne vertébrale",
+          "رَفْع": "Lever (la tête de l'inclinaison)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi legt den genauen Zeitpunkt der 'Erreichung' (Idrak) im Gemeinschaftsgebet fest und stellt klar, dass das Anschließen während der Ruku' mit dem notwendigen Takbir und dem Bücken eine gültige Rak'a darstellt. Es spiegelt den schiitischen juristischen Konsens über die Gültigkeit der teilweisen Teilnahme wider und betont, dass die physische Handlung des Bückens mit dem Imam die entscheidende Schwelle für die Zählung der Gebetseinheit ist.",
+        "seo_question": "Zählt das Anschließen des Imams während der Rukū' als vollständige Rak'a, wenn ich mich vor ihm aufrichte bücke?",
+        "key_terms": {
+          "إِدْرَاك": "Das Einholen oder Anschließen des Imams im Gebet",
+          "إِمَام": "Der Anführer des Gebets",
+          "رَاكِعٌ": "Sich bücken (im Gebet)",
+          "تَكْبِير": "Das Sprechen von 'Allahu Akbar'",
+          "صُلْب": "Rücken/Wirbelsäule",
+          "رَفْع": "Das Heben (des Kopfes aus der Verbeugung)"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из аль-Кафи четко определяется момент достижения (идрак) в коллективной молитве, устанавливая, что присоединение во время рака с необходимым такбиром и появлением составляет действительную рака. Это отражает шиитское юридическое согласие относительно действительности частичного участия, подчеркивая, что физическое действие поклонения вместе с имамом является критическим порогом для подсчета единицы молитвы.",
+        "seo_question": "Считается ли присоединение к имаму во время рака полной рака, если я кланяюсь, прежде чем он поднимется?",
+        "key_terms": {
+          "إِدْرَاك": "Достичь или присоединиться к имаму в молитве",
+          "إِمَام": "Лидер молитвы",
+          "رَاكِعٌ": "Поклонение (в молитве)",
+          "تَكْبِير": "Сказать 'Аллаху Акбар'",
+          "صُلْب": "Спина/хребет",
+          "رَفْع": "Поднятие (головы от поклонения)"
+        }
+      },
+      "zh": {
+        "summary": "summary",
+        "seo_question": "key_terms_values",
+        "key_terms": {
+          "إِدْرَاك": "赶上伊玛目礼拜",
+          "إِمَام": "礼拜的领拜者",
+          "رَاكِعٌ": "鞠躬",
+          "تَكْبِير": "念真主至大",
+          "صُلْب": "背部/脊柱",
+          "رَفْع": "抬头（从鞠躬中）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:238",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحرفي_text_with_tashkeel_placeholder_fix_needed_below قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) فِي الرَّجُلِ إِذَا أَدْرَكَ الْإِمَامَ وَ هُوَ رَاكِعٌ فَكَبَّرَ وَ هُوَ مُقِيمٌ صُلْبَهُ ثُمَّ رَكَعَ قَبْلَ أَنْ يَرْفَعَ الْإِمَامُ رَأْسَهُ فَقَدْ أَدْرَكَ .",
+    "isnad_matn": {
+      "isnad_ar": "مُحرفي_text_with_tashkeel_placeholder_fix_needed_below",
+      "matn_ar": "قَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) فِي الرَّجُلِ إِذَا أَدْرَكَ الْإِمَامَ وَ هُوَ رَاكِعٌ فَكَبَّرَ وَ هُوَ مُقِيمٌ صُلْبَهُ ثُمَّ رَكَعَ قَبْلَ أَنْ يَرْفَعَ الْإِمَامُ رَأْسَهُ فَقَدْ أَدْرَكَ .",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ النُّعْمَانِ",
+          "name_en": "‘Ali ibn al-Nu‘man",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 88
+        },
+        {
+          "name_ar": "ابْنِ مُسْكَانَ",
+          "name_en": "Ibn Muskan",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 51
+        },
+        {
+          "name_ar": "سُلَيْمَانَ بْنِ خَالِدٍ",
+          "name_en": "Sulayman ibn Khalid",
+          "role": "companion",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 123
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

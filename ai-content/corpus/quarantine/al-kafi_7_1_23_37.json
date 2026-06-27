@@ -1,0 +1,304 @@
+{
+  "verse_path": "/books/al-kafi:7:1:23:37",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] en translation length out of bounds: 1 en words vs 19 ar words (ratio=0.05, expected 7.6-76.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "economy",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "financial_law",
+      "charity",
+      "poverty_wealth"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ مُوسَى بْنِ جَعْفَرٍ عَنْ عَلِيِّ بْنِ مُحَمَّدِ بْنِ سُلَيْمَانَ النَّوْفَلِيِّ قَالَ",
+        "translations": {
+          "en": "Muhammad_ibn_yahya",
+          "ur": "محمد بن یحییٰ",
+          "tr": "Muhammed b. Yahya",
+          "fa": "محمد بن یحیی",
+          "id": "Muhammad ibn Yahya",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা",
+          "es": "Muhammad ibn Yahya",
+          "fr": "Muhammad ibn Yahya",
+          "de": "Muhammad ibn Yahya",
+          "ru": "Мухаммад ибн Яхья",
+          "zh": "穆罕默德·本·叶海亚"
+        },
+        "word_start": 0,
+        "word_end": 19
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "كَتَبْتُ إِلَى أَبِي جَعْفَرٍ الثَّانِي ( عليه السلام ) أَسْأَلُ عَنْ أَرْضٍ أَوْقَفَهَا جَدِّي عَلَى الْمُحْتَاجِينَ مِنْ وُلْدِ فُلَانِ بْنِ فُلَانٍ وَ هُمْ كَثِيرٌ مُتَفَرِّقُونَ فِي الْبِلَادِ فَأَجَابَ ( عليه السلام ) ذَكَرْتَ الْأَرْضَ الَّتِي أَوْقَفَهَا جَدُّكَ عَلَى فُقَرَاءِ وُلْدِ فُلَانِ بْنِ فُلَانٍ وَ هِيَ لِمَنْ حَضَرَ الْبَلَدَ الَّذِي فِيهِ الْوَقْفُ وَ لَيْسَ لَكَ أَنْ تُتْبِعَ مَنْ كَانَ غَائِباً",
+        "translations": {
+          "en": "I wrote to Abu Ja'far (peace be upon him) the second, asking about a land which was dedicated by my grandfather upon the needy from the sons of so-and-so, and they were many, dispersed in the lands. So he (peace be upon him) answered: 'You mentioned the land which your grandfather had dedicated to the poor from the sons of so-and-so, and it is for those who are present in the city in which the endowment is, and it is not for you to track down those who are absent.'",
+          "ur": "میں نے ابوجعفر (علیہ السلام) ثانی سے خط لکھا کہ میرے دادا نے فلاں کے بیٹوں میں سے محتاجوں کے لیے ایک زمین وقف کی تھی، اور وہ بہت زیادہ تھے اور مختلف علاقوں میں بکھرے ہوئے تھے۔ تو انہوں نے (علیہ السلام) جواب دیا: تم نے اس زمین کا ذکر کیا ہے جو تمہارے دادا نے فلاں کے بیٹوں میں سے غریبوں کے لیے وقف کی تھی، اور یہ ان کے لیے ہے جو اس شہر میں موجود ہیں جہاں وقف ہے، اور تمہیں غائبوں کو تلاش کرنے کی ضرورت نہیں۔",
+          "tr": "Ben, Ebü Cafer'e (aleyhisselâm) ikinci, dedemin so-and-so oğullarından olan muhtarlara tahsis ettiği bir arazide hakkında sormak için yazdım, ve onlar çoktular, yerlerde dağılmışlardı. O da (aleyhisselâm) cevap verdi: 'Sen, dedenin so-and-so oğullarından olan muhtarlara tahsis ettiği araziyi bahsettin, ve bu, vakıf olan şehirde bulunanlara aittir, ve senin yok olanları takip etmen gerekmez.'",
+          "fa": "من به ابوجعفر (علیه‌السلام) دومین، درباره زمینی که پدربزرگم آن را وقف نیازمندان از فرزندان فلان کرده بود، پرسیدم و ایشان بسیار بودند و در سرزمین‌ها پراکنده بودند. پس او (علیه‌السلام) پاسخ داد: «تو زمینی را که پدربزرگت آن را به فقیران از فرزندان فلان وقف کرده بود، ذکر کردی و آن برای کسانی است که در شهری که وقف در آنجا است، حاضرند و بر تو نیست که غایبان را پیگیری کنی.»",
+          "id": "Aku menulis surat kepada Abu Ja'far (alamaihis salam) yang kedua, menanyakan tentang sebidang tanah yang diwakafkan oleh kakekku kepada orang-orang miskin dari kalangan Bani Fulan, dan mereka banyak, tersebar di berbagai negeri. Maka beliau (alamaihis salam) menjawab: 'Kau menyebutkan tanah yang diwakafkan oleh kakekmu kepada orang-orang miskin dari kalangan Bani Fulan, dan ia diperuntukkan bagi mereka yang hadir di kota tempat wakaf itu berada, dan bukan kewajibanmu untuk mencari mereka yang tidak hadir.'",
+          "bn": "আমি আবু জাফর (আলাইহিস সালাম)-এর নিকট পত্র লিখেছিলাম, আমার দাদা যে জমি সও-এর বংশধরদের মধ্যে গরিবদের জন্য ওকফ করেছিলেন, তার বিষয়ে জিজ্ঞাসা করতে। আর তারা ছিল অনেক, এবং বিভিন্ন স্থানে বিক্ষিপ্তভাবে বসবাসকারী। অতএব তিনি (আলাইহিস সালাম) উত্তর দিলেন: 'তুমি যে জমির কথা উল্লেখ করেছ, যা তোমার দাদা সও-এর বংশধরদের মধ্যে গরিবদের জন্য ওকফ করেছিলেন, তা সেই ব্যক্তিদের জন্য যারা ওকফের স্থানে বর্তমানে উপস্থিত আছেন, আর তোমার কর্তব্য নয় অনুপস্থিত ব্যক্তিদেরকে খুঁজে বের করা।'",
+          "es": "Le escribí a Abu Yá'far (que la paz sea con él), el segundo, preguntándole sobre una tierra que mi abuelo había dedicado a los necesitados de los hijos de fulano, y eran muchos, dispersos por las tierras. Él (que la paz sea con él) respondió: 'Mencionaste la tierra que tu abuelo había dedicado a los pobres de los hijos de fulano, y es para aquellos que están presentes en la ciudad donde se encuentra la fundación pía, y no te corresponde buscar a los que están ausentes.'",
+          "fr": "J’ai écrit à Abou Ja’far (que la paix soit sur lui), le deuxième, pour lui demander au sujet d’une terre que mon grand-père avait dédiée aux nécessiteux parmi les fils de untel, et ils étaient nombreux, dispersés dans les terres. Alors il (que la paix soit sur lui) a répondu : « Tu as mentionné la terre que ton grand-père avait dédiée aux pauvres parmi les fils de untel, et elle est pour ceux qui sont présents dans la ville où se trouve l’endowment, et il ne t’appartient pas de rechercher ceux qui sont absents. »",
+          "de": "Ich schrieb an Abu Ja'Abd Allāh ibn Muhammad (friede sei auf ihm), den zweiten, und fragte nach einem Landgut, das mein Großvater den Bedürftigen aus der Sippe von So-und-so gewidmet hatte, und es waren viele, die über die Länder verstreut waren. Da antwortete er (friede sei auf ihm): »Du hast das Landgut erwähnt, das dein Großvater den Armen aus der Sippe von So-und-so gewidmet hatte, und es steht jenen zu, die in der Stadt wohnen, in der sich das Stiftsland befindet, und es obliegt dir nicht, die Abwesenden aufzuspüren.«",
+          "ru": "Я написал Абу Джафару (да будет мир с ним), второму, спрашивая о земле, которую мой дед завещал бедным из рода такого-то, а их было много, и они рассеяны по разным землям. Он (да будет мир с ним) ответил: «Ты упомянул землю, которую твой дед завещал бедным из рода такого-то, и она предназначена для тех, кто находится в городе, где находится эта земля, и не обязательно искать тех, кто отсутствует».",
+          "zh": "text"
+        },
+        "word_start": 19,
+        "word_end": 78
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from Imam al-Kazim (AS), the practical administration of waqf is clarified to prevent administrative burden; when beneficiaries are numerous and scattered, distribution is limited to those residing in the locality of the endowed property. This ruling highlights the Shia juristic principle of ease (taysir) in managing charitable trusts, ensuring that the endowment serves the immediate community without the excessive cost of tracking absent heirs. It underscores the importance of localizing social welfare within the framework of family-based endowments.",
+        "seo_question": "How is waqf distributed when beneficiaries are numerous and dispersed?",
+        "key_terms": {
+          "أَرْضٍ": "Land",
+          "أَوْقَفَهَا": "He dedicated it (as waqf)",
+          "الْمُحْتَاجِينَ": "The needy",
+          "وُلْدِ": "Sons/Descendants of",
+          "فُقَرَاءِ": "The poor",
+          "الْبَلَدَ": "The city/locality",
+          "الْوَقْفُ": "The endowment",
+          "حَضَرَ": "He was present",
+          "غَائِباً": "Absent"
+        }
+      },
+      "ur": {
+        "summary": "امام کاظم (ع) کی اس روایت میں وقف کی عملی انتظامیہ کو واضح کیا گیا ہے تاکہ انتظامی بوجھ کم ہو سکے؛ جب مستفیدین زیادہ اور بکھرے ہوئے ہوں تو تقسیم صرف اسی علاقے کے رہائشیوں تک محدود کی جاتی ہے جہاں وقف شدہ جائیداد واقع ہے۔ یہ حکم خالصہ فقہی اصولِ تسہیل کو اجاگر کرتا ہے جو خیراتی ٹرسٹس کے انتظام میں آسانی یقینی بناتا ہے، تاکہ وقف فوری برادری کی خدمت کرے اور غائب وارثوں کو ٹریک کرنے کے زیادہ خرچے سے بچا جا سکے۔ یہ خاندانی بنیاد پر وقف کے دائرہ کار میں سماجی بہبود کو مقامی بنانے کی اہمیت کو نمایاں کرتا ہے۔",
+        "seo_question": "جب مستفیدین زیادہ اور بکھرے ہوئے ہوں تو وقف کی تقسیم کیسے کی جاتی ہے؟",
+        "key_terms": {
+          "أَرْضٍ": "زمین",
+          "أَوْقَفَهَا": "اسے وقف کیا",
+          "الْمُحْتَاجِينَ": "غریب",
+          "وُلْدِ": "اولاد",
+          "فُقَرَاءِ": "فقیر",
+          "الْبَلَدَ": "شہر/مقام",
+          "الْوَقْفُ": "وقف",
+          "حَضَرَ": "حاضر",
+          "غَائِباً": "غائب"
+        }
+      },
+      "tr": {
+        "summary": "İmam el-Kazım'dan (AS) gelen bu rivayette, idari yükü önlemek amacıyla vakfın fiili idaresi açıklanmıştır; menfaatlananlar çok ve dağınık olduğunda, dağıtım vakıf mülkünün bulunduğu yerleşim yerinde oturanlarla sınırlı tutulur. Bu hüküm, vakıf yönetiminde kolaylık (taysir) ilkesini vurgular ve kayıp varisleri takip etmenin aşırı maliyetinden kaçınılarak vakfın hemen komşu topluluğa hizmet etmesini sağlar. Aile temelli vakıflar çerçevesinde sosyal refahın yerelleştirilmesinin önemini altını çizer.",
+        "seo_question": "Menfaatlananlar çok ve dağınık olduğunda vakf nasıl dağıtılır?",
+        "key_terms": {
+          "أَرْضٍ": "Arazi",
+          "أَوْقَفَهَا": "Onu vakfetti",
+          "الْمُحْتَاجِينَ": "İhtiyaç sahipleri",
+          "وُلْدِ": "Oğulları/Azadı",
+          "فُقَرَاءِ": "Fakirler",
+          "الْبَلَدَ": "Şehir/Yerleşim yeri",
+          "الْوَقْفُ": "Vakıf",
+          "حَضَرَ": "Hadir bulundu",
+          "غَائِباً": "Gaipte olan"
+        }
+      },
+      "fa": {
+        "summary": "در این روایتی از امام کاظم (ع)، مدیریت عملی وقف برای جلوگیری از بار اداری توضیح داده شده است؛ زمانی که ذینفعان زیاد و پراکنده باشند، توزیع به کسانی که در محل ملک وقف شده ساکن هستند محدود می‌شود. این حکم اصل تسهیل در مدیریت اوقاف شیعه را برجسته می‌کند و اطمینان حاصل می‌کند که وقف به جامعه محلی بدون هزینه بیش از حد ردیابی ورثه غایب خدمت می‌کند. این امر بر اهمیت بومی‌سازی رفاه اجتماعی در چارچوب وقف‌های خانوادگی تأکید دارد.",
+        "seo_question": "وقتی ذینفعان زیاد و پراکنده هستند، وقف چگونه توزیع می‌شود؟",
+        "key_terms": {
+          "أَرْضٍ": "زمین",
+          "أَوْقَفَهَا": "آن را وقف کرد",
+          "الْمُحْتَاجِينَ": "نیازمندان",
+          "وُلْدِ": "فرزندان/نسل",
+          "فُقَرَاءِ": "فقرا",
+          "الْبَلَدَ": "شهر/محل",
+          "الْوَقْفُ": "وقف",
+          "حَضَرَ": "حاضر بود",
+          "غَائِباً": "غایب"
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari Imam al-Kazim (AS), pengelolaan praktis waqf dijelaskan untuk mencegah beban administratif; ketika penerima manfaat banyak dan tersebar, distribusi dibatasi kepada mereka yang tinggal di wilayah tempat harta wakaf berada. Hukum ini menyoroti prinsip kemudahan (taysir) dalam fikih Syiah untuk mengelola wakaf, memastikan bahwa wakaf melayani komunitas setempat tanpa biaya berlebihan dalam melacak ahli waris yang tidak hadir. Hal ini menekankan pentingnya memusatkan kesejahteraan sosial dalam kerangka wakaf berbasis keluarga.",
+        "seo_question": "Bagaimana waqf didistribusikan ketika penerima manfaat banyak dan tersebar?",
+        "key_terms": {
+          "أَرْضٍ": "Tanah",
+          "أَوْقَفَهَا": "Ia mendedikasikan (sebagai waqf)",
+          "الْمُحْتَاجِينَ": "Orang-orang yang membutuhkan",
+          "وُلْدِ": "Anak-anak/Keturunan dari",
+          "فُقَرَاءِ": "Orang-orang miskin",
+          "الْبَلَدَ": "Kota/wilayah",
+          "الْوَقْفُ": "Wakaf",
+          "حَضَرَ": "Ia hadir",
+          "غَائِباً": "Tidak hadir"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আল-কাযিম (আস)-এর বর্ণনায় ওয়াকফের ব্যবহারিক প্রশাসনিক দায়িত্ব কমানোর জন্য স্পষ্ট করা হয়েছে; যখন উপকারভোগীরা অসংখ্য এবং ছড়িয়ে ছিটিয়ে থাকে, তখন বন্টন কেবলমাত্র ওয়াকফকৃত সম্পত্তির অবস্থিত স্থানীয় এলাকার বাসিন্দাদের মধ্যেই সীমাবদ্ধ রাখা হয়। এই ফতোয়া দ্বারা শিয়া ফিকহের সহজতর নীতি (তাইসীর) তুলে ধরা হয়েছে, যা দানশীল ট্রাস্ট পরিচালনায় সুবিধা নিশ্চিত করে এবং অনুপস্থিত উত্তরসূরিদের খোঁজখবর রাখার অতিরিক্ত খরচ এড়িয়ে চলে। এটি পরিবারভিত্তিক ওয়াকফের কাঠামোর মধ্যে সামাজিক কল্যাণকে স্থানীয়করণের গুরুত্ব তুলে ধরে।",
+        "seo_question": "উপকারভোগীরা অসংখ্য এবং ছড়িয়ে ছিটিয়ে থাকলে ওয়াকফ কীভাবে বণ্টন করা হয়?",
+        "key_terms": {
+          "أَرْضٍ": "ভূমি",
+          "أَوْقَفَهَا": "তিনি এটিকে ওয়াকফ হিসেবে নিবেদন করলেন",
+          "الْمُحْتَاجِينَ": "নিম্নবিত্তরা",
+          "وُلْدِ": "সন্তান/বংশধর",
+          "فُقَرَاءِ": "গরিবরা",
+          "الْبَلَدَ": "শহর/স্থানীয় এলাকা",
+          "الْوَقْفُ": "ওয়াকফ",
+          "حَضَرَ": "তিনি উপস্থিত ছিলেন",
+          "غَائِباً": "অনুপস্থিত"
+        }
+      },
+      "es": {
+        "summary": "En esta narración del Imam al-Kazim (AS, se aclora la administración práctica del waqf para evitar la carga administrativa; cuando los beneficiarios son numerosos y dispersos, la distribución se limita a aquellos que residen en la localidad de la propiedad dotada. Este dictamen destaca el principio jurístico chií de facilidad (taysir) en la gestión de las fundaciones benéficas, asegurando que la dotación sirva a la comunidad inmediata sin el costo excesivo de rastrear a los herederos ausentes. Subraya la importancia de localizar el bienestar social dentro del marco de las fundaciones familiares.",
+        "seo_question": "¿Cómo se distribuye el waqf cuando los beneficiarios son numerosos y dispersos?",
+        "key_terms": {
+          "أَرْضٍ": "Tierra",
+          "أَوْقَفَهَا": "La dedicó (como waqf)",
+          "الْمُحْتَاجِينَ": "Los necesitados",
+          "وُلْدِ": "Hijos/Descendientes de",
+          "فُقَرَاءِ": "Los pobres",
+          "الْبَلَدَ": "La ciudad/localidad",
+          "الْوَقْفُ": "La fundación",
+          "حَضَرَ": "Estuvo presente",
+          "غَائِباً": "Ausente"
+        }
+      },
+      "fr": {
+        "summary": "Dans cette narration d'après l'imam al-Kazim (AS), l'administration pratique du waqf est clarifiée pour éviter la charge administrative ; lorsque les bénéficiaires sont nombreux et dispersés, la distribution se limite à ceux résidant dans la localité du bien dotal. Ce jugement met en lumière le principe jurisprudentiel chiite de facilité (taysir) dans la gestion des trusts caritatifs, assurant que la dotation sert la communauté immédiate sans le coût excessif du suivi des héritiers absents. Il souligne l'importance de la localisation de la protection sociale dans le cadre des endowments familiaux.",
+        "seo_question": "Comment le waqf est-il distribué lorsque les bénéficiaires sont nombreux et dispersés ?",
+        "key_terms": {
+          "أَرْضٍ": "Terre",
+          "أَوْقَفَهَا": "Il l'a dédiée (comme waqf)",
+          "الْمُحْتَاجِينَ": "Les nécessiteux",
+          "وُلْدِ": "Fils/Descendants de",
+          "فُقَرَاءِ": "Les pauvres",
+          "الْبَلَدَ": "La ville/localité",
+          "الْوَقْفُ": "L'endowment",
+          "حَضَرَ": "Il était présent",
+          "غَائِباً": "Absent"
+        }
+      },
+      "de": {
+        "summary": "In dieser Überlieferung von Imam al-Kazim (AS) wird die praktische Verwaltung des Waqf geklärt, um administrative Belastungen zu vermeiden; wenn die Begünstigten zahlreich und verstreut sind, wird die Verteilung auf diejenigen beschränkt, die im Gebiet des gestifteten Vermögens wohnen. Diese Rechtsregel unterstreicht das schiitische juristische Prinzip der Erleichterung (Taysir) bei der Verwaltung von Stiftungen, um sicherzustellen, dass die Stiftung der unmittelbaren Gemeinschaft dient, ohne dass die übermäßigen Kosten der Verfolgung abwesender Erben entstehen. Sie unterstreicht die Bedeutung der Lokalisierung der sozialen Wohlfahrt im Rahmen von familienbasierten Stiftungen.",
+        "seo_question": "Wie wird Waqf verteilt, wenn die Begünstigten zahlreich und verstreut sind?",
+        "key_terms": {
+          "أَرْضٍ": "Land",
+          "أَوْقَفَهَا": "Er widmete es (als Waqf)",
+          "الْمُحْتَاجِينَ": "Die Bedürftigen",
+          "وُلْدِ": "Söhne/Nachkommen von",
+          "فُقَرَاءِ": "Die Armen",
+          "الْبَلَدَ": "Die Stadt/Ort",
+          "الْوَقْفُ": "Die Stiftung",
+          "حَضَرَ": "Er war anwesend",
+          "غَائِباً": "Abwesend"
+        }
+      },
+      "ru": {
+        "summary": "В этом предании от имама аль-Казама (да будет с ним мир) разъясняется практическое управление вакфом для предотвращения административной нагрузки; когда бенефициаров много и они разбросаны по разным местам, распределение ограничивается теми, кто проживает в местности, где находится endowed property. Это постановление подчеркивает шиитский юридический принцип облегчения (тайсир) в управлении благотворительными трастами, обеспечивая, чтобы вакф служил ближайшему сообществу без чрезмерных затрат на отслеживание отсутствующих наследников. Оно подчеркивает важность локализации социальной помощи в рамках семейных вакфов.",
+        "seo_question": "Как распределяется вакф, когда бенефициаров много и они разбросаны по разным местам?",
+        "key_terms": {
+          "أَرْضٍ": "Земля",
+          "أَوْقَفَهَا": "Он посвятил это (как вакф)",
+          "الْمُحْتَاجِينَ": "Нуждающиеся",
+          "وُلْدِ": "Сыновья/Потомки",
+          "فُقَرَاءِ": "Бедные",
+          "الْبَلَدَ": "Город/Местность",
+          "الْوَقْفُ": "Вакф",
+          "حَضَرَ": "Он присутствовал",
+          "غَائِباً": "Отсутствующий"
+        }
+      },
+      "zh": {
+        "summary": "在这段来自伊玛目阿里·卡齐姆（愿主安之）的圣训中，明确了瓦克夫（waqf）的实际管理方式以防止行政负担；当受益人众多且分散时，分配仅限于居住在捐赠财产所在地的居民。这一裁决凸显了什叶派法学中关于管理慈善信托的便利原则（taysir），确保捐赠服务于当地社区，而无需承担追踪缺席继承人的高昂成本。它强调了在基于家庭的捐赠框架内将社会福利本地化的重要性。",
+        "seo_question": "当受益人众多且分散时，瓦克夫（waqf）如何分配？",
+        "key_terms": {
+          "أَرْضٍ": "土地",
+          "أَوْقَفَهَا": "他将其捐赠为瓦克夫",
+          "الْمُحْتَاجِينَ": "贫困者",
+          "وُلْدِ": "子孙/后代",
+          "فُقَرَاءِ": "穷人",
+          "الْبَلَدَ": "城市/当地",
+          "الْوَقْفُ": "瓦克夫",
+          "حَضَرَ": "他出席",
+          "غَائِباً": "缺席"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "65:7",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ مُوسَى بْنِ جَعْفَرٍ عَنْ عَلِيِّ بْنِ مُحَمَّدِ بْنِ سُلَيْمَانَ النَّوْفَلِيِّ قَالَ كَتَبْتُ إِلَى أَبِي جَعْفَرٍ الثَّانِي ( عليه السلام ) أَسْأَلُ عَنْ أَرْضٍ أَوْقَفَهَا جَدِّي عَلَى الْمُحْتَاجِينَ مِنْ وُلْدِ فُلَانِ بْنِ فُلَانٍ وَ هُمْ كَثِيرٌ مُتَفَرِّقُونَ فِي الْبِلَادِ فَأَجَابَ ( عليه السلام ) ذَكَرْتَ الْأَرْضَ الَّتِي أَوْقَفَهَا جَدُّكَ عَلَى فُقَرَاءِ وُلْدِ فُلَانِ بْنِ فُلَانٍ وَ هِيَ لِمَنْ حَضَرَ الْبَلَدَ الَّذِي فِيهِ الْوَقْفُ وَ لَيْسَ لَكَ أَنْ تُتْبِعَ مَنْ كَانَ غَائِباً",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنْ مُوسَى بْنِ جَعْفَرٍ عَنْ عَلِيِّ بْنِ مُحَمَّدِ بْنِ سُلَيْمَانَ النَّوْفَلِيِّ قَالَ",
+      "matn_ar": "كَتَبْتُ إِلَى أَبِي جَعْفَرٍ الثَّانِي ( عليه السلام ) أَسْأَلُ عَنْ أَرْضٍ أَوْقَفَهَا جَدِّي عَلَى الْمُحْتَاجِينَ مِنْ وُلْدِ فُلَانِ بْنِ فُلَانٍ وَ هُمْ كَثِيرٌ مُتَفَرِّقُونَ فِي الْبِلَادِ فَأَجَابَ ( عليه السلام ) ذَكَرْتَ الْأَرْضَ الَّتِي أَوْقَفَهَا جَدُّكَ عَلَى فُقَرَاءِ وُلْدِ فُلَانِ بْنِ فُلَانٍ وَ هِيَ لِمَنْ حَضَرَ الْبَلَدَ الَّذِي فِيهِ الْوَقْفُ وَ لَيْسَ لَكَ أَنْ تُتْبِعَ مَنْ كَانَ غَائِباً",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ أَحْمَدَ",
+          "name_en": "Muhammad ibn Ahmad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 59
+        },
+        {
+          "name_ar": "مُوسَى بْنِ جَعْفَرٍ",
+          "name_en": "Musa b. Ja'far (Imam al-Kadhim)",
+          "role": "imam",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 453
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ مُحَمَّدِ بْنِ سُلَيْمَانَ النَّوْفَلِيِّ",
+          "name_en": "Ali b. Muhammad b. Sulayman al-Nawfali",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3812
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

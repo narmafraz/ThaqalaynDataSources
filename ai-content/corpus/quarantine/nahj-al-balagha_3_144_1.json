@@ -1,0 +1,260 @@
+{
+  "verse_path": "/books/nahj-al-balagha:3:144:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-28",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام):' has no diacritics (must be fully diacritized)",
+    "chunks[2] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام)' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "quran_commentary"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "patience",
+      "quran_interpretation_method",
+      "prophetic_character"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَقَالَ (عليه السلام):",
+        "translations": {
+          "en": "And he (peace be upon him) said:",
+          "ur": "اور انہوں نے (علیہ السلام) فرمایا:",
+          "tr": "Ve o (aleyhisselam) buyurdu ki:",
+          "fa": "و قال (عليه السلام): ",
+          "id": "Dan beliau (alamah) bersabda:",
+          "bn": "এবং তিনি (আলাইহিস সালাম) বলেছেন:",
+          "es": "Y",
+          "fr": "Et lui (que la paix soit sur lui) a lui) a dit :",
+          "de": "Und er (Friede sei mit ihm) sagte:",
+          "ru": "И он (да будет над ним мир) сказал:",
+          "zh": "他说（愿主赐福之）："
+        },
+        "word_start": 0,
+        "word_end": 3
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "كَفَى بِالْقَنَاعَةِ مُلْكاً، وَبِحُسْنِ الْخُلُقِ نَعِيماً.",
+        "translations": {
+          "en": "Contentment is as good as estate, and goodness of moral character is as good as a blessing.",
+          "ur": "قناعت مال کی مانند ہے اور حسنِ خلق برکت کی مانند ہے۔",
+          "tr": "Rıza, mal gibi iyidir; ahlakın güzelliği ise nimet gibi iyidir.",
+          "fa": "قناعت مانند مال است و نیکیِ خُلق مانند نعمت.",
+          "id": "Keridhaan itu sama baiknya dengan harta, dan kebaikan akhlak itu sama baiknya dengan keberkahan.",
+          "bn": "সন্তোষ সম্পদের মতোই ভালো, এবং চরিত্রের গুণাবলী বরকের মতোই ভালো।",
+          "es": "La satisfacción es como la riqueza, y la bondad del carácter moral es como una bendición.",
+          "fr": "La satisfaction est comme la richesse, et la bonté du caractère moral est comme une bénédiction.",
+          "de": "Genügsamkeit ist so gut wie ein Vermögen, und Güte des Charakters ist so gut wie ein Segen.",
+          "ru": "Удовлетворённость — как богатство, а доброта нравов — как милость.",
+          "zh": "知足常乐如同拥有财富，品德高尚如同蒙受恩惠。"
+        },
+        "word_start": 3,
+        "word_end": 9
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَسُئِلَ (عليه السلام) عَنْ قَوْلِهِ تَعَالَى ﴿فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً﴾ فَقَالَ: هِيَ الْقَنَاعَةُ.",
+        "translations": {
+          "en": "He was asked about Allah's saying: 'We will certainly make him live a life good and pure,' when he said: that means contentment.",
+          "ur": "ان سے اللہ تعالیٰ کی اس بات کے بارے میں پوچھا گیا: ''ہم ضرور اسے ایک اچھی اور پاکیزہ زندگی عطا کریں گے''، تو انہوں نے فرمایا کہ اس کا مطلب قناعت ہے۔",
+          "tr": "Allah'ın «Ona güzel ve temiz bir hayat yaşatacağız» âyetini sordular. O da: «Bu, rızadır» dedi.",
+          "fa": "از او درباره آیت «حتی نذیقنه حیوة طیبة» پرسیده شد و فرمود: این به معنای قناعت است.",
+          "id": "Ia ditanya mengenai firman Allah: 'Sesungguhnya Kami akan memberinya kehidupan yang baik dan suci,' maka beliau menjawab: itu berarti kerelaan.",
+          "bn": "তাকে আল্লাহর বাক্য সম্পর্কে জিজ্ঞাসা করা হয়েছিল: 'আমি অবশ্যই তাকে একটি মঙ্গলময় ও পবিত্র জীবন দান করব', তিনি উত্তর দিলেন: এর অর্থ সন্তুষ্টি। }",
+          "es": "Se le preguntó acerca de la palabra de Alá: «Con certeza le haremos vivir una vida buena y pura», y dijo: eso significa satisfacción.",
+          "fr": "On lui demanda au sujet de la parole d'Allah : « Nous lui ferons certes vivre une vie bonne et pure », et il dit : cela signifie la satisfaction.",
+          "de": "Er wurde gefragt nach Allahs Wort: „Wir werden ihn gewiss ein gutes und reines Leben leben lassen“, und er sagte: Das bedeutet Zufriedenheit.",
+          "ru": "Его спросили о словах Аллаха: «Мы даровать ему жизнь добрую и чистую, и он ответил, что это означает довольство.",
+          "zh": "有人就真主说：『我必使他过一种美好的生活，』这句话向他请教，他说：那就是满足。"
+        },
+        "word_start": 9,
+        "word_end": 21
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) elevates contentment (qana'ah) from mere satisfaction to a sovereign state of being, while defining good character (husn al-khuluq) as the essence of spiritual bliss. In his exegesis of Surah An-Nahl 16:97, he identifies the 'good life' (hayatun tayyibah) not merely as longevity or prosperity, but as the inner tranquility derived from self-sufficiency, a view deeply rooted in Shia ascetic (zuhd) tradition. This interpretation underscores the Shia emphasis on internal moral purity over external worldly accumulation.",
+        "seo_question": "What does Imam Ali say is the meaning of the 'good life' mentioned in Surah An-Nahl verse 97?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "Contentment, satisfaction with what one has",
+          "حُسْنُ الْخُلُقِ": "Goodness of moral character, excellent manners",
+          "حَيَاةً طَيِّبَةً": "A good, pure, or pleasant life",
+          "مُلْكاً": "Estate, kingdom, or possession"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) قناعت کو محض اطمینان سے بڑھا کر ایک حکمران حالتِ وجود بنا دیتے ہیں اور حسن الخلق کو روحانی خوشی کی بنیاد قرار دیتے ہیں۔ سورہ نحل کی آیت 97 کی تفسیر میں وہ 'حیۃ طیّبہ' کو نہ صرف لمبی عمر یا دولت کے طور پر بلکہ خود کفالت سے حاصل ہونے والے اندرونی سکون کے طور پر بیان کرتے ہیں، جو شیعہ زہد کی روایت سے گہرا تعلق رکھتا ہے۔ یہ تفسیر شیعہ مکتب فکر کے بیرونی دنیاوی جمع کرنے کے مقابلے میں اندرونی اخلاقی پاکیزگی پر زور دینے کو اجاگر کرتی ہے۔",
+        "seo_question": "امام علیؑ کا کہنا ہے کہ سورہ نحل کی آیت 97 میں ذکر کردہ 'اچھی زندگی' کا کیا مطلب ہے؟",
+        "key_terms": {
+          "الْقَنَاعَةُ": "جو کچھ ہوتا ہے اس سے اطمینان",
+          "حُسْنُ الْخُلُقِ": "اخلاقی کردار کی خوبی، عمدہ اندام",
+          "حَيَاةً طَيِّبَةً": "اچھی، پاکیزہ یا خوشگوار زندگی",
+          "مُلْكاً": "ملکیت، بادشاہت یا جائیداد"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aleyhisselam), kanaati yalnızca bir memnuniyet hali olmaktan çıkarıp egemen bir varoluş durumu olarak yükseltirken, güzel ahlakı (husnül-huluk) manevi mutluluğun özü olarak tanımlar. Nahl Suresi 97. ayetin tefsirinde, 'güzel hayatı' (hayatün tayyibe) sadece uzun ömür veya zenginlik olarak değil, kendi kendine yeterlilikten kaynaklanan iç huzur olarak tanımlar; bu görüş, Şii tasavvuf (zuhd) geleneğine derinlemesine kök salmıştır. Bu yorum, Şiiliğin dış dünyevi birikimden ziyade içsel ahlaki saflığa verdiği önemi vurgular.",
+        "seo_question": "İmam Ali'ye göre Nahl Suresi 97. ayette geçen 'güzel hayat' ne anlama gelir?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "Kendi kendine yeterlilik, sahip olunanla yetinme",
+          "حُسْنُ الْخُلُقِ": "Ahlaki karakterin güzelliği, üstün edep",
+          "حَيَاةً طَيِّبَةً": "Güzel, saf veya hoş bir hayat",
+          "مُلْكاً": "Mülk, krallık veya sahip olunan şey"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علی (علیهالسلام) قناعت را از رضایت ساده به حالتی سلطانی ارتقا می‌دهد و حسن الخلق را جوهره سعادت معنوی تعریف می‌کند. در تفسیر آیه ۹۷ سوره نحل، او زندگی نیک (حیاه طیبه) را نه صرفاً طول عمر یا ثروت، بلکه آرامش درونی ناشی از خودکفایی می‌داند که ریشه در سنت زهد شیعه دارد. این تفسیر بر تأکید شیعه بر پاکی اخلاقی درونی در برابر انباشت دنیوی خارجی تأکید دارد.",
+        "seo_question": "امامعلی (علیهالسلام) معنای زندگی نیکو را در آیه ۹۷ سوره نحل چیست؟",
+        "key_terms": {
+          "الْقَنَاعَةُ": "قناعت، رضایت به داشته‌ها",
+          "حُسْنُ الْخُلُقِ": "نیکویی اخلاق، رفتار پسندیده",
+          "حَيَاةً طَيِّبَةً": "زندگی نیک، پاک یا خوشایند",
+          "مُلْكاً": "ملک، پادشاهی یا دارایی"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (alamah) mengangkat rasa puas (qana'ah) dari sekadar kepuasan menjadi keadaan yang merdeka, sambil mendefinisikan akhlak mulia (husn al-khuluq) sebagai esensi kebahagiaan spiritual. Dalam tafsirnya terhadap Surah An-Nahl ayat 97, ia mengidentifikasi 'kehidupan yang baik' (hayatun tayyibah) bukan sekadar umur panjang atau kemakmuran, melainkan ketenangan batin yang berasal dari kemandirian, sebuah pandangan yang berakar kuat dalam tradisi zuhud Syiah. Penafsiran ini menyoroti penekanan Syiah pada kemurnian moral internal daripada akumulasi duniawi eksternal.",
+        "seo_question": "Apa kata Imam Ali tentang makna 'kehidupan yang baik' yang disebutkan dalam Surah An-Nahl ayat 97?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "Rasa puas, kepuasan terhadap apa yang dimiliki",
+          "حُسْنُ الْخُلُقِ": "Kebaikan akhlak, budi pekerti yang luhur",
+          "حَيَاةً طَيِّبَةً": "Kehidupan yang baik, murni, atau menyenangkan",
+          "مُلْكاً": "Kerajaan, wilayah, atau kepemilikan"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (রহ.) কানআহকে (qana'ah) সাধারণ সন্তুষ্টি থেকে উন্নত করে একটা সার্বভৌম অবস্থায় নিয়ে আসেন, এবং হুসনুল খুলুককে (husn al-khuluq) আধ্যাত্মিক আনন্দের মূল ভিত্তি হিসেবে সংজ্ঞায়িত করেন। সূরা আন-নহলের ৯৭ নম্বর আয়াতের ব্যাখ্যায় তিনি 'ভালো জীবন' (hayatun tayyibah)-কে কেবল দীর্ঘায়ু বা সম্পদ হিসেবে না দেখে, আত্মনির্ভরশীলতা থেকে উদ্ভূত অন্তরীণ শান্তি হিসেবে চিহ্নিত করেন, যা শিয়া জুহদ (zuhd) ঐতিহ্যের গভীরে নিহিত। এই ব্যাখ্যা শিয়া মতাদর্শের বাহ্যিক জাগতিক সঞ্চয়ের চেয়ে অন্তরীণ নৈতিক পবিত্রতার ওপর গুরুত্বারোপকে তুলে ধরে।",
+        "seo_question": "ইমাম আলী সূরা আন-নহলের ৯৭ নম্বর আয়াতে উল্লিখিত 'ভালো জীবন'-এর অর্থ কী বলেছেন?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "যা আছে তাতে সন্তুষ্টি, কানআহ",
+          "حُسْنُ الْخُلُقِ": "নৈতিক চরিত্রের উত্তমতা, চমৎকার আচরণ",
+          "حَيَاةً طَيِّبَةً": "একটি ভালো, পবিত্র বা সুখকর জীবন",
+          "مُلْكاً": "সম্পত্তি, রাজ্য বা অধিকার"
+        }
+      },
+      "es": {
+        "summary": "El Imam Ali (que la paz sea con él) eleva la satisfacción (qana'ah) de una mera satisfacción a un estado soberano de ser, mientras define el buen carácter (husn al-khuluq) como la esencia de la dicha espiritual. En su exégesis de la Surah An-Nahl 16:97, identifica la 'buena vida' (hayatun tayyibah) no meramente como longevidad o prosperidad, sino como la tranquilidad interior derivada de la autosuficiencia, una visión profundamente arraigada en la tradición ascética (zuhd) chií. Esta interpretación subraya el énfasis chií en la pureza moral interna sobre la acumulación mundana externa.",
+        "seo_question": "¿Qué dice el Imam Ali que es el significado de la 'buena vida' mencionada en la Surah An-Nahl versículo 97?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "Satisfacción, satisfacción con lo que uno tiene",
+          "حُسْنُ الْخُلُقِ": "Bondad del carácter moral, excelentes modales",
+          "حَيَاةً طَيِّبَةً": "Una vida buena, pura o agradable",
+          "مُلْكاً": "Estado, reino o posesión"
+        }
+      },
+      "fr": {
+        "summary": "L'Imam Ali (que la paix soit sur lui) élève la suffisance (qana'ah) d'une simple satisfaction à un état souverain d'être, tout en définissant la bonté du caractère (husn al-khuluq) comme l'essence du bonheur spirituel. Dans son exégèse de la sourate An-Nahl (16:97), il identifie la « bonne vie » (hayatun tayyibah) non pas comme une simple longévité ou prospérité, mais comme la tranquillité intérieure découlant de l'autosuffisance, une vue profondément enracinée dans la tradition ascétique chiite (zuhd). Cette interprétation souligne l'accent mis par le chiisme sur la pureté morale interne plutôt que sur l'accumulation mondaine externe.",
+        "seo_question": "Que dit l'Imam Ali du sens de la « bonne vie » mentionnée dans le verset 97 de la sourate An-Nahl ?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "Suffisance, satisfaction avec ce que l'on possède",
+          "حُسْنُ الْخُلُقِ": "Bonté du caractère moral, excellentes manières",
+          "حَيَاةً طَيِّبَةً": "Une vie bonne, pure ou agréable",
+          "مُلْكاً": "Domaine, royaume ou possession"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede sei mit ihm) erhebt die Zufriedenheit (Qana'ah) von bloßer Befriedigung zu einem souveränen Seinszustand und definiert gute Gesinnung (Husn al-Khuluq) als den Kern des spirituellen Glücks. In seiner Auslegung von Sure An-Nahl 16:97 identifiziert er das „gute Leben“ (Hayatun Tayyibah) nicht einfach als Langlebigkeit oder Wohlstand, sondern als innere Ruhe, die aus Selbstgenügsamkeit resultiert, eine Ansicht, die tief in der schiitischen Askese (Zuhd) verwurzelt ist. Diese Interpretation unterstreicht die schiitische Betonung innerer moralischer Reinheit gegenüber äußerer weltlicher Anhäufung.",
+        "seo_question": "Was sagt Imam Ali über die Bedeutung des „guten Lebens“ in Sure An-Nahl, Vers 97?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "Zufriedenheit, Genügsamkeit mit dem, was man hat",
+          "حُسْنُ الْخُلُقِ": "Güte des moralischen Charakters, vorzügliche Manieren",
+          "حَيَاةً طَيِّبَةً": "Ein gutes, reines oder angenehmes Leben",
+          "مُلْكاً": "Besitz, Königreich oder Vermögen"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (да будет над ним мир) возвышает довольство (канаа) от простого удовлетворения до суверенного состояния бытия, определяя хорошее поведение (хусн аль-хулюк) как суть духовного блаженства. В своем тафсуре суры Ан-Нахль 16:97 он определяет «хорошую жизнь» (хиятан таййиба) не просто как долголетие или процветание, а как внутреннее спокойствие, проистекающее из самодостаточности, что глубоко укоренено в шиитской традиции аскезы (зухд). Эта интерпретация подчеркивает шиитский акцент на внутренней моральной чистоте, а не на внешнем накоплении мирских благ.",
+        "seo_question": "Что, по словам имама Али, означает «хорошая жизнь», упомянутая в аяте 97 суры Ан-Нахль?",
+        "key_terms": {
+          "الْقَنَاعَةُ": "Довольство, удовлетворение тем, что имеешь",
+          "حُسْنُ الْخُلُقِ": "Хорошее качество морального характера, прекрасные манеры",
+          "حَيَاةً طَيِّبَةً": "Хорошая, чистая или приятная жизнь",
+          "مُلْكاً": "Владение, царство или собственность"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）将知足（qana'ah）从单纯的满足提升为一种至高无上的存在状态，并将优良品格（husn al-khuluq）定义为精神幸福的本质。在对《古兰经》第16章第97节（古努尔章）的注释中，他指出‘美好的生活’（hayatun tayyibah）不仅仅是长寿或繁荣，而是源于自给自足的内在本真宁静，这一观点深深植根于什叶派禁欲（zuhd）传统。这种诠释强调了什叶派对内在道德纯洁性而非外在世俗积累的重视。",
+        "seo_question": "伊玛目阿里如何解释《古兰经》第16章第97节中提到的‘美好的生活’的含义？",
+        "key_terms": {
+          "الْقَنَاعَةُ": "知足，满足于自己所拥有的",
+          "حُسْنُ الْخُلُقِ": "道德品格优良，举止优雅",
+          "حَيَاةً طَيِّبَةً": "美好、纯洁或愉快的生活",
+          "مُلْكاً": "领地、王国或财产"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "16:97",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "13:28",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:8",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَقَالَ (عليه السلام): كَفَى بِالْقَنَاعَةِ مُلْكاً، وَبِحُسْنِ الْخُلُقِ نَعِيماً. وَسُئِلَ (عليه السلام) عَنْ قَوْلِهِ تَعَالَى ﴿فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً﴾ فَقَالَ: هِيَ الْقَنَاعَةُ.",
+    "isnad_matn": {
+      "isnad_ar": "٢٢٩. وَقَالَ (عليه ‏السلام): كَفَى بِالْقَنَاعَةِ مُلْكاً، وَبِحُسْنِ الْخُلُقِ نَعِيماً. وَسُئِلَ (عليه السلام) عَنْ قَوْلِهِ تَعَالَى ﴿فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً﴾ فَقَالَ",
+      "matn_ar": "وَقَالَ (عليه السلام): كَفَى بِالْقَنَاعَةِ مُلْكاً، وَبِحُسْنِ الْخُلُقِ نَعِيماً. وَسُئِلَ (عليه السلام) عَنْ قَوْلِهِ تَعَالَى ﴿فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً﴾ فَقَالَ: هِيَ الْقَنَاعَةُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "٢٢٩. وَقَالَ (عليه ‏السلام): كَفَى بِالْقَنَاعَةِ مُلْكاً، وَبِحُسْنِ الْخُلُقِ نَعِيماً. وَسُئِلَ (عليه السلام)",
+          "name_en": "al-Salam",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "قَوْلِهِ تَعَالَى ﴿فَلَنُحْيِيَنَّهُ حَيَاةً طَيِّبَةً﴾",
+          "name_en": "Qawlihi Ta'ala",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "حُسْنُ الْخُلُقِ",
+        "phrase_en": "Good character/morals",
+        "category": "well_known_saying"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:2:5:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[1] name_ar has 17 words (>14, بن-density 0.18 — likely a sentence fragment, not a name): 'محمد بن يحيى الصولي قال: حدثنا عون بن محمد الكندي قال: حدثنا'",
+    "chunks[1] en translation length out of bounds: 11 en words vs 42 ar words (ratio=0.26, expected 16.8-168.0)"
+  ],
+  "result": {
+    "tags": [
+      "family",
+      "history",
+      "social_relations"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imams_biography",
+      "kinship",
+      "events",
+      "marriage_family_law"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا الْحَاكِمُ أَبُو عَلِي الْحُسَيْنُ بْنُ أَحْمَدَ الْبَيْهَقِيُّ قَالَ حَدَّثَنِي مُحَمَّدُ بْنُ يَحْيَى الصُّوفِيُّ قَالَ: حَدَّثَنَا عَوْنُ بْنُ مُحَمَّدٍ الْكِنْدِيُّ قَالَ: حَدَّثَنَا سَهْلُ بْنُ الْقَاسِمِ النُّوشْجَانِيُّ قَالَ: قَالَ لِيَ الرِّضَا عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "Al-Hakim Abu Ali Al-Husayn ibn Ahmad al-Bayhaqi narrated to us, saying: He narrated to me Muhammad ibn Yahya al-Sufi, saying: He narrated to us Awn ibn Muhammad al-Kindi, saying: He narrated to us Sahl ibn al-Qasim al-Nushjani, saying: Al-Rida (peace be upon him) said to me:",
+          "ur": "الحاکم ابو علی الحسین بن احمد البیہقی نے ہم سے روایت کی، انہوں نے کہا: مجھ سے محمد بن یحییٰ الصولی نے روایت کی، انہوں نے کہا: ہم سے عون بن محمد الکندی نے روایت کی، انہوں نے کہا: ہم سے سهل بن القاسم النوشجانی نے روایت کی، انہوں نے کہا: الرضا علیہ السلام نے مجھ سے فرمایا:",
+          "tr": "Hakim Ebu Ali Hüseyin b. Ahmed el-Beyhaki bize şöyle rivayet etti: Benimle Muhammed b. Yahya es-Sûlî rivayet etti, dedi ki: Bize Avn b. Muhammed el-Kindî rivayet etti, dedi ki: Bize Sahl b. el-Kasım en-Nüşcânî rivayet etti, dedi ki: Er-Rıdâ (aleyhisselâm) bana şöyle dedi:",
+          "fa": "الحاكم أبو علي الحسين بن أحمد البيهقي حدثنا، قال: حدثني محمد بن يحيى الصولي، قال: حدثنا عون بن محمد الكندي، قال: حدثنا سهل بن القاسم النوشجاني، قال: قال لي الرضا عليه السلام:",
+          "id": "Al-Hakim Abu Ali Al-Husain bin Ahmad al-Bayhaqi telah menceritakan kepada kami, ia berkata: Muhammad bin Yahya al-Sufi telah menceritakan kepadanya, ia berkata: Awn bin Muhammad al-Kindi telah menceritakan kepada kami, ia berkata: Sahl bin al-Qasim al-Nushjani telah menceritakan kepada kami, ia berkata: Al-Rida (alamah) berkata kepadaku:",
+          "bn": "আল-হাকিম আবু আলী আল-হুসাইন ইবনে আহমদ আল-বায়হাকী আমাদের কাছে বর্ণনা করেছেন, তিনি বলেছেন: মুহাম্মাদ ইবনে ইয়াহ্যা আস-সুফী আমার কাছে বর্ণনা করেছেন, তিনি বলেছেন: আওন ইবনে মুহাম্মাদ আল-কিন্দি আমাদের কাছে বর্ণনা করেছেন, তিনি বলেছেন: সাহল ইবনে আল-কাসিম আন-শুজানী আমাদের কাছে বর্ণনা করেছেন, তিনি বলেছেন: আল-রিদা (আলাইহিস সালাম) আমার কাছে বলেছেন:",
+          "es": "Al-Hakim Abu Ali Al-Husayn ibn Ahmad al-Bayhaqi nos narró, diciendo: Él nos narró Muhammad ibn Yahya al-Sufi, diciendo: Él nos narró Awn ibn Muhammad al-Kindi, diciendo: Él nos narró Sahl ibn al-Qasim al-Nushjani, diciendo: Al-Rida (que la paz sea con él) me dijo:",
+          "fr": "Al-Hakim Abou Ali Al-Husayn ibn Ahmad al-Bayhaqi nous a raconté, en disant : Il m'a raconté Muhammad ibn Yahya al-Sufi, en disant : Il nous a raconté Awn ibn Muhammad al-Kindi, en disant : Il nous a raconté Sahl ibn al-Qasim al-Nushjani, en disant : Al-Rida (que la paix soit sur lui) m'a dit :",
+          "de": "Al-Hak",
+          "ru": "Аль-Хаким Абу Али аль-Хусайн ибн Ахмад аль-Байхаки рассказал нам, сказав: Рассказал мне Мухаммад ибн Яхья ас-Суфи, сказав: Рассказал нам Аун ибн Мухаммад аль-Кинди, сказав: Рассказал нам Сахль ибн аль-Касим ан-Нуджани, сказав: Ар-Рида (да будет мир с ним) сказал мне:",
+          "zh": "الحاكم أبو علي الحسين بن أحمد البيهقي حدثنا، قال: حدثني محمد بن يحيى الصولي، قال: حدثنا عون بن محمد الكندي، قال: حدثنا سهل بن القاسم النوشجاني، قال: قال لي الرضا عليه السلام:"
+        },
+        "word_start": 0,
+        "word_end": 32
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "بِخُرَاسَانَ إِنَّ بَيْنَنَا وَبَيْنَكُمْ نَسَبًا [نَسَبًا] قُلْتُ وَمَا هُوَ أَيُّهَا الْأَمِيرُ قَالَ إِنَّ عَبْدَ اللَّهِ بْنَ عَامِرِ بْنِ كَرِيزٍ لَمَّا افْتَتَحَ خُرَاسَانَ أَصَابَ ابْنَتَيْنِ لِيَزْدَجَرْدَ بْنِ شَهْرِيَارَ مَلِكِ الْأَعَاجِمِ فَبَعَثَ بِهِمَا إِلَى عُثْمَانَ بْنِ عَفَّانَ فَوَهَبَ إِحْدَاهُمَا لِلْحَسَنِ وَالْأُخْرَى لِلْحُسَيْنِ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "In Khorasan, that there is a kinship between us and you.",
+          "ur": "خراسان میں، ہمارے اور تمہارے درمیان رشتہ داری ہے۔",
+          "tr": "Horasan'da, aramızda ve sizin aranızda bir akrabalık bağı bulunmaktadır.",
+          "fa": "در خراسان، پیوند خویشاوندی میان ما و شما وجود دارد.",
+          "id": "Di Khorasan, ada hubungan kekerabatan antara kita dan kalian.",
+          "bn": "খোরাসানে, আমাদের এবং আপনার মধ্যে একটি আত্মীয়তার সম্পর্ক রয়েছে।",
+          "es": "En Jorasán, existe un parentesco entre nosotros y vosotros.",
+          "fr": "Au Khorassan, il y a un lien de parenté entre nous et vous.",
+          "de": "In Chorasan gibt es eine Verwandtschaft zwischen uns und euch.",
+          "ru": "В Хорасане существует родство между нами с вами.",
+          "zh": "在呼罗珊，我们与你们有亲缘关系。"
+        },
+        "word_start": 32,
+        "word_end": 74
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَمَاتَتَا عِنْدَهُمَا نُفَسَاوَيْنِ وَكَانَتْ صَاحِبَةُ الْحُسَيْنِ عَلَيْهِ السَّلَامُ نَفِسَتْ بِعَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ فَكَفَلَ عَلِيًّا بَعْضُ أُمَّهَاتِ وَلَدِ أَبِيهِ فَنَشَأَ وَهُوَ لَا يَعْرِفُ أُمًّا غَيْرَهَا",
+        "translations": {
+          "en": "Then they both died in childbirth. The wife of Al-Husayn (peace be upon him) gave birth to Ali ibn Al-Husayn (peace be upon him). So Ali was fostered by one of the mothers of his father's children, and he grew up knowing no mother other than her.",
+          "ur": "پھر دونوں بچے دین کے وقت انتقال کر گئے۔ حسین (رضی اللہ عنہ) کی بیٹی نے علی بن حسین (رضی اللہ عنہ) کو جنم دیا۔ لہذا علی کو ان میں سے ایک ماں نے پالا جو ان کے والد کے بچوں میں سے تھیں، اور وہ اس کے سوا کسی اور ماں کو نہیں جانتے ہوئے بڑے ہوئے۔",
+          "tr": "Sonra ikisi de doğum sırasında öldüler. Hüseyin'in (aleyhisselam) karısı Ali bin Hüseyin'i (aleyhisselam) doğurdu. Böylece Ali, babasının çocuklarından birinin annesi tarafından yetiştirildi ve başka bir anne tanımadan onun yanında büyüdü.",
+          "fa": "پس هر دو در زایمان درگذشتند. همسر الحسین (علیه‌السلام) علی‌بن‌الحسین (علیه‌السلام) را به دنیا آورد. بنابراین علی توسط یکی از مادران فرزندان پدرش بزرگ شد و او مادری جز او نمی‌شناخت.",
+          "id": "Kemudian keduanya meninggal dunia saat melahirkan. Istri Al-Husayn (alamah) melahirkan Ali bin Al-Husayn (alamah). Maka Ali diasuh oleh salah satu ibu dari anak-anak ayahnya, dan ia tumbuh besar tanpa mengenal ibu selain dirinya.",
+          "bn": "তারপর উভয়েই প্রসবকালে মৃত্যুবরণ করেন। আল-হুসাইন (আলৈহিস সালাম)-এর স্ত্রী আলী ইবনে আল-হুসাইন (আলৈহিস সালাম)-কে প্রসব করেন। তাই আলীকে তাঁর পিতার সন্তানদের মধ্যে অন্যতম এক মাতা পালন করেন, এবং তিনি তাঁকে ছাড়া অন্য কোনো মাতা চিনতেন না।",
+          "es": "Luego ambos murieron en el parto. La esposa de Al-Husayn (que la paz sea con él) dio a luz a Ali ibn Al-Husayn (que la paz sea con él). Por lo tanto, Ali fue amamantado por una de las madres de los hijos de su padre, y creció sin conocer a otra madre que no fuera ella.",
+          "fr": "Puis ils moururent tous deux en couches. L'épouse d'Al-Husayn (que la paix soit sur lui) mit au monde Ali ibn Al-Husayn (que la paix soit sur lui). Ainsi, Ali fut élevé par l'une des mères de ses frères et sœurs paternels, et il grandit en ne connaissant aucune autre mère qu'elle.",
+          "de": "Dann starben beide im Kindbett. Die Frau des Al-Husayn (Friede sei mit ihm) gebar Ali ibn Al-Husayn (Friede sei mit ihm). So wurde Ali von einer der Mütter der Kinder seines Vaters gestillt und wuchs auf, ohne eine andere Mutter als sie zu kennen.",
+          "ru": "Затем оба умерли при родах. Жена аль-Хусейна (да будет мир с ним) родила Али ибн аль-Хусейна (да будет мир с ним). Так Али был вскормлен одной из матерей детей его отца, и он вырос, не зная другой матери, кроме неё.",
+          "zh": "于是他们二人在分娩中去世。侯赛因（愿主福安之）的妻子生下了阿里·本·侯赛因（愿主福安之）。因此，阿里由他父亲的一个孩子的母亲之一抚养长大，他成长过程中除了她之外没有别的母亲。"
+        },
+        "word_start": 74,
+        "word_end": 100
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ عَلِمَ أَنَّهَا مَوْلاتُهُ وَكَانَ النَّاسُ يُسَمُّونَهَا أُمَّهُ وَزَعَمُوا أَنَّهُ زَوَّجَ أُمَّهُ",
+        "translations": {
+          "en": "Then he realized that she was his mistress (Umm Walad), and the people called her his mother, and they claimed that he married his mother.",
+          "ur": "پھر اسے احساس ہوا کہ وہ اس کی ام ولد تھیں، اور لوگ اسے اس کی ماں کہتے تھے، اور ان کا دعویٰ تھا کہ اس نے اپنی ماں سے شادی کی۔",
+          "tr": "Sonra onun ümmü velad (köle cariye) olduğunu anladı, insanlar onu annesi olarak adlandırdılar ve o, annesiyle evlendiğini iddia ettiler.",
+          "fa": "پس فهمید که او کنیز اوست (ام ولد) و مردم او را مادرش می‌خواندند و ادعا کردند که او با مادرش ازدواج کرده است.",
+          "id": "Kemudian ia menyadari bahwa dia adalah selirnya (Umm Walad), dan orang-orang menyebutnya ibunya, dan mereka mengklaim bahwa ia menikahi ibunya.",
+          "bn": "অতঃপর তিনি বুঝতে পারলেন যে সে তাঁর উম্মুল ওলাদ (দাসী যাঁকে বিবাহ করা হয়েছিল), এবং লোকেরা তাকে তাঁর মা বলে ডাকত, এবং তারা দাবি করত যে তিনি তাঁর মা-কে বিবাহ করেছেন।",
+          "es": "Entonces se dio cuenta de que ella era su concubina (Umm Walad), y la gente la llamaba su madre, y afirmaban que se había casado con su madre.",
+          "fr": "Puis il comprit alors qu'elle était sa concubine (Oum Walad), et les gens l'appelaient sa mère, et ils affirmèrent qu'il avait épousé sa mère.",
+          "de": "Dann erkannte er, dass sie seine Umm Walad (Konkubine) war, und die Leute nannten sie seine Mutter, und sie behaupteten, er habe seine Mutter geheiratet.",
+          "ru": "Затем он понял, что она его наху (Умм аль-Валад), и люди называли её его матерью, и утверждали, что он женился на своей матери.",
+          "zh": "随后他意识到她是他的妾室（乌姆·瓦拉德），人们称她为他的母亲，并声称他娶了自己的母亲。"
+        },
+        "word_start": 100,
+        "word_end": 112
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَمَعَاذَ اللَّهِ إِنَّمَا زَوَّجَ هَذِهِ عَلَى مَا ذَكَرْنَاهُ وَكَانَ سَبَبَ ذَلِكَ أَنَّهُ وَاقَعَ بَعْضَ نِسَائِهِ ثُمَّ خَرَجَ يَغْتَسِلُ فَلَقِيَتْهُ أُمُّهُ هَذِهِ فَقَالَ لَهَا إِنْ كَانَ فِي نَفْسِكِ فِي هَذَا الْأَمْرِ شَيْءٌ فَاتَّقِي اللَّهَ وَأَعْلِمِينِي",
+        "translations": {
+          "en": "And God forbid, he only married this one as we mentioned. The reason for that was that he had relations with one of his wives, then he went out to perform ritual bath, and this mother of his met him. So he said to her: 'If there is something in your mind regarding this matter, fear God and inform me.'",
+          "ur": "اور خدا کا ارادہ نہ ہو کہ اس نے صرف اسی سے شادی کی جیسا کہ ہم نے ذکر کیا۔ اس کی وجہ یہ تھی کہ اس نے اپنی بیویوں میں سے ایک سے تعلق قائم کیا، پھر وہ غسل کے لیے نکلا، اور اس کی ماں اس سے ملی۔ تو اس نے اس سے کہا: ''اگر تمہارے دل میں اس معاملے کے بارے میں کوئی بات ہے تو خدا کا ڈر رکھو اور مجھے بتاؤ۔''",
+          "tr": "Ve",
+          "fa": "و خداوند بزرگوار است، او تنها این یکی را به همان دلیلی که ذکر کردیم ازدواج کرد. دلیل آن این امر آن بود که او با یکی از همسرانش رابطه داشت، سپس برای انجام غسل خارج شد و این مادرش با او مواجه شد. پس به او گفت: «اگر در ذهن تو درباره این موضوع چیزی هست، خدا را بترس و به من اطلاع بده.»",
+          "id": "Dan Allah Swt. tidak lain, ia hanya menikahi wanita ini sebagaimana yang telah kami sebutkan. Alasannya adalah karena ia telah berhubungan intim dengan salah satu istrinya, kemudian ia keluar untuk mandi besar, dan ibu kandungnya (Ummu Salamah) menjumpainya. Maka ia berkata kepadanya: 'Jika ada sesuatu dalam pikiranmu mengenai hal ini, bertakwalah kepada Allah dan beritahukanlah kepadaku.'",
+          "bn": "আল্লাহ্‌ তাআলাকে দূরে রাখি, তিনি কেবল এই একজনকেই বিয়ে করেছিলেন, যেমন আমরা উল্লেখ করেছি। এর কারণ এই ছিল যে, তিনি তাঁর এক স্ত্রীর সাথে সম্পর্ক স্থাপন করেছিলেন, তারপর তিনি গোসলের জন্য বেরিয়ে গেলেন, এবং তাঁর এই মা তাঁর সাথে দেখা করলেন। তাই তিনি তাঁকে বললেন: 'যদি তোমার মনে এই বিষয়ে কোনো কথা থাকে, তবে আল্লাহ্‌কে ভয় করো এবং আমাকে জানাও।'",
+          "es": "Y Allah, a no ser que se case con esta sola, como hemos mencionado. La razón de ello fue que tuvo relaciones con una de sus esposas, luego salió para realizar el baño ritual (ghusl), y esta madre suya se encontró con él. Entonces le dijo: 'Si tienes algo en mente respecto a este asunto, teme a Allah e infórmame'.",
+          "fr": "Et Dieu en soit loué, il n'a épousé celle-ci que comme nous l'a mentionné. La raison en est qu'il eut des relations avec l'une de ses épouses, puis il sortit pour accomplir le bain rituel, et cette mère de lui le rencontra. Alors il lui dit : « S'il y a quelque chose dans ton esprit concernant cette affaire, crains Dieu et informe-moi. »",
+          "de": "Und Gott verhüte, er heiratete nur diese eine, wie wir erwähnt haben. Der Grund dafür war, dass er mit einer seiner Ehefrauen Verkehr hatte, dann ging er hinaus, um die rituelle Badung (ghusl) zu vollziehen, und diese seine Mutter begegnete ihm. Da sagte er zu ihr: 'Wenn du etwas in deinem Sinn bezüglich dieser Angelegenheit hast, fürchte Gott und teile es mir mit.'",
+          "ru": "И Аллаху не угодно, чтобы он женился только на этой женщине, как мы упомянули. Причина этого заключалась в том, что он имел близость с одной из своих жён, затем вышел, чтобы совершить ритуальное омовение (гусль), и эта его мать встретила его. Так он сказал ей: «Если у тебя есть какие-то мысли по этому поводу, бойся Аллаха и сообщи мне».",
+          "zh": "真主所护佑，他仅如我们所述娶了这一位。其原因是他与其中一位妻子发生了关系，然后他去行大净，他的母亲遇见了他。于是他对她说：‘若你心中对此事有何想法，当敬畏真主并告知我。’"
+        },
+        "word_start": 112,
+        "word_end": 146
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَتْ نَعَمْ فَزَوَّجَهَا فَقَالَ نَاسٌ زَوَّجَ عَلِيُّ بْنُ الْحُسَيْنِ عَلَيْهِ السَّلَامُ أُمَّهُ",
+        "translations": {
+          "en": "She said 'Yes,' so he married her. And some people said: 'Ali ibn Al-Husayn (peace be upon him) married his mother.'",
+          "ur": "اس نے کہا 'ہاں'، تو اس نے اس سے شادی کر لی۔ اور بعض لوگوں نے کہا: 'علی ابن الحسین (علیہ السلام) نے اپنی ماں سے شادی کی۔'}",
+          "tr": "O, 'Evet' dedi, bu' dedi, o da onu evlendirdi. Bazı kimseler şöyle dedi: 'Ali b. el-Hüseyin (aleyhimüsselam) annesini evlendirdi.'",
+          "fa": "گفت: «بله، پس او را به همسری گرفت. و برخی گفتند:علی بن الحسین (علیه السلام) مادرش را به همسری گرفت.",
+          "id": "Ia berkata 'Ya,' maka ia menikahinya. Dan sebagian orang berkata: 'Ali bin Al-Husain (alamah) menikahi ibunya.'",
+          "bn": "সে বলল, 'হ্যাঁ', তাই তিনি তাকে বিয়ে করলেন। আর কিছু লোক বললেন: 'আলী ইবনে আল-হুসাইন (রহ.) তার মাকে বিয়ে করেছিলেন।'",
+          "es": "Ella dijo 'Sí', así que él se casó con ella. Y algunas personas dijeron: 'Ali ibn Al-Husayn (que la paz sea con él) se casó con su madre.'",
+          "fr": "Elle dit « Oui, alors il l'épousa. Et certaines personnes dirent : Ali ibn Al-Husayn (que la paix soit sur lui) a épousé sa mère.",
+          "de": "Sie sagte: „Ja“, also heiratete er sie. Und einige sagten: „Ali ibn al-Husayn (friede sei mit ihm) heiratete seine Mutter.“",
+          "ru": "Она сказала: «Да», и он женился на ней. Некоторые говорили: «Али ибн аль-Хусайн (да будет мир с ним) женился на своей матери».",
+          "zh": "她说：“是的。”于是他便娶了她。有些人说：“阿里·本·侯赛因（愿主福安之）娶了他的母亲。”"
+        },
+        "word_start": 146,
+        "word_end": 158
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "قَالَ عَوْنٌ قَالَ لِي سَهْلُ بْنُ الْقَاسِمِ مَا بَقِيَ طَالِبِيٌّ عِنْدَنَا إِلَّا كَتَبَ عَنِّي هَذَا الْحَدِيثَ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ.",
+        "translations": {
+          "en": "Awn said: Sahl ibn al-Qasim told me: 'No seeker of knowledge remained with us except that he wrote this hadith from me, from Al-Rida (peace be upon him).'",
+          "ur": "عون نے کہا: سهل بن القاسم نے مجھ سے کہا: ''ہمارے پاس علم کے طالب علموں میں سے کوئی بھی باقی نہ رہا مگر اس نے یہ حدیث مجھ سے، الرضا (علیہ السلام) سے لکھی۔''",
+          "tr": "Ewn dedi: Sahl b. el-Kasim bana anlattı: 'Bilgi arayanlardan hiç kimse bizimle kalmadı, o da bu hadisi benden, er-Rıza'dan (aleyhisselam) yazdı.'",
+          "fa": "عون گفت: سهل بن القاسیم برایم گفت: «هیچ طلب علمی نزد ما نماند مگر اینکه این حدیث را از من، از الرضا (علیه السلام) نوشت.»",
+          "id": "Awn berkata: Sahl ibn al-Qasim menceritakan kepadaku: 'Tidak ada seorang pun penuntut ilmu yang tinggal bersama kami kecuali ia telah menulis hadis ini dariku, dari Al-Rida (semoga Allah melimpahkan kesejahteraan kepadanya).'",
+          "bn": "আওন বললেন: সাহল ইবনুল কাসিম আমাকে বললেন: 'আমাদের কাছে জ্ঞান চাওয়া কারও অবশিষ্ট রইল না, সে আমার নিকট থেকে আল-রিদা (আ.))-এর নিকট থেকে এই হাদিসটি লিখে নিল।'",
+          "es": "قال عون: حدثني سهل بن القاسم: «ما بقي طالب علم عندنا إلا كتب هذا الحديث عني عن الرضا (عليه السلام)».",
+          "fr": "قال عون: حدثني سهل بن القاسم: «ما بقي طالب علم عندنا إلا كتب هذا الحديث عني عن الرضا (عليه السلام)».",
+          "de": "Awn sagte: Sahl ibn al-Qasim berichtete mir: „Keiner, der nach Wissen strebte, blieb bei uns, außer dass er dieses Hadith von mir, von al-Rida (Friede sei mit ihm), aufschrieb.“",
+          "ru": "Аун сказал: Сахль ибн аль-Касим рассказал мне: «Ни один искатель знания не остался у нас, кроме как записал этот хадис от меня, от ар-Рида (да будет над ним мир)».",
+          "zh": "安武说：萨赫勒·本·卡西姆告诉我：“除了他从我这里传述了这段圣训外，没有求知者留在我身边。”从里达（愿主福安之）"
+        },
+        "word_start": 158,
+        "word_end": 178
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Al-Rida (a.s.) elucidates the genealogical link between the Ahl al-Bayt and the Persians of Khorasan by recounting how the daughters of King Yazdegerd were married to Imam Hasan and Imam Husayn (a.s.). The narrative highlights a specific historical detail regarding the foster-mother of Imam Ali ibn Husayn (a.s.), clarifying the public misconception that she was his biological mother and thus the subject of rumors regarding his marriage to her.",
+        "seo_question": "What is the historical basis for the kinship between the Imams and the people of Khorasan?",
+        "key_terms": {
+          "نَسَب": "Kinship / Lineage",
+          "يَزْدَجَرْد": "Yazdegerd (Persian King)",
+          "أَعَاجِم": "Persians / Non-Arabs",
+          "عُثْمَانُ بْنُ عَفَّان": "Uthman ibn Affan",
+          "نُفَسَاوَيْن": "Two women in childbirth",
+          "أُمَّهَاتِ وَلَد": "Mothers of children (Umm Walad)",
+          "مَوْلاتُهُ": "His mistress/female patron",
+          "زَوَّجَ": "He married"
+        }
+      },
+      "ur": {
+        "summary": "امام رضا (علیہ السلام) خراسان کے فارسیوں اور اہل بیت کے درمیان نسبی تعلق کی وضاحت کرتے ہوئے بیان فرماتے ہیں کہ بادشاہ یزدجرد کی بیٹیاں امام حسن اور امام حسین (علیہ السلام) سے نکاح ہوئیں۔ یہ روایت امام علی بن حسین (علیہ السلام) کی دودھ دہان ماں کے بارے میں ایک خاص تاریخی تفصیل کو اجاگر کرتی ہے، جو یہ عوامی غلط فہمی کو دور کرتی ہے کہ وہ ان کی حیاتیاتی ماں تھیں اور اس لیے ان کے ان سے نکاح کی شائعات کا موضوع تھیں۔",
+        "seo_question": "اماموں اور خراسان کے لوگوں کے درمیان رشتہ داری کی تاریخی بنیاد کیا ہے؟",
+        "key_terms": {
+          "نَسَب": "نسب",
+          "يَزْدَجَرْد": "یزدجرد",
+          "أَعَاجِم": "عجم",
+          "عُثْمَانُ بْنُ عَفَّان": "عثمان بن عفان",
+          "نُفَسَاوَيْن": "نفساوين",
+          "أُمَّهَاتِ وَلَد": "امہات ولد",
+          "مَوْلاتُهُ": "مولتہ",
+          "زَوَّجَ": "زوّج"
+        }
+      },
+      "tr": {
+        "summary": "İmam Rıza (a.s.), Horasan Farslarının Ehl-i Beyt ile olan soy bağını, Horasan kralı Yezdecerd'in kızlarının İmam Hasan ve İmam Hüseyin (a.s.) ile evlendirilmesi olayını anlatarak açıklar. Anlatı, İmam Ali bin Hüseyin (a.s.)'ın süt annesine ilişkin spesifik bir tarihi detayı vurgular; halk arasında onun biyolojik annesi olduğu yönündeki yanlış kanının ve bu nedenle onunla evliliği hakkındaki söylentilerin kaynağını aydınlatır.",
+        "seo_question": "İmamlar ile Horasan halkı arasındaki akrabalığın tarihsel temeli nedir?",
+        "key_terms": {
+          "نَسَب": "Nesep / Soy",
+          "يَزْدَجَرْد": "Yezdecerd (Fars Kralı)",
+          "أَعَاجِم": "Acem / Arap olmayanlar",
+          "عُثْمَانُ بْنُ عَفَّان": "Osman bin Affan",
+          "نُفَسَاوَيْن": "Doğum yapan iki kadın",
+          "أُمَّهَاتِ وَلَد": "Anne (Ümmeled)",
+          "مَوْلاتُهُ": "Efendisi/Kadın patronu",
+          "زَوَّجَ": "Evlendirdi"
+        }
+      },
+      "fa": {
+        "summary": "امام رضا (ع) پیوند خونی میان اهل بیت و ایرانیان خراسان را با بازگو کردن اینکه دختران پادشاه یزدگرد به امام حسن و امام حسین (ع) ازدواج کردند، روشن می‌سازد. این روایت بر یک جزئیات تاریخی خاص درباره پرستار امام علی بن حسین (ع) تأکید دارد و سوءتفاهم عمومی که او مادر بیولوژیکی امام بود و بنابراین موضوع شایعاتی درباره ازدواج امام با او بود، را روشن می‌کند.",
+        "seo_question": "پایگاه تاریخی خویشاوندی میان ائمه و مردم خراسان چیست؟",
+        "key_terms": {
+          "نَسَب": "نسب",
+          "يَزْدَجَرْد": "یزدگرد",
+          "أَعَاجِم": "اعاجم",
+          "عُثْمَانُ بْنُ عَفَّان": "عثمان بن عفان",
+          "نُفَسَاوَيْن": "نفساویّن",
+          "أُمَّهَاتِ وَلَد": "امهات ولد",
+          "مَوْلاتُهُ": "مولاته",
+          "زَوَّجَ": "زوج"
+        }
+      },
+      "id": {
+        "summary": "Imam Al-Rida (a.s.) menjelaskan hubungan silsilah antara Ahl al-Bayt dan orang-orang Persia Khorasan dengan menceritakan bagaimana putri-putri Raja Yazdegerd dinikahkan dengan Imam Hasan dan Imam Husayn (a.s.). Narasi ini menyoroti detail sejarah tertentu mengenai ibu susuan Imam Ali ibn Husayn (a.s.), yang meluruskan kesalahpahaman umum bahwa ia adalah ibu kandungnya, sehingga menjadi subjek rumor mengenai pernikahannya dengannya.",
+        "seo_question": "Apa dasar historis untuk hubungan kekerabatan antara para Imam dan penduduk Khorasan?",
+        "key_terms": {
+          "نَسَب": "Kekerabatan / Garis keturunan",
+          "يَزْدَجَرْد": "Yazdegerd (Raja Persia)",
+          "أَعَاجِم": "Orang Persia / Non-Arab",
+          "عُثْمَانُ بْنُ عَفَّان": "Utsman bin Affan",
+          "نُفَسَاوَيْن": "Dua wanita dalam persalinan",
+          "أُمَّهَاتِ وَلَد": "Ibu-ibu anak (Umm Walad)",
+          "مَوْلاتُهُ": "Nyonya / pelindung perempuannya",
+          "زَوَّجَ": "Ia menikahi"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আল-রিদা (আ.) খুরাসানের পারস্যদের সাথে আহল আল-বাইতের বংশগত সম্পর্ক ব্যাখ্যা করেছেন, তিনি বর্ণনা করেছেন যে রাজা যাজদগার্ডের কন্যাগণকে ইমাম হাসান (আ.) এবং ইমাম হুসাইন (আ.)-এর সাথে বিবাহ দেওয়া হয়েছিল। এই বর্ণনায় ইমাম আলী ইবনে হুসাইন (আ.)-এর দাদী সম্পর্কে একটি নির্দিষ্ট ঐতিহাসিক তথ্য তুলে ধরা হয়েছে, যা জনপ্রিয় ভুল ধারণা দূর করে যে তিনি তার জৈবিক মা ছিলেন এবং তাই তার সাথে তার বিবাহের গুজবের বিষয় ছিল।",
+        "seo_question": "ইমামদের এবং খুরাসানের লোকদের মধ্যে পারস্পরিক সম্পর্কের ঐতিহাসিক ভিত্তি কী?",
+        "key_terms": {
+          "نَسَب": "বংশগত সম্পর্ক / বংশলতিকা",
+          "يَزْدَجَرْد": "যাজদগার্ড (পারস্যের রাজা)",
+          "أَعَاجِم": "পারস্যরা / আরব বহির্ভূতরা",
+          "عُثْمَانُ بْنُ عَفَّان": "উসমান ইবনে আফফান",
+          "نُفَسَاوَيْن": "প্রসবকালীন দুই নারী",
+          "أُمَّهَاتِ وَلَد": "সন্তানের মাতারা (উম্মুল ওয়ালিদ)",
+          "مَوْلاتُهُ": "তার মালিকানাধীন নারী / মহিলা পোষ্য",
+          "زَوَّجَ": "তিনি বিবাহ করেছিলেন"
+        }
+      },
+      "es": {
+        "summary": "El Imam Al-Rida (a.s.) aclara el vínculo genealógico entre la Ahl al-Bayt y los persas de Jorasán narrando cómo las hijas del rey Yazdegerd se casaron con el Imam Hasan y el Imam Husayn (a.s.). La narrativa destaca un detalle histórico específico sobre la nodriza del Imam Ali ibn Husayn (a.s.), aclarando el error público de que era su madre biológica y, por tanto, el tema de los rumores sobre su matrimonio con ella.",
+        "seo_question": "¿Cuál es la base histórica de la parentesco entre los Imames y la gente de Jorasán?",
+        "key_terms": {
+          "نَسَب": "Parentesco / Linaje",
+          "يَزْدَجَرْد": "Yazdegerd (Rey persa)",
+          "أَعَاجِم": "Persas / No árabes",
+          "عُثْمَانُ بْنُ عَفَّان": "Uthman ibn Affan",
+          "نُفَسَاوَيْن": "Dos mujeres en parto",
+          "أُمَّهَاتِ وَلَد": "Madres de hijos (Umm Walad)",
+          "مَوْلاتُهُ": "Su señora/patrona",
+          "زَوَّجَ": "Él se casó"
+        }
+      },
+      "fr": {
+        "summary": "L'Imam Al-Rida (a.s.) éclaire le lien généalogique entre les Ahl al-Bayt et les Persans du Khorasan en racontant comment les filles du roi Yazdegerd furent mariées à l'Imam Hasan et à l'Imam Husayn (a.s.). Le récit met en lumière un détail historique précis concernant la nourrice de l'Imam Ali ibn Husayn (a.s.), clarifiant le malentendu public selon lequel elle était sa mère biologique et donc le sujet de rumeurs concernant son mariage avec elle.",
+        "seo_question": "Quelle est la base historique de la parenté entre les Imams et les habitants du Khorasan ?",
+        "key_terms": {
+          "نَسَب": "Lignée / Ascendance",
+          "يَزْدَجَرْد": "Yazdegerd (roi perse)",
+          "أَعَاجِم": "Persans / Non-Arabes",
+          "عُثْمَانُ بْنُ عَفَّان": "Othman ibn Affan",
+          "نُفَسَاوَيْن": "Deux femmes en couches",
+          "أُمَّهَاتِ وَلَد": "Mères d'enfants (Oum Walad)",
+          "مَوْلاتُهُ": "Sa maîtresse / patronne",
+          "زَوَّجَ": "Il a marié"
+        }
+      },
+      "de": {
+        "summary": "Imam Al-Rida (a.s.) erläutert die genealogische Verbindung zwischen den Ahl al-Bayt und den Persern Chorasans, indem er die Geschichte erzählt, wie die Töchter des Königs Yazdegerd mit Imam Hasan und Imam Husayn (a.s.) verheiratet wurden. Die Erzählung hebt ein spezifisches historisches Detail bezüglich der Amme von Imam Ali ibn Husayn (a.s.) hervor und klärt das öffentliche Missverständnis, dass sie seine leibliche Mutter war, was zu Gerüchten über seine Heirat mit ihr führte.",
+        "seo_question": "Was ist die historische Grundlage für die Verwandtschaft zwischen den Imamen und den Bewohnern Chorasans?",
+        "key_terms": {
+          "نَسَب": "Abstammung / Linie",
+          "يَزْدَجَرْد": "Yazdegerd (persischer König)",
+          "أَعَاجِم": "Perser / Nicht-Araber",
+          "عُثْمَانُ بْنُ عَفَّان": "Uthman ibn Affan",
+          "نُفَسَاوَيْن": "Zwei Frauen bei der Geburt",
+          "أُمَّهَاتِ وَلَد": "Mütter der Kinder (Umm Walad)",
+          "مَوْلاتُهُ": "Seine Herrin / weibliche Patronin",
+          "زَوَّجَ": "Er heiratete"
+        }
+      },
+      "ru": {
+        "summary": "Имам ар-Рида (да будет над ним мир) разъясняет генеалогическую связь между Ахль аль-Байт и персами Хорасана, повествуя о том, как дочери царя Йездигерда были выданы замуж за имама аль-Хасана и имама аль-Хусейна (да будет над ними мир). В повествовании подчеркивается конкретная историческая деталь, касающаяся кормилицы имама Али ибн аль-Хусейна (да будет над ним мир), что проясняет распространенное заблуждение: ее считали его биологической матерью, из-за чего ходили слухи о его браке с ней.",
+        "seo_question": "Какова историческая основа родства между имамами и жителями Хорасана?",
+        "key_terms": {
+          "نَسَب": "Родословная / Происхождение",
+          "يَزْدَجَرْد": "Йездигерд (персидский царь)",
+          "أَعَاجِم": "Персы / Неарабы",
+          "عُثْمَانُ بْنُ عَفَّان": "Усман ибн Аффан",
+          "نُفَسَاوَيْن": "Две женщины в родах",
+          "أُمَّهَاتِ وَلَد": "Матери детей (Умм аль-Валад)",
+          "مَوْلاتُهُ": "Его госпожа / покровительница",
+          "زَوَّجَ": "Он женил"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里·本·侯赛因（愿主福安之）通过讲述波斯国王耶兹德吉尔德的女儿们与伊玛目哈桑和伊玛目侯赛因（愿主福安之）联姻的故事，阐明了圣门弟子家族与呼罗珊波斯人之间的血缘联系。该叙述强调了关于伊玛目阿里·本·侯赛因（愿主福安之）乳母的一个具体历史细节，澄清了公众误以为她是其生母，从而引发关于他娶她为妻的谣言。",
+        "seo_question": "伊玛目与呼罗珊人民之间亲缘关系的历史依据是什么？",
+        "key_terms": {
+          "نَسَب": "世系",
+          "يَزْدَجَرْد": "耶兹德吉尔德",
+          "أَعَاجِم": "波斯人",
+          "عُثْمَانُ بْنُ عَفَّان": "奥斯曼·本·阿凡",
+          "نُفَسَاوَيْن": "产褥期的两名妇女",
+          "أُمَّهَاتِ وَلَد": "子女之母",
+          "مَوْلاتُهُ": "他的女主人",
+          "زَوَّجَ": "他娶了"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:61",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا الْحَاكِمُ أَبُو عَلِي الْحُسَيْنُ بْنُ أَحْمَدَ الْبَيْهَقِيُّ قَالَ حَدَّثَنِي مُحَمَّدُ بْنُ يَحْيَى الصُّوفِيُّ قَالَ: حَدَّثَنَا عَوْنُ بْنُ مُحَمَّدٍ الْكِنْدِيُّ قَالَ: حَدَّثَنَا سَهْلُ بْنُ الْقَاسِمِ النُّوشْجَانِيُّ قَالَ: قَالَ لِيَ الرِّضَا عَلَيْهِ السَّلَامُ بِخُرَاسَانَ إِنَّ بَيْنَنَا وَبَيْنَكُمْ نَسَبًا [نَسَبًا] قُلْتُ وَمَا هُوَ أَيُّهَا الْأَمِيرُ قَالَ إِنَّ عَبْدَ اللَّهِ بْنَ عَامِرِ بْنِ كَرِيزٍ لَمَّا افْتَتَحَ خُرَاسَانَ أَصَابَ ابْنَتَيْنِ لِيَزْدَجَرْدَ بْنِ شَهْرِيَارَ مَلِكِ الْأَعَاجِمِ فَبَعَثَ بِهِمَا إِلَى عُثْمَانَ بْنِ عَفَّانَ فَوَهَبَ إِحْدَاهُمَا لِلْحَسَنِ وَالْأُخْرَى لِلْحُسَيْنِ عَلَيْهِ السَّلَامُ فَمَاتَتَا عِنْدَهُمَا نُفَسَاوَيْنِ وَكَانَتْ صَاحِبَةُ الْحُسَيْنِ عَلَيْهِ السَّلَامُ نَفِسَتْ بِعَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ فَكَفَلَ عَلِيًّا بَعْضُ أُمَّهَاتِ وَلَدِ أَبِيهِ فَنَشَأَ وَهُوَ لَا يَعْرِفُ أُمًّا غَيْرَهَا ثُمَّ عَلِمَ أَنَّهَا مَوْلاتُهُ وَكَانَ النَّاسُ يُسَمُّونَهَا أُمَّهُ وَزَعَمُوا أَنَّهُ زَوَّجَ أُمَّهُ وَمَعَاذَ اللَّهِ إِنَّمَا زَوَّجَ هَذِهِ عَلَى مَا ذَكَرْنَاهُ وَكَانَ سَبَبَ ذَلِكَ أَنَّهُ وَاقَعَ بَعْضَ نِسَائِهِ ثُمَّ خَرَجَ يَغْتَسِلُ فَلَقِيَتْهُ أُمُّهُ هَذِهِ فَقَالَ لَهَا إِنْ كَانَ فِي نَفْسِكِ فِي هَذَا الْأَمْرِ شَيْءٌ فَاتَّقِي اللَّهَ وَأَعْلِمِينِي فَقَالَتْ نَعَمْ فَزَوَّجَهَا فَقَالَ نَاسٌ زَوَّجَ عَلِيُّ بْنُ الْحُسَيْنِ عَلَيْهِ السَّلَامُ أُمَّهُ قَالَ عَوْنٌ قَالَ لِي سَهْلُ بْنُ الْقَاسِمِ مَا بَقِيَ طَالِبِيٌّ عِنْدَنَا إِلَّا كَتَبَ عَنِّي هَذَا الْحَدِيثَ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا الْحَاكِمُ أَبُو عَلِي الْحُسَيْنُ بْنُ أَحْمَدَ الْبَيْهَقِيُّ قَالَ حَدَّثَنِي مُحَمَّدُ بْنُ يَحْيَى الصُّوفِيُّ قَالَ: حَدَّثَنَا عَوْنُ بْنُ مُحَمَّدٍ الْكِنْدِيُّ قَالَ: حَدَّثَنَا سَهْلُ بْنُ الْقَاسِمِ النُّوشْجَانِيُّ قَالَ: قَالَ لِيَ الرِّضَا عَلَيْهِ السَّلَامُ",
+      "matn_ar": "بِخُرَاسَانَ إِنَّ بَيْنَنَا وَبَيْنَكُمْ نَسَبًا [نَسَبًا] قُلْتُ وَمَا هُوَ أَيُّهَا الْأَمِيرُ قَالَ إِنَّ عَبْدَ اللَّهِ بْنَ عَامِرِ بْنِ كَرِيزٍ لَمَّا افْتَتَحَ خُرَاسَانَ أَصَابَ ابْنَتَيْنِ لِيَزْدَجَرْدَ بْنِ شَهْرِيَارَ مَلِكِ الْأَعَاجِمِ فَبَعَثَ بِهِمَا إِلَى عُثْمَانَ بْنِ عَفَّانَ فَوَهَبَ إِحْدَاهُمَا لِلْحَسَنِ وَالْأُخْرَى لِلْحُسَيْنِ عَلَيْهِ السَّلَامُ فَمَاتَتَا عِنْدَهُمَا نُفَسَاوَيْنِ وَكَانَتْ صَاحِبَةُ الْحُسَيْنِ عَلَيْهِ السَّلَامُ نَفِسَتْ بِعَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ فَكَفَلَ عَلِيًّا بَعْضُ أُمَّهَاتِ وَلَدِ أَبِيهِ فَنَشَأَ وَهُوَ لَا يَعْرِفُ أُمًّا غَيْرَهَا ثُمَّ عَلِمَ أَنَّهَا مَوْلاتُهُ وَكَانَ النَّاسُ يُسَمُّونَهَا أُمَّهُ وَزَعَمُوا أَنَّهُ زَوَّجَ أُمَّهُ وَمَعَاذَ اللَّهِ إِنَّمَا زَوَّجَ هَذِهِ عَلَى مَا ذَكَرْنَاهُ وَكَانَ سَبَبَ ذَلِكَ أَنَّهُ وَاقَعَ بَعْضَ نِسَائِهِ ثُمَّ خَرَجَ يَغْتَسِلُ فَلَقِيَتْهُ أُمُّهُ هَذِهِ فَقَالَ لَهَا إِنْ كَانَ فِي نَفْسِكِ فِي هَذَا الْأَمْرِ شَيْءٌ فَاتَّقِي اللَّهَ وَأَعْلِمِينِي فَقَالَتْ نَعَمْ فَزَوَّجَهَا فَقَالَ نَاسٌ زَوَّجَ عَلِيُّ بْنُ الْحُسَيْنِ عَلَيْهِ السَّلَامُ أُمَّهُ قَالَ عَوْنٌ قَالَ لِي سَهْلُ بْنُ الْقَاسِمِ مَا بَقِيَ طَالِبِيٌّ عِنْدَنَا إِلَّا كَتَبَ عَنِّي هَذَا الْحَدِيثَ عَنِ الرِّضَا عَلَيْهِ السَّلَامُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "الحاكم أبو علي الحسين بن أحمدالبيهقي",
+          "name_en": "al-Hakim Abu Ali al-Husayn b. Ahmad al-Bayhaqi",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "محمد بن يحيى الصولي قال: حدثنا عون بن محمد الكندي قال: حدثنا سهل بن القاسم النوشجاني قال:",
+          "name_en": "Muhammad b. Yahya al-Suli",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

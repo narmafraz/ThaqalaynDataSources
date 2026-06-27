@@ -1,0 +1,286 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:2:1:168",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[1] name_ar has 20 words (>14, بن-density 0.05 — likely a sentence fragment, not a name): 'الحُسَيْنِ بْنِ عَلِى\\u200fعَلَيْهِمَاالسَّلاَمُ أَنَّهُ قالَ: خَ'",
+    "chunks[1] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يا' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "economy",
+      "social_relations"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "poverty_wealth",
+      "trade_ethics",
+      "imams_biography",
+      "ahlulbayt_virtues",
+      "signs_of_end"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "وَبِهَذَا الإِسنادِ عَنِ الحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِمَا السَّلامُ أَنَّهُ قالَ:",
+        "translations": {
+          "en": "And with this chain, from Al-Husayn ibn Ali (peace be upon them both), that he said:",
+          "ur": "اور اسی سند کے ذریعے، الحسین بن علی (علیہما السلام) سے، کہ انہوں نے فرمایا:",
+          "tr": "Ve bu isnadla, el-Hüseyin ibn Ali'den (aleyhimâ's-selâm), şöyle dedi:",
+          "fa": "وبهذا الإسناد عن الحسين بن علي عليهما السلام أنه قال:",
+          "id": "Dan dengan sanad ini, dari Al-Husayn bin Ali (alamihima as), bahwa ia berkata:",
+          "bn": "এবং এই সনদে, আল-হুসাইন ইবনে আলী (আলাইহিমা আস-সালাম) থেকে, যে তিনি বলেছেন:",
+          "es": "Y con esta cadena, de Al-Husayn ibn Ali (que la paz sea sobre ambos), que él dijo:",
+          "fr": "Et par cette chaîne de transmission, d'après Al-Husayn ibn Ali (que la paix soit sur eux tous deux), qu'il a dit :",
+          "de": "Und mit dieser Überlieferungskette von al-Husain ibn Ali (Friede sei auf ihnen beiden), dass er sagte:",
+          "ru": "И с этой цепочкой передатчиков от аль-Хусайна ибн Али (да будет мир над ними обоими), что он сказал:",
+          "zh": "168 - 以此传述系统，从侯赛因·本·阿里（愿主祝之二人平安）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 10
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "خَطَبنا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلامُ فَقالَ: سَيَأْتِي عَلَى النَّاسِ زَمانٌ عَضُوضٌ يَعَضُّ المُوسِرُ عَلَى ما فِي يَدِهِ وَلَمْ يُؤْمَرْ بِذلِكَ، قالَ اللَّهُ تَعالى: (وَلا تَنْسَوُا الْفَضْلَ بَيْنَكُمْ إِنَّ اللَّهَ بِما تَعْمَلُونَ بَصِيرٌ) وَسَيَأْتِي زَمانٌ يُقَدِّمُ الأَشْرارَ يُنْسى فِيهِ الأَخْيارُ، وَيُبَايِعُ المُضْطَرَّ وَقَدْ نَهى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ عَنْ بَيْعِ المُضْطَرِّ وَعَنْ بَيْعِ الغَرَرِ، فَاتَّقُوا اللَّهَ يا أَيُّهَا النَّاسُ، وَأَصْلِحُوا ذاتَ بَيْنِكُمْ وَاحْفَظُونِي فِي أَهْلِي.",
+        "translations": {
+          "en": "The Commander of the Faithful (peace be upon him) delivered a sermon to us and said: 'A difficult time will come upon people, where the wealthy will greedily clutch what is in their hands, although they were not commanded to do so. God Almighty said: (And do not forget liberality between yourselves; indeed, God is Seeing of what you do). And a time will come when the wicked will be preferred, and the good will be forgotten, and the forced one will be sold, while the Prophet of God (peace be upon him and his family) had forbidden the sale of the forced one and the sale of uncertainty (gharar). So fear God, O people, and improve the relations among yourselves, and keep me in your care regarding my family.'",
+          "ur": "امیر المومنین (علیہ السلام) نے ہماری طرف خطبہ دیا اور فرمایا: لوگوں پر ایک مشکل وقت آئے گا، جس میں امیر لوگ بھوکھ سے اپنے ہاتھ میں جو کچھ ہے اسے مضبوطی سے تھام لیں گے، حالانکہ انہیں اس کا حکم نہیں دیا گیا تھا۔ اللہ تعالیٰ کا ارشاد ہے: (اور آپس میں احسان کو نہ بھولو، بے شک اللہ تمہارے اعمال کو دیکھ رہا ہے)۔ اور ایک وقت آئے گا جب بدکار لوگوں کو ترجیح دی جائے گی اور نیک لوگوں کو بھلا دیا جائے گا، اور مجبور شخص کو بیچ دیا جائے گا، جبکہ رسول اللہ (صلی اللہ علیہ و آلہ وسلم) نے مجبور شخص کی بیع اور غرر کی بیع کو منع فرمایا تھا۔ پس اللہ سے ڈرو، اے لوگو، اور آپس کے تعلقات کو بہتر بنائیں، اور میرے خاندان کے بارے میں مجھے آپ کی حفاظت میں رکھیں۔",
+          "tr": "Emirü'l-Müminin (aleyhi's-salâtü's-selâm) bize hutbe okudu ve şöyle dedi: 'İnsanlara, zenginlerin ellerindekileri açgözlüce kavuşacağı, oysa kendilerine bunun emredilmediği zor bir zaman gelecektir. Allah-u Teâlâ buyurdu: (Ve aranızda cömertlikten eksik etmeyin; şüphesiz Allah, yaptıklarınızı görendir.) Bir zaman gelecek ki, fena olanlar tercih edilecek, iyi olanlar unutulacak, zoraki satılan satılacak; oysa Allah'ın Peygamberi (aleyhi ve âlihi's-salâtü's-selâm) zoraki satılmayı ve belirsizlik (garar) satılmayı yasaklamıştı. Öyleyse, ey insanlar, Allah'tan korkun, aranızdaki ilişkileri düzeltin ve ailem konusunda beni size emanet edin.'",
+          "fa": "امیرالمؤمنین (علیه‌السلام) خطبه‌ای برای ما ایراد فرمود و فرمود: «زمانی سخت بر مردم فرا می‌رسد که ثروتمندان با طمع آنچه در دست دارند را می‌چسبند، در حالی که به آن‌ها دستور داده نشده بود. خداوند متعال فرموده است: (و سخاوت را میان خود فراموش نکنید؛ که خداوند به آنچه انجام می‌دهید بیناست). و زمانی فرا می‌رسد که بدکاران ترجیح داده شوند و نیکان فراموش گردند، و اسیر فروخته شود، در حالی که پیامبر خدا (صلی‌الله‌علیه‌ و آله‌وسلم) فروش اسیر و فروش غرر را نهی فرموده بود. پس از خدا بترسید ای مردم، و روابط خود را بهبود بخشید، و خانواده من را به امانت بگذارید.»",
+          "id": "Amirul Mukminin (shalatullahi ‘alaihi) menyampaikan khutbah kepada kami dan bersabda: \"Akan datang masa yang sulit atas manusia, di mana orang-orang kaya akan dengan rakus menggenggam apa yang ada di tangan mereka, meskipun mereka tidak diperintahkan untuk melakukannya. Allah Azza wa Jala berfirman: (Dan janganlah kamu melupakan kemurahan di antara kamu; sesungguhnya Allah Maha Melihat terhadap apa yang kamu kerjakan). Dan akan datang masa ketika orang-orang yang jahat akan diprioritaskan, dan orang-orang yang baik akan dilupakan, dan budak yang dipaksa dijual, padahal Rasulullah (shalatullahi wa sallama ‘alaihi wa alihi) telah melarang penjualan budak yang dipaksa dan penjualan barang yang tidak jelas (gharar). Maka bertakwalah kepada Allah, wahai manusia, dan perbaiklah hubungan di antara kalian, dan jagalah keluargaku dalam penjagaan kalian.\"",
+          "bn": "আমাদের আয়াতের নেতা (আলাইহিস সালাম) আমাদের উদ্দেশ্যে একটি খুতবা দান করেন এবং বলেন: 'মানুষের উপর একটি কঠিন সময় আসবে, যখন ধনীরা লোভে তাদের হাতের জিনিসগুলো জোর করে ধরে রাখবে, যদিও তাদের এ করার জন্য নির্দেশ দেওয়া হয়নি। আল্লাহ তায়ালা বলেন: (এবং তোমরা পরস্পরের মধ্যে দানশীলতা ভুলো না, নিশ্চয়ই আল্লাহ তোমাদের কৃতকর্মের সাক্ষী)। আর একটি সময় আসবে যখন পাপীরা অগ্রাধিকার পাবে, এবং ভালো মানুষরা ভুলে যাবে, এবং বন্দিদের বিক্রি করা হবে, অথচ আল্লাহর রাসূল (আলাইহিস সালাম ও আলেহি আয়হি) বন্দিদের বিক্রি এবং অনিশ্চয়তার (গারার) বিক্রি নিষেধ করেছিলেন। তাই হে মানুষ, আল্লাহকে ভয় করো, এবং তোমাদের মধ্যে সম্পর্ক উন্নত করো, এবং আমার পরিবারের বিষয়ে আমাকে তোমাদের হেফাজতে রাখো।'",
+          "es": "El Comandante de los Creyentes (que la paz sea con él) pronunció una sermón ante nosotros y dijo: «Se acercará un tiempo difícil para la gente, en el que los ricos aferrarán codiciosamente lo que tienen en sus manos, aunque no se les haya ordenado hacerlo. Dios Todopoderoso dijo: (Y no olvidéis la generosidad entre vosotros; en verdad, Dios ve lo que hacéis). Y llegará un tiempo en que se preferirá a los malvados y se olvidará a los buenos, y se venderá al forzado, mientras que el Profeta de Dios (que la paz sea con él y con su familia) había prohibido la venta del forzado y la venta de la incertidumbre (gharar). Temed a Dios, oh gente, y mejorad las relaciones entre vosotros, y cuidad de mi familia.»",
+          "fr": "Le Commandeur des Croyants (que la paix soit sur lui) nous a adressé un sermon et a dit : « dit : Une période difficile s’abattra sur les gens, où les riches saisiront avidement ce qui est entre leurs mains, bien qu’ils n’aient pas été commandés de le faire. Dieu Tout-Puissant a dit : (Et n’oubliez pas la générosité entre vous ; en vérité, Dieu voit ce que vous faites). Et viendra un temps où les méchants seront privilégiés, et les bons seront oubliés, et l’esclave forcé sera vendu, alors que le Prophète de Dieu (que la paix soit sur lui et sur sa famille) avait interdit la vente de l’esclave forcé et la vente de l’incertitude (gharar). Craignez donc Dieu, ô gens, et améliorez les relations entre vous, et ayez soin de ma famille à mon égard.»",
+          "de": "Der Kommandeur der Gläubiger (Friede sei mit ihm) hielt eine Predigt vor uns und sagte: »Eine schwere Zeit wird über die Menschen kommen, in der die Reichen gierig das, was in ihren Händen ist, an sich reißen werden, obwohl ihnen dies nicht befohlen wurde. Gott, der Allmächtige, sprach: (Und vergesst die Großzügigkeit untereinander nicht; wahrlich, Gott sieht, was ihr tut). Und es wird eine Zeit kommen, in der die Schlechten bevorzugt werden und die Guten vergessen werden, und der Gezwungene wird verkauft, während der Prophet Gottes (Friede sei mit ihm und seiner Familie) den Verkauf des Gezwungenen und den Verkauf der Ungewissheit (Gharar) verboten hatte. Fürchtet also Gott, o Menschen, und pflegt die Beziehungen untereinander und haltet meine Familie in eurer Obhut.«",
+          "ru": "Командир верующих (да будет мир с ним) обратился к нам с проповедью и сказал: «Наступит тяжкое время, когда богатые будут жадно сжимать то, что в их руках, хотя им не было повелено делать этого. Всевышний Аллах сказал: „И не забывайте щедрость друг перед другом; поистине, Аллах видит, что вы делаете“. И наступит время, когда злые будут предпочтены, а добрые забыты, и пленник будет продан, хотя Пророк Божий (мир ему и его семье) запретил продажу пленника и продажу неопределенности (гарар). Итак, бойтесь Аллаха, о люди, и улучшайте отношения между собой, и поручите мне заботу о моей семье».",
+          "zh": "信士的长官（愿主福安之）向我们宣讲并说：\"人们将经历一段艰难的时期，那时富有者会贪婪地紧抓手中的财物，尽管他们并未被命令这样做。真主至尊说：‘你们不要忘记彼此间的慷慨；的确，真主是监察你们行为的。’ 将有一段时间，邪恶者将被推崇，善良者将被遗忘，被迫者将被出售，而真主的先知（愿主福安之及其家属）曾禁止出售被迫者和出售不确定性（gharar）。因此，众人啊，你们当敬畏真主，改善彼此间的关系，并在我的家属方面关照我。\""
+        },
+        "word_start": 10,
+        "word_end": 76
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (a.s.) delivers a prophetic sermon in *Uyun Akhbar al-Rida* forecasting a era of social inversion where the wealthy hoard wealth unjustly and the wicked are elevated while the righteous are neglected. He specifically highlights the prevalence of *bay' al-mudtar* (forced sale) and *bay' al-gharar* (uncertainty in trade), urging the community to preserve kinship ties and honor his progeny as a safeguard against this moral decay.",
+        "seo_question": "What signs of the times did Imam Ali (a.s.) predict regarding wealth, social hierarchy, and trade?",
+        "key_terms": {
+          "عَضُوضٌ": "A difficult, harsh, or tight time/period",
+          "المُوسِرُ": "The wealthy person who has means",
+          "يَعَضُّ": "To clutch or bite greedily (metaphor for holding onto wealth)",
+          "الأَشْرار": "The wicked or evil people",
+          "الأَخْيار": "The good or virtuous people",
+          "المُضْطَرَّ": "The one who is forced or compelled (in a transaction)",
+          "الغَرَر": "Uncertainty or ambiguity in trade/contracts",
+          "ذاتَ بَيْنِكُمْ": "Your internal relations or affairs (among yourselves)"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) نے عین الاخبار الرضا میں ایک نبوی خطبہ دیا جس میں معاشرتی الٹ پلٹ کے دور کا پیش گوئی کی گئی جہاں امیر بے جا طور پر دولت جمع کرتے ہیں اور بدکار لوگ بلند مرتبہ حاصل کرتے ہیں جبکہ نیک لوگ نظر انداز کیے جاتے ہیں۔ وہ خاص طور پر مجبوری کی بیع (بیع المضطر) اور تجارت میں عدم یقین (بیع الغرر) کی عام ہونے کی نشاندہی کرتے ہیں اور اس اخلاقی زوال سے بچاؤ کے لیے رشتہ داری کے تعلق کو برقرار رکھنے اور اس کی اولاد کا احترام کرنے کی ترغیب دیتے ہیں۔",
+        "seo_question": "امام علی (علیہ السلام) نے دولت، معاشرتی ترتیب اور تجارت کے حوالے سے وقت کی کن علامات کی پیش گوئی کی؟",
+        "key_terms": {
+          "عَضُوضٌ": "مشقت اور تنگی کا دور",
+          "المُوسِرُ": "مالدار شخص",
+          "يَعَضُّ": "لالچ سے پکڑنا یا کاٹنا (دولت کو تھامے رکھنے کی استعارہ)",
+          "الأَشْرار": "بدکار یا شریر لوگ",
+          "الأَخْيار": "نیک یا صالح لوگ",
+          "المُضْطَرَّ": "وہ شخص جو مجبور یا اکسیرا ہو (تجارت میں)",
+          "الغَرَر": "تجارت یا معاہدوں میں عدم یقین یا ابہام",
+          "ذاتَ بَيْنِكُمْ": "آپس کے رشتے یا معاملات"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (a.s.), *Uyun Akhbar al-Rida* adlı eserde, zenginlerin serveti haksız yere biriktirdiği, kötü insanların yükseldiği ve salihlerin ihmal edildiği bir sosyal tersliğin çağını öngören peygamberimsi bir hutbe vermiştir. Özellikle *bay' al-mudtar* (zorunlu satış) ve *bay' al-gharar* (ticarette belirsizlik) yaygınlığına dikkat çekerek, bu ahlaki çöküşe karşı akrabalık bağlarını korumayı ve soyunu onurlandırmayı topluluğa tavsiye etmiştir.",
+        "seo_question": "İmam Ali (a.s.), servet, sosyal hiyerarşi ve ticaret konusunda zamanın işaretleri olarak neyi öngörmüştür?",
+        "key_terms": {
+          "عَضُوضٌ": "Zor, sert veya sıkı bir zaman/dönem",
+          "المُوسِرُ": "Elinde imkânı olan zengin kimse",
+          "يَعَضُّ": "Hırsla kavramak veya ısırmak (serveti elinde tutmak mecazı)",
+          "الأَشْرار": "Kötü veya fena insanlar",
+          "الأَخْيار": "İyi veya erdemli insanlar",
+          "المُضْطَرَّ": "Bir işlemde zorlanan veya mecbur bırakılan kimse",
+          "الغَرَر": "Ticaret/akidelerde belirsizlik veya muğlaklık",
+          "ذاتَ بَيْنِكُمْ": "İçerideki ilişkileriniz veya işleriniz (aranızda)"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (ع) در *عیون اخبار الرضا* خطبه‌ای نبوی ایراد می‌کند که دوران وارونگی اجتماعی را پیش‌بینی می‌کند؛ زمانی که ثروتمندان به‌طور ناعادلانه ثروت را انباشته و بدکاران برتری می‌یابند در حالی که نیکان نادیده گرفته می‌شوند. او به‌طور خاص بر رواج *بیع مضطر* (فروش اجباری) و *بیع غرر* (عدم قطعیت در تجارت) تأکید کرده و از جامعه می‌خواهد با حفظ پیوندهای خویشاوندی و گرامی داشتن نسل خود، در برابر این زوال اخلاقی محافظت کنند.",
+        "seo_question": "امام علی (ع) چه نشانه‌هایی از تحولات زمانه را درباره ثروت، سلسله‌مراتب اجتماعی و تجارت پیش‌بینی کرد؟",
+        "key_terms": {
+          "عَضُوضٌ": "دوره‌ای سخت، خشن یا تنگ",
+          "المُوسِرُ": "ثروتمندی که دارای وسع است",
+          "يَعَضُّ": "چنگ زدن یا گاز گرفتن به طمع (استعاره از نگه داشتن ثروت)",
+          "الأَشْرار": "بدکاران یا افراد شرور",
+          "الأَخْيار": "خیران یا افراد نیکوکار",
+          "المُضْطَرَّ": "کسی که مجبور یا اکراه شده است (در معامله)",
+          "الغَرَر": "عدم قطعیت یا ابهام در تجارت/قراردادها",
+          "ذاتَ بَيْنِكُمْ": "روابط یا امور درونی شما (در میان خودتان)"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (a.s.) menyampaikan khutbah nubuat dalam *Uyun Akhbar al-Rida* yang meramalkan era inversi sosial di mana orang kaya menimbun kekayaan secara tidak adil dan orang fasik diangkat sementara orang saleh diabaikan. Ia secara khusus menyoroti maraknya *bay' al-mudtar* (jual paksa) dan *bay' al-gharar* (ketidakpastian dalam perdagangan), mendesak komunitas untuk menjaga silaturahmi dan menghormati keturunannya sebagai perlindungan terhadap kemunduran moral ini.",
+        "seo_question": "Apa tanda-tanda zaman yang diramalkan Imam Ali (a.s.) mengenai kekayaan, hierarki sosial, dan perdagangan?",
+        "key_terms": {
+          "عَضُوضٌ": "Masa atau periode yang sulit, keras, atau sempit",
+          "المُوسِرُ": "Orang kaya yang memiliki kemampuan",
+          "يَعَضُّ": "Menggenggam atau menggigit dengan rakus (metafora untuk menahan kekayaan)",
+          "الأَشْرار": "Orang-orang fasik atau jahat",
+          "الأَخْيار": "Orang-orang baik atau saleh",
+          "المُضْطَرَّ": "Orang yang dipaksa atau terdesak (dalam transaksi)",
+          "الغَرَر": "Ketidakpastian atau ambiguitas dalam perdagangan/kontrak",
+          "ذاتَ بَيْنِكُمْ": "Hubungan atau urusan internal di antara kalian"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) উয়ুনুল আখবার আল-রিদা-তে একটি ভবিষ্যদ্বাণীমূলক খুতবা দেন, যেখানে তিনি একটি সামাজিক বিপর্যয়ের যুগের কথা ভবিষ্যদ্বাণী করেন, যেখানে ধনীরা অবিচারভাবে সম্পদ জমা করে রাখে এবং পাপীরা উচ্চপদে উন্নীত হয় যখন পুণ্যবানরা অবহেলিত হয়। তিনি বিশেষভাবে বাই আল-মুদ্তার (জোরপূর্বক বিক্রয়) এবং বাই আল-ঘারার (বাণিজ্যে অনিশ্চয়তা) প্রচলনের দিকে ইঙ্গিত করেন, এবং এই নৈতিক অবক্ষয় থেকে রক্ষা পেতে সম্পর্ক বজায় রাখতে এবং তার বংশধরদের সম্মান করতে সম্প্রদায়কে আহ্বান জানান।",
+        "seo_question": "সম্পদ, সামাজিক পদমর্যাদা এবং বাণিজ্য সম্পর্কে ইমাম আলী (আ.) কোন সময়ের লক্ষণগুলোর ভবিষ্যদ্বাণী করেছিলেন?",
+        "key_terms": {
+          "عَضُوضٌ": "একটি কঠিন, তীব্র বা সংকীর্ণ সময়/যুগ",
+          "المُوسِرُ": "যার কাছে সম্পদ ও সুযোগ আছে এমন ধনী ব্যক্তি",
+          "يَعَضُّ": "লালসাভরে জড়িয়ে ধরা বা কামড়ে ধরা (সম্পদ ধরে রাখার রূপক)",
+          "الأَشْرار": "পাপী বা খারাপ লোকেরা",
+          "الأَخْيار": "ভালো বা পুণ্যবান লোকেরা",
+          "المُضْطَرَّ": "যাকে জোরপূর্বক বাধ্য করা হয়েছে (একটি লেনদেনে)",
+          "الغَرَر": "বাণিজ্য/চুক্তিতে অনিশ্চয়তা বা অস্পষ্টতা",
+          "ذاتَ بَيْنِكُمْ": "আপনাদের পারস্পরিক সম্পর্ক বা বিষয়াদি"
+        }
+      },
+      "es": {
+        "summary": "El Imam Ali (a.s.) pronuncia un sermón profético en *Uyun Akhbar al-Rida* que predice una era de inversión social donde los ricos acumulan riqueza injustamente y los malvados son elevados mientras los justos son negligidos. Destaca específicamente la prevalencia de la *bay' al-mudtar* (venta forzada) y la *bay' al-gharar* (incertidumbre en el comercio), exhortando a la comunidad a preservar los lazos de parentesco y honrar a su descendencia como salvaguarda contra esta decadencia moral.",
+        "seo_question": "¿Qué señales de los tiempos predijo el Imam Ali (a.s.) respecto a la riqueza, la jerarquía social y el comercio?",
+        "key_terms": {
+          "عَضُوضٌ": "Un tiempo o período difícil, severo o apretado",
+          "المُوسِرُ": "La persona rica que tiene medios",
+          "يَعَضُّ": "Aguantar o morder con avidez (metáfora para aferrarse a la riqueza)",
+          "الأَشْرار": "Las personas malas o malvadas",
+          "الأَخْيار": "Las personas buenas o virtuosas",
+          "المُضْطَرَّ": "Aquel que es forzado o compelido (en una transacción)",
+          "الغَرَر": "Incertidumbre o ambigüedad en el comercio o contratos",
+          "ذاتَ بَيْنِكُمْ": "Sus relaciones o asuntos internos (entre ustedes)"
+        }
+      },
+      "fr": {
+        "summary": "L'Imam Ali (a.s.) prononce un sermon prophétique dans *Uyun Akhbar al-Rida* prédisant une ère d'inversion sociale où les riches accumulent injustement leurs richesses et les méchants sont élevés tandis que les vertueux sont négligés. Il met spécifiquement en avant la prévalence de la *bay' al-mudtar* (vente forcée) et de la *bay' al-gharar* (incertitude dans le commerce), exhortant la communauté à préserver les liens de parenté et à honorer sa descendance comme rempart contre cette décadence morale.",
+        "seo_question": "Quels signes des temps l'Imam Ali (a.s.) a-t-il prédits concernant la richesse, la hiérarchie sociale et le commerce ?",
+        "key_terms": {
+          "عَضُوضٌ": "Une période difficile, rude ou serrée",
+          "المُوسِرُ": "La personne riche qui a les moyens",
+          "يَعَضُّ": "Serrer ou mordre avidement (métaphore pour garder sa richesse)",
+          "الأَشْرار": "Les gens méchants ou mauvais",
+          "الأَخْيار": "Les gens bons ou vertueux",
+          "المُضْطَرَّ": "Celui qui est forcé ou contraint (dans une transaction)",
+          "الغَرَر": "L'incertitude ou l'ambiguïté dans le commerce/contrats",
+          "ذاتَ بَيْنِكُمْ": "Vos relations ou affaires internes (entre vous)"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (a summary: ",
+        "seo_question": "Welche Zeichen der Zeit hat Imam Ali (a.s.) hinsichtlich Reichtum, sozialer Hierarchie und Handel vorhergesagt?",
+        "key_terms": {
+          "عَضُوضٌ": "Eine schwierige, harte oder enge Zeit/Periode",
+          "المُوسِرُ": "Der wohlhabende Mensch, der Mittel hat",
+          "يَعَضُّ": "Gierig umklammern oder beißen (Metapher für das Festhalten am Reichtum)",
+          "الأَشْرار": "Die Bösen oder Schlechten",
+          "الأَخْيار": "Die Guten oder Tugendhaften",
+          "المُضْطَرَّ": "Derjenige, der gezwungen oder gezwungen wird (in einer Transaktion)",
+          "الغَرَر": "Unsicherheit oder Zweideutigkeit im Handel/Verträgen",
+          "ذاتَ بَيْنِكُمْ": "Ihre inneren Beziehungen oder Angelegenheiten (untereinander)"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (а.с.) произносит пророческую проповедь в «Уюн аль-Ахбар ар-Рида», предсказывая эпоху социального переворота, когда богатые несправедливо накапливают богатство, а нечестивцы возвышаются, праведники же остаются в пренебрежении. Он особо выделяет распространение «бай аль-мудтар» (принудительная продажа) и «бай аль-гарар» (неопределенность в торговле), призывая общину сохранять узы родства и почитать его потомство как защиту от этого морального упадка.",
+        "seo_question": "Какие признаки времени предсказал Имам Али (а.с.) относительно богатства, социальной иерархии и торговли?",
+        "key_terms": {
+          "عَضُوضٌ": "трудное, суровое или стеснительное время/период",
+          "المُوسِرُ": "богатый человек, имеющий средства",
+          "يَعَضُّ": "схватывать или жадно кусать (метафора удержания богатства)",
+          "الأَشْرار": "нечестивые или злые люди",
+          "الأَخْيار": "добрые или добродетельные люди",
+          "المُضْطَرَّ": "тот, кто вынужден или принужден (в сделке)",
+          "الغَرَر": "неопределенность или двусмысленность в торговле/договорах",
+          "ذاتَ بَيْنِكُمْ": "ваши внутренние отношения или дела (между вами)"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主喜悦之）在《优素福·阿赫巴尔·阿尔·里达》中发表了一段先知般的演说，预言了一个社会颠倒的时代：富人非正义地囤积财富，恶人被抬高，而义人却被忽视。他特别强调了强制交易（bay' al-mudtar）和贸易中的不确定性（bay' al-gharar）的普遍存在，并敦促社区保持亲属关系，尊崇他的后裔，以此作为防止道德衰败的保障。",
+        "seo_question": "伊玛目阿里（愿主喜悦之）对财富、社会等级和贸易方面时代征兆有何预言？",
+        "key_terms": {
+          "عَضُوضٌ": "艰难、严酷或紧迫的时期",
+          "المُوسِرُ": "拥有资财的富人",
+          "يَعَضُّ": "贪婪地紧握或咬住（比喻紧紧抓住财富）",
+          "الأَشْرار": "邪恶之人",
+          "الأَخْيار": "善良或虔诚之人",
+          "المُضْطَرَّ": "在交易中被迫或受胁迫者",
+          "الغَرَر": "贸易或合同中的不确定性或模糊性",
+          "ذاتَ بَيْنِكُمْ": "你们内部的关系或事务"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:263",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:105",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:188",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَبِهَذَا الإِسنادِ عَنِ الحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِمَا السَّلامُ أَنَّهُ قالَ: خَطَبنا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلامُ فَقالَ: سَيَأْتِي عَلَى النَّاسِ زَمانٌ عَضُوضٌ يَعَضُّ المُوسِرُ عَلَى ما فِي يَدِهِ وَلَمْ يُؤْمَرْ بِذلِكَ، قالَ اللَّهُ تَعالى: (وَلا تَنْسَوُا الْفَضْلَ بَيْنَكُمْ إِنَّ اللَّهَ بِما تَعْمَلُونَ بَصِيرٌ) وَسَيَأْتِي زَمانٌ يُقَدِّمُ الأَشْرارَ يُنْسى فِيهِ الأَخْيارُ، وَيُبَايِعُ المُضْطَرَّ وَقَدْ نَهى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ عَنْ بَيْعِ المُضْطَرِّ وَعَنْ بَيْعِ الغَرَرِ، فَاتَّقُوا اللَّهَ يا أَيُّهَا النَّاسُ، وَأَصْلِحُوا ذاتَ بَيْنِكُمْ وَاحْفَظُونِي فِي أَهْلِي.",
+    "isnad_matn": {
+      "isnad_ar": "وَبِهَذَا الإِسنادِ عَنِ الحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِمَا السَّلامُ أَنَّهُ قالَ:",
+      "matn_ar": "خَطَبنا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلامُ فَقالَ: سَيَأْتِي عَلَى النَّاسِ زَمانٌ عَضُوضٌ يَعَضُّ المُوسِرُ عَلَى ما فِي يَدِهِ وَلَمْ يُؤْمَرْ بِذلِكَ، قالَ اللَّهُ تَعالى: (وَلا تَنْسَوُا الْفَضْلَ بَيْنَكُمْ إِنَّ اللَّهَ بِما تَعْمَلُونَ بَصِيرٌ) وَسَيَأْتِي زَمانٌ يُقَدِّمُ الأَشْرارَ يُنْسى فِيهِ الأَخْيارُ، وَيُبَايِعُ المُضْطَرَّ وَقَدْ نَهى رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ عَنْ بَيْعِ المُضْطَرِّ وَعَنْ بَيْعِ الغَرَرِ، فَاتَّقُوا اللَّهَ يا أَيُّهَا النَّاسُ، وَأَصْلِحُوا ذاتَ بَيْنِكُمْ وَاحْفَظُونِي فِي أَهْلِي.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وَبِهذَا الإِسناد",
+          "name_en": "By this chain of transmission",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4521
+        },
+        {
+          "name_ar": "الحُسَيْنِ بْنِ عَلِى‏عَلَيْهِمَاالسَّلاَمُ أَنَّهُ قالَ: خَطَبنا أَمِيرَ الْمُؤْمِنين‏ عَلَيْهِ السَّلامُ فَقالَ: سَيَأتي عَلَى النَّاسِ زَمانٌ عَضُوضٌ يَعَضُّ المُوسِرُ عَلَى ما",
+          "name_en": "al-Husayn b. Ali",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "قَالَ اللَّهُ تَعَالَىٰ",
+        "phrase_en": "Allah the Exalted said",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

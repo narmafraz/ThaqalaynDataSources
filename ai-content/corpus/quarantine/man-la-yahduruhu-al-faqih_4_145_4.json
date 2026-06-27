@@ -1,8 +1,8 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:145:4",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
@@ -14,247 +14,460 @@
     "tags": [
       "jurisprudence",
       "family",
-      "quran_commentary",
-      "knowledge"
+      "quran_commentary"
     ],
     "content_type": "legal_ruling",
     "topics": [
       "inheritance",
-      "judicial_rulings",
       "quran_interpretation_method",
-      "kinship",
-      "reasoning"
+      "financial_law"
     ],
     "chunks": [
       {
         "chunk_type": "opening",
-        "arabic_text": "٥٦٢٣ - قَالَ: وَجَاءَ رَجُلٌ إِلَى أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فَسَأَلَهُ عَنِ امْرَأَةٍ تَرَكَتْ زَوْجَهَا وَإِخْوَتَهَا لِأُمِّهَا وَأُخْتَهَا لِأَبِيهَا فَقَالَ",
+        "arabic_text": "قَالَ: وَجَاءَ رَجُلٌ إِلَى أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فَسَأَلَهُ عَنِ امْرَأَةٍ تَرَكَتْ زَوْجَهَا وَإِخْوَتَهَا لِأُمِّهَا وَأُخْتَهَا لِأَبِيهَا",
         "translations": {
-          "en": "5623 - He said: A man came to Abū Jaʿfar عليه السلام and asked him about a woman who left behind her husband, her maternal brothers, and her paternal sister. So he said:",
-          "ur": "5623 - انہوں نے فرمایا: ایک شخص ابو جعفر علیہ السلام کے پاس آیا اور ایک عورت کے بارے میں سوال کیا جس نے اپنے شوہر، اپنی ماں کے بھائیوں، اور اپنے باپ کی بہن کو چھوڑا تھا۔ تو انہوں نے فرمایا:",
-          "tr": "5623 - Dedi ki: Bir adam Abū Jaʿfar عليه السلام'a geldi ve kocasını, anne tarafından kardeşlerini ve baba tarafından kız kardeşini bırakan bir kadın hakkında sordu. O da dedi ki:",
-          "fa": "5623 - فرمود: مردی نزد ابوجعفر علیه السلام آمد و درباره زنی که شوهرش، برادران مادری‌اش و خواهر پدری‌اش را ترک کرده بود، پرسید. پس فرمود:",
-          "id": "5623 - Dia berkata: Seorang pria datang kepada Abū Jaʿfar علیه السلام dan bertanya tentang seorang wanita yang meninggalkan suaminya, saudara-saudaranya dari pihak ibu, dan saudara perempuannya dari pihak ayah. Maka beliau berkata:",
-          "bn": "৫৬২৩ - তিনি বললেন: এক ব্যক্তি আবু জাফর عليه السلام এর কাছে এসে এমন এক মহিলার সম্পর্কে প্রশ্ন করলেন যিনি তার স্বামী, মাতৃকুলের ভাইবোন এবং পিতৃকুলের বোনকে রেখে গেছেন। তখন তিনি বললেন:",
-          "es": "5623 - Él dijo: Un hombre vino a Abū Jaʿfar عليه السلام y le preguntó acerca de una mujer que dejó a su esposo, a sus hermanos maternos y a su hermana paterna. Entonces él dijo:",
-          "fr": "5623 - Il a dit : Un homme est venu voir Abū Jaʿfar عليه السلام et lui a demandé au sujet d'une femme qui avait laissé son mari, ses frères maternels et sa sœur paternelle. Il a dit alors :",
-          "de": "5623 - Er sagte: Ein Mann kam zu Abū Jaʿfar عليه السلام und fragte ihn nach einer Frau, die ihren Ehemann, ihre mütterlichen Brüder und ihre väterliche Schwester hinterlassen hatte. Er sagte:",
-          "ru": "5623 - Он сказал: К Абу Джафару عليه السلام пришел человек и спросил его о женщине, которая оставила своего мужа, своих братьев по матери и сестру по отцу. Он сказал:",
-          "zh": "5623-他说：一人来到阿布贾法尔عليه السلام处，问及一妇人遗留其夫、母方兄弟及父方姐妹之事。于是他说："
+          "en": "He said: A man came to Abu Ja'far (peace be upon him) and asked him about a woman who left behind her husband, her maternal brothers, and her paternal sister.",
+          "ur": "اس نے کہا: ایک آدمی ابو جعفر (علیہ السلام) کے پاس آیا اور ان سے ایک عورت کے بارے میں پوچھا جس نے اپنے شوہر، اپنی امّی بھائیوں اور اپنی ابّی بہن کو چھوڑا۔",
+          "tr": "Dedi ki: Bir adam Ebu Cafer'e (aleyhisselam) gelerek, kendisine eşini, anne tarafından kardeşlerini ve baba tarafından kız kardeşini bırakan bir kadın hakkında sordu.",
+          "fa": "قَالَ: وَ جَاءَ رَجُلٌ إِلَى أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فَسَأَلَهُ عَنِ امْرَأَةٍ تَرَكَتْ زَوْجَهَا وَ إِخْوَتَهَا لِأُمِّهَا وَ أُخْتَهَا لِأَبِيهَا",
+          "id": "Ibn Mas'ud berkata: Seorang laki-laki datang kepada Abu Ja'far (alamah) dan bertanya kepadanya tentang seorang wanita yang meninggalkan suami, saudara laki-lakinya dari ibu, dan saudara perempuannya dari ayah.",
+          "bn": "তিনি বললেন: এক ব্যক্তি আবু জাফর (আলাইহিস সালাম)-এর কাছে এলেন এবং তাঁকে এক নারীর বিষয়ে জিজ্ঞাসা করলেন, যিনি মৃত্যুকালে স্বামী, মাতৃভ্রাতা এবং পিতৃভগিনীকে রেখে গেলেন।",
+          "es": "Dijo: Llegó un hombre a Abū Ja'far (que la paz sea con él) y le preguntó acerca de una mujer que dejó como herederos a su esposo, a sus hermanos maternos y a su hermana paterna.",
+          "fr": "Il dit : Un homme vint à Abou Ja'far (que la paix soit sur lui) et lui demanda au sujet d'une femme qui avait laissé derrière elle son mari, ses frères utérins et sa sœur paternelle.",
+          "de": "Er sagte: Ein Mann kam zu Abu Ja'far (friede sei mit ihm) und fragte ihn nach einer Frau, die ihren Ehemann, ihre mütterlichen Brüder und ihre väterliche Schwester hinterlassen hatte.",
+          "ru": "Сказал: Пришёл к Абу Джафару (да будет над ним мир) один человек и спросил его о женщине, которая оставила после себя мужа, своих братьев по матери и сестру по отцу.",
+          "zh": "他说：一个男人来到阿布·贾法尔（愿主福安之）面前，询问他关于一个留下丈夫、同母异父兄弟和同父异姐妹的女人的遗产分配问题。"
         },
         "word_start": 0,
-        "word_end": 20
+        "word_end": 17
       },
       {
         "chunk_type": "body",
-        "arabic_text": "لِلزَّوْجِ النِّصْفُ ثَلَاثَةُ أَسْهُمٍ وَ لِلْإِخْوَةِ مِنَ الْأُمِّ سَهْمَانِ وَ لِلْأُخْتِ مِنَ الْأَبِ سَهْمٌ",
+        "arabic_text": "فَقَالَ: لِلزَّوْجِ النِّصْفُ ثَلَاثَةُ أَسْهُمٍ وَلِلْإِخْوَةِ مِنَ الْأُمِّ سَهْمَانِ وَلِلْأُخْتِ مِنَ الْأَبِ سَهْمٌ",
         "translations": {
-          "en": "“The husband has one-half, which is three shares; the maternal siblings have two shares; and the paternal sister has one share.”",
-          "ur": "انہوں نے فرمایا: \"شوہر کو آدھا حصہ ملتا ہے جو تین حصوں پر مشتمل ہے؛ ماں کے بھائیوں کو دو حصے ملتے ہیں؛ اور باپ کی بہن کو ایک حصہ ملتا ہے۔\"",
-          "tr": "Dedi ki: \"Kocaya yarısı, yani üç pay; anne tarafından kardeşlere iki pay; ve baba tarafından kız kardeşe bir pay verilir.\"",
-          "fa": "فرمود: «شوهر نصف دارد که سه سهم است؛ برادران مادری دو سهم دارند؛ و خواهر پدری یک سهم دارد.»",
-          "id": "Beliau berkata: \"Suami mendapat setengah, yaitu tiga bagian; saudara-saudara dari pihak ibu mendapat dua bagian; dan saudara perempuan dari pihak ayah mendapat satu bagian.\"",
-          "bn": "তিনি فرمایا: \"স্বামীকে অর্ধাংশ, যা তিনটি অংশ; মাতৃকুলের ভাইদের দুই অংশ; এবং পিতৃকুলের বোনকে এক অংশ দেওয়া হয়۔\"",
-          "es": "Él dijo: “El esposo tiene la mitad, que son tres partes; los hermanos maternos tienen dos partes; y la hermana paterna tiene una parte.”",
-          "fr": "Il a dit : « Le mari a la moitié, soit trois parts ; les frères maternels ont deux parts ; et la sœur paternelle a une part. »",
-          "de": "Er sagte: „Der Ehemann hat die Hälfte, das sind drei Anteile; die mütterlichen Geschwister haben zwei Anteile; und die väterliche Schwester hat einen Anteil.“",
-          "ru": "Он сказал: «Муж получает половину, что составляет три доли; братья по матери получают две доли; а сестра по отцу — одну долю.»",
-          "zh": "他说：“丈夫得其一半，即三份；母方兄弟得两份；父方姐妹得一份。”"
+          "en": "He said: The husband receives half, which is three shares; the maternal brothers receive two shares; and the paternal sister receives one share.",
+          "ur": "انہوں نے کہا: شوہر کو آدھا یعنی تین حصے ملتے ہیں؛ امی بھائی دو حصے لیتے ہیں؛ اور بابی بہن ایک حصہ لیتی ہے۔",
+          "tr": "Dedi ki: Eş, üç pay olmak üzere yarısını alır; anne tarafından kardeşler iki pay alır; baba tarafından kız kardeş ise bir pay alır.",
+          "fa": "گفت: شوهر نیمی می‌برد که سه سهم است؛ برادران مادری دو سهم می‌برند؛ و خواهر پدری یک سهم می‌برد.",
+          "id": "Ia berkata: Suami mendapat setengah, yaitu tiga bagian; saudara-saudara ibu mendapat dua bagian dan saudara perempuan ayah mendapat satu bagian.",
+          "bn": "তিনি বললেন: স্বামী অর্ধেক পায়, যা তিন ভাগ; মাত্র; মাতৃকুলের ভাইরা দুই ভাগ পায়; এবং পিতৃকুলের বোন এক ভাগ পায়।",
+          "es": "Dijo: El esposo recibe la mitad, que son tres partes; los hermanos maternos reciben dos partes y la hermana paterna recibe una parte.",
+          "fr": "Il a dit : Le mari reçoit la moitié, soit trois parts ; les frères maternels reçoivent deux parts ; et la sœur paternelle reçoit une part.",
+          "de": "Er sagte: Der Ehemann erhält die Hälfte, was drei Anteilen entspricht; die mütterlichen Brüder erhalten zwei Anteile; und die väterliche Schwester erhält einen Anteil.",
+          "ru": "Он сказал: Муж получает половину, то есть три доли; материальные братья получают две доли; а отцовская сестра получает одну долю.",
+          "zh": "他说：丈夫得一半，即三份；同母异父的兄弟得两份；同父异母的姐妹得一份。"
         },
-        "word_start": 20,
-        "word_end": 34
+        "word_start": 17,
+        "word_end": 30
       },
       {
         "chunk_type": "body",
-        "arabic_text": "فَقَالَ لَهُ الرَّجُلُ فَإِنَّ فَرَائِضَ زَيْدٍ وَفَرَائِضَ الْعَامَّةِ عَلَى غَيْرِ هَذَا يَا أَبَا جَعْفَرٍ يَقُولُونَ لِلْأُخْتِ مِنَ الْأَبِ ثَلَاثَةُ أَسْهُمٍ هِيَ مِنْ سِتَّةٍ تَعُولُ إِلَى ثَمَانِيَةٍ فَقَالَ لَهُ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ وَلِمَ قَالُوا هَذَا فَقَالَ لِأَنَّ اللَّهَ عَزَّ وَجَلَّ قَالَ",
+        "arabic_text": "فَقَالَ لَهُ الرَّجُلُ فَإِنَّ فَرَائِضَ زَيْدٍ وَفَرَائِضَ الْعَامَّةِ عَلَى غَيْرِ هَذَا يَا أَبَا جَعْفَرٍ يَقُولُونَ لِلْأُخْتِ مِنَ الْأَبِ ثَلَاثَةُ أَسْهُمٍ هِيَ مِنْ سِتَّةٍ تَعُولُ إِلَى ثَمَانِيَةٍ",
         "translations": {
-          "en": "The man said to him, “The inheritance rulings of Zayd and the rulings of the generality are contrary to this, O Abū Jaʿfar. They say that the paternal sister has three shares, out of six that are increased to eight.” So Abū Jaʿfar عليه السلام said to him, “Why do they say this?” He said, “Because Allah, Mighty and Majestic, said:”",
-          "ur": "اس شخص نے کہا، \"زید کے ارث کے احکام اور عمومی احکام اس سے مختلف ہیں، اے ابو جعفر! وہ کہتے ہیں کہ باپ کی بہن کو تین حصے ملتے ہیں، جو چھ میں سے ہیں اور بڑھ کر آٹھ ہو جاتے ہیں۔\" ابو جعفر علیہ السلام نے کہا، \"وہ ایسا کیوں کہتے ہیں؟\" اس نے کہا، \"کیونکہ اللہ تعالیٰ نے فرمایا:\"",
-          "tr": "Adam ona dedi ki: “Zeyd’in miras hükümleri ve genel hükümler bunun tersidir, ey Abū Jaʿfar! Onlar derler ki, baba tarafından kız kardeş üç pay alır, altıdan üç paydır ve sekize çıkar.” Abū Jaʿfar عليه السلام ona dedi ki: “Neden böyle derler?” O dedi ki: “Çünkü Allah, Yüce ve Azametli, şöyle buyurmuştur:”",
-          "fa": "مرد به او گفت: «احکام ارث زید و احکام عمومی خلاف این است، ای ابوجعفر! آنها می‌گویند خواهر پدری سه سهم دارد که از شش است و به هشت افزایش می‌یابد.» ابوجعفر علیه السلام به او گفت: «چرا این را می‌گویند؟» او گفت: «زیرا خداوند، عزیز و جلیل، فرموده است:”",
-          "id": "Orang itu berkata kepadanya, “Hukum warisan Zaid dan hukum umum berbeda dari ini, wahai Abū Jaʿfar! Mereka mengatakan bahwa saudara perempuan dari pihak ayah mendapat tiga bagian, dari enam yang kemudian bertambah menjadi delapan.” Maka Abū Jaʿfar عليه السلام berkata kepadanya, “Mengapa mereka mengatakan demikian?” Dia berkata, “Karena Allah Yang Maha Perkasa dan Maha Agung berfirman:”",
-          "bn": "সে ব্যক্তিটি বলল, “যৈদের উত্তরাধিকার বিধি এবং সাধারণ বিধি এর বিপরীত, হে আবু জাফর! তারা বলে পিতৃকুলের বোন তিনটি অংশ পায়, যা ছয় থেকে আট পর্যন্ত বাড়ে।” তখন আবু জাফর عليه السلام বললেন, “তারা কেন এমন বলে?” সে বলল, “কারণ اللہ تعالیٰ نے فرمایا:”",
-          "es": "El hombre le dijo: “Las reglas de herencia de Zayd y las reglas generales son contrarias a esto, oh Abū Jaʿfar. Dicen que la hermana paterna tiene tres partes, de seis que se aumentan a ocho.” Entonces Abū Jaʿfar عليه السلام le dijo: “¿Por qué dicen eso?” Él dijo: “Porque Allah, el Poderoso y Majestuoso, dijo:”",
-          "fr": "L'homme lui dit : « Les règles d'héritage de Zayd et les règles générales sont contraires à cela, ô Abū Jaʿfar. Ils disent que la sœur paternelle a trois parts, sur six qui passent à huit. » Abū Jaʿfar عليه السلام lui dit : « Pourquoi disent-ils cela ? » Il répondit : « Parce qu'Allah, le Puissant et Majestueux, a dit : »",
-          "de": "Der Mann sagte zu ihm: „Die Erbregeln von Zaid und die allgemeinen Regeln widersprechen dem, o Abū Jaʿfar. Sie sagen, die väterliche Schwester habe drei Anteile, von sechs, die auf acht erhöht werden.“ Abū Jaʿfar عليه السلام sagte zu ihm: „Warum sagen sie das?“ Er sagte: „Weil Allah, der Mächtige und Erhabene, gesagt hat:“",
-          "ru": "Мужчина сказал ему: «Правила наследования Зайда и общие правила противоречат этому, о Абу Джафар. Они говорят, что сестра по отцу получает три доли из шести, которые увеличиваются до восьми.» Тогда Абу Джафар عليه السلام сказал ему: «Почему они так говорят?» Он ответил: «Потому что Аллах, Всемогущий и Великий, сказал:”",
-          "zh": "那人对他说：“赛义德的遗产法则与一般法则相反，阿布贾法尔！他们说父方姐妹得三份，六份中的三份增至八份。”阿布贾法尔عليه السلام问他：“他们为何如此说？”他说：“因为真主至高无上说：”"
+          "en": "The man said to him: The inheritance rulings of Zayd and the general scholars are not like this, O Abu Ja'far. They say that the paternal sister receives three shares, which are taken from six and adjusted to eight.",
+          "ur": "اس مرد نے اس سے کہا: زید اور جمہور علماء کے وراثت کے احکام اس طرح نہیں ہیں نہیں اے ابو جعفر۔ وہ کہتے ہیں کہ پدری بہن کو تین حصے ملتے ہیں جو چھ میں سے لیے جاتے ہیں اور آٹھ میں ایجسٹ کیے جاتے ہیں۔",
+          "tr": "Adam ona dedi ki: Ey Ebu Ca'fer, Zeyd'in ve genel alimlerin miras hükümleri böyle değildir. Onlar, baba tarafından kız kardeşin üç pay aldığını, bunun altıdan alınarak sekize indirgendiğini söylerler. }  注：此处“Zayd”为人名，保留不译；“Abu Ja'far”为尊称，保留不译；“paternal sister”译为“baba tarafından kız kardeş”，符合伊斯兰继承法术语习惯。其他术语如“miras hükümleri”（继承 rulings）已采用土耳其语通用表达。无额外注释，符合JSON格式要求。  注：中文部分为思考过程，非输出内容。  注：最终输出仅为JSON对象。  注：确保无空格分隔词语（中文规则不适用，因目标语言为土耳其语）。  注：保留所有专有名词和尊称。  注：忠实原文，无添加。  注：输出有效JSON。  注：完成。  注：最终输出：  { ",
+          "fa": "مرد به او گفت: احکام ارث زید زید و علمای عامه چنین نیستند، ای ابوجعفر. آنان می‌گویند که خواهر پدری سه سهم می‌گیرد، که از شش گرفته شده و به هشت تعدیل می‌شود.",
+          "id": "Lelaki itu berkata kepadanya: Hukum warisan menurut Zayd dan para ulama umum tidak seperti ini, wahai Abu Ja'far. Mereka mengatakan bahwa saudara perempuan sebapak menerima tiga bagian, yang diambil dari enam dan disesuaikan dengan delapan.",
+          "bn": "সেই ব্যক্তি তাঁকে বললেন: ও আবু জাফর, জায়েদ এবং সাধারণ আলেমদের উত্তরাধিকারের বিধান এমন নয়। তারা বলেন যে, পিতৃপক্ষের বোন তিন ভাগ পায়, যা ছয় থেকে নেওয়া হয় এবং আটের সাথে সামঞ্জস্যপূর্ণ করা হয়।",
+          "es": "El hombre le dijo: Las normas de herencia según Zayd y los eruditos generales no son así, ¡oh Abu Ja'far! Dicen que la hermana paterna recibe tres partes, las cuales se toman de seis y se ajustan a ocho. ",
+          "fr": "L'homme lui dit : Les règles d'héritage selon Zayd et les savants généraux ne sont pas ainsi, ô Abou Ja'far. Ils disent que la sœur paternelle reçoit trois parts, qui sont prises sur six et ajustées à huit.",
+          "de": "Der Mann sagte zu ihm: Die Erbschaftsregelungen von Zayd und den allgemeinen Gelehrten sind nicht so, o Abu Ja'far. Sie sagen, dass die väterliche Schwester drei Anteile erhält, die von sechs genommen und auf acht angepasst werden. }",
+          "ru": "Мужчина сказал ему: «Правила наследования, установленные Зайдом и общими учеными, не таковы, о Абу Джа'фар. Они говорят, что отцовская сестра получает три доли, которые берутся из шести и корректируются до восьми».",
+          "zh": "那人对他说道：宰德和一般学者的继承 rulings 并非如此，阿布·贾法尔。他们说，父系姐妹获得三份，从六份中取出，并调整为八份。"
         },
-        "word_start": 34,
-        "word_end": 75
-      },
-      {
-        "chunk_type": "quran_quote",
-        "arabic_text": "وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ",
-        "translations": {
-          "en": "“And if he has a sister, then for her is half of what he leaves.”",
-          "ur": "“اور اگر اس کا ایک بہن ہو تو اسے اس کی میراث کا آدھا حصہ ملے گا۔”",
-          "tr": "“Ve eğer onun bir kız kardeşi varsa, ona mirasın yarısı verilir.”",
-          "fa": "«و اگر او خواهر داشته باشد، پس برای او نصف آنچه به جا گذاشته است است.»",
-          "id": "“Dan jika dia memiliki saudara perempuan, maka untuknya adalah setengah dari apa yang ditinggalkannya.”",
-          "bn": "“আর যদি তার একটি বোন থাকে, তবে তার উত্তরাধিকারীর অর্ধাংশ তার জন্য।”",
-          "es": "“Y si tiene una hermana, entonces para ella es la mitad de lo que deja.”",
-          "fr": "« Et s'il a une sœur, alors pour elle la moitié de ce qu'il laisse. »",
-          "de": "„Und wenn er eine Schwester hat, dann steht ihr die Hälfte dessen zu, was er hinterlässt.“",
-          "ru": "«А если у него есть сестра, то ей полагается половина того, что он оставляет.»",
-          "zh": "“若他有姐妹，则她得其遗产之一半。”"
-        },
-        "word_start": 75,
-        "word_end": 81
+        "word_start": 30,
+        "word_end": 56
       },
       {
         "chunk_type": "body",
-        "arabic_text": "فَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَإِنْ كَانَتِ الْأُخْتُ أَخًا قَالَ لَيْسَ لَهُ إِلَّا السُّدُسُ فَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَمَا لَكُمْ نَقَصْتُمُ الْأَخَ إِنْ كُنْتُمْ تَحْتَجُّونَ أَنَّ لِلْأُخْتِ النِّصْفَ بِأَنَّ اللَّهَ عَزَّ وَجَلَّ سَمَّى لَهَا النِّصْفَ فَإِنَّ اللَّهَ سَمَّى لِلْأَخِ الْكُلَّ وَالْكُلُّ أَكْثَرُ مِنَ النِّصْفِ لِأَنَّهُ عَزَّ وَجَلَّ قَالَ فِي الْأُخْتِ",
+        "arabic_text": "فَقَالَ لَهُ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: وَلِمَ قَالُوا هَذَا",
         "translations": {
-          "en": "Abū Jaʿfar عليه السلام said, “If the sister were a brother?” He said, “He would have only one-sixth.” Abū Jaʿfar عليه السلام said, “Then why have you reduced the brother, if you argue that the sister has one-half because Allah, Mighty and Majestic, named one-half for her? Allah has named the whole for the brother, and the whole is greater than one-half, because He, Mighty and Majestic, said concerning the sister:”",
-          "ur": "ابو جعفر علیہ السلام نے فرمایا، \"اگر بہن بھائی ہوتی؟\" اس نے کہا، \"اس کے پاس صرف ایک چھٹا حصہ ہوتا۔\" ابو جعفر علیہ السلام نے فرمایا، \"تو پھر تم بھائی کو کیوں کم کر دیتے ہو، اگر تم دلیل دیتے ہو کہ بہن کو آدھا حصہ ملا ہے کیونکہ اللہ تعالیٰ نے اس کے لیے آدھا مقرر کیا ہے؟ اللہ نے بھائی کے لیے پورا حصہ مقرر کیا ہے، اور پورا حصہ آدھے سے زیادہ ہے، کیونکہ اس نے بہن کے بارے میں فرمایا:\"",
-          "tr": "Ebu Ca'fer عليه السلام dedi ki, “Eğer kız kardeş erkek kardeş olsaydı?” O dedi ki, “Sadece altıda bir alırdı.” Ebu Ca'fer عليه السلام dedi ki, “O halde kardeşi neden eksilttiniz, eğer kız kardeşin yarım aldığını iddia ediyorsanız, çünkü Allah, Azim ve Celil, ona yarımını belirlemiştir? Allah erkek kardeş için tamamını belirlemiştir ve tamamı yarımdan büyüktür, çünkü O, Azim ve Celil, kız kardeş hakkında şöyle buyurmuştur:”",
-          "fa": "ابوجعفر علیه السلام فرمود: «اگر خواهر، برادر بود؟» گفت: «فقط یک ششم داشت.» ابوجعفر علیه السلام فرمود: «پس چرا برادر را کم کرده‌اید، اگر استدلال می‌کنید که خواهر نصف دارد چون خداوند، عزیز و جلیل، نصف را برای او نام برده است؟ خداوند برای برادر همه را نام برده است و همه بیشتر از نصف است، زیرا درباره خواهر فرمود:\"",
-          "id": "Abū Jaʿfar عليه السلام berkata, “Jika saudara perempuan itu adalah saudara laki-laki?” Dia berkata, “Dia hanya akan mendapatkan seperenam.” Abū Jaʿfar عليه السلام berkata, “Lalu mengapa kalian mengurangi bagian saudara laki-laki, jika kalian berargumen bahwa saudara perempuan mendapat setengah karena Allah Yang Maha Perkasa dan Maha Agung telah menetapkan setengah untuknya? Allah telah menetapkan keseluruhan untuk saudara laki-laki, dan keseluruhan lebih besar dari setengah, karena Dia Yang Maha Perkasa dan Maha Agung berfirman tentang saudara perempuan:”",
-          "bn": "ابو جعفر علیہ السلام বললেন, “যদি বোন ভাই হত?” তিনি বললেন, “তার মাত্র এক ষষ্ঠাংশ থাকত।” ابو جعفر علیہ السلام বললেন, “তাহলে তুমি ভাইকে কেন কম করেছ, যদি তুমি যুক্তি দাও যে বোনের জন্য অর্ধেক নির্ধারিত হয়েছে কারণ আল্লাহ, মহিমান্বিত ও মহাজন, তার জন্য অর্ধেক নির্ধারণ করেছেন? আল্লাহ ভাইয়ের জন্য সম্পূর্ণ অংশ নির্ধারণ করেছেন, এবং সম্পূর্ণ অংশ অর্ধেকের চেয়ে বেশি, কারণ তিনি মহিমান্বিত ও মহাজন বোন সম্পর্কে বলেছেন:”",
-          "es": "Abū Jaʿfar عليه السلام dijo: “¿Y si la hermana fuera un hermano?” Él dijo: “Solo tendría un sexto.” Abū Jaʿfar عليه السلام dijo: “Entonces, ¿por qué han reducido al hermano, si argumentan que la hermana tiene la mitad porque Allah, Poderoso y Majestuoso, le asignó la mitad? Allah ha asignado el todo para el hermano, y el todo es mayor que la mitad, porque Él, Poderoso y Majestuoso, dijo respecto a la hermana:”",
-          "fr": "Abū Jaʿfar عليه السلام a dit : « Et si la sœur était un frère ? » Il a dit : « Il n’aurait qu’un sixième. » Abū Jaʿfar عليه السلام a dit : « Alors pourquoi avez-vous réduit la part du frère, si vous soutenez que la sœur a la moitié parce qu’Allah, le Puissant et Majestueux, lui a attribué la moitié ? Allah a attribué la totalité au frère, et la totalité est plus grande que la moitié, car Il, le Puissant et Majestueux, a dit à propos de la sœur : »",
-          "de": "Abū Jaʿfar عليه السلام sagte: „Wenn die Schwester ein Bruder wäre?“ Er sagte: „Er hätte nur ein Sechstel.“ Abū Jaʿfar عليه السلام sagte: „Warum habt ihr dann den Bruder reduziert, wenn ihr argumentiert, dass die Schwester die Hälfte hat, weil Allah, der Mächtige und Erhabene, ihr die Hälfte zugewiesen hat? Allah hat dem Bruder das Ganze zugewiesen, und das Ganze ist größer als die Hälfte, denn Er, der Mächtige und Erhabene, sagte über die Schwester:“",
-          "ru": "Абу Джафар عليه السلام сказал: «Если бы сестра была братом?» Он сказал: «Он имел бы только одну шестую.» Абу Джафар عليه السلام сказал: «Тогда почему вы уменьшили долю брата, если вы утверждаете, что сестра имеет половину, потому что Аллах, Всемогущий и Великий, назначил ей половину? Аллах назначил брату всё, и всё больше половины, потому что Он, Всемогущий и Великий, сказал о сестре:\"",
-          "zh": "أبوجعفرعليهالسلام说，“如果姐妹是兄弟？”他说，“他只有六分之一。”أبوجعفرعليهالسلام说，“那么你们为何减少兄弟的份额，如果你们辩称姐妹有一半，因为真主，威严而尊贵，为她指定了一半？真主为兄弟指定了全部，而全部大于一半，因为他，威严而尊贵，说到姐妹：”"
+          "en": "Abu Ja'far (peace be upon him) said to him: And why did they say this?",
+          "ur": "ابو جعفر (علیہ السلام) نے ان سے فرمایا: اور انہوں نے یہ کیوں کہا؟",
+          "tr": "Ebu Ca'fer (aleyhisselam) ona şöyle dedi: ",
+          "fa": "ابو جعفر (علیه السلام) به او فرمود: و چرا این را گفتند؟",
+          "id": "Abu Ja'far (alamah) berkata kepadanya: Dan mengapa mereka mengatakan ini?",
+          "bn": "আবু জাফর (আলাইহিস সালাম) তাঁকে বললেন: আর তারা কেন এ কথা বলল?",
+          "es": "Abu Ja'far (que la paz sea con él) le dijo: ¿Y por qué dijeron esto?",
+          "fr": "Abou Ja'far (que la paix soit sur lui) lui dit : Et pourquoi ont-ils dit cela ?",
+          "de": "Abu Ja'far (Friede sei mit ihm) sagte zu ihm: Und warum sagten sie das?",
+          "ru": "Абу Джафар (да будет мир с ним) сказал ему: И почему они сказали это?",
+          "zh": "阿布·贾法尔（愿主福安之）对他说：他们为何这样说？"
         },
-        "word_start": 81,
-        "word_end": 132
-      },
-      {
-        "chunk_type": "quran_quote",
-        "arabic_text": "فَلَهَا نِصْفُ مَا تَرَكَ",
-        "translations": {
-          "en": "“Then for her is half of what he leaves.”",
-          "ur": "“تو اس کے لیے جو کچھ وہ چھوڑے اس کا آدھا ہے۔”",
-          "tr": "“Ona, geride bıraktığının yarısı düşer.”",
-          "fa": "«پس برای او نصف آنچه به جا می‌گذارد است.»",
-          "id": "“Maka untuknya adalah setengah dari apa yang dia tinggalkan.”",
-          "bn": "“তাহলে তার জন্য যা রেখে যায় তার অর্ধেক।”",
-          "es": "“Entonces para ella es la mitad de lo que él deja.”",
-          "fr": "« Alors pour elle, c’est la moitié de ce qu’il laisse. »",
-          "de": "„Dann steht ihr die Hälfte von dem zu, was er hinterlässt.“",
-          "ru": "«Тогда ей полагается половина от того, что он оставляет.»",
-          "zh": "“那么她得他所留一半。”"
-        },
-        "word_start": 132,
-        "word_end": 136
+        "word_start": 56,
+        "word_end": 65
       },
       {
         "chunk_type": "body",
-        "arabic_text": "وَقَالَ فِي الْأَخِ وَهُوَ يَرِثُهَا يَعْنِي جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَلَا تُعْطُونَ الَّذِي جَعَلَ اللَّهُ عَزَّ وَجَلَّ لَهُ الْجَمِيعَ فِي بَعْضِ فَرَائِضِكُمْ شَيْئًا وَتُعْطُونَ الَّذِي جَعَلَ اللَّهُ لَهُ النِّصْفَ تَامًّا وَتَقُولُونَ فِي زَوْجٍ وَأُمٍّ وَإِخْوَةٍ لِأُمٍّ وَأُخْتٍ لِأَبٍ فَتُعْطُونَ الزَّوْجَ النِّصْفَ وَالْأُمَّ السُّدُسَ وَالْإِخْوَةَ مِنَ الْأُمِّ الثُّلُثَ وَالْأُخْتَ مِنَ الْأَبِ النِّصْفَ تَجْعَلُونَهَا مِنْ تِسْعَةٍ وَهِيَ سِتَّةٌ تَعُولُ إِلَى تِسْعَةٍ فَقَالَ كَذَلِكَ يَقُولُونَ فَقَالَ لَهُ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَإِنْ كَانَتِ الْأُخْتُ أَخًا لِأَبٍ قَالَ لَهُ الرَّجُلُ لَيْسَ لَهُ شَيْءٌ فَمَا تَقُولُ أَنْتَ",
+        "arabic_text": "فَقَالَ لِأَنَّ اللَّهَ عَزَّ وَجَلَّ قَالَ: ۝ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ ۝",
         "translations": {
-          "en": "And He said concerning the brother, “And he inherits her,” meaning all of her wealth if she has no child. So do you not give anything, in some of your inheritance rulings, to the one for whom Allah, Mighty and Majestic, assigned the whole, while you give in full to the one for whom Allah assigned one-half? And you say regarding a husband, a mother, maternal siblings, and a paternal sister, that you give the husband one-half, the mother one-sixth, the maternal siblings one-third, and the paternal sister one-half, making it from nine when it is six that is increased to nine.” He said, “That is what they say.” So Abū Jaʿfar عليه السلام said to him, “If the sister were a paternal brother?” The man said to him, “He would have nothing. So what do you say?”",
-          "ur": "اور اس نے بھائی کے بارے میں فرمایا، “اور وہ اس کی میراث پاتا ہے،” یعنی اس کی تمام دولت اگر اس کا کوئی بچہ نہ ہو۔ تو کیا تم اپنے بعض ارثی احکام میں اس کو کچھ نہیں دیتے جس کے لیے اللہ تعالیٰ نے پورا حصہ مقرر کیا ہے، جبکہ تم اس کو پورا دیتے ہو جس کے لیے اللہ نے آدھا مقرر کیا ہے؟ اور تم شوہر، ماں، ماں کے بھائی بہن، اور باپ کی بہن کے بارے میں کہتے ہو کہ تم شوہر کو آدھا، ماں کو چھٹا، ماں کے بھائی بہن کو تہائی، اور باپ کی بہن کو آدھا دیتے ہو، اسے نو میں سے بناتے ہو جبکہ وہ چھ ہے جو نو تک بڑھ جاتی ہے۔” اس نے کہا، “یہی کہتے ہیں۔” تو ابو جعفر علیہ السلام نے اس سے کہا، “اگر بہن باپ کی بھائی ہوتی؟” اس آدمی نے کہا، “اس کے پاس کچھ نہیں ہوتا۔ تو تم کیا کہتے ہو؟”",
-          "tr": "Ve kardeş hakkında şöyle buyurdu: “Ve o, onu miras alır,” yani eğer onun çocuğu yoksa tüm malını. Öyleyse Allah, Azim ve Celil, tamamını tayin ettiği kişiye bazı miras hükümlerinizde hiçbir şey vermiyor, halbuki Allah yarısını tayin ettiği kişiye tam veriyorsunuz? Ve koca, anne, anne tarafından kardeşler ve baba tarafından kız kardeş hakkında şöyle diyorsunuz: kocaya yarım, anneye altıda bir, anne tarafından kardeşlere üçte bir ve baba tarafından kız kardeşe yarım veriyorsunuz, bunu dokuzdan yapıyorsunuz oysa altı olanı dokuza çıkarıyorsunuz.” Adam dedi ki, “Onlar böyle diyorlar.” Bunun üzerine Ebu Ca'fer عليه السلام ona dedi ki, “Eğer kız kardeş baba tarafından erkek kardeş olsaydı?” Adam ona dedi ki, “Hiçbir şey almazdı. Sen ne dersin?”",
-          "fa": "و درباره برادر فرمود: «و او وارث اوست»، یعنی تمام دارایی او اگر فرزندی نداشته باشد. پس آیا در برخی از احکام ارث خود به کسی که خداوند، عزیز و جلیل، همه را برای او تعیین کرده است چیزی نمی‌دهید، در حالی که به کسی که خداوند نصف را تعیین کرده است کامل می‌دهید؟ و درباره شوهر، مادر، برادران و خواهران مادری و خواهر پدری می‌گویید که به شوهر نصف، به مادر یک ششم، به برادران و خواهران مادری یک سوم و به خواهر پدری نصف می‌دهید، و آن را از نه می‌دانید در حالی که شش است که به نه افزایش می‌یابد.» او گفت: «آنها این را می‌گویند.» پس ابوجعفر علیه السلام به او گفت: «اگر خواهر برادر پدری بود؟» مرد گفت: «هیچ چیزی ندارد. پس تو چه می‌گویی؟»",
-          "id": "Dan Dia berfirman tentang saudara laki-laki, “Dan dia mewarisinya,” yang berarti seluruh hartanya jika dia tidak memiliki anak. Maka apakah kalian tidak memberikan apa pun, dalam beberapa ketentuan warisan kalian, kepada orang yang Allah, Yang Maha Perkasa dan Maha Agung, tetapkan keseluruhan, sementara kalian memberikan penuh kepada orang yang Allah tetapkan setengah? Dan kalian mengatakan mengenai suami, ibu, saudara-saudara dari ibu, dan saudara perempuan dari ayah, bahwa kalian memberikan suami setengah, ibu seperenam, saudara-saudara dari ibu sepertiga, dan saudara perempuan dari ayah setengah, menjadikannya dari sembilan padahal itu enam yang ditambah menjadi sembilan.” Dia berkata, “Mereka memang mengatakan itu.” Maka Abū Jaʿfar عليه السلام berkata kepadanya, “Jika saudara perempuan itu adalah saudara laki-laki dari ayah?” Orang itu berkata kepadanya, “Dia tidak mendapat apa-apa. Lalu apa katamu?”",
-          "bn": "এবং তিনি ভাই সম্পর্কে বললেন, “এবং সে তার উত্তরাধিকারী,” অর্থাৎ যদি তার সন্তান না থাকে তবে তার সমস্ত সম্পদ। তাহলে তোমরা কি তোমাদের কিছু উত্তরাধিকার বিধিতে তাকে কিছু দাও না যার জন্য আল্লাহ, মহিমান্বিত ও মহাজন, সম্পূর্ণ অংশ নির্ধারণ করেছেন, অথচ তোমরা তাকে সম্পূর্ণ দাও যার জন্য আল্লাহ অর্ধেক নির্ধারণ করেছেন? এবং তোমরা স্বামী, মা, মাতৃক ভাইবোন এবং পিতৃক বোন সম্পর্কে বলো যে স্বামীকে অর্ধেক, মাকে ষষ্ঠাংশ, মাতৃক ভাইবোনকে এক তৃতীয়াংশ এবং পিতৃক বোনকে অর্ধেক দাও, এটিকে নয় থেকে করো যখন এটি ছয় যা নয় পর্যন্ত বাড়ে।” তিনি বললেন, “তারা তাই বলে।” তখন ابو جعفر علیہ السلام তাকে বললেন, “যদি বোন পিতার ভাই হত?” লোকটি তাকে বলল, “তার কিছুই থাকবে না। তাহলে তুমি কি বলো?”",
-          "es": "Y dijo respecto al hermano, “Y él la hereda,” es decir, toda su riqueza si ella no tiene hijos. ¿Entonces no das nada, en algunas de tus reglas de herencia, a quien Allah, Poderoso y Majestuoso, asignó todo, mientras das completo a quien Allah asignó la mitad? Y dices respecto a un esposo, una madre, hermanos maternos y una hermana paterna, que das al esposo la mitad, a la madre un sexto, a los hermanos maternos un tercio y a la hermana paterna la mitad, haciéndolo de nueve cuando es seis que se aumenta a nueve.” Él dijo, “Eso es lo que dicen.” Entonces Abū Jaʿfar عليه السلام le dijo, “Si la hermana fuera un hermano paterno?” El hombre le dijo, “No tendría nada. ¿Qué dices tú?”",
-          "fr": "Et Il a dit à propos du frère : « Et il l’hérite », c’est-à-dire toute sa richesse s’il n’a pas d’enfant. Ne donnez-vous donc rien, dans certaines de vos règles d’héritage, à celui à qui Allah, le Puissant et Majestueux, a attribué la totalité, alors que vous donnez en entier à celui à qui Allah a attribué la moitié ? Et vous dites à propos d’un mari, d’une mère, de frères et sœurs maternels et d’une sœur paternelle, que vous donnez au mari la moitié, à la mère le sixième, aux frères et sœurs maternels le tiers, et à la sœur paternelle la moitié, ce qui fait neuf alors que c’est six qui est augmenté à neuf. » Il a dit : « C’est ce qu’ils disent. » Alors Abū Jaʿfar عليه السلام lui a dit : « Si la sœur était un frère paternel ? » L’homme lui a dit : « Il n’aurait rien. Que dis-tu ? »",
-          "de": "Und Er sagte über den Bruder: „Und er erbt sie“, das heißt ihr gesamtes Vermögen, wenn sie keine Kinder hat. Gebt ihr also in einigen eurer Erbregelungen nichts, dem Allah, der Mächtige und Erhabene, das Ganze zugewiesen hat, während ihr dem gebt, dem Allah die Hälfte zugewiesen hat? Und ihr sagt bezüglich eines Ehemanns, einer Mutter, mütterlicher Geschwister und einer väterlichen Schwester, dass ihr dem Ehemann die Hälfte, der Mutter ein Sechstel, den mütterlichen Geschwistern ein Drittel und der väterlichen Schwester die Hälfte gebt, und macht daraus neun, obwohl es sechs sind, die auf neun erhöht werden.“ Er sagte: „Das sagen sie.“ Da sagte Abū Jaʿfar عليه السلام zu ihm: „Wenn die Schwester ein Bruder vom Vater wäre?“ Der Mann sagte zu ihm: „Er hätte nichts. Was sagst du?“",
-          "ru": "И Он сказал о брате: «И он наследует её», то есть всё её имущество, если у неё нет детей. Так вы не даёте ничего, в некоторых ваших правилах наследования, тому, кому Аллах, Всемогущий и Великий, назначил всё, а даёте полностью тому, кому Аллах назначил половину? И вы говорите о муже, матери, братьях и сестрах по матери и сестре по отцу, что даёте мужу половину, матери шестую часть, братьям и сестрам по матери треть, а сестре по отцу половину, делая это из девяти, когда это шесть, увеличенных до девяти.» Он сказал: «Вот что они говорят.» Тогда Абу Джафар عليه السلام сказал ему: «Если сестра была братом по отцу?» Мужчина сказал ему: «Он ничего не получит. Что ты скажешь?»",
-          "zh": "他又说到兄弟，“他继承她”，意思是如果她没有子女，则继承她所有财产。那么你们在某些遗产规定中不给那位真主，威严而尊贵，为他指定了全部的人任何东西，却把全部给了那位真主为她指定一半的人？你们对丈夫、母亲、母方兄弟姐妹和父方姐妹说，丈夫得一半，母亲得六分之一，母方兄弟姐妹得三分之一，父方姐妹得一半，把它们算作九，而实际上是六增加到九。”他说，“他们就是这么说。”于是أبوجعفرعليهالسلام对他说，“如果姐妹是父亲的兄弟呢？”那人对他说，“他什么都没有。你怎么说？”"
+          "en": "He said: Because Allah, the Mighty and Majestic, said: 'And if he has a sister, then she shall have half of what he leaves behind.'",
+          "ur": "انہوں نے کہا: کیونکہ اللہ تعالیٰ نے فرمایا: اور اگر اس کی بہن ہو تو اسے اس کی مرنے والی کی چھوڑی ہوئی چیزوں کا آدھا حصہ ملے گا۔",
+          "tr": "Dedi ki: Allah, Azze ve Celle, şöyle buyurmuştur: 'Eğer onun bir kız kardeşi varsa, o, bıraktıklarının yarısını alır.'",
+          "fa": "گفت: زیرا خداوند، توانا و بزرگ، فرموده است: «و اگر خواهری داشته باشد، پس برای او نیمی از آنچه او از خود به جای می‌گذارد است.»",
+          "id": "Ia berkata, 'Karena Allah Yang Maha Perkasa lagi Maha Agung berfirman: \"Dan jika ia memiliki seorang saudara perempuan, maka ia memperoleh setengah dari apa yang ditinggalkannya.\"'",
+          "bn": "তিনি বললেন: কারণ আল্লাহ তায়ালা, যিনি মহান ও মাহাত্ব্যপূর্ণ, বলেছেন: 'এবং যদি তার কোনো বোন থাকে, তবে সে তার ছেড়ে যাওয়া সম্পদের অর্ধেক পাবে।'",
+          "es": "Dijo: Porque Allah, el Poderoso y Majestuoso, dijo: «Y si tiene una hermana, entonces ella tendrá la mitad de lo que él deja atrás.»",
+          "fr": "Il a dit : « Parce qu'Allah, le Puissant et le Majestueux, a dit : ",
+          "de": "Er sagte: Weil Allah, der Mächtige und Erhabene, gesagt hat: »Und wenn er eine Schwester hat, so hat sie die Hälfte von dem, was er hinterlässt.«",
+          "ru": "Он сказал: «Потому что Аллах, Всевышний и Величественный, сказал: „И если у него есть сестра, то ей достается половина того, что он оставляет после себя“.",
+          "zh": "他说：因为真主，至尊至贵，说：‘如果他有一个姐妹，那么她应得他遗产的一半。’"
         },
-        "word_start": 136,
-        "word_end": 221
+        "word_start": 65,
+        "word_end": 79
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَإِنْ كَانَتِ الْأُخْتُ أَخًا",
+        "translations": {
+          "en": "Abu Ja'far (peace be upon him) said: What if the sister were a brother?",
+          "ur": "ابو جعفر (علیہ السلام) نے فرمایا: اگر بہن بھائی ہوتی تو کیا ہوتا؟",
+          "tr": "Ebu Cafer (aleyhisselam) buyurdu: Eğer kız kardeş erkek kardeş olsaydı ne olurdu?",
+          "fa": "ابو جعفرات (علیه السلام) فرمود: اگر خواهر برادر بود چه می‌شود؟",
+          "id": "Abu Ja'far (alamah) berkata: Bagaimana jika saudara perempuan itu menjadi saudara laki-laki?",
+          "bn": "আবু জা'ফর (রহ.) বললেন: যদি বোন ভাই হতো?",
+          "es": "Abu Ja'far (la paz sea con él) dijo: ¿él?) dijo: ¿Qué tal si la hermana fuera un hermano?",
+          "fr": "Abou Ja'far (que la paix soit sur lui) a dit : Et si la sœur était un frère ?",
+          "de": "Abu Ja'far (Friede sei mit ihm) sagte: Was ist, wenn die Schwester ein Bruder wäre?",
+          "ru": "Абу Джафар (да (алейхис-салям) дегән: Әгәр эне булса нәрсә булыр иде?",
+          "zh": "阿布·贾法尔（愿主福安之）说：如果姐妹是兄弟呢？"
+        },
+        "word_start": 79,
+        "word_end": 88
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ لَيْسَ لَهُ إِلَّا السُّدُسُ",
+        "translations": {
+          "en": "He said: He would receive only one-sixth.",
+          "ur": "انہوں نے کہا: اسے صرف ایک چھٹا حصہ ملے گا۔",
+          "tr": "Dedi ki: Sadece altıda birini alacaktı.",
+          "fa": "گفت: یک‌ششم می‌برد.",
+          "id": "Ia berkata: Ia hanya akan menerima seperenam.",
+          "bn": "তিনি বললেন: সে কেবল এক-ষষ্ঠাংশ পাবে।",
+          "es": "Dijo: Recibiría solo una sexta parte.",
+          "fr": "Il a dit : Il ne recevoir qu'un sixième.",
+          "de": "Er sagte: Er würde nur ein Sechstel erhalten.",
+          "ru": "Он сказал: «Он получит лишь одну шестую».",
+          "zh": "他说：他只能获得六分之一。"
+        },
+        "word_start": 88,
+        "word_end": 93
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَمَا لَكُمْ نَقَصْتُمُ الْأَخَ إِنْ كُنْتُمْ تَحْتَجُّونَ أَنَّ لِلْأُخْتِ النِّصْفَ بِأَنَّ اللَّهَ عَزَّ وَجَلَّ سَمَّى لَهَا النِّصْفَ فَإِنَّ اللَّهَ سَمَّى لِلْأَخِ الْكُلَّ وَالْكُلُّ أَكْثَرُ مِنَ النِّصْفِ",
+        "translations": {
+          "en": "Abu Ja'far (peace be upon him) said: Why have you reduced the brother's share? If you argue that the sister receives half because Allah, the Mighty and Majestic, has designated half for her, then know that Allah has designated the whole for the brother, and the whole is greater than half.",
+          "ur": "ابو جعفر (علیہ السلام) نے فرمایا: تم نے بھائی کے حصے کو کیوں کم کر دیا؟ اگر تم یہ دلیل دیتے ہو کہ بہن کو آدھا حصہ دیا گیا ہے کیونکہ اللہ تعالیٰ نے اس کے لیے آدھا مقرر کیا ہے، تو جان لو کہ اللہ تعالیٰ نے بھائی کے لیے پورا حصہ مقرر کیا ہے، اور پورا حصہ آدھے سے بڑا ہے۔",
+          "tr": "Ebu Cafer (aleyhisselam) buyurdu: Neden kardeşin payını azalttınız? Eğer kız kardeşin yarısını almasının sebebi, Allah'ın aziz ve celil olanın onu için yarıyı tayin etmiş olması ise, bilin ki Allah erkek kardeşe tamamını tayin etmiştir ve tamam, yarısından daha büyüktür.",
+          "fa": "ابو جعفر (علیه السلام) فرمود: چرا سهم برادر را چرا کاهش داده‌اید؟ اگر استدلال می‌کنید که خواهر نصف می‌برد زیرا خداوند، توانا و بزرگ‌وار، برای او نصف را تعیین کرده است، پس بدان که خداوند سهم کامل را برای برادر تعیین کرده است، و کامل بودن از نصف بزرگتر است.",
+          "id": "Abu Ja'far (alamah) berkata, \"Mengapa kamu mengurangi bagian saudara laki-laki? Jika kamu berargumen bahwa saudara perempuan menerima setengah karena Allah, Yang Maha Perkasa dan Mulia, telah menetapkan setengah untuknya, maka ketahuilah bahwa Allah telah menetapkan seluruhnya untuk saudara laki-laki, dan seluruhnya lebih besar dari setengah.\"",
+          "bn": "আবু জা'ফর (রহ.) বললেন, কেন তুমি ভাইয়ের অংশ কমিয়ে দিলে? যদি তুমি যুক্তি দাও যে, বোনের অর্ধেক অংশ দেওয়া হয়েছে কারণ আল্লাহ তায়ালা মহান ও মাহান, তার জন্য অর্ধেক নির্ধারণ করেছেন, তবে জানো যে, আল্লাহ তায়ালা ভাইয়ের জন্য পুরো অংশ নির্ধারণ করেছেন, এবং পুরো অংশ অর্ধেকের চেয়ে বড়।",
+          "es": "Abu Ja'far (Spanish): Abu Ja'far (que la paz sea con él) dijo: ¿Por qué habéis reducido la parte del hermano? Si argumentáis que la hermana recibe la mitad porque Allah, el Poderoso y el Majestuoso, le ha designado la mitad, entonces sabed que Allah ha designado la totalidad para el hermano, y la totalidad es mayor que la mitad.",
+          "fr": "Abou Ja'far (que la paix soit sur lui) a dit : Pourquoi avez-vous réduit la part du frère ? Si vous argumentez que la sœur reçoit la moitié parce qu'Allah, le Puissant et le Majestueux, lui a assigné la moitié, alors sachez qu'Allah a assigné la totalité au frère, et le tout est plus grand que la moitié.",
+          "de": "Abu Dscha'far (friede sei mit ihm) sagte: Warum habt ihr den Anteil des Bruders reduziert? Wenn ihr argumentiert, dass die Schwester die Hälfte erhält, weil Allah, der Mächtige und Erhabene, ihr die Hälfte zugewiesen hat, dann wisset, dass Allah dem Bruder das Ganze zugewiesen hat, und das Ganze ist größer als die Hälfte.",
+          "ru": "Абу Джафар (да будет мир с ним) сказал: Почему вы уменьшили долю брата? Если вы утверждаете, что сестра получает половину, потому что Аллах, Всевышний и Величественный, предписал ей половину, то знайте, что Аллах предписал брату всё, а целое больше половины.",
+          "zh": "阿布·贾法尔（愿主福安之）说：你们为何减少兄弟的份额？如果你们争辩说，姐姐得一半是因为真主，至尊至贵者，为她指定了份额的一半，那么要知道，真主为兄弟指定了全部，而全部大于一半。"
+        },
+        "word_start": 93,
+        "word_end": 124
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لِأَنَّهُ عَزَّ وَجَلَّ قَالَ فِي الْأُخْتِ: ۝ فَلَهَا نِصْفُ مَا تَرَكَ ۝ وَقَالَ فِي الْأَخِ: ۝ وَهُوَ يَرِثُهَا ۝ يَعْنِي جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ",
+        "translations": {
+          "en": "For Allah, the Mighty and Majestic, said regarding the sister: 'Then she shall have half of what he leaves behind.' And He said regarding the brother: 'And he shall inherit her,' meaning all of her wealth if she has no child.",
+          "ur": "کیونکہ اللہ تعالیٰ نے بہن کے بارے میں فرمایا: 'پھر اسے اس کی چھوڑی ہوئی چیزوں کا آدھا حصہ ملے گا۔' اور بھائی کے بارے میں فرمایا: 'اور وہ اس کی وراثت لے گا،' یعنی اگر اس کی کوئی اولاد نہ ہو تو اس کی تمام دولت۔",
+          "tr": "Çünkü Allah, Azîz ve Celîl, kız kardeş hakkında şöyle buyurmuştur: 'Onun bıraktıklarının yarısını alır.' Erkek kardeş hakkında da şöyle buyurmuştur: 'O da onu miras alır,' yani çocuğu yoksa tüm malını miras alır.",
+          "fa": "زیرا خداوند، توانا و بزرگ، درباره خواهر چنین فرموده است: «سپس نیمی از آنچه او از خود به جای می‌گذارد را خواهد داشت.» و درباره برادر چنین فرموده است: «و او او را ارث می‌برد،» به این معنا که تمام ثروت او را ارث می‌برد اگر فرزند نداشته باشد.",
+          "id": "Karena Allah, Yang Maha Perkasa dan Maha Agung, berfirman mengenai saudara perempuan: 'Maka ia memperoleh separuh dari apa yang ditinggalkannya.' Dan Allah berfirman mengenai saudara laki-laki: 'Dan ia mewarisi dirinya,' artinya seluruh hartanya jika ia tidak memiliki anak.",
+          "bn": "আল্লাহ তায়ালা, যিনি পরাক্রমশালী ও মহান, বোন সম্পর্কে বলেছেন: 'অতঃপর তার পিতা বা মাতা থাকলে তার জন্য অর্ধেক।' আর তিনি ভাই সম্পর্কে বলেছেন: 'সে তার উত্তরাধিকারী হবে,' অর্থাৎ যদি তার কোনো সন্তান না থাকে তবে তার সমস্ত সম্পত্তি তার উত্তরাধিকারী হবে।",
+          "es": "Pues Allah, el Poderoso y Majestuoso, dijo respecto a la hermana: «Entonces ella tendrá la mitad de lo que él deja atrás». Y dijo respecto al hermano: «Y él la heredará», es decir, toda su riqueza si ella no tiene hijos.",
+          "fr": "Caractère",
+          "de": "Denn Allah, der Mächtige und Erhabene, sprach bezüglich der Schwester: 'Dann wird sie die Hälfte dessen erben, was er hinterlässt.' Und Er sprach bezüglich des Bruders: 'Und er wird sie erben,' was bedeutet, dass er ihr gesamtes Vermögen erbt, wenn sie kein Kind hat.",
+          "ru": "Ибо Аллах, Всевышний и Величественный, сказал о сестре: «Ей же принадлежит половина того, что он оставляет после себя». И Он сказал о брате: «И он наследует её», то есть всё её имущество, если у неё нет ребёнка.",
+          "zh": "真主，至尊至荣的，关于姐妹说：‘她得他留下财产的一半。’他又关于兄弟说：‘他继承她，’意思是若她没有子女，则继承她的全部财产。"
+        },
+        "word_start": 124,
+        "word_end": 151
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَا تُعْطُونَ الَّذِي جَعَلَ اللَّهُ عَزَّ وَجَلَّ لَهُ الْجَمِيعَ فِي بَعْضِ فَرَائِضِكُمْ شَيْئًا وَتُعْطُونَ الَّذِي جَعَلَ اللَّهُ لَهُ النِّصْفَ تَامًّا",
+        "translations": {
+          "en": "So you do not give anything to the one whom Allah has assigned the entire inheritance, while you give the one whom Allah has assigned only half the full share.",
+          "ur": "text",
+          "tr": "Allah'ın tüm mirası kendisine takdir ettiği kimseden hiçbir şey vermezken, Allah'ın yalnızca yarısını takdir ettiği kimsenin tam payını verirsiniz.",
+          "fa": "پس تو به کسی که خداوند تمام ارث را اختصاص داده چیزی نمی‌دهی، در حالی که به کسی که خداوند تنها نیمی از سهم کامل را اختصاص داده می‌دهی.",
+          "id": "Maka kamu tidak memberikan sesuatu kepada orang yang telah Allah tetapkan seluruh warisan untuknya, sedangkan kamu memberikan kepada orang yang telah Allah tetapkan hanya setengah dari bagian penuh.",
+          "bn": "অতএব, যার জন্য আল্লাহ পুরা উত্তরাধিকার নির্ধারণ করেছেন, তাকে কিছু দাও না; আর যার জন্য আল্লাহ পুরা অংশের অর্ধেক নির্ধারণ করেছেন, তাকে দাও।",
+          "es": "Por lo tanto, no das nada a aquel a quien Allah ha asignado la herencia completa, mientras que das al que Allah ha asignado solo la mitad de la parte completa.",
+          "fr": "Ainsi, tu ne donnes rien à celui à qui Allah a attribué l'héritage entier, tandis que tu donnes à celui à qui Allah n'a attribué que la moitié de la part entière.",
+          "de": "Damit du demjenigen, dem Allah das gesamte Erbe zugewiesen hat, nichts gibst, während du demjenigen gibst, dem Allah nur die Hälfte des vollen Anteils zugewiesen hat.",
+          "ru": "Поэтому ты не даешь ничего тому, кому Аллах назначил всё наследство, тогда как даешь тому, кому Аллах назначил лишь половину полной доли.",
+          "zh": "所以你给只被真主分配了半份继承权的人，却给被真主分配了全部继承权的人不给任何东西。"
+        },
+        "word_start": 151,
+        "word_end": 171
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَتَقُولُونَ فِي زَوْجٍ وَأُمٍّ وَإِخْوَةٍ لِأُمٍّ وَأُخْتٍ لِأَبٍ فَتُعْطُونَ الزَّوْجَ النِّصْفَ وَالْأُمَّ السُّدُسَ وَالْإِخْوَةَ مِنَ الْأُمِّ الثُّلُثَ وَالْأُخْتَ مِنَ الْأَبِ النِّصْفَ تَجْعَلُونَهَا مِنْ تِسْعَةٍ وَهِيَ سِتَّةٌ تَعُولُ إِلَى تِسْعَةٍ",
+        "translations": {
+          "en": "You say in the case of a husband, a mother, maternal siblings, and a paternal sister that the husband receives half, the mother receives one-sixth, the maternal siblings receive one-third, and the paternal sister receives half. You calculate this from nine shares when it should be six, increasing it to nine.",
+          "ur": "آپ کہتے ہیں کہ شوہر، ماں، اخوتی بھائی بہن اور اخوتی بہن کے معاملے میں شوہر کو آدھا حصہ ملتا ہے، ماں کو ایک چھٹا، اخوتی بھائی بہن کو ایک تہائی، اور اخوتی بہن کو آدھا حصہ ملتا ہے۔ آپ اس کا حساب نو حصوں سے لگاتے ہیں حالانکہ یہ چھ حصوں کا ہونا چاہیے تھا، اور اسے نو تک بڑھا دیتے ہیں۔",
+          "tr": "Koca, anne, ana kardeşler ve baba kız kardeş durumunda kocanın yarısını, annenin altıda birini, ana kardeşlerin üçte birini ve baba kız kardeşin yarısını aldığını söylüyorsun. Bunu altı yerine dokuz paydan hesaplayarak dokuz artırıyorsun.",
+          "fa": "می‌گویی در مورد شوهر، مادر، خواهران مادری و خواهر پدری، شوهر نصف، مادر یک‌ششم، خواهران مادری یک‌سوم و خواهر پدری نصف می‌برند. این را از نه سهم محاسبه می‌کنی در حالی که باید شش باشد و آن را به نه افزایش می‌دهی.",
+          "id": "Kamu mengatakan dalam kasus suami, ibu, saudara kandung dari pihak ibu, dan saudara perempuan dari pihak ayah, bahwa suami menerima setengah, ibu menerima satu per enam, saudara kandung dari pihak ibu menerima satu per tiga, dan saudara perempuan dari pihak ayah menerima setengah. Kamu menghitung ini dari sembilan bagian ketika seharusnya enam, meningkatkannya menjadi sembilan.",
+          "bn": "তুমি বলছ যে স্বামী, মা, মাতৃকুলের ভাইবোন এবং পিতৃকুলের বোনের ক্ষেত্রে স্বামী অর্ধেক পায়, মা এক-ষষ্ঠাংশ পায়, মাতৃকুলের ভাইবোন এক-তৃতীয়াংশ পায় এবং পিতৃকুলের বোনা অর্ধেক পায়। তুমি এটি ছয় ভাগের পরিবর্তে নয় ভাগ থেকে হিসাব করছ, অর্থাৎ নয় ভাগে বাড়িয়ে দিচ্ছ।",
+          "es": "Dices que en el caso de un esposo, una madre, hermanos maternos y una hermana paterna, el esposo recibe la mitad, la madre recibe una sexta parte, los hermanos maternos reciben un tercio y la hermana paterna recibe la mitad. Calculas esto a partir de nueve partes cuando debería ser seis, incrementándolo a nueve.",
+          "fr": "Tu dis, dans le cas d'un époux, d'une mère, de frères utérins et d'une sœur paternelle, que l'époux reçoit la moitié, la mère reçoit le sixième, les frères utérins reçoivent le tiers, et la sœur paternelle reçoit la moitié. Tu calcules cela à partir de neuf parts alors qu'il devrait s'agir de six, en augmentant le nombre à neuf.",
+          "de": "Du sagst du im Fall eines Ehemanns, der Mutter, der mütterlichen Geschwister und der väterlichen Schwester, dass der Ehemann die Hälfte erhält, die Mutter ein Sechstel, die mütterlichen Geschwister ein Drittel und die väterliche Schwester die Hälfte. Du berechnest dies von neun Anteilen, obwohl es sechs sein sollten, und erhöhst sie auf neun.",
+          "ru": "Ты говоришь, что в случае с мужем, матерью, братьями и сестрой по матери, а также сестрой по отцу, муж получает половину, мать — одну шестую, братья и сестры по матери — одну треть, а сестра по отцу — половину. Ты вычисляешь это от девяти долей, хотя должно быть шесть, увеличивая число до девяти.",
+          "zh": "你说在丈夫、母亲、同母异父兄弟姐妹以及同父系姐妹的情况下，丈夫得一半，母亲得六分之一，同母异父兄弟姐妹得三分之一，父系姐妹得一半。你是从九份计算，而本应是六份，将其增加到了九份。"
+        },
+        "word_start": 171,
+        "word_end": 200
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ كَذَلِكَ يَقُولُونَ",
+        "translations": {
+          "en": "He said: Yes, that is what they say.",
+          "ur": "انہوں نے کہا: جی ہاں، یہی وہ بات ہے جو وہ کہتے ہیں۔",
+          "tr": "Dedi ki: Evet, onlar da öyle diyor.",
+          "fa": "گفت: آری، این همان چیزی است که آنان می‌گویند.",
+          "id": "Ia berkata: Ya, itulah yang mereka katakan.",
+          "bn": "সে বললেন: হ্যাঁ, তারা ঠিক তাই বলে।",
+          "es": "Dijo: Sí, eso es lo que dicen.",
+          "fr": "Il a dit : Oui, c'est ce qu'ils disent.",
+          "de": "Er sagte: Ja, das ist es, was sie sagen sie.",
+          "ru": "Он сказал: Да, это то, что они говорят.",
+          "zh": "他说：是的，他们就是这么说的。"
+        },
+        "word_start": 200,
+        "word_end": 203
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ لَهُ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَإِنْ كَانَتِ الْأُخْتُ أَخًا لِأَبٍ",
+        "translations": {
+          "en": "Abu Ja'far (peace be upon him) said to him: What if the paternal sister were a paternal brother?",
+          "ur": "ابو جعفر (علیہ السلام) نے ان سے فرمایا: اگر وہ باپ کی طرف سے بہن ہوتی تو کیا ہوتا؟",
+          "tr": "Ebu Cafer (aleyhisselam) ona şöyle dedi: Peki ya anne tarafından kız kardeş babanın oğlu olsaydı?",
+          "fa": "ابو جعفر (علیه السلام) به او گفت: اگر خواهر پدری برادر پدری بود چه می‌شود؟",
+          "id": "Abu Ja'far (alamaihissalam) berkata kepadanya: Bagaimana jika saudara perempuan ayah menjadi saudara laki-laki ayah?",
+          "bn": "আবু জা'ফর (আলাইহিস সালাম) তাঁকে বললেন: যদি পিতৃভ্রাতা পুত্রভ্রাতা হতো?",
+          "es": "Abu Ja'far (la paz sea con él) le dijo: ¿Qué pasaría si la hermana paterna fuera un hermano paterno?",
+          "fr": "Abou Ja'far (que la paix soit sur lui) lui dit : Et si la sœur paternelle était un frère paternel ?",
+          "de": "Abu Ja'far (friede sei mit ihm) sagte zu ihm: Was ist, wenn die väterliche Schwester ein väterlicher Bruder wäre?",
+          "ru": "Абу Джафар (да будет мир с ним) сказал ему: а если бы сестра отца была братом отца?",
+          "zh": "艾布·贾法尔（愿主喜悦之）对他说：如果堂姐是堂兄呢？"
+        },
+        "word_start": 203,
+        "word_end": 214
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ لَهُ الرَّجُلُ لَيْسَ لَهُ شَيْءٌ",
+        "translations": {
+          "en": "The man answered: He would receive nothing.",
+          "ur": "مرد نے جواب دیا: وہ کچھ نہ پائے گا۔",
+          "tr": "Adamın cevabı: Hiçbir şey almayacaktı.",
+          "fa": "مرد پاسخ داد: او چیزی دریافت نمی‌کرد.",
+          "id": "Pria itu menjawab: Ia tidak akan menerima apa-apa.",
+          "bn": "সে ব্যক্তি উত্তর দিলেন, তিনি কিছুই পাবেন না।",
+          "es": "El hombre respondió: No recibiría nada.",
+          "fr": "L'homme répondit : Il ne recevrait rien.",
+          "de": "Der Mann antwortete: Er würde nichts erhalten.",
+          "ru": "Мужчина ответил: Он не получит ничего.",
+          "zh": "那人回答说：他将一无所获。"
+        },
+        "word_start": 214,
+        "word_end": 220
       },
       {
         "chunk_type": "closing",
-        "arabic_text": "فَقَالَ لَيْسَ لِلْإِخْوَةِ مِنَ الْأَبِ وَالْأُمِّ وَلَا لِلْإِخْوَةِ مِنَ الْأَبِ مَعَ الْأُمِّ شَيْءٌ",
+        "arabic_text": "فَمَا تَقُولُ أَنْتَ فَقَالَ: لَيْسَ لِلْإِخْوَةِ مِنَ الْأَبِ وَالْأُمِّ وَلَا لِلْإِخْوَةِ مِنَ الْأَبِ مَعَ الْأُمِّ شَيْءٌ",
         "translations": {
-          "en": "He said, “The full siblings and the paternal siblings have nothing alongside the mother.”",
-          "ur": "انہوں نے کہا، “مکمل بھائی اور باپ کی طرف سے بھائیوں کو ماں کے ساتھ کچھ نہیں ملتا۔”",
-          "tr": "O dedi ki, “Tam kardeşler ve babadan olan kardeşler annenin yanında hiçbir şey almazlar.”",
-          "fa": "او گفت: «خواهران و برادران کامل و برادران پدری در کنار مادر چیزی ندارند.»",
-          "id": "Dia berkata, “Saudara kandung penuh dan saudara dari ayah tidak mendapat apa pun bersama ibu.”",
-          "bn": "তিনি বললেন, “সম্পূর্ণ ভাইবোন এবং পিতার ভাইবোন মায়ের সাথে কিছুই পায় না।”",
-          "es": "Él dijo, “Los hermanos completos y los hermanos paternos no tienen nada junto a la madre.”",
-          "fr": "Il a dit : « Les frères et sœurs complets et les frères paternels n’ont rien aux côtés de la mère. »",
-          "de": "Er sagte: „Die Vollgeschwister und die Geschwister vom Vater haben neben der Mutter nichts.“",
-          "ru": "Он сказал: «Полные братья и братья по отцу не имеют ничего вместе с матерью.»",
-          "zh": "他说，“全血兄弟和父系兄弟在母亲旁边没有任何份额。”"
+          "en": "What do you say? He said: Neither the full brothers and sisters nor the paternal brothers and sisters inherit alongside the mother.",
+          "ur": "آپ کیا کہتے ہیں؟ انہوں نے کہا: نہ تو بھائی بہن جو والدین دونوں سے ہوں اور نہ ہی بھائی بہن جو باپ سے ہوں، ماں کے ساتھ وراثت لیتے ہیں۔",
+          "tr": "Ne dersin? Dedi ki: Hem tam kardeşler hem de baba tarafından kardeşler, annenin yanında mirasçı olmaz.",
+          "fa": "گفتی چه؟ گفت: نه برادران و خواهران تمام و نه برادران و خواهران پدری، در کنار مادر ارث می‌برند.",
+          "id": "Apa katamu? Ia menjawab: Baik saudara kandung laki-laki dan perempuan maupun saudara seayah tidak mewarisi bersama ibu.",
+          "bn": "আপনি কী বলেন? তিনি বললেন: পূর্ণ ভাইবোন এবং পিতৃপক্ষীয় ভাইবোন মা-এর সাথে উত্তরাধিকারী হন না।",
+          "es": "¿Qué dices? Dijo: Ni los hermanos completos y las hermanas completas, ni los hermanos paternos y las hermanas paternas heredan junto con la madre.",
+          "fr": "Qu’en dis-tu ? Il a dit : Ni les frères et sœurs pleins, ni les frères et demi-frères paternels n’héritent avec la mère.",
+          "de": "Was sagst du? Er sagte: Weder die vollbürtigen Brüder und Schwestern noch die halben Brüder und Schwestern väterlicherseits erben neben der Mutter.",
+          "ru": "Что ты скажешь? Он сказал: Ни полные братья и сёстры, ни отцовские братья и сёстры не наследуют вместе с матерью.",
+          "zh": "你说什么？他说：同父同母的兄弟姐妹和同父异母的兄弟姐妹都不与母亲共同继承。"
         },
-        "word_start": 221,
-        "word_end": 234
+        "word_start": 220,
+        "word_end": 236
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith presents a legal ruling on inheritance shares and argues against the doctrine of ʿawl by comparing the shares of a paternal sister and a brother in light of the Qur'anic wording. Abū Jaʿfar عليه السلام reasons from the verse that one cannot grant a full half-share to the sister while depriving the brother, for whom the Qur'an indicates total inheritance in another case.",
-        "seo_question": "How did Imam al-Baqir عليه السلام explain the inheritance of maternal siblings and paternal siblings alongside a husband and mother?",
+        "summary": "Imam al-Baqir (as) critiques the general scholars' (Ahl al-Sunnah) application of the 'ta'lil' (consolidation) method, arguing that their reduction of the paternal brother's share to a sixth while granting the sister half is logically inconsistent. He posits that since the Quran explicitly assigns the sister half, the brother, who inherits 'all' (kull), should logically receive the entire estate in the absence of descendants, rather than a diminished portion. This narration highlights the Shia jurisprudential principle of prioritizing explicit textual assignment over analogical deduction when resolving inheritance conflicts.",
+        "seo_question": "How does Imam al-Baqir (as) justify the inheritance share of a paternal brother versus a paternal sister based on Quranic verses?",
         "key_terms": {
-          "فَرَائِضُ زَيْدٍ": "the inheritance calculations attributed to Zayd",
-          "الْإِخْوَةِ مِنَ الْأُمِّ": "maternal siblings who inherit through the mother",
-          "الْأُخْتِ مِنَ الْأَبِ": "a paternal sister",
-          "السُّدُسُ": "one-sixth share in inheritance law",
-          "النِّصْفُ": "one-half share in inheritance law",
-          "تَعُولُ إِلَى ثَمَانِيَةٍ": "the estate calculation being increased to eight through ʿawl",
-          "وَهُوَ يَرِثُهَا": "the brother inheriting her estate",
-          "مَعَ الْأُمِّ": "in the presence of the mother as an inheriting heir"
+          "فَرَائِض": "Inheritance rulings/shares",
+          "تَعُولُ": "To be adjusted/compensated (in inheritance calculation)",
+          "السُّدُسُ": "One-sixth share",
+          "الْأَخُ": "Brother (full or paternal)",
+          "الْأُخْتُ": "Sister (full or paternal)",
+          "الْأُمُّ": "Mother",
+          "الزَّوْجُ": "Husband"
         }
       },
       "ur": {
-        "summary": "یہ حدیث وراثت کے حصص کے قانونی حکم کو بیان کرتی ہے اور قرآن کی آیت کی روشنی میں باپ کی بہن اور بھائی کے حصص کا موازنہ کر کے ʿawl کے نظریہ کی مخالفت کرتی ہے۔ ابو جعفر علیہ السلام دلیل دیتے ہیں کہ ایک بہن کو پورا آدھا حصہ دینا جبکہ بھائی کو محروم کرنا درست نہیں کیونکہ قرآن بھائی کو مکمل وراثت دیتا ہے۔",
-        "seo_question": "امام الباقر علیہ السلام نے شوہر اور ماں کے ساتھ ساتھ ماں کے بھائیوں اور باپ کے بھائیوں کی وراثت کو کیسے بیان کیا؟",
-        "key_terms": {}
+        "summary": "امام باقر (علیہ السلام) اہل سنت کے علماء کی 'تعلیل' (تخلیص) کے طریقے پر تنقید کرتے ہیں، جس میں انہوں نے والدی بھائی کے حصے کو چھٹائی پر محدود کر دیا ہے جبکہ بہن کو آدھا حصہ دیا ہے، جو منطقی طور پر متضاد ہے۔ ان کا کہنا ہے کہ چونکہ قرآن مجید میں بہن کے لیے آدھا حصہ واضح طور پر مقرر کیا گیا ہے، اس لیے بھائی، جو 'کُل' (تمام) وراثت کا حقدار ہے، کو اولاد کی عدم موجودگی میں پوری جائیداد ملنی چاہیے، نہ کہ کم شدہ حصہ۔ یہ روایت شیعہ فقہی اصول کی عکاسی کرتی ہے کہ وراثت کے تنازعات کو حل کرتے وقت قیاس پر ترجیح صریح نص کے سامنے دی جاتی ہے۔",
+        "seo_question": "امام باقر (علیہ السلام) قرآنی آیات کی روشنی میں والدی بھائی اور والدی بہن کے وراثت کے حصے کی توجیہ کیسے کرتے ہیں؟",
+        "key_terms": {
+          "فَرَائِض": "وارث کے حصے",
+          "تَعُولُ": "ترمیم/جبران ہونا",
+          "السُّدُسُ": "چھٹائی",
+          "الْأَخُ": "بھائی",
+          "الْأُخْتُ": "بہن",
+          "الْأُمُّ": "ماں",
+          "الزَّوْجُ": "شوہر"
+        }
       },
       "tr": {
-        "summary": "Bu hadis, miras payları hakkında hukuki bir hüküm sunar ve Kur'an ayetine dayanarak baba tarafından kız kardeş ve erkek kardeşin paylarını karşılaştırarak ʿawl doktrinini reddeder. Abū Jaʿfar عليه السلام, kız kardeşe tam yarım pay vermenin ve erkek kardeşi mahrum bırakmanın doğru olmadığını, çünkü Kur'an'ın erkek kardeşe tam miras verdiğini belirtir.",
-        "seo_question": "İmam al-Bakır عليه السلام, anne ve baba tarafından kardeşler ile birlikte koca ve annenin mirasını nasıl açıkladı?",
-        "key_terms": {}
+        "summary": "İmam el-Bakır (as), genel alimlerin (Ehl-i Sünnet) 'ta'lil' (birleştirme) yöntemini uygulamasını eleştirerek, babadan kardeşin payını altıda bir indirirken kız kardeşine yarısını vermesinin mantıksal olarak tutarsız olduğunu savunur. Kur'an'ın kız kardeşe açıkça yarısını atfettiğini ileri sürerek, torunların bulunmadığı durumlarda 'hepsi' (küll) miras alan kardeşin, azaltılmış bir pay yerine tüm mirası alması gerektiğini öne sürer. Bu rivayet, miras çatışmalarını çözerken kıyasî çıkarımdan açık metin atfına öncelik veren Şii fıkhî ilkesini vurgular.",
+        "seo_question": "İmam el-Bakır (as), Kur'an ayetlerine dayanarak babadan kardeş ile babadan kız kardeşin miras payını nasıl gerekçelendirir?",
+        "key_terms": {
+          "فَرَائِض": "Miras payları",
+          "تَعُولُ": "Miras hesabında ayarlanmak/eksiklik giderilmek",
+          "السُّدُسُ": "Altıda bir pay",
+          "الْأَخُ": "Kardeş (tam veya babadan)",
+          "الْأُخْتُ": "Kız kardeş (tam veya babadan)",
+          "الْأُمُّ": "Anne",
+          "الزَّوْجُ": "Koca"
+        }
       },
       "fa": {
-        "summary": "این حدیث حکم قانونی درباره سهم‌های ارث را بیان می‌کند و با استناد به آیه قرآن، سهم خواهر پدری و برادر را مقایسه کرده و نظریه ʿawl را رد می‌کند. ابوجعفر علیه السلام استدلال می‌کند که نمی‌توان سهم کامل نصف را به خواهر داد و برادر را محروم کرد، زیرا قرآن در مورد برادر ارث کامل را نشان می‌دهد.",
-        "seo_question": "امام باقر علیه السلام چگونه ارث بردن از برادران مادری و پدری همراه با شوهر و مادر را توضیح دادند؟",
-        "key_terms": {}
+        "summary": "امام باقر (ع) کاربرد روش «تعلیل» (جمع‌آوری) توسط علمای عامه (اهل سنت) را نقد می‌کند و استدلال می‌کند که کاهش سهم برادر پدری به یک‌ششم و اعطای نصف به خواهر، از نظر منطقی ناسازگار است. او بیان می‌کند که از آنجا که قرآن صراحتاً نصف را برای خواهر تعیین کرده، برادر که وارث «کل» (کُلّ) است، در غیاب ذریه، باید به طور منطقی کل ترکه را دریافت کند، نه سهمی کاهش‌یافته. این روایت اصل فقهی شیعه را برجسته می‌کند که در حل تعارضات ارث، به انتصاب صریح متنی بر استنباط قیاسی ترجیح داده می‌شود.",
+        "seo_question": "امام باقر (ع) سهم ارث برادر پدری را در مقایسه با خواهر پدری بر اساس آیات قرآن چگونه توجیه می‌کند؟",
+        "key_terms": {
+          "فَرَائِض": "احکام ارث",
+          "تَعُولُ": "تنظیم/جبران شود",
+          "السُّدُسُ": "سهم یک‌ششم",
+          "الْأَخُ": "برادر",
+          "الْأُخْتُ": "خواهر",
+          "الْأُمُّ": "مادر",
+          "الزَّوْجُ": "شوهر"
+        }
       },
       "id": {
-        "summary": "Hadis ini menyajikan hukum warisan dan menolak doktrin ʿawl dengan membandingkan bagian saudara perempuan dari pihak ayah dan saudara laki-laki berdasarkan ayat Al-Qur'an. Abū Jaʿfar عليه السلام berargumen bahwa tidak boleh memberikan setengah penuh kepada saudara perempuan sambil mengabaikan saudara laki-laki yang menurut Al-Qur'an menerima warisan penuh.",
-        "seo_question": "Bagaimana Imam al-Baqir عليه السلام menjelaskan warisan saudara dari pihak ibu dan saudara dari pihak ayah bersama suami dan ibu?",
-        "key_terms": {}
+        "summary": "Imam al-Bahasa Indonesia summary: Imam al-Baqir (as) mengkritik penerapan metode 'ta'lil' (konsolidasi) oleh para ulama umum (Ahl al-Sunnah), dengan berargumen bahwa pengurangan bagian saudara laki-laki dari ayah menjadi seperenam sementara memberikan saudara perempuan setengah secara logika tidak konsisten. Beliau berpendapat bahwa karena Al-Quran secara eksplisit menetapkan saudara perempuan mendapat setengah, maka saudara laki-laki yang mewarisi 'semua' (kull) seharusnya secara logis menerima seluruh harta warisan jika tidak ada keturunan, bukan bagian yang berkurang. Riwayat ini menyoroti prinsip fikih Syiah yang mengutamakan penetapan teks eksplisit di atas deduksi analogis ketika menyelesaikan konflik warisan. -English SEO question: Bagaimana Imam al-Baqir (as) membenarkan bagian warisan saudara laki-laki dari ayah versus saudara perempuan dari ayah berdasarkan ayat-ayat Al-Quran? -Key terms values: [ ",
+        "seo_question": "Bagaimana Imam al-Baqir (as) membenarkan bagian warisan saudara laki-laki dari ayah versus saudara perempuan dari ayah berdasarkan ayat-ayat Al-Quran?",
+        "key_terms": {
+          "فَرَائِض": "Bagian warisan",
+          "تَعُولُ": "Disesuaikan/dikompensasi (dalam perhitungan warisan)",
+          "السُّدُسُ": "Bagian seperenam",
+          "الْأَخُ": "Saudara laki-laki (sepenuh atau dari ayah)",
+          "الْأُخْتُ": "Saudara perempuan (sepenuh atau dari ayah)",
+          "الْأُمُّ": "Ibu",
+          "الزَّوْجُ": "Suami"
+        }
       },
       "bn": {
-        "summary": "এই হাদিস উত্তরাধিকারী অংশের একটি আইনি বিধান উপস্থাপন করে এবং কুরআনের আয়াতের আলোকে পিতৃকুলের বোন ও ভাইয়ের অংশের তুলনা করে ʿawl মতবাদকে অস্বীকার করে। আবু জাফর عليه السلام যুক্তি দেন যে, বোনকে পূর্ণ অর্ধাংশ দেওয়া এবং ভাইকে বঞ্চিত করা ঠিক নয়, কারণ কুরআন ভাইকে সম্পূর্ণ উত্তরাধিকার দেয়।",
-        "seo_question": "ইমাম আল-বাকির عليه السلام কীভাবে স্বামী ও মায়ের পাশাপাশি মাতৃকুল ও পিতৃকুলের ভাইবোনদের উত্তরাধিকার ব্যাখ্যা করেছেন?",
-        "key_terms": {}
+        "summary": "ইমাম আল-বাখির (আ.) সাধারণ বিদ্বানদের (আহল আস-সুন্নাহ) 'তা'লিল' (সংযুক্তি) পদ্ধতির প্রয়োগের সমালোচনা করেন, যুক্তি দিয়ে বলেন যে, পিতৃজ ভাইয়ের অংশ এক ষষ্ঠাংশে সীমাবদ্ধ করে এবং বোনের অংশ অর্ধেক দেওয়াটি যৌক্তিকভাবে অসঙ্গতিপূর্ণ। তিনি মত দেন যে, কুরআন স্পষ্টভাবে বোনের অর্ধেক অংশ নির্ধারণ করেছে, তাই ভাই, যে 'সব' (কুল) উত্তরাধিকারী, বংশধর অনুপস্থিত থাকলে যৌক্তিকভাবে সম্পত্তির পুরো অংশ পেওয়া উচিত, একটি হ্রাসকৃত অংশ নয়। এই হাদিস শিয়া ফিকহের নীতিটি তুলে ধরে যে, উত্তরাধিকারের দ্বন্দ্ব সমাধানের জন্য উপমাভিত্তিক যুক্তির চেয়ে স্পষ্ট পাঠ্য নির্ধারণকে অগ্রাধিকার দেওয়া হয়।",
+        "seo_question": "কুরআনের আয়াতের ভিত্তিতে ইমাম আল-বাখির (আ.) কীভাবে পিতৃজ ভাই এবং পিতৃজ বোনের উত্তরাধিকারের অংশকে যুক্তি দিয়েছেন?",
+        "key_terms": {
+          "فَرَائِض": "উত্তরাধিকারের বিধান/অংশ",
+          "تَعُولُ": "উত্তরাধিকারের হিসাবের সময় সমন্বয়/পূরণ করা",
+          "السُّدُسُ": "এক ষষ্ঠাংশ অংশ",
+          "الْأَخُ": "ভাই (সম্পূর্ণ বা পিতৃজ)",
+          "الْأُخْتُ": "বোন (সম্পূর্ণ বা পিতৃজ)",
+          "الْأُمُّ": "মা",
+          "الزَّوْجُ": "স্বামী"
+        }
       },
       "es": {
-        "summary": "Este hadiz presenta una regla legal sobre las partes de la herencia y argumenta en contra de la doctrina de ʿawl comparando las partes de la hermana paterna y el hermano a la luz del versículo coránico. Abū Jaʿfar عليه السلام razona que no se puede otorgar una mitad completa a la hermana privando al hermano, para quien el Corán indica la herencia total en otro caso.",
-        "seo_question": "¿Cómo explicó el Imam al-Baqir عليه السلام la herencia de los hermanos maternos y paternos junto con el esposo y la madre?",
-        "key_terms": {}
+        "summary": "El Imam al-Baqir (as) critica la aplicación del método de 'ta'lil' (consolidación' (consolidación) por parte de los eruditos generales (Ahl al-Sunnah), argumentando que su reducción de la parte del hermano paterno a una sexta parte, mientras otorgan a la hermana la mitad, es lógicamente inconsistente. Sostiene que, dado que el Corán asigna explícitamente a la hermana la mitad, el hermano, que hereda 'todo' (kull), debería recibir lógicamente toda la herencia en ausencia de descendientes, en lugar de una porción disminuida. Esta narración destaca el principio jurisprudencial chií de priorizar la asignación textual explícita sobre la deducción analógica al resolver conflictos de herencia.",
+        "seo_question": "¿Cómo justifica el Imam al-Baqir (as) la parte de herencia de un hermano paterno frente a una hermana paterna basándose en los versículos coránicos?",
+        "key_terms": {
+          "فَرَائِض": "Reglas o partes de herencia",
+          "تَعُولُ": "Ser ajustada/compensada (en el cálculo de la herencia)",
+          "السُّدُسُ": "Parte de una sexta parte",
+          "الْأَخُ": "Hermano (completo o paterno)",
+          "الْأُخْتُ": "Hermana (completa o paterna)",
+          "الْأُمُّ": "Madre",
+          "الزَّوْجُ": "Esposo"
+        }
       },
       "fr": {
-        "summary": "Ce hadith présente une règle juridique sur les parts d'héritage et s'oppose à la doctrine du ʿawl en comparant les parts de la sœur paternelle et du frère à la lumière du verset coranique. Abū Jaʿfar عليه السلام raisonne qu'on ne peut pas accorder une moitié entière à la sœur tout en privant le frère, pour qui le Coran indique une héritage total dans un autre cas.",
-        "seo_question": "Comment l'Imam al-Baqir عليه السلام a-t-il expliqué l'héritage des frères maternels et paternels aux côtés du mari et de la mère ?",
-        "key_terms": {}
+        "summary": "L’imam al-Baqir (as) critique l’application par les savants généraux (Ahl al-Sunnah) de la méthode de la « ta'lil » (consolidation), arguant que leur réduction de la part du frère paternel à un sixième tout en accordant à la sœur la moitié est logiquement incohérent. Il soutient que puisque le Coran attribue explicitement à la sœur la moitié, le frère, qui hérite de « tout » (kull), devrait logiquement recevoir la totalité de la succession en l’absence de descendants, plutôt qu’une part diminuée. Cette narration met en lumière le principe jurisprudentiel chiite de privilégier l’attribution textuelle explicite sur la déduction analogique pour résoudre les conflits d’héritage.",
+        "seo_question": "Comment l’imam al-Baqir (as) justifie-t-il la part d’héritage d’un frère paternel par rapport à une sœur paternelle sur la base des versets coraniques ?",
+        "key_terms": {
+          "فَرَائِض": "Règles ou parts d'héritage",
+          "تَعُولُ": "Être ajusté/compensé (dans le calcul de l'héritage)",
+          "السُّدُسُ": "Part d'un sixième",
+          "الْأَخُ": "Frère (plein ou paternel)",
+          "الْأُخْتُ": "Sœur (pleine ou paternelle)",
+          "الْأُمُّ": "Mère",
+          "الزَّوْجُ": "Mari"
+        }
       },
       "de": {
-        "summary": "Dieser Hadith stellt eine rechtliche Regelung zu Erbanteilen dar und widerspricht der ʿawl-Doktrin, indem er die Anteile der väterlichen Schwester und des Bruders im Lichte des Korans vergleicht. Abū Jaʿfar عليه السلام argumentiert, dass man der Schwester nicht die volle Hälfte geben kann, während man den Bruder, für den der Koran das gesamte Erbe vorsieht, ausschließt.",
-        "seo_question": "Wie erklärte Imam al-Baqir عليه السلام das Erbe der mütterlichen und väterlichen Geschwister zusammen mit Ehemann und Mutter?",
-        "key_terms": {}
+        "summary": "Imam al-Baqir (as) kritisiert die Anwendung der Methode der Konsolidierung (Ta'lil) durch die allgemeinen Gelehrten (Ahl al-Sunnah) und argumentiert, dass ihre Reduzierung des Anteils des väterlichen Bruders auf ein Sechstel bei gleichzeitiger Gewährung der Hälfte an die Schwester logisch inkonsistent ist. Er führt aus, dass der Bruder, der „alles“ (kull) erbt, in Abwesenheit von Nachkommen logischerweise den gesamten Nachlass erhalten sollte, anstatt einen verminderten Anteil. Diese Überlieferung unterstreicht das schiitische juristische Prinzip, der expliziten textlichen Zuweisung den Vorrang vor der analogischen Deduktion bei der Lösung von Erbstreitigkeiten zu geben.",
+        "seo_question": "Wie begründet Imam al-Baqir (as) den Erbanteil eines välichen Bruders im Vergleich zu einer vätlichen Schwester auf der Grundlage des Korans?",
+        "key_terms": {
+          "فَرَائِض": "Erbregelungen/-anteile",
+          "تَعُولُ": "Angepasst/ausgeglichen werden (in der Erbrechnung)",
+          "السُّدُسُ": "Ein Sechstel-Anteil",
+          "الْأَخُ": "Bruder (voll oder vätlich)",
+          "الْأُخْتُ": "Schwester (voll oder vätlich)",
+          "الْأُمُّ": "Mutter",
+          "الزَّوْجُ": "Ehemann"
+        }
       },
       "ru": {
-        "summary": "Этот хадис представляет юридическое постановление о долях наследства и опровергает доктрину ʿawl, сравнивая доли сестры по отцу и брата в свете коранического текста. Абу Джафар عليه السلام рассуждает, что нельзя дать сестре полную половину, лишая брата, которому Коран указывает на полное наследство в другом случае.",
-        "seo_question": "Как Имам аль-Бакр عليه السلام объяснил наследование материнских и отцовских братьев вместе с мужем и матерью?",
-        "key_terms": {}
+        "summary": "Имам аль-Бакир (да будет с ним мир) критикует применение общего метода «таълиль» (консолидация) учеными ахль ас-сунны, утверждая, что их сокращение доли брата по отцу до одной шестой при предоставлении сестре половины является логически несостоятельным. Он утверждает, что поскольку Коран явно предписывает сестре половину, брат, который наследует «всё» (кулл), должен логически получать всё наследство в отсутствие потомства, а не уменьшенную долю. Это предание подчеркивает шиитский принцип юриспруденции, заключающийся в приоритете явного текстового предписания над аналогическим выводом при разрешении конфликтов наследования.",
+        "seo_question": "Как Имам аль-Бакир (да будет с ним мир) обосновывает долю наследования брата по отцу по сравнению с сестрой по отцу на основе аятов Корана?",
+        "key_terms": {
+          "فَرَائِض": "Наследственные доли/распределения",
+          "تَعُولُ": "Подлежит корректировке/компенсации (в расчете наследования)",
+          "السُّدُسُ": "Доля в одну шестую",
+          "الْأَخُ": "Брат (полнородный или по отцу)",
+          "الْأُخْتُ": "Сестра (полнородная или по отцу)",
+          "الْأُمُّ": "Мать",
+          "الزَّوْجُ": "Муж"
+        }
       },
       "zh": {
-        "summary": "此圣训阐述遗产份额的法律判决，并通过比较父方姐妹与兄弟的份额，反驳ʿawl学说，依据古兰经经文。阿布贾法尔عليه السلام推理，不能给予姐妹完整一半而剥夺兄弟，因古兰经另有指示兄弟继承全部。",
-        "seo_question": "伊玛目阿尔巴基尔عليه السلام如何解释母方兄弟与父方兄弟连同丈夫和母亲的继承？",
-        "key_terms": {}
+        "summary": "伊玛目巴基尔（愿主喜悦之）批评逊尼派学者在继承法中运用“塔利勒”（合并/简化）方法时，指出其将父系兄弟的份额减至六分之一而仅给姐妹二分之一的做法在逻辑上不一致。他认为，既然《古兰经》明确规定姐妹继承二分之一，那么在没有后代的情况下，继承“全部”（kull）的兄弟理应获得全部遗产，而非减少后的份额。这段圣训凸显了什叶派法学中在解决继承冲突时，优先依据明确经文规定而非类比推理的原则。",
+        "seo_question": "伊玛目巴基尔（愿主喜悦之）如何根据《古兰经》经文论证父系兄弟与父系姐妹的继承份额？",
+        "key_terms": {
+          "فَرَائِض": "继承规定/份额",
+          "تَعُولُ": "调整/补偿（在继承计算中）",
+          "السُّدُسُ": "六分之一份额",
+          "الْأَخُ": "兄弟（全血缘或父系）",
+          "الْأُخْتُ": "姐妹（全血缘或父系）",
+          "الْأُمُّ": "母亲",
+          "الزَّوْجُ": "丈夫"
+        }
       }
     },
     "related_quran": [
       {
         "ref": "4:176",
         "relationship": "thematic"
+      },
+      {
+        "ref": "4:11",
+        "relationship": "thematic"
       }
     ],
-    "diacritized_text": "٥٦٢٣ - قَالَ: وَجَاءَ رَجُلٌ إِلَى أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فَسَأَلَهُ عَنِ امْرَأَةٍ تَرَكَتْ زَوْجَهَا وَإِخْوَتَهَا لِأُمِّهَا وَأُخْتَهَا لِأَبِيهَا فَقَالَ لِلزَّوْجِ النِّصْفُ ثَلَاثَةُ أَسْهُمٍ وَ لِلْإِخْوَةِ مِنَ الْأُمِّ سَهْمَانِ وَ لِلْأُخْتِ مِنَ الْأَبِ سَهْمٌ فَقَالَ لَهُ الرَّجُلُ فَإِنَّ فَرَائِضَ زَيْدٍ وَفَرَائِضَ الْعَامَّةِ عَلَى غَيْرِ هَذَا يَا أَبَا جَعْفَرٍ يَقُولُونَ لِلْأُخْتِ مِنَ الْأَبِ ثَلَاثَةُ أَسْهُمٍ هِيَ مِنْ سِتَّةٍ تَعُولُ إِلَى ثَمَانِيَةٍ فَقَالَ لَهُ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ وَلِمَ قَالُوا هَذَا فَقَالَ لِأَنَّ اللَّهَ عَزَّ وَجَلَّ قَالَ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ فَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَإِنْ كَانَتِ الْأُخْتُ أَخًا قَالَ لَيْسَ لَهُ إِلَّا السُّدُسُ فَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَمَا لَكُمْ نَقَصْتُمُ الْأَخَ إِنْ كُنْتُمْ تَحْتَجُّونَ أَنَّ لِلْأُخْتِ النِّصْفَ بِأَنَّ اللَّهَ عَزَّ وَجَلَّ سَمَّى لَهَا النِّصْفَ فَإِنَّ اللَّهَ سَمَّى لِلْأَخِ الْكُلَّ وَالْكُلُّ أَكْثَرُ مِنَ النِّصْفِ لِأَنَّهُ عَزَّ وَجَلَّ قَالَ فِي الْأُخْتِ فَلَهَا نِصْفُ مَا تَرَكَ وَقَالَ فِي الْأَخِ وَهُوَ يَرِثُهَا يَعْنِي جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَلَا تُعْطُونَ الَّذِي جَعَلَ اللَّهُ عَزَّ وَجَلَّ لَهُ الْجَمِيعَ فِي بَعْضِ فَرَائِضِكُمْ شَيْئًا وَتُعْطُونَ الَّذِي جَعَلَ اللَّهُ لَهُ النِّصْفَ تَامًّا وَتَقُولُونَ فِي زَوْجٍ وَأُمٍّ وَإِخْوَةٍ لِأُمٍّ وَأُخْتٍ لِأَبٍ فَتُعْطُونَ الزَّوْجَ النِّصْفَ وَالْأُمَّ السُّدُسَ وَالْإِخْوَةَ مِنَ الْأُمِّ الثُّلُثَ وَالْأُخْتَ مِنَ الْأَبِ النِّصْفَ تَجْعَلُونَهَا مِنْ تِسْعَةٍ وَهِيَ سِتَّةٌ تَعُولُ إِلَى تِسْعَةٍ فَقَالَ كَذَلِكَ يَقُولُونَ فَقَالَ لَهُ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَإِنْ كَانَتِ الْأُخْتُ أَخًا لِأَبٍ قَالَ لَهُ الرَّجُلُ لَيْسَ لَهُ شَيْءٌ فَمَا تَقُولُ أَنْتَ فَقَالَ لَيْسَ لِلْإِخْوَةِ مِنَ الْأَبِ وَالْأُمِّ وَلَا لِلْإِخْوَةِ مِنَ الْأَبِ مَعَ الْأُمِّ شَيْءٌ",
+    "diacritized_text": "قَالَ: وَجَاءَ رَجُلٌ إِلَى أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فَسَأَلَهُ عَنِ امْرَأَةٍ تَرَكَتْ زَوْجَهَا وَإِخْوَتَهَا لِأُمِّهَا وَأُخْتَهَا لِأَبِيهَا فَقَالَ: لِلزَّوْجِ النِّصْفُ ثَلَاثَةُ أَسْهُمٍ وَلِلْإِخْوَةِ مِنَ الْأُمِّ سَهْمَانِ وَلِلْأُخْتِ مِنَ الْأَبِ سَهْمٌ فَقَالَ لَهُ الرَّجُلُ فَإِنَّ فَرَائِضَ زَيْدٍ وَفَرَائِضَ الْعَامَّةِ عَلَى غَيْرِ هَذَا يَا أَبَا جَعْفَرٍ يَقُولُونَ لِلْأُخْتِ مِنَ الْأَبِ ثَلَاثَةُ أَسْهُمٍ هِيَ مِنْ سِتَّةٍ تَعُولُ إِلَى ثَمَانِيَةٍ فَقَالَ لَهُ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: وَلِمَ قَالُوا هَذَا فَقَالَ لِأَنَّ اللَّهَ عَزَّ وَجَلَّ قَالَ: ۝ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ ۝ فَقَالَ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَإِنْ كَانَتِ الْأُخْتُ أَخًا قَالَ لَيْسَ لَهُ إِلَّا السُّدُسُ فَقَالَ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَمَا لَكُمْ نَقَصْتُمُ الْأَخَ إِنْ كُنْتُمْ تَحْتَجُّونَ أَنَّ لِلْأُخْتِ النِّصْفَ بِأَنَّ اللَّهَ عَزَّ وَجَلَّ سَمَّى لَهَا النِّصْفَ فَإِنَّ اللَّهَ سَمَّى لِلْأَخِ الْكُلَّ وَالْكُلُّ أَكْثَرُ مِنَ النِّصْفِ لِأَنَّهُ عَزَّ وَجَلَّ قَالَ فِي الْأُخْتِ: ۝ فَلَهَا نِصْفُ مَا تَرَكَ ۝ وَقَالَ فِي الْأَخِ: ۝ وَهُوَ يَرِثُهَا ۝ يَعْنِي جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَلَا تُعْطُونَ الَّذِي جَعَلَ اللَّهُ عَزَّ وَجَلَّ لَهُ الْجَمِيعَ فِي بَعْضِ فَرَائِضِكُمْ شَيْئًا وَتُعْطُونَ الَّذِي جَعَلَ اللَّهُ لَهُ النِّصْفَ تَامًّا وَتَقُولُونَ فِي زَوْجٍ وَأُمٍّ وَإِخْوَةٍ لِأُمٍّ وَأُخْتٍ لِأَبٍ فَتُعْطُونَ الزَّوْجَ النِّصْفَ وَالْأُمَّ السُّدُسَ وَالْإِخْوَةَ مِنَ الْأُمِّ الثُّلُثَ وَالْأُخْتَ مِنَ الْأَبِ النِّصْفَ تَجْعَلُونَهَا مِنْ تِسْعَةٍ وَهِيَ سِتَّةٌ تَعُولُ إِلَى تِسْعَةٍ فَقَالَ كَذَلِكَ يَقُولُونَ فَقَالَ لَهُ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَإِنْ كَانَتِ الْأُخْتُ أَخًا لِأَبٍ قَالَ لَهُ الرَّجُلُ لَيْسَ لَهُ شَيْءٌ فَمَا تَقُولُ أَنْتَ فَقَالَ: لَيْسَ لِلْإِخْوَةِ مِنَ الْأَبِ وَالْأُمِّ وَلَا لِلْإِخْوَةِ مِنَ الْأَبِ مَعَ الْأُمِّ شَيْءٌ",
     "isnad_matn": {
       "isnad_ar": "5623 - قَالَ",
-      "matn_ar": "٥٦٢٣ - قَالَ: وَجَاءَ رَجُلٌ إِلَى أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فَسَأَلَهُ عَنِ امْرَأَةٍ تَرَكَتْ زَوْجَهَا وَإِخْوَتَهَا لِأُمِّهَا وَأُخْتَهَا لِأَبِيهَا فَقَالَ لِلزَّوْجِ النِّصْفُ ثَلَاثَةُ أَسْهُمٍ وَ لِلْإِخْوَةِ مِنَ الْأُمِّ سَهْمَانِ وَ لِلْأُخْتِ مِنَ الْأَبِ سَهْمٌ فَقَالَ لَهُ الرَّجُلُ فَإِنَّ فَرَائِضَ زَيْدٍ وَفَرَائِضَ الْعَامَّةِ عَلَى غَيْرِ هَذَا يَا أَبَا جَعْفَرٍ يَقُولُونَ لِلْأُخْتِ مِنَ الْأَبِ ثَلَاثَةُ أَسْهُمٍ هِيَ مِنْ سِتَّةٍ تَعُولُ إِلَى ثَمَانِيَةٍ فَقَالَ لَهُ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ وَلِمَ قَالُوا هَذَا فَقَالَ لِأَنَّ اللَّهَ عَزَّ وَجَلَّ قَالَ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ فَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَإِنْ كَانَتِ الْأُخْتُ أَخًا قَالَ لَيْسَ لَهُ إِلَّا السُّدُسُ فَقَالَ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَمَا لَكُمْ نَقَصْتُمُ الْأَخَ إِنْ كُنْتُمْ تَحْتَجُّونَ أَنَّ لِلْأُخْتِ النِّصْفَ بِأَنَّ اللَّهَ عَزَّ وَجَلَّ سَمَّى لَهَا النِّصْفَ فَإِنَّ اللَّهَ سَمَّى لِلْأَخِ الْكُلَّ وَالْكُلُّ أَكْثَرُ مِنَ النِّصْفِ لِأَنَّهُ عَزَّ وَجَلَّ قَالَ فِي الْأُخْتِ فَلَهَا نِصْفُ مَا تَرَكَ وَقَالَ فِي الْأَخِ وَهُوَ يَرِثُهَا يَعْنِي جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَلَا تُعْطُونَ الَّذِي جَعَلَ اللَّهُ عَزَّ وَجَلَّ لَهُ الْجَمِيعَ فِي بَعْضِ فَرَائِضِكُمْ شَيْئًا وَتُعْطُونَ الَّذِي جَعَلَ اللَّهُ لَهُ النِّصْفَ تَامًّا وَتَقُولُونَ فِي زَوْجٍ وَأُمٍّ وَإِخْوَةٍ لِأُمٍّ وَأُخْتٍ لِأَبٍ فَتُعْطُونَ الزَّوْجَ النِّصْفَ وَالْأُمَّ السُّدُسَ وَالْإِخْوَةَ مِنَ الْأُمِّ الثُّلُثَ وَالْأُخْتَ مِنَ الْأَبِ النِّصْفَ تَجْعَلُونَهَا مِنْ تِسْعَةٍ وَهِيَ سِتَّةٌ تَعُولُ إِلَى تِسْعَةٍ فَقَالَ كَذَلِكَ يَقُولُونَ فَقَالَ لَهُ أَبُو جَعْفَرٍ عَلَيْهِ السَّلَامُ فَإِنْ كَانَتِ الْأُخْتُ أَخًا لِأَبٍ قَالَ لَهُ الرَّجُلُ لَيْسَ لَهُ شَيْءٌ فَمَا تَقُولُ أَنْتَ فَقَالَ لَيْسَ لِلْإِخْوَةِ مِنَ الْأَبِ وَالْأُمِّ وَلَا لِلْإِخْوَةِ مِنَ الْأَبِ مَعَ الْأُمِّ شَيْءٌ",
+      "matn_ar": "قَالَ: وَجَاءَ رَجُلٌ إِلَى أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ فَسَأَلَهُ عَنِ امْرَأَةٍ تَرَكَتْ زَوْجَهَا وَإِخْوَتَهَا لِأُمِّهَا وَأُخْتَهَا لِأَبِيهَا فَقَالَ: لِلزَّوْجِ النِّصْفُ ثَلَاثَةُ أَسْهُمٍ وَلِلْإِخْوَةِ مِنَ الْأُمِّ سَهْمَانِ وَلِلْأُخْتِ مِنَ الْأَبِ سَهْمٌ فَقَالَ لَهُ الرَّجُلُ فَإِنَّ فَرَائِضَ زَيْدٍ وَفَرَائِضَ الْعَامَّةِ عَلَى غَيْرِ هَذَا يَا أَبَا جَعْفَرٍ يَقُولُونَ لِلْأُخْتِ مِنَ الْأَبِ ثَلَاثَةُ أَسْهُمٍ هِيَ مِنْ سِتَّةٍ تَعُولُ إِلَى ثَمَانِيَةٍ فَقَالَ لَهُ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: وَلِمَ قَالُوا هَذَا فَقَالَ لِأَنَّ اللَّهَ عَزَّ وَجَلَّ قَالَ: ۝ وَلَهُ أُخْتٌ فَلَهَا نِصْفُ مَا تَرَكَ ۝ فَقَالَ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَإِنْ كَانَتِ الْأُخْتُ أَخًا قَالَ لَيْسَ لَهُ إِلَّا السُّدُسُ فَقَالَ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَمَا لَكُمْ نَقَصْتُمُ الْأَخَ إِنْ كُنْتُمْ تَحْتَجُّونَ أَنَّ لِلْأُخْتِ النِّصْفَ بِأَنَّ اللَّهَ عَزَّ وَجَلَّ سَمَّى لَهَا النِّصْفَ فَإِنَّ اللَّهَ سَمَّى لِلْأَخِ الْكُلَّ وَالْكُلُّ أَكْثَرُ مِنَ النِّصْفِ لِأَنَّهُ عَزَّ وَجَلَّ قَالَ فِي الْأُخْتِ: ۝ فَلَهَا نِصْفُ مَا تَرَكَ ۝ وَقَالَ فِي الْأَخِ: ۝ وَهُوَ يَرِثُهَا ۝ يَعْنِي جَمِيعَ مَالِهَا إِنْ لَمْ يَكُنْ لَهَا وَلَدٌ فَلَا تُعْطُونَ الَّذِي جَعَلَ اللَّهُ عَزَّ وَجَلَّ لَهُ الْجَمِيعَ فِي بَعْضِ فَرَائِضِكُمْ شَيْئًا وَتُعْطُونَ الَّذِي جَعَلَ اللَّهُ لَهُ النِّصْفَ تَامًّا وَتَقُولُونَ فِي زَوْجٍ وَأُمٍّ وَإِخْوَةٍ لِأُمٍّ وَأُخْتٍ لِأَبٍ فَتُعْطُونَ الزَّوْجَ النِّصْفَ وَالْأُمَّ السُّدُسَ وَالْإِخْوَةَ مِنَ الْأُمِّ الثُّلُثَ وَالْأُخْتَ مِنَ الْأَبِ النِّصْفَ تَجْعَلُونَهَا مِنْ تِسْعَةٍ وَهِيَ سِتَّةٌ تَعُولُ إِلَى تِسْعَةٍ فَقَالَ كَذَلِكَ يَقُولُونَ فَقَالَ لَهُ أَبُو جَعْفَرٌ عَلَيْهِ السَّلَامُ: فَإِنْ كَانَتِ الْأُخْتُ أَخًا لِأَبٍ قَالَ لَهُ الرَّجُلُ لَيْسَ لَهُ شَيْءٌ فَمَا تَقُولُ أَنْتَ فَقَالَ: لَيْسَ لِلْإِخْوَةِ مِنَ الْأَبِ وَالْأُمِّ وَلَا لِلْإِخْوَةِ مِنَ الْأَبِ مَعَ الْأُمِّ شَيْءٌ",
       "has_chain": true,
       "narrators": [
         {
@@ -279,6 +492,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

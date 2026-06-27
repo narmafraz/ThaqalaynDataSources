@@ -1,180 +1,239 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:5:11:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
     "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[2] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[3] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
+    "chunks[2] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "knowledge",
-      "prophetic_tradition",
-      "history"
+      "prophetic_tradition"
     ],
-    "content_type": "biographical",
+    "content_type": "narrative",
     "topics": [
       "hadith_sciences",
-      "religious_authority",
-      "teaching"
+      "companions",
+      "scholars_virtues"
     ],
     "chunks": [
       {
-        "chunk_type": "opening",
-        "arabic_text": "وَ مَا كَانَ فِي هَ عَنْ عُمَرَ بْنِ يَزِيدَ",
+        "chunk_type": "isnad",
+        "arabic_text": "وَمَا كَانَ فِيهِ عَنْ عُمَرَ بْنِ يَزِيدَ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ يَعْقُوبَ بْنِ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ وَصَفْوَانَ بْنِ يَحْيَى، عَنْ عُمَرَ بْنِ يَزِيدَ.",
         "translations": {
-          "en": "As for whatever in it is from ʿUmar ibn Yazid,",
-          "ur": "جہاں تک اس میں عمر بن یزید سے متعلق ہے،",
-          "tr": "İçinde ʿUmar ibn Yazid'den ne varsa,",
-          "fa": "اما هر آنچه در آن از عمر بن یزید است،",
-          "id": "Adapun apa pun yang ada di dalamnya dari ʿUmar ibn Yazid,",
-          "bn": "যে কিছু এতে ʿUmar ibn Yazid থেকে আছে,",
-          "es": "En cuanto a lo que en él proviene de ʿUmar ibn Yazid,",
-          "fr": "Quant à ce qui en provient de ʿUmar ibn Yazid,",
-          "de": "Was auch immer darin von ʿUmar ibn Yazid ist,",
-          "ru": "Что касается всего, что в нем от ʿУмара ибн Язида,",
-          "zh": "至于其中来自ʿUmaribnYazid的内容，"
+          "en": "And whatever in this book is narrated from Umar ibn Yazid, I have transmitted it from my father - may Allah be pleased with him - from Muhammad ibn Yahya al-Attar, from Yaqub ibn Yazid, from Muhammad ibn Abi Umayr and Safwan ibn Yahya, from Umar ibn Yazid.",
+          "ur": "اور جو کچھ اس کتاب میں عمر بن یزید سے روایتا ہے میں نے اسے اپنے والد سے (اللہ ان سے راضی ہو) سے روایت کیا ہے، وہ محمد بن یحییٰ العطار سے، وہ یعقوب بن یزید سے، وہ محمد بن ابی عمیر اور صفوان بن یحییٰ سے، وہ عمر بن یزید سے۔",
+          "tr": "Ve bu kitaptaki Ömer bin Yezîd'den rivayet edilen her şeyi, babamdan -Allah ondan razı olsun- Muhammed bin Yahya el-Attâr'dan, Yakub bin Yezîd'den, Muhammed bin Ebi Umeyr'den ve Safvân bin Yahyâ'dan, Ömer bin Yezîd'den rivayet ettim.",
+          "fa": "و هر آنچه در این کتاب از عمر بن یزید روایت شده است، من آن را از پدرم - رضی الله عنه - از محمد بن یحیی العطار، از یعقوب بن یزید، از محمد بن ابی عمیر و صفوان بن یحیی، از عمر بن یزید نقل کرده‌ام.",
+          "id": "Dan apa saja dalam kitab ini yang diriwayatkan dari Umar bin Yazid, aku telah meriwayatkannya dari ayahku - semoga Allah meridhainya - dari Muhammad bin Yahya al-Attar, dari Yaqub bin Yazid, dari Muhammad bin Abi Umayr dan Safwan bin Yahya, dari Umar bin Yazid.",
+          "bn": "এবং এই গ্রন্থে যেসব বর্ণনা উমর ইবনে যায়িদ থেকে বর্ণিত হয়েছে, আমি তা আমার পিতা থেকে (আল্লাহ তাঁহাতে সন্তুষ্ট হোন) বর্ণনা করেছি, মুহাম্মাদ ইবনে ইয়াহ্যা আল-আত্তার থেকে, ইয়াকুব ইবনে যায়িদ থেকে, মুহাম্মাদ ইবনে আবি উমাইর ও সফওয়ান ইবনে ইয়াহ্যা থেকে, উমর ইবনে যায়িদ থেকে।",
+          "es": "Y todo lo que en este libro se narra de Umar ibn Yazid, lo he transmitido de mi padre - que Allah esté complacido con él - de Muhammad ibn Yahya al-Attar, de Yaqub ibn Yazid, de Muhammad ibn Abi Umayr y Safwan ibn Yahya, de Umar ibn Yazid.",
+          "fr": "Et tout ce qui dans ce livre est rapporté d'après 'Umar ibn Yazid, je l'ai transmis de mon père - qu'Allah l'agrée - de Muhammad ibn Yahya al-Attar, de Yaqub ibn Yazid, de Muhammad ibn Abi Umayr et Safwan ibn Yahya, d'après 'Umar ibn Yazid.",
+          "de": "Und was in diesem Buch von diesem Buch von Umar ibn Yazid überliefert wurde, habe ich es von meinem Vater – möge Allah mit ihm zufrieden sein – von Muhammad ibn Yahya al-Attar, von Yaqub ibn Yazid, von Muhammad ibn Abi Umayr und Safwan ibn Yahya, von Umar ibn Yazid, überliefert.",
+          "ru": "И то, что в этой книге передано от Умара ибн Язида, я передал от моего отца — да будет доволен им Аллах — от Мухаммада ибн Яхьи аль-Аттар, от Якуба ибн Язида, от Мухаммада ибн Аби Умайра и Сафвана ибн Яхьи, от Умара ибн Язида.",
+          "zh": "凡本书中从奥马尔·本·叶齐德传述的内容，我已从我父亲（愿真主喜悦他）传述，从穆罕默德·本·叶海亚·阿塔勒，从叶尔孤白·本·叶齐德，从穆罕默德·本·艾比·乌麦尔和萨夫万·本·叶海亚，从奥马尔·本·叶齐德传述。"
         },
         "word_start": 0,
-        "word_end": 9
+        "word_end": 37
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ يَعْقُوبَ بْنِ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَ صَفْوَانَ بْنِ يَحْيَى عَنْ عُمَرَ بْنِ يَزِيدَ.",
+        "arabic_text": "وَقَدْ رَوَيْتُهُ أَيْضًا عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْحَمِيدِ، عَنْ مُحَمَّدِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنِ الْحُسَيْنِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنْ أَبِيهِ عُمَرَ بْنِ يَزِيدَ.",
         "translations": {
-          "en": "I have narrated it from my father—may Allah be pleased with him—from Muhammad ibn Yahya al-ʿAttar, from Yaʿqub ibn Yazid, from Muhammad ibn Abi ʿUmayr and Safwan ibn Yahya, from ʿUmar ibn Yazid.",
-          "ur": "میں نے اسے اپنے والد سے روایت کیا ہے—اللہ ان سے راضی ہو—محمد ابن یحیی العطار سے، یعقوب بن یزید سے، محمد بن ابی عمیر سے اور صفوان بن یحیی سے، عمر بن یزید سے۔",
-          "tr": "Bunu babamdan—Allah ondan razı olsun—Muhammad ibn Yahya al-ʿAttar’dan, Yaʿqub ibn Yazid’den, Muhammad ibn Abi ʿUmayr ve Safwan ibn Yahya’dan, ʿUmar ibn Yazid’den naklettim.",
-          "fa": "آن را از پدرم—خداوند از او راضی باشد—از محمد بن یحیی العطار، از یعقوب بن یزید، از محمد بن ابی عمیر و صفوان بن یحیی، از عمر بن یزید روایت کرده‌ام.",
-          "id": "Saya meriwayatkannya dari ayahku—semoga Allah meridhoi beliau—dari Muhammad ibn Yahya al-ʿAttar, dari Yaʿqub ibn Yazid, dari Muhammad ibn Abi ʿUmayr dan Safwan ibn Yahya, dari ʿUmar ibn Yazid.",
-          "bn": "আমি এটি আমার পিতা থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি সন্তুষ্ট হন—মুহাম্মদ ইবনে ইয়াহিয়া আল-ʿআত্তার থেকে, ইয়াকুব ইবনে ইয়াজীদ থেকে, মুহাম্মদ ইবনে আবি উমায়ের এবং সফওয়ান ইবনে ইয়াহিয়া থেকে, ʿউমার ইবনে ইয়াজীদ থেকে।",
-          "es": "Lo he narrado de mi padre—que Allah esté complacido con él—de Muhammad ibn Yahya al-ʿAttar, de Yaʿqub ibn Yazid, de Muhammad ibn Abi ʿUmayr y Safwan ibn Yahya, de ʿUmar ibn Yazid.",
-          "fr": "Je l'ai narré de mon père—qu'Allah soit satisfait de lui—de Muhammad ibn Yahya al-ʿAttar, de Yaʿqub ibn Yazid, de Muhammad ibn Abi ʿUmayr et Safwan ibn Yahya, de ʿUmar ibn Yazid.",
-          "de": "Ich habe es von meinem Vater—möge Allah mit ihm zufrieden sein—von Muhammad ibn Yahya al-ʿAttar, von Yaʿqub ibn Yazid, von Muhammad ibn Abi ʿUmayr und Safwan ibn Yahya, von ʿUmar ibn Yazid überliefert.",
-          "ru": "Я передал это от моего отца — да будет доволен им Аллах — от Мухаммада ибн Яхья аль-ʿАттара, от Яʿкуба ибн Язида, от Мухаммада ибн Аби ʿУмайра и Сафвана ибн Яхья, от ʿУмара ибн Язида.",
-          "zh": "我从我的父亲—愿真主喜悦他—从穆罕默德伊本雅赫亚al-ʿAttar，从雅各布伊本雅兹德，从穆罕默德伊本阿比ʿUmayr和萨夫万伊本雅赫亚，从ʿUmaribnYazid传述。"
+          "en": "And I have also transmitted it from my father - may Allah be pleased with him - from Abdullah ibn Ja'far al-Himyari, from Muhammad ibn al-Hamid, from Muhammad ibn Umar ibn Yazid, from al-Husayn ibn Umar ibn Yazid, from his father Umar ibn Yazid.",
+          "ur": "اور میں نے بھی اسے اپنے والد سے روایت کیا ہے — اللہ ان سے راضی ہو — عبداللہ بن جعفر الحمیری سے، محمد بن حمید سے، محمد بن عمر بن یزید سے، الحسین بن عمر بن یزید سے، ان کے والد عمر بن یزید سے۔",
+          "tr": "Ben de bunu babamdan (Allah ondan razı olsun), Abdullah ibn Ca'fer el-Himyarî'den, Muhammed ibn el-Hamîd'den, Muhammed ibn Umeyr ibn Yezîd'den, el-Hüseyin ibn Umeyn ibn Umeyr ibn Yezîd'den, babası Umeyr ibn Yezîd'den rivayet ettim.",
+          "fa": "و من نیز آن را از پدرم - رضی الله عنه - از عبدالله بن جعفر الحمیری، از محمد بن الحمید، از محمد بن عمر بن یزید، از الحسین بن عمر بن یزید، از پدرش عمر بن یزید روایت کرده‌ام.",
+          "id": "Dan aku juga telah meriwayatkannya dari ayahku - semoga Allah ridha kepadanya - dari Abdullah bin Ja'far al-Himyari, dari Muhammad bin al-Hamid, dari Muhammad bin Umar bin Yazid, dari al-Hus Yazid, dari al-Husain bin Umar binus Yazid, dari ayahnya Umar binus Yazid.",
+          "bn": "আর আমি এটি আমার পিতা হতে বর্ণনা করেছি, যার প্রতি আল্লাহ রজিযা, আবদুল্লাহ ইবনে জাফর আল-হিমারি হতে, মুহাম্মাদ ইবনে আল-হামিদ হতে, মুহাম্মাদ ইবনে উমর ইবনে যাইদ হতে, আল-হুসাইন ইবনে উমর ইবনে যাইদ হতে, তার পিতা উমর ইবনে যাইদ হতে।",
+          "es": "Y también lo he transmitido de mi padre —que Allah esté complacido con él— de Abdullah ibn Ja'far al-Himyari, de Muhammad ibn al-Hamid, de Muhammad ibn Umar ibn Yazid, de al-Husayn ibn Umar ibn Yazid, de su padre Umar ibn Yazid.",
+          "fr": "Et je l'ai également rapporté de mon père — qu'Allah l'agrée — d'Abdullah ibn Ja'far al-Himyari, de Muhammad ibn al-Hamid, de Muhammad ibn Umar ibn Yazid, d'al-Husayn ibn Umar ibn Yazid, de son père Umar ibn Yazid.",
+          "de": "Und ich habe es auch von meinem Vater – möge Allah mit ihm zufrieden sein – von Abdullah ibn Dscha'far al-Himyari, von Muhammad ibn al-Hamid, von Muhammad ibn Umar ibn Yazid, von al-Husayn ibn Umar ibn Yazid, von seinem Vater Umar ibn Yazid überliefert.",
+          "ru": "И я также передал его от моего отца — да будет доволен им Аллах — от Абдуллаха ибн Джафара аль-Химьяри, от Мухаммада ибн аль-Хамида, от Мухаммада ибн Умара ибн Язида, от аль-Хусайна ибн Умара ибн Язида, от его отца Умара ибн Язида.",
+          "zh": "我还从我的父亲（愿真主喜悦他）传述，从阿卜杜拉·本·贾法尔·海玛里，从穆罕默德·本·哈米德，从穆罕默德·本·欧麦尔·本·叶齐德，从侯赛因·本·欧麦尔·本·叶齐德，从他父亲欧麦尔·本·叶齐德处传述。"
         },
-        "word_start": 9,
-        "word_end": 38
-      },
-      {
-        "chunk_type": "isnad",
-        "arabic_text": "وَ قَدْ رَوَيْتُهُ أَيْضًا عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْحَمِيدِ، عَنْ مُحَمَّدِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنِ الْحُسَيْنِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنْ أَبِيهِ عُمَرِ بْنِ يَزِيدَ.",
-        "translations": {
-          "en": "I have also narrated it from my father—may Allah be pleased with him—from ʿAbdullah ibn Jaʿfar al-Himyari, from Muhammad ibn ʿAbd al-Hamid, from Muhammad ibn ʿUmar ibn Yazid, from al-Husayn ibn ʿUmar ibn Yazid, from his father ʿUmar ibn Yazid.",
-          "ur": "میں نے اسے اپنے والد سے بھی روایت کیا ہے—اللہ ان سے راضی ہو—عبد اللہ بن جعفر الحمیری سے، محمد بن عبد الحمید سے، محمد بن عمر بن یزید سے، حسین بن عمر بن یزید سے، ان کے والد عمر بن یزید سے۔",
-          "tr": "Bunu ayrıca babamdan—Allah ondan razı olsun—ʿAbdullah ibn Jaʿfar al-Himyari’den, Muhammad ibn ʿAbd al-Hamid’den, Muhammad ibn ʿUmar ibn Yazid’den, al-Husayn ibn ʿUmar ibn Yazid’den, onun babası ʿUmar ibn Yazid’den naklettim.",
-          "fa": "آن را همچنین از پدرم—خداوند از او راضی باشد—از عبدالله بن جعفر الحمیری، از محمد بن عبد الحمید، از محمد بن عمر بن یزید، از حسین بن عمر بن یزید، از پدرش عمر بن یزید روایت کرده‌ام.",
-          "id": "Saya juga meriwayatkannya dari ayahku—semoga Allah meridhoi beliau—dari ʿAbdullah ibn Jaʿfar al-Himyari, dari Muhammad ibn ʿAbd al-Hamid, dari Muhammad ibn ʿUmar ibn Yazid, dari al-Husayn ibn ʿUmar ibn Yazid, dari ayahnya ʿUmar ibn Yazid.",
-          "bn": "আমি এটিও আমার পিতা থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি সন্তুষ্ট হন—আব্দুল্লাহ ইবনে জাফর আল-হিমায়রি থেকে, মুহাম্মদ ইবনে আব্দুল হামিদ থেকে, মুহাম্মদ ইবনে উমর ইবনে ইয়াজীদ থেকে, হুসাইন ইবনে উমর ইবনে ইয়াজীদ থেকে, তার পিতা ʿউমার ইবনে ইয়াজীদ থেকে।",
-          "es": "También lo he narrado de mi padre—que Allah esté complacido con él—de ʿAbdullah ibn Jaʿfar al-Himyari, de Muhammad ibn ʿAbd al-Hamid, de Muhammad ibn ʿUmar ibn Yazid, de al-Husayn ibn ʿUmar ibn Yazid, de su padre ʿUmar ibn Yazid.",
-          "fr": "Je l'ai également narré de mon père—qu'Allah soit satisfait de lui—de ʿAbdullah ibn Jaʿfar al-Himyari, de Muhammad ibn ʿAbd al-Hamid, de Muhammad ibn ʿUmar ibn Yazid, de al-Husayn ibn ʿUmar ibn Yazid, de son père ʿUmar ibn Yazid.",
-          "de": "Ich habe es auch von meinem Vater—möge Allah mit ihm zufrieden sein—von ʿAbdullah ibn Jaʿfar al-Himyari, von Muhammad ibn ʿAbd al-Hamid, von Muhammad ibn ʿUmar ibn Yazid, von al-Husayn ibn ʿUmar ibn Yazid, von seinem Vater ʿUmar ibn Yazid überliefert.",
-          "ru": "Я также передал это от моего отца — да будет доволен им Аллах — от ʿАбдуллы ибн Джаʿфара аль-Химьяри, от Мухаммада ибн ʿАбд аль-Хамида, от Мухаммада ибн ʿУмара ибн Язида, от аль-Хусейна ибн ʿУмара ибн Язида, от его отца ʿУмара ибн Язида.",
-          "zh": "我也从我的父亲—愿真主喜悦他—从ʿAbdullahibnJaʿfaral-Himyari，从穆罕默德伊本ʿAbdal-Hamid，从穆罕默德伊本ʿUmaribnYazid，从al-HusaynibnʿUmaribnYazid，从他的父亲ʿUmaribnYazid传述。"
-        },
-        "word_start": 38,
+        "word_start": 37,
         "word_end": 75
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَ رَوَيْتُهُ أَيْضًا عَنْ أَبِي- رَحِمَهُ اللَّهُ- عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ، عَنْ مُحَمَّدِ بْنِ عَبَّاسٍ، عَنْ عُمَرَ بْنِ يَزِيدَ.",
+        "arabic_text": "وَرَوَيْتُهُ أَيْضًا عَنْ أَبِي - رَحِمَهُ اللَّهُ - عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ، عَنْ مُحَمَّدِ بْنِ عَبَّاسٍ، عَنْ عُمَرَ بْنِ يَزِيدَ.",
         "translations": {
-          "en": "And I have also narrated it from my father—may Allah have mercy on him—from ʿAbdullah ibn Jaʿfar al-Himyari, from Muhammad ibn ʿAbd al-Jabbar, from Muhammad ibn Ismaʿil, from Muhammad ibn ʿAbbas, from ʿUmar ibn Yazid.",
-          "ur": "اور میں نے اسے اپنے والد سے بھی روایت کیا ہے—اللہ ان پر رحم کرے—عبد اللہ بن جعفر الحمیری سے، محمد بن عبد الجبار سے، محمد بن اسماعیل سے، محمد بن عباس سے، عمر بن یزید سے۔",
-          "tr": "Ve bunu ayrıca babamdan—Allah ona rahmet eylesin—ʿAbdullah ibn Jaʿfar al-Himyari’den, Muhammad ibn ʿAbd al-Jabbar’dan, Muhammad ibn Ismaʿil’den, Muhammad ibn ʿAbbas’tan, ʿUmar ibn Yazid’den naklettim.",
-          "fa": "و همچنین آن را از پدرم—خداوند بر او رحمت کند—از عبدالله بن جعفر الحمیری، از محمد بن عبد الجبار، از محمد بن اسماعیل، از محمد بن عباس، از عمر بن یزید روایت کرده‌ام.",
-          "id": "Dan saya juga meriwayatkannya dari ayahku—semoga Allah merahmatinya—dari ʿAbdullah ibn Jaʿfar al-Himyari, dari Muhammad ibn ʿAbd al-Jabbar, dari Muhammad ibn Ismaʿil, dari Muhammad ibn ʿAbbas, dari ʿUmar ibn Yazid.",
-          "bn": "এবং আমি এটিও আমার পিতা থেকে বর্ণনা করেছি—আল্লাহ তাঁর উপর রহমত করুন—আব্দুল্লাহ ইবনে জাফর আল-হিমায়রি থেকে, মুহাম্মদ ইবনে আব্দুল জব্বার থেকে, মুহাম্মদ ইবনে ইসমাঈল থেকে, মুহাম্মদ ইবনে আব্বাস থেকে, ʿউমার ইবনে ইয়াজীদ থেকে।",
-          "es": "Y también lo he narrado de mi padre—que Allah tenga misericordia de él—de ʿAbdullah ibn Jaʿfar al-Himyari, de Muhammad ibn ʿAbd al-Jabbar, de Muhammad ibn Ismaʿil, de Muhammad ibn ʿAbbas, de ʿUmar ibn Yazid.",
-          "fr": "Et je l'ai également narré de mon père—qu'Allah ait pitié de lui—de ʿAbdullah ibn Jaʿfar al-Himyari, de Muhammad ibn ʿAbd al-Jabbar, de Muhammad ibn Ismaʿil, de Muhammad ibn ʿAbbas, de ʿUmar ibn Yazid.",
-          "de": "Und ich habe es auch von meinem Vater—möge Allah ihm Barmherzigkeit schenken—von ʿAbdullah ibn Jaʿfar al-Himyari, von Muhammad ibn ʿAbd al-Jabbar, von Muhammad ibn Ismaʿil, von Muhammad ibn ʿAbbas, von ʿUmar ibn Yazid überliefert.",
-          "ru": "И я также передал это от моего отца — да помилует его Аллах — от ʿАбдуллы ибн Джаʿфара аль-Химьяри, от Мухаммада ибн ʿАбд аль-Джаббара, от Мухаммада ибн Исмаила, от Мухаммада ибн ʿАббаса, от ʿУмара ибн Язида.",
-          "zh": "我也从我的父亲—愿真主怜悯他—从ʿAbdullahibnJaʿfaral-Himyari，从穆罕默德伊本ʿAbdal-Jabbar，从穆罕默德伊本Ismaʿil，从穆罕默德伊本ʿAbbas，从ʿUmaribnYazid传述。"
+          "en": "And I have also transmitted it from my father - may Allah have mercy on him - from Abdullah ibn Ja'far al-Himyari, from Muhammad ibn al-Jabbar, from Muhammad ibn Ismail, from Muhammad ibn Abbas, from Umar ibn Yazid.",
+          "ur": "اور میں نے بھی اسے اپنے باپ سے روایت کیا ہے — اللہ ان پر رحم کرے — عبداللہ بن جعفر الحمیری سے، محمد بن جبّر سے، محمد بن اسماعیل سے، محمد بن عباس سے، عمر بن یزید سے۔",
+          "tr": "Ben de onu babamdan (Allah ondan razı olsun), Abdullah ibn Ca'far el-Himyarî'den, Muhammed ibn el-Cebbar'dan, Muhammed ibn İsmail'den, Muhammed ibn Abbastan, Ömer ibn Yezîd'den rivayet ettim.",
+          "fa": "و من نیز آن را از پدرم - خداوند او را بیامرزد - از عبدالله بن جعفر الحمیری، از محمد بن جبّار، از محمد بن اسماعیل، از محمد بن عباس، از عمر بن یزید روایت کرده‌ام.",
+          "id": "Dan saya juga telah meriwayatkannya dari ayah saya - semoga Allah merahmatinya - dari Abdullah bin Ja'far al-Himyari, dari Muhammad bin al-Jabbar, dari Muhammad bin Ismail, dari Muhammad bin Abbas, dari Umar bin Yazid.",
+          "bn": "আর আমি এটি আমার পিতা হতে (আল্লাহ তাঁর রহমত করুন) আবদুল্লাহ ইবনে জাফর আল-হিমারী, মুহাম্মাদ ইবনে আল-জাব্বার, মুহাম্মাদ ইবনে ইসমাঈল, মুহাম্মাদ ইবনে আব্বাস, উমর ইবনে ইয়াযিদ হতে বর্ণনা করেছি।",
+          "es": "Y también lo he transmitido de mi padre —que Allah tenga misericordia de él— de Abdullah ibn Ja'far al-Himyari, de Muhammad ibn al-Jabbar, de Muhammad ibn Ismail, de Muhammad ibn Abbas, de Umar ibn Yazid.",
+          "fr": "Et je l'ai également rapporté de mon père — qu'Allah lui fasse miséricorde — d'Abdullah ibn Ja'far al-Himyari, de Muhammad ibn al-Jabbar, de Muhammad ibn Ismail, de Muhammad ibn Abbas, d'Umar ibn Yazid.",
+          "de": "Und ich habe es auch von meinem Vater – möge Allah ihn gnädig sein lassen – von ihm – von Abdullah ibn Ja'far al-Himyari, von Muhammad ibn al-Jabbar, von Muhammad ibn Ismail, von Muhammad ibn Abbas, von Umar ibn Yazid überliefert.",
+          "ru": "И я также передал его от моего отца — да помилует его Аллах — от Абдуллаха ибн Джафара аль-Химьяри, от Мухаммада ибн аль-Джаббара, от Мухаммада ибн Исмаила, от Мухаммада ибн Аббаса, от Умара ибн Язида.",
+          "zh": "我还从我的父亲（愿真主怜悯他）传述，从阿卜杜拉·本·贾法尔·海玛里，从穆罕默德·本·贾巴尔，从穆罕默德·本·伊斯玛仪，从穆罕默德·本·阿巴斯，从欧麦尔·本·叶齐德传述。"
         },
         "word_start": 75,
-        "word_end": 105
+        "word_end": 106
       }
     ],
     "translations": {
       "en": {
-        "summary": "This passage clarifies the transmission routes used by the author for narrations going back to ʿUmar ibn Yazid. It is a sanad notice that documents multiple chains of transmission, reflecting hadith preservation and source attribution in Shia hadith scholarship.",
-        "seo_question": "What is the chain of transmission for narrations from ʿUmar ibn Yazid in Man La Yahduruhu al-Faqih?",
+        "summary": "This passage from *Man La Yahduruhu al-Faqih* demonstrates the robustness of the *Tawatur* (concurrent transmission) of Umar ibn Yazid’s narrations, as Shaykh al-Saduq cites multiple independent chains converging on him through his father, Ali ibn Ibrahim, and other prominent Kufan scholars. By listing these varied *isnads*, the author emphasizes the reliability and widespread acceptance of Umar ibn Yazid as a trustworthy narrator (*Thiqah*) within the early Shia scholarly tradition, thereby strengthening the authority of the hadiths he transmits.",
+        "seo_question": "How is the chain of narration for Umar ibn Yazid verified in Man La Yahduruhu al-Faqih?",
         "key_terms": {
-          "عَنْ عُمَرَ بْنِ يَزِيدَ": "from ʿUmar ibn Yazid; the principal narrator to whom these reports are traced",
-          "رَوَيْتُهُ": "I narrated it; a transmission formula used by the compiler",
-          "أَبِي": "my father; the immediate transmitting authority of the compiler in these chains",
-          "الْحِمْيَرِيِّ": "al-Himyari; a key transmitter appearing in the chain",
-          "مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ": "Muhammad ibn Abi ʿUmayr; a major transmitter in the sanad"
+          "عُمَرَ بْنِ يَزِيدَ": "Umar ibn Yazid, a prominent companion and narrator of the Imams",
+          "أَبِي": "My father, referring to Ali ibn Ibrahim al-Qummi, a key narrator in the chain",
+          "رَضِيَ اللَّهُ عَنْهُ": "May Allah be pleased with him, a phrase of respect used for the father",
+          "رَحِمَهُ اللَّهُ": "May Allah have mercy on him, another phrase of respect used for the father",
+          "الْحِمْيَرِيِّ": "Al-Himyari, a nisba indicating lineage or origin, attached to Abdullah ibn Ja'far",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "Abdullah ibn Ja'far al-Himyari, a reliable narrator in the chain"
         }
       },
       "ur": {
-        "summary": "یہ عبارت مصنف کے ذریعہ عمر بن یزید تک روایتوں کے سلسلوں کی وضاحت کرتی ہے۔ یہ ایک سندی نوٹس ہے جو متعدد روایت کے سلسلوں کو دستاویزی شکل دیتا ہے، جو شیعہ حدیث کی روایت اور ماخذ کی نسبت کی عکاسی کرتا ہے۔",
-        "seo_question": "من لا یحضره الفقیہ میں عمر بن یزید سے روایتوں کا سلسلہ کیا ہے؟",
-        "key_terms": {}
+        "summary": "یہ متن *من لا یحضرہ الفقیہ* سے ہے جو عمر بن یزید کی روایات کی تواتر کی مضبوطی کو ظاہر کرتا ہے، کیونکہ شیخ صدوق نے علی بن ابراہیم اور دیگر prominent کوفی علماء کے ذریعے ان کے والد کے راستے ان کی طرف ملنے والی متعدد آزاد سلاسلِ سند کا حوالہ دیا ہے۔ ان مختلف اسناد کو بیان کر کے مصنف نے عمر بن یزید کو ابتدائی شیعہ علمی روایت میں ایک قابل اعتماد راوی (ثقة) کے طور پر قابلِ اعتماد اور وسیع پیمانے پر قبول شدہ ہونے پر زور دیا ہے، جس سے ان کی منقولہ احادیث کی authority مضبوط ہوتی ہے۔",
+        "seo_question": "من لا یحضرہ الفقیہ میں عمر بن یزید کی سندِ حدیث کی تصدیق کیسے کی گئی ہے؟",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "عمر بن یزید، ائمہ کے prominent صحابی اور راوی",
+          "أَبِي": "میرے والد، جو کہ سند میں ایک کلیدی راوی علی بن ابراہیم قمی کی طرف اشارہ کرتے ہیں",
+          "رَضِيَ اللَّهُ عَنْهُ": "اللہ ان سے راضی ہو، جو والد کے لیے احترام کے طور پر استعمال ہونے والا ایک جملہ ہے",
+          "رَحِمَهُ اللَّهُ": "اللہ ان پر رحم کرے، والد کے لیے استعمال ہونے والا احترام کا ایک اور جملہ",
+          "الْحِمْيَرِيِّ": "حمیری، ایک نسبہ جو نسب یا اصل کی طرف اشارہ کرتا ہے، جو عبداللہ بن جعفر کے ساتھ منسلک ہے",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "عبداللہ بن جعفر حمیری، سند میں ایک قابل اعتماد راوی"
+        }
       },
       "tr": {
-        "summary": "Bu pasaj, yazarın ʿUmar ibn Yazid'e kadar olan rivayet zincirlerini nasıl kullandığını açıklamaktadır. Bu, Şii hadis ilminde hadislerin korunması ve kaynak atfını yansıtan bir isnad bildirimidir.",
-        "seo_question": "Man La Yahduruhu al-Faqih'te ʿUmar ibn Yazid'den gelen rivayetlerin isnad zinciri nedir?",
-        "key_terms": {}
+        "summary": "Bu metin, *Man La Yahduruhu *Man La Yahduruhu al-Fakih* eserinden alınmıştır ve Ömer bin Yezid'in rivayetlerinin *Tevatur* (peş peşe gelen çok sayıda rivayet) derecesindeki gücünü göstermektedir. Şeyh es-Saduk, babası Ali bin İbrahim ve diğer önde gelen Küfe alimleri üzerinden ona ulaşan bağımsız sened zincirlerini çok sayıda zikrederek bu gücü kanıtlar. Yazar, bu çeşitli *isnad*ları (sened zincirlerini) sıralayarak, Ömer bin Yezid'in erken Şii ilim geleneğinde güvenilir bir râvi (*Sıkka*) olarak güvenilirliğini ve yaygın kabulünü vurgular; böylece onun aktardığı hadislerin otoritesini güçlendirir.",
+        "seo_question": "Man La Yahduruhu al-Fakih'te Ömer bin Yezid'in rivayet zinciri nasıl doğrulanır?",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "Ömer bin Yezid, İmamların önde gelen sahabelerinden ve râvilerinden",
+          "أَبِي": "Babam, sened zincirindeki kilit râvi olan Ali bin İbrahim el-Kummi'yi ifade eder",
+          "رَضِيَ اللَّهُ عَنْهُ": "Allah ondan razı olsun, baba için kullanılan bir saygı ifadesi",
+          "رَحِمَهُ اللَّهُ": "Allah rahmet eylesin, baba için kullanılan başka bir saygı ifadesi",
+          "الْحِمْيَرِيِّ": "El-Himyari, Abdullah bin Ca'far'a eklenmiş bir soy veya köken belirtisi",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "Abdullah bin Ca'far el-Himyari, sened zincirindeki güvenilir râvi"
+        }
       },
       "fa": {
-        "summary": "این بخش مسیرهای انتقال روایت‌هایی که به عمر بن یزید بازمی‌گردد را توسط نویسنده روشن می‌کند. این یک اطلاعیه سند است که چندین زنجیره انتقال را مستند می‌کند و بازتاب حفظ حدیث و نسبت‌دهی منابع در دانش حدیث شیعه است.",
-        "seo_question": "زنجیره انتقال روایت‌ها از عمر بن یزید در من لا یحضره الفقیه چیست؟",
-        "key_terms": {}
+        "summary": "این بخش از کتاب *من لا یحضره الفقیه* استحکام تواتر روایات عمر بن یزید را نشان می‌دهد، چرا که شیخ صدوق با استناد به چندین سند مستقل که از طریق پدرش، علی بن ابراهیم و دیگر علمای برجسته کوفی به او ختم می‌شوند، این امر را تأیید می‌کند. با ذکر این اسناد متنوع، نویسنده بر قابلیت اعتماد و پذیرش گسترده عمر بن یزید به عنوان راوی مورد اعتماد (ثقه) در میان سنت علمی شیعه اولیه تأکید می‌کند و بدین ترتیب اعتبار احادیثی را که او نقل کرده است، تقویت می‌نماید.",
+        "seo_question": "چگونه سند روایت عمر بن یزید در کتاب من لا یحضره الفقیه تأیید می‌شود؟",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "عمر بن یزید، از صحابه برجسته و راویان ائمه",
+          "أَبِي": "پدرم، اشاره به علی بن ابراهیم قمی، راوی کلیدی در سند",
+          "رَضِيَ اللَّهُ عَنْهُ": "رضی الله عنه، عبارتی احترام‌آمیز برای پدر",
+          "رَحِمَهُ اللَّهُ": "رحمه الله، عبارت دیگری از احترام برای پدر",
+          "الْحِمْيَرِيِّ": "حمیری، نسبتی که نشان‌دهنده نسب یا خاستگاه است و به عبدالله بن جعفر پیوسته",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "عبدالله بن جعفر حمیری، راوی مورد اعتماد در سند"
+        }
       },
       "id": {
-        "summary": "Bagian ini menjelaskan jalur transmisi yang digunakan oleh penulis untuk riwayat yang kembali kepada ʿUmar ibn Yazid. Ini adalah pemberitahuan sanad yang mendokumentasikan beberapa rantai transmisi, mencerminkan pelestarian hadits dan atribusi sumber dalam ilmu hadits Syiah.",
-        "seo_question": "Apa rantai transmisi untuk riwayat dari ʿUmar ibn Yazid dalam Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Bagian dari *Man La Yahduruhu al-Faqih* ini menunjukkan kekokohan *Tawatur* (transmisi serentak) dari riwayat Umar bin Yazid, karena Syekh al-Shaduq mengutip beberapa rantai sanad independen yang bertemu padanya melalui ayahnya, Ali bin Ibrahim, dan para ulama Kufah terkemuka lainnya. Dengan mencantumkan berbagai *isnad* ini, penulis menekankan keandalan dan penerimaan luas Umar bin Yazid sebagai perawi yang terpercaya (*Thiqah*) dalam tradisi keilmuan Syiah awal, sehingga memperkuat otoritas hadis-hadis yang ia sampaikan.",
+        "seo_question": "Bagaimana rantai sanad untuk Umar bin Yazid diverifikasi dalam Man La Yahduruhu al-Faqih?",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "Umar bin Yazid, seorang sahabat terkemuka dan perawi para Imam",
+          "أَبِي": "Ayahku, merujuk pada Ali bin Ibrahim al-Qummi, seorang perawi kunci dalam rantai sanad",
+          "رَضِيَ اللَّهُ عَنْهُ": "Semoga Allah meridhainya, sebuah ungkapan hormat yang digunakan untuk ayah",
+          "رَحِمَهُ اللَّهُ": "Semoga Allah memberinya rahmat, ungkapan hormat lainnya yang digunakan untuk ayah",
+          "الْحِمْيَرِيِّ": "Al-Himyari, sebuah nisba yang menunjukkan garis keturunan atau asal-usul, yang melekat pada Abdullah bin Ja'far",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "Abdullah bin Ja'far al-Himyari, seorang perawi yang dapat dipercaya dalam rantai sanad"
+        }
       },
       "bn": {
-        "summary": "এই অংশটি লেখক কর্তৃক ʿUmar ibn Yazid পর্যন্ত বর্ণনার সংক্রমণ পথগুলি স্পষ্ট করে। এটি একটি sanad নোটিশ যা একাধিক বর্ণনা সংক্রমণ শৃঙ্খল নথিভুক্ত করে, যা শিয়া হাদিস গবেষণায় হাদিস সংরক্ষণ এবং উৎস নির্ধারণ প্রতিফলিত করে।",
-        "seo_question": "মান লা ইয়াহদুরুহু আল-ফাকিহ-এ ʿUmar ibn Yazid থেকে বর্ণনার সংক্রমণ শৃঙ্খল কী?",
-        "key_terms": {}
+        "summary": "এই পাঠ্যটি *মান লা ইয়াহদুরুহুল ফাকিহ* থেকে নেওয়া, যা উমর ইবনে যায়িদ বর্ণনাগুলোর *তওয়াতুর* (সমসাময়িক বর্ণনা) এর দৃঢ়তা প্রদর্শন করে, কারণ শাইখ আল-সাদুক তার পিতা, আলী ইবনে ইবরাহিম এবং অন্যান্য প্রখ্যাত কুফান পণ্ডিতদের মাধ্যমে তার দিকে নিয়ে যাওয়া একাধিক স্বতন্ত্র বর্ণনা শৃঙ্খলা উদ্ধৃত করেন। এই বিভিন্ন *ইসনাদ* তালিকাভুক্ত করে, লেখক উমর ইবনে যায়িদকে প্রাথমিক শিয়া পণ্ডিত্য ঐতিহ্যে একজন নির্ভরযোগ্য বর্ণনাকারী (*থিকাহ*) হিসেবে তার নির্ভরযোগ্যতা এবং ব্যাপক গ্রহণযোগ্যতা জোর দিয়েছেন, যা তার দ্বারা হাদিস বর্ণনা করার কর্তৃত্বকে শক্তিশালী করে।",
+        "seo_question": "মান লা ইয়াহদুরুহুল ফাকিহ-এ উমর ইবনে যায়িদের বর্ণনা শৃঙ্খলা কীভাবে যাচাই করা হয়?",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "উমর ইবনে যায়িদ, ইমামদের একজন প্রখ্যাত সাহাবী এবং বর্ণনাকারী",
+          "أَبِي": "আমার পিতা, শৃঙ্খলায় একটি মূল বর্ণনাকারী আলী ইবনে ইবরাহিম আল-কুম্মিকে নির্দেশ করে",
+          "رَضِيَ اللَّهُ عَنْهُ": "আল্লাহ তাকে সন্তুষ্ট হোন, পিতার জন্য ব্যবহৃত সম্মানের একটি বাক্যাংশ",
+          "رَحِمَهُ اللَّهُ": "আল্লাহ তাকে রহমত করুন, পিতার জন্য আরেকটি সম্মানের বাক্যাংশ",
+          "الْحِمْيَرِيِّ": "আল-হিময়ারি, আবদুল্লাহ ইবনে জাফরের সাথে যুক্ত বংশ বা উৎপত্তি নির্দেশকারী একটি নিসবা",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "আবদুল্লাহ ইবনে জাফর আল-হিময়ারি, শৃঙ্খলায় একজন নির্ভরযোগ্য বর্ণনাকারী"
+        }
       },
       "es": {
-        "summary": "Este pasaje aclara las rutas de transmisión utilizadas por el autor para las narraciones que se remontan a ʿUmar ibn Yazid. Es un aviso de sanad que documenta múltiples cadenas de transmisión, reflejando la preservación del hadiz y la atribución de fuentes en la erudición del hadiz chií.",
-        "seo_question": "¿Cuál es la cadena de transmisión para las narraciones de ʿUmar ibn Yazid en Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Este pasaje de *Man La Yahduruhu al-Faqih* demuestra la solidez del *Tawatur* (transmisión concurrente) de las narraciones de Umar ibn Yazid, ya que Shaykh al-Saduq cita múltiples cadenas independientes que convergen en él a través de su padre, Ali ibn Ibrahim, y otros prominentes eruditos de Kufa. Al enumerar estas diversas *isnads*, el autor enfatiza la fiabilidad y la aceptación generalizada de Umar ibn Yazid como narrador confiable (*Thiqah*) dentro de la tradición erudita chií temprana, fortaleciendo así la autoridad de los hadices que transmite.",
+        "seo_question": "¿Cómo se verifica la cadena de narración de Umar ibn Yazid en Man La Yahduruhu al-Faqih?",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "Umar ibn Yazid, un compañero prominente y narrador de los Imames",
+          "أَبِي": "Mi padre, refiriéndose a Ali ibn Ibrahim al-Qummi, un narrador clave en la cadena",
+          "رَضِيَ اللَّهُ عَنْهُ": "Que Allah esté complacido con él, una frase de respeto utilizada para el padre",
+          "رَحِمَهُ اللَّهُ": "Que Allah tenga misericordia de él, otra frase de respeto utilizada para el padre",
+          "الْحِمْيَرِيِّ": "Al-Himyari, una nisba que indica linaje u origen, adjunta a Abdullah ibn Ja'far",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "Abdullah ibn Ja'far al-Himyari, un narrador confiable en la cadena"
+        }
       },
       "fr": {
-        "summary": "Ce passage clarifie les chaînes de transmission utilisées par l'auteur pour les narrations remontant à ʿUmar ibn Yazid. Il s'agit d'un avis de sanad qui documente plusieurs chaînes de transmission, reflétant la préservation du hadith et l'attribution des sources dans la science du hadith chiite.",
-        "seo_question": "Quelle est la chaîne de transmission des narrations de ʿUmar ibn Yazid dans Man La Yahduruhu al-Faqih ?",
-        "key_terms": {}
+        "summary": "Ce passage de *Man La Yahduruhu al-Faqih* démontre la robustesse du *Tawatur* (transmission simultanée) des narrations d'Oumar ibn Yazid, car le Cheikh al-Sadouq cite plusieurs chaînes indépendantes qui convergent vers lui par l'intermédiaire de son père, Ali ibn Ibrahim, et d'autres éminents savants koufites. En énumérant ces différentes *isnads*, l'auteur souligne la fiabilité et l'acceptation généralisée d'Oumar ibn Yazid en tant que narrateur digne de confiance (*Thiqah*) au sein de la tradition savante chiite primitive, renforçant ainsi l'autorité des hadiths qu'il transmet.",
+        "seo_question": "Comment la chaîne de narration d'Oumar ibn Yazid est-elle vérifiée dans *Man La Yahduruhu al-Faqih* ?",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "Oumar ibn Yazid, un compagnon et narrateur éminent des Imams",
+          "أَبِي": "Mon père, se référant à Ali ibn Ibrahim al-Qoummi, un narrateur clé dans la chaîne",
+          "رَضِيَ اللَّهُ عَنْهُ": "Que Allah soit satisfait de lui, une formule de respect utilisée pour le père",
+          "رَحِمَهُ اللَّهُ": "Que Allah lui fasse miséricorde, une autre formule de respect utilisée pour le père",
+          "الْحِمْيَرِيِّ": "Al-Himyari, une nisba indiquant la lignée ou l'origine, attachée à Abdullah ibn Ja'far",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "Abdullah ibn Ja'far al-Himyari, un narrateur fiable dans la chaîne"
+        }
       },
       "de": {
-        "summary": "Dieser Abschnitt erläutert die vom Autor verwendeten Überlieferungsketten, die bis zu ʿUmar ibn Yazid zurückreichen. Es ist ein Sanad-Hinweis, der mehrere Überlieferungsketten dokumentiert und die Hadith-Bewahrung sowie Quellenangabe in der schiitischen Hadith-Wissenschaft widerspiegelt.",
-        "seo_question": "Wie lautet die Überlieferungskette der Erzählungen von ʿUmar ibn Yazid in Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Dieser Abschnitt aus *Man La Yahduruhu al-Faqih* belegt die Robustheit der *Tawatur* (gleichzeitige Überlieferung) der Überlieferungen von Umar ibn Yazid, da Schekh al-Saduq mehrere unabhängige Ketten zitiert, die sich durch seinen Vater Ali ibn Ibrahim und andere prominente Gelehrte aus Kufa auf ihn zubewegen. Durch die Auflistung dieser verschiedenen *Isnads* betont der Autor die Zuverlässigkeit und weit verbreitete Akzeptanz von Umar ibn Yazid als vertrauenswürdiger Überlieferer (*Thiqah*) innerhalb der frühen schiitischen Gelehrtentradition und stärkt damit die Autorität der von ihm überlieferten Hadithe.",
+        "seo_question": "Wie wird die Überlieferungskette für Umar ibn Yazid in Man La Yahduruhu al-Faqih verifiziert?",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "Uar ibn Yazid, ein prominenter Gefährte und Überlieferer der Imame",
+          "أَبِي": "Mein Vater, bezieht sich auf Ali ibn Ibrahim al-Qummi, einen Schlüsselüberlieferer in der Kette",
+          "رَضِيَ اللَّهُ عَنْهُ": "Möge Allah mit ihm zufrieden sein, eine Ehrerbietungsformel, die für den Vater verwendet wird",
+          "رَحِمَهُ اللَّهُ": "Möge Allah ihm barmherzig sein, eine weitere Ehrerbietungsformel, die für den Vater verwendet wird",
+          "الْحِمْيَرِيِّ": "Al-Himyari, eine Nisba, die die Abstammung oder Herkunft angibt, angehängt an Abdullah ibn Ja'far",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "Abdullah ibn Ja'far al-Himyari, ein zuverlässiger Überlieferer in der Kette"
+        }
       },
       "ru": {
-        "summary": "Этот отрывок разъясняет пути передачи, использованные автором для преданий, восходящих к ʿУмару ибн Язиду. Это уведомление о санаде, документирующее несколько цепочек передачи, отражающее сохранение хадисов и атрибуцию источников в шиитском хадисоведении.",
-        "seo_question": "Какова цепочка передачи преданий от ʿУмара ибн Язида в «Ман Ла Яхдуруху аль-Факих»?",
-        "key_terms": {}
+        "summary": "В этом отрывке из «Ман ля йахдуруху аль-факих» демонстрируется надёжность передачи (таватур) преданий Умара ибн Язида, так как шейх ас-Садуq приводит несколько независимых цепочек (иснадов), сходящихся к нему через его отца, Али ибн Ибрахима, и других видных куфских учёных. Перечисляя эти различные иснады, автор подчёркивает достоверность и широкое признание Умара ибн Язида как надёжного передатчика (сахи) в ранней шиитской учёной традиции, тем самым укрепляя авторитет хадисов, которые он передаёт.",
+        "seo_question": "Как проверяется цепочка передачи (иснад) для Умара ибн Язида в книге «Ман ля йахдуруху аль-факих»?",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "Умар ибн Язид, видный сподвижник и передатчик преданий Имамов",
+          "أَبِي": "Отец мой, имеется в виду Али ибн Ибрахим аль-Кумми, ключевой передатчик в цепочке",
+          "رَضِيَ اللَّهُ عَنْهُ": "Да будет доволен им Аллах, фраза уважения, используемая по отношению к отцу",
+          "رَحِمَهُ اللَّهُ": "Да помилует его Аллах, ещё одна фраза уважения, используемая по отношению к отцу",
+          "الْحِمْيَرِيِّ": "Аль-Химьяри, нисба, указывающая на происхождение или род, присоединённая к Абдуллаху ибн Джафару",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "Абдуллах ибн Джафар аль-Химьяри, надёжный передатчик в цепочке"
+        }
       },
       "zh": {
-        "summary": "本段阐明了作者用于传述回溯至ʿUmaribnYazid的传承路线。这是一个记录多条传承链的sanad通知，反映了什叶派圣训学中圣训的保存与来源归属。",
-        "seo_question": "ManLaYahduruhual-Faqih中来自ʿUmaribnYazid的传述链是什么？",
-        "key_terms": {}
+        "summary": "这段出自《法赫德所不知者》（Man La Yahduruhu al-Faqih）的经文展示了欧麦尔·本·叶齐德（Umar ibn Yazid）的传述具有高度的“泰瓦图尔”（Tawatur，即众传）可靠性，因为谢赫·萨杜格（Shaykh al-Saduq）引用了多条独立的传述链，通过其父阿里·本·易卜拉欣（Ali ibn Ibrahim）及其他库法（Kufan）著名学者汇聚于他。通过列举这些不同的“伊斯纳德”（isnads，传述链），作者强调了欧麦尔·本·叶齐德作为早期什叶派学术传统中值得信赖的传述者（Thiqah）的可靠性和广泛接受度，从而加强了他所传圣训的权威性。",
+        "seo_question": "在《法赫德所不知者》中，欧麦尔·本·叶齐德的传述链是如何被验证的？",
+        "key_terms": {
+          "عُمَرَ بْنِ يَزِيدَ": "欧麦尔·本·叶齐德，一位著名的伊玛目同伴及传述者",
+          "أَبِي": "我的父亲，指阿里·本·易卜拉欣·库米，传述链中的关键传述者",
+          "رَضِيَ اللَّهُ عَنْهُ": "愿真主喜悦他，用于对父亲的尊称短语",
+          "رَحِمَهُ اللَّهُ": "愿真主怜悯他，用于对父亲的另一尊称短语",
+          "الْحِمْيَرِيِّ": "希姆亚里，表示血统或起源的 nisba，附加于阿卜杜拉·本·贾法尔",
+          "عَبْدُ اللَّهِ بْنِ جَعْفَرٍ": "阿卜杜拉·本·贾法尔·希姆亚里，传述链中可靠的传述者"
+        }
       }
     },
-    "related_quran": [],
-    "diacritized_text": "وَ مَا كَانَ فِي هَ عَنْ عُمَرَ بْنِ يَزِيدَ فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ يَعْقُوبَ بْنِ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَ صَفْوَانَ بْنِ يَحْيَى عَنْ عُمَرَ بْنِ يَزِيدَ. وَ قَدْ رَوَيْتُهُ أَيْضًا عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْحَمِيدِ، عَنْ مُحَمَّدِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنِ الْحُسَيْنِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنْ أَبِيهِ عُمَرِ بْنِ يَزِيدَ. وَ رَوَيْتُهُ أَيْضًا عَنْ أَبِي- رَحِمَهُ اللَّهُ- عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ، عَنْ مُحَمَّدِ بْنِ عَبَّاسٍ، عَنْ عُمَرَ بْنِ يَزِيدَ.",
+    "related_quran": [
+      {
+        "ref": "3:78",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "49:6",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا كَانَ فِيهِ عَنْ عُمَرَ بْنِ يَزِيدَ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ يَعْقُوبَ بْنِ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ وَصَفْوَانَ بْنِ يَحْيَى، عَنْ عُمَرَ بْنِ يَزِيدَ. وَقَدْ رَوَيْتُهُ أَيْضًا عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْحَمِيدِ، عَنْ مُحَمَّدِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنِ الْحُسَيْنِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنْ أَبِيهِ عُمَرَ بْنِ يَزِيدَ. وَرَوَيْتُهُ أَيْضًا عَنْ أَبِي - رَحِمَهُ اللَّهُ - عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ، عَنْ مُحَمَّدِ بْنِ عَبَّاسٍ، عَنْ عُمَرَ بْنِ يَزِيدَ.",
     "isnad_matn": {
-      "isnad_ar": "فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ يَعْقُوبَ بْنِ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ؛ وَ صَفْوَانَ بْنِ يَحْيَى عَنْ عُمَرَ بْنِ يَزِيدَ. وَ قَدْ رَوَيْتُهُ أَيْضًا عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْحَمِيدِ، عَنْ مُحَمَّدِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنِ الْحُسَيْنِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنْ أَبِيهِ عُمَرِ بْنِ يَزِيدَ. وَ رَوَيْتُهُ أَيْضًا عَنْ أَبِي- رَحِمَهُ اللَّهُ- عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ، عَنْ مُحَمَّدِ بْنِ عَبَّاسٍ، عَنْ عُمَرَ بْنِ يَزِيدَ.",
-      "matn_ar": "وَ مَا كَانَ فِي هَ عَنْ عُمَرَ بْنِ يَزِيدَ",
+      "isnad_ar": "وَمَا كَانَ فِيهِ عَنْ عُمَرَ بْنِ يَزِيدَ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ يَعْقُوبَ بْنِ يَزِيدَ، عَنْ مُحَمَّدِ بْنِ أَبِي عُمَيْرٍ وَصَفْوَانَ بْنِ يَحْيَى، عَنْ عُمَرَ بْنِ يَزِيدَ. وَقَدْ رَوَيْتُهُ أَيْضًا عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْحَمِيدِ، عَنْ مُحَمَّدِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنِ الْحُسَيْنِ بْنِ عُمَرَ بْنِ يَزِيدَ، عَنْ أَبِيهِ عُمَرَ بْنِ يَزِيدَ. وَرَوَيْتُهُ أَيْضًا عَنْ أَبِي - رَحِمَهُ اللَّهُ - عَنْ عَبْدِ اللَّهِ بْنِ جَعْفَرٍ الْحِمْيَرِيِّ، عَنْ مُحَمَّدِ بْنِ عَبْدِ الْجَبَّارِ، عَنْ مُحَمَّدِ بْنِ إِسْمَاعِيلَ، عَنْ مُحَمَّدِ بْنِ عَبَّاسٍ، عَنْ عُمَرَ بْنِ يَزِيدَ.",
+      "matn_ar": "ه عن عمر بن يزيد فقد رويته عن أبي- رضي اللّه عنه- عن محمّد ابن يحيى العطّار، عن يعقوب بن يزيد، عن محمّد بن أبي عمير؛ و صفوان بن يحيى عن عمر بن يزيد. و قد رويته أيضا عن أبي- رضي اللّه عنه- عن عبد اللّه بن جعفر الحميريّ عن محمّد بن عبد الحميد، عن محمّد بن عمر بن يزيد، عن الحسين بن عمر بن يزيد، عن أبيه عمر بن يزيد. و رويته أيضا عن أبي- رحمه اللّه- عن عبد اللّه بن جعفر الحميريّ عن محمّد بن عبد الجبّار، عن محمّد بن إسماعيل، عن محمّد بن عبّاس، عن عمر بن يزيد.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "ما كان في",
-          "name_en": "",
+          "name_en": "Ma kana fi",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -194,6 +253,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

@@ -1,0 +1,252 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:172:5",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 22 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): '[منها في ذكر أصحاب الجمل :] فَخَرَجُوا يَجُرُّونَ حُرْمَةَ ر'"
+  ],
+  "result": {
+    "tags": [
+      "history",
+      "social_relations",
+      "governance"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "companions",
+      "events",
+      "imams_biography",
+      "leadership",
+      "justice_system"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "[مِنْهَا فِي ذِكْرِ أَصْحَابِ الْجَمَل:]",
+        "translations": {
+          "en": "[A part of the same sermon Describing the people of Jamal:]",
+          "ur": "[اسی خطبے کا ایک حصہ: دجیل کے لوگوں کا ذکر:]",
+          "tr": "[Aynı hutbenin bir bölümü: Deve Ehli'nin zikri hakkında:]",
+          "fa": "[از آن جمله در ذکر اصحاب جمل:]",
+          "id": "[Sebagian dari khutbah yang sama: Menceritakan tentang pengikut unta (Ashab al-Jamal):]",
+          "bn": "[এই খুতবার একটি অংশ, জামালীদের বর্ণনা:]",
+          "es": "[Una parte del mismo sermón: Descripción de la gente de Jamal:]",
+          "fr": "[Une partie du même sermon : Description des gens de Jamâ] :",
+          "de": "[Ein Teil desselben Sermons: Die Beschreibung der Leute des Kamels (Dschamal):]",
+          "ru": "[Из того же хутбы: Описывающий людей Камелевых:]",
+          "zh": "【其中关于描述驼队之人的部分：】"
+        },
+        "word_start": 0,
+        "word_end": 5
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَخَرَجُوا يَجُرُّونَ حُرْمَةَ رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) كَمَا تُجَرُّ الْأَمَةُ عِنْدَ شِرَائِهَا، مُتَوَجِّهِينَ بِهَا إِلَى الْبَصْرَةِ، فَحَبَسَا نِسَاءَ هُمَا فِي بُيُوتِهِمَا، وَأَبْرَزَا حَبِيسَ رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) لَهُمَا وَلِغَيْرِهِمَا، فِي جَيْشٍ مَا مِنْهُمْ رَجُلٌ إِلَّا وَقَدْ أَعْطَانِي الطَّاعَةَ، وَسَمَحَ لِي بِالْبَيْعَةِ، طَائِعاً غَيْرَ مُكْرَه، فَقَدِمُوا عَلَى عَامِلِي بِهَا وَخُزَّانِ بَيْتِ مَالِ الْمُسْلِمِينَ وَغَيْرِهِمْ مِنْ أَهْلِهَا، فَقَتَلُوا طَائِفَةً صَبْراً، وَطَائِفَةً غَدْراً.",
+        "translations": {
+          "en": "They (Ṭalḥah, az-Zubayr and their supporters) came out dragging the wife of the Messenger of Allāh — the peace and blessing of Allāh be upon him and his descendants — just as a maidslave is dragged for sale. They took her to Baṣrah where those two (Ṭalḥah and az-Zubayr) put their own women in their houses but exposed the wife of the Messenger of Allāh to themselves and to others in the army in which there was not a single individual who had not offered me his obedience and sworn to me allegiance quite obediently, without any compulsion. Here in Baṣrah they approached my governor and treasurers of the public treasury and its other inhabitants. They killed some of them in captivity and others by treachery.",
+          "ur": "وہ (طلحہ، زبیر اور ان کے ساتھی) رسول اللہ کی بیوی کو کھینچتے ہوئے باہر آئے — اللہ کی سلامتی اور برکتیں اس پر اور اس کی اولاد پر ہوں — جیسے غلامی بیچی جاتی ہے۔ انہوں نے اسے بصرہ لے گئے جہاں ان دونوں (طلحہ اور زبیر) نے اپنی عورتوں کو اپنے گھروں میں رکھا لیکن رسول اللہ کی بیوی کو اپنے اور فوج کے دیگر افراد کے سامنے کھلا چھوڑ دیا، جن میں سے ہر ایک نے مجھے بے تکلف طور پر اطاعت کی اور مجھے بے جبر بیعت کی۔ یہاں بصرہ میں انہوں نے میرے گورنر اور خزانے کے دیگر اہلکاروں کے پاس پہنچے۔ انہوں نے بعض کو قید میں اور بعض کو دغا سے قتل کر دیا۔",
+          "tr": "Onlar (Talhâ, ez-Zübeyr ve taraftarları) Allah’ın peygamberinin eşini — Allah’ın salât ve selâmı onun ve nesline olsun — bir köle kızı gibi sürükleyerek dışarı çıkardılar. Onu Basra’ya götürdüler; orada ikisi (Talhâ ve ez-Zübeyr) kendi kadınlarını evlerinde saklarken, Allah’ın peygamberinin eşini, kendilerine ve içinde itaatimi ve biatımı hiçbir zorlama olmaksızın tam bir itaatle sunmuş olan tek bir kişi bile bulunmayan ordudaki diğerlere açıkça maruz bıraktılar. İşte Basra’da benim valilerime, hazinenin diğer görevlilerine ve oranın diğer halkına yaklaştılar. Onlardan bazısını esaret sırasında, bazısını da hıyanetle öldürdüler.",
+          "fa": "آنان (طلحه، زبیر و پیروانشان) همسر پیامبر خدا (صلوات و سلام خدا بر او و خاندانش) را کشان‌کشان بیرون آوردند، چنان‌که کنیزی را برای فروش می‌کشند. آنان او را به بصره بردند، جایی که آن دو (طلحه و زبیر) زنان خود را در خانه‌هایشان پنهان کردند، اما همسر پیامبر خدا را در برابر خود و دیگران در لشکری که هیچ فردی در آن نبود که به من بی‌اجبار و کاملاً مطیع بیعت نکرده باشد، آشکار گذاشتند. در بصره، آنان به سوی فرماندار من و خزانه‌داران بیت‌المال و دیگر ساکنان آن رفتند. برخی از آنان را در اسارت کشتند و برخی را به حیله.",
+          "id": "Mereka (Ṭalḥalah, az-Zubayr dan para pendukungnya) keluar sambil menyeret istri Rasulullah — shallallāhu ‘alaihi wa sallam dan para keturunannya — sebagaimana seorang budak perempuan diseret untuk dijual. Mereka membawanya ke Bashrah, di mana kedua orang itu (Ṭalḥah dan az-Zubayr) menempatkan istri-istri mereka di rumah-rumah mereka, tetapi memaparkan istri Rasulullah kepada diri mereka sendiri dan kepada orang-orang lain dalam pasukan yang tidak ada seorang pun di antaranya yang tidak memberikan ketaatan kepadaku dan bersumpah setia kepadaku dengan sungguh-sungguh, tanpa paksaan. Di Bashrah, mereka mendekati gubernurku dan para bendahara baitul mal serta penduduk lainnya. Mereka membunuh sebagian dari mereka dalam keadaan ditawan, dan sebagian lainnya karena khianat.",
+          "bn": "তারা (ত (তালহা, যুবায়ের এবং তাদের অনুসারীরা) রাসূলুল্লাহ্‌ের স্ত্রীকে টেনে নিয়ে এলেন — আল্লাহ্‌র রহমত ও বরকত তাঁর উপর এবং তাঁর বংশধরদের উপর থাকুক — ঠিক যেমন একজন দাসীকে বিক্রির জন্য টানা হয়। তারা তাকে বাসরায় নিয়ে গেল, যেখানে ওই দুজন (তালহা ও যুবায়ের) নিজ নিজ স্ত্রীদের বাড়িতে রাখল, কিন্তু রাসূলুল্লাহ্‌ের স্ত্রীকে নিজেরা এবং সেই সেনাবাহিনীর অন্যান্য লোকদের সামনে উন্মুক্ত করে রাখল, যে সেনাবাহিনীতে এমন কোনো ব্যক্তি ছিল না যে আমার প্রতি আনুগত্য স্বীকার করেনি এবং আমার কাছে শপথবদ্ধ হয়নি, সম্পূর্ণ আনুগত্যের সাথে, কোনো জোরজবরদস্তি ছাড়াই। এখানে বাসরায় তারা আমার গভর্নর এবং সরকারি খাজানার অন্যতম ব্যক্তিদের কাছে গেল। তারা কয়েদী অবস্থায় কিছুকে হত্যা করল এবং অন্যদের বিশ্বাসঘাতকতার মাধ্যমে হত্যা করল।",
+          "es": "Salieron arrastrando a la esposa del Mensajero de Alá —que la paz y las bendiciones de Alá sean con él y con sus descendientes—, tal como se arrastra a una esclava para venderla. La llevaron a Basora, donde aquellos dos (Ṭalḥah y az-Zubayr) dejaron a sus propias mujeres en sus casas, pero expusieron a la esposa del Mensajero de Alá a ellos mismos y a los demás en el ejército, en el cual no había un solo individuo que no me hubiera ofrecido su obediencia y jurado lealtad de manera muy obediente, sin ninguna coacción. Aquí en Basora se acercaron a mi gobernador y a los tesoreros del erario público y a sus demás habitantes. Mataron a algunos de ellos en cautiverio y a otros por traición.",
+          "fr": "Ils (Ṭalḥah, az-Zubayr et leurs partisans) sortirent en traînant l'épouse du Messager d'Allāh — que la paix et la bénédiction d'Allāh soient sur lui et sur ses descendants — comme on traîne une esclave pour la vendre. Ils la conduisirent à Baṣrah, où ces deux-là (Ṭalḥah et az-Zubayr) installèrent leurs propres femmes dans leurs maisons, mais exposèrent l'épouse du Messager d'Allāh à eux-mêmes et aux autres dans l'armée, dans laquelle il n'y avait pas un seul individu qui ne m'eût offert son obéissance et prêté serment d'allégeance, avec une entière obéissance, sans aucune contrainte. Ici, à Baṣrah, ils s'approchèrent de mon gouverneur et des trésoriers du trésor public et des autres habitants. Ils tuèrent certains d'entre eux en captivité et d'autres par trahison.",
+          "de": "Sie (Ṭalḥah, az-Zubayr und ihre Anhänger) zogen die Frau des Gesandten Allahs — dem Frieden und Segen Allahs sei er und seine Nachkommen gewidmet — heraus, so wie eine Sklavin zum Verkauf geschleppt wird. Sie brachten sie nach Baṣrah, wo jene beiden (Ṭalḥah und az-Zubayr) ihre eigenen Frauen in ihre Häuser brachten, aber die Frau des Gesandten Allahs sich selbst und den anderen in der Armee aussetzten, in der es keinen einzigen Menschen gab, der nicht mir seinen Gehorsam angeboten und mir treu und ohne Zwang die Treue geschworen hatte. Hier in Baṣrah suchten sie meinen Statthalter und die Schatzmeister der öffentlichen Kasse sowie die anderen Bewohner auf. Sie töteten einige von ihnen in Gefangenschaft und andere durch Verrat.",
+          "ru": "Они (Тальха, аз-Зубайр и их сторонники) вывели жену Посланника Аллаха — да будут мир и благословение Аллаха над ним и его потомством — волоча её, подобно рабыне, которую тащат на продажу. Они привезли её в Басру, где эти двое (Тальха и аз-Зубайр) поместили своих жён в свои дома, а жену Посланника Аллаха выставили напоказ для них самих и для остальных в армии, в которой не было ни единого человека, который не оказал бы мне покорность и не присягнул мне верность с полным послушанием, без какого-либо принуждения. Здесь, в Басре, они обратились к моему наместнику и казначеям государственной казны и к другим её обитателям. Одних из них они убили в плену, а других — предательски.",
+          "zh": "他们（塔勒哈、祖拜尔及其支持者）拖着真主的使者（愿真主的平安和祝福降临于他和他的后裔）的妻子出来，犹如女奴被拖去出售一般。他们将她带到巴士拉，在那里，这两位（塔勒哈和祖拜尔）将自己的妻子安置在屋内，却将真主的使者（愿真主的平安和祝福降临于他）的妻子暴露在军队中，任由他们观看，而军中无一人未向我效忠并宣誓归顺，且完全出于自愿，毫无强迫。在巴士拉，他们找到我的总督和国库的其他官员及居民。他们杀死了一些被俘者，另一些则死于背信弃义。"
+        },
+        "word_start": 5,
+        "word_end": 69
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This passage from Nahj al-Balagha details the departure of Aisha, Talha, and Zubayr for the Battle of Jamal, emphasizing that Aisha was brought out of her residence and paraded before the army, a move interpreted by Shia scholars as a political spectacle to legitimize their cause. The text highlights the contrast between the confinement of the commanders' own wives and the public exposure of the Prophet's daughter, underscoring the unique status of Fatimah al-Zahra (peace be upon her) and the strategic use of her presence to rally troops who had already pledged allegiance.",
+        "seo_question": "How was Fatimah al-Zahra treated during the Battle of Jamal according to Nahj al-Balagha?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "People of Jamal (the companions of Aisha who fought Ali ibn Abi Talib)",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "The sanctity/wife of the Messenger of Allah (referring to Fatimah al-Zahra)",
+          "الْبَيْعَة": "Allegiance/Oath of office",
+          "بَيْتُ الْمَال": "Public treasury",
+          "صَبْراً": "In captivity/detention",
+          "غَدْراً": "By treachery/betrayal"
+        }
+      },
+      "ur": {
+        "summary": "نہج البلاغہ کا یہ حصہ جنگِ جمیل میں عائشہ، طلحہ اور زبیر کے روانہ ہونے کی تفصیل بیان کرتا ہے، جس میں زور دیا گیا ہے کہ عائشہ کو اپنے گھر سے نکال کر فوج کے سامنے گھمایا گیا، جسے شیعہ علماء نے اپنے حق کو جائز ٹھہرانے کے لیے ایک سیاسی نمائش کے طور پر دیکھا۔ متن میں کمانڈروں کی اپنی بیویوں کی حراست اور نبی کی بیٹی کی عوامی نمائش کے درمیان تضاد کو اجاگر کیا گیا ہے، جو فاطمہ الزہرا (علیہا السلام) کی منفرد حیثیت اور ان کے موجودہ ہونے کو فوج کو اکٹھا کرنے کے لیے حکمت عملی کے استعمال کو واضح کرتا ہے، جنہوں نے پہلے ہی بیعت کر لی تھی۔",
+        "seo_question": "نہج البلاغہ کے مطابق جنگِ جمیل کے دوران فاطمہ الزہرا کا کیا سلوک کیا گیا؟",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "اہلِ جمیل",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "حرمۃ رسول اللہ",
+          "الْبَيْعَة": "بیعت",
+          "بَيْتُ الْمَال": "بیت المال",
+          "صَبْراً": "قید میں",
+          "غَدْراً": "خیانت سے"
+        }
+      },
+      "tr": {
+        "summary": "Bu pasaj, Nahcülbelâğa'dan olup, Aise, Talha ve Zübeyr'in Cemel Savaşı'na çıkışını detaylandırıyor; Aise'in ikametgâhından çıkarılıp ordu önünde gezdirildiğini vurguluyor. Bu hareket, Şia alimleri tarafından, davalarını meşrulaştırmak için bir siyasi gösteri olarak yorumlanmıştır. Metin, komutanların kendi eşlerinin hapsedilmesi ile Peygamber'in kızı olan Fatıma ez-Zehra'nın (ona selam olsun) kamuya açık şekilde gösterilmesi arasındaki zıtlığı öne çıkararak, Fatıma ez-Zehra'nın benzersiz statisini ve sadakat yemini etmiş askerleri toplamak için onun varlığının stratejik kullanımını vurgulamaktadır.",
+        "seo_question": "Nahcülbelâğa'ya göre Cemel Savaşı sırasında Fatıma ez-Zehra'ya nasıl muamele edildi?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "Cemel Ehli (Aise'in Ali bin Ebi Talip'e karşı savaştığı arkadaşlar)",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "Allah'ın Peygamberinin hürmeti/eşi (Fatıma ez-Zehra'yı ifade eder)",
+          "الْبَيْعَة": "Sadakat/Oturma yemini",
+          "بَيْتُ الْمَال": "Hazine-i Amme",
+          "صَبْراً": "Hapiste/tevkifte",
+          "غَدْراً": "Hileyle/ihanetle"
+        }
+      },
+      "fa": {
+        "summary": "این بخش از نهج‌البلاغه به خروج عایشه، طلحه و زبیر برای جنگ جمل می‌پردازد و تأکید می‌کند که عایشه از خانه خود بیرون آورده شد و پیش از سپاه به نمایش گذاشته شد؛ اقدامی که توسط علمای شیعه به عنوان یک نمایش سیاسی برای مشروعیت‌بخشی به cause آن‌ها تفسیر شده است. متن تضاد میان محبوس بودن همسران فرماندهان و آشکار شدن دختر پیامبر را برجسته می‌کند و جایگاه منحصر به فرد فاطمه زهرا (سلام‌الله‌علیها) و استفاده راهبردی از حضور او برای بسیج نیروهایی که پیش‌تر بیعت کرده بودند را تأکید می‌ورزد.",
+        "seo_question": "فاطمه زهرا در جنگ جمل طبق نهج‌البلاغه چگونه مورد برخورد قرار گرفت؟",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "اصحاب جمل",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "حرمت رسول‌الله",
+          "الْبَيْعَة": "بیعت",
+          "بَيْتُ الْمَال": "بیت‌المال",
+          "صَبْراً": "در حبس",
+          "غَدْراً": "به خیانت"
+        }
+      },
+      "id": {
+        "summary": "Teks ini dari Nahj al-Balagha mendetailkan keberangkatan Aisyah, Thalhah, dan Zubayr menuju Perang Jamal, dengan penekanan bahwa Aisyah dikeluarkan dari kediamannya dan diarak di hadapan pasukan, sebuah langkah yang ditafsirkan oleh ulama Syiah sebagai tontonan politik untuk melegitimasi urusan mereka. Teks ini menyoroti kontras antara pengurungan istri-istri para komandan sendiri dan paparan publik putri Nabi, yang menegaskan status unik Fatimah az-Zahra (damallahu ‘alaiha) dan penggunaan strategis kehadirannya untuk mengumpulkan pasukan yang telah berbaiat.",
+        "seo_question": "Bagaimana perlakuan terhadap Fatimah az-Zahra selama Perang Jamal menurut Nahj al-Balagha?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "Ahl al-Jamal (para sahabat Aisyah yang memerangi Ali bin Abi Thalib)",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "Hurmatus Rasulillah (kesucian/istri Rasulullah, merujuk pada Fatimah az-Zahra)",
+          "الْبَيْعَة": "Al-Bai'ah (sumpah setia/sumpah jabatan)",
+          "بَيْتُ الْمَال": "Bait al-Mal (bendahara umum)",
+          "صَبْراً": "Sabran (dalam tahanan/detensi)",
+          "غَدْراً": "Ghadran (dengan pengkhianatan/persetiaan)"
+        }
+      },
+      "bn": {
+        "summary": "এই পাঠ্যে নহজুল বালাগহার উদ্ধৃতিতে জামালের যুদ্ধে আয়েশা, তালহা ও জুবায়েরের প্রস্থান বিস্তারিতভাবে বর্ণনা করা হয়েছে, যেখানে আয়েশাকে তাঁর বাসভবন থেকে বের করে সেনাবাহিনীর সামনে প্রদর্শনী করা হয়, যা শিয়া পণ্ডিতদের মতে তাঁদের কারণকে বৈধতা দেওয়ার একটি রাজনৈতিক কৌশল ছিল। পাঠ্যটি কমান্ডারদের নিজস্ব স্ত্রীদের আবদ্ধ অবস্থার সাথে নবীর কন্যা ফাতিমা আয-জাহরা (আলাইহা সলাম)-এর সর্বজনীন প্রকাশের মধ্যে পার্থক্য তুলে ধরে, ফাতিমা আয-জাহরার অনন্য মর্যাদা এবং ইতিমধ্যেই আনুগত্যের শপথ গ্রহণকারী সৈন্যদের একত্রিত করার জন্য তাঁর উপস্থিতির কৌশলগত ব্যবহারকে তুলে ধরে।",
+        "seo_question": "নহজুল বালাগহার মতে জামালের যুদ্ধে ফাতিমা আয-জাহরার সাথে কীভাবে আচরণ করা হয়েছিল?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "জামালের লোকজন (আয়েশার অনুসারীরা যারা আলী ইবনে আবী তালিবের বিরুদ্ধে যুদ্ধ করেছিল)",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "রাসুলুল্লাহর সম্মান/স্ত্রী (ফাতিমা আয-জাহরাকে নির্দেশ করে)",
+          "الْبَيْعَة": "আনুগত্য/পদাভিষেকের শপথ",
+          "بَيْتُ الْمَال": "সরকারি কোষাগার",
+          "صَبْراً": "কবজায়/আবদ্ধ অবস্থায়",
+          "غَدْراً": "প্রতারণা/বিশ্বাসঘাতকতা দ্বারা"
+        }
+      },
+      "es": {
+        "summary": "Este pasaje de Nahj al-Balagha de Nahj al-Balagha detalla la partida de Aisha, Talha y Zubayr hacia la Batalla de Jamal, enfatizando que Aisha fue sacada de su residencia y paseada ante el ejército, un movimiento interpretado por los eruditos chiíes como un espectáculo político para legitimar su causa. El texto resalta el contraste entre el confinamiento de las propias esposas de los comandantes y la exposición pública de la hija del Profeta, subrayando el estatus único de Fatimah al-Zahra (que la paz sea con ella) y el uso estratégico de su presencia para reunir tropas que ya habían jurado lealtad.",
+        "seo_question": "¿Cómo fue tratada Fatimah al-Zahra durante la Batalla de Jamal según Nahj al-Balagha?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "Gente de Jamal (los compañeros de Aisha que lucharon contra Ali ibn Abi Talib)",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "La santidad/esposa del Mensajero de Allah (refiriéndose a Fatimah al-Zahra)",
+          "الْبَيْعَة": "Lealtad/Juramento de cargo",
+          "بَيْتُ الْمَال": "Tesoro público",
+          "صَبْراً": "En cautiverio/detención",
+          "غَدْراً": "Por traición/traición"
+        }
+      },
+      "fr": {
+        "summary": "Ce passage de Nahj al-Balagha détaille le départ d'Aisha, Talha et Zubayr pour la bataille de Jamal, soulignant qu'Aisha a été sortie de sa résidence et parée devant l'armée, un mouvement interprété par les savants chiites comme un spectacle politique visant à légitimer leur cause. Le texte met en contraste l'enfermement des épouses des commandants avec l'exposition publique de la fille du Prophète, soulignant le statut unique de Fatimah al-Zahra (que la paix soit sur elle) et l'utilisation stratégique de sa présence pour rallier les troupes qui avaient déjà prêté allégeance.",
+        "seo_question": "Comment Fatimah al-Zahra a-t-elle été traitée lors de la bataille de Jamal selon Nahj al-Balagha ?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "Gens de Jamal (les compagnons d'Aisha qui ont combattu Ali ibn Abi Talib)",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "La sanctuisation/l'épouse du Messager d'Allah (se référant à Fatimah al-Zahra)",
+          "الْبَيْعَة": "Allégeance/Serment de charge",
+          "بَيْتُ الْمَال": "Trésor public",
+          "صَبْراً": "En captivité/détention",
+          "غَدْراً": "Par trahison/betrayal"
+        }
+      },
+      "de": {
+        "summary": "Dieser Abschnitt aus Nahj al-Balagha beschreibt den Aufbruch von Aisha, Talha und Zubayr zur Schlacht von Dschamal und betont, dass Aisha aus ihrer Residenz geholt und vor der Armee aufgeführt wurde, ein Zug, den schiitische Gelehrte als politisches Spektakel zur Legitimierung ihrer Sache interpretieren. Der Text hebt den Kontrast zwischen der Einschließung der eigenen Ehefrauen der Kommandeure und der öffentlichen Präsentation der Tochter des Propheten hervor, was den einzigartigen Status von Fatimah al-Zahra (Friede sei mit ihr) und den strategischen Einsatz ihrer Präsenz zur Mobilisierung der Truppen, die bereits die Treue geschworen hatten, unterstreicht.",
+        "seo_question": "Wie wurde Fatimah al-Zahra während der Schlacht von Dschamal laut Nahj al-Balagha behandelt?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "Leute von Dschamal",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "Die Heiligkeit/die Ehefrau des Gesandten Allahs",
+          "الْبَيْعَة": "Treueid",
+          "بَيْتُ الْمَال": "Öffentlicher Schatz",
+          "صَبْراً": "In Gefangenschaft",
+          "غَدْراً": "Durch Verrat"
+        }
+      },
+      "ru": {
+        "summary": "В этом отрывке из «Нахдж аль-Балага» подробно описывается отбытие Аиши, Тальхи и аз-Зубайра в битву при Камале, подчеркивается, что Аишу вывели из ее резиденции и вывезли перед армией, что шиитские ученые интерпретируют как политическое зрелище для легитимизации их дела. Текст подчеркивает контраст между заточением собственных жен командиров и публичным появлением дочери Пророка, что подчеркивает уникальный статус Фатимы аз-Захры (мир ей) и стратегическое использование ее присутствия для мобилизации войск, которые уже присягнули на верность.",
+        "seo_question": "Как обращались с Фатимой аз-Захрой во время битвы при Камале согласно «Нахдж аль-Балаге»?",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "Люди Камала (сподвижники Аиши, сражавшиеся с Али ибн Аби Талибом)",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "Святость/жена Посланника Аллаха (имеется в виду Фатима аз-Захра)",
+          "الْبَيْعَة": "Присяга на верность/клятва",
+          "بَيْتُ الْمَال": "Государственная казна",
+          "صَبْراً": "В плену/заключении",
+          "غَدْراً": "Предательски/измена"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《纳赫哲·布拉格》的经文详细描述了阿伊莎、塔利哈和祖拜尔前往贾马尔战役的情景，强调阿伊莎被带出住所并在军队前游行，这一举动被什叶派学者解读为一种政治表演，旨在为其事业正名。文本突出了指挥官们的妻子被幽禁与先知之女公开露面之间的对比，强调了法蒂玛·扎赫拉（愿主福安）的独特地位，以及利用她的存在来集结已宣誓效忠的军队的战略意义。",
+        "seo_question": "根据《纳赫哲·布拉格》，法蒂玛·扎赫拉在贾马尔战役中受到怎样的对待？",
+        "key_terms": {
+          "أَصْحَابِ الْجَمَل": "贾马尔人（与阿里·本·阿比·塔利布作战的阿伊莎的同伴）",
+          "حُرْمَةَ رَسُولِ اللَّهِ": "真主使者的尊亲/妻子（指法蒂玛·扎赫拉）",
+          "الْبَيْعَة": "效忠/就职誓言",
+          "بَيْتُ الْمَال": "国库",
+          "صَبْراً": "被囚禁/拘留",
+          "غَدْراً": "通过背叛/不忠"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:61",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "48:29",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "33:33",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "[مِنْهَا فِي ذِكْرِ أَصْحَابِ الْجَمَل:] فَخَرَجُوا يَجُرُّونَ حُرْمَةَ رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) كَمَا تُجَرُّ الْأَمَةُ عِنْدَ شِرَائِهَا، مُتَوَجِّهِينَ بِهَا إِلَى الْبَصْرَةِ، فَحَبَسَا نِسَاءَ هُمَا فِي بُيُوتِهِمَا، وَأَبْرَزَا حَبِيسَ رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) لَهُمَا وَلِغَيْرِهِمَا، فِي جَيْشٍ مَا مِنْهُمْ رَجُلٌ إِلَّا وَقَدْ أَعْطَانِي الطَّاعَةَ، وَسَمَحَ لِي بِالْبَيْعَةِ، طَائِعاً غَيْرَ مُكْرَه، فَقَدِمُوا عَلَى عَامِلِي بِهَا وَخُزَّانِ بَيْتِ مَالِ الْمُسْلِمِينَ وَغَيْرِهِمْ مِنْ أَهْلِهَا، فَقَتَلُوا طَائِفَةً صَبْراً، وَطَائِفَةً غَدْراً.",
+    "isnad_matn": {
+      "isnad_ar": "[منها في ذكر أصحاب الجمل :] فَخَرَجُوا يَجُرُّونَ حُرْمَةَ رَسُولِ اللهِ (صلى الله عليه وآله) كَمَا تُجَرُّ الاْمَةُ عِنْدَ شِرَائِهَا، مُتَوَجِّهِينَ بِهَا إِلَى الْبَصْرَةِ، فَحَبَسَا نِسَاءَ هُمَا فِي",
+      "matn_ar": "[مِنْهَا فِي ذِكْرِ أَصْحَابِ الْجَمَل:] فَخَرَجُوا يَجُرُّونَ حُرْمَةَ رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) كَمَا تُجَرُّ الْأَمَةُ عِنْدَ شِرَائِهَا، مُتَوَجِّهِينَ بِهَا إِلَى الْبَصْرَةِ، فَحَبَسَا نِسَاءَ هُمَا فِي بُيُوتِهِمَا، وَأَبْرَزَا حَبِيسَ رَسُولِ اللَّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) لَهُمَا وَلِغَيْرِهِمَا، فِي جَيْشٍ مَا مِنْهُمْ رَجُلٌ إِلَّا وَقَدْ أَعْطَانِي الطَّاعَةَ، وَسَمَحَ لِي بِالْبَيْعَةِ، طَائِعاً غَيْرَ مُكْرَه، فَقَدِمُوا عَلَى عَامِلِي بِهَا وَخُزَّانِ بَيْتِ مَالِ الْمُسْلِمِينَ وَغَيْرِهِمْ مِنْ أَهْلِهَا، فَقَتَلُوا طَائِفَةً صَبْراً، وَطَائِفَةً غَدْراً.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "[منها في ذكر أصحاب الجمل :] فَخَرَجُوا يَجُرُّونَ حُرْمَةَ رَسُولِ اللهِ (صلى الله عليه وآله) كَمَا تُجَرُّ الاْمَةُ عِنْدَ شِرَائِهَا، مُتَوَجِّهِينَ بِهَا",
+          "name_en": "al-Hurmah",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الْبَصْرَةِ، فَحَبَسَا نِسَاءَ هُمَا",
+          "name_en": "al-Basrah",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

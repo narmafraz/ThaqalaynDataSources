@@ -1,0 +1,264 @@
+{
+  "verse_path": "/books/al-kafi:4:3:28:32",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 16 en words vs 1 ar words (ratio=16.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "worship",
+      "ethics"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "hajj",
+      "poverty_wealth"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Ali, from his father, from Ibn Abi Umeyr, from Rabi' ibn Abdullah, from Al-Fudayl, who said:",
+          "ur": "علیٰ، ان کے والد، ابن ابی عُمیر، ربیع بن عبداللہ، الفضیل سے روایت کرتے ہیں کہ انہوں نے کہا:",
+          "tr": "Ali, bab",
+          "fa": "علی از پدرش، از ابن ابی عُمَیر، از ربیع بن عبدالله، از فضیل که گفت:",
+          "id": "Ali, dari ayahnya, dari Ibn Abi Umeyr, dari Rabi' ibn Abdullah, dari Al-Fudayl, yang berkata:",
+          "bn": "আলী, তাঁর পিতার নিকট হতে, ইবনে আবু উমাইয়ের নিকট হতে, রবি' ইবনে আবদুল্লাহর নিকট হতে, আল-ফুদাইলের নিকট হতে, যিনি বলেছেন:",
+          "es": "Ali, de su padre, de Ibn Abi Umeyr, de Rabi' ibn Abdullah, de Al-Fudayl, quien dijo:",
+          "fr": "Ali, de son père, d'Ibn Abi Umeyr, de Rabi' ibn Abdullah, d'Al-Fudayl, qui a dit :",
+          "de": "Ali, von Ali, von seinem Vater, von Ibn Abi Umeyr, von Rabi' ibn Abdullah, von Al-Fudayl, der sagte:",
+          "ru": "Али, от его отца, от Ибн Аби Умайра, от Раби' ибн Абдуллаха, от аль-Фудайля, который сказал:",
+          "zh": "阿里，从他父亲，从伊本·艾比·乌迈尔，从拉比·本·阿卜杜拉，从富莱尔，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَمِعْتُ أَبَا جَعْفَرٍ ( عليه السلام ) يَقُولُ لَا وَ رَبِّ هَذِهِ الْبَنِيَّةِ لَا يُخَالِفُ مُدْمِنَ الْحَجِّ بِهَذَا الْبَيْتِ حُمَّى وَ لَا فَقْرٌ أَبَداً",
+        "translations": {
+          "en": "I heard Abu Ja'far (peace be upon him) saying: 'No, by the Lord of this House! A habitual pilgrim of this House would neither be afflicted by fever nor by poverty, ever.'",
+          "ur": "میں نے ابو جعفر (علیہ السلام) کو یہ کہتے ہوئے سنا: ''نہیں، اس گھر کے رب کی قسم! اس گھر کا باقاعدہ زائر نہ تو بخار سے متاثر ہوگا اور نہ ہی غربت سے، ہمیشہ۔''",
+          "tr": "Ebu Cafer'den (aleyhisselam) şöyle derken işittim: \"Hayır, bu Evin Rabbine yemin ederim ki, bu Evin âdeti hacceden kimse ne ateş hastalığına tutulur ne de yoksulluğa düşer, ebediyen.\"",
+          "fa": "من از ابو جعفر (علیه السلام) شنیدم که می‌فرمود: «نه، به پروردگار این خانه! کسی که عادت به زیارت این خانه دارد، نه هرگز دچار تب می‌شود و نه دچار فقر.»",
+          "id": "Aku mendengar Abu Ja'far (alamah) berkata, 'Tidak, demi Tuhan Rumah ini! Seorang yang biasa menunaikan haji ke Rumah ini tidak akan pernah ditimpa demam maupun kemiskinan.'",
+          "bn": "আমি আবু জা'ফার (আলাইহিস সালাম)-কে বলতে শুনেছি: 'না, এই ঘরের রবের শপথ! এই ঘরের নিয়মিত হাজি কখনো জ্বর বা দারিদ্র্যে আক্রান্ত হবেন না।'",
+          "es": "Escuché a Abū Yaʿfar (que la paz sea con él) decir: «No, por el Señor de esta Casa. Un peregrino habitual de esta Casa no sería afligido ni por la fiebre ni por la pobreza, jamás.\"",
+          "fr": "J'ai entendu Abou Ja'far (que la paix soit sur lui) dire : « Non, par le Seigneur de cette Maison ! Un pèlerin assidu de cette Maison ne serait ni affligé par la fièvre ni par la pauvreté, à jamais. »",
+          "de": "Ich hörte Abu Ja'far (friede sei mit ihm) sagen: „Nein, beim Herrn dieses Hauses! Ein gewohnheitsmäßiger Pilger dieses Hauses würde weder von Fieber noch von Armut geplagt werden, niemals.“",
+          "ru": "Я слышал, как Абу Джафар (да будет мир с ним) говорил: «Нет, клянусь Господом этого Дома! Тот, кто регулярно совершает паломничество в этот Дом, никогда не будет поражен лихорадкой или бедностью».",
+          "zh": "我听见贾法尔（愿主福安之说：‘以这座天房的主宰发誓，常来这座天房朝觐者，既不会患热病，也不会陷入贫困。’"
+        },
+        "word_start": 1,
+        "word_end": 25
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from al-Kafi, Imam Muhammad al-Baqir (peace be upon him) assures that consistent pilgrims (mudmin al-hajj) are shielded from both physical ailments like fever and economic hardship (faqr). This reflects the Shia scholarly understanding of Hajj as a comprehensive means of spiritual purification and material sustenance, linking the physical act of circumambulation with divine protection.",
+        "seo_question": "What are the benefits of frequent Hajj according to Shia hadith?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "habitual pilgrim / one who frequently performs Hajj",
+          "بِهَذَا الْبَيْتِ": "to this House (referring to the Kaaba)",
+          "حُمَّى": "fever / high fever",
+          "فَقْرٌ": "poverty"
+        }
+      },
+      "ur": {
+        "summary": "الکافی کی اس روایت میں امام محمد باقر (علیہ السلام) کا یقین دہانی کرتے ہیں کہ مستقل حج کرنے والے (مُدمِنَ الْحَجِّ) نہ صرف جسمانی بیماریوں جیسے بخار بلکہ معاشی تنگ دستی (فَقْر) سے بھی محفوظ رہتے ہیں۔ یہ شیعہ علما کے اس فہم کی عکاسی کرتا ہے کہ حج روحانی پاکیزگی اور مادی رزق کا جامع ذریعہ ہے، جس میں کعبہ کی طواف کی جسمانی عمل کو الٰہی حفاظت سے جوڑا گیا ہے۔",
+        "seo_question": "شیعہ حدیث کے مطابق کثرت سے حج کرنے کے کیا فوائد ہیں؟",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "مستقل حج کرنے والا",
+          "بِهَذَا الْبَيْتِ": "اس گھر کی طرف",
+          "حُمَّى": "بخار",
+          "فَقْرٌ": "تنگ دستی"
+        }
+      },
+      "tr": {
+        "summary": "El-Kâfî'deki bu rivayette, İmam Muhammed el-Bakır (aleyhisselâm), sürekli hacca gidenleri (mümdinü'l-hacç) hem ateş gibi fiziksel hastalıklardan hem de yoksulluktan (fakr) koruyacağını güvence altına alır. Bu durum, Şii alimlerinin hacıyı hem manevi arınma hem de maddi rızık kaynağı olarak gördüklerini ve Kabe'nin tavafı ilahi koruma ile ilişkilendirdiklerini yansıtmaktadır.",
+        "seo_question": "Şii hadislerine göre sık sık hacca gitmenin faydaları nelerdir?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "sürekli hacca giden",
+          "بِهَذَا الْبَيْتِ": "bu Evi'ne",
+          "حُمَّى": "ateş",
+          "فَقْرٌ": "yoksulluk"
+        }
+      },
+      "fa": {
+        "summary": "در این روایت از الکافی، امام محمد باقر (علیه السلام) اطمینان می‌دهد که زائران مداوم (مُدمِنَ الْحَجِّ) از بیماری‌های جسمی مانند تب و سختی اقتصادی (فقر) در امان هستند. این موضوع نشان‌دهنده درک شیعی از حج به عنوان وسیله‌ای جامع برای تزکیه روحی و معیشت مادی است که عمل فیزیکی طواف را با حفاظت الهی پیوند می‌زند.",
+        "seo_question": "مزایای حج متوالی طبق حدیث شیعه شیعه چیست؟",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "زائران مداوم",
+          "بِهَذَا الْبَيْتِ": "به این خانه",
+          "حُمَّى": "تب",
+          "فَقْرٌ": "فقر"
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari al-Kafi al-Kafi, Imam Muhammad al-Baqir (alamah) menjamin bahwa para jamaah yang konsisten (mudmin al-hajj) terlindung dari penyakit fisik seperti demam dan kesulitan ekonomi (faqr). Hal ini mencerminkan pemahaman ulama Syiah tentang Haji sebagai sarana pemurnian spiritual dan kecukupan material yang komprehensif, yang menghubungkan tindakan fisik tawaf dengan perlindungan ilahi.",
+        "seo_question": "Apa manfaat haji yang sering dilakukan menurut hadis Syiah?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "jamaah yang konsisten",
+          "بِهَذَا الْبَيْتِ": "kepada Bait ini",
+          "حُمَّى": "demam",
+          "فَقْرٌ": "kemiskinan"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি থেকে বর্ণিত এই হাদিসে, ইমাম মুহাম্মাদ আল-বাখির (আ.) নিশ্চিত করেছেন যে, নিয়মিত হাজিরাতকারীরা (মুদ্দিন আল-হাজ্জ) জ্বর এবং আর্থিক সংকট (ফাকর) উভয় থেকেই রক্ষা পায়। এটি শিয়া আলেমদের হাজ্জকে আধ্যাত্মিক পবিত্রীকরণ এবং সামগ্রিক জীবিকা-সংস্থানের একটি মাধ্যম হিসেবে দেখার ধারণাকে প্রতিফলিত করে, যা কাবা শরীফের চারি দিক প্রদক্ষিণের শারীরিক কাজকে ঐশ্বরিক সুরক্ষার সাথে যুক্ত করে।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী নিয়মিত হাজ্জের ফলাফল কী কী?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "যিনি নিয়মিত হাজ্জ করেন",
+          "بِهَذَا الْبَيْتِ": "এই বৈতের (কাবা) দিকে",
+          "حُمَّى": "জ্বর",
+          "فَقْرٌ": "গরিবী"
+        }
+      },
+      "es": {
+        "summary": "En esta narración del al-Kafi, el Imam Muhammad al-Baqir (que la paz sea con él) asegura que los peregrinos constantes (mudmin al-hajj) están protegidos tanto de enfermedades físicas como la fiebre como de la dificultad económica (faqr). Esto refleja la comprensión erudita chií del Hajj como un medio integral de purificación espiritual y sustento material, vinculando el acto físico de la circunambulación con la protección divina.",
+        "seo_question": "¿Cuáles son los beneficios del Hajj frecuente según el hadiz chií?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "peregrino habitual / quien realiza el Hajj con frecuencia",
+          "بِهَذَا الْبَيْتِ": "a esta Casa (refiriéndose a la Kaaba)",
+          "حُمَّى": "fiebre / fiebre alta",
+          "فَقْرٌ": "pobreza"
+        }
+      },
+      "fr": {
+        "summary": "Dans cette narration du Kâfi, l'Imam Muhammad al-Baqir (que la paix soit sur lui) assure que les pèlerins assidus (mudmin al-hajj) sont préservés des maladies physiques comme la fièvre et des difficultés économiques (faqr). Cela reflète la compréhension savante chiite du Hajj comme moyen complet de purification spirituelle et de subsistance matérielle, reliant l'acte physique de la circumambulation à la protection divine.",
+        "seo_question": "Quels sont les bienfaits d'un Hajj fréquent selon les hadiths chiites ?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "pèlerin assidu / celui qui accommode fréquemment le Hajj",
+          "بِهَذَا الْبَيْتِ": "à cette Maison (en référence à la Kaaba)",
+          "حُمَّى": "fièvre / forte fièvre",
+          "فَقْرٌ": "pauvreté"
+        }
+      },
+      "de": {
+        "summary": "In dieser Überlieferung aus al-Kafi versichert Imam Muhammad al-Baqir (Friede sei mit ihm), dass beständige Pilger (mudmin al-hajj) sowohl vor körperlichen Leiden wie Fieber als auch vor wirtschaftlicher Not (faqr) geschützt sind. Dies spiegelt das schiitische gelehrtentum wider, das den Hajj als umfassendes Mittel der spirituellen Reinigung und materiellen Versorgung versteht, indem die physische Handlung des Umkreisens mit göttlichem Schutz verknüpft wird.",
+        "seo_question": "Was sind die Vorteile des häufigen Hajj gemäß schiitischer Hadithe?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "ständiger Pilger / einer, der den Hajj häufig ausführt",
+          "بِهَذَا الْبَيْتِ": "zu diesem Haus (unter Bezugnahme auf die Kaaba)",
+          "حُمَّى": "Fieber / hohes Fieber",
+          "فَقْرٌ": "Armut"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из аль-Кафи имам Мухаммад аль-Бакир (да будет мир с ним) утверждает, что постоянные паломники (мудмин аль-хадж) защищены как от физических недугов, таких как лихорадка, так и от экономической нужды (фаqr). Это отражает шиитское научное понимание хаджа как всеобъемлющего средства духовного очищения и материального обеспечения, связывая физический акт обхода Кабы с божественной защитой.",
+        "seo_question": "Каковы преимущества частого совершения хаджа согласно шиитским хадисам?",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "постоянный паломник / тот, кто часто совершает хадж",
+          "بِهَذَا الْبَيْتِ": "к этому Дому (имеется в виду Каба)",
+          "حُمَّى": "лихорадка / высокая температура",
+          "فَقْرٌ": "бедность"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲圣训中，伊玛目穆罕默德·巴基尔（愿主福安之）保证，经常朝觐者（مُدْمِنَ الْحَجِّ）能免受发烧等身体疾病和经济贫困（فَقْرٌ）的困扰。这反映了什叶派学者对朝觐作为全面精神净化和物质供养手段的理解，将环游天房这一身体行为与神圣保护联系起来。",
+        "seo_question": "根据什叶派圣训，频繁朝觎有哪些益处？",
+        "key_terms": {
+          "مُدْمِنَ الْحَجِّ": "经常朝觐者",
+          "بِهَذَا الْبَيْتِ": "朝向这座房子（指克尔白）",
+          "حُمَّى": "发烧",
+          "فَقْرٌ": "贫困"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:125",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:103",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:197",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad سَمِعْتُ أَبَا جَعْفَرٍ ( عليه السلام ) يَقُولُ لَا وَ رَبِّ هَذِهِ الْبَنِيَّةِ لَا يُخَالِفُ مُدْمِنَ الْحَجِّ بِهَذَا الْبَيْتِ حُمَّى وَ لَا فَقْرٌ أَبَداً",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "سَمِعْتُ أَبَا جَعْفَرٍ ( عليه السلام ) يَقُولُ لَا وَ رَبِّ هَذِهِ الْبَنِيَّةِ لَا يُخَالِفُ مُدْمِنَ الْحَجِّ بِهَذَا الْبَيْتِ حُمَّى وَ لَا فَقْرٌ أَبَداً",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيٌّ",
+          "name_en": "Ali",
+          "role": "imam",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 50
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+          "name_en": "Ibn Abi Umayr",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 7
+        },
+        {
+          "name_ar": "رِبْعِيِّ بْنِ عَبْدِ اللَّهِ",
+          "name_en": "Rib'i ibn Abdillah",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 192
+        },
+        {
+          "name_ar": "الْفُضَيْلِ",
+          "name_en": "Al-Fudayl",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 220
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

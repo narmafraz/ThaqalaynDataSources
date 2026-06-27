@@ -1,0 +1,313 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:23:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 40 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'فإنكم لو عاينتم ما قد عاين من مات منكم لجزعتم ووهلتم وسمعتم '"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "afterlife",
+      "ethics"
+    ],
+    "content_type": "exhortation",
+    "topics": [
+      "death_dying",
+      "barzakh",
+      "resurrection",
+      "signs_of_end"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "فَإِنَّكُمْ لَوْ عَايَنْتُمْ مَا قَدْ عَايَنَ مَنْ مَاتَ مِنْكُمْ لَجَزِعْتُمْ وَوَهِلْتُمْ وَسَمِعْتُمْ وَأَطَعْتُمْ،",
+        "translations": {
+          "en": "For if you could see what those of you who have died have seen, you would be puzzled and troubled, and you would listen and obey;",
+          "ur": "کیونکہ اگر تم وہ دیکھ لو جو تم میں سے جو مر چکے ہیں نے دیکھا ہے، تو تم حیران اور پریشان ہو جاؤ گے، اور تم سنو گے اور فرمانبردار ہو گے؛",
+          "tr": "Çünkü sizden ölenlerin gördüklerini siz de görseniz, şaşırır ve huzursuz olur, dinler ve itaat ederdiniz;",
+          "fa": "زیرا اگر شما آنچه را که آن‌هایی از شما که مردند دیده‌اند، می‌ می‌دیدید، حیرت‌زده و پریشان می‌شدید و گوش فرا می‌دادید و اطاعت می‌کردید؛",
+          "id": "Maka sesungguhnya jika kalian melihat apa yang telah dilihat oleh sebagian dari kalian yang telah meninggal, niscaya kalian akan bingung dan gelisah, serta mendengarkan dan taat;",
+          "bn": "যদি তোমরা দেখতে পেতে যে, তোমাদের মধ্যে যে মারা গেছে তারা কী দেখেছে, তবে তোমরা বিচলিত ও চিন্তিত হতে, এবং শুনতে ও আনুগত্য করতে;",
+          "es": "Pues, si pudierais ver lo que han visto aquellos de vosotros que han muerto, os quedaríais perplejos y turbados, y escucharíais y obedeceríais;",
+          "fr": "Car si vous pouviez voir ce que ceux d'entre vous qui sont morts ont vu, vous seriez perplexe et troublé, et vous écouteriez et obéiriez ;",
+          "de": "Denn wenn ihr sehen würdet, was diejenigen von euch, die gestorben sind, gesehen haben, so wäret ihr verwirrt und beunruhigt, und ihr würdet zuhören und gehorchen;",
+          "ru": "Ибо если бы вы увидели то, что увидели умершие из вас, вы были бы озадачены и встревожены, и вы бы слушали и повиновались;",
+          "zh": "倘若你们亲眼目睹了已故之人所目睹的情景，你们必会惊惶失措、心烦意乱，并且聆听与顺从；"
+        },
+        "word_start": 0,
+        "word_end": 13
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَكِنْ مَحْجُوبٌ عَنْكُمْ مَا عَايَنُوا، وَقَرِيبٌ مَا يُطْرَحُ الْحِجَابُ!",
+        "translations": {
+          "en": "but what they have seen is yet curtained off from you. Shortly, the curtain would be thrown off!",
+          "ur": "لیکن جو کچھ تم نے دیکھا ہے وہ ابھی تم سے پردہ میں ہے۔ جلد ہی پردہ ہٹا دیا جائے گا!",
+          "tr": "ancak onlar gördükleri şey henüz sana perde edilmiştir. Yakında perde kaldırılacaktır!",
+          "fa": "اما آنچه را که دیده‌اند، هنوز از شما را پرده‌ای از آن پوشانده است. به زودی پرده کنار زده خواهد شد!",
+          "id": "tetapi apa yang telah mereka lihat masih tertutup dari kalian. Segera, tabir akan dibuka!",
+          "bn": "কিন্তু তোমরা যা দেখেছ তা এখনও তোমাদের থেকে আবৃত রয়েছে। শীঘ্রই সেই আবরণ সরিয়ে ফেলা হবে!",
+          "es": "pero lo que han visto aún está velado para ti. ¡Pronto, la cortina será retirada!",
+          "fr": "mais ce qu'ils ont vu vous est encore voilé. Bientôt, le voile sera levé !",
+          "de": "Doch was sie gesehen haben, ist vor euch noch verhüllt. Bald wird der Vorhang fallen!",
+          "ru": "но то, что они видели, пока скрыто от вас. Вскоре завеса будет снята!",
+          "zh": "但他们所见的仍被帷幕未揭，不久帷幕将被揭开！"
+        },
+        "word_start": 13,
+        "word_end": 22
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَقَدْ بُصِّرْتُمْ إِنْ أَبْصَرْتُمْ، وَأُسْمِعْتُمْ إِنْ سَمِعْتُمْ، وَهُدِيتُمْ إِنِ اهْتَدَيْتُمْ،",
+        "translations": {
+          "en": "You have been shown, provided you see, and you have been made to listen, provided you listen, and you have been guided if you accept guidance,",
+          "ur": "آپ کو دکھایا گیا ہے، بشرطیکہ آپ دیکھیں، اور آپ کو سنایا گیا ہے، بشرطیکہ آپ سنیں، اور آپ کو ہدایت دی گئی ہے، بشرطیکہ آپ ہدایت قبول کریں،",
+          "tr": "Görürseniz size gösterilmiştir, dinlerseniz size dinletilmiştir rehberliği kabul ederseniz size rehberlik edilmiştir,",
+          "fa": "به تو نشان داده شده است، مشروط بر آنکه ببینی، و به تو گوش داده شده است، مشروط بر آنکه گوش دهی، و هدایت شده‌ای، مشروط بر آنکه هدایت را بپذیری،",
+          "id": "Kamu telah ditunjukkan, asalkan kamu melihat, dan kamu telah diberi pendengaran, asalkan kamu mendengar, dan kamu telah diberi petunjuk jika kamu menerima petunjuk,",
+          "bn": "তোমাদের দেখানো হয়েছে, যদি তোমরা দেখ; শোনানো হয়েছে, যদি তোমরা শোন; এবং পথপ্রদর্শন করা হয়েছে, যদি তোমরা পথপ্রদর্শন গ্রহণ করো,",
+          "es": "Se te ha mostrado, si ves; se te ha hecho escuchar, si escuchas; y se te ha guiado, si aceptas la guía,",
+          "fr": "On vous a montré, à condition que vous voyiez voyez, et on vous a fait écouter, à condition queiez écoutiez, et on vous a guidés si vous acceptez la guidance,",
+          "de": "Dir wurde gezeigt, wenn du siehst, und es wurde dir vorgelesen, wenn du hörst, und du wurdest geleitet, wenn du die Führung annimmst, ",
+          "ru": "Тебе было показано, если ты увидишь; тебе было дано услышать, если ты слушаешь; и ты был направлен, если принимаешь направление,",
+          "zh": "你已被展示，只要你看见；你已被赋予聆听，只要你倾听；你已被引导，只要你接受引导。"
+        },
+        "word_start": 22,
+        "word_end": 32
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَبِحَقٍّ أَقُولُ لَكُمْ: لَقَدْ جَاهَرَتْكُمُ الْعِبَرُ وَزُجِرْتُمْ بِمَا فِيهِ مُزْدَجَرٌ،",
+        "translations": {
+          "en": "and with truth I speak unto you: You have been called aloud by (instructive) examples and warned through items full of warnings,",
+          "ur": "اور سچائی کے ساتھ میں تم سے کہتا ہوں: تمہیں (تعلیمی) مثالوں کے ذریعے بلند آواز سے بلایا گیا ہے اور انتباہات سے بھرپور اشیاء کے ذریعے ڈرایا گیا ہے،",
+          "tr": "ve hakikati söyleyerek size diyorum ki: size öğretici örneklerle yüksek sesle çağrıda bulunulmuş ve uyarılarla dolu konularla uyarılmışsınız.",
+          "fa": "و با حق سخن می‌گویم به شما: شما با نمونه‌های پندآموز فراخوانده شده‌اید و از طریق موارد پر از هشدارها، پرهیز داده شده‌اید.",
+          "id": "dan dengan kebenaran aku berkata kepadamu: Kamu telah dipanggil dengan keras melalui (contoh-contoh yang memberi instruksi) dan) diperingatkan melalui hal-hal yang penuh dengan peringatan,",
+          "bn": "এবং সত্যকথা বলছি তোমাকে: তোমাদেরকে (শিক্ষণীয়) উদাহরণ দ্বারা জোরে ডাকা হয়েছে এবং সতর্কতাপূর্ণ বিষয়াদির মাধ্যমে সতর্ক করা হয়েছে,",
+          "es": "y con verdad te hablo: has sido llamado a gritos por (instruccion) ejemplos y advertido a través de elementos llenos de advertencias,",
+          "fr": "et avec vérité je vous dis : Vous avez été appelés à haute voix par des exemples instructifs et avertis par des éléments pleins d'avertissements,",
+          "de": "und mit Wahrheit rede ich zu euch: Ihr seid durch (lehrreiche) Beispiele laut gerufen und durch warnende Inhalte gewarnt worden,",
+          "ru": "и с истиной говорю вам: вы были призваны громко (наставительными) примерами и предостережены через предметы, полные предостережений,",
+          "zh": "我以真理对你们说：你们已被（教诲性的）榜样大声呼唤，并通过充满警示的事项受到警告，"
+        },
+        "word_start": 32,
+        "word_end": 42
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَمَا يُبَلِّغُ عَنِ اللَّهِ بَعْدَ رُسُلِ السَّمَاءِ إِلَّا الْبَشَرُ.",
+        "translations": {
+          "en": "and after the heavenly messengers (angels), only man can convey the message from Allah.",
+          "ur": "اور آسمانی فرشتوں کے بعد، صرف انسان ہی اللہ کی طرف سے پیغام پہنچا سکتا ہے۔",
+          "tr": "ve göksel elçilerden (melekler) sonra, mesajı Allah'tan iletebilen yalnızca insandır.",
+          "fa": "و پس از پیامبرانگشتگان آسمانی (فرشتگان)، تنها انسان می‌تواند پیام را از سوی خداوند برساند.",
+          "id": "dan setelah para utusan langit (malaikat), hanya manusia yang dapat menyampaikan pesan dari Allah.",
+          "bn": "এবং স্বর্গীয় দূতদের (ফেরেশতাদের) পরে, কেবল মানুষই আল্লাহর পক্ষ থেকে বার্তা পৌঁছে দিতে পারে।",
+          "es": "y después de los mensajeros celestos celestiales (ángeles), solo el hombre puede transmitir el mensaje de Allah.",
+          "fr": "et après les messagers célestes (les anges), seul l'homme peut transmettre le message d'Allah.",
+          "de": "und nach den himmlischen Boten (Engeln) kann nur der Mensch die Botschaft von Allah übermitteln.",
+          "ru": "а после небесных посланников (ангелов) только человек может передать послание от Аллаха.",
+          "zh": "在天堂的使者（天使）之后，只有人才能传达真主的讯息。"
+        },
+        "word_start": 42,
+        "word_end": 51
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) highlights the psychological barrier of *ghaflah* (heedlessness) that prevents the living from fully internalizing the reality of death, urging them to let the lessons of the deceased guide their obedience. He asserts that human messengers serve as the final conduit for divine guidance after the celestial prophets, emphasizing the urgency of heeding these warnings before the veil is lifted. This reflection underscores the Shia emphasis on *tadhkirah* (remembrance) as a catalyst for spiritual awakening and practical piety.",
+        "seo_question": "What does Imam Ali say about the reality of death and the connection between the living and the dead in Nahj al-Balagha?",
+        "key_terms": {
+          "عَايَنَ": "to see with the eyes / witness directly",
+          "جَزِعْتُمْ": "you would be puzzled / anxious",
+          "وَهِلْتُمْ": "you would be troubled / shaken",
+          "مَحْجُوبٌ": "curtained off / hidden",
+          "الْحِجَابُ": "the curtain / veil",
+          "الْعِبَرُ": "instructive examples / lessons",
+          "رُسُلِ السَّمَاءِ": "heavenly messengers (angels)"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) اس نفسی رکاوٹ کی نشاندہی کرتے ہیں جسے غفلت کہتے ہیں اور جو زندہ لوگوں کو موت کی حقیقت کو مکمل طور پر اپنے اندر جذب کرنے سے روکتی ہے، وہ انہیں اس بات کی ترغیب دیتے ہیں کہ مردوں کے سبق ان کی اطاعت کی رہنمائی کریں۔ وہ اس بات پر زور دیتے ہیں کہ انسانی رسول آسمانی انبیاء کے بعد الہی ہدایت کے آخری ذریعہ ہیں، اور اس بات کی اہمیت کو اجاگر کرتے ہیں کہ پردہ ہٹنے سے پہلے ہی ان تنبیہات پر عمل کیا جائے۔ یہ فکر شیعہ نقطہ نظر میں ذکر (یادداشت) کو روحانی بیداری اور عملی تقویٰ کے محرک کے طور پر نمایاں کرتی ہے۔",
+        "seo_question": "امام علی (علیہ السلام) نے نہج البلاغہ میں موت کی حقیقت اور زندہ اور مردے کے درمیان تعلق کے بارے میں کیا فرمایا؟",
+        "key_terms": {
+          "عَايَنَ": "آنکھوں سے دیکھنا / براہ راست گواہی دینا",
+          "جَزِعْتُمْ": "تم حیران ہو جاتے / پریشان ہو جاتے",
+          "وَهِلْتُمْ": "تم پریشان ہو جاتے / ہل جاتے",
+          "مَحْجُوبٌ": "پردہ شدہ / چھپا ہوا",
+          "الْحِجَابُ": "پردہ / حجاب",
+          "الْعِبَرُ": "سبق آموز مثالیں / عبرتیں",
+          "رُسُلِ السَّمَاءِ": "آسمانی رسول (فرشتے)"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aleyhisselam), yaşayanların ölüm gerçeğini tam olarak içselleştirmesini engelleyen *gafla* (gaflet) psikolojik engeline dikkat çekerek, ölülerin derslerinin itaatlarını yönlendirmesini teşvik eder. Gök peygamberlerinden sonra ilahi rehberliğin son aracı olarak insan elçilerini vurgulayarak, perde kaldırılmadan önce bu uyarıları dinlemenin aciliyetini belirtir. Bu düşünce, Şia geleneğinde manevi uyanış ve pratiki takvanın katalizörü olarak *tezkire* (hatırlama) vurgusunu pekiştirir.",
+        "seo_question": "Nahıçü'l-Belâga'da İmam Ali ölümün gerçeği ve yaşayanlar ile ölüler arasındaki bağ hakkında ne söyler?",
+        "key_terms": {
+          "عَايَنَ": "gözle görmek / doğrudan şahit olmak",
+          "جَزِعْتُمْ": "şaşırıp kalmak / endişelenmek",
+          "وَهِلْتُمْ": "sarsılmak / huzursuz olmak",
+          "مَحْجُوبٌ": "perdeli / gizli",
+          "الْحِجَابُ": "perde / örtü",
+          "الْعِبَرُ": "ibretlik örnekler / dersler",
+          "رُسُلِ السَّمَاءِ": "gök elçileri (melekler)"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علیه‌السلام) بر مانع روان‌شناختی غفلت که مانع درک کامل واقعیت مرگ توسط زندگان می‌شود، تأکید می‌کند و آنان را به راهنمایی گرفتن از درس‌های مردگان برای اطاعت دعوت می‌نماید. او بیان می‌دارد که پیامبران انسان، پس از پیامبران آسمانی، آخرین مجرای هدایت الهی هستند و بر ضرورت توجه به این هشدارها پیش از برطرف شدن حجاب تأکید می‌ورزد. این تأمل بر تأکید شیعه به تذکر به عنوان کاتالیزور بیداری معنوی و تقوای عملی تأکید دارد.",
+        "seo_question": "امام علی درباره واقعیت مرگ و پیوند میان زندگان و مردگان در نهج‌البلاغه چه می‌گوید؟",
+        "key_terms": {
+          "عَايَنَ": "دیدن با چشم / شهود مستقیم",
+          "جَزِعْتُمْ": "حیرت می‌کردید / مضطرب می‌شدید",
+          "وَهِلْتُمْ": "پریشانی می‌یافتید / لرزید",
+          "مَحْجُوبٌ": "پوشیده شده / پنهان",
+          "الْحِجَابُ": "حجاب / پرده",
+          "الْعِبَرُ": "عبرت‌ها / درس‌ها",
+          "رُسُلِ السَّمَاءِ": "پیامبران آسمان (فرشتگان)"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (alamahis salam) menyoroti hambatan psikologis *ghaflah* (lupa) yang mencegah orang hidup sepenuhnya menginternalisasi realitas kematian, mendorong mereka agar pelajaran dari orang mati membimbing ketaatan mereka. Ia menegaskan bahwa utusan manusia menjadi saluran terakhir untuk bimbingan ilahi setelah para nabi langit, menekankan urgensi untuk memperhatikan peringatan ini sebelum tabir diangkat. Refleksi ini menyoroti penekanan Syiah pada *tadhkirah* (pengingatan) sebagai katalis untuk kebangkitan spiritual dan ketaatan praktis.",
+        "seo_question": "Apa kata Imam Ali tentang realitas kematian dan hubungan antara orang hidup dan orang mati dalam Nahj al-Balagha?",
+        "key_terms": {
+          "عَايَنَ": "melihat dengan mata / menyaksikan langsung",
+          "جَزِعْتُمْ": "anda akan bingung / cemas",
+          "وَهِلْتُمْ": "anda akan tergoncang / gelisah",
+          "مَحْجُوبٌ": "tertutup / tersembunyi",
+          "الْحِجَابُ": "tabir / cadar",
+          "الْعِبَرُ": "contoh instruktif / pelajaran",
+          "رُسُلِ السَّمَاءِ": "utusan langit (malaikat)"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) *গাফলাহ* (অবহেলা) নামক মানসিক বাধার কথা তুলে ধরেন, যা জীবিতদের মৃত্যুর বাস্তবতা পূর্ণাঙ্গভাবে হৃদয়ঙ্গ করতে বাধা দেয়, এবং তাদের মৃতদের শিক্ষা থেকে অনুশাসন গ্রহণের আহ্বান জানান। তিনি দাবি করেন যে মানবীয দূতগণ আকাশী নবীদের পরে ঐশ্বরিক পথনির্দেশনার চূড়ান্ত মাধ্যম হিসেবে কাজ করেন, এবং পর্দা সরে যাওয়ার আগে এই সতর্কবাণী মেনে নেওয়ার তাগিদ প্রদান করেন। এই চিন্তাশীলতা শিয়া মতবাদে *তাজকিরাহ* (স্মরণ) কে আধ্যাত্মিক জাগরণ ও ব্যবহারিক পবিত্রতার উদ্দীপক হিসেবে গুরুত্ব দেয়।",
+        "seo_question": "নহজুল বালাগহায় ইমাম আলী মৃত্যুর বাস্তবতা এবং জীবিত ও মৃতদের মধ্যে সংযোগ সম্পর্কে কী বলেছেন?",
+        "key_terms": {
+          "عَايَنَ": "চোখে দেখা / সরাসরি সাক্ষী হওয়া",
+          "جَزِعْتُمْ": "আপনারা বিভ্রান্ত হতেন / উদ্বিগ্ন হতেন",
+          "وَهِلْتُمْ": "আপনারা বিচলিত হতেন / কম্পিত হতেন",
+          "مَحْجُوبٌ": "পর্দা দ্বারা আবৃত / লুকানো",
+          "الْحِجَابُ": "পর্দা / আবরণ",
+          "الْعِبَرُ": "উপদেশমূলক উদাহরণ / শিক্ষা",
+          "رُسُلِ السَّمَاءِ": "আকাশী দূতগণ (ফেরেশতাগণ)"
+        }
+      },
+      "es": {
+        "summary": "El Imam Ali (que la paz sea con él) destaca la barrera psicológica de la *ghaflah* (descuido) que impide a los vivos interiorizar plenamente la realidad de la muerte, instándolos a permitir que las lecciones de los difuntos guíen su obediencia. Afirma que los mensajeros humanos sirven como el último conducto para la guía divina después de los profetas celestiales, enfatizando la urgencia de atender estas advertencias antes de que se levante el velo. Esta reflexión subraya el énfasis chií en la *tadhkirah* (recuerdo) como catalizador del despertar espiritual y la piedad práctica.",
+        "seo_question": "¿Qué dice el Imam Ali sobre la realidad de la muerte y la conexión entre los vivos y los muertos en Nahj al-Balagha?",
+        "key_terms": {
+          "عَايَنَ": "ver con los ojos / presenciar directamente",
+          "جَزِعْتُمْ": "os quedaríais perplejos / ansiosos",
+          "وَهِلْتُمْ": "os inquietaríais / os estremeceríais",
+          "مَحْجُوبٌ": "cubierto / oculto",
+          "الْحِجَابُ": "el velo / la cortina",
+          "الْعِبَرُ": "ejemplos instructivos / lecciones",
+          "رُسُلِ السَّمَاءِ": "mensajeros celestiales (ángeles)"
+        }
+      },
+      "fr": {
+        "summary": "L'imam Ali (que la paix soit sur lui) met en lumière le obstacle psychologique de la *ghaflah* (insouciance) qui empêche les vivants de pleinement intérioriser la réalité de la mort, les exhortant à laisser les leçons des défunts guider leur obéissance. Il affirme que les messagers humains servent de dernier canal pour la guidance divine après les prophètes célestes, soulignant l'urgence de prêter attention à ces avertissements avant que le voile ne soit levé. Cette réflexion souligne l'accent mis par le chiisme sur la *tadhkirah* (remembrance) comme catalyseur de l'éveil spirituel et de la piété pratique.",
+        "seo_question": "Que dit l'imam Ali sur la réalité de la mort et la connexion entre les vivants et les morts dans Nahj al-Balagha ?",
+        "key_terms": {
+          "عَايَنَ": "voir de ses propres yeux / assister directement",
+          "جَزِعْتُمْ": "vous seriez perplexe / anxieux",
+          "وَهِلْتُمْ": "vous seriez troublé / ébranlé",
+          "مَحْجُوبٌ": "couvert / caché",
+          "الْحِجَابُ": "le rideau / le voile",
+          "الْعِبَرُ": "exemples instructifs / leçons",
+          "رُسُلِ السَّمَاءِ": "messagers célestes (anges)"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede sei mit ihm) hebt die psychologische Barriere der *Ghaflah* (Unachtsamkeit) hervor, die die Lebenden daran hindert, die Realität des Todes vollständig zu verinnerlichen, und ermahnt sie, die Lehren der Verstorbenen als Leitfaden für ihren Gehorsam zu nutzen. Er betont, dass menschliche Gesandte nach den himmlischen Propheten die letzte Vermittler göttlicher Führung sind, und unterstreicht die Dringlichkeit, diesen Warnungen zu folgen, bevor der Schleif gelüftet wird. Diese Reflexion unterstreicht die schiitische Betonung der *Tadhkirah* (Erinnerung) als Katalysator für spirituelles Erwachen und praktische Frömmigkeit.",
+        "seo_question": "Was sagt Imam Ali über die Realität des Todes und die Verbindung zwischen den Lebenden und den Toten in Nahj al-Balagha?",
+        "key_terms": {
+          "عَايَنَ": "mit den Augen sehen / direkt见证",
+          "جَزِعْتُمْ": "ihr wäret verwirrt / ängstlich",
+          "وَهِلْتُمْ": "ihr wäret beunruhigt / erschüttert",
+          "مَحْجُوبٌ": "abgeschirmt / verborgen",
+          "الْحِجَابُ": "der Schleier / das Vorhang",
+          "الْعِبَرُ": "lehrreiche Beispiele / Lehren",
+          "رُسُلِ السَّمَاءِ": "himmlische Gesandte (Engel)"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (мир ему) указывает на психологический барьер *гафля* (небрежности), который мешает живым в полной мере осознать реальность смерти, призывая их позволить урокам умерших направлять их послушание. Он утверждает, что посланники человека служат последним каналом божественного руководства после небесных пророков, подчеркивая срочность внимательного отношения к этим предупреждениям до того, как завеса будет снята. Это размышление подчеркивает шиитский акцент на *тазкире* (поминании) как катализаторе духовного пробуждения и практического благочестия.",
+        "seo_question": "Что говорит Имам Али о реальности смерти и связи между живыми и мертвыми в «Балог аль-Балаге»?",
+        "key_terms": {
+          "عَايَنَ": "видеть глазами / свидетельствовать непосредственно",
+          "جَزِعْتُمْ": "вы были бы озадачены / тревожны",
+          "وَهِلْتُمْ": "вы были бы встревожены / потрясены",
+          "مَحْجُوبٌ": "отделенный завесой / скрытый",
+          "الْحِجَابُ": "завеса / покров",
+          "الْعِبَرُ": "назидательные примеры / уроки",
+          "رُسُلِ السَّمَاءِ": "небесные посланники (ангелы)"
+        }
+      },
+      "zh": {
+        "summary": "阿里伊玛目（愿主福安之）指出，*ghaflah*（疏忽）这一心理障碍阻碍了生者充分内化死亡的现实，并敦促他们让逝者的教训指引自己的顺从。他断言，在 celestial 先知之后，人类使者是神圣指引的最终渠道，强调在面纱揭开之前必须重视这些警告。这一反思凸显了什叶派对 *tadhkirah*（纪念）作为精神觉醒和实践虔诚催化剂的重视。",
+        "seo_question": "阿里伊玛目在《布哈里格》中关于死亡的现实以及生者与死者之间的联系说了什么？",
+        "key_terms": {
+          "عَايَنَ": "亲眼看见/直接见证",
+          "جَزِعْتُمْ": "你会困惑/焦虑",
+          "وَهِلْتُمْ": "你会不安/动摇",
+          "مَحْجُوبٌ": "被遮蔽/隐藏",
+          "الْحِجَابُ": "帷幕/面纱",
+          "الْعِبَرُ": "有益的榜样/教训",
+          "رُسُلِ السَّمَاءِ": "天国的使者（天使）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "39:42",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "32:11",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "36:12",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "59:18",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "فَإِنَّكُمْ لَوْ عَايَنْتُمْ مَا قَدْ عَايَنَ مَنْ مَاتَ مِنْكُمْ لَجَزِعْتُمْ وَوَهِلْتُمْ وَسَمِعْتُمْ وَأَطَعْتُمْ، وَلَكِنْ مَحْجُوبٌ عَنْكُمْ مَا عَايَنُوا، وَقَرِيبٌ مَا يُطْرَحُ الْحِجَابُ! وَلَقَدْ بُصِّرْتُمْ إِنْ أَبْصَرْتُمْ، وَأُسْمِعْتُمْ إِنْ سَمِعْتُمْ، وَهُدِيتُمْ إِنِ اهْتَدَيْتُمْ، وَبِحَقٍّ أَقُولُ لَكُمْ: لَقَدْ جَاهَرَتْكُمُ الْعِبَرُ وَزُجِرْتُمْ بِمَا فِيهِ مُزْدَجَرٌ، وَمَا يُبَلِّغُ عَنِ اللَّهِ بَعْدَ رُسُلِ السَّمَاءِ إِلَّا الْبَشَرُ.",
+    "isnad_matn": {
+      "isnad_ar": "فَإِنَّكُمْ لَوْ عَايَنْتُمْ مَا قَدْ عَايَنَ مَنْ مَاتَ مِنْكُمْ لَجَزِعْتُمْ وَوَهِلْتُمْ وَسَمِعْتُمْ وَأَطَعْتُمْ، وَلكِنْ مَحْجُوبٌ عَنْكُمْ مَا عَايَنُوا، وَقَرِيبٌ مَا يُطْرَحُ الحِجَابُ! وَلَقَدْ بُصِّرْتُمْ إِنْ أَبْصَرْتُمْ، وَأُسْمِعْتُمْ إِنْ سَمِعْتُمْ، وَهُدِيتُمْ إِنِ اهْتَدَيْتُمْ، وَبِحَقٍّ أَقَولُ لَكُمْ: لَقَدْ جَاهَرَتْكُمُ العِبَرُ وَزُجِرْتُمْ بِمَا فِي",
+      "matn_ar": "فَإِنَّكُمْ لَوْ عَايَنْتُمْ مَا قَدْ عَايَنَ مَنْ مَاتَ مِنْكُمْ لَجَزِعْتُمْ وَوَهِلْتُمْ وَسَمِعْتُمْ وَأَطَعْتُمْ، وَلَكِنْ مَحْجُوبٌ عَنْكُمْ مَا عَايَنُوا، وَقَرِيبٌ مَا يُطْرَحُ الْحِجَابُ! وَلَقَدْ بُصِّرْتُمْ إِنْ أَبْصَرْتُمْ، وَأُسْمِعْتُمْ إِنْ سَمِعْتُمْ، وَهُدِيتُمْ إِنِ اهْتَدَيْتُمْ، وَبِحَقٍّ أَقُولُ لَكُمْ: لَقَدْ جَاهَرَتْكُمُ الْعِبَرُ وَزُجِرْتُمْ بِمَا فِيهِ مُزْدَجَرٌ، وَمَا يُبَلِّغُ عَنِ اللَّهِ بَعْدَ رُسُلِ السَّمَاءِ إِلَّا الْبَشَرُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "فإنكم لو عاينتم ما قد عاين من مات منكم لجزعتم ووهلتم وسمعتم وأطعتم، ولكن محجوب عنكم ما عاينوا، وقريب ما يطرح الحجاب! ولقد بصرتم إن أبصرتم، وأسمعتم إن سمعتم، وهديتم إن اهتديتم، وبحق أقول لكم: لقد جاهرتكم العبر وزجرتم بما",
+          "name_en": "al-Hasan b. al-Husayn",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

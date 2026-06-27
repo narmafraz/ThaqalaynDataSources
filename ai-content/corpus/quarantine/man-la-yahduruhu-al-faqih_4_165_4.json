@@ -1,179 +1,432 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:165:4",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[1] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.zh is empty string (likely Phase 4 batch failure)"
+    "chunks[8] translations.ur is empty string (likely Phase 4 batch failure)"
   ],
   "result": {
     "tags": [
       "jurisprudence",
       "family",
-      "governance",
-      "history"
+      "social_relations"
     ],
-    "content_type": "legal_ruling",
+    "content_type": "narrative",
     "topics": [
-      "inheritance",
       "judicial_rulings",
-      "justice_system",
-      "marriage_family_law",
-      "religious_authority"
+      "inheritance",
+      "imams_biography",
+      "marriage_family_law"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "٥٧٠٤ - وَرَوَى عَاصِمُ بْنُ حُمَيْدٍ عَنْ مُحَمَّدِ بْنِ قَيْسٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
+        "arabic_text": "وَرَوَى عَاصِمُ بْنُ حُمَيْدٍ عَنْ مُحَمَّدِ بْنِ قَيْسٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
         "translations": {
-          "en": "5704 - And ‘Āṣim ibn Ḥumayd narrated from Muḥammad ibn Qays, from Abī Ja‘far عليه السلام, who said:",
-          "ur": "5704 - اور عاصم بن حمید نے محمد بن قیص سے روایت کی، جو ابو جعفر علیہ السلام سے روایت کرتے ہیں، جنہوں نے فرمایا:",
-          "tr": "5704 - Ve ‘Āṣim ibn Ḥumayd, Muḥammad ibn Qays’den, o da Abī Ja‘far علیه السلام’dan rivayet etti:",
-          "fa": "۵۷۰۴ - و عاصم بن حمید از محمد بن قیس، از ابی جعفر علیه السلام روایت کرده است که فرمود:",
-          "id": "5704 - Dan ‘Āṣim ibn Ḥumayd meriwayat dari Muḥammad ibn Qays, dari Abī Ja‘far علیه السلام, yang berkata:",
-          "bn": "৫৭০৪ - এবং ‘আসিম ইবনে হুমৈদ থেকে মুহাম্মদ ইবনে কাইস, তিনি আবী জাফর عليه السلام থেকে روایت করেছেন, যিনি বললেন:",
-          "es": "5704 - Y ‘Āṣim ibn Ḥumayd narró de Muḥammad ibn Qays, de Abī Ja‘far عليه السلام, quien dijo:",
-          "fr": "5704 - Et ‘Āṣim ibn Ḥumayd a rapporté de Muḥammad ibn Qays, de Abī Ja‘far عليه السلام, qui a dit :",
-          "de": "5704 - Und ‘Āṣim ibn Ḥumayd berichtete von Muḥammad ibn Qays, von Abī Ja‘far عليه السلام, der sagte:",
-          "ru": "5704 - И ‘Āṣim ибн Ḥumayd передал от Мухаммада ибн Кайса, от Абī Джа‘фара عليه السلام, который сказал:",
-          "zh": "5704-‘ĀṣimibnḤumayd从MuḥammadibnQays那里传述，来自AbīJa‘farعليهالسلام，他说："
+          "en": "And Asim ibn Humaid narrated from Muhammad ibn Qays from Abu Ja'far (peace be upon him) who said:",
+          "ur": "اور عاصم بن حمید نے محمد بن قیس سے روایت کی، انہوں نے ابو جعفر علیہ السلام سے روایت کی کہ انہوں نے کہا:",
+          "tr": "Ve Âsım ibn Hümeyd, Muhammed ibn Kays'ten, Ebû Ca'fer'den (aleyhisselâm) rivayet etmiştir ki, o şöyle dedi:",
+          "fa": "و عاصم بن حمید از محمد بن قیس از ابوجعفر (علیه السلام) روایت کرد که فرمود:",
+          "id": "Dan Asim bin Humaid meriwayatkan dari Muhammad bin Qays dari Abu Ja'far (alaihissalam) yang berkata:",
+          "bn": "এবং আসিম ইবনে হুমাইদ (রহঃ) থেকে বর্ণিত হয়েছে, মুহাম্মাদ ইবনে কায়েস (রহঃ) থেকে, আবু জাফর (আঃ) থেকে, তিনি বলেন:",
+          "es": "Y narró Asim ibn Humaid de Muhammad ibn Qays de Abu Ja'far (que la paz sea con él) quien dijo:",
+          "fr": "Et",
+          "de": "Und Asim ibn Humaid überlieferte von Muhammad ibn Qays von Abu Ja'far (friede sei mit ihm), der sagte:",
+          "ru": "И Асим ибн Хумайд передал от Мухаммада ибн Кайса от Абу Джафара (да будет мир с ним), который сказал:",
+          "zh": "阿萨姆·本·胡迈德传自穆罕默德·本·盖斯，传自阿布·贾法尔（愿主安之）说："
         },
         "word_start": 0,
-        "word_end": 16
-      },
-      {
-        "chunk_type": "opening",
-        "arabic_text": "«إِنَّ شُرَيْحًا الْقَاضِيَ بَيْنَمَا هُوَ فِي مَجْلِسِ الْقَضَاءِ إِذْ أَتَتْهُ امْرَأَةٌ فَقَالَتْ: أَيُّهَا الْقَاضِي اقْضِ بَيْنِي وَبَيْنَ خَصْمِي. فَقَالَ لَهَا: وَمَنْ خَصْمُكِ؟ قَالَتْ: أَنْتَ. قَالَ: أَفْرِجُوا لَهَا. فَأَفْرَجُوا لَهَا فَدَخَلَتْ. فَقَالَ لَهَا: مَا ظُلَامَتُكِ؟ فَقَالَتْ: إِنَّ لِي مَا لِلرِّجَالِ وَمَا لِلنِّسَاءِ. قَالَ شُرَيْحٌ: فَإِنَّ أَمِيرَ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ يَقْضِي عَلَى الْمَبَالِ. قَالَتْ: فَإِنِّي أَبُولُ بِهِمَا جَمِيعًا وَيَسْكُنَانِ مَعًا. قَالَ شُرَيْحٌ: وَاللَّهِ مَا سَمِعْتُ بِأَعْجَبَ مِنْ هَذَا. قَالَتْ: وَأَعْجَبُ مِنْ هَذَا. قَالَ: وَمَا هُوَ؟ قَالَتْ: جَامَعَنِي زَوْجِي فَوَلَدْتُ مِنْهُ وَجَامَعْتُ جَارِيَتِي فَوَلَدَتْ مِنِّي. فَضَرَبَ شُرَيْحٌ إِحْدَى يَدَيْهِ عَلَى الْأُخْرَى مُتَعَجِّبًا، ثُمَّ جَاءَ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ: يَا أَمِيرَ الْمُؤْمِنِينَ لَقَدْ وَرَدَ عَلَيَّ شَيْءٌ مَا سَمِعْتُ بِأَعْجَبَ مِنْهُ. ثُمَّ قَصَّ عَلَيْهِ قِصَّةَ الْمَرْأَةِ. فَسَأَلَهَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ عَنْ ذَلِكَ فَقَالَتْ: هُوَ كَمَا ذَكَرَ. فَقَالَ لَهَا: وَمَنْ زَوْجُكِ؟ قَالَتْ: فُلَانٌ. فَبَعَثَ إِلَيْهِ فَدَعَاهُ. فَقَالَ: أَتَعْرِفُ هَذِهِ؟ قَالَ: نَعَمْ، هِيَ زَوْجَتِي. فَسَأَلَهُ عَمَّا قَالَتْ فَقَالَ: هُوَ كَذَلِكَ. فَقَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ: لَأَنْتَ أَجْرَأُ مِنْ رَاكِبِ الْأَسَدِ حَيْثُ تُقْدِمُ عَلَيْهَا بِهَذِهِ الْحَالِ.»",
-        "translations": {
-          "en": "“Shurayḥ the judge, while he was in the session of judgment, was approached by a woman who said: ‘O judge, decide between me and my adversary.’ He said to her: ‘And who is your adversary?’ She said: ‘You.’ He said: ‘Make room for her.’ So they made room for her and she entered. He said to her: ‘What is your grievance?’ She said: ‘I have what belongs to men and what belongs to women.’ Shurayḥ said: ‘Amīr al-Mu’minīn عليه السلام judges according to the urinary outlet.’ She said: ‘I urinate from both of them together, and they both cease together.’ Shurayḥ said: ‘By Allah, I have not heard of anything more astonishing than this.’ She said: ‘And more astonishing than this.’ He said: ‘What is it?’ She said: ‘My husband had intercourse with me and I bore from him, and I had intercourse with my bondwoman and she bore from me.’ Shurayḥ struck one of his hands upon the other in astonishment, then came to Amīr al-Mu’minīn عليه السلام and said: ‘O Amīr al-Mu’minīn, something has come before me the like of which I have not heard in strangeness.’ Then he related to him the story of the woman. So Amīr al-Mu’minīn عليه السلام asked her about that, and she said: ‘It is as he mentioned.’ He said to her: ‘And who is your husband?’ She said: ‘So-and-so.’ So he sent for him and summoned him. He said: ‘Do you know this one?’ He said: ‘Yes, she is my wife.’ He asked him about what she had said, and he said: ‘It is so.’ So ‘Alī عليه السلام said to him: ‘You are bolder than one who rides a lion, since you approach her in this condition.’”",
-          "ur": "‘‘شریح قاضی، جب وہ عدالتی اجلاس میں تھے، ایک عورت ان کے پاس آئی اور کہا: 'اے قاضی، میرے اور میرے مخالف کے درمیان فیصلہ کریں۔' انہوں نے کہا: 'اور تمہارا مخالف کون ہے؟' اس نے کہا: 'تم۔' انہوں نے کہا: 'اس کے لیے جگہ بناؤ۔' تو انہوں نے اس کے لیے جگہ بنائی اور وہ اندر گئی۔ انہوں نے اس سے پوچھا: 'تمہاری شکایت کیا ہے؟' اس نے کہا: 'میرے پاس مردوں کی اور عورتوں کی دونوں چیزیں ہیں۔' شریح نے کہا: 'امیر المومنین علیہ السلام پیشاب کے راستے کے مطابق فیصلہ کرتے ہیں۔' اس نے کہا: 'میں دونوں سے پیشاب کرتی ہوں اور دونوں ایک ساتھ بند ہوتے ہیں۔' شریح نے کہا: 'اللہ کی قسم، میں نے اس سے زیادہ حیران کن بات نہیں سنی۔' اس نے کہا: 'اور بھی زیادہ حیران کن بات ہے۔' انہوں نے کہا: 'کیا ہے؟' اس نے کہا: 'میرے شوہر نے میرے ساتھ جماع کیا اور میں نے اس سے اولاد پیدا کی، اور میں نے اپنی کنیز کے ساتھ جماع کیا اور اس نے مجھ سے اولاد پیدا کی۔' شریح نے حیرت میں اپنے ایک ہاتھ کو دوسرے ہاتھ پر مارا، پھر امیر المومنین علیہ السلام کے پاس گئے اور کہا: 'اے امیر المومنین، میرے سامنے ایسی بات آئی ہے جو میں نے کبھی سنی نہیں۔' پھر انہوں نے عورت کی کہانی سنائی۔ امیر المومنین علیہ السلام نے اس سے اس بارے میں پوچھا، اس نے کہا: 'جیسا کہ اس نے ذکر کیا۔' انہوں نے کہا: 'اور تمہارا شوہر کون ہے؟' اس نے کہا: ' فلاں۔' تو انہوں نے اسے بلایا۔ انہوں نے کہا: 'کیا تم اسے جانتے ہو؟' اس نے کہا: 'ہاں، وہ میری بیوی ہے۔' انہوں نے اس سے پوچھا جو اس نے کہا، اس نے کہا: 'ایسا ہی ہے۔' تو علی علیہ السلام نے کہا: 'تم اس سے بھی زیادہ جرات مند ہو جو شیر پر سوار ہو، کیونکہ تم اس حالت میں اس کے پاس جاتے ہو۔’’",
-          "tr": "“Şurayḥ hâkim, hüküm oturumundayken, yanına bir kadın geldi ve dedi ki: ‘Ey hâkim, benimle düşmanım arasında hüküm ver.’ Ona dedi ki: ‘Düşmanın kim?’ Kadın dedi ki: ‘Sen.’ Şurayḥ dedi ki: ‘Onun için yer açın.’ Yer açtılar ve kadın içeri girdi. Ona dedi ki: ‘Şikayetin nedir?’ Kadın dedi ki: ‘Erkeklere ve kadınlara ait olan şeylere sahibim.’ Şurayḥ dedi ki: ‘Emirü’l-Müminîn علیه السلام idrar çıkışına göre hüküm verir.’ Kadın dedi ki: ‘İkisiyle birlikte idrar yapıyorum ve ikisi de birlikte duruyor.’ Şurayḥ dedi ki: ‘Allah’a yemin ederim, bundan daha şaşırtıcı bir şey duymadım.’ Kadın dedi ki: ‘Ve bundan daha şaşırtıcı.’ Şurayḥ sordu: ‘Nedir?’ Kadın dedi: ‘Kocam benimle ilişkiye girdi ve ondan çocuk doğurdum, cariyemle ilişkiye girdim ve o benden çocuk doğurdu.’ Şurayḥ hayretle bir elini diğerine vurdu, sonra Emirü’l-Müminîn علیه السلام’nin yanına gidip dedi ki: ‘Ey Emirü’l-Müminîn, bana daha önce duymadığım bir şey geldi.’ Kadının hikâyesini anlattı. Emirü’l-Müminîn علیه السلام kadına bunu sordu, kadın dedi ki: ‘Dediği gibi.’ Emirü’l-Müminîn علیه السلام sordu: ‘Kocan kim?’ Kadın dedi: ‘Şu ve şu.’ Onu çağırdı ve ona sordu: ‘Bunu tanıyor musun?’ Adam dedi: ‘Evet, o benim karım.’ Kadına söylediklerini sordu, adam dedi: ‘Öyle.’ Ali علیه السلام ona dedi ki: ‘Bir aslanı süren kişiden daha cesursun, çünkü bu halde ona yaklaşıyorsun.’",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
-        },
-        "word_start": 16,
-        "word_end": 177
+        "word_end": 14
       },
       {
         "chunk_type": "body",
-        "arabic_text": "ثُمَّ قَالَ: «يَا قَنْبَرُ أَدْخِلْهَا بَيْتًا مَعَ امْرَأَةٍ فَعُدَّ أَضْلَاعَهَا». فَقَالَ زَوْجُهَا: يَا أَمِيرَ الْمُؤْمِنِينَ لَا آمَنُ عَلَيْهَا رَجُلًا وَلَا أَئْتَمِنُ عَلَيْهَا امْرَأَةً. فَقَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ: «عَلَيَّ بِدِينَارٍ الْخَصِيِّ». وَكَانَ مِنْ صَالِحِي أَهْلِ الْكُوفَةِ وَكَانَ يَثِقُ بِهِ. فَقَالَ لَهُ: «يَا دِينَارُ أَدْخِلْهَا بَيْتًا وَعَرِّهَا مِنْ ثِيَابِهَا وَمُرْهَا أَنْ تَشُدَّ مِئْزَرًا وَعُدَّ أَضْلَاعَهَا». فَفَعَلَ دِينَارٌ ذَلِكَ، وَكَانَ أَضْلَاعُهَا سَبْعَةَ عَشَرَ: تِسْعَةٌ فِي الْيَمِينِ وَثَمَانِيَةٌ فِي الْيَسَارِ. فَأَلْبَسَهَا عَلِيٌّ عَلَيْهِ السَّلَامُ ثِيَابَ الرِّجَالِ وَالْقَلَنْسُوَةَ وَالنَّعْلَيْنِ، وَأَلْقَى عَلَيْهِ الرِّدَاءَ، وَأَلْحَقَهُ بِالرِّجَالِ. فَقَالَ زَوْجُهَا: يَا أَمِيرَ الْمُؤْمِنِينَ ابْنَةُ عَمِّي وَقَدْ وَلَدَتْ مِنِّي تُلْحِقُهَا بِالرِّجَالِ؟ فَقَالَ عَلَيْهِ السَّلَامُ: «إِنِّي حَكَمْتُ عَلَيْهَا بِحُكْمِ اللَّهِ عَزَّ وَجَلَّ، إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى خَلَقَ حَوَّاءَ مِنْ ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى، وَأَضْلَاعُ الرِّجَالِ تَنْقُصُ وَأَضْلَاعُ النِّسَاءِ تَمَامٌ».",
+        "arabic_text": "إِنَّ شُرَيْحًا الْقَاضِيَ بَيْنَمَا هُوَ فِي مَجْلِسِ الْقَضَاءِ إِذْ أَتَتْهُ امْرَأَةٌ فَقَالَتْ أَيُّهَا الْقَاضِي اقْضِ بَيْنِي وَبَيْنَ خَصْمِي فَقَالَ لَهَا وَمَنْ خَصْمُكِ قَالَتْ أَنْتَ قَالَ أَفْرِجُوا لَهَا فَأَفْرَجُوا لَهَا فَدَخَلَتْ فَقَالَ لَهَا مَا ظُلَامَتُكِ فَقَالَتْ إِنَّ لِي مَا لِلرِّجَالِ وَمَا لِلنِّسَاءِ",
         "translations": {
-          "en": "Then he said: “O Qanbar, take her into a house with a woman and count her ribs.” Her husband said: “O Amīr al-Mu’minīn, I do not trust any man with her, nor do I entrust any woman with her.” So ‘Alī عليه السلام said: “Bring me Dīnār the eunuch.” He was among the righteous of the people of Kūfah, and he trusted him. So he said to him: “O Dīnār, take her into a house, remove her garments, instruct her to fasten a waist-wrapper, and count her ribs.” Dīnār did that, and her ribs were seventeen: nine on the right and eight on the left. So ‘Alī عليه السلام clothed her in the clothing of men, the cap, and the two sandals, cast the cloak upon him, and attached him to the men. Her husband said: “O Amīr al-Mu’minīn, she is the daughter of my uncle, and she has borne from me—are you attaching her to the men?” He عليه السلام said: “I have judged concerning her by the judgment of Allah, Mighty and Majestic. Indeed Allah, Blessed and Exalted, created Ḥawwāʾ from the farthest left rib of Ādam, and the ribs of men are fewer while the ribs of women are complete.”",
-          "ur": "پھر انہوں نے کہا: 'اے قنبر، اسے ایک عورت کے ساتھ گھر میں لے جا اور اس کی پسلیوں کو گنو۔' اس کے شوہر نے کہا: 'اے امیر المومنین، میں کسی مرد پر اسے نہیں چھوڑتا اور نہ ہی کسی عورت پر بھروسہ کرتا ہوں۔' تو علی علیہ السلام نے کہا: 'مجھے دینار، وہ خصی، لے آؤ۔' وہ کوفہ کے صالحین میں سے تھا اور اس پر اعتماد تھا۔ انہوں نے اسے کہا: 'اے دینار، اسے ایک گھر میں لے جا، اس کے کپڑے اتار دے، اسے کہہ کہ وہ ایک کمربند باندھے، اور اس کی پسلیاں گنو۔' دینار نے ایسا کیا، اور اس کی پسلیاں سترہ تھیں: دائیں طرف نو اور بائیں طرف آٹھ۔ پھر علی علیہ السلام نے اسے مردوں کے کپڑے، ٹوپی، اور دو سینڈل پہنائے، اس پر رداء ڈال دیا، اور اسے مردوں کے ساتھ شامل کر دیا۔ اس کے شوہر نے کہا: 'اے امیر المومنین، وہ میرے چچا کی بیٹی ہے اور اس نے مجھ سے اولاد پیدا کی ہے، کیا تم اسے مردوں کے ساتھ شامل کر رہے ہو؟' انہوں نے فرمایا: 'میں نے اللہ تعالیٰ کے حکم کے مطابق اس پر فیصلہ کیا ہے۔ بے شک اللہ تعالیٰ نے حوا کو آدم کے سب سے دور بائیں پسلی سے پیدا کیا، اور مردوں کی پسلیاں کم ہوتی ہیں جبکہ عورتوں کی پسلیاں مکمل ہوتی ہیں۔'",
-          "tr": "Sonra dedi ki: ‘Ey Qanbar, onu bir kadınla birlikte bir eve götür ve kaburgalarını say.’ Kocası dedi ki: ‘Ey Emirü’l-Müminîn, ona bir erkeği emanet etmem ve bir kadına da güvenmem.’ Ali علیه السلام dedi ki: ‘Bana hadım Dīnār’ı getir.’ O, Kûfe halkının salihlerinden idi ve ona güvenilirdi. Ona dedi ki: ‘Ey Dīnār, onu bir eve götür, giysilerini çıkar, ona bir kuşak bağlamasını emret ve kaburgalarını say.’ Dīnār bunu yaptı ve kaburgaları on yedi idi: sağda dokuz, solda sekiz. Ali علیه السلام ona erkeklerin giysilerini, başlığı ve iki sandalet giydirdi, üzerine bir hırka attı ve onu erkeklerin arasına kattı. Kocası dedi ki: ‘Ey Emirü’l-Müminîn, o benim amcamın kızı ve benden çocuk doğurdu, onu erkeklerin arasına mı katıyorsun?’ O علیه السلام dedi ki: ‘Ben Allah’ın hükmüyle ona hükmettim. Şüphesiz Allah, Azze ve Celle, Havva’yı Âdem’in en uzak sol kaburgasından yarattı ve erkeklerin kaburgaları eksiktir, kadınların kaburgaları tamdır.’",
-          "fa": "سپس فرمود: «ای قنبر، او را با یک زن به خانه‌ای ببر و دنده‌هایش را بشمار.» شوهرش گفت: «ای امیرالمؤمنین، من به هیچ مردی او را نمی‌سپارم و به هیچ زنی نیز اعتماد ندارم.» پس علی علیه السلام فرمود: «دینار، غلام خصی را بیاور.» او از صالحان کوفه بود و به او اعتماد داشت. به او گفت: «ای دینار، او را به خانه‌ای ببر، لباس‌هایش را درآور، به او بگو که کمربندی ببندد و دنده‌هایش را بشمار.» دینار این کار را کرد و دنده‌های او هفده بود: نه دنده در سمت راست و هشت دنده در سمت چپ. سپس علی علیه السلام او را به لباس مردان، کلاه و دو صندل پوشاند، عبایی بر او انداخت و او را به مردان پیوست. شوهرش گفت: «ای امیرالمؤمنین، او دختر عمویم است و از من فرزندی به دنیا آورده است، آیا او را به مردان می‌پیوندی؟» علیه السلام فرمود: «من درباره او به حکم خداوند، عزّوجلّ حکم کردم. خداوند، تبارک و تعالی، حوا را از دورترین دنده چپ آدم آفرید و دنده‌های مردان کمتر است در حالی که دنده‌های زنان کامل است.»",
-          "id": "Kemudian dia berkata: “Wahai Qanbar, bawa dia ke sebuah rumah bersama seorang wanita dan hitung tulang rusuknya.” Suaminya berkata: “Wahai Amīr al-Mu’minīn, aku tidak mempercayakan dia kepada seorang pria pun, dan juga tidak kepada seorang wanita.” Maka ‘Alī علیه السلام berkata: “Bawakan aku Dīnār, budak kastrasi.” Dia termasuk orang saleh dari penduduk Kufah dan dipercaya. Dia berkata kepadanya: “Wahai Dīnār, bawa dia ke sebuah rumah, lepaskan pakaiannya, suruh dia mengikat kain pinggang, dan hitung tulang rusuknya.” Dīnār melakukan itu, dan tulang rusuknya berjumlah tujuh belas: sembilan di kanan dan delapan di kiri. Maka ‘Alī علیه السلام memakaikannya pakaian pria, topi, dan dua sandal, membalutnya dengan jubah, dan menggabungkannya dengan para pria. Suaminya berkata: “Wahai Amīr al-Mu’minīn, dia adalah putri paman saya dan telah melahirkan anak dari saya—apakah kamu menggabungkannya dengan para pria?” Dia علیه السلام berkata: “Aku telah memutuskan perkara ini menurut hukum Allah Yang Maha Perkasa dan Maha Agung. Sesungguhnya Allah Yang Maha Berkah dan Maha Tinggi menciptakan Ḥawwāʾ dari tulang rusuk paling kiri terjauh dari Ādam, dan tulang rusuk pria lebih sedikit sedangkan tulang rusuk wanita lengkap.”",
-          "bn": "তারপর তিনি বললেন: “হে কনবার, তাকে একজন নারীর সঙ্গে একটি ঘরে নিয়ে যাও এবং তার পাঁজর গোনো।” তার স্বামী বললেন: “হে আমীরুল মুমিনীন, আমি তাকে কোনো পুরুষের কাছে বিশ্বাস করি না, এবং কোনো নারীর কাছেও বিশ্বাস করি না।” তাই আলী عليه السلام বললেন: “আমাকে দীনার নামক কুষ্ঠককে নিয়ে আসো।” তিনি কুফার ধার্মিকদের মধ্যে ছিলেন এবং তার প্রতি বিশ্বাস ছিল। তিনি তাকে বললেন: “হে দীনার, তাকে একটি ঘরে নিয়ে যাও, তার কাপড় খুলে দাও, তাকে বেল্ট বাঁধতে বলো, এবং তার পাঁজর গোনো।” দীনার তা করলেন, এবং তার পাঁজর ছিল সতেরোটি: ডানদিকে নয়টি এবং বামদিকে আটটি। তারপর আলী عليه السلام তাকে পুরুষদের পোশাক, টুপি এবং দুই জুতা পরিয়ে দিলেন, তার ওপর একটি চাদর দিলেন, এবং তাকে পুরুষদের সঙ্গে যুক্ত করলেন। তার স্বামী বললেন: “হে আমীরুল মুমিনীন, সে আমার চাচার মেয়ে এবং সে আমার থেকে সন্তান জন্ম দিয়েছে—তুমি কি তাকে পুরুষদের সঙ্গে যুক্ত করছ?” তিনি عليه السلام বললেন: “আমি আল্লাহর হুকুম অনুযায়ী তার ব্যাপারে বিচার করেছি, মহান ও মহিমান্বিত আল্লাহ ādām-এর সবচেয়ে দূরের বাম পাশের পাঁজর থেকে হাওয়াকে সৃষ্টি করেছেন, এবং পুরুষদের পাঁজর কম থাকে, নারীদের পাঁজর সম্পূর্ণ থাকে।”",
-          "es": "Luego dijo: “Oh Qanbar, llévala a una casa con una mujer y cuenta sus costillas.” Su esposo dijo: “Oh Amīr al-Mu’minīn, no confío en ningún hombre con ella, ni tampoco en ninguna mujer.” Entonces ‘Alī عليه السلام dijo: “Tráeme a Dīnār el eunuco.” Él era de los justos del pueblo de Kūfah y se confiaba en él. Le dijo: “Oh Dīnār, llévala a una casa, quítale la ropa, ordénale que se ate un cinturón y cuenta sus costillas.” Dīnār hizo eso, y sus costillas eran diecisiete: nueve a la derecha y ocho a la izquierda. Entonces ‘Alī عليه السلام la vistió con ropa de hombre, el gorro y las dos sandalias, le echó el manto y la unió con los hombres. Su esposo dijo: “Oh Amīr al-Mu’minīn, ella es hija de mi tío y ha dado a luz de mí, ¿la unes con los hombres?” Él عليه السلام dijo: “He juzgado sobre ella con el juicio de Allah, el Poderoso y Majestuoso. En verdad, Allah, Bendito y Exaltado, creó a Ḥawwāʾ de la costilla más lejana a la izquierda de Ādam, y las costillas de los hombres son menos mientras que las de las mujeres son completas.”",
-          "fr": "Puis il dit : « Ô Qanbar, emmène-la dans une maison avec une femme et compte ses côtes. » Son mari dit : « Ô Amīr al-Mu’minīn, je ne lui confie aucun homme, ni aucune femme. » Alors ‘Alī عليه السلام dit : « Apporte-moi Dīnār l’eunuque. » Il faisait partie des pieux habitants de Koufa et on lui faisait confiance. Il lui dit : « Ô Dīnār, emmène-la dans une maison, enlève ses vêtements, ordonne-lui d’attacher un pagne et compte ses côtes. » Dīnār fit cela, et ses côtes étaient au nombre de dix-sept : neuf à droite et huit à gauche. Alors ‘Alī عليه السلام lui fit porter des vêtements d’homme, le bonnet et les deux sandales, lui jeta le manteau sur les épaules et l’intégra parmi les hommes. Son mari dit : « Ô Amīr al-Mu’minīn, elle est la fille de mon oncle et elle a enfanté de moi, la rattaches-tu aux hommes ? » Il عليه السلام répondit : « J’ai jugé à son sujet selon le jugement d’Allah, le Puissant et Majestueux. En vérité, Allah, Béni et Exalté, a créé Ḥawwāʾ à partir de la côte la plus éloignée à gauche d’Ādam, et les côtes des hommes sont moins nombreuses tandis que celles des femmes sont complètes. »",
-          "de": "Dann sagte er: „O Qanbar, bring sie mit einer Frau in ein Haus und zähle ihre Rippen.“ Ihr Ehemann sagte: „O Amīr al-Mu’minīn, ich traue keinem Mann mit ihr und auch keiner Frau.“ Da sagte ‘Alī علیه السلام: „Bring mir Dīnār, den Eunuchen.“ Er gehörte zu den Rechtschaffenen der Leute von Kūfah und man vertraute ihm. Er sagte zu ihm: „O Dīnār, bring sie in ein Haus, zieh ihr die Kleider aus, befiehl ihr, einen Lendenschurz zu binden, und zähle ihre Rippen.“ Dīnār tat dies, und ihre Rippen waren siebzehn: neun rechts und acht links. Dann kleidete ‘Alī علیه السلام sie in Männerkleidung, die Kappe und die zwei Sandalen, warf den Mantel über sie und fügte sie den Männern bei. Ihr Ehemann sagte: „O Amīr al-Mu’minīn, sie ist die Tochter meines Onkels und hat von mir geboren – willst du sie den Männern zuordnen?“ Er علیه السلام sagte: „Ich habe über sie nach dem Urteil Allahs, des Mächtigen und Erhabenen, entschieden. Wahrlich, Allah, der Gesegnete und Erhabene, erschuf Ḥawwāʾ aus der äußersten linken Rippe Ādams, und die Rippen der Männer sind weniger, während die der Frauen vollständig sind.“",
-          "ru": "Затем он сказал: «О Канбар, введи её в дом с женщиной и посчитай её рёбра.» Её муж сказал: «О Амир аль-Муминин, я не доверяю ей ни мужчине, ни женщине.» Тогда ‘Али عليه السلام сказал: «Приведи мне Динара, евнуха.» Он был из праведных людей Куфы и ему доверяли. Он сказал ему: «О Динар, введи её в дом, сними с неё одежду, прикажи ей завязать пояс и посчитай её рёбра.» Динар сделал это, и её рёбра были семнадцать: девять справа и восемь слева. Тогда ‘Али عليه السلام одел её в мужскую одежду, шапку и две сандалии, накинул на неё плащ и присоединил к мужчинам. Её муж сказал: «О Амир аль-Муминин, она дочь моего дяди и родила от меня — ты присоединяешь её к мужчинам?» Он عليه السلام сказал: «Я вынес решение о ней по суду Аллаха, Всемогущего и Великого. Воистину, Аллах, Благословенный и Возвышенный, создал Хавву из самой дальней левой рёбра Адама, и рёбра мужчин меньше, а рёбра женщин полные.»",
-          "zh": "然后他说：“噢Qanbar，带她和一名妇女进屋，数她的肋骨。”她的丈夫说：“噢Amīral-Mu’minīn，我不信任任何男人照看她，也不信任任何女人。”于是‘Alīعليهالسلام说：“把阉人Dīnār带来。”他是库法的虔诚信士，值得信赖。他对他说：“噢Dīnār，把她带进屋，脱去她的衣服，命令她系上腰带，数她的肋骨。”Dīnār照做了，她的肋骨有十七根：右边九根，左边八根。于是‘Alīعليهالسلام给她穿上男装、帽子和两只凉鞋，披上披风，把她归入男人之列。她的丈夫说：“噢Amīral-Mu’minīn，她是我叔叔的女儿，且她为我生了孩子——你把她归入男人之列？”他عليهالسلام说：“我已根据真主至高无上的判决对她作出裁决。真主，至福至高者，是从亚当最远左侧的肋骨创造了夏娃，男人的肋骨较少，而女人的肋骨是完整的。”"
+          "en": "Shurayh the judge was sitting in his court when a session of judgment when a woman came to him and said: 'O judge, rule between me and my opponent.' He said to her: 'And who is your opponent?' She said: 'You.' He said: 'Make way for her,' so they made way for her and she entered. He said to her: 'What is your grievance?' She said: 'I possess what belongs to men and what belongs to women.'",
+          "ur": "شرعہ قاضی اپنے عدالت میں بیٹھے ہوئے تھے کہ ایک مقدمہ کی سماعت ہو رہی تھی کہ ایک عورت ان کے پاس آئی اور بولی: اے قاضی! میرے اور میرے حریف کے درمیان فیصلہ فرماؤ۔ انہوں نے پوچھا: تمہارا حریف کون ہے؟ اس نے کہا: آپ۔ انہوں نے کہا: اسے راستہ دو، پس انہوں نے اسے راستہ دیا اور وہ اندر داخل ہوئی۔ انہوں نے اس سے پوچھا: تمہاری شکایت کیا ہے؟ اس نے کہا: میرے پاس وہ چیزیں ہیں جو مردوں کے لیے ہیں اور وہ بھی جو عورتوں کے لیے ہیں۔",
+          "tr": "Hâkim Şurayh mahkemesinde otururken bir kadın gelip dedi ki: 'Ey hâkim, benimle rakibim arasında hükmet.' O da ona: 'Rakibin kim?' dedi. Kadın: 'Sen.' dedi. O da: 'Yol verin ona,' dedi, böylece ona yol verdiler ve kadın içeri girdi. O da ona: 'Şikâyetin nedir?' dedi. Kadın: 'Erkeklere ait olanı ve kadınlara ait olanı bende bulunduruyorum,' dedi.",
+          "fa": "شُرَیْح قاضی در محکمه خود نشسته بود و در حال رسیدگی به دادرسی بود که زنی نزد او آمد و گفت: «ای قاضی، میان من و حریفم حکم کن.» او به او گفت: «حریف تو کیست؟» گفت: «تو.» گفت: «برایش راه باز کنید،» پس راه را برای او باز کردند و او وارد شد. او به او گفت: «شکایت تو چیست؟» گفت: «آنچه را که متعلق به مردان است و آنچه را که متعلق به زنان است، دارم.",
+          "id": "Syuraih al-Qadhi duduk di mahkamahnya ketika sebuah sidang pengadilan berlangsung, seorang wanita datang kepadanya dan berkata, 'Wahai qadhi, putuskanlah antara aku dan lawan bicaraku.' Ia berkata kepadanya, 'Siapakah lawan bicaramu?' Ia menjawab, 'Kamu.' Ia berkata, 'Berilah jalan baginya,' maka mereka berilah jalan baginya dan ia masuk. Ia berkata kepadanya, 'Apa keluhanmu?' Ia menjawab, 'Aku memiliki apa yang menjadi milik laki-laki dan apa yang menjadi milik perempuan.'",
+          "bn": "শুরাইহ ক্যাযী তাঁর আদালতে বসে ছিলেন, এমন সময় এক নারী এসে তাঁকে বললেন, 'হে ক্যাযী, আমার ও আমার প্রতিপক্ষের মধ্যে ফয়সালা করুন।' তিনি তাঁকে বললেন, 'আপনার প্রতিপক্ষ কে?' তিনি বললেন, 'আপনি।' তিনি বললেন, 'তার জন্য জায়গা করে দাও,' তাই তারা তাঁর জন্য জায়গা করে দিল এবং তিনি প্রবেশ করলেন। তিনি তাঁকে বললেন, 'আপনার অভিযোগ কী?' তিনি বললেন, 'আমার পুরুষদের সম্পত্তি ও নারীদের সম্পত্তি উভয়ই রয়েছে।'",
+          "es": "Shurayh el juez estaba sentado en su tribunal cuando llegó una mujer y le dijo: «¡Oh juez, juzga entre mí y mi oponente!». Él le dijo: «¿Y quién es tu oponente?». Ella dijo: «Tú». Él dijo: «Hacedle sitio», así que le hicieron sitio y ella entró. Él le dijo: «¿Cuál es tu reclamación?». Ella dijo: «Poseo lo que pertenece a los hombres y lo que pertenece a las mujeres».",
+          "fr": "Chinois",
+          "de": "Schuraih der Richter saß in seinem Gericht, als eine Sitzung der Rechtsprechung stattfand, als eine Frau zu ihm kam und sagte: »O Richter, urteile zwischen mir und meinem Gegner.« Er sagte zu ihr: »Und wer ist dein Gegner?« Sie sagte: »Du.« Er sagte: »Macht ihr den Weg frei«, also machten sie ihr den Weg frei und sie trat ein. Er sagte zu ihr: »Was ist dein Anliegen?« Sie sagte: »Ich besitze, was den Männern gehört und was den Frauen gehört.«",
+          "ru": "Шурайх, судья сидел в своём суде, когда к нему пришла женщина и сказала: «О судья, рассуди между мной и моим оппонентом». Он сказал ей: «Кто твой оппонент?». Она сказала: «Ты». Он сказал: «Пропустите её», и они пропустили её, и она вошла. Он сказал ей: «В чём твоя жалоба?». Она сказала: «Я обладаю тем, что принадлежит мужчинам, и тем, что принадлежит женщинам».",
+          "zh": "舒拉伊赫法官正坐在法庭上审理案件时，一位女子来到他面前说：‘法官啊，请你在我与我的对手之间作出裁决。’他问：‘你的对手是谁？’她说：‘就是你。’他说：‘让她进来，’于是众人让路，她走了进去。他问：‘你有什么冤屈？’她说：‘我拥有属于男人的东西，也拥有属于女人的东西。’"
         },
-        "word_start": 177,
-        "word_end": 295
+        "word_start": 14,
+        "word_end": 55
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ شُرَيْحٌ فَإِنَّ أَمِيرَ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ يَقْضِي عَلَى الْمَبَالِ قَالَتْ فَإِنِّي أَبُولُ بِهِمَا جَمْعًا وَيَسْكُنَانِ مَعًا قَالَ شُرَيْحٌ وَاللَّهُ مَا سَمِعْتُ بِأَعْجَبَ مِنْ هَذَا قَالَتْ وَأَعْجَبُ مِنْ هَذَا قَالَ وَمَا هُوَ قَالَتْ جَامَعَنِي زَوْجِي فَوَلَدْتُ مِنْهُ وَجَامَعْتُ جَارِيَتِي فَوَلَدَتْ مِنِّي فَضَرَبَ شُرَيْحٌ إِحْدَى يَدَيْهِ عَلَى الْأُخْرَى مُتَعَجِّبًا",
+        "translations": {
+          "en": "Shurayh said: 'The Commander of the Faithful (peace be upon him) rules according to urination.' She said: 'I urinate from both together, and they function together.' Shurayh said: 'By Allah, I have not heard of anything more astonishing than this.' She said: 'And there is something more astonishing than this.' He said: 'And what is it?' She said: 'My husband had intercourse with me and I bore him a child, and I had intercourse with my female servant and she bore me a child.' Shurayh struck one of his hands against the other in amazement.",
+          "ur": "شرع نے کہا: امیر المؤمنین (صلی اللہ علیہ وسلم) پیشاب کے مطابق فتویٰ دیتے ہیں۔ اس نے کہا: میں دونوں سے ایک ساتھ پیشاب کرتی ہوں اور وہ ایک ساتھ کام کرتے ہیں۔ شرع نے کہا: اللہ کی قسم، میں نے اس سے زیادہ حیران کن کچھ نہیں سنا۔ اس نے کہا: اور اس سے بھی زیادہ حیران کن بات ہے۔ اس نے کہا: اور وہ کیا ہے؟ اس نے کہا: میرے شوہر نے مجھ سے جماع کیا اور میں نے ان سے بچہ پیدا کیا، اور میں نے اپنی غلامی سے جماع کیا اور اس نے مجھ سے بچہ پیدا کیا۔",
+          "tr": "Şerhî dedi: \"Emîrü'l-mü'minîn (aleyhi's-salâtü vesselâm) idrar yapmaya göre hükmeder.\" O da dedi: \"Ben ikisini birden yaparım ve ikisi birden işlev görür.\" Şerhî dedi: \"Allah'a yemin ederim ki, bundan daha hayret verici bir şey duymadım.\" O da dedi: \"Bundan daha hayret verici bir şey daha var.\" O da dedi: \"O nedir?\" O da dedi: \"Kocam benimle cinsi münasebette bulundu ve bana bir çocuk verdi, ben de cariye ile cinsi münasebette bulundum ve o bana bir çocuk verdi.\" Şerhî hayretle ellerinden birini diğerine vurdu.",
+          "fa": "شُرَیح گفت: «امیرالمؤمنین (علیه السلام) بر اساس بول حکم می‌کند.» گفت: «من از هر دو با هم ادرار می‌کنم و آن‌ها با هم کار می‌کنند.» شُرَیح گفت: «به خدا، چیزی شگفت‌انگیزتر از این نشنیده‌ام.» گفت: «و چیزی شگفت‌انگیزتر از این وجود دارد.» گفت: «و آن چیست؟» گفت: «همسرم با من نزدیکی کرد و من برای او فرزندی به دنیا آوردم، و من با کنیزم نزدیکی کردم و او برای من فرزندی به دنیا آورد.» شُرَیح از حیرت دستش را بر دست دیگر زد.",
+          "id": "Syuraih berkata: \"Amirul Mukminin (semoga Allah meridhainya) memutuskan hukum berdasarkan buang air kecil.\" Ia berkata: \"Aku buang air kecil dari keduanya sekaligus, dan keduanya berfungsi bersama.\" Syuraih berkata: \"Demi Allah, aku belum pernah mendengar sesuatu yang lebih menakjubkan daripada ini.\" Ia berkata: \"Dan ada sesuatu yang lebih menakjubkan daripada ini.\" Ia berkata: \"Apa itu?\" Ia berkata: \"Suamiku bersetubuh denganku lalu aku melahirkan anak darinya, dan aku bersetubuh dengan hamba perempuanku lalu ia melahirkan anak dariku.\" Syuraih memukulkan salah satu tangannya ke tangan yang lain karena takjub.",
+          "bn": "শুরাইহ (রহ.) বললেন, 'আমিরুল মুমিনীন (সা.) প্রস্রাবের বিধান অনুযায়ী রায় দেন।' তিনি বললেন, 'আমি উভয় থেকে একসাথে প্রস্রাব করি, এবং তারা একসাথে কাজ করে।' শুরাইহ (রহ.) বললেন, 'আল্লাহর শপথ, আমি এর চেয়ে অধিক আশ্চর্যজনক কিছু শুনিনি।' তিনি বললেন, 'এর চেয়েও অধিক আশ্চর্যজনক কিছু আছে।' তিনি বললেন, 'সে কী?' তিনি বললেন, 'আমার স্বামী আমার সাথে যৌনমিলন স্থাপন করেছিলেন এবং আমি তাঁর জন্য সন্তান প্রসব করেছি, এবং আমি আমার দাসীর সাথে যৌনমিলন স্থাপন করেছিলাম এবং সে আমার জন্য সন্তান প্রসব করেছে।' শুরাইহ (রহ.) আশ্চর্যবশতঃ তাঁর একটি হাত অন্য হাতে আঘাত করলেন।",
+          "es": "Shurayh dijo: «El Comandante de los Creyentes (que la paz sea con él) dictamina según la orina.» Ella dijo: «Yo orino de ambas juntas, y funcionan juntas funcionan.» Shurayh dijo: «Por Allah, no he oído nada más asombroso que esto.» Ella dijo: «Y hay algo más asombroso que esto.» Él dijo: «¿Y qué es?» Ella dijo: «Mi esposo tuvo relaciones conmigo y me engendró un hijo, y yo tuve relaciones con mi sirvienta y ella me engendró un hijo.» Shurayh se golpeó una mano con la otra por asombro.",
+          "fr": "Chourayh dit : « Le Commandeur des Croyants (que la paix soit sur lui) tranche selon l’urine. » Elle dit : « J’urine des deux ensemble, et elles fonctionnent ensemble. » Chourayh dit : « Par Allah, je n’ai rien entendu de plus étonnant que cela. » Elle dit : « Et il y a quelque chose de plus étonnant que cela. » Il dit : « Et qu’est-ce donc ? » Elle dit : « Mon mari a eu intercourse avec moi et j’ai mis au monde un enfant de lui, et j’ai eu intercourse avec ma servante et elle a mis au monde un enfant pour moi. » Chourayh frappa une main contre l’autre, stupéfait.",
+          "de": "Schuraih sagte: „Der Kommandeur der Gläubigen (Friede sei mit ihm) richtet sich nach dem Harnlassen.“ Sie sagte: „Ich lasse den Urin aus beiden gemeinsam ab, und sie funktionieren zusammen.“ Schuraih sagte: „Bei Allah, ich habe nichts Erstaunlicheres gehört als dies.“ Sie sagte: „Und es gibt noch Erstaunlicheres als dies.“ Er sagte: „Und was ist das?“ Sie sagte: „Mein Mann hatte Geschlechtsverkehr mit mir und ich gebar ihm ein Kind, und ich hatte Geschlechtsverkehr mit meiner Sklavin und sie gebar mir ein Kind.“ Schuraih schlug in Erstaunen mit einer Hand gegen die andere.",
+          "ru": "Шурайх сказал: «Командир верующих (да будет мир с ним) выносит решение, основываясь на мочеиспускании». Она сказала: «Я мочусь одновременно из обоих отверстий, и они функционируют вместе». Шурайх сказал: «Клянусь Аллахом, я не слышал ничего более удивительного, чем это». Она сказала: «И есть нечто более удивительное, чем это». Он сказал: «А что это?». Она сказала: «Мой муж совокупился со мной, и я родила ему ребенка, а я совокупилась со своей рабыней, и она родила мне ребенка». Шурайх от изумления ударил одной рукой по другой.",
+          "zh": "舒拉伊赫说：‘信士的长官（愿主福安之）以排尿来裁决。’她说：‘我同时从两处排尿，它们共同发挥作用。’舒拉伊赫说：‘以真主发誓，我从未听过比这更令人惊奇的事。’她说：‘还有比这更令人惊奇的事。’他说：‘那是什么？’她说：‘我的丈夫与我同房，我为他生了一个孩子；我与我的女仆同房，她为我生了一个孩子。’舒拉伊赫惊讶地用一只手拍打另一只手。"
+        },
+        "word_start": 55,
+        "word_end": 103
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ جَاءَ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ لَقَدْ وَرَدَ عَلَيَّ شَيْءٌ مَا سَمِعْتُ بِأَعْجَبَ مِنْهُ ثُمَّ قَصَّ عَلَيْهِ قِصَّةَ الْمَرْأَةِ فَسَأَلَهَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ عَنْ ذَلِكَ فَقَالَتْ هُوَ كَمَا ذَكَرَ",
+        "translations": {
+          "en": "Then he came to the Commander of the Faithful (peace be upon him) and said: 'O Commander of the Faithful, something has come to me that I have not heard of anything more astonishing than it.' Then he narrated the story of the woman to him. The Commander of the Faithful (peace be upon him) asked her about that, and she said: 'It is as he mentioned.'",
+          "ur": "پھر وہ امیر المؤمنین (علیہ السلام) کے پاس آئے اور کہا: یا امیر المؤمنین، مجھے ایسی بات آئی ہے جس سے زیادہ حیران کن کچھ بھی نہیں سنا۔ پھر انہوں نے اس عورت کی کہانی سنائی۔ امیر المؤمنین (علیہ السلام) نے اس سے اس بارے میں پوچھا، تو اس نے کہا: جیسا اس نے ذکر کیا ہے ویسا ہی ہے۔",
+          "tr": "Sonra Müminlerin Emiri'ne (aleyhi's-selam) gelip dedi ki: 'Ey Müminlerin Emiri, bana öyle bir şey geldi ki, ondan daha hayret verici bir şey duymadım.' Sonra kadının hikâyesini kendisine anlattı. Müminlerin Emiri (aleyhi's-selam) ondan bunu sordu, o da dedi ki: 'O, zikrettiği gibidir.'",
+          "fa": "سپس به امیرالمؤمنین (علیه‌السلام) آمد و گفت: ای امیرالمؤمنین، چیزی به من رسیده که از شگفت‌انگیزتر از آن چیزی نشنیده‌ام. سپس داستان زن را برایش نقل کرد. امیرالمؤمنین (علیه‌السلام) از او درباره آن پرسید و او گفت: «همان‌گونه که او ذکر کرد است.»",
+          "id": "Kemudian ia datang kepada Amirul Mukminin (semoga Allah memberinya kesejahteraan) dan berkata, 'Wahai Amirul Mukminin, telah datang kepadaku sesuatu yang tidak ada yang lebih menakjubkan darinya.' Kemudian ia menceritakan kisah wanita itu kepadanya. Amirul Mukminin (semoga Allah memberinya kesejahteraan) bertanya kepadanya tentang hal itu, dan ia menjawab, 'Itu sebagaimana yang ia sebutkan.'",
+          "bn": "অনন্তর তিনি আমিরুল মুমিনীন (আ.)-এর নিকট আগমন করলেন এবং বললেন: 'হে আমিরুল মুমিনীন, আমার নিকট এমন কিছু এসেছে যা আমি এর চেয়ে অধিক আশ্চর্যজনক কিছু শুনিনি।' অতঃপর তিনি তাকে নারীটির কাহিনী বর্ণনা করলেন। আমিরুল মুমিনীন (আ.) তাকে তা সম্পর্কে জিজ্ঞাসা করলেন, এবং সে বলল: 'যা তিনি উল্লেখ করেছেন, তাই সঠিক।'",
+          "es": "Luego se presentóse al Comandante de los Creyentes (que la paz sea con él) y le dijo: '¡Oh Comandante de los Creyentes! Me ha ocurrido algo que no he oído nada más asombroso que ello.' Entonces le narró la historia de la mujer. El Comandante de los Creyentes (que la paz sea con él) le preguntó sobre ello, y ella dijo: 'Es como él mencionó.'",
+          "fr": "Puis il vint vers le Commandeur des Croyants (que la paix soit sur lui) et dit : « Ô Commandeur des Croyants, il m’est arrivé quelque chose dont je n’ai rien entendu de plus étonnant. » Puis il lui raconta l’histoire de la femme. Le Commandeur des Croyants (que la paix soit sur lui) l’interrogea à ce sujet, et elle dit : « C’est comme il l’a mentionné. »",
+          "de": "Dann kam er zum Befehlshaber der Gläubigen (Friede sei mit ihm) und sagte: »O Befehlshaber der Gläubigen, mir ist etwas begegnet, von dem ich nichts Erstaunlicheres gehört habe.« Dann erzählte er ihm die Geschichte der Frau. Der Befehlshaber der Gläubigen (Friede sei mit ihm) fragte sie danach, und sie sagte: »Es ist, wie er erwähnt hat.«",
+          "ru": "Затем он пришел к Повелителю верующих (да будет над ним мир) и сказал: «О Повелитель верующующих, со мной случилось то, что я не слышал ничего более удивительного, чем это». Затем он рассказал ему историю женщины. Повелитель верующих (да будет над ним мир) спросил ее об этом, и она сказала: «Так, как он упомянул».",
+          "zh": "随后他来到信士们的长官（愿主福安之）面前，说：‘信士们的长官啊，有一件事发生在我身上，我从未听过比这更令人惊奇的事。’然后他将那女人的故事讲述给他听。信士们的长官（愿主福安之）向她询问此事，她说：‘正如他所言。’"
+        },
+        "word_start": 103,
+        "word_end": 138
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ لَهَا وَمَنْ زَوْجُكِ قَالَتْ فُلَانٌ فَبَعَثَ إِلَيْهِ فَدَعَاهُ فَقَالَ أَتَعْرِفُ هَذِهِ قَالَ نَعَمْ هِيَ زَوْجَتِي فَسَأَلَهُ عَمَّا قَالَتْ فَقَالَ هُوَ كَذَلِكَ",
+        "translations": {
+          "en": "He said to her: 'And who is your husband?' She said: 'So-and-so.' So he sent for him and summoned him. He said: 'Do you know this woman?' He said: 'Yes, she is my wife.' He asked him about what she had said, and he said: 'It is so.'",
+          "ur": "انہوں نے اس سے کہا: ''تمہارا شوہر کون ہے؟'' اس نے کہا: ''فلان۔'' تو اس نے اسے بلایا اور اسے حاضر کیا۔ انہوں نے پوچھا: ''کیا تم اس عورت کو جانتے ہو؟'' اس نے کہا: ''جی ہاں، یہ میری بیوی ہے۔'' انہوں نے اس سے اس کی کہی ہوئی بات کے بارے میں پوچھا، تو اس نے کہا: ''یہی بات ہے۔''",
+          "tr": "O, ona: 'Kocan kimdir?' dedi. O da: 'Falan ve filan' dedi. Bunun üzerine onu huzuruna gönderdi ve çağırdı. O, ona: 'Bu kadını tanıyor musun?' dedi. O da: 'Evet, bu benim karımdır' dedi. O, kadının söylediği şeyi kendisinden sordu ve o da: 'Öyle' dedi.",
+          "fa": "به او گفت: «شوهرت کیست؟» گفت: «فلان کس.» پس او را فرستادند و احضارش کردند. گفت: «این زن را می‌شناسی؟» گفت: «بله، او همسر من است.» از او درباره آنچه گفته بود پرسیدند، و او گفت: «چنین است.»",
+          "id": "Ia berkata kepadanya: 'Siapakah suamimu?' Ia menjawab: 'Si Fulan.' Maka ia pun menyuruh memanggilnya dan menghadirkan dia. Ia bertanya: 'Apakah engkau mengenal wanita ini?' Ia menjawab: 'Ya, dia adalah istriku.' Ia bertanya kepadanya tentang apa yang telah dikatakannya, dan ia menjawab: 'Benar demikian.'",
+          "bn": "তিনি তাঁকে বললেন, 'আপনার স্বামী কে?' তিনি বললেন, 'এবং এন।' অতএব তিনি তাকে ডেকে পাঠালেন এবং আহ্বান করলেন। তিনি বললেন, 'আপনি এই নারীকে চেনেন?' তিনি বললেন, 'হ্যাঁ, তিনি আমার স্ত্রী।' তিনি তাঁকে তাঁর বলা বিষয়ে জিজ্ঞাসা করলেন, এবং তিনি বললেন, 'এইরূপই।'",
+          "es": "Él le dijo: «¿Y quién es tu esposo?». Ella dijo: «Tal y tal». Entonces él lo mandó llamar y lo citó. Él le preguntó: «¿Conoces a esta mujer?». Él dijo: «Sí, es mi esposa». Le preguntó sobre lo que ella había dicho, y él dijo: «Así es».",
+          "fr": "Il lui dit : « Et qui est ton mari ? » Elle dit : « Tel et tel. » Alors il l’appela et le fit venir. Il lui dit : « Connais-tu cette femme ? » Il répondit : « Oui, c’est ma femme. » Il lui demanda ce qu’elle avait dit, et il dit : « C’est ainsi. »",
+          "de": "Er sagte zu ihr: „Und wer ist dein Ehemann?“ Sie sagte: „So und So.“ Da schickte er hin und ließ ihn kommen. Er sagte: „Kennst du diese Frau?“ Er sagte: „Ja, sie ist meine Frau.“ Er fragte ihn nach dem, was sie gesagt hatte, und er sagte: „Es ist so.“",
+          "ru": "Он сказал ей: «А кто твой муж?» Она сказала: «Такой-то». Тогда он послал за ним и призвал его. Он спросил: «Знаешь ли ты эту женщину?» Он ответил: «Да, она моя жена». Он спросил его о том, что она сказала, и тот ответил: «Так и есть».",
+          "zh": "他问她：‘你的丈夫是谁？’她说：‘某某。’于是他派人去请他，并召见他。他问：‘你认识这个女人吗？’他说：‘是的，她是我的妻子。’他向她所说的话询问他，他说：‘确实如此。’"
+        },
+        "word_start": 138,
+        "word_end": 160
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ لَأَنْتَ أَجْرَأُ مِنْ رَاكِبِ الْأَسَدِ حَيْثُ تُقْدِمُ عَلَيْهَا بِهَذِهِ الْحَالِ",
+        "translations": {
+          "en": "Ali (peace be upon him) said to him: 'You are bolder than the rider of the lion in that you approach her in this condition.'",
+          "ur": "علی (علیہ السلام) نے ان سے فرمایا: ''تم شیر سوار سے زیادہ بہادر ہو کہ تم اس حالت میں اس کے پاس جاتے ہو۔''",
+          "tr": "Ali (aleyhisselam) ona şöyle dedi: 'Aslanın süvarisinden daha cesursun, çünkü ona bu halde yaklaşıyorsun.'",
+          "fa": "علی (علیهالسلام به او فرمود: «تو از سوار شیر شجاع‌تر هستی که در این حالت به سوی او نزدیک می‌شوی.»",
+          "id": "Ali (alamah) berkata kepadanya, 'Kamu lebih berani daripada penunggang singa karena kamu mendekatinya dalam keadaan seperti ini.'",
+          "bn": "আলী (আলাইহিসসালাম) তাঁকে বললেন, 'তুমি সিংহের আরোহী থেকেও সাহসী, যে এই অবস্থায় তার কাছে আসে।'",
+          "es": "Dijo Ali (que la paz sea con él: \"Eres más audaz que el jinete del león, ya que te acercas a ella en esta condición.\"",
+          "fr": "Ali (que la paix soit sur lui) lui dit : « Tu es plus audacieux que le cavalier du lion, car tu t'approches d'elle dans cet état. »",
+          "de": "Ali (friede sei mit ihm) sagte zu ihm: »Du bist mutiger als der Reiter des Löwen bist du, dass du dich ihr in diesem Zustand näherst.\"",
+          "ru": "Али (да будет мир с ним) сказал ему: «Ты смелее всадника льва, ибо ты приближаешься к ней в таком состоянии».",
+          "zh": "阿里（愿主福安之）对他说：\"你比骑狮者更大胆，因为你以这种状态接近她。\""
+        },
+        "word_start": 160,
+        "word_end": 175
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ يَا قَنْبَرُ أَدْخِلْهَا بَيْتًا مَعَ امْرَأَةٍ فَعُدَّ أَضْلَاعَهَا فَقَالَ زَوْجُهَا يَا أَمِيرَ الْمُؤْمِنِينَ لَا آمَنُ عَلَيْهَا رَجُلًا وَلَا أَئْتَمِنُ عَلَيْهَا امْرَأَةً",
+        "translations": {
+          "en": "Then he said: 'O Qanbar, take her into a room with a woman and count her ribs.' Her husband said: 'O Commander of the Faithful, I do not feel secure leaving her with a man, nor do I trust leaving her with a woman.'",
+          "ur": "پھر انہوں نے کہا: اے قنبر، اسے کسی عورت کے ساتھ ایک کمرے میں لے جاؤ اور اس کی پٹھیاں گنو۔ اس کے شوہر نے کہا: اے امیر المؤمنین، مجھے یہ یقین نہیں کہ میں اسے کسی مرد کے سپرد کروں، اور نہ ہی میں اسے کسی عورت کے سپرد کرنے پر بھروسہ کرتا ہوں۔",
+          "tr": "Sonra şöyle dedi: 'Ey Kanber, onu bir kadınla bir odaya al ve kaburgalarını say.' Eşi şöyle dedi: 'Ey Müminlerin Emiri, onu bir erkekle baş başa bırakmaktan emin değilim, bir kadınla baş başa bırakmaktan da güven duymuyorum.'",
+          "fa": "پس فرمود: «ای قنبر، او را به اتاقی با زنی ببر و دنده‌هایش را بشمار.» شوهرش گفت: «ای امیرالمؤمنین، من از سپردن او به مرد اطمینان ندارم، و از سپردن او به زن نیز اعتماد نمی‌کنم.»",
+          "id": "Kemudian ia berkata, 'Wahai Qanbar, bawa dia ke dalam sebuah ruangan bersama seorang wanita dan hitunglah tulang rusuknya.' Suaminya berkata, 'Wahai Amirul Mukminin, aku tidak merasa aman meninggalkan dia bersama seorang pria, dan aku juga tidak percaya meninggalkan dia bersama seorang wanita.'",
+          "bn": "অনন্তর তিনি বললেন: 'হে কানবার, তাকে একজন নারীর সাথে একটি কক্ষে নিয়ে যাও এবং তার পসলি গণনা করো।' তার স্বামী বললেন: 'হে আমিরুল মুমিনীন, আমি তাকে একজন পুরুষের সাথে রাখতে নিরাপদ বোধ করি না, আবার একজন নারীর সাথেও তাকে বিশ্বাস করে রাখতে পারি না।'",
+          "es": "ثم قال: «يا قنبر، أدخلها إلى غرفة مع امرأةً وعد أضلاعها». فقال زوجها: «يا أمير المؤمنين، لا أطمئن إلى تركها مع رجل، ولا إلى تركها مع امرأة».",
+          "fr": "Puis il dit : « Ô Qanbar, fais-la entrer dans une pièce avec une femme et compte ses côtes. » Son mari dit : « Ô Commandeur des Croyants, je ne me sens pas en sécurité à la laisser avec un homme, ni à la laisser avec une femme. »",
+          "de": "Dann sagte er: »O Qanbar, bring sie in ein Zimmer zu einer Frau und zähle ihre Rippen.« Ihr Ehemann sagte: »O Führer der Gläubigen, ich fühle mich nicht sicher, sie bei einem Mann zu lassen, und ich traue auch nicht, sie bei einer Frau zu lassen.«",
+          "ru": "Затем он сказал: «О Кандабара, введь, отведи её в комнату к женщине и пересчитай ей рёбра». Её муж сказал: «О Повелитель верующих, я не чувствую себя в безопасности, оставляя её с мужчиной, и не доверяю оставлять её с женщиной».",
+          "zh": "随后他说：‘欧曼巴尔，带她到一间屋子，让一位女子数她的肋骨。’她的丈夫说：‘信士的长官啊，我不放心让她与男子独处，也不放心让她与女子独处。’"
+        },
+        "word_start": 175,
+        "word_end": 198
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ عَلَيَّ بِدِينَارٍ الْخَاصِّي وَكَانَ مِنْ صَالِحِي أَهْلِ الْكُوفَةِ وَكَانَ يَثِقُ بِهِ فَقَالَ لَهُ يَا دِينَارُ أَدْخِلْهَا بَيْتًا وَعَرِّهَا مِنْ ثِيَابِهَا وَمُرْهَا أَنْ تَشُدَّ مِئْزَرًا وَعُدَّ أَضْلَاعَهَا",
+        "translations": {
+          "en": "Ali (peace be upon him) said: 'Bring me Dinar the eunuch,' and he was among the righteous people of Kufa and he trusted him. He said to him: 'O Dinar, take her into a room, have her remove her clothes, and tell her to wrap a waistcloth around her, and count her ribs.'",
+          "ur": "علی (علیہ السلام) نے فرمایا: مجھے دینار غلام کو لے آؤ، اور وہ کوفہ کے نیک لوگوں میں سے تھا اور اس پر اعتماد کرتا تھا۔ اس نے اس سے کہا: اے دینار! اسے کمرے میں لے جا، اس کے کپڑے اتارنے کا کہہ، اور اس سے کہہ کہ وہ ایک کمر بند لپیٹ لے، اور اس کی پھلیاں گن۔",
+          "tr": "Ali (aleyhisselam) dedi ki: 'Bana Dinar'ı getirin,' o, Kufe'nin salihlerinden biriydi ve ona güveniyordu. Ona dedi ki: 'Ey Dinar, onu bir odaya al, giysilerini çıkart, kendine bir kuşak sarmasını söyle ve kaburgalarını say.'",
+          "fa": "علی (علیه‌السلام) فرمود: «دینارِ غلام را برایم بیاورید» و او از راستان کوفه بود و به او اعتماد داشت. به او گفت: «ای دینان، او را به اتاقی ببر، لباس‌هایش را درآورد و به او بگو که یک کمربند دور کمرش ببندد و دنده‌هایش را بشمار.",
+          "id": "Ali (alamah) berkata, 'Bawalah Dinar si eunuch,' dan ia termasuk orang-orang yang saleh di Kufah serta ia mempercayainya. Ia berkata kepadanya, 'Wahai Dinar, bawa dia ke dalam sebuah kamar, suruh dia melepas pakaiannya, dan suruh dia melilitkan sehelai kain di pinggangnya, lalu hitunglah tulang rusuknya.'",
+          "bn": "আলী (আলাইহিসসালাম) বললেন, 'আমার কাছে দীনারকে ডেকে আনো,' এবং সে কুফার সৎ লোকদের মধ্যে ছিল এবং আলী তাকে বিশ্বাস করতেন। তিনি তাকে বললেন, 'হে দীনার, তাকে একটি ঘরে নিয়ে যা, তার পোশাক খুলে ফেলতে দাও, এবং তাকে বলো যে একটি ধোতি পায়ের উপর বেঁধে নিতে, এবং তার পাকস্থলীর হাড় গণনা করতে।'",
+          "es": "Dijo Alí (que la paz sea con él): «Traedme a Dinar, el eunuco», y él era de los justos de Kufa y le tenía confianza. Le dijo: «¡Oh Dinar! Llévala a una habitación, haz que se quite la ropa y dile que se envuelva un faja a la cintura, y cuenta sus costillas.",
+          "fr": "Ali (que la paix soit sur lui) dit : « Apportez-moi Dinar, l'eunuque », et il était parmi les gens pieux de Koufa et il lui faisait confiance. Il lui dit : « Ô Dinar, fais-la entrer dans une pièce, fais-lui ôter ses vêtements, et dis-lui de s'entourer la taille d'un linge, et compte ses côtes.»",
+          "de": "Ali (friede sei mit ihm) sprach: »Bringt mir Dinar, den Eunuchen.« Er gehörte zu den rechtschaffenen Leuten von Kufa und er vertraute ihm. Er sagte zu ihm: »O Dinar, führe sie in ein Zimmer, lass sie ihre Kleider ablegen, und sage ihr, dass sie sich ein Lendentuch umwickelt, und zähle ihre Rippen.«",
+          "ru": "Али (да будет мир с ним) сказал: «Приведите мне Динара, евнуха», и он был среди праведных людей Куфы, и он доверял ему. Он сказал ему: «О Динар, введи её в комнату, пусть она снимет одежду, и скажи ей, чтобы она обернула вокруг себя пояс и посчитала её рёбра».",
+          "zh": "阿里（愿主福安之）说：“把太监迪纳尔带来。”迪纳尔是库法地区的义人之一，阿里信任他。阿里对他说：“迪纳尔啊，带她到一间屋子里，让她脱下衣服，然后让她用腰布裹住身体，并数她的肋骨。”"
+        },
+        "word_start": 198,
+        "word_end": 228
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَفَعَلَ دِينَارٌ ذَلِكَ وَكَانَتْ أَضْلَاعُهَا سَبْعَةَ عَشَرَ تِسْعَةٌ فِي الْيَمِينِ وَثَمَانِيَةٌ فِي الْيَسَارِ",
+        "translations": {
+          "en": "Dinar did that, and her ribs were seventeen: nine on the right and eight on the left.",
+          "tr": "Dinar bunu yaptı ve kaburgaları on yedi idi: sağda dokuz ve solda sekiz.",
+          "fa": "دینار این کار را کرد و دنده‌هایش هفده تا بود: نه تا در سمت راست و هشت تا در سمت چپ.",
+          "id": "Dinar melakukannya, dan tulang rusuknya berjumlah tujuh belas: sembilan di sisi kanan dan delapan di sisi kiri.",
+          "bn": "দারিদ্র্য তাই করেছিল, এবং তার পেরেক ছিল সতেরো: ডানে নয় এবং বামে আট।",
+          "es": "Dinar hizo eso, y sus costillas eran diecisiete: nueve a la derecha y ocho a la izquierda.",
+          "fr": "Le dinar fit cela, et ses côtes étaient au nombre de dix-sept : neuf à droite et huit à gauche.",
+          "de": "Dinar tat das, und ihre Rippen waren siebzehn: neun auf der rechten und acht auf der linken Seite.",
+          "ru": "Так и было, и у неё было семнадцать рёбер: девять справа и восемь слева.",
+          "zh": "迪纳尔如此描述，她的肋骨共十七根：右侧九根，左侧八根。",
+          "ur": ""
+        },
+        "word_start": 228,
+        "word_end": 241
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَلْبَسَهَا عَلِيٌّ عَلَيْهِ السَّلَامُ ثِيَابَ الرِّجَالِ وَالْقَلَنْسُوَةَ وَالنَّعْلَيْنِ وَأَلْقَى عَلَيْهِ الرَّدَاءَ وَأَلْحَقَهُ بِالرِّجَالِ",
+        "translations": {
+          "en": "Ali (peace be upon him) dressed her in men's clothing, the cap, and the two sandals, draped a cloak over her, and assigned her among the men.",
+          "ur": "علی (علیہ السلام) نے انہیں مردوں کے کپڑے، ٹوپی اور دو چپل پہنائیں، ایک چادر اوڑھائی اور انہیں مردوں میں شامل کر دیا۔",
+          "tr": "Ali (aleyhisselam Ali, onu erkek kıyafetleriyle, başlığı ve iki sandaletiyle giydirdi, üstüne bir pelerin attı ve onu erkeklerin arasına yerleştirdi. }",
+          "fa": "علی (علیه‌السلام) او را در لباس مردان، کلاه و دو صندل، و عبایی بر دوش انداخت و او را در میان مردان قرار داد.",
+          "id": "Ali (alamah) memakaikan pakaian pria kepadanya, termasuk topi dan dua pasang sandal, menutupinya dengan jubah, dan menempatkannya di antara para pria.",
+          "bn": "আলী (রহ.) তাকে পুরুষদের পোশাক, টুপি এবং দুটি চপ্পল পরিয়ে, একটি চাদর দিয়ে ঢেকে দিলেন এবং তাকে পুরুষদের মধ্যে স্থান দিলেন।",
+          "es": "Alí (que la paz sea con él) la vistió con ropa de hombre, el gorro y las dos sandalias, le cubrió con un manto y la asignó entre los hombres.",
+          "fr": "Ali (que la paix soit sur lui) l’habilla de vêtements masculins, lui mit le chapeau et les deux sandales, lui drapa un manteau sur les épaules, et la plaça parmi les hommes.",
+          "de": "Ali (Friede sei mit ihm) kleidete sie in Männerkleidung, setzte ihr die Mütze auf und die zwei Sandalen an, legte ihr einen Umhang über und zählte sie unter die Männer ein.",
+          "ru": "Али (да будет мир с ним) одел её в мужскую одежду, нарядную одежду, надел на неё шапку и две сандалии, покрыл её плащом и поместил среди мужчин.",
+          "zh": "阿里（愿主福安之）为她穿上男子的服装，戴上帽子，穿上两只凉鞋，披上一件斗篷，并将她安排在男子之中。"
+        },
+        "word_start": 241,
+        "word_end": 254
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ زَوْجُهَا يَا أَمِيرَ الْمُؤْمِنِينَ ابْنَةُ عَمِّي وَقَدْ وَلَدَتْ مِنِّي تُلْحِقُهَا بِالرِّجَالِ",
+        "translations": {
+          "en": "Her husband said: 'O Commander of the Faithful, she is my cousin and has borne me a child; are you assigning her among the men?'",
+          "ur": "ان کے شوہر نے کہا: اے امیر المؤمنین، وہ میری چچا زاد بھانجی ہے اور اس نے مجھے ایک بچہ بھی دیا ہے، کیا آپ اسے مردوں میں شامل کر رہے ہیں؟",
+          "tr": "Kocası dedi ki: 'Ey Müminlerin Emiri, o benim kuzenimdir ve bana bir çocuk doğurmuştur; onu erkeklerden mi ayırıyorsun?'",
+          "fa": "شوهرش گفت: «ای امیرالمؤمنین، او پسرعموی من است و برای من فرزندی به دنیا آورده است؛ آیا او را در میان مردان قرار می‌دهی؟»",
+          "id": "Suaminya berkata, \"Wahai Amirul Mukminin, dia adalah sepupuku dan telah melahirkan anak bagiku; apakah engkau menjadikannya di antara para pria?\"",
+          "bn": "তার স্বামী বললেন, 'হে আমিরুল মুমিনীন, সে আমার চাচাতো বোন এবং আমার এক সন্তান জন্ম দিয়েছে; আপনি কি তাকে পুরুষদের মধ্যে অন্তর্ভুক্ত করছেন?'",
+          "es": "Su esposo dijo: «¡Oh, Comandante de los Creyentes! Ella es mi prima y me ha dado un hijo; ¿la asignas entre los hombres?»",
+          "fr": "Son mari dit : « Ô Commandeur des Croyants, elle est ma cousine et m'a enfanté un fils ; la destines-tu parmi les hommes ? »",
+          "de": "Ihr Ehemann sagte: »O Führer der Gläubigen, sie ist meine Cousine und hat mir ein Kind geboren; weist du sie unter den Männern zu?\"",
+          "ru": "Её муж сказал: «О Повелитель верующих, она моя двоюродная сестра и родила мне ребёнка; разве ты отдаёшь её среди мужчин?»",
+          "zh": "她的丈夫说：\"信士的长官啊，她是我的表妹，且为我生了一个孩子；你难道要把她分给男子们吗？\""
+        },
+        "word_start": 254,
+        "word_end": 266
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "قَالَ عَلَيْهِ السَّلَامُ إِنِّي حَكَمْتُ عَلَيْهَا بِحُكْمِ اللَّهِ عَزَّ وَجَلَّ إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى خَلَقَ حَوَّاءَ مِنْ ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى وَأَضْلَاعُ الرِّجَالِ تَنْقُصُ وَأَضْلَاعُ النِّسَاءِ تَمَامٌ",
+        "translations": {
+          "en": "He (peace be upon him) said: 'I have ruled over her with the judgment of Allah, the Mighty and Majestic. Indeed, Allah, Blessed and Exalted, created Hawwa from the farthest left rib of Adam, and the ribs of men are fewer, whereas the ribs of women are complete.'",
+          "ur": "آپ (صلی اللہ علیہ وسلم نے فرمایا: میں نے اس پر اللہ کی حکم کے ساتھ فیصلہ کیا، جو کہ عزت و جلال والا ہے۔ بے شک اللہ تعالیٰ نے حوا کو آدم علیہ السلام کے سب سے دور بائیں پہلو کی ہڈی سے پیدا کیا، اور مردوں کی ہڈیاں کم ہوتی ہیں، جبکہ عورتوں کی ہڈیاں مکمل ہوتی ہیں۔",
+          "tr": "O (aleyhisselam) şöyle dedi: 'Ben onun üzerine Allah'ın hükmüyle hükmettim, Celil ve Azim olan Allah. Şüphesiz Allah, Mübarek ve Yüce olan, Havva'yı Âdem'in en uzak sol kabuğundan yarattı ve erkeklerin kabukları daha azdır, oysa kadınların kabukları tamdır.'",
+          "fa": "او (صلی الله علیه و آله) فرمود: «من با حکم خداوند، توانا و بزرگ، بر او حکم کردم. همانا خداوند، برکت‌مند و برتر، حوّا را از دورترین دنده چپ آدم آفرید، و دنده‌های مردان کمتر است، در حالی که دنده‌های زنان کامل است.»",
+          "id": "Ia (shallallahu ‘alaihi wasallam) bersabda: \"Aku telah menjatuhkan hukum atasnya dengan hukum Allah, Yang Maha Perkasa lagi Maha Mulia. Sesungguhnya Allah, Yang Maha Berkah lagi Maha Tinggi, menciptakan Hawa dari tulang rusuk yang paling kiri dari Adam, dan tulang rusuk laki-laki lebih sedikit, sedangkan tulang rusuk perempuan sempurna.\"",
+          "bn": "তিনি (সা.) বললেন: আমি আল্লাহর বিচারে তার ওপর শাসন করেছি, যিনি পরাক্রমশালী ও মহান। নিশ্চয়ই আল্লাহ, যিনি বরকতময় ও উচ্চস্থানীয়, হাওয়াকে আদমের দূরতম বাম পশম থেকে সৃষ্টি করেছেন, এবং পুরুষদের পশম সংখ্যায় কম, কিন্তু নারীদের পশম সম্পূর্ণ।",
+          "es": "Dijo él (que la paz sea con él): 'He juzgado entre ella y vosotros con el juicio de Allah, el Poderoso y el Majestuoso. Ciertamente, Allah, Bendito y Exaltado, creó a Hawwa a partir de la costilla más lejana de la izquierda de Adam, y las costillas de los hombres son menos numerosas, mientras que las costillas de las mujeres son completas.'",
+          "fr": "Il (que la paix soit sur lui) a dit : « J'ai statué à son sujet par le jugement d'Allah, le Puissant et le Majestueux. En vérité, Allah, Béni et Exalté, a créé Hawwa depuis la côte la plus éloignée à gauche d'Adam, et les côtes des hommes sont moins nombreuses, tandis que les côtes des femmes sont complètes. »",
+          "de": "Er (friede sei mit ihm) sagte: »Ich habe über sie habe ich mit dem Urteil Allahs, des Mächtigen und Erhabenen, gerichtet. Wahrlich, Allah, der Gepriesene und Erhabene, erschuf Hawwa aus dem äußersten linken Rippe Adams, und die Rippen der Männer sind weniger, während die Rippen der Frauen vollständig sind.«",
+          "ru": "Он (да будет над ним мир) сказал: «Я вынес решение о ней согласно суду Аллаха, Всевышнего и Величественного. Поистине, Аллах, Благословенный и Возвышенный, создал Хавву из крайней левой ребра Адама, и ребра мужчин неполны, тогда как ребра женщин целы».",
+          "zh": "他（愿真主赐福他并问安说：我以真主，万能的、尊贵的，的判决来裁决她。的确，真主，受赞颂的、至高的，从阿丹最左边的肋骨创造了哈娃，而男人的肋骨较少，女人的肋骨则是完整的。"
+        },
+        "word_start": 266,
+        "word_end": 293
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith narrates a judicial case brought before Shurayḥ and then referred to Amīr al-Mu’minīn ‘Alī عليه السلام concerning a person with both male and female sexual characteristics. The report focuses on a legal determination in a case of khunthā, showing the Imam’s role in adjudication and the criteria he applied in assigning legal status.",
-        "seo_question": "How did Imam ‘Alī عليه السلام judge the case of a khunthā in Shia hadith?",
+        "summary": "This narrative from *Man La Yahduruhu al-Faqih* details Imam Ali’s (as) juridical ruling on a hermaphrodite (ذو الخَلْقَيْنِ) who possessed both male and female characteristics. The judge Shurayh brought her case to Imam Ali (as), who verified her condition by having her ribs counted (17 total, 9 right, 8 left, differing from the standard male 16 or female 24/complete). Based on this physical evidence and the Quranic reference to Eve being created from Adam's left rib, Imam Ali ruled that she should be dressed and treated as a man for inheritance and social purposes.",
+        "seo_question": "How did Imam Ali (as) determine the legal gender of a hermaphrodite in Shia jurisprudence?",
         "key_terms": {
-          "مَجْلِسِ الْقَضَاءِ": "the court session or judicial assembly",
-          "خَصْمِي": "my adversary in litigation",
-          "الْمَبَالِ": "the urinary outlet used as a legal criterion",
-          "جَارِيَتِي": "my bondwoman or female servant",
-          "أَضْلَاعَهَا": "her ribs, counted here for legal determination",
-          "الْخَصِيِّ": "the eunuch",
-          "بِحُكْمِ اللَّهِ عَزَّ وَجَلَّ": "by the judgment of Allah, Mighty and Majestic"
+          "شُرَيْحٌ الْقَاضِي": "Shurayh the judge",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commander of the Faithful (Imam Ali)",
+          "الْمَبَال": "Urination",
+          "دِينَارٌ الْخَاصِّي": "Dinar the eunuch",
+          "أَضْلَاعُهَا": "Her ribs",
+          "حَوَّاءَ": "Hawwa (Eve)",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "The farthest left rib of Adam",
+          "ابْنَةُ عَمِّي": "Daughter of my cousin"
         }
       },
       "ur": {
-        "summary": "یہ حدیث شریح کے سامنے پیش کی گئی ایک عدالتی کیس کی روایت کرتی ہے جو بعد میں امیر المومنین علی علیہ السلام کے پاس بھیجی گئی، جس میں ایک شخص کے مردانہ اور زنانہ جنسی خصوصیات دونوں پائی جاتی ہیں۔ یہ روایت خنثیٰ کے قانونی تعین پر توجہ دیتی ہے، امام کے عدالتی کردار اور قانونی حیثیت کے تعین کے معیار کو ظاہر کرتی ہے۔",
-        "seo_question": "امام علی علیہ السلام نے شیعہ حدیث میں خنثیٰ کے کیس کا فیصلہ کیسے کیا؟",
-        "key_terms": {}
+        "summary": "یہ روایت *من لا یحضرہ الفقیہ* سے ہے جس میں امام علی (ع) کا ایک دُوَڑِی (ذو الخَلْقَيْنِ) پر فقہی حکم بیان کیا گیا ہے جس میں مردانہ اور زنانہ دونوں خصوصیات موجود تھیں۔ قاضی شریح نے اس کی مقدمہ امام علی (ع) کے پاس پیش کیا، جنہوں نے اس کی حالت کی تصدیق اس کے پھلکوں (rib) کی گنتی کر کے کی (کل 17، دائیں جانب 9، بائیں جانب 8، جو معیاری مرد کے 16 یا خاتون کے 24/مکمل سے مختلف تھے)۔ اس جسمانی شواہد اور قرآن کی اس آیت کے حوالے سے کہ حوا کو آدم کی بائیں پھلک سے پیدا کیا گیا تھا، امام علی (ع) نے حکم دیا کہ میراث اور سماجی مقاصد کے لیے اسے مرد کے طور پر لباس پہنایا جائے اور اس کا سلوک کیا جائے۔",
+        "seo_question": "شیعہ فقہ میں امام علی (ع) نے دُوَڑِی کی قانونی جنس کا تعین کیسے کیا؟",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "قاضی شریح",
+          "أَمِيرُ الْمُؤْمِنِينَ": "امیر المومنین (امام علی)",
+          "الْمَبَال": "پیشاب کرنا",
+          "دِينَارٌ الْخَاصِّي": "دینار خالصی",
+          "أَضْلَاعُهَا": "اس کی پھلکیں",
+          "حَوَّاءَ": "حواء",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "آدم کی سب سے دور بائیں پھلک",
+          "ابْنَةُ عَمِّي": "میرے چچا کے بیٹے کی بیٹی"
+        }
       },
       "tr": {
-        "summary": "Bu hadis, Şurayḥ’in önüne getirilen ve sonra Emirü’l-Müminîn ‘Alī علیه السلام’a havale edilen, hem erkek hem kadın cinsel özelliklerine sahip bir kişiyle ilgili bir yargı davasını anlatır. Rivayet, khunthā (çift cinsiyetli) durumundaki hukuki tespiti vurgular, İmam’ın yargı rolünü ve hukuki statü tayininde uyguladığı kriterleri gösterir.",
-        "seo_question": "İmam ‘Alī علیه السلام Şia hadisinde khunthā davasını nasıl hükmetti?",
-        "key_terms": {}
+        "summary": "Bu rivayet, *Men La Yahduruhu al-Faqih'den alınmıştır ve İmam Ali'nin (as) hemcins (ذو الخَلْقَيْنİ) cinsiyetinin hukuki durumuna dair fetvasını anlatır. Hakem Şüreyh, hem erkek hem de kadın özelliklerine sahip olan bu kişiyi İmam Ali'nin (as) huzuruna getirir. İmam Ali, onun kaburga sayısını saydırarak (toplam 17, sağda 9, solda 8; standart erkek 16 veya kadın 24/tam sayıdan farklı) durumunu doğrular. Bu fiziksel kanıta ve Hz. Havva'nın Hz. Adam'ın sol kaburgasından yaratıldığına dair Kur'ani referansa dayanarak İmam Ali, miras ve sosyal amaçlar için onun bir erkek gibi giydirilmesi ve muamele görmesi gerektiğine hükmeder.",
+        "seo_question": "Şia fıkhında İmam Ali (as), bir hemcinsin hukuki cinsiyetini nasıl belirlemiştir?",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "hakem Şüreyh",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Emirü'l-Müminin (İmam Ali)",
+          "الْمَبَال": "idrar",
+          "دِينَارٌ الْخَاصِّي": "eunuch Dinar",
+          "أَضْلَاعُهَا": "kaburgaları",
+          "حَوَّاءَ": "Havva",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "Adam'ın en uzak sol kaburgası",
+          "ابْنَةُ عَمِّي": "Kuzenimin kızı"
+        }
       },
       "fa": {
-        "summary": "این حدیث حکایت یک پرونده قضایی است که نزد شریح مطرح شد و سپس به امیرالمؤمنین علی علیه السلام ارجاع داده شد، درباره فردی با ویژگی‌های جنسی مردانه و زنانه. گزارش بر تعیین حقوقی خنثی تمرکز دارد و نقش امام در قضاوت و معیارهای به‌کار رفته در تعیین وضعیت حقوقی را نشان می‌دهد.",
-        "seo_question": "امام علی علیه السلام در حدیث شیعه چگونه به پرونده خنثی حکم داد؟",
-        "key_terms": {}
+        "summary": "این روایت از کتاب *من لا یحضره الفقیه*، حکم فقهی امام علی (ع) را درباره فردی دوجنسه (ذو الخَلْقَین) که هم ویژگی‌های مردانه و هم زنانه داشت، تشریح می‌کند. قاضی شریح پرونده او را پیش امام علی (ع) آورد و امام با شمارش دنده‌های او (مجموعاً ۱۷ دنده، ۹ دنده سمت راست و ۸ دنده سمت چپ، که با استاندارد مردان ۱۶ تایی یا زنان ۲۴ تایی متفاوت بود)، وضعیت او را تأیید کردند. بر اساس این شواهد فیزیکی و اشاره قرآنی به اینکه حوا از دنده چپ آدم آفریده شد، امام علی (ع) حکم داد که او برای ارث و امور اجتماعی باید مانند مرد لباس بپوشد و رفتار شود.",
+        "seo_question": "امام علی (ع) چگونه جنسیت قانونی یک فرد دوجنسه را در فقه شیعه تعیین کردند؟",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "قاضی شریح",
+          "أَمِيرُ الْمُؤْمِنِينَ": "امیرالمؤمنین (امام علی)",
+          "الْمَبَال": "ادرار کردن",
+          "دِينَارٌ الْخَاصِّي": "دینار خالصی",
+          "أَضْلَاعُهَا": "دنده‌های او",
+          "حَوَّاءَ": "حوا",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "دنده دورترین چپ آدم",
+          "ابْنَةُ عَمِّي": "دختر عموی من"
+        }
       },
       "id": {
-        "summary": "Hadis ini menceritakan sebuah kasus hukum yang diajukan di hadapan Shurayḥ dan kemudian dirujuk kepada Amīr al-Mu’minīn ‘Alī علیه السلام mengenai seseorang yang memiliki ciri-ciri seksual laki-laki dan perempuan. Laporan ini menyoroti penentuan hukum dalam kasus khunthā, menunjukkan peran Imam dalam pengadilan dan kriteria yang diterapkannya dalam menetapkan status hukum.",
-        "seo_question": "Bagaimana Imam ‘Alī علیه السلام memutuskan kasus khunthā dalam hadis Syiah?",
-        "key_terms": {}
+        "summary": "Narasi dari *Man La Yahduruhu al-Faqih* ini merinci putusan hukum Imam Ali (as) mengenai seorang hermafrodit (ذو الخَلْقَيْنِ) yang memiliki karakteristik laki-laki dan perempuan. Hakim Syuraih membawa kasusnya kepada Imam Ali (as), yang memverifikasi kondisinya dengan menghitung tulang rusuknya (total 17, 9 di kanan, 8 di kiri, berbeda dari standar laki-laki 16 atau perempuan 24/lengkap). Berdasarkan bukti fisik ini dan referensi Al-Quran tentang Hawa yang diciptakan dari tulang rusuk kiri Adam, Imam Ali memutuskan bahwa ia harus berpakaian dan diperlakukan sebagai laki-laki untuk tujuan warisan dan sosial.",
+        "seo_question": "Bagaimana Imam Ali (as) menentukan jenis kelamin hukum seorang hermafrodit dalam fikih Syiah?",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "Syuraih sang hakim",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Amirul Mukminin (Imam Ali)",
+          "الْمَبَال": "Buang air kecil",
+          "دِينَارٌ الْخَاصِّي": "Dinar sang eunuk",
+          "أَضْلَاعُهَا": "Tulang rusuknya",
+          "حَوَّاءَ": "Hawa",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "Tulang rusuk kiri paling jauh dari Adam",
+          "ابْنَةُ عَمِّي": "Putri sepupuku"
+        }
       },
       "bn": {
-        "summary": "এই হাদিসটি একটি বিচারিক মামলার বর্ণনা দেয় যা শুরাইহের সামনে উপস্থাপিত হয়েছিল এবং পরে আমীরুল মুমিনীন আলী عليه السلام-এর কাছে পাঠানো হয়েছিল, যেখানে একজন ব্যক্তির পুরুষ ও নারী উভয় যৌন বৈশিষ্ট্য ছিল। এই বর্ণনাটি খুন্থার আইনি নির্ধারণের উপর গুরুত্ব দেয়, ইমামের বিচারিক ভূমিকা এবং আইনি অবস্থান নির্ধারণে তার প্রয়োগকৃত মানদণ্ড প্রদর্শন করে।",
-        "seo_question": "ইমাম আলী عليه السلام শিয়া হাদিসে খুন্থার মামলার বিচার কীভাবে করেছেন?",
-        "key_terms": {}
+        "summary": "মান লা ইয়াহদুরহুল ফাকিহ থেকে এই বর্ণনায় ইমাম আলী (আঃ)-এর একটি দ্বিলিঙ্গ (যেখানে পুরুষ ও নারী উভয় লক্ষণই বিদ্যমান) ব্যক্তির শরীরীয় গঠন অনুযায়ী বিচারিক রায়ের বিষয়টি বর্ণনা করা হয়েছে। বিচারক শুরাইহ তাঁর কাছে এই মামলা নিয়ে আসেন, ইমাম আলী (আঃ) তাঁর পাকস্থলীর হাড় গণনা করে (মোট ১৭টি, ডানদিকে ৯টি, বামদিকে ৮টি, যা পুরুষের প্রমিত ১৬টি বা নারীর ২৪টি/সম্পূর্ণ থেকে ভিন্ন) তাঁর অবস্থা নিশ্চিত করেন। এই শারীরিক প্রমাণ এবং কুরআনের হাওয়া আদমের বাম হাড় থেকে সৃষ্টি হওয়ার উল্লেখের ভিত্তিতে, ইমাম আলী (আঃ) রায় দেন যে উত্তরাধিকার ও সামাজিক উদ্দেশ্যে তাকে পুরুষ হিসেবে পরিধান ও আচরণ করা উচিত।",
+        "seo_question": "শিয়া ফিকহে ইমাম আলী (আঃ) কীভাবে একজন দ্বিলিঙ্গ ব্যক্তির আইনি লিঙ্গ নির্ধারণ করেছিলেন?",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "বিচারক শুরাইহ",
+          "أَمِيرُ الْمُؤْمِنِينَ": "আমিরুল মুমিনীন (ইমাম আলী)",
+          "الْمَبَال": "প্রস্রাব",
+          "دِينَارٌ الْخَاصِّي": "দ্বিলিঙ্গ দীনার",
+          "أَضْلَاعُهَا": "তাঁর পাকস্থলীর হাড়",
+          "حَوَّاءَ": "হাওয়া (হাওয়া)",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "আদমের সর্বোচ্চ বাম হাড়",
+          "ابْنَةُ عَمِّي": "আমার চাচাতো বোনের কন্যা"
+        }
       },
       "es": {
-        "summary": "Este hadiz narra un caso judicial presentado ante Shurayḥ y luego referido a Amīr al-Mu’minīn ‘Alī عليه السلام sobre una persona con características sexuales masculinas y femeninas. El relato se centra en la determinación legal en un caso de khunthā, mostrando el papel del Imán en la adjudicación y los criterios que aplicó para asignar el estatus legal.",
-        "seo_question": "¿Cómo juzgó el Imán ‘Alī عليه السلام el caso de un khunthā en el hadiz chií?",
-        "key_terms": {}
+        "summary": "Esta narración de *Man La Yahduruhu al-Faqih* detalla el fallo jurídico del Imam Alí (as) sobre un hermafrodita (ذو الخَلْقَيْنِ) que poseía características tanto masculinas como femeninas. El juez Shurayh llevó su caso ante el Imam Alí (as), quien verificó su condición contando sus costillas (17 en total, 9 a la derecha y 8 a la izquierda, lo cual difiere del estándar masculino de 16 o del femenino de 24/completo). Basándose en esta evidencia física y en la referencia coránica a que Eva fue creada de la costilla izquierda de Adán, el Imam Alí dictaminó que debía vestirse y tratarse como hombre para fines de herencia y sociales.",
+        "seo_question": "¿Cómo determinó el Imam Alí (as) el género legal de un hermafrodita en la jurisprudencia chií?",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "Shurayh el juez",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Comandante de los Creyentes (Imam Alí)",
+          "الْمَبَال": "Orinar",
+          "دِينَارٌ الْخَاصِّي": "Dinar el eunuco",
+          "أَضْلَاعُهَا": "Sus costillas",
+          "حَوَّاءَ": "Hawwa (Eva)",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "La costilla izquierda más lejana de Adán",
+          "ابْنَةُ عَمِّي": "Hija de mi primo"
+        }
       },
       "fr": {
-        "summary": "Ce hadith relate une affaire judiciaire présentée devant Shurayḥ puis renvoyée à l’Amīr al-Mu’minīn ‘Alī عليه السلام concernant une personne présentant des caractéristiques sexuelles masculines et féminines. Le récit met l’accent sur la détermination juridique dans un cas de khunthā, montrant le rôle de l’Imam dans le jugement et les critères qu’il a appliqués pour attribuer le statut légal.",
-        "seo_question": "Comment l’Imam ‘Alī عليه السلام a-t-il jugé le cas d’un khunthā dans le hadith chiite ?",
-        "key_terms": {}
+        "summary": "Ce récit tiré de *Man La Yahduruhu al-Faqih* détaille la décision juridique d'Imam Ali (as) concernant un hermaphrodite (ذو الخَلْقَيْنِ) possédant des caractéristiques masculines et féminines. Le juge Shurayh a soumis son cas à Imam Ali (as), qui a vérifié son état en comptant ses côtes (17 au total, 9 à droite, 8 à gauche, différant du standard masculin de 16 ou féminin de 24/complet). Sur la base de cette preuve physique et de la référence coranique à Ève créée depuis la côte gauche d'Adam, Imam Ali a statué qu'elle devait être vêtue et traitée comme un homme pour l'héritage et les affaires sociales.",
+        "seo_question": "Comment Imam Ali (as) a-t-il déterminé le genre légal d'un hermaphrodite dans la jurisprudence chiite ?",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "Shurayh le juge",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commandeur des Croyants (Imam Ali)",
+          "الْمَبَال": "Miction",
+          "دِينَارٌ الْخَاصِّي": "Dinar l'eunuque",
+          "أَضْلَاعُهَا": "Ses côtes",
+          "حَوَّاءَ": "Hawwa (Ève)",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "La côte gauche la plus éloignée d'Adam",
+          "ابْنَةُ عَمِّي": "Fille de mon cousin"
+        }
       },
       "de": {
-        "summary": "Dieser Hadith berichtet von einem Gerichtsfall, der vor Shurayḥ vorgebracht und dann an den Amīr al-Mu’minīn ‘Alī عليه السلام verwiesen wurde, betreffend eine Person mit männlichen und weiblichen Geschlechtsmerkmalen. Der Bericht konzentriert sich auf die rechtliche Feststellung in einem Fall von khunthā und zeigt die Rolle des Imams bei der Rechtsprechung sowie die Kriterien, die er bei der Zuweisung des Rechtsstatus anwandte.",
-        "seo_question": "Wie hat Imam ‘Alī عليه السلام den Fall eines khunthā im schiitischen Hadith beurteilt?",
-        "key_terms": {}
+        "summary": "Diese Erzählung aus *Man La Yahduruhu aus *Man La Yahduruhu al-Faqih* beschreibt die juristische Entscheidung von Imam Ali (as) bezüglich eines Hermaphroditen (ذو الخَلْقَيْنِ), der sowohl männliche als auch weibliche Merkmale aufwies. Der Richter Schuraih brachte ihren Fall zu Imam Ali (as), der ihren Zustand bestätigte, indem er ihre Rippen zählte (insgesamt 17, 9 rechts, 8 links, abweichend vom Standard für Männer mit 16 oder Frauen mit 24/vollständig). Basierend auf diesem physischen Beweis und der koranischen Referenz, dass Eva aus der linken Rippe Adams erschaffen wurde, entschied Imam Ali (as), dass sie für Erbe und soziale Zwecke wie ein Mann gekleidet und behandelt werden sollte.",
+        "seo_question": "Wie bestimmte Imam Ali (as) das rechtliche Geschlecht eines Hermaphroditen in der schiitischen Jurisprudenz?",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "Schuraih der Richter",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Führer der Gläubigen (Imam Ali)",
+          "الْمَبَال": "Harnentleerung",
+          "دِينَارٌ الْخَاصِّي": "Dinar der Eunuch",
+          "أَضْلَاعُهَا": "Ihre Rippen",
+          "حَوَّاءَ": "Hawwa (Eva)",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "Die äußerste linke Rippe Adams",
+          "ابْنَةُ عَمِّي": "Tochter meines Cousins"
+        }
       },
       "ru": {
-        "summary": "Этот хадис повествует о судебном деле, представленном перед Шурейхом и затем переданном Амиру аль-Муминин ‘Али عليه السلام, касающемся лица с мужскими и женскими половыми признаками. В отчёте акцентируется внимание на юридическом определении в случае хунтха, показывая роль Имама в судопроизводстве и критерии, которые он применял при присвоении правового статуса.",
-        "seo_question": "Как Имам ‘Али عليه السلام вынес решение по делу хунтха в шиитском хадисе?",
-        "key_terms": {}
+        "summary": "В этом повествовании из «Ман ля йахдуруху аль-факих» излагается юридическое решение имама Али (мир ему) о гермафродите (ذو الخَلْقَيْنІ), обладавшем как мужскими, так и женскими признаками. Судья Шурайх принес дело этой женщины к имаму Али (мир ему), который подтвердил её состояние, подсчитав её рёбра (всего 17: 9 справа, 8 слева, что отличается от стандартных 16 у мужчин или 24/полного набора у женщин). Основываясь на этом физическом доказательстве и кораническом упоминании о том, что Ева была создана из левого ребра Адама, имам Али постановил, что для целей наследования и социальной жизни она должна одеваться и обращаться как мужчина.",
+        "seo_question": "Как имам Али (мир ему) определил юридический пол гермафродита в шиитском фикхе?",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "Шурайх судья",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Повелитель верующих (имам Али)",
+          "الْمَبَال": "Мочевыделение",
+          "دِينَارٌ الْخَاصِّي": "Динар евнух",
+          "أَضْلَاعُهَا": "Её рёбра",
+          "حَوَّاءَ": "Хавва (Ева)",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "Самое левое ребро Адама",
+          "ابْنَةُ عَمِّي": "Дочь моего двоюродного брата"
+        }
       },
       "zh": {
-        "summary": "此圣训叙述了一起提交给Shurayḥ审理，随后转交给Amīral-Mu’minīn‘Alīعليهالسلام的司法案件，涉及一位同时具有男性和女性性特征的人。该报告聚焦于khunthā案件中的法律判定，展示了伊玛目在裁决中的角色及其在确定法律地位时所采用的标准。",
-        "seo_question": "伊玛目‘Alīعليهالسلام如何在什叶派圣训中裁决khunthā案件？",
-        "key_terms": {}
+        "summary": "这段出自《法赫赫》的叙事详细记录了伊玛目阿里（愿主喜悦之）对双性人（ذو الخَلْقَيْنِ）的司法裁决。法官舒莱赫将她的案件带到伊玛目阿里（愿主喜悦之）面前，伊玛目通过数其肋骨数量（共17根，右侧9根，左侧8根，不同于标准男性的16根或女性的24根/完整）来验证其状况。基于这一身体证据以及《古兰经》中关于夏娃由亚当左侧肋骨创造的经典记载，伊玛目阿里裁定她在继承和社会事务中应作为男性着装和对待。",
+        "seo_question": "在什叶派法学中，伊玛目阿里（愿主喜悦之）如何确定双性人的法律性别？",
+        "key_terms": {
+          "شُرَيْحٌ الْقَاضِي": "法官舒莱赫",
+          "أَمِيرُ الْمُؤْمِنِينَ": "信士长官（伊玛目阿里）",
+          "الْمَبَال": "排尿",
+          "دِينَارٌ الْخَاصِّي": "宦官迪纳尔",
+          "أَضْلَاعُهَا": "她的肋骨",
+          "حَوَّاءَ": "哈娃（夏娃）",
+          "ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى": "亚当最左侧的肋骨",
+          "ابْنَةُ عَمِّي": "我堂姐的女儿"
+        }
       }
     },
     "related_quran": [
       {
-        "ref": "4:11",
+        "ref": "7:189",
         "relationship": "thematic"
       },
       {
-        "ref": "4:176",
+        "ref": "39:6",
         "relationship": "thematic"
       },
       {
-        "ref": "42:10",
+        "ref": "30:22",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "٥٧٠٤ - وَرَوَى عَاصِمُ بْنُ حُمَيْدٍ عَنْ مُحَمَّدِ بْنِ قَيْسٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ: «إِنَّ شُرَيْحًا الْقَاضِيَ بَيْنَمَا هُوَ فِي مَجْلِسِ الْقَضَاءِ إِذْ أَتَتْهُ امْرَأَةٌ فَقَالَتْ: أَيُّهَا الْقَاضِي اقْضِ بَيْنِي وَبَيْنَ خَصْمِي. فَقَالَ لَهَا: وَمَنْ خَصْمُكِ؟ قَالَتْ: أَنْتَ. قَالَ: أَفْرِجُوا لَهَا. فَأَفْرَجُوا لَهَا فَدَخَلَتْ. فَقَالَ لَهَا: مَا ظُلَامَتُكِ؟ فَقَالَتْ: إِنَّ لِي مَا لِلرِّجَالِ وَمَا لِلنِّسَاءِ. قَالَ شُرَيْحٌ: فَإِنَّ أَمِيرَ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ يَقْضِي عَلَى الْمَبَالِ. قَالَتْ: فَإِنِّي أَبُولُ بِهِمَا جَمِيعًا وَيَسْكُنَانِ مَعًا. قَالَ شُرَيْحٌ: وَاللَّهِ مَا سَمِعْتُ بِأَعْجَبَ مِنْ هَذَا. قَالَتْ: وَأَعْجَبُ مِنْ هَذَا. قَالَ: وَمَا هُوَ؟ قَالَتْ: جَامَعَنِي زَوْجِي فَوَلَدْتُ مِنْهُ وَجَامَعْتُ جَارِيَتِي فَوَلَدَتْ مِنِّي. فَضَرَبَ شُرَيْحٌ إِحْدَى يَدَيْهِ عَلَى الْأُخْرَى مُتَعَجِّبًا، ثُمَّ جَاءَ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ: يَا أَمِيرَ الْمُؤْمِنِينَ لَقَدْ وَرَدَ عَلَيَّ شَيْءٌ مَا سَمِعْتُ بِأَعْجَبَ مِنْهُ. ثُمَّ قَصَّ عَلَيْهِ قِصَّةَ الْمَرْأَةِ. فَسَأَلَهَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ عَنْ ذَلِكَ فَقَالَتْ: هُوَ كَمَا ذَكَرَ. فَقَالَ لَهَا: وَمَنْ زَوْجُكِ؟ قَالَتْ: فُلَانٌ. فَبَعَثَ إِلَيْهِ فَدَعَاهُ. فَقَالَ: أَتَعْرِفُ هَذِهِ؟ قَالَ: نَعَمْ، هِيَ زَوْجَتِي. فَسَأَلَهُ عَمَّا قَالَتْ فَقَالَ: هُوَ كَذَلِكَ. فَقَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ: لَأَنْتَ أَجْرَأُ مِنْ رَاكِبِ الْأَسَدِ حَيْثُ تُقْدِمُ عَلَيْهَا بِهَذِهِ الْحَالِ.» ثُمَّ قَالَ: «يَا قَنْبَرُ أَدْخِلْهَا بَيْتًا مَعَ امْرَأَةٍ فَعُدَّ أَضْلَاعَهَا». فَقَالَ زَوْجُهَا: يَا أَمِيرَ الْمُؤْمِنِينَ لَا آمَنُ عَلَيْهَا رَجُلًا وَلَا أَئْتَمِنُ عَلَيْهَا امْرَأَةً. فَقَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ: «عَلَيَّ بِدِينَارٍ الْخَصِيِّ». وَكَانَ مِنْ صَالِحِي أَهْلِ الْكُوفَةِ وَكَانَ يَثِقُ بِهِ. فَقَالَ لَهُ: «يَا دِينَارُ أَدْخِلْهَا بَيْتًا وَعَرِّهَا مِنْ ثِيَابِهَا وَمُرْهَا أَنْ تَشُدَّ مِئْزَرًا وَعُدَّ أَضْلَاعَهَا». فَفَعَلَ دِينَارٌ ذَلِكَ، وَكَانَ أَضْلَاعُهَا سَبْعَةَ عَشَرَ: تِسْعَةٌ فِي الْيَمِينِ وَثَمَانِيَةٌ فِي الْيَسَارِ. فَأَلْبَسَهَا عَلِيٌّ عَلَيْهِ السَّلَامُ ثِيَابَ الرِّجَالِ وَالْقَلَنْسُوَةَ وَالنَّعْلَيْنِ، وَأَلْقَى عَلَيْهِ الرِّدَاءَ، وَأَلْحَقَهُ بِالرِّجَالِ. فَقَالَ زَوْجُهَا: يَا أَمِيرَ الْمُؤْمِنِينَ ابْنَةُ عَمِّي وَقَدْ وَلَدَتْ مِنِّي تُلْحِقُهَا بِالرِّجَالِ؟ فَقَالَ عَلَيْهِ السَّلَامُ: «إِنِّي حَكَمْتُ عَلَيْهَا بِحُكْمِ اللَّهِ عَزَّ وَجَلَّ، إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى خَلَقَ حَوَّاءَ مِنْ ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى، وَأَضْلَاعُ الرِّجَالِ تَنْقُصُ وَأَضْلَاعُ النِّسَاءِ تَمَامٌ».",
+    "diacritized_text": "وَرَوَى عَاصِمُ بْنُ حُمَيْدٍ عَنْ مُحَمَّدِ بْنِ قَيْسٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ إِنَّ شُرَيْحًا الْقَاضِيَ بَيْنَمَا هُوَ فِي مَجْلِسِ الْقَضَاءِ إِذْ أَتَتْهُ امْرَأَةٌ فَقَالَتْ أَيُّهَا الْقَاضِي اقْضِ بَيْنِي وَبَيْنَ خَصْمِي فَقَالَ لَهَا وَمَنْ خَصْمُكِ قَالَتْ أَنْتَ قَالَ أَفْرِجُوا لَهَا فَأَفْرَجُوا لَهَا فَدَخَلَتْ فَقَالَ لَهَا مَا ظُلَامَتُكِ فَقَالَتْ إِنَّ لِي مَا لِلرِّجَالِ وَمَا لِلنِّسَاءِ قَالَ شُرَيْحٌ فَإِنَّ أَمِيرَ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ يَقْضِي عَلَى الْمَبَالِ قَالَتْ فَإِنِّي أَبُولُ بِهِمَا جَمْعًا وَيَسْكُنَانِ مَعًا قَالَ شُرَيْحٌ وَاللَّهُ مَا سَمِعْتُ بِأَعْجَبَ مِنْ هَذَا قَالَتْ وَأَعْجَبُ مِنْ هَذَا قَالَ وَمَا هُوَ قَالَتْ جَامَعَنِي زَوْجِي فَوَلَدْتُ مِنْهُ وَجَامَعْتُ جَارِيَتِي فَوَلَدَتْ مِنِّي فَضَرَبَ شُرَيْحٌ إِحْدَى يَدَيْهِ عَلَى الْأُخْرَى مُتَعَجِّبًا ثُمَّ جَاءَ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ لَقَدْ وَرَدَ عَلَيَّ شَيْءٌ مَا سَمِعْتُ بِأَعْجَبَ مِنْهُ ثُمَّ قَصَّ عَلَيْهِ قِصَّةَ الْمَرْأَةِ فَسَأَلَهَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ عَنْ ذَلِكَ فَقَالَتْ هُوَ كَمَا ذَكَرَ قَالَ لَهَا وَمَنْ زَوْجُكِ قَالَتْ فُلَانٌ فَبَعَثَ إِلَيْهِ فَدَعَاهُ فَقَالَ أَتَعْرِفُ هَذِهِ قَالَ نَعَمْ هِيَ زَوْجَتِي فَسَأَلَهُ عَمَّا قَالَتْ فَقَالَ هُوَ كَذَلِكَ قَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ لَأَنْتَ أَجْرَأُ مِنْ رَاكِبِ الْأَسَدِ حَيْثُ تُقْدِمُ عَلَيْهَا بِهَذِهِ الْحَالِ ثُمَّ قَالَ يَا قَنْبَرُ أَدْخِلْهَا بَيْتًا مَعَ امْرَأَةٍ فَعُدَّ أَضْلَاعَهَا فَقَالَ زَوْجُهَا يَا أَمِيرَ الْمُؤْمِنِينَ لَا آمَنُ عَلَيْهَا رَجُلًا وَلَا أَئْتَمِنُ عَلَيْهَا امْرَأَةً قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ عَلَيَّ بِدِينَارٍ الْخَاصِّي وَكَانَ مِنْ صَالِحِي أَهْلِ الْكُوفَةِ وَكَانَ يَثِقُ بِهِ فَقَالَ لَهُ يَا دِينَارُ أَدْخِلْهَا بَيْتًا وَعَرِّهَا مِنْ ثِيَابِهَا وَمُرْهَا أَنْ تَشُدَّ مِئْزَرًا وَعُدَّ أَضْلَاعَهَا فَفَعَلَ دِينَارٌ ذَلِكَ وَكَانَتْ أَضْلَاعُهَا سَبْعَةَ عَشَرَ تِسْعَةٌ فِي الْيَمِينِ وَثَمَانِيَةٌ فِي الْيَسَارِ فَأَلْبَسَهَا عَلِيٌّ عَلَيْهِ السَّلَامُ ثِيَابَ الرِّجَالِ وَالْقَلَنْسُوَةَ وَالنَّعْلَيْنِ وَأَلْقَى عَلَيْهِ الرَّدَاءَ وَأَلْحَقَهُ بِالرِّجَالِ فَقَالَ زَوْجُهَا يَا أَمِيرَ الْمُؤْمِنِينَ ابْنَةُ عَمِّي وَقَدْ وَلَدَتْ مِنِّي تُلْحِقُهَا بِالرِّجَالِ قَالَ عَلَيْهِ السَّلَامُ إِنِّي حَكَمْتُ عَلَيْهَا بِحُكْمِ اللَّهِ عَزَّ وَجَلَّ إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى خَلَقَ حَوَّاءَ مِنْ ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى وَأَضْلَاعُ الرِّجَالِ تَنْقُصُ وَأَضْلَاعُ النِّسَاءِ تَمَامٌ",
     "isnad_matn": {
-      "isnad_ar": "٥٧٠٤ - وَرَوَى عَاصِمُ بْنُ حُمَيْدٍ عَنْ مُحَمَّدِ بْنِ قَيْسٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
-      "matn_ar": "«إِنَّ شُرَيْحًا الْقَاضِيَ بَيْنَمَا هُوَ فِي مَجْلِسِ الْقَضَاءِ إِذْ أَتَتْهُ امْرَأَةٌ فَقَالَتْ: أَيُّهَا الْقَاضِي اقْضِ بَيْنِي وَبَيْنَ خَصْمِي. فَقَالَ لَهَا: وَمَنْ خَصْمُكِ؟ قَالَتْ: أَنْتَ. قَالَ: أَفْرِجُوا لَهَا. فَأَفْرَجُوا لَهَا فَدَخَلَتْ. فَقَالَ لَهَا: مَا ظُلَامَتُكِ؟ فَقَالَتْ: إِنَّ لِي مَا لِلرِّجَالِ وَمَا لِلنِّسَاءِ. قَالَ شُرَيْحٌ: فَإِنَّ أَمِيرَ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ يَقْضِي عَلَى الْمَبَالِ. قَالَتْ: فَإِنِّي أَبُولُ بِهِمَا جَمِيعًا وَيَسْكُنَانِ مَعًا. قَالَ شُرَيْحٌ: وَاللَّهِ مَا سَمِعْتُ بِأَعْجَبَ مِنْ هَذَا. قَالَتْ: وَأَعْجَبُ مِنْ هَذَا. قَالَ: وَمَا هُوَ؟ قَالَتْ: جَامَعَنِي زَوْجِي فَوَلَدْتُ مِنْهُ وَجَامَعْتُ جَارِيَتِي فَوَلَدَتْ مِنِّي. فَضَرَبَ شُرَيْحٌ إِحْدَى يَدَيْهِ عَلَى الْأُخْرَى مُتَعَجِّبًا، ثُمَّ جَاءَ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ: يَا أَمِيرَ الْمُؤْمِنِينَ لَقَدْ وَرَدَ عَلَيَّ شَيْءٌ مَا سَمِعْتُ بِأَعْجَبَ مِنْهُ. ثُمَّ قَصَّ عَلَيْهِ قِصَّةَ الْمَرْأَةِ. فَسَأَلَهَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ عَنْ ذَلِكَ فَقَالَتْ: هُوَ كَمَا ذَكَرَ. فَقَالَ لَهَا: وَمَنْ زَوْجُكِ؟ قَالَتْ: فُلَانٌ. فَبَعَثَ إِلَيْهِ فَدَعَاهُ. فَقَالَ: أَتَعْرِفُ هَذِهِ؟ قَالَ: نَعَمْ، هِيَ زَوْجَتِي. فَسَأَلَهُ عَمَّا قَالَتْ فَقَالَ: هُوَ كَذَلِكَ. فَقَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ: لَأَنْتَ أَجْرَأُ مِنْ رَاكِبِ الْأَسَدِ حَيْثُ تُقْدِمُ عَلَيْهَا بِهَذِهِ الْحَالِ.» ثُمَّ قَالَ: «يَا قَنْبَرُ أَدْخِلْهَا بَيْتًا مَعَ امْرَأَةٍ فَعُدَّ أَضْلَاعَهَا». فَقَالَ زَوْجُهَا: يَا أَمِيرَ الْمُؤْمِنِينَ لَا آمَنُ عَلَيْهَا رَجُلًا وَلَا أَئْتَمِنُ عَلَيْهَا امْرَأَةً. فَقَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ: «عَلَيَّ بِدِينَارٍ الْخَصِيِّ». وَكَانَ مِنْ صَالِحِي أَهْلِ الْكُوفَةِ وَكَانَ يَثِقُ بِهِ. فَقَالَ لَهُ: «يَا دِينَارُ أَدْخِلْهَا بَيْتًا وَعَرِّهَا مِنْ ثِيَابِهَا وَمُرْهَا أَنْ تَشُدَّ مِئْزَرًا وَعُدَّ أَضْلَاعَهَا». فَفَعَلَ دِينَارٌ ذَلِكَ، وَكَانَ أَضْلَاعُهَا سَبْعَةَ عَشَرَ: تِسْعَةٌ فِي الْيَمِينِ وَثَمَانِيَةٌ فِي الْيَسَارِ. فَأَلْبَسَهَا عَلِيٌّ عَلَيْهِ السَّلَامُ ثِيَابَ الرِّجَالِ وَالْقَلَنْسُوَةَ وَالنَّعْلَيْنِ، وَأَلْقَى عَلَيْهِ الرِّدَاءَ، وَأَلْحَقَهُ بِالرِّجَالِ. فَقَالَ زَوْجُهَا: يَا أَمِيرَ الْمُؤْمِنِينَ ابْنَةُ عَمِّي وَقَدْ وَلَدَتْ مِنِّي تُلْحِقُهَا بِالرِّجَالِ؟ فَقَالَ عَلَيْهِ السَّلَامُ: «إِنِّي حَكَمْتُ عَلَيْهَا بِحُكْمِ اللَّهِ عَزَّ وَجَلَّ، إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى خَلَقَ حَوَّاءَ مِنْ ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى، وَأَضْلَاعُ الرِّجَالِ تَنْقُصُ وَأَضْلَاعُ النِّسَاءِ تَمَامٌ».",
+      "isnad_ar": "وَرَوَى عَاصِمُ بْنُ حُمَيْدٍ عَنْ مُحَمَّدِ بْنِ قَيْسٍ عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ",
+      "matn_ar": "إِنَّ شُرَيْحًا الْقَاضِيَ بَيْنَمَا هُوَ فِي مَجْلِسِ الْقَضَاءِ إِذْ أَتَتْهُ امْرَأَةٌ فَقَالَتْ أَيُّهَا الْقَاضِي اقْضِ بَيْنِي وَبَيْنَ خَصْمِي فَقَالَ لَهَا وَمَنْ خَصْمُكِ قَالَتْ أَنْتَ قَالَ أَفْرِجُوا لَهَا فَأَفْرَجُوا لَهَا فَدَخَلَتْ فَقَالَ لَهَا مَا ظُلَامَتُكِ فَقَالَتْ إِنَّ لِي مَا لِلرِّجَالِ وَمَا لِلنِّسَاءِ قَالَ شُرَيْحٌ فَإِنَّ أَمِيرَ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ يَقْضِي عَلَى الْمَبَالِ قَالَتْ فَإِنِّي أَبُولُ بِهِمَا جَمْعًا وَيَسْكُنَانِ مَعًا قَالَ شُرَيْحٌ وَاللَّهُ مَا سَمِعْتُ بِأَعْجَبَ مِنْ هَذَا قَالَتْ وَأَعْجَبُ مِنْ هَذَا قَالَ وَمَا هُوَ قَالَتْ جَامَعَنِي زَوْجِي فَوَلَدْتُ مِنْهُ وَجَامَعْتُ جَارِيَتِي فَوَلَدَتْ مِنِّي فَضَرَبَ شُرَيْحٌ إِحْدَى يَدَيْهِ عَلَى الْأُخْرَى مُتَعَجِّبًا ثُمَّ جَاءَ إِلَى أَمِيرِ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ فَقَالَ يَا أَمِيرَ الْمُؤْمِنِينَ لَقَدْ وَرَدَ عَلَيَّ شَيْءٌ مَا سَمِعْتُ بِأَعْجَبَ مِنْهُ ثُمَّ قَصَّ عَلَيْهِ قِصَّةَ الْمَرْأَةِ فَسَأَلَهَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ عَنْ ذَلِكَ فَقَالَتْ هُوَ كَمَا ذَكَرَ قَالَ لَهَا وَمَنْ زَوْجُكِ قَالَتْ فُلَانٌ فَبَعَثَ إِلَيْهِ فَدَعَاهُ فَقَالَ أَتَعْرِفُ هَذِهِ قَالَ نَعَمْ هِيَ زَوْجَتِي فَسَأَلَهُ عَمَّا قَالَتْ فَقَالَ هُوَ كَذَلِكَ قَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ لَأَنْتَ أَجْرَأُ مِنْ رَاكِبِ الْأَسَدِ حَيْثُ تُقْدِمُ عَلَيْهَا بِهَذِهِ الْحَالِ ثُمَّ قَالَ يَا قَنْبَرُ أَدْخِلْهَا بَيْتًا مَعَ امْرَأَةٍ فَعُدَّ أَضْلَاعَهَا فَقَالَ زَوْجُهَا يَا أَمِيرَ الْمُؤْمِنِينَ لَا آمَنُ عَلَيْهَا رَجُلًا وَلَا أَئْتَمِنُ عَلَيْهَا امْرَأَةً قَالَ عَلِيٌّ عَلَيْهِ السَّلَامُ عَلَيَّ بِدِينَارٍ الْخَاصِّي وَكَانَ مِنْ صَالِحِي أَهْلِ الْكُوفَةِ وَكَانَ يَثِقُ بِهِ فَقَالَ لَهُ يَا دِينَارُ أَدْخِلْهَا بَيْتًا وَعَرِّهَا مِنْ ثِيَابِهَا وَمُرْهَا أَنْ تَشُدَّ مِئْزَرًا وَعُدَّ أَضْلَاعَهَا فَفَعَلَ دِينَارٌ ذَلِكَ وَكَانَتْ أَضْلَاعُهَا سَبْعَةَ عَشَرَ تِسْعَةٌ فِي الْيَمِينِ وَثَمَانِيَةٌ فِي الْيَسَارِ فَأَلْبَسَهَا عَلِيٌّ عَلَيْهِ السَّلَامُ ثِيَابَ الرِّجَالِ وَالْقَلَنْسُوَةَ وَالنَّعْلَيْنِ وَأَلْقَى عَلَيْهِ الرَّدَاءَ وَأَلْحَقَهُ بِالرِّجَالِ فَقَالَ زَوْجُهَا يَا أَمِيرَ الْمُؤْمِنِينَ ابْنَةُ عَمِّي وَقَدْ وَلَدَتْ مِنِّي تُلْحِقُهَا بِالرِّجَالِ قَالَ عَلَيْهِ السَّلَامُ إِنِّي حَكَمْتُ عَلَيْهَا بِحُكْمِ اللَّهِ عَزَّ وَجَلَّ إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى خَلَقَ حَوَّاءَ مِنْ ضِلْعِ آدَمَ الْأَيْسَرِ الْأَقْصَى وَأَضْلَاعُ الرِّجَالِ تَنْقُصُ وَأَضْلَاعُ النِّسَاءِ تَمَامٌ",
       "has_chain": true,
       "narrators": [
         {
@@ -218,6 +471,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
   }
 }

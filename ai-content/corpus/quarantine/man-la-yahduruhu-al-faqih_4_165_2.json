@@ -1,174 +1,265 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:165:2",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "narrator[2] name_ar has 15 words (>14 — likely a sentence fragment, not a name): 'أَبِيهِ عَلَيْهِ اَلسَّلاَمُ : \"أَنَّ عَلِيَّ بْنَ أَبِي طَا'"
+    "narrator[2] name_ar has 15 words (>14, بن-density 0.07 — likely a sentence fragment, not a name): 'أَبِيهِ عَلَيْهِ اَلسَّلاَمُ : \"أَنَّ عَلِيَّ بْنَ أَبِي طَا'"
   ],
   "result": {
     "tags": [
       "jurisprudence",
       "family",
-      "theology",
-      "prophetic_tradition"
+      "theology"
     ],
     "content_type": "legal_ruling",
     "topics": [
       "inheritance",
-      "financial_law",
-      "judicial_rulings",
-      "prophets"
+      "imams_biography",
+      "marriage_family_law",
+      "divine_knowledge"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَ رَوَى السَّكُونِيُّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ :",
+        "arabic_text": "وَرَوَى اَلسَّكُونِيُّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ",
         "translations": {
-          "en": "Al-Sakuni narrated from Jaʿfar ibn Muḥammad, from his father, peace be upon him:",
-          "ur": "اَلْسَّکُونِیُّ نے جَعْفَرِ بْنِ مُحَمَّد سے روایت کی، جو اپنے والد علیہ السلام سے روایت کرتے ہیں:",
-          "tr": "El-Sakuni, babası, selam onun üzerine olsun, olan Câfer bin Muhammed'den rivayet etti:",
-          "fa": "السکونی از جعفر بن محمد، از پدرش، علیه السلام روایت کرده است:",
-          "id": "Al-Sakuni meriwayat dari Ja'far ibn Muhammad, dari ayahnya, semoga keselamatan atasnya:",
-          "bn": "আল-সাকুনী জাফর ইবনে মুহাম্মদ থেকে, যিনি তার পিতা থেকে, আলাইহি সালাম, বর্ণনা করেছেন:",
-          "es": "Al-Sakuni narró de Jaʿfar ibn Muḥammad, de su padre, la paz sea con él:",
-          "fr": "Al-Sakuni a rapporté de Jaʿfar ibn Muḥammad, de son père, que la paix soit sur lui :",
-          "de": "Al-Sakuni berichtete von Jaʿfar ibn Muḥammad, von seinem Vater, Friede sei mit ihm:",
-          "ru": "Аль-Сакуни передал от Джафара ибн Мухаммада, от его отца, мир ему:",
-          "zh": "السكوني从贾法尔本穆罕默德传述，传自其父，愿他平安："
+          "en": "And Al-Sakuni narrated from Ja'far ibn Muhammad, from his father, peace be upon him,",
+          "ur": "اور سکونی نے جعفر بن محمد سے روایت کی، محمد سے، ان کے والد سے، علیہ السلام:",
+          "tr": "Ve es-Sekuni, Cefer ibn Muhammed'den, babasından, aleyhisselam, rivayet etmiştir.",
+          "fa": "و السكوني روى عن جعفر بن محمد، عن أبيه، عليه السلام",
+          "id": "Dan Al-Sakuni meriwayatkan dari Ja'far ibn Muhammad, dari ayahnya, shallallahu 'alaihi wa sallam,",
+          "bn": "এবং আল-সাকুনী বর্ণনা করেছেন জাফর ইবনে মুহাম্মাদ থেকে, তাঁর পিতা থেকে, আলৈহিস সালাম,",
+          "es": "Y narró Al-Sakuni de Ja'far ibn Muhammad, de su padre, que la paz sea con él,",
+          "fr": "Et Al-Sakuni a rapporté de Ja'far ibn Muhammad, de son père, que la paix soit sur lui,",
+          "de": "Und Al-Sakuni überlieferte von Dscha'far ibn Muhammad, von seinem Vater, Friede sei mit ihm,",
+          "ru": "И ас-Сакуни передал от Джафара ибн Мухаммада, от его отца его, да будет мир с ним,",
+          "zh": "萨库尼传自贾法尔·本·穆罕默德，传自其父，愿主福安之，"
         },
         "word_start": 0,
-        "word_end": 12
+        "word_end": 10
       },
       {
         "chunk_type": "body",
-        "arabic_text": "«أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ كَانَ يُوَرِّثُ الْخُنْثَى فَيَعُدُّ أَضْلَاعَهُ فَإِنْ كَانَتْ أَضْلَاعُهُ نَاقِصَةً مِنْ أَضْلَاعِ النِّسَاءِ بِضِلْعٍ وَرَّثَ مِيرَاثَ الرَّجُلِ لِأَنَّ الرَّجُلَ تَنْقُصُ أَضْلَاعُهُ، عَنْ ضِلْعِ النِّسَاءِ بِضِلْعٍ لِأَنَّ حَوَّاءَ خُلِقَتْ مِنْ ضِلْعِ آدَمَ عَلَيْهِ السَّلَامُ الْقُصْوَى الْيُسْرَى فَنَقَصَ مِنْ أَضْلَاعِهِ ضِلْعٌ وَاحِدٌ».",
+        "arabic_text": "أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ كَانَ يُوَرِّثُ الْخُنْثَى فَيَعُدُّ أَضْلَاعَهُ فَإِنْ كَانَتْ أَضْلَاعُهُ نَاقِصَةً مِنْ أَضْلَاعِ النِّسَاءِ بِضِلْعٍ وَرَّثَ مِيرَاثَ الرَّجُلِ لِأَنَّ الرَّجُلَ تَنْقُصُ أَضْلَاعُهُ عَنْ ضِلْعِ النِّسَاءِ بِضِلْعٍ لِأَنَّ حَوَّاءَ خُلِقَتْ مِنْ ضِلْعِ آدَمَ عَلَيْهِ السَّلَامُ الْقُصْوَى الْيُسْرَى فَنَقَصَ مِنْ أَضْلَاعِهِ ضِلْعٌ وَاحِدٌ",
         "translations": {
-          "en": "That ʿAlī ibn Abī Ṭālib عليه السلام used to assign the inheritance of the khunthā by counting the ribs. If the ribs were fewer than the ribs of women by one rib, he would assign the inheritance share of a man, because a man's ribs are fewer than the ribs of women by one rib, since Hawwa was created from the farthest left rib of Adam عليه السلام, and thus one rib was missing from his ribs.",
-          "ur": "کہ علی ابن ابی طالب علیہ السلام خنثیٰ کی وراثت کا تعین پسلیوں کی گنتی سے کرتے تھے۔ اگر پسلیوں کی تعداد عورتوں کی پسلیوں سے ایک کم ہوتی تو وہ مرد کی وراثت کا حصہ دیتے کیونکہ مرد کی پسلیاں عورتوں کی پسلیوں سے ایک کم ہوتی ہیں، کیونکہ حوا علیہ السلام آدم علیہ السلام کی سب سے بائیں دور کی پسلی سے پیدا کی گئی تھیں، اس لیے اس کی پسلیوں میں ایک پسلی کم تھی۔",
-          "tr": "ʿAlî ibn Ebî Tâlib, aleyhisselâm, khunthâ'nın mirasını kaburga sayısına göre taksim ederdi. Eğer kaburgaları kadınların kaburgalarından bir kaburga eksik olursa, erkeğin miras payını verirdi, çünkü erkeğin kaburgaları kadınların kaburgalarından bir kaburga eksiktir. Çünkü Havva, Âdem aleyhisselâm'ın en solundaki en uzak kaburgasından yaratılmıştır ve böylece onun kaburgalarından bir kaburga eksik olmuştur.",
-          "fa": "اینکه ʿعلی بن ابی طالب علیه السلام ارث خنثی را با شمارش دنده‌ها تقسیم می‌کرد. اگر دنده‌ها یک دنده کمتر از دنده‌های زنان بود، سهم ارث مرد را می‌داد، زیرا دنده‌های مردان یک دنده کمتر از دنده‌های زنان است، چون حوا از دورترین دنده سمت چپ آدم علیه السلام خلق شده است و بنابراین یک دنده از دنده‌های او کم است.",
-          "id": "Bahwa ʿAlī ibn Abī Ṭālib عليه السلام membagikan warisan khunthā dengan menghitung tulang rusuk. Jika tulang rusuknya kurang satu dari tulang rusuk wanita, dia memberikan bagian warisan pria, karena tulang rusuk pria kurang satu dari tulang rusuk wanita, karena Hawwa diciptakan dari tulang rusuk paling kiri jauh dari Adam عليه السلام, sehingga satu tulang rusuk kurang dari tulang rusuknya.",
-          "bn": "যে আলী ইবনে আবী তালিব علیہ السلام খুন্থার উত্তরাধিকার নির্ধারণ করতেন পাঁজরের সংখ্যা গণনা করে। যদি পাঁজর নারীদের পাঁজরের থেকে একটি কম হয়, তবে তিনি পুরুষের উত্তরাধিকার ভাগ দেন, কারণ পুরুষের পাঁজর নারীদের পাঁজরের থেকে একটি কম, কারণ হাওয়া আদম عليه السلام এর সবচেয়ে বামদিকের দূরবর্তী পাঁজর থেকে সৃষ্টি হয়েছিল, তাই তার পাঁজর থেকে একটি পাঁজর কম ছিল।",
-          "es": "Que ʿAlī ibn Abī Ṭālib عليه السلام solía asignar la herencia del khunthā contando las costillas. Si las costillas eran menos que las de las mujeres por una costilla, asignaba la parte de herencia de un hombre, porque las costillas de un hombre son menos que las de las mujeres por una costilla, ya que Hawwa fue creada de la costilla más lejana a la izquierda de Adam عليه السلام, y así faltaba una costilla en sus costillas.",
-          "fr": "Que ʿAlī ibn Abī Ṭālib عليه السلام attribuait l’héritage du khunthā en comptant les côtes. Si les côtes étaient moins nombreuses que celles des femmes d’une côte, il attribuait la part d’héritage d’un homme, car les côtes d’un homme sont moins nombreuses que celles des femmes d’une côte, puisque Hawwa a été créée à partir de la côte la plus éloignée à gauche d’Adam عليه السلام, et ainsi une côte manquait à ses côtes.",
-          "de": "Dass ʿAlī ibn Abī Ṭālib عليه السلام das Erbe des Khunthā durch Zählen der Rippen bestimmte. Wenn die Rippen um eine Rippe weniger als die der Frauen waren, gab er den Erbanteil eines Mannes, weil die Rippen eines Mannes um eine Rippe weniger sind als die der Frauen, da Hawwa aus der äußersten linken Rippe Adams عليه السلام erschaffen wurde und somit eine Rippe bei seinen Rippen fehlte.",
-          "ru": "Что ʿАли ибн Аби Талиб عليه السلام определял наследство для хунтха, считая ребра. Если ребер было на одно меньше, чем у женщин, он назначал долю наследства мужчины, потому что у мужчины ребер на одно меньше, чем у женщин, так как Хавва была создана из самой левой крайней ребра Адама عليه السلام, и таким образом одно ребро отсутствовало у его ребер.",
-          "zh": "ʿ阿里本阿比塔利卜 عليه السلام通过数肋骨来分配khunthā的遗产。如果肋骨比女性的少一根，他会分配男性的遗产份额，因为男性的肋骨比女性少一根，因为夏娃是从亚当 عليه السلام最左边最远的肋骨创造的，因此他的肋骨中缺少一根。"
+          "en": "that Ali ibn Abi Talib (peace be upon him) used to grant inheritance to the hermaphrodite by counting their ribs. If their ribs were fewer than the ribs of women by one rib, he would grant them the inheritance of a man, because a man's ribs are deficient by one rib compared to women's ribs, because Eve was created from the leftmost rib of Adam (peace be upon him), so one rib was missing from his ribs.",
+          "ur": "کہ علی ابن ابی طالب (رضی اللہ عنہ) خنثی کو میراث دیتے تھے ان کی پھلیوں کی گنتی کر کے۔ اگر ان کی پھلیاں عورتوں کی پھلیوں سے ایک پھلی کم ہوتیں تو وہ انہیں مرد کی میراث دیتے تھے، کیونکہ مرد کی پھلیاں عورتوں کی پھلیوں سے ایک پھلی کم ہوتی ہیں، کیونکہ حوا آدم (رضی اللہ عنہ) کی بائیں جانب کی پھلی سے پیدا کی گئی تھی، اس لیے ان کی پھلیوں میں ایک پھلی کم تھی۔",
+          "tr": "Ali ibn Ebi Talib (ra) hermafrodite mirası kaburgalarını sayarak verirdi. Eğer onların kaburgaları kadınların kaburgalarından bir kaburga eksikse, onlara erkeğin mirasını verirdi, çünkü erkeğin kaburgaları kadınların kaburgalarına göre bir kaburga eksiktir, çünkü Havva, Adem'in (ra) sol en uzun kaburgasından yaratılmıştır, dolayısıyla onun kaburgalarından bir kaburga eksik kalmıştır.",
+          "fa": "که علی بن ابی‌طالب (علیه‌السلام) ارث را به خنثی می‌داد و دنده‌هایشان را می‌شمرد. اگر دنده‌هایشان یک دنده کمتر از دنده‌های زنان بود، ارث مرد را به آنان می‌داد، زیرا دنده‌های مردان یک دنده نسبت به دنده‌های زنان کم است، زیرا حوا از دنده چپ آدم (علیه‌السلام) آفریده شد، پس یک دنده از دنده‌های او کم بود.",
+          "id": "bahwa Ali bin Abi Thalib (semoga Allah ridha kepadanya) dahulu memberikan warisan kepada orang yang hermafrodit dengan menghitung tulang rusuknya. Jika tulang rusuknya kurang satu tulang rusuk dibandingkan dengan tulang rusuk wanita, ia memberikannya warisan seperti laki-laki, karena tulang rusuk laki-laki kurang satu tulang rusuk dibandingkan dengan tulang rusuk wanita, karena Hawa diciptakan dari tulang rusuk paling kiri Adam (semoga Allah ridha kepadanya), sehingga satu tulang rusuk hilang dari tulang rusuknya.",
+          "bn": "যেহেতু আলী ইবনে আবী তালিব (রহ.) হিমফ্রোডাইটকে তাদের পসলি হাড় গণনা করে উত্তরাধিকার দিতেন। যদি তাদের পসলি হাড় নারীদের পসলি হাড়ের চেয়ে এক হাড় কম হতো, তবে তিনি তাদের পুরুষের উত্তরাধিকার দিতেন, কারণ পুরুষের পসলি হাড় নারীদের পসলি হাড়ের চেয়ে এক হাড় কম, কারণ হাওয়া আদম (রহ.)-এর বাম পসলি হাড় থেকে সৃষ্টি হয়েছিল, তাই তার পসলি হাড় থেকে এক হাড় অনুপস্থিত ছিল।",
+          "es": "que Alí ibn Abi Tálib (que la paz sea con él) sol) solía conceder la herencia al hermafrodita contando sus costillas. Si sus costillas eran una menos que las de las mujeres, les concedía la herencia de un hombre, porque las costillas de un hombre son deficientes en una costilla en comparación con las de las mujeres, porque Eva fue creada a partir de la costilla más izquierda de Adán (que la paz sea con él), por lo que le faltaba una costilla a sus costillas.",
+          "fr": "Qu'Ali ibn Abi Talib (que la paix soit sur lui) avait l'habitude d'accorder l'héritage à l'hermaphrodite en comptant ses côtes. Si leurs côtes étaient inférieures d'une côte aux côtes des femmes, il leur accordait l'héritage d'un homme, car les côtes d'un homme sont inférieures d'une côte à celles des femmes, car Ève a été créée de la côte la plus gauche d'Adam (que la paix soit sur lui), si bien qu'une côte manquait à ses côtes.",
+          "de": "dass Ali ibn Abi Talib (fried (Friede sei mit ihm) dem Zwitter das Erbe durch Zählen ihrer Rippen gewährte. Wenn ihre Rippen um eine Rippe weniger waren als die Rippen der Frauen, gewährte er ihnen das Erbe eines Mannes, weil die Rippen eines Mannes im Vergleich zu den Rippen der Frauen um eine Rippe weniger sind, weil Eva aus der äußersten linken Rippe Adams (Friede sei mit ihm) erschaffen wurde, so dass eine Rippe von seinen Rippen fehlte.",
+          "ru": "что Али ибн Аби Талиб (да будет мир с ним) обычно предоставлял наследство гермафродиту, считая его ребра. Если их ребер было на одно меньше, чем у женщин, он предоставлял им наследство мужчины, потому что у мужчины на одно ребро меньше, чем у женщин, поскольку Ева была создана из левого ребра Адама (да будет мир с ним), поэтому у него не хватало одного ребра.",
+          "zh": "阿里·本·阿比·塔利布（愿主喜悦之曾按肋骨数量给予两性人遗产。若其肋骨比女性的肋骨少一根，则赐予其男子的遗产份额，因为男子的肋骨比女子的肋骨少一根，这是因为哈娃由阿丹（愿主喜悦之）最左侧的肋骨所造，故其肋骨少了一根。"
         },
-        "word_start": 12,
-        "word_end": 58
+        "word_start": 10,
+        "word_end": 56
       },
       {
-        "chunk_type": "closing",
-        "arabic_text": "قَالَ مُصَنِّفُ هَذَا الْكِتَابِ رَحِمَهُ اللَّهُ إِنَّ حَوَّاءَ خُلِقَتْ مِنْ فَضْلَةِ الطِّينَةِ الَّتِي خُلِقَ مِنْهَا آدَمُ ع‌ وَ كَانَتْ تِلْكَ الطِّينَةُ مُبْقَاةً مِنْ طِينَةِ أَضْلَاعِهِ لَا أَنَّهَا خُلِقَتْ مِنْ ضِلْعِهِ بَعْدَ مَا أُكْمِلَ خَلْقُهُ فَأُخِذَ ضِلْعٌ مِنْ أَضْلَاعِهِ الْيُسْرَى فَخُلِقَتْ مِنْهَا وَ لَوْ كَانَ كَمَا يَقُولُ الْجُهَّالُ لَكَانَ لِمُتَكَلِّمٍ مِنْ أَهْلِ التَّشْنِيعِ طَرِيقٌ إِلَى أَنْ يَقُولَ إِنَّ آدَمَ كَانَ يَنْكِحُ بَعْضُهُ بَعْضاً وَ هَكَذَا خَلَقَ اللَّهُ عَزَّ وَ جَلَّ النَّخْلَةَ مِنْ فَضْلَةِ طِينَةِ آدَمَ ع وَ كَذَلِكَ الْحَمَامُ فَلَوْ كَانَ ذَلِكَ كُلُّهُ مَأْخُوذاً مِنْ جَسَدِهِ بَعْدَ إِكْمَالِ خَلْقِهِ لَمَا جَازَ أَنْ يَنْكِحَ حَوَّاءَ فَيَكُونَ قَدْ نَكَحَ بَعْضُهُ بَعْضاً وَ لَا جَازَ لَهُ أَنْ يَأْكُلَ التَّمْرَ لِأَنَّهُ كَانَ يَكُونُ قَدْ أَكَلَ بَعْضَهُ وَ كَذَلِكَ الْحَمَامُ.",
+        "chunk_type": "body",
+        "arabic_text": "قَالَ مُصِفُّ هَذَا الْكِتَابِ رَحِمَهُ اللَّهُ إِنَّ حَوَّاءَ خُلِقَتْ مِنْ فَضْلَةِ الطِّينَةِ الَّتِي خُلِقَ مِنْهَا آدَمُ عَلَيْهِ السَّلَامُ وَكَانَتْ تِلْكَ الطِّينَةُ مُبْقَاةً مِنْ طِينَةِ أَضْلَاعِهِ لَا أَنَّهَا خُلِقَتْ مِنْ ضِلْعِهِ بَعْدَ مَا أُكْمِلَ خَلْقُهُ فَأُخِذَ ضِلْعٌ مِنْ أَضْلَاعِهِ الْيُسْرَى فَخُلِقَتْ مِنْهَا",
         "translations": {
-          "en": "The author of this book, may Allah have mercy on him, said: Hawwa was created from the remainder of the clay from which Adam ع was created, and that clay had been left over from the clay of his ribs; not that she was created from his rib after his creation had been completed, such that a rib was taken from his left side and she was then created from it. If it were as the ignorant say, then a fault-finding critic would have a way to say that Adam was marrying part of himself to part of himself. In this same way, Allah, Mighty and Majestic, created the palm tree from the remainder of Adam's clay, and likewise the pigeon. So if all that had been taken from his body after the completion of his creation, it would not have been permissible for him to marry Hawwa, for that would mean he had married part of himself to part of himself; nor would it have been permissible for him to eat dates, because that would mean he had eaten part of himself, and likewise the pigeon.",
-          "ur": "اس کتاب کے مصنف، اللہ ان پر رحم فرمائے، نے فرمایا: حوا اس مٹی کے باقیات سے پیدا کی گئی جو آدم علیہ السلام کی مٹی تھی، اور وہ مٹی اس کی پسلیوں کی مٹی سے بچی ہوئی تھی؛ نہ کہ وہ اس کی پسلی سے پیدا کی گئی ہو جب اس کی تخلیق مکمل ہو چکی تھی، کہ اس کی بائیں طرف سے ایک پسلی نکالی گئی اور پھر وہ اس سے پیدا کی گئی۔ اگر یہ بات جاہل لوگ کہتے ہیں تو تنقید کرنے والا کہہ سکتا ہے کہ آدم اپنے آپ سے شادی کر رہا تھا۔ اسی طرح اللہ تعالیٰ نے کھجور کے درخت کو آدم کی مٹی کے باقیات سے پیدا کیا، اور اسی طرح کبوتر کو۔ اگر یہ سب کچھ اس کے جسم سے اس کی تخلیق مکمل ہونے کے بعد لیا گیا ہوتا تو آدم کے لیے حوا سے شادی کرنا جائز نہ ہوتا، کیونکہ اس کا مطلب ہوتا کہ وہ اپنے آپ سے شادی کر رہا ہے؛ اور کھجور کھانا بھی جائز نہ ہوتا کیونکہ اس کا مطلب ہوتا کہ وہ اپنے آپ کا کچھ کھا رہا ہے، اور کبوتر بھی اسی طرح۔",
-          "tr": "Bu kitabın müellifi, Allah rahmet eylesin, dedi ki: Havva, Âdem aleyhisselâm'ın yaratıldığı çamurun artığından yaratıldı ve o çamur onun kaburgalarının çamurundan artıktı; yaratılışı tamamlandıktan sonra kaburgasından alınarak yaratılmadı. Eğer cahillerin dediği gibi olsaydı, eleştirmenler Âdem'in kendisiyle evlendiğini söyleyebilirdi. Aynı şekilde Allah Azze ve Celle, hurma ağacını Âdem'in çamurunun artığından, güvercini de öyle yarattı. Eğer bunların hepsi yaratılışından sonra vücudundan alınmış olsaydı, Âdem'in Havva ile evlenmesi mümkün olmazdı, çünkü bu kendisiyle evlenmesi anlamına gelirdi; hurma yemesi de mümkün olmazdı, çünkü kendisinin bir parçasını yemesi anlamına gelirdi; güvercin de aynı şekilde.",
-          "fa": "نویسنده این کتاب، رحمت الله علیه، گفت: حوا از باقی‌مانده گل که آدم علیه السلام از آن خلق شده بود، خلق شد و آن گل از گل دنده‌های او باقی مانده بود؛ نه اینکه پس از کامل شدن خلقتش، از دنده‌اش خلق شده باشد، به گونه‌ای که دنده‌ای از سمت چپش گرفته شده و سپس از آن خلق شده باشد. اگر همان‌طور که جاهلان می‌گویند بود، منتقدی راهی برای گفتن این داشت که آدم با بخشی از خودش ازدواج می‌کرد. به همین ترتیب، خداوند عزوجل درخت نخل را از باقی‌مانده گل آدم علیه السلام خلق کرد و همچنین کبوتر را. اگر همه این‌ها پس از کامل شدن خلقتش از بدنش گرفته شده بود، ازدواج آدم با حوا جایز نبود، زیرا به معنای ازدواج با بخشی از خودش بود؛ و خوردن خرما نیز جایز نبود، زیرا به معنای خوردن بخشی از خودش بود؛ و کبوتر نیز همین‌طور.",
-          "id": "Penulis buku ini, semoga Allah merahmatinya, berkata: Hawwa diciptakan dari sisa tanah liat yang digunakan untuk menciptakan Adam ع, dan tanah liat itu tersisa dari tanah liat tulang rusuknya; bukan bahwa dia diciptakan dari tulang rusuknya setelah penciptaannya selesai, sehingga satu tulang rusuk diambil dari sisi kirinya dan dia diciptakan darinya. Jika seperti yang dikatakan orang bodoh, maka seorang pengkritik akan mengatakan bahwa Adam menikahi sebagian dari dirinya sendiri. Dengan cara yang sama, Allah Yang Maha Kuasa menciptakan pohon kurma dari sisa tanah liat Adam ع, dan juga burung merpati. Jadi jika semua itu diambil dari tubuhnya setelah penciptaannya selesai, maka tidak boleh bagi Adam menikahi Hawwa, karena itu berarti dia menikahi sebagian dari dirinya sendiri; dan tidak boleh baginya makan kurma karena itu berarti dia memakan sebagian dari dirinya sendiri, dan demikian juga burung merpati.",
-          "bn": "এই বইয়ের লেখক, আল্লাহ তাঁর উপর রহমত করুন, বলেছেন: হাওয়া সৃষ্টি হয়েছিল সেই মাটির অবশিষ্টাংশ থেকে যেখান থেকে আদম علیہ السلام সৃষ্টি হয়েছিল, এবং সেই মাটি ছিল তার পাঁজরের মাটির অবশিষ্টাংশ; না যে তিনি তার পাঁজর থেকে সৃষ্টি হয়েছেন যখন তার সৃষ্টি সম্পূর্ণ হয়েছে, যেন তার বাম পাশে থেকে একটি পাঁজর নেওয়া হয়েছিল এবং তিনি তাতে সৃষ্টি হয়েছিলেন। যদি এটি যেমন অজ্ঞ লোকেরা বলে, তবে একজন সমালোচক বলত যে আদম নিজের অংশের সাথে বিয়ে করছিল। একইভাবে, আল্লাহ তাআলা খেজুর গাছ সৃষ্টি করেছেন আদমের মাটির অবশিষ্টাংশ থেকে, এবং একইভাবে কবুতর। তাই যদি সবকিছু তার শরীর থেকে নেওয়া হতো তার সৃষ্টির পর, তবে আদমের জন্য হাওয়ার সাথে বিয়ে করা বৈধ হত না, কারণ এর মানে তিনি নিজের অংশের সাথে বিয়ে করছিলেন; এবং তার জন্য খেজুর খাওয়াও বৈধ হত না কারণ এর মানে তিনি নিজের অংশ খাচ্ছিলেন, এবং কবুতরও একই রকম।",
-          "es": "El autor de este libro, que Allah tenga misericordia de él, dijo: Hawwa fue creada del resto del barro del que fue creado Adam ع, y ese barro había quedado del barro de sus costillas; no que ella fuera creada de su costilla después de que su creación se completara, de modo que se tomara una costilla de su lado izquierdo y luego ella fuera creada de ella. Si fuera como dicen los ignorantes, un crítico encontraría la manera de decir que Adam se estaba casando con una parte de sí mismo. De la misma manera, Allah, el Poderoso y Majestuoso, creó la palmera del resto del barro de Adam ع, y también la paloma. Así que si todo eso hubiera sido tomado de su cuerpo después de la finalización de su creación, no le habría sido permitido a Adam casarse con Hawwa, porque eso significaría que se estaba casando con una parte de sí mismo; ni le habría sido permitido comer dátiles, porque eso significaría que estaba comiendo una parte de sí mismo, y lo mismo con la paloma.",
-          "fr": "L’auteur de ce livre, qu’Allah lui fasse miséricorde, a dit : Hawwa a été créée à partir du reste de l’argile dont Adam ع a été créé, et cette argile était un reste de l’argile de ses côtes ; elle n’a pas été créée à partir de sa côte après que sa création ait été achevée, de sorte qu’une côte ait été prise de son côté gauche puis qu’elle ait été créée à partir de celle-ci. Si c’était comme le disent les ignorants, un critique trouverait un moyen de dire qu’Adam se mariait avec une partie de lui-même. De la même manière, Allah, le Tout-Puissant et Majestueux, a créé le palmier à partir du reste de l’argile d’Adam ع, ainsi que le pigeon. Donc, si tout cela avait été pris de son corps après l’achèvement de sa création, il n’aurait pas été permis à Adam d’épouser Hawwa, car cela signifierait qu’il s’était marié avec une partie de lui-même ; ni de manger des dattes, car cela signifierait qu’il mangeait une partie de lui-même, et il en va de même pour le pigeon.",
-          "de": "Der Verfasser dieses Buches, möge Allah ihm Barmherzigkeit schenken, sagte: Hawwa wurde aus dem Rest des Tons erschaffen, aus dem Adam ع erschaffen wurde, und dieser Ton war ein Überbleibsel des Tons seiner Rippen; nicht, dass sie aus seiner Rippe erschaffen wurde, nachdem seine Schöpfung vollendet war, sodass eine Rippe von seiner linken Seite genommen wurde und sie daraus erschaffen wurde. Wenn es so wäre, wie die Unwissenden sagen, hätte ein Kritiker sagen können, dass Adam einen Teil von sich selbst heiratete. Ebenso erschuf Allah, der Mächtige und Erhabene, die Dattelpalme aus dem Rest des Tons Adams ع, ebenso die Taube. Wenn all dies nach der Vollendung seiner Schöpfung von seinem Körper genommen worden wäre, wäre es Adam nicht erlaubt gewesen, Hawwa zu heiraten, denn das würde bedeuten, dass er einen Teil von sich selbst heiratete; ebenso wäre es ihm nicht erlaubt gewesen, Datteln zu essen, denn das würde bedeuten, dass er einen Teil von sich selbst aß, und ebenso die Taube.",
-          "ru": "Автор этой книги, да помилует его Аллах, сказал: Хавва была создана из остатков глины, из которой был создан Адам ع, и эта глина осталась от глины его ребер; не из ребра после завершения его создания, так что ребро было взято с его левой стороны, и она была создана из него. Если бы было так, как говорят невежественные, критик мог бы сказать, что Адам женится на части самого себя. Таким же образом Аллах, Всемогущий и Великий, создал пальму из остатков глины Адама ع, и также голубя. Если бы всё это было взято из его тела после завершения его создания, Адаму не было бы дозволено жениться на Хавве, потому что это означало бы, что он женится на части самого себя; также ему не было бы дозволено есть финики, потому что это означало бы, что он ест часть самого себя, и то же самое с голубем.",
-          "zh": "本书作者，愿安拉怜悯他，说：夏娃是从创造亚当ع的泥土剩余中创造的，那泥土是他肋骨泥土的剩余；不是在他创造完成后从他的肋骨中创造的，即不是从他左侧取出一根肋骨然后从中创造她。如果像无知者所说的那样，那么批评者会说亚当娶了他自己的一部分。以同样的方式，万能尊贵的安拉从亚当ع的泥土剩余中创造了棕榈树，也创造了鸽子。所以如果这些都是在他创造完成后从他身体中取出的，那么亚当娶夏娃是不允许的，因为那意味着他娶了自己的一部分；他吃枣子也不允许，因为那意味着他吃了自己的一部分，鸽子也是如此。"
+          "en": "The author of this book, may God have mercy on him, said: Indeed, Eve was created from the surplus of the clay from which Adam (peace be upon him) was created, and that clay was preserved from the clay of his ribs, not that she was created from his rib after his creation was completed and a rib was taken from his left ribs and she was created from it.",
+          "ur": "اس کتاب کے مصنف رحمۃ اللہ علیہ نے فرمایا: بے شک حوا اس مٹی کے اضافے سے پیدا کی گئی جس سے آدم (علیہ السلام) کو پیدا کیا گیا، اور یہ مٹی ان کی پسلیوں کی مٹی سے محفوظ تھی، نہ کہ یہ کہ ان کی تخلیق مکمل ہونے کے بعد ان کی بائیں پسلیوں میں سے ایک پسلی نکالی گئی اور اس سے حوا کو پیدا کیا گیا۔",
+          "tr": "Bu kitabın yazar, Allah rahmet eylesin, şöyle dedi: Şüphesiz Havva, Âdem (aleyhisselâm) yaratıldığı kilin fazlasından yaratılmıştır; bu kil, kaburga kemiğinin kilinden değil, yaratılışı tamamlandıktan sonra sol kaburgasından bir kaburga kemiği alınarak ondan yaratıldığı gibi değildir.",
+          "fa": "مولف این کتاب، خداوند او را بیامرزد، فرمود: که حوا از باقی‌مانده‌ی خاکِ آفرینش آدم (علیه‌السلام) آفریده شد، و آن خاک از دنده‌های او بود، نه اینکه پس از تکمیل آفرینش او، از دنده‌ی چپش برداشته شود و از آن آفریده گردد.",
+          "id": "Penulis kitab ini, semoga Allah merahmatinya, berkata: Sesungguhnya Hawa diciptakan dari sisa tanah liat yang digunakan untuk menciptakan Adam (alamah), dan sisa tanah liat itu berasal dari tulang rusuknya, bukan berarti ia diciptakan dari tulang rusuknya setelah penciptaannya selesai dan satu tulang rusuk diambil dari tulang rusuk kirinya lalu ia diciptakan darinya.",
+          "bn": "এই গ্রন্থের রচয়িতা, আল্লাহ তাঁকে রহমত করুন, বলেছেন: নিশ্চয়ই হাওয়া (আলীহা) সেই মাটি থেকে সৃষ্টি করা হয়েছিল যা আদম (আলাইহিস সালাম)-এর সৃষ্টির জন্য ব্যবহৃত হয়েছিল, এবং সেই মাটি ছিল তাঁর পাকস্থলীর অংশ থেকে, এমন নয় যে তাঁর সৃষ্টি সম্পন্ন হওয়ার পর তাঁর বাম পাশের হাড় থেকে একটি হাড় নেওয়া হয়েছিল এবং তা থেকে হাওয়া সৃষ্টি করা হয়েছিল।",
+          "es": "El autor de este libro, que Dios tenga misericordia de él, dijo: En verdad, Eva fue creada a partir del excedente del barro del cual fue creado Adán (que la paz sea con él, y ese barro fue preservado del barro de sus costillas, no que ella fue creada a partir de su costilla después de que su creación se completó y se tomó una costilla de sus costillas izquierdas y ella fue creada a partir de ella.",
+          "fr": "L'auteur de ce livre, qu'Allah lui fasse miséricorde, a dit : « En vérité, Ève a été créée à été créée à partir du surplus de l'argile dont Adam (que la paix soit sur lui) a été créé, et cette argile a été préservée de l'argile de ses côtes, et non pas qu'elle ait été créée à partir de sa côte après l'achèvement de sa création, et qu'une côte ait été prise de ses côtes gauches et qu'elle ait été créée à partir de celle-ci. »",
+          "de": "Der Autor dieses Buches Buches, möge Gott ihn erbarmen, sagte: Wahrlich, Eva wurde aus dem Überschuss des Lehms erschaffen, aus dem Adam (Friede sei mit ihm) erschaffen wurde, und dieser Lehm wurde aus dem Lehm seiner Rippen aufbewahrt, nicht dass sie erschaffen wurde, nachdem seine Erschaffung abgeschlossen war und eine Rippe von seinen linken Rippen genommen wurde und sie daraus erschaffen wurde.",
+          "ru": "Автор этой книги, да помилует его Аллах, сказал: «Воистину, Ева была создана из излишка глины, из которой был создан Адам (да будет над ним мир), и эта глина была сохранена от глины его ребер, а не из того, что она была создана из его ребра после завершения его создания, когда было взято ребро из его левой стороны и она была создана из него».",
+          "zh": "本书作者（愿真主怜悯他）说：夏娃是由亚当（愿主福安之）被造时剩余的泥土所造，这泥土是从他肋骨处的泥土中保留下来的，并非在他被造完成后从其左肋取出一根肋骨，再用那根肋骨造出她。"
         },
-        "word_start": 58,
-        "word_end": 172
+        "word_start": 56,
+        "word_end": 97
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَوْ كَانَ كَمَا يَقُولُ الْجُهَّالُ لَكَانُ لَكَانَ لِمُتَكَلِّمٍ مِنْ أَهْلِ التَّشْنِيعِ طَرِيقٌ إِلَى أَنْ يَقُولَ إِنَّ آدَمَ كَانَ يَنْكِحُ بَعْضُهُ بَعْضاً وَهَكَذَا خَلَقَ اللَّهُ عَزَّ وَجَلَّ النَّخْلَةَ مِنْ فَضْلَةِ طِينَةِ آدَمَ عَلَيْهِ السَّلَامُ وَكَذَلِكَ الْحَمَامُ فَلَوْ كَانَ ذَلِكَ كُلُّهُ مَأْخُوذاً مِنْ جَسَدِهِ بَعْدَ إِكْمَالِ خَلْقِهِ لَمَا جَازَ أَنْ يَنْكِحَ حَوَّاءَ فَيَكُونَ قَدْ نَكَحَ بَعْضُهُ بَعْضاً وَلَا جَازَ لَهُ أَنْ يَأْكُلَ التَّمْرَ لِأَنَّهُ كَانَ يَكُونُ قَدْ أَكَلَ بَعْضَهُ وَكَذَلِكَ الْحَمَامُ",
+        "translations": {
+          "en": "And if it were as the ignorant say, there would be a way for a speaker from the people of criticism to say that Adam used to marry part of himself. And thus God, the Mighty and Majestic, created the palm tree from the surplus of Adam's clay, and likewise the pigeon. So if all of that were taken from his body after his creation was completed, it would not be permissible for him to marry Eve, so he would have married part of himself, and it would not be permissible for him to eat dates, because he would have eaten part of himself, and likewise the pigeon.",
+          "ur": "اور اگر یہ ویسا ہی ہوتا جیسا کہ جاہلو کہتے ہیں، تو ناقدین کے لوگوں کے لیے ایک بولنے والا یہ کہہ سکتا تھا کہ آدم علیہ السلام نے اپنی ہی کسی جزو سے شادی کی۔ اور اسی طرح اللہ تعالیٰ نے بادشاہت اور عظمت والا، آدم کی مٹی کے اضافے سے کھجور کا درخت پیدا کیا، اور اسی طرح کبوتر کو۔ تو اگر ان سب کو اس کی تخلیق مکمل ہونے کے بعد اس کے جسم سے نکال لیا جاتا، تو اس کے لیے حوا سے شادی کرنا جائز نہ ہوتا، کیونکہ وہ اپنی ہی کسی جزو سے شادی کر لیتا، اور کھجور کھانا بھی جائز نہ ہوتا، کیونکہ وہ اپنی ہی کسی جزو کو کھا لیتا، اور اسی طرح کبوتر کو۔",
+          "tr": "Ve",
+          "fa": "و اگر به گفته جهل‌وران بود، راهی می‌شد برای گوینده‌ای از اهل نقد که بگوید آدم بخشی از خود را با خود ازدواج کرد. و بدین گونه خداوند، توانا و بزرگ، نخل را از فاضله خاک آدم آفرید، و همچنان کبوتر را. پس اگر همه آن از بدن او پس از کامل شدن خلقتش برداشته می‌شد، برای او جایز نبود که با حوا ازدواج کند، پس بخشی از خود را با خود ازدواج کرده بود، و برای او جایز نبود که خرما بخورد، زیرا بخشی از خود را خورده بود، و همچنان کبوتر را.",
+          "id": "Dan jika hal itu sebagaimana yang dikatakan oleh orang-orang yang bodoh, niscaya akan ada jalan bagi seorang pembicara dari kalangan ahli kritik untuk mengatakan bahwa Adam pernah menikahi sebagian dari dirinya sendiri. Dan dengan demikian, Allah Yang Maha Perkasa dan Mulia, menciptakan pohon kurma dari kelebihan tanah liat Adam, dan demikian pula merpati. Maka jika semua itu diambil dari tubuhnya setelah penciptaannya selesai, maka tidak halal baginya untuk menikahi Hawa, sehingga ia akan menikahi sebagian dari dirinya sendiri, dan tidak halal baginya untuk memakan kurma, karena ia akan memakan sebagian dari dirinya sendiri, dan demikian pula merpati.",
+          "bn": "এবং যদি এটা অজ্ঞদের বক্তব্যের মতো হতো, তবে সমালোচকদের মধ্যে একজন বলতে পারতেন যে আদম (আ.) নিজেরই অংশের সাথে বিবাহ করতেন। এবং এভাবে আল্লাহ তায়ালা, মহান ও মাহান, আদমের মাটির অতিরিক্ত অংশ থেকে খেজুর গাছ সৃষ্টি করলেন, এবং একইভাবে কবুতরকেও। সুতরাং যদি সৃষ্টি সম্পন্ন হওয়ার পর তার শরীর থেকে এই সব কিছুই নেওয়া হতো, তবে তার জন্য হাওয়া (আ.)-এর সাথে বিবাহ করা জায়েজ হতো না, অর্থাৎ তিনি নিজেরই অংশের সাথে বিবাহ করতেন, এবং তার জন্য খেজুর খাওয়া জায়েজ হতো না, কারণ তিনি নিজেরই অংশ খেতেন, এবং একইভাবে কবুতরকেও।",
+          "es": "Y",
+          "fr": "Et si cela était comme le disent les ignorants, il y aurait un moyen pour un orateur issu des gens de la critique de dire qu'Adam épousait une partie de lui-même. Ainsi, Dieu, le Puissant et le Majestueux, créa le palmier à partir du surplus de l'argile d'Adam, et de même la colombe. Donc, si tout cela était pris de son corps après que sa création fut achevée, il ne lui serait pas permis d'épouser Ève, de sorte qu'il aurait épousé une partie de lui-même, et il ne lui serait pas permis de manger des dattes, car il aurait mangé une partie de lui-même, et de même la colombe.",
+          "de": "Und wenn es so wäre, wie die Unwissenden behaupten, gäbe es für einen Redner aus den Leuten der Kritik einen Weg zu sagen, dass Adam einen Teil von sich selbst geheiratet hätte. Und so schuf Gott, der Mächtige und Erhabene, die Palme aus dem Überschuss von Adams Lehm, und ebenso die Taube. Wenn also all das nach seiner Vollendung der Schöpfung von seinem Körper genommen würde, wäre es ihm nicht erlaubt, Eva zu heiraten, so hätte er einen Teil von sich selbst geheiratet, und es wäre ihm nicht erlaubt, Datteln zu essen, denn er hätte einen Teil von sich selbst gegessen, und ebenso die Taube.",
+          "ru": "И если бы это было так, как говорят невежественные, то нашёлся бы говорящий из числа людей, занимающихся критикой, который сказал бы, что Адам женился на части себя самого. И так Аллах, Могущественный и Величественный, создал пальму из излишка глины Адама, а также и голубя. И если бы всё это было взято из его тела после завершения его создания, то не было бы дозволено ему жениться на Хавве, ибо он женился бы на части себя самого, и не было бы дозволено ему есть финики, ибо он ел бы часть себя самого, а также и голубя.",
+          "zh": "倘若如无知者所言，那么批评家们便可以说，阿达姆曾娶了自己的一部分。因此，真主，至尊至荣的，从阿达姆泥土的剩余部分创造了棕榈树，同样也创造了鸽子。所以，如果在他被创造完成后，这一切都从他的身体中被取走，那么他娶哈娃便是不被允许的，因为他娶的是自己的一部分；他吃椰枣也便不被允许，因为他吃的是自己的一部分，鸽子亦然。"
+        },
+        "word_start": 97,
+        "word_end": 166
       }
     ],
     "translations": {
       "en": {
-        "summary": "This report describes a legal method attributed to Imam ʿAlī عليه السلام for determining the inheritance share of a khunthā by examining rib count. The compiler then adds his own clarification, rejecting the idea that Hawwa was created from an actual rib taken from Adam after his creation was completed, and instead states that she was created from the leftover clay of Adam's creation.",
-        "seo_question": "How does this hadith describe inheritance for a khunthā and the creation of Hawwa?",
+        "summary": "Imam Ali (as) establishes the inheritance status of a hermaphrodite (khuntha) by counting ribs, linking the legal classification to the theological narrative of Eve’s creation from Adam’s left rib. The author, Shaykh al-Saduq, clarifies that Eve was formed from the remaining clay of Adam’s ribs rather than a rib being extracted post-completion, thereby avoiding the logical absurdity of Adam marrying his own body part or eating his own flesh.",
+        "seo_question": "How is the inheritance of a hermaphrodite determined according to Imam Ali (as) and what is the theological explanation for Eve's creation from Adam's rib?",
         "key_terms": {
-          "الْخُنْثَى": "a hermaphrodite or intersex person in the context of inheritance law",
-          "يُوَرِّثُ": "assigns or distributes inheritance",
-          "أَضْلَاعَهُ": "his ribs, used here as a criterion in the report",
-          "مِيرَاثَ الرَّجُلِ": "the inheritance share of a man",
-          "فَضْلَةِ الطِّينَةِ": "the remainder of the clay from which creation occurred",
-          "أَهْلِ التَّشْنِيعِ": "people of defamation or hostile criticism"
+          "الْخُنْثَى": "Hermaphrodite (a person with ambiguous sexual characteristics)",
+          "أَضْلَاع": "Ribs",
+          "ضِلْع": "Rib",
+          "حَوَّاء": "Eve",
+          "آدَم": "Adam",
+          "التَّشْنِيع": "Censure / Criticism",
+          "فَضْلَةِ الطِّينَةِ": "Surplus of the clay"
         }
       },
       "ur": {
-        "summary": "یہ روایت امام علی علیہ السلام کی ایک قانونی طریقہ کار بیان کرتی ہے جس کے ذریعے خنثیٰ کی وراثت کا تعین پسلیوں کی گنتی سے کیا جاتا ہے۔ مصنف نے وضاحت کی کہ حوا کو آدم کی پسلی سے نہیں بلکہ آدم کی مٹی کے باقیات سے پیدا کیا گیا تھا۔",
-        "seo_question": "یہ حدیث خنثیٰ کی وراثت اور حوا کی تخلیق کو کیسے بیان کرتی ہے؟",
-        "key_terms": {}
+        "summary": "امام علی (ع) ایک خنثی کی وراثت کا درجہ پسلیوں کی گنتی کے ذریعے مقرر کرتے ہیں، جس میں حوا کی تخلیق کے کلامی بیان سے قانونی درجہ بندی کو جوڑا گیا ہے۔ مصنف، شیخ صدوق، وضاحت کرتے ہیں کہ حوا آدم کی پسلیوں کے باقی ماندہ مٹی سے بنائی گئی تھی، نہ کہ مکمل ہونے کے بعد ایک پسلی نکال کر، جس سے یہ منطقی عجیبیت سے بچا گیا کہ آدم اپنی ہی پسلی سے شادی کرے یا اپنی ہی گوشت کھائے۔",
+        "seo_question": "امام علی (ع) کے مطابق خنثی کی وراثت کا تعین کیسے ہوتا ہے اور آدم کی پسلی سے حوا کی تخلیق کا کلامی بیان کیا ہے؟",
+        "key_terms": {
+          "الْخُنْثَى": "خنثی",
+          "أَضْلَاع": "پسلیاں",
+          "ضِلْع": "پسلی",
+          "حَوَّاء": "حوا",
+          "آدَم": "آدم",
+          "التَّشْنِيع": "تعریف",
+          "فَضْلَةِ الطِّينَةِ": "مٹی کا اضافہ"
+        }
       },
       "tr": {
-        "summary": "Bu rivayet, İmam ʿAlî عليه السلام'a atfedilen, khunthâ'nın miras payını kaburga sayısına göre belirleme yöntemini anlatır. Müellif, Havva'nın yaratılışının tamamlanmasından sonra kaburgasından değil, Âdem'in çamurunun artığından yaratıldığını açıklamıştır.",
-        "seo_question": "Bu hadis khunthâ'nın mirasını ve Havva'nın yaratılışını nasıl anlatır?",
-        "key_terms": {}
+        "summary": "İmam Ali (as), bir hermaphrodite (khuntha) miras statüsünü kaburga kemiklerini sayarak belirler ve hukuki sınıflandırmayı Havva'nın Adem'in sol kaburgasından yaratılmasına dair teolojik anlatıya bağlar. Yazar Şeyh el-Saduk, Havva'nın tamamlanmadan sonra bir kaburganın çıkarılmasıyla değil, Adem'in kaburgalarından kalan kilin artığından oluşturulduğunu açıklar; bu sayede Adem'in kendi uzuvuyla evlenmesi veya kendi etini yemesi gibi mantıksal absürtlükten kaçınılır.",
+        "seo_question": "İmam Ali'ye (as) göre bir hermaphrodite'nin mirası nasıl belirlenir ve Havva'nın Adem'in kaburgasından yaratılmasına dair teolojik açıklama nedir?",
+        "key_terms": {
+          "الْخُنْثَى": "hermafrodit",
+          "أَضْلَاع": "kaburga kemikleri",
+          "ضِلْع": "kaburga kemiği",
+          "حَوَّاء": "Havva",
+          "آدَم": "Adem",
+          "التَّشْنِيع": "Czensür / Eleştiri",
+          "فَضْلَةِ الطِّينَةِ": "kilin fazlası"
+        }
       },
       "fa": {
-        "summary": "این گزارش روشی قانونی منسوب به امام ʿعلی علیه السلام را برای تعیین سهم ارث خنثی با بررسی تعداد دنده‌ها توصیف می‌کند. نویسنده سپس توضیح خود را اضافه می‌کند و ایده خلق حوا از دنده واقعی آدم پس از تکمیل خلقت را رد می‌کند و می‌گوید که او از باقی‌مانده گل خلقت آدم خلق شده است.",
-        "seo_question": "این حدیث چگونه ارث خنثی و خلقت حوا را توصیف می‌کند؟",
-        "key_terms": {}
+        "summary": "امام علی (ع) وضعیت ارثیه خنثی را با شمارش دنده‌ها تعیین می‌کند و طبقه‌بندی حقوقی آن را به روایت کیهان‌شناختی خلقت حوا از دنده چپ آدم پیوند می‌زند. شیخ صدوق نویسنده توضیح می‌دهد که حوا از باقی‌مانده گِل دنده‌های آدم شکل گرفته است نه اینکه دنده‌ای پس از تکمیل جدا شده باشد، بدین ترتیب از پوچی منطقی ازدواج آدم با بخشی از بدن خود یا خوردن گوشت خود جلوگیری می‌شود.",
+        "seo_question": "ارثیه خنثی طبق نظر امام علی (ع) چگونه تعیین می‌شود و توضیح کیهان‌شناختی برای خلقت حوا از دنده آدم چیست؟",
+        "key_terms": {
+          "الْخُنْثَى": "خنثی",
+          "أَضْلَاع": "دنده‌ها",
+          "ضِلْع": "دنده",
+          "حَوَّاء": "حوا",
+          "آدَم": "آدم",
+          "التَّشْنِيع": "تشنیع",
+          "فَضْلَةِ الطِّينَةِ": "باقی‌مانده گِل"
+        }
       },
       "id": {
-        "summary": "Laporan ini menjelaskan metode hukum yang dikaitkan dengan Imam ʿAlī عليه السلام untuk menentukan bagian warisan khunthā dengan memeriksa jumlah tulang rusuk. Penyusun kemudian menambahkan klarifikasinya sendiri, menolak gagasan bahwa Hawwa diciptakan dari tulang rusuk Adam yang sebenarnya setelah penciptaannya selesai, dan menyatakan bahwa dia diciptakan dari sisa tanah liat penciptaan Adam.",
-        "seo_question": "Bagaimana hadits ini menjelaskan warisan untuk khunthā dan penciptaan Hawwa?",
-        "key_terms": {}
+        "summary": "Imam Ali (as) menetapkan status warisan bagi khuntha dengan menghitung tulang rusuk, menghubungkan klasifikasi hukum dengan narasi teologis penciptaan Hawa dari tulang rusuk kiri Adam. Penulis, Syekh al-Shaduq, menjelaskan bahwa Hawa dibentuk dari sisa tanah liat dari tulang rusuk Adam, bukan dari pengambilan tulang rusuk setelah Adam selesai diciptakan, sehingga menghindari keabsurdan logis Adam menikahi bagian tubuhnya sendiri atau memakan dagingnya sendiri.",
+        "seo_question": "Bagaimana warisan seorang khuntha ditentukan menurut Imam Ali (as) dan apa penjelasan teologis mengenai penciptaan Hawa dari tulang rusuk Adam?",
+        "key_terms": {
+          "الْخُنْثَى": "Hermaphrodit (seseorang dengan karakteristik seksual yang ambigu)",
+          "أَضْلَاع": "Tulang rusuk",
+          "ضِلْع": "Tulang rusuk",
+          "حَوَّاء": "Hawa",
+          "آدَم": "Adam",
+          "التَّشْنِيع": "Pujian/Kritik",
+          "فَضْلَةِ الطِّينَةِ": "Sisa tanah liat"
+        }
       },
       "bn": {
-        "summary": "এই প্রতিবেদনটি ইমাম ʿআলী عليه السلام এর একটি আইনি পদ্ধতি বর্ণনা করে যা খুন্থার উত্তরাধিকার ভাগ নির্ধারণের জন্য পাঁজরের সংখ্যা পরীক্ষা করে। রচয়িতা তার নিজস্ব ব্যাখ্যা যোগ করেছেন, যা প্রত্যাখ্যান করে যে হাওয়া আদমের পাঁজর থেকে সৃষ্টি হয়েছিল তার সৃষ্টির পর, বরং তিনি আদমের সৃষ্টির অবশিষ্ট মাটি থেকে সৃষ্টি হয়েছেন।",
-        "seo_question": "এই হাদিস খুন্থার উত্তরাধিকার এবং হাওয়ার সৃষ্টি কিভাবে বর্ণনা করে?",
-        "key_terms": {}
+        "summary": "ইমাম আলী (আ.) খুনথার উত্তরাধিকারিত্বের মর্যাদা নির্ধারণ করেন পশমি গণনা করে, যা হাওয়ার সৃষ্টির তাত্ত্বিক কাহিনীর সাথে যুক্ত করে। লেখক, শায়খ আল-সাদুক, স্পষ্ট করেন যে হাওয়া আদামের পশমির অবশিষ্ট মাটি থেকে গঠিত হয়েছিল, পূর্ণাঙ্গ হওয়ার পর একটি পশমি বের করে আনা নয়, যা যৌক্তিক অসঙ্গতি এড়ায় যে আদাম নিজের শরীরের অংশের সাথে বিবাহ করবেন বা নিজের মাংস খাবেন।",
+        "seo_question": "ইমাম আলী (আ.)-এর মতে খুনথার উত্তরাধিকার কীভাবে নির্ধারিত হয় এবং আদামের পশমি থেকে হাওয়ার সৃষ্টির তাত্ত্বিক ব্যাখ্যা কী?",
+        "key_terms": {
+          "الْخُنْثَى": "খুনথা",
+          "أَضْلَاع": "পশমি",
+          "ضِلْع": "পশমি",
+          "حَوَّاء": "হাওয়া",
+          "آدَم": "আদাম",
+          "التَّشْنِيع": "তশনী",
+          "فَضْلَةِ الطِّينَةِ": "মাটির অবশিষ্টাংশ"
+        }
       },
       "es": {
-        "summary": "Este informe describe un método legal atribuido al Imam ʿAlī عليه السلام para determinar la parte de herencia de un khunthā examinando el conteo de costillas. El compilador luego añade su propia aclaración, rechazando la idea de que Hawwa fue creada de una costilla real tomada de Adam después de que su creación se completara, y en cambio afirma que fue creada del barro sobrante de la creación de Adam.",
-        "seo_question": "¿Cómo describe este hadiz la herencia para un khunthā y la creación de Hawwa?",
-        "key_terms": {}
+        "summary": "El Imam Ali (as) establece el estatus hereditario de un hermafrodita (khuntha) contando las costillas, vinculando la clasificación legal con la narrativa teológica de la creación de Eva a partir de la costilla izquierda de Adán. El autor, Shaykh al-Saduq, aclara que Eva fue formada a partir del arcilla restante de las costillas de Adán en lugar de que se extrajera una costilla después de la completitud, evitando así la absurda lógica de que Adán se casara con su propia parte del cuerpo o comiera su propia carne.",
+        "seo_question": "¿Cómo se determina la herencia de un hermafrodita según el Imam Ali (as) y cuál es la explicación teológica para la creación de Eva a partir de la costilla de Adán?",
+        "key_terms": {
+          "الْخُنْثَى": "Hermáfrodita (una persona con características sexuales ambiguas)",
+          "أَضْلَاع": "Costillas",
+          "ضِلْع": "Costilla",
+          "حَوَّاء": "Eva",
+          "آدَم": "Adán",
+          "التَّشْنِيع": "Censura / Crítica",
+          "فَضْلَةِ الطِّينَةِ": "Excedente del barro"
+        }
       },
       "fr": {
-        "summary": "Ce rapport décrit une méthode légale attribuée à l’Imam ʿAlī عليه السلام pour déterminer la part d’héritage d’un khunthā en examinant le nombre de côtes. Le compilateur ajoute ensuite sa propre clarification, rejetant l’idée que Hawwa ait été créée à partir d’une côte réelle prise d’Adam après l’achèvement de sa création, et affirmant plutôt qu’elle a été créée à partir de l’argile restante de la création d’Adam.",
-        "seo_question": "Comment ce hadith décrit-il l’héritage pour un khunthā et la création de Hawwa ?",
-        "key_terms": {}
+        "summary": "L’imam Ali (as) établit le statut successoral d’un hermaphrodite (khuntha) en comptant les côtes, reliant la classification juridique au récit théologique de la création d’Ève à partir de la côte gauche d’Adam. L’auteur, cheikh al-Sadouq, précise qu’Ève a été formée à partir de l’argile restante des côtes d’Adam plutôt qu’une côte n’ait été extraite après l’achèvement, évitant ainsi l’absurdité logique qu’Adam épouse sa propre partie du corps ou mange sa propre chair.",
+        "seo_question": "Comment la succession d’un hermaphrodite est-elle déterminée selon l’imam Ali (as) et quelle est l’explication théologique de la création d’Ève à partir de la côte d’Adam ?",
+        "key_terms": {
+          "الْخُنْثَى": "Hermaphrodite (une personne aux caractères sexuels ambigus)",
+          "أَضْلَاع": "Côtes",
+          "ضِلْع": "Côte",
+          "حَوَّاء": "Ève",
+          "آدَم": "Adam",
+          "التَّشْنِيع": "Censure / Critique",
+          "فَضْلَةِ الطِّينَةِ": "Surplus de l’argile"
+        }
       },
       "de": {
-        "summary": "Dieser Bericht beschreibt eine rechtliche Methode, die dem Imam ʿAlī عليه السلام zugeschrieben wird, um den Erbanteil eines Khunthā durch Zählen der Rippen zu bestimmen. Der Verfasser fügt dann seine eigene Klarstellung hinzu und lehnt die Vorstellung ab, dass Hawwa aus einer tatsächlichen Rippe Adams nach dessen vollendeter Schöpfung geschaffen wurde, und erklärt stattdessen, dass sie aus dem übrigen Ton von Adams Schöpfung erschaffen wurde.",
-        "seo_question": "Wie beschreibt dieser Hadith die Erbschaft für einen Khunthā und die Schöpfung von Hawwa?",
-        "key_terms": {}
+        "summary": "Imam Ali (as) bestimmt den Erbe-Status eines Hermaphroditen (Khuntha) durch das Zählen der Rippen und verknüpft die rechtliche Klassifizierung mit der theologischen Erzählung von der Erschaffung Evas aus Adams linker Rippe. Der Autor, Schekh al-Saduq, klärt auf, dass Eva aus dem restlichen Ton von Adams Rippen geformt wurde, anstatt dass eine Rippe nach der Vollendung extrahiert wurde, wodurch die logische Absurdität vermieden wird, dass Adam seinen eigenen Körperteil heiratet oder sein eigenes Fleisch isst.",
+        "seo_question": "Wie wird das Erbe eines Hermaphroditen nach Imam Ali (as) bestimmt und was ist die theologische Erklärung für Evas Erschaffung aus Adams Rippe?",
+        "key_terms": {
+          "الْخُنْثَى": "Hermaphrodit (eine Person mit unklaren geschlechtlichen Merkmalen)",
+          "أَضْلَاع": "Rippen",
+          "ضِلْع": "Rippe",
+          "حَوَّاء": "Eva",
+          "آدَم": "Adam",
+          "التَّشْنِيع": "Tadel / Kritik",
+          "فَضْلَةِ الطِّينَةِ": "Überschuss des Tons"
+        }
       },
       "ru": {
-        "summary": "Этот отчет описывает юридический метод, приписываемый Имаму ʿАли عليه السلام, для определения доли наследства хунтха путем подсчета ребер. Составитель затем добавляет свое разъяснение, отвергая идею, что Хавва была создана из настоящего ребра, взятого у Адама после завершения его создания, и утверждает, что она была создана из остатков глины создания Адама.",
-        "seo_question": "Как этот хадис описывает наследство для хунтха и создание Хаввы?",
-        "key_terms": {}
+        "summary": "Имам Али (ас) устанавливает статус наследования гермафродита (хунта) путем подсчета ребер, связывая правовую классификацию с теологическим повествованием о создании Евы из левого ребра Адама. Автор, шейх ас-Садуq, уточняет, что Ева была создана из оставшейся глины ребер Адама, а не путем извлечения ребра после завершения создания, тем самым избегая логического абсурда женитьбы Адама на собственной части тела или поедания собственного мяса.",
+        "seo_question": "Как определяется наследование гермафродита согласно Имаму Али (ас) и каково теологическое объяснение создания Евы из ребра Адама?",
+        "key_terms": {
+          "الْخُنْثَى": "гермафродит",
+          "أَضْلَاع": "ребра",
+          "ضِلْع": "ребро",
+          "حَوَّاء": "Ева",
+          "آدَم": "Адам",
+          "التَّشْنِيع": "порицание",
+          "فَضْلَةِ الطِّينَةِ": "излишек глины"
+        }
       },
       "zh": {
-        "summary": "本报告描述了一种归因于伊玛目ʿ阿里 عليه السلام的法律方法，通过检查肋骨数量来确定khunthā的继承份额。编者随后补充了自己的澄清，否定了夏娃是从亚当创造完成后取出的真实肋骨创造的观点，而是说明她是从亚当创造剩余的泥土中创造的。",
-        "seo_question": "这则圣训如何描述khunthā的继承和夏娃的创造？",
-        "key_terms": {}
+        "summary": "伊玛目阿里（愿主喜悦之）通过数肋骨来确定间性人（khuntha）的继承地位，将法律分类与夏娃由亚当左肋创造的神学叙事联系起来。作者谢赫·萨杜克澄清，夏娃是由亚当肋骨剩余的泥土形成的，而不是在完成之后提取肋骨，从而避免了亚当娶自己身体部分或吃自己肉身的逻辑荒谬。",
+        "seo_question": "根据伊玛目阿里（愿主喜悦之），间性人的继承权如何确定？夏娃由亚当肋骨创造的神学解释是什么？",
+        "key_terms": {
+          "الْخُنْثَى": "间性人",
+          "أَضْلَاع": "肋骨",
+          "ضِلْع": "肋骨",
+          "حَوَّاء": "夏娃",
+          "آدَم": "亚当",
+          "التَّشْنِيع": "谴责/批评",
+          "فَضْلَةِ الطِّينَةِ": "泥土的剩余部分"
+        }
       }
     },
     "related_quran": [
       {
-        "ref": "4:11",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "4:12",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "4:176",
-        "relationship": "thematic"
-      },
-      {
         "ref": "7:189",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:6",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "وَ رَوَى السَّكُونِيُّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ : «أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ كَانَ يُوَرِّثُ الْخُنْثَى فَيَعُدُّ أَضْلَاعَهُ فَإِنْ كَانَتْ أَضْلَاعُهُ نَاقِصَةً مِنْ أَضْلَاعِ النِّسَاءِ بِضِلْعٍ وَرَّثَ مِيرَاثَ الرَّجُلِ لِأَنَّ الرَّجُلَ تَنْقُصُ أَضْلَاعُهُ، عَنْ ضِلْعِ النِّسَاءِ بِضِلْعٍ لِأَنَّ حَوَّاءَ خُلِقَتْ مِنْ ضِلْعِ آدَمَ عَلَيْهِ السَّلَامُ الْقُصْوَى الْيُسْرَى فَنَقَصَ مِنْ أَضْلَاعِهِ ضِلْعٌ وَاحِدٌ». قَالَ مُصَنِّفُ هَذَا الْكِتَابِ رَحِمَهُ اللَّهُ إِنَّ حَوَّاءَ خُلِقَتْ مِنْ فَضْلَةِ الطِّينَةِ الَّتِي خُلِقَ مِنْهَا آدَمُ ع‌ وَ كَانَتْ تِلْكَ الطِّينَةُ مُبْقَاةً مِنْ طِينَةِ أَضْلَاعِهِ لَا أَنَّهَا خُلِقَتْ مِنْ ضِلْعِهِ بَعْدَ مَا أُكْمِلَ خَلْقُهُ فَأُخِذَ ضِلْعٌ مِنْ أَضْلَاعِهِ الْيُسْرَى فَخُلِقَتْ مِنْهَا وَ لَوْ كَانَ كَمَا يَقُولُ الْجُهَّالُ لَكَانَ لِمُتَكَلِّمٍ مِنْ أَهْلِ التَّشْنِيعِ طَرِيقٌ إِلَى أَنْ يَقُولَ إِنَّ آدَمَ كَانَ يَنْكِحُ بَعْضُهُ بَعْضاً وَ هَكَذَا خَلَقَ اللَّهُ عَزَّ وَ جَلَّ النَّخْلَةَ مِنْ فَضْلَةِ طِينَةِ آدَمَ ع وَ كَذَلِكَ الْحَمَامُ فَلَوْ كَانَ ذَلِكَ كُلُّهُ مَأْخُوذاً مِنْ جَسَدِهِ بَعْدَ إِكْمَالِ خَلْقِهِ لَمَا جَازَ أَنْ يَنْكِحَ حَوَّاءَ فَيَكُونَ قَدْ نَكَحَ بَعْضُهُ بَعْضاً وَ لَا جَازَ لَهُ أَنْ يَأْكُلَ التَّمْرَ لِأَنَّهُ كَانَ يَكُونُ قَدْ أَكَلَ بَعْضَهُ وَ كَذَلِكَ الْحَمَامُ.",
+    "diacritized_text": "وَرَوَى اَلسَّكُونِيُّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ كَانَ يُوَرِّثُ الْخُنْثَى فَيَعُدُّ أَضْلَاعَهُ فَإِنْ كَانَتْ أَضْلَاعُهُ نَاقِصَةً مِنْ أَضْلَاعِ النِّسَاءِ بِضِلْعٍ وَرَّثَ مِيرَاثَ الرَّجُلِ لِأَنَّ الرَّجُلَ تَنْقُصُ أَضْلَاعُهُ عَنْ ضِلْعِ النِّسَاءِ بِضِلْعٍ لِأَنَّ حَوَّاءَ خُلِقَتْ مِنْ ضِلْعِ آدَمَ عَلَيْهِ السَّلَامُ الْقُصْوَى الْيُسْرَى فَنَقَصَ مِنْ أَضْلَاعِهِ ضِلْعٌ وَاحِدٌ قَالَ مُصِفُّ هَذَا الْكِتَابِ رَحِمَهُ اللَّهُ إِنَّ حَوَّاءَ خُلِقَتْ مِنْ فَضْلَةِ الطِّينَةِ الَّتِي خُلِقَ مِنْهَا آدَمُ عَلَيْهِ السَّلَامُ وَكَانَتْ تِلْكَ الطِّينَةُ مُبْقَاةً مِنْ طِينَةِ أَضْلَاعِهِ لَا أَنَّهَا خُلِقَتْ مِنْ ضِلْعِهِ بَعْدَ مَا أُكْمِلَ خَلْقُهُ فَأُخِذَ ضِلْعٌ مِنْ أَضْلَاعِهِ الْيُسْرَى فَخُلِقَتْ مِنْهَا وَلَوْ كَانَ كَمَا يَقُولُ الْجُهَّالُ لَكَانُ لَكَانَ لِمُتَكَلِّمٍ مِنْ أَهْلِ التَّشْنِيعِ طَرِيقٌ إِلَى أَنْ يَقُولَ إِنَّ آدَمَ كَانَ يَنْكِحُ بَعْضُهُ بَعْضاً وَهَكَذَا خَلَقَ اللَّهُ عَزَّ وَجَلَّ النَّخْلَةَ مِنْ فَضْلَةِ طِينَةِ آدَمَ عَلَيْهِ السَّلَامُ وَكَذَلِكَ الْحَمَامُ فَلَوْ كَانَ ذَلِكَ كُلُّهُ مَأْخُوذاً مِنْ جَسَدِهِ بَعْدَ إِكْمَالِ خَلْقِهِ لَمَا جَازَ أَنْ يَنْكِحَ حَوَّاءَ فَيَكُونَ قَدْ نَكَحَ بَعْضُهُ بَعْضاً وَلَا جَازَ لَهُ أَنْ يَأْكُلَ التَّمْرَ لِأَنَّهُ كَانَ يَكُونُ قَدْ أَكَلَ بَعْضَهُ وَكَذَلِكَ الْحَمَامُ",
     "isnad_matn": {
-      "isnad_ar": "وَ رَوَى السَّكُونِيُّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ :",
-      "matn_ar": "«أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ كَانَ يُوَرِّثُ الْخُنْثَى فَيَعُدُّ أَضْلَاعَهُ فَإِنْ كَانَتْ أَضْلَاعُهُ نَاقِصَةً مِنْ أَضْلَاعِ النِّسَاءِ بِضِلْعٍ وَرَّثَ مِيرَاثَ الرَّجُلِ لِأَنَّ الرَّجُلَ تَنْقُصُ أَضْلَاعُهُ، عَنْ ضِلْعِ النِّسَاءِ بِضِلْعٍ لِأَنَّ حَوَّاءَ خُلِقَتْ مِنْ ضِلْعِ آدَمَ عَلَيْهِ السَّلَامُ الْقُصْوَى الْيُسْرَى فَنَقَصَ مِنْ أَضْلَاعِهِ ضِلْعٌ وَاحِدٌ». قَالَ مُصَنِّفُ هَذَا الْكِتَابِ رَحِمَهُ اللَّهُ إِنَّ حَوَّاءَ خُلِقَتْ مِنْ فَضْلَةِ الطِّينَةِ الَّتِي خُلِقَ مِنْهَا آدَمُ ع‌ وَ كَانَتْ تِلْكَ الطِّينَةُ مُبْقَاةً مِنْ طِينَةِ أَضْلَاعِهِ لَا أَنَّهَا خُلِقَتْ مِنْ ضِلْعِهِ بَعْدَ مَا أُكْمِلَ خَلْقُهُ فَأُخِذَ ضِلْعٌ مِنْ أَضْلَاعِهِ الْيُسْرَى فَخُلِقَتْ مِنْهَا وَ لَوْ كَانَ كَمَا يَقُولُ الْجُهَّالُ لَكَانَ لِمُتَكَلِّمٍ مِنْ أَهْلِ التَّشْنِيعِ طَرِيقٌ إِلَى أَنْ يَقُولَ إِنَّ آدَمَ كَانَ يَنْكِحُ بَعْضُهُ بَعْضاً وَ هَكَذَا خَلَقَ اللَّهُ عَزَّ وَ جَلَّ النَّخْلَةَ مِنْ فَضْلَةِ طِينَةِ آدَمَ ع وَ كَذَلِكَ الْحَمَامُ فَلَوْ كَانَ ذَلِكَ كُلُّهُ مَأْخُوذاً مِنْ جَسَدِهِ بَعْدَ إِكْمَالِ خَلْقِهِ لَمَا جَازَ أَنْ يَنْكِحَ حَوَّاءَ فَيَكُونَ قَدْ نَكَحَ بَعْضُهُ بَعْضاً وَ لَا جَازَ لَهُ أَنْ يَأْكُلَ التَّمْرَ لِأَنَّهُ كَانَ يَكُونُ قَدْ أَكَلَ بَعْضَهُ وَ كَذَلِكَ الْحَمَامُ.",
+      "isnad_ar": "وَرَوَى اَلسَّكُونِيُّ عَنْ جَعْفَرِ بْنِ مُحَمَّدٍ عَنْ أَبِيهِ عَلَيْهِ السَّلَامُ",
+      "matn_ar": "أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ كَانَ يُوَرِّثُ الْخُنْثَى فَيَعُدُّ أَضْلَاعَهُ فَإِنْ كَانَتْ أَضْلَاعُهُ نَاقِصَةً مِنْ أَضْلَاعِ النِّسَاءِ بِضِلْعٍ وَرَّثَ مِيرَاثَ الرَّجُلِ لِأَنَّ الرَّجُلَ تَنْقُصُ أَضْلَاعُهُ عَنْ ضِلْعِ النِّسَاءِ بِضِلْعٍ لِأَنَّ حَوَّاءَ خُلِقَتْ مِنْ ضِلْعِ آدَمَ عَلَيْهِ السَّلَامُ الْقُصْوَى الْيُسْرَى فَنَقَصَ مِنْ أَضْلَاعِهِ ضِلْعٌ وَاحِدٌ قَالَ مُصِفُّ هَذَا الْكِتَابِ رَحِمَهُ اللَّهُ إِنَّ حَوَّاءَ خُلِقَتْ مِنْ فَضْلَةِ الطِّينَةِ الَّتِي خُلِقَ مِنْهَا آدَمُ عَلَيْهِ السَّلَامُ وَكَانَتْ تِلْكَ الطِّينَةُ مُبْقَاةً مِنْ طِينَةِ أَضْلَاعِهِ لَا أَنَّهَا خُلِقَتْ مِنْ ضِلْعِهِ بَعْدَ مَا أُكْمِلَ خَلْقُهُ فَأُخِذَ ضِلْعٌ مِنْ أَضْلَاعِهِ الْيُسْرَى فَخُلِقَتْ مِنْهَا وَلَوْ كَانَ كَمَا يَقُولُ الْجُهَّالُ لَكَانُ لَكَانَ لِمُتَكَلِّمٍ مِنْ أَهْلِ التَّشْنِيعِ طَرِيقٌ إِلَى أَنْ يَقُولَ إِنَّ آدَمَ كَانَ يَنْكِحُ بَعْضُهُ بَعْضاً وَهَكَذَا خَلَقَ اللَّهُ عَزَّ وَجَلَّ النَّخْلَةَ مِنْ فَضْلَةِ طِينَةِ آدَمَ عَلَيْهِ السَّلَامُ وَكَذَلِكَ الْحَمَامُ فَلَوْ كَانَ ذَلِكَ كُلُّهُ مَأْخُوذاً مِنْ جَسَدِهِ بَعْدَ إِكْمَالِ خَلْقِهِ لَمَا جَازَ أَنْ يَنْكِحَ حَوَّاءَ فَيَكُونَ قَدْ نَكَحَ بَعْضُهُ بَعْضاً وَلَا جَازَ لَهُ أَنْ يَأْكُلَ التَّمْرَ لِأَنَّهُ كَانَ يَكُونُ قَدْ أَكَلَ بَعْضَهُ وَكَذَلِكَ الْحَمَامُ",
       "has_chain": true,
       "narrators": [
         {
@@ -193,7 +284,7 @@
         },
         {
           "name_ar": "أَبِيهِ عَلَيْهِ اَلسَّلاَمُ : \"أَنَّ عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ اَلسَّلاَمُ كَانَ يُوَرِّثُ اَلْخُنْثَى فَي",
-          "name_en": "",
+          "name_en": "Abihi al-Salam: 'Anna 'Ali b. Abi Talib al-Salam kana yuwarrith al-Khuntha fa-",
           "role": "narrator",
           "position": 3,
           "identity_confidence": "ambiguous",
@@ -213,6 +304,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

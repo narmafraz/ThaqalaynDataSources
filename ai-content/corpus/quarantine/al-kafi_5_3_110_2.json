@@ -1,0 +1,264 @@
+{
+  "verse_path": "/books/al-kafi:5:3:110:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] type='closing' starts with chain transmission verb 'روي' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "inheritance"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ أَبِي الْحَسَنِ الرِّضَا ( عليه السلام ) قَالَ",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from his father, from Ahmad ibn Muhammad ibn Abi Nasr, from Abu Al-Hasan Al-Rida (peace be upon him), who said:",
+          "ur": "علی بن ابراہیم، ان کے والد سے، احمد بن محمد بن ابی نصر سے، ابوالحسن الرضا (علیہ السلام) سے روایت ہے کہ انہوں نے فرمایا:",
+          "tr": "Ali b. İbrahim, babasından, Ahmed b. Muhammed b. Ebi Nasr'dan, Ebu'l-Hasen er-Rıza (aleyhisselam)'dan rivayetle şöyle dedi:",
+          "fa": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ أَبِي الْحَسَنِ الرِّضَا ( عليه السلام ) قَالَ",
+          "id": "Ali binar",
+          "bn": "আলী ইবনে ইবরাহীম, তাঁর পিতার মাধ্যমে, আহমদ ইবনে মুহাম্মদ ইবনে আবি নাসের, আবুল হাসান আল-রিদা (আলাইহিস সালাম)-এর মাধ্যমে, যিনি বলেছেন:",
+          "es": "Ali ibn Ibrahim, de la traducción: ",
+          "fr": "Ali ibn Ibrahim, de son père, d'après son père, d'après Ahmad ibn Muhammad ibn Abi Nasr, d'après Abu Al-Hasan Al-Rida (que la paix soit sur lui), qui a dit :",
+          "de": "Ali ibn Ibrahim, von seinem Vater, von Ahmad ibn Muhammad ibn Abi Nasr, von Abu Al-Hasan Al-Rida (Friede sei mit ihm), der sagte:",
+          "ru": "Али ибн Ибрахим, от его отца, от Ахмада ибн Мухаммада ибн Аби Наср, от Абу аль-Хасана ар-Рида (да будет мир с ним), который сказал:",
+          "zh": "阿里·本·易卜拉欣，从他父亲，从艾哈迈德·本·穆罕默德·本·艾比·纳斯尔，从艾布·哈桑·里达（愿主安宁之）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 21
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "تَزْوِيجُ الْمُتْعَةِ نِكَاحٌ بِمِيرَاثٍ وَ نِكَاحٌ بِغَيْرِ مِيرَاثٍ فَإِنِ اشْتَرَطَتْ كَانَ وَ إِنْ لَمْ تَشْتَرِطْ لَمْ يَكُنْ .",
+        "translations": {
+          "en": "The marriage of Mut'ah is a marriage with inheritance and a marriage without inheritance. So if it was stipulated, it is (inheritance), and if it was not stipulated, it is not (inheritance).",
+          "ur": "متعہ کی شادی وراثت والی شادی اور وراثت سے خالی شادی ہے۔ لہذا اگر شرط لگائی گئی تو یہ (وراثتہ والی) ہے، اور اگر شرط نہ لگائی گئی تو یہ (وراثت سے خالی) ہے۔",
+          "tr": "Mut'ah nikahı, miraslı bir nikah ve miraslı olmayan bir nikahdır. Eğer şart koşulmuşsa, miraslıdır; şart koşulmamışsa, miraslı değildir.",
+          "fa": "ازدواج متعه ازدگاهی با ارث و ازدواج بدون ارث است. پس اگر شرط شده باشد، دارای ارث است و اگر شرط نشده باشد، دارای ارث نیست.",
+          "id": "Nikah Mut'ah adalah nikah yang memiliki hak waris dan nikah yang tidak memiliki hak waris. Maka, jika disyaratkan, maka (ia) memiliki hak waris, dan jika tidak disyaratkan, maka (ia) tidak memiliki hak waris.",
+          "bn": "মুতা'র বিবাহ হলো উত্তরাধিকারসূত্রে সম্পত্তি পাওয়ার বিবাহ এবং উত্তরাধিকারসূত্রে সম্পত্তি না পাওয়ার বিবাহ। সুতরাং যদি শর্ত করা হয়, তবে তা উত্তরাধিকারসূত্রে সম্পত্তি পাওয়ার (বিবাহ), এবং যদি শর্ত না করা হয়, তবে তা উত্তরাধিকারসূত্রে সম্পত্তি না পাওয়ার (বিবাহ)।",
+          "es": "El matrimonio de Mut'ah es un matrimonio con herencia y unencia y un matrimonio sin herencia. Por lo tanto, si se estipuló, es (con herencia), y si no se estipuló, no es (con herencia).",
+          "fr": "Le mariage de Mut' d'al-Mout'ah est un mariage avec héritage et un mariage sans héritage. Donc, s'il a été stipulé, il y a héritage, et s'il n'a pas été stipulé, il n'y a pas héritage.",
+          "de": "Die Mutʿa-Ehe ist eine Ehe mit Erbe und eine Ehe ohne Erbe. Wenn es bedingt wurde, ist sie (mit Erbe), und wenn es nicht bedingt wurde, ist sie nicht (mit Erbe).",
+          "ru": "Брак по муте является браком с наследованием и браком без наследования. Если это было обусловлено, то (наследование имеет место), а если не было обусловлено, то (наследование не имеет места).",
+          "zh": "穆阿特婚姻是带有继承权的婚姻，也是不带继承权的婚姻。如果约定了，则属于（有继承权）；如果没有约定，则不属于（有继承权）。"
+        },
+        "word_start": 21,
+        "word_end": 39
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَرُوِيَ أَيْضاً لَيْسَ بَيْنَهُمَا مِيرَاثٌ اشْتُرِطَ أَوْ لَمْ يُشْتَرَطْ .",
+        "translations": {
+          "en": "And it is also reported: 'There is no inheritance between them, whether it was stipulated or not stipulated.'",
+          "ur": "اور یہ بھی روایت ہے: ''ان کے درمیان وراثت نہیں ہے، چاہے یہ شرط کی گئی ہو یا نہ کی گئی ہو۔''",
+          "tr": "Veya vasiyet edilmiş olsun ya da olmasın, aralarında miras yoktur.",
+          "fa": "و همچنین روایت شده است: «بین آن‌ها ارث نیست، چه شرط شده باشد و چه شرط نشده باشد.»",
+          "id": "Dan juga diriwayatkan: 'Tidak ada warisan di antara mereka, baik telah disyaratkan maupun tidak disyaratkan.'",
+          "bn": "এবং এটিও বর্ণিত হয়েছে: 'তাদের মধ্যে উত্তরাধিকার নেই, চুক্তি করা হোক বা না করা হোক।'",
+          "es": "Y también se ha transmitido: «No hay herencia entre ellos, ya se haya estipulado o no se haya estipulado.»",
+          "fr": "Et il est également rapporté : « Il n'y n'a pas d'héritage entre eux, que cela ait été stipulé ou non stipulé.»",
+          "de": "Und es wird auch berichtet: 'Es gibt kein Erbe zwischen ihnen, ob es vereinbart wurde oder nicht vereinbart wurde.'",
+          "ru": "Также сообщается: «Между ними нет наследования, независимо от того, было ли это обусловлено или нет».",
+          "zh": "又传：\"他们之间没有继承，无论是否约定。\""
+        },
+        "word_start": 39,
+        "word_end": 49
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from Imam al-Rida (AS) highlights the juristic debate regarding inheritance in Mut'ah, contrasting the view that it requires explicit stipulation with the opposing view that it is inherently excluded. This reflects the broader Shia scholarly discourse on whether the temporary nature of the contract precludes permanent rights like inheritance unless specified. The narration underscores the flexibility of Mut'ah contracts while acknowledging divergent interpretations within the school of thought.",
+        "seo_question": "Does inheritance apply to temporary marriage (Mut'ah) in Shia jurisprudence?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "Marriage of Mut'ah (temporary marriage)",
+          "نِكَاحٌ": "Marriage",
+          "مِيرَاثٌ": "Inheritance",
+          "اشْتَرَطَتْ": "It was stipulated"
+        }
+      },
+      "ur": {
+        "summary": "امام رضا علیہ السلام کی اس حدیث میں متعہ میں وراثت کے بارے میں فقہی بحث کو اجاگر کیا گیا ہے، جس میں وہ رائے پیش کی گئی ہے کہ اس کے لیے صراحتی شرط کی ضرورت ہے، جبکہ دوسری رائے کے مطابق یہ فطری طور پر خارج ہے۔ یہ شیعہ علما کے اس وسیع تر بحث کی عکاسی کرتا ہے کہ کیا عارضی نوعیت کا عقد دائمی حقوق جیسے وراثت کو خارج کرتا ہے جب تک کہ اس کی صراحت نہ کی گئی ہو۔ یہ روایت متعہ کے عقود کی لچک کو اجاگر کرتی ہے اور ساتھ ہی مسلک کے اندر مختلف تفسیروں کو بھی تسلیم کرتی ہے۔",
+        "seo_question": "کیا شیعہ فقہ میں عارضی شادی (متعہ) میں وراثت لاگو ہوتی ہے؟",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "متعہ کی شادی",
+          "نِكَاحٌ": "شادی",
+          "مِيرَاثٌ": "وراثت",
+          "اشْتَرَطَتْ": "شرط کی گئی"
+        }
+      },
+      "tr": {
+        "summary": "İmam er-Rıza'nın (AS) hadisi, Mut'ah'ta miras konusundaki fıkıhi tartışmayı vurgular; mirasın açık bir şartla gerçekleştiği görüşü ile bunun içsel olarak hariç tutulduğu karşıt görüşü karşılaştırır. Bu durum, geçici sözleşmenin miras gibi kalıcı hakları, belirtilmedikçe önlediği yönündeki Şii alimler arasındaki daha geniş tartışmayı yansıtır. Rivayet, Mut'ah sözleşmelerinin esnekliğini vurgularken, mezhep içindeki farklı yorumlara da yer verir.",
+        "seo_question": "Şii fıkhında geçici evlilik (Mut'ah) miras hakkı doğurur mu?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "Mut'ah evliliği (geçici evlilik)",
+          "نِكَاحٌ": "Evlilik",
+          "مِيرَاثٌ": "Miras",
+          "اشْتَرَطَتْ": "Şart koşuldu"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از امام رضا (ع) به بحث فقهی درباره ارث در متعه می‌پردازد و دیدگاه نیازمند تصریح صریح را در مقابل دیدگاه استبعاد ذاتی قرار می‌دهد. این موضوع بازتاب‌دهنده گفتمان گسترده‌تر علمای شیعه درباره این است که آیا موقت بودن عقد، حقوق دائمی مانند ارث را مگر با ذکر صریح، ساقط می‌کند یا خیر. این روایت انعطاف‌پذیری عقود متعه را تأکید کرده و تفسیرهای متفاوت درون مکتب را نیز می‌پذیرد.",
+        "seo_question": "آیا ارث در فقه شیعه به ازدواج موقت (متعه) تعلق می‌گیرد؟",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "ازدواج متعه",
+          "نِكَاحٌ": "ازدواج",
+          "مِيرَاثٌ": "ارث",
+          "اشْتَرَطَتْ": "شرط شد"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari Imam al-Rida (AS) ini menyoroti perdebatan fikih mengenai waris dalam Mut'ah, yang mempertentangkan pandangan bahwa hal tersebut memerlukan stipulasi eksplisit dengan pandangan berlawanan bahwa hal tersebut secara inheren dikecualikan. Ini mencerminkan wacana ulama Syiah yang lebih luas mengenai apakah sifat sementara dari kontrak menghalangi hak permanen seperti waris kecuali jika ditentukan. Riwayat ini menekankan fleksibilitas kontrak Mut'ah sambil mengakui interpretasi yang berbeda-beda dalam mazhab pemikiran.",
+        "seo_question": "Apakah waris berlaku untuk pernikahan sementara (Mut'ah) dalam fikih Syiah?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "Pernikahan Mut'ah (pernikahan sementara)",
+          "نِكَاحٌ": "Pernikahan",
+          "مِيرَاثٌ": "Waris",
+          "اشْتَرَطَتْ": "Hal tersebut disyaratkan"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আল-রিদা (আস) থেকে বর্ণিত এই হাদিসে মুত'হ-এর উত্তরাধিকার বিষয়ে ফিকহী বিতর্ক তুলে ধরে, যেখানে এক মত হলো এটি স্পষ্ট শর্তের উপর নির্ভরশীল, অন্যদিকে বিপরীত মত হলো এটি স্বতঃসিদ্ধভাবে বর্জিত। এটি শিয়া বিদ্বানদের মধ্যে এই প্রশ্নের উপর বিস্তৃত আলোচনাকে প্রতিফলিত করে যে, চুক্তির সাময়িক প্রকৃতি উত্তরাধিকারের মতো স্থায়ী অধিকারকে বাদ দেয় কিনা যদি না তা নির্দিষ্ট করা হয়। এই বর্ণনা মুত'হ চুক্তির নমনীয়তা তুলে ধরে এবং মাদরাসার মধ্যে বিভিন্ন ব্যাখ্যা স্বীকার করে।",
+        "seo_question": "শিয়া ফিকহে সাময়িক বিবাহ (মুত'হ)-এ উত্তরাধিকার প্রযোজ্য হয়?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "মুত'হ বিবাহ (সাময়িক বিবাহ)",
+          "نِكَاحٌ": "বিবাহ",
+          "مِيرَاثٌ": "উত্তরাধিকার",
+          "اشْتَرَطَتْ": "শর্ত করা হয়েছিল"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz del Imam al-Rida (AS) destaca el debate jurístico sobre la herencia en la Mut'ah, contrastando la opinión de que requiere una estipulación explícita con la opinión opuesta de que está inherentemente excluida. Esto refleja el discurso académico chií más amplio sobre si la naturaleza temporal del contrato excluye derechos permanentes como la herencia a menos que se especifique. La narración subraya la flexibilidad de los contratos de Mut'ah mientras reconoce interpretaciones divergentes dentro de la escuela de pensamiento.",
+        "seo_question": "¿Se aplica la herencia al matrimonio temporal (Mut'ah) en la jurisprudencia chií?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "Matrimonio de Mut'ah (matrimonio temporal)",
+          "نِكَاحٌ": "Matrimonio",
+          "مِيرَاثٌ": "Herencia",
+          "اشْتَرَطَتْ": "Se estipuló"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith d'Imam al-Rida (AS) met en lumière le débat jurisprudentiel concernant l'héritage dans le Mut'ah, opposant l'avis qui exige une stipulation expresse à l'opinion contraire qui le considère comme intrinsèquement exclu. Cela reflète le discours savant chiite plus large sur la question de savoir si la nature temporaire du contrat exclut les droits permanents comme l'héritage, à moins qu'ils ne soient spécifiés. La narration souligne la flexibilité des contrats de Mut'ah tout en reconnaissant les interprétations divergentes au sein de l'école de pensée.",
+        "seo_question": "L'héritage s'applique-t-il au mariage temporaire (Mut'ah) dans la jurisprudence chiite ?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "Mariage de Mut'ah (mariage temporaire)",
+          "نِكَاحٌ": "Mariage",
+          "مِيرَاثٌ": "Héritage",
+          "اشْتَرَطَتْ": "Il a été stipulé"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith von Imam al-Rida (AS) hebt die juristische Debatte über das Erbe in der Mut'ah hervor und stellt die Ansicht, dass eine ausdrückliche Bedingung erforderlich ist, der gegenteiligen Ansicht gegenüber, dass es von Natur aus ausgeschlossen ist. Dies spiegelt die breitere schiitische Gelehrsamkeit wider, die sich damit befasst, ob die temporäre Natur des Vertrags dauerhafte Rechte wie das Erbe ausschließt, es sei denn, sie sind spezifiziert. Die Überlieferung unterstreicht die Flexibilität der Mut'ah-Verträge und erkennt gleichzeitig unterschiedliche Interpretationen innerhalb der Denkschule an.",
+        "seo_question": "Gilt das Erbe für die temporäre Ehe (Mut'ah) in der schiitischen Jurisprudenz?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "Ehe der Mut'ah (temporäre Ehe)",
+          "نِكَاحٌ": "Ehe",
+          "مِيرَاثٌ": "Erbe",
+          "اشْتَرَطَتْ": "Es wurde bedingt"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис от имама ар-Риды (да будет с ним мир) подчеркивает юридическую дискуссию относительно наследования в мут'е, противопоставляя точку зрения, требующую явного условия, с противоположной точкой зрения, согласно которой наследование по умолчанию исключено. Это отражает более широкий дискурс шиитских ученых о том, препятствует ли временный характер контракта приобретению постоянных прав, таких как наследование, если это не указано особо. Предание подчеркивает гибкость контрактов мут'ы, признавая при этом расходящиеся толкования внутри школы мысли.",
+        "seo_question": "Применяется ли наследование к временному браку (мут'е) в шиитском фикхе?",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "Брак мут'а (временный брак)",
+          "نِكَاحٌ": "Брак",
+          "مِيرَاثٌ": "Наследство",
+          "اشْتَرَطَتْ": "Было оговорено"
+        }
+      },
+      "zh": {
+        "summary": "这段来自伊玛目阿里·里达（愿主安之）的圣训突出了关于穆泰（临时婚姻）继承权的法学争论，对比了要求明确规定的观点与认为其固有排除的观点。这反映了什叶派学者关于临时合同性质是否排除如继承等永久权利的更广泛学术讨论，除非另有规定。这段叙述强调了穆泰合同的灵活性，同时承认学派内部存在不同的解释。",
+        "seo_question": "在什叶派教法中，临时婚姻（穆泰）是否适用继承权？",
+        "key_terms": {
+          "تَزْوِيجُ الْمُتْعَةِ": "穆泰婚姻",
+          "نِكَاحٌ": "婚姻",
+          "مِيرَاثٌ": "继承",
+          "اشْتَرَطَتْ": "被规定"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "33:50",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ أَبِي الْحَسَنِ الرِّضَا ( عليه السلام ) قَالَ تَزْوِيجُ الْمُتْعَةِ نِكَاحٌ بِمِيرَاثٍ وَ نِكَاحٌ بِغَيْرِ مِيرَاثٍ فَإِنِ اشْتَرَطَتْ كَانَ وَ إِنْ لَمْ تَشْتَرِطْ لَمْ يَكُنْ . وَرُوِيَ أَيْضاً لَيْسَ بَيْنَهُمَا مِيرَاثٌ اشْتُرِطَ أَوْ لَمْ يُشْتَرَطْ .",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ عَنْ أَبِي الْحَسَنِ الرِّضَا ( عليه السلام ) قَالَ",
+      "matn_ar": "تَزْوِيجُ الْمُتْعَةِ نِكَاحٌ بِمِيرَاثٍ وَ نِكَاحٌ بِغَيْرِ مِيرَاثٍ فَإِنِ اشْتَرَطَتْ كَانَ وَ إِنْ لَمْ تَشْتَرِطْ لَمْ يَكُنْ . وَرُوِيَ أَيْضاً لَيْسَ بَيْنَهُمَا مِيرَاثٌ اشْتُرِطَ أَوْ لَمْ يُشْتَرَطْ .",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ أَبِي نَصْرٍ",
+          "name_en": "Ahmad ibn Muhammad ibn Abi Nasr",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 39
+        },
+        {
+          "name_ar": "أَبِي الْحَسَنِ الرِّضَا ( عليه السلام )",
+          "name_en": "Abi al-Hasan al-Rida",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 98
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

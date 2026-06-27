@@ -1,0 +1,235 @@
+{
+  "verse_path": "/books/al-kafi:6:6:23:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] en translation length out of bounds: 2 en words vs 16 ar words (ratio=0.12, expected 6.4-64.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "ethics",
+      "worship"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "etiquette",
+      "halal_haram"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ قَالَ",
+        "translations": {
+          "en": "A number: ",
+          "ur": "ہماری روایتوں میں سے کئی نے احمد بن ابی عبداللہ سے، انہوں نے عثمان بن عیسیٰ سے، انہوں نے سماعہ سے روایت کی کہ انہوں نے امام ابو عبداللہ (علیہ السلام) سے پوچھا کہ ایک شخص کھاتا ہوا لیٹ کر کھاتا ہے تو کیا ہوگا؟ انہوں نے فرمایا: نہیں، اور نہ ہی پیٹ کے بل لیٹ کر۔",
+          "tr": "Birkaçı:",
+          "fa": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ قَالَ  سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنِ الرَّجُلِ يَأْكُلُ مُتَّكِئاً فَقَالَ لَا وَ لَا مُنْبَطِحاً .",
+          "id": "Sejumlah",
+          "bn": "আমাদের সাহাবীগণের কয়েকজন থেকে আহমদ ইবনে আবদুল্লাহ, উসমান ইবনে ইসা, সামাআহ, তিনি বলেন, আমি আবদুল্লাহ (আ.)-কে জিজ্ঞেস করলাম, একজন ব্যক্তি শুয়ে খেলে কী হবে? তিনি বললেন, না, এবং পেটের উপর শুয়ে খেলেও না।",
+          "es": "Un número:",
+          "fr": "Un certain nombre :",
+          "de": "Eine Anzahl:",
+          "ru": "От",
+          "zh": "数人"
+        },
+        "word_start": 0,
+        "word_end": 16
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنِ الرَّجُلِ يَأْكُلُ مُتَّكِئاً فَقَالَ لَا وَ لَا مُنْبَطِحاً",
+        "translations": {
+          "en": "I asked Abu Abdullah (peace be upon him) about the man who eats whilst leaning, so he (peace be upon him) said: 'No, and not lying facing down (as well)'.",
+          "ur": "میں نے امام عبداللہ (علیہ السلام) سے پوچھا کہ وہ شخص جو جھک کر کھاتا ہے، تو انہوں نے (علیہ السلام) فرمایا: 'ہاں، اور نیچے لیٹ کر بھی نہیں۔'",
+          "tr": "Ben, Ebu Abdullah'a (aleyhisselam) yatarak yiyen adam hakkında sordum, o da (aleyhisselam): 'Hayır, ve öbür yana yatmak da (böyledir)' dedi.",
+          "fa": "از ابو عبدالله (علیه السلام) درباره مردی که در حالی که به پهلو تکیه داده غذا می‌خورد پرسیدم، پس او (علیه السلام) فرمود: «نه، و نه در حالی که رو به زمین خوابیده باشد.»",
+          "id": "Aku bertanya kepada Abu Abdullah (alamah) tentang seseorang yang makan sambil bersandar, maka beliau (alamah) menjawab: 'Ya, dan tidak juga berbaring tengkurap.'",
+          "bn": "আমি আবু আবদুল্লাহর (র.) কাছে জিজ্ঞাসা করলাম এমন ব্যক্তির বিষয়ে যে, সে হেঁটে খায়, তাহলে তিনি (র.) বললেন: 'না, এবং তদ্রূপ পেটের উপর শুয়েও নয়'।",
+          "es": "Pregunté a Abu Abdullah (que la paz sea con él) sobre el hombre que come apoyado, y él (que la paz sea con él) dijo: 'No, y tampoco boca abajo'.",
+          "fr": "J'ai demandé à Abou Abdallah (que la paix soit sur lui) au sujet de l'homme qui mange en étant adossé, et il (que la paix soit sur lui) a dit : « Oui, et aussi en étant allongé sur le ventre. »",
+          "de": "Ich fragte Abu Abdullah (friede sei mit ihm) über den Mann, der beim Essen lehnt, und er (friede sei mit ihm) sagte: 'Nein, und auch nicht auf dem Bauch liegend.'",
+          "ru": "Я спросил Абу Абдуллаха (да будет мир с ним) о человеке, который ест, опираясь, и он (да будет мир с ним) сказал: «Да, а также лежа на животе».",
+          "zh": "我问阿卜杜拉（愿主福安之）关于人侧卧进食的问题，他（愿主福安之）说：‘不行，也不可以俯卧。’"
+        },
+        "word_start": 16,
+        "word_end": 33
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Recorded in Al-Kafi, this narration from Imam al-Sadiq (AS) via Sama'a clarifies that the prohibition of eating while leaning extends to lying on one's stomach, reflecting the Shia emphasis on adopting dignified postures during meals. This ruling is often interpreted within the context of *Adab al-Ta'am* (etiquette of eating), linking physical posture to spiritual humility and digestive health.",
+        "seo_question": "What is the ruling on eating while lying on one's stomach in Shia Islam?",
+        "key_terms": {
+          "مُتَّكِئاً": "Leaning (while sitting/eating)",
+          "مُنْبَطِحاً": "Lying on the stomach/belly",
+          "أَبَا عَبْدِ اللَّهِ": "Abu Abdillah (Imam al-Sadiq, peace be upon him)"
+        }
+      },
+      "ur": {
+        "summary": "الکافی میں امام صادقؑ کی روایت، سماعہ کی روایت سے، اس بات کی وضاحت کرتی ہے کہ کھاتے وقت تکیہ دینے کی ممانعت پیٹ کے بل لیٹنے تک پھیلتی ہے، جو کھانے کے دوران شائستہ انداز اپنانے کی شیعہ تاکید کو ظاہر کرتی ہے۔ یہ حکم اکثر آداب الطعام (کھانے کے آداب) کے سیاق و سباق میں تشریح کیا جاتا ہے، جس میں جسمانی وضع کو روحانی عاجزی اور ہاضمے کی صحت سے جوڑا جاتا ہے۔",
+        "seo_question": "شیعہ اسلام میں پیٹ کے بل لیٹ کر کھانے کا حکم کیا ہے؟",
+        "key_terms": {
+          "مُتَّكِئاً": "تکیہ دینا (بیٹھتے یا کھاتے وقت)",
+          "مُنْبَطِحاً": "پیٹ کے بل لیٹنا",
+          "أَبَا عَبْدِ اللَّهِ": "ابو عبداللہ (امام صادقؑ)"
+        }
+      },
+      "tr": {
+        "summary": "El özet: El-Kâfî'de kaydedilen, İmamü's-Sâdık (AS)'tan Sema'a yoluyla gelen bu rivayet, yere serinerek yemenin yasağının karnın üzerine yere serinmeye de dahil olduğunu açıklar ve bu da Şiilerin yemek sırasında saygın duruşlar benimsemelerine vurgu yapar. Bu hüküm genellikle *Adâbü't-Taam* (yeme adabı) bağlamında yorumlanır, fiziksel duruşu manevi tevazu ve sindere sağlığına bağlar. El-Kâfî'de kaydedilen, İmamü's-Sâdık (AS)'tan Sema'a yoluyla gelen bu rivayet, yere serinerek yemenin yasağının karnın üzerine yere serinmeye de dahil olduğunu açıklar ve bu da Şiilerin yemek sırasında saygın duruşlar benimsemelerine vurgu yapar. Bu hüküm genellikle *Adâbü't-Taam* (yeme adabı) bağlamında yorumlanır, fiziksel duruşu manevi tevazu ve sindire sağlığına bağlar.",
+        "seo_question": "Şiî İslam'da karnın üzerine yere serinerek yemek yemenin hükmü nedir?",
+        "key_terms": {
+          "مُتَّكِئاً": "Yatarken (otururken/yenirken) eğilmek",
+          "مُنْبَطِحاً": "Karnın üzerine yere serinmek",
+          "أَبَا عَبْدِ اللَّهِ": "Ebu Abdillah (İmamü's-Sâdık, aleyhisselâm)"
+        }
+      },
+      "fa": {
+        "summary": "در روایتی از امام صادق (ع) در الکافی، سامع توضیح می‌دهد که نهی از خوردن در حالت تکیه‌گاه، به خوابیدن بر شکم نیز تعمیم می‌یابد که نشان‌دهنده تأکید شیعه بر اتخاذ وضعیتی شایسته هنگام غذا خوردن است. این حکم اغلب در چارچوب آداب الطعام (آداب غذا خوردن) تفسیر می‌شود که وضعیت جسمانی را به تواضع معنوی و سلامت گوارش مرتبط می‌سازد.",
+        "seo_question": "حکم خوردن در حالت خوابیدن بر شکم در اسلام شیعه چیست؟",
+        "key_terms": {
+          "مُتَّكِئاً": "تکیه‌گاه (در حال نشستن/غذا خوردن)",
+          "مُنْبَطِحاً": "خوابیدن بر شکم/دل",
+          "أَبَا عَبْدِ اللَّهِ": "ابو عبدالله (امام صادق، علیه‌السلام)"
+        }
+      },
+      "id": {
+        "summary": "Diriwayatkan dalam Al-Kafi, hadis dari Imam al-Sadiq (AS) melalui Sama'a menjelaskan bahwa larangan makan sambil bersandar mencakup posisi berbaring telungkup, mencerminkan penekanan Syiah pada adab postur yang mulia saat makan. Hukum ini sering ditafsirkan dalam konteks Adab al-Ta'am (etika makan), yang menghubungkan postur fisik dengan kerendahan hati spiritual dan kesehatan pencernaan.",
+        "seo_question": "Apa hukum makan sambil berbaring telungkup dalam Islam Syiah?",
+        "key_terms": {
+          "مُتَّكِئاً": "Bersandar (saat duduk/makan)",
+          "مُنْبَطِحاً": "Berbaring telungkup/perut",
+          "أَبَا عَبْدِ اللَّهِ": "Abu Abdillah (Imam al-Sadiq, peace be upon him)"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফিতে রেকর্ডকৃত, সামা'র মাধ্যমে ইমাম আস-সাডিগ (আ.) থেকে বর্ণিত এই হাদিসে স্পষ্ট করা হয়েছে যে, হেঁটে খাওয়ার নিষেধ শুধুমাত্র হেঁটে বসে খাওয়া পর্যন্ত সীমাবদ্ধ নয়, বরং পেটের উপর শুয়ে খাওয়াও এর অন্তর্ভুক্ত, যা খাদ্যাভ্যাসের সময় মর্যাদাপূর্ণ অবস্থান গ্রহণের শিয়া জোর দেয়। এই ফরমানটি প্রায়শই *আদাব আল-তা'আম* (খাওয়ার আদব) প্রসঙ্গে ব্যাখ্যা করা হয়, যা শারীরিক অবস্থানকে আধ্যাত্মিক বিনম্রতা এবং হজমের স্বাস্থ্যের সাথে যুক্ত করে।",
+        "seo_question": "শিয়া ইসলামে পেটের উপর শুয়ে খাওয়ার হুকুম কী?",
+        "key_terms": {
+          "مُتَّكِئاً": "হেঁটে (বসে/খাওয়ার সময়)",
+          "مُنْبَطِحاً": "পেটের উপর শুয়ে",
+          "أَبَا عَبْدِ اللَّهِ": "আবু আবদিল্লাহ (ইমাম আস-সাডিগ, আলাইহিস সালাম)"
+        }
+      },
+      "es": {
+        "summary": "Registrada en Al-Kafi, esta narración del-Kafi, esta narración del Imam al-Sadiq (AS) a través de Sama'a aclara que la prohibición de comer recostado se extiende a estar boca abajo, reflejando el énfasis chií en adoptar posturas dignas durante las comidas. Este dictamen se interpreta a menudo en el contexto de *Adab al-Ta'am* (etiqueta de comer), vinculando la postura física con la humildad espiritual y la salud digestiva.",
+        "seo_question": "¿Cuál es el dictamen sobre comer estando boca abajo en el islam chií?",
+        "key_terms": {
+          "مُتَّكِئاً": "Recostado (mientras se está sentado o se come)",
+          "مُنْبَطِحاً": "Boca abajo",
+          "أَبَا عَبْدِ اللَّهِ": "Abu Abdillah (Imam al-Sadiq, que la paz sea con él)"
+        }
+      },
+      "fr": {
+        "summary": "Enregistrée dans Al-Kafi, cette narration d'Imam al-Sadiq (AS) via Sama'a clarifie que l'interdiction de manger en étant adossé s'étend au fait de manger allongé sur le ventre, reflétant l'accent mis par les Chiites sur l'adoption de postures dignes pendant les repas. Cette règle est souvent interprétée dans le contexte de l'*Adab al-Ta'am* (étiquette de manger), reliant la posture physique à l'humilité spirituelle et à la santé digestive.",
+        "seo_question": "Quelle est la règle concernant le fait de manger allongé sur le ventre dans l'islam chiite ?",
+        "key_terms": {
+          "مُتَّكِئاً": "Adossé (en étant assis/mangeant)",
+          "مُنْبَطِحاً": "Allongé sur le ventre",
+          "أَبَا عَبْدِ اللَّهِ": "Abou Abdillah (Imam al-Sadiq, paix sur lui)"
+        }
+      },
+      "de": {
+        "summary": "In Al-Kafi aufgezeichnet, klärt diese Überlieferung von Imam al-Sadiq (AS) über Sama'a auf, dass das Verbot des Essens in liegender Position auch das Bauchliegen umfasst, was die schiitische Betonung einer würdevollen Körperhaltung beim Essen widerspiegelt. Diese Rechtsregel wird oft im Kontext von Adab al-Ta'am (Essetikette) interpretiert, wobei die körperliche Haltung mit spiritueller Demut und Verdauungsgesundheit verknüpft wird.",
+        "seo_question": "Was ist die Rechtsregel für das Essen im Bauchliegen im schiitischen Islam?",
+        "key_terms": {
+          "مُتَّكِئاً": "Leendend (beim Sitzen/Essen)",
+          "مُنْبَطِحاً": "Auf dem Bauch liegend",
+          "أَبَا عَبْدِ اللَّهِ": "Abu Abdillah (Imam al-Sadiq, Friede sei mit ihm)"
+        }
+      },
+      "ru": {
+        "summary": "В «аль-Кафи» зафиксировано предание от имама ас-Садыка (да будет с ним мир) через Самаа, которое уточняет, что запрет на еду в положении лежа на боку распространяется и на лежание на животе, что отражает шиитский акцент на достойной позе во время трапезы. Это положение часто интерпретируется в контексте *Адаб аль-Таам* (этикета еды), связывая физическую позу с духовным смирением и здоровьем пищеварения.",
+        "seo_question": "Каково положение еды лежа на животе в шиитском исламе?",
+        "key_terms": {
+          "مُتَّكِئاً": "опираясь (сидя/едя)",
+          "مُنْبَطِحاً": "лежа на животе",
+          "أَبَا عَبْدِ اللَّهِ": "Абу Абдуллах (имам ас-Садык, да будет с ним мир)"
+        }
+      },
+      "zh": {
+        "summary": "《卡菲》收录的这段由萨玛传述、伊玛目萨迪格（愿主福安之）的圣训阐明，侧身而食的限制同样适用于俯卧，体现了什叶派在用餐时注重端庄姿态的强调。这一裁决通常置于《进食礼仪》的礼仪》语境中理解，将身体姿态与精神谦卑及消化健康联系起来。",
+        "seo_question": "什叶派伊斯兰教中俯卧进食的裁决是什么？",
+        "key_terms": {
+          "مُتَّكِئاً": "侧身（坐或食时）",
+          "مُنْبَطِحاً": "俯卧",
+          "أَبَا عَبْدِ اللَّهِ": "阿布杜拉（伊玛目萨迪格，愿主福安之）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:31",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنِ الرَّجُلِ يَأْكُلُ مُتَّكِئاً فَقَالَ لَا وَ لَا مُنْبَطِحاً",
+    "isnad_matn": {
+      "isnad_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ عَنْ عُثْمَانَ بْنِ عِيسَى عَنْ سَمَاعَةَ قَالَ",
+      "matn_ar": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنِ الرَّجُلِ يَأْكُلُ مُتَّكِئاً فَقَالَ لَا وَ لَا مُنْبَطِحاً",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+          "name_en": "A number of our companions",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 6
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ",
+          "name_en": "Ahmad b. Muhammad b. Khalid",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 12
+        },
+        {
+          "name_ar": "عُثْمَانَ بْنِ عِيسَى",
+          "name_en": "Uthman ibn Isa",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 41
+        },
+        {
+          "name_ar": "سَمَاعَةَ",
+          "name_en": "Sama'a",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 48
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,441 @@
+{
+  "verse_path": "/books/fadail-al-shia:5:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[5] name_ar has 169 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'أبي عبد الله عليه السلام قال: قال رسول الله صلى الله عليه وآ'",
+    "narrator[6] name_ar has 149 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'إيمانهم فلم يجيبوا. يا علي، حربك حربي، وسلمك سلمي، وحربي حرب'",
+    "chunks[1] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.fa is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.id is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.fr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.de is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.fa is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.id is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.es is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.fr is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.de is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[3] translations.zh is empty string (likely Phase 4 batch failure)",
+    "key_phrases must have 0-5 items, got 6"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "family",
+      "afterlife",
+      "social_relations"
+    ],
+    "content_type": "prophetic_tradition",
+    "topics": [
+      "ahlulbayt_virtues",
+      "imamate",
+      "paradise_hell",
+      "companions",
+      "divine_knowledge"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "أَبِي رَحِمَهُ اللَّهُ قَالَ: حَدَّثَنِي سَعْدُ بْنُ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنِ الْقَاسِمِ بْنِ يَحْيَى، عَنْ جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ، عَنْ أَبِي بَصِيرٍ، عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ:",
+        "translations": {
+          "en": "My father (may Allah have mercy on him) said: Sa'd ibn Abdullah narrated to me, from Ahmad ibn Muhammad ibn Khalid, from al-Qasim ibn Yahya, from his grandfather al-Hasan ibn Rashid, from Abu Bassir, from Abu Abdillah (peace be upon him), who said: The Messenger of Allah (peace be upon him and his family) said:",
+          "ur": "میرے والد (رحمۃ اللہ علیہ) نے کہا: سعد بن عبد اللہ نے مجھ سے روایت کی، احمد بن محمد بن خالد سے، القاسم بن یحییٰ سے، ان کے دادا الحسن بن راشد سے، ابو بصیر سے، ابو عبد اللہ (علیہ السلام) سے، انہوں نے کہا: رسول اللہ (صلی اللہ علیہ و آلہ) نے فرمایا:",
+          "tr": "Babam (Allah rahmet eylesin) dedi ki: Sa'd ibn Abdullah, bana Ahmed ibn Muhammed ibn Halid'den, el-Kasım ibn Yahya'dan, dedesi Hasan ibn Râşid'den, Ebu Besîr'den, Ebu Abdillah'dan (aleyhimü's-selâm) rivayet etti; o da dedi ki: Allah'ın Rasûlü (sallallahu aleyhi ve âlihi) şöyle buyurdu:",
+          "fa": "پدرم (رحمه‌الله) گفت: سعد بن عبدالله برایم از احمد بن محمد بن خالد، از قاسم بن یحیی، از پدربزرگش حسن بن راشد، از ابوبصیر، از ابوعبدالله (علیه‌السلام) روایت کرد که فرمود: پیامبر خدا (صلی‌الله‌علیه‌وآله) فرمود:",
+          "id": "Ayahku (semoga Allah merahmatinya) berkata): Sa'd ibn Abdullah menceritakan kepadaku, dari Ahmad ibn Muhammad ibn Khalid, dari al-Qasim ibn Yahya, dari kakeknya al-Hasan ibn Rashid, dari Abu Bassir, dari Abu Abdillah (alamah), yang berkata: Rasulullah (shalallahu alaihi wa alihi) bersabda:",
+          "bn": "আমার পিতা (আল্লাহ তায়ালার রহমত হোক) বলেছেন: সাঈদ ইবনে আবদুল্লাহ আমাকে বর্ণনা করেছেন, আহমদ ইবনে মুহাম্মদ ইবনে খালিদ থেকে, আল-কাসিম ইবনে ইয়াহ্যা থেকে, তার দাদা আল-হাসান ইবনে রশিদ থেকে, আবু বসীর থেকে, আবু আবদিল্লাহ (আলাইহিস সালাম) থেকে, যিনি বলেছেন: আল্লাহর রাসূল (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সাল্লাম) বলেছেন:",
+          "es": "Abi rahimahullah qala: Haddathani Sa'd ibn Abdullah, 'an Ahmad ibn Muhammad ibn Khalid, 'an al-Qasim ibn Yahya, 'an jaddihi al-Hasan ibn Rashid, 'an Abi Bassir, 'an Abi Abdillah (alayhi al-salam), qala: Qala Rasul Allah (sallallahu 'alayhi wa alihi: ",
+          "fr": "Mon père (qu'Allah lui fasse miséricorde) a dit : Sa'd ibn Abdullah m'a rapporté, d'après Ahmad ibn Muhammad ibn Khalid, d'après al-Qasim ibn Yahya, d'après son grand-père al-Hasan ibn Rashid, d'après Abu Bassir, d'après Abu Abdillah (paix sur lui), qui a dit : Le Messager d'Allah (paix sur lui et sur sa famille) a dit :",
+          "de": "Mein Vater (möge Allah ihn mit Barmherzigkeit bedenken) sagte: Sa'd ibn Abdullah überlieferte mir von Ahmad ibn Muhammad ibn Khalid, von al-Qasim ibn Yahya, von seinem Großvater al-Hasan ibn Rashid, von Abu Bassir, von Abu Abdillah (Friede sei mit ihm), der sagte: Der Gesandte Allahs (Friede sei mit ihm und seiner Familie) sagte:",
+          "ru": "Аби рахимахуллах сказал: Передал мне Саад ибн Абдуллах от Ахмада ибн Мухаммада ибн Халида от аль-Касима ибн Яхьи от его деда аль-Хасана ибн Рашида от Абу Басира от Абу Абдилляха (да будет мир ему) который сказал: Посланник Аллаха (да будет мир ему и его семье) сказал:",
+          "zh": "我父亲（愿真主怜悯他）说：萨德·本·阿卜杜拉传述给我，来自艾哈迈德·本·穆罕默德·本·哈利德，来自卡西姆·本·叶海亚，来自他的祖父哈桑·本·拉希德，来自阿布·巴西尔，来自阿布·阿卜杜拉（愿主赐福之），他说：真主的使者（愿主赐福他及其家属）说："
+        },
+        "word_start": 0,
+        "word_end": 42
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يَا عَلِيُّ، إِنَّ اللَّهَ عَزَّ وَجَلَّ وَهَبَكَ حُبَّ الْمَسَاكِينِ وَالْمُسْتَضْعَفِينَ فِي الْأَرْضِ، فَرَضِيتَ بِهِمْ إِخْوَانًا وَرَضُوا بِكَ إِمَامًا. فَطُوبَى لِمَنْ أَحَبَّكَ وَصَدَّقَ عَلَيْكَ، وَوَيْلٌ لِمَنْ أَبْغَضَكَ وَكَذَّبَ عَلَيْكَ. يَا عَلِيُّ، أَنْتَ الْعَالِمُ بِهَذِهِ الْأُمَّةِ، مَنْ أَحَبَّكَ فَازَ، وَمَنْ أَبْغَضَكَ هَلَكَ. يَا عَلِيُّ، أَنَا الْمَدِينَةُ وَأَنْتَ بَابُهَا، وَهَلْ تُؤْتَى الْمَدِينَةُ إِلَّا مِنْ بَابِهَا؟ يَا عَلِيُّ، أَهْلُ مَوَدَّتِكَ كُلُّ أَوَّابٍ حَفِيظٍ وَكُلُّ ذِي طَمَرٍ لَوْ أَقْسَمَ عَلَى اللَّهِ لَبَرَّ قَسَمَهُ. يَا عَلِيُّ، إِخْوَانُكَ كُلُّ طَاهِرٍ وَزَكِيٍّ مُجْتَهِدٍ يُحِبُّ فِيكَ وَيُبْغِضُ فِيكَ، مُحْتَقَرٌ عِنْدَ الْخَلْقِ، عَظِيمُ الْمَنْزِلَةِ عِنْدَ اللَّهِ. يَا عَلِيُّ، مُحِبُّوكَ جِيرَانُ اللَّهِ فِي دَارِ الْفَرْدُوسِ، لَا يَتَأَسَّفُونَ عَلَى مَا خَلَّفُوا مِنَ الدُّنْيَا. يَا عَلِيُّ، أَنَا وَلِيُّ مَنْ وَالَيْتَ، وَأَنَا عَدُوٌّ لِمَنْ عَادَيْتَ. يَا عَلِيُّ، مَنْ أَحَبَّكَ فَقَدْ أَحَبَّنِي، وَمَنْ أَبْغَضَكَ فَقَدْ أَبْغَضَنِي. يَا عَلِيُّ، إِخْوَانُكَ الذُّبُلُ الشَّفَاهُ، تَعْرِفُ الرِّهْبَانِيَّةُ فِي وُجُوهِهِمْ. يَا عَلِيُّ، إِخْوَانُكَ يَفْرَحُونَ فِي ثَلَاثَةِ مَوَاطِنَ: عِنْدَ خُرُوجِ أَنْفُسِهِمْ وَأَنَا شَاهِدُهُمْ وَأَنْتَ، وَعِنْدَ الْمُسَاءَلَةِ فِي قُبُورِهِمْ، وَعِنْدَ الْعَرْضِ وَعِنْدَ الصِّرَاطِ، إِذَا سُئِلَ سَائِرُ الْخَلْقِ عَنْ إِيمَانِهِمْ فَلَمْ يُجِيبُوا. يَا عَلِيُّ، حَرْبُكَ حَرْبِي، وَسَلَمُكَ سَلَمِي، وَحَرْبِي حَرْبُ اللَّهِ، وَسَلَمِي سَلَمُ اللَّهِ. مَنْ سَالَمَكَ فَقَدْ سَالَمَ اللَّهِ عَزَّ وَجَلَّ. يَا عَلِيُّ، بَشِّرْ إِخْوَانَكَ بِأَنَّ لِلَّهِ قَدْ رَضِيَ عَنْهُمْ إِذْ رَضِيكَ لَهُمْ قَائِدًا وَرَضُوا بِكَ وَلِيًّا. يَا عَلِيُّ، أَنْتَ أَمِيرُ الْمُؤْمِنِينَ، وَقَائِدُ الْغُرِّ الْمَحَجَّلِينَ. يَا عَلِيُّ، شِيعَتُكَ الْمُنْتَجَبُونَ، وَلَوْلَا أَنْتَ وَشِيعَتُكَ مَا قَامَ اللَّهُ دِينًا، وَلَوْلَا مَنْ فِي الْأَرْضِ مِنْكُمْ لَمَا أَنْزَلَتِ السَّمَاءُ قَطْرَهَا. يَا عَلِيُّ، لَكَ كَنْزٌ فِي الْجَنَّةِ، وَأَنْتَ ذُو قَرْنَيْهَا، وَشِيعَتُكَ تُعْرَفُ بِحِزْبِ اللَّهِ. يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ الْقَائِمُونَ بِالْقِسْطِ، وَخَيْرَةُ اللَّهِ مِنْ خَلْقِهِ. يَا عَلِيُّ، أَنَا أَوَّلُ مَنْ يَنْفُضُ التُّرَابَ مِنْ رَأْسِهِ وَأَنْتَ مَعِي ثُمَّ سَائِرُ الْخَلْقِ. يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ عَلَى الْحَوْضِ تَسْقُونَ مَنْ أَحَبَّبْتُمْ، وَتَمْنَعُونَ مَنْ كَرِهْتُمْ، وَأَنْتُمُ الْآمِنُونَ يَوْمَ الْفَزَعِ الْأَكْبَرِ فِي ظِلِّ الْعَرْشِ. يَفْزَعُ النَّاسُ وَلَا تَفْزَعُونَ، وَيَحْزَنُ النَّاسُ وَلَا تَحْزَنُونَ.",
+        "translations": {
+          "en": "O Ali, indeed Allah, the Mighty and Majestic, bestowed upon you the love of the poor and the oppressed on earth. You accepted them as brothers and they accepted you as Imam. Blessed is he who loves you and believes you, and woe to he who hates you and belies you. O Ali, you are the knower of this Ummah; whoever loves you succeeds, and whoever hates you perishes. O Ali, I am the City and you are its door; how can the City be entered except through its door? O Ali, the people of your love are every repentant, heedful keeper, and every one with shabby clothes; if he swears by Allah, his oath is fulfilled. O Ali, your brothers are pure, chaste, and diligent; they love and hate for your sake, are humiliated in the eyes of people, but have high status with Allah. O Ali, your lovers are the neighbors of Allah in the Abode of High Paradise; they do not regret what they left of the world. O Ali, I am the guardian of whoever you guard, and the enemy of whoever you antagonize. O Ali, whoever loves you has loved me, and whoever hates you has hated me. O Ali, your brothers are the dry-lipped ones; reverence is recognized in their faces. O Ali, your brothers rejoice in three occasions: when their souls exit and I and you are their witnesses, when they are questioned in their graves, and at the Presentation and the Path, when the rest of creation are asked about their faith but cannot answer. O Ali, your war is my war, and your peace is my peace; my war is the war of Allah, and my peace is the peace of Allah. Whoever makes peace with you has made peace with Allah, the Mighty and Majestic. O Ali, give glad tidings to your brothers that Allah is pleased with them, as He accepted you as their leader and they accepted you as their master. O Ali, you are the Commander of the Faithful and the leader of the White-foreheaded. O Ali, your Shia are the chosen ones; if not for you and your Shia, Allah's religion would not have stood, and if not for those of you on earth, the sky would not have sent down its rain. O Ali, you have a treasure in Paradise, and you are the Two-Horned of this nation, and your Shia are known as the Party of Allah. O Ali, you and your Shia are the upholders of justice, and the choicest of Allah's creation. O Ali, I am the first to shake the dust from my head, and you are with me, then the rest of creation. O Ali, you and your Shia are at the Pool, giving drink to whom you love and withholding from whom you dislike. You are the secure on the Day of the Grand Horror, under the shadow of the Throne. People will panic and you will not panic; people will grieve and you will not grieve.",
+          "zh": "哦阿里，真主，至尊至荣的，确已赐予你热爱世间的穷人与受压迫者。你视他们为兄弟，他们也视你为伊玛目。热爱你且信你者有福，憎恶你且诬你者有祸。哦阿里，你是此乌玛的知者；谁热爱你谁就成功，谁憎恶你谁就毁灭。哦阿里，我是城，你是其门；除通过其门，怎能进入此城？哦阿里，热爱你的人是每一个悔罪者、每一个警觉的守护者，以及每一个衣衫褴褛者；若他以上帝之名发誓，其誓必应。哦阿里，你的兄弟纯洁、贞洁且勤勉；他们因你而爱，因你而恨，在世人眼中受辱，但在真主那里地位崇高。哦阿里，你的爱者是至高天堂中真主的邻居；他们不后悔舍弃的尘世。哦阿里，你守护谁，我就是谁的监护人；你敌视谁，我就是谁的敌人。哦阿里，谁热爱你谁就热爱了我，谁憎恶你谁就憎恶了我。哦阿里，你的兄弟是唇干者；敬畏在他们脸上显而易见。哦阿里，你的兄弟在三个时刻欢喜：当他们的灵魂离去，我与你是他们的见证时；当他们在坟墓中被审问时；以及在复生与道路时，当其他造物被问及信仰却无法回答时。哦阿里，你的战争是我的战争，你的和平是我的和平；我的战争是真主的战争，我的和平是真主的和平。谁与你和平相处，谁就与真主，至尊至荣的，和平相处。哦阿里，向你的兄弟报喜，真主对他们满意，正如他接纳你为他们的领袖，而他们接纳你为他们的君主。哦阿里，你是信士的长官，是白额者的领袖。哦阿里，你的什叶派是精选者；若非有你和你的什叶派，真主的宗教便无法屹立；若非有你们中在大地上的那些人，天空便不会降下雨水。哦阿里，你在天堂有一处宝库，你是此民族的有角者，你的什叶派被称为真主的党派。哦阿里，你和你的什叶派是正义的维护者，是真主创造中最优秀者。哦阿里，我是第一个抖落头上尘土的人，你与我同在，然后是其余的造物。哦阿里，你和你的什叶派在池边，向所爱者供水，向所恶者 withholding。你是大恐怖之日中的安稳者，在宝座之下。人们将恐慌，而你不会恐慌；人们将悲伤，而你不会悲伤。",
+          "ur": "",
+          "tr": "",
+          "fa": "",
+          "id": "",
+          "bn": "",
+          "es": "",
+          "fr": "",
+          "de": "",
+          "ru": ""
+        },
+        "word_start": 42,
+        "word_end": 329
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "فِيكُمْ نَزَلَتْ هَذِهِ الْآيَةُ: (إِنَّ الَّذِينَ سَبَقَتْ لَهُمْ مِّنَّا الْحُسْنَى أُولَئِكَ عَنْهَا مُبْعَدُونَ * لَا يَسْمَعُونَ حَسِيسَهَا وَهُمْ فِي مَا اشْتَهَتْ أَنفُسُهُمْ خَالِدُونَ * لَا يَحْزُنُهُمُ الْفَزَعُ الْأَكْبَرُ وَتَتَلَقَّاهُمُ الْمَلَائِكَةُ هَذَا يَوْمُكُمُ الَّذِي كُنتُمْ تُوعَدُونَ)",
+        "translations": {
+          "en": "In you was revealed this verse: 'Indeed, those to whom the best [reward] has preceded from Us - they are from it distant. They do not hear its sound, while they are, in that which their souls desire, abiding. There will not reach them great terror, and the angels will meet them, [saying], \"This is your day which you were promised.\"' (Quran 21:101-103)",
+          "ur": "تمہاری طرف یہ آیت نازل کی گئی: 'بے شک جن کے لیے ہمارے پاس سے بہترین [انعام] پہلے سے مقرر ہو چکا ہے، وہ اس سے دور ہیں۔ وہ اس کی آواز نہیں سنتے، حالانکہ وہ اس چیز میں جو ان کی خواہشِ نفس ہے، ہمیشہ رہنے والے ہیں۔ ان پر بڑا خوف نہیں پہنچے گا، اور فرشتے ان سے ملیں گے، [کہیں گے] یہ وہ دن ہے جو تمہیں وعدہ کیا جاتا تھا۔' (سورۃ الانبیاء: 101-103)",
+          "tr": "Sana şu ayet indirildi: 'Şüphesiz, bizzat Bizim tarafımızdan onlara en güzel [mükâfat] önceden gelmiş olanlar, ondan uzaktırlar. Onun sesini işitmezler; onlar, ruhlarının arzuladığı şeyde daimîdirler. Onlara büyük korku ulaşmaz; melekler onlara: \"Bu, size vaad edilen gündür\" derler.' (Bakara, 21:101-103)",
+          "fa": "در تو این آیه نازل شد: «به راستی کسانی که پاداش نیکو از جانب ما بر آنان پیشی گرفته است، از آن دورند. صدای آن را نمی‌شنوند، در حالی که در آنچه دل‌هایشان می‌خواهد، جاودانه‌اند. ترس بزرگ به آنان نخواهد رسید، و فرشتگان با آنان روبرو می‌شوند [و می‌گویند]: «این روزی است که به شما وعده داده می‌شد.»» (سوره انبیاء، آیات ۱۰۱-۱۰۳)",
+          "id": "Kepada-Mu diturunkan ayat ini: ",
+          "bn": "আপনার নাজিল হয়েছে এই আয়াত: 'নিশ্চয় যাদের জন্য আমাদের পক্ষ থেকে সর্বোত্তম পুরস্কার পূর্বেই নির্ধারিত হয়েছে, তারা তা থেকে দূরে থাকে। তারা তার শব্দ শোনে না, অথচ তারা সেই বিষয়ে অবস্থান করে যা তাদের আত্মা কামনা করে। তাদের কাছে মহা ভীতি পৌঁছাবে না, এবং ফেরেশতারা তাদের সাথে সাক্ষাত করবে, [বলে], \"এই তো তোমার দিন, যা তোমাদের প্রতি ওয়াদা করা হয়েছিল।\"' (কুরআন ২১:১০১-১০৩)",
+          "es": "En ti se reveló este versículo: 'En verdad, aquellos a quienes les precedió de Nuestra parte la mejor [recompensa] - están lejos de ella. No oyen su sonido, mientras que en lo que sus almas desean, permanecen. No los alcanzará el gran terror, y los ángeles los recibirán [diciendo]: \"Este es vuestro día que se os prometía.\"' (Corán 21:101-103)",
+          "fr": "En toi a été révité ce verset : « En vérité, ceux à qui la meilleure [récompense] a précédé de Notre part — ils en sont éloignés. Ils n'en entendent pas le son bruit, tandis qu'ils demeurent dans ce que leurs âmes désirent. La grande terreur n'atteindra pas, et les anges viendront à leur rencontre, [disant] : « Voici votre jour qui vous a été promis. » » (Coran 21:101-103)",
+          "de": "In dir wurde diese Vers offenbart: 'Wahrlich, diejenigen, denen von Uns das Beste [Lohn] vorangegangen ist – sie sind davon fern. Sie hören dessen Klang nicht, während sie in dem, was ihre Seelen begehren, verharren. Große Furcht wird sie nicht erreichen, und die Engel werden ihnen begegnen [und sagen]: 'Dies ist euer Tag, der euch versprochen wurde.'\" (Koran 21:101-103)",
+          "ru": "В тебе было ниспослано это аяты: «Воистину, тем, кому от Нас уже предшествовало лучшее [воздаяние], они далеки от него. Они не слышат его звука, тогда как они, в том, чего желают их души, пребудут. Не достигнет их великий ужас, и ангелы встретят их, [и скажут]: «Это ваш день, который вам был обещан»» (Коран, 21:101-103).",
+          "zh": "在你们中曾降示这节经文：‘确实，那些从我这里已获最佳报酬的人，他们将远离它。他们听不到它的声音，而他们将在自己灵魂所渴望的事物中永居。大恐怖不会降临他们，天使将迎接他们，[说]：“这是你们曾被应许的这一天，[如今已来到]。”’（《古兰经》21:101-103）"
+        },
+        "word_start": 329,
+        "word_end": 364
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ تَطْلُبُونَ فِي الْمَوْقِفِ، وَأَنْتُمْ فِي الْجَنَّاتِ تَتَنَعَّمُونَ. يَا عَلِيُّ، إِنَّ الْمَلَائِكَةَ وَالْخَزَنَةَ يَشْتاقُونَ إِلَيْكُمْ، وَإِنَّ حَمَلَةَ الْعَرْشِ وَالْمَلَائِكَةَ الْمُقَرَّبِينَ لَيُخْصُّونَكُمْ بِالدُّعَاءِ وَيَسْأَلُونَ اللَّهَ بِمَحَبَّتِكُمْ وَيَفْرَحُونَ لِمَنْ قَدَّمَ عَلَيْهِمْ مِنْهُمْ كَمَا يَفْرَحُ الْأَهْلُ بِالْغَائِبِ الْقَادِمِ بَعْدَ طُولِ الْغَيْبَةِ. يَا عَلِيُّ، شِيعَتُكَ الَّذِينَ يَخَافُونَ اللَّهَ فِي السِّرِّ، وَيُنْصِحُونَهُ فِي الْعَلَانِيَةِ. يَا عَلِيُّ، شِيعَتُكَ الَّذِينَ يَتَنَافَسُونَ فِي الدَّرَجَاتِ لِأَنَّهُمْ يَلْقَوْنَ اللَّهَ وَمَا عَلَيْهِمْ مِنْ ذَنْبٍ. يَا عَلِيُّ، إِنَّ أَعْمَالَ شِيعَتِكَ تُعْرَضُ عَلَيَّ كُلَّ يَوْمِ جُمُعَةٍ، فَأَفْرَحُ بِصَالِحِ مَا يَبْلُغُنِي مِنْ أَعْمَالِهِمْ وَأَسْتَغْفِرُ لِسَيِّئَاتِهِمْ. يَا عَلِيُّ، ذِكْرُكَ فِي التَّوْرَاةِ وَذِكْرُ شِيعَتِكَ قَبْلَ أَنْ يُخْلَقُوا بِكُلِّ خَيْرٍ، وَكَذَلِكَ فِي الْإِنْجِيلِ. فَاسْأَلْ أَهْلَ الْإِنْجِيلِ وَأَهْلَ الْكِتَابِ يُخْبِرُوكَ عَنْ 'إِلْيَا' مَعَ عِلْمِكَ بِالتَّوْرَاةِ وَالْإِنْجِيلِ وَمَا آتَاكَ اللَّهُ عَزَّ وَجَلَّ مِنْ عِلْمِ الْكِتَابِ، وَإِنَّ أَهْلَ الْإِنْجِيلِ لَيَتَعَظَّمُونَ إِلْيَا وَمَا يَعْرِفُونَ شِيعَتَهُ، وَإِنَّمَا يَعْرِفُونَهُمْ بِمَا يَجِدُونَهُ فِي كُتُبِهِمْ. يَا عَلِيُّ، إِنَّ أَصْحَابَكَ ذِكْرُهُمْ فِي السَّمَاءِ أَعْظَمُ مِنْ ذِكْرِ أَهْلِ الْأَرْضِ لَهُمْ بِالْخَيْرِ فَلْيَفْرَحُوا بِذَلِكَ، وَلْيَزْدَادُوا اجْتِهَادًا. يَا عَلِيُّ، أَرْوَاحُ شِيعَتِكَ تَصْعَدُ إِلَى السَّمَاءِ فِي رِقَادِهَا، فَتَنْظُرُ الْمَلَائِكَةُ إِلَيْهَا كَمَا يَنْظُرُ النَّاسُ إِلَى الْهِلَالِ شَوْقًا إِلَيْهِمْ، وَلِمَا يَرَوْنَ مَنْزِلَتَهُمْ عِنْدَ اللَّهِ عَزَّ وَجَلَّ. يَا عَلِيُّ، قُلْ لِأَصْحَابِكَ الْعَارِفِينَ بِكَ يَتَنَزَّهُونَ عَنِ الْأَعْمَالِ الَّتِي يُقَارِفُهَا عَدُوُّهُمْ، فَمَا مِنْ يَوْمٍ وَلَا لَيْلَةٍ إِلَّا وَرَحْمَةُ اللَّهِ تَغْشَاهُمْ، فَلْيَجْتَنِبُوا الدَّنَسَ. يَا عَلِيُّ، اشْتَدَّ غَضَبُ اللَّهِ عَلَى مَنْ قَلاهُمْ وَبَرَاءَ مِنْكَ وَمِنْهُمْ، وَاسْتَبْدَلَ بِكَ وَبِهِمْ وَمَالَ إِلَى عَدُوِّكَ، وَتَرَكَكَ وَشِيعَتَكَ، وَاخْتَارَ الضَّلَالَةَ، وَنَصَبَ الْحَرْبَ لَكَ وَلِشِيعَتِكَ، وَأَبْغَضَنَا أَهْلَ الْبَيْتِ، وَأَبْغَضَ مَنْ وَالَاكَ وَنَصَرَكَ وَاخْتَارَكَ وَبَذَلَ مَهْجَتَهُ وَمَالَهُ فِينَا. يَا عَلِيُّ، اقْرَأْهُمْ مِنِّي السَّلَامَ لِمَنْ لَمْ أَرَهُمْ وَلَمْ يَرَوْنِي، وَعَلِّمهُمْ أَنَّهُمْ إِخْوَانِي الَّذِينَ أَشْتاقُ إِلَيْهِمْ. فَلْيُلْقُوا عِلْمِي إِلَى مَنْ يَبْلُغُ الْقُرُونَ مِنْ بَعْدِي، وَلْيَتَمَسَّكُوا بِحَبْلِ اللَّهِ وَلِيَعْتَصِمُوا بِهِ، وَلْيَجْتَهِدُوا فِي الْعَمَلِ. فَإِنَّا لَا نُخْرِجُهُمْ مِنْ هُدًى إِلَى ضَلَالَةٍ. وَأَخْبِرْهُمْ أَنَّ اللَّهَ عَنْهُمْ رَاضٍ، وَأَنَّهُ يُبَاهِي بِهِمْ مَلَائِكَتَهُ، وَيَنْظُرُ إِلَيْهِمْ فِي كُلِّ جُمُعَةٍ بِرَحْمَتِهِ، وَيَأْمُرُ الْمَلَائِكَةَ أَنْ يَسْتَغْفِرُوا لَهُمْ. يَا عَلِيُّ، لَا تَرْغَبْ عَنْ نَصْرَةِ قَوْمٍ يَبْلُغُهُمْ أَوْ يَسْمَعُونَ أَنِّي أُحِبُّكَ فَأَحَبُّوكَ لِحُبِّي إِيَّاهُمْ وَدَانُوا اللَّهَ عَزَّ وَجَلَّ بِذَلِكَ، وَأَعْطَوْكَ صَفْوَ الْمَوَدَّةِ مِنْ قُلُوبِهِمْ، وَاخْتَارُوكَ عَلَى الْآبَاءِ وَالْإِخْوَةِ وَالْأَوْلَادِ، وَسَلَكُوا طَرِيقَكَ وَقَدْ حُمِّلُوا عَلَى الْمَكَارِهِ فِينَا فَأَبَوْا إِلَّا نَصْرَنَا، وَبَذَلُوا الْمَهَجَ فِينَا مَعَ الْأَذَى وَسُوءِ الْقَوْلِ، وَمَا يُقَاسُونَهُ مِنْ مُضَامَضَةِ ذَلِكَ. فَكُنْ بِهِمْ رَحِيمًا، وَاقْنَعْ بِهِمْ، فَإِنَّ اللَّهَ اخْتَارَهُمْ بِعِلْمِهِ لَنَا مِنْ بَيْنِ الْخَلْقِ، وَخَلَقَهُمْ مِنْ طِينَتِنَا، وَاسْتَوْدَعَهُمْ سِرَّنَا، وَأَلْزَمَ قُلُوبَهُمْ مَعْرِفَ حَقِّنَا، وَشَرَحَ صُدُورَهُمْ، وَجَعَلَهُمْ مُتَمَسِّكِينَ بِحَبْلِنَا. لَا يُؤْثِرُونَ عَلَيْنَا مَنْ خَالَفَنَا مَعَ مَا يَزُولُ مِنَ الدُّنْيَا عَنْهُمْ، وَمِيلُ الشَّيْطَانِ بِالْمَكَارِهِ عَلَيْهِمْ. أَيْدَهُمْ اللَّهُ وَسَلَكَ بِهِمْ طَرِيقَ الْهُدَى فَاعْتَصَمُوا بِهِ، وَالنَّاسُ فِي غَمْرَةِ الضَّلَالَةِ مُتَحَيِّرُونَ فِي الْأَهْوَاءِ، عُمْواً عَنِ الْحُجَّةِ وَمَا جَاءَ مِنْ عِنْدِ اللَّهِ، فَهُمْ يُمْسُونَ وَيُصْبِحُونَ فِي سَخَطِ اللَّهِ. وَشِيعَتُكَ عَلَى مِنْهَاجِ الْحَقِّ وَالِاسْتِقَامَةِ، لَا يَسْتَأْنِسُونَ إِلَى مَنْ خَالَفَهُمْ، لَسْتُ الدُّنْيَا مِنْهُمْ وَلَيْسُوا مِنْهَا. أُولَئِكَ مَصَابِيحُ الدُّجَى، أُولَئِكَ مَصَابِيحُ الدُّجَى، أُولَئِكَ مَصَابِيحُ الدُّجَى.",
+        "translations": {
+          "en": "O Ali, you and your Shia will ask [for your share] at the Standing [of Judgment], while you are in the Gardens enjoying yourselves. O Ali, indeed the angels and the keepers long for you; the bearers of the Throne and the near angels single you out for supplication, ask Allah by your love, and rejoice for whoever comes to them from you, just as family rejoices at the return of the absent after a long absence. O Ali, your Shia are those who fear Allah in secret and advise Him openly. O Ali, your Shia compete in ranks because they meet Allah without any sin upon them. O Ali, the deeds of your Shia are presented to me every Friday; I rejoice at the good of what reaches me from their deeds and seek forgiveness for their bad deeds. O Ali, your mention in the Torah and your Shia's mention before they were created is with all good, and so is in the Gospel. Ask the people of the Gospel and the People of the Book to inform you about 'Ilyas' (Elijah), with your knowledge of the Torah and Gospel and what Allah gave you of the knowledge of the Book. Indeed, the people of the Gospel honor Ilyas but do not know his Shia; they only know them by what they find in their books. O Ali, the mention of your companions in the heavens is greater than the mention of the people of earth for them in good; let them rejoice in that and increase in diligence. O Ali, the spirits of your Shia ascend to the heavens during their sleep; the angels look at them as people look at the crescent moon, longing for them and for the rank Allah has decided for them. O Ali, tell your knowing companions to abstain from the deeds their enemies commit. No day or night passes without the mercy of Allah covering them; let them avoid impurity. O Ali, Allah's anger intensifies on whoever despises them, disowns you and them, replaces you and them, inclines to your enemy, leaves you and your Shia, chooses deviation, wages war on you and your Shia, hates us the Ahl al-Bayt, and hates whoever follows, supports, chooses, and sacrifices his soul and wealth for you. O Ali, convey my peace to those I have not seen and who have not seen me, and inform them that they are my brothers whom I long for. Let them transmit my knowledge to the generations after me, hold fast to the rope of Allah, and strive in work. For We do not take them out of guidance into error. Inform them that Allah is pleased with them, boasts of them to His angels, looks at them every Friday with mercy, and commands the angels to seek forgiveness for them. O Ali, do not turn away from supporting people who hear or learn that I love you, so they loved you for my love, submitted to Allah because of it, gave you the pure affection of their hearts, chose you over fathers, brothers, and children, followed your path, endured hardships for us, refused except to support us, sacrificed their souls for us despite harm and bad speech, and endured the bitterness of that. Be merciful to them and be content with them, for Allah chose them for us by His knowledge among creation, created them from our clay, deposited His secret with them, bound their hearts to know our right, expanded their chests, and made them cling to our rope. They do not prefer those who differ from us over us, even if the world passes away from them, and if Satan inclines them to hardships, may Allah support them and guide them on the path of guidance, so let them hold fast. People are in the flood of deviation, perplexed in passions, blind to the Proof and what came from Allah; they evening and morning in Allah's wrath. And your Shia are on the path of truth and uprightness; they do not feel comfortable with those who differ from them. The world is not of them and they are not of it. Those are the lanterns of gloom. Those are the lanterns of gloom. Those are the lanterns of gloom.",
+          "ur": "",
+          "tr": "",
+          "fa": "",
+          "id": "",
+          "bn": "",
+          "es": "",
+          "fr": "",
+          "de": "",
+          "ru": "",
+          "zh": ""
+        },
+        "word_start": 364,
+        "word_end": 807
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This foundational hadith from Shaykh al-Saduq’s *Fadail al-Shia* establishes the theological basis for the concept of *Shi'a* as a distinct, elect community (*Hizb Allah*) whose identity is inextricably linked to the love and obedience of Ali ibn Abi Talib. It underscores the eschatological security of the faithful, noting that their exemption from the 'Great Fright' and their intercessory status, while also affirming their prophetic mention in previous scriptures like the Torah and Gospel. The text serves as a comprehensive guide for the spiritual and social conduct of the Shia, emphasizing their purity, patience in adversity, and role as the 'lanterns of gloom' guiding humanity through divine deviation.",
+        "seo_question": "What are the virtues and characteristics of the Shia of Ali (as) according to Fadail al-Shia?",
+        "key_terms": {
+          "شِيعَتُكَ": "Your Shia (followers)",
+          "الْمَسَاكِينُ": "The poor",
+          "الْمُسْتَضْعَفُونَ": "The oppressed",
+          "حِزْبُ اللَّهِ": "The Party of Allah",
+          "الْحَوْضُ": "The Pool (of the Prophet)",
+          "الْفَزَعُ الْأَكْبَرُ": "The Grand Horror (Day of Judgment)",
+          "أَهْلُ الْكِتَابِ": "The People of the Book",
+          "إِلْيَا": "Elijah (Ilyas)",
+          "مَصَابِيحُ الدُّجَى": "Lanterns of gloom"
+        }
+      },
+      "ur": {
+        "summary": "شیخ صدوق کی کتاب فضائل الشیعہ سے یہ بنیادی حدیث 'شیعہ' کے تصور کی نظریاتی بنیاد قائم کرتی ہے، جو ایک ممتاز منتخب امت (حزب اللہ) ہے جس کی شناخت علی ابن ابی طالب کی محبت اور اطاعت سے گہرا تعلق رکھتی ہے۔ یہ مومنوں کی آخرت میں حفاظت کی ضمانت دیتی ہے، انہیں 'عظیم خوف' سے نجات اور شفاعت کے درجے سے نوازتی ہے، اور یہ بھی تصدیق کرتی ہے کہ ان کا ذکر تورات اور انجیل جیسی سابقہ کتابوں میں بھی آیا ہے۔ یہ متن شیعہ کی روحانی اور سماجی زندگی کے لیے ایک جامع رہنما ہے، جو ان کی پاکی، مصیبتوں میں صبر، اور ان کے کردار کو 'اندھیروں کی موم بتیوں' کے طور پر پیش کرتا ہے جو انسانیت کو الٰہی انحراف سے نکال کر راستے پر لاتی ہیں۔",
+        "seo_question": "فضائل الشیعہ کے مطابق علی (ع) کی شیعہ کی فضیلت اور خصوصیات کیا ہیں؟",
+        "key_terms": {
+          "شِيعَتُكَ": "تمہاری شیعہ (پیروکار)",
+          "الْمَسَاكِينُ": "غریب",
+          "الْمُسْتَضْعَفُونَ": "مظلوم",
+          "حِزْبُ اللَّهِ": "اللہ کی جماعت",
+          "الْحَوْضُ": "حوض (نبی کا)",
+          "الْفَزَعُ الْأَكْبَرُ": "عظیم خوف (قیامت کا دن)",
+          "أَهْلُ الْكِتَابِ": "اہل کتاب",
+          "إِلْيَا": "الیاس",
+          "مَصَابِيحُ الدُّجَى": "اندھیروں کی موم بتیاں"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh el-Saduk'un *Fedailü'l-Şia* eserinden bu temel hadis, *Şia* kavramının teolojik temelini, kimliği Ali bin Ebi Talib'e olan sevgi ve itaata sıkı sıkıya bağlı olan ayrı bir seçilmiş topluluk (*Hizbullah*) olarak kurar. İnanlıların 'Büyük Korku'dan kurtulma ve şefaat konumlarındaki eschatolojik güvenliğini vurgular; ayrıca onların önceki kutsal kitaplarda, Tevrat ve İncil'de peygamberler tarafından zikredildiğini onaylar. Metin, Şiilerin manevi ve sosyal davranışları için kapsamlı bir rehber görevi görür; safiyetlerini, zorluklar karşısındaki sabırlarını ve insanlığı ilahi sapmalardan aydınlatan 'karanlığın fenerleri' olarak rollerini vurgular.",
+        "seo_question": "Fedailü'l-Şia'ya göre Ali'nin (as) Şialarının faziletleri ve özellikleri nelerdir?",
+        "key_terms": {
+          "شِيعَتُكَ": "Şiaların (takipçilerin)",
+          "الْمَسَاكِينُ": "Fakirler",
+          "الْمُسْتَضْعَفُونَ": "Zayıflar",
+          "حِزْبُ اللَّهِ": "Allah'ın Partisi",
+          "الْحَوْضُ": "Havuz (Peygamber'in)",
+          "الْفَزَعُ الْأَكْبَرُ": "Büyük Korku (Kıyamet Günü)",
+          "أَهْلُ الْكِتَابِ": "Ehl-i Kitap",
+          "إِلْيَا": "İlyas",
+          "مَصَابِيحُ الدُّجَى": "Karanlığın Fenerleri"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث بنیادین از شیخ صدوق در کتاب فضایل الشیعه، پایه الهیاتی مفهوم شیعه به عنوان یک جامعه برگزیده و متمایز (حزب‌الله) را تثبیت می‌کند که هویت آن به‌طور جدایی‌ناپذیری با عشق و اطاعت از علی بن ابی‌طالب پیوند خورده است. این حدیث بر امنیت آخرت‌شناسانه مؤمنان تأکید دارد و اشاره می‌کند که آن‌ها از «فزع اکبر» در امان هستند و مقام شفاعت دارند؛ همچنین ذکر پیامبرانه آن‌ها در کتاب‌های پیشین مانند تورات و انجیل را تأیید می‌کند. این متن به عنوان راهنمای جامعی برای رفتار معنوی و اجتماعی شیعیان عمل می‌کند و بر پاکی، صبر در سختی‌ها و نقش آن‌ها به عنوان «چراغ‌های تاریکی» که بشریت را از انحراف الهی هدایت می‌کنند، تأکید می‌ورزد.",
+        "seo_question": "فضایل و ویژگی‌های شیعیان علی (ع) بر اساس کتاب فضایل الشیعه چیست؟",
+        "key_terms": {
+          "شِيعَتُكَ": "شیعیان تو",
+          "الْمَسَاكِينُ": "فقرا",
+          "الْمُسْتَضْعَفُونَ": "مستضعفان",
+          "حِزْبُ اللَّهِ": "حزب‌الله",
+          "الْحَوْضُ": "حوض",
+          "الْفَزَعُ الْأَكْبَرُ": "فزع اکبر",
+          "أَهْلُ الْكِتَابِ": "اهل کتاب",
+          "إِلْيَا": "الیاس",
+          "مَصَابِيحُ الدُّجَى": "چراغ‌های تاریکی"
+        }
+      },
+      "id": {
+        "summary": "Hadis dasar dari Syekh al-Shaduq dalam *Fadail al-Syiah* ini menetapkan dasar teologis bagi konsep *Syiah* sebagai komunitas pilihan (*Hizbullah*) yang identitasnya tak terpisahkan dari cinta dan ketaatan kepada Ali bin Abi Thalib. Hadis ini menyoroti keamanan eskatologis bagi orang beriman, mencatat pembebasan mereka dari 'Kegoncangan Besar' dan status syafaat mereka, serta menegaskan penyebutan mereka oleh para nabi dalam kitab-kitab sebelumnya seperti Taurat dan Injil. Teks ini berfungsi sebagai panduan komprehensif bagi perilaku spiritual dan sosial kaum Syiah, dengan menekankan kesucian mereka, kesabaran dalam kesulitan, dan peran mereka sebagai 'pelita kegelapan' yang membimbing umat manusia melalui penyimpangan ilahi.",
+        "seo_question": "Apa keutamaan dan karakteristik Syiah Ali (as) menurut Fadail al-Syiah?",
+        "key_terms": {
+          "شِيعَتُكَ": "Syiah Anda (pengikut)",
+          "الْمَسَاكِينُ": "Orang miskin",
+          "الْمُسْتَضْعَفُونَ": "Orang yang tertindas",
+          "حِزْبُ اللَّهِ": "Kelompok Allah",
+          "الْحَوْضُ": "Telaga (Nabi)",
+          "الْفَزَعُ الْأَكْبَرُ": "Kegoncangan Besar (Hari Kiamat)",
+          "أَهْلُ الْكِتَابِ": "Ahlul Kitab",
+          "إِلْيَا": "Ilyas",
+          "مَصَابِيحُ الدُّجَى": "Pelita kegelapan"
+        }
+      },
+      "bn": {
+        "summary": "শেখ আল-সাদুকের ফাযায়েল আল-শিয়া থেকে এই মৌলিক হাদিস শিয়া সম্প্রদায়কে এক স্বতন্ত্র ও নির্বাচিত সম্প্রদায় (হিজবুল্লাহ) হিসেবে তাদের পরিচয় আলী ইবনে আবী তালিবের প্রতি ভালোবাসা ও আনুগত্যের সাথে অবিচ্ছেদ্যভাবে যুক্ত বলে আনুষ্ঠানিকভাবে প্রতিষ্ঠিত করে। এটি বিশ্বাসীদের পরকালীন নিরাপত্তার বিষয়টি তুলে ধরে, যেখানে তারা 'মহা ভীতি' থেকে মুক্ত থাকে এবং তাদের শাফা'আতের মর্যাদা রয়েছে, পাশাপাশি এটি পূর্ববর্তী ধর্মগ্রন্থ যেমন তওরাত ও ইঞ্জিল-এ তাদের নবীদের উল্লেখের বিষয়টি নিশ্চিত করে। এই পাঠটি শিয়াদের আধ্যাত্মিক ও সামাজিক আচরণের জন্য একটি সার্বজনীন গাইড হিসেবে কাজ করে, তাদের পবিত্রতা, কষ্ট সহনশীলতা এবং মানবজাতির জন্য ঐশ্বরিক বিচ্যুতির মধ্য দিয়ে পথ দেখানো 'অন্ধকারের বাতি' হিসেবে তাদের ভূমিকার ওপর জোর দেয়।",
+        "seo_question": "ফাযায়েল আল-শিয়া অনুযায়ী আলী (আ.)-এর শিয়াদের গুণাবলী ও বৈশিষ্ট্যগুলো কী কী?",
+        "key_terms": {
+          "شِيعَتُكَ": "আপনার শিয়া (অনুসারী)",
+          "الْمَسَاكِينُ": "গরিবরা",
+          "الْمُسْتَضْعَفُونَ": "দুর্বল/নিপীড়িতরা",
+          "حِزْبُ اللَّهِ": "আল্লাহর দল",
+          "الْحَوْضُ": "হাওয (নবীর পুকুর)",
+          "الْفَزَعُ الْأَكْبَرُ": "মহা ভীতি (কিয়ামতের দিন)",
+          "أَهْلُ الْكِتَابِ": "কিতাবের লোকজন",
+          "إِلْيَا": "ইলিয়াস",
+          "مَصَابِيحُ الدُّجَى": "অন্ধকারের বাতি"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz fundamental de Shaykh al-Saduq en *Fadail al-Shia* establece la base teológica del concepto de *Shi'a* como una comunidad elegida y distinta (*Hizb Allah*), cuya identidad está inextricablemente ligada al amor y la obediencia a Ali ibn Abi Talib. Subraya la seguridad escatológica de los fieles, señalando su exención del 'Gran Espanto' y su estatus de intercesores, al tiempo que afirma su mención profética en escrituras anteriores como la Torá y el Evangelio. El texto sirve como una guía integral para la conducta espiritual y social de los shiíes, enfatizando su pureza, paciencia en la adversidad y su papel como 'faros en la oscuridad' que guían a la humanidad a través de la desviación divina.",
+        "seo_question": "¿Cuáles son las virtudes y características de los shiíes de Ali (as) según Fadail al-Shia?",
+        "key_terms": {
+          "شِيعَتُكَ": "Tus shiíes (seguidores)",
+          "الْمَسَاكِينُ": "Los pobres",
+          "الْمُسْتَضْعَفُونَ": "Los oprimidos",
+          "حِزْبُ اللَّهِ": "El Partido de Allah",
+          "الْحَوْضُ": "El Estanque (del Profeta)",
+          "الْفَزَعُ الْأَكْبَرُ": "El Gran Espanto (Día del Juicio)",
+          "أَهْلُ الْكِتَابِ": "La Gente del Libro",
+          "إِلْيَا": "Elías (Ilyas)",
+          "مَصَابِيحُ الدُّجَى": "Faros en la oscuridad"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith fondamental tiré de *Fadail al-Shia* de Cheikh al-Sadouq établit la base théologique du concept de *Chi'a* en tant que communauté élue distincte (*Hizb Allah*), dont l'identité est indissociablement liée à l'amour et à l'obéissance d'Ali ibn Abi Talib. Il souligne la sécurité eschatologique des fidèles, notant leur exemption de la 'Grande Peur' et leur statut d'intercesseurs, tout en affirmant leur mention prophétique dans les Écritures précédentes comme la Torah et l'Évangile. Le texte sert de guide complet pour la conduite spirituelle et sociale des Chiites, en mettant l'accent sur leur pureté, leur patience dans l'adversité et leur rôle de 'lanternes de l'obscurité' guidant l'humanité à travers la déviation divine.",
+        "seo_question": "Quelles sont les vertus et les caractéristiques des Chiites d'Ali (as) selon Fadail al-Shia ?",
+        "key_terms": {
+          "شِيعَتُكَ": "Tes Chiites (disciples)",
+          "الْمَسَاكِينُ": "Les pauvres",
+          "الْمُسْتَضْعَفُونَ": "Les opprimés",
+          "حِزْبُ اللَّهِ": "Le Parti d'Allah",
+          "الْحَوْضُ": "L'Étang (du Prophète)",
+          "الْفَزَعُ الْأَكْبَرُ": "La Grande Peur (Jour du Jugement)",
+          "أَهْلُ الْكِتَابِ": "Les Gens du Livre",
+          "إِلْيَا": "Élie (Ilyas)",
+          "مَصَابِيحُ الدُّجَى": "Lanternes de l'obscurité"
+        }
+      },
+      "de": {
+        "summary": "Dieses grundlegende Hadith von Schaych al-Saduq in *Fadail al-Shia* Fadail al-Shia *legt die theologische Grundlage für das Konzept der* Schia *als einer distincten, auserwählten Gemeinde (*Hizb Allah*) fest, deren Identität untrennbar mit der Liebe und dem Gehorsam gegenüber Ali ibn Abi Talib verbunden ist. Es unterstreicht die eschatologische Sicherheit der Gläubigen, indem es ihre Befreiung von der „großen Furcht“ und ihren Fürsprache-Status bemerkt, und bekräftigt gleichzeitig ihre prophetische Erwähnung in früheren Schriften wie der Tora und dem Evangelium. Der Text dient als umfassender Leitfaden für das spirituelle und soziale Verhalten der Schia, wobei er ihre Reinheit, Geduld in der Not und ihre Rolle als „Laternen der Dunkelheit“ betont, die die Menschheit durch die göttliche Abweichung führen.",
+        "seo_question": "Was sind die Tugenden und Merkmale der Schia Ali's (as) gemäß Fadail al-Shia?",
+        "key_terms": {
+          "شِيعَتُكَ": "Deine Schia (Anhänger)",
+          "الْمَسَاكِينُ": "Die Armen",
+          "الْمُسْتَضْعَفُونَ": "Die Unterdrückten",
+          "حِزْبُ اللَّهِ": "Die Partei Allahs",
+          "الْحَوْضُ": "Der Teich (des Propheten)",
+          "الْفَزَعُ الْأَكْبَرُ": "Die große Furcht (Jüngster Tag)",
+          "أَهْلُ الْكِتَابِ": "Die Leute des Buches",
+          "إِلْيَا": "Elias (Ilyas)",
+          "مَصَابِيحُ الدُّجَى": "Laternen der Dunkelheit"
+        }
+      },
+      "ru": {
+        "summary": "Этот фундаментальный хадис из «Фадяиль аль-Шиа» шейха ас-Садука закладывает теологическую основу концепции шиитов как особой, избранной общины (Хизб Аллах), чья идентичность неразрывно связана с любовью и повиновением Али ибн Аби Талибу. В нем подчеркивается эсхатологическая безопасность верующих, отмечая их освобождение от «Великого ужаса» и статус заступничества, а также подтверждается их упоминание в предыдущих писаниях, таких как Тор и Евангелие. Текст служит всеобъемлющим руководством для духовного и социального поведения шиитов, акцентируя их чистоту, терпение в невзгодах и роль «светил во тьме», направляющих человечество через божественное заблуждение.",
+        "seo_question": "Каковы достоинства и характеристики шиитов Али (мир ему) согласно книге «Фадяиль аль-Шиа»?",
+        "key_terms": {
+          "شِيعَتُكَ": "Твои шииты (последователи)",
+          "الْمَسَاكِينُ": "Бедные",
+          "الْمُسْتَضْعَفُونَ": "Угнетенные",
+          "حِزْبُ اللَّهِ": "Партия Аллаха",
+          "الْحَوْضُ": "Пруд (пророка)",
+          "الْفَزَعُ الْأَكْبَرُ": "Великий ужас (День Суда)",
+          "أَهْلُ الْكِتَابِ": "Народ Книги",
+          "إِلْيَا": "Илия (Ильяс)",
+          "مَصَابِيحُ الدُّجَى": "Светила во тьме"
+        }
+      },
+      "zh": {
+        "summary": "这段来自谢赫·萨杜克的《法达伊勒·希亚》中的基础圣训，确立了“希亚”（Shi'a）作为独特、被拣选的社群（真主的政党）的神学基础，其身份与对阿里·本·阿比·塔利布的爱和服从密不可分。它强调了信士在末日的安全，指出他们免于“大恐惧”并拥有代祷地位，同时也肯定他们在《讨拉特》和《引支勒》等先前经典中被先知提及。这段文本为什叶派的精神和社会行为提供了全面指南，强调他们的纯洁性、在逆境中的忍耐，以及作为在神圣偏离中引导人类的“黑暗中的明灯”的角色。",
+        "seo_question": "根据《法达伊勒·希亚》，阿里（愿主喜悦之）的希亚有哪些美德和特征？",
+        "key_terms": {
+          "شِيعَتُكَ": "你的希亚（追随者）",
+          "الْمَسَاكِينُ": "穷人",
+          "الْمُسْتَضْعَفُونَ": "被压迫者",
+          "حِزْبُ اللَّهِ": "真主的政党",
+          "الْحَوْضُ": "池（先知之池）",
+          "الْفَزَعُ الْأَكْبَرُ": "大恐惧（审判日）",
+          "أَهْلُ الْكِتَابِ": "有经人",
+          "إِلْيَا": "以利亚（伊利亚斯）",
+          "مَصَابِيحُ الدُّجَى": "黑暗中的明灯"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "21:101",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:102",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:103",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:14",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:56",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:55",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:119",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "أَبِي رَحِمَهُ اللَّهُ قَالَ: حَدَّثَنِي سَعْدُ بْنُ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنِ الْقَاسِمِ بْنِ يَحْيَى، عَنْ جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ، عَنْ أَبِي بَصِيرٍ، عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ: يَا عَلِيُّ، إِنَّ اللَّهَ عَزَّ وَجَلَّ وَهَبَكَ حُبَّ الْمَسَاكِينِ وَالْمُسْتَضْعَفِينَ فِي الْأَرْضِ، فَرَضِيتَ بِهِمْ إِخْوَانًا وَرَضُوا بِكَ إِمَامًا. فَطُوبَى لِمَنْ أَحَبَّكَ وَصَدَّقَ عَلَيْكَ، وَوَيْلٌ لِمَنْ أَبْغَضَكَ وَكَذَّبَ عَلَيْكَ. يَا عَلِيُّ، أَنْتَ الْعَالِمُ بِهَذِهِ الْأُمَّةِ، مَنْ أَحَبَّكَ فَازَ، وَمَنْ أَبْغَضَكَ هَلَكَ. يَا عَلِيُّ، أَنَا الْمَدِينَةُ وَأَنْتَ بَابُهَا، وَهَلْ تُؤْتَى الْمَدِينَةُ إِلَّا مِنْ بَابِهَا؟ يَا عَلِيُّ، أَهْلُ مَوَدَّتِكَ كُلُّ أَوَّابٍ حَفِيظٍ وَكُلُّ ذِي طَمَرٍ لَوْ أَقْسَمَ عَلَى اللَّهِ لَبَرَّ قَسَمَهُ. يَا عَلِيُّ، إِخْوَانُكَ كُلُّ طَاهِرٍ وَزَكِيٍّ مُجْتَهِدٍ يُحِبُّ فِيكَ وَيُبْغِضُ فِيكَ، مُحْتَقَرٌ عِنْدَ الْخَلْقِ، عَظِيمُ الْمَنْزِلَةِ عِنْدَ اللَّهِ. يَا عَلِيُّ، مُحِبُّوكَ جِيرَانُ اللَّهِ فِي دَارِ الْفَرْدُوسِ، لَا يَتَأَسَّفُونَ عَلَى مَا خَلَّفُوا مِنَ الدُّنْيَا. يَا عَلِيُّ، أَنَا وَلِيُّ مَنْ وَالَيْتَ، وَأَنَا عَدُوٌّ لِمَنْ عَادَيْتَ. يَا عَلِيُّ، مَنْ أَحَبَّكَ فَقَدْ أَحَبَّنِي، وَمَنْ أَبْغَضَكَ فَقَدْ أَبْغَضَنِي. يَا عَلِيُّ، إِخْوَانُكَ الذُّبُلُ الشَّفَاهُ، تَعْرِفُ الرِّهْبَانِيَّةُ فِي وُجُوهِهِمْ. يَا عَلِيُّ، إِخْوَانُكَ يَفْرَحُونَ فِي ثَلَاثَةِ مَوَاطِنَ: عِنْدَ خُرُوجِ أَنْفُسِهِمْ وَأَنَا شَاهِدُهُمْ وَأَنْتَ، وَعِنْدَ الْمُسَاءَلَةِ فِي قُبُورِهِمْ، وَعِنْدَ الْعَرْضِ وَعِنْدَ الصِّرَاطِ، إِذَا سُئِلَ سَائِرُ الْخَلْقِ عَنْ إِيمَانِهِمْ فَلَمْ يُجِيبُوا. يَا عَلِيُّ، حَرْبُكَ حَرْبِي، وَسَلَمُكَ سَلَمِي، وَحَرْبِي حَرْبُ اللَّهِ، وَسَلَمِي سَلَمُ اللَّهِ. مَنْ سَالَمَكَ فَقَدْ سَالَمَ اللَّهِ عَزَّ وَجَلَّ. يَا عَلِيُّ، بَشِّرْ إِخْوَانَكَ بِأَنَّ لِلَّهِ قَدْ رَضِيَ عَنْهُمْ إِذْ رَضِيكَ لَهُمْ قَائِدًا وَرَضُوا بِكَ وَلِيًّا. يَا عَلِيُّ، أَنْتَ أَمِيرُ الْمُؤْمِنِينَ، وَقَائِدُ الْغُرِّ الْمَحَجَّلِينَ. يَا عَلِيُّ، شِيعَتُكَ الْمُنْتَجَبُونَ، وَلَوْلَا أَنْتَ وَشِيعَتُكَ مَا قَامَ اللَّهُ دِينًا، وَلَوْلَا مَنْ فِي الْأَرْضِ مِنْكُمْ لَمَا أَنْزَلَتِ السَّمَاءُ قَطْرَهَا. يَا عَلِيُّ، لَكَ كَنْزٌ فِي الْجَنَّةِ، وَأَنْتَ ذُو قَرْنَيْهَا، وَشِيعَتُكَ تُعْرَفُ بِحِزْبِ اللَّهِ. يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ الْقَائِمُونَ بِالْقِسْطِ، وَخَيْرَةُ اللَّهِ مِنْ خَلْقِهِ. يَا عَلِيُّ، أَنَا أَوَّلُ مَنْ يَنْفُضُ التُّرَابَ مِنْ رَأْسِهِ وَأَنْتَ مَعِي ثُمَّ سَائِرُ الْخَلْقِ. يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ عَلَى الْحَوْضِ تَسْقُونَ مَنْ أَحَبَّبْتُمْ، وَتَمْنَعُونَ مَنْ كَرِهْتُمْ، وَأَنْتُمُ الْآمِنُونَ يَوْمَ الْفَزَعِ الْأَكْبَرِ فِي ظِلِّ الْعَرْشِ. يَفْزَعُ النَّاسُ وَلَا تَفْزَعُونَ، وَيَحْزَنُ النَّاسُ وَلَا تَحْزَنُونَ. فِيكُمْ نَزَلَتْ هَذِهِ الْآيَةُ: (إِنَّ الَّذِينَ سَبَقَتْ لَهُمْ مِّنَّا الْحُسْنَى أُولَئِكَ عَنْهَا مُبْعَدُونَ * لَا يَسْمَعُونَ حَسِيسَهَا وَهُمْ فِي مَا اشْتَهَتْ أَنفُسُهُمْ خَالِدُونَ * لَا يَحْزُنُهُمُ الْفَزَعُ الْأَكْبَرُ وَتَتَلَقَّاهُمُ الْمَلَائِكَةُ هَذَا يَوْمُكُمُ الَّذِي كُنتُمْ تُوعَدُونَ) يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ تَطْلُبُونَ فِي الْمَوْقِفِ، وَأَنْتُمْ فِي الْجَنَّاتِ تَتَنَعَّمُونَ. يَا عَلِيُّ، إِنَّ الْمَلَائِكَةَ وَالْخَزَنَةَ يَشْتاقُونَ إِلَيْكُمْ، وَإِنَّ حَمَلَةَ الْعَرْشِ وَالْمَلَائِكَةَ الْمُقَرَّبِينَ لَيُخْصُّونَكُمْ بِالدُّعَاءِ وَيَسْأَلُونَ اللَّهَ بِمَحَبَّتِكُمْ وَيَفْرَحُونَ لِمَنْ قَدَّمَ عَلَيْهِمْ مِنْهُمْ كَمَا يَفْرَحُ الْأَهْلُ بِالْغَائِبِ الْقَادِمِ بَعْدَ طُولِ الْغَيْبَةِ. يَا عَلِيُّ، شِيعَتُكَ الَّذِينَ يَخَافُونَ اللَّهَ فِي السِّرِّ، وَيُنْصِحُونَهُ فِي الْعَلَانِيَةِ. يَا عَلِيُّ، شِيعَتُكَ الَّذِينَ يَتَنَافَسُونَ فِي الدَّرَجَاتِ لِأَنَّهُمْ يَلْقَوْنَ اللَّهَ وَمَا عَلَيْهِمْ مِنْ ذَنْبٍ. يَا عَلِيُّ، إِنَّ أَعْمَالَ شِيعَتِكَ تُعْرَضُ عَلَيَّ كُلَّ يَوْمِ جُمُعَةٍ، فَأَفْرَحُ بِصَالِحِ مَا يَبْلُغُنِي مِنْ أَعْمَالِهِمْ وَأَسْتَغْفِرُ لِسَيِّئَاتِهِمْ. يَا عَلِيُّ، ذِكْرُكَ فِي التَّوْرَاةِ وَذِكْرُ شِيعَتِكَ قَبْلَ أَنْ يُخْلَقُوا بِكُلِّ خَيْرٍ، وَكَذَلِكَ فِي الْإِنْجِيلِ. فَاسْأَلْ أَهْلَ الْإِنْجِيلِ وَأَهْلَ الْكِتَابِ يُخْبِرُوكَ عَنْ 'إِلْيَا' مَعَ عِلْمِكَ بِالتَّوْرَاةِ وَالْإِنْجِيلِ وَمَا آتَاكَ اللَّهُ عَزَّ وَجَلَّ مِنْ عِلْمِ الْكِتَابِ، وَإِنَّ أَهْلَ الْإِنْجِيلِ لَيَتَعَظَّمُونَ إِلْيَا وَمَا يَعْرِفُونَ شِيعَتَهُ، وَإِنَّمَا يَعْرِفُونَهُمْ بِمَا يَجِدُونَهُ فِي كُتُبِهِمْ. يَا عَلِيُّ، إِنَّ أَصْحَابَكَ ذِكْرُهُمْ فِي السَّمَاءِ أَعْظَمُ مِنْ ذِكْرِ أَهْلِ الْأَرْضِ لَهُمْ بِالْخَيْرِ فَلْيَفْرَحُوا بِذَلِكَ، وَلْيَزْدَادُوا اجْتِهَادًا. يَا عَلِيُّ، أَرْوَاحُ شِيعَتِكَ تَصْعَدُ إِلَى السَّمَاءِ فِي رِقَادِهَا، فَتَنْظُرُ الْمَلَائِكَةُ إِلَيْهَا كَمَا يَنْظُرُ النَّاسُ إِلَى الْهِلَالِ شَوْقًا إِلَيْهِمْ، وَلِمَا يَرَوْنَ مَنْزِلَتَهُمْ عِنْدَ اللَّهِ عَزَّ وَجَلَّ. يَا عَلِيُّ، قُلْ لِأَصْحَابِكَ الْعَارِفِينَ بِكَ يَتَنَزَّهُونَ عَنِ الْأَعْمَالِ الَّتِي يُقَارِفُهَا عَدُوُّهُمْ، فَمَا مِنْ يَوْمٍ وَلَا لَيْلَةٍ إِلَّا وَرَحْمَةُ اللَّهِ تَغْشَاهُمْ، فَلْيَجْتَنِبُوا الدَّنَسَ. يَا عَلِيُّ، اشْتَدَّ غَضَبُ اللَّهِ عَلَى مَنْ قَلاهُمْ وَبَرَاءَ مِنْكَ وَمِنْهُمْ، وَاسْتَبْدَلَ بِكَ وَبِهِمْ وَمَالَ إِلَى عَدُوِّكَ، وَتَرَكَكَ وَشِيعَتَكَ، وَاخْتَارَ الضَّلَالَةَ، وَنَصَبَ الْحَرْبَ لَكَ وَلِشِيعَتِكَ، وَأَبْغَضَنَا أَهْلَ الْبَيْتِ، وَأَبْغَضَ مَنْ وَالَاكَ وَنَصَرَكَ وَاخْتَارَكَ وَبَذَلَ مَهْجَتَهُ وَمَالَهُ فِينَا. يَا عَلِيُّ، اقْرَأْهُمْ مِنِّي السَّلَامَ لِمَنْ لَمْ أَرَهُمْ وَلَمْ يَرَوْنِي، وَعَلِّمهُمْ أَنَّهُمْ إِخْوَانِي الَّذِينَ أَشْتاقُ إِلَيْهِمْ. فَلْيُلْقُوا عِلْمِي إِلَى مَنْ يَبْلُغُ الْقُرُونَ مِنْ بَعْدِي، وَلْيَتَمَسَّكُوا بِحَبْلِ اللَّهِ وَلِيَعْتَصِمُوا بِهِ، وَلْيَجْتَهِدُوا فِي الْعَمَلِ. فَإِنَّا لَا نُخْرِجُهُمْ مِنْ هُدًى إِلَى ضَلَالَةٍ. وَأَخْبِرْهُمْ أَنَّ اللَّهَ عَنْهُمْ رَاضٍ، وَأَنَّهُ يُبَاهِي بِهِمْ مَلَائِكَتَهُ، وَيَنْظُرُ إِلَيْهِمْ فِي كُلِّ جُمُعَةٍ بِرَحْمَتِهِ، وَيَأْمُرُ الْمَلَائِكَةَ أَنْ يَسْتَغْفِرُوا لَهُمْ. يَا عَلِيُّ، لَا تَرْغَبْ عَنْ نَصْرَةِ قَوْمٍ يَبْلُغُهُمْ أَوْ يَسْمَعُونَ أَنِّي أُحِبُّكَ فَأَحَبُّوكَ لِحُبِّي إِيَّاهُمْ وَدَانُوا اللَّهَ عَزَّ وَجَلَّ بِذَلِكَ، وَأَعْطَوْكَ صَفْوَ الْمَوَدَّةِ مِنْ قُلُوبِهِمْ، وَاخْتَارُوكَ عَلَى الْآبَاءِ وَالْإِخْوَةِ وَالْأَوْلَادِ، وَسَلَكُوا طَرِيقَكَ وَقَدْ حُمِّلُوا عَلَى الْمَكَارِهِ فِينَا فَأَبَوْا إِلَّا نَصْرَنَا، وَبَذَلُوا الْمَهَجَ فِينَا مَعَ الْأَذَى وَسُوءِ الْقَوْلِ، وَمَا يُقَاسُونَهُ مِنْ مُضَامَضَةِ ذَلِكَ. فَكُنْ بِهِمْ رَحِيمًا، وَاقْنَعْ بِهِمْ، فَإِنَّ اللَّهَ اخْتَارَهُمْ بِعِلْمِهِ لَنَا مِنْ بَيْنِ الْخَلْقِ، وَخَلَقَهُمْ مِنْ طِينَتِنَا، وَاسْتَوْدَعَهُمْ سِرَّنَا، وَأَلْزَمَ قُلُوبَهُمْ مَعْرِفَ حَقِّنَا، وَشَرَحَ صُدُورَهُمْ، وَجَعَلَهُمْ مُتَمَسِّكِينَ بِحَبْلِنَا. لَا يُؤْثِرُونَ عَلَيْنَا مَنْ خَالَفَنَا مَعَ مَا يَزُولُ مِنَ الدُّنْيَا عَنْهُمْ، وَمِيلُ الشَّيْطَانِ بِالْمَكَارِهِ عَلَيْهِمْ. أَيْدَهُمْ اللَّهُ وَسَلَكَ بِهِمْ طَرِيقَ الْهُدَى فَاعْتَصَمُوا بِهِ، وَالنَّاسُ فِي غَمْرَةِ الضَّلَالَةِ مُتَحَيِّرُونَ فِي الْأَهْوَاءِ، عُمْواً عَنِ الْحُجَّةِ وَمَا جَاءَ مِنْ عِنْدِ اللَّهِ، فَهُمْ يُمْسُونَ وَيُصْبِحُونَ فِي سَخَطِ اللَّهِ. وَشِيعَتُكَ عَلَى مِنْهَاجِ الْحَقِّ وَالِاسْتِقَامَةِ، لَا يَسْتَأْنِسُونَ إِلَى مَنْ خَالَفَهُمْ، لَسْتُ الدُّنْيَا مِنْهُمْ وَلَيْسُوا مِنْهَا. أُولَئِكَ مَصَابِيحُ الدُّجَى، أُولَئِكَ مَصَابِيحُ الدُّجَى، أُولَئِكَ مَصَابِيحُ الدُّجَى.",
+    "isnad_matn": {
+      "isnad_ar": "أَبِي رَحِمَهُ اللَّهُ قَالَ: حَدَّثَنِي سَعْدُ بْنُ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنِ الْقَاسِمِ بْنِ يَحْيَى، عَنْ جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ، عَنْ أَبِي بَصِيرٍ، عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ: قَالَ رَسُولُ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ:",
+      "matn_ar": "يَا عَلِيُّ، إِنَّ اللَّهَ عَزَّ وَجَلَّ وَهَبَكَ حُبَّ الْمَسَاكِينِ وَالْمُسْتَضْعَفِينَ فِي الْأَرْضِ، فَرَضِيتَ بِهِمْ إِخْوَانًا وَرَضُوا بِكَ إِمَامًا. فَطُوبَى لِمَنْ أَحَبَّكَ وَصَدَّقَ عَلَيْكَ، وَوَيْلٌ لِمَنْ أَبْغَضَكَ وَكَذَّبَ عَلَيْكَ. يَا عَلِيُّ، أَنْتَ الْعَالِمُ بِهَذِهِ الْأُمَّةِ، مَنْ أَحَبَّكَ فَازَ، وَمَنْ أَبْغَضَكَ هَلَكَ. يَا عَلِيُّ، أَنَا الْمَدِينَةُ وَأَنْتَ بَابُهَا، وَهَلْ تُؤْتَى الْمَدِينَةُ إِلَّا مِنْ بَابِهَا؟ يَا عَلِيُّ، أَهْلُ مَوَدَّتِكَ كُلُّ أَوَّابٍ حَفِيظٍ وَكُلُّ ذِي طَمَرٍ لَوْ أَقْسَمَ عَلَى اللَّهِ لَبَرَّ قَسَمَهُ. يَا عَلِيُّ، إِخْوَانُكَ كُلُّ طَاهِرٍ وَزَكِيٍّ مُجْتَهِدٍ يُحِبُّ فِيكَ وَيُبْغِضُ فِيكَ، مُحْتَقَرٌ عِنْدَ الْخَلْقِ، عَظِيمُ الْمَنْزِلَةِ عِنْدَ اللَّهِ. يَا عَلِيُّ، مُحِبُّوكَ جِيرَانُ اللَّهِ فِي دَارِ الْفَرْدُوسِ، لَا يَتَأَسَّفُونَ عَلَى مَا خَلَّفُوا مِنَ الدُّنْيَا. يَا عَلِيُّ، أَنَا وَلِيُّ مَنْ وَالَيْتَ، وَأَنَا عَدُوٌّ لِمَنْ عَادَيْتَ. يَا عَلِيُّ، مَنْ أَحَبَّكَ فَقَدْ أَحَبَّنِي، وَمَنْ أَبْغَضَكَ فَقَدْ أَبْغَضَنِي. يَا عَلِيُّ، إِخْوَانُكَ الذُّبُلُ الشَّفَاهُ، تَعْرِفُ الرِّهْبَانِيَّةُ فِي وُجُوهِهِمْ. يَا عَلِيُّ، إِخْوَانُكَ يَفْرَحُونَ فِي ثَلَاثَةِ مَوَاطِنَ: عِنْدَ خُرُوجِ أَنْفُسِهِمْ وَأَنَا شَاهِدُهُمْ وَأَنْتَ، وَعِنْدَ الْمُسَاءَلَةِ فِي قُبُورِهِمْ، وَعِنْدَ الْعَرْضِ وَعِنْدَ الصِّرَاطِ، إِذَا سُئِلَ سَائِرُ الْخَلْقِ عَنْ إِيمَانِهِمْ فَلَمْ يُجِيبُوا. يَا عَلِيُّ، حَرْبُكَ حَرْبِي، وَسَلَمُكَ سَلَمِي، وَحَرْبِي حَرْبُ اللَّهِ، وَسَلَمِي سَلَمُ اللَّهِ. مَنْ سَالَمَكَ فَقَدْ سَالَمَ اللَّهِ عَزَّ وَجَلَّ. يَا عَلِيُّ، بَشِّرْ إِخْوَانَكَ بِأَنَّ لِلَّهِ قَدْ رَضِيَ عَنْهُمْ إِذْ رَضِيكَ لَهُمْ قَائِدًا وَرَضُوا بِكَ وَلِيًّا. يَا عَلِيُّ، أَنْتَ أَمِيرُ الْمُؤْمِنِينَ، وَقَائِدُ الْغُرِّ الْمَحَجَّلِينَ. يَا عَلِيُّ، شِيعَتُكَ الْمُنْتَجَبُونَ، وَلَوْلَا أَنْتَ وَشِيعَتُكَ مَا قَامَ اللَّهُ دِينًا، وَلَوْلَا مَنْ فِي الْأَرْضِ مِنْكُمْ لَمَا أَنْزَلَتِ السَّمَاءُ قَطْرَهَا. يَا عَلِيُّ، لَكَ كَنْزٌ فِي الْجَنَّةِ، وَأَنْتَ ذُو قَرْنَيْهَا، وَشِيعَتُكَ تُعْرَفُ بِحِزْبِ اللَّهِ. يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ الْقَائِمُونَ بِالْقِسْطِ، وَخَيْرَةُ اللَّهِ مِنْ خَلْقِهِ. يَا عَلِيُّ، أَنَا أَوَّلُ مَنْ يَنْفُضُ التُّرَابَ مِنْ رَأْسِهِ وَأَنْتَ مَعِي ثُمَّ سَائِرُ الْخَلْقِ. يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ عَلَى الْحَوْضِ تَسْقُونَ مَنْ أَحَبَّبْتُمْ، وَتَمْنَعُونَ مَنْ كَرِهْتُمْ، وَأَنْتُمُ الْآمِنُونَ يَوْمَ الْفَزَعِ الْأَكْبَرِ فِي ظِلِّ الْعَرْشِ. يَفْزَعُ النَّاسُ وَلَا تَفْزَعُونَ، وَيَحْزَنُ النَّاسُ وَلَا تَحْزَنُونَ. فِيكُمْ نَزَلَتْ هَذِهِ الْآيَةُ: (إِنَّ الَّذِينَ سَبَقَتْ لَهُمْ مِّنَّا الْحُسْنَى أُولَئِكَ عَنْهَا مُبْعَدُونَ * لَا يَسْمَعُونَ حَسِيسَهَا وَهُمْ فِي مَا اشْتَهَتْ أَنفُسُهُمْ خَالِدُونَ * لَا يَحْزُنُهُمُ الْفَزَعُ الْأَكْبَرُ وَتَتَلَقَّاهُمُ الْمَلَائِكَةُ هَذَا يَوْمُكُمُ الَّذِي كُنتُمْ تُوعَدُونَ) يَا عَلِيُّ، أَنْتَ وَشِيعَتُكَ تَطْلُبُونَ فِي الْمَوْقِفِ، وَأَنْتُمْ فِي الْجَنَّاتِ تَتَنَعَّمُونَ. يَا عَلِيُّ، إِنَّ الْمَلَائِكَةَ وَالْخَزَنَةَ يَشْتاقُونَ إِلَيْكُمْ، وَإِنَّ حَمَلَةَ الْعَرْشِ وَالْمَلَائِكَةَ الْمُقَرَّبِينَ لَيُخْصُّونَكُمْ بِالدُّعَاءِ وَيَسْأَلُونَ اللَّهَ بِمَحَبَّتِكُمْ وَيَفْرَحُونَ لِمَنْ قَدَّمَ عَلَيْهِمْ مِنْهُمْ كَمَا يَفْرَحُ الْأَهْلُ بِالْغَائِبِ الْقَادِمِ بَعْدَ طُولِ الْغَيْبَةِ. يَا عَلِيُّ، شِيعَتُكَ الَّذِينَ يَخَافُونَ اللَّهَ فِي السِّرِّ، وَيُنْصِحُونَهُ فِي الْعَلَانِيَةِ. يَا عَلِيُّ، شِيعَتُكَ الَّذِينَ يَتَنَافَسُونَ فِي الدَّرَجَاتِ لِأَنَّهُمْ يَلْقَوْنَ اللَّهَ وَمَا عَلَيْهِمْ مِنْ ذَنْبٍ. يَا عَلِيُّ، إِنَّ أَعْمَالَ شِيعَتِكَ تُعْرَضُ عَلَيَّ كُلَّ يَوْمِ جُمُعَةٍ، فَأَفْرَحُ بِصَالِحِ مَا يَبْلُغُنِي مِنْ أَعْمَالِهِمْ وَأَسْتَغْفِرُ لِسَيِّئَاتِهِمْ. يَا عَلِيُّ، ذِكْرُكَ فِي التَّوْرَاةِ وَذِكْرُ شِيعَتِكَ قَبْلَ أَنْ يُخْلَقُوا بِكُلِّ خَيْرٍ، وَكَذَلِكَ فِي الْإِنْجِيلِ. فَاسْأَلْ أَهْلَ الْإِنْجِيلِ وَأَهْلَ الْكِتَابِ يُخْبِرُوكَ عَنْ 'إِلْيَا' مَعَ عِلْمِكَ بِالتَّوْرَاةِ وَالْإِنْجِيلِ وَمَا آتَاكَ اللَّهُ عَزَّ وَجَلَّ مِنْ عِلْمِ الْكِتَابِ، وَإِنَّ أَهْلَ الْإِنْجِيلِ لَيَتَعَظَّمُونَ إِلْيَا وَمَا يَعْرِفُونَ شِيعَتَهُ، وَإِنَّمَا يَعْرِفُونَهُمْ بِمَا يَجِدُونَهُ فِي كُتُبِهِمْ. يَا عَلِيُّ، إِنَّ أَصْحَابَكَ ذِكْرُهُمْ فِي السَّمَاءِ أَعْظَمُ مِنْ ذِكْرِ أَهْلِ الْأَرْضِ لَهُمْ بِالْخَيْرِ فَلْيَفْرَحُوا بِذَلِكَ، وَلْيَزْدَادُوا اجْتِهَادًا. يَا عَلِيُّ، أَرْوَاحُ شِيعَتِكَ تَصْعَدُ إِلَى السَّمَاءِ فِي رِقَادِهَا، فَتَنْظُرُ الْمَلَائِكَةُ إِلَيْهَا كَمَا يَنْظُرُ النَّاسُ إِلَى الْهِلَالِ شَوْقًا إِلَيْهِمْ، وَلِمَا يَرَوْنَ مَنْزِلَتَهُمْ عِنْدَ اللَّهِ عَزَّ وَجَلَّ. يَا عَلِيُّ، قُلْ لِأَصْحَابِكَ الْعَارِفِينَ بِكَ يَتَنَزَّهُونَ عَنِ الْأَعْمَالِ الَّتِي يُقَارِفُهَا عَدُوُّهُمْ، فَمَا مِنْ يَوْمٍ وَلَا لَيْلَةٍ إِلَّا وَرَحْمَةُ اللَّهِ تَغْشَاهُمْ، فَلْيَجْتَنِبُوا الدَّنَسَ. يَا عَلِيُّ، اشْتَدَّ غَضَبُ اللَّهِ عَلَى مَنْ قَلاهُمْ وَبَرَاءَ مِنْكَ وَمِنْهُمْ، وَاسْتَبْدَلَ بِكَ وَبِهِمْ وَمَالَ إِلَى عَدُوِّكَ، وَتَرَكَكَ وَشِيعَتَكَ، وَاخْتَارَ الضَّلَالَةَ، وَنَصَبَ الْحَرْبَ لَكَ وَلِشِيعَتِكَ، وَأَبْغَضَنَا أَهْلَ الْبَيْتِ، وَأَبْغَضَ مَنْ وَالَاكَ وَنَصَرَكَ وَاخْتَارَكَ وَبَذَلَ مَهْجَتَهُ وَمَالَهُ فِينَا. يَا عَلِيُّ، اقْرَأْهُمْ مِنِّي السَّلَامَ لِمَنْ لَمْ أَرَهُمْ وَلَمْ يَرَوْنِي، وَعَلِّمهُمْ أَنَّهُمْ إِخْوَانِي الَّذِينَ أَشْتاقُ إِلَيْهِمْ. فَلْيُلْقُوا عِلْمِي إِلَى مَنْ يَبْلُغُ الْقُرُونَ مِنْ بَعْدِي، وَلْيَتَمَسَّكُوا بِحَبْلِ اللَّهِ وَلِيَعْتَصِمُوا بِهِ، وَلْيَجْتَهِدُوا فِي الْعَمَلِ. فَإِنَّا لَا نُخْرِجُهُمْ مِنْ هُدًى إِلَى ضَلَالَةٍ. وَأَخْبِرْهُمْ أَنَّ اللَّهَ عَنْهُمْ رَاضٍ، وَأَنَّهُ يُبَاهِي بِهِمْ مَلَائِكَتَهُ، وَيَنْظُرُ إِلَيْهِمْ فِي كُلِّ جُمُعَةٍ بِرَحْمَتِهِ، وَيَأْمُرُ الْمَلَائِكَةَ أَنْ يَسْتَغْفِرُوا لَهُمْ. يَا عَلِيُّ، لَا تَرْغَبْ عَنْ نَصْرَةِ قَوْمٍ يَبْلُغُهُمْ أَوْ يَسْمَعُونَ أَنِّي أُحِبُّكَ فَأَحَبُّوكَ لِحُبِّي إِيَّاهُمْ وَدَانُوا اللَّهَ عَزَّ وَجَلَّ بِذَلِكَ، وَأَعْطَوْكَ صَفْوَ الْمَوَدَّةِ مِنْ قُلُوبِهِمْ، وَاخْتَارُوكَ عَلَى الْآبَاءِ وَالْإِخْوَةِ وَالْأَوْلَادِ، وَسَلَكُوا طَرِيقَكَ وَقَدْ حُمِّلُوا عَلَى الْمَكَارِهِ فِينَا فَأَبَوْا إِلَّا نَصْرَنَا، وَبَذَلُوا الْمَهَجَ فِينَا مَعَ الْأَذَى وَسُوءِ الْقَوْلِ، وَمَا يُقَاسُونَهُ مِنْ مُضَامَضَةِ ذَلِكَ. فَكُنْ بِهِمْ رَحِيمًا، وَاقْنَعْ بِهِمْ، فَإِنَّ اللَّهَ اخْتَارَهُمْ بِعِلْمِهِ لَنَا مِنْ بَيْنِ الْخَلْقِ، وَخَلَقَهُمْ مِنْ طِينَتِنَا، وَاسْتَوْدَعَهُمْ سِرَّنَا، وَأَلْزَمَ قُلُوبَهُمْ مَعْرِفَ حَقِّنَا، وَشَرَحَ صُدُورَهُمْ، وَجَعَلَهُمْ مُتَمَسِّكِينَ بِحَبْلِنَا. لَا يُؤْثِرُونَ عَلَيْنَا مَنْ خَالَفَنَا مَعَ مَا يَزُولُ مِنَ الدُّنْيَا عَنْهُمْ، وَمِيلُ الشَّيْطَانِ بِالْمَكَارِهِ عَلَيْهِمْ. أَيْدَهُمْ اللَّهُ وَسَلَكَ بِهِمْ طَرِيقَ الْهُدَى فَاعْتَصَمُوا بِهِ، وَالنَّاسُ فِي غَمْرَةِ الضَّلَالَةِ مُتَحَيِّرُونَ فِي الْأَهْوَاءِ، عُمْواً عَنِ الْحُجَّةِ وَمَا جَاءَ مِنْ عِنْدِ اللَّهِ، فَهُمْ يُمْسُونَ وَيُصْبِحُونَ فِي سَخَطِ اللَّهِ. وَشِيعَتُكَ عَلَى مِنْهَاجِ الْحَقِّ وَالِاسْتِقَامَةِ، لَا يَسْتَأْنِسُونَ إِلَى مَنْ خَالَفَهُمْ، لَسْتُ الدُّنْيَا مِنْهُمْ وَلَيْسُوا مِنْهَا. أُولَئِكَ مَصَابِيحُ الدُّجَى، أُولَئِكَ مَصَابِيحُ الدُّجَى، أُولَئِكَ مَصَابِيحُ الدُّجَى.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أبي رحمه الله قال: حدثني سعد بن عبد الله،",
+          "name_en": "Abu",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أحمد بن محمد بن خالد،",
+          "name_en": "Ahmad b. Muhammad b. Khalid",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 12
+        },
+        {
+          "name_ar": "القاسم بن يحيى،",
+          "name_en": "al-Qasim ibn Yahya",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 151
+        },
+        {
+          "name_ar": "جده الحسن بن راشد،",
+          "name_en": "al-Hasan b. Rashid",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 152
+        },
+        {
+          "name_ar": "أبي بصير،",
+          "name_en": "Abu Basir",
+          "role": "companion",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 14
+        },
+        {
+          "name_ar": "أبي عبد الله عليه السلام قال: قال رسول الله صلى الله عليه وآله : يا علي إن الله عز وجل وهبك حب المساكين والمستضعفين في الأرض، فرضيت بهم إخوانا ورضوا بك إماما. فطوبى لمن أحبك وصدق عليك، وويل لمن أبغضك وكذب عليك. يا علي، أنت العالم بهذه الامة، من أحبك فاز، ومن أبغضك هلك. يا علي، أنا المدينة وأنت بابها، وهل تؤتى المدينة إلا من بابها؟ يا علي، أهل مودتك كل أواب حفيظ وكل ذي طمر لو أقسم على الله لبر قسمه. يا علي، إخوانك كل طاهر وزكي مجتهد يحب فيك ويبغض فيك، محتقر عند الخلق، عظيم المنزلة عند الله. يا علي، محبوك جيران الله في دار الفردوس، لا يتأسفون على ما خلفوا من الدنيا. يا علي، أنا ولي لمن واليت، وأنا عدو لمن عاديت. يا علي، من أحبك فقد أحبني، ومن أبغضك فقد أبغضني. يا علي، إخوانك الذبل الشفاه، تعرف الرهبانية في وجوههم. يا علي، إخوانك يفرحون في ثلاثة مواطن: عند خروج أنفسهم وأنا شاهدهم وأنت، وعند المساءلة في قبورهم، وعند العرض وعند الصراط، إذا سئل سائر الخلق",
+          "name_en": "Abu Abdillah",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "إيمانهم فلم يجيبوا. يا علي، حربك حربي، وسلمك سلمي، وحربي حرب الله، وسلمي سلم الله من سالمك فقد سالم الله عز وجل. يا علي بشر إخوانك بان لله قد رضي عنهم إذ رضيك لهم قائدا ورضوا بك وليا. يا علي، أنت أمير المؤمنين، وقائد الغر المحجلين. يا علي، شيعتك المنتجبون, ولولا أنت وشيعتك ما قام الله دين، ولولا من في الأرض منكم لما أنزلت السماء قطرها. يا علي، لك كنز في الجنة، وأنت ذو قرنيها، وشيعتك تعرف بحزب الله. يا علي، أنت وشيعتك القائمون بالقسط، وخيرة الله من خلقه. يا علي, أنا أول من ينفض التراب من رأسه وأنت معي ثم سائر الخلق. يا علي، أنت وشيعتك على الحوض تسقون من أحببتم، وتمنعون من كرهتم، وأنتم الآمنون يوم الفزع الأكبر في ظل العرش. يفزع الناس ولا تفزعون، ويحزن الناس ولا تحزنون. فيكم نزلت هذه الآية: (إن الذين سبقت لهم منا الحسنى أولئك عنها مبعدون * لا يسمعون حسيسها وهم",
+          "name_en": "Imanuhum",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "أَهْلُ الْبَيْتِ",
+        "phrase_en": "People of the House (Ahlulbayt)",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "رَحْمَةُ اللَّهِ",
+        "phrase_en": "Mercy of Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "غَضَبُ اللَّهِ",
+        "phrase_en": "Wrath of Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+        "phrase_en": "The Messenger of Allah said",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 19,
+    "_phase4_mode": "per_language"
+  }
+}

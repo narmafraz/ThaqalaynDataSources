@@ -1,0 +1,232 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:23:16",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-23",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 15 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'ومثل ما حكيناه أيضا قصة أصحاب الكهف وقد نطق بها القرآن وتضمن'",
+    "narrator[1] name_ar has 41 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'قومهم فرارا بدينهم. ولو لا ما نطق القرآن به لكان مخالفونا يج'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "quran_commentary",
+      "history"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "imams_biography",
+      "quran_interpretation_method",
+      "miracles"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَمِثْلُ مَا حَكَيْنَاهُ أَيْضًا قِصَّةُ أَصْحَابِ الْكَهْفِ وَقَدْ نَطَقَ بِهَا الْقُرْآنُ وَتَضَمَّنَ شَرْحَ حَالِهِمْ وَاسْتِتَارَهُمْ عَنْ قَوْمِهِمْ فِرَارًا بِدِينِهِمْ. وَلَوْ لَا مَا نَطَقَ الْقُرْآنُ بِهِ لَكَانَ مُخَالِفُونَا يَجْحَدُونَهُ دَفْعًا لِغَيْبَةِ صَاحِبِ الزَّمَانِ عَلَيْهِ السَّلَامِ وَإِلْحَاقَهُمْ بِهِ، لَكِنْ أَخْبَرَ اللَّهُ تَعَالَى أَنَّهُمْ بَقُوا ثَلَاثَمِائَةِ سَنَةٍ مِثْلَ ذَلِكَ مُسْتَتِرِينَ خَافِفِينَ ثُمَّ أَحْيَاهُمُ اللَّهُ تَعَالَى فَعَادُوا إِلَى قَوْمِهِمْ وَقِصَّتُهُمْ مَشْهُورَةٌ فِي ذَلِكَ.",
+        "translations": {
+          "en": "Likewise is the story of the 'people of the cave' narrated by the Quran, how their story unfolded and how they hid from their people and fled to save their religion. If the Quran had not spoken about it, our opponents would have rejected this in order to facilitate their denial of the occultation of the Master of the Age. However, Allah informed us that they remained three hundred years like that in hiding, in fear, and then Allah brought them back to life and they returned to their people. Their story is well known.",
+          "ur": "اور اسی طرح غار والوں کی کہی قرآن نے بیان کی ہے، کہ ان کی کیسے کہانی سامنے آئی اور وہ اپنے لوگوں سے چھپ گئے اور اپنی دین بچانے کے لیے بھاگ گئے۔ اگر قرآن نے اس کا ذکر نہ کیا ہوتا تو ہمارے مخالفین اسے اس لیے مسترد کر دیتے تاکہ صاحبِ زمانہ علیہ السلام کی غیبت کا انکار آسان ہو جائے۔ لیکن اللہ تعالیٰ نے ہمیں بتایا کہ وہ تین سو سال تک اسی طرح چھپے ہوئے، خوف میں رہے، پھر اللہ تعالیٰ نے انہیں زندہ کیا اور وہ اپنے لوگوں کے پاس لوٹ آئے۔ ان کی کہانی مشہور ہے۔",
+          "tr": "Maideh de bizim anlattığımız gibi, Ashab-ı Kehf'in kıssası da Kur'an tarafından anlatılmıştır; hallerinin nasıl geçtiği ve dinlerini kurtarmak için kavimlerinden saklanıp kaçışları Kur'an'da açıklanmıştır. Kur'an bununla ilgili konuşmasaydı, muhaliflerimiz Zamanın Efendisi'nin (a.s.) geybetini inkar etmek için bunu reddederlerdi. Ancak Allah Teâlâ, onların üç yüz yıl boyunca saklanarak, korku içinde kaldıklarını ve sonra Allah'ın onları diriltip kavimlerine döndüklerini bildirmiştir. Kıssaları meşhurdur.",
+          "fa": "و همچنین داستان اهل غار که در قرآن ذکر شده است، چگونه داستان آن‌ها پیش آمد و چگونه از قوم خود پنهان شدند و برای نجات دین خود فرار کردند. اگر قرآن درباره آن سخن نمی‌گفت، مخالفان ما برای تسهیل انکار غیبت صاحب الزمان (علیه السلام) آن را رد می‌کردند. اما خداوند متعال به ما خبر داد که آن‌ها سیصد سال در آن حالت، پنهان و در ترس ماندند، سپس خداوند آن‌ها را زنده کرد و آن‌ها به قوم خود بازگشتند. داستان آن‌ها مشهور است.",
+          "id": "Demikian pula kisah para penghuni gua yang diriwayatkan oleh Al-Qur'an, bagaimana kisah mereka unfolds dan bagaimana mereka bersembunyi dari kaum mereka serta lari untuk menyelamatkan agama mereka. Jika Al-Qur'an tidak menyebutkan hal ini, lawan-lawan kami akan menolaknya demi memudahkan penyangkalan mereka terhadap ghaibah (ketidakhadiran) Tuan Zaman (Imam Mahdi). Namun, Allah memberitahu kami bahwa mereka tetap selama tiga ratus tahun dalam keadaan tersembunyi dan penuh ketakutan, kemudian Allah menghidupkan mereka kembali dan mereka pulang kepada kaum mereka. Kisah mereka sangat terkenal.",
+          "bn": "এবং গুহার লোকদের গল্পও ঠিক এইরূপ, যা কুরআন বর্ণনা করেছে; তাদের অবস্থা কীভাবে প্রকাশ পেল এবং তারা কীভাবে তাদের লোকদের থেকে লুকিয়ে ধর্ম রক্ষার্থে পালিয়ে গেল। যদি কুরআন এ বিষয়ে উল্লেখ না করত, তবে আমাদের প্রতিপক্ষীরা সময়ের ইমামের গায়েবের অস্বীকারকে সহজতর করার জন্য এটি অস্বীকার করত। কিন্তু আল্লাহ তায়ালা আমাদের জানালেন যে, তারা তিনশত বছর ধরে ভয়ে লুকিয়ে থাকলেন, অতঃপর আল্লাহ তাদের জীবিত করলেন এবং তারা তাদের লোকদের কাছে ফিরে এলেন। তাদের গল্পটি সুপরিচিত।",
+          "es": "Así también es la historia de los 'compañeros de la cueva' narrada por el Corán, cómo se desarrolló su historia y cómo se ocultaron de su gente y huyeron para salvar su religión. Si el Corán no hubiera hablado de ello, nuestros oponentes lo habrían rechazado para facilitar su negación de la ocultación del Maestro de la Era. Sin embargo, Allah nos informó de que permanecieron trescientos años de esa manera en el ocultamiento, con miedo, y luego Allah los devolvió a la vida y regresaron a su gente. Su historia es bien conocida.",
+          "fr": "De même, l'histoire des gens de la grotte est racontée par le Coran, comment leur histoire s'est déroulée et comment ils se sont cachés de leur peuple et ont fui pour sauver leur religion. Si le Coran ne s'en était pas exprimé, nos opposants l'auraient rejeté afin de faciliter leur négation de l'occultation du Maître de l'Ère. Cependant, Allah nous a informés qu'ils sont restés trois cents ans comme cela, cachés, dans la peur, puis Allah les a ramenés à la vie et ils sont retournés vers leur peuple. Leur histoire est bien connue.",
+          "de": "Ebenso wird die Geschichte der Leute der Höhle im Quran erzählt, wie sich ihr Schicksal entwickelte und wie sie sich vor ihrem Volk verbargen und flohen, um ihren Glauben zu bewahren. Hätte der Quran nicht davon gesprochen, hätten unsere Gegner dies bestritten, um die Verleugnung der Verborgenheit des Herrn der Zeit (Friede sei mit ihm) zu erleichtern. Doch Allah teilte uns mit, dass sie dreihundert Jahre lang so in Verborgenheit und in Furcht verblieben, und dann erweckte Allah sie zum Leben, und sie kehrten zu ihrem Volk zurück. Ihre Geschichte ist weithin bekannt.",
+          "ru": "Также рассказывается история об обитателях пещеры, упомянутая в Коране, о том, как разворачивались их дела и как они скрывались от своего народа, убегая ради спасения своей религии. Если бы Коран не упомянул об этом, наши противники отвергли бы это, чтобы облегчить своё отрицание сокрытия Владыки Времени (да будет мир с ним). Однако Аллах сообщил нам, что они оставались триста лет в таком состоянии, скрываясь и испытывая страх, а затем Аллах вернул их к жизни, и они вернулись к своему народу. Их история хорошо известна.",
+          "zh": "同样，古兰经也叙述了山洞里的人们（أصحاب الكهف）的故事，讲述了他们的经历以及他们如何隐藏自己、逃离族人以保全自己的宗教。如果古兰经没有提及此事，我们的反对者就会加以否认，以便支持他们对时代伊玛目（صاحب الزمان عليه السلام）隐遁的否认。然而，真主告知我们，他们曾那样隐藏并处于恐惧之中长达三百年，随后真主使他们复活，他们便回到了族人中间。他们的故事是众所周知的。"
+        },
+        "word_start": 0,
+        "word_end": 59
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi employs the narrative of the People of the Cave (Ashab al-Kahf) to validate the plausibility of the Imam's occultation, arguing that since the Quran explicitly details their prolonged concealment, opponents cannot dismiss the Imam's hidden state as an unprecedented anomaly. This analogy serves as a theological defense against those who might deny the Ghaybah by claiming it lacks scriptural precedent, thereby linking the Imam's status to a well-established Quranic paradigm of divine protection and eventual return.",
+        "seo_question": "How does the story of the People of the Cave support the concept of the Imam's occultation?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "People of the Cave",
+          "الْقُرْآنُ": "The Quran",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "Occultation of the Master of the Age",
+          "مُسْتَتِرِينَ": "Hidden/Concealed",
+          "خَافِفِينَ": "Fearful/Afraid"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی غار والوں (اصحاب الکھف) کی روایت کو امام کی غائبانہ حالت کی معقولیت کی توثیق کے لیے استعمال کرتے ہیں، یہ استدلال کرتے ہوئے کہ چونکہ قرآن نے ان کی طویل پوشیدگی کی تفصیل بیان کی ہے، اس لیے مخالفین امام کی پوشیدہ حالت کو کوئی غیر معمولی واقعہ قرار دے کر مسترد نہیں کر سکتے۔ یہ مثال ان لوگوں کے خلاف ایک کلامی دفاع کا کام کرتی ہے جو غائبانہ حالت کو انکار کرتے ہوئے کہتے ہیں کہ اس کا کوئی قرآنی پیش رو نہیں ہے، اس طرح امام کی حیثیت کو الہیٰ تحفظ اور آخری واپسی کے ایک مستحکم قرآنی نمونے سے جوڑتی ہے۔",
+        "seo_question": "غار والوں کی کہیمی امام کی غائبانہ حالت کے تصور کی حمایت کیسے کرتی ہے؟",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "غار والے",
+          "الْقُرْآنُ": "قرآن",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "صاحب الزمان کی غائبانہ حالت",
+          "مُسْتَتِرِينَ": "پوشیدہ/چھپے ہوئے",
+          "خَافِفِينَ": "ڈرے ہوئے/خائف"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh et-Tusi, İmamın gizlenmesinin (Gaybet) makuliyetini doğrulamak için Mağaralıların (Eshab-ı Kehf) hikâyesini kullanır; Kur'an'ın onların uzun süreli gizlenmelerini açıkça detaylandırdığı için, muhalifler İmamın gizli durumunu benzersiz bir anormal durum olarak reddedemez. Bu benzetme, gizlenmeyi (Ghaybe) Kur'ani bir ön örneğin eksikliği iddia edenlere karşı teolojik bir savunma görevi görerek, İmamın statüsünü ilahi koruma ve nihai dönüşün yerleşik bir Kur'ani modeline bağlar.",
+        "seo_question": "Mağaralıların (Eshab-ı Kehf) hikâyesi, İmamın gizlenmesi (Ghaybet) kavramını nasıl destekler?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "Mağaralıların",
+          "الْقُرْآنُ": "Kur'an",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "Zamanın Efendisi'nin Gizlenmesi",
+          "مُسْتَتِرِينَ": "Gizlenmiş",
+          "خَافِفِينَ": "Korkan"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی با استفاده از روایت اصحاب کهف، امکان‌پذیری غیبت امام را اثبات می‌کند و استدلال می‌نماید که از آنجا که قرآن به صراحت به پنهان‌شدگی طولانی‌مدت آن‌ها اشاره دارد، مخالفان نمی‌توانند حالت پنهان امام را به عنوان یک پدیده بی‌سابقه رد کنند. این قیاس به عنوان دفاعی کلامی در برابر کسانی که غیبت را با ادعای عدم وجود پیشینه scriptural انکار می‌کنند، عمل می‌کند و وضعیت امام را به یک الگوی قرآنی مستقر از حفاظت الهی و بازگشت نهایی پیوند می‌زند.",
+        "seo_question": "داستان اصحاب کهف چگونه از مفهوم غیبت امام حمایت می‌کند؟",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "اصحاب کهف",
+          "الْقُرْآنُ": "قرآن",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "غیبت صاحب الزمان",
+          "مُسْتَتِرِينَ": "پنهان",
+          "خَافِفِينَ": "ترسان"
+        }
+      },
+      "id": {
+        "summary": "Syekh al-Tusi menggunakan narasi Penduduk Gua (Ashab al-Kahf) untuk memvalidasi kemungkinan terjadinya ghaib Imam, dengan berargumen bahwa karena Al-Qur'an secara eksplisit mendetailkan penyembunyian mereka yang berkepanjangan, lawan tidak dapat menolak keadaan tersembunyi Imam sebagai anomali yang belum pernah terjadi sebelumnya. Analogi ini berfungsi sebagai pertahanan teologis terhadap mereka yang mungkin menyangkal ghaib dengan mengklaim tidak adanya precedens skriptural, sehingga menghubungkan status Imam dengan paradigma Al-Qur'an yang mapan tentang perlindungan ilahi dan kembalinya pada akhirnya.",
+        "seo_question": "Bagaimana kisah Penduduk Gua mendukung konsep ghaib Imam?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "Penduduk Gua",
+          "الْقُرْآنُ": "Al-Qur'an",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "Ghaib Pemimpin Zaman",
+          "مُسْتَتِرِينَ": "Tersembunyi",
+          "خَافِفِينَ": "Takut"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-তুসি আশাবুল কাহফের (গুহার লোকদের) কাহিনীকে ইমামের গায়েবতের সম্ভাব্যতার প্রমাণ হিসেবে ব্যবহার করেন, যুক্তি দেন যে যেহেতু কুরআনে তাদের দীর্ঘকালীন লুকায়িত অবস্থার বিস্তারিত বর্ণনা রয়েছে, তাই প্রতিপক্ষ ইমামের লুকায়িত অবস্থাকে কোনো অপ্রচলিত বা অনন্য ঘটনা হিসেবে উপেক্ষা করতে পারবেন না। এই উপমা সেই সব ব্যক্তির বিরুদ্ধে একটি তাত্ত্বিক প্রতিরক্ষা হিসেবে কাজ করে যারা গায়েবতকে প্রত্যাখ্যান করতে পারেন, যুক্তি দিয়ে যে এর কোনো ধর্মীয় প্রমাণ নেই; এভাবে ইমামের মর্যাদাকে ঈশ্বরের রক্ষা এবং চূড়ান্ত প্রত্যাবর্তনের একটি সুপ্রতিষ্ঠিত কুরআনী আদর্শের সাথে যুক্ত করা হয়।",
+        "seo_question": "গুহার লোকদের কাহিনী ইমামের গায়েবতের ধারণাকে কীভাবে সমর্থন করে?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "গুহার লোকদের",
+          "الْقُرْآنُ": "কুরআন",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "সাহিবুজ জামানের গায়েবত",
+          "مُسْتَتِرِينَ": "লুকায়িত/গোপন",
+          "خَافِفِينَ": "ভীত/ভয়প্রাপ্ত"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi emplea la narrativa de la Gente de la Cueva (Ashab al-Kahf) para validar la plausibilidad de la ocultación del Imam, argumentando que, dado que el Corán el Corán detalla explícitamente su prolongado ocultamiento, los oponentes no pueden descartar el estado oculto del Imam como una anomalía sin precedentes. Esta analogía sirve como defensa teológica contra quienes podrían negar la Ghaybah al afirmar que carece de precedente scriptural, vinculando así el estatus del Imam a un paradigma coránico bien establecido de protección divina y retorno eventual.",
+        "seo_question": "¿Cómo apoya la historia de la Gente de la Cueva el concepto de la ocultación del Imam?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "Gente de la Cueva",
+          "الْقُرْآنُ": "El Corán",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "Ocultación del Maestro de la Era",
+          "مُسْتَتِرِينَ": "Ocultos/Encubiertos",
+          "خَافِفِينَ": "Temerosos/Miedo"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi utilise le récit des Gens de la Caverne (Ashab al-Kahf) pour valider la plausibilité de l'occultation de l'Imam, arguant que puisque le Coran détaille explicitement leur longue dissimulation, les opposants ne peuvent pas rejeter l'état caché de l'Imam comme une anomalie sans précédent. Cette analogie sert de défense théologique contre ceux qui pourraient nier la Ghaybah en affirmant qu'elle manque de précédent scripturaire, reliant ainsi le statut de l'Imam à un paradigme coranique bien établi de protection divine et de retour final.",
+        "seo_question": "Comment l'histoire des Gens de la Caverne soutient-elle le concept de l'occultation de l'Imam ?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "Gens de la Caverne",
+          "الْقُرْآنُ": "Le Coran",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "Occultation du Maître de l'Ère",
+          "مُسْتَتِرِينَ": "Cachés/Concevés",
+          "خَافِفِينَ": "Peureux/Affligés"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi nutzt die Erzählung der Leute der Höhle (Ashab al-Kahf), um die Plausibilität der Verborgenheit des Imams zu belegen, indem er argumentiert, dass der Koran deren lang anhaltende Versteckhaltung explizit beschreibt, sodass Gegner den verborgenen Zustand des Imams nicht als beispiellose Anomalie abtun können. Diese Analogie dient als theologische Verteidigung gegen diejenigen, die die Ghaybah leugnen, indem sie behaupten, sie habe kein scripturales Vorbild, und verknüpft so den Status des Imams mit einem etablierten koranischen Paradigma des göttlichen Schutzes und der endgültigen Rückkehr.",
+        "seo_question": "Wie unterstützt die Geschichte der Leute der Höhle das Konzept der Verborgenheit des Imams?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "Leute der Höhle",
+          "الْقُرْآنُ": "Der Koran",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "Verborgenheit des Herrn der Zeit",
+          "مُسْتَتِرِينَ": "Verborgen/Versteckt",
+          "خَافِفِينَ": "Furchtsam/Angsthabend"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Тусиуси использует повествование о людях пещеры (Асхаб аль-Кахф) для обоснования правдоподобия сокрытия имама, утверждая, что поскольку Коран подробно описывает их длительное сокрытие, противники не могут отвергнуть скрытое состояние имама как беспрецедентную аномалию. Эта аналогия служит теологической защитой от тех, кто может отрицать Гайбу, утверждая, что она не имеет предписанного предцедента, тем самым связывая статус имама с хорошо установленным кораническим парадигмой божественной защиты и будущего возвращения.",
+        "seo_question": "Как история людей пещеры поддерживает концепцию сокрытия имама?",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "люди пещеры",
+          "الْقُرْآنُ": "Коран",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "сокрытие владетеля эпохи",
+          "مُسْتَتِرِينَ": "скрытые/сокрытые",
+          "خَافِفِينَ": "боящиеся/испуганные"
+        }
+      },
+      "zh": {
+        "summary": "图西谢赫以洞穴人（Ashab al-Kahf）的故事来论证伊玛目隐遁的合理性，他指出《古兰经》明确记载了洞穴人长期的隐匿，因此反对者不能将伊玛目的隐藏状态视为前所未有的异常。这一类比作为神学辩护，针对那些声称隐遁缺乏经典先例而否认其存在的人，从而将伊玛目的地位与《古兰经》中关于神圣保护及最终回归的既定范式联系起来。",
+        "seo_question": "洞穴人的故事如何支持伊玛目隐遁的概念？",
+        "key_terms": {
+          "أَصْحَابُ الْكَهْفِ": "洞穴人",
+          "الْقُرْآنُ": "《古兰经》",
+          "غَيْبَةُ صَاحِبِ الزَّمَانِ": "时代之主隐遁",
+          "مُسْتَتِرِينَ": "隐藏/隐匿",
+          "خَافِفِينَ": "恐惧/害怕"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "18:9",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "18:22",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:45",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمِثْلُ مَا حَكَيْنَاهُ أَيْضًا قِصَّةُ أَصْحَابِ الْكَهْفِ وَقَدْ نَطَقَ بِهَا الْقُرْآنُ وَتَضَمَّنَ شَرْحَ حَالِهِمْ وَاسْتِتَارَهُمْ عَنْ قَوْمِهِمْ فِرَارًا بِدِينِهِمْ. وَلَوْ لَا مَا نَطَقَ الْقُرْآنُ بِهِ لَكَانَ مُخَالِفُونَا يَجْحَدُونَهُ دَفْعًا لِغَيْبَةِ صَاحِبِ الزَّمَانِ عَلَيْهِ السَّلَامِ وَإِلْحَاقَهُمْ بِهِ، لَكِنْ أَخْبَرَ اللَّهُ تَعَالَى أَنَّهُمْ بَقُوا ثَلَاثَمِائَةِ سَنَةٍ مِثْلَ ذَلِكَ مُسْتَتِرِينَ خَافِفِينَ ثُمَّ أَحْيَاهُمُ اللَّهُ تَعَالَى فَعَادُوا إِلَى قَوْمِهِمْ وَقِصَّتُهُمْ مَشْهُورَةٌ فِي ذَلِكَ.",
+    "isnad_matn": {
+      "isnad_ar": "ومثل ما حكيناه أيضا قصة أصحاب الكهف وقد نطق بها القرآن وتضمن شرح حالهم واستتارهم عن قومهم فرارا بدينهم. ولو لا ما نطق القرآن به لكان مخالفونا يجحدونه دفعا لغيبة صاحب الزمان عليه السلام وإلحاقهم به،لكن أخبر الله تعالى أنهم بقوا ثلاثمائة سنة مثل ذلك مستترين خائفين ثم أحياهم الله تعالى فعادوا إلى قومهم وقصتهم مشهورة في",
+      "matn_ar": "وَمِثْلُ مَا حَكَيْنَاهُ أَيْضًا قِصَّةُ أَصْحَابِ الْكَهْفِ وَقَدْ نَطَقَ بِهَا الْقُرْآنُ وَتَضَمَّنَ شَرْحَ حَالِهِمْ وَاسْتِتَارَهُمْ عَنْ قَوْمِهِمْ فِرَارًا بِدِينِهِمْ. وَلَوْ لَا مَا نَطَقَ الْقُرْآنُ بِهِ لَكَانَ مُخَالِفُونَا يَجْحَدُونَهُ دَفْعًا لِغَيْبَةِ صَاحِبِ الزَّمَانِ عَلَيْهِ السَّلَامِ وَإِلْحَاقَهُمْ بِهِ، لَكِنْ أَخْبَرَ اللَّهُ تَعَالَى أَنَّهُمْ بَقُوا ثَلَاثَمِائَةِ سَنَةٍ مِثْلَ ذَلِكَ مُسْتَتِرِينَ خَافِفِينَ ثُمَّ أَحْيَاهُمُ اللَّهُ تَعَالَى فَعَادُوا إِلَى قَوْمِهِمْ وَقِصَّتُهُمْ مَشْهُورَةٌ فِي ذَلِكَ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "ومثل ما حكيناه أيضا قصة أصحاب الكهف وقد نطق بها القرآن وتضمن شرح حالهم واستتارهم",
+          "name_en": "wa-mathal ma hakiyanah aydan qissat as-hab al-kahf wa-qad nathqa biha al-qur'an wa-tadammana sharh hal-hum wa-istitar-hum",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "قومهم فرارا بدينهم. ولو لا ما نطق القرآن به لكان مخالفونا يجحدونه دفعا لغيبة صاحب الزمان عليه السلام وإلحاقهم به،لكن أخبر الله تعالى أنهم بقوا ثلاثمائة سنة مثل ذلك مستترين خائفين ثم أحياهم الله تعالى فعادوا إلى قومهم وقصتهم مشهورة في",
+          "name_en": "qawm-hum firaran bi-din-him. wa-law la ma nathqa al-qur'an bihi lakana mukhalifuna yujhidunahu daf'an li-ghaybat sa-hib al-zaman 'alayhi al-salam wa-ilhah-hum bihi, lakin akhbar Allahu ta'ala annahum baqu thalathumi'at sanatin mithla dhalika mustatirin khafifin thumma ahyahum Allahu ta'ala fa-'aduu ila qawm-him wa-qas-sat-hum mashhuratun fi",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "صَاحِبُ الزَّمَانِ",
+        "phrase_en": "Master of the Age",
+        "category": "theological_concept"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

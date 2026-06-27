@@ -1,0 +1,536 @@
+{
+  "verse_path": "/books/al-kafi:8:1:39:9",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[3] en translation length out of bounds: 7 en words vs 23 ar words (ratio=0.30, expected 9.2-92.0)",
+    "chunks[3] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[4] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[5] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[5] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[5] word '(صلى' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'وآله)' has no diacritics (must be fully diacritized)",
+    "chunks[6] en translation length out of bounds: 5 en words vs 27 ar words (ratio=0.19, expected 10.8-108.0)",
+    "chunks[7] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[7] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[9] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[9] word '(صلى' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'وآله)' has no diacritics (must be fully diacritized)",
+    "chunks[9] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'السلام)' has no diacritics (must be fully diacritized)",
+    "chunks[9] word '(صلى' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[9] word 'وآله)' has no diacritics (must be fully diacritized)",
+    "chunks[11] en translation length out of bounds: 3 en words vs 14 ar words (ratio=0.21, expected 5.6-56.0)"
+  ],
+  "result": {
+    "tags": [
+      "quran_commentary",
+      "history",
+      "governance"
+    ],
+    "content_type": "quranic_commentary",
+    "topics": [
+      "quran_interpretation_method",
+      "companions",
+      "events",
+      "ghadir",
+      "imamate"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَنْهُ عَنْ عَلِيِّ بْنِ الْحُسَيْنِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+        "translations": {
+          "en": "From him, from Ali ibn al-Husayn, from Ali ibn Abi Hamza, from Abu Baseer, from Abu Abdillah (peace be upon him).",
+          "ur": "وہیں سے، علی بن حسین سے، علی بن ابی حمزہ سے، ابو بصیر سے، ابو عبداللہ (علیه السلام) سے۔",
+          "tr": "Onunla, Ali bin el-Hüseyin, Ali bin Ebi Hamza, Ebu Besir, Ebu Abdillah (aleyhisselam Ebu Abdillah (aleyhisselam) aracılığıyla.",
+          "fa": "مِنْهُ عَنْ عَلِيِّ بْنِ الْحُسَيْنِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ (ع)",
+          "id": "Dari beliau, dari Ali bin al-Husain, dari Ali bin Abi Hamza, dari Abu Baseer, dari Abu Abdillah (alamah).",
+          "bn": "তিনি হতে, আলী ইবনুল হুসাইন হতে, আলী ইবনুল আবী হামযা হতে, আবু বসীর হতে, আবু আব্দillah (আলাইহিস সালাম) হতে।",
+          "es": "De él, de Ali ibn al-Husayn, de Ali ibn Abi Hamza, de Abu Baseer, de Abu Abdillah (la paz sea con él).",
+          "fr": "De lui, d'Ali ibn al-Husayn, d'Ali ibn Abi Hamza, d'Abou Baseer, d'Abou Abdillah (que la paix soit sur lui).",
+          "de": "Von ihm, von Ali ibn al-Husayn, von Ali ibn Abi Hamza, von Abu Baseer, von Abu Abdillah (Friede sei mit ihm).",
+          "ru": "От него, от него, от Али ибн аль-Хусайна, от Али ибн Аби Хамзы, от Абу Басира, от Абу Абдиллаха (да будет мир с ним).",
+          "zh": "从他，从阿里·本·侯赛因，从阿里·本·阿比·哈姆宰，从阿布·巴绥尔，从阿布·阿卜杜拉（愿主安宁）传述。"
+        },
+        "word_start": 0,
+        "word_end": 19
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ ما يَكُونُ مِنْ نَجْوى ثَلاثَةٍ إِلَّا هُوَ رابِعُهُمْ وَ لا خَمْسَةٍ إِلَّا هُوَ سادِسُهُمْ وَ لا أَدْنى مِنْ ذلِكَ وَ لا أَكْثَرَ إِلَّا هُوَ مَعَهُمْ أَيْنَ ما كانُوا ثُمَّ يُنَبِّئُهُمْ بِما عَمِلُوا يَوْمَ الْقِيامَةِ إِنَّ اللَّهَ بِكُلِّ شَيْ‏ِّ شَيْ‏ءٍ عَلِيمٌ",
+        "translations": {
+          "en": "Regarding the Statement of Allah, Mighty and Majestic: 'No secret counsel between three persons but He is the fourth of them, nor (between) five but He is the sixth of them, nor less than that nor more but He is with them wheresoever they are; then He will inform them of what they did on the day of resurrection: surely Allah is Cognizant of all things.'",
+          "ur": "اللہ تعالیٰ کے ارشادِ گرامی کے بارے میں: 'تین لوگوں کا کوئی خفیہ مشورہ نہیں ہوتا مگر وہ ان کا چوتھا ہے، اور پانچ کا نہیں ہوتا مگر وہ ان کا چھٹا ہے، اور اتنے ہی یا اس سے کم یا زیادہ کا نہیں ہوتا مگر وہ ان کے ساتھ جہاں کہیں بھی ہوتے ہیں؛ پھر وہ انہیں بتائے گا کہ انہوں نے کیا کیا، بے شک اللہ ہر چیز کا جاننے والا ہے۔'",
+          "tr": "Allah'ın (celle şanüh) buyurduğu söz hakkında: 'Üç kişi arasında gizli bir konuşma olsa, O dördüncüsüdür; beş kişi arasında olsa, O altıncısıdır; daha azı veya daha çoğu arasında olsa, O nerede iseler onlarla birlikte bulunur; sonra kıyamet gününde onlara yaptıklarını haber verecektir. Şüphesiz Allah her şeye hakîmdir.'",
+          "fa": "در مورد سخن خداوند متعال: «هرگاه سه نفر در راز و نیاز باشند، او چهارم آن‌هاست، و هرگاه پنج نفر باشند، او ششم آن‌هاست، و نه کمتر از آن و نه بیشتر، بلکه او با آنان است هر جا که باشند؛ سپس آنان را از آنچه انجام داده‌اند آگاه می‌سازد؛ بی‌گمان خداوند به همه چیز داناست.»",
+          "id": "Mengenai firman Allah, Yang Maha Perkasa lagi Maha Agung: 'Tidak ada rahasia bisikan antara tiga orang melainkan Dia adalah yang keempat dari mereka, dan (tidak pula) antara lima orang melainkan Dia adalah yang keenam dari mereka, dan tidak (pula) antara kurang dari itu dan tidak (pula) lebih dari itu melainkan Dia adalah bersama mereka, di mana pun mereka berada; kemudian Dia akan memberitahukan kepada mereka apa yang telah mereka kerjakan pada hari kiamat; sesungguhnya Allah Maha Mengetahui segala sesuatu.'",
+          "bn": "আল্লাহ তাআলার বাক্যের বিষয়ে: 'তিন জনের গোপন পরামর্শে তিনিই চতুর্থ, আর পাঁচ জনের মধ্যে তিনিই ষষ্ঠ, আর যত কম বা বেশি হোক না কেন, যেখানেই তারা থাকুক না কেন, তিনি তাদের সাথে আছেন; অতঃপর তিনি তাদেরকে তাদের কর্মের বিষয়ে জিজ্ঞাসাবাদ করবেন কিয়ামতের দিনে; নিশ্চয়ই আল্লাহ সব কিছুর ওপর সর্বজ্ঞ।'",
+          "es": "En cuanto a la declaración de Allah, Poderoso y Majestuoso: 'No hay consejo secreto entre tres personas sino que Él es el cuarto de ellos, ni (entre) cinco sino que Él es el sexto de ellos, ni menos que eso ni más sino que Él está con ellos dondequiera que estén; entonces Él les informará de lo que hicieron el día de la resurrección: ciertamente Allah es Conocedor de todas las cosas.'",
+          "fr": "Concernant la parole d'Allah, Puissant et Majestueux : « Nul secret entretien entre trois personnes sans qu'Il ne soit leur quatrième, ni entre cinq sans qu'Il ne soit leur sixième, ni moins que cela ni plus, sans qu'Il ne soit avec eux où qu'ils soient ; puis Il les informera de ce qu'ils ont fait au jour de la Résurrection : certes, Allah est Omniscient de toutes choses. »",
+          "de": "Was die Aussage Allahs, Mächtig und Erhaben betrifft: „Kein geheimes Gespräch unter drei Personen, ohne dass Er der Vierte von ihnen ist, und nicht (unter) fünf, ohne dass Er der Sechste von ihnen ist, und nicht weniger als das und nicht mehr, ohne dass Er bei ihnen ist, wo immer sie sind; dann wird Er sie über das informieren, was sie getan haben, am Tag der Auferstehung; gewiss, Allah ist Allwissend über alle Dinge.“",
+          "ru": "Что касается слова Всевышнего Аллаха: «Не бывает тайной беседы троих, чтобы Он не был их четвертым, и пятерых, чтобы Он не был их шестым, и меньше того или больше, чтобы Он не был с ними, где бы они ни были; затем Он сообщит им о том, что они совершили, в День Воскресения; ведь Аллах ведает обо всем».",
+          "zh": "关于真主 Mighty and Majestic 的言说：‘三人私谈，他必是第四位；五人私谈，他必是第六位；不足五人，也不过多，无论他们在何处，他必与他们同在；然后他将在复活日告诉他们所做的事；的确，真主是全知万物的。’"
+        },
+        "word_start": 19,
+        "word_end": 65
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ نَزَلَتْ هَذِهِ الْآيَةُ فِي فُلَانٍ وَ فُلَانٍ وَ أَبِي عُبَيْدَةَ الْجَرَّاحِ وَ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَ سَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ وَ الْمُغِيرَةِ بْنِ شُعْبَةَ حَيْثُ كَتَبُوا الْكِتَابَ بَيْنَهُمْ وَ تَعَاهَدُوا وَ تَوَافَقُوا لَئِنْ مَضَى مُحَمَّدٌ لَا تَكُونُ الْخِلَافَةُ فِي بَنِي هَاشِمٍ وَ لَا النُّبُوَّةُ أَبَداً فَأَنْزَلَ اللَّهُ عَزَّ وَ جَلَّ فِيهِمْ هَذِهِ الْآيَةَ",
+        "translations": {
+          "en": "He (peace be upon him) said: 'This verse was revealed regarding so-and-so and so-and-so, and Abu Ubayda al-Jarrah, and Abd al-Rahman ibn Awf, and Salim, the freedman of Abu Hudhayfa, and al-Mughira ibn Shu'ba, when they wrote the agreement among themselves and pledged and agreed: if Muhammad passes away, the Caliphate shall not be in the Clan of Hashim, nor the Prophethood ever. So Allah, Mighty and Majestic, revealed this verse concerning them.'",
+          "ur": "آپ (صلی اللہ علیہ وسلم) نے فرمایا: یہ آیت فلان اور فلان کے بارے میں نازل ہوئی، اور عبیدہ الجراح، اور عبدالرحمن بن عوف، اور سالم، ابو حذیفہ کے مملوک، اور مغیرہ بن شعبہ کے بارے میں نازل ہوئی، جب انہوں نے آپس میں معاہدہ لکھا اور عہد و پیمان کیا کہ اگر محمد (صلی اللہ علیہ وسلم) کا انتقال ہو جائے تو خلافت بنو ہاشم میں نہ ہو، اور نبوت کبھی نہ ہو۔ پس اللہ تعالیٰ نے یہ آیت ان کے بارے میں نازل فرمائی۔",
+          "tr": "O (aleyhisselam) şöyle dedi: 'Bu ayet, şunlar ve şunlar için, Ebû Übeyde b. Cerrâh, Abdurrahman b. Avf, Salim (Ebû Hudeyfe'nin kölesi), Mûgîre b. Şu'be için indirildi; onlar kendi aralarında bir anlaşma yazdılar ve yemin edip kararlaştırdılar: 'Eğer Muhammed vefat ederse, hilafet Haşimoğullarında olmayacak, peygamberlik de asla olmayacaktır.' Bunun üzerine Allah, Celil ve Azîz, bu ayeti onlar için indirdi.'",
+          "fa": "او (صلی الله علیه و آله) فرمود: این آیه دربارهٔ فلان و فلان، و ابوعبیده جراح، و عبدالرحمن بن عوف، و سالم، مملوک آزادشدهٔ ابوحذیفه، و مغیره بن شعبه نازل شد، هنگامی که پیمان‌نامه‌ای میان خود نوشتند و سوگند یاد کردند و توافق نمودند: اگر محمد (ص) بگذرد، خلافت در قبیلهٔ هاشم نخواهد بود، و نبوت نیز هرگز [به آنان] بازنگردد. پس خداوند، توانا و بزرگ‌وار، این آیه را دربارهٔ آنان نازل فرمود.",
+          "id": "Beliau (shallallahu ‘alaihi wasallam) bersabda: 'Ayat ini diturunkan mengenai si fulan dan si fulan, serta Abu Ubaidah al-Jarrah, Abdurrahman bin Auf, Salim, budak lepas Abu Hudzaifah, dan Al-Mughirah bin Syu'bah, ketika mereka membuat perjanjian di antara mereka dan berjanji serta sepakat: Jika Muhammad wafat, kekhalifahan tidak akan berada di Bani Hasyim, dan kenabian tidak akan pernah (kembali). Maka Allah, Maha Perkasa lagi Maha Mulia, menurunkan ayat ini mengenai mereka.'",
+          "bn": "তিনি (সা.) বললেন: 'এই আয়াতটি ওহাই ও ওহাই সম্পর্কে অবতীর্ণ হয়েছে, এবং আবু উবাইদাহ আল-জাররাহ, আবদুর রহমান ইবনে আউফ, সালাম (আবু হুদায়ফার মুক্তদাস), এবং আল-মুগীরাহ ইবনে শু'বা সম্পর্কে, যখন তারা পরস্পরের মধ্যে চুক্তি লিখেছিল এবং শপথ ও সম্মতি প্রকাশ করেছিল: যদি মুহাম্মদ (সা.) ইন্তেকাল করেন, তবে খিলাফত হাশিম গোত্রের মধ্যে থাকবে না, এবং নবুওয়াত কখনোই (হাশিম গোত্রের মধ্যে) থাকবে না। অতএব, আল্লাহ তায়ালা মহান ও মাহান হয়ে এই আয়াতটি তাদের সম্পর্কে অবতীর্ণ করেছেন।'",
+          "es": "Dijo (que la paz sea con él): «Esta reveló respecto a tal y cual, y a Ubayd Allah ibn Mas'ud, y a Abu Ubayda al-Yarrah, y a Abd al-Rahman ibn Awf, y a Salim, el mawla de Abu Hudhayfa, y a al-Mughira ibn Shu'ba, cuando concertaron entre sí un acuerdo y juraron y convinieron: «Si Muhammad muere, el califato no estará en el Clan de Hashim, ni la profecía jamás». Entonces Allah, Poderoso y Majestuoso, reveló esta versículo respecto a ellos».",
+          "fr": "Il (que la paix soit sur lui) a dit : « Ce verset a été révélé à propos de tel et tel, et d’Abou ‘Oubayda ibn al-Jarrah, et d’Abd al-Rahman ibn ‘Awf, et de Salim, l’affranchi d’ Abou Hudhayfa, et d’al-Mughira ibn Shu‘ba, lorsqu’ils passèrent entre eux un accord et prêtèrent serment et convinrent : si Muhammad venait à décéder, le Califat ne serait pas dans le Clan de Hachim, et la Prophétie n’y serait jamais. Alors Allah, Puissant et Majestueux, révéla ce verset à leur sujet. »",
+          "de": "Er (Friede sei mit ihm) sagte: „Dieses Vers wurde bezüglich So-und-So und So-und-So, sowie Abu Ubayda al-Dscharrah, Abd ar-Rahman ibn Awf, Salim, der Freigelassene des Abu Hudhayfa, und al-Mughira ibn Schu'ba offenbart, als sie unter sich einen Vertrag schlossen und sich verpflichteten und vereinbarten: Wenn Muhammad stirbt, soll das Kalifat nicht in der Sippe Hashims liegen, noch die Prophetentum je. Da offenbarte Allah, der Mächtige und Erhabene, diesen Vers bezüglich ihnen.“",
+          "ru": "Он (да будет над ним мир) сказал: «Эта аята была ниспослана относительно такого-то и такого-то, и Абу Убайды иль-Джарраха, и Абд ар-Рахмана ибн Ауфа, и Салима, вольноотпущенника Абу Хузайфы, и аль-Мугиры ибн Шу’бы, когда они заключили между собой соглашение и поклялись и договорились: если Мухаммад умрёт, то халифат не будет в клане Хашим, а пророчество никогда [не вернётся]. И Аллах, Всемогущий и Величественный, ниспослал эту аяту относительно них».",
+          "zh": "他（愿主福安之）说：'这节经文是关于某某和某某，以及艾布·欧拜德·贾拉赫、阿卜杜·拉赫曼·本·奥夫、萨利姆（艾布·胡代法·的释奴）和穆吉拉·本·舒尔白，当他们彼此订立协议并宣誓约定：如果穆罕默德去世，哈里发权不归于哈希姆家族，先知职也永不复归。于是，真主，至尊至荣的，降示了这节经文以针对他们。'"
+        },
+        "word_start": 65,
+        "word_end": 120
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ قَوْلُهُ عَزَّ وَ جَلَّ أَمْ أَبْرَمُوا أَمْراً فَإِنَّا مُبْرِمُونَ أَمْ يَحْسَبُونَ أَنَّا لا نَسْمَعُ سِرَّهُمْ وَ نَجْواهُمْ بَلى وَ رُسُلُنا لَدَيْهِمْ يَكْتُبُونَ",
+        "translations": {
+          "en": "I said: 'His Statement, Mighty and Majestic: ",
+          "ur": "میں نے کہا: اس کی قولِ عالی و جلیل:",
+          "tr": "Dedim ki: 'Onun, Yüce ve Azîz'in buyurdu ki:",
+          "fa": "گفتم: «قول او، عزّ و جل:",
+          "id": "Aku berkata: 'Pernyataan-Nya, Yang Maha Perkasa dan Mulia:",
+          "bn": "আমি বললাম: 'তার বাক্য, মহিমান্বিত ও মহান:'",
+          "es": "Dije: \"Su declaración, Poderoso y Majestuoso:",
+          "fr": "J'ai dit : « Sa parole, Puissant et Majestueux :",
+          "de": "Ich sagte: „Seine Ergebung, Allmächtig und Majestätisch:",
+          "ru": "Я сказал: «Его, Всевышний и Величественный, слова:",
+          "zh": "我说：他的尊贵伟大的言辞："
+        },
+        "word_start": 120,
+        "word_end": 143
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ وَ هَاتَانِ الْآيَتَانِ نَزَلَتَا فِيهِمْ ذَلِكَ الْيَوْمَ",
+        "translations": {
+          "en": "He (peace be upon him) said: 'And these two verses were revealed concerning them on that day.'",
+          "ur": "انہوں نے (صلی اللہ علیہ وسلم) فرمایا: اور یہ دو آیات ان کے بارے میں اسی دن نازل ہوئیں۔",
+          "tr": "O (aleyhisselam) şöyle dedi: \"Bu iki ayet, o gün onlar için indirildi.\"",
+          "fa": "او (صلی الله علیه و آله) فرمود: «و این دو آیه در آن روز درباره آنان نازل شد.»",
+          "id": "Beliau (shallallahu 'alaihi wasallam) bersabda: 'Dan kedua ayat ini diturunkan mengenai mereka pada hari itu.'",
+          "bn": "তিনি (সা.) বললেন: 'এই দুই আয়াত ওই দিন তাদের জন্যই অবতীর্ণ হয়েছিল।'",
+          "es": "Dtext: ",
+          "fr": "Il (que la paix soit sur lui) a dit : « Et ces deux versets ont été révélés à leur sujet en ce jour-là. »",
+          "de": "Er (friede sei mit ihm) sagte: „Und diese beiden Verse wurden an jenem Tag über sie offenbart.“",
+          "zh": "他（愿主福安之）说：\"这两节经文是在那天为她们而降示的。\"",
+          "ru": ""
+        },
+        "word_start": 143,
+        "word_end": 151
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ (عليه السلام) لَعَلَّكَ تَرَى أَنَّهُ كَانَ يَوْمٌ يُشْبِهُ يَوْمَ كُتِبَ الْكِتَابُ إِلَّا يَوْمَ قُتِلَ الْحُسَيْنُ (عليه السلام) وَ هَكَذَا كَانَ فِي سَابِقِ عِلْمِ اللَّهِ عَزَّ وَ جَلَّ الَّذِي أَعْلَمَهُ رَسُولَ اللَّهِ (صلى الله عليه وآله) أَنْ إِذَا كُتِبَ الْكِتَابُ قُتِلَ الْحُسَيْنُ وَ خَرَجَ الْمُلْكُ مِنْ بَنِي هَاشِمٍ فَقَدْ كَانَ ذَلِكَ كُلُّهُ",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) said: 'Perhaps you will see that it was a day resembling the day the agreement was written, except for the day al-Husayn (peace be upon him) was martyred. And thus it was in the Preceding Knowledge of Allah, Mighty and Majestic, which He made known to the Messenger of Allah (peace be upon him and his family): that when the agreement was written, al-Husayn would be martyred and the kingdom would depart from the Clan of Hashim. So all of that did take place.'",
+          "ur": "ابو عبداللہ (علیہ السلام) نے فرمایا: 'شاید تم دیکھو کہ یہ وہ دن تھا جو اس دن سے مشابہت رکھتا تھا جب معاہدہ لکھا گیا، سوائے اس دن کے جب الحسین (علیہ السلام) شہید ہوئے۔ اور یہی اللہ تعالیٰ کی مقدس و جلیل علم میں تھا، جس نے اسے رسول اللہ (صلی اللہ علیہ و آلہ وسلم) کو معلوم فرمایا: کہ جب معاہدہ لکھا گیا تو الحسین شہید ہو جائیں گے اور بادشاہت ہاشمی خاندان سے چلی جائے گی۔ پس ان سب چیزوں کا وقوع واقع ہوا۔'",
+          "tr": "text",
+          "fa": "ابو عبدالله (علیه السلام) فرمود: «شاید شما بگویید که آن روزی بود که شبیه به روزی که عهدنامه (صلح) نوشته شد، به جز روزی که حسین (علیه السلام) به شهادت رسید. و این چنین بود در علم پیشین خداوند، توانا و برتر، که او آن را به پیامبر خدا (صلی الله علیه و آله و سلم) آشکار ساخت: که هنگامی که عهدنامه نوشته شد، حسین به شهادت خواهد رسید و پادشاهی از خاندان هاشم خواهد رفت. پس همه اینها واقع شد.»",
+          "id": "Abu Abdillah (alamaihissalam) berkata, 'Mungkin kalian akan melihat bahwa itu adalah hari yang menyerupai hari ketika perjanjian itu dituliskan, kecuali hari ketika al-Husayn (alamaihissalam) syahid. Dan demikianlah terjadi dalam Ilmu Allah Yang Maha Perkasa lagi Maha Mulia, yang telah Dia perlihatkan kepada Rasul-Nya (shallallahu ‘alaihi wa aalihi): bahwa ketika perjanjian itu dituliskan, al-Husayn akan syahid dan kerajaan akan berpindah dari Bani Hasyim. Maka semua itu benar-benar terjadi.'",
+          "bn": "আবু আবদিল্লাহ (আলাইহিসসালাম) বলেন: 'তোমরা দেখতে পাও যে, এটি সেই দিনের মতো ছিল যখন চুক্তি লেখা হয়েছিল, শুধুমাত্র আল-হুসাইন (আলাইহিসসালাম) শাহাদাত বরণ করেন সেই দিন বাদে। এবং এভাবেই ছিল আল্লাহর মহিমান্বিত ও মাহান সত্তার পূর্বজ্ঞানে, যা তিনি আল্লাহর রাসূল (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সাল্লাম)-কে জানিয়েছিলেন: যে চুক্তি লেখা হওয়ার সময় আল-হুসাইন শাহাদাত বরণ করবেন এবং হাশিমী বংশের রাজত্ব অন্তহীন হবে। তাই সবকিছুই ঘটেছিল।'।",
+          "es": "Abu Abdillah (la paz sea con él) dijo: «Quizá veas que fue un día semejante al día en que se escribió el tratado, excepto el día en que fue martirizado al-Husayn (la paz sea con él). Y así fue en el Conocimiento Previo de Allah, Poderoso y Majestuoso, que Él reveló al Mensajero de Allah (la paz sea con él y con su familia): que cuando se escribió el tratado, al-Husayn sería martirizado y el reino se apartaría de la Familia de Hashim. Así que todo eso ocurrió.",
+          "fr": "Abou Abdillah (que la paix soit sur lui) a dit : « Peut-être verras-tu que ce fut un jour semblable au jour où le traité fut rédigé, à l’exception du jour où al-Husayn (que la paix soit sur lui) fut martyrisé. Et ainsi en fut-il dans la Connaissance antérieure d’Allah, Puissant et Majestueux, qu’Il révéla au Messager d’Allah (que la paix soit sur lui et sur sa famille) : lorsque le traité fut rédigé, al-Husayn serait martyrisé et la royauté quitterait la famille de Hachim. Et tout cela s’est accompli. »",
+          "de": "Abu Abdillah (friede sei mit ihm) sagte: »Vielleicht wirst du sehen, dass es ein Tag war, der dem Tag glich, an dem der Vertrag geschrieben wurde, mit Ausnahme des Tages, an dem al-Husayn (friede sei mit ihm) als Märtyrer hingerichtet wurde. Und so war es in der Vorherbestimmung Allahs, des Mächtigen und Erhabenen, die Er dem Gesandten Allahs (friede sei mit ihm und seiner Familie) bekannt machte: dass, als der Vertrag geschrieben wurde, al-Husayn hingerichtet werden würde und die Herrschaft von der Sippe Hashims abgehen würde. So geschah denn all das.«",
+          "ru": "Абу Абдуллах (да будет мир с ним) сказал: «Возможно, вы увидите, что это был день, подобный дню, когда было написано соглашение, за исключением дня, когда аль-Хусейн (да будет мир с ним) был убит в числе мучеников. И так было в Предвечном Знании Аллаха, Всевышнего и Величественного, которое Он открыл Посланнику Аллаха (мир ему и его семье): что когда было написано соглашение, аль-Хусейн будет убит в числе мучеников, а власть отойдет от рода Хашима. И всё это действительно произошло».",
+          "zh": "阿布杜拉（愿主喜悦之）说：或许你会看到，那是一个与签订协议之日相似的日子，除了侯赛因（愿主喜悦之）殉难之日。这正如全能尊贵的真主在前定中所知晓，并启示给真主的使者（愿主福安之及其家属）的那样：当协议签订时，侯赛因将殉难，哈希姆家族的统治权也将离去。因此，这一切都确实发生了。"
+        },
+        "word_start": 151,
+        "word_end": 206
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ وَ إِنْ طائِفَتانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا فَأَصْلِحُوا بَيْنَهُما فَإِنْ بَغَتْ إِحْداهُما عَلَى الْأُخْرى فَقاتِلُوا الَّتِي تَبْغِي حَتَّى تَفِي‏ءَ إِلى أَمْرِ اللَّهِ فَإِنْ فاءَتْ فَأَصْلِحُوا بَيْنَهُما بِالْعَدْلِ",
+        "translations": {
+          "en": "I said: 'And the Verse: ",
+          "ur": "میں نے کہا: اور آیت:",
+          "tr": "Dedim ki: 'Ve ayet:",
+          "fa": "گفتم: و آیه:",
+          "id": "Aku berkata: 'Dan Ayat:",
+          "bn": "আমি বললাম: 'এবং আয়াতটি:",
+          "es": "Dije: «Y el Versículo:",
+          "fr": "J'ai dit : « Et le verset : »",
+          "de": "Ich sagte: „Und die Vers:",
+          "ru": "Я сказал: «А что касается аята:",
+          "zh": "我说：\"那节文："
+        },
+        "word_start": 206,
+        "word_end": 233
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ الْفِئَتَانِ إِنَّمَا جَاءَ تَأْوِيلُ هَذِهِ الْآيَةِ يَوْمَ الْبَصْرَةِ وَ هُمْ أَهْلُ هَذِهِ الْآيَةِ وَ هُمُ الَّذِينَ بَغَوْا عَلَى أَمِيرِ الْمُؤْمِنِينَ (عليه السلام) فَكَانَ الْوَاجِبَ عَلَيْهِ قِتَالُهُمْ وَ قَتْلُهُمْ حَتَّى يَفِيئُوا إِلَى أَمْرِ اللَّهِ",
+        "translations": {
+          "en": "He (peace be upon him) said: 'The two groups, rather its explanation came on the day of al-Basra (the Battle of the Camel), and they are the ones belonging to this verse, and they are the ones who rebelled against Amir al-Mu'minin (peace be upon him). So it was obligatory upon him to fight them and kill them until they submitted to the Command of Allah.'",
+          "ur": "انہوں نے (صلی اللہ علیہ وسلم) فرمایا: 'دو گروہوں کے بارے میں، بلکہ اس کی تشریح يوم البصرہ (معركة الجمل) کے دن آئی، اور یہ وہ لوگ ہیں جو اس آیت کے مستحق ہیں، اور یہ وہ لوگ ہیں جنہوں نے امیر المومنین (صلی اللہ علیہ وسلم) کے خلاف بغاوت کی۔ لہذا ان پر ان سے جنگ کرنا اور انہیں قتل کرنا واجب تھا جب تک کہ وہ اللہ کے حکم کے تابع نہ ہو جائیں۔'",
+          "tr": "O (s.a.v.) şöyle buyurdu: 'İki grup, daha doğrusu onların açıklaması Basra Günü (Devret Savaşı) geldi ve onlar bu ayetin sahipleridir ve onlar Emirü'l-Müminin'e (s.a.v.) isyan edenlerdir. Bu yüzden O'nun onlarla savaşması ve Allah'ın emrine boyun eğene kadar onları öldürmesi vacip oldu.'",
+          "fa": "او (صلی‌الله‌علیه‌وسلم فرمود: «آن دو گروه، بلکه توضیح آن در روز بصره (جمل) آمد و آنان کسانی هستند که این آیه درباره آنان نازل شده و آنان کسانی هستند که با امیرالمؤمنین (علیه‌السلام) شورش کردند. پس بر او واجب بود که با آنان بجنگد و آنان را بکشد تا زمانی که به فرمان خدا تسلیم شوند.»",
+          "id": "Ia (shalallahu ‘alaihi wasallam) bersabda: \"Dua golongan itu, bahkan penjelasannya datang pada hari al-Bashra (Perang Kamel), dan merekalah yang termasuk dalam ayat ini, dan merekalah yang memberontak terhadap Amir al-Mu'minin (shalallahu ‘alaihi wasallam). Maka wajib atasnya untuk memerangi mereka dan membunuh mereka hingga mereka tunduk kepada Perintah Allah.\"",
+          "bn": "তিনি (সা.) বললেন: 'এই দুই দল, বরং এর ব্যাখ্যা আসে আল-বসরার দিনে (কামেলের যুদ্ধে), এবং তারা সেই ব্যক্তিগণ যারা এই আয়াতের অন্তর্ভুক্ত, এবং তারা সেই ব্যক্তিগণ যারা আমিরুল মুমিনীন (সা.)-এর বিরুদ্ধে বিদ্রোহ করেছিল। তাই তাঁর উপর তাদের সাথে যুদ্ধ করা এবং তাদেরকে আল্লাহর আদেশে আত্মসমর্পণ না করা পর্যন্ত হত্যা করা ফরজ ছিল।'",
+          "es": "Dijo (que la paz sea con él): 'Los dos grupos, más bien su explicación se produjo el día de al-Basra (la Batalla del Camello), y son aquellos pertenecientes a este versículo, y son los que se rebelaron contra Amir al-Mu'minin (que la paz sea con él). Por lo tanto, le fue obligatorio luchar contra ellos y matarlos hasta que se sometieran al Mandato de Allah.'",
+          "fr": "Il (que la paix soit sur lui) a dit : « Les deux groupes, plutôt, leur explication est venue le jour d'al-Basra (la Bataille du Chameau), et ce sont eux qui appartiennent à ce verset, et ce sont eux qui se sont révoltés contre Amir al-Mu'minin (que la paix soit sur lui). Il lui était donc obligatoire de les combattre et de les tuer jusqu'à ce qu'ils se soumettent au Commandement d'Allah. »",
+          "de": "Er sagte (Friede sei mit ihm): „Die zwei Gruppen, vielmehr kam ihre Erklärung am Tag von al-Basra (der Kamelschlacht), und sie sind diejenigen, die zu diesem Vers gehören, und sie sind diejenigen, die gegen Amir al-Mu'minin (Friede sei mit ihm) rebellierte. Daher war es für ihn obligatorisch, sie zu bekämpfen und zu töten, bis sie sich dem Befehl Allahs unterwarfen.",
+          "ru": "Он (да будет мир над ним) сказал: «Две группы, точнее, их разъяснение произошло в день битвы при аль-Басре (битва при Верблюде), и они являются теми, к кому относится этот аят, и они те, кто восстал против Амира аль-Муминин (да будет мир над ним). Поэтому ему стало обязательным сражаться с ними и убивать их, пока они не подчинятся повелению Аллаха».",
+          "zh": "他（愿主福安之）说：这两派，确切地说，其解释出现在白斯尔之战（骆驼之战）之日，他们就是这节经文所指的对象，他们是反抗信士长（愿主福安之）的人。因此，他必须与他们战斗并击杀他们，直到他们顺从真主的命令。"
+        },
+        "word_start": 233,
+        "word_end": 267
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَ لَوْ لَمْ يَفِيئُوا لَكَانَ الْوَاجِبَ عَلَيْهِ فِيمَا أَنْزَلَ اللَّهُ أَنْ لَا يَرْفَعَ السَّيْفَ عَنْهُمْ حَتَّى يَفِيئُوا وَ يَرْجِعُوا عَنْ رَأْيِهِمْ لِأَنَّهُمْ بَايَعُوا طَائِعِينَ غَيْرَ كَارِهِينَ وَ هِيَ الْفِئَةُ الْبَاغِيَةُ كَمَا قَالَ اللَّهُ تَعَالَى",
+        "translations": {
+          "en": "'And had they not submitted, it became obligatory upon him, regarding what Allah revealed, that he should not raise his sword from them until they complied and returned from their opinion, because they had pledged allegiance willingly, without compulsion. And this is the rebel group, as Allah, the Exalted, has said.'",
+          "ur": "اور اگر وہ لوگ فرمان نہ لائے تو اس پر لازم ہو گیا کہ وہ اللہ کی طرف سے جو وحی نازل ہوئی، اس کے مطابق ان پر تلوار اٹھائے رکھے یہاں تک کہ وہ فرمان لے آئیں اور اپنی رائے سے پھر جائیں، کیونکہ انہوں نے رضا مندی سے بغیر زبردستی بیعت کی تھی۔ اور یہی گروہِ باغی ہے جیسا کہ اللہ تعالیٰ نے فرمایا ہے۔",
+          "tr": "Ve onlar itaat etmeselerdi, Allah'ın vahyettiği hususta, kılıcını onlardan çekmemek ona farz olurdu, ta ki itaat edip görüşlerinden dönceleri kadar; çünkü onlar, zorlama olmaksızın, gönülden bağlılık etmişlerdi. İşte bu, isyankâr gruptur; Allah, Yüce olan, şöyle buyurmuştur.",
+          "fa": "و اگر تسلیم نمی‌شدند، واجب می‌شد بر او، در آنچه خداوند وحی فرمود، که شمشیرش را از آنان برنگرداند تا آنکه اطاعت کنند و از نظر خود بازگردند، زیرا آنان بی‌اجبار و با رضایت بیعت کرده بودند. و این گروه باغی است، همان‌گونه که خداوند، بلندمرتبه، فرموده است.",
+          "id": "Dan seandainya mereka tidak tunduk, maka menjadi kewajiban baginya, berdasarkan apa yang Allah wahyukan, untuk tidak menurunkan pedangnya dari mereka hingga mereka patuh dan kembali dari pendapat mereka, karena mereka telah berbaiat dengan sukarela, tanpa paksaan. Dan inilah kelompok pemberontak, sebagaimana Allah Yang Mahatinggi telah berfirman.",
+          "bn": "এবং যদি তারা আত্মসমর্পণ না করত, তবে আল্লাহর প্রকাশিত বিধান অনুযায়ী তাঁর উপর ফরজ হয়ে যেত যে, যতক্ষণ না তারা সম্মত হয় এবং তাদের মত পরিবর্তন করে, ততক্ষণ পর্যন্ত তাঁর তরবারি তাদের বিরুদ্ধে উঠে থাকবে, কারণ তারা ইচ্ছা করে, জোরজবরদস্তি ছাড়াই বায়আত গ্রহণ করেছিল। আর এটিই হলো বিদ্রোহী দল, যেমন আল্লাহ তায়ালা বলেছেন।",
+          "es": "Y si no se hubieran sometido, le habría sido obligatorio, en relación con lo que Allah reveló, no bajar su espada de ellos hasta que cumplieran y desistieran de su opinión, porque habían prestado lealtad voluntariamente, sin coacción. Y este es el grupo rebelde, como Allah, el Exaltado, ha dicho.",
+          "fr": "Et s'ils ne s'étaient pas soumis, il lui était devenu obligatoire, en ce qui concerne ce qu'Allah a révélé, de ne pas baisser son épée contre eux jusqu'à ce qu'ils se soumettent et reviennent de leur avis, car ils avaient prêté allégeance volontairement, sans contrainte. Et c'est le groupe rebelle, comme Allah, le Sublime, l'a dit.",
+          "de": "Und wenn sie sich nicht unterworfen hätten, wäre es ihm gemäß dem, was Allah offenbart hat, zur Pflicht geworden, sein Schwert nicht von ihnen zu wenden, bis sie sich fügten und von ihrer Meinung abließen, da sie die Treuepflicht freiwillig und ohne Zwang geleistet hatten. Und dies ist die Rebellengruppe, wie Allah, der Erhabene, gesagt hat.",
+          "ru": "И если бы они не покорились, то стало бы обязательным для него, согласно тому, что открыл Аллах, не опускать свой меч с них, пока они не подчинятся и не откажутся от своего мнения, поскольку они дали присягу добровольно, без принуждения. И это — группа мятежников, как сказал Всевышний Аллах.",
+          "zh": "倘若他们不归顺，那么根据真主所启示的，他就必须对他们不放下宝剑，直到他们归顺并放弃其主张，因为他们曾自愿效忠，毫无强迫。这就是叛乱之众，正如真主至高所说。"
+        },
+        "word_start": 267,
+        "word_end": 301
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَكَانَ الْوَاجِبَ عَلَى أَمِيرِ الْمُؤْمِنِينَ (عليه السلام) أَنْ يَعْدِلَ فِيهِمْ حَيْثُ كَانَ ظَفِرَ بِهِمْ كَمَا عَدَلَ رَسُولُ اللَّهِ (صلى الله عليه وآله) فِي أَهْلِ مَكَّةَ إِنَّمَا مَنَّ عَلَيْهِمْ وَ عَفَا وَ كَذَلِكَ صَنَعَ أَمِيرُ الْمُؤْمِنِينَ (عليه السلام) بِأَهْلِ الْبَصْرَةِ حَيْثُ ظَفِرَ بِهِمْ مِثْلَ مَا صَنَعَ النَّبِيُّ (صلى الله عليه وآله) بِأَهْلِ مَكَّةَ حَذْوَ النَّعْلِ بِالنَّعْلِ",
+        "translations": {
+          "en": "'So it was obligatory upon Amir al-Mu'minin (peace be upon him) to deal with justice among them when he was victorious over them, just as the Messenger of Allah (peace be upon him and his family) was just among the people of Mecca; he was benevolent upon them and forgave them. And that is what Amir al-Mu'minin (peace be upon him) did with the people of al-Basra when he was victorious over them, similar to what the Prophet (peace be upon him and his family) did with the people of Mecca. Like a sandal follows a sandal.'",
+          "ur": "چنانچہ امیرالمؤمنین (علیہ السلام) پر لازم تھا کہ جب وہ ان پر غالب آئے تو ان کے درمیان انصاف سے پیش آئیں، جیسے کہ رسول اللہ (صلی اللہ علیہ و آلہ وسلم) نے اہل مکہ کے ساتھ انصاف کیا تھا؛ وہ ان پر احسان مند تھے اور انہیں معاف کر دیا تھا۔ اور یہی وہ کام ہے جو امیرالمؤمنین (علیہ السلام) نے اہل بصرہ کے ساتھ کیا جب وہ ان پر غالب آئے، جیسا کہ نبی (صلی اللہ علیہ و آلہ وسلم) نے اہل مکہ کے ساتھ کیا تھا۔ جیسے جوتے کا جوڑا ایک دوسرے کے پیچھے چلتا ہے۔",
+          "tr": "İşte bu yüzden Amirü'l-Müminîn (aleyhi's-salâtü vesselâm), onlar üzerinde galip geldiğinde aralarında adaletle hareket etmek zorundaydı; tıpkı Allah'ın Rasûlü'nün (aleyhi ve âlihi's-salâm) Mekke ehli arasında adaletli olması gibi; onlara cömertlik gösterdi ve onları affetti. Ve Amirü'l-Müminîn (aleyhi's-salâtü vesselâm), Basra ehli ile de galip geldiğinde, Peygamber'in (aleyhi ve âlihi's-salâm) Mekke ehli ile yaptığı gibi davranmıştır. Tıpkı bir terlik diğerini takip ettiği gibi.",
+          "fa": "پس شایسته بود که امیرالمؤمنین (علیه‌السلام) هنگام پیروزی بر آنان، میان آنان به عدالت رفتار کند، همان‌گونه که پیامبر خدا (صلی‌الله‌علیه‌وآله‌وسلم) میان مردم مکه به عدالت رفتار کرد؛ او نسبت به آنان لطف ورزید و آنان را بخشید. و این همان چیزی است که امیرالمؤمنین (علیه‌السلام) با مردم بصره کرد هنگامی که بر آنان پیروز شد، مشابه آنچه پیامبر (صلی‌الله‌علیه‌وآله‌وسلم) با مردم مکه کرد. مانند آن که یک صندل، صندل دیگر را دنبال می‌کند.",
+          "id": "Maka wajib bagi Amir al-Mu'minin (shalatullah 'alaih) untuk berlaku adil di antara mereka ketika ia menang atas mereka, sebagaimana Rasulullah (shalatullah wa salamuhu 'alaih wa alihi) berlaku adil terhadap penduduk Mekkah; beliau murah hati kepada mereka dan memaafkan mereka. Dan itulah yang dilakukan oleh Amir al-Mu'minin (shalatullah 'alaih) terhadap penduduk al-Bashrah ketika ia menang atas mereka, serupa dengan apa yang dilakukan oleh Nabi (shalatullah wa salamuhu 'alaih wa alihi) terhadap penduduk Mekkah. Seperti sandal yang mengikuti sandal. ",
+          "bn": "অতএব, যখন তিনি তাদের উপর বিজয়ী হলেন, তখন আমিরুল মুমিনীন (আ.)-এর উপর তাদের মধ্যে ন্যায়বিচার করা ফরজ ছিল, ঠিক যেমন আল্লাহর রাসূল (আ. ও. আ.) মক্কাবাসীদের মধ্যে ন্যায়বিচার করেছিলেন; তিনি তাদের প্রতি দয়াশীল ছিলেন এবং তাদের ক্ষমা করেছিলেন। আর আমিরুল মুমিনীন (আ.)ও বসরার লোকদের সাথে ঠিক তা-ই করেছিলেন, যখন তিনি তাদের উপর বিজয়ী হয়েছিলেন, যা নবী (আ. ও. আ.) মক্কাবাসীদের সাথে করেছিলেন, ঠিক যেমন এক জুতা অন্য জুতার অনুসরণ করে।",
+          "es": "Por lo tanto, fue obligatorio para Amir al-Mu'minin (que la paz sea con él) tratar con justicia entre ellos cuando fue victorioso sobre ellos, al igual que el Mensajero de Allah (que la paz sea con él y su familia) fue justo entre la gente de La Meca; fue benevolente con ellos y les perdonó. Y eso es lo que Amir al-Mu'minin (que la paz sea con él) hizo con la gente de al-Basra cuando fue victorioso sobre ellos, similar a lo que el Profeta (que la paz sea con él y su familia) hizo con la gente de La Meca. Como una sandalia sigue a otra sandalia.",
+          "fr": "Ainsi, il était obligatoire pour Amir al-Mu'minin (que la paix soit sur lui) de lui) de faire preuve de justice parmi eux lorsqu'il fut victorieux sur eux, tout comme le Messager d'Allah (que la paix soit sur lui et sur sa famille) fit preuve de justice parmi les gens de La Mecque ; il leur fit preuve de bienveillance et leur pardonna. Et c'est ce qu'Amir al-Mu'minin (que la paix soit de lui) fit avec les gens de al-Basra lorsqu'il fut victorieux sur eux, à l'image de ce que le Prophète (que la paix soit sur lui et sur sa famille) fit avec les gens de La Mecque. Comme une sandale suit l'autre sandale.",
+          "de": "So war es für Amir al-Mu'minin (Friede sei mit ihm) geboten, unter ihnen gerecht zu verfahren, als er über sie siegte, ebenso wie der Gesandte Allahs (Friede sei mit ihm und seiner Familie) unter den Bewohnern Mekkas gerecht war; er erwies sich ihnen gegenüber als gütig und vergab ihnen. Und das tat Amir al-Mu'minin (Friede sei mit ihm) mit den Bewohnern von al-Basra, als er über sie siegte, ähnlich dem, was der Prophet (Friede sei mit ihm und seiner Familie) mit den Bewohnern Mekkas tat. Wie ein Sandal den anderen folgt.",
+          "ru": "Поэтому Амиру аль-Мумининин (да будет над ним мир) было обязательно проявлять справедливость среди них, когда он одержал над ними победу, подобно тому, как Посланник Аллаха (мир ему и его семье) проявлял справедливость среди жителей Мекки; он был милостив к ним и простил их. И именно так поступил Амир аль-Мунин (да будет над ним мир) с жителями аль--Басры, когда одержал над ними победу, подобно тому, как Пророк (мир ему и его семье) поступил с жителями Мекки. Как сандалия следует за сандалией.",
+          "zh": "因此，当信长（愿主安宁之）战胜他们时，他必须像真主的使者（愿主安宁之及其家属）对待麦加人那样公正地对待他们；他对他们仁慈并宽恕了他们。信长（愿主安宁之）在战胜巴士拉人时，也像先知（愿主安宁之及其家属）对待麦加人那样对待巴士拉人。犹如凉鞋跟随凉鞋一般。"
+        },
+        "word_start": 301,
+        "word_end": 356
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ قَوْلُهُ عَزَّ وَ جَلَّ وَ الْمُؤْتَفِكَةَ أَهْوى قَالَ هُمْ أَهْلُ الْبَصْرَةِ هِيَ الْمُؤْتَفِكَةُ",
+        "translations": {
+          "en": "I said: 'His Statement, Mighty and Majestic: ",
+          "ur": "میں نے کہا: ''اس کی قولِ عالی و جلیل:''",
+          "tr": "Dedim ki: 'Onun, Yüce ve Azîz'in buyurdu ki:",
+          "fa": "گفتم: «قول او، عزّ و جل:",
+          "id": "Aku berkata: \"Firman-Nya, Yang Maha Perkasa dan Mulia:",
+          "bn": "আমি বললাম: 'তার বাক্য, মহান ও মাহান:'",
+          "es": "Dije: \"Su declaración de Él, Poderoso y Majestuoso:",
+          "fr": "J'ai dit : « Sa Parole, Puissant et Majestueux :",
+          "de": "Ich sagte: „Seine Aussage, Allmächtig und Erhaben:",
+          "ru": "Я сказал: «Его слово, Всевышний и Величественный:",
+          "zh": "我说：他的尊贵伟大的言辞："
+        },
+        "word_start": 356,
+        "word_end": 370
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ وَ الْمُؤْتَفِكاتِ أَتَتْهُمْ رُسُلُهُمْ بِالْبَيِّناتِ قَالَ أُولَئِكَ قَوْمُ لُوطٍ ائْتَفَكَتْ عَلَيْهِمُ انْقَلَبَتْ عَلَيْهِمْ.",
+        "translations": {
+          "en": "I said: 'And ",
+          "ur": "میں نے کہا: اور",
+          "tr": "Dedim ki: 'Ve",
+          "fa": "گفتم: «و",
+          "id": "Aku berkata: 'Dan",
+          "bn": "আমি বললাম: 'এবং",
+          "es": "Dije: 'Y",
+          "fr": "J'ai dit : « Et",
+          "de": "Ich sagte: „Und",
+          "ru": "Я сказал: «И",
+          "zh": "我说：'我说：'以及"
+        },
+        "word_start": 370,
+        "word_end": 384
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Sadiq (as) elucidates that the verse regarding secret counsels (58:7) was revealed concerning specific companions who pledged the Caliphate would remain outside the Clan of Hashim, a political maneuver theologically linked to the preordained martyrdom of Imam al-Husayn (as). Furthermore, he identifies the 'two groups' in Surah Hud (11:86) as the people of Basra at the Battle of the Camel, emphasizing that Imam Ali’s (as) justice and forgiveness towards them perfectly mirrored the Prophet’s (saww) treatment of the people of Mecca, establishing a model of equitable governance in Shia jurisprudence.",
+        "seo_question": "How did the Prophet and Imam Ali apply justice and forgiveness to their enemies according to Quranic commentary?",
+        "key_terms": {
+          "نَجْوى": "Secret counsel or private discourse",
+          "بَنُو هَاشِم": "The Clan of Hashim, the family of the Prophet",
+          "أَمْرُ اللَّهِ": "The Command of Allah, referring to submission to divine decree",
+          "أَهْلُ الْبَصْرَةِ": "The people of Basra, referring to the combatants in the Battle of the Camel",
+          "الْمُؤْتَفِكَةُ": "The Overthrown City, referring to the people of Basra in this context",
+          "قَوْمُ لُوط": "The People of Lut (Lot), referenced as the original overthrown cities"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (علیہ السلام) فرماتے ہیں کہ سورت مدثر کی آیتِ نجوی (58:7) خاص صحابہ کے بارے میں نازل ہوئی جن نے خلافت کو بنو ہاشم کے باہر رکھنے کا عہد کیا، جو ایک سیاسی حکمت عملی تھی جو نظریاتی طور پر امام حسین (علیہ السلام) کے مقدر شدہ شہادت سے منسلک ہے۔ مزید برآں، وہ سورہ ہود (11:86) میں مذکور 'دو گروہوں' کو بصرہ کے لوگوں کے طور پر پہچانتے ہیں جو جنگِ صفین میں لڑے، اور اس بات پر زور دیتے ہیں کہ امام علی (علیہ السلام) کا ان کے ساتھ انصاف اور بخشش کا رویہ نبی کریم (صلی اللہ علیہ وآلہ وسلم) کے مکہ والوں کے ساتھ سلوک کی عکاسی کرتا ہے، جس سے شیعہ فقہ میں منصفانہ حکمرانی کا ایک ماڈل قائم ہوتا ہے۔",
+        "seo_question": "قرآنی تفسیر کے مطابق نبی کریم اور امام علی نے اپنے دشمنوں پر کیسے انصاف اور بخشش کا اطلاق کیا؟",
+        "key_terms": {
+          "نَجْوى": "خفیہ مشورہ یا ذاتی گفتگو",
+          "بَنُو هَاشِم": "بنو ہاشم کا خاندان، نبی کا خاندان",
+          "أَمْرُ اللَّهِ": "اللہ کا حکم، الہی تقدیر کی اطاعت کی طرف اشارہ",
+          "أَهْلُ الْبَصْرَةِ": "بصرہ کے لوگ، جنگِ صفین میں لڑنے والوں کی طرف اشارہ",
+          "الْمُؤْتَفِكَةُ": "پلٹ دی گئی شہر، اس سیاق و سباق میں بصرہ کے لوگوں کی طرف اشارہ",
+          "قَوْمُ لُوط": "قومِ لوط، اصل پلٹ دی گئی شہروں کے طور پر حوالہ دیا گیا"
+        }
+      },
+      "tr": {
+        "summary": "İmamü'l-Sadiq (a.s.), Nâvâ (58:7) ayetinin, Halifeliğin Haşimoğulları ailesinden dışarıda kalacağına dair söz veren belirli sahabeler hakkında indiğini, bu siyasi hamlenin İmamü'l-Hüseyin (a.s.)'in kaderle belirlenmiş şehadet teolojik olarak bağlantılı olduğunu açıklar. Ayrıca, Hud Suresi'ndeki (11:86) 'iki grup'ı Devran Savaşı'nda Basra halkı olarak tanımlar ve İmam Ali'nin (a.s.) onlara gösterdiği adalet ve affının, Peygamber'in (s.a.w.) Mekke halkına yaklaşımıyla mükemmel bir şekilde örtüştüğünü vurgulayarak, Şii hukukunda adil yönetişim için bir model oluşturduğunu belirtir.",
+        "seo_question": "Kur'an tefsirine göre Peygamber ve İmam Ali düşmanlarına nasıl adalet ve affetme uyguladılar?",
+        "key_terms": {
+          "نَجْوى": "Gizli görüşme veya özel diyalog",
+          "بَنُو هَاشِم": "Haşimoğulları ailesi, Peygamber'in ailesi",
+          "أَمْرُ اللَّهِ": "Allah'ın Emir'i, ilahi takdire teslimiyeti ifade eder",
+          "أَهْلُ الْبَصْرَةِ": "Basra halkı, Devran Savaşı'ndaki savaşçılara atıfta bulunur",
+          "الْمُؤْتَفِكَةُ": "Devrilen Şehir, bu bağlamda Basra halkına atıfta bulunur",
+          "قَوْمُ لُوط": "Lut kavmi, orijinal devrilen şehirler olarak referans verilir"
+        }
+      },
+      "fa": {
+        "summary": "امام صادق (ع) تبیین می‌کند که آیه مربوط به نجواها (سوره مدثر، آیه ۷) درباره صحابه‌ای نازل شده که پیمان بستند خلافت از خاندان هاشم خارج بماند؛ این یک حرکت سیاسی است که از نظر کلامی به شهادت پیش‌بینی‌شده امام حسین (ع) پیوند خورده است. همچنین، او دو گروه در سوره هود (آیه ۸۶) را مردم بصره در جنگ جمل می‌داند و تأکید می‌کند که عدالت و بخشش امام علی (ع) نسبت به آن‌ها کاملاً بازتاب‌دهنده رفتار پیامبر (ص) با مردم مکه است و الگویی از حکومت عادلانه در فقه شیعه ایجاد می‌کند.",
+        "seo_question": "پیامبر و امام علی (ع) چگونه طبق تفسیر قرآن عدالت و بخشش را به دشمنان خود اعمال کردند؟",
+        "key_terms": {
+          "نَجْوى": "مشورت یا گفتگوی خصوصی",
+          "بَنُو هَاشِم": "خاندان هاشم، خانواده پیامبر",
+          "أَمْرُ اللَّهِ": "امر الهی، اشاره به اطاعت از سرنوشت الهی",
+          "أَهْلُ الْبَصْرَةِ": "مردم بصره، اشاره به رزمندگان در جنگ جمل",
+          "الْمُؤْتَفِكَةُ": "شهر برزنجیده، اشاره به مردم بصره در این زمینه",
+          "قَوْمُ لُوط": "قوم لوط، ارجاع به شهرهای برزنجیده اولیه"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Sadiq (as) menjelaskan bahwa ayat mengenai rahasia-rahasia (58:7) diturunkan berkenaan dengan para sahabat tertentu yang berjanji bahwa kekhalifahan akan tetap berada di luar Bani Hasyim, sebuah manuver politik yang secara teologis terkait dengan syahidnya Imam al-Husayn (as) yang telah ditentukan. Lebih lanjut, ia mengidentifikasi 'dua golongan' dalam Surah Hud (11:86) sebagai penduduk Basra dalam Perang Kamel, menekankan bahwa keadilan dan pengampunan Imam Ali (as) terhadap mereka sangat mencerminkan perlakuan Nabi (saww) terhadap penduduk Makkah, sehingga menetapkan model pemerintahan yang adil dalam fikih Syiah.",
+        "seo_question": "Bagaimana Nabi dan Imam Ali menerapkan keadilan dan pengampunan kepada musuh-musuh mereka menurut tafsir Al-Qur'an?",
+        "key_terms": {
+          "نَجْوى": "Rahasia atau percakapan pribadi",
+          "بَنُو هَاشِم": "Klan Bani Hasyim, keluarga Nabi",
+          "أَمْرُ اللَّهِ": "Perintah Allah, merujuk pada ketaatan kepada ketetapan ilahi",
+          "أَهْلُ الْبَصْرَةِ": "Penduduk Basra, merujuk pada para pejuang dalam Perang Kamel",
+          "الْمُؤْتَفِكَةُ": "Kota yang Dihancurkan, merujuk pada Sisi, merujuk pada penduduk Basra dalam konteks ini",
+          "قَوْمُ لُوط": "Kaum Lut, dirujuk sebagai kota-kota yang hancur pada sisi yang asli"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিq (আ.) ব্যাখ্যা করেন যে, গোপন পরামর্শ সম্পর্কিত আয়াত (৫৮:৭) বিশেষ সাহাবীদের জন্য অবতীর্ণ হয়েছিল, যারা খিলাফত হাশিম গোত্রের বাইরে থাকার প্রতিশ্রুতি দিয়েছিলেন, যা তাত্ত্বিকভাবে ইমাম আল-হুসাইন (আ.)-এর নির্ধারিত শাহাদাতের সাথে যুক্ত ছিল। এছাড়াও, তিনি সূরা হুদ (১১:৮৬)-এর 'দুই দল'কে কামেলের যুদ্ধে বসরার লোকদের হিসেবে চিহ্নিত করেন, এবং এটি তুলে ধরেন যে, ইমাম আলী (আ.)-এর ন্যায়বিচার ও ক্ষমা তাদের প্রতি এমনভাবে প্রয়োগ করেছিলেন যা নবী (সা.)-এর মক্কার লোকদের প্রতি আচরণের প্রতিফলন ছিল, যা শিয়া ফিকহে ন্যায়বিচারপূর্ণ শাসনের একটি মডেল প্রতিষ্ঠা করে।",
+        "seo_question": "কুরআনের তাফসির অনুযায়ী নবী ও ইমাম আলী কীভাবে তাদের শত্রুদের প্রতি ন্যায়বিচার ও ক্ষমা প্রয়োগ করেছিলেন?",
+        "key_terms": {
+          "نَجْوى": "গোপন পরামর্শ বা ব্যক্তিগত আলোচনা",
+          "بَنُو هَاشِم": "হাশিম গোত্র, নবীর পরিবার",
+          "أَمْرُ اللَّهِ": "আল্লাহর আদেশ, ঐশ্বরিক বিধানে আত্মসমর্পণ নির্দেশ করে",
+          "أَهْلُ الْبَصْرَةِ": "বসরার লোকজন, কামেলের যুদ্ধের যোদ্ধাদের নির্দেশ করে",
+          "الْمُؤْتَفِكَةُ": "অবতলিত শহর, এই প্রসঙ্গে বসরার লোকদের নির্দেশ করে",
+          "قَوْمُ لُوط": "লুতের লোকজন, মূল অবতলিত শহরদের হিসেবে উল্লেখ করা হয়েছে"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Sadiq (as) aclara que el versículo sobre los consejos secretos (58:7) fue revelado en relación con compañeros específicos que juraron que el Califato permanecería fuera del Clan de Hashim, una maniobra política teológicamente vinculada al martirio predestinado del Imam al-Husayn (as). Además, identifica a los 'dos grupos' en la Surah Hud (11:86) como el pueblo de Basra en la Batalla del Camello, enfatizando que la justicia y el perdón del Imam Ali (as) hacia ellos reflejaban perfectamente el tratamiento del Profeta (saww) hacia el pueblo de La Meca, estableciendo un modelo de gobernanza equitativa en la jurisprudencia chií.",
+        "seo_question": "¿Cómo aplicaron el Profeta y el Imam Ali la justicia y el perdón a sus enemigos según el comentario coránico?",
+        "key_terms": {
+          "نَجْوى": "Consejo secreto o discurso privado",
+          "بَنُو هَاشِم": "El Clan de Hashim, la familia del Profeta",
+          "أَمْرُ اللَّهِ": "El Mandato de Allah, refiriéndose a la sumisión al decreto divino",
+          "أَهْلُ الْبَصْرَةِ": "El pueblo de Basra, refiriéndose a los combatientes en la Batalla del Camello",
+          "الْمُؤْتَفِكَةُ": "La Ciudad Derrocada, refiriéndose al pueblo de Basra en este contexto",
+          "قَوْمُ لُوط": "El Pueblo de Lut (Lot), referenciado como las ciudades originales derrocadas"
+        }
+      },
+      "fr": {
+        "summary": "L'imam al-Sadiq (as) explique que le verset concernant les conseils secrets (58:7) a été révélé à propos de compagnons spécifiques qui ont promis que le Califat resterait en dehors du Clan de Hachim, une manœuvre politique liée théologiquement au martyre prédestiné de l'imam al-Husayn (as). De plus, il identifie les « deux groupes » dans la sourate Hud (11:86) comme les gens de Bassra lors de la bataille du Chameau, soulignant que la justice et le pardon d'Ali (as) envers eux reflétaient parfaitement le traitement du Prophète (saww) envers les gens de La Mecque, établissant ainsi un modèle de gouvernance équitable dans la jurisprudence chiite.",
+        "seo_question": "Comment le Prophète et l'imam Ali ont-ils appliqué la justice et le pardon à leurs ennemis selon le commentaire coranique ?",
+        "key_terms": {
+          "نَجْوى": "Conseil secret ou discours privé",
+          "بَنُو هَاشِم": "Le Clan de Hachim, la famille du Prophète",
+          "أَمْرُ اللَّهِ": "Le Commandement d'Allah, se référant à la soumission au décret divin",
+          "أَهْلُ الْبَصْرَةِ": "Les gens de Bassra, se référant aux combattants de la bataille du Chameau",
+          "الْمُؤْتَفِكَةُ": "La Ville Renversée, se référant aux gens de Bassra dans ce contexte",
+          "قَوْمُ لُوط": "Le Peuple de Lut (Lot), cité comme les villes originelles renversées"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Sadiq (as) erläutert, dass die Vers über die geheimen Ratschläge (58:7) in Bezug auf bestimmte Gefährten offenbart wurde, die schworen, dass das Kalifat außerhalb der Clan der Haschimiten bleiben würde, ein politisches Manöver, das theologisch mit dem vorbestimmten Martyrium von Imam al-Husayn (as) verbunden ist. Darüber hinaus identifiziert er die 'zwei Gruppen' in Sure Hud (11:86) als die Leute von Basra in der Schlacht von Siffin, wobei er betont, dass die Gerechtigkeit und Vergebung von Imam Ali (as) gegenüber ihnen das Verhalten des Propheten (saww) gegenüber den Leuten von Mekka perfekt widerspiegelte und so ein Modell der gerechten Herrschaft in der schiitischen Jurisprudenz etablierte.",
+        "seo_question": "Wie wandten der Prophet und Imam Ali Gerechtigkeit und Vergebung gegenüber ihren Feinden an, gemäß der Koranexegese?",
+        "key_terms": {
+          "نَجْوى": "Geheimes Ratschlagen oder privates Gespräch",
+          "بَنُو هَاشِم": "Der Clan der Haschimiten, die Familie des Propheten",
+          "أَمْرُ اللَّهِ": "Der Befehl Allahs, der sich auf die Unterwerfung unter das göttliche Schicksal bezieht",
+          "أَهْلُ الْبَصْرَةِ": "Die Leute von Basra, die Kämpfer in der Schlacht von Siffin",
+          "الْمُؤْتَفِكَةُ": "Die umgestürzte Stadt, in diesem Kontext bezogen auf die Leute von Basra",
+          "قَوْمُ لُوط": "Die Leute von Lut (Lot), die als die ursprünglichen umgestürzten Städte referenziert werden"
+        }
+      },
+      "ru": {
+        "summary": "Имам ас-Садык (ас) разъясняет, что аят о тайных совещаниях (58:7) был ниспослан в отношении конкретных сподвижников, которые поклялись, что халифат останется вне рода Хашим, что было политическим маневром, теологически связанным с предопределенным мученичеством имама аль-Хусейна (ас). Кроме того, он идентифицирует «две группы» в суре Худ (11:86) как жителей Басры в битве при Камеле, подчеркивая, что справедливость и прощение имама Али (ас) по отношению к ним в точности отражали отношение Пророка (савв) к жителям Мекки, устанавливая модель справедливого управления в шиитском фикхе.",
+        "seo_question": "Как Пророк и имам Али применяли справедливость и прощение к своим врагам согласно тафсиру Корана?",
+        "key_terms": {
+          "نَجْوى": "тайный совет или частная беседа",
+          "بَنُو هَاشِم": "род Хашим, семья Пророка",
+          "أَمْرُ اللَّهِ": "Повеление Аллаха, относящееся к подчинению божественному предопределению",
+          "أَهْلُ الْبَصْرَةِ": "жители Басры, относящиеся к участникам битвы при Камеле",
+          "الْمُؤْتَفِكَةُ": "Сотворенный город, относящийся к жителям Басры в данном контексте",
+          "قَوْمُ لُوط": "Народ Лута (Лот), упоминаемый как первоначальные разрушенные города"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目萨迪格福尔（愿主福安之）阐明，关于秘密商议（58:7）的经文降示于特定的圣门弟子，他们承诺哈里发职位将保留在哈希姆家族之外，这一政治举措在神学上与伊玛目侯赛因（愿主福安之）的预定殉道相关联。此外，他认定《古兰经》胡德章（11:86）中的“两群人”为骆驼之战中的巴士拉人，强调阿里（愿主福安之）对他们的公正与宽恕完美地反映了先知（愿主福安之）对待麦加人的方式，从而在什叶派法学中确立了公平治理的典范。",
+        "seo_question": "根据《古兰经》注释，先知和阿里伊玛姆如何对敌人施行公正与宽恕？",
+        "key_terms": {
+          "نَجْوى": "秘密商议或私下交谈",
+          "بَنُو هَاشِم": "哈希姆家族，即先知的家族",
+          "أَمْرُ اللَّهِ": "真主的命令，指顺从神圣的旨意",
+          "أَهْلُ الْبَصْرَةِ": "巴士拉人，指骆驼之战中的战斗人员",
+          "الْمُؤْتَفِكَةُ": "被倾覆的城市，在此语境中指巴士拉人",
+          "قَوْمُ لُوط": "鲁特人民，被引用为最初被倾覆的城市"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "58:7",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "43:79",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "43:80",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "49:9",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "53:53",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "9:70",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "11:86",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَنْهُ عَنْ عَلِيِّ بْنِ الْحُسَيْنِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ ما يَكُونُ مِنْ نَجْوى ثَلاثَةٍ إِلَّا هُوَ رابِعُهُمْ وَ لا خَمْسَةٍ إِلَّا هُوَ سادِسُهُمْ وَ لا أَدْنى مِنْ ذلِكَ وَ لا أَكْثَرَ إِلَّا هُوَ مَعَهُمْ أَيْنَ ما كانُوا ثُمَّ يُنَبِّئُهُمْ بِما عَمِلُوا يَوْمَ الْقِيامَةِ إِنَّ اللَّهَ بِكُلِّ شَيْ‏ِّ شَيْ‏ءٍ عَلِيمٌ قَالَ نَزَلَتْ هَذِهِ الْآيَةُ فِي فُلَانٍ وَ فُلَانٍ وَ أَبِي عُبَيْدَةَ الْجَرَّاحِ وَ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَ سَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ وَ الْمُغِيرَةِ بْنِ شُعْبَةَ حَيْثُ كَتَبُوا الْكِتَابَ بَيْنَهُمْ وَ تَعَاهَدُوا وَ تَوَافَقُوا لَئِنْ مَضَى مُحَمَّدٌ لَا تَكُونُ الْخِلَافَةُ فِي بَنِي هَاشِمٍ وَ لَا النُّبُوَّةُ أَبَداً فَأَنْزَلَ اللَّهُ عَزَّ وَ جَلَّ فِيهِمْ هَذِهِ الْآيَةَ قُلْتُ قَوْلُهُ عَزَّ وَ جَلَّ أَمْ أَبْرَمُوا أَمْراً فَإِنَّا مُبْرِمُونَ أَمْ يَحْسَبُونَ أَنَّا لا نَسْمَعُ سِرَّهُمْ وَ نَجْواهُمْ بَلى وَ رُسُلُنا لَدَيْهِمْ يَكْتُبُونَ قَالَ وَ هَاتَانِ الْآيَتَانِ نَزَلَتَا فِيهِمْ ذَلِكَ الْيَوْمَ قَالَ أَبُو عَبْدِ اللَّهِ (عليه السلام) لَعَلَّكَ تَرَى أَنَّهُ كَانَ يَوْمٌ يُشْبِهُ يَوْمَ كُتِبَ الْكِتَابُ إِلَّا يَوْمَ قُتِلَ الْحُسَيْنُ (عليه السلام) وَ هَكَذَا كَانَ فِي سَابِقِ عِلْمِ اللَّهِ عَزَّ وَ جَلَّ الَّذِي أَعْلَمَهُ رَسُولَ اللَّهِ (صلى الله عليه وآله) أَنْ إِذَا كُتِبَ الْكِتَابُ قُتِلَ الْحُسَيْنُ وَ خَرَجَ الْمُلْكُ مِنْ بَنِي هَاشِمٍ فَقَدْ كَانَ ذَلِكَ كُلُّهُ قُلْتُ وَ إِنْ طائِفَتانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا فَأَصْلِحُوا بَيْنَهُما فَإِنْ بَغَتْ إِحْداهُما عَلَى الْأُخْرى فَقاتِلُوا الَّتِي تَبْغِي حَتَّى تَفِي‏ءَ إِلى أَمْرِ اللَّهِ فَإِنْ فاءَتْ فَأَصْلِحُوا بَيْنَهُما بِالْعَدْلِ قَالَ الْفِئَتَانِ إِنَّمَا جَاءَ تَأْوِيلُ هَذِهِ الْآيَةِ يَوْمَ الْبَصْرَةِ وَ هُمْ أَهْلُ هَذِهِ الْآيَةِ وَ هُمُ الَّذِينَ بَغَوْا عَلَى أَمِيرِ الْمُؤْمِنِينَ (عليه السلام) فَكَانَ الْوَاجِبَ عَلَيْهِ قِتَالُهُمْ وَ قَتْلُهُمْ حَتَّى يَفِيئُوا إِلَى أَمْرِ اللَّهِ وَ لَوْ لَمْ يَفِيئُوا لَكَانَ الْوَاجِبَ عَلَيْهِ فِيمَا أَنْزَلَ اللَّهُ أَنْ لَا يَرْفَعَ السَّيْفَ عَنْهُمْ حَتَّى يَفِيئُوا وَ يَرْجِعُوا عَنْ رَأْيِهِمْ لِأَنَّهُمْ بَايَعُوا طَائِعِينَ غَيْرَ كَارِهِينَ وَ هِيَ الْفِئَةُ الْبَاغِيَةُ كَمَا قَالَ اللَّهُ تَعَالَى فَكَانَ الْوَاجِبَ عَلَى أَمِيرِ الْمُؤْمِنِينَ (عليه السلام) أَنْ يَعْدِلَ فِيهِمْ حَيْثُ كَانَ ظَفِرَ بِهِمْ كَمَا عَدَلَ رَسُولُ اللَّهِ (صلى الله عليه وآله) فِي أَهْلِ مَكَّةَ إِنَّمَا مَنَّ عَلَيْهِمْ وَ عَفَا وَ كَذَلِكَ صَنَعَ أَمِيرُ الْمُؤْمِنِينَ (عليه السلام) بِأَهْلِ الْبَصْرَةِ حَيْثُ ظَفِرَ بِهِمْ مِثْلَ مَا صَنَعَ النَّبِيُّ (صلى الله عليه وآله) بِأَهْلِ مَكَّةَ حَذْوَ النَّعْلِ بِالنَّعْلِ قُلْتُ قَوْلُهُ عَزَّ وَ جَلَّ وَ الْمُؤْتَفِكَةَ أَهْوى قَالَ هُمْ أَهْلُ الْبَصْرَةِ هِيَ الْمُؤْتَفِكَةُ قُلْتُ وَ الْمُؤْتَفِكاتِ أَتَتْهُمْ رُسُلُهُمْ بِالْبَيِّناتِ قَالَ أُولَئِكَ قَوْمُ لُوطٍ ائْتَفَكَتْ عَلَيْهِمُ انْقَلَبَتْ عَلَيْهِمْ.",
+    "isnad_matn": {
+      "isnad_ar": "عَنْهُ عَنْ عَلِيِّ بْنِ الْحُسَيْنِ عَنْ عَلِيِّ بْنِ أَبِي حَمْزَةَ عَنْ أَبِي بَصِيرٍ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+      "matn_ar": "فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ ما يَكُونُ مِنْ نَجْوى ثَلاثَةٍ إِلَّا هُوَ رابِعُهُمْ وَ لا خَمْسَةٍ إِلَّا هُوَ سادِسُهُمْ وَ لا أَدْنى مِنْ ذلِكَ وَ لا أَكْثَرَ إِلَّا هُوَ مَعَهُمْ أَيْنَ ما كانُوا ثُمَّ يُنَبِّئُهُمْ بِما عَمِلُوا يَوْمَ الْقِيامَةِ إِنَّ اللَّهَ بِكُلِّ شَيْ‏ِّ شَيْ‏ءٍ عَلِيمٌ قَالَ نَزَلَتْ هَذِهِ الْآيَةُ فِي فُلَانٍ وَ فُلَانٍ وَ أَبِي عُبَيْدَةَ الْجَرَّاحِ وَ عَبْدِ الرَّحْمَنِ بْنِ عَوْفٍ وَ سَالِمٍ مَوْلَى أَبِي حُذَيْفَةَ وَ الْمُغِيرَةِ بْنِ شُعْبَةَ حَيْثُ كَتَبُوا الْكِتَابَ بَيْنَهُمْ وَ تَعَاهَدُوا وَ تَوَافَقُوا لَئِنْ مَضَى مُحَمَّدٌ لَا تَكُونُ الْخِلَافَةُ فِي بَنِي هَاشِمٍ وَ لَا النُّبُوَّةُ أَبَداً فَأَنْزَلَ اللَّهُ عَزَّ وَ جَلَّ فِيهِمْ هَذِهِ الْآيَةَ قُلْتُ قَوْلُهُ عَزَّ وَ جَلَّ أَمْ أَبْرَمُوا أَمْراً فَإِنَّا مُبْرِمُونَ أَمْ يَحْسَبُونَ أَنَّا لا نَسْمَعُ سِرَّهُمْ وَ نَجْواهُمْ بَلى وَ رُسُلُنا لَدَيْهِمْ يَكْتُبُونَ قَالَ وَ هَاتَانِ الْآيَتَانِ نَزَلَتَا فِيهِمْ ذَلِكَ الْيَوْمَ قَالَ أَبُو عَبْدِ اللَّهِ (عليه السلام) لَعَلَّكَ تَرَى أَنَّهُ كَانَ يَوْمٌ يُشْبِهُ يَوْمَ كُتِبَ الْكِتَابُ إِلَّا يَوْمَ قُتِلَ الْحُسَيْنُ (عليه السلام) وَ هَكَذَا كَانَ فِي سَابِقِ عِلْمِ اللَّهِ عَزَّ وَ جَلَّ الَّذِي أَعْلَمَهُ رَسُولَ اللَّهِ (صلى الله عليه وآله) أَنْ إِذَا كُتِبَ الْكِتَابُ قُتِلَ الْحُسَيْنُ وَ خَرَجَ الْمُلْكُ مِنْ بَنِي هَاشِمٍ فَقَدْ كَانَ ذَلِكَ كُلُّهُ قُلْتُ وَ إِنْ طائِفَتانِ مِنَ الْمُؤْمِنِينَ اقْتَتَلُوا فَأَصْلِحُوا بَيْنَهُما فَإِنْ بَغَتْ إِحْداهُما عَلَى الْأُخْرى فَقاتِلُوا الَّتِي تَبْغِي حَتَّى تَفِي‏ءَ إِلى أَمْرِ اللَّهِ فَإِنْ فاءَتْ فَأَصْلِحُوا بَيْنَهُما بِالْعَدْلِ قَالَ الْفِئَتَانِ إِنَّمَا جَاءَ تَأْوِيلُ هَذِهِ الْآيَةِ يَوْمَ الْبَصْرَةِ وَ هُمْ أَهْلُ هَذِهِ الْآيَةِ وَ هُمُ الَّذِينَ بَغَوْا عَلَى أَمِيرِ الْمُؤْمِنِينَ (عليه السلام) فَكَانَ الْوَاجِبَ عَلَيْهِ قِتَالُهُمْ وَ قَتْلُهُمْ حَتَّى يَفِيئُوا إِلَى أَمْرِ اللَّهِ وَ لَوْ لَمْ يَفِيئُوا لَكَانَ الْوَاجِبَ عَلَيْهِ فِيمَا أَنْزَلَ اللَّهُ أَنْ لَا يَرْفَعَ السَّيْفَ عَنْهُمْ حَتَّى يَفِيئُوا وَ يَرْجِعُوا عَنْ رَأْيِهِمْ لِأَنَّهُمْ بَايَعُوا طَائِعِينَ غَيْرَ كَارِهِينَ وَ هِيَ الْفِئَةُ الْبَاغِيَةُ كَمَا قَالَ اللَّهُ تَعَالَى فَكَانَ الْوَاجِبَ عَلَى أَمِيرِ الْمُؤْمِنِينَ (عليه السلام) أَنْ يَعْدِلَ فِيهِمْ حَيْثُ كَانَ ظَفِرَ بِهِمْ كَمَا عَدَلَ رَسُولُ اللَّهِ (صلى الله عليه وآله) فِي أَهْلِ مَكَّةَ إِنَّمَا مَنَّ عَلَيْهِمْ وَ عَفَا وَ كَذَلِكَ صَنَعَ أَمِيرُ الْمُؤْمِنِينَ (عليه السلام) بِأَهْلِ الْبَصْرَةِ حَيْثُ ظَفِرَ بِهِمْ مِثْلَ مَا صَنَعَ النَّبِيُّ (صلى الله عليه وآله) بِأَهْلِ مَكَّةَ حَذْوَ النَّعْلِ بِالنَّعْلِ قُلْتُ قَوْلُهُ عَزَّ وَ جَلَّ وَ الْمُؤْتَفِكَةَ أَهْوى قَالَ هُمْ أَهْلُ الْبَصْرَةِ هِيَ الْمُؤْتَفِكَةُ قُلْتُ وَ الْمُؤْتَفِكاتِ أَتَتْهُمْ رُسُلُهُمْ بِالْبَيِّناتِ قَالَ أُولَئِكَ قَوْمُ لُوطٍ ائْتَفَكَتْ عَلَيْهِمُ انْقَلَبَتْ عَلَيْهِمْ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَنْهُ",
+          "name_en": "from him",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 11
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ الْحُسَيْنِ",
+          "name_en": "Ali b. al-Husayn",
+          "role": "imam",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 312
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ أَبِي حَمْزَةَ",
+          "name_en": "Ali ibn Abi Hamza",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 57
+        },
+        {
+          "name_ar": "أَبِي بَصِيرٍ",
+          "name_en": "Abu Basir",
+          "role": "companion",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 14
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+        "phrase_en": "Day of Resurrection",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "قَالَ اللَّهُ تَعَالَىٰ",
+        "phrase_en": "Allah the Exalted said",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

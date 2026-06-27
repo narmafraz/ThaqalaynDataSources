@@ -1,327 +1,231 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:3:1:51:16",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-09",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "translations.ur.summary is empty string (likely Phase 4 batch failure)",
-    "translations.ur.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.tr.summary is empty string (likely Phase 4 batch failure)",
-    "translations.tr.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.fa.summary is empty string (likely Phase 4 batch failure)",
-    "translations.fa.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.id.summary is empty string (likely Phase 4 batch failure)",
-    "translations.id.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.bn.summary is empty string (likely Phase 4 batch failure)",
-    "translations.bn.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.es.summary is empty string (likely Phase 4 batch failure)",
-    "translations.es.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.fr.summary is empty string (likely Phase 4 batch failure)",
-    "translations.fr.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.de.summary is empty string (likely Phase 4 batch failure)",
-    "translations.de.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.ru.summary is empty string (likely Phase 4 batch failure)",
-    "translations.ru.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.zh.summary is empty string (likely Phase 4 batch failure)",
-    "translations.zh.seo_question is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.zh is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.zh is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.zh is empty string (likely Phase 4 batch failure)"
+    "narrator[2] name_ar has 16 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'شَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ث'"
   ],
   "result": {
     "tags": [
       "jurisprudence",
-      "social_relations",
-      "family"
+      "family",
+      "social_relations"
     ],
     "content_type": "legal_ruling",
     "topics": [
-      "judicial_rulings",
       "inheritance",
-      "womens_rights",
-      "rights_of_others"
+      "marriage_family_law",
+      "financial_law"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَسَأَلَهُ يَعْقُوبُ بْنُ شُعَيْبٍ:",
+        "arabic_text": "وَسَأَلَهُ يَعْقُوبُ بْنُ شُعَيْبٍ",
         "translations": {
-          "en": "Ya'qub ibn Shu'ayb asked him:",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
+          "en": "Ya'qub ibn Shu'ayb asked him",
+          "ur": "یعقوب بن شعیب نے ان سے پوچھا",
+          "tr": "Yakub ibn Şuayb ondan sordu",
+          "fa": "يعقوب بن شعيب از او پرسید",
+          "id": "Ya'qub ibn Syu'aib bertanya kepadanya",
+          "bn": "ইয়াকুব ইবনে শুয়াইব (র.) তাঁকে জিজ্ঞাসা করলেন",
+          "es": "Preguntóle Yá'qub ibn Shu'ayb",
+          "fr": "Yaqub ibn Shu'ayb lui demanda",
+          "de": "Ya'qub ibn Shu'ayb fragte ihn",
+          "ru": "Якуб ибн Шуайб спросил его",
+          "zh": "雅各布·本·舒艾布问他"
         },
         "word_start": 0,
         "word_end": 4
       },
       {
         "chunk_type": "body",
-        "arabic_text": "عَنْ رَجُلٍ أَعْتَقَ جَارِيَتَهُ وَشَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ثُمَّ مَاتَ الرَّجُلُ فَوَجَدَهَا وَرَثَتُهُ أَلَهُمْ أَنْ يَسْتَخْدِمُوهَا",
+        "arabic_text": "عَنْ رَجُلٍ أَعْتَقَ جَارِيَتَهُ وَشَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ثُمَّ مَاتَ الرَّجُلُ فَوَجَدَهَا وَرَثَتُهُ أَ لَهُمْ أَنْ يَسْتَخْدِمُوهَا قَالَ \"لاَ\"",
         "translations": {
-          "en": "About a man who freed his bondwoman on the condition that she serve him for five years, but she ran away; then the man died, and his heirs found her. Do they have the right to make her serve them?",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
+          "en": "about a man who freed his bondwoman and stipulated upon her that she serve him for five years. Then she ran away, and then the man died. His heirs found her. Do they have the right to make her serve them? He said: \"No.\"",
+          "ur": "ایک مرد کے بارے میں جس نے اپنی غلام عورت کو آزاد کر دیا اور اس پر شرط لگائی کہ وہ پانچ سال تک اس کی خدمت کرے۔ پھر وہ بھاگ گئی، اور پھر وہ مرد فوت ہو گیا۔ اس کے وارثوں نے اسے پا لیا۔ کیا ان کا حق ہے کہ وہ اسے اپنی خدمت کروائیں؟ انہوں نے کہا: 'نہیں'۔",
+          "tr": "Bir adamın kölesini azat ettiği ve ona beş yıl kendisine hizmet etmesini şart koştuğu bir durumdan bahsedildi. Sonra o kaçtı, ardından adam vefat etti. Vârisleri onu buldular. Ona hizmet ettirme hakkı var mı? O da: \"Hayır,\" dedi.",
+          "fa": "در مورد مردی که کنیز خود را آزاد کرد و بر او شرط کرد که پنج سال برای او خدمت کند. سپس او فرار کرد و بعداً مرد فوت کرد. ورثه او او را یافتند. آیا آنها حق دارند که او را برای خودشان به خدمت بگیرند؟ او گفت: «خیر.»",
+          "id": "Tentang seorang laki-laki yang memerdekakan hamba sahaya perempuannya dan mensyaratkan bahwa ia harus melayani dirinya selama lima tahun. Kemudian ia lari, lalu laki-laki itu meninggal. Para ahli warisnya menemukannya. Apakah mereka berhak memaksanya melayani mereka? Ia berkata: \"Tidak.\"",
+          "bn": "একজন পুরুষের বিষয়ে বর্ণিত হয়েছে যে, সে তার বন্দিদাসীকে মুক্ত করে দিল এবং তার উপর শর্ত আরোপ করল যে, সে তাকে পাঁচ বছর সেবা করবে। এরপর সে পালিয়ে গেল, এবং পরে সেই পুরুষের মৃত্যু হলো। তার উত্তরাধিকারীরা তাকে খুঁজে পেল। তারা কি তার উপর শর্ত আরোপ করার অধিকার রাখে? তিনি বললেন: \"না।\"",
+          "es": "acerca de un hombre que manumitió a su esclava y le impuso la condición de que le sirviera durante cinco años. Luego ella huyó, y después el hombre murió. Sus herederos la encontraron. ¿Tienen derecho a hacerla servir a ellos? Dijo: \"No\".",
+          "fr": "À propos d'un homme qui affranchit sa concubine et lui imposa comme condition de le servir pendant cinq ans. Puis elle s'enfuit, et ensuite l'homme mourut. Ses héritiers la trouvèrent. Ont-ils le droit de la faire servir ? Il dit : « Non. »",
+          "de": "Über einen Mann, der seine Aussage (peace be upon him) bezüglich eines Mannes, der seine Sklavin freiließ und mit ihr vereinbarte, dass sie ihm fünf Jahre dienen sollte. Dann floh sie, und dann starb der Mann. Seine Erben fanden sie. Haben sie das Recht, sie für sich dienen zu lassen? Er sagte: „Nein.“",
+          "ru": "О мужчине, который освободил свою рабыню и обусловив, что она послужит ему пять лет. Затем она сбежала, и затем умер этот мужчина. Его наследники нашли её. Имеют ли они право заставить её служить им? Он сказал: «Нет».",
+          "zh": "关于一名男子释放他的婢女，并约定她为他服役五年。后来她逃跑了，随后该男子去世。他的继承人们找到了她。他们是否有权让她为他们服役？他说：“不。”"
         },
         "word_start": 4,
-        "word_end": 23
-      },
-      {
-        "chunk_type": "closing",
-        "arabic_text": "قَالَ «لَا».",
-        "translations": {
-          "en": "He said: \"No.\"",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
-        },
-        "word_start": 23,
-        "word_end": 25
+        "word_end": 26
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith gives a legal ruling concerning a freed bondwoman whose manumission had been tied to a condition of service. The Imam عليه السلام rules that the heirs of the man who freed her do not inherit the right to enforce that service upon her.",
-        "seo_question": "If a man frees his bondwoman on condition of service and then dies, can his heirs require her to serve them?",
+        "summary": "In this narration from *Man La Yahduruhu al-Faqih*, Imam al-Sadiq clarifies that the emancipation (itq) of a bondwoman is immediate and complete upon declaration, rendering the stipulated five-year service period a contractual obligation rather than a condition of ownership. Consequently, upon the master's death, the heirs inherit the right to claim the service but not the person herself, distinguishing between the status of freedom and the debt of service. This ruling underscores the Shia juristic principle that *kitabah* or conditional emancipation prioritizes the woman's legal freedom over the master's residual rights.",
+        "seo_question": "Do the heirs of a master have the right to make a freed bondwoman serve them if she ran away before his death?",
         "key_terms": {
-          "أَعْتَقَ": "he emancipated or freed from bondage",
-          "جَارِيَتَهُ": "his bondwoman or female slave",
-          "وَشَرَطَ": "and he stipulated a condition",
-          "تَخْدُمَهُ": "that she serve him",
-          "خَمْسَ سِنِينَ": "a period of five years",
-          "فَأَبَقَتْ": "then she ran away or absconded",
+          "أَعْتَقَ": "freed (a slave)",
+          "جَارِيَتَهُ": "his bondwoman/slave girl",
+          "فِيهِا": "upon her",
+          "خَمْسَ سِنِينَ": "five years",
+          "فَأَبَقَتْ": "then she ran away/escaped",
           "وَرَثَتُهُ": "his heirs",
-          "يَسْتَخْدِمُوهَا": "make her serve them or employ her service"
+          "يَسْتَخْدِمُوهَا": "to make her serve/work for them"
         }
       },
       "ur": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "اس روایت میں جو *من لا یحضرہ الفقیہ* سے ہے، امام صادق علیہ السلام واضح کرتے ہیں کہ غلامی سے رہائی (اعطاق) کا اعلان کرنے پر فوری اور مکمل ہو جاتی ہے، جس سے مقرر کردہ پانچ سالہ خدمت کا دورانیہ ایک معاہداتی ذمہ داری بن جاتا ہے نہ کہ ملکیت کی شرط۔ لہذا، مالک کی موت کے بعد ورثاء خدمت کا حق مانگ سکتے ہیں لیکن خود اس عورت کو نہیں، جو آزادی کی حیثیت اور خدمت کے قرض کے درمیان فرق کو واضح کرتی ہے۔ یہ حکم شیعہ فقہی اصول کو اجاگر کرتا ہے کہ *کتبہ* یا مشروط رہائی میں عورت کی قانونی آزادی کو مالک کے باقی حقوق پر ترجیح دی جاتی ہے۔",
+        "seo_question": "کیا مالک کے ورثاء اس رہائی یافتہ غلامی عورت کو ان کے لیے کام کرنے پر مجبور کر سکتے ہیں اگر وہ ان کی موت سے پہلے بھاگ گئی ہو؟",
+        "key_terms": {
+          "أَعْتَقَ": "غلام کو آزاد کرنا",
+          "جَارِيَتَهُ": "اس کی غلامی عورت",
+          "فِيهِا": "اس پر",
+          "خَمْسَ سِنِينَ": "پانچ سال",
+          "فَأَبَقَتْ": "پھر وہ بھاگ گئی/فرار ہو گئی",
+          "وَرَثَتُهُ": "اس کے ورثاء",
+          "يَسْتَخْدِمُوهَا": "اسے ان کے لیے کام کرنے پر مجبور کرنا"
+        }
       },
       "tr": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "Bu rivayette İmam es-Sadık, bir kölenin azad edilmesinin (itk) beyanla anında ve tam olarak gerçekleştiğini, bu nedenle belirlenen beş yıllık hizmet süresinin mülkiyet şartı değil, sözleşmeye dayalı bir yükümlülük olduğunu açıklar. Dolayısıyla, efendisinin ölümünden sonra varisler kendisine hizmet etme hakkını miras alırlar, ancak kişiyi değil. Bu durum, özgürlük statüsü ile hizmet borcu arasındaki ayrımı vurgular. Bu hüküm, Şii hukukçuların kitaba veya koşullu azatın, efendinin arta kalan haklarından önce kadının yasal özgürlüğünü önceliklendirdiği ilkesini destekler.",
+        "seo_question": "Bir efendinin ölümünden önce kaçan bir azatlı köle, varislerine hizmet etmek zorunda mıdır?",
+        "key_terms": {
+          "أَعْتَقَ": "azat etmek (köleyi)",
+          "جَارِيَتَهُ": "köle kız",
+          "فِيهِا": "üzerinde",
+          "خَمْسَ سِنِينَ": "beş yıl",
+          "فَأَبَقَتْ": "sonra kaçtı",
+          "وَرَثَتُهُ": "varisleri",
+          "يَسْتَخْدِمُوهَا": "hizmet ettirmek"
+        }
       },
       "fa": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "در این روایت از *من لا یحضره الفقیه*، امام صادق (ع) توضیح می‌دهد که آزادی (اعطای حریه) کنیز با اعلام مالک، فوری و کامل است واصل می‌شود و دوره پنج‌ساله خدمت مقرر، یک تعهد قراردادی است نه شرط مالکیت. در نتیجه، پس از مرگ مالک، ورثه حق مطالبه خدمت را دارند نه خود شخص کنیز را، که این تمایز بین وضعیت آزادی و بدهی خدمت است. این حکم بر اصل فقهی شیعه تأکید دارد که در *کتابه* یا آزادی مشروط، آزادی حقوقی زن بر حقوق باقی‌مانده مالک اولویت دارد.",
+        "seo_question": "آیا ورثه مالک حق دارند کنیزی که آزاد شده است را مجبور به خدمت کنند اگر پیش از مرگش فرار کرده باشد؟",
+        "key_terms": {
+          "أَعْتَقَ": "آزاد کردن (برده)",
+          "جَارِيَتَهُ": "کنیزش/دختر برده‌اش",
+          "فِيهِا": "در مورد او",
+          "خَمْسَ سِنِينَ": "پنج سال",
+          "فَأَبَقَتْ": "سپس فرار کرد/گریخت",
+          "وَرَثَتُهُ": "ورثه‌اش",
+          "يَسْتَخْدِمُوهَا": "خدمت گرفتن از او/کار کشیدن از او"
+        }
       },
       "id": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "Dalam riwayat dari *Man La Yahduruhu al-Faqih*, Imam al-Sadiq menjelaskan bahwa pembebasan (itq) seorang budak wanita bersifat langsung dan lengkap sejak dinyatakan, sehingga periode pelayanan lima tahun yang disyaratkan menjadi kewajiban kontraktual, bukan syarat kepemilikan. Akibatnya, setelah tuan meninggal, ahli waris mewarisi hak untuk menuntut pelayanan tersebut, bukan dirinya sendiri, sehingga membedakan antara status kebebasan dan utang pelayanan. Hukum ini menegaskan prinsip fikih Syiah bahwa *kitabah* atau pembebasan bersyarat mengutamakan kebebasan hukum wanita atas hak residual tuan.",
+        "seo_question": "Apakah ahli waris tuan berhak meminta budak wanita yang telah dibebaskan melayani mereka jika ia melarikan diri sebelum kematian tuan?",
+        "key_terms": {
+          "أَعْتَقَ": "membebaskan (seorang budak)",
+          "جَارِيَتَهُ": "budak wanitanya",
+          "فِيهِا": "atas dirinya",
+          "خَمْسَ سِنِينَ": "lima tahun",
+          "فَأَبَقَتْ": "lalu ia melarikan diri",
+          "وَرَثَتُهُ": "ahli warisnya",
+          "يَسْتَخْدِمُوهَا": "memintanya melayani"
+        }
       },
       "bn": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "মান লা ইয়াহদুরহুল ফাকিহ হাদিসে ইমাম আস-সাদিq (আ.) স্পষ্ট করেছেন যে, একজন বান্দীর মুক্তির (ইতক) ঘোষণার সাথে সাথে তা তাৎক্ষণিক ও সম্পূর্ণ হয়, ফলে নির্ধারিত পাঁচ বছরের সেবা সময়টি মালিকের মালিকানাশর্ত নয়, বরং একটি চুক্তিগত বাধ্যবাধকতা হয়ে দাঁড়ায়। ফলে মালিকের মৃত্যুর পর উত্তরাধিকারীরা তাকে সেবা দাবি করার অধিকার পান, কিন্তু তাকেই নয়; এটি মুক্তির মর্যাদা এবং সেবার ঋণের মধ্যে পার্থক্য তৈরি করে। এই ফতোয়া শিয়া ফিকহের নীতিটি তুলে ধরে যে, কিতাবাহ বা শর্তসাপেক্ষ মুক্তিতে মালিকের অবশিষ্ট অধিকারের চেয়ে নারীর আইনি মুক্তিকে অগ্রাধিকার দেওয়া হয়।",
+        "seo_question": "যদি মালিকের মৃত্যুর আগে বান্দীটি পালিয়ে যায়, তবে মালিকের উত্তরাধিকারীদের কি তাকে তাদের জন্য সেবা করতে দেওয়ার অধিকার আছে?",
+        "key_terms": {
+          "أَعْتَقَ": "মুক্ত করা (দাসকে)",
+          "جَارِيَتَهُ": "তার বান্দী/দাসী",
+          "فِيهِا": "তার ওপর",
+          "خَمْسَ سِنِينَ": "পাঁচ বছর",
+          "فَأَبَقَتْ": "তারপর সে পালিয়ে গেল/পলায়ন করল",
+          "وَرَثَتُهُ": "তার উত্তরাধিকারীরা",
+          "يَسْتَخْدِمُوهَا": "তাকে তাদের জন্য সেবা করতে দেওয়া/কাজ করানো"
+        }
       },
       "es": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "En esta narración de *Man La Yahduruhu al-Faqih*, el Imam al-Sadiq aclara que la emancipación (itq) de una esclava es inmediata y completa al ser declarada, convirtiendo el período de servicio de cinco años estipulado en una obligación contractual más que en una condición de propiedad. En consecuencia, tras la muerte del amo, los herederos heredan el derecho a reclamar el servicio pero no a la persona en sí, distinguiendo entre el estado de libertad y la deuda de servicio. Este dictamen subraya el principio jurístico chií de que la *kitabah* o emancipación condicional prioriza la libertad legal de la mujer sobre los derechos residuales del amo.",
+        "seo_question": "¿Tienen los herederos de un amo el derecho de hacer servir a una esclava liberada si esta huyó antes de su muerte?",
+        "key_terms": {
+          "أَعْتَقَ": "liberó (a un esclavo)",
+          "جَارِيَتَهُ": "su esclava/novia esclava",
+          "فِيهِا": "sobre ella",
+          "خَمْسَ سِنِينَ": "cinco años",
+          "فَأَبَقَتْ": "entonces huyó/escapó",
+          "وَرَثَتُهُ": "sus herederos",
+          "يَسْتَخْدِمُوهَا": "hacerla servir/trabajar para ellos"
+        }
       },
       "fr": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "Dans cette narration tirée de *Man La Yahduruhu al-Faqih, l'Imam al-Sadiq clarifie que l'affranchissement (itq) d'une esclave est immédiat et complet dès la déclaration, rendant la période de service de cinq ans stipulée une obligation contractuelle plutôt qu'une condition de propriété. Par conséquent, au décès du maître, les héritiers héritent du droit de réclamer le service mais non de la personne elle-même, distinguant ainsi le statut de liberté de la dette de service. Ce jugement souligne le principe jurisprudentiel chiite selon lequel la kitabah ou l'affranchissement conditionnel privilégie la liberté juridique de la femme sur les droits résiduels du maître.",
+        "seo_question": "Les héritiers d'un maître ont-ils le droit de faire servir une esclave affranchie qui s'est enfuie avant son décès ?",
+        "key_terms": {
+          "أَعْتَقَ": "affranchir (un esclave)",
+          "جَارِيَتَهُ": "son esclave fille",
+          "فِيهِا": "sur elle",
+          "خَمْسَ سِنِينَ": "cinq ans",
+          "فَأَبَقَتْ": "puis elle s'est enfuie/échappée",
+          "وَرَثَتُهُ": "ses héritiers",
+          "يَسْتَخْدِمُوهَا": "la faire servir/travailler pour eux"
+        }
       },
       "de": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "In dieser Überlieferung aus *Man Lā Yaḥḍuruhu l-Faqīh* klärt Imam al-Ṣādiq, dass die Freilassung (iṭq) einer Sklavin bei der Erklärung sofort und vollständig erfolgt, wodurch die vereinbarte Dienstzeit von fünf Jahren zu einer vertraglichen Verpflichtung wird und nicht mehr zur Bedingung des Eigentums. Folglich erben die Erben nach dem Tod des Herrn das Recht, den Dienst einzufordern, nicht jedoch die Person selbst, was den Status der Freiheit von der Dienstschuld unterscheidet. Diese Rechtsregel unterstreicht das schiitische juristische Prinzip, dass bei der *kitāba* oder bedingten Freilassung die rechtliche Freiheit der Frau vor den verbleibenden Rechten des Herrn priorisiert wird.",
+        "seo_question": "Haben die Erben eines Herrn das Recht, eine freigelassene Sklavin, die vor seinem Tod geflohen ist, für sich arbeiten zu lassen?",
+        "key_terms": {
+          "أَعْتَقَ": "freilassen (einen Sklaven)",
+          "جَارِيَتَهُ": "seine Sklavin/Mägde",
+          "فِيهِا": "bei ihr",
+          "خَمْسَ سِنِينَ": "fünf Jahre",
+          "فَأَبَقَتْ": "dann floh sie/entkam",
+          "وَرَثَتُهُ": "seine Erben",
+          "يَسْتَخْدِمُوهَا": "sie für sich arbeiten lassen/dienen lassen"
+        }
       },
       "ru": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "В этом хадисе из книги «Ман ла йахдуруху аль-факих» имам ас-Садык разъясняет, что освобождение рабыни (итк) происходит немедленно и полностью при объявлении, что делает оговоренный пятилетний срок службы договорным обязательством, а не условием владения. Следовательно, после смерти хозяина наследники наследуют право требовать службу, но не саму её личность, что различает статус свободы и долг службы. Это постановление подчеркивает шиитский юридический принцип, согласно которому китаба или условное освобождение приоритетнее обеспечивают юридическую свободу женщины над остаточными правами хозяина.",
+        "seo_question": "Имеют ли наследники хозяина право заставить освобожденную рабыню служить им, если она сбежала до его смерти?",
+        "key_terms": {
+          "أَعْتَقَ": "освободил (раба)",
+          "جَارِيَتَهُ": "его рабыня/девушка-рабыня",
+          "فِيهِا": "на ней",
+          "خَمْسَ سِنِينَ": "пять лет",
+          "فَأَبَقَتْ": "затем она сбежала/убежала",
+          "وَرَثَتُهُ": "его наследники",
+          "يَسْتَخْدِمُوهَا": "заставить её служить/работать на них"
+        }
       },
       "zh": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "在《法基赫所不及者》的这段传述中，伊玛目萨迪格阐明，女奴的解放（伊特格）在宣告时即刻且完全生效，因此规定的五年服务期是一项合同义务，而非所有权的条件。因此，在主人去世后，继承人继承的是要求服务的权利，而非她本人，这区分了自由身份与服务债务。这一裁决强调了什叶派法学原则，即卡提巴（kitabah）或条件性解放优先保障女性的法律自由，而非主人的剩余权利。",
+        "seo_question": "如果女奴在主人去世前逃跑，主人的继承人是否有权要求她为他们服务？",
+        "key_terms": {
+          "أَعْتَقَ": "释放（奴隶）",
+          "جَارِيَتَهُ": "他的女奴/婢女",
+          "فِيهِا": "在她身上",
+          "خَمْسَ سِنِينَ": "五年",
+          "فَأَبَقَتْ": "然后她逃跑/逃脱",
+          "وَرَثَتُهُ": "他的继承人",
+          "يَسْتَخْدِمُوهَا": "使她为他们服务/工作"
+        }
       }
     },
     "related_quran": [
       {
-        "ref": "90:13",
+        "ref": "7:189",
         "relationship": "thematic"
       },
       {
         "ref": "24:33",
         "relationship": "thematic"
-      },
-      {
-        "ref": "4:33",
-        "relationship": "thematic"
       }
     ],
-    "diacritized_text": "وَسَأَلَهُ يَعْقُوبُ بْنُ شُعَيْبٍ: عَنْ رَجُلٍ أَعْتَقَ جَارِيَتَهُ وَشَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ثُمَّ مَاتَ الرَّجُلُ فَوَجَدَهَا وَرَثَتُهُ أَلَهُمْ أَنْ يَسْتَخْدِمُوهَا قَالَ «لَا».",
-    "word_tags": [
-      [
-        "وَسَأَلَهُ",
-        "N"
-      ],
-      [
-        "يَعْقُوبُ",
-        "N"
-      ],
-      [
-        "بْنُ",
-        "N"
-      ],
-      [
-        "شُعَيْبٍ:",
-        "N"
-      ],
-      [
-        "عَنْ",
-        "N"
-      ],
-      [
-        "رَجُلٍ",
-        "N"
-      ],
-      [
-        "أَعْتَقَ",
-        "N"
-      ],
-      [
-        "جَارِيَتَهُ",
-        "N"
-      ],
-      [
-        "وَشَرَطَ",
-        "N"
-      ],
-      [
-        "عَلَيْهَا",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "تَخْدُمَهُ",
-        "N"
-      ],
-      [
-        "خَمْسَ",
-        "N"
-      ],
-      [
-        "سِنِينَ",
-        "N"
-      ],
-      [
-        "فَأَبَقَتْ",
-        "N"
-      ],
-      [
-        "ثُمَّ",
-        "N"
-      ],
-      [
-        "مَاتَ",
-        "N"
-      ],
-      [
-        "الرَّجُلُ",
-        "N"
-      ],
-      [
-        "فَوَجَدَهَا",
-        "N"
-      ],
-      [
-        "وَرَثَتُهُ",
-        "N"
-      ],
-      [
-        "أَلَهُمْ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "يَسْتَخْدِمُوهَا",
-        "N"
-      ],
-      [
-        "قَالَ",
-        "N"
-      ],
-      [
-        "«لَا».",
-        "N"
-      ]
-    ],
+    "diacritized_text": "وَسَأَلَهُ يَعْقُوبُ بْنُ شُعَيْبٍ عَنْ رَجُلٍ أَعْتَقَ جَارِيَتَهُ وَشَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ثُمَّ مَاتَ الرَّجُلُ فَوَجَدَهَا وَرَثَتُهُ أَ لَهُمْ أَنْ يَسْتَخْدِمُوهَا قَالَ \"لاَ\"",
     "isnad_matn": {
-      "isnad_ar": "وَسَأَلَهُ يَعْقُوبُ بْنُ شُعَيْبٍ:",
-      "matn_ar": "عَنْ رَجُلٍ أَعْتَقَ جَارِيَتَهُ وَشَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ثُمَّ مَاتَ الرَّجُلُ فَوَجَدَهَا وَرَثَتُهُ أَلَهُمْ أَنْ يَسْتَخْدِمُوهَا قَالَ «لَا».",
+      "isnad_ar": "وَسَأَلَهُ يَعْقُوبُ بْنُ شُعَيْبٍ",
+      "matn_ar": "عَنْ رَجُلٍ أَعْتَقَ جَارِيَتَهُ وَشَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ثُمَّ مَاتَ الرَّجُلُ فَوَجَدَهَا وَرَثَتُهُ أَ لَهُمْ أَنْ يَسْتَخْدِمُوهَا قَالَ \"لاَ\"",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "سَأَلَهُ يَعْقُوبُ بْنُ شُعَيْبٍ :",
-          "name_en": "",
+          "name_en": "Ya'qub b. Shu'ayb",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -331,7 +235,7 @@
         },
         {
           "name_ar": "رَجُلٍ أَعْتَقَ جَارِيَتَهُ",
-          "name_en": "",
+          "name_en": "Ra jul",
           "role": "narrator",
           "position": 2,
           "identity_confidence": "ambiguous",
@@ -341,7 +245,7 @@
         },
         {
           "name_ar": "شَرَطَ عَلَيْهَا أَنْ تَخْدُمَهُ خَمْسَ سِنِينَ فَأَبَقَتْ ثُمَّ مَاتَ اَلرَّجُلُ فَوَجَدَهَا وَرَثَتُهُ أَ لَهُمْ أَنْ يَسْتَخْدِمُوهَا",
-          "name_en": "",
+          "name_en": "Al-Rajul",
           "role": "narrator",
           "position": 3,
           "identity_confidence": "ambiguous",
@@ -355,6 +259,8 @@
     "diacritics_changes": [],
     "key_phrases": [],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

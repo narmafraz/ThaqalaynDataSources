@@ -1,0 +1,200 @@
+{
+  "verse_path": "/books/maani-al-akhbar:7:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] en translation length out of bounds: 10 en words vs 42 ar words (ratio=0.24, expected 16.8-168.0)",
+    "chunks[1] type='body' starts with chain transmission verb 'حدثنا' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "quran_commentary"
+    ],
+    "content_type": "quranic_commentary",
+    "topics": [
+      "divine_attributes",
+      "quran_interpretation_method"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا أَبِي - رَحِمَهُ اللَّهُ - قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، قَالَ: سَمِعْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ حِينَ سُئِلَ عَنِ الصَّمَدِ، فَقَالَ: الصَّمَدُ الَّذِي لَا جَوْفَ لَهُ.",
+        "translations": {
+          "en": "We were told by my father, may Allah grant him mercy, that he said: We were told by Sa'd bin Abdullah, that he said: We were told by Muhammad bin 'Isa, from Yunus bin Abd al-Rahman, from al-Rabī' bin Muslim, that he said: I heard Abū al-Hasan (peace be upon him), when he was asked about al-Samad, to which he said: Al-Samad is He who has no interior.",
+          "ur": "روينا أبي رحمه الله قال: حدثنا سعد بن عبدالله بن سعد قال: حدثنا محمد بن عيسى، عن یونس بن عبدالرحمن، عن الربیع بن مسلم، قال: سمعت أبا الحسن علیه السلام، حين سئل عن الصمد، فقال: الصمد الذي لا جوف له.",
+          "tr": "Bize babam (Allah rahmet eylesin) anlattı, o da dedi ki: Bize Sa'd bin Abdullah anlattı, o da dedi ki: Bize Muhammed bin İsa anlattı, Yunus bin Abdurrahman'dan, el-Rebî' bin Müslim'den ki, o da dedi ki: Ben, Ebu'l-Hasan (aleyhisselam)'ın es-Samad hakkında sorulduğunda, \"Es-Samad, içi boş olmayan odur\" dediğini işittim.",
+          "fa": "حدثنی أبی رحمه الله قال: حدثنی سعد بن عبدالله قال: حدثنی محمد بن عیسى، عن یونس بن عبدالرحمن، عن الربیع بن مسلم قال: سمعت أبا الحسن علیه السلام حين سئل عن الصمد، فقال: الصمد الذي لا جوف له.",
+          "id": "Dikisahkan oleh ayahku, semoga Allah memberinya rahmat, bahwa ia berkata: Dikisahkan oleh Sa'd bin Abdullah, bahwa ia berkata: Dikisahkan oleh Muhammad bin 'Isa, dari Yunus bin Abd al-Rahman, dari al-Rabī' bin Muslim, bahwa ia berkata: Aku mendengar Abū al-Hasan (alamah), ketika ditanya tentang al-Samad, beliau menjawab: Al-Samad adalah Dzat yang tidak berongga.",
+          "bn": "আমাদেরকে আমার পিতা (আল্লাহ তাঁর প্রতি রহম করুন) বলেছেন, তিনি বলেছেন: সাঈদ ইবনে আবদুল্লাহ আমাদেরকে বলেছেন, তিনি বলেছেন: মুহাম্মাদ ইবনে ঈসা আমাদেরকে বলেছেন, ইউনুস ইবনে আবদুর রহমানের মাধ্যমে, আল-রবী' ইবনে মুসলিমের মাধ্যমে, তিনি বলেছেন: আমি আবু আল-হাসান (আলাইহিস সালাম)-কে জিজ্ঞাসা করা হলে আল-সামাদ সম্পর্কে বলতে শুনেছি, তিনি বলেছিলেন: আল-সামাদ হলেন সেই যার কোনো গহ্বর নেই।",
+          "es": "حدّثنا أبو - رحمه الله - قال: حدّثنا سعد بن عبد الله، قال: حدّثنا محمد بن عيسى، عن يونس بن عبد الرحمن، عن الربيع بن مسلم، قال: سمعت أبا الحسن عليه السلام حين سئل عن الصمد، فقال: الصمد الذي لا جوف له.",
+          "fr": "حَدَّثَنَا أَبِي - رَحِمَهُ اللَّهُ - قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، قَالَ: سَمِعْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ حِينَ سُئِلَ عَنِ الصَّمَدِ، فَقَالَ: الصَّمَدُ الَّذِي لَا جَوْفَ لَهُ.",
+          "de": "Erzählte uns mein Vater, möge Allah ihm Barmherzigkeit erweisen, dass er sagte: Erzählte uns Sa'd bin Abdullah, dass er sagte: Erzählte uns Muhammad bin 'Isa, von Yunus bin Abd al-Rahman, von al-Rabī' bin Muslim, dass er sagte: Ich hörte Abū al-Hasan (friede sei mit ihm), als er über al-Samad befragt wurde, wie er sagte: Al-Samad ist der, der kein Inneres hat.",
+          "ru": "Рассказал нам мой отец, да помилует его Аллах, сказавший: «Рассказал нам Са'd ибн Абдуллах, сказавший: ",
+          "zh": "حدثنا أبي رحمه الله قال حدثنا سعد بن عبد الله قال حدثنا محمد بن عيسى عن يونس بن عبد الرحمن عن الربيع بن مسلم قال سمعت أبا الحسن عليه السلام حين سئل عن الصمد فقال الصمد الذي لا جوف له"
+        },
+        "word_start": 0,
+        "word_end": 42
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حَدَّثَنَا أَبِي - رَحِمَهُ اللَّهُ - قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، قَالَ: سَمِعْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ حِينَ سُئِلَ عَنِ الصَّمَدِ، فَقَالَ: الصَّمَدُ الَّذِي لَا جَوْفَ لَهُ.",
+        "translations": {
+          "en": "The narration body: Al-Samad is He who has no interior.",
+          "ur": "روایت کا متن: الصمد وہ ہے جس کے اندر کوئی چیز نہیں۔",
+          "tr": "Rivayet gövdesi: Es-Samad, içinde boşluğu olmayan Allah'tır.",
+          "fa": "متن: ",
+          "id": "Lafal hadis: Al-Samad adalah Dzat yang tidak memiliki bagian dalam.",
+          "bn": "হাদিসের বাক্য: আল-সামাদ হলেন সেই যার কোনো অন্তরাল নেই।",
+          "es": "El cuerpo de la narración: Al-Samad es Aquel que no tiene interior.",
+          "fr": "Le corps du hadith : Al-Samad : As-Samad est Celui qui n'a pas d'intérieur.",
+          "de": "Die Erzählung: Al-Samad ist derjenige, der kein Inneres hat.",
+          "ru": "Саммад — Тот, у кого нет нутра.",
+          "zh": "圣训正文：Al-Samad 是那位无内者。"
+        },
+        "word_start": 42,
+        "word_end": 84
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from *Mani al-Akhbar*, Imam al-Rida (peace be upon him) elucidates the attribute 'al-Samad' by defining it as the One who has no hollow or cavity (*la jawl lahu*), a definition rooted in the linguistic root meaning 'to be solid' or 'to have no interior'. This interpretation, widely accepted in Shia tafsir, emphasizes Allah's absolute unity and simplicity, distinguishing Him from created beings who possess internal divisions, thereby refuting the notion of physical composition or corporeality. It serves as a profound theological affirmation of divine transcendence, asserting that God is self-sufficient and indivisible, unlike any contingent entity.",
+        "seo_question": "What is the meaning of 'Al-Samad' in Shia hadith?",
+        "key_terms": {
+          "الصَّمَدُ": "Al-Samad: A divine attribute meaning the Eternal, the Absolute, or the One who is self-sufficient and has no need for others.",
+          "جَوْف": "Jawf: Interior, cavity, or hollow space within a being."
+        }
+      },
+      "ur": {
+        "summary": "منی الاخبار کی روایت میں امام رضا علیہ السلام نے صمد کا وصف اس طرح بیان کیا ہے کہ اس کا کوئی جوف یا خالی جگہ نہیں ہے، جو لسانی اعتبار سے ٹھوس ہونے یا اندرونی خالی جگہ نہ ہونے کی طرف اشارہ کرتا ہے۔ یہ تفسیر شیعہ مکتب فکر میں وسیع پیمانے پر مقبول ہے اور اللہ کی مطلق وحدانیت اور سادگی پر زور دیتی ہے، جس سے وہ مخلوقات سے ممتاز ہوتے ہیں جن کے اندر تقسیم موجود ہے، اور جسمانی ترکیب یا مادیت کے تصور کی نفی کرتا ہے۔ یہ الہیٰ بلندی کی گہری کلامی تصدیق ہے، جو یہ دعویٰ کرتی ہے کہ اللہ خود کفا اور غیر قابل تقسیم ہے، جیسا کہ کوئی بھی محتاج وجود نہیں۔",
+        "seo_question": "شیعہ احادیث میں 'الصمد' کا کیا مطلب ہے؟",
+        "key_terms": {
+          "الصَّمَدُ": "الہیٰ وصف جس کا مطلب ابدی، مطلق، یا وہ ذات ہے جو خود کفا ہو اور دوسروں کی محتاج نہ ہو۔",
+          "جَوْف": "کسی موجود کے اندر موجود اندرونی خالی جگہ یا گہوارہ۔"
+        }
+      },
+      "tr": {
+        "summary": "Bu *Meni'l-Ehbar* hadisinden nakledilen rivayette, İmam er-Rıza (aleyhisselam) 'es-Samad' sıfatını, içinde boşluk veya oyuk bulunmayan (lâ cevf lehû) olarak tanımlayarak açıklar; bu tanım 'sağlam olmak' veya 'iç kısmı olmak' anlamına gelen dil köküne dayanır. Şii tefsirinde yaygın olarak kabul gören bu yorum, Allah'ın mutlak birliğini ve sadeliğini vurgular, iç bölümlere sahip yaratık varlıklardan ayırarak fiziksel bileşim veya cisimlilik fikrini reddeder. Tanrı'nın yaratılmış varlıklardan farklı olarak kendine yeten ve bölünmez olduğunu ileri süren ilahi tecellinin derinlikli bir teolojik onayı olarak hizmet eder.",
+        "seo_question": "Şii hadislerinde 'Es-Samad'ın anlamı nedir?",
+        "key_terms": {
+          "الصَّمَدُ": "Allah'ın ebedi, mutlak veya başkalarına muhtaç olmayan, kendine yeten bir varlık olarak nitelendirdiği ilahi bir sıfat.",
+          "جَوْف": "Bir varlığın içindeki iç kısım, boşluk veya oyuk alan."
+        }
+      },
+      "fa": {
+        "summary": "در این روایت از *منی‌الاخبار*، امام رضا (علیه‌السلام) صفت «الصَّمَدُ» را به معنای آن که حفره یا گودی ندارد (*لا جَوْفَ لَهُ*) تفسیر می‌کند؛ تفسیری که ریشه در معنای لغوی «جامد بودن» یا «نداشتن داخل» دارد. این تفسیر که در تفسیر شیعه widely پذیرفته شده، بر وحدت و سادگی مطلق خداوند تأکید دارد و او را از مخلوقات که دارای تقسیمات داخلی هستند متمایز می‌سازد، بدین ترتیب مفهوم ترکیب جسمانی یا مادی بودن را رد می‌کند. این روایت تأکیدی عمیق الهیاتی بر تعالی الهی است و بیان می‌کند که خداوند بی‌نیاز و غیرقابل تقسیم است، برخلاف هر موجودی که contingently باشد.",
+        "seo_question": "معنی «الصَّمَدُ» در حدیث شیعه چیست؟",
+        "key_terms": {
+          "الصَّمَدُ": "صفتی الهی به معنای جاودانه، مطلق، یا کسی که خودکفا است و به دیگران نیاز ندارد.",
+          "جَوْف": "داخل، حفره، یا فضای توخالی درون یک موجود."
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari *Mani al-Akhbar*, Imam al-R al-Akhbar*, Imam al-Rida (alamah) menjelaskan sifat 'al-Samad' sebagai Dzat yang tidak memiliki rongga (*la jawl lahu*), sebuah definisi yang berakar pada makna linguistik 'padat' atau 'tidak berongga'. Penafsiran ini, yang banyak diterima dalam tafsir Syiah, menekankan kesatuan dan kesederhanaan Allah yang mutlak, membedakannya dari makhluk ciptaan yang memiliki pembagian internal, sehingga menolak gagasan komposisi fisik atau jasad. Hal ini merupakan pengakuan teologis yang mendalam tentang transcendensi ilahi, menegaskan bahwa Allah Maha Kaya dan tidak terbagi, berbeda dengan segala entitas yang bergantung.",
+        "seo_question": "Apa makna 'Al-Samad' dalam hadis Syiah?",
+        "key_terms": {
+          "الصَّمَدُ": "Sifat ilahi yang berarti Yang Kekal, Yang Mutlak, atau Dzat yang Maha Kaya dan tidak membutuhkan yang lain.",
+          "جَوْف": "Bagian dalam, rongga, atau ruang kosong di dalam suatu makhluk."
+        }
+      },
+      "bn": {
+        "summary": "মানি আল-আখবার হাদিসে ইমাম আল-রিদা (আ.) 'আস-সামাদ' বৈশিষ্ট্যটি ব্যাখ্যা করেছেন এভাবে যে, তিনি এমন কেউ যার কোনো গহ্বর বা খোপ নেই (লা জাওলুহু), যা ভাষাগতভাবে 'দৃঢ়' বা 'অন্তঃপ্রকৃতিহীন' অর্থের সাথে সম্পর্কিত। শিয়া তাফসিরে এই ব্যাখ্যা ব্যাপকভাবে গ্রহণযোগ্য, যা আল্লাহর পরম ঐক্য ও সরলতাকে তুলে ধরে, সৃষ্ট জগতের সত্তা থেকে তাকে পৃথক করে, যাদের মধ্যে অভ্যন্তরীণ বিভাজন রয়েছে। এটি ঈশ্বরের শারীরিক গঠন বা দেহত্বের ধারণাকে খণ্ডন করে এবং ঈশ্বরের পরম উচ্চতার গভীর তাত্ত্বিক স্বীকৃতি প্রদান করে, যা বলে যে তিনি স্বয়ংসম্পূর্ণ এবং অবিভাজ্য, যেকোনো আশ্রিত সত্তার মতো নয়।",
+        "seo_question": "শিয়া হাদিসে 'আস-সামাদ'-এর অর্থ কী?",
+        "key_terms": {
+          "الصَّمَدُ": "ঈশ্বরের একটি বৈশিষ্ট্য যার অর্থ চিরন্তন, পরম বা এমন একজন যিনি স্বয়ংসম্পূর্ণ এবং অন্যের উপর নির্ভরশীল নন।",
+          "جَوْف": "কোনো সত্তার মধ্যে অবস্থিত অভ্যন্তরীণ গহ্বর বা খোপ স্থান।"
+        }
+      },
+      "es": {
+        "summary": "En esta narración de *Mani al-Akhbar*, el Imam al-Rida (que la paz sea con él) aclara el atributo 'al-Samad' definiéndolo como Aquel que no tiene cavidad ni hueco (*la jawl lahu*), una definición arraigada en la raíz lingüística que significa 'ser sólido' o 'no tener interior'. Esta interpretación, ampliamente aceptada en la exégesis chií, enfatiza la unidad y simplicidad absolutas de Allah, distinguiéndolo de las criaturas creadas que poseen divisiones internas, refutando así la noción de composición física o corporeidad. Sirve como una profunda afirmación teológica de la trascendencia divina, afirmando que Dios es autosuficiente e indivisible, a diferencia de cualquier entidad contingente.",
+        "seo_question": "¿Cuál es el significado de 'Al-Samad' en los hadices chiíes?",
+        "key_terms": {
+          "الصَّمَدُ": "Un atributo divino que significa el Eterno, el Absoluto, o Aquel que es autosuficiente y no necesita de otros.",
+          "جَوْف": "Interior, cavidad o espacio hueco dentro de un ser."
+        }
+      },
+      "fr": {
+        "summary": "Dans cette narration tirée de *Mani al-Akhbar*, l’Imam al-Rida (que la paix soit sur lui) éclaire l’attribut « al-Samad » en le définissant comme Celui qui n’a ni creux ni cavité (*la jawl lahu*), une définition ancrée dans la racine linguistique signifiant « être solide » ou « n’avoir pas d’intérieur ». Cette interprétation, largement acceptée dans le tafsir chiite, met en évidence l’unité absolue et la simplicité d’Allah, le distinguant des créatures qui possèdent des divisions internes, réfutant ainsi la notion de composition physique ou de corporeité. Elle sert d’affirmation théologique profonde de la transcendance divine, affirmant que Dieu est autosuffisant et indivisible, contrairement à toute entité contingente.",
+        "seo_question": "Quelle est la signification de « Al-Samad » dans les hadiths chiites ?",
+        "key_terms": {
+          "الصَّمَدُ": "Un attribut divin signifiant l’Éternel, l’Absolu, ou Celui qui est autosuffisant et n’a besoin de personne.",
+          "جَوْف": "Intérieur, cavité ou espace creux au sein d’un être."
+        }
+      },
+      "de": {
+        "summary": "In dieser Erzählung aus *Mani al-Akhbar* erläutert Imam al-Rida (Friede sei mit ihm) das Attribut *al-Samad*, indem er es als denjenigen definiert, der keine Höhlung oder Leere (*la jawl lahu*) hat, eine Definition, die auf der sprachlichen Wurzel mit der Bedeutung „fest sein“ oder „kein Inneres haben“ beruht. Diese Interpretation, die in der schiitischen Tafsir weit verbreitet ist, betont die absolute Einheit und Einfachheit Allahs und unterscheidet ihn von den geschaffenen Wesen, die innere Unterteilungen besitzen, wodurch die Vorstellung der physischen Zusammensetzung oder Körperlichkeit widerlegt wird. Sie dient als tiefgreifende theologische Bestätigung der göttlichen Transzendenz und behauptet, dass Gott selbstgenügsam und unteilbar ist, im Gegensatz zu jedem kontingenten Wesen.",
+        "seo_question": "Was bedeutet 'Al-Samad' in der schiitischen Hadith?",
+        "key_terms": {
+          "الصَّمَدُ": "Ein göttliches Attribut, das die Ewigkeit, die Absolutheit oder denjenigen bedeutet, der selbstgenügsam ist und keine Notwendigkeit für andere hat.",
+          "جَوْف": "Inneres, Höhlung oder hohler Raum innerhalb eines Wesens."
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из книги *Мани аль-Ахбар* Имаму аль-Рида (да будет над ним мир) разъясняет атрибут «ас-Самад», определяя его как Того, у кого нет полости (*ля джауф лаху*), что основано на лингвистическом корне, означающем «быть твердым» или «не иметь внутренней части». Эта интерпретация, широко принятая в шиитском тафсире, подчеркивает абсолютное единство и простоту Аллаха, отличая Его от созданных существ, обладающих внутренними делениями, тем самым опровергая понятие физического состава или материальности. Это служит глубоким богословским утверждением божественного превосходства, утверждая, что Бог самодостаточен и неделим, в отличие от любой преходящей сущности.",
+        "seo_question": "Каково значение «ас-Самад» в шиитских хадисах?",
+        "key_terms": {
+          "الصَّمَدُ": "Божественный атрибут, означающий Вечный, Абсолютный или Тот, Кто самодостаточен и не нуждается в других.",
+          "جَوْف": "Внутренняя часть, полость или пустое пространство внутри существа."
+        }
+      },
+      "zh": {
+        "summary": "在《曼尼·阿克巴尔》的这段圣训中，伊玛目阿里·里达（愿主福安之）阐释了神圣属性‘萨玛德’（al-Samad），将其定义为‘无中空者’（la jawl lahu），这一定义源于意为‘坚实’或‘无内部’的词根。这一解释在什叶派经注学中广为接受，强调真主的绝对独一性与单纯性，将其与具有内部划分的受造物区分开来，从而驳斥了物理构成或物质性的观念。这是对神圣超越性的深刻神学肯定，断言真主是自足且不可分割的，不同于任何偶然存在的实体。",
+        "seo_question": "什叶派圣训中‘萨玛德’（Al-Samad）的含义是什么？",
+        "key_terms": {
+          "الصَّمَدُ": "神圣属性，意为永恒、绝对者，或自足且无需他者者",
+          "جَوْف": "内部、腔体或生物体内的中空空间"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "112:2",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "6:101",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "42:11",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا أَبِي - رَحِمَهُ اللَّهُ - قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، قَالَ: سَمِعْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ حِينَ سُئِلَ عَنِ الصَّمَدِ، فَقَالَ: الصَّمَدُ الَّذِي لَا جَوْفَ لَهُ. حَدَّثَنَا أَبِي - رَحِمَهُ اللَّهُ - قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، قَالَ: سَمِعْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ حِينَ سُئِلَ عَنِ الصَّمَدِ، فَقَالَ: الصَّمَدُ الَّذِي لَا جَوْفَ لَهُ.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا أَبِي - رَحِمَهُ اللَّهُ - قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، قَالَ: سَمِعْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ حِينَ سُئِلَ عَنِ الصَّمَدِ، فَقَالَ: الصَّمَدُ الَّذِي لَا جَوْفَ لَهُ.",
+      "matn_ar": "حَدَّثَنَا أَبِي - رَحِمَهُ اللَّهُ - قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنِ الرَّبِيعِ بْنِ مُسْلِمٍ، قَالَ: سَمِعْتُ أَبَا الْحَسَنِ عَلَيْهِ السَّلَامُ حِينَ سُئِلَ عَنِ الصَّمَدِ، فَقَالَ: الصَّمَدُ الَّذِي لَا جَوْفَ لَهُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أبي - رحمه الله - قال",
+          "name_en": "My father (al-Saduq's father)",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 613
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

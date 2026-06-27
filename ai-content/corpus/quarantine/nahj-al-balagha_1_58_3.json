@@ -1,0 +1,229 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:58:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 47 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'قال الشريف: قوله عليه السلام : «ولا بقي منكم آبر» يروى على ث'"
+  ],
+  "result": {
+    "tags": [
+      "knowledge",
+      "prophetic_tradition"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "prophetic_character",
+      "hadith_sciences"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "قَالَ الشَّرِيفُ: قَوْلُهُ عَلَيْهِ السَّلَامُ: «وَلَا بَقِيَّ مِنْكُمْ آبِرٌ»",
+        "translations": {
+          "en": "As-Sayyid ar-Raḍī says: In the words of the Imam (peace be upon him): \"And there remains none of you who is an 'ābir\".",
+          "ur": "قال السيد الرضي: في قوله عليه السلام: «ولا بقي منكم آبر»",
+          "tr": "Es-Seyyidü'r-Radî der ki: İmam'ın (aleyhisselâm) «Sizden bir âbir kalmadı» sözünde üç okunuş rivayet edilmiştir: Birincisi, daha önce belirttiğimiz gibi, râ ile olup, «âbir» kelimesi hurma ağacını onaran anlamına gelen «yâbir»den gelmiştir. İkincisi, «âsir» olarak rivayet edilir ki, bu hadisi nakleden ve rivayet eden kişi anlamına gelir; bu, bence en sahih olan okunuştur. Tıpkı İmam'ın «Sizden bir haberci kalmadı» demesi gibidir. Üçüncüsü ise «âbiz» olarak rivayet edilir; zâ ile ve cümle olarak. Bu, sıçrayan veya helak olan anlamına gelir.",
+          "fa": "آل السيد الرضي يقول: في قول الإمام (صلى الله عليه وسلم): «ولا بقي منكم آبر»",
+          "id": "As-Sayyid ar-Raḍī berkata: Dalam sabda Imam (semoga salam tercurah baginya): \"Dan tidak tersisa di antara kalian seorang pun yang ābir.\"",
+          "bn": "আস-সাইয়্যিদ আরাড়ী বলেন: ইমামের (আলাইহিস সালাম) বাক্যে: \"আর তোমাদের মধ্যে কেউ 'আবির' অবশিষ্ট নেই।\"",
+          "es": "يقول السيد الرضي: في قوله عليه السلام: «ولا بقي منكم آبر»",
+          "fr": "يقول السيد الرضي: في قوله عليه السلام: «ولا بقي منكم آبر»",
+          "de": "As-Sayyid ar-Raḍī sagt: In den Worten des Imams (Friede sei mit ihm): „Und es bleibt keiner von euch übrig, der ein 'ābir ist.“",
+          "ru": "Говорит ас-Саййид ар-Ради: В словах Имама (да будет над ним мир): «И не осталось среди вас ни одного, кто был бы аабиром».",
+          "zh": "谢里夫说：伊玛目（愿主福安之）说：“你们中剩下一个آبر（آبر）。”"
+        },
+        "word_start": 0,
+        "word_end": 9
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يُرْوَى عَلَى ثَلَاثَةِ أَوْجُهٍ: أَحَدُهُمَا أَنْ يَكُونَ كَمَا ذَكَرْنَاهُ، بِالرَّاءِ، مِنْ قَوْلِهِمْ: رَجُلٌ آبِرٌ: لِلَّذِي يَأْبَرُ النَّخْلَ، أَي: يُصْلِحُهُ. وَيُرْوَى: «آثِرٌ»، يُرَادُ بِهِ: الَّذِي يَأْثُرُ الْحَدِيثَ، أَي: يَحْكِيهِ وَيُرْوِيهِ، وَهُوَ أَصْحُحُ الْوُجُوهِ عِنْدِي، كَأَنَّهُ عَلَيْهِ السَّلَامُ قَالَ: لَا بَقِيَّ مِنْكُمْ مُخْبِرٌ! وَيُرْوَى: «آبِزٌ» ـ بِالزَّايِ مُعْجَمَةً ـ وَهُوَ: الْوَاثِبُ، وَالْهَالِكُ أَيْضًا يُقَالُ لَهُ: آبِزٌ",
+        "translations": {
+          "en": "It is narrated with three readings: The first is as we mentioned, with the 'rā', from their saying: 'a man who is an 'ābir', meaning the one who prunes the date-palms, i.e., improves them. And it is narrated: 'āthir', meaning the one who relates the hadith, i.e., narrates it, and this is the most correct of the readings in my view, as if the Imam (peace be upon him) said: 'None remains of you who is a narrator!' And it is narrated: 'ābiz' - with a 'zā' (emphatic) - which means the leaper, and the one who perishes is also called 'ābiz'.",
+          "ur": "یہ تین قرائتوں کے ساتھ منقول ہے: پہلی وہی ہے جو ہم نے ذکر کی، راء کے ساتھ، ان کے اس قول سے: 'ایک آدمی جو عابِر ہے، یعنی کھجور کے درختوں کو کاٹنے والا، یعنی ان کی بہتری کرتا ہے۔ اور یہ منقول ہے: عَاثِر، یعنی حدیث بیان کرنے والا، یعنی روایت کرنے والا، اور یہ میرے نزدیک قرائتوں میں سب سے زیادہ صحیح ہے، گویا امام (علیہ السلام) نے فرمایا: 'تم میں سے کوئی روایت کرنے والا باقی نہیں رہا!' اور یہ منقول ہے: عَابِز - زاءِ تأکید کے ساتھ - جس کا مطلب ہے چھلانگ لگانے والا، اور ہلاک ہونے والے کو بھی عَابِز کہا جاتا ہے۔",
+          "tr": "Üç okuma ile rivayet edilmiştir: Birincisi, bahsettiğimiz gibi, 'rā' ile, onların 'bir hurma ağacı budayıcı olan adam' demelerinden; yani onları iyileştiren. Ve 'āthir' olarak da rivayet edilmiştir; yani hadisi nakleden, yani rivayet eden. Bu, bence okumaların en doğrusudur, sanki İmam (aleyhisselam) 'Sizden bir nakilci kalmadı!' demiş gibi. Ve 'ābiz' olarak da rivayet edilmiştir; 'zā' (tevki) ile; yani sıçrayan, ve helak olan da 'ābiz' denir.",
+          "fa": "با سه قرائت روایت شده است: اولی همان‌گونه که ذکر کردیم با «ر» از گفتار ایشان: «رَجُلٍ عَابِرٍ» به معنای کسی که نخل‌ها را هرس می‌کند، یعنی آن‌ها را بهبود می‌بخشد. و روایت شده: «عَاثِرٌ» به معنای کسی که حدیث را روایت می‌کند، یعنی نقل می‌کند، و این صحیح‌ترین قرائت به نظر من است، گویی امام (علیه‌السلام) فرمود: «هیچ‌یک از شما باقی نمانده که راوی باشد!» و روایت شده: «عَابِزٌ» - با «ز» تأکیدی - که به معنای پرش‌کننده است، و آن که هلاک می‌شود نیز «عَابِز» نامیده می‌شود.",
+          "id": "D diriwayatkan dengan tiga qira'at: yang pertama adalah sebagaimana yang telah kami sebutkan, dengan 'rā', dari firman mereka: 'seorang laki-laki yang merupakan 'ābir', artinya orang yang memangkas kurma, yaitu memperbaikinya. Dan diriwayatkan: 'āthir', artinya orang yang meriwayatkan hadis, yaitu meriwayatkannya, dan ini adalah yang paling shahih dari qira'at menurut pandanganku, seakan-akan Imam (semoga Allah memberinya kedamaian) berkata: 'Tidak ada di antara kalian yang tersisa kecuali seorang perawi!' Dan diriwayatkan: 'ābiz' - dengan 'zā' (tafkhim) - yang artinya orang yang melompat, dan orang yang binasa juga disebut 'ābiz'.",
+          "bn": "তিনটি পাঠের মাধ্যমে বর্ণিত হয়েছে: প্রথম পাঠটি হলো আমরা যেটি উল্লেখ করেছি, 'র' (rā) সহ, তাদের বাক্য 'আবির' (ābir) থেকে, যার অর্থ খেজুর গাছের ডালপালা কেটে যত্ন নেওয়া, অর্থাৎ উন্নত করা। আর বর্ণিত হয়েছে: 'আথির' (āthir), যার অর্থ হাদিস বর্ণনকারী, অর্থাৎ তা বর্ণনা করেন, এবং এটি আমার মতে পাঠগুলোর মধ্যে সবচেয়ে সঠিক, যেন ইমাম (আলাইহিস সালাম) বললেন: 'তোমাদের মধ্যে কেউ বর্ণনাকারী অবশিষ্ট নেই!' আর বর্ণিত হয়েছে: 'আবিয' (ābiz) — 'যা' (zā) (জোরদার) সহ — যার অর্থ লাফানো, এবং যে ব্যক্তি ধ্বংসপ্রাপ্ত হয় তাকেও 'আবিয' বলা হয়।",
+          "es": "Se narrado con tres lecturas: la primera es como la mencionamos, con la 'rā', a partir de su dicho: 'un hombre que es un 'ābir', es decir, el que poda las palmeras datileras, o sea, las mejora. Y se narra: 'āthir', es decir, el que relata el hadiz, o sea, lo narra, y esta es la lectura más correcta en mi opinión, como si el Imam (que la paz sea con él) dijera: '¡No queda de vosotros ninguno que sea narrador!'. Y se narra: 'ābiz' - con una 'zā' (emfática) - que significa el que salta, y también se llama 'ābiz' al que perece.",
+          "fr": "Il est rapporté avec trois lectures : la première est celle que nous avons mentionnée, avec le « rā » (ر), tirée de leur parole : « un homme qui est un « ābir » (عَابِر), c’est-à-dire celui qui taille les palmiers-dattiers, en les améliorant. Et il est rapporté : « āthir » (عَاثِر), c’est-à-dire celui qui rapporte la hadith, c’est-à-dire qui le narre, et c’est la plus correcte des lectures à mon avis, comme si l’Imam (que la paix soit sur lui) disait : « Il ne reste parmi vous aucun narrateur ! » Et il est rapporté : « ābiz » (عَابِز) — avec un « zā » emphatique (ذ) — qui signifie celui qui saute, et celui qui périt est aussi appelé « ābiz ».",
+          "de": "Es wird mit drei Lesarten überliefert: Die erste ist, wie wir erwähnt haben, mit dem 'rā', von ihrem Wort: 'ein Mann, der ein 'ābir' ist', was bedeutet, dass er die Dattelpalmen beschneidet, d. h., sie verbessert. Und es wird überliefert: 'āthir', was bedeutet, dass er die Hadithe überliefert, d. h., sie narriert, und dies ist die korrekteste der Lesarten nach meiner Ansicht, als ob der Imam (Friede sei mit ihm) sagte: 'Keiner von euch bleibt übrig, der ein Überlieferer ist!' Und es wird überliefert: 'ābiz' - mit einem emphatischen 'zā' - was der Springer bedeutet, und auch der Verlorene wird 'ābiz' genannt.",
+          "ru": "Передано с тремя чтениями: первое — то, которое мы упомянули, с «ра» (ر), от их слов: «аль-а́бир» (عَابِر)», то есть тот, кто подрывает финиковые пальмы, то есть улучшает их. И передано: «аль-а́сир (عَاثِر)», то есть тот, кто передаёт хадис, то есть повествует о нём, и это, по моему мнению, наиболее правильное из чтений, словно Имам (да будет над ним мир) сказал: «Не осталось среди вас никого, кто был бы передатчиком!» И передано: «аль-а́биз (عَابِز)» — с «за» (ز) шаддой, что означает прыгающий, а также тот, кто погибает, называется «аль-а́биз».",
+          "zh": "此段圣训传述有三种读法：第一种如前所述，以‘rā’（ر）为准，出自他们的说法：‘一个‘ābir’（عَابِر）的人’，意为修剪椰枣树的人，即改良椰枣树者。另有传述为：‘āthir’（عَاثِر），意为传述圣训者，即叙述者，依我之见，此为最正确的读法，仿佛伊玛目（愿主福安之）说：‘你们之中再无传述者！’另有传述为：‘ābiz’（عَابِز），以‘zā’（ز，重音）为准，意为跳跃者，而毁灭者亦被称为‘ābiz’。"
+        },
+        "word_start": 9,
+        "word_end": 63
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Sharif al-Raḍī analyzes the lexical ambiguity of 'ābir' in the Imam’s address to the Kharijites, favoring 'āthir' (one who narrates or spreads news) to highlight their role as disseminators of dissent. This scholarly preference underscores the political and theological danger of their narrative propagation, while alternative readings like 'pruner' or 'leaper' offer nuanced metaphors for their destructive impact. The discussion reflects the Shia tradition's emphasis on precise linguistic interpretation to uncover deeper layers of the Imam's rhetorical strategy.",
+        "seo_question": "What are the different interpretations of the word 'ābir' in Nahj al-Balagha?",
+        "key_terms": {
+          "آبِرٌ": "One who prunes or improves date-palm trees",
+          "آثِرٌ": "One who relates or narrates news/hadith",
+          "آبِزٌ": "One who leaps or perishes",
+          "الشَّرِيفُ": "As-Sayyid ar-Raḍī, the compiler of Nahj al-Balagha",
+          "الْحَدِيثَ": "The narration or news"
+        }
+      },
+      "ur": {
+        "summary": "شریف الرضی امام کے خطبہ میں خوارج کے لیے استعمال ہونے والے لفظ 'عابر' کی لغوی ابہام کا تجزیہ کرتے ہیں، اور انہیں اختلاف پھیلانے والے کے طور پر نمایاں کرنے کے لیے 'آثر' (جو خبر روایت کرتا ہے یا پھیلاتا ہے) کو ترجیح دیتے ہیں۔ یہ علمی ترجیح ان کی روایتی نشر و اشاعت کی سیاسی اور کلامی خطرناک نوعیت کو اجاگر کرتی ہے، جبکہ 'کھیتی کٹائی کرنے والا' یا 'چھلانگ لگانے والا' جیسی متبادل تشریحات ان کے تباہ کن اثر کے لیے باریک بینی سے بھرپور استعارے فراہم کرتی ہیں۔ یہ بحث شیعہ روایت کے اس زور کو ظاہر کرتی ہے کہ امام کی بلاغی حکمت کی گہری تہوں کو دریافت کرنے کے لیے لغوی تشریح میں درستگی ضروری ہے۔",
+        "seo_question": "نہج البلاغہ میں لفظ 'عابر' کی مختلف تشریحات کیا ہیں؟",
+        "key_terms": {
+          "آبِرٌ": "جو کھجور کے درختوں کی کٹائی یا بہتری کرتا ہے",
+          "آثِرٌ": "جو خبر یا حدیث روایت کرتا ہے",
+          "آبِزٌ": "جو چھلانگ لگاتا ہے یا ہلاک ہوتا ہے",
+          "الشَّرِيفُ": "سید الرضی، نہج البلاغہ کے مرتب",
+          "الْحَدِيثَ": "روایت یا خبر"
+        }
+      },
+      "tr": {
+        "summary": "Şerifü'r-Rıdî, İmam'ın Haricilere hitabında 'âbir' kelimesinin sözcük anlamı belirsizliğini analiz eder ve onların mualefe yayıcıları rolünü vurgulamak için 'âsir' (haber nakleden veya yayılan) anlamını tercih eder. Bu ilmi tercih, onların haber yayma faaliyetinin siyasi ve teolojik tehlikesini vurgularken, 'budacı' veya 'zıplayan' gibi alternatif okumalar onların yıkıcı etkisi için nüanslı metaforlar sunar. Tartışma, İmam'ın hitabet stratejisini daha derin katmanlarıyla ortaya çıkarmak için dilbilimsel yorumlama hassasiyetine Shia geleneğinin vurgusunu yansıtır.",
+        "seo_question": "Nahcül Belagâ'da 'âbir' kelimesinin farklı yorumları nelerdir?",
+        "key_terms": {
+          "آبِرٌ": "Hurma ağaçlarını budayan veya iyileştiren kimse",
+          "آثِرٌ": "Haber/hadis nakleden kimse",
+          "آبِزٌ": "Zıplayan veya helak olan kimse",
+          "الشَّرِيفُ": "Nahcül Belagâ'nın derleyicisi Şerifü'r-Rıdî",
+          "الْحَدِيثَ": "Nakil veya haber"
+        }
+      },
+      "fa": {
+        "summary": "شریف الرضی در خطبه امام به خوارج، ابهام لفظی «عابر» را تحلیل می‌کند و معنای «آثر» (راوی یا ناقل خبر) را ترجیح می‌دهد تا نقش آنان را به عنوان ناقلان اختلاف نشان دهد. این ترجیح علمی، خطر سیاسی و کلامی گسترش روایت آنان را برجسته می‌کند، در حالی که خوانش‌های جایگزین مانند «باغبان خرما» یا «پریدن» استعاره‌های ظریفی برای تأثیر ویرانگر آنان ارائه می‌دهند. این بحث بازتاب‌دهنده تأکید سنت شیعه بر تفسیر دقیق زبانی برای کشف لایه‌های عمیق‌تر استراتژی بلاغی امام است.",
+        "seo_question": "تفسیرهای مختلف کلمه «عابر» در نهج‌البلاغه چیست؟",
+        "key_terms": {
+          "آبِرٌ": "کسی که درخت خرما را هرس یا بهبود می‌بخشد",
+          "آثِرٌ": "کسی که خبر یا حدیث را روایت می‌کند",
+          "آبِزٌ": "کسی که می‌پرد یا هلاک می‌شود",
+          "الشَّرِيفُ": "سید الرضی، گردآورنده نهج‌البلاغه",
+          "الْحَدِيثَ": "روایت یا خبر"
+        }
+      },
+      "id": {
+        "summary": "Syarif al-Raḍī menganalisis ambiguitas leksikal kata 'ābir' dalam khutbah Imam kepada kaum Khawarij, dengan lebih memilih makna 'āthir' (yang meriwayatkan atau menyebarkan berita) untuk menyoroti peran mereka sebagai penyebar disensi. Preferensi ilmiah ini menekankan bahaya politik dan teologis dari propagasi narasi mereka, sementara pembacaan alternatif seperti 'pemangkas' atau 'pelompat' menawarkan metafora yang halus mengenai dampak destruktif mereka. Diskusi ini mencerminkan penekanan tradisi Syiah pada interpretasi linguistik yang tepat untuk mengungkap lapisan lebih dalam dari strategi retoris Imam.",
+        "seo_question": "Apa saja interpretasi berbeda dari kata 'ābir' dalam Nahj al-Balagha?",
+        "key_terms": {
+          "آبِرٌ": "Yang memangkas atau memperbaiki pohon kurma",
+          "آثِرٌ": "Yang meriwayatkan atau menceritakan berita/hadits",
+          "آبِزٌ": "Yang melompat atau binasa",
+          "الشَّرِيفُ": "As-Sayyid ar-Raḍī, penyusun Nahj al-Balagha",
+          "الْحَدِيثَ": "Riwayat atau berita"
+        }
+      },
+      "bn": {
+        "summary": "শরীফ আল-রাড়ী ইমামের খারিজীদের উদ্দেশ্যে করা ভাষণে 'আবির' শব্দের শব্দগত দ্ব্যর্থতা বিশ্লেষণ করেছেন, যেখানে তিনি 'আথির' (যে খবর বর্ণনা করে বা ছড়ায়) শব্দটিকে পছন্দ করেছেন তাদের বিদ্রোহ ছড়ানোর ভূমিকা তুলে ধরতে। এই বৌদ্ধিক পছন্দ তাদের বর্ণনা ছড়ানোর রাজনৈতিক ও তাত্ত্বিক ঝুঁকি তুলে ধরে, অন্যদিকে 'কাঁটাছেঁড়া' বা 'লাফানো' এর মতো বিকল্প পাঠ তাদের ধ্বংসাত্মক প্রভাবের জন্য সূক্ষ্ম উপমা প্রদান করে। এই আলোচনা শিয়া ঐতিহ্যের ইমামের রиторিক কৌশলের গভীর স্তর উন্মোচনের জন্য সঠিক ভাষ্যের উপর জোর দেওয়ার প্রতিফলন।",
+        "seo_question": "নহজুল বালাগহায় 'আবির' শব্দের বিভিন্ন ব্যাখ্যা কী কী?",
+        "key_terms": {
+          "آبِرٌ": "খজুর গাছ কাঁটাছেঁড়া বা উন্নতকারী",
+          "آثِرٌ": "খবর বা হাদিস বর্ণনাকারী",
+          "آبِزٌ": "যে লাফ দেয় বা ধ্বংস হয়",
+          "الشَّرِيفُ": "আস-সাইয়্যিদ আল-রাড়ী, নহজুল বালাগহার সংকলক",
+          "الْحَدِيثَ": "বর্ণনা বা খবর"
+        }
+      },
+      "es": {
+        "summary": "Sharif al-Raḍī analiza la ambigüedad léxica de 'ābir' en el discurso del Imam a los jariyíes, favoreciendo 'āthir' (quien narra o difunde noticias) para destacar su papel como difusores de la disidencia. Esta preferencia erudita subraya el peligro político y teológico de su propagación narrativa, mientras que lecturas alternativas como 'poda' o 'salto' ofrecen matices metafóricos para su impacto destructivo. La discusión refleja el énfasis de la tradición chií en la interpretación lingüística precisa para desvelar capas más profundas de la estrategia retórica del Imam.",
+        "seo_question": "¿Cuáles son las diferentes interpretaciones de la palabra 'ābir' en Nahj al-Balagha?",
+        "key_terms": {
+          "آبِرٌ": "El que poda o mejora las palmeras datileras",
+          "آثِرٌ": "El que relaciona o narra noticias/hadith",
+          "آبِزٌ": "El que salta o perece",
+          "الشَّرِيفُ": "As-Sayyid ar-Raḍī, el compilador de Nahj al-Balagha",
+          "الْحَدِيثَ": "La narración o la noticia"
+        }
+      },
+      "fr": {
+        "summary": "Chérif ar-Radī analyse l'ambiguïté lexicale du mot 'ābir' dans l'adresse de l'Imam aux Kharijites, privilégiant 'āthir' (celui qui raconte ou diffuse des nouvelles) pour souligner leur rôle de diffuseurs de la dissidence. Cette préférence savante met en lumière le danger politique et théologique de leur propagation narrative, tandis que des lectures alternatives comme 'tailleur' ou 'sauter' offrent des métaphores nuancées de leur impact destructeur. La discussion reflète l'accent mis par la tradition chiite sur l'interprétation linguistique précise pour dévoiler des couches plus profondes de la stratégie rhétorique de l'Imam.",
+        "seo_question": "Quelles sont les différentes interprétations du mot 'ābir' dans Nahj al-Balagha ?",
+        "key_terms": {
+          "آبِرٌ": "Celui qui taille ou améliore les palmiers-dattiers",
+          "آثِرٌ": "Celui qui relate ou raconte des nouvelles/hadith",
+          "آبِزٌ": "Celui qui saute ou périt",
+          "الشَّرِيفُ": "As-Sayyid ar-Radī, le compilateur de Nahj al-Balagha",
+          "الْحَدِيثَ": "La narration ou la nouvelle"
+        }
+      },
+      "de": {
+        "summary": "Scharif al-Raḍī analysiert die lexikalische Mehrdeutigkeit von 'ābir' in der Ansprache des Imams an die Chawarids und bevorzugt 'āthir' (jemand, der Nachrichten überliefert oder verbreitet), um ihre Rolle als Verbreiter des Dissens hervorzuheben. Diese wissenschaftliche Präferenz unterstreicht die politische und theologische Gefahr ihrer narrativen Verbreitung, während alternative Lesarten wie 'Beschneider' oder 'Springer' nuancierte Metaphern für ihre zerstörerische Wirkung bieten. Die Diskussion spiegelt die Betonung der schiitischen Tradition auf präzise linguistische Interpretation wider, um tiefere Schichten der rhetorischen Strategie des Imams aufzudecken.",
+        "seo_question": "Was sind die verschiedenen Interpretationen des Wortes 'ābir' in Nahj al-Balagha?",
+        "key_terms": {
+          "آبِرٌ": "Derjenige, der Dattelpalmen beschneidet oder verbessert",
+          "آثِرٌ": "Derjenige, der Nachrichten oder Hadithe überliefert",
+          "آبِزٌ": "Derjenige, der springt oder zugrunde geht",
+          "الشَّرِيفُ": "As-Sayyid ar-Raḍī, der Kompilator von Nahj al-Balagha",
+          "الْحَدِيثَ": "Die Überlieferung oder Nachricht"
+        }
+      },
+      "ru": {
+        "summary": "Шариф ар-Ради анализирует лексическую неоднозначность слова «абир» в обращении имама к хариджитам, отдавая предпочтение значению «ашир» (тот, кто передает или распространяет новости), чтобы подчеркнуть их роль как распространителей инакомыслия. Этот научный выбор подчеркивает политическую и теологическую опасность распространения их нарратива, в то время как альтернативные толкования, такие как «обрезатель» или «скакун», предлагают тонкие метафоры их разрушительного воздействия. Обсуждение отражает акцент шиитской традиции на точном лингвистическом толковании для выявления более глубоких слоев риторической стратегии имама. | Какие существуют различные толкования слова «абир» в «Нахдж аль-Балаге»? | [",
+        "seo_question": "Какие существуют различные толкования слова «абир» в «Нахдж аль-Балаге»?",
+        "key_terms": {
+          "آبِرٌ": "Тот, кто обрезает или улучшает финиковые пальмы",
+          "آثِرٌ": "Тот, кто передает или повествует новости/хадис",
+          "آبِزٌ": "Тот, кто прыгает или погибает",
+          "الشَّرِيفُ": "Ас-Саййид ар-Ради, составитель «Нахдж аль-Балаги»",
+          "الْحَدِيثَ": "Повествование или новость"
+        }
+      },
+      "zh": {
+        "summary": "谢里夫·拉迪分析了伊玛赫迪伊姆目对哈瓦利吉派讲话中“ābir”一词的词汇歧义，倾向于“āthir”（叙述者或传播消息者），以突出他们作为异见传播者的角色。这种学术偏好强调了其叙事传播的政治和神学危险，而“修剪者”或“跳跃者”等替代解读则提供了关于其破坏性影响的微妙隐喻。这一讨论反映了什叶派传统在揭示伊姆目修辞策略深层含义时对精确语言解释的重视。",
+        "seo_question": "《纳赫吉·布拉格》中“ābir”一词有哪些不同的解释？",
+        "key_terms": {
+          "آبِرٌ": "修剪或改良椰枣树的人",
+          "آثِرٌ": "讲述或叙述新闻/圣训的人",
+          "آبِزٌ": "跳跃或毁灭的人",
+          "الشَّرِيفُ": "谢里夫·拉迪，《纳赫吉·布拉格》的编纂者",
+          "الْحَدِيثَ": "叙述或新闻"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:104",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:41",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "قَالَ الشَّرِيفُ: قَوْلُهُ عَلَيْهِ السَّلَامُ: «وَلَا بَقِيَّ مِنْكُمْ آبِرٌ» يُرْوَى عَلَى ثَلَاثَةِ أَوْجُهٍ: أَحَدُهُمَا أَنْ يَكُونَ كَمَا ذَكَرْنَاهُ، بِالرَّاءِ، مِنْ قَوْلِهِمْ: رَجُلٌ آبِرٌ: لِلَّذِي يَأْبَرُ النَّخْلَ، أَي: يُصْلِحُهُ. وَيُرْوَى: «آثِرٌ»، يُرَادُ بِهِ: الَّذِي يَأْثُرُ الْحَدِيثَ، أَي: يَحْكِيهِ وَيُرْوِيهِ، وَهُوَ أَصْحُحُ الْوُجُوهِ عِنْدِي، كَأَنَّهُ عَلَيْهِ السَّلَامُ قَالَ: لَا بَقِيَّ مِنْكُمْ مُخْبِرٌ! وَيُرْوَى: «آبِزٌ» ـ بِالزَّايِ مُعْجَمَةً ـ وَهُوَ: الْوَاثِبُ، وَالْهَالِكُ أَيْضًا يُقَالُ لَهُ: آبِزٌ",
+    "isnad_matn": {
+      "isnad_ar": "قال الشريف: قوله عليه السلام : «ولا بقي منكم آبر» يُروى على ثلاثة أوجه: أحدها أن يكون كما ذكرناه، بالراء، من قولهم: رجلٌ آبِرٌ: للذي يأبر النخل، أي: يصلحه. ويروى: «آثِرٌ»، يُراد به: الذي يأثر الحديث، أي: يحكيه ويرويه، وهو أصح الوجوه عندي، كأنه عليه السلام قال",
+      "matn_ar": "قَالَ الشَّرِيفُ: قَوْلُهُ عَلَيْهِ السَّلَامُ: «وَلَا بَقِيَّ مِنْكُمْ آبِرٌ» يُرْوَى عَلَى ثَلَاثَةِ أَوْجُهٍ: أَحَدُهُمَا أَنْ يَكُونَ كَمَا ذَكَرْنَاهُ، بِالرَّاءِ، مِنْ قَوْلِهِمْ: رَجُلٌ آبِرٌ: لِلَّذِي يَأْبَرُ النَّخْلَ، أَي: يُصْلِحُهُ. وَيُرْوَى: «آثِرٌ»، يُرَادُ بِهِ: الَّذِي يَأْثُرُ الْحَدِيثَ، أَي: يَحْكِيهِ وَيُرْوِيهِ، وَهُوَ أَصْحُحُ الْوُجُوهِ عِنْدِي، كَأَنَّهُ عَلَيْهِ السَّلَامُ قَالَ: لَا بَقِيَّ مِنْكُمْ مُخْبِرٌ! وَيُرْوَى: «آبِزٌ» ـ بِالزَّايِ مُعْجَمَةً ـ وَهُوَ: الْوَاثِبُ، وَالْهَالِكُ أَيْضًا يُقَالُ لَهُ: آبِزٌ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "قال الشريف: قوله عليه السلام : «ولا بقي منكم آبر» يروى على ثلاثة أوجه: أحدها أن يكون كما ذكرناه، بالراء، من قولهم: رجل آبر: للذي يأبر النخل، أي: يصلحه. ويروى: «آثر»، يراد به: الذي يأثر الحديث، أي: يحكيه ويرويه، وهو أصح الوجوه عندي، كأنه عليه السلام قال",
+          "name_en": "al-Sharif",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

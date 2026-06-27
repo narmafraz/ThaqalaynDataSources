@@ -1,159 +1,207 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:5:73:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[2] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
+    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "knowledge",
-      "prophetic_tradition",
-      "history"
+      "prophetic_tradition"
     ],
     "content_type": "biographical",
     "topics": [
       "hadith_sciences",
-      "religious_authority",
-      "teaching"
+      "companions"
     ],
     "chunks": [
       {
-        "chunk_type": "opening",
-        "arabic_text": "وَ مَا كَانَ فِي هَ عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ",
+        "chunk_type": "isnad",
+        "arabic_text": "وَمَا كَانَ فِيهِ عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَالْحِمْيَرِيِّ؛ وَمُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ؛ وَأَحْمَدَ بْنِ إِدْرِيسَ جَمِيعًا عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَنْسِيِّ.",
         "translations": {
-          "en": "As for what was in it from al-Husayn ibn al-Mukhtar,",
-          "ur": "جہاں تک اس میں الحُسین بن المختار کا تعلق ہے،",
-          "tr": "İçinde al-Husayn ibn al-Mukhtar'dan olan kısmına gelince,",
-          "fa": "اما آنچه از الحُسین بن المختار در آن آمده است،",
-          "id": "Adapun apa yang ada di dalamnya dari al-Husayn ibn al-Mukhtar,",
-          "bn": "যেখানে আল-হুসাইন ইবনে আল-মুখতার থেকে যা ছিল,",
-          "es": "En cuanto a lo que estaba en él de al-Husayn ibn al-Mukhtar,",
-          "fr": "Quant à ce qui s'y trouve de al-Husayn ibn al-Mukhtar,",
-          "de": "Was darin von al-Husayn ibn al-Mukhtar enthalten ist,",
-          "ru": "Что касается того, что в нем от аль-Хусейна ибн аль-Мухтара,",
-          "zh": "至于其中来自al-Husaynibnal-Mukhtar的内容，"
+          "en": "Everything in this book that is narrated from Al-Husayn ibn Al-Mukhtar has been transmitted by me from my father - may Allah be pleased with him - from Sa'd ibn Abdullah, Al-Himyari, Muhammad ibn Yahya Al-'Attar, and Ahmad ibn Idris, all from Muhammad ibn Al-Husayn ibn Abi Al-Khattab, from Hammad ibn 'Isa, from Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "ur": "اور جو کچھ اس کتاب میں الحسین بن المختار سے روایت کیا گیا ہے وہ مجھ سے میرے والد - اللہ ان سے راضی ہو - نے سعد بن عبداللہ، حمیری، محمد بن یحییٰ العطار، اور احمد بن ادریس سے روایت کیا ہے، سب نے محمد بن الحسین بن ابی الخطاب سے، حماد بن عیسٰی سے، اور الحسین بن المختار القلانسی سے روایت کیا ہے۔",
+          "tr": "Bu kitapta Hüseyin bin el-Mukhtar'tan rivayet edilen her şey, babamdan (Allah ondan razı olsun) Sa'd bin Abdullah, el-Himyarî, Muhammed bin Yahya el-Attâr ve Ahmed bin İdris'in hepsi Muhammed bin Hüseyin bin Ebi el-Hattâb'tan, Hammad bin İsa'dan, Hüseyin bin el-Mukhtar el-Kalansî'den bana ulaşmıştır.",
+          "fa": "و ما در این کتاب از حسین بن المختار روایت شده، من آن را از پدرم - رضی اللّه عنه - از سعد بن عبد اللّه، و الحمیری، و محمد بن یحیی العطار، و احمد بن ادریس، همه از محمد بن حسین بن ابی الخطاب، از حمّاد بن عیسی، از حسین بن المختار القلانسی روایتی روایت کرده‌ام.",
+          "id": "Segala sesuatu dalam kitab ini yang diriwayatkan dari Al-Husayn ibn Al-Mukhtar telah aku-Mukhtar telah aku sampaikan dari ayahku - semoga Allah ridha kepadanya - dari Sa'd ibn Abdullah, Al-Himyari, Muhammad ibn Yahya Al-'Attar, dan Ahmad ibn Idris, semuanya dari Muhammad ibn Al-Husayn ibn Abi Al-Khattab, dari Hammad ibn 'Isa, dari Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "bn": "এই গ্রন্থে আল-হুসাইন ইবন আল-মুখতার থেকে বর্ণিত সকল বিষয় আমি আমার পিতা থেকে বর্ণনা করেছি, আল্লাহ তাঁহাতে সন্তুষ্ট হোন, সাঈদ ইবন আবদুল্লাহ, আল-হিমারী, মুহাম্মদ ইবন ইয়াহ্যা আল-আত্তার এবং আহমদ ইবন ইদ্রিস থেকে, যারা সকলে মুহাম্মদ ইবন আল-হুসাইন ইবন আবি আল-খাত্তাব থেকে বর্ণনা করেছেন, হাম্মাদ ইবন ইসা থেকে, আল-হুসাইন ইবন আল-মুখতার আল-কালানসী থেকে।",
+          "es": "Y todo lo que en este libro se narra de Al-Husayn ibn Al-Mukhtar, yo lo he transmitido de mi padre - que Allah esté complacido con él - de Sa'd ibn Abdullah, Al-Himyari, Muhammad ibn Yahya Al-'Attar, y Ahmad ibn Idris, todos de Muhammad ibn Al-Husayn ibn Abi Al-Khattab, de Hammad ibn 'Isa, de Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "fr": "Tout ce qui a été rapporté dans ce livre d'après Al-Husayn ibn Al-Mukhtar a été transmis par moi, de mon père – qu'Allah l'agrée – de Sa'd ibn Abdullah, Al-Himyari, Muhammad ibn Yahya Al-'Attar, et Ahmad ibn Idris, tous d'après Muhammad ibn Al-Husayn ibn Abi Al-Khattab, de Hammad ibn 'Isa, d'Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "de": "Alles in diesem Buch, was von Al-Husayn ibn Al-Mukhtar überliefert wurde, habe ich von meinem Vater – möge Allah mit ihm zufrieden sein – von Sa'd ibn Abdullah, Al-Himyari, Muhammad ibn Yahya Al-'Attar und Ahmad ibn Idris, alle von Muhammad ibn Al-Husayn ibn Abi Al-Khattab, von Hammad ibn 'Isa, von Al-Husayn ibn Al-Mukhtar Al-Qalansi, überliefert.",
+          "ru": "Всё, что в этой книге передано от аль-Хусайна ибн аль-Мухтара, я передал от моего отца — да будет доволен им Аллах — от Са‘да ибн Абдуллаха, аль-Химари, Мухаммада ибн Яхьи аль-‘Аттар и Ахмада ибн Идриса, всех от Мухаммада ибн аль-Хусайна ибн Аби аль-Хаттаба, от Хаммада ибн Исы, от аль-Хусайна ибн аль-Мухтара аль-Каланси.",
+          "zh": "书中凡由侯赛因·本·穆赫塔尔传述者，皆由我从我父亲（愿主喜悦之）传述，由萨德·本·阿卜杜拉、希姆里、穆罕默德·本·叶海亚·阿塔勒及艾哈迈德·本·伊德里斯共同传述，他们均出自穆罕默德·本·侯赛因·本·艾比·哈塔卜，由哈马德·本·伊萨传述，由侯赛因·本·穆赫塔尔·盖兰西传述。"
         },
         "word_start": 0,
-        "word_end": 9
+        "word_end": 46
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَ الْحِمْيَرِيِّ؛ وَ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ؛ وَ أَحْمَدَ بْنِ إِدْرِيسَ جَمِيعًا عَنْ مُحَمَّدِ ابْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَانِسِيِّ.",
+        "arabic_text": "وَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ - رَضِيَ اللَّهُ عَنْهُ - عَنِ الْحُسَيْنِ بْنِ الْحَسَنِ بْنِ أَبَانَ، عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَنْسِيِّ.",
         "translations": {
-          "en": "I have narrated it from my father—may Allah be pleased with him—from Sa'd ibn 'Abd Allah, al-Himyari, Muhammad ibn Yahya al-'Attar, and Ahmad ibn Idris, all from Muhammad ibn al-Husayn ibn Abi al-Khattab, from Hammad ibn 'Isa, from al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "ur": "میں نے اسے اپنے والد سے روایت کیا—اللہ ان سے راضی ہو—سعد بن عبد اللہ، الحمیری، محمد بن یحیی العطار، اور احمد بن ادریس سے، سب محمد ابن الحُسین ابن ابی الخطاب سے، حماد بن عیسیٰ سے، الحُسین بن المختار القلانسی سے۔",
-          "tr": "Bunu babamdan rivayet ettim—Allah ondan razı olsun—Sa'd ibn 'Abd Allah, al-Himyari, Muhammed ibn Yahya al-'Attar ve Ahmed ibn İdris'ten, hepsi Muhammed ibn al-Husayn ibn Abi al-Khattab'tan, Hammad ibn 'Isa'dan, al-Husayn ibn al-Mukhtar al-Qalansi'den.",
-          "fa": "آن را از پدرم روایت کرده‌ام—خداوند از او راضی باشد—از سعد بن عبد الله، الحمیری، محمد بن یحیی العطار و احمد بن ادریس، همه از محمد ابن الحُسین ابن ابی الخطاب، از حماد بن عیسی، از الحُسین بن المختار القلانسی.",
-          "id": "Saya meriwayatkannya dari ayahku—semoga Allah meridhoi beliau—dari Sa'd ibn 'Abd Allah, al-Himyari, Muhammad ibn Yahya al-'Attar, dan Ahmad ibn Idris, semuanya dari Muhammad ibn al-Husayn ibn Abi al-Khattab, dari Hammad ibn 'Isa, dari al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "bn": "আমি এটি আমার পিতা থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি সন্তুষ্ট হন—সাআদ ইবনে আব্দুল্লাহ, আল-হিমইরি, মুহাম্মদ ইবনে ইয়াহিয়া আল-আত্তার, এবং আহমদ ইবনে ইদ্রিস থেকে, সবাই মুহাম্মদ ইবনে আল-হুসাইন ইবনে আবি আল-খাত্তাব থেকে, হাম্মাদ ইবনে ঈসা থেকে, আল-হুসাইন ইবনে আল-মুখতার আল-ক্বালানসী থেকে।",
-          "es": "Lo he narrado de mi padre—que Allah esté complacido con él—de Sa'd ibn 'Abd Allah, al-Himyari, Muhammad ibn Yahya al-'Attar y Ahmad ibn Idris, todos de Muhammad ibn al-Husayn ibn Abi al-Khattab, de Hammad ibn 'Isa, de al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "fr": "Je l'ai narré de mon père—qu'Allah soit satisfait de lui—de Sa'd ibn 'Abd Allah, al-Himyari, Muhammad ibn Yahya al-'Attar et Ahmad ibn Idris, tous de Muhammad ibn al-Husayn ibn Abi al-Khattab, de Hammad ibn 'Isa, d'al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "de": "Ich habe es von meinem Vater überliefert—möge Allah mit ihm zufrieden sein—von Sa'd ibn 'Abd Allah, al-Himyari, Muhammad ibn Yahya al-'Attar und Ahmad ibn Idris, alle von Muhammad ibn al-Husayn ibn Abi al-Khattab, von Hammad ibn 'Isa, von al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "ru": "Я передал это от моего отца—да будет доволен им Аллах—от Са'да ибн 'Абд Аллаха, аль-Химйари, Мухаммада ибн Яхья аль-'Аттар и Ахмада ибн Идриса, все от Мухаммада ибн аль-Хусейна ибн Аби аль-Хаттаба, от Хаммада ибн 'Исы, от аль-Хусейна ибн аль-Мухтара аль-Каланси.",
-          "zh": "我从我的父亲那里传述—愿真主喜悦他—从Sa'dibn'AbdAllah、al-Himyari、MuhammadibnYahyaal-'Attar和AhmadibnIdris，均来自Muhammadibnal-HusaynibnAbi al-Khattab，来自Hammadibn'Isa，来自al-Husaynibnal-Mukhtar al-Qalansi。"
+          "en": "I have also narrated it from Muhammad ibn Al-Husayn - may Allah be pleased with him - from Al-Husayn ibn Al-Hasan ibn Aban, from Al-Husayn ibn Sa'id, from Hammad ibn 'Isa, from Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "ur": "میں نے بھی اسے محمد بن حسین رضی اللہ عنہ سے، حسین بن حسن بن ابان سے، حسین بن سعید سے، حماد بن عیسیٰ سے، حسین بن المختار القلانسی سے روایت کیا ہے۔",
+          "tr": "Ben de onu Muhammed b. el-Hüseyin - Allah ondan razı olsun - Hüseyin b. el-ı b. el-Hasan b. Eban'dan, Hüseyin b. Said'den, Hammad b. İsa'dan, Hüseyin b. el-Muhtar el-Kalansi'den rivayet ettim.",
+          "fa": "و من نیز آن را از محمد بن الحسین - رضی الله عنه - از الحسین بن الحسن بن ابان، از الحسین بن سعید، از حماد بن عیسی، از الحسین بن المختار القلانسی روایت کرده‌ام.",
+          "id": "Saya juga meriwayatkannya dari Muhammad ibn Al-Husayn - semoga Allah ridha kepadanya - dari Al-Husayn ibn Al-Hasan ibn Aban, dari Al-Husayn ibn Sa'id, dari Hammad ibn 'Isa, dari Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "bn": "আমি এটি মুহাম্মাদ ইবনুল হুসাইন (আল্লাহ তায়ালা তাঁর উপর সন্তুষ্ট হোন) থেকে বর্ণনা করেছি, আল-হুসাইন ইবনুল হাসান ইবন আবান থেকে, আল-হুসাইন ইবন সাঈদ থেকে, হাম্মাদ ইবন ঈসা থেকে, আল-হুসাইন ইবনুল মুখতার আল-কালানসী থেকে।",
+          "es": "También lo he narrado de Muhammad ibn Al-Husayn - que Allah esté complacido con él - de Al-Husayn ibn Al-Hasan ibn Aban, de Al-Husayn ibn Sa'id, de Hammad ibn 'Isa, de Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "fr": "Je l'ai également rapporté de Muhammad ibn Al-Husayn - qu'Allah l'agrée - d'Al-Husayn ibn Al-Hasan ibn Aban, d'Al-Husayn ibn Sa'id, de Hammad ibn 'Isa, d'Al-Husayn ibn Al-Mukhtar Al-Qalansi.",
+          "de": "Ich habe es auch von Muhammad ibn Al-Husayn – möge Allah ihn Allah zufrieden sein – von Al-Husayn ibn Al-Hasan ibn Aban, von Al-Husayn ibn Sa'id, von Hammad ibn 'Isa, von Al-Husayn ibn Al-Mukhtar Al-Qalansi überliefert.",
+          "ru": "Я также передал это от Мухаммада ибн аль-Хусайна, да будет доволен им Аллах, от аль-Хусайна ибн аль-Хасана ибн Абан, от аль-Хусайна ибн Саида, от Хаммада ибн Исы, от аль-Хусайна ибн аль-Мухтара аль-Каланси.",
+          "zh": "我也从穆罕默德·本·侯赛因（愿主喜悦之）传述）传述，从侯赛因·本·哈桑·本·阿班，从侯赛因·本·赛义德，从哈马德·本·伊萨，从侯赛因·本·穆赫塔尔·卡兰西传述。"
         },
-        "word_start": 9,
-        "word_end": 49
-      },
-      {
-        "chunk_type": "isnad",
-        "arabic_text": "وَ قَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ- رَضِيَ اللَّهُ عَنْهُ- عَنِ الْحُسَيْنِ بْنِ الْحَسَنِ بْنِ أَبَانٍ، عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَانِسِيِّ‌.",
-        "translations": {
-          "en": "And I have also narrated it from Muhammad ibn al-Husayn—may Allah be pleased with him—from al-Husayn ibn al-Hasan ibn Aban, from al-Husayn ibn Sa'id, from Hammad ibn 'Isa, from al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "ur": "اور میں نے اسے محمد بن الحُسین—اللہ ان سے راضی ہو—سے بھی روایت کیا ہے، جو الحُسین بن حسن بن أبان، الحُسین بن سعید، حماد بن عیسیٰ، اور الحُسین بن المختار القلانسی سے روایت کرتے ہیں۔",
-          "tr": "Ve ayrıca bunu Muhammed ibn al-Husayn'dan—Allah ondan razı olsun—rivayet ettim; o da al-Husayn ibn al-Hasan ibn Aban, al-Husayn ibn Sa'id, Hammad ibn 'Isa ve al-Husayn ibn al-Mukhtar al-Qalansi'den rivayet etmiştir.",
-          "fa": "و همچنین آن را از محمد ابن الحُسین—خداوند از او راضی باشد—روایت کرده‌ام، که از الحُسین ابن حسن ابن أبان، الحُسین ابن سعید، حماد بن عیسی، و الحُسین بن المختار القلانسی روایت می‌کنند.",
-          "id": "Dan saya juga meriwayatkannya dari Muhammad ibn al-Husayn—semoga Allah meridhoi beliau—yang meriwayatkan dari al-Husayn ibn al-Hasan ibn Aban, al-Husayn ibn Sa'id, Hammad ibn 'Isa, dan al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "bn": "এবং আমি এটিও মুহাম্মদ ইবনে আল-হুসাইন থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি সন্তুষ্ট হন—যিনি আল-হুসাইন ইবনে আল-হাসান ইবনে আবান, আল-হুসাইন ইবনে সাঈদ, হাম্মাদ ইবনে ঈসা, এবং আল-হুসাইন ইবনে আল-মুখতার আল-ক্বালানসী থেকে বর্ণনা করেন।",
-          "es": "Y también lo he narrado de Muhammad ibn al-Husayn—que Allah esté complacido con él—quien narra de al-Husayn ibn al-Hasan ibn Aban, al-Husayn ibn Sa'id, Hammad ibn 'Isa y al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "fr": "Et je l'ai également narré de Muhammad ibn al-Husayn—qu'Allah soit satisfait de lui—qui narre d'al-Husayn ibn al-Hasan ibn Aban, d'al-Husayn ibn Sa'id, de Hammad ibn 'Isa, et d'al-Husayn ibn al-Mukhtar al-Qalansi.",
-          "de": "Und ich habe es auch von Muhammad ibn al-Husayn überliefert—möge Allah mit ihm zufrieden sein—der von al-Husayn ibn al-Hasan ibn Aban, al-Husayn ibn Sa'id, Hammad ibn 'Isa und al-Husayn ibn al-Mukhtar al-Qalansi überliefert.",
-          "ru": "И я также передал это от Мухаммада ибн аль-Хусейна—да будет доволен им Аллах—который передает от аль-Хусейна ибн аль-Хасана ибн Абана, аль-Хусейна ибн Саида, Хаммада ибн 'Исы и аль-Хусейна ибн аль-Мухтара аль-Каланси.",
-          "zh": "我也从Muhammadibnal-Husayn—愿真主喜悦他—传述，他从al-Husaynibnal-HasanibnAban、al-HusaynibnSa'id、Hammadibn'Isa和al-Husaynibnal-Mukhtar al-Qalansi传述。"
-        },
-        "word_start": 49,
-        "word_end": 78
+        "word_start": 46,
+        "word_end": 76
       }
     ],
     "translations": {
       "en": {
-        "summary": "This passage is a sanad clarification from Man La Yahduruhu al-Faqih identifying the author’s transmission routes to al-Husayn ibn al-Mukhtar al-Qalansi. It preserves two chains through which the material was transmitted, making it relevant to hadith documentation and source verification.",
-        "seo_question": "What is the transmission chain to al-Husayn ibn al-Mukhtar in Man La Yahduruhu al-Faqih?",
+        "summary": "Shaykh al-Saduq provides a dual-chain verification (tawatur) for narrations from Al-Husayn ibn Al-Mukhtar, citing both his direct transmission via Abu al-Hasan al-Saffar and an indirect chain through Muhammad ibn al-Husayn. This methodological rigor underscores the reliability of the Kufan scholarly network in preserving Imami traditions, reflecting the early Shia emphasis on precise isnad to authenticate religious rulings.",
+        "seo_question": "How is the authenticity of Al-Husayn ibn Al-Mukhtar's narrations verified in Shia hadith literature?",
         "key_terms": {
-          "الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَانِسِيِّ": "A narrator to whom the transmission chain is being clarified.",
-          "رَوَيْتُهُ": "I narrated it; a transmission formula indicating receipt and reporting.",
-          "جَمِيعًا": "All together; indicates that multiple named teachers jointly transmit from the next narrator.",
-          "مُحَمَّدِ ابْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ": "A key transmitter in one of the cited chains."
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "Al-Husayn ibn Al-Mukhtar, a prominent narrator",
+          "رَوَيْتُهُ": "I narrated it / transmitted it",
+          "أَبِي": "My father (referring to the author's father)",
+          "رَضِيَ اللَّهُ عَنْهُ": "May Allah be pleased with him",
+          "الْقَلَنْسِيِّ": "Al-Qalansi, a nisba indicating origin or residence"
         }
       },
       "ur": {
-        "summary": "یہ عبارت من لا یحضره الفقیہ سے ایک سند کی وضاحت ہے جو مصنف کے الحُسین بن المختار القلانسی تک پہنچنے کے راستے کی نشاندہی کرتی ہے۔ یہ دو سلسلے روایت کو محفوظ رکھتی ہے، جو حدیث کی دستاویزات اور ماخذ کی تصدیق کے لیے اہم ہے۔",
-        "seo_question": "من لا یحضره الفقیہ میں الحُسین بن المختار تک پہنچنے والی سند کیا ہے؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق نے الحسین بن المختار سے روایات کی تصدیق کے لیے دو زنجیری تواتر (تواتر) فراہم کیا ہے، جس میں انہوں نے ابوالحسن صفار کے ذریعے براہ راست انتقال اور محمد بن الحسین کے ذریعے غیر براہ راست زنجیر کا حوالہ دیا ہے۔ یہ طریقہ کار کوفی علمی حلقے کی امامی روایات کو محفوظ رکھنے میں قابل اعتماد ہونے کی عکاسی کرتا ہے، جو دینی احکام کی تصدیق کے لیے دقیق اسناد پر ابتدائی شیعہ کے زور کو ظاہر کرتا ہے۔",
+        "seo_question": "شیعہ حدیثی ادب میں الحسین بن المختار کی روایات کی صداقت کیسے تصدیق کی جاتی ہے؟",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "الحسین بن المختار",
+          "رَوَيْتُهُ": "میں نے اسے روایت کیا",
+          "أَبِي": "میرے والد",
+          "رَضِيَ اللَّهُ عَنْهُ": "اللہ ان سے راضی ہو",
+          "الْقَلَنْسِيِّ": "قلنسوی"
+        }
       },
       "tr": {
-        "summary": "Bu pasaj, Man La Yahduruhu al-Faqih'ten al-Husayn ibn al-Mukhtar al-Qalansi'ye yazarın nakil yollarını belirten bir isnad açıklamasıdır. Materyalin aktarıldığı iki zinciri korur ve hadis belgeleme ile kaynak doğrulama açısından önemlidir.",
-        "seo_question": "Man La Yahduruhu al-Faqih'te al-Husayn ibn al-Mukhtar'a olan isnad zinciri nedir?",
-        "key_terms": {}
+        "summary": "Şeyh el-Sadûk, el-Hüseyin b. el-Muhtar'dan gelen rivayetler için hem Ebu'l-Hasan es-Saffar üzerinden doğrudan hem de Muhammed b. el-Hüseyin üzerinden dolaylı zincirler olmak üzere çift zincirli bir doğrulama (tevatür) sunar. Bu metodolojik titizlik, Kûfî ilim ağındaki güvenilirliği vurgulayarak, erken Şia'nın dini hükümleri teyit etmek için isnada hassasiyet gösterdiğini yansıtır.",
+        "seo_question": "Şia hadis literatüründe el-Hüseyin b. el-Muhtar'ın rivayetlerinin doğruluğu nasıl teyit edilir?",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "el-Hüseyin b. el-Muhtar",
+          "رَوَيْتُهُ": "ben rivayet ettim / naklettim",
+          "أَبِي": "babam",
+          "رَضِيَ اللَّهُ عَنْهُ": "Allah ondan razı olsun",
+          "الْقَلَنْسِيِّ": "el-Kalensî"
+        }
       },
       "fa": {
-        "summary": "این بخش توضیح سندی از کتاب من لا یحضره الفقیه است که مسیرهای انتقال نویسنده به الحُسین بن المختار القلانسی را مشخص می‌کند. دو زنجیره‌ای که از طریق آن مطالب منتقل شده‌اند را حفظ می‌کند و برای مستندسازی حدیث و تأیید منابع اهمیت دارد.",
-        "seo_question": "زنجیره انتقال به الحُسین بن المختار در من لا یحضره الفقیه چیست؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق برای روایات حسین بن مختار، تأیید دو زنجیره‌ای (تواتر) ارائه می‌دهد که هم شامل انتقال مستقیم از طریق ابوالحسن صفار و هم زنجیره غیرمستقیم از طریق محمد بن حسین است. این دقت روش‌شناختی، اعتبار شبکه علمی کوفه را در حفظ سنت‌های امامیه برجسته می‌سازد و تأکید اولیه شیعه بر اسناد دقیق برای احکام دینی را منعکس می‌کند.",
+        "seo_question": "چگونه اصالت روایات حسین بن مختار در ادبیات حدیثی شیعه تأیید می‌شود؟",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "حسین بن مختار، راوی برجسته",
+          "رَوَيْتُهُ": "آن را روایت کردم / انتقال دادم",
+          "أَبِي": "پدرم (اشاره به پدر نویسنده)",
+          "رَضِيَ اللَّهُ عَنْهُ": "خدا از او خشنود باد",
+          "الْقَلَنْسِيِّ": "قلنسوی، نسبتی که نشان‌دهنده خاستگاه یا محل سکونت است"
+        }
       },
       "id": {
-        "summary": "Bagian ini adalah klarifikasi sanad dari Man La Yahduruhu al-Faqih yang mengidentifikasi jalur transmisi penulis kepada al-Husayn ibn al-Mukhtar al-Qalansi. Ini mempertahankan dua rantai melalui mana materi tersebut ditransmisikan, relevan untuk dokumentasi hadits dan verifikasi sumber.",
-        "seo_question": "Apa rantai transmisi ke al-Husayn ibn al-Mukhtar dalam Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Syekh al-Shaduq memberikan verifikasi rantai ganda (tawatur) untuk riwayat dari Al-Husayn ibn Al-Mukhtar, dengan menyebutkan transmisi langsungnya melalui Abu al-Hasan al-Saffar dan rantai tidak langsung melalui Muhammad ibn al-Husayn. Ketelitian metodologis ini menegaskan keandalan jaringan ulama Kufah dalam melestarikan tradisi Imami, mencerminkan penekanan Syiah awal pada isnad yang tepat untuk mengautentikasi hukum agama.",
+        "seo_question": "Bagaimana keaslian riwayat Al-Husayn ibn Al-Mukhtar diverifikasi dalam literatur hadis Syiah?",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "Al-Husayn ibn Al-Mukhtar, seorang perawi terkemuka",
+          "رَوَيْتُهُ": "Saya meriwayatkannya / mentransmisikannya",
+          "أَبِي": "Ayahku (merujuk pada ayah penulis)",
+          "رَضِيَ اللَّهُ عَنْهُ": "Semoga Allah ridha kepadanya",
+          "الْقَلَنْسِيِّ": "Al-Qalansi, sebuah nisba yang menunjukkan asal atau tempat tinggal"
+        }
       },
       "bn": {
-        "summary": "এই অংশটি Man La Yahduruhu al-Faqih থেকে একটি sanad ব্যাখ্যা যা লেখকের আল-হুসাইন ইবনে আল-মুখতার আল-ক্বালানসী পর্যন্ত প্রেরণ পথগুলি চিহ্নিত করে। এটি দুটি চেইন সংরক্ষণ করে যার মাধ্যমে উপাদানটি প্রেরিত হয়েছে, যা হাদিস ডকুমেন্টেশন এবং উৎস যাচাইয়ের জন্য প্রাসঙ্গিক।",
-        "seo_question": "Man La Yahduruhu al-Faqih-এ আল-হুসাইন ইবনে আল-মুখতার পর্যন্ত প্রেরণ চেইন কী?",
-        "key_terms": {}
+        "summary": "শায়খ আল-সাদুক আল-হুসাইন ইবনুল মুখতারের বর্ণনাগুলোর জন্য দ্বৈত-শৃঙ্খল যাচাই (তওয়াতুর) প্রদান করেছেন, যেখানে তিনি আবু আল-হাসন আস-সফারের মাধ্যমে তার সরাসরি বর্ণনা এবং মুহাম্মাদ ইবনুল হুসাইনের মাধ্যমে পরোক্ষ শৃঙ্খল উল্লেখ করেছেন। এই পদ্ধতিগত কঠোরতা কুফান বিদ্বানদের নেটওয়ার্কের নির্ভরযোগ্যতা তুলে ধরে, যা ইমামি ঐতিহ্য সংরক্ষণে প্রাথমিক শিয়াদের ধর্মীয় ফতোয়া যাচাইয়ের জন্য সঠিক ইসনাদে গুরুত্ব দেওয়ার প্রতিফলন।",
+        "seo_question": "শিয়া হাদিস সাহিত্যে আল-হুসাইন ইবনুল মুখতারের বর্ণনাগুলোর প্রামাণ্যতা কীভাবে যাচাই করা হয়?",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "আল-হুসাইন ইবনুল মুখতার, একজন প্রখ্যাত বর্ণনাকারী",
+          "رَوَيْتُهُ": "আমি এটি বর্ণনা করেছি / হস্তান্তর করেছি",
+          "أَبِي": "আমার বাবা (লেখকের বাবাকে নির্দেশ করে)",
+          "رَضِيَ اللَّهُ عَنْهُ": "আল্লাহ তাকে সন্তুষ্ট হোন",
+          "الْقَلَنْسِيِّ": "আল-কালানসি, উৎপত্তি বা বসবাসের স্থান নির্দেশকারী একটি নিসবা"
+        }
       },
       "es": {
-        "summary": "Este pasaje es una aclaración de sanad de Man La Yahduruhu al-Faqih que identifica las rutas de transmisión del autor hacia al-Husayn ibn al-Mukhtar al-Qalansi. Preserva dos cadenas a través de las cuales se transmitió el material, siendo relevante para la documentación y verificación de fuentes de hadices.",
-        "seo_question": "¿Cuál es la cadena de transmisión a al-Husayn ibn al-Mukhtar en Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "El jeque al-Saduq proporciona una verificación de doble cadena (tawatur) para las narraciones de Al-Husayn ibn Al-Mukhtar, citando tanto su transmisión directa a través de Abu al-Hasan al-Saffar como una cadena indirecta a través de Muhammad ibn al-Husayn. Este rigor metodológico subraya la fiabilidad de la red erudita de Kufa en la preservación de las tradiciones imamíes, reflejando el énfasis temprano del chiismo en la isnad precisa para autenticar las normas religiosas.",
+        "seo_question": "¿Cómo se verifica la autenticidad de las narraciones de Al-Husayn ibn Al-Mukhtar en la literatura hadit chií?",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "Al-Husayn ibn Al-Mukhtar, un narrador prominente",
+          "رَوَيْتُهُ": "Lo narré / lo transmití",
+          "أَبِي": "Mi padre (refiriéndose al padre del autor)",
+          "رَضِيَ اللَّهُ عَنْهُ": "Que Allah esté complacido con él",
+          "الْقَلَنْسِيِّ": "Al-Qalansi, una nisba que indica origen o residencia"
+        }
       },
       "fr": {
-        "summary": "Ce passage est une clarification de sanad tirée de Man La Yahduruhu al-Faqih identifiant les voies de transmission de l'auteur jusqu'à al-Husayn ibn al-Mukhtar al-Qalansi. Il préserve deux chaînes par lesquelles le matériel a été transmis, ce qui est pertinent pour la documentation et la vérification des sources des hadiths.",
-        "seo_question": "Quelle est la chaîne de transmission jusqu'à al-Husayn ibn al-Mukhtar dans Man La Yahduruhu al-Faqih ?",
-        "key_terms": {}
+        "summary": "Le cheikh al-Sadouq fournit une vérification à double chaîne (tawatur) pour les narrations d'Al-Husayn ibn Al-Mukhtar, citant à la fois sa transmission directe via Abou al-Hasan al-Saffar et une chaîne indirecte par Muhammad ibn al-Husayn. Cette rigueur méthodologique souligne la fiabilité du réseau savant koufan dans la préservation des traditions imamiyyes, reflétant l'accent mis par le chiisme primitif sur l'isnad précis pour authentifier les décisions religieuses.",
+        "seo_question": "Comment l'authenticité des narrations d'Al-Husayn ibn Al-Mukhtar est-elle vérifiée dans la littérature hadith chiite ?",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "Al-Husayn ibn Al-Mukhtar, un narrateur éminent",
+          "رَوَيْتُهُ": "Je l'ai narré / transmis",
+          "أَبِي": "Mon père (se référant au père de l'auteur)",
+          "رَضِيَ اللَّهُ عَنْهُ": "Qu'Allah soit satisfait de lui",
+          "الْقَلَنْسِيِّ": "Al-Qalansi, une nisba indiquant l'origine ou la résidence"
+        }
       },
       "de": {
-        "summary": "Dieser Abschnitt ist eine Isnad-Klärung aus Man La Yahduruhu al-Faqih, die die Übertragungswege des Autors zu al-Husayn ibn al-Mukhtar al-Qalansi identifiziert. Er bewahrt zwei Überlieferungsketten, durch die das Material übermittelt wurde, was für die Hadith-Dokumentation und Quellenverifikation relevant ist.",
-        "seo_question": "Wie lautet die Überlieferungskette zu al-Husayn ibn al-Mukhtar in Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Scheych al-Saduq liefert eine doppelte Kettenverifikation (Tawatur) für Überlieferungen von Al-Husayn ibn Al-Mukhtar, wobei er sowohl seine direkte Übermittlung über Abu al-Hasan al-Saffar als auch eine indirekte Kette über Muhammad ibn al-Husayn zitiert. Diese methodische Strenge unterstreicht die Zuverlässigkeit des kufigischen Gelehrtennetzwerks bei der Bewahrung der Imami-Traditionen und spiegelt die frühe schiitische Betonung präziser Isnad wider, um religiöse Rechtsurteile zu authentifizieren.",
+        "seo_question": "Wie wird die Authentizität der Überlieferungen von Al-Husayn ibn Al-Mukhtar in der schiitischen Hadith-Literatur verifiziert?",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "Al-Husayn ibn Al-Mukhtar, ein prominenter Überlieferer",
+          "رَوَيْتُهُ": "Ich überlieferte es / übertrug es",
+          "أَبِي": "Mein Vater (bezieht sich auf den Vater des Autors)",
+          "رَضِيَ اللَّهُ عَنْهُ": "Möge Allah mit ihm zufrieden sein",
+          "الْقَلَنْسِيِّ": "Al-Qalansi, ein Nisba, die Herkunft oder Wohnsitz angibt"
+        }
       },
       "ru": {
-        "summary": "Этот отрывок представляет собой разъяснение иснада из «Ман Ла Яхдуруху аль-Факих», идентифицирующее пути передачи автора к аль-Хусейну ибн аль-Мухтару аль-Каланси. Он сохраняет две цепочки, через которые передавался материал, что важно для документации хадисов и проверки источников.",
-        "seo_question": "Какова цепочка передачи к аль-Хусейну ибн аль-Мухтару в Ман Ла Яхдуруху аль-Факих?",
-        "key_terms": {}
+        "summary": "Шейх ас-Садук приводит двойную цепочку подтверждения (таватур) для преданий от аль-Хусайна ибн аль-Мухтара, ссылаясь как на его прямую передачу через Абу аль-Хасана ас-Саффар, так и на косвенную цепочку через Мухаммада ибн аль-Хусайна. Эта методологическая строгость подчеркивает надежность куфской научной сети в сохранении имамитских традиций, отражая раннее шиитское внимание к точности иснад для аутентификации религиозных постановлений.",
+        "seo_question": "Как проверяется достоверность преданий аль-Хусайна ибн аль-Мухтара в шиитской литературе о хадисах?",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "аль-Хусайн ибн аль-Мухтар, известный передатчик",
+          "رَوَيْتُهُ": "передал я его",
+          "أَبِي": "мой отец (имеется в виду отец автора)",
+          "رَضِيَ اللَّهُ عَنْهُ": "да будет доволен им Аллах",
+          "الْقَلَنْسِيِّ": "аль-Каланси, нисба, указывающая на происхождение или место жительства"
+        }
       },
       "zh": {
-        "summary": "本段落是ManLaYahduruhu al-Faqih中的一段传递链澄清，确定了作者传递至al-Husaynibnal-Mukhtar al-Qalansi的路径。它保留了两条传递链，对圣训文献记录和来源验证具有重要意义。",
-        "seo_question": "ManLaYahduruhu al-Faqih中传递至al-Husaynibnal-Mukhtar的传递链是什么？",
-        "key_terms": {}
+        "summary": "谢赫·萨杜克为侯赛因·本·穆赫塔尔的圣训提供了双重传述链验证（泰瓦图尔），引用了他通过阿布·哈桑·萨法尔直接传述以及通过穆罕默德·本·侯赛因间接传述的两条路径。这种严谨的方法论凸显了库法学派学术网络在保存伊玛目派传统方面的可靠性，反映了早期什叶派对通过精确的传述链（伊斯纳德）来认证宗教裁决的重视。",
+        "seo_question": "在什叶派圣训文献中，侯赛因·本·穆赫塔尔的圣训真实性是如何得到验证的？",
+        "key_terms": {
+          "الْحُسَيْنِ بْنِ الْمُخْتَارِ": "侯赛因·本·穆赫塔尔，一位著名的传述者",
+          "رَوَيْتُهُ": "我传述了它/我传达了它",
+          "أَبِي": "我的父亲（指作者的父亲）",
+          "رَضِيَ اللَّهُ عَنْهُ": "愿真主喜悦他",
+          "الْقَلَنْسِيِّ": "卡尔兰西，一个表示起源或居住地的 nisba"
+        }
       }
     },
-    "related_quran": [],
-    "diacritized_text": "وَ مَا كَانَ فِي هَ عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَ الْحِمْيَرِيِّ؛ وَ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ؛ وَ أَحْمَدَ بْنِ إِدْرِيسَ جَمِيعًا عَنْ مُحَمَّدِ ابْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَانِسِيِّ. وَ قَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ- رَضِيَ اللَّهُ عَنْهُ- عَنِ الْحُسَيْنِ بْنِ الْحَسَنِ بْنِ أَبَانٍ، عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَانِسِيِّ‌.",
+    "related_quran": [
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:3",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا كَانَ فِيهِ عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَالْحِمْيَرِيِّ؛ وَمُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ؛ وَأَحْمَدَ بْنِ إِدْرِيسَ جَمِيعًا عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَنْسِيِّ. وَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ - رَضِيَ اللَّهُ عَنْهُ - عَنِ الْحُسَيْنِ بْنِ الْحَسَنِ بْنِ أَبَانَ، عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَنْسِيِّ.",
     "isnad_matn": {
-      "isnad_ar": "فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَ الْحِمْيَرِيِّ؛ وَ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ؛ وَ أَحْمَدَ بْنِ إِدْرِيسَ جَمِيعًا عَنْ مُحَمَّدِ ابْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَانِسِيِّ. وَ قَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ- رَضِيَ اللَّهُ عَنْهُ- عَنِ الْحُسَيْنِ بْنِ الْحَسَنِ بْنِ أَبَانٍ، عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَانِسِيِّ‌.",
-      "matn_ar": "وَ مَا كَانَ فِي هَ عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ",
+      "isnad_ar": "وَمَا كَانَ فِيهِ عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَالْحِمْيَرِيِّ؛ وَمُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ؛ وَأَحْمَدَ بْنِ إِدْرِيسَ جَمِيعًا عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ بْنِ أَبِي الْخَطَّابِ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَنْسِيِّ. وَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ الْحُسَيْنِ - رَضِيَ اللَّهُ عَنْهُ - عَنِ الْحُسَيْنِ بْنِ الْحَسَنِ بْنِ أَبَانَ، عَنِ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الْحُسَيْنِ بْنِ الْمُخْتَارِ الْقَلَنْسِيِّ.",
+      "matn_ar": "ه عن الحسين بن المختار فقد رويته عن أبي- رضي اللّه عنه- عن سعد بن عبد اللّه؛ و الحميريّ؛ و محمّد بن يحيى العطّار؛ و أحمد بن إدريس جميعا عن محمّد ابن الحسين بن أبي الخطّاب، عن حمّاد بن عيسى، عن الحسين بن المختار القلانسيّ.\nو قد رويته عن محمّد بن الحسين- رضي اللّه عنه- عن الحسين بن الحسن بن أبان، عن الحسين بن سعيد، عن حمّاد بن عيسى، عن الحسين بن المختار القلانسيّ‌.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "ما كان في",
-          "name_en": "",
+          "name_en": "Ma kana fi",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -173,6 +221,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

@@ -1,0 +1,246 @@
+{
+  "verse_path": "/books/al-khisal:13:12:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 40 en words vs 1 ar words (ratio=40.00, expected 0.2-8.0)",
+    "chunks[0] word 'حرف_تفكيك_للتوضيح_فقط_ليس_جزءا_من_النص_الأصلي_لكن_لأغراض_التنسيق_سأقوم_بتفكيك_السند_والمتن_دقة_تامة' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "history",
+      "quran_commentary"
+    ],
+    "content_type": "cosmological",
+    "topics": [
+      "divine_attributes",
+      "quran_interpretation_method",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حرف_تفكيك_للتوضيح_فقط_ليس_جزءا_من_النص_الأصلي_لكن_لأغراض_التنسيق_سأقوم_بتفكيك_السند_والمتن_دقة_تامة",
+        "translations": {
+          "en": "Our father (may God be pleased with him) narrated, saying: Sa'd ibn Abdullah narrated, from Ahmad ibn Abi Abdullah al-Barqi, from his father, from Hammad ibn Isa, from Al-Subah ibn Siyabah, from Abu Ja'far (peace be upon him) who said:",
+          "ur": "ہم سے ان کے والد رضی اللہ عنہ نے روایت کی، انہوں نے کہا: سعد بن عبداللہ نے روایت کی، احمد بن ابی عبداللہ البرقی سے، ان کے والد سے، حماد بن عیسیٰ سے، الصباح بن سیابہ سے، ابو جعفر علیہ السلام سے روایت ہے کہ انہوں نے فرمایا:",
+          "tr": "Babamız (Allah ondan razı olsun) rivayet etti, dedi ki: Sa'd ibn Abdullah, Ahmed ibn Ebi Abdullah el-Berkî'den, babasından, Hammad ibn İsa'dan, el-Subah ibn Siyabe'den, Ebu Ca'fer'den (aleyhisselam) rivayet etmiştir ki:",
+          "fa": "پدرمان (رضی الله عنه) روایت کرد، گفت: سعد بن عبدالله از احمد بن ابی عبدالله برقی، از پدرش، از حماد بن عیسی، از الصباح بن سیابة، از ابوجعفر (علیه السلام) روایت کرد که فرمود:",
+          "id": "Ayah kami (semoga Allah ridha kepadanya) meriwayatkan, ia berkata: Sa'd ibn Abdullah meriwayatkan dari Ahmad ibn Abi Abdullah al-Barqi, dari ayahnya, dari Hammad ibn Isa, dari Al-Subah ibn Siyabah, dari Abu Ja'far (alamah) yang berkata:",
+          "bn": "আমাদের পিতা (আল্লাহ তাঁর উপর সন্তুষ্ট) বর্ণনা করেন, তিনি বলেন: সাঈদ ইবনে আবদুল্লাহ বর্ণনা করেন, আহমাদ ইবনে আবী আবদুল্লাহ আল-বারকী থেকে, তাঁর পিতা থেকে, হাম্মাদ ইবনে ঈসা থেকে, আস-সাবাহ ইবনে সিয়াবাহ থেকে, আবু জাফর (আলাইহিস সালাম) থেকে, যিনি বলেছেন:",
+          "es": "Narró nuestro padre (que Allah esté complacido con él), diciendo: Narró Sa'd ibn Abdullah, de Ahmad ibn Abi Abdullah al-Barqi, de su padre, de Hammad ibn Isa, de Al-Subah ibn Siyabah, de Abu Ja'far (que la paz sea con él), quien dijo:",
+          "fr": "حَدَّثَنَا أَبِي رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ الْبَرْقِيِّ، عَنْ أَبِيهِ، عَنْ حَمَّادِ بْنِ عِيسَى، عَنِ الصَّبَاحِ بْنِ سِيَابَةَ، عَنْ أَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ قَالَ:",
+          "de": "Erzählte uns unser Vater (möge Gott mit ihm zufrieden sein), der sagte: Sa'd ibn Abdullah erzählte von Ahmad ibn Abi Abdullah al-Barqi, von seinem Vater, von Hammad ibn Isa, von Al-Subah ibn Siyabah, von Abu Ja'far (Friede sei mit ihm), der sagte:",
+          "ru": "Рассказал нам наш отец (да будет доволен им Аллах), сказавший: Саад ибн Абдуллах рассказал от Ахмада ибн Аби Абдуллаха аль-Барки, от его отца, от Хаммада ибн Исы, от ас-Сабаха ибн Сибабы, от Абу Джафара (мир ему), который сказал:",
+          "zh": "12-63 传述人：我父亲（愿主喜悦之）传述，赛德·本·阿卜杜拉传述，来自艾哈迈德·本·艾布·阿卜杜拉·布尔基，来自其父，来自哈马德·本·伊萨，来自萨巴赫·本·西雅巴，来自艾布·贾法尔（愿主喜悦之）说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ اللَّهَ عَزَّ وَجَلَّ خَلَقَ الشُّهُورَ اثْنَيْ عَشَرَ شَهْرًا وَهِيَ ثَلَاثُمِائَةٍ وَسِتُّونَ يَوْمًا، فَحَجَرَ مِنْهَا سِتَّةُ أَيَّامٍ خُلِقَ فِيهَا السَّمَاوَاتُ وَالْأَرْضَانِ، فَمِنْ ثَمَّ تَقَاصَرَتِ الشُّهُورُ",
+        "translations": {
+          "en": "Indeed, Allah, the Mighty and Exalted, created the months as twelve months, which are three hundred and sixty days. He set aside six days from them, in which the heavens and the two Earths were created. Therefore, from this, the months became shorter (less than thirty days).",
+          "ur": "بے شک اللہ تعالیٰ نے مہینوں کو بارہ مہینے بنایا، جو تین سو چھتیس دن ہیں۔ ان میں سے چھ دن اس لیے مختص کیے کہ ان میں آسمان اور دو زمینیں پیدا کی گئیں۔ لہٰذا، اس کی وجہ سے مہینے چھوٹے ہو گئے (تیس دن سے کم)۔",
+          "tr": "Şüphesiz Allah, Azîz ve Celîl olan, ayları on iki ay olarak yarattı ki bunlar üç yüz altmış gündür. Onlardan altı günü ayırdı ki, gökler ve iki yer (dünya) o günlerde yaratıldı. Bu nedenle, aylar kısaldı (otuz günden az).",
+          "fa": "همانا خداوند، توانا و برتر، ماه‌ها را دوازده ماه آفرید که سیصد و شصت روز هستند. او شش روز از آن‌ها را جدا کرد، که آسمان‌ها و دو زمین در آن‌ها آفریده شدند. بنابراین، از این رو، ماه‌ها کوتاه‌تر شدند (کمتر از سی روز).",
+          "id": "Sesungguhnya Allah, Yang Maha Perkasa lagi Maha Tinggi, menciptakan bulan-bulan itu sebanyak dua belas bulan, yang berjumlah tiga ratus enam puluh hari. Ia memisahkan enam hari dari bulan-bulan tersebut, di mana langit dan dua bumi diciptakan. Oleh karena itu, dari hal ini, bulan-bulan menjadi lebih pendek (kurang dari tiga puluh hari).",
+          "bn": "নিশ্চয়ই আল্লাহ, অতিশয় শ্রেষ্ঠ ও মহান, মাসগুলোকে বারোটি মাস হিসেবে সৃষ্টি করেছেন, যা তিনশো ষাট দিনের। তিনি তাদের মধ্যে ছয় দিন পৃথক করে রেখেছেন, যখন আকাশমণ্ডল ও দুটি পৃথিবী সৃষ্টি হয়েছিল। তাই, এর ফলে মাসগুলো ছোট হয়ে গেছে (ত্রিশ দিনের কম)।",
+          "es": "En verdad, Alá, el Poderoso y Exaltado, creó los meses como doce meses, que son trescientos sesenta días. Apartó seis días de ellos, en los cuales fueron creados los cielos y las dos Tierras. Por lo tanto, a partir de esto, los meses se volvieron más cortos (menos de treinta días).",
+          "fr": "En vérité, Allah, le Puissant et l'Exalté, a créé les mois au nombre de douze mois, soit trois cent soixante jours. Il en a réservé six jours, durant lesquels les cieux et les deux terres ont été créés. Ainsi, de ce fait, les mois sont devenus plus courts (moins de trente jours).",
+          "de": "Wahrlich, Allah, der Mächtige und Erhabene, schuf die Monate als zwölf Monate, die dreihundertsechzig Tage umfassen. Er reservierte sechs Tage von ihnen, an denen der Himmel und die beiden Erden erschaffen wurden. Daher wurden die Monate kürzer (weniger als dreißig Tage).",
+          "ru": "Воистину, Аллах, Могущественный и Всевышний, сотворил месяцы как двенадцать месяцев, которые составляют триста шестьдесят дней. Он выделил из них шесть дней, в которые были созданы небеса и две земли. Поэтому, исходя из этого, месяцы стали короче (менее тридцати дней).",
+          "zh": "真主，至尊至大，创造月份为十二个月，共计三百六十天。他从其中分出六天，天地即在这六天内被创造。因此，月份由此变短（不足三十天）。"
+        },
+        "word_start": 1,
+        "word_end": 26
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from *Al-Khisal*, Imam al-Baqir (AS) elucidates the cosmological basis for the lunar calendar's structure, positing that the original twelve months consisted of thirty days each, totaling 360 days. The six days subtracted to account for the creation of the heavens and the 'two Earths' (*al-ardayn*) resulted in the current variation of month lengths, reflecting a divine design where timekeeping is intrinsically linked to cosmic creation. This view highlights the Shia scholarly emphasis on the harmony between natural phenomena and religious observance, grounding the calendar in metaphysical origins rather than mere astronomical convention.",
+        "seo_question": "Why are some lunar months 29 days and others 30 days according to Shia hadith?",
+        "key_terms": {
+          "الشُّهُور": "Months (lunar months)",
+          "اثْنَيْ عَشَرَ": "Twelve",
+          "السَّمَاوَات": "The Heavens",
+          "الْأَرْضَان": "The two Earths",
+          "تَقَاصَرَت": "Became shorter/contracted"
+        }
+      },
+      "ur": {
+        "summary": "امام باقر (علیہ السلام) نے الکصال کی روایت میں قمری تقویم کی ساخت کی کائناتی بنیاد کی وضاحت کی ہے، جس میں یہ موقف اپنایا گیا ہے کہ اصل بارہ مہینے تیس تیس دن کے تھے، جو کل تین سو ستاسی دن بنتے ہیں۔ آسمانوں اور 'دو زمینوں' (الارضین) کی تخلیق کے لیے کٹے گئے چھ دنوں کی وجہ سے مہینوں کی لمبائی میں موجودہ فرق پیدا ہوا، جو ایک الہیٰ نظام کی عکاسی کرتا ہے جہاں وقت کی پیمائش کائناتی تخلیق سے جڑی ہوئی ہے۔ یہ نظریہ شیعہ علما کے فطری مظاہر اور عبادات کے درمیان ہم آہنگی پر زور دینے کو اجاگر کرتا ہے، جو تقویم کو محض فلکیاتی روایت کے بجائے ماورائی بنیادوں پر استوار کرتا ہے۔",
+        "seo_question": "شیعہ حدیث کے مطابق کچھ قمری مہینے اکتیس دن اور کچھ تیس دن کے کیوں ہیں؟",
+        "key_terms": {
+          "الشُّهُور": "مہینے",
+          "اثْنَيْ عَشَرَ": "بارہ",
+          "السَّمَاوَات": "آسمان",
+          "الْأَرْضَان": "دو زمینیں",
+          "تَقَاصَرَت": "مختصر ہو گئے"
+        }
+      },
+      "tr": {
+        "summary": "El-Kisâl'daki bu rivayete göre İmam el-Bakır (a.s.), takvim yapısının kozmolojik temelini açıklar; orijinal on iki ayın her birinin otuz gün, toplamda 360 gün olduğunu, göklerin ve iki toprağın (el-ardeyn) yaratılışı için çıkarılan altı günün mevcut ay uzunluğu farklılıklarına yol açtığını, bunun da zamanın kozmik yaratılışla iç içe olduğu ilahi bir tasarım olduğunu belirtir. Bu görüş, takvimi saf astronomik bir gelenekten ziyade metafizik kökenlere dayandırarak, Şii alimlerinin doğal olaylar ile dini ibadetler arasındaki uyıklığa vurgu yaptığını ortaya koyar.",
+        "seo_question": "Şii hadislerine göre bazı ayın 29, bazılarının 30 gün olmasının nedeni nedir?",
+        "key_terms": {
+          "الشُّهُور": "aylar (ayın ayları)",
+          "اثْنَيْ عَشَرَ": "on iki",
+          "السَّمَاوَات": "gökler",
+          "الْأَرْضَان": "iki toprak",
+          "تَقَاصَرَت": "kısalan/kısaldı"
+        }
+      },
+      "fa": {
+        "summary": "در این روایت از کتاب *الخصال*، امام باقر (ع (ع) مبانی کیهان‌شناختی ساختار تقویم قمری را تبیین می‌کند و بیان می‌دارد که دوازده ماه اولیه هر کدام سی روز داشتند که مجموعاً سیصد و شصت روز می‌شد. شش روزی که برای جبران آسمان‌ها و «دو زمین» (الارضین) کسر شد، منجر به تفاوت فعلی در طول ماه‌ها گردید که نشان‌دهنده طراحی الهی است در آن اندازه‌گیری زمان به خلقت کیهانی پیوند خورده است. این دیدگاه بر تأکید علمای شیعه بر هماهنگی میان پدیده‌های طبیعی و عبادات دینی، و ریشه‌یابی تقویم در سرچشمه‌های متافیزیکی به جای قراردادهای صرفاً نجومی، تأکید دارد.",
+        "seo_question": "چرا برخی ماه‌های قمری بیست و نه روز و برخی دیگر سی روز هستند؟",
+        "key_terms": {
+          "الشُّهُور": "ماه‌ها",
+          "اثْنَيْ عَشَرَ": "دوازده",
+          "السَّمَاوَات": "آسمان‌ها",
+          "الْأَرْضَان": "دو زمین",
+          "تَقَاصَرَت": "کوتاه شد/منقبض شد"
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari *Al-Khisal*, Imam al-Baqir (AS) menjelaskan dasar kosmologis struktur kalender lunar, yang menyatakan bahwa dua belas bulan awal masing-masing terdiri dari tiga puluh hari, totaling 360 hari. Enam hari yang dikurangkan untuk memperhitungkan penciptaan langit dan 'dua Bumi' (*al-ardayn*) menghasilkan variasi panjang bulan saat ini, mencerminkan desain ilahi di mana pengukuran waktu terkait erat dengan penciptaan kosmik. Pandangan ini menyoroti penekanan ulama Syiah pada harmoni antara fenomena alam dan ibadah agama, yang mendasarkan kalender pada asal-usul metafisik daripada konvensi astronomis semata.",
+        "seo_question": "Mengapa beberapa bulan lunar memiliki 29 hari dan lainnya 30 hari menurut hadis Syiah?",
+        "key_terms": {
+          "الشُّهُور": "Bulan-bulan (bulan lunar)",
+          "اثْنَيْ عَشَرَ": "Dua belas",
+          "السَّمَاوَات": "Langit-langit",
+          "الْأَرْضَان": "Dua Bumi",
+          "تَقَاصَرَت": "Menjadi lebih pendek/menyusut"
+        }
+      },
+      "bn": {
+        "summary": "আল-খিসাল হাদিসে ইমাম বাকির (আ.) চান্দ্র বর্ষপঞ্জির কাঠামোর মহাজাগতিক ভিত্তি ব্যাখ্যা করেছেন, যেখানে তিনি মত দেন যে মূল বারোটি মাস প্রতিটি ত্রিশ দিনের ছিল, যা মোট তিনশত ষাট দিন হয়। আকাশমণ্ডল এবং 'দুটি পৃথিবী' (আল-আর্দাইন) সৃষ্টির জন্য বাদ দেওয়া ছয় দিনের কারণে বর্তমান মাসগুলোর দৈর্ঘ্যের এই ভিন্নতা দেখা যায়, যা একটি ঐশ্বরিক নকশার প্রতিফলন যেখানে সময়ের হিসাব মহাজাগতিক সৃষ্টির সাথে গভীরভাবে যুক্ত। এই দৃষ্টিভঙ্গি শিয়া পণ্ডিতদের প্রকৃতি ও ধর্মীয় আচার-অনুষ্ঠানের মধ্যে সামঞ্জস্যের গুরুত্ব তুলে ধরে, যা বর্ষপঞ্জিকে কেবল জ্যোতির্বিদ্যার রীতির বদলে আধ্যাত্মিক উৎসে প্রতিষ্ঠিত করে।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী কিছু চান্দ্র মাস ২৯ দিন এবং অন্যগুলো ৩০ দিন কেন?",
+        "key_terms": {
+          "الشُّهُور": "চান্দ্র মাস",
+          "اثْنَيْ عَشَرَ": "বারো",
+          "السَّمَاوَات": "আকাশমণ্ডল",
+          "الْأَرْضَان": "দুটি পৃথিবী",
+          "تَقَاصَرَت": "সংকুচিত হয়েছে/ছোট হয়েছে"
+        }
+      },
+      "es": {
+        "summary": "En esta narración de *Al-Khisal*, el Imam al-Baqir (AS) aclara la base cosmológica de la estructura del calendario lunar, postulando que los doce meses originales consistían en treinta días cada uno, sumando 360 días. Los seis días restados para tener en cuenta la creación de los cielos y las 'dos Tierras' (*al-ardayn*) resultaron en la variación actual de las longitudes de los meses, reflejando un diseño divino donde el registro del tiempo está intrínsecamente vinculado a la creación cósmica. Esta visión destaca el énfasis de la erudición chií en la armonía entre los fenómenos naturales y la observancia religiosa, fundamentando el calendario en orígenes metafísicos más que en la mera convención astronómica.",
+        "seo_question": "¿Por qué algunos meses lunares tienen 29 días y otros 30 según el hadiz chií?",
+        "key_terms": {
+          "الشُّهُور": "Meses (meses lunares)",
+          "اثْنَيْ عَشَرَ": "Doce",
+          "السَّمَاوَات": "Los Cielos",
+          "الْأَرْضَان": "Las dos Tierras",
+          "تَقَاصَرَت": "Se acortaron/se contrajeron"
+        }
+      },
+      "fr": {
+        "summary": "Dans cette narration tirée d'*Al-Khisal*, l’Imam al-Baqir (AS) éclaire le fondement cosmologique de la structure du calendrier lunaire, postulant que les douze mois originaux comprenaient chacun trente jours, totalisant 360 jours. Les six jours déduits pour rendre compte de la création des cieux et des « deux Terres » (*al-ardayn*) ont entraîné la variation actuelle de la durée des mois, reflétant une conception divine où la mesure du temps est intrinsèquement liée à la création cosmique. Cette vision met en lumière l’accent mis par les savants chiites sur l’harmonie entre les phénomènes naturels et l’observance religieuse, ancrant le calendrier dans des origines métaphysiques plutôt que dans une simple convention astronomique.",
+        "seo_question": "Pourquoi certains mois lunaires comptent-ils 29 jours et d’autres 30 jours selon les hadiths chiites ?",
+        "key_terms": {
+          "الشُّهُور": "Mois (mois lunaires)",
+          "اثْنَيْ عَشَرَ": "Douze",
+          "السَّمَاوَات": "Les Cieux",
+          "الْأَرْضَان": "Les deux Terres",
+          "تَقَاصَرَت": "Devinrent plus courts / se contractèrent"
+        }
+      },
+      "de": {
+        "summary": "In dieser Überlieferung aus *Al-Khisal* erläutert Imam al-Baqir (AS) die kosmologische Grundlage der Struktur des Mondkalenders und vertritt die Ansicht, dass die ursprünglichen zwölf Monate jeweils dreißig Tage umfassten, was insgesamt 360 Tage ergab. Die sechs Tage, die abgezogen wurden, um die Schöpfung der Himmel und der „zwei Erden“ (*al-ardayn*) zu berücksichtigen, führten zur heutigen Variation der Monatslängen und spiegeln ein göttliches Design wider, bei dem die Zeitmessung untrennbar mit der kosmischen Schöpfung verbunden ist. Diese Sichtweise unterstreicht die schiitische wissenschaftliche Betonung der Harmonie zwischen natürlichen Phänomenen und religiöser Praxis, indem sie den Kalender in metaphysische Ursprünge und nicht in bloße astronomische Konventionen verankert.",
+        "seo_question": "Warum sind einige Mondmonate nach schiitischer Hadith-Überlieferung 29 Tage und andere 30 Tage lang?",
+        "key_terms": {
+          "الشُّهُور": "Mondmonate",
+          "اثْنَيْ عَشَرَ": "Zwölf",
+          "السَّمَاوَات": "Die Himmel",
+          "الْأَرْضَان": "Die zwei Erden",
+          "تَقَاصَرَت": "Wurden kürzer/verringerten sich"
+        }
+      },
+      "ru": {
+        "summary": "В этом предании из «Аль-Хисаль» Имаму аль-Бакиру (мир ему) разъясняет космологическое обоснование структуры лунного календаря, утверждая, что первоначально двенадцать месяцев состояли из тридцати дней каждый, что в сумме давало 360 дней. Шесть дней, вычтенных в связи с созданием небес и «двух земель» (аль-ардайн), привели к текущему различию в продолжительности месяцев, отражая божественный замысел, в котором ведение времени неразрывно связано с космическим творением. Этот взгляд подчеркивает шиитское внимание к гармонии между природными явлениями и религиозными обрядами, основывая календарь на метафизических истоках, а не на простой астрономической условности.",
+        "seo_question": "Почему некоторые лунные месяцы имеют 29 дней, а другие 30 дней согласно шиитским хадисам?",
+        "key_terms": {
+          "الشُّهُور": "Месяцы (лунные месяцы)",
+          "اثْنَيْ عَشَرَ": "Двенадцать",
+          "السَّمَاوَات": "Небеса",
+          "الْأَرْضَان": "Две Земли",
+          "تَقَاصَرَت": "Укоротились/сократились"
+        }
+      },
+      "zh": {
+        "summary": "在《哈西尔》的这段圣训中，伊玛目巴基尔（愿主福安之）阐明了阴历结构的天体宇宙学基础，认为最初的十二个月每月均为三十天，总计三百六十天。为体现天地的创造以及‘两大地’（al-ardayn）的存在而减去的六天，导致了当前月份天数的差异，这反映了时间计量与宇宙创造紧密相连的神圣设计。这一观点凸显了什叶派学者强调自然现象与宗教礼仪之间的和谐，将历法根基置于形而上学的起源而非单纯的天文惯例之上。",
+        "seo_question": "根据什叶派圣训，为何有些阴历月份为二十九天，有些为三十天？",
+        "key_terms": {
+          "الشُّهُور": "月份（阴历月份）",
+          "اثْنَيْ عَشَرَ": "十二",
+          "السَّمَاوَات": "诸天",
+          "الْأَرْضَان": "两大地",
+          "تَقَاصَرَت": "变短/收缩"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "9:36",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "36:39",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "71:15",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حرف_تفكيك_للتوضيح_فقط_ليس_جزءا_من_النص_الأصلي_لكن_لأغراض_التنسيق_سأقوم_بتفكيك_السند_والمتن_دقة_تامة إِنَّ اللَّهَ عَزَّ وَجَلَّ خَلَقَ الشُّهُورَ اثْنَيْ عَشَرَ شَهْرًا وَهِيَ ثَلَاثُمِائَةٍ وَسِتُّونَ يَوْمًا، فَحَجَرَ مِنْهَا سِتَّةُ أَيَّامٍ خُلِقَ فِيهَا السَّمَاوَاتُ وَالْأَرْضَانِ، فَمِنْ ثَمَّ تَقَاصَرَتِ الشُّهُورُ",
+    "isnad_matn": {
+      "isnad_ar": "حرف_تفكيك_للتوضيح_فقط_ليس_جزءا_من_النص_الأصلي_لكن_لأغراض_التنسيق_سأقوم_بتفكيك_السند_والمتن_دقة_تامة",
+      "matn_ar": "إِنَّ اللَّهَ عَزَّ وَجَلَّ خَلَقَ الشُّهُورَ اثْنَيْ عَشَرَ شَهْرًا وَهِيَ ثَلَاثُمِائَةٍ وَسِتُّونَ يَوْمًا، فَحَجَرَ مِنْهَا سِتَّةُ أَيَّامٍ خُلِقَ فِيهَا السَّمَاوَاتُ وَالْأَرْضَانِ، فَمِنْ ثَمَّ تَقَاصَرَتِ الشُّهُورُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أبي رضي الله عنه قال",
+          "name_en": "My father (al-Saduq's father)",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 613
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "رَضِيَ اللَّهُ عَنْهُ",
+        "phrase_en": "May Allah be pleased with him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "verse_path": "/books/tahdhib-al-ahkam:5:24:11",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-02",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.id is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.zh is empty string (likely Phase 4 batch failure)",
+    "chunks[1] en translation length out of bounds: 798 en words vs 18 ar words (ratio=44.33, expected 7.2-72.0)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "worship"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "hajj",
+      "halal_haram"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُوسَى بْنُ الْقَاسِمِ عَنْ إِبْرَاهِيمَ النَّخَعِيِّ عَنْ مُعَاوِيَةَ بْنِ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+        "translations": {
+          "en": "Musa ibn al-Qasim from Ibrahim al-Nakha'i from Mu'awiya ibn 'Ammar from Abu Abdillah (peace be upon him) who said:",
+          "ur": "موسیٰ بن القاسم عن ابراہیم النخعی عن معاویہ بن عمار عن ابو عبداللہ (علیہ السلام) قال:",
+          "tr": "Musa b. el-Kasım, İbrahim en-Nehaî'den, Mü'aviye b. Ammar'dan, Ebu Abdillah (aleyhisselam)'dan rivayetle şöyle dedi:",
+          "fa": "موسی بن قاسمیس از ابراهیم نخعی از معاویه بن عمار از ابوعبدالله (علیه السلام) که فرمود:",
+          "id": "Musa ibn al-Quranic",
+          "bn": "মুসা ইবনে আল-কাসিম, ইব্রাহীম আন-নখাঈ হতে, মুআবিয়া ইবনে আম্মার হতে, আবু আবদিল্লাহ (রহ.) থেকে বর্ণিত, তিনি বলেন:",
+          "es": "Musa ibn al-Quranic",
+          "fr": "Musa ibn al-Qasim, d'Ibrahim al-Nakha'i, de Mu'awiya ibn 'Ammar, d'Abu Abdillah (que la paix soit sur lui), qui a dit :",
+          "de": "Musa ibn al-Qasim von Ibrahim al-Nakha'i von Mu'awiya ibn 'an Mu'awiya ibn 'Ammar 'an Abu Abdillah (peace be upon him), der sagte:",
+          "ru": "Муса ибн аль-Касим от Ибрахима ан-Нахаи от Муавии ибн Аммара от Абу Абдиллаха (да будет мир с ним), который сказал:",
+          "zh": "穆萨·本·卡西姆从伊布拉欣·纳哈伊从穆阿维叶·本·阿马尔从阿布·阿卜杜拉（愿主福安之）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 17
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّمَا يَحْرُمُ عَلَيْكَ مِنَ الطِّيبِ أَرْبَعَةُ أَشْيَاءَ الْمِسْكُ وَالْعَنْبَرُ وَالْوَرْسُ وَالزَّعْفَرَانُ غَيْرَ أَنَّهُ يُكْرَهُ لِلْمُحْرِمِ الْأَدَاهُنُ الطَّيِّبَةُ الرَّيحِ",
+        "translations": {
+          "en": "Only one chunk. Every word of the original text must appear in exactly one chunk. arabic_text must be the COMPLETE Arabic text for that segment with FULL tashkeel on every word. The chunks must contain ONLY the words from the provided Arabic text, fully diacritized. Do not add text that is not present in the input. Segment at natural boundaries: isnad→matn transition, topic shifts, Quran quotes, opening/closing formulae. If has_chain is true, the narrator chain MUST be in one or more \"isnad\" chunks.5. \"translations\": {\"en\": {\"summary\": \"2-3 sentences explaining the verse's meaning and significance\", \"seo_question\": \"A natural question this verse answers\", \"key_terms\": {\"Arabic term with diacritics\": \"English definition in context\", ...}}} key_terms: a small *selective glossary* of the distinctive Arabic vocabulary in the matn — the words a non-specialist reader would benefit from seeing flagged. Render in the UI as chips below the summary. NOT a complete word list (that's a separate field). - Pick 3-8 terms (or fewer for very short verses — don't pad to reach 8). - Use multi-word phrases for compound concepts: \"لَيْلَةُ الْقَدْرِ\", \"أَوَّلِ الصَّلَاةِ\", \"تَكْبِيرَةِ الِافْتِتَاحِ\" — one chip per concept, not split into separate words. - Prefer distinctive content: legal terms, theological doctrines, ritual actions, key objects/places, technical fiqh vocabulary. AVOID: - Narrator names (e.g. رِفَاعَة, زُرَارَة, transmission verbs like حَدَّثَنَا) — these are isnad/chain content, not vocabulary from the narration's substance. - Generic possessive/relational particles (لِأَبِي, إِحْدَاهُمَا, مِنْهُ, etc.) unless they carry a doctrinally distinctive sense. - Multiple variants of the same concept across separate entries — pick once (e.g. one chip \"أَوَّلِ الشَّهْر وَوَسَطِهِ وَآخِرِهِ\" or just \"أَوَّلِ الشَّهْر\", not three chips for the three time-positions). - Clausal/verbal phrases that *describe scenarios* rather than *naming concepts*: prefer \"مَوْتُ الزَّوْجَةِ\" (death of the wife) over \"الْمَرْأَةُ تَمُوتُ\" (the woman dies); prefer \"حِصَّةُ الزَّوْجِ\" (the husband's share) over \"فَالْمَالُ كُلُّهُ لَهُ\" (then all the estate is for him). The chip strip works best as a vocabulary glossary, not a sentence list — pick noun phrases that name a concept, not predications that describe an event. Keys MUST be Arabic words/phrases with full diacritics taken from the text.6. \"related_quran\": (array) [{\"ref\": \"surah:ayah\", \"relationship\": \"thematic\"}] or [] Only include thematic connections to Quran verses. Do not scan for explicit [S:V] refs.7. \"topics\": (array of 1-5 strings) Pick ONLY from this closed set of valid topic keys: abrogation, ahlulbayt_virtues, anger_control, backbiting, barzakh, charity, community, companions, consultation, death_dying, dhikr, divine_attributes, divine_decree, divine_justice, divine_knowledge, etiquette, etiquette_of_dua, events, fasting, fasting_rulings, financial_law, forbidding_evil, friendship, ghadir, gratitude, hadith_sciences, hajj, halal_haram, honesty, hospitality, humility, ignorance, imamate, imams_biography, inheritance, intercession, judicial_rulings, justice_system, karbala, kinship, leadership, marriage_family_law, miracles, mosque_etiquette, neighbors, night_prayer, occasions_of_revelation, oppression, orphans, paradise_hell, parenting, patience, poverty_wealth, prayer_rulings, prophethood, prophetic_character, prophets, quran_interpretation_method, quran_recitation, quran_virtues, reasoning, reckoning, religious_authority, repentance, resurrection, rights_of_others, rights_of_rulers, ritual_purity, salat, scholars_virtues, seeking_forgiveness, seeking_knowledge, seeking_refuge, signs_of_end, sincerity, specific_supplications, spousal_rights, sunnah, tafsir_specific_verse, tawhid, teaching, times_for_dua, trade_ethics, trust, usury, womens_rights, work_livelihood, zakat_khums CRITICAL: Use ONLY keys from the list above. Do NOT use tag names (theology, ethics, etc.) as topics — those are different fields. FEW-SHOT EXAMPLES (illustrating the expected chunking granularity): Example 1 — short isnad + body, 2 chunks: Input Arabic: \"محمد بن يحيى، عن أحمد بن محمد، عن أبي عبد الله عليه السلام قال: الصلاة عمود الدين.\" Expected chunks: [ {\"chunk_type\": \"isnad\", \"arabic_text\": \"<diacritized isnad>\", \"translations\": {\"en\": \"Muhammad ibn Yahya narrated from Ahmad ibn Muhammad, from Abu Abdillah (peace be upon him) who said:\"}}, {\"chunk_type\": \"body\", \"arabic_text\": \"<diacritized matn>\", \"translations\": {\"en\": \"Salat is the pillar of religion.\"}} ] Example 2 — isnad + body + Quran quote + closing, 4 chunks: Input Arabic: \"روى محمد بن الفضيل عن أبي عبد الله عليه السلام قال: إذا طلق الرجل امرأته قبل أن يدخل بها فلها نصف مهرها، فمتاع بالمعروف على الموسع قدره وعلى المقتر قدره، وليس لها عدة تتزوج من شاءت من ساعتها.\" Expected chunks: [ {\"chunk_type\": \"isnad\", \"arabic_text\": \"<diacritized isnad>\", \"translations\": {\"en\": \"Muhammad ibn al-Fudayl narrated from Abu Abdillah (peace be upon him) who said:\"}}, {\"chunk_type\": \"body\", \"arabic_text\": \"<diacritized body up to the Quran quote>\", \"translations\": {\"en\": \"If a man divorces his wife before consummating the marriage, she is entitled to half of her dowry.\"}}, {\"chunk_type\": \"quran_quote\", \"arabic_text\": \"فَمَتَاعٌ بِالْمَعْرُوفِ عَلَى الْمُوسِعِ قَدَرُهُ وَعَلَى الْمُقْتِرِ قَدَرُهُ\", \"translations\": {\"en\": \"Then provision should be made in a fair manner, according to the means of the wealthy and according to the means of the poor.\"}}, {\"chunk_type\": \"closing\", \"arabic_text\": \"<diacritized closing>\", \"translations\": {\"en\": \"And there is no waiting period for her; she may marry whomever she wishes immediately.\"}} ] CHUNKING RULES (reinforce): - Always separate isnad from matn into their own chunks - Always make Quran verses (recognised by phrasing or known formulae) into their own chunk_type=quran_quote - Closing formulae (e.g. independent legal-ruling statements after the main narration) get their own chunk_type=closing - Prefer more chunks at finer boundaries over fewer big chunks",
+          "ur": "صرف ایک ٹکڑا۔ متن کے ہر لفظ کو بالکل ایک ٹکڑے میں ہونا ضروری ہے۔ arabic_text اس سیکشن کے لیے مکمل عربی متن ہونا چاہیے جس میں ہر لفظ پر مکمل تشکیل ہو۔ ٹکڑوں میں صرف فراہم کردہ عربی متن کے الفاظ ہونے چاہئیں، مکمل تشکیل شدہ۔ ان پٹ میں موجود متن کے علاوہ کوئی اضافی متن شامل نہ کریں۔ قدرتی حدود پر تقسیم کریں: سند سے متن کی منتقلی، موضوع کی تبدیلیاں، قرآنی اقتباسات، افتتاحی/اختتامی عبارات۔ اگر has_chain درست ہے، تو راویوں کی زنجیر ایک یا زیادہ ",
+          "fa": "فقط یک قطعه. هر کلمه از متن اصلی باید دقیقاً در یک قطعه ظاهر شود. arabic_text باید متن کامل عربی آن بخش با تاشکیل کامل روی هر کلمه باشد. قطعات باید فقط شامل کلمات متن عربی ارائه شده باشند که کاملاً اعراب‌گذاری شده‌اند. متنی که در ورودی وجود ندارد اضافه نکنید. در مرزهای طبیعی بخش‌بندی کنید: گذر از سند به متن، تغییر موضوع، نقل قول‌های قرآنی، فرمول‌های آغازین و پایانی. اگر has_chain درست باشد، زنجیره راویان باید در یک یا چند قطعه «isnad» باشد.",
+          "bn": "শুধুমাত্র একটি অংশ। মূল পাঠের প্রতিটি শব্দ অবশ্যই ঠিক একটি অংশে থাকবে। arabic_text সেই বিভাগের জন্য সম্পূর্ণ আরবি পাঠ হতে হবে, প্রতিটি শব্দে পূর্ণ তশকীল সহ। অংশগুলোতে শুধুমাত্র প্রদত্ত আরবি পাঠের শব্দ থাকবে, পূর্ণ ডাইয়াক্রিটাইজড। ইনপুটে যা নেই তা যোগ করা যাবে না। প্রাকৃতিক সীমানায় বিভাজন করুন: isnad→matn সংক্রান্ত, বিষয় পরিবর্তন, কুরআনের উদ্ধৃতি, খোলা/বন্ধ সূচক। যদি has_chain সত্য হয়, তবে বর্ণনামালার শৃঙ্খলা অবশ্যই একটি বা একাধিক \"isnad\" অংশে থাকবে। 5. \"translations\": {\"en\": {\"summary\": \"আয়াতের অর্থ ও গুরুত্ব ব্যাখ্যা করে ২-৩ বাক্য\", \"seo_question\": \"এই আয়াত যে প্রাকৃতিক প্রশ্নের উত্তর দেয়\", \"key_terms\": {\"তশকীলসহ আরবি পদ\": \"প্রসঙ্গ অনুযায়ী ইংরেজি সংজ্ঞা",
+          "fr": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ، عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ: الصَّلَاةُ عَمُودُ الدِّينِ.",
+          "de": "فِي ",
+          "tr": "",
+          "id": "",
+          "es": "",
+          "ru": "",
+          "zh": ""
+        },
+        "word_start": 17,
+        "word_end": 35
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّمَا يَحْرُمُ عَلَيْكَ مِنَ الطِّيبِ أَرْبَعَةُ أَشْيَاءَ الْمِسْكُ وَالْعَنْبَرُ وَالْوَرْسُ وَالزَّعْفَرَانُ غَيْرَ أَنَّهُ يُكْرَهُ لِلْمُحْرِمِ الْأَدَاهُنُ الطَّيِّبَةُ الرَّيحِ",
+        "translations": {
+          "en": "Only four things from perfume are prohibited for you: musk, ambergris, warss, and saffron. However, it is disliked for the one in ihsar (state of ritual consecration) to use scented oils.",
+          "ur": "تمہارے لیے خوشبو میں چار چیزیں حرام ہیں: مشک، عنبر، عرعر اور زعفران۔ تاہم، محرم کے لیے معطر تیل استعمال کرنا مکروہ ہے۔",
+          "tr": "Sana parfümden dört şey haram kılındı: misk, amber, varis ve safran. Ancak, ihram halindeki kişinin kokulu yağ kullanması mekruhtur.",
+          "fa": "تنها چهار چیز از عطر برای شما حرام است: مشک، عنبر، عرعر و زعفران. با این حال، برای کسی که در احرام است (حالت مناسک حج) استفاده از روغن‌های معطر مکروه است.",
+          "id": "Hanya empat hal dari wewangian yang diharamkan bagi kalian: kasturi, ambergris, warss, dan za'faran. Namun, makruh bagi orang yang dalam keadaan ihsar (keadaan ihram) menggunakan minyak wangi.",
+          "bn": "তোমাদের জন্য সুগন্ধির মধ্যে চারটি বস্তু নিষিদ্ধ: কস্তুরী, জাফরান, ওরক এবং কুফর। তবে, ইহরাম অবস্থায় সুগন্ধি তেল ব্যবহার করা মকরূহ।",
+          "es": "Solo cuatro cosas del perfume están prohibidas para vosotros: el almizcle, el ámbar gris, el warss y el azafrán. Sin embargo, es desaconsejable que quien esté en ihsar (estado de consagración ritual) utilice aceites perfumados.",
+          "fr": "Parmi les parfums, quatre choses vous sont interdites : le musc, l'ambre gris, le warss et le safran. Toutefois, il est détestable (makrûh) pour celui qui est en état d'ihsar (consécration rituelle) d'utiliser des huiles parfumées.",
+          "de": "Nur vier Dinge aus dem Parfüm sind für euch verboten: Moschus, Ambra, Warss und Safran. Es ist jedoch verabscheuenswert, dass derjenige, der sich in einem Zustand von Ihsar (ritueller Weihe) befindet, duftende Öle verwendet.",
+          "ru": "Лишь четыре вещи из благовоний запрещены вам: мускус, амбра, варс и шафран. Однако нежелательно, чтобы находившийся в состоянии ихр (ритуальной посвящённости) использовал ароматические масла.",
+          "zh": "香水中有四种东西为你所禁：麝香、龙涎香、瓦尔斯和藏红花。然而，处于伊赫萨尔（受戒状态）者使用香膏被视为可憎。"
+        },
+        "word_start": 35,
+        "word_end": 53
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi records this ruling in *Tahdhib al-Ahkam*, distinguishing between the strict prohibition (haram) of four specific potent perfumes—musk, ambergris, warss, and saffron—and the mere dislike (makruh) of other scented oils. This distinction highlights the juristic nuance in Shia fiqh regarding the preservation of the pilgrim's spiritual state by avoiding sensory distractions that might lead to desire or impurity.",
+        "seo_question": "What are the four specific perfumes prohibited for a pilgrim in Ihram?",
+        "key_terms": {
+          "الطِّيب": "Perfume/Scent",
+          "الْمِسْكُ": "Musk",
+          "الْعَنْبَرُ": "Ambergris",
+          "الْوَرْسُ": "Warss (a type of resin/perfume)",
+          "الزَّعْفَرَانُ": "Saffron",
+          "لِلْمُحْرِمِ": "For the one in Ihram (ritual consecration)",
+          "الْأَدَاهُنُ": "Oils/Anointing substances",
+          "يُكْرَهُ": "It is disliked (Makruh)"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی نے تحفید الاحکام میں چار خاص خوشبوؤں—مشت، عنبر، ورس اور زعفران کی سخت حرمت اور دیگر خوشبوئی تیلوں کی کراہت کے درمیان تمیز قائم کی ہے۔ یہ تمیز زائر کی روحانی حالت کو برقرار رکھنے کے لیے حسی الجھنوں سے بچنے کی شیعہ فقہ میں جوریستی باریکی کو اجاگر کرتی ہے جو خواہش یا ناپاکی کی طرف لے جا سکتی ہیں۔",
+        "seo_question": "محرم کے لیے کون سی چار خاص خوشبوئیں منع ہیں؟",
+        "key_terms": {
+          "الطِّيب": "خوشبو",
+          "الْمِسْكُ": "مشت",
+          "الْعَنْبَرُ": "عنبر",
+          "الْوَرْسُ": "ورس",
+          "الزَّعْفَرَانُ": "زعفران",
+          "لِلْمُحْرِمِ": "محرم کے لیے",
+          "الْأَدَاهُنُ": "تیل",
+          "يُكْرَهُ": "کراہت ہے"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh et-Tusi, *Tehdîbu'l-Ahkâm* adlı eserinde, misk, amber, vars ve safran gibi dört belirli güçlü kokunun haram (katı yasak) olmasını, diğer kokulu yağların ise mekruh (hoş karşılanmama) düzeyinde kalmasını ayırt ederek bu hükmü kaydeder. Bu ayrım, hacının arzu veya nifak yoluna açılacak duyusal dağınıklıklardan kaçınarak manevi durumunu koruması konusundaki Şii fıkıhındaki hukuki nüansı vurgular.",
+        "seo_question": "İhram halindeki bir hacı için yasaklanan dört belirli koku nedir?",
+        "key_terms": {
+          "الطِّيب": "Koku",
+          "الْمِسْكُ": "Misk",
+          "الْعَنْبَرُ": "Amber",
+          "الْوَرْسُ": "Vars",
+          "الزَّعْفَرَانُ": "Safran",
+          "لِلْمُحْرِمِ": "İhramlı için",
+          "الْأَدَاهُنُ": "Yağlar",
+          "يُكْرَهُ": "Mekruh görülür"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی این حکم را در تهذیب الاحکام ثبت کرده است و میان حرمت قطعی چهار عطر خاص—مشک، عنبر، ورس و زعفران—و کراهت صرف سایر روغن‌های معطر تمایز قائل می‌شود. این تمایز، ظرافت فقهی در فقه شیعه را درباره حفظ حالت معنوی زائر با پرهیز از عوامل حسی که ممکن است به تمایل یا نجاست منجر شوند، برجسته می‌سازد.",
+        "seo_question": "چهار عطر خاص ممنوعه برای زائر در احرام کدامند؟",
+        "key_terms": {
+          "الطِّيب": "عطر/بوی خوش",
+          "الْمِسْكُ": "مشک",
+          "الْعَنْبَرُ": "عنبر",
+          "الْوَرْسُ": "ورس",
+          "الزَّعْفَرَانُ": "زعفران",
+          "لِلْمُحْرِمِ": "برای کسی که در احرام است",
+          "الْأَدَاهُنُ": "روغن‌ها/مواد چرب‌کننده",
+          "يُكْرَهُ": "کراهت دارد"
+        }
+      },
+      "id": {
+        "summary": "Syekh al-Tusi mencatat hukum ini dalam *Tahdhib al-Ahkam*, membedakan antara larangan ketat (haram) atas empat jenis wewangian tertentu—musk, ambergris, warss, dan saffron—dengan—serta ketidak-sukaan (makruh) terhadap minyak beraroma lainnya. Pembedaan ini menyoroti nuansa fikih Syi'ah dalam menjaga keadaan spiritual jamaah haji dengan menghindari gangguan indrawi yang dapat memicu keinginan atau ketidakmurnian.",
+        "seo_question": "Apa saja empat wewangian tertentu yang dilarang bagi jamaah dalam keadaan Ihram?",
+        "key_terms": {
+          "الطِّيب": "Wewangian/Aroma",
+          "الْمِسْكُ": "Musk",
+          "الْعَنْبَرُ": "Ambergris",
+          "الْوَرْسُ": "Warss (sejenis resin/wewangian)",
+          "الزَّعْفَرَانُ": "Saffron",
+          "لِلْمُحْرِمِ": "Bagi yang berada dalam Ihram (konskrasi ritual)",
+          "الْأَدَاهُنُ": "Minyak/Zat pengoles",
+          "يُكْرَهُ": "Tidak disukai (Makruh)"
+        }
+      },
+      "bn": {
+        "summary": "শিরোনাম_সংক্ষেপ_বাংলায়_অনুবাদ_করা_হয়েছে_শায়খ_আল_তুসি_তাহদিব_আল_আহকাম_গ্রন্থে_এই_হুকুম_রেকর্ড_করেছেন_চারটি_নির্দিষ্ট_শক্তিশালী_সুগন্ধির_কঠোর_নিষেধ_(হরাম)_যেমন_কস্তুরী_আগর_ওয়ারস_এবং_জাফরান_এবং_অন্যান্য_সুগন্ধি_তেলের_মাত্র_অপ্রিয়_(মকরুহ)_এর_মধ্যে_পার্থক্য_সুনির্দিষ্ট_করেছেন_এই_পার্থক্য_শিয়া_ফিকহে_যাত্রীর_আধ্যাত্মিক_অবস্থা_রক্ষা_করার_জন্য_সংবেদনশীল_বিচ্ছুরণ_এড়িয়ে_চলা_এবং_ইচ্ছা_বা_অশুদ্ধি_এর_দিকে_নেওয়া_এড়ানোর_জন্য_জুরিস্টিক_সূক্ষ্মতা_উল্লেখ_করে",
+        "seo_question": "ইহরাম_অবস্থায়_যাত্রীর_জন্য_কোন_চারটি_নির্দিষ্ট_সুগন্ধি_নিষিদ্ধ_হয়েছে?",
+        "key_terms": {
+          "الطِّيب": "সুগন্ধি/গন্ধ",
+          "الْمِسْكُ": "কস্তুরী",
+          "الْعَنْبَرُ": "আগর",
+          "الْوَرْسُ": "ওয়ারস_(এক_প্রকার_রেজিন/সুগন্ধি)",
+          "الزَّعْفَرَانُ": "জাফরান",
+          "لِلْمُحْرِمِ": "ইহরাম_অবস্থায়_থাকা_ব্যক্তির_জন্য",
+          "الْأَدَاهُنُ": "তেল/লেপনের_পদার্থ",
+          "يُكْرَهُ": "এটি_অপ্রিয়_(মকরুহ)"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi registra esta regla en *Tahdhib al-Ahkam*, distinguiendo entre la prohibición estricta (haram) de cuatro perfumes potentes específicos —el almizcle, el ámbar gris, el warss y el azafrán— y la mera desaproación (makruh) de otros aceites perfumados. Esta distinción resalta la sutileza jurística en la fiqh chiita respecto a la preservación del estado espiritual del peregrino al evitar distracciones sensoriales que puedan llevar al deseo o a la impureza.",
+        "seo_question": "¿Cuáles son los cuatro perfumes específicos prohibidos para un peregrino en Ihram?",
+        "key_terms": {
+          "الطِّيب": "Perfume/Aroma",
+          "الْمِسْكُ": "Almizcle",
+          "الْعَنْبَرُ": "Ámbar gris",
+          "الْوَرْسُ": "Warss (un tipo de resina/perfume)",
+          "الزَّعْفَرَانُ": "Azafrán",
+          "لِلْمُحْرِمِ": "Para el que está en Ihram (consagración ritual)",
+          "الْأَدَاهُنُ": "Aceites/Sustancias ungüentarias",
+          "يُكْرَهُ": "Es desaproado (Makruh)"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi rapporte cette règle dans *Tahdhib al-Ahkam*, en établissant une distinction entre l'interdiction stricte (haram) de quatre parfums puissants spécifiques — le musc, l'ambre gris, le warss et le safran — et la simple aversion (makruh) des autres huiles parfumées. Cette distinction met en lumière la nuance jurisprudentielle dans le fiqh chiite concernant la préservation de l'état spirituel du pèlerin en évitant les distractions sensorielles qui pourraient mener au désir ou à l'impureté.",
+        "seo_question": "Quels sont les quatre parfums spécifiques interdits au pèlerin en état d'Ihram ?",
+        "key_terms": {
+          "الطِّيب": "Parfum/Odeur",
+          "الْمِسْكُ": "Musc",
+          "الْعَنْبَرُ": "Ambre gris",
+          "الْوَرْسُ": "Warss (une sorte de résine/parfum)",
+          "الزَّعْفَرَانُ": "Safran",
+          "لِلْمُحْرِمِ": "Pour celui qui est en Ihram (consécration rituelle)",
+          "الْأَدَاهُنُ": "Huiles/Substances onctueuses",
+          "يُكْرَهُ": "Il est détesté (Makruh)"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi führt dieses Urteil in *Tahdhib al-Ahkam* an und unterscheidet zwischen dem strikten Verbot (haram) von vier spezifischen starken Parfüms – Moschus, Ambra, Warss und Safran – und der bloßen Missbilligung (makruh) anderer duftender Öle. Diese Unterscheidung unterstreicht die juristische Nuance im schiitischen Fiqh bezüglich der Bewahrung des spirituellen Zustands des Pilgers durch das Vermeiden von Sinnesablenkungen, die zu Begierde oder Unreinheit führen könnten.",
+        "seo_question": "Welche vier spezifischen Parfüms sind für einen Pilger im Ihram verboten?",
+        "key_terms": {
+          "الطِّيب": "Duft/Parfüm",
+          "الْمِسْكُ": "Moschus",
+          "الْعَنْبَرُ": "Ambra",
+          "الْوَرْسُ": "Warss (eine Art Harz/Parfüm)",
+          "الزَّعْفَرَانُ": "Safran",
+          "لِلْمُحْرِمِ": "Für den im Ihram (rituellen Weihezustand) Befindlichen",
+          "الْأَدَاهُنُ": "Öle/Salben",
+          "يُكْرَهُ": "Es ist missbilligt (Makruh)"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Туси фиксирует это положение в «Тахдиль аль-Ахкам», проводя различие между строгим запретом (харам) четырех конкретных ароматных веществ — мускуса, амбры, варса и шафрана — и лишь нежелательностью (макрух) других ароматических масел. Это различие подчеркивает джурисprudentialный нюанс в шиитском фикхе относительно сохранения духовного состояния паломника путем избегания сенсорных отвлечений, которые могут привести к желанию или нечистоте.",
+        "seo_question": "Какие четыре конкретных ароматных вещества запрещены палому в состоянии ихрама?",
+        "key_terms": {
+          "الطِّيب": "Аромат/Духи",
+          "الْمِسْكُ": "Мускус",
+          "الْعَنْبَرُ": "Амбра",
+          "الْوَرْسُ": "Варс (вид смолы/духов)",
+          "الزَّعْفَرَانُ": "Шафран",
+          "لِلْمُحْرِمِ": "Для находящегося в ихраме (ритуальное посвящение)",
+          "الْأَدَاهُنُ": "Масла/Вещества для намазывания",
+          "يُكْرَهُ": "Нежелательно (Макрух)"
+        }
+      },
+      "zh": {
+        "summary": "谢赫·图西在《法德勒·阿赫卡姆》中记录了这一裁决，区分了四种特定浓郁香水——麝香、龙涎香、瓦尔萨树脂和藏红花——的严格禁止（哈拉姆）与其他香油的 merely 厌恶（马克鲁赫）。这一区分凸显了什叶派教法中关于通过避免可能导致欲望或不洁的感官干扰来保护朝圣者精神状态的法学细微差别。",
+        "seo_question": "朝圣者在伊赫拉姆状态下被禁止使用的四种特定香水是什么？",
+        "key_terms": {
+          "الطِّيب": "香水/气味",
+          "الْمِسْكُ": "麝香",
+          "الْعَنْبَرُ": "龙涎香",
+          "الْوَرْسُ": "瓦尔萨树脂",
+          "الزَّعْفَرَانُ": "藏红花",
+          "لِلْمُحْرِمِ": "朝受戒者",
+          "الْأَدَاهُنُ": "香油/涂油物质",
+          "يُكْرَهُ": "被厌恶"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:197",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:198",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُوسَى بْنُ الْقَاسِمِ عَنْ إِبْرَاهِيمَ النَّخَعِيِّ عَنْ مُعَاوِيَةَ بْنِ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ إِنَّمَا يَحْرُمُ عَلَيْكَ مِنَ الطِّيبِ أَرْبَعَةُ أَشْيَاءَ الْمِسْكُ وَالْعَنْبَرُ وَالْوَرْسُ وَالزَّعْفَرَانُ غَيْرَ أَنَّهُ يُكْرَهُ لِلْمُحْرِمِ الْأَدَاهُنُ الطَّيِّبَةُ الرَّيحِ إِنَّمَا يَحْرُمُ عَلَيْكَ مِنَ الطِّيبِ أَرْبَعَةُ أَشْيَاءَ الْمِسْكُ وَالْعَنْبَرُ وَالْوَرْسُ وَالزَّعْفَرَانُ غَيْرَ أَنَّهُ يُكْرَهُ لِلْمُحْرِمِ الْأَدَاهُنُ الطَّيِّبَةُ الرَّيحِ",
+    "isnad_matn": {
+      "isnad_ar": "مُوسَى بْنُ الْقَاسِمِ عَنْ إِبْرَاهِيمَ النَّخَعِيِّ عَنْ مُعَاوِيَةَ بْنِ عَمَّارٍ عَنْ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ قَالَ",
+      "matn_ar": "إِنَّمَا يَحْرُمُ عَلَيْكَ مِنَ الطِّيبِ أَرْبَعَةُ أَشْيَاءَ الْمِسْكُ وَالْعَنْبَرُ وَالْوَرْسُ وَالزَّعْفَرَانُ غَيْرَ أَنَّهُ يُكْرَهُ لِلْمُحْرِمِ الْأَدَاهُنُ الطَّيِّبَةُ الرَّيحِ إِنَّمَا يَحْرُمُ عَلَيْكَ مِنَ الطِّيبِ أَرْبَعَةُ أَشْيَاءَ الْمِسْكُ وَالْعَنْبَرُ وَالْوَرْسُ وَالزَّعْفَرَانُ غَيْرَ أَنَّهُ يُكْرَهُ لِلْمُحْرِمِ الْأَدَاهُنُ الطَّيِّبَةُ الرَّيحِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُوسَى بْنُ اَلْقَاسِمِ",
+          "name_en": "Musa ibn al-Qasim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 341
+        },
+        {
+          "name_ar": "إِبْرَاهِيمَ اَلنَّخَعِيِّ",
+          "name_en": "al-Nakha'i",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مُعَاوِيَةَ بْنِ عَمَّارٍ",
+          "name_en": "Muawiya ibn Ammar",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 45
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اَللَّهِ عَلَيْهِ اَلسَّلاَمُ",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 5,
+    "_phase4_mode": "per_language"
+  }
+}

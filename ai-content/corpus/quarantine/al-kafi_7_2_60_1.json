@@ -1,0 +1,298 @@
+{
+  "verse_path": "/books/al-kafi:7:2:60:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 30 en words vs 1 ar words (ratio=30.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "inheritance",
+      "marriage_family_law",
+      "kinship"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from his father, and Muhammad ibn Ismail, from al-Fadl ibn Shadhan, from Ibn Abi Umayr and Safwan ibn Yahya, all from Abd al-Rahman ibn al-Hajjaj, who said:",
+          "ur": "علیٰ بن ابراہیم، اپنے والد سے، اور محمد بن اسماعیل، الفضل بن شاذان سے، ابن ابی عمر اور صفوان بن یحییٰ، سب عبدالرحمن بن الحجاج سے روایت کرتے ہیں، جنہوں نے کہا:",
+          "tr": "Ali b. İbrahim, babasından; Muhammed b. İsmail, el-Fazl b. Şazandan; İbn Ebi Umeyr ve Safvan b. Yahya, hepsi Abdurrahman b. el-Haccâc'tan, şöyle dedi:",
+          "fa": "علی بن ابراهیم از پدرش و محمد بن اسماعیل از فضل بن شاذان از ابن ابی عُمیر و صفوان بن یحیی، همه از عبدالرحمن بن حجّاج، که گفت:",
+          "id": "Ali ibn Ibrahim dari ayahnya, dan Muhammad ibn Ismail dari al-Fadl ibn Shadhan, dari Ibn Abi Umayr dan Safwan ibn Yahya, semuanya dari Abd al-Rahman ibn al-Hajjaj, yang berkata:",
+          "bn": "আলী ইবনে ইবরাহীম, তাঁর পিতার নিকট হতে, এবং মুহাম্মাদ ইবনে ইসমাঈল, আল-ফজল ইবনে শাযান নিকট হতে, ইবনে আবী উমাইর ও সফওয়ান ইবনে ইয়াহ্যা, সকলে আবদুর রহমান ইবনে আল-হাজ্জাজ নিকট হতে, যিনি বলেন:",
+          "es": "Ali ibn Ibrahim, de su padre, y Muhammad ibn Ismail, de al-Fadl ibn Shadhan, de Ibn Abi Udhayn, de Ibn Abi Umayr y Safwan ibn Yahya, todos de Abd al-Rahman ibn al-Hajjaj, quien dijo:",
+          "fr": "Ali ibn Ibrahim, de son père, et Muhammad ibn Ismail, d'al-Fadl ibn Shadhan, d'Ibn Abi Umayr et Safwan ibn Yahya, tous d'Abd al-Rahman ibn al-Hajjaj, qui a dit :",
+          "de": "Ali ibn Ibrahim, von seinem Vater, und Muhammad ibn Ismail, von al-Fadl ibn Shadhan, von Ibn Abi Umayr und Safwan ibn Yahya, alle von Abd al-Rahman ibn al-Hajjaj, der sagte:",
+          "ru": "Али ибн Ибрахим, от его отца, и Мухаммад ибн Исмаил, от аль-Фадла ибн Шадаана, от Ибн Аби Умайра и Сафвана ибн Яхья, все от Абд ар-Рахмана ибн аль-Хаджаджа, который сказал:",
+          "zh": "阿里·本·易卜拉欣，从他父亲，以及穆罕默德·本·伊斯玛仪，从法德勒·本·沙扎尼，从伊本·艾比·乌迈尔和萨夫万·本·叶海亚，全都从阿卜杜·拉赫曼·本·哈贾吉传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنِ الْحَمِيلِ فَقَالَ: وَ أَيُّ شَيْءٍ الْحَمِيلُ؟ قُلْتُ: الْمَرْأَةُ تُسْبَى مِنْ أَهْلِهَا مَعَهَا الْوَلَدُ الصَّغِيرُ، فَتَقُولُ: هَذَا ابْنِي، وَ الرَّجُلُ يُسْبَى فَيَلْقَى أَخَاهُ، فَيَقُولُ: هُوَ أَخِي، وَ لَيْسَ لَهُمْ بَيِّنَةٌ إِلَّا قَوْلُهُمْ. قَالَ: فَمَا يَقُولُ فِيهِمُ النَّاسُ عِنْدَكُمْ؟ قُلْتُ: لَا يُوَرِّثُونَهُمْ، لِأَنَّهُ لَمْ يَكُنْ لَهُمْ عَلَى وِلَادَتِهِمْ بَيِّنَةٌ، وَ إِنَّمَا هِيَ وِلَادَةُ الشِّرْكِ. قَالَ: سُبْحَانَ اللَّهِ، إِذَا جَاءَتْ بِابْنِهَا أَوْ ابْنَتِهَا، وَ لَمْ تَزَلْ مُقِرَّةً بِهِ، وَ إِذَا عَرَفَ أَخَاهُ، وَ كَانَ ذَلِكَ فِي صِحَّةٍ مِنْهُمَا، وَ لَمْ يَزَالَا مُقِرَّيْنِ بِذَلِكَ، وَرِثَ بَعْضُهُمْ مِنْ بَعْضٍ.",
+        "translations": {
+          "en": "I asked Abu Abdillah (peace be upon him) about 'al-hameel' (the captive with child/brother), so he said: 'And what is al-hameel?' I said: 'A woman is taken captive from her family, with her is the small child, so she says: This is my son,' and a man is taken captive and meets his brother, so he says: This is my brother,' and there is no evidence for them except their words.' He said: 'So what do the people among you say regarding them?' I said: 'They do not inherit them, because there is no evidence upon their births, and rather it is the birth of polytheism (or captivity).' He said: 'Glory be to Allah! When she comes with her son or her daughter, and does not cease to affirm it, and when he recognizes his brother, and that was in good health from both of them, and they both do not cease to affirm that, they inherit from each other.'",
+          "ur": "میں نے ابو عبداللہ (علیہ السلام) سے الحامل کے بارے میں پوچھا، تو انہوں نے فرمایا: الحامل کیا ہے؟ میں نے کہا: ایک عورت اپنے خاندان سے قیدی لی جاتی ہے، اس کے ساتھ ایک چھوٹا بچہ ہوتا ہے، تو وہ کہتی ہے: یہ میرا بیٹا ہے، اور ایک مرد قیدی لیا جاتا ہے اور اس کا بھائی ملتا ہے، تو وہ کہتا ہے: یہ میرا بھائی ہے، اور ان کے لیے کوئی دلیل نہیں سوائے ان کے ان الفاظ کے۔ انہوں نے فرمایا: پس تم میں سے لوگ ان کے بارے میں کیا کہتے ہیں؟ میں نے کہا: وہ انہیں وارث نہیں بناتے، کیونکہ ان کی پیدائش پر کوئی دلیل نہیں، بلکہ یہ مشرکین کی پیدائش (یا قید) ہے۔ انہوں نے فرمایا: اللہ تعالیٰ کی شان ہے! جب وہ اپنے بیٹے یا بیٹی کے ساتھ آتی ہے اور اسے قائم رکھتی ہے، اور جب وہ اپنے بھائی کو پہچانتا ہے، اور یہ دونوں کی طرف سے اچھا تھا، اور وہ دونوں اس پر قائم رہتے ہیں، تو وہ ایک دوسرے کے وارث ہوتے ہیں۔",
+          "tr": "Ben, Ebu Abdillah'dan (aleyhisselam) el-hameel (hamile esir veya kardeş) hakkında sordum, o da: 'El-hameel nedir?' dedi. Ben: 'Bir kadın ailesinden esir alınır, yanında küçük çocuğu vardır, o da: 'Bu benim oğlumdur' der; bir adam esir alınır ve kardeşiyle karşılaşır, o da: 'Bu benim kardeşimdir' der; ve onlar için başka bir delil yoktur, sadece sözleri vardır' dedim. O da: 'Sizden halk onlar hakkında ne diyor?' dedi. Ben: 'Onlara miras vermezler, çünkü doğumlarına dair bir delil yoktur, daha çok çok tanrıcılığın (veya esaretin) doğumudur' dedim. O da: 'Allah'a hamdolsun! Kadın oğlunu veya kızını yanında getirir ve bunu sürekli doğrular, adam da kardeşini tanır ve ikisi de sağlıklıysa ve ikisi de bunu sürekli doğrularlarsa, birbirlerine miras verirler' dedi.",
+          "fa": "از ابو عبدالله (علیه السلام) دربارهٔ «الحامل» (زن باردار یا برادر) پرسیدم، پس فرمود: «و الحامل چیست؟» گفتم: «زنی از خانواده‌اش به اسارت گرفته می‌شود و کودک خردسال با اوست، پس می‌گوید: این پسر من است» و مردی به اسارت گرفته می‌شود و برادرش را ملاقات می‌کند، پس می‌گوید: «این برادر من است» و برای آنان دلیل دیگری جز گفتارشان نیست» فرمود: «پس مردم از شما دربارهٔ آنان چه می‌گویند؟» گفتم: «آن‌ها ارث نمی‌برند، زیرا دلیل بر تولدشان وجود ندارد و بلکه تولد (یا اسارت) است» فرمود: «خدا بزرگ است! هرگاه او با پسر یا دخترش بیاید و بر ادعای خود پافشاری کند، و او برادرش را بشناسد و هر دو در سلامت باشند و هر دو بر این امر پافشاری کنند، آن‌ها از یکدیگر ارث می‌برند.»",
+          "id": "Aku bertanya kepada Abu Abdillah (shalatullah ‘alaih) tentang al-hameel (tawanan yang bersama anak atau saudara), maka ia berkata: \"Apa itu al-hameel?\" Aku berkata: \"Seorang wanita ditawan dari keluarganya, bersamanya ada anak kecil, lalu ia berkata: Ini adalah anakku,\" dan seorang pria ditawan lalu bertemu saudaranya, lalu ia berkata: Ini adalah saudaraku,\" dan tidak ada bukti bagi mereka kecuali ucapan mereka.\" Ia berkata: \"Lalu apa kata orang-orang di antara kalian tentang mereka?\" Aku berkata: \"Mereka tidak mewarisi mereka, karena tidak ada bukti atas kelahiran mereka, dan lebih tepatnya itu adalah kelahiran penyembahan berhala (atau tawanan).\" Ia berkata: \"Maha Suci Allah! Ketika ia datang bersama anaknya, baik putra maupun putri, dan tidak berhenti mengukuhkan hal itu, dan ketika ia mengakui saudaranya, dan keduanya dalam keadaan sehat, dan keduanya tidak berhenti mengukuhkan hal itu, maka mereka saling mewarisi.\"",
+          "bn": "আমি আবু আবদিল্লাহ (রহ.) থেকে 'আল-হামিল' (গর্ভবতী বন্দি বা ভাই) সম্পর্কে জিজ্ঞাসা করলাম, তিনি বললেন: 'আল-হামিল কী?' আমি বললাম: 'একজন নারীকে তার পরিবার থেকে বন্দি করা হয়, তার সাথে ছোট একটি শিশু থাকে, তাই সে বলে: এটি আমার পুত্র,' এবং একজন পুরুষকে বন্দি করা হয় এবং সে তার ভাইয়ের সাথে সাক্ষাৎ করে, তাই সে বলে: 'এটি আমার ভাই,' এবং তাদের জন্য কোনো প্রমাণ নেই, তাদের কথার বাইরে। তিনি বললেন: 'তাহলে তোমাদের মধ্যে লোকেরা তাদের সম্পর্কে কী বলেন?' আমি বললাম: 'তারা তাদের উত্তরাধিকারী হয় না, কারণ তাদের জন্মের প্রমাণ নেই, বরং এটি মুশরিকদের জন্ম (বা বন্দি অবস্থা)।' তিনি বললেন: 'আল্লাহর মহিমা! যখন সে তার পুত্র বা কন্যার সাথে আসে এবং এটি নিরন্তর স্বীকার করে, এবং যখন সে তার ভাইকে চিনে নেয়, এবং উভয় পক্ষ থেকে সুস্থ থাকে, এবং তারা উভয়েই এটি নিরন্তর স্বীকার করে, তারা পরস্পর থেকে উত্তরাধিকারী হয়।' ",
+          "es": "Sulté al-Imam Abu Abdillah (que la paz sea con él) acerca de al-hameel (el cautivo con hijo/hermano), por lo que él dijo: «¿Y qué es al-hameel?». Dije: «Es cuando una mujer es tomada cautiva de su familia, y con ella está el niño pequeño, entonces ella dice: «Este es mi hijo», y un hombre es tomado cautivo y se encuentra con su hermano, entonces él dice: «Este es mi hermano», y no hay evidencia para ellos más que sus palabras». Él dijo: «¿Qué dicen entonces las personas entre ustedes respecto a ellos?». Dije: «No les heredan, porque no hay evidencia sobre su nacimiento, y más bien es el nacimiento del politeísmo (o la cautividad)». Él dijo: «¡Gloria a Alá! Cuando ella viene con su hijo o su hija, y no deja de afirmarlo, y cuando él reconoce a su hermano, y eso fue en buena salud por parte de ambos, y ambos no dejan de afirmarlo, entonces heredan el uno del otro».",
+          "fr": "J’ai demandé à Abou Abdillah (Abdillah) Abdillah (que la paix soit sur lui) au sujet d’al-hameel (le captif avec enfant/frère), alors il dit : « Et qu’est-ce qu’al-hameel ? » J’ai dit : « Une femme est prise captive parmi sa famille, avec elle se trouve le petit enfant, alors elle dit : « C’est mon fils », et un homme est pris captif et rencontre son frère, alors il dit : « C’est mon frère », et il n’y a pour eux aucune preuve sauf leurs paroles. » Il dit : « Alors que disent les gens parmi vous à leur sujet ? » J’ai dit : « Ils ne leur héritent pas, car il n’y a pas de preuve concernant leur naissance, et plutôt c’est la naissance du polythéisme (ou la captivité). » Il dit : « Gloire à Allah ! Quand elle vient avec son fils ou sa fille, et ne cesse d’affirmer cela, et quand il reconnaît son frère, et que cela était sain des deux côtés, et qu’ils ne cessent tous deux d’affirmer cela, ils héritent l’un de l’autre. »",
+          "de": "Ich fragte Abu Abdillah (friede sei mit ihm) über al-hameel (der Gefangene mit Kind/Geschwister), da sagte er: »Und was ist al-hameel?« Ich sagte: »Eine Frau wird aus ihrer Familie gefangen genommen, bei ihr ist das kleine Kind, also sagt sie: Das ist mein Sohn,« und ein Mann wird gefangen genommen und trifft seinen Bruder, also sagt er: Das ist mein Bruder,« und es gibt für sie keinen Beweis außer ihren Worten.« Er sagte: »Was sagen also die Leute unter euch darüber?« Ich sagte: »Sie erben sie nicht, weil es keinen Beweis für ihre Geburt gibt, und vielmehr ist es die Geburt des Polytheismus (oder die Gefangenschaft).« Er sagte: »Preis sei Allah! Wenn sie mit ihrem Sohn oder ihrer Tochter kommt und nicht aufhört, es zu bekräftigen, und wenn er seinen Bruder erkennt, und das war bei beiden gesund, und sie beide hören nicht auf, es zu bekräftigen, dann erben sie voneinander.«",
+          "ru": "Я спросил спросил Абу Абдиллаха (да будет доволен им Аллах) об аль-хамиле (пленнице, у которой есть ребенок, или брате), и он сказал: «А что такое аль-хамил?». Я сказал: «Женщину берут в плен из ее семьи, с ней находится маленький ребенок, и она говорит: „Это мой сын“, а мужчину берут в плен, и он встречает своего брата, и говорит: „Это мой брат“, и нет для них никаких доказательств, кроме их слов». Он сказал: «Что же говорят люди среди вас относительно них?». Я сказал: «Они не наследуют друг от друга, потому что нет доказательств их рождения, а скорее это рождение многобожия (или плен)». Он сказал: «Слава Аллаху! Когда она приходит со своим сыном или дочерью и не перестает утверждать это, а он узнает своего брата, и оба они были здоровы, и они оба не перестают утверждать это, то они наследуют друг от друга».",
+          "zh": "我问阿布·阿卜杜拉（愿主喜悦他）关于“哈米勒”（怀孕或被俘的兄弟）的问题，他说：“什么是哈米勒？”我说：“一个女人被俘，带着她的幼子，她说：这是我的儿子；一个男人被俘，遇见他的兄弟，他说：这是我的兄弟；除了他们的话之外，没有其他证据。”他说：“你们中间的人对此怎么说？”我说：“他们不继承他们，因为没有关于他们出生的证据，而是多神教（或被俘）的出生。”他说：“真主至大！当她带着她的儿子或女儿来，并不断确认，当他认出他的兄弟，且两人都健康，且他们都不断确认时，他们互相继承。”"
+        },
+        "word_start": 1,
+        "word_end": 94
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this hadith from *Al-Kafi*, Imam al-Sadiq (AS) refutes the prevailing view that captivity severs kinship ties by establishing 'al-hameel' (assumed relationship) through mutual recognition and continuous affirmation. This ruling emphasizes that practical social reality and mutual acknowledgment suffice for inheritance rights, even in the absence of formal birth certificates, thereby preserving family bonds in times of war. It highlights the Shia jurisprudential principle of prioritizing substantive truth over rigid formalism in matters of lineage and inheritance.",
+        "seo_question": "What is the ruling on inheritance for captives who recognize their family members without formal proof?",
+        "key_terms": {
+          "الْحَمِيل": "The captive (woman or man) separated from their family, specifically one with a child or brother",
+          "وِلَادَةُ الشِّرْكِ": "Birth of captivity/polytheism; referring to the state of being taken captive among polytheists, implying a break in known lineage",
+          "مُقِرَّةً": "Affirming/acknowledging continuously",
+          "صِحَّةٌ": "Good health/sanity",
+          "وَرِثَ": "Inherited"
+        }
+      },
+      "ur": {
+        "summary": "اس حدیث میں امام صادق (ع) نے اس رائج نظریے کی تردید کی کہ اسارت رشتہ داری کو توڑ دیتی ہے، اور باہمی شناخت اور مسلسل تصدیق کے ذریعے 'حَمیل' (فرضی رشتہ) قائم کیا۔ یہ حکم اس بات پر زور دیتا ہے کہ ورثہ کے حقوق کے لیے عملی سماجی حقیقت اور باہمی تسلیم کافی ہے، حتیٰ کہ سرکاری پیدائش کے سرٹیفکیٹ کی عدم موجودگی میں بھی، جس سے جنگ کے دوران خاندانی رشتے محفوظ رہتے ہیں۔ یہ شیعہ فقہی اصول کی اہمیت کو اجاگر کرتا ہے کہ نسب اور ورثہ کے معاملات میں سخت رسمی شکل کے مقابلے میں حقیقی سچائی کو ترجیح دی جاتی ہے۔",
+        "seo_question": "وہ قیدی جن کے پاس باہمی شناخت ہو لیکن سرکاری ثبوت نہ ہو، ان کے ورثے کا حکم کیا ہے؟",
+        "key_terms": {
+          "الْحَمِيل": "وہ قیدی (عورت یا مرد) جو اپنے خاندان سے جدا ہو، خاص طور پر جس کا کوئی بچہ یا بھائی ہو",
+          "وِلَادَةُ الشِّرْكِ": "اسارتِ کفر/مشرکین میں پیدائش؛ مشرکین کے درمیان قیدی بننے کی حالت، جس سے معلوم نسب میں خلل کا اظہار ہوتا ہے",
+          "مُقِرَّةً": "مسلسل تصدیق/تسلیم",
+          "صِحَّةٌ": "اچھی صحت/ذہانت",
+          "وَرِثَ": "ورثہ حاصل کیا"
+        }
+      },
+      "tr": {
+        "summary": "Bu *el-Kâfî* hadisinde, İmamü's-Sâdık (AS), esaretin kan bağlarını kopardığı yönündeki yaygın görüşü reddederek, karşılıklı tanım ve sürekli tasdik yoluyla 'el-hamîl' (farazi akrabalık) tesis etmiştir. Bu hüküm, resmi doğum belgesi olmaksızın bile pratik sosyal gerçekliğin ve karşılıklı tanınmanın miras hakkı için yeterli olduğunu vurgulayarak, savaş zamanlarında aile bağlarını korumaktadır. Bu durum, nesep ve miras meselelerinde katı formalizmden ziyade özsel gerçeği önceliklendiren Şii fıkhî prensibini ortaya koymaktadır.",
+        "seo_question": "Resmi delil olmaksızın aile fertlerini tanıyan esirlerin miras hükmü nedir?",
+        "key_terms": {
+          "الْحَمِيل": "Ailesinden ayrılmış esir (kadın veya erkek), özellikle çocuğu veya kardeşi olan",
+          "وِلَادَةُ الشِّرْكِ": "Esaret/doğum; esirlerin putperestler arasında esaret altında bulunma durumu, bilinen nesep bağının kopukluğunu ima eder",
+          "مُقِرَّةً": "Sürekli tasdik eden/itiraf eden",
+          "صِحَّةٌ": "Sağlık/akl-ı selim",
+          "وَرِثَ": "Miras aldı"
+        }
+      },
+      "fa": {
+        "summary": "در این حدیث از الکافی، امام صادق (ع) دیدگاه رایج که اسارت را موجب قطع نسبت می‌داند، با برقراری «حَمیل» (نسبت فرضی) از طریق شناخت متقابل و تأیید مستمر، رد می‌کند. این حکم تأکید دارد که واقعیت اجتماعی عملی و شناخت متقابل برای حقوق ارث کافی است، حتی در غیاب گواهی تولد رسمی، و بدین ترتیب پیوندهای خانوادگی را در زمان جنگ حفظ می‌کند. این حدیث اصل فقهی شیعه را برجسته می‌سازد که در امور نسبی و ارث، حقیقت ماهوی را بر فرمالیسم خشک ترجیح می‌دهد.",
+        "seo_question": "حکم ارث برای اسیرانی که بدون مدرک رسمی، اعضای خانواده خود را می‌شناسند چیست؟",
+        "key_terms": {
+          "الْحَمِيل": "اسیر (زن یا مرد) که از خانواده‌اش جدا شده، به‌ویژه کسی که فرزند یا برادری دارد",
+          "وِلَادَةُ الشِّرْكِ": "زاده اسارت/زاده شرک؛ اشاره به حالتی که اسیر در میان مشرکان گرفته شده، که نشان‌دهنده گسست در نسبی شناخته‌شده است",
+          "مُقِرَّةً": "تأییدکننده/به‌طور مستمر اقرارکننده",
+          "صِحَّةٌ": "سلامت/عقلانیت",
+          "وَرِثَ": "ارث برد"
+        }
+      },
+      "id": {
+        "summary": "Dalam hadis dari *Al-Kafi*, Imam al-Sadiq (AS) membantah pandangan umum bahwa tawanan memutus hubungan kekerabatan dengan menetapkan 'al-hameel' (hubungan yang diasumsikan) melalui pengenalan timbal balik dan pengakuan berkelanjutan. Hukum ini menekankan bahwa realitas sosial praktis dan saling pengakuan cukup untuk hak waris, bahkan tanpa sertifikat kelahiran formal, sehingga menjaga ikatan keluarga di masa perang. Ini menyoroti prinsip jurisprudensi Syiah yang mengutamakan kebenaran substantif daripada formalisme kaku dalam urusan nasab dan waris.",
+        "seo_question": "Apa hukum waris bagi tawanan yang mengenali anggota keluarga mereka tanpa bukti formal?",
+        "key_terms": {
+          "الْحَمِيل": "Tawanan (wanita atau pria) yang terpisah dari keluarganya, khususnya yang memiliki anak atau saudara",
+          "وِلَادَةُ الشِّرْكِ": "Kelahiran tawanan/polytheisme; merujuk pada keadaan diambil sebagai tawanan di antara kaum polytheist, menyiratkan putusnya nasab yang diketahui",
+          "مُقِرَّةً": "Mengakui/mengonfirmasi secara berkelanjutan",
+          "صِحَّةٌ": "Kesehatan yang baik/kesadaran",
+          "وَرِثَ": "Mewarisi"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি হাদিসে ইমাম আস-সাদিق (আ.) বন্দীত্ব রক্তের সম্পর্ক ছিন্ন করে এই প্রচলিত মতকে খণ্ডন করে এবং পারস্পরিক স্বীকৃতি ও নিরন্তর নিশ্চয়তার মাধ্যমে 'আল-হামিল' (ধার্য্য সম্পর্ক) প্রতিষ্ঠা করেন। এই ফতোয়া জোর দেয় যে, আনুষ্ঠানিক জন্ম সনদ না থাকলেও বন্দীত্বের বাস্তবতা এবং পারস্পরিক স্বীকৃতি উত্তরাধিকারের অধিকারের জন্য যথেষ্ট, যা যুদ্ধকালে পরিবারের বন্ধন রক্ষা করে। এটি বংশপরম্পরা ও উত্তরাধিকারের বিষয়ে কঠোর আনুষ্ঠানিকতার চেয়ে মূল সত্যকে অগ্রাধিকার দেওয়ার শিয়া ফিকহি নীতিটি তুলে ধরে।",
+        "seo_question": "আনুষ্ঠানিক প্রমাণ ছাড়াই পরিবারের সদস্যদের স্বীকার করে নেওয়া বন্দীদের উত্তরাধিকারের ফতোয়া কী?",
+        "key_terms": {
+          "الْحَمِيل": "বন্দী (স্ত্রী বা পুরুষ) যারা পরিবার থেকে বিচ্ছিন্ন, বিশেষত যার সন্তান বা ভাই আছে",
+          "وِلَادَةُ الشِّرْكِ": "বন্দীত্ব/পলিত্বের জন্ম; পলিতদের মধ্যে বন্দী হওয়ার অবস্থা, যা জানা বংশপরম্পরায় বিচ্ছেদ নির্দেশ করে",
+          "مُقِرَّةً": "নিরন্তর স্বীকার/স্বীকৃতি",
+          "صِحَّةٌ": "সুস্থতা/সুবিবেচকতা",
+          "وَرِثَ": "উত্তরাধিকার সূত্রে প্রাপ্ত"
+        }
+      },
+      "es": {
+        "summary": "En este hadiz de *Al-Kafi*, el Imam al-Sadiq (AS) refuta la opinión predominante de que el cautiverio rompe los lazos de parentesco, estableciendo el 'al-hameel' (relación asumida) mediante el reconocimiento mutuo y la afirmación continua. Este dictamen enfatiza que la realidad social práctica y el reconocimiento mutuo son suficientes para los derechos de herencia, incluso en ausencia de certificados de nacimiento formales, preservando así los vínculos familiares en tiempos de guerra. Destaca el principio jurisprudencial chií de priorizar la verdad sustantiva sobre el formalismo rígido en asuntos de linaje e herencia.",
+        "seo_question": "¿Cuál es el dictamen sobre la herencia de los cautivos que reconocen a sus familiares sin prueba formal?",
+        "key_terms": {
+          "الْحَمِيل": "El cautivo (mujer u hombre) separado de su familia, específicamente uno con un hijo o hermano",
+          "وِلَادَةُ الشِّرْكِ": "Nacimiento del cautiverio/politeísmo; se refiere al estado de ser tomado cautivo entre los politeístas, lo que implica una ruptura en el linaje conocido",
+          "مُقِرَّةً": "Afirmando/reconociendo continuamente",
+          "صِحَّةٌ": "Buena salud/sanidad",
+          "وَرِثَ": "Heredó"
+        }
+      },
+      "fr": {
+        "summary": "Dans ce hadith d'*Al-Kafi*, l'Imam al-Sadiq (AS) réfute l'opinion prévalente selon laquelle la captivité rompt les liens de parenté en établissant 'al-hameel' (relation présumée) par la reconnaissance mutuelle et l'affirmation continue. Cette règle souligne que la réalité sociale pratique et la reconnaissance mutuelle suffisent pour les droits d'héritage, même en l'absence de certificats de naissance formels, préservant ainsi les liens familiaux en temps de guerre. Elle met en lumière le principe jurisprudentiel chiite de privilégier la vérité substantielle sur le formalisme rigide en matière de lignée et d'héritage.",
+        "seo_question": "Quelle est la règle concernant l'héritage des captifs qui reconnaissent leurs membres de famille sans preuve formelle ?",
+        "key_terms": {
+          "الْحَمِيل": "Le captif (femme ou homme) séparé de sa famille, spécifiquement celui qui a un enfant ou un frère",
+          "وِلَادَةُ الشِّرْكِ": "Naissance de la captivité/polythéisme ; se référant à l'état d'être pris en captivité parmi les polythéistes, impliquant une rupture dans la lignée connue",
+          "مُقِرَّةً": "Affirmant/reconnaissant continuellement",
+          "صِحَّةٌ": "Bonne santé/sanité",
+          "وَرِثَ": "A hérité"
+        }
+      },
+      "de": {
+        "summary": "In diesem Hadith aus *Al-Kafi* widerlegt Imam al-Sadiq (AS) die vorherrschende Ansicht, dass Gefangenschaft die Verwandtschaftsbande unterbricht, indem er durch gegenseitige Anerkennung und kontinuierliche Bestätigung 'al-hameel' (angenommene Verwandtschaft) begründet. Diese Rechtsregelung betont, dass die praktische soziale Realität und die gegenseitige Anerkennung für die Erbrechte ausreichen, selbst bei Fehlen formeller Geburtsurkunden, wodurch die Familienbande in Kriegszeiten bewahrt werden. Sie hebt das schiitische juristische Prinzip hervor, der substantiellen Wahrheit gegenüber starrem Formalismus bei Fragen der Abstammung und des Erbes Priorität einzuräumen.",
+        "seo_question": "Wie lautet das Urteil über das Erbe für Gefangene, die ihre Familienmitglieder ohne formellen Nachweis erkennen?",
+        "key_terms": {
+          "الْحَمِيل": "Der Gefangene (Frau oder Mann), der von seiner Familie getrennt ist, insbesondere einer mit einem Kind oder Bruder",
+          "وِلَادَةُ الشِّرْكِ": "Geburt der Gefangenschaft/Politeismus; bezieht sich auf den Zustand, unter Polytheisten gefangen genommen zu werden, was einen Bruch der bekannten Abstammung impliziert",
+          "مُقِرَّةً": "Stetig bestätigend/anzuerkennend",
+          "صِحَّةٌ": "Gesundheit/Verstand",
+          "وَرِثَ": "Erbte"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из «аль-Кафи» Имама ас-Садыка (да будет над ним мир) опровергается преобладающее мнение о том, что пленение разрывает родственные связи, путем установления «аль-хамил» (предполагаемого родства) через взаимное признание и непрерывное подтверждение. Это постановление подчеркивает, что практическая социальная реальность и взаимное признание достаточны для прав на наследство, даже при отсутствии официальных свидетельств о рождении, тем самым сохраняя семейные узы в военное время. Оно выделяет шиитский юриспруденциальный принцип приоритета существенной истины над жестким формализмом в вопросах родословной и наследства.",
+        "seo_question": "Каково постановление о наследовании для пленников, которые узнают своих родственников без формального доказательства?",
+        "key_terms": {
+          "الْحَمِيل": "Пленник (мужчина или женщина), разлученный со своей семьей, в частности, имеющий ребенка или брата",
+          "وِلَادَةُ الشِّرْكِ": "Рождение в плену/у многобожников; относится к состоянию нахождения в плену среди многобожников, что подразумевает разрыв известной родословной",
+          "مُقِرَّةً": "Непрерывно подтверждающий/признающий",
+          "صِحَّةٌ": "Здоровье/здравомыслие",
+          "وَرِثَ": "Наследовал"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲》圣训中，伊玛目萨迪格（愿主喜悦之）驳斥了俘虏身份切断亲属关系的流行观点，通过相互承认和持续确认确立了“哈米勒”（ assumed relationship）。这一裁决强调，即使没有正式出生证明，实际的社会现实和相互承认也足以确立继承权，从而在战争时期保持家庭纽带。它突出了什叶派法学原则，即在血统和继承事务中优先重视实质真实而非僵化的形式主义。",
+        "seo_question": "俘虏在缺乏正式证明的情况下承认其家庭成员，其继承裁决是什么？",
+        "key_terms": {
+          "الْحَمِيل": "俘虏（女或男）与家人分离，特指有子女或兄弟者",
+          "وِلَادَةُ الشِّرْكِ": "俘虏出生/多神教出生；指被俘于多神教徒中的状态，意味着已知血统的中断",
+          "مُقِرَّةً": "持续确认/承认",
+          "صِحَّةٌ": "健康/理智",
+          "وَرِثَ": "继承"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:233",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:11",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنِ الْحَمِيلِ فَقَالَ: وَ أَيُّ شَيْءٍ الْحَمِيلُ؟ قُلْتُ: الْمَرْأَةُ تُسْبَى مِنْ أَهْلِهَا مَعَهَا الْوَلَدُ الصَّغِيرُ، فَتَقُولُ: هَذَا ابْنِي، وَ الرَّجُلُ يُسْبَى فَيَلْقَى أَخَاهُ، فَيَقُولُ: هُوَ أَخِي، وَ لَيْسَ لَهُمْ بَيِّنَةٌ إِلَّا قَوْلُهُمْ. قَالَ: فَمَا يَقُولُ فِيهِمُ النَّاسُ عِنْدَكُمْ؟ قُلْتُ: لَا يُوَرِّثُونَهُمْ، لِأَنَّهُ لَمْ يَكُنْ لَهُمْ عَلَى وِلَادَتِهِمْ بَيِّنَةٌ، وَ إِنَّمَا هِيَ وِلَادَةُ الشِّرْكِ. قَالَ: سُبْحَانَ اللَّهِ، إِذَا جَاءَتْ بِابْنِهَا أَوْ ابْنَتِهَا، وَ لَمْ تَزَلْ مُقِرَّةً بِهِ، وَ إِذَا عَرَفَ أَخَاهُ، وَ كَانَ ذَلِكَ فِي صِحَّةٍ مِنْهُمَا، وَ لَمْ يَزَالَا مُقِرَّيْنِ بِذَلِكَ، وَرِثَ بَعْضُهُمْ مِنْ بَعْضٍ.",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنِ الْحَمِيلِ فَقَالَ: وَ أَيُّ شَيْءٍ الْحَمِيلُ؟ قُلْتُ: الْمَرْأَةُ تُسْبَى مِنْ أَهْلِهَا مَعَهَا الْوَلَدُ الصَّغِيرُ، فَتَقُولُ: هَذَا ابْنِي، وَ الرَّجُلُ يُسْبَى فَيَلْقَى أَخَاهُ، فَيَقُولُ: هُوَ أَخِي، وَ لَيْسَ لَهُمْ بَيِّنَةٌ إِلَّا قَوْلُهُمْ. قَالَ: فَمَا يَقُولُ فِيهِمُ النَّاسُ عِنْدَكُمْ؟ قُلْتُ: لَا يُوَرِّثُونَهُمْ، لِأَنَّهُ لَمْ يَكُنْ لَهُمْ عَلَى وِلَادَتِهِمْ بَيِّنَةٌ، وَ إِنَّمَا هِيَ وِلَادَةُ الشِّرْكِ. قَالَ: سُبْحَانَ اللَّهِ، إِذَا جَاءَتْ بِابْنِهَا أَوْ ابْنَتِهَا، وَ لَمْ تَزَلْ مُقِرَّةً بِهِ، وَ إِذَا عَرَفَ أَخَاهُ، وَ كَانَ ذَلِكَ فِي صِحَّةٍ مِنْهُمَا، وَ لَمْ يَزَالَا مُقِرَّيْنِ بِذَلِكَ، وَرِثَ بَعْضُهُمْ مِنْ بَعْضٍ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "مُحَمَّدُ بْنُ إِسْمَاعِيلَ",
+          "name_en": "Muhammad ibn Ismail",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 17
+        },
+        {
+          "name_ar": "الْفَضْلِ بْنِ شَاذَانَ",
+          "name_en": "al-Fadl ibn Shadhan",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 33
+        },
+        {
+          "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+          "name_en": "Ibn Abi Umayr",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 7
+        },
+        {
+          "name_ar": "صَفْوَانَ بْنِ يَحْيَى",
+          "name_en": "Safwan ibn Yahya",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 30
+        },
+        {
+          "name_ar": "عَبْدِ الرَّحْمَنِ بْنِ الْحَجَّاجِ",
+          "name_en": "Abd al-Rahman ibn al-Hajjaj",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 70
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "سُبْحَانَ اللَّهِ",
+        "phrase_en": "Glory be to Allah",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

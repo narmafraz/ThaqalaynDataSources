@@ -1,0 +1,55 @@
+21:53:22 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_attribution_test\logs\20260513T205322Z.log
+21:53:22 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_attribution_test\logs\pipeline.jsonl
+21:53:23 INFO Word dictionary: 609 entries
+21:53:23 INFO Narrator templates: 1074 entries
+21:53:23 INFO Narrator registry: 4544 entries
+21:53:23 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_attribution_test\prompts\system_prompt_17ead77ac9a169b6.txt (system prompt, 10090 chars)
+Pipeline v4 starting: 1 verses, 5 workers, mode=phased, backend=spark, p1=qwen36-fast, p4=qwen36-fast
+21:53:23 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+21:53:23 INFO P1-GEN al-tawhid_2_1_5 (61 words, phased, spark/qwen36-fast)...
+21:53:38 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:38 INFO P2-ENRICH al-tawhid_2_1_5...
+21:53:38 INFO P4-TRANSLATE al-tawhid_2_1_5...
+21:53:53 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:53 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:53 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:55 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:57 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:58 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:58 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:58 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:53:58 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:00 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:00 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:00 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:00 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:00 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:02 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:02 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:02 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:02 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:03 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:04 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:05 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:05 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:06 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:06 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:06 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:07 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:07 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:08 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:08 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:09 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:54:09 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_attribution_test\responses\al-tawhid_2_1_5.json
+21:54:09 INFO OK al-tawhid_2_1_5 [phased, $0.0000, 704 tok]
+
+============================================================
+Pipeline Complete (0.8 min)
+  Total: 1 processed, 0 skipped
+  Pass: 1 | Fixed: 0 | Errors: 0
+  Cost: $0.00 (avg $0.0000/verse)
+  Tokens: In: 10,617 | Out: 3,515
+============================================================
+21:54:09 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+21:54:09 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_attribution_test\sessions\20260513T205322Z.json
+21:54:09 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_attribution_test\logs\20260513T205322Z.log

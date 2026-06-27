@@ -1,0 +1,272 @@
+{
+  "verse_path": "/books/al-kafi:2:1:63:10",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 14 en words vs 1 ar words (ratio=14.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "theology"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "poverty_wealth",
+      "patience",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "From him, from Ibn Fazzal, from Ibn Bukayr, from Hamza ibn Humran, who said:",
+          "ur": "وہ سے، ابن فضال سے، ابن بکیر سے، حمزہ بن حمران سے، انہوں نے کہا:",
+          "tr": "Onunla, İbn Fazzal'dan, İbn Bükayr'dan, Hamza b. Humran'dan; o da şöyle dedi:",
+          "fa": "عَنْهُ عَنِ ابْنِ فَضَّالٍ عَنِ ابْنِ بُكَيْرٍ عَنْ حَمْزَةَ بْنِ حُمْرَانَ قَالَ",
+          "id": "Dari beliau, dari Ibn Fazzal, dari Ibn Fazzal, dari Ibn Bukayr, dari Hamza ibn Humran, yang berkata:",
+          "bn": "তিনি হতে, ইবনে ফজ্জাল হতে, ইবনে বুকাইর হতে, হামযা ইবনে হুমরান হতে, যিনি বলেছেন:",
+          "es": "De él, de Ibn Fazzal, de Ibn Bukayr, de Hamza ibn Humran, quien dijo:",
+          "fr": "De lui, d'Ibn Fazzal, d'Ibn Bukayr, de Hamza ibn Humran, qui a dit :",
+          "de": "Von ihm, von Ibn Fazzal, von Ibn Bukayr, von Hamza ibnir, von Hamza ibn Humran, der sagte:",
+          "ru": "От него, от Ибн Фазля, от Ибн Букейра, от Хамзы ибн Хумрана, который сказал:",
+          "zh": "从他，从伊本·法扎勒从伊本·布凯尔从哈姆扎·本·胡姆兰传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "شَكَا رَجُلٌ إِلَى أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ يَطْلُبُ فَيُصِيبُ وَلَا يَقْنَعُ، وَتُنَازِعُهُ نَفْسُهُ إِلَى مَا هُوَ أَكْثَرُ مِنْهُ، وَقَالَ: عَلِّمْنِي شَيْئًا أَنْتَفِعُ بِهِ، فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ): إِنْ كَانَ مَا يَكْفِيكَ يُغْنِيكَ، فَأَدْنَى مَا فِيهَا يُغْنِيكَ، وَإِنْ كَانَ مَا يَكْفِيكَ لَا يُغْنِيكَ، فَكُلُّ مَا فِيهَا لَا يُغْنِيكَ.",
+        "translations": {
+          "en": "A man complained to Abu Abdillah (peace be upon him) that he seeks [wealth/worldly goods] and attains, but is not content, and his soul contends with him for more than what he has. He said: 'Teach me something by which I may benefit [and be content].' So Abu Abdillah (peace be upon him) said: 'If what suffices you enriches you, then the least of what is in it [the world] enriches you; and if what suffices you does not enrich you, then all that is in it [the world] will not enrich you.'",
+          "ur": "ایک شخص نے ابو عبداللہ (علیہ السلام) سے شکایت کی کہ وہ مال دنیا کی تلاش کرتا ہے اور حاصل بھی کر لیتا ہے لیکن مطمئن نہیں ہوتا، اور اس کی نفس اسے اس سے زیادہ کی طلب میں لگا رہتا ہے۔ اس نے کہا: مجھے کوئی ایسی بات سکھاؤ جس سے میں فائدہ اٹھا سکوں (اور قناعت کر سکوں)۔ تو ابو عبداللہ (علیہ السلام) نے فرمایا: اگر جو چیز تمہیں کافی ہے وہ تمہیں غنی کر دیتی ہے، تو اس میں سے سب سے کم چیز بھی تمہیں غنی کر دے گی؛ اور اگر جو چیز تمہیں کافی ہے وہ تمہیں غنی نہ کرے، تو پھر اس کی ساری چیزیں تمہیں غنی نہ کر سکیں گی۔",
+          "tr": "Bir adam, Ebu Abdillah'a (aleyhisselam) maldan dünya malından istiyor, elde ediyor ama doymuyor, nefsi de kendisine sahip olduğundan fazlasını talep ediyor diye şikayet etti. O da: 'Bana faydamı dokunacak bir şey öğret,' dedi. Bunun üzerine Ebu Abdillah (aleyhisselam) şöyle buyurdu: 'Sana yeten şey seni zenginleştiriyorsa, onun en azı seni zenginleştirir; sana yeten şey seni zenginleştirmiyorsa, onda olan her şey seni zenginleştiremez.'",
+          "fa": "مردی به ابوعبدالله (علیه السلام) شکایت کرد که ثروت [یا مال دنیا] می‌جوید و به دست می‌آورد، اما قانع نمی‌شود و نفسش او را به سوی بیشتر از آنچه دارد وادار می‌کند. گفت: «چیزی به من بیاموز تا به آن سود ببرم [و قانع شوم].» پس ابوعبدالله (علیه السلام) فرمود: «اگر آنچه تو را بسنده می‌دارد، تو را غنی کند، پس اندکی از آنچه در آن [دنیا] است، تو را غنی می‌سازد؛ و اگر آنچه تو را بسنده می‌دارد، تو را غنی نکند، پس همه آنچه در آن [دنیا] است، تو را غنی نخواهد ساخت.»",
+          "id": "Seorang laki-laki mengeluh kepada Abu Abdillah (alamah) bahwa ia mencari [kekayaan/barang duniawi] dan mendapatkannya, tetapi tidak merasa puas, dan jiwanya terus bersaing dengannya untuk mendapatkan lebih dari yang ia miliki. Ia berkata: 'Ajarkanlah kepadaku sesuatu yang dapat memberiku manfaat [dan membuatku puas].' Maka Abu Abdillah (alamah) berkata: 'Jika apa yang mencukupimu dapat membuatmu kaya, maka sedikit dari apa yang ada di dalamnya [dunia] akan membuatmu kaya; dan jika apa yang mencukupimu tidak membuatmu kaya, maka semua yang ada di dalamnya [dunia] tidak akan membuatmu kaya.'",
+          "bn": "আবু আবদিল্লাহর নিকট এক ব্যক্তি অভিযোগ করলেন যে, সে ধনসম্পদ অর্জন করে কিন্তু সন্তুষ্ট হয় না, এবং তার নফস তাকে তার অর্জিত সম্পদের চেয়ে বেশি চায়। সে বলল, 'আমাকে এমন কিছু শিখান যাতে আমি উপকৃত হই (এবং সন্তুষ্ট হই)।' তাহলে আবু আবদিল্লাহ (তাঁর উপর শান্তি বর্ষিত হোক) বললেন, 'যদি তোমার জন্য যথেষ্ট হওয়া তোমাকে সমৃদ্ধ করে, তবে এর মধ্যে যা আছে তার ন্যূনতম অংশও তোমাকে সমৃদ্ধ করবে; আর যদি যথেষ্ট হওয়া তোমাকে সমৃদ্ধ না করে, তবে এর মধ্যে যা কিছু আছে তা তোমাকে সমৃদ্ধ করবে না।'",
+          "es": "Se",
+          "fr": "Un homme se plaignit à Abou Abdillah (que la paix soit sur lui) en disant : « Je cherche [la richesse/les biens mondains] et j'obtiens, mais je ne suis pas satisfait, et mon âme me dispute pour plus que ce que j'ai. » Il dit : « Enseigne-moi quelque chose par laquelle je pourrai en bénéficier [et être satisfait]. » Alors Abou Abdillah (que la paix soit sur lui) dit : « Si ce qui te suffit t'enrichit, alors le moindre de ce qui est en elle [le monde] t'enrichit ; et si ce qui te suffit ne t'enrichit pas, alors tout ce qui est en elle [le monde] ne t'enrichira pas. »",
+          "de": "Ein Mann klagte bei Abu Abdillah (friede sei mit ihm), dass er [Reichtum/die irdischen Güter] sucht und erlangt, aber nicht zufrieden ist, und seine Seele streitet mit ihm um mehr, als er besitzt. Er sagte: 'Lehre mich etwas, wodurch ich Nutzen ziehen [und zufrieden sein] kann.' Da sagte Abu Abdillah (friede sei mit ihm): 'Wenn das, was dir genügt, dich bereichert, dann wird dich das Geringste, was darin [in der Welt] ist, bereichern; und wenn das, was dir genügt, dich nicht bereichert, dann wird dich alles, was darin [in der Welt] ist, nicht bereichen.'",
+          "ru": "Мужил к Абу Абдиллаху (да будет мир с ним) человек, который пожаловался, что он стремится к богатству (миру сему) и достигает его, но не удовлетворяется, и его душа борется с ним за то, чтобы получить больше, чем у него есть. Он сказал: «Научи меня чему-нибудь, что принесёт мне пользу (и удовлетворение)». Тогда Абу Абдиллах (да будет мир с ним) сказал: «Если то, что достаточно для тебя, обогащает тебя, то даже малое из того, что есть в этом мире, обогатит тебя; а если то, что достаточно для тебя, не обогащает тебя, то и всё, что есть в этом мире, не обогатит тебя».",
+          "zh": "一人向阿布杜尔·阿卜杜拉（愿主喜悦之）抱怨说，他追求财富或世俗之物并已获得，却仍不满足，其灵魂不断怂恿他追求更多。他说：\"教我一些能使我受益（并知足）的事情。\"于是阿布·阿卜杜拉（愿主喜悦之）说：\"若足以使你知足的事物能令你富足，那么世间最微薄的东西也足以令你富足；若足以使你知足的事物不能令你富足，那么世间所有的一切也不能令你富足。\""
+        },
+        "word_start": 1,
+        "word_end": 56
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from *Al-Kafi*, Imam al-Sadiq (peace be upon him) diagnoses the root of insatiability not in the scarcity of resources, but in the deficiency of the soul's capacity to appreciate them. This aligns with the Shia scholarly distinction between *qana'ah* (contentment) as a spiritual state and mere sufficiency, emphasizing that true wealth is a quality of the heart rather than a quantity of assets. The Imam’s concise logic serves as a practical remedy for the *nafs* (ego), teaching that if the inner self is not enriched by what is sufficient, accumulating more will only increase the burden of desire.",
+        "seo_question": "How does Islam define true contentment and spiritual enrichment regarding wealth?",
+        "key_terms": {
+          "يَطْلُبُ": "he seeks [worldly goods]",
+          "يُقْنَعُ": "he is content/satisfied",
+          "تُنَازِعُهُ نَفْسُهُ": "his soul contends with him [desires more]",
+          "يَكْفِيكَ": "what suffices you",
+          "يُغْنِيكَ": "enriches you [spiritually]"
+        }
+      },
+      "ur": {
+        "summary": "الکافی کی اس روایت میں امام صادق (علیہ السلام) بے چینی کی جڑ کو وسائل کی کمی میں نہیں بلکہ روح کی انہیں قدر کرنے کی صلاحیت کی کمی میں دیکھتے ہیں۔ یہ شیعہ علما کے درمیان قناعت (ایک روحانی حالت) اور محض کافی ہونے کے درمیان فرق سے ہم آہنگ ہے، جس پر زور دیا جاتا ہے کہ اصل دولت اثاثوں کی مقدار نہیں بلکہ دل کی کیفیت ہے۔ امام کا مختصر منطق نفس (ego) کے لیے ایک عملی علاج ہے، جو سکھاتا ہے کہ اگر کافی چیزوں سے اندرونی خود غنی نہ ہو تو مزید جمع کرنے سے خواہش کا بوجھ صرف بڑھ جائے گا۔",
+        "seo_question": "اسلام دولت کے حوالے سے حقیقی قناعت اور روحانی غنیمت کو کیسے تعریف کرتا ہے؟",
+        "key_terms": {
+          "يَطْلُبُ": "وہ دنیاوی مال کی تلاش کرتا ہے",
+          "يُقْنَعُ": "وہ قانع/مطمئن ہوتا ہے",
+          "تُنَازِعُهُ نَفْسُهُ": "اس کی روح اس سے مقابلہ کرتی ہے [مزید چاہتا ہے]",
+          "يَكْفِيكَ": "جو تمہیں کافی ہے",
+          "يُغْنِيكَ": "تمہیں روحانی طور پر غنی کرتا ہے"
+        }
+      },
+      "tr": {
+        "summary": "Bu *el-Kafi*’Kafi*’den gelen rivayette, İmamü’l-Sadık (aleyhisselam) doymazlığın kökünü kaynakların kıtlığında değil, ruhun onları takdir etme kapasitesindeki eksiklikte görür. Bu durum, *kanâat*ı (doymazlık/doygunluk) manevi bir hal olarak ve basit bir yeterlilikten ayıran Şii alimler arasındaki ayrımı yansıtır; gerçek zenginliğin varlık miktarı değil, kalbin bir niteliği olduğunu vurgular. İmam’ın özlü mantığı, *nefs* (ego) için pratik bir çare sunar: Yeterli olanla içsel benlik zenginleşmezse, daha fazla biriktirmek sadece arzu yükünü artırır.",
+        "seo_question": "İslam'da zenginlik açısından gerçek doymazlık ve manevi zenginlik nasıl tanımlanır?",
+        "key_terms": {
+          "يَطْلُبُ": "dünya malını arar",
+          "يُقْنَعُ": "doymaz/doyar",
+          "تُنَازِعُهُ نَفْسُهُ": "nefsî onu kavgaya çeker/daha fazlasını diler",
+          "يَكْفِيكَ": "sana yeten şey",
+          "يُغْنِيكَ": "seni manen zenginleştirir"
+        }
+      },
+      "fa": {
+        "summary": "در این روایت از الکافی، امام صادق (علیه السلام) ریشه بی‌قراری را نه در کمبود منابع، بلکه در نقص ظرفیت روح برای قدردانی از آن‌ها تشخیص می‌دهد. این دیدگاه با تمایز علمای شیعه میان قناعت به عنوان یک حالت معنوی و رضایت مادی همسو است و تأکید می‌کند که ثروت واقعی کیفیت قلب است نه کمیت دارایی‌ها. منطق مختصر امام به عنوان درمانی عملی برای نفس، آموزش می‌دهد که اگر درون انسان با آنچه کافی است غنی نشود، انباشتن بیشتر تنها بار هوس را افزایش می‌دهد.",
+        "seo_question": "اسلام رضایت واقعی و غنای معنوی نسبت به ثروت را چگونه تعریف می‌کند؟",
+        "key_terms": {
+          "يَطْلُبُ": "می‌جوید",
+          "يُقْنَعُ": "قانع می‌شود",
+          "تُنَازِعُهُ نَفْسُهُ": "نفسش با او مجادله می‌کند",
+          "يَكْفِيكَ": "کافی‌ات",
+          "يُغْنِيكَ": "غنیمت می‌شوی"
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari *Al-Kafi*, Imam al-Sadiq (alamah) mendiagnosis akar ketidakpuasan bukan pada kelangkaan sumber daya, melainkan pada kekurangan kapasitas jiwa untuk menghargainya. Hal ini sejalan dengan pembedaan ulama Syiah antara *qana'ah* (kepuasan) sebagai keadaan spiritual dan kecukupan semata, yang menekankan bahwa kekayaan sejati adalah kualitas hati, bukan kuantitas aset. Logika singkat Imam berfungsi sebagai obat praktis bagi *nafs* (ego), mengajarkan bahwa jika diri batin tidak diperkaya oleh apa yang cukup, mengakumulasi lebih banyak hanya akan menambah beban keinginan.",
+        "seo_question": "Bagaimana Islam mendefinisikan kepuasan sejati dan kekayaan spiritual terkait harta?",
+        "key_terms": {
+          "يَطْلُبُ": "ia mencari",
+          "يُقْنَعُ": "ia puas/terpuaskan",
+          "تُنَازِعُهُ نَفْسُهُ": "jiwanya berselisih dengannya",
+          "يَكْفِيكَ": "yang mencukupimu",
+          "يُغْنِيكَ": "memperkaya kamu"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি থেকে বর্ণিত এই হাদিসে, ইমাম আস-সাদিق (আ.) অসন্তুষ্টির মূল কারণ সম্পদের অভাব নয়, বরং তা মূলত আত্মার সেই সম্পদ উপলব্ধি করার ক্ষমতার ঘাটতিতে নিহিত। এটি শিয়া আলেমদের মধ্যে *কানাআহ* (সন্তুষ্টি) কে একটি আধ্যাত্মিক অবস্থা এবং কেবল পর্যাপ্ততার মধ্যে সীমাবদ্ধ রাখার পার্থক্যের সাথে সামঞ্জস্যপূর্ণ, যেখানে সত্যিকারের ধনী হওয়া সম্পদের পরিমাণ নয়, বরং হৃদয়ের একটি গুণাবলী। ইমামের সংক্ষিপ্ত যুক্তি *নফস* (আত্মা)-এর জন্য একটি ব্যবহারিক সমাধান হিসেবে কাজ করে, যা শেখায় যে যদি পর্যাপ্ত যা আছে তা দিয়ে অন্তর সমৃদ্ধ না হয়, তবে আরও অর্জন করলে শুধুমাত্র ইচ্ছার বোঝা বৃদ্ধি পাবে।",
+        "seo_question": "ইসলামে সম্পদ ও আধ্যাত্মিক সমৃতির প্রেক্ষাপটে সত্যিকারের সন্তুষ্টি কীভাবে সংজ্ঞায়িত করা হয়?",
+        "key_terms": {
+          "يَطْلُبُ": "সে পৃথিবীবিদ্যা/সম্পদ অন্বেষণ করে",
+          "يُقْنَعُ": "সে সন্তুষ্ট/সম্পৃক্ত হয়",
+          "تُنَازِعُهُ نَفْسُهُ": "তার আত্মা তার সাথে প্রতিযোগিতা করে [আরও চায়]",
+          "يَكْفِيكَ": "যা তোমাকে পর্যাপ্ত করে",
+          "يُغْنِيكَ": "আপনাকে সমৃদ্ধ করে [আধ্যাত্মিকভাবে]"
+        }
+      },
+      "es": {
+        "summary": "En esta narración de *Al-Kafi*, el Imam al-Sadiq (que la paz sea con él) diagnostica la raíz de la insatisfacción no en la escasez de recursos, sino en la deficiencia de la capacidad del alma para apreciarlos. Esto se alinea con la distinción erudita chií entre *qana'ah* (contentamiento) como un estado espiritual y la mera suficiencia, enfatizando que la verdadera riqueza es una cualidad del corazón más que una cantidad de activos. La lógica concisa del Imam sirve como un remedio práctico para la *nafs* (ego), enseñando que si el ser interior no se enriquece con lo suficiente, acumular más solo aumentará la carga del deseo.",
+        "seo_question": "¿Cómo define el Islam el verdadero contentamiento y el enriquecimiento espiritual con respecto a la riqueza?",
+        "key_terms": {
+          "يَطْلُبُ": "busca [bienes mundanos]",
+          "يُقْنَعُ": "está contento/satisfecho",
+          "تُنَازِعُهُ نَفْسُهُ": "su alma le disputa [desea más]",
+          "يَكْفِيكَ": "lo que te basta",
+          "يُغْنِيكَ": "te enriquece [espiritualmente]"
+        }
+      },
+      "fr": {
+        "summary": "Dans ce hadith d'*Al-Kafi*, l'Imam al-Sadiq (que la paix soit sur lui) diagnostique la racine de l'insatiabilité non dans la rareté des ressources, mais dans le déficit de la capacité de l'âme à les apprécier. Cela s'aligne sur la distinction savante chiite entre *qana'ah* (satisfaction) en tant qu'état spirituel et la simple suffisance, soulignant que la véritable richesse est une qualité du cœur plutôt qu'une quantité d'actifs. La logique concise de l'Imam sert de remède pratique pour la *nafs* (l'ego), enseignant que si le moi intérieur n'est pas enrichi par ce qui est suffisant, accumuler davantage n'augmentera que le fardeau du désir.",
+        "seo_question": "Comment l'islam définit-il la véritable satisfaction et l'enrichissement spirituel en matière de richesse ?",
+        "key_terms": {
+          "يَطْلُبُ": "il cherche [les biens mondains]",
+          "يُقْنَعُ": "il est satisfait/content",
+          "تُنَازِعُهُ نَفْسُهُ": "son âme lui dispute [désire plus]",
+          "يَكْفِيكَ": "ce qui te suffit",
+          "يُغْنِيكَ": "t'enrichit [spirituellement]"
+        }
+      },
+      "de": {
+        "summary": "In dieser Überlieferung aus *Al-Kafi* diagnostiziert Imam al-Sadiq (Friede sei mit ihm) die Wurzel der Unersättlichkeit nicht in der Knappheit der Ressourcen, sondern im Mangel der Fähigkeit der Seele, diese zu schätzen. Dies entspricht der schiitischen wissenschaftlichen Unterscheidung zwischen *qana'ah* (Zufriedenheit) als einem spirituellen Zustand und bloßer Ausreichendheit, wobei betont wird, dass wahrer Reichtum eine Eigenschaft des Herzens und nicht eine Menge von Vermögenswerten ist. Die prägnante Logik des Imams dient als praktisches Heilmittel für die *nafs* (Ego), da sie lehrt, dass, wenn das innere Selbst nicht durch das Ausreichende bereichert wird, die Anhäufung von Mehr nur die Last des Verlangens erhöht.",
+        "seo_question": "Wie definiert der Islam wahre Zufriedenheit und spirituelle Bereicherung im Hinblick auf Reichtum?",
+        "key_terms": {
+          "يَطْلُبُ": "er sucht [weltliche Güter]",
+          "يُقْنَعُ": "er ist zufrieden/befriedigt",
+          "تُنَازِعُهُ نَفْسُهُ": "seine Seele ringt mit ihm [verlangt nach mehr]",
+          "يَكْفِيكَ": "was dich ausreicht",
+          "يُغْنِيكَ": "bereichert dich [spirituell]"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из «аль-Кафи» имам ас-Садык (да будет мир с ним) определяет корень неудовлетворенности не в нехватке ресурсов, а в недостаточности способности души ценить их. Это согласуется с шиитским научным различием между *кенаатом* (удовлетворенностью) как духовным состоянием и простым достатком, подчеркивая, что истинное богатство — это качество сердца, а не количество активов. Лаконичная логика Имама служит практическим средством для *нафса* (эго), обучая тому, что если внутреннее «я» не обогащено тем, что достаточно, то накопление большего лишь увеличит бремя желаний.",
+        "seo_question": "Как ислам определяет истинную удовлетворенность и духовное обогащение в отношении богатства?",
+        "key_terms": {
+          "يَطْلُبُ": "он ищет [мирские блага]",
+          "يُقْنَعُ": "он доволен/удовлетворен",
+          "تُنَازِعُهُ نَفْسُهُ": "его душа борется с ним [желает большего]",
+          "يَكْفِيكَ": "то, что достаточно тебе",
+          "يُغْنِيكَ": "обогащает тебя [духовно]"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲》的这段圣训中，伊玛目萨迪克（愿主福安之）指出不满足的根源并非资源的匮乏，而是灵魂欣赏它们的能力不足。这与什叶派学者对qana'ah（知足）作为精神境界而非单纯足够之物的区分相一致，强调真正的财富是心灵的品质而非资产的数量。伊玛目简洁的逻辑为nafs（自我）提供了实用的 remedies，教导说如果内心未能因足够之物而丰富，积累更多只会增加欲望的负担。",
+        "seo_question": "伊斯兰教如何定义关于财富的真正知足和精神丰富？",
+        "key_terms": {
+          "يَطْلُبُ": "他寻求[世俗之物]",
+          "يُقْنَعُ": "他知足/满意",
+          "تُنَازِعُهُ نَفْسُهُ": "他的灵魂与他争竞[渴望更多]",
+          "يَكْفِيكَ": "足以满足你的",
+          "يُغْنِيكَ": "丰富你[精神上]"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "17:37",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:53",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "14:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "57:23",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad شَكَا رَجُلٌ إِلَى أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ يَطْلُبُ فَيُصِيبُ وَلَا يَقْنَعُ، وَتُنَازِعُهُ نَفْسُهُ إِلَى مَا هُوَ أَكْثَرُ مِنْهُ، وَقَالَ: عَلِّمْنِي شَيْئًا أَنْتَفِعُ بِهِ، فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ): إِنْ كَانَ مَا يَكْفِيكَ يُغْنِيكَ، فَأَدْنَى مَا فِيهَا يُغْنِيكَ، وَإِنْ كَانَ مَا يَكْفِيكَ لَا يُغْنِيكَ، فَكُلُّ مَا فِيهَا لَا يُغْنِيكَ.",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "شَكَا رَجُلٌ إِلَى أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّهُ يَطْلُبُ فَيُصِيبُ وَلَا يَقْنَعُ، وَتُنَازِعُهُ نَفْسُهُ إِلَى مَا هُوَ أَكْثَرُ مِنْهُ، وَقَالَ: عَلِّمْنِي شَيْئًا أَنْتَفِعُ بِهِ، فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ): إِنْ كَانَ مَا يَكْفِيكَ يُغْنِيكَ، فَأَدْنَى مَا فِيهَا يُغْنِيكَ، وَإِنْ كَانَ مَا يَكْفِيكَ لَا يُغْنِيكَ، فَكُلُّ مَا فِيهَا لَا يُغْنِيكَ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَنْهُ",
+          "name_en": "from him",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 11
+        },
+        {
+          "name_ar": "ابْنِ فَضَّالٍ",
+          "name_en": "Ibn Faddal",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 22
+        },
+        {
+          "name_ar": "ابْنِ بُكَيْرٍ",
+          "name_en": "Ibn Bukayr",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 56
+        },
+        {
+          "name_ar": "حَمْزَةَ بْنِ حُمْرَانَ",
+          "name_en": "Hamza ibn Humran",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 294
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

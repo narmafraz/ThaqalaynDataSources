@@ -1,0 +1,385 @@
+{
+  "verse_path": "/books/al-kafi:5:3:112:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 28 en words vs 1 ar words (ratio=28.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "financial_law",
+      "spousal_rights"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Muhammad ibn Yahya from Ahmad ibn Muhammad and Ali ibn Ibrahim from his father, all from Ibn Mahboub from Jameel ibn Salih from Al-Fudayl ibn Yasar who said:",
+          "ur": "محمد بن یحییٰ نے احمد بن محمد اور علی بن ابراہیم نے اپنے والد سے، سب نے ابن محبوب سے، جمیل بن صالح سے، الفضیل بن یسار سے روایت کی جنہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Ahmed b. Muhammed'den; Ali b. İbrahim ise babasından; hepsi İbn Mahbub'dan; Cemîl b. Salih'ten; el-Fudayl b. Yesar'dan rivayet etmiştir ki, şöyle dedi:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ وَ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ جَمِيعاً عَنِ ابْنِ مَحْبُوبٍ عَنْ جَمِيلِ بْنِ صَالِحٍ عَنِ الْفُضَيْلِ بْنِ يَسَارٍ قَالَ:",
+          "id": "Muhammad ibn Yahya dari Ahmad ibn Muhammad dan Ali ibn Ibrahim dari ayahnya, semuanya dari Ibn Mahboub dari Jameel ibn Salih dari Al-Fudayl ibn Yasar yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা আহমাদ ইবনে মুহাম্মাদ এবং আলী ইবনে ইব্রাহীম তাঁর পিতার নিকট হতে, সকলে ইবনে মাহবুবের নিকট হতে, জামিল ইবনে সালিহের নিকট হতে, আল-ফুদাইল ইবনে ইয়াসারের নিকট হতে বর্ণনা করেন, তিনি বলেন:",
+          "es": "Muhammad ibn Yahya de Ahmad ibn Muhammad y Ali ibn Ibrahim de Ibrahim de su padre, todos de Ibn Mahboub de Jameel ibn Salih de Al-Fudayl ibn Yasar, quien dijo:",
+          "fr": "Muhammad ibn Yahya, Yahya de Ahmad ibn Muhammad et Ali ibn Ibrahim de son père, tous d'Ibn Mahboub de Jameel ibn Salih d'Al-Fudayl ibn Yasar qui a dit :",
+          "de": "Muhammad ibn Yahya von Ahmad ibn Muhammad und Ali ibn Ibrahim von seinem Vater, alle von Ibn Mahboub von Jameel ibn Salih von Al-Fudayl ibn Yasar, der sagte:",
+          "ru": "Мухаммад ибн Яхья от Ахмада ибн Мухаммада и Али ибн Ибрахим от его отца, все от Ибн Махбуба от Джамиля ибн Салиха от аль-Фудайля ибн Ясара, который сказал:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德，阿里·本·易卜拉欣传自其父，均传自伊本·马布乌，传自贾米勒·本·萨利赫，传自法德勒·本·亚萨尔，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عليه السلام ) جُعِلْتُ فِدَاكَ إِنَّ بَعْضَ أَصْحَابِنَا قَدْ رَوَى عَنْكَ أَنَّكَ قُلْتَ إِذَا أَحَلَّ الرَّجُلُ لِأَخِيهِ جَارِيَتَهُ فَهِيَ لَهُ حَلَالٌ فَقَالَ نَعَمْ يَا فُضَيْلُ",
+        "translations": {
+          "en": "I said to Abu Abdullah (peace be upon him), 'May I be sacrificed for you, one of our companions has reported from you that you said: When a man permits his slave girl to his brother, so she is permissible for him.' He said, 'Yes, O Fudayl.'",
+          "ur": "میں نے ابو عبداللہ (علیہ السلام) سے کہا: آپ کی قربان جائیں، ہمارے میں سے ایک راوی نے آپ سے روایت کی ہے کہ آپ نے فرمایا: جب کوئی شخص اپنی غلامی کو اپنے بھائی کے لیے حلال کر دے، تو وہ اس کے لیے حلال ہو جاتی ہے۔ انہوں نے فرمایا: جی ہاں، اے فضیل۔",
+          "tr": "Ben, Ebu Abdullah'a (aleyhisselam'a dedim ki: 'Sana feda olayım, bizden birisi senin şöyle dediğini rivayet etti: Bir adam, kölesini kardeşine helal kıldığında, o köle ona helal olur.' O da dedi ki: 'Evet, ey Fudayl.'",
+          "fa": "گفتم به ابو عبدالله (علیه‌السلام): «برای تو فدا شوم، یکی از یاران ما از تو نقل کرده که فرمودی: وقتی مردی کنیزش را به برادرش حلال کند، پس برای او حلال است.» فرمود: «آری، ای فضیل.»",
+          "id": "Aku berkata kepada Abu Abdullah (semoga Allah memberikan kesejahteraan kepadanya), \"Aku berkorban untukmu, salah seorang sahabat kami telah meriwayatkan darimu bahwa engkau bersabda: Apabila seorang laki-laki memperbolehkan hamba sahaya perempuannya kepada saudaranya, maka ia menjadi halal baginya.\" Ia menjawab, \"Ya, wahai Fudayl.\"",
+          "bn": "আমি আবু আবদুল্লাহর (রহ.) কাছে বললাম, 'আমি আপনার কুরবান হই, আমাদের একজন সাহাবী আপনার নিকট থেকে বর্ণনা করেছেন যে আপনি বলেছেন: যখন একজন ব্যক্তি তার দাসীকে তার ভাইয়ের জন্য হালাল করে দেয়, তাহলে সে তার জন্য হালাল হয়ে যায়।' তিনি বললেন, 'হ্যাঁ, ওয়া ফুদাইল।'",
+          "es": "Dije a Abu Abdullah (que la paz sea con él): \"Que sea yo tu sacrificio, uno de nuestros compañeros ha narrado de ti que dijiste: Cuando un hombre permite a su esclava a su hermano, entonces le es lícita.\" Él dijo: \"Sí, ¡oh Fudayl!\"",
+          "fr": "Dis-je à Abu Abdullah (que la paix soit sur lui) : « Que je sois sacrifié pour toi, l'un de nos compagnons a rapporté de toi qu'il a dit : « Lorsqu'un homme permet à son frère d'avoir sa servante, alors elle lui devient permise. » » Il a dit : « Oui, ô Fudayl. »",
+          "de": "Ich sagte zu Abu Abdullah (Friede sei mit ihm): \"Ich opfere mich für dich, einer unserer Gefährten hat von dir überliefert, dass du gesagt hast: Wenn ein Mann sein Sklavenmädchen seinem Bruder zur Ehe freigibt, so ist sie für ihn erlaubt.\" Er sagte: \"Ja, o Fudayl.\"",
+          "ru": "Я сказал Абу Абдаллаху (да будет мир с ним): «Да буду я жертвой за тебя, один из наших сподвижников передал от тебя, что ты сказал: Когда мужчина разрешает свою рабыню своему брату, то она становится дозволенной для него». Он сказал: «Да, о Фудайл».",
+          "zh": "我对阿布·阿卜杜拉（愿主安他）说：愿以我献祭于您，我们的一位同伴从您那里传述，您说：当一个人允许他的婢女给他的兄弟时，那么她对他就是合法的。他说：是的，法德勒。"
+        },
+        "word_start": 1,
+        "word_end": 31
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ لَهُ فَمَا تَقُولُ فِي رَجُلٍ عِنْدَهُ جَارِيَةٌ لَهُ نَفِيسَةٌ وَ هِيَ بِكْرٌ أَحَلَّ لِأَخِيهِ مَا دُونَ فَرْجِهَا أَ لَهُ أَنْ يَفْتَضَّهَا قَالَ لَا لَيْسَ لَهُ إِلَّا مَا أَحَلَّ لَهُ مِنْهَا وَ لَوْ أَحَلَّ لَهُ قُبْلَةً مِنْهَا لَمْ يَحِلَّ لَهُ مَا سِوَى ذَلِكَ",
+        "translations": {
+          "en": "I said to him, 'So what do you say regarding a man who has a precious slave girl, and she is a virgin? If he permits his brother what is below her private part, is it for him to deflower her?' He said, 'No, he has only what he permitted from her, and if he permitted a kiss from her, it would not be permissible for him what is besides that.'",
+          "ur": "میں نے اس سے بولا، پس آپ کا کیا کہنا ہے اس شخص کے بارے میں جس کے پاس ایک قیمتی غلامی ہو اور وہ بکری ہو؟ اگر وہ اپنے بھائی کو اس کی نجی جگہ سے نیچے کی اجازت دے، تو کیا اس کے لیے اس کی بکری کو بکری کرنا جائز ہے؟ اس نے کہا، نہیں، اس کے پاس صرف وہی ہے جو اس نے اس سے اجازت دی، اور اگر اس نے اس سے ایک بوسہ لینے کی اجازت دی، تو اس کے لیے اس کے علاوہ کی چیز جائز نہیں ہوگی۔",
+          "tr": "Ona dedim ki: 'Öyleyse, değerli bir cariyesi olan ve bakire olan bir adam hakkında ne dersin? Kardeşinin onun özel yerinin altındaki kısmına girmesine izin verirse, o zaman onun bakireliğini almak ona mübah mıdır?' O da dedi ki: 'Hayır, ona mübah kıldığı şeyden başkası ona mübah değildir. Eğer ondan bir öpücüğe izin verirse, onun dışında kalan şey ona mübah olmaz.'",
+          "fa": "گفتم به او: «پس درباره مردی که کنیزی گران‌بها دارد و باکره است، چه می‌گویی؟ اگر اجازه دهد که برادرش به اندام خصوصی او دست یابد، آیا برای او جایز است که باکرگی‌اش را بزداید؟» گفت: «خیر، او تنها آنچه را که از او مجاز شمرده جایز است؛ و اگر بوسیدن را مجاز شمرد، آنچه غیر از آن است برای او جایز نیست.»",
+          "id": "Aku berkata kepadanya, \"Lalu apa pendapatmu tentang seorang pria yang memiliki seorang hamba perempuan berharga, dan dia masih perawan? Jika ia memperbolehkan saudaranya untuk menyentuh bagian bawah kemaluannya, apakah ia diperbolehkan untuk memperawani dia?\" Ia menjawab, \"Tidak, ia hanya memiliki apa yang ia perbolehkan darinya, dan jika ia memperbolehkan ciuman darinya, maka yang selain itu tidak diperbolehkan baginya.\"",
+          "bn": "আমি তাঁকে বললাম, 'আপনি কী বলেন, এমন এক ব্যক্তির বিষয়ে যার কাছে এক কন্যা দাসী আছে, যে কন্যা কুমারী? যদি সে তার ভাইকে তার গোপন অংশের নিচের অংশের জন্য অনুমতি দেয়, তবে কি তার জন্য তা বৈধ যে সে তার কুমারিত্ব নষ্ট করবে?' তিনি বললেন, 'না, তার জন্য কেবলমাত্র তাই বৈধ যা সে তার থেকে অনুমতি দিয়েছে, আর যদি সে তার থেকে একটা চুম্বনের অনুমতি দেয়, তবে তার জন্য তার বাইরের অন্য কিছু বৈধ হবে না।'",
+          "es": "Le dije: «¿Qué opinas sobre un hombre que tiene una esclava valiosa, y ella es virgen? Si permite a su hermano lo que está debajo de su parte privada, ¿le está permitido desflorarla?». Él dijo: «No, solo tiene lo que le permitió de ella, y si le permitió un beso de ella, no le sería permitido lo que esté más allá de eso».",
+          "fr": "Je lui dis : « Que dis-tu à propos d’un homme qui possède une esclave précieuse, vierge ? Si lui est permis ce qui est en dessous de sa partie intime, lui est-il permis de la déflorer ? » Il répondit : « Non, il n’a que ce qu’il lui a permis, et s’il lui a permis un baiser, ce qui est au-delà de cela ne lui serait pas permis. »",
+          "de": "Ich sagte zu ihm: „ihm: „Was sagst du also zu einem Mann, der eine kostbare Sklavin hat, die Jungfrau ist? Wenn er seinem Bruder erlaubt, was unter ihrem Genitalbereich liegt, ist es dann für ihn erlaubt, ihre Jungfräulichkeit zu brechen?“ Er sagte: „Nein, er hat nur das, was er von ihr erlaubt hat, und wenn er einen Kuss von ihr erlaubt hätte, wäre es ihm nicht erlaubt, darüber hinaus etwas anderes zu tun.“",
+          "ru": "Я сказал ему: «Я спросил его: „Что ты скажешь о человеке, у которого есть драгоценная рабыня, и она девственница? Если он разрешит своему брату то, что ниже её места интимных отношений, то разрешено ли ему совокупляться с ней?“ Он сказал: „Нет, ему разрешено лишь то, что он разрешил ей, и если он разрешил поцелуй, то совокупление с ней не будет дозволено ему“.",
+          "zh": "我对他说：‘那么，对于一位拥有珍贵女奴且该女奴是处女的人，如果他允许其兄弟接触她的私处之下，他是否可以与她发生关系？’他说：‘不，他仅享有他所允许的那部分；如果他允许亲吻她，那么除了亲吻之外，其他行为对他而言便是不允许的。’"
+        },
+        "word_start": 31,
+        "word_end": 74
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ أَ رَأَيْتَ إِنْ أَحَلَّ لَهُ مَا دُونَ الْفَرْجِ فَغَلَبَتْهُ الشَّهْوَةُ فَافْتَضَّهَا قَالَ لَا يَنْبَغِي لَهُ ذَلِكَ قُلْتُ فَإِنْ فَعَلَ أَ يَكُونُ زَانِياً قَالَ لَا وَ لَكِنْ يَكُونُ خَائِناً وَ يَغْرَمُ لِصَاحِبِهَا عُشْرَ قِيمَتِهَا إِنْ كَانَتْ بِكْراً وَ إِنْ لَمْ تَكُنْ بِكْراً فَنِصْفَ عُشْرِ قِيمَتِهَا",
+        "translations": {
+          "en": "I said, 'What is your view if he permits her what is below the private part, so lust overcomes him and he deflowers her?' He said, 'That is not befitting for him.' I said, 'If he does so, would he become an adulterer?' He said, 'No, but he would become a betrayer, and he would be fined to her owner a tenth of her price if she was a virgin, and if she was not a virgin, then half of a tenth of her price.'",
+          "ur": "میں نے کہا، اگر وہ اس کے لیے اس چیز کو جائز قرار دے جو شرمگاہ سے نیچے ہے، تو جب شہوت اس پر غالب آ جائے اور وہ اس کی بکتری پھاڑ دے، تو آپ کا کیا خیال ہے؟ اس نے کہا، یہ اس کے لیے مناسب نہیں ہے۔ میں نے کہا، اگر وہ ایسا کرے تو کیا وہ زانی ہو جائے گا؟ اس نے کہا، نہیں، بلکہ وہ خیانت کرنے والا ہو جائے گا، اور اگر وہ بکتری ہو تو وہ اس کے مالک کو اس کی قیمت کا دسواں حصہ جرمانہ دے گا، اور اگر وہ بکتری نہ ہو تو اس کی قیمت کا آدھا دسواں حصہ۔",
+          "tr": "Ben, 'Özel kısmın altındaki yeri ona helal kılarsa, hırs ona galip gelir ve bakireliğini bozarsa, senin görüşün nedir?' dedim. O, 'Bu, ona yakışmaz.' dedi. Ben, 'Eğer böyle yaparsa, zina eden olur mu?' dedim. O, 'Hayır, ama hain olur ve eğer bakire ise fiyatının onda birini sahibine, eğer bakire değilse fiyatının onda birinin yarısını öder.' dedi.",
+          "fa": "گفتم: «اگر او آنچه را زیر فرج است به او جایز بداند، پس شهوت بر او غلبه کند و بکارت او را ببرد، نظر شما چیست؟» گفت: «این برای او شایسته نیست.» گفتم: «اگر چنین کند، آیا زناکار می‌شود؟» گفت: «خیر، بلکه خیانتکار می‌شود و اگر باکره باشد، یک‌دهم قیمت او به صاحبش جزا داده می‌شود، و اگر باکره نباشد، یک‌دهمِ نصفِ قیمت او.»",
+          "id": "Aku berkata, 'Bagaimana pendapatmu jika ia memperbolehkan apa yang di bawah bagian yang tertutup, sehingga syahwat menguasai dirinya dan ia merobek keperawanan wanita itu?' Ia menjawab, 'Itu tidak layak baginya.' Aku berkata, 'Jika ia melakukannya, apakah ia menjadi pezina?' Ia menjawab, 'Tidak, tetapi ia menjadi pengkhianat, dan ia dikenakan denda kepada pemiliknya sebesar sepersepuluh dari harganya jika ia masih perawan, dan jika ia tidak perawan, maka seperdua dari sepersepuluh dari harganya.'",
+          "bn": "আমি বললাম, 'আপনার মতে কী হবে যদি সে তার গোপন অংশের নিচের অংশকে অনুমতি দেয়, তাহলে তার ইচ্ছা জয়ী হয়ে যায় এবং সে তার কুমারিত্ব নষ্ট করে?' তিনি বললেন, 'এটি তার পক্ষে উপযুক্ত নয়।' আমি বললাম, 'যদি সে তা করে, তবে কি সে জারি হয়ে যাবে?' তিনি বললেন, 'না, কিন্তু সে বিশ্বাসঘাতক হবে, এবং যদি সে কুমারী হয়, তবে তার মালিককে তার মূল্যের এক-দশমাংশ অর্থপ্রদান করতে হবে, আর যদি সে কুমারী না হয়, তবে তার মূল্যের এক-দশমাংশের অর্ধেক অর্থপ্রদান করতে হবে।'",
+          "es": "Dije: «¿Cuál es tu opinión si él le permite lo que está por debajo de la parte privada, de modo que el deseo lo domina y le quema la virginidad?». Dijo: «Eso no le corresponde». Dije: «Si lo hace, ¿se convertiría en adúltero?». Dijo: «No, pero se convertiría en un traidor, y se le impondría a su dueño una décima parte de su precio si era virgen, y si no era virgen, entonces la mitad de una décima parte de su precio».",
+          "fr": "J’ai dit : « Quel est ton avis s’il lui permet ce qui est en dessous de la partie privée, de sorte que la luxure l’emporte sur lui et qu’il la déflorise ? » Il a dit : « Cela ne lui convient pas. » J’ai dit : « S’il le fait, deviendra-t-il adultère ? » Il a dit : « Non, mais il deviendra un parjure, et il paiera au propriétaire une dixième partie de son prix si elle est vierge, et si elle n’est pas vierge, alors la moitié d’une dixième partie de son prix. »",
+          "de": "Ich sagte: „Was ist deine Ansicht, wenn er ihr das unterhalb des Geschlechtsteils Erlaubte gestattet, so dass die Begierde ihn überkommt und er ihre Jungfräulichkeit bricht?“ Er sagte: „Das steht ihm nicht an.“ Ich sagte: „Wenn er es tut, wird er dann ein Ehebrecher?“ Er sagte: „Nein, aber er wird ein Treuloser, und er muss ihrem Besitzer ein Zehntel ihres Preises zahlen, wenn sie eine Jungfrau ist, und wenn sie keine Jungfrau ist, dann die Hälfte eines Zehntels ihres Preises.“",
+          "ru": "Я сказал: «Каково твое мнение, если он разрешит ей то, что ниже места омовения, и похоть овладеет им, и он лишит её девственности?» Он сказал: «Это не подобает ему». Я сказал: «Если он поступит так, станет ли он прелюбодеем?» Он сказал: «Нет, но он станет нарушителем договора, и ему будет взыскано с его владельца десятая часть её цены, если она девственница, а если не девственница, то половина десятой части её цены».",
+          "zh": "我说：‘如果他在私处以下与她交合，以致情欲战胜他并破处她，你的看法如何？’他说：‘那不适合他。’我说：‘如果他这样做，他会成为通奸者吗？’他说：‘不，但他会成为背信者，如果她是处女，他需向主人缴纳其价格十分之一的罚金；如果她不是处女，则缴纳其价格十分之一的半额罚金。’"
+        },
+        "word_start": 74,
+        "word_end": 119
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "قَالَ الْحَسَنُ بْنُ مَحْبُوبٍ وَ حَدَّثَنِي رِفَاعَةُ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) مِثْلَهُ إِلَّا أَنَّ رِفَاعَةَ قَالَ الْجَارِيَةُ النَّفِيسَةُ تَكُونُ عِنْدِي",
+        "translations": {
+          "en": "Al-Hasan ibn Mahboub said, 'And Rafa'ah narrated to me from Abu Abdullah (peace be upon him) similar to it, except that Rafa'ah said, 'The precious slave girl happens to be with me.'",
+          "ur": "حسن بن محبوب نے کہا اور رفاعہ نے مجھ سے ابو عبداللہ (علیہ السلام) سے اسی طرح روایت کرتے ہیں سوائے اس کے کہ رفاعہ نے کہا کہ قیمتی غلامی میرے پاس موجود ہے۔",
+          "tr": "Hasan ibn Mahbub dedi ki: \"Rafa'Rafa'a bana Ebu Abdullah'dan (aleyhisselam) benzerini rivayet etti, ancak Rafa'a 'Değerli cariye bende bulunuyor' dedi.",
+          "fa": "حسن بن محبوب گفت: و رفاعة برایم از ابو عبدالله (علیه السلام) مانند آن را روایت کرد، به جز اینکه رفاعة گفت: کنیز گران‌بها نزد من است.",
+          "id": "Al-Hasan ibn Mahboub berkata, 'Dan Rafa'ah meriwayatkan kepadaku dari Abu Abdullah (semoga dia damai) yang serupa dengan itu, kecuali bahwa Rafa'ah berkata, 'Hamba perempuan yang berharga itu berada di sisiku.'",
+          "bn": "আল-হাসান ইবনে মাহবূব বললেন, আর রাফা'হ আমাকে আবু আবদুল্লাহর (আলৈহিস সালাম) নিকট থেকে এ বিষয়ে অনুরূপ বর্ণনা করেছেন, তবে রাফা'হ বলেছেন, 'আমার নিকট এক মূল্যবান দাসী উপস্থিত ছিল।'",
+          "es": "Al-Hasan ibn Mahboub dijo: «Y Rafa‘ah me narró de Abu Abdullah (que la paz sea con él) algo similar, excepto que Rafa‘ah dijo: «La esclava valiosa se encuentra conmigo.»",
+          "fr": "Al-Hasan ibn Mahboub a dit : « Et Rafa'ah m'a rapporté d'après Abu Abdullah (que la paix soit sur lui) quelque chose de similaire, sauf que Rafa'ah a dit : « La jeune esclave précieuse se trouve auprès de moi. »",
+          "de": "Al-Hasan ibn Mahboub sagte: „Und Rafaʿah überlieferte mir von Abu Abdullah (friede sei mit ihm) Ähnliches, außer dass Rafaʿah sagte: „Das wertvolle Sklavenmädchen befindet sich bei mir.“",
+          "ru": "Аль-Хасанас ибн Маъбуб сказал: «Рафаъ передал мне от Абу Абдуллаха (да будет мир с ним) подобное, за исключением того, что Рафаъ сказал: „Драгоценная рабыня находится у меня“.",
+          "zh": "哈桑·伊本·马布乌格说，拉法阿从阿布·阿卜杜拉（愿主安宁之）传述了类似的内容，不同的是拉法阿说：‘那珍贵的婢女正好在我这里。’"
+        },
+        "word_start": 119,
+        "word_end": 143
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi elucidates the principle of specific consent in the permissibility of a master granting his slave girl to another, distinguishing between general permission and explicit allowance of deflowering. It establishes that exceeding the granted scope constitutes a breach of trust (khiyanah) rather than adultery (zina), requiring financial compensation (diya) proportional to the girl's status as a virgin or not. This ruling highlights the Shia juristic emphasis on contractual precision and the distinction between rights of the body and rights of the owner in slave ownership.",
+        "seo_question": "What is the ruling if a man permits his slave girl to his brother but she is deflowered?",
+        "key_terms": {
+          "جَارِيَةٌ": "Slave girl",
+          "نَفِيسَةٌ": "Precious/Valuable",
+          "بِكْرٌ": "Virgin",
+          "فَرْجِهَا": "Her private part",
+          "يَفْتَضَّهَا": "To deflower her",
+          "زَانِياً": "Adulterer",
+          "خَائِناً": "Betrayer",
+          "عُشْرَ قِيمَتِهَا": "A tenth of her price"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی سے خاص رضامندی کے اصول کو واضح کرتی ہے کہ جب ایک مالک اپنی غلامی کو کسی دوسرے کو دیتا ہے، تو عمومی اجازت اور بکارت کھولنے کی صریح اجازت کے درمیان تمیز کی جاتی ہے۔ یہ قائم کرتا ہے کہ دی گئی حدود سے تجاوز اعتماد کی خلاف ورزی (خیانت) ہے نہ کہ زنا، جس کے لیے مالی معاوضہ (دیہ) ضروری ہے جو لڑکی کی بکارت یا غیر بکارت کی حیثیت کے متناسب ہے۔ یہ حکم شیعہ فقہی اہمیت کو معاہداتی درستگی اور غلامی میں جسم کے حقوق اور مالک کے حقوق کے درمیان تمیز پر نمایاں کرتا ہے۔",
+        "seo_question": "اگر ایک شخص اپنی غلامی کو اپنے بھائی کو اجازت دے دے لیکن اس کی بکارت کھل جائے تو حکم کیا ہے؟",
+        "key_terms": {
+          "جَارِيَةٌ": "غلامی",
+          "نَفِيسَةٌ": "قیمت دار",
+          "بِكْرٌ": "بکری",
+          "فَرْجِهَا": "اس کا خاص حصہ",
+          "يَفْتَضَّهَا": "اس کی بکارت کھولنا",
+          "زَانِياً": "زانی",
+          "خَائِناً": "خیانت کرنے والا",
+          "عُشْرَ قِيمَتِهَا": "اس کی قیمت کا دسواں حصہ"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, Kâfî'den alınmış olup, efendinin cariyesini başkasına vermesinin caizliğinde özel rızanın ilkesini açıklar; genel izin ile bakireliğini almanın açık izni arasında ayrım yapar. Verilen kapsamın aşılmasının zina değil, emanete hıyanet (hiyane) sayıldığını ve bunun için bakire olup olmamasına göre değişen maddi tazminat (diye) gerektiğini belirler. Bu hüküm, Şii fıkıh geleneğinin sözleşmelere hassasiyetine ve köle sahipliğinde bedenin hakkı ile sahibin hakkı arasındaki ayrımına vurgu yapar.",
+        "seo_question": "Bir adam cariyesini kardeşine izin verirse ama bakireliği alınırsa hüküm nedir?",
+        "key_terms": {
+          "جَارِيَةٌ": "cariye",
+          "نَفِيسَةٌ": "değerli",
+          "بِكْرٌ": "bakire",
+          "فَرْجِهَا": "özel yeri",
+          "يَفْتَضَّهَا": "bakireliğini almak",
+          "زَانِياً": "zâni",
+          "خَائِناً": "hiyâne eden",
+          "عُشْرَ قِيمَتِهَا": "fiyatının onda biri"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، اصل رضایت خاص را در جایز دانستن اینکه مالک دختر کنیز خود را به دیگری ببخشد، روشن می‌سازد و بین اجازه عمومی و اجازه صریح برای باکره کردن تمایز قائل می‌شود. این حدیث确立 می‌کند که تجاوز از محدوده داده شده، خیانت در امانت است نه زنا، و جبران مالی (دیه) متناسب با وضعیت دختر به عنوان باکره یا غیر باکره را لازم می‌داند. این حکم بر تأکید فقه شیعه بر دقت قراردادی و تمایز بین حقوق بدن و حقوق مالک در مالکیت بر برده تأکید دارد.",
+        "seo_question": "حکم چیست اگر مردی دختر کنیز خود را به برادرش اجازه دهد اما او باکره‌اش را از دست بدهد؟",
+        "key_terms": {
+          "جَارِيَةٌ": "دختر کنیز",
+          "نَفِيسَةٌ": "باارزش",
+          "بِكْرٌ": "باکره",
+          "فَرْجِهَا": "فرج او",
+          "يَفْتَضَّهَا": "باکره کردن او",
+          "زَانِياً": "زناکننده",
+          "خَائِناً": "خیانت‌کننده",
+          "عُشْرَ قِيمَتِهَا": "یک دهم قیمت او"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari al-Kafi ini menjelaskan prinsip persetujuan spesifik dalam kebolehan tuan memberikan hamba perempuannya kepada orang lain, membedakan antara izin umum dan kebolehan eksplisit untuk memvirginkan. Hadis ini menetapkan bahwa melampaui ruang lingkup yang diberikan merupakan pelanggaran kepercayaan (khiyanah) bukan zina, sehingga memerlukan kompensasi finansial (diya) yang sebanding dengan status gadis tersebut sebagai perawan atau tidak. Hukum ini menyoroti penekanan fikih Syiah pada presisi kontrak dan pembedaan antara hak tubuh dan hak pemilik dalam kepemilikan hamba.",
+        "seo_question": "Apa hukumnya jika seorang pria mengizinkan hamba perempuannya kepada saudaranya tetapi gadis itu dimakzulkan?",
+        "key_terms": {
+          "جَارِيَةٌ": "Gadis hamba",
+          "نَفِيسَةٌ": "Berharga/Nilai",
+          "بِكْرٌ": "Perawan",
+          "فَرْجِهَا": "Kemaluannya",
+          "يَفْتَضَّهَا": "Memvirginkannya",
+          "زَانِياً": "Pewaris zina",
+          "خَائِناً": "Pengkhianat",
+          "عُشْرَ قِيمَتِهَا": "Sepers sepuluh dari harganya"
+        }
+      },
+      "bn": {
+        "summary": "এটি আল-কাফি থেকে একটি হাদিস যা একজন মালিকের দ্বারা তার দাসীকে অন্যের কাছে দেওয়ার অনুমোদনের ক্ষেত্রে নির্দিষ্ট সম্মতির নীতিটি ব্যাখ্যা করে, সাধারণ অনুমতি এবং কুমারীত্ব নষ্ট করার স্পষ্ট অনুমতির মধ্যে পার্থক্য করে। এটি প্রতিষ্ঠা করে যে প্রদত্ত সীমা অতিক্রম করা বিবাহ (জিনা) নয়, বরং বিশ্বাসঘাতকতা (খিয়ানাত), যা কন্যার কুমারী বা না হওয়ার অবস্থার উপর ভিত্তি করে আর্থিক ক্ষতিপূরণ (দিয়া) প্রয়োজন। এই ফরমান শিয়া ফিকহের চুক্তির নির্ভুলতা এবং দাসত্বে শরীরের অধিকার ও মালিকের অধিকারের মধ্যে পার্থক্যের উপর জোর দেয়।, ",
+        "seo_question": "যদি একজন পুরুষ তার দাসীকে তার ভাইকে অনুমতি দেন কিন্তু সে কুমারীত্ব হারায় তবে ফরমান কী?",
+        "key_terms": {
+          "جَارِيَةٌ": "দাসী",
+          "نَفِيسَةٌ": "মূল্যবান",
+          "بِكْرٌ": "কুমারী",
+          "فَرْجِهَا": "তার গোপনাঙ্গ",
+          "يَفْتَضَّهَا": "তার কুমারীত্ব নষ্ট করা",
+          "زَانِياً": "বিবাহকারী",
+          "خَائِناً": "বিশ্বাসঘাতক",
+          "عُشْرَ قِيمَتِهَا": "তার মূল্যের এক ভাগ"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi aclara el principio del consentimiento específico en la permisibilidad de que un amo conceda a su esclava a otro, distinguiendo entre permiso general y autorización explícita de la desfloración. Establece que exceder el alcance concedido constituye una violación de la confianza (khiyanah) más que adulterio (zina), requiriendo compensación financiera (diya) proporcional al estatus de la chica como virgen o no. Este dictamen resalta el énfasis jurístico chií en la precisión contractual y la distinción entre derechos del cuerpo y derechos del dueño en la propiedad de esclavos.",
+        "seo_question": "¿Cuál es el dictamen si un hombre permite a su esclava a su hermano pero ella es desflorada?",
+        "key_terms": {
+          "جَارِيَةٌ": "Niña esclava",
+          "نَفِيسَةٌ": "Preciosa/Valiosa",
+          "بِكْرٌ": "Virgen",
+          "فَرْجِهَا": "Su parte privada",
+          "يَفْتَضَّهَا": "Desflorarla",
+          "زَانِياً": "Adúltero",
+          "خَائِناً": "Traicionero",
+          "عُشْرَ قِيمَتِهَا": "Una décima parte de su precio"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'al-Kafi éclaire le principe du consentement spécifique quant à la permission pour un maître d'accorder sa servante à un autre, en distinguant la permission générale de l'autorisation explicite de la défloration. Il établit que dépasser le cadre accordé constitue une rupture de confiance (khiyanah) plutôt que l'adultère (zina), nécessitant une compensation financière (diya) proportionnelle au statut de la fille, ou non, vierge de la jeune fille. Cette décision met en lumière l'accent mis par les jurisconsultes chiites sur la précision contractuelle et la distinction entre les droits du corps et les droits du propriétaire dans la possession des esclaves.",
+        "seo_question": "Quelle est la règle si un homme permet à son frère d'avoir sa servante mais qu'elle est déflorée ?",
+        "key_terms": {
+          "جَارِيَةٌ": "Fille esclave",
+          "نَفِيسَةٌ": "Précieuse/Valuable",
+          "بِكْرٌ": "Vierge",
+          "فَرْجِهَا": "Sa partie intime",
+          "يَفْتَضَّهَا": "La déflorer",
+          "زَانِياً": "Adultère",
+          "خَائِناً": "Parjure/Betrayer",
+          "عُشْرَ قِيمَتِهَا": "Le dixième de son prix"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi erläutert das Prinzip der spezifischen Zustimmung bei der Erlaubnis eines Herrn, sein Sklavenmädchen einem anderen zu überlassen, und unterscheidet zwischen allgemeiner Erlaubnis und expliziter Zulassung der Jungfräulichkeitsverlust. Es stellt fest, dass das Überschreiten des gewährten Umfangs einen Vertrauensbruch (Khiyanah) statt Ehebruch (Zina) darstellt, was eine finanzielle Entschädigung (Diya) erfordert, die proportional zum Status des Mädchens als Jungfrau oder nicht ist. Diese Regelung unterstreicht die schiitisch-juristische Betonung auf vertraglicher Präzision und der Unterscheidung zwischen Rechten des Körpers und Rechten des Eigentümers im Sklavenbesitz.",
+        "seo_question": "Was ist die Rechtsregelung, wenn ein Mann sein Sklavenmädchen seinem Bruder erlaubt, aber sie wird entjungfert?",
+        "key_terms": {
+          "جَارِيَةٌ": "Sklavenmädchen",
+          "نَفِيسَةٌ": "wertvoll",
+          "بِكْرٌ": "Jungfrau",
+          "فَرْجِهَا": "ihr Intimbereich",
+          "يَفْتَضَّهَا": "sie entjungfern",
+          "زَانِياً": "Ehebrecher",
+          "خَائِناً": "Verräter",
+          "عُشْرَ قِيمَتِهَا": "ein Zehntel ihres Preises"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи разъясняет принцип конкретного согласия в дозволенности предоставления хозяином своей рабыни другому, проводя различие между общим разрешением и явным дозволением осквернения девственности. Устанавливается, что выход за пределы предоставленной области является нарушением доверия (хияна), а не прелюбодеянием (зина), что требует финансовой компенсации (дия), пропорциональной статусу девушки — девственницы или нет. Это постановление подчеркивает шиитское акцентирование внимания на точности контракта и различии между правами на тело и правами владельца в рабовладении.",
+        "seo_question": "Каково постановление, если мужчина разрешает своей рабыне своему брату, но она теряет девственность?",
+        "key_terms": {
+          "جَارِيَةٌ": "рабыня",
+          "نَفِيسَةٌ": "драгоценная/ценная",
+          "بِكْرٌ": "девственница",
+          "فَرْجِهَا": "её половой орган",
+          "يَفْتَضَّهَا": "осквернить её",
+          "زَانِياً": "прелюбодей",
+          "خَائِناً": "предатель",
+          "عُشْرَ قِيمَتِهَا": "десятая часть её стоимости"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《卡菲》的圣训阐明了主人将婢女许配给他人时具体同意的原则，区分了一般许可与明确允许破贞。它确立超出授予范围的行为构成背信（khiyanah）而非通奸（zina），需根据女孩是否为处女进行相应比例的经济赔偿（diya）。这一裁决凸显了什叶派法学对合同精确性的重视，以及在奴隶所有权中身体权利与主人权利的区分。",
+        "seo_question": "如果一名男子允许其兄弟与他的婢女发生关系，但该婢女被破贞，裁决是什么？",
+        "key_terms": {
+          "جَارِيَةٌ": "婢女",
+          "نَفِيسَةٌ": "珍贵/有价值",
+          "بِكْرٌ": "处女",
+          "فَرْجِهَا": "私处",
+          "يَفْتَضَّهَا": "破贞",
+          "زَانِياً": "通奸者",
+          "خَائِناً": "背信者",
+          "عُشْرَ قِيمَتِهَا": "其价值的十分之一"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:229",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "23:5",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عليه السلام ) جُعِلْتُ فِدَاكَ إِنَّ بَعْضَ أَصْحَابِنَا قَدْ رَوَى عَنْكَ أَنَّكَ قُلْتَ إِذَا أَحَلَّ الرَّجُلُ لِأَخِيهِ جَارِيَتَهُ فَهِيَ لَهُ حَلَالٌ فَقَالَ نَعَمْ يَا فُضَيْلُ قُلْتُ لَهُ فَمَا تَقُولُ فِي رَجُلٍ عِنْدَهُ جَارِيَةٌ لَهُ نَفِيسَةٌ وَ هِيَ بِكْرٌ أَحَلَّ لِأَخِيهِ مَا دُونَ فَرْجِهَا أَ لَهُ أَنْ يَفْتَضَّهَا قَالَ لَا لَيْسَ لَهُ إِلَّا مَا أَحَلَّ لَهُ مِنْهَا وَ لَوْ أَحَلَّ لَهُ قُبْلَةً مِنْهَا لَمْ يَحِلَّ لَهُ مَا سِوَى ذَلِكَ قُلْتُ أَ رَأَيْتَ إِنْ أَحَلَّ لَهُ مَا دُونَ الْفَرْجِ فَغَلَبَتْهُ الشَّهْوَةُ فَافْتَضَّهَا قَالَ لَا يَنْبَغِي لَهُ ذَلِكَ قُلْتُ فَإِنْ فَعَلَ أَ يَكُونُ زَانِياً قَالَ لَا وَ لَكِنْ يَكُونُ خَائِناً وَ يَغْرَمُ لِصَاحِبِهَا عُشْرَ قِيمَتِهَا إِنْ كَانَتْ بِكْراً وَ إِنْ لَمْ تَكُنْ بِكْراً فَنِصْفَ عُشْرِ قِيمَتِهَا قَالَ الْحَسَنُ بْنُ مَحْبُوبٍ وَ حَدَّثَنِي رِفَاعَةُ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) مِثْلَهُ إِلَّا أَنَّ رِفَاعَةَ قَالَ الْجَارِيَةُ النَّفِيسَةُ تَكُونُ عِنْدِي",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عليه السلام ) جُعِلْتُ فِدَاكَ إِنَّ بَعْضَ أَصْحَابِنَا قَدْ رَوَى عَنْكَ أَنَّكَ قُلْتَ إِذَا أَحَلَّ الرَّجُلُ لِأَخِيهِ جَارِيَتَهُ فَهِيَ لَهُ حَلَالٌ فَقَالَ نَعَمْ يَا فُضَيْلُ قُلْتُ لَهُ فَمَا تَقُولُ فِي رَجُلٍ عِنْدَهُ جَارِيَةٌ لَهُ نَفِيسَةٌ وَ هِيَ بِكْرٌ أَحَلَّ لِأَخِيهِ مَا دُونَ فَرْجِهَا أَ لَهُ أَنْ يَفْتَضَّهَا قَالَ لَا لَيْسَ لَهُ إِلَّا مَا أَحَلَّ لَهُ مِنْهَا وَ لَوْ أَحَلَّ لَهُ قُبْلَةً مِنْهَا لَمْ يَحِلَّ لَهُ مَا سِوَى ذَلِكَ قُلْتُ أَ رَأَيْتَ إِنْ أَحَلَّ لَهُ مَا دُونَ الْفَرْجِ فَغَلَبَتْهُ الشَّهْوَةُ فَافْتَضَّهَا قَالَ لَا يَنْبَغِي لَهُ ذَلِكَ قُلْتُ فَإِنْ فَعَلَ أَ يَكُونُ زَانِياً قَالَ لَا وَ لَكِنْ يَكُونُ خَائِناً وَ يَغْرَمُ لِصَاحِبِهَا عُشْرَ قِيمَتِهَا إِنْ كَانَتْ بِكْراً وَ إِنْ لَمْ تَكُنْ بِكْراً فَنِصْفَ عُشْرِ قِيمَتِهَا قَالَ الْحَسَنُ بْنُ مَحْبُوبٍ وَ حَدَّثَنِي رِفَاعَةُ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) مِثْلَهُ إِلَّا أَنَّ رِفَاعَةَ قَالَ الْجَارِيَةُ النَّفِيسَةُ تَكُونُ عِنْدِي",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "ابْنِ مَحْبُوبٍ",
+          "name_en": "Ibn Mahbub",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 10
+        },
+        {
+          "name_ar": "جَمِيلِ بْنِ صَالِحٍ",
+          "name_en": "Jamil ibn Salih",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 137
+        },
+        {
+          "name_ar": "الْفُضَيْلِ بْنِ يَسَارٍ",
+          "name_en": "al-Fudayl ibn Yasar",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 155
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

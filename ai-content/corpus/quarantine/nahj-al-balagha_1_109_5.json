@@ -1,0 +1,326 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:109:5",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-28",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[1] name_ar has 32 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'أَرْضِكَ; هُمْ أَعْلَمُ خَلْقِكَ بِكَ، وَأَخْوَفُهُمْ لَكَ، '"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "worship",
+      "quran_commentary"
+    ],
+    "content_type": "supplication",
+    "topics": [
+      "divine_attributes",
+      "prayer_rulings",
+      "quran_interpretation_method"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَمِنْهَا فِي الْمَلَائِكَةِ الْكِرَامِ:",
+        "translations": {
+          "en": "[A part of the same sermon about the Angels:]",
+          "ur": "[اسی خطبے کا ایک حصہ فرشتوں کے بارے میں:]",
+          "tr": "[Aynı hutbenin melekler hakkında olan kısmından:]",
+          "fa": "[A part of the same sermon about the Angels:] ",
+          "id": "[Sebagian dari khutbah yang sama tentang para Malaikat:]",
+          "bn": "[এই খুতবার একটি অংশ ফেরেশতাগণ সম্পর্কে:]",
+          "es": "[Una parte del mismo sermón sobre los Ángeles:]",
+          "fr": "[Parmi les passages du même sermon concernant les Anges :]",
+          "de": "[Ein Teil derselben Predigt über die Engel:]",
+          "ru": "Из той же проповеди об ангелах:",
+          "zh": "【其中关于尊贵天使的部分：】"
+        },
+        "word_start": 0,
+        "word_end": 4
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مِنْ مَلَائِكَةٍ أَسْكَنْتَهُمْ سَمَاوَاتِكَ، وَرَفَعْتَهُمْ عَنْ أَرْضِكَ؛ هُمْ أَعْلَمُ خَلْقِكَ بِكَ، وَأَخْوَفُهُمْ لَكَ، وَأَقْرَبُهُمْ مِنْكَ؛",
+        "translations": {
+          "en": "Thou (O Allāh) made angels reside in Thy skies and placed them high above from Thy earth. They have the most knowledge about Thee and Thy whole creation, the most fearing from Thee, and the nearest to Thee.",
+          "ur": "اے اللہ! تو نے فرشتوں کو آسموں میں مقیم کیا اور انہیں زمین سے بلند کر دیا۔ انہیں تیرے اور تیری پوری مخلوق کے بارے میں سب سے زیادہ علم ہے، تیرے سب سے زیادہ ڈرنے والے ہیں، اور تیرے سب سے قریب ہیں۔",
+          "tr": "Ey Allah! Melekleri göklerinde ikame ettin ve onları yeryüzünden üstün kıldın. Onlar, Senin hakkında ve bütün yaratıkların hakkında en çok bilgiye sahip olanlar, Senden en çok korkanlar ve Sana en yakın olanlardır.",
+          "fa": "ای خدا، فرشتگان را در آسمان‌هایت را ساکن کردی و آنان را از زمینت برتر قرار دادی. آنان بیشترین دانش را درباره تو و تمام آفریدگانت دارند، بیشترین ترس از تو را دارند و نزدیک‌ترین به تو هستند.",
+          "id": "Wahai Allāh, Engkau menjadikan para malaikat menetap di langit-Mu dan menempatkan mereka jauh di atas bumi-Mu. Mereka memiliki pengetahuan yang paling mendalam tentang Engkau dan seluruh ciptaan-Mu, paling takut kepada-Mu, dan paling dekat kepada-Mu.",
+          "bn": "হে আল্লাহ! তুমি ফেরেশতাদেরকে তোমার আকাশে বাসস্থান দান করেছ এবং তাদেরকে তোমার পৃথিবীর উপর উচ্চতর স্থানে প্রতিষ্ঠিত করেছ। তারা তোমার সম্পর্কে এবং তোমার সমগ্র সৃষ্টির সম্পর্কে সর্বোচ্চ জ্ঞানী, তোমার ভয়ে সর্বোচ্চ ভীত এবং তোমার নিকটতম।",
+          "es": "Tú (¡Oh Allāh!) hiciste que los ángeles residan en tus cielos y los colocaste muy por encima de tu tierra. Ellos poseen el mayor conocimiento acerca de Ti y de toda tu creación, el mayor temor hacia Ti y son los más cercanos a Ti.",
+          "fr": "Ô Allah, Tu as fait résider les anges dans Tes cieux et les as élevés au-dessus de Ta terre. Ils sont les plus savants à Ton sujet et concernant toute Ta création, les plus craintifs envers Toi, et les plus proches de Toi.",
+          "de": "Du (o Allah) hast die Engel in Deinen Himmeln wohnen zu lassen und sie hoch über Deiner Erde zu erheben. Sie besitzen das meiste Wissen über Dich und Deine gesamte Schöpfung, die größte Furcht vor Dir und sind Dir am nächsten.",
+          "ru": "О Аллах, Ты поселил ангелов на небесах и возвысил их над землей. Они обладают наибольшим знанием о Тебе и о всем Твоем творении, наиболее благоговейны перед Тобой и наиболее близки к Тебе.",
+          "zh": "真主啊，你使天使居于你的天空，并将他们置于你的大地之上。他们对你和你的整个创造拥有最多的知识，最敬畏你，也最亲近你。"
+        },
+        "word_start": 4,
+        "word_end": 19
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَمْ يَسْكُنُوا الْأَصْلَابَ، وَلَمْ يُضَمَّنُوا الْأَرْحَامَ، وَلَمْ يُخْلَقُوا ﴿مِن مَّاءٍ مَّهِينٍ﴾، وَلَمْ يَتَشَعَّبْهُمْ ﴿رَيْبَ الْمَنُونِ﴾;",
+        "translations": {
+          "en": "They never stayed in loins nor were retained in wombs. They were not created “from man water (semen)” (Qur’ān, 32:8; 77:20). They were not dispersed by “vicissitudes of time” (Qur’ān, 52:30).",
+          "ur": "وہ کمرے میں نہیں ٹھہرے اور نہ ہی پیٹھوں میں رکھے گئے۔ وہ \"انسان کے پانی (منی)\" سے پیدا نہیں کیے گئے (قرآن، 32:8؛ 77:20)۔ وہ \"وقت کی تبدیلیوں\" سے بکھرے نہیں (قرآن، 52:30)۔",
+          "tr": "Onlar belde kalmadılar, rahimde tutulmadılar. Onlar \"insanın suyundan (meniden)\" yaratılmadılar (Kâinât Suresi, 8; Mürselât Suresi, 20). Onlar \"zamanın değişimleri\" tarafından dağıtılmadılar (Vâkıa Suresi, 30).",
+          "fa": "آن‌ها در کس‌ها در کمر‌ها (لحظه‌ی‌ خروج‌ از‌ رحم‌) نماندند و در شکم‌ها حفظ نشدند. آن‌ها از «آب‌ مردان‌ (منی)» خلق نشدند (سوره‌ سجده‌، آیه‌ ۸؛ سوره‌ منافقون‌، آیه‌ ‌۲۰). آن‌ها توسط «تغییرات زمان‌» (سوره‌ طور‌، آیه‌ ۳۰) پراکنده نشدند.",
+          "id": "Mereka tidak kekal di dalam tulang sulbi, juga tidak tertahan di dalam rahim. Mereka tidak diciptakan \"dari air mani manusia\" (Al-Qur'ān, 32:8; 77:20). Mereka tidak tersebar oleh \"oleh perubahan zaman\" (Al-Qur'ān, 52:30).",
+          "bn": "তারা কখনো লোঁসে অবস্থান করেনি, না গর্ভে ধারণ করা হয়েছে। তারা 'মানুষের পানি (বীজ)' থেকে সৃষ্টি করা হয়নি (কুরআন, ৩২:৮; ৭৭:২০)। তারা 'সময়ের পরিবর্তনশীলতা' দ্বারা বিক্ষিপ্ত হয়নি (কুরআন, ৫২:৩০)।",
+          "es": "No permanecieron en los lomos en los lomos ni fueron retenidos en los úteros. No fueron creados \"del agua del hombre (semen)\" (Corán, 32:8; 77:20). No fueron dispersados por las \"vicisitudes del tiempo\" (Corán, 52:30).",
+          "fr": "Ils n'ont pas séjourné dans les lombes ni été retenus dans les utérus. Ils n'ont pas été créés « à partir de l'eau de l'homme (sperme) » (Coran, 32:8 ; 77:20). Ils n'ont pas été dispersés par les « vicissitudes du temps » (Coran, 52:30).",
+          "de": "Sie blieben nicht in den Lenden und wurden nicht in den Gebärmüttern zurückgehalten. Sie wurden nicht „aus dem Wasser des Menschen (Samen)“ erschaffen (Qur’ān, 32:8; 77:20). Sie wurden nicht durch „die Wechsel der Zeit“ zerstreut (Qur’ān, 52:30).",
+          "ru": "Они не пребывали в чреслах и не удерживались в утробах. Они не были созданы «из мужской воды (семенной жидкости)» (Коран, 32:8; 77:20). Они не были рассеяны «переменами времени» (Коран, 52:30).",
+          "zh": "他们未曾滞留在精液中，也未曾被保留在子宫里。他们并非由“人的精液”（《古兰经》32:8；77:20）所造。他们也没有被“时间的变迁”（《古兰经》52:30）所分散。"
+        },
+        "word_start": 19,
+        "word_end": 34
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَإِنَّهُمْ عَلَى مَكَانِهِمْ مِنْكَ، وَمَنْزِلَتِهِمْ عِنْدَكَ، وَاسْتِجْمَاعِ أَهْوَائِهِمْ فِيكَ، وَكَثْرَةِ طَاعَتِهِمْ لَكَ، وَقِلَّةِ غَفْلَتِهِمْ عَنْ أَمْرِكَ،",
+        "translations": {
+          "en": "They are on their places (distinct) from Thee and in their positions near Thee. Their desires are concentrated in Thee. Their worship for Thee is much. Their neglect from Thy command is little.",
+          "ur": "وہ تیری جگہوں سے (مختلف) ہیں اور تیری قرب میں ان کی مقامات ہیں۔ ان کی خواہشات تیری طرف مرکوز ہیں۔ تیری عبادت بہت ہے۔ تیری فرمانبرداری سے ان کی غفلت کم ہے۔",
+          "tr": "Onlar, Senden ayrı yerlerde ve Senin huzurunda ayrı konumlardadır. Dilekleri Sana yönelmiştir. Sana yönelik ibadetleri çoktur. Emirlerinden ihmal ettikleri ise azdır.",
+          "fa": "آنان در جایگاه‌های خود (از تو) متمایزند و در مقام‌های خود نزدیک تو هستند. خواسته‌هایشان در تو متمرکز است. عبادتشان برای تو بسیار است. غفلتشان از فرمان تو اندک است.",
+          "id": "Mereka berada di tempat-tempat (yang khusus) dari-Mu dan dalam kedudukan-kedudukan dekat-Mu. Keinginan-keinginan mereka terpusat pada-Mu. Ibadah mereka untuk-Mu sangat banyak. Kelalaian mereka dari perintah-Mu sangat sedikit.",
+          "bn": "তারা তোমার থেকে পৃথক স্থানে এবং তোমার নিকটবর্তী অবস্থানে আছেন। তাদের ইচ্ছা তোমার মধ্যে কেন্দ্রীভূত। তাদের তোমার জন্য উপাসনা অত্যন্ত। তাদের তোমার আদেশ থেকে অবহেলা অল্প।",
+          "es": "Están en sus lugares (distintos) de Ti y en sus posiciones cerca de Ti. Sus deseos están concentrados en Ti. Su adoración por Ti es mucha. Su descuido de Tu mandato es poco.",
+          "fr": "Ils sont à leurs places (distinctes) de Toi et dans leurs positions près de Toi. Leurs désirs sont concentrés en Toi. Leur adoration pour Toi est abondante. Leur négligence de Ton commandement est minime.",
+          "de": "Sie sind an ihren (unterschiedlichen) Orten von Dir und in ihren Positionen nahe bei Dir. Ihre Wünsche sind auf Dich konzentriert. Ihre Anbetung für Dich ist groß. Ihre Vernachlässigung Deines Gebots ist gering.",
+          "ru": "Они находятся на своих местах, отличных от Тебя, и в своих положениях близки к Тебе. Их желания сосредоточены в Тебе. Их поклонение Тебе многочисленно. Их упущение от Твоего повеления незначительно.",
+          "zh": "他们与你截然不同，在你身边占据着尊贵的地位。他们的欲望都集中于你。他们为你所做的崇拜很多。他们忽视你的命令的情况很少。"
+        },
+        "word_start": 34,
+        "word_end": 50
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَوْ عَايَنُوا كُنْهَ مَا خَفِيَ عَلَيْهِمْ مِنْكَ لَحَقَّرُوا أَعْمَالَهُمْ، وَلَزَرَوْا عَلَى أَنْفُسِهِمْ، وَلَعَرَفُوا أَنَّهُمْ لَمْ يَعْبُدُوكَ حَقَّ عِبَادَتِكَ، وَلَمْ يُطِيعُوكَ حَقَّ طَاعَتِكَ.",
+        "translations": {
+          "en": "If they witness what remains hidden about Thee they would regard their deeds as very little they would criticise themselves and would realize that they did not worship Thee according to Thy right for being worshipped and did not obey Thee as Thou hast the right for being obeyed.",
+          "ur": "اگر وہ تمہاری پوشیدہ باتوں کو دیکھ لیتے تو اپنی اعمال کو بہت ہی کم سمجھتے، اور آپس میں ایک دوسرے کی تنقید کرتے اور یہ احساس کرتے کہ انہوں نے تمہاری عبادت تمہارے حقِ عبادت کے مطابق نہیں کی اور تمہاری اطاعت تمہارے حقِ اطاعت کے مطابق نہیں کی۔",
+          "tr": "Eğer senin hakkında gizli olan şeyleri görselerdi, kendi amellerini çok küçük görürlerdi; kendilerini eleştirirler ve sana hakkıyla ibadet etmediklerini ve sana hakkıyla itaat etmediklerini anlarlardı.",
+          "fa": "اگر آنچه از تو پنهان است را می‌دیدند، اعمال خود را بسیار ناچیز می‌شمردند و خود را مورد نکوهش قرار می‌دادند و درمی‌یافتند که تو را به حق عبادت‌شدنت عبادت نکرده‌اند و به حق اطاعت‌شدنت اطاعت نکرده‌اند.",
+          "id": "Jika mereka menyaksikan apa yang tersembunyi dari-Ma, mereka akan menganggap amal mereka sangat sedikit, mereka akan mengkritik diri mereka sendiri dan menyadari bahwa mereka tidak menyembah-Ma sesuai dengan hak-Ma untuk disembah, dan tidak menaati-Ma sebagaimana hak-Ma untuk ditaati.",
+          "bn": "যদি তারা তোমার গোপনীয়তা সম্পর্কে সাক্ষ্য দেয় তবে তারা তাদের আমলকে অত্যন্ত ক্ষুদ্র মনে করবে, তারা নিজেরাই সমালোচনা করবে এবং বুঝতে পারবে যে তারা তোমার উপাস্য হওয়ার অধিকার অনুযায়ী তোমার উপাসনা করেনি এবং তোমার আনুত্যগের অধিকার অনুযায়ী তোমার আনুত্যগ করেনি।",
+          "es": "Si presenciaran lo que de Ti está oculto, considerarían sus obras como muy poco, se criticarían a sí mismos y se darían cuenta de que no Te adoraron conforme a Tu derecho a ser adorado, ni Te obedecieron conforme a Tu derecho a ser obedecido.",
+          "fr": "S'ils voyaient ce qui est caché en eux, ils considéreraient leurs actions comme peu importantes, se critiqueraient eux-mêmes et réaliseraient qu'ils ne T'ont pas adoré comme Tu le mérites d'être adoré, et ne T'ont pas obéi comme Tu le mérites d'être obéi.",
+          "de": "Wenn sie das Verborgene an Dir sähen, würden sie ihre Taten für gering erachten, sich selbst kritisieren und erkennen, dass sie Dich nicht gemäß Deinem Recht, angebetet zu werden, anbeteten und Dir nicht gemäß Deinem Recht, gehorcht zu werden, gehorchten.",
+          "ru": "Если бы они узрели то, что скрыто от них относительно Тебя, то они сочли бы свои деяния ничтожными, подвергли бы себя критике и осознали бы, что не поклонялись Тебе так, как Ты достоин поклонения, и не повиновались Тебе так, как Ты достоин повиновения.",
+          "zh": "如果他们看到你隐藏的奥秘，他们就会认为自己的功修微不足道，从而自我批评，并意识到他们没有按照你配受崇拜的权利来崇拜你，也没有按照你配受服从的权利来服从你。"
+        },
+        "word_start": 50,
+        "word_end": 72
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shia scholars, such as Allama Tabatabai, interpret this passage as illustrating the ontological purity of angels, who are exempt from the biological constraints of semen and the psychological fragmentation of time, allowing for undivided devotion. The text serves as a theological benchmark, suggesting that even the highest created beings would humble themselves upon witnessing the fullness of Divine Reality, thereby urging believers to strive for sincerity (ikhlas) in their worship.",
+        "seo_question": "What distinguishes the angels' worship and creation from humans in Shia theology?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "The Noble Angels",
+          "الْأَصْلَابَ": "Loins (lineage)",
+          "الْأَرْحَامَ": "Wombs (gestation)",
+          "مَاءٍ مَّهِينٍ": "Man water (semen)",
+          "رَيْبَ الْمَنُونِ": "Vicissitudes of time",
+          "كُنْهَ": "Essence/Reality",
+          "حَقَّ عِبَادَتِكَ": "Right of Thy worship"
+        }
+      },
+      "ur": {
+        "summary": "شیعہ علماء، جیسے علامہ طباطبائی، اس آیت کو فرشتوں کی وجودی پاکی کی وضاحت کے طور پر تشریح کرتے ہیں، جو نطفے کی حیاتیاتی قیدوں اور وقت کی نفسیاتی تقسیم سے آزاد ہیں، جس سے یکسوئی کی عبادت ممکن ہوتی ہے۔ یہ متن ایک الہیاتی معیار کے طور پر کام کرتا ہے، جو یہ اشارہ دیتا ہے کہ حتیٰ کہ بلند ترین مخلوق بھی الہی حقیقت کی مکمل تجلی دیکھ کر خود کو عاجز سمجھے گی، اس لیے مومنین کو اپنی عبادت میں اخلاص کی کوشش کرنے کی ترغیب دی جاتی ہے۔",
+        "seo_question": "شیعہ الہیات میں فرشتوں کی عبادت اور تخلیق انسانوں سے کیسے مختلف ہے؟",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "نoble فرشتے",
+          "الْأَصْلَابَ": "کمر (نسب)",
+          "الْأَرْحَامَ": "رحم (حمل)",
+          "مَاءٍ مَّهِينٍ": "نرم پانی (نطفہ)",
+          "رَيْبَ الْمَنُونِ": "وقت کی تبدیلیاں",
+          "كُنْهَ": "حقیقت",
+          "حَقَّ عِبَادَتِكَ": "تیری عبادت کا حق"
+        }
+      },
+      "tr": {
+        "summary": "Şia alimleri, örneğin Allame Tabatabai, bu ayeti meleklerin ontolojik saflığını göstermek için yorumlar; onlar, biyolojik kısıtlamalar olan meniden ve zamanın psikolojik parçalanmasından muaf tutulmuşlardır, bu da bölünmemiş bir bağlılık sağlar. Metin, teolojik bir referans noktası olarak, en üst yaratılmış varlıkların bile İlmi Gerçeğin tamamlığını gördüklerinde kendilerini alçaltacaklarını öne sürerek, inançıları ibadetlerinde samimiyet (ihlas) için çabalamaya teşvik eder.",
+        "seo_question": "Şia teolojisinde meleklerin ibadeti ve yaratılışı insanlardan neyle ayrılır?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "Noble Melekler",
+          "الْأَصْلَابَ": "Bel (soy)",
+          "الْأَرْحَامَ": "Dolun (gebe kalma)",
+          "مَاءٍ مَّهِينٍ": "Erkek suyu (men)",
+          "رَيْبَ الْمَنُونِ": "Zamanın değişimleri",
+          "كُنْهَ": "Öz/Gerçeklik",
+          "حَقَّ عِبَادَتِكَ": "İbadetinin hakkı"
+        }
+      },
+      "fa": {
+        "summary": "مفسران شیعه، مانند علامه طباطبایی، این آیه را تفسیر می‌کنند که نشان‌دهنده پاکی ذاتی فرشتگان است؛ آنان از محدودیت‌های بیولوژیکی منی و پراکندگی روانی ناشی از زمان رها هستند که این امر امکان ارادت بی‌شکسته را فراهم می‌سازد. این متن به عنوان معیار الهیاتی مطرح است و پیشنهاد می‌کند که حتی برترین موجودات آفریده نیز هنگام مشاهده تمامیت حقیقت الهی، خویشتن‌دار می‌شوند، که این امر مؤمنان را به تلاش برای اخلاص در عبادت ترغیب می‌کند.",
+        "seo_question": "چه چیزی عبادت و خلقت فرشتگان را از انسان‌ها در الهیات شیعه متمایز می‌کند؟",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "فرشتگان گرامی",
+          "الْأَصْلَابَ": "اصلاب (نسب)",
+          "الْأَرْحَامَ": "ارحام (حاملگی)",
+          "مَاءٍ مَّهِينٍ": "مایه ذلیل (منی)",
+          "رَيْبَ الْمَنُونِ": "متغیرات زمان",
+          "كُنْهَ": "کنه/حقیقت",
+          "حَقَّ عِبَادَتِكَ": "حق عبادت تو"
+        }
+      },
+      "id": {
+        "summary": "Para ulama Syiah, seperti Allama Thabathai, menafsirkan ayat ini sebagai ilustrasi kemurnian ontologis malaikat, yang terbebas dari kendala biologis berupa air mani dan fragmentasi psikologis akibat waktu, sehingga memungkinkan pengabdian yang utuh. Teks ini berfungsi sebagai tolok ukur teologis, menunjukkan bahwa bahkan makhluk ciptaan tertinggi akan merendahkan diri ketika menyaksikan kelengkapan Realitas Ilahi, sehingga mendorong umat beriman untuk berusaha mencapai ketulusan (ikhlas) dalam ibadah mereka.",
+        "seo_question": "Apa yang membedakan ibadah dan penciptaan malaikat dari manusia dalam teologi Syiah?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "Malaikat yang Mulia",
+          "الْأَصْلَابَ": "Punggung (garis keturunan)",
+          "الْأَرْحَامَ": "Rahim (kehamilan)",
+          "مَاءٍ مَّهِينٍ": "Air mani",
+          "رَيْبَ الْمَنُونِ": "Perubahan waktu",
+          "كُنْهَ": "Esensi/Realitas",
+          "حَقَّ عِبَادَتِكَ": "Hak ibadah-Mu"
+        }
+      },
+      "bn": {
+        "summary": "শিয়া পণ্ডিতগণ, যেমন আল্লামা তাবাতাবাই, এই আয়াতকে ফেরেশতাদের অস্তিত্বগত পবিত্রতা বর্ণনা করতে ব্যাখ্যা করেন, যারা শুক্রাণুর জৈবিক সীমাবদ্ধতা এবং সময়ের মানসিক বিভাজন থেকে মুক্ত, যা তাদের অবিভক্ত ভক্তি সম্ভব করে তোলে। এই পাঠটি একটি ঐতিহাসিক মানদণ্ড হিসেবে কাজ করে, যা ইঙ্গিত দেয় যে সর্বোচ্চ সৃষ্ট জীবও ঈশ্বরের পূর্ণ সত্য দর্শন করলে নিজেদেরকে বিনম্র করবে, যাতে বিশ্বাসীরা তাদের ইবাদতে সততা (ইখলাস) অর্জনের চেষ্টা করে।",
+        "seo_question": "শিয়া তত্ত্ববিদ্যায় ফেরেশতাদের ইবাদত ও সৃষ্টি মানুষ থেকে কীভাবে আলাদা?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "নবীল ফেরেশতারা",
+          "الْأَصْلَابَ": "কোমর (বংশপরম্পরা)",
+          "الْأَرْحَامَ": "গর্ভাশয় (গর্বধারণ)",
+          "مَاءٍ مَّهِينٍ": "সূক্ষ্ম পানি (শুক্রাণু)",
+          "رَيْبَ الْمَنُونِ": "সময়ের পরিবর্তনশীলতা",
+          "كُنْهَ": "সার/সত্য",
+          "حَقَّ عِبَادَتِكَ": "তোমার ইবাদতের অধিকার"
+        }
+      },
+      "es": {
+        "summary": "Los eruditos chiíes, como Allama Tabatabai, interpretan este pasaje como una ilustración de la pureza ontológica de los ángeles, quienes están exentos de las restricciones biológicas del semen y de la fragmentación psicológica del tiempo, lo que les permite una devoción indivisa. El texto sirve como un referente teológico, sugiriendo que incluso los seres creados más elevados se humillarían al presenciar la plenitud de la Realidad Divina, exhortando así a los creyentes a esforzarse por la sinceridad (ikhlas) en su adoración. | ¿Qué distingue la adoración y la creación de los ángeles de los humanos en la teología chií? | [",
+        "seo_question": "¿Qué distingue la adoración y la creación de los ángeles de los humanos en la teología chií?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "Los Ángeles Nobles",
+          "الْأَصْلَابَ": "Lomos (linaje)",
+          "الْأَرْحَامَ": "Úteros (gestación)",
+          "مَاءٍ مَّهِينٍ": "Agua humilde (semen)",
+          "رَيْبَ الْمَنُونِ": "Vicisitudes del tiempo",
+          "كُنْهَ": "Esencia/Realidad",
+          "حَقَّ عِبَادَتِكَ": "Derecho de Tu adoración"
+        }
+      },
+      "fr": {
+        "summary": "Les savants chiites, comme Allama Tabatabai, interprètent ce passage comme illustrant la pureté ontologique des anges, exempts des contraintes biologiques du sperme et de la fragmentation psychologique du temps, ce qui leur permet une dévotion indivise. Le texte sert de repère théologique, suggérant que même les créatures les plus élevées s'humilieraient en présence de la plénitude de la Réalité Divine, exhortant ainsi les croyants à s'efforcer de sincérité (ikhlas) dans leur culte.",
+        "seo_question": "Qu'est-ce qui distingue le culte et la création des anges par rapport à ceux des humains dans la théologie chiite ?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "Les Anges Nobles",
+          "الْأَصْلَابَ": "Les Lombes (lignée)",
+          "الْأَرْحَامَ": "Les Utérus (gestation)",
+          "مَاءٍ مَّهِينٍ": "Eau vile (sperme)",
+          "رَيْبَ الْمَنُونِ": "Les vicissitudes du temps",
+          "كُنْهَ": "L'essence/la réalité",
+          "حَقَّ عِبَادَتِكَ": "Le droit de Ton culte"
+        }
+      },
+      "de": {
+        "summary": "Schia-Gelehrte, wie Allama Tabatabai, interpretieren diese Passage als Illustration der ontologischen Reinheit der Engel, die von den biologischen Einschränkungen des Samens und der psychologischen Fragmentierung der Zeit ausgenommen sind, was uneingeschränkte Hingabe ermöglicht. Der Text dient als theologischer Maßstab und deutet darauf hin, dass selbst die höchsten Geschöpfe sich demütigen würden, wenn sie die Fülle der göttlichen Realität erblicken, wodurch die Gläubigen aufgefordert werden, nach Aufrichtigkeit (Ihlas) in ihrer Anbetung zu streben.",
+        "seo_question": "Was unterscheidet die Anbetung und Schöpfung der Engel von den Menschen in der schiitischen Theologie?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "Die edlen Engel",
+          "الْأَصْلَابَ": "Lenden (Abstammung)",
+          "الْأَرْحَامَ": "Gebärmütter (Trächtigkeit)",
+          "مَاءٍ مَّهِينٍ": "Wasser des Geringeren (Samen)",
+          "رَيْبَ الْمَنُونِ": "Wechsel der Zeit",
+          "كُنْهَ": "Wesen/Realität",
+          "حَقَّ عِبَادَتِكَ": "Recht Deiner Anbetung"
+        }
+      },
+      "ru": {
+        "summary": "Шиитские учёные, такие как Аллама Табатабаи, толкуют этот аят как иллюстрацию онтологической чистоты ангелов, которые освобождены от биологических ограничений, связанных с семенной жидкостью, и психологической фрагментации времени, что позволяет им проявлять нераздельную преданность. Этот текст служит богословским ориентиром, указывая на то, что даже самые высокие из созданий смиряются перед полнотой Божественной Реальности, тем самым призывая верующих стремиться к искренности (ихлас) в своём поклонении.",
+        "seo_question": "Что отличает поклонение ангелов и их сотворение от человеческих в шиитской теологии?",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "Благородные ангелы",
+          "الْأَصْلَابَ": "Поясницы (родословная)",
+          "الْأَرْحَامَ": "Чрево (вынашивание)",
+          "مَاءٍ مَّهِينٍ": "Тонкая вода (семенная жидкость)",
+          "رَيْبَ الْمَنُونِ": "Перемены времени",
+          "كُنْهَ": "Сущность/Реальность",
+          "حَقَّ عِبَادَتِكَ": "Право Твоего поклонения"
+        }
+      },
+      "zh": {
+        "summary": "什叶派学者如阿拉玛·塔巴塔巴伊将这段经文解释为展示天使的本体纯洁性，他们免于精液的生物限制和时间的心理碎片化，从而能够全心 devotion。这段经文作为神学基准，表明即使是最高级的受造物在见证神圣现实的全貌时也会谦卑，从而敦促信徒在崇拜中追求真诚（ikhlas）。",
+        "seo_question": "在什叶派神学中，天使的崇拜和创造与人类有何区别？",
+        "key_terms": {
+          "الْمَلَائِكَةِ الْكِرَامِ": "尊贵天使",
+          "الْأَصْلَابَ": "腰骨（血统）",
+          "الْأَرْحَامَ": "子宫（孕育）",
+          "مَاءٍ مَّهِينٍ": "微贱之水（精液）",
+          "رَيْبَ الْمَنُونِ": "时间的变迁",
+          "كُنْهَ": "本质/现实",
+          "حَقَّ عِبَادَتِكَ": "你崇拜的权利"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "32:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "77:20",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "52:30",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "65:12",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:73",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمِنْهَا فِي الْمَلَائِكَةِ الْكِرَامِ: مِنْ مَلَائِكَةٍ أَسْكَنْتَهُمْ سَمَاوَاتِكَ، وَرَفَعْتَهُمْ عَنْ أَرْضِكَ؛ هُمْ أَعْلَمُ خَلْقِكَ بِكَ، وَأَخْوَفُهُمْ لَكَ، وَأَقْرَبُهُمْ مِنْكَ؛ لَمْ يَسْكُنُوا الْأَصْلَابَ، وَلَمْ يُضَمَّنُوا الْأَرْحَامَ، وَلَمْ يُخْلَقُوا ﴿مِن مَّاءٍ مَّهِينٍ﴾، وَلَمْ يَتَشَعَّبْهُمْ ﴿رَيْبَ الْمَنُونِ﴾; وَإِنَّهُمْ عَلَى مَكَانِهِمْ مِنْكَ، وَمَنْزِلَتِهِمْ عِنْدَكَ، وَاسْتِجْمَاعِ أَهْوَائِهِمْ فِيكَ، وَكَثْرَةِ طَاعَتِهِمْ لَكَ، وَقِلَّةِ غَفْلَتِهِمْ عَنْ أَمْرِكَ، لَوْ عَايَنُوا كُنْهَ مَا خَفِيَ عَلَيْهِمْ مِنْكَ لَحَقَّرُوا أَعْمَالَهُمْ، وَلَزَرَوْا عَلَى أَنْفُسِهِمْ، وَلَعَرَفُوا أَنَّهُمْ لَمْ يَعْبُدُوكَ حَقَّ عِبَادَتِكَ، وَلَمْ يُطِيعُوكَ حَقَّ طَاعَتِكَ.",
+    "isnad_matn": {
+      "isnad_ar": "[ومنها في الملائكة الكرام :] مِنْ مَلاَئِكَة أَسْكَنْتَهُمْ سَمَاوَاتِكَ، وَرَفَعْتَهُمْ عَنْ أَرْضِكَ; هُمْ أَعْلَمُ خَلْقِكَ بِكَ، وَأَخْوَفُهُمْ لَكَ، وَأَقْرَبُهُمْ مِنْكَ; لَمْ يَسْكُنُوا الاْصْلاَبَ، وَلَمْ يُضَمَّنُوا الاْرْحَامَ، وَلَمْ يُخْلَقُوا ﴿مِن مَّاءٍ مَّهِينٍ﴾، وَلَمْ يَتَشَعَّبْهُمْ ﴿رَيْبَ الْمَنُونِ﴾ ;وَإِنَّهُمْ عَلَى مَكَانِهمْ مِنْكَ، وَمَنْزِلَتِهِمْ عِنْدَكَ، وَاسْتِجْمَاعِ أَهْوَائِهِمْ فِي",
+      "matn_ar": "وَمِنْهَا فِي الْمَلَائِكَةِ الْكِرَامِ: مِنْ مَلَائِكَةٍ أَسْكَنْتَهُمْ سَمَاوَاتِكَ، وَرَفَعْتَهُمْ عَنْ أَرْضِكَ؛ هُمْ أَعْلَمُ خَلْقِكَ بِكَ، وَأَخْوَفُهُمْ لَكَ، وَأَقْرَبُهُمْ مِنْكَ؛ لَمْ يَسْكُنُوا الْأَصْلَابَ، وَلَمْ يُضَمَّنُوا الْأَرْحَامَ، وَلَمْ يُخْلَقُوا ﴿مِن مَّاءٍ مَّهِينٍ﴾، وَلَمْ يَتَشَعَّبْهُمْ ﴿رَيْبَ الْمَنُونِ﴾; وَإِنَّهُمْ عَلَى مَكَانِهِمْ مِنْكَ، وَمَنْزِلَتِهِمْ عِنْدَكَ، وَاسْتِجْمَاعِ أَهْوَائِهِمْ فِيكَ، وَكَثْرَةِ طَاعَتِهِمْ لَكَ، وَقِلَّةِ غَفْلَتِهِمْ عَنْ أَمْرِكَ، لَوْ عَايَنُوا كُنْهَ مَا خَفِيَ عَلَيْهِمْ مِنْكَ لَحَقَّرُوا أَعْمَالَهُمْ، وَلَزَرَوْا عَلَى أَنْفُسِهِمْ، وَلَعَرَفُوا أَنَّهُمْ لَمْ يَعْبُدُوكَ حَقَّ عِبَادَتِكَ، وَلَمْ يُطِيعُوكَ حَقَّ طَاعَتِكَ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "[ومنها في الملائكة الكرام :] مِنْ مَلاَئِكَة أَسْكَنْتَهُمْ سَمَاوَاتِكَ، وَرَفَعْتَهُمْ",
+          "name_en": "Mala'ikat",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَرْضِكَ; هُمْ أَعْلَمُ خَلْقِكَ بِكَ، وَأَخْوَفُهُمْ لَكَ، وَأَقْرَبُهُمْ مِنْكَ; لَمْ يَسْكُنُوا الاْصْلاَبَ، وَلَمْ يُضَمَّنُوا الاْرْحَامَ، وَلَمْ يُخْلَقُوا ﴿مِن مَّاءٍ مَّهِينٍ﴾، وَلَمْ يَتَشَعَّبْهُمْ ﴿رَيْبَ الْمَنُونِ﴾ ;وَإِنَّهُمْ عَلَى مَكَانِهمْ مِنْكَ، وَمَنْزِلَتِهِمْ عِنْدَكَ، وَاسْتِجْمَاعِ أَهْوَائِهِمْ",
+          "name_en": "Mala'ikat",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

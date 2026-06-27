@@ -1,0 +1,45 @@
+00:58:05 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest\logs\20260512T235805Z.log
+00:58:05 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest\logs\pipeline.jsonl
+00:58:05 INFO Word dictionary: 609 entries
+00:58:05 INFO Narrator templates: 1074 entries
+00:58:05 INFO Narrator registry: 4544 entries
+00:58:05 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest\prompts\system_prompt_17ead77ac9a169b6.txt (system prompt, 10090 chars)
+Pipeline v4 starting: 1 verses, 5 workers, mode=phased, backend=openai, p1=qwen36-fast, p4=qwen36-fast
+00:58:05 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+00:58:05 INFO P1-GEN quran_114_1 (4 words, phased, openai/qwen36-fast)...
+00:58:12 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:12 INFO P2-ENRICH quran_114_1...
+00:58:12 INFO P4-TRANSLATE quran_114_1...
+00:58:19 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:19 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:20 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:20 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:20 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:20 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:21 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:22 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:24 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:24 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:24 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:25 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:26 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:26 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:26 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:27 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:27 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+00:58:27 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest\responses\quran_114_1.json
+00:58:27 INFO WARN quran_114_1 [phased, $0.0000, 373 tok]
+
+============================================================
+Pipeline Complete (0.4 min)
+  Total: 1 processed, 0 skipped
+  Pass: 1 | Fixed: 0 | Errors: 0
+  Cost: $0.00 (avg $0.0000/verse)
+  Tokens: In: 6,688 | Out: 1,789
+============================================================
+00:58:27 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+00:58:27 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest\sessions\20260512T235805Z.json
+00:58:27 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest\logs\20260512T235805Z.log

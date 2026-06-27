@@ -1,0 +1,338 @@
+{
+  "verse_path": "/books/al-kafi:4:3:30:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 22 en words vs 1 ar words (ratio=22.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "worship",
+      "quran_commentary"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "hajj",
+      "zakat_khums",
+      "quran_interpretation_method",
+      "financial_law"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "A number of our companions, from Ahmad ibn Muhammad, from Ibn Mahboub, from Khalid ibn Jarir, from Abu al-Rabi' al-Shami, who said:",
+          "ur": "کئی ہماری راویوں نے احمد بن محمد سے، انہوں نے ابن محبوب سے، انہوں نے خالد بن جریر سے، انہوں نے ابو الربیع الشامي سے روایت کی کہ انہوں نے کہا:",
+          "tr": "Bizim ashabımızdan bir grup, Ahmed ibn Muhammed'den, İbn Mahbub'tan, Halid ibn Cerir'den, Ebu er-Rabî eş-Şamî'den, o da şöyle dedi:",
+          "fa": "عده‌ای از اصحاب ما از احمد بن محمد از ابن محبوب از خالد بن جریر از ابی الربیع الشامی که گفت:",
+          "id": "Sejumlah sahabat kami, dari Ahmad ibn Muhammad, dari Ibn Mahboub, dari Khalid ibn Jarir, dari Abu al-Rabi' al-Shami, yang berkata:",
+          "bn": "আমাদের সহচরগণের একদল, আহমদ ইবনে মুহাম্মদ, ইবনে মাহবুব, খালিদ ইবনে জারির, আবু রবী আল-শামীর মধ্য দিয়ে, যিনি বলেছেন:",
+          "es": "Una serie de nuestros compañeros, de Ahmad ibn Muhammad, de Ibn Mahboub, de Khalid ibn Jarir, de Abu al-Rabi' al-Shami, quien dijo:",
+          "fr": "Un certain nombre de nos compagnons, d'après Ahmad ibn Muhammad, d'après Ibn Mahboub, d'après Khalid ibn Jarir, d'après Abu al-Rabi' al-Shami, qui a dit :",
+          "de": "Eine Anzahl unserer Gefährten, von Ahmad ibn Muhammad ibn Mahbub, von Khalid ibn Jarir, von Abu al-Rabi' al-Shami, der sagte:",
+          "ru": "عدد من أصحابنا عن أحمد بن محمد عن ابن محبوب عن خالد بن جرير عن أبي الربيع الشامي قال:",
+          "zh": "我们的几位同伴，从艾哈迈德·本·穆罕默德，从伊本·马布·马布，从哈立德·本·贾里尔，从阿布·拉比·沙米，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سُئِلَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا فَقَالَ مَا يَقُولُ النَّاسُ قَالَ فَقِيلَ لَهُ الزَّادُ وَ الرَّاحِلَةُ",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) was asked about the Words of Allah, Mighty and Majestic: 'Man istata'a ilayhi sabeela' (one who is able to undertake the journey to it). He said: 'What are the people saying?' It was said to him: 'The provisions and the ride.'",
+          "ur": "ابو عبداللہ (علیہ السلام) سے اللہ تعالیٰ کے ارشاد گرامی کی تفسیر پوچھی گئی: 'من استطاع الیہ سبیلا' (جو اس کی طرف جانے کی طاقت رکھتا ہو)۔ انہوں نے فرمایا: 'لوگ کیا کہتے ہیں؟' عرض کیا گیا: 'روزِ سفر اور سواری۔'",
+          "tr": "Ebu Abdillah (aleyhisselam)dan, Allah'ın (c.c.) \"Men istata'a ileyhi sabeela\" (ona gidiş yoluna gücü yeten) ayeti hakkında soruldu. O da: \"İnsanlar ne diyor?\" dedi. Kendisine: \"Yemek ve binek\" denildi.",
+          "fa": "ابو عبدالله (علیه السلام) درباره کلام خداوند متعال: «مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا» (هر کس توانایی دارد راهی به سوی آن بیابد) پرسیده شد. فرمود: «مردم چه می‌گویند؟» گفته شد: «زاد و راحله.»",
+          "id": "Abu Abdillah (semoga Allah meridhainya) ditanya mengenai firman Allah, Maha Perkasa dan Maha Mulia: 'Man istata'a ilayhi sabeela' (orang yang mampu menempuh perjalanan ke sana). Ia menjawab: 'Apa yang dikatakan oleh para ulama?' Dijawab kepadanya: 'Makanan dan tunggangan.'",
+          "bn": "আবু আব্দুল্লাহ (রহ.)-কে আল্লাহ তাআলার বাক্য 'মান ইস্তাতাআ ইলাইহি সাবীলা' (যে ব্যক্তি তার দিকে যাওয়ার যাত্রা শুরু করতে সক্ষম) সম্পর্কে জিজ্ঞাসা করা হলো। তিনি বললেন: 'লোকেরা কী বলছে?' তাকে বলা হলো: 'খাদ্য-সামগ্রী এবং যানবাহন।'",
+          "es": "Abu Abdillah (la paz sea con él) fue preguntado acerca de las palabras de Allah, Poderoso y Majestuoso: «Man istata'a ilayhi sabeela» (aquel que es capaz de emprender el viaje hacia ella). Dijo: «¿Qué dice la gente?». Se le dijo: «Los provisiones y el medio de transporte».",
+          "fr": "Abou Abdillah (que la paix soit sur lui) fut interrogé au sujet des paroles d'Allah, Puissant et Majestueux : « Man istata'a ilayhi sabeela » (celui qui peut entreprendre le voyage vers lui). Il dit : « Que disent les gens ? » On lui répondit : « Les provisions et la monture. »",
+          "de": "Abu Abdillah (Friede sei mit ihm) wurde gefragt nach den Worten Allahs, des Mächtigen und Erhabenen: 'Man istata'a ilayhi sabeela' (wer imstande ist, die Reise zu ihr anzutreten). Er sagte: 'Was sagen die Leute?' Es wurde ihm gesagt: 'Die Verpflegung und das Reittier.'",
+          "ru": "Абу Абдиллах (да будет доволен им Аллах) спросили о словах Аллаха, Всемогущего и Величественного: «Man istata’a ilayhi sabeela» (тот, кто в состоянии совершить путешествие к Нему). Он сказал: «Что говорят люди?» Ему сказали: «Припасы и верховое животное».",
+          "zh": "阿布杜拉（愿主喜悦之）被问及真主尊贵伟大的言辞：“Man istata'a ilayhi sabeela”（能够前往它的人）。他说：“人们怎么说？”有人告诉他：“指给养和坐骑。”"
+        },
+        "word_start": 1,
+        "word_end": 29
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) قَدْ سُئِلَ أَبُو جَعْفَرٍ ( عليه السلام ) عَنْ هَذَا فَقَالَ هَلَكَ النَّاسُ إِذاً لَئِنْ كَانَ مَنْ كَانَ لَهُ زَادٌ وَ رَاحِلَةٌ قَدْرَ مَا يَقُوتُ عِيَالَهُ وَ يَسْتَغْنِي بِهِ عَنِ النَّاسِ يَنْطَلِقُ إِلَيْهِ فَيَسْلُبُهُمْ إِيَّاهُ لَقَدْ هَلَكُوا",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) said: 'Abu Ja'far (peace be upon him) had been asked about this, so he said: 'The people are destroyed, if it were so that the one who has provisions and a ride, sufficient to feed his family and make him independent of the people, goes to it, and they confiscate it from him, he would be destroyed.'",
+          "ur": "ابو عبداللہ (علیہ السلام) نے فرمایا: ابو جعفر (علیہ السلام) سے اس بارے میں سوال کیا گیا تو انہوں نے فرمایا: لوگ ہلاک ہو جائیں گے اگر ایسا ہو کہ جس کے پاس رزق اور سواری ہو جو اس کی بیوی بچوں کو کھلانے اور لوگوں سے بے نیاز کرنے کے لیے کافی ہو، وہ اسے نکالے اور وہ اسے اس سے چھین لیں، تو وہ ہلاک ہو جائے گا۔",
+          "tr": "Ebu Abdillah (aleyhisselam) buyurdu ki: 'Ebu Cafer (aleyhisselam) bu mesele hakkında sorulduğunda şöyle dedi: 'Kişi, ailesini doyuracak ve insanlardan bağımsız kılacak kadar rızkı ve bineği olup da o rızka giderlerse, onu onlardan alıp alıkoysalar, helak olur.'",
+          "fa": "ابو عبدالله (علیه السلام) فرمود: از ابو جعفر (علیه السلام) درباره این پرسیده شد، پس فرمود: «مردم هلاک می‌شوند، اگر کسی که دارای روزی و مرکبی باشد که برای تغذیه خانواده‌اش و بی‌نیازی او از مردم کافی است، به آن برود و آن را از او مصادره کنند، او هلاک می‌شود.»",
+          "id": "Abu Abdillah (alamaihisalam) berkata: 'Abu Ja'far (alamaihisalam) pernah ditanya mengenai hal ini, lalu beliau menjawab: \"Umat akan binasa, jika orang yang memiliki bekal dan tunggangan, yang cukup untuk memberi makan keluarganya dan membuatnya tidak bergantung pada orang lain, pergi untuk mengambilnya, lalu mereka merampasnya darinya, ia akan binasa.\"'",
+          "bn": "আবু আব্দিল্লাহ (রহ.) বলেন, আবু জাফর (রহ.)-কে এ বিষয়ে জিজ্ঞাসা করা হলে তিনি বলেন, 'লোকজন ধ্বংস হয়ে যাবে, যদি এমন হয় যে, যার কাছে পর্যাপ্ত খাদ্য ও যানবাহন আছে যাতে সে তার পরিবারকে পোষণ করতে পারে এবং লোকদের উপর নির্ভরশীল না হয়, সে তাতে যায় এবং তারা তা তার কাছ থেকে কেড়ে নেয়, তবে সে ধ্বংস হয়ে যাবে।'",
+          "es": "Abu Abdillah (la paz sea con él) dijo: «Se le preguntó a Abu Ja'far (la paz sea con él) sobre esto, y él dijo: «La gente se arruinará si aquel que tiene provisiones y un medio de transporte, suficientes para alimentar a su familia y hacerlo independiente de la gente, va a ello, y se lo confiscan, él se arruinará.»»",
+          "fr": "Abou Abdillah (que la paix soit sur lui) a dit : « On a posé cette question à Abou Ja'far (que la paix soit sur lui), et il a répondu : « Les gens seront perdus, si celui qui possède de quoi se nourrir et un moyen de transport, suffisants pour subvenir aux besoins de sa famille et le rendre indépendant des gens, va y aller, et qu'on lui confisque cela, il sera perdu. »",
+          "de": "Abu Abdillah (Friede sei mit ihm) sagte: Es wurde Abu Ja'far (Friede sei mit ihm) diesbezüglich gefragt, woraufhin er sagte: 'Die Menschen sind zugrunde gerichtet, wenn derjenige, der über Vorräte und ein Reittier verfügt, die ausreichend sind, um seine Familie zu ernähren und ihn unabhängig von den Menschen zu machen, zu dem Vorrat geht und sie ihn ihm wegnehmen, er zugrunde geht.'",
+          "ru": "Абу Абдиллах (да будет доволен им Аллах) сказал: «Абу Джафар (да будет доволен им Аллах) спросили об этом, и он ответил: „Люди будут погублены, если тот, у кого есть провизия и верховое животное, достаточные для прокорма его семьи и обеспечения независимости от людей, отправится в путь, и они отнимут это у него, то он будет погублен“.",
+          "zh": "阿布杜拉（愿主喜悦之）说：有人曾向阿布贾法尔（愿主喜悦之）询问此事，他说：‘如果一个人拥有足够的资财和坐骑，足以供养其家人并使他无需依赖他人，但他前往某地后，人们却将他的资财没收，那么他便会陷入毁灭。’"
+        },
+        "word_start": 29,
+        "word_end": 74
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقِيلَ لَهُ فَمَا السَّبِيلُ قَالَ فَقَالَ السَّعَةُ فِي الْمَالِ إِذَا كَانَ يَحُجُّ بِبَعْضٍ وَ يُبْقِي بَعْضاً يَقُوتُ بِهِ عِيَالَهُ أَ لَيْسَ قَدْ فَرَضَ اللَّهُ الزَّكَاةَ فَلَمْ يَجْعَلْهَا إِلَّا عَلَى مَنْ يَمْلِكُ مِائَتَيْ دِرْهَمٍ",
+        "translations": {
+          "en": "It was said to him: 'So what is the way?' He said: 'The capacity in wealth. If he performs Hajj with part of it, and keeps part for his family to feed them with. Has not Allah made Zakat obligatory, and He did not make it except upon the one who owns two hundred Dirhams?'",
+          "ur": "اس سے کہا گیا: پس راستہ کیا ہے؟ اس نے کہا: مال میں وسعت۔ اگر وہ اس کے بعض حصے سے حج کرے اور بعض حصہ اپنے اہل و عیال کے کھانے کے لیے رکھ لے۔ کیا اللہ نے زکوٰۃ کو فرض نہیں کیا، اور اسے اس شخص پر ہی لازم نہیں کیا جو دو سو درہم کا مالک ہو؟",
+          "tr": "Ona: 'Öyleyse yol nedir?' denildi. O da: 'Zenginlikteki kapasitedir. Onun bir kısmıyla Hac yapar, bir kısmını da ailesine yedirmek için saklar. Allah, Zekât'ı farz kılmadı mı? Ve onu ancak iki yüz dirhem sahibi olana farz kılmadı mı?'",
+          "fa": "به او گفته شد: پس راه چیست؟ گفت: توانایی در مال. اگر با بخشی از آن حج کند و بخشی را برای خانواده‌اش نگه دارد تا آنان را از آن تغذیه کند. آیا خداوند زکات را واجب نکرده است، و آن را جز بر کسی که صاحب دویست درهم باشد واجب نکرده است؟",
+          "id": "Dikatakan kepadanya, 'Lalu apa jalan (untuk bersedekah)?' Ia menjawab, 'Kemampuan dalam harta. Jika ia menunaikan haji dengan sebagian dari harta itu, dan menyisakan sebagian untuk keluarganya agar dapat memberi makan mereka. Bukankah Allah telah mewajibkan zakat, dan Dia tidak menjadikannya wajib kecuali atas orang yang memiliki dua ratus dirham?'",
+          "bn": "তাকে বলা হলো: 'তাহলে পথ কী?' তিনি বললেন: 'সম্পদে সামর্থ্য। যদি সে তার অর্ধেক দিয়ে হজ্জ করে এবং বাকি অর্ধেক পরিবারের খোরাকের জন্য সংরক্ষণ করে। আল্লাহ্‌ কি যাকাতকে ফরজ করেননি, এবং তিনি এটি কেবল সেই ব্যক্তির উপরই ফরজ করেছেন যার কাছে দুইশত দিরহাম রয়েছে?'",
+          "es": "Se le dijo: '¿Cuál es, pues, el camino?' Dijo: 'La capacidad en riqueza. Si realiza el Hajj con parte de ella, y guarda parte para su familia, para alimentarles. ¿No ha hecho Allah obligatorio el Zakat, y no lo ha hecho más que sobre quien posee doscientos Dirhams?'",
+          "fr": "On lui dit : « Alors, quelle est la voie ? » Il répondit : « La capacité en richesse. S’il accomplit le Hajj avec une partie, et garde l’autre pour sa famille afin de les nourrir. Allah n’a-t-Il pas rendu la Zakat obligatoire, et ne l’a-T-Il imposée qu’à celui qui possède deux cents dirhams ? »",
+          "de": "Es wurde zu ihm gesagt: 'Was ist also der Weg?' Er sagte: 'Die Fähigkeit im Besitz von Reichtum. Wenn er mit einem Teil davon die Haddsch verrichtet und den anderen Teil für seine Familie behält, um sie damit zu ernähren. Hat Allah nicht die Zakat zur Pflicht gemacht, und Er hat sie nicht außer für denjenigen zur Pflicht gemacht, der zweihundert Dirham besitzt?'",
+          "ru": "Ему сказали: «Так каков же путь?» Он сказал: «Способность в богатстве. Если он совершит хадж с частью его, а оставшуюся часть сохранит для своей семьи, чтобы прокормить их. Разве Аллах не сделал закят обязательным, и не обязал им только того, кто владеет двумястами дирхамами?»",
+          "zh": "有人对他说：‘那么，途径是什么？’他说：‘财富中的能力。如果他从中拿出部分去朝觐，留下部分供家人食用。难道真主没有规定天课为义务吗？而他只让拥有二百迪拉姆的人承担天课。’"
+        },
+        "word_start": 74,
+        "word_end": 107
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Sadiq (AS) refutes the simplistic view that mere travel sufficiency constitutes ability, arguing instead that true 'Qadara' requires financial surplus that ensures independence from others. By linking this threshold to the Zakat nisab of 200 Dirhams, the Imam establishes a concrete jurisprudential benchmark for obligatory Hajj, emphasizing that one must not deplete the resources needed for their family's sustenance.",
+        "seo_question": "What is the definition of 'ability' (istita'ah) for Hajj in Shia jurisprudence according to Imam al-Sadiq?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "The Words of Allah",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "One who is able to undertake the journey to it (Quran 3:97)",
+          "الزَّادُ": "Provisions/Supplies",
+          "الرَّاحِلَةُ": "The ride/Beast of burden",
+          "السَّعَةُ": "Capacity/Wealth/Surplus",
+          "الزَّكَاةَ": "Zakat (alms-tax)",
+          "مِائَتَيْ دِرْهَمٍ": "Two hundred Dirhams"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (ع) اس) اس سادہ نظریے کی تردید کرتے ہیں کہ محض سفر کی کفایت ہی استطاعت ہے، بلکہ اس کے بجائے یہ استدلال کرتے ہیں کہ حقیقی 'قدرت' کے لیے مالی اضافہ ضروری ہے جو دوسروں سے آزادی کو یقینی بنائے۔ امام نے اس حد کو زکوٰۃ کے نصاب یعنی دو سو درہم سے جوڑ کر فرض حج کے لیے ایک واضح فقہی معیار قائم کیا ہے، اور اس بات پر زور دیا ہے کہ انسان کو اپنے اہل خانہ کی معاش کے لیے ضروری وسائل ختم نہیں کرنے چاہئیں۔",
+        "seo_question": "امام صادق کے نزدیک شیعہ فقہ میں حج کے لیے 'استطاعت' کی تعریف کیا ہے؟",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "اللہ کے کلام",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "جو اس کی طرف جانے کی طاقت رکھتا ہو (قرآن 3:97)",
+          "الزَّادُ": "خوراک/سفری سامان",
+          "الرَّاحِلَةُ": "سوار/گاڑی",
+          "السَّعَةُ": "وسعت/مال/اضافہ",
+          "الزَّكَاةَ": "زکوٰۃ",
+          "مِائَتَيْ دِرْهَمٍ": "دو سو درہم"
+        }
+      },
+      "tr": {
+        "summary": "İmam es-Sadık (AS), basit görüşün yalnızca seyahat yeterliliğinin yeterlilik sayıldığını reddederek, gerçek 'Kadere'nin başkalarına bağımlılığı ortadan kaldıran finansal fazlalık gerektirdiğini savunur. Bu eşiği 200 Dirhemlik Zekat nisabına bağlayarak, farz olan Hac için somut bir fıkıh ölçütü belirler ve kişinin ailesinin geçimi için gereken kaynakları tüketmemesi gerektiğini vurgular.",
+        "seo_question": "İmam es-Sadık'a göre Şii fıkhında Hac için 'yeterlilik' (istita'a) tanımı nedir?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "Allah'ın Kelamı",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "Ona gidebileen kimse (Kuran 3:97)",
+          "الزَّادُ": "Yiyecek ve içecek",
+          "الرَّاحِلَةُ": "Seyahat hayvanı",
+          "السَّعَةُ": "Genişlik/Zenginlik/Fazlalık",
+          "الزَّكَاةَ": "Zekat",
+          "مِائَتَيْ دِرْهَمٍ": "İki yüz Dirhem"
+        }
+      },
+      "fa": {
+        "summary": "امام صادق (ع) دیدگاه ساده‌انگارانه که صرفاً کافی بودن سفر را توانایی می‌داند، رد می‌کند و استدلال می‌کند که «قدرت» واقعی نیازمند مازاد مالی است که استقلال از دیگران را تضمین کند. با پیوند دادن این آستانه به نصاب زکات دویست درهم، امام معیار فقهی مشخصی برای حج واجب确立 می‌کند و تأکید می‌کند که فرد نباید منابع مورد نیاز برای معیشت خانواده خود را مستهلک کند.",
+        "seo_question": "تعریف «توانایی» (استطاعت) برای حج در فقه شیعه بر اساس امام صادق (ع) چیست؟",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "کلام خدا",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "هر کس توانایی سفر به آن را داشته باشد",
+          "الزَّادُ": "خوراک/تدارکات",
+          "الرَّاحِلَةُ": "سوار/حیوان باربر",
+          "السَّعَةُ": "گشایش/ثروت/مازاد",
+          "الزَّكَاةَ": "زکات",
+          "مِائَتَيْ دِرْهَمٍ": "دویست درهم"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Sadiq (AS) menolak pandangan sederhana bahwa kecukupan perjalanan saja sudah cukup untuk dianggap mampu, melainkan berargumen bahwa 'Qadara' yang sejati memerlukan kelebihan finansial yang menjamin kemandirian dari orang lain. Dengan menghubungkan ambang batas ini dengan nisab Zakat sebesar 200 Dirham, Imam menetapkan tolok ukur fikih yang konkret untuk haji wajib, menekankan bahwa seseorang tidak boleh menguras sumber daya yang dibutuhkan untuk nafkah keluarganya.",
+        "seo_question": "Apa definisi 'kemampuan' (istita'ah) untuk haji dalam fikih Syiah menurut Imam al-Sadiq?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "Kata-kata Allah",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "Barang siapa yang mampu menempuh perjalanan kepadanya",
+          "الزَّادُ": "Persediaan",
+          "الرَّاحِلَةُ": "Kendaraan",
+          "السَّعَةُ": "Kekayaan/Kecukupan",
+          "الزَّكَاةَ": "Zakat",
+          "مِائَتَيْ دِرْهَمٍ": "Dua ratus Dirham"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিق (আ.) এককভাবে ভ্রমণের যথেষ্ট হওয়াকেই সক্ষমতা বলে মনে করা সরলীকৃত দৃষ্টিভঙ্গির খণ্ডন করেন এবং যুক্তি দেন যে, প্রকৃত 'কাদারাহ' (সক্ষমতা) অর্জন করতে হলে এমন আর্থিক অতিরিক্ত সম্পদ থাকতে হবে যা অন্যদের ওপর নির্ভরশীলতা থেকে মুক্ত করে। ইমাম এই সীমারেখাকে জাকাতের নিসাব ২০০ দিরহামের সাথে যুক্ত করে হজ্জ ফরজ হওয়ার জন্য একটি সুনির্দিষ্ট ফিকহী মানদণ্ড প্রতিষ্ঠা করেন এবং জোর দেন যে, ব্যক্তিকে পরিবারের জীবনযাত্রার প্রয়োজনীয় সম্পদ খরচ করে ফেলতে হবে না।",
+        "seo_question": "ইমাম আস-সাদিগের মতে শিয়া ফিকহে হজ্জের জন্য 'সক্ষমতা' (ইস্তিটাআহ)-এর সংজ্ঞা কী?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "আল্লাহর বাক্য",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "যে তাতে পৌঁছানোর সক্ষমতা রাখে (কুরআন ৩:৯৭)",
+          "الزَّادُ": "খাদ্যসামগ্রী/সরবরাহ",
+          "الرَّاحِلَةُ": "বাহন/পশু",
+          "السَّعَةُ": "সম্পদ/অতিরিক্ত ধন",
+          "الزَّكَاةَ": "জাকাত",
+          "مِائَتَيْ دِرْهَمٍ": "দুইশত দিরহাম"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Sadiq (AS) refuta la visión simplista de que la suficiencia del viaje constituye capacidad, argumentando en cambio que la verdadera 'Qadara' requiere un excedente financiero que garantice la independencia de los demás. Al vincular este umbral con el nisab de la Zakat de 200 dirhams, el Imam establece un referente jurisprudencial concreto para el Hajj obligatorio, enfatizando que uno no debe agotar los recursos necesarios para el sustento de su familia.",
+        "seo_question": "¿Cuál es la definición de 'capacidad' (istita'ah) para el Hajj en la jurisprudencia chiita según el Imam al-Sadiq?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "Las Palabras de Allah",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "Quien pueda realizar el viaje hacia él (Corán 3:97)",
+          "الزَّادُ": "Provisiones/Suministros",
+          "الرَّاحِلَةُ": "La montura/Bestia de carga",
+          "السَّعَةُ": "Capacidad/Riqueza/Excedente",
+          "الزَّكَاةَ": "Zakat (impuesto de limosna)",
+          "مِائَتَيْ دِرْهَمٍ": "Doscientos dirhams"
+        }
+      },
+      "fr": {
+        "summary": "Lien entre la capacité financière et le pèlerinage obligatoire selon l'imam al-Sadiq (AS) : une analyse de l'istita'ah",
+        "seo_question": "Quelle est la définition de la capacité (istita'ah) pour le pèlerinage dans la jurisprudence chiite selon l'imam al-Sadiq ?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "Les paroles d'Allah",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "Celui qui peut entreprendre le voyage vers lui (Coran 3:97)",
+          "الزَّادُ": "Les provisions",
+          "الرَّاحِلَةُ": "La monture",
+          "السَّعَةُ": "L'aisance/la richesse/le surplus",
+          "الزَّكَاةَ": "La zakat",
+          "مِائَتَيْ دِرْهَمٍ": "Deux cents dirhams"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Sadiq (AS) widerlegt die vereinfachte Ansicht, dass die bloße Ausreichung der Reisekosten eine Fähigkeit darstelle, und argumentiert stattdessen, dass wahre 'Qadara' einen finanziellen Überschuss erfordert, der die Unabhängigkeit von anderen sicherstellt. Indem der Imam diese Schwelle mit dem Zakat-Nisab von 200 Dirham verbindet, etabliert er einen konkreten juristischen Maßstab für die verpflichtende Haddsch und betont, dass man die Ressourcen für die Versorgung der Familie nicht aufbrauchen darf.",
+        "seo_question": "Was ist die Definition der 'Fähigkeit' (Istita'a) für die Haddsch in der schiitischen Jurisprudenz gemäß Imam al-Sadiq?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "Die Worte Allahs",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "Wer die Möglichkeit hat, zu ihr zu gelangen (Koran 3:97)",
+          "الزَّادُ": "Verpflegung/Vorräte",
+          "الرَّاحِلَةُ": "Das Reittier",
+          "السَّعَةُ": "Kapazität/Vermögen/Überschuss",
+          "الزَّكَاةَ": "Zakat (Almosensteuer)",
+          "مِائَتَيْ دِرْهَمٍ": "Zweihundert Dirham"
+        }
+      },
+      "ru": {
+        "summary": "Имам ас-Садык (да будет с ним мир) опровергает упрощённое мнение о том, что достаточность самого по себе путешествия свидетельствует о способности, утверждая, что истинная «кадара» требует финансового излишка, обеспечивающего независимость от других. Связывая этот порог с нишабом закята в 200 дирхамов, Имам устанавливает конкретный нормативный критерий для обязательного хаджа, подчёркивая, что необходимо не истощать ресурсы, необходимые для пропитания семьи.",
+        "seo_question": "Каково определение «способности» (истита’а) для хаджа в шиитском фикхе согласно Имаму ас-Садыку?",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "Слова Аллаха",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "Кто может совершить к нему путь (Коран 3:97)",
+          "الزَّادُ": "Припасы/Провизия",
+          "الرَّاحِلَةُ": "Верховое животное/Вьючное животное",
+          "السَّعَةُ": "Изобилие/Богатство/Излишек",
+          "الزَّكَاةَ": "Закят (алым-налог)",
+          "مِائَتَيْ دِرْهَمٍ": "Двести дирхамов"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目萨迪格（愿主安之）驳斥了仅凭旅行费用充足即构成能力的简单观点，主张真正的‘能力’（Qadara）需要确保不依赖他人的财务盈余。通过将这一门槛与200迪拉姆的天课起征点（nisab）联系起来，伊玛目为义务朝觐确立了具体的教法学基准，强调个人不应耗尽维持家庭生计所需的资源。",
+        "seo_question": "根据伊玛目萨迪格的观点，什叶派教法学中朝觐的‘能力’（istita'ah）定义是什么？",
+        "key_terms": {
+          "قَوْلِ اللَّهِ": "真主的话语",
+          "مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا": "谁有能力去那里（《古兰经》3:97）",
+          "الزَّادُ": "口粮/补给",
+          "الرَّاحِلَةُ": "坐骑/驮兽",
+          "السَّعَةُ": "宽裕/财富/盈余",
+          "الزَّكَاةَ": "天课",
+          "مِائَتَيْ دِرْهَمٍ": "二百迪拉姆"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:97",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "9:103",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad سُئِلَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا فَقَالَ مَا يَقُولُ النَّاسُ قَالَ فَقِيلَ لَهُ الزَّادُ وَ الرَّاحِلَةُ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) قَدْ سُئِلَ أَبُو جَعْفَرٍ ( عليه السلام ) عَنْ هَذَا فَقَالَ هَلَكَ النَّاسُ إِذاً لَئِنْ كَانَ مَنْ كَانَ لَهُ زَادٌ وَ رَاحِلَةٌ قَدْرَ مَا يَقُوتُ عِيَالَهُ وَ يَسْتَغْنِي بِهِ عَنِ النَّاسِ يَنْطَلِقُ إِلَيْهِ فَيَسْلُبُهُمْ إِيَّاهُ لَقَدْ هَلَكُوا فَقِيلَ لَهُ فَمَا السَّبِيلُ قَالَ فَقَالَ السَّعَةُ فِي الْمَالِ إِذَا كَانَ يَحُجُّ بِبَعْضٍ وَ يُبْقِي بَعْضاً يَقُوتُ بِهِ عِيَالَهُ أَ لَيْسَ قَدْ فَرَضَ اللَّهُ الزَّكَاةَ فَلَمْ يَجْعَلْهَا إِلَّا عَلَى مَنْ يَمْلِكُ مِائَتَيْ دِرْهَمٍ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "سُئِلَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ مَنِ اسْتَطَاعَ إِلَيْهِ سَبِيلًا فَقَالَ مَا يَقُولُ النَّاسُ قَالَ فَقِيلَ لَهُ الزَّادُ وَ الرَّاحِلَةُ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) قَدْ سُئِلَ أَبُو جَعْفَرٍ ( عليه السلام ) عَنْ هَذَا فَقَالَ هَلَكَ النَّاسُ إِذاً لَئِنْ كَانَ مَنْ كَانَ لَهُ زَادٌ وَ رَاحِلَةٌ قَدْرَ مَا يَقُوتُ عِيَالَهُ وَ يَسْتَغْنِي بِهِ عَنِ النَّاسِ يَنْطَلِقُ إِلَيْهِ فَيَسْلُبُهُمْ إِيَّاهُ لَقَدْ هَلَكُوا فَقِيلَ لَهُ فَمَا السَّبِيلُ قَالَ فَقَالَ السَّعَةُ فِي الْمَالِ إِذَا كَانَ يَحُجُّ بِبَعْضٍ وَ يُبْقِي بَعْضاً يَقُوتُ بِهِ عِيَالَهُ أَ لَيْسَ قَدْ فَرَضَ اللَّهُ الزَّكَاةَ فَلَمْ يَجْعَلْهَا إِلَّا عَلَى مَنْ يَمْلِكُ مِائَتَيْ دِرْهَمٍ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+          "name_en": "A number of our companions",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 6
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "ابْنِ مَحْبُوبٍ",
+          "name_en": "Ibn Mahbub",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 10
+        },
+        {
+          "name_ar": "خَالِدِ بْنِ جَرِيرٍ",
+          "name_en": "Khalid b. Jarir",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 368
+        },
+        {
+          "name_ar": "أَبِي الرَّبِيعِ الشَّامِيِّ",
+          "name_en": "Abi al-Rabi' al-Shami",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 344
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

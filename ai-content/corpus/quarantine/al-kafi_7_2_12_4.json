@@ -1,0 +1,278 @@
+{
+  "verse_path": "/books/al-kafi:7:2:12:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] en translation length out of bounds: 2 en words vs 29 ar words (ratio=0.07, expected 11.6-116.0)",
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "economy"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "inheritance",
+      "financial_law",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ رِبْعِيِّ بْنِ عَبْدِ اللَّهِ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ",
+        "translations": {
+          "en": "A number: ",
+          "ur": "ہماری جماعت کے کچھ لوگ احمد بن محمد بن خالد سے، انہوں نے اپنے باپ سے، حماد بن عیسیٰ سے، ربیع بن عبداللہ سے، اور ابو عبداللہ (علیہ السلام) سے روایت کی کہ جب کوئی مرد فوت ہو جائے تو اس کا تلوار، انگوٹھی، مصحف، کتابیں، ریتھ، سواری، اور لباس اس کے سب سے بڑے بیٹے کے لیے ہیں۔ اگر سب سے بڑا بیٹا بیٹی ہو تو پھر سب سے بڑے لڑکے کے لیے ہیں۔",
+          "tr": "Birkaçı:",
+          "fa": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ رِبْعِيِّ بْنِ عَبْدِ اللَّهِ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ  إِذَا مَاتَ الرَّجُلُ فَسَيْفُهُ وَ خَاتَمُهُ وَ مُصْحَفُهُ وَ كُتُبُهُ وَ رَحْلُهُ وَ رَاحِلَتُهُ وَ كِسْوَتُهُ لِأَكْبَرِ وُلْدِهِ فَإِنْ كَانَ الْأَكْبَرُ ابْنَةً فَلِلْأَكْبَرِ مِنَ الذُّكُورِ .",
+          "id": "Sejumlah",
+          "bn": "আমাদের সহকর্মীদের মধ্যে কয়েকজন, আহমদ ইবনে মুহাম্মাদ ইবনে খালিদ, তার পিতা, হাম্মাদ ইবনে ইসা, রিবী ইবনে আবদুল্লাহ, আবু আবদিল্লাহ (আলাইহিস সালাম) থেকে বর্ণনা করেন যে, তিনি বলেন: যখন কোনো পুরুষ মৃত্যুবরণ করেন, তখন তার তলোয়ার, আংটি, মুসহাফ, বই, ঘোড়ার পিঠের আসন, পশু, পোশাক এবং বড় সন্তানের অধীনে থাকে। যদি বড় সন্তান কন্যা হয়, তবে পুরুষ সন্তানের মধ্যে বড় সন্তানের অধীনে থাকে।",
+          "es": "De nosotros, una serie de personas, por Ahmad ibn Muhammad ibn Khalid, por su padre, por Hammad ibn Isa, por Rib'i ibn Abdullah, por Abu Abdullah (la paz sea con él), quien dijo: Cuando muere un hombre, su espada, su anillo, su mus'haf, sus libros, su montura, su animal de carga y su vestimenta son para el mayor de sus hijos; y si el mayor es una hija, entonces para el mayor de los varones.",
+          "fr": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِد بْنِ خَالِدٍ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ رِبْعِيِّ بْنِ عَبْدِ اللَّهِ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ  إِذَا مَاتَ الرَّجُلُ فَسَيْفُهُ وَ خَاتَمُهُ وَ مُصْحَفُهُ وَ كُتُبُهُ وَ رَحْلُهُ وَ رَاحِلَتُهُ وَ كِسْوَتُهُ لِأَكْبَرِ وُلْدِهِ فَإِنْ كَانَ الْأَكْبَرُ ابْنَةً فَلِلْأَكْبَرِ مِنَ الذُّكُورِ .",
+          "de": "Eine Anzahl:",
+          "ru": "От нас передали несколько человек, среди которых:",
+          "zh": "عدد من أصحابنا عن أحمد بن محمد بن خالد عن أبيه عن حماد بن عيسى عن ربعي بن عبد الله عن أبي عبد الله ( عليه السلام ) قال إذا مات الرجل فسيفه وخاتمه ومصحفه وكتبه ورحله وراحلتُه وكسوته لأكبر ولده فإن كان الأكبر ابنة فللأكبر من الذكور."
+        },
+        "word_start": 0,
+        "word_end": 29
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِذَا مَاتَ الرَّجُلُ فَسَيْفُهُ وَ خَاتَمُهُ وَ مُصْحَفُهُ وَ كُتُبُهُ وَ رَحْلُهُ وَ رَاحِلَتُهُ وَ كِسْوَتُهُ لِأَكْبَرِ وُلْدِهِ فَإِنْ كَانَ الْأَكْبَرُ ابْنَةً فَلِلْأَكْبَرِ مِنَ الذُّكُورِ",
+        "translations": {
+          "en": "When a man dies, his sword, his ring, his Mushaf (Quran codex), his books, his saddle, his mount, and his clothing belong to the eldest of his children; and if the eldest is a daughter, then it belongs to the eldest of the males.",
+          "ur": "جب ایک مرد فوت ہوتا ہے تو اس کی تلوار، اس کی انگھیتی، اس کا مصحف (قرآن کی نسخہ)، اس کی کتابیں، اس کا زین، اس کا سواری جانور، اور اس کے کپڑے اس کے بڑے بیٹے کے حصے میں آتے ہیں؛ اور اگر بڑا بیٹا بیٹی ہو تو یہ سب بڑے مرد کے حصے میں آتے ہیں۔",
+          "tr": "Bir adam öldüğünde, kılıcı, yüzüğü, mushafı (Kur'an-ı Kerim cildi), kitapları, eyeri, bineği ve giysileri en büyük evladına aittir; eğer en büyük evlat kız ise, bu mallar erkek çocuklar arasında en büyüğe aittir.",
+          "fa": "هنگامی که مردی می‌میرد، شمشیر، حلقه، مصحف (کتاب قرآن)، کتاب‌ها، زین، مرکب و لباس‌های او متعلق به بزرگ‌ترین فرزندش است؛ و اگر بزرگ‌ترین فرزند دختر باشد، آنگاه متعلق به بزرگ‌ترین پسران است.",
+          "id": "Apabila seorang pria meninggal, pedangnya, cincinnya, Mushaf-nya (kumpulan ayat Al-Qur'an), kitab-kitabnya, pelana tunggangannya, hewan tunggangannya, dan pakaiannya menjadi hak anak tertua; dan jika anak tertua adalah seorang putri, maka hak tersebut menjadi hak anak laki-laki tertua.",
+          "bn": "যখন একজন পুরুষ মৃত্যুবরণ করেন, তখন তাঁর তলোয়ার, তাঁর আংটি, তাঁর মুশাফ (কুরআনের খাতা), তাঁর বই, তাঁর ঘোড়ার পিঠের আসন, তাঁর পশু এবং তাঁর পোশাক তাঁর সন্তানদের মধ্যে জ্যেষ্ঠের অধিকারে থাকে; আর যদি জ্যেষ্ঠ সন্তান কন্যা হয়, তবে তা পুরুষদের মধ্যে জ্যেষ্ঠের অধিকারে থাকে।",
+          "es": "Cuando muere un hombre, su espada, su anillo, su Musaf (códice del Corán del Corán), sus libros, su silla de montar, su montura y su ropa pertenecen al mayor de sus hijos; y si el mayor es una hija, entonces pertenecen al mayor de los varones.",
+          "fr": "Lorsqu'un homme meurt, son épée, son anneau, son Mushaf (codex du Coran), ses livres saint), ses livres, sa selle, sa monture et ses vêtements appartiennent à l'aîné de ses enfants ; et si l'aîné est une fille, alors ils appartiennent à l'aîné des mâles.",
+          "de": "Wenn ein Mann stirbt, gehören sein Schwert, sein Ring, sein Mushaf (Koran-Codex), seine Bücher, sein Sattel, sein Reittier und seine Kleidung dem ältesten seiner Kinder; und wenn das älteste Kind eine Tochter ist, dann gehört es dem ältesten der Männer.",
+          "ru": "Когда умирает мужчина, его меч, его кольцо, его Мусхаф (свод Корана), его книги, его седло, его верховое животное и его одежда принадлежат старшему из его детей; а если старший — дочь, то они принадлежат старшему из мужчин.",
+          "zh": "当一个人去世时，他的剑、他的戒指、他的古兰经抄本、他的书籍、他的鞍、他的坐骑和他的衣物归他最年长的子女所有；如果最年长的是女儿，则归他最年长的男性所有。"
+        },
+        "word_start": 29,
+        "word_end": 54
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Al-Kafi* establishes the principle of preferential inheritance for the eldest child, specifically regarding the deceased's personal effects like his sword, ring, Quran, and books. It clarifies that while the eldest son inherits these items, if the eldest is a daughter, the right passes to the eldest son, reflecting the Shia juristic view on the distribution of specific personal assets distinct from the general estate.",
+        "seo_question": "Who inherits a deceased man's personal items like his sword, Quran, and books according to Shia jurisprudence?",
+        "key_terms": {
+          "مُصْحَفُهُ": "His Mushaf (Quran codex)",
+          "رَحْلُهُ": "His saddle (riding gear)",
+          "رَاحِلَتُهُ": "His mount (animal for riding)",
+          "أَكْبَرِ وُلْدِهِ": "The eldest of his children",
+          "الذُّكُورِ": "The males"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث *الکافی* سے ہے جو کہ بڑے بچے کو ترجیحی وراثت کا اصول قائم کرتی ہے، خاص طور پر متوفی کی ذاتی اشیاء جیسے اس کا تلوار، انگوٹھی، قرآن اور کتابوں کے حوالے سے۔ یہ واضح کرتی ہے کہ اگرچہ بڑا بیٹا ان اشیاء کا وارث ہوتا ہے، لیکن اگر بڑا بچہ بیٹی ہو تو یہ حق بڑے بیٹے کو منتقل ہو جاتا ہے، جو خاص ذاتی اثاثوں کی تقسیم کے شیعہ فقہی نقطہ نظر کو ظاہر کرتا ہے۔ | کون سا شیعہ فقہ کے مطابق ایک مرد متوفی کی ذاتی اشیاء جیسے اس کی تلوار، قرآن اور کتابوں کا وارث ہوتا ہے؟ | [",
+        "seo_question": "کون سا شیعہ فقہ کے مطابق ایک مرد متوفی کی ذاتی اشیاء جیسے اس کی تلوار، قرآن اور کتابوں کا وارث ہوتا ہے؟",
+        "key_terms": {
+          "مُصْحَفُهُ": "اس کا مصحف (قرآن کی نسخہ)",
+          "رَحْلُهُ": "اس کا رَحْل (سوار ہونے کا سامان)",
+          "رَاحِلَتُهُ": "اس کا راحلتہ (سوار ہونے کا جانور)",
+          "أَكْبَرِ وُلْدِهِ": "اس کے بچوں میں سے سب سے بڑا",
+          "الذُّكُورِ": "مرد"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, *el-Kâfî*’de en büyük çocuğa ait eşyaların mirasta öncelikli olarak alınması ilkesini, özellikle ölenin kılıcı, yüzüğü, Kur’ân-ı Kerîmi ve kitapları gibi kişisel eşyaları kapsamında belirler. En büyük oğul bu eşyaları miras alır; ancak en büyük çocuk kız ise, bu hak en büyük oğula geçer. Bu durum, genel mirastan farklı olarak belirli kişisel varlıkların dağılımına ilişkin Şii fıkıh görüşünü yansıtır.",
+        "seo_question": "Şii fıkıhına göre bir erkeğin kılıcı, Kur’ân-ı Kerîmi ve kitapları gibi kişisel eşyalarını kim miras alır?",
+        "key_terms": {
+          "مُصْحَفُهُ": "Onun mushafı (Kur'ân-ı Kerîm cüzü)",
+          "رَحْلُهُ": "Onun eyeri (binilik teçhizatı)",
+          "رَاحِلَتُهُ": "Onun bineği (binmek için kullanılan hayvan)",
+          "أَكْبَرِ وُلْدِهِ": "Çocuklarının en büyüğü",
+          "الذُّكُورِ": "Erkekler"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی اصل ترجیح ارث برای فرزند ارشد را تثبیت می‌کند، به‌ویژه در مورد اشیاء شخصی متوفی مانند شمشیر، حلق، قرآن و کتاب‌هایش. آن را روشن می‌سازد که اگرچه پسر ارشد این اشیاء را ارث می‌برد، اگر ارشد دختر باشد، حق به پسر ارشد منتقل می‌شود که این بازتاب دیدگاه فقهی شیعه در توزیع دارایی‌های شخصی خاص متمایز از کل ترکه است.",
+        "seo_question": "چه کسی اشیاء شخصی یک مرد متوفی مانند شمشیر، قرآن و کتاب‌هایش را طبق فقه شیعه ارث می‌برد؟",
+        "key_terms": {
+          "مُصْحَفُهُ": "مصحف او (مصحف قرآن)",
+          "رَحْلُهُ": "زین او (تجهیزات سواری)",
+          "رَاحِلَتُهُ": "سوار او (حیوان سواری)",
+          "أَكْبَرِ وُلْدِهِ": "فرزند ارشد او",
+          "الذُّكُورِ": "مردان"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Al-Kafi* ini menetapkan prinsip preferensi waris bagi anak tertua, khususnya mengenai barang pribadi almarhum seperti pedangnya, cincinnya, Al-Quran, dan buku-bukunya. Hadis ini menjelaskan bahwa meskipun anak laki-laki tertua mewarisi barang-barang tersebut, jika anak tertua adalah perempuan, hak tersebut beralih kepada anak laki-laki tertua, mencerminkan pandangan fikih Syiah mengenai distribusi aset pribadi tertentu yang berbeda dari harta warisan umum.",
+        "seo_question": "Siapa yang mewarisi barang pribadi seorang pria yang meninggal dunia seperti pedang, Al-Quran, dan buku-bukunya menurut fikih Syiah?",
+        "key_terms": {
+          "مُصْحَفُهُ": "Mushafnya (kumpulan Al-Quran)",
+          "رَحْلُهُ": "Pelana (perlengkapan berkuda)",
+          "رَاحِلَتُهُ": "Kendaraannya (hewan untuk ditunggangi)",
+          "أَكْبَرِ وُلْدِهِ": "Anak tertua dari anak-anaknya",
+          "الذُّكُورِ": "Para laki-laki"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে বংশধরের প্রাধান্যের নীতি প্রতিষ্ঠা করে, বিশেষ করে মৃতের ব্যক্তিগত জিনিসপত্র যেমন তাঁর তলোয়ার, আংটি, কুরআন এবং বইয়ের ক্ষেত্রে। এটি স্পষ্ট করে যে যদি প্রথম সন্তান ছেলে হয় তবে তিনি এই জিনিসগুলো উত্তরাধিকারী হন, কিন্তু যদি প্রথম সন্তান মেয়ে হয়, তবে এই অধিকার প্রথম ছেলের দিকে যায়, যা সাধারণ সম্পত্তি থেকে আলাদা নির্দিষ্ট ব্যক্তিগত সম্পদের বণ্টনে শিয়া ফিকহের দৃষ্টিভঙ্গি প্রতিফলিত করে।",
+        "seo_question": "শিয়া ফিকহ অনুযায়ী একজন মৃত পুরুষের ব্যক্তিগত জিনিসপত্র যেমন তাঁর তলোয়ার, কুরআন এবং বই কে উত্তরাধিকারী হন?",
+        "key_terms": {
+          "مُصْحَفُهُ": "তাঁর মুশাহ (কুরআন)",
+          "رَحْلُهُ": "তাঁর ঘোড়ার আসন",
+          "رَاحِلَتُهُ": "তাঁর পশু (চড়ার পশু)",
+          "أَكْبَرِ وُلْدِهِ": "তাঁর সন্তানদের মধ্যে জ্যেষ্ঠ",
+          "الذُّكُورِ": "পুরুষরা"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de *Al-Kafi* establece el principio de herencia preferente para el hijo mayor, específicamente en relación con los efectos personales del difunto como su espada, anillo, Corán y libros. Aclara que, aunque el hijo mayor hereda estos objetos, si el mayor es una hija, el derecho pasa al hijo mayor, reflejando la visión jurisdiccional chií sobre la distribución de activos personales específicos distintos del patrimonio general.",
+        "seo_question": "¿Quién hereda los objetos personales de un hombre difunto como su espada, el Corán y los libros según la jurisprudencia chií?",
+        "key_terms": {
+          "مُصْحَفُهُ": "Su Mushaf (códice del Corán)",
+          "رَحْلُهُ": "Su silla de montar (equitación)",
+          "رَاحِلَتُهُ": "Su montura (animal para montar)",
+          "أَكْبَرِ وُلْدِهِ": "El mayor de sus hijos",
+          "الذُّكُورِ": "Los varones"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Al-Kafi* établit le principe de la préférence d'héritage pour l'aîné, spécifiquement concernant les effets personnels du défunt comme son épée, son anneau, son Coran et ses livres. Il clarifie que bien que le fils aîné hérite de ces objets, si l'aîné est une fille, le droit passe au fils aîné, reflétant la vue jurisprudentielle chiite sur la distribution des actifs personnels spécifiques distincts de la succession générale. ",
+        "seo_question": "Qui hérite des effets personnels d'un homme défunt comme son épée, son Coran et ses livres selon la jurisprudence chiite ?",
+        "key_terms": {
+          "مُصْحَفُهُ": "Son Mushaf (codex du Coran)",
+          "رَحْلُهُ": "Son selle (équipement de selle)",
+          "رَاحِلَتُهُ": "Sa monture (animal pour chevaucher)",
+          "أَكْبَرِ وُلْدِهِ": "L'aîné de ses enfants",
+          "الذُّكُورِ": "Les mâles"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Al-Kafi* begründet das Prinzip der bevorzugten Erbschaft für das älteste Kind, insbesondere in Bezug auf die persönlichen Gegenstände des Verstorbenen wie sein Schwert, seinen Ring, sein Buch und seine Bücher. Es wird klargestellt, dass der älteste Sohn diese Gegenstände erbt; wenn das älteste Kind jedoch eine Tochter ist, geht das Recht auf den ältesten Sohn über, was die schiitische juristische Sichtweise zur Verteilung spezifischer persönlicher Vermögenswerte, die vom allgemeinen Nachlass getrennt sind, widerspiegelt.",
+        "seo_question": "Wer erbt die persönlichen Gegenstände eines verstorbenen Mannes wie sein Schwert, sein Buch und seine Bücher nach der schiitischen Rechtslehre?",
+        "key_terms": {
+          "مُصْحَفُهُ": "Sein Mushaf (Koran-Codex)",
+          "رَحْلُهُ": "Sein Sattel (Reitausrüstung)",
+          "رَاحِلَتُهُ": "Sein Reittier (Tier zum Reiten)",
+          "أَكْبَرِ وُلْدِهِ": "Der Älteste seiner Kinder",
+          "الذُّكُورِ": "Die Männer"
+        }
+      },
+      "ru": {
+        "summary": "Энтони: ",
+        "seo_question": "Кто наследует личные вещи умершего мужчины, такие как его меч, Коран и книги, согласно шиитскому праву?",
+        "key_terms": {
+          "مُصْحَفُهُ": "Его мусхаф (свод Корана)",
+          "رَحْلُهُ": "Его седло (верховое снаряжение)",
+          "رَاحِلَتُهُ": "Его верховое животное",
+          "أَكْبَرِ وُلْدِهِ": "Старший из его детей",
+          "الذُّكُورِ": "Мужчины"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《卡菲》的圣训确立了长子优先继承的原则，具体涉及死者的个人物品如他的剑、戒指、古兰经和书籍。它澄清说，虽然长子继承这些物品，但如果长女是女儿，权利传给长子，反映了什叶派法学关于特定个人资产与一般遗产分配不同的观点。",
+        "seo_question": "根据什叶派法学，谁继承死者的个人物品如他的剑、古兰经和书籍？",
+        "key_terms": {
+          "مُصْحَفُهُ": "他的古兰经抄本",
+          "رَحْلُهُ": "他的鞍具",
+          "رَاحِلَتُهُ": "他的坐骑",
+          "أَكْبَرِ وُلْدِهِ": "他的孩子中最年长的",
+          "الذُّكُورِ": "男性"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "4:11",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ رِبْعِيِّ بْنِ عَبْدِ اللَّهِ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ إِذَا مَاتَ الرَّجُلُ فَسَيْفُهُ وَ خَاتَمُهُ وَ مُصْحَفُهُ وَ كُتُبُهُ وَ رَحْلُهُ وَ رَاحِلَتُهُ وَ كِسْوَتُهُ لِأَكْبَرِ وُلْدِهِ فَإِنْ كَانَ الْأَكْبَرُ ابْنَةً فَلِلْأَكْبَرِ مِنَ الذُّكُورِ",
+    "isnad_matn": {
+      "isnad_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ عَنْ أَبِيهِ عَنْ حَمَّادِ بْنِ عِيسَى عَنْ رِبْعِيِّ بْنِ عَبْدِ اللَّهِ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ",
+      "matn_ar": "إِذَا مَاتَ الرَّجُلُ فَسَيْفُهُ وَ خَاتَمُهُ وَ مُصْحَفُهُ وَ كُتُبُهُ وَ رَحْلُهُ وَ رَاحِلَتُهُ وَ كِسْوَتُهُ لِأَكْبَرِ وُلْدِهِ فَإِنْ كَانَ الْأَكْبَرُ ابْنَةً فَلِلْأَكْبَرِ مِنَ الذُّكُورِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+          "name_en": "A number of our companions",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 6
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ",
+          "name_en": "Ahmad b. Muhammad b. Khalid",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 12
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "حَمَّادِ بْنِ عِيسَى",
+          "name_en": "Hammad ibn Isa",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 38
+        },
+        {
+          "name_ar": "رِبْعِيِّ بْنِ عَبْدِ اللَّهِ",
+          "name_en": "Rib'i ibn Abdillah",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 192
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

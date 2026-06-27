@@ -1,0 +1,304 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:2:2:13",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[2] name_ar has 29 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'أَبي الحَسَن الرِّضا عَلَيْهِ السَّلامُ قالَ: إِنَّمَا سُمِّ'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "prophetic_tradition",
+      "jurisprudence"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "prophets",
+      "prophethood",
+      "abrogation",
+      "imamate"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدِ بْنِ سَعِيدٍ الْكُوفِيُّ الْهَمْدَانِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ الْحَسَنِ بْنِ عَلِيِّ بْنِ فَضَالٍ، عَنْ أَبِيهِ، عَنْ أَبِي الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "Muhammad ibn Ibrahim ibn Ishaq al-Taliqani (may God be pleased with him) narrated that Ahmad ibn Muhammad ibn Sa'id al-Kufi al-Hamdani narrated that Ali ibn al-Hasan ibn Ali ibn Fadhal, on the authority of his father, from Abu al-Hasan al-Rida (peace be upon him)",
+          "ur": "محمد بن ابراہیم بن اسحاق طالقانی رضی اللہ عنہ نے بیان کیا کہ احمد بن محمد بن سعید کوفی حمدانی نے بیان کیا کہ علی بن الحسن بن علی بن فضل، اپنے والد کی سند سے، ابوالحسن الرضا علیہ السلام سے روایت کرتے ہیں کہ:",
+          "tr": "Muhammed ibn İbrahim ibn İshak et-Talikani (Allah ondan razı olsun) rivayet etti ki, Ahmed ibn Muhammed ibn Said el-Kufi el-Hamdani rivayet etti ki, Ali ibn el-Hasan ibn Ali ibn Fadhıl, babasından, Ebu el-Hasen er-Rıza'dan (aleyhisselam) rivayet etti.",
+          "fa": "محمد بن ابراهیم بن اسحاق طالقانی (رضی الله عنه) روایت کرد که احمد بن محمد بن سعید کوفی حمدانی روایت کرد که علی بن حسن بن علی بن فضل، از پدرش، از ابوالحسن الرضا (علیه السلام)",
+          "id": "Muhammad ibn Ibrahim ibn Ishaq al-Taliqani (ra) meriwayatkan bahwa Ahmad ibn Muhammad ibn Sa'id al-Kufi al-Hamdani meriwayatkan bahwa Ali ibn al-Hasan ibn Ali ibn Fadhal, dari ayahnya, dari Abu al-Hasan al-Rida (alaihissalam)",
+          "bn": "মুহাম্মাদ ইবনে ইব্রাহীম ইবনে ইসহাক আত-তালিকানী (রাদিয়াল্লাহু আনহু) বর্ণনা করেন যে, আহমাদ ইবনে মুহাম্মাদ ইবনে সাঈদ আল-কুফী আল-হামদানী বর্ণনা করেন যে, আলী ইবনে আল-হাসান ইবনে আলী ইবনে ফাডল, তাঁর পিতার মাধ্যমে, আবু আল-হাসান আর-রিদা (আলাইহিস সালাম) থেকে বর্ণনা করেন",
+          "es": "Narró Muhammad ibn Ibrahim ibn Ishaq al-Taliqani (que Dios esté complacido con él) que Ahmad ibn Muhammad ibn Sa'id al-Kufi al-Hamdani narró que Ali ibn al-Hasan ibn Ali ibn Fadhal, por autoridad de su padre, de Abu al-Hasan al-Rida (la paz sea con él)",
+          "fr": "Muhammad ibn Ibrahim ibn Ibrahim ibn Ishaq al-Taliqani (que Dieu l'agrée) a rapporté qu'Ahmad ibn Muhammad ibn Sa'id al-Kufi al-Hamdani a rapporté qu'Ali ibn al-Hasan ibn Ali ibn Fadhal, sur l'autorité de son père, d'Abu al-Hasan al-Rida (que la paix soit sur lui)",
+          "de": "Muhammad ibn Ibrahim ibn Ishaq al-Taliqani (möge Gott mit ihm zufrieden sein) überlieferte, dass Ahmad ibn Muhammad ibn Sa'id al-Kufi al-Hamdani überlieferte, dass Ali ibn al-Hasan ibn Ali ibn Fadhal, auf Autorität seines Vaters, von Abu al-Hasan al-Rida (Friede sei mit ihm)",
+          "ru": "Рассказал нам Мухаммад ибн Ибрахим ибн Исхак ат-Таликани (да будет доволен им Аллах), что рассказал нам Ахмад ибн Мухаммад ибн Саид аль-Куфи аль-Хамдани, что рассказал нам Али ибн аль-Хасан ибн Али ибн Фадаль, от своего отца, от Абу аль-Хасана ар-Риды (мир ему)",
+          "zh": "穆罕默德·本·易卜拉欣·本·伊萨格·塔利卡尼（愿主喜悦之）传述，艾哈迈德·本·穆罕默德·本·赛义德·库菲·哈姆达尼传述，阿里·本·哈桑·本·阿里·本·法德尔，从其父传述，从艾布·哈桑·里达（愿主赐安）传述"
+        },
+        "word_start": 0,
+        "word_end": 36
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ: إِنَّمَا سُمِّيَ أُولُو الْعَزْمِ أُولِي الْعَزْمِ لِأَنَّهُمْ كَانُوا أَصْحَابَ الْعَزَائِمِ وَالشَّرَائِعِ وَذَلِكَ أَنَّ كُلَّ نَبِيٍّ كَانَ بَعْدَ نُوحٍ كَانَ عَلَى شَرِيعَتِهِ وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ إِبْرَاهِيمَ الْخَلِيلِ وَكُلَّ نَبِيٍّ كَانَ فِي أَيَّامِ إِبْرَاهِيمَ وَبَعْدَهُ كَانَ عَلَى شَرِيعَةِ إِبْرَاهِيمَ وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ مُوسَى وَكُلَّ نَبِيٍّ كَانَ فِي زَمَنِ مُوسَى وَبَعْدَهُ كَانَ عَلَى شَرِيعَةِ مُوسَى وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى أَيَّامِ عِيسَى وَكُلَّ نَبِيٍّ كَانَ فِي أَيَّامِ عِيسَى وَبَعْدَهُ كَانَ عَلَى مِنْهَاجِ عِيسَى وَشَرِيعَتِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَهَؤُلَاءِ الْخَمْسَةُ أُولُو الْعَزْمِ وَهُمْ أَفْضَلُ الْأَنْبِيَاءِ وَالرُّسُلِ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "He said: The Possessors of Steadfastness are called so because they were the possessors of major decrees and laws. This is because every prophet who came after Noah followed his law and methodology and adhered to his book until the time of Abraham the Friend. And every prophet who was in the days of Abraham and after him followed Abraham's law and methodology and adhered to his book until the time of Moses. And every prophet who was in the time of Moses and after him followed Moses' law and methodology and adhered to his book until the days of Jesus. And every prophet who was in the days of Jesus and after him followed Jesus' methodology and law and adhered to his book until the time of our Prophet Muhammad (peace be upon him and his family). Therefore, these five are the Possessors of Steadfastness, and they are the best of the prophets and messengers (peace be upon them).",
+          "ur": "انہوں نے کہا: صابرین (ذوی العزم) کو) اسی لیے کہا جاتا ہے کیونکہ وہ عظیم احکام اور شریعت کے مالک تھے۔ یہ اس لیے کہ ہر نبی جو نوح علیہ السلام کے بعد آیا، ان کی شریعت اور طریقہ کار کی پیروی کرتا رہا اور ان کی کتاب پر عمل پیرا رہا، یہاں تک کہ ابراہیم الخلیل علیہ السلام کا زمانہ آیا۔ اور ہر نبی جو ابراہیم علیہ السلام کے دور میں اور ان کے بعد آیا، ابراہیم علیہ السلام کی شریعت اور طریقہ کار کی پیروی کرتا رہا اور ان کی کتاب پر عمل پیرا رہا، یہاں تک کہ موسیٰ علیہ السلام کا زمانہ آیا۔ اور ہر نبی جو موسیٰ علیہ السلام کے دور میں اور ان کے بعد آیا، موسیٰ علیہ السلام کی شریعت اور طریقہ کار کی پیروی کرتا رہا اور ان کی کتاب پر عمل پیرا رہا، یہاں تک کہ عیسیٰ علیہ السلام کا زمانہ آیا۔ اور ہر نبی جو عیسیٰ علیہ السلام کے دور میں اور ان کے بعد آیا، عیسیٰ علیہ السلام کی طریقہ کار اور شریعت کی پیروی کرتا رہا اور ان کی کتاب پر عمل پیرا رہا، یہاں تک کہ ہمارے نبی محمد صلی اللہ علیہ وآلہ وسلم کا زمانہ آیا۔ لہٰذا، یہ پانچ ذوی العزم ہیں، اور وہ تمام انبیاء اور رسولوں میں بہترین ہیں (علیہم السلام)۔",
+          "tr": "Dedi ki: Sabırlılar, büyük hükümlerin ve şeriatların sahipleri oldukları için bu isimle anılırlar. Çünkü Nuh'tan sonra gelen her peygamber, onun şeriatına ve metoduna uydu ve onun kitabına sarıldı; İbrahim Halilullah zamanına kadar. İbrahim ve ondan sonra gelen her peygamber, İbrahim'in şeriatına ve metoduna uydu ve onun kitabına sarıldı; Musa zamanına kadar. Musa ve ondan sonra gelen her peygamber, Musa'nın şeriatına ve metoduna uydu ve onun kitabına sarıldı; İsa zamanına kadar. İsa ve ondan sonra gelen her peygamber, İsa'nın metoduna ve şeriatına uydu ve onun kitabına sarıldı; bizim Peygamberimiz Muhammed'e (Allah'ın salât ve selamı olsun kendisine ve ailesine) kadar. Dolayısıyla, bu beşi Sabırlılar'dır ve onlar peygamberlerin ve elçilerin en hayırlılarıdır (Allah'ın selamı olsun onlara).",
+          "fa": "گفت: صاحبان استقامت به این سبب صاحبان استقامت نامیده می‌شوند که آنان صاحبان شریعت‌های بزرگ و احکام بودند. زیرا هر پیامبری که پس از نوح آمد، از شریعت و روش او پیروی کرد و به کتاب او پایبند ماند تا زمان ابراهیم خلیل‌الله. و هر پیامبری که در روزگار ابراهیم و پس از او بود، از شریعت و روش ابراهیم پیروی کرد و به کتاب او پایبند ماند تا زمان موسی. و هر پیامبری که در زمان موسی و پس از او بود، از شریعت و روش موسی پیروی کرد و به کتاب او پایبند ماند تا روزگار عیسی. و هر پیامبری که در روزگار عیسی و پس از او بود، از روش و شریعت عیسی پیروی کرد و به کتاب او پایبند ماند تا زمان پیامبر ما محمد (صلی الله علیه و آله). بنابراین، این پنج نفر صاحبان استقامت هستند و آنان بهترین پیامبران و رسولان (علیهم السلام) می‌باشند.",
+          "id": "Ia berkata: Para Pemilik Keteguhan disebut demikian karena mereka adalah pemilik hukum-hukum besar dan syariat. Hal ini karena setiap nabi yang datang setelah Nuh mengikuti syariat dan manhajnya serta berpegang pada kitabnya hingga masa Ibrahim Al-Khalil. Dan setiap nabi yang berada pada masa Ibrahim dan setelahnya mengikuti syariat dan manhaj Ibrahim serta berpegang pada kitabnya hingga masa Musa. Dan setiap nabi yang berada pada masa Musa dan setelahnya mengikuti syariat dan manhaj Musa serta berpegang pada kitabnya hingga masa Isa. Dan setiap nabi yang berada pada masa Isa dan setelahnya mengikuti manhaj dan syariat Isa serta berpegang pada kitabnya hingga masa Nabi kita Muhammad (shalat dan salam Allah atasnya dan keluarganya). Oleh karena itu, kelima orang inilah yang merupakan Para Pemilik Keteguhan, dan mereka adalah yang terbaik di antara para nabi dan rasul (salam Allah atas mereka).",
+          "bn": "তিনি বললেন: দৃঢ়সংকল্পবানদেরকে এই নাম দেওয়া হয়েছে কারণ তারা ছিলেন প্রধান ফরয ও শরীয়তের অধিকারী। কারণ নূহ (আ.)-এর পরে আগত প্রতিটি নবী তাঁর শরীয়ত ও পদ্ধতি অনুসরণ করেছিলেন এবং তাঁর কিতাবের ওপর আমল করেছেন আব্রাহাম খলিলুল্লাহর সময় পর্যন্ত। আর আব্রাহামের যুগে এবং তাঁর পরে আগত প্রতিটি নবী আব্রাহামের শরীয়ত ও পদ্ধতি অনুসরণ করেছিলেন এবং তাঁর কিতাবের ওপর আমল করেছেন মুসা (আ.)-এর সময় পর্যন্ত। আর মুসা (আ.)-এর যুগে এবং তাঁর পরে আগত প্রতিটি নবী মুসার শরীয়ত ও পদ্ধতি অনুসরণ করেছিলেন এবং তাঁর কিতাবের ওপর আমল করেছিলেন ঈসা (আ.)-এর সময় পর্যন্ত। আর ঈসা (আ.)-এর যুগে এবং তাঁর পরে আগত প্রতিটি নবী ঈসার পদ্ধতি ও শরীয়ত অনুসরণ করেছিলেন এবং তাঁর কিতাবের ওপর আমল করেছিলেন আমাদের নবী মুহাম্মদ (স.)-এর সময় পর্যন্ত। সুতরাং, এই পাঁচজনই হলেন দৃঢ়সংকল্পবান, এবং তারা হলেন নবী ও রাসূলদের মধ্যে শ্রেষ্ঠ (আলাইহিমুস সালাম)।",
+          "es": "Dijo: Los Portadores de la Constancia son llamados así porque poseían las grandes leyes y decretos. Esto se debe a que cada profeta que vino después de Noé siguió su ley y metodología y se adhirió a su libro hasta el tiempo de Abraham, el Amigo. Y cada profeta que estuvo en los días de Abraham y después de él siguió la ley y metodología de Abraham y se adhirió a su libro hasta el tiempo de Moisés. Y cada profeta que estuvo en el tiempo de Moisés y después de él siguió la ley y metodología de Moisés y se adhirió a su libro hasta los días de Jesús. Y cada profeta que estuvo en los días de Jesús y después de él siguió la metodología y ley de Jesús y se adhirió a su libro hasta el tiempo de nuestro Profeta Muhammad (que la paz sea con él y con su familia). Por lo tanto, estos cinco son los Portadores de la Constancia, y son los mejores de los profetas y mensajeros (que la paz sea con ellos).",
+          "fr": "Il a dit : Les Déteneurs de la Fermeté sont appelés ainsi parce qu'ils étaient les détenteurs des grandes décrets et lois. En effet, chaque prophète qui est venu après Noé a suivi sa loi et sa méthodologie et s'est tenu à son livre jusqu'à l'époque d'Abraham l'Ami. Et chaque prophète qui était aux jours d'Abraham et après lui a suivi la loi et la méthodologie d'Abraham et s'est tenu à son livre jusqu'à l'époque de Moïse. Et chaque prophète qui était à l'époque de Moïse et après lui a suivi la loi et la méthodologie de Moïse et s'est tenu à son livre jusqu'aux jours de Jésus. Et chaque prophète qui était aux jours de Jésus et après lui a suivi la méthodologie et la loi de Jésus et s'est tenu à son livre jusqu'à l'époque de notre Prophète Muhammad (que la paix soit sur lui et sur sa famille). Par conséquent, ces cinq sont les Déteneurs de la Fermeté, et ils sont les meilleurs des prophètes et des messagers (que la paix soit sur eux).",
+          "de": "Er sagte: Die Inhaber der Standhaftigkeit werden so genannt, weil sie die Inhaber der großen Gebote und Gesetze waren. Denn jeder Prophet, der nach Noah kam, folgte seinem Gesetz und seiner Methode und hielt sich an sein Buch, bis zur Zeit Abrahams, des Freundes Gottes. Und jeder Prophet, der in den Tagen Abrahams und nach ihm lebte, folgte dem Gesetz und der Methode Abrahams und hielt sich an sein Buch, bis zur Zeit Moses. Und jeder Prophet, der in der Zeit Moses und nach ihm lebte, folgte dem Gesetz und der Methode Moses und hielt sich an sein Buch, bis zu den Tagen Jesu. Und jeder Prophet, der in den Tagen Jesu und nach ihm lebte, folgte der Methode und dem Gesetz Jesu und hielt sich an sein Buch, bis zur Zeit unseres Propheten Muhammad (Friede sei mit ihm und seiner Familie). Daher sind diese fünf die Inhaber der Standhaftigkeit, und sie sind die Besten der Propheten und Gesandten (Friede sei mit ihnen).",
+          "ru": "Он сказал: Обладатели стойкости называются так, потому что они были обладателями великих предписаний и законов. Это потому, что каждый пророк, пришедший после Ноя, следовал его закону и методологии и придерживался его книги до времени Авраама, Друга Бога. И каждый пророк, который был в дни Авраама и после него, следовал закону и методологии Авраама и придерживался его книги до времени Моисея. И каждый пророк, который был во времена Моисея и после него, следовал закону и методологии Моисея и придерживался его книги до дней Исы. И каждый пророк, который был в дни Исы и после него, следовал методологии и закону Исы и придерживался его книги до времени нашего пророка Мухаммада (мир ему и его семье). Поэтому эти пятеро — Обладатели стойкости, и они лучшие из пророков и посланников (мир им).",
+          "zh": "他说：坚忍者之所以被称为坚忍者，是因为他们是重大法令和律法的拥有者。这是因为自努哈（挪亚）之后来的每一位先知都遵循他的律法和道统，并坚守他的经典，直到易卜拉欣（亚伯拉罕）尊者的时代。而在易卜拉欣时代及其后出现的每一位先知，都遵循易卜拉欣的律法和道统，并坚守他的经典，直到穆萨（摩西）的时代。而在穆萨时代及其后出现的每一位先知，都遵循穆萨的律法和道统，并坚守他的经典，直到尔萨（耶稣）的时代。而在尔萨时代及其后出现的每一位先知，都遵循尔萨的道统和律法，并坚守他的经典，直到我们的先知穆罕默德（愿主福安之及其家属）的时代。因此，这五位是坚忍者，他们是众先知和使者中最优秀者（愿主福安之）。"
+        },
+        "word_start": 36,
+        "word_end": 131
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَشَرِيعَةُ مُحَمَّدٍ لَا تُنْسَخُ إِلَى يَوْمِ الْقِيَامَةِ وَلَا نَبِيَّ بَعْدَهُ إِلَى يَوْمِ الْقِيَامَةِ فَمَنِ ادَّعَى بَعْدَهُ نُبُوَّةً أَوْ أَتَى بَعْدَ الْقُرْآنِ بِكِتَابٍ فَدَمُهُ مُبَاحٌ لِكُلِّ مَنْ سَمِعَ ذَلِكَ مِنْهُ.",
+        "translations": {
+          "en": "The law of Muhammad will not be abrogated until the Day of Resurrection, and there will be no prophet after him until the Day of Resurrection. Therefore, whoever claims prophethood after him or brings a book after the Quran, his blood is permissible for anyone who hears that from him.",
+          "ur": "محمد ﷺ کا قانون قیامت تک باقی رہے گا اور قیامت تک ان کے بعد کوئی نبی نہیں آئے گا۔ لہذا، جو شخص ان کے بعد نبوت کا دعویٰ کرے یا قرآن کے بعد کوئی کتاب لے کر آئے، اس کا خون اس شخص کے لیے جائز ہے جو اس سے سنے۔",
+          "tr": "Muhammed'in sünneti Kıyamete kadar neshedilmeyecek ve O'ndan sonra Kıyamete kadar başka bir peygamber gelmeyecektir. Bu nedenle, O'ndan sonra peygamberlik iddia eden veya Kur'an'dan sonra başka bir kitap getirenin kanı, ondan bunu duyan herkes için helaldir.",
+          "fa": "شریعت محمد تا روز قیامت نسخ نمی‌شود و پس از او تا روز قیامت پیامبری نخواهد آمد. بنابراین هر کس پس از او ادعای نبوت کند یا پس از قرآن کتابی بیاورد، خون او برای هر کس که این را از او بشنود، حلال است.",
+          "id": "Hukum Muhammad tidak akan di-naskh (dihapus) hingga Hari Kiamat, dan tidak ada nabi setelahnya hingga Hari Kiamat. Oleh karena itu, siapa pun yang mengklaim kenabian setelahnya atau membawa kitab setelah Al-Quran, darahnya halal bagi siapa pun yang mendengar klaim itu darinya.",
+          "bn": "মুহাম্মদের শরিয়ত কিয়ামতের দিন পর্যন্ত বাতিল হবে না, এবং তিনি কিয়ামতের দিন পর্যন্ত শেষ নবী। অতএব, যিনি তাঁর পরে নবুয়্যতের দাবি করবেন বা কুরআনের পর কোনো কিতাব নিয়ে আসবেন, তাঁর রক্ত হালাল হবে যার কাছে তা পৌঁছাবে।",
+          "es": "La ley de Muhammad no será abrogada hasta el Día de la Resurrección, y no habrá profeta después de él hasta el Día de la Resurrección. Por lo tanto, quienquiera que afirme la profecía después de él o traiga un libro después del Corán, su sangre será permitida para cualquiera que oiga eso de él.",
+          "fr": "La loi de Muhammad ne sera pas abrogée jusqu'au Jour de la Résurrection, et il n'y aura pas de prophète après lui jusqu'au Jour de la Résurrection. Par conséquent, quiconque prétend à la prophétie après lui ou apporte un livre après le Coran, son sang devient permís pour quiconque entend cela de lui.",
+          "de": "Das Gesetz des Muhammad wird bis zum Tag der Auferstehung nicht aufgehoben, und nach ihm wird bis zum Tag der Auferstehung kein Prophet kommen. Wer also nach ihm die Prophetie beansprucht oder nach dem Quran ein Buch bringt, dessen Blut ist für jeden erlaubt, der das von ihm hört.",
+          "ru": "Закон Мухаммада не будет отменен только в День Воскресения, и после него не будет пророка до Дня Воскресения. Поэтому тот, кто заявит о пророчестве после него или принесет книгу после Корана, его кровь дозволена для любого, кто услышит это от него.",
+          "zh": "穆罕默德的律法直到复活日都不会被废止，在他之后直到复活日之前也不会有其他先知。因此，凡是在他之后自称先知或带来一部《古兰经》之后的经典者，凡听到他此言的人，其血即可被任何人所取。"
+        },
+        "word_start": 131,
+        "word_end": 160
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Rida (peace be upon him) clarifies that 'Ulul-Azm' denotes the five prophets who established distinct, enduring divine laws (Sharia) and methodologies, specifically Noah, Abraham, Moses, Jesus, and Muhammad. This narration underscores the finality of Muhammad’s prophethood and law, asserting that no new scripture or prophet will emerge after him, thereby validating the concept of Khatm al-Nubuwwah in Shia theology. The severe consequence for false claimants highlights the authority of the Quran as the final, un-abrogated revelation.",
+        "seo_question": "Who are the five Ulul-Azm prophets and what is the significance of their laws according to Shia hadith?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "Possessors of Steadfastness (major prophets)",
+          "الشَّرَائِعِ": "Laws/Divine decrees",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "Abraham the Friend of God",
+          "تُنْسَخُ": "Abrogated/Cancelled",
+          "نُبُوَّةً": "Prophethood",
+          "فَدَمُهُ مُبَاحٌ": "His blood is permissible (to be killed)"
+        }
+      },
+      "ur": {
+        "summary": "امام رضا علیہ السلام واضح کرتے ہیں کہ اولو العزم سے مراد وہ پانچ نبی ہیں جنہوں نے واضح اور پائیدار الہی شریعت اور طریقہ کار قائم کیا، خاص طور پر نوح، ابراہیم، موسیٰ، عیسیٰ اور محمد۔ یہ روایت محمد کی نبوت اور شریعت کی ختم ہونے کی تصدیق کرتی ہے، یہ دعویٰ کرتی ہے کہ ان کے بعد کوئی نئی کتاب یا نبی ظاہر نہیں ہوگا، جس سے شیعہ کلام میں ختم النبوت کا تصور ثابت ہوتا ہے۔ جھوٹے مدعیوں کے لیے سخت عذاب قرآن کو حتمی اور منسوخ نہ ہونے والی وحی کے طور پر اس کی authority کو ظاہر کرتا ہے۔",
+        "seo_question": "اولو العزم پانچ نبی کون ہیں اور شیعہ حدیث کے مطابق ان کی شریعتوں کی اہمیت کیا ہے؟",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "صبر والے (بڑے نبی)",
+          "الشَّرَائِعِ": "شریعتیں/الہی احکام",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "ابراہیم خلیل اللہ",
+          "تُنْسَخُ": "منسوخ/کالعدم",
+          "نُبُوَّةً": "نبوت",
+          "فَدَمُهُ مُبَاحٌ": "ان کا خون حلال ہے (قتل کیا جا سکتا ہے)"
+        }
+      },
+      "tr": {
+        "summary": "İmam er-Rıza (aleyhisselam), 'Ulul-azm' ifadesinin, Nuh, İbrahim, Musa, İsa ve Muhammed gibi beş peygamberin getirdiği belirgin ve kalıcı ilahi şeriat ve metodolojileri ifade ettiğini açıklar. Bu rivayet, Muhammed'in peygamberliğinin ve şeriatının nihai olduğunu vurgular ve ondan sonra yeni bir kitap veya peygamber çıkmayacağını ileri sürerek Şii teolojisinde 'Hatmü'n-Nebüvvah' (Peygamberliğin Mühürlenmesi) kavramını doğrular. Yanlış iddia edenler için ağır sonuç, Kur'an'ın nihai ve hükmü kaldırılmamış vahiy olarak otoritesini vurgular.",
+        "seo_question": "Şii hadislerine göre beş Ulul-azm peygamber kimlerdir ve onların şeriatlarının önemi nedir?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "Sabitlik sahipleri (büyük peygamberler)",
+          "الشَّرَائِعِ": "Şeriatlar/İlahi hükümler",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "İbrahim el-Halil (Allah'ın Dostu)",
+          "تُنْسَخُ": "Hükmü kaldırılan/İptal edilen",
+          "نُبُوَّةً": "Peygamberlik",
+          "فَدَمُهُ مُبَاحٌ": "Kanı helaldir (öldürülebilir)"
+        }
+      },
+      "fa": {
+        "summary": "امام رضا (علیه‌السلام) بیان می‌دارد که اولوالعزم پنج پیامبری هستند که شریعت و روش‌های الهی متمایز و پایدار را پایه‌گذاری کردند، به‌طور مشخص نوح، ابراهیم، موسی، عیسی و محمد. این روایت بر ختم نبوت و شریعت محمد (ص) تأکید دارد و ادعا می‌کند که پس از او پیامبر یا کتاب آسمانی جدیدی ظهور نخواهد کرد، که این امر مفهوم ختم نبوت را در کلام شیعه تأیید می‌کند. پیامد شدید برای مدعیان دروغین، اقتدار قرآن به عنوان آخرین وحی که نسخ نشده است را برجسته می‌سازد.",
+        "seo_question": "پنج پیامبر اولوالعزم چه کسانی هستند و اهمیت شریعت آن‌ها طبق حدیث شیعه چیست؟",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "صاحبان استقامت (پیامبران بزرگ)",
+          "الشَّرَائِعِ": "شرایع/حکم‌های الهی",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "ابراهیم خلیل‌الله",
+          "تُنْسَخُ": "نسخ‌شده/لغو شده",
+          "نُبُوَّةً": "نبوت",
+          "فَدَمُهُ مُبَاحٌ": "خون او جایز است (کشتن او)"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Rida (damai baginya) menjelaskan bahwa 'Ulul-Azm' merujuk kepada lima nabi yang menetapkan syariat dan metodologi ilahi yang berbeda dan abadi, yaitu Nuh, Ibrahim, Musa, Isa, dan Muhammad. Riwayat ini menegaskan keabadian kenabian dan syariat Muhammad, menyatakan bahwa tidak akan ada kitab suci atau nabi baru setelahnya, sehingga memvalidasi konsep Khatm al-Nubuwwah dalam teologi Syiah. Konsekuensi berat bagi para pendusta menyoroti otoritas Al-Quran sebagai wahyu terakhir yang tidak di-naskh.",
+        "seo_question": "Siapakah lima nabi Ulul-Azm dan apa signifikansi syariat mereka menurut hadis Syiah?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "Pemilik Keteguhan (nabi-nabi utama)",
+          "الشَّرَائِعِ": "Hukum-hukum/Putusan Ilahi",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "Ibrahim Kekasih Allah",
+          "تُنْسَخُ": "Di-naskh/Dibatalkan",
+          "نُبُوَّةً": "Kenabian",
+          "فَدَمُهُ مُبَاحٌ": "Darahnya halal (dibunuh)"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আল-রিদা (আ.) স্পষ্ট করেছেন যে, উলুল-আজম হলেন পাঁচজন নবী যারা স্বতন্ত্র ও স্থায়ী ঐশ্বরীক শরীয়াত ও পদ্ধতি প্রতিষ্ঠা করেছিলেন, বিশেষত নূহ, ইব্রাহীম, মুসা, ঈসা এবং মুহাম্মদ (আ.)। এই হাদিস মুহাম্মদ (আ.)-এর নবুওয়াত ও শরীয়াতের চূড়ান্তত্বকে তুলে ধরে এবং দাবি করে যে তাঁর পরে আর কোনো নতুন কিতাব বা নবী আসবেন না, যা শিয়া তওহীদে খাতম-উন-নুবুওয়াতের ধারণাকে বৈধতা প্রদান করে। মিথ্যা দাবিদারদের জন্য কঠোর পরিণতি কুরআনের চূড়ান্ত ও অপরিবর্তিত প্রকাশের কর্তৃত্বকে প্রতিষ্ঠিত করে।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী পাঁচজন উলুল-আজম নবী কে এবং তাদের শরীয়াতের তাৎপর্য কী?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "স্থিরচেতা ধারকগণ (বড় নবীরা)",
+          "الشَّرَائِعِ": "শরীয়াত/ঐশ্বরীক বিধান",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "আল্লাহর বন্ধু ইব্রাহীম",
+          "تُنْسَخُ": "অপরিবর্তিত/বাতিলকৃত",
+          "نُبُوَّةً": "নবুওয়াত",
+          "فَدَمُهُ مُبَاحٌ": "তার রক্ত বধের যোগ্য"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Rida (que la paz sea con él) aclara que 'Ulul-Azm' designa a los cinco profetas que establecieron leyes divinas (Sharia) y metodologías distintas y duraderas, específicamente Noé, Abraham, Moisés, Jesús y Muhammad. Esta narración subraya la finalidad del profetado y la ley de Muhammad, afirmando que no surgirá ninguna nueva escritura o profeta después de él, validando así el concepto de Khatm al-Nubuwwah en la teología chií. La severa consecuencia para los falsos pretendientes resalta la autoridad del Corán como la revelación final e inalterada.",
+        "seo_question": "¿Quiénes son los cinco profetas Ulul-Azm y cuál es la importancia de sus leyes según el hadiz chií?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "Poseedores de Firmeza (profetas mayores)",
+          "الشَّرَائِعِ": "Leyes/Decretos divinos",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "Abraham el Amigo de Dios",
+          "تُنْسَخُ": "Abrogada/Cancelada",
+          "نُبُوَّةً": "Profetado",
+          "فَدَمُهُ مُبَاحٌ": "Su sangre es permisible (ser asesinado)"
+        }
+      },
+      "fr": {
+        "summary": "L’Imam al-Rida (que la paix soit sur lui) précise que les Ulul-Azm désignent les cinq prophètes qui ont établi des lois divines (Charia) et des méthodologies distinctes et durables, à savoir Noé, Abraham, Moïse, Jésus et Muhammad. Cette narration souligne la finalité du prophétat et de la loi de Muhammad, affirmant qu’aucun nouveau livre ou prophète n’apparaîtra après lui, validant ainsi le concept de Khatm al-Nubuwwah dans la théologie chiite. La conséquence sévère pour les faux prétendants met en lumière l’autorité du Coran en tant que révélation finale et non abrogée.",
+        "seo_question": "Qui sont les cinq prophètes Ulul-Azm et quelle est la signification de leurs lois selon la hadith chiite ?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "Les possesseurs de fermeté (grands prophètes)",
+          "الشَّرَائِعِ": "Lois / Décrets divins",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "Abraham l’ami de Dieu",
+          "تُنْسَخُ": "Abrogée / Annulée",
+          "نُبُوَّةً": "Prophétat",
+          "فَدَمُهُ مُبَاحٌ": "Son sang est permis (à tuer)"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Rida (Friede sei mit ihm) klärt auf, dass Ulul-Azm die fünf Propheten bezeichnet, die distincte, dauerhafte göttliche Gesetze (Scharia) und Methoden etablierten, nämlich Noah, Abraham, Moses, Jesus und Muhammad. Diese Überlieferung unterstreicht die Endgültigkeit von Muhammads Prophetentum und Gesetz und behauptet, dass nach ihm kein neues Schriftwerk oder Prophet hervorgehen wird, wodurch das Konzept der Khatm al-Nubuwwah in der schiitischen Theologie validiert wird. Die strenge Konsequenz für falsche Anwärter unterstreicht die Autorität des Korans als der endgültigen, nicht aufgehobenen Offenbarung.",
+        "seo_question": "Wer sind die fünf Ulul-Azm-Propheten und welche Bedeutung haben ihre Gesetze gemäß dem schiitischen Hadith?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "Besitzer der Standhaftigkeit (große Propheten)",
+          "الشَّرَائِعِ": "Gesetze/göttliche Verfügungen",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "Abraham, der Freund Gottes",
+          "تُنْسَخُ": "Aufgehoben/Gestrichen",
+          "نُبُوَّةً": "Prophetentum",
+          "فَدَمُهُ مُبَاحٌ": "Sein Blut ist erlaubt (zu töten)"
+        }
+      },
+      "ru": {
+        "summary": "Имам ар-Рида (да будет над ним мир) разъясняет, что «Улюль-Азм» обозначает пятерых пророков, которые установили различные, долговечные божественные законы (Шариат) и методологии, а именно: Нуха, Ибрахбриха, Мусу, Ису и Мухаммада. Это предание подчеркивает окончательность пророчества и закона Мухаммада, утверждая, что после него не появится ни нового писания, ни пророка, тем самым подтверждая концепцию Хатм ан-Нубувва в шиитской теологии. Суровое последствие для ложных претендентов подчеркивает авторитет Корана как окончательного, не отмененного откровения.",
+        "seo_question": "Кто такие пять пророков Улюль-Азм и каково значение их законов согласно шиитскому хадису?",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "Обладатели стойкости (крупные пророки)",
+          "الشَّرَائِعِ": "Законы/Божественные установления",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "Ибрахим, друг Божий",
+          "تُنْسَخُ": "Отмененный/Упраздненный",
+          "نُبُوَّةً": "Пророчество",
+          "فَدَمُهُ مُبَاحٌ": "Его кровь дозволенна (для убийства)"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里·里达（愿主福安之）阐明，优鲁勒·则姆（Ulul-Azm）指代五位确立了独特且持久的神圣律法（Sharia）和方法论的先知，即努哈（诺亚）、易卜拉欣（亚伯拉罕）、穆萨（摩西）、尔萨（耶稣）和穆罕默德。这段圣训强调了穆罕默德先知身份和律法的终结性，断言在他之后不会再有新的经典或先知出现，从而在什叶派神学中验证了“封印先知”（Khatm al-Nubuwwah）的概念。对虚假宣称者的严厉后果凸显了《古兰经》作为最终且未被废止的启示的权威。",
+        "seo_question": "五位优鲁勒·则姆先知是谁，根据什叶派圣训，他们的律法有何重要意义？",
+        "key_terms": {
+          "أُولُو الْعَزْمِ": "坚定者（主要先知）",
+          "الشَّرَائِعِ": "律法/神圣法令",
+          "إِبْرَاهِيمَ الْخَلِيلِ": "真主的朋友易卜拉欣",
+          "تُنْسَخُ": "被废止/取消",
+          "نُبُوَّةً": "先知身份",
+          "فَدَمُهُ مُبَاحٌ": "其血可杀（可被处死）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "40:35",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "33:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "33:40",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:3",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدِ بْنِ سَعِيدٍ الْكُوفِيُّ الْهَمْدَانِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ الْحَسَنِ بْنِ عَلِيِّ بْنِ فَضَالٍ، عَنْ أَبِيهِ، عَنْ أَبِي الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ قَالَ: إِنَّمَا سُمِّيَ أُولُو الْعَزْمِ أُولِي الْعَزْمِ لِأَنَّهُمْ كَانُوا أَصْحَابَ الْعَزَائِمِ وَالشَّرَائِعِ وَذَلِكَ أَنَّ كُلَّ نَبِيٍّ كَانَ بَعْدَ نُوحٍ كَانَ عَلَى شَرِيعَتِهِ وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ إِبْرَاهِيمَ الْخَلِيلِ وَكُلَّ نَبِيٍّ كَانَ فِي أَيَّامِ إِبْرَاهِيمَ وَبَعْدَهُ كَانَ عَلَى شَرِيعَةِ إِبْرَاهِيمَ وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ مُوسَى وَكُلَّ نَبِيٍّ كَانَ فِي زَمَنِ مُوسَى وَبَعْدَهُ كَانَ عَلَى شَرِيعَةِ مُوسَى وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى أَيَّامِ عِيسَى وَكُلَّ نَبِيٍّ كَانَ فِي أَيَّامِ عِيسَى وَبَعْدَهُ كَانَ عَلَى مِنْهَاجِ عِيسَى وَشَرِيعَتِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَهَؤُلَاءِ الْخَمْسَةُ أُولُو الْعَزْمِ وَهُمْ أَفْضَلُ الْأَنْبِيَاءِ وَالرُّسُلِ عَلَيْهِ السَّلَامُ وَشَرِيعَةُ مُحَمَّدٍ لَا تُنْسَخُ إِلَى يَوْمِ الْقِيَامَةِ وَلَا نَبِيَّ بَعْدَهُ إِلَى يَوْمِ الْقِيَامَةِ فَمَنِ ادَّعَى بَعْدَهُ نُبُوَّةً أَوْ أَتَى بَعْدَ الْقُرْآنِ بِكِتَابٍ فَدَمُهُ مُبَاحٌ لِكُلِّ مَنْ سَمِعَ ذَلِكَ مِنْهُ.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَحْمَدُ بْنُ مُحَمَّدِ بْنِ سَعِيدٍ الْكُوفِيُّ الْهَمْدَانِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ الْحَسَنِ بْنِ عَلِيِّ بْنِ فَضَالٍ، عَنْ أَبِيهِ، عَنْ أَبِي الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ",
+      "matn_ar": "قَالَ: إِنَّمَا سُمِّيَ أُولُو الْعَزْمِ أُولِي الْعَزْمِ لِأَنَّهُمْ كَانُوا أَصْحَابَ الْعَزَائِمِ وَالشَّرَائِعِ وَذَلِكَ أَنَّ كُلَّ نَبِيٍّ كَانَ بَعْدَ نُوحٍ كَانَ عَلَى شَرِيعَتِهِ وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ إِبْرَاهِيمَ الْخَلِيلِ وَكُلَّ نَبِيٍّ كَانَ فِي أَيَّامِ إِبْرَاهِيمَ وَبَعْدَهُ كَانَ عَلَى شَرِيعَةِ إِبْرَاهِيمَ وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ مُوسَى وَكُلَّ نَبِيٍّ كَانَ فِي زَمَنِ مُوسَى وَبَعْدَهُ كَانَ عَلَى شَرِيعَةِ مُوسَى وَمِنْهَاجِهِ وَتَابِعاً لِكِتَابِهِ إِلَى أَيَّامِ عِيسَى وَكُلَّ نَبِيٍّ كَانَ فِي أَيَّامِ عِيسَى وَبَعْدَهُ كَانَ عَلَى مِنْهَاجِ عِيسَى وَشَرِيعَتِهِ وَتَابِعاً لِكِتَابِهِ إِلَى زَمَنِ نَبِيِّنَا مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَهَؤُلَاءِ الْخَمْسَةُ أُولُو الْعَزْمِ وَهُمْ أَفْضَلُ الْأَنْبِيَاءِ وَالرُّسُلِ عَلَيْهِ السَّلَامُ وَشَرِيعَةُ مُحَمَّدٍ لَا تُنْسَخُ إِلَى يَوْمِ الْقِيَامَةِ وَلَا نَبِيَّ بَعْدَهُ إِلَى يَوْمِ الْقِيَامَةِ فَمَنِ ادَّعَى بَعْدَهُ نُبُوَّةً أَوْ أَتَى بَعْدَ الْقُرْآنِ بِكِتَابٍ فَدَمُهُ مُبَاحٌ لِكُلِّ مَنْ سَمِعَ ذَلِكَ مِنْهُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا مُحَمَّدِ بْنِ إِبْراهيمِ بْنِ إِسْحاق الطَّالِقانِيُّرَضِىَ اللهُ عَنْهُ قالَ: حَدَّثَنا أَحْمَدِ بْنِ مُحَمَّدِ بْنِ سَعِيد الكُوفِيّ الهَمْدانِيَّ قالَ: حَدَّثَنا عَلِىِّ بْنِ الحَسَنِ بْنِ عَلِىِّ بْنِ فضال،",
+          "name_en": "Muhammad b. Ibrahin b. Is'haq al-Talqani",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ،",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "أَبي الحَسَن الرِّضا عَلَيْهِ السَّلامُ قالَ: إِنَّمَا سُمِّيَ أُولُو الْعَزْمِ أُوْلِي الْعَزْمِ لانَّهُمْ كَانُوا أَصْحَابَ الْعَزَائِمِ وَالشَّرَائِعِ وَذَلِكَ أَنَّ كُلَّ نَبِيٍّ كَـانَ بَعْدَ نُوحٍ‏ كَـانَ عَلَى شَرِيعَتِهِ وَمِنْهَـاجِـهِوَتَابِعاً لِكِتَابِهِ",
+          "name_en": "Abi al-Hasan al-Rida",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "زَمَنِ إِبْرَاهِيمَ الْخَلِيلِ وَكُلَّ نَبِيٍّ كَانَ",
+          "name_en": "Zaman Ibrahim al-Khalil",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+        "phrase_en": "Day of Resurrection",
+        "category": "theological_concept"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

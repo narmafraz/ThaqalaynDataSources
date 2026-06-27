@@ -1,0 +1,277 @@
+{
+  "verse_path": "/books/al-kafi:3:5:23:6",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 17 en words vs 1 ar words (ratio=17.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "economy",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "zakat_khums",
+      "orphans",
+      "financial_law"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from his father, from Ismail ibn Marrar, from Yunus, from Saeed al-Samman, who said:",
+          "ur": "علیٰ بن ابراہیم، ان کے والد سے، اسماعیل بن مرار سے، یونس سے، سعید السمّان سے، انہوں نے کہا:",
+          "tr": "Ali b. İbrahim, babasından, İsmail b. Merrar'dan, Yunus'tan, Saîdü's-Sammân'dan, o da şöyle dedi:",
+          "fa": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنْ إِسْمَاعِيلَ بْنِ مَرَّارٍ عَنْ يُونُسَ عَنْ سَعِيدٍ السَّمَّانِ قَالَ",
+          "id": "Ali bin Ibrahim, dari ayahnya, dari Ismail bin Marrar, dari Yunus, dari Saeed al-Samman, yang Samman, yang berkata:",
+          "bn": "আলী ইবনে ইব্রাহীম, তাঁর পিতার নিকট হতে, ইসমাইল ইবনে মাররারের নিকট হতে, ইউনুসের নিকট হতে, সাঈদ আস-সাম্মান নিকট হতে, যিনি বললেন:",
+          "es": "Ali ibn Ibrahim, de su padre, de Ismail ibn Marrar, de Yunus, de Saeed al-Samman, quien dijo:",
+          "fr": "Ali ibn Ibrahim, de son père, d'Ismail ibn Marrar, de Yunus, de Saeed al-Samman, qui a dit :",
+          "de": "Ali ibn Ibrahim, von seinem Vater, von Ismail ibn Marrar, von Yunus, von Saeed al-Samman, der sagte:",
+          "ru": "Али ибн Ибрахим, от его отца, от Исмаила ибн Маррара, от Юнуса, от Саида ас-Саммана, который сказал:",
+          "zh": "阿里·本·易卜拉欣，从他父亲，从伊斯玛仪·本·马拉尔，从优努斯，从赛义德·萨曼，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ لَيْسَ فِي مَالِ الْيَتِيمِ زَكَاةٌ إِلَّا أَنْ يُتَّجَرَ بِهِ فَإِنِ اتُّجِرَ بِهِ فَالرِّبْحُ لِلْيَتِيمِ فَإِنْ وُضِعَ فَعَلَى الَّذِي يَتَّجِرُ بِهِ",
+        "translations": {
+          "en": "I heard Abu Abdullah (peace be upon him) saying: There is no Zakat in the wealth of the orphan except if it is traded with. So if it is traded with, then the profit is for the orphan. But if there is a loss, it is upon the one who trades with it.",
+          "ur": "میں نے ابو عبداللہ (علیہ السلام) کو فرماتے ہوئے سنا کہ یتیم کی مالیت پر زکوٰۃ نہیں ہے سوائے اس کے کہ اس میں تجارت کی جائے۔ پس اگر اس میں تجارت کی جائے تو منافع یتیم کے لیے ہے۔ اور اگر نقصان ہو تو وہ اس شخص پر ہے جس نے اس میں تجارت کی۔",
+          "tr": "Ebu Abdullah'dan (aleyhisselam) şöyle buyurduğunu işittim: Yetimin malında, ticarete konu edilmedikçe zekat yoktur. Eğer ticarete konu edilirse, kâr yetimin olur. Ancak zarar olursa, bu zararı ticareti yapan kişi üstlenir.",
+          "fa": "ابان بن تغلب گفت: از ابوعبدالله (علیه السلام) شنیدم که فرمود: در مال یتیم زکاتی نیست مگر اینکه با آن تجارت شود؛ پس اگر با آن تجارت شود، سود آن برای یتیم است و اگر زیانی باشد، بر کسی است که با آن تجارت کرده است.",
+          "id": "Aku mendengar Abu Abdullah (alamaihisalam) berkata: Tidak ada zakat pada harta anak yatim kecuali jika harta tersebut diperdagangkan. Maka jika diperdagangkan, keuntungan menjadi hak anak yatim. Namun jika terjadi kerugian, maka itu menjadi tanggung jawab orang yang memperdagangkannya.",
+          "bn": "আমি আবু আবদুল্লাহ (রহ.) থেকে শুনেছি, তিনি বলতেন: যতিমের সম্পদে যাকাত নেই, যদি না তা ব্যবসায় পরিণত করা হয়। অতএব, যদি তা ব্যবসায় পরিণত করা হয়, তবে লাভ যতিমের হবে। আর যদি ক্ষতি হয়, তবে তা সেই ব্যক্তির উপর বর্তাবে যে তা ব্যবসায় পরিণত করেছে।",
+          "es": "Escuché a Abu Abdullah (que la paz sea con él) decir: No hay zakat en la riqueza del huérfano, excepto si se comercia con ella. Por lo tanto, si se comercia con ella, la ganancia es para el huérfano. Pero si hay una pérdida, recae sobre quien comercia con ella.",
+          "fr": "J'ai entendu Abou Abdullah (que la paix soit sur lui) dire : Il n'y a pas de zakat dans les biens de l'orphelin, sauf s'ils sont mis en commerce. Si donc ils sont mis en commerce, le profit revient à l'orphelin. Mais s'il y a une perte, elle est à la charge de celui qui les fait commerce.",
+          "de": "Ich hörte Abu Abdullah (friede sei mit ihm) sagen: Es gibt keine Zakat im Vermögen des Waisenkinds, es sei denn, es wird gehandelt. Wenn es gehandelt wird, gehört der Gewinn dem Waisenkind. Wenn jedoch ein Verlust entsteht, trägt ihn derjenige, der damit handelt.",
+          "ru": "Я слышал Абу Абдуллах (да будет мир с ним), говоря: В имуществе сироты нет закята, если оно не подвергается торговле. Если же оно подвергается торговле, то прибыль принадлежит сироте. А если будет убыток, то он ложится на того, кто занимается торговлей этим имуществом.",
+          "zh": "我听见阿卜杜拉（愿主喜悦之）说：孤儿的财产中无天课，除非将其用于交易。若用于交易，则利润归孤儿所有；若发生亏损，则由交易者承担。"
+        },
+        "word_start": 1,
+        "word_end": 30
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This narration from Imam al-Sadiq (AS) clarifies that Zakat on an orphan's wealth is contingent upon its commercial utility (nisab via trade), reflecting the Shia juristic principle that Zakat is a tax on productive capital rather than static savings. It further delineates the risk allocation in guardianship, where the manager bears the loss if the capital is depleted, ensuring the orphan's principal remains protected unless actively engaged in commerce.",
+        "seo_question": "Is Zakat obligatory on an orphan's wealth if it is not traded?",
+        "key_terms": {
+          "زَكَاةٌ": "Zakat (alms-tax)",
+          "مَالِ الْيَتِيمِ": "Wealth of the orphan",
+          "يُتَّجَرَ بِهِ": "Traded with / Invested",
+          "الرِّبْحُ": "The profit",
+          "وُضِعَ": "It was placed / Invested (implying loss context)"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (ع) کی یہ روایت واضح کرتی ہے کہ یتیم کی دولت پر زکوٰۃ کا تعلق اس کی تجارتی صلاحیت (نصابِ تجارت) سے ہے، جو شیعہ فقہی اصول کی عکاسی کرتا ہے کہ زکوٰۃ پیداواری سرمایے پر ٹیکس ہے نہ کہ جامد بچت پر۔ یہ سرپرستی میں خطرے کی تقسیم کو بھی بیان کرتی ہے، جہاں اگر سرمایہ ختم ہو جائے تو منتظم نقصان برداشت کرتا ہے، اس بات کو یقینی بناتے ہوئے کہ یتیم کا اصل سرمایہ محفوظ رہے جب تک کہ وہ فعال طور پر تجارت میں شامل نہ ہو۔",
+        "seo_question": "کیا یتیم کی دولت پر زکوٰۃ واجب ہے اگر وہ تجارت میں نہ ہو؟",
+        "key_terms": {
+          "زَكَاةٌ": "زکوٰۃ",
+          "مَالِ الْيَتِيمِ": "یتیم کی دولت",
+          "يُتَّجَرَ بِهِ": "تجارت میں لائی گئی",
+          "الرِّبْحُ": "منافع",
+          "وُضِعَ": "رکھا گیا"
+        }
+      },
+      "tr": {
+        "summary": "İmam Cafer-i Sadık'tan (AS) gelen bu rivayet, yetimin malına ait zekâtın ticari faydaya (ticaret yoluyla nisap) bağlı olduğunu ve Şii hukuk ilkelerine göre zekâtın statik birikimden ziyade üretken sermayeye dayalı bir vergi olduğunu açıklar. Ayrıca velayette riskin dağılımını belirler; sermaye tükenirse zarar yöneticiye ait olur, böylece yetimin ana malı aktif olarak ticarete dahil edilmedikçe korunmuş kalır.",
+        "seo_question": "Yetimin malı ticarete konu edilmiyorsa zekât farz mıdır?",
+        "key_terms": {
+          "زَكَاةٌ": "zekât",
+          "مَالِ الْيَتِيمِ": "yetimin malı",
+          "يُتَّجَرَ بِهِ": "ticarete konu edilen",
+          "الرِّبْحُ": "kâr",
+          "وُضِعَ": "yerleştirildi"
+        }
+      },
+      "fa": {
+        "summary": "این روایت از امام صادق (ع) روشن می‌سازد که زکات بر مال یتیم منوط به فایده تجاری آن (نصاب از طریق تجارت) است که نشان‌دهنده اصل فقهی شیعه است که زکات مالی بر سرمایه تولیدی است نه پس‌انداز ثابت. همچنین تقسیم ریسک در ولایت را مشخص می‌کند، جایی که مدیر زیان را می‌پذیرد اگر سرمایه مستهلک شود، که تضمین می‌کند اصل مال یتیم محافظت می‌شود مگر اینکه به طور فعال در تجارت درگیر شود.",
+        "seo_question": "آیا زکات بر مال یتیم واجب است اگر تجارت نشود؟",
+        "key_terms": {
+          "زَكَاةٌ": "زکات",
+          "مَالِ الْيَتِيمِ": "مال یتیم",
+          "يُتَّجَرَ بِهِ": "تجارت شود",
+          "الرِّبْحُ": "سود",
+          "وُضِعَ": "قرار داده شد"
+        }
+      },
+      "id": {
+        "summary": "Riwayat dari Imam al-Sadiq (AS) ini menjelaskan bahwa zakat atas harta yatim bergantung pada kegunaannya untuk berdagang (nisab melalui perdagangan), mencerminkan prinsip fikih Syiah bahwa zakat adalah pajak atas modal produktif, bukan tabungan statis. Hal ini lebih lanjut membatasi alokasi risiko dalam perwalian, di mana pengelola menanggung kerugian jika modal habis, sehingga memastikan pokok harta yatim tetap terlindungi kecuali secara aktif terlibat dalam perdagangan.",
+        "seo_question": "Apakah zakat wajib atas harta yatim jika tidak diperdagangkan?",
+        "key_terms": {
+          "زَكَاةٌ": "Zakat (alms-tax)",
+          "مَالِ الْيَتِيمِ": "Harta yatim",
+          "يُتَّجَرَ بِهِ": "Diperdagangkan / Diinvestasikan",
+          "الرِّبْحُ": "Keuntungan",
+          "وُضِعَ": "Ditempatkan / Diinvestasikan (menyiratkan konteks kerugian)"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিق (আ.)-এর এই বর্ণনা থেকে স্পষ্ট হয় যে, যতিমের সম্পদে জাকাত প্রদান করা হয় যদি তা বাণিজ্যিক উপযোগী হয় (নিসাব বাণিজ্যের মাধ্যমে), যা শিয়া ফিকহের মূলনীতি যে জাকাত হলো উৎপাদনশীল মূলধনের কর, স্থির সঞ্চয়ের নয়। এটি আবার আত্মীয়ের (গার্ডিয়ান) ঝুঁকি বণ্টনকেও নির্ধারণ করে, যেখানে ম্যানেজার মূলধন ক্ষয়প্রাপ্ত হলে ক্ষতি বহন করেন, যাতে যতিমের মূলধন সুরক্ষিত থাকে, যদি না তা সক্রিয়ভাবে বাণিজ্যে নিয়োজিত হয়।",
+        "seo_question": "যদি যতিমের সম্পদ বাণিজ্যে না লাগানো হয়, তবে তার ওপর জাকাত ফরজ হবে কি?",
+        "key_terms": {
+          "زَكَاةٌ": "জাকাত (দান-কর)",
+          "مَالِ الْيَتِيمِ": "যতিমের সম্পদ",
+          "يُتَّجَرَ بِهِ": "বাণিজ্যে ব্যবহৃত / বিনিয়োগিত",
+          "الرِّبْحُ": "লাভ",
+          "وُضِعَ": "স্থাপন করা / বিনিয়োগ করা (ক্ষতির প্রসঙ্গে)"
+        }
+      },
+      "es": {
+        "summary": "Esta narración del Imam al-Sadiq (AS) aclara que la Zakat sobre la riqueza de un huérfano está condicionada a su utilidad comercial (nisab mediante el comercio), reflejando el principio jurístico chií de que la Zakat es un impuesto sobre el capital productivo en lugar de los ahorros estáticos. Además, delimita la asignación de riesgos en la tutela, donde el gestor asume la pérdida si el capital se agota, asegurando que el principal del huérfano permanezca protegido a menos que se comprometa activamente en el comercio.",
+        "seo_question": "¿Es obligatoria la Zakat sobre la riqueza de un huérfano si no se comercia con ella?",
+        "key_terms": {
+          "زَكَاةٌ": "Zakat (impuesto de limosna)",
+          "مَالِ الْيَتِيمِ": "Riqueza del huérfano",
+          "يُتَّجَرَ بِهِ": "Comerciado con / Invertido",
+          "الرِّبْحُ": "La ganancia",
+          "وُضِعَ": "Fue colocado / Invertido (implicando contexto de pérdida)"
+        }
+      },
+      "fr": {
+        "summary": "Cette narration d'Imam al-Sadiq (AS) clarifie que la Zakat sur les biens de l'orphelin est conditionnée par leur utilité commerciale (nisab via le commerce), reflétant le principe jurisprudentiel chiite selon lequel la Zakat est une taxe sur le capital productif plutôt que sur les économies statiques. Elle délimite en outre l'allocation des risques dans la tutelle, où le gestionnaire supporte la perte si le capital est épuisé, garantissant ainsi que le capital principal de l'orphelin reste protégé à moins qu'il ne soit activement engagé dans le commerce.",
+        "seo_question": "La Zakat est-elle obligatoire sur les biens d'un orphelin s'ils ne sont pas commercialisés ?",
+        "key_terms": {
+          "زَكَاةٌ": "Zakat (aumône-taxation)",
+          "مَالِ الْيَتِيمِ": "Biens de l'orphelin",
+          "يُتَّجَرَ بِهِ": "Commercialisé avec / Investi",
+          "الرِّبْحُ": "Le profit",
+          "وُضِعَ": "Il a été placé / Investi (impliquant le contexte de perte)"
+        }
+      },
+      "de": {
+        "summary": "Diese Überlieferung von Imam al-Sadiq (AS) klärt, dass die Zakat auf das Vermögen eines Waisenkinds von dessen kommerzieller Nutzbarkeit (Nisab durch Handel) abhängt, was das schiitische juristische Prinzip widerspiegelt, dass Zakat eine Steuer auf produktives Kapital und nicht auf statische Ersparnisse ist. Sie unterscheidet ferner die Risikoverteilung in der Vormundschaft, wobei der Verwalter den Verlust trägt, wenn das Kapital aufgebraucht wird, wodurch das Stammkapital des Waisenkinds geschützt bleibt, sofern es nicht aktiv im Handel engagiert ist.",
+        "seo_question": "Ist die Zakat auf das Vermögen eines Waisenkinds verpflichtend, wenn es nicht gehandelt wird?",
+        "key_terms": {
+          "زَكَاةٌ": "Zakat (Almosensteuer)",
+          "مَالِ الْيَتِيمِ": "Vermögen des Waisenkinds",
+          "يُتَّجَرَ بِهِ": "Damit wird gehandelt / Investiert",
+          "الرِّبْحُ": "Der Gewinn",
+          "وُضِعَ": "Es wurde platziert / Investiert (im Kontext des Verlusts)"
+        }
+      },
+      "ru": {
+        "summary": "Это предание от имама ас-Садыка (да будет с ним мир) уточняет, что закят на имущество сироты обусловлен его коммерческой полезностью (нисаб через торговлю), что отражает шиитский юридический принцип, согласно которому закят является налогом на производительный капитал, а не на статичные сбережения. Оно также разграничивает распределение рисков в опеке, где управляющий несет убыток, если капитал истощается, обеспечивая защиту основной суммы сироты, если она не активно вовлечена в торговлю.",
+        "seo_question": "Обязателен ли закят на имущество сироты, если оно не торгуется?",
+        "key_terms": {
+          "زَكَاةٌ": "закят (алым-налог)",
+          "مَالِ الْيَتِيمِ": "имущество сироты",
+          "يُتَّجَرَ بِهِ": "торгуется / инвестируется",
+          "الرِّبْحُ": "прибыль",
+          "وُضِعَ": "было помещено / инвестировано (с указанием контекста убытка)"
+        }
+      },
+      "zh": {
+        "summary": "这段来自伊玛目萨迪格（愿主安之）的圣训阐明，孤儿财富的代天课取决于其商业效用（通过贸易达到尼萨布），反映了什叶派法学原则，即代天课是对生产性资本而非静态储蓄的征税。它进一步划分了监护中的风险分配，如果资本耗尽，管理者承担损失，确保孤儿的本金得到保护，除非其积极参与商业活动。 孤儿财富不进行交易时，代天课是否义务？ 天课 孤儿财富 被交易/投资 利润 被放置/投资（暗示损失语境） }```json { ",
+        "seo_question": "孤儿财富若不进行交易，代天课是否义务？",
+        "key_terms": {
+          "زَكَاةٌ": "天课",
+          "مَالِ الْيَتِيمِ": "孤儿财富",
+          "يُتَّجَرَ بِهِ": "被交易/投资",
+          "الرِّبْحُ": "利润",
+          "وُضِعَ": "被放置/投资（暗示损失语境）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "8:41",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:6",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:188",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ لَيْسَ فِي مَالِ الْيَتِيمِ زَكَاةٌ إِلَّا أَنْ يُتَّجَرَ بِهِ فَإِنِ اتُّجِرَ بِهِ فَالرِّبْحُ لِلْيَتِيمِ فَإِنْ وُضِعَ فَعَلَى الَّذِي يَتَّجِرُ بِهِ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ لَيْسَ فِي مَالِ الْيَتِيمِ زَكَاةٌ إِلَّا أَنْ يُتَّجَرَ بِهِ فَإِنِ اتُّجِرَ بِهِ فَالرِّبْحُ لِلْيَتِيمِ فَإِنْ وُضِعَ فَعَلَى الَّذِي يَتَّجِرُ بِهِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "إِسْمَاعِيلَ بْنِ مَرَّارٍ",
+          "name_en": "Ismail ibn Marrar",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 106
+        },
+        {
+          "name_ar": "يُونُسَ",
+          "name_en": "Yunus",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 26
+        },
+        {
+          "name_ar": "سَعِيدٍ السَّمَّانِ",
+          "name_en": "Sa'id al-Samman",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 780
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

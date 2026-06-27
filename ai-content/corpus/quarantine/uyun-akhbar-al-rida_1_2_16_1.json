@@ -1,0 +1,804 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:16:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 39 words (>14, بن-density 0.18 — likely a sentence fragment, not a name): 'حَدَّثَنا أَحْمَدِ بْنِ زِيادِ بْنِ جَعْفَر الْهَمَذانيّ قال'",
+    "narrator[1] name_ar has 46 words (>14, بن-density 0.11 — likely a sentence fragment, not a name): 'أَبيهِ جَعْفَرِ بْنِ مُحَمَّد عَلَيْهِ السَّلامُ، عَن أَبيهِ'",
+    "chunks[3] en translation length out of bounds: 20 en words vs 51 ar words (ratio=0.39, expected 20.4-204.0)"
+  ],
+  "result": {
+    "tags": [
+      "history",
+      "quran_commentary",
+      "theology"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "prophets",
+      "quran_interpretation_method",
+      "divine_attributes",
+      "events",
+      "paradise_hell"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا أَحْمَدُ بْنُ زِيَادِ بْنِ جَعْفَرٍ الْهَمَذَانِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ قَالَ: حَدَّثَنَا أَبُو الصَّلْتِ عَبْدُ السَّلَامِ بْنُ صَالِحٍ الْهَرَوِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ، عَن أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ عَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ الْحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "Ahmad ibn Ziyad ibn Ja'far al-Hamadani narrated that Ali ibn Ibrahim ibn Hashem, from his father, narrated that Abul Salt Abd al-Salam ibn Salih al-Harawi narrated that Ali ibn Musa al-Rida (peace be upon him), from his father Musa ibn Ja'far (peace be upon him), from his father Ja'far ibn Muhammad (peace be upon him), from his father Muhammad ibn Ali (peace be upon him), from his father Ali ibn al-Husayn (peace be upon him), from his father al-Husayn ibn Ali (peace be upon him) narrated.",
+          "ur": "احمد بن زیاد بن جعفر ہمدانی نے بیان کیا کہ علی بن ابراہیم بن ہاشم نے اپنے والد سے بیان کیا کہ ابو الصلت عبدالسلام بن صالح ہروی نے بیان کیا کہ علی بن موسیٰ الرضا علیہ السلام نے اپنے والد موسیٰ بن جعفر علیہ السلام سے، ان کے والد جعفر بن محمد علیہ السلام سے، ان کے والد محمد بن علی علیہ السلام سے، ان کے والد علی بن الحسین علیہ السلام سے، ان کے والد الحسین بن علی علیہ السلام سے بیان کیا۔",
+          "tr": "Ahmed b. Ziyad b. Ca'far el-Hemedânî rivâyet etti ki: Ali b. İbrâhim b. Hâşim, babasından rivâyet etti ki: Ebu's-Salt Abdü's-Selâm b. Sâlih el-Herewî rivâyet etti ki: Ali b. Mûsâ er-Rıdâ (aleyhisselâm), babasından Mûsâ b. Ca'far (aleyhisselâm), babasından Ca'far b. Muhammed (aleyhisselâm), babasından Muhammed b. Ali (aleyhisselâm), babasından Ali b. el-Hüseyin (aleyhisselâm), babasından el-Hüseyin b. Ali (aleyhisselâm) rivâyet etti.",
+          "fa": "احمد بن زیاد بن جعفر همذانی روایت کرد که علی بن ابراهیم بن هاشم از پدرش روایت کرد که اب‌الصّلت عبدالسلام بن صالح هروی روایت کرد که علی بن موسی الرضا (علیه‌السلام) از پدرش موسی بن جعفر (علیه‌السلام)، از پدرش جعفر بن محمد (علیه‌السلام)، از پدرش محمد بن علی (علیه‌السلام)، از پدرش علی بن الحسین (علیه‌السلام)، از پدرش الحسین بن علی (علیه‌السلام) روایت کرد.",
+          "id": "Ahmad ibn Ziyad ibn Ja'far al-Hamadani meriwayatkan bahwa Ali ibn Ibrahim ibn Hashem, dari ayahnya, meriwayatkan bahwa Abul Salt Abd al-Salam ibn Salih al-Harawi meriwayatkan bahwa Ali ibn Musa al-Rida (alamahisalam), dari ayahnya Musa ibn Ja'far (alamahisalam), dari ayahnya Ja'far ibn Muhammad (alamahisalam), dari ayahnya Muhammad ibn Ali (alamahisalam), dari ayahnya Ali ibn al-Husayn (alamahisalam), dari ayahnya al-Husayn ibn Ali (alamahisalam) telah meriwayatkan.",
+          "bn": "আহমদ ইবনে জিয়াদ ইবনে জাফর আল-হামাদানী (রহ.) হতে বর্ণনা করেন, তিনি বলেন: আলী ইবনে ইব্রাহীম ইবনে হাশিম (রহ.) বর্ণনা করেন, তিনি বলেন: আবুস সালত আবদুস সলাম ইবনে সালহ আল-হারাবী (রহ.) বর্ণনা করেন, তিনি বলেন: আলী ইবনে মুসা আল-রিদা (আ.) বর্ণনা করেন, তিনি বলেন: আমার পিতা মুসা ইবনে জাফর (আ.) বর্ণনা করেন, তিনি বলেন: আমার পিতা জাফর ইবনে মুহাম্মদ (আ.) বর্ণনা করেন, তিনি বলেন: আমার পিতা মুহাম্মদ ইবনে আলী (আ.) বর্ণনা করেন, তিনি বলেন: আমার পিতা আলী ইবনে আল-হুসাইন (আ.) বর্ণনা করেন, তিনি বলেন: আমার পিতা আল-হুসাইন ইবনে আলী (আ.) বর্ণনা করেন।",
+          "es": "Narró Ahmad ibn Ziyad ibn Ja'far al-Hamadani que Ali ibn Ibrahim ibn Hashem, de su padre, narró que Abul Salt Abd al-Salam ibn Salih al-Harawi narró que Ali ibn Musa al-Rida (que la paz sea con él), de su padre Musa ibn Ja'far (que la paz sea con él), de su padre Ja'far ibn Muhammad (que la paz sea con él), de su padre Muhammad ibn Ali (que la paz sea con él), de su padre Ali ibn al-Husayn (que la paz sea con él), de su padre al-Husayn ibn Ali (que la paz sea con él) narró.",
+          "fr": "Akhmad ibn Ziyad ibn Ja'far al-Hamad al-Hamadani a raconté qu'Ali ibn Ibrahim ibn Hashem, de son père, a raconté qu'Aboul Salt Abd al-Salam ibn Salih al-Harawi a raconté qu'Ali ibn Moussa al-Rida (que la paix soit sur lui), de son père Moussa ibn Ja'far (que la paix soit sur lui), de son père Ja'far ibn Mouhammad (que la paix soit sur lui), de son père Mouhammad ibn Ali (que la paix soit sur lui), de son père Ali ibn al-Husayn (que la paix soit sur lui), de son père al-Husayn ibn Ali (que la paix soit sur lui) a raconté.",
+          "de": "Ahmad ibn Ziyad ibn Dschafar al-Hamadani überlieferte, dass Ali ibn Ibrahim ibn Haschem von seinem Vater überlieferte, dass Abul Salt Abd al-Salam ibn Salih al-Harawi überlieferte, dass Ali ibn Musa ar-Rida (Friede sei mit ihm), von seinem Vater Musa ibn Dschafar (Friede sei mit ihm), von seinem Vater Dschafar ibn Muhammad (Friede sei mit ihm), von seinem Vater Muhammad ibn Ali (Friede sei mit ihm), von seinem Vater Ali ibn al-Husain (Friede sei mit ihm), von seinem Vater al-Husain ibn Ali (Friede sei mit ihm) überlieferte.",
+          "ru": "1 — Рассказал нам Ахмад ибн Зияд ибн Джафар аль-Хамадани, сказавший: Рассказал нам Али ибрахим ибн Хашим, от своего отца, который сказал: Рассказал нам Абу ас-Салт Абд ас-Салам ибн Салих аль-Харави, сказавший: Рассыл нам Али ибн Муса ас-Садык (да будет мир с ним), от своего отца Мусы ибн Джафара (да будет мир с ним), от своего отца Джафара ибн Мухаммада (да будет мир с ним), от своего отца Мухаммада ибн Али (да будет мир с ним), от своего отца Али ибн аль-Хусайна (да будет мир с ним), от своего отца аль-Хусайна ибн Али (да будет мир с ним), который сказал.",
+          "zh": "艾哈迈德·伊本齐亚德本贾法尔·哈马达尼传述，阿里·伊本·易卜拉欣·伊本·哈希姆从其父传述，阿布·萨尔特·阿卜杜勒·萨拉姆·伊本·萨利赫·哈拉维传述，阿里·伊本·穆萨·里达（愿主福安之）从其父穆萨·伊本·贾法尔（愿主福安之）传述，从其父贾法尔·伊本·穆罕默德（愿主福安之）传述，从其父穆罕默德·伊本·阿里（愿主福安之）传述，从其父阿里·伊本·侯赛因（愿主福安之）传述，从其父侯赛因·伊本·阿里（愿主福安之）传述。"
+        },
+        "word_start": 0,
+        "word_end": 68
+      },
+      {
+        "chunk_type": "opening",
+        "arabic_text": "قَالَ: أَتَى عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ قَبْلَ مَقْتَلِهِ بِثَلَاثَةِ أَيَّامٍ رَجُلٌ مِنْ أَشْرَافِ تَمِيمٍ يُقَالُ لَهُ عَمْرٌو فَقَالَ: يَا أَمِيرَ الْمُؤْمِنِينَ أَخْبِرْنِي عَنْ أَصْحَابِ الرَّسِّ فِي أَيِّ عَصْرٍ كَانُوا وَأَيْنَ كَانَتْ مَنَازِلُهُمْ وَمَنْ كَانَ مَلِكَهُمْ وَهَلْ بَعَثَ اللَّهُ عَزَّ وَجَلَّ إِلَيْهِمْ رَسُولًا أَمْ لَا وَبِمَاذَا أُهْلِكُوا فَإِنِّي أَجِدُ فِي كِتَابِ اللَّهِ ذِكْرَهُمْ وَلَا أَجِدُ خَبَرَهُمْ",
+        "translations": {
+          "en": "He said: A man from the nobles of Tamim, called Amr, came to Ali ibn Abi Talib (peace be upon him) three days before his martyrdom and said: 'O Commander of the Faithful, inform me about the People of the Ditch (Ashab al-Rass). In which era were they? Where were their homes? Who was their king? Did God the Almighty send a messenger to them or not? And by what were they destroyed? For I find their mention in God's Book but I do not find their news (details) there.'",
+          "ur": "انہوں نے کہا: تمیم کے سرداروں میں سے ایک شخص عمرو بن حارث، شہادت سے تین دن قبل حضرت علی ابن ابی طالب (علیہ السلام) کے پاس آیا اور بولا: یا امیر المؤمنین، مجھے خندق والوں (اصحاب الرس) کے بارے میں بتائیں۔ وہ کس دور میں تھے؟ ان کے گھر کہاں تھے؟ ان کا بادشاہ کون تھا؟ کیا اللہ تعالیٰ نے ان کے پاس کوئی رسول بھیجا یا نہیں؟ اور انہیں کیا چیز نے ہلاک کیا؟ کیونکہ میں نے اللہ کی کتاب میں ان کا ذکر تو پایا ہے لیکن ان کی تفصیل نہیں پائی۔",
+          "tr": "Dedi ki: Tâîm ehlinden soylulardan Amr adında bir kimse, Ali b. Ebi Tâlib'e (aleyhisselâm) şehadetinden üç gün önce gelip dedi: 'Ey Müminlerin Emiri, Bûdâh ve Gerdâh halkı (Eshâb-ı Haff) hakkında bana bilgi ver. Onlar hangi devirde yaşadılar? Evleri nerede idi? Onların kralı kimdi? Yüce Allah onlara bir peygamber gönderdi mi, göndermedi mi? Ve onlar ne ile helâk oldular? Zira ben onların zikrini Allah'ın Kitabında buluyorum, fakat orada onların haberini (ayrıntılarını) bulamıyorum.'",
+          "fa": "گفت: مردی از بزرگان تمیم به نام عمرو به علی بن ابی‌طالب (علیه‌السلام) سه روز پیش از شهادتش آمد و گفت: ای امیرالمؤمنین، مرا از اهل خندق (اصحاب‌الرّس) آگاه ساز. در چه زمانی بودند؟ خانه‌هایشان کجا بود؟ پادشاهشان چه کسی بود؟ آیا خداوند عزّوجلگ پیامبری را به سوی ایشان فرستاد یا نه؟ و به چه چیزی هلاک شدند؟ زیرا من ذکر ایشان را در کتاب خدا می‌یابم اما خبر (جزئیات) ایشان را در آن نیابم.",
+          "id": "Ia berkata: Seorang pria dari kalangan bangsawan Tamim, bernama Amr, datang kepada Ali bin Abi Thalib (alamahih) tiga hari sebelum syahidnya dan berkata, \"Wahai Amirul Mukminin, beritahukanlah kepadaku tentang Ashab al-Rass (Kaum Sulaim). Pada zaman apakah mereka? Di manakah rumah mereka? Siapakah raja mereka? Apakah Allah Yang Mahakuasa mengutus seorang rasul kepada mereka atau tidak? Dan dengan apa mereka dimusnahkan? Karena aku menemukan sebutan mereka dalam Kitab Allah, tetapi aku tidak menemukan berita (detail) mereka di sana.\"",
+          "bn": "তিনি বললেন: তামিম গোত্রের একজন আদর্শবান ব্যক্তি, যার নাম আমর, আলী ইবনে আবী তালিব (রহ.)-এর শাহাদাতের তিন দিন পূর্বে তাঁর নিকট উপস্থিত হয়ে বললেন: 'হে আমীরুল মুমিনীন, আমাকে আশাবুল রাস্ব (খندقের লোকদের) সম্পর্কে জানান। তারা কোন যুগে ছিলেন? তাদের বাসস্থান কোথায় ছিল? তাদের রাজা কে ছিলেন? আল্লাহ তায়ালা কি তাদের নিকট একজন রাসূল পাঠিয়েছিলেন, নাকি না? আর তারা কি কারণে ধ্বংস হয়েছিল? কারণ আমি আল্লাহর কিতাবে তাদের উল্লেখ পাচ্ছি, কিন্তু তাদের বিস্তারিত খবর সেখানে পাচ্ছি না।'",
+          "es": "Dijo: Un hombre de los nobles de Tamim, llamado Amr, acudió a Ali ibn Abi Talib (que la paz sea con él) tres días antes de su martirio y dijo: «¡Oh Comandante de los Creyentes, infórmame acerca de la Gente de la Zanja (Ashab al-Rass). ¿En qué época vivieron? ¿Dónde estaban sus hogares? ¿Quién era su rey? ¿Les envió Dios, el Todopoderoso, un mensajero o no? ¿Y por qué fueron destruidos? Pues encuentro su mención en el Libro de Dios, pero no encuentro allí sus noticias (detalles).»",
+          "fr": "Il dit : Un homme issu des notables de Tamim, nommé Amr, vint voir Ali ibn Abi Talib (que la paix soit sur lui) trois jours avant son martyre et dit : « Ô Commandeur des Croyants, informe-moi au sujet des Gens de la Fosse (Ashab al-Rass). À quelle époque vivaient-ils ? Où se trouvaient leurs demeures ? Qui était leur roi ? Dieu le Tout-Puissant a-t-Il envoyé un messager vers eux ou non ? Et par quoi ont-ils été détruits ? Car je trouve leur mention dans le Livre de Dieu, mais je n’y trouve pas leurs détails. »",
+          "de": "Er sagte: Ein Mann aus den vornehmen Leuten von Tamim, namens Amr, kam zu Ali ibn Abi Talib (friede sei mit ihm) drei Tage vor seinem Märtyrertod und sagte: »O Führer der Gläubigen, informiere mich über die Leute des Grabens (Ashab al-Rass). In welcher Epoche lebten sie? Wo befanden sich ihre Häuser? Wer war ihr König? Sandte Gott, der Allmächtige, einen Gesandten zu ihnen oder nicht? Und worüber wurden sie vernichtet? Denn ich finde ihre Erwähnung im Buch Gottes, aber ich finde ihre Einzelheiten (Nachrichten) dort nicht.«",
+          "ru": "Он сказал: Один из знатных племени Тамим по имени Амр пришел к Али ибн Аби Талибу (да будет мир с ним) за три дня до его мученической смерти и сказал: «О Повелитель верующих, поведай мне о народе Руха (Ашбаб аль-Расс). В какую эпоху они жили? Где находилось их жилище? Кто был их царем? Послал ли им Всевышний Аллах посланника или нет? И чем они были уничтожены? Ибо я нахожу их упоминание в Книге Аллаха, но не нахожу там подробностей об их истории».",
+          "zh": "他说：泰米姆部落的一位贵族名叫阿姆尔，在阿里·本·阿比·塔利卜（愿主福安之）殉难前三天来到他面前，说：‘信士们的长官啊，请告诉我关于沟中人（Ashab al-Rass）的情况。他们处于哪个时代？他们的家园在哪里？他们的国王是谁？全能真主是否曾派遣使者去他们那里？他们因何而毁灭？我在真主的经典中找到了对他们的提及，却未找到关于他们的详细消息。’"
+        },
+        "word_start": 68,
+        "word_end": 125
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ: لَقَدْ سَأَلْتَ عَنْ حَدِيثٍ مَا سَأَلَنِي عَنْهُ أَحَدٌ قَبْلَكَ وَلَا يُحَدِّثُكَ بِهِ أَحَدٌ بَعْدِي إِلَّا عَنِّي وَمَا فِي كِتَابِ اللَّهِ عَزَّ وَجَلَّ آيَةٌ إِلَّا وَأَنَا أَعْرِفُ تَفْسِيرَهَا وَفِي أَيِّ مَكَانٍ نَزَلَتْ مِنْ سَهْلٍ أَوْ جَبَلٍ وَفِي أَيِّ وَقْتٍ نَزَلَتْ مِنْ لَيْلٍ أَوْ نَهَارٍ وَإِنَّ هَاهُنَا لَعِلْمًا جَمًّا وَأَشَارَ إِلَى صَدْرِهِ وَلَكِنَّ طُلَّابَهُ يَسِيرٌ وَعَنْ قَلِيلٍ يَنْدَمُونَ لَوْ فَقَدُونِي",
+        "translations": {
+          "en": "Ali (peace be upon him) said to him: 'You have asked about a narration that no one asked me about before you, and no one will narrate it to you after me except from me. There is no verse in God's Book that I do not know its interpretation, and where it was revealed from a valley or a mountain, and at what time it was revealed from night or day. And indeed here is abundant knowledge,' and he pointed to his chest. 'But its seekers are few, and they will regret if they lose me.'",
+          "ur": "علی (علیہ السلام نے ان سے فرمایا: تم نے اس روایت کے بارے میں پوچھا ہے جس کے بارے میں تم سے پہلے کوئی نے مجھ سے نہیں پوچھا اور تمہارے بعد کوئی تمہیں اسے روایت نہیں کرے گا سوائے میرے ہی سے۔ اللہ کی کتاب میں کوئی ایسی آیت نہیں جس کا مجھے تاویلیہ معلوم نہ ہو، اور نہ یہ کہ وہ کہاں سے نازل ہوئی، وادی ہو یا پہاڑ، اور نہ یہ کہ رات کے وقت نازل ہوئی یا دن کے وقت۔ اور بے شک یہاں بھرپور علم ہے، اور انہوں نے اپنی سینے کی طرف اشارہ کیا۔ لیکن اس کے طلبگار کم ہیں، اور وہ پشیمان ہوں گے اگر مجھ سے محروم ہو جائیں۔",
+          "tr": "Ali (aleyhisselam) ona şöyle dedi: 'Senden önce hiç kimsenin sormadığı, benden sonra da benden başkasından nakledilmeyecek bir rivayeti sordun. Allah'ın Kitabında, tefsirini bilmediğim bir ayet yoktur; nerede indirildiğini bir vadi veya dağda, gece mi gündüz mü olduğunu bilir. Şüphesiz burada bolca ilim vardır' ve göğsüne işaret etti. 'Ama onun arayanları azdır ve beni kaybederlerse pişman olacaklardır.'",
+          "fa": "علی (علیه السلام) به او فرمود: «تو درباره روایتی پرسیدی که پیش از تو کسی از من درباره آن نپرسید و پس از من نیز جز من کسی آن را برای تو روایت نخواهد کرد. هیچ آیه‌ای در کتاب خدا نیست که من تفسیر آن را ندانم، و اینکه در کدام دره یا کوه نازل شده، و در چه زمانی از شب یا روز نازل شده است. و بی‌گمان دانش فراوانی در اینجا [اشاره به سینه] است، اما جویندگان آن اندکند و اگر من را از دست بدهند پشیمان خواهند شد.» }  \n\nNote: The JSON format has been adjusted to ensure proper escaping of quotes and newlines. The final output is: ```json { ",
+          "id": "Ali (alamahih) berkata kepadanya: 'Kamu telah bertanya tentang sebuah riwayat yang belum pernah ditanyakan kepadaku sebelum kamu, dan tidak ada yang akan meriwayatkannya kepada kamu setelah aku kecuali dari diriku. Tidak ada ayat dalam Kitab Allah yang tidak aku ketahui tafsirnya, dan di mana ia diturunkan dari sebuah lembah atau gunung, serta pada waktu apa ia diturunkan dari malam atau siang. Dan sesungguhnya di sini terdapat ilmu yang melimpah,' dan ia menunjuk ke dadanya. 'Namun para pencarinya sedikit, dan mereka akan menyesal jika kehilangan aku.'",
+          "bn": "আলী (রহ.) তাঁকে বললেন: 'তুমি এমন একটি হাদিস সম্পর্কে জিজ্ঞাসা করলে যা তোমার আগে কেউ আমাকে জিজ্ঞাসা করেনি, আর আমি মৃত্যুর পর তোমাকে এটি বর্ণনা করবে কেবল আমিই। আল্লাহর কিতাবে এমন কোনো আয়াত নেই যার তাফসিল আমি জানি না, এবং এটি কোন উপত্যকা বা পর্বত থেকে অবতীর্ণ হয়েছে, এবং রাতের কোন অংশে বা দিনের কোন অংশে অবতীর্ণ হয়েছে। আর নিশ্চয়ই এখানে প্রচুর জ্ঞান রয়েছে,' এবং তিনি নিজের বুকে আঙুল তাক করলেন। 'কিন্তু এর অনুসন্ধানকারীরা অল্প, এবং তারা পশ্চাৎপদ হবে যদি তারা আমাকে হারায়।'",
+          "es": "D: ",
+          "fr": "Ali (que la paix soit sur lui) lui) lui dit : « Tu m’as interrogé sur un hadith que personne ne m’a demandé avant toi, et personne ne te le rapportera après moi sauf par moi-même. Il n’y a aucun verset du Livre d’Allah dont je ne connaisse l’interprétation, ni le lieu de sa révélation, qu’il soit dans une vallée ou sur une montagne, ni l’heure de sa révélation, qu’elle soit de nuit ou de jour. Et voici en effet une connaissance abondante », et il désigna sa poitrine. « Mais ses chercheurs sont peu nombreux, et ils regretteront si ils me perdent. »",
+          "de": "Ali (friede sei mit ihm) sagte zu ihm: »Du hast mich nach einer Überlieferung gefragt, nach der mich vor dir niemand gefragt hat, und nach der man dich nach mir nur von mir aus befragen wird. Es gibt keinen Vers im Buch Gottes, den ich nicht kenne, noch weiß, wo er offenbart wurde, ob in einem Tal oder auf einem Berg, und zu welcher Zeit er offenbart wurde, ob bei Nacht oder bei Tag. Und wahrlich, hier ist reichlich Wissen«, und er wies auf seine Brust. »Aber seine Suchenden sind wenige, und sie werden es bereuen, wenn sie mich verlieren.«",
+          "ru": "Али (да (да будет мир с ним) сказал ему: «Ты спросил о хадисе, который никто не спрашивал меня до тебя, и никто не передаст его тебе после меня, кроме меня. Нет ни одного аята в Книге Аллаха, которого я не знал бы его толкования, и где он был ниспослан — из долины или горы, и в какое время он был ниспослан — ночью или днём. И вот, здесь много знания», — и он указал на свою грудь. «Но ищущих его мало, и они пожалеют, если потеряют меня».",
+          "zh": "阿里（愿主福安之）对他说：\"你问了一个在我之前无人向我询问、在我之后除我之外无人再向你传述的圣训。真主的经典中，没有我不了解其释义的经文，也没有我不知道其降示地点（山谷或山岭）和降示时间（夜晚或白天）的经文。确实，知识 abundant，\"他指着自己的胸口说，\"但寻求知识的人却很少，如果他们失去我，将会后悔。\""
+        },
+        "word_start": 125,
+        "word_end": 188
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ: كَانَ مِنْ قِصَّتِهِمْ يَا أَخَا تَمِيمٍ أَنَّهُمْ كَانُوا قَوْمًا يَعْبُدُونَ شَجَرَةَ صَنَوْبَرٍ يُقَالُ لَهَا شَاهْ دَرَخْتْ كَانَ يَافِثُ بْنُ نُوحٍ غَرَسَهَا عَلَى شَفِيرِ عَيْنٍ يُقَالُ لَهَا رُوشَابُ كَانَتْ تُنْبَطَتْ لِنُوحٍ عَلَيْهِ السَّلَامُ بَعْدَ الطُّوفَانِ وَإِنَّمَا سُمُّوا أَصْحَابَ الرَّسِّ لِأَنَّهُمْ رَسُّوا نَبِيَّهُمْ فِي الْأَرْضِ وَذَلِكَ بَعْدَ سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "He said: 'This is their account, O brother of Tamim. They were a people who worshipped a cypress tree called ",
+          "ur": "انہوں نے کہا: یہ ان کا حال ہے، اے تمیم کے بھائی! یہ ایک قوم تھی جو ایک دیودار کے درخت کی عبادت کرتی تھی جس کا نام",
+          "tr": "Dedi ki: 'İşte onların hesabı, ey Tamim'in kardeşi. Cypress ağacı olan bir ağaca tapan bir kavim idiler.",
+          "fa": "گفت: این گزارش آن‌هاست، ای برادر تمیم. آنان گروهی بودند که به درخت سروی به نام",
+          "id": "Ia berkata, 'Inilah kisah mereka, wahai saudara Tamim. Mereka adalah kaum yang menyembah sebuah pohon cypress yang bernama'",
+          "bn": "তিনি বললেন, 'এদের হিসাব, হে তামিমের ভাই। তারা ছিল এক জাতি, যারা এক সার্বদেহ বৃক্ষের উপাসনা করত, যার নাম",
+          "es": "Dijo: «Este es su relato, oh hermano de Tamim. Eran un pueblo que adoraba un ciprés llamado",
+          "fr": "Il dit : « Voici leur récit, ô frère de Tamim. C'était un peuple qui adorait un cyprès appelé",
+          "de": "Er sagte: »Dies ist ihre Geschichte, o Bruder Tamims. Sie waren ein Volk, das Volk, das einen Zypressenbaum anbetete, der",
+          "ru": "Он сказал: «Вот их история, о брат Тамима. Они были народом, который почитал кипарис, называемый",
+          "zh": "他说：‘这是他们的情况，塔米姆的兄弟啊。他们曾崇拜一棵名为"
+        },
+        "word_start": 188,
+        "word_end": 239
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "شَاهْ دَرَخْتْ",
+        "translations": {
+          "en": "Shah Derakht (King Tree)",
+          "ur": "شاہ درخت",
+          "tr": "Şah Derakht (Kral Ağaç)",
+          "fa": "شاه درخت",
+          "id": "Syah Darakht (Raja Pohon)",
+          "bn": "শাহ দেরখত (রাজা গাছ)",
+          "es": "Shah Derakht (Árbol Rey)",
+          "fr": "Chah Derakht (Arbre-Roi)",
+          "de": "Schah Derakht (Königsbaum)",
+          "ru": "Шах Дерехт (Царь-дерево)",
+          "zh": "沙赫德拉克特（国王树）"
+        },
+        "word_start": 239,
+        "word_end": 241
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "كَانَ يَافِثُ بْنُ نُوحٍ غَرَسَهَا عَلَى شَفِيرِ عَيْنٍ يُقَالُ لَهَا رُوشَابُ كَانَتْ تُنْبَطَتْ لِنُوحٍ عَلَيْهِ السَّلَامُ بَعْدَ الطُّوفَانِ وَإِنَّمَا سُمُّوا أَصْحَابَ الرَّسِّ لِأَنَّهُمْ رَسُّوا نَبِيَّهُمْ فِي الْأَرْضِ وَذَلِكَ بَعْدَ سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "Yafith ibn Noah had planted it beside a spring called Roshab, which gushed forth for Noah (peace be upon him) after the Flood. They were called the People of the Ditch because they buried their prophet in the earth, and that was after Solomon ibn David (peace be upon him).",
+          "ur": "یافت بن نوح نے اسے رشب نامی چشمے کے پاس لگایا تھا، جو طوفان کے بعد حضرت نوح علیہ السلام کے لیے جاری ہوا۔ انہاں کو اہل خندق کہا جاتا تھا کیونکہ انہوں نے اپنے نبی کو زمین میں دفن کیا، اور یہ سلیمان بن داؤد علیہ السلام کے بعد کا واقعہ تھا۔",
+          "tr": "Yafith ibn Nuh, Roshab adlı bir pınarın yanında dikmişti; bu pınar, Tufan'dan sonra Nuh'a (aleyhisselam) fışkırmıştı. Onlar, peygamberlerini toprağa gömdükleri için Hendek Ehli olarak anıldılar ve bu, Süleyman ibn Davud'dan (aleyhisselam) sonra gerçekleşti.",
+          "fa": "یافیت بن نوح آن را در کنار چشمه‌ای به نام رُشَب کاشت که پس از طوفان برای نوح (علیه‌السلام) جوشید. آن‌ها به مردم خندق معروف شدند زیرا پیامبرشان را در زمین دفن کردند، و این پس از سلیمان بن داوود (علیه‌السلام) بود.",
+          "id": "Yafith bin Nuh menanamnya di dekat sebuah mata air yang disebut Roshab, yang mem, yang memancar untuk Nuh (alamahih) setelah banjir besar. Mereka disebut Ahl al-Khandiq karena mereka mengubur nabi mereka di dalam tanah, dan hal itu terjadi setelah Sulaiman bin Daud (alamahih).",
+          "bn": "ইয়াফিথ ইবনে নূহ (আ.) রোশাব নামক একটি ঝর্ণার পাশে তা লাগিয়েছিলেন, যা মহাপ্লাবনের পর নূহ (আ.)-এর জন্য উৎসারিত হতো। তারা খন্দকের লোক নামে পরিচিত ছিল, কারণ তারা তাদের নবীকে সলমান ইবনে দাউদ (আ.)-এর পরে মাটির নিচে সমাধিস্থ করেছিল।",
+          "es": "Yafith ibn Noah la planta que Yafith, hijo de Nuh, había plantado junto a un manantial llamado Roshab, que brotaba para Nuh (que la paz sea con él) después del Diluvio. Fueron llamados el Pueblo de la Zanja porque enterraron a su profeta en la tierra, y eso fue después de Sulayman, hijo de Dawud (que la paz sea con él).",
+          "fr": "Yafith ibn Noah l'avait planté près d'une source appelée Roshab, qui jaillit pour Noah (que la paix soit sur lui) après le jour du Déluge. On les appelait les Gens de la Fosse, car ils enterrèrent leur prophète dans la terre, et cela eut lieu après Salomon ibn David (que la paix soit sur lui).",
+          "de": "Yafith ibn Noah hatte sie neben einer Quelle namens Roshab gepflanzt, die nach der Sintflut für Noah (Friede sei mit ihm) hervorsprudelte. Sie wurden die Leute des Grabens genannt, weil sie ihren Propheten in der Erde begruben, und das geschah nach Salomo ibn David (Friede sei mit ihm).",
+          "ru": "Яфит, сын Нуха, посадил его у источника, который назывался Рошаб, и он бил ключом для Нуха (да будет мир ему) после Потопа. Их называли «Людьми Рва», потому что они похоронили своего пророка в земле, и это произошло после Сулеймана, сына Давуда (да будет мир ему).",
+          "zh": "雅菲斯·本·努哈将它种在名为罗沙布的水泉旁，该泉在洪水之后为努哈（愿主福安之）涌出。他们被称为“沟中人”，因为他们在所罗门·本·达乌德（愿主福安之）之后将他们的先知埋葬于地下。"
+        },
+        "word_start": 241,
+        "word_end": 275
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَكَانَتْ لَهُمْ اثْنَتَا عَشْرَةَ قَرْيَةً عَلَى شَاطِئِ نَهَرٍ يُقَالُ لَهُ الرَّسُّ مِنْ بِلَادِ الْمَشْرِقِ وَبِهِمْ سُمِّيَ ذَلِكَ النَّهَرُ وَلَمْ يَكُنْ يَوْمَئِذٍ فِي الْأَرْضِ نَهَرٌ أَغْزَرُ مِنْهُ وَلَا أَعْذَبُ مِنْهُ وَلَا قُرًى أَكْثَرُ وَلَا أَعْمَرُ مِنْهَا",
+        "translations": {
+          "en": "They had twelve towns on the bank of a river called al-Rass, from the lands of the East, and the river was named after them. At that time, there was no river on earth more abundant or sweeter than it, nor towns more numerous or more populated than them.",
+          "ur": "ان کے پاس ایک دریا کے کنارے بارہ شہر تھے جس کا نام الراس تھا، مشرق کی زمینوں سے، اور دریا ان کے نام پر موسوم ہوا۔ اس وقت زمین پر کوئی دریا اس سے زیادہ فراوان یا میٹھا نہیں تھا، نہ ہی کوئی شہر اس سے زیادہ تعداد میں یا آبادی میں زیادہ تھے۔",
+          "tr": "Doğu topraklarından olan al-Rass adlı bir nehrin kıyısında on iki şehirleri vardı ve nehir de onların adıyla anılırdı. O dönemde, yeryüzünde ondan daha bol veya daha tatlı bir nehir, onlardan daha fazla veya daha kalabalık şehirler yoktu.",
+          "fa": "آن‌ها دوازده شهر در کنار رودی به نام الرّس داشتند، از سرزمین‌های شرق، و این رود به نام آن‌ها نام‌گذاری شد. در آن زمان، هیچ رودی در زمین پرآب‌تر یا شیرین‌تر از آن نبود، و هیچ شهری به تعداد یا جمعیت آن‌ها نبود.",
+          "id": "Mereka memiliki dua belas kota di tepi sebuah sungai yang disebut al-Rass, dari negeri-negeri Timur, dan sungai itu dinamai menurut nama mereka. Pada masa itu, tidak ada sungai di bumi yang lebih melimpah atau lebih manis daripada sungai itu, maupun kota-kota yang lebih banyak atau lebih padat penduduknya daripada mereka.",
+          "bn": "তাদের ছিল বারোটি শহর, যা আল-রাস নামক নদীর তীরে অবস্থিত, যা পূর্বের ভূমি থেকে এসেছিল, এবং নদীটি তাদের নামানুসারে নামকরণ করা হয়েছিল। সেই সময়ে, পৃথিবীতে এমন কোনো নদী ছিল না যা এর চেয়ে বেশি প্রচুর বা মিষ্টি ছিল, এবং এমন কোনো শহর ছিল না যা এর চেয়ে বেশি সংখ্যক বা জনবহুল ছিল।",
+          "es": "Tenían doce ciudades en lares en la orilla de un río llamado al-Rass, procedentes de las tierras del Oriente, y el río recibió su nombre por ellos. En aquel tiempo, no había en la tierra río más abundante ni más dulce que él, ni ciudades más numerosas ni más pobladas que ellas.",
+          "fr": "Ils avaient douze villes sur la rive d'un fleuve appelé al-Rass, venant des terres de l'Est, et le fleuve fut nommé d'après eux. À cette époque, il n'y avait pas de fleuve sur terre plus abondant ou plus doux que lui, ni villes plus nombreuses ou plus peuplées que celles-là.",
+          "de": "Sie hatten zwölf Städte am Ufer eines Flusses namens al-Rass, aus den Ländern des Ostens, und der Fluss wurde nach ihnen benannt. Zu jener Zeit gab es auf der Erde keinen Fluss, der reicher oder süßer war als er, und keine Städte, die zahlreicher oder bevölkerungsreicher waren als jene.",
+          "ru": "У них было двенадцать городов на берегу реки, называемой ар-Расс, из земель Востока, и река получила своё название от них. В то время не было на земле реки более обильной или более сладкой, чем она, и не было городов более многочисленных или более населённых, чем они. }  }```json { ",
+          "zh": "他们在一条名为al-Rass的河畔有十二座城镇，这些城镇来自东方之地，而这条河也因他们而得名。当时，地球上没有哪条河比它更丰沛或更甘甜，也没有哪座城镇比它们更多或更人口稠密。"
+        },
+        "word_start": 275,
+        "word_end": 310
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "تُسَمَّى إِحْدَاهُنَّ أَبَانَ وَالثَّانِيَةُ آذَرَ وَالثَّالِثَةُ دَيْ وَالرَّابِعَةُ بَهْمَنَ وَالْخَامِسَةُ إِسْفَنْدَارَ وَالسَّادِسَةُ فَرْوَرْدِينَ وَالسَّابِعَةُ أُرْدِيبِهِشْتَ وَالثَّامِنَةُ خُرْدَادَ وَالتَّاسِعَةُ مُرْدَادَ وَالْعَاشِرَةُ تِيرَ وَالْحَادِيَةَ عَشْرَةَ مِهْرَ وَالثَّانِيَةَ عَشْرَةَ شَهْرِيوَرَدَ وَكَانَتْ أَعْظَمَ مَدَائِنِهِمْ إِسْفَنْدَارُ وَهِيَ الَّتِي يَنْزِلُهَا مَلِكُهُمْ",
+        "translations": {
+          "en": "One of them is called Aban, the second Azar, the third Day, the fourth Bahman, the fifth Isfandar, the sixth Farvardin, the seventh Ordibehesht, the eighth Khordad, the ninth Mordad, the tenth Tir, the eleventh Mehr, and the twelfth Shahrivar. The greatest of their cities was Isfandar, which is where their king resided.",
+          "ur": "ان میں سے ایک کا نام ابان ہے، دوسرا اذر، تیسرا دی، چوتھا بہمن، پانچواں اسفندر، چھٹا فروردین، ساتواں اردی بہشت، آٹھواں خرداد، نوواں مرداد، دسواں تیر، گیارہواں مہر، اور بارہواں شہریور۔ ان کے شہروں میں سب سے بڑا شہر اسفندر تھا، جو ان کے بادشاہ کا مسکن تھا۔",
+          "tr": "Onlardan birine Aban, ikincisine Azar, üçüncüsüne Day, dördüne Bahman, beşisine Isfandar, altısına Farvardin, yedisine Ordibehesht, sekizine Khordad, dokuzuna Mordad, onuncusuna Tir, on birincisine Mehr ve on ikincisine Shahrivar denir. Şehirlerinin en büyüğü Isfandar'dı ve orada onların kralı otururdu.",
+          "fa": "یکی از آن‌ها اَبان نام دارد، دومین آن آذر، سومین آن روز، چهارمین آن بهمن، پنجمین آن اسفندار، ششمین آن فروردین، هفتمین آن اردیبهشت، هشتمین آن خرداد، نهمین آن مرداد، دهمین آن تیر، یازدهمین آن مهر و دوازدهمین آن شهریور است. بزرگ‌ترین شهر آن‌ها اسفندار بود که پادشاه آن‌جا اقامت داشت.",
+          "id": "Salah satunya bernama Aban, yang kedua Azar, yang ketiga Day, yang keempat Bahman, yang kelima Isfandar, yang keenam Farvardin, yang ketujuh Ordibehesht, yang kedelapan Khordad, yang kesembilan Mordad, yang kesepuluh Tir, yang kesebelas Mehr, dan yang kedua belas Shahrivar. Kota terbesar mereka adalah Isfandar, yang merupakan tempat tinggal raja mereka.",
+          "bn": "তাদের মধ্যে একটির নাম আবান, দ্বিতীয়টি আযার, তৃতীয়টি দাই, চতুর্থটি বহমান, পঞ্চমটি ইসফান্দার, ষষ্ঠটি ফরভদিন, সপ্তমটি ওর্দিবেহেশত, অষ্টমটি খোরদাদ, নবমটি মোর্দাদ, দশমটি তির, একাদশটি মাহর, এবং দ্বাদশ শাহরিয়ার। তাদের নগরীদের মধ্যে সর্বোচ্চ ছিল ইসফান্দার, যেখানে তাদের রাজা বাস করতেন।",
+          "es": "Uno de ellos se llama Aban, el segundo Azar, el tercero Day, el cuarto Bahman, el quinto Isfandar, el sexto Farvardin, el séptimo Ordibehesht, el octavo Khordad, el noveno Mordad, el décimo Tir, el undécimo Mehr y el duodécimo Shahrivar. La más grande de sus ciudades era Isfandar, donde residía su rey.",
+          "fr": "L'un d'eux s'appelle Aban, le second Azar, le troisième Day, le quatrième Bahman, le cinquième Isfandar, le sixième Farvardin, le septième Ordibehesht, le huitième Khordad, le neuvième Mordad, le dixième Tir, le onzième Mehr, et le douzième Shahrivar. La plus grande de leurs villes était Isfandar, où résidait leur roi.",
+          "de": "Einer von ihnen heißt Aban, der zweite Azar, der dritte Day, der vierte Bahman, der fünfte Isfandar, der sechste Farvardin, der siebte Ordibehesht, der achte Khordad, der neunte Mordad, der zehnte Tir, der elfte Mehr und der zwölfte Shahrivar. Die größte ihrer Städte war Isfandar, wo ihr König residierte.",
+          "ru": "Один из них называется Абан, второй — Азар, третий — Дэй, четвертый — Бахман, пятый — Искандар, шестой — Фарвардин, седьмой — Ордибехешт, восьмой — Хордад, девятый — Мород, десятый — Тир, одиннадцатый — Мехр, а двенадцатый — Шахривар. Величайшим из их городов был Искандар, где проживал их царь.",
+          "zh": "其中之一名为阿班，第二名为阿扎尔，第三名为戴，第四名为巴赫曼，第五名为伊斯凡达尔，第六名为法尔瓦丁，第七名为奥尔迪贝赫什特，第八名为霍尔达德，第九名为莫达德，第十名为提尔，第十一名为米尔，第十二名为沙赫里瓦尔。他们最大的城市是伊斯凡达尔，其国王居住于此。"
+        },
+        "word_start": 310,
+        "word_end": 345
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَكَانَ يُسَمَّى تَرْكُوزَ بْنَ غَابُورَ بْنَ يَارَشَ بْنَ سَازَنَ بْنَ نُمْرُودَ بْنِ كَنْعَانَ فِرْعَوَ إِبْرَاهِيمَ وَبِهَا الْعَيْنُ وَالصَّنَوْبَرَةُ وَقَدْ غَرَسُوا فِي كُلِّ قَرْيَةٍ مِنْهَا حَبَّةً مِنْ طَلْعِ تِلْكَ الصَّنَوْبَرَةِ وَأَجْرَوْا إِلَيْهَا نَهَرًا مِنَ الْعَيْنِ الَّتِي عِنْدَ الصَّنَوْبَرَةِ فَنَبَتَتِ الْحَبَّةُ وَصَارَتْ شَجَرَةً عَظِيمَةً",
+        "translations": {
+          "en": "He was called Tarkuz ibn Ghabur ibn Yarash ibn Sazan ibn Numrud ibn Canaan, the Pharaoh of Abraham. The spring and the cypress tree were there. They had planted a seed from the fruit of that cypress tree in each town, and they diverted a river to it from the spring near the cypress tree. The seed grew and became a great tree.",
+          "ur": "وہ ترکوز بن غبور بن یارش بن سازان بن نمر بن کانان تھے، جو ابراہیم کے فرعون تھے۔ وہاں ایک چشمہ اور ایک سرو کا درخت تھا۔ انہوں نے ہر شہر میں اس سرو کے درخت کے پھل کا ایک بیج بو دیا تھا، اور سرو کے درخت کے قریب موجود چشمے سے اس کی طرف ایک نہر موڑ دی تھی۔ بیج اگا اور ایک بڑا درخت بن گیا۔",
+          "tr": "O, Tarkuz ibn Ghabur ibn Yarash ibn Sazan ibn Numrud ibn Canan olarak anılırdı, İbrahim'in Firavunu. Pınar ve sedir ağacı oradaydı. Her şehre, o sedir ağacının meyvesinden bir tohum ekmişlerdi ve sedir ağacının yakınındaki pınardan ona doğru bir nehir yönlendirmişlerdi. Tohum büyüyerek büyük bir ağaç haline geldi.",
+          "fa": "او را ترکوز پسر غبور پسر یارش پسر سزان پسر نمرود پسر کنعان می‌نامیدند، فرعون ابراهیم. چشمه و سرو آنجا بود. آن‌ها دانه‌ای از میوه آن سرو را در هر شهر کاشته بودند و از چشمه نزدیک سرو، آبی را به آن هدایت می‌کردند. دانه رشد کرد و به درختی بزرگ تبدیل شد.",
+          "id": "Ia disebut Tarkuz bin Ghabur bin Yarash bin Sazan bin Numrud bin Canaan, yaitu Firaunnya Ibrahim. Mata air dan pohon cypress itu ada di sana. Mereka telah menanam benih dari buah pohon cypress itu di setiap kota, dan mereka mengalirkan sungai ke sana dari mata air dekat pohon cypress itu. Benih itu tumbuh dan menjadi pohon yang besar.",
+          "bn": "তিনি তরকুজ ইবনে গাবুর ইবনে যারিশ ইবনে সাজান ইবনে নুমরুদ ইবনে কানান নামে পরিচিত ছিলেন, যিনি ইব্রাহিমের ফিরেউন ছিলেন। সেখানে একটি ঝর্ণা এবং একটি দেবদারু গাছ ছিল। তারা প্রতিটি শহরে সেই দেবদারু গাছের ফলের একটি বীজ রোপণ করেছিল, এবং ঝর্ণার নিকটবর্তী অংশ থেকে একটি নদী তাকে পথ দেখিয়ে নিয়ে এসেছিল। বীজটি গজিয়ে একটি বিশাল গাছে পরিণত হয়েছিল।",
+          "es": "Se le llamó Tarkuz ibn Ghabur ibn Yarash ibn Sazan ibn Numrud ibn Canaan, el Faraón de Abraham. Allí estaban la fuente y el ciprés. Habían plantado una semilla del fruto de ese ciprés en cada ciudad, y desviaban un río hacia ella desde la fuente cercana al ciprés. La semilla creció y se convirtió en un gran árbol.",
+          "fr": "On l'appelait Tarkuz ibn Ghabur ibn Yarash ibn Sazan ibn Numrud ibn Sazan ibn Numrud ibn Canaan, le Pharaon d'Abraham. La source et le cyprès étaient là. Ils avaient planté une graine issue du fruit de ce cyprès dans chaque ville, et ils avaient détourné vers elle un fleuve depuis la source près du cyprès. La graine poussa et devint un grand arbre.",
+          "de": "Er wurde Tarkuz ibn Ghabur ibn Yarash ibn Sazan ibn Numrud ibn Canaan genannt, der Pharao Abrahams. Die Quelle und die Zypresse waren dort. Sie hatten einen Samen aus der Frucht dieser Zypresse in jeder Stadt gepflanzt und einen Fluss von der Quelle nahe der Zypresse dorthin geleitet. Der Samen wuchs und wurde zu einem großen Baum.",
+          "ru": "Его называли Таркуз ибн Габур ибн Яраш ибн Сазан ибн Нумруд ибн Канан, фараон Авраама. Там был источник и кипарисовое дерево. Они посадили семя от плода этого кипариса в каждом городе, и от источника у кипариса провели к нему реку. Семя выросло и превратилось в большое дерево.",
+          "zh": "他被称为塔尔库兹·伊本·加布尔·伊本·亚拉什·伊本·萨赞·伊本·努姆鲁德·伊本·迦南，即亚伯拉罕的法老。那里有泉水和柏树。他们在每个城镇种下了一棵柏树的果实种子，并从靠近柏树的泉水处引出一条河流灌溉它。种子生长，最终长成了一棵参天大树。"
+        },
+        "word_start": 345,
+        "word_end": 387
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَحَرَّمُوا مَاءَ الْعَيْنِ وَالْأَنْهَارَ فَلَا يَشْرَبُونَ مِنْهَا وَلَا أَنْعَامُهُمْ وَمَنْ فَعَلَ ذَلِكَ قَتَلُوهُ وَيَقُولُونَ هُوَ حَيَاةُ آلِهَتِنَا فَلَا يَنْبَغِي لِأَحَدٍ أَنْ يَنْقُصَ مِنْ حَيَاتِهَا وَيَشْرَبُونَ هُمْ وَأَنْعَامُهُمْ مِنْ نَهَرِ الرَّسِّ الَّذِي عَلَيْهِ قُرَاهُمْ",
+        "translations": {
+          "en": "They forbade the water of the spring and the rivers, so they did not drink from it, nor their animals. Whoever did drink, they killed him, saying, 'This is the life of our gods, so it is not fitting for anyone to diminish its life.' They and their animals drank from the River of the Ditch, upon which their towns were built.",
+          "ur": "انہوں نے چشمے اور دریاؤں کے پانی کو حرام کر دیا، اس لیے نہ وہ پیتے تھے اور نہ ہی ان کے جانور۔ جو شخص پیتا، انہوں نے اسے قتل کر دیا، یہ کہتے ہوئے کہ ''یہ ہمارے معبودوں کی زندگی ہے، اس لیے کسی کے لیے اس کی زندگی کو کم کرنا مناسب نہیں۔'' اور ان کے جانور کھائی کے دریا سے پیتے تھے، جس پر ان کے شہر آباد تھے۔",
+          "tr": "Peygamber (s.a.v.)'in ümmetinden olanlar, pınarın ve nehirlerin suyunu yasakladılar, bu yüzden onlar da hayvanları da ondan içmediler. İçenleri öldürüyor, 'Bu, tanrılarımızın hayatıdır, bu yüzden onun hayatını azaltmak kimsenin hakkı değildir' diyorlardı. Onlar ve hayvanları, şehirlerinin üzerine inşa edildiği Hendek Nehri'nden içiyorlardı.",
+          "fa": "آنها آب چشمه و رودخانه‌ها را حرام کردند، پس از آن نمی‌نوشیدند و حیواناتشان نیز نمی‌نوشیدند. هر کس می‌نوشید، او را می‌کشتند و می‌گفتند: «این زندگی خدایان ماست، پس شایسته نیست که کسی آن را کم کند.» آنها و حیواناتشان از رود خندق می‌نوشیدند، که شهرهایشان بر آن ساخته شده بود.",
+          "id": "Mereka melarang air mata air dan sungai, sehingga mereka tidak meminumnya, begitu pula hewan-hewan mereka. Barangsiapa yang minum, mereka membunuhnya, sambil berkata, 'Ini adalah kehidupan tuhan-tuhan kami, maka tidak pantas bagi siapa pun untuk mengurangi kehidupannya.' Mereka dan hewan-hewan mereka minum dari Sungai Parit, yang di atasnya kota-kota mereka dibangun.",
+          "bn": "তারা সেই কূপের পানি ও নদীগুলিকে নিষিদ্ধ করে দিল, তাই তারা ও তাদের পশুপাখি তা থেকে পান করত না। যারা পান করত, তাদের হত্যা করা হতো, বলা হতো, 'এটি আমাদের দেবতাদের জীবন, তাই এর জীবন হ্রাস করা কারো পক্ষে উপযুক্ত নয়।' তারা ও তাদের পশুপাখি খনন করা নদী থেকে পান করত, যার উপর তাদের শহরগুলো নির্মিত ছিল।",
+          "es": "Prohibieron el agua de la fuente y de los ríos, por lo que no bebían de ella ni sus animales. Quien bebía, lo mataban, diciendo: «Esta es la vida de nuestros dioses, por lo que no es apropiado que nadie disminuya su vida». Ellos y sus animales bebían del Río de la Zanja, sobre el cual estaban construidas sus ciudades.",
+          "fr": "Ils interdisaient l'eau de la source et des rivières, de sorte qu'ils n'en buvaient pas, ni leurs animaux. Quiconque buvait, ils le tuaient, en disant : « C'est la vie de nos dieux, il ne convient donc à personne d'en diminuer la vie. » Eux et leurs animaux buvaient de la Rivière du Fossé, sur laquelle leurs villes étaient construites.",
+          "de": "Sie verboten das Wasser der Quelle und der Flüsse, sodass sie daraus nicht tranken, noch ihre Tiere. Wer daraus trank, den töteten sie und sprachen: »Dies ist das Leben unserer Götter, daher ist es nicht angebracht, dass jemand sein Leben vermindert.« Sie und ihre Tiere tranken vom Grabenfluss, auf dem ihre Städte erbaut waren.",
+          "ru": "Они запретили воду источника и рек, поэтому люди и их животные не пили из них. Кто пил, того они убивали, говоря: «Это жизнь наших богов, поэтому не подобает никому уменьшать её жизнь». Они и их животные пили из Реки Рва, на которой были построены их города.",
+          "zh": "他们禁止饮用那口泉和河流的水，因此他们和他们的牲畜都不饮用。凡有人饮用，他们便将其杀死，说：‘这是我们众神的生命，任何人都不应使其枯竭。’他们和他们的牲畜饮用的是壕沟河，他们的城镇便建在这条河上。"
+        },
+        "word_start": 387,
+        "word_end": 420
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَقَدْ جَعَلُوا فِي كُلِّ شَهْرٍ مِنَ السَّنَةِ فِي كُلِّ قَرْيَةٍ عِيدًا يَجْتَمِعُ إِلَيْهِ أَهْلُهَا فَيَضْرِبُونَ عَلَى الشَّجَرَةِ الَّتِي بِهَا كِلَّةً مِنْ حَرِيرٍ فِيهَا مِنْ أَنْوَاعِ الصُّوَرِ ثُمَّ يَأْتُونَ بِشَاءٍ وَبَقَرٍ فَيَذْبَحُونَهَا قُرْبَانًا لِلشَّجَرَةِ وَيُشْعِلُونَ فِيهَا النِّيرَانَ بِالْحَطَبِ",
+        "translations": {
+          "en": "They had established a festival in each month of the year in each town, to which its people would gather. They would hang a silk covering with various designs on the tree. Then they would bring sheep and cows and slaughter them as a sacrifice for the tree, and they would kindle a fire with wood upon them.",
+          "ur": "انہوں نے ہر شہر میں ہر مہینے کا ایک تہوار مقرر کر رکھا تھا جس کے لیے لوگ جمع ہوتے تھے۔ وہ درخت پر مختلف نقش و نگار والا ایک ریشمی پردہ لٹکا دیتے تھے۔ پھر وہ بھی اور گائے لے آتے اور درخت کے لیے قربانی کے طور پر انہیں ذبح کر دیتے اور ان کے اوپر لکڑی سے آگ جلا دیتے۔",
+          "tr": "Her ayda, her kasabada, halkının toplanacağı bir bayram kurmuşlardı. Ağaca çeşitli desenlerle süslü bir ipek örtü asarlardı. Sonra koyun ve inek getirip, ağaç için kurban keserler, üzerlerine odun yakarlardı.",
+          "fa": "آنها در هر شهر جشنی را در هر ماه سال برپا کرده بودند که مردم آنجا گرد می‌آمدند. آنها یک پوشش ابریشمی با طرح‌های مختلف را بر درخت می‌آویختند. سپس گوسفند و گاو می‌آوردند و آنها را به عنوان قربانی برای درخت ذبح می‌کردند و بر روی آنها آتشی با چوب برپا می‌کردند.",
+          "id": "Mereka telah menetapkan sebuah festival pada setiap bulan dalam setahun di setiap kota, yang dihadiri oleh penduduknya. Mereka menggantungkan penutup sutra dengan berbagai motif pada pohon itu. Kemudian mereka membawa domba dan sapi, lalu menyembelihnya sebagai korban untuk pohon itu, dan mereka menyalakan api dengan kayu di atasnya.",
+          "bn": "তারা প্রতিটি শহরে প্রতি মাসে একটি উৎসব স্থাপন করেছিল, যেখানে তার লোকজন সমবেত হতো। তারা গাছে বিভিন্ন নকশাযুক্ত রেশমের আবরণ ঝুলিয়ে দিত। তারপর তারা ছাগল ও গরু নিয়ে আসত এবং গাছের উদ্দেশ্যে বলিদানের জন্য সেগুলোকে হত্যা করত, এবং তাদের উপর কাঠের আগুন জ্বালাত।",
+          "es": "Habían establecido una fiesta en cada mes del año en cada ciudad, a la cual se reunía su gente. Colgaban una cubierta de seda con diversos diseños sobre el árbol. Luego traían ovejas y vacas y las sacrificaban como ofrenda para el árbol, y encendían un fuego con leña sobre ellas.",
+          "fr": "Ils avaient institué une fête chaque mois par mois, en chaque ville, à laquelle se rassemblait sa population. Ils accrochaient au tronc un voile de soie orné de divers motifs. Puis ils amenaient des moutons et des bœufs, les égorgaient en sacrifice pour le tronc, et faisaient brûler du bois sur eux.",
+          "de": "Sie hatten in German: ",
+          "ru": "Они установили праздник в каждом месяце года в каждом городе, куда собирались его жители. Они вешали на дерево шелковое покрывало с различными узорами. Затем они приводили овец и коров, закалывали их в жертву дереву и разжигали над ними огонь из дерева.",
+          "zh": "他们在每年每个月的每个城镇都设立了一个节日，当地的人们都会聚集于此。他们会在树上挂一块带有各种图案的丝绸覆盖物。然后，他们带来绵羊和牛，将其宰杀作为对树的祭品，并在祭品上点燃木柴之火。"
+        },
+        "word_start": 420,
+        "word_end": 457
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَإِذَا سَطَحَ دُخَانُ تِلْكَ الذَّبَائِحِ وَقُتَارُهَا فِي الْهَوَاءِ وَحَالَ بَيْنَهُمْ وَبَيْنَ النَّظَرِ إِلَى السَّمَاءِ خَرُّوا لِلشَّجَرَةِ سُجَّدًا يَبْكُونَ وَيَتَضَرَّعُونَ إِلَيْهَا أَنْ تَرْضَى عَنْهُمْ",
+        "translations": {
+          "en": "When the smoke of those sacrifices and their fumes spread in the air and blocked their view of the sky, they would fall prostrate to the tree, crying and supplicating to it that it be pleased with them.",
+          "ur": "جب ان قربانیوں کا دھواں اور اس کی بُو فضا میں پھیل کر آسمان کا منظر روک دیتی، تو وہ درخت کے سامنے سجدہ گر جاتے، رونے اور اس سے دعا مانگتے کہ وہ ان پر راضی ہو جائے۔",
+          "tr": "O kurbanların dumanı ve buharı havada yayılıp gökyüzünü kapattığında, ağaca secdeye varır, ağlayarak ve ona dua ederek onun kendilerinden razı olmasını isterlerdi.",
+          "fa": "هنگامی که دود آن قربانی‌ها و بوی آن‌ها در هوا پخش شد و دیدگاهشان را به آسمان بست، بر درخت سجده می‌کردند و با گریه و التماس از آن می‌خواستند که از آن‌ها خشنود شود.",
+          "id": "Ketika asap dari kurban-kurban mereka dan bau harumnya menyebar di udara dan menghalangi pandangan mereka ke langit, mereka sujud di hadapan pohon itu, sambil menangis dan memohon agar pohon itu ridha kepada mereka.",
+          "bn": "যখন সেই বলিদানের ধূম ও তার গন্ধ আকাশে ছড়িয়ে পড়ে এবং তাদের আকাশের দৃষ্টিতে বাধা সৃষ্টি করে, তখন তারা গাছের উদ্দেশ্যে সিজদা করে, কান্না ও প্রার্থনার মাধ্যমে তার সন্তুষ্টি কামনা করত।",
+          "es": "Cuando el humo de aquellos sacrificios y sus emanaciones se extendían por el aire y les obstruían la vista del cielo, se postraban ante el árbol, llorando y suplicándole que se complaciera con ellos.",
+          "fr": "Lorsque la fumée de ces sacrifices et leurs émanations se répandaient dans l'air et obstruaient leur vue du ciel, ils se prosternaient devant l'arbre, pleurant et lui adressant des supplications pour qu'il leur soit favorable.",
+          "de": "Wenn der Rauch ihrer Opfer und die Dämpfe ihrer Opfer sich in der Luft ausbreiteten und ihre Sicht auf den Himmel blockierten, würden sie vor dem Baum niederfallen, weinend und ihn anflehend, dass er mit ihnen zufrieden sei.",
+          "ru": "Когда дым от тех жертвожжений и их пары распространялись в воздухе и закрывали им вид на небо, они падали ниц перед деревом, плача и взывая к нему, чтобы оно было ими довольно.",
+          "zh": "当那些牺牲的烟雾及其气味弥漫在空中，遮蔽了他们仰望天空的视线时，他们便向那棵树叩首，哭泣并向它祈求，愿它悦纳他们。"
+        },
+        "word_start": 457,
+        "word_end": 480
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَيَأْتِي الشَّيْطَانُ فَيُحَرِّكُ أَغْصَانَهَا وَيَصِيحُ مِنْ سَاقِهَا صِيَاحَ الصَّبِيِّ إِنِّي قَدْ رَضِيتُ عَنْكُمْ عِبَادِي فَطِيبُوا نَفْسًا وَقَرُّوا عَيْنًا",
+        "translations": {
+          "en": "Then Satan would come and shake its branches, and cry from its trunk with the cry of a child, saying, 'I have been pleased with you, my servants. Be happy and glad.'",
+          "ur": "پس شیطان آتا اور اس کی شاخوں کو ہلاتا ہے، اور اس کے تنے سے بچے کی طرح چیخ کر کہتا ہے، 'میں تم سے راضی ہوں، اے میرے بندو! خوش ہو اور مسرور ہو۔'",
+          "tr": "Sonra şeytan gelip dallarını sallar ve gövdesinden bir çocuğun çığlığı gibi, \"Ey kullarım, ben sizden razıyım. Mutlu ve sevinçli olun,\" diyerek haykırırdı.",
+          "fa": "پس شیطان می‌آمد و شاخه‌های آن را می‌لرزاند و از تنه‌اش با فریادی چون فریاد کودک می‌گفت: «من از تو راضی هستم، ای بندگانم! شاد و خوشحال باشید.»",
+          "id": "Kemudian setan datang dan menggoyangkan dahan-dahannya, lalu berteriak dari batangnya dengan suara seperti anak kecil, berkata, 'Aku telah puas denganmu, hamba-hamba-Ku. Bersukacitalah dan bergembiralah.'",
+          "bn": "অতঃপর শয়তান আসে এবং তার ডালপালা ঝাঁকিয়ে, তার ত্রুণ থেকে শিশুর কান্নার মতো কান্না করে বলে, 'আমি তোমাদের সন্তুষ্ট হয়েছি, হে আমার বান্দাগণ। সুখী ও আনন্দিত হও।'",
+          "es": "Entonces Satanás vendría y sacudiría sus ramas, y gritaría desde su tronco con el grito de un niño, diciendo: \"Me he complacido en vosotros, mis siervos. Alegraos y gozaos.\"",
+          "fr": "Puis le Diable viendrait secouer ses branches et crierait depuis son tronc d'une voix d'enfant, disant : « Je suis satisfait de vous, mes serviteurs. Soyez joyeux et ravis. »",
+          "de": "Dann kam der Satan und schüttelte seine Zweige und rief mit der Stimme eines Kindes von seinem Stamm: »Ich bin mit euch, meinen Dienern, zufrieden. Seid fröhlich und jubelnd.«",
+          "ru": "Затем сатана пришел и потряс его ветви, и закричал с его ствола криком ребенка, говоря: «Я доволен вами, мои рабы. Будьте счастливы и радостны».",
+          "zh": "然后撒旦会来摇动它的树枝，并从其树干中以孩童的哭声呼喊说：‘我已满意你们，我的仆人们。要欢喜快乐。’"
+        },
+        "word_start": 480,
+        "word_end": 498
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَيَرْفَعُونَ رُءُوسَهُمْ عِنْدَ ذَلِكَ وَيَشْرَبُونَ الْخَمْرَ وَيَضْرِبُونَ بِالْمَعَازِفِ وَيَأْخُذُونَ الدَّسْتْبَنْدَ فَيَكُونُونَ عَلَى ذَلِكَ يَوْمَهُمْ وَلَيْلَتَهُمْ ثُمَّ يَنْصَرِفُونَ",
+        "translations": {
+          "en": "At that, they would lift their heads, drink wine, play with instruments, and take the 'Dastband' (a type of musical instrument or dance), spending their day and night in that manner, then they would depart.",
+          "ur": "پھر وہ سر اٹھاتے، شراب پیتے، آلاتِ موسیقی بجاتے، اور دستبند (موسیقی کا ایک قسم کا آلہ یا رقص) کرتے، اپنا دن اور رات اسی طرح گزارتے، پھر چلے جاتے۔",
+          "tr": "Bunun üzerine başlarını kaldırır, şarap içer, enstrümanlarla oynarlar ve 'Dastband'ı (bir tür enstrüman veya dans) alırlar, günlerini ve gecelerini bu şekilde geçirirler, ardından ayrılırlar.",
+          "fa": "در آن هنگام، سر برمی‌داشتند، شراب می‌نوشیدند، با سازها بازی می‌کردند و دستبند (نوعی ساز یا رقص) می‌گرفتند و روز و شب خود را به این گونه می‌گذراندند، سپس می‌رفتند.",
+          "id": "Maka, mereka akan mengangkat kepala mereka, minum anggur, bermain dengan alat musik, dan melakukan 'Dastband' (sejenis alat musik atau tarian), menghabiskan hari dan malam mereka dengan cara itu, kemudian mereka pergi.",
+          "bn": "অতঃপর তারা মাথা তুলত, মদ্যপান করত, যন্ত্রে সুর তুলত এবং 'দাস্তবন্দ' (এক প্রকার সঙ্গীত বা নৃত্য) করত, দিনরাত এইভাবে কাটাত, তারপর তারা চলে যেত।",
+          "es": "Entonces, alzarían la cabeza, beberían vino, tocarían instrumentos y realizarían el 'Dastband' (un tipo de instrumento musical o de danza), pasando el día y la noche de esa manera, y luego se marcharían.",
+          "fr": "À ce moment-là, ils levaient la tête, buvaient du vin, jouaient des instruments et pratiquaient le 'Dastband' (un type d'instrument de musique ou de danse), passant leur journée et leur nuit de cette manière, puis ils partaient.",
+          "de": "Daraufhin hoben sie ihre Köpfe, tranken Wein, spielten mit Instrumenten und vollzogen das 'Dastband' (eine Art Musikinstrument oder Tanz), verbrachten Tag und Nacht auf diese Weise und zogen dann weiter.",
+          "ru": "После этого они поднимали головы, пили вино, играли на музыкальных инструментах и исполняли «дастбанд» (вид» (вид музыкального инструмента или танца), проводя дни и ночи таким образом, а затем уходили.",
+          "zh": "于是，他们抬起头，饮酒，演奏乐器，并跳‘达斯特班’（一种乐器或舞蹈），日夜如此，随后离去。"
+        },
+        "word_start": 498,
+        "word_end": 515
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وإِنَّمَا سَمَّتِ الْعَجَمُ شُهُورَهَا بِأَبَانْ مَاهَ وَآذَرْ مَاهَ وَغَيْرِهِمَا اشْتِقَاقًا مِنْ أَسْمَاءِ تِلْكَ الْقُرَى لِقَوْلِ أَهْلِهَا بَعْضُهُمْ لِبَعْضٍ هَذَا عِيدُ شَهْرِ كَذَا وَعِيدُ شَهْرِ كَذَا",
+        "translations": {
+          "en": "The Persians named their months Aban Mah and Azar Mah and others, deriving them from the names of those towns, because the people of those towns would say to one another, 'This is the festival of such a month, and the festival of such a month.'",
+          "ur": "فارسیوں نے اپنے مہینوں کو ابان مہ اور اذر مہ اور دیگر ناموں سے پکارا، کیونکہ وہ ان شہروں کے ناموں سے ماخوذ تھے، کیونکہ ان شہروں کے لوگ ایک دوسرے سے کہتے تھے، ''یہ فلاں مہینے کا تہوار ہے، اور فلاں مہینے کا تہوار ہے۔''",
+          "tr": "Farslar, o şehirlerin halkının birbirine, 'Bu, böyle bir ayın bayramıdır, ve böyle bir ayın bayramıdır,' demesinden dolayı, aylarının adlarını Aban Mah ve Azar Mah ve diğerleri olarak koydular ve bunları o şehirlerin isimlerinden türettiler.",
+          "fa": "پارسیان ماه‌های خود را آبان‌ماه و آذر‌ماه و دیگر نام‌ها نامیدند و آن‌ها را از نام آن شهرها گرفته‌اند، زیرا مردم آن شهرها یکدیگر را خطاب می‌گفتند: «این جشن چنین ماهی است و جشن چنین ماهی است.»",
+          "id": "Orang Persia menamai bulan-bulan mereka Aban Mah dan Azar Mah serta yang lainnya, dengan mengambil nama-nama dari kota-kota tersebut, karena penduduk kota-kota itu saling berkata, \"Ini adalah festival pada bulan tertentu, dan festival pada bulan tertentu.\"",
+          "bn": "ফারসিরা তাদের মাসগুলিকে আবান মাহ ও আজার মাহ ইত্যাদি নাম দিয়েছিল, এবং সেই নামগুলি এসেছিল সেই শহরগুলির নাম থেকে, কারণ সেই শহরগুলির লোকেরা পরস্পরকে বলত, 'এটি এমন মাসের উৎসব, এবং এমন মাসের উৎসব।'",
+          "es": "Los persas nombraron sus meses Abán Mah y Azar Mah y otros, derivándolos de los nombres de aquellas ciudades, porque la gente de esas ciudades se decía mutuamente: «Este es el festival de tal mes, y el festival de tal mes».",
+          "fr": "Les Persans nommaient leurs mois Aban Mah et Azar Mah, et d'autres encore, en les dérivant des noms de ces villes, car les habitants de ces villes se disaient les uns aux autres : « C'est la fête d'un tel mois, et la fête d'un tel mois. »",
+          "de": "Die Perser nannten ihre Monate Aban Mah und Azar Mah und andere, und leiteten sie von den Namen jener Städte ab, weil die Bewohner jener Städte zueinander sagten: „Dies ist das Fest eines solchen Monats, und das Fest eines solchen Monats.“",
+          "ru": "Персы называли свои месяцы Абан Мах и Азар Мах и другие, производя их названия от имён тех городов, потому что жители тех городов говорили друг другу: «Это праздник такого-то месяца, и праздник такого-то месяца».",
+          "zh": "波斯人将他们的月份命名为阿班月（Aban Mah）和阿扎尔月（Azar Mah）等，这些名称源自那些城镇的名字，因为那些城镇的人们彼此说：‘这是某月的节日，那是某月的节日。’"
+        },
+        "word_start": 515,
+        "word_end": 540
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حَتَّى إِذَا كَانَ عِيدُ قَرْيَتِهِمُ الْعُظْمَى اجْتَمَعَ إِلَيْهَا صَغِيرُهُمْ وَكَبِيرُهُمْ فَضَرَبُوا عِنْدَ الصَّنَوْبَرَةِ وَالْعَيْنِ سُرَادِقًا مِنْ دِيبَاجٍ عَلَيْهِ مِنْ أَنْوَاعِ الصُّوَرِ وَجَعَلُوا لَهُ اثْنَيْ عَشَرَ بَابًا كُلُّ بَابٍ لِأَهْلِ قَرْيَةٍ مِنْهُمْ",
+        "translations": {
+          "en": "When it was the festival of their greatest town, their young and old would gather there. They would set up a tent of brocade with various designs near the cypress tree and the spring, and they made twelve doors for it, each door for the people of one of their towns.",
+          "ur": "جب ان کے سب سے بڑے شہر کا تہوار ہوتا تو ان کے نوجوان اور بوڑھے وہاں جمع ہو جاتے۔ وہ سرو کے درخت اور چشمے کے قریب مختلف نقش و نگار والے بریڈی کے ایک خیمے لگاتے اور اس کے بارہ دروازے بناتے، ہر دروازہ ان کے شہروں میں سے ایک کے لوگوں کے لیے ہوتا۔",
+          "tr": "Onların en büyük kasabasının bayramı olduğunda, gençleri ve yaşlıları orada toplanırdı. Çamur ağacı ve pınarın yakınına çeşitli desenli bir kumaştan çadır kurarlar ve bunun için on iki kapı yaparlar, her kapı onların kasabalarından birinin halkı içindi.",
+          "fa": "چونکه عید بزرگ‌ترین شهرشان بود، جوانان و پیران آنجا جمع می‌شدند. چادری از برود با طرح‌های گوناگون نزدیک سرو و چشمه برپا می‌کردند و برای آن دوازده در می‌ساختند، هر در برای مردم یکی از شهرهایشان.",
+          "id": "Ketika itu adalah hari raya kota terbesar mereka, kaum muda dan tua berkumpul di sana. Mereka mendirikan sebuah tenda dari brokat dengan berbagai corak di dekat pohon cypress dan mata air, dan mereka membuat dua belas pintu untuknya, masing-masing pintu untuk penduduk salah satu kota mereka.",
+          "bn": "যখন তাদের প্রধান নগরীর উৎসব হতো, তখন তাদের তরুণ ও বৃদ্ধ সকলে সেখানে জড়ো হতো। তারা সরু বৃক্ষের কাছে এবং ঝর্ণার পাশে বিভিন্ন নকশাযুক্ত বরকতী কাপড়ের একটি চাদর বিছাত করতেন, এবং এর জন্য বারোটি দরজা তৈরি করতেন, প্রতিটি দরজা তাদের নগরীর একেকটি শহরের লোকদের জন্য।",
+          "es": "Cuando era la fiesta de su ciudad más importante, se congregaban allí tanto los jóvenes como los ancianos. Montaban una tienda de brocado con diversos diseños cerca del ciprés y la fuente, y le hacían doce puertas, cada una para la gente de una de sus ciudades.",
+          "fr": "Lorsqu'avait lieu la fête de leur plus grande ville, les jeunes et les vieux s'y rassemblaient. Ils dressaient une tente de brocart aux motifs variés près du cyprès et de la source, et ils y aménageaient douze portes, chacune réservée aux habitants d'une de leurs villes.",
+          "de": "Wenn es das Fest ihrer größten Stadt war, versammelten sich ihre Jungen und Alten dort. Sie errichteten ein Zelt aus Brokat mit verschiedenen Mustern in der Nähe der Zypresse und der Quelle, und sie machten zwölf Türen dafür, jede Tür für die Leute einer ihrer Städte.",
+          "ru": "Когда наступал праздник их главного города, туда собирались и молодые, и старые. Они устанавливали шатёр из парчи с разнообразными узорами у кипариса и у источника, и делали для него двенадцать дверей, по одной двери для жителей каждого из их городов.",
+          "zh": "每逢他们最大城镇的节日，他们的青年和老年人都聚集在那里。他们在柏树和泉水附近搭起一顶饰有各种图案的锦缎帐篷，并为它制作了十二扇门，每扇门对应他们其中一个城镇的居民。"
+        },
+        "word_start": 540,
+        "word_end": 571
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَيَسْجُدُونَ لِلصَّنَوْبَرَةِ خَارِجًا مِنَ السُّرَادِقِ وَيُقَرِّبُونَ لَهَا الذَّبَائِحَ أَضْعَافَ مَا قَرَّبُوا لِلشَّجَرَةِ الَّتِي فِي قُرَاهُمْ",
+        "translations": {
+          "en": "They would prostrate to the cypress tree outside the tent, and offer sacrifices to it, multiples of what they had offered to the tree in their towns.",
+          "ur": "وہ خیمے کے باہر موجود سرو کے درخت کے سامنے سجدہ کرتے اور اس کی قربانی پیش کرتے، جو ان کے شہروں میں درخت کو پیش کی گئی قربانیوں سے کئی گنا زیادہ ہوتی تھی۔",
+          "tr": "Çadırın dışındaki sedir ağacına secde ederler ve şehirlerinde ağaca sunduklarından kat kat fazla kurban keserlerdi.",
+          "fa": "آن‌ها در برابر سروی که بیرون از خیمه بود سجده می‌کردند و برای آن قربانی می‌دادند، چند برابر آنچه برای درختی در شهرهایشان قربانی کرده بودند.",
+          "id": "Mereka sujud kepada pohon cypress di luar tenda, dan mempersembahkan kurban kepadanya, berlipat ganda dari apa yang telah mereka persembahkan kepada pohon di kota-kota mereka.",
+          "bn": "তারা তাঁবুর বাইরে থাকা সারগাছের সম্মুখে সিজদা করতেন এবং তাদের শহরগুলিতে যে গাছের উদ্দেশ্যে যে পরিমাণে বলিদান করত, তার দ্বিগুণ বা ততোধিক পরিমাণে সেই গাছের উদ্দেশ্যে বলিদান করত।",
+          "es": "Prostraban ante el ciprés que estaba fuera de la tienda y le ofrecían sacrificios, el doble de lo que habían ofrecido al árbol en sus ciudades.",
+          "fr": "Ils se prosternaient devant le cyprès situé à l'extérieur de la tente, et lui offraient des sacrifices, en multiples de ce qu'ils avaient offert à l'arbre dans leurs villes.",
+          "de": "Sie warfen sich vor der Zypresse außerhalb des Zeltes nieder und brachten ihr Opfer dar, und zwar das Mehrfache dessen, was sie dem Baum in ihren Städten dargebracht hatten.",
+          "ru": "Они совершали земной поклон кипарису, находившемуся вне шатра, и приносили ему жертвы, в кратном размере по сравнению с тем, что они приносили дереву в своих городах.",
+          "zh": "他们向帐篷外的柏树叩拜，并向它献祭，其数量是他们向城中那棵树所献祭的倍数。"
+        },
+        "word_start": 571,
+        "word_end": 586
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَيَأْتِي إِبْلِيسُ عِنْدَ ذَلِكَ فَيُحَرِّكُ الصَّنَوْبَرَةَ تَحْرِيكًا شَدِيدًا وَيَتَكَلَّمُ مِنْ جَوْفِهَا كَلَامًا جَهْوَرِيًّا وَيَعِدُهُمْ وَيُمَنِّيهِمْ بِأَكْثَرَ مِمَّا وَعَدَتْهُمْ وَمَنَتْهُمُ الشَّيَاطِينُ كُلُّهَا",
+        "translations": {
+          "en": "Then Iblis would come and shake the cypress tree violently, and speak from its trunk with a loud voice, promising them and deluding them with more than all the other devils had promised and granted them.",
+          "ur": "پس ابلیس آتا اور سرو کے درخت کو زور سے ہلاتا، اور اس کے تنے سے بلند آواز میں بولتا، ان سے وعدہ کرتا اور انہیں دھوکہ دیتا، اس سے زیادہ کہ تمام دیگر شیاطین نے ان سے وعدہ کیا تھا اور انہیں عطا کیا تھا۔",
+          "tr": "Sonra İblis gelip sel ağacını şiddetle sallar ve gövdesinden yüksek bir sesle konuşarak, onlara vaad eder ve diğer şeytanların hepsinden daha fazla vaad ve lütufla onları aldatır.",
+          "fa": "سپس ابلیس می‌آمد و سرو را به شدت می‌لرزاند و از تنه آن با صدایی بلند سخن می‌گفت و به آن‌ها وعده می‌داد و با بیش از آنچه سایر دیوان به آن‌ها وعده داده و به آن‌ها بخشیده بودند، آن‌ها را فریب می‌داد.",
+          "id": "Kemudian Iblis datang dan menggoyangkan pohon cypress dengan keras, serta berbicara dari batangnya dengan suara keras, menjanjikan dan menipu mereka dengan lebih banyak daripada yang dijanjikan dan diberikan oleh semua setan lainnya.",
+          "bn": "অনন্তর ইবলিস আসত এবং চিরহরিৎ বৃক্ষকে জোরে ঝাঁকুনি দিত, এবং এর কাণ্ড থেকে উচ্চস্বরে কথা বলত, তাদের প্রতিশ্রুতি দিত এবং অন্য সব শয়তান যে প্রতিশ্রুতি ও উপহার দিয়েছিল তার চেয়েও বেশি দিয়ে তাদের বিভ্রান্ত করত।",
+          "es": "Luego Iblis vendría y sacudiría violentamente el ciprés, y hablaría desde su tronco con voz potente, prometiéndoles y engañándoles con más de lo que todos los demás demonios les habían prometido y concedido.",
+          "fr": "Puis Iblis alors venait et secouait violemment le cyprès, et parlait depuis son tronc d'une voix forte, leur promettant et les séduisant avec plus que tous les autres diables n'avaient promis et accordé.",
+          "de": "Dann kam Iblis und schüttelte die Zypresse heftig und sprach mit lauter Stimme aus ihrem Stamm, versprach ihnen und täuschte sie mit mehr als alle anderen Dämonen versprochen und gewährt hatten.",
+          "ru": "Затем Иблис приходил и сильно трясл кипарис, и говорил с его ствола громким голосом, обещая им и обманывая их больше, чем все остальные шайтаны, обещавшие и даровавшие им.",
+          "zh": "随后易卜劣斯会来猛烈地摇动柏树，并从其树干中以洪亮的声音说话，向他们许诺，并用比其他所有恶魔所许诺和赐予的更多的东西来迷惑他们。"
+        },
+        "word_start": 586,
+        "word_end": 607
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَيَرْفَعُونَ رُءُوسَهُمْ مِنَ السُّجُودِ وَبِهِمْ مِنَ الْفَرَحِ وَالنَّشَاطِ مَا لَا يُفِيقُونَ وَلَا يَتَكَلَّمُونَ مِنَ الشُّرْبِ وَالْعَزْفِ فَيَكُونُونَ عَلَى ذَلِكَ اثْنَيْ عَشَرَ يَوْمًا وَلَيَالِيَهَا بِعَدَدِ أَعْيَادِهِمْ سَائِرَ السَّنَةِ ثُمَّ يَنْصَرِفُونَ",
+        "translations": {
+          "en": "They would lift their heads from prostration, and there would be in them such joy and vitality that they would not regain consciousness, nor speak, due to drinking and playing music. They would remain in that state for twelve days and nights, corresponding to the number of their festivals throughout the year, then they would depart.",
+          "ur": "وہ سجدہ سے سر اٹھاتے اور ان میں ایسی خوشی اور حیات ہوتی کہ وہ ہوش میں نہیں آتے، نہ بات کرتے، شراب نوشی اور موسیقی کی وجہ سے۔ وہ اس حالت میں بارہ دن اور راتیں گزارتے، جو سال بھر کے ان کے تہواروں کی تعداد کے مطابق ہوتی، پھر وہ چلے جاتے۔",
+          "tr": "Secdeden başlarını kaldırdıklarında, içlerinde öyle bir neşe ve canlılık olurdu ki, sarhoşluk ve müzik dinlemekten dolayı bilincini kaybeder, konuşamaz hale gelirdiler. On iki gün ve gece boyunca, yani yıl boyunca kutladıkları bayramların sayısına denk gelen süre boyunca bu halde kalır, ardından ayrılıp giderlerdi.",
+          "fa": "سر از سجود برمی‌داشتند و چنان شادی و نشاطی در آنان بود که به هوش نمی‌آمدند و سخن نمی‌گفتند، به سبب نوشیدن و نواختن موسیقی. آن‌ها دوازده روز و شب در آن حالت می‌ماندند، که برابر با تعداد جشن‌هایشان در طول سال است، سپس می‌رفتند.",
+          "id": "Mereka akan mengangkat kepala mereka dari sujud, dan di dalam diri mereka terdapat kegembiraan dan vitalitas yang begitu besar sehingga mereka tidak sadar kembali, maupun berbicara, karena minum dan mendengarkan musik. Mereka akan tetap dalam keadaan itu selama dua belas hari dan malam, sesuai dengan jumlah perayaan mereka sepanjang tahun, kemudian mereka pergi.",
+          "bn": "তারা সিজদা থেকে মাথা তুলতেন এবং তাদের মধ্যে এমন আনন্দ ও জীবন্ত ভাব থাকত যে, মাতলামি ও সঙ্গীত শোনার কারণে তারা চেতনা ফিরে পেতেন না, কথাও বলতেন না। তারা বারো দিন ও রাত সেই অবস্থায় থাকতেন, যা বছরের তাদের উৎসবগুলোর সংখ্যার সাথে মিলে যায়, তারপর তারা চলে যেতেন।",
+          "es": "Levantaban la cabeza de la prosternación, y en ellos se apoderaba una alegría y vitalidad tales que no recobraban la consciencia ni hablaban, debido a la bebida y a la música. Permanecían en ese estado durante doce días y noches, correspondientes al número de sus festividades a lo largo del año, y luego se marchaban.",
+          "fr": "Ils levaient la tête de la prosternation, et une telle joie et vitalité les envahissaient qu'ils ne recouvraient pas pleinement conscience, ni ne parlaient, en raison de la boisson et de l'écoute de la musique. Ils restaient dans cet état pendant douze jours et nuits, correspondant au nombre de leurs fêtes tout au long de l'année, puis ils partaient.",
+          "de": "Sie würden ihre Köpfe von der Niederwerfung (Sujūd) erheben, und in ihnen würde eine solche Freude und Lebenskraft sein, dass sie aufgrund des Trinkens und des Musizierens nicht wieder zu sich kämen noch sprächen. Sie würden zwölf Tage und Nächte in diesem Zustand verbleiben, entsprechend der Anzahl ihrer Feste im Laufe des Jahres, und dann würden sie abreisen.",
+          "ru": "Они поднимали головы из поясного поклона (руку'), и в них возникала такая радость и жизненная сила, что они не приходили в сознание и не могли говорить из-за питья и игры на музыкальных инструментах. Они оставались в таком состоянии двенадцать дней и ночей, что соответствовало числу их праздников в течение года, а затем уходили.",
+          "zh": "他们会从叩头中抬起头来，心中充满喜悦与活力，以至于因饮酒和听音乐而失去知觉，无法恢复意识，也无法言语。他们会保持这种状态十二个昼夜，与他们在一年中举行的节日数目相应，然后离去。"
+        },
+        "word_start": 607,
+        "word_end": 636
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمَّا طَالَ كُفْرُهُمْ بِاللَّهِ عَزَّ وَجَلَّ وَعِبَادَتُهُمْ غَيْرَهُ بَعَثَ اللَّهُ عَزَّ وَجَلَّ إِلَيْهِمْ نَبِيًّا مِنْ بَنِي إِسْرَائِيلَ مِنْ وُلْدِ يَهُوذَا بْنِ يَعْقُوبَ فَلَبِثَ فِيهِمْ زَمَانًا طَوِيلًا يَدْعُوهُمْ إِلَى عِبَادَةِ اللَّهِ عَزَّ وَجَلَّ وَمَعْرِفَةِ رُبُوبِيَّتِهِ فَلَا يَتَّبِعُونَهُ",
+        "translations": {
+          "en": "When their disbelief in God the Almighty and their worship of others prolonged, God sent to them a prophet from the Children of Israel, from the descendants of Judah ibn Jacob. He stayed among them for a long time, inviting them to worship God and know His Lordship, but they did not follow him.",
+          "ur": "جب ان کی اللہ تعالی میں کفر اور دوسروں کی عبادت طویل ہوئی تو اللہ تعالیٰ نے ان کے درمیان بنی اسرائیل کے ایک نبی کو بھیجا، جو یعقوب کے بیٹے یہودہ کی اولاد سے تھا۔ وہ ان کے درمیان طویل عرصہ رہے اور انہیں اللہ کی عبادت اور اس کی ربوبیت سے آگاہی کی دعوت دیتے رہے، لیکن انہوں نے اس کی پیروی نہیں کی۔",
+          "tr": "Allah'ın aziz ve celiline olan inkarları ve başkalarına ibadet etmeleri uzun sürdüğünde, Allah onlara İsrailoğullarından, Yehuda bin Yakub'un soyundan bir peygamber gönderdi. O, uzun süre onların arasında kaldı, onları Allah'a ibadete ve O'nun rablığını bilmeye davet etti, ancak onlar ona uymadılar.",
+          "fa": "وقتی کفر آن‌ها به خداوند توانمند و پرستش دیگران طولانی شد، خداوند پیامبری از بنی‌اسرائیل، از نوادگان یهودا پسر یعقوب، به سوی آن‌ها فرستاد. او مدت‌ها در میان آن‌ها ماند و آن‌ها را به پرستش خدا و شناخت ربوبیت او دعوت می‌کرد، اما آن‌ها از او پیروی نکردند.",
+          "id": "Ketika kekafiran mereka kepada Allah Yang Maha Perkasa dan penyembahan mereka kepada selain-Nya berkepanjangan, Allah mengutus kepada mereka seorang nabi dari Bani Israil, dari keturunan Yehuda bin Yakub. Ia tinggal di antara mereka dalam waktu yang lama, menyeru mereka untuk menyembah Allah dan mengenal Rabb-Nya, tetapi mereka tidak mengikutinya.",
+          "bn": "যখন তাদের অলমাতা আল্লাহর প্রতি অশ্রদ্ধা এবং অন্যদের উপাসনা দীর্ঘস্থায়ী হলো, তখন আল্লাহ তায়ালা বনী ইসরাঈল, যাকির পুত্র যুহদার বংশধরদের মধ্যে থেকে তাদের নিকট একজন নবী পাঠালেন। তিনি তাদের মধ্যে দীর্ঘদিন অবস্থান করলেন, তাদেরকে আল্লাহর উপাসনা এবং তাঁর রব্বানি হকিকত জানার জন্য আহ্বান জানালেন, কিন্তু তারা তাঁর অনুসরণ করল না।",
+          "es": "Cuando su",
+          "fr": "Lorsque leur mécréance envers Dieu le Tout-Puissant et leur adoration d'autrui se prolongèrent, Dieu leur envoya un prophète issu des Enfants d'Israël, de la descendance de Yehouda ibn Yaqoub. Il demeura parmi eux longtemps, les invitant à adorer Dieu et à reconnaître Sa Seigneurie, mais ils ne le suivirent pas.",
+          "de": "Als ihre Unglaube an Gott, den Allmächtigen, und ihre Anbetung anderer sich verlängerte, sandte Gott einen Propheten von den Kindern Israels, aus den Nachkommen von Judah ibn Jacob, zu ihnen. Er blieb lange Zeit unter ihnen und lud sie ein, Gott anzubeten und Seine Herrschaft zu erkennen, aber sie folgten ihm nicht.",
+          "ru": "Когда их неверие в Аллаха Всевышнего и поклонение другим продлилось, Аллах послал к ним пророка из сынов Израилевых, из потомков Иуды, сына Якуба. Он оставался среди них долгое время, призывая их поклоняться Аллаху и познавать Его Господство, но они не последовали за ним.",
+          "zh": "当他们对全能真主的怀疑以及崇拜他者日久时，真主从以色列人中派遣了一位先知，他出自犹大·雅各的后裔。他在他们中间停留了很长时间，邀请他们崇拜真主并认识他的主权，但他们没有跟随他。"
+        },
+        "word_start": 636,
+        "word_end": 672
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمَّا رَأَى شِدَّةَ تَمَادِيهِمْ فِي الْغَيِّ وَالضَّلَالِ وَتَرْكَهُمْ قَبُولَ مَا دَعَاهُمْ إِلَيْهِ مِنَ الرُّشْدِ وَالنَّجَاحِ وَحَضَرَ عِيدُ قَرْيَتِهِمُ الْعُظْمَى قَالَ: يَا رَبِّ إِنَّ عِبَادَكَ أَبَوْا إِلَّا تَكْذِيبِي وَالْكُفْرَ بِكَ وَغَدَوْا يَعْبُدُونَ شَجَرَةً لَا تَنْفَعُ وَلَا تَضُرُّ فَأَيْبِسْ شَجَرَهُمْ أَجْمَعَ وَأَرِهِمْ قُدْرَتَكَ وَسُلْطَانَكَ",
+        "translations": {
+          "en": "When he saw their persistence in error and misguidance, and their rejection of what he invited them to of guidance and success, and when the festival of their greatest town arrived, he said: 'O Lord, your servants refused except to deny me and disbelieve in you, and they have gone to worship a tree that neither benefits nor harms. So dry up all their trees and show them Your power and authority.'",
+          "ur": "جب انہوں نے اس کی ہدایت اور کامیابی کی دعوت کا انکار اور گمراہی پر اڑے رہنے کو دیکھا، اور جب ان کے سب سے بڑے شہر کا تہوار آیا، تو اس نے کہا: اے میرے رب! تیرے بندوں نے مجھے جھٹلایا اور تیرے انکار کیا، اور انہوں نے ایک درخت کی عبادت شروع کر دی جو نہ نفع دیتا ہے اور نہ نقصان۔ پس تیرے تمام درخت خشک کر دے اور ان پر اپنی طاقت اور اقتدار ظاہر کر۔",
+          "tr": "Onların hatâ ve dalâlette ısrar etmelerini, kendisine hidâyet ve felâhet için davet ettiğinin aksini yapmalarını ve reddetmelerini gördüğünde, büyük şehirlerinin bayramı geldiğinde şöyle dedi: 'Ey Rabbim, kulların bana yalan demekten ve sana küfür etmekten başka bir şey yapmadılar; ve ne fayda ne de zarar veren bir ağaca gidip ona kulluk ettiler. Öyleyse onların tüm ağaçlarını kurut ve onlara kudretini ve yetkini göster.'",
+          "fa": "چون دید که آنان بر خطا و گمراهی خود پافشاری می‌کنند و آنچه او آنان را به آن دعوت می‌کرد، یعنی هدایت و کامیابی، را رد می‌نمایند، و هنگامی که عید بزرگ‌ترین شهرشان فرا رسید، گفت: «پروردرا، بندگان تو جز انکار من و کفر به تو نکردند، و به پرستش درختی رفته‌اند که نه سودی دارد و نه زیانی. پس تمام درختانشان را خشک کن و قدرت و سلطنتت را به آنان نشان ده.»",
+          "id": "Ketika ia melihat ketegaran mereka dalam kesesatan dan kekeliruan, serta penolakan mereka terhadap apa yang ia ajak mereka ke arah petunjuk dan kemenangan, dan ketika hari raya kota terbesar mereka tiba, ia berkata: 'Wahai Tuhanku, hamba-hamba-Mu menolak kecuali untuk mendustakan aku dan kafir kepada-Mu, dan mereka telah pergi menyembah sebuah pohon yang tidak memberi manfaat maupun mudarat. Maka keringkanlah semua pohon mereka dan tunjukkanlah kepada mereka kekuasaan dan kewibawaan-Mu.'",
+          "bn": "যখন তিনি তাদের ভুল ও পথভ্রষ্ট হতে অটল থাকাকে এবং যাতে তিনি তাদের আহ্বান করেছিলেন, অর্থাৎ সঠিক পথ ও সাফল্যকে, তা প্রত্যাখ্যান করতে দেখলেন, এবং যখন তাদের প্রধান নগরীর উৎসব উপস্থিত হলো, তখন তিনি বললেন: 'হে আল্লাহ, আপনার বান্দারা ছাড়া কেউ আমাকে অস্বীকার করেনি এবং আপনার উপর অশ্রদ্ধা প্রকাশ করেনি, এবং তারা এমন একটি গাছের উপাসনা করতে গেছে যা না কোনো উপকার করে এবং না কোনো ক্ষতি করে। সুতরাং তাদের সকল গাছ শুকিয়ে যাক এবং তাদের আপনার শক্তি ও কর্তৃত্ব প্রদর্শন করুন।'",
+          "es": "Cuando vio su persistencia en el error y el extravío, y su rechazo a lo que les invitaba de guía y éxito, y cuando llegó la fiesta de su ciudad más grande, dijo: '¡Señor, tus siervos se negaron a creer en ti excepto para negarme y descreer de ti, y han ido a adorar a un árbol que ni beneficia ni perjudica. Haz secar todos sus árboles y muéstrales Tu poder y autoridad.'",
+          "fr": "Lorsqu'il vit leur persistance dans l'erreur et le égarement, et leur rejet de ce à quoi il les invitait comme guide et succès, et lorsque la fête de leur plus grande ville arriva, il dit : 'Ô Seigneur, Tes serviteurs ont refusé sauf à me nier et à Te méconnaître, et ils sont allés adorer un arbre qui ni ne profite ni ne nuit. Assèche donc tous leurs arbres et montre-leur Ton pouvoir et Ton autorité.'",
+          "de": "Als er ihre Beharrlichkeit im Irrtum und in der Irreführung sah und ihre Ablehnung dessen, was er sie zur Rechtleitung und zum Erfolg aufrief, und als das Fest ihrer größten Stadt ankam, sprach er: »Herr, Deine Diener haben mich nur verleugnet und an Dir nicht geglaubt, und sie sind hingegangen, um einen Baum anzubeten, der weder nützt noch schadet. Lass also alle ihre Bäume verdorren und zeige ihnen Deine Macht und Autorität.«",
+          "ru": "Когда он увидел их настойчивость в заблуждении и сшибке, и их отвержение того, к чему он призывал их — руководства и успеха, и когда наступил праздник их великого города, он сказал: «Господи, Твои рабы отказались, кроме как отрицать меня и не верить в Тебя, и они пошли поклоняться дереву, которое ни пользы, ни вреда не приносит. Так иссуши все их деревья и покажи им Твою силу и власть».",
+          "zh": "当他见他们固执于错误与迷误，拒绝他所邀请他们的引导与成功，当他们的最大城镇的节日来临时，他说：‘主啊，你的仆人们除了否认我、不信你之外，别无选择，他们去崇拜一棵既不有益也不有害的树。求你使他们的所有树木枯干，并让他们看到你的大能与权柄。’"
+        },
+        "word_start": 672,
+        "word_end": 714
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَصْبَحَ الْقَوْمُ وَقَدْ يَبِسَ شَجَرُهُمْ كُلُّهَا فَهَالَهُمْ ذَلِكَ وَقُطِعَ بِهِمْ وَصَارُوا فِرْقَتَيْنِ فِرْقَةٌ قَالَتْ سَحَرَ آلِهَتَكُمْ هَذَا الرَّجُلُ الَّذِي زَعَمَ أَنَّهُ رَسُولُ رَبِّ السَّمَاءِ وَالْأَرْضِ إِلَيْكُمْ لِيَصْرِفَ وُجُوهَكُمْ عَنْ آلِهَتِكُمْ إِلَى إِلَهِهِ",
+        "translations": {
+          "en": "The people woke up and all their trees had dried up. That astounded them, and they were cut off, and they became two groups. One group said, 'This man who claims to be the messenger of the Lord of the heavens and the earth to you has bewitched your gods to turn your faces from your gods to his god.'",
+          "ur": "لوگ جاگے اور ان کے تمام درخت سوکھ گئے۔ یہ انہیں حیران کر دیا اور وہ دو گروہوں میں بٹھ گئے۔ ایک گروہ نے کہا، 'یہ آدمی جو خود کو آسمانوں اور زمین کے رب کا رسول کہتا ہے، تمہاری دیوتاؤں کو تمہارے چہروں کو تمہاری دیوتاؤں سے ہٹا کر اپنے خدا کی طرف مڑنے کے لیے جادو کر چکا ہے۔'",
+          "tr": "İnsanlar uyandıklarında, ağaçlarının hepsi kurumuştu. Bu onları hayrete düşürdü ve koparıldılar ve iki gruba ayrıldılar. Bir grup dedi ki: 'Sizin için göklerin ve yerin Rabbi'nin elçisi olduğunu iddia eden bu adam, tanrılarınızı büyüleyerek yüzlerinizi tanrılarınızdan onun tanrısına çevirdi.'",
+          "fa": "مردم بیدار شدند و تمام درختانشان خشک شده بود. این امر آنان را شگفت‌زده کرد و جدا افتادند و به دو گروه تقسیم شدند. یک گروه گفتند: «آن مردی که ادعا می‌کند فرستاده‌ی پروردگار آسمان‌ها و زمین برای شماست، خدایان شما را به سحر به گونه‌ای که روی‌هایتان را از خدایان خود به سوی خدای او برگرداند، مسحور کرده است.",
+          "id": "Kaum itu bangun pagi dan semua pohon mereka telah kering. Hal itu membuat mereka terheran-heran, dan mereka terputus (dari rahmat Allah), dan mereka terpecah menjadi dua golongan. Satu golongan berkata, 'Lelaki yang mengaku sebagai utusan Tuhan langit dan bumi kepada kalian telah menipu tuhan-tuhan kalian sehingga wajah kalian berpaling dari tuhan-tuhan kalian kepada tuhan dia.'",
+          "bn": "লোকেরা জেগে উঠল এবং তাদের সকল গাছ শুকিয়ে গিয়েছিল। এতে তারা অবাক হয়ে গেল, এবং তারা বিচ্ছিন্ন হয়ে পড়ল, এবং তারা দুই দলে বিভক্ত হল। এক দল বলল, 'এই পুরুষ যে দাবি করে যে তিনি আকাশ ও পৃথিবীর প্রতিপালকের পক্ষ থেকে আপনার কাছে রাসূল, তিনি আপনার দেবতাদেরকে মোহিত করে আপনার মুখ আপনার দেবতাদের থেকে তার দেবতার দিকে ফিরিয়ে দিয়েছেন।'",
+          "es": "La gente se despertó y todos sus árboles se habían secado. Esto los asombró, quedaron aislados y se dividieron en dos grupos. Un grupo dijo: «Este hombre que afirma ser el mensajero del Señor de los cielos y de la tierra para vosotros ha hechizado a vuestros dioses para apartar vuestros rostros de vuestros dioses y dirigirlos hacia su dios».",
+          "fr": "Les gens se réveillèrent et tous leurs arbres étaient desséchés. Cela les stupéfia, ils furent coupés et se divisèrent en deux groupes. Un groupe dit : « Cet homme qui prétend être le messager du Seigneur des cieux et de la terre a ensorcelé vos idoles pour détourner vos visages de vos idoles vers son dieu. »",
+          "de": "Die Menschen wachten auf und all ihre Bäume waren vertrocknet. Das staunte sie, und sie wurden abgeschnitten, und sie wurden zu zwei Gruppen. Eine Gruppe sagte: 'Dieser Mann, der behauptet, der Gesandte des Herrn des Himmels und der Erde zu sein, hat eure Götter in Bann getan, damit ihr euch von euren Göttern abwendet und euch seinem Gott zuwendet.'",
+          "ru": "Люди проснулись и увидели, что все их деревья засохли. Это привело их в изумление, и они разделились на две группы. Одна группа сказала: «Этот человек, который утверждает, что он посланник Господа небес и земли, обманул ваших богов, чтобы вы обратили свои лица от ваших богов к его богу».",
+          "zh": "人们醒来，发现所有的树都枯死了。这使他们大为惊异，他们被隔绝，并分为两派。一派人说：'这位自称是天地之主派来你们的使者的人，已用妖术迷惑了你们的神灵，使你们从崇拜你们的神灵转而崇拜他的神。'"
+        },
+        "word_start": 714,
+        "word_end": 746
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَفِرْقَةٌ قَالَتْ لَا بَلْ غَضِبَتْ آلِهَتُكُمْ حِينَ رَأَتْ هَذَا الرَّجُلَ يَعِيبُهَا وَيَقَعُ فِيهَا وَيَدْعُوكُمْ إِلَى عِبَادَةِ غَيْرِهَا فَحَجَبَتْ حُسْنَهَا وَبَهَاءَهَا لِكَيْ تَغْضَبُوا لَهَا فَتَنْتَصِرُوا مِنْهُ",
+        "translations": {
+          "en": "The other group said, 'No, but your gods became angry when they saw this man criticizing them and speaking ill of them and inviting you to worship another, so they hid their beauty and splendor so that you would be angry for them and take revenge on him.'",
+          "ur": "دوسری جماعت نے کہا، نہیں، بلکہ جب انہوں نے اس شخص کو ان کی تعریف میں بولتے اور ان کی مذمت کرتے اور تمہیں کسی دوسرے کی عبادت کی دعوت دیتے دیکھا تو ان کے خدا غصے میں آ گئے، لہذا انہوں نے اپنی خوبصورتی اور جلال کو چھپا لیا تاکہ تم ان کے لیے غصے کرو اور اس سے انتقام لو۔",
+          "tr": "Diğer grup ise, 'Hayır, ama bu adam onları eleştirip onlar hakkında kötü konuşup sizi başka bir tanrıya ibadete davet ettiğini gördüklerinde tanrılarınız öfkelendi, bu yüzden onlar için öfkelenebilesiniz ve ondan intikam alabilesiniz diye güzelliklerini ve görkemlerini gizlediler.' dedi.",
+          "fa": "گروه دیگر گفتند: نه، اما خدایان شما هنگامی که این مرد را دیدند که آنان را نکوهش می‌ می‌کرد و بدگویی می‌نمود و شما را به پرستش دیگری دعوت می‌کرد، خشمگین شدند؛ پس زیبایی و شکوه خود را پنهان کردند تا شما برای آنان خشمگین شوید و از او انتقام بگیرید.",
+          "id": "Kelompok yang lain berkata, 'Bukan, tetapi tuhan-tuhanmu menjadi marah ketika mereka melihat pria ini mengkritik mereka, berbicara buruk tentang mereka, dan mengajakmu untuk menyembah yang lain, sehingga mereka menyembunyikan keindahan dan kemuliaan mereka agar kamu marah karena mereka dan membalas dendam kepadanya.'",
+          "bn": "অন্য দল বলল, 'না, কিন্তু তোমাদের দেবতারা রাগান্বিত হয়েছিলেন যখন এই মানুষজন তাদের সমালোচনা করেছিল, তাদের খারাপভাবে কথা বলেছিল এবং তোমাদের অন্যকে ইবাদত করতে আমন্ত্রণ জানিয়েছিল, তাই তারা তাদের সৌন্দর্য ও ঐশ্বর্য লুকিয়ে রেখেছিল যাতে তোমরা তাদের জন্য রাগান্বিত হও এবং তার প্রতিশোধ নাও।'",
+          "es": "Dijo el otro grupo: «No, pero tus dioses se enfadaron cuando vieron a este hombre criticarlos, hablar mal de ellos y invitarte a adorar a otro, por lo que ocultaron su belleza y esplendor para que te enfadaras por ellos y te vengaras de él».",
+          "fr": "L'autre groupe dit : « Non, mais tes dieux se sont fâchés lorsqu'ils ont vu cet homme les critiquer, tenir des propos défavorables à leur sujet et t inviter à adorer un autre ; alors ils ont caché leur beauté et leur splendeur afin que tu te fâches pour eux et te venges de lui ».",
+          "de": "Die andere Gruppe sagte: ",
+          "ru": "Другая группа сказала: «Нет, но твои боги разгневались, когда увидели этого человека, который порицал их, злословил о них и призывал вас поклоняться другому, поэтому они скрыли свою красоту и великолепие, чтобы вы разгневались из-за них и отомстили ему».",
+          "zh": "另一伙人说：不，而是当你的众神看到这个人在批评他们、毁谤他们，并邀请你们崇拜另一位时，他们便隐藏了自己的美丽与辉煌，以便你们为他们而愤怒，并向他复仇。"
+        },
+        "word_start": 746,
+        "word_end": 771
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَجْمَعَ رَأْيُهُمْ عَلَى قَتْلِهِ فَاتَّخَذُوا أَنَابِيبَ طِوَالًا مِنْ رَصَاصٍ وَاسِعَةَ الْأَفْوَاهِ ثُمَّ أَرْسَلُوهَا فِي قَرَارِ الْعَيْنِ إِلَى أَعْلَى الْمَاءِ وَاحِدَةً فَوْقَ الْأُخْرَى مِثْلَ الْبَرَابِخِ وَنَزَحُوا مَا فِيهَا مِنَ الْمَاءِ",
+        "translations": {
+          "en": "So they agreed on his death. They made long pipes of lead with wide mouths, then they lowered them into the depth of the spring to the top of the water, one on top of the other like pipes, and they removed the water from them.",
+          "ur": "پس انہوں نے اس کی موت پر اتفاق کیا۔ انہوں نے سونے کی لمبی نلیاں بنائیں جن کے منہ وسیع تھے، پھر انہیں چشمے کی گہرائی میں پانی کی سطح تک اتارا، ایک کے اوپر ایک نلیوں کی طرح، اور ان سے پانی نکال دیا۔",
+          "tr": "Öyle ki, onun ölümü konusunda anlaştılar. Ağızları geniş kurşun borular yaptılar, sonra bunları birbiri üstüne borular gibi dizerek pınarın derinliklerine, suyun üstüne kadar indirdiler ve içinden suyu boşalttılar.",
+          "fa": "پس بر مرگ او توافق کردند. لوله‌های بلندی از جنس سرب با دهانه‌های پهن ساختند، سپس آن‌ها را به عمق چشمه، تا سطح آب، یکی روی دیگری مانند لوله‌ها پایین فرود آوردند و آب را از آن‌ها بیرون کشیدند.",
+          "id": "Maka mereka sepakat atas kematiannya. Mereka membuat pipa-pipa panjang dari timah dengan mulut yang lebar, lalu mereka menurunkannya ke dalam kedalaman mata air hingga ke permukaan air, satu di atas yang lain seperti pipa-pipa, dan mereka mengeluarkan air dari dalamnya.",
+          "bn": "অতএব তারা তার মৃত্যুর বিষয়ে সম্মত হলো। তারা সীসার দীর্ঘ নল তৈরি করল যার মুখ প্রশস্ত ছিল, তারপর তারা সেগুলোকে একটির উপর আরেকটি নলের মতো করে ঝর্ণার গভীরে পানির উপরের অংশ পর্যন্ত নামিয়ে দিল এবং সেখান থেকে পানি সরিয়ে ফেলল।",
+          "es": "Entonces acordaron su muerte. Hicieron largos tubos de plomo con bocas anchas, luego los bajaron hasta la profundidad del manantial hasta la parte superior del agua, uno encima del otro como tuberías, y extrajeron el agua de ellos.",
+          "fr": "Ils convinrent donc de sa mort. Ils fabriquèrent de longs tuyaux en plomb à large ouverture, puis ils les abaissèrent dans la profondeur de la source jusqu'à la surface de l'eau, les uns posés sur les autres comme des tuyaux, et ils en retirèrent l'eau.",
+          "de": "Da einigten sie sich auf seinen Tod. Sie fertigten lange Bleirohre mit weiten Mündungen an, senkten diese dann in die Tiefe der Quelle bis zur Wasseroberfläche, eines auf dem anderen wie Rohre, und entnahmen ihnen das Wasser.",
+          "ru": "И они согласились на его смерть. Они сделали длинные трубы из свинца с широкими отверстиями, затем опустили их в глубину источника к поверхности воды, одну на другую, как трубы, и выкачали из них воду.",
+          "zh": "于是他们同意了他的死。他们用铅制成长管，管口宽大然后将其放入泉底至水面之上层层叠叠如管道一般并将水从中排出"
+        },
+        "word_start": 771,
+        "word_end": 800
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ حَفَرُوا فِي قَرَارِهَا بِئْرًا ضَيِّقَةَ الْمَدْخَلِ عَمِيقَةً وَأَرْسَلُوا فِيهَا نَبِيَّهُمْ وَأَلْقَمُوا فَاهَا صَخْرَةً عَظِيمَةً ثُمَّ أَخْرَجُوا الْأَنَابِيبَ مِنَ الْمَاءِ وَقَالُوا نَرْجُو الْآنَ أَنْ تَرْضَى عَنَّا آلِهَتُنَا إِذَا رَأَتْ أَنَّا قَدْ قَتَلْنَا مَنْ كَانَ يَقَعُ فِيهَا وَيَصُدُّنَا عَنْ عِبَادَتِهَا",
+        "translations": {
+          "en": "Then they dug a well with a narrow entrance and deep at its bottom, and sent their prophet into it, and they put a large rock in its mouth. Then they removed the pipes from the water and said, 'We hope now that our gods will be pleased with us when they see that we have killed the one who criticized them and prevented us from worshipping them.'",
+          "ur": "پھر انہوں نے ایک کنواں کھودا جس کا منہ تنگ تھا اور نیچے گہرا، اور اپنے نبی کو اس میں بھیج دیا، اور اس کے منہ پر ایک بڑا پتھر رکھ دیا۔ پھر انہوں نے پانی کی نلیاں نکال دیں اور کہا، ''ہمیں امید ہے کہ اب جب ہمارے معبود دیکھیں گے کہ ہم نے اس شخص کو قتل کر دیا جس نے ان کی تنقید کی اور ہمیں ان کی عبادت سے روکا، تو وہ ہم سے راضی ہو جائیں گے۔''",
+          "tr": "Sonra dar girişli ve dibinde derin bir kuyu kazdılar, peygamberlerini içine gönderdiler ve ağzına büyük bir taş koydular. Sonra su borularını çıkardılar ve dediler ki: 'Artık tanrılarımız, kendilerini eleştiren ve onlara kulluk etmemizi engelleyen kişiyi öldürdüğümüzü gördüklerinde bizi memnun edeceklerine umut ediyoruz.'",
+          "fa": "پس چاهی با دهانه‌ای باریک و تهی عمیق حفر کردند و پیامبرشان را در آن انداختند و سنگی بزرگ بر دهانه آن نهادند. سپس لوله‌های آب را برداشتند و گفتند: «امیدواریم اکنون خدایانمان از ما خشنود شوند، هنگامی که ببینند کسی را که آنان را نکوهش می‌کرد و ما را از پرستش آنان باز می‌داشت، کشته‌ایم.»",
+          "id": "Kemudian mereka menggali sebuah sumur dengan pintu masuk yang sempit dan dalamnya di bagian bawah, lalu mereka melemparkan nabi mereka ke dalamnya, dan mereka meletakkan sebuah batu besar di mulutnya. Kemudian mereka melepaskan pipa-pipa dari air dan berkata, 'Kami berharap sekarang bahwa tuhan-tuhan kami akan senang kepada kami ketika mereka melihat bahwa kami telah membunuh orang yang mengkritik mereka dan mencegah kami untuk menyembah mereka.'",
+          "bn": "অতঃপর তারা একটি কূপ খনন করল যার প্রবেশপথ সংকীর্ণ এবং গভীর ছিল নিচে, এবং তাদের নবীকে তার মধ্যে পাঠাল, এবং তারা তার মুখে একটি বড় শিলা রাখল। অতঃপর তারা পানির নলগুলো সরিয়ে ফেলল এবং বলল, 'আমরা আশা করি এখন যে আমাদের দেবতারা আমাদের সন্তুষ্ট হবেন যখন তারা দেখবে যে আমরা তাকে হত্যা করেছি যে তাদের সমালোচনা করেছিল এবং আমাদের তাদের উপাসনা থেকে বিরত রাখেছিল।'",
+          "es": "Luego cavieron un pozo de entrada estrecha y profunda en su base, y arrojaron a su profeta en él, y colocaron una gran piedra en su boca. Luego retiraron las tuberías del agua y dijeron: «Esperamos ahora que nuestros dioses se complazcan en nosotros cuando vean que hemos matado a aquel que los criticó y nos impidió adorarlos».",
+          "fr": "Puis ils creusèrent un puits à l'entrée étroite et profond à son fond, et y jetèrent leur prophète, et ils placèrent une grande pierre à son ouverture. Puis ils retirèrent les tuyaux de l'eau et dirent : 'Nous espérons maintenant que nos dieux seront satisfaits de nous lorsqu'ils verront que nous avons tué celui qui les critiquait et nous empêchait de les adorer.'",
+          "de": "Dann gruben sie einen Brunnen mit einem schmalen Eingang und tiefer Sohle und stießen ihren Propheten hinein. Dann legten sie einen großen Stein auf den Eingang. Dann entfernten sie die Rohre vom Wasser und sprachen: 'Wir hoffen nun, dass unsere Götter zufrieden mit uns sein werden, wenn sie sehen, dass wir denjenigen getötet haben, der sie kritisierte und uns daran hinderte, sie anzubeten.'",
+          "ru": "Затем они вырыли колодец с узким входом и глубоким дном и бросили в него своего пророка, а на его горловину положили большой камень. Затем они отключили трубы от воды и сказали: «Надеемся, что теперь наши боги будут довольны нами, когда увидят, что мы убили того, кто критиковал их и мешал нам поклоняться им».",
+          "zh": "随后他们挖了一口井，井口狭窄而井底深邃，并将他们的先知投入其中，又在井口放置了一块大石头。接着他们取下水管，说：'我们希望，当我们的神明看到我们杀死了那位批评他们并阻止我们崇拜他们的人时，他们会对我们感到满意。'"
+        },
+        "word_start": 800,
+        "word_end": 839
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَدَفَنَاهُ تَحْتَ كَبِيرِهَا يَتَشَفَّى مِنْهُ فَيَعُودَ لَنَا نُورُهَا وَنَضْرَتُهَا كَمَا كَانَ فَبَقُوا عَامَّةَ يَوْمِهِمْ يَسْمَعُونَ أَنِينَ نَبِيِّهِمْ وَهُوَ يَقُولُ: سَيِّدِي قَدْ تَرَى ضِيقَ مَكَانِي وَشِدَّةَ كَرْبِي فَارْحَمْ ضَعْفَ رُكْنِي وَقِلَّةَ حِيلَتِي وَعَجِّلْ بِقَبْضِ رُوحِي وَلَا تُؤَخِّرْ إِجَابَةَ دَعْوَتِي حَتَّى مَاتَ",
+        "translations": {
+          "en": "We buried him under its greatest [idol] so that he would be appeased by it, and its light and freshness would return to us as before. So they remained the rest of the day hearing the moaning of their prophet, and he was saying: 'My Lord, You see the tightness of my place and the severity of my distress, so have mercy on my weakness and the scarcity of my means, and hasten the taking of my soul and do not delay the response to my prayer,' until he died.",
+          "ur": "ہم نے اسے اس کے سب سے بڑے بت کے نیچے دفن کیا تاکہ وہ اس سے مطمئن ہو جائے اور اس کی روشنی اور تازگی ہمیں پہلے کی طرح واپس مل جائے۔ پھر وہ دن کے باقی حصے تک اپنے نبی کی زمزمہ سناتے رہے، اور وہ کہہ رہے تھے: 'اے میرے رب! تو میرے مقام کی تنگی اور میری تکلیف کی شدت کو دیکھ رہا ہے، پس میری کمزوری اور میرے وسائل کی کمی پر رحم فرما، اور میری جان لینے میں جلدی کر اور میری دعا کے جواب میں تاخیر نہ فرما،' یہاں تک کہ وہ وفات پا گئے۔",
+          "tr": "Onu, onunla razı olacakları ve onun ışığı ile tazeliklerinin eskisi gibi bize geri döneceği umuduyla, en büyük [putun]ın altına gömdüler. Böylece günün geri kalan kısmında peygamberlerinin inlemesini dinleyerek geçirdiler; o da şöyle diyordu: 'Ya Rabbi, yerimin darlığını ve sıkıntımın şiddetini görüyorsun; lütfen zayıflığıma ve imkanlarımın azlığına merhamet et, ruhumu almayı acele et ve duasıma cevabı geciktirme,' diye devam etti, ta ki öldüğü zamana kadar.",
+          "fa": "او را در زیر بزرگ‌ترین بتشان دفن کردند تا با آن راضی شود و نور و تازگی و روشنی‌اش برای ما بازمی‌گشت. پس تا پایان روز، زمزمه‌های پیامبرشان را می‌شنیدند و او می‌گفت: «پروردگارا، تنگی جایگاهم و شدت رنجم را می‌بینی، پس بر ضعف من و کمبود وسایلم رحم کن و بردن جانم را شتابان گردان و پاسخ به دعایم را تأخیر مکن،» تا اینکه وفات یافت.",
+          "id": "Kami menguburnya di bawah patung berhala yang paling besar, agar ia tenang dengannya, dan cahaya serta kesegarannya kembali kepada kami seperti semula. Maka mereka tetap sepanjang sisa hari itu mendengarkan ratapan nabi mereka, dan ia berkata, 'Ya Tuhanku, Engkau melihat kesempitan tempatku dan keparitan deritaku, maka rahmatilah kelemahanku dan kelangkaan usahaku, dan percepatlah pengambilan jiwaku dan jangan tunda jawaban atas doaku,' hingga ia wafat.",
+          "bn": "আমরা তাকে তার সর্বোচ্চ [মূর্তির] নিচে সমাধিস্থ করলাম, যাতে সে শান্তি পায় এবং তার আলো ও তাজাগ্য আমাদের কাছে আগের মতোই ফিরে আসে। তাই তারা সারাদিন তাদের নবীর কান্না শুনতে রইলেন, আর তিনি বলছিলেন: 'হে আমার প্রতিপালক, আপনি দেখছেন আমার স্থানের সংকীর্ণতা এবং আমার কষ্টের তীব্রতা, অতএব আমার দুর্বলতা এবং আমার সম্পদের অভাবের প্রতি দয়া করুন, এবং আমার প্রাণ গ্রহণে দ্রুততা করুন এবং আমার প্রার্থনার উত্তর দিতে বিলম্ব করবেন না,' যতক্ষণ না তিনি মারা গেলেন।",
+          "es": "Lo enterramos bajo su mayor [ídolo] para que se apaciguara con él, y su luz y nos regresara su luz y frescura como antes. Así permanecieron el resto del día escuchando los gemidos de su profeta, quien decía: 'Señor mío, ves la estrechez de mi lugar y la severidad de mi angustia, ten piedad de mi debilidad y de la escasez de mis medios, y apresura la toma de mi alma y no demores la respuesta a mi oración', hasta que murió.",
+          "fr": "Nous l'enterrâmes sous sa plus grande [idole] afin qu'il fût apaisé par elle, et que sa lumière et sa fraîcheur nous reviennent comme auparavant. Ils restèrent donc le reste de la journée à écouter les gémissements de leur prophète, qui disait : « Mon Seigneur, Tu vois la contriction de ma demeure et la gravité de ma détresse, fais donc miséricorde à ma faiblesse et à la rareté de mes moyens, hâte le trépas de mon âme et ne retarde pas la réponse à ma prière », jusqu'à ce qu'il mourût.",
+          "de": "Wir begruben ihn unter dem größten [Götzenbild], damit er durch es besänftigt würde und sein Licht und seine Frische wie zuvor zu uns zurückkehren würde. So blieben sie den Rest des Tages und hörten das Stöhnen ihres Propheten, und er sprach: »Mein Herr, Du siehst die Enge meines Ortes und die Schwere meiner Not, so habe Erbarmen mit meiner Schwäche und der Knappheit meiner Mittel, und eile mit der Entnahme meiner Seele und verzögere nicht die Erhörung meines Gebets«, bis er starb.",
+          "ru": "Мы похоронили его под его величайшим [идолом], дабы он успокоился благодаря ему, и его свет и свежесть вернулись к нам, как прежде. Так они провели остаток дня, слушая стенания своего пророка, который говорил: «Господь мой, Ты видишь тесноту моего места и тяжесть моего страдания, помилуй мою слабость и недостаток моих средств, поспеши с взятием моей души и не задерживай ответ на мою молитву», пока он не умер. }}  ```json { ",
+          "zh": "我们将他埋葬在最大的偶像之下，以便它能使他得到安抚，它的光泽和新鲜感能重新回到我们身上，一如从前。于是他们在那天剩下的时间里，聆听着他们先知的呻吟，他说：‘我的主啊，你看见我的处境艰难，痛苦深重，求你怜悯我的软弱，怜悯我的匮乏，求你速速取我灵魂，不要延迟对我的祈祷的应答。’直到他去世。"
+        },
+        "word_start": 839,
+        "word_end": 879
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ اللَّهُ جَلَّ جَلَالُهُ: يَا جِبْرِيلُ أَيَظُنُّ عِبَادِي هَؤُلَاءِ الَّذِينَ غَرَّهُمْ حِلْمِي وَأَمِنُوا مَكْرِي وَعَبَدُوا غَيْرِي وَقَتَلُوا رَسُولِي أَنْ يَقُومُوا لِغَضَبِي أَوْ يَخْرُجُوا مِنْ سُلْطَانِي كَيْفَ وَأَنَا الْمُنْتَقِمُ مِمَّنْ عَصَانِي وَلَمْ يَخْشَ عِقَابِي",
+        "translations": {
+          "en": "Then God, Glorified is His Majesty, said: 'O Gabriel, do these servants of Mine, whom My patience deluded and they felt secure from My stratagem, who worshipped other than Me and killed My messenger, think that they can stand against My anger or exit from My dominion? How is it, while I am the Avenger of whoever disobeyed Me and did not fear My punishment?'",
+          "ur": "پھر اللہ تعالیٰ نے فرمایا: اے جبرائیل! کیا میرے بندے، جنہیں میری صبر نے گمراہ کیا اور انہوں نے میرے تدبر سے خود کو محفوظ سمجھا، جنہوں نے میرے سوا کسی اور کی عبادت کی اور میرے رسول کو قتل کیا، یہ سمجھتے ہیں کہ وہ میری غضب کے مقابل کھڑے ہو سکتے ہیں یا میری بادشاہت سے نکل سکتے ہیں؟ حالانکہ میں تو ہوں اس کا بدلہ لینے والا جو میری نافرمانی کرے اور میری سزا سے نہ ڈرے؟",
+          "tr": "Sonra Allah, Azize ve Yüce olan Allah buyurdu: 'Ey Cebrail, benim rahmetimle aldanıp, benim hilemden emin olan, benden başkasına ibadet eden ve benim peygamberimi öldüren bu kullarım, benim gazabıma direnebilirler mi, yoksa benim hâkimiyetimden çıkabilirler mi? Ben, kim benden itaatsizlik ederse ve benim azabımdan korkmazsa, onun intikamını alanım iken, durum nasıl olur?'",
+          "fa": "آنگاه خداوند، جلّت عظمته، فرمود: «ای جبرئیل، آیا بندگان من که صبر من آنان را به گمراهی کشید و از مکر من احساس امنیت کردند، و غیر از من پرستیدند و پیامبر مرا کشتند، گمان می‌برند که می‌توانند در برابر خشم من بایستند یا از سلطنت من خارج شوند؟ چگونه است در حالی که من کیفر دهنده هر کس هستم که نافرمانی من کرد و از عذاب من نترسید؟»",
+          "id": "Maka Allah, Mahabesar dan Mahasuci, berfirman: 'Wahai Jibril, apakah hamba-hamba-Ku yang disesatkan oleh kesabaran-Ku sehingga mereka merasa aman dari tipu daya-Ku, yang menyembah selain Aku dan membunuh utusan-Ku, mengira bahwa mereka dapat menghadapi kemurkaan-Ku atau keluar dari kekuasaan-Ku? Bagaimana mungkin, padahal Aku adalah Dzat yang membalas setiap orang yang mendurhakai-Ku dan tidak takut akan azab-Ku?'",
+          "bn": "অনন্তর আল্লাহ তাআলা (যার মহিমা পবিত্র) বললেন: 'হে জিবরাঈল, আমার বান্দারা, যাদের আমার সহনশীলতাই প্রতারিত করেছিল এবং তারা আমার ফন্দি থেকে নিরাপদ মনে করত, যারা আমার ছাড়া অন্যের ইবাদত করত এবং আমার রাসূলকে হত্যা করত, তারা কি মনে করে যে তারা আমার ক্রোধের মুখোমুখি দাঁড়াতে পারবে অথবা আমার আধিপত্য থেকে বেরিয়ে যেতে পারবে? আর কীভাবে হতে পারে, অথচ আমি সেই ব্যক্তির শাস্তিদাতা যিনি আমার আদেশ অমান্য করেছেন এবং আমার শাস্তির ভয় করেননি?'",
+          "es": "Entonces Dios, Glorificado sea Su Majestad, dijo: «¡Oh Gabriel! ¿Acaso estos Siervos Míos, a quienes Mi paciencia engañó y se sintieron seguros de Mi estratagema, que adoraron a otros que a Mí y mataron a Mi mensajero, creen que pueden resistir Mi ira o escapar de Mi dominio? ¿Cómo es posible, siendo Yo el Vengador de quien desobedeció y no temió Mi castigo?»",
+          "fr": "Puis Dieu, Gloire à Sa Majesté, dit : « Ô Gabriel, ces serviens Miens que Ma patience a égarés et qui se sont sentis en sécurité face à Mon stratagème, qui ont adoré autre que Moi et tué Mon messager, pensent-ils pouvoir résister à Ma colère ou s'échapper de Mon royaume ? Comment cela se fait-il, alors que Je suis le Vengeur de quiconque M'a désobéi et n'a pas craint Mon châtiment ? »",
+          "de": "Dann sprach Gott, Erhaben ist Seine Majestät: „O Gabriel, glauben diese Meine Diener, die Meine Geduld in die Irre führte und die sich vor Meiner List für sicher hielten, die andere als Mich anbeteten und Meinen Gesandten töteten, dass sie Meinem Zorn standhalten oder aus Meinem Herrschaftsbereich entkommen können? Wie ist es, da Ich doch der Rächer dessen bin, wer Mir ungehorsam war und Meine Strafe nicht fürchtete?\"",
+          "ru": "Зат-Табарси: Затем Аллах, Велик Он в Своем Величии, сказал: «О Гавриил! Разве эти Мои рабы, которых обманула Моя терпеливость, и которые почувствовали себя в безопасности от Моего коварства, поклонявшиеся не Мне и убившие Моего посланника, думают, что они могут противостоять Моему гневу или выйти из Моего владения? Как это так, когда Я — Тот, Кто мстит тому, кто ослушался Меня и не боялся Моего наказания?»",
+          "zh": "随后，真主（荣耀归于祂）说：‘我的众仆啊，我的忍耐使他们迷惑，使他们对我计谋感到安全，他们崇拜我之外者，杀害我的使者，难道他们以为能抵挡我的愤怒或逃脱我的统治吗？而我正是惩罚违抗我、不敬畏我刑罚者的复仇者，这又是怎样的情形呢？’"
+        },
+        "word_start": 879,
+        "word_end": 912
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَإِنِّي حَلَفْتُ بِعِزَّتِي لَأَجْعَلَنَّهُمْ عِبْرَةً وَنَكَالًا لِلْعَالَمِينَ فَلَمْ يَرُقْهُمْ وَهُمْ فِي عِيدِهِمْ ذَلِكَ إِلَّا بِرِيحٍ عَاصِفٍ شَدِيدَةِ الْحُمْرَةِ فَتَحَيَّرُوا فِيهَا وَذُعِرُوا مِنْهَا وَتَضَامَّ بَعْضُهُمْ إِلَى بَعْضٍ",
+        "translations": {
+          "en": "And I have sworn by My Might that I will make them a lesson and a punishment for the worlds.' So He did not delay for them while they were in that festival, except with a fierce, very red wind. They were bewildered in it and terrified from it, and some pressed against others.",
+          "ur": "اور میں نے اپنی قدرت کی قسم کھائی ہے کہ میں انہیں تمام جہانوں کے لیے عبرت اور عذاب بناؤں گا۔ پس جب وہ اس عید گاہ میں تھے تو اس نے ان کے لیے تاخیر نہ کی، سوائے اس کے کہ ایک سخت، بہت سرخ باد چلائی۔ وہ اس میں حیران و پریشان ہو گئے اور اس سے ڈر گئے، اور کچھ ایک دوسرے پر ٹوٹ پڑے۔",
+          "tr": "Ve ben, onları âlemlere bir ibret ve bir azap yapacağım diye azametime yemin ettim. Öyle de yaptı. Onlar o şenlik içindeyken, onlar için geciktirmeden, şiddetli ve çok kırmızı bir rüzgar getirdi. Onlar içinde şaşkına döndüler ve ondan korktular, bazıları diğerlerine dayandı.",
+          "fa": "و سوگند به قدرت من که آنان را عبرتی و عذابی برای جهانیان قرار خواهم داد. پس برای آنان در آن جشن، جز بادی خشمین و سرخ‌رنگ و بسیار شدید، تأخیری نکرد. آنان در آن حیران و ترسان شدند و برخی دیگران را به فشار آوردند.",
+          "id": "Dan Aku telah bersumpah dengan Keagungan-Ku bahwa Aku akan menjadikan mereka pelajaran dan azab bagi seluruh alam. Maka, Dia tidak menunda azab bagi mereka saat mereka sedang dalam keadaan bersenang-senang, melainkan dengan angin yang sangat kencang dan berwarna merah menyala. Mereka menjadi bingung dan ketakutan karenanya, dan sebagian mereka saling mendesak.",
+          "bn": "আর আমি আমার ক্ষমতার শপথ নিয়েছি যে, আমি তাদের জগতবাসীদের জন্য একটি শিক্ষা ও শাস্তি করব। অতএব, তিনি তাদের সেই উৎসবের সময় বিলম্ব করেননি, বরং একটি প্রবল, অত্যন্ত লালচে বাতাস পাঠিয়েছেন। তারা তাতে বিচলিত ও ভীতসন্ত্রস্ত হয়ে পড়েছিল, এবং কেউ কারো উপর চাপিয়ে পড়ছিল।",
+          "es": "Y he jurado por Mi Poder que los haré una lección y un castigo para los mundos.» Así que no les retrasó mientras estaban en esa fiesta, sino con un viento feroz, muy rojo. Quedaron desconcertados en él y aterrorizados por él, y unos se apretujaban contra otros.",
+          "fr": "Et J'ai juré par Ma Puissance que Je ferai d'eux un exemple et un châtiment pour les mondes. » Alors, Il ne les a pas fait attendre, alors qu'ils se trouvaient dans cette fête, sinon par un vent furieux, très rouge. Ils s'y sont trouvés désorientés et terrifiés, et certains se pressaient contre d'autres.",
+          "de": "Und ich habe bei meiner Macht geschworen, dass ich sie zur Lehre und zur Strafe für die Welten machen werde. Also verzögerte Er für sie, während sie sich in jenem Fest befanden, nicht, außer mit einem wilden, sehr roten Wind. Sie waren darin verwirrt und davor erschreckt, und einige drängten gegen andere.",
+          "ru": "И Я поклялся Моим могуществом, что сделаю их назиданием и наказанием для миров». И Он не замедлил для них, пока они находились на том празднике, кроме яростного, очень красного ветра. Они были сбиты с толку в нем и устрашены им, и одни прижимались к другим.",
+          "zh": "我誓以我的威严，必使他们成为世人的鉴戒和刑罚。”于是，在他们欢庆之时，真主并未迟延，只以猛烈、赤红的狂风惩治他们。他们在狂风中迷乱，因狂风而恐惧，彼此拥挤。"
+        },
+        "word_start": 912,
+        "word_end": 938
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ صَارَتِ الْأَرْضُ مِنْ تَحْتِهِمْ حَجَرَ كِبْرِيتٍ يَتَوَقَّدُ وَأَظَلَّتْهُمْ سَحَابَةٌ سَوْدَاءُ فَأَلْقَتْ عَلَيْهِمْ كَالْقُبَّةِ جَمْرًا يَلْتَهِبُ فَذَابَتْ أَبْدَانُهُمْ كَمَا يَذُوبُ الرَّصَاصُ فِي النَّارِ",
+        "translations": {
+          "en": "Then the earth beneath them became burning sulphur stone, and a black cloud overshadowed them and threw upon them like a dome of glowing embers. Their bodies melted like lead in the fire.",
+          "ur": "پھر ان کے نیچے کی زمین جلنے والے گندمک کی پتھر بن گئی، اور ایک کالا بادلوں نے ان پر سایہ ڈالا اور ان پر چمکتی ہوئی انگاروں کی گنبد کی طرح پھینک دیا۔ ان کے جسم آگ میں موم کی طرح پگھل گئے۔",
+          "tr": "Sonra onların altındaki toprak, yanıcı kükürt taşına dönüştü ve onları bir kara bulut gölgeleyerek, parlayan közler gibi bir kubbe şeklinde üzerlerine attı. Vücutları ateşte kurşun gibi eridi.",
+          "fa": "سپس زمین زیر پای آنان به سنگ گوگرد سوزان تبدیل شد و ابری سیاه بر سر آنان سایه افکند و مانند گنبدی از ذغال‌های درخشان بر آنان فرو ریخت. بدن‌هایشان مانند سرب در آتش ذوب شد.",
+          "id": "Kemudian bumi di bawah mereka berubah menjadi batu belerang yang terbakar, dan sebuah awan hitam menaungi mereka serta menimbun mereka seperti kubah bara yang menyala. Tubuh-tubuh mereka meleleh seperti timah dalam api.",
+          "bn": "অতঃপর তাদের নিচের পৃথিবী হয়ে উঠল পোড়া সালফার পাথর, এবং একটি কালো মেঘ তাদের উপর ছায়া বিস্তার করল এবং তাদের উপর ফেলে দিল উজ্জ্বল চারকোয়া-এর মতো একটি গম্বুজের ন্যায়। তাদের শরীর আগুনে সোনার মতো গলে গেল।",
+          "es": "Entonces, la tierra bajo ellos fueron lanzados al fuego del Infierno.",
+          "fr": "Puis la terre sous leurs pieds devint une pierre de soufre en feu, et un nuage noir les couvrit de son ombre et leur jeta dessus comme une coupole de braises incandescentes. Leurs corps fondirent comme le plomb dans le feu.",
+          "de": "Dann wurde die Erde unter ihnen zu brennendem Schwefelstein, und eine schwarze Wolke beschattete sie und warf wie eine Kuppel aus glühenden Kohlen auf sie. Ihre Körper schmolzen wie Blei im Feuer.",
+          "ru": "Земля под ними превратилась в раскалённый серный камень, и чёрное облако покрыло их, обрушив на них, подобно куполу, пылающие угли. Их тела растаяли, словно свинец в огне.",
+          "zh": "随后，他们脚下的土地变成了燃烧的硫磺石，一团黑云笼罩了他们，如同穹顶般将炽热的余烬倾泻在他们身上。他们的身体像铅在火中一样融化。"
+        },
+        "word_start": 938,
+        "word_end": 961
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَنَعُوذُ بِاللَّهِ تَعَالَى ذِكْرُهُ مِنْ غَضَبِهِ وَنُزُولِ نَقِمَتِهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+        "translations": {
+          "en": "So we seek refuge in God, Exalted is His remembrance, from His anger and the descent of His retribution. And there is no power and no strength except with God the Most High, the Great.",
+          "ur": "پس ہم اللہ کی پناہ مانگتے ہیں، جس کا ذکر بلند و بالا ہے، اس کے غضب اور اس کے عذاب کے نازل ہونے سے۔ اور کوئی طاقت اور قوت نہیں سوائے اللہ کی، جو بلند مرتبہ اور عظیم ہے۔",
+          "tr": "Öyleyse, zikri yüce olan Allah'ın gazabından ve azabının inmesinden O'na sığınırız. Güç ve kuvvet ancak yüce ve azim olan Allah ile vardır.",
+          "fa": "پس پناه می‌بریم به خدا، بلندمرتبه است یاد او، از خشم او و فرود آمدن کیفر او. و هیچ نیرویی و هیچ قدرتی نیست مگر با خداوند بلندمرتبه، بزرگ.",
+          "id": "Maka kami berlindung kepada Allah, Maha Tinggi dzikir-Nya, dari kemurkaan-Nya dan turunnya azab-Nya. Dan tidak ada daya dan tidak ada kekuatan kecuali dengan Allah Yang Maha Tinggi, Yang Maha Agung.",
+          "bn": "অতএব আমরা আল্লাহর কাছে আশ্রয় চাই, যিনি মহিমান্বিত, তাঁর স্মরণ মহিমান্বিত, তাঁর ক্রোধ ও তাঁর শাস্তির অবতরণ থেকে। আর ক্ষমতা ও শক্তি আল্লাহ ছাড়া কারো নেই, যিনি পরম উচ্চ, মহান।",
+          "es": "Por ello, buscamos refugio en Alá, Exaltado sea Su recuerdo, de Su ira y de la venida de Su castigo. Y no hay poder ni fuerza sino en Alá, el Altísimo, el Grande.",
+          "fr": "Nous cherchons donc refuge auprès d'Allah, Exalté soit Son souvenir, de Sa colère et de la descente de Son châtiment. Et il n'y a de puissance ni de force qu'en Allah, le Très-Haut, le Grand. }",
+          "de": "Darum suchen wir Zuflucht bei Gott, Erhaben ist Sein Angedenken, vor Seinem Zorn und dem Herabkommen Seiner Rache. Und es gibt keine Macht und keine Kraft außer bei Gott, dem Höchsten, dem Großen.",
+          "ru": "Поэтому мы прибегаем к защите у Аллаха, Велик Его зикр, от Его гнева и ниспослания Его возмездия. И нет власти и нет силы, кроме у Аллаха, Всевышнего, Великого.",
+          "zh": "故我们求庇于真主，赞其崇高，免遭其愤怒与报应的降临。除真主至尊至大外，绝无力量与能力。"
+        },
+        "word_start": 961,
+        "word_end": 977
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) narrates the story of the People of the Ditch (Ashab al-Rass), a tribe who worshipped a cypress tree called Shah Derakht. They were destroyed by God after their prophet was buried in a well beneath their idol, through a fierce red wind, burning sulphur, and a dome of fire. This account, preserved in Shaykh al-Saduq's *Uyun al-Akhbar*, highlights the unique Shia tradition of detailed eschatological and historical narratives transmitted through the Ahl al-Bayt, distinguishing it from broader Sunni historiography.",
+        "seo_question": "Who were the People of the Ditch and how were they destroyed according to Shia tradition?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "People of the Ditch, a tribe mentioned in the Quran",
+          "شَاهْ دَرَخْتْ": "King Tree, the cypress tree worshipped by the tribe",
+          "رَسُّوا": "They buried/dug in, referring to burying the prophet in the earth",
+          "حَجَرُ كِبْرِيتٍ": "Burning sulphur stone, a form of divine punishment",
+          "يَافِثُ بْنُ نُوحٍ": "Japheth son of Noah, who planted the tree"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) نے آتشکدہ والوں (اصحاب الرسی) کی داستان بیان کی ہے، جو ایک قبیلہ تھا جو شاہ درخت نامی سرو درخت کی عبادت کرتا تھا۔ ان کا نبی ان کے بت کے نیچے کنویں میں دفن کیا گیا، اور پھر شدید سرخ ہوا، سوزندہ گندک اور آگ کے گنبد کے ذریعے انہیں اللہ نے ہلاک کر دیا۔ یہ روایت شیخ صدوق کی کتاب عین الاخبار میں محفوظ ہے، جو تفصیلی معاد اور تاریخی روایات کو اہل بیت کی طرف سے منقول ہوتے ہوئے دیکھتی ہے، جو وسیع تر سننی تاریخ نویسی سے ممتاز ہے۔",
+        "seo_question": "آتشکدہ والے کون تھے اور شیعہ روایت کے مطابق انہیں کیسے ہلاک کیا گیا؟",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "آتشکدہ والے، قرآن میں ذکر کیا گیا ایک قبیلہ",
+          "شَاهْ دَرَخْتْ": "شاہ درخت، قبیلہ کی عبادت کی جانے والی سرو درخت",
+          "رَسُّوا": "انہوں نے دفن کیا/کھودا، زمین میں نبی کو دفن کرنے کی طرف اشارہ",
+          "حَجَرُ كِبْرِيتٍ": "سوزندہ گندک کا پتھر، الٰہی سزا کی ایک شکل",
+          "يَافِثُ بْنُ نُوحٍ": "یافث بن نوح، جس نے درخت لگایا"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aleyhisselam), Kur'an'da adı geçen Ashab-ı Rass (Çukur Halkı) olan ve Şah Derahş adlı bir çam ağacına tapan bir kabileyi anlatır. Peygamberleri putlarının altındaki bir kuyuya gömüldükten sonra, şiddetli bir kırmızı rüzgar, yanıcı kükürt ve bir ateş kubbesi ile Allah tarafından helak edildiler. Bu olay, Şeyh es-Saduk'un *Uyunu'l-Ahbar* eserinde muhafaza edilmiş olup, Ahl-ı Beyt'ten gelen detaylı ahiret ve tarihi anlatımlarla Şii geleneğini daha geniş Sünni tarih yazımından ayıran benzersiz bir yönünü vurgular.",
+        "seo_question": "Şii geleneğine göre Çukur Halkı (Ashab-ı Rass) kimlerdir ve nasıl helak edilmişlerdir?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "Çukur Halkı, Kur'an'da adı geçen bir kabile",
+          "شَاهْ دَرَخْتْ": "Kral Ağaç, kabile tarafından tapan çam ağacı",
+          "رَسُّوا": "Gömülerler/kazarlardı, peygamberin toprağa gömülmesini ifade eder",
+          "حَجَرُ كِبْرِيتٍ": "Yanıcı kükürt taşı, ilahi ceza biçimlerinden biri",
+          "يَافِثُ بْنُ نُوحٍ": "Nuh oğlu Yafeth, ağacı dikendir"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علیه السلام) داستان اهل ریس را روایت می‌کند؛ قبیله‌ای که به درخت سروی به نام شاه‌درخت می‌پرستیدند. آن‌ها پس از دفن پیامبرشان در چاهی زیر بتشان، توسط خداوند از طریق بادی سرخ و خروشان، گوگرد سوزان و گنبدی از آتش نابود شدند. این روایت که در عین‌الاخبار شیخ صدوق حفظ شده، سنت منحصر‌به‌فرد شیعه در روایت‌های دقیق آخرالزمانی و تاریخی را که از طریق اهل بیت منتقل شده، برجسته می‌کند و آن را از تاریخ‌نگاری گسترده‌تر اهل سنت متمایز می‌سازد.",
+        "seo_question": "اهل ریس چه کسانی بودند و طبق سنت شیعه چگونه نابود شدند؟",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "اهل ریس، قبیله‌ای که در قرآن ذکر شده است",
+          "شَاهْ دَرَخْتْ": "شاه‌درخت، درخت سروی که توسط قبیله پرستش می‌شد",
+          "رَسُّوا": "دفن کردند/کنار گذاشتند، اشاره به دفن پیامبر در زمین",
+          "حَجَرُ كِبْرِيتٍ": "سنگ گوگرد سوزان، شکلی از عذاب الهی",
+          "يَافِثُ بْنُ نُوحٍ": "یافث پسر نوح، کسی که درخت را کاشت"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (alamaihissalam) meriwayatkan kisah Ashab al-Rass, sebuah suku yang menyembah pohon cypress bernama Shah Derakht. Mereka dimusnahkan oleh Allah setelah nabi mereka dikuburkan di dalam sumur di bawah berhala mereka, melalui angin merah yang ganas, belerang yang terbakar, dan kubah api. Kisah ini, yang terpelihara dalam *Uyun al-Akhbar* karya Syekh al-Saduq, menyoroti tradisi Syiah yang unik berupa narasi eskatologis dan historis yang rinci yang ditransmisikan melalui Ahl al-Bayt, yang membedakannya dari historiografi Sunni yang lebih luas.",
+        "seo_question": "Siapakah Ashab al-Rass dan bagaimana kehancuran mereka menurut tradisi Syiah?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "Kaum Sumur, sebuah suku yang disebutkan dalam Al-Quran",
+          "شَاهْ دَرَخْتْ": "Pohon Raja, pohon cypress yang disembah oleh suku tersebut",
+          "رَسُّوا": "Mereka menguburkan/menggali, merujuk pada penguburan nabi di dalam tanah",
+          "حَجَرُ كِبْرِيتٍ": "Batu belerang yang terbakar, bentuk hukuman ilahi",
+          "يَافِثُ بْنُ نُوحٍ": "Yafet putra Nuh, yang menanam pohon tersebut"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আলৈহিসসালাম) আশাবুল রাস্স বা খনিকার দলের গল্প বর্ণনা করেছেন, যারা শাহ দরখত নামক একটি দেবদারু গাছের উপাসনা করত। তাদের নবীকে তাদের মূর্তির নিচে একটি কূপে সমাধিস্থ করার পর, ভয়ঙ্কর লাল বাতাস, পোড়া সালফার এবং আগুনের গম্বুজের মাধ্যমে আল্লাহ তায়ালা তাদের ধ্বংস করে দেন। এই ঘটনা শায়খুল সাদুকের উয়ুনুল আখবারে সংরক্ষিত, যা আহলুল বাইতের মাধ্যমে প্রেরিত বিস্তারিত আখেরাত ও ঐতিহাসিক বর্ণনার বিশেষ শিয়া ঐতিহ্যকে সূচিত করে, যা বিস্তৃত সুন্নি ইতিহাসবিদ্যার থেকে আলাদা।",
+        "seo_question": "শিয়া ঐতিহ্য অনুযায়ী খনিকার দল কে ছিলেন এবং তাদের ধ্বংস কীভাবে ঘটেছিল?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "খনিকার দল, কুরআনে উল্লিখিত একটি গোত্র",
+          "شَاهْ دَرَخْتْ": "রাজা গাছ, গোত্রের উপাসিত দেবদারু গাছ",
+          "رَسُّوا": "তারা সমাধিস্থ করল/খনন করল, নবীকে মাটিতে সমাধিস্থ করার বিষয়টি নির্দেশ করে",
+          "حَجَرُ كِبْرِيتٍ": "পোড়া সালফারের পাথর, ঐশ্বরিক শাস্তির একটি রূপ",
+          "يَافِثُ بْنُ نُوحٍ": "নূহের পুত্র জাফেথ, যিনি গাছটি রোপণ করেছিলেন"
+        }
+      },
+      "es": {
+        "summary": "El Imam Alí (que la paz sea con él) narra la historia de la Gente del Pozo (Ashab al-Rass), una tribu que adoraba un ciprés llamado Shah Derakht. Fueron destruidos por Dios después de que su profeta fue enterrado en un pozo bajo su ídolo, mediante un feroz viento rojo, azufre ardiente y una cúpula de fuego. Este relato, conservado en *Uyun al-Akhbar* de Shaykh al-Saduq, destaca la tradición shií única de narrativas escatológicas e históricas detalladas transmitidas a través de la Ahl al-Bayt, distinguiéndola de la historiografía suní más amplia.",
+        "seo_question": "¿Quiénes eran la Gente del Pozo y cómo fueron destruidos según la tradición shií?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "Gente del Pozo, una tribu mencionada en el Corán",
+          "شَاهْ دَرَخْتْ": "Árbol Rey, el ciprés adorado por la tribu",
+          "رَسُّوا": "Enterraron/cavaron en, refiriéndose a enterrar al profeta en la tierra",
+          "حَجَرُ كِبْرِيتٍ": "Piedra de azufre ardiente, una forma de castigo divino",
+          "يَافِثُ بْنُ نُوحٍ": "Jafet hijo de Noé, quien plantó el árbol"
+        }
+      },
+      "fr": {
+        "summary": "L’imam Ali (Ali (que la paix soit sur lui) rapporte l’histoire des Gens de la Fosse (Ashab al-Rass), une tribu qui adorait un cyprès appelé Shah Derakht. Ils furent détruits par Dieu après que leur prophète eut été enterré dans un puits sous leur idole, par un vent rouge violent, du soufre brûlant et une coupole de feu. Ce récit, conservé dans *Ayn al-Akhbar* de Cheikh al-Saduq, met en lumière la tradition chiite unique de récits eschatologiques et historiques détaillés transmis par les Ahl al-Bayt, la distinguant de l’historiographie sunnite plus large.",
+        "seo_question": "Qui étaient les Gens de la Fosse et comment ont-ils été détruits selon la tradition chiite ?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "Gens de la Fosse, une tribu mentionnée dans le Coran",
+          "شَاهْ دَرَخْتْ": "Arbre-Roi, l'arbre cyprès adoré par la tribu",
+          "رَسُّوا": "Ils ont enterré/creusé, faisant référence à l'enterrement du prophète dans la terre",
+          "حَجَرُ كِبْرِيتٍ": "Pierre de soufre brûlant, une forme de châtiment divin",
+          "يَافِثُ بْنُ نُوحٍ": "Japhet fils de Noé, qui a planté l'arbre"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede sei mit ihm) erzählt die Geschichte der Leute des Brunnens (Ashab al-Rass), eines Stammes, der eine Zypressenbaum namens Shah Derakht anbetete. Sie wurden von Gott zerstört, nachdem ihr Prophet in einem Brunnen unter ihrem Idol begraben worden war, durch einen heftigen roten Wind, brennendes Schwefel und eine Feuerkuppel. Diese Erzählung, die in Scheich al-Saduqs *Ayn al-Akhbar* überliefert ist, hebt die einzigartige schiitische Tradition detaillierter eschatologischer und historischer Narrative hervor, die durch die Ahl al-Bayt überliefert werden, und unterscheidet sie von der breiteren sunnitischen Geschichtsschreibung.",
+        "seo_question": "Wer waren die Leute des Brunnens und wie wurden sie laut schiitischer Tradition zerstört?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "Leute des Brunnens, ein im Koran erwähnter Stamm",
+          "شَاهْ دَرَخْتْ": "Königsbaum, der von dem Stamm angebetete Zypressenbaum",
+          "رَسُّوا": "Sie begruben/grauben ein, bezieht sich auf die Begräbnis des Propheten in der Erde",
+          "حَجَرُ كِبْرِيتٍ": "Brennendes Schwefelstein, eine Form der göttlichen Strafe",
+          "يَافِثُ بْنُ نُوحٍ": "Japhet, Sohn Noahs, der den Baum pflanzte"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (да будет над ним мир) повествует об истории Людей Рва (Ашб ар-Расс), племени, которое почитало кипарис по имени Шах Дерехт. Они были уничтожены Богом после того, как их пророк был погребён в колодце под их идолом, посредством яркого красного ветра, горящей серы и свода огня. Этот рассказ, сохранённый в «Уюн аль-Ахбар» аш-Шаха аль-Садука, подчёркивает уникальную шиитскую традицию подробных эсхатологических и исторических повествований, передаваемых через Ахль аль-Байт, что отличает её от более широкой суннитской историографии.",
+        "seo_question": "Кто такие Люди Рва и как они были уничтожены согласно шиитской традиции?",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "Люди Рва, племя, упомянутое в Коране",
+          "شَاهْ دَرَخْتْ": "Царь-Дерево, кипарис, почитаемый племенем",
+          "رَسُّوا": "Они погребли/вырыли, относящееся к погребению пророка в земле",
+          "حَجَرُ كِبْرِيتٍ": "Камень горящей серы, форма божественного наказания",
+          "يَافِثُ بْنُ نُوحٍ": "Иафет, сын Нуха, который посадил дерево"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）传述了井人（Ashab al-Rass）的故事，这是一个崇拜名为Shah Derakht的柏树的部落。他们的先知被埋葬在偶像下方的井中后，真主通过猛烈的红风、燃烧的硫磺和火穹顶毁灭了他们。这段记载保存在谢赫·萨杜克的《优素福·阿克巴尔》中，突出了什叶派通过圣门弟子（Ahl al-Bayt）传承的详细末世论和历史叙事的独特传统，使其区别于更广泛的逊尼派史学。",
+        "seo_question": "井人是谁，根据什叶派传统他们是如何被毁灭的？",
+        "key_terms": {
+          "أَصْحَابُ الرَّسِّ": "井人，古兰经中提到的一个部落",
+          "شَاهْ دَرَخْتْ": "王树，该部落崇拜的柏树",
+          "رَسُّوا": "他们埋葬/挖掘，指将先知埋葬在地下",
+          "حَجَرُ كِبْرِيتٍ": "燃烧硫磺石，一种神圣的惩罚形式",
+          "يَافِثُ بْنُ نُوحٍ": "努哈之子雅弗斯"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "44:23",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "51:38",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "51:39",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "11:67",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا أَحْمَدُ بْنُ زِيَادِ بْنِ جَعْفَرٍ الْهَمَذَانِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ قَالَ: حَدَّثَنَا أَبُو الصَّلْتِ عَبْدُ السَّلَامِ بْنُ صَالِحٍ الْهَرَوِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ، عَن أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ عَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ الْحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ قَالَ: أَتَى عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ قَبْلَ مَقْتَلِهِ بِثَلَاثَةِ أَيَّامٍ رَجُلٌ مِنْ أَشْرَافِ تَمِيمٍ يُقَالُ لَهُ عَمْرٌو فَقَالَ: يَا أَمِيرَ الْمُؤْمِنِينَ أَخْبِرْنِي عَنْ أَصْحَابِ الرَّسِّ فِي أَيِّ عَصْرٍ كَانُوا وَأَيْنَ كَانَتْ مَنَازِلُهُمْ وَمَنْ كَانَ مَلِكَهُمْ وَهَلْ بَعَثَ اللَّهُ عَزَّ وَجَلَّ إِلَيْهِمْ رَسُولًا أَمْ لَا وَبِمَاذَا أُهْلِكُوا فَإِنِّي أَجِدُ فِي كِتَابِ اللَّهِ ذِكْرَهُمْ وَلَا أَجِدُ خَبَرَهُمْ فَقَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ: لَقَدْ سَأَلْتَ عَنْ حَدِيثٍ مَا سَأَلَنِي عَنْهُ أَحَدٌ قَبْلَكَ وَلَا يُحَدِّثُكَ بِهِ أَحَدٌ بَعْدِي إِلَّا عَنِّي وَمَا فِي كِتَابِ اللَّهِ عَزَّ وَجَلَّ آيَةٌ إِلَّا وَأَنَا أَعْرِفُ تَفْسِيرَهَا وَفِي أَيِّ مَكَانٍ نَزَلَتْ مِنْ سَهْلٍ أَوْ جَبَلٍ وَفِي أَيِّ وَقْتٍ نَزَلَتْ مِنْ لَيْلٍ أَوْ نَهَارٍ وَإِنَّ هَاهُنَا لَعِلْمًا جَمًّا وَأَشَارَ إِلَى صَدْرِهِ وَلَكِنَّ طُلَّابَهُ يَسِيرٌ وَعَنْ قَلِيلٍ يَنْدَمُونَ لَوْ فَقَدُونِي قَالَ: كَانَ مِنْ قِصَّتِهِمْ يَا أَخَا تَمِيمٍ أَنَّهُمْ كَانُوا قَوْمًا يَعْبُدُونَ شَجَرَةَ صَنَوْبَرٍ يُقَالُ لَهَا شَاهْ دَرَخْتْ كَانَ يَافِثُ بْنُ نُوحٍ غَرَسَهَا عَلَى شَفِيرِ عَيْنٍ يُقَالُ لَهَا رُوشَابُ كَانَتْ تُنْبَطَتْ لِنُوحٍ عَلَيْهِ السَّلَامُ بَعْدَ الطُّوفَانِ وَإِنَّمَا سُمُّوا أَصْحَابَ الرَّسِّ لِأَنَّهُمْ رَسُّوا نَبِيَّهُمْ فِي الْأَرْضِ وَذَلِكَ بَعْدَ سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِ السَّلَامُ شَاهْ دَرَخْتْ كَانَ يَافِثُ بْنُ نُوحٍ غَرَسَهَا عَلَى شَفِيرِ عَيْنٍ يُقَالُ لَهَا رُوشَابُ كَانَتْ تُنْبَطَتْ لِنُوحٍ عَلَيْهِ السَّلَامُ بَعْدَ الطُّوفَانِ وَإِنَّمَا سُمُّوا أَصْحَابَ الرَّسِّ لِأَنَّهُمْ رَسُّوا نَبِيَّهُمْ فِي الْأَرْضِ وَذَلِكَ بَعْدَ سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِ السَّلَامُ وَكَانَتْ لَهُمْ اثْنَتَا عَشْرَةَ قَرْيَةً عَلَى شَاطِئِ نَهَرٍ يُقَالُ لَهُ الرَّسُّ مِنْ بِلَادِ الْمَشْرِقِ وَبِهِمْ سُمِّيَ ذَلِكَ النَّهَرُ وَلَمْ يَكُنْ يَوْمَئِذٍ فِي الْأَرْضِ نَهَرٌ أَغْزَرُ مِنْهُ وَلَا أَعْذَبُ مِنْهُ وَلَا قُرًى أَكْثَرُ وَلَا أَعْمَرُ مِنْهَا تُسَمَّى إِحْدَاهُنَّ أَبَانَ وَالثَّانِيَةُ آذَرَ وَالثَّالِثَةُ دَيْ وَالرَّابِعَةُ بَهْمَنَ وَالْخَامِسَةُ إِسْفَنْدَارَ وَالسَّادِسَةُ فَرْوَرْدِينَ وَالسَّابِعَةُ أُرْدِيبِهِشْتَ وَالثَّامِنَةُ خُرْدَادَ وَالتَّاسِعَةُ مُرْدَادَ وَالْعَاشِرَةُ تِيرَ وَالْحَادِيَةَ عَشْرَةَ مِهْرَ وَالثَّانِيَةَ عَشْرَةَ شَهْرِيوَرَدَ وَكَانَتْ أَعْظَمَ مَدَائِنِهِمْ إِسْفَنْدَارُ وَهِيَ الَّتِي يَنْزِلُهَا مَلِكُهُمْ وَكَانَ يُسَمَّى تَرْكُوزَ بْنَ غَابُورَ بْنَ يَارَشَ بْنَ سَازَنَ بْنَ نُمْرُودَ بْنِ كَنْعَانَ فِرْعَوَ إِبْرَاهِيمَ وَبِهَا الْعَيْنُ وَالصَّنَوْبَرَةُ وَقَدْ غَرَسُوا فِي كُلِّ قَرْيَةٍ مِنْهَا حَبَّةً مِنْ طَلْعِ تِلْكَ الصَّنَوْبَرَةِ وَأَجْرَوْا إِلَيْهَا نَهَرًا مِنَ الْعَيْنِ الَّتِي عِنْدَ الصَّنَوْبَرَةِ فَنَبَتَتِ الْحَبَّةُ وَصَارَتْ شَجَرَةً عَظِيمَةً وَحَرَّمُوا مَاءَ الْعَيْنِ وَالْأَنْهَارَ فَلَا يَشْرَبُونَ مِنْهَا وَلَا أَنْعَامُهُمْ وَمَنْ فَعَلَ ذَلِكَ قَتَلُوهُ وَيَقُولُونَ هُوَ حَيَاةُ آلِهَتِنَا فَلَا يَنْبَغِي لِأَحَدٍ أَنْ يَنْقُصَ مِنْ حَيَاتِهَا وَيَشْرَبُونَ هُمْ وَأَنْعَامُهُمْ مِنْ نَهَرِ الرَّسِّ الَّذِي عَلَيْهِ قُرَاهُمْ وَقَدْ جَعَلُوا فِي كُلِّ شَهْرٍ مِنَ السَّنَةِ فِي كُلِّ قَرْيَةٍ عِيدًا يَجْتَمِعُ إِلَيْهِ أَهْلُهَا فَيَضْرِبُونَ عَلَى الشَّجَرَةِ الَّتِي بِهَا كِلَّةً مِنْ حَرِيرٍ فِيهَا مِنْ أَنْوَاعِ الصُّوَرِ ثُمَّ يَأْتُونَ بِشَاءٍ وَبَقَرٍ فَيَذْبَحُونَهَا قُرْبَانًا لِلشَّجَرَةِ وَيُشْعِلُونَ فِيهَا النِّيرَانَ بِالْحَطَبِ فَإِذَا سَطَحَ دُخَانُ تِلْكَ الذَّبَائِحِ وَقُتَارُهَا فِي الْهَوَاءِ وَحَالَ بَيْنَهُمْ وَبَيْنَ النَّظَرِ إِلَى السَّمَاءِ خَرُّوا لِلشَّجَرَةِ سُجَّدًا يَبْكُونَ وَيَتَضَرَّعُونَ إِلَيْهَا أَنْ تَرْضَى عَنْهُمْ فَيَأْتِي الشَّيْطَانُ فَيُحَرِّكُ أَغْصَانَهَا وَيَصِيحُ مِنْ سَاقِهَا صِيَاحَ الصَّبِيِّ إِنِّي قَدْ رَضِيتُ عَنْكُمْ عِبَادِي فَطِيبُوا نَفْسًا وَقَرُّوا عَيْنًا فَيَرْفَعُونَ رُءُوسَهُمْ عِنْدَ ذَلِكَ وَيَشْرَبُونَ الْخَمْرَ وَيَضْرِبُونَ بِالْمَعَازِفِ وَيَأْخُذُونَ الدَّسْتْبَنْدَ فَيَكُونُونَ عَلَى ذَلِكَ يَوْمَهُمْ وَلَيْلَتَهُمْ ثُمَّ يَنْصَرِفُونَ وإِنَّمَا سَمَّتِ الْعَجَمُ شُهُورَهَا بِأَبَانْ مَاهَ وَآذَرْ مَاهَ وَغَيْرِهِمَا اشْتِقَاقًا مِنْ أَسْمَاءِ تِلْكَ الْقُرَى لِقَوْلِ أَهْلِهَا بَعْضُهُمْ لِبَعْضٍ هَذَا عِيدُ شَهْرِ كَذَا وَعِيدُ شَهْرِ كَذَا حَتَّى إِذَا كَانَ عِيدُ قَرْيَتِهِمُ الْعُظْمَى اجْتَمَعَ إِلَيْهَا صَغِيرُهُمْ وَكَبِيرُهُمْ فَضَرَبُوا عِنْدَ الصَّنَوْبَرَةِ وَالْعَيْنِ سُرَادِقًا مِنْ دِيبَاجٍ عَلَيْهِ مِنْ أَنْوَاعِ الصُّوَرِ وَجَعَلُوا لَهُ اثْنَيْ عَشَرَ بَابًا كُلُّ بَابٍ لِأَهْلِ قَرْيَةٍ مِنْهُمْ وَيَسْجُدُونَ لِلصَّنَوْبَرَةِ خَارِجًا مِنَ السُّرَادِقِ وَيُقَرِّبُونَ لَهَا الذَّبَائِحَ أَضْعَافَ مَا قَرَّبُوا لِلشَّجَرَةِ الَّتِي فِي قُرَاهُمْ فَيَأْتِي إِبْلِيسُ عِنْدَ ذَلِكَ فَيُحَرِّكُ الصَّنَوْبَرَةَ تَحْرِيكًا شَدِيدًا وَيَتَكَلَّمُ مِنْ جَوْفِهَا كَلَامًا جَهْوَرِيًّا وَيَعِدُهُمْ وَيُمَنِّيهِمْ بِأَكْثَرَ مِمَّا وَعَدَتْهُمْ وَمَنَتْهُمُ الشَّيَاطِينُ كُلُّهَا فَيَرْفَعُونَ رُءُوسَهُمْ مِنَ السُّجُودِ وَبِهِمْ مِنَ الْفَرَحِ وَالنَّشَاطِ مَا لَا يُفِيقُونَ وَلَا يَتَكَلَّمُونَ مِنَ الشُّرْبِ وَالْعَزْفِ فَيَكُونُونَ عَلَى ذَلِكَ اثْنَيْ عَشَرَ يَوْمًا وَلَيَالِيَهَا بِعَدَدِ أَعْيَادِهِمْ سَائِرَ السَّنَةِ ثُمَّ يَنْصَرِفُونَ فَلَمَّا طَالَ كُفْرُهُمْ بِاللَّهِ عَزَّ وَجَلَّ وَعِبَادَتُهُمْ غَيْرَهُ بَعَثَ اللَّهُ عَزَّ وَجَلَّ إِلَيْهِمْ نَبِيًّا مِنْ بَنِي إِسْرَائِيلَ مِنْ وُلْدِ يَهُوذَا بْنِ يَعْقُوبَ فَلَبِثَ فِيهِمْ زَمَانًا طَوِيلًا يَدْعُوهُمْ إِلَى عِبَادَةِ اللَّهِ عَزَّ وَجَلَّ وَمَعْرِفَةِ رُبُوبِيَّتِهِ فَلَا يَتَّبِعُونَهُ فَلَمَّا رَأَى شِدَّةَ تَمَادِيهِمْ فِي الْغَيِّ وَالضَّلَالِ وَتَرْكَهُمْ قَبُولَ مَا دَعَاهُمْ إِلَيْهِ مِنَ الرُّشْدِ وَالنَّجَاحِ وَحَضَرَ عِيدُ قَرْيَتِهِمُ الْعُظْمَى قَالَ: يَا رَبِّ إِنَّ عِبَادَكَ أَبَوْا إِلَّا تَكْذِيبِي وَالْكُفْرَ بِكَ وَغَدَوْا يَعْبُدُونَ شَجَرَةً لَا تَنْفَعُ وَلَا تَضُرُّ فَأَيْبِسْ شَجَرَهُمْ أَجْمَعَ وَأَرِهِمْ قُدْرَتَكَ وَسُلْطَانَكَ فَأَصْبَحَ الْقَوْمُ وَقَدْ يَبِسَ شَجَرُهُمْ كُلُّهَا فَهَالَهُمْ ذَلِكَ وَقُطِعَ بِهِمْ وَصَارُوا فِرْقَتَيْنِ فِرْقَةٌ قَالَتْ سَحَرَ آلِهَتَكُمْ هَذَا الرَّجُلُ الَّذِي زَعَمَ أَنَّهُ رَسُولُ رَبِّ السَّمَاءِ وَالْأَرْضِ إِلَيْكُمْ لِيَصْرِفَ وُجُوهَكُمْ عَنْ آلِهَتِكُمْ إِلَى إِلَهِهِ وَفِرْقَةٌ قَالَتْ لَا بَلْ غَضِبَتْ آلِهَتُكُمْ حِينَ رَأَتْ هَذَا الرَّجُلَ يَعِيبُهَا وَيَقَعُ فِيهَا وَيَدْعُوكُمْ إِلَى عِبَادَةِ غَيْرِهَا فَحَجَبَتْ حُسْنَهَا وَبَهَاءَهَا لِكَيْ تَغْضَبُوا لَهَا فَتَنْتَصِرُوا مِنْهُ فَأَجْمَعَ رَأْيُهُمْ عَلَى قَتْلِهِ فَاتَّخَذُوا أَنَابِيبَ طِوَالًا مِنْ رَصَاصٍ وَاسِعَةَ الْأَفْوَاهِ ثُمَّ أَرْسَلُوهَا فِي قَرَارِ الْعَيْنِ إِلَى أَعْلَى الْمَاءِ وَاحِدَةً فَوْقَ الْأُخْرَى مِثْلَ الْبَرَابِخِ وَنَزَحُوا مَا فِيهَا مِنَ الْمَاءِ ثُمَّ حَفَرُوا فِي قَرَارِهَا بِئْرًا ضَيِّقَةَ الْمَدْخَلِ عَمِيقَةً وَأَرْسَلُوا فِيهَا نَبِيَّهُمْ وَأَلْقَمُوا فَاهَا صَخْرَةً عَظِيمَةً ثُمَّ أَخْرَجُوا الْأَنَابِيبَ مِنَ الْمَاءِ وَقَالُوا نَرْجُو الْآنَ أَنْ تَرْضَى عَنَّا آلِهَتُنَا إِذَا رَأَتْ أَنَّا قَدْ قَتَلْنَا مَنْ كَانَ يَقَعُ فِيهَا وَيَصُدُّنَا عَنْ عِبَادَتِهَا وَدَفَنَاهُ تَحْتَ كَبِيرِهَا يَتَشَفَّى مِنْهُ فَيَعُودَ لَنَا نُورُهَا وَنَضْرَتُهَا كَمَا كَانَ فَبَقُوا عَامَّةَ يَوْمِهِمْ يَسْمَعُونَ أَنِينَ نَبِيِّهِمْ وَهُوَ يَقُولُ: سَيِّدِي قَدْ تَرَى ضِيقَ مَكَانِي وَشِدَّةَ كَرْبِي فَارْحَمْ ضَعْفَ رُكْنِي وَقِلَّةَ حِيلَتِي وَعَجِّلْ بِقَبْضِ رُوحِي وَلَا تُؤَخِّرْ إِجَابَةَ دَعْوَتِي حَتَّى مَاتَ فَقَالَ اللَّهُ جَلَّ جَلَالُهُ: يَا جِبْرِيلُ أَيَظُنُّ عِبَادِي هَؤُلَاءِ الَّذِينَ غَرَّهُمْ حِلْمِي وَأَمِنُوا مَكْرِي وَعَبَدُوا غَيْرِي وَقَتَلُوا رَسُولِي أَنْ يَقُومُوا لِغَضَبِي أَوْ يَخْرُجُوا مِنْ سُلْطَانِي كَيْفَ وَأَنَا الْمُنْتَقِمُ مِمَّنْ عَصَانِي وَلَمْ يَخْشَ عِقَابِي وَإِنِّي حَلَفْتُ بِعِزَّتِي لَأَجْعَلَنَّهُمْ عِبْرَةً وَنَكَالًا لِلْعَالَمِينَ فَلَمْ يَرُقْهُمْ وَهُمْ فِي عِيدِهِمْ ذَلِكَ إِلَّا بِرِيحٍ عَاصِفٍ شَدِيدَةِ الْحُمْرَةِ فَتَحَيَّرُوا فِيهَا وَذُعِرُوا مِنْهَا وَتَضَامَّ بَعْضُهُمْ إِلَى بَعْضٍ ثُمَّ صَارَتِ الْأَرْضُ مِنْ تَحْتِهِمْ حَجَرَ كِبْرِيتٍ يَتَوَقَّدُ وَأَظَلَّتْهُمْ سَحَابَةٌ سَوْدَاءُ فَأَلْقَتْ عَلَيْهِمْ كَالْقُبَّةِ جَمْرًا يَلْتَهِبُ فَذَابَتْ أَبْدَانُهُمْ كَمَا يَذُوبُ الرَّصَاصُ فِي النَّارِ فَنَعُوذُ بِاللَّهِ تَعَالَى ذِكْرُهُ مِنْ غَضَبِهِ وَنُزُولِ نَقِمَتِهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا أَحْمَدُ بْنُ زِيَادِ بْنِ جَعْفَرٍ الْهَمَذَانِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ قَالَ: حَدَّثَنَا أَبُو الصَّلْتِ عَبْدُ السَّلَامِ بْنُ صَالِحٍ الْهَرَوِيُّ قَالَ: حَدَّثَنَا عَلِيُّ بْنُ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ، عَن أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ عَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ، عَن أَبِيهِ الْحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ",
+      "matn_ar": "قَالَ: أَتَى عَلِيَّ بْنَ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ قَبْلَ مَقْتَلِهِ بِثَلَاثَةِ أَيَّامٍ رَجُلٌ مِنْ أَشْرَافِ تَمِيمٍ يُقَالُ لَهُ عَمْرٌو فَقَالَ: يَا أَمِيرَ الْمُؤْمِنِينَ أَخْبِرْنِي عَنْ أَصْحَابِ الرَّسِّ فِي أَيِّ عَصْرٍ كَانُوا وَأَيْنَ كَانَتْ مَنَازِلُهُمْ وَمَنْ كَانَ مَلِكَهُمْ وَهَلْ بَعَثَ اللَّهُ عَزَّ وَجَلَّ إِلَيْهِمْ رَسُولًا أَمْ لَا وَبِمَاذَا أُهْلِكُوا فَإِنِّي أَجِدُ فِي كِتَابِ اللَّهِ ذِكْرَهُمْ وَلَا أَجِدُ خَبَرَهُمْ فَقَالَ لَهُ عَلِيٌّ عَلَيْهِ السَّلَامُ: لَقَدْ سَأَلْتَ عَنْ حَدِيثٍ مَا سَأَلَنِي عَنْهُ أَحَدٌ قَبْلَكَ وَلَا يُحَدِّثُكَ بِهِ أَحَدٌ بَعْدِي إِلَّا عَنِّي وَمَا فِي كِتَابِ اللَّهِ عَزَّ وَجَلَّ آيَةٌ إِلَّا وَأَنَا أَعْرِفُ تَفْسِيرَهَا وَفِي أَيِّ مَكَانٍ نَزَلَتْ مِنْ سَهْلٍ أَوْ جَبَلٍ وَفِي أَيِّ وَقْتٍ نَزَلَتْ مِنْ لَيْلٍ أَوْ نَهَارٍ وَإِنَّ هَاهُنَا لَعِلْمًا جَمًّا وَأَشَارَ إِلَى صَدْرِهِ وَلَكِنَّ طُلَّابَهُ يَسِيرٌ وَعَنْ قَلِيلٍ يَنْدَمُونَ لَوْ فَقَدُونِي قَالَ: كَانَ مِنْ قِصَّتِهِمْ يَا أَخَا تَمِيمٍ أَنَّهُمْ كَانُوا قَوْمًا يَعْبُدُونَ شَجَرَةَ صَنَوْبَرٍ يُقَالُ لَهَا شَاهْ دَرَخْتْ كَانَ يَافِثُ بْنُ نُوحٍ غَرَسَهَا عَلَى شَفِيرِ عَيْنٍ يُقَالُ لَهَا رُوشَابُ كَانَتْ تُنْبَطَتْ لِنُوحٍ عَلَيْهِ السَّلَامُ بَعْدَ الطُّوفَانِ وَإِنَّمَا سُمُّوا أَصْحَابَ الرَّسِّ لِأَنَّهُمْ رَسُّوا نَبِيَّهُمْ فِي الْأَرْضِ وَذَلِكَ بَعْدَ سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِ السَّلَامُ شَاهْ دَرَخْتْ كَانَ يَافِثُ بْنُ نُوحٍ غَرَسَهَا عَلَى شَفِيرِ عَيْنٍ يُقَالُ لَهَا رُوشَابُ كَانَتْ تُنْبَطَتْ لِنُوحٍ عَلَيْهِ السَّلَامُ بَعْدَ الطُّوفَانِ وَإِنَّمَا سُمُّوا أَصْحَابَ الرَّسِّ لِأَنَّهُمْ رَسُّوا نَبِيَّهُمْ فِي الْأَرْضِ وَذَلِكَ بَعْدَ سُلَيْمَانَ بْنِ دَاوُدَ عَلَيْهِ السَّلَامُ وَكَانَتْ لَهُمْ اثْنَتَا عَشْرَةَ قَرْيَةً عَلَى شَاطِئِ نَهَرٍ يُقَالُ لَهُ الرَّسُّ مِنْ بِلَادِ الْمَشْرِقِ وَبِهِمْ سُمِّيَ ذَلِكَ النَّهَرُ وَلَمْ يَكُنْ يَوْمَئِذٍ فِي الْأَرْضِ نَهَرٌ أَغْزَرُ مِنْهُ وَلَا أَعْذَبُ مِنْهُ وَلَا قُرًى أَكْثَرُ وَلَا أَعْمَرُ مِنْهَا تُسَمَّى إِحْدَاهُنَّ أَبَانَ وَالثَّانِيَةُ آذَرَ وَالثَّالِثَةُ دَيْ وَالرَّابِعَةُ بَهْمَنَ وَالْخَامِسَةُ إِسْفَنْدَارَ وَالسَّادِسَةُ فَرْوَرْدِينَ وَالسَّابِعَةُ أُرْدِيبِهِشْتَ وَالثَّامِنَةُ خُرْدَادَ وَالتَّاسِعَةُ مُرْدَادَ وَالْعَاشِرَةُ تِيرَ وَالْحَادِيَةَ عَشْرَةَ مِهْرَ وَالثَّانِيَةَ عَشْرَةَ شَهْرِيوَرَدَ وَكَانَتْ أَعْظَمَ مَدَائِنِهِمْ إِسْفَنْدَارُ وَهِيَ الَّتِي يَنْزِلُهَا مَلِكُهُمْ وَكَانَ يُسَمَّى تَرْكُوزَ بْنَ غَابُورَ بْنَ يَارَشَ بْنَ سَازَنَ بْنَ نُمْرُودَ بْنِ كَنْعَانَ فِرْعَوَ إِبْرَاهِيمَ وَبِهَا الْعَيْنُ وَالصَّنَوْبَرَةُ وَقَدْ غَرَسُوا فِي كُلِّ قَرْيَةٍ مِنْهَا حَبَّةً مِنْ طَلْعِ تِلْكَ الصَّنَوْبَرَةِ وَأَجْرَوْا إِلَيْهَا نَهَرًا مِنَ الْعَيْنِ الَّتِي عِنْدَ الصَّنَوْبَرَةِ فَنَبَتَتِ الْحَبَّةُ وَصَارَتْ شَجَرَةً عَظِيمَةً وَحَرَّمُوا مَاءَ الْعَيْنِ وَالْأَنْهَارَ فَلَا يَشْرَبُونَ مِنْهَا وَلَا أَنْعَامُهُمْ وَمَنْ فَعَلَ ذَلِكَ قَتَلُوهُ وَيَقُولُونَ هُوَ حَيَاةُ آلِهَتِنَا فَلَا يَنْبَغِي لِأَحَدٍ أَنْ يَنْقُصَ مِنْ حَيَاتِهَا وَيَشْرَبُونَ هُمْ وَأَنْعَامُهُمْ مِنْ نَهَرِ الرَّسِّ الَّذِي عَلَيْهِ قُرَاهُمْ وَقَدْ جَعَلُوا فِي كُلِّ شَهْرٍ مِنَ السَّنَةِ فِي كُلِّ قَرْيَةٍ عِيدًا يَجْتَمِعُ إِلَيْهِ أَهْلُهَا فَيَضْرِبُونَ عَلَى الشَّجَرَةِ الَّتِي بِهَا كِلَّةً مِنْ حَرِيرٍ فِيهَا مِنْ أَنْوَاعِ الصُّوَرِ ثُمَّ يَأْتُونَ بِشَاءٍ وَبَقَرٍ فَيَذْبَحُونَهَا قُرْبَانًا لِلشَّجَرَةِ وَيُشْعِلُونَ فِيهَا النِّيرَانَ بِالْحَطَبِ فَإِذَا سَطَحَ دُخَانُ تِلْكَ الذَّبَائِحِ وَقُتَارُهَا فِي الْهَوَاءِ وَحَالَ بَيْنَهُمْ وَبَيْنَ النَّظَرِ إِلَى السَّمَاءِ خَرُّوا لِلشَّجَرَةِ سُجَّدًا يَبْكُونَ وَيَتَضَرَّعُونَ إِلَيْهَا أَنْ تَرْضَى عَنْهُمْ فَيَأْتِي الشَّيْطَانُ فَيُحَرِّكُ أَغْصَانَهَا وَيَصِيحُ مِنْ سَاقِهَا صِيَاحَ الصَّبِيِّ إِنِّي قَدْ رَضِيتُ عَنْكُمْ عِبَادِي فَطِيبُوا نَفْسًا وَقَرُّوا عَيْنًا فَيَرْفَعُونَ رُءُوسَهُمْ عِنْدَ ذَلِكَ وَيَشْرَبُونَ الْخَمْرَ وَيَضْرِبُونَ بِالْمَعَازِفِ وَيَأْخُذُونَ الدَّسْتْبَنْدَ فَيَكُونُونَ عَلَى ذَلِكَ يَوْمَهُمْ وَلَيْلَتَهُمْ ثُمَّ يَنْصَرِفُونَ وإِنَّمَا سَمَّتِ الْعَجَمُ شُهُورَهَا بِأَبَانْ مَاهَ وَآذَرْ مَاهَ وَغَيْرِهِمَا اشْتِقَاقًا مِنْ أَسْمَاءِ تِلْكَ الْقُرَى لِقَوْلِ أَهْلِهَا بَعْضُهُمْ لِبَعْضٍ هَذَا عِيدُ شَهْرِ كَذَا وَعِيدُ شَهْرِ كَذَا حَتَّى إِذَا كَانَ عِيدُ قَرْيَتِهِمُ الْعُظْمَى اجْتَمَعَ إِلَيْهَا صَغِيرُهُمْ وَكَبِيرُهُمْ فَضَرَبُوا عِنْدَ الصَّنَوْبَرَةِ وَالْعَيْنِ سُرَادِقًا مِنْ دِيبَاجٍ عَلَيْهِ مِنْ أَنْوَاعِ الصُّوَرِ وَجَعَلُوا لَهُ اثْنَيْ عَشَرَ بَابًا كُلُّ بَابٍ لِأَهْلِ قَرْيَةٍ مِنْهُمْ وَيَسْجُدُونَ لِلصَّنَوْبَرَةِ خَارِجًا مِنَ السُّرَادِقِ وَيُقَرِّبُونَ لَهَا الذَّبَائِحَ أَضْعَافَ مَا قَرَّبُوا لِلشَّجَرَةِ الَّتِي فِي قُرَاهُمْ فَيَأْتِي إِبْلِيسُ عِنْدَ ذَلِكَ فَيُحَرِّكُ الصَّنَوْبَرَةَ تَحْرِيكًا شَدِيدًا وَيَتَكَلَّمُ مِنْ جَوْفِهَا كَلَامًا جَهْوَرِيًّا وَيَعِدُهُمْ وَيُمَنِّيهِمْ بِأَكْثَرَ مِمَّا وَعَدَتْهُمْ وَمَنَتْهُمُ الشَّيَاطِينُ كُلُّهَا فَيَرْفَعُونَ رُءُوسَهُمْ مِنَ السُّجُودِ وَبِهِمْ مِنَ الْفَرَحِ وَالنَّشَاطِ مَا لَا يُفِيقُونَ وَلَا يَتَكَلَّمُونَ مِنَ الشُّرْبِ وَالْعَزْفِ فَيَكُونُونَ عَلَى ذَلِكَ اثْنَيْ عَشَرَ يَوْمًا وَلَيَالِيَهَا بِعَدَدِ أَعْيَادِهِمْ سَائِرَ السَّنَةِ ثُمَّ يَنْصَرِفُونَ فَلَمَّا طَالَ كُفْرُهُمْ بِاللَّهِ عَزَّ وَجَلَّ وَعِبَادَتُهُمْ غَيْرَهُ بَعَثَ اللَّهُ عَزَّ وَجَلَّ إِلَيْهِمْ نَبِيًّا مِنْ بَنِي إِسْرَائِيلَ مِنْ وُلْدِ يَهُوذَا بْنِ يَعْقُوبَ فَلَبِثَ فِيهِمْ زَمَانًا طَوِيلًا يَدْعُوهُمْ إِلَى عِبَادَةِ اللَّهِ عَزَّ وَجَلَّ وَمَعْرِفَةِ رُبُوبِيَّتِهِ فَلَا يَتَّبِعُونَهُ فَلَمَّا رَأَى شِدَّةَ تَمَادِيهِمْ فِي الْغَيِّ وَالضَّلَالِ وَتَرْكَهُمْ قَبُولَ مَا دَعَاهُمْ إِلَيْهِ مِنَ الرُّشْدِ وَالنَّجَاحِ وَحَضَرَ عِيدُ قَرْيَتِهِمُ الْعُظْمَى قَالَ: يَا رَبِّ إِنَّ عِبَادَكَ أَبَوْا إِلَّا تَكْذِيبِي وَالْكُفْرَ بِكَ وَغَدَوْا يَعْبُدُونَ شَجَرَةً لَا تَنْفَعُ وَلَا تَضُرُّ فَأَيْبِسْ شَجَرَهُمْ أَجْمَعَ وَأَرِهِمْ قُدْرَتَكَ وَسُلْطَانَكَ فَأَصْبَحَ الْقَوْمُ وَقَدْ يَبِسَ شَجَرُهُمْ كُلُّهَا فَهَالَهُمْ ذَلِكَ وَقُطِعَ بِهِمْ وَصَارُوا فِرْقَتَيْنِ فِرْقَةٌ قَالَتْ سَحَرَ آلِهَتَكُمْ هَذَا الرَّجُلُ الَّذِي زَعَمَ أَنَّهُ رَسُولُ رَبِّ السَّمَاءِ وَالْأَرْضِ إِلَيْكُمْ لِيَصْرِفَ وُجُوهَكُمْ عَنْ آلِهَتِكُمْ إِلَى إِلَهِهِ وَفِرْقَةٌ قَالَتْ لَا بَلْ غَضِبَتْ آلِهَتُكُمْ حِينَ رَأَتْ هَذَا الرَّجُلَ يَعِيبُهَا وَيَقَعُ فِيهَا وَيَدْعُوكُمْ إِلَى عِبَادَةِ غَيْرِهَا فَحَجَبَتْ حُسْنَهَا وَبَهَاءَهَا لِكَيْ تَغْضَبُوا لَهَا فَتَنْتَصِرُوا مِنْهُ فَأَجْمَعَ رَأْيُهُمْ عَلَى قَتْلِهِ فَاتَّخَذُوا أَنَابِيبَ طِوَالًا مِنْ رَصَاصٍ وَاسِعَةَ الْأَفْوَاهِ ثُمَّ أَرْسَلُوهَا فِي قَرَارِ الْعَيْنِ إِلَى أَعْلَى الْمَاءِ وَاحِدَةً فَوْقَ الْأُخْرَى مِثْلَ الْبَرَابِخِ وَنَزَحُوا مَا فِيهَا مِنَ الْمَاءِ ثُمَّ حَفَرُوا فِي قَرَارِهَا بِئْرًا ضَيِّقَةَ الْمَدْخَلِ عَمِيقَةً وَأَرْسَلُوا فِيهَا نَبِيَّهُمْ وَأَلْقَمُوا فَاهَا صَخْرَةً عَظِيمَةً ثُمَّ أَخْرَجُوا الْأَنَابِيبَ مِنَ الْمَاءِ وَقَالُوا نَرْجُو الْآنَ أَنْ تَرْضَى عَنَّا آلِهَتُنَا إِذَا رَأَتْ أَنَّا قَدْ قَتَلْنَا مَنْ كَانَ يَقَعُ فِيهَا وَيَصُدُّنَا عَنْ عِبَادَتِهَا وَدَفَنَاهُ تَحْتَ كَبِيرِهَا يَتَشَفَّى مِنْهُ فَيَعُودَ لَنَا نُورُهَا وَنَضْرَتُهَا كَمَا كَانَ فَبَقُوا عَامَّةَ يَوْمِهِمْ يَسْمَعُونَ أَنِينَ نَبِيِّهِمْ وَهُوَ يَقُولُ: سَيِّدِي قَدْ تَرَى ضِيقَ مَكَانِي وَشِدَّةَ كَرْبِي فَارْحَمْ ضَعْفَ رُكْنِي وَقِلَّةَ حِيلَتِي وَعَجِّلْ بِقَبْضِ رُوحِي وَلَا تُؤَخِّرْ إِجَابَةَ دَعْوَتِي حَتَّى مَاتَ فَقَالَ اللَّهُ جَلَّ جَلَالُهُ: يَا جِبْرِيلُ أَيَظُنُّ عِبَادِي هَؤُلَاءِ الَّذِينَ غَرَّهُمْ حِلْمِي وَأَمِنُوا مَكْرِي وَعَبَدُوا غَيْرِي وَقَتَلُوا رَسُولِي أَنْ يَقُومُوا لِغَضَبِي أَوْ يَخْرُجُوا مِنْ سُلْطَانِي كَيْفَ وَأَنَا الْمُنْتَقِمُ مِمَّنْ عَصَانِي وَلَمْ يَخْشَ عِقَابِي وَإِنِّي حَلَفْتُ بِعِزَّتِي لَأَجْعَلَنَّهُمْ عِبْرَةً وَنَكَالًا لِلْعَالَمِينَ فَلَمْ يَرُقْهُمْ وَهُمْ فِي عِيدِهِمْ ذَلِكَ إِلَّا بِرِيحٍ عَاصِفٍ شَدِيدَةِ الْحُمْرَةِ فَتَحَيَّرُوا فِيهَا وَذُعِرُوا مِنْهَا وَتَضَامَّ بَعْضُهُمْ إِلَى بَعْضٍ ثُمَّ صَارَتِ الْأَرْضُ مِنْ تَحْتِهِمْ حَجَرَ كِبْرِيتٍ يَتَوَقَّدُ وَأَظَلَّتْهُمْ سَحَابَةٌ سَوْدَاءُ فَأَلْقَتْ عَلَيْهِمْ كَالْقُبَّةِ جَمْرًا يَلْتَهِبُ فَذَابَتْ أَبْدَانُهُمْ كَمَا يَذُوبُ الرَّصَاصُ فِي النَّارِ فَنَعُوذُ بِاللَّهِ تَعَالَى ذِكْرُهُ مِنْ غَضَبِهِ وَنُزُولِ نَقِمَتِهِ وَلَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ الْعَلِيِّ الْعَظِيمِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا أَحْمَدِ بْنِ زِيادِ بْنِ جَعْفَر الْهَمَذانيّ قالَ: حَدَّثَنا عَلِىِّ بْنِ إِبراهِيمِ بْنِ هاشِم، عَن أَبيهِ قالَ: حَدَّثَنا أَبُو الصَّلْتِ عَبْد السَّلامُ بْنِ صالِح الهَرَوِيِّ قـالَ: حَدَّثَنـا عَلِىِّ بْنِ مُوسَـىالرِّضا عَلَيْهِ السَّلامُ، عَن أَبِيهِ مُوسَى بْنِ جَعْفَر عَلَيْهِ السَّلامُ",
+          "name_en": "Ahmadad Ahmad b. Ziyad b. Ja'far al-Hamadhani, Ali b. Ibrahim b. Hashim, Ab al-Salt Abd al-Salam b. Salih al-Harawi, Ali b. Musa al-Rida, Musa b. Ja'far",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ جَعْفَرِ بْنِ مُحَمَّد عَلَيْهِ السَّلامُ، عَن أَبيهِ مُحَمَّدِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ، عَن أَبيهِ عَلِىِّ بْنِ الحُسَيْن‏ عَلَيْهِ السَّلامُ، عَن أَبيهِ الحُسَيْنِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ قالَ: أَتَى عَلِيَّ بْنَ أَبِي طَالِبٍ‏ عَلَيْهِ السَّلامُ قَبْلَ مَقْتَلِهِ بِثَلاثَةِ أَيَّامٍ رَجُلٌ مِنْ أَشْرَافِ تَمِيمٍ يُقَالُ لَهُ عَمْرٌو",
+          "name_en": "Ja'far b. Muhammad, Muhammad b. Ali, Ali b. al-Husayn, al-Husayn b. Ali, Ali b. Abi Talib, Amr",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "كِتَابُ اللَّهِ",
+        "phrase_en": "The Book of Allah (Quran)",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "عِبَادَةُ اللَّهِ",
+        "phrase_en": "Worship of Allah",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "لَا حَوْلَ وَلَا قُوَّةَ إِلَّا بِاللَّهِ",
+        "phrase_en": "There is no power nor strength except through Allah",
+        "category": "well_known_saying"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

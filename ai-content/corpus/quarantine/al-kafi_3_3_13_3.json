@@ -1,0 +1,366 @@
+{
+  "verse_path": "/books/al-kafi:3:3:13:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "invalid ayah number: 94 exceeds max 83 for surah 36 in ref 36:94",
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 61 en words vs 1 ar words (ratio=61.00, expected 0.2-8.0)",
+    "chunks[2] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "afterlife",
+      "prophetic_tradition"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "death_dying",
+      "imams_biography",
+      "barzakh"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad ibn Isa, from Ibn Fazzal, from Yunus ibn Yaqoub, from Saeed ibn Yasar, that he was present with one of the two sons of Sabour, and for them was merit, and piety, and sincerity. So one of them became sick, and I do not reckon except that it was Zakariyya ibn Sabour. He said:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد بن عیسیٰ سے، ابن فضال سے، یونس بن یعقوب سے، سعید بن یسار سے، کہ ان میں سے ایک سبور کے دو بیٹوں کے پاس حاضر ہوئے، اور ان میں فضیلت، ورع اور اخبات تھا۔ پس ان میں سے ایک بیمار ہو گیا، اور میں گمان کرتا ہوں کہ وہ زکریا بن سبور تھا۔ انہوں نے کہا:",
+          "tr": "Muhemmed b. Yahya, Ahmed b. Muhemmed b. İsa'dan, İbn Fazzal'dan, Yunus b. Yakub'dan, Saîd b. Yesar'dan; o da şöyle dedi: Sabûr'ın iki oğlundan birinin yanında bulunmuştum. Onlarda fazilet, takva ve ihlas vardı. Onlardan biri hastalandı, ben onu Zekeriyya b. Sabûr sanıyorum. O dedi ki:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنِ الْأَخِ عَنِ الْأَخِ، عَنِ ابْنِ فَضَّالٍ، عَنِ ابْنِ يُونُسَ، عَنِ ابْنِ يَسَارٍ، قَالَ: حَضَرْتُ أَحَدَ ابْنَيْ سَابُورَ، وَ كَانَ لَهُمَا فَضْلٌ وَ وَرَعٌ وَ إِخْبَاتٌ، فَمَرِضَ أَحَدُهُمَا، وَ مَا أَحْسَبُهُ إِلَّا زَكَرِيَّا بْنَ سَابُورَ، قَالَ:",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad ibn Isa, dari Ibn Fazzal, dari Yunus ibn Yaqub, dari Saeed ibn Yasar, bahwa ia hadir bersama salah satu dari dua putra Sabur, dan bagi mereka terdapat keutamaan, kesalehan, dan ketundukan. Maka salah satu dari mereka sakit, dan aku tidak menduga kecuali bahwa itu adalah Zakariyya ibn Sabur. Ia berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ ইবনে ঈসা হতে, ইবনে ফাজ্জাল হতে, ইউনুস ইবনে ইয়াকুব হতে, সাঈদ ইবনে যাসার হতে বর্ণনা করেন যে, তিনি সাবুরের দুই সন্তানের একজনের নিকট উপস্থিত ছিলেন, এবং তাদের মধ্যে ছিল সৎকর্ম, তাকওয়া ও ইখবাত। অতএব, তাদের একজন অসুস্থ হয়ে পড়লেন, এবং আমি মনে করি যে তিনি ছিলেন জাকারিয়া ইবনে সাবুর। তিনি বললেন:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn ibn Isa, de Ibn Fazzal, de Yunus ibn Yaqoub, de Saeed ibn Yasar, que estuvo presente con uno de los dos hijos de Sabour, y para ellos había mérito, y piedad, y sinceridad. Entonces uno de ellos enfermó, y no creo que fuera sino Zakariyya ibn Sabour. Dijo:",
+          "fr": "Muhammad ibn Yahya, de Ahmad ibn Muhammad ibn Isa, d’Ibn Fazzal, de Yunus ibn Yaqoub, de Saeed ibn Yasar, qu’il était présent auprès de l’un des deux fils de Sabour, et qu’ils possédaient le mérite, la piété et la sincérité. L’un d’eux tomba malade, et je ne pense pas que ce fut autre que Zakariyya ibn Sabour. Il dit :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad ibn Isa, von Ibn Fazzal, von Yunus ibn Yaqub, von Saeed ibn Yasar, dass er bei einem der beiden Söhne von Sabour anwesend war, und für sie war Verdienst, und Frömmigkeit, und Aufrichtigkeit. So wurde einer von ihnen krank, und ich rechne nicht anders, als dass es Zakariyya ibn Sabour war. Er sagte:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада ибн Исы, от Ибн Фаззала, от Юнуса ибн Якуба, от Саида ибн Ясара, что он присутствовал у одного из двух сыновей Сабура, и за ними были добродетель, и благочестие, и искренность. Так один из них заболел, и я не сомневаюсь, что это был Закария ибн Сабир. Он сказал:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德·本·伊萨，传自伊本·法兹勒，传自优努斯·本·雅各布，传自赛义德·本·亚萨尔，他说：我曾与萨布尔的两个儿子之一在一起，他们具备美德、虔诚和谦逊。其中一人患病，我认为他就是扎卡里亚·本·萨布尔。他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَحَضَرْتُهُ عِنْدَ مَوْتِهِ فَبَسَطَ يَدَهُ ثُمَّ قَالَ ابْيَضَّتْ يَدِي يَا عَلِيُّ",
+        "translations": {
+          "en": "So I was present with him during his death, and he extended his hand, then said, 'My hands have whitened, O Ali'.",
+          "ur": "پھر میں اس کے ساتھ اس کی موت کے وقت موجود تھا، اور اس نے اپنا ہاتھ بڑھایا پھر کہا، اے علی! میرے ہاتھ سفید ہو گئے ہیں۔",
+          "tr": "Böylece onun ölümünde onunla birlikte bulunmuştum, elini uzattı ve 'Ey Ali, ellerim ağardı' dedi.",
+          "fa": "پس من در زمان وفاتش حضور داشتم و او دستش را دراز کرد و گفت: «دستانم سفید شده‌اند، ای علی.",
+          "id": "Maka aku hadir bersamanya saat kematiannya, dan ia mengulurkan tangannya, lalu berkata, 'Tanganku telah memutih, wahai Ali'.",
+          "bn": "অতএব আমি তার মৃত্যুর সময় তার সাথে উপস্থিত ছিলাম, এবং তিনি তার হাত বাড়িয়ে দিলেন, তারপর বললেন, 'হে আলী, আমার হাত সাদা হয়ে গেছে'।",
+          "es": "Así que estuve presente con él durante su muerte, y él extendió su mano, luego dijo: 'Se han blanqueado mis manos, ¡oh, Alí!'.",
+          "fr": "J'ai été présent auprès de lui lors de sa mort, et il étendit la main, puis dit : « Mes mains ont blanchi, ô Ali ». ",
+          "de": "So war ich bei seinem Tod anwesend, und er streckte seine Hand aus und sagte: 'Meine Hände sind weiß geworden, o Ali.'",
+          "ru": "И вот я присутствовал я при его смерти, и он простер свою руку, затем сказал: «Побелели мои руки, о Али».",
+          "zh": "于是我在他临终时在场，他伸出手说：‘我的手变白了，阿里啊。’"
+        },
+        "word_start": 1,
+        "word_end": 12
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ فَدَخَلْتُ عَلَى أَبِي عَبْدِ اللَّهِ ( عليه السلام ) وَ عِنْدَهُ مُحَمَّدُ بْنُ مُسْلِمٍ قَالَ فَلَمَّا قُمْتُ مِنْ عِنْدِهِ ظَنَنْتُ أَنَّ مُحَمَّداً يُخْبِرُهُ بِخَبَرِ الرَّجُلِ فَأَتْبَعَنِي بِرَسُولٍ فَرَجَعْتُ إِلَيْهِ فَقَالَ أَخْبِرْنِي عَنْ هَذَا الرَّجُلِ الَّذِي حَضَرْتَهُ عِنْدَ الْمَوْتِ أَيَّ شَيْ‏ءٍ سَمِعْتَهُ يَقُولُ",
+        "translations": {
+          "en": "He (the narrator) said, 'So I went over to Abu Abdullah (peace be upon him), and in his presence was Muhammad ibn Muslim. So when I arose from his presence, I think that Muhammad informed him with the news of the man. So a messenger pursued me and I returned back to him. So he said: 'Inform me about this man whom you were present with during his death. Which thing did you hear him saying?'",
+          "ur": "اس نے (راوی) کہا، پس میں ابو عبداللہ (علیہ السلام) کے پاس گیا، اور ان کے حضور محمد بن مسلم موجود تھے۔ پس جب میں ان کے پاس سے اٹھا، تو میرے خیال میں محمد نے ان کو اس شخص کی خبر دی۔ پس ایک فرستادہ میرا پیچھا کیا اور میں واپس ان کے پاس لوٹ آیا۔ پس انہوں نے کہا: مجھے اس شخص کے بارے میں بتاؤ جس کے ساتھ تم اس کی موت کے وقت موجود تھے۔ تم نے اس سے کیا کہتے ہوئے سنا؟",
+          "tr": "O (ravi) dedi: 'Böylece Ebu Abdullah'a (aleyhisselam) gittim, huzurunda Muhammed b. Müslim vardı. Huzurundan ayrıldığım zaman, Muhammed'in o adamın haberini ona bildirdiğini sanıyorum. Bir haberci beni kovaladı ve ben de geri dönüp yanına gittim. O da dedi: 'Bana, ölümünde yanında bulunduğun bu adamdan bahset. Onun ne dediğini duydun?'",
+          "fa": "گفت: پس نزد عبدالله (علیه‌السلام) رفتم و در حضور او محمد بن مسلم بود. پس هنگامی که از حضورش برخاستم، گمان می‌کنم که محمد خبر مرد را به او اطلاع داد. پس فرستاده‌ای تعقیبم کرد و من به نزدش بازگشتم. پس فرمود: «مرا درباره این مردی که در زمان مرگش نزدش حضور داشتی، اطلاع ده. چه چیزی از او شنیدی که می‌گفت؟»",
+          "id": "Ia (perawi) berkata, 'Maka aku pergi kepada Abu Abdullah (alamah), dan di sisinya ada Muhammad bin Muslim. Maka ketika aku berdiri dari kehadirannya, kurasa Muhammad memberitakan kepadanya tentang kabar orang itu. Maka seorang utusan mengejarku dan aku kembali kepadanya. Maka ia berkata, 'Beritahukanlah kepadaku tentang orang itu yang hadir bersamaku saat kematiannya. Apa yang kau dengar ia ucapkan?'",
+          "bn": "তিনি (বর্ণনাকারী) বললেন, 'অতএব আমি আবু আবদুল্লাহর (রহ.) নিকট গেলাম, এবং তাঁর সম্মুখে ছিলেন মুহাম্মাদ ইবনে মুসলিম। অতএব যখন আমি তাঁর সম্মুখ থেকে উঠে গেলাম, আমার মনে হয় মুহাম্মাদ তাঁকে সেই পুরুষের খবর জানালেন। অতএব একজন দূত আমাকে অনুসরণ করল এবং আমি তাঁর নিকট ফিরে গেলাম। অতএব তিনি বললেন: 'আমাকে সেই পুরুষ সম্পর্কে জানান যার মৃত্যুর সময় তাঁর সম্মুখে আপনি উপস্থিত ছিলেন। আপনি তাঁর মুখ থেকে কী কথা শুনলেন?'",
+          "es": "Dijo (el narrador): «Así que me acerqué a Abu Abdillah (que la paz sea con él), y en su presencia estaba Muhammad ibn Muslim. Así que, cuando me levanté de su presencia, creo que Muhammad le informó de la noticia del hombre. Entonces un mensajero me persiguió y volví hacia él. Entonces dijo: «Infórmame acerca de este hombre con quien estuviste presente durante su muerte. ¿Qué cosa oíste que él decía?»",
+          "fr": "Il (le narrateur) a dit : « J’allai donc voir Abu Abdullah (que la paix soit sur lui), et Muhammad ibn Muslim se trouvait en sa présence. Lorsque je me levai pour le quitter, je pense que Muhammad l’informa de la nouvelle concernant cet homme. Un messager me poursuivit et je retournai vers lui. Il me dit : « Informe-moi de cet homme avec qui tu étais présent lors de sa mort. Quelle parole l’as-tu entendu dire ? »",
+          "de": "Er (der Erzähler) sagte: sagte: Da ging ich zu Abu Abdullah (friede sei mit ihm), und bei ihm war Muhammad ibn Muslim. Als ich dann von ihm aufstand, denke ich, dass Muhammad ihm die Nachricht von dem Mann übermittelte. Da schickte ein Bote mich ein und ich kehrte zu ihm zurück. Da sagte er: 'Berichte mir von diesem Mann, bei dessen Tod du anwesend warst. Was hast du ihn sagen hören?'",
+          "ru": "Он (рассказчик) сказал: «Поэтому я отправился к Абу Абдиллаху (да будет мир с ним), и в его присутствии находился Мухаммад ибн Муслим. И когда я покинул его, мне кажется, что Мухаммад сообщил ему весть об этом человеке. Тогда посланный догнал меня, и я вернулся к нему. И он сказал: „Сообщи мне об этом человеке, при котором ты присутствовал при его смерти. Что именно ты слышал, как он говорил?“",
+          "zh": "他说：于是我来到阿布杜拉赫曼（愿主喜悦之）面前，当时穆罕默德·本·穆斯林也在场。当我从他那里起身离开时，我想穆罕默德已将那人的消息告知了他。于是使者追上来，我便返回到他那里。他说：‘告诉我关于你在他临终时在场的那个人的情况，你听到他说了什么？’"
+        },
+        "word_start": 12,
+        "word_end": 55
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ قُلْتُ بَسَطَ يَدَهُ ثُمَّ قَالَ ابْيَضَّتْ يَدِي يَا عَلِيُّ",
+        "translations": {
+          "en": "I said, 'He extended his hand, then said, 'My hands have whitened, O Ali'.",
+          "ur": "میں نے کہا، 'انہوں نے اپنا ہاتھ بڑھایا، پھر فرمایا، میرے ہاتھ سفید ہو گئے ہیں، اے علی۔'",
+          "tr": "Dedim ki: 'Elini uzattı, sonra dedi ki: 'Ellerim ağardı, ey Ali'.",
+          "fa": "گفتم: دستش را دراز کرد، سپس گفت: دستانم سفید شده است، ای علی.",
+          "id": "Aku berkata, 'Ia mengulurkan tangannya, lalu berkata, 'Tanganku telah memutih, wahai Ali'.",
+          "bn": "আমি বললাম, 'তিনি তাঁর হাত বাড়িয়ে দিলেন, তারপর বললেন, 'হে আলী, আমার হাত সাদা হয়ে গেছে হাত।'",
+          "es": "Dije: \"Él extendió su mano, luego dijo: \"Se han blanqueado mis manos, ¡oh, Alí!\".",
+          "fr": "J'ai dit : « Il a tendu la main, puis a dit : « Mes mains ont blanchi, ô Ali ».",
+          "de": "Ich sagte: „Er streckte seine Hand aus und sagte dann: „Meine Hände sind weiß geworden, o Ali.“",
+          "ru": "Я сказал: «Он простер свою руку, затем сказал: „Руки мои побелели, о Али“.",
+          "zh": "我说：\"他伸出手，然后说：'我的双手已变白，阿里啊'。\""
+        },
+        "word_start": 55,
+        "word_end": 65
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) وَ اللَّهِ رَآهُ وَ اللَّهِ رَآهُ وَ اللَّهِ رَآهُ",
+        "translations": {
+          "en": "So Abu Abdullah (peace be upon him) said: 'By Allah, he saw him! By Allah, he saw him! By Allah, he saw him!'",
+          "ur": "پس ابو عبداللہ (علیہ السلام) نے فرمایا: اللہ کی قسم، انہوں نے اسے دیکھا! اللہ کی قسم، انہوں نے اسے دیکھا! اللہ کی قسم، انہوں نے اسے دیکھا!",
+          "tr": "Böylece Ebu Abdullah (aleyhisselam) şöyle dedi: 'Allaha yemin ederim, onu gördü! Allaha yemin ederim, onu gördü! Allaha yemin ederim, onu gördü!'",
+          "fa": "پس ابو عبدالله (علیه السلام) فرمود: «به خدا سوگند، او را دید! به خدا سوگند، او را دید! به خدا سوگند، او را دید!\"",
+          "id": "Maka Abu Abdullah (alamah) berkata, 'Demi Allah, ia melihatnya! Demi Allah, ia melihatnya! Demi Allah, ia melihatnya!'",
+          "bn": "অতএব আবদুল্লাহ (আলাইহিস সালাম) বললেন: 'আল্লাহর শপথ, তিনি তাকে দেখেছিলেন! আল্লাহর শপথ, তিনি তাকে দেখেছিলেন! আল্লাহর শপথ, তিনি তাকে দেখেছিলেন!'",
+          "es": "Entonces Abu Abdullah (que la paz sea) dijo: «¡Por Alá, lo vio! ¡Por Alá, lo vio! ¡Por Alá, lo vio!»",
+          "fr": "Al-Bukhari (qu'Allah lui accorde Sa satisfaction) a dit : « Par Allah, il l'a vu ! Par Allah, il l'a vu ! Par Allah, il l'a vu ! »",
+          "de": "Da sagte Abu Abdullah (Friede sei mit ihm): »Bei Allah, er sah ihn! Bei Allah, er sah ihn! Bei Allah, er sah ihn!\"",
+          "ru": "Поэтому Абу Абдуллах (да (да будет мир с ним) сказал: «Клянусь Аллахом, он увидел его! Клянусь Аллахом, он увидел его! Клянусь Аллахом, он увидел его!»",
+          "zh": "所以艾布·阿卜杜拉（愿主喜悦之）说：'以真主发誓，他看见了！以真主发誓，他看见了！以真主发誓，他看见了！'"
+        },
+        "word_start": 65,
+        "word_end": 82
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi establishes the Shia doctrine of the 'seeing' (ru'ya) of the Imams by the faithful at the time of death, a key evidence for their spiritual presence and intercessory role. The triple emphasis by Imam al-Sadiq (peace be upon him) underscores the certainty of this vision, distinguishing it from mere imagination and affirming the Imam's unique metaphysical status. It serves as a foundational text for understanding the believer's final encounter with the Imam as a source of comfort and validation.",
+        "seo_question": "What did the dying man mean when he said 'My hands have whitened, O Ali'?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "My hands have whitened (idiom for seeing or witnessing)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "Zakariyya ibn Sabour (the deceased companion)",
+          "أَبُو عَبْدِ اللَّهِ": "Abu Abdullah (Imam al-Sadiq, peace be upon him)",
+          "رَآهُ": "He saw him (referring to the vision of Imam Ali)"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث الکافی سے شیعہ عقیدے کی بنیاد رکھتی ہے کہ مرنے کے وقت مومن اماموں کو دیکھتے ہیں، جو ان کی روحانی موجودگی اور شفاعتی کردار کے لیے اہم دلیل ہے۔ امام صادق (علیہ السلام) کی تین بار زور دینے سے اس بصیرت کی یقینیت واضح ہوتی ہے، جو اسے محض خیال سے ممتاز کرتی ہے اور امام کی منفرد مابعد الطبیعی حیثیت کی تصدیق کرتی ہے۔ یہ متن مومن کے امام سے حتمی ملاقات کو تسلی اور تصدیق کا ذریعہ سمجھنے کے لیے بنیادی متن کا کام کرتا ہے۔",
+        "seo_question": "مرنے والے شخص نے جب کہا 'میری ہاتھ سفید ہو گئے، اے علی' تو اس کا کیا مطلب تھا؟",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "میری ہاتھ سفید ہو گئے (دیکھنے یا گواہی دینے کی اصطلاح)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "زکریا بن سابور (وفات پانے والا ساتھی)",
+          "أَبُو عَبْدِ اللَّهِ": "ابو عبداللہ (امام صادق علیہ السلام)",
+          "رَآهُ": "اس نے اسے دیکھا (امام علی کی بصیرت کی طرف اشارہ)"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, el-Kâfî'den alınmıştır ve müminlerin ölüm anında İmamları ",
+        "seo_question": "Ölen adam 'Ellerim ağardı, ey Ali' dediğinde neyi kastetmişti?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "Ellerim ağardı (görmek veya şahitlik etmek mecazı)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "Zekeriyya bin Sabur (vefat eden sahabe)",
+          "أَبُو عَبْدِ اللَّهِ": "Ebu Abdullah (İmam es-Sâdık, aleyhisselâm)",
+          "رَآهُ": "Onu gördü (İmam Ali'nin rüyasını ifade eder)"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، مذهب شیعه دربارهٔ «دیدن (رؤیا) امامان توسط مؤمنان در زمان مرگ را تثبیت می‌کند که شواهدی کلیدی برای حضور معنوی و نقش شفاعتی آنان است. تأکید سه‌گانه امام صادق (علیه‌السلام) بر قطعیت این دیدن، آن را از خیال ساده متمایز کرده و جایگاه متافیزیکی منحصر به فرد امام را تأیید می‌کند. این حدیث متنی بنیادین برای درک مواجهه نهایی مؤمن با امام به عنوان منبع تسلی و تأیید است.",
+        "seo_question": "مرد در حال مرگ وقتی گفت «دستانم سفید شد، ای علی» چه منظور داشت؟",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "دستانم سفید شد (کنایه از دیدن یا شهادت دادن)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "زکریا بن سابور (مصحف مرحوم)",
+          "أَبُو عَبْدِ اللَّهِ": "ابو عبدالله (امام صادق، علیه‌السلام)",
+          "رَآهُ": "او را دید (اشاره به رؤیت امام علی)"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari al-Kafi ini menetapkan doktrin Syiah tentang 'melihat' (ru'ya) para Imam oleh orang beriman pada saat kematian, sebagai bukti utama akan kehadiran spiritual dan peran syafaat mereka. Penekanan tiga kali oleh Imam al-Sadiq (damai sejahtera baginya) menegaskan kepastian penglihatan ini, membedakannya dari sekadar imajinasi, dan menegaskan status metafisik unik sang Imam. Teks ini menjadi fondasi untuk memahami pertemuan akhir orang beriman dengan sang Imam sebagai sumber ketenangan dan validasi.",
+        "seo_question": "Apa arti ucapan pria yang sekarat 'Tanganku telah memutih, wahai Ali'?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "Tanganku telah memutih (idiom untuk melihat atau menyaksikan)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "Zakariyya ibn Sabour (sahabat yang wafat)",
+          "أَبُو عَبْدِ اللَّهِ": "Abu Abdullah (Imam al-Sadiq, damai sejahtera baginya)",
+          "رَآهُ": "Ia melihatnya (merujuk pada penglihatan terhadap Imam Ali)"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে শিয়া মতবাদ প্রতিষ্ঠা করে যে, মৃত্যুকালে বিশ্বাসীদের দ্বারা ইমামদের 'দর্শন' (রুয়া) করা হয়, যা তাদের আধ্যাত্মিক উপস্থিতি ও মধ্যস্থতাকারী ভূমিকার একটি প্রধান প্রমাণ। ইমাম আস-সাডিকের (আ.) দ্বারা ত্রিগুণিত জোর দেওয়া এই দর্শনের নিশ্চয়তা তুলে ধরে, যা কেবল কল্পনা থেকে আলাদা এবং ইমামের অনন্য আধিভৌতিক মর্যাদা নিশ্চিত করে। এটি বিশ্বাসীর চূড়ান্ত মুহূর্তে ইমামের সাথে সাক্ষাৎকে একটি স্বস্তি ও যাচাইকরণের উৎস হিসেবে বোঝার জন্য একটি ভিত্তিভূমি পাঠ হিসেবে কাজ করে।",
+        "seo_question": "মৃত্যুকালীন ব্যক্তি যখন বলেছিলেন 'আমার হাত সাদা হয়ে গেছে, ও আলি', তখন তার কী বোঝানো হয়েছিল?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "আমার হাত সাদা হয়ে গেছে (দর্শন বা সাক্ষ্য রাখার বাক্যাংশ)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "জাকারিয়া ইবনে সাবুর (মৃত সহচর)",
+          "أَبُو عَبْدِ اللَّهِ": "আবু আবদুল্লাহ (ইমাম আস-সাডিফ, আ.)",
+          "رَآهُ": "সে তাকে দেখল (ইমাম আলির দর্শনের দিকে ইঙ্গিত করে)"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi establece la doctrina shií de la 'visión' (ru'ya) de los Imames por los fieles en el momento de la muerte, una prueba clave de su presencia espiritual y su papel intercesor. El triple énfasis del Imam al-Sadiq (que la paz sea con él) subraya la certeza de esta certeza, distinguiéndola de la mera imaginación y afirmando el estatus metafísico único del Imam. Sirve como texto fundacional para comprender el encuentro final del creyente con el Imam como fuente de consuelo y validación.",
+        "seo_question": "¿Qué quiso decir el moribundo cuando dijo 'Se han blanqueado mis manos, ¡oh Ali'?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "Se han blanqueado mis manos (idioma para ver o presenciar)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "Zakariyya ibn Sabour (el compañero difunto)",
+          "أَبُو عَبْدِ اللَّهِ": "Abu Abdullah (Imam al-Sadiq, que la paz sea con él)",
+          "رَآهُ": "Lo vio (refiriéndose a la visión del Imam Ali)"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'al-Kafi établit la doctrine chiite de la « vision » (ru'ya) des Imams par les fidèles au moment de la mort, un argument clé pour leur présence spirituelle et leur rôle d'intercesseur. Le triple accent mis par l'Imam al-Sadiq (que la paix soit sur lui) souligne la certitude de cette vision, la distinguant de la simple imagination et affirmant le statut métaphysique unique de l'Imam. Il sert de texte fondateur pour comprendre la rencontre finale du croyant avec l'Imam comme source de réconfort et de validation.",
+        "seo_question": "Que voulait dire l'homme mourant lorsqu'il a dit : « Mes mains ont blanchi, ô Ali » ?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "Mes mains ont blanchi (idiome pour voir ou assister à un événement)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "Zakariyya ibn Sabour (le compagné défunt)",
+          "أَبُو عَبْدِ اللَّهِ": "Abu Abdullah (l'Imam al-Sadiq, que la paix soit sur lui)",
+          "رَآهُ": "Il le vit (se référant à la vision de l'Imam Ali)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi begründet die schiitische Lehre von der 'Sicht' (ru'ya) der Imame durch die Gläubigen im Sterben, ein zentraler Beweis für ihre geistige Gegenwart und ihre Rolle als Fürsprecher. Die dreifache Betonung durch Imam al-Sadiq (Friede sei mit ihm) unterstreicht die Gewissheit dieser Vision, unterscheidet sie von bloßer Einbildung und bestätigt den einzigartigen metaphysischen Status des Imams. Sie dient als grundlegender Text zum Verständnis der letzten Begegnung des Gläubigen mit dem Imam als Quelle des Trostes und der Bestätigung.",
+        "seo_question": "Was meinte der Sterbende, als er sagte: 'Meine Hände sind weiß geworden, o Ali'?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "Meine Hände sind weiß geworden (Idiom für Sehen oder Zeuge sein)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "Zakariyya ibn Sabour (der verstorbene Gefährte)",
+          "أَبُو عَبْدِ اللَّهِ": "Abu Abdullah (Imam al-Sadiq, Friede sei mit ihm)",
+          "رَآهُ": "Er sah ihn (bezieht sich auf die Vision von Imam Ali)"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи устанавливает шиитскую доктрину о видении (руйя) имамами верующими в момент смерти, что является ключевым доказательством их духовного присутствия и роли заступничества. Троекратное подчеркивание имамом ас-Садыком (да будет мир с ним) этой истины подчеркивает достоверность этого видения, отличая его от простого воображения и утверждая уникальный метафизический статус имама. Он служит основополагающим текстом для понимания последней встречи верующего с имамом как источника утешения и подтверждения.",
+        "seo_question": "Что имел в виду умирающий, сказав: «Побелели мои руки, о Али»?",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "Побелели мои руки (идиома для видения или свидетельства)",
+          "زَكَرِيَّا بْنَ سَابُورَ": "Закария ибн Сабор (умерший сподвижник)",
+          "أَبُو عَبْدِ اللَّهِ": "Абу Абдуллах (имам ас-Садык, да будет мир с ним)",
+          "رَآهُ": "Он увидел его (относится к видению имама Али)"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《卡菲》的圣训确立了什叶派关于信徒在临终时‘看见’（ru'ya）伊玛目的教义，这是证明其精神存在和代祷角色的关键证据。伊玛目萨迪格（愿主福安之）的三重强调突显了这种异象的确定性，将其与单纯的想象区分开来，并肯定了伊玛目独特的形而上学地位。它是理解信徒与伊玛目最终相遇作为安慰和验证来源的基础文本。",
+        "seo_question": "那个将死之人说‘我的手变白了，阿里啊’是什么意思？",
+        "key_terms": {
+          "ابْيَضَّتْ يَدِي": "我的手变白了（意为看见或见证）",
+          "زَكَرِيَّا بْنَ سَابُورَ": "扎卡里亚·本·萨布尔（逝去的同伴）",
+          "أَبُو عَبْدِ اللَّهِ": "阿布杜拉赫曼（伊玛目萨迪格，愿主福安之）",
+          "رَآهُ": "他看见了他（指看见伊玛目阿里的异象）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "36:94",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:69",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "56:25",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad فَحَضَرْتُهُ عِنْدَ مَوْتِهِ فَبَسَطَ يَدَهُ ثُمَّ قَالَ ابْيَضَّتْ يَدِي يَا عَلِيُّ قَالَ فَدَخَلْتُ عَلَى أَبِي عَبْدِ اللَّهِ ( عليه السلام ) وَ عِنْدَهُ مُحَمَّدُ بْنُ مُسْلِمٍ قَالَ فَلَمَّا قُمْتُ مِنْ عِنْدِهِ ظَنَنْتُ أَنَّ مُحَمَّداً يُخْبِرُهُ بِخَبَرِ الرَّجُلِ فَأَتْبَعَنِي بِرَسُولٍ فَرَجَعْتُ إِلَيْهِ فَقَالَ أَخْبِرْنِي عَنْ هَذَا الرَّجُلِ الَّذِي حَضَرْتَهُ عِنْدَ الْمَوْتِ أَيَّ شَيْ‏ءٍ سَمِعْتَهُ يَقُولُ قَالَ قُلْتُ بَسَطَ يَدَهُ ثُمَّ قَالَ ابْيَضَّتْ يَدِي يَا عَلِيُّ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) وَ اللَّهِ رَآهُ وَ اللَّهِ رَآهُ وَ اللَّهِ رَآهُ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "فَحَضَرْتُهُ عِنْدَ مَوْتِهِ فَبَسَطَ يَدَهُ ثُمَّ قَالَ ابْيَضَّتْ يَدِي يَا عَلِيُّ قَالَ فَدَخَلْتُ عَلَى أَبِي عَبْدِ اللَّهِ ( عليه السلام ) وَ عِنْدَهُ مُحَمَّدُ بْنُ مُسْلِمٍ قَالَ فَلَمَّا قُمْتُ مِنْ عِنْدِهِ ظَنَنْتُ أَنَّ مُحَمَّداً يُخْبِرُهُ بِخَبَرِ الرَّجُلِ فَأَتْبَعَنِي بِرَسُولٍ فَرَجَعْتُ إِلَيْهِ فَقَالَ أَخْبِرْنِي عَنْ هَذَا الرَّجُلِ الَّذِي حَضَرْتَهُ عِنْدَ الْمَوْتِ أَيَّ شَيْ‏ءٍ سَمِعْتَهُ يَقُولُ قَالَ قُلْتُ بَسَطَ يَدَهُ ثُمَّ قَالَ ابْيَضَّتْ يَدِي يَا عَلِيُّ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) وَ اللَّهِ رَآهُ وَ اللَّهِ رَآهُ وَ اللَّهِ رَآهُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى",
+          "name_en": "Ahmad ibn Muhammad ibn Isa",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 13
+        },
+        {
+          "name_ar": "ابْنِ فَضَّالٍ",
+          "name_en": "Ibn Faddal",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 22
+        },
+        {
+          "name_ar": "يُونُسَ بْنِ يَعْقُوبَ",
+          "name_en": "Yunus ibn Ya'qub",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 85
+        },
+        {
+          "name_ar": "سَعِيدِ بْنِ يَسَارٍ أَنَّهُ حَضَرَ أَحَدَ ابْنَيْ سَابُورَ",
+          "name_en": "Sa'id b. Yasar",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "كَانَ لَهُمَا فَضْلٌ",
+          "name_en": "Fadl",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "وَرَعٌ",
+          "name_en": "War'",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "إِخْبَاتٌ فَمَرِضَ أَحَدُهُمَا",
+          "name_en": "Ikhat",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مَا أَحْسَبُهُ إِلَّا زَكَرِيَّا بْنَ سَابُورَ",
+          "name_en": "Zakariyya b. Sabur",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

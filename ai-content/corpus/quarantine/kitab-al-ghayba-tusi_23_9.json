@@ -1,0 +1,364 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:23:9",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-23",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 24 words (>14, بن-density 0.04 — likely a sentence fragment, not a name): 'قلنا: ليس الأمر على ما قلتم، لأن الإمامية تقول إن جماعة من أ'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "history",
+      "family"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "imamate",
+      "companions",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "قُلْنَا: لَيْسَ الْأَمْرُ عَلَى مَا قُلْتُمْ،",
+        "translations": {
+          "en": "We said: The matter is not as you said,",
+          "ur": "ہم نے کہا: معاملہ آپ کے کہنے کے برعکس ہے،",
+          "tr": "Dedik ki: İş, dediğiniz gibi değildir.",
+          "fa": "قالوا: ليس الأمر على ما قلتم،",
+          "id": "Kami berkata: Perkara ini tidak sebagaimana yang kalian katakan,",
+          "bn": "আমরা বললাম: বিষয়টি আপনারা যেমন বললেন, তেমন নয়,",
+          "es": "Dijimos: El asunto no es como ustedes dijeron,",
+          "fr": "قلنا: ليس الأمر على ما قلتم،",
+          "de": "Wir sagten: Die Angelegenheit ist nicht so, wie ihr gesagt habt,",
+          "ru": "Мы сказали: Дело обстоит не так, как вы сказали,",
+          "zh": "我们说：事情并非如你们所说，"
+        },
+        "word_start": 0,
+        "word_end": 6
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لِأَنَّ الْإِمَامِيَّةَ تَقُولُ إِنَّ جَمَاعَةً مِنْ أَصْحَابِ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ قَدْ شَاهَدُوا وُجُودَهُ فِي حَيَاتِهِ وَكَانُوا أَصْحَابَهُ وَخَاصَّتَهُ بَعْدَ وَفَاتِهِ وَالْوَسَائِطُ بَيْنَهُ وَبَيْنَ شِيعَتِهِ مَعْرُوفُونَ،",
+        "translations": {
+          "en": "because the Imamites say that a group of the companions of Abu Muhammad Hasan ibn Ali (peace be upon him) saw his existence during his lifetime, and they were his companions and close devotees after his death, and the intermediaries between him and his Shia are well known,",
+          "ur": "کیونکہ امامیہ کا کہنا ہے کہ ابو محمد حسن بن علی (علیہ السلام) کے صحابہ کا ایک گروہ ان کی حیات میں ان کی موجودگی کو دیکھ چکے ہیں، اور ان کی وفات کے بعد وہ ان کے ساتھی اور قریبی ماننے والے تھے، اور وہ واسطے جو ان اور ان کے شیعہ کے درمیان ہیں، مشہور ہیں۔",
+          "tr": "çünkü İmamiyye, Ebu Muhammed Hasan ibn Ali'nin (aleyhisselam) hayatı sırasında bir grup sahîfinin onu gördüğünü, ölümünden sonra da onun sahîflerinden ve yakın müridlerinden olduğunu, ve onun Şiaları ile kendisi arasındaki vasıtaların iyi bilindiğini söyler.",
+          "fa": "زیرا امامیه می‌گویند گروهی از یاران ابومحمد حسن بن علی (علیه السلام) وجود او را در زمان حیاتش دیدند و پس از مرگش از یاران و نزدیکان او بودند و واسطه‌های میان او و شیعیانش شناخته‌شده‌اند،",
+          "id": "karena orang-orang Imamiah mengatakan bahwa sekelompok sahabat Abu Muhammad Hasan ibn Ali (alamaihissalam) melihat keberadaannya selama hayatnya, dan mereka adalah sahabat-sahabatnya serta pengikut-pengikut dekatnya setelah kematiannya, dan para perantara antara dirinya dan para syi'ahnya telah dikenal dengan baik,",
+          "bn": "কারণ ইমামিয়াগণ বলেন যে, আবু মুহাম্মদ হাসান ইবনে আলী (রহ.)-এর জীবদ্দশায় তাঁর একদল সাহাবী তাঁর অস্তিত্ব দেখেছিলেন, এবং মৃত্যুর পরেও তারা তাঁর সাহাবী ও ঘনিষ্ঠ অনুসারী ছিলেন, এবং তিনি ও তাঁর শিয়া-এর মধ্যকার মধ্যস্থতাকারীরা সুপরিচিত।",
+          "es": "porque los imamíes dicen que un grupo de los compañeros de Abu Muhammad Hasan ibn Ali (que la paz sea con él) vio su existencia durante su vida, y fueron sus compañeros y devotos cercanos después de su muerte, y los intermediarios entre él y sus chiíes son bien conocidos,",
+          "fr": "parce que les Imâmites disent qu'un groupe des compagnons d'Abou Mohammad Hasan ibn Ali (que la paix soit sur lui) ont vu son existence de lui-même de son vivant, et ils étaient ses compagnons et ses dévots proches après sa mort, et les intermédiaires entre lui et ses Chiites sont bien connus,",
+          "de": "denn die Imamiyya sagen, dass eine Gruppe der Gefährten von Abu Muhammad Hasan ibn Ali (friede sei mit ihm) seine Gegenwart während seines Lebens sahen, und sie waren seine Gefährten und engen Anhänger nach seinem Tod, und die Mittler zwischen ihm und seinen Schia sind wohlbekannt,",
+          "ru": "потому что имамиты говорят, что группа сподвижников Абу Мухаммада Хасана ибн Али (да будет мир с ним) видели его при жизни, и они были его сподвижниками и близкими последователями после его смерти, а посредники между ним и его шиитами хорошо известны,",
+          "zh": "因为伊玛目派人说，阿布·穆罕默德·哈桑·伊本·阿里（愿主福安之）的一群同伴在他生前见过他，在他死后他们成为他的同伴和亲密的追随者，并且他们作为他与他的什叶派之间的中介者，是众所周知的，"
+        },
+        "word_start": 6,
+        "word_end": 35
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يُنْقِلُونَ إِلَى شِيعَتِهِ مَعَالِمَ الدِّينِ وَيُخْرِجُونَ إِلَيْهِمْ أَجْوِبَتَهُ فِي مَسَائِلِهِمْ فِيهِ وَيَقْبِضُونَ مِنْهُمْ حُقُوقَهُ وَهُمْ جَمَاعَةٌ كَانَ الْحَسَنُ بْنُ عَلِيٍّ عَلَيْهِمَا السَّلَامُ عَدَّ لَهُمْ فِي حَيَاتِهِ وَاخْتَصَّهُمْ أَمَنَاءَ لَهُ فِي وَقْتِهِ وَجَعَلَ إِلَيْهِمُ النَّظَرَ فِي أَمْوَالِهِ وَالْقِيَامَ بِأُمُورِهِ بِأَسْمَائِهِمْ وَأَنْسَابِهِمْ وَأَعْيَانِهِمْ،",
+        "translations": {
+          "en": "they convey to his Shia the landmarks of religion and bring to them his answers to their questions concerning him, and collect from them his rights. They were a group whom Hasan ibn Ali (peace be upon them both) counted during his lifetime, appointed as his trustees in his time, and assigned to oversee his properties and manage his affairs, by their names, lineages, and specific identities,",
+          "ur": "وہ اس کے شیعہ کے پاس دین کے معیار پہنچاتے ہیں اور ان کے سوالات کے جوابات لاتے ہیں، اور ان سے اس کے حقوق جمع کرتے ہیں۔ وہ ایک گروہ تھا جسے حسن بن علی (علیہما السلام) نے اپنی زندگی میں شمار کیا، اپنے وقت میں انہیں اپنے امین مقرر کیا، اور ان کے ناموں، نسبوں اور خاص شناختوں کے ساتھ اپنے املاک کی نگرانی اور اپنے معاملات کی انتظامیہ کے لیے مقرر کیا۔",
+          "tr": "Onlara dinin işaretlerini ve O'na dair sorularının cevaplarını ulaştırırlar, O'nun haklarını da onlardan toplarlar. Onlar, Hasan ibn Ali (ikisine de selam olsun) tarafından hayatı boyunca isimleri, soyadları ve özel kimlikleriyle birlikte seçilmiş, O'nun vaktinde emanetçiler olarak atanmış, mülklerini gözetlemek ve işlerini yürütmekle görevlendirilmiş bir gruptur.",
+          "fa": "آن‌ها نشانه‌های دین را به شیعیان او می‌رسانند و پاسخ‌های او به پرسش‌های آنان درباره‌ی خود را به آن‌ها می‌رسانند و حقوق او را از آن‌ها جمع‌آوری می‌کنند. آن‌ها گروهی بودند که حسن بن علی (علیهما السلام) در زمان حیات خود آن‌ها را شمرد و در زمان خود آن‌ها را به عنوان امینان خود منصوب کرد و بر اساس نام، نسب و هویت خاصشان، آن‌ها را بر عهده‌داري اموال او و اداره‌ی امورش گماشت.",
+          "id": "mereka menyampaikan kepada para Syiah-nya tanda-tanda agama dan membawa kepada mereka jawabannya atas pertanyaan-pertanyaan mereka tentang dirinya, serta mengumpulkan hak-haknya dari mereka. Mereka adalah sekelompok orang yang dihitung oleh Hasan bin Ali (semoga kedamaian atas keduanya) selama hidupnya, ditunjuk sebagai pempercaya dalam masanya, dan ditugaskan untuk mengawasi harta-hartanya dan mengelola urusannya, dengan nama-nama, silsilah, dan identitas khusus mereka,",
+          "bn": "তারা তাঁর শিয়াদের কাছে ধর্মের চিহ্নসমূহ পৌঁছে দেয় এবং তাঁর প্রতি তাদের প্রশ্নাবলীর উত্তর নিয়ে আসে, এবং তাঁর অধিকারসমূহ সংগ্রহ করে। তারা ছিলেন এমন এক দল, যাদের হাসান ইবনে আলী (আলাইহিমা) নিজের জীবদ্দশায় গণনা করেছিলেন, তাঁর আমলে তাদেরকে তাঁর বিশ্বস্ত হিসেবে নিযুক্ত করেছিলেন, এবং তাদের নাম, বংশলতিকা এবং নির্দিষ্ট পরিচয় অনুযায়ী তাঁর সম্পদ তত্ত্বাবধান ও বিষয়াদি পরিচালনার জন্য নিয়োগ করেছিলেন।",
+          "es": "les",
+          "fr": "ils transmettent à ses chiites les repères de la religion et leur apportent ses réponses à leurs questions le concernant, et recueillent de leur part ses droits. Ils étaient un groupe que Hasan ibn Ali (que la paix soit sur eux deux) comptait parmi les siens de son vivant, désignés comme ses fiduciaires en son temps, et chargés de superviser ses biens et gérer ses affaires, par leurs noms, leurs lignées et leurs identités spécifiques,",
+          "de": "Sie übermitteln seinen Schia die Wegmarken der Religion und bringen ihnen seine Antworten auf ihre Fragen bezüglich ihm, und sammeln von ihnen seine Rechte. Sie waren eine Gruppe, die Hasan ibn Ali (Friede sei mit beiden) während seines Lebens zählte, die er zu seinen Treuhändern in seiner Zeit ernannte, und die er beauftragte, seine Eigenschaften zu überwachen und seine Angelegenheiten zu verwalten, bei ihren Namen, Abstammungen und spezifischen Identitäten,",
+          "ru": "они передают его шиитам ориентиры религии и доводят до них его ответы на их вопросы, касающиеся его, и собирают с них его права. Они были группой людей, которых Хасан ибн Али (мир им обоим) в период своей жизни назначил своими доверенными лицами, поручив им опекать его имущество и управлять его делами, указав их имена, родословные и конкретные личности.",
+          "zh": "他们向什叶派传达宗教的根基，并将他针对他们关于他的问题所作的回答带给他们，同时从他们那里收取他的权利。他们是哈桑·本·阿里（愿主喜悦他俩）在世时点名指定的一群人，在他生前被任命为他的受托人，负责监督他的财产并管理他的事务，以其姓名、族谱和特定身份为据，"
+        },
+        "word_start": 35,
+        "word_end": 76
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "كَأَبِي عَمْرٍو عُثْمَانَ بْنِ سَعِيدٍ السَّمَّانِ وَابْنِهِ أَبِي جَعْفَرٍ مُحَمَّدِ بْنِ عُثْمَانَ بْنِ سَعِيدٍ وَغَيْرِهِمْ مِمَّنْ سَنَذْكُرُ أَخْبَارَهُمْ فِيمَا بَعْدُ إِنْ شَاءَ اللَّهُ تَعَالَى.",
+        "translations": {
+          "en": "such as Abu Amr Uthman ibn Sa'id al-Samman, his son Abu Ja'far Muhammad ibn Uthman ibn Sa'id, and others whose news we will mention later, God willing.",
+          "ur": "جیسے ابو عمرو عثمان بن سعید السمّان، ان کے بیٹے ابو جعفر محمد بن عثمان بن سعید، اور دیگر لوگ جن کی خبریں ہم بعد میں ذکر کریں گے، ان شاء اللہ۔",
+          "tr": "örneğin Ebu Amr Osman Ömer bin Said es-Semman, oğlu Ebu Cafer Muhammed bin Osman bin Said ve diğerleri ki haberlerini ileride, inşallah, zikredeceğiz.",
+          "fa": "چنانند که ابوعمرو عثمان بن سعید الّصمّان، و پسرش ابوجعفر محمد بن عثمان بن سعید، و دیگرانی که خبرشان را بعداً، ان‌شاءالله، ذکر خواهیم کرد.",
+          "id": "seperti Abu Amr Utsman bin Sa'id al-Samman, putranya Abu Ja'far Muhammad bin Utsman bin Sa'id, dan lain-lain yang kabar mereka akan kami sebutkan kemudian, insya Allah.",
+          "bn": "যেমন আবু আমর উসমান ইবন সাঈদ আল-সাম্মান, তাঁর পুত্র আবু জাফর মুহাম্মাদ ইবন উসমান ইবন সাঈদ, এবং অন্যান্য যাদের খবর আমরা পরে উল্লেখ করব, ইনশাআল্লাহ।",
+          "es": "como Abu Amr Uthman ibn Sa'id al-Samman, Abu Amr, su hijo Abu Ja'far Muhammad ibn Uthman ibn Sa'id, y otros cuya noticia mencionaremos más adelante, si Dios quiere.",
+          "fr": "tels qu'Abou Amr Othman ibn Saïd al-Samman, son fils Abou Ja'far Muhammad ibn Othman ibn Saïd, et d'autres dont nous mentionnerons les nouvelles plus tard, si Dieu le veut.",
+          "de": "wie Abu Amr Uthman ibn Sa'id al-Samman, sein Sohn Abu Ja'far Muhammad ibn Uthman ibn Sa'id und andere, deren Nachrichten wir später, wenn Gott will, erwähnen werden.",
+          "ru": "такие как Абу Амр Усман ибн Саид ас-Самман, его сын Абу Джафар Мухаммад ибн Усман ибн Саид, и другие, о которых мы упомянем позже, если на то будет воля Аллаха.",
+          "zh": "如阿布·阿姆尔·奥斯曼·本·赛义德·萨曼，其子阿布·贾法尔·穆罕默德·本·奥斯曼·本·赛义德，以及其他我们稍后将提及的人，真主若意欲。"
+        },
+        "word_start": 76,
+        "word_end": 100
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَكَانُوا أَهْلَ عَقْلٍ وَأَمَانَةٍ وَثِقَةٍ ظَاهِرَةٍ وَدِرَايَةٍ وَفَهْمٍ وَتَحْصِيلٍ وَنَبَاهَةٍ،",
+        "translations": {
+          "en": "and they were people of intellect, trustworthiness, apparent reliability, insight, understanding, acquisition, and nobility,",
+          "ur": "اور وہ عقل مند، قابلِ اعتماد، ظاہری اعتبار، بصیرت، سمجھ، کسبِ علم، اور شرافت کے حامل لوگ تھے،",
+          "tr": "ve onlar aklı, güvenilirliği, açık güvenilirliği, derinliği, anlayışı, edinimi ve soyluluğu olan kişilerdi,",
+          "fa": "و آنان از خردمندان، امینان، ظاهراً مورد اعتماد، صاحب بصیرت، فهم، کسب و شرافت بودند،",
+          "id": "dan mereka adalah orang-orang yang berakal, terpercaya, tampak dapat diandalkan, memiliki wawasan, pemahaman, penguasaan, dan kemuliaan,",
+          "bn": "এবং তারা ছিলেন বুদ্ধিমান, বিশ্বস্ত, স্পষ্ট নির্ভরযোগ্য, দূরদর্শী, বোধগম্য, অর্জনশীল, এবং নবাবের লোক।",
+          "es": "y eran personas de intelecto, confianza, fiabilidad aparente, perspicacia, comprensión, adquisición y nobleza,",
+          "fr": "et ils étaient des gens d'intelligence, de fiabilité, de crédibilité apparente, de perspicacité, de compréhension, d'acquisition et de noblesse,",
+          "de": "und sie waren Menschen von Verstand, Vertrauenswürdigkeit, offensichtlicher Zuverlässigkeit, Einsicht, Verständnis, Erwerb und Adel,",
+          "ru": "и они были людьми ума, надёжности, видимой достоверности, проницательности, понимания, приобретения и благородства,",
+          "zh": "他们是富有智慧、值得信赖、表面可靠、富有洞察力、理解力、学识和尊贵的人，"
+        },
+        "word_start": 100,
+        "word_end": 110
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَكَانُوا مُعَظَّمِينَ عِنْدَ سُلْطَانِ الْوَقْتِ لِعَظَمِ أَقْدَارِهِمْ وَجَلَالَةِ مَحَلِّهِمْ مُكْرَمِينَ لِظَاهِرِ أَمَانَتِهِمْ وَاشْتِهَارِ عَدَالَتِهِمْ حَتَّىٰ أَنَّهُ كَانَ يُدْفَعُ عَنْهُمْ مَا يُضِيفُهُ إِلَيْهِمْ خُصُومُهُمْ.",
+        "translations": {
+          "en": "and they were respected by the ruler of the time for the greatness of their status and the majesty of their position, honored for the apparent trustworthiness and widespread justice of their character, to the extent that what their opponents attributed to them was repelled from them.",
+          "ur": "اور وہ وقت کے حکمران کی جانب سے اپنے مقام کی عظمت اور مرتبے کی جلال کی وجہ سے عزت کی نگاہ سے دیکھے جاتے تھے، اور ان کی شخصیت کی ظاہری امانت داری اور وسیع انصاف کی وجہ سے معزز سمجھے جاتے تھے، اس حد تک کہ ان کے مخالفین نے جو ان پر منسوب کیا وہ ان سے ٹالا گیا۔",
+          "tr": "ve onlar, statülerinin büyüklüğü ve mevkiinin heybeti nedeniyle dönemin hükümdarı tarafından saygıdeğer görülmüş, karakterlerindeki açık güvenilirlik ve yaygın adalet nedeniyle onurlandırılmış, rakiplerinin onlara atfettiği şeylerin ise onlardan uzaklaştırıldığı ölçüde.",
+          "fa": "و آنان به سبب عظمت جایگاه و شکوه مقامشان مورد احترام می‌شدند، و به دلیل امانت‌داری آشکار و عدالت گسترده‌ی شخصیتشان گرامی داشته می‌شدند، تا آنجا که آنچه مخالفان به آنان نسبت می‌دادند، از آنان دفع می‌شد.",
+          "id": "dan mereka dihormati oleh penguasa pada masa itu karena keagungan status mereka dan kemuliaan kedudukan mereka, dihormati karena dapat dipercaya yang nyata dan keadilan yang meluas dari karakter mereka, sehingga apa yang disandarkan kepada mereka oleh lawan-lawan mereka ditolak dari diri mereka.",
+          "bn": "এবং তারা যুগের শাসকদের নিকট তাদের উচ্চ মর্যাদা ও গৌরবময় পদমর্যাদার কারণে সম্মানিত ছিলেন, তাদের চরিত্রের স্পষ্ট বিশ্বাসযোগ্যতা ও ব্যাপক ন্যায়পরায়ণতার জন্য সম্মানিত ছিলেন, এমনকি যে বিষয়গুলো তাদের প্রতিপক্ষরা তাদের প্রতি আরোপ করত তা তাদের থেকে দূরীভূত হয়ে যেত।",
+          "es": "y eran respetados por el gobernante de su tiempo por la grandeza de su estatus y la majestad de su posición, honrados por la aparente fiabilidad y la justicia extendida de su carácter, hasta el punto de que lo que sus opositores les atribuían les era repelido.",
+          "fr": "et ils étaient respectés par le souverain de l'époque pour la grandeur de leur statut et la majesté de leur position, honorés pour la fiabilité apparente et la justice répandue de leur caractère, au point que ce que leurs adversaires leur attribuaient leur était repoussé.",
+          "de": "und sie wurden vom Herrscher jener Zeit wegen der Größe ihres Rangs und der Majestät ihrer Stellung geachtet, geehrt wegen der offensichtlichen Vertrauenswürdigkeit und der weit verbreiteten Gerechtigkeit ihres Charakters, bis zu dem Maße, dass das, was ihre Gegner ihnen zuschrieb, von ihnen abgewehrt wurde.",
+          "ru": "и они были уважаемы правителем своего времени за величие их статуса и величие их положения, почитаемы за очевидную надёжность и всеобщую справедливость их характера, настолько, что то, что приписывали им их противники, было от них отвергнуто.",
+          "zh": "他们因地位崇高、位望显赫而受到当时统治者的敬重，因其品性可信、公正广布而备受尊崇，以至于反对者对他们的种种指责皆被驳斥。"
+        },
+        "word_start": 110,
+        "word_end": 133
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَهَذَا يُسْقِطُ قَوْلَهُمْ أَنَّ صَاحِبَكُمْ لَمْ يَرَهُ أَحَدٌ وَدَعْوَاهُمْ خِلَافُهُ.",
+        "translations": {
+          "en": "And this invalidates their claim that no one saw our master, and their claim is contrary to it.",
+          "ur": "اور یہ ان کے دعویٰ کو باطل کرتا ہے کہ کسی نے ہمارے سردار کو نہیں دیکھا، اور ان کا دعویٰ اس کے خلاف ہے۔",
+          "tr": "Ve bu, efendimizi kimsenin görmediği yönündeki iddialarını geçersiz kılar; onların iddiası bunun aksinedir.",
+          "fa": "و این ادعای آنان را باطل می‌کند که کسی سرور ما را ندید، و ادعای آنان برخلاف آن است.",
+          "id": "Dan ini membatalkan klaim mereka bahwa tidak ada seorang pun yang melihat tuan kami, dan klaim mereka bertentangan dengan hal itu.",
+          "bn": "এবস্তুত এতে তাদের দাবি বাতিল হয়ে যায় যে, আমাদের আয়তের কেউ দেখেননি, এবং তাদের দাবিও এর বিরোধী।",
+          "es": "text",
+          "fr": "Et cela invalide leur affirmation que personne n'a vu notre maître, et leur affirmation est contraire à cela.",
+          "de": "Und dies widerlegt ihren Anspruch, dass niemand unseren Herrn gesehen hat, und ihr Anspruch steht im Widerspruch dazu.",
+          "ru": "И это опровергает их утверждение, что никто не видел нашего господина, и их утверждение противоречит ему.",
+          "zh": "这否定了他们说无人看见我们的主人的主张，而他们的主张与事实相悖。"
+        },
+        "word_start": 133,
+        "word_end": 143
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi counters the claim of total invisibility by citing the 'Ayn al-Nuqat' (Four Deputies) and other trusted companions who maintained direct contact with Imam al-Hasan al-Askari, managing his affairs and collecting khums. This historical precedent of partial visibility (al-Ru'ya al-Khassa) establishes the legitimacy of the Hidden Imam's continued existence and authority through known intermediaries, refuting the notion that he was entirely unseen.",
+        "seo_question": "Who were the intermediaries of the Hidden Imam during the Minor Occultation?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "Abu Muhammad (title of Hasan ibn Ali)",
+          "الْإِمَامِيَّةَ": "The Imamites (Shia)",
+          "الْوَسَائِطُ": "The intermediaries",
+          "أَمَنَاءَ": "Trustees",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "Hasan ibn Ali",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "Uthman ibn Sa'id",
+          "أَبُو جَعْفَرٍ": "Abu Ja'far",
+          "الظَّاهِرُ": "Apparent/Visible"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی نے 'عین النقط' (چار نواب) اور دیگر قابل اعتماد صحابہ کا حوالہ دیتے ہوئے کل نامرئی ہونے کے دعویٰ کو رد کیا، جو امام حسن عسکری سے براہ راست رابطے میں تھے اور ان کے امور کو سنبھالتے اور خُمس جمع کرتے تھے۔ یہ جزوی مرئییت (الرویا الخاصہ) کا تاریخی سلسلہ مخفی امام کی مسلسل حیات اور معلوم واسطوں کے ذریعے ان کی authority کی مشروعیت قائم کرتا ہے، اس خیال کو مسترد کرتے ہوئے کہ وہ بالکل نامرئی تھے۔",
+        "seo_question": "صغریٰ غیبت کے دوران مخفی امام کے واسطے کون تھے؟",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "ابو محمد",
+          "الْإِمَامِيَّةَ": "امامیہ",
+          "الْوَسَائِطُ": "واسطے",
+          "أَمَنَاءَ": "امین",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "حسن بن علی",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "عثمان بن سعید",
+          "أَبُو جَعْفَرٍ": "ابو جعفر",
+          "الظَّاهِرُ": "ظاہر/مرئی"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh et-Tusi, 'Eynü'n-Nukat' (Dört Vekil) ve diğer güvenilir ashabını zikrederek, İmamü'l-Hasan el-Askari ile doğrudan temas kuran, onun işlerini yöneten ve haraç toplayan bu kişilerin varlığına atıfta bulunarak, tamamen görünmezlik iddiasına karşı çıkar. Kısa Gaflet döneminde gizli İmam'ın varlığının ve otoritesinin bilinen vekiller aracılığıyla devam ettiğini ve bu kısmi görünürlüğün (el-Rüya el-Hassa) meşruluğunu tesis eden bu tarihi örnek, İmam'ın tamamen görünmez olduğu fikrini reddeder.",
+        "seo_question": "Kısa Gaflet döneminde gizli İmam'ın vekilleri kimlerdi?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "Ebu Muhammed",
+          "الْإِمَامِيَّةَ": "İmamiyye",
+          "الْوَسَائِطُ": "Vekiller",
+          "أَمَنَاءَ": "Güvenilirler",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "Hasan bin Ali",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "Osman bin Said",
+          "أَبُو جَعْفَرٍ": "Ebu Cafer",
+          "الظَّاهِرُ": "Aşikâr/Görünür"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی با استناد به عین‌النقطه (چهار نایب) و دیگر یاران مورد اعتماد که ارتباط مستقیم با امام حسن عسکری داشتند و امور او را مدیریت و خمس جمع‌آوری می‌کردند، ادعای نامرئی بودن مطلق را رد می‌کند. این پیشینه تاریخی از دیداری جزئی (رؤیت خاص)، مشروعیت بقای امام غایب و اقتدار او را از طریق واسطه‌های شناخته‌شده تثبیت می‌کند و مفهوم اینکه او کاملاً دیده نمی‌شد را رد می‌نماید.",
+        "seo_question": "واسطه‌های امام غایب در دوران صغری چه کسانی بودند؟",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "ابو محمد",
+          "الْإِمَامِيَّةَ": "امامیه",
+          "الْوَسَائِطُ": "واسطه‌ها",
+          "أَمَنَاءَ": "امینان",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "حسن بن علی",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "عثمان بن سعید",
+          "أَبُو جَعْفَرٍ": "ابو جعفر",
+          "الظَّاهِرُ": "ظاهر/دیده‌شده"
+        }
+      },
+      "id": {
+        "summary": "Syaikh al-Thusi membantah klaim ketidakmampuan dilihat secara total dengan mengutip 'Ayn al-Nuqat' (Empat Utusan) dan sahabat-sahabat terpercaya lainnya yang menjaga kontak langsung dengan Imam al-Hasan al-Askari, mengelola urusan beliau dan mengumpulkan khums. Preseden historis visibilitas parsial (al-Ru'ya al-Khassa) ini menegaskan legitimasi keberadaan dan otoritas Imam yang Tersembunyi yang terus berlanjut melalui perantara yang dikenal, sehingga menolak gagasan bahwa beliau sepenuhnya tidak terlihat.",
+        "seo_question": "Siapakah perantara Imam yang Tersembunyi selama Periode Occultation Kecil?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "Abu Muhammad",
+          "الْإِمَامِيَّةَ": "Kaum Imamiyah",
+          "الْوَسَائِطُ": "Para perantara",
+          "أَمَنَاءَ": "Para penanggung jawab",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "Hasan bin Ali",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "Utsman bin Sa'id",
+          "أَبُو جَعْفَرٍ": "Abu Ja'far",
+          "الظَّاهِرُ": "Terlihat"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-তুসি 'আইন আল-নুকাত' (চারজন উপস্থিত) এবং অন্যান্য বিশ্বস্ত সাহাবীদের উদ্ধৃতি দিয়ে মোট অদৃশ্যতার দাবিকে খণ্ডন করেন, যারা ইমাম আল-হাসান আল-আসকারির সাথে সরাসরি যোগাযোগ বজায় রেখেছিলেন, তাঁর বিষয়-সম্পত্তি পরিচালনা করতেন এবং খমস আদায় করতেন। এই আংশিক দৃশ্যমানতার (আল-রু'য়া আল-খাসসা) ঐতিহাসিক প্রেক্ষাপট লুকায়িত ইমামের অব্যাহত অস্তিত্ব ও কর্তৃত্বের বৈধতা প্রতিষ্ঠা করে, যা পরিচিত মধ্যস্থতাকারীদের মাধ্যমে তাঁর ক্ষমতাকে নিশ্চিত করে এবং তাঁর সম্পূর্ণ অদৃশ্য হওয়ার ধারণাকে প্রত্যাখ্যান করে।",
+        "seo_question": "খুসুরি গায়েবতের সময় লুকায়িত ইমামের মধ্যস্থতাকারীরা কে ছিলেন?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "আবু মুহাম্মদ",
+          "الْإِمَامِيَّةَ": "ইমামিয়া",
+          "الْوَسَائِطُ": "মধ্যস্থতাকারী",
+          "أَمَنَاءَ": "আমানা",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "হাসান ইবনে আলি",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "উসমান ইবনে সাঈদ",
+          "أَبُو جَعْفَرٍ": "আবু জাফর",
+          "الظَّاهِرُ": "প্রকাশ্য/দৃশ্যমান"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi refuta la afirmación de la invisibilidad total citando a los 'Ayn al-Nuqat' (Cuatro Delegados) y otros compañeros de confianza que mantuvieron contacto directo con el Imam al-Hasan al-Askari, gestionando sus asuntos y cobrando el khums. Este precedente histórico de visibilidad parcial (al-Ru'ya al-Khassa) establece la legitimidad de la existencia y autoridad continuas del Imam Oculto a través de intermediarios conocidos, refutando la noción de que estaba completamente oculto.",
+        "seo_question": "¿Quiénes fueron los intermediarios del Imam Oculto durante la Pequeña Ocultación?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "Abu Muhammad",
+          "الْإِمَامِيَّةَ": "Los imamíes",
+          "الْوَسَائِطُ": "Los intermediarios",
+          "أَمَنَاءَ": "Fiduciarios",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "Hasan ibn Ali",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "Uthman ibn Sa'id",
+          "أَبُو جَعْفَرٍ": "Abu Ja'far",
+          "الظَّاهِرُ": "Aparente/Visible"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi contredit l'affirmation de l'invisibilité totale en citant 'Ayn al-Nuqat' (les Quatre Députés) et d'autres compagnons de confiance qui entretenaient un contact direct avec l'Imam al-Hasan al-Askari, gérant ses affaires et collectant la khums. Ce précédent historique de visibilité partielle (al-Ru'ya al-Khassa) établit la légitimité de la présence et de l'autorité continues de l'Imam caché à travers des intermédiaires connus, réfutant l'idée qu'il était entièrement invisible.",
+        "seo_question": "Qui étaient les intermédiaires de l'Imam caché pendant la Petite Occultation ?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "Abou Muhammad",
+          "الْإِمَامِيَّةَ": "Les Imamiyya",
+          "الْوَسَائِطُ": "Les intermédiaires",
+          "أَمَنَاءَ": "Les dépositaires",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "Al-Hasan ibn Ali",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "Othman ibn Sa'id",
+          "أَبُو جَعْفَرٍ": "Abou Ja'far",
+          "الظَّاهِرُ": "Apparent/Visible"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi widerlegt die Behauptung der vollständigen Unsichtbarkeit, indem er auf die ‚Ayn al-Nuqat‘ (die vier Stellvertreter) und andere vertrauenswürdige Gefährten verweist, die direkten Kontakt zu Imam al-Hasan al-Askari hielten, seine Angelegenheiten verwalteten und den Khums sammelten. Dieses historische Präzedenzfall der teilweisen Sichtbarkeit (al-Ru'ya al-Khassa) begründet die Legitimität der fortbestehenden Existenz und Autorität des verborgenen Imams durch bekannte Vermittler und widerlegt die Vorstellung, er sei völlig unsichtbar gewesen.",
+        "seo_question": "Wer waren die Vermittler des verborgenen Imams während der Kleinen Verborgenheit?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "Abu Muhammad",
+          "الْإِمَامِيَّةَ": "Die Imamiten",
+          "الْوَسَائِطُ": "Die Vermittler",
+          "أَمَنَاءَ": "Treuhänder",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "Hasan ibn Ali",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "Uthman ibn Sa'id",
+          "أَبُو جَعْفَرٍ": "Abu Ja'far",
+          "الظَّاهِرُ": "Sichtbar/Offenbar"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Туси опровергает утверждение о полной невидимости, ссылаясь на «Айн ан-Нука» (Четыре наместника) и других надежных сподвижников, которые поддерживали прямой контакт с Имамом аль-Хасаном аль-Аскари, управляя его делами и собирая хумс. Этот исторический прецедент частичной видимости (аль-Ру'я аль-Хасса) устанавливает законность продолжения существования и авторитета Скрытого Имама через известных посредников, опровергая представление о том, что он был совершенно невидимым.",
+        "seo_question": "Кто были посредниками Скрытого Имама в период Малого сокрытия?",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "Абу Мухаммад",
+          "الْإِمَامِيَّةَ": "Имамиты",
+          "الْوَسَائِطُ": "Посредники",
+          "أَمَنَاءَ": "Доверенные лица",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "Хасан ибн Али",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "Утман ибн Саид",
+          "أَبُو جَعْفَرٍ": "Абу Джафар",
+          "الظَّاهِرُ": "Видимый"
+        }
+      },
+      "zh": {
+        "summary": "图西谢赫通过引用‘艾因·努卡特’（四位副使）及其他受信任的同伴，反驳了完全隐没的说法，这些人曾与哈桑·本·阿里伊玛目保持直接联系，管理其事务并征收天课。这种部分可见性（特殊显现）的历史先例确立了隐遁伊玛目通过已知中介继续存在和行使权威的合法性，驳斥了他完全不被看见的观点。",
+        "seo_question": "小隐遁时期隐遁伊玛目的中介者是谁？",
+        "key_terms": {
+          "أَبُو مُحَمَّدٍ": "阿布·穆罕默德",
+          "الْإِمَامِيَّةَ": "伊玛目派",
+          "الْوَسَائِطُ": "中介者",
+          "أَمَنَاءَ": "受托人",
+          "الْحَسَنُ بْنُ عَلِيٍّ": "哈桑·本·阿里",
+          "عُثْمَانُ بْنُ سَعِيدٍ": "乌斯曼·本·萨伊德",
+          "أَبُو جَعْفَرٍ": "阿布·贾法尔",
+          "الظَّاهِرُ": "显现的"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "12:100",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:69",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "قُلْنَا: لَيْسَ الْأَمْرُ عَلَى مَا قُلْتُمْ، لِأَنَّ الْإِمَامِيَّةَ تَقُولُ إِنَّ جَمَاعَةً مِنْ أَصْحَابِ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ قَدْ شَاهَدُوا وُجُودَهُ فِي حَيَاتِهِ وَكَانُوا أَصْحَابَهُ وَخَاصَّتَهُ بَعْدَ وَفَاتِهِ وَالْوَسَائِطُ بَيْنَهُ وَبَيْنَ شِيعَتِهِ مَعْرُوفُونَ، يُنْقِلُونَ إِلَى شِيعَتِهِ مَعَالِمَ الدِّينِ وَيُخْرِجُونَ إِلَيْهِمْ أَجْوِبَتَهُ فِي مَسَائِلِهِمْ فِيهِ وَيَقْبِضُونَ مِنْهُمْ حُقُوقَهُ وَهُمْ جَمَاعَةٌ كَانَ الْحَسَنُ بْنُ عَلِيٍّ عَلَيْهِمَا السَّلَامُ عَدَّ لَهُمْ فِي حَيَاتِهِ وَاخْتَصَّهُمْ أَمَنَاءَ لَهُ فِي وَقْتِهِ وَجَعَلَ إِلَيْهِمُ النَّظَرَ فِي أَمْوَالِهِ وَالْقِيَامَ بِأُمُورِهِ بِأَسْمَائِهِمْ وَأَنْسَابِهِمْ وَأَعْيَانِهِمْ، كَأَبِي عَمْرٍو عُثْمَانَ بْنِ سَعِيدٍ السَّمَّانِ وَابْنِهِ أَبِي جَعْفَرٍ مُحَمَّدِ بْنِ عُثْمَانَ بْنِ سَعِيدٍ وَغَيْرِهِمْ مِمَّنْ سَنَذْكُرُ أَخْبَارَهُمْ فِيمَا بَعْدُ إِنْ شَاءَ اللَّهُ تَعَالَى. وَكَانُوا أَهْلَ عَقْلٍ وَأَمَانَةٍ وَثِقَةٍ ظَاهِرَةٍ وَدِرَايَةٍ وَفَهْمٍ وَتَحْصِيلٍ وَنَبَاهَةٍ، وَكَانُوا مُعَظَّمِينَ عِنْدَ سُلْطَانِ الْوَقْتِ لِعَظَمِ أَقْدَارِهِمْ وَجَلَالَةِ مَحَلِّهِمْ مُكْرَمِينَ لِظَاهِرِ أَمَانَتِهِمْ وَاشْتِهَارِ عَدَالَتِهِمْ حَتَّىٰ أَنَّهُ كَانَ يُدْفَعُ عَنْهُمْ مَا يُضِيفُهُ إِلَيْهِمْ خُصُومُهُمْ. وَهَذَا يُسْقِطُ قَوْلَهُمْ أَنَّ صَاحِبَكُمْ لَمْ يَرَهُ أَحَدٌ وَدَعْوَاهُمْ خِلَافُهُ.",
+    "isnad_matn": {
+      "isnad_ar": "قلنا: ليس الأمر على ما قلتم، لأن الإمامية تقول إن جماعة من أصحاب أبي محمد الحسن بن علي عليه السلام قد شاهدوا وجوده في",
+      "matn_ar": "قُلْنَا: لَيْسَ الْأَمْرُ عَلَى مَا قُلْتُمْ، لِأَنَّ الْإِمَامِيَّةَ تَقُولُ إِنَّ جَمَاعَةً مِنْ أَصْحَابِ أَبِي مُحَمَّدٍ الْحَسَنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ قَدْ شَاهَدُوا وُجُودَهُ فِي حَيَاتِهِ وَكَانُوا أَصْحَابَهُ وَخَاصَّتَهُ بَعْدَ وَفَاتِهِ وَالْوَسَائِطُ بَيْنَهُ وَبَيْنَ شِيعَتِهِ مَعْرُوفُونَ، يُنْقِلُونَ إِلَى شِيعَتِهِ مَعَالِمَ الدِّينِ وَيُخْرِجُونَ إِلَيْهِمْ أَجْوِبَتَهُ فِي مَسَائِلِهِمْ فِيهِ وَيَقْبِضُونَ مِنْهُمْ حُقُوقَهُ وَهُمْ جَمَاعَةٌ كَانَ الْحَسَنُ بْنُ عَلِيٍّ عَلَيْهِمَا السَّلَامُ عَدَّ لَهُمْ فِي حَيَاتِهِ وَاخْتَصَّهُمْ أَمَنَاءَ لَهُ فِي وَقْتِهِ وَجَعَلَ إِلَيْهِمُ النَّظَرَ فِي أَمْوَالِهِ وَالْقِيَامَ بِأُمُورِهِ بِأَسْمَائِهِمْ وَأَنْسَابِهِمْ وَأَعْيَانِهِمْ، كَأَبِي عَمْرٍو عُثْمَانَ بْنِ سَعِيدٍ السَّمَّانِ وَابْنِهِ أَبِي جَعْفَرٍ مُحَمَّدِ بْنِ عُثْمَانَ بْنِ سَعِيدٍ وَغَيْرِهِمْ مِمَّنْ سَنَذْكُرُ أَخْبَارَهُمْ فِيمَا بَعْدُ إِنْ شَاءَ اللَّهُ تَعَالَى. وَكَانُوا أَهْلَ عَقْلٍ وَأَمَانَةٍ وَثِقَةٍ ظَاهِرَةٍ وَدِرَايَةٍ وَفَهْمٍ وَتَحْصِيلٍ وَنَبَاهَةٍ، وَكَانُوا مُعَظَّمِينَ عِنْدَ سُلْطَانِ الْوَقْتِ لِعَظَمِ أَقْدَارِهِمْ وَجَلَالَةِ مَحَلِّهِمْ مُكْرَمِينَ لِظَاهِرِ أَمَانَتِهِمْ وَاشْتِهَارِ عَدَالَتِهِمْ حَتَّىٰ أَنَّهُ كَانَ يُدْفَعُ عَنْهُمْ مَا يُضِيفُهُ إِلَيْهِمْ خُصُومُهُمْ. وَهَذَا يُسْقِطُ قَوْلَهُمْ أَنَّ صَاحِبَكُمْ لَمْ يَرَهُ أَحَدٌ وَدَعْوَاهُمْ خِلَافُهُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "قلنا: ليس الأمر على ما قلتم، لأن الإمامية تقول إن جماعة من أصحاب أبي محمد الحسن بن علي عليه السلام قد شاهدوا وجوده في",
+          "name_en": "al-Hasan b. 'Ali",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "إِنْ شَاءَ اللَّهُ",
+        "phrase_en": "If Allah wills",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,315 @@
+{
+  "verse_path": "/books/nahj-al-balagha:2:62:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-28",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "invalid ayah number: 85 exceeds max 75 for surah 39 in ref 39:85",
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[2] name_ar has 15 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'مَحْقِ دِينِ مُحَمَّدٍ (صلى الله عليه وآله) فَخَشِيتُ إِنْ ل'"
+  ],
+  "result": {
+    "tags": [
+      "governance",
+      "history",
+      "ethics"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imams_biography",
+      "ghadir",
+      "events",
+      "leadership"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "فَأَمْسَكْتُ يَدِي",
+        "translations": {
+          "en": "I therefore withheld my hand",
+          "ur": "لہذا میں نے اپنی دست کو روک لیا",
+          "tr": "Büyükler, ",
+          "fa": "پس دستم دستم را کشیدم",
+          "id": "Maka aku menahan tanganku",
+          "bn": "অতএব আমি আমার হাত ধরে রাখলাম",
+          "es": "Por lo tanto, contuve mi mano",
+          "fr": "J'ai donc retenu ma main",
+          "de": "Ich behielt also meine Hand zurück",
+          "ru": "Поэтому я сдержал свою руку",
+          "zh": "text"
+        },
+        "word_start": 0,
+        "word_end": 2
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حَتَّى رَأيْتُ رَاجِعَةَ النَّاسِ قَدْ رَجَعَتْ عَنِ الْإِسْلَامِ، يَدْعُونَ إِلَى مَحْقِ دِينِ مُحَمَّدٍ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) فَخَشِيتُ إِنْ لَمْ أَنْصُرِ الْإِسْلَامَ وَأَهْلَهُ أَنْ أَرَى فِيهِ ثَلْمًا أَوْ هَدْمًا،",
+        "translations": {
+          "en": "till I saw that many people were reverting from Islam, calling for the destruction of the religion of Muhammad (peace be upon him and his family). I then feared that if I did not protect Islam and its people, I would see in it a breach or destruction,",
+          "ur": "یہاں تک کہ میں نے دیکھا کہ بہت سے لوگ اسلام سے رجوع کر رہے تھے اور محمد (صلی اللہ علیہ و آلہ وسلم) کی طرف سے) کی مذہب کی تباہی کا مطالبہ کر رہے تھے۔ پھر میں نے ڈر لگا کہ اگر میں نے اسلام اور اس کے لوگوں کی حفاظت نہ کی تو میں اس میں کسی شکست یا تباہی کو دیکھوں گا۔",
+          "tr": "İslam'dan birçok insanın ayrılıp, Muhammed'in (peygamber ve ailesine salavat olsun) dinini yok etmeye çağırmasını görene kadar, ben de İslam'ı ve onun insanlarını korumazsam, içinde bir kopukluk veya yıkım göreceğinden endişe ettim,",
+          "fa": "تا اینکه دیدم بسیاری از مردم از اسلام بازگشتند و به نابودی دین محمد (صلی الله علیه و آله) فراخوانی می‌دادند. سپس ترسیدم که اگر از اسلام و مردم آن محافظت نکنم، در آن شکاف یا ویرانی ببینم،",
+          "id": "hingga aku melihat bahwa banyak orang murtad dari Islam, menyerukan kehancuran agama Muhammad (shalat dan salam Allah atasnya dan keluarganya). Maka aku khawatir, jika aku tidak melindungi Islam dan umatnya, aku akan melihat adanya kerusakan atau kehancuran di dalamnya,",
+          "bn": "যতক্ষণ না আমি দেখলাম যে অনেক লোক ইসলাম ত্যাগ করে দিচ্ছিল, মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর ধর্মের ধ্বংসের দাবি জানাচ্ছিল। অতঃপর আমি ভয় পেলাম যে, যদি আমি ইসলাম ও এর লোকদের রক্ষা না করি, তবে আমি এর মধ্যে একটি ছেদ বা ধ্বংস দেখব,",
+          "es": "hasta que vi que muchas personas se estaban apostatando del Islam, clamando por la destrucción de la religión de Muhammad (que la paz sea con él y con su familia). Entonces temí que, si no protegía el Islam y a su gente, vería en él una brecha o destrucción,",
+          "fr": "jusqu'à ce que je vis que beaucoup de gens revenaient de l'islam, réclamant la destruction de la religion de Muhammad (que la paix soit sur lui et sur sa famille). J'ai alors craint que, si je ne protégeais pas l'islam et ses gens, je n'y voie une brèche ou une destruction,",
+          "de": "bis ich sah, dass viele Menschen vom Islam abfielen und nach der Zerstörung der Religion des Muhammad (Friede sei mit ihm und seiner Familie) riefen. Ich fürchtete dann, wenn ich den Islam und seine Anhänger nicht schützen würde, würde ich darin einen Bruch oder eine Zerstörung sehen,",
+          "ru": "пока я не увидел, что многие люди отступают от ислама, призывая к разрушению религии Мухаммада (мир ему и его семье). Тогда я испугался, что если не защищу ислам и его последователей, то увижу в нем разрыв или разрушение,",
+          "zh": "直到我看到许多人背离伊斯兰教，呼吁摧毁穆罕默德（愿主福安之及其家属）的宗教。于是，我担心若我不保护伊斯兰教及其人民，我将目睹其中的破裂或毁灭，"
+        },
+        "word_start": 2,
+        "word_end": 31
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "تَكُونُ الْمُصِيبَةُ بِهِ عَلَيَّ أَعْظَمَ مِنْ فَوْتِ وِلَايَتِكُمُ الَّتِي إِنَّمَا هِيَ مَتَاعُ أَيَّامٍ قَلِيلَاتٍ، يَزُولُ مِنْهَا مَا كَانَ، كَمَا يَزُولُ السَّرَابُ، أَوْ كَمَا يَتَقَشَّعُ السَّحَابُ،",
+        "translations": {
+          "en": "which would be a greater blow to me than the loss of your governorship, which is but the enjoyment of a few days, from which what was there will pass away as the mirage passes away, or as the cloud scuds away,",
+          "ur": "جو تمہاری گورنرشپ کا ضیاع ہے، جو چند دنوں کی نعمت ہے، جس سے جو کچھ ہے وہ ختم ہو جائے گا جیسے سراب ختم ہو جاتا ہے یا جیسے بادل اڑ جاتا ہے،",
+          "tr": "ki bu, senin valiliğinin kaybından bana daha büyük bir darbe olurdu; çünkü valilik sadece birkaç günün tadıdır, içindekiler bir serap gibi yok olup gider, ya da bir bulutun sürüklenip gitmesi gibi kaybolur.",
+          "fa": "که این برای من ضربه‌ای بزرگ‌تر از از دست دادن فرمانروایی تو خواهد بود، که تنها لذتی چندروزه است و آنچه در آن بود، همچون سراب از بین می‌رود یا همچون ابر که می‌گذرد.",
+          "id": "yang akan menjadi pukulan lebih besar bagiku daripada kehilangan jabatanmu, yang hanyalah kenikmatan beberapa hari, dari mana apa yang ada padamu akan lenyap seperti hilangnya fatamorgana, atau seperti hilangnya awan yang berlalu,",
+          "bn": "যা আমার কাছে তোমার শাসনভার হারানোর চেয়েও বড় আঘাত হবে, যা কেবল কয়েক দিনের আনন্দ, যা মরীচিকার মতো বা মেঘের মতো অদৃশ্য হয়ে যাবে।",
+          "es": "lo cual sería para mí un golpe mayor para mí que la pérdida de tu gobernación, que no es más que el disfrute de unos pocos días, de los cuales lo que había en ellos se desvanecerá como se desvanece el espejismo, o como se desvanece la nube que se desplaza,",
+          "fr": "ce qui serait pour moi un coup plus dur que la perte de ta charge de gouverneur, qui n'est qu'une jouissance de quelques jours, dont ce qui est en elle s'évanouira comme le mirage s'évanouit, ou comme le nuage s'éloîne,",
+          "de": "was für mich ein schwererer Schlag wäre als der Verlust deiner Statthalterschaft, die doch nur die Freuden weniger Tage sind, von denen das, was darin ist, vergehen wird, wie die Täuschung des Wüstenspiegels vergeht, oder wie die Wolke dahinfliegt,",
+          "ru": "что было бы для меня большим ударом для меня, чем потеря твоего правления, которое есть лишь наслаждение несколькими днями, из которого то, что было, исчезнет, как мираж, или как облако проносится мимо,",
+          "zh": "那将是对我更大的打击，胜过你失去总督之职，因为总督之职不过是短暂的享受，其中的一切终将如海市蜃楼般消散，或如流云般飘逝，"
+        },
+        "word_start": 31,
+        "word_end": 56
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَنَهَضْتُ فِي تِلْكَ الْأَحْدَاثِ حَتَّى زَاحَ الْبَاطِلُ وَزَهَقَ، وَاطْمَأَنَّ الدِّينُ وَتَنَهْنَهَ.",
+        "translations": {
+          "en": "Therefore, in these happenings I rose till wrong was destroyed and disappeared, and religion attained peace and safety.",
+          "ur": "لہذا، ان واقعات میں میں میں اتنا بلند ہوا کہ بے ضابطگی ختم ہو کر غائب ہو گئی، اور دین کو سکون اور حفاظت حاصل ہو گئی۔",
+          "tr": "Bu olaylarda, haksızlık yok olup gitti ve din huzur ve emniyete kavuştu.",
+          "fa": "بنابراین، در این رویدادها من برآمدیم تا باطل نابود و ناپدید شود و دین به آرامش و امنیت دست یافت.",
+          "id": "Maka, dalam peristiwa-peristiwa ini, aku bangkit hingga ke kegoncilan hancur dan lenyap, dan agama mencapai kedamaian dan keselamatan.",
+          "bn": "অতএব, এই ঘটনাবলিতে আমি এতটা উঠেছিলাম যে ভুল ধ্বংস হয়ে গেল এবং অদৃশ্য হয়ে গেল, এবং ধর্ম শান্তি ও নিরাপত্তা লাভ করল।",
+          "es": "Por lo tanto, en estos acontecimientos, en estos sucesos me elevé hasta que la injusticia fue destruida y desapareció, y la religión alcanzó la paz y la seguridad.",
+          "fr": "Ainsi, dans ces événements, je me suis élevé jusqu'à ce que le mal soit détruit et disparu, et que la religion ait atteint la paix et la sécurité.",
+          "de": "Daher erhob ich mich in diesen Ereignissen, bis das Falsche zerstört und verschwunden war, und die Religion Frieden und Sicherheit erlangte.",
+          "ru": "Поэтому в этих событиях я возвысился, пока не было уничтожено и исчезло неверие, и религия обрела покой и безопасность.",
+          "zh": "因此，在这些事件中，我崛起直至邪恶被消灭并消失，宗教获得了安宁与安全。"
+        },
+        "word_start": 56,
+        "word_end": 67
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) justifies his postponement of caliphate by observing the hypocrisy of the Sahaba, who reverted to pre-Islamic tribalism and sought to extinguish Islam. He prioritized the preservation of the faith's core integrity over the temporary, fleeting nature of political authority, which he likens to a mirage or dissipating cloud. This decision underscores the Shia view that political legitimacy is secondary to the survival and purity of the divine message.",
+        "seo_question": "Why did Imam Ali delay taking the caliphate according to Nahj al-Balagha?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "the people reverting",
+          "مَحْقِ الدِّينِ": "destruction of the religion",
+          "وِلَايَتُكُمْ": "your governorship/authority",
+          "مَتَاعُ أَيَّامٍ": "enjoyment of days (temporary)",
+          "السَّرَابُ": "the mirage",
+          "الْبَاطِلُ": "the false/wrong",
+          "زَهَقَ": "disappeared/perished"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) نے صحابہ کی نفاق اور ان کے واپس جاہلیت کے دور کی طرح قبائلی تعصبات کی طرف لوٹنے کو دیکھتے ہوئے خلافت کی تاخیر کی توجیہ کی۔ انہوں نے سیاسی اقتدار کی عارضی اور فانی نوعیت کو ایک سراب یا بکھرتی ہوئی بادلوں سے تشبیہ دی، جبکہ ایمان کی بنیادی سالمیت کو ترجیح دی۔ یہ فیصلہ شیعہ نقطہ نظر کو اجاگر کرتا ہے کہ سیاسی مشروعیت الہی پیغام کی بقا اور پاکیزگی کے مقابلے میں ثانوی حیثیت رکھتی ہے۔",
+        "seo_question": "نہج البلاغہ کے مطابق امام علی نے خلافت لینے میں تاخیر کیوں کی؟",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "لوگوں کا واپس جانا",
+          "مَحْقِ الدِّينِ": "دین کی تباہی",
+          "وِلَايَتُكُمْ": "آپ کی حکومت/اختیار",
+          "مَتَاعُ أَيَّامٍ": "دنوں کا لطف (عارضی)",
+          "السَّرَابُ": "سراب",
+          "الْبَاطِلُ": "باطل/غلط",
+          "زَهَقَ": "غائب ہو گیا/ہلاک ہو گیا"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aley (aleyhisselam), sahabe'nin cehiliye dönemine dönük kabilecilik göstererek İslam'ı yok etmek istemelerindeki tuzakları nedeniyle hilafeti ertelemesini gerekçelendirir. Siyasi iktidarın geçici ve fani bir nimet olduğunu, onu bir serap veya dağılan bulut gibi görürken, inanç özünün bütünlüğünü korumayı öncelik haline getirir. Bu karar, siyasi meşruiyetin ilahi mesajın hayatta kalması ve saflığına göre ikinci planda olduğunu gösteren Şii görüşünü vurgular.",
+        "seo_question": "Nahılcıbe'de göre İmam Ali hilafeti neden erteledi?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "insanların geri dönmesi",
+          "مَحْقِ الدِّينِ": "dinin yok edilmesi",
+          "وِلَايَتُكُمْ": "sizin yetkiniz/hilafetiniz",
+          "مَتَاعُ أَيَّامٍ": "günlerin geçici hazı",
+          "السَّرَابُ": "serap",
+          "الْبَاطِلُ": "batıl",
+          "زَهَقَ": "yok oldu/harab oldu"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علیه‌السلام) تأخیر خلافت خود را با مشاهده ریاکاری صحابه توجیه می‌کند که به تعصب قبیله‌ای پیش از اسلام بازگشتند و به دنبال خاموش کردن اسلام بودند. او حفظ اصالت دین را بر ماهیت موقتی و زودگذر قدرت سیاسی ترجیح داد که مانند سراب یا ابر پراکنده است. این تصمیم بر دیدگاه شیعه تأکید دارد که مشروعیت سیاسی در برابر بقا و پاکی پیام الهی درجه دوم است.",
+        "seo_question": "چرا امام علی (علیه‌السلام) بر اساس نهج‌البلاغه گرفتن خلافت را به تأخیر انداخت؟",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "بازگشت مردم",
+          "مَحْقِ الدِّينِ": "نابودی دین",
+          "وِلَايَتُكُمْ": "ولایت شما",
+          "مَتَاعُ أَيَّامٍ": "لذت روزگار (موقتی)",
+          "السَّرَابُ": "سراب",
+          "الْبَاطِلُ": "باطل",
+          "زَهَقَ": "از بین رفت"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (alamah) membenarkan penundaannya terhadap kekhalifahan dengan mengamati kemunafikan para Sahaba, yang kembali kepada tribalisme pra-Islam dan berusaha memadamkan Islam. Ia mengutamakan pelestarian integritas inti iman daripada sifat sementara dan singkat dari otoritas politik, yang ia ibaratkan sebagai fatamorgana atau awan yang menghilang. Keputusan ini menegaskan pandangan Syiah bahwa legitimasi politik adalah sekunder dibandingkan kelangsungan dan kemurnian pesan ilahi.",
+        "seo_question": "Mengapa Imam Ali menunda pengambilan kekhalifahan menurut Nahj al-Balagha?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "kembali orang-orang",
+          "مَحْقِ الدِّينِ": "pemusnahan agama",
+          "وِلَايَتُكُمْ": "kepemimpinan/otoritas kalian",
+          "مَتَاعُ أَيَّامٍ": "kenikmatan hari-hari (sementara)",
+          "السَّرَابُ": "fatamorgana",
+          "الْبَاطِلُ": "yang palsu/salah",
+          "زَهَقَ": "menghilang/hilang"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) সাহাবাদের কপটতা পর্যবেক্ষণ করে খিলাফত বিলম্বিত করার যৌক্তিকতা প্রদান করেন, যারা পূর্ব-ইসলামি গোত্রীয়তাতে ফিরে গিয়েছিল এবং ইসলামকে নিঃশেষ করতে চেয়েছিল। তিনি রাজনৈতিক ক্ষমতার সাময়িক ও ক্ষণস্থায়ী প্রকৃতির (যা তিনি মরীচিকা বা বিলীন মেঘের সাথে তুলনা করেন) চেয়ে ঈমানের মূল অখণ্ডতা রক্ষাকে অগ্রাধিকার দেন। এই সিদ্ধান্ত শিয়া দৃষ্টিভঙ্গি তুলে ধরে যে, রাজনৈতিক বৈধতা ঈশ্বরের বার্তার টিকে থাকা ও পবিত্রতার তুলনায় গৌণ।",
+        "seo_question": "নহজুল বালাগহা অনুযায়ী ইমাম আলী কেন খিলাফত নেওয়া বিলম্বিত করেছিলেন?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "লোকদের পুনরায় ফিরে যাওয়া",
+          "مَحْقِ الدِّينِ": "ধর্মের ধ্বংস",
+          "وِلَايَتُكُمْ": "আপনাদের কর্তৃত্ব/অধিকার",
+          "مَتَاعُ أَيَّامٍ": "দিনগুলোর উপভোগ (সাময়িক)",
+          "السَّرَابُ": "মরীচিকা",
+          "الْبَاطِلُ": "মিথ্যা/ভুল",
+          "زَهَقَ": "অন্তর্ধান/ধ্বংস"
+        }
+      },
+      "es": {
+        "summary": "El Imam Alí (que la paz sea con él) justifica su postergación del califato al observar la hipocresía de los Sahaba, quienes volvieron al tribalismo preislámico y buscaron extinguir el Islam. Priorizó la preservación de la integridad central de la fe sobre la naturaleza temporal y fugaz de la autoridad política, a la que compara con un espejismo o una nube que se disipa. Esta decisión subraya la visión chií de que la legitimidad política es secundaria para la supervivencia y la pureza del mensaje divino.",
+        "seo_question": "¿Por qué pospuso el Imam Alí tomar el califato según Nahj al-Balagha?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "el pueblo volviendo",
+          "مَحْقِ الدِّينِ": "destrucción de la religión",
+          "وِلَايَتُكُمْ": "su gobierno/autoridad",
+          "مَتَاعُ أَيَّامٍ": "disfrute de los días (temporal)",
+          "السَّرَابُ": "el espejismo",
+          "الْبَاطِلُ": "lo falso/equivocado",
+          "زَهَقَ": "desapareció/perició"
+        }
+      },
+      "fr": {
+        "summary": "L’imam Ali (que la paix soit sur lui) justifie son report du califat en observant l’hypocrisie des Sahaba, qui sont retournés au tribalisme préislamique et ont cherché à anéantir l’islam. Il privilégie la préservation de l’intégrité fondamentale de la foi sur la nature temporaire et éphémère de l’autorité politique, qu’il compare à un mirage ou à un nuage qui se dissipe. Cette décision souligne la vision chiite selon laquelle la légitimité politique est secondaire par rapport à la survie et à la pureté du message divin.",
+        "seo_question": "Pourquoi l’imam Ali a-t-il retardé la prise du califat selon Nahj al-Balagha ?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "le retour du peuple",
+          "مَحْقِ الدِّينِ": "la destruction de la religion",
+          "وِلَايَتُكُمْ": "votre autorité/gouvernement",
+          "مَتَاعُ أَيَّامٍ": "la jouissance des jours (temporaire)",
+          "السَّرَابُ": "le mirage",
+          "الْبَاطِلُ": "le faux/le vain",
+          "زَهَقَ": "a disparu/péri"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede be upon him) begründet seine Verschiebung des Kalifats mit der Heuchelei der Sahaba, die zum vorislamischen Stammestum zurückkehrten und den Islam auszulöschen suchten. Er stellte die Bewahrung der Kernintegrität des Glaubens über die vorübergehende, flüchtige Natur der politischen Autorität, die er mit einer Fata Morgana oder einer sich auflösenden Wolke vergleicht. Diese Entscheidung unterstreicht die schiitische Ansicht, dass die politische Legitimität der Überlebensfähigkeit und Reinheit der göttlichen Botschaft nachgeordnet ist.",
+        "seo_question": "Warum hat Imam Ali die Übernahme des Kalifats gemäß Nahj al-Balagha verzögert?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "die Rückkehr der Menschen",
+          "مَحْقِ الدِّينِ": "die Zerstörung der Religion",
+          "وِلَايَتُكُمْ": "eure Herrschaft/Autorität",
+          "مَتَاعُ أَيَّامٍ": "Genuss der Tage (vorübergehend)",
+          "السَّرَابُ": "die Fata Morgana",
+          "الْبَاطِلُ": "das Falsche/Unwahre",
+          "زَهَقَ": "verschwand/ging zugrunde"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (да будет над ним мир) обосновывает отсрочку принятия халифата, отмечая лицемерие сподвижников, которые вернулись к доисламскому племенному сепаратизму и стремились уничтожить ислам. Он поставил сохранение основной целостности веры выше временного и преходящего характера политической власти, которую он уподобляет миражу или рассеивающемуся облаку. Это решение подчеркивает шиитский взгляд, согласно которому политическая легитимность вторична по отношению к выживанию и чистоте божественного послания.",
+        "seo_question": "Почему имам Али отложил принятие халифата согласно «Нахдж аль-балаге»?",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "возвращение людей",
+          "مَحْقِ الدِّينِ": "уничтожение религии",
+          "وِلَايَتُكُمْ": "ваша власть/управление",
+          "مَتَاعُ أَيَّامٍ": "преходящее наслаждение днями",
+          "السَّرَابُ": "мираж",
+          "الْبَاطِلُ": "ложь/небытие",
+          "زَهَقَ": "исчез/погиб"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主喜悦之，以圣门弟子回归前伊斯兰时代的部落主义并企图毁灭伊斯兰教为由，解释其推迟继任哈里发之位的原因。他优先考虑维护信仰的核心完整性，而非短暂如海市蜃楼或消散之云的政治权力。这一决定凸显了什叶派观点，即政治合法性从属于神圣信息的生存与纯洁。",
+        "seo_question": "据《纳赫哲·布拉格》记载，伊玛目阿里为何推迟继任哈里发之位？",
+        "key_terms": {
+          "رَاجِعَةَ النَّاسِ": "人们回归",
+          "مَحْقِ الدِّينِ": "毁灭宗教",
+          "وِلَايَتُكُمْ": "你们的统治权",
+          "مَتَاعُ أَيَّامٍ": "短暂的享受",
+          "السَّرَابُ": "海市蜃楼",
+          "الْبَاطِلُ": "虚妄",
+          "زَهَقَ": "消失/消亡"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:10",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "48:28",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:67",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:85",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "فَأَمْسَكْتُ يَدِي حَتَّى رَأيْتُ رَاجِعَةَ النَّاسِ قَدْ رَجَعَتْ عَنِ الْإِسْلَامِ، يَدْعُونَ إِلَى مَحْقِ دِينِ مُحَمَّدٍ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) فَخَشِيتُ إِنْ لَمْ أَنْصُرِ الْإِسْلَامَ وَأَهْلَهُ أَنْ أَرَى فِيهِ ثَلْمًا أَوْ هَدْمًا، تَكُونُ الْمُصِيبَةُ بِهِ عَلَيَّ أَعْظَمَ مِنْ فَوْتِ وِلَايَتِكُمُ الَّتِي إِنَّمَا هِيَ مَتَاعُ أَيَّامٍ قَلِيلَاتٍ، يَزُولُ مِنْهَا مَا كَانَ، كَمَا يَزُولُ السَّرَابُ، أَوْ كَمَا يَتَقَشَّعُ السَّحَابُ، فَنَهَضْتُ فِي تِلْكَ الْأَحْدَاثِ حَتَّى زَاحَ الْبَاطِلُ وَزَهَقَ، وَاطْمَأَنَّ الدِّينُ وَتَنَهْنَهَ.",
+    "isnad_matn": {
+      "isnad_ar": "فَأَمْسَكْتُ يَدِي حَتَّى رَأيْتُ رَاجِعَةَ النَّاسِ قَدْ رَجَعَتْ عَنِ الْإِسْلَامِ، يَدْعُونَ إِلَى مَحْقِ دِينِ مُحَمَّدٍ (صلى الله عليه وآله) فَخَشِيتُ إِنْ لَمْ أَنْصُرِ الْإِسْلَامَ وَأَهْلَهُ أَنْ أَرَى فِي",
+      "matn_ar": "فَأَمْسَكْتُ يَدِي حَتَّى رَأيْتُ رَاجِعَةَ النَّاسِ قَدْ رَجَعَتْ عَنِ الْإِسْلَامِ، يَدْعُونَ إِلَى مَحْقِ دِينِ مُحَمَّدٍ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) فَخَشِيتُ إِنْ لَمْ أَنْصُرِ الْإِسْلَامَ وَأَهْلَهُ أَنْ أَرَى فِيهِ ثَلْمًا أَوْ هَدْمًا، تَكُونُ الْمُصِيبَةُ بِهِ عَلَيَّ أَعْظَمَ مِنْ فَوْتِ وِلَايَتِكُمُ الَّتِي إِنَّمَا هِيَ مَتَاعُ أَيَّامٍ قَلِيلَاتٍ، يَزُولُ مِنْهَا مَا كَانَ، كَمَا يَزُولُ السَّرَابُ، أَوْ كَمَا يَتَقَشَّعُ السَّحَابُ، فَنَهَضْتُ فِي تِلْكَ الْأَحْدَاثِ حَتَّى زَاحَ الْبَاطِلُ وَزَهَقَ، وَاطْمَأَنَّ الدِّينُ وَتَنَهْنَهَ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "فَأَمْسَكْتُ يَدِي حَتَّى رَأيْتُ رَاجِعَةَ النَّاسِ قَدْ رَجَعَتْ",
+          "name_en": "Rajja'a",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الْإِسْلَامِ، يَدْعُونَ",
+          "name_en": "al-Islam",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مَحْقِ دِينِ مُحَمَّدٍ (صلى الله عليه وآله) فَخَشِيتُ إِنْ لَمْ أَنْصُرِ الْإِسْلَامَ وَأَهْلَهُ أَنْ أَرَى",
+          "name_en": "Mahq din Muhammad",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

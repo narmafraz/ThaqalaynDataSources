@@ -1,0 +1,381 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-numani:2:2:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 45 words (>14, بن-density 0.13 — likely a sentence fragment, not a name): 'محمد بن عبد الله بن المعمر الطبراني بطبرية سنة ثلاث وثلاثين '",
+    "narrator[2] name_ar has 142 words (>14, بن-density 0.01 — likely a sentence fragment, not a name): 'جابر بن عبد الله الأنصاري قال: وفد على رسول الله أهل اليمن ف'",
+    "chunks[4] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[4] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[4] translations.fa is empty string (likely Phase 4 batch failure)",
+    "chunks[4] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[4] translations.fr is empty string (likely Phase 4 batch failure)",
+    "chunks[4] translations.de is empty string (likely Phase 4 batch failure)",
+    "chunks[4] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[4] en translation length out of bounds: 373 en words vs 85 ar words (ratio=4.39, expected 34.0-340.0)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "prophetic_tradition",
+      "family"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imamate",
+      "ahlulbayt_virtues",
+      "quran_interpretation_method",
+      "companions",
+      "events"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ الْمُعَمَّرِ الطَّبَرَانِيُّ بِطَبَرِيَّةَ سَنَةَ ثَلَاثٍ وَثَلَاثِينَ وَثَلَاثِمِائَةٍ - وَكَانَ هَذَا الرَّجُلُ مِنْ مَوَالِي يَزِيدَ بْنِ مُعَاوِيَةَ وَمِنَ النُّصْبَاءِ - قَالَ: حَدَّثَنِي أَبِي، قَالَ: حَدَّثَنِي عَلِيُّ بْنُ هَاشِمٍ وَالْحُسَيْنُ بْنُ السُّكَنِ مُعَاً قَالَا: حَدَّثَنَا عَبْدُ الرَّزَّاقِ بْنُ هَمَّامٍ قَالَ: أَخْبَرَنِي أَبِي، عَنْ مِينًا مَوْلَى عَبْدِ الرَّمَنِ بْنِ عَوْفٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ الْأَنْصَارِيِّ قَالَ:",
+        "translations": {
+          "en": "Muhammad ibn Abdullah ibn al-Mu'ammar al-Tabarani, in Tabariya in the year 333 AH (and this man was from the freed slaves of Yazeed ibn Mu'awiya and from the Nusbah), narrated to me from his father, who said: Ali ibn Hashim and al-Husayn ibn al-Sakan narrated to me together, saying: Abd al-Razzaq ibn Hammam narrated to me, who said: My father informed me, from Mina, the freed slave of Abd al-Rahman ibn Awf, from Jabir ibn Abdullah al-Ansari, who said:",
+          "ur": "محمد بن عبد اللہ بن المعمر الطبرانی، بطبریا، سنہ تین سو تیس ہجری (اور یہ شخص یزید بن معاویہ کے موالی میں سے اور نصباہ میں سے تھے)، مجھ سے روایت کرتے ہیں ان کے والد نے کہا: علی بن ہاشم اور حسین بن السکن نے مجھ سے روایت کی، ان دونوں نے کہا: عبد الرزاق بن ہمام نے مجھ سے روایت کی، انہوں نے کہا: میرے والد نے مجھ سے اطلاع دی، مینا سے، جو عبد الرحمن بن عوف کے مولا تھے، جابر بن عبد اللہ الانصاری سے، جنہوں نے کہا:",
+          "tr": "Muhammed ibn Abdullah ibn el-Muammer et-Taberani, Taberiye'de (Hicri) 333 yılında (bu adam, Yezid ibn Muaviye'nin mülklerinden olan esirlerden ve Nüsbah kabilesindendi) bana babasından rivayet etti, o da şöyle dedi: Ali ibn Haşim ve el-Hüseyin ibn es-Sakan birlikte bana rivayet ettiler, şöyle dediler: Abdurrazzak ibn Hammam bana rivayet etti, o da şöyle dedi: Babam bana Mina'dan, Abdurrahman ibn Avf'ın mülklerinden olan esirden, Cabir ibn Abdullah el-Ensari'den rivayet etti, o da şöyle dedi:",
+          "fa": "محمد بن عبد الله بن المعمر الطبراني بطبرية سنة ثلاث وثلاثين وثلاثمائة - وكان هذا الرجل من موالي يزيد بن معاوية ومن النصاب - قال: حدثني أبي، قال: حدثني علي بن هاشم والحسين بن السكن معا قالا: حدثنا عبد الرزاق بن همام قال: أخبرني أبي، عن مينا مولى عبد الرحمن بن عوف، عن جابر بن عبد الله الأنصاري قال:",
+          "id": "Muhammad ibn Abdullah ibn al-Mu'ammar al-Tabarani, di Tabariya pada tahun 333 H (dan lelaki ini adalah dari hamba sahaya yang dimerdekakan oleh Yazid ibn Mu'awiya dan dari suku Nusbah), telah menceritakan kepadaku dari bapaknya, yang berkata: Ali ibn Hashim dan al-Husayn ibn al-Sakan telah menceritakan kepadaku bersama-sama, keduanya berkata: Abd al-Razzaq ibn Hammam telah menceritakan kepadaku, yang berkata: Bapaknya telah memaklumkan kepadaku, dari Mina, hamba sahaya yang dimerdekakan oleh Abd al-Rahman ibn Awf, dari Jabir ibn Abdullah al-Ansari, yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে আবদুল্লাহ ইবনে আল-মুআম্মার আল-তাবারানি, তাবারিয়ায় ৩৩৩ হিজরীতে (এবং এই ব্যক্তি যাজিদ ইবনে মুআবিয়ার মোকাত্তেলদের মধ্যে ছিলেন এবং নুসবাহ গোত্রের ছিলেন), আমাকে বর্ণনা করেছেন তার পিতার নিকট হতে, যিনি বলেছেন: আলী ইবনে হাশিম এবং আল-হুসাইন ইবনে আস-সাকান আমাকে একত্রে বর্ণনা করেছেন, তারা বলেছেন: আবদুর রযযাক ইবনে হাম্মাম আমাকে বর্ণনা করেছেন, তিনি বলেছেন: আমার পিতা আমাকে জানিয়েছেন, মিনা, আবদুর রহমান ইবনে আউফের মোকাত্তেল, জাবির ইবনে আবদুল্লাহ আল-আনসারীর নিকট হতে, যিনি বলেছেন:",
+          "es": "Narró para mí Muhammad ibn Abdullah ibn al-Mu'ammar al-Tabarani, en Tabariya en el año 333 de la Hégira (y este hombre era de los clientes de Yazeed ibn Mu'awiya y de los Nusbah), que me narró su padre, quien dijo: Me narraron juntos Ali ibn Hashim y al-Husayn ibn al-Sakan, diciendo: Me narró Abd al-Razzaq ibn Hammam, quien dijo: Mi padre me informó, de Mina, el cliente de Abd al-Rahman ibn Awf, de Jabir ibn Abdullah al-Ansari, quien dijo:",
+          "fr": "Muhammad ibn Abdullah ibn al-Mu'ammar al-Mu'ammar al-Tabarani, à Tabariya en l'an 333 de l'Hégire (et cet homme était parmi les affranchis de Yazeed ibn Mu'awiya et parmi les Nusbah), m'a rapporté de la part de son père, qui a dit : Ali ibn Hashim et al-Husayn ibn al-Sakan m'ont rapporté ensemble, disant : Abd al-Razzaq ibn Hammam m'a rapporté, qui a dit : Mon père m'a informé, de la part de Mina, l'affranchi d'Abd al-Rahman ibn Awf, de la part de Jabir ibn Abdullah al-Ansari, qui a dit :",
+          "de": "Muhammad ibn Abdullah ibn al-Mu'ammar al-Tabarani, in Tabariya im Jahr 333 n. d. H. (und dieser Mann war von den Freigelassenen des Yazeed ibn Mu'awiya und aus der Nusbah), erzählte mir von seinem Vater, der sagte: Ali ibn Hashim und al-Husayn ibn al-Sakan erzählten mir gemeinsam und sagten: Abd al-Razzaq ibn Hammam erzählte mir, der sagte: Mein Vater informierte mich von Mina, dem Freigelassenen des Abd al-Rahman ibn Awf, von Jabir ibn Abdullah al-Ansari, der sagte:",
+          "ru": "Рассказал нам Мухаммад ибн Абдуллах ибн аль-Муаммар ат-Табарани в Табории в 333 году (и этот человек был из мавалий Йазида ибн Муавии и из племени ан-Нусба), сказав: Рассказал мне мой отец, который сказал: Рассказали мне Али ибн Хашим и аль-Хусайн ибн ас-Сакан вместе, сказав: Рассказал мне Абд ар-Раззак ибн Хаммам, который сказал: Мой отец сообщил мне от Мины, мавлия Абд ар-Рахмана ибн Ауфа, от Джабира ибн Абдуллаха аль-Ансари, который сказал:",
+          "zh": "穆罕默德·本·阿卜杜拉·本·穆阿马尔·塔巴里在塔布里耶（公元333年）传述给我（此人是叶齐德·本·穆阿维叶的释奴，属于纳斯卜部族），他父亲说：阿里·本·哈希姆和侯赛因·本·萨坎共同传述给我，他们说：阿卜杜·拉扎格·本·哈马姆传述给我，他说：我父亲告诉我，从米纳（阿卜杜·拉赫曼·本·奥夫的释奴）那里，从贾比尔·本·阿卜杜拉·安萨里那里，他说："
+        },
+        "word_start": 0,
+        "word_end": 60
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَفَدَ عَلَى رَسُولِ اللَّهِ أَهْلُ الْيَمَنِ فَقَالَ النَّبِيُّ: جَاءَكُمْ أَهْلُ الْيَمَنِ يَبُوسُونَ بَسِيسًا. فَلَمَّا دَخَلُوا عَلَى رَسُولِ اللَّهِ قَالَ: قَوْمٌ رَقِيقَةٌ قُلُوبُهُمْ، رَاسِخٌ إِيمَانُهُمْ. وَمِنْهُمُ الْمَنْصُورُ؛ يَخْرُجُ فِي سَبْعِينَ أَلْفًا يَنْصُرُ خَلَفِي وَخَلَفَ وَصِيِّي. حَمَائِلُ سُيُوفِهِمُ الْمِسْكُ.",
+        "translations": {
+          "en": "A delegation from the people of Yemen came to the Messenger of Allah. The Prophet said: 'They come to you gently.' When they entered upon the Messenger of Allah, he said: 'A people with tender hearts, firm in their faith. Among them is al-Mansoor; he will emerge with seventy thousand men, supporting my descendant and the descendant of my guardian. The sheaths of their swords are made of musk.'",
+          "ur": "یمن کے لوگوں کی ایک وفد رسول اللہ ﷺ کے پاس آئی۔ نبی ﷺ نے فرمایا: 'وہ تمہارے پاس نرمی سے آتے ہیں۔' جب وہ رسول اللہ ﷺ کے پاس داخل ہوئے تو آپ ﷺ نے فرمایا: 'دل نرم، ایمان میں مضبوط لوگ۔ ان میں سے المنصور ہے، وہ ستھ ہزار فوج کے ساتھ نکلے گا، میرے نسل والے اور میرے سرپرست کے نسل والے کی مدد کرے گا۔ ان کے تلواروں کے غلاف مشک کے بنے ہیں۔'",
+          "tr": "Yemen halkından bir heyet, Allah'ın Elçisi'ne geldi. Peygamber (s.a.v.) şöyle buyurdu: 'Onlar sana yumuşaklıkla gelirler.' Allah'ın Elçisi'nin huzuruna girdiklerinde, şöyle buyurdu: 'Kalpleri yumuşak, imanlarında kararlı bir kavimdir. Onlardan el-Mansur vardır; yetmiş bin kişiyle birlikte çıkar, atamın soyundan ve velimin soyundan olanı destekler. Kılıçlarının kınları müz ile yapılır.'",
+          "fa": " delegاتی از مردم یمن نزد پیامبر خدا آمدند. پیامبر فرمود: «آنان با ملایمت نزد شما می‌آیند.» هنگامی که آنان بر پیامبر خدا وارد شدند، او فرمود: «مردمی با دل‌های نرم و استوار در ایمان. در میان آنان المنصور است؛ او با هفتاد هزار مرد ظهور می‌کند و نسل پیامبر و نسل سرپرست من را یاری می‌دهند. غلاف‌های شمشیرهای آنان از مشک ساخته شده است.»",
+          "id": "Sebuah delegasi dari penduduk Yaman datang kepada Rasulullah. Nabi bersabda, 'Mereka datang kepadamu dengan lembut.' Ketika mereka masuk kepada Rasulullah, beliau bersabda, 'Suatu kaum yang memiliki hati yang lembut, teguh dalam keimanan. Di antara mereka ada al-Mansoor; ia akan muncul dengan tujuh puluh ribu pasukan, mendukung keturunanku dan keturunan wali-ku. Sarung pedang mereka terbuat dari kesturi.'",
+          "bn": "যেমন বর্ণনা করেছেন আবু হুরায়রা (রা.), তিনি বলেন, ইয়েমের লোকদের একটি দল রাসুলুল্লাহ (সা)-এর কাছে এলেন। নবী (সা) বললেন, 'তারা তোমাদের কাছে কোমলভাবে আসবে।' যখন তারা রাসুলুল্লাহ (সা)-এর কাছে প্রবেশ করলেন, তিনি বললেন, 'একটি লোকদল যাদের হৃদয় কোমল, যারা তাদের ঈদামে দৃঢ়। তাদের মধ্যে আল-মানসূর রয়েছে; সে সাত হাজার পুরুষের সাথে বের হবে, আমার বংশধর এবং আমার ওলির বংশধরের সমর্থন করে। তাদের তরবারির খোপা মসৃণ।'",
+          "es": "Vino una delegación del pueblo de Yemen hacia el Mensajero de Allah. El Profeta dijo: «Vienen a vosotros con suavidad». Cuando entraron ante el Mensajero de Allah, él dijo: «Un pueblo de corazones tiernos, firmes en su fe. Entre ellos está al-Mansoor; saldrá con setenta mil hombres, apoyando a mi descendiente y al descendiente de mi tutor. Las vainas de sus espadas están hechas de almizcle.»",
+          "fr": "Une délégation des gens du Yémen vint trouver le Messager d'Allah. Le Prophète dit : « Ils viennent à vous avec douceur. » Lorsqu'ils entrèrent auprès du Messager d'Allah, il dit : « Un peuple au cœur tendre, ferme dans sa foi. Parmi eux se trouve al-Mansoor ; il surgira avec soixante-dix mille hommes, soutenant mon descendant et le descendant de mon tuteur. Les fourreaux de leurs épées sont en musc. »",
+          "de": "Eine Delegation aus den Leuten von Jemen kam zum Gesandten Allahs. Der Prophet sagte: „Sie kommen sanft zu euch.“ Als sie zum Gesandten Allahs eintraten, sagte er: „Ein Volk mit zarten Herzen, fest im Glauben. Unter ihnen ist al-Mansur; er wird mit siebzigtausend Männern auftauchen, die den Nachkommen meines Schützlings und den Nachkommen meines Vormunds unterstützen. Die Scheiden ihrer Schwerter sind aus Moschus gefertigt.“",
+          "ru": "Прибыл посол от народа Йемена к Посланнику Аллаха. Пророй. Пророк сказал: «Они придут к вам мягко». Когда они вошли к Посланнику Аллаха, он сказал: «Народ с нежными сердцами, крепкие в вере. Среди них аль-Мансур; он выйдет с семидесятью тысячами воинов, поддерживая потомка моего и потомка моего опекуна. Ножны их мечей сделаны из мускуса».",
+          "zh": "也"
+        },
+        "word_start": 60,
+        "word_end": 97
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالُوا: يَا رَسُولَ اللَّهِ وَمَنْ وَصِيُّكَ؟ فَقَالَ: هُوَ الَّذِي أَمَرَكُمُ اللَّهُ بِالِاعْتِصَامِ بِهِ فَقَالَ: وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا ۚ فَقَالُوا: يَا رَسُولَ اللَّهِ بَيِّنْ لَنَا مَا هَذَا الْحَبْلُ. فَقَالَ: هُوَ قَوْلُ اللَّهِ: ضُرِبَتْ عَلَيْهِمُ الذِّلَّةُ أَيْنَمَا ثُقِفُوا إِلَّا بِحَبْلٍ مِنَ اللَّهِ وَحَبْلٍ مِنَ النَّاسِ وَبَاءُوا بِغَضَبٍ مِنَ اللَّهِ وَضُرِبَتْ عَلَيْهِمُ الْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ فَالْحَبْلُ مِنَ اللَّهِ كِتَابُهُ، وَالْحَبْلُ مِنَ النَّاسِ وَصِيِّي.",
+        "translations": {
+          "en": "They said: 'O Messenger of Allah, who is your guardian?' He said: 'It is he whom Allah has commanded you to hold fast to,' citing: (And hold fast by the rope of Allah all together and be not disunited). They said: 'O Messenger of Allah, clarify for us what this rope is.' He said: 'It is the saying of Allah: (Struck upon them is the disgrace wherever they are found, except for a rope from Allah and a rope from men)... That is because they disbelieved in the signs of Allah and killed the prophets without right. That is for what they disobeyed and used to transgress. So the Rope from Allah is His Book, and the Rope from people is my guardian.'",
+          "ur": "انہوں نے کہا: اے اللہ کے رسول! آپ کا ولی کون ہے؟ آپ نے فرمایا: وہ جسے اللہ نے تمہیں پکڑنے کا حکم دیا ہے، اور یہ آیت پڑھی: (اور اللہ کی رسی کو مضبوطی سے تھامے ہوئے رہو اور آپس میں بکھر نہ جانا)۔ انہوں نے کہا: اے اللہ کے رسول! اس رسی کے بارے میں ہمیں واضح کر دیں۔ آپ نے فرمایا: یہ اللہ کا قول ہے: (جہاں کہیں بھی پائے جائیں گے ان پر ذلت مچھڑی ہوئی ہے، سوائے اس رسی کے جو اللہ ہو اور لوگوں کی رسی)... یہ اس لیے کہ انہوں نے اللہ کی آیتوں پر کفر کیا اور انبیاء کو ناحق قتل کیا۔ یہ ان کی نافرمانی اور سرکشی کی وجہ سے ہے۔ پس اللہ کی رسی اس کا کتاب ہے اور لوگوں کی رسی میرا ولی ہے۔",
+          "tr": "Ashab dediler ki: \"Ey Allah'ın Rasûlü, veliniz kimdir?\" O da buyurdu: \"Allah'ın size tutunmanızı emrettiği odur,\" ve şu ayeti zikretti: \"(Allah'ın ipine hep birlikte sımsıkı sarılın ve bölünüp parçalanmayın).\" Dediler ki: \"Ey Allah'ın Rasûlü, bu ipin ne olduğunu bize açıkla.\" Buyurdu: \"Allah'ın sözü budur: (Onlara nerede bulunurlarsa bulunulsun ut ve aşağılık çarptırılmıştır, ancak Allah'ın ipi ve insanların ipi hariç)... Bu, Allah'ın ayetlerine küfretmeleri ve peygamberleri haksız yere öldürmeleri içindir. Bu, isyan etmelerinden ve sınır tanımazlık etmelerindendir. Öyleyse Allah'ın ipi O'nun Kitabıdır, insanların ipi ise benim velimdir.\"",
+          "fa": "گفتند: «ای رسول خدا، مولای تو کیست؟» فرمود: «آن کسی است که خداوند شما را به چنگ زدن به او فرمان داده است، با استناد به این آیه: «و همه با هم به ریسمان خدا چنگ زنید و پراکنده نشوید.» گفتند: «ای رسول خدا، برای ما روشن ساز که این ریسمان چیست.» فرمود: «این گفتار خداوند است: «خوارى بر آنان به هر جا که باشند بسته شده است، مگر آن ریسمان از خدا و ریسمانى از مردم...» به خاطر این است که آنان به آیات خدا کفر ورزیدند و پیامبران را بی‌حق کشتند. به خاطر نافرمانی و سرکشی‌شان بود. پس ریسمان از خدا، کتاب اوست و ریسمان از مردم، مولای من است.»",
+          "id": "Mereka berkata, 'Wahai Rasulullah, siapakah wali (pelindung) Anda?' Beliau menjawab, 'Ia adalah orang yang Allah perintahkan kalian untuk berpegang teguh kepadanya,' dengan menyebutkan ayat: (Dan berpegang teguhlah kalian semua pada tali Allah dan janganlah kalian bercerai berai). Mereka berkata, 'Wahai Rasulullah, jelaskanlah kepada kami apa tali itu.' Beliau menjawab, 'Itu adalah firman Allah: (Dipukul atas mereka kehinaan di mana saja mereka ditemukan, kecuali dengan tali dari Allah dan tali dari manusia)... Hal itu karena mereka kafir terhadap tanda-tanda Allah dan membunuh para nabi tanpa hak. Itu karena mereka mendurhaki dan biasa melampaui batas. Maka, Tali dari Allah adalah Kitab-Nya, dan Tali dari manusia adalah wali (pelindung) saya.'",
+          "bn": "তারা বলল, 'হে আল্লাহর রাসূল, আপনার ওয়ালি কে?' তিনি বললেন, 'যাকে আল্লাহ তোমাদেরকে ধারণ করতে আদেশ করেছেন,' এবং এ আয়াত উদ্ধৃত করলেন: (এবং তোমরা সকলে মিলে আল্লাহর রশি ধারণ করো এবং বিভক্ত হও না)। তারা বলল, 'হে আল্লাহর রাসূল, আমাদের জন্য স্পষ্ট করুন এই রশি কী?' তিনি বললেন, 'এটি আল্লাহর বাক্য: (যেখানেই তারা পাওয়া যাবে, তাদের উপরে লাঞ্ছনা অবতীর্ণ হয়েছে, ছাড়া আল্লাহর রশি এবং মানুষের রশির)...' এ কারণে যে, তারা আল্লাহর আয়াতসমূহে অ বিশ্বাসী হয়েছিল এবং নবীদেরকে অধিকারহীনভাবে হত্যা করেছিল। এ তাদের অবাধ্যতা এবং সীমালঙ্ঘনের জন্য। সুতরাং আল্লাহর রশি হলো তাঁর কিতাব, এবং মানুষের রশি হলো আমার ওয়ালি।'",
+          "es": "Dijeron: «¡Mensajero de Alá!, ¿quién es tu tutor?». Él dijo: «Es aquel a quien Alá os ha ordenado aferrarse a él», citando: «Y aferraos todos al cordón de Alá y no os dividáis». Dijeron: «¡Mensajero de Alá!, acláranos qué es ese cordón». Él dijo: «Es la palabra de Alá: «Se les ha impuesto la humillación dondequiera que sean encontrados, excepto el cordón de Alá y el cordón de los hombres»... Esto se debe a que descreyeron de las señales de Alá y mataron a los profetas sin derecho. Esto es por lo que desobedecieron y solían transgredir. Así que el Cordón de Alá es Su Libro, y el Cordón de las personas es mi tutor».",
+          "fr": "Ils dirent : « Ô Messager d'Allah, qui est ton tuteur ? » Il dit : « C'est celui qu'Allah vous a ordonné de saisir fermement », citant : « Et attachez-vous tous au cordon d'Allah et ne soyez pas divisés. » Ils dirent : « Ô Messager d'Allah, clarifiez-nous ce qu'est ce cordon. » Il dit : « C'est la parole d'Allah : « Une humiliation les frappe partout où ils se trouvent, sauf si c'est un cordon d'Allah et un cordon des hommes... » C'est parce qu'ils ont mécrû dans les signes d'Allah et tué les prophètes sans droit. C'est pour ce qu'ils ont désobéi et transgressé. Ainsi, le Cordon d'Allah est Son Livre, et le Cordon des hommes est mon tuteur. »",
+          "de": "Sie sagten: „O Gesandter Allahs Allahs, wer ist dein Schutzbefohener?“ Er sagte: „Es ist derjenige, den Allah euch befohlen hat, festzuhalten“, unter Verweis auf: „Und haltet alle zusammen am Strick Allahs und seid nicht zerstritten.“ Sie sagten: „O Gesandter Allahs, klärt uns auf, was dieses Strick ist.“ Er sagte: „Es ist die Aussage Allahs: „Ermordet mit Schande, wo immer sie angetroffen werden, außer dem Strick Allahs und dem Strick der Menschen“ … Das, weil sie die Zeichen Allahs leugneten und die Propheten ohne Recht töteten. Das ist, weil sie ungehorsam waren und überschritten. Also ist das Strick Allahs Sein Buch, und das Strick der Menschen ist mein Schutzbefohlener.“",
+          "ru": "Они сказали: «О Посланник Аллаха, кто твой покровитель?» Он сказал: «Это тот, кого Аллах повелел вам держаться за него», приведя аят: «И держитесь все за канат Аллаха и не разлучайтесь». Они сказали: «О Посланник Аллаха, разъясни нам, что это за канат». Он сказал: «Это слово Аллаха: „На них наложено позорное клеймо, где бы они ни были, кроме тех, кто держится за канат Аллаха и канат людей“… За то, что они не уверовали в знамения Аллаха и убили пророков без права, за то, что они ослушались и превышали границы. Итак, канат Аллаха — это Его Книга, а канат людей — мой покровитель».",
+          "zh": "他们说：‘真主的使者啊，你的监护人是谁？’他说：‘就是真主命令你们紧紧抓住的那一位，’并引用经文：‘你们当全体紧握真主的绳索，不要分裂。’他们说：‘真主的使者啊，请为我们阐明这绳索是什么。’他说：‘这是真主的话：“无论他们在哪里被找到，都会遭受耻辱，除非他们紧握真主的绳索和众人的绳索……”这是因为他们不信真主的迹象，且无故杀害先知。这是因他们违抗真主并常越轨。所以，真主的绳索就是他的经典，众人的绳索就是我的监护人。’"
+        },
+        "word_start": 97,
+        "word_end": 175
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالُوا: يَا رَسُولَ اللَّهِ مَنْ وَصِيُّكَ؟ فَقَالَ: هُوَ الَّذِي أَنْزَلَ اللَّهُ فِيهِ: أَنْ تَقُولَ نَفْسٌ يَا حَسْرَتَا عَلَىٰ مَا فَرَّطْتُ فِي جَنْبِ اللَّهِ وَإِنْ كُنْتُ لَمِنَ السَّاخِرِينَ. فَقَالُوا: يَا رَسُولَ اللَّهِ وَمَا جَنْبُ اللَّهِ هَذَا؟ فَقَالَ: هُوَ الَّذِي يَقُولُ اللَّهُ فِيهِ: ﴿وَيَوْمَ يَعَضُّ الظَّالِمُ عَلَىٰ يَدَيْهِ يَقُولُ يَا لَيْتَنِي اتَّخَذْتُ مَعَ الرَّسُولِ سَبِيلًا﴾. هُوَ وَصِيِّي وَالسَّبِيلُ إِلَيَّ مِنْ بَعْدِي.",
+        "translations": {
+          "en": "They said: 'O Messenger of Allah, who is your guardian?' He said: 'It is he about whom Allah revealed: (Lest a soul should say: O woe to me for what I fell short in the service of Allah, even if I was among those who mock). They said: 'O Messenger of Allah, what is this service of Allah?' He said: 'It is what Allah says: (And the day when the wrongdoer will bite on his hands [in regret] saying: O I wish I had taken a path with the Messenger). He is my guardian, and the path to me after me.'",
+          "ur": "انہوں نے کہا: اے اللہ کے رسول! آپ کے ولی (سرپرست) کون ہیں؟ آپ نے فرمایا: وہ شخص جس کے بارے میں اللہ تعالیٰ نے یہ آیت نازل فرمائی: (کہیں ایسا نہ ہو کہ کوئی شخص کہے: اے میرے لیے افسوس کہ میں نے اللہ کی عبادت میں کمی کی، حالانکہ میں تمسخر کرنے والوں میں سے تھا)۔ انہوں نے کہا: اے اللہ کے رسول! یہ اللہ کی عبادت کیا ہے؟ آپ نے فرمایا: یہ وہ ہے جس کے بارے میں اللہ تعالیٰ نے فرمایا: (اور جس دن ظالم اپنے ہاتھ کاٹے گا (پچھتاوے میں) کہ کہتا ہے: اے کاش میں نے رسول کے ساتھ ایک راستہ اختیار کر لیا ہوتا)۔ وہ میرے ولی ہیں، اور میرے بعد میرا راستہ۔",
+          "tr": "«Allah’ın Rasûlü, veliniz kimdir?» dediler. O da, «Allah’ın: «(Bir ruh, «Eyvah bana! Allah’ın ibadetında eksik kaldığım için)» demesinden sakınmak için, (eğer alay edenlerden olsam bile)» ayetini indirdiği odur» dedi. «Allah’ın Rasûlü, bu Allah’ın ibadeti nedir?» dediler. O da, «Allah’ın: «(Zalimler, pişmanlık içinde ellerini ısırdıkları gün: «Keşke Rasûl ile birlikte bir yol tutsaydım» derler)» buyurduğu odur. O benim velimdir, benden sonra bana giden yoldur» dedi.",
+          "fa": "گفتند: «ای رسول خدا، مولای تو کیست؟» فرمود: «او کسی است که خداوند درباره‌اش فرمود: «(مبادا کسی بگوید: وای بر من برای آنچه در خدمت خدا کوتاهی کردم، اگرچه از طعنه‌کنندگان بودم).» گفتند: «ای رسول خدا، این خدمت خدا چیست؟» فرمود: «آنچه خداوند می‌فرماید: «و روزی که گناهکاران دست‌های خود را از سر پشیمانی به دندان می‌گیرند و می‌گویند: ای کاش راهی با رسول [خدا] برمی‌گزیدم.» او مولای من است، و راه من پس از من.»",
+          "id": "Mereka berkata, 'Wahai Utusan Allah, siapakah wali (pelindung) Anda?' Beliau menjawab, 'Beliaulah yang dimaksud dalam wahyu Allah: (Agar jangan sampai seorang jiwa berkata, 'Celakalah aku atas apa yang telah aku kurang dalam beribadah kepada Allah), meskipun aku termasuk orang-orang yang memperolok-olok.' Mereka bertanya, 'Wahai Utusan Allah, apakah ibadah kepada Allah itu?' Beliau menjawab, 'Itulah yang dimaksud Allah dalam firman-Nya: (Dan pada hari ketika orang-orang yang zalim menggigit kedua tangannya (dalam penyesalan) sambil berkata, 'Ah, kirakira aku telah mengambil jalan bersama Utusan Allah'). Dialah wali (pelindung)ku, dan jalan menuju diriku setelahku.'",
+          "bn": "তারা বলল, 'হে আল্লাহর রাসূল, আপনার আওলিয়া কে?' তিনি বললেন, 'যার বিষয়ে আল্লাহ তায়ালা অবতীর্ণ করেছেন: (যেন কোনো জীবন না বলে, হায় আমার উপর আল্লাহর ইবাদতে কী ঘাটতি হয়েছিল, যদিও আমি উপহাসকারীদের অন্তর্ভুক্ত ছিলাম)। তারা বলল, 'হে আল্লাহর রাসূল, আল্লাহর ইবাদত কী?' তিনি বললেন, 'যা আল্লাহ তায়ালা বলেছেন: (এবং যে দিন অপরাধীরা তার হাত কামড়াবে [পশ্চাত্তাপে] বলে, হায় আমি যদি রাসূলের সাথে একটি পথ অনুসরণ করতাম)। তিনিই আমার আওলিয়া, এবং আমার পরে আমার পথ।'",
+          "es": "Dijeron: «¡Mensajero de Alá, quién es tu tutor?». Él dijo: «Es aquel acerca de quien Alá reveló: «Para que no diga el alma: ¡Ay de mí por lo que me faltó en el servicio de Alá, aunque haya sido de los que se burlaban!». Dijeron: «¡Mensajero de Alá, qué es ese servicio de Alá?». Él dijo: «Es lo que Alá dice: «Y el día en que el que ha obrado mal se mordrá las manos [con arrepentimiento] diciendo: ¡Ojalá hubiera tomado un camino junto al Mensajero!». Él es mi tutor, y el camino hacia mí después de mí».",
+          "fr": "Ils dirent : « Ô Messager d'Allah, qui est ton tuteur ? » Il répondit : « C'est celui à propos duquel Allah a révélé : « De peur qu'une âme ne dise : Hélas pour moi, pour ce que j'ai manqué dans le service d'Allah, même si j'étais parmi ceux qui se moquent [de Lui] ». Ils dirent : « Ô Messager d'Allah, qu'est-ce que ce service d'Allah ? » Il répondit : « C'est ce qu'Allah dit : « Et le jour où le transgresseur se mordra les mains [de regret] en disant : Hélas ! J'aurais dû prendre un chemin avec le Messager ». C'est mon tuteur, et le chemin vers moi après moi. »",
+          "de": "Sie sagten: „O Gesandter Allahs, wer ist dein Beschützer?“ Er sagte: „Er ist derjenige, über den Allah offenbarte: ‚(Damit keine Seele spricht: O Weh über mich dafür, was ich an Dienst für Allah versäumt habe, selbst wenn ich zu den Spöttern gehörte).‘ Sie sagten: „O Gesandter Allahs, was ist dieser Dienst für Allah?“ Er sagte: „Es ist das, was Allah sagt: ‚(Und der Tag, an dem der Sünder auf seine Hände beißen wird [in Reue] und sprechen wird: O wäre ich doch einen Weg mit dem Gesandten gegangen).‘ Er ist mein Beschützer, und der Weg zu mir nach mir.“",
+          "ru": "Они сказали: «О Посланник Аллаха, кто твой покровитель?» Он сказал: «Это тот, о ком Аллах открыл: „Дабы не сказал кто-либо: „О горе мне за то, чего я недосмотрел в служении Аллаху, даже если бы я был среди насмехающихся““». Они сказали: «О Посланник Аллаха, что это за служение Аллаху?» Он сказал: «Это то, о чём говорит Аллах: „И в тот день, когда грешник будет кусать свои руки (от сожаления), говоря: „О, если бы я избрал путь вместе с Посланником“““. Он — мой покровитель, и путь ко мне после меня».",
+          "zh": "他们说：‘真主的使者啊，你的监护人是谁？’他说：‘就是真主所启示的那位：以免灵魂说：哎呀，我对于真主的侍奉有所欠缺，即使我曾属于嘲笑者之中。’他们说：‘真主的使者啊，什么是真主的侍奉？’他说：‘就是真主所说的：当不义者咬着自己的手说：哎呀，但愿我曾与使者同走一条道路。’他就是我的监护人，而我之后的道路也是他的。'"
+        },
+        "word_start": 175,
+        "word_end": 234
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالُوا: يَا رَسُولَ اللَّهِ بِالَّذِي بَعَثَكَ بِالْحَقِّ نَبِيًّا أَرِنَاهُ فَقَدْ اشْتَقْنَا إِلَيْهِ. فَقَالَ: هُوَ الَّذِي جَعَلَهُ اللَّهُ آيَةً لِلْمُؤْمِنِينَ الْمُتَوَسِّمِينَ، فَإِنْ نَظَرْتُمْ إِلَيْهِ نَظَرَ مَنْ كَانَ لَهُ قَلْبٌ أَوْ أَلْقَى السَّمْعَ وَهُوَ شَهِيدٌ عَرَفْتُمُوهُ أَنَّهُ وَصِيِّي كَمَا عَرَفْتُمْ أَنِّي نَبِيُّكُمْ، فَتَخَلَّلُوا الصُّفُوفَ وَتَصَفَّحُوا الْوُجُوهَ فَمَنْ أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ فَإِنَّهُ هُوَ، لِأَنَّ اللَّهَ يَقُولُ فِي كِتَابِهِ: رَبَّنَا إِنِّي أَسْكَنْتُ مِنْ ذُرِّيَّتِي بِوَادٍ غَيْرِ ذِي زَرْعٍ عِنْدَ بَيْتِكَ الْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا الصَّلَاةَ فَاجْعَلْ أَفْئِدَةً مِنَ النَّاسِ تَهْوِي إِلَيْهِمْ وَارْزُقْهُمْ مِنَ الثَّمَرَاتِ لَعَلَّهُمْ يَشْكُرُونَ. أَيِ إِلَيْهِ وَإِلَى ذُرِّيَّتِهِ.",
+        "translations": {
+          "en": "They said: 'O Messenger of Allah, by Him who sent you with the truth as a prophet, show him to us, for we have longed for him.' He said: 'He is the one Allah has made a sign for the believers who perceive. If you look at him with the look of one who has a heart or listens attentively while he is a witness, you will know that he is my guardian as you know that I am your prophet. So move through the rows and scan the faces; whoever your hearts incline towards, that is he, because Allah says in His Book: (My Lord, I have settled some of my descendants in an uncultivated valley near Your sacred House, so establish hearts of some among the people towards them and provide them with fruits...), meaning towards him and his descendants.' Then Abu Aamir al-Ash'ari stood among the Ash'aris, Abu Ghurra al-Khawlani among the Khawlan, Dhubyan, Uthman ibn Qays among Banu Qays, Arana al-Dusi among the Dusi, and Lahiq ibn 'Alaqah. They moved through the rows, scanned the faces, and took the hand of the bald, stout man and said: 'O Messenger of Allah, our hearts inclined towards this man.' The Prophet said: 'You are the elite of Allah in that you recognized the Prophet's guardian before being told about him. How did you know that he was him?' They raised their voices weeping and said: 'O Messenger of Allah, we looked at the people but our hearts did not incline to them. When we saw him, our hearts trembled, then our souls found peace, our chests became pleased, and our eyes shed tears, as if he were our father and we were his sons.' The Prophet said: (But none knows its interpretation except Allah and those firmly rooted in knowledge). You are of them in the rank by which the best has preceded for you, and you are far from the Fire.' These men remained until they fought with the Commander of the Faithful in al-Jamal and Siffeen, and were martyred at Siffeen. May Allah have mercy on them. The Prophet had given them good news of Paradise and informed them that they would be martyred with Ali ibn Abi Talib.",
+          "id": "Mereka berkata, 'Wahai Utusan Allah, demi Dzat yang mengutusmu dengan kebenaran sebagai seorang nabi, tunjukkanlah dia kepada kami, karena kami telah lama merindukannya.' Beliau bersabda, 'Dia adalah orang yang Allah jadikan tanda bagi orang-orang beriman yang memiliki pemahaman. Jika kamu melihatnya dengan pandangan orang yang memiliki hati atau mendengarkan dengan saksama ketika dia menjadi saksi, kamu akan mengetahui bahwa dia adalah wali-ku sebagaimana kamu mengetahui bahwa aku adalah utusanmu. Maka berjalanlah melalui shaf-shaf dan perhatikan wajah-wajah; barangsiapa yang hati kamu condong kepadanya, dialah dia, karena Allah berfirman dalam Kitab-Nya: (Ya Tuhanku, sesungguhnya aku telah menempatkan sebagian keturunanku di lembah yang tidak mempunyai tanam-tanaman di dekat rumah Engkau (Ka'bah) yang dihormati, ya Tuhan (yang demikian itu) agar mereka mendirikan salat, maka jadikanlah hati sebagian manusia cenderung kepada mereka dan berilah mereka rezeki dari buah-buahan...), maksudnya condong kepadanya dan kepada keturunannya.' Kemudian Abu Aamir al-Ash'ari berdiri di antara orang-orang Ash'ari, Abu Ghurra al-Khawlani di antara orang-orang Khawlan, Dhubyan, Utsman bin Qais di antara Bani Qais, Arana al-Dusi di antara orang-orang Dusi, dan Lahiq bin 'Alaqah. Mereka berjalan melalui shaf-shaf, memperhatikan wajah-wajah, dan memegang tangan seorang pria yang botak dan gemuk, lalu berkata, 'Wahai Utusan Allah, hati kami condong kepada pria ini.' Nabi bersabda, 'Kamulah orang-orang pilihan Allah karena kamu telah mengenal wali Nabi sebelum diberi tahu tentangnya. Bagaimana kamu tahu bahwa dialah dia?' Mereka mengangkat suara sambil menangis dan berkata, 'Wahai Utusan Allah, kami melihat orang-orang tetapi hati kami tidak condong kepada mereka. Ketika kami melihatnya, hati kami bergetar, kemudian jiwa kami menemukan ketenangan, dada kami menjadi senang, dan mata kami meneteskan air mata, seakan-akan dia adalah ayah kami dan kami adalah anak-anaknya.' Nabi bersabda, (Tetapi tidak ada yang mengetahui ta'wilnya kecuali Allah dan orang-orang yang teguh dalam ilmu). Kamulah termasuk mereka dalam tingkatan di mana yang terbaik telah mendahului untukmu, dan kamu jauh dari Neraka.' Para pria ini tetap bertahan hingga mereka berperang dengan Panglima Orang Beriman di al-Jamal dan Shiffin, dan gugur sebagai syuhada di Shiffin. Semoga Allah merahmati mereka. Nabi telah memberi mereka kabar gembira tentang surga dan menginformasikan kepada mereka bahwa mereka akan gugur bersama Ali bin Abi Thalib.",
+          "es": "Dijeron: «¡Mensajero de Alá! Por Aquel que te envió con la verdad como profeta, muéstranoslo, pues hemos anhelado verlo». Él dijo: «Él es aquel que Alá ha establecido como señal para los creyentes que perciben. Si lo miráis con la mirada de quien tiene corazón o escucháis atentamente mientras él es testigo, sabréis que él es mi tutor, tal como sabéis que yo soy vuestro profeta. Así que recorred las filas y observad los rostros; aquel hacia quien se incline vuestro corazón, ese es él, porque Alá dice en Su Libro: «He establecido a algunos de mis descendientes en un valle árido cerca de Tu Sagrado Templo, para que inclines los corazones de algunas personas hacia ellos y les proporciones frutos...», es decir, hacia él y sus descendientes». Entonces, Abu Aamir al-Ash'ari se levantó entre los ash'aríes, Abu Ghurra al-Jawlani entre los jawlaníes, Dhubyan, Uthman ibn Qays entre Banu Qays, Arana al-Dusi entre los dusi, y Lahiq ibn 'Alaqah. Recorrieron las filas, observaron los rostros y tomaron la mano del hombre calvo y corpulento, diciendo: «¡Mensajero de Alá, nuestro corazón se ha inclinado hacia este hombre». El Profeta dijo: «Sois la élite de Alá, pues reconocisteis al tutor del Profeta antes de que se os informara de ello. ¿Cómo supisteis que era él?». Ellos alzaron la voz llorando y dijeron: «¡Mensajero de Alá! Miramos a la gente, pero nuestros corazones no se inclinaron hacia ellos. Cuando lo vimos, nuestros corazones temblaron, luego nuestras almas encontraron paz, nuestros pechos se llenaron de alegría y nuestros ojos derramaron lágrimas, como si él fuera nuestro padre y nosotros sus hijos». El Profeta dijo: «Pero nadie conoce su interpretación excepto Alá y los firmemente arraigados en el conocimiento». Vosotros sois de ellos en el grado por el cual os ha precedido lo mejor, y estáis lejos del Fuego». Estos hombres permanecieron hasta que lucharon con el Comandante de los Creyentes en al-Jamal y Siffeen, y fueron martirizados en Siffeen. Que Alá tenga misericordia de ellos. El Profeta les había dado la buena nueva del Paraíso e informado de que serían martirizados junto a Ali ibn Abi Talib».",
+          "zh": "他们说：‘真主的使者啊，以赐你真理作为先知的真主起誓，请让我们看看他，因为我们长久以来一直渴望见到他。’他说：‘他就是真主为有知觉的信士们设立的迹象。如果你用拥有心灵的人的目光注视他，或者在他是见证者时专心聆听，你就会知道他是我的监护人，正如你知道我是你们的先知一样。所以穿过队伍，审视面孔；无论你们的心倾向于谁，那就是他，因为真主在他的经典中说：‘我的主啊，我将我的部分后裔安置在你神圣的房屋附近的一个未开垦的山谷中，使人们心中倾向他们，并供给他们果实……’，意思是倾向他和他的后裔。’随后，阿布·阿米尔·阿什阿里站在阿什阿里人中间，阿布·格拉·胡瓦利尼站在胡瓦兰人中间，祖比扬·奥斯曼·本·盖斯站在班尼·盖斯人中间，阿拉纳·杜西站在杜西人中间，拉希克·本·阿拉卡。他们穿过队伍，审视面孔，抓住那个秃顶、身材魁梧的人的手，说：‘真主的使者啊，我们的心倾向于这个人。’先知说：‘你们是真主的精英，因为在被告知之前你们就认出了先知的监护人。你们怎么知道他就是他呢？’他们提高声音哭泣着说：‘真主的使者啊，我们看着众人，但我们的内心并不倾向他们。当我们看到他时，我们的心颤抖，然后我们的灵魂找到了安宁，我们的胸膛感到愉悦，我们的眼睛流下了泪水，仿佛他是我们的父亲，而我们是他的儿子。’先知说：‘但只有真主和那些在知识上坚定的人知道其解释。’你们在等级中属于他们，最好的已经为你们 precede，你们远离火狱。’这些人一直待到他们在贾马尔战役和绥芬战役中与信士的指挥官作战，并在绥芬战役中殉道。愿真主怜悯他们。先知曾给他们报喜乐园的好消息，并告知他们将与阿里·本·阿比·塔利卜一起殉道。",
+          "ur": "",
+          "tr": "",
+          "fa": "",
+          "bn": "",
+          "fr": "",
+          "de": "",
+          "ru": ""
+        },
+        "word_start": 234,
+        "word_end": 319
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from Al-Nu'mani’s *Kitab al-Ghayba* provides a foundational Shia argument for the divine designation (Nass) of Imam Ali (AS) as the Prophet’s successor, linking the 'Rope of Allah' and 'Rope of People' directly to the Quran and the Wasi. The narrative emphasizes the spiritual discernment of the Yemeni delegation, whose hearts inclined to Ali (AS) as a sign of faith, fulfilling the verse in Surah Ibrahim (14:24) regarding hearts drawn to the Imam. It further connects the concept of the 'Rasikhun fi al-'Ilm' (those firm in knowledge) from Suru Ali Imran (3:7) to the companions who recognized Ali’s unique status, validating their subsequent martyrdom alongside him at Siffin.",
+        "seo_question": "Who is the 'Rope of People' mentioned in the hadith of the Yemeni delegation?",
+        "key_terms": {
+          "الْمَنْصُورُ": "Al-Mansoor (The Victorious), a title for the leader of the delegation.",
+          "الْحَبْلُ مِنَ اللَّهِ": "The Rope from Allah, interpreted here as the Quran.",
+          "الْحَبْلُ مِنَ النَّاسِ": "The Rope from People, interpreted here as the Guardian (Wasi).",
+          "وَصِيِّي": "My Guardian/Successor.",
+          "جَنْبُ اللَّهِ": "The side/service of Allah, referring to the duty of the Imamate.",
+          "الْمُتَوَسِّمِينَ": "Those who perceive/observe with insight.",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "Your hearts inclined towards him.",
+          "النُّصْبَاء": "The Nusbah (a tribe/group known for opposing the Ahl al-Bayt)."
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث النعمانی کی کتاب الغیبہ سے شیعہ کے لیے امام علی (ع) کی الہی تعینات (نص) کا بنیادی دلائل فراہم کرتی ہے، جس میں 'رشتۂ الٰہی' اور 'رشتۂ خلق' کو براہ راست قرآن اور وصی سے جوڑا گیا ہے۔ اس روایت میں یمنی وفد کی روحانی بصیرت پر زور دیا گیا ہے، جن کے دل امام علی (ع) کی طرف مائل ہوئے، جو ایمان کی علامت تھی، اور یہ آیت سورہ ابراہیم (14:24) میں بیان کردہ دل کے امام کی طرف مائل ہونے کے واقعے کو پورا کرتی ہے۔ یہ مزید 'راسخون فی العلم' (جو علم میں مضبوط ہیں) کے تصور کو سورہ آل عمران (3:7) سے جوڑتی ہے، جو ان صحابہ سے منسوب ہے جنہوں نے امام علی (ع) کی منفرد حیثیت کو پہچانا، اور سقیفہ میں ان کے ساتھ شہادت کی تصدیق کی۔",
+        "seo_question": "یمنی وفد کی حدیث میں ذکر کردہ 'رشتۂ خلق' کون ہے؟",
+        "key_terms": {
+          "الْمَنْصُورُ": "الممنور (فتح پانے والا)",
+          "الْحَبْلُ مِنَ اللَّهِ": "رشتۂ الٰہی، جسے یہاں قرآن کے طور پر تعبیر کیا گیا ہے",
+          "الْحَبْلُ مِنَ النَّاسِ": "رشتۂ خلق، جسے یہاں محافظ (وصی) کے طور پر تعبیر کیا گیا ہے",
+          "وَصِيِّي": "میرا محافظ/جانشین",
+          "جَنْبُ اللَّهِ": "اللہ کی جانب/خدمت، جو امامت کے فرض کی طرف اشارہ کرتی ہے",
+          "الْمُتَوَسِّمِينَ": "جو بصیرت سے دیکھتے/مشاہدہ کرتے ہیں",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "آپ کے دل ان کی طرف مائل ہو گئے",
+          "النُّصْبَاء": "نصباہ (اہل بیت کے مخالف مشہور قبیلہ/گروہ)"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, El-Nûmânî’nin *Kitâbü’l-Gaybe* adlı eserinden alınmış olup, İmam Ali’nin (AS) Peygamber’in halefi olarak ilahi tayinini (Nass) destekleyen temel Şii argümanı sunar; 'Allah’ın İpi' ve 'İnsanların İpi' doğrudan Kur’an ve Vasi’ye bağlanır. Anlatı, Yemen heyetinin manevi ayırt etme yeteneğini vurgular; kalpleri imanın bir işareti olarak İmam Ali’ye (AS) yönelmiş olup, bu durum İbrahim Suresi’ndeki (14:24) kalplerin İmam’a yönlendirildiğine dair ayeti yerine getirir. Ayrıca, Âl-i İmrân Suresi’ndeki (3:7) 'Rasîhûn fi’l-İlm' (bilimde metin olanlar) kavramını, İmam Ali’nin benzersiz statüsünü tanıyan sahabelere bağlar ve Sıffin’de onunla birlikte şehit olmalarını doğrular.",
+        "seo_question": "Yemen heyetinin hadisinde geçen 'İnsanların İpi' kimdir?",
+        "key_terms": {
+          "الْمَنْصُورُ": "El-Mansûr (Zaferli), heyet lideri için bir unvan.",
+          "الْحَبْلُ مِنَ اللَّهِ": "Allah’tan İp, burada Kur’an olarak yorumlanır.",
+          "الْحَبْلُ مِنَ النَّاسِ": "İnsanlardan İp, burada Koruyucu (Vasi) olarak yorumlanır.",
+          "وَصِيِّي": "Benim Koruyucum/Halefim.",
+          "جَنْبُ اللَّهِ": "Allah’ın yanı/hizmeti, İmamet görevine atıfta bulunur.",
+          "الْمُتَوَسِّمِينَ": "Sezgiyle algılayanlar/gözlemleyenler.",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "Kalpleriniz ona yönelmişti.",
+          "النُّصْبَاء": "Nüsbâ (Ehl-i Beyt’e karşı çıkan kabile/grup)."
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از کتاب غیبت نعمانی، استدلال بنیادین شیعه برای تعیین الهی (نص) امام علی (ع) به عنوان جانشین پیامبر را ارائه می‌دهد و «حبل‌الله» و «حبل‌الناس» را مستقیماً به قرآن و وصی پیوند می‌زند. این روایت بر تشخیص معنوی delegat یمنی‌ها تأکید دارد، که دل‌هایشان به سوی علی (ع) گرایش یافت و این نشانه‌ای از ایمان بود، که آیه سوره ابراهیم (۱۴:۲۴) درباره دل‌های کشیده شده به سوی امام را محقق می‌سازد. همچنین مفهوم «راسخون در علم» از سوره آل عمران (۳:۷) را به صحابیان که جایگاه منحصر به فرد علی را شناختند، مرتبط می‌کند و شهادت بعدی آن‌ها در کنار او در صفین را تأیید می‌نماید.",
+        "seo_question": "حبل‌الناس که در حدیث وفد یمنی ذکر شده است، کیست؟",
+        "key_terms": {
+          "الْمَنْصُورُ": "منصور (پیروز)",
+          "الْحَبْلُ مِنَ اللَّهِ": "حبل‌الله (ریسمان خدا)",
+          "الْحَبْلُ مِنَ النَّاسِ": "حبل‌الناس (ریسمان مردم)",
+          "وَصِيِّي": "وصی من (وصی و جانشین من)",
+          "جَنْبُ اللَّهِ": "جنب‌الله (سوی خدا)",
+          "الْمُتَوَسِّمِينَ": "متوسمین (کسانی که با بصیرت مشاهده می‌کنند)",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "اهوت الیه قلوبکم (دل‌های شما به سوی او گرایش یافت)",
+          "النُّصْبَاء": "نصباء (قبیله‌ای که مخالف اهل بیت بودند)"
+        }
+      },
+      "id": {
+        "summary": "Hadith dari Al-Nu'mani dalam Kitab al-Ghayba memberikan argumen dasar Syiah mengenai penunjukan ilahi (Nass) terhadap Imam Ali (AS) sebagai penerus Nabi, yang menghubungkan 'Tali Allah' dan 'Tali Manusia' secara langsung dengan Al-Quran dan Wasi. Narasi ini menekankan kemampuan membedakan spiritual dari delegasi Yaman, yang hati mereka condong kepada Imam Ali (AS) sebagai tanda iman, sehingga memenuhi ayat dalam Surah Ibrahim (14:24) tentang hati yang tertarik kepada Imam. Hal ini lebih lanjut menghubungkan konsep 'Rasikhun fi al-Ilm' (mereka yang teguh dalam ilmu) dari Surah Ali Imran (3:7) dengan para sahabat yang mengenali status unik Ali, sehingga memvalidasi syahid mereka berikutnya bersamanya di Siffin.",
+        "seo_question": "Siapakah 'Tali Manusia' yang disebutkan dalam hadis delegasi Yaman?",
+        "key_terms": {
+          "الْمَنْصُورُ": "Al-Mansoor (Yang Dimenangkan)",
+          "الْحَبْلُ مِنَ اللَّهِ": "Tali dari Allah",
+          "الْحَبْلُ مِنَ النَّاسِ": "Tali dari Manusia",
+          "وَصِيِّي": "Wasi/Successor Saya",
+          "جَنْبُ اللَّهِ": "Sisi/pelayanan Allah",
+          "الْمُتَوَسِّمِينَ": "Mereka yang melihat/mengamati dengan wawasan",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "Hati-hati Anda condong kepadanya",
+          "النُّصْبَاء": "Al-Nusbah"
+        }
+      },
+      "bn": {
+        "summary": "আল-নুমানির *কিতাব আল-গায়েবা* থেকে এই হাদিস ইমাম আলী (আ.)-কে নবীর উত্তরসূরি হিসেবে ঐশ্বরিক নিয়োগ (নাস) এর শিয়া যুক্তির ভিত্তি প্রদান করে, 'আল্লাহর দড়ি' এবং 'লোকদের দড়ি'কে সরাসরি কুরআন এবং ওসির সাথে যুক্ত করে। এই বর্ণনায় ইয়েমেনের দলের আধ্যাত্মিক বিচারশক্তির গুরুত্ব তুলে ধরা হয়েছে, যাদের হৃদয় ঈমানের লক্ষণ হিসেবে আলী (আ.)-এর প্রতি ঝুঁকেছিল, যা সূরা ইবরাহীম (১৪:২৪)-এর আয়াত পূরণ করে। এটি আরও সূরা আল-ইমরান (৩:৭)-এর 'রাসিকুন ফিল-ইলম' (যারা জ্ঞানে দৃঢ়) ধারণাকে সেই সহচরদের সাথে যুক্ত করে যারা আলীর অনন্য মর্যাদা স্বীকার করেছিল, যা সিফফিনে তার সাথে তাদের পরবর্তী শাহাদাতকে বৈধতা প্রদান করে।",
+        "seo_question": "হাদিসে ইয়েমেনের দলের উল্লেখিত 'লোকদের দড়ি' কে?",
+        "key_terms": {
+          "الْمَنْصُورُ": "আল-মানসূর (বিজয়ী)",
+          "الْحَبْلُ مِنَ اللَّهِ": "আল্লাহর দড়ি",
+          "الْحَبْلُ مِنَ النَّاسِ": "লোকদের দড়ি",
+          "وَصِيِّي": "আমার ওসি/উত্তরসূরি",
+          "جَنْبُ اللَّهِ": "আল্লাহর পক্ষ/সেবা",
+          "الْمُتَوَسِّمِينَ": "যারা অন্তর্দৃষ্টি দিয়ে উপলব্ধি করেন",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "আপনার হৃদয় তাঁর প্রতি ঝুঁকেছিল",
+          "النُّصْبَاء": "নুসবা"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz del *Kitab al-Ghayba* de Al-Nu'mani presenta un argumento chií fundamental para la designación divina (Nass) del Imam Alí (AS) como sucesor del Profeta, vinculando directamente la 'Cuerda de Allah' y la 'Cuerda de la Gente' con el Corán y el Wasi. La narrativa enfatiza el discernimiento espiritual de la delegación de Yemen, cuyos corazones se inclinaron hacia Alí (AS) como señal de fe, cumpliendo el versículo de la Surah Ibrahim (14:24) sobre los corazones atraídos al Imam. Además, conecta el concepto de 'Rasikhun fi al-'Ilm' (aquellos firmes en el conocimiento) de la Surah Ali Imran (3:7) con los compañeros que reconocieron el estatus único de Alí, validando su posterior martirio junto a él en Siffin.",
+        "seo_question": "¿Quién es la 'Cuerda de la Gente' mencionada en el hadiz de la delegación de Yemen?",
+        "key_terms": {
+          "الْمَنْصُورُ": "Al-Mansoor (El Vencido)",
+          "الْحَبْلُ مِنَ اللَّهِ": "La Cuerda de Allah",
+          "الْحَبْلُ مِنَ النَّاسِ": "La Cuerda de la Gente",
+          "وَصِيِّي": "Mi Guardián/Sucesor",
+          "جَنْبُ اللَّهِ": "El lado/servicio de Allah",
+          "الْمُتَوَسِّمِينَ": "Aquellos que perciben/observan con perspicacia",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "Sus corazones se inclinaron hacia él",
+          "النُّصْبَاء": "Los Nusbah"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré du *Kitab al-Ghayba* d'Al-Nu'mani constitue un argument fondamental du chiisme pour la désignation divine (Nass) de l'Imam Ali (AS) comme successeur du Prophète, reliant directement la « Corde d'Allah » et la « Corde des gens » au Coran et au Wasi. Le récit met en évidence le discernement spirituel de la délégation du Yémen, dont les cœurs se sont inclinés vers Ali (AS) comme signe de foi, accomplissant ainsi le verset de la sourate Ibrahim (14:24) concernant les cœurs attirés vers l'Imam. Il relie également le concept des « Rasikhun fi al-'Ilm » (ceux qui sont fermes dans la connaissance) de la sourate Ali Imran (3:7) aux compagnons qui ont reconnu le statut unique d'Ali, validant ainsi leur martyre ultérieur à ses côtés à Siffin.",
+        "seo_question": "Qui est la « Corde des gens » mentionnée dans le hadith de la délégation du Yémen ?",
+        "key_terms": {
+          "الْمَنْصُورُ": "Al-Mansoor (Le Victorieux), un titre pour le chef de la délégation.",
+          "الْحَبْلُ مِنَ اللَّهِ": "La Corde d'Allah, interprétée ici comme le Coran.",
+          "الْحَبْلُ مِنَ النَّاسِ": "La Corde des gens, interprétée ici comme le Gardien (Wasi).",
+          "وَصِيِّي": "Mon Gardien/Successeur.",
+          "جَنْبُ اللَّهِ": "Le côté/le service d'Allah, se référant au devoir de l'Imamat.",
+          "الْمُتَوَسِّمِينَ": "Ceux qui perçoivent/observent avec perspicacité.",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "Vos cœurs se sont inclinés vers lui.",
+          "النُّصْبَاء": "Les Nusbah (une tribu/groupe connu pour s'opposer aux Ahl al-Bayt)."
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus Al-Nu‘manis *Kitab al-Ghayba* liefert ein grundlegendes schiitisches Argument für die göttliche Bestimmung (Nass) von Imam Ali (AS) als Nachfolger des Propheten, indem es das „Seil Allahs“ und das „Seil der Menschen“ direkt mit dem Koran und dem Wasi verbindet. Die Erzählung betont die spirituelle Unterscheidungskraft der Delegation aus Jemen, deren Herzen sich zu Ali (AS) neigten, was ein Zeichen des Glaubens war und die Vers in Sure Ibrahim (14:24) über Herzen, die zum Imam hingezogen werden, erfüllt. Zudem wird das Konzept der „Rasichun fi al-‘Ilm“ (die im Wissen Feststehenden) aus Sure Ali Imran (3:7) mit den Gefährten in Verbindung gebracht, die Alis einzigartigen Status erkannten, was ihr späteres Martyrium an seiner Seite in der Schlacht von Siffin validiert.",
+        "seo_question": "Wer ist das „Seil der Menschen“, das im Hadith der Delegation aus Jemen erwähnt wird?",
+        "key_terms": {
+          "الْمَنْصُورُ": "Al-Mansoor (Der Siegreiche), ein Titel für den Führer der Delegation.",
+          "الْحَبْلُ مِنَ اللَّهِ": "Das Seil von Allah, hier als der Koran interpretiert.",
+          "الْحَبْلُ مِنَ النَّاسِ": "Das Seil der Menschen, hier als der Hüter (Wasi) interpretiert.",
+          "وَصِيِّي": "Mein Hüter/Nachfolger.",
+          "جَنْبُ اللَّهِ": "Die Seite/die Dienstleistung Allahs, sich auf die Pflicht des Imamats beziehend.",
+          "الْمُتَوَسِّمِينَ": "Diejenigen, die mit Einsicht wahrnehmen/beobachten.",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "Eure Herzen neigten sich zu ihm.",
+          "النُّصْبَاء": "Die Nusbah (ein Stamm/eine Gruppe, die für ihre Opposition gegen die Ahl al-Bayt bekannt ist)."
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «Китаб аль-Гайба» ан-Ну’мани служит фундаментальным аргументом шиитского учения о божественном назначении (нассе) имама Али (мир ему) как преемника Пророка, напрямую связывая «Вервь Аллаха» и «Вервь людей» с Кораном и Васи. Повествование подчеркивает духовное прозрение йеменского посольства, чьи сердца склонились к Али (мир ему) как знамение веры, исполняя аят из суры Ибрахим (14:24) о сердцах, привлеченных к Имаму. Далее концепция «ар-расихун фи аль-ильм» (твердо стоящих в знании) из суры Али Имран (3:7) связывается с сподвижниками, признавшими уникальный статус Али, что подтверждает их последующий мученический конец вместе с ним при Сиффине.",
+        "seo_question": "Кто такой «Вервь людей», упомянутый в хадисе о йеменском посольстве?",
+        "key_terms": {
+          "الْمَنْصُورُ": "Аль-Мансур (Победитель), титул лидера посольства",
+          "الْحَبْلُ مِنَ اللَّهِ": "Вервь от Аллаха, толкуемая здесь как Коран",
+          "الْحَبْلُ مِنَ النَّاسِ": "Вервь от людей, толкуемая здесь как Хранитель (Васи)",
+          "وَصِيِّي": "Мой Хранитель/Преемник",
+          "جَنْبُ اللَّهِ": "Бок/служба Аллаха, относящаяся к долгу имамата",
+          "الْمُتَوَسِّمِينَ": "Те, кто воспринимает/наблюдает с проницательностью",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "Сердца ваши склонились к нему",
+          "النُّصْبَاء": "Ан-Нусба (племя/группа, известная противостоянием Ахль аль-Байт)"
+        }
+      },
+      "zh": {
+        "summary": "这段来自努马尼《隐遁之书》的圣训为什叶派提供了关于伊玛目阿里（愿主喜悦之）作为先知继任者神圣指定（纳斯）的基础论证，将“真主的绳索”和“众人的绳索”直接联系到《古兰经》和瓦西（继任者）。叙事强调了也门代表团的精神洞察力，他们的心倾向于阿里（愿主喜悦之），这是信仰的标志，实现了《易卜拉欣章》（14:24）中关于心被吸引向伊玛目的经文。它进一步将《仪姆兰家属章》（3:7）中“稳固于知识者”的概念与认出阿里独特地位的同伴联系起来，证实了他们在萨芬战役中与他一同殉道的行为。",
+        "seo_question": "圣训中提到的也门代表团所指的“众人的绳索”是谁？",
+        "key_terms": {
+          "الْمَنْصُورُ": "曼苏尔（胜利者）",
+          "الْحَبْلُ مِنَ اللَّهِ": "真主的绳索",
+          "الْحَبْلُ مِنَ النَّاسِ": "众人的绳索",
+          "وَصِيِّي": "我的继任者",
+          "جَنْبُ اللَّهِ": "真主的侧翼/服务",
+          "الْمُتَوَسِّمِينَ": "具有洞察力者",
+          "أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ": "你们的心倾向于他",
+          "النُّصْبَاء": "努斯拜部族"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:103",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:13",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:181",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "40:11",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "25:74",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "14:24",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ الْمُعَمَّرِ الطَّبَرَانِيُّ بِطَبَرِيَّةَ سَنَةَ ثَلَاثٍ وَثَلَاثِينَ وَثَلَاثِمِائَةٍ - وَكَانَ هَذَا الرَّجُلُ مِنْ مَوَالِي يَزِيدَ بْنِ مُعَاوِيَةَ وَمِنَ النُّصْبَاءِ - قَالَ: حَدَّثَنِي أَبِي، قَالَ: حَدَّثَنِي عَلِيُّ بْنُ هَاشِمٍ وَالْحُسَيْنُ بْنُ السُّكَنِ مُعَاً قَالَا: حَدَّثَنَا عَبْدُ الرَّزَّاقِ بْنُ هَمَّامٍ قَالَ: أَخْبَرَنِي أَبِي، عَنْ مِينًا مَوْلَى عَبْدِ الرَّمَنِ بْنِ عَوْفٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ الْأَنْصَارِيِّ قَالَ: وَفَدَ عَلَى رَسُولِ اللَّهِ أَهْلُ الْيَمَنِ فَقَالَ النَّبِيُّ: جَاءَكُمْ أَهْلُ الْيَمَنِ يَبُوسُونَ بَسِيسًا. فَلَمَّا دَخَلُوا عَلَى رَسُولِ اللَّهِ قَالَ: قَوْمٌ رَقِيقَةٌ قُلُوبُهُمْ، رَاسِخٌ إِيمَانُهُمْ. وَمِنْهُمُ الْمَنْصُورُ؛ يَخْرُجُ فِي سَبْعِينَ أَلْفًا يَنْصُرُ خَلَفِي وَخَلَفَ وَصِيِّي. حَمَائِلُ سُيُوفِهِمُ الْمِسْكُ. فَقَالُوا: يَا رَسُولَ اللَّهِ وَمَنْ وَصِيُّكَ؟ فَقَالَ: هُوَ الَّذِي أَمَرَكُمُ اللَّهُ بِالِاعْتِصَامِ بِهِ فَقَالَ: وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا ۚ فَقَالُوا: يَا رَسُولَ اللَّهِ بَيِّنْ لَنَا مَا هَذَا الْحَبْلُ. فَقَالَ: هُوَ قَوْلُ اللَّهِ: ضُرِبَتْ عَلَيْهِمُ الذِّلَّةُ أَيْنَمَا ثُقِفُوا إِلَّا بِحَبْلٍ مِنَ اللَّهِ وَحَبْلٍ مِنَ النَّاسِ وَبَاءُوا بِغَضَبٍ مِنَ اللَّهِ وَضُرِبَتْ عَلَيْهِمُ الْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ فَالْحَبْلُ مِنَ اللَّهِ كِتَابُهُ، وَالْحَبْلُ مِنَ النَّاسِ وَصِيِّي. فَقَالُوا: يَا رَسُولَ اللَّهِ مَنْ وَصِيُّكَ؟ فَقَالَ: هُوَ الَّذِي أَنْزَلَ اللَّهُ فِيهِ: أَنْ تَقُولَ نَفْسٌ يَا حَسْرَتَا عَلَىٰ مَا فَرَّطْتُ فِي جَنْبِ اللَّهِ وَإِنْ كُنْتُ لَمِنَ السَّاخِرِينَ. فَقَالُوا: يَا رَسُولَ اللَّهِ وَمَا جَنْبُ اللَّهِ هَذَا؟ فَقَالَ: هُوَ الَّذِي يَقُولُ اللَّهُ فِيهِ: ﴿وَيَوْمَ يَعَضُّ الظَّالِمُ عَلَىٰ يَدَيْهِ يَقُولُ يَا لَيْتَنِي اتَّخَذْتُ مَعَ الرَّسُولِ سَبِيلًا﴾. هُوَ وَصِيِّي وَالسَّبِيلُ إِلَيَّ مِنْ بَعْدِي. فَقَالُوا: يَا رَسُولَ اللَّهِ بِالَّذِي بَعَثَكَ بِالْحَقِّ نَبِيًّا أَرِنَاهُ فَقَدْ اشْتَقْنَا إِلَيْهِ. فَقَالَ: هُوَ الَّذِي جَعَلَهُ اللَّهُ آيَةً لِلْمُؤْمِنِينَ الْمُتَوَسِّمِينَ، فَإِنْ نَظَرْتُمْ إِلَيْهِ نَظَرَ مَنْ كَانَ لَهُ قَلْبٌ أَوْ أَلْقَى السَّمْعَ وَهُوَ شَهِيدٌ عَرَفْتُمُوهُ أَنَّهُ وَصِيِّي كَمَا عَرَفْتُمْ أَنِّي نَبِيُّكُمْ، فَتَخَلَّلُوا الصُّفُوفَ وَتَصَفَّحُوا الْوُجُوهَ فَمَنْ أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ فَإِنَّهُ هُوَ، لِأَنَّ اللَّهَ يَقُولُ فِي كِتَابِهِ: رَبَّنَا إِنِّي أَسْكَنْتُ مِنْ ذُرِّيَّتِي بِوَادٍ غَيْرِ ذِي زَرْعٍ عِنْدَ بَيْتِكَ الْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا الصَّلَاةَ فَاجْعَلْ أَفْئِدَةً مِنَ النَّاسِ تَهْوِي إِلَيْهِمْ وَارْزُقْهُمْ مِنَ الثَّمَرَاتِ لَعَلَّهُمْ يَشْكُرُونَ. أَيِ إِلَيْهِ وَإِلَى ذُرِّيَّتِهِ.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ عَبْدِ اللَّهِ بْنِ الْمُعَمَّرِ الطَّبَرَانِيُّ بِطَبَرِيَّةَ سَنَةَ ثَلَاثٍ وَثَلَاثِينَ وَثَلَاثِمِائَةٍ - وَكَانَ هَذَا الرَّجُلُ مِنْ مَوَالِي يَزِيدَ بْنِ مُعَاوِيَةَ وَمِنَ النُّصْبَاءِ - قَالَ: حَدَّثَنِي أَبِي، قَالَ: حَدَّثَنِي عَلِيُّ بْنُ هَاشِمٍ وَالْحُسَيْنُ بْنُ السُّكَنِ مُعَاً قَالَا: حَدَّثَنَا عَبْدُ الرَّزَّاقِ بْنُ هَمَّامٍ قَالَ: أَخْبَرَنِي أَبِي، عَنْ مِينًا مَوْلَى عَبْدِ الرَّمَنِ بْنِ عَوْفٍ، عَنْ جَابِرِ بْنِ عَبْدِ اللَّهِ الْأَنْصَارِيِّ قَالَ:",
+      "matn_ar": "وَفَدَ عَلَى رَسُولِ اللَّهِ أَهْلُ الْيَمَنِ فَقَالَ النَّبِيُّ: جَاءَكُمْ أَهْلُ الْيَمَنِ يَبُوسُونَ بَسِيسًا. فَلَمَّا دَخَلُوا عَلَى رَسُولِ اللَّهِ قَالَ: قَوْمٌ رَقِيقَةٌ قُلُوبُهُمْ، رَاسِخٌ إِيمَانُهُمْ. وَمِنْهُمُ الْمَنْصُورُ؛ يَخْرُجُ فِي سَبْعِينَ أَلْفًا يَنْصُرُ خَلَفِي وَخَلَفَ وَصِيِّي. حَمَائِلُ سُيُوفِهِمُ الْمِسْكُ. فَقَالُوا: يَا رَسُولَ اللَّهِ وَمَنْ وَصِيُّكَ؟ فَقَالَ: هُوَ الَّذِي أَمَرَكُمُ اللَّهُ بِالِاعْتِصَامِ بِهِ فَقَالَ: وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا وَلَا تَفَرَّقُوا ۚ فَقَالُوا: يَا رَسُولَ اللَّهِ بَيِّنْ لَنَا مَا هَذَا الْحَبْلُ. فَقَالَ: هُوَ قَوْلُ اللَّهِ: ضُرِبَتْ عَلَيْهِمُ الذِّلَّةُ أَيْنَمَا ثُقِفُوا إِلَّا بِحَبْلٍ مِنَ اللَّهِ وَحَبْلٍ مِنَ النَّاسِ وَبَاءُوا بِغَضَبٍ مِنَ اللَّهِ وَضُرِبَتْ عَلَيْهِمُ الْمَسْكَنَةُ ۚ ذَٰلِكَ بِأَنَّهُمْ كَانُوا يَكْفُرُونَ بِآيَاتِ اللَّهِ وَيَقْتُلُونَ الْأَنْبِيَاءَ بِغَيْرِ حَقٍّ ۚ ذَٰلِكَ بِمَا عَصَوْا وَكَانُوا يَعْتَدُونَ فَالْحَبْلُ مِنَ اللَّهِ كِتَابُهُ، وَالْحَبْلُ مِنَ النَّاسِ وَصِيِّي. فَقَالُوا: يَا رَسُولَ اللَّهِ مَنْ وَصِيُّكَ؟ فَقَالَ: هُوَ الَّذِي أَنْزَلَ اللَّهُ فِيهِ: أَنْ تَقُولَ نَفْسٌ يَا حَسْرَتَا عَلَىٰ مَا فَرَّطْتُ فِي جَنْبِ اللَّهِ وَإِنْ كُنْتُ لَمِنَ السَّاخِرِينَ. فَقَالُوا: يَا رَسُولَ اللَّهِ وَمَا جَنْبُ اللَّهِ هَذَا؟ فَقَالَ: هُوَ الَّذِي يَقُولُ اللَّهُ فِيهِ: ﴿وَيَوْمَ يَعَضُّ الظَّالِمُ عَلَىٰ يَدَيْهِ يَقُولُ يَا لَيْتَنِي اتَّخَذْتُ مَعَ الرَّسُولِ سَبِيلًا﴾. هُوَ وَصِيِّي وَالسَّبِيلُ إِلَيَّ مِنْ بَعْدِي. فَقَالُوا: يَا رَسُولَ اللَّهِ بِالَّذِي بَعَثَكَ بِالْحَقِّ نَبِيًّا أَرِنَاهُ فَقَدْ اشْتَقْنَا إِلَيْهِ. فَقَالَ: هُوَ الَّذِي جَعَلَهُ اللَّهُ آيَةً لِلْمُؤْمِنِينَ الْمُتَوَسِّمِينَ، فَإِنْ نَظَرْتُمْ إِلَيْهِ نَظَرَ مَنْ كَانَ لَهُ قَلْبٌ أَوْ أَلْقَى السَّمْعَ وَهُوَ شَهِيدٌ عَرَفْتُمُوهُ أَنَّهُ وَصِيِّي كَمَا عَرَفْتُمْ أَنِّي نَبِيُّكُمْ، فَتَخَلَّلُوا الصُّفُوفَ وَتَصَفَّحُوا الْوُجُوهَ فَمَنْ أَهْوَتْ إِلَيْهِ قُلُوبُكُمْ فَإِنَّهُ هُوَ، لِأَنَّ اللَّهَ يَقُولُ فِي كِتَابِهِ: رَبَّنَا إِنِّي أَسْكَنْتُ مِنْ ذُرِّيَّتِي بِوَادٍ غَيْرِ ذِي زَرْعٍ عِنْدَ بَيْتِكَ الْمُحَرَّمِ رَبَّنَا لِيُقِيمُوا الصَّلَاةَ فَاجْعَلْ أَفْئِدَةً مِنَ النَّاسِ تَهْوِي إِلَيْهِمْ وَارْزُقْهُمْ مِنَ الثَّمَرَاتِ لَعَلَّهُمْ يَشْكُرُونَ. أَيِ إِلَيْهِ وَإِلَى ذُرِّيَّتِهِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "محمد بن عبد الله بن المعمر الطبراني بطبرية سنة ثلاث وثلاثين وثلاثمائة - وكان هذا الرجل من موالي يزيد بن معاوية ومن النصاب - قال: حدثني أبي، قال: حدثني علي بن هاشم والحسين بن السكن معا قالا: حدثنا عبد الرزاق بن همام قال: أخبرني أبي،",
+          "name_en": "Muhammad b. 'Abd Allah b. al-Mu'mar al-Tabarani",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مينا مولى عبد الرحمن بن عوف،",
+          "name_en": "Mina mawla 'Abd al-Rahman b. 'Awf",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "جابر بن عبد الله الأنصاري قال: وفد على رسول الله أهل اليمن فقال النبي: جاءكم أهل اليمن يبسون بسيسا. فلما دخلوا على رسول الله قال: قوم رقيقة قلوبهم، راسخ إيمانهم. ومنهم المنصور؛ يخرج في سبعين ألفا ينصر خلفي وخلف وصيي. حمائل سيوفهم المسك. فقالوا: يا رسول الله ومن وصيك؟ فقال: هو الذي أمركم الله بالاعتصام به فقال: واعتصموا بحبل الله جميعا ولا تفرقوا ۚ فقالوا: يا رسول الله بين لنا ما هذا الحبل. فقال: هو قول الله: ضربت عليهم الذلة أين ما ثقفوا إلا بحبل من الله وحبل من الناس وباءوا بغضب من الله وضربت عليهم المسكنة ۚ ذلك بأنهم كانوا يكفرون بآيات الله ويقتلون الأنبياء بغير حق ۚ ذلك بما عصوا وكانوا يعتدون فالحبل من الله كتابه، والحبل من الناس وصيي. فقالوا: يا رسول الله من وصيك؟ فقال: هو الذي أنزل الله فيه: أن تقول نفس يا حسرتا على ما فرطت",
+          "name_en": "Jabir b. 'Abd Allah al-Ansari",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "آيَاتُ اللَّهِ",
+        "phrase_en": "Signs/verses of Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "وَاعْتَصِمُوا بِحَبْلِ اللَّهِ جَمِيعًا",
+        "phrase_en": "Hold firmly to the rope of Allah together",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "الرَّاسِخُونَ فِي الْعِلْمِ",
+        "phrase_en": "Those firmly grounded in knowledge",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 7,
+    "_phase4_mode": "per_language"
+  }
+}

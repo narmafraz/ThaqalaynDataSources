@@ -1,0 +1,304 @@
+{
+  "verse_path": "/books/al-kafi:8:1:45:12",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 21 en words vs 1 ar words (ratio=21.00, expected 0.2-8.0)",
+    "chunks[1] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام)' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "worship",
+      "ethics"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "hajj",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Ali, from his father, from Ibn Abi Umayr, from Abdullah ibn Sinan, from Abu Abdillah (peace be upon him), who said:",
+          "ur": "علی، ان کے والد سے، ابن ابی عمر سے، عبداللہ بن سینان سے، ابوعبد اللہ (علیه السلام) سے، انہوں نے کہا:",
+          "tr": "Ali, babasından, İbn Ebi Ueyr'den, Abdullah ibn Sinan'dan, Ebu Abdillah'dan (aleyhisselam) rivayetle: dedi ki:",
+          "fa": "عَلِيٌّ عَنْ أَبِيهِ عَنْ ابْنِ أَبِي عُمَيْرٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ (عليه السلام) قَالَ:",
+          "id": "Ali, dari ayahnya, dari Ibn Abi Umayr, dari Abdullah ibn Sinan, dari Abu Abdillah (alamah), yang berkata:",
+          "bn": "আলী, তার পিতা থেকে, ইবনে আবু উমাইর থেকে, আবদুল্লাহ ইবনে সিনান থেকে, আবু আবদিল্লাহ (আলৈহিস সালাম) থেকে, যিনি বলেছেন:",
+          "es": "Ali, de su padre, de Ibn Abi Umayr, de Abdullah ibn Sinan, de Abu Abdillah (que la paz sea con él), quien dijo:",
+          "fr": "Ali, de son père, d'après son père, d'après Ibn Abi Omayr, d'après Abdullah ibn Sinan, d'après Abou Abdillah (que la paix soit sur lui), qui a dit :",
+          "de": "Ali, von seinem Vater, von Ibn Abi Umayr, von Abdullah ibn Sinan, von Abu Abdillah (Friede sei mit ihm), der sagte:",
+          "ru": "Али, от его отца, от Ибн Аби Умайра, от Абдуллаха ибн Синана, от Абу Абдуллаха (да будет мир с ним), который сказал:",
+          "zh": "阿里，从他父亲，从伊本·艾比·乌麦尔，从阿卜杜拉·伊本·西南，从艾布·阿卜杜拉（愿主福安之），他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "كَانَ عَلِيُّ بْنُ الْحُسَيْنِ (عليه السلام) إِذَا سَافَرَ إِلَى الْحَجِّ وَالْعُمْرَةِ تَزَوَّدَ مِنْ أَطْيَبِ الزَّادِ مِنَ اللَّوْزِ وَالسُّكَّرِ وَالسَّوِيقِ الْمُحَمَّصِ وَالْمُحَلَّى.",
+        "translations": {
+          "en": "When Ali ibn al-Husayn (peace be upon him) used to travel for Hajj and Umrah, he would provision himself with the best food, from almonds, sugar, and roasted and sweetened sawiq.",
+          "ur": "جب علی بن الحسین (علیہ السلام) حج اور عمرہ کے لیے سفر کرتے تو وہ بادام، چینی، اور بھنے ہوئے میٹھے سیویق سے اپنا سامان تیار کر لیتے۔",
+          "tr": "Ali bin el-Hüseyin (aleyhisselam) Hac ve Umre için sefere çıktığında, badem, şeker, kavrulmuş ve şerbetli sawiq gibi en iyi yiyeceklerle seyahat erzakını hazırlardı.",
+          "fa": "هنگامی که علی بن الحسین (علیه السلام) برای حج و عمره سفر می‌کرد، خود را با بهترین خوراک‌ها از جمله بادام، شکر و سیاق برشته و شیرین تأمین می‌کرد.",
+          "id": "Ketika Ali bin al-Husain (alamah) bepergian untuk menunaikan haji dan umrah, ia menyediakan diri dengan makanan terbaik, dari almond, gula, dan sawiq yang dipanggang dan dimaniskan.",
+          "bn": "যখন আলী ইবনে হুসাইন (আলাইহিস সালাম) হজ্জ ও উমরার জন্য যাত্রা করতেন, তিনি বাদাম, চিনি, এবং ভাজা ও মিষ্টি সাওইক থেকে সেরা খাবার নিজে সাথে রাখতেন।",
+          "es": "Cuando Alí ibn al-Husayn (que la paz sea con él) viajaba para la peregrina mayor (Hajj) y la menor (Umrah), se abastecía de los mejores alimentos, como almendras, azúcar y sawiq tostado y endulzado.",
+          "fr": "Lorsque Ali ibn al-Husayn (que la paix soit sur lui) voyageait pour le Hajj et l'Omra, il se munissait de la meilleure nourriture, à base d'amandes, de sucre et de sawiq rôti et sucré.",
+          "de": "Wenn Ali ibn al-Husayn (friede sei mit ihm) zu Pilgerfahrten (Haddsch und Umra) reiste, versorgte er sich mit der besten Nahrung, bestehend aus Mandeln, Zucker sowie geröstetem und gesüßtem Sawiq.",
+          "ru": "Когда Али ибн аль-Хусейн (да будет мир с ним) отправлялся в путешествие для совершения хаджа и умры, он брал с собой лучшую пищу: миндаль, сахар, а также жареный и подслащенный сафик.",
+          "zh": "当阿里·本·侯赛因（愿主福安之）前往朝觐和副朝时，他会准备最好的食物，包括杏仁、糖以及烤制并加糖的萨维格。"
+        },
+        "word_start": 1,
+        "word_end": 22
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Al-Kafi* illustrates the Imam’s emphasis on *itqan* (excellence) in personal conduct, extending even to the quality of sustenance during religious journeys. By selecting premium provisions like almonds and sugar, Imam Ali ibn al-Husayn (AS) demonstrated that physical well-being supports spiritual devotion, a principle valued in Shia jurisprudence for maintaining strength during the rigors of Hajj and Umrah.",
+        "seo_question": "What did Imam Ali ibn al-Husayn eat when traveling for Hajj?",
+        "key_terms": {
+          "الْحَجِّ": "Hajj (major pilgrimage)",
+          "الْعُمْرَةِ": "Umrah (minor pilgrimage)",
+          "تَزَوَّدَ": "Provisioned himself / took supplies",
+          "اللَّوْزِ": "Almonds",
+          "السُّكَّرِ": "Sugar",
+          "السَّوِيقِ": "Sawiq (roasted grain flour/porridge)",
+          "الْمُحَمَّصِ": "Roasted",
+          "الْمُحَلَّى": "Sweetened"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث الکافی سے ہے جو امام کی ذاتی کردار میں اتقان (برتری) پر زور کو ظاہر کرتی ہے، جو مذہبی سفروں کے دوران خوراک کی معیار تک پھیلتی ہے۔ امام علی ابن الحسین (ع) نے بادام اور چینی جیسی اعلیٰ معیار کی ضروریات کا انتخاب کر کے دکھایا کہ جسمانی صحت روحانی عبادت کی حمایت کرتی ہے، جو شیعہ فقہ میں حج اور عمرہ کی مشقتوں کے دوران قوت برقرار رکھنے کے لیے اہم اصول ہے۔",
+        "seo_question": "حج کے لیے سفر کرتے وقت امام علی ابن الحسین (ع) کیا کھاتے تھے؟",
+        "key_terms": {
+          "الْحَجِّ": "حج",
+          "الْعُمْرَةِ": "عمرہ",
+          "تَزَوَّدَ": "تزوّد",
+          "اللَّوْزِ": "بادام",
+          "السُّكَّرِ": "چینی",
+          "السَّوِيقِ": "سویق",
+          "الْمُحَمَّصِ": "بھنا ہوا",
+          "الْمُحَلَّى": "میٹھا"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, *El-Kafi'den alınmıştır ve İmam'ın kişisel davranışlarda *itqan* (üstünlük/mükemmellik) konusundaki vurgusunu, dini yolculuklarda besin kalitesine kadar uzatmaktadır. İmam Ali b. el-Hüseyin (AS), badem ve şeker gibi premium tedarikler seçerek, fiziksel sağlamlığın manevi ibadeti desteklediğini göstermiştir; bu ilke, Şii fıkhında Hac ve Umre'nin yorgunlukları sırasında gücü korumak için değer görülmektedir.",
+        "seo_question": "Hac için seyahat ederken İmam Ali b. el-Hüseyin ne yedi?",
+        "key_terms": {
+          "الْحَجِّ": "Hac (büyük hac)",
+          "الْعُمْرَةِ": "Umre (küçük hac)",
+          "تَزَوَّدَ": "Tedarik etti / erzak aldı",
+          "اللَّوْزِ": "Badem",
+          "السُّكَّرِ": "Şeker",
+          "السَّوِيقِ": "Saviq (kavrulmuş tahıl unu/lapa)",
+          "الْمُحَمَّصِ": "Kavrulmuş",
+          "الْمُحَلَّى": "Şekerlenmiş"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی نشان‌دهنده تأکید امام بر إتقان (استادی و کمال) در رفتار شخصی است که حتی به کیفیت معاش در سفرهای دینی نیز گسترش می‌یابد. با انتخاب مواد غذایی ممتاز مانند بادام و شکر، امام علی بن الحسین (علیه‌السلام) نشان داد که سلامت جسمی از عبادت معنوی حمایت می‌کند؛ اصل‌ی که در فقه شیعه برای حفظ نیرو در برابر سختی‌های حج و عمره ارزشمند شمرده می‌شود.",
+        "seo_question": "امام علی بن الحسین (علیه‌السلام) هنگام سفر برای حج چه می‌خورد؟",
+        "key_terms": {
+          "الْحَجِّ": "حج",
+          "الْعُمْرَةِ": "عمره",
+          "تَزَوَّدَ": "تزود کرد",
+          "اللَّوْزِ": "بادام",
+          "السُّكَّرِ": "شکر",
+          "السَّوِيقِ": "سویق",
+          "الْمُحَمَّصِ": "برشته",
+          "الْمُحَلَّى": "شیرین‌شده"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Al-Kafi* ini menggambarkan penekanan Imam pada *itqan* (keunggulan) dalam perilaku pribadi, bahkan hingga kualitas rezeki selama perjalanan agama. Dengan memilih persediaan premium seperti almond dan gula, Imam Ali ibn al-Husayn (AS) menunjukkan bahwa kesejahteraan fisik mendukung pengabdian spiritual, sebuah prinsip yang dihargai dalam fikih Syiah untuk menjaga kekuatan selama tantangan Haji dan Umrah.",
+        "seo_question": "Apa yang dimakan Imam Ali ibn al-Husayn saat bepergian untuk Haji?",
+        "key_terms": {
+          "الْحَجِّ": "Haji",
+          "الْعُمْرَةِ": "Umrah",
+          "تَزَوَّدَ": "Memperbekal diri",
+          "اللَّوْزِ": "Almond",
+          "السُّكَّرِ": "Gula",
+          "السَّوِيقِ": "Sawiq",
+          "الْمُحَمَّصِ": "Panggang",
+          "الْمُحَلَّى": "Manis"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি হাদিস থেকে এই উদাহরণটি ইমামের ব্যক্তিগত আচরণে ইতকান (চমৎকারতা) এর গুরুত্ব তুলে ধরে, যা ধর্মীয় যাত্রায় খাদ্যের গুণমান পর্যন্ত বিস্তৃত। বাদাম এবং চিনির মতো উচ্চমানের সরবরাহ বেছে নেওয়ার মাধ্যমে, ইমাম আলী ইবনে হুসাইন (আ.) প্রমাণ করেন যে শারীরিক সুস্থতা আধ্যাত্মিক ভক্তিকে সমর্থন করে, যা শিয়া ফিকহে হজ্জ ও উমরাহর কঠিন পরিস্থিতিতে শক্তি বজায় রাখার জন্য একটি মূলনীতি হিসেবে গণ্য।",
+        "seo_question": "হজ্জের জন্য যাত্রাকালে ইমাম আলী ইবনে হুসাইন কী খেতেন?",
+        "key_terms": {
+          "الْحَجِّ": "হজ্জ (বড় তীর্থযাত্রা)",
+          "الْعُمْرَةِ": "উমরাহ (ছোট তীর্থযাত্রা)",
+          "تَزَوَّدَ": "সরবরাহ করলেন / সরঞ্জাম নিলেন",
+          "اللَّوْزِ": "বাদাম",
+          "السُّكَّرِ": "চিনি",
+          "السَّوِيقِ": "সৌইক (ভাজা ধান্যের গুঁড়ো/খিচুড়ি)",
+          "الْمُحَمَّصِ": "ভাজা",
+          "الْمُحَلَّى": "মিষ্টি করা"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de *Al-Kafi* ilustra la énfasis del Imam en la *itqan* (excelencia) en la conducta personal, extendiéndose incluso a la calidad del sustento durante los viajes religiosos. Al seleccionar provisiones premium como almendulzadas con almendras y azúcar, el Imam Ali ibn al-Husayn (AS) demostró que el bienestar físico apoya la devoción espiritual, un principio valorado en la jurisprudencia chiita para mantener la fuerza durante los rigores del Hajj y la Umrah.",
+        "seo_question": "¿Qué comió el Imam Ali ibn al-Husayn cuando viajaba para el Hajj?",
+        "key_terms": {
+          "الْحَجِّ": "Hajj (piligrinaje mayor)",
+          "الْعُمْرَةِ": "Umrah (piligrinaje menor)",
+          "تَزَوَّدَ": "Se provisto / tomó suministros",
+          "اللَّوْزِ": "Almendras",
+          "السُّكَّرِ": "Azúcar",
+          "السَّوِيقِ": "Sawiq (harina de grano tostado/papilla)",
+          "الْمُحَمَّصِ": "Tostado",
+          "الْمُحَلَّى": "Endulzado"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Al-Kafi* illustre l'insistance de l'Imam sur l'*itqan* (excellence) dans la conduite personnelle, s'étendant même à la qualité des provisions lors des pèlerinages religieux. En choisissant des provisions de qualité comme les amandes et le sucre, l'Imam Ali ibn al-Husayn (AS) a démontré que le bien-être physique soutient la dévotion spirituelle, un principe valorisé en jurisprudence chiite pour maintenir la force durant les épreuves du Hajj et de l'Umrah.",
+        "seo_question": "Que mangeait l'Imam Ali ibn al-Husayn lorsqu'il voyageait pour le Hajj ?",
+        "key_terms": {
+          "الْحَجِّ": "Hajj (pèlerinage majeur)",
+          "الْعُمْرَةِ": "Umrah (pèlerinage mineur)",
+          "تَزَوَّدَ": "Se pourvoir en provisions / prendre des vivres",
+          "اللَّوْزِ": "Amandes",
+          "السُّكَّرِ": "Sucre",
+          "السَّوِيقِ": "Sawiq (farine de grain rôti / bouillie)",
+          "الْمُحَمَّصِ": "Rôti",
+          "الْمُحَلَّى": "Sucré"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Al-Kafi* verdeutlicht die Betonung des Imams auf *Itqan* (Exzellenz) im persönlichen Verhalten, die sich sogar auf die Qualität der Versorgung während religiöser Reisen erstreckt. Durch die Auswahl hochwertiger provisions wie Mandeln und Zucker demonstrierte Imam Ali ibn al-Husayn (AS), dass körperliches Wohlbefinden die spirituelle Hingabe unterstützt, ein Prinzip, das in der schiitischen Jurisprudenz für die Aufrechterhaltung der Stärke während der Strapazen von Hajj und Umrah geschätzt wird.",
+        "seo_question": "Was aß Imam Ali ibn al-Husayn auf seiner Reise zum Hajj?",
+        "key_terms": {
+          "الْحَجِّ": "Haddsch",
+          "الْعُمْرَةِ": "Umra",
+          "تَزَوَّدَ": "Versorgte sich / nahm Vorräte mit",
+          "اللَّوْزِ": "Mandeln",
+          "السُّكَّرِ": "Zucker",
+          "السَّوِيقِ": "Sawiq (geröstetes Getreidemehl/Brei)",
+          "الْمُحَمَّصِ": "Geröstet",
+          "الْمُحَلَّى": "Gesüßt"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «аль-Кафи» иллюстрирует акцент имама на иткане (совершенстве) в личном поведении, который распространяется даже на качество провианта во время религиозных путешествий. Выбирая такие деликатесы, как миндаль и сахар, имам Али ибн аль-Хусайн (да будет с ним мир) продемонстрировал, что физическое благополучие поддерживает духовное преданность, принцип, ценимый в шиитском фикхе для поддержания сил во время испытаний хаджа и умры.",
+        "seo_question": "Что ел имам Али ибн аль-Хусайн во время путешествия на хадж?",
+        "key_terms": {
+          "الْحَجِّ": "хадж",
+          "الْعُمْرَةِ": "умра",
+          "تَزَوَّدَ": "взял припасы",
+          "اللَّوْزِ": "миндаль",
+          "السُّكَّرِ": "сахар",
+          "السَّوِيقِ": "сауик",
+          "الْمُحَمَّصِ": "обжаренный",
+          "الْمُحَلَّى": "подслащенный"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《卡菲》的圣训体现了伊玛目对个人行为中“伊特坎”（卓越）的重视，甚至延伸至宗教旅程中饮食的质量。伊玛目阿里·本·侯赛因（愿主福安之）选择杏仁和糖等优质补给品，表明身体健康有助于精神虔诚，这一原则在什叶派法学中被重视，以维持朝觐和副朝艰辛过程中的体力。",
+        "seo_question": "伊玛目阿里·本·侯赛因在前往朝觐途中吃什么？",
+        "key_terms": {
+          "الْحَجِّ": "朝觐",
+          "الْعُمْرَةِ": "副朝",
+          "تَزَوَّدَ": "准备干粮",
+          "اللَّوْزِ": "杏仁",
+          "السُّكَّرِ": "糖",
+          "السَّوِيقِ": "炒麦粉粥",
+          "الْمُحَمَّصِ": "烤过的",
+          "الْمُحَلَّى": "加糖的"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:197",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "73:8",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad كَانَ عَلِيُّ بْنُ الْحُسَيْنِ (عليه السلام) إِذَا سَافَرَ إِلَى الْحَجِّ وَالْعُمْرَةِ تَزَوَّدَ مِنْ أَطْيَبِ الزَّادِ مِنَ اللَّوْزِ وَالسُّكَّرِ وَالسَّوِيقِ الْمُحَمَّصِ وَالْمُحَلَّى.",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "كَانَ عَلِيُّ بْنُ الْحُسَيْنِ (عليه السلام) إِذَا سَافَرَ إِلَى الْحَجِّ وَالْعُمْرَةِ تَزَوَّدَ مِنْ أَطْيَبِ الزَّادِ مِنَ اللَّوْزِ وَالسُّكَّرِ وَالسَّوِيقِ الْمُحَمَّصِ وَالْمُحَلَّى.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيٌّ",
+          "name_en": "Ali",
+          "role": "imam",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 50
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "ابْنِ أَبِي عُمَيْرٍ",
+          "name_en": "Ibn Abi Umayr",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 7
+        },
+        {
+          "name_ar": "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+          "name_en": "Abdullah b. Sinan",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 31
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ (عليه السلام)",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

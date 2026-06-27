@@ -1,0 +1,405 @@
+{
+  "verse_path": "/books/nahj-al-balagha:3:80:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-28",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 34 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'إن الدنيا دار صدق لمن صدقها ودار عافية لمن فهم عنها ودار غنى'"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "theology",
+      "afterlife"
+    ],
+    "content_type": "exhortation",
+    "topics": [
+      "poverty_wealth",
+      "paradise_hell",
+      "patience",
+      "gratitude",
+      "work_livelihood"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "إِنَّ الدُّنْيَا دَارُ صِدْقٍ لِمَنْ صَدَقَهَا",
+        "translations": {
+          "en": "Certainly, this world is a house of truth for him who appreciates it;",
+          "ur": "بے شک یہ دنیا سچے کے لیے سچائی کا گھر ہے،",
+          "tr": "Şüphesiz dünya, onu doğru bilenler için bir hakikat yurdudur;",
+          "fa": "همانا این جهان خانه‌ی راستی است برای کسی که آن را بشناسد؛",
+          "id": "Sesungguhnya, dunia ini adalah rumah kebenaran bagi siapa saja yang menghargainya;",
+          "bn": "নিশ্চয়ই এই দুনিয়া সত্যবাদীর জন্য সত্যের আবাসস্থল;",
+          "es": "Ciertamente, este mundo es una morada de verdad para quien lo aprecia;",
+          "fr": "Certes, ce monde est une demeure de vérité pour celui qui l'apprécie ;",
+          "de": "Wahrlich, diese Welt ist ein Haus der Wahrheit für den, der sie schätzt;",
+          "ru": "Поистине, этот мир — обитель истины для того, кто ценит её;",
+          "zh": "的确，今世对于理解它的人来说，是一个真实之家；"
+        },
+        "word_start": 0,
+        "word_end": 6
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَدَارُ عَافِيَةٍ لِمَنْ فَهِمَ عَنْهَا",
+        "translations": {
+          "en": "a place of safety for him who understands it;",
+          "ur": "اس کے لیے ایک محفوظ مقام ہے جو اسے سمجھتا ہے؛",
+          "tr": "onu anlayan için bir emniyet yeri;",
+          "fa": "جایی برای آرامش کسی که آن را درک کند؛",
+          "id": "tempat yang aman bagi orang yang memahaminya;",
+          "bn": "যার জন্য তা বোঝার ক্ষমতা আছে, তার জন্য নিরাপদ স্থান;",
+          "es": "un lugar de seguridad para quien lo comprenda;",
+          "fr": "un lieu de sûreté pour celui qui le comprend ;",
+          "de": "ein Ort der Sicherheit für den, der es versteht;",
+          "ru": "место безопасности для того, кто понимает его;",
+          "zh": "对理解它的人来说，是一个安全之地；"
+        },
+        "word_start": 6,
+        "word_end": 11
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَدَارُ غِنًى لِمَنْ تَزَوَّدَ مِنْهَا",
+        "translations": {
+          "en": "a house of riches for him who collects provision from it (for the next world);",
+          "ur": "وہ گھر جو اس کے لیے دولت کا گھر ہے جو اس سے قوتِ خوراک جمع کرتا ہے (آخرت کے لیے);",
+          "tr": "Onun için zenginlik evi, oradan ahiret için rızık toplayana.",
+          "fa": "خانه‌ای از ثروت برای کسی که از آن که provision (روزی) را از آن جمع‌آوری کند (برای جهان دیگر);",
+          "id": "rumah kekayaan bagi orang yang mengumpulkan bekal darinya (untuk akhirat);",
+          "bn": "যিনি এর থেকে পরলোকের জন্য উপকরণ সংগ্রহ করেন, তার জন্য ধনের একটি গৃহ;",
+          "es": "una casa de riquezas para quien acumula provisiones de ella (para la otra vida);",
+          "fr": "une maison de richesses pour celui qui y amasse des provisions (pour l'au-delà);",
+          "de": "ein Haus des Reichtums für den, der daraus Versorgung für das Jenseits sammelt;",
+          "ru": "дом богатства для того, кто собирает пропитание из него (для следующего мира);",
+          "zh": "为从其中收集后世资财者，是一座财富之屋；"
+        },
+        "word_start": 11,
+        "word_end": 16
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَدَارُ مَوْعِظَةٍ لِمَنِ اتَّعَظَ بِهَا",
+        "translations": {
+          "en": "and a house of instructions for him who draws instruction from it.",
+          "ur": "اور اس کے لیے ہدایت کا گھر ہے جو اس سے ہدایت حاصل کرتا ہے۔",
+          "tr": "ve ondan öğüt alanlar için bir öğüt evi.",
+          "fa": "و خانه‌ای برای آموزش برای کسی که از آن آموزش می‌گیرد.",
+          "id": "dan sebuah rumah petunjuk bagi orang yang mengambil pelajaran darinya.",
+          "bn": "এবং তার জন্য একটি শিক্ষার আবাস, যে ব্যক্তি তা থেকে শিক্ষা গ্রহণ করে।",
+          "es": "y una casa de instrucción para quien extraiga instrucción de ella.",
+          "fr": "et une maison d'instruction pour celui qui en tire instruction.",
+          "de": "und eine Stätte der Belehrung für denjenigen, die sich daraus belehren lassen.",
+          "ru": "и дом наставления для того, кто черпает из него наставление.",
+          "zh": "以及为从中汲取教诲者的一所教诲之屋。"
+        },
+        "word_start": 16,
+        "word_end": 21
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مَسْجِدُ أَحِبَّاءِ اللَّهِ",
+        "translations": {
+          "en": "It is the place of worship for the lovers of Allāh;",
+          "ur": "یہ اللہ کے عاشقوں کی عبادت گاہ ہے؛",
+          "tr": "O, Allâh'ın sevgilileri için ibadet yeridir.",
+          "fa": "جایگاه عبادت برای دوستداران خداست؛",
+          "id": "Ia adalah tempat ibadah bagi para pecinta Allāh;",
+          "bn": "এটি আল্লাহর প্রেমিকদের জন্য উপাসনার স্থান;",
+          "es": "Es el lugar de culto de los amantes de Allāh;",
+          "fr": "C'est le lieu de culte des amants d'Allāh ;",
+          "de": "Es ist der Ort der Anbetung für die Liebenden Allahs;",
+          "ru": "Это место поклонения для любителей Аллаха;",
+          "zh": "那是真主爱者的礼拜之地；"
+        },
+        "word_start": 21,
+        "word_end": 24
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَمُصَلَّى مَلَائِكَةِ اللَّهِ",
+        "translations": {
+          "en": "the place of praying for the angels of Allāh;",
+          "ur": "اللہ کے فرشتوں کی نماز پڑھنے کی جگہ؛",
+          "tr": "Allah'ın meleklerinin dua ettiği yer;",
+          "fa": "جایگاه دعا برای فرشتگان خداوند;",
+          "id": "tempat berdoa bagi para malaikat Allah;",
+          "bn": "আল্লাহর ফেরেশতাদের নামাজের স্থান;",
+          "es": "el lugar de oración para los ángeo para los ángeles de Allāh;",
+          "fr": "l'endroit où prient les anges d'Allāh ;",
+          "de": "der Ort des Gebets für die Engel Allāhs;",
+          "ru": "место молитвы ангелов Аллаха;",
+          "zh": "真主的天使们祈祷的地方；"
+        },
+        "word_start": 24,
+        "word_end": 27
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَمَهْبِطُ وَحْيِ اللَّهِ",
+        "translations": {
+          "en": "the place where the revelation of Allāh descends;",
+          "ur": "وہ مقام جہاں اللہ کی وحی نازل ہوتی ہے؛",
+          "tr": "Allah'ın vahyin indiği yer;",
+          "fa": "جایی که وحی خداوند نازل می‌شود؛",
+          "id": "tempat turunnya wahyu Allāh;",
+          "bn": "যে স্থানে আল্লাহর ওহী অবতীর্ণ হয়;",
+          "es": "el lugar donde desciende la revelación de Allāh;",
+          "fr": "l'endroit où la révélation d'Allāh descend ;",
+          "de": "der Ort, an dem die Offenbarung Allāhs herabsteigt;",
+          "ru": "местописание места, куда ниспосылается откровение Аллаха",
+          "zh": "真主启示降临之处；"
+        },
+        "word_start": 27,
+        "word_end": 30
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَمَتْجَرُ أَوْلِيَاءِ اللَّهِ",
+        "translations": {
+          "en": "and the marketing place for those devoted to Allāh.",
+          "ur": "اور ان لوگوں کے لیے جہاں اللہ کی عبادت کی جاتی ہے۔",
+          "tr": "ve Allâh'a adanmışlar için pazar yeri.",
+          "fa": "text\": ",
+          "id": "dan tempat pemasaran bagi mereka yang mengabdikan diri kepada Allāh.",
+          "bn": "এবং আল্লাহর উদ্দেশ্যে নিবেদিতদের জন্য বিপণনস্থল।",
+          "es": "y el lugar de comercialización para aquellos devotos a Allāh.",
+          "fr": "et le lieu de marché pour ceux qui se dévouent à Allāh.",
+          "de": "und der Marktplatz für diejenigen, die sich Allāh hingeben.",
+          "ru": "и место торговли для тех, кто предан Аллаху.",
+          "zh": "以及为真主奉献者的市场。"
+        },
+        "word_start": 30,
+        "word_end": 33
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "اكْتَسَبُوا فِيهَا الرَّحْمَةَ وَرَبِحُوا فِيهَا الْجَنَّةَ",
+        "translations": {
+          "en": "Herein they earned mercy and herein they acquired Paradise by way of profit.",
+          "ur": "یہیں انہوں نے رحمت کو پایا اور یہیں انہوں نے منافع کے طور پر جنت کو حاصل کیا۔",
+          "tr": "İşte orada rahmeti kazandılar ve işte orada kâr olarak cenneti elde ettiler.",
+          "fa": "در اینجا آن‌ها رحمت را کسب کردند و در اینجا بهای بهشت را به دست آوردند.",
+          "id": "Di sanalah mereka memperoleh rahmat, dan di sanalah mereka memperoleh surga sebagai keuntungan.",
+          "bn": "এখানে তারা রহমত অর্জন করলেন এবং এখানে তারা লাভের পথে জান্নাত অর্জন করলেন।",
+          "es": "Allí ganaron misericordia y allí adquirieron el Paraíso como ganancia.",
+          "fr": "C'est ici qu'ils ont acquis la miséricorde et c'est ici qu'ils ont obtenu le Paradis en guise de gain.",
+          "de": "Darin erwarben sie Barmherzigkeit und darin erwarben sie das Paradies als Gewinn.",
+          "ru": "В этом они заслужили милость и в этом они приобрели Рай как прибыль.",
+          "zh": "他们因之获得慈悯，并因之获利而进入乐园。"
+        },
+        "word_start": 33,
+        "word_end": 39
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (AS) employs a rhetorical structure of parallelism to redefine the world not as an end in itself, but as a dynamic 'marketplace' (matjar) where spiritual capital is traded for eternal reward. This perspective aligns with the Shia concept of *zuhd* (asceticism) as active engagement with the world through understanding, rather than mere withdrawal, emphasizing that the dunya is a testing ground for those who 'sincerify' their relationship with it. The description of it as the 'mosque of God’s friends' highlights its role as a locus of divine connection and prophetic legacy.",
+        "seo_question": "How does Shia Islam view the world as a place of preparation for the afterlife?",
+        "key_terms": {
+          "الدُّنْيَا": "The world, the lower realm, the transient life",
+          "صِدْقٌ": "Truth, sincerity, being true to one's nature",
+          "عَافِيَةٍ": "Safety, well-being, freedom from harm",
+          "تَزَوَّدَ": "To take provision (for a journey)",
+          "مَوْعِظَةٍ": "Instruction, admonition, lesson",
+          "أَحِبَّاءِ اللَّهِ": "Lovers of God, friends of God",
+          "مَتْجَرُ": "Marketplace, place of trade",
+          "اكْتَسَبُوا": "They earned, acquired"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (ع) متوازنہ ساخت استعمال کرتے ہوئے دنیا کو ایک مقصدِ ذاتی کے بجائے ایک متحرک 'بازار' (مَجر) کے طور پر دوبارہ تعریف کرتے ہیں، جہاں روحانی سرمایہ ابدی ثواب کے لیے تجارت کیا جاتا ہے۔ یہ نقطہ نظر شیعہ تصوف کے تصورِ زُہد سے ہم آہنگ ہے، جو دنیا سے محض کنارہ کشی کے بجائے اس میں سمجھ بوجھ کے ساتھ فعال شمولیت کو ظاہر کرتا ہے، اور اس بات پر زور دیتا ہے کہ دنیا ان لوگوں کے لیے ایک امتحانی گاہ ہے جو اس کے ساتھ اپنے تعلق کو 'سچا' (صِدْق) بناتے ہیں۔ اسے 'اللہ کے دوستوں کی مسجد' کہنے سے اس کے کردار کو الٰہی رابطے اور نبوی میراث کے مرکز کے طور پر اجاگر کیا گیا ہے۔",
+        "seo_question": "شیعہ اسلام آخرت کی تیاری کے لیے دنیا کو کس طرح دیکھتا ہے؟",
+        "key_terms": {
+          "الدُّنْيَا": "دنیا، نچلا عالم، عارضی زندگی",
+          "صِدْقٌ": "سچائی، خلوص، اپنی فطرت کے مطابق ہونا",
+          "عَافِيَةٍ": "سلامتی، بہبود، نقصان سے آزادی",
+          "تَزَوَّدَ": "سفر کے لیے ساز و سامان لینا",
+          "مَوْعِظَةٍ": "نصیحت، وعظ، سبق",
+          "أَحِبَّاءِ اللَّهِ": "اللہ کے دوست، اللہ کے محبوب",
+          "مَتْجَرُ": "بازار، تجارت کا مقام",
+          "اكْتَسَبُوا": "انہوں نے کمایا، حاصل کیا"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (AS), dünyayı kendi başına bir amaç değil, manevi sermayenin ebedi mükâfat için takas edildiği dinamik bir 'pazar' (matcer) olarak yeniden tanımlamak için paralellik yapılarını kullanır. Bu bakış açısı, dünyadan sadece çekilmek yerine, onu anlamak yoluyla aktif bir katılım olarak Şii *zuhd* (tazhhd) kavramıyla uyumludur ve dunyanın, onunla olan ilişkisini 'ihlaslayan' (sincere) kişiler için bir imtihan alanı olduğunu vurgular. Onun 'Allah'ın dostlarının mescidi' olarak tanımlanması, ilahi bağlantı ve peygamber mirasının bir yeri olarak rolünü vurgular.",
+        "seo_question": "Şii İslam'da dünya, ahiret için hazırlık yeri olarak nasıl görülür?",
+        "key_terms": {
+          "الدُّنْيَا": "Dünya, aşağı alem, geçici hayat",
+          "صِدْقٌ": "Gerçeklik, samimiyet, doğaya sadık olmak",
+          "عَافِيَةٍ": "Güvenlik, refah, zarardan uzak olma",
+          "تَزَوَّدَ": "Bir yolculuk için erzak almak",
+          "مَوْعِظَةٍ": "Öğüt, nasihat, ders",
+          "أَحِبَّاءِ اللَّهِ": "Allah'ın sevgilileri, Allah'ın dostları",
+          "مَتْجَرُ": "Pazar, ticaret yeri",
+          "اكْتَسَبُوا": "Kazandılar, edindiler"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (ع علی (ع) با به کارگیری ساختار بلاغی توازی، جهان را نه به عنوان غایتی در خود، بلکه به عنوان یک «بازار» (مَجر) پویا بازتعریف می‌کند که در آن سرمایه معنوی در برابر پاداش ابدی مبادله می‌شود. این دیدگاه با مفهوم شیعی زهد به عنوان مشارکت فعال در جهان از طریق درک، نه صرفاً کناره‌گیری، همسو است و بر این نکته تأکید دارد که دنیا محل آزمایش برای کسانی است که رابطه خود را با آن «صادقانه» می‌کنند. توصیف آن به عنوان «مسجد دوستان خدا» نقش آن را به عنوان کانون ارتباط الهی و میراث نبوی برجسته می‌سازد.",
+        "seo_question": "اسلام شیعه جهان را چگونه به عنوان مکانی برای آماده‌سازی برای آخرت می‌بیند؟",
+        "key_terms": {
+          "الدُّنْيَا": "جهان، realm پست، زندگی فانی",
+          "صِدْقٌ": "حقیقت، صداقت، راستگو بودن نسبت به ذات خود",
+          "عَافِيَةٍ": "ایمنی، بهزیستی، رهایی از آسیب",
+          "تَزَوَّدَ": "تدارک دیدن (برای سفر)",
+          "مَوْعِظَةٍ": "آموزش، پند، درس",
+          "أَحِبَّاءِ اللَّهِ": "دوستداران خدا، دوستان خدا",
+          "مَتْجَرُ": "بازار، محل تجارت",
+          "اكْتَسَبُوا": "آن‌ها کسب کردند، به دست آوردند"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (AS) menggunakan struktur retoris paralelisme untuk mendefinisikan ulang dunia bukan sebagai tujuan akhir, melainkan sebagai 'pasar' (matjar) yang dinamis di mana modal spiritual diperdagangkan untuk pahala abadi. Perspektif ini selaras dengan konsep Syiah tentang zuhd (kesufian) sebagai keterlibatan aktif dengan dunia melalui pemahaman, bukan sekadar penarikan diri, yang menekankan bahwa dunia adalah tempat uji bagi mereka yang 'menyucikan' hubungan mereka dengannya. Deskripsi dunia sebagai 'masjid para kekasih Allah' menyoroti perannya sebagai pusat koneksi ilahi dan warisan kenabian.",
+        "seo_question": "Bagaimana Islam Syiah memandang dunia sebagai tempat persiapan untuk akhirat?",
+        "key_terms": {
+          "الدُّنْيَا": "Dunia, alam bawah, kehidupan fana",
+          "صِدْقٌ": "Kebenaran, kesungguhan, menjadi setia pada hakikat diri",
+          "عَافِيَةٍ": "Keselamatan, kesejahteraan, bebas dari bahaya",
+          "تَزَوَّدَ": "Mengambil bekal (untuk perjalanan)",
+          "مَوْعِظَةٍ": "Instruksi, nasihat, pelajaran",
+          "أَحِبَّاءِ اللَّهِ": "Kekasih Allah, teman-teman Allah",
+          "مَتْجَرُ": "Pasar, tempat perdagangan",
+          "اكْتَسَبُوا": "Mereka memperoleh, mengakuisisi"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) সমান্তরাল রচনা কাঠামো ব্যবহার করে বিশ্বকে একটি চূড়ান্ত লক্ষ্য হিসেবে নয়, বরং একটি গতিশীল 'বাজার' (মাজর) হিসেবে পুনর্নির্ধারণ করেন, যেখানে আধ্যাত্মিক মূলধন চিরস্থায়ী পুরস্কারের বিনিময়ে বিনিময় করা হয়। এই দৃষ্টিভঙ্গি শিয়া ধর্মের *যুহদ* (ত্যাগ) ধারণার সাথে সামঞ্জস্যপূর্ণ, যা বিশ্ব থেকে সরে যাওয়ার চেয়ে বোঝার মাধ্যমে বিশ্বের সাথে সক্রিয় যুক্তিকে নির্দেশ করে, এবং জোর দেয় যে দুনিয়া হলো তাদের জন্য একটি পরীক্ষার ক্ষেত্র যারা এর সাথে তাদের সম্পর্ককে 'সততা' প্রদান করেন। এটিকে 'আল্লাহর বন্ধুদের মসজিদ' হিসেবে বর্ণনা করা তার ঐশ্বরিক সংযোগ এবং নবীজীবনের উত্তরাধিকারের কেন্দ্রস্থল হিসেবে ভূমিকা তুলে ধরে।",
+        "seo_question": "শিয়া ইসলামে পরকালের জন্য প্রস্তুতির স্থান হিসেবে বিশ্বকে কীভাবে দেখা হয়?",
+        "key_terms": {
+          "الدُّنْيَا": "বিশ্ব, নিম্নতম লোক, ক্ষণস্থায়ী জীবন",
+          "صِدْقٌ": "সত্য, সততা, নিজের প্রকৃতির প্রতি সত্য হওয়া",
+          "عَافِيَةٍ": "নিরাপত্তা, কল্যাণ, ক্ষতিমুক্তি",
+          "تَزَوَّدَ": "যাত্রার জন্য সরবরাহ নেওয়া",
+          "مَوْعِظَةٍ": "নির্দেশনা, উপদেশ, পাঠ",
+          "أَحِبَّاءِ اللَّهِ": "আল্লাহর প্রেমিক, আল্লাহর বন্ধু",
+          "مَتْجَرُ": "বাজার, বিনিময়ের স্থান",
+          "اكْتَسَبُوا": "তারা অর্জন করেছিল, অধিগ্রহণ করেছিল"
+        }
+      },
+      "es": {
+        "summary": "El Imam Ali (AS) emplea una estructura retórica de paralelismo para redefinir el mundo no como un fin en sí mismo, sino como un 'mercado' dinámico (matjar) donde el capital espiritual se intercambia por la recompensa eterna. Esta perspectiva se alinea con el concepto chií de *zuhd* (ascetismo) como un compromiso activo con el mundo a través de la comprensión, más que como un simple retiro, enfatizando que la dunya es un campo de prueba para aquellos que 'sincerizan' su relación con él. La descripción del mundo como la 'mezquita de los amigos de Dios' destaca su papel como locus de conexión divina y legado profético. ¿Cómo ve el Islam chií al mundo como un lugar de preparación para la vida después de la muerte? [",
+        "seo_question": "¿Cómo ve el Islam chií al mundo como un lugar de preparación para la vida después de la muerte?",
+        "key_terms": {
+          "الدُّنْيَا": "El mundo, el reino inferior, la vida transitoria",
+          "صِدْقٌ": "Verdad, sinceridad, ser fiel a la propia naturaleza",
+          "عَافِيَةٍ": "Seguridad, bienestar, libertad del daño",
+          "تَزَوَّدَ": "Tomar provisiones (para un viaje)",
+          "مَوْعِظَةٍ": "Instrucción, amonestación, lección",
+          "أَحِبَّاءِ اللَّهِ": "Amantes de Dios, amigos de Dios",
+          "مَتْجَرُ": "Mercado, lugar de comercio",
+          "اكْتَسَبُوا": "Ellos ganaron, adquirieron"
+        }
+      },
+      "fr": {
+        "summary": "L'Imam Ali (AS) utilise une structure rhétorique de parallélisme pour redéfinir le monde non comme une fin en soi, mais comme un 'marché' dynamique (matjar) où le capital spirituel est échangé contre une récompense éternelle. Cette perspective s'aligne sur le concept chiite de *zuhd* (ascétisme) comme engagement actif avec le monde par la compréhension, plutôt que par un simple retrait, soulignant que le *dunya* est un lieu d'épreuve pour ceux qui 'purifient' leur relation avec lui. La description du monde comme la 'mosquée des amis de Dieu' met en évidence son rôle de lieu de connexion divine et d'héritage prophétique.",
+        "seo_question": "Comment l'islam chiite voit-il le monde comme un lieu de préparation pour l'au-delà ?",
+        "key_terms": {
+          "الدُّنْيَا": "Le monde, le royaume inférieur, la vie transitoire",
+          "صِدْقٌ": "Vérité, sincérité, être fidèle à sa nature",
+          "عَافِيَةٍ": "Sécurité, bien-être, liberté du mal",
+          "تَزَوَّدَ": "Prendre des provisions (pour un voyage)",
+          "مَوْعِظَةٍ": "Instruction, exhortation, leçon",
+          "أَحِبَّاءِ اللَّهِ": "Amis de Dieu, bien-aimés de Dieu",
+          "مَتْجَرُ": "Marché, lieu de commerce",
+          "اكْتَسَبُوا": "Ils ont acquis, gagné"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (AS) nutzt eine rhetorische Struktur der Parallelität, um die Welt nicht als Selbstzweck, sondern als dynamischen 'Markt' (matjar) neu zu definieren, in dem spirituelles Kapital gegen ewige Belohnung getauscht wird. Diese Perspektive steht im Einklang mit dem schiitischen Konzept des *Zuhd* (Askese) als aktives Engagement mit der Welt durch Verständnis, anstatt bloßem Rückzug, und betont, dass die Dunya ein Prüfstand für diejenigen ist, die ihre Beziehung zu ihr 'veredeln'. Die Beschreibung als 'Moschee der Freunde Gottes' unterstreicht ihre Rolle als Ort göttlicher Verbindung und prophetischen Erbes.",
+        "seo_question": "Wie betrachtet der schiitische Islam die Welt als Ort der Vorbereitung auf das Jenseits?",
+        "key_terms": {
+          "الدُّنْيَا": "Die Welt, die untere Sphäre, das vergängliche Leben",
+          "صِدْقٌ": "Wahrheit, Aufrichtigkeit, der eigenen Natur treu sein",
+          "عَافِيَةٍ": "Sicherheit, Wohlbefinden, Freiheit von Schaden",
+          "تَزَوَّدَ": "Versorgung für eine Reise mitnehmen",
+          "مَوْعِظَةٍ": "Anweisung, Ermahnung, Lektion",
+          "أَحِبَّاءِ اللَّهِ": "Liebhaber Gottes, Freunde Gottes",
+          "مَتْجَرُ": "Marktplatz, Handelsort",
+          "اكْتَسَبُوا": "Sie erwarben, erlangten"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (мир ему) использует риторическую структуру параллелизма, чтобы переосмыслить мир не как самоцель, а как динамичный «рынок» (матджар), где духовный капитал обменивается на вечное вознаграждение. Эта перспектива согласуется с шиитской концепцией *зухда* (аскетизма) как активного взаимодействия с миром через понимание, а не просто отстранения, подчеркивая, что *дунья* является испытательным полигоном для тех, кто «очищает» свои отношения с ним. Описание мира как «мечети друзей Божьих» подчеркивает его роль как места божественной связи и пророческого наследия.",
+        "seo_question": "Как шиитский ислам рассматривает мир как место подготовки к загробной жизни?",
+        "key_terms": {
+          "الدُّنْيَا": "Мир, нижний мир, преходящая жизнь",
+          "صِدْقٌ": "Истина, искренность, верность своей природе",
+          "عَافِيَةٍ": "Безопасность, благополучие, свобода от вреда",
+          "تَزَوَّدَ": "Взять припасы (в путь)",
+          "مَوْعِظَةٍ": "Наставление, увещевание, урок",
+          "أَحِبَّاءِ اللَّهِ": "Любовники Бога, друзья Бога",
+          "مَتْجَرُ": "Рынок, место торговли",
+          "اكْتَسَبُوا": "Они заработали, приобрели"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）运用平行修辞结构，重新定义世界并非终极目的，而是一个动态的‘市场’（matjar），灵性资本在此兑换为永恒的回报。这一观点与什叶派关于zuhd（苦修/出世）的概念相契合，即通过理解世界而积极介入，而非单纯退隐，强调dunya（现世）是那些对其关系‘真诚化’者的试炼场。将其描述为‘真主挚友的清真寺’，突显了其作为神圣联系与先知遗产载体的角色。",
+        "seo_question": "什叶派伊斯兰教如何看待现世作为后世准备的场所？",
+        "key_terms": {
+          "الدُّنْيَا": "世界，下层境界，短暂的人生",
+          "صِدْقٌ": "真理，真诚，忠于本性",
+          "عَافِيَةٍ": "安全，安康，免受伤害",
+          "تَزَوَّدَ": "为旅程准备干粮（取用供给）",
+          "مَوْعِظَةٍ": "教诲，劝诫，教训",
+          "أَحِبَّاءِ اللَّهِ": "真主的爱人，真主的朋友",
+          "مَتْجَرُ": "市场，交易场所",
+          "اكْتَسَبُوا": "他们赚取，获得"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:185",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "6:29",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:30",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "61:10",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "57:20",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "إِنَّ الدُّنْيَا دَارُ صِدْقٍ لِمَنْ صَدَقَهَا وَدَارُ عَافِيَةٍ لِمَنْ فَهِمَ عَنْهَا وَدَارُ غِنًى لِمَنْ تَزَوَّدَ مِنْهَا وَدَارُ مَوْعِظَةٍ لِمَنِ اتَّعَظَ بِهَا مَسْجِدُ أَحِبَّاءِ اللَّهِ وَمُصَلَّى مَلَائِكَةِ اللَّهِ وَمَهْبِطُ وَحْيِ اللَّهِ وَمَتْجَرُ أَوْلِيَاءِ اللَّهِ اكْتَسَبُوا فِيهَا الرَّحْمَةَ وَرَبِحُوا فِيهَا الْجَنَّةَ",
+    "isnad_matn": {
+      "isnad_ar": "إِنَّ الدُّنْيَا دَارُ صِدْقٍ لِمَنْ صَدَقَهَا وَدَارُ عَافِيَةٍ لِمَنْ فَهِمَ عَنْهَا وَدَارُ غِنًى لِمَنْ تَزَوَّدَ مِنْهَا وَدَارُ مَوْعِظَةٍ لِمَنِ اتَّعَظَ بِهَا مَسْجِدُ أَحِبَّاءِ اللَّهِ وَمُصَلَّى مَلَائِكَةِ اللَّهِ وَمَهْبِطُ وَحْيِ اللَّهِ وَمَتْجَرُ أَوْلِيَاءِ اللَّهِ اكْتَسَبُوا فِي",
+      "matn_ar": "إِنَّ الدُّنْيَا دَارُ صِدْقٍ لِمَنْ صَدَقَهَا وَدَارُ عَافِيَةٍ لِمَنْ فَهِمَ عَنْهَا وَدَارُ غِنًى لِمَنْ تَزَوَّدَ مِنْهَا وَدَارُ مَوْعِظَةٍ لِمَنِ اتَّعَظَ بِهَا مَسْجِدُ أَحِبَّاءِ اللَّهِ وَمُصَلَّى مَلَائِكَةِ اللَّهِ وَمَهْبِطُ وَحْيِ اللَّهِ وَمَتْجَرُ أَوْلِيَاءِ اللَّهِ اكْتَسَبُوا فِيهَا الرَّحْمَةَ وَرَبِحُوا فِيهَا الْجَنَّةَ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "إن الدنيا دار صدق لمن صدقها ودار عافية لمن فهم عنها ودار غنى لمن تزود منها ودار موعظة لمن اتعظ بها مسجد أحباء الله ومصلى ملائكة الله ومهبط وحي الله ومتجر أولياء الله اكتسبوا",
+          "name_en": "In al-Dunya dar sidq li-man sadaha wa-dar 'afiyah li-man fahima 'anha wa-dar ghina li-man tazadda minha wa-dar mu'athah li-man ita'azza biha masjid ahbba' Allah wa-musalla mal'ikat Allah wa-mahbat wahy Allah wa-tijarat awliya' Allah iktasibu",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,141 +1,207 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:5:309:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[0] word 'في' has no diacritics (must be fully diacritized)"
+    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "knowledge",
-      "prophetic_tradition",
-      "history"
+      "prophetic_tradition"
     ],
-    "content_type": "biographical",
+    "content_type": "narrative",
     "topics": [
       "hadith_sciences",
-      "religious_authority",
-      "teaching"
+      "scholars_virtues"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَما كانَ في هَ عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ فَقَدْ رَوَيْتُهُ عَنِ الْحُسَيْنِ بْنِ أَحْمَدَ بْنِ إِدْرِيسَ- رَضِيَ اللَّهُ عَنْهُ- عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيى، عَنْ سَهْلِ بْنِ زِيادٍ الْآدَمِيِّ عَنِ الْجَرِيرِيِّ وَاسْمُهُ سُفْيانُ، عَنْ أَبِي عِمْرانَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ.",
+        "arabic_text": "وَمَا كَانَ فِيهِ عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ فَقَدْ رَوَيْتُهُ عَنِ الْحُسَيْنِ بْنِ أَحْمَدَ بْنِ إِدْرِيسَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ سَهْلِ بْنِ زِيَادٍ الْآدَمِيِّ، عَنِ الْجَرِيرِيِّ وَاسْمُهُ سُفْيَانُ، عَنْ أَبِي عِمْرَانَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ.",
         "translations": {
-          "en": "As for whatever is in Hāʾ from ʿAbd Allāh ibn al-Ḥakam, I have narrated it from al-Ḥusayn ibn Aḥmad ibn Idrīs—may Allah be pleased with him—from his father, from Muḥammad ibn Aḥmad ibn Yaḥyā, from Sahl ibn Ziyād al-Ādamī, from al-Jarīrī, whose name is Sufyān, from Abū ʿImrān al-Armanī, from ʿAbd Allāh ibn al-Ḥakam.",
-          "ur": "جہاں تک ہاء میں عبد اللّٰہ بن الحكم کا تعلق ہے، میں نے اسے الحُسین بن احمد بن ادریس-رضی اللہ عنہ- سے روایت کیا ہے، جو اپنے والد سے، محمد بن احمد بن یحییٰ سے، سہل بن زیاد الادمی سے، الجرِیری سے جن کا نام سفیان ہے، ابو عمران الارمنی سے، اور وہ عبد اللّٰہ بن الحكم سے ہیں۔",
-          "tr": "Hāʾ'de ʿAbd Allāh ibn al-Ḥakam'dan ne varsa, onu el-Ḥusayn ibn Aḥmad ibn Idrīs—Allah ondan razı olsun—babası vasıtasıyla, Muḥammad ibn Aḥmad ibn Yaḥyā'dan, Sahl ibn Ziyād al-Ādamī'den, adı Sufyān olan al-Jarīrī'den, Abū ʿImrān al-Armanī'den, ʿAbd Allāh ibn al-Ḥakam'dan rivayet ettim.",
-          "fa": "هر آنچه در هاء از عبداللّه بن الحكم است، من آن را از الحسین بن احمد بن ادریس-رضی الله عنه- از پدرش، از محمد بن احمد بن یحیی، از سهل بن زیاد الادمی، از الجريري که نامش سفیان است، از ابو عمران الارمنی، از عبداللّه بن الحكم روایت کرده‌ام.",
-          "id": "Adapun apa pun yang ada dalam Hāʾ dari ʿAbd Allāh ibn al-Ḥakam, saya meriwayatkannya dari al-Ḥusayn ibn Aḥmad ibn Idrīs—semoga Allah meridhoi beliau—dari ayahnya, dari Muḥammad ibn Aḥmad ibn Yaḥyā, dari Sahl ibn Ziyād al-Ādamī, dari al-Jarīrī yang bernama Sufyān, dari Abū ʿImrān al-Armanī, dari ʿAbd Allāh ibn al-Ḥakam.",
-          "bn": "হা থেকে যেটা কিছু ʿAbd Allāh ibn al-Ḥakam-এর আছে, আমি তা al-Ḥusayn ibn Aḥmad ibn Idrīs- থেকে روایت করেছি—আল্লাহ তাঁর প্রতি সন্তুষ্ট হোন—তাঁর পিতা থেকে, Muḥammad ibn Aḥmad ibn Yaḥyā থেকে, Sahl ibn Ziyād al-Ādamī থেকে, al-Jarīrī থেকে যার নাম Sufyān, Abū ʿImrān al-Armanī থেকে, ʿAbd Allāh ibn al-Ḥakam থেকে।",
-          "es": "En cuanto a lo que está en Hāʾ de ʿAbd Allāh ibn al-Ḥakam, lo he narrado de al-Ḥusayn ibn Aḥmad ibn Idrīs—que Allah esté complacido con él—de su padre, de Muḥammad ibn Aḥmad ibn Yaḥyā, de Sahl ibn Ziyād al-Ādamī, de al-Jarīrī cuyo nombre es Sufyān, de Abū ʿImrān al-Armanī, de ʿAbd Allāh ibn al-Ḥakam.",
-          "fr": "Quant à ce qui se trouve dans le Hāʾ de ʿAbd Allāh ibn al-Ḥakam, je l'ai rapporté de al-Ḥusayn ibn Aḥmad ibn Idrīs—qu'Allah soit satisfait de lui—de son père, de Muḥammad ibn Aḥmad ibn Yaḥyā, de Sahl ibn Ziyād al-Ādamī, d'al-Jarīrī dont le nom est Sufyān, d'Abū ʿImrān al-Armanī, de ʿAbd Allāh ibn al-Ḥakam.",
-          "de": "Was auch immer im Hāʾ von ʿAbd Allāh ibn al-Ḥakam enthalten ist, habe ich von al-Ḥusayn ibn Aḥmad ibn Idrīs—möge Allah mit ihm zufrieden sein—von seinem Vater, von Muḥammad ibn Aḥmad ibn Yaḥyā, von Sahl ibn Ziyād al-Ādamī, von al-Jarīrī, dessen Name Sufyān ist, von Abū ʿImrān al-Armanī, von ʿAbd Allāh ibn al-Ḥakam überliefert.",
-          "ru": "Что касается того, что содержится в Хāʾ от ʿАбд Аллаха ибн аль-Хакам, я передал это от аль-Хусейна ибн Ахмада ибн Идриса — да будет доволен им Аллах — от его отца, от Мухаммада ибн Ахмада ибн Яхьи, от Сахля ибн Зияда аль-Адами, от аль-Джарири, имя которого Суфьян, от Абу Имрана аль-Армани, от ʿАбд Аллаха ибн аль-Хакам.",
-          "zh": "至于哈字中关于ʿAbdAllāh ibn al-Ḥakam的内容，我是从al-Ḥusayn ibn Aḥmad ibn Idrīs—愿安拉喜悦他—通过他的父亲，从Muḥammad ibn Aḥmad ibn Yaḥyā，从Sahl ibn Ziyād al-Ādamī，从名为Sufyān的al-Jarīrī，从AbūʿImrān al-Armanī，传述自ʿAbdAllāh ibn al-Ḥakam。"
+          "en": "And whatever is in it from Abdullah ibn Al-Hakam, I have narrated it from Al-Husayn ibn Ahmad ibn Idris - may Allah be pleased with him - from his father, from Muhammad ibn Ahmad ibn Yahya, from Sahl ibn Ziyad Al-Adami, from Al-Jariri whose name is Sufyan, from Abu ʿImran Al-Armani, from Abdullah ibn Al-Hakam.",
+          "ur": "اور جو کچھ اس میں عبداللہ بن الحکم سے مروی ہے، میں نے اسے حسین بن احمد بن ادريس - رضی اللہ عنہ - سے روایت کیا ہے، ان کے والد سے، محمد بن احمد بن یحییٰ سے، سهل بن زیاد الآدمی سے، الجریری سے جن کا نام سفیان ہے، ابو عمران الارمنی سے، عبداللہ بن الحکم سے۔",
+          "tr": "Ve içinde Abdullah ibnü'l-Hakam'dan gelen her şeyi, ben Hüseyin ibn Ahmed ibn İdris'den (Allah ondan razı olsun), babasından, Muhammed ibn Ahmed ibn Yahya'dan, Sahl ibn Ziyad el-Adami'den, ismi Sufyan olan el-Ceriri'den, Ebu İmran el-Ermeni'den, Abdullah ibnü'l-Hakam'dan rivayet ettim.",
+          "fa": "و هر چه در آن از عبدالله بن حکم است، من آن را از حسین بن احمد بن احمد بن ادریس - رضی الله عنه - از پدرش، از محمد بن احمد بن یحیی، از سهل بن زیاد الآدمی، از الجریری که نامش سفیان است، از ابوعمران الارمنی، از عبدالله بن حکم روایت کرده‌ام.",
+          "id": "Dan apa saja yang ada di dalamnya dari Abdullah ibn Al-Hakam, aku telah meriwayatkannya dari Al-Husayn ibn Ahmad ibn Idris - semoga Allah ridha kepadanya - dari ayahnya, dari Muhammad ibn Ahmad ibn Yahya, dari Sahl ibn Ziyad Al-Adami, dari Al-Jariri yang namanya Sufyan, dari Abu ʿImran Al-Armani, dari Abdullah ibn Al-Hakam.",
+          "bn": "এবং যেসব বিষয় এতে আবদুল্লাহ ইবনুল হাকাম থেকে বর্ণিত আছে, আমি তা হুসাইন ইবন আহমদ ইবন ইদ্রিস (রহ.) থেকে বর্ণনা করেছি, তিনি তাঁর পিতা থেকে, মুহাম্মাদ ইবন আহমদ ইবন ইয়াহ্যা থেকে, সাহল ইবন জিয়াদ আল-আদামি থেকে, আল-জারিরি যার নাম সুফিয়ান, থেকে, আবু ইমরান আল-আরমি থেকে, আবদুল্লাহ ইবনুল হাকাম থেকে।",
+          "es": "Y todo lo que en ella se encuentra de Abdullah ibn Al-Hakam, lo he narrado de Al-Husayn ibn Ahmad ibn Idris - que Allah esté complacido con él - de su padre, de Muhammad ibn Ahmad ibn Yahya, de Sahl ibn Ziyad Al-Adami, de Al-Jariri cuyo nombre es Sufyan, de Abu ʿImran Al-Armani, de Abdullah ibn Al-Hakam.",
+          "fr": "Et ce qui en est rapporté d'Abdullah ibn Al-Hakam, je l'ai rapporté d'Al-Husayn ibn Ahmad ibn Idris - qu'Allah l'agrée - de son père, de Muhammad ibn Ahmad ibn Yahya, de Sahl ibn Ziyad Al-Adami, d'Al-Jariri dont le nom est Sufyan, d'Abu ʿImran Al-Armani, d'Abdullah ibn Al-Hakam.",
+          "de": "Und was darin von Abdullah ibn Al-Hakam überliefert ist, habe ich von Al-Husayn ibn Ahmad ibn Idris – möge Allah mit ihm zufrieden sein – von seinem Vater, von Muhammad ibn Ahmad ibn Yahya, von Sahl ibn Ziyad Al-Adami, von Al-Jariri, dessen Name Sufyan ist, von Abu ʿImran Al-Armani, von Abdullah ibn Al-Hakam überliefert.",
+          "ru": "И всё, что в нём от Абдуллаха ибн аль-Хакма, я передал от аль-Хусайна ибн Ахмада ибн Идриса — да будет доволен им Аллах — от его отца, от Мухаммада ибн Ахмада ибн Яхьи, от Сахла ибн Зияда аль-Адами, от аль-Джарари, которого зовут Суфьян, от Абу ʿИмрана аль-Армани, от Абдуллаха ибн аль-Хакма.",
+          "zh": "凡其中有阿卜杜拉·本·哈卡姆传述的，我曾从侯赛因·本·艾哈迈德·本·伊德里斯（愿真主喜悦他）传述，从他父亲，从穆罕默德·本·艾哈迈德·本·叶海亚，从萨赫勒·本·齐雅德·阿达米，从贾里里即苏富扬，从阿布·伊姆兰·阿尔马尼，从阿卜杜拉·本·哈卡姆传述。"
         },
         "word_start": 0,
-        "word_end": 46
+        "word_end": 47
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَرَوَيْتُهُ عَنْ أَبِي؛ وَمُحَمَّدِ بْنِ الْحَسَنِ- رَضِيَ اللَّهُ عَنْهُما- عَنْ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ مُحَمَّدِ بْنِ حَسَّانَ، عَنْ أَبِي عِمْرانَ مُوسى بْنِ زَنْجُوَيْهِ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ‌.",
+        "arabic_text": "وَرَوَيْتُهُ عَنْ أَبِي؛ وَمُحَمَّدِ بْنِ الْحَسَنِ - رَضِيَ اللَّهُ عَنْهُمَا - عَنْ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ مُحَمَّدِ بْنِ حَسَّانَ، عَنْ أَبِي عِمْرَانَ مُوسَى بْنِ زَنْجَوَيْهَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ.",
         "translations": {
-          "en": "And I have also narrated it from my father and from Muḥammad ibn al-Ḥasan—may Allah be pleased with them both—from Aḥmad ibn Idrīs, from Muḥammad ibn Ḥassān, from Abū ʿImrān Mūsā ibn Zanjawayh al-Armanī, from ʿAbd Allāh ibn al-Ḥakam.",
-          "ur": "اور میں نے اسے اپنے والد سے اور محمد بن حسن-رضی اللہ عنہما- سے بھی روایت کیا ہے، جو احمد بن ادریس سے، محمد بن حسن سے، ابو عمران موسیٰ بن زنجوی الارمنی سے، اور وہ عبد اللّٰہ بن الحكم سے ہیں۔",
-          "tr": "Ayrıca onu babamdan ve Muḥammad ibn al-Ḥasan—Allah ikisinden razı olsun—den, Aḥmad ibn Idrīs'ten, Muḥammad ibn Ḥassān'dan, Abū ʿImrān Mūsā ibn Zanjawayh al-Armanī'den, ʿAbd Allāh ibn al-Ḥakam'dan rivayet ettim.",
-          "fa": "و همچنین آن را از پدرم و از محمد بن حسن-رضی الله عنهما- از احمد بن ادریس، از محمد بن حسن، از ابو عمران موسی بن زنجوی الارمنی، از عبداللّه بن الحكم روایت کرده‌ام.",
-          "id": "Dan saya juga meriwayatkannya dari ayah saya dan dari Muḥammad ibn al-Ḥasan—semoga Allah meridhoi keduanya—dari Aḥmad ibn Idrīs, dari Muḥammad ibn Ḥassān, dari Abū ʿImrān Mūsā ibn Zanjawayh al-Armanī, dari ʿAbd Allāh ibn al-Ḥakam.",
-          "bn": "এবং আমি এটিও আমার পিতা থেকে এবং Muḥammad ibn al-Ḥasan থেকে—আল্লাহ উভয়ের প্রতি সন্তুষ্ট হোন—Aḥmad ibn Idrīs থেকে, Muḥammad ibn Ḥassān থেকে, Abū ʿImrān Mūsā ibn Zanjawayh al-Armanī থেকে, ʿAbd Allāh ibn al-Ḥakam থেকে روایت করেছি।",
-          "es": "Y también lo he narrado de mi padre y de Muḥammad ibn al-Ḥasan—que Allah esté complacido con ambos—de Aḥmad ibn Idrīs, de Muḥammad ibn Ḥassān, de Abū ʿImrān Mūsā ibn Zanjawayh al-Armanī, de ʿAbd Allāh ibn al-Ḥakam.",
-          "fr": "Et je l'ai également rapporté de mon père et de Muḥammad ibn al-Ḥasan—qu'Allah soit satisfait d'eux deux—d'Aḥmad ibn Idrīs, de Muḥammad ibn Ḥassān, d'Abū ʿImrān Mūsā ibn Zanjawayh al-Armanī, de ʿAbd Allāh ibn al-Ḥakam.",
-          "de": "Und ich habe es auch von meinem Vater und von Muḥammad ibn al-Ḥasan—möge Allah mit beiden zufrieden sein—von Aḥmad ibn Idrīs, von Muḥammad ibn Ḥassān, von Abū ʿImrān Mūsā ibn Zanjawayh al-Armanī, von ʿAbd Allāh ibn al-Ḥakam überliefert.",
-          "ru": "И я также передал это от моего отца и от Мухаммада ибн аль-Хасана — да будет доволен ими Аллах обоими — от Ахмада ибн Идриса, от Мухаммада ибн Хассана, от Абу Имрана Мусы ибн Занджавей аль-Армани, от ʿАбд Аллаха ибн аль-Хакам.",
-          "zh": "我也从我的父亲和Muḥammad ibn al-Ḥasan—愿安拉喜悦他们二人—从Aḥmad ibn Idrīs，从Muḥammad ibn Ḥassān，从AbūʿImrān Mūsā ibn Zanjawayh al-Armanī，传述自ʿAbdAllāh ibn al-Ḥakam。"
+          "en": "And I have narrated it from my father; and Muhammad ibn Al-Hasan - may Allah be pleased with them both - from Ahmad ibn Idris, from Muhammad ibn Hassan, from Abu ʿImran Musa ibn Zanjawayh Al-Armani, from Abdullah ibn Al-Hakam.",
+          "ur": "اور میں نے اسے اپنے باپ سے روایت کیا ہے؛ اور محمد بن الحسن - اللہ ان دونوں سے راضی ہو - احمد بن ادريس سے، محمد بن حسن سے، ابو عمران موسیٰ بن زنجویہ الارمنی سے، اور عبداللہ بن الحکم سے۔",
+          "tr": "Ben de babamdan rivayet ettim; ve Muhammed b. el-Hasan -Allah ikisine de razı olsun- Ahmed b. İdris'ten, Muhammed b. Hasan'dan, Ebu İmran Musa b. Zencaveh el-Armani'den, Abdullah b. el-Hakam'dan rivayet etmiştir.",
+          "fa": "و من آن را از پدرم روایت کرده‌ام؛ و محمد بن الحسن - رضی الله عنهما - از احمد بن ادريس، از محمد بن حسن، از ابوعمران موسی بن زنجویه الارمنی، از عبدالله بن الحکم.",
+          "id": "Dan aku telah meriwayatkannya dari ayahku; dan Muhammad ibn Al-Hasan - semoga Allah ridha Allah atas keduanya - dari Ahmad ibn Idris, dari Muhammad ibn Hassan, dari Abu ʿImran Musa ibn Zanjawayh Al-Armani, dari Abdullah ibn Al-Hakam.",
+          "bn": "আর আমি এটি আমার পিতার নিকট থেকে বর্ণনা করেছি; এবং মুহাম্মাদ ইবনুল হাসান — আল্লাহ তাআলা উভয়ের প্রতি রজি আলাহু — আহমাদ ইবন ইদ্রিসের নিকট থেকে, মুহাম্মাদ ইবনুল হাসানের নিকট থেকে, আবু ইমরান মুসা ইবন জাঞ্জোয়াহ আল-আর্মির নিকট থেকে, আবদুল্লাহ ইবনুল হাকামের নিকট থেকে।",
+          "es": "Y lo he narrado de mi padre; y Muhammad ibn Al-Hasan - que Allah esté satisfecho de ambos - de Ahmad ibn Idris, de Muhammad ibn Hassan, de Abu ʿImran Musa ibn Zanjawayh Al-Armani, de Abdullah ibn Al-Hakam.",
+          "fr": "Et je l'ai rapporté de mon père ; et Muhammad ibn Al-Hasan - qu'Allah soit satisfait d'eux tous les deux - d'Ahmad ibn Idris, de Muhammad ibn Hassan, d'Abu ʿImran Musa ibn Zanjawayh Al-Armani, d'Abdullah ibn Al-Hakam.",
+          "de": "Und ich habe es von meinem Vater überliefert; und Muhammad ibn Al-Hasan – möge Allah beide zufrieden sein – von Ahmad ibn Idris, von Muhammad ibn Hassan, von Abu ʿImran Musa ibn Zanjawayh Al-Armani, von Abdullah ibn Al-Hakam.",
+          "ru": "И я передал его от моего отца; и Мухаммад ибн аль-Хасан — да будет доволен ими Оба — от Ахмада ибн Идриса, от Мухаммада ибн аль-Хасана, от Абу ʿИкрана Мусы ибн Занджави аль-Армани, от Абдуллаха ибн аль-Хакама.",
+          "zh": "我曾从我的父亲那里传述；穆罕默德·本·哈桑（愿真主喜悦他们俩）从艾哈迈德·本·伊德里斯，从穆罕默德·本·哈桑，从阿布·伊姆兰·穆萨·本·詹贾维·阿尔马尼，从阿卜杜拉·本·哈卡姆那里传述。"
         },
-        "word_start": 46,
-        "word_end": 75
+        "word_start": 47,
+        "word_end": 78
       }
     ],
     "translations": {
       "en": {
-        "summary": "This passage gives the sanad/isnad through which the author transmits narrations from ʿAbd Allāh ibn al-Ḥakam. It preserves two transmission routes, making it a source-critical statement about how the hadith material in the book was received and conveyed.",
-        "seo_question": "What is the transmission chain to ʿAbd Allāh ibn al-Ḥakam in Man Lā Yaḥḍuruhu al-Faqīh?",
+        "summary": "Shaykh al-Saduq provides a rigorous biographical verification (takhrij) of the isnad for Abdullah ibn Al-Hakam, a key narrator in the Kufan school, by detailing two distinct chains of transmission he personally received. This meticulous documentation underscores the Shia scholarly emphasis on preserving the integrity of the Prophet's teachings through verified, unbroken lines of authority (tawatur) and personal attestation (samāʿ).",
+        "seo_question": "What are the transmission chains for the narrations of Abdullah ibn Al-Hakam in this text?",
         "key_terms": {
-          "عَبْدِ اللَّهِ بْنِ الْحَكَمِ": "A transmitter from whom this material is narrated",
-          "رَوَيْتُهُ": "I transmitted it; indicates direct reporting by the compiler",
-          "أَبِي عِمْرانَ الْأَرْمَنِيِّ": "A named link in the transmission chain",
-          "أَحْمَدَ بْنِ إِدْرِيسَ": "A major transmitter appearing in one route of the chain",
-          "سَهْلِ بْنِ زِيادٍ الْآدَمِيِّ": "A named narrator in the first transmission route"
+          "عبد الله بن الحكم": "Abdullah ibn Al-Hakam, the source narrator",
+          "الحسين بن أحمد بن إدريس": "Al-Husayn ibn Ahmad ibn Idris, a key narrator in the first chain",
+          "أبو عمران الأرمني": "Abu ʿImran Al-Armani, a narrator in both chains",
+          "الجريري": "Al-Jariri, identified as Sufyan",
+          "سند": "Isnad, the chain of narrators"
         }
       },
       "ur": {
-        "summary": "یہ عبارت سند فراہم کرتی ہے جس کے ذریعے مصنف نے عبد اللّٰہ بن الحكم سے روایات نقل کی ہیں۔ یہ دو روایت کے راستے محفوظ رکھتی ہے، جو کتاب میں حدیث کے مواد کے وصول اور نقل کرنے کے بارے میں ایک ماخذی تنقیدی بیان ہے۔",
-        "seo_question": "من لا يحضره الفقيہ میں عبد اللّٰہ بن الحكم تک روایت کی زنجیر کیا ہے؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق نے کوفی مکتب کے ایک اہم راوی عبداللہ بن حکم کے سند کی سختی سے حیثیت (تخریج) کی، جس میں انہوں نے دو مختلف روایتی سلاسل کی تفصیل بیان کی جو انہوں نے ذاتی طور پر حاصل کی تھیں۔ یہ محتاط دستاویزی کاروائی شیعہ علما کی اس اہمیت کو اجاگر کرتی ہے کہ نبی کریم ﷺ کی تعلیمات کی سالمیت کو تصدیق شدہ، غیر منقطع اختیاری سلاسل (تواتر) اور ذاتی گواہی (سماع) کے ذریعے محفوظ رکھنے پر زور دیا جاتا ہے۔",
+        "seo_question": "اس متن میں عبداللہ بن حکم کی روایات کے لیے روایتی سلاسل کیا ہیں؟",
+        "key_terms": {
+          "عبد الله بن الحكم": "عبداللہ بن حکم، ماخذ راوی",
+          "الحسين بن أحمد بن إدريس": "الحسین بن احمد بن ادريس، پہلی زنجیر میں ایک اہم راوی",
+          "أبو عمران الأرمني": "ابو عمران الارمني، دونوں زنجیروں میں ایک راوی",
+          "الجريري": "الجريري، جسے صوفیان کے طور پر شناخت کیا گیا ہے",
+          "سند": "سند، راویوں کی زنجیر"
+        }
       },
       "tr": {
-        "summary": "Bu pasaj, yazarın ʿAbd Allāh ibn al-Ḥakam'dan rivayetleri aktardığı isnadı verir. İki nakil yolunu koruyarak, kitaptaki hadis materyalinin nasıl alınıp aktarıldığına dair kaynak eleştirel bir ifadedir.",
-        "seo_question": "Man Lā Yaḥḍuruhu al-Faqīh'de ʿAbd Allāh ibn al-Ḥakam'a olan nakil zinciri nedir?",
-        "key_terms": {}
+        "summary": "Şeyh el-Sadûk, Kufe okulunun önemli bir râvisi olan Abdullah bin el-Hakam için isnadın biyografik doğrulamasını (tahric), kişisel olarak aldığı iki farklı rivayet zincirini detaylandırarak sunar. Bu titiz belgeleme, Şii alimlerin, Peygamber'in öğretilerinin bütünlüğünü doğrulanmış, kopmamış otorite çizgileri (tevatür) ve kişisel şahitlik (semâ) aracılığıyla koruma vurgusunu vurgulamaktadır.",
+        "seo_question": "Bu metinde Abdullah bin el-Hakam'ın rivayetlerinin aktarım zincirleri nelerdir?",
+        "key_terms": {
+          "عبد الله بن الحكم": "Abdullah bin el-Hakam, kaynak râvi",
+          "الحسين بن أحمد بن إدريس": "el-Hüseyin bin Ahmed bin İdris, ilk zincirdeki önemli râvi",
+          "أبو عمران الأرمني": "Ebu İmrân el-Ermeni, her iki zincirdeki râvi",
+          "الجريري": "el-Cerirî, Sufyan olarak tanımlanır",
+          "سند": "İsnad, râviler zinciri"
+        }
       },
       "fa": {
-        "summary": "این بخش سندی را ارائه می‌دهد که نویسنده از طریق آن روایات را از عبداللّه بن الحكم نقل کرده است. دو مسیر نقل را حفظ می‌کند که بیان انتقادی منبعی درباره چگونگی دریافت و انتقال مطالب حدیث در کتاب است.",
-        "seo_question": "زنجیره انتقال به عبداللّه بن الحكم در کتاب من لا یحضره الفقیه چیست؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق اعتبارسناسی دقیق سندی (تخریج) برای ابن حکم، راوی کلیدی در مکتب کوفه، با ذکر دو زنجیره انتقال متمایز که خود شخصاً دریافت کرده است، ارائه می‌دهد. این مستندسازی دقیق، تأکید علمای شیعه بر حفظ اصالت آموزه‌های پیامبر از طریق خطوط اعتباری ثابت و پیوسته (تواتر) و گواهی شخصی (سماع) را برجسته می‌کند.",
+        "seo_question": "زنجیره‌های انتقال برای روایات ابن حکم در این متن چیست؟",
+        "key_terms": {
+          "عبد الله بن الحكم": "ابن حکم، راوی منبع",
+          "الحسين بن أحمد بن إدريس": "حسین بن احمد بن ادريس، راوی کلیدی در زنجیره اول",
+          "أبو عمران الأرمني": "ابو عمران ارمنی، راوی در هر دو زنجیره",
+          "الجريري": "جریری، که به عنوان صفوان شناسایی شده است",
+          "سند": "سند، زنجیره راویان"
+        }
       },
       "id": {
-        "summary": "Bagian ini memberikan sanad/isnad yang melalui mana penulis menyalurkan riwayat dari ʿAbd Allāh ibn al-Ḥakam. Ini mempertahankan dua jalur transmisi, menjadikannya pernyataan kritis sumber tentang bagaimana materi hadits dalam buku diterima dan disampaikan.",
-        "seo_question": "Apa rantai transmisi kepada ʿAbd Allāh ibn al-Ḥakam dalam Man Lā Yaḥḍuruhu al-Faqīh?",
-        "key_terms": {}
+        "summary": "Syekh al-Shaduq memberikan verifikasi biografi yang ketat (takhrij) terhadap isnad Abdullah bin Al-Hakam, seorang perawi kunci dalam mazhab Kufah Kufah, dengan merinci dua rantai transmisi berbeda yang ia terima secara pribadi. Dokumentasi teliti ini menyoroti penekanan ulama Syiah pada pelestarian integritas ajaran Nabi melalui garis otoritas yang terverifikasi dan tak terputus (tawatur) serta kesaksian pribadi (samāʿ).",
+        "seo_question": "Apa saja rantai transmisi untuk riwayat-riwayat Abdullah bin Al-Hakam dalam teks ini?",
+        "key_terms": {
+          "عبد الله بن الحكم": "Abdullah bin Al-Hakam, perawi sumber",
+          "الحسين بن أحمد بن إدريس": "Al-Husayn bin Ahmad bin Idris, perawi kunci dalam rantai pertama",
+          "أبو عمران الأرمني": "Abu ʿImran Al-Armani, seorang perawi dalam kedua rantai",
+          "الجريري": "Al-Jariri, diidentifikasi sebagai Sufyan",
+          "سند": "Isnad, rantai perawi"
+        }
       },
       "bn": {
-        "summary": "এই অংশটি সেই সনদ/ইসনাদ প্রদান করে যার মাধ্যমে লেখক ʿAbd Allāh ibn al-Ḥakam থেকে বর্ণনাগুলো প্রেরণ করেছেন। এটি দুইটি প্রেরণার পথ সংরক্ষণ করে, যা বইয়ের হাদিস উপাদান কীভাবে প্রাপ্ত ও প্রেরণ করা হয়েছে সে সম্পর্কে একটি উৎস-সমালোচনামূলক বিবৃতি।",
-        "seo_question": "Man Lā Yaḥḍuruhu al-Faqīh-এ ʿAbd Allāh ibn al-Ḥakam-এর কাছে প্রেরণার চেইন কী?",
-        "key_terms": {}
+        "summary": "শায়খ আল-সাদুক আবদুল্লাহ ইবন আল-হাকামের ইসনাদের জন্য একটি কঠোর জীবনবৃত্তান্ত যাচাই (তখরীজ) প্রদান করেছেন, যিনি কুফান স্কুলের একজন প্রধান বর্ণনাকারী; তিনি ব্যক্তিগতভাবে প্রাপ্ত দুটি স্বতন্ত্র বর্ণনা শৃঙ্খল বিস্তারিতভাবে উল্লেখ করেছেন। এই যত্নশীল নথিভুক্তকরণ শিয়া পণ্ডিতদের নবীর শিক্ষাগুলোর অখণ্ডতা রক্ষার গুরুত্ব তুলে ধরে, যা যাচাইকৃত, অবিচ্ছিন্ন কর্তৃত্বের রেখা (তওয়াতুর) এবং ব্যক্তিগত সাক্ষ্য (সামা) এর মাধ্যমে সংরক্ষিত হয়।",
+        "seo_question": "এই পাঠ্যে আবদুল্লাহ ইবন আল-হাকামের বর্ণনাগুলোর জন্য বর্ণনা শৃঙ্খল কী কী?",
+        "key_terms": {
+          "عبد الله بن الحكم": "আবদুল্লাহ ইবন আল-হাকাম, উৎস বর্ণনাকারী",
+          "الحسين بن أحمد بن إدريس": "আল-হুসাইন ইবন আহমদ ইবন ইদ্রিস, প্রথম শৃঙ্খলে একজন প্রধান বর্ণনাকারী",
+          "أبو عمران الأرمني": "আবু ইমরান আল-আরমানি, উভয় শৃঙ্খলে একজন বর্ণনাকারী",
+          "الجريري": "আল-জারিরি, সুফিয়ান হিসেবে চিহ্নিত",
+          "سند": "ইসনাদ, বর্ণনাকারীদের শৃঙ্খল"
+        }
       },
       "es": {
-        "summary": "Este pasaje proporciona la cadena de transmisión (sanad/isnad) a través de la cual el autor transmite narraciones de ʿAbd Allāh ibn al-Ḥakam. Conserva dos rutas de transmisión, siendo una declaración crítica sobre la fuente acerca de cómo se recibió y transmitió el material hadiz en el libro.",
-        "seo_question": "¿Cuál es la cadena de transmisión a ʿAbd Allāh ibn al-Ḥakam en Man Lā Yaḥḍuruhu al-Faqīh?",
-        "key_terms": {}
+        "summary": "El jeque al-Saduq proporciona una verificación biográfica rigurosa (takhrij) de la cadena de transmisión (isnad) de Abdullah ibn Al-Hakam, un narrador clave en la escuela de Kufa, detallando dos cadenas de transmisión distintas que recibió personalmente. Esta documentación meticulosa subraya el énfasis erudito chií en preservar la integridad de las enseñanzas del Profeta a través de líneas de autoridad verificadas e ininterrumpidas (tawatur) y la atestación personal (samāʿ).",
+        "seo_question": "¿Cuáles son las cadenas de transmisión para las narraciones de Abdullah ibn Al-Hakam en este texto?",
+        "key_terms": {
+          "عبد الله بن الحكم": "Abdullah ibn Al-Hakam, el narrador fuente",
+          "الحسين بن أحمد بن إدريس": "Al-Husayn ibn Ahmad ibn Idris, un narrador clave en la primera cadena",
+          "أبو عمران الأرمني": "Abu ʿImran Al-Armani, un narrador en ambas cadenas",
+          "الجريري": "Al-Jariri, identificado como Sufyan",
+          "سند": "Isnad, la cadena de narradores"
+        }
       },
       "fr": {
-        "summary": "Ce passage donne la chaîne de transmission (sanad/isnad) par laquelle l'auteur transmet des récits de ʿAbd Allāh ibn al-Ḥakam. Il conserve deux voies de transmission, constituant une déclaration critique de la source sur la manière dont le matériel hadithique du livre a été reçu et transmis.",
-        "seo_question": "Quelle est la chaîne de transmission jusqu'à ʿAbd Allāh ibn al-Ḥakam dans Man Lā Yaḥḍuruhu al-Faqīh ?",
-        "key_terms": {}
+        "summary": "Le cheikh al-Sadouq fournit une vérification biographique rigoureuse (takhrij) de l'isnad pour Abdullah ibn Al-Hakam, un narrateur clé de l'école de Koufa, en détaillant deux chaînes de transmission distinctes qu'il a reçues personnellement. Cette documentation minutieuse souligne l'accent mis par les savants chiites sur la préservation de l'intégrité des enseignements du Prophète par des lignes d'autorité vérifiées et ininterrompues (tawatur) et l'attestation personnelle (samāʿ).",
+        "seo_question": "Quelles sont les chaînes de transmission pour les narrations d'Abdullah ibn Al-Hakam dans ce texte ?",
+        "key_terms": {
+          "عبد الله بن الحكم": "Abdullah ibn Al-Hakam, le narrateur source",
+          "الحسين بن أحمد بن إدريس": "Al-Husayn ibn Ahmad ibn Idris, un narrateur clé dans la première chaîne",
+          "أبو عمران الأرمني": "Abu ʿImran Al-Armani, un narrateur dans les deux chaînes",
+          "الجريري": "Al-Jariri, identifié comme Sufyan",
+          "سند": "Isnad, la chaîne de narrateurs"
+        }
       },
       "de": {
-        "summary": "Dieser Abschnitt gibt die Überlieferungskette (Sanad/Isnad) an, durch die der Autor Überlieferungen von ʿAbd Allāh ibn al-Ḥakam weitergibt. Er bewahrt zwei Überlieferungswege und stellt damit eine quellenkritische Aussage darüber dar, wie das Hadith-Material im Buch empfangen und übermittelt wurde.",
-        "seo_question": "Wie lautet die Überlieferungskette zu ʿAbd Allāh ibn al-Ḥakam in Man Lā Yaḥḍuruhu al-Faqīh?",
-        "key_terms": {}
+        "summary": "Scheych al-Saduq liefert eine rigorose biographische Überprüfung (Tachridsch) der Isnad für Abdullah ibn Al-Hakam, einen zentralen Überlieferer der kufigischen Schule, indem er zwei verschiedene Überlieferungsketten detailliert beschreibt, die er persönlich empfangen hat. Diese sorgfältige Dokumentation unterstreicht die schiitische Gelehrtenbetonung auf die Bewahrung der Integrität der Lehren des Propheten durch verifizierte, ununterbrochene Autoritätslinien (Tawatur) und persönliche Attestation (Samāʿ).",
+        "seo_question": "Welche sind die Überlieferungsketten für die Überlieferungen von Abdullah ibn Al-Hakam in diesem Text?",
+        "key_terms": {
+          "عبد الله بن الحكم": "Abdullah ibn Al-Hakam, der Quellenüberlieferer",
+          "الحسين بن أحمد بن إدريس": "Al-Husayn ibn Ahmad ibn Idris, ein zentraler Überlieferer in der ersten Kette",
+          "أبو عمران الأرمني": "Abu ʿImran Al-Armani, ein Überlieferer in beiden Ketten",
+          "الجريري": "Al-Jariri, identifiziert als Sufyan",
+          "سند": "Isnad, die Kette der Überlieferer"
+        }
       },
       "ru": {
-        "summary": "Этот отрывок приводит цепочку передачи (санад/иснад), через которую автор передает предания от ʿАбд Аллаха ибн аль-Хакам. Он сохраняет два пути передачи, что является критическим заявлением о источнике относительно того, как хадисный материал в книге был получен и передан.",
-        "seo_question": "Какова цепочка передачи к ʿАбд Аллаху ибн аль-Хакам в книге Man Lā Yaḥḍuruhu al-Faqīh?",
-        "key_terms": {}
+        "summary": "Шейх ас-Садук проводит строгую биографическую проверку (тахридж) иснада для Абдуллаха ибн аль-Хакама, ключевого передатчика в куфской школе, подробно описывая две различные цепи передачи, которые он получил лично. Эта тщательная документация подчеркивает шиитское академическое внимание к сохранению целостности учения Пророка через проверенные, непрерывные линии авторитета (таватур) и личное свидетельство (самаʿ).",
+        "seo_question": "Каковы цепи передачи хадисов Абдуллаха ибн аль-Хакама в данном тексте?",
+        "key_terms": {
+          "عبد الله بن الحكم": "Абдуллах ибн аль-Хаким, источник-передатчик",
+          "الحسين بن أحمد بن إدريس": "Аль-Хусайн ибн Ахмад ибн Идрис, ключевой передатчик в первой цепи",
+          "أبو عمران الأرمني": "Абу ʿИмран аль-Армани, передатчик в обеих цепях",
+          "الجريري": "Аль-Джарари, идентифицированный как Суфьян",
+          "سند": "Иснад, цепь передатчиков"
+        }
       },
       "zh": {
-        "summary": "此段落提供了作者传述ʿAbdAllāh ibn al-Ḥakam传述的sanad/isnad。它保留了两条传述路线，是关于书中圣训材料如何被接收和传达的来源批判性陈述。",
-        "seo_question": "ManLāYaḥḍuruhual-Faqīh中传至ʿAbdAllāh ibn al-Ḥakam的传述链是什么？",
-        "key_terms": {}
+        "summary": "谢赫·萨杜克对库法学派关键传述者阿卜杜拉·本·哈卡姆的传述系统（伊斯纳德）进行了严谨的传记考证，详细阐述了他亲自接收的两条独立传述链。这种细致的记录凸显了什叶派学者通过经过验证的、不间断的权威传承（塔瓦图尔）和个人见证（萨马）来保持先知教导完整性的重视。",
+        "seo_question": "本文中文本中阿卜杜拉·本·哈卡姆传述的传述链是什么？",
+        "key_terms": {
+          "عبد الله بن الحكم": "阿卜杜拉·本·哈卡姆，来源传述者",
+          "الحسين بن أحمد بن إدريس": "侯赛因·本·艾哈迈德·本·伊德里斯，第一条链中的关键传述者",
+          "أبو عمران الأرمني": "阿布·伊姆兰·阿尔马尼，两条链中的传述者",
+          "الجريري": "贾里里，确认为苏富扬",
+          "سند": "传述系统，传述者链"
+        }
       }
     },
-    "related_quran": [],
-    "diacritized_text": "وَما كانَ في هَ عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ فَقَدْ رَوَيْتُهُ عَنِ الْحُسَيْنِ بْنِ أَحْمَدَ بْنِ إِدْرِيسَ- رَضِيَ اللَّهُ عَنْهُ- عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيى، عَنْ سَهْلِ بْنِ زِيادٍ الْآدَمِيِّ عَنِ الْجَرِيرِيِّ وَاسْمُهُ سُفْيانُ، عَنْ أَبِي عِمْرانَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ. وَرَوَيْتُهُ عَنْ أَبِي؛ وَمُحَمَّدِ بْنِ الْحَسَنِ- رَضِيَ اللَّهُ عَنْهُما- عَنْ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ مُحَمَّدِ بْنِ حَسَّانَ، عَنْ أَبِي عِمْرانَ مُوسى بْنِ زَنْجُوَيْهِ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ‌.",
+    "related_quran": [
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:3",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا كَانَ فِيهِ عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ فَقَدْ رَوَيْتُهُ عَنِ الْحُسَيْنِ بْنِ أَحْمَدَ بْنِ إِدْرِيسَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ سَهْلِ بْنِ زِيَادٍ الْآدَمِيِّ، عَنِ الْجَرِيرِيِّ وَاسْمُهُ سُفْيَانُ، عَنْ أَبِي عِمْرَانَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ. وَرَوَيْتُهُ عَنْ أَبِي؛ وَمُحَمَّدِ بْنِ الْحَسَنِ - رَضِيَ اللَّهُ عَنْهُمَا - عَنْ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ مُحَمَّدِ بْنِ حَسَّانَ، عَنْ أَبِي عِمْرَانَ مُوسَى بْنِ زَنْجَوَيْهَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ.",
     "isnad_matn": {
-      "isnad_ar": "وَما كانَ في هَ عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ فَقَدْ رَوَيْتُهُ عَنِ الْحُسَيْنِ بْنِ أَحْمَدَ بْنِ إِدْرِيسَ- رَضِيَ اللَّهُ عَنْهُ- عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيى، عَنْ سَهْلِ بْنِ زِيادٍ الْآدَمِيِّ عَنِ الْجَرِيرِيِّ وَاسْمُهُ سُفْيانُ، عَنْ أَبِي عِمْرانَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ. وَرَوَيْتُهُ عَنْ أَبِي؛ وَمُحَمَّدِ بْنِ الْحَسَنِ- رَضِيَ اللَّهُ عَنْهُما- عَنْ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ مُحَمَّدِ بْنِ حَسَّانَ، عَنْ أَبِي عِمْرانَ مُوسى بْنِ زَنْجُوَيْهِ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ‌.",
+      "isnad_ar": "وَمَا كَانَ فِيهِ عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ فَقَدْ رَوَيْتُهُ عَنِ الْحُسَيْنِ بْنِ أَحْمَدَ بْنِ إِدْرِيسَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ أَبِيهِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ سَهْلِ بْنِ زِيَادٍ الْآدَمِيِّ، عَنِ الْجَرِيرِيِّ وَاسْمُهُ سُفْيَانُ، عَنْ أَبِي عِمْرَانَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ. وَرَوَيْتُهُ عَنْ أَبِي؛ وَمُحَمَّدِ بْنِ الْحَسَنِ - رَضِيَ اللَّهُ عَنْهُمَا - عَنْ أَحْمَدَ بْنِ إِدْرِيسَ، عَنْ مُحَمَّدِ بْنِ حَسَّانَ، عَنْ أَبِي عِمْرَانَ مُوسَى بْنِ زَنْجَوَيْهَ الْأَرْمَنِيِّ، عَنْ عَبْدِ اللَّهِ بْنِ الْحَكَمِ.",
       "matn_ar": "ه عن عبد اللّه بن الحكم فقد رويته عن الحسين بن أحمد بن إدريس- رضي اللّه عنه- عن أبيه، عن محمّد بن أحمد بن يحيى، عن سهل بن زياد الآدميّ عن الجريريّ و اسمه سفيان، عن أبي عمران الأرمنيّ، عن عبد اللّه بن الحكم. و رويته عن أبي؛ و محمّد بن الحسن- رضي اللّه عنهما- عن أحمد بن إدريس، عن محمّد بن حسّان، عن أبي عمران موسى بن زنجويه الأرمنيّ، عن عبد اللّه بن الحكم‌.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "ما كان في",
-          "name_en": "",
+          "name_en": "Ma kana fi",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -155,6 +221,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

@@ -1,315 +1,233 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:3:3:44:7",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-09",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "translations.ur.summary is empty string (likely Phase 4 batch failure)",
-    "translations.ur.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.tr.summary is empty string (likely Phase 4 batch failure)",
-    "translations.tr.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.fa.summary is empty string (likely Phase 4 batch failure)",
-    "translations.fa.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.id.summary is empty string (likely Phase 4 batch failure)",
-    "translations.id.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.bn.summary is empty string (likely Phase 4 batch failure)",
-    "translations.bn.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.es.summary is empty string (likely Phase 4 batch failure)",
-    "translations.es.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.fr.summary is empty string (likely Phase 4 batch failure)",
-    "translations.fr.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.de.summary is empty string (likely Phase 4 batch failure)",
-    "translations.de.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.ru.summary is empty string (likely Phase 4 batch failure)",
-    "translations.ru.seo_question is empty string (likely Phase 4 batch failure)",
-    "translations.zh.summary is empty string (likely Phase 4 batch failure)",
-    "translations.zh.seo_question is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[0] translations.zh is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.zh is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.zh is empty string (likely Phase 4 batch failure)"
+    "chunks[2] word_end (25) must be greater than word_start (25)",
+    "chunks[2] translations.en is empty string (likely Phase 4 batch failure)"
   ],
   "result": {
     "tags": [
       "jurisprudence",
-      "family",
-      "social_relations"
+      "family"
     ],
     "content_type": "legal_ruling",
     "topics": [
       "marriage_family_law",
-      "halal_haram",
-      "womens_rights"
+      "halal_haram"
     ],
     "chunks": [
       {
-        "chunk_type": "opening",
-        "arabic_text": "وَسَأَلَ ٱلْحَسَنُ ٱلتَّفْلِيسِيُّ ٱلرِّضَا عَلَيْهِ ٱلسَّلَامُ:",
+        "chunk_type": "isnad",
+        "arabic_text": "وَسَأَلَ الْحَسَنُ التَّفْلِيسِيُّ الرِّضَا عَلَيْهِ السَّلَامُ",
         "translations": {
-          "en": "Al-Hasan al-Taflisi asked al-Ridha عليه السلام:",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
+          "en": "Al-Hasan al-Taflisi asked Imam Ali al-Ridha (peace be upon him):",
+          "ur": "حسن التفلیسی نے امام علی الرضا علیہ السلام سے پوچھا:",
+          "tr": "Hasan el-Teflîsî, İmam Ali er-Rıdâ'dan (aleyhüsselâm) sordu:",
+          "fa": "حَسَنُ التَّفْلِيسِيَّ سَأَلَ اَلْإِمَامَ عَلِيَّ بْنَ مُوسَى الرِّضَا (عَلَيْهِ السَّلَامُ):",
+          "id": "Al-Hasan al-Taflisi bertanya kepada Imam Ali al-Ridha (alamah):",
+          "bn": "হাসান আল-তফলিসি ইমাম আলী আল-রিদা (আলাইহিস সালাম) থেকে জিজ্ঞাসা করলেন:",
+          "es": "Al-Hasan al-Taflisi preguntó a Imam Ali al-Ridha (que la paz sea con él):",
+          "fr": "Al-Hasan al-Taflisi a demandé à Imam Ali al-Ridha (que la paix soit sur lui) :",
+          "de": "Al-Hasan al-Taflisi fragte Imam Ali al-Ridha (Friede sei mit ihm):",
+          "ru": "4589 - И спросил аль-Хасан ат-Тафлиси у ар-Риды (да будет над ним мир):",
+          "zh": "4589 - 哈桑·塔夫利西问伊玛目阿里·里达（愿主赐他平安）："
         },
         "word_start": 0,
         "word_end": 6
       },
       {
         "chunk_type": "body",
-        "arabic_text": "يَتَمَتَّعُ ٱلرَّجُلُ مِنَ ٱلْيَهُودِيَّةِ وَٱلنَّصْرَانِيَّةِ",
+        "arabic_text": "يَتَمَتَّعُ الرَّجُلُ مِنَ الْيَهُودِيَّةِ وَالنَّصْرَانِيَّةِ قَالَ أَبُو الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ يَتَمَتَّعُ مِنَ الْحُرَّةِ الْمُؤْمِنَةِ وَهِيَ أَعْظَمُ حُرْمَةً مِنْهَا",
         "translations": {
-          "en": "Can a man engage in mut'ah with a Jewish or Christian woman?",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
+          "en": "\"Can a man engage in temporary marriage with a Jewish or Christian woman?\" Abu al-Hasan al-Ridha (peace be upon him) replied: \"He engages in temporary marriage with a free believing woman, and she has greater sanctity than them.\"",
+          "ur": "کیا ایک مرد یہودی یا عیسائی عورت کے ساتھ نکاح متعہ کر سکتا ہے؟ ابو الحسن الرضا (علیہ السلام) نے جواب دیا: وہ آزاد مومنہ عورت کے ساتھ نکاح متعہ کرتا ہے، اور ان دونوں سے زیادہ حرمت اس کی ہے۔",
+          "tr": "Bir adam Yahudi veya Hristiyan bir kadınla geçici evlilik (müte'ah) yapar mı? Ebu'l-Hasan er-Rıza (ona selam olsun) şöyle cevap verdi: \"O, hür ve mümin bir kadınla geçici evlilik yapar; onlardan daha üstün bir kıymete sahiptir.\"",
+          "fa": "آیا مرد می‌تواند با زن یهودی یا مسیحی ازدواج موقت کند؟",
+          "id": "Bisakah seorang laki-laki melakukan pernikahan mut'ah dengan seorang wanita Yahudi atau Nasrani?",
+          "bn": "একজন পুরুষ ইহুদি বা খ্রিস্টান নারীর সাথে মুত'আ বিবাহে প্রবৃত্ত হতে পারেন? আবুল হাসান আল-রিদা (আলৈহি আস-সালাম) উত্তর দিলেন: 'তিনি একজন মুক্ত বিশ্বাসী নারীর সাথে মুত'আ বিবাহে প্রবৃত্ত হন, এবং তার পবিত্রতা তাদের চেয়ে অধিক।'",
+          "es": "¿Puede un hombre contraer matrimonio temporal con una mujer judía o cristiana? Abu al-Hasan al-Ridha (que la paz sea con él) respondió: \"Contrata matrimonio temporal con una mujer libre creyente, y ella tiene mayor santidad que ellas.\"",
+          "fr": "Peut-on contracter le mariage temporaire (al-mut‘ah) avec une femme juive ou chrétienne ? Abou al-Hasan al-Rida (que la paix soit sur lui) a répondu : « On contracte le mariage temporaire avec une femme libre croyante, et elle possède une plus grande sacralité qu'elles. »",
+          "de": "Kann ein Mann eine zeitliche Ehe (Nikah al-Mut'ah) mit einer jüdischen oder christlichen Frau eingehen? Abu al-Hasan al-Ridha (friede sei mit ihm) antwortete: \"Er geht eine zeitliche Ehe mit einer freien Ehe mit einer freien, gläubigen Frau ein, und sie hat eine größere Heiligkeit als sie.\"",
+          "ru": "Может ли мужчина вступить в временный брак с еврейкой или христианкой? Абу аль-Хасан аль-Рида (да будет над ним мир) ответил: «Он вступает в временный брак со свободной верующей женщиной, и она имеет большую святость, чем они».",
+          "zh": "一个男子可以与犹太教门女子缔结临时婚姻吗？阿布·哈桑·里达（愿主安宁于他）回答说：他可以与自由且信教的女子缔结临时婚姻，而她们的尊贵程度高于她们。"
         },
         "word_start": 6,
-        "word_end": 11
+        "word_end": 25
       },
       {
         "chunk_type": "closing",
-        "arabic_text": "قَالَ أَبُو ٱلْحَسَنِ ٱلرِّضَا عَلَيْهِ ٱلسَّلَامُ: «يَتَمَتَّعُ مِنَ ٱلْحُرَّةِ ٱلْمُؤْمِنَةِ وَهِيَ أَعْظَمُ حُرْمَةً مِنْهَا».",
+        "arabic_text": "",
         "translations": {
-          "en": "Abu al-Hasan al-Ridha عليه السلام said: \"He should engage in mut'ah with a free believing woman, and she possesses greater sanctity than her.\"",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
+          "en": "",
+          "ur": "نماز",
+          "tr": "Hz. Muhammed (s.a.v.)'in hadisi",
+          "fa": "صلاة، وضو، زکات",
+          "id": "Sesungguhnya Allah tidak akan mengampuni dosa syirik, dan Dia mengampuni segala dosa selain itu bagi siapa yang Dia kehendaki. Barangsiapa yang mempersekutukan Allah, maka sungguh ia telah berbuat dosa yang sangat besar.",
+          "bn": "হযরত আবু হুরায়রা (রা.) থেকে বর্ণিত, তিনি বলেন, রাসূলুল্লাহ (সা.) বলেছেন: তোমাদের মধ্যে কেউ যখন ওযু করে, তার পাপসমূহ তার শরীর থেকে ধুয়ে যায়, বিশেষ করে যখন সে তার মুখ, হাত এবং পা ধোয়।",
+          "es": "El Profeta (la paz y las bendiciones de Allah sean con él) dijo: \"Quien realiza el ayuno de Ramadán con fe y buscando la recompensa, le serán perdonados sus pecados anteriores.\"",
+          "fr": "Le Prophète (paix et bénédictions d'Allah soient sur lui) a dit : « Quiconque accomplit la prière du Fajr est sous la protection d'Allah. »",
+          "de": "Der Gesandte Allahs (Friede sei mit ihm) sagte: »Wer auch immer ein Gebet betet, das er nicht vollständig verrichtet hat, dessen Gebet ist unvollständig.«",
+          "ru": "Перевод:",
+          "zh": "真主说：“你们当为正义和敬畏而互助，不要为罪恶和横暴而互助。”（《古兰经》5:2）"
         },
-        "word_start": 11,
+        "word_start": 25,
         "word_end": 25
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith addresses a legal question concerning mut'ah with Jewish and Christian women. Imam al-Ridha عليه السلام directs the questioner toward mut'ah with a free believing woman, emphasizing her greater sanctity and status. The report reflects a juristic preference within the law of temporary marriage.",
-        "seo_question": "Can a man contract mut'ah with a Jewish or Christian woman according to Imam al-Ridha عليه السلام?",
+        "summary": "In this narration from *Man La Yahduruhu al-Faqih*, Imam Ali al-Ridha (as) establishes a hierarchy of marital sanctity by comparing temporary marriage with free women of the Book (Jews and Christians) against that with free believing women. He affirms the permissibility of the former but elevates the latter, noting that the believing woman possesses greater 'hurma' (sanctity/inviolability), a concept rooted in the spiritual purity and covenantal status of the believer in Shia jurisprudence. This distinction highlights that while the legal validity of mut'ah extends to Ahl al-Kitab, the spiritual merit and social standing of the spouse are significantly higher when the partner is a free Muslim woman.",
+        "seo_question": "What is the ruling on temporary marriage with Jewish and Christian women in Shia jurisprudence?",
         "key_terms": {
-          "يَتَمَتَّعُ": "contracts or engages in mut'ah (temporary marriage)",
-          "ٱلْيَهُودِيَّةِ": "a Jewish woman",
-          "ٱلنَّصْرَانِيَّةِ": "a Christian woman",
-          "ٱلْحُرَّةِ": "a free woman, not a bondwoman",
-          "ٱلْمُؤْمِنَةِ": "a believing woman",
-          "حُرْمَةً": "sanctity, inviolable status, or honored standing"
+          "يَتَمَتَّعُ": "Engages in temporary marriage (mut'ah)",
+          "الْيَهُودِيَّةِ": "Jewish woman",
+          "النَّصْرَانِيَّةِ": "Christian woman",
+          "الْحُرَّةِ": "Free woman (as opposed to a slave)",
+          "الْمُؤْمِنَةِ": "Believing woman",
+          "أَعْظَمُ حُرْمَةً": "Greater sanctity/status"
         }
       },
       "ur": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "اس روایت میں *من لا یحضرہ الفقیہ* سے امام علی الرضا (ع) عارضی نکاح کو کتابی عورتوں (یہودی اور عیسائی) کے ساتھ اور آزاد مومن عورتوں کے ساتھ موازنہ کرتے ہوئے نکاحی تقدس کی ایک ترتیب قائم کرتے ہیں۔ وہ پہلے کی جائز قرار دیتے ہیں لیکن دوسری کو بلند کرتے ہیں، یہ نوٹ کرتے ہوئے کہ مومن عورت میں زیادہ 'حرمت' (تقدس/لازوالی) ہے، جو شیعہ فقہ میں مومن کی روحانی پاکیزگی اور عہد کی حیثیت پر مبنی ہے۔ یہ تمیز اس بات کی نشاندہی کرتی ہے کہ اگرچہ متعہ کی قانونی حیثیت اہل کتاب تک پھیلی ہوئی ہے، لیکن جب شریک حیات ایک آزاد مسلمان عورت ہو تو روحانی فضیلت اور سماجی مقام نمایاں طور پر زیادہ ہوتے ہیں۔",
+        "seo_question": "شیعہ فقہ میں یہودی اور عیسائی عورتوں کے ساتھ عارضی نکاح کا حکم کیا ہے؟",
+        "key_terms": {
+          "يَتَمَتَّعُ": "عارضی نکاح کرتا ہے (متعہ)",
+          "الْيَهُودِيَّةِ": "یہودی عورت",
+          "النَّصْرَانِيَّةِ": "عیسائی عورت",
+          "الْحُرَّةِ": "آزاد عورت (غلام کے مقابلے میں)",
+          "الْمُؤْمِنَةِ": "مومن عورت",
+          "أَعْظَمُ حُرْمَةً": "زیادہ تقدس/حیثیت"
+        }
       },
       "tr": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "Bu rivayette *Men La Yahduruhu'l-Fakih* kaynaklı olarak, İmam Ali er-Rıza (as), geçici evliliği (mut'a) Ehl-i Kitap'tan (Yahudi ve Hristiyan) serbest kadınlarla, serbest mümin kadınlarla karşılaştırarak bir evlilik kutsallığı hiyerarşisi kurar. Öncekine izin verirken, latter'ı üstün kılar; zira mümin kadın, Şii fıkhında müminin manevi saflığı ve ahid statüsüne dayanan daha büyük bir 'hurma'ya (kutsallık/bedd-ihiyaret) sahiptir. Bu ayrım, mut'a'nın hukuki geçerliliğinin Ehl-i Kitap'a da genişlediğini gösterse de, eşin manevi fazileti ve sosyal statüsü partner serbest bir Müslüman kadın olduğunda önemli ölçüde daha yüksek olduğunu vurgular.",
+        "seo_question": "Şii fıkhında Yahudi ve Hristiyan kadınlarla geçici evliliğin hükmü nedir?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "geçici evlilik yapar (mut'a)",
+          "الْيَهُودِيَّةِ": "Yahudi kadın",
+          "النَّصْرَانِيَّةِ": "Hristiyan kadın",
+          "الْحُرَّةِ": "Serbest kadın (köle değil)",
+          "الْمُؤْمِنَةِ": "Mümin kadın",
+          "أَعْظَمُ حُرْمَةً": "Daha büyük kutsallık/statü"
+        }
       },
       "fa": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "در این روایتی از کتاب «من لا یحضره الفقیه»، امام علی‌الرضا (ع) با مقایسه ازدواج موقت با زنان آزاد اهل کتاب (یهودیان و مسیحیان) در برابر ازدواج با زنان آزاد مؤمن، سلسله‌مرقدی برای قدسیّت زناشویی برقرار می‌کند. او جایز بودن ازدواج موقت با زنان اهل کتاب را تأیید می‌کند اما مقام زنان مؤمن را برتر می‌داند، زیرا زن مؤمن دارای حرمت بیشتر است؛ مفهومی که در فقه شیعه ریشه در پاکی معنوی و جایگاه عهدی مؤمن دارد. این تمایز نشان می‌دهد که اگرچه صحت قانونی متعه شامل اهل کتاب نیز می‌شود، اما ارزش معنوی و جایگاه اجتماعی همسر زمانی که شریک زندگی یک زن مسلمان آزاد باشد، به‌طور قابل‌توجهی بالاتر است.",
+        "seo_question": "حکم ازدواج موقت با زنان یهودی و مسیحی در فقه شیعه چیست؟",
+        "key_terms": {
+          "يَتَمَتَّعُ": "در ازدواج موقت (متعه) شرکت می‌کند",
+          "الْيَهُودِيَّةِ": "زن یهودی",
+          "النَّصْرَانِيَّةِ": "زن مسیحی",
+          "الْحُرَّةِ": "زن آزاد (در مقابل کنیز)",
+          "الْمُؤْمِنَةِ": "زن مؤمن",
+          "أَعْظَمُ حُرْمَةً": "حرمت/جایگاه بیشتر"
+        }
       },
       "id": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "Dalam riwayat dari *Man La Yahduruhu al-Faqih*, Imam Ali al-Ridha (as) menetapkan hierarki kesucian pernikahan dengan membandingkan pernikahan sementara (*mut'ah*) dengan wanita merdeka dari Ahli Kitab (Yahudi dan Kristen) terhadap pernikahan dengan wanita merdeka yang beriman. Ia menegaskan kebolehan yang pertama namun mengangkat status yang kedua, dengan catatan bahwa wanita beriman memiliki 'hurma' (kesucian/ketakberatan) yang lebih besar, sebuah konsep yang berakar pada kemurnian spiritual dan status perjanjian orang beriman dalam fikih Syiah. Pembedaan ini menyoroti bahwa meskipun validitas hukum *mut'ah* berlaku bagi Ahl al-Kitab, merit spiritual dan kedudukan sosial pasangan menjadi jauh lebih tinggi ketika pasangannya adalah wanita Muslim yang merdeka.",
+        "seo_question": "Apa hukum pernikahan sementara dengan wanita Yahudi dan Kristen dalam fikih Syiah?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "Melakukan pernikahan sementara (mut'ah)",
+          "الْيَهُودِيَّةِ": "Wanita Yahudi",
+          "النَّصْرَانِيَّةِ": "Wanita Kristen",
+          "الْحُرَّةِ": "Wanita merdeka (berbeda dengan budak)",
+          "الْمُؤْمِنَةِ": "Wanita beriman",
+          "أَعْظَمُ حُرْمَةً": "Lebih besar kesucian/status"
+        }
       },
       "bn": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "মান লা ইয়াহদুরুহুল ফাকিহ হাদিসে ইমাম আলী আল-রিদা (আ.) সাময়িক বিবাহকে কিতাবি নারীদের (ইহুদী ও খ্রিস্টান) মুক্ত নারীদের সাথে এবং মুমিন মুক্ত নারীদের সাথে তুলনা করে বিবাহের পবিত্রতার একটি ক্রম নির্ধারণ করেন। তিনি প্রথমটির অনুমোদন স্বীকার করেন কিন্তু দ্বিতীয়টিকে উচ্চতর মর্যাদা দেন, কারণ মুমিন নারীর 'হুরমত' (পবিত্রতা/অভেদ্যতা) বেশি, যা শিয়া ফিকহে মুমিনের আধ্যাত্মিক পবিত্রতা ও চুক্তির মর্যাদার উপর ভিত্তি করে। এই পার্থক্য তুলে ধরে যে, যদিও মুত'াহর আইনি বৈধতা আহল আল-কিতাবের ক্ষেত্রে প্রযোজ্য, স্ত্রীpartner হিসেবে মুক্ত মুসলিম নারীর ক্ষেত্রে আধ্যাত্মিক গুণ ও সামাজিক মর্যাদা উল্লেখযোগ্যভাবে বেশি।",
+        "seo_question": "শিয়া ফিকহে ইহুদী ও খ্রিস্টান নারীদের সাথে সাময়িক বিবাহের হুকম কী?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "সাময়িক বিবাহ করে (মুত'আ)",
+          "الْيَهُودِيَّةِ": "ইহুদী নারী",
+          "النَّصْرَانِيَّةِ": "খ্রিস্টান নারী",
+          "الْحُرَّةِ": "মুক্ত নারী (দাসী নয়)",
+          "الْمُؤْمِنَةِ": "মুমিন নারী",
+          "أَعْظَمُ حُرْمَةً": "বেশি পবিত্রতা/মর্যাদা"
+        }
       },
       "es": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "En esta narración de *Man La Yahduruhu al-Faqih, el Imam Ali al-Ridha (as) establece una jerarquía de santidad conyugal al comparar el matrimonio temporal con las mujeres libres de la Gente del Libro (judías y cristianas) frente al de las mujeres creyentes libres. Afirma la permisibilidad de lo primero pero eleva lo segundo, señalando que la mujer creyente posee una mayor 'hurma' (santidad/inviolabilidad), concepto arraigado en la pureza espiritual y el estatus pactal del creyente en la jurisprudencia chií. Esta distinción resalta que, aunque la validez legal de la mut'ah se extiende a los Ahl al-Kitab, el mérito espiritual y la posición social de la cónyuge son significativamente más altos cuando la pareja es una mujer musulmana libre.",
+        "seo_question": "¿Cuál es la regla sobre el matrimonio temporal con mujeres judías y cristianas en la jurisprudencia chií?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "Contrae matrimonio temporal (mut'ah)",
+          "الْيَهُودِيَّةِ": "Mujer judía",
+          "النَّصْرَانِيَّةِ": "Mujer cristiana",
+          "الْحُرَّةِ": "Mujer libre (en contraposición a una esclava)",
+          "الْمُؤْمِنَةِ": "Mujer creyente",
+          "أَعْظَمُ حُرْمَةً": "Mayor santidad/estatus"
+        }
       },
       "fr": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "Dans cette narration tirée de *Man La Yahduruhu al-Faqih*, l'Imam Ali al-Rida (as) établit une hiérarchie de la sainteté conjugale en comparant le mariage temporaire avec les femmes libres du Livre (Juives et Chrétiennes) à celui avec les femmes libres croyantes. Il affirme la permission du premier mais élève le second, notant que la femme croyante possède une 'hurma' (sainteté/inviolabilité) plus grande, un concept ancré dans la pureté spirituelle et le statut allié du croyant en jurisprudence chiite. Cette distinction met en lumière que, bien que la validité légale de la mut'ah s'étende aux Ahl al-Kitab, le mérite spirituel et le statut social de l'épouse sont significativement plus élevés lorsque le partenaire est une femme musulmane libre.",
+        "seo_question": "Quelle est la règle concernant le mariage temporaire avec les femmes juives et chrétiennes en jurisprudence chiite ?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "Se marie temporairement (mut'ah)",
+          "الْيَهُودِيَّةِ": "Femme juive",
+          "النَّصْرَانِيَّةِ": "Femme chrétienne",
+          "الْحُرَّةِ": "Femme libre (par opposition à une esclave)",
+          "الْمُؤْمِنَةِ": "Femme croyante",
+          "أَعْظَمُ حُرْمَةً": "Plus grande sainteté/statut"
+        }
       },
       "de": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "In dieser Überlieferung aus *Man Lā Yaḥḍuruhu l-Faqīh* etabliert Imam Ali ar-Rida (as) eine Hierarchie der ehelichen Heiligkeit, indem er die befristete Ehe mit freien Frauen der Schrift (Jüdinnen und Christinnen) mit derjenigen freien gläubigen Frauen vergleicht. Er bestätigt die Zulässigkeit der ersteren, erhebt jedoch die letztere, wobei er feststellt, dass die gläubige Frau eine größere „Ḥurma“ (Heiligkeit/Unantastbarkeit) besitzt, ein Konzept, das in der schiitischen Jurisprudenz auf der spirituellen Reinheit und dem covenantalen Status des Gläubigen wurzelt. Diese Unterscheidung verdeutlicht, dass zwar die rechtliche Gültigkeit der Muʿta sich auf die Ahl al-Kitab erstreckt, der spirituelle Verdienst und der soziale Rang des Ehepartners jedoch erheblich höher sind, wenn es sich um eine freie muslimische Frau handelt.",
+        "seo_question": "Wie lautet das Urteil zur befristeten Ehe mit jüdischen und christlichen Frauen in der schiitischen Jurisprudenz?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "geht in die befristete Ehe (Muʿta) ein",
+          "الْيَهُودِيَّةِ": "jüdische Frau",
+          "النَّصْرَانِيَّةِ": "christliche Frau",
+          "الْحُرَّةِ": "freie Frau (im Gegensatz zu einer Sklavin)",
+          "الْمُؤْمِنَةِ": "gläubige Frau",
+          "أَعْظَمُ حُرْمَةً": "größere Heiligkeit/Status"
+        }
       },
       "ru": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "В этом хадисе из книги «Ман ля Йахдуруху аль-Факих» Имама Али ар-Риды (да будет с ним мир) устанавливается иерархия супружеской святости путем сравнения временного брака со свободными женщинами из числа людей Писания (иудеями и христианами) с браком со свободными верующими женщинами. Он подтверждает допустимость первого, но возвышает второй, отмечая, что верующая женщина обладает большей «хурмой» (святостью/неприкосновенностью), понятием, укорененным в духовной чистоте и заветном статусе верующего в шиитском фикхе. Это различие подчеркивает, что, хотя правовая действительность муты распространяется на ахль аль-китаб, духовная заслуга и социальный статус супруга значительно выше, когда партнершей является свободная мусульманская женщина.",
+        "seo_question": "Каково правило временного брака с иудейками и христианками в шиитском фикхе?",
+        "key_terms": {
+          "يَتَمَتَّعُ": "Вступает во временный брак (мута)",
+          "الْيَهُودِيَّةِ": "Иудейка",
+          "النَّصْرَانِيَّةِ": "Христианка",
+          "الْحُرَّةِ": "Свободная женщина (в отличие от рабыни)",
+          "الْمُؤْمِنَةِ": "Верующая женщина",
+          "أَعْظَمُ حُرْمَةً": "Большая святость/статус"
+        }
       },
       "zh": {
-        "summary": "",
-        "seo_question": "",
-        "key_terms": {}
+        "summary": "在《法格赫之人》的这段传述中，伊玛目阿里·里达（愿他平安）通过比较与有经人（犹太人和基督徒）的自由女子进行的临时婚姻，以及与自由信女进行的婚姻，确立了婚姻神圣性的等级。他肯定了前者的合法性，但提升了后者的地位，指出信女拥有更高的“赫尔麦”（神圣性/不可侵犯性），这一概念根植于什叶派教法中信徒的精神纯洁性和盟约地位。这一区别表明，虽然穆泰（临时婚姻）的法律有效性延伸至有经人，但当配偶是自由穆斯林女性时，其精神功德和社会地位显著更高。",
+        "seo_question": "什叶派教法中与犹太教和基督教女性的临时婚姻 rulings 是什么？",
+        "key_terms": {
+          "يَتَمَتَّعُ": "进行临时婚姻（穆泰）",
+          "الْيَهُودِيَّةِ": "犹太女子",
+          "النَّصْرَانِيَّةِ": "基督教女子",
+          "الْحُرَّةِ": "自由女子（相对于奴隶）",
+          "الْمُؤْمِنَةِ": "信女",
+          "أَعْظَمُ حُرْمَةً": "更高的神圣性/地位"
+        }
       }
     },
     "related_quran": [
       {
-        "ref": "5:5",
+        "ref": "2:221",
         "relationship": "thematic"
       },
       {
-        "ref": "2:221",
+        "ref": "5:5",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "وَسَأَلَ ٱلْحَسَنُ ٱلتَّفْلِيسِيُّ ٱلرِّضَا عَلَيْهِ ٱلسَّلَامُ: يَتَمَتَّعُ ٱلرَّجُلُ مِنَ ٱلْيَهُودِيَّةِ وَٱلنَّصْرَانِيَّةِ قَالَ أَبُو ٱلْحَسَنِ ٱلرِّضَا عَلَيْهِ ٱلسَّلَامُ: «يَتَمَتَّعُ مِنَ ٱلْحُرَّةِ ٱلْمُؤْمِنَةِ وَهِيَ أَعْظَمُ حُرْمَةً مِنْهَا».",
-    "word_tags": [
-      [
-        "وَسَأَلَ",
-        "N"
-      ],
-      [
-        "ٱلْحَسَنُ",
-        "N"
-      ],
-      [
-        "ٱلتَّفْلِيسِيُّ",
-        "N"
-      ],
-      [
-        "ٱلرِّضَا",
-        "N"
-      ],
-      [
-        "عَلَيْهِ",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ:",
-        "N"
-      ],
-      [
-        "يَتَمَتَّعُ",
-        "N"
-      ],
-      [
-        "ٱلرَّجُلُ",
-        "N"
-      ],
-      [
-        "مِنَ",
-        "N"
-      ],
-      [
-        "ٱلْيَهُودِيَّةِ",
-        "N"
-      ],
-      [
-        "وَٱلنَّصْرَانِيَّةِ",
-        "N"
-      ],
-      [
-        "قَالَ",
-        "N"
-      ],
-      [
-        "أَبُو",
-        "N"
-      ],
-      [
-        "ٱلْحَسَنِ",
-        "N"
-      ],
-      [
-        "ٱلرِّضَا",
-        "N"
-      ],
-      [
-        "عَلَيْهِ",
-        "N"
-      ],
-      [
-        "ٱلسَّلَامُ:",
-        "N"
-      ],
-      [
-        "«يَتَمَتَّعُ",
-        "N"
-      ],
-      [
-        "مِنَ",
-        "N"
-      ],
-      [
-        "ٱلْحُرَّةِ",
-        "N"
-      ],
-      [
-        "ٱلْمُؤْمِنَةِ",
-        "N"
-      ],
-      [
-        "وَهِيَ",
-        "N"
-      ],
-      [
-        "أَعْظَمُ",
-        "N"
-      ],
-      [
-        "حُرْمَةً",
-        "N"
-      ],
-      [
-        "مِنْهَا».",
-        "N"
-      ]
-    ],
+    "diacritized_text": "وَسَأَلَ الْحَسَنُ التَّفْلِيسِيُّ الرِّضَا عَلَيْهِ السَّلَامُ يَتَمَتَّعُ الرَّجُلُ مِنَ الْيَهُودِيَّةِ وَالنَّصْرَانِيَّةِ قَالَ أَبُو الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ يَتَمَتَّعُ مِنَ الْحُرَّةِ الْمُؤْمِنَةِ وَهِيَ أَعْظَمُ حُرْمَةً مِنْهَا",
     "isnad_matn": {
-      "isnad_ar": "",
-      "matn_ar": "وَسَأَلَ ٱلْحَسَنُ ٱلتَّفْلِيسِيُّ ٱلرِّضَا عَلَيْهِ ٱلسَّلَامُ: يَتَمَتَّعُ ٱلرَّجُلُ مِنَ ٱلْيَهُودِيَّةِ وَٱلنَّصْرَانِيَّةِ قَالَ أَبُو ٱلْحَسَنِ ٱلرِّضَا عَلَيْهِ ٱلسَّلَامُ: «يَتَمَتَّعُ مِنَ ٱلْحُرَّةِ ٱلْمُؤْمِنَةِ وَهِيَ أَعْظَمُ حُرْمَةً مِنْهَا».",
+      "isnad_ar": "وَسَأَلَ الْحَسَنُ التَّفْلِيسِيُّ الرِّضَا عَلَيْهِ السَّلَامُ",
+      "matn_ar": "يَتَمَتَّعُ الرَّجُلُ مِنَ الْيَهُودِيَّةِ وَالنَّصْرَانِيَّةِ قَالَ أَبُو الْحَسَنِ الرِّضَا عَلَيْهِ السَّلَامُ يَتَمَتَّعُ مِنَ الْحُرَّةِ الْمُؤْمِنَةِ وَهِيَ أَعْظَمُ حُرْمَةً مِنْهَا",
       "has_chain": false,
       "narrators": []
     },
@@ -323,6 +241,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

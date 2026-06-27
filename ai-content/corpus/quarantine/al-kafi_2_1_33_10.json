@@ -1,0 +1,284 @@
+{
+  "verse_path": "/books/al-kafi:2:1:33:10",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 25 en words vs 1 ar words (ratio=25.00, expected 0.2-8.0)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "ethics",
+      "quran_commentary"
+    ],
+    "content_type": "quranic_commentary",
+    "topics": [
+      "divine_attributes",
+      "divine_knowledge",
+      "paradise_hell",
+      "quran_interpretation_method"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "From him, from Ahmad, from Ibn Mahboub, from Dawood Al-Raqqi, from Abu Abdullah (peace be upon him) regarding the Words of Allah, Exalted and Majestic:",
+          "ur": "وہ سے، احمد سے، ابن محبوب سے، داؤد رقی سے، ابو عبداللہ (علیہ السلام) سے، اللہ تعالیٰ کے ارشادِ گرامی کے بارے میں:",
+          "tr": "Onun aracılığıyla, Ahmed'den, İbnü'l-Mahbûb'tan, Davûd er-Rakki'den, Ebu Abdillah (aleyhisselâm)'dan, Allah'ın (azze ve celle) sözlerine dair:",
+          "fa": "عَنْهُ عَنْ أَحْمَدَ عَنِ ابْنِ مَحْبُوبٍ عَنْ دَاوُدَ الرَّقِّيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) فِي قَوْلِ اللَّهِ عَزَّ وَ جَلَّ:",
+          "id": "Dari beliau, dari Ahmad, dari Ibn Mahboub, dari Dawood Al-Raqqi, dari Abu Abdullah (alamah) mengenai firman Allah Azza wa Jalla:",
+          "bn": "তিনি হতে, আহমদ হতে, ইবনে মাহবুব হতে, দাউদ আর-রাক্কী হতে, আবু আবদুল্লাহ (আলাইহিস সালাম) হতে, আল্লাহ তাআলার বাক্য সম্পর্কে: ও লিমান খাফা মাকামা রাবিহি",
+          "es": "De él, de Ahmad, de Ibn Mahboub, de Dawood Al-Raqqi, de Abu Abdullah (la, de Abu Abdullah (la paz sea con él) en cuanto a las palabras de Allah, Exaltado y Majestuoso:",
+          "fr": "De lui, d'Ahmad, d'Ibn Mahboub, de Dawood Al-Raqqi, d'Abou Abdullah (que la paix soit sur lui), au sujet des paroles d'Allah, Exalté et Majestueux :",
+          "de": "Von ihm, von Ahmad, von Ibn Mahboub, von Dawood ar-Raqqi, von Abu Abdullah (friede sei mit ihm) bezüglich der Worte Allahs, Erhaben und Majestätisch:",
+          "ru": "От него, от Ахмада, от Ибн Махбубаба, от Дауда ар-Рагги, от Абу Абдуллаха (да будет мир с ним) относительно слов Аллаха, Всевышний и Великий:",
+          "zh": "从他，从艾哈迈德，从伊本·马布乌，从达乌德·拉基，从阿布·阿卜杜拉（愿主福安之）关于真主尊贵者的言辞："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتانِ",
+        "translations": {
+          "en": "And for the one who fears to stand before his Lord would have the two Gardens.",
+          "ur": "اور جس کے لیے اپنے رب کے سامنے کھڑے ہونے کا خوف ہے، اس کے لیے دو باغ ہیں۔",
+          "tr": "Rabbine kıyam etmekten korkan kimse için iki cennet vardır.",
+          "fa": "و برای کسی که از ایستادن در برابر پروردگارش بترسد، دو باغ [بهشت] خواهد بود.",
+          "id": "Dan bagi orang yang takut berdiri di hadapan Tuhannya, akan diperoleh dua taman (surga).",
+          "bn": "এবং যিনি রবের সামনে দাঁড়ানোর ভয় করেন, তার জন্য দুটি জান্নাত রয়েছে।",
+          "es": "Y para el que tema presentarse ante su Señor, le serán asignados los dos Jardines.",
+          "fr": "Et pour celui qui craint de se tenir devant son Seigneur, il y aura les deux Jardins.",
+          "de": "Und für den, der davor scheut, vor seinem Herrn zu stehen, sind die beiden Gärten bestimmt.",
+          "ru": "А тому, кто боится предстать перед своим Господом, уготованы два рая.",
+          "zh": "那些敬畏其主的人，将享有两园。"
+        },
+        "word_start": 1,
+        "word_end": 6
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ مَنْ عَلِمَ أَنَّ اللَّهَ يَرَاهُ وَيَسْمَعُ مَا يَقُولُ وَيَعْلَمُ مَا يَعْمَلُهُ مِنْ خَيْرٍ أَوْ شَرٍّ فَيَحْجُزُهُ ذَلِكَ عَنِ الْقَبِيحِ مِنَ الْأَعْمَالِ فَذَلِكَ الَّذِي خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَى",
+        "translations": {
+          "en": "He (peace be upon him) said: 'The one who knows that Allah sees him and hears what he says, and knows what he does of good or evil, and that this detains him from the ugly of deeds, that is the one who fears the standing before his Lord, and has prevented the self from desire.'",
+          "ur": "آپ (صلی اللہ علیہ وسلم) نے فرمایا: 'وہ شخص جو جانتا ہے کہ اللہ تعالیٰ اسے دیکھ رہا ہے اور اس کی باتیں سن رہا ہے، اور جانتا ہے کہ وہ نیکی یا برائی کا جو عمل کرتا ہے اسے روک دیتا ہے، وہی شخص ہے جو اپنے رب کے سامنے کھڑے ہونے کا خوف رکھتا ہے، اور اپنی نفسانی خواہشات سے روک دیتا ہے۔'",
+          "tr": "O (sallallahu aleyhi vesellem) şöyle buyurdu: 'Allah'ın onu gördüğünü ve ne söylediğini işittiğini bilen, yaptığı hayır veya şerri bilen ve bunun onu kötü fiillerden alıkoyduğunu bilen, Rabbine durmaktan korkan ve nefsi arzulardan alıkoyandır.'",
+          "fa": "او (صلی‌الله‌علیه‌وسلم فرمود: «آن کس که بداند خداوند او را می‌بیند و سخنش را می‌شنود، و بداند که نیکوکاری یا بدی‌اش را می‌داند، و بداند که این [دانستن] او را از زشتی‌های اعمال باز می‌دارد، همان کسی است که از ایستادن در برابر پروردگارش می‌ترسد و نفس خود را از هوس‌ها باز داشته است.»",
+          "id": "Beliau (shallallahu ‘alaihi wasallam) bersabda: \"Orang yang mengetahui bahwa Allah melihatnya dan mendengar apa yang ia ucapkan, serta mengetahui apa yang ia lakukan dari kebaikan atau keburukan, dan hal itu menjaganya dari kejelekan amal, maka itulah orang yang takut akan menghadap Rabbnya, dan menahan hawa nafsunya dari keinginan.\"",
+          "bn": "তিনি (সা.) বলেছেন: 'যে ব্যক্তি জানে যে, আল্লাহ তাকে দেখছেন এবং তার কথায় কর্ণপাত করছেন, এবং সে যা ভালো বা মন্দ কাজ করে তা জানেন, এবং এই জ্ঞান তাকে কাজের অশোভনতা থেকে বিরত রাখে, সে হলো সেই ব্যক্তি যে তার রবের সামনে দাঁড়ানোর ভয় রাখে এবং নিজের নফসকে শখ থেকে বিরত রাখে।'",
+          "es": "Él (que la paz sea con él) dijo: «Aquel que sabe que Alá lo ve y oye lo que dice, y conoce lo que hace de bien o de mal, y que esto lo retiene de las fealdades de las acciones, ese es quien teme presentarse ante su Señor, y ha impedido al alma seguir sus deseos».",
+          "fr": "Il (que la paix soit sur lui) a dit : « Celui qui sait qu'Allah le voit et entend ce qu'il dit, et connaît ce qu'il accomplit de bien ou de mal, et que cela le retient des actions disgracieuses, c'est celui qui craint de se tenir devant son Seigneur, et qui a empêché l'âme de suivre ses désirs. »",
+          "de": "Er (Friede sei mit ihm) sagte: „Derjenige, der weiß, dass Allah ihn sieht und hört, was er sagt, und weiß, was er an Gutem oder Bösem tut, und dass dies ihn von dem Hässlichen der Taten abhält, ist derjenige, der die Begegnung mit seinem Herrn fürchtet und die Seele von den Begierden abgehalten hat.“",
+          "ru": "Он (да будет над ним мир) сказал: «Тот, кто знает, что Аллах видит его и слышит то, что он говорит, и знает о том, что он совершает из добра или зла, и что это удерживает его от дурных поступков, — это тот, кто боится предстать перед своим Господом и удерживает душу от желаний».",
+          "zh": "他（愿主福安之）说：\"谁确知真主监察他、聆听他的言语，并知晓他所行善恶，且这使他远离丑恶的行为，那么他就是那畏惧在养主前站立、并遏制私欲的人。\""
+        },
+        "word_start": 6,
+        "word_end": 37
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from *Al-Kafi*, Imam al-Sadiq (AS) elucidates the concept of *Khawf* (fear) not merely as dread, but as a profound state of *Muraqabah* (divine consciousness) where awareness of Allah’s sight, hearing, and knowledge actively restrains the self from base desires. This interpretation aligns with the Shia scholarly emphasis on the internalization of faith, linking the promise of the 'two Gardens' in Surah Ar-Rahman to the practical discipline of the *Nafs* through constant vigilance of the Divine Presence.",
+        "seo_question": "What does it mean to fear the standing before one's Lord according to Imam al-Sadiq?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "Standing before his Lord",
+          "جَنَّتانِ": "Two Gardens",
+          "الْقَبِيحِ": "The ugly/repugnant",
+          "الْهَوَى": "Personal desire/caprice"
+        }
+      },
+      "ur": {
+        "summary": "الکافی کی اس روایت میں امام صادق (علیہ السلام) خوف کی تشریح کرتے ہیں کہ یہ محض ڈر نہیں بلکہ مراقبہ کی ایک گہری کیفیت ہے جہاں اللہ کی نظر، سننے اور جاننے کی آگاہی نفس کو خواہشات سے روکتی ہے۔ یہ تشریح شیعہ علما کے ایمان کے اندرونی ہونے کے زور سے ہم آہنگ ہے اور سورہ الرحمن میں 'دو باغوں' کے وعدے کو اللہ کی موجودگی کی مسلسل نگرانی کے ذریعے نفس کی عملی تربیت سے جوڑتی ہے۔",
+        "seo_question": "امام صادق کے نزدیک اپنے رب کے سامنے کھڑے ہونے کا خوف کیا ہے؟",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "اپنے رب کے سامنے کھڑے ہونا",
+          "جَنَّتانِ": "دو باغ",
+          "الْقَبِيحِ": "بے حیائی/ناپسندیدہ",
+          "الْهَوَى": "خواہشِ نفس"
+        }
+      },
+      "tr": {
+        "summary": "Bu *el-Kâfî* rivayetinde, İmamü'l-Sâdık (AS), *Havf* (korku) kavramını yalnızca dehşet olarak değil, Allah’ın görme, işitme ve bilme sıfatlarının farkında olmanın, nefsi aşağı arzulardan alıkoyan derin bir *Murakabe* (ilâhî bilinc) hali olarak açıklar. Bu yorum, Şii alimlerin inancın içselleştirilmesine verdiği önemle uyumludur ve *Rahmân* Sûresi’ndeki 'iki cennet' vaadini, ilâhî huzûra sürekli dikkat ile *Nefs*’in pratik disiplinine bağlar.",
+        "seo_question": "İmamü'l-Sâdık’a göre Rabbin huzurunda durmaktan korkmak ne anlama gelir?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "Rabbine durmak",
+          "جَنَّتانِ": "iki cennet",
+          "الْقَبِيحِ": "güzel olmayan/çirkin olan",
+          "الْهَوَى": "nafsî arzular"
+        }
+      },
+      "fa": {
+        "summary": "در این روایت از الکافی، امام صادق (ع) مفهوم خوف را نه صرفاً به معنای ترس، بلکه به عنوان حالتی عمیق از مراقبه (خداحافظی الهی) تبیین می‌کند که در آن آگاهی از دیدار، شنیدن و دانش خداوند، نفس را از هوای باطل باز می‌دارد. این تفسیر با تأکید علمای شیعه بر درونی‌سازی ایمان همسو است و وعده دو بهشت در سوره الرحمن را به انضباط عملی نفس از طریق مراقبت مستمر از حضور الهی پیوند می‌زند.",
+        "seo_question": "ترس از قیام در برابر پروردگار به معنای امام صادق (ع) چیست؟",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "قیام در برابر پروردگارش",
+          "جَنَّتانِ": "دو بهشت",
+          "الْقَبِيحِ": "زشتی/نکوهیدگی",
+          "الْهَوَى": "هوا/خواه نفسانی"
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari *Al-Kafi, Imam al-Sadiq (AS) menjelaskan konsep Khawf (takut) bukan sekadar rasa takut, melainkan sebagai keadaan mendalam Muraqabah (kesadaran ilahi) di mana kesadaran akan pandangan, pendengaran, dan pengetahuan Allah secara aktif menahan diri dari hawa nafsu. Penafsiran ini selaras dengan penekanan ulama Syiah pada internalisasi iman, yang menghubungkan janji 'dua surga' dalam Surah Ar-Rahman dengan disiplin praktis Nafs melalui kewaspadaan konstan terhadap Kehadiran Ilahi.",
+        "seo_question": "Apa artinya takut akan berdiri di hadapan Tuhan menurut Imam al-Sadiq?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "Berdiri di hadapan Tuhannya",
+          "جَنَّتانِ": "Dua Surga",
+          "الْقَبِيحِ": "Yang buruk/terhina",
+          "الْهَوَى": "Hawa nafsu"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি হাদিসে ইমাম আস-সাদিق (আ.) *খাওফ* (ভয়)-কে কেবল আতঙ্ক হিসেবে নয়, বরং *মুরাকাবা* (ঈশ্বরের সত্তার সচেতনতা)-এর একটি গভীর অবস্থা হিসেবে ব্যাখ্যা করেছেন, যেখানে আল্লাহর দর্শন, শ্রবণ এবং জ্ঞানের সচেতনতা স্বাভাবিকভাবেই নফসকে হীন ইচ্ছা থেকে নিয়ন্ত্রণ করে। এই ব্যাখ্যা শিয়া পণ্ডিতদের বিশ্বাসের অভ্যন্তরীণীকরণের জোর দেওয়ার সাথে সামঞ্জস্যপূর্ণ, যা সূরা আর-রহমান-এর 'দুই জান্নাত'-এর প্রতিশ্রুতিকে ঈশ্বরের উপস্থিতির নিরন্তর সতর্কতার মাধ্যমে নফসের ব্যবহারিক শৃঙ্খলার সাথে যুক্ত করে।",
+        "seo_question": "ইমাম আস-সাদিق (আ.)-এর মতে, রবের সামনে দাঁড়ানোর ভয় মানে কী?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "রবের সামনে দাঁড়ানো",
+          "جَنَّتانِ": "দুই জান্নাত",
+          "الْقَبِيحِ": "অশোভন/নিষ্ঠুর",
+          "الْهَوَى": "ব্যক্তিগত ইচ্ছা/আকাঙ্ক্ষা"
+        }
+      },
+      "es": {
+        "summary": "En esta narración de *Al-Kafi*, el Imam al-Imam al-Sadiq (AS) aclara el concepto de *Khawf* (temor) no como mero pavor, sino como un profundo estado de *Muraqabah* (conciencia divina) donde la conciencia de la vista, el oído y el conocimiento de Allah contienen activamente al yo de los deseos bajos. Esta interpretación se alinea con el énfasis de la erudición chií en la internalización de la fe, vinculando la promesa de las 'dos Jardines' en la Surah Ar-Rahman con la disciplina práctica de la *Nafs* mediante la vigilancia constante de la Presencia Divina.",
+        "seo_question": "¿Qué significa temer la comparecencia ante el Señor según el Imam al-Sadiq?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "la comparecencia ante su Señor",
+          "جَنَّتانِ": "dos Jardines",
+          "الْقَبِيحِ": "lo feo/repugnante",
+          "الْهَوَى": "deseo personal/capricho"
+        }
+      },
+      "fr": {
+        "summary": "Dans cette narration d'*Al-Kafi*, l'Imam al-Sadiq (AS) éclaire le concept de *Khawf* (crainte) non pas comme une simple peur, mais comme un état profond de *Muraqabah* (conscience divine) où la conscience de la vue, de l'ouïe et de la connaissance d'Allah retient activement l'âme de ses désirs bas. Cette interprétation s'aligne sur l'accent mis par les savants chiites sur l'intériorisation de la foi, reliant la promesse des « deux Jardins » dans la sourate Ar-Rahman à la discipline pratique de la *Nafs* (âme) par une vigilance constante de la Présence Divine.",
+        "seo_question": "Que signifie craindre de se tenir devant son Seigneur selon l'Imam al-Sadiq ?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "Se tenir devant son Seigneur",
+          "جَنَّتانِ": "Deux Jardins",
+          "الْقَبِيحِ": "Le laid/le répugnant",
+          "الْهَوَى": "Désir personnel/caprice"
+        }
+      },
+      "de": {
+        "summary": "In dieser Überlieferung aus *Al-Kafi* erläutert Imam al-Sadiq (AS) das Konzept von *Khawf* (Furcht) nicht nur als Schrecken, sondern als einen tiefgreifenden Zustand der *Muraqabah* (göttlichen Bewusstseins), in dem das Bewusstsein von Allahs Blick, Gehör und Wissen die Seele aktiv von niedrigen Begierden zurückhält. Diese Interpretation stimmt mit der schiitischen gelehrten Betonung der Internalisierung des Glaubens überein, die das Versprechen der 'zwei Gärten' in Sure Ar-Rahman mit der praktischen Disziplin der *Nafs* durch ständige Wachsamkeit gegenüber der Göttlichen Gegenwart verbindet.",
+        "seo_question": "Was bedeutet es, vor seinem Herrn zu stehen, gemäß Imam al-Sadiq?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "Stehen vor seinem Herrn",
+          "جَنَّتانِ": "Zwei Gärten",
+          "الْقَبِيحِ": "Das Hässliche",
+          "الْهَوَى": "Persönliche Begierde"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из «аль-Кафи» Имама ас-Садыка (да будет над ним мир) разъясняет понятие «хауф» (страх) не просто как ужас, но как глубокое состояние «муракаба» (божественного сознания), при котором осознание зрения, слуха и знания Аллаха активно сдерживает эго от низменных желаний. Эта интерпретация соответствует шиитскому акценту на интериоризации веры, связывая обещание «двух садов» в суре «Ар-Рахман» с практической дисциплиной «нафса» через постоянное бдительное присутствие Божественного.",
+        "seo_question": "Что означает бояться предстать перед Господом своим согласно Имаму асСадыку?",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "стояние перед Господом его",
+          "جَنَّتانِ": "два сада",
+          "الْقَبِيحِ": "некрасивое",
+          "الْهَوَى": "личное желание"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲》的圣训》中，伊玛目萨迪克（愿主福安之）阐释了“恐惧”（Khawf）的概念，它不仅仅是畏惧，更是一种深刻的“监护”（Muraqabah，即神圣意识）状态，其中对真主的视、听、知的全然觉知，主动约束自我远离低级欲望。这一解释与什叶派学者强调的信仰内化相一致，将《古兰经》仁慈章中关于“两园”的承诺与通过持续警觉神圣临在而进行的“奈夫斯”（Nafs，自我/灵魂）实际纪律联系起来。",
+        "seo_question": "根据伊玛目萨迪克，敬畏在主前站立意味着什么？",
+        "key_terms": {
+          "مَقَامَ رَبِّهِ": "在他主前站立",
+          "جَنَّتانِ": "两园",
+          "الْقَبِيحِ": "丑陋的",
+          "الْهَوَى": "私欲"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "55:46",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "79:40",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "51:23",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتانِ قَالَ مَنْ عَلِمَ أَنَّ اللَّهَ يَرَاهُ وَيَسْمَعُ مَا يَقُولُ وَيَعْلَمُ مَا يَعْمَلُهُ مِنْ خَيْرٍ أَوْ شَرٍّ فَيَحْجُزُهُ ذَلِكَ عَنِ الْقَبِيحِ مِنَ الْأَعْمَالِ فَذَلِكَ الَّذِي خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَى",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "وَلِمَنْ خَافَ مَقَامَ رَبِّهِ جَنَّتانِ قَالَ مَنْ عَلِمَ أَنَّ اللَّهَ يَرَاهُ وَيَسْمَعُ مَا يَقُولُ وَيَعْلَمُ مَا يَعْمَلُهُ مِنْ خَيْرٍ أَوْ شَرٍّ فَيَحْجُزُهُ ذَلِكَ عَنِ الْقَبِيحِ مِنَ الْأَعْمَالِ فَذَلِكَ الَّذِي خَافَ مَقَامَ رَبِّهِ وَنَهَى النَّفْسَ عَنِ الْهَوَى",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَنْهُ",
+          "name_en": "from him",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 11
+        },
+        {
+          "name_ar": "أَحْمَدَ",
+          "name_en": "Ahmad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 92
+        },
+        {
+          "name_ar": "ابْنِ مَحْبُوبٍ",
+          "name_en": "Ibn Mahbub",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 10
+        },
+        {
+          "name_ar": "دَاوُدَ الرَّقِّيِّ",
+          "name_en": "Dawud al-Raqqi",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 254
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

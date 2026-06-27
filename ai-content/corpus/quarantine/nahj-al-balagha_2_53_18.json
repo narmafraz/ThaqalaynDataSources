@@ -1,0 +1,297 @@
+{
+  "verse_path": "/books/nahj-al-balagha:2:53:18",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-28",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[1] name_ar has 45 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'بَعْضٍ: فَمِنْهَا جُنُودُ اللهِ وَمِنْهَا كُتَّابُ الْعَامَّ'"
+  ],
+  "result": {
+    "tags": [
+      "governance",
+      "social_relations",
+      "economy"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "ghadir",
+      "justice_system",
+      "leadership",
+      "poverty_wealth",
+      "rights_of_rulers"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَعَلْمٌ أَنَّ الرَّعِيَّةَ طَبَقَاتٌ",
+        "translations": {
+          "en": "And know that the subjects are classes",
+          "ur": "اور جان لو کہ رعایا طبقات ہیں",
+          "tr": "Bil ki, reaya tabakalardır",
+          "fa": "و بدان که رعیت طبقاتی هستند",
+          "id": "Dan ketahuilah bahwa rakyat terdiri dari berbagai lapisan",
+          "bn": "এবং জানো যে প্রজারা শ্রেণীভুক্ত",
+          "es": "Y sabe que los súbditos son clases",
+          "fr": "Et sache que les sujets sont des classes",
+          "de": "Und wisse, dass die Untertanen Schichten sind",
+          "ru": "И",
+          "zh": "وَاعْلَمْ أَنَّ الرَّعِيَّةَ طَبَقَاتٌ"
+        },
+        "word_start": 0,
+        "word_end": 4
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَا يَصْلُحُ بَعْضُهَا إِلَّا بِبَعْضٍ، وَلَا غِنَىٰ بِبَعْضِهَا عَن بَعْضٍ: فَمِنْهَا جُنُودُ اللَّهِ وَمِنْهَا كُتَّابُ الْعَامَّةِ وَالْخَاصَّةِ، وَمِنْهَا قُضَاةُ الْعَدْلِ، وَمِنْهَا عُمَّالُ الْإِنْصَافِ وَالرِّفْقِ، وَمِنْهَا أَهْلُ الْجِزْيَةِ وَالْخَرَاجِ مِنْ أَهْلِ الذِّمَّةِ وَمُسْلِمَةِ النَّاسِ، وَمِنْهَا التُّجَّارُ وَأَهْلُ الصِّنَاعَاتِ، وَمِنْهَا الطَّبَقَةُ السُّفْلَىٰ مِنْ ذَوِي الْحَاجَةِ وَالْمَسْكَنَةِ،",
+        "translations": {
+          "en": "one does not prosper without the other, and none is independent of the other: among them are the soldiers of Allah, and among them are the secretaries of the common people and the elite, and among them are the judges of justice, and among them are the officials of equity and gentleness, and among them are the people of the jizyah and kharaj from the people of the covenant and the Muslims of the people, and among them are the merchants and the people of crafts, and among them is the lower class of those in need and poverty,",
+          "ur": "ان میں سے کوئی ایک دوسرے کے بغیر کامیاب نہیں ہوتا، اور کوئی ایک دوسرے سے بے نیاز نہیں ہے: ان میں سے اللہ کے سپاہی ہیں، اور ان میں سے عوام اور اشراف کے کاتب ہیں، اور ان میں سے انصاف کے قاضی ہیں، اور ان میں سے انصاف اور نرمی کے اہل ہیں، اور ان میں سے اہل کتاب اور مسلمانوں سے جزیہ اور خراج لینے والے ہیں، اور ان میں سے تاجر اور صنعت کار ہیں، اور ان میں سے ضرتمندوں اور غریبوں کی نچلی طبقہ ہے،",
+          "tr": "Biri olmadan diğeri ilerleyemez ve biri diğerinden bağımsız değildir: onlardan Allah'ın askerleri vardır, onlardan halkın ve seçkinlerin kâtipleri vardır, onlardan adaletin hâkimleri vardır, onlardan eşitlik ve yumuşaklığın memurları vardır, onlardan ehl-i kitaptan cizye ve haraç sahipleri ile halkın Müslümanları vardır, onlardan tüccarlar ve zanaat sahipleri vardır, onlardan ihtiyaç sahiplerinin ve fakirlerin aşağı tabakası vardır,",
+          "fa": "یکی بدون دیگری به کامیابی نمی‌رسد و هیچ‌، و هیچ‌کس بی‌نیاز از دیگری نیست: در میان آن‌ها سربازان خدا هستند‌، و در میان آن‌ها دبیران مردم عادی و اشراف هستند‌، و در میان آن‌ها قاضیان عدالت هستند‌، و در میان آن‌ها مأموران انصاف و ملایمت هستند‌، و در میان آن‌ها اهل جزیه و خراج از اهل عهد و مسلمانان مردم هستند‌، و در میان آن‌ها بازرگانان و اهل حرفه‌ها هستند‌، و در میان آن‌ها طبقه پایین نیازمندان و فقرا هستند‌،",
+          "id": "satusatunya tidak akan berhasil tanpa yang lainnya, dan tidak ada yang mandiri dari yang lainnya: di antara mereka adalah para prajurit Allah, dan di antara mereka adalah para sekretaris kaum biasa dan para elit, dan di antara mereka adalah para hakim yang adil, dan di antara mereka adalah para pejabat yang berkeadilan dan kelembutan, dan di antara mereka adalah para pengumpul jizyah dan kharaj dari ahli kitab dan kaum Muslimin, dan di antara mereka adalah para pedagang dan para ahli kerajinan, dan di antara mereka adalah kaum dhuafa yang membutuhkan dan miskin, ",
+          "bn": "একটি অন্যটির ছাড়া সফল হয় না, এবং কেউ অন্যটির উপর স্বাধীন নয়: তাদের মধ্যে আল্লাহর সৈন্যগণ আছেন, এবং তাদের মধ্যে সাধারণ জনগণ ও বিশিষ্ট ব্যক্তিদের লেখকগণ আছেন, এবং তাদের মধ্যে ন্যায়বিচারের বিচারকগণ আছেন, এবং তাদের মধ্যে সমতা ও কোমলতার কর্মকর্তাগণ আছেন, এবং তাদের মধ্যে চুক্তিভুক্ত লোকদের ও মুসলমানদের জকিয়াত ও খারাজ গ্রহীতারা আছেন, এবং তাদের মধ্যে ব্যবসায়ী ও কারিগরগণ আছেন, এবং তাদের মধ্যে প্রয়োজন ও দারিদ্র্যের নিম্নস্তরের লোকেরা আছেন,",
+          "es": "uno no prospera sin el otro, y ninguno es independiente del otro: entre ellos están los soldados de Allah, y entre ellos están los secretarios del pueblo común y la élite, y entre ellos están los jueces de justicia, y entre ellos están los funcionarios de equidad y gentileza, y entre ellos están las personas de la yizya y el jaray del pueblo del pacto y los musulmanes del pueblo, y entre ellos están los comerciantes y las personas de las artes, y entre ellos está la clase baja de los necesitados y la pobreza,",
+          "fr": "l'un ne prospère pas sans l'autre, et aucun n'est indépendant de l'autre : parmi eux se trouvent les soldats d'Allah, parmi eux se trouvent les secrétaires des gens du commun et de l'élite, parmi eux se trouvent les juges de la justice, parmi eux se trouvent les fonctionnaires de l'équité et de la douceur, parmi eux se trouvent les gens de la jizya et du kharaj parmi les gens du pacte et les musulmans du peuple, parmi eux se trouvent les marchands et les gens des métiers, et parmi eux se trouve la classe inférieure des nécessiteux et des pauvres,",
+          "de": "Der eine gedeiht nicht ohne den anderen, und keiner ist unabhängig vom anderen: unter ihnen sind die Soldaten Allahs, und unter ihnen sind die Schreiber der Gemeinen und der Elite, und unter ihnen sind die Richter der Gerechtigkeit, und unter ihnen sind die Beamten der Billigkeit und Sanftmut, und unter ihnen sind die Leute der Dschizya und des Charadsch von den Leuten des Bundes und den Muslimen der Leute, und unter ihnen sind die Kaufleute und die Leute der Handwerke, und unter ihnen ist die untere Klasse der Bedürftigen und Armen,",
+          "ru": "один не преуспевает без другого, и никто не обходится без другого: среди них — воины Аллаха, среди них — писцы простых людей и элиты, среди них — судьи, выносящие справедливые решения, среди них — чиновники, отличающиеся справедливостью и мягкостью, среди них — люди, платящие джизью и харадж, из числа ахль аль-китаб и мусульман, среди них — купцы и ремесленники, среди них — бедняки и нуждающиеся.",
+          "zh": "彼此不可分离，彼此不可独立：其中有真主的士兵，有平民和精英的书记官，有公正的法官，有公平与温和的官员，有来自盟约民和民众中穆斯林的吉兹亚和哈拉吉缴纳者，有商人和手工艺人，有需要和贫困阶层中的下层民众，"
+        },
+        "word_start": 4,
+        "word_end": 48
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَكُلٌّ قَدْ سَمَّىٰ اللَّهُ لَهُ سَهْمَهُ، وَوَضَعَ عَلَىٰ حَدِّهِ فَرِيضَةً فِي كِتَابِهِ أَوْ سُنَّةِ نَبِيِّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) عَهْدًا مِنْهُ عِنْدَنَا مَحْفُوظًا.",
+        "translations": {
+          "en": "and each has had his share designated by Allah, and He has laid down a duty upon his limit in His Book or in the sunnah of His Prophet (peace be upon him and his family), a covenant of His that is preserved with us.",
+          "ur": "اور ہر ایک کا حصہ اللہ نے مقرر کر دیا ہے، اور اس نے اپنی حد پر اپنی کتاب یا اپنے نبی (صلی اللہ علیہ وآلہ وسلم) کی سنت میں ایک فرض مقرر کر دیا ہے، جو ہمارے پاس محفوظ ایک عہد ہے۔",
+          "tr": "ve her birinin payı Allah tarafından tayin edilmiştir; O, Kitab'ında veya Peygamberinin (aleyhi ve âlihi es-selâm) sünnetinde, onun sınırına bir farz yüklemiştir; bu, bizimle muhafaza edilen bir akitdir.",
+          "fa": "و برای هر یک از آن‌ها سهمی را که خداوند تعیین کرده است، و او بر اساس حد و مرز خود در کتابش یا در سنت پیامبرش (صلی‌الله علیه و آله و سلم) تکلیفی را وضع کرده است، پیمانی از جانب اوست که نزد ما محفوظ است.",
+          "id": "dan setiap orang telah ditetapkan bagiannya oleh Allah, dan Dia telah mewajibkan batasnya dalam Kitab-Nya atau dalam sunnah Nabi-Nya (shalatullah 'alaih wa alihi), sebagai perjanjian-Nya yang terpelihara bersama kita.",
+          "bn": "এবং প্রত্যেকের জন্য আল্লাহ নির্দিষ্ট করে দিয়েছেন তার অংশ, এবং তিনি তাঁর গ্রন্থে বা তাঁর নবীর (আলৈহি ওয়া আলেহি সালাম) সুন্নাহতে তাঁর সীমা অনুযায়ী একটি কর্তব্য আরোপ করেছেন, যা আমাদের নিকট সংরক্ষিত একটি তাঁর নিয়ম।",
+          "es": "y a cada uno se le ha designado su parte por Allah, y Él ha establecido un deber en cuanto a su límite en Su Libro o en la sunna de Su Profeta (que la paz sea con él y con su familia), un pacto suyo que está preservado con nosotros.",
+          "fr": "et chacun a eu sa part désignée par Allah, et Il a établi un devoir selon sa limite dans Son Livre ou dans la sunna de Son Prophète (que la paix soit sur lui et sur sa famille), une alliance d'Allah qui est préservée auprès de nous.",
+          "de": "und jeder hat seinen Anteil von Allah zugewiesen bekommen, und Er hat ihm eine Pflicht in seinem Umfang in Seinem Buch oder in der Sunna Seines Propheten (Friede sei mit ihm und seiner Familie) auferlegt, einen Bund von Ihm, der bei uns bewahrt wird.",
+          "ru": "и каждому из них была определена его доля Аллахом, и Он предписал обязанность в пределах его доли в Своей Книге или в сунне Его Пророка (мир ему и его семье), завет Которого сохранён у нас.",
+          "zh": "真主已为每一人规定了其份额，并在他的经典或先知（愿主福安之及其家属）的圣训中，为他规定了在其界限内的义务，这是真主与我们之间所立下的、为我们所守护的盟约。"
+        },
+        "word_start": 48,
+        "word_end": 71
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ali (peace be upon him) outlines the functional stratification of society, emphasizing that the military, judiciary, merchants, and poor are interdependent components of a cohesive state. He asserts that Allah has assigned specific rights and duties to each class, establishing a divine covenant that the Imams are entrusted to preserve and uphold. This framework underscores the theological basis for social organization and the ruler's duty to ensure justice across all strata.",
+        "seo_question": "What are the different classes of subjects in Islamic governance according to Imam Ali?",
+        "key_terms": {
+          "الرَّعِيَّة": "subjects/people under governance",
+          "طَبَقَاتٌ": "classes/strata",
+          "جُنُودُ اللَّهِ": "soldars of Allah/the army",
+          "قُضَاةُ الْعَدْلِ": "judges of justice",
+          "أَهْلُ الْجِزْيَةِ": "people of the jizyah (tax)",
+          "أَهْلُ الصِّنَاعَاتِ": "people of crafts/industry",
+          "السُّنَّةُ": "prophetic tradition",
+          "عَهْدٌ": "covenant/agreement"
+        }
+      },
+      "ur": {
+        "summary": "امام علی (علیہ السلام) معاشرے کے افعال کی تقسیم کی وضاحت کرتے ہیں، جس میں فوج، عدلیہ، تاجر اور غریب کو ایک مربوط ریاست کے باہمی انحصار کرنے والے اجزاء کے طور پر بیان کیا گیا ہے۔ وہ اس بات پر زور دیتے ہیں کہ اللہ تعالیٰ نے ہر طبقے کے لیے خاص حقوق اور فریضے مقرر کیے ہیں، جس سے ایک الہیٰ عہد قائم ہوتا ہے جس کی حفاظت اور تحفظ کا ذمہ دار امام مقرر ہیں۔ یہ فریم ورک سماجی تنظیم کے الہیاتی بنیادوں اور حکمران کے تمام طبقات میں انصاف یقینی بنانے کی ذمہ داری کو اجاگر کرتا ہے۔",
+        "seo_question": "امام علی کے مطابق اسلامی حکومت میں رعایا کے مختلف طبقات کیا ہیں؟",
+        "key_terms": {
+          "الرَّعِيَّة": "رعایا",
+          "طَبَقَاتٌ": "طبقات",
+          "جُنُودُ اللَّهِ": "جند اللہ",
+          "قُضَاةُ الْعَدْلِ": "قضاة العدل",
+          "أَهْلُ الْجِزْيَةِ": "اہل الجزیہ",
+          "أَهْلُ الصِّنَاعَاتِ": "اہل الصناعات",
+          "السُّنَّةُ": "سنت",
+          "عَهْدٌ": "عہد"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ali (aley (aleyhisselam), toplumun işlevsel olarak sınıflandırılmasını ele alarak, ordunun, yargının, tüccarların ve fakirlerin bütüncül bir devletin birbirine bağımlı unsurları olduğunu vurgular. Allah'ın her sınıfa belirli haklar ve görevler atfettiğini, İmamların korumak ve yerine getirmekle görevlendirildiği ilahi bir ahid tesis ettiğini belirtir. Bu çerçeve, sosyal düzenin teolojik temellerini ve hükümdarın tüm katmanlar arasında adaleti sağlama yükümlülüğünü vurgular.",
+        "seo_question": "İmam Ali'ye göre İslam yönetiminde farklı sınıflar nelerdir?",
+        "key_terms": {
+          "الرَّعِيَّة": "mürettebe",
+          "طَبَقَاتٌ": "sınıflar",
+          "جُنُودُ اللَّهِ": "Allah'ın ordusu",
+          "قُضَاةُ الْعَدْلِ": "adalet yargıçları",
+          "أَهْلُ الْجِزْيَةِ": "cizye ehli",
+          "أَهْلُ الصِّنَاعَاتِ": "esnaf ve sanatkârlar",
+          "السُّنَّةُ": "sünnet",
+          "عَهْدٌ": "ahid"
+        }
+      },
+      "fa": {
+        "summary": "امام علی (علیه السلام) سلسله‌مراتب عملکردی جامعه را ترسیم می‌کند و بر این نکته تأکید دارد که نظامیان، قضات، بازرگانان و فقرا اجزای وابسته به یکدیگر در یک دولت منسجم هستند. او بیان می‌دارد که خداوند حقوق و وظایف خاصی را برای هر طبقه تعیین کرده و پیمانی الهی برقرار نموده است که ائمت امین آن هستند. این چارچوب مبانی الهی برای سازماندهی اجتماعی و وظیفه حاکم برای برقراری عدالت در میان تمام طبقات را برجسته می‌سازد.",
+        "seo_question": "طبقه‌بندی‌های مختلف مردم در حکومت اسلامی بر اساس دیدگاه امام علی چه هستند؟",
+        "key_terms": {
+          "الرَّعِيَّة": "مردم تحت حکومت",
+          "طَبَقَاتٌ": "طبقات/سلسله‌مراتب",
+          "جُنُودُ اللَّهِ": "سربازان خدا/ارتش",
+          "قُضَاةُ الْعَدْلِ": "قاضیان عدل",
+          "أَهْلُ الْجِزْيَةِ": "اهل جزیه (مالیات)",
+          "أَهْلُ الصِّنَاعَاتِ": "اهل صنایع/صنعت",
+          "السُّنَّةُ": "سنت",
+          "عَهْدٌ": "پیمان/توافق"
+        }
+      },
+      "id": {
+        "summary": "Imam Ali (alamahisalam) menguraikan stratifikasi fungsional masyarakat, menekankan bahwa militer, peradilan, pedagang, dan orang miskin adalah komponen yang saling bergantung dalam negara yang kohesif. Ia menegaskan bahwa Allah telah menetapkan hak dan kewajiban khusus bagi setiap kelas, membentuk perjanjian ilahi yang dipercayakan kepada para Imam untuk dilestarikan dan ditegakkan. Kerangka kerja ini menyoroti dasar teologis untuk organisasi sosial dan kewajiban penguasa untuk memastikan keadilan di semua lapisan.",
+        "seo_question": "Apa saja kelas-kelas bawahan dalam pemerintahan Islam menurut Imam Ali?",
+        "key_terms": {
+          "الرَّعِيَّة": "rakyat/warga negara",
+          "طَبَقَاتٌ": "kelas/lapisan",
+          "جُنُودُ اللَّهِ": "pasukan Allah/tentara",
+          "قُضَاةُ الْعَدْلِ": "hakim keadilan",
+          "أَهْلُ الْجِزْيَةِ": "kaum yang membayar jizyah",
+          "أَهْلُ الصِّنَاعَاتِ": "kaum pengrajin/industri",
+          "السُّنَّةُ": "sunnah",
+          "عَهْدٌ": "perjanjian"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আলী (আ.) সমাজের কার্যকরী স্তরবিন্যাস তুলে ধরেন, যেখানে সামরিক বাহিনী, বিচার বিভাগ, ব্যবসায়ী এবং দরিদ্ররা একটি সুসংহত রাষ্ট্রের পারস্পরিক নির্ভরশীল উপাদান। তিনি দাবি করেন যে, আল্লাহ প্রতিটি শ্রেণিকে নির্দিষ্ট অধিকার ও কর্তব্য নির্ধারণ করেছেন, যা একটি ঐশ্বরিক চুক্তি যা ইমামদের রক্ষা ও প্রতিষ্ঠার দায়িত্বপ্রাপ্ত। এই কাঠামো সামাজিক সংগঠনের তাত্ত্বিক ভিত্তি এবং শাসকের সকল স্তরে ন্যায়বিচার নিশ্চিত করার কর্তব্যকে তুলে ধরে।",
+        "seo_question": "ইমাম আলীর মতে ইসলামি শাসনতন্ত্রে বিভিন্ন শ্রেণীর প্রজা কে কে?",
+        "key_terms": {
+          "الرَّعِيَّة": "প্রজা/শাসিত জনগণ",
+          "طَبَقَاتٌ": "শ্রেণী/স্তর",
+          "جُنُودُ اللَّهِ": "আল্লাহর সৈন্য/সামরিক বাহিনী",
+          "قُضَاةُ الْعَدْلِ": "ন্যায়বিচারের বিচারক",
+          "أَهْلُ الْجِزْيَةِ": "জিজিয়া (কর) প্রদানকারী লোকজন",
+          "أَهْلُ الصِّنَاعَاتِ": "কারুশিল্প/শিল্পকলার লোকজন",
+          "السُّنَّةُ": "সুন্নাহ",
+          "عَهْدٌ": "চুক্তি/আমলনামা"
+        }
+      },
+      "es": {
+        "summary": "El Imam Alí (que la paz sea con él) describe la estratificación funcional de la sociedad, enfatizando que la milicia, el poder judicial, los comerciantes y los pobres son componentes interdependientes de un estado cohesionado. Afirma que Alá ha asignado derechos y deberes específicos a cada clase, estableciendo un pacto divino del cual los Imames están encargados de preservar y defender. Este marco subraya la base teológica de la organización social y el deber del gobernante de garantizar la justicia en todos los estratos.",
+        "seo_question": "¿Cuáles son las diferentes clases de súbditos en la gobernanza islámica según el Imam Alí?",
+        "key_terms": {
+          "الرَّعِيَّة": "súbditos/pueblo bajo el gobierno",
+          "طَبَقَاتٌ": "clases/estratos",
+          "جُنُودُ اللَّهِ": "soldados de Alá/el ejército",
+          "قُضَاةُ الْعَدْلِ": "jueces de justicia",
+          "أَهْلُ الْجِزْيَةِ": "gente de la yizia (impuesto)",
+          "أَهْلُ الصِّنَاعَاتِ": "gente de las artesanías/industria",
+          "السُّنَّةُ": "la sunna",
+          "عَهْدٌ": "pacto/acuerdo"
+        }
+      },
+      "fr": {
+        "summary": "L",
+        "seo_question": "Quelles sont les différentes classes de sujets dans la gouvernance islamique selon l'imam Ali ?",
+        "key_terms": {
+          "الرَّعِيَّة": "sujets/peuple sous gouvernance",
+          "طَبَقَاتٌ": "classes/strates",
+          "جُنُودُ اللَّهِ": "soldats d'Allah/l'armée",
+          "قُضَاةُ الْعَدْلِ": "juges de justice",
+          "أَهْلُ الْجِزْيَةِ": "gens de la jizya (impôt)",
+          "أَهْلُ الصِّنَاعَاتِ": "gens des métiers/industrie",
+          "السُّنَّةُ": "tradition prophétique",
+          "عَهْدٌ": "alliance/accord"
+        }
+      },
+      "de": {
+        "summary": "Imam Ali (Friede sei mit ihm) skizziert die funktionale Schichtung der Gesellschaft und betont, dass Militär, Justiz, Händler und Arme interdependenten Bestandteile eines zusammenhängenden Staates sind. Er behauptet, dass Allah jeder Klasse spezifische Rechte und Pflichten zugewiesen hat und so einen göttlichen Bund begründet hat, dem die Imame anvertraut sind, ihn zu bewahren und aufrechtzuerhalten. Dieses Rahmenwerk unterstreicht die theologische Grundlage der sozialen Organisation und die Pflicht des Herrschers, Gerechtigkeit über alle Schichten hinweg sicherzustellen.",
+        "seo_question": "Welche verschiedenen Klassen von Untertanen gibt es in der islamischen Herrschaft nach Imam Ali?",
+        "key_terms": {
+          "الرَّعِيَّة": "Untertanen/Volk unter der Herrschaft",
+          "طَبَقَاتٌ": "Klassen/Schichten",
+          "جُنُودُ اللَّهِ": "Soldaten Allahs/die Armee",
+          "قُضَاةُ الْعَدْلِ": "Richter der Gerechtigkeit",
+          "أَهْلُ الْجِزْيَةِ": "Leute der Dschizya (Steuer)",
+          "أَهْلُ الصِّنَاعَاتِ": "Leute der Handwerke/Industrie",
+          "السُّنَّةُ": "prophetische Tradition",
+          "عَهْدٌ": "Bund/Vereinbarung"
+        }
+      },
+      "ru": {
+        "summary": "Имам Али (мир ему) описывает функциональную стратификацию общества, подчеркивая, что военные, судебная власть, купцы и бедные являются взаимозависимыми компонентами сплоченного государства. Он утверждает, что Аллах назначил определенные права и обязанности каждому классу, установив божественный завет, который имамы обязаны хранить и соблюдать. Эта система подчеркивает теологическое обоснование социальной организации и обязанность правителя обеспечивать справедливость во всех слоях общества.",
+        "seo_question": "Каковы различные классы подданных в исламском управлении согласно Имаму Али?",
+        "key_terms": {
+          "الرَّعِيَّة": "подданные/люди под управлением",
+          "طَبَقَاتٌ": "классы/слои",
+          "جُنُودُ اللَّهِ": "воины Аллаха/армия",
+          "قُضَاةُ الْعَدْلِ": "судьи справедливости",
+          "أَهْلُ الْجِزْيَةِ": "люди, платящие джизью (налог)",
+          "أَهْلُ الصِّنَاعَاتِ": "люди ремесел/промышленности",
+          "السُّنَّةُ": "пророческая традиция",
+          "عَهْدٌ": "завет/соглашение"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里（愿主福安之）阐述了社会的职能分层，强调军队、司法、商人和穷人是一个团结国家的相互依存的组成部分。他断言，真主为每个阶层分配了特定的权利和义务，确立了伊玛目受托保存和遵守的神圣契约。这一框架突出了社会组织的理论基础以及统治者确保各阶层正义的职责。",
+        "seo_question": "根据伊玛目阿里，伊斯兰治理中臣民有哪些不同的阶层？",
+        "key_terms": {
+          "الرَّعِيَّة": "被治理的臣民",
+          "طَبَقَاتٌ": "阶层/等级",
+          "جُنُودُ اللَّهِ": "真主的军队",
+          "قُضَاةُ الْعَدْلِ": "公正的法官",
+          "أَهْلُ الْجِزْيَةِ": "缴纳吉兹亚税的人",
+          "أَهْلُ الصِّنَاعَاتِ": "工匠/行业人士",
+          "السُّنَّةُ": "圣训",
+          "عَهْدٌ": "契约"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:282",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:60",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "6:152",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:58",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَعَلْمٌ أَنَّ الرَّعِيَّةَ طَبَقَاتٌ لَا يَصْلُحُ بَعْضُهَا إِلَّا بِبَعْضٍ، وَلَا غِنَىٰ بِبَعْضِهَا عَن بَعْضٍ: فَمِنْهَا جُنُودُ اللَّهِ وَمِنْهَا كُتَّابُ الْعَامَّةِ وَالْخَاصَّةِ، وَمِنْهَا قُضَاةُ الْعَدْلِ، وَمِنْهَا عُمَّالُ الْإِنْصَافِ وَالرِّفْقِ، وَمِنْهَا أَهْلُ الْجِزْيَةِ وَالْخَرَاجِ مِنْ أَهْلِ الذِّمَّةِ وَمُسْلِمَةِ النَّاسِ، وَمِنْهَا التُّجَّارُ وَأَهْلُ الصِّنَاعَاتِ، وَمِنْهَا الطَّبَقَةُ السُّفْلَىٰ مِنْ ذَوِي الْحَاجَةِ وَالْمَسْكَنَةِ، وَكُلٌّ قَدْ سَمَّىٰ اللَّهُ لَهُ سَهْمَهُ، وَوَضَعَ عَلَىٰ حَدِّهِ فَرِيضَةً فِي كِتَابِهِ أَوْ سُنَّةِ نَبِيِّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) عَهْدًا مِنْهُ عِنْدَنَا مَحْفُوظًا.",
+    "isnad_matn": {
+      "isnad_ar": "وَاعْلَمْ أَنَّ الرَّعِيَّةَ طَبَقَاتٌ لَا يَصْلُحُ بَعْضُهَا إِلَّا بِبَعْضٍ، وَلَا غِنَى بِبَعْضِهَا عَنْ بَعْضٍ: فَمِنْهَا جُنُودُ اللهِ وَمِنْهَا كُتَّابُ الْعَامَّةِ وَالْخَاصَّةِ، وَمِنْهَا قُضَاةُ الْعَدْلِ، وَمِنْهَا عُمَّالُ الْإِنْصَافِ وَالرِّفْقِ، وَمِنْهَا أَهْلُ الْجِزْيَةِ وَالْخَرَاجِ مِنْ أَهْلِ الذِّمَّةِ وَمُسْلِمَةِ النَّاسِ، وَمِنْهَا التُّجَّارُ وَأَهْلُ الصِّنَاعَاتِ، وَمِنْهَا الطَّبَقَةُ السُّفْلَى مِنْ ذَوِي الْحَاجَةِ وَالْمَسْكَنَةِ، وَكُلٌّ قَدْ سَمَّى اللهُ لَهُ سَهْمَهُ، وَوَضَعَ عَلَى حَدِّهِ فَرِيضَةً فِي",
+      "matn_ar": "وَعَلْمٌ أَنَّ الرَّعِيَّةَ طَبَقَاتٌ لَا يَصْلُحُ بَعْضُهَا إِلَّا بِبَعْضٍ، وَلَا غِنَىٰ بِبَعْضِهَا عَن بَعْضٍ: فَمِنْهَا جُنُودُ اللَّهِ وَمِنْهَا كُتَّابُ الْعَامَّةِ وَالْخَاصَّةِ، وَمِنْهَا قُضَاةُ الْعَدْلِ، وَمِنْهَا عُمَّالُ الْإِنْصَافِ وَالرِّفْقِ، وَمِنْهَا أَهْلُ الْجِزْيَةِ وَالْخَرَاجِ مِنْ أَهْلِ الذِّمَّةِ وَمُسْلِمَةِ النَّاسِ، وَمِنْهَا التُّجَّارُ وَأَهْلُ الصِّنَاعَاتِ، وَمِنْهَا الطَّبَقَةُ السُّفْلَىٰ مِنْ ذَوِي الْحَاجَةِ وَالْمَسْكَنَةِ، وَكُلٌّ قَدْ سَمَّىٰ اللَّهُ لَهُ سَهْمَهُ، وَوَضَعَ عَلَىٰ حَدِّهِ فَرِيضَةً فِي كِتَابِهِ أَوْ سُنَّةِ نَبِيِّهِ (صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ) عَهْدًا مِنْهُ عِنْدَنَا مَحْفُوظًا.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وَاعْلَمْ أَنَّ الرَّعِيَّةَ طَبَقَاتٌ لَا يَصْلُحُ بَعْضُهَا إِلَّا بِبَعْضٍ، وَلَا غِنَى بِبَعْضِهَا",
+          "name_en": "Wa'lam anna al-ra'iyya tabaqatun la yasluhu ba'duha illa bi-ba'd, wa la ghina bi-ba'diha",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "بَعْضٍ: فَمِنْهَا جُنُودُ اللهِ وَمِنْهَا كُتَّابُ الْعَامَّةِ وَالْخَاصَّةِ، وَمِنْهَا قُضَاةُ الْعَدْلِ، وَمِنْهَا عُمَّالُ الْإِنْصَافِ وَالرِّفْقِ، وَمِنْهَا أَهْلُ الْجِزْيَةِ وَالْخَرَاجِ مِنْ أَهْلِ الذِّمَّةِ وَمُسْلِمَةِ النَّاسِ، وَمِنْهَا التُّجَّارُ وَأَهْلُ الصِّنَاعَاتِ، وَمِنْهَا الطَّبَقَةُ السُّفْلَى مِنْ ذَوِي الْحَاجَةِ وَالْمَسْكَنَةِ، وَكُلٌّ قَدْ سَمَّى اللهُ لَهُ سَهْمَهُ، وَوَضَعَ عَلَى حَدِّهِ فَرِيضَةً",
+          "name_en": "Ba'd: fa-minha junudullahi wa-minha kuttab al-'ammah wa-al-khassah, wa-minha qudat al-'adl, wa-minha 'ummal al-insaf wa-al-rifq, wa-minha ahl al-jizyah wa-al-kharaj min ahl al-dhimmah wa-muslimat al-nas, wa-minha al-tujjar wa-ahl al-sina'at, wa-minha al-tabaqah al-sufli min dhati al-hajah wa-al-maskanah, wa-kull qad samma Allahu lahu sahmu, wa-wada'a 'ala haddihi faridatan",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

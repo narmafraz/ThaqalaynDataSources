@@ -1,0 +1,259 @@
+{
+  "verse_path": "/books/al-kafi:7:4:54:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 30 en words vs 1 ar words (ratio=30.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "economy"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "judicial_rulings",
+      "financial_law"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "A number of our companions, from Sahl ibn Ziyad, from Muhammad ibn al-Hasan ibn Shamoun, from Abdullah ibn Abd al-Rahman al-Asamm, from Misma', from Abu Abdillah (peace be upon him)",
+          "ur": "ہمارے اصحاب کی ایک جماعت، سهل بن زیاد سے، محمد بن حسن بن شمون سے، عبداللہ بن عبدالرحمن اصم سے، مسمع سے، ابو عبداللہ (علیه السلام) سے",
+          "tr": "Bizim ashabımızdan bir grup, Sahl b. Ziyad'dan, o, Muhammed b. el-Hasan b. Şemmun'dan, o, Abdullah b. Abdurrahman el-Asam'dan, o, Misma'dan, o, Ebu Abdillah (aleyhisselam) rivayet etmiştir:",
+          "fa": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ مُحَمَّدِ بْنِ الْحَسَنِ بْنِ شَمُّونٍ عَنْ عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحْمَنِ الْأَصَمِّ عَنْ مِسْمَعٍ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+          "id": "Sejumlah sahabat kami, dari Sahl ibn Ziyad, dari Muhammad ibn al-Hasan ibn Shamoun, dari Abdullah ibn Abd al-Rahman al-As-Rahman al-Asamm, dari Misma', dari Abu Abdillah (alamah)",
+          "bn": "আমাদের সহচরগণ, সাহল ইবনে জিয়াদ, মুহাম্মাদ ইবনে আল-হাসান ইবনে শামুন, আবদুল্লাহ ইবনে আবদুর রহমান আল-আসাম, মিসমা', আবু আবদিল্লাহ (আলাইহিস সালাম) থেকে বর্ণনা করেন।",
+          "es": "Una serie de nuestros compañeros, de Sahl ibn Ziyad, de Muhammad ibn al-Hasan ibn Shamoun, de Abdullah ibn Abd al-Rahman al-Asamm, de Misma', de Abu Abdillah (la paz sea con él)",
+          "fr": "Un certain nombre de nos compagnons, de Sahl ibn Ziyad, de Muhammad ibn al-Hasan ibn Shamoun, de Abdullah ibn Abd al-Rahman al-Asamm, de Misma', d'Abou Abdillah (que la paix soit sur lui)",
+          "de": "Eine Anzahl unserer Gefährten, von Sahl ibn Ziyad, von Muhammad ibn al-Hasan al-Hasan ibn Shamoun, von Abdullah ibn Abd al-Rahman al-Asamm, von Misma', von Abu Abdillah (friede sei mit ihm)",
+          "ru": "Несколько наших сподвижников, от Сахла ибн Зияда, от Мухаммада ибн аль-Хасана ибн Шаммуна, от Абдуллаха ибн Абд ар-Рахмана аль-Асама, от Мисмаа, от Абу Абдуллаха (да будет мир с ним)",
+          "zh": "我们的一些同伴，从萨赫勒·本·齐亚德，从穆罕默德·本·哈桑·本·沙蒙，从阿卜杜拉·本·阿卜杜勒·拉赫曼·阿萨姆，从米斯马，从阿布·阿卜杜拉（愿主福安之）"
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَنَّ عَلِيّاً ( عليه السلام ) قَضَى فِي عَيْنِ دَابَّةٍ رُبُعَ الثَّمَنِ",
+        "translations": {
+          "en": "that Ali (peace be upon him) judged regarding the eye of an animal [to be] a quarter of its price.",
+          "ur": "کہ علی (رضی اللہ عنہ) نے جانور کی آنکھ کے بارے میں اس کی قیمت کا چوتھائی فیصلہ کیا۔",
+          "tr": "Ali'nin (aleyhisselam) bir hayvanın gözünün bedeli için dörtte bir hüküm vermesiyle ilgili olarak.",
+          "fa": "آنکه علی (علیه السلام) درباره چشم حیوان قضاوت کرد که یک چهارم قیمت آن است.",
+          "id": "bahwa Ali (alamahih) menjatuhkan hukum mengenai mata seekor hewan [sebagai] seperempat dari harganya.",
+          "bn": "যে বিষয়ে আলী (র.) একটি পশুর চোখের দাম তার মূল্যের চতুর্থাংশ বলে রায় দিয়েছিলেন।",
+          "es": "que Alí (que la paz sea con él) juzgó que el ojo de un animal [es] un cuarto de su precio.",
+          "fr": "qu'Ali (que la paix soit sur lui) a jugé que l'œil d'un animal [vaut] un quart de son prix.",
+          "de": "dass Ali (Friede sei mit ihm) bezüglich des Auges eines Tieres [urteilte, dass es] ein Viertel seines Preises beträgt.",
+          "ru": "что Али (да Али (да будет мир с ним) постановил относительно глаза животного [как] четверть его цены.",
+          "zh": "阿里（愿主福安之）对动物眼睛的判决是为其价格的四分之一。"
+        },
+        "word_start": 1,
+        "word_end": 13
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Al-Kafi* illustrates the practical application of *diya* (blood money) in early Shia jurisprudence, where Imam Ali (peace be upon him) determined the compensation for an animal's eye injury as one-quarter of its value. This ruling highlights the systematic approach to asset valuation in the Ahl al-Bayt's legal methodology, distinguishing between specific bodily damages and the overall worth of the creature. It serves as a foundational precedent for calculating damages in commercial and personal injury cases within Shia fiqh.",
+        "seo_question": "What is the compensation for an animal losing its eye according to Imam Ali?",
+        "key_terms": {
+          "قَضَى": "judged/delivered a verdict",
+          "عَيْنِ دَابَّةٍ": "eye of an animal",
+          "رُبُعَ الثَّمَنِ": "a quarter of the price"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث *الکافی* سے ہے جو ابتدائی شیعہ فقہ میں *دیہ* (خون بہا) کے عملی اطلاق کو بیان کرتی ہے، جہاں امام علی (علیہ السلام) نے جانور کی آنکھ کے زخم کی معاوضہ اس کی کل قیمت کا ایک چوتھائی مقرر کیا۔ یہ حکم اہل بیت کی قانونی طریقہ کار میں جائیداد کی قیمت کا تعین کے منظم انداز کو اجاگر کرتا ہے، جو مخصوص جسمانی نقصان اور جانور کی کل قدر کے درمیان تمیز کرتا ہے۔ یہ شیعہ فقہ میں تجارتی اور ذاتی زخم کے کیسز میں نقصانات کے حساب کے لیے ایک بنیادی سابقہ ہے۔",
+        "seo_question": "امام علی کے مطابق جانور کی آنکھ گرنے پر کیا معاوضہ ہے؟",
+        "key_terms": {
+          "قَضَى": "فیصلہ کیا / فتویٰ دیا",
+          "عَيْنِ دَابَّةٍ": "جانور کی آنکھ",
+          "رُبُعَ الثَّمَنِ": "قیمت کا ایک چوتھائی"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, Erken Şii hukukunda *diye* (kan parası) uygulamasını gösterir; İmam Ali (aleyhisselam), bir hayvanın gözündeki yaralanma için tazminatı değerinin dörtte biri olarak belirlemiştir. Bu hüküm, Ehl-i Beyt'in hukuk metodolojisinde varlık değerlendirmesine yönelik sistematik yaklaşımı vurgular ve belirli bedensel hasarlar ile canlının genel değeri arasında ayrım yapar. Şii fihkinde ticari ve kişisel hasar davalarında tazminat hesaplaması için temel bir emsal teşkil eder.",
+        "seo_question": "Bir hayvanın gözünü kaybettiğinde İmam Ali'ye göre tazminat ne kadardır?",
+        "key_terms": {
+          "قَضَى": "hüküm verdi / fetva verdi",
+          "عَيْنِ دَابَّةٍ": "bir hayvanın gözü",
+          "رُبُعَ الثَّمَنِ": "fiyatın dörtte biri"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی نشان‌دهنده کاربرد عملی دیه در فقه اولیه شیعه است که امام علی (علیه‌السلام) غرامت آسیب دیدن چشم حیوان را یک‌چهارم ارزش آن تعیین کرد. این حکم رویکرد سیستماتیک در ارزیابی دارایی‌ها در روش‌شناسی حقوقی اهل بیت را برجسته می‌کند و بین آسیب‌های بدنی خاص و ارزش کلی موجود زنده تمایز قائل می‌شود. این حدیث به عنوان یک پیشینه بنیادین برای محاسبه خسارت در موارد جراحات تجاری و شخصی در فقه شیعه عمل می‌کند.",
+        "seo_question": "غرامت از دست دادن چشم حیوان طبق نظر امام علی چقدر است؟",
+        "key_terms": {
+          "قَضَى": "حکم داد/حکم صادر کرد",
+          "عَيْنِ دَابَّةٍ": "چشم حیوان",
+          "رُبُعَ الثَّمَنِ": "یک‌چهارم قیمت"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Al-Kafi* ini menggambarkan penerapan praktis *diya* (uang darah) dalam yurisprudensi Syiah awal, di mana Imam Ali (alamah) menentukan kompensasi untuk cedera mata hewan sebesar seperempat dari nilainya. Putusan ini menyoroti pendekatan sistematis dalam penilaian aset dalam metodologi hukum Ahl al-Bayt, yang membedakan antara kerusakan tubuh spesifik dan nilai keseluruhan makhluk. Hal ini menjadi preseden dasar untuk menghitung kerusakan dalam kasus komersial dan cedera pribadi dalam fikih Syiah.",
+        "seo_question": "Berapa kompensasi bagi hewan yang kehilangan matanya menurut Imam Ali?",
+        "key_terms": {
+          "قَضَى": "menghukum/mengeluarkan putusan",
+          "عَيْنِ دَابَّةٍ": "mata hewan",
+          "رُبُعَ الثَّمَنِ": "seperempat dari harga"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসটি আল-কাফি থেকে নেওয়া, যা প্রাচীন শিয়া ফিকহে দিয়া (রক্তমূল্য) এর ব্যবহারিক প্রয়োগ চিত্রিত করে, যেখানে ইমাম আলী (আ.) একটি প্রাণীর চোখের আঘাতের ক্ষতিপূরণ হিসেবে এর মূল্যের এক-চতুর্থাংশ নির্ধারণ করেন। এই রায় আহলুল বাইতের আইনি পদ্ধতিতে সম্পদের মূল্যায়নের ব্যবস্থাপদ্ধতি তুলে ধরে, যা নির্দিষ্ট শারীরিক ক্ষতি এবং প্রাণীর সামগ্রিক মূল্যের মধ্যে পার্থক্য করে। এটি শিয়া ফিকহে বাণিজ্যিক এবং ব্যক্তিগত আঘাতের মামলায় ক্ষতিপূরণ গণনার জন্য একটি ভিত্তিপ্রস্তর হিসেবে কাজ করে।",
+        "seo_question": "ইমাম আলীর মতে একটি প্রাণীর চোখ হারানোর ক্ষতিপূরণ কত?",
+        "key_terms": {
+          "قَضَى": "রায় দেন/ফয়সালা করেন",
+          "عَيْنِ دَابَّةٍ": "প্রাণীর চোখ",
+          "رُبُعَ الثَّمَنِ": "মূল্যের এক-চতুর্থাংশ"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de *Al-Kafi* ilustra la aplicación práctica de la *diya* (dinero de sangre) en la jurisprudencia shía temprana, donde el Imam Alí (que la paz sea con él) determinó la compensación por la lesión del ojo de un animal como una cuarta parte de su valor. Este fallo destaca el enfoque sistemático para la valoración de activos en la metodología legal de los Ahl al-Bayt, distinguiendo entre daños corporales específicos y el valor total de la criatura. Sirve como precedente fundamental para calcular daños en casos comerciales y de lesiones personales dentro del fiqh shía.",
+        "seo_question": "¿Cuál es la compensación por la pérdida del ojo de un animal según el Imam Alí?",
+        "key_terms": {
+          "قَضَى": "dictaminó / emitió un veredicto",
+          "عَيْنِ دَابَّةٍ": "ojo de un animal",
+          "رُبُعَ الثَّمَنِ": "una cuarta parte del precio"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Al-Kafi* illustre l'application pratique de la *diya* (indemnité de sang) dans la jurisprudence chiite primitive, où l'Imam Ali (que la paix soit sur lui) a fixé l'indemnisation pour une blessure à l'œil d'un animal au quart de sa valeur. Cette décision met en lumière l'approche systématique de l'évaluation des actifs dans la méthodologie juridique des Ahl al-Bayt, en distinguant les dommages corporels spécifiques de la valeur globale de l'animal. Elle sert de précédent fondamental pour le calcul des dommages dans les cas de blessures personnelles et commerciales au sein du fiqh chiite.",
+        "seo_question": "Quelle est l'indemnité pour un animal ayant perdu son œil selon l'Imam Ali ?",
+        "key_terms": {
+          "قَضَى": "a rendu un jugement",
+          "عَيْنِ دَابَّةٍ": "l'œil d'un animal",
+          "رُبُعَ الثَّمَنِ": "un quart du prix"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Al-Kafi* veranschaulicht die praktische Anwendung von *Diya (Blutgeld) in der frühen schiitischen Jurisprudenz, wo Imam Ali (Friede sei mit ihm) die Entschädigung für eine Augenverletzung eines Tieres auf ein Viertel seines Wertes festlegte. Diese Rechtsregel unterstreicht den systematischen Ansatz zur Bewertung von Vermögenswerten in der juristischen Methodologie der Ahl al-Bayt und unterscheidet zwischen spezifischen körperlichen Schäden und dem Gesamtwert des Tieres. Sie dient als grundlegendes Präzedenzfall für die Berechnung von Schäden in Handels- und Personenschadensfällen innerhalb des schiitischen Fiqh.",
+        "seo_question": "Wie hoch ist die Entschädigung für ein Tier, das sein Auge verliert, laut Imam Ali?",
+        "key_terms": {
+          "قَضَى": "urteilte/fällte ein Urteil",
+          "عَيْنِ دَابَّةٍ": "Auge eines Tieres",
+          "رُبُعَ الثَّمَنِ": "ein Viertel des Preises"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «аль-Кафи» иллюстрирует практическое применение диyyа (кровных денег) в ранней шиитской юриспруденции, где имам Али (да будет мир с ним) определил компенсацию за повреждение глаза животного как одну четверть его стоимости. Это решение подчеркивает систематический подход к оценке активов в правовой методологии Ахль аль-Байт, проводя различие между конкретными повреждениями тела и общей ценностью существа. Оно служит фундаментальным прецедентом для расчета ущерба в коммерческих делах и случаях причинения вреда личности в рамках шиитского фикха.",
+        "seo_question": "Какова компенсация за потерю животным глаза согласно имаму Али?",
+        "key_terms": {
+          "قَضَى": "вынес решение",
+          "عَيْنِ دَابَّةٍ": "глаз животного",
+          "رُبُعَ الثَّمَنِ": "четверть цены"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《卡菲》的圣训展示了早期什叶派法学中“迪亚”（血金）的实际应用，其中伊玛目阿里（愿主福安之）判定动物眼睛受伤的赔偿为其价值的四分之一。这一裁决凸显了圣裔家族法律方法论中对资产估值的系统性方法，区分了特定的身体损伤与生物的整体价值。它为什叶派教法学中商业和个人伤害案件的损害赔偿计算奠定了先例基础。",
+        "seo_question": "根据伊玛目阿里的判决，动物失去眼睛的赔偿是多少？",
+        "key_terms": {
+          "قَضَى": "判决/下达裁决",
+          "عَيْنِ دَابَّةٍ": "动物的眼睛",
+          "رُبُعَ الثَّمَنِ": "价格的四分之一"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:178",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "16:111",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad أَنَّ عَلِيّاً ( عليه السلام ) قَضَى فِي عَيْنِ دَابَّةٍ رُبُعَ الثَّمَنِ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "أَنَّ عَلِيّاً ( عليه السلام ) قَضَى فِي عَيْنِ دَابَّةٍ رُبُعَ الثَّمَنِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+          "name_en": "A number of our companions",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 6
+        },
+        {
+          "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+          "name_en": "Sahl ibn Ziyad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 8
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ الْحَسَنِ بْنِ شَمُّونٍ",
+          "name_en": "Muhammad ibn al-Hasan ibn Shammun",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 121
+        },
+        {
+          "name_ar": "عَبْدِ اللَّهِ بْنِ عَبْدِ الرَّحْمَنِ الْأَصَمِّ",
+          "name_en": "Abdullah ibn Abd al-Rahman al-Asamm",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 272
+        },
+        {
+          "name_ar": "مِسْمَعٍ",
+          "name_en": "Mis'man",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 199
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّ عَلِيّاً ( عليه السلام ) قَضَى",
+          "name_en": "Abi 'Abd Allah",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

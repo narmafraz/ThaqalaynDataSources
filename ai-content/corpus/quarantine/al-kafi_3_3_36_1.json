@@ -1,0 +1,283 @@
+{
+  "verse_path": "/books/al-kafi:3:3:36:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] type='body' starts with chain transmission verb 'روي' — likely mis-typed isnad content",
+    "chunks[2] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "afterlife",
+      "family"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "death_dying",
+      "imams_biography",
+      "paradise_hell",
+      "ritual_purity"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "سَهْلُ بْنُ زِيَادٍ قَالَ",
+        "translations": {
+          "en": "Sahl ibn Ziyad said,",
+          "ur": "سہل بن زیاد نے کہا",
+          "tr": "Sahl b. Ziyad dedi: Ziyad",
+          "fa": "سَهْلُ بْنُ زِيَادٍ قَالَ",
+          "id": "Sahl ibn Ziyad berkata,",
+          "bn": "সহল ইবনে জিয়াদ (রহ.) বলেন,",
+          "es": "Sahl ibn Ziyad dijo:",
+          "fr": "Sahl ibn Ziyad a dit :",
+          "de": "Sahl ibn Ziyad sagte:",
+          "ru": "Сахль ибн Зияд сказал:",
+          "zh": "赛勒·本·齐亚德说，"
+        },
+        "word_start": 0,
+        "word_end": 4
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "رَوَى أَصْحَابُنَا أَنَّ حَدَّ الْقَبْرِ إِلَى التَّرْقُوَةِ وَ قَالَ بَعْضُهُمْ إِلَى الثَّدْيِ وَ قَالَ بَعْضُهُمْ قَامَةِ الرَّجُلِ حَتَّى يُمَدَّ الثَّوْبُ عَلَى رَأْسِ مَنْ فِي الْقَبْرِ وَ أَمَّا اللَّحْدُ فَبِقَدْرِ مَا يُمْكِنُ فِيهِ الْجُلُوسُ",
+        "translations": {
+          "en": "Our companions reported that the limit of the grave is up to the clavicle, and some of them said, up to the chest, and some said, the height of the man, until the cloth is extended over the head of the one in the grave. As for the sepulchre (lahd), it is of a measurement of what is possible to sit in.",
+          "ur": "ہمارے ساتھیوں نے روایت کیا کہ قبر کی حد تک کلائی تک ہے، اور ان میں سے کچھ نے کہا کہ سینے تک، اور کچھ نے کہا کہ آدمی کی قد تک، جب تک کہ کفن سر پر والے پر پھیلایا جائے۔ جبکہ لحد کی پیمائش اتنی ہوتی ہے جتنی بیٹھنے میں ممکن ہو۔",
+          "fa": "همایان ما گزارش کردند که حد قبر تا استخوان ترقوه است و برخی از آنان گفتند تا سینه و برخی گفتند به اندازه قد مرد، تا آنکه پارو بر سر مدفون کشیده شود. اما درباره لحد، آن به اندازه‌ای است که بتوان در آن نشست.",
+          "id": "Para sahabat kami meriwayatkan bahwa batas liang kubur adalah hingga tulang selangka, dan sebagian mereka mengatakan hingga dada, dan sebagian lagi mengatakan setinggi badan manusia, hingga kain direntangkan menutupi kepala orang yang berada di dalam kubur. Adapun lahd (liang kubur yang lebih dalam), ukurannya adalah sebesar yang memungkinkan untuk duduk di dalamnya.",
+          "bn": "আমাদের সহচরগণ বর্ণনা করেছেন যে, কবরের সীমা ক্ল্যাবিকেল পর্যন্ত, এবং তাদের মধ্যে কেউ কেউ বলেছেন, বুকের পর্যন্ত, এবং কেউ কেউ বলেছেন, মানুষের উচ্চতা পর্যন্ত, যতক্ষণ না কবরস্থ ব্যক্তির মাথার উপর কাপড় বিছানো হয়। আর লাহদ (কবরের গভীর অংশ) এর পরিমাপ হলো যতটুকু সম্ভব বসে থাকার মতো।",
+          "es": "Nosotros, los compañeros, informaron que el límite de la fosa es hasta la clavícula, y algunos de ellos dijeron que es hasta el pecho, y otros dijeron que es la altura del hombre, hasta que la tela se extienda sobre la cabeza del que está en la fosa. En cuanto al sepulcro (lahd), su medida es la que permite sentarse.",
+          "fr": "Nos compagnons ont rapporté que la limite de la tombe s'étend jusqu'à la clavicule, certains ont dit jusqu'à la poitrine, et d'autres ont dit la hauteur de l'homme, jusqu'à ce que le linceul soit étendu sur la tête de celui qui est dans la tombe. Quant à la lahd (sepulchre), elle est de la mesure de ce dans quoi on peut s'asseoir.",
+          "de": "Unsere Gefährten berichteten, dass die Tiefe des Grabes bis zum Schlüsselbein reicht, und einige von ihnen sagten, bis zur Brust, und andere sagten, bis zur Körpergröße des Mannes, bis das Tuch über dem Kopf des im Grab Liegenden ausgebreitet ist. Was das Sepulkre (lahd) betrifft, so ist es so groß, wie man hineinsitzen kann.",
+          "ru": "Наши сподвижники передали, что предел могилы достигает ключицы, а некоторые из них сказали: до груди, а другие сказали: до роста человека, пока ткань не накроет голову находящегося в могиле. Что касается лахда (углубления в земле), то его размер соответствует тому, сколько места нужно, чтобы можно было сидеть.",
+          "zh": "我们的同伴们报告说，坟墓的深度达到锁骨，其中一些人说达到胸部，另一些人说达到人的身高，直到布覆盖在墓中人的头上。至于墓穴（lahd），其尺寸以能容纳人坐下为宜。",
+          "tr": ""
+        },
+        "word_start": 4,
+        "word_end": 37
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ وَ لَمَّا حَضَرَ عَلِيَّ بْنَ الْحُسَيْنِ ( عليه السلام ) الْوَفَاةُ أُغْمِيَ عَلَيْهِ فَبَقِيَ سَاعَةً ثُمَّ رُفِعَ عَنْهُ الثَّوْبُ ثُمَّ قَالَ الْحَمْدُ لِلَّهِ الَّذِي أَوْرَثَنَا الْجَنَّةَ نَتَبَوَّأُ مِنْهَا حَيْثُ نَشَاءُ فَنِعْمَ أَجْرُ الْعَامِلِينَ",
+        "translations": {
+          "en": "He said, and when death presented itself to Ali ibn al-Husayn (peace be upon him), unconsciousness came over him, then he remained for an hour. Then the cloth was raised from him, then he said: 'The Praise is for Allah Who made us inheritors of Paradise, so we can dwell in it wherever we desire. Thus, the best of the Recompense is for the workers.'",
+          "ur": "انہوں نے کہا، اور جب علی ابن الحسین (علیہ السلام) کے پاس موت حاضر ہوئی تو ان پر بے ہوشی چھا گئی، پھر وہ ایک گھنٹہ تک ایسے ہی رہے۔ پھر ان پر سے کپڑا ہٹایا گیا، پھر انہوں نے کہا: 'تعریف اللہ کے لیے ہے جس نے ہمیں جنت کے وارث بنایا، تاکہ ہم اس میں جہاں چاہیں رہ سکیں۔ پس بہترین بدلہ تو عمل کرنے والوں کے لیے ہے۔'",
+          "tr": "Dedi ki: Ölüm Ali b. el-Hüseyin'e (aleyhisselam) geldiğinde, baygınlık kapladı, sonra bir saat kadar kaldı. Üzerindeki örtü kaldırıldı, sonra şöyle dedi: 'Övgü, bizi Cennetin varisleri kılan Allah'a aittir, böylece istediğimiz yerde onda ikamet edebiliriz. İşte en iyi mükâfat, ameli olanlara içindir.'",
+          "fa": "گفت: و هنگامی که مرگ در پیش روی علی بن الحسین (علیه السلام) قرار گرفت، بیهوشی بر او غلبه کرد، سپس یک ساعت به سر برد. سپس پارچه از او برداشته شد، سپس گفت: ستایش خدای را که ما را وارثان بهشت قرار داد تا در هر جا که بخواهیم در آن ساکن شویم. پس بهترین پاداش برای کارکنان است.",
+          "id": "Ia berkata, dan ketika kematian menghadap Ali bin al-Husain (alamah), kesadarannya hilang, lalu ia tetap dalam keadaan itu selama satu jam. Kemudian kain yang menutupinya diangkat, lalu ia berkata: 'Segala puji bagi Allah yang menjadikan kami ahli waris surga, sehingga kami dapat menetap di dalamnya di mana pun kami kehendaki. Dengan demikian, pahala yang terbaik adalah bagi para pekerja.'",
+          "bn": "তিনি বললেন, এবং যখন আলী ইবনে হুসাইন (আলৈহিস সালাম)-এর নিকট মৃত্যু উপস্থিত হলো, তখন অজ্ঞানতা তাঁর উপর আবির্ভূত হলো, অতঃপর তিনি এক ঘণ্টা অবস্থান করলেন। অতঃপর তাঁর উপর থেকে চাদর সরিয়ে নেওয়া হলো, অতঃপর তিনি বললেন: 'সব প্রশংসা আল্লাহর জন্য, যিনি আমাদের জান্নাতের উত্তরাধিকারী করেছেন, তাই আমরা এখানে যেখানে ইচ্ছা বাস করতে পারি। সুতরাং, সেরা প্রতিদান কর্মীদের জন্যই রয়েছে।'",
+          "es": "Dijo: Y cuando la muerte se presentó a Ali ibn al-Husayn (que la paz sea con él), le sobrevino el desmayo, y permaneció así durante una hora. Luego le retiraron el paño, y dijo: «La alabanza pertenece a Allah, Quien nos ha hecho herederos del Paraíso, para que habitemos en él donde queramos. Así, lo mejor de la Recompensa es para los que obran.»",
+          "fr": "Il dit : « Et lorsque la mort se présenta à Ali ibn al-Husayn (que la paix soit sur lui), l’inconscience s’empara de lui, puis il demeura une heure. Ensuite, le voile fut soulevé de lui, puis il dit : « La louange est à Allah qui nous a fait héritiers du Paradis, afin que nous y résidions où nous le souhaitons. Ainsi, la meilleure des récompenses est pour ceux qui œuvrent. »",
+          "de": "Er sagte: Und als der Tod sich Ali ibn al-Husayn (Fusayn (friede sei mit ihm) darbot, überkam ihn das Bewusstseinsverlust, dann blieb er eine Stunde lang. Dann wurde das Tuch von ihm gehoben, dann sagte er: 'Das Lob gebührt Allah, Der uns zu Erben des Paradieses gemacht hat, damit wir darin wohnen können, wo immer wir wünschen. So ist das Beste der Vergütung für die Arbeiter.'",
+          "ru": "Он сказал: «Когда смерть предстала перед Али ибн аль-Хусейном (да будет над ним мир), его охватил обморок, и он оставался в таком состоянии час. Затем с него сняли покрывало, и он сказал: „Хвала Аллаху, Который сделал нас наследниками Рая, чтобы мы могли обитать в нём, где пожелаем. Ибо наилучшее воздаяние — для трудящихся“.",
+          "zh": "他说，当死亡降临到阿里·本·侯赛因（愿主福安之）时），他陷入昏迷，随后停留了一个小时。然后，盖在他身上的布被掀开，他说：‘赞美归于真主，祂使我们成为天堂的继承者，使我们能在其中随心所欲地居住。因此，最好的报酬是给予工作者的。’"
+        },
+        "word_start": 37,
+        "word_end": 71
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ احْفِرُوا لِي وَ ابْلُغُوا إِلَى الرَّشْحِ قَالَ ثُمَّ مُدَّ الثَّوْبُ عَلَيْهِ فَمَاتَ ( عليه السلام )",
+        "translations": {
+          "en": "Then he said: 'Dig for me and reach the sprinkling (of water).' He said, then the sheet was pulled over him, and he passed away (peace be upon him).",
+          "ur": "پھر انہوں نے کہا: میرے لیے کھودو اور چھینٹے (پانی) تک پہنچو۔ پھر انہوں نے کہا، اور اس پر چادر ڈال دی گئی، اور وہ انتقال کر گئے (صلی اللہ علیہ وسلم)۔",
+          "tr": "Sonra şöyle dedi: 'Bana suyun sıçradığı yere kadar kaz.' O da dedi, sonra üzerindeki örtü çekildi ve vefat etti (aleyhisselam).",
+          "fa": "سپس فرمود: برای من بکنید و به پاشیدن آب برسید. سپس فرمود، و بر او پتو کشیده شد و از دنیا رفت (صلی الله علیه و آله وسلم).",
+          "id": "Lalu ia berkata, 'Gali untukku hingga mencapai cipratan (air).' Ia berkata, lalu selimut ditarik menutupinya, dan ia pun wafat (semoga Allah memberkati dan memberinya salam).",
+          "bn": "অতঃপর তিনি বললেন: 'আমার জন্য খনন করো এবং পানির ছিটা (প্রদান) পর্যন্ত পৌঁছাও।' তিনি বললেন, অতঃপর তাঁর উপর চাদর টেনে দেওয়া হলো এবং তিনি ইন্তেকাল করলেন (আলৈহিস সালাম).",
+          "es": "Luego dijo: 'Cava para mí y alcanza el rociado (de agua)'. Dijo, entonces se le cubrió con una sábana y falleció (que la paz sea con él).",
+          "fr": "text\": ",
+          "de": "Dann sagte er: 'Grabt für mich und erreicht das Besprengen (mit Wasser).' Er sagte, dann wurde das Tuch über ihn gezogen, und er verstarb (Friede sei mit ihm).",
+          "ru": "Затем он сказал: «Выкопайте для меня и достигните разбрызгивания (воды)». Он сказал, затем простыня была покрыта им, и он скончался (да будет над ним мир).",
+          "zh": "随后他说：‘为我挖掘，直至触及洒水之处。’他说罢，尸布被覆于其身，他便归真了（愿主福安之）。"
+        },
+        "word_start": 71,
+        "word_end": 89
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith details the jurisprudential dimensions for the grave pit (qabr) and its side niche (lahd), reflecting scholarly diversity in measuring depth from the collarbone to the full stature. It culminates in the death of Imam Ali ibn al-Husayn (Zayn al-Abidin), whose final instruction to dig to the 'rashh' (sweat/forehead) and his recitation of 'We will occupy it from where we wish' underscores the Shia belief in the immediate accessibility of Paradise for the righteous.",
+        "seo_question": "What are the prescribed dimensions for a grave and sepulchre in Shia fiqh, and how did Imam Ali ibn al-Husayn prepare for his death?",
+        "key_terms": {
+          "الْقَبْر": "The grave pit",
+          "التَّرْقُوَة": "The clavicle/collarbone",
+          "اللَّحْد": "The sepulchre or side niche in the grave",
+          "الْوَفَاة": "Death/passing away",
+          "الرَّشْح": "Sprinkling (water on the grave)"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث قبر اور اس کے جانبی محفر (لحد) کے فقہی پہلوؤں کی تفصیل بیان کرتی ہے، جو کہ کلائ سے لے کر مکمل قد تک کی گہرائی کی پیمائش میں علما کے اختلاف کو ظاہر کرتی ہے۔ یہ امام علی ابن الحسین (زین العابدین) کی وفات پر ختم ہوتی ہے، جنہوں نے قبر کھودنے کا آخری حکم 'رشح' (پسینہ/جہاں پسینہ آئے) تک دیا اور 'ہم اسی جگہ سے قبضہ کریں گے جہاں سے چاہیں گے' کی تلاوت کی، جو شیعہ عقیدے کی عکاسی کرتا ہے کہ نیک لوگوں کے لیے جنت کی فوری رسائی ممکن ہے۔",
+        "seo_question": "شیعہ فقہ میں قبر اور محفر کے مقررہ ابعاد کیا ہیں، اور امام علی ابن الحسین نے اپنی موت کی تیاری کیسے کی؟",
+        "key_terms": {
+          "الْقَبْر": "قبر",
+          "التَّرْقُوَة": "کلائی",
+          "اللَّحْد": "لحد",
+          "الْوَفَاة": "وفات",
+          "الرَّشْح": "پسینہ"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, kabir çukurunun (qabr) ve yan nişinin (lahd) fihi boyutlarını, derinliğin köprücük kemiğinden tam boyuna kadar ölçülmesindeki ilmi çeşitliliği detaylandırır. İmam Ali b. el-Hüseyin'in (Zeynü'l-Abidin) vefatıyla sonuçlanır; 'terekki' (ter/forehead) kadar kazımayı ve 'Nereyi istesek onu işgal edeceğiz' ayetini okumasını içeren son talimatı, Şii inancında salihler için Cennet'in hemen erişilebilir olduğunu vurgular.",
+        "seo_question": "Şii fıkhında kabir ve lahdin belirlenmiş boyutları nelerdir ve İmam Ali b. el-Hüseyin ölümüne nasıl hazırlanmıştır?",
+        "key_terms": {
+          "الْقَبْر": "Mezar çukuru",
+          "التَّرْقُوَة": "Köprücük kemiği",
+          "اللَّحْد": "Lahd",
+          "الْوَفَاة": "Vefat",
+          "الرَّشْح": "Terekki"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث ابعاد فقهی گور (قبر) و کنده‌شده کناری آن (لحد) را با جزئیات بیان می‌کند که تنوع دیدگاه‌های علمایی را در اندازه‌گیری عمق از استخوان ترقوه تا قد کامل نشان می‌دهد. این روایت با وفات امام علی بن الحسین (زین‌العابدین) به اوج می‌رسد؛ که دستور نهایی او برای حفر گور تا سطح «رَشْح» (عرق/پیشانی) و تلاوت آیه «وَنَحْنُ نَأْخُذُهَا مِنْ حَيْثُ نَشَاءُ» (و ما آن را از هر جا که بخواهیم تصرف می‌کنیم) بر باور شیعه درباره دسترسی فوری بهشت برای پرهیزکاران تأکید دارد.",
+        "seo_question": "ابعاد مقرر برای گور و مقبره در فقه شیعه چیست و امام علی بن الحسین چگونه خود را برای وفات آماده کرد؟",
+        "key_terms": {
+          "الْقَبْر": "گور",
+          "التَّرْقُوَة": "استخوان ترقوه",
+          "اللَّحْد": "لحد",
+          "الْوَفَاة": "وفات",
+          "الرَّشْح": "رَشْح"
+        }
+      },
+      "id": {
+        "summary": "Hadis ini merinci dimensi fikih untuk liang lahat (qabr) dan ceruk sampingnya (lahd), mencerminkan keragaman ulama dalam mengukur kedalaman dari tulang selangka hingga tinggi penuh. Hadis ini berakhir dengan wafatnya Imam Ali ibn al-Husayn (Zayn al-Abidin), yang instruksi terakhirnya untuk menggali hingga 'rashh' (keringat/dahi) dan bacaannya 'Kami akan mendudukinya dari mana saja yang kami kehendaki' menegaskan keyakinan Syiah tentang akses segera ke surga bagi orang-orang saleh.",
+        "seo_question": "Apa dimensi yang ditetapkan untuk liang lahat dan kuburan dalam fikih Syiah, dan bagaimana Imam Ali ibn al-Husayn mempersiapkan kematian?",
+        "key_terms": {
+          "الْقَبْر": "liang lahat",
+          "التَّرْقُوَة": "tulang selangka",
+          "اللَّحْد": "ceruk samping",
+          "الْوَفَاة": "kematian",
+          "الرَّشْح": "percikan"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে কবরের গর্ত (কবর) এবং এর পার্শ্বস্থ নিশ (লাহদ)-এর ফিকহী মাত্রাগুলো বিস্তারিতভাবে বর্ণনা করা হয়েছে, যেখানে কলজের থেকে পূর্ণ উচ্চতা পর্যন্ত গভীরতা পরিমাপে বিদ্বানদের মধ্যে মতভেদ দেখা যায়। এটি ইমাম আলী ইবনে আল-হুসাইন (যিনুল আবিদীন)-এর মৃত্যুতে উপনীত হয়, যার শেষ নির্দেশনা ছিল 'রশ্‌হ' (ঘাম/মাথা) পর্যন্ত খোঁটা এবং তিনি 'আমরা যেখানে ইচ্ছা করব সেখান থেকে এতে প্রবেশ করব' (আহকুমুহা) আয়াতটি পাঠ করেছিলেন, যা সৎকর্মশীলদের জন্য জান্নাতের তাৎক্ষণিক প্রাপ্যতা সম্পর্কে শিয়া বিশ্বাসকে তুলে ধরে।",
+        "seo_question": "শিয়া ফিকহে কবর এবং সাফিনার নির্ধারিত মাত্রাগুলো কী কী, এবং ইমাম আলী ইবনে আল-হুসাইন কীভাবে তার মৃত্যুর প্রস্তুতি নেন?",
+        "key_terms": {
+          "الْقَبْر": "কবরের গর্ত",
+          "التَّرْقُوَة": "কলজ বা ঘাড়ের হাড়",
+          "اللَّحْد": "কবরের পার্শ্বস্থ নিশ বা সাফিনা",
+          "الْوَفَاة": "মৃত্যু বা দেহান্ত",
+          "الرَّشْح": "ঘাম বা কপাল"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz detalla las dimensiones jurisprudenciales de la fosa sepulcral (qabr) y su nicho lateral (lahd), reflejando la diversidad erudita en la medición de la profundidad desde la clavícula hasta la estatura completa. Culmina con la muerte del Imam Ali ibn al-Husayn (Zayn al-Abidin), cuya última instrucción de cavar hasta el 'rashh' (sudor/frente) y su recitación de 'Ocuparemos el lugar desde donde deseemos' subrayan la creencia chií en la accesibilidad inmediata del Paraíso para los justos.",
+        "seo_question": "¿Cuáles son las dimensiones prescritas para una tumba y sepulcro en la jurisprudencia chií (fiqh), y cómo se preparó el Imam Ali ibn al-Husayn para su muerte?",
+        "key_terms": {
+          "الْقَبْر": "La fosa sepulcral",
+          "التَّرْقُوَة": "La clavícula",
+          "اللَّحْد": "El nicho lateral en la tumba",
+          "الْوَفَاة": "Muerte",
+          "الرَّشْح": "Rociar"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith détaille les dimensions jurisprudentielles de la fosse de la tombe (qabr) et de sa niche latérale (lahd), reflétant la diversité savante dans la mesure de la profondeur depuis la clavicule jusqu'à la stature complète. Il culmine avec la mort de l'Imam Ali ibn al-Husayn (Zayn al-Abidin), dont l'instruction finale de creuser jusqu'au 'rashh' (sueur/front) et sa récitation de « Nous l'occuperons d'où nous voudrons » soulignent la croyance chiite en l'accessibilité immédiate du Paradis pour les vertueux.",
+        "seo_question": "Quelles sont les dimensions prescrites pour une tombe et un sépulchre dans le fiqh chiite, et comment l'Imam Ali ibn al-Husayn s'est-il préparé à sa mort ?",
+        "key_terms": {
+          "الْقَبْر": "La fosse de la tombe",
+          "التَّرْقُوَة": "La clavicule",
+          "اللَّحْد": "Le sépulchre ou la niche latérale dans la tombe",
+          "الْوَفَاة": "La mort",
+          "الرَّشْح": "L'aspersion (eau sur la tombe)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith beschreibt die juristischen Dimensionen der Grabgrube (qabr) und ihrer seitlichen Nische (lahd) und spiegelt die Vielfalt der Gelehrten bei der Messung der Tiefe vom Schlüsselbein bis zur vollen Körpergröße wider. Es gipfelt im Tod von Imam Ali ibn al-Husayn (Zayn al-Abidin), dessen letzte Anweisung, bis zur ‚Rashh‘ (Schweiß/Stirn) zu graben, und sein Rezitieren von ‚Wir werden es von dort besetzen, wo wir wollen‘, unterstreicht den schiitischen Glauben an die unmittelbare Zugänglichkeit des Paradieses für die Gerechten.",
+        "seo_question": "Welche sind die vorgeschriebenen Dimensionen für ein Grab und einen Sarg im schiitischen Fiqh, und wie bereitete sich Imam Ali ibn al-Husayn auf seinen Tod vor?",
+        "key_terms": {
+          "الْقَبْر": "Die Grabgrube",
+          "التَّرْقُوَة": "Das Schlüsselbein",
+          "اللَّحْد": "Die seitliche Nische im Grab",
+          "الْوَفَاة": "Der Tod",
+          "الرَّشْح": "Berieselung"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе подробно рассматриваются правовые аспекты могилы (кабр) и боковой ниши в ней (лахд), отражая разнообразие мнений ученых в отношении измерения глубины от ключицы до полного роста. Завершается он смертью имама Али ибн аль-Хусайна (Зайн аль-Абидина), чья последняя инструкция вырыть могилу до уровня «рашха» (пот/лоб) и его чтение аята «Мы займем его с того места, откуда пожелаем» подчеркивают шиитскую веру в немедленную доступность Рая для праведников.",
+        "seo_question": "Каковы предписанные размеры могилы и саркофага в шиитском фикхе, и как имам Али ибн аль-Хусайн подготовился к своей смерти?",
+        "key_terms": {
+          "الْقَبْر": "могильная яма",
+          "التَّرْقُوَة": "ключица",
+          "اللَّحْد": "саркофаг или боковая ниша в могиле",
+          "الْوَفَاة": "смерть",
+          "الرَّشْح": "опрыскивание"
+        }
+      },
+      "zh": {
+        "summary": "这段圣训详细阐述了墓穴（qabr）及其侧龛（lahd）的法学维度，反映了学者们在从锁骨到全身高度测量深度方面的多样性。它以伊玛目阿里·本·侯赛因（宰因·阿比丁）的逝世为终结，他临终前指示挖掘至‘rashh’（汗水/前额），并诵读‘我们将按自己的意愿占据它’，强调了什叶派关于义人可立即进入天堂的信念。",
+        "seo_question": "什叶派教法中墓穴和墓室的法定尺寸是多少，伊玛目阿里·本·侯赛因是如何为逝世做准备的？",
+        "key_terms": {
+          "الْقَبْر": "墓穴",
+          "التَّرْقُوَة": "锁骨",
+          "اللَّحْد": "墓侧龛",
+          "الْوَفَاة": "逝世",
+          "الرَّشْح": "洒水"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:185",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:73",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:74",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "سَهْلُ بْنُ زِيَادٍ قَالَ رَوَى أَصْحَابُنَا أَنَّ حَدَّ الْقَبْرِ إِلَى التَّرْقُوَةِ وَ قَالَ بَعْضُهُمْ إِلَى الثَّدْيِ وَ قَالَ بَعْضُهُمْ قَامَةِ الرَّجُلِ حَتَّى يُمَدَّ الثَّوْبُ عَلَى رَأْسِ مَنْ فِي الْقَبْرِ وَ أَمَّا اللَّحْدُ فَبِقَدْرِ مَا يُمْكِنُ فِيهِ الْجُلُوسُ قَالَ وَ لَمَّا حَضَرَ عَلِيَّ بْنَ الْحُسَيْنِ ( عليه السلام ) الْوَفَاةُ أُغْمِيَ عَلَيْهِ فَبَقِيَ سَاعَةً ثُمَّ رُفِعَ عَنْهُ الثَّوْبُ ثُمَّ قَالَ الْحَمْدُ لِلَّهِ الَّذِي أَوْرَثَنَا الْجَنَّةَ نَتَبَوَّأُ مِنْهَا حَيْثُ نَشَاءُ فَنِعْمَ أَجْرُ الْعَامِلِينَ ثُمَّ قَالَ احْفِرُوا لِي وَ ابْلُغُوا إِلَى الرَّشْحِ قَالَ ثُمَّ مُدَّ الثَّوْبُ عَلَيْهِ فَمَاتَ ( عليه السلام )",
+    "isnad_matn": {
+      "isnad_ar": "سَهْلُ بْنُ زِيَادٍ قَالَ",
+      "matn_ar": "رَوَى أَصْحَابُنَا أَنَّ حَدَّ الْقَبْرِ إِلَى التَّرْقُوَةِ وَ قَالَ بَعْضُهُمْ إِلَى الثَّدْيِ وَ قَالَ بَعْضُهُمْ قَامَةِ الرَّجُلِ حَتَّى يُمَدَّ الثَّوْبُ عَلَى رَأْسِ مَنْ فِي الْقَبْرِ وَ أَمَّا اللَّحْدُ فَبِقَدْرِ مَا يُمْكِنُ فِيهِ الْجُلُوسُ قَالَ وَ لَمَّا حَضَرَ عَلِيَّ بْنَ الْحُسَيْنِ ( عليه السلام ) الْوَفَاةُ أُغْمِيَ عَلَيْهِ فَبَقِيَ سَاعَةً ثُمَّ رُفِعَ عَنْهُ الثَّوْبُ ثُمَّ قَالَ الْحَمْدُ لِلَّهِ الَّذِي أَوْرَثَنَا الْجَنَّةَ نَتَبَوَّأُ مِنْهَا حَيْثُ نَشَاءُ فَنِعْمَ أَجْرُ الْعَامِلِينَ ثُمَّ قَالَ احْفِرُوا لِي وَ ابْلُغُوا إِلَى الرَّشْحِ قَالَ ثُمَّ مُدَّ الثَّوْبُ عَلَيْهِ فَمَاتَ ( عليه السلام )",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "سهل بن زياد",
+          "name_en": "Sahl ibn Ziyad",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 8
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "الْحَمْدُ لِلَّهِ",
+        "phrase_en": "All praise is due to Allah",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

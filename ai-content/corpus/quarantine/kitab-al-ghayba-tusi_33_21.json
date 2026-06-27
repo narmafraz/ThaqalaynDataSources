@@ -1,0 +1,251 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:33:21",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-23",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 33 words (>14, بن-density 0.03 — likely a sentence fragment, not a name): 'فأما القائلون بأن الحسن بن علي لم يمت وهو حي باق وهو المهدي '"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "history"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "imamate",
+      "imams_biography",
+      "death_dying"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "فَأَمَّا الْقَائِلُونَ بِأَنَّ الْحَسَنَ بْنَ عَلِيٍّ لَمْ يَمْتْ وَهُوَ حَيٌّ بَاقٌ وَهُوَ الْمَهْدِيّ",
+        "translations": {
+          "en": "As for those who say that Al-Hasan ibn Ali (peace be upon him) did not die and that he is alive and remaining, and he is the Mahdi,",
+          "ur": "تو ان لوگوں کے بارے میں جو کہتے ہیں کہ حسن بن علی (رضی اللہ عنہ) کی موت نہیں ہوئی اور وہ زندہ ہیں اور باقی ہیں، اور وہی مہدی ہیں،",
+          "tr": "Öyleyse, Hasan ibn Ali'nin (ra) ölmediğini ve hayatta kaldığını, o Mehdi'dir diyenlerin sözü, babalarından öncekilerin öldüğünü bildiğimiz gibi, onun da öldüğünü bildiğimizle batıldır. Yöntem bir ve onlara karşı söylenen söz birdir. Bu, onu söyleyenlerin azlığı ve yok oluşlarına rağmen, eğer haklı olsalardı, yok olmazlardı. Ayrıca, onun vefatının doğruluğuna da delil olur:",
+          "fa": "وأمّا القائلون بأن الحسن بن علي (صلى الله عليه وسلم) لم يمت وهو حيّ باقٍ وهو المهدي،",
+          "id": "Adapun orang-orang yang mengatakan bahwa Al-Hasan ibn Ali (shallallahu 'alaihi wa sallam) tidak mati dan ia masih hidup serta tetap ada, dan dialah Al-Mahdi,",
+          "bn": "যারা বলেন যে আল-হাসান ইবনে আলী (রহ.) মৃত্যুবরণ করেননি এবং তিনি জীবিত ও অবস্থিত, এবং তিনিই মহদী, ",
+          "es": "En cuanto a los que dicen que Al-Hasan ibn Ali (que fue el Mahdi, su dicho es falso, al igual que sabemos de su muerte, como sabemos la muerte de sus antecesores. Y el método es uno y el discurso sobre ellos es uno. Esto, además de que la destrucción de los que dicen de él y su desaparición, si hubieran sido verídicos, no se habrían extinguido. Y también indica la veracidad de su muerte:",
+          "fr": "Quant à ceux qui disent qu'Al-Hasan ibn Ali (que la paix soit sur lui) n'est pas mort et qu'il est vivant et subsistant, et qu'il est le Mahdi,",
+          "de": "Was diejenigen betrifft, die sagen, dass Al-Hasan ibn Ali (Friede sei mit ihm) nicht gestorben ist und dass er am Leben ist und verbleibt, und dass er der Mahdi ist,",
+          "ru": "Что касается тех, кто говорит, что аль-Хасан ибн Али (да будет доволен им Аллах) не умер и что он жив и пребывает, и он является Махди,",
+          "zh": "至于那些说哈桑·本·阿里（愿主喜悦之）未死且仍活着，并且他是马赫迪的人，"
+        },
+        "word_start": 0,
+        "word_end": 13
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَوْلُهُمْ بَاطِلٌ بِمَا عَلِمْنَا مَوْتَهُ كَمَا عَلِمْنَا مَوْتَ مَنْ تَقَدَّمَ مِنْ آبَائِهِ. وَالطَّرِيقَةُ وَاحِدَةٌ وَالْكَلَامُ عَلَيْهِمْ وَاحِدٌ.",
+        "translations": {
+          "en": "their statement is invalid based on what we know of his death, just as we know the death of those ancestors who preceded him. The method [of argument] is one, and the discourse regarding them is one.",
+          "ur": "ان کا قول اس بات کی بنیاد پر باطل ہے کہ ہمیں اس کی موت کا علم ہے، جیسے ہمیں ان اجداد کی موت کا علم ہے جو اس سے پہلے تھے۔ طریقہ ایک ہے اور ان کے بارے میں بحث بھی ایک ہے۔",
+          "tr": "Onların ifadesi, ölümünü bildiğimiz gibi, ondan önce gelen ataların ölümünü bildiğimiz şekilde geçersizdir. Yöntem birdir ve onlar hakkında yapılan tartışma da birdir.",
+          "fa": "قولشان بر اساس آنچه از وفات او می‌دانیم، باطل است، همان‌گونه که از وفات آن پدران پیشین آگاهیم. روش [استدلال] یکی است و گفتار درباره‌ی آنان یکی است.",
+          "id": "Pernyataan mereka batal berdasarkan apa yang kita ketahui tentang kematiannya, sebagaimana kita mengetahui kematian para leluhur yang mendahuluinya. Metode [argumentasi] itu satu, dan pembahasan mengenai mereka itu satu.",
+          "bn": "তাদের বক্তব্য অবৈধ, আমাদের জানা মৃত্যুর বিষয়ে, ঠিক যেমন আমরা জানি তাঁর পূর্ববর্তী পূর্বপুরুষদের মৃত্যু সম্পর্কে। যুক্তির পদ্ধতি একই, এবং তাদের সম্পর্কে আলোচনাও একই।",
+          "es": "Su afirmación es inválida en base a lo que sabemos sobre su muerte, al igual que conocemos la muerte de aquellos antepasados que lo precedieron. El método [de argumentación] es uno, y el discurso respecto a ellos es uno.",
+          "fr": "Leur affirmation est invalide, à la lumière de ce que nous savons de sa mort, tout comme nous connaissons la mort de ces ancêtres qui l'ont précédé. La méthode [d'argumentation] est une seule, et le discours les concernant est un seul.",
+          "de": "Ihre Aussage ist ungültig, basierend auf dem, was wir über seinen Tod wissen, ebenso wie wir den Tod der vor ihm lebenden Vorfahren kennen. Die Methode [der Argumentation] ist dieselbe, und die Auseinandersetzung mit ihnen ist dieselbe.",
+          "ru": "Их утверждение недействительно, исходя из того, что нам известно о его смерти, точно так же, как нам известно о смерти тех предшествовавших ему предков. Метод [доказательства] один, и речь о них одна.",
+          "zh": "他们的陈述无效，基于我们所知的他的死亡，正如我们所知那些在他之前去世的那些祖先的死亡。方法[论证]是相同的，关于他们的论述也是相同的。"
+        },
+        "word_start": 13,
+        "word_end": 30
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "هَذَا مَعَ أَنَّ قُرَاضَ الْقَائِلِينَ بِهِ وَانْدِرَاسَهُمْ، وَلَوْ كَانُوا مُحِقِّينَ لَمَا انْقَرَضُوا.",
+        "translations": {
+          "en": "This, in addition to the fact that the number of those who hold this belief has diminished and worn out; and if they had been correct, they would not have disappeared.",
+          "ur": "یہ اس حقیقت کے علاوہ ہے کہ ان لوگوں کی تعداد جو اس عقیدے کے حامل ہیں، کم ہو گئی ہے اور ختم ہو چکی ہیں؛ اور اگر وہ درست ہوتے تو غائب نہ ہوتے۔",
+          "tr": "Bu, bu inanca sahip olanların sayısının azalıp tükendiği gerçeğinin yanı sıra; eğer doğru olsalardı, ortadan kaybolmazlardı.",
+          "fa": "این، علاوه بر اینکه تعداد کسانی که به این باور دارند کاهش یافته و فرسوده شده‌اند؛ و اگر درست بودند، از بین نمی‌رفتند.",
+          "id": "Hal ini, selain fakta bahwa jumlah orang yang memegang keyakinan ini telah berkurang dan habis; dan jika mereka benar, mereka tidak akan menghilang.",
+          "bn": "এই বিষয়টি, এছাড়াও এই সত্য যে, এই বিশ্বাসী লোকদের সংখ্যা হ্রাস পেয়েছে এবং তারা ক্ষয়প্রাপ্ত হয়েছে; এবং যদি তারা সঠিক হতো, তবে তারা বিলুপ্ত হতো না।",
+          "es": "Esto, además de que el número de quienes sostienen esta creencia ha disminuido y se ha desgastado; y si hubieran tenido razón, no habrían desaparecido.",
+          "fr": "Cela, outre le fait que le nombre de ceux qui partagent cette croyance a diminué et s'est usé ; et s'ils avaient eu raison, ils ne se seraient pas éteints.",
+          "de": "Dies, zusätzlich zu der Tatsache, dass die Zahl derer, die diesen Glauben vertreten, abgenommen und sich abgenutzt hat; und wenn sie recht gehabt hätten, wären sie nicht verschwunden.",
+          "ru": "Это, помимо того факта, что число тех, кто придерживается этого убеждения, уменьшилось и износилось; и, если бы они были правы, они бы не исчезли.",
+          "zh": "此外，持有此信念的人数已减少并式微；若他们正确，便不会消失。"
+        },
+        "word_start": 30,
+        "word_end": 42
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَيَدُلّ أَيْضًا عَلَى صِحَّةِ وَفَاتِهِ:",
+        "translations": {
+          "en": "And it also indicates the validity of his passing away:",
+          "ur": "اور یہ اس سے اس کی وفات کی صحت بھی واضح ہوتی ہے:",
+          "tr": "Ve bu, onun vefatının geçerliliğini de gösterir:",
+          "fa": "و همچنین بر صحت وفات او دلالت دارد:",
+          "id": "Dan hal itu juga menunjukkan keabsahan kewafatannya:",
+          "bn": "এবং এটি তার মৃত্যুর বৈধতাকেও নির্দেশ করে:",
+          "es": "Y también indica la validez de su fallecimiento:",
+          "fr": "Et cela indique également la validité de son décès :",
+          "de": "Und es weist auch auf die Gültigkeit seines Hinscheidens hin:",
+          "ru": "И это также указывает на действительность его ухода:",
+          "zh": "这也表明他去世的有效性："
+        },
+        "word_start": 42,
+        "word_end": 47
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi refutes the claim that Imam Hasan al-Askari (a.s.) is alive and is the Mahdi by citing the established fact of his death, which follows the same pattern as his forefathers. He further argues that the scarcity and obscurity of his followers, rather than their abundance, serve as a logical indicator of the truth of his death, as true believers would not have dwindled if he were still present.",
+        "seo_question": "What is the argument for the death of Imam Hasan al-Askari (a.s) in Shia theology?",
+        "key_terms": {
+          "الْمَهْدِيّ": "The Mahdi (the guided one)",
+          "قُرَاض": "Diminishing number / scarcity",
+          "انْدِرَاس": "Wearing out / disappearing",
+          "وَفَاتِهِ": "His death/passing away"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی نے امام حسن عسکری (ع) کی حیاتِ باقیہ کے دعویٰ کو مسترد کرتے ہوئے ان کی وفات کے مقررہ واقعے کو پیش کیا، جو ان کے اجداد کے نمونے سے مماثل ہے۔ انہوں نے مزید استدلال کیا کہ ان کے پیروکاروں کی کمی اور غیبیت، ان کی وفات کی سچائی کا منطقی اشارہ ہے، کیونکہ اگر وہ زندہ ہوتے تو مومنین کی تعداد کم نہ ہوتی۔",
+        "seo_question": "شیعہ کلامیات میں امام حسن عسکری (ع) کی وفات کا کیا دلائل ہے؟",
+        "key_terms": {
+          "الْمَهْدِيّ": "مہدی (ہدایت یافتہ)",
+          "قُرَاض": "تعداد میں کمی / کمیابی",
+          "انْدِرَاس": "ختم ہونا / غائب ہونا",
+          "وَفَاتِهِ": "ان کی وفات / انتقال"
+        }
+      },
+      "tr": {
+        "summary": "Şeikh et-Tusi, İmam Hasan el-Askeri'nin (a.s.) hayatta olduğu ve Mehdi olduğu iddiasını, atalarının izlediği kalıpla aynı olan ölümünün kesin bir gerçeklik olmasıyla çürütür. Ayrıca, takipçilerinin çoğunluğu yerine azlığı ve belirsizliğinin, eğer o hala hayatta olsaydı gerçek müminlerin azalmayacağı gerçeği doğrultusunda, ölümünün doğruluğuna dair mantıksal bir gösterge olduğunu ileri sürer.",
+        "seo_question": "Şii teolojisinde İmam Hasan el-Askeri'nin (a.s.) ölümüne dair argüman nedir?",
+        "key_terms": {
+          "الْمَهْدِيّ": "Mehdi (doğrulanmış olan)",
+          "قُرَاض": "Azalan sayı / kıtlık",
+          "انْدِرَاس": "Aşınma / kaybolma",
+          "وَفَاتِهِ": "Onun ölümü/geçmişi"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی ادعای زنده بودن امام حسن عسکری (ع) و او بودن مهدی را با استناد به واقعیت اثبات‌شده‌ی وفات او که الگویی مشابه اجدادش دارد، رد می‌کند. او همچنین استدلال می‌کند که کم‌تعدادی و پنهان‌ماندن پیروانش، به جای فراوانی، نشان‌دهنده‌ی منطقی صحت وفات اوست، زیرا اگر او هنوز حاضر بود، مؤمنان واقعی کاهش نمی‌ یافتند.",
+        "seo_question": "استدلال برای وفات امام حسن عسکری (ع) در الهیات شیعه چیست؟",
+        "key_terms": {
+          "الْمَهْدِيّ": "مهدی (هدایت‌شده)",
+          "قُرَاض": "کم‌تعدادی / کمیابی",
+          "انْدِرَاس": "فرسودگی / ناپدید شدن",
+          "وَفَاتِهِ": "وفات/درگذشتن او"
+        }
+      },
+      "id": {
+        "summary": "Syekh al-Thusi membantah klaim bahwa Imam Hasan al-Askari (a.s.) masih hidup dan merupakan Mahdi dengan mengutip fakta yang telah mapan mengenai kematiannya, yang mengikuti pola yang sama dengan para leluhurnya. Ia lebih lanjut berargumen bahwa kelangkaan dan obskuritas para pengikutnya, bukan kelimpahan mereka, berfungsi sebagai indikator logis kebenaran kematiannya, karena para mukmin sejati tidak akan berkurang jumlahnya jika ia masih hadir.",
+        "seo_question": "Apa argumen mengenai kematian Imam Hasan al-Askari (a.s) dalam teologi Syiah?",
+        "key_terms": {
+          "الْمَهْدِيّ": "Al-Mahdi (yang terbimbing)",
+          "قُرَاض": "Kelangkaan",
+          "انْدِرَاس": "Menghilang",
+          "وَفَاتِهِ": "Kematian"
+        }
+      },
+      "bn": {
+        "summary": "শিরোনাম_সংক্ষেপ_বাংলায়_অনুবাদ_করা_হয়েছে_না_কিন্তু_বাংলা_সংক্ষেপ_প্রদান_করা_হলো: শায়খ আল-তুসি ইমাম হাসান আল-আসকারি (আ.)-এর মৃত্যুর প্রতিষ্ঠিত সত্যকে উল্লেখ করে দাবি খণ্ডন করেন যে তিনি জীবিত এবং মহদি। তিনি আরও যুক্তি দেন যে, তাঁর অনুসারীদের সংখ্যা বৃদ্ধির পরিবর্তে সংকোচন ও অস্পষ্টতা তাঁর মৃত্যুর সত্যতার একটি যৌক্তিক নির্দেশক, কারণ তিনি যদি জীবিত থাকতেন তবে সত্য বিশ্বাসীদের সংখ্যা কমে যেত না।",
+        "seo_question": "শিয়া তত্ত্বে ইমাম হাসান আল-আসকারি (আ.)-এর মৃত্যুর যুক্তি কী?",
+        "key_terms": {
+          "الْمَهْدِيّ": "মহদি (পথপ্রদর্শক)",
+          "قُرَاض": "সংখ্যা হ্রাস / সংকোচন",
+          "انْدِرَاس": "অদৃশ্য হয়ে যাওয়া / বিলুপ্ত হওয়া",
+          "وَفَاتِهِ": "তাঁর মৃত্যু/পারলৌকিক গমন"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi refuta la afirmación de que el imán Hasan al-Askari (a.s.) está vivo y es el Mahdi citando el hecho establecido de su muerte, que sigue el mismo patrón que sus antepasados. Además, argumenta que la escasez y la oscuridad de sus seguidores, en lugar de su abundancia, sirven como un indicador lógico de la verdad de su muerte, ya que los verdaderos creyentes no se habrían reducido si él estuviera aún presente.",
+        "seo_question": "¿Cuál es el argumento sobre la muerte del imán Hasan al-Askari (a.s) en la teología chií?",
+        "key_terms": {
+          "الْمَهْدِيّ": "El Mahdi (el guiado)",
+          "قُرَاض": "Número decreciente / escasez",
+          "انْدِرَاس": "Desgaste / desaparición",
+          "وَفَاتِهِ": "Su muerte/pasamiento"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi réfute l'affirmation selon laquelle l'imam al-Hasan al-Askari (a.s.) est en vie et est le Mahdi en citant le fait établi de son décès, qui suit le même schéma que celui de ses ancêtres. Il soutient en outre que la rareté et l'obscurité de ses partisans, plutôt que leur abondance, constituent un indicateur logique de la véracité de son décès, car les vrais croyants ne se seraient pas raréfiés s'il était encore présent.",
+        "seo_question": "Quel est l'argument en faveur du décès de l'imam al-Hasan al-Askari (a.s.) dans la théologie chiite ?",
+        "key_terms": {
+          "الْمَهْدِيّ": "Le Mahdi (celui qui est guidé)",
+          "قُرَاض": "Nombre décroissant / rareté",
+          "انْدِرَاس": "Usure / disparition",
+          "وَفَاتِهِ": "Son décès / son trépas"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi widerlegt die Behauptung, dass Imam Hasan al-Askari (a.s.) am Leben sei und der Mahdi sei, indem er auf die etablierte Tatsache seines Todes verweist, die dem Muster seiner Vorfahren folgt. Er argumentiert weiter, dass die Knappheit und Obskurität seiner Anhänger, statt ihrer Fülle, ein logischer Indikator für die Wahrheit seines Todes ist, da die wahren Gläubigen nicht abgenommen hätten, wenn er noch anwesend gewesen wäre.",
+        "seo_question": "Was ist das Argument für den Tod von Imam Hasan al-Askari (a.s.) in der schiitischen Theologie?",
+        "key_terms": {
+          "الْمَهْدِيّ": "Der Mahdi (der Geleitete)",
+          "قُرَاض": "Abnehmende Anzahl / Knappheit",
+          "انْدِرَاس": "Abnutzung / Verschwinden",
+          "وَفَاتِهِ": "Sein Tod/Sein Hinscheiden"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Туси опровергает утверждение о том, что Имама Хасана аль-Аскари (да будет над ним мир) жив и является Махди, ссылаясь на установленный факт его смерти, который соответствует образцу его предков. Он далее утверждает, что малочисленность и скрытность его последователей, а не их многочисленность, служат логическим указанием на истинность его смерти, поскольку истинные верующие не уменьшились бы в числе, если бы он всё ещё был среди них.",
+        "seo_question": "Каков аргумент в пользу смерти Имама Хасана аль-Аскари (да будет над ним мир) в шиитской теологии?",
+        "key_terms": {
+          "الْمَهْدِيّ": "Махди (праведно направленный)",
+          "قُرَاض": "Уменьшение числа / малочисленность",
+          "انْدِرَاس": "Исчезновение / стирание",
+          "وَفَاتِهِ": "Его смерть/уход"
+        }
+      },
+      "zh": {
+        "summary": "图西谢赫反驳伊玛目哈桑·阿斯卡里（愿主安之）活着且是马赫迪的说法，引用其已故这一既定事实，其模式与其祖先相同。他进一步论证，追随者的稀少和隐没而非众多，是其死亡真实性的逻辑指标，因为如果他仍在世，真正的信徒不会减少。",
+        "seo_question": "在什叶派神学中，关于伊玛目哈桑·阿斯卡里（愿主安之）去世的论点是什么？",
+        "key_terms": {
+          "الْمَهْدِيّ": "马赫迪（被引导者）",
+          "قُرَاض": "数量减少/稀少",
+          "انْدِرَاس": "磨损/消失",
+          "وَفَاتِهِ": "他的去世/逝世"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:156",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "12:100",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "فَأَمَّا الْقَائِلُونَ بِأَنَّ الْحَسَنَ بْنَ عَلِيٍّ لَمْ يَمْتْ وَهُوَ حَيٌّ بَاقٌ وَهُوَ الْمَهْدِيّ فَقَوْلُهُمْ بَاطِلٌ بِمَا عَلِمْنَا مَوْتَهُ كَمَا عَلِمْنَا مَوْتَ مَنْ تَقَدَّمَ مِنْ آبَائِهِ. وَالطَّرِيقَةُ وَاحِدَةٌ وَالْكَلَامُ عَلَيْهِمْ وَاحِدٌ. هَذَا مَعَ أَنَّ قُرَاضَ الْقَائِلِينَ بِهِ وَانْدِرَاسَهُمْ، وَلَوْ كَانُوا مُحِقِّينَ لَمَا انْقَرَضُوا. وَيَدُلّ أَيْضًا عَلَى صِحَّةِ وَفَاتِهِ:",
+    "isnad_matn": {
+      "isnad_ar": "فأما القائلون بأن الحسن بن علي لم يمت وهو حي باق وهو المهدي فقولهم باطل بما علمنا موته كما علمنا موت من تقدم من آبائه. والطريقة واحدة والكلام عليهم واحد. هذا مع ان",
+      "matn_ar": "فَأَمَّا الْقَائِلُونَ بِأَنَّ الْحَسَنَ بْنَ عَلِيٍّ لَمْ يَمْتْ وَهُوَ حَيٌّ بَاقٌ وَهُوَ الْمَهْدِيّ فَقَوْلُهُمْ بَاطِلٌ بِمَا عَلِمْنَا مَوْتَهُ كَمَا عَلِمْنَا مَوْتَ مَنْ تَقَدَّمَ مِنْ آبَائِهِ. وَالطَّرِيقَةُ وَاحِدَةٌ وَالْكَلَامُ عَلَيْهِمْ وَاحِدٌ. هَذَا مَعَ أَنَّ قُرَاضَ الْقَائِلِينَ بِهِ وَانْدِرَاسَهُمْ، وَلَوْ كَانُوا مُحِقِّينَ لَمَا انْقَرَضُوا. وَيَدُلّ أَيْضًا عَلَى صِحَّةِ وَفَاتِهِ:",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "فأما القائلون بأن الحسن بن علي لم يمت وهو حي باق وهو المهدي فقولهم باطل بما علمنا موته كما علمنا موت من تقدم من آبائه. والطريقة واحدة والكلام عليهم واحد. هذا مع ان",
+          "name_en": "al-Hasan b. Ali",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

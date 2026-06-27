@@ -1,0 +1,274 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:25:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-23",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 48 words (>14, بن-density 0.08 — likely a sentence fragment, not a name): 'ومما يدل على إمامة صاحب الزمان ابن الحسن بن علي بن محمد بن ا'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "prophetic_tradition",
+      "family"
+    ],
+    "content_type": "creedal",
+    "topics": [
+      "imamate",
+      "imams_biography",
+      "prophetic_character"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَمِمَّا يَدُلُّ عَلَى إِمَامَةِ صَاحِبِ الزَّمَانِ ابْنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ مُحَمَّدِ بْنِ الرِّضَا عَلَيْهِمُ السَّلَامِ وَصِحَّةِ غَيْبَتِهِ مَا رَوَاهُ الطَّائِفَتَانِ الْمُخْتَلِفَتَانِ وَالْفِرْقَتَانِ الْمُتَبَايِنَتَانِ الْعَامَّةُ وَالْإِمَامِيَّةُ وَأَنَّ الْأَئِمَّةَ عَلَيْهِمُ السَّلَامُ بَعْدَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ اثْنَا عَشَرَ لَا يَزِيدُونَ وَلَا يَنْقُصُونَ",
+        "translations": {
+          "en": "And among the proofs for the Imamate of the Master of the Age, Ibn al-Hasan, son of Ali, son of Muhammad, son of al-Rida, peace be upon them, and the validity of his occultation, is what the two differing sects and the two distinct parties, the Sunnis and the Imamiyyah, have narrated: that the Imams, peace be upon them, after the Prophet, peace be upon him and his family, are twelve, neither increasing nor decreasing.",
+          "ur": "اور زمان کے امام، ابن الحسن، علی بن محمد بن الرضا علیہم السلام کی امامت اور ان کی غیبیت کی صحت کے دلائل میں سے وہ روایت ہے جسے دو مختلف فرقے اور دو متباين جماعتیں، یعنی اہل سنت اور امامیہ، نے نقل کی ہے کہ نبی کریم صلی اللہ علیہ وآلہ وسلم کے بعد ائمہ علیہم السلام بارہ ہیں، نہ زیادہ اور نہ کم۔",
+          "tr": "Ve Zamanın İmamı, Hasan oğlu Ali, Muhammed oğlu, Rıza oğlu Hasan, onların selâmı olsun, ve galebetinin geçerliliği için delillerden biri, iki farklı mezhep ve iki ayrı grup olan Sünniler ve İmamiyye'nin rivayet ettiği şudur: Peygamber'in (s.a.a.) ardından imamlar (a.s.) on iki kişidir, ne artar ne de azalır.",
+          "fa": "و از نشانه‌های امامت صاحب الزمان، ابن الحسن، پسر علی، پسر محمد، پسر الرضا، علیهم السلام، و صحت غیبت ایشان، آن چیزی است که دو فرقه مختلف و دو گروه متمایز، اهل سنت و امامیه، روایت کرده‌اند: که ائمه، علیهم السلام، پس از پیامبر، صلّی الله علیه و آله و سلّم، دوازده نفرند، نه بیشتر و نه کمتر.",
+          "id": "Dan di antara dalil-dalil tentang imamah Tuan Masa, Ibn al-Hasan, putra Ali, putra Muhammad, putra al-Rida, semoga damai atas mereka, dan keabsahan ghaybah-nya, adalah apa yang diriwayatkan oleh dua sekte yang berbeda dan dua kelompok yang terpisah, yaitu Ahl al-Sunnah dan Imamiyyah: bahwa para imam, semoga damai atas mereka, setelah Nabi, semoga damai atasnya dan keluarganya, berjumlah dua belas, tidak bertambah dan tidak berkurang.",
+          "bn": "এবং যুগের ইমাম, আল-হাসানের পুত্র আলির পুত্র মুহাম্মাদের পুত্র আল-রিদা (আলائمة عليهم السلام), এবং তাঁর গায়েবের বৈধতার প্রমাণগুলির মধ্যে একটি হলো সেই বর্ণনা যা দুটি ভিন্ন সম্প্রদায় এবং দুটি পৃথক দল, সুন্নি ও ইমামিয়া, থেকে এসেছে: যেহেতু নবী (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সাল্লাম)-এর পর ইমামগণ (আলائمة عليهم السلام) বারো জন, না বাড়বে না কমবে।",
+          "es": "Y entre las pruebas de la imáma del Señor de la Era, Ibn al-Hasan, hijo de Alí, hijo de Muhammad, hijo de al-Rida, que la paz sea con ellos, y de la validez de su ocultación, está lo que han narrado las dos sectas divergentes y los dos grupos distintos, los suníes y los imamíes: que los imames, que la paz sea con ellos, después del Profeta, que la paz sea con él y su familia, son doce, ni más ni menos.",
+          "fr": "Et parmi les preuves de l’Imamat du Maître de l’Èpoque, Ibn al-Hasan, fils d’Ali, fils de Muhammad, fils d’al-Rida, que la paix soit sur eux, et de la validité de sa occultation, ce que les deux sectes différentes et les deux partis distincts, les Sunnites et les Imamiyyah, ont rapporté : que les Imams, que la paix soit sur eux, après le Prophète, que la paix soit sur lui et sur sa famille, sont au nombre de douze, ni plus ni moins.",
+          "de": "Und zu den Beweisen für die Imamat des Herrn der Zeit, Ibn al-Hasan, Sohn des Ali, Sohn des Muhammad, Sohn al-Ridas, Friede sei auf ihnen, und die Gültigkeit seiner Verborgenheit, gehört, was die beiden unterschiedlichen Sekten und die beiden verschiedenen Parteien, die Sunniten und die Imamiyyah, überliefert haben: dass die Imame, Friede sei auf ihnen, nach dem Propheten, Friede sei auf ihm und seiner Familie, zwölf sind, weder mehr noch weniger.",
+          "ru": "И из доказательств имамата Владыки Времени, Ибн аль-Хасана, сына Али, сына Мухаммада, сына ар-Рида, да будет мир над ними, и достоверности его сокрытия, является то, что передали две расходящиеся секты и две различные группы, сунниты и имамиты: что имамы, да будет мир над ними, после Пророка, да благословит его Аллах и его род, являются двенадцать, ни увеличиваясь, ни уменьшаясь.",
+          "zh": "其中证明时代之主、拉迪之子穆罕默德之子穆罕默德之子阿里之子哈桑（愿主赐福他们）的伊玛目地位及其隐遁有效性的证据，是两派不同教派和两群不同团体，即逊尼派和伊玛目派所传述的：先知及其家属（愿主赐福他及他们）之后的伊玛目有十二位，不多不少。"
+        },
+        "word_start": 0,
+        "word_end": 43
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَإِذَا ثَبَتَ ذَلِكَ فَكُلُّ مَنْ قَالَ بِذَلِكَ قَطَعَ عَلَى الْأَئِمَّةِ الاثْنَيْ عَشَرَ الَّذِينَ نَذْهَبُ إِلَى إِمَامَتِهِمْ وَعَلَى وُجُودِ ابْنِ الْحَسَنِ عَلَيْهِ السَّلَامِ وَصِحَّةِ غَيْبَتِهِ لِأَنَّ مَنْ خَالَفَهُمْ فِي شَيْءٍ مِنْ ذَلِكَ لَا يَقْصُرُ الْإِمَامَةَ عَلَى هَذَا الْعَدَدِ بَلْ يَجُوزُ الزِّيَادَةُ عَلَيْهَا وَإِذَا ثَبَتَ بِالْأَخْبَارِ الَّتِي نَذْكُرُهَا هَذَا الْعَدَدُ الْمَخْصُوصُ ثَبَتَ مَا أَرَدْنَا",
+        "translations": {
+          "en": "And when this is established, whoever asserts it is certain of the Twelve Imams whom we profess their Imamate, and of the existence of Ibn al-Hasan, peace be upon him, and the validity of his occultation, because whoever differs with them in any of this does not restrict the Imamate to this number, but an increase upon it is permissible. And when this specific number is established through the narrations we mention, our objective will be established.",
+          "ur": "اور جب یہ قائم ہو جائے، تو جو شخص اس کی تصدیق کرے گا، وہ بارہ ائمہ کی امامت پر یقین رکھے گا جن کی ہم امامت کا اقرار کرتے ہیں، اور ابن الحسن کی موجودگی پر، علیہ السلام، اور ان کی غیبیت کی صحت پر، کیونکہ جو شخص ان میں سے کسی ایک میں اختلاف کرے گا، وہ امامت کو اس تعداد تک محدود نہیں کرے گا، بلکہ اس میں اضافہ جائز ہے۔ اور جب یہ خاص تعداد ہماری ذکر کردہ روایات کے ذریعے قائم ہو جائے گی، تو ہمارا مقصد قائم ہو جائے گا۔",
+          "tr": "Ve bu (sayı) sabit kılındığında, İmametini kabul ettiğimiz On İki İmam'ın ve İbnü'l-Hasan'ın (aleyhisselam) varlığının ve geybetinin (gizlenmesinin) sahihliğinden emin olan kimse, bunların herhangi birinde onlardan farklılaşan kimse İmamet'i bu sayıya hasretmez, fakat bu sayının üzerine artış caiz olur. Ve bu spesifik sayı, zikrettiğimiz rivayetler üzerinden sabit kılındığında, maksadımız da sabit olacaktır.",
+          "fa": "و هنگامی که این [نکته] ثابت شود، هر کس که آن را ابراز کند، به یقین از دوازده امام که ما امامت آنان را اقرار می‌کنیم، و از وجود ابن الحسن، علیه‌السلام، و صحت غیبت او، اطمینان خواهد داشت؛ زیرا هر کس که در یکی از این موارد با آنان مخالفت کند، امامت را به این تعداد محدود نمی‌کند، بلکه افزایش بر آن جایز است. و هنگامی که این عدد خاص از طریق روایاتی که ذکر می‌کنیم ثابت شود، مقصود ما محقق خواهد شد.",
+          "id": "Dan apabila hal ini telah tegak, maka barangsiapa yang mengatakannya, ia yakin terhadap Dua Belas Imam yang kami mengakui keimamatan mereka, dan terhadap keberadaan Ibn al-Hasan, shallallahu 'alaihi wa sallam, serta keabsahan ghaybahnya, karena barangsiapa yang berbeda dengan mereka dalam hal ini, maka ia tidak membatasi keimamatan hanya pada jumlah tersebut, melainkan penambahan atasnya adalah diperbolehkan. Dan apabila jumlah spesifik ini telah tegak melalui riwayat-riwayat yang kami sebutkan, maka tujuan kami akan tegak.",
+          "bn": "এবং যখন এটি প্রতিষ্ঠিত হয়, যিনি এটি স্বীকার করেন তিনি আমাদের ইমামতের বিশ্বাসী বারোজন ইমাম এবং ইবনে আল-হাসান, আলৈহি আস-সালাম, অস্তিত্ব এবং তাঁর গায়েবতের বৈধতা নিশ্চিত হন, কারণ যিনি এদের মধ্যে যেকোনো বিষয়ে ভিন্নমত পোষণ করেন, তিনি ইমামতকে এই সংখ্যায় সীমাবদ্ধ রাখেন না, বরং এর উপর বৃদ্ধি করা জায়েজ। এবং যখন এই নির্দিষ্ট সংখ্যাটি আমাদের উল্লেখিত হাদিসগুলোর মাধ্যমে প্রতিষ্ঠিত হয়, তখন আমাদের লক্ষ্য প্রতিষ্ঠিত হবে।",
+          "es": "Y cuando esto se establece, quien lo afirme estará seguro de los Doce Imameses a quienes profesamos su imamate, y de la existencia de Ibn al-Hasan, paz sea con él, y de la validez de su ocultación, porque quien difiera con ellos en cualquiera de esto no restringe el imamate a este número, sino que se permite un aumento sobre él. Y cuando este número específico se establece a través de las narraciones que mencionamos, nuestro objetivo se establecerá.",
+          "fr": "Et lorsque cela est établi, quiconque l'affirme est certain des Douze Imams dont nous professons l'Imamat, et de l'existence d'Ibn al-Hasan, paix sur lui, et de la validité de son occultation, car quiconque diffère avec eux sur l'un de ces points ne limite pas l'Imamat à ce nombre, mais une augmentation est permise. Et lorsque ce nombre spécifique est établi par les narrations que nous mentionnons, notre objectif sera établi.",
+          "de": "Und wenn dies begründet ist, so ist jeder, der es behauptet, gewiss über die zwölf Imame, deren Imamat wir bejahen, und über die Existenz von Ibn al-Hasan, Friede sei mit ihm, sowie über die Gültigkeit seiner Verborgenheit (Ghayba), denn wer in irgendeinem dieser Punkte von ihnen abweicht, beschränkt das Imamat nicht auf diese Zahl, sondern eine Vermehrung darüber ist zulässig. Und wenn diese bestimmte Zahl durch die von uns angeführten Überlieferungen begründet ist, so ist unser Ziel erreicht.",
+          "ru": "И когда это утверждено, тот, кто утверждает это, уверен в Двенадцати Имамах, чье имамат мы исповедуем, и в существовании Ибн аль-Хасана, да будет мир с ним, и в действительности его сокрытия (гейбата), ибо тот, кто расходится с ними в чем-либо из этого, не ограничивает имамат этим числом, но допустимо его увеличение. И когда это конкретное число будет утверждено через упомянутые нами предания, наша цель будет достигнута.",
+          "zh": "当此确立之后，凡主张此说者，便确信我们所承认的十二伊玛目，以及伊本·哈桑（愿主福安之）的存在及其隐遁的有效性，因为凡在这一点上与他们有分歧者，便未将伊玛目限定于此数，而是允许增加。当通过我们所提及的传述确立此特定数目时，我们的目的便得以确立。"
+        },
+        "word_start": 43,
+        "word_end": 95
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَنَحْنُ نَذْكُرُ جُمْلًا مِنْ ذَلِكَ وَنُحِيلُ الْبَاقِيَ عَلَى الْكُتُبِ الْمُصَنَّفَةِ فِي هَذَا الْمَعْنَى لِئَلَّا يَطُولَ بِهِ الْكِتَابُ إِنْ شَاءَ اللَّهُ تَعَالَى",
+        "translations": {
+          "en": "So we mention a summary of that and refer the remainder to the books composed on this subject, so that the book may not become prolonged, if Allah, the Exalted, wills.",
+          "ur": "لہذا ہم اس کا خلاصہ ذکر کرتے ہیں اور باقی حصہ ان کتب کی طرف رجوع کرتے ہیں جو اس موضوع پر لکھی گئی ہیں، تاکہ کتاب لمبی نہ ہو جائے، اگر اللہ تعالیٰ چاہے۔",
+          "tr": "Bu yüzden bunun bir özetini zikredip, geri kalanını bu konuda kaleme alınmış kitaplara havale ediyoruz ki, Allah'ın dilediği takdirde kitap uzayıp gitmesin.",
+          "fa": "پس ما خلاصه‌ای از آن را ذکر می‌کنیم و بقیه را به کتاب‌های تألیف‌شده در این باب واگذار می‌نماییم، تا کتاب طولانی نشود، ان‌شاءالله تعالی.",
+          "id": "Maka kami menyebutkan ringkasan dari hal tersebut dan merujuk sisanya kepada kitab-kitab yang disusun mengenai subjek ini, agar kitab ini tidak menjadi panjang, jika Allah Yang Maha Tinggi menghendaki.",
+          "bn": "অতএব আমরা এর একটি সংক্ষিপ্তসার উল্লেখ করছি এবং বাকি অংশ ঐ বিষয়ে রচিত গ্রন্থগুলোর দিকে নির্দেশ করছি, যাতে গ্রন্থটি দীর্ঘ না হয়ে যায়, ইশাআল্লাহ্‌ তাআলা চাইলে।",
+          "es": "Por lo tanto, mencionamos un resumen de ello y remitimos el resto a los libros compuestos sobre este tema, para que el libro no se prolongue, si Allah, el Exaltado, quiere.",
+          "fr": "Ainsi, nous mentionnons un résumé de cela et renvoyons le reste aux ouvrages composés sur ce sujet, afin que le livre ne devienne pas trop long, si Allah, le Très-Haut, le veut.",
+          "de": "So erwähnen wir eine Zusammenfassung davon und verweisen den Rest auf die Bücher, die zu diesem Thema verfasst wurden, damit das Buch nicht zu lang wird, wenn Allah, der Erhabene, will.",
+          "ru": "Поэтому мы упомянем краткое изложение этого и отсылаем остальное к книгам, составленным по данной теме, чтобы книга не стала чрезмерно длинной, если пожелает Аллах, Всевышний.",
+          "zh": "因此我们在此略述其概要，其余部分则引向为此主题所撰写的著作，以免本书过于冗长，若真主所意欲。"
+        },
+        "word_start": 95,
+        "word_end": 116
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi leverages the shared 'Hadith al-Thani 'Ashar' (Twelve Hadith) to establish a bridge between Sunni and Shia eschatology, arguing that the fixed number of twelve Imams necessitates the existence of the twelfth, Muhammad ibn al-Hasan. This passage highlights the theological strategy of using common ground to validate the Occultation (al-Ghayba) as a logical consequence of the Imamate's continuity, while deferring detailed evidences to specialized works to maintain conciseness.",
+        "seo_question": "What is the proof for the Imamate of the Master of the Age based on the number of Imams?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "Master of the Age (al-Mahdi)",
+          "الْغَيْبَةُ": "Occultation",
+          "الطَّائِفَتَانِ": "The two sects (Sunnis and Shias)",
+          "الْإِمَامَةُ": "Imamate (leadership/divine authority)",
+          "اثْنَا عَشَرَ": "Twelve"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی مشترکہ 'حدیث ثانی عشر' (بارہ حدیث) کا استعمال کرتے ہوئے سنّی اور شیعہ آخرت شناسی کے درمیان پل قائم کرتے ہیں، اور استدلال کرتے ہیں کہ بارہ ائمہ کا مقررہ عدد بارہویں امام، محمد بن الحسن کی موجودگی کو ضروری بناتا ہے۔ یہ اقتباس ائمہ کی تسلسل کے منطقی نتیجے کے طور پر غیبیت کی تصدیق کے لیے مشترکہ بنیاد استعمال کرنے والی الہیاتی حکمت عملی کو اجاگر کرتا ہے، جبکہ اختصار برقرار رکھنے کے لیے تفصیلی دلائل کو خصوصی کتب تک موخر کر دیتا ہے۔",
+        "seo_question": "امام زمانہ کی امامت کا ثبوت ائمہ کی تعداد کی بنیاد پر کیا ہے؟",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "صاحب زمانہ",
+          "الْغَيْبَةُ": "غیبیت",
+          "الطَّائِفَتَانِ": "دونوں فرقے",
+          "الْإِمَامَةُ": "امامت",
+          "اثْنَا عَشَرَ": "بارہ"
+        }
+      },
+      "tr": {
+        "summary": "Şerh al-Gaybe",
+        "seo_question": "Yaşamların Efendisi'nin imametinin sayıya dayanan delili nedir?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "Zamanın Sahibi",
+          "الْغَيْبَةُ": "Gaybet",
+          "الطَّائِفَتَانِ": "İki mezhep",
+          "الْإِمَامَةُ": "İmamet",
+          "اثْنَا عَشَرَ": "On iki"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی با استناد به حدیث ثانی عشر (دوازده امام) پلی میان آخرت‌شناسی اهل سنت و شیعه ایجاد می‌کند و استدلال می‌نماید که تعداد ثابت دوازده امام، وجود امام دوازدهم، محمد بن حسن، را ضروری می‌سازد. این بخش راهبرد کلامی استفاده از نقاط مشترک برای اثبات غایت به عنوان نتیجه‌ای منطقی از تداوم امامت را برجسته می‌کند، در حالی که شواهد دقیق‌تر را به آثار تخصصی موکول می‌نماید تا اختصار حفظ شود.",
+        "seo_question": "دلیل امامت صاحب زمان بر اساس تعداد ائمه چیست؟",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "صاحب زمان",
+          "الْغَيْبَةُ": "غیبت",
+          "الطَّائِفَتَانِ": "طائفه‌ها",
+          "الْإِمَامَةُ": "امامت",
+          "اثْنَا عَشَرَ": "دوازده"
+        }
+      },
+      "id": {
+        "summary": "Syekh al-Tusi memanfaatkan Hadits al-Thani 'Ashar (Hadits Dua Belas) yang disepakati bersama untuk membangun jembatan antara eskatologi Sunni dan Syiah, dengan berargumen bahwa jumlah Imam yang tetap sebanyak dua belas necessitates keberadaan Imam kedua belas, Muhammad bin al-Hasan. Kutipan ini menyoroti strategi teologis menggunakan dasar bersama untuk memvalidasi al-Ghayba (Ghaib) sebagai konsekuensi logis dari kesinambungan Imamah, sambil menunda bukti-bukti terperinci ke karya-karya khusus untuk menjaga kekoncisannya.",
+        "seo_question": "Apa bukti untuk Imamah Tuan Zaman berdasarkan jumlah Imam?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "Tuan Zaman",
+          "الْغَيْبَةُ": "Ghaib",
+          "الطَّائِفَتَانِ": "Dua sekte",
+          "الْإِمَامَةُ": "Imamah",
+          "اثْنَا عَشَرَ": "Dua belas"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-তুসি 'হাদিস আল-তানি আশার' (দ্বাদশ হাদিস) এর সাধারণ ভিত্তি ব্যবহার করে সুন্নি ও শিয়া আখিরাতবিদ্যার মধ্যে একটি সেতু স্থাপন করেন, যুক্তি দেন যে দ্বাদশ ইমামের নির্দিষ্ট সংখ্যা দ্বাদশ ইমাম, মুহাম্মাদ ইবনে আল-হাসানের অস্তিত্বকে আবশ্যক করে। এই অংশে ইমামতের ধারাবাহিকতার যৌক্তিক ফল হিসেবে গায়েবতকে (Occultation) বৈধতা দেওয়ার তাত্ত্বিক কৌশল তুলে ধরা হয়েছে, এবং সংক্ষিপ্ততা বজায় রাখতে বিস্তারিত প্রমাণগুলো বিশেষ কাজে স্থগিত রাখা হয়েছে।",
+        "seo_question": "ইমামদের সংখ্যার ভিত্তিতে যুগের মালিকের ইমামতের প্রমাণ কী?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "যুগের মালিক",
+          "الْغَيْبَةُ": "গায়েবত",
+          "الطَّائِفَتَانِ": "দুটি সম্প্রদায়",
+          "الْإِمَامَةُ": "ইমামত",
+          "اثْنَا عَشَرَ": "দ্বাদশ"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi utiliza el 'Hadith al-Thani 'Ashar' (Hadiz de los Doce) compartido para establecer un puente entre la escatología sunita y chií, argumentando que el número fijo de doce Imames requiere la existencia del duodécimo, Muhammad ibn al-Hasan. Este pasaje destaca la estrategia teológica de utilizar puntos en común para validar la Occultación (al-Ghayba) como una consecuencia lógica de la continuidad del Imamato, mientras pospone las evidencias detalladas a obras especializadas para mantener la concisión.",
+        "seo_question": "¿Cuál es la prueba del Imamato del Maestro del Tiempo basada en el número de Imames?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "Maestro del Tiempo (al-Mahdi)",
+          "الْغَيْبَةُ": "Occultación",
+          "الطَّائِفَتَانِ": "Las dos sectas (sunitas y chiíes)",
+          "الْإِمَامَةُ": "Imamato (liderazgo/autoridad divina)",
+          "اثْنَا عَشَرَ": "Doce"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi s'appuie sur le hadith commun des Douze (Hadith al-Thani 'Ashar) pour établir un pont entre l'eschatologie sunnite et chiite, arguant que le nombre fixe de douze Imams nécessite l'existence du douzième, Muhammad ibn al-Hasan. Ce passage met en lumière la stratégie théologique consistant à utiliser un terrain d'entente pour valider l'Occultation (al-Ghayba) comme conséquence logique de la continuité de l'Imamat, tout en renvoyant les preuves détaillées à des ouvrages spécialisés pour maintenir la concision.",
+        "seo_question": "Quelle est la preuve de l'Imamat du Maître de l'Ère basée sur le nombre d'Imams ?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "Maître de l'Ère (al-Mahdi)",
+          "الْغَيْبَةُ": "Occultation",
+          "الطَّائِفَتَانِ": "Les deux sectes (Sunnites et Chiites)",
+          "الْإِمَامَةُ": "Imamat (direction/autorité divine)",
+          "اثْنَا عَشَرَ": "Douze"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi nutzt den gemeinsamen „Hadith al-Thani ‘Ashar“ (Zwölfer-Hadith), um eine Brücke zwischen der eschatologischen Vorstellung der Sunniten und Schiiten zu schlagen, und argumentiert, dass die feste Anzahl von zwölf Imamen die Existenz des zwölften, Muhammad ibn al-Hasan, notwendig macht. Dieser Abschnitt unterstreicht die theologische Strategie, gemeinsame Grundlagen zu nutzen, um die Verborgenheit (al-Ghayba) als logische Konsequenz der Kontinuität des Imamats zu validieren, während detaillierte Beweise zur Wahrung der Kürze spezialisierten Werken vorbehalten bleiben.",
+        "seo_question": "Was ist der Beweis für das Imamats des Herrn der Zeit basierend auf der Anzahl der Imame?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "Herr der Zeit",
+          "الْغَيْبَةُ": "Verborgenheit",
+          "الطَّائِفَتَانِ": "die zwei Sekten",
+          "الْإِمَامَةُ": "Imamat",
+          "اثْنَا عَشَرَ": "Zwölf"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Туси использует общий хадис ас-Саба аш-Шар (хадис о двенадцати), чтобы установить связь между суннитской и шиитской эсхатологией, утверждая, что фиксированное число двенадцати имамов требует существования двенадцатого, Мухаммада ибн аль-Хасана. В этом отрывке подчеркивается теологическая стратегия использования общей основы для подтверждения легитимности Гайбы (сокрытия) как логического последствия непрерывности имамата, при этом откладывая подробные доказательства для специализированных трудов ради сохранения краткости.",
+        "seo_question": "Каково доказательство имамата Владыки Времени на основе числа имамов?",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "Владыка Времени (аль-Махди)",
+          "الْغَيْبَةُ": "Сокрытие (аль-Гайба)",
+          "الطَّائِفَتَانِ": "Две секты (сунниты и шииты)",
+          "الْإِمَامَةُ": "Имамат (лидерство/божественная власть)",
+          "اثْنَا عَشَرَ": "Двенадцать"
+        }
+      },
+      "zh": {
+        "summary": "图西谢赫利用共同的“十二圣训”在逊尼派和什叶派末世论之间建立联系，认为十二位伊玛目的固定数量必然导致第十二位伊玛目穆罕默德·本·哈桑的存在。这段文字强调了利用共同基础来验证隐遁（al-Ghayba）作为伊玛目连续性的逻辑后果的神学策略，同时将详细证据推迟到专门著作中以保持简洁。",
+        "seo_question": "根据伊玛目的数量，时代之主（马赫迪）伊玛目的证据是什么？",
+        "key_terms": {
+          "صَاحِبُ الزَّمَانِ": "时代之主",
+          "الْغَيْبَةُ": "隐遁",
+          "الطَّائِفَتَانِ": "两派",
+          "الْإِمَامَةُ": "伊玛目",
+          "اثْنَا عَشَرَ": "十二"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "12:6",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:105",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "7:157",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمِمَّا يَدُلُّ عَلَى إِمَامَةِ صَاحِبِ الزَّمَانِ ابْنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ مُحَمَّدِ بْنِ الرِّضَا عَلَيْهِمُ السَّلَامِ وَصِحَّةِ غَيْبَتِهِ مَا رَوَاهُ الطَّائِفَتَانِ الْمُخْتَلِفَتَانِ وَالْفِرْقَتَانِ الْمُتَبَايِنَتَانِ الْعَامَّةُ وَالْإِمَامِيَّةُ وَأَنَّ الْأَئِمَّةَ عَلَيْهِمُ السَّلَامُ بَعْدَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ اثْنَا عَشَرَ لَا يَزِيدُونَ وَلَا يَنْقُصُونَ وَإِذَا ثَبَتَ ذَلِكَ فَكُلُّ مَنْ قَالَ بِذَلِكَ قَطَعَ عَلَى الْأَئِمَّةِ الاثْنَيْ عَشَرَ الَّذِينَ نَذْهَبُ إِلَى إِمَامَتِهِمْ وَعَلَى وُجُودِ ابْنِ الْحَسَنِ عَلَيْهِ السَّلَامِ وَصِحَّةِ غَيْبَتِهِ لِأَنَّ مَنْ خَالَفَهُمْ فِي شَيْءٍ مِنْ ذَلِكَ لَا يَقْصُرُ الْإِمَامَةَ عَلَى هَذَا الْعَدَدِ بَلْ يَجُوزُ الزِّيَادَةُ عَلَيْهَا وَإِذَا ثَبَتَ بِالْأَخْبَارِ الَّتِي نَذْكُرُهَا هَذَا الْعَدَدُ الْمَخْصُوصُ ثَبَتَ مَا أَرَدْنَا فَنَحْنُ نَذْكُرُ جُمْلًا مِنْ ذَلِكَ وَنُحِيلُ الْبَاقِيَ عَلَى الْكُتُبِ الْمُصَنَّفَةِ فِي هَذَا الْمَعْنَى لِئَلَّا يَطُولَ بِهِ الْكِتَابُ إِنْ شَاءَ اللَّهُ تَعَالَى",
+    "isnad_matn": {
+      "isnad_ar": "ومما يدل على إمامة صاحب الزمان ابن الحسن بن علي بن محمد بن الرضا عليهم السلام وصحة غيبته ما رواه الطائفتان المختلفتان والفرقتان المتباينتان العامة والإمامية وأن الأئمة عليهم السلام بعد النبي صلى الله عليه وآله وسلم اثنا عشر لا يزيدون ولا ينقصون،وإذا ثبت ذلك فكل من قال",
+      "matn_ar": "وَمِمَّا يَدُلُّ عَلَى إِمَامَةِ صَاحِبِ الزَّمَانِ ابْنِ الْحَسَنِ بْنِ عَلِيِّ بْنِ مُحَمَّدِ بْنِ الرِّضَا عَلَيْهِمُ السَّلَامِ وَصِحَّةِ غَيْبَتِهِ مَا رَوَاهُ الطَّائِفَتَانِ الْمُخْتَلِفَتَانِ وَالْفِرْقَتَانِ الْمُتَبَايِنَتَانِ الْعَامَّةُ وَالْإِمَامِيَّةُ وَأَنَّ الْأَئِمَّةَ عَلَيْهِمُ السَّلَامُ بَعْدَ النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ اثْنَا عَشَرَ لَا يَزِيدُونَ وَلَا يَنْقُصُونَ وَإِذَا ثَبَتَ ذَلِكَ فَكُلُّ مَنْ قَالَ بِذَلِكَ قَطَعَ عَلَى الْأَئِمَّةِ الاثْنَيْ عَشَرَ الَّذِينَ نَذْهَبُ إِلَى إِمَامَتِهِمْ وَعَلَى وُجُودِ ابْنِ الْحَسَنِ عَلَيْهِ السَّلَامِ وَصِحَّةِ غَيْبَتِهِ لِأَنَّ مَنْ خَالَفَهُمْ فِي شَيْءٍ مِنْ ذَلِكَ لَا يَقْصُرُ الْإِمَامَةَ عَلَى هَذَا الْعَدَدِ بَلْ يَجُوزُ الزِّيَادَةُ عَلَيْهَا وَإِذَا ثَبَتَ بِالْأَخْبَارِ الَّتِي نَذْكُرُهَا هَذَا الْعَدَدُ الْمَخْصُوصُ ثَبَتَ مَا أَرَدْنَا فَنَحْنُ نَذْكُرُ جُمْلًا مِنْ ذَلِكَ وَنُحِيلُ الْبَاقِيَ عَلَى الْكُتُبِ الْمُصَنَّفَةِ فِي هَذَا الْمَعْنَى لِئَلَّا يَطُولَ بِهِ الْكِتَابُ إِنْ شَاءَ اللَّهُ تَعَالَى",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "ومما يدل على إمامة صاحب الزمان ابن الحسن بن علي بن محمد بن الرضا عليهم السلام وصحة غيبته ما رواه الطائفتان المختلفتان والفرقتان المتباينتان العامة والإمامية وأن الأئمة عليهم السلام بعد النبي صلى الله عليه وآله وسلم اثنا عشر لا يزيدون ولا ينقصون،وإذا ثبت ذلك فكل من قال",
+          "name_en": "al-Hasan b. Ali b. Muhammad b. al-Rida",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ",
+        "phrase_en": "May Allah's blessings be upon him and his family",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+        "phrase_en": "Peace be upon them",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "إِنْ شَاءَ اللَّهُ",
+        "phrase_en": "If Allah wills",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "صَاحِبُ الزَّمَانِ",
+        "phrase_en": "Master of the Age",
+        "category": "theological_concept"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

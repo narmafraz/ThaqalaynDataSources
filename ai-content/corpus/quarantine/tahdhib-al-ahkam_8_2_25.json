@@ -1,0 +1,293 @@
+{
+  "verse_path": "/books/tahdhib-al-ahkam:8:2:25",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-04",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[1] name_ar has 20 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'رَجُلٍ ظَاهَرَ مِنِ اِمْرَأَتِهِ ثُمَّ طَلَّقَهَا بَعْدَ ذَل'"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "spousal_rights"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَسَأَلَ عَلِيُّ بْنُ جَعْفَرٍ أَخَاهُ مُوسَىٰ بْنَ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ",
+        "translations": {
+          "en": "Ali ibn Ja'far asked his brother Musa ibn Ja'far (peace be upon them both)",
+          "ur": "علی بن جعفر نے اپنے بھائی موسیٰ بن جعفر (علیہما السلام) سے پوچھا",
+          "tr": "Ali b. Cafer, kardeşi Musa b. Cafer'den (aleyhimâs-selâm)",
+          "fa": "عَلِيُّ بْنُ جَعْفَرٍ سَأَلَ أَخَاهُ مُوسَى بْنَ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ",
+          "id": "Ali bin Ja'far bertanya kepada saudaranya Musa bin Ja'far (kedua mereka semoga salam Allah atasnya)",
+          "bn": "আলী ইবনে জাফর (রহ.) তাঁর ভাই মুসা ইবনে জাফর (রহ.)-কে জিজ্ঞাসা করলেন",
+          "es": "27 - Y preguntó Alí ibn Yafar a su hermano Musa ibn Yafar (que la paz sea con ambos) sobre un hombre que hizo el zohar de su esposa, luego la divorció después de eso un mes o dos meses, y ella se casó con otro, y el que se casó con ella la divorció, y el primero la volvió a tomar. ¿Tiene sobre él la expiación por el primer zohar? Dijo: «Sí, la emancipación de un esclavo, o el ayuno, o la limosna». Y esta narración se considera basada en la taqiyya, porque es la opinión de un grupo de los contrarios, y la correcta es la primera.",
+          "fr": "سَأَلَ عَلِيُّ بْنُ جَعْفَرٍ أَخَاهُ مُوسَى بْنَ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ",
+          "de": "27 - Und Ali ibn Dscha'far fragte seinen Bruder Musa ibn Dscha'far (Friede sei auf ihnen beiden) über einen Mann, der sich von seiner Frau durch Zihar trennte, und sie danach nach einem oder zwei Monaten scheiden ließ. Dann heiratete sie ein anderer Mann, und dieser zweite Mann ließ sie scheiden. Dann nahm der erste Mann sie wieder zur Frau. Trifft auf ihn die Sühne für die erste Zihar-Entbindung? Er sagte: »Ja, die Befreiung eines Sklaven oder Fasten oder Almosen.« Und diese Überlieferung ist auf die Tāqīya (die Vorsicht beim Glauben unter Druck) zurückzuführen, denn es ist die Meinung einer Gruppe der Gegner, und die richtige Ansicht ist die erste.",
+          "ru": "Али ибн Джафар спросил своего брата Мусу ибн Джафара (мир им обоим)",
+          "zh": "阿里·本·贾法德尔问他的兄弟穆萨·本·贾法尔（愿他们平安）"
+        },
+        "word_start": 0,
+        "word_end": 10
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "عَنْ رَجُلٍ ظَاهَرَ مِنْ امْرَأَتِهِ ثُمَّ طَلَّقَهَا بَعْدَ ذَلِكَ بِشَهْرٍ أَوْ شَهْرَيْنِ فَتَزَوَّجَتْ ثُمَّ طَلَّقَهَا الَّذِي تَزَوَّجَهَا فَرَاجَعَهَا الْأَوَّلُ هَلْ عَلَيْهِ فِيهَا الْكَفَّارَةُ لِلظِّهَارِ الْأَوَّلِ",
+        "translations": {
+          "en": "about a man who performed zihar with his wife, then divorced her after that after a month or two months, so she married another man, then the one who married her divorced her, and the first man remarried her. Is there upon him the expiation for the first zihar?",
+          "ur": "ایک مرد کے بارے میں جس نے اپنی بیوی کے ساتھ ظہار کیا، پھر ایک یا دو مہینے بعد اسے طلاق دے دی، پھر وہ کسی دوسرے مرد سے نکاح کر گئی، پھر جس نے اس سے نکاح کیا اس نے اسے طلاق دے دی، اور پہلا مرد اس سے دوبارہ نکاح کر لیا۔ کیا اس پر پہلے ظہار کا کفارہ لازم ہے؟",
+          "tr": "Bir adamın karısıyla zihar yaptığı, sonra bir veya iki ay sonra onu boşadığı, o da başka bir adamla evlendiği, sonra onu boşayanın onu tekrar ilk adamla evlendirdiği durum hakkında soruldu. İlk ziharın kefaretinin üzerine düşer mi?",
+          "fa": "در مورد مردی که با همسرش ظهار کرد، سپس پس از یک یا دو ماه او را طلاق داد، پس او با مرد دیگری ازدواج کرد، و آن مردی که با او ازدواج کرده بود او را طلاق داد، و مرد اول دوباره با او ازدواج کرد. آیا بر او کفاره ظهار اول واجب است؟",
+          "id": "Tentang seorang laki-laki yang melakukan zihar terhadap istrinya, lalu menceraikannya setelah itu, setelah satu atau dua bulan, kemudian ia menikah dengan laki-laki lain, lalu laki-laki yang menikah dengannya menceraikannya, dan laki-laki pertama menikahinya kembali. Apakah atas dirinya terdapat kafarat untuk zihar yang pertama?",
+          "bn": "একজন পুরুষের বিষয়ে বর্ণিত হয়েছে যে, সে তার স্ত্রীর সাথে জিহার করল, এরপর এক বা দুই মাস পর তাকে তালাক দিল, অতঃপর সে অন্য এক পুরুষের সাথে বিবাহবন্ধনে আবদ্ধ হল, তারপর যে তাকে বিবাহ করেছিল সে তাকে তালাক দিল, এবং প্রথম পুরুষটি তাকে আবার বিবাহ করল। তার উপর প্রথম জিহারের কফ্ফারা (প্রায়শ্চিত্ত) কি বর্তমান থাকবে?",
+          "es": "acerca de un hombre que pronunció zihar con su esposa, luego la divorció después de un mes o dos meses, entonces ella se casó con otro hombre, y el que la había desposado la divorció, y el primer hombre la volvió a desposar. ¿Le corresponde la expiación por el primer zihar?",
+          "fr": "À propos d'un homme qui a pratiqué le zihar avec son épouse, puis l'a divorcée après cela, après un mois ou deux mois, puis elle s'est mariée à un autre homme, puis celui qui l'a épousée l'a divorcée, et le premier homme l'a remariée. Y a-t-il sur lui l'expiation pour le premier zihar ?",
+          "de": "Über einen Mann, der mit seiner Frau Zihar vollzog, sie dann nach einem Monat oder zwei Monaten später scheiden ließ, woraufhin sie einen anderen Mann heiratete, der sie dann wieder scheiden ließ, und der erste Mann sie dann erneut heiratete. Liegt auf ihm die Sühne für das erste Zihar?",
+          "ru": "О человеке, который совершил зхар со своей женой, а затем развелся с ней через месяц или два месяца, после чего она вышла замуж за другого мужчину, который затем развелся с ней, и первый мужчина снова женился на ней. Есть ли на нем искупление за первый зхар? }",
+          "zh": "关于一个男人对妻子行齐哈尔（Zihar），之后在一个月或两个月后休妻，她嫁给了另一个男人，然后那个与她结婚的男人又休了她，第一个男人再娶了她。他是否仍需为第一次齐哈尔缴纳赎金？"
+        },
+        "word_start": 10,
+        "word_end": 35
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ «نَعَمْ عِتْقُ رَقَبَةٍ أَوْ صِيَامٌ أَوْ صَدَقَةٌ»",
+        "translations": {
+          "en": "He said, \"Yes, freeing a slave, or fasting, or charity.\"",
+          "ur": "انہوں نے کہا، ہاں، غلام کی آزادی، یا روزہ، یا صدقہ۔",
+          "tr": "O, \"Evet, bir köle azat etmek, oruç tutmak veya sadaka vermek.\" dedi.",
+          "fa": "گفت: «بله، آزاد کردن برده، یا روزه گرفتن، یا صدقه دادن.»",
+          "id": "Ia berkata, \"Ya, memerdekakan budak, atau berpuasa, atau sedekah.\"",
+          "bn": "তিনি বললেন, \"হ্যাঁ, দাস মুক্ত করা, বা রোজা রাখা, বা সদকা করা।\"",
+          "es": "Dijo: \"Sí, emancipar a un esclavo, o ayunar, o dar limosna.\"",
+          "fr": "Il dit : « Oui, affranchir un esclave, ou jeûner, ou faire l'aumône. »",
+          "de": "Er sagte: „Ja, die Befreiung eines Skl eines Sklaven, oder das Fasten, oder die Almosensteuer.“",
+          "ru": "Он сказал: «Да, освобождение раба, или пост, или милостыня.",
+          "zh": "他说：\"是的，释放奴隶，或封斋，或施舍。\""
+        },
+        "word_start": 35,
+        "word_end": 43
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَهَذَا الْخَبَرُ مَحْمُولٌ عَلَى التَّقِيَّةِ لِأَنَّهُ مَذْهَبُ قَوْمٍ مِنَ الْمُخَالِفِينَ وَالصَّحِيحُ الْأَوَّلُ",
+        "translations": {
+          "en": "And this report is based on taqiyyah (concealment) because it is the opinion of some of the opposing sects, and the correct ruling is the first one.",
+          "ur": "اور یہ روایت تقیہ (چھپانے) پر مبنی ہے کیونکہ یہ بعض مخالف فرقوں کی رائے ہے، اور صحیح حکم پہلا ہی ہے۔",
+          "tr": "Bu rivayet, taqiyyeye (gizleme) dayalıdır çünkü bazı muhalif mezheplerin görüşüdür ve doğru hüküm ilk olandır.",
+          "fa": "و این روایت بر اساس تقیه است زیرا آن نظر برخی از فرق مخالف است و حکم صحیح همان حکم اول است.",
+          "id": "Dan laporan ini didasarkan pada taqiyyah (penyembunyian) karena itu adalah pendapat sebagian dari sekte-sekte yang berseberangan, dan hukum yang benar adalah yang pertama.",
+          "bn": "এবং এই হাদিস তাকিয়া (লুকানো)র ভিত্তিতে, কারণ এটি কিছু বিরোধী সম্প্রদায়ের মত, এবং সঠিক রায় হলো প্রথমটি।",
+          "es": "Y este informe se basa en la taqiyyah (ocultación), porque es la opinión de algunas de las sectas opuestas, y el dictamen correcto es el primero.",
+          "fr": "Et ce rapport est basé sur la taqiyyah (dissimulation) car c'est l'avis de certaines des sectes opposées, et le jugement correct est le premier.",
+          "de": "Und dieser Bericht basiert auf Taqiyyah (Verbergen), da er die Ansicht einiger der gegnerischen Sekten ist, und die richtige Rechtsentscheidung ist die erste.",
+          "ru": "И этот хадис основан на такийе (сокрытии), поскольку он является мнением некоторых из противоборствующих сект, а правильное решение — первое.",
+          "zh": "此报告基于塔基亚（ concealment ），因为它是某些对立教派的意见，而正确的裁决是第一种。"
+        },
+        "word_start": 43,
+        "word_end": 55
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith clarifies that the expiation (kaffarah) for zihar is not nullified by the wife's subsequent marriage to another man, a ruling supported by the majority of Shia jurists. Al-Tusi notes the report's reliance on taqiyyah to align with opposing schools, yet affirms the primary obligation of freeing a slave, fasting, or charity as the enduring penalty for the initial verbal estrangement.",
+        "seo_question": "What is the expiation for zihar if the wife marries another man and then returns to the first husband?",
+        "key_terms": {
+          "ظَاهَرَ": "Zihar: a pre-Islamic and early Islamic form of divorce where a husband compares his wife to his mother's back, making intercourse forbidden until expiation is paid.",
+          "الْكَفَّارَةُ": "Kaffarah: the expiation or penalty required for specific acts, such as zihar or breaking an oath.",
+          "عِتْقُ رَقَبَةٍ": "Itq raqabah: freeing a slave, which is the first option for expiation.",
+          "صِيَامٌ": "Siyam: fasting, the second option for expiation if one cannot free a slave.",
+          "صَدَقَةٌ": "Sadaqah: charity/giving, the third option for expiation.",
+          "التَّقِيَّة": "Taqiyyah: the practice of concealing one's true beliefs or rulings to avoid harm or because it aligns with a minority view.",
+          "الظِّهَارِ الْأَوَّلِ": "Al-zihar al-awwal: the initial act of zihar performed by the husband."
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث واضح کرتی ہے کہ ظہار کی کفارہ بیوی کے بعد کسی دوسرے مرد سے شادی کرنے سے ختم نہیں ہوتی، جو شیعہ فقہاء کی اکثریت کی رائے سے مؤید ہے۔ التوسی نے نوٹ کیا ہے کہ یہ روایت مخالف مکاتب فکر کے ساتھ ہم آہنگ ہونے کے لیے تقیہ پر انحصار کرتی ہے، تاہم وہ ابتدائی لفظی جدائی کے لیے غلام آزاد کرنا، روزہ رکھنا یا صدقہ دینے کو مستقل سزا کے طور پر تسلیم کرتے ہیں۔",
+        "seo_question": "اگر بیوی کسی دوسرے مرد سے شادی کر لے اور پھر پہلے شوہر کے پاس واپس آ جائے تو ظہار کی کفارہ کیا ہے؟",
+        "key_terms": {
+          "ظَاهَرَ": "ظہار: ایک ایسی طلاق کا انداز جو اسلام سے پہلے اور ابتدائی اسلامی دور میں رائج تھا جس میں شوہر بیوی کو اپنی ماں کی پیٹھ سے مشابہ قرار دیتا ہے، جس سے کفارہ ادا ہونے تک جماع حرام ہو جاتا ہے۔",
+          "الْكَفَّارَةُ": "کفارہ: مخصوص اعمال جیسے ظہار یا قسم توڑنے کے لیے ضروری سزا یا کفارہ۔",
+          "عِتْقُ رَقَبَةٍ": "عِتْقُ رَقَبَة: غلام آزاد کرنا، جو کفارہ کے پہلے اختیار کے طور پر ہے۔",
+          "صِيَامٌ": "صِيَام: روزہ رکھنا، جو اگر کوئی غلام آزاد نہ کر سکے تو کفارہ کا دوسرا اختیار ہے۔",
+          "صَدَقَةٌ": "صَدَقَة: صدقہ یا عطیہ دینا، جو کفارہ کا تیسرا اختیار ہے۔",
+          "التَّقِيَّة": "تقیہ: اپنے حقیقی عقائد یا احکام کو چھپانے کی عملی روایت تاکہ نقصان سے بچا جا سکے یا یہ کہ یہ اقلیتی رائے کے مطابق ہو۔",
+          "الظِّهَارِ الْأَوَّلِ": "الظِّهَارِ الْأَوَّلِ: شوہر کی جانب سے کی گئی ظہار کی ابتدائی عمل۔"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, ziharın kefaretinin, karının başka bir erkekle evlenmesiyle ortadan kalkmadığını, bu hüküm Şia alimlerinin çoğunluğu tarafından desteklendiğini açıklar. Et-Tusi, bu rivayetin karşı okullarla uyum sağlamak için takkiyeye dayandığını not eder, ancak başlangıçtaki sözlü ayrılığı gidermek için köle azat etmek, oruç tutmak veya sadaka vermek gibi kalıcı cezaların asıl yükümlülük olduğunu onaylar.",
+        "seo_question": "Karı başka bir erkekle evlenirse ve sonra ilk kocasına dönerse ziharın kefaretı nedir?",
+        "key_terms": {
+          "ظَاهَرَ": "Zihar: Eşinin sırtını annesinin sırtına benzeterek, kefaret ödenene kadar cinsel ilişkiyi haram kılan, İslam öncesi ve erken İslam döneminde görülen bir boşama türü.",
+          "الْكَفَّارَةُ": "Kefaret: Zihar veya yemini bozmak gibi belirli fiiller için gereken kefaret veya ceza.",
+          "عِتْقُ رَقَبَةٍ": "Köle azat etmek: Kefaret için ilk seçenek olan kölenin azat edilmesi.",
+          "صِيَامٌ": "Oruç: Köle azat edemeyen kişi için ikinci seçenek olan oruç tutmak.",
+          "صَدَقَةٌ": "Sadaka: Kefaret için üçüncü seçenek olan sadaka verme.",
+          "التَّقِيَّة": "Takıyya: Zararı önlemek veya azınlık görüşüyle uyum sağlamak amacıyla gerçek inanç veya hükümleri gizleme uygulaması.",
+          "الظِّهَارِ الْأَوَّلِ": "İlk zihar: Kocanın gerçekleştirdiği ilk zihar eylemi."
+        }
+      },
+      "fa": {
+        "summary": "این حدیث روشن می‌سازد که کفاره ظهار با ازدواج مجدد همسر با مرد دیگری باطل نمی‌شود، که این حکم مورد تأیید اکثر فقهای شیعه است. طوسی اشاره می‌کند که این روایت برای هماهنگی با مکاتب مخالف بر تقیه تکیه دارد، اما در عین حال تکلیف اصلی آزاد کردن برده، روزه گرفتن یا صدقه دادن را به عنوان مجازات پایدار برای جدایی زبانی اولیه تأیید می‌کند.",
+        "seo_question": "کفاره ظهار اگر همسر با مرد دیگری ازدواج کند و سپس به همسر اول بازگردد چیست؟",
+        "key_terms": {
+          "ظَاهَرَ": "ظهار: شکلی از طلاق در پیش از اسلام و اوایل اسلام است که در آن شوهر پشت همسرش را مانند پشت مادرش می‌داند و تا زمانی که کفاره پرداخت شود، رابطه جنسی حرام است.",
+          "الْكَفَّارَةُ": "کفاره: مجازات یا جبران لازم برای اعمال خاص، مانند ظهار یا شکستن سوگند.",
+          "عِتْقُ رَقَبَةٍ": "عتق رقبه: آزاد کردن برده، که اولین گزینه برای کفاره است.",
+          "صِيَامٌ": "صیام: روزه گرفتن، که دومین گزینه برای کفاره در صورتی است که فرد نتواند برده‌ای را آزاد کند.",
+          "صَدَقَةٌ": "صدقه: بخشش یا اعطا، که سومین گزینه برای کفاره است.",
+          "التَّقِيَّة": "تقیه: عمل پنهان کردن باورهای واقعی یا احکام برای اجتناب از آسیب یا به دلیل همسو بودن با دیدگاه اقلیت.",
+          "الظِّهَارِ الْأَوَّلِ": "الظهار الأول: عمل اولیه ظهار انجام شده توسط شوهر."
+        }
+      },
+      "id": {
+        "summary": "Hadis ini menjelaskan bahwa denda (kaffarah) bagi zihar tidak gugur karena istri kemudian menikah dengan pria lain, sebuah ketentuan yang didukung oleh mayoritas fuqaha Syiah. Al-Tusi mencatat bahwa laporan ini bergantung pada taqiyyah untuk selaras dengan mazhab yang berlawanan, namun menegaskan kewajiban utama untuk memerdekakan budak, berpuasa, atau bersedekah sebagai hukuman yang bertahan untuk pemisahan verbal awal.",
+        "seo_question": "Apa denda bagi zihar jika istri menikah dengan pria lain dan kemudian kembali kepada suami pertama?",
+        "key_terms": {
+          "ظَاهَرَ": "Zihar: bentuk perceraian pra-Islam dan awal Islam di mana suami membandingkan punggung istrinya dengan punggung ibunya, membuat hubungan intim dilarang hingga denda dibayarkan.",
+          "الْكَفَّارَةُ": "Kaffarah: denda atau hukuman yang diperlukan untuk tindakan tertentu, seperti zihar atau melanggar sumpah.",
+          "عِتْقُ رَقَبَةٍ": "Itq raqabah: memerdekakan budak, yang merupakan opsi pertama untuk denda.",
+          "صِيَامٌ": "Siyam: berpuasa, opsi kedua untuk denda jika seseorang tidak dapat memerdekakan budak.",
+          "صَدَقَةٌ": "Sadaqah: sedekah/memberi, opsi ketiga untuk denda.",
+          "التَّقِيَّة": "Taqiyyah: praktik menyembunyikan keyakinan atau ketentuan sejati untuk menghindari bahaya atau karena selaras dengan pandangan minoritas.",
+          "الظِّهَارِ الْأَوَّلِ": "Al-zihar al-awwal: tindakan awal zihar yang dilakukan oleh suami."
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে স্পষ্ট করা হয়েছে যে, স্ত্রী অন্য পুরুষের সাথে বিবাহবন্ধনে আবদ্ধ হওয়ার পরেও জিহার (Zihar)-এর কফফারা (Kaffarah) বাতিল হয় না, যা শিয়া ফকিহদের মতে প্রচলিত। আল-তুসি উল্লেখ করেছেন যে, এই রিপোর্টটি বিপরীত মতাবলম্বীদের সাথে সামঞ্জস্যপূর্ণ হওয়ার জন্য তাকিয়া (Taqiyyah)-এর ওপর নির্ভরশীল, তবে প্রাথমিক কথায় বিচ্ছিন্নতার জন্য দাস মুক্ত করা, উপবাস বা দান—এই তিনটিই চিরন্তন শাস্তি হিসেবে স্বীকৃত।",
+        "seo_question": "যদি স্ত্রী অন্য পুরুষের সাথে বিবাহবন্ধনে আবদ্ধ হয় এবং পরে প্রথম স্বামীর কাছে ফিরে আসে, তবে জিহার (Zihar)-এর কফফারা (Kaffarah) কী হবে?",
+        "key_terms": {
+          "ظَاهَرَ": "জিহার (Zihar): একটি প্রাচীন ও প্রাথমিক ইসলামিক বিবাহবিচ্ছেতের রূপ যেখানে স্বামী স্ত্রীকে তার মায়ের পিঠের সাথে তুলনা করেন, যতক্ষণ না কফফারা (Kaffarah) পরিশোধ করা হয়, ততক্ষণ যৌনমিলন নিষিদ্ধ থাকে।",
+          "الْكَفَّارَةُ": "কফফারা (Kaffarah): নির্দিষ্ট কাজের জন্য প্রয়োজনীয় প্রায়শ্চিত্ত বা শাস্তি, যেমন জিহার (Zihar) বা শপথ ভঙ্গ করা।",
+          "عِتْقُ رَقَبَةٍ": "ইতক রাবাবাহ (Itq raqabah): দাস মুক্ত করা, যা প্রায়শ্চিত্তের প্রথম বিকল্প।",
+          "صِيَامٌ": "সিয়াম (Siyam): উপবাস, যদি কেউ দাস মুক্ত করতে না পারেন তবে এটি প্রায়শ্চিত্তের দ্বিতীয় বিকল্প।",
+          "صَدَقَةٌ": "সদাকা (Sadaqah): দান বা অর্থ প্রদান, প্রায়শ্চিত্তের তৃতীয় বিকল্প।",
+          "التَّقِيَّة": "তাকিয়া (Taqiyyah): নিজের সঠিক বিশ্বাস বা ফতোয়া লুকিয়ে রাখার প্রক্রিয়া, যা ক্ষতি এড়াতে বা সংখ্যালঘু মতামতের সাথে সামঞ্জস্যপূর্ণ হতে করা হয়।",
+          "الظِّهَارِ الْأَوَّلِ": "আল-জিহার আল-আওয়াল (Al-zihar al-awwal): স্বামীর দ্বারা প্রথমবারের মতো জিহার (Zihar) করা।"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz aclara que la expiación (kaffarah) por el zihar no se anula por el posterior matrimonio de la esposa con otro hombre, una norma respaldada por la mayoría de los juristas chiíes. Al-Tusi señala que el informe depende de la taqiyyah para alinearse con las escuelas opuestas, pero afirma que la obligación primaria de liberar a un esclavo, ayunar o dar limosna es la pena duradera por el alejamiento verbal inicial.",
+        "seo_question": "¿Cuál es la expiación por el zihar si la esposa se casa con otro hombre y luego regresa al primer esposo?",
+        "key_terms": {
+          "ظَاهَرَ": "El zihar es una forma de divorcio preislámica e islámica temprana en la que un esposo compara a su esposa con la espalda de su madre, haciendo prohibida la relación sexual hasta que se pague la expiación.",
+          "الْكَفَّارَةُ": "La kaffarah es la expiación o pena requerida por actos específicos, como el zihar o romper un juramento.",
+          "عِتْقُ رَقَبَةٍ": "La itq raqabah es la liberación de un esclavo, que es la primera opción para la expiación.",
+          "صِيَامٌ": "El siyam es el ayuno, la segunda opción para la expiación si uno no puede liberar a un esclavo.",
+          "صَدَقَةٌ": "La sadaqah es la limosna o donación, la tercera opción para la expiación.",
+          "التَّقِيَّة": "La taqiyyah es la práctica de ocultar las creencias o normas verdaderas para evitar daños o porque se alinea con una visión minoritaria.",
+          "الظِّهَارِ الْأَوَّلِ": "El al-zihar al-awwal es el acto inicial de zihar realizado por el esposo."
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith précise que l'expiation (kaffarah) du zihar n'est pas annulée par le remariage de l'épouse avec un autre homme, une règle soutenue par la majorité des jurisconsultes chiites. Al-Tusi note que le rapport s'appuie sur la taqiyyah pour s'aligner sur les écoles opposées, tout en affirmant que l'obligation principale de libérer un esclave, de jeûner ou de donner l'aumône constitue la pénalité durable pour l'éloignement verbal initial.",
+        "seo_question": "Quelle est l'expiation du zihar si l'épouse épouse un autre homme puis revient au premier mari ?",
+        "key_terms": {
+          "ظَاهَرَ": "Le zihar est une forme de divorce préislamique et de l'islam primitif où un mari compare le dos de sa femme à celui de sa mère, rendant les rapports intimes interdits jusqu'à ce que l'expiation soit payée.",
+          "الْكَفَّارَةُ": "La kaffarah est l'expiation ou la pénalité requise pour des actes spécifiques, tels que le zihar ou la rupture d'un serment.",
+          "عِتْقُ رَقَبَةٍ": "L'itq raqabah est la libération d'un esclave, qui est la première option pour l'expiation.",
+          "صِيَامٌ": "Le siyam est le jeûne, la deuxième option pour l'expiation si l'on ne peut pas libérer un esclave.",
+          "صَدَقَةٌ": "La sadaqah est l'aumône ou le don, la troisième option pour l'expiation.",
+          "التَّقِيَّة": "La taqiyyah est la pratique de dissimuler ses croyances ou ses avis réels pour éviter un préjudice ou parce qu'elle s'aligne sur une vue minoritaire.",
+          "الظِّهَارِ الْأَوَّلِ": "Al-zihar al-awwal désigne l'acte initial de zihar accompli par le mari."
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith klärt, dass die Sühne (Kaffara) für das Zihar) nicht durch die nachfolgende Heirat der Frau mit einem anderen Mann aufgehoben wird, eine Rechtsauffassung, die von der Mehrheit der schiitischen Rechtsgelehrten unterstützt wird. Al-Tusi merkt an, dass sich der Bericht auf Taqiyya stützt, um mit gegnerischen Schulen übereinzustimmen, bestätigt jedoch die primäre Verpflichtung, einen Sklaven zu befreien, zu fasten oder Almosen zu geben, als die dauerhafte Strafe für die ursprüngliche verbale Entfremdung.",
+        "seo_question": "Was ist die Sühne für Zihar, wenn die Frau einen anderen Mann heiratet und dann zum ersten Ehemann zurückkehrt?",
+        "key_terms": {
+          "ظَاهَرَ": "Zihar: eine Form der Scheidung aus der vorislamischen und frühen islamischen Zeit, bei der ein Ehemann seine Frau mit dem Rücken seiner Mutter vergleicht, wodurch die Geschlechtsunterscheidung verboten ist, bis die Sühne gezahlt wird.",
+          "الْكَفَّارَةُ": "Kaffara: die Sühne oder Strafe, die für bestimmte Handlungen erforderlich ist, wie Zihar oder das Brechen eines Eides.",
+          "عِتْقُ رَقَبَةٍ": "Itq raqabah: die Befreiung eines Sklaven, was die erste Option für die Sühne ist.",
+          "صِيَامٌ": "Siyam: das Fasten, die zweite Option für die Sühne, wenn man keinen Sklaven befreien kann.",
+          "صَدَقَةٌ": "Sadaqah: die Almosen/Gabe, die dritte Option für die Sühne.",
+          "التَّقِيَّة": "Taqiyya: die Praxis, die eigenen wahren Überzeugungen oder Rechtsurteile zu verbergen, um Schaden abzuwenden oder weil sie mit einer Minderheitenansicht übereinstimmt.",
+          "الظِّهَارِ الْأَوَّلِ": "Al-zihar al-awwal: die ursprüngliche Handlung des Zihar, die vom Ehemann begangen wurde."
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис разъясняет, что искупление (каффара) за зихар не аннулируется последующим замужеством жены за другим мужчиной, что поддерживается большинством шиитских правоведов. Ат-Туси отмечает, что опора этого сообщения на такию согласуется с противоположными школами, однако подтверждает первичную обязанность освобождения раба, поста или милостыни как сохраняющееся наказание за первоначальное словесное отчуждение.",
+        "seo_question": "Каково искупление за зихар, если жена выходит замуж за другого мужчину, а затем возвращается к первому мужу?",
+        "key_terms": {
+          "ظَاهَرَ": "Зихар: форма развода доисламского и раннеисламского периода, когда муж сравнивает спину жены со спиной своей матери, делая интимную связь запретной до выплаты искупления.",
+          "الْكَفَّارَةُ": "Каффара: искупление или наказание, требуемое за определенные действия, такие как зихар или нарушение клятвы.",
+          "عِتْقُ رَقَبَةٍ": "Итк ракаба: освобождение раба, являющееся первым вариантом искупления.",
+          "صِيَامٌ": "Сиям: пост, второй вариант искупления, если нет возможности освободить раба.",
+          "صَدَقَةٌ": "Садака: милостыня/дарение, третий вариант искупления.",
+          "التَّقِيَّة": "Такия: практика сокрытия своих истинных убеждений или правовых решений во избежание вреда или потому, что она соответствует мнению меньшинства.",
+          "الظِّهَارِ الْأَوَّلِ": "Аз-зихар аль-авваль: первоначальный акт зихара, совершенный мужем."
+        }
+      },
+      "zh": {
+        "summary": "此圣训阐明，妻子再嫁他人并不免除丈夫对齐哈尔（zihar）的赎罪（kaffarah）义务，这一裁决得到多数什叶派法学家的支持。图西指出，该报告依赖塔基亚（taqiyyah）以与对立学派保持一致，但他确认释放奴隶、斋戒或施舍作为最初口头疏远行为的持续惩罚是主要义务。",
+        "seo_question": "如果妻子嫁给另一个男人后又回到第一个丈夫身边，齐哈尔的赎罪是什么？",
+        "key_terms": {
+          "ظَاهَرَ": "齐哈尔：一种前伊斯兰和早期伊斯兰形式的离婚，丈夫将妻子比作母亲的背部，使性交被禁止，直到支付赎罪。",
+          "الْكَفَّارَةُ": "赎罪：为特定行为（如齐哈尔或违背誓言）所需的赎罪或惩罚。",
+          "عِتْقُ رَقَبَةٍ": "释放奴隶：释放奴隶，这是赎罪的第一种选择。",
+          "صِيَامٌ": "斋戒：如果无法释放奴隶，斋戒是赎罪的第二种选择。",
+          "صَدَقَةٌ": "施舍：慈善/给予，这是赎罪的第三种选择。",
+          "التَّقِيَّة": "塔基亚：隐瞒自己真实信仰或裁决以避免伤害或因为符合少数派观点的做法。",
+          "الظِّهَارِ الْأَوَّلِ": "最初的齐哈尔：丈夫最初进行的齐哈尔行为。"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "58:3",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "58:4",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَسَأَلَ عَلِيُّ بْنُ جَعْفَرٍ أَخَاهُ مُوسَىٰ بْنَ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ عَنْ رَجُلٍ ظَاهَرَ مِنْ امْرَأَتِهِ ثُمَّ طَلَّقَهَا بَعْدَ ذَلِكَ بِشَهْرٍ أَوْ شَهْرَيْنِ فَتَزَوَّجَتْ ثُمَّ طَلَّقَهَا الَّذِي تَزَوَّجَهَا فَرَاجَعَهَا الْأَوَّلُ هَلْ عَلَيْهِ فِيهَا الْكَفَّارَةُ لِلظِّهَارِ الْأَوَّلِ قَالَ «نَعَمْ عِتْقُ رَقَبَةٍ أَوْ صِيَامٌ أَوْ صَدَقَةٌ» وَهَذَا الْخَبَرُ مَحْمُولٌ عَلَى التَّقِيَّةِ لِأَنَّهُ مَذْهَبُ قَوْمٍ مِنَ الْمُخَالِفِينَ وَالصَّحِيحُ الْأَوَّلُ",
+    "isnad_matn": {
+      "isnad_ar": "27 - وَ سَأَلَ عَلِيُّ بْنُ جَعْفَرٍ أَخَاهُ مُوسَى بْنَ جَعْفَرٍ عَلَيْهِمَا اَلسَّلاَمُ عَنْ رَجُلٍ ظَاهَرَ مِنِ اِمْرَأَتِهِ ثُمَّ طَلَّقَهَا بَعْدَ ذَلِكَ بِشَهْرٍ أَوْ شَهْرَيْنِ فَتَزَوَّجَتْ ثُمَّ طَلَّقَهَا اَلَّذِي تَزَوَّجَهَا فَرَاجَعَهَا اَلْأَوَّلُ هَلْ عَلَيْهِ فِي",
+      "matn_ar": "وَسَأَلَ عَلِيُّ بْنُ جَعْفَرٍ أَخَاهُ مُوسَىٰ بْنَ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ عَنْ رَجُلٍ ظَاهَرَ مِنْ امْرَأَتِهِ ثُمَّ طَلَّقَهَا بَعْدَ ذَلِكَ بِشَهْرٍ أَوْ شَهْرَيْنِ فَتَزَوَّجَتْ ثُمَّ طَلَّقَهَا الَّذِي تَزَوَّجَهَا فَرَاجَعَهَا الْأَوَّلُ هَلْ عَلَيْهِ فِيهَا الْكَفَّارَةُ لِلظِّهَارِ الْأَوَّلِ قَالَ «نَعَمْ عِتْقُ رَقَبَةٍ أَوْ صِيَامٌ أَوْ صَدَقَةٌ» وَهَذَا الْخَبَرُ مَحْمُولٌ عَلَى التَّقِيَّةِ لِأَنَّهُ مَذْهَبُ قَوْمٍ مِنَ الْمُخَالِفِينَ وَالصَّحِيحُ الْأَوَّلُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "سَأَلَ عَلِيُّ بْنُ جَعْفَرٍ أَخَاهُ مُوسَى بْنَ جَعْفَرٍ عَلَيْهِمَا اَلسَّلاَمُ",
+          "name_en": "Ali b. Ja'far b. Muhammad",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "رَجُلٍ ظَاهَرَ مِنِ اِمْرَأَتِهِ ثُمَّ طَلَّقَهَا بَعْدَ ذَلِكَ بِشَهْرٍ أَوْ شَهْرَيْنِ فَتَزَوَّجَتْ ثُمَّ طَلَّقَهَا اَلَّذِي تَزَوَّجَهَا فَرَاجَعَهَا اَلْأَوَّلُ هَلْ عَلَيْهِ",
+          "name_en": "Rajul",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

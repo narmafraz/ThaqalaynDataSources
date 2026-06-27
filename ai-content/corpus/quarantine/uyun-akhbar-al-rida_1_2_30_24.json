@@ -1,0 +1,394 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:30:24",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 17 words (>14, بن-density 0.12 — likely a sentence fragment, not a name): 'حَدَّثَنا عَلِىِّ بْنِ عَبْدِ اللَّه الوَرَّاقُ رَضِىَ اللهُ'",
+    "narrator[9] name_ar has 33 words (>14, بن-density 0.03 — likely a sentence fragment, not a name): 'أَبيهِ أَمِيرِ الْمُؤْمِنين عَلِىِّ بْنِ أَبي طـالِبٍ\\u200f عَلَي'",
+    "chunks[1] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "family",
+      "afterlife",
+      "social_relations"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "spousal_rights",
+      "paradise_hell",
+      "ritual_purity",
+      "womens_rights",
+      "prophetic_character"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ الْوَرَّاقُ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي عَبْدِ اللَّهِ الْكُوفِيُّ عَنْ سَهْلِ بْنِ زِيَادٍ الْأَدَمِيِّ عَنْ عَبْدِ الْعَظِيمِ بْنِ عَبْدِ اللَّهِ الْحَسَنِيِّ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ الرِّضَا عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ عَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الْحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ أَمِيرِ الْمُؤْمِنِينَ عَلِيِّ بْنِ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ قَالَ:",
+        "translations": {
+          "en": "Ali ibn Abdullah al-Warraq (may God be pleased with him) narrated that Muhammad ibn Abi Abdillah al-Kufi quoted on the authority of Sahl ibn Ziyad al-Adami, on the authority of Abdul Azeem ibn Abdullah al-Hasani, on the authority of Muhammad ibn Ali al-Ridha (peace be upon him), on the authority of his father Musa ibn Ja'far (peace be upon him), on the authority of his father Ja'far ibn Muhammad (peace be upon him), on the authority of his father Muhammad ibn Ali (peace be upon him), on the authority of his father Ali ibn al-Husayn (peace be upon him), on the authority of his father al-Husayn ibn Ali (peace be upon him), on the authority of his father the Commander of the Faithful Ali ibn Abi Talib (peace be upon him) who said:",
+          "ur": "علی بن عبداللہ الورّاق رضی اللہ عنہ نے بیان کیا کہ محمد بن ابی عبداللہ کوفی نے سهل بن زیاد الأدمی سے، عبدالعظیم بن عبداللہ الحسنی سے، محمد بن علی الرضا علیہ السلام سے، ان کے والد موسیٰ بن جعفر علیہ السلام سے، ان کے والد جعفر بن محمد علیہ السلام سے، ان کے والد محمد بن علی علیہ السلام سے، ان کے والد علی بن الحسین علیہ السلام سے، ان کے والد الحسین بن علی علیہ السلام سے، ان کے والد امیر المؤمنین علی بن ابی طالب علیہ السلام سے روایت کی کہ انہوں نے کہا:",
+          "tr": "Ali ibn Abdullah el-Verrak (Allah ondan razı olsun) rivayet etti ki: Muhammed ibn Ebi Abdillah el-Kufi, Sahle ibn Ziyad el-Ademi'den, Abdulazim ibn Abdullah el-Hasani'den, Muhammed ibn Ali er-Rıza (aleyhisselam)'dan, o da babası Musa ibn Cafer (aleyhisselam)'dan, o da babası Cafer ibn Muhammed (aleyhisselam)'dan, o da babası Muhammed ibn Ali (aleyhisselam)'dan, o da babası Ali ibn el-Hüseyin (aleyhisselam)'dan, o da babası Hüseyin ibn Ali (aleyhisselam)'dan, o da babası Emîrü'l-Müminîn Ali ibn Ebi Tâlib (aleyhisselam)'dan rivayet etti ki şöyle dedi:",
+          "fa": "علی بن عبدالله ورّاق رضی‌الله‌عنه روایت کرد که محمد بن ابی‌عبدالله کوفی از سهل بن زیاد آدمی، از عبدالعظیم بن عبدالله حسنی، از محمد بن علی رضی‌السلام، از پدرش موسی بن جعفر رضی‌السلام، از پدرش جعفر بن محمد رضی‌السلام، از پدرش محمد بن علی رضی‌السلام، از پدرش علی بن الحسین رضی‌السلام، از پدرش الحسین بن علی رضی‌السلام، از پدرش امیرالمؤمنین علی بن ابی‌طالب رضی‌السلام روایت کرد که فرمود:",
+          "id": "Ali ibn Abdullah al-Warraq (ra) meriwayatkan bahwa Muhammad ibn Abi Abdillah al-Kufi meriwayatkan dari Sahl ibn Ziyad al-Adami, dari Abdul Azeem ibn Abdullah al-Hasani, dari Muhammad ibn Ali al-Ridha (as), dari ayahnya Musa ibn Ja'far (as), dari ayahnya Ja'far ibn Muhammad (as), dari ayahnya Muhammad ibn Ali (as), dari ayahnya Ali ibn al-Husayn (as), dari ayahnya al-Husayn ibn Ali (as), dari ayahnya Amirul Mukminin Ali ibn Abi Talib (as) yang berkata:",
+          "bn": "আলী ইবনে আবদুল্লাহ আল-ওয়াররাক (রহ.) হতে বর্ণনা করেন, তিনি বলেন: মুহাম্মদ ইবনে আবী আবদুল্লাহ আল-কুফী সাহল ইবনে জিয়াদ আল-আদামীর বর্ণনা থেকে, আব্দুল আযীম ইবনে আবদুল্লাহ আল-হাসানীর বর্ণনা থেকে, মুহাম্মদ ইবনে আলী আল-রিদা (আস)-এর বর্ণনা থেকে, তার পিতা মুসা ইবনে জাফর (আস)-এর বর্ণনা থেকে, তার পিতা জাফর ইবনে মুহাম্মদ (আস)-এর বর্ণনা থেকে, তার পিতা মুহাম্মদ ইবনে আলী (আস)-এর বর্ণনা থেকে, তার পিতা আলী ইবনে আল-হুসাইন (আস)-এর বর্ণনা থেকে, তার পিতা আল-হুসাইন ইবনে আলী (আস)-এর বর্ণনা থেকে, তার পিতা আমীরুল মুমিনীন আলী ইবনে আবী তালিব (আস)-এর বর্ণনা থেকে, যিনি বলেন:",
+          "es": "Narró Alí ibn Abdalá al-Warrāq (que Dios esté complacido con él) que Muhammad ibn Abi Abdalá al-Kufi, a su vez, de Sahl ibn Ziyad al-Adami, de Abd al-Azim ibn Abdalá al-Hasani, de Muhammad ibn Alí al-Ridha (la paz sea con él), de su padre Musa ibn Ya'far (la paz sea con él), de su padre Ya'far ibn Muhammad (la paz sea con él), de su padre Muhammad ibn Alí (la paz sea con él), de su padre Alí ibn al-Husayn (la paz sea con él), de su padre al-Husayn ibn Alí (la paz sea con él), de su padre el Comandante de los Creyentes Alí ibn Abi Tálib (la paz sea con él), quien dijo:",
+          "fr": "Ali ibn Abdullah al-Warraq (que Dieu l'agrée) a narré que Muhammad ibn Abi Abdillah al-Kufi, rapporté de Sahl ibn Ziyad al-Adami, d'Abdul Azeem ibn Abdullah al-Hasani, de Muhammad ibn Ali al-Ridha (que la paix soit sur lui), de son père Musa ibn Ja'far (que la paix soit sur lui), de son père Ja'far ibn Muhammad (que la paix soit sur lui), de son père Muhammad ibn Ali (que la paix soit sur lui), de son père Ali ibn al-Husayn (que la paix soit sur lui), de son père al-Husayn ibn Ali (que la paix soit sur lui), de son père le Commandeur des Croyants Ali ibn Abi Talib (que la paix soit sur lui) qui a dit :",
+          "de": "24 - Ali ibn Abdullah al-Warraq (möge Gott mit ihm zufrieden sein) überlieferte, dass Muhammad ibn Abi Abdillah al-Kufi von Sahl ibn Ziyad al-Adami, von Abdul Azeem ibn Abdullah al-Hasani, von Muhammad ibn Ali al-Ridha (Friede sei mit ihm), von seinem Vater Musa ibn Ja'far (Friede sei mit ihm), von seinem Vater Ja'far ibn Muhammad (Friede sei mit ihm), von seinem Vater Muhammad ibn Ali (Friede sei mit ihm), von seinem Vater Ali ibn al-Husayn (Friede sei mit ihm), von seinem Vater al-Husayn ibn Ali (Friede sei mit ihm), von seinem Vater dem Befehlshaber der Gläubigen Ali ibn Abi Talib (Friede sei mit ihm) überlieferte, der sagte:",
+          "ru": "Али ибн Абдуллах аль-Варракъ (да будет доволен им Аллах) передал, что Мухаммад ибн Аби Абдуллах аль-Куфи сообщил от Сахла ибн Зияда аль-Адами, от Абдуль-Азиза ибн Абдуллаха аль-Хасани, от Мухаммада ибн Али ар-Риды (мир ему), от его отца Мусы ибн Джафара (мир ему), от его отца Джафара ибн Мухаммада (мир ему), от его отца Мухаммада ибн Али (мир ему), от его отца Али ибн аль-Хусейна (мир ему), от его отца аль-Хусейна ибн Али (мир ему), от его отца Повелителя верующих Али ибн Аби Талиба (мир ему), который сказал:",
+          "zh": "阿里·本·阿卜杜拉·瓦拉格（愿主喜悦之）传述，穆罕默德·本·艾比·阿卜杜拉·库菲从萨赫勒·本·齐亚德·阿达米传述，从阿卜杜·阿齐姆·本·阿卜杜拉·哈桑尼传述，从穆罕默德·本·阿里·里达（愿主赐安）传述，从他父亲穆萨·本·贾法尔（愿主赐安）传述，从他父亲贾法尔·本·穆罕默德（愿主赐安）传述，从他父亲穆罕默德·本·阿里（愿主赐安）传述，从他父亲阿里·本·侯赛因（愿主赐安）传述，从他父亲侯赛因·本·阿里（愿主赐安）传述，从他父亲信士的长官阿里·本·艾比·塔利卜（愿主赐安）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 82
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "دَخَلْتُ أَنَا وَفَاطِمَةُ عَلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَوَجَدْتُهُ يَبْكِي بُكَاءً شَدِيدًا فَقُلْتُ فِدَاكَ أَبِي وَأُمِّي يَا رَسُولَ اللَّهِ مَا الَّذِي أَبْكَاكَ فَقَالَ يَا عَلِيُّ لَيْلَةَ أُسْرِيَ بِي إِلَى السَّمَاءِ رَأَيْتُ نِسَاءً مِنْ أُمَّتِي فِي عَذَابٍ شَدِيدٍ فَأَنْكَرْتُ شَأْنَهُنَّ فَبَكَيْتُ لِمَا رَأَيْتُ مِنْ شِدَّةِ عَذَابِهِنَّ وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِشَعْرِهَا يَغْلِي دِمَاغُ رَأْسِهَا وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِلِسَانِهَا وَالْحَمِيمُ يُصَبُّ فِي حَلْقِهَا وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِثَدْيِهَا وَرَأَيْتُ امْرَأَةً تَأْكُلُ لَحْمَ جَسَدِهَا وَالنَّارُ تُوقَدُ مِنْ تَحْتِهَا وَرَأَيْتُ امْرَأَةً قَدْ شُدَّ رِجْلَاهَا إِلَى يَدَيْهَا وَقَدْ سُلِّطَ عَلَيْهَا الْحَيَّاتُ وَالْعَقَارِبُ وَرَأَيْتُ امْرَأَةً صَمَّاءَ عَمْيَاءَ خَرْسَاءَ فِي تَابُوتٍ مِنْ نَارٍ يَخْرُجُ دِمَاغُ رَأْسِهَا مِنْ مَنْخِرِهَا وَبَدَنُهَا مُتَقَطِّعٌ مِنَ الْجُذَامِ وَالْبَرَصِ وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِرِجْلَيْهَا فِي تَنُّورٍ مِنْ نَارٍ وَرَأَيْتُ امْرَأَةً تُقَطَّعُ لَحْمُ جَسَدِهَا مِنْ مُقَدَّمِهَا وَمُؤَخَّرِهَا بِمَقَارِيضَ مِنْ نَارٍ وَرَأَيْتُ امْرَأَةً يُحْرَقُ وَجْهُهَا وَيَدَاهَا وَهِيَ تَأْكُلُ أَمْعَاءَهَا وَرَأَيْتُ امْرَأَةً رَأْسُهَا رَأْسُ خِنْزِيرٍ وَبَدَنُهَا بَدَنُ الْحِمَارِ وَعَلَيْهَا أَلْفُ أَلْفِ لَوْنٍ مِنَ الْعَذَابِ وَرَأَيْتُ امْرَأَةً عَلَى صُورَةِ الْكَلْبِ وَالنَّارُ تَدْخُلُ فِي دُبُرِهَا وَتَخْرُجُ مِنْ فِيهَا وَالْمَلَائِكَةُ يَضْرِبُونَ رَأْسَهَا وَبَدَنَهَا بِمَقَامِعَ مِنْ نَارٍ فَقَالَتْ فَاطِمَةُ عَلَيْهَا السَّلَامُ حَبِيبِي وَقُرَّةُ عَيْنِي أَخْبِرْنِي مَا كَانَ عَمَلُهُنَّ وَسِيرَتُهُنَّ حَتَّى وَضَعَ اللَّهُ عَلَيْهِنَّ هَذَا الْعَذَابَ",
+        "translations": {
+          "en": "Fatima (peace be upon her) and I went to see God's Messenger (peace be upon him and his family) and found him crying a severe cry. I said, 'May my father and mother be your ransom, O Messenger of God! What is making you cry?' He said, 'O Ali! On the night I was taken for Ascension to the heavens, I saw women from my nation in severe punishment. I marveled at their condition and cried due to the severity of their punishment which I saw with my own eyes. I saw a woman hung up by her hair, her brain boiling. I saw a woman hung up by her tongue, and fire (al-hamim) being poured into her throat. I saw a woman hung up by her breast. I saw a woman eating the flesh of her body, while fire was kindled beneath her. I saw a woman whose feet were tied to her hands, and snakes and scorpions were cast upon her. I saw a woman who was deaf, dumb, and blind, in a coffin of fire, her brain flowing out of her nostrils, and her body torn apart by leprosy and vitiligo. I saw a woman hung up by her feet in a fire furnace. I saw a woman whose flesh was being cut from her front and back by fire scissors. I saw a woman whose face and hands were burning while she was eating her intestines. I saw a woman whose head was the head of a pig and her body was the body of a donkey, and upon her was a thousand thousand forms of punishment. I saw a woman in the form of a dog, fire entering her from her rear and exiting from her mouth, and the angels were beating her head and body with fire clubs.' Fatima (peace be upon her) said, 'My beloved, the delight of my eyes, tell me, what was their deed and conduct that God placed this punishment upon them?'",
+          "tr": "Fâtıma (aleyhisselâm) ve ben, Allah'ın Rasûlü'ne (sallallahu aleyhi ve âlihi sellem) gittik ve onu şiddetli bir ağlama hâlinde bulduk. Ben de, \"Babam ve annem sana feda olsun, ey Allah'ın Rasûlü! Seni ağlatan nedir?\" dedim. O da, \"Ey Ali! Geceleyin Miraç'a yükseltildiğim gece, ümmetimden kadınların şiddetli azab içinde olduğunu gördüm. Onların hâllerine hayret ettim ve gözlerimle gördüğum azabın şiddeti nedeniyle ağladım. Bir kadın gördüm ki, saçından asılmış, beyni kaynamaktaydı. Bir kadın gördüm ki, dilinden asılmış, boğazına hâmim (ateşli su) dökülüyordu. Bir kadın gördüm ki, göğsünden asılmıştı. Bir kadın gördüm ki, etini yiyordu, altında ateş tutuşturulmuştu. Bir kadın gördüm ki, ayakları ellerine bağlanmış, üzerine yılanlar ve akrep atılmıştı. Bir kadın gördüm ki, sağır, dilsiz ve kördü, bir ateş tabut içindeydi, beyni burun deliklerinden akmaktaydı, vücudu cüzzam ve vitiligo tarafından parçalanıyordu. Bir kadın gördüm ki, ayağından asılmış, ateş fırınındaydı. Bir kadın gördüm ki, etleri önünden ve arkasından ateş makasıyla kesiliyordu. Bir kadın gördüm ki, yüzü ve elleri yanarken, bağırsaklarını yiyordu. Bir kadın gördüm ki, başı domuz başı, vücudu eşek vücudu idi, üzerine bin bin azab çeşidi vardı. Bir kadın gördüm ki, köpek hâlindeydi, ateş arkasından girip ağzından çıkıyordu, melekler başını ve vücudunu ateş tokatlarıyla dövmekteydiler.\" Fâtıma (aleyhisselâm) dedi ki, \"Ey sevgilim, gözlerimin aydınlığı, onlara bu azabı neden koydu? Onların işi ve davranışı neydi?\" dedi.",
+          "fa": "فاطمه (علیهاالسلام) و من به دیدن پیامبر خدا (صلی‌الله‌علیه‌وآله‌وسلم) رفتیم و او را دیدیم که با گریه‌ای شدید گریه می‌کرد. گفتم: «ای پیامبر خدا! پدر و مادرم فداات شوند! چه چیزی باعث گریه تو شده است؟» فرمود: «ای علی! در شبی که برای معراج به آسمان‌ها بردنم شد، زنانی از امت من را در عذاب شدید دیدم. از حالت آن‌ها شگفت‌زده شدم و به دلیل شدت عذابی که با چشمان خود دیدم، گریه کردم. زنی را دیدم که از مویش آویزان بود و مغزش می‌جوشید. زنی را دیدم که از زبانش آویزان بود و آتش (حمیم) به گلویش ریخته می‌شد. زنی را دیدم که از سینه‌اش آویزان بود. زنی را دیدم که گوشت بدنش را می‌خورد، در حالی که آتش زیر او شعله‌ور بود. زنی را دیدم که پایش به دستش بسته شده بود و مار و عقرب بر او ریخته می‌ شد. زنی را دیدم که کر، لال و نابینا بود، در تابوتی از آتش، مغزش از سوراخ‌های بینی‌اش بیرون می‌ریخت و بدنش توسط برص و پیسی پاره شده بود. زنی را دیدم که از پایش در کوره آتش آویزان بود. زنی را دیدم که گوشتش با قیچی آتشین از جلو و پشتش بریده می‌شد. زنی را دیدم که صورت و دست‌هایش در حال سوختن بود و در حال خوردن روده‌هایش بود. زنی را دیدم که سرش سر خوک و بدنش بدن الاغ بود و بر او هزار هزار گونه عذاب بود. زنی را دیدم که به شکل سگ بود، آتش از پشتش وارد و از دهانش خارج می‌شد، و فرشتگان سر و بدنش را با چوب‌های آتشین می‌زدند.» فاطمه (علیهاالسلام) گفت: «ای عزیزم، نور چشمانم، بگو، کار و رفتار آن‌ها چه بود که خدا این عذاب را بر آنان قرار داد؟»",
+          "id": "Fatimah (semoga Allah meridhainya) dan aku pergi menjenguk Utusan Allah (semoga Allah meridhai beliau dan keluarganya), lalu kami mendapati beliau sedang menangis dengan keras. Aku berkata, \"Semoga ayah dan ibuku menjadi tebusanmu, wahai Utusan Allah! Apa yang membuatmu menangis?\" Beliau bersabda, \"Wahai Ali! Pada malam aku diisra'kan untuk mi'raj ke langit, aku melihat para wanita dari umatku dalam azab yang keras. Aku takjub dengan keadaan mereka dan menangis karena keparahan azab yang kulihat dengan mata kepalaku sendiri. Aku melihat seorang wanita digantung dengan rambutnya, otaknya mendidih. Aku melihat seorang wanita digantung dengan lidahnya, dan api (al-hamim) dituangkan ke dalam tenggorokannya. Aku melihat seorang wanita digantung dengan dadanya. Aku melihat seorang wanita memakan daging tubuhnya sendiri, sementara api dinyalakan di bawahnya. Aku melihat seorang wanita yang kakinya terikat pada tangannya, dan ular serta kalajengking dilemparkan kepadanya. Aku melihat seorang wanita yang tuli, bisu, dan buta, di dalam peti api, otaknya mengalir keluar dari lubang hidungnya, dan tubuhnya terkoyak oleh kusta dan vitiligo. Aku melihat seorang wanita digantung dengan kakinya di dalam tungku api. Aku melihat seorang wanita yang dagingnya dipotong dari depan dan belakangnya dengan gunting api. Aku melihat seorang wanita yang wajahnya dan tangannya terbakar sambil ia memakan usus-ususnya. Aku melihat seorang wanita yang kepalanya seperti kepala babi dan tubuhnya seperti tubuh keledai, dan di atasnya terdapat seribu ribu bentuk azab. Aku melihat seorang wanita dalam bentuk anjing, api masuk ke dalamnya dari belakangnya dan keluar dari mulutnya, dan para malaikat memukul kepala dan tubuhnya dengan gada api.\" Fatimah (semoga Allah meridhainya) berkata, \"Wahai kesayanganku, penyejuk mataku, beritahulah aku, apa perbuatan dan perilaku mereka sehingga Allah menjatuhkan azab ini kepada mereka?\"",
+          "es": "Fátima (que la paz sea con ella) y yo fuimos a visitar al Mensajero de Dios (que la paz sea con él y su familia) y lo encontramos llorando un llanto intenso. Dije: «Que mi padre y mi madre sean tu rescate, oh Mensajero de Dios. ¿Qué te hace llorar?». Él dijo: «¡Oh Alí! En la noche en que fui ascendido a los cielos, vi a mujeres de mi nación en severo castigo. Me asombré ante su condición y lloré debido a la severidad del castigo que vi con mis propios ojos. Vi a una mujer colgada de su cabello, con el cerebro hirviendo. Vi a una mujer colgada de su lengua, y se le vertía fuego (al-ḥamīm) en la garganta. Vi a una mujer colgada de su pecho. Vi a una mujer que se comía la carne de su propio cuerpo, mientras se encendía fuego debajo de ella. Vi a una mujer con los pies atados a las manos, y se arrojaban serpientes y escorpiones sobre ella. Vi a una mujer sorda, muda y ciega, en un ataúd de fuego, con el cerebro derramándose por sus fosas nasales, y su cuerpo desgarrado por la lepra y el vitíligo. Vi a una mujer colgada de los pies en un horno de fuego. Vi a una mujer a la que le cortaban la carne de la parte delantera y trasera con unas tijeras de fuego. Vi a una mujer con el rostro y las manos ardiendo mientras se comía sus intestinos. Vi a una mujer cuya cabeza era cabeza de cerdo y su cuerpo era cuerpo de burro, y sobre ella había mil mil formas de castigo. Vi a una mujer en forma de perro, con fuego entrando por su parte posterior y saliendo por su boca, y los ángeles le golpeaban la cabeza y el cuerpo con porras de fuego». Fátima (que la paz sea con ella) dijo: «Mi amado, la delicia de mis ojos, dime, ¿cuál fue su acto y conducta para que Dios les impusiera este castigo?»",
+          "fr": "Fatima (que la paix soit sur elle) et moi sommes allés voir le Messager de Dieu (que la paix soit sur lui et sa famille) et nous l'avons trouvé en train de pleurer une larme abondante. Je dis : « Que mon père et ma mère soient taient pour rançon, ô Messager de Dieu ! Qu'est-ce qui te fait pleurer ? » Il dit : « Ô Ali ! La nuit où j'ai été élevé pour l'Ascension vers les cieux, j'ai vu des femmes de ma nation subir un châtiment sévère. J'ai été émerveillé par leur état et j'ai pleuré en raison de la gravité de leur châtiment que j'ai vu de mes propres yeux. J'ai vu une femme suspendue par ses cheveux, le cerveau bouillonnant. J'ai vu une femme suspendue par sa langue, et le feu (al-hamim) étant versé dans sa gorge. J'ai vu une femme suspendue par sa poitrine. J'ai vu une femme mangeant la chair de son corps, tandis que le feu était allumé en dessous d'elle. J'ai vu une femme dont les pieds étaient attachés à ses mains, et des serpents et des scorpions étaient jetés sur elle. J'ai vu une femme qui était sourde, muette et aveugle, dans un cercueil de feu, le cerveau s'écoulant de ses narines, et son corps déchiré par la lèpre et le vitiligo. J'ai vu une femme suspendue par ses pieds dans un fourneau de feu. J'ai vu une femme dont la chair était coupée de l'avant et de l'arrière par des ciseaux de feu. J'ai vu une femme dont le visage et les mains brûlaient tandis qu'elle mangeait ses intestins. J'ai vu une femme dont la tête était celle d'un porc et le corps celui d'un âne, et sur elle étaient mille mille formes de châtiment. J'ai vu une femme sous la forme d'un chien, le feu entrant par son arrière et sortant par sa bouche, et les anges frappaient sa tête et son corps avec des massues de feu. » Fatima (que la paix soit sur elle) dit : « Mon bien-aimé, la joie de mes yeux, dis-moi, quelle était leur action et leur conduite que Dieu a placé ce châtiment sur elles ? »",
+          "de": "Fatima (Friede sei mit ihr) und ich gingen zu Gottes Gesandtem (Friede sei mit ihm und seiner Familie) und fanden ihn, wie er einen heftigen Schrei ausstieß. Ich sagte: \"Mögen mein Vater und meine Mutter für dich losgelöst werden, o Gesandter Gottes! Was bringt dich zum Weinen?\" Er sagte: \"O Ali! In der Nacht, in der ich zur Himmelfahrt erhoben wurde, sah ich Frauen aus meiner Nation in schwerer Strafe. Ich staunte über ihren Zustand und weinte angesichts der Schwere ihrer Strafe, die ich mit eigenen Augen sah. Ich sah eine Frau, die an ihren Haaren aufgehängt war, deren Gehirn kochte. Ich sah eine Frau, die an ihrer Zunge aufgehängt war, und Feuer (al-hamim) wurde ihr in den Hals gegossen. Ich sah eine Frau, die an ihrer Brust aufgehängt war. Ich sah eine Frau, die ihr eigenes Fleisch fraß, während unter ihr Feuer entfacht war. Ich sah eine Frau, deren Füße mit ihren Händen gefesselt waren, und Schlangen und Skorpione wurden auf sie geworfen. Ich sah eine Frau, die taub, stumm und blind war, in einem Sarg aus Feuer, deren Gehirn aus ihren Nasenlöchern floss, und deren Körper von Lepra und Vitiligo zerrissen wurde. Ich sah eine Frau, die an den Füßen in einem Feuerofen aufgehängt war. Ich sah eine Frau, deren Fleisch von vorne und hinten mit Feuerschere geschnitten wurde. Ich sah eine Frau, deren Gesicht und Hände brannten, während sie ihre Eingeweide fraß. Ich sah eine Frau, deren Kopf der Kopf eines Schweins war und deren Körper der Körper eines Esels, und auf ihr lasteten tausend Tausend Formen der Strafe. Ich sah eine Frau in der Gestalt eines Hundes, deren Feuer von hinten eintrat und aus dem Mund austrat, und die Engel schlugen ihren Kopf und Körper mit Feuerkeulen.\" Fatima (Friede sei mit ihr) sagte: \"Mein Geliebter, das Herzstück meiner Augen, erzähle mir, was war ihre Tat und ihr Verhalten, dass Gott diese Strafe über sie verhängte?\"",
+          "ru": "Фатима (да будет мир с ней) и я) и я пришли к Посланнику Аллаха (да будет мир ему и его семье) и застали его плачущим горькими слезами. Я сказал: «Пусть мой отец и мать станут выкупом за тебя, о Посланник Аллаха! Что заставляет тебя плакать?». Он сказал: «О Али! В ночь, когда меня вознесли на небеса, я увидел женщин из моей общины, подвергающихся суровому наказанию. Я изумился их состоянию и заплакал из-за тяжести наказания, которое увидел собственными глазами. Я увидел женщину, подвешенную за волосы, у которой кипел мозг. Я увидел женщину, подвешенную за язык, и в ее горло лили огонь (аль-хамим). Я увидел женщину, подвешенную за грудь. Я увидел женщину, которая ела свое мясо, а под ней разгорался огонь. Я увидел женщину, у которой ноги были связаны с руками, и на нее набросили змей и скорпионов. Я увидел женщину, которая была немой, глухой и слепой, в гробнице из огня, у которой мозг вытекал из ноздрей, а тело было изъязвлено проказой и витилиго. Я увидел женщину, подвешенную за ноги в огненной печи. Я увидел женщину, у которой мясо срезали огненными ножницами спереди и сзади. Я увидел женщину, у которой горели лицо и руки, пока она ела свои кишки. Я увидел женщину, у которой голова была как у свиньи, а тело — как у осла, и на ней было тысяча тысяч видов наказания. Я увидел женщину в виде собаки, огонь входил в нее сзади и выходил изо рта, и ангелы били ее голову и тело огненными дубинами». Фатима (да будет мир с ней) сказала: «О мой любимый, отрада моих глаз, скажи мне, какое их деяние и поведение привело к тому, что Аллах наложил на них это наказание?»",
+          "zh": "法蒂玛（愿她平安）和我去探望真主的使者（愿主福安他及其家属），发现他正在痛哭流涕。我说：\"愿我的父母做您的赎身，真主的使者！是什么让您哭泣？\"他说：\"阿里啊！在我被带往夜空升霄的那夜，我看见我的民族中有许多女子遭受严酷的刑罚。我对她们的境况感到惊奇，因亲眼目睹她们所受的严酷刑罚而哭泣。我看见一个女子被头发悬挂着，脑浆沸腾；我看见一个女子被舌头悬挂着，火（al-hamim）被灌入她的喉咙；我看见一个女子被乳房悬挂着；我看见一个女子在脚下生火的情况下啃食自己的肉；我看见一个女子双脚绑在手上，蛇和蝎子被抛在她身上；我看见一个女子又聋又哑又瞎，身处火棺之中，脑浆从鼻孔流出，身体被麻风病和白化病撕裂；我看见一个女子被双脚悬挂在火炉中；我看见一个女子的前后被火剪割肉；我看见一个女子面部和双手燃烧，同时吞食自己的肠子；我看见一个女子头如猪、身如驴，身上承受着千百万种刑罚；我看见一个女子形如狗，火从她的后部进入、从口中排出，天使们用火棍击打她的头部和身体。\"法蒂玛（愿她平安）说：\"我亲爱的、我眼中的喜悦，请告诉我，她们的行为和举止是什么，致使真主对她们施加这样的刑罚？\"",
+          "ur": "",
+          "bn": ""
+        },
+        "word_start": 82,
+        "word_end": 266
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ يَا بِنْتِي أَمَّا الْمُعَلَّقَةُ بِشَعْرِهَا فَإِنَّهَا كَانَتْ لَا تُغَطِّي شَعْرَهَا مِنَ الرِّجَالِ وَأَمَّا الْمُعَلَّقَةُ بِلِسَانِهَا فَإِنَّهَا كَانَتْ تُؤْذِي زَوْجَهَا وَأَمَّا الْمُعَلَّقَةُ بِثَدْيِهَا فَإِنَّهَا كَانَتْ تَمْتَنِعُ مِنْ فِرَاشِ زَوْجِهَا وَأَمَّا الْمُعَلَّقَةُ بِرِجْلَيْهَا فَإِنَّهَا كَانَتْ تَخْرُجُ مِنْ بَيْتِهَا بِغَيْرِ إِذْنِ زَوْجِهَا وَأَمَّا الَّتِي كَانَتْ تَأْكُلُ لَحْمَ جَسَدِهَا فَإِنَّهَا كَانَتْ تُزَيِّنُ بَدَنَهَا لِلنَّاسِ وَأَمَّا الَّتِي شُدَّتْ يَدَاهَا إِلَى رِجْلَيْهَا وَسُلِّطَ عَلَيْهَا الْحَيَّاتُ وَالْعَقَارِبُ فَإِنَّهَا كَانَتْ قَذِرَةَ الْوَضُوءِ قَذِرَةَ الثِّيَابِ وَكَانَتْ لَا تَغْتَسِلُ مِنَ الْجَنَابَةِ وَالْحَيْضِ وَلَا تَتَنَظَّفُ وَكَانَتْ تَسْتَهِينُ بِالصَّلَاةِ وَأَمَّا الْعَمْيَاءُ الصَّمَّاءُ الْخَرْسَاءُ فَإِنَّهَا كَانَتْ تَلِدُ مِنَ الزِّنَاءِ فَتُعَلِّقُهُ فِي عُنُقِ زَوْجِهَا وَأَمَّا الَّتِي تُقَطَّعُ لَحْمُهَا بِالْمَقَارِيضِ فَإِنَّهَا تَعْرِضُ نَفْسَهَا عَلَى الرِّجَالِ وَأَمَّا الَّتِي كَانَتْ تُحْرَقُ وَجْهُهَا وَبَدَنُهَا وَهِيَ تَأْكُلُ أَمْعَاءَهَا فَإِنَّهَا كَانَتْ قَوَّادَةً وَأَمَّا الَّتِي كَانَ رَأْسُهَا رَأْسَ خِنْزِيرٍ وَبَدَنُهَا بَدَنَ الْحِمَارِ فَإِنَّهَا كَانَتْ نَمَّامَةً كَذَّابَةً وَأَمَّا الَّتِي كَانَتْ عَلَى صُورَةِ الْكَلْبِ وَالنَّارُ تَدْخُلُ فِي دُبُرِهَا وَتَخْرُجُ مِنْ فِيهَا فَإِنَّهَا كَانَتْ قَيْنَةً نَوَّاحَةً حَاسِدَةً",
+        "translations": {
+          "en": "He said, 'O my daughter! As for the one hung up by her hair, she was the one who did not cover her hair from men. As for the one hung up by her tongue, she was the one who hurt her husband with her tongue. As for the one hung up by her breast, she was the one who refused her husband's bed. As for the one hung up by her feet, she was the one who left her house without her husband's permission. As for the one who ate the flesh of her body, she was the one who adorned her body for people. As for the one whose hands were tied to her feet and snakes and scorpions were cast upon her, she was the one who was dirty in her ablution, dirty in her clothes, did not perform the major ritual bath from major impurity and menstruation, did not purify herself, and considered prayer insignificant. As for the deaf, dumb, and blind one, she was the one who gave birth from adultery and attached the child to her husband's neck. As for the one whose flesh was cut by scissors, she was the one who presented herself to men. As for the one whose face and body were burning while she ate her intestines, she was a female pimp. As for the one whose head was the head of a pig and body was the body of a donkey, she was a gossip and a liar. As for the one in the form of a dog, with fire entering her rear and exiting her mouth, she was a singer, a wailer, and a jealous woman.'",
+          "ur": "انہوں نے کہا، اے میری بیٹی! جس کی داڑھی سے لٹکا رہی تھی، وہ وہ عورت تھی جو مردوں کے سامنے اپنا سر ڈھانپتی نہیں تھی۔ جس کی زبان سے لٹکا رہی تھی، وہ وہ عورت تھی جو اپنے شوہر کو اپنی زبان سے تکلیف دیتی تھی۔ جس کی سینے سے لٹکا رہی تھی، وہ وہ عورت تھی جو اپنے شوہر کے بستر سے انکار کرتی تھی۔ جس کے پاؤں سے لٹکا رہی تھی، وہ وہ عورت تھی جو اپنے شوہر کی اجازت کے بغیر اپنے گھر سے نکلتی تھی۔ جس نے اپنی جسمانی گوشت کھایا، وہ وہ عورت تھی جو لوگوں کے لیے اپنے آپ کو سجااتی تھی۔ جس کے ہاتھ اس کے پاؤں سے بندھے ہوئے تھے اور سانپ اور بچھو اس پر ڈالے گئے تھے، وہ وہ عورت تھی جو اپنی وضو میں گندی تھی، اپنی کپڑوں میں گندی تھی، اور کبھی کبھار بڑی نجاست اور حیض سے غسل نہیں کرتی تھی، اور نماز کو معمولی سمجھتی تھی۔ جو بہرا، گنگا اور اندھا تھا، وہ وہ عورت تھی جو زنا سے پیدا ہوئی اور بچے کو اپنے شوہر کے گلے میں لٹکاتی تھی۔ جس کا گوشت قینچی سے کاٹا گیا، وہ وہ عورت تھی جو مردوں کے سامنے پیش آتی تھی۔ جس کا چہرہ اور جسم جل رہا تھا جب وہ اپنی آنتیں کھا رہی تھی، وہ ایک عورت فاحشہ تھی۔ جس کا سر خنزیر کا تھا اور جسم گدھے کا، وہ ایک غیبت کرنے والی اور جھوٹی تھی۔ جس کا شکل کتے کی تھی، آگ اس کے پیچھے سے داخل ہو کر اس کے منہ سے نکلتی تھی، وہ ایک گانے والی، رونے والی اور حسد کرنے والی عورت تھی۔",
+          "tr": "Oğluna dedi ki: 'Kızım! Saçından asılan, erkeklerin önünde saçını örtmeyen kadındı. Dilinden asılan, kocasını diliyle inciten kadındı. Göğsünden asılan, kocasının yatağından kaçınan kadındı. Ayaklarından asılan, kocasının izni olmadan evinden çıkan kadındı. Kendi etini yiyen, insanlara kendini süsleyen kadındı. Elleri ayaklarına bağlanmış, üzerine yılanlar ve akrep atılan, abdestinde kirli, kıyafetinde kirli, büyük hadesten ve hayızdan sonra gusletmemiş, kendini arındırmamış ve namazı küçük gören kadındı. Sağır, dilsiz ve kördi, zina doğumlu çocuğu kocasının boynuna takan kadındı. Etini makasla kesilen, erkeklerin huzuruna çıkan kadındı. Yüzü ve gövdesi yanarken bağırsaklarını yiyen, bir dişi kuyundukçu kadındı. Kafası domuz, gövdesi eşek olan, dedikodu yapan ve yalancı kadındı. Köpek suretinde, arkasından ateş çıkıp ağzından giren, şarkıcı, inleyen ve hasetçi kadındı.'",
+          "fa": "گفت: ای دختر من! درباره‌ی کسی که با مویش آویزان بود، او کسی بود که مویش را از دید مردان نمی‌پوشاند. درباره‌ی کسی که با زبانش آویزان بود، او کسی بود که با زبانش به شوهرش آسیب می‌رساند. درباره‌ی کسی که با سینه‌اش آویزان بود، او کسی بود که از بستر شوهرش خودداری می‌کرد. درباره‌ی کسی که با پایش آویزان بود، او کسی بود که بدون اجازه‌ی شوهرش از خانه بیرون می‌رفت. درباره‌ی کسی که گوشت بدنش را می‌خورد، او کسی بود که بدنش را برای مردم آراسته می‌کرد. درباره‌ی کسی که دست‌هایش به پایش بسته شده بود و مارها و عقرب‌ها بر او انداخته شدند، او کسی بود که در وضو کثیف بود، در لباسش کثیف بود، غسل کبیره از جنابت و قاعدگی را انجام نمی‌داد، خود را پاک نمی‌ کرد و نماز را ناچیز می‌شمرد. درباره‌ی کر، لال و کور، او کسی بود که از زنا زاده شد و فرزند را به گردن شوهرش گره زد. درباره‌ی کسی که گوشتش با قیچی بریده شد، او کسی بود که خود را به مردان عرضه می‌کرد. درباره‌ی کسی که صورت و بدنش در حال خوردن روده‌هایش می‌سوخت، او یک زن دباغ بود. درباره‌ی کسی که سرش سر خوک و بدنش بدن الاغ بود، او شایعه‌ساز و دروغگو بود. درباره‌ی کسی که به شکل سگ بود و آتش از مقعدش وارد و از دهانش خارج می‌شد، او خواننده، نوحه‌خوان و زن حسودی بود.",
+          "id": "Ia berkata, 'Wahai anakku! Adapun yang digantung dengan rambutnya, dialah yang tidak menutupi rambutnya dari laki-laki. Adapun yang digantung dengan lidahnya, dialah yang menyakiti suaminya dengan lidahnya. Adapun yang digantung dengan dadanya, dialah yang menolak tempat tidur suaminya. Adapun yang digantung dengan kakinya, dialah yang keluar dari rumahnya tanpa izin suaminya. Adapun yang memakan daging tubuhnya sendiri, dialah yang mempercantik tubuhnya di hadapan orang lain. Adapun yang tangannya diikat ke kakinya dan ular serta kalajengking dilemparkan kepadanya, dialah yang tidak suci dalam wudunya, tidak suci dalam pakaiannya, tidak mandi junub dari hadas besar dan haid, tidak mensucikan dirinya, dan menganggap remeh salat. Adapun yang tuli, bisu, dan buta, dialah yang melahirkan dari zina dan mengaitkan anak pada leher suaminya. Adapun yang dagingnya dipotong dengan gunting, dialah yang memperagakan dirinya di hadapan laki-laki. Adapun yang wajahnya dan tubuhnya terbakar sambil memakan usus-ususnya, dialah seorang wanita pemulung. Adapun yang kepalanya kepala babi dan tubuhnya tubuh keledai, dialah yang suka menggosip dan pendusta. Adapun yang berwujud anjing, dengan api masuk dari duburnya dan keluar dari mulutnya, dialah seorang penyanyi, seorang yang meratapi, dan wanita yang cemburu.'",
+          "bn": "তিনি বললেন, 'হে আমার কন্যা! যাকে তার চুলে ঝোলানো হয়েছে, সে ছিলেন সেই নারী যারা পুরুষদের সামনে নিজের চুল ঢাকতেন না। যাকে তার জিহ্বায় ঝোলানো হয়েছে, সে ছিলেন সেই নারী যারা তার স্বামীর জিহ্বার মধ্য দিয়ে তাকে কষ্ট দিয়েছেন। যাকে তার বুকে ঝোলানো হয়েছে, সে ছিলেন সেই নারী যারা তার স্বামীর বিছানা থেকে বিরত ছিলেন। যাকে তার পায়ে ঝোলানো হয়েছে, সে ছিলেন সেই নারী যারা তার স্বামীর অনুমতি ছাড়া বাড়ি থেকে বেরিয়ে গেছেন। যিনি নিজের শরীরের মাংস খেয়েছেন, তিনি ছিলেন সেই নারী যারা মানুষের সামনে নিজেকে সাজিয়েছেন। যার হাত তার পায়ে বাঁধা এবং সাপ ও বিচ্ছু তার উপর নিক্ষেপ করা হয়েছে, তিনি ছিলেন সেই নারী যারা তার ওজুতে অশুদ্ধ ছিলেন, তার পোশাকে অশুদ্ধ ছিলেন, বড় নাজাফতের জন্য বড় গোসল করেননি এবং মাসিকের জন্য গোসল করেননি, নিজেকে পবিত্র করেননি এবং নামাজকে গুরুত্বহীন মনে করতেন। যে বোবা, মূক ও অন্ধ, তিনি ছিলেন সেই নারী যারা ব্যভিচার থেকে জন্ম নিয়েছিলেন এবং শিশুকে তার স্বামীর ঘাড়ে ঝুলিয়ে দিয়েছিলেন। যার মাংস কাঁচি দিয়ে কাটা হয়েছে, তিনি ছিলেন সেই নারী যারা পুরুষদের সামনে উপস্থিত হয়েছিলেন। যার মুখ ও শরার জ্বলছে এবং তিনি তার অন্ত্র খাচ্ছেন, তিনি ছিলেন একজন নারী পতিতাবাসের মালিক। যার মাথা শূকরের মাথা এবং শরার গাধার শরার, তিনি ছিলেন একজন গল্পকার ও মিথ্যাবাদী। যে কুকুরের আকারে, যার পিছন দিয়ে আগুন প্রবেশ করে এবং মুখ দিয়ে বের হয়, তিনি ছিলেন একজন গায়ক, একজন রোদনকারী এবং একজন ঈর্ষান্বিত নারী।'",
+          "es": "Dijo: «¡Oh hija mía! En cuanto a la que estaba colgada de su cabello, era la que no cubría su cabeza ante los hombres. En cuanto a la que estaba colgada de su lengua, era la que hería a su esposo con su lengua. En cuanto a la que estaba colgada de su pecho, era la que rechazaba la cama de su esposo. En cuanto a la que estaba colgada de sus pies, era la que salía de su casa sin el permiso de su esposo. En cuanto a la que se comía la carne de su cuerpo, era la que se adornaba para la gente. En cuanto a la que tenía las manos atadas a los pies y sobre ella se arrojaban serpientes y escorpiones, era la que estaba impura en su ablución, impura en su ropa, no realizaba el baño mayor por la impureza mayor y la menstruación, no se purificaba y consideraba insignificante la oración. En cuanto al sordo, mudo y ciego, era la que dio a luz por adulterio y lo ató al cuello de su esposo. En cuanto a la que tenía la carne cortada con tijeras, era la que se presentaba ante los hombres. En cuanto a la que tenía el rostro y el cuerpo ardiendo mientras se comía sus intestinos, era una proxeneta. En cuanto a la que tenía la cabeza de cerdo y el cuerpo de burro, era una chismosa y mentirosa. En cuanto a la que tenía forma de perro, con fuego entrando por su parte trasera y saliendo por su boca, era una cantante, una aulladora y una mujer celosa.»",
+          "fr": "Il dit : « Ô ma fille ! Quant à celle qui était suspendue par ses cheveux, c’était celle qui ne couvoulait pas couvrir ses cheveux devant les hommes. Quant à celle qui était suspendue par sa langue, c’était celle qui blessait son mari par sa langue. Quant à celle qui était suspendue par sa poitrine, c’était celle qui refusait le lit conjugal à son mari. Quant à celle qui était suspendue par ses pieds, c’était celle qui sortait de sa maison sans la permission de son mari. Quant à celle qui mangeait sa propre chair, c’était celle qui se parait aux yeux des gens. Quant à celle dont les mains étaient liées à ses pieds et sur laquelle on avait jeté des serpents et des scorpions, c’était celle qui était impure dans son ablution, impure dans ses vêtements, ne faisait pas la grande ablution (ghusl) après la grande impureté et la menstruation, ne se purifiait pas et considérait la prière comme insignifiante. Quant à la sourde, la muette et l’aveugle, c’était celle qui avait donné naissance à un enfant de l’adultère et l’avait attaché au cou de son mari. Quant à celle dont la chair était coupée par des ciseaux, c’était celle qui se présentait aux hommes. Quant à celle dont le visage et le corps brûlaient tout en mangeant ses intestins, c’était une courtisane. Quant à celle dont la tête était celle d’un porc et le corps celui d’un âne, c’était une commère et une menteuse. Quant à celle qui avait la forme d’un chien, avec le feu entrant par son derrière et sortant par sa bouche, c’était une chanteuse, une pleureuse et une femme jalouse. »",
+          "de": "Er sagte: ‚O meine Tochter! Was diejenige betrifft, die an ihren Haaren aufgehängt wurde, so war sie diejenige, die ihren Kopf nicht vor den Männern bedeckte. Was diejenige betrifft, die an ihrer Zunge aufgehängt wurde, so war sie diejenige, die ihren Ehemann mit ihrer Zunge verletzte. Was diejenige betrifft, die an ihrer Brust aufgehängt wurde, so war sie diejenige, die sich dem Bett ihres Eemanns entzog. Was diejenige betrifft, die an ihren Füßen aufgehängt wurde, so war sie diejenige, die ihr Haus ohne die Erlaubnis ihres Ehemanns verließ. Was diejenige betrifft, die das Fleisch ihres Körpers aß, so war sie diejenige, die ihren Körper für die Menschen schmückte. Was diejenige betrifft, deren Hände mit den Füßen verbunden waren und der Schlangen und Skorpione aufgeworfen wurden, so war sie diejenige, die bei ihrer Wudu (kleine rituelle Reinigung) unrein war, bei ihren Kleidern unrein war, die große rituelle Reinigung (Ghusl) bei der großen Unreinheit und bei der Menstruation nicht vollzog, sich nicht reinigte und das Gebet (Salat) für geringachtete. Was die Taube, Stumme und Blinde betrifft, so war sie diejenige, die aus der Unzucht geboren wurde und das Kind an den Hals ihres Ehemanns hängte. Was diejenige betrifft, deren Fleisch mit Scheren geschnitten wurde, so war sie diejenige, die sich den Männern präsentierte. Was diejenige betrifft, deren Gesicht und Körper brannten, während sie ihre Eingeweide aßen, so war sie eine Hurenmacherin. Was diejenige betrifft, deren Kopf der Kopf eines Schweins und deren Körper der Körper eines Esels war, so war sie eine Plaudertasche und eine Lügnerin. Was diejenige betrifft, die in der Gestalt eines Hundes war, bei der das Feuer in ihr Hinterteil eintrat und aus ihrem Mund austrat, so war sie eine Sängerin, eine Wehklagerin und eine eifersüchtige Frau.'",
+          "ru": "Он сказал: «О дочь моя! Что касается той, которая висела на своих волосах, то это та, которая не покрывала голову от мужчин. Что касается той, которая висела на своём языке, то это та, которая причиняла боль мужу своим языком. Что касается той, которая висела на своей груди, то это та, которая отказывала мужу в супружеском ложе. Что касается той, которая висела на своих ногах, то это та, которая выходила из дома без разрешения мужа. Что касается той, которая ела свою плоть, то это та, которая украшала своё тело для людей. Что касается той, у которой руки были связаны с ногами и на неё были брошены змеи и скорпионы, то это та, которая была нечиста в омовении, нечиста в одежде, не совершала большое омовение (гафара) после большой нечистоты и менструации, не очищала себя и считала молитву незначительной. Что касается глухонемой и слепой, то это та, которая родила от прелюбодеяния и прикрепила ребёнка к шее мужа. Что касается той, у которой плоть была разрезана ножницами, то это та, которая являлась мужчинам. Что касается той, у которой лицо и тело горели, пока она ела свои кишки, то это была блудница. Что касается той, у которой голова была головой свиньи, а тело — телом осла, то это была сплетница и лгунья. Что касается той, которая была в виде собаки, с огнём, входящим в её задний проход и выходящим изо рта, то это была певица, плакальщица и ревнивая женщина».",
+          "zh": "他说：‘我的女儿啊！至于那个被头发吊起来的女人，她是不向男子遮盖头发的人。至于那个被舌头吊起来的女人，她是靠舌头伤害丈夫的人。至于那个被胸部吊起来的女人，她是拒绝丈夫同床的人。至于那个被双脚吊起来的女人，她是在未获丈夫允许的情况下离家的人。至于那个吃自己肉的人，她是向众人炫耀自己身体的人。至于那个双手绑在脚上、蛇和蝎子被抛在她身上的人，她是礼拜时不洁净的人，衣服不洁净的人，未从大净和小净中完成大净的人，未清洁自身的人，且轻视礼拜的人。至于那个聋哑盲者，她是因通奸而生子并将孩子归在丈夫名下的人。至于那个被剪刀割肉的人，她是向男子展示自己的人。至于那个边吃肠子边脸和身体燃烧的人，她是女皮条客。至于那个头是猪头、身体是驴身的人，她是搬弄是非和说谎的人。至于那个形如狗、火从肛门进入从口中出来的人，她是歌手、哭丧女和嫉妒的女人。’"
+        },
+        "word_start": 266,
+        "word_end": 410
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "ثُمَّ قَالَ عَلَيْهِ السَّلَامُ وَيْلٌ لِمَرْأَةٍ أَغْضَبَتْ زَوْجَهَا وَطُوبَى لِمَرْأَةٍ رَضِيَ عَنْهَا زَوْجُهَا.",
+        "translations": {
+          "en": "Then he (peace be upon him) said, 'Woe to a woman who angers her husband, and blessed is a woman whose husband is pleased with her.'",
+          "ur": "پھر انہوں نے (صلی اللہ علیہ وسلم) فرمایا: ''بدبخت وہ عورت جو اپنے شوہر کو ناراض کرے، اور خوش قسمت وہ عورت جس کا شوہر اس سے راضی ہو۔''",
+          "tr": "Sonra o (aleyhisselam) şöyle buyurdu: 'Kocasını kızdıran kadının hali acı, kocası ondan razı olan kadın ise mübarektir.'",
+          "fa": "سپس او (صلی الله علیه و آله) فرمود: «وای بر زنی که شوهرش را خشمگین کند و خوشبخت است زنی که شوهرش از او خشنود باشد.",
+          "id": "Kemudian beliau (shallallahu 'alaihi wasallam) bersabda, 'Celakalah wanita yang membuat suaminya marah, dan berkahlah wanita yang suaminya ridha kepadanya.'",
+          "bn": "অতঃপর তিনি (সা.) বললেন, 'যে নারী তার স্বামীর ক্রোধের কারণ হয়, তার জন্য হায়! আর যে নারী তার স্বামী তার প্রতি সন্তুষ্ট থাকেন, তিনি বরকতময়।'",
+          "es": "Luego dijo (que la paz y las bendiciones de Alah sean con él) dijo: «¡Ay de la mujer que enfada a su esposo, y bendita es la mujer cuyo esposo está complacido con ella».",
+          "fr": "Puis il (que la paix et les bénédictions d'Allah soient sur lui) dit : « Malheur à la femme qui met son mari en colère, et béni soit celui de la femme dont le mari est satisfait d'elle.»",
+          "de": "Dann sagte er (Friede sei mit ihm): \"Unheil über eine Frau, die ihren Gatten erzürnt, und gesegnet ist eine Frau, mit der ihr Gatte zufrieden ist.\"",
+          "ru": "Затем он (да будет над ним мир) сказал: «Горе женщине, которая гневает своего мужа, и блаженна женщина, чей муж доволен ею».",
+          "zh": "随后他（愿主福安之）说：'祸哉，惹怒丈夫的女人；有福了，令丈夫满意的女人。'"
+        },
+        "word_start": 410,
+        "word_end": 423
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Uyun Akhbar al-Rida* highlights the Prophet’s emotional response to the specific sins of women, linking physical punishments in Hell to moral and social transgressions such as *khumr al-sha'r* (displaying hair), neglecting ritual purity (*ghusl*), and gossip. It underscores the Shia emphasis on the interplay between private devotion, marital harmony, and public conduct, concluding with the profound maxim that a wife’s happiness is tied to her husband’s pleasure.",
+        "seo_question": "What are the specific sins of women that lead to their punishment in Hell according to this hadith from the Prophet's Ascension?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "The Night of Ascension (Isra and Mi'raj)",
+          "الْحَمِيمُ": "Scalding water or fluid in Hell",
+          "الْجَنَابَةِ": "Major ritual impurity requiring full body bath",
+          "الْقَوَّادَةُ": "Female pimp or procurer",
+          "نَمَّامَةً": "Gossip or tale-bearer",
+          "قَيْنَةً": "Singer or female musician",
+          "فِرَاشِ الزَّوْجِ": "The husband's bed (sexual intimacy)"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث *عین اخبار الرضا* سے ماخوذ ہے جو خواتین کے مخصوص گناہوں پر نبی کریم ﷺ کے جذباتی ردعمل کو اجاگر کرتی ہے، اور جہنم میں جسمانی سزاؤں کو اخلاقی اور سماجی تجاوزات جیسے *خمر الشعر* (بالوں کا دکھانا)، عبادتی پاکیزگی کی غفلت (*غسل*) اور غیبت سے جوڑتی ہے۔ یہ شیعہ نقطہ نظر کے تحت ذاتی عبادت، شادی شدہ زندگی کی ہم آہنگی، اور عمومی رویے کے باہمی تعلق پر زور دیتی ہے، اور اس بات کے ساتھ اختتام پذیر ہوتی ہے کہ ایک بیوی کی خوشی اس کے شوہر کی خوشی سے منسلک ہے۔",
+        "seo_question": "اس حدیث کے مطابق خواتین کے وہ مخصوص گناہ کیا ہیں جو انہیں جہنم کی سزا کا باعث بنتے ہیں؟",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "راتِ معراج",
+          "الْحَمِيمُ": "پانی یا مائع جہنم میں",
+          "الْجَنَابَةِ": "کبیرہ نجاست جس کے لیے غسل ضروری ہے",
+          "الْقَوَّادَةُ": "ماہرہ یا درگوش",
+          "نَمَّامَةً": "غیبت کرنے والی",
+          "قَيْنَةً": "گائیک یا موسیقار خاتون",
+          "فِرَاشِ الزَّوْجِ": "شوہر کا بستر (جنسی تعلق)"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, *Uyun Akhbar al-Rida* kaynaklı* olarak bilinen *Uyun Akhbar al-Rida* eserinde yer almakta olup, Peygamber'in kadınların belirli günahlarına duyduğu duygusal tepkiyi vurgular. Cehennemdeki fiziksel cezaları; *khumr al-sha'r* (saç gösterimi), ritüel temizliği ihmal etmek (*ghusl*) ve dedikodu gibi ahlaki ve sosyal ihlallerle ilişkilendirir. Hadis, özel ibadet, evlilik uyumu ve kamusal davranış arasındaki etkileşime Şii vurgusunu altını çizer ve bir kadının mutluluğunun eşinin rızasına bağlı olduğu derin maksimiyle sona erer.",
+        "seo_question": "Bu hadise göre, Peygamber'in Yükselişi (Mi'raj) sırasında kadınların cehennemde cezalandırılmasına yol açan belirli günahlar nelerdir?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "Yükseliş Gecesi (Isra ve Mi'raj)",
+          "الْحَمِيمُ": "Cehennemde kaynar su veya sıvı",
+          "الْجَنَابَةِ": "Tam vüdut gerektiren büyük ritüel pislik",
+          "الْقَوَّادَةُ": "Dişi fahişe veya menajer",
+          "نَمَّامَةً": "Dedikoducu veya haber veren kadın",
+          "قَيْنَةً": "Şarkıcı veya kadın müzisyen",
+          "فِرَاشِ الزَّوْجِ": "Eşin yatağı (cinsel yakınlık)"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از *عیون اخبار الرضا* به پاسخ عاطفی پیامبر نسبت به گناهان خاص زنان می‌پردازد و مجازات‌های جسمانی در جهنم را به تخلفات اخلاقی و اجتماعی مانند *خمر الشعر* (نمایش مو)، غفلت از طهارتritualی (*غسل*) و غیبت پیوند می‌زند. این حدیث بر تأکید شیعه در تعامل میان عبادت خصوصی، هماهنگی زناشویی و رفتار عمومی تأکید دارد و با این مضمون عمیق به پایان می‌رسد که خوشبختی همسر به رضایت شوهر او وابسته است.",
+        "seo_question": "گناهان خاص زنانی که طبق این حدیث از پیامبر در شب معراج منجر به مجازات آن‌ها در جهنم می‌شود، چیست؟",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "شب معراج (اسراء و معراج)",
+          "الْحَمِيمُ": "آب جوشان یا مایع در جهنم",
+          "الْجَنَابَةِ": "نجاست کبیره که نیاز به غسل کامل بدن دارد",
+          "الْقَوَّادَةُ": "زن قواد یا دلال",
+          "نَمَّامَةً": "غیبت‌کننده یا خبرچین",
+          "قَيْنَةً": "خواننده یا نوازنده زن",
+          "فِرَاشِ الزَّوْجِ": "بستر شوهر (صمیمیت جنسی)"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Uyun Akhbar al-Rida* ini menyoroti respons emosional Nabi terhadap dosa-dosa spesifik perempuan, yang menghubungkan hukuman fisik di Neraka dengan pelanggaran moral dan sosial seperti *khumr al-sha'r* (menampakkan rambut), mengabaikan kesucian ritual (*ghusl*), dan gosip. Hadis ini menekankan penekanan Syiah pada interaksi antara ibadah pribadi, keharmonian pernikahan, dan perilaku publik, serta diakhiri dengan pepatah mendalam bahwa kebahagiaan seorang istri terikat pada keridhaan suaminya.",
+        "seo_question": "Apa saja dosa-dosa spesifik perempuan yang menyebabkan hukuman mereka di Neraka menurut hadis ini dari Isra dan Mi'raj Nabi?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "Malam Isra dan Mi'raj",
+          "الْحَمِيمُ": "Air mendidih atau cairan di Neraka",
+          "الْجَنَابَةِ": "Kotoran ritual besar yang memerlukan mandi seluruh tubuh",
+          "الْقَوَّادَةُ": "Pembawaan wanita atau mak comblang wanita",
+          "نَمَّامَةً": "Pembawa gosip",
+          "قَيْنَةً": "Penyanyi atau musisi wanita",
+          "فِرَاشِ الزَّوْجِ": "Tempat tidur suami (keintiman seksual)"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে *উয়ুন আখবার আল-রিদা* থেকে উদ্ধৃত হয়েছে যে, নবী (সা.) নারীদের নির্দিষ্ট পাপের প্রতি আবেগপ্রবণ প্রতিক্রিয়া দেখিয়েছেন, যা জাহান্নামের শারীরিক শাস্তির সাথে নৈতিক ও সামাজিক লঙ্ঘনের সাথে যুক্ত করে, যেমন *খুমর আল-শা'র* (চুল প্রদর্শন), আচারগত পবিত্রতা অবহেলা (*গুসল*), এবং গুজব। এটি শিয়া মতবাদে ব্যক্তিগত আনুগত্য, দাম্পত্য সামঞ্জস্য এবং সार्वজনিক আচরণের মিথস্ক্রিয়াকে তুলে ধরে, এবং শেষে একটি গভীর সূক্ত দিয়ে সমাপ্ত করে যে, স্ত্রীর সুখ তার স্বামীর সন্তুষ্টির সাথে যুক্ত।",
+        "seo_question": "এই হাদিস অনুযায়ী, নবীর আরশে আরোহণের রাতে নারীদের জাহান্নামের শাস্তির কারণে কোন নির্দিষ্ট পাপগুলো দায়ী?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "আরা ওয়াল-মি'রাজের রাত",
+          "الْحَمِيمُ": "জাহান্নামের পানি বা তরল পদার্থ",
+          "الْجَنَابَةِ": "বড় আচারগত অশুচি অবস্থা",
+          "الْقَوَّادَةُ": "মুসলমান নারী পুঁজিপতি বা মধ্যস্থতাকারী",
+          "نَمَّامَةً": "গুজবরতী বা গল্প বলা নারী",
+          "قَيْنَةً": "গায়িকা বা নারী সঙ্গীতশিল্পী",
+          "فِرَاشِ الزَّوْجِ": "স্বামীর বিছানা (যৌন সম্পর্ক)"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de *Uyun Akhbar al-Rida* destaca la respuesta emocional del Profeta ante los pecados específicos de las mujeres, vinculando los castigos físicos en el Infierno con transgresiones morales y sociales como *khumr al-sha'r* (mostrar el cabello), la negligencia en la pureza ritual (*ghusl*) y los chismes. Subraya el énfasis chií en la interacción entre la devoción privada, la armonía conyugal y la conducta pública, concluyendo con la profunda máxima de que la felicidad de una esposa está ligada al placer de su esposo.",
+        "seo_question": "¿Cuáles son los pecados específicos de las mujeres que conducen a su castigo en el Infierno según este hadiz de la Ascensión del Profeta?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "La Noche de la Ascensión (Isra y Mi'raj)",
+          "الْحَمِيمُ": "Agua hirviente o fluido en el Infierno",
+          "الْجَنَابَةِ": "Impureza ritual mayor que requiere baño completo del cuerpo",
+          "الْقَوَّادَةُ": "Pimp o proxeneta femenina",
+          "نَمَّامَةً": "Chismosa o contadora de historias",
+          "قَيْنَةً": "Cantante o músico femenina",
+          "فِرَاشِ الزَّوْجِ": "El lecho del esposo (intimidad sexual)"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Aynun Akhbar al-Rida* met en lumière la réaction émotionnelle du Prophète face aux péchés spécifiques des femmes, reliant les châtiments physiques en Enfer à des transgressions morales et sociales telles que le *khumr al-sha'r* (exposition des cheveux), la négligence de la pureté rituelle (*ghusl*) et la médisance. Il souligne l'accent mis par les Chiites sur l'interaction entre la dévotion privée, l'harmonie conjugale et la conduite publique, concluant par la maxime profonde selon laquelle le bonheur d'une épouse est lié à la satisfaction de son mari.",
+        "seo_question": "Quels sont les péchés spécifiques des femmes qui entraînent leur châtiment en Enfer selon ce hadith de l'Ascension du Prophète ?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "La Nuit de l'Ascension (Isra et Mi'raj)",
+          "الْحَمِيمُ": "Eau bouillante ou fluide en Enfer",
+          "الْجَنَابَةِ": "Impureté rituelle majeure nécessitant un bain corporel complet",
+          "الْقَوَّادَةُ": "Pimp ou proxénète",
+          "نَمَّامَةً": "Bavarde ou rapporteuse",
+          "قَيْنَةً": "Chanteuse ou musicienne",
+          "فِرَاشِ الزَّوْجِ": "Le lit du mari (intimité sexuelle)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Uyun Akhbar al-Rida* hebt die emotionale Reaktion des Propheten auf die spezifischen Sünden der Frauen hervor und verknüpft körperliche Strafen in der Hölle mit moralischen und sozialen Übertretungen wie *khumr al-sha'r* (das Zeigen der Haare), der Vernachlässigung der rituellen Reinheit (*ghusl*) und dem Klatschen. Es unterstreicht die schiitische Betonung des Zusammenspiels zwischen privater Hingabe, ehelicher Harmonie und öffentlichem Verhalten und schließt mit der tiefgründigen Maxime, dass das Glück einer Frau mit dem Wohlgefallen ihres Ehemanns verbunden ist.",
+        "seo_question": "Welche spezifischen Sünden der Frauen führen nach diesem Hadith aus der Nacht der Himmelfahrt des Propheten zu ihrer Strafe in der Hölle?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "Die Nacht der Himmelfahrt (Isra und Mi'raj)",
+          "الْحَمِيمُ": "Siedendes Wasser oder Flüssigkeit in der Hölle",
+          "الْجَنَابَةِ": "Große rituelle Unreinheit, die ein Ganzkörperbad erfordert",
+          "الْقَوَّادَةُ": "Weiblicher Zuhälter oder Makler",
+          "نَمَّامَةً": "Plaudertasche oder Geschwätzigkeit",
+          "قَيْنَةً": "Sängerin oder Musikerin",
+          "فِرَاشِ الزَّوْجِ": "Das Bett des Ehemanns (sexuelle Intimität)"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «Уюн Ахбар ар-Рида» подчеркивает эмоциональную реакцию Пророка на специфические грехи женщин, связывая физические наказания в Аду с моральными и социальными проступками, такими как *хумр аль-ша’р* (демонстрация волос), пренебрежение ритуальной чистотой (*гусль*) и сплетничество. Он подчеркивает шиитский акцент на взаимодействии между личным благочестием, супружеской гармонией и публичным поведением, завершаясь глубоким изречением о том, что счастье жены связано с довольством мужа.",
+        "seo_question": "Каковы специфические грехи женщин, ведущие к их наказанию в Аду согласно этому хадису Пророка о Ночи Вознесения?",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "Ночь Вознесения (Исра и Мирадж)",
+          "الْحَمِيمُ": "Кипящая вода или жидкость в Аду",
+          "الْجَنَابَةِ": "Крупная ритуальная нечистота, требующая полного омовения тела",
+          "الْقَوَّادَةُ": "Женский сутенер или сваха",
+          "نَمَّامَةً": "Сплетница или пересказчица",
+          "قَيْنَةً": "Певица или женщина-музыкант",
+          "فِرَاشِ الزَّوْجِ": "Ложе мужа (сексуальная близость)"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《优素福·阿克巴尔·里达》的圣训强调了先知对女性特定罪行的情感反应，将地狱中的肉体惩罚与展示头发、忽视仪式洁净（大净）以及搬弄是非等道德和社会过失联系起来。它突出了什叶派关于私人虔诚、婚姻和谐与公共行为之间相互作用的重视，并以妻子幸福与其丈夫满意紧密相连的深刻格言作为结语。",
+        "seo_question": "根据这段来自先知登霄的圣训，导致女性在地狱受罚的具体罪行有哪些？",
+        "key_terms": {
+          "لَيْلَةُ أُسْرِيَ بِي": "登霄之夜",
+          "الْحَمِيمُ": "地狱中的沸水或液体",
+          "الْجَنَابَةِ": "大净",
+          "الْقَوَّادَةُ": "女皮条客",
+          "نَمَّامَةً": "搬弄是非者",
+          "قَيْنَةً": "女歌手或女音乐家",
+          "فِرَاشِ الزَّوْجِ": "丈夫的床（性亲密）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:179",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "24:19",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "24:31",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "66:6",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ الْوَرَّاقُ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي عَبْدِ اللَّهِ الْكُوفِيُّ عَنْ سَهْلِ بْنِ زِيَادٍ الْأَدَمِيِّ عَنْ عَبْدِ الْعَظِيمِ بْنِ عَبْدِ اللَّهِ الْحَسَنِيِّ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ الرِّضَا عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ عَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الْحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ أَمِيرِ الْمُؤْمِنِينَ عَلِيِّ بْنِ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ قَالَ: دَخَلْتُ أَنَا وَفَاطِمَةُ عَلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَوَجَدْتُهُ يَبْكِي بُكَاءً شَدِيدًا فَقُلْتُ فِدَاكَ أَبِي وَأُمِّي يَا رَسُولَ اللَّهِ مَا الَّذِي أَبْكَاكَ فَقَالَ يَا عَلِيُّ لَيْلَةَ أُسْرِيَ بِي إِلَى السَّمَاءِ رَأَيْتُ نِسَاءً مِنْ أُمَّتِي فِي عَذَابٍ شَدِيدٍ فَأَنْكَرْتُ شَأْنَهُنَّ فَبَكَيْتُ لِمَا رَأَيْتُ مِنْ شِدَّةِ عَذَابِهِنَّ وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِشَعْرِهَا يَغْلِي دِمَاغُ رَأْسِهَا وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِلِسَانِهَا وَالْحَمِيمُ يُصَبُّ فِي حَلْقِهَا وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِثَدْيِهَا وَرَأَيْتُ امْرَأَةً تَأْكُلُ لَحْمَ جَسَدِهَا وَالنَّارُ تُوقَدُ مِنْ تَحْتِهَا وَرَأَيْتُ امْرَأَةً قَدْ شُدَّ رِجْلَاهَا إِلَى يَدَيْهَا وَقَدْ سُلِّطَ عَلَيْهَا الْحَيَّاتُ وَالْعَقَارِبُ وَرَأَيْتُ امْرَأَةً صَمَّاءَ عَمْيَاءَ خَرْسَاءَ فِي تَابُوتٍ مِنْ نَارٍ يَخْرُجُ دِمَاغُ رَأْسِهَا مِنْ مَنْخِرِهَا وَبَدَنُهَا مُتَقَطِّعٌ مِنَ الْجُذَامِ وَالْبَرَصِ وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِرِجْلَيْهَا فِي تَنُّورٍ مِنْ نَارٍ وَرَأَيْتُ امْرَأَةً تُقَطَّعُ لَحْمُ جَسَدِهَا مِنْ مُقَدَّمِهَا وَمُؤَخَّرِهَا بِمَقَارِيضَ مِنْ نَارٍ وَرَأَيْتُ امْرَأَةً يُحْرَقُ وَجْهُهَا وَيَدَاهَا وَهِيَ تَأْكُلُ أَمْعَاءَهَا وَرَأَيْتُ امْرَأَةً رَأْسُهَا رَأْسُ خِنْزِيرٍ وَبَدَنُهَا بَدَنُ الْحِمَارِ وَعَلَيْهَا أَلْفُ أَلْفِ لَوْنٍ مِنَ الْعَذَابِ وَرَأَيْتُ امْرَأَةً عَلَى صُورَةِ الْكَلْبِ وَالنَّارُ تَدْخُلُ فِي دُبُرِهَا وَتَخْرُجُ مِنْ فِيهَا وَالْمَلَائِكَةُ يَضْرِبُونَ رَأْسَهَا وَبَدَنَهَا بِمَقَامِعَ مِنْ نَارٍ فَقَالَتْ فَاطِمَةُ عَلَيْهَا السَّلَامُ حَبِيبِي وَقُرَّةُ عَيْنِي أَخْبِرْنِي مَا كَانَ عَمَلُهُنَّ وَسِيرَتُهُنَّ حَتَّى وَضَعَ اللَّهُ عَلَيْهِنَّ هَذَا الْعَذَابَ فَقَالَ يَا بِنْتِي أَمَّا الْمُعَلَّقَةُ بِشَعْرِهَا فَإِنَّهَا كَانَتْ لَا تُغَطِّي شَعْرَهَا مِنَ الرِّجَالِ وَأَمَّا الْمُعَلَّقَةُ بِلِسَانِهَا فَإِنَّهَا كَانَتْ تُؤْذِي زَوْجَهَا وَأَمَّا الْمُعَلَّقَةُ بِثَدْيِهَا فَإِنَّهَا كَانَتْ تَمْتَنِعُ مِنْ فِرَاشِ زَوْجِهَا وَأَمَّا الْمُعَلَّقَةُ بِرِجْلَيْهَا فَإِنَّهَا كَانَتْ تَخْرُجُ مِنْ بَيْتِهَا بِغَيْرِ إِذْنِ زَوْجِهَا وَأَمَّا الَّتِي كَانَتْ تَأْكُلُ لَحْمَ جَسَدِهَا فَإِنَّهَا كَانَتْ تُزَيِّنُ بَدَنَهَا لِلنَّاسِ وَأَمَّا الَّتِي شُدَّتْ يَدَاهَا إِلَى رِجْلَيْهَا وَسُلِّطَ عَلَيْهَا الْحَيَّاتُ وَالْعَقَارِبُ فَإِنَّهَا كَانَتْ قَذِرَةَ الْوَضُوءِ قَذِرَةَ الثِّيَابِ وَكَانَتْ لَا تَغْتَسِلُ مِنَ الْجَنَابَةِ وَالْحَيْضِ وَلَا تَتَنَظَّفُ وَكَانَتْ تَسْتَهِينُ بِالصَّلَاةِ وَأَمَّا الْعَمْيَاءُ الصَّمَّاءُ الْخَرْسَاءُ فَإِنَّهَا كَانَتْ تَلِدُ مِنَ الزِّنَاءِ فَتُعَلِّقُهُ فِي عُنُقِ زَوْجِهَا وَأَمَّا الَّتِي تُقَطَّعُ لَحْمُهَا بِالْمَقَارِيضِ فَإِنَّهَا تَعْرِضُ نَفْسَهَا عَلَى الرِّجَالِ وَأَمَّا الَّتِي كَانَتْ تُحْرَقُ وَجْهُهَا وَبَدَنُهَا وَهِيَ تَأْكُلُ أَمْعَاءَهَا فَإِنَّهَا كَانَتْ قَوَّادَةً وَأَمَّا الَّتِي كَانَ رَأْسُهَا رَأْسَ خِنْزِيرٍ وَبَدَنُهَا بَدَنَ الْحِمَارِ فَإِنَّهَا كَانَتْ نَمَّامَةً كَذَّابَةً وَأَمَّا الَّتِي كَانَتْ عَلَى صُورَةِ الْكَلْبِ وَالنَّارُ تَدْخُلُ فِي دُبُرِهَا وَتَخْرُجُ مِنْ فِيهَا فَإِنَّهَا كَانَتْ قَيْنَةً نَوَّاحَةً حَاسِدَةً ثُمَّ قَالَ عَلَيْهِ السَّلَامُ وَيْلٌ لِمَرْأَةٍ أَغْضَبَتْ زَوْجَهَا وَطُوبَى لِمَرْأَةٍ رَضِيَ عَنْهَا زَوْجُهَا.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا عَلِيُّ بْنُ عَبْدِ اللَّهِ الْوَرَّاقُ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ أَبِي عَبْدِ اللَّهِ الْكُوفِيُّ عَنْ سَهْلِ بْنِ زِيَادٍ الْأَدَمِيِّ عَنْ عَبْدِ الْعَظِيمِ بْنِ عَبْدِ اللَّهِ الْحَسَنِيِّ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ الرِّضَا عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ عَلِيِّ بْنِ الْحُسَيْنِ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الْحُسَيْنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ أَمِيرِ الْمُؤْمِنِينَ عَلِيِّ بْنِ أَبِي طَالِبٍ عَلَيْهِ السَّلَامُ قَالَ:",
+      "matn_ar": "دَخَلْتُ أَنَا وَفَاطِمَةُ عَلَى رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَوَجَدْتُهُ يَبْكِي بُكَاءً شَدِيدًا فَقُلْتُ فِدَاكَ أَبِي وَأُمِّي يَا رَسُولَ اللَّهِ مَا الَّذِي أَبْكَاكَ فَقَالَ يَا عَلِيُّ لَيْلَةَ أُسْرِيَ بِي إِلَى السَّمَاءِ رَأَيْتُ نِسَاءً مِنْ أُمَّتِي فِي عَذَابٍ شَدِيدٍ فَأَنْكَرْتُ شَأْنَهُنَّ فَبَكَيْتُ لِمَا رَأَيْتُ مِنْ شِدَّةِ عَذَابِهِنَّ وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِشَعْرِهَا يَغْلِي دِمَاغُ رَأْسِهَا وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِلِسَانِهَا وَالْحَمِيمُ يُصَبُّ فِي حَلْقِهَا وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِثَدْيِهَا وَرَأَيْتُ امْرَأَةً تَأْكُلُ لَحْمَ جَسَدِهَا وَالنَّارُ تُوقَدُ مِنْ تَحْتِهَا وَرَأَيْتُ امْرَأَةً قَدْ شُدَّ رِجْلَاهَا إِلَى يَدَيْهَا وَقَدْ سُلِّطَ عَلَيْهَا الْحَيَّاتُ وَالْعَقَارِبُ وَرَأَيْتُ امْرَأَةً صَمَّاءَ عَمْيَاءَ خَرْسَاءَ فِي تَابُوتٍ مِنْ نَارٍ يَخْرُجُ دِمَاغُ رَأْسِهَا مِنْ مَنْخِرِهَا وَبَدَنُهَا مُتَقَطِّعٌ مِنَ الْجُذَامِ وَالْبَرَصِ وَرَأَيْتُ امْرَأَةً مُعَلَّقَةً بِرِجْلَيْهَا فِي تَنُّورٍ مِنْ نَارٍ وَرَأَيْتُ امْرَأَةً تُقَطَّعُ لَحْمُ جَسَدِهَا مِنْ مُقَدَّمِهَا وَمُؤَخَّرِهَا بِمَقَارِيضَ مِنْ نَارٍ وَرَأَيْتُ امْرَأَةً يُحْرَقُ وَجْهُهَا وَيَدَاهَا وَهِيَ تَأْكُلُ أَمْعَاءَهَا وَرَأَيْتُ امْرَأَةً رَأْسُهَا رَأْسُ خِنْزِيرٍ وَبَدَنُهَا بَدَنُ الْحِمَارِ وَعَلَيْهَا أَلْفُ أَلْفِ لَوْنٍ مِنَ الْعَذَابِ وَرَأَيْتُ امْرَأَةً عَلَى صُورَةِ الْكَلْبِ وَالنَّارُ تَدْخُلُ فِي دُبُرِهَا وَتَخْرُجُ مِنْ فِيهَا وَالْمَلَائِكَةُ يَضْرِبُونَ رَأْسَهَا وَبَدَنَهَا بِمَقَامِعَ مِنْ نَارٍ فَقَالَتْ فَاطِمَةُ عَلَيْهَا السَّلَامُ حَبِيبِي وَقُرَّةُ عَيْنِي أَخْبِرْنِي مَا كَانَ عَمَلُهُنَّ وَسِيرَتُهُنَّ حَتَّى وَضَعَ اللَّهُ عَلَيْهِنَّ هَذَا الْعَذَابَ فَقَالَ يَا بِنْتِي أَمَّا الْمُعَلَّقَةُ بِشَعْرِهَا فَإِنَّهَا كَانَتْ لَا تُغَطِّي شَعْرَهَا مِنَ الرِّجَالِ وَأَمَّا الْمُعَلَّقَةُ بِلِسَانِهَا فَإِنَّهَا كَانَتْ تُؤْذِي زَوْجَهَا وَأَمَّا الْمُعَلَّقَةُ بِثَدْيِهَا فَإِنَّهَا كَانَتْ تَمْتَنِعُ مِنْ فِرَاشِ زَوْجِهَا وَأَمَّا الْمُعَلَّقَةُ بِرِجْلَيْهَا فَإِنَّهَا كَانَتْ تَخْرُجُ مِنْ بَيْتِهَا بِغَيْرِ إِذْنِ زَوْجِهَا وَأَمَّا الَّتِي كَانَتْ تَأْكُلُ لَحْمَ جَسَدِهَا فَإِنَّهَا كَانَتْ تُزَيِّنُ بَدَنَهَا لِلنَّاسِ وَأَمَّا الَّتِي شُدَّتْ يَدَاهَا إِلَى رِجْلَيْهَا وَسُلِّطَ عَلَيْهَا الْحَيَّاتُ وَالْعَقَارِبُ فَإِنَّهَا كَانَتْ قَذِرَةَ الْوَضُوءِ قَذِرَةَ الثِّيَابِ وَكَانَتْ لَا تَغْتَسِلُ مِنَ الْجَنَابَةِ وَالْحَيْضِ وَلَا تَتَنَظَّفُ وَكَانَتْ تَسْتَهِينُ بِالصَّلَاةِ وَأَمَّا الْعَمْيَاءُ الصَّمَّاءُ الْخَرْسَاءُ فَإِنَّهَا كَانَتْ تَلِدُ مِنَ الزِّنَاءِ فَتُعَلِّقُهُ فِي عُنُقِ زَوْجِهَا وَأَمَّا الَّتِي تُقَطَّعُ لَحْمُهَا بِالْمَقَارِيضِ فَإِنَّهَا تَعْرِضُ نَفْسَهَا عَلَى الرِّجَالِ وَأَمَّا الَّتِي كَانَتْ تُحْرَقُ وَجْهُهَا وَبَدَنُهَا وَهِيَ تَأْكُلُ أَمْعَاءَهَا فَإِنَّهَا كَانَتْ قَوَّادَةً وَأَمَّا الَّتِي كَانَ رَأْسُهَا رَأْسَ خِنْزِيرٍ وَبَدَنُهَا بَدَنَ الْحِمَارِ فَإِنَّهَا كَانَتْ نَمَّامَةً كَذَّابَةً وَأَمَّا الَّتِي كَانَتْ عَلَى صُورَةِ الْكَلْبِ وَالنَّارُ تَدْخُلُ فِي دُبُرِهَا وَتَخْرُجُ مِنْ فِيهَا فَإِنَّهَا كَانَتْ قَيْنَةً نَوَّاحَةً حَاسِدَةً ثُمَّ قَالَ عَلَيْهِ السَّلَامُ وَيْلٌ لِمَرْأَةٍ أَغْضَبَتْ زَوْجَهَا وَطُوبَى لِمَرْأَةٍ رَضِيَ عَنْهَا زَوْجُهَا.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا عَلِىِّ بْنِ عَبْدِ اللَّه الوَرَّاقُ رَضِىَ اللهُ عَنْهُ قالَ: حَدَّثَنا مُحَمَّدِ بْنِ أَبي عَبْدِ اللَّه الكُوفِي",
+          "name_en": "Ali b. Abd Allah al-Warraq",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "سَهْلِ بْنِ زِياد الأَدَمِي",
+          "name_en": "Sahl ibn Ziyad al-Adami",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3389
+        },
+        {
+          "name_ar": "عَبْدِ العَظِيم بْنِ عَبْدِ اللَّه الحَسَنِيِّ",
+          "name_en": "Abd al-Azim ibn Abdullah al-Hasani",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 409
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ عَلِى الرِّضا عَلَيْهِ السَّلامُ الرِّضا عَلَيْهِ السَّلامُ،",
+          "name_en": "Muhammad b. Ali al-Rida",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبِيهِ مُوسَى بْنِ جَعْفَر عَلَيْهِ السَّلامُ،",
+          "name_en": "Abihi Musa b. Jafar",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ جَعْفَرِ بْنِ مُحَمَّد عَلَيْهِ السَّلامُ",
+          "name_en": "Abihi Jafar b. Muhammad",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ مُحَمَّدِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ،",
+          "name_en": "Abihi Muhammad b. Ali",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ عَلِىِّ بْنِ الحُسَيْن‏ عَلَيْهِ السَّلامُ",
+          "name_en": "Abihi Ali b. al-Husayn",
+          "role": "narrator",
+          "position": 8,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ الحُسَيْنِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ،",
+          "name_en": "Abihi al-Husayn b. Ali",
+          "role": "narrator",
+          "position": 9,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ أَمِيرِ الْمُؤْمِنين عَلِىِّ بْنِ أَبي طـالِبٍ‏ عَلَيْهِ السَّلامُ قالَ: دَخَلْتُ أَنَا وَفَاطِمَةُ عَلَى رَسُولِ اللَّهِ‏ صَلَّى اللهُ عَلَيْهِ وَآلِهِفَوَجَدْتُهُ يَبْكِي بُكَاءً شَدِيداً فَقُلْتُ فِدَاكَ أَبِي وَأُمِّي يَا رَسُولَ اللَّهِ مَا الَّذِي أَبْكَاكَ",
+          "name_en": "Abihi Amir al-Mu'minin Ali b. Abi Talib",
+          "role": "narrator",
+          "position": 10,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 2,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,396 @@
+{
+  "verse_path": "/books/al-kafi:2:1:163:12",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'هذا' has no diacritics (must be fully diacritized)",
+    "chunks[5] word 'هذا' has no diacritics (must be fully diacritized)",
+    "chunks[6] word_end (138) must be greater than word_start (138)",
+    "chunks[6] translations.en is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "social_relations",
+      "quran_commentary"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "etiquette",
+      "halal_haram",
+      "quran_interpretation_method",
+      "community"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ مُحَمَّدِ بْنِ سَعْدٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ إِسْحَاقَ بْنِ مَُوَى قَالَ حَدَّثَنِي أَخِي وَ عَمِّي عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+        "translations": {
+          "en": "Al-Husayn ibn Muhammad from Ali ibn Muhammad ibn Sa'd from Muhammad ibn Muslim from Is'haq ibn Musa who said, 'My brother and my uncle narrated to me from Abu Abdillah (peace be upon him)'",
+          "ur": "الحسین بن محمد عن علی بن محمد بن سعد عن محمد بن مسلم عن إسحاق بن موسیٰ قال حدثنی أخي وعمي عن أبي عبد اللہ (علیہ السلام)",
+          "tr": "El-Hüseyin b. Muhammed, Ali b. Muhammed b. Sa'd'dan, Muhammed b. Müslim'den, İshak b. Musa'dan; o da şöyle dedi: 'Babam ve amcam bana Ebu Abdillah'dan (s.a.v.) rivayet ettiler.'",
+          "fa": "الحسین بن محمد عن علی بن محمد بن سعد عن محمد بن مسلم عن إسحاق بن موسى قال حدثني أخي وعمي عن أبي عبد الله (عليه السلام)",
+          "id": "Al-Husayn bin Muhammad dari Ali bin Muhammad bin Sa'd dari Muhammad bin Muslim dari Is'haq bin Musa yang berkata, 'Saudaraku dan pamanku meriwayatkan kepadaku dari Abu Abdillah (alamah)'}",
+          "bn": "হুসাইন ইবনে মুহাম্মদ, আলী ইবনে মুহাম্মদ ইবনে সাঈদ, মুহাম্মদ ইবনে মুসলিম, ইসহাক ইবনে মুসা থেকে বর্ণিত, তিনি বলেন, আমার ভাই এবং আমার চাচা আমাকে বর্ণনা করেছেন আবু আবদিল্লাহ (আস)-এর নিকট থেকে",
+          "es": "Al-Husayn ibn Muhammad de Ali ibn Muhammad ibn Sa'd de Muhammad ibn Muslim de Is'haq ibn Musa, quien dijo: 'Mi hermano y mi tío me narraron de Abu Abdillah (la paz sea con él)'",
+          "fr": "Al-Husayn ibn Muhammad de Ali ibn Muhammad ibn Sa'd de Muhammad ibn Muslim de Is'haq ibn Musa qui a dit : « Mon frère et mon oncle m'ont rapporté d'Abou Abdillah (que la paix soit sur lui) »",
+          "de": "Al-Husayn ibn Muhammad von Ali ibn Muhammad ibn Sa'd von Muhammad ibn Muslim von Is'haq ibn Musa, der sagte: 'Mir erzählten mein Bruder und mein Onkel von Abu Abdillah (friede sei mit ihm)'",
+          "ru": "Аль-Хусайн ибн Мухаммад от Али ибн Мухаммада ибн Са‘да от Мухаммада ибн Муслима от Исхака ибн Мусы, который сказал: «Мой брат и мой дядя передали мне от Абу Абдиллы (да будет мир с ним)»",
+          "zh": "侯赛因·本·穆罕默德从阿里·本·穆罕默德·本·萨德从穆罕默德·本·穆斯林从伊萨克·本·穆萨传述，他说：‘我哥哥和我叔叔从阿布·阿卜杜拉（愿主安宁之）传述给我’"
+        },
+        "word_start": 0,
+        "word_end": 30
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ ثَلَاثَةُ مَجَالِسَ يَمْقُتُهَا اللَّهُ وَ يُرْسِلُ نَقِمَتَهُ عَلَى أَهْلِهَا فَلَا تُقَاعِدُوهُمْ وَ لَا تُجَالِسُوهُمْ مَجْلِساً فِيهِ مَنْ يَصِفُ لِسَانُهُ كَذِباً فِي فُتْيَاهُ وَ مَجْلِساً ذِكْرُ أَعْدَائِنَا فِيهِ جَدِيدٌ وَ ذِكْرُنَا فِيهِ رَثٌّ وَ مَجْلِساً فِيهِ مَنْ يَصُدُّ عَنَّا وَ أَنْتَ تَعْلَمُ",
+        "translations": {
+          "en": "He said: 'Three gatherings are detested by Allah and He sends His retribution upon their people, so do not sit with them nor gather with them: a gathering wherein one whose tongue describes lies in his fatwas; and a gathering wherein the mention of our enemies is fresh and our mention is stale; and a gathering wherein one blocks us and you are knowing.'",
+          "ur": "انہوں نے کہا: تین اجتماعات اللہ کو ناپسند ہیں اور وہ ان کے لوگوں پر اپنی سزا بھیجتا ہے، پس ان کے ساتھ نہ بیٹھو اور نہ ہی ان کے ساتھ اجتماع کرو: ایک اجتماع جس میں وہ شخص جس کی زبان جھوٹ بولتا ہے، اپنے فتویٰ میں؛ اور ایک اجتماع جس میں ہمارے دشمنوں کا ذکر تازہ ہو اور ہمارا ذکر پرانا ہو جائے؛ اور ایک اجتماع جس میں وہ ہمیں روکتا ہے اور تم جانتے ہو۔",
+          "tr": "Dedi ki: 'Allah'ın nefret ettiği üç topluluk vardır ve O, onların halkına azabını gönderir; öyleyse onlarla oturmayın ve onlarla toplanmayın: Birincisi, dilinin fetvalarında yalan söylediği birinin olduğu topluluk; ikincisi, düşmanlarımızın anılmasının taze ve bizim anılmasının eski olduğu topluluk; üçüncüsü, birinin bizi engellediği ve siz bunu bilerek orada bulunduğunuz topluluk.'",
+          "fa": "گفت: سه گروهِ که خداوند از آن‌ها متنفر است و عذاب خود را بر مردم آن‌ها نازل می‌کند، پس با آن‌ها ننشینید و با آن‌ها جمع نشوید: گروهِی که در آن کسی که زبانش در فتواها دروغ می‌گوید؛ و گروهِی که در آن یاد دشمنان ما تازه و یاد ما کهنه است؛ و گروهِی که در آن کسی ما را سد می‌کند و شما آگاهید.",
+          "id": "Ia berkata, 'Tiga majelis yang dibenci oleh Allah dan Dia menurunkan azab-Nya kepada penduduknya, maka janganlah kamu duduk bersama mereka maupun berkumpul bersama mereka: yaitu majelis di mana seseorang yang lidahnya penuh dengan kebohongan dalam fatwa-fatwanya; dan majelis di mana sebutan tentang musuh-musuh kita masih segar sedangkan sebutan tentang kita sudah usang; dan majelis di mana seseorang menghalangi kami, sedangkan kamu mengetahuinya.'",
+          "bn": "তিনি বললেন: 'তিনটি সমাবেশ আল্লাহ তায়ালাকে অপছন্দনীয় এবং তিনি তাদের লোকদের প্রতি তাঁর শাস্তি প্রেরণ করেন, অতএব তাদের সাথে বসো না এবং তাদের সাথে সমবেত হও না: প্রথমটি হলো এমন একটি সমাবেশ যেখানে একজন ব্যক্তি তাঁর ফতোয়ায় মিথ্যা বর্ণনা করেন; দ্বিতীয়টি হলো এমন একটি সমাবেশ যেখানে আমাদের শত্রুদের উল্লেখ সতেজ থাকে কিন্তু আমাদের উল্লেখ পুরনো হয়ে যায়; এবং তৃতীয়টি হলো এমন একটি সমাবেশ যেখানে একজন ব্যক্তি আমাদেরকে বাধা দেন এবং তোমরা জানো।'",
+          "es": "Dijo: «Tres asambleas son detestadas por Allah, y Él envía Su castigo contra su gente, así que no os sentéis con ellos ni os reunáis con ellos: una asamblea en la que uno cuya lengua describe mentiras en sus fatwas; y una asamblea en la que la mención de nuestros enemigos es fresca y nuestra mención es antigua; y una asamblea en la que uno nos bloquea y vosotros lo sabéis.»",
+          "fr": "Il a dit : « Trois assemblées sont détestées par Allah, et Il fait pleuvoir Sa rétribution sur leurs gens, alors ne vous asseyez pas avec eux ni ne vous rassemblez avec eux : une assemblée où celui dont la langue profère des mensonges rend des fatwas ; une assemblée où la mention de nos ennemis est fraîche et la nôtre est passée ; et une assemblée où l'un nous bloque et vous le savez. »",
+          "de": "Er sagte: „Drei Versammlungen sind Allah verhasst, und Er sendet Seine Strafe auf ihre Leute, also sitzt nicht mit ihnen und versammelt euch nicht mit ihnen: eine Versammlung, in der einer, dessen Zunge die Lüge beschreibt, in seinen Fatwas; und eine Versammlung, in der die Erwähnung unserer Feinde frisch ist und unsere Erwähnung veraltet ist; und eine Versammlung, in der einer uns blockiert und ihr es wisst.“",
+          "ru": "Он сказал: «Три собрания ненавистны Аллаху, и Он посылает Свое наказание на их людей, поэтому не сидите с ними и не собирайтесь с ними: собрание, в котором тот, чей язык описывает ложь в своих фетвах; и собрание, в котором упоминание наших врагов свежо, а наше упоминание устарело; и собрание, в котором один из нас блокирует нас, а вы знаете об этом».",
+          "zh": "他说：‘有三类聚会是安拉所厌恶的，祂将降下报应于他们的人群，故不要与他们同坐，也不要与他们聚集：一类是其中有人以谎言描述自己的教法律例；一类是其中提及我们的敌人时新鲜生动，而提及我们时却陈旧乏味；一类是其中有人阻挡我们，而你们明知故犯。’"
+        },
+        "word_start": 30,
+        "word_end": 72
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ ثُمَّ تَلَا أَبُو عَبْدِ اللَّهِ ( عليه السلام ) ثَلَاثَ آيَاتٍ مِنْ كِتَابِ اللَّهِ كَأَنَّمَا كُنَّ فِي فِيهِ أَوْ قَالَ فِي كَفِّهِ",
+        "translations": {
+          "en": "He said: Then Abu Abdillah (peace be upon him) recited three verses from the Book of Allah as if they were in his mouth, or said, in his palm.",
+          "ur": "انہوں نے کہا، پھر ابو عبداللہ (علیہ السلام) نے تین آیات قرآن مجید سے ایسے پڑھیں گویا وہ ان کے منہ پر تھیں، یا کہا، ان کے ہتھیلی پر تھیں۔",
+          "tr": "Dedi ki: Sonra Ebu Abdillah (aleyhisselam), Allah'ın Kitabından üç ayeti sanki ağzındaymış gibi veya dedi, avucunun içindeymiş gibi okudu.",
+          "fa": "گفت: سپس ابوعبدالله (علیه‌السلام) سه آیه از کتاب خدا را چنان‌که گویی در دهانش بود یا در کف دستش بود، تلاوت کرد.",
+          "id": "Ia berkata: Maka Abu Abdillah (semoga Allah melimpahkan kesejahteraan kepadanya) membacakan tiga ayat dari Kitab Allah seakan-akan ayat-ayat itu ada di dalam mulutnya, atau ia berkata, di dalam telapak tangannya.",
+          "bn": "তিনি বললেন, অতঃপর আবু আবদিল্লাহ (আলৈহিস সালাম) আল্লাহর কিতাব থেকে তিনটি আয়াত এমনভাবে তিলাওয়াত করলেন, যেন সেগুলো তার মুখে ছিল, অথবা বললেন, তার তালুর উপর ছিল।",
+          "es": "Dijo: Entonces Abu Abdillah (Abu Abdillah) recitó tres versículos del Libro de Alá como si estuvieran en su boca, o dijo, en su palma.",
+          "fr": "Il a dit : Alors Abou Abdillah (que la paix soit sur lui) a récité trois versets du Livre d'Allah comme s'ils étaient dans sa bouche, ou a dit, dans sa paume.",
+          "de": "Er sagte: Dann rezitierte Abu Abdillah (friede sei mit ihm) drei Verse aus dem Buch Allahs, als ob sie auf seiner Zunge lägen, oder er sagte: in seiner Handfläche.",
+          "ru": "Он сказал: Затем Абу Абдиллах (да будет мир с ним) прочитал три аята из Книги Аллаха так, словно они были у него во рту, или сказал: на его ладони.",
+          "zh": "他说道：随后，阿布·阿卜杜拉（愿主福安之）诵读《古兰经》中的三节经文，仿佛经文就在他的口中，或者说，就在他的掌心。"
+        },
+        "word_start": 72,
+        "word_end": 95
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَ لا تَسُبُّوا الَّذِينَ يَدْعُونَ مِنْ دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْواً بِغَيْرِ عِلْمٍ",
+        "translations": {
+          "en": "And do not abuse those whom they call upon besides Allah, lest exceeding the limits they should abuse Allah without knowledge.",
+          "ur": "اور ان کی عبادت کرو جن کو وہ اللہ کے سوا پکارتے ہیں، تاکہ حد سے تجاوز نہ کر کے وہ بے خبری میں اللہ کی عبادت نہ کریں۔",
+          "tr": "Allah'ın yanında çağırdıkları kimseleri azarlamayın ki, bilmeden Allah'a azarlasınlar.",
+          "fa": "و به آنان که غیر از خدا را می‌خوانند، بدگویی مکن، مبادا آنان از روی نادانی و زیاده‌روی، خدا را بد گویند.",
+          "id": "Dan janganlah kamu mencaci sembahan-sembahan yang mereka sembah selain Allah, karena mereka nanti akan mencaci Allah dengan melampaui batas tanpa pengetahuan.",
+          "bn": "আর যাদেরকে তারা আল্লাহর পাশাপাশি ডাকে, তাদেরকে গালি দিও না, যাতে তারা জ্ঞানহীনভাবে সীমালঙ্ঘন করে আল্লাহকে গালি দেয়।",
+          "es": "Y no injuriéis a aquellos a quienes invocan además de Alá, no sea que, por exceder los límites, injurien a Alá sin conocimiento.",
+          "fr": "Et n'insultez pas ceux qu'ils invoquent en dehors d'Allah, de peur qu'ils n'excèdent les limites et n'insultent Allah sans connaissance.",
+          "de": "Und mißbraucht nicht diejenigen, die sie neben Allah anrufen, damit sie nicht in Übertreibung Allah ohne Wissen mißbrauchen.",
+          "ru": "И не злословьте тех, кого они призывают помимо Аллаха, чтобы они, превысив пределы, не стали злословить Аллаха, не зная этого.",
+          "zh": "不要辱骂他们舍真主而祈求的那些偶像，以免他们因过分无知而辱骂真主。"
+        },
+        "word_start": 95,
+        "word_end": 108
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَ إِذا رَأَيْتَ الَّذِينَ يَخُوضُونَ فِي آياتِنا فَأَعْرِضْ عَنْهُمْ حَتَّى يَخُوضُوا فِي حَدِيثٍ غَيْرِهِ",
+        "translations": {
+          "en": "And when you see those who enter into false discourses about Our Signs, withdraw from them until they enter into some other discourse.",
+          "ur": "اور جب تم ان لوگوں کو دیکھو جو ہمارے آیتوں میں جھوٹ بولتے ہیں، تو ان سے پیچھے ہٹ جاؤ یہاں تک کہ وہ کسی اور بات میں مشغول ہو جائیں۔",
+          "tr": "Ey iman edenler! Allah'ın ayetleri hakkında alay edenlerle karşılaşınca, onlar başka bir söz söyleyene kadar onlardan yüz çevirin. (Nisa 140)",
+          "fa": "و هرگاه کسانی را می‌بینی که درباره آیات ما به گفتگوی باطل می‌پردازند، از آنان کناره گیر تا به گفتگوی دیگری بپردازند.",
+          "id": "Dan apabila kamu melihat orang-orang yang memperbincangkan ayat-ayat Kami dengan sia-sia, maka menjauhlah dari mereka hingga mereka memperbincangkan pembicaraan yang lain.",
+          "bn": "এবং যখন তুমি দেখবে যে, তারা আমার আয়াতসমূহ নিয়ে কুৎসিত কথোপকথন করছে, তখন তাদের থেকে সরে যাও যতক্ষণ না তারা অন্য কথোপকথনে প্রবেশ করে।",
+          "es": "Y cuando ve cuando veas a los que entran en discursos falsos acerca de Nuestros Signos, retírate de ellos hasta que entren en otro discurso.",
+          "fr": "Et lorsque tu vois ceux qui s'engagent dans des discours futiles à propos de Nos versets, retire-toi d'eux jusqu'à ce qu'ils s'engagent dans un autre discours.",
+          "de": "Und wenn du sie siehst, die in falsche Reden über Unsere Zeichen verfallen, so weiche von ihnen zurück, bis sie in eine andere Rede eintreten.",
+          "ru": "И когда ты увиди увидишь тех, кто вступает в ложные прения о Наши знамения, удаляйся от них, пока они не перейдут к другому прению.",
+          "zh": "当你看见那些在真主的迹象中妄谈的人，你当回避他们，直到他们谈别的话。"
+        },
+        "word_start": 108,
+        "word_end": 122
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَ لا تَقُولُوا لِما تَصِفُ أَلْسِنَتُكُمُ الْكَذِبَ هذا حَلالٌ وَ هذا حَرامٌ لِتَفْتَرُوا عَلَى اللَّهِ الْكَذِبَ",
+        "translations": {
+          "en": "And, for what your tongues describe, do not utter the lie, saying this is lawful and this is unlawful, in order to forge a lie against Allah.",
+          "ur": "اور جو کچھ تمہاری زبانیں بیان کرتی ہیں، اس پر جھوٹ نہ بولو کہ یہ حلال ہے اور یہ حرام ہے، تاکہ اللہ کے خلاف جھوٹ گھڑو۔",
+          "tr": "Dillerinizin tasvir ettiği şeyler için, Allah'a yalan uydurmak amacıyla, bu helaldir, bu haramdır demeyin.",
+          "fa": "و برای آنچه زبانتان توصیف می‌کند، دروغ نگوئید و نگوئید این حلال و این حرام است تا برای خدا دروغ ببافید.",
+          "id": "Dan, terhadap apa yang digambarkan oleh lisan kalian, janganlah kalian mengucapkan kebohongan, dengan mengatakan ini halal dan ini haram, agar kalian dapat memalsukan kebohongan terhadap Allah.",
+          "bn": "এবং তোমাদের জিহ্বা যে বর্ণনা করে, তার জন্য মিথ্যা বলো না, এটা হালাল এবং এটা হারাম বলে, আল্লাহর বিরুদ্ধে মিথ্যা রচনা করার উদ্দেশ্যে।",
+          "es": "Y, por lo que describen vuestras lenguas, no proferid la mentira, diciendo: «Esto es lícito y esto es ilícito», para inventar una mentira contra Alá.",
+          "fr": "Et, pour ce que vos langues décrivent, ne proférez pas le mensonge, en disant : 'Ceci est licite et cela est illicite', afin d'imaginer un mensonge contre Allah.",
+          "de": "Und was eure Zungen beschreiben, sagt nicht die Lüge und behauptet: Dies ist erlaubt und dies ist verboten, um eine Lüge gegen Allah zu erfinden.",
+          "ru": "И и за то, что описывают ваши языки, не произносите лжи, говоря: это дозволено, а это запретно, чтобы вымыслить ложь против Аллаха.",
+          "zh": "你们舌头所描述的，不要妄言，说这个是合法的，那个是非法的，以便你们妄造谎言诬蔑真主。"
+        },
+        "word_start": 122,
+        "word_end": 138
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "",
+        "translations": {
+          "en": "",
+          "ur": "یہ ایک حدیث نبوی ہے جس میں نبی کریم صلی اللہ علیہ وسلم نے فرمایا: جو شخص نماز پڑھتا ہے تو اس کی نماز اس کے لیے نور اور روشنی اور نجات کا سبب بنتی ہے۔",
+          "tr": "Hz. Muhammed (s.a.s.",
+          "fa": "صلاة، وضو، زکات",
+          "id": "Sesungguhnya Allah tidak akan mengampuni dosa syirik, dan Dia mengampuni segala dosa selain itu bagi siapa yang Dia kehendaki. Barangsiapa yang mempersekutukan Allah, maka sungguh ia telah berbuat dosa yang sangat besar.",
+          "bn": "হযরত আবু হুরায়রা (রা.) থেকে বর্ণিত, তিনি বলেন, রাসূলুল্লাহ (সা.) বলেছেন: তোমাদের মধ্যে কেউ যখন সালাত পড়বে, তখন সে তার পিছনে থাকা ব্যক্তির দিকে তাকাবে না, কারণ আল্লাহ তায়ালা তার এবং তার সালাতের মাঝখানে যে পর্দা আছে, তার দিকে তাকানো তার সালাতের জন্য বিদ্রূপসূচক।",
+          "es": "El Profeta (la paz y las bendiciones de Allah sean con él) dijo: \"La oración es una luz\".",
+          "fr": "Le Prophète (paix et bénédictions d'Allah soient sur lui) a dit : « Quiconque accomplit la prière du Fajr est sous la protection d'Allah. »",
+          "de": "Der Gesandte Allahs (Friede sei mit ihm) sagte: »Wer auch immer ein Gebet betet, das er nicht vor der Fajr-Gebetszeit betet, hat kein Gebet betet.«",
+          "ru": "Перевод",
+          "zh": "真主的使者（愿主福安之）说：\"谁为真主的事业而施舍，真主将加倍回赐他。\""
+        },
+        "word_start": 138,
+        "word_end": 138
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Sadiq (AS) delineates three specific social contexts to be avoided, emphasizing the preservation of doctrinal integrity against false fatwas and the political marginalization of the Ahl al-Bayt. By citing verses from Surah Al-An'am, he links these social dynamics to the broader theological principles of avoiding ignorant mockery of God, withdrawing from frivolous disputers, and distinguishing truth from fabricated religious rulings. This hadith serves as a practical guide for Shia communities to maintain spiritual and social boundaries in mixed or hostile environments.",
+        "seo_question": "What are the three gatherings detested by Allah according to Imam al-Sadiq (peace be upon him)?",
+        "key_terms": {
+          "مَجَالِسَ": "gatherings/sittings",
+          "فُتْيَاهُ": "his fatwas (religious rulings)",
+          "جَدِيدٌ": "fresh/prominent",
+          "رَثٌّ": "stale/insignificant",
+          "يَخُوضُونَ": "they enter into/debate",
+          "آياتِنا": "Our signs/verses",
+          "حَلالٌ وَ حَرامٌ": "lawful and unlawful"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (ع) تین مخصوص اجتماعی حلقوں کی نشاندہی کرتے ہیں جن سے بچنا چاہیے، جو کہ غلط فتاویٰ اور اہل بیت کی سیاسی حاشیہ نشینی کے خلاف عقیدتی سالمیت کو برقرار رکھنے پر زور دیتے ہیں۔ ان سورت الانعام کی آیات کا حوالہ دیتے ہوئے، وہ ان اجتماعی حرکیات کو جہالانہ مذاق سے بچنے، بے مقصد جھگڑالوؤں سے الگ ہونے اور سچائی کو من گھڑت شرعی احکام سے ممتاز کرنے کے وسیع الہیاتی اصولوں سے جوڑتے ہیں۔ یہ حدیٹ شیعہ برادریوں کے لیے مخلوط یا دشمنانہ ماحول میں روحانی اور اجتماعی حدود کو برقرار رکھنے کے لیے ایک عملی رہنما ہے۔",
+        "seo_question": "امام صادق (علیہ السلام) کے مطابق اللہ کو کون سے تین اجتماعات ناپسند ہیں؟",
+        "key_terms": {
+          "مَجَالِسَ": "حلقے",
+          "فُتْيَاهُ": "اس کے فتاویٰ",
+          "جَدِيدٌ": "تازہ/معتبر",
+          "رَثٌّ": "پرانا/غیر اہم",
+          "يَخُوضُونَ": "وہ داخل ہوتے ہیں/بحث کرتے ہیں",
+          "آياتِنا": "ہمارے نشانات/آیات",
+          "حَلالٌ وَ حَرامٌ": "حلال اور حرام"
+        }
+      },
+      "tr": {
+        "summary": "İmamü'l-Sadiq (AS), doktrinsel bütünlüğün korunması ve Ahlü'l-Beyt'in siyasi olarak dışlanması konusunda uyarıda bulunarak, yanlış fetvalara karşı durulması gerektiğini vurgular. En'am Suresi'nden ayetler zikrederek, bu sosyal dinamiklerin cehilce Allah'a hakaretten, boş tartışmacılardan çekinmekten ve gerçek ile uydurma dini hükümler arasındaki ayrımı yapmaktan kaynaklandığını belirtir. Bu hadis, Şia topluluklarının karmaşık veya düşmanca ortamlarda manevi ve sosyal sınırlarını korumaları için pratik bir rehber niteliğindedir.",
+        "seo_question": "İmamü'l-Sadiq'a (aleyhisselam) göre Allah'ın nefret ettiği üç topluluk nedir?",
+        "key_terms": {
+          "مَجَالِسَ": "toplantılar",
+          "فُتْيَاهُ": "onun fetvaları",
+          "جَدِيدٌ": "taze",
+          "رَثٌّ": "eskimiş",
+          "يَخُوضُونَ": "girişirler",
+          "آياتِنا": "ayetlerimiz",
+          "حَلالٌ وَ حَرامٌ": "helal ve haram"
+        }
+      },
+      "fa": {
+        "summary": "امام صادق (ع) سه زمینه اجتماعی خاص را برای اجتناب ترسیم می‌کند و بر حفظ یکپارچگی عقیدتی در برابر فتوای نادرست و حاشیه‌رانی سیاسی اهل بیت تأکید می‌ورزد. با استناد به آیاتی از سوره انعام، او این پویایی‌های اجتماعی را به اصول الهیاتی گسترده‌تر از اجتناب از مسخره‌گری جاهلان نسبت به خدا، کناره‌گیری از جدالگران بیهوده و تمایز بین حقیقت و احکام دینی ساخته‌شده پیوند می‌دهد. این حدیث به عنوان راهنمای عملی برای جوامع شیعه جهت حفظ مرزهای معنوی و اجتماعی در محیط‌های مختلط یا خصمانه عمل می‌کند.",
+        "seo_question": "سه مجلسی که خداوند از آن‌ها متنفر است طبق فرموده امام صادق (علیه السلام) کدامند؟",
+        "key_terms": {
+          "مَجَالِسَ": "مجالس",
+          "فُتْيَاهُ": "فتوای او",
+          "جَدِيدٌ": "تازه/برجسته",
+          "رَثٌّ": "کهنه/ناچیز",
+          "يَخُوضُونَ": "ورود می‌کنند/بحث می‌کنند",
+          "آياتِنا": "آیات ما",
+          "حَلالٌ وَ حَرامٌ": "حلال و حرام"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Sadiq (AS) menguraikan tiga konteks sosial spesifik yang harus dihindari, dengan menekankan pelestarian integritas doktrinal terhadap fatwa yang keliru dan marginalisasi politik Ahl al-Bayt. Dengan mengutip ayat-ayat dari Surah Al-An'am, ia menghubungkan dinamika sosial ini dengan prinsip-prinsip teologis yang lebih luas, yaitu menghindari cemoohan orang bodoh terhadap Allah, menarik diri dari para pendebat yang sia-sia, dan membedakan kebenaran dari hukum agama yang dibuat-buat. Hadis ini berfungsi sebagai panduan praktis bagi komunitas Syiah untuk menjaga batas spiritual dan sosial di lingkungan yang bercampur atau bermusuhan.",
+        "seo_question": "Apa saja tiga majelis yang dibenci Allah menurut Imam al-Sadiq (alamah)?",
+        "key_terms": {
+          "مَجَالِسَ": "majelis",
+          "فُتْيَاهُ": "fatwanya",
+          "جَدِيدٌ": "baru/menonjol",
+          "رَثٌّ": "kuno/tidak penting",
+          "يَخُوضُونَ": "mereka terlibat/debat",
+          "آياتِنا": "ayat-ayat Kami",
+          "حَلالٌ وَ حَرامٌ": "halal dan haram"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিq (আ.) তিনটি নির্দিষ্ট সামাজিক পরিবেশ এড়িয়ে চলার কথা উল্লেখ করেছেন, যাতে ভুল ফতোয়া এবং আহল আল-বাইতের রাজনৈতিক অবহেলার বিরুদ্ধে মতাদর্শগত অখণ্ডতা বজায় থাকে। সূরা আল-আন'আমের আয়াতসমূহ উদ্ধৃত করে তিনি এই সামাজিক গতিপ্রকৃতিগুলোকে অজ্ঞদের দ্বারা আল্লাহর উপহাস এড়ানো, উল্টোপাল্টা বিতর্ককারীদের থেকে সরে যাওয়া এবং সত্যকে কৃত্রিম ধর্মীয় রulings থেকে আলাদা করার মতো ব্যাপক ঐতিহাসিক নীতিগুলোর সাথে যুক্ত করেছেন। এই হাদিস শিয়া সম্প্রদায়ের জন্য মিশ্র বা শত্রুতাপূর্ণ পরিবেশে আধ্যাত্মিক ও সামাজিক সীমানা বজায় রাখার একটি ব্যবহারিক নির্দেশিকা হিসেবে কাজ করে।",
+        "seo_question": "ইমাম আস-সাদিq (আ.)-এর মতে, আল্লাহ তায়ালা কোন তিনটি মজলিসকে ঘৃণা করেন?",
+        "key_terms": {
+          "مَجَالِسَ": "মজলিস",
+          "فُتْيَاهُ": "ফতোয়া",
+          "جَدِيدٌ": "নতুন/প্রখর",
+          "رَثٌّ": "পুরনো/গৌণ",
+          "يَخُوضُونَ": "তারা প্রবেশ করে/বিতর্ক করে",
+          "آياتِنا": "আমাদের নিদর্শন/আয়াত",
+          "حَلالٌ وَ حَرامٌ": "হালাল ও হারাম"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Sadiq (AS) delimita tres contextos sociales específicos que deben evitarse, enfatizando la preservación de la integridad doctrinal frente a las falsas fatwas y la marginación política de los Ahl al-Bayt. Al citar versículos de la Surah Al-An'am, vincula estas dinámicas sociales con los principios teológicos más amplios de evitar la burla ignorante de Dios, retirarse de los disputadores frívolos y distinguir la verdad de las decisiones religiosas fabricadas. Este hadiz sirve como una guía práctica para las comunidades chiitas para mantener límites espirituales y sociales en entornos mixtos o hostiles.",
+        "seo_question": "¿Cuáles son las tres reuniones detestadas por Allah según el Imam al-Sadiq (que la paz sea con él)?",
+        "key_terms": {
+          "مَجَالِسَ": "reuniones",
+          "فُتْيَاهُ": "sus fatwas",
+          "جَدِيدٌ": "nuevo",
+          "رَثٌّ": "viejo",
+          "يَخُوضُونَ": "entran en",
+          "آياتِنا": "nuestros signos",
+          "حَلالٌ وَ حَرامٌ": "lo lícito y lo ilícito"
+        }
+      },
+      "fr": {
+        "summary": "L'imam al-Sadiq (AS) délimite trois contextes sociaux spécifiques à éviter, en soulignant la préservation de l'intégrité doctrinale contre les fausses fatwas et la marginalisation politique des Ahl al-Bayt. En citant des versets de la sourate Al-An'am, il relie ces dynamiques sociales aux principes théologiques plus larges d'éviter la moquerie des ignorants envers Dieu, de se retirer des disputateurs frivoles et de distinguer la vérité des rulings religieux fabriqués. Ce hadith sert de guide pratique pour les communautés chiites afin de maintenir des frontières spirituelles et sociales dans des environnements mixtes ou hostiles.",
+        "seo_question": "Quelles sont les trois assemblées détestées par Allah selon l'imam al-Sadiq (que la paix soit sur lui) ?",
+        "key_terms": {
+          "مَجَالِسَ": "rassemblements/sessions",
+          "فُتْيَاهُ": "ses fatwas (rulings religieux)",
+          "جَدِيدٌ": "frais/prominent",
+          "رَثٌّ": "rassis/insignifiant",
+          "يَخُوضُونَ": "ils s'engagent dans/débatent",
+          "آياتِنا": "Nos signes/versets",
+          "حَلالٌ وَ حَرامٌ": "licite et illicite"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Sadiq (AS) beschreibt drei spezifische soziale Kontexte, die vermieden werden sollen, und betont dabei die Bewahrung der dogmatischen Integrität gegenüber falschen Fatwas sowie die politische Marginalisierung der Ahl al-Bayt. Durch das Zitieren von Versen aus der Sure Al-An'am verknüpft er diese sozialen Dynamiken mit den breiteren theologischen Prinzipien des Vermeidens von ignorantem Spott über Gott, des Rückzugs von frivolen Streitern und der Unterscheidung zwischen Wahrheit und erfundenen religiösen Rechtsurteilen. Diese Hadith dient als praktische Anleitung für schiitische Gemeinden, um spirituelle und soziale Grenzen in gemischten oder feindseligen Umgebungen aufrechtzuerhalten.",
+        "seo_question": "Wel sind die drei von Allah verhassten Versammlungen laut Imam al-Sadiq (friede sei mit ihm)?",
+        "key_terms": {
+          "مَجَالِسَ": "Versammlungen",
+          "فُتْيَاهُ": "seine Fatwas",
+          "جَدِيدٌ": "frisch",
+          "رَثٌّ": "alt",
+          "يَخُوضُونَ": "sie gehen ein in",
+          "آياتِنا": "Unsere Zeichen",
+          "حَلالٌ وَ حَرامٌ": "erlaubt und verboten"
+        }
+      },
+      "ru": {
+        "summary": "Имам ас-Садык (мир ему) выделяет три конкретных социальных контекста, которых следует избегать, подчеркивая сохранение доктринальной целостности перед лицом ложных фетв и политическую маргинализацию Ахль аль-Байт. Цитируя аяты из суры аль-Ан'ам, он связывает эти социальные динамики с более широкими теологическими принципами: избегания невежественного насмешничества над Аллахом, отстранения от пустословов и различения истины от вымышленных религиозных предписаний. Этот хадис служит практическим руководством для шиитских общин по поддержанию духовных и социальных границ в смешанных или враждебных условиях.",
+        "seo_question": "Какие три собрания ненавистны Аллаху согласно имаму ас-Садыку (мир ему)?",
+        "key_terms": {
+          "مَجَالِسَ": "собрания",
+          "فُتْيَاهُ": "его фетвы",
+          "جَدِيدٌ": "новые",
+          "رَثٌّ": "старые",
+          "يَخُوضُونَ": "вступают",
+          "آياتِنا": "Наши знамения",
+          "حَلالٌ وَ حَرامٌ": "дозволенное и запретное"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目萨迪格（愿主福安之）划定了三种应回避的社交场合，强调维护教义完整性以抵御错误的法特瓦，并防止安赫勒·拜特家族在政治上被边缘化。他引用《古兰经》第六章（阳刚章）的经文，将这些社交动态与避免对真主进行无知嘲弄、远离轻浮争辩者以及区分真理与伪造宗教裁决的更广泛神学原则联系起来。这段圣训为什叶派社区在混合或敌对环境中维持精神和社交界限提供了实用指南。",
+        "seo_question": "根据伊玛目萨迪格（愿主福安之），真主厌恶哪三种集会？",
+        "key_terms": {
+          "مَجَالِسَ": "集会",
+          "فُتْيَاهُ": "他的法特瓦（宗教裁决）",
+          "جَدِيدٌ": "新鲜的/突出的",
+          "رَثٌّ": "陈旧的/微不足道的",
+          "يَخُوضُونَ": "他们参与/辩论",
+          "آياتِنا": "我们的迹象/经文",
+          "حَلالٌ وَ حَرامٌ": "合法与非法"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "6:108",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "6:68",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "16:116",
+        "relationship": "explicit"
+      }
+    ],
+    "diacritized_text": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ مُحَمَّدِ بْنِ سَعْدٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ إِسْحَاقَ بْنِ مَُوَى قَالَ حَدَّثَنِي أَخِي وَ عَمِّي عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ ثَلَاثَةُ مَجَالِسَ يَمْقُتُهَا اللَّهُ وَ يُرْسِلُ نَقِمَتَهُ عَلَى أَهْلِهَا فَلَا تُقَاعِدُوهُمْ وَ لَا تُجَالِسُوهُمْ مَجْلِساً فِيهِ مَنْ يَصِفُ لِسَانُهُ كَذِباً فِي فُتْيَاهُ وَ مَجْلِساً ذِكْرُ أَعْدَائِنَا فِيهِ جَدِيدٌ وَ ذِكْرُنَا فِيهِ رَثٌّ وَ مَجْلِساً فِيهِ مَنْ يَصُدُّ عَنَّا وَ أَنْتَ تَعْلَمُ قَالَ ثُمَّ تَلَا أَبُو عَبْدِ اللَّهِ ( عليه السلام ) ثَلَاثَ آيَاتٍ مِنْ كِتَابِ اللَّهِ كَأَنَّمَا كُنَّ فِي فِيهِ أَوْ قَالَ فِي كَفِّهِ وَ لا تَسُبُّوا الَّذِينَ يَدْعُونَ مِنْ دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْواً بِغَيْرِ عِلْمٍ وَ إِذا رَأَيْتَ الَّذِينَ يَخُوضُونَ فِي آياتِنا فَأَعْرِضْ عَنْهُمْ حَتَّى يَخُوضُوا فِي حَدِيثٍ غَيْرِهِ وَ لا تَقُولُوا لِما تَصِفُ أَلْسِنَتُكُمُ الْكَذِبَ هذا حَلالٌ وَ هذا حَرامٌ لِتَفْتَرُوا عَلَى اللَّهِ الْكَذِبَ",
+    "isnad_matn": {
+      "isnad_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ مُحَمَّدِ بْنِ سَعْدٍ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ عَنْ إِسْحَاقَ بْنِ مَُوَى قَالَ حَدَّثَنِي أَخِي وَ عَمِّي عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+      "matn_ar": "قَالَ ثَلَاثَةُ مَجَالِسَ يَمْقُتُهَا اللَّهُ وَ يُرْسِلُ نَقِمَتَهُ عَلَى أَهْلِهَا فَلَا تُقَاعِدُوهُمْ وَ لَا تُجَالِسُوهُمْ مَجْلِساً فِيهِ مَنْ يَصِفُ لِسَانُهُ كَذِباً فِي فُتْيَاهُ وَ مَجْلِساً ذِكْرُ أَعْدَائِنَا فِيهِ جَدِيدٌ وَ ذِكْرُنَا فِيهِ رَثٌّ وَ مَجْلِساً فِيهِ مَنْ يَصُدُّ عَنَّا وَ أَنْتَ تَعْلَمُ قَالَ ثُمَّ تَلَا أَبُو عَبْدِ اللَّهِ ( عليه السلام ) ثَلَاثَ آيَاتٍ مِنْ كِتَابِ اللَّهِ كَأَنَّمَا كُنَّ فِي فِيهِ أَوْ قَالَ فِي كَفِّهِ وَ لا تَسُبُّوا الَّذِينَ يَدْعُونَ مِنْ دُونِ اللَّهِ فَيَسُبُّوا اللَّهَ عَدْواً بِغَيْرِ عِلْمٍ وَ إِذا رَأَيْتَ الَّذِينَ يَخُوضُونَ فِي آياتِنا فَأَعْرِضْ عَنْهُمْ حَتَّى يَخُوضُوا فِي حَدِيثٍ غَيْرِهِ وَ لا تَقُولُوا لِما تَصِفُ أَلْسِنَتُكُمُ الْكَذِبَ هذا حَلالٌ وَ هذا حَرامٌ لِتَفْتَرُوا عَلَى اللَّهِ الْكَذِبَ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "الْحُسَيْنُ بْنُ مُحَمَّدٍ",
+          "name_en": "Al-Husayn ibn Muhammad",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 20
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ مُحَمَّدِ بْنِ سَعْدٍ",
+          "name_en": "Ali b. Muhammad b. Sa'd",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 545
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+          "name_en": "Muhammad ibn Muslim",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 16
+        },
+        {
+          "name_ar": "إِسْحَاقَ بْنِ مُوسَى",
+          "name_en": "Isma'il b. Musa",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2414
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "كِتَابُ اللَّهِ",
+        "phrase_en": "The Book of Allah (Quran)",
+        "category": "theological_concept"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

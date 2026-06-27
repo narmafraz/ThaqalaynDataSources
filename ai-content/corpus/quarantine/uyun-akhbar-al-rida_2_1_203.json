@@ -1,0 +1,346 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:2:1:203",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 34 words (>14, بن-density 0.18 — likely a sentence fragment, not a name): 'حَدَّثَنا عَلِىِّ بْن أَحْمَد بْنِ مُحَمَّدِ بْنِ عِمْرانالد'",
+    "narrator[6] name_ar has 54 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'جَدِّهِ\\u200f عَلَيْهِمُ السَّلاَمُ قالَ: دَعا سَلمانَ أَبَا ذَرّ'",
+    "chunks[0] translations.ru is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "social_relations",
+      "theology"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "gratitude",
+      "companions",
+      "etiquette",
+      "poverty_wealth"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا عَلِيُّ بْنُ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِمْرَانَ الدَّقَّاقُ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ هَارُونَ الصُّوفِيُّ قَالَ: حَدَّثَنَا أَبُو تُرَابَ عُبَيْدُ اللَّهِ بْنُ مُوسَى الرُّوَيَانِيُّ قَالَ: حَدَّثَنَا عَبْدُ الْعَظِيمِ بْنِ عَبْدِ اللَّهِ الْحَسَنِيُّ عَنِ الإِمَامِ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِ الرِّضَا عَلِيُّ بْنُ مُوسَى عَلَيْهِ السَّلامُ، عَنْ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ، عَنْ أَبِيهِ الصَّادِقِ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ عَلَيْهِمُ السَّلامُ",
+        "translations": {
+          "en": "Ali ibn Ahmad ibn Muhammad ibn Imran ad-Daqqaq (may God be pleased with him) narrated that Muhammad ibn Harun al-Sufi said: Ubaydillah ibn Musa al-Royani narrated to us that Abdul Adheem ibn Abdullah al-Hasani narrated from Imam Muhammad ibn Ali, from his father Ar-Ridha (peace be upon him), from his father Musa ibn Ja'far, from his father As-Sadiq Ja'far ibn Muhammad, from his father, from his grandfather (peace be upon them all).",
+          "ur": "علی بن احمد بن محمد بن محمد بن عمران دقاق رضی اللہ عنہ نے بیان کیا کہ محمد بن ہارون الصوفی نے کہا: عُبید اللہ بن موسیٰ الرویانی نے ہمیں بیان کیا کہ عبد العظیم بن اللہ الحسنی نے امام محمد بن علی سے، ان کے والد الرضا علیہ السلام سے، ان کے والد موسیٰ بن جعفر سے، ان کے والد الصادق جعفر بن محمد سے، ان کے والد سے، ان کے جدّ سے (علیہم السلام) سے بیان کیا۔",
+          "tr": "Ali ibn Ahmed ibn Muhammed ibn İmran ed-Dakkak (radıyallahu anh) rivayet etti ki: Muhammed ibn Harun es-Sufi dedi ki: Ubeydullah ibn Musa er-Ruyani bize rivayet etti ki, Abdülazîm ibn Abdullah el-Hasani, İmam Muhammed ibn Ali'den, babası er-Rıdha'dan (aleyhis-selam), babası Musa ibn Ca'fer'den, babası es-Sadik Ca'fer ib Muhammed'den, babasından, dedesinden (aleyhimüsselam) rivayet etti.",
+          "fa": "علی بن احمد بن محمد بن عمران دقاق رضی الله عنه روایت کرد که محمد بن هارون صوفی گفت: عبیّدالله بن موسی روایی برای ما روایت کرد که عبدالعظیم بن عبدالله حسانی از امام محمد بن علی، از پدرش الرضا (علیه السلام)، از پدرش موسی بن جعفر، از پدرش صادق جعفر بن محمد، از پدرش، از پدربزرگش (علیهم السلام) روایت کرد.",
+          "id": "Ali bin Ahmad bin Muhammad bin Imran ad-Daqqaq (raḍiya Allāhu ‘anhu) meriwayatkan bahwa Muhammad bin Harun as-Sufi berkata: Ubaydillah bin Musa ar-Royani telah meriwayatkan kepada kami bahwa Abdul Adheem bin Abdullah al-Hasani meriwayatkan dari Imam Muhammad bin Ali, dari ayahnya Ar-Ridha (‘alaihis salām), dari ayahnya Musa bin Ja’far, dari ayahnya As-Sadiq Ja’far bin Muhammad, dari ayahnya, dari kakeknya (‘alaihimus salām).",
+          "bn": "আলী ইবনে আহমদ ইবনে মুহাম্মদ ইবনে ইমরান আদ-দাক্কাক (রহ.) বর্ণনা করেন যে, মুহাম্মদ ইবনে হারুন আস-সুফি বলেন: উবাইদুল্লাহ ইবনে মুসা আর-রোয়ানি আমাদের বর্ণনা করেন যে, আবদুল আযীম ইবনে আবদুল্লাহ আল-হাসানি ইমাম মুহাম্মদ ইবনে আলী, তার পিতা আর-রিদা (আস.), তার পিতা মুসা ইবনে জাফর, তার পিতা আস-সাদিক জাফর ইবনে মুহাম্মদ, তার পিতা, তার দাদা (আলাইহিস সালাম) থেকে বর্ণনা করেন।",
+          "es": "Narró Alí ibn Ahmad ibn Muhammad ibn Imran ad-Daqqaq (que Dios esté complacido con él) que Muhammad ibn Harun al-Sufi dijo: Ubaydillah ibn Musa al-Royani nos narró que Abdul Adheem ibn Abdullah al-Hasani narró del Imam Muhammad ibn Ali, de su padre Ar-Ridha (la paz sea con él), de su padre Musa ibn Ja'far, de su padre As-Sadiq Ja'far ibn Muhammad, de su padre, de su abuelo (la paz sea con ellos todos).",
+          "fr": "203 - A raconté pour nous Ali ibn Ahmad ibn Muhammad ibn Imran ad-Daqqaq (que Dieu l'agrée) qui a dit : Muhammad ibn Harun al-Sufi nous a raconté qu'Ubaydillah ibn Musa al-Royani nous a raconté qu'Abdul Adheem ibn Abdullah al-Hasani a raconté de l'Imam Muhammad ibn Ali, de son père Ar-Ridha (que la paix soit sur lui), de son père Musa ibn Ja'far, de son père As-Sadiq Ja'far ibn Muhammad, de son père, de son grand-père (que la paix soit sur eux tous).",
+          "de": "203 - Erzählte uns Ali ibn Ahmad ibn Muhammad ibn Imran ad-Daqqaq (möge Gott mit ihm zufrieden sein), er sagte: Erzählte uns Muhammad ibn Harun as-Sufi, er sagte: Erzählte uns Ubaydillah ibn Musa ar-Royani, er sagte: Erzählte uns Abdul Adheem ibn Abdullah al-Hasani vom Imam Muhammad ibn Ali, von seinem Vater ar-Ridha (Friede sei mit ihm), von seinem Vater Musa ibn Dscha'far, von seinem Vater as-Sadiq Dscha'far ibn Muhammad, von seinem Vater, von seinem Großvater (Friede sei mit ihnen allen). Er sagte: Salman rief Abu Dharr (Gottes Barmherzigkeit sei auf ihnen beiden) zu sich nach Hause und brachte ihm zwei Brote. Abu Dharr nahm die zwei Brote und wendete sie. Salman sagte: O Abu Dharr, was wendest du diese zwei Brote? [Er sagte: Ich fürchtete, sie seien noch nicht gar]. Da wurde Salman sehr zornig und sagte: Wie kühn bist du, dass du diese zwei Brote wendest! Bei Gott, in diesem Brot wurde das Wasser unter dem Thron verarbeitet, und die Engel haben darin gearbeitet, bis sie es in den Wind warfen, und der Wind hat darin gearbeitet, bis er es in die Wolken warf, und die Wolken haben darin gearbeitet, bis sie es auf die Erde regneten, und der Donner und das Blitzen und die Engel haben darin gearbeitet, bis sie es an seinen Platz legten, und die Erde und das Holz und das Eisen und die Tiere und das Feuer und das Brennmaterial und das Salz und was ich nicht aufzählen kann, haben darin gearbeitet. Wie also kannst du die Dankbarkeit dafür erweisen? Abu Dharr sagte: Zu Gott kehre ich um und bitte ihn um Vergebung für das, was ich neu erschaffen habe, und zu dir bitte ich um Entschuldigung für das, was du missbilligt hast. Er sagte: Und Salman lud Abu Dharr an einem Tag zu einem Gastmahl ein und brachte ihm aus seinem Lederbeutel ein Stück trockenes Brot und befeuchtete es mit seinem Speichel. Abu Dharr sagte: Wie köstlich ist dieses Brot, wenn es Salz dazu hätte. Da stand Salman auf, ging hinaus, verpfändete seinen Speichel gegen Salz und brachte es ihm. Abu Dharr aß das Brot und streute das Salz darauf und sagte: Lob sei Gott, der uns mit dieser Genügsamkeit versorgt hat. Salman sagte: Wenn es Genügsamkeit wäre, wäre mein Speichel nicht verpfändet.",
+          "zh": "203 - 讲述了阿里·本·艾哈迈德·本·穆罕默德·本·伊姆兰·达格格（愿主喜悦他）说：穆罕默德·本·哈伦·苏菲说：乌拜杜拉·本·穆萨·鲁亚尼传述给我们，阿卜杜勒·阿齐姆·本·阿卜杜拉·哈桑尼从伊玛目穆罕默德·本·阿里，从他父亲里达（愿主赐福他），从他父亲穆萨·本·贾法尔，从他父亲萨迪格贾法尔·本·穆罕默德，从他父亲，从他祖父（愿主赐福他们）传述说：赛尔曼邀请阿布·泽尔到他家，并端给他两个饼，阿布·泽尔拿起两个饼翻动，赛尔曼说：阿布·泽尔啊，你翻这两个饼做什么？[他说：我担心它们没烤熟]赛尔曼因此非常生气，然后说：你大胆到在翻这两个饼，以真主起誓，这面包里用了宝座下的水，天使们处理它直到把它交给风，风处理它直到把它交给云，云处理它直到把它降到大地上，雷和闪电以及天使们处理它直到把它放在适当的位置，大地、木材、铁、牲畜、火、柴、盐以及我数不清的其他东西处理了它，那么你如何能承担这份感恩呢？阿布·泽尔说：我向上帝忏悔并向他求饶，从我所做的事，并向你辩解我所做的事你不喜欢。有一天赛尔曼邀请阿布·泽尔赴宴，从他的皮袋里拿出一块干饼，用他的水罐里的水浸湿，阿布·泽尔说：这面包真好吃，如果旁边有盐就好了。赛尔曼起身出去，把他的水罐当押，换回盐并带给他，于是阿布·泽尔吃着那面包，撒上那盐，说：赞美真主，他赐予我们知足。赛尔曼说：如果那是知足，我的水罐就不会被当押了。",
+          "ru": ""
+        },
+        "word_start": 0,
+        "word_end": 65
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ: دَعَا سَلْمَانُ أَبَا ذَرٍّ - رَحْمَةُ اللَّهِ عَلَيْهِمَا - إِلَى مَنْزِلِهِ فَقَدَّمَ إِلَيْهِ رَغِيفَيْنِ فَأَخَذَ أَبُو ذَرٍّ الرَّغِيفَيْنِ فَقَلَبَهُمَا فَقَالَ سَلْمَانُ: يَا أَبَا ذَرٍّ لِمَ تَقْلِبُ هَذَيْنِ الرَّغِيفَيْنِ [قَالَ خِفْتُ أَنْ لَا يَكُونَا نَضِيجَيْنِ] فَغَضَبَ سَلْمَانُ مِنْ ذَلِكَ غَضَبًا شَدِيدًا، ثُمَّ قَالَ: مَا أَجْرَأَكَ حَيْثُ تَقْلِبُ هَذَيْنِ الرَّغِيفَيْنِ فَوَاللَّهِ لَقَدْ عَمِلَ فِي هَذَا الْخُبْزِ الْمَاءُ الَّذِي تَحْتَ الْعَرْشِ، وَعَمِلَتْ فِيهِ الْمَلَائِكَةُ حَتَّى أَلْقَوْهُ إِلَى الرِّيحِ، وَعَمِلَتْ فِيهِ الرِّيحُ حَتَّى أَلْقَتْهُ إِلَى السَّحَابِ، وَعَمِلَ فِيهِ السَّحَابُ حَتَّى أَمْطَرَهُ إِلَى الْأَرْضِ، وَعَمِلَ فِيهِ الرَّعْدُ وَالْبَرْقُ وَالْمَلَائِكَةُ حَتَّى وَضَعُوهُ مَوَاضِعَهُ، وَعَمِلَتْ فِيهِ الْأَرْضُ وَالْخَشَبُ وَالْحَدِيدُ وَالْبَهَائِمُ وَالنَّارُ وَالْحَطَبُ وَالْمِلْحُ وَمَا لَا أُحْصِيهِ أَكْثَرَ، فَكَيْفَ لَكَ أَنْ تَقُومَ بِهَذَا الشُّكْرِ؟ فَقَالَ أَبُو ذَرٍّ: إِلَى اللَّهِ أَتُوبُ وَأَسْتَغْفِرُ إِلَيْهِ مِمَّا أَحْدَثْتُ، وَإِلَيْكَ أَعْتَذِرُ مِمَّا كَرِهْتَ.",
+        "translations": {
+          "en": "He said: Salman invited Abu Dharr - may God have mercy on them both - to his house and presented him with two loaves of bread. Abu Dharr took the two loaves and turned them over. Salman said: 'O Abu Dharr, why do you turn over these two loaves?' [He said: 'I feared that they might not be fully baked.'] Salman became very angry because of that, then said: 'How bold you are in turning over these two loaves! By God, the water under the Throne has been worked upon for this bread, and the angels worked it until they sent it to the wind, and the wind worked it until they sent it to the clouds, and the clouds worked it until they rained it onto the earth, and the thunder, lightning, and angels worked it until they placed it in its places, and the earth, wood, iron, animals, fire, firewood, salt, and much more that I cannot enumerate worked upon it. So how can you be ungrateful for this bread?' Abu Dharr said: 'I repent to God and seek His forgiveness for what I have done, and I apologize to you for what you disliked.'",
+          "ur": "اس نے کہا: سلمان نے: سلمان نے ابوذر کو — دونوں پر اللہ کی رحمت ہو — اپنے گھر کی دعوت دی اور انہیں دو روٹیاں پیش کیں۔ ابوذر نے دو روٹیاں لیں اور انہیں الٹ دیا۔ سلمان نے کہا: اے ابوذر! تم نے ان دو روٹیوں کو کیوں الٹ دیا؟ [انہوں نے کہا: مجھے ڈر تھا کہ شاید یہ مکمل طور پر پکی نہ ہوں ہوں۔] سلمان کو اس پر بہت غصہ آیا، پھر کہا: اے ابوذر! تم نے ان دو روٹیوں کو اتنی جرات سے کیوں الٹ دیا؟ اللہ کی قسم، اس روٹی کے لیے عرش کے نیچے والے پانی پر عمل کیا گیا، اور فرشتوں نے اسے ہوا تک پہنچایا، اور ہوا نے اسے بادلوں تک پہنچایا، اور بادلوں نے اسے زمین پر برسا، اور گرج، چمک اور فرشتوں نے اسے اپنے مقامات پر رکھا، اور زمین، لکڑی، لوہا، جانور، آگ، ایندھن، نمک اور بہت کچھ اور چیزیں جن کی میں گنتی نہیں کر سکتا، اس پر عمل کرتی رہیں۔ تو تم اس روٹی پر ناشکری کیسے کر سکتے ہو؟",
+          "tr": "O, şöyle dedi: Selman, Ebu Dharr'ı (Allah ikisine de rahmet etsin) evine davet etti ve ona iki ekmek parçası sundu. Ebu Dharr, iki ekmek parçasını aldı ve ters çevirdi. Selman dedi: 'Ey Ebu Dharr, bu iki eekmek parçasını neden ters çeviriyorsun?' [Dedi: 'Tam pişmemiş olmasından endişe ettim.'] Selman bunun üzerine çok öfkelendi, sonra şöyle dedi: 'Bu iki ekmek parçasını ters çevirmende ne kadar cüretkârsın! Allah'a yemin ederim ki, bu ekmek için Arş'ın altındaki su işlenmiş, melekler onu işleyip rüzgâra göndermişler, rüzgâr onu işleyip bulutlara göndermiş, bulutlar onu işleyip yere yağdırmış, gürültü, şimşek ve melekler onu işleyip yerlerine yerleştirmişlerdir. Yeryüzü, odun, demir, hayvanlar, ateş, odun, tuz ve sayamadığım daha birçok şey onu işlemiştir. Sen bu ekmek için nasıl nankörlük edersin?' Ebu Dharr dedi: 'Yaptığım şey için Allah'tan af dilerim ve hoşlanmadığın şey için senden özür dilerim.'",
+          "fa": "گفت: سلمان، سلمان اباذر را - خداوند به هر دو رحم کند - به خانه خود دعوت کرد و دو کلو نان به او داد. اباذر دو کلو نان را گرفت و برگرداند. سلمان گفت: «ای اباذر، چرا این دو کلو نان را برمی‌گردانی؟» [گفت: «ترسیدم که پخته نشده باشند.»] سلمان از این رو بسیار خشمگین شد، سپس گفت: «چقدر شجاعی که این دو کلو نان را برمی‌گردانی! به خدا، آبی که زیر عرش است برای این نان آماده شد، و فرشتگان آن را آماده کردند تا به باد سپردند، و باد آن را آماده کرد تا به ابرها سپردند، و ابرها آن را آماده کردند تا بر زمین باریدند، و رعد و برق و فرشتگان آن را آماده کردند تا در جایگاه‌های خود قرار دادند، و زمین، چوب، آهن، حیوانات، آتش، هیزم، نمک و بسیار بیشتر از آنچه نمی‌توانم شمارش کنم، بر آن کار کردند. پس چگونه می‌توانی نسبت به این نان ناشکر باشی؟» اباذر گفت: «توبه می‌کنم به خدا و از او آمرزش می‌جویم برای آنچه انجام داده‌ام، و از تو عذرخواهی می‌کنم برای آنچه ناپسندید.»",
+          "id": "Ia berkata: Salman mengundang Abu Dzar - semoga Allah merahmati keduanya - ke rumahnya dan memberinya dua keping roti. Abu Dzar mengambil dua keping roti itu dan membolak-balikkannya. Salman berkata, \"Wahai Abu Dzar, mengapa kamu membolak-balikkan dua keping roti ini?\" [Ia berkata, \"Aku khawatir roti itu belum matang sepenuhnya.\"] Salman menjadi sangat marah karena hal itu, lalu berkata, \"Betapa berani kamu membolak-balikkan dua keping roti ini! Demi Allah, air di bawah Arasy telah diolah untuk roti ini, dan para malaikat mengolahnya hingga dikirimkan kepada angin, dan angin mengolahnya hingga dikirimkan kepada awan, dan awan mengolahnya hingga menurunkan hujan ke bumi, dan guntur, kilat, dan para malaikat mengolahnya hingga meletakkannya di tempat-tempatnya, dan bumi, kayu, besi, hewan, api, kayu bakar, garam, dan banyak lagi yang tidak dapat aku sebutkan telah mengolahnya. Maka bagaimana kamu bisa ingkar nikmat atas roti ini?\" Abu Dzar berkata, \"Aku bertaubat kepada Allah dan memohon ampunan-Nya atas apa yang telah aku lakukan, dan aku memohon maaf kepadamu atas apa yang tidak kamu sukai.\"",
+          "bn": "তিনি বললেন: সালমান আবু দারকে (আল্লাহ তাদের উভয়ের প্রতি রহমত বর্ষণ করুন) নিজের বাড়িতে আমন্ত্রণ জানালেন এবং তাকে দুইটি রুটি উপহার দিলেন। আবু দার দুইটি রুটি নিয়ে তা উল্টে দিলেন। সালমান বললেন: 'হে আবু দার, আপনি এই দুইটি রুটি কেন উল্টে দিচ্ছেন?' [তিনি বললেন: 'আমি ভয় করছিলাম যে এগুলো পুরোপুরি পেকে উঠেনি।'] সালমান এতে অত্যন্ত ক্রুদ্ধ হয়ে বললেন: 'আপনি এই দুইটি রুটি উল্টে দেওয়ার ক্ষেত্রে কতটা সাহসী! আল্লাহর শপথ, এই রুটির জন্য সিংহাসনের নিচের পানি প্রস্তুত করা হয়েছিল, ফেরেশতারা তা প্রস্তুত করে বাতাসের কাছে পাঠিয়েছিল, বাতাস তা প্রস্তুত করে মেঘের কাছে পাঠিয়েছিল, মেঘ তা প্রস্তুত করে পৃথিবীতে বর্ষণ করেছিল, এবং গর্জন, বিদ্যুৎ এবং ফেরেশতারা তা প্রস্তুত করে নির্দিষ্ট স্থানে স্থাপন করেছিল, এবং পৃথিবী, কাঠ, লোহা, প্রাণী, আগুন, কাঠের গুড়ি, লবণ এবং আরও অনেক কিছু যা আমি গণনা করতে পারি না, তাতে কাজ করেছে। তাহলে আপনি এই রুটির জন্য অকৃতজ্ঞ হতে পারেন?' আবু দার বললেন: 'আমি আমার কৃতকর্মের জন্য আল্লাহর কাছে তাওবা করছি এবং তাঁর কাছে ক্ষমা প্রার্থনা করছি, এবং আপনার অসন্তোষের জন্য আমি আপনার কাছে ক্ষমা প্রার্থনা করছি।'",
+          "es": "Dijo: Salmán invitó a Abū Dharr —que Dios tenga misericordia de ambos— a su casa y le presentó dos panes. Abū Dharr tomó los dos panes y los dio la vuelta. Salmán dijo: «¡Oh Abū Dharr, por qué das la vuelta a estos dos panes?». [Él dijo: «Temí que no estuvieran bien cocidos»]. Salmán se enfadó mucho por eso, y luego dijo: «¡Qué atrevido eres al dar la vuelta a estos dos panes! Por Dios, el agua que está bajo el Trono ha sido trabajada por este pan, y los ángeles la trabajaron hasta enviarla al viento, y el viento la trabajó hasta enviarla a las nubes, y las nubes la trabajaron hasta hacerla llover sobre la tierra, y el trueno, el relámpago y los ángeles la trabajaron hasta colocarla en sus lugares, y la tierra, la madera, el hierro, los animales, el fuego, la leña, la sal y mucho más que no puedo enumerar la trabajaron. ¿Cómo puedes ser ingrato con este pan?». Abū Dharr dijo: «Me arrepiento a Dios y busco Su perdón por lo que he hecho, y te pido disculpas por lo que te disgustó».",
+          "fr": "Il dit : Salman invita Abou Dharr – que Dieu ait pitié d’eux tous les deux – à venir chez lui et lui présenta deux pains. Abou Dharr prit les deux pains et les retourna. Salman dit : « Ô Abou Dharr, pourquoi retournes-tu ces deux pains ? » [Il dit : « J’ai craint qu’ils ne soient pas suffisamment cuits. »] Salman se fâcha vivement à cause de cela, puis dit : « Comme tu es audacieux de retourner ces deux pains ! Par Dieu, l’eau sous le Trône a été travaillée pour ce pain, et les anges l’ont travaillée jusqu’à ce qu’ils la envoient au vent, et le vent l’a travaillée jusqu’à ce qu’ils l’envoient aux nuages, et les nuages l’ont travaillée jusqu’à ce qu’ils la fassent pleuvoir sur la terre, et le tonnerre, la foudre et les anges l’ont travaillée jusqu’à ce qu’ils la placent en ses lieux, et la terre, le bois, le fer, les animaux, le feu, le bois de chauffage, le sel, et bien plus encore que je ne saurais énumérer, l’ont travaillée. Comment peux-tu donc être ingrat envers ce pain ? » Abou Dharr dit : « Je me repens envers Dieu et lui demande pardon pour ce que j’ai fait, et je m’excuse auprès de toi pour ce que tu as trouvé désagréable. »",
+          "de": "Er sagte: Salman lud Abu Dharr – möge Gott sich ihrer beide erbarmen – in sein Haus ein und präsentierte ihm zwei Laib Brot. Abu Dharr nahm die zwei Laibe und kehrte sie um. Salman sagte: »O Abu Dharr, warum kehrst du diese zwei Laibe um?« [Er sagte: »Ich fürchtete, dass sie vielleicht nicht vollständig gebacken sind.«] Salman wurde darüber sehr zornig, dann sagte er: »Wie kühn du bist, diese zwei Laibe umzukehren! Bei Gott, das Wasser unter dem Thron wurde für dieses Brot bearbeitet, und die Engel bearbeiteten es, bis sie es dem Wind übergaben, und der Wind bearbeitete es, bis sie es den Wolken übergaben, und die Wolken bearbeiteten es, bis sie es auf die Erde regnen ließen, und der Donner, der Blitz und die Engel bearbeiteten es, bis sie es an seine Plätze brachten, und die Erde, das Holz, das Eisen, die Tiere, das Feuer, das Brennholz, das Salz und vieles mehr, das ich nicht aufzählen kann, wurden daran bearbeitet. Wie kannst du also für dieses Brot undankbar sein?« Abu Dharr sagte: »Ich bereue vor Gott und bitte ihn um Vergebung für das, was ich getan habe, und ich bitte dich um Entschuldigung für das, was du missbilligt hast.«",
+          "ru": "Абу Дарр — да помилует их Аллах — сказал: «Сальман пригласил меня к себе домой и предложил мне два куска хлеба. Я взял эти два куска и перевернул их. Сальман сказал: „О Абу Дарр, почему ты переворачиваешь эти два куска хлеба?“ Я ответил: „Я опасался, что они могут быть не до конца пропечены“. Сальман сильно разгневался из-за этого, а затем сказал: „Как ты осмеливаешься переворачивать эти два куска хлеба! Клянусь Аллахом, вода под Тронным Престолом была обработана ради этого хлеба, и ангелы обработали её, пока не отправили её в ветер, и ветер обработал её, пока не отправил её в облака, и облака обработали её, пока не пролили её на землю, и гром, молния и ангелы обработали её, пока не поместили её в её места, и земля, дерево, железо, животные, огонь, дрова, соль и многое другое, что я не могу перечислить, обработали её. Так как же ты можешь быть неблагодарным за этот хлеб?“ Абу Дарр сказал: „Я покаялся Аллаху и просил у Него прощения за то, что сделал, и извинился перед тобой за то, что тебе не понравилось“.",
+          "zh": "他说：萨勒曼邀请阿布·达尔——愿真主慈悯他们二人——到他家中，并端出两块面包给他。阿布·达尔接过两块面包并将其翻面。萨勒曼说：‘阿布·达尔啊，你为何将这两块面包翻面？’（他说：‘我担心它们可能未完全烤熟。’）萨勒曼因此非常生气，然后说：‘你竟敢将这两块面包翻面！以真主起誓，这面包所用水分曾受加工，天使们加工它直至将其送入风中，风加工它直至将其送入云中，云加工它直至将其降于大地，雷霆、闪电与天使们加工它直至将其安置于应处之地，大地、木材、铁、动物、火、柴薪、盐以及诸多我无法尽述之物皆对其加工。你怎能对此面包不知感恩？’阿布·达尔说：‘我为我所做之事向真主忏悔并求其宽恕，并为你不悦之事向你致歉。’"
+        },
+        "word_start": 65,
+        "word_end": 186
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَدَعَا سَلْمَانُ أَبَا ذَرٍّ يَوْمًا إِلَى ضِيافَةٍ فَقَدَّمَ إِلَيْهِ مِنْ جِرَابِهِ كَسْرَةً يَابِسَةً وَبَلَّهَا مِنْ رُكْوَتِهِ، فَقَالَ أَبُو ذَرٍّ: مَا أَطْيَبَ هَذَا الْخُبْزَ لَوْ كَانَ مَعَهُ مِلْحٌ. فَقامَ سَلْمَانُ وَخَرَجَ وَرَهَنَ رُكْوَتَهُ بِمِلْحٍ وَحَمَلَهُ إِلَيْهِ، فَجَعَلَ أَبُو ذَرٍّ يَأْكُلُ ذَلِكَ الْخُبْزَ وَيَذُرُّ عَلَيْهِ ذَلِكَ الْمِلْحَ وَيَقُولُ: الْحَمْدُ لِلَّهِ الَّذِي رَزَقَنَا هَذَا الْقَنَاعَةَ. فَقَالَ سَلْمَانُ: لَوْ كَانَتْ قَنَاعَةً لَمْ تَكُنْ رُكْوَتِي مَرْهُونَةً.",
+        "translations": {
+          "en": "Salman also invited Abu Dharr one day to a meal and presented him with a piece of dry bread from his water-skin, moistening it with water from his jar. Abu Dharr said: 'How delicious this bread would be if there were salt with it.' Salman stood up, went out, pawned his jar for salt, and brought it to him. Abu Dharr ate that bread, sprinkled that salt on it, and said: 'All praise is to God who has provided us with this contentment.' Salman said: 'If it were true contentment, my jar would not have been pawned.'",
+          "ur": "سلمان نے ایک دن ابودر کو کھانے کی دعوت دی اور اپنے پانی کے مٹکے سے خشک روٹی کا ایک ٹکڑا پیش کیا، جسے اس نے اپنے برتن سے پانی گیلا کیا۔ ابودر نے کہا: 'اگر اس کے ساتھ نمک ہوتا تو یہ روٹی کتنی لذیذ ہوتی۔' سلمان اٹھے، باہر گئے، اور نمک کے لیے اپنا برتن گروی رکھا، اور اسے ان کے پاس لے آئے۔ ابودر نے وہ روٹی کھائی، اس پر نمک چھڑکا، اور کہا: 'تمام تعریف اس اللہ کے لیے ہے جس نے ہمیں یہ قناعت عطا کی۔' سلمان نے کہا: 'اگر یہ واقعی قناعت ہوتی، تو میرا برتن گروی نہ ہوتا۔'",
+          "tr": "Salman, bir günlerden bir gün Ebu Dharr'ı yemeğe davet etti ve su torbasından kuru bir ekmek parçasını sunarak onu kavanozundaki suyla ıslattı. Ebu Dharr dedi ki: 'Eğer yanında tuz olsa, bu ekmek ne kadar lezzetli olurdu.' Salman ayağa kalktı, dışarı çıktı ve kavanozunu tuz için rehin verdi, sonra da onu Ebu Dharr'a getirdi. Ebu Dharr o ekmeği yedi, üzerine o tuzu serpiştirdi ve dedi ki: 'Bizi bu kanaate erdiren Allah'a hamd olsun.' Salman dedi ki: 'Eğer bu gerçek bir kanaat olsaydı, kavanozum rehin verilmezdi.'",
+          "fa": "سلمان یک روز اباذر را به غذا دعوت کرد و تکه‌ای نان خشک از پوست آب خود به او داد و آن را با آب از کوزه‌اش مرطوب ساخت. اباذر گفت: «چه خوشمزه می‌شد این نان اگر با آن نمک بود.» سلمان برخاست، بیرون رفت و کوزه‌اش را در برابر نمک گرو گذاشت و آن را برای او آورد. اباذر آن نان را خورد و نمک را بر آن پاشید و گفت: «ستایش خدایی را که ما را به این قناعت رسانید.» سلمان گفت: «اگر این قناعت واقعی بود، کوزه من گرو نمی‌گذاشته می‌شد.» }```json { ",
+          "id": "Salman juga mengundang Abu Dzar pada suatu hari untuk makan dan memberinya sepotong roti kering dari kantong airnya, yang dibasahi dengan air dari kendi miliknya. Abu Dzar berkata, 'Selezat apa roti ini jika ada garam bersamanya.' Salman berdiri, keluar, dan menggadaikan kendi miliknya untuk membeli garam, lalu membawanya kepada Abu Dzar. Abu Dzar memakan roti itu, menaburkan garam di atasnya, dan berkata, 'Segala puji bagi Allah yang telah memberikan kami kecukupan ini.' Salman berkata, 'Jika itu benar-benar kecukupan, kendi saya tidak akan digadaikan.'",
+          "bn": "সালমান একদিন আবু দাররাকে খাবারে আমন্ত্রণ জানালেন এবং তাঁর পানির ঝোলের থেকে শুকনো রুটির টুকরো উপহার দিলেন, যা তিনি নিজের জারে থেকে পানি দিয়ে ভিজিয়েছিলেন। আবু দাররাকে বললেন, 'এই রুটিতে লবণ থাকলে কত সুস্বাদু হতো।' সালমান উঠে গিয়ে লবণের বিনিময়ে তাঁর জার গাহুন রাখলেন এবং সেটি নিয়ে এলেন। আবু দাররক সেই রুটি খেলেন, তার উপর সেই লবণ ছিটিয়ে দিলেন এবং বললেন, 'যিনি আমাদের এই সন্তুষ্টি দান করেছেন, সকল প্রশংসা আল্লাহর জন্য।' সালমান বললেন, 'যদি এটি সত্যিকারের সন্তুষ্টি হতো, তবে আমার জার গাহুন রাখা হতো না।'",
+          "es": "Salman invitó a Abū Dharr un día a una comida y le presentó un trozo de pan seco de su odre, humedeciéndolo con agua de su jarra. Abū Dharr dijo: «Qué delicioso sería este pan si tuviera sal con él». Salman se levantó, salió, empeñó su jarra por sal y se la trajo. Abū Dharr comió ese pan, le espolvoreó esa sal y dijo: «Toda alabanza pertenece a Dios, quien nos ha proporcionado esta satisfacción». Salman dijo: «Si fuera una satisfacción verdadera, mi jarra no habría sido empeñada».",
+          "fr": "Salman invita un jour Abou Dharr à un repas et lui présenta un morceau de pain sec tiré de sa gourde, qu’il humidifia avec de l’eau puisée dans son jarre. Abou Dharr dit : « Comme ce pain serait délicieux s’il y avait du sel avec ! » Salman se leva, sortit, nantit sa gourde contre du sel et le lui rapporta. Abou Dharr mangea ce pain, y saupoudra ce sel, et dit : « Toute louange appartient à Allah qui nous a procuré cette suffisance. » Salman dit : « Si c’était une véritable suffisance, ma gourde n’aurait pas été nantie. »",
+          "de": "Salman lud Abu Dharr eines Tages zu einer Mahlzeit ein und reichte ihm ein Stück trockenes Brot aus seiner Wasserflasche, das er mit Wasser aus seinem Krug befeuchtete. Abu Dharr sagte: \"Wie köstlich dieses Brot wäre, wenn Salz dabei wäre.\" Salman stand auf, ging hinaus, verpfändete seinen Krug gegen Salz und brachte es ihm. Abu Dharr aß das Brot, streute das Salz darauf und sagte: \"Alles Lob gebührt Gott, der uns mit dieser Zufriedenheit versehen hat.\" Salman sagte: \"Wenn es wahre Zufriedenheit wäre, wäre mein Krug nicht verpfändet worden.\"",
+          "ru": "Сальман однажды пригласил Абу Дарра на трапезу и предложил ему кусок сухого хлеба, который он смочил водой из своего сосуда. Абу Дарр сказал: «Как был бы вкусен этот хлеб, если бы к нему была соль». Сальман встал, вышел, заложил свой сосуд ради соли и принес её. Абу Дарр съел тот хлеб, посыпал его солью и сказал: «Вся хвала Аллаху, Который даровал нам это довольство». Сальман сказал: «Если бы это было истинное довольство, мой сосуд не был бы заложен».",
+          "zh": "text"
+        },
+        "word_start": 186,
+        "word_end": 247
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Uyun Akhbar al-Rida* highlights the spiritual sensitivity of Salman al-Farsi through two contrasting interactions with Abu Dharr al-Ghifari. The first incident underscores the profound gratitude (*shukr*) required for the intricate cosmic chain of creation, while the second critiques superficial contentment (*qana'ah*) that still harbors desires for improvement, illustrating the Shia emphasis on inner sincerity over mere external satisfaction.",
+        "seo_question": "What is the story of Salman and Abu Dharr regarding bread and salt in Shia hadith?",
+        "key_terms": {
+          "رَغِيفَانِ": "Two loaves of bread",
+          "نَضِيجَانِ": "Fully baked/cooked",
+          "تَحْتَ الْعَرْشِ": "Under the Throne (of God)",
+          "الشُّكْر": "Gratitude",
+          "قَنَاعَة": "Contentment/Satisfaction",
+          "رُكْوَة": "Water-skin/Jar"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث *عیون اخبار الرضا* سے ہے جو سلمان فارسی کی روحانی حساسیت کو ابو ذر غفاری کے ساتھ دو متضاد تعاملات کے ذریعے اجاگر کرتی ہے۔ پہلا واقعہ تخلیق کے پیچیدہ کائناتی سلسلے کے لیے گہرے شکر کی ضرورت کو نمایاں کرتا ہے، جبکہ دوسرا وہ ظاہری قناعت تنقید کا نشانہ بناتا ہے جو بہتری کی خواہشات کو دل میں رکھتی ہے، جو شیعہ نقطہ نظر میں صرف ظاہری اطمینان کے بجائے باطنی خلوص پر زور دیتا ہے۔",
+        "seo_question": "شیعہ حدث میں نان اور نمک کے حوالے سے سلمان اور ابو ذر کی کہانی کیا ہے؟",
+        "key_terms": {
+          "رَغِيفَانِ": "دو روٹیاں",
+          "نَضِيجَانِ": "مکمل پکی ہوئی",
+          "تَحْتَ الْعَرْشِ": "عرش کے نیچے",
+          "الشُّكْر": "شکر",
+          "قَنَاعَة": "قناعت",
+          "رُكْوَة": "مٹی کا برتن"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, *Uyun Akhbar al-Rida* kaynaklı olup, Salman el-Farsî'nin iki zıt etkileşim aracılığıyla gösterdiği manevi hassasiyeti vurgular. İlk olay, yaratılışın karmaşık kozmik zinciri için gerekli olan derin şükür (*şükür*) vurgusunu yaparken, ikinci olay gelişim arzusu barındıran yüzeysel kanaati (*kanaat*) eleştirir; bu da Şia'nın dışsal tatminden ziyade içsel samimiyete verdiği önemi gösterir.",
+        "seo_question": "Şia hadislerinde ekmek ve tuz konusunda Salman ve Ebû Zerr'in hikâyesi nedir?",
+        "key_terms": {
+          "رَغِيفَانِ": "İki ekmek lofu",
+          "نَضِيجَانِ": "Tam pişmiş/pişmiş",
+          "تَحْتَ الْعَرْشِ": "Arş'ın altında (Allah'ın Arş'ı)",
+          "الشُّكْر": "Şükür",
+          "قَنَاعَة": "Kanaat",
+          "رُكْوَة": "Su kabı/Şişe"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از *عیون اخبار الرضا* حساسیت معنوی سلمان فارسی را از طریق دو تعامل متضاد با ابوذر غفاری برجسته می‌کند. نخستین رویداد بر شکرگزاری عمیق (*شکر*) برای زنجیره پیچیده آفرینش کیهانی تأکید دارد، در حالی که دومین رویداد قناعت سطحی (*قناعت*) را که هنوز آرزوهای بهبود را در خود پرورش می‌دهد، نقد می‌کند و بر تأکید شیعه بر صداقت درونی به جای رضایت صرفاً بیرونی تأکید می‌ورزد.",
+        "seo_question": "داستان سلمان و ابوذر درباره نان و نمک در حدیث شیعه چیست؟",
+        "key_terms": {
+          "رَغِيفَانِ": "دو تکه نان",
+          "نَضِيجَانِ": "کاملاً پخته",
+          "تَحْتَ الْعَرْشِ": "زیر عرش",
+          "الشُّكْر": "شکرگزاری",
+          "قَنَاعَة": "قناعت",
+          "رُكْوَة": "زیره آب"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Uyun Akhbar al-Rida* ini menyoroti kepekaan spiritual Salman al-Farsi melalui dua interaksi yang kontras dengan Abu Dharr al-Ghifari al-Ghifari. Insiden pertama menekankan rasa syukur (*shukr*) yang mendalam terhadap rantai penciptaan kosmik yang rumit, sementara yang kedua mengkritik kepuasan dangkal (*qana'ah*) yang masih menyimpan keinginan untuk perbaikan, menggambarkan penekanan Syiah pada ketulusan batin daripada kepuasan eksternal semata.",
+        "seo_question": "Apa kisah Salman dan Abu Dharr mengenai roti dan garam dalam hadis Syiah?",
+        "key_terms": {
+          "رَغِيفَانِ": "Dua potong roti",
+          "نَضِيجَانِ": "Matang sempurna",
+          "تَحْتَ الْعَرْشِ": "Di bawah Arasy",
+          "الشُّكْر": "Rasa syukur",
+          "قَنَاعَة": "Kerelaan",
+          "رُكْوَة": "Kulit air"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে *উয়ুন আখবার আল-রিদা* থেকে সালমান আল-ফারসির আধ্যাত্মিক সংবেদনশীলতা আবু ধরর গিফারির সাথে দুটি বিপরীত মিথস্ক্রিয়ার মাধ্যমে তুলে ধরা হয়েছে। প্রথম ঘটনাটি সৃষ্টির জটিল মহাজাগতিক শৃঙ্খলের জন্য প্রয়োজনীয় গভীর কৃতজ্ঞতা (*শুকর*)-কে তুলে ধরে, অন্যদিকে দ্বিতীয় ঘটনাটি এমন পৃষ্ঠপোষক সন্তুষ্টি (*কানাআহ*)-কে সমালোচনা করে যা উন্নতির আকাঙ্ক্ষা বহন করে, যা শিয়া মতবাদে বাহ্যিক সন্তুষ্টির চেয়ে অন্তরের সততার গুরুত্ব তুলে ধরে।",
+        "seo_question": "শিয়া হাদিসে রুটি ও লবণ নিয়ে সালমান ও আবু ধররের গল্প কী?",
+        "key_terms": {
+          "رَغِيفَانِ": "দুই মুঠি রুটি",
+          "نَضِيجَانِ": "সম্পূর্ণ পাকানো/রান্না করা",
+          "تَحْتَ الْعَرْشِ": "আল্লাহর আরশের নিচে",
+          "الشُّكْر": "কৃতজ্ঞতা",
+          "قَنَاعَة": "সন্তুষ্টি",
+          "رُكْوَة": "পানির খোলা/পাত্র"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de *Uyun Akhbar al-Rida* destaca la sensibilidad espiritual de Salmán al-Farsí a través de dos interacciones contrastantes con Abū Dharr al-Ghifārī. El primer incidente subraya la profunda gratitud (*shukr*) requerida por la intrincada cadena cósmica de la creación, mientras que el segundo critica la satisfacción superficial (*qana'ah*) que aún alberga deseos de mejora, ilustrando el énfasis chií en la sinceridad interior sobre la mera satisfacción externa.",
+        "seo_question": "¿Cuál es la historia de Salmán y Abū Dharr respecto al pan y la sal en el hadiz chií?",
+        "key_terms": {
+          "رَغِيفَانِ": "Dos loaves de pan",
+          "نَضِيجَانِ": "Totalmente cocido/horneado",
+          "تَحْتَ الْعَرْشِ": "Bajo el Trono (de Dios)",
+          "الشُّكْر": "Gratitud",
+          "قَنَاعَة": "Satisfacción/Contentamiento",
+          "رُكْوَة": "Bota de agua/Jarra"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Ayn al-Akhbar al-Rida* met en lumière la sensibilité spirituelle de Salman al-Farsi à travers deux interactions contrastées avec Abu Dharr al-Ghifari. Le premier incident souligne la gratitude profonde (*shukr*) requise pour la chaîne cosmique complexe de la création, tandis que le second critique une satisfaction superficielle (*qana'ah*) qui conserve encore des désirs d'amélioration, illustrant l'accent mis par les Chiites sur la sincérité intérieure plutôt que sur la simple satisfaction externe.",
+        "seo_question": "Quelle est l'histoire de Salman et Abu Dharr concernant le pain et le sel dans le hadith chiite ?",
+        "key_terms": {
+          "رَغِيفَانِ": "Deux tranches de pain",
+          "نَضِيجَانِ": "Bien cuit",
+          "تَحْتَ الْعَرْشِ": "Sous le Trône (de Dieu)",
+          "الشُّكْر": "Gratitude",
+          "قَنَاعَة": "Contentement",
+          "رُكْوَة": "Outre"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Uyun Akhbar al-Rida* hebt die spirituelle Sensibilität von Salman al-Farsi durch zwei kontrastierende Interaktionen mit Abu Dharr al-Ghifari hervor. Der erste Vorfall unterstreicht die tiefe Dankbarkeit (*shukr*), die für die komplexe kosmische Schöpfungskette erforderlich ist, während der zweite eine oberflächliche Zufriedenheit (*qana'ah*) kritisiert, die noch Wünsche nach Verbesserung hegt, und veranschaulicht so die schiitische Betonung innerer Aufrichtigkeit gegenüber bloßer äußerer Zufriedenheit.",
+        "seo_question": "Was ist die Geschichte von Salman und Abu Dharr bezüglich Brot und Salz im schiitischen Hadith?",
+        "key_terms": {
+          "رَغِيفَانِ": "Zwei Laibe Brot",
+          "نَضِيجَانِ": "Vollständig gebacken/gekocht",
+          "تَحْتَ الْعَرْشِ": "Unter dem Thron (Gottes)",
+          "الشُّكْر": "Dankbarkeit",
+          "قَنَاعَة": "Zufriedenheit",
+          "رُكْوَة": "Wasserschlauch/Topf"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «из Уюн Ахбар ар-Рида» подчеркивает духовную чувствительность Салмана аль-Фарси через два контрастных взаимодействия с Абу Дарром аль-Гифари. Первый случай подчеркивает глубокую благодарность (шукр), необходимую за сложную космическую цепь творения, в то время как второй критикует поверхностное удовлетворение (канаа), которое все еще хранит желания улучшения, иллюстрируя шиитский акцент на внутренней искренности, а не на простом внешнем удовлетворении.",
+        "seo_question": "Какова история Салмана и Абу Дарра относительно хлеба и соли в шиитском хадисе?",
+        "key_terms": {
+          "رَغِيفَانِ": "Два куска хлеба",
+          "نَضِيجَانِ": "Полностью испеченный/приготовленный",
+          "تَحْتَ الْعَرْشِ": "Под Троном (Аллаха)",
+          "الشُّكْر": "Благодарность",
+          "قَنَاعَة": "Удовлетворенность",
+          "رُكْوَة": "Водяная кожа/Кувшин"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《优素福·阿克巴尔·里达》的圣训通过萨勒曼·法尔西与阿布·扎尔·吉赫尼之间的两次对比互动，突显了萨勒曼·法尔西的精神敏感性。第一次事件强调了对于错综复杂的宇宙创造链条所必需的深刻感恩（shukr），而第二次事件则批评了仍怀有改善欲望的肤浅知足（qana'ah），阐明了什叶派重视内在真诚而非仅仅外在满足的立场。",
+        "seo_question": "什叶派圣训中关于萨勒曼和阿布·扎尔与面包和盐的故事是什么？",
+        "key_terms": {
+          "رَغِيفَانِ": "两片面包",
+          "نَضِيجَانِ": "完全烤熟",
+          "تَحْتَ الْعَرْشِ": "宝座之下",
+          "الشُّكْر": "感恩",
+          "قَنَاعَة": "知足",
+          "رُكْوَة": "水袋"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:219",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "14:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "14:34",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "64:15",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا عَلِيُّ بْنُ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِمْرَانَ الدَّقَّاقُ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ هَارُونَ الصُّوفِيُّ قَالَ: حَدَّثَنَا أَبُو تُرَابَ عُبَيْدُ اللَّهِ بْنُ مُوسَى الرُّوَيَانِيُّ قَالَ: حَدَّثَنَا عَبْدُ الْعَظِيمِ بْنِ عَبْدِ اللَّهِ الْحَسَنِيُّ عَنِ الإِمَامِ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِ الرِّضَا عَلِيُّ بْنُ مُوسَى عَلَيْهِ السَّلامُ، عَنْ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ، عَنْ أَبِيهِ الصَّادِقِ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ عَلَيْهِمُ السَّلامُ قَالَ: دَعَا سَلْمَانُ أَبَا ذَرٍّ - رَحْمَةُ اللَّهِ عَلَيْهِمَا - إِلَى مَنْزِلِهِ فَقَدَّمَ إِلَيْهِ رَغِيفَيْنِ فَأَخَذَ أَبُو ذَرٍّ الرَّغِيفَيْنِ فَقَلَبَهُمَا فَقَالَ سَلْمَانُ: يَا أَبَا ذَرٍّ لِمَ تَقْلِبُ هَذَيْنِ الرَّغِيفَيْنِ [قَالَ خِفْتُ أَنْ لَا يَكُونَا نَضِيجَيْنِ] فَغَضَبَ سَلْمَانُ مِنْ ذَلِكَ غَضَبًا شَدِيدًا، ثُمَّ قَالَ: مَا أَجْرَأَكَ حَيْثُ تَقْلِبُ هَذَيْنِ الرَّغِيفَيْنِ فَوَاللَّهِ لَقَدْ عَمِلَ فِي هَذَا الْخُبْزِ الْمَاءُ الَّذِي تَحْتَ الْعَرْشِ، وَعَمِلَتْ فِيهِ الْمَلَائِكَةُ حَتَّى أَلْقَوْهُ إِلَى الرِّيحِ، وَعَمِلَتْ فِيهِ الرِّيحُ حَتَّى أَلْقَتْهُ إِلَى السَّحَابِ، وَعَمِلَ فِيهِ السَّحَابُ حَتَّى أَمْطَرَهُ إِلَى الْأَرْضِ، وَعَمِلَ فِيهِ الرَّعْدُ وَالْبَرْقُ وَالْمَلَائِكَةُ حَتَّى وَضَعُوهُ مَوَاضِعَهُ، وَعَمِلَتْ فِيهِ الْأَرْضُ وَالْخَشَبُ وَالْحَدِيدُ وَالْبَهَائِمُ وَالنَّارُ وَالْحَطَبُ وَالْمِلْحُ وَمَا لَا أُحْصِيهِ أَكْثَرَ، فَكَيْفَ لَكَ أَنْ تَقُومَ بِهَذَا الشُّكْرِ؟ فَقَالَ أَبُو ذَرٍّ: إِلَى اللَّهِ أَتُوبُ وَأَسْتَغْفِرُ إِلَيْهِ مِمَّا أَحْدَثْتُ، وَإِلَيْكَ أَعْتَذِرُ مِمَّا كَرِهْتَ. وَدَعَا سَلْمَانُ أَبَا ذَرٍّ يَوْمًا إِلَى ضِيافَةٍ فَقَدَّمَ إِلَيْهِ مِنْ جِرَابِهِ كَسْرَةً يَابِسَةً وَبَلَّهَا مِنْ رُكْوَتِهِ، فَقَالَ أَبُو ذَرٍّ: مَا أَطْيَبَ هَذَا الْخُبْزَ لَوْ كَانَ مَعَهُ مِلْحٌ. فَقامَ سَلْمَانُ وَخَرَجَ وَرَهَنَ رُكْوَتَهُ بِمِلْحٍ وَحَمَلَهُ إِلَيْهِ، فَجَعَلَ أَبُو ذَرٍّ يَأْكُلُ ذَلِكَ الْخُبْزَ وَيَذُرُّ عَلَيْهِ ذَلِكَ الْمِلْحَ وَيَقُولُ: الْحَمْدُ لِلَّهِ الَّذِي رَزَقَنَا هَذَا الْقَنَاعَةَ. فَقَالَ سَلْمَانُ: لَوْ كَانَتْ قَنَاعَةً لَمْ تَكُنْ رُكْوَتِي مَرْهُونَةً.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا عَلِيُّ بْنُ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِمْرَانَ الدَّقَّاقُ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا مُحَمَّدُ بْنُ هَارُونَ الصُّوفِيُّ قَالَ: حَدَّثَنَا أَبُو تُرَابَ عُبَيْدُ اللَّهِ بْنُ مُوسَى الرُّوَيَانِيُّ قَالَ: حَدَّثَنَا عَبْدُ الْعَظِيمِ بْنِ عَبْدِ اللَّهِ الْحَسَنِيُّ عَنِ الإِمَامِ مُحَمَّدِ بْنِ عَلِيٍّ عَنْ أَبِيهِ الرِّضَا عَلِيُّ بْنُ مُوسَى عَلَيْهِ السَّلامُ، عَنْ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ، عَنْ أَبِيهِ الصَّادِقِ جَعْفَرِ بْنِ مُحَمَّدٍ، عَنْ أَبِيهِ، عَنْ جَدِّهِ عَلَيْهِمُ السَّلامُ",
+      "matn_ar": "قَالَ: دَعَا سَلْمَانُ أَبَا ذَرٍّ - رَحْمَةُ اللَّهِ عَلَيْهِمَا - إِلَى مَنْزِلِهِ فَقَدَّمَ إِلَيْهِ رَغِيفَيْنِ فَأَخَذَ أَبُو ذَرٍّ الرَّغِيفَيْنِ فَقَلَبَهُمَا فَقَالَ سَلْمَانُ: يَا أَبَا ذَرٍّ لِمَ تَقْلِبُ هَذَيْنِ الرَّغِيفَيْنِ [قَالَ خِفْتُ أَنْ لَا يَكُونَا نَضِيجَيْنِ] فَغَضَبَ سَلْمَانُ مِنْ ذَلِكَ غَضَبًا شَدِيدًا، ثُمَّ قَالَ: مَا أَجْرَأَكَ حَيْثُ تَقْلِبُ هَذَيْنِ الرَّغِيفَيْنِ فَوَاللَّهِ لَقَدْ عَمِلَ فِي هَذَا الْخُبْزِ الْمَاءُ الَّذِي تَحْتَ الْعَرْشِ، وَعَمِلَتْ فِيهِ الْمَلَائِكَةُ حَتَّى أَلْقَوْهُ إِلَى الرِّيحِ، وَعَمِلَتْ فِيهِ الرِّيحُ حَتَّى أَلْقَتْهُ إِلَى السَّحَابِ، وَعَمِلَ فِيهِ السَّحَابُ حَتَّى أَمْطَرَهُ إِلَى الْأَرْضِ، وَعَمِلَ فِيهِ الرَّعْدُ وَالْبَرْقُ وَالْمَلَائِكَةُ حَتَّى وَضَعُوهُ مَوَاضِعَهُ، وَعَمِلَتْ فِيهِ الْأَرْضُ وَالْخَشَبُ وَالْحَدِيدُ وَالْبَهَائِمُ وَالنَّارُ وَالْحَطَبُ وَالْمِلْحُ وَمَا لَا أُحْصِيهِ أَكْثَرَ، فَكَيْفَ لَكَ أَنْ تَقُومَ بِهَذَا الشُّكْرِ؟ فَقَالَ أَبُو ذَرٍّ: إِلَى اللَّهِ أَتُوبُ وَأَسْتَغْفِرُ إِلَيْهِ مِمَّا أَحْدَثْتُ، وَإِلَيْكَ أَعْتَذِرُ مِمَّا كَرِهْتَ. وَدَعَا سَلْمَانُ أَبَا ذَرٍّ يَوْمًا إِلَى ضِيافَةٍ فَقَدَّمَ إِلَيْهِ مِنْ جِرَابِهِ كَسْرَةً يَابِسَةً وَبَلَّهَا مِنْ رُكْوَتِهِ، فَقَالَ أَبُو ذَرٍّ: مَا أَطْيَبَ هَذَا الْخُبْزَ لَوْ كَانَ مَعَهُ مِلْحٌ. فَقامَ سَلْمَانُ وَخَرَجَ وَرَهَنَ رُكْوَتَهُ بِمِلْحٍ وَحَمَلَهُ إِلَيْهِ، فَجَعَلَ أَبُو ذَرٍّ يَأْكُلُ ذَلِكَ الْخُبْزَ وَيَذُرُّ عَلَيْهِ ذَلِكَ الْمِلْحَ وَيَقُولُ: الْحَمْدُ لِلَّهِ الَّذِي رَزَقَنَا هَذَا الْقَنَاعَةَ. فَقَالَ سَلْمَانُ: لَوْ كَانَتْ قَنَاعَةً لَمْ تَكُنْ رُكْوَتِي مَرْهُونَةً.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا عَلِىِّ بْن أَحْمَد بْنِ مُحَمَّدِ بْنِ عِمْرانالدَّقَّاق‏ رَضِىَ اللهُ عَنْهُ قالَ: حَدَّثَنا مُحَمَّدِ بْنِ هارُونَ الصُّوفيّ قالَ: حَدَّثَنا أَبُو تُراب عُبِيْد اللَّه بْنِ مُوسَى الرُّويانِيُّ قالَ: حَدَّثَنا عَبْدِ العَظِيم بن عَبْدِ اللَّه الحَسَنِيِّ",
+          "name_en": "Ali b. Ahmad b. Muhammad b. Imran al-Daqqaq",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الإِمام مُحَمَّدِ بْنِ عَلِىِّ",
+          "name_en": "Muhammad b. Ali",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ الرِّضا عَلِىِّ بْنِ مُوسَىعَلَيْهِ السَّلامُ،",
+          "name_en": "Ali b. Musa",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ مُوسَى بْنِ جَعْفَر،",
+          "name_en": "Musa b. Ja'far",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ الصَّادِق جَعْفَرِ بْنِ مُحَمَّد،",
+          "name_en": "Ja'far b. Muhammad",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ،",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "جَدِّهِ‏ عَلَيْهِمُ السَّلاَمُ قالَ: دَعا سَلمانَ أَبَا ذَرٍّ - رَحْمَةُ اللَّهِ عَليِهما - إِلى مَنْزِلِه فَقَدَّمَ إِلَيْهِ رَغيفَينِ فَأَخَذَ أَبُوذَرٍّ الرَّغيفَينِ فَقَلَبَهُما فَقالَ سَلمانُ: يا أَبَاذَرٍّ لاي شَي‏ءٍ تَقلِبُ هذَيْنِ الرَّغيفَينِ [قالَ خِفْتُ أَن لا يَكُونا نَضيجَينِ‏] فَغَضَبَ سَلْمان مَن ذلِكَ غَضَباً شَدِيداً، ثُمَّ قالَ: ما أَجْرأكَ حَيْثُ تَقلِبُ هذَيْنِ الرَّغيفَينِ فَوَاللَّهِ لَقَد عَمِلَ",
+          "name_en": "Salman",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+        "phrase_en": "Peace be upon them",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "رَحْمَةُ اللَّهِ",
+        "phrase_en": "Mercy of Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "الْحَمْدُ لِلَّهِ",
+        "phrase_en": "All praise is due to Allah",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,318 @@
+{
+  "verse_path": "/books/nahj-al-balagha:3:265:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-28",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 15 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'قال السيد الرضي: ويروى هذا الكلام على وجه آخر، وهو : أما بعد'"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "economy",
+      "afterlife"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "poverty_wealth",
+      "patience",
+      "gratitude"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "قَالَ السَّيِّدُ الرِّضِيُّ: وَيُرْوَى هَذَا الْكَلَامُ عَلَى وَجْهٍ آخَرَ،",
+        "translations": {
+          "en": "As-Sayyid ar-Raḍī says: This saying is also related in another version,",
+          "ur": "قال السيد الرضي: وَيُرْوَى هَذَا الْكَلَامُ عَلَى وَجْهٍ آخَرَ،",
+          "tr": "Ez-Zeyn er-Rıdî der ki: Bu söz başka bir rivayetle de nakledilmiştir,",
+          "fa": "قال السيد الرضي: وَيُرْوَى هَذَا الْكَلَامُ عَلَى وَجْهٍ آخَرَ،",
+          "id": "As-Sayyid ar-Raḍī berkata: Perkataan ini juga diriwayatkan dalam versi lain,",
+          "bn": "আস-সাইয়্যিদ আর-রাদি (রহ.) বলেন: এই কথাটি আরেকটি রূপেও বর্ণিত হয়েছে,",
+          "es": "As-Sayyid ar-Raḍī dice: Este dicho también se transmite en otra versión,",
+          "fr": "As-Sayyid ar-Raḍī dit : Ce dicton est également rapporté dans une autre version,",
+          "de": "As-Sayyid ar-Raḍī sagt: Dieses Wort wird auch in einer anderen Version überliefert,",
+          "ru": "Говорит ас-Саййид ар-Ради: «Эта речь передается также в другом варианте:",
+          "zh": "赛义德·拉迪说：此言另有另一传述版本，"
+        },
+        "word_start": 0,
+        "word_end": 9
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَهُوَ: أَمَّا بَعْدُ، فَإِنَّ الَّذِي فِي يَدِكَ مِنَ الدُّنْيَا قَدْ كَانَ لَهُ أَهْلٌ قَبْلَكَ، وَهُوَ صَائِرٌ إِلَى أَهْلٍ بَعْدَكَ،",
+        "translations": {
+          "en": "namely: Afterward, for indeed that which is in your hand from this world had people before you, and it will pass to people after you,",
+          "ur": "یعنی: بعد ازاں، کیونکہ جو کچھ تمہارے ہاتھ میں اس دنیا سے ہے، وہ تم سے پہلے لوگوں کے پاس تھا، اور یہ تمہارے بعد آنے والے لوگوں کے پاس چلا جائے گا،",
+          "tr": "yani: Sonra ki, çünkü elinizdeki bu dünyadan önceki insanlar da sahipti ve bu, sizden sonra gelen insanlara geçecektir. ",
+          "fa": "یعنی: پس از آن، زیرا که آنچه در دست شماست از این دنیا، پیش از شما مردم داشتند و پس از شما به مردم دیگر خواهد رفت،",
+          "id": "yaitu: Kemudian, sesungguhnya apa yang ada di tanganmu dari dunia ini telah dimiliki oleh orang-orang sebelummu, dan akan berpindah kepada orang-orang setelahmu,",
+          "bn": "অর্থাৎ: পরবর্তীতে, কারণ তোমার হাতে যা আছে এই দুনিয়া থেকে, তা তোমার আগে মানুষের ছিল, এবং এটি তোমার পর মানুষের কাছে চলে যাবে,",
+          "es": "a",
+          "fr": "à savoir : après, car en vérité ce qui est entre vos mains de ce monde a appartenu à des gens avant vous, et il passera à des gens après vous,",
+          "de": "narrator_names",
+          "ru": "а именно: впоследствии, ибо то, что у вас в руках из этой жизни, было у людей до вас, и перейдет к людям после вас,",
+          "zh": "即：此后，因为你们手中所拥有的今世之物，在你们之前的人也曾拥有，它也将传给在你们之后的人，"
+        },
+        "word_start": 9,
+        "word_end": 28
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَإِنَّمَا أَنْتَ جَامِعٌ لِأَحَدِ رَجُلَيْنِ: رَجُلٍ عَمِلَ فِيمَا جَمَعْتَ بِطَاعَةِ اللَّهِ فَسَعِدَ بِمَا شَقِيتَ بِهِ، أَوْ رَجُلٍ عَمِلَ فِيهِ بِمَعْصِيَةِ اللَّهِ فَشَقِيَ بِمَا جَمَعْتَ لَهُ،",
+        "translations": {
+          "en": "and you are merely collecting for one of two men: a man who acted in what you collected with obedience to Allah and thus was blessed with what you were wretched with, or a man who acted in it with disobedience to Allah and thus was wretched with what you collected for him,",
+          "ur": "اور تم صرف دو مردوں میں سے ایک کے لیے جمع کر رہے ہو: ایک مرد جو اس میں جمع کرنے میں اللہ کی اطاعت کے ساتھ عمل کرتا ہے اور اس لیے خوش قسمت ہو جاتا ہے جس میں تم بدقسمت تھے، یا ایک مرد جو اس میں اللہ کی نافرمانی کے ساتھ عمل کرتا ہے اور اس لیے بدقسمت ہو جاتا ہے جس میں تم نے اس کے لیے جمع کیا تھا،",
+          "tr": "ve siz yalnızca iki kişiden biri için topluyorsunuz: Allah'a itaatle topladığınız şeyde amel eden ve böylece mütevazı olduğunuz şeylerle mübarek kılınan bir adam, ya da Allah'a isyanla topladığınız şeyde amel eden ve böylece topladığınız şeyle mütevazı kılınan bir adam,",
+          "fa": "و شما تنها برای یکی از دو مرد جمع‌آوری می‌کنید: مردی که بهتی که به فرمانبرداری از خداوند در آنچه شما جمع‌آوری کردید عمل کرد و به همین دلیل با آنچه شما بدبخت بودید، مبارک شد، یا مردی که به نافرمانی از خداوند در آن عمل کرد و به همین دلیل با آنچه برای او جمع‌آوری کردید، بدبخت شد.",
+          "id": "dan kamu hanyalah mengumpulkan (harta) untuk salah seorang dari dua orang: seorang yang berbuat sesuai dengan apa yang kamu kumpulkan dengan ketaatan kepada Allah, sehingga ia diberi berkah dengan apa yang kamu celakakan, atau seorang yang berbuat sesuai dengan apa yang kamu kumpulkan dengan ketidaktaatan kepada Allah, sehingga ia celaka dengan apa yang kamu kumpulkan untuknya,",
+          "bn": "আর তোমরা কেবল দুই ব্যক্তির একজনের জন্য সংগ্রহ করছ: একজন ব্যক্তি যিনি তোমরা যা সংগ্রহ করেছিলে, আল্লাহর আনুগত্যের সাথে তাতে কাজ করেছিলেন এবং ফলস্বরূপ তিনি সেই বরকত লাভ করেছেন যা তোমরা বিপদগ্রস্ত ছিলে, অথবা একজন ব্যক্তি যিনি তাতে আল্লাহর বিদ্রোহিতার সাথে কাজ করেছিলেন এবং ফলস্বরূপ তিনি সেই বিপদগ্রস্ত হয়েছেন যা তোমরা তাঁর জন্য সংগ্রহ করেছিলে,",
+          "es": "y no recolectáis más que para uno de dos hombres: un hombre que actuó en lo que recolectasteis con obediencia a Alá y, por tanto, fue bendecido con lo que él fue desdichado, o un hombre que actuó en ello con desobediencia a Alá y, por tanto, fue desdichado con lo que recolectasteis para él,",
+          "fr": "et vous n'êtes qu'en train de collecter pour l'un des deux hommes : un homme qui a agi dans ce que vous avez collecté avec obéissance à Allah, et ainsi a été béni avec ce dont vous étiez malheureux, ou un homme qui a agi en cela avec désobéissance à Allah, et ainsi a été malheureux avec ce que vous avez collecté pour lui,",
+          "de": "und ihr sammelt nur für einen von zwei Männern: einen Mann, der das, was ihr sammeltet, im Gehorsam gegenüber Allah tat und somit mit dem gesegnet ward, womit ihr elend wart, oder einen Mann, der es im Ungehorsam gegenüber Allah tat und somit mit dem elend ward, was ihr für ihn sammeltet,",
+          "ru": "и вы собираете [закят] лишь для одного из двух мужчин: для того, кто действовал в соответствии с тем, что вы собрали, проявляя послушание Аллаху, и поэтому был одарён тем, чем вы были бедны, или для того, кто действовал в соответствии с тем, что вы собрали, проявляя непослушание Аллаху, и поэтому был беден тем, что вы собрали для него,",
+          "zh": "你们只是为以下两人之一而收集：一人以顺从真主的方式行事，因此他因你们所匮乏的而蒙受恩赐；另一人以违抗真主的方式行事，因此他因你们为他收集的而陷入困窘，"
+        },
+        "word_start": 28,
+        "word_end": 53
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَيْسَ أَحَدُ هَذَيْنِ أَهْلاً أَنْ تُؤْثِرَهُ عَلَى نَفْسِكَ وَلَا أَنْ تَحْمِلَ لَهُ عَلَى ظَهْرِكَ،",
+        "translations": {
+          "en": "and neither of these two is such that you may prefer him over yourself nor that you may burden yourself for him,",
+          "ur": "اور ان دونوں میں سے کوئی بھی ایسا نہیں ہے کہ تم اسے اپنی ذات پر ترجیح دو یا اس کے لیے خود کو بوجھ بنا لو,",
+          "tr": "ve bu ikisinden hiçbiri, onu kendinden üstün tutman ya da onun için kendini zorlaman için uygun değildir.",
+          "fa": "و نه‌یک از این دو چنان است که تو او را بر خود ترجیح دهی یا برای او خود را به مشقت بیندازی،",
+          "id": "dan masing-masing dari keduanya bukanlah orang yang boleh kamu utamakan atas dirimu sendiri, maupun orang yang boleh kamu membebani dirimu untuknya,",
+          "bn": "এবং এই দুইয়ের মধ্যে কেউ এমন নয় যে তুমি তাকে নিজের উপর অগ্রাধিকার দিবে অথবা তার জন্য নিজেকে কষ্ট দিবে,",
+          "es": "y que ninguno de los dos sea tal que prefieras a otro sobre ti mismo ni que te impongas una carga por él,",
+          "fr": "et qu'aucun de ces deux ne soit tel que tu le préfères à toi-même, ni que tu t'imposes une charge pour lui,",
+          "de": "und keiner von diesen beiden ist so, dass du ihn dir selbst vorziehen oder dich für ihn belasten solltest,",
+          "ru": "и ни один из этих двух не является таким, чтобы вы предпочитали его себе или обременяли себя ради него,",
+          "zh": "这两者中，没有哪一个是让你宁愿自己不如他，或你为他而自苦的，"
+        },
+        "word_start": 53,
+        "word_end": 67
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَارْجُ لِمَنْ مَضَى رَحْمَةَ اللَّهِ، وَلِمَنْ بَقِيَ رِزْقَ اللَّهِ.",
+        "translations": {
+          "en": "therefore, hope for the mercy of Allah for him who has passed away, and for Divine livelihood for him who survives.",
+          "ur": "لہذا، اس شخص کے لیے اللہ کی رحمت کی امید رکھو جو انتقال کر گیا ہے، اور اس شخص کے لیے رزقِ الٰہی کی امید رکھو جو زندہ بچا ہے۔",
+          "tr": "bu nedenle, ölen için Allah'ın rahmetini, hayatta kalan için ise ilahi rızkı umut edin.",
+          "fa": "بنابراین، برای کسی که از دنیا رفته است به رحمت خدا امیدوار باشید و برای کسی که زنده مانده است به روزی الهی.",
+          "id": "oleh karena itu, harapkanlah rahmat Allah bagi yang telah wafat, dan rezeki Ilahi bagi yang masih hidup.",
+          "bn": "অতএব, যে ব্যক্তি পরলোকগত হয়েছেন তার জন্য আল্লাহর রহমতের আশা করুন, এবং যে ব্যক্তি বেঁচে আছেন তার জন্য আল্লাহর রিযিকের আশা করুন।",
+          "es": "por lo tanto, espera la misericordia de Alá para quien ha fallecido, y el sustento divino para quien sobrevive.",
+          "fr": "c'est pourquoi, espère la miséricorde d'Allah pour celui qui est décédé, et pourvois divine pour celui qui survit.",
+          "de": "Hoffe daher auf die Barmherzigkeit Allahs für den Verstorbenen und auf göttlichen Lebensunterhalt für den Überlebenden.",
+          "ru": "поэтому, уповайте на милость Аллаха за того, кто скончался, и на божественное пропитание за того, кто остался в живых.",
+          "zh": "因此，为已故者祈求真主的慈悯，为生者祈求真主的给养。"
+        },
+        "word_start": 67,
+        "word_end": 76
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Sharif al-Radi frames wealth not as permanent ownership but as a temporary trust (amanah) where the owner acts as a conduit for either a righteous or wicked successor, highlighting the moral weight of stewardship. This perspective encourages detachment from material accumulation by focusing on the ultimate destination of the wealth and the owner's role in facilitating divine mercy or sustenance for those who follow.",
+        "seo_question": "What is the spiritual significance of temporary worldly wealth in Shia ethics?",
+        "key_terms": {
+          "الدُّنْيَا": "this world / worldly life",
+          "صَائِرٌ": "passing / destined to go",
+          "جَامِعٌ": "collector / accumulator",
+          "طَاعَةِ اللَّهِ": "obedience to Allah",
+          "مَعْصِيَةِ اللَّهِ": "disobedience to Allah",
+          "رَحْمَةَ اللَّهِ": "mercy of Allah",
+          "رِزْقَ اللَّهِ": "Divine livelihood / sustenance"
+        }
+      },
+      "ur": {
+        "summary": "شریف الرضی دولت کو مستقل ملکیت کے بجائے عارضی امانت کے طور پر پیش کرتے ہیں، جہاں مالک نیک یا بدکار جانشین کے لیے ایک واسطہ کا کردار ادا کرتا ہے، جو وصایت کے اخلاقی وزن کو اجاگر کرتا ہے۔ یہ نقطہ نظر دولت کے حتمی مقصد اور مالک کے ان لوگوں کے لیے الہیٰ رحمت یا رزق کی فراہمی میں اپنے کردار پر توجہ مرکوز کر کے مادی جمع پونجی سے بے رغبتی کو فروغ دیتا ہے۔",
+        "seo_question": "شیعہ اخلاقیات میں عارضی دنیاوی دولت کی روحانی اہمیت کیا ہے؟",
+        "key_terms": {
+          "الدُّنْيَا": "دنیا",
+          "صَائِرٌ": "جانے والا",
+          "جَامِعٌ": "جمع کرنے والا",
+          "طَاعَةِ اللَّهِ": "اللہ کی اطاعت",
+          "مَعْصِيَةِ اللَّهِ": "اللہ کی معصیت",
+          "رَحْمَةَ اللَّهِ": "اللہ کی رحمت",
+          "رِزْقَ اللَّهِ": "اللہ کا رزق"
+        }
+      },
+      "tr": {
+        "summary": "Şerif er-Radi, zenginliği kalıcı bir mülkiyet olarak değil, sahibinin ya salih ya da fâsıl bir halefe geçiş yolu olduğu geçici bir emanet (emâne) olarak çerçeveleyerek, mirasçılığın ahlaki ağırlığını vurgular. Bu bakış açısı, zenginliğin nihai varış noktasına ve sahibinin ardılı gelenler için ilahi rahmeti veya rızkı sağlama rolüne odaklanarak, maddi birikimden kopuşu teşvik eder.",
+        "seo_question": "Şii ahlakında geçici dünyevi zenginliğin manevi önemi nedir?",
+        "key_terms": {
+          "الدُّنْيَا": "dünya / dünyevi hayat",
+          "صَائِرٌ": "geçici / gitmeye mahkum",
+          "جَامِعٌ": "toplayıcı / biriktirici",
+          "طَاعَةِ اللَّهِ": "Allah'a itaat",
+          "مَعْصِيَةِ اللَّهِ": "Allah'a isyan",
+          "رَحْمَةَ اللَّهِ": "Allah'ın rahmeti",
+          "رِزْقَ اللَّهِ": "Allah'ın rızkı"
+        }
+      },
+      "fa": {
+        "summary": "شریف رضی ثروت را نه به عنوان مالکیت دائمی، بلکه به عنوان امانتی موقت می‌چیند که در آن مالک به عنوان مجرایی برای جانشین پرهیزگار یا گناهکار عمل می‌کند و بار اخلاقی سرپرستی را برجسته می‌سازد. این دیدگاه با تمرکز بر مقصد نهایی ثروت و نقش مالک در تسهیل رحمت یا روزی الهی برای پیروان، از انباشت مادی دوری می‌ورزد.",
+        "seo_question": "اهمیت معنوی ثروت موقتی دنیوی در اخلاق شیعه چیست؟",
+        "key_terms": {
+          "الدُّنْيَا": "دنیا / زندگی دنیوی",
+          "صَائِرٌ": "در حال رفتن / مقدر به رفتن",
+          "جَامِعٌ": "جمع‌کننده / انباشتگر",
+          "طَاعَةِ اللَّهِ": "اطاعت از خدا",
+          "مَعْصِيَةِ اللَّهِ": "نافرمانی از خدا",
+          "رَحْمَةَ اللَّهِ": "رحمت خدا",
+          "رِزْقَ اللَّهِ": "روزی الهی / معیشت"
+        }
+      },
+      "id": {
+        "summary": "Syarif al-Radi memandang kekayaan bukan sebagai kepemilikan permanen melainkan sebagai titipan sementara (amanah), di mana pemilik bertindak sebagai saluran bagi penerus yang saleh atau yang fasik, menyoroti beban moral dari pengelolaan tersebut. Perspektif ini mendorong keterlepasan dari akumulasi materi dengan berfokus pada tujuan akhir kekayaan dan peran pemilik dalam memfasilitasi rahmat atau rezeki ilahi bagi mereka yang datang setelahnya.",
+        "seo_question": "Apa signifikansi spiritual dari kekayaan duniawi yang bersifat sementara dalam etika Syiah?",
+        "key_terms": {
+          "الدُّنْيَا": "dunia / kehidupan duniawi",
+          "صَائِرٌ": "berpindah / ditakdirkan untuk pergi",
+          "جَامِعٌ": "pengumpul / penimbun",
+          "طَاعَةِ اللَّهِ": "ketaatan kepada Allah",
+          "مَعْصِيَةِ اللَّهِ": "ketaatan kepada Allah",
+          "رَحْمَةَ اللَّهِ": "rahmat Allah",
+          "رِزْقَ اللَّهِ": "rezeki Allah"
+        }
+      },
+      "bn": {
+        "summary": "শরীফ আল-রাদি ধনসম্পদকে স্থায়ী মালিকানা হিসেবে নয়, বরং একটি সাময়িক আমানাহ (বিশ্বাস) হিসেবে চিহ্নিত করেন, যেখানে মালিক একজন ন্যায়পরায়ণ বা পাপী উত্তরসূরীর জন্য একটি বাহক হিসেবে কাজ করেন, যা পালনকর্তার নৈতিক গুরুত্ব তুলে ধরে। এই দৃষ্টিভঙ্গি ধনসম্পদের চূড়ান্ত গন্তব্য এবং পরবর্তী প্রজন্মের জন্য ঈশ্বরের রহমত বা রিযক সহজতর করার ক্ষেত্রে মালিকের ভূমিকার দিকে মনোযোগ দিয়ে বস্তুগত সঞ্চয় থেকে বিচ্ছিন্নতার উৎসাহ দেয়।",
+        "seo_question": "শিয়া নৈতিকতায় সাময়িক পার্থিব ধনের আধ্যাত্মিক তাৎপর্য কী?",
+        "key_terms": {
+          "الدُّنْيَا": "এই জগত / পার্থিব জীবন",
+          "صَائِرٌ": "অন্তর্ধানকারী / যাওয়ার জন্য নিয়ত",
+          "جَامِعٌ": "সংগ্রাহক / সঞ্চয়কারী",
+          "طَاعَةِ اللَّهِ": "আল্লাহর আনুগত্য",
+          "مَعْصِيَةِ اللَّهِ": "আল্লাহর অবাধ্যতা",
+          "رَحْمَةَ اللَّهِ": "আল্লাহর রহমত",
+          "رِزْقَ اللَّهِ": "ঈশ্বরের রিযক / জীবিকা"
+        }
+      },
+      "es": {
+        "summary": "Sharif al-Radi enmarca la riqueza no como una propiedad permanente sino como una confianza temporal (amanah) donde el propietario actúa como un conducto para un sucesor justo o impío, destacando el peso moral de la administración. Esta perspectiva fomenta el desapego de la acumulación material al centrarse en el destino final de la riqueza y el papel del propietario en facilitar la misericordia divina o el sustento para quienes le siguen.",
+        "seo_question": "¿Cuál es la importancia espiritual de la riqueza mundana temporal en la ética chií?",
+        "key_terms": {
+          "الدُّنْيَا": "este mundo / vida mundana",
+          "صَائِرٌ": "que pasa / destinado a ir",
+          "جَامِعٌ": "colector / acumulador",
+          "طَاعَةِ اللَّهِ": "obediencia a Allah",
+          "مَعْصِيَةِ اللَّهِ": "desobediencia a Allah",
+          "رَحْمَةَ اللَّهِ": "misericordia de Allah",
+          "رِزْقَ اللَّهِ": "sustento divino"
+        }
+      },
+      "fr": {
+        "summary": "Charif al-Radi présente la richesse non comme une propriété permanente mais comme une confiance temporaire (amanah) où le propriétaire agit comme un intermédiaire pour un successeur juste ou impie, soulignant le poids moral de la gestion. Cette perspective encourage le détachement de l'accumulation matérielle en se concentrant sur la destination ultime de la richesse et le rôle du propriétaire dans la facilitation de la miséricorde divine ou de la subsistance pour ceux qui suivent.",
+        "seo_question": "Quelle est la signification spirituelle de la richesse mondaine temporaire dans l'éthique chiite ?",
+        "key_terms": {
+          "الدُّنْيَا": "ce monde / la vie mondaine",
+          "صَائِرٌ": "passager / destiné à partir",
+          "جَامِعٌ": "collecteur / accumulateur",
+          "طَاعَةِ اللَّهِ": "obéissance à Allah",
+          "مَعْصِيَةِ اللَّهِ": "désobéissance à Allah",
+          "رَحْمَةَ اللَّهِ": "miséricorde d'Allah",
+          "رِزْقَ اللَّهِ": "subsistance divine"
+        }
+      },
+      "de": {
+        "summary": "Scharif al-Radi stellt Reichtum nicht als permanentes Eigentum, sondern als zeitliches Vertrauen (Amana) dar, in dem der Besitzer als Durchgangsstation für entweder einen rechtschaffenen oder einen gottlosen Nachfolger agiert, wodurch das moralische Gewicht der Verwaltung betont wird. Diese Perspektive fördert die Loslösung von materieller Anhäufung, indem sie sich auf das endgültige Schicksal des Reichtums und die Rolle des Besitzers bei der Vermittlung göttlicher Barmherzigkeit oder Versorgung für die Nachfolgenden konzentriert.",
+        "seo_question": "Was ist die spirituelle Bedeutung von zeitlichem weltlichem Reichtum in der schiitischen Ethik?",
+        "key_terms": {
+          "الدُّنْيَا": "diese Welt / weltliches Leben",
+          "صَائِرٌ": "vorübergehend / bestimmt zu gehen",
+          "جَامِعٌ": "Sammler / Anhäufender",
+          "طَاعَةِ اللَّهِ": "Gehorsam gegenüber Allah",
+          "مَعْصِيَةِ اللَّهِ": "Ungehorsam gegenüber Allah",
+          "رَحْمَةَ اللَّهِ": "Barmherzigkeit Allahs",
+          "رِزْقَ اللَّهِ": "Göttliche Versorgung / Unterhalt"
+        }
+      },
+      "ru": {
+        "summary": "Шариф ар-Ради рассматривает богатство не как постоянную собственность, а как временное доверие (амана), где владелец выступает проводником для праведного или нечестивого преемника, подчеркивая моральную тяжесть управления. Эта перспектива поощряет отстраненность от материального накопления, фокусируясь на конечном назначении богатства и роли владельца в обеспечении божественной милости или пропитания для тех, кто придет после него.",
+        "seo_question": "Каково духовное значение временного мирского богатства в шиитской этике?",
+        "key_terms": {
+          "الدُّنْيَا": "этот мир / мирская жизнь",
+          "صَائِرٌ": "проходящий / обреченный уйти",
+          "جَامِعٌ": "собиратель / накопитель",
+          "طَاعَةِ اللَّهِ": "послушание Аллаху",
+          "مَعْصِيَةِ اللَّهِ": "непослушание Аллаху",
+          "رَحْمَةَ اللَّهِ": "милость Аллаха",
+          "رِزْقَ اللَّهِ": "божественное пропитание"
+        }
+      },
+      "zh": {
+        "summary": "谢里夫·拉迪将财富视为一种暂时的信托（阿玛纳），而非永久所有权，所有者作为通道，引导财富流向义人或恶人，强调了管理的道德重量。这一观点通过关注财富的最终归宿以及所有者在促进 divine 仁慈或给养方面的作用，鼓励人们超脱于物质积累。",
+        "seo_question": "在什叶派伦理中，短暂世俗财富的精神意义是什么？",
+        "key_terms": {
+          "الدُّنْيَا": "今世",
+          "صَائِرٌ": "将去/注定离去",
+          "جَامِعٌ": "收集者/积累者",
+          "طَاعَةِ اللَّهِ": "顺从真主",
+          "مَعْصِيَةِ اللَّهِ": "违抗真主",
+          "رَحْمَةَ اللَّهِ": "真主的仁慈",
+          "رِزْقَ اللَّهِ": "真主的给养"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:185",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "67:15",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "63:10",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "28:77",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "قَالَ السَّيِّدُ الرِّضِيُّ: وَيُرْوَى هَذَا الْكَلَامُ عَلَى وَجْهٍ آخَرَ، وَهُوَ: أَمَّا بَعْدُ، فَإِنَّ الَّذِي فِي يَدِكَ مِنَ الدُّنْيَا قَدْ كَانَ لَهُ أَهْلٌ قَبْلَكَ، وَهُوَ صَائِرٌ إِلَى أَهْلٍ بَعْدَكَ، وَإِنَّمَا أَنْتَ جَامِعٌ لِأَحَدِ رَجُلَيْنِ: رَجُلٍ عَمِلَ فِيمَا جَمَعْتَ بِطَاعَةِ اللَّهِ فَسَعِدَ بِمَا شَقِيتَ بِهِ، أَوْ رَجُلٍ عَمِلَ فِيهِ بِمَعْصِيَةِ اللَّهِ فَشَقِيَ بِمَا جَمَعْتَ لَهُ، وَلَيْسَ أَحَدُ هَذَيْنِ أَهْلاً أَنْ تُؤْثِرَهُ عَلَى نَفْسِكَ وَلَا أَنْ تَحْمِلَ لَهُ عَلَى ظَهْرِكَ، فَارْجُ لِمَنْ مَضَى رَحْمَةَ اللَّهِ، وَلِمَنْ بَقِيَ رِزْقَ اللَّهِ.",
+    "isnad_matn": {
+      "isnad_ar": "قال السيد الرضي: وَيُرْوَى هَذَا الْكَلَامُ عَلَى وَجْهٍ آخَرَ، وَهُوَ : أَمَّا بَعْدُ، فَإِنَّ الَّذِي فِي",
+      "matn_ar": "قَالَ السَّيِّدُ الرِّضِيُّ: وَيُرْوَى هَذَا الْكَلَامُ عَلَى وَجْهٍ آخَرَ، وَهُوَ: أَمَّا بَعْدُ، فَإِنَّ الَّذِي فِي يَدِكَ مِنَ الدُّنْيَا قَدْ كَانَ لَهُ أَهْلٌ قَبْلَكَ، وَهُوَ صَائِرٌ إِلَى أَهْلٍ بَعْدَكَ، وَإِنَّمَا أَنْتَ جَامِعٌ لِأَحَدِ رَجُلَيْنِ: رَجُلٍ عَمِلَ فِيمَا جَمَعْتَ بِطَاعَةِ اللَّهِ فَسَعِدَ بِمَا شَقِيتَ بِهِ، أَوْ رَجُلٍ عَمِلَ فِيهِ بِمَعْصِيَةِ اللَّهِ فَشَقِيَ بِمَا جَمَعْتَ لَهُ، وَلَيْسَ أَحَدُ هَذَيْنِ أَهْلاً أَنْ تُؤْثِرَهُ عَلَى نَفْسِكَ وَلَا أَنْ تَحْمِلَ لَهُ عَلَى ظَهْرِكَ، فَارْجُ لِمَنْ مَضَى رَحْمَةَ اللَّهِ، وَلِمَنْ بَقِيَ رِزْقَ اللَّهِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "قال السيد الرضي: ويروى هذا الكلام على وجه آخر، وهو : أما بعد، فإن الذي",
+          "name_en": "al-Sayyid al-Radi",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "رَحْمَةُ اللَّهِ",
+        "phrase_en": "Mercy of Allah",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

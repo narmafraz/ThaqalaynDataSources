@@ -1,0 +1,995 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:20:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[1] name_ar has 17 words (>14, بن-density 0.18 — likely a sentence fragment, not a name): 'الحَسَن بْنِ القاسِمِ الرقام قالَ: حَدَّثَني القاسِم بْنِ مُ'",
+    "chunks[0] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[8] translations.id is empty string (likely Phase 4 batch failure)",
+    "chunks[24] translations.bn is empty string (likely Phase 4 batch failure)",
+    "key_phrases must have 0-5 items, got 9"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "governance",
+      "quran_commentary",
+      "prophetic_tradition"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "imamate",
+      "divine_knowledge",
+      "quran_interpretation_method",
+      "ahlulbayt_virtues",
+      "religious_authority"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَبُو الْقَاسِمِ بْنُ مُحَمَّدِ بْنِ عَلِيٍّ الْهَارُونِيُّ قَالَ: حَدَّثَنِي أَبُو حَامِدٍ عِمْرَانُ بْنُ مُوسَى بْنِ إِبْرَاهِيمَ عَنِ الْحَسَنِ بْنِ الْقَاسِمِ الرَّقَّامِ قَالَ: حَدَّثَنِي الْقَاسِمُ بْنُ مُسْلِمٍ، عَنْ أَخِيهِ عَبْدُ الْعَزِيزِ بْنِ مُسْلِمٍ قَالَ: كُنَّا فِي أَيَّامِ عَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ بِمَرْوَ فَاجْتَمَعْنَا فِي مَسْجِدِ جَامِعِهَا فِي يَوْمِ جُمُعَةٍ فِي بَدْءِ مَقْدَمِنَا فَأَدَارَ النَّاسُ أَمْرَ الْإِمَامَةِ وَذَكَرُوا كَثْرَةَ اخْتِلَافِ النَّاسِ فِيهَا فَدَخَلْتُ عَلَى سَيِّدِي وَمَوْلَايَ الرِّضَا فَأَعْلَمْتُهُ مَا خَاضَ النَّاسُ فِيهِ فَتَبَسَّمَ",
+        "translations": {
+          "en": "Abu al-Abbas Muhammad ibn Ibrahim ibn Ishaq al-Talqani (may God be pleased with him) narrated that Abu al-Qasim ibn Muhammad ibn Ali al-Haruni narrated to me, Abu Hamid Imran ibn Musa ibn Ibrahim, from al-Hasan ibn al-Qasim al-Raqqam, from al-Qasim ibn Muslim, from his brother Abd al-Aziz ibn Muslim, who said: 'During the days of Ali ibn Musa al-Rida (peace be upon him), we were in Marv. We gathered in the congregational mosque on a Friday at the beginning of our arrival. The people discussed the matter of Imamate and mentioned the great difference of opinion among them regarding it. I went to my Master and Lord, al-Rida, and informed him of what the people had discussed. He smiled.'",
+          "ur": "أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ حَدَّثَنَا قَالَ: حَدَّثَنَا أَبُو الْقَاسِمِ بْنُ مُحَمَّدِ بْنِ عَلِيٍّ الْهَارُونِيُّ قَالَ: حَدَّثَنِي أَبُو حَامِدٍ عِمْرَانُ بْنُ مُوسَى بْنِ إِبْرَاهِيمَ عَنِ الْحَسَنِ بْنِ الْقَاسِمِ الرَّقَّامِ قَالَ: حَدَّثَنِي الْقَاسِمُ بْنُ مُسْلِمٍ عَنْ أَخِيهِ عَبْدِ الْعَزِيزِ بْنِ مُسْلِمٍ قَالَ: كُنَّا فِي أَيَّامِ عَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامِ بِمَرْوَ فَاجْتَمَعْنَا فِي مَسْجِدِ جَامِعِهَا فِي يَوْمِ جُمُعَةٍ فِي بَدءِ مَقْدَمِنَا فَأَدَارَ النَّاسُ أَمْرَ الْإِمَامَةِ وَذَكَرُوا كَثْرَةَ اخْتِلَافِ النَّاسِ فِيهَا فَدَخَلْتُ عَلَى سَيِّدِي وَمَوْلَايَ الرِّضَا فَأَعْلَمْتُهُ مَا خَاضَ النَّاسُ فِيهِ فَتَبَسَّمَ.",
+          "tr": "Ebu'l-Abbas Muhammed b. İbrahim b. İshak et-Talqani (radıyallahu anh) rivayet etti ki: Ebu'l-Kasım b. Muhammed b. Ali el-Haruni bana, Ebu Hamid İmran b. Musa b. İbrahim rivayet etti; el-Hasan b. el-Kasım er-Rakkam'dan; el-Kasım b. Müslim'den; kardeşi Abdülaziz b. Müslim'den rivayet etti ki dedi: \"Ali b. Musa er-Rıza (aleyisselam) devrinde Merv'deydik. Varışımızın başlangıcında bir Cuma günü camiinde toplandık. İnsanlar imamet meselesini tartıştılar ve bu konuda aralarındaki büyük ihtilafi zikrettiler. Ben efendim ve sahibim er-Rıza'ya girdim ve onlara insanların neyi tartıştıklarını haber verdim. O da tebessüm etti.\"",
+          "fa": "حَدَّثَنَا أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ، قَالَ: حَدَّثَنَا أَبُو الْقَاسِمِ بْنُ مُحَمَّدِ بْنِ عَلِيٍّ الْهَارُونِيُّ، قَالَ: حَدَّثَنِي أَبُو حَامِدٍ عِمْرَانُ بْنُ مُوسَى بْنِ إِبْرَاهِيمَ، عَنِ الْحَسَنِ بْنِ الْقَاسِمِ الرَّقَّامِ، عَنِ الْقَاسِمِ بْنِ مُسْلِمٍ، عَنْ أَخِيهِ عَبْدِ الْعَزِيزِ بْنِ مُسْلِمٍ، قَالَ: كُنَّا فِي أَيَّامِ عَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ بِمَرْوَ، فَاجْتَمَعْنَا فِي مَسْجِدِ جَامِعِهَا فِي يَوْمِ جُمُعَةٍ فِي بَدءِ مَقْدَمِنَا، فَأَدَارَ النَّاسُ أَمْرَ الْإِمَامَةِ وَذَكَرُوا كَثْرَةَ اخْتِلَافِ النَّاسِ فِيهَا، فَدَخَلْتُ عَلَى سَيِّدِي وَمَوْلَايَ الرِّضَا، فَأَعْلَمْتُهُ مَا خَاضَ النَّاسُ فِيهِ، فَتَبَسَّمَ.",
+          "id": "Abu al-Abbas Muhammad ibn Ibrahim ibn Ishaq al-Talqani (raḍiya Allāhu ʿanhu) meriwayatkan bahwa Abu al-Qasim ibn Muhammad ibn Ali al-Haruni telah meriwayatkan kepadaku, Abu Hamid Imran ibn Musa ibn Ibrahim, dari al-Hasan ibn al-Qasim al-Raqqam, dari al-Qasim ibn Muslim, dari saudaranya Abd al-Aziz ibn Muslim, yang berkata: \"Pada masa Ali ibn Musa al-Rida (ʿalayhi al-salām), kami berada di Marw. Kami berkumpul di masjid jamiʿ pada hari Jumat di awal kedatangan kami. Para ulama membahas masalah Imamah dan menyebutkan adanya perbedaan pendapat yang besar di antara mereka mengenai hal tersebut. Aku datang kepada tuanku dan majikanku, al-Rida, dan memberitahukannya tentang apa yang telah dibahas oleh para ulama. Beliau tersenyum.\"",
+          "bn": "আবু al-আব্বাস মুহাম্মাদ ইবনে ইব্রাহীম ইবনে ইসহাক আল-তালকানী (রাদিয়াল্লাহু আনহু) বর্ণনা করেন যে, আবু al-কাসিম ইবনে মুহাম্মাদ ইবনে আলী আল-হারুনি আমাকে বর্ণনা করেন, আবু হামিদ ইমরান ইবনে মুসা ইবনে ইব্রাহীম, আল-হাসান ইবনে আল-কাসিম আল-রাক্কাম থেকে, আল-কাসিম ইবনে মুসলিম থেকে, তার ভাই আবদুল আজিজ ইবনে মুসলিম থেকে, যিনি বলেন: 'আলী ইবনে মুসা আল-রিদা (আলাইহিস সালাম)-এর দিনগুলোতে আমরা মার্ভে ছিলাম। আমরা আমাদের আগমনের শুরুতে শুক্রবারে জামে মসজিদে সমবেত হই। লোকজন ইমামতের বিষয় নিয়ে আলোচনা করেন এবং এর উপর তাদের মধ্যে মতভেদের বিষয়টি উল্লেখ করেন। আমি আমার মালিক ও প্রভু আল-রিদার নিকট গেলাম এবং তাঁকে জানালাম যে লোকজন কী আলোচনা করেছিল। তিনি হাসিলেন।'",
+          "es": "Narró Abū al-ʿAbbās Muḥammad ibn Ibrāhīm ibn Isḥāq al-Ṭālkānī (que Dios esté complacido con él) que Abū al-Qāsim ibn Muḥammad ibn ʿAlī al-Hārūnī narró a mí, Abū Ḥāmid ʿImrān ibn Mūsā ibn Ibrāhīm, de al-Ḥasan ibn al-Qāsim al-Raqqām, de al-Qāsim ibn Muslim, de su hermano ʿAbd al-ʿAzīz ibn Muslim, quien dijo: «En los días de ʿAlī ibn Mūsā al-Riḍā (la paz sea con él), estábamos en Merv. Nos reunimos en la mezquita congregacional un viernes, al principio de nuestra llegada. La gente debatió el asunto del Imamat y mencionaron la gran divergencia de opiniones entre ellos al respecto. Fui ante mi Señor y Amo, al-Riḍā, e informé de lo que la gente había debatido. Él sonrió.»",
+          "fr": "Riwaya Abu al-Abbas Muhammad ibn Ibrahim ibn Ishaq al-Talqani (radhiya Allahu 'anhu) anna Abu al-Qasim ibn Muhammad ibn Ali al-Haruni riwaya 'anhi, Abu Hamid Imran ibn Musa ibn Ibrahim, 'an al-Hasan ibn al-Qasim al-Raqqam, 'an al-Qasim ibn Muslim, 'an akhihi Abd al-Aziz ibn Muslim, qala: Kunnā fī ayyām 'Ali ibn Musa al-Rida (alayhi al-salam) bi-Marv fajta'mana fi masjid jami'ha fi yawm jum'a fi bad' maqdimina fa-adara al-nasu amr al-imama wa-dhakarū kathrata ikhtilaf al-nas fiha fadakhaltu 'ala sayyidi wa-mawlaya al-Rida fa-a'lamtuhu ma khaqa al-nasu fīhi fatabassama thumma qala ya 'Abd al-'Aziz jahila al-qawm wa-khudi'ū 'an adiyānihim.",
+          "de": "Abū l-Abbās Muḥammad ibn Ibrāhīm ibn Isḥāq al-Ṭalqānī (raḍiya llāhu ʿanhu) überlieferte, dass Abū l-Qāsim ibn Muḥammad ibn ʿAlī al-Hārūnī ihm, Abū Ḥāmid ʿImrān ibn Mūsā ibn Ibrāhīm, von al-Ḥasan ibn al-Qāsim al-Raqqām überlieferte, von al-Qāsim ibn Muslim, von seinem Bruder ʿAbd al-ʿAzīz ibn Muslim, der sagte: „In den Tagen von ʿAlī ibn Mūsā al-Riḍā (ʿalayhi s-salām) befanden wir uns in Mārw. Wir versammelten uns in der Hauptmoschee an einem Freitag zu Beginn unserer Ankunft. Die Menschen diskutierten die Angelegenheit der Imamat und erwähnten die große Meinungsverschiedenheit unter ihnen bezüglich dieser. Ich ging zu meinem Herrn und Gebieter, al-Riḍā, und informierte ihn über das, was die Menschen diskutiert hatten. Er lächelte.“",
+          "zh": "أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ حَدَّثَنَا قَالَ: حَدَّثَنَا أَبُو الْقَاسِمِ بْنُ مُحَمَّدِ بْنِ عَلِيٍّ الْهَارُونِيُّ قَالَ: حَدَّثَنِي أَبُو حَامِدٍ عِمْرَانُ بْنُ مُوسَى بْنِ إِبْرَاهِيمَ عَنِ الْحَسَنِ بْنِ الْقَاسِمِ الرَّقَّامِ، عَنِ الْقَاسِمِ بْنِ مُسْلِمٍ، عَنْ أَخِيهِ عَبْدِ الْعَزِيزِ بْنِ مُسْلِمٍ قَالَ: كُنَّا فِي أَيَّامِ عَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامِ بِمَرْوَ، فَاجْتَمَعْنَا فِي مَسْجِدِ جَامِعِهَا فِي يَوْمِ جُمُعَةٍ فِي بَدءِ مَقْدَمِنَا، فَأَدَارَ النَّاسُ أَمْرَ الْإِمَامَةِ وَذَكَرُوا كَثْرَةَ اخْتِلَافِ النَّاسِ فِيهَا، فَدَخَلْتُ عَلَى سَيِّدِي وَمَوْلَايَ الرِّضَا فَأَعْلَمْتُهُ مَا خَاضَ النَّاسُ فِيهِ فَتَبَسَّمَ.",
+          "ru": ""
+        },
+        "word_start": 0,
+        "word_end": 87
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ يَا عَبْدَ الْعَزِيزِ جَهِلَ الْقَوْمُ وَخُدِعُوا عَنْ أَدْيَانِهِمْ إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى لَمْ يَقْبِضْ نَبِيَّهُ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ حَتَّى أَكْمَلَ لَهُ الدِّينَ وَأَنْزَلَ عَلَيْهِ الْقُرْآنَ فِيهِ تَفْصِيلُ كُلِّ شَيْءٍ بَيَّنَ فِيهِ الْحَلَالَ وَالْحَرَامَ وَالْحُدُودَ وَالْأَحْكَامَ وَجَمِيعَ مَا يَحْتَاجُ إِلَيْهِ النَّاسُ كَمَلاً",
+        "translations": {
+          "en": "Then he said: 'O Abd al-Aziz! The people are ignorant and have been deceived regarding their religion. Indeed, God, the Blessed and Exalted, did not take the life of His Prophet (peace be upon him and his family) until He had perfected the religion for him and sent down to him the Quran, in which is the detail of all things. He clarified therein the halal and the haram, the limits, the rulings, and everything the people need in full.'",
+          "ur": "پھر انہوں نے کہا: اے عبدالعزیز! لوگ اپنی دین کے بارے میں جاہل ہیں اور فریب میں مبتلا ہیں۔ بے شک اللہ تعالیٰ نے اپنے نبی (صلی اللہ علیہ و آلہ وسلم) کی جان اسی وقت لی جب اس نے ان کے لیے دین کو کامل کر دیا اور ان پر قرآن نازل فرمایا، جس میں تمام چیزوں کی تفصیل ہے۔ اس میں حلال اور حرام، حدود، احکام، اور وہ تمام چیزیں بیان کی گئی ہیں جن کی لوگوں کو ضرورت ہے۔",
+          "tr": "Sonra şöyle dedi: 'Ey Abdülaziz! İnsanlar dinleri konusunda cehalet içinde olup aldatılmışlardır. Şüphesiz Allah, Teâlâ, Peygamberi'ne (ona ve âline salât ve selâm olsun) dinini tamamlamadan ve kendisine Kur'an'ı indirmeden önce hayatını sona erdirmemiştir. Kur'an'da her şeyin tafsilatı vardır. Orada helali ve haramı, hudutları, hükümleri ve insanların ihtiyacı olan her şeyi açıkça beyan etmiştir.",
+          "fa": "سپس فرمود: «ای عبد‌العزيز! مردم در دین خود نادان بوده و گمراه شده‌اند. همانا خداوند، بزرگ و برتر، جان پیامبرش (صلی‌الله‌علیه‌وآله‌وسلم) را نپذیرفت تا اینکه دین را برای او کامل گردانید و قرآن را بر او نازل کرد، که در آن جزئیات همه چیز آمده است. در آن، حلال و حرام، حدود، احکام و هر آنچه مردم به آن نیاز دارند را به طور کامل بیان فرمود.",
+          "id": "Lalu ia berkata, 'Wahai Abd al-Aziz! Manusia bodoh dan telah ditipu dalam urusan agama mereka. Sesungguhnya Allah, Yang Maha Berkat dan Maha Tinggi, tidak mencabut nyawa Nabi-Nya (shalat dan salam atasnya serta keluarganya) sebelum Ia menyempurnakan agama untuknya dan menurunkan kepadanya Al-Quran, yang di dalamnya terdapat penjelasan segala sesuatu. Ia menjelaskan di dalamnya yang halal dan yang haram, batas-batas, hukum-hukum, dan segala sesuatu yang dibutuhkan manusia secara lengkap.'",
+          "bn": "অতঃপর তিনি বললেন: 'হে আবদুল আজিজ! লোকজন তাদের ধর্ম সম্পর্কে অজ্ঞ ও প্রতারিত হয়েছে। নিশ্চয়ই আল্লাহ, বরকতময় ও মহান, তাঁর নবীকে (তাঁর ও তাঁর পরিবারের উপর শান্তি বর্ষিত হোক) মৃত্যু দান করার পূর্বে তাঁর জন্য ধর্মকে পরিপূর্ণ করেননি এবং তাঁর উপর কুরআন অবতীর্ণ করেননি, যার মধ্যে সকল বিষয়ের বিস্তারিত বর্ণনা রয়েছে। তিনি তাতে হালাল ও হারাম, সীমারেখা, ফয়সালা এবং লোকজনের প্রয়োজনীয় সকল বিষয় পরিষ্কারভাবে উল্লেখ করেছেন।'",
+          "es": "Luego dijo: «¡Oh Abd al-Aziz! La gente es ignorante y ha sido engañada en cuanto a su religión. Ciertamente, Dios, el Bendito y Exaltado, no dio por concluida la vida de Su Profeta (que la paz sea con él y con su familia) hasta que perfeccionó la religión para él y le reveló el Corán, en el cual se encuentra el detalle de todas las cosas. Allí aclaró lo lícito (halal) y lo ilícito (haram), los límites, las normas jurídicas y todo aquello de lo que la gente tiene necesidad en su totalidad.»",
+          "fr": "Puis il dit : « Ô Abd al-Aziz ! Le peuple est ignorant et a été induit en erreur concernant sa religion. En vérité, Dieu, le Bienheureux et l'Exalté, n'a pas fait mourir Son Prophète (que la paix soit sur lui et sur sa famille) avant d'avoir perfectionné la religion pour lui et de lui avoir révélé le Coran, dans lequel se trouve le détail de toutes choses. Il y a clarifié le halal et le haram, les limites, les règles, et tout ce dont le peuple a besoin en entier.",
+          "de": "Dann sagte er: „O Abd al-Aziz! Die Menschen sind unwissend und wurden in ihrer Religion getäuscht. Wahrlich, Gott, der Gepriesene und Erhabene, ließ seinen Propheten (Friede sei mit ihm und seiner Familie) nicht sterben, bevor Er die Religion für ihn vervollkommnet und den Quran auf ihn herabgesandt hatte, in dem die Einzelheiten aller Dinge enthalten sind. Er klärte darin das Erlaubte (halal) und das Verbotene (haram), die Grenzen, die Rechtsbestimmungen und alles, was die Menschen in vollem Umfang benötigen.",
+          "ru": "Затем он сказал: «О Абд аль-Азиз! Люди невежественны и заблуждаются в своей религии. Поистине, Аллах, Благословенный и Всевышний, не забрал душу Своего Пророка (мир ему и его семье), пока не завершил для него религию и не ниспослал ему Коран, в котором изложено подробно всё. Он разъяснил в нём дозволенное и запретное, границы, предписания и всё, в чём нуждаются люди в полном объёме».",
+          "zh": "随后他说：‘阿卜杜勒·阿齐兹啊！人们对其宗教无知且被欺骗。的确，真主，至福至高的，并未使他的先知（愿主福安之及其家属）去世，直到他为先知完善了宗教，并降示给他《古兰经》，其中详述了一切事物。他在其中阐明了合法与非法、界限、律例以及人们所需的一切。’"
+        },
+        "word_start": 87,
+        "word_end": 131
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "(مَا فَرَّطْنَا فِي الْكِتَابِ مِنْ شَيْءٍ)",
+        "translations": {
+          "en": "\"We have not neglected in the Book anything.\"",
+          "ur": "ہم نے کتاب میں کچھ بھی غفلت نہیں کی۔",
+          "tr": "Kitapta hiçbir şeyi ihmal etmedik.",
+          "fa": "ما در کتاب چیزی را مغلوب نکرده‌ده‌ایم.",
+          "id": "Kami tidak melupakan sesuatu pun dalam Kitab.",
+          "bn": "আমরা কিতাবে কিছুই অবহেলা করিনি।",
+          "es": "No hemos omitido nada en el Libro.",
+          "fr": "Nous n'avons rien négligé dans le Livre.",
+          "de": "Wir haben in dem Buch nichts vernachlässigt.",
+          "ru": "Мы не оставили в Книге ничего не упущенным.",
+          "zh": "我们在经典中未遗漏任何事物。"
+        },
+        "word_start": 131,
+        "word_end": 137
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَأَنْزَلَ فِي حَجَّةِ الْوَدَاعِ وَهِيَ آخِرُ عُمُرِهِ (الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا). وَأَمْرُ الْإِمَامَةِ مِنْ تَمَامِ الدِّينِ وَلَمْ يَمْضِ عَلَيْهِ السَّلَامُ حَتَّى بَيَّنَ لأمَّتِهِ مَعَالِمَ دِينِهِ وَأَوْضَحَ لَهُمْ سُبُلَهُ وَتَرَكَهُمْ عَلَى قَصْدِ الْحَقِّ وَأَقَامَ لَهُمْ عَلِيًّا عَلَيْهِ السَّلَامُ عَلَمًا وَإِمَامًا وَمَا تَرَكَ شَيْئًا تَحْتَاجُ إِلَيْهِ الْأُمَّةُ إِلَّا بَيَّنَهُ",
+        "translations": {
+          "en": "And He revealed during the Farewell Pilgrimage, which was the last of his life: 'This day I have perfected for you your religion and completed My favor upon you and have approved for you Islam as religion.' And the matter of Imamate is from the perfection of the religion. He (peace be upon him) did not depart until he clarified the landmarks of his religion to his ummah, made their paths clear to them, left them upon the straight path, and established for them Ali (peace be upon him) as a standard and an Imam. And he did not leave anything the ummah needs without clarifying it.",
+          "ur": "اور اس نے وداع حج کے دوران وحی نازل کی جو اس کی زندگی کا آخری حج تھا: 'آج میں نے تمہارے لیے تمہاری دین کو کامل کر دیا اور تم پر اپنی نعمت کو تمام کر دیا اور تمہارے لیے اسلام کو دین کے طور پر پسند کیا۔' اور امامت کا معاملہ دین کی تکمیل سے ہے۔ (وہ) اس وقت تک رخصت نہ ہوئے جب تک کہ انہوں نے اپنی امت کے لیے اپنی دین کے نشان واضح نہ کر دیے، ان کے راستے ان کے لیے واضح نہ کر دیے، انہیں سیدھے راستے پر چھوڑ نہ دیا، اور ان کے لیے علی (علیہ السلام) کو معیار اور امام مقرر نہ کر دیا۔ اور انہوں نے امت کو جو کچھ ضرورت تھی اسے چھوڑا نہیں، بلکہ سب کچھ واضح کر دیا۔",
+          "tr": "O, hayatının sonuna doğru olan Veda Hac'ı sırasında şu ayeti indirdi: 'Bugün sizin için dininizi kemal ettirdim, size olan nimetimi tamamladım ve sizin için din olarak İslâm'ı beğendim.' İmâmet meselesi de dinin kemalindendir. O (sallallâhu aleyhi ve sellem), ümmetine dininin işaretlerini ve sınırlarını açıklayıp yollarını onlar için aydınlatmadan, onları doğru yolda bırakmadan ve onlar için Ali'yi (radıyallâhu anh) bir imâm ve önder olarak tayin etmeden vefât etmedi. Ümmetin ihtiyacı olan hiçbir şeyi açıklayıp bırakmadı.",
+          "fa": "و او در حجّت خود را در حجّت‌الوداع که آخرین سفر او بود آشکار ساخت: «امروز دین شما را کامل کردم و نعمت خود را بر شما تمام کردم و اسلام را به عنوان دین برای شما پسندیدم.» و امر امامت از کمال دین است. او (علیه‌السلام) تا زمانی که نشانه‌های دین خود را به امتش روشن نساخت، راه‌هایشان را برایشان واضح نگردانید، آنان را بر راه راست نگذاشت و علی (علیه‌السلام) را به عنوان پرچم و امام برایشان برقرار نساخت، از دنیا نرفت. و هیچ چیز را که امت به آن نیاز دارد بدون توضیح رها نکرد.",
+          "id": "Dan Allah menurunkan wahyu pada saat Haji Wada', yang merupakan akhir dari hayatnya, yaitu: 'Pada hari ini telah Kusempurnakan untuk kamu agamamu, dan telah Ku-cukupkan kepadamu nikmat-Ku, dan telah Ku-ridhai Islam itu jadi agama bagimu.' Dan urusan Imamah termasuk dari kesempurnaan agama. Beliau (shallallahu 'alaihi wasallam) tidak wafat sebelum beliau menjelaskan batas-batas agamanya kepada umatnya, menerangkan jalan-jalan mereka, dan meninggalkan mereka di atas jalan yang lurus, serta menetapkan Ali (shallallahu 'alaihi wasallam) sebagai panutan dan Imam. Dan beliau tidak meninggalkan sesuatu pun yang dibutuhkan umat tanpa menjelaskannya.",
+          "bn": "এবং তিনি ফরদ হজ্জের সময় ওহি অবতীর্ণ করলেন, যা ছিল তাঁর জীবনের শেষ সময়: 'আজ আমি তোমাদের জন্য তোমাদের ধর্মকে পরিপূর্ণ করেছি এবং তোমাদের উপর আমার নিয়ামত সম্পূর্ণ করেছি এবং তোমাদের জন্য ইসলামকে ধর্ম হিসেে গ্রহণ করেছি।' এবং ইমামতের বিষয়টি ধর্মের পরিপূর্ণতার অন্তর্ভুক্ত। তিনি (সা.) তাঁর উম্মতের কাছে তাঁর ধর্মের সীমানাগুলো স্পষ্ট করে, তাদের পথগুলো পরিষ্কার করে, তাদেরকে সোজা পথে রেখে এবং তাদের জন্য আলী (রা.)-কে একটি মানদণ্ড ও ইমাম হিসেবে প্রতিষ্ঠিত করে যান। তিনি এমন কিছুই ছেড়ে যাননি যা উম্মতের প্রয়োজন, তা তিনি স্পষ্ট করে যাননি।",
+          "es": "Y reveló durante la Peregrinación de la Despedida, que fue la última de su vida: 'Hoy he perfeccionado para vosotros vuestra religión y he completado Mi favor sobre vosotros y he aprobado para vosotros el Islam como religión.' Y el asunto del Imamato es parte de la perfección de la religión. Él (que la paz sea con él) no partió hasta que aclaró las señales de su religión a su ummah, les hizo claros sus caminos, los dejó sobre el camino recto, y estableció para ellos a Ali (que la paz sea con él) como estandarte e Imam. Y no dejó nada de lo que la ummah necesita sin aclararlo.",
+          "fr": "Et Il révéla lors du Pèlerinement d'Adieu, qui fut le dernier de sa vie : « Aujourd'hui, J'ai perfectionné pour vous votre religion, accompli Mon bienfait sur vous, et agréé l'islam comme religion. » Et la question de l'Imamat fait partie de la perfection de la religion. Lui (que la paix soit sur lui) ne partit pas avant d'avoir clarifié les repères de sa religion à son ummah, leur en avoir rendu les chemins clairs, les avoir laissés sur la voie droite, et avoir établi pour eux Ali (que la paix soit sur lui) comme étendard et Imam. Et il ne laissa rien dont l'ummah a besoin sans le clarifier.",
+          "de": "Und Er offenbarte während der Abschieds-Haddsch, die die letzte seines Lebens war: 'Heute habe Ich euch eure Religion vervollkommnet und Meine Gnade an euch vollendet und euch den Islam als Religion genehmigt.' Und die Angelegenheit des Imamats gehört zur Vervollkommnung der Religion. Er (Friede sei mit ihm) starb nicht, bevor er den Wegmarken seiner Religion zu seiner Umma hin geklärt, ihnen ihre Wege klar gemacht Pfade deutlich gemacht, sie auf dem geraden Pfad belassen und Ali (Friede sei mit ihm) als ein Standard und einen Imam für sie etabliert hatte. Und er ließ nichts aus, was die Umma benötigt, ohne es zu klären.",
+          "ru": "И Он ниспослал (откровение) во время Прощального хаджа, который был последним в его жизни: «Сегодня Я завершил для вас вашу религию и совершил Мою милость к вам, и утвердил для вас ислам в качестве религии». И дело имамата относится к совершенству религии. Он (да будет мир с ним) не ушел, пока не разъяснил своей умме ориентиры своей религии, не сделал их пути ясными для них, не оставил их на прямом пути и не установил для них Али (да будет мир с ним) как знамя и имама. И он не оставил ничего, в чем нуждается умма, не разъяснив этого.",
+          "zh": "他在辞朝期间降示了这段经文，那是他生命中的最后一次：‘今天，我已为你们成全你们的宗教，我已圆满我对你们的恩典，我已选择伊斯兰作为你们的宗教。’而伊玛目制是宗教完善的一部分。他（愿主福安之）在离世之前，已为他的乌玛阐明其宗教的准则，为他们指明道路，使他们坚守正道，并确立阿里（愿主福安之）为旗帜和伊玛目。他未留下任何乌玛所需之事而未加阐明。"
+        },
+        "word_start": 137,
+        "word_end": 191
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَمَنْ زَعَمَ أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُكْمِلْ دِينَهُ فَقَدْ رَدَّ كِتَابَ اللَّهِ عَزَّ وَجَلَّ وَمَنْ رَدَّ كِتَابَ اللَّهِ فَهُوَ كَافِرٌ. هَلْ يَعْرِفُونَ قَدْرَ الْإِمَامَةِ وَمَحَلَّهَا مِنَ الْأُمَّةِ فَيَجُوزَ فِيهَا اخْتِيَارُهُمْ؟",
+        "translations": {
+          "en": "So whoever claims that God, the Mighty and Exalted, did not perfect his religion, has indeed rejected the Book of God, the Mighty and Exalted. And whoever rejects the Book of God, he is a disbeliever. Do they know the rank of Imamate and its place in the ummah such that their choosing it is permissible?",
+          "ur": "پس جو شخص دعویٰ کرتا ہے کہ اللہ تعالیٰ نے اپنی دین کو کامل نہیں کیا، وہ یقیناً اللہ تعالیٰ کی کتاب کا انکار کرنے والا ہے۔ اور جو شخص اللہ کی کتاب کا انکار کرتا ہے، وہ کافر ہے۔ کیا انہیں امامت کی مرتبہ اور امت میں اس کی جگہ کا علم ہے کہ ان کا اسے منتخب کرنا جائز ہو؟",
+          "tr": "İşte kim, Allah Teâlâ'nın dinini tamamlamadığını iddia ederse, o, Allah Teâlâ'nın Kitabını reddetmiş olur. Kim Allah Teâlâ'nın Kitabını reddederse, o kâfir olur. Onlar, İmamet makamını ve ümmet içindeki yerini öyle iyi bilirler ki, onu seçmeleri caiz olsun mu?",
+          "fa": "پس هر کس ادعا کند که خداوند، توانا و برتر، دین خود را کامل نکرده است، به کتاب خداوند، توانا و برتر، کفر ورزیده است. و هر کس به کتاب خداوند کفر ورزد، کافر است. آیا آنان از جایگاه امامت و مقام آن در امت آگاهند که انتخاب آنان جایز باشد؟",
+          "id": "Maka barangsiapa yang mengklaim bahwa Allah, Yang Maha Perkasa lagi Maha Tinggi, tidak menyempurnakan agamanya, maka sesungguhnya ia telah menolak Kitab Allah, Yang Maha Perkasa lagi Maha Tinggi. Dan barangsiapa yang menolak Kitab Allah, maka ia adalah orang kafir. Apakah mereka mengetahui kedudukan Imamah dan tempatnya dalam umat sehingga pilihan mereka terhadapnya diperbolehkan?",
+          "bn": "অতএব, যে ব্যক্তি দাবি করে যে, মহান ও উচ্চস্থানীয় আল্লাহ তাঁর ধর্মকে পূর্ণ করেননি, সে নিশ্চিতভাবে মহান ও উচ্চস্থানীয় আল্লাহর কিতাবকে অস্বীকার করেছে। আর যে ব্যক্তি আল্লাহর কিতাবকে অস্বীকার করে, সে কাফির। তারা কি ইমামতের মর্যাদা ও উম্মাহতে এর স্থান জানে, যাতে তাদের এটি নির্বাচন করা জায়েজ হয়?",
+          "es": "Por lo tanto, quien afirma que Dios, el Poderoso y Exaltado, no perfeccionó su religión, ha rechazado el Libro de Dios, el Poderoso y Exaltado. Y quien rechaza el Libro de Dios, es un incrédulo. ¿Conocen el rango del Imamato y su lugar en la ummah para que sea permisible su elección?",
+          "fr": "Quiconque donc affirme que Dieu, le Puissant et l'Exalté, n'a pas perfectionné sa religion, a véritablement rejeté le Livre de Dieu, le Puissant et l'Exalté. Et quiconque rejette le Livre de Dieu, c'est un mécréant. Connaissent-ils le rang de l'Imamat et sa place dans l'oumma, de sorte que leur choix en soit permis ?",
+          "de": "Wer also behauptet, dass Gott, der Mächtige und Erhabene, seine Religion nicht vervollständigt habe, hat tatsächlich das Buch Gottes, des Mächtigen und Erhabenen, verworfen. Und wer das Buch Gottes verwirft, ist ein Ungläubiger. Kennen sie den Rang des Imamats und dessen Stelle in der Umma, sodass ihre Wahl dafür zulässig ist?",
+          "ru": "Поэтому тот, кто утверждает, что Аллах, Всевышний и Великий, не завершил свою религию, действительно отверг Книгу Аллаха, Всевышнего и Великого. А тот, кто отвергает Книгу Аллаха, является неверующим. Знают ли они степень имамата и его место в умме, чтобы их выбор был допустимым?",
+          "zh": "因此，凡声称真主，至尊至贵者，未完善其宗教者，确已否认真主，至尊至贵者的经典。凡否认真主经典者，即为不信道者。他们是否知晓伊玛目品级及其在乌玛中的地位，以至于选择它是被允许的？"
+        },
+        "word_start": 191,
+        "word_end": 222
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ الْإِمَامَةَ أَجَلُّ قَدْرًا وَأَعْظَمُ شَأْنًا وَأَعْلَى مَكَانًا وَأَمْنَعُ جَانِبًا وَأَبْعَدُ غَوْراً مِنْ أَنْ يَبْلُغَهَا النَّاسُ بِعُقُولِهِمْ أَوْ يَنَالُوهَا بِآرَائِهِمْ أَوْ يُقِيمُوا إِمَامًا بِاخْتِيَارِهِمْ",
+        "translations": {
+          "en": "Indeed, Imamate is greater in rank, more magnificent in status, higher in position, more secure in aspect, and deeper in depth than that people should reach it with their intellects or attain it with their opinions or establish an Imam by their own choosing.",
+          "ur": "بے شک امامت درجے میں زیادہ بلند، مرتبے میں زیادہ عظیم، مقام میں زیادہ بلند، پہلو میں زیادہ محفوظ، اور گہرائی میں زیادہ گہری ہے اس سے کہ لوگ اپنے عقلوں سے اس تک پہنچیں یا اپنے آراء سے اسے حاصل کریں یا اپنی پسند سے ایک امام مقرر کریں۔",
+          "tr": "Şüphesiz imamet, insanların akilleriyle ulaşacağı, görüşleriyle elde edeceği veya kendi tercihleriyle bir imam tayin edeceği şeylerden daha yüce bir mertebeye, daha görkemli bir konuma, daha yüksek bir mevkiye, daha güvenli bir görünüme ve daha derin bir öze sahiptir.",
+          "fa": "همانا امامت از نظر رتبه برتر، از حیث مقام باشکوه‌تر، از جهت جایگاه برتر، از جنبه مطمئن‌تر و از عمق ژرف‌تر از آن است که مردم آن را با عقل خود درک کنند یا با آرای خود به آن دست یابند یا امامی را به انتخاب خود برپا سازند.",
+          "id": "Sesungguhnya, Imamah lebih tinggi kedudukannya, lebih agung statusnya, lebih mulia posisinya, lebih kokoh aspeknya, dan lebih dalam maknanya, sehingga manusia tidak dapat mencapainya dengan akal mereka, tidak dapat meraihnya dengan pendapat mereka, dan tidak dapat menetapkan seorang Imam dengan pilihan mereka sendiri.",
+          "bn": "নিশ্চয়ই ইমামত পদে উচ্চতর, মর্যাদায় মহিমামণ্ডিত, অবস্থানে উন্নত, দিক থেকে সুসংহত এবং গভীরতায় অগম্য, যাতে মানুষ তার বুদ্ধি দ্বারা তা অর্জন করতে পারে বা তার মতামত দ্বারা তা লাভ করতে পারে বা নিজের পছন্দে একজন ইমাম প্রতিষ্ঠিত করতে পারে।",
+          "es": "En verdad, el Imamato es de mayor rango, más magnífico en estatus, más elevado en posición, más seguro en apariencia y más profundo en esencia, de modo que las personas no puedan alcanzarlo alcanzar con sus intelectos, ni obtenerlo con sus opiniones, ni establecer un Imam por su propia elección.",
+          "fr": "En vérité, l'Imamat est plus élevé en rang, plus magnifique en statut, plus élevé en position, plus sûr en apparence, et plus profond en essence que ce que les gens peuvent atteindre par leur intellect ou obtenir par leurs opinions, ou désigner un Imam de leur propre choix.",
+          "de": "Wahrlich, das Imamate ist an ist an Rang höher, an Pracht größer, an Stellung erhabener, an Sicherheit beständiger und an Tiefe tiefer, als dass die Menschen es mit ihren Verstandeskräften erreichen oder mit ihren Meinungen erlangen oder einen Imam nach ihrer eigenen Wahl einsetzen würden.",
+          "ru": "Воистину, Имаматы превосходит по рангу, величественнее по статусу, выше по положению, надежнее по проявлению и глубже по сути, чем то, чтобы люди достигли его своим разумом или обрели его посредством своих мнений, или избрали имама по собственному усмотрению.",
+          "zh": "的确，伊玛目（Imamate）在品级上更高，在地位上更尊贵在位置上更崇高在方面更稳固在深度上更深邃，以至于人们不能仅凭理智达到它，不能仅凭意见获得它，也不能凭自己的选择确立一位伊玛目。"
+        },
+        "word_start": 222,
+        "word_end": 246
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ الْإِمَامَةَ خَصَّ اللَّهُ عَزَّ وَجَلَّ بِهَا إِبْرَاهِيمَ الْخَلِيلَ عَلَيْهِ السَّلَامُ بَعْدَ النُُّبُوَّةِ وَالْخُلَّةِ مَرْتَبَةً ثَالِثَةً وَفَضِيلَةً شَرَّفَهُ بِهَا وَأَشَادَ بِهَا ذِكْرَهُ فَقَالَ عَزَّ وَجَلَّ: (إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا). فَقَالَ الْخَلِيلُ عَلَيْهِ السَّلَامُ سُرُوراً بِهَا (وَمِنْ ذُرِّيَّتِي). قَالَ اللَّهُ عَزَّ وَجَلَّ: (لَا يَنَالُ عَهْدِي الظَّالِمِينَ)",
+        "translations": {
+          "en": "Indeed, God, the Mighty and Exalted, singled out Ibrahim al-Khalil (peace be upon him) with it after Prophethood and Divine Friendship, as a third rank and virtue. He honored him with it and made his mention firm, saying: 'I will make you an Imam to the people.' The Khalil (peace be upon him) said joyfully: 'And from my offspring?' God, the Mighty and Exalted, said: 'My promise does not reach the wrongdoers.'",
+          "ur": "بے شک اللہ تعالیٰ نے نبوت اور الٰہی دوستی کے بعد ابراہیم الخلیل (علیہ السلام) کو اس کے ساتھ ایک تیسری مرتبہ اور فضیلت کے طور پر خاص کیا۔ انہیں اس سے عزت دی اور ان کا ذکر مضبوط فرمایا، فرمایا: ''میں تمہیں لوگوں کے لیے امام بناؤں گا۔'' الخلیل (علیہ السلام) نے خوشی سے کہا: ''اور میری اولاد سے؟'' اللہ تعالیٰ نے فرمایا: ''میرا وعدہ ظالموں کو نہیں پہنچتا۔''",
+          "tr": "Şüphesiz Allah, Azîz ve Celî, peygamberlik ve ilâhî dostluktan sonra İbrâhîm el-Halîl'i (aleyhisselâm) bununla üçüncü bir rütbe ve fazîlet olarak seçti. Onu bununla onurlandırdı ve zikrini sağlamlaştırdı, şöyle buyurdu: 'Ben seni insanlara imâm yapacağım.' Halîl (aleyhisselâm) sevinçle dedi: 'Benim neslimden de olacak mı?' Allah, Azîz ve Celî, buyurdu ki: 'Vâdîm zalimlere ulaşmaz.'",
+          "fa": "همانا خداوند، توانا و برتر، پس از نبوت و دوستی الهی، ابراهیم الخلیل (علیه السلام) را به این مرتبه و فضیلت، به عنوان رتبه‌ای سوم، برگزید. او را به آن گرامی داشت و یاد او را استوار گردانید، و فرمود: «تو را امام مردم قرار می‌دهم.» الخلیل (علیه السلام) با شادی گفت: «و از فرزندان من؟» خداوند، توانا و برتر، فرمود: « وعده من ستمکاران را دربرنمی‌گیرد.",
+          "id": "Sesungguhnya Allah, Yang Maha Perkasa lagi Maha Mulia, telah memilih Ibrahim al-Khalil (alamahihussalam) dengan kedudukan ini setelah kenabian dan persahabatan ilahi, sebagai tingkatan dan keutamaan yang ketiga. Allah memuliakannya dengan kedudukan ini dan menjadikan sebutan namanya teguh, berfirman: 'Sesungguhnya Aku akan menjadikanmu imam bagi manusia.' Al-Khalil (alamahihussalam) berkata dengan gembira: 'Dan dari keturunanku?' Allah, Yang Maha Perkasa lagi Maha Mulia, berfirman: 'Janji-Ku tidak meliputi orang-orang yang zalim.'",
+          "bn": "নিশ্চয়ই আল্লাহ, মহান ও উচ্চস্থানীয়, নবুওয়াত ও ঐশ্বরিক বন্ধুত্বের পরে ইব্রাহীম আল-খালীল (আ.)-কে এতে একটি তৃতীয় মর্যাদা ও গুণবত্তার জন্য বিশেষভাবে নির্বাচন করেছিলেন। তিনি তাঁকে এতে সম্মানিত করেছিলেন এবং তাঁর উল্লেখকে দৃঢ় করেছিলেন, বলেছিলেন: 'আমি তোমাকে মানুষের ইমাম বানাবো।' খালীল (আ.) আনন্দে বললেন: 'আমার সন্তানদের থেকেও?' আল্লাহ, মহান ও উচ্চস্থানীয়, বললেন: 'আমার প্রতিশ্রুতি মুসলিমদেরকে স্পর্শ করে না।'",
+          "es": "En verdad, Alá, el Poderoso y Exaltado, distinguió a Ibrahim al-Khalil (que la paz sea con él) con ello después del Profetado y la Amistad Divina, como un tercer rango y virtud. Lo honró con ello y afirmó su mención, diciendo: 'Te haré un Imam para la gente'. El Khalil (que la paz sea con él) dijo gozoso: '¿Y de mi descendencia?'. Alá, el Poderoso y Exaltado, dijo: 'Mi promesa no alcanza a los injustos.'",
+          "fr": "En vérité, Dieu, le Puissant et l’Exalté, a distingué Ibrahim al-Khalil (que la paix soit sur lui) par cela, après le Prophétat et l’Amitié divine, comme un troisième rang et une vertu. Il l’a honoré par cela et a rendu sa mention ferme, disant : « Je ferai de toi un Imam pour les gens. » Al-Khalil (que la paix soit sur lui) a dit avec joie : « Et de ma descendance ? » Dieu, le Puissant et l’Exalté, a dit : « Ma promesse ne s’étend pas aux injustes. »",
+          "de": "Wahrlich Allah, der Mächtige und Erhabene, hat Ibrahim al-Khalil (Friede sei mit ihm) nach der Prophetenschaft und der göttlichen Freundschaft damit als dritte Stufe und Tugend ausgezeichnet. Er ehrte ihn damit und machte seine Erwähnung beständig, indem Er sprach: „Ich werde dich zu einem Imam für die Menschen machen.“ Da sagte al-Khalil (Friede sei mit ihm) freudig: „Und von meinen Nachkommen?“ Allah, der Mächtige und Erhabene, sprach: „Mein Versprechen erreicht nicht die Ungerechten.",
+          "ru": "Воистину, Аллах, Всевышний и Великий, выделил Ибрахима аль-Халиля (мир ему) этим после пророчества и божественной дружбы как третью степень и добродетель. Он почестил его этим и утвердил его упоминание, сказав: «Я сделаю тебя имамом для людей». Аль-Халиль (мир ему) радостно спросил: «А от моего потомства?» Аллах, Всевышний и Великий, ответил: « Моё обещание не достигает несправедливых.",
+          "zh": "真主，至尊至荣的，在先知职和神圣友谊之后，将易卜拉欣·哈利勒（愿主福安之）单独赋予这一地位，作为第三等品级和美德。他以这一地位尊荣他，并使他的提及坚定，说：‘我必立你为人们伊玛目。’哈利勒（愿主福安之）喜悦地说：‘那我的后裔呢？’真主，至尊至荣的，说：‘我的应许不达到不义者。’"
+        },
+        "word_start": 246,
+        "word_end": 291
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَبْطَلَتْ هَذِهِ الْآيَةُ إِمَامَةَ كُلِّ ظَالِمٍ إِلَى يَوْمِ الْقِيَامَةِ وَصَارَتْ فِي الصَّفْوَةِ. ثُمَّ أَكْرَمَهُ اللَّهُ بِأَنْ جَعَلَهَا فِي ذُرِّيَّتِهِ أَهْلَ الصَّفْوَةِ وَالطَّهَارَةِ فَقَالَ عَزَّ وَجَلَّ: (وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ نَافِلَةً وَكُلًّا جَعَلْنَا صَالِحِينَ وَجَعَلْنَاهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَا إِلَيْهِمْ فِعْلَ الْخَيْرَاتِ وَإِقَامَ الصَّلَاةِ وَإِيتَاءَ الزَّكَاةِ وَكَانُوا لَنَا عَابِدِينَ)",
+        "translations": {
+          "en": "Thus this verse abolished the Imamate of every wrongdoer until the Day of Resurrection, and it remained with the chosen ones. Then God honored him by making it in his offspring, the people of purity and cleanliness, saying: 'And We bestowed upon him Isaac and Jacob as an additional gift, and each of them We made righteous. And We made them leaders guiding by Our command, and We inspired to them the doing of good deeds, the establishing of prayer, and the giving of zakat; and they were worshippers of Us.'\"",
+          "ur": "اس طرح یہ آیت قیامت تک ہر ظالم کی امامت کو منسوخ کر دیتی ہے، اور یہ اہل انتخاب کے ساتھ ہی رہتی ہے۔ پھر اللہ تعالیٰ نے اسے ان کی اولاد، یعنی اہل طہارت و پاکیزگی میں قائم کر کے ان کی عزت فرمائی، اور فرمایا: 'اور ہم نے اسے اسحاق اور یعقوب عطا کیے، اور ہم نے ان سب کو نیک بنایا۔ اور ہم نے انہیں ہدایت دینے والے سردار بنایا، جو ہمارے حکم سے رہنمائی کرتے تھے، اور ہم نے ان کے دل میں نیکی کرنے، نماز قائم کرنے، اور زکوٰۃ ادا کرنے کی الہام کی، اور وہ ہمارے عابد تھے۔'",
+          "tr": "Böylece bu ayet, kıyamete kadar her zalimin imametini kaldırmış ve bu imamet seçilenlerde kalmıştır. Sonra Allah onu, paklık ve temizlik ehli olan nesline bağlayarak onurlandırmış ve şöyle buyurmuştur: 'Ona İshak'ı ve Yakup'u lütuf olarak vermiş, her birini salih kılmışız. Onları, emrimizle yol gösteren önderler yapmışız; onlara hayır işlerini yapmayı, namazı dosdoğru kılmayı ve zekâtı vermeyi ilham etmişiz; onlar da bizim kullarımız olmuşlardır.'",
+          "fa": "پس این آیه امامت هر ظالمی را تا روز قیامت نسخ کرد و با برگزیدگان باقی ماند. سپس خداوند او را گرامی داشت و آن را در نسلش، یعنی اهل طهارت و پاکی، قرار داد و فرمود: «و به او اسحاق و یعقوب را به عنوان هدیه‌ای اضافی عطا کردیم و هر یک از آنان را راست‌گمان ساختیم. و آنان را پیشوایانی قرار دادیم که به فرمان ما هدایت می‌کنند، و به آنان انجام نیکی‌ها، برپایی نماز و پرداخت زکات را الهام کردیم؛ و آنان بندگان ما بودند.»",
+          "id": "Maka ayat ini menghapuskan Imamah setiap orang yang zalim hingga Hari Kiamat, dan ia tetap berada pada orang-orang yang terpilih. Kemudian Allah memuliakannya dengan menjadikannya pada keturunan beliau, yaitu Ahlul Bait yang suci dan bersih, seraya berfirman: 'Dan Kami anugerahkan kepadanya Ishaq dan Ya'qub sebagai tambahan karunia, dan masing-masing Kami jadikan orang yang saleh. Dan Kami jadikan mereka sebagai pemimpin yang memberi petunjuk dengan perintah Kami, dan Kami ilhamkan kepada mereka untuk melakukan amal saleh, mendirikan salat, dan membayar zakat; dan mereka adalah hamba-hamba Kami yang menyembah Kami.'",
+          "bn": "সুতরাং এই আয়াত প্রতিটি ফাসিকের ইমামতকে কিয়ামতের দিন পর্যন্ত বাতিল করে দিল, এবং এটি নির্বাচিতদের নিকট বর্তমান রইল। অতঃপর আল্লাহ তা'আলা তাকে সম্মানিত করলেন, এটিকে তার বংশধরদের, পবিত্রতা ও পরিচ্ছন্নতার লোকদের নিকট স্থাপন করে, এবং তিনি বললেন: 'আমি তার জন্য ইসহাক ও ইয়াকুবকে অতিরিক্ত উপহার হিসেবে দান করলাম, এবং আমি তাদের প্রত্যেককে সৎপথপ্রাপ্ত করলাম। এবং আমি তাদেরকে নেতা বানাইলাম, যারা আমার আদেশে পথপ্রদর্শন করবে, এবং আমি তাদেরকে ভালো কাজ করার, নামাজ প্রতিষ্ঠা করার এবং যাকাত প্রদান করার অনুপ্রাণিত করলাম; এবং তারা ছিলেন আমার উপাসক।'",
+          "es": "Así, este versículo abolió el imamate de todo injusto hasta el Día de la Resurrección, y permaneció con los elegidos. Luego, Dios lo honró al establecerlo en su descendencia, la gente de la pureza y la limpieza, diciendo: 'Y le concedimos a Isaac y a Jacob como un don adicional, y a cada uno de ellos lo hicimos justo. Y los hicimos líderes que guían por Nuestro mandato, e inspiramos en ellos la realización de buenas obras, el establecimiento de la salat y el pago del zakat; y eran adoradores Nuestros.'",
+          "fr": "Ainsi, ce verset a aboli l'Imamat de tout injuste jusqu'au Jour de la Résurrection, et il est resté avec les élus. Puis Dieu l'a honoré en le plaçant dans sa descendance, les gens de la pureté et de la propreté, disant : « Et Nous lui avons donné Isaac et Jacob en surcroît, et chacun d'eux Nous avons rendu juste. Et Nous en avons fait des guides, par Notre commandement, et Nous leur avons inspiré la pratique des bonnes œuvres, l'établissement de la salat et le versement de la zakat ; et ils étaient Nos adorateurs. »",
+          "de": "So hob dieser Vers das Imamate jedes Unrechts tunenden bis zum Tag der Auferstehung auf, und es verblieb bei den Auserwählten. Dann ehrte Gott ihn, indem Er es in seiner Nachkommenschaft, den Leuten der Reinheit und Sauberkeit, verankerte, und sprach: »Und Wir schenkten ihm Isaak und Jakob als zusätzliche Gabe, und jeden von ihnen machten Wir gerecht. Und Wir machten sie zu Führern, die nach Unserem Befehl leiteten, und Wir inspirierten ihnen das Tun guter Taten, die Vollziehung des Gebets (salat) und die Abgabe der Almosensteuer (zakat); und sie waren Unsere Anbeter.«",
+          "ru": "Таким образом, этот аят отменил имамат каждого несправедливого до Дня Воскресения, и он остался за избранными. Затем Бог удостоил его, сделав это в его потомстве — людях чистоты и омовения, — сказав: «И Мы даровали ему Исаака и Якуба в качестве дополнительного дара, и каждого из них Мы сделали праведным. И Мы сделали их лидерами, ведущими по Нашему повелению, и внушили им совершение благих дел, установление молитвы (салат) и выплату закята; и они были поклонниками Нам».",
+          "zh": "因此，这节经文废黜了所有不义之人的伊玛目职位，直至复生日，而伊玛目则归于被拣选者。随后，真主使其在纯洁与洁净之人的后裔中延续，即说：‘我赐给他以撒和雅各，作为额外的恩赐，并使他们都成为义人。我使他们成为以我的命令引导他人的领袖，并启示他们行善、谨守拜功、缴纳天课；他们是我的虔敬者。’"
+        },
+        "word_start": 291,
+        "word_end": 339
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمْ تَزَلْ فِي ذُرِّيَّتِهِ يَرِثُهَا بَعْضٌ عَنْ بَعْضٍ قَرْنًا فَقَرْنًا حَتَّى وَرِثَهَا النَّبِيُّ فَقَالَ اللَّهُ جَلَّ جَلَالُهُ: (إِنَّ أَوْلَى النَّاسِ بِإِبْرَاهِيمَ لَلَّذِينَ اتَّبَعُوهُ وَهَذَا النَّبِيُّ وَالَّذِينَ آمَنُوا وَاللَّهُ وَلِيُّ الْمُؤْمِنِينَ). فَكَانَتْ لَهُ خَاصَّةً فَقَلَّدَهَا صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ عَلِيًّا عَلَيْهِ السَّلَامُ بِأَمْرِ اللَّهِ عَزَّ وَجَلَّ عَلَى رَسْمِ مَا فَرَضَهَا اللَّهُ فَصَارَتْ فِي ذُرِّيَّتِهِ الْأَصْفِيَاءِ الَّذِينَ آتَاهُمُ اللَّهُ الْعِلْمَ وَالْإِيمَانَ بِقَوْلِهِ عَزَّ وَجَلَّ: (وَقَالَ الَّذِينَ أُوتُوا الْعِلْمَ وَالْإِيمَانَ لَقَدْ لَبِثْتُمْ فِي كِتَابِ اللَّهِ إِلَى يَوْمِ الْبَعْثِ)",
+        "translations": {
+          "en": "So it remained in his offspring, with some inheriting it from another, generation after generation, until the Prophet inherited it. God, Glorified is His Majesty, said: 'Indeed, the most worthy of Ibrahim are those who followed him and this Prophet and those who believe; and God is the ally of the believers.' So it was specific to him. He (peace be upon him and his family) entrusted it to Ali (peace be upon him) by the command of God, the Mighty and Exalted, according to the pattern God had ordained for it, so it became in his pure offspring, whom God had given knowledge and faith, as He said: 'And those who were given knowledge and faith will say, \"You have remained in the Book of God until the Day of Resurrection.\"'",
+          "ur": "پس یہ اس کی اولاد میں باقی رہا، کچھ نے ایک دوسرے سے یہ وراثت میں لیا، نسل در نسل، یہاں تک کہ نبی نے اسے وراثت میں پایا۔ اللہ تعالیٰ نے فرمایا: 'بے شک ابراہیم کے سب سے زیادہ لائق وہ ہیں جنہوں نے اس کی پیروی کی اور اس نبی اور وہ لوگ جو ایمان لائے؛ اور اللہ مومنوں کا دوست ہے۔' پس یہ خاص طور پر اس کے لیے تھا۔ اس نے (صلی اللہ علیہ وآلہ وسلم) اللہ کی طرف سے حکم کے مطابق، اس نمونے کے مطابق جسے اللہ نے اس کے لیے مقرر کیا تھا، علی (علیہ السلام) کو اسے سونپ دیا، پس یہ اس کی پاکیزہ اولاد میں ہو گیا، جنہیں اللہ نے علم اور ایمان عطا کیا تھا، جیسا کہ اس نے فرمایا: 'اور جنہیں علم اور ایمان دیا گیا تھا، وہ کہیں گے: \"تم اللہ کی کتاب میں قیامت کے دن تک رہے۔\"'",
+          "tr": "Böylece bu özellik nesilden nesile, birisi diğerinden miras alarak devam etti, nihayet Peygamber'e miras kaldı. Allah, Azze ve Celle buyurdu: \"Şüphes ki İbrahim'e en layık olanlar, kendisinden sonra gelen bu Peygamber ve O'na iman edenlerdir; Allah, müminlerin dostudur.\" İşte bu özellik kendisine mahsus kılındı. O (aleyhisselam ve ehli beyti), Allah'ın emriyle, Allah'ın ona tayin ettiği surette, Ali'ye (aleyhisselam) bu özelliği emanet etti. Böylece bu özellik, Allah'ın kendilerine ilim ve iman bahşettiği onun saf neslinde yerini buldu. Allah'ın buyurduğu gibi: \"İlim ve iman sahipleri, 'Siz Allah'ın Kitabında kıyamete kadar kaldınız,' derler.\" ",
+          "fa": "پس این ویژگی در نسل او باقی ماند و برخی از آن از دیگری به ارث می‌بردند، نسل پس از نسل، تا اینکه تا به پیامبر رسید. خداوند، جلّت عظمته، فرمود: «به راستی که شایسته‌ترین مردم به ابراهیم، پیروان او و این پیامبر و کسانی هستند که ایمان آورده‌اند؛ و خداوند دوستدار مؤمنان است.» پس این ویژگی مخصوص او گردید. او (صلی الله علیه و آله) آن را به علی (علیه السلام) به فرمان خداوند، عزّ و جلّ، بر اساس الگویی که خداوند برای آن مقرر فرموده بود، سپرد، پس در نسل پاک او که خداوند به آنان دانش و ایمان داده بود، قرار گرفت، چنان‌که فرمود: «و کسانی که به آنان دانش و ایمان داده شده است، می‌گویند: «شما تا روز قیامت در کتاب خداوند ماندید.»",
+          "bn": "অতএব, তা তাঁর বংশধরদের মধ্যে অবস্থান করতে লাগল, একজন অন্যজন থেকে উত্তরাধিকার সূত্রে তা গ্রহণ করল, প্রজন্মের পর প্রজন্ম ধরে, যতক্ষণ না নবী (সা.) তা উত্তরাধিকার সূত্রে লাভ করলেন। আল্লাহ তাআলা বললেন: 'নিশ্চয়ই ইব্রাহীমের অধিকারী সেই সব লোক, যারা তাঁকে অনুসরণ করেছে এবং এই নবী এবং যারা ঈমান এনেছে; আর আল্লাহ মুমিনদের বন্ধু।' তাই তা তাঁর জন্য বিশেষভাবে নির্দিষ্ট হয়েছিল। তিনি (সা.) আল্লাহর আদেশে, জাবার ও আযীয (মহান ও উচ্চস্থানীয়) তাঁর কাছে এটি আলী (রা.)-কে সোপর্দ করলেন, যে পদ্ধতিতে আল্লাহ তাআলা তা নির্ধারণ করেছিলেন, তাই তা তাঁর বিশুদ্ধ বংশধরদের মধ্যে হয়ে গেল, যাদেরকে আল্লাহ তাআলা জ্ঞান ও ঈমান দিয়েছিলেন, যেমন তিনি বলেছেন: 'এবং যাদেরকে জ্ঞান ও ঈান দেওয়া হয়েছে, তারা বলবে, ",
+          "es": "Por lo tanto, permaneció en su descendencia, con algunos heredándola de otro, generación tras generación, hasta que el Profeta la heredó. Dios, Glorificado sea Su Majestad, dijo: «Ciertamente, los más dignos de Ibrahim son aquellos que lo siguieron y a este Profeta y los que creen; y Dios es el aliado de los creyentes». Por lo tanto, fue específico para él. Él (que la paz sea con él y con su familia) la encomendó a Ali (que la paz sea con él) por el mandato de Dios, el Poderoso y Exaltado, según el patrón que Dios había ordenado para ella, por lo que se convirtió en su pura descendencia, a quienes Dios había concedido conocimiento y fe, como Él dijo: «Y aquellos a quienes se les dio conocimiento y fe dirán: «Habéis permanecido en el Libro de Dios hasta el Día de la Resurrección».",
+          "fr": "Ainsi, cela est resté dans sa descendance, certains l'héritant d'autres, génération après génération, jusqu'à ce que le Prophète l'hérite. Dieu, Gloire à Sa Majesté, a dit : « En vérité, les plus dignes d'Ibrahim sont ceux qui l'ont suivi, ainsi que ce Prophète, et ceux qui croient ; et Dieu est l'allié des croyants. » Ainsi, cela lui a été spécifique. Lui (que la paix soit sur lui et sur sa famille) l'a confié à Ali (que la paix soit sur lui) par le commandement de Dieu, le Puissant et l'Exalté, selon le modèle que Dieu avait ordonné pour cela, de sorte qu'il est devenu dans sa descendance pure, à qui Dieu a donné la connaissance et la foi, comme Il a dit : « Et ceux à qui la connaissance et la foi ont été données diront : « Vous êtes restés dans le Livre de Dieu jusqu'au Jour de la Résurrection. »",
+          "de": "So verblieb es in seinem Nachkommen, wobei einige es von anderen erbten, Generation um Generation, bis der Prophet es erbte. Gott, Erhaben ist Seine Majestät, sprach: „Wahrlich, die würdigsten von Ibrahim sind diejenigen, die ihm folgten und dieser Prophet und diejenigen, die glauben; und Gott ist der Beschützer der Gläubigen.“ So wurde es ihm spezifisch zuteil. Er (Friede sei mit ihm und seiner Familie) übertrug es Ali (Friede sei mit ihm) auf Befehl Gottes, des Mächtigen und Erhabenen, gemäß dem Muster, das Gott dafür vorgesehen hatte, so dass es in seinem reinen Nachkommen wurde, denen Gott Wissen und Glauben gegeben hatte, wie Er sagte: „Und diejenigen, denen Wissen und Glauben gegeben wurden, werden sagen: ‚Ihr seid im Buch Gottes bis zum Tag der Auferstehung geblieben.‘“",
+          "ru": "Так оно осталось в его потомстве, некоторые наследовали его от других, поколение за поколением, пока пророк не унаследовал его. Аллах, Велик Он в Своем Величии, сказал: «Воистину, наиболее достойны Ибрахима те, кто последовал за ним и этим пророком, и те, кто уверовал; и Аллах — покровитель верующих». Так оно стало специфичным для него. Он (мир ему и его семье) передал его Али (мир ему) по повелению Аллаха, Могущественного и Возвышенного, согласно узору, который Аллах установил для него, так что оно оказалось в его чистом потомстве, которому Аллах даровал знание и веру, как Он сказал: «И те, кому было даровано знание и вера, скажут: ",
+          "zh": "因此，它留存在他的后裔中，有的从另一人那里继承，代代相传，直到先知继承了它。真主（其尊大）说：「最配从易卜拉欣的，是跟随他和这位先知，以及信道的人；真主是信士的盟友。」所以，它专属于他。他（愿主福安之及其家属）奉真主——万能的、崇高的——的命令，按照真主为它所规定的模式，将它托付给了阿里（愿主福安之），于是它便存在于真主赐予知识和信仰的纯洁后裔之中，正如真主所说：「那些被赐予知识和信仰的人说：『你们在真主的经典中直到复活日。』」",
+          "id": ""
+        },
+        "word_start": 339,
+        "word_end": 414
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَهِيَ فِي وُلْدِ عَلِيٍّ عَلَيْهِ السَّلَامُ خَاصَّةً إِلَى يَوْمِ الْقِيَامَةِ إِذْ لَا نَبِيَّ بَعْدَ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. فَمِنْ أَيْنَ يَخْتَارُ هَؤُلَاءِ الْجُهَّالُ؟",
+        "translations": {
+          "en": "So it is specifically in the offspring of Ali (peace be upon him) until the Day of Resurrection, since there is no Prophet after Muhammad (peace be upon him and his family). So from where do these ignorant ones choose?",
+          "ur": "لہذا یہ خاص طور پر علی (رضی اللہ عنہ) کی اولاد میں ہے قیامت کے دن تک، کیونکہ محمد (صلی اللہ علیہ و آلہ وسلم) کے بعد کوئی نبی نہیں ہے۔ تو یہ نادان لوگ کہاں سے انتخاب کرتے ہیں؟",
+          "tr": "İşte bu yüzden Kıyamet Günü'ne kadar Ali'nin (ra) neslindendir, çünkü Muhammed'den (aleyhi ve âlihi's-selâm) sonra bir Peygamber yoktur. Bu cahiller nereden seçim yapıyorlar?",
+          "fa": "پس به طور خاص در فرزندان علی (علیه‌السلام) تا روز قیامت است، زیرا پس از محمد (صلی‌الله‌علیه‌وآله‌وسلم) پیامبری نیست. پس این نادانان از کجا انتخاب می‌کنند؟",
+          "id": "Maka ia secara khusus berada pada keturunan Ali (alamah) hingga Hari Kiamat, karena tidak ada Nabi setelah Muhammad (alamah dan keluarganya). Maka dari mana orang-orang yang bodoh ini memilih?",
+          "bn": "অতএব, এটি বিশেষভাবে আলীর (র.) সন্তানদের মধ্যেই রয়েছে কিয়ামতের দিন পর্যন্ত, কারণ মুহাম্মদ (সা.)-এর পর আর কোনো নবী নেই। অতএব, এই অজ্ঞ লোকরা কোথা থেকে বেছে নেয়?",
+          "es": "Por lo tanto, es específicamente en la descendencia de Ali (que la paz sea con él) hasta el Día de la Resurrección, ya que no hay profeta después de Muhammad (que la paz sea con él y su familia). ¿De dónde eligen estos ignorantes?",
+          "fr": "C'est donc spécifiquement dans la descendance d'Ali (que la paix soit sur lui) jusqu'au Jour de la Résurrection, puisqu'il n'y a plus de Prophète après Muhammad (que la paix soit sur lui et sur sa famille). D'où donc ces ignorants choisissent-ils ?",
+          "de": "So ist es speziell in der Nachkommenschaft Alis (Friede sei mit ihm) bis zum Tag der Auferstehung, da es nach Muhammad (Friede sei mit ihm und seiner Familie) keinen Propheten mehr gibt. Woher wählen also diese Unwissenden?",
+          "ru": "Таким образом, это относится конкретно к потомкам Али (да будет мир с ним) до Дня Воскресения, поскольку после Мухаммада (да будет мир с ним и его семьей) не будет пророка. Откуда же берут начало эти невежественные люди?",
+          "zh": "因此，它特指阿里（愿主福安之）的后裔，直到复活之日，因为在穆罕默德（愿主福安之及其家属）之后不再有先知。那么这些无知者从何而来选择呢？"
+        },
+        "word_start": 414,
+        "word_end": 438
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ الْإِمَامَةَ هِيَ مَنْزِلَةُ الْأَنْبِيَاءِ وَإِرْثُ الْأَوْصِيَاءِ. إِنَّ الْإِمَامَةَ خِلَافَةُ اللَّهِ عَزَّ وَجَلَّ وَخِلَافَةُ الرَّسُولِ وَمَقَامُ أَمِيرِ الْمُؤْمِنِينَ وَمِيرَاثُ الْحَسَنِ وَالْحُسَيْنِ عَلَيْهِمَا السَّلَامُ.",
+        "translations": {
+          "en": "Indeed, Imamate is the rank of the Prophets and the inheritance of the Trustees. Indeed, Imamate is the vicegerency of God, the Mighty and Exalted, and the vicegerency of the Messenger, and the station of the Commander of the Faithful, and the inheritance of al-Hasan and al-Husayn (peace be upon them).",
+          "ur": "بے شک امامت انبیاء کی مرتبہ اور امانت داروں کی وراثت ہے۔ بے شک امامت خدا کی جانشینی ہے، جلیل القدر اور بلند مرتبہ، اور رسول کی جانشینی ہے، اور امیر المومنین کی مقام ہے، اور حسن اور حسین (علیہما السلام) کی وراثت ہے۔",
+          "tr": "Şüphesiz imamet, peygamberlerin mertebesidir ve emânet sahiplerinin mirasıdır. Şüphesiz imamet, Celîl ve Müteâl olan Allah'ın vekâletidir, Peygamber'in vekâletidir, Emîrü'l-Mü'minîn'in makamıdır ve Hasan ile Hüseyin'in (aleyhimâ's-selâm) mirasıdır.",
+          "fa": "همانا امامت، مرتبهٔ پیامبران و میراث امانت‌داران است. همانا امامت، جانشینی خداوندِ توانا و برتر و جانشینی پیامبر و مقام فرماندهٔ مؤمنان و میراث حسن و حسین (علیهم‌السلام) است.",
+          "id": "Sesungguhnya, Imamah adalah pangkat para Nabi dan warisan para Ahli Wasiat. Sesungguhnya, Imamah adalah kekhalifahan Allah, Yang Maha Perkasa lagi Maha Tinggi, dan kekhalifahan Rasul, serta kedudukan Amirul Mukminin, dan warisan al-Hasan dan al-Husayn (alamahumussalam).",
+          "bn": "নিশ্চয়ই ইমামত হলো নবীদের মর্যাদা এবং আমানতদারদের উত্তরাধিকার। নিশ্চয়ই ইমামত হলো আল্লাহ তাআলার খিলাফত, রাসূলের খিলাফত, আমিরুল মুমিনীনের মর্যাদা, এবং আল-হাসান ও আল-হুসাইন (আলাইহিমাস সালাম)-এর উত্তরাধিকার।",
+          "es": "En verdad, el Imamato es la categoría de los Profetas y la herencia de los Fieles. En verdad, el Imamato es la vicegerencia de Dios, el Poderoso y Exaltado, y la vicegerencia del Mensajero, y la posición del Comandante de los Creyentes, y la herencia de al-Hasan y al-Husayn (que la paz sea con ellos).",
+          "fr": "En vérité, l'Imamat est le rang dessein des Prophètes et l'héritage des Dépositaires. En vérité, l'Imamat est la vice-gérance de Dieu, le Puissant et l'Exalté, et la vice-gérance du Messager, et le statut du Commandeur des Croyants, et l'héritage d'al-Hasan et d'al-Husayn (que la paix soit sur eux).",
+          "de": "Wahrlich, die Imamat ist der Rang der Propheten und das Erbe der Treuhänder. Wahrlich, die Imamat ist die Stellvertretung Gottes, des Mächtigen und Erhabenen, und die Stellvertretung des Gesandten, und der Rang des Führers der Gläubigen, und das Erbe von al-Hasan und al-Husayn (Friede sei mit ihnen).",
+          "ru": "Воистину, Имама́т — это степень пророков и наследие доверенных лиц. Воистину, Имама́т — это наместничество Всевышнего и Великого Аллаха, наместничество Посланника, и положение Повелителя верующих, и наследие аль-Хасана и аль-Хусейна (мир им обоим).",
+          "zh": "的确，伊玛目是先知们的品级，是信托者的遗产。的确，伊玛目是真主，至尊至贵者的代治，是使者的代治，是信士们的长官的职位，是哈桑和侯赛因（愿主福安之）的遗产。"
+        },
+        "word_start": 438,
+        "word_end": 461
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ الْإِمَامَةَ زِمَامُ الدِّينِ وَنِظَامُ الْمُسْلِمِينَ وَصَلَاحُ الدُّنْيَا وَعِزُّ الْمُؤْمِنِينَ. إِنَّ الْإِمَامَةَ أُسُّ الْإِسْلَامِ النَّامِي وَفَرْعُهُ السَّامِي. بِالْإِمَامِ تَمَامُ الصَّلَاةِ وَالزَّكَاةِ وَالصِّيَامِ وَالْحَجِّ وَالْجِهَادِ وَتَوْفِيرُ الْفَيْءِ وَالصَّدَقَاتِ وَإِمْضَاءُ الْحُدُودِ وَالْأَحْكَامِ وَمَنْعُ الثُّغُورِ وَالْأَطْرَافِ.",
+        "translations": {
+          "en": "Indeed, Imamate is the rein of religion and the order of the Muslims, the rectification of the world and the honor of the believers. Indeed, Imamate is the growing foundation of Islam and its lofty branch. By the Imam is completed the salat, zakat, sawm, hajj, and jihad, the provision of the fay', the charities, the execution of the limits and rulings, and the guarding of the frontiers and borders.",
+          "ur": "بے شک امامت دین کا زمام اور مسلمانوں کا نظام ہے، دنیا کی اصلاح اور مومنین کی عزت ہے۔ بے شک امامت اسلام کی مضبوط بنیاد اور اس کی بلند شاخ ہے۔ امام کے ذریعے نماز، زکوٰۃ، روزہ، حج اور جہاد کی تکمیل ہوتی ہے، فئ کی تقسیم، صدقات، حدود اور احکامات کا نفاذ، اور سرحدوں و حدود کی حفاظت ہوتی ہے۔",
+          "tr": "Şüphesiz imamet, dinin reinidir ve Müslümanların düzenidir, dünyanın ıslahı ve müminlerin şerefidir. Şüphesiz imamet, İslam'ın gelişen temeli ve yüce dalıdır. İmam sayesinde salat, zekât, sıyâm, hac ve cihad tamamlanır; fay'ın temini, sadakalar, hudutların ve hükümlerin icrası, sınırların ve hudutların korunması sağlanır.",
+          "fa": "همانا امامت زمام دین و نظم مسلمانان، اصلاح جهان و کرامت مؤمنان است. همانا امامت بنیاد راسخ اسلام و شاخه‌های بلند اسلام است. به دست امام، نماز، زکات، روزه، حج و جهاد کامل می‌شود، و انفاق‌ها، اجرای حدود و احکام، و نگهبانی از مرزها و سرحدات تأمین می‌گردد.",
+          "id": "Sesungguhnya, Imamah adalah kendali agama dan tatanan kaum Muslimin, perbaikan dunia dan kemuliaan orang-orang beriman. Sesungguhnya, Imamah adalah fondasi Islam yang kokoh dan cabangnya yang tinggi. Dengan Imam, salat, zakat, puasa, haji, dan jihad disempurnakan, pembagian harta fay', sedekah, pelaksanaan batas-batas dan hukum-hukum, serta penjagaan perbatasan dan wilayah.",
+          "bn": "নিশ্চয়ই ইমামত হলো ধর্মের পতাকা এবং মুসলমানদের শৃঙ্খলা, পৃথিবীর সংস্কার এবং মুমিনদের সম্মান। নিশ্চয়ই ইমামত হলো ইসলামের বিস্তারশীল ভিত্তি এবং এর উচ্চশীর্ষ শাখা। ইমামের মাধ্যমে নামাজ, যাকাত, সিয়াম, হজ্জ ও জিহাদ সম্পন্ন হয়, ফয়' এর বণ্টন, সদকা, হদ ও ফরমানের কার্যকরীকরণ, এবং সীমানা ও সীমারেখা রক্ষা নিশ্চিত হয়।",
+          "es": "En verdad, el Imamat es la rienda de la religión y el orden de los musulmanes, la rectificación del mundo y el honor de los creyentes. En verdad, el Imamat es la base sólida del Islam y su rama elevada. Por medio del Imam se completan la salat, la zakat, el sawm, el hajj y el yihad, la distribución del fay', las caridades, la ejecución de los límites y las sentencias, y la guarda de las fronteras y los límites.",
+          "fr": "En vérité, l'Imamat est le frein de la religion et l'ordre des musulmans, la rectification du monde et l'honneur des croyants. En vérité, l'Imamat est la fondation croissante de l'islam et sa branche élevée. Par l'Imam, la salat, la zakat, le sawm, le hajj et le jihad sont accomplis, la distribution du fay', les aumônes, l'exécution des limites et des rulings, et la garde des frontières et des limites.",
+          "de": "Wahrlich, das Imamat ist das Zügel der Religion und die Ordnung der Muslime, die Korrektur der Welt und die Ehre der Gläubigen. Wahrlich, das Imamat ist die wachsende Grundlage des Islam und sein erhabener Zweig. Durch den Imam werden die Salat, Zakat, Sawm, Hajj und Jihad vervollständigt, die Verteilung des Fay', die Almosen, die Vollstreckung der Strafen und Rechtsentscheidungen sowie die Bewachung der Grenzen und Grenzgebiete.",
+          "ru": "Воистину, имамат — это узда религии и порядок мусульман, исправление мира и честь верующих. Воистину, имамат — это укоренившийся фундамент ислама и его возвышенная ветвь. С помощью имама совершаются намаз, закят, пост, хадж и джихад, распределяется фай’, раздаются закят и милостыня, осуществляются хадды и решения, а также охраняются рубежи и границы.",
+          "zh": "的确，伊玛目是宗教的缰绳和穆斯林的秩序，是世界的矫正世界和使信徒荣耀的所在。的确，伊玛目是伊斯兰教的稳固根基和崇高枝干。通过伊玛目，礼拜、天课、斋戒、朝觐和吉哈德得以完善，法伊（fay'）的分配、施舍、刑罚与裁决的执行，以及边疆与边界的守护得以实现。"
+        },
+        "word_start": 461,
+        "word_end": 494
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَالْإِمَامُ يُحَلِّلُ حَلَالَ اللَّهِ وَيُحَرِّمُ حَرَامَ اللَّهِ وَيُقِيمُ حُدُودَ اللَّهِ وَيَذُبُّ عَنْ دِينِ اللَّهِ وَيَدْعُو إِلَى سَبِيلِ رَبِّهِ بِالْحِكْمَةِ وَالْمَوْعِظَةِ الْحَسَنَةِ وَالْحُجَّةِ الْبَالِغَةِ.",
+        "translations": {
+          "en": "The Imam legalizes the halal of God and prohibits the haram of God, establishes the limits of God, defends the religion of God, and calls to the path of his Lord with wisdom, good preaching, and the conclusive argument.",
+          "ur": "امام اللہ کے حلال کو حلال قرار دیتا ہے اور اللہ کے حرام کو حرام، اللہ کی حدود قائم کرتا ہے، اللہ کی دین کی حفاظت کرتا ہے، اور حکمت، نیک وعظ اور واضح دلیل کے ساتھ اپنے رب کی طرف بلاتا ہے۔",
+          "tr": "İmam, Allah'ın helalini helal, haramını haram kılar, Allah'ın hudutlarını tesis eder, Allah'ın dinini müdafaa eder ve hikmetle, güzel öğüt ve açık delille Rabbine davet eder.",
+          "fa": "امام حلال خدا را حلال می‌کند و حرام خدا را حرام می‌دارد، حدود خدا را برقرار می‌سازد، دین خدا را پاس می‌دارد، و با حکمت، موعظه نیکو و برهان قاطع، به راه پروردگارش دعوت می‌کند.",
+          "id": "Imam menghalalkan apa yang halal dari Allah dan mengharamkan apa yang haram dari Allah, menetapkan batas-batas Allah, mempertahankan agama Allah, dan menyeru kepada jalan Tuhannya dengan hikmah, khotbah yang baik, dan hujjah yang meyakinkan.",
+          "bn": "ইমাম আল্লাহর হালালকে বৈধ ঘোষণা করেন, আল্লাহর হারামকে নিষিদ্ধ করেন, আল্লাহর সীমারেখা স্থাপন করেন, আল্লাহর ধর্মের রক্ষক হন এবং হিকমত, সুন্দর উপদেশ ও স্পষ্ট যুক্তির মাধ্যমে নিজের রবের পথে ডাকেন।",
+          "es": "El Imam legaliza",
+          "fr": "L'Imam légalise le halal de Dieu et interdit le haram de Dieu, établit les limites de Dieu, défend la religion de Dieu, et appelle au sentier de son Seigneur avec sagesse, bonne prédication et argumentation conclusive.",
+          "de": "Der Imam erklärt das Halal Gottes für erlaubt und verbietet das Haram Gottes, setzt die Grenzen Gottes fest, verteidigt die Religion Gottes und ruft mit Weisheit, guter Predigt und dem überzeugenden Argument zum Pfad seines Herrn.",
+          "ru": "Имам узаконивает халяль Аллаха и запрещает харам Аллаха, устанавливает границы Аллаха, защищает религию Аллаха и призывает на путь Господа своего с мудростью, хорошим проповедованием и убедительным доводом.",
+          "zh": "伊玛目使真主的合法事物成为合法，禁止真主的非法事物，确立真主的界限，捍卫真主的宗教，并以智慧、善言和确凿的证据召唤人们遵循其主的道路。"
+        },
+        "word_start": 494,
+        "word_end": 517
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الْإِمَامُ كَالشَّمْسِ الطَّالِعَةِ لِلْعَالَمِ وَهِيَ فِي الْأُفُقِ بِحَيْثُ لَا تَنَالُهُ الْأَيْدِي وَالْأَبْصَارُ. الْإِمَامُ الْبَدْرُ الْمُنِيرُ وَالسِّرَاجُ الزَّاهِرُ وَالنُّورُ السَّاطِعُ وَالنَّجْمُ الْهَادِي فِي غَيَاهِبِ الدُّجَى وَالْبَلَدِ الْقِفَارِ وَلُجَجِ الْبِحَارِ.",
+        "translations": {
+          "en": "The Imam is like the rising sun for the world, and it is in the horizon such that hands and eyes cannot reach it. The Imam is the luminous full moon, the shining lamp, the radiant light, and the guiding star in the darkness of night, the arid lands, and the depths of the seas.",
+          "ur": "امام دنیا کے لیے طلوع آفتاب کی مانند ہے، اور وہ افق پر ہے کہ ہاتھ اور آنکھیں اسے چھو نہ سکیں۔ امام چمکتا ہوا پورا چاند، روشن چراغ، تابندہ نور، اور رات کی اندھیروں، خشک زمینوں، اور سمندروں کی گہرائیوں میں رہنما ستارہ ہے۔",
+          "tr": "İmam, dünya için yükselen güneş gibidir ve ufukta öyle bir konumdadır ki eller ve gözler ona ulaşamaz. İmam, parlak tam ay, parlayan lamba, ışıldayan nur ve gecenin karanlığında, kurak topraklarda ve denizlerin derinliklerinde yol gösteren yıldızdır.",
+          "fa": "امام مانند خورشید تابان برای جهان است و در افقی است که دست‌ها و چشم‌ها به آن نمی‌رسند. امام ماه کامل درخشان، چراغ تابان، نور پرتوگر و ستاره راهنما در تاریکی شب، سرزمین‌های خشک و اعماق دریاهاست.",
+          "id": "Imam bagai matahari terbit bagi dunia, dan ia berada di ufuk sehingga tangan dan mata tidak dapat mencapainya. Imam adalah bulan purnama yang bercahaya, pelita yang bersinar, cahaya yang memancar, dan bintang penunjuk dalam kegelapan malam, di tanah-tanah yang gersang, dan di kedalaman lautan.",
+          "bn": "ইমাম পৃথিবীর জন্য উদয়মান সূর্যের ন্যায়, এবং তিনি আকাশের উফুফে অবস্থান করেন, যেখানে হাত ও চোখ পৌঁছাতে পারে না। ইমাম হলেন উজ্জ্বল পূর্ণিমা, দীপ্তিমান বাতি, প্রভাবিত আলো, এবং রাতের অন্ধকার, শুষ্ক ভূমি এবং সাগরের গভীরতায় পথপ্রদর্শক তারা।",
+          "es": "El Imam es como el sol naciente para el mundo, y se encuentra en el horizonte de tal manera que las manos y los ojos no pueden alcanzarlo. El Imam es la luna llena luminosa, la lámpara brillante, la luz radiante y la estrella guía en la oscuridad de la noche, en las tierras áridas y en las profundidades de los mares.",
+          "fr": "L'Imam est comme le soleil levant pour le monde, et il est à l'horizon de telle manière que les mains et les mains et les yeux ne peuvent l'atteindre. L'Imam est la pleine lune lumineuse, la lampe éclatante, la lumière radieuse, et l'étoile guidante dans l'obscurité de la nuit, les terres arides, et les profondeurs des mers.",
+          "de": "Der Imam ist wie die aufgehende Sonne für die Welt, und erde, und er befindet sich am Horizont, sodass Hände und Augen ihn nicht erreichen können. Der Imam ist der leuchtende Vollmond, die strahlende Lampe, das glänzende Licht und der leitende Stern in der Dunkelheit der Nacht, in den dürren Ländern und in den Tiefen der Meere.",
+          "ru": "Имам подобен восходящему солнцу для всего мира, и он находится на горизонте так, что руки и глаза не могут его достичь. Имам — это светлая полная луна, сияющая лампа, ослепительный свет и направляющая звезда во тьме ночи, в засушливых землях и глубинах морей.",
+          "zh": "伊玛目犹如世界上的旭日，高悬于地平线之上，使双手和双眼无法触及。伊玛目是皎洁的满月，是明亮的明灯，是灿烂的光辉，是黑夜、荒漠和深海中的指路星辰。"
+        },
+        "word_start": 517,
+        "word_end": 545
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الْإِمَامُ الْمَاءُ الْعَذْبُ عَلَى الظَّمَإِ وَالدَّالُّ عَلَى الْهُدَى وَالْمُنْجِي مِنَ الرَّدَى. الْإِمَامُ النَّارُ عَلَى الْيَفَاعِ الْحَارُّ لِمَنِ اصْطَلَى بِهِ وَالدَّلِيلُ فِي الْمَهَالِكِ مَنْ فَارَقَهُ فَهَالِكٌ.",
+        "translations": {
+          "en": "The Imam is the fresh water for the thirsty, the guide to guidance, and the savior from destruction. The Imam is the fire on the highlands, warm for those who seek its warmth, and the guide in the paths of ruin; whoever leaves him is ruined.",
+          "ur": "امام پیاسوں کے لیے تازہ پانی ہے، ہدایت کی راہ دکھانے والا ہے، اور ہلاکت سے بچانے والا ہے۔ امام بلندیوں پر آگ ہے، جو اس کی گرمی تلاش کرنے والوں کے لیے گرم ہے، اور تباہی کے راستوں میں رہنما ہے؛ جو اسے چھوڑ دیتا ہے وہ تباہ ہو جاتا ہے۔",
+          "tr": "İmam, susuzlara taze su, hidayete rehber ve helâkten kurtarıcıdır. İmam, yükseklerdeki ateştir; ısısını arayanlar için sıcaktır ve helâket yollarında rehberdir; ondan ayrılan helâk olur.",
+          "fa": "امام آب شیرین برای تشنه‌است و راهنما به هدایت و نجات‌دهنده از هلاکت. امام آتش بر بلندا است، گرم برای کسانی که گرمای آن را می‌جویند، و راهنما در راه‌های هلاکت؛ هر که او را ترک کند، هلاک شده است.",
+          "id": "Imam adalah air tawar bagi yang haus, penunjuk kepada petunjuk, dan penyelamat dari kehancuran. Imam adalah api di dataran tinggi, hangat bagi mereka yang mencari kehangatannya, dan penunjuk di jalan-jalan kehancuran; siapa pun yang meninggalkannya akan binasa.",
+          "bn": "ইমাম হলেন তৃষ্ণার্তের জন্য মিঠা পানি, হিদায়াতের পথপ্রদর্শক, এবং ধ্বংস থেকে রক্ষাকর্তা। ইমাম হলেন উচ্চভূমির আগুন, যারা তার উষ্ণতা খোঁজ করে তাদের জন্য উষ্ণ, এবং ধ্বংসের পথগুলিতে পথপ্রদর্শক; যিনি তাঁকে ত্যাগ করেন, তিনি ধ্বংসপ্রাপ্ত হন।",
+          "es": "El Imam es el agua dulce para el sediento, la guía hacia la dirección correcta y el salvador de la destrucción. El Imam es el fuego en las tierras altas, cálido para quienes buscan su calor, y la guía en los senderos de la ruina; quien lo abandona queda arruinado.",
+          "fr": "L'Imam est l'eau douce pour lustrale pour l'altéré, le guide vers la bonne direction, et le sauveur de la ruine. L'Imam est le feu sur les hauteurs, chaud pour ceux qui recherchent sa chaleur, et le guide dans les sentiers de la perte ; quiconque le quitte est perdu.",
+          "de": "Der Imam ist das Süßwasser für den Durstigen, der Führer zur Rechtleitung und der Retter vor dem Verderben. Der Imam ist das Feuer auf den Hochebenen, warm für diejenigen, die seine Wärme suchen, und der Führer auf den Pfaden des Verderbens; wer ihn verlässt, geht zugrunde.",
+          "ru": "Имам — это пресная вода для жаждущих, проводник к верному пути и избавитель от гибели. Имам — это огонь на возвышенностях, согревающий тех, кто ищет его тепла, и проводник на путях погибели; кто отступит от него, тот погибнет.",
+          "zh": "伊玛目是解渴的清泉，是引导走向正道的向导是拯救免于毁灭的救星。伊玛目是高山上的烈火为寻求温暖者带来温暖是迷途中的指引；谁背离他谁就毁灭。"
+        },
+        "word_start": 545,
+        "word_end": 570
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الْإِمَامُ السَّحَابُ الْمَاطِرُ وَالْغَيْثُ الْهَاطِلُ وَالشَّمْسُ الْمُضِيئَةُ وَالسَّمَاءُ الظَّلِيلَةُ وَالْأَرْضُ الْبَسِيطَةُ وَالْعَيْنُ الْغَزِيرَةُ وَالْغَدِيرُ وَالرَّوْضَةُ.",
+        "translations": {
+          "en": "The Imam is the raining cloud, the torrential rain, the shining sun, the vast sky, the spread earth, the abundant spring, the creek, and the garden.",
+          "ur": "امبر بارش والا بادل، تیز بارش، چمکتا ہوا سورج، وسیع آسمان، پھیلا ہوا زمین، کثرت والا چشمہ، نہر اور باغ ہے۔",
+          "tr": "İmam, yağdıran bulut, şiddetli yağmur, parçası, parlayan güneş, geniş gökyüzü, yayılmış toprak, bol su kaynağı, dere ve bahçedir.",
+          "fa": "امبراطور ابر باران‌آور، باران سیل‌آسا، خورشید تابان، آسمان پهناور، زمین گسترده، چشمه فراوان، جویبار و باغ است.",
+          "id": "Imam adalah awan yang menurunkan hujan, hujan lebat, matahari yang bersinar, langit yang luas, bumi yang terbentang, mata air yang melimpah, sungai kecil, dan taman.",
+          "bn": "ইমাম হলেন বর্ষণকারী মেঘ, প্রবল বৃষ্টি, উজ্জ্বল সূর্য, বিস্তৃত আকাশ, প্রসারিত পৃথিবী, প্রচুর উৎস, খাল এবং বাগান।",
+          "es": "El Imam es la nube que da lluvia, la lluvia torrencial, el sol brillante, el vasto cielo, la tierra extendida, la fuente abundante, el arroyo y el jardín.",
+          "fr": "L'Imam est le nuage qui verseur, la pluie diluvienne, le soleil éclatant, le vaste ciel, la terre étendue, la source abondante, le ruisseau et le jardin.",
+          "de": "Der Imam ist die regnende Wolke, der ergießige Regen, die strahlende Sonne, der weite Himmel, die ausgebreitete Erde, die reichliche Quelle, der Bach und der Garten.",
+          "ru": "Имам — это нисходящее облако, обильный дождь, сияющее солнце, обширное небо, просторная земля, обильный источник, ручей и сад.",
+          "zh": "伊玛目是降雨的云，倾盆大雨，耀眼的太阳，广阔的天空，广袤的大地，丰沛的泉水，溪流和花园。"
+        },
+        "word_start": 570,
+        "word_end": 585
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الْإِمَامُ الْأَمِينُ الرَّفِيقُ وَالْأَخُ الشَّقِيقُ [الشَّفِيقُ] وَمَفْزَعُ الْعِبَادِ فِي الدَّاهِيَةِ.",
+        "translations": {
+          "en": "The Imam is the trustworthy companion, the close brother, and the refuge of the servants in calamity.",
+          "ur": "امام وہ قابل اعتماد ساتھی، قریبی بھائی اور مصیبت میں بندوں کا پناہ گاہ ہے۔",
+          "tr": "İmam, güvenilir dost, yakın kardeş ve musibet zamanında kulların sığınağıdır.",
+          "fa": "امام یار امین، برادر نزدیک و پناهگاه بندگان در مصیبت است.",
+          "id": "Imam adalah sahabat yang terpercaya, saudara yang dekat, dan tempat berlindung hamba-hamba dalam bencana.",
+          "bn": "ইমাম হলেন বিশ্বস্ত সঙ্গী, ঘনিষ্ঠ ভাই, এবং বিপদে বান্দাদের আশ্রয়স্থল।",
+          "es": "El Imam es el compañero digno de confianza, el hermano cercano y el refugio de los siervos en la calamidad.",
+          "fr": "L'Imam est le compagnon digne de confiance, le frère proche, et le refuge des serviteurs dans l'adversité.",
+          "de": "Der Imam ist der vertrauenswürdige Gefährte, der enge Bruder und die Zuflucht der Diener in der Not.",
+          "ru": "Имам — доверенный спутник, близкий брат и прибежище рабов в беде.",
+          "zh": "伊玛目是忠实的同伴，亲密的兄弟，以及在灾难中仆人的庇护所。"
+        },
+        "word_start": 585,
+        "word_end": 595
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الْإِمَامُ أَمِينُ اللَّهِ فِي أَرْضِهِ وَحُجَّتُهُ عَلَى عِبَادِهِ وَخَلِيفَتُهُ فِي بِلَادِهِ الدَّاعِي إِلَى اللَّهِ وَالذَّابُّ عَنْ حُرَمِ اللَّهِ.",
+        "translations": {
+          "en": "The Imam is the Trustee of God on His earth, His proof upon His servants, and His vicegerent in His lands, the caller to God and the defender of the sanctities of God.",
+          "ur": "امام اللہ کا اس کی زمین پر امین ہے، اس کے بندوں پر حجت ہے، اور اس کی زمینوں میں اس کا خلیفہ ہے، اللہ کی طرف بلانے والا اور اللہ کی حرمتوں کا مدافع ہے۔",
+          "tr": "İmam, Allah'ın yeryüzündeki emanetçisi, kulları üzerinde Allah'ın delili, topraklarında Allah'ın halifesi, Allah'a çağıran ve Allah'ın mukaddesatlarını koruyandır.",
+          "fa": "امام امین خدا بر زمین اوست، حجت او بر بندگان و جانشین او در سرزمین‌هایش، دعوت‌کننده به سوی خدا و مدافع حریم‌های خدا.",
+          "id": "Imam adalah Pemegang Amanat Allah di bumi-Nya, hujjah-Nya atas hamba-hamba-Nya, dan wakil-Nya di negeri-negeri-Nya, yang menyeru kepada Allah dan penjaga hal-hal yang suci dari Allah.",
+          "bn": "ইমাম হলেন আল্লাহর পৃথিবীতে তাঁর বিশ্বস্ত প্রতিনিধি, তাঁর বান্দাদের উপর তাঁর প্রমাণ, এবং তাঁর ভূমণ্ডলে তাঁর খলিফা, যিনি আল্লাহর দিকে ডাকেন এবং আল্লাহর পবিত্রতাগুলোর রক্ষক।",
+          "es": "El Imán es el depositario de Dios en su tierra, Su prueba entre sus siervos, Su vicegerente en sus tierras, el que llama a Dios y el defensor de las santidad de Dios.",
+          "fr": "L'Imam est le dépositaire de Dieu sur Sa terre, Sa preuve parmi Ses serviteurs, et Son vicegerent dans Ses terres, l'appelant à Dieu et le défenseur des sanctités de Dieu.",
+          "de": "Der Imam ist der Treuhänder Gottes auf Seiner Erde, Sein Beweis für Seine Diener und Sein Stellvertreter in Seinen Ländern, der Rufende zu Gott und der Beschützer der Heiligtümer Gottes.",
+          "ru": "Имам является наместником Аллаха на Его земле, Его доводом среди Его рабов, Его халифом на Его землях, призывающим к Аллаху и защищающим святыни Аллаха.",
+          "zh": "伊玛目是真主在大地的信托者，是真主对仆人的证据，是真主在大地的代治者，是真主的召唤者，是真主神圣事物的捍卫者。"
+        },
+        "word_start": 595,
+        "word_end": 613
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الْإِمَامُ الْمُطَهَّرُ مِنَ الذُّنُوبِ الْمُبَرَّأُ مِنَ الْعُيُوبِ مَخْصُوصٌ بِالْعِلْمِ مَوْسُومٌ بِالْحِلْمِ نِظَامُ الدِّينِ وَعِزُّ الْمُسْلِمِينَ وَغَيْظُ الْمُنَافِقِينَ وَبَوَارُ الْكَافِرِينَ.",
+        "translations": {
+          "en": "The Imam is purified from sins, cleared of defects, singled out for knowledge, marked with forbearance, the order of religion, the honor of the Muslims, the anger of the hypocrites, and the perdition of the disbelievers.",
+          "ur": "امام گناہوں سے پاک، عیوب سے بری، علم کے لیے منتخب، بردباری کی علامت، دین کا حکم، مسلمانوں کی عزت، کافروں کی ہلاکت اور منافقوں کی غصہ کی جگہ ہے۔",
+          "tr": "İmam günahlardan arınmış, kusurlardan sıyrılmış, ilim için seçilmiş, sabır ile işaretlenmiş, dinin emri, Müslümanların onuru, Münefiklerin öfkesi ve Kâfirlerin helakidir.",
+          "fa": "امام از گناهان پاک است، از عیوب بری است، برای دانش برگزیده شده، با بردباری مشخص گردیده، فرمانروای دین، بزرگ‌مرد مسلمانان، خشم کافران و هلاکت منافقان است. ",
+          "id": "Imam terbebas dari dosa, bersih dari cacat, dipilih untuk ilmu, ditandai dengan kesabaran, menjadi pemimpin agama, kehormatan umat Islam, kemarahan orang-orang munafik, dan kebinasaan orang-orang kafir.",
+          "bn": "ইমাম পাপমুক্ত, দোষমুক্ত, জ্ঞানে বিশেষভাবে নির্বাচিত, ধৈর্যের চিহ্নিত, ধর্মের আদেশ, মুসলমানদের সম্মান, কাফিরদের ক্রোধ এবং মুনাফিকদের ধ্বংসের কারণ।",
+          "es": "El Imam está purificado de pecados, libre de defectos, distinguido por el conocimiento, marcado por la tolerancia, es la orden de la religión, el honor de los musulmanes, la ira de los hipócritas y la perdición de los incrédulos. ",
+          "fr": "L'Imam est purifié des péchés, débarrassé des défauts, distingué par le savoir, marqué par la patience, ordre de la religion, honneur des musulmans, colère des hypocrites et perdition des mécréants. }  \n\nNote: The translation preserves Islamic terminology and honorifics as per the guidelines. Proper nouns like ",
+          "de": "Der Imam ist von Sünden gereinigt, von Makeln frei, für Wissen auserwählt, mit Geduld gekennzeichnet, das Kommando der Religion, der Ehre der Muslime, der Zorn der Heuchler und das Verderben der Ungläubigen.",
+          "ru": "Имам очищен от грехов, избавлен от недостатков, избран для знания, отмечен терпением, повелителем религии, честью мусульман, гневом лицемеров и гибелью неверующих. }  Note: The term ",
+          "zh": "伊玛目无罪无疵，独享知识，以忍耐著称，是宗教的权威，穆斯林的荣耀，伪信者的愤怒之源，不信者的毁灭之因。"
+        },
+        "word_start": 613,
+        "word_end": 632
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الْإِمَامُ وَاحِدُ دَهْرِهِ لَا يُدَانِيهِ أَحَدٌ وَلَا يُعَادِلُهُ عَالِمٌ وَلَا يُوجَدُ مِنْهُ بَدَلٌ وَلَا لَهُ مِثْلٌ وَلَا نَظِيرٌ. مَخْصُوصٌ بِالْفَضْلِ كُلِّهِ مِنْ غَيْرِ طَلَبٍ مِنْهُ لَهُ وَلَا اكْتِسَابٍ بَلِ اخْتِصَاصٌ مِنَ الْمُفْضِلِ الْوَهَّابِ.",
+        "translations": {
+          "en": "The Imam is the unique one of his era; no one approaches him, no scholar equals him, no substitute for him is found, and he has no like or match. He is singled out with all virtues without seeking them or acquiring them, but rather by special selection from the Bestower, the Giver.",
+          "ur": "امام اس دور کا منفرد فرد ہے، کوئی اس کے قریب نہیں آتا، کوئی عالم اس کا مقابلہ نہیں کر سکتا، کوئی اس کا متبادل نہیں ملتا، اور اس کا کوئی ہمسر یا ہم پلہ نہیں ہے۔ وہ تمام فضیلتوں میں الگ پہچانا گیا ہے، بغیر ان کی تلاش یا کسب کے، بلکہ خیرالمنعم، بخشنے والے کی خاص انتخاب کے ذریعے۔",
+          "tr": "İmam, kendi devrinin benzersizidir; ona yaklaşan yoktur, ona eşit olan alim yoktur, yerine geçen bulunmaz ve ona benzer veya denk biri yoktur. O, aramadan veya kazanmadan, ancak Verenin, Bağışlayanın özel seçimiyle tüm faziletlerle ayrılmıştır.",
+          "fa": "امام، یگانه‌ی عصر خویش است؛ هیچ‌کس به او نمی‌رسد، هیچ عالمی همتای او نیست، هیچ جانشینی برای او یافت نمی‌شود و هیچ مانند یا هم‌ترازی برای او وجود ندارد. او بدون آنکه خود به دنبال فضیلت‌ها باشد یا آن‌ها را کسب کند، به تمامی فضایل برتری داده شده است، بلکه این برتری به سبب انتخاب ویژه‌ی از سوی بخشاینده و بخشنده است. }```json { ",
+          "id": "Imam adalah sosok yang unik di zamannya; tidak ada seorang pun yang menyamai kedudukan beliau, tidak ada ulama yang menyamai keilmuan beliau, tidak ada pengganti yang dapat ditemukan untuk beliau, dan tidak ada yang serupa atau setara dengan beliau. Beliau dikaruniai segala sifat-sifat mulia tanpa beliau mencarinya atau memperolehnya, melainkan melalui pemilihan khusus dari Sang Pemberi, Allah.",
+          "bn": "ইমাম হলেন তাঁর যুগের একমাত্র ব্যক্তি; তাঁর সমকক্ষ কেউ নেই, তাঁর মতো কোনো বিদ্বান নেই, তাঁর স্থলাভিষিক্ত কেউ পাওয়া যায় না, এবং তাঁর সমতুল্য বা প্রতিদ্বন্দ্বী কেউ নেই। তিনি সকল গুণাবলীতে এককভাবে পৃথকীকৃত, যা তিনি অন্বেষণ করেননি বা অর্জন করেননি, বরং প্রদাতা, দানকারী (আল্লাহ) কর্তৃক বিশেষভাবে নির্বাচিত হয়ে।",
+          "es": "El Imam es el único de su época; nadie se le acerca, ningún erudito le iguala, no se encuentra un sustituto para él, y no tiene par ni semejante. Se le distingue con todas las virtudes sin buscarlas ni adquirirlas, sino por una selección especial del Otorgador, el Dador.",
+          "fr": "L'Imam est l'unique de son époque ; nul ne l'approche, nul savant ne l'égale, aucun substitut ne se trouve pour lui, et il n'a ni semblable ni égal. Il est distingué par toutes les vertus sans les chercher ni les acquérir, mais par une sélection spéciale de la part du Donateur, le Dispensateur.",
+          "de": "Der Imam ist der Einzigartige seiner Zeit; niemand kommt ihm gleich, kein Gelehrter erreicht ihn, kein Stellvertreter wird für ihn gefunden, und er hat seinesgleichen nicht. Er ist mit allen Tugenden ausgezeichnet, ohne dass er sie suchte oder erwarb, sondern durch besondere Auserwählung vom Geber, dem Spender.",
+          "ru": "Имам — единственный в свою эпоху; никто не приближается к нему, ни один учёный не равняется ему, не находится его замена, и у него нет подобного или равного. Он выделен всеми добродетелями, не ища их и не приобретая, а лишь благодаря особому избранию от Дарующего, Подающего.",
+          "zh": "伊玛目是其所处时代独一无二的存在，无人能接近他，无学者能与他匹敌，无替代者能取代他，他也无同类或匹配者。他因赐予者、给予者的特别拣选而被单独赋予一切美德，而非通过寻求或获取。"
+        },
+        "word_start": 632,
+        "word_end": 665
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَمَنْ ذَا الَّذِي يَبْلُغُ مَعْرِفَةَ الْإِمَامِ وَيُمْكِنُهُ اخْتِيَارُهُ؟ هَيْهَاتَ هَيْهَاتَ ضَلَّتِ الْعُقُولُ وَتَاهَتِ الْحُلُومُ وَحَارَتِ الْأَلْبَابُ وَحَسَرَتِ الْعُيُونُ وَتَصَاغَرَتِ الْعُظَمَاءُ وَتَحَيَّرَتِ الْحُكَمَاءُ وَتَقَاصَرَتِ الْحُلَمَاءُ وَحَصِرَتِ الْخُطَبَاءُ وَجَهِلَتِ الْأَلِبَّاءُ وَكَلَّتِ الشُّعَرَاءُ وَعَجَزَتِ الْأُدَبَاءُ وَعَيِيَتِ الْبُلَغَاءُ عَنْ وَصْفِ شَأْنٍ مِنْ شَأْنِهِ أَوْ فَضِيلَةٍ مِنْ فَضَائِلِهِ.",
+        "translations": {
+          "en": "So who is the one who attains the knowledge of the Imam and is able to choose him? Far, far away! The intellects have gone astray, the minds have wandered, the wits have become perplexed, the eyes have sighed, the great have become small, the wise have been bewildered, the prudent have been humbled, the orators have been silenced, the intelligent have been ignorant, the poets have become weary, the literati have been unable, and the eloquent have failed to describe a single aspect of his aspect or a single virtue of his virtues.",
+          "ur": "پس وہ کون ہے جو امام کی معرفت حاصل کرتا ہے اور انہیں چننے کی صلاحیت رکھتا ہے؟ بہت دور، بہت دور! عقلیں گمراہ ہو گئیں، ذہن بھٹک گئے، فطنت پریشان ہو گئی، آنکھوں نے سسکی لی، بڑے چھوٹے ہو گئے، سمجھدار حیران ہو گئے، تدبر کرنے والے عاجز ہو گئے، خطباء خاموش ہو گئے، ہوشیار نادان ہو گئے، شاعر تھک گئے، ادباء عاجز ہو گئے، اور فصیح و بلیغ نے ان کے چہرے کے ایک پہلو یا ان کی فضیلتوں میں سے ایک فضیلت کا بھی بیان نہیں کر سکا۔",
+          "tr": "İmâm'ın ilmini edinen ve onu seçen kimdir? Uzak, çok uzak! Akıllar şaştı, zihinler saptı, kavrayışlar karıştı, gözler inledi, büyükler küçükleşti, bilgeler hayret içinde kaldılar, akıllılar alçaldılar, hitabet sahipleri sustu, zekîler cehalet içinde kaldılar, şairler yoruldu, edeb sahipleri acz içinde kaldılar, dilberler ise onun bir yönünü veya bir faziletini tarifde acze düştüler.",
+          "fa": "پس آن کسی که به دانش امام دست می‌یابد و توانایی انتخاب او را دارد، کیست؟ دور، بسیار دور! عقل‌ها گمراه شده‌اند، اندیشه‌ها سرگردان گشته‌اند، هوش‌ها دچار حیرت شده‌اند، چشمان اندوهگین شده‌اند، بزرگ‌ان کوچک شده‌اند، داناها سرگردان شده‌اند، خردمندان خوار گشته‌اند، سخنوران خاموش شده‌‌اند، زیرک‌ها نادان شده‌اند، شاعران خسته شده‌اند، ادیبان ناتوان گشته‌اند، و فصیح‌زبانان نتوانسته‌اند حتی یک جنبه از جنبه‌های او یا یک فضیلت از فضایل او را توصیف کنند.",
+          "id": "Lalu, siapakah orang yang mencapai pengetahuan tentang Imam dan mampu memilihnya? Jauh, sangat jauh! Akal telah sesat, pikiran telah melanglang, kecerdasan menjadi bingung, mata telah menghela napas, yang agung menjadi kecil, yang bijaksana menjadi kebingungan, yang bijaksana direndahkan, para orator dibungkam, yang cerdas menjadi bodoh, para penyair menjadi lelah, para sastrawan menjadi tidak mampu, dan yang fasih gagal menggambarkan satu aspek dari aspeknya atau satu kebajikan dari kebajikannya.",
+          "bn": "অতএব, ইমামের জ্ঞান লাভ করেন এবং তাঁকে নির্বাচন করতে সক্ষম কে? দূর, দূর! বুদ্ধিগণ বিচ্যুত হয়েছে, মনগণ বিচলিত হয়েছে, বুদ্ধিগণ বিভ্রান্ত হয়েছে, চক্ষুগণ কাতর হয়েছে, মহানগণ ক্ষুদ্র হয়েছে, জ্ঞানীগণ বিমূঢ় হয়েছে, প্রজ্ঞাবানগণ নত হয়েছে, বক্তাগণ নীরব হয়েছে, বুদ্ধিমানগণ অজ্ঞ হয়ে পড়েছে, কবিগণ ক্লান্ত হয়েছে, সাহিত্যিকগণ অসমর্থ হয়ে পড়েছে, এবং প্রবক্তাগণ তাঁর রূপের একটি দিক বা তাঁর গুণের একটি গুণ বর্ণনা করতে ব্যর্থ হয়েছে।",
+          "es": "¿Quién es, pues, el que alcanza el conocimiento del Imam y es capaz de elegirlo? ¡Lejos, muy lejos! Las inteligencias se han extraviado, las mentes han divagado, los entendido, los ingenios se han perplejo, los ojos han suspirado, los grandes se han hecho pequeños, los sabios se han desconcertado, los prudentes se han humillado, los oradores se han silenciado, los inteligentes se han vuelto ignorantes, los poetas se han cansado, los literatos se han vuelto incapaces, y los elocuentes han fracasado en describir un solo aspecto de su aspecto o una sola virtud de sus virtudes.",
+          "fr": "Alors, qui est celui qui atteint la connaissance de l'Imam et est capable de le choisir ? Loin, bien loin ! Les esprits se sont égarés, les intelligences ont erré, les facultés se sont perplexe, les yeux ont soupiré, les grands sont devenus petits, les sages ont été désorientés, les prudents ont été humiliés, les orateurs ont été réduits au silence, les intelligents sont devenus ignorants, les poètes se sont lassés, les lettrés ont été impuissants, et les éloquents n'ont pu décrire un seul aspect de son aspect ou une seule vertu de ses vertus.",
+          "de": "Wer also ist derjenige, der die Kenntnis des Imam erlangt und in der Lage ist, ihn zu wählen? Fern, sehr fern! Die Verstande sind irregegangen, die Geister sind umhergeirrt, die Sinne sind verwirrt worden, die Augen haben geseufzt, die Großen sind klein geworden, die Weisen sind verwirrt worden, die Besonnenen sind gedemütigt worden, die Redner sind zum Schweigen gebracht worden, die Intelligenten sind unwissend geworden, die Dichter sind müde geworden, die Gelehrten sind unfähig geworden, und die Beredsamen haben versagt, auch nur einen einzigen Aspekt seines Wesens oder eine einzige seiner Tugenden zu beschreiben.",
+          "ru": "Итак, кто тот, кто достигает знания имама и способен выбрать его? Далеко, далеко! Умы заблудились, мысли заблудились, сообразительность растерялась, глаза воздыхали, великие стали малыми, мудрые были сбиты с толку, рассудительные были унижены, ораторы были лишены дара речи, умные стали невежественными, поэты утомились, литераторы оказались неспособными, а красноречивые не смогли описать ни единого аспекта его облика или ни одной из его добродетелей.",
+          "zh": "那么，谁才是获得伊玛目知识并能够选择他的人呢？远远地，远远地！理智迷失了方向，心灵游荡不定，智慧变得困惑，眼睛叹息，伟大者变得渺小，智者陷入迷茫，谨慎者被贬低，演说者沉默，聪明者变得无知，诗人感到疲惫，文人墨客无能为力，而雄辩者未能描述他的一个方面或他的一个美德。"
+        },
+        "word_start": 665,
+        "word_end": 708
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَقَرَّتْ بِالْعَجْزِ وَالتَّقْصِيرِ. وَكَيْفَ يُوصَفُ أَوْ يُنْعَتُ بِكُنْهِهِ أَوْ يُفْهَمُ شَيْءٌ مِنْ أَمْرِهِ أَوْ يُوجَدُ مَنْ يَقُومُ مَقَامَهُ وَيُغْنِي غَنَاءَهُ؟ لَا كَيْفَ وَأَنَّى وَهُوَ بِحَيْثُ النَّجْمُ مِنْ أَيْدِي الْمُتَنَاوِلِينَ وَوَصْفِ الْوَاصِفِينَ.",
+        "translations": {
+          "en": "So they have confessed with inability and shortcoming. And how can he be described or characterized in his essence, or something of his matter be understood, or someone be found who stands in his place and fulfills his role? How and from where? And he is where the star is from the hands of the reachers and the description of the describers.",
+          "ur": "پس انہوں نے عاجزی اور ناکامی کے ساتھ اعتراف کیا۔ اور وہ کس طرح بیان کیا جا سکتا ہے یا اس کی ذات میں سے کچھ سمجھا جا سکتا ہے، یا کوئی ایسا شخص مل سکتا ہے جو اس کی جگہ کھڑا ہو اور اس کا فرض ادا کرے؟ کس طرح اور کہاں سے؟ اور وہ وہاں ہے جہاں ستارہ ہے، ہاتھوں میں پہنچنے والوں اور بیان کرنے والوں کی توصی سے۔",
+          "tr": "İşte bu yüzden acz ve noksanlıkla itiraf etmişlerdir. O'nun zatında nasıl tasvir edilebilir veya karakterize edilebilir, ya da O'nun işinin bir kısmı anlaşılabilir, ya da O'nun yerine geçen ve görevini yerine getiren biri bulunabilir mi? Nasıl ve nereden? O, ulaşılanların ellerinden yıldızın geldiği yer ve tasvir edenlerin tasvir ettiği yerdedir.",
+          "fa": "پس آنان به عجز و ناتوانی اقرار کردند. و چگونه می‌توان ذات او را توصیف یا مشخص کرد، یا چیزی از امر او را درک نمود، یا کسی یافت که به جای او بایستد و نقش او را ایفا کند؟ چگونه و از کجا؟ و او آنجاست که ستاره از دست‌های رسیدگان و توصیف توصیف‌کنندگان است.",
+          "id": "Maka mereka telah mengakui dengan ketidakmampuan dan kekurangan. Dan bagaimana dia dapat digambarkan atau dicirikan dalam esensinya, atau sesuatu dari urusannya dapat dipahami, atau seseorang ditemukan yang berdiri di tempatnya dan memenuhi perannya? Bagaimana dan dari mana? Dan dia adalah tempat bintang berasal dari tangan-tangan para penemu dan gambaran para penggambar.",
+          "bn": "অতএব, তারা অসমর্থতা ও ন্যূনত্বের স্বীকার করেছে। আর তার সত্তায় কীভাবে বর্ণনা বা চিহ্নিত করা যায়, অথবা তার বিষয়ে কিছু বোঝা যায়, অথবা এমন কেউ পাওয়া যায় যে তার স্থানে দাঁড়িয়ে তার ভূমিকা পালন করে? কীভাবে এবং কোথা থেকে? আর তিনি সেই স্থানে আছেন যেখানে তারা পৌঁছানকারীদের হাত থেকে তারা তারা এবং বর্ণনাকারীদের বর্ণনা থেকে তারা।",
+          "es": "Por eso han confesado con la incapacidad y la insuficiencia. ¿Y cómo puede ser descrito o caracterizado en su esencia, o se pueda comprender algo de su asunto, o se encuentre alguien que ocupe su lugar y cumpla su función? ¿Cómo y de dónde? Y él es donde está la estrella desde las manos de los alcanzadores y la descripción de los descriptores.",
+          "fr": "Alors ils ont confessé leur incapacité et leur insuffisance. Et comment peut-il être décrit ou caractérisé dans son essence, ou quelque chose de son être compris, ou quelqu'un trouvé qui occupe sa place et accomplit son rôle ? Comment et d'où ? Et il est là où l'étoile est du côté des atteignants et la description des descripteurs.",
+          "de": "So haben sie mit Unfähigkeit und Mangelhaftigkeit bekannt. Und wie kann er in seinem Wesen beschrieben oder charakterisiert werden, oder etwas von seiner Angelegenheit verstanden werden, oder jemand gefunden werden, der an seiner Stelle steht und seine Rolle erfüllt? Wie und von wo? Und er ist, wo der Stern von den Händen der Erreichten und der Beschreibung der Beschreiber ist.",
+          "ru": "Итак, они признали свою несостоятельность и недостаточность. И как можно описать или характеризовать его сущность, или понять что-то из его сути, или найти того, кто занимает его место и исполняет его роль? Как и откуда? А он — там, где звезда от рук достигающих и описание описывающих.",
+          "zh": "所以他们以无能及短处而自认。他的本质如何被描述或界定，或他的某方面如何被理解，或有人能取代他并履行其职责吗？如何？从何而来？他正是达者之手所及之星，亦是描述者之描述所在。"
+        },
+        "word_start": 708,
+        "word_end": 739
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَيْنَ الْاخْتِيَارُ مِنْ هَذَا وَأَيْنَ الْعُقُولُ عَنْ هَذَا؟ أَوْ أَيْنَ يُوجَدُ مِثْلُ هَذَا؟ ظَنُّوا أَنَّ ذَلِكَ يُوجَدُ فِي غَيْرِ آلِ الرَّسُولِ صَلَّى اللَّهُ عَلَيْهِمْ. كَذَبَتْهُمْ وَاللَّهِ أَنْفُسُهُمْ وَمَنَّتْهُمُ الْبَاطِلَ فَارْتَقَوْا مُرْتَقًى صَعْبًا دَحْضًا تَزِلُّ عَنْهُ إِلَى الْحَضِيضِ أَقْدَامُهُمْ.",
+        "translations": {
+          "en": "So where is the choosing from this, and where are the intellects from this? Or where is one found like this? They thought that that would be found in the non-Household of the Messenger (peace be upon them). Their souls lied to them, by God, and falsehood deluded them, so they climbed a rugged ascent, a slippery slope, from which their feet slip to the lowest depths.",
+          "ur": "تو اس میں انتخاب کہاں ہے اور عقلیں کہاں ہیں؟ یا ایسا کون ملتا ہے؟ ان کا خیال تھا کہ یہ رسول اللہ (صلی اللہ علیہم وسلم) کے غیر اہل بیت میں ملے گا۔ ان کی جانوں نے انہیں خدا کی قسم دھوکہ دیا اور جھوٹ نے انہیں گمراہ کیا، پس وہ ایک کھردری چڑھائی پر چڑھے، جو پھسلن والی ڈھلان ہے، جس سے ان کے پاؤں سب سے نیچے گہرائیوں میں پھسل جاتے ہیں۔",
+          "tr": "İşte bu durumda seçim nereden geliyor, akl-ı selim nereden geliyor? Ya da böyle biri nereden bulunur? Onlar, bu seçimin Peygamberin Ehl-i Beyt'i (aleyhimüsselam) dışında bulunacağını sandılar. Ruhları onlara yalan söyledi, Allah'a yemin ederim ki, onları batıl aldattı; bu yüzden ayakları kaygan bir yokuştan aşağıya, en derinlere kaydı.",
+          "fa": "پس از این کجا انتخاب است و از این کجا عقل‌ها؟ یا کجا کسی مانند این یافت می‌شود؟ آنان گمان کردند که این در غیر اهل بیت پیامبر (علیهم‌السلام) یافت خواهد شد. جان‌هایشان به خدا دروغ گفتند و فریب آنان را گمراه کرد، پس از سربلندی سختی و شیب لغزنده‌ای بالا رفتند که پایشان از آن به پایین‌ترین چاه‌ها می‌لغزد.",
+          "id": "Maka dari mana pilihan ini, dan dari mana akal ini? Atau di mana seseorang dapat ditemukan seperti ini? Mereka mengira bahwa hal itu akan ditemukan pada non-Ahlul Bait Rasulullah (shalatun salamun alaihim). Jiwa mereka menipu mereka, demi Allah, dan kebohongan telah menipu mereka, sehingga mereka mendaki tanjakan yang terjal, lereng yang licin, dari mana kaki mereka tergelincir ke jurang terdalam.",
+          "bn": "অতএব, এই থেকে নির্বাচন কোথায়, এবং এই থেকে বুদ্ধি কোথায়? অথবা এরূপ কে পাওয়া যায়? তারা মনে করল যে, এটি রাসুলের (আলৈহিমুসসালাম) বংশধরগণের বাইরে পাওয়া যাবে। তাদের আত্মা তাদেরকে প্রতারিত করল, আল্লাহর শপথ, এবং মিথ্যা তাদেরকে বিভ্রান্ত করল, তাই তারা একটি কঠোর আরোহণ পথ, একটি পিচ্ছিল ঢাল, আরোহণ করল, যেখান থেকে তাদের পদস্খলন ঘটে সর্বনিম্ন গভীরতায়।",
+          "es": "¿Dónde está, pues, la elección de esto, y dónde están las inteligencias de esto? ¿O dónde se encuentra uno así? Pensaron que eso se encontraría en los no-Ahl al-Bayt del Mensajero (que la paz sea con ellos). Sus almas les engañaron, por Dios, y la falsedad los sedujo, así que ascendieron una cuesta escarpada, una ladera resbaladiza, de la cual sus pies resbalan hasta las profundidades más bajas.",
+          "fr": "Alors, où est le choix en cela, et où sont les esprits en cela ? Ou bien où trouve-t-on quelqu’un de tel ? Ils pensaient que cela se trouverait en dehors de la Maison du Messager (que la paix soit sur eux). Leurs âmes les ont trompés, par Dieu, et le mensonge les a séduits, si bien qu’ils ont gravi une montée escarpée, une pente glissante, dont les pieds glissent jusqu’aux plus basses profondeurs.",
+          "de": "Wo ist also die Wahl daraus, und wo sind die Verstande daraus? Oder wo findet man einen, der so ist? Sie dachten, das würde bei den Nicht-Haushalten des Gesandten (Friede sei mit ihnen) gefunden werden. Ihre Seelen belogen sie, bei Gott, und die Falschheit täuschte sie, sodass sie einen rauen Aufstieg, eine rutschige Steigung, bestiegen, von der ihre Füße in die tiefsten Tiefen ausrutschen.",
+          "ru": "Так где же выбор из этого, и где же разум из этого? Или где находится подобный этому? Они полагали, что это будет найдено в не-Ахль аль-Байт Посланника (мир им). Души их обманули их, клянусь Богом, и ложь ввела их в заблуждение, так что они взобрались на крутой подъем, скользкий склон, с которого их ноги скользят в самые низины.",
+          "zh": "那么，从中选择何在？理智何在？或者，谁能找到像这样的人？他们以为这会在使者（愿主福安之）的非家属中找到。他们的灵魂欺骗了他们，以真主之名，虚妄迷惑了他们，于是他们攀登崎岖的山路，滑溜的斜坡，他们的脚从那里滑落到最深处。"
+        },
+        "word_start": 739,
+        "word_end": 777
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "رَامُوا إِقَامَةَ الْإِمَامَةِ بِعُقُولٍ حَائِرَةٍ بَائِرَةٍ نَاقِصَةٍ وَآرَاءٍ مُضِلَّةٍ فَلَمْ يَزْدَادُوا مِنْهُ إِلَّا بُعْدًا: (قَاتَلَهُمُ اللَّهُ أَنَّى يُؤْفَكُونَ). لَقَدْ رَامُوا صَعْبًا وَقَالُوا إِفْكًا وَضَلُّوا ضَلَالًا بَعِيدًا وَوَقَعُوا فِي الْحَيْرَةِ إِذْ تَرَكُوا الْإِمَامَ عَنْ بَصِيرَةٍ.",
+        "translations": {
+          "en": "They intended to establish Imamate with wandering, barren, deficient intellects and misleading opinions, so they did not increase in it except by distance: 'May God fight them! How are they deluded?' Indeed, they aimed for something difficult, spoke falsehood, and went astray with a far straying, and fell into perplexity when they left the Imam based on insight.",
+          "ur": "انہوں نے امامت قائم کرنے کا ارادہ کیا، حالانکہ ان کے پاس بے مقصد، ناکارہ اور کمزور ذہنیت اور گمراہ کن آراء تھیں، لہذا ان میں اضافہ صرف دوری سے ہوا: 'خدا انہیں لڑائے! وہ کیسے گمراہ ہوئے؟' بے شک، انہوں نے مشکل کام کا ارادہ کیا، جھوٹ بولا، اور گہری گمراہی میں مبتلا ہوئے، اور جب بصیرت کی بنیاد پر امام سے الگ ہوئے تو وہ حیرت میں پڑ گئے۔",
+          "tr": "Gezgin, verimsiz ve eksik akıllar ile saptırıcı görüşler aracılığıyla İmameti tesis etmeyi niyet ettiler, bu yüzden onda yalnızca uzaklaşarak artış gösterdiler: 'Allah onlarla nasıl savaşır! Nasıl da saptırılırlar?' Şüphesiz ki zor bir şeyi hedeflediler, yalan söylediler ve büyük bir sapmayla saptılar, ve hakikate dayalı İmam'dan ayrıldıklarında şaşkınlığa düştüler.",
+          "fa": "آنها قصد داشتند امامت را با عقل‌های سرگردان، بی‌برکت و ناقص و آرای گمراه‌کننده برپا کنند، پس جز با دوری از آن چیزی نیافتند: «خدا آنها را بکشد! چگونه گمراه شده‌اند؟» همانا آنها به چیزی دشوار دست یافتند، دروغ گفتند و با گمراهی دور، گمراه شدند و هنگامی که از امامِ مبتنی بر بصیرت جدا شدند، در حیرت فرو رفتند.",
+          "id": "Mereka bermaksud mendirikan Imamah dengan kecerdasan yang kelam, gersang, dan kurang, serta pendapat yang menyesatkan, sehingga mereka tidak bertambah dalam hal itu kecuali dengan menjauhkan diri: 'Semoga Allah membinasakan mereka! Bagaimana mereka bisa tersesat?' Sesungguhnya, mereka bertujuan untuk sesuatu yang sulit, mengucapkan kebohongan, dan menyimpang dengan penyimpangan yang jauh, serta jatuh ke dalam kebingungan ketika mereka meninggalkan Imam berdasarkan wawasan. }",
+          "bn": "তারা ইমামত প্রতিষ্ঠা করতে চেয়েছিল বিচ্যুত, বন্ধ্যা ও দুর্বুদ্ধিমান লোকদের দ্বারা এবং বিভ্রান্তিকর মতামতের মাধ্যমে, তাই তারা এতে দূরত্ব ছাড়া কিছুই অর্জন করতে পারেনি: 'আল্লাহ তাদেরকে যুদ্ধ করুন! তারা কীভাবে বিভ্রান্ত হচ্ছে?' নিশ্চয়ই তারা কঠিন কিছু লক্ষ্য করেছিল, সত্যের বিপরীত কথা বলেছিল এবং দীর্ঘ বিচ্যুতির মধ্যে পড়েছিল, এবং যখন তারা ইমামকে উপলব্ধির ভিত্তিতে ত্যাগ করেছিল, তখন তারা বিভ্রান্তিতে পড়েছিল।",
+          "es": "Intentaron establecer el Imamato con intelectos errantes, estériles y deficientes, y opiniones engañosas, por lo que no hicieron más que alejarse de él: «¡Que Dios los combata! ¿Cómo se extravían?». Ciertamente, apuntaron a algo difícil, hablaron la falsedad, y se desviaron con un gran extravío, y cayeron en la perplejidad cuando se separaron del Imam basado en la perspicacia.",
+          "fr": "Ibn Abi Zaynab",
+          "de": "Sie beabsichtigten, das Imamate mit umherirrenden, unfruchtbaren, mangelhaften Geistern und irreführenden Meinungen zu etablieren, sodass sie darin nur durch Distanz zunahmen: »Möge Gott sie bekämpfen! Wie sind sie in die Irre geführt?« Wahrlich, sie strebten nach etwas Schwerem, sprachen die Lüge und irrten mit einer weiten Irrung ab, und verfielen in Verwirrung, als sie den Imam, der auf Einsicht beruhte, verließen.",
+          "ru": "Они намеревались утвердить имамат с помощью скитающихся, неплодородных, одарённых недостаточным разумом людей и вводящих в заблуждение мнений, поэтому они не приближались к нему, кроме как удаляясь: «Да поборёт их Аллах! Как же они обольщены!» Поистине, они стремились к трудному, говорили ложь и заблудились далёким заблуждением, и впали в смущение, когда оставили имама, основываясь на проницательности.",
+          "zh": "他们意图以游移不定、贫瘠且智力欠缺的头脑以及误导性的观点来确立伊玛目制，因此他们在此方面除了疏远之外别无增益：‘愿真主与他们作战！他们是如何被迷惑的？’的确，他们追求的是艰难之事，说出谎言，并陷入极大的迷误，当他们在基于洞察力的伊玛目离开时，便陷入了困惑。"
+        },
+        "word_start": 777,
+        "word_end": 811
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "(وَزَيَّنَ لَهُمُ الشَّيْطَانُ أَعْمَالَهُمْ فَصَدَّهُمْ عَنِ السَّبِيلِ وَكَانُوا مُسْتَبْصِرِينَ). رَغِبُوا عَنِ اخْتِيَارِ اللَّهِ وَاخْتِيَارِ رَسُولِهِ إِلَى اخْتِيَارِهِمْ وَالْقُرْآنُ يُنَادِيهِمْ: (وَرَبُّكَ يَخْلُقُ مَا يَشَاءُ وَيَخْتَارُ مَا كَانَ لَهُمُ الْخِيَرَةُ).",
+        "translations": {
+          "en": "'And Satan made their deeds pleasing to them and turned them from the path, and they were discerning.' They preferred the choosing of God and the choosing of His Messenger to their own choosing, and the Quran calls to them: 'And your Lord creates and chooses what He wills; not for them was the choice.'\"",
+          "ur": "اور شیطان نے ان کے اعمال انہیں پسند کر دیے اور انہیں راستے سے ہٹا دیا، حالانکہ وہ سمجھدار تھے۔ انہوں نے اپنی پسند کو اللہ کی پسند اور اس کے رسول کی پسند پر ترجیح دی، اور قرآن انہیں پکار رہا ہے: اور تمہارا رب پیدا کرتا ہے اور پسند کرتا ہے جو وہ چاہتا ہے؛ ان کے لیے پسند کا حق نہیں تھا۔",
+          "tr": "Ve şeytan onlara kendi amellerini yakıştırdı ve onları yoldan saptırdı; onlar ayırt edici idiler. Onlar, kendi tercihlerini bırakıp Allah'ın ve O'nun Peygamberinin tercihini seçtiler; Kur'an onlara şöyle seslenir: 'Ve Rabbin dilediğini yaratır ve seçer; onlara seçme hakkı yoktur.'",
+          "fa": "و شیطان کارهایشان را در نظرشان زیبا جلوه داد و راه را برشان بست، و آنان می‌دانستند. آنان گزینش خدا و گزینش پیامبرش را بر گزینش خویش ترجیح دادند، و قرآن به آنان ندا می‌دهد: «و پروردگارتان می‌آفریند و گزینش می‌کند آنچه را که بخواهد؛ نه برای آنان گزینش است.»",
+          "id": "Dan setan menjadikan amal-amal mereka tampak indah di mata mereka dan menghalangi mereka dari jalan, padahal mereka adalah orang-orang yang mampu membedakan. Mereka lebih memilih pilihan Allah dan pilihan Rasul-Nya daripada pilihan mereka sendiri, dan Al-Qur'an menyeru kepada mereka: \"Dan Tuhanmu menciptakan dan memilih apa yang dikehendaki-Nya; bukan bagi mereka pilihan.\"",
+          "es": "Y el Satan hizo que sus obras les parecieran agradables y los desvió del camino, y ellos eran discernidores. Ellos preferían la elección de Dios y la elección de Su Mensajero a su propia elección, y el Corán les llama: «Y tu Señor crea y elige lo que quiere; no les corresponde a ellos la elección.»",
+          "fr": "« Et le Diable leur rendit agréables leurs actions et les détourna du chemin, et ils étaient discernants. » Ils préférèrent le choix d'Allah et le choix de Son Messager à leur propre choix, et le Coran leur rappelle : « Et ton Seigneur crée et choisit ce qu'Il veut ; ce n'est pas à eux qu'appartient le choix. »",
+          "de": "Und der Satan machte ihre Taten ihnen gefällig und hielt sie vom Weg ab, und sie waren doch urteilsfähig. Sie zogen die Wahl Gottes und die Wahl Seines Gesandten ihrer eigenen Wahl vor, und der Koran ruft zu ihnen: »Und dein Herr erschafft und wählt, was Er will; nicht ihnen war die Wahl vorbehalten.«",
+          "ru": "И сатана сделал им приятными их дела и отвратил их от пути, и они были проницательны. Они предпочли выбор Аллаха и выбор Его Посланника собственному выбору, и Коран призывает их: «И твой Господь творит и избирает то, что пожелает; не им принадлежит выбор».",
+          "zh": "撒旦使他们的善行在他们眼中显得美好，并使他们偏离正道，而他们本是明辨的。他们宁愿选择真主及其使者的选择，而不愿选择自己的私意，古兰经对他们说：‘你的主创造并选择他所意欲的；对他们而言，并无选择。’",
+          "bn": ""
+        },
+        "word_start": 811,
+        "word_end": 839
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "(سُبْحَانَ اللَّهِ وَتَعَالَى عَمَّا يُشْرِكُونَ). وَقَالَ عَزَّ وَجَلَّ: (وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَنْ يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ). وَقَالَ عَزَّ وَجَلَّ: (مَا لَكُمْ كَيْفَ تَحْكُمُونَ أَمْ لَكُمْ كِتَابٌ فِيهِ تَدْرُسُونَ إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ أَمْ لَكُمْ أَيْمَانٌ عَلَيْنَا بَالِغَةٌ إِلَى يَوْمِ الْقِيَامَةِ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ سَلْهُمْ أَيُّهُمْ بِذَلِكَ زَعِيمٌ أَمْ لَهُمْ شُرَكَاءُ فَلْيَأْتُوا بِشُرَكَائِهِمْ إِنْ كَانُوا صَادِقِينَ).",
+        "translations": {
+          "en": "'Glory be to God and Exalted is He above what they associate.' And He, the Mighty and Exalted, said: 'And it is not for a believer, man or woman, when Allah and His Messenger have decided a matter, that they should have [any] choice about their matter.' And He, the Mighty and Exalted, said: 'What is [the matter] with you? How do you judge? Or do you have a book in which you study? Indeed, for you therein is what you choose? Or do you have covenants with Us [O Allah] reaching to the Day of Resurrection? Indeed, for you is what you judge? Ask them which of them will be responsible for that? Or do they have partners? Let them bring their partners, if they should be truthful.'\"",
+          "ur": "سبحان ربک و بحمدک، اللہ تعالیٰ کی تعریف ہے، اور وہ ان چیزوں سے پاک ہے جو وہ شرک کرتے ہیں۔ اور اللہ تعالیٰ نے فرمایا: \"اور یہ نہیں ہے کہ مومن مرد یا عورت، جب اللہ اور اس کا رسول کسی بات کا فیصلہ کر دیں، تو انہیں اپنی بات میں اختیار ہو۔\" اور اللہ تعالیٰ نے فرمایا: \"تمہیں کیا ہوا؟ تم کیسے فیصلہ کرتے ہو؟ یا تمہارے پاس کوئی کتاب ہے جس میں تم پڑھتے ہو؟ بے شک اس میں وہی ہے جو تم چاہتے ہو؟ یا تمہارے پاس ہم سے عہد ہے جو قیامت تک پہنچتا ہے؟ بے شک تمہیں وہی ملے گا جو تم فیصلہ کرتے ہو؟ ان سے پوچھو کہ ان میں سے کون اس کا ذمہ دار ہوگا؟ یا ان کے پاس شرک والے ہیں؟ اگر وہ سچے ہیں تو اپنے شرک والے لائیں۔\"",
+          "tr": "Allahü teâlâ’ya hamd olsun, O, ortak koştukları şeylerden yücedir. Yüce ve azîz olan Allah şöyle buyurdu: ",
+          "fa": "سبحان الله وتعالى عمّا يشركون. وقال عزّ وجلّ: وما كان لمؤمن ولا مؤمنة إذا قضى الله ورسوله أمراً أن يكون لهم الخيرة من أمرهم. وقال عزّ وجلّ: ما لكم كيف تحكمون؟ أم لكم كتاب تدرسون؟ فيه ما تختارون؟ أم لكم عهود منّا نصل إليها يوم القيامة؟ ما لكم ما تحكمون؟ فاسألهم من منهم بذلك ضامن؟ أم لهم شركاء فليأتوا بشركائهم إن كانوا صادقين.",
+          "id": "Maha Suci Allah dan Mahatinggi Dia dari apa yang mereka persekutukan. Dan Allah Yang Maha Perkasa lagi Mahatinggi berfirman: 'Dan tidak pantas bagi seorang mukmin, laki-laki maupun perempuan, apabila Allah dan Rasul-Nya telah menetapkan suatu urusan, lalu mereka mempunyai pilihan tentang urusan mereka sendiri.' Dan Allah Yang Maha Perkasa lagi Mahatinggi berfirman: 'Bagaimana dengan kamu? Bagaimana kamu menghakimi? Ataukah kamu mempunyai kitab yang kamu pelajari? Sesungguhnya bagi kamu di dalamnya apa yang kamu pilih? Ataukah kamu mempunyai perjanjian dengan Kami (wahai Allah) yang mencapai hari kiamat? Sesungguhnya bagi kamu apa yang kamu hakimi? Tanyakanlah kepada mereka, siapakah di antara mereka yang bertanggung jawab atas itu? Ataukah mereka mempunyai sekutu? Biarlah mereka mendatangkan sekutu-sekutu mereka, jika mereka orang-orang yang benar.'",
+          "bn": "আল্লাহর মহিমা এবং তিনি উচ্চস্থানীয়, যাঁরা তাঁর সাথে শরীক করে তাদের থেকে তিনি পবিত্র। আর তিনি, পরাক্রমশালী ও মহান, বলেন: 'যখন আল্লাহ ও তাঁর রাসূল কোনো বিষয় নিশ্চিত করেন, তখন কোনো মুমিন পুরুষ বা নারীর জন্য নিজের বিষয়ে পছন্দ করার অধিকার থাকে না।' আর তিনি, পরাক্রমশালী ও মহান, বলেন: 'তোমাদেরকে কী হয়েছে? তোমরা কীভাবে বিচার করো? নাকি তোমাদের কাছে এমন কোনো গ্রন্থ আছে যেখানে তোমরা অধ্যয়ন করো? নিশ্চয়ই সেখানে তোমাদের পছন্দিত কিছু আছে? নাকি তোমাদের সাথে আল্লাহর সাথে এমন চুক্তি আছে যা কিয়ামতের দিন পর্যন্ত স্থায়ী? নিশ্চয়ই তোমাদের জন্য সেই বিচারই প্রযোজ্য যা তোমরা করো? তাদেরকে জিজ্ঞেস করো, তাদের মধ্যে কে এর দায়ী হবে? নাকি তাদের কাছে শরীক আছে? যদি তারা সত্যবাদী হয়, তবে তারা তাদের শরীকদেরকে নিয়ে আসুক।'",
+          "es": "Gloria a Alá y Exaltado es Él por encima de lo que Le asocian. Y Él, el Poderoso y Exaltado, dijo: «Y no corresponde a un creyente, hombre o mujer, cuando Alá y Su Mensajero han decidido un asunto, que tengan [ninguna] elección respecto a su asunto». Y Él, el Poderoso y Exaltado, dijo: «¿Qué os pasa? ¿Cómo juzgáis? ¿O tenéis un libro en el que estudiáis? Ciertamente, para vosotros hay en él lo que elegís. ¿O tenéis pactos con Nosotros [oh, Alá] que llegan hasta el Día de la Resurrección? Ciertamente, para vosotros es lo que juzgáis. Pregúntales a cuál de ellos le corresponde eso. ¿O tienen socios? Que traigan a sus socios, si son veraces».",
+          "fr": "Gloire à Allah et Exalté est-Il au-dessus de ce qu’Ils Lui associent. Et Lui, le Puissant et l’Exalté, a dit : « Et il n’appartient pas au croyant, homme ou femme, lorsqu’Allah et Son Messager ont tranché une affaire, d’avoir un choix quant à leur affaire. » Et Lui, le Puissant et l’Exalté, a dit : « Qu’y a-t-il en vous ? Comment jugez-vous ? Ou bien avez-vous un livre dans lequel vous étudiez ? En vérité, pour vous, il y a ce que vous choisissez ? Ou bien avez-vous des pactes avec Nous [ô Allah] qui s’étendent jusqu’au Jour de la Résurrection ? En vérité, pour vous est ce que vous jugez ? Demandez-leur lequel d’entre eux sera responsable de cela ? Ou bien ont-ils des associés ? Qu’ils fassent venir leurs associés, s’ils sont véridiques. »",
+          "de": "Die Verherrlichung gebührt Allah, und Er ist erhaben über das, was sie Ihm zur Seite stellen. Und Er, der Allmächtige und Erhabene, sprach: »Es ist nicht gebührlich für einen Gläubigen, weder Mann noch Frau, wenn Allah und Sein Gesandter eine Angelegenheit entschieden haben, dass sie in ihrer Angelegenheit eine (eigene) Wahl treffen.« Und Er, der Allmächtige und Erhabene, sprach: »Was ist mit euch los? Wie richtet ihr? Oder habt ihr ein Buch, in dem ihr studiert? Wahrlich, darin ist für euch das, was ihr auswählt? Oder habt ihr Bündnisse mit Uns (o Allah), die bis zum Tag der Auferstehung reichen? Wahrlich, für euch ist das, was ihr richtet? Fragt sie, wer von ihnen dafür verantwortlich sein wird? Oder haben sie Partner? Lass sie ihre Partner bringen, wenn sie wahrhaftig sind.«",
+          "ru": "Славить Всевышнего Аллаха и превозносить Его над тем, что они Ему сотоварищат. И сказал Всевышний и Великий: «И не подобает верующему мужчине и верующей женщине, когда Аллах и Его Посланник решили какое-то дело, иметь выбор в своем деле». И сказал Всевышний и Великий: «Что с вами? Как вы судите? Или у вас есть книга, из которой вы изучаете? Ибо, поистине, для вас там то, что вы выберете? Или у вас есть заветы с Нами [О Аллах], достигающие Дня Воскресения? Ибо, поистине, для вас то, что вы судите? Спросите их, кто из них будет нести за это ответственность? Или у них есть сотоварищи? Пусть они приведут своих сотоварищей, если они говорят правду». }  Note: The translation preserves Islamic terminology and honorifics as per the instructions. Proper nouns like ",
+          "zh": "荣耀归于真主，他超越他们所配比的。全能至高的真主说：当真主及其使者判决一件事时，信道的男人或女人，对于自己的事，不得有选择。全能至高的真主说：你们究竟怎么啦？你们如何判决？难道你们有一部经典，你们从中研读吗？难道你们在其中有自己所选择的吗？难道你们有与我（真主）订立的盟约，直到复活日吗？难道你们有自己所判决的吗？你问他们，他们中谁为此负责？难道他们有伙伴吗？如果他们说的是实话，就叫他们带来他们的伙伴吧。"
+        },
+        "word_start": 839,
+        "word_end": 904
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَقَالَ عَزَّ وَجَلَّ: (أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ أَمْ عَلَى قُلُوبٍ أَقْفَالُهَا). (أَمْ طَبَعَ اللَّهُ عَلَى قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ). أَمْ (قَالُوا سَمِعْنَا وَهُمْ لَا يَسْمَعُونَ إِنَّ شَرَّ الدَّوَابِّ عِنْدَ اللَّهِ الصُّمُّ الْبُكْمُ الَّذِينَ لَا يَعْقِلُونَ وَلَوْ عَلِمَ اللَّهُ فِيهِمْ خَيْرًا لَأَسْمَعَهُمْ وَلَوْ أَسْمَعَهُمْ لَتَوَلَّوْا وَهُمْ مُعْرِضُونَ). وَ(قَالُوا سَمِعْنَا وَعَصَيْنَا).",
+        "translations": {
+          "en": "And He, the Mighty and Exalted, said: 'Then do they not reflect upon the Quran or are there locks upon their hearts?' (Or has Allah set a seal upon their hearts so they do not understand?) Or (they said, 'We hear,' but they do not listen. Indeed, the worst of living creatures in the sight of Allah are the deaf and dumb who do not use reason. And if Allah had known any good in them, He would have made them hear. And if He had made them hear, they would have turned back while they were avoiding.) And (they said, 'We hear and we disobey.')\"",
+          "ur": "اور وہ عزّ و جل نے فرمایا: \"کیا وہ قرآن پر غور نہیں کرتے، یا ان کے دلوں پر تالے لگے ہوئے ہیں؟\" (یا اللہ نے ان کے دلوں پر مہر لگا دی ہے تاکہ وہ سمجھ نہ سکیں؟) یا (وہ کہتے ہیں: \"ہم سنتے ہیں\" لیکن وہ غور سے نہیں سنتے۔ بے شک، اللہ کے نزدیک بدترین جانور وہ بے حس و حرکت والے ہیں جو عقل نہیں استعمال کرتے۔ اور اگر اللہ کو ان میں کوئی خیر معلوم ہوتی تو وہ انہیں سناتا۔ اور اگر وہ انہیں سنتا تو وہ پھر جاتے حالانکہ وہ بھاگ رہے ہوتے۔) اور (وہ کہتے ہیں: \"ہم سنتے ہیں اور نافرمانی کرتے ہیں۔\")",
+          "tr": "Ve O, Azîz ve Müteâl buyurdu: \"O halde onlar Kur'ân'ı tefekkür etmiyorlar ya, kalplerinde kilitler mi var?\" (Ya da Allah kalplerine mühür vurdu da onlar anlamıyorlar?) Veya (\"İşitiriz\" dediler, ama işitmediler. Şüphesiz, Allah katında en kötü canlılar, aklını kullanmayan sağırlar ve dilsilerdir. Ve eğer Allah onların içinde bir hayır bilseydi, onları işitirdi. Ve eğer onları işitirdi, o zaman da kaçındıkları halde geri dönerlerdi.) Veya (\"İşitiriz ve isyân ederiz\" dediler.)",
+          "fa": "و او، یگانه و برتر، فرمود: «آیا در قرآن تأمل نمی‌کنند یا قفل‌هایی بر دل‌هایشان نهاده شده است؟» (یا خداوند مهری بر دل‌هایشان نهاده تا ندانند؟) یا (می‌گویند «می‌شنویم» ولی گوش نمی‌دهند. بی‌گناه بدترین موجودات نزد خدا، کر و لال‌هایی هستند که تعقل نمی‌کنند. و اگر خداوند در آنان نیکی می‌دانست، شنوایی به آنان می‌بخشید. و اگر شنوایی می‌بخشید، باز می‌گشتند در حالی که فرار می‌کردند.) و (می‌گویند «می‌شنویم و نافرمانی می‌کنیم»).",
+          "id": "Dan Dia, Yang Maha Perkasa lagi Maha Tinggi, berfirman: \"Maka apakah mereka tidak memperhatikan Al-Qur'an ataukah ada kunci-kunci penghalang di dalam hati mereka?\" (Ataukah Allah telah mengunci hati mereka sehingga mereka tidak memahami?) Atau (mereka berkata, \"Kami mendengar,\" tetapi mereka tidak menyimak. Sesungguhnya, makhluk yang paling buruk di sisi Allah ialah orang-orang yang tuli dan bisu yang tidak menggunakan akal. Dan jika Allah mengetahui ada kebaikan pada mereka, niscaya Dia akan menjadikan mereka mendengar. Dan jika Dia menjadikan mereka mendengar, mereka pasti akan berpaling padahal mereka sedang menghindar.) Dan (mereka berkata, \"Kami mendengar dan kami mendurhakai.\")",
+          "bn": "এবং তিনি, পরাক্রমশালী ও মহান বললেন: 'তারা কি কুরআনের প্রতি চিন্তা করে না, নাকি তাদের হৃদয়ে তাবিজ লাগানো হয়েছে?' (অথবা আল্লাহ কি তাদের হৃদয়ে মোহর লাগিয়ে দিয়েছেন, তাই তারা বুঝতে পারে না?) অথবা (তারা বলে, 'আমরা শুনছি,' কিন্তু তারা শোনে না। নিশ্চয়ই আল্লাহর নিকট জীবিত প্রাণীদের মধ্যে সর্বোত্তম হলেন সেই কর্ণধর ও মূক যারা বিবেচনা করে। আর যদি আল্লাহ তাদের মধ্যে কোনো কল্যাণ দেখতেন, তবে তিনি তাদের শুনতেন। আর যদি তিনি তাদের শুনতেন, তবে তারা ফিরে যেত, অথচ তারা পলায়ন করছিল।) এবং (তারা বলে, 'আমরা শুনছি এবং আমরা অবাধ্যতা করছি।')",
+          "es": "Y Él, el Poderoso y Exaltado, dijo: «¿Acaso no reflexionan sobre el Corán, o hay cerraduras sobre sus corazones?» (O bien, ¿ha puesto Alá un sello sobre sus corazones para que no comprendan?) O (dicen: «Oímos», pero no prestan atención. Ciertamente, los peores seres vivientes ante la vista de Alá son los sordos y mudos que no usan la razón. Y si Alá hubiera conocido algún bien en ellos, les habría hecho oír. Y si les hubiera hecho oír, se habrían vuelto atrás mientras evitaban). Y (dicen: «Oímos y desobedecemos»).",
+          "fr": "Et Lui, le Puissant et l'Exalté, a dit : « Ne méditent-ils donc pas le Coran, ou y a-t-il des verrous sur leurs cœurs ? » (Ou bien Allah a-t-Il mis un sceau sur leurs cœurs de sorte qu'ils ne comprennent pas ?) Ou (ont-ils dit : « Nous écoutons », mais ils n'écoutent pas. En vérité, les pires des animaux vivants, aux yeux d'Allah, sont les sourds et les muets qui n'usent pas de raison. Et si Allah avait connu du bien en eux, Il leur aurait fait entendre. Et s'Il leur avait fait entendre, ils se seraient détournés alors qu'ils évitaient.) Et (ils ont dit : « Nous écoutons et nous désobéissons »).",
+          "de": "Und Er, der Allmächtige und Erhabene, sprach: \"Reflektieren sie denn nicht über den Quran, oder sind ihre Herzen verschlossen?\" (Oder hat Allah ein Siegel auf ihre Herzen gesetzt, sodass sie nicht verstehen?) Oder (sie sprachen: \"Wir hören\", doch sie hören nicht. Wahrlich, die schlechtesten Geschöpfe bei Allah sind die Tauben und Stummen, die nicht begreifen. Und wenn Allah etwas Gutes in ihnen gewusst hätte, hätte Er sie hören lassen. Und wenn Er sie hätte hören lassen, wären sie umgekehrt, während sie sich abwandten.) Und (sie sprachen: \"Wir hören und sind ungehorsam.\")",
+          "ru": "И Он, Всевышний и Великий, сказал: «Разве они не размышляют над Кораном, или на их сердцах замки?» (Или Аллах поставил печать на их сердцах, чтобы они не понимали?) Или (они говорят: «Мы слышим», но не внимают. Поистине, худшие из живых существ перед Аллахом — это глухие и немые, которые не разумеют. И если бы Аллах знал в них какое-либо благо, Он даровал бы им слух. И если бы Он даровал им слух, они бы повернули вспять, будучи уклоняющимися.) И (они говорят: «Мы слышим и не слушаем»).",
+          "zh": "真主，至尊至贵者说：“难道他们不思考《古兰经》吗？还是他们的心被上了锁？”（或真主已封住他们的心，使他们不能理解。）或（他们说：“我们听见了”，但他们并不倾听。的确，在真主看来，最劣等的生物是那些聋哑且不用理智的人。如果真主在他们之中知道有任何善，他必使他们听见。如果他使他们听见，他们也会转身离去，因为他们正在逃避。）或（他们说：“我们听见了，但我们违抗。”）"
+        },
+        "word_start": 904,
+        "word_end": 952
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "بَلْ هُوَ (فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ). فَكَيْفَ لَهُمْ بِاخْتِيَارِ الْإِمَامِ وَالْإِمَامُ عَالِمٌ لَا يَجْهَلُ دَاعٍ لَا يَنْكُلُ مَعْدِنُ الْقُدْسِ وَالطَّهَارَةِ وَالنُّسُكِ وَالزَّهَادَةِ وَالْعِلْمِ وَالْعِبَادَةِ مَخْصُوصٌ بِدَعْوَةِ الرَّسُولِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ.",
+        "translations": {
+          "en": "Rather, it is 'The bounty of Allah, He gives to whom He wills. And Allah is the possessor of great bounty.' So how can they [claim] the choosing of the Imam, while the Imam is a scholar whom a caller does not make ignorant? The mine of holiness, purity, worship, asceticism, knowledge, and servitude does not shift. He is singled out by the call of the Messenger (peace be upon him and his family).",
+          "ur": "بلکہ یہ اللہ کا فضل ہے، وہ جسے چاہتا ہے عطا فرماتا ہے۔ اور اللہ بڑے فضل والا ہے۔ پس وہ امام کے انتخاب کا دعویٰ کیسے کر سکتے ہیں، حالانکہ امام ایک عالم ہیں جسے داعی جاہل نہیں بناتا۔ قدسیت، پاکی، عبادت، زہد، علم اور بندگی کا خزانہ منتقل نہیں ہوتا۔ وہ رسول اللہ (صلی اللہ علیہ و آلہ وسلم) کی دعوت سے ممتاز کیا گیا ہے۔",
+          "tr": "Hayır, bu Allah'ın lütfudur; O, dilediğine verir. Allah, büyük lütut sahibidir.",
+          "fa": "بلکه این فضل خداست که آن را به هر کس بخواهد می‌بخشد. و خداوند دارنده فضل بزرگ است. پس چگونه آنان [ادعا کنند] که انتخاب امام است، در حالی که امام دانشمندی است که مبلّغ او را نادان نمی‌داند؟ معدن قدسیّت، پاکی، عبادت، زهد، دانش و بندگی تغییر نمی‌کند. او به دعوت پیامبر (صلّی الله علیه و آله) برگزیده شده است.",
+          "id": "Melainkan, itu adalah karunia Allah, Dia memberikannya kepada siapa yang Dia kehendaki. Dan Allah adalah pemilik karunia yang besar.",
+          "bn": "বরং এটি আল্লাহর অনুগ্রহ, তিনি যাকে ইচ্ছা দান করেন। আর আল্লাহ মহান অনুগ্রহের অধিকারী। অতএব, তারা কীভাবে ইমামের নির্বাচনের দাবি করবে, অথচ ইমাম একজন আলেম যাকে ডাকার অজ্ঞান করে না। পবিত্রতা, শুদ্ধতা, ইবাদত, জেহাদ, জ্ঞান এবং বন্দেগীর খনি স্থানান্তরিত হয় না। তিনি রাসূল (আল্লাহর শান্তি ও বরকত হোক তাঁর ও তাঁর পরিবারের উপর) এর ডাকে বিশেষভাবে চিহ্নিত হয়েছেন।",
+          "es": "Sino que es la gracia de Allah, Él la otorga a quien quiere. Y Allah es el poseedor de una gran gracia. ¿Cómo pueden entonces [afirmar] la elección del Imam, cuando el Imam es un erudito a quien el llamador no hace ignorante? La mina de santidad, pureza, culto, ascetismo, conocimiento y servidumbre no cambia. Él es singled out por el llamamiento del Mensajero (que la paz sea con él y con su familia).",
+          "fr": "Non: Plutôt, c'est la grâce d'Allah, Il accorde à qui Il veut. Et Allah est détenteur d'une grande grâce. » Alors comment peuvent-ils [affirmer] le choix de l'Imam, alors que l'Imam est un savant qu'un crieur ne rend pas ignorant ? La mine de sainteté, de pureté, d'adoration, d'ascétisme, de connaissance et de servitude ne change pas. Il est désigné par l'appel du Messager (que la paix soit sur lui et sur sa famille).",
+          "de": "Vielmehr ist es die Gnade Allahs, die Er verleiht, wem Er will. Und Allah ist der Besitzer großer Gnade. Wie also können sie die Wahl des Imam beanspruchen, während der Imam ein Gelehrter ist, den ein Rufender nicht als unwissend betrachtet? Die Mine der Heiligkeit, Reinheit, Anbetung, Askese, Wissen und Knechtschaft verändert sich nicht. Er wird durch den Ruf des Gesandten (Friede sei mit ihm und seiner Familie) herausgehoben.",
+          "ru": "Нет, это милость Аллаха, Который дарует её тому, кого пожелает. И Аллах — Обладатель великой милости. Как же они могут утверждать избрание имама, тогда как имам — это учёный, которого призывающий не делает невежественным? Источник святости, чистоты, поклонения, аскетизма, знания и рабства не перемещается. Он выделен призывом Посланника (мир ему и его семье).",
+          "zh": "不，那是真主的恩惠，他赐予他所意欲的人。真主是拥有巨大恩惠的主。那么，他们怎能声称拥有伊玛目的选择权，而伊玛目是一位学者，召唤者不会使他无知？圣洁、纯洁、崇拜、苦修、知识和侍奉的宝库不会转移。他被使者（愿主福安之及其家属）的召唤所特别选中。"
+        },
+        "word_start": 952,
+        "word_end": 988
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَهُوَ نَسْلُ الْمُطَهَّرَةِ الْبَتُولِ، لَا مَغْمَزَ فِيهِ فِي نَسَبٍ وَلَا يُدَانِيهِ ذُو حَسَبٍ فِي الْبَيْتِ مِنْ قُرَيْشٍ وَالذِّرْوَةِ مِنْ هَاشِمٍ وَالْعِتْرَةِ مِنْ آلِ الرَّسُولِ وَالرِّضَا مِنَ اللَّهِ شَرَفُ الْأَشْرَافِ وَالْفَرْعُ مِنْ عَبْدِ مَنَافٍ نَامِي الْعِلْمِ كَامِلُ الْحِلْمِ مُضْطَلِعٌ بِالْإِمَامَةِ عَالِمٌ بِالسِّيَاسَةِ مَفْرُوضُ الطَّاعَةِ قَائِمٌ بِأَمْرِ اللَّهِ نَاصِحٌ لِعِبَادِ اللَّهِ حَافِظٌ لِدِينِ اللَّهِ.",
+        "translations": {
+          "en": "And he is the offspring of the purified, the Chaste (Fatima), with no flaw in his lineage, and no one of noble birth in the House from Quraysh, the peak from Hashim, and the Household from the Messenger's family approaches him. And the satisfaction of God is the nobility of the nobles, and the branch from Abd Manaf, growing in knowledge, perfect in forbearance, bearing the burden of Imamate, knowledgeable in politics, obedience to whom is obligatory, standing by the command of God, advising the servants of God, and protecting the religion of God.",
+          "ur": "اور وہ پاکیزہ نسلہِ طہارہ کی اولاد ہیں، پاکدامن (فاطمہؓ) جن کی نسلی سلسلے میں کوئی عیب نہیں، اور قریش کے خاندان میں سے کوئی بھی اعلیٰ نسب والا شخص ہاشم کی چوٹی سے ہے، اور رسول اللہ ﷺ کے خاندان کا گھر ان کی طرف مائل ہے۔ اور اللہ کی رضا ہی اعلیٰ لوگوں کی بلندی ہے، اور عبد مناف کی شاخ، علم میں پختہ، بردباری میں کامل، امامت کا بوجھ اٹھانے والے، سیاست میں ماہر، جن کی اطاعت فرض ہے، اللہ کے حکم پر کھڑے، اللہ کے بندوں کو نصیحت کرنے والے، اور اللہ کی دین کی حفاظت کرنے والے۔",
+          "tr": "O, paklanmış olanın (Fatıma) neslindendir, soyunda hiçbir kusur yoktur. Kureyş'ten olan Ehl-i Beyt'ten, Haşim'den yükselen zirveden olan soylular onlara yaklaşır. Allah'ın rızası, soyluların soyluluğudur. Abdümenaf'ın dalıdır, ilimde gelişmiş, sabırda mükemmel, imamet yükünü taşır, siyasette bilgili, ona itaat farzdır, Allah'ın emrinde durur, Allah'ın kullarına nasihat eder ve Allah'ın dinini korur.",
+          "fa": "و او از نسل پاکیزگان، پاکدامن (فاطمه)، بی‌عیب در نسب، و هر یک از بزرگان خاندان قریش، که اوج از هاشم، و خاندان از خانواده پیامبر به او نزدیک می‌شوند. و رضایت خداوند، شرافت شرافتمندان است، و شاخه‌ای از عبد مناف، که در دانش رشد می‌کند، کامل در بردباری، بار امامت را به دوش می‌کشد، دانا در سیاست، اطاعت از او واجب است، پایدار بر فرمان خدا، نصیحت‌کننده بندگان خدا، و محافظ دین خدا.",
+          "id": "Dan dia adalah keturunan dari yang disucikan, yaitu Al-Zahra' (Fatima), tanpa cacat dalam nasabnya, dan setiap orang yang mulia dari Bani Quraisy, puncak dari Bani Hasyim, serta Ahlul Bait dari keluarga Rasulullah ﷺ menghampirinya. Keridhaan Allah adalah kemuliaan para mulia, dan cabang dari Abd Manaf, yang bertumbuh dalam ilmu, sempurna dalam kesabaran, memikul beban imamah, ahli dalam politik, ketaatan kepadanya adalah wajib, teguh dalam perintah Allah, menasihati hamba-hamba Allah, dan menjaga agama Allah.",
+          "bn": "এবং তিনি পবিত্র বংশোদ্ভূত, কাসেম (ফাতিমা, যার বংশপরিচয়ে কোনো দোষ নেই, এবং কুরাইশের পরিবারের মধ্যে উৎকৃষ্টতম হাশিমের শীর্ষস্থানীয় ব্যক্তি, এবং রাসুলের পরিবারের পরিবার তাঁর কাছে উপস্থিত হয়। এবং আল্লাহর সন্তুষ্টি হলো নবাবদের মধ্যে নবাবের উৎকর্ষতা, এবং আবদুল মানাফের শাখা, জ্ঞানে বৃদ্ধি পেয়ে, ধৈর্যে নিখুঁত, ইমামতের ভার বহন করে, রাজনীতিতে দক্ষ, যার আনুগত্য আবশ্যক, আল্লাহর আদেশে দাঁড়িয়ে, আল্লাহর বান্দাদের পরামর্শদাতা, এবং আল্লাহর ধর্মের রক্ষক।",
+          "es": "Y él es la descendencia de los purificados, la Casta (Fátima), sin mancha en su linaje, y todo noble de la Casa de Quraysh, la cumbre de Hashim, y el Hogar de la familia del Mensajero se le acerca. Y la satisfacción de Dios es la nobleza de los nobles, y la rama de Abd Manaf, que crece en conocimiento, perfecta en tolerancia, que lleva la carga del Imamato, conocedor de la política, cuya obediencia es obligatoria, que permanece en el mandato de Dios, aconseja a los siervos de Dios, y protege la religión de Dios.",
+          "fr": "Et il est la descendance des purs, la Chaste (Fatima), sans défaut dans sa lignée, et nul de noble naissance dans la Maison de Quraysh, le sommet de Hashim, et le Foyer de la famille du Messager lui approche. Et la satisfaction de Dieu est la noblesse des nobles, et la branche d'Abd Manaf, croissant en connaissance, parfaite en patience, portant le fardeau de l'Imamat, savant en politique, dont l'obéissance est obligatoire, se tenant par le commandement de Dieu, conseillant les serviteurs de Dieu, et protégeant la religion de Dieu.",
+          "de": "Und er ist der Nachkomme der Gereinigten, der Reinen (Fatima), ohne Makel in seiner Abstammung, und jeder Edle aus dem Hause Quraysh, dem Gipfel aus Haschim, und die Familie des Gesandten nähern sich ihm. Und die Zufriedenheit Gottes ist die Ehre der Edlen, und der Zweig von Abd Manaf, wachsend in Wissen, vollkommen in Geduld, tragend die Last des Imamats, kundig in der Politik, dessen Gehorsam verpflichtend ist, stehend im Befehl Gottes, beratend die Diener Gottes, und schützend die Religion Gottes.",
+          "ru": "И он — потомок чистых, Пречистой (Фатимы), без изъяна в его родословной, и каждый благородный из рода Курайш, вершина из Хашима, и домочадцы из семьи Пророка приближаются к нему. И довольство Аллаха — это благородство благородных, ветвь от Абд Манафа, растущая в знании, совершенная в терпении, несущая бремя имама, сведущая в политике, повиновение которому обязательно, стоящая на повелении Аллаха, советующая рабам Аллаха и охраняющая религию Аллаха.",
+          "zh": "他是纯洁者、贞洁者（法蒂玛）的后裔，其族系毫无瑕疵，古莱氏家族中显贵之家哈希姆支系的最高峰，以及来自使者家族的家属都向他靠拢。真主的喜悦是尊贵者的尊贵，阿卜德·曼纳夫的后裔，在知识上成长，在忍耐上完美，承担伊玛目之重任，精通政治，服从他乃义务，坚守真主的命令，劝诫真主的仆从，守护真主的宗教。"
+        },
+        "word_start": 988,
+        "word_end": 1040
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ الْأَنْبِيَاءَ وَالْأَئِمَّةَ يُوفِّقُهُمُ اللَّهُ وَيُؤْتِيهِمْ مِنْ مَخْزُونِ عِلْمِهِ وَحُكْمِهِ مَا لَا يُؤْتِيهِ غَيْرَهُمْ فَيَكُونُ عِلْمُهُمْ فَوْقَ كُلِّ عِلْمِ أَهْلِ زَمَانِهِمْ فِي قَوْلِهِ تَبَارَكَ وَتَعَالَى: (أَفَمَنْ يَهْدِي إِلَى الْحَقِّ أَحَقُّ أَنْ يُتَّبَعَ أَمَّنْ لَا يَهِدِّي إِلَّا أَنْ يُهْدَىٰ فَمَا لَكُمْ كَيْفَ تَحْكُمُونَ).",
+        "translations": {
+          "en": "Indeed, God grants success to the Prophets and the Imams and gives them from the storehouse of His knowledge and wisdom what He does not give to others, so their knowledge is above all the knowledge of the people of their time, in His saying, the Blessed and Exalted: 'So is one whose burden is the best of guidance more worthy to be followed, or one who guides not unless he is guided? What [reason] have you, how do you judge?'",
+          "ur": "بے شک اللہ تعالیٰ انبیاء اور ائمہ کو کامیابی عطا فرماتا ہے اور انہیں اپنے علم و حکمت کے خزانے سے وہ چیزیں دیتا ہے جو دیگر لوگوں کو نہیں دیتا، لہٰذا ان کا علم اپنے زمانے کے لوگوں کے تمام علوم سے برتر ہے، جیسا کہ بابرکت اور بلند مرتبہ اللہ کا ارشاد ہے: 'تو کیا وہ شخص جس کا بوجھ بہترین ہدایت ہو، پیروی کے زیادہ مستحق ہے یا وہ شخص جو خود ہدایت یافتہ نہ ہو کر دوسروں کو ہدایت دے؟ تمہیں کیا بات ہے، تم کیسے فیصلہ کرتے ہو؟'}",
+          "tr": "Şüphesiz Allah, Peygamberlere ve İmamlara başarı verir ve ilim ve hikmet hazinesinden başkalarına vermediği şeyleri onlara verir; bu yüzden onların ilmi, kendi zamanlarının insanlarının ilminden üstündür. Allah'ın, Mübarek ve Yüce olanın şöyle buyurduğu gibi: 'En iyi hidayeti yük olarak taşıyan kim, takip edilmeye daha layıktır, yoksa kendisine hidayet verilmedikçe hidayet vermeyen kim? Sizin için ne gerekçe var, nasıl hükmedersiniz?'",
+          "fa": "همانا خداوند به پیامبران و امامان توفیق می‌دهد و از گنجینه دانش و حکمت خود به آنان آنچه به دیگران نمی‌دهد عطا می‌کند، پس دانش آنان برتر از دانش همه مردم زمانه‌شان است، به فرموده‌ی باری‌تعالی: «پس آیا کسی که بار هدایت بر دوش دارد شایسته‌تر است که پیروی شود یا کسی که مگر هدایت نشود هدایت نمی‌کند؟ چه دلیل دارید، چگونه حکم می‌کنید؟»",
+          "id": "Sesungguhnya, Allah memberikan kemenangan kepada para Nabi dan para Imam, dan memberikan kepada mereka dari perbendaharaan ilmu dan hikmah-Nya apa yang tidak diberikan-Nya kepada yang lain, sehingga ilmu mereka lebih unggul daripada seluruh ilmu manusia pada masa mereka, sesuai dengan firman-Nya, Yang Maha Berkehendak dan Maha Tinggi: 'Maka apakah orang yang memikul beban bimbingan yang terbaik lebih layak untuk diikuti, atau orang yang tidak memberi petunjuk kecuali jika ia diberi petunjuk? Apa alasanmu, bagaimana kamu menghukumi?'",
+          "bn": "নিশ্চয়ই আল্লাহ তায়ালা নবীদের এবং ইমামদের সাফল্য দান করেন এবং তাঁর জ্ঞান ও হিকমতের ভাণ্ডার থেকে তাদেরকে এমন কিছু দান করেন যা তিনি অন্যদের দেন না, ফলে তাদের জ্ঞান তাদের যুগের লোকদের সকল জ্ঞানের উপরে হয়, তাঁর বাক্যে, বরকতময় ও মহান: 'অতএব, যে ব্যক্তি শ্রেষ্ঠ পথনির্দেশনের বোঝা বহন করে, সে কি অনুসরণের যোগ্য, নাকি যে নিজে পথনির্দেশিত না হলে অন্যকে পথনির্দেশ করে না? তোমাদের কি কারণ আছে, তোমরা কীভাবে বিচার কর?' (সূরা যুহর: ১৭)",
+          "es": "En verdad, Dios concede el éxito a los Profetas y a los Imames y les otorga del tesoro de Su conocimiento y sabiduría lo que no concede a otros, por lo que su conocimiento está por encima de todo el conocimiento de la gente de su tiempo, según Su dicho, el Bendito y Exaltado: «¿Acaso es más digno de ser seguido aquel cuya carga es la mejor guía, o aquel que no guía a menos que sea guiado? ¿Qué [razón] tenéis, cómo juzgáis?»",
+          "fr": "En vérité, Dieu accorde la réussite aux Prophètes et aux Imams et leur donne, depuis le trésor de Son savoir et de Sa sagesse, ce qu'Il ne donne pas aux autres, de sorte que leur savoir surpasse tout le savoir des gens de leur époque, selon Sa parole, le Bienheureux et l'Exalté : « Est-ce donc celui qui porte le fardeau de la meilleure guidance qui est plus digne d'être suivi, ou celui qui ne guide pas à moins d'être guidé ? Quelle [raison] avez-vous, comment jugez-vous ? »",
+          "de": "Wahrlich, Gott verleiht den Propheten und den Imamen Erfolg und schenkt ihnen aus der Schatzkammer Seines Wissens und Seiner Weisheit, was Er anderen nicht gibt, sodass ihr Wissen über dem Wissen aller Menschen ihrer Zeit steht, gemäß Seinem Wort, dem Gepriesenen und Erhabenen: »Ist etwa einer, dessen Last die beste Führung ist, mehr folgewürdig, oder einer, der nicht führt, es sei denn, er wird geführt? Was [für ein Argument] habt ihr, wie urteilt ihr?«",
+          "ru": "Воистину, Аллах дарует успех Пророкам и Имамам и дает им из сокровищницы Своего знания и мудрости то, чего Он не дает другим, так что их знание превосходит знание всех людей их времени, согласно Его словам, Благословенного и Возвышенного: «Так неужели тот, чье бремя — наилучшее руководство, более достоин, чтобы следовать за ним, или тот, кто не руководит, если его не направляют? Чем вы руководствуетесь, как вы судите?»",
+          "zh": "的确，真主使众先知和伊玛目获得成功，并从他的知识和智慧的宝库中赐予他们所不赐予他人的东西，因此他们的知识高于同时代人们的知识，正如至圣至荣的真主所说：‘那背负着最佳引导的人，与那不被引导就不能引导他人的人，谁更值得追随呢？你们凭什么，你们如何判断？’"
+        },
+        "word_start": 1040,
+        "word_end": 1082
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَقَوْلِهِ عَزَّ وَجَلَّ: (وَمَنْ يُؤْتَ الْحِكْمَةَ فَقَدْ أُوتِيَ خَيْرًا كَثِيرًا). وَقَوْلِهِ عَزَّ وَجَلَّ فِي طَالُوتَ: (إِنَّ اللَّهَ اصْطَفَاهُ عَلَيْكُمْ وَزَادَهُ بَسْطَةً فِي الْعِلْمِ وَالْجِسْمِ وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ).",
+        "translations": {
+          "en": "And His saying, the Mighty and Exalted: 'And whoever is given wisdom has certainly been given much good.' And His saying, the Mighty and Exalted, regarding Talut: 'Indeed, Allah has chosen him over you and increased him in stature and knowledge. And Allah gives His sovereignty to whom He wills. And Allah is all-encompassing and Knowing.'\"",
+          "ur": "اور اس کی بات، عزت والے اور بلند مرتبے والے کی: \"اور جسے حکمت دی گئی ہے، اسے بے شک بہت سی خیر دی گئی ہے۔\" اور اس کی بات، عزت والے اور بلند مرتبے والے کی، طالوت کے بارے میں: \"بے شک اللہ نے اسے تم پر منتخب فرمایا اور اس میں قد اور علم کو بڑھایا۔ اور اللہ اپنی بادشاہت جسے چاہتا ہے عطا فرماتا ہے۔ اور اللہ ہر چیز کا احاطہ کرنے والا اور جاننے والا ہے۔\"",
+          "tr": "Allah’ın (celle şanü), \"Her kim hikmet verilmişse, şüphesiz ona çok hayır verilmiştir.\" mealindeki ayetinde bahsettiği gibi; Talut hakkında da, \"Şüphesiz Allah onu size seçti ve ilimde ve cisim bakımından artırdı. Allah, mülkünü dilediğine verir. Allah her şeyi kuşatandır, her şeyi bilendir.\" buyurmuştur.",
+          "fa": "و قول او، تعالی: «و هر که به حکمتی داده شود، به راستی به خیر بسیار داده شده است.» و قول او تعالی درباره طالوت: «همانا خداوند او را بر شما برتری داده و او را در قامت و دانش فزونی بخشیده است. و خداوند پادشاهی خود را به هر که بخواهد می‌دهد. و خداوند همه‌گیر و دانا است.»",
+          "id": "Dan firman-Nya, Yang Maha Perkasa lagi Maha Tinggi: \"Dan barangsiapa yang diberi hikmah, sungguh ia telah diberi kebaikan yang banyak.\" Dan firman-Nya, Yang Maha Perkasa lagi Maha Tinggi, mengenai Talut: \"Sesungguhnya Allah telah memilihnya atas kamu dan menambah kepandaiannya serta pengetahuannya. Dan Allah memberikan kerajaan-Nya kepada siapa yang dikehendaki-Nya. Dan Allah Maha Meliputi lagi Maha Mengetahui.\"",
+          "bn": "এবং তাঁর বাক্য, মহান ও উচ্চস্থানীয়: 'এবং যাকে হিকমত (জ্ঞান/প্রজ্ঞা) দেওয়া হয়েছে, নিশ্চয়ই তাকে প্রচুর কল্যাণ দেওয়া হয়েছে।' এবং তাঁর বাক্য, মহান ও উচ্চস্থানীয়, তালুত সম্পর্কে: 'নিশ্চয়ই আল্লাহ তাকে তোমাদের উপর নির্বাচন করেছেন এবং তাঁর মধ্যে দৈর্ঘ্য ও জ্ঞান বৃদ্ধি করেছেন। আর আল্লাহ তাঁর সুলতানাত (রাজত্ব/প্রভুত্ব) যাকে ইচ্ছা দান করেন। আর আল্লাহ সর্বব্যাপী এবং সর্বজ্ঞ।'",
+          "es": "Y Su dicho, el Poderoso y Sublime: «Y a quien se le haya concedido la sabiduría, ciertamente se le ha concedido mucho bien». Y Su dicho, el Poderoso y Sublime, respecto a Talut: «Ciertamente, Alá lo ha elegido sobre vosotros y lo ha agrandado en estatura y conocimiento. Y Alá otorga Su soberanía a quien quiere. Y Alá es Omnímodo y Conocedor».",
+          "fr": "Et Sa parole, le Puissant, l’Exalté : « Et à qui la sagesse est accordée, certes, un grand bien lui est donné. » Et Sa parole, le Puissant, l’Exalté, au sujet de Talut : « En vérité, Allah l’a choisi sur vous et l’a favorisé par une stature corporelle et par le savoir. Et Allah accorde Sa royauté à qui Il veut. Et Allah est Omniprésent et Omniscient. »",
+          "de": "Und Seine Worte, der Mächtige und Erhabene: „Und wem die Weisheit gegeben wird, dem ist gewiss viel Gutes gegeben worden.“ Und Seine Worte, der Mächtige und Erhabene, bezüglich Talut: „Wahrlich, Allah hat ihn euch vorgezogen und ihm Größe und Wissen vermehrt. Und Allah gibt Seine Herrschaft, wem Er will. Und Allah ist allumfassend und wissend.“",
+          "ru": "И Его слово, Всевышний и Великий: «И тому, кому дана мудрость, дано, поистине, много добра». И Его слово, Всевышний и Великий, относительно Талута: «Поистине, Аллах избрал его над вами и увеличил его рост и знание. И Аллах дарует Свою власть тому, кого пожелает. И Аллах — Всеведущий, Знающий».",
+          "zh": "真主尊贵至大的言论说：\"谁被赐予智慧，谁确已获赐了巨大的福分。\" 真主尊贵至大关于塔鲁特（Talut）的言论说：\"真主确已选立他超越你们，并且增加他的身材和知识。真主把祂的国权赐给谁，就赐给谁。真主是包含万有、全知的。\""
+        },
+        "word_start": 1082,
+        "word_end": 1114
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَقَالَ عَزَّ وَجَلَّ لِنَبِيِّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ: (وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا). وَقَالَ عَزَّ وَجَلَّ فِي الْأَئِمَّةِ مِنْ أَهْلِ بَيْتِهِ وَعِتْرَتِهِ وَذُرِّيَّتِهِ: (أَمْ يَحْسُدُونَ النَّاسَ عَلَىٰ مَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ فَقَدْ آتَيْنَا آلَ إِبْرَاهِيمَ الْكِتَابَ وَالْحِكْمَةَ وَآتَيْنَاهُمْ مُلْكًا عَظِيمًا).",
+        "translations": {
+          "en": "And He, the Mighty and Exalted, said to His Prophet (peace be upon him and his family): 'And great was the favor of Allah upon you.' And He, the Mighty and Exalted, said regarding the Imams from his Household, his offspring, and his descendants: 'Or do they envy people for what Allah has given them of His bounty? So we had given the family of Ibrahim the Book and wisdom and gave them a great kingdom.'\"",
+          "ur": "اور وہ جلیل القدر اور بلند مرتبہ نے اپنے نبی (صلی اللہ علیہ وآلہ وسلم) سے فرمایا: 'اور اللہ کا تم پر بہت بڑا فضل ہے۔' اور اس جلیل القدر اور بلند مرتبہ نے اپنے اہل بیت، اولاد اور نسل میں سے ائمہ کے بارے میں فرمایا: 'یا وہ لوگوں پر حسد کرتے ہیں کہ اللہ نے انہیں اپنے فضل سے عطا کیا ہے؟ پس ہم نے ابراہیم کے خاندان کو کتاب اور حکمت عطا کی اور انہیں ایک بڑا بادشاہت عطا کی۔'",
+          "tr": "Ve O, Azîz ve Celîl, Peygamberine (ona ve âline salât ve selâm olsun): 'Allah'ın sana olan nimeti büyüktür,' dedi. Ve O, Azîz ve Celîl, onun âlinden, neslinden ve soyundan olan İmamlar hakkında şöyle buyurdu: 'Ya onlar, Allah'ın lütfundan kendilerine verdiklerine insanları kıskanıyorlar mı? Şöyle ki, biz İbrahim ailesine Kitap'ı ve hikmeti verdik ve onlara büyük bir mülk bahşettik.'",
+          "fa": "و او، یگانه و برتر، به پیامبرش (صلی الله علیه و آله) فرمود: «و چه بزرگ بود نعمت خداوند بر تو.» و او، یگانه و برتر، درباره ائمه از خاندان، نسل و ذریه‌اش فرمود: «آیا به مردم حسادت می‌ورزند به آنچه خداوند از فضل خود به آنان عطا کرده است؟ پس ما به خاندان ابراهیم کتاب و حکمت دادیم و پادشاهی بزرگی به آنان بخشیدیم.»",
+          "id": "Dan Dia, Yang Maha Perkasa lagi Maha Tinggi, berfirman kepada Nabi-Nya (shalawat dan salam atasnya dan keluarganya): 'Dan sungguh besar nikmat Allah atasmu.' Dan Dia, Yang Maha Perkasa lagi Maha Tinggi, berfirman mengenai para Imam dari Ahlul Baitnya, keturunannya, dan para cicitnya: 'Ataukah mereka dengki terhadap manusia karena apa yang telah Allah berikan kepada mereka dari karunia-Nya? Maka sesungguhnya Kami telah memberikan Al-Kitab dan hikmah kepada keluarga Ibrahim, dan Kami berikan kepada mereka kerajaan yang besar.'",
+          "bn": "এবং তিনি, অতিশয় শক্তিশালী ও মহিমান্বিত, তাঁর নবীকে (তাঁর ও তাঁর পরিবারের উপর শান্তি বর্ষিত হোক) বললেন: 'আল্লাহর পক্ষ থেকে তোমাদের প্রতি যে অনুগ্রহ করা হয়েছে, তা অত্যন্ত বড়।' এবং তিনি, অতিশয় শক্তিশালী ও মহিমান্বিত, তাঁর পরিবারের ইমামদের, তাঁর সন্তানদের ও বংশধরদের বিষয়ে বললেন: 'তারা কি মানুষের প্রতি এমন অনুগ্রহের জন্য ঈর্ষা করে, যা আল্লাহ তাঁর দান থেকে তাদেরকে দিয়েছেন? অতএব, আমরা ইব্রাহীমের পরিবারকে কিতাব ও হিকমত দান করেছিলাম এবং তাদেরকে একটি মহান রাজত্ব প্রদান করেছিলাম।' ",
+          "es": "Y Él, el Poderoso y Exaltado, dijo a Su Profeta (que la paz sea con él y con su familia): «Y grande fue el favor de Alá sobre vosotros». Y Él, el Poderoso y Exaltado, dijo respecto a los Imames de su Casa, su descendencia y sus sucesores: «¿O envidian a las personas por lo que Alá les ha concedido de Su gracia? Así, dimos a la familia de Ibrahim el Libro y la sabiduría, y les otorgamos un gran reino».",
+          "fr": "Et Lui, le Puissant et l’Exalté, a dit à Son Prophète (que la paix soit sur lui et sur sa famille) : « Et grande fut la faveur d’Allah envers vous. » Et Lui, le Puissant et l’Exalté, a dit au sujet des Imams de sa Maison, de sa descendance et de ses descendants : « Ou bien envient-ils les gens pour ce qu’Allah leur a donné de Sa grâce ? Ainsi, Nous avons donné à la famille d’Ibrahim le Livre et la Sagesse, et Nous leur avons accordé un grand royaume. »",
+          "de": "Und Er, der Allmächtige und Erhabene, sprach zu Seinem Propheten (Friede sei mit ihm und seiner Familie): »Groß war die Gunst Allahs gegenüber euch.« Und Er, der Allmächtige und Erhabene, sprach bezüglich der Imame aus Seiner Familie, Seinem Nachkommen und Seinen Nachfolgern: »Oder neiden sie den Menschen das, was Allah ihnen aus Seiner Gnade gegeben hat? So haben Wir der Familie Ibrahims das Buch und die Weisheit gegeben und ihnen ein großes Königreich verliehen.«",
+          "ru": "И Он, Всевышний и Великий, сказал Своему Пророку (мир ему и его семье): «И велика милость Аллаха к вам». И Он, Всевышний и Великий, сказал об имамах из его семьи, его потомстве и его нисходящих: «Или они завидуют людям за то, что Аллах даровал им из Своей милости? Ведь Мы даровали семье Ибрахима Писание и мудрость и даровали им великое царство».",
+          "zh": "真主，至尊至荣的，对祂的使者（愿主福安之及其家属）说：‘真主确已施恩于你们。’祂，至尊至荣的，关于从他的家属、后裔和子孙中的伊玛目们说：‘难道他们嫉妒真主所赐给他们的恩惠吗？’于是，祂曾赐给易卜拉欣的家族经典和智慧，并赐给他们伟大的王国。'"
+        },
+        "word_start": 1114,
+        "word_end": 1155
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "(فَمِنْهُمْ مَنْ آمَنَ بِهِ وَمِنْهُمْ مَنْ صَدَّ عَنْهُ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا). وَإِنَّ الْعَبْدَ إِذَا اخْتَارَهُ اللَّهُ عَزَّ وَجَلَّ لِأُمُورِ عِبَادِهِ شَرَحَ صَدْرَهُ لِذَلِكَ وَأَوْدَعَ قَلْبَهُ يَنَابِيعَ الْحِكْمَةِ وَأَلْهَمَهُ الْعِلْمَ إِلْهَامًا فَلَمْ يَعْيَ بَعْدَهُ بِجَوَابٍ وَلَا يُحَيَّرُ فِيهِ عَنِ الصَّوَابِ.",
+        "translations": {
+          "en": "'Among them are those who believed in it, and among them are those who averted themselves from it. And sufficient is Hell as a blaze.' And indeed, when God, the Mighty and Exalted, chooses a servant for the affairs of His servants, He expands his chest for it, deposits in his heart the springs of wisdom, and inspires him with knowledge so that he does not tire after it with an answer, nor is he perplexed in it from the truth.",
+          "ur": "ان میں سے کچھ لوگ اس پر ایمان لائے اور ان میں سے کچھ لوگ اس سے منہ موڑنے والے ہیں۔ اور جہنم کافی ہے ایک شعلہ کے طور پر۔ اور بے شک جب اللہ تعالیٰ، جو کہ غالب اور بلند مرتبہ ہے، اپنے بندوں کے کاموں کے لیے ایک بندے کو منتخب کرتا ہے تو وہ اس کے سینے کو اس کے لیے کشادہ کر دیتا ہے، اس کے دل میں حکمت کے چشمے رکھ دیتا ہے، اور اسے علم سے متاثر کرتا ہے تاکہ وہ اس کے بعد جواب دینے میں تھک نہ جائے، نہ ہی اس میں سچائی سے الجھن کا شکار ہو۔",
+          "tr": "Onların arasında ona inananlar da vardır, onlardan yüz çevirenler de. Cehennem, bir alev olarak yeterlidir. Şüphesiz ki Allah, Azîz ve Celî, kullarının işleri için bir kulu seçtiğinde, onun göğsünü bunun için genişletir, kalbine hikmetin pınarlarını yerleştirir ve ona ilhamla bilgi verir ki, o bilgiyle cevap verirken yorulmasın ve hakikat karşısında şaşkına dönmesin.",
+          "fa": "از آنان کسانی هستند که به آن ایمان آوردند و از آنان کسانی هستند که روی گردانند. و جهنم به اندازه کافی شعله‌وری است. و همانا هنگامی که خداوند، توانا و برتر، بنده‌ای را برای امور بندگان خود برگزیند، سینه‌اش را برای آن گشاده می‌کند، چشمه‌های خرد را در دلش می‌نشاند و او را به دانش الهام می‌بخشد تا پس از آن با پاسخی خسته نشود و از حقیقت در آن پریشان نگردد.",
+          "id": "Di antara mereka ada yang beriman kepadanya, dan di antara mereka ada yang berpaling darinya. Dan cukuplah neraka sebagai api yang menyala-nyala. Dan sesungguhnya, ketika Allah Yang Maha Perkasa lagi Maha Tinggi memilih seorang hamba untuk urusan para hamba-Nya, Dia melapangkan dadanya untuk itu, menaruh di dalam hatinya sumber-sumber hikmah, dan mengilhaminya dengan ilmu sehingga ia tidak lelah setelahnya dengan sebuah jawaban, dan tidak bimbang di dalamnya dari kebenaran.",
+          "bn": "তাদের মধ্যে কেউ কেউ তাতে ঈমান এনেছে, আর তাদের মধ্যে কেউ কেউ তা থেকে মুখ ফিরিয়ে নিয়েছে। আর জাহান্নামই যথেষ্ট প্রজ্বলিত আগুন। আর নিশ্চয়ই, যখন মহান ও উচ্চস্থানীয় আল্লাহ তাঁর বান্দাদের কাজের জন্য একজন বান্দাকে নির্বাচন করেন, তখন তিনি তার বক্ষ প্রশস্ত করে দেন, তার হৃদয়ে জ্ঞানের উৎস স্থাপন করেন, এবং তাকে জ্ঞান দ্বারা অনুপ্রাণিত করেন, যাতে সে এর উত্তরে ক্লান্ত না হয়, এবং সত্য থেকে বিভ্রান্ত না হয়।",
+          "es": "Entre ellos hay quienes creyeron en él, y entre ellos hay quienes se apartaron de él. Y basta el Infierno como un fuego ardiente. Y ciertamente, cuando Dios, el Poderoso y Exaltado, elige a un siervo para los asuntos de sus siervos, Él expande su pecho para ello, deposita en su corazón las fuentes de la sabiduría, y le inspira conocimiento para que no se canse tras ello con una respuesta, ni se confunda en ello respecto a la verdad.",
+          "fr": "Parmi eux, il y a ceux qui y ont cru, et parmi eux, il y a ceux qui s'en sont détournés. Et l'Enfer suffit comme flamboyante fournaise. Et certes, lorsque Dieu, le Puissant et l'Exalté, choisit un serviteur pour les affaires de Ses serviteurs, Il élargit sa poitrine à cet effet, dépose en son cœur les sources de la sagesse, et lui inspire la connaissance afin qu'il ne se lasse pas après cela d'une réponse, et qu'il ne soit pas perplexe face à la vérité.",
+          "de": "Unter ihnen sind diejenigen, die daran glaubten, und unter ihnen sind diejenigen, die sich davon abwandten. Und ausreichend ist die Hölle als ein Feuer. Und wahrlich, wenn Gott, der Mächtige und Erhabene, einen Diener für die Angelegenheiten Seiner Diener erwählt, erweitert Er seine Brust dafür, lässt in seinem Herzen die Quellen der Weisheit fließen und inspiriert ihn mit Wissen, sodass er nach einer Antwort nicht müde wird und sich in ihr nicht von der Wahrheit verwirren lässt.",
+          "ru": "Среди них есть те, кто уверовал в него, и среди них есть те, кто отвратился от него. И достаточно будет Геенны как пылающий огонь. И поистине, когда Аллах, Всемогущий и Всевышний, избирает раба для дел Своих рабов, Он расширяет его грудь для этого, помещает в его сердце источники мудрости и вдохновляет его знанием, так что он не утомляется после этого ответом, и не смущается в нем из-за истины.",
+          "zh": "其中有信从者，也有回避者。火狱足以成为烈焰。当真主，至尊至贵者，为仆人的事务拣选一个仆人时，他使他的胸怀为之开阔，将智慧的源泉倾注于其心中，并赋予他知识，使他不因回答而疲倦，也不因真理而困惑。"
+        },
+        "word_start": 1155,
+        "word_end": 1194
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَهُوَ مَعْصُومٌ مُؤَيَّدٌ مُوَفَّقٌ مُسَدَّدٌ قَدْ أَمِنَ الْخَطَايَا وَالزَّلَالَ وَالْعِثَارَ. يَخُصُّهُ اللَّهُ عَزَّ وَجَلَّ بِذَلِكَ لِيَكُونَ حُجَّتَهُ عَلَى عِبَادِهِ وَشَاهِدَهُ عَلَى خَلْقِهِ وَذَلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ.",
+        "translations": {
+          "en": "And he is infallible, supported, successful, and directed. He has been safe from sins, slips, and stumbles. God, the Mighty and Exalted, singles him out with that so that he may be His proof upon His servants and His witness over His creation. And that is the bounty of Allah, which He gives to whom He wills. And Allah is the possessor of great bounty.",
+          "ur": "اور وہ معصوم، مدد یافتہ، کامیاب اور ہدایت یافتہ ہیں۔ ان پر گناہوں، لغزشوں اور پھسلنوں سے حفاظت کی گئی ہے۔ اللہ تعالیٰ نے انہیں اس لیے خاص کیا ہے تاکہ وہ اس کے بندوں پر دلیل اور اس کی مخلوق پر گواہ بن سکیں۔ اور یہ اللہ کی نعمت ہے جسے وہ جسے چاہتا ہے عطا فرماتا ہے۔ اور اللہ بڑی نعمت والا ہے۔",
+          "tr": "O, masumdur, desteklenendir, başarılıdır ve hidayete erdirilmiştir. Günahlardan, hatalardan ve kaymalardan emin kılınmıştır. Allah, Azîz ve Celî, O'nu kulları üzerinde delil ve yaratışı üzerinde şahit kılmak için bu özelliği O'na has etmiştir. İşte bu, Allah'ın lûtfudur; O, dilediğine verir. Allah, büyük lûttur.",
+          "fa": "و او معصوم، مورد تأیید، پیروز و هدایت‌شده است. او از گناهان، لغزش‌ها و اشتباهات در امان بوده است. خداوند، توانا و برتر، او را به این ویژگی‌ها متمایز گردانیده تا حجت خدا بر بندگان و گواه او بر مخلوقاتش باشد. و این فضل خداست که به هر کس بخواهد عطا می‌کند. و خداوند دارای فضل بزرگ است.",
+          "id": "Dan beliau adalah orang yang ma'shum, mendapat pertolongan, meraih kemenangan, dan diberi petunjuk. Beliau telah terjaga dari dosa, kelalaian, dan kesalahan. Allah Yang Maha Perkasa dan Maha Tinggi memilih beliau dengan karunia itu agar beliau menjadi hujjah-Nya atas hamba-hamba-Nya dan saksi-Nya atas makhluk-Nya. Dan itulah karunia Allah, yang diberikan-Nya kepada siapa yang dikehendaki-Nya. Dan Allah adalah pemilik karunia yang besar.",
+          "bn": "এবং তিনি অশ্রান্ত, সমর্থিত, সফল এবং পরিচালিত। তিনি পাপ, ভুল এবং পতন থেকে রক্ষিত। মহান ও উচ্চস্থানীয় আল্লাহ তাঁকে এই বৈশিষ্ট্য দিয়ে বিশেষ করেছেন যাতে তিনি তাঁর বান্দাদের উপর তাঁর প্রমাণ এবং তাঁর সৃষ্টির উপর তাঁর সাক্ষী হতে পারেন। এবং এটি আল্লাহর অনুগ্রহ, যা তিনি যাকে ইচ্ছা দান করেন। এবং আল্লাহ মহান অনুগ্রহের অধিকারী।",
+          "es": "Y él es infalible, apoyado, exitoso y guiado. Ha estado a salvo de pecados, errores y tropiezos. Dios, el Poderoso y Exaltado, lo distingue con ello para que sea Su prueba sobre Sus siervos y Su testigo sobre Su creación. Y esa es la gracia de Allah, que concede a quien quiere. Y Allah es poseedor de gran gracia.",
+          "fr": "Et il est infaillible, soutenu, victorieux et guidé. Il a été préservé des péchés, des erreurs et des fautes. Dieu, le Puissant et l'Exalté, le distingue par cela afin qu'il soit Son argument auprès de Ses serviteurs et Son témoin sur Sa création. Et c'est la grâce dotation d'Allah, qu'Il accorde à qui Il veut. Et Allah est détenteur d'une grande grâce.",
+          "de": "Und er ist unfehlbar, unterstützt, erfolgreich und geleitet. Er war sicher vor Sünden, Irrtümern und Fehlern. Gott, der Mächtige und Erhabene, zeichnet ihn damit aus, damit er Sein Beweis unter Seinen Dienern und Sein Zeuge über Seine Schöpfung sei. Und das ist die Gunst Allahs, die Er gibt, wem Er will. Und Allah ist der Besitzer großer Gunst.",
+          "ru": "И он безгрешен, поддерживаем, успешен и направлен. Он был защищён от грехов, ошибок и промахов. Аллах, Всевышний и Великий, избрал его для этого, чтобы он стал Его доводом среди Его рабов и Его свидетелем над Его творением. И это милость Аллаха, которую Он дарует тому, кого пожелает. И Аллах — обладатель великой милости.",
+          "zh": "他是无谬的，被支持的，成功的，被引导的。他免于罪恶、过失和失误。真主，至高至大的，特别拣选他，使他成为真主对其仆人的证据，对其众生的见证。这就是真主的恩惠，他赐予他所意欲的人。真主是拥有巨大恩惠的主。"
+        },
+        "word_start": 1194,
+        "word_end": 1226
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَهَلْ يَقْدِرُونَ عَلَى مِثْلِ هَذَا فَيَخْتَارُوهُ أَوْ يَكُونُ مُخْتَارُهُمْ بِهَذِهِ الصِّفَةِ فَيُقَدِّمُوهُ؟ تَعَدَّوْا وَبَيْتِ اللَّهِ الْحَقَّ وَنَبَذُوا كِتَابَ اللَّهِ وَرَاءَ ظُهُورِهِمْ كَأَنَّهُمْ لَا يَعْلَمُونَ.",
+        "translations": {
+          "en": "So can they have power over something like this so they choose him, or is their chosen one with this characteristic so they present him? They transgressed and the House of God is true, and they threw the Book of God behind their backs, as if they do not know.",
+          "ur": "تو کیا وہ ایسی چیز پر اختیار رکھتے ہیں کہ وہ اسے منتخب کریں، یا ان کا منتخب کردہ شخص اس صفت کے ساتھ ہے کہ وہ اسے پیش کرتے ہیں؟ انہوں نے سرکشی کی اور خدا کا گھر سچا ہے، اور انہوں نے خدا کی کتاب کو اپنے پیچھے پھینک دیا، گویا وہ نہیں جانتے۔",
+          "tr": "Peki ya, böyle bir şeye güçleri mi var da onu seçiyorlar, yoksa bu özelliğe sahip olan seçilmişleri mi var da onu sunuyorlar? Onlar taşkınlık ettiler ve Allah'ın Evi hakikattir; Allah'ın Kitabını da arkalarına attılar, sanki bilmiyorlarmış gibi.",
+          "fa": "پس آیا آنان بر چیزی مانند این قدرت دارند که او را برگزینند، یا آنکه کسی که با این ویژگی برگزیده شده است، آنان او را معرفی می‌کنند؟ آنان ستم کردند و خانه خدا حقیقت است، و آنان کتاب خدا را پشت سر انداختند، گویی که نمی‌دانند.",
+          "id": "Maka apakah mereka memiliki kekuasaan atas sesuatu seperti ini sehingga mereka memilihnya, atau apakah orang yang mereka pilih dengan karakteristik ini sehingga mereka mempresentasikannya? Mereka melampaui batas dan Rumah Allah adalah kebenaran, dan mereka melemparkan Kitab Allah ke belakang punggung mereka, seakan-akan mereka tidak tahu.",
+          "bn": "তবে কি তারা এমন কিছুতে ক্ষমতা রাখে যাতে তারা তাকে নির্বাচন করে, অথবা তাদের পছন্দের ব্যক্তি এই বৈশিষ্ট্যসম্পন্ন হওয়ায় তারা তাকে উপস্থাপন করে? তারা সীমালঙ্ঘন করেছে এবং আল্লাহর ঘর সত্য, এবং তারা আল্লাহর কিতাবকে তাদের পিছনে ফেলে দিয়েছে, যেন তারা জানে না।",
+          "es": "¿Acaso tienen poder sobre algo así para elegirlo, o es su elegido con esta característica para presentarlo? Transgredieron y la Casa de Dios es verdadera, y arrojaron el Libro de Dios detrás de sí el Libro de Dios como si no supieran.",
+          "fr": "Alors, ont-ils le pouvoir sur quelque chose comme cela, qu'ils le choisissent, ou bien est-ce que leur élu, avec cette caractéristique, est celui qu'ils présentent ? Ils ont transgressé, et la Maison de Dieu est la vérité, et ils ont jeté le Livre de Dieu derrière leur dos, comme s'ils ne savaient pas.",
+          "de": "So können sie Macht über etwas wie dies haben, sodass sie ihn wählen, oder ist ihr Auserwählter mit dieser Eigenschaft ausgestattet, sodass sie ihn vorlegen? Sie überschritten die Grenzen, und das Haus Gottes ist wahr, und sie warfen das Buch Gottes hinter ihren Rücken, als ob sie es nicht wüssten.",
+          "ru": "Разве они могут иметь власть над чем-то подобным, чтобы избрать его, или же их избранный обладает такой характеристикой, чтобы они представили его? Они превысили границы, а Дом Бога истинен, и они отбросили Книгу Бога за спину, словно не знают.",
+          "zh": "那么他们能有权柄选择他吗？还是说他们以这种特征选择他，然后呈现他？他们越轨，真主的殿堂是真实的，他们将真主的经典抛在身后，仿佛他们不知道。"
+        },
+        "word_start": 1226,
+        "word_end": 1250
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَفِي كِتَابِ اللَّهِ الْهُدَى وَالشِّفَاءُ فَنَبَذُوهُ وَاتَّبَعُوا أَهْوَاءَهُمْ فَذَمَّهُمُ اللَّهُ وَمَقَتَهُمْ وَأَتْعَسَهُمْ فَقَالَ عَزَّ وَجَلَّ: (وَمَنْ أَضَلُّ مِمَّنِ اتَّبَعَ هَوَاهُ بِغَيْرِ هُدًى مِنَ اللَّهِ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ).",
+        "translations": {
+          "en": "And in the Book of God is guidance and healing, so they threw it aside and followed their desires. So God censured them, hated them, and made them wretched, saying, the Mighty and Exalted: 'And who is more astray than one who follows his desire without guidance from Allah? Indeed, Allah does not guide the wrongdoing people.'\"",
+          "ur": "اور اللہ کی کتاب میں ہدایت اور شفا ہے، پس انہوں نے اسے ٹھکرا دیا اور اپنی خواہشات کی پیروی کی۔ پس اللہ نے انہیں سرزنش کی، ان سے ناراض ہوا اور انہیں بے چارہ بنا دیا، یہ کہتے ہوئے کہ غالب و برتر ہے: 'اور کون زیادہ گمراہ ہے جو اللہ کی ہدایت کے بغیر اپنی خواہش کی پیروی کرے؟ بے شک اللہ ظالموں کو ہدایت نہیں دیتا۔'",
+          "tr": "Allah'ın Kitabında hidayet ve şifa vardır; onlar ise onu bir kenara bırakıp heveslerine uydular. Allah da onları kınadı, onlardan yüz çevirdi ve onları perişan etti; Yüce ve Azîz olan şöyle buyurdu: \"Hakkında Allah'tan bir hidayet olmadan hevesine uyan kimden daha saptırılmıştır? Şüphesiz Allah, zalimler topluluğunu hidayete erdirmez.\"",
+          "fa": "و در کتاب خدا هدایت و شفا هست، پس آن را رها کردند و از هوای نفس خود پیروی نمودند. پس خداوند آنان را سرزنش کرد، از آنان بیزار شد و آنان را بدبخت گردانید، و فرمود: «جبار و متعال: و چه کسی گمراه‌تر از کسی است که بدون هدایت الهی از هوای نفس خود پیروی کند؟ بی‌گمان خداوند قوم ستمگر را هدایت نمی‌کند.»",
+          "id": "Dan dalam Kitab Allah terdapat petunjuk dan penyembuh, maka mereka melemparkannya dan mengikuti hawa nafsu mereka. Maka Allah mencela mereka, membenci mereka, dan menjadikan mereka sengsara, berfirman, Yang Maha Perkasa lagi Maha Tinggi: 'Dan siapakah yang lebih sesat daripada orang yang mengikuti hawa nafsunya tanpa petunjuk dari Allah? Sesungguhnya Allah tidak memberi petunjuk kepada orang-orang yang zalim.'",
+          "bn": "আল্লাহর কিতাবে রয়েছে পথপ্রদর্শন ও শিফা, অথচ তারা তাকে পাশ কাটিয়ে দিল এবং নিজেরা হাওয়া-হুব্বের অনুসরণ করল। তাই আল্লাহ তাদেরকে দোষারোপ করলেন, তাদের প্রতি অসন্তুষ্ট হলেন, এবং তাদেরকে কষ্টে ফেললেন, বলেছেন, মহান ও উচ্চস্থানীয় আল্লাহ: 'যে ব্যক্তি আল্লাহর পথপ্রদর্শন ছাড়া নিজের হাওয়া-হুব্বের অনুসরণ করে, তার চেয়ে বেশি পথভ্রষ্ট কে? নিশ্চয়ই আল্লাহ জালিম সম্প্রদায়কে পথপ্রদর্শন করেন না।'",
+          "es": "Y en el Libro de Dios hay guía y sanación, pero ellos lo dejaron de lado y siguieron sus deseos. Por ello Dios los censuró, los aborreció y los hizo desdichados, diciendo, el Poderoso y Exaltado: «¿Y quién está más extraviado que aquel que sigue su deseo sin guía de Allah? Ciertamente, Allah no guía a la gente adúltera.»",
+          "fr": "Et dans le Livre d'Allah se trouvent le guide et la guérison, mais ils l'ont écarté pour suivre leurs passions. Allah les a donc blâmés, leur a voué de la haine et les a rendus malheureux, disant, le Puissant et l'Exalté : « Et qui est plus égaré que celui qui suit sa passion sans guide d'Allah ? En vérité, Allah ne guide pas les gens pervers. »",
+          "de": "Und im Buch Gottes ist Führung und Heilung, doch sie warfen es beiseite und folgten ihren Begierden. Da tadelte sie Gott, hasste sie und machte sie unglücklich, indem Er sprach, der Mächtige und Erhabene: „Und wer ist weiter vom rechten Weg abgeirrt als der, der seiner Begierde folgt, ohne Führung von Allah? Wahrlich, Allah führt die Übeltäter nicht.“",
+          "ru": "И в Книге Аллаха есть руководство и исцеление, но они отвергли её и последовали за своими желаниями. Поэтому Аллах укорил их, возненавидел их и сделал несчастными, сказав: «Всемогущий и Всевышний: «Кто же более заблудился, чем тот, кто следует за своим желанием без руководства от Аллаха? Воистину, Аллах не направляет несправедливых людей».",
+          "zh": "在真主的经典中有引导和医治，但他们将其抛诸脑后，追随私欲。于是真主责备他们，厌恶他们，使他们陷入悲惨境地，说道：全能至大者说：‘谁比那些追随私欲、而无真主引导的人更迷误呢？真主不引导不义的人们。’"
+        },
+        "word_start": 1250,
+        "word_end": 1280
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَقَالَ عَزَّ وَجَلَّ: (فَتَعْسًا لَهُمْ وَأَضَلَّ أَعْمَالَهُمْ). وَقَالَ عَزَّ وَجَلَّ: (كَبُرَ مَقْتًا عِنْدَ اللَّهِ وَعِنْدَ الَّذِينَ آمَنُوا كَذَلِكَ يَطْبَعُ اللَّهُ عَلَىٰ كُلِّ قَلْبِ مُتَكَبِّرٍ جَبَّارٍ).",
+        "translations": {
+          "en": "And He, the Mighty and Exalted, said: 'So woe to them and He rendered ineffective their deeds.' And He, the Mighty and Exalted, said: 'Great is hatred in the sight of Allah and in the sight of those who believe. Thus does Allah set a seal on every heart of an arrogant tyrant.'\"",
+          "ur": "اور وہ غالب و برتر نے فرمایا: پس ان کے لیے پک ہے اور ان کے اعمال کو بے اثر کر دیا۔ اور وہ غالب و برتر نے فرمایا: اللہ کی نظر میں اور مومنوں کی نظر میں نفرت بڑی ہے۔ اسی طرح اللہ ہر جابر ظالم کے دل پر مہر لگا دیتا ہے۔",
+          "tr": "Ve O, Azîz ve Müteâl buyurdu: 'İşte onlara elâmet var ve O, onların amellerini boşa çıkardı.' Ve O, Azîz ve Müteâl buyurdu: 'Allah katında ve inananlar yanında büyük bir nefret vardır. Allah, her gururlu zalimin kalbine mühür vurur.'",
+          "fa": "و او، یگانه و برتر، فرمود: «پس وای بر آنان و او، یگانه و برتر، فرمود: «بزرگ است کینه در پیشگاه خداوند و در پیشگاه کسانی که ایمان آورده‌اند. این‌گونه خداوند بر هر دلِ ظالمِ متکبر مهر می‌زند.»",
+          "id": "Dan Dia, Yang Maha Perkasa lagi Maha Tinggi, berfirman: 'Maka celakalah mereka dan Dia menjadikan sia-sia amal perbuatan mereka.' Dan Dia, Yang Maha Perkasa lagi Maha Tinggi, berfirman: 'Besar kebencian di sisi Allah dan di sisi orang-orang yang beriman. Demikianlah Allah mengunci setiap hati orang yang sombong dan zalim.'",
+          "bn": "এবং তিনি, অতিশয় শক্তিমান ও মহিমান্বিত, বললেন: 'অতএব তাদের জন্য হায় হায়!' এবং তিনি তাদের কর্মফল বিনষ্ট করে দিলেন। এবং তিনি, অতিশয় শক্তিমান ও মহিমান্বিত, বললেন: 'আল্লাহর দরবারে এবং বিশ্বাসীদের নিকট ঘৃণা মহান। এভাবেই আল্লাহ অহংকারী জালিমের প্রতিটি হৃদয়ে মোহর লাগিয়ে দেন।' ",
+          "es": "Y Él, el Poderoso y Exaltado, dijo: «Así que ay de ellos y Él hizo inútiles sus obras». Y Él, el Poderoso y Exaltado, dijo: «Grande es el odio ante Allah y ante los que creen». Así es como Allah sella cada corazón de un tirano arrogante.",
+          "fr": "Et",
+          "de": "Und Er, der Allmächtige und Erhabene, sprach: »Darum Wehe ihnen!« Und Er machte ihre Taten zunichte. Und Er, der Allmächtige Erhabene, sprach: »Groß ist der Hass bei Allah und bei denen, die glauben. So versiegelt Allah jedes Herz eines hochmütigen Tyrannen.«",
+          "ru": "И Он, Всевышний и Великий, сказал: «Так горе им, и Он сделал тщетными их дела». И Он, Всевышний и Великий, сказал: «Велика ненависть у Аллаха и у верующих. Так Аллах запечатывает каждое сердце высокомерного тирана».",
+          "zh": "真主，至尊至贵者说：‘故祸哉他们，真主使他们的行为无效。’真主，至尊至贵者说：‘真主眼中，信士眼中，仇恨是伟大的。’真主就这样在每一个傲慢的暴君心中盖下印记。"
+        },
+        "word_start": 1280,
+        "word_end": 1305
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this discourse from *Uyun Akhbar al-Rida*, Imam al-Rida refutes the Sunni concept of *Ikhtiyar* (elective leadership) by arguing that since God completed the religion with the verse of *Tamyim al-Ni'mah* (5:3), the Imamate must be an integral, divinely appointed pillar rather than a human selection. He establishes the Imamate as a third rank after Prophethood and *Khullah* (intimacy), citing the covenant with Ibrahim (2:124) to prove it is hereditary within the *Ahl al-Bayt*, thereby rendering human intellect insufficient for choosing the leader. The Imam is portrayed as the infallible *Hujjah* (proof) of God, possessing unique divine knowledge and authority, serving as the axis upon which the practical implementation of Islam depends.",
+        "seo_question": "What is the significance of Imamate in the perfection of religion according to al-Rida (AS)?",
+        "key_terms": {
+          "إِمَامَة": "Imamate (Divine Leadership/Guidance)",
+          "تَمَامُ الدِّينِ": "Perfection of the Religion",
+          "أَهْلُ الصَّفْوَةِ": "The People of Purity/Chosen Ones",
+          "مَعْصُومٌ": "Infallible",
+          "حُجَّةُ اللَّهِ": "Proof of God",
+          "الْخُلَّةُ": "Divine Friendship (of Ibrahim)"
+        }
+      },
+      "ur": {
+        "summary": "اسلامی اصطلاحات کے ساتھ اردو ترجمہ: اس خطبے میں *عیون اخبار الرضا* سے امام الرضا (ع) سنّی تصوراتِ اختیار (انتخابی قیادت) کی تردید کرتے ہیں۔ ان کا استدلال ہے کہ چونکہ اللہ تعالیٰ نے آیتِ تمیم النعمۃ (5:3) کے ذریعے دین کو کامل کر دیا، اس لیے امامت ایک ایسا بنیادی ستون ہے جو الہی تعین شدہ ہے، نہ کہ انسانی انتخاب۔ امام الرضا (ع) امامت کو نبوت اور خُلّت (قرب الہی) کے بعد تیسری مرتبہ قرار دیتے ہیں اور حضرت ابراہیم (ع) سے کیے گئے عہد (2:124) کا حوالہ دیتے ہوئے ثابت کرتے ہیں کہ یہ قیادت اہل بیت میں وراثتی ہے، لہٰذا انسانی عقل قیادت کے انتخاب کے لیے کافی نہیں۔ امام کو اللہ کا معصوم حجت (دلیل) دکھایا گیا ہے، جو منفرد الہی علم اور اختیار کا حامل ہے، اور عملی اسلام کی تطبیق اسی محور پر منحصر ہے۔",
+        "seo_question": "امام الرضا (ع) کے نزدیک دین کی کمال میں امامت کی اہمیت کیا ہے؟",
+        "key_terms": {
+          "إِمَامَة": "امامت",
+          "تَمَامُ الدِّينِ": "تمام الدین",
+          "أَهْلُ الصَّفْوَةِ": "اہل الصفوۃ",
+          "مَعْصُومٌ": "معصوم",
+          "حُجَّةُ اللَّهِ": "حجۃ اللہ",
+          "الْخُلَّةُ": "خلت"
+        }
+      },
+      "tr": {
+        "summary": "İmam er-Rıza, *Uyun Akhbar er-Rida* eserindeki bu konuşmasında, Allah'ın *Tamyim er-Ni'me* ayeti (5:3) ile dini tamamladığına göre, İmamet'in insan seçimi değil, ilahi olarak tayin edilmiş, dinin ayrılmaz bir direği olduğunu ileri sürerek Sünni *İhtiyar* (seçmeli liderlik) kavramını reddeder. İbrahim (a.s.) ile yapılan ahit (2:124) ayetini referans alarak İmamet'in Peygamberlik ve *Hülle* (yakınlık) mertebelerinden sonra gelen üçüncü bir rütbe ve *Ehl er-Beyt* içinde miras yoluyla geçen bir statü olduğunu kanıtlar, böylece lider seçimi için insan aklının yetersiz olduğunu gösterir. İmam, ilahi bilgi ve yetkiye sahip, Allah'ın kusursuz *Hücceti* (delili) olarak tasvir edilir ve İslam'ın pratik uygulamasının dayandığı eksen işlevini görür.",
+        "seo_question": "Er-Rıza'ya (a.s.) göre dinin kemaline İmamet'in önemi nedir?",
+        "key_terms": {
+          "إِمَامَة": "İmamet",
+          "تَمَامُ الدِّينِ": "Dinin Kemali",
+          "أَهْلُ الصَّفْوَةِ": "Safiyun Ehl-i",
+          "مَعْصُومٌ": "Masımm",
+          "حُجَّةُ اللَّهِ": "Hüccetullah",
+          "الْخُلَّةُ": "Hülle"
+        }
+      },
+      "fa": {
+        "summary": "در این گفتار از عین اخبار الرضا، امام رضا (ع) مفهوم اختیار (رهبری انتخابی) اهل سنت را رد می‌کند و استدلال می‌ورزد که از آنجا که خداوند دین را با آیه تمام‌النعمه (۵:۳) کامل کرد، امامت باید ستونی integral و الهی باشد نه انتخاب انسانی. او امامت را رتبه‌ای سوم پس از نبوت و خلت (صمیمیت) معرفی می‌کند و با استناد به پیمان با ابراهیم (۱۲۴:۲) ثابت می‌کند که این مقام در اهل بیت موروثی است، بنابراین عقل انسانی برای انتخاب رهبر کافی نیست. امام به عنوان حجت معصوم خداوند، دارای دانش و اقتدار الهی منحصر به فرد است و محور اجرای عملی اسلام محسوب می‌شود.",
+        "seo_question": "اهمیت امامت در کمال دین از دیدگاه امام رضا (ع) چیست؟",
+        "key_terms": {
+          "إِمَامَة": "امامت",
+          "تَمَامُ الدِّينِ": "کمال دین",
+          "أَهْلُ الصَّفْوَةِ": "اهل صفوت",
+          "مَعْصُومٌ": "معصوم",
+          "حُجَّةُ اللَّهِ": "حجت الله",
+          "الْخُلَّةُ": "خلت"
+        }
+      },
+      "id": {
+        "summary": "Dalam wacana dari *Uyun Akhbar al-Rida*, Imam al-Rida membantah konsep Sunni tentang *Ikhtiyar* (kepemimpinan pilihan) dengan berargumen bahwa karena Allah menyempurnakan agama dengan ayat *Tamyim al-Ni'mah* (5:3), maka Imamate harus menjadi pilar yang integral dan ditunjuk secara ilahi, bukan pilihan manusia. Ia menetapkan Imamate sebagai tingkatan ketiga setelah Kenabian dan *Khullah* (keakraban), dengan merujuk pada perjanjian dengan Ibrahim (2:124) untuk membuktikan bahwa hal itu bersifat hereditas dalam *Ahl al-Bayt*, sehingga menjadikan akal manusia tidak cukup untuk memilih pemimpin. Imam digambarkan sebagai *Hujjah* (bukti) Allah yang tidak salah (*ma'sum*), memiliki pengetahuan dan otoritas ilahi yang unik, serta menjadi poros di mana implementasi praktis Islam bergantung.",
+        "seo_question": "Apa signifikansi Imamate dalam penyempurnaan agama menurut al-Rida (AS)?",
+        "key_terms": {
+          "إِمَامَة": "Imamate (Kepemimpinan Ilahi/Pemanduan)",
+          "تَمَامُ الدِّينِ": "Penyempurnaan Agama",
+          "أَهْلُ الصَّفْوَةِ": "Kaum Suci/Orang-orang Terpilih",
+          "مَعْصُومٌ": "Tidak Salah",
+          "حُجَّةُ اللَّهِ": "Bukti Allah",
+          "الْخُلَّةُ": "Persahabatan Ilahi (dari Ibrahim)"
+        }
+      },
+      "bn": {
+        "summary": "উত্তর: ",
+        "seo_question": "আল-রিদা (আ.)-এর মতে ধর্মের পূর্ণতায় ইমামতের গুরুত্ব কী?",
+        "key_terms": {
+          "إِمَامَة": "ইমামত",
+          "تَمَامُ الدِّينِ": "ধর্মের পূর্ণতা",
+          "أَهْلُ الصَّفْوَةِ": "পবিত্রতা ও নির্বাচিতদের পরিবার",
+          "مَعْصُومٌ": "মাসুম",
+          "حُجَّةُ اللَّهِ": "আল্লাহর প্রমাণ",
+          "الْخُلَّةُ": "খিল্লাত"
+        }
+      },
+      "es": {
+        "summary": "En este discurso de *Uyun Akhbar al-Rida*, el-Reda*, el Imam al-R el-Reda refuta el concepto suní de *Ikhtiyar* (elección humana) argumentando que, dado que Dios completó la religión con el versículo de *Tamyim al-Ni'mah* (5:3), el Imamato debe ser un pilar integral y divinamente nombrado, en lugar de una selección humana. Establece el Imamato como un tercer rango después de la Profecía y la *Khullah* (intimidad), citando el pacto con Ibrahim (2:124) para demostrar que es hereditario dentro de la *Ahl al-Bayt*, haciendo así insuficiente el intelecto humano para elegir al líder. El Imam es retratado como el *Hujjah* infalible de Dios, poseyendo conocimiento y autoridad divinas únicas, sirviendo como el eje sobre el cual depende la implementación práctica del Islam.",
+        "seo_question": "¿Cuál es la importancia del Imamato en la perfección de la religión según al-Rida (AS)?",
+        "key_terms": {
+          "إِمَامَة": "Imamato (Liderazgo/Guía Divina)",
+          "تَمَامُ الدِّينِ": "Perfección de la Religión",
+          "أَهْلُ الصَّفْوَةِ": "La Gente de la Pureza/Los Elegidos",
+          "مَعْصُومٌ": "Infalible",
+          "حُجَّةُ اللَّهِ": "Prueba de Dios",
+          "الْخُلَّةُ": "Amistad Divina (de Ibrahim)"
+        }
+      },
+      "fr": {
+        "summary": "Dans ce discours tiré d'*Uyun Akhbar al-Rida*, l'Imam al-Rida réfute le concept sunnite de l'*Ikhtiyar* (élection humaine) en soutenant que, puisque Dieu a achevé la religion par le verset le verset de *Tamyim al-Ni'mah* (5:3), l'Imamat doit être un pilier divin et intégré plutôt qu'une sélection humaine. Il établit l'Imamat comme un troisième rang après la Prophétie et la *Khullah* (intimité), citant l'alliance avec Ibrahim (2:124) pour prouver qu'il est héréditaire au sein de l'*Ahl al-Bayt*, rendant ainsi l'intellect humain insuffisant pour choisir le leader. L'Imam est présenté comme le *Hujjah* (preuve) infaillible de Dieu, possédant une connaissance et une autorité divines uniques, servant d'axe sur lequel dépend la mise en pratique de l'Islam.",
+        "seo_question": "Quelle est l'importance de l'Imamat dans la perfection de la religion selon al-Rida (AS) ?",
+        "key_terms": {
+          "إِمَامَة": "Imamat",
+          "تَمَامُ الدِّينِ": "Perfection de la Religion",
+          "أَهْلُ الصَّفْوَةِ": "Les Gens de la Pureté",
+          "مَعْصُومٌ": "Infaillible",
+          "حُجَّةُ اللَّهِ": "Preuve de Dieu",
+          "الْخُلَّةُ": "Amitié Divine"
+        }
+      },
+      "de": {
+        "summary": "In dieser Aussprache aus *Uyun Akhbar al-Rida* widerlegt Imam al-Rida das sunnitische Konzept der *Ikhtiyar* (wahlweise Führung), indem er argumentiert, dass Gott die Religion mit der Vers der *Tamyim al-Ni'mah* (5:3) vervollständigt habe; folglich müsse das Imamatsamt eine integraler, göttlich ernannter Pfeiler sein und keine menschliche Auswahl. Er etabliert das Imamatsamt als dritten Rang nach der Prophetie und der *Khullah* (Intimität) und zitiert den Bund mit Ibrahim (2:124), um zu beweisen, dass es innerhalb der *Ahl al-Bayt* erblich ist, wodurch die menschliche Intelligenz für die Wahl des Führers unzureichend wird. Der Imam wird als unfehlbarer *Hujjah* (Beweis) Gottes dargestellt, der einzigartiges göttliches Wissen und Autorität besitzt und als Achse dient, auf der die praktische Umsetzung des Islam beruht.",
+        "seo_question": "Welche Bedeutung hat das Imamatsamt für die Vervollkommnung der Religion gemäß al-Rida (AS)?",
+        "key_terms": {
+          "إِمَامَة": "Imamat",
+          "تَمَامُ الدِّينِ": "Vervollkommnung der Religion",
+          "أَهْلُ الصَّفْوَةِ": "Die Leute der Reinheit/Auserwählten",
+          "مَعْصُومٌ": "Unfehlbar",
+          "حُجَّةُ اللَّهِ": "Beweis Gottes",
+          "الْخُلَّةُ": "Göttliche Freundschaft (von Ibrahim)"
+        }
+      },
+      "ru": {
+        "summary": "В этом дискурсе из «Уюн Ахбар ар-Рида» Имаму ар-Рида опровергает суннитскую концепцию *ихтияра* (избирательного лидерства), утверждая, что поскольку Аллах завершил религию аятом *тамма ан-ни‘ма* (5:3), имамат должен быть неотъемлемым, божественно установленным столпом, а не результатом человеческого выбора. Он определяет имамат как третью ступень после пророчества и *хуллы* (близости), ссылаясь на завет с Ибрахимом (2:124), чтобы доказать, что он является наследственным в рамках *Ахль аль-Байт*, тем самым делая человеческий разум недостаточным для выбора лидера. Имам изображается как непогрешимый *хаджжа* (доказательство) Аллаха, обладающий уникальным божественным знанием и властью, служащий осью, от которой зависит практическая реализация ислама.",
+        "seo_question": "Каково значение имамата в совершенствовании религии согласно ар-Рида (АС)?",
+        "key_terms": {
+          "إِمَامَة": "Имамат",
+          "تَمَامُ الدِّينِ": "Совершенствование религии",
+          "أَهْلُ الصَّفْوَةِ": "Люди чистоты/избранные",
+          "مَعْصُومٌ": "Непогрешимый",
+          "حُجَّةُ اللَّهِ": "Доказательство Аллаха",
+          "الْخُلَّةُ": "Божественная дружба (Ибрахима)"
+        }
+      },
+      "zh": {
+        "summary": "在《优雍·阿克巴尔·阿尔·里达》的这段论述中，伊玛目·里达驳逊尼派的伊智亚尔（选举领导权）概念，主张既然真主通过塔米姆·尼姆哈（5:3）经文完成了宗教，伊玛目必须是integral且由真主任命的支柱，而非人为选择。他确立伊玛目为继先知和胡勒（亲密关系）之后的第三等级，引用易卜拉欣的盟约（2:124）证明其属于艾赫勒·拜特（圣裔）的血统继承，从而证明人类理智不足以选择领袖。伊玛目被描绘为真主无误的胡贾（证据），拥有独特的神圣知识和权威，是伊斯兰实践实施的轴心。",
+        "seo_question": "根据里达（愿主喜悦之），伊玛目在宗教完善中的意义是什么？",
+        "key_terms": {
+          "إِمَامَة": "伊玛目",
+          "تَمَامُ الدِّينِ": "宗教的完美",
+          "أَهْلُ الصَّفْوَةِ": "纯洁之人/被选者",
+          "مَعْصُومٌ": "无误的",
+          "حُجَّةُ اللَّهِ": "真主的证据",
+          "الْخُلَّةُ": "神圣友谊（易卜拉欣的）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "10:82",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:3",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:124",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:256",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:173",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:65",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "41:44",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:3",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:216",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "98:1",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَبُو الْقَاسِمِ بْنُ مُحَمَّدِ بْنِ عَلِيٍّ الْهَارُونِيُّ قَالَ: حَدَّثَنِي أَبُو حَامِدٍ عِمْرَانُ بْنُ مُوسَى بْنِ إِبْرَاهِيمَ عَنِ الْحَسَنِ بْنِ الْقَاسِمِ الرَّقَّامِ قَالَ: حَدَّثَنِي الْقَاسِمُ بْنُ مُسْلِمٍ، عَنْ أَخِيهِ عَبْدُ الْعَزِيزِ بْنِ مُسْلِمٍ قَالَ: كُنَّا فِي أَيَّامِ عَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ بِمَرْوَ فَاجْتَمَعْنَا فِي مَسْجِدِ جَامِعِهَا فِي يَوْمِ جُمُعَةٍ فِي بَدْءِ مَقْدَمِنَا فَأَدَارَ النَّاسُ أَمْرَ الْإِمَامَةِ وَذَكَرُوا كَثْرَةَ اخْتِلَافِ النَّاسِ فِيهَا فَدَخَلْتُ عَلَى سَيِّدِي وَمَوْلَايَ الرِّضَا فَأَعْلَمْتُهُ مَا خَاضَ النَّاسُ فِيهِ فَتَبَسَّمَ ثُمَّ قَالَ يَا عَبْدَ الْعَزِيزِ جَهِلَ الْقَوْمُ وَخُدِعُوا عَنْ أَدْيَانِهِمْ إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى لَمْ يَقْبِضْ نَبِيَّهُ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ حَتَّى أَكْمَلَ لَهُ الدِّينَ وَأَنْزَلَ عَلَيْهِ الْقُرْآنَ فِيهِ تَفْصِيلُ كُلِّ شَيْءٍ بَيَّنَ فِيهِ الْحَلَالَ وَالْحَرَامَ وَالْحُدُودَ وَالْأَحْكَامَ وَجَمِيعَ مَا يَحْتَاجُ إِلَيْهِ النَّاسُ كَمَلاً (مَا فَرَّطْنَا فِي الْكِتَابِ مِنْ شَيْءٍ) وَأَنْزَلَ فِي حَجَّةِ الْوَدَاعِ وَهِيَ آخِرُ عُمُرِهِ (الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا). وَأَمْرُ الْإِمَامَةِ مِنْ تَمَامِ الدِّينِ وَلَمْ يَمْضِ عَلَيْهِ السَّلَامُ حَتَّى بَيَّنَ لأمَّتِهِ مَعَالِمَ دِينِهِ وَأَوْضَحَ لَهُمْ سُبُلَهُ وَتَرَكَهُمْ عَلَى قَصْدِ الْحَقِّ وَأَقَامَ لَهُمْ عَلِيًّا عَلَيْهِ السَّلَامُ عَلَمًا وَإِمَامًا وَمَا تَرَكَ شَيْئًا تَحْتَاجُ إِلَيْهِ الْأُمَّةُ إِلَّا بَيَّنَهُ فَمَنْ زَعَمَ أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُكْمِلْ دِينَهُ فَقَدْ رَدَّ كِتَابَ اللَّهِ عَزَّ وَجَلَّ وَمَنْ رَدَّ كِتَابَ اللَّهِ فَهُوَ كَافِرٌ. هَلْ يَعْرِفُونَ قَدْرَ الْإِمَامَةِ وَمَحَلَّهَا مِنَ الْأُمَّةِ فَيَجُوزَ فِيهَا اخْتِيَارُهُمْ؟ إِنَّ الْإِمَامَةَ أَجَلُّ قَدْرًا وَأَعْظَمُ شَأْنًا وَأَعْلَى مَكَانًا وَأَمْنَعُ جَانِبًا وَأَبْعَدُ غَوْراً مِنْ أَنْ يَبْلُغَهَا النَّاسُ بِعُقُولِهِمْ أَوْ يَنَالُوهَا بِآرَائِهِمْ أَوْ يُقِيمُوا إِمَامًا بِاخْتِيَارِهِمْ إِنَّ الْإِمَامَةَ خَصَّ اللَّهُ عَزَّ وَجَلَّ بِهَا إِبْرَاهِيمَ الْخَلِيلَ عَلَيْهِ السَّلَامُ بَعْدَ النُُّبُوَّةِ وَالْخُلَّةِ مَرْتَبَةً ثَالِثَةً وَفَضِيلَةً شَرَّفَهُ بِهَا وَأَشَادَ بِهَا ذِكْرَهُ فَقَالَ عَزَّ وَجَلَّ: (إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا). فَقَالَ الْخَلِيلُ عَلَيْهِ السَّلَامُ سُرُوراً بِهَا (وَمِنْ ذُرِّيَّتِي). قَالَ اللَّهُ عَزَّ وَجَلَّ: (لَا يَنَالُ عَهْدِي الظَّالِمِينَ) فَأَبْطَلَتْ هَذِهِ الْآيَةُ إِمَامَةَ كُلِّ ظَالِمٍ إِلَى يَوْمِ الْقِيَامَةِ وَصَارَتْ فِي الصَّفْوَةِ. ثُمَّ أَكْرَمَهُ اللَّهُ بِأَنْ جَعَلَهَا فِي ذُرِّيَّتِهِ أَهْلَ الصَّفْوَةِ وَالطَّهَارَةِ فَقَالَ عَزَّ وَجَلَّ: (وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ نَافِلَةً وَكُلًّا جَعَلْنَا صَالِحِينَ وَجَعَلْنَاهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَا إِلَيْهِمْ فِعْلَ الْخَيْرَاتِ وَإِقَامَ الصَّلَاةِ وَإِيتَاءَ الزَّكَاةِ وَكَانُوا لَنَا عَابِدِينَ) فَلَمْ تَزَلْ فِي ذُرِّيَّتِهِ يَرِثُهَا بَعْضٌ عَنْ بَعْضٍ قَرْنًا فَقَرْنًا حَتَّى وَرِثَهَا النَّبِيُّ فَقَالَ اللَّهُ جَلَّ جَلَالُهُ: (إِنَّ أَوْلَى النَّاسِ بِإِبْرَاهِيمَ لَلَّذِينَ اتَّبَعُوهُ وَهَذَا النَّبِيُّ وَالَّذِينَ آمَنُوا وَاللَّهُ وَلِيُّ الْمُؤْمِنِينَ). فَكَانَتْ لَهُ خَاصَّةً فَقَلَّدَهَا صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ عَلِيًّا عَلَيْهِ السَّلَامُ بِأَمْرِ اللَّهِ عَزَّ وَجَلَّ عَلَى رَسْمِ مَا فَرَضَهَا اللَّهُ فَصَارَتْ فِي ذُرِّيَّتِهِ الْأَصْفِيَاءِ الَّذِينَ آتَاهُمُ اللَّهُ الْعِلْمَ وَالْإِيمَانَ بِقَوْلِهِ عَزَّ وَجَلَّ: (وَقَالَ الَّذِينَ أُوتُوا الْعِلْمَ وَالْإِيمَانَ لَقَدْ لَبِثْتُمْ فِي كِتَابِ اللَّهِ إِلَى يَوْمِ الْبَعْثِ) فَهِيَ فِي وُلْدِ عَلِيٍّ عَلَيْهِ السَّلَامُ خَاصَّةً إِلَى يَوْمِ الْقِيَامَةِ إِذْ لَا نَبِيَّ بَعْدَ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. فَمِنْ أَيْنَ يَخْتَارُ هَؤُلَاءِ الْجُهَّالُ؟ إِنَّ الْإِمَامَةَ هِيَ مَنْزِلَةُ الْأَنْبِيَاءِ وَإِرْثُ الْأَوْصِيَاءِ. إِنَّ الْإِمَامَةَ خِلَافَةُ اللَّهِ عَزَّ وَجَلَّ وَخِلَافَةُ الرَّسُولِ وَمَقَامُ أَمِيرِ الْمُؤْمِنِينَ وَمِيرَاثُ الْحَسَنِ وَالْحُسَيْنِ عَلَيْهِمَا السَّلَامُ. إِنَّ الْإِمَامَةَ زِمَامُ الدِّينِ وَنِظَامُ الْمُسْلِمِينَ وَصَلَاحُ الدُّنْيَا وَعِزُّ الْمُؤْمِنِينَ. إِنَّ الْإِمَامَةَ أُسُّ الْإِسْلَامِ النَّامِي وَفَرْعُهُ السَّامِي. بِالْإِمَامِ تَمَامُ الصَّلَاةِ وَالزَّكَاةِ وَالصِّيَامِ وَالْحَجِّ وَالْجِهَادِ وَتَوْفِيرُ الْفَيْءِ وَالصَّدَقَاتِ وَإِمْضَاءُ الْحُدُودِ وَالْأَحْكَامِ وَمَنْعُ الثُّغُورِ وَالْأَطْرَافِ. وَالْإِمَامُ يُحَلِّلُ حَلَالَ اللَّهِ وَيُحَرِّمُ حَرَامَ اللَّهِ وَيُقِيمُ حُدُودَ اللَّهِ وَيَذُبُّ عَنْ دِينِ اللَّهِ وَيَدْعُو إِلَى سَبِيلِ رَبِّهِ بِالْحِكْمَةِ وَالْمَوْعِظَةِ الْحَسَنَةِ وَالْحُجَّةِ الْبَالِغَةِ. الْإِمَامُ كَالشَّمْسِ الطَّالِعَةِ لِلْعَالَمِ وَهِيَ فِي الْأُفُقِ بِحَيْثُ لَا تَنَالُهُ الْأَيْدِي وَالْأَبْصَارُ. الْإِمَامُ الْبَدْرُ الْمُنِيرُ وَالسِّرَاجُ الزَّاهِرُ وَالنُّورُ السَّاطِعُ وَالنَّجْمُ الْهَادِي فِي غَيَاهِبِ الدُّجَى وَالْبَلَدِ الْقِفَارِ وَلُجَجِ الْبِحَارِ. الْإِمَامُ الْمَاءُ الْعَذْبُ عَلَى الظَّمَإِ وَالدَّالُّ عَلَى الْهُدَى وَالْمُنْجِي مِنَ الرَّدَى. الْإِمَامُ النَّارُ عَلَى الْيَفَاعِ الْحَارُّ لِمَنِ اصْطَلَى بِهِ وَالدَّلِيلُ فِي الْمَهَالِكِ مَنْ فَارَقَهُ فَهَالِكٌ. الْإِمَامُ السَّحَابُ الْمَاطِرُ وَالْغَيْثُ الْهَاطِلُ وَالشَّمْسُ الْمُضِيئَةُ وَالسَّمَاءُ الظَّلِيلَةُ وَالْأَرْضُ الْبَسِيطَةُ وَالْعَيْنُ الْغَزِيرَةُ وَالْغَدِيرُ وَالرَّوْضَةُ. الْإِمَامُ الْأَمِينُ الرَّفِيقُ وَالْأَخُ الشَّقِيقُ [الشَّفِيقُ] وَمَفْزَعُ الْعِبَادِ فِي الدَّاهِيَةِ. الْإِمَامُ أَمِينُ اللَّهِ فِي أَرْضِهِ وَحُجَّتُهُ عَلَى عِبَادِهِ وَخَلِيفَتُهُ فِي بِلَادِهِ الدَّاعِي إِلَى اللَّهِ وَالذَّابُّ عَنْ حُرَمِ اللَّهِ. الْإِمَامُ الْمُطَهَّرُ مِنَ الذُّنُوبِ الْمُبَرَّأُ مِنَ الْعُيُوبِ مَخْصُوصٌ بِالْعِلْمِ مَوْسُومٌ بِالْحِلْمِ نِظَامُ الدِّينِ وَعِزُّ الْمُسْلِمِينَ وَغَيْظُ الْمُنَافِقِينَ وَبَوَارُ الْكَافِرِينَ. الْإِمَامُ وَاحِدُ دَهْرِهِ لَا يُدَانِيهِ أَحَدٌ وَلَا يُعَادِلُهُ عَالِمٌ وَلَا يُوجَدُ مِنْهُ بَدَلٌ وَلَا لَهُ مِثْلٌ وَلَا نَظِيرٌ. مَخْصُوصٌ بِالْفَضْلِ كُلِّهِ مِنْ غَيْرِ طَلَبٍ مِنْهُ لَهُ وَلَا اكْتِسَابٍ بَلِ اخْتِصَاصٌ مِنَ الْمُفْضِلِ الْوَهَّابِ. فَمَنْ ذَا الَّذِي يَبْلُغُ مَعْرِفَةَ الْإِمَامِ وَيُمْكِنُهُ اخْتِيَارُهُ؟ هَيْهَاتَ هَيْهَاتَ ضَلَّتِ الْعُقُولُ وَتَاهَتِ الْحُلُومُ وَحَارَتِ الْأَلْبَابُ وَحَسَرَتِ الْعُيُونُ وَتَصَاغَرَتِ الْعُظَمَاءُ وَتَحَيَّرَتِ الْحُكَمَاءُ وَتَقَاصَرَتِ الْحُلَمَاءُ وَحَصِرَتِ الْخُطَبَاءُ وَجَهِلَتِ الْأَلِبَّاءُ وَكَلَّتِ الشُّعَرَاءُ وَعَجَزَتِ الْأُدَبَاءُ وَعَيِيَتِ الْبُلَغَاءُ عَنْ وَصْفِ شَأْنٍ مِنْ شَأْنِهِ أَوْ فَضِيلَةٍ مِنْ فَضَائِلِهِ. فَأَقَرَّتْ بِالْعَجْزِ وَالتَّقْصِيرِ. وَكَيْفَ يُوصَفُ أَوْ يُنْعَتُ بِكُنْهِهِ أَوْ يُفْهَمُ شَيْءٌ مِنْ أَمْرِهِ أَوْ يُوجَدُ مَنْ يَقُومُ مَقَامَهُ وَيُغْنِي غَنَاءَهُ؟ لَا كَيْفَ وَأَنَّى وَهُوَ بِحَيْثُ النَّجْمُ مِنْ أَيْدِي الْمُتَنَاوِلِينَ وَوَصْفِ الْوَاصِفِينَ. فَأَيْنَ الْاخْتِيَارُ مِنْ هَذَا وَأَيْنَ الْعُقُولُ عَنْ هَذَا؟ أَوْ أَيْنَ يُوجَدُ مِثْلُ هَذَا؟ ظَنُّوا أَنَّ ذَلِكَ يُوجَدُ فِي غَيْرِ آلِ الرَّسُولِ صَلَّى اللَّهُ عَلَيْهِمْ. كَذَبَتْهُمْ وَاللَّهِ أَنْفُسُهُمْ وَمَنَّتْهُمُ الْبَاطِلَ فَارْتَقَوْا مُرْتَقًى صَعْبًا دَحْضًا تَزِلُّ عَنْهُ إِلَى الْحَضِيضِ أَقْدَامُهُمْ. رَامُوا إِقَامَةَ الْإِمَامَةِ بِعُقُولٍ حَائِرَةٍ بَائِرَةٍ نَاقِصَةٍ وَآرَاءٍ مُضِلَّةٍ فَلَمْ يَزْدَادُوا مِنْهُ إِلَّا بُعْدًا: (قَاتَلَهُمُ اللَّهُ أَنَّى يُؤْفَكُونَ). لَقَدْ رَامُوا صَعْبًا وَقَالُوا إِفْكًا وَضَلُّوا ضَلَالًا بَعِيدًا وَوَقَعُوا فِي الْحَيْرَةِ إِذْ تَرَكُوا الْإِمَامَ عَنْ بَصِيرَةٍ. (وَزَيَّنَ لَهُمُ الشَّيْطَانُ أَعْمَالَهُمْ فَصَدَّهُمْ عَنِ السَّبِيلِ وَكَانُوا مُسْتَبْصِرِينَ). رَغِبُوا عَنِ اخْتِيَارِ اللَّهِ وَاخْتِيَارِ رَسُولِهِ إِلَى اخْتِيَارِهِمْ وَالْقُرْآنُ يُنَادِيهِمْ: (وَرَبُّكَ يَخْلُقُ مَا يَشَاءُ وَيَخْتَارُ مَا كَانَ لَهُمُ الْخِيَرَةُ). (سُبْحَانَ اللَّهِ وَتَعَالَى عَمَّا يُشْرِكُونَ). وَقَالَ عَزَّ وَجَلَّ: (وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَنْ يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ). وَقَالَ عَزَّ وَجَلَّ: (مَا لَكُمْ كَيْفَ تَحْكُمُونَ أَمْ لَكُمْ كِتَابٌ فِيهِ تَدْرُسُونَ إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ أَمْ لَكُمْ أَيْمَانٌ عَلَيْنَا بَالِغَةٌ إِلَى يَوْمِ الْقِيَامَةِ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ سَلْهُمْ أَيُّهُمْ بِذَلِكَ زَعِيمٌ أَمْ لَهُمْ شُرَكَاءُ فَلْيَأْتُوا بِشُرَكَائِهِمْ إِنْ كَانُوا صَادِقِينَ). وَقَالَ عَزَّ وَجَلَّ: (أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ أَمْ عَلَى قُلُوبٍ أَقْفَالُهَا). (أَمْ طَبَعَ اللَّهُ عَلَى قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ). أَمْ (قَالُوا سَمِعْنَا وَهُمْ لَا يَسْمَعُونَ إِنَّ شَرَّ الدَّوَابِّ عِنْدَ اللَّهِ الصُّمُّ الْبُكْمُ الَّذِينَ لَا يَعْقِلُونَ وَلَوْ عَلِمَ اللَّهُ فِيهِمْ خَيْرًا لَأَسْمَعَهُمْ وَلَوْ أَسْمَعَهُمْ لَتَوَلَّوْا وَهُمْ مُعْرِضُونَ). وَ(قَالُوا سَمِعْنَا وَعَصَيْنَا). بَلْ هُوَ (فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ). فَكَيْفَ لَهُمْ بِاخْتِيَارِ الْإِمَامِ وَالْإِمَامُ عَالِمٌ لَا يَجْهَلُ دَاعٍ لَا يَنْكُلُ مَعْدِنُ الْقُدْسِ وَالطَّهَارَةِ وَالنُّسُكِ وَالزَّهَادَةِ وَالْعِلْمِ وَالْعِبَادَةِ مَخْصُوصٌ بِدَعْوَةِ الرَّسُولِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. وَهُوَ نَسْلُ الْمُطَهَّرَةِ الْبَتُولِ، لَا مَغْمَزَ فِيهِ فِي نَسَبٍ وَلَا يُدَانِيهِ ذُو حَسَبٍ فِي الْبَيْتِ مِنْ قُرَيْشٍ وَالذِّرْوَةِ مِنْ هَاشِمٍ وَالْعِتْرَةِ مِنْ آلِ الرَّسُولِ وَالرِّضَا مِنَ اللَّهِ شَرَفُ الْأَشْرَافِ وَالْفَرْعُ مِنْ عَبْدِ مَنَافٍ نَامِي الْعِلْمِ كَامِلُ الْحِلْمِ مُضْطَلِعٌ بِالْإِمَامَةِ عَالِمٌ بِالسِّيَاسَةِ مَفْرُوضُ الطَّاعَةِ قَائِمٌ بِأَمْرِ اللَّهِ نَاصِحٌ لِعِبَادِ اللَّهِ حَافِظٌ لِدِينِ اللَّهِ. إِنَّ الْأَنْبِيَاءَ وَالْأَئِمَّةَ يُوفِّقُهُمُ اللَّهُ وَيُؤْتِيهِمْ مِنْ مَخْزُونِ عِلْمِهِ وَحُكْمِهِ مَا لَا يُؤْتِيهِ غَيْرَهُمْ فَيَكُونُ عِلْمُهُمْ فَوْقَ كُلِّ عِلْمِ أَهْلِ زَمَانِهِمْ فِي قَوْلِهِ تَبَارَكَ وَتَعَالَى: (أَفَمَنْ يَهْدِي إِلَى الْحَقِّ أَحَقُّ أَنْ يُتَّبَعَ أَمَّنْ لَا يَهِدِّي إِلَّا أَنْ يُهْدَىٰ فَمَا لَكُمْ كَيْفَ تَحْكُمُونَ). وَقَوْلِهِ عَزَّ وَجَلَّ: (وَمَنْ يُؤْتَ الْحِكْمَةَ فَقَدْ أُوتِيَ خَيْرًا كَثِيرًا). وَقَوْلِهِ عَزَّ وَجَلَّ فِي طَالُوتَ: (إِنَّ اللَّهَ اصْطَفَاهُ عَلَيْكُمْ وَزَادَهُ بَسْطَةً فِي الْعِلْمِ وَالْجِسْمِ وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ). وَقَالَ عَزَّ وَجَلَّ لِنَبِيِّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ: (وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا). وَقَالَ عَزَّ وَجَلَّ فِي الْأَئِمَّةِ مِنْ أَهْلِ بَيْتِهِ وَعِتْرَتِهِ وَذُرِّيَّتِهِ: (أَمْ يَحْسُدُونَ النَّاسَ عَلَىٰ مَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ فَقَدْ آتَيْنَا آلَ إِبْرَاهِيمَ الْكِتَابَ وَالْحِكْمَةَ وَآتَيْنَاهُمْ مُلْكًا عَظِيمًا). (فَمِنْهُمْ مَنْ آمَنَ بِهِ وَمِنْهُمْ مَنْ صَدَّ عَنْهُ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا). وَإِنَّ الْعَبْدَ إِذَا اخْتَارَهُ اللَّهُ عَزَّ وَجَلَّ لِأُمُورِ عِبَادِهِ شَرَحَ صَدْرَهُ لِذَلِكَ وَأَوْدَعَ قَلْبَهُ يَنَابِيعَ الْحِكْمَةِ وَأَلْهَمَهُ الْعِلْمَ إِلْهَامًا فَلَمْ يَعْيَ بَعْدَهُ بِجَوَابٍ وَلَا يُحَيَّرُ فِيهِ عَنِ الصَّوَابِ. وَهُوَ مَعْصُومٌ مُؤَيَّدٌ مُوَفَّقٌ مُسَدَّدٌ قَدْ أَمِنَ الْخَطَايَا وَالزَّلَالَ وَالْعِثَارَ. يَخُصُّهُ اللَّهُ عَزَّ وَجَلَّ بِذَلِكَ لِيَكُونَ حُجَّتَهُ عَلَى عِبَادِهِ وَشَاهِدَهُ عَلَى خَلْقِهِ وَذَلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ. فَهَلْ يَقْدِرُونَ عَلَى مِثْلِ هَذَا فَيَخْتَارُوهُ أَوْ يَكُونُ مُخْتَارُهُمْ بِهَذِهِ الصِّفَةِ فَيُقَدِّمُوهُ؟ تَعَدَّوْا وَبَيْتِ اللَّهِ الْحَقَّ وَنَبَذُوا كِتَابَ اللَّهِ وَرَاءَ ظُهُورِهِمْ كَأَنَّهُمْ لَا يَعْلَمُونَ. وَفِي كِتَابِ اللَّهِ الْهُدَى وَالشِّفَاءُ فَنَبَذُوهُ وَاتَّبَعُوا أَهْوَاءَهُمْ فَذَمَّهُمُ اللَّهُ وَمَقَتَهُمْ وَأَتْعَسَهُمْ فَقَالَ عَزَّ وَجَلَّ: (وَمَنْ أَضَلُّ مِمَّنِ اتَّبَعَ هَوَاهُ بِغَيْرِ هُدًى مِنَ اللَّهِ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ). وَقَالَ عَزَّ وَجَلَّ: (فَتَعْسًا لَهُمْ وَأَضَلَّ أَعْمَالَهُمْ). وَقَالَ عَزَّ وَجَلَّ: (كَبُرَ مَقْتًا عِنْدَ اللَّهِ وَعِنْدَ الَّذِينَ آمَنُوا كَذَلِكَ يَطْبَعُ اللَّهُ عَلَىٰ كُلِّ قَلْبِ مُتَكَبِّرٍ جَبَّارٍ).",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا أَبُو الْعَبَّاسِ مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا أَبُو الْقَاسِمِ بْنُ مُحَمَّدِ بْنِ عَلِيٍّ الْهَارُونِيُّ قَالَ: حَدَّثَنِي أَبُو حَامِدٍ عِمْرَانُ بْنُ مُوسَى بْنِ إِبْرَاهِيمَ عَنِ الْحَسَنِ بْنِ الْقَاسِمِ الرَّقَّامِ قَالَ: حَدَّثَنِي الْقَاسِمُ بْنُ مُسْلِمٍ، عَنْ أَخِيهِ عَبْدُ الْعَزِيزِ بْنِ مُسْلِمٍ قَالَ: كُنَّا فِي أَيَّامِ عَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِ السَّلَامُ بِمَرْوَ فَاجْتَمَعْنَا فِي مَسْجِدِ جَامِعِهَا فِي يَوْمِ جُمُعَةٍ فِي بَدْءِ مَقْدَمِنَا فَأَدَارَ النَّاسُ أَمْرَ الْإِمَامَةِ وَذَكَرُوا كَثْرَةَ اخْتِلَافِ النَّاسِ فِيهَا فَدَخَلْتُ عَلَى سَيِّدِي وَمَوْلَايَ الرِّضَا فَأَعْلَمْتُهُ مَا خَاضَ النَّاسُ فِيهِ فَتَبَسَّمَ",
+      "matn_ar": "ثُمَّ قَالَ يَا عَبْدَ الْعَزِيزِ جَهِلَ الْقَوْمُ وَخُدِعُوا عَنْ أَدْيَانِهِمْ إِنَّ اللَّهَ تَبَارَكَ وَتَعَالَى لَمْ يَقْبِضْ نَبِيَّهُ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ حَتَّى أَكْمَلَ لَهُ الدِّينَ وَأَنْزَلَ عَلَيْهِ الْقُرْآنَ فِيهِ تَفْصِيلُ كُلِّ شَيْءٍ بَيَّنَ فِيهِ الْحَلَالَ وَالْحَرَامَ وَالْحُدُودَ وَالْأَحْكَامَ وَجَمِيعَ مَا يَحْتَاجُ إِلَيْهِ النَّاسُ كَمَلاً (مَا فَرَّطْنَا فِي الْكِتَابِ مِنْ شَيْءٍ) وَأَنْزَلَ فِي حَجَّةِ الْوَدَاعِ وَهِيَ آخِرُ عُمُرِهِ (الْيَوْمَ أَكْمَلْتُ لَكُمْ دِينَكُمْ وَأَتْمَمْتُ عَلَيْكُمْ نِعْمَتِي وَرَضِيتُ لَكُمُ الْإِسْلَامَ دِينًا). وَأَمْرُ الْإِمَامَةِ مِنْ تَمَامِ الدِّينِ وَلَمْ يَمْضِ عَلَيْهِ السَّلَامُ حَتَّى بَيَّنَ لأمَّتِهِ مَعَالِمَ دِينِهِ وَأَوْضَحَ لَهُمْ سُبُلَهُ وَتَرَكَهُمْ عَلَى قَصْدِ الْحَقِّ وَأَقَامَ لَهُمْ عَلِيًّا عَلَيْهِ السَّلَامُ عَلَمًا وَإِمَامًا وَمَا تَرَكَ شَيْئًا تَحْتَاجُ إِلَيْهِ الْأُمَّةُ إِلَّا بَيَّنَهُ فَمَنْ زَعَمَ أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُكْمِلْ دِينَهُ فَقَدْ رَدَّ كِتَابَ اللَّهِ عَزَّ وَجَلَّ وَمَنْ رَدَّ كِتَابَ اللَّهِ فَهُوَ كَافِرٌ. هَلْ يَعْرِفُونَ قَدْرَ الْإِمَامَةِ وَمَحَلَّهَا مِنَ الْأُمَّةِ فَيَجُوزَ فِيهَا اخْتِيَارُهُمْ؟ إِنَّ الْإِمَامَةَ أَجَلُّ قَدْرًا وَأَعْظَمُ شَأْنًا وَأَعْلَى مَكَانًا وَأَمْنَعُ جَانِبًا وَأَبْعَدُ غَوْراً مِنْ أَنْ يَبْلُغَهَا النَّاسُ بِعُقُولِهِمْ أَوْ يَنَالُوهَا بِآرَائِهِمْ أَوْ يُقِيمُوا إِمَامًا بِاخْتِيَارِهِمْ إِنَّ الْإِمَامَةَ خَصَّ اللَّهُ عَزَّ وَجَلَّ بِهَا إِبْرَاهِيمَ الْخَلِيلَ عَلَيْهِ السَّلَامُ بَعْدَ النُُّبُوَّةِ وَالْخُلَّةِ مَرْتَبَةً ثَالِثَةً وَفَضِيلَةً شَرَّفَهُ بِهَا وَأَشَادَ بِهَا ذِكْرَهُ فَقَالَ عَزَّ وَجَلَّ: (إِنِّي جَاعِلُكَ لِلنَّاسِ إِمَامًا). فَقَالَ الْخَلِيلُ عَلَيْهِ السَّلَامُ سُرُوراً بِهَا (وَمِنْ ذُرِّيَّتِي). قَالَ اللَّهُ عَزَّ وَجَلَّ: (لَا يَنَالُ عَهْدِي الظَّالِمِينَ) فَأَبْطَلَتْ هَذِهِ الْآيَةُ إِمَامَةَ كُلِّ ظَالِمٍ إِلَى يَوْمِ الْقِيَامَةِ وَصَارَتْ فِي الصَّفْوَةِ. ثُمَّ أَكْرَمَهُ اللَّهُ بِأَنْ جَعَلَهَا فِي ذُرِّيَّتِهِ أَهْلَ الصَّفْوَةِ وَالطَّهَارَةِ فَقَالَ عَزَّ وَجَلَّ: (وَوَهَبْنَا لَهُ إِسْحَاقَ وَيَعْقُوبَ نَافِلَةً وَكُلًّا جَعَلْنَا صَالِحِينَ وَجَعَلْنَاهُمْ أَئِمَّةً يَهْدُونَ بِأَمْرِنَا وَأَوْحَيْنَا إِلَيْهِمْ فِعْلَ الْخَيْرَاتِ وَإِقَامَ الصَّلَاةِ وَإِيتَاءَ الزَّكَاةِ وَكَانُوا لَنَا عَابِدِينَ) فَلَمْ تَزَلْ فِي ذُرِّيَّتِهِ يَرِثُهَا بَعْضٌ عَنْ بَعْضٍ قَرْنًا فَقَرْنًا حَتَّى وَرِثَهَا النَّبِيُّ فَقَالَ اللَّهُ جَلَّ جَلَالُهُ: (إِنَّ أَوْلَى النَّاسِ بِإِبْرَاهِيمَ لَلَّذِينَ اتَّبَعُوهُ وَهَذَا النَّبِيُّ وَالَّذِينَ آمَنُوا وَاللَّهُ وَلِيُّ الْمُؤْمِنِينَ). فَكَانَتْ لَهُ خَاصَّةً فَقَلَّدَهَا صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ عَلِيًّا عَلَيْهِ السَّلَامُ بِأَمْرِ اللَّهِ عَزَّ وَجَلَّ عَلَى رَسْمِ مَا فَرَضَهَا اللَّهُ فَصَارَتْ فِي ذُرِّيَّتِهِ الْأَصْفِيَاءِ الَّذِينَ آتَاهُمُ اللَّهُ الْعِلْمَ وَالْإِيمَانَ بِقَوْلِهِ عَزَّ وَجَلَّ: (وَقَالَ الَّذِينَ أُوتُوا الْعِلْمَ وَالْإِيمَانَ لَقَدْ لَبِثْتُمْ فِي كِتَابِ اللَّهِ إِلَى يَوْمِ الْبَعْثِ) فَهِيَ فِي وُلْدِ عَلِيٍّ عَلَيْهِ السَّلَامُ خَاصَّةً إِلَى يَوْمِ الْقِيَامَةِ إِذْ لَا نَبِيَّ بَعْدَ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. فَمِنْ أَيْنَ يَخْتَارُ هَؤُلَاءِ الْجُهَّالُ؟ إِنَّ الْإِمَامَةَ هِيَ مَنْزِلَةُ الْأَنْبِيَاءِ وَإِرْثُ الْأَوْصِيَاءِ. إِنَّ الْإِمَامَةَ خِلَافَةُ اللَّهِ عَزَّ وَجَلَّ وَخِلَافَةُ الرَّسُولِ وَمَقَامُ أَمِيرِ الْمُؤْمِنِينَ وَمِيرَاثُ الْحَسَنِ وَالْحُسَيْنِ عَلَيْهِمَا السَّلَامُ. إِنَّ الْإِمَامَةَ زِمَامُ الدِّينِ وَنِظَامُ الْمُسْلِمِينَ وَصَلَاحُ الدُّنْيَا وَعِزُّ الْمُؤْمِنِينَ. إِنَّ الْإِمَامَةَ أُسُّ الْإِسْلَامِ النَّامِي وَفَرْعُهُ السَّامِي. بِالْإِمَامِ تَمَامُ الصَّلَاةِ وَالزَّكَاةِ وَالصِّيَامِ وَالْحَجِّ وَالْجِهَادِ وَتَوْفِيرُ الْفَيْءِ وَالصَّدَقَاتِ وَإِمْضَاءُ الْحُدُودِ وَالْأَحْكَامِ وَمَنْعُ الثُّغُورِ وَالْأَطْرَافِ. وَالْإِمَامُ يُحَلِّلُ حَلَالَ اللَّهِ وَيُحَرِّمُ حَرَامَ اللَّهِ وَيُقِيمُ حُدُودَ اللَّهِ وَيَذُبُّ عَنْ دِينِ اللَّهِ وَيَدْعُو إِلَى سَبِيلِ رَبِّهِ بِالْحِكْمَةِ وَالْمَوْعِظَةِ الْحَسَنَةِ وَالْحُجَّةِ الْبَالِغَةِ. الْإِمَامُ كَالشَّمْسِ الطَّالِعَةِ لِلْعَالَمِ وَهِيَ فِي الْأُفُقِ بِحَيْثُ لَا تَنَالُهُ الْأَيْدِي وَالْأَبْصَارُ. الْإِمَامُ الْبَدْرُ الْمُنِيرُ وَالسِّرَاجُ الزَّاهِرُ وَالنُّورُ السَّاطِعُ وَالنَّجْمُ الْهَادِي فِي غَيَاهِبِ الدُّجَى وَالْبَلَدِ الْقِفَارِ وَلُجَجِ الْبِحَارِ. الْإِمَامُ الْمَاءُ الْعَذْبُ عَلَى الظَّمَإِ وَالدَّالُّ عَلَى الْهُدَى وَالْمُنْجِي مِنَ الرَّدَى. الْإِمَامُ النَّارُ عَلَى الْيَفَاعِ الْحَارُّ لِمَنِ اصْطَلَى بِهِ وَالدَّلِيلُ فِي الْمَهَالِكِ مَنْ فَارَقَهُ فَهَالِكٌ. الْإِمَامُ السَّحَابُ الْمَاطِرُ وَالْغَيْثُ الْهَاطِلُ وَالشَّمْسُ الْمُضِيئَةُ وَالسَّمَاءُ الظَّلِيلَةُ وَالْأَرْضُ الْبَسِيطَةُ وَالْعَيْنُ الْغَزِيرَةُ وَالْغَدِيرُ وَالرَّوْضَةُ. الْإِمَامُ الْأَمِينُ الرَّفِيقُ وَالْأَخُ الشَّقِيقُ [الشَّفِيقُ] وَمَفْزَعُ الْعِبَادِ فِي الدَّاهِيَةِ. الْإِمَامُ أَمِينُ اللَّهِ فِي أَرْضِهِ وَحُجَّتُهُ عَلَى عِبَادِهِ وَخَلِيفَتُهُ فِي بِلَادِهِ الدَّاعِي إِلَى اللَّهِ وَالذَّابُّ عَنْ حُرَمِ اللَّهِ. الْإِمَامُ الْمُطَهَّرُ مِنَ الذُّنُوبِ الْمُبَرَّأُ مِنَ الْعُيُوبِ مَخْصُوصٌ بِالْعِلْمِ مَوْسُومٌ بِالْحِلْمِ نِظَامُ الدِّينِ وَعِزُّ الْمُسْلِمِينَ وَغَيْظُ الْمُنَافِقِينَ وَبَوَارُ الْكَافِرِينَ. الْإِمَامُ وَاحِدُ دَهْرِهِ لَا يُدَانِيهِ أَحَدٌ وَلَا يُعَادِلُهُ عَالِمٌ وَلَا يُوجَدُ مِنْهُ بَدَلٌ وَلَا لَهُ مِثْلٌ وَلَا نَظِيرٌ. مَخْصُوصٌ بِالْفَضْلِ كُلِّهِ مِنْ غَيْرِ طَلَبٍ مِنْهُ لَهُ وَلَا اكْتِسَابٍ بَلِ اخْتِصَاصٌ مِنَ الْمُفْضِلِ الْوَهَّابِ. فَمَنْ ذَا الَّذِي يَبْلُغُ مَعْرِفَةَ الْإِمَامِ وَيُمْكِنُهُ اخْتِيَارُهُ؟ هَيْهَاتَ هَيْهَاتَ ضَلَّتِ الْعُقُولُ وَتَاهَتِ الْحُلُومُ وَحَارَتِ الْأَلْبَابُ وَحَسَرَتِ الْعُيُونُ وَتَصَاغَرَتِ الْعُظَمَاءُ وَتَحَيَّرَتِ الْحُكَمَاءُ وَتَقَاصَرَتِ الْحُلَمَاءُ وَحَصِرَتِ الْخُطَبَاءُ وَجَهِلَتِ الْأَلِبَّاءُ وَكَلَّتِ الشُّعَرَاءُ وَعَجَزَتِ الْأُدَبَاءُ وَعَيِيَتِ الْبُلَغَاءُ عَنْ وَصْفِ شَأْنٍ مِنْ شَأْنِهِ أَوْ فَضِيلَةٍ مِنْ فَضَائِلِهِ. فَأَقَرَّتْ بِالْعَجْزِ وَالتَّقْصِيرِ. وَكَيْفَ يُوصَفُ أَوْ يُنْعَتُ بِكُنْهِهِ أَوْ يُفْهَمُ شَيْءٌ مِنْ أَمْرِهِ أَوْ يُوجَدُ مَنْ يَقُومُ مَقَامَهُ وَيُغْنِي غَنَاءَهُ؟ لَا كَيْفَ وَأَنَّى وَهُوَ بِحَيْثُ النَّجْمُ مِنْ أَيْدِي الْمُتَنَاوِلِينَ وَوَصْفِ الْوَاصِفِينَ. فَأَيْنَ الْاخْتِيَارُ مِنْ هَذَا وَأَيْنَ الْعُقُولُ عَنْ هَذَا؟ أَوْ أَيْنَ يُوجَدُ مِثْلُ هَذَا؟ ظَنُّوا أَنَّ ذَلِكَ يُوجَدُ فِي غَيْرِ آلِ الرَّسُولِ صَلَّى اللَّهُ عَلَيْهِمْ. كَذَبَتْهُمْ وَاللَّهِ أَنْفُسُهُمْ وَمَنَّتْهُمُ الْبَاطِلَ فَارْتَقَوْا مُرْتَقًى صَعْبًا دَحْضًا تَزِلُّ عَنْهُ إِلَى الْحَضِيضِ أَقْدَامُهُمْ. رَامُوا إِقَامَةَ الْإِمَامَةِ بِعُقُولٍ حَائِرَةٍ بَائِرَةٍ نَاقِصَةٍ وَآرَاءٍ مُضِلَّةٍ فَلَمْ يَزْدَادُوا مِنْهُ إِلَّا بُعْدًا: (قَاتَلَهُمُ اللَّهُ أَنَّى يُؤْفَكُونَ). لَقَدْ رَامُوا صَعْبًا وَقَالُوا إِفْكًا وَضَلُّوا ضَلَالًا بَعِيدًا وَوَقَعُوا فِي الْحَيْرَةِ إِذْ تَرَكُوا الْإِمَامَ عَنْ بَصِيرَةٍ. (وَزَيَّنَ لَهُمُ الشَّيْطَانُ أَعْمَالَهُمْ فَصَدَّهُمْ عَنِ السَّبِيلِ وَكَانُوا مُسْتَبْصِرِينَ). رَغِبُوا عَنِ اخْتِيَارِ اللَّهِ وَاخْتِيَارِ رَسُولِهِ إِلَى اخْتِيَارِهِمْ وَالْقُرْآنُ يُنَادِيهِمْ: (وَرَبُّكَ يَخْلُقُ مَا يَشَاءُ وَيَخْتَارُ مَا كَانَ لَهُمُ الْخِيَرَةُ). (سُبْحَانَ اللَّهِ وَتَعَالَى عَمَّا يُشْرِكُونَ). وَقَالَ عَزَّ وَجَلَّ: (وَمَا كَانَ لِمُؤْمِنٍ وَلَا مُؤْمِنَةٍ إِذَا قَضَى اللَّهُ وَرَسُولُهُ أَمْرًا أَنْ يَكُونَ لَهُمُ الْخِيَرَةُ مِنْ أَمْرِهِمْ). وَقَالَ عَزَّ وَجَلَّ: (مَا لَكُمْ كَيْفَ تَحْكُمُونَ أَمْ لَكُمْ كِتَابٌ فِيهِ تَدْرُسُونَ إِنَّ لَكُمْ فِيهِ لَمَا تَخَيَّرُونَ أَمْ لَكُمْ أَيْمَانٌ عَلَيْنَا بَالِغَةٌ إِلَى يَوْمِ الْقِيَامَةِ إِنَّ لَكُمْ لَمَا تَحْكُمُونَ سَلْهُمْ أَيُّهُمْ بِذَلِكَ زَعِيمٌ أَمْ لَهُمْ شُرَكَاءُ فَلْيَأْتُوا بِشُرَكَائِهِمْ إِنْ كَانُوا صَادِقِينَ). وَقَالَ عَزَّ وَجَلَّ: (أَفَلَا يَتَدَبَّرُونَ الْقُرْآنَ أَمْ عَلَى قُلُوبٍ أَقْفَالُهَا). (أَمْ طَبَعَ اللَّهُ عَلَى قُلُوبِهِمْ فَهُمْ لَا يَفْقَهُونَ). أَمْ (قَالُوا سَمِعْنَا وَهُمْ لَا يَسْمَعُونَ إِنَّ شَرَّ الدَّوَابِّ عِنْدَ اللَّهِ الصُّمُّ الْبُكْمُ الَّذِينَ لَا يَعْقِلُونَ وَلَوْ عَلِمَ اللَّهُ فِيهِمْ خَيْرًا لَأَسْمَعَهُمْ وَلَوْ أَسْمَعَهُمْ لَتَوَلَّوْا وَهُمْ مُعْرِضُونَ). وَ(قَالُوا سَمِعْنَا وَعَصَيْنَا). بَلْ هُوَ (فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ). فَكَيْفَ لَهُمْ بِاخْتِيَارِ الْإِمَامِ وَالْإِمَامُ عَالِمٌ لَا يَجْهَلُ دَاعٍ لَا يَنْكُلُ مَعْدِنُ الْقُدْسِ وَالطَّهَارَةِ وَالنُّسُكِ وَالزَّهَادَةِ وَالْعِلْمِ وَالْعِبَادَةِ مَخْصُوصٌ بِدَعْوَةِ الرَّسُولِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ. وَهُوَ نَسْلُ الْمُطَهَّرَةِ الْبَتُولِ، لَا مَغْمَزَ فِيهِ فِي نَسَبٍ وَلَا يُدَانِيهِ ذُو حَسَبٍ فِي الْبَيْتِ مِنْ قُرَيْشٍ وَالذِّرْوَةِ مِنْ هَاشِمٍ وَالْعِتْرَةِ مِنْ آلِ الرَّسُولِ وَالرِّضَا مِنَ اللَّهِ شَرَفُ الْأَشْرَافِ وَالْفَرْعُ مِنْ عَبْدِ مَنَافٍ نَامِي الْعِلْمِ كَامِلُ الْحِلْمِ مُضْطَلِعٌ بِالْإِمَامَةِ عَالِمٌ بِالسِّيَاسَةِ مَفْرُوضُ الطَّاعَةِ قَائِمٌ بِأَمْرِ اللَّهِ نَاصِحٌ لِعِبَادِ اللَّهِ حَافِظٌ لِدِينِ اللَّهِ. إِنَّ الْأَنْبِيَاءَ وَالْأَئِمَّةَ يُوفِّقُهُمُ اللَّهُ وَيُؤْتِيهِمْ مِنْ مَخْزُونِ عِلْمِهِ وَحُكْمِهِ مَا لَا يُؤْتِيهِ غَيْرَهُمْ فَيَكُونُ عِلْمُهُمْ فَوْقَ كُلِّ عِلْمِ أَهْلِ زَمَانِهِمْ فِي قَوْلِهِ تَبَارَكَ وَتَعَالَى: (أَفَمَنْ يَهْدِي إِلَى الْحَقِّ أَحَقُّ أَنْ يُتَّبَعَ أَمَّنْ لَا يَهِدِّي إِلَّا أَنْ يُهْدَىٰ فَمَا لَكُمْ كَيْفَ تَحْكُمُونَ). وَقَوْلِهِ عَزَّ وَجَلَّ: (وَمَنْ يُؤْتَ الْحِكْمَةَ فَقَدْ أُوتِيَ خَيْرًا كَثِيرًا). وَقَوْلِهِ عَزَّ وَجَلَّ فِي طَالُوتَ: (إِنَّ اللَّهَ اصْطَفَاهُ عَلَيْكُمْ وَزَادَهُ بَسْطَةً فِي الْعِلْمِ وَالْجِسْمِ وَاللَّهُ يُؤْتِي مُلْكَهُ مَنْ يَشَاءُ وَاللَّهُ وَاسِعٌ عَلِيمٌ). وَقَالَ عَزَّ وَجَلَّ لِنَبِيِّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ: (وَكَانَ فَضْلُ اللَّهِ عَلَيْكَ عَظِيمًا). وَقَالَ عَزَّ وَجَلَّ فِي الْأَئِمَّةِ مِنْ أَهْلِ بَيْتِهِ وَعِتْرَتِهِ وَذُرِّيَّتِهِ: (أَمْ يَحْسُدُونَ النَّاسَ عَلَىٰ مَا آتَاهُمُ اللَّهُ مِنْ فَضْلِهِ فَقَدْ آتَيْنَا آلَ إِبْرَاهِيمَ الْكِتَابَ وَالْحِكْمَةَ وَآتَيْنَاهُمْ مُلْكًا عَظِيمًا). (فَمِنْهُمْ مَنْ آمَنَ بِهِ وَمِنْهُمْ مَنْ صَدَّ عَنْهُ وَكَفَىٰ بِجَهَنَّمَ سَعِيرًا). وَإِنَّ الْعَبْدَ إِذَا اخْتَارَهُ اللَّهُ عَزَّ وَجَلَّ لِأُمُورِ عِبَادِهِ شَرَحَ صَدْرَهُ لِذَلِكَ وَأَوْدَعَ قَلْبَهُ يَنَابِيعَ الْحِكْمَةِ وَأَلْهَمَهُ الْعِلْمَ إِلْهَامًا فَلَمْ يَعْيَ بَعْدَهُ بِجَوَابٍ وَلَا يُحَيَّرُ فِيهِ عَنِ الصَّوَابِ. وَهُوَ مَعْصُومٌ مُؤَيَّدٌ مُوَفَّقٌ مُسَدَّدٌ قَدْ أَمِنَ الْخَطَايَا وَالزَّلَالَ وَالْعِثَارَ. يَخُصُّهُ اللَّهُ عَزَّ وَجَلَّ بِذَلِكَ لِيَكُونَ حُجَّتَهُ عَلَى عِبَادِهِ وَشَاهِدَهُ عَلَى خَلْقِهِ وَذَلِكَ فَضْلُ اللَّهِ يُؤْتِيهِ مَنْ يَشَاءُ وَاللَّهُ ذُو الْفَضْلِ الْعَظِيمِ. فَهَلْ يَقْدِرُونَ عَلَى مِثْلِ هَذَا فَيَخْتَارُوهُ أَوْ يَكُونُ مُخْتَارُهُمْ بِهَذِهِ الصِّفَةِ فَيُقَدِّمُوهُ؟ تَعَدَّوْا وَبَيْتِ اللَّهِ الْحَقَّ وَنَبَذُوا كِتَابَ اللَّهِ وَرَاءَ ظُهُورِهِمْ كَأَنَّهُمْ لَا يَعْلَمُونَ. وَفِي كِتَابِ اللَّهِ الْهُدَى وَالشِّفَاءُ فَنَبَذُوهُ وَاتَّبَعُوا أَهْوَاءَهُمْ فَذَمَّهُمُ اللَّهُ وَمَقَتَهُمْ وَأَتْعَسَهُمْ فَقَالَ عَزَّ وَجَلَّ: (وَمَنْ أَضَلُّ مِمَّنِ اتَّبَعَ هَوَاهُ بِغَيْرِ هُدًى مِنَ اللَّهِ إِنَّ اللَّهَ لَا يَهْدِي الْقَوْمَ الظَّالِمِينَ). وَقَالَ عَزَّ وَجَلَّ: (فَتَعْسًا لَهُمْ وَأَضَلَّ أَعْمَالَهُمْ). وَقَالَ عَزَّ وَجَلَّ: (كَبُرَ مَقْتًا عِنْدَ اللَّهِ وَعِنْدَ الَّذِينَ آمَنُوا كَذَلِكَ يَطْبَعُ اللَّهُ عَلَىٰ كُلِّ قَلْبِ مُتَكَبِّرٍ جَبَّارٍ).",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا أَبُو العَبَّاسِ مُحَمَّدِ بْنِ إِبْراهيمِ بْنِ إِسْحاق الطَّالِقانِيُّ رَضِىَ اللهُ عَنْهُ قالَ: حَدَّثَنا أَبُوالقاسِمِ بن مُحَمَّدِ بْنِ عَلِى الهارونِي قالَ: حَدَّثَني أَبُو حامد عِمْران بْنِ مُوسَى بْنِ إِبْراهيم",
+          "name_en": "Abu al-Abbas Muhammad b. Ibrahim b. Isḥaq al-Ṭālikānī",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الحَسَن بْنِ القاسِمِ الرقام قالَ: حَدَّثَني القاسِم بْنِ مُسْلِم، عَن أَخِيهِ عَبْد العَزِيز بْنِ مُسْلِم قالَ كُنَّا",
+          "name_en": "al-Ḥasan b. al-Qāsim al-Raqām",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+        "phrase_en": "Peace be upon them",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "تَبَارَكَ وَتَعَالَىٰ",
+        "phrase_en": "Blessed and Exalted (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+        "phrase_en": "Day of Resurrection",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "كِتَابُ اللَّهِ",
+        "phrase_en": "The Book of Allah (Quran)",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "الْحَلَالُ وَالْحَرَامُ",
+        "phrase_en": "The lawful and the prohibited",
+        "category": "jurisprudential_term"
+      },
+      {
+        "phrase_ar": "حُدُودُ اللَّهِ",
+        "phrase_en": "The limits set by Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "سُبْحَانَ اللَّهِ",
+        "phrase_en": "Glory be to Allah",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 3,
+    "_phase4_mode": "per_language"
+  }
+}

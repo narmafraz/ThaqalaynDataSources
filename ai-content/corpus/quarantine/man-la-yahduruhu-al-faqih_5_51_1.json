@@ -1,161 +1,196 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:5:51:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[2] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
+    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "knowledge",
-      "prophetic_tradition",
-      "history"
+      "prophetic_tradition"
     ],
-    "content_type": "biographical",
+    "content_type": "narrative",
     "topics": [
       "hadith_sciences",
-      "religious_authority",
-      "teaching"
+      "companions"
     ],
     "chunks": [
       {
-        "chunk_type": "opening",
-        "arabic_text": "وَ مَا كَانَ فِي ه",
+        "chunk_type": "isnad",
+        "arabic_text": "وَمَا كَانَ فِيهِ عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَمِّهِ مُحَمَّدِ بْنِ أَبِي الْقَاسِمِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنْ أَبِيهِ، عَنِ ابْنِ أَبِي عُمَيْرٍ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ.",
         "translations": {
-          "en": "As for what was in it",
-          "ur": "جہاں تک اس میں تھا",
-          "tr": "İçinde ne varsa",
-          "fa": "آنچه در آن بود",
-          "id": "Adapun apa yang ada di dalamnya",
-          "bn": "যা এতে ছিল",
-          "es": "En cuanto a lo que estaba en él",
-          "fr": "Quant à ce qu'il contenait",
-          "de": "Was darin enthalten war",
-          "ru": "Что в нем было",
-          "zh": "至于其中的内容"
+          "en": "And everything in it that is narrated from Safwan ibn Mihran Al-Jammal, I have narrated it from Muhammad ibn Ali Majilawayh - may Allah be pleased with him - from his uncle Muhammad ibn Abi Al-Qasim, from Ahmad ibn Muhammad ibn Khalid, from his father, from Ibn Abi Umayr, from Safwan ibn Mihran Al-Jammal.",
+          "ur": "اور جو کچھ اس میں صفوان بن مہران الجمال سے روایت کیا گیا ہے، میں نے اسے محمد بن علی ماجیلویہ رضی اللہ عنہ سے روایت کیا ہے، ان کے چچا محمد بن ابی القاسم سے، احمد بن محمد بن خالد سے، ان کے والد سے، ابن ابی عمر سے، صفوان بن مہران الجمال سے۔",
+          "tr": "Ve içinde Safvan ibn Mihran el-Cemmal'den rivayet edilen her şeyi, Allah'tan razı olsun, Muhammed ibn Ali Mâcilûye'den; amcası Muhammed ibn Ebi'l-Kasım'dan; Ahmed ibn Muhammed ibn Halid'den; babasından; İbn Ebi Ueyr'den; Safvan ibn Mihran el-Cemmal'den rivayet ettim.",
+          "fa": "و هر آنچه در آن از صفوان بن مهران الجمّال روایت شده است، من آن را از محمد بن علی ماجیلویه - رضی اللّه عنه - از عموی او محمد بن ابی القاسم، از احمد بن محمد بن خالد، از پدرش، از ابن ابی عیمر، از صفوان بن مهران الجمّال روایت کرده‌ام.",
+          "id": "Dan segala sesuatu di dalamnya yang diriwayatkan dari Safwan ibn Mihran Al-Jammal, aku telah meriwayatkannya dari Muhammad ibn Ali Majilawayh - semoga Allah ridha kepadanya - dari pamannya Muhammad ibn Abi Al-Qasim, dari Ahmad ibn Muhammad ibn Khalid, dari ayahnya, dari Ibn Abi Umayr, dari Safwan ibn Mihran Al-Jammal.",
+          "bn": "এবং এতে যা সফওয়ান ইবনে মিরহান আল-জাম্মাল থেকে বর্ণিত হয়েছে, আমি তা বর্ণনা করেছি মুহাম্মাদ ইবনে আলী মাজিলোয়াহ-রহমাতুল্লাহি আনহ-র নিকট থেকে, তার চাচা মুহাম্মাদ ইবনে আবুল কাসিমের নিকট থেকে, আহমাদ ইবনে মুহাম্মাদ ইবনে খালিদের নিকট থেকে, তার পিতার নিকট থেকে, ইবনে আবু উমাইরের নিকট থেকে, সফওয়ান ইবনে মিরহান আল-জাম্মালের নিকট থেকে।",
+          "es": "Y todo lo que en él se narra desde Safwan ibn Mihran Al-Jammal, yo lo he narrado desde Muhammad ibn Ali Majilawayh - que Allah esté satisfecho con él - desde su tío Muhammad ibn Abi Al-Qasim, desde Ahmad ibn Muhammad ibn Khalid, desde su padre, desde Ibn Abi Umayr, desde Safwan ibn Mihran Al-Jammal.",
+          "fr": "Et tout ce qui en lui qui est rapporté de Safwan ibn Mihran Al-Jammal, je l'ai rapporté de Muhammad ibn Ali Majilawayh - qu'Allah l'agrée - de son oncle Muhammad ibn Abi Al-Qasim, de Ahmad ibn Muhammad ibn Khalid, de son père, d'Ibn Abi Umayr, de Safwan ibn Mihran Al-Jammal.",
+          "de": "Und alles, was darin von Safwan ibn Mihran al-Dschammal überliefert ist, habe ich von Muhammad ibn Ali Majilawayh – möge Allah ihn zufrieden sein – von seinem Onkel Muhammad ibn Abi al-Qasim, von Ahmad ibn Muhammad ibn Khalid, von seinem Vater, von Ibn Abi Umayr, von Safwan ibn Mihran al-Dschammal überliefert.",
+          "ru": "И и всё, что в нём передано от Сафвана ибн Михрана аль-Джаммаля, я передал от Мухаммада ибн Али Маджилуяха — да будет доволен им Аллах — от его дяди Мухаммада ибн Аби аль-Касима, от Ахмада ибн Мухаммада ибн Халида, от его отца, от Ибн Аби Умайра, от Сафвана ибн Михрана аль-Джаммаля.",
+          "zh": "凡书中传述自萨凡·本·米赫兰·贾马尔的内容，我均从穆罕默德·本·阿里·马吉拉维（愿真主喜悦他）传述，他传自其叔父穆罕默德·本·艾布·卡西姆，从艾哈迈德·本·穆罕默德·本·哈利德，从他父亲，从伊本·艾布·欧麦尔，从萨凡·本·米赫兰·贾马尔。"
         },
         "word_start": 0,
-        "word_end": 5
-      },
-      {
-        "chunk_type": "isnad",
-        "arabic_text": "عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَمِّهِ مُحَمَّدِ بْنِ أَبِي الْقَاسِمِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنْ أَبِيهِ، عَنِ ابْنِ أَبِي عُمَيْرٍ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ.",
-        "translations": {
-          "en": "from Ṣafwān ibn Mihrān al-Jammāl, I have indeed narrated it from Muḥammad ibn ʿAlī Mājīlawayh—may Allah be pleased with him—from his uncle Muḥammad ibn Abī al-Qāsim, from Aḥmad ibn Muḥammad ibn Khālid, from his father, from Ibn Abī ʿUmayr, from Ṣafwān ibn Mihrān al-Jammāl.",
-          "ur": "صفوان بن مهران الجمّال سے، میں نے اسے محمد بن علی ماجیلویہ-رضی اللہ عنہ- سے روایت کیا ہے، جو اپنے چچا محمد بن ابی القاسم سے، احمد بن محمد بن خالد سے، اپنے والد سے، ابن ابی عمیر سے، صفوان بن مهران الجمّال سے روایت کرتے ہیں۔",
-          "tr": "Ṣafwān ibn Mihrān al-Jammāl'dan, gerçekten de onu Muḥammad ibn ʿAlī Mājīlawayh—Allah ondan razı olsun—onun amcası Muḥammad ibn Abī al-Qāsim'den, Aḥmad ibn Muḥammad ibn Khālid'den, babasından, Ibn Abī ʿUmayr'den, Ṣafwān ibn Mihrān al-Jammāl'dan rivayet ettim.",
-          "fa": "از صفوان بن مهران الجمّال، من آن را از محمد بن علی ماجیلویه—رضی الله عنه—از عمویش محمد بن ابی القاسم، از احمد بن محمد بن خالد، از پدرش، از ابن ابی عمیر، از صفوان بن مهران الجمّال روایت کرده‌ام.",
-          "id": "Dari Ṣafwān ibn Mihrān al-Jammāl, saya memang meriwayatkannya dari Muḥammad ibn ʿAlī Mājīlawayh—semoga Allah meridhoi beliau—dari pamannya Muḥammad ibn Abī al-Qāsim, dari Aḥmad ibn Muḥammad ibn Khālid, dari ayahnya, dari Ibn Abī ʿUmayr, dari Ṣafwān ibn Mihrān al-Jammāl.",
-          "bn": "صفوان بن مهران الجمّال থেকে، আমি এটি সত্যিই মুহাম্মদ বিন আলী মাজিলাওয়েহ-রাযি আল্লাহু আনহু- থেকে বর্ণনা করেছি, তার চাচা মুহাম্মদ বিন আবি কাসিম থেকে, আহমদ বিন মুহাম্মদ বিন খালিদ থেকে, তার পিতা থেকে, ইবনে আবি উমায়র থেকে, صفوان بن مهران الجمّال থেকে।",
-          "es": "De Ṣafwān ibn Mihrān al-Jammāl, de hecho lo he narrado de Muḥammad ibn ʿAlī Mājīlawayh—que Allah esté complacido con él—de su tío Muḥammad ibn Abī al-Qāsim, de Aḥmad ibn Muḥammad ibn Khālid, de su padre, de Ibn Abī ʿUmayr, de Ṣafwān ibn Mihrān al-Jammāl.",
-          "fr": "De Ṣafwān ibn Mihrān al-Jammāl, je l'ai en effet narré de Muḥammad ibn ʿAlī Mājīlawayh—qu'Allah soit satisfait de lui—de son oncle Muḥammad ibn Abī al-Qāsim, d'Aḥmad ibn Muḥammad ibn Khālid, de son père, d'Ibn Abī ʿUmayr, de Ṣafwān ibn Mihrān al-Jammāl.",
-          "de": "Von Ṣafwān ibn Mihrān al-Jammāl habe ich es tatsächlich von Muḥammad ibn ʿAlī Mājīlawayh—möge Allah mit ihm zufrieden sein—von seinem Onkel Muḥammad ibn Abī al-Qāsim, von Aḥmad ibn Muḥammad ibn Khālid, von seinem Vater, von Ibn Abī ʿUmayr, von Ṣafwān ibn Mihrān al-Jammāl überliefert.",
-          "ru": "От Ṣafwān ibn Mihrān al-Jammāl я действительно передал это от Muḥammad ibn ʿAlī Mājīlawayh—да будет доволен им Аллах—от его дяди Muḥammad ibn Abī al-Qāsim, от Aḥmad ibn Muḥammad ibn Khālid, от его отца, от Ibn Abī ʿUmayr, от Ṣafwān ibn Mihrān al-Jammāl.",
-          "zh": "我确实从Ṣafwān ibn Mihrān al-Jammāl那里传述过它，从Muḥammad ibn ʿAlī Mājīlawayh—愿真主喜悦他—从他的叔叔Muḥammad ibn Abī al-Qāsim，从Aḥmad ibn Muḥammad ibn Khālid，从他的父亲，从Ibn Abī ʿUmayr，从Ṣafwān ibn Mihrān al-Jammāl。"
-        },
-        "word_start": 5,
         "word_end": 43
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ مُوسَى بْنِ عُمَرَ، عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدٍ الْحَجَّالِ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ‌.",
+        "arabic_text": "وَرَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ مُوسَى بْنِ عُمَرَ، عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدِ الْحَجَّالِ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ.",
         "translations": {
-          "en": "And I also narrated it from my father—may Allah be pleased with him—from Muḥammad ibn Yaḥyā al-ʿAṭṭār, from Muḥammad ibn Aḥmad ibn Yaḥyā, from Mūsā ibn ʿUmar, from ʿAbd Allah ibn Muḥammad al-Ḥajjāl, from Ṣafwān ibn Mihrān al-Jammāl.",
-          "ur": "اور میں نے اسے اپنے والد-رضی اللہ عنہ- سے بھی روایت کیا ہے، جو محمد بن یحیی العطار سے، محمد بن احمد بن یحیی سے، موسیٰ بن عمر سے، عبد اللہ بن محمد الحجار سے، صفوان بن مهران الجمّال سے روایت کرتے ہیں۔",
-          "tr": "Ve ben onu babamdan—Allah ondan razı olsun—Muḥammad ibn Yaḥyā al-ʿAṭṭār'dan, Muḥammad ibn Aḥmad ibn Yaḥyā'dan, Mūsā ibn ʿUmar'dan, ʿAbd Allah ibn Muḥammad al-Ḥajjāl'dan, Ṣafwān ibn Mihrān al-Jammāl'dan da rivayet ettim.",
-          "fa": "و همچنین آن را از پدرم—رضی الله عنه—از محمد بن یحیی العطار، از محمد بن احمد بن یحیی، از موسی بن عمر، از عبد الله بن محمد الحجار، از صفوان بن مهران الجمّال روایت کرده‌ام.",
-          "id": "Dan saya juga meriwayatkannya dari ayah saya—semoga Allah meridhoi beliau—dari Muḥammad ibn Yaḥyā al-ʿAṭṭār, dari Muḥammad ibn Aḥmad ibn Yaḥyā, dari Mūsā ibn ʿUmar, dari ʿAbd Allah ibn Muḥammad al-Ḥajjāl, dari Ṣafwān ibn Mihrān al-Jammāl.",
-          "bn": "এবং আমি এটিও আমার পিতা-রাযি আল্লাহু আনহু- থেকে বর্ণনা করেছি, যিনি মুহাম্মদ বিন ইয়াহ্যা আল-আত্তার থেকে, মুহাম্মদ বিন আহমদ বিন ইয়াহ্যা থেকে, মূসা বিন উমর থেকে, আব্দুল্লাহ বিন মুহাম্মদ আল-হজ্জাল থেকে, صفوان بن مهران الجمّال থেকে বর্ণনা করেন।",
-          "es": "Y también lo he narrado de mi padre—que Allah esté complacido con él—de Muḥammad ibn Yaḥyā al-ʿAṭṭār, de Muḥammad ibn Aḥmad ibn Yaḥyā, de Mūsā ibn ʿUmar, de ʿAbd Allah ibn Muḥammad al-Ḥajjāl, de Ṣafwān ibn Mihrān al-Jammāl.",
-          "fr": "Et je l'ai aussi narré de mon père—qu'Allah soit satisfait de lui—de Muḥammad ibn Yaḥyā al-ʿAṭṭār, de Muḥammad ibn Aḥmad ibn Yaḥyā, de Mūsā ibn ʿUmar, de ʿAbd Allah ibn Muḥammad al-Ḥajjāl, de Ṣafwān ibn Mihrān al-Jammāl.",
-          "de": "Und ich habe es auch von meinem Vater—möge Allah mit ihm zufrieden sein—von Muḥammad ibn Yaḥyā al-ʿAṭṭār, von Muḥammad ibn Aḥmad ibn Yaḥyā, von Mūsā ibn ʿUmar, von ʿAbd Allah ibn Muḥammad al-Ḥajjāl, von Ṣafwān ibn Mihrān al-Jammāl überliefert.",
-          "ru": "И я также передал это от моего отца—да будет доволен им Аллах—от Muḥammad ibn Yaḥyā al-ʿAṭṭār, от Muḥammad ibn Aḥmad ibn Yaḥyā, от Mūsā ibn ʿUmar, от ʿAbd Allah ibn Muḥammad al-Ḥajjāl, от Ṣafwān ibn Mihrān al-Jammāl.",
-          "zh": "我也从我的父亲—愿真主喜悦他—从Muḥammad ibn Yaḥyā al-ʿAṭṭār，从Muḥammad ibn Aḥmad ibn Yaḥyā，从Mūsā ibn ʿUmar，从ʿAbd Allah ibn Muḥammad al-Ḥajjāl，从Ṣafwān ibn Mihrān al-Jammāl传述。"
+          "en": "And I have narrated it from my father - may Allah be pleased with him - from Muhammad ibn Yahya Al-Attar, from Muhammad ibn Ahmad ibn Yahya, from Musa ibn Umar, from Abdullah ibn Muhammad Al-Hajjal, from Safwan ibn Mihran Al-Jammal.",
+          "ur": "اور میں نے اسے اپنے والد سے روایت کیا ہے — اللہ ان سے راضی ہو — محمد بن یحییٰ العطار سے، محمد بن احمد بن یحییٰ سے، موسیٰ بن عمر سے، عبداللہ بن محمد الحجال سے، صفوان بن میہران الجمال سے۔",
+          "tr": "Ben de babamdan (Allah ondan razı olsun), Muhammed b. Yahya el-Attar'dan, Muhammed b. Ahmed b. Yahya'dan, Musa b. Umur'dan, Abdullah b. Muhammed el-Haccal'dan, Safvan b. Mihran el-Cammal'dan rivayet ettim.",
+          "fa": "و من آن را از پدرم - رضی الله عنه - از محمد بن یحیی العطار، از محمد بن احمد بن یحیی، از موسی بن عمر، از عبدالله بن محمد الحجال، از صفوان بن میهران الجمال روایت کرده‌ام.",
+          "id": "Dan aku telah meriwayatkannya dari ayahku - semoga Allah ridha kepadanya - dari Muhammad bin Yahya Al-Attar, dari Muhammad bin Ahmad bin Yahya, dari Musa bin Umar, dari Abdullah bin Muhammad Al-Hajjal, dari Safwan bin Mihran Al-Jammal.",
+          "bn": "আমি আমার পিতা থেকে বর্ণনা করেছি, আল্লাহ তাঁহাকে সন্তুষ্ট হোন, মুহাম্মাদ ইবনে ইয়াহ্যা আল-আত্তার থেকে, মুহাম্মাদ ইবনে আহমাদ ইবনে ইয়াহ্যা থেকে, মুসা ইবনে উমর থেকে, আবদুল্লাহ ইবনে মুহাম্মাদ আল-হাজ্জাল থেকে, সফওয়ান ইবনে মিরহান আল-জাম্মাল থেকে।",
+          "es": "Y lo he narrado de mi padre —que Allah esté complacido con él— de Muhammad ibn Yahya Al-Attar, de Muhammad ibn Ahmad ibn Yahya, de Musa ibn Umar, de Abdullah ibn Muhammad Al-Hajjal, de Safwan ibn Mihran Al-Jammal.",
+          "fr": "Et je l'ai rapporté de mon père — qu'Allah l'agrée — de Muhammad ibn Yahya Al-Attar, de Muhammad ibn Ahmad ibn Yahya, de Musa ibn Umar, d'Abdullah ibn Muhammad Al-Hajjal, de Safwan ibn Mihran Al-Jammal.",
+          "de": "Und ich habe es von meinem Vater – möge Allah ihn zufrieden sein – von Muhammad ibn Yahya al-Attar, von Muhammad ibn Ahmad ibn Yahya, von Musa ibn Umar, von Abdullah ibn Muhammad al-Hajjal, von Safwan ibn Mihran al-Jammal überliefert.",
+          "ru": "И я передал его от моего отца — да будет доволен им Аллах — от Мухаммада ибн Яхьи аль-Аттар, от Мухаммада ибн Ахмада ибн Яхьи, от Мусы ибн Умара, от Абдуллаха ибн Мухаммада аль-Хаджжаля, от Сафвана ибн Михрана аль-Джаммаля.",
+          "zh": "我曾由我父亲（愿真主喜悦他）传述，由穆罕默德·本·叶海亚·阿塔勒传述，由穆罕默德·本·艾哈迈德·本·叶海亚传述，由穆萨·本·欧麦尔传述，由阿卜杜拉·本·穆罕默德·哈贾勒传述，由萨夫万·本·米赫兰·贾马尔传述。"
         },
         "word_start": 43,
-        "word_end": 76
+        "word_end": 77
       }
     ],
     "translations": {
       "en": {
-        "summary": "This passage records the transmission chains used by the author for narrations from Ṣafwān ibn Mihrān al-Jammāl in Man lā yaḥḍuruhu al-faqīh. It preserves two isnads, showing the scholarly care given to documenting how hadith material was received and transmitted.",
-        "seo_question": "What is the transmission chain to Ṣafwān ibn Mihrān al-Jammāl in Man lā yaḥḍuruhu al-faqīh?",
+        "summary": "Shaykh al-Saduq provides a dual-chain verification (tawatur) for the narrations of Safwan ibn Miran Al-Jammal, a prominent companion of the Imams, to establish their reliability in the absence of direct hearing. By citing both his own transmission through Majilawayh and the chain through his father, al-Saduq demonstrates the rigorous methodological standards of the Qum school in preserving the authenticity of hadith literature.",
+        "seo_question": "How is the chain of narration for Safwan ibn Mihran Al-Jammal verified in this text?",
         "key_terms": {
-          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "A transmitter from whom the narrations in this section are reported.",
-          "رَوَيْتُهُ": "I transmitted it; a formula indicating the author’s route of narration.",
-          "مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهِ": "One of the transmitters in the author’s chain.",
-          "ابْنِ أَبِي عُمَيْرٍ": "A major transmitter appearing in the isnad.",
-          "مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ": "A transmitter in the second route of narration.",
-          "عَبْدِ اللَّهِ بْنِ مُحَمَّدٍ الْحَجَّالِ": "The transmitter immediately before Ṣafwān in the second chain."
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "Safwan ibn Mihran Al-Jammal, a prominent companion and narrator",
+          "مَاجِيلَوَيْهَ": "Majilawayh, a well-known Shia scholar and narrator",
+          "رَضِيَ اللَّهُ عَنْهُ": "May Allah be pleased with him, a phrase of approval used for narrators",
+          "عَنْ أَبِي": "From my father, referring to the author's father in the second chain"
         }
       },
       "ur": {
-        "summary": "یہ عبارت صفوان بن مهران الجمّال سے من لا یحضره الفقیہ میں روایتوں کے لیے مستند سلسلہ روایات کو درج کرتی ہے۔ یہ دو اسناد محفوظ کرتی ہے، جو حدیث کے مواد کی وصولی اور روایت میں علمی احتیاط کو ظاہر کرتی ہیں۔",
-        "seo_question": "من لا یحضره الفقیہ میں صفوان بن مهران الجمّال تک روایت کی سلسلہ کیا ہے؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق نے اماموں کے مشہور صحابی صفوان بن مہران الجمال کی روایات کی تصدیق کے لیے دو زنجیروں (تواتر) کا استعمال کیا ہے تاکہ براہِ راست سننے کی عدم موجودگی میں ان کی اعتباریت ثابت کی جا سکے۔ ماجیلویہ کے ذریعے اپنی روایت اور اپنے والد کے ذریعے زنجیر کا حوالہ دیتے ہوئے، شیخ صدوق نے حدیث کی کتابوں کی اصالت کو محفوظ رکھنے میں قم اسکول کے سخت گیر طریقہ کار کی عکاسی کی ہے۔",
+        "seo_question": "اس متن میں صفوان بن مہران الجمال کی سند کی تصدیق کیسے کی گئی ہے؟",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "صفوان بن مہران الجمال، ایک مشہور صحابی اور راوی",
+          "مَاجِيلَوَيْهَ": "ماجیلویہ، ایک معروف شیعہ عالم اور راوی",
+          "رَضِيَ اللَّهُ عَنْهُ": "اللہ ان سے راضی ہو، راویوں کے لیے استعمال ہونے والا ایک تعریفی جملہ",
+          "عَنْ أَبِي": "میرے والد سے، دوسری زنجیر میں مصنف کے والد کی طرف اشارہ"
+        }
       },
       "tr": {
-        "summary": "Bu pasaj, Man lā yaḥḍuruhu al-faqīh'te Ṣafwān ibn Mihrān al-Jammāl'dan rivayetler için yazarın kullandığı isnad zincirlerini kaydeder. İki isnadı korur ve hadis materyalinin nasıl alınıp aktarıldığına dair ilmî özeni gösterir.",
-        "seo_question": "Man lā yaḥḍuruhu al-faqīh'te Ṣafwān ibn Mihrān al-Jammāl'a olan isnad zinciri nedir?",
-        "key_terms": {}
+        "summary": "Şeyh el-Saduk, İmamların önde gelen sahabelerinden olan Safvan ibn Mihran el-Cemmal'ın rivayetlerini, doğrudan işitme yokluğunda güvenilirliklerini tesis etmek için çift zincirli tevatür (tewatur) ile doğrular. Kendisinin Mecilaveyh üzerinden yaptığı nakil ve babası üzerinden giden zinciri zikrederek el-Saduk, hadis edebiyatının asaletinin korunmasında Kum okulunun titiz metodolojik standartlarını göstermektedir.",
+        "seo_question": "Bu metinde Safvan ibn Mihran el-Cemmal'ın rivayet zinciri nasıl doğrulanmaktadır?",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "Safvan ibn Mihran el-Cemmal, önde gelen bir sahabe ve nakilci",
+          "مَاجِيلَوَيْهَ": "Mecilaveyh, tanınmış bir Şii alim ve nakilci",
+          "رَضِيَ اللَّهُ عَنْهُ": "Allah ondan razı olsun, nakilciler için kullanılan bir onay ifadesi",
+          "عَنْ أَبِي": "Babamdan, ikinci zincirde yazarın babasına atıfta bulunan ifade"
+        }
       },
       "fa": {
-        "summary": "این بخش زنجیره‌های سندی را که نویسنده برای روایات از صفوان بن مهران الجمّال در کتاب من لا یحضره الفقیه استفاده کرده است، ثبت می‌کند. دو سند را حفظ می‌کند که دقت علمی در ثبت نحوه دریافت و انتقال حدیث را نشان می‌دهد.",
-        "seo_question": "زنجیره سند به صفوان بن مهران الجمّال در من لا یحضره الفقیه چیست؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق برای روایات صفوان بن مهران جمّال، از صحابه برجسته ائمه، تأیید دو زنجیره‌ای (تواتر) ارائه می‌دهد تا در غیاب شنیدن مستقیم، اعتبار آن‌ها را ثابت کند. با استناد به هر دو انتقال خود از طریق ماجیلویه و زنجیره از طریق پدرش، صدوق استانداردهای روش‌شناختی سخت‌گیرانه مکتب قم را در حفظ اصالت ادبیات حدیثی نشان می‌دهد.",
+        "seo_question": "زنجیره روایت صفوان بن مهران جمّال در این متن چگونه تأیید می‌شود؟",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "صفوان بن مهران جمّال، صحابه برجسته و راوی",
+          "مَاجِيلَوَيْهَ": "ماجیلویه، عالم و راوی شناخته‌شده شیعه",
+          "رَضِيَ اللَّهُ عَنْهُ": "رضی الله عنه، عبارتی برای تأیید که برای راویان به کار می‌رود",
+          "عَنْ أَبِي": "از پدرم، اشاره به پدر نویسنده در زنجیره دوم"
+        }
       },
       "id": {
-        "summary": "Bagian ini mencatat rantai transmisi yang digunakan oleh penulis untuk riwayat dari Ṣafwān ibn Mihrān al-Jammāl dalam Man lā yaḥḍuruhu al-faqīh. Ia mempertahankan dua isnad, menunjukkan kehati-hatian ilmiah dalam mendokumentasikan bagaimana materi hadits diterima dan disampaikan.",
-        "seo_question": "Apa rantai transmisi ke Ṣafwān ibn Mihrān al-Jammāl dalam Man lā yaḥḍuruhu al-faqīh?",
-        "key_terms": {}
+        "summary": "Syekh al-Shaduq memberikan verifikasi rantai ganda (tawatur) untuk riwayat Safwan ibn Mihran Al-Jammal, seorang sahabat dan perawi terkemuka dari para Imam, untuk menetapkan keandalannya dalam ketiadaan pendengaran langsung. Dengan mengutip transmisi sendiri melalui Majilawayh dan rantai melalui ayahnya, al-Shaduq menunjukkan standar metodologis yang ketat dari sekolah Qum dalam melestarikan otentisitas literatur hadis.",
+        "seo_question": "Bagaimana rantai riwayat Safwan ibn Mihran Al-Jammal diverifikasi dalam teks ini?",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "Safwan ibn Mihran Al-Jammal, seorang sahabat dan perawi terkemuka",
+          "مَاجِيلَوَيْهَ": "Majilawayh, seorang ulama dan perawi Syiah yang terkenal",
+          "رَضِيَ اللَّهُ عَنْهُ": "Semoga Allah ridha kepadanya, sebuah frasa persetujuan yang digunakan untuk para perawi",
+          "عَنْ أَبِي": "Dari ayahku, merujuk pada ayah penulis dalam rantai kedua"
+        }
       },
       "bn": {
-        "summary": "এই অংশটি Man lā yaḥḍuruhu al-faqīh-এ Ṣafwān ibn Mihrān al-Jammāl থেকে বর্ণনার জন্য লেখক যে সংক্রমণ শৃঙ্খলাগুলি ব্যবহার করেছেন তা রেকর্ড করে। এটি দুটি ইসনাদ সংরক্ষণ করে, যা হাদিস উপাদান কীভাবে গ্রহণ এবং প্রেরণ করা হয়েছে তার প্রতি বৈজ্ঞানিক যত্ন প্রদর্শন করে।",
-        "seo_question": "Man lā yaḥḍuruhu al-faqīh-এ Ṣafwān ibn Mihrān al-Jammāl-এর কাছে সংক্রমণ শৃঙ্খলাটি কী?",
-        "key_terms": {}
+        "summary": "শায়খ আল-সাদুক সফওয়ান ইবনে মিরান আল-জাম্মাল, ইমামদের একজন প্রখ্যাত সাহাবী, এর বর্ণনাগুলোর নির্ভরযোগ্যতা প্রতিষ্ঠার জন্য একটি দ্বৈত-শৃঙ্খল যাচাই (তওয়াতুর) প্রদান করেন, যেখানে সরাসরি শ্রবণের অনুপস্থিতিতেও এটি গ্রহণযোগ্য। নিজের মাজিলওয়াইহের মাধ্যমে বর্ণনা এবং পিতার মাধ্যমে বর্ণনার শৃঙ্খল উল্লেখ করে, আল-সাদুক হাদিস সাহিত্যের আসলত্ব রক্ষায় কুম স্কুলের কঠোর পদ্ধতিগত মানদণ্ড প্রদর্শন করেন।",
+        "seo_question": "এই পাঠ্যে সফওয়ান ইবনে মিরান আল-জাম্মালের বর্ণনার শৃঙ্খল কীভাবে যাচাই করা হয়েছে?",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "সফওয়ান ইবনে মিরান আল-জাম্মাল, একজন প্রখ্যাত সাহাবী ও বর্ণনাকারী",
+          "مَاجِيلَوَيْهَ": "মাজিলওয়াইহ, একজন সুপরিচিত শিয়া পণ্ডিত ও বর্ণনাকারী",
+          "رَضِيَ اللَّهُ عَنْهُ": "আল্লাহ তাকে সন্তুষ্ট হোন, বর্ণনাকারীদের জন্য অনুমোদনের একটি বাক্যাংশ",
+          "عَنْ أَبِي": "আমার পিতার নিকট থেকে, দ্বিতীয় শৃঙ্খলে লেখকের পিতার দিকে নির্দেশ করে"
+        }
       },
       "es": {
-        "summary": "Este pasaje registra las cadenas de transmisión que el autor utilizó para las narraciones de Ṣafwān ibn Mihrān al-Jammāl en Man lā yaḥḍuruhu al-faqīh. Conserva dos isnads, mostrando el cuidado académico dado a documentar cómo se recibió y transmitió el material hadiz.",
-        "seo_question": "¿Cuál es la cadena de transmisión a Ṣafwān ibn Mihrān al-Jammāl en Man lā yaḥḍuruhu al-faqīh?",
-        "key_terms": {}
+        "summary": "El jeque al-Saduq proporciona una verificación de doble cadena (tawatur) para las narraciones de Safwan ibn Mihran Al-Jammal, un destacado compañero de los Imames, para establecer su fiabilidad en ausencia de audición directa. Al citar tanto su propia transmisión a través de Majilawayh como la cadena a través de su padre, al-Saduq demuestra los rigurosos estándares metodológicos de la escuela de Qum en la preservación de la autenticidad de la literatura hadith.",
+        "seo_question": "¿Cómo se verifica la cadena de narración de Safwan ibn Mihran Al-Jammal en este texto?",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "Safwan ibn Mihran Al-Jammal, un destacado compañero y narrador",
+          "مَاجِيلَوَيْهَ": "Majilawayh, un conocido erudito chií y narrador",
+          "رَضِيَ اللَّهُ عَنْهُ": "Que Allah esté complacido con él, una frase de aprobación utilizada para los narradores",
+          "عَنْ أَبِي": "De mi padre, refiriéndose al padre del autor en la segunda cadena"
+        }
       },
       "fr": {
-        "summary": "Ce passage enregistre les chaînes de transmission utilisées par l'auteur pour les narrations de Ṣafwān ibn Mihrān al-Jammāl dans Man lā yaḥḍuruhu al-faqīh. Il préserve deux isnads, montrant le soin savant apporté à documenter comment le matériel hadith a été reçu et transmis.",
-        "seo_question": "Quelle est la chaîne de transmission à Ṣafwān ibn Mihrān al-Jammāl dans Man lā yaḥḍuruhu al-faqīh ?",
-        "key_terms": {}
+        "summary": "Le cheikh al-Sadouq fournit une vérification à double chaîne (tawatur) pour les narrations de Safwan ibn Mihran Al-Jammal, un compagnon et narrateur éminent des Imams, afin d'établir leur fiabilité en l'absence d'audition directe. En citant à la fois sa propre transmission par l'intermédiaire de Majilawayh et la chaîne par l'intermédiaire de son père, al-Sadouq démontre les normes méthodologiques rigoureuses de l'école de Qum dans la préservation de l'authenticité de la littérature hadith.",
+        "seo_question": "Comment la chaîne de narration de Safwan ibn Mihran Al-Jammal est-elle vérifiée dans ce texte ?",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "Safwan ibn Mihran Al-Jammal, un compagnon et narrateur éminent",
+          "مَاجِيلَوَيْهَ": "Majilawayh, un érudit chiite et narrateur bien connu",
+          "رَضِيَ اللَّهُ عَنْهُ": "Que Allah soit satisfait de lui, une formule d'approbation utilisée pour les narrateurs",
+          "عَنْ أَبِي": "De mon père, se référant au père de l'auteur dans la deuxième chaîne"
+        }
       },
       "de": {
-        "summary": "Dieser Abschnitt dokumentiert die Überlieferungsketten, die der Autor für die Überlieferungen von Ṣafwān ibn Mihrān al-Jammāl in Man lā yaḥḍuruhu al-faqīh verwendet hat. Er bewahrt zwei Isnad, die die wissenschaftliche Sorgfalt bei der Dokumentation zeigen, wie das Hadith-Material empfangen und übermittelt wurde.",
-        "seo_question": "Wie lautet die Überlieferungskette zu Ṣafwān ibn Mihrān al-Jammāl in Man lā yaḥḍuruhu al-faqīh?",
-        "key_terms": {}
+        "summary": "Scheych al-Saduq liefert eine doppelte Kettenverifizierung (Tawatur) für die Überlieferungen von Safwan ibn Mihran Al-Jammal, einem prominenten Gefährten der Imameen der Imame, um ihre Zuverlässigkeit in Abwesenheit des direkten Hörens zu begründen. Durch die Zitierung sowohl seiner eigenen Überlieferung durch Majilawayh als auch der Kette durch seinen Vater demonstriert al-Saduq die rigorosen methodologischen Standards der Qum-Schule bei der Bewahrung der Authentizität der Hadith-Literatur.",
+        "seo_question": "Wie wird die Überlieferungskette für Safwan ibn Mihran Al-Jammal in diesem Text verifiziert?",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "Safwan ibn Mihran Al-Jammal, ein prominenter Gefährte und Überlieferer",
+          "مَاجِيلَوَيْهَ": "Majilawayh, ein bekannter schiitischer Gelehrter und Überlieferer",
+          "رَضِيَ اللَّهُ عَنْهُ": "Möge Allah mit ihm zufrieden sein, eine Phrase der Zustimmung, die für Überlieferer verwendet wird",
+          "عَنْ أَبِي": "Von meinem Vater, bezieht sich auf den Vater des Autors in der zweiten Kette"
+        }
       },
       "ru": {
-        "summary": "Этот отрывок фиксирует цепочки передачи, использованные автором для преданий от Ṣafwān ibn Mihrān al-Jammāl в Man lā yaḥḍuruhu al-faqīh. Он сохраняет два иснада, показывая научную тщательность в документировании того, как хадисный материал был принят и передан.",
-        "seo_question": "Какова цепочка передачи к Ṣafwān ibn Mihrān al-Jammāl в Man lā yaḥḍuruhu al-faqīh?",
-        "key_terms": {}
+        "summary": "Шейх ас-Садук приводит двойную цепочку передачи (таватур) для хадисов Сафвана ибн Мираана аль-Джаммаля, выдающегося сподвижника Имамов, чтобы установить их достоверность в отсутствие прямого слушания. Цитируя как собственную передачу через Маджилвайха, так и цепочку через своего отца, ас-Садук демонстрирует строгие методологические стандарты кумской школы в сохранении аутентичности хадисов.",
+        "seo_question": "Как в данном тексте проверяется цепочка передачи Сафвана ибн Мираана аль-Джаммаля?",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "Сафван ибн Мираан аль-Джаммаль, выдающийся сподвижник и передатчик",
+          "مَاجِيلَوَيْهَ": "Маджилвайх, известный шиитский ученый и передатчик",
+          "رَضِيَ اللَّهُ عَنْهُ": "Да будет доволен им Аллах, фраза одобрения, используемая для передатчиков",
+          "عَنْ أَبِي": "От моего отца, относящееся к отцу автора во второй цепочке"
+        }
       },
       "zh": {
-        "summary": "本段记录了作者在Manlāyaḥḍuruhual-faqīh中用于Ṣafwān ibn Mihrān al-Jammāl传述的传递链。它保留了两个传链，显示了学术上对记录圣训材料如何被接收和传递的细致关怀。",
-        "seo_question": "Manlāyaḥḍuruhual-faqīh中到Ṣafwān ibn Mihrān al-Jammāl的传递链是什么？",
-        "key_terms": {}
+        "summary": "谢赫·萨杜克为萨凡·伊本·米赫兰·贾马尔的圣训提供了双重传述链验证（泰瓦图尔），以确立其在无法直接听闻情况下的可靠性。通过引用他通过马吉拉维赫的传述以及通过其父亲的传述链，萨杜克展示了库姆学派在维护圣训文献真实性方面所遵循的严谨方法论标准。",
+        "seo_question": "本文中文萨凡·伊本·米赫兰·贾马尔的传述链是如何验证的？",
+        "key_terms": {
+          "صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ": "萨凡·伊本·米赫兰·贾马尔，一位著名的同伴和传述者",
+          "مَاجِيلَوَيْهَ": "马吉拉维赫，一位著名的什叶派学者和传述者",
+          "رَضِيَ اللَّهُ عَنْهُ": "愿真主喜悦他，用于对传述者表示认可的短语",
+          "عَنْ أَبِي": "从我父亲那里，指代第二条传述链中作者的父亲"
+        }
       }
     },
-    "related_quran": [],
-    "diacritized_text": "وَ مَا كَانَ فِي ه عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَمِّهِ مُحَمَّدِ بْنِ أَبِي الْقَاسِمِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنْ أَبِيهِ، عَنِ ابْنِ أَبِي عُمَيْرٍ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ. وَ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ مُوسَى بْنِ عُمَرَ، عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدٍ الْحَجَّالِ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ‌.",
+    "related_quran": [
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:3",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا كَانَ فِيهِ عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَمِّهِ مُحَمَّدِ بْنِ أَبِي الْقَاسِمِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنْ أَبِيهِ، عَنِ ابْنِ أَبِي عُمَيْرٍ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ. وَرَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ مُوسَى بْنِ عُمَرَ، عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدِ الْحَجَّالِ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ.",
     "isnad_matn": {
-      "isnad_ar": "عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَمِّهِ مُحَمَّدِ بْنِ أَبِي الْقَاسِمِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنْ أَبِيهِ، عَنِ ابْنِ أَبِي عُمَيْرٍ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ. وَ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ مُوسَى بْنِ عُمَرَ، عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدٍ الْحَجَّالِ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ‌.",
-      "matn_ar": "وَ مَا كَانَ فِي ه",
+      "isnad_ar": "وَمَا كَانَ فِيهِ عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ فَقَدْ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَنْ عَمِّهِ مُحَمَّدِ بْنِ أَبِي الْقَاسِمِ، عَنْ أَحْمَدَ بْنِ مُحَمَّدِ بْنِ خَالِدٍ، عَنْ أَبِيهِ، عَنِ ابْنِ أَبِي عُمَيْرٍ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ. وَرَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ مُحَمَّدِ بْنِ يَحْيَى الْعَطَّارِ، عَنْ مُحَمَّدِ بْنِ أَحْمَدَ بْنِ يَحْيَى، عَنْ مُوسَى بْنِ عُمَرَ، عَنْ عَبْدِ اللَّهِ بْنِ مُحَمَّدِ الْحَجَّالِ، عَنْ صَفْوَانَ بْنِ مِهْرَانَ الْجَمَّالِ.",
+      "matn_ar": "ه عن صفوان بن مهران الجمّال فقد رويته عن محمّد بن عليّ ماجيلويه- رضي اللّه عنه- عن عمّه محمّد بن أبي القاسم، عن أحمد بن محمّد بن خالد، عن أبيه، عن ابن أبي عمير، عن صفوان بن مهران الجمّال. و رويته عن أبي- رضي اللّه عنه- عن محمّد بن يحيى العطّار، عن محمّد بن أحمد بن يحيى، عن موسى بن عمر، عن عبد اللّه بن محمّد الحجّال، عن صفوان بن مهران الجمّال‌.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "ما كان في",
-          "name_en": "",
+          "name_en": "Ma kana fi",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -175,6 +210,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

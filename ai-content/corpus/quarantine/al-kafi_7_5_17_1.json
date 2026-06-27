@@ -1,0 +1,273 @@
+{
+  "verse_path": "/books/al-kafi:7:5:17:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 19 en words vs 1 ar words (ratio=19.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "judicial_rulings",
+      "trust",
+      "halal_haram"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "arabic_text",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from Muhammad ibn Isa, from Yunus ibn Abd al-Rahman, from Abd Allah ibn Sinan, who said:",
+          "ur": "علی بن ابراہیم، محمد بن عیسیٰ سے، یونس بن عبدالرحمن سے، عبداللہ بن سینان سے، انہوں نے کہا:",
+          "tr": "Ali b. İbrahim, Muhammed b. İsa'dan, Yunus b. Abdurrahman'dan, Abdillah b. Sinan'dan, o da şöyle dedi:",
+          "fa": "عَلِيُّ بْنُ إِبْرَاهِيمَ، عَنْ مُحَمَّدِ بْنِ عِيسَى، عَنْ يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ، عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ، قَالَ:",
+          "id": "Ali bin Ibrahim, dari Muhammad bin Isa, dari Yunus bin Abd al-Rahman, dari Abd Allah bin Sinan, yang berkata:",
+          "bn": "আলী ইবনে ইব্রাহীম, মুহাম্মাদ ইবনে ঈসা থেকে, ইউনুস ইবনে আবদুর রহমান থেকে, আবদুল্লাহ ইবনে সিনান থেকে, যিনি বলেছেন:",
+          "es": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus ibn Abd al-Rahman, de Abd Allah ibn Sinan, quien dijo:",
+          "fr": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus ibn Abd al-Rahman, de Yunus ibn Abd al-Rahman, d'Abd Allah ibn Sinan, qui a dit :",
+          "de": "Ali ibn Ibrahim, von Muhammad ibn Isa, von Yunus ibn Abd al-Rahman, von Abd Allah ibn Sinan, der sagte:",
+          "ru": "Али ибн Ибрахим, от Мухаммада ибн Исы, от Юнуса ибн Абд ар-Рахмана, от Абдуллаха ибн Синана, который сказал:",
+          "zh": "阿里·本·易卜拉欣，传自穆罕默德·本·伊萨，传自优努斯·本·阿卜杜·拉赫曼，传自阿卜杜拉·本·西南，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عليه السلام ) مَا يُرَدُّ مِنَ الشُّهُودِ قَالَ فَقَالَ الظَّنِينُ وَ الْمُتَّهَمُ قَالَ قُلْتُ فَالْفَاسِقُ وَ الْخَائِنُ قَالَ ذَلِكَ يَدْخُلُ فِي الظَّنِينِ",
+        "translations": {
+          "en": "I said to Abu Abdillah (peace be upon him), 'What is rejected from the witnesses?' He said: 'The suspicious and the accused.' I said, 'So what about the immoral and the treacherous?' He said: 'That is included in the suspicious.'",
+          "ur": "میں نے ابو عبداللہ (علیہ السلام) سے پوچھا: ''گواہوں میں سے کیا مسترد کیا جاتا ہے؟'' انہوں نے فرمایا: ''مشکوک اور مقصود۔'' میں نے پوچھا: ''تو فاجر اور خیانت پیشہ کے بارے میں؟'' انہوں نے فرمایا: ''یہ مشکوک میں شامل ہے۔''",
+          "tr": "Ben, Ebu Abdillah'ya (aleyhisselam) 'Şahitlerden hangisi reddedilir?' diye sordum. O da, 'Şüpheli olan ve suçlanan' dedi. Ben, 'Peki ya ahlaksız ve hain olanlar?' diye sordum. O da, 'Onlar şüpheli olanların içine dahildir' dedi.",
+          "fa": "گفتم به اباعبدالله (علیه السلام): «چه چیزی از شهادت‌ها مردود است؟» گفت: «مشکوک و مدعی.» گفتم: «پس درباره فاسق و امین چه؟» گفت: «آن در مشکوک included است.»",
+          "id": "Aku berkata kepada Abu Abdillah (semoga Allah memberinya kesejahteraan), 'Apa yang ditolak dari para saksi?' Ia menjawab, 'Yang meragukan dan yang tercela.' Aku berkata, 'Lalu bagaimana dengan yang fasik dan yang khianat?' Ia menjawab, 'Itu termasuk dalam kategori yang meragukan.'",
+          "bn": "আমি আবু আবদিল্লাহ (আলৈহিস সালাম)-কে বললাম, 'সাক্ষীদের মধ্যে কে প্রত্যাখ্যান করা হয়?' তিনি বললেন, 'সন্দেহযুক্ত এবং অভিযুক্ত ব্যক্তি।' আমি বললাম, 'তাহলে অশ্লীল এবং বিশ্বাসঘাতকদের বিষয়ে কী?' তিনি বললেন, 'তা সন্দেহযুক্তদের অন্তর্ভুক্ত।'",
+          "es": "Dije a Abu Abdillah (que la paz sea con él): «¿Qué es lo que se rechaza de los testigos?». Dijo: «El sospechoso y el acusado». Dije: «¿Y qué hay del inmoral y el traidor?». Dijo: «Eso está incluido en el sospechoso».",
+          "fr": "J'ai dit à Abou Abdillah (que la paix soit sur lui) : « Qu'est-ce qui est rejeté parmi les témoins ? » Il a dit : « Le suspect et l'accusé. » J'ai dit : « Et l'impudique et le déloyal ? » Il a dit : « Cela est inclus dans le suspect. »",
+          "de": "Ich sagte zu Abu Abdillah (friede sei mit ihm): »Was wird von den Zeugen als ungültig angesehen?« Er sagte: »Der Verdächtige und der Angeklagte.« Ich sagte: »Und was ist mit dem Unmoralischen und dem Treulosen?« Er sagte: »Das ist im Verdächtigen enthalten.\"",
+          "ru": "Сказал я Абу Абдиллаху (да будет мир с ним): «Что отвергается от свидетелей?» Он сказал: «Подозрительный и обвиняемый». Сказал я: «А как же нечестивый и вероломный?» Он сказал: «Это входит в подозрительного».",
+          "zh": "我对阿布·阿卜杜拉（愿主福安之）说：‘哪些见证人被拒绝？’他说：‘可疑的和被指控的。’我说：‘那不道德的和背信弃义的呢？’他说：‘这包含在可疑之中。'"
+        },
+        "word_start": 1,
+        "word_end": 28
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi establishes the jurisprudential basis for witness credibility (‘adālah) by categorizing 'the suspicious' (al-zannin) and 'the accused' (al-mutaham) as grounds for rejection. It clarifies that specific moral failings like being 'immoral' (al-fasiq) or 'treacherous' (al-kha'in) are subsumed under the broader legal definition of suspicion, reflecting the Shia scholarly emphasis on contextual evaluation of a witness's character in court proceedings.",
+        "seo_question": "What are the conditions for rejecting a witness in Shia fiqh?",
+        "key_terms": {
+          "الشُّهُودِ": "Witnesses",
+          "يُرَدُّ": "Rejected / Disqualified",
+          "الظَّنِينُ": "The suspicious (one whose testimony is not fully trusted)",
+          "الْمُتَّهَمُ": "The accused (often of illegitimacy or specific faults)",
+          "الْفَاسِقُ": "The immoral (one who commits sins openly)",
+          "الْخَائِنُ": "The treacherous (one who is untrustworthy)"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی میں گواہ کی قابلیت (عدالت) کے فقہی اساس کو قائم کرتی ہے، جس میں 'شک والے' (الظّنین) اور 'مشتہم' (المتہم) کو رد کرنے کی وجہ قرار دیا گیا ہے۔ یہ واضح کرتی ہے کہ 'فاسق' یا 'خائن' جیسی خاص اخلاقی کمزوریاں شک کی وسیع قانونی تعریف کے تحت آتی ہیں، جو عدالتی کارروائیوں میں گواہ کی شخصیت کے سیاق و سباق میں جائزہ لینے کی شیعہ علما کی ترجیح کو ظاہر کرتی ہیں۔",
+        "seo_question": "شیعہ فقہ میں گواہ کو رد کرنے کی شرائط کیا ہیں؟",
+        "key_terms": {
+          "الشُّهُودِ": "گواہ",
+          "يُرَدُّ": "رد کیا جاتا ہے / نااہل",
+          "الظَّنِينُ": "شک والا (جس کی گواہی مکمل طور پر قابل اعتماد نہیں)",
+          "الْمُتَّهَمُ": "مشتہم (غالباً غیرت یا خاص خامیوں کے بارے میں)",
+          "الْفَاسِقُ": "فاسق (جو گناہ کھلم کھلا کرتا ہے)",
+          "الْخَائِنُ": "خائن (جو قابل اعتماد نہیں ہے)"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, el-Kâfî'de şahıs güvenilirliği ('adâle) için hukuki dayanak oluşturarak 'şüpheli' (ez-zannîn) ve 'suçlu' (el-mutaham) kategorilerini reddedilme gerekçesi olarak sınıflandırır. Belirli ahlaki kusurların, örneğin 'fâsık' (ahlaksız) veya 'hain' (güvenilir olmayan) olmanın, daha geniş bir hukuki şüph tanımı altında toplandığını ve bu durumun, Şii alimlerinin mahkeme süreçlerinde şahsın karakterini bağlamsal olarak değerlendirmeye vurgu yaptığını açıklar.",
+        "seo_question": "Şii fıkhında şahsın reddedilmesi için hangi koşullar aranır?",
+        "key_terms": {
+          "الشُّهُودِ": "Şahıslar",
+          "يُرَدُّ": "Reddedilir / Elener",
+          "الظَّنِينُ": "Şüpheli",
+          "الْمُتَّهَمُ": "Suçlu",
+          "الْفَاسِقُ": "Fâsık",
+          "الْخَائِنُ": "Hain"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، مبنای فقهی اعتبار شهود (عدالت) را با طبقه‌بندی «گمان‌برندگان» (الظّنین) و «متهَم» (المتّهم) به عنوان مایه رد شهادت، تثبیت می‌کند. آن شفاف می‌سازد که نقص‌های اخلاقی خاص مانند «فاسق» بودن یا «خائن» بودن، تحت تعریف حقوقی گسترده‌تر گمان نهفته می‌شوند که این امر تأکید علمای شیعه بر ارزیابی زمینه‌ای شخصیت شاهد در دادگاه را منعکس می‌کند.",
+        "seo_question": "شرایط رد شهادت شاهد در فقه شیعه چیست؟",
+        "key_terms": {
+          "الشُّهُودِ": "شهود",
+          "يُرَدُّ": "رد می‌شود / مردود",
+          "الظَّنِينُ": "گمان‌برنده (کسی که شهادتش کاملاً مورد اعتماد نیست)",
+          "الْمُتَّهَمُ": "متهَم (اغلب به دلیل نامشروع بودن یا عیب‌های خاص)",
+          "الْفَاسِقُ": "فاسق (کسی که گناهان را آشکارا مرتکب می‌شود)",
+          "الْخَائِنُ": "خائن (کسی که قابل اعتماد نیست)"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari al-Kafi ini menetapkan dasar jurisprudensi untuk kredibilitas saksi ('adālah) dengan mengkategorikan 'yang dicurigai' (al-zannin) dan 'yang dituduh' (al-mutaham) sebagai alasan penolakan. Hadis ini menjelaskan bahwa kegagalan moral spesifik seperti 'tidak bermoral' (al-fasiq) atau 'khianat' (al-kha'in) tercakup dalam definisi hukum yang lebih luas tentang kecurigaan, mencerminkan penekanan ulama Syiah pada evaluasi kontekstual karakter saksi dalam proses pengadilan.",
+        "seo_question": "Apa saja syarat penolakan saksi dalam fikih Syiah?",
+        "key_terms": {
+          "الشُّهُودِ": "Saksi",
+          "يُرَدُّ": "Ditolak / Tidak memenuhi syarat",
+          "الظَّنِينُ": "Yang dicurigai (yang kesaksiannya tidak sepenuhnya dipercaya)",
+          "الْمُتَّهَمُ": "Yang dituduh (sering terkait dengan ketidakabsahan nasab atau kesalahan spesifik)",
+          "الْفَاسِقُ": "Yang tidak bermoral (yang melakukan dosa secara terbuka)",
+          "الْخَائِنُ": "Yang khianat (yang tidak dapat dipercaya)"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে সাক্ষীর বিশ্বাসযোগ্যতার (‘াদালাহ) ফিকহী ভিত্তি স্থাপন করে, 'সন্দেহজনক' (আল-যান্নিন) এবং 'অভিযুক্ত' (আল-মুতাহাম)-কে প্রত্যাখ্যানের কারণ হিসেবে শ্রেণীবদ্ধ করে। এটি স্পষ্ট করে যে, 'অবিশ্বাস্য' (আল-ফাসিক) বা 'প্রতারণাকারী' (আল-খাইন)-এর মতো নির্দিষ্ট নৈতিক ত্রুটিগুলো সন্দেহের বিস্তৃত আইনি সংজ্ঞার অন্তর্ভুক্ত, যা আদালতের কার্যক্রমে সাক্ষীর চরিত্রের প্রাসঙ্গিক মূল্যায়নে শিয়া বিদ্বানদের জোর দেয় প্রতিফলিত করে।",
+        "seo_question": "শিয়া ফিকহে সাক্ষী প্রত্যাখ্যানের শর্তগুলো কী?",
+        "key_terms": {
+          "الشُّهُودِ": "সাক্ষী",
+          "يُرَدُّ": "প্রত্যাখ্যান করা / অযোগ্য ঘোষণা করা",
+          "الظَّنِينُ": "সন্দেহজনক (যার সাক্ষ্য পূর্ণাঙ্গভাবে বিশ্বাসযোগ্য নয়)",
+          "الْمُتَّهَمُ": "অভিযুক্ত (অপত্যতা বা নির্দিষ্ট ত্রুটির প্রায়শই অভিযুক্ত)",
+          "الْفَاسِقُ": "অবিশ্বাস্য (যিনি গুনাহ স্পষ্টভাবে করেন)",
+          "الْخَائِنُ": "প্রতারণাকারী (যিনি অবিশ্বাসযোগ্য)"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi establece la base jurisprudencial para la credibilidad de los testigos ('adālah) al categorizar a 'los sospechosos' (al-zannin) y 'los acusados' (al-mutaham) como motivos de rechazo. Aclara que defectos morales específicos como ser 'inmoral' (al-fasiq) o 'traicionero' (al-kha'in) se engloban en la definición legal más amplia de sospecha, reflejando el énfasis de los eruditos chiíes en la evaluación contextual del carácter de un testigo en los procedimientos judiciales.",
+        "seo_question": "¿Cuáles son las condiciones para rechazar a un testigo en el fiqh chií?",
+        "key_terms": {
+          "الشُّهُودِ": "Testigos",
+          "يُرَدُّ": "Rechazado / Descalificado",
+          "الظَّنِينُ": "El sospechoso (cuya testimonio no es totalmente confiado)",
+          "الْمُتَّهَمُ": "El acusado (a menudo de ilegitimidad o faltas específicas)",
+          "الْفَاسِقُ": "El inmoral (quien comete pecados abiertamente)",
+          "الْخَائِنُ": "El traicionero (quien no es digno de confianza)"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith d'Al-Kafi établit le fondement jurisprudentiel de la crédibilité des témoins ('adālah) en catégorisant 'les suspects' (al-zannin) et 'les accusés' (al-mutaham) comme motifs de rejet. Il clarifie que des défauts moraux spécifiques tels qu'être 'immoral' (al-fasiq) ou 'trompeur' (al-kha'in) sont englobés dans la définition juridique plus large de la suspicion, reflétant l'accent mis par les savants chiites sur l'évaluation contextuelle du caractère d'un témoin lors des procédures judiciaires.",
+        "seo_question": "Quelles sont les conditions pour rejeter un témoin dans le fiqh chiite ?",
+        "key_terms": {
+          "الشُّهُودِ": "Témoins",
+          "يُرَدُّ": "Rejeté / Disqualifié",
+          "الظَّنِينُ": "Le suspect (celui dont le témoignage n'est pas entièrement approuvé)",
+          "الْمُتَّهَمُ": "L'accusé (souvent d'illégitimité ou de défauts spécifiques)",
+          "الْفَاسِقُ": "L'immoral (celui qui commet des péchés ouvertement)",
+          "الْخَائِنُ": "Le trompeur (celui qui n'est pas digne de confiance)"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi begründet die rechtliche Grundlage für die Glaubwürdigkeit von Zeugen (‘adālah), indem es „die Verdächtigen“ (al-zannin) und „die Angeklagten“ (al-mutaham) als Gründe für die Zurückweisung kategorisiert. Es klärt, dass spezifische moralische Mängel wie „unmoralisch“ (al-fasiq) oder „treulos“ (al-kha'in) unter die breitere rechtliche Definition der Verdächtigung subsumiert werden, was die schiitische Betonung der kontextuellen Bewertung des Charakters eines Zeugen in Gerichtsverfahren widerspiegelt.",
+        "seo_question": "Was sind die Bedingungen für die Zurückweisung eines Zeugen im schiitischen Fiqh?",
+        "key_terms": {
+          "الشُّهُودِ": "Zeugen",
+          "يُرَدُّ": "Zurückgewiesen / Disqualifiziert",
+          "الظَّنِينُ": "Der Verdächtige (dessen Aussage nicht vollständig vertraut wird)",
+          "الْمُتَّهَمُ": "Der Angeklagte (oft wegen unehelicher Geburt oder spezifischer Fehler)",
+          "الْفَاسِقُ": "Der Unmoralische (der Sünden offen begeht)",
+          "الْخَائِنُ": "Der Treulose (der unzuverlässig ist)"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «аль-Кафи» устанавливает правовую основу для оценки достоверности свидетелей (‘адаля), классифицируя «подозрительных» (аз-заннин) и «обвиняемых» (аль-муттахам) как основания для отвода. Уточняется, что конкретные моральные недостатки, такие как «нечестивость» (аль-фасик) или «недобросовестность» (аль-хаин), подпадают под более широкое юридическое определение подозрения, что отражает акцент шаитских ученых на контекстуальной оценке характера свидетеля в судебных процессах. | Какие условия для отвода свидетеля в шаитском фикхе? | [свидетели, отводятся/не принимаются, подозрительный (чье показание не доверяют полностью), обвиняемый (часто в незаконнорожденности или конкретных пороках), нечестивый (совершающий грехи открыто), недобросовестный (ненадежный)] }```json { ",
+        "seo_question": "Какие условия для отвода свидетеля в шаитском фике?",
+        "key_terms": {
+          "الشُّهُودِ": "свидетели",
+          "يُرَدُّ": "отводятся/не принимаются",
+          "الظَّنِينُ": "подозрительный (чье показание не доверяют полностью)",
+          "الْمُتَّهَمُ": "обвиняемый (часто в незаконнорожденности или конкретных пороках)",
+          "الْفَاسِقُ": "нечестивый (совершающий грехи открыто)",
+          "الْخَائِنُ": "недобросовестный (ненадежный)"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《卡菲》的圣训确立了证人可信度（‘达拉）的法学基础，将“可疑者”（al-zannin）和“被指控者”（al-mutaham）列为拒绝证人的理由。它澄清了诸如“不道德”（al-fasiq）或“背信”（al-kha'in）等具体的道德缺陷被纳入更广泛的法律定义“怀疑”之下，反映了什叶派学者在法庭诉讼中对证人品格进行情境评估的重视。",
+        "seo_question": "什叶派教法中拒绝证人的条件是什么？",
+        "key_terms": {
+          "الشُّهُودِ": "证人",
+          "يُرَدُّ": "被拒绝/不合格",
+          "الظَّنِينُ": "可疑者（其证词未完全被信任的人）",
+          "الْمُتَّهَمُ": "被指控者（通常因不合法或特定缺陷而被指控的人）",
+          "الْفَاسِقُ": "不道德者（公开犯罪的人）",
+          "الْخَائِنُ": "背信者（不可信的人）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "8:27",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "24:4",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "arabic_text قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عليه السلام ) مَا يُرَدُّ مِنَ الشُّهُودِ قَالَ فَقَالَ الظَّنِينُ وَ الْمُتَّهَمُ قَالَ قُلْتُ فَالْفَاسِقُ وَ الْخَائِنُ قَالَ ذَلِكَ يَدْخُلُ فِي الظَّنِينِ",
+    "isnad_matn": {
+      "isnad_ar": "arabic_text",
+      "matn_ar": "قُلْتُ لِأَبِي عَبْدِ اللَّهِ ( عليه السلام ) مَا يُرَدُّ مِنَ الشُّهُودِ قَالَ فَقَالَ الظَّنِينُ وَ الْمُتَّهَمُ قَالَ قُلْتُ فَالْفَاسِقُ وَ الْخَائِنُ قَالَ ذَلِكَ يَدْخُلُ فِي الظَّنِينِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ عِيسَى",
+          "name_en": "Muhammad ibn Isa",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 27
+        },
+        {
+          "name_ar": "يُونُسَ بْنِ عَبْدِ الرَّحْمَنِ",
+          "name_en": "Yunus ibn 'Abd al-Rahman",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 146
+        },
+        {
+          "name_ar": "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+          "name_en": "Abdullah b. Sinan",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 31
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

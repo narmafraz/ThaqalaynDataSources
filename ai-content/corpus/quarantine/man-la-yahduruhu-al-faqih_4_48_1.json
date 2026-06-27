@@ -1,8 +1,8 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:48:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
@@ -18,139 +18,214 @@
     ],
     "content_type": "legal_ruling",
     "topics": [
-      "judicial_rulings",
       "financial_law",
-      "rights_of_others",
-      "justice_system"
+      "judicial_rulings",
+      "rights_of_others"
     ],
     "chunks": [
       {
         "chunk_type": "opening",
-        "arabic_text": "سُئِلَ الصَّادِقُ عَلَيْهِ السَّلَامُ عَنْ أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلًا: مَمْلُوكٍ وَحُرٍّ وَحُرَّةٍ وَمُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ، فَقَالَ عَلَيْهِ السَّلَامُ:",
+        "arabic_text": "سُئِلَ اَلصَّادِقُ عَلَيْهِ اَلسَّلاَمُ :",
         "translations": {
-          "en": "Al-Sadiq عليه السلام was asked about four persons who killed a man: a slave, a free man, a free woman, and a mukatab who had paid half of his contract of manumission. So he عليه السلام said:",
-          "ur": "اَلصَّادِق علیہ السلام سے پوچھا گیا چار افراد کے بارے میں جنہوں نے ایک شخص کو قتل کیا: ایک غلام، ایک آزاد مرد، ایک آزاد عورت، اور ایک مکتب جس نے اپنی آزادی کے معاہدے کا آدھا حصہ ادا کیا تھا۔ تو انہوں نے علیہ السلام فرمایا:",
-          "tr": "El-Sadık عليه السلام'e, bir adamı öldüren dört kişi hakkında soruldu: bir köle, bir özgür adam, bir özgür kadın ve manumisyon sözleşmesinin yarısını ödemiş bir mukatab. Bunun üzerine عليه السلام şöyle dedi:",
-          "fa": "از اَلصَّادِق علیه السلام درباره چهار نفری که مردی را کشتند پرسیده شد: یک برده، یک مرد آزاد، یک زن آزاد و یک مکتب که نیمی از قرارداد آزادیش را پرداخت کرده بود. پس ایشان علیه السلام فرمودند:",
-          "id": "Al-Sadiq عليه السلام ditanya tentang empat orang yang membunuh seorang pria: seorang budak, seorang pria merdeka, seorang wanita merdeka, dan seorang mukatab yang telah membayar setengah dari kontrak pembebasannya. Maka beliau عليه السلام berkata:",
-          "bn": "আল-সাদিক علیہ السلام-কে চারজন ব্যক্তির সম্পর্কে জিজ্ঞাসা করা হয়েছিল যারা একজন মানুষকে হত্যা করেছিল: একজন দাস, একজন মুক্ত পুরুষ, একজন মুক্ত মহিলা, এবং একজন মুকাতাব যিনি তার মুক্তির চুক্তির অর্ধেক পরিশোধ করেছিলেন। তখন তিনি علیہ السلام বললেন:",
-          "es": "Se le preguntó a Al-Sadiq عليه السلام sobre cuatro personas que mataron a un hombre: un esclavo, un hombre libre, una mujer libre y un mukatab que había pagado la mitad de su contrato de manumisión. Entonces él عليه السلام dijo:",
-          "fr": "On demanda à Al-Sadiq عليه السلام au sujet de quatre personnes qui avaient tué un homme : un esclave, un homme libre, une femme libre et un mukatab qui avait payé la moitié de son contrat de manumission. Il عليه السلام répondit :",
-          "de": "Al-Sadiq عليه السلام wurde gefragt über vier Personen, die einen Mann getötet hatten: einen Sklaven, einen freien Mann, eine freie Frau und einen Mukatab, der die Hälfte seines Freilassungsvertrags bezahlt hatte. Darauf sagte er عليه السلام:",
-          "ru": "У Аль-Садика عليه السلام спросили о четырёх лицах, которые убили человека: рабе, свободном мужчине, свободной женщине и мукатабе, оплатившем половину своего договора об освобождении. Тогда он عليه السلام сказал:",
-          "zh": "有人问الصدیقعلیهالسلام关于四个人杀害一人：一名奴隶、一名自由男子、一名自由女子和一名已支付半数解契款的مکاتب。于是他علیهالسلام说："
+          "en": "Imam Al-Sadiq (peace be upon him) was asked:",
+          "ur": "امام الصادق (علیه السلام) سے پوچھا گیا:",
+          "tr": "İmamü's-Sâdık (aleyhisselâm) kendisine şu soru soruldu:",
+          "fa": "امام الصادق (علیه السلام) پرسیده شد:",
+          "id": "Imam Al-Shadiq (alamah) ditanya:",
+          "bn": "ইমাম আস-সাдыق (আলাইহিসসালাম) থেকে জিজ্ঞাসা করা হলো:",
+          "es": "Se preguntó al Imam Al-Sadiq (que la paz sea con él):",
+          "fr": "Imam Al-Sadiq (que la paix soit sur lui) a été interrogé :",
+          "de": "Imam Al-Sadiq (Friede sei mit ihm) wurde gefragt:",
+          "ru": "Имам ас-Садык (да будет над ним мир) спросили:",
+          "zh": "伊玛目萨迪格（愿主福安之）被问及："
         },
         "word_start": 0,
-        "word_end": 20
+        "word_end": 5
       },
       {
         "chunk_type": "body",
-        "arabic_text": "عَلَيْهِمُ الدِّيَةُ، عَلَى الْحُرِّ رُبُعُ الدِّيَةِ، وَعَلَى الْحُرَّةِ رُبُعُ الدِّيَةِ، وَعَلَى الْمَمْلُوكِ أَنْ يُخَيَّرَ مَوْلَاهُ، فَإِنْ شَاءَ أَدَّى عَنْهُ، وَإِنْ شَاءَ دَفَعَهُ بِرُمَّتِهِ، وَلَا يَغْرَمُ أَهْلُهُ شَيْئًا، وَعَلَى الْمُكَاتَبِ فِي مَالِهِ نِصْفُ الرُّبُعِ، وَعَلَى الَّذِينَ كَاتَبُوهُ نِصْفُ الرُّبُعِ، فَذَلِكَ الرُّبُعُ لِأَنَّهُ قَدْ عَتَقَ نِصْفُهُ.",
+        "arabic_text": "عَنْ أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلاً مَمْلُوكٍ وَ حُرٍّ وَ حُرَّةٍ وَ مُكَ وَ حُرَّةٍ وَ مُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ فَقَالَ عَلَيْهِ اَلسَّلاَمُ \"عَلَيْهِمُ اَلدِّيَةُ عَلَى اَلْحُرِّ رُبُعُ اَلدِّيَةِ وَ عَلَى اَلْحُرَّةِ رُبُعُ اَلدِّيَةِ وَ عَلَى اَلْمَمْلُوكِ أَنْ يُخَيَّرَ مَوْلاَهُ فَإِنْ شَاءَ أَدَّى عَنْهُ وَ إِنْ شَاءَ دَفَعَهُ بِرُمَّتِهِ وَ لاَ يَغْرَمُ أَهْلُهُ شَيْئاً وَ عَلَى اَلْمُكَاتَبِ فِي مَالِهِ نِصْفُ اَلرُّبُعِ وَ عَلَى اَلَّذِينَ كَاتَبُوهُ نِصْفُ اَلرُّبُعِ فَذَلِكَ اَلرُّبُعُ لِأَنَّهُ قَدْ عَتَقَ نِصْفُهُ\".",
         "translations": {
-          "en": "The diyyah is upon them. The free man owes one-fourth of the diyyah, and the free woman owes one-fourth of the diyyah. As for the slave, his master is to be given the choice: if he wishes, he pays on his behalf, and if he wishes, he surrenders him in his entirety, and his family bears nothing. As for the mukatab, half of the quarter is due from his property, and half of the quarter is due from those who contracted his manumission, for that quarter is so because half of him has become free.",
-          "ur": "دیت ان پر واجب ہے۔ آزاد مرد پر دیت کا ایک چوتھائی واجب ہے، اور آزاد عورت پر بھی دیت کا ایک چوتھائی۔ جہاں تک غلام کا تعلق ہے، اس کے مالک کو اختیار دیا جاتا ہے: اگر وہ چاہے تو اس کی طرف سے دیت ادا کرے، اور اگر چاہے تو اسے مکمل طور پر حوالے کر دے، اور اس کے اہل خانہ پر کوئی ذمہ داری نہیں ہوگی۔ مکتب کے بارے میں، اس کی جائیداد سے ایک چوتھائی کا آدھا حصہ واجب ہے، اور جو لوگ اس کی آزادی کے معاہدے میں شامل ہیں ان سے بھی ایک چوتھائی کا آدھا حصہ واجب ہے، کیونکہ یہ چوتھائی اس لیے ہے کہ اس کا آدھا حصہ آزاد ہو چکا ہے۔",
-          "tr": "Diyyet onlardadır. Özgür adam diyyetin dörtte birini, özgür kadın da diyyetin dörtte birini ödemelidir. Köle için ise efendisine seçim hakkı verilir: isterse onun adına öder, isterse onu tamamen teslim eder ve ailesi hiçbir şey ödemez. Mukatab için ise malından dörtte birin yarısı, manumisyon sözleşmesini yapanlardan da dörtte birin yarısı alınır; çünkü bu dörtte bir, onun yarısının özgürleşmiş olmasındandır.",
-          "fa": "دیه بر عهده آنهاست. مرد آزاد یک چهارم دیه را می‌پردازد و زن آزاد نیز یک چهارم دیه را. در مورد برده، اختیار به مالک او داده می‌شود: اگر بخواهد به جای او پرداخت کند و اگر بخواهد او را به طور کامل تحویل دهد و خانواده‌اش هیچ مسئولیتی ندارند. در مورد مکتب، نصف یک چهارم از مال او و نصف یک چهارم از کسانی که قرارداد آزادیش را بسته‌اند گرفته می‌شود، زیرا آن یک چهارم به این دلیل است که نیمی از او آزاد شده است.",
-          "id": "Diyyah menjadi tanggung jawab mereka. Pria merdeka harus membayar seperempat dari diyyah, dan wanita merdeka juga seperempat dari diyyah. Sedangkan untuk budak, pilihan diberikan kepada tuannya: jika dia mau, dia membayar atas namanya, dan jika dia mau, dia menyerahkannya sepenuhnya, dan keluarganya tidak menanggung apa pun. Untuk mukatab, setengah dari seperempat harus dibayar dari hartanya, dan setengah dari seperempat harus dibayar dari mereka yang mengontrak pembebasannya, karena seperempat itu karena separuh dirinya telah menjadi bebas.",
-          "bn": "দিয়্যাহ তাদের উপর واجب। মুক্ত পুরুষের উপর দিয়্যাহর এক চতুর্থাংশ واجب, এবং মুক্ত মহিলার উপরও দিয়্যাহর এক চতুর্থাংশ। যেখানে দাসের কথা, তার মালিককে নির্বাচন করার অধিকার দেওয়া হয়: যদি সে চায়, সে তার পক্ষ থেকে পরিশোধ করে, এবং যদি চায়, তাকে সম্পূর্ণরূপে হস্তান্তর করে, এবং তার পরিবার কিছুই দায়বদ্ধ নয়। মুকাতাবের জন্য, তার সম্পত্তি থেকে চতুর্থাংশের অর্ধেক واجب, এবং যারা তার মুক্তির চুক্তি করেছে তাদের কাছ থেকেও চতুর্থাংশের অর্ধেক واجب, কারণ এই চতুর্থাংশ তার অর্ধেক মুক্ত হওয়ার কারণে।",
-          "es": "La diyyah recae sobre ellos. El hombre libre debe pagar una cuarta parte de la diyyah, y la mujer libre también una cuarta parte. En cuanto al esclavo, se le da la opción a su amo: si quiere, paga en su nombre, y si quiere, lo entrega por completo, y su familia no debe nada. En cuanto al mukatab, la mitad de la cuarta parte se debe de su propiedad, y la mitad de la cuarta parte se debe de quienes contrataron su manumisión, porque esa cuarta parte es así porque la mitad de él se ha vuelto libre.",
-          "fr": "La diyyah leur incombe. L'homme libre doit payer un quart de la diyyah, et la femme libre également un quart. Quant à l'esclave, son maître a le choix : s'il le souhaite, il paie pour lui, sinon il le remet entièrement, et sa famille ne doit rien. Pour le mukatab, la moitié du quart est due sur ses biens, et la moitié du quart est due de la part de ceux qui ont conclu son contrat de manumission, car ce quart est ainsi parce que la moitié de lui est devenue libre.",
-          "de": "Die Diyyah liegt bei ihnen. Der freie Mann schuldet ein Viertel der Diyyah, und die freie Frau ebenfalls ein Viertel der Diyyah. Was den Sklaven betrifft, so hat sein Herr die Wahl: wenn er will, zahlt er für ihn, und wenn er will, übergibt er ihn vollständig, und seine Familie haftet nicht. Für den Mukatab ist die Hälfte des Viertels aus seinem Vermögen fällig, und die Hälfte des Viertels von denen, die seinen Freilassungsvertrag abgeschlossen haben, denn dieses Viertel ist so, weil die Hälfte von ihm frei geworden ist.",
-          "ru": "Дийя возлагается на них. Свободный мужчина обязан выплатить четверть дийи, свободная женщина — четверть дийи. Что касается раба, его хозяину предоставляется выбор: если он желает, он платит за него, если желает — отдаёт его полностью, и его семья ничего не должна. Что касается мукатаба, половина четверти взыскивается с его имущества, и половина четверти — с тех, кто заключил с ним договор о манумиссии, поскольку эта четверть обусловлена тем, что половина его стала свободной.",
-          "zh": "دیت由他们承担。自由男子应支付دیت的四分之一，自由女子也应支付四分之一。至于奴隶，其主人有选择权：如果愿意，他为其支付；如果愿意，他完全交出奴隶，其家人不承担任何责任。至于مکاتب，其财产中应支付四分之一的一半，签订其解契合同的人也应支付四分之一的一半，因为这四分之一是因为他的一半已获得自由。"
+          "en": "About four individuals who killed a man: one was a slave, one was a free man, one was a free woman, and one was a mukatab (a slave who had contracted for his freedom) who had paid half of his manumission price. He (peace be upon him) said: 'The blood money (diyyah) is upon them. Upon the free man is one-fourth of the diyyah, and upon the free woman is one-fourth of the diyyah. And regarding the slave, his master is given the choice: if he wills, he pays on his behalf, and if he wills, he hands him over in full, and the slave's family bears no cost. And regarding the mukatab, half of one-fourth is taken from his wealth, and half of one-fourth is taken from those who entered into the contract with him, because half of him has been freed.'",
+          "ur": "چار افراد کے بارے میں جنہوں نے ایک شخص کو قتل کیا: ایک غلام تھا، ایک آزاد مرد تھا، ایک آزاد عورت تھی، اور ایک مکتب (ایسا غلام جس نے اپنی آزادی کے معاہدے کیے تھے) تھا جس نے اپنی آزادی کے قیمت کا آدھا ادا کر دیا تھا۔ آپ (صلی اللہ علیہ وسلم) نے فرمایا: 'خون کا بہانہ (دیہ) ان پر ہے۔ آزاد مرد پر دیہ کا ایک چوتھائی ہے، اور آزاد عورت پر دیہ کا ایک چوتھائی ہے۔ اور غلام کے بارے میں، اس کا مالک کو اختیار دیا جاتا ہے: اگر وہ چاہے تو اس کی طرف سے ادا کرتا ہے، اور اگر وہ چاہے تو اسے مکمل طور پر ہاتھ سے چھوڑ دیتا ہے، اور غلام کے خاندان پر کوئی خرچہ نہیں ہوتا۔ اور مکتب کے بارے میں، اس کی دولت سے آدھے ایک چوتھائی لیا جاتا ہے، اور آدھے ایک چوتھائی ان لوگوں سے لیا جاتا ہے جنہوں نے اس کے ساتھ معاہدہ کیا تھا، کیونکہ اس کا آدھا آزاد ہو چکا ہے۔'",
+          "tr": "Bir adamı öldüren dört kişi hakkında: biri köle, biri hür erkek, biri hür kadın ve biri de kölelik bedelinin yarısını ödeyerek hürriyet akdi yapmış olan mukattab (hürriyet akdi yapmış köle). O (s.a.v.) şöyle buyurdu: 'Kan diyeti (diyye) üzerlerindedir. Hür erkeğin üzerindeki diyyenin dörtte biri, hür kadının üzerindeki diyyenin dörtte biridir. Köleye gelince, efendisine bir tercih hakkı verilir: isterse onun adına öder, isterse onu tamamen teslim eder ve kölenin ailesinden hiçbir masraf istenmez. Mukattaba gelince, servetinden diyyenin dörtte birinin yarısı alınır, kendisiyle akdetmiş olanlardan da diyyenin dörtte birinin yarısı alınır, çünkü onun yarısı hür kalmıştır.'",
+          "fa": "پنج نفر که یک مرد را کشته بودند: یکی برده بود، یکی آزاد و یکی زن آزاد و یکی کتاب (برده‌ای که برای آزادی خود پیمان بسته و نیمی از بهای آزادی خود را پرداخته بود). او (صلی الله علیه و آله و سلم) فرمود: دیه بر عهده آن‌هاست. بر عهده مرد آزاد یک‌چهارم دیه و بر عهده زن آزاد یک‌چهارم دیه است. و درباره برده، مالک او اختیار دارد: اگر بخواهد به نیابت از او پرداخت کند و اگر بخواهد او را تمام‌قد تسلیم کند و خانواده برده هیچ هزینه‌ای بر عهده ندارند. و درباره کتاب، یک‌هشتم از ثروت او گرفته می‌شود و یک‌هشتم دیگر از کسانی که با او پیمان بسته‌اند، زیرا نیمی از او آزاد شده است.",
+          "id": "Dari empat orang yang membunuh seorang pria: satu orang adalah budak, satu orang adalah orang merdeka, satu orang adalah wanita merdeka, dan satu orang adalah mukatab (budak yang telah mengikatkan diri untuk memerdekakan dirinya) yang telah membayar separuh dari harga kemerdekaannya. Beliau (shallallahu 'alaihi wasallam) bersabda: 'Darah (diyah) ditanggung oleh mereka. Atas orang merdeka ditanggung seperempat dari diyah, dan atas wanita merdeka ditanggung seperempat dari diyah. Dan mengenai budak, tuannya diberi pilihan: jika ia mau, ia membayarkannya atas nama budak tersebut, dan jika ia mau, ia menyerahkan budak tersebut sepenuhnya, dan keluarga budak tidak menanggung biaya apa pun. Dan mengenai mukatab, seperdua dari seperempat diambil dari hartanya, dan seperdua dari seperempat diambil dari orang-orang yang mengikatkan diri dengannya, karena separuh dari dirinya telah memerdekakan.'",
+          "bn": "চারজন ব্যক্তির বিষয়ে যারা একজনকে হত্যা করেছিল: একজন ছিল বান্দা, একজন ছিল আযাদ (স্বাধীন) পুরুষ, একজন ছিল আযাদ নারী, এবং একজন ছিল মুকাত্তাব (যে বান্দা তার মুক্তির জন্য চুক্তি করেছিল) যে তার মুক্তির মূল্যের অর্ধেক পরিশোধ করেছিল। তিনি (সা.) বলেছিলেন: 'তাদের উপর দিয্যাত বহন করতে হবে। আযাদ পুরুষের উপর দিয্যাতের এক-চতুর্থাংশ, এবং আযাদ নারীর উপর দিয্যাতের এক-চতুর্থাংশ। আর বান্দার বিষয়ে, তার মালিকের জন্য এই বিকল্প রয়েছে: যদি সে চায়, তবে সে তার পক্ষে পরিশোধ করে, এবং যদি সে চায়, তবে সে তাকে সম্পূর্ণরূপে হস্তান্তর করে, এবং বান্দার পরিবারের কোনো খরচ হয় না। আর মুকাত্তাবের বিষয়ে, তার সম্পদ থেকে এক-চতুর্থাংশের অর্ধেক নেওয়া হয়, এবং তার সাথে চুক্তিকারী ব্যক্তিদের কাছ থেকে এক-চতুর্থাংশের অর্ধেক নেওয়া হয়, কারণ তার অর্ধেক মুক্ত হয়েছে।'",
+          "es": "Acerca de cuatro individuos que mataron a un hombre: uno era un esclavo, otro un hombre libre, una mujer libre y un mukatab (esclavo que había concertado su libertad) que había pagado la mitad del precio de su manumisión. Él (que la paz sea con él) dijo: «La dīyah (indemnización por sangre) recae sobre ellos. Sobre el hombre libre recae una cuarta parte de la dīyah, y sobre la mujer libre recae una cuarta parte de la dīyah. Y en cuanto al esclavo, su amo tiene la opción: si quiere, paga en su nombre, y si quiere, lo entrega completamente, y la familia del esclavo no asume ningún costo. Y en cuanto al mukatab, se toma la mitad de una cuarta parte de su patrimonio, y la otra mitad de una cuarta parte de aquellos con quienes contrató, porque la mitad de él ha sido liberada».",
+          "fr": "À propos de quatre individus qui ont tué un homme : l'un était un esclave, l'autre un homme libre, l'autre une femme libre, et le dernier un mukatab (esclave qui avait contracté pour son affranchissement) qui avait payé la moitié du prix de son affranchissement. Lui (que la paix soit sur lui) a dit : « Le sang versé (diyyah) est à leur charge. Sur l'homme libre, un quart de la diyyah, et sur la femme libre, un quart de la diyyah. Et concernant l'esclave, son maître a le choix : s'il le veut, il paie pour lui, et s'il le veut, il le remet en entier, et la famille de l'esclave n'encourt aucun coût. Et concernant le mukatab, la moitié d'un quart est prélevée sur ses biens, et la moitié d'un quart est prélevée sur ceux qui ont contracté avec lui, car la moitié de lui a été affranchie. »",
+          "de": "Von vier Personen, die einen Mann getötet hatten: einer war ein Sklave, einer ein Freier, eine eine freie Frau und einer ein Mukatab (ein Sklave, der einen Vertrag über seine Freilassung geschlossen hatte) und die Hälfte seines Freilassungsbetrags bereits gezahlt hatte. Er (Friede sei mit ihm) sagte: „Das Blutgeld (Diyah) liegt bei ihnen. Auf den Freien entfällt ein Viertel des Diyah, und auf die freie Frau entfällt ein Viertel des Diyah. Was den Sklaven betrifft, so hat sein Herr die Wahl: Wenn er will, zahlt er für ihn, und wenn er will, gibt er ihn vollständig heraus, und die Familie des Sklaven trägt keine Kosten. Was den Mukatab betrifft, so wird die Hälfte eines Viertels aus seinem Vermögen genommen, und die Hälfte eines Viertels wird von denen genommen, die den Vertrag mit ihm geschlossen haben, weil die Hälfte von ihm frei geworden ist.“",
+          "ru": "О четырех людях, убивших одного человека: один был рабом, один — свободным мужчиной, одна — свободной женщиной, а один — мукатабом (рабом, заключившим договор об освобождении), который уже уплатил половину стоимости своего освобождения. Он (да благословит его Аллах и приветствует) сказал: «Диyyат (выкуп за кровь) лежит на них. На свободного мужчину приходится одна четверть диyyата, а на свободную женщину — одна четверть диyyата. Что касается раба, то его господину предоставляется выбор: если он пожелает, он уплатит за него, а если пожелает, то выдаст его полностью, и семья раба не несет никаких расходов. Что касается мукатаба, то половина от одной четверти берется из его имущества, а половина от одной четверти берется от тех, кто заключил с ним договор, поскольку половина его уже освобождена».",
+          "zh": "关于四人共同杀死一名男子的情况：其中一人为奴隶，一人为自由人自由民，一人为自由女子，另一人为穆卡特卜（已订立赎身契约的奴隶）且已支付了一半的赎身价。他（愿主福安之）说：‘血金（迪叶）由他们共同承担。自由民承担四分之一迪叶，自由女子承担四分之一迪叶。至于奴隶，其主人有选择权：若主人愿意，则代为支付；若主人愿意，则将奴隶完全交出，奴隶的家属无需承担任何费用。至于穆卡特卜，从其财产中扣除八分之一（即四分之一的二分之一），另外八分之一由与他订立契约的人承担，因为他的一半已获自由。'"
         },
-        "word_start": 20,
-        "word_end": 64
+        "word_start": 5,
+        "word_end": 78
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith gives a legal ruling on how the diyyah is apportioned when four different persons jointly kill a man: a free man, a free woman, a slave, and a partially emancipated mukatab. It specifies each party’s share and clarifies that the mukatab’s liability is divided according to his partial freedom, while the slave’s case is left to the choice of his master.",
-        "seo_question": "How is the diyyah divided when a free man, a free woman, a slave, and a mukatab jointly kill someone?",
+        "summary": "Imam Al-Sadiq (peace be upon him) delineates the proportional distribution of blood money (diyyah) among four killers of varying legal statuses, highlighting the nuanced Shia jurisprudence on how personal freedom impacts financial liability. The ruling specifically addresses the master's option to pay the full share or accept the slave's emancipation, while the mukatab's liability is split between his own wealth and his master's, reflecting his partial emancipation. This hadith underscores the principle that diyyah shares are determined by the individual status of each killer rather than a uniform collective payment.",
+        "seo_question": "How is blood money divided when a slave, a free man, a free woman, and a mukatab kill someone together?",
         "key_terms": {
-          "الدِّيَةُ": "financial compensation due for unlawful killing",
-          "الْمَمْلُوكِ": "the slave owned by a master",
-          "مُكَاتَبٍ": "a slave under a manumission contract",
-          "مُكَاتَبَتِهِ": "his contract of manumission",
-          "مَوْلَاهُ": "his master or owner",
-          "بِرُمَّتِهِ": "in his entirety; fully surrendered",
-          "عَتَقَ نِصْفُهُ": "half of him has become free"
+          "اَلدِّيَةُ": "Blood money / compensation for homicide",
+          "اَلْحُرِّ": "Free man",
+          "اَلْحُرَّةِ": "Free woman",
+          "اَلْمَمْلُوكِ": "Slave",
+          "مُكَاتَبٍ": "A slave who has contracted to buy his freedom",
+          "مَوْلاَهُ": "His master",
+          "عَتَقَ": "Freed / emancipated"
         }
       },
       "ur": {
-        "summary": "یہ حدیث چار مختلف افراد کے مشترکہ قتل کی صورت میں دیت کی تقسیم کے بارے میں قانونی حکم دیتی ہے: ایک آزاد مرد، ایک آزاد عورت، ایک غلام، اور ایک جزوی آزاد مکتب۔ یہ ہر فریق کے حصے کی وضاحت کرتی ہے اور بتاتی ہے کہ مکتب کی ذمہ داری اس کی جزوی آزادی کے مطابق تقسیم ہوتی ہے، جبکہ غلام کا معاملہ اس کے مالک کے اختیار پر چھوڑ دیا گیا ہے۔",
-        "seo_question": "جب ایک آزاد مرد، ایک آزاد عورت، ایک غلام، اور ایک مکتب مل کر کسی کو قتل کریں تو دیت کیسے تقسیم کی جاتی ہے؟",
-        "key_terms": {}
+        "summary": "امام الصادق (علیہ السلام) خون کی قیمت (دیہ) کا تناسب دار تقسیم چار قاتلوں کے درمیان بیان کرتے ہیں جن کے قانونی درجے مختلف ہیں، اور یہ واضح کرتے ہیں کہ ذاتی آزادی مالی ذمہ داری کو کیسے متاثر کرتی ہے۔ اس حکم میں خاص طور پر مالک کے اختیار کو شامل کیا گیا ہے کہ وہ پورا حصہ ادا کرے یا غلام کی آزادی کو قبول کر لے، جبکہ مکاتب کی ذمہ داری اس کی اپنی دولت اور اس کے مالک کے درمیان تقسیم ہوتی ہے، جو اس کی جزوی آزادی کی عکاسی کرتی ہے۔ یہ حدیث اس اصول کی تائید کرتی ہے کہ دیہ کے حصے ہر قاتل کی انفرادی حیثیت کے مطابق طے کیے جاتے ہیں، نہ کہ یکساں اجتماعی ادائیگی کے طور پر۔",
+        "seo_question": "جب ایک غلام، ایک آزاد مرد، ایک آزاد عورت اور ایک مکاتب مل کر کسی کو قتل کر دیں تو خون کی قیمت کیسے تقسیم کی جاتی ہے؟",
+        "key_terms": {
+          "اَلدِّيَةُ": "خون کی قیمت",
+          "اَلْحُرِّ": "آزاد مرد",
+          "اَلْحُرَّةِ": "آزاد عورت",
+          "اَلْمَمْلُوكِ": "غلام",
+          "مُكَاتَبٍ": "مکاتب",
+          "مَوْلاَهُ": "اس کا مالک",
+          "عَتَقَ": "آزاد کر دیا گیا"
+        }
       },
       "tr": {
-        "summary": "Bu hadis, dört farklı kişinin ortaklaşa bir adamı öldürmesi durumunda diyyetin nasıl paylaştırılacağına dair hukuki hüküm verir: bir özgür adam, bir özgür kadın, bir köle ve kısmen özgürleşmiş bir mukatab. Her tarafın payını belirtir ve mukatabın sorumluluğunun kısmi özgürlüğüne göre bölündüğünü, kölenin durumunun ise sahibinin tercihine bırakıldığını açıklar.",
-        "seo_question": "Bir özgür adam, bir özgür kadın, bir köle ve bir mukatab birlikte birini öldürdüğünde diyyet nasıl bölünür?",
-        "key_terms": {}
+        "summary": "İmam Cafer-i Sadık (aleyhisselam), farklı hukuki statülere sahip dört katilin kan parasını (diye) nasıl dağıtacağını belirterek, kişisel özgürlüğün maddi sorumluluk üzerindeki etkisini vurgulayan nüanslı Şii fıkhını ortaya koyar. Hükmün özel olarak efendinin tam payı ödeyebilme veya kölenin azad edilmesini kabul etme seçeneğini ele aldığı, mukatibin sorumluluğunun kendi malı ve efendisi arasında bölündüğü, bu durumun kısmi azadlığını yansıttığı belirtilir. Bu hadis, diye paylarının her bir katilin bireysel statüsüne göre belirlendiğini, tek tip bir toplu ödeme olmadığını vurgular.",
+        "seo_question": "Bir köle, bir özgür adam, bir özgür kadın ve bir mukatab birlikte birini öldürürse kan parası nasıl bölünür?",
+        "key_terms": {
+          "اَلدِّيَةُ": "kan parası",
+          "اَلْحُرِّ": "özgür adam",
+          "اَلْحُرَّةِ": "özgür kadın",
+          "اَلْمَمْلُوكِ": "köle",
+          "مُكَاتَبٍ": "mukatib",
+          "مَوْلاَهُ": "efendisi",
+          "عَتَقَ": "azat edildi"
+        }
       },
       "fa": {
-        "summary": "این حدیث حکم شرعی درباره تقسیم دیه زمانی که چهار نفر مختلف به طور مشترک مردی را می‌کشند، ارائه می‌دهد: یک مرد آزاد، یک زن آزاد، یک برده و یک مکتب نیمه‌آزاد. سهم هر طرف را مشخص می‌کند و توضیح می‌دهد که مسئولیت مکتب بر اساس آزادی نسبی او تقسیم می‌شود، در حالی که وضعیت برده به اختیار مالک او واگذار شده است.",
-        "seo_question": "وقتی یک مرد آزاد، یک زن آزاد، یک برده و یک مکتب به طور مشترک کسی را بکشند، دیه چگونه تقسیم می‌شود؟",
-        "key_terms": {}
+        "summary": "امام صادق (علیه السلام) تقسیم دیه را میان چهار قاتل با وضعیت‌های حقوقی متفاوت تشریح می‌کند و بر و ظرافت‌های فقه شیعه درباره تأثیر آزادی شخصی بر مسئولیت مالی را برجسته می‌سازد. حکم به طور خاص به اختیار مالک برای پرداخت سهم کامل یا پذیرش آزادی برده می‌پردازد، در حالی که مسئولیت مکاتب بین ثروت خود او و مالکش تقسیم می‌شود که نشان‌دهنده آزادی نسبی اوست. این حدیث بر این اصل تأکید دارد که سهم‌های دیه بر اساس وضعیت فردی هر قاتل تعیین می‌شود نه یک پرداخت جمعی یکنواخت.",
+        "seo_question": "دیه چگونه بین برده، مرد آزاد، زن آزاد و مکاتب تقسیم می‌شود که با هم کسی را بکشند؟",
+        "key_terms": {
+          "اَلدِّيَةُ": "دیه",
+          "اَلْحُرِّ": "مرد آزاد",
+          "اَلْحُرَّةِ": "زن آزاد",
+          "اَلْمَمْلُوكِ": "برده",
+          "مُكَاتَبٍ": "مکاتب",
+          "مَوْلاَهُ": "مالک او",
+          "عَتَقَ": "آزاد شد"
+        }
       },
       "id": {
-        "summary": "Hadis ini memberikan ketentuan hukum tentang bagaimana diyyah dibagi ketika empat orang berbeda secara bersama-sama membunuh seorang pria: seorang pria merdeka, seorang wanita merdeka, seorang budak, dan seorang mukatab yang sebagian dibebaskan. Hadis ini menjelaskan bagian masing-masing pihak dan memperjelas bahwa tanggung jawab mukatab dibagi sesuai dengan kebebasan parsialnya, sementara kasus budak diserahkan pada pilihan tuannya.",
-        "seo_question": "Bagaimana pembagian diyyah ketika seorang pria merdeka, seorang wanita merdeka, seorang budak, dan seorang mukatab secara bersama-sama membunuh seseorang?",
-        "key_terms": {}
+        "summary": "Imam Al-Sadiq (alamah) menjelaskan distribusi proporsional dari diyah di antara empat pembunuh dengan status hukum yang berbeda, menyoroti nuansa fikih Syiah mengenai bagaimana kebebasan pribadi memengaruhi tanggung jawab finansial. Hukum tersebut secara khusus membahas opsi tuan untuk membayar bagian penuh atau menerima pembebasan budak, sementara tanggung jawab mukatab dibagi antara hartanya sendiri dan tuannya, mencerminkan pembebasan parsialnya. Hadis ini menekankan prinsip bahwa bagian diyah ditentukan oleh status individu masing-masing pembunuh bukan pembayaran kolektif yang seragam.",
+        "seo_question": "Bagaimana pembagian diyah ketika seorang budak, pria merdeka, wanita merdeka, dan mukatab membunuh seseorang bersama-sama?",
+        "key_terms": {
+          "اَلدِّيَةُ": "Darah tebusan",
+          "اَلْحُرِّ": "Pria merdeka",
+          "اَلْحُرَّةِ": "Wanita merdeka",
+          "اَلْمَمْلُوكِ": "Budak",
+          "مُكَاتَبٍ": "Mukatab",
+          "مَوْلاَهُ": "Tuan",
+          "عَتَقَ": "Bebas"
+        }
       },
       "bn": {
-        "summary": "এই হাদিসটি চারজন ভিন্ন ব্যক্তির সম্মিলিতভাবে একজন মানুষকে হত্যা করার ক্ষেত্রে দিয়্যাহ কীভাবে ভাগ করা হয় তার আইনি বিধান দেয়: একজন মুক্ত পুরুষ, একজন মুক্ত মহিলা, একজন দাস, এবং একজন আংশিক মুক্ত মুকাতাব। এটি প্রতিটি পক্ষের অংশ নির্দিষ্ট করে এবং ব্যাখ্যা করে যে মুকাতাবের দায়িত্ব তার আংশিক মুক্তির অনুযায়ী ভাগ করা হয়, যখন দাসের বিষয় তার মালিকের পছন্দে ছেড়ে দেওয়া হয়।",
-        "seo_question": "যখন একজন মুক্ত পুরুষ, একজন মুক্ত মহিলা, একজন দাস, এবং একজন মুকাতাব সম্মিলিতভাবে কাউকে হত্যা করে তখন দিয়্যাহ কীভাবে ভাগ করা হয়?",
-        "key_terms": {}
+        "summary": "ইমাম আস-সাদিq (আলৈহি আস-সালাম) রক্তপায় (দিয়া) এর সমানুপাতিক বণ্টন বর্ণনা করেছেন চারজন হত্যাকারীর মধ্যে, যাদের আইনি মর্যাদা ভিন্ন, যা ব্যক্তিগত স্বাধীনতা কীভাবে আর্থিক দায়িত্বকে প্রভাবিত করে তা নিয়ে শিয়া ফিকহের সূক্ষ্মতা তুলে ধরে। এই রuling বিশেষভাবে মালিকের পূর্ণ শেয়ার পরিশোধ করার বা দাসের মুক্তিকে গ্রহণ করার বিকল্পকে স্পষ্ট করে, অন্যদিকে মুকাতাবের দায়িত্ব তার নিজস্ব সম্পদ এবং তার মালিকের মধ্যে বিভক্ত হয়, যা তার আংশিক মুক্তিকে প্রতিফলিত করে। এই হাদিসটি এই নীতিটিকে তুলে ধরে যে, দিয়া-এর শেয়ারগুলো প্রতিটি হত্যাকারীর ব্যক্তিগত মর্যাদার উপর ভিত্তি করে নির্ধারিত হয়, একটি সমান কালেক্টিভ পরিশোধের পরিবর্তে।",
+        "seo_question": "যখন একজন দাস, একজন মুক্ত পুরুষ, একজন মুক্ত নারী এবং একজন মুকাতাব একসাথে কাউকে হত্যা করে, তখন রক্তপায় কীভাবে বিভক্ত হয়?",
+        "key_terms": {
+          "اَلدِّيَةُ": "রক্তপায় / হত্যার ক্ষতিপূরণ",
+          "اَلْحُرِّ": "মুক্ত পুরুষ",
+          "اَلْحُرَّةِ": "মুক্ত নারী",
+          "اَلْمَمْلُوكِ": "দাস",
+          "مُكَاتَبٍ": "স্বাধীনতার জন্য চুক্তিবদ্ধ দাস",
+          "مَوْلاَهُ": "তার মালিক",
+          "عَتَقَ": "মুক্ত / মুক্তকায়"
+        }
       },
       "es": {
-        "summary": "Este hadiz ofrece un fallo legal sobre cómo se reparte la diyyah cuando cuatro personas diferentes matan conjuntamente a un hombre: un hombre libre, una mujer libre, un esclavo y un mukatab parcialmente emancipado. Especifica la parte de cada uno y aclara que la responsabilidad del mukatab se divide según su libertad parcial, mientras que el caso del esclavo queda a elección de su amo.",
-        "seo_question": "¿Cómo se divide la diyyah cuando un hombre libre, una mujer libre, un esclavo y un mukatab matan conjuntamente a alguien?",
-        "key_terms": {}
+        "summary": "El Imam Al-Sadiq (que la paz sea con él) delimita la distribución proporcional del dinero de la compensación por homicidio (diyyah) entre cuatro asesinos de diferentes estatus legales, destacando la matizada jurisprudencia chií sobre cómo la libertad personal impacta la responsabilidad financiera. La norma aborda específicamente la opción del amo de pagar la parte completa o aceptar la emancipación del esclavo, mientras que la responsabilidad del mukatab se divide entre su propia riqueza y la de su amo, reflejando su emancipación parcial. Este hadiz subraya el principio de que las partes de la diyyah se determinan por el estatus individual de cada asesino en lugar de un pago colectivo uniforme.",
+        "seo_question": "¿Cómo se divide el dinero de la compensación por homicidio cuando un esclavo, un hombre libre, una mujer libre y un mukatab matan a alguien juntos?",
+        "key_terms": {
+          "اَلدِّيَةُ": "dinero de la compensación por homicidio",
+          "اَلْحُرِّ": "hombre libre",
+          "اَلْحُرَّةِ": "mujer libre",
+          "اَلْمَمْلُوكِ": "esclavo",
+          "مُكَاتَبٍ": "esclavo que ha contraído un contrato para comprar su libertad",
+          "مَوْلاَهُ": "su amo",
+          "عَتَقَ": "liberado"
+        }
       },
       "fr": {
-        "summary": "Ce hadith donne un jugement légal sur la manière dont la diyyah est répartie lorsque quatre personnes différentes tuent conjointement un homme : un homme libre, une femme libre, un esclave et un mukatab partiellement affranchi. Il précise la part de chaque partie et clarifie que la responsabilité du mukatab est divisée selon sa liberté partielle, tandis que le cas de l'esclave est laissé au choix de son maître.",
-        "seo_question": "Comment la diyyah est-elle divisée lorsqu'un homme libre, une femme libre, un esclave et un mukatab tuent conjointement quelqu'un ?",
-        "key_terms": {}
+        "summary": "L’imam Al-Sadiq (que la paix soit sur lui) expose la répartition proportionnelle du prix du sang (diyyah) entre quatre tueurs de statuts juridiques variés, mettant en lumière la jurisprudence chiite nuancée sur l’impact de la liberté personnelle sur la responsabilité financière. Le décret traite spécifiquement de l’option du maître de payer la part entière ou d’accepter l’émancipation de l’esclave, tandis que la responsabilité du mukatab est partagée entre ses propres biens et ceux de son maître, reflétant sa libération partielle. Cet hadith souligne le principe selon lequel les parts de la diyyah sont déterminées par le statut individuel de chaque tueur plutôt que par un paiement collectif uniforme.",
+        "seo_question": "Comment le prix du sang est-il divisé lorsqu’un esclave, un homme libre, une femme libre et un mukatab tuent quelqu’un ensemble ?",
+        "key_terms": {
+          "اَلدِّيَةُ": "prix du sang / compensation pour l'homicide",
+          "اَلْحُرِّ": "homme libre",
+          "اَلْحُرَّةِ": "femme libre",
+          "اَلْمَمْلُوكِ": "esclave",
+          "مُكَاتَبٍ": "esclave qui a contracté pour acheter sa liberté",
+          "مَوْلاَهُ": "son maître",
+          "عَتَقَ": "affranchi / émancipé"
+        }
       },
       "de": {
-        "summary": "Dieser Hadith gibt eine rechtliche Regelung darüber, wie die Diyyah aufgeteilt wird, wenn vier verschiedene Personen gemeinsam einen Mann töten: ein freier Mann, eine freie Frau, ein Sklave und ein teilweise befreiter Mukatab. Er legt den Anteil jeder Partei fest und erklärt, dass die Haftung des Mukatab entsprechend seiner teilweisen Freiheit aufgeteilt wird, während der Fall des Sklaven dem Ermessen seines Herrn überlassen bleibt.",
-        "seo_question": "Wie wird die Diyyah aufgeteilt, wenn ein freier Mann, eine freie Frau, ein Sklave und ein Mukatab gemeinsam jemanden töten?",
-        "key_terms": {}
+        "summary": "Imam Al-Sadiq (Friede sei mit ihm) beschreibt die proportionale Verteilung des Blutgelds (Diyya) unter vier Tötern mit unterschiedlichem Rechtsstatus und hebt dabei die nuancierte schiitische Jurisprudenz hervor, wie die persönliche Freiheit die finanzielle Haftung beeinflusst. Die Regelung betrifft speziell die Option des Herrn, den vollen Anteil zu zahlen oder die Emanzipation des Sklaven akzeptieren zu können, während die Haftung des Mukatab zwischen seinem eigenen Vermögen und dem seines Herrn aufgeteilt wird, was seine teilweise Emanzipation widerspiegelt. Diese Hadith unterstreicht das Prinzip, dass die Diyya-Anteile nach dem individuellen Status jedes Töters bestimmt werden und nicht als einheitliche kollektive Zahlung geleistet werden.",
+        "seo_question": "Wie wird das Blutgeld aufgeteilt, wenn ein Sklave, ein Freier, eine freie Frau und ein Mukatab gemeinsam jemanden töten?",
+        "key_terms": {
+          "اَلدِّيَةُ": "Blutgeld",
+          "اَلْحُرِّ": "Freier Mann",
+          "اَلْحُرَّةِ": "Freie Frau",
+          "اَلْمَمْلُوكِ": "Sklave",
+          "مُكَاتَبٍ": "Mukatab",
+          "مَوْلاَهُ": "Sein Herr",
+          "عَتَقَ": "Freigelassen"
+        }
       },
       "ru": {
-        "summary": "Этот хадис содержит юридическое постановление о том, как распределяется дийя, когда четыре разных лица совместно убивают человека: свободный мужчина, свободная женщина, раб и частично освобождённый мукатаб. В нем указывается доля каждой стороны и разъясняется, что ответственность мукатаба делится в соответствии с его частичной свободой, тогда как случай раба оставлен на усмотрение его хозяина.",
-        "seo_question": "Как делится дийя, когда свободный мужчина, свободная женщина, раб и мукатаб совместно убивают кого-то?",
-        "key_terms": {}
+        "summary": "Имам ас-Садык (да будет над ним мир) разъясняет пропорциональное распределение диyyи (выкупа за убийство) между четырьмя убийцами с различным правовым статусом, подчеркивая тонкости шиитского фикха в отношении того, как личная свобода влияет на финансовую ответственность. Решение конкретно касается права хозяина выплатить полную долю или принять освобождение раба, в то время как ответственность мукатаба разделяется между его собственным имуществом и имуществом его хозяина, что отражает его частичное освобождение. Этот хадис подчеркивает принцип, согласно которому доли диyyи определяются индивидуальным статусом каждого убийцы, а не единым коллективным платежом.",
+        "seo_question": "Как делится диyyа, когда раб, свободный мужчина, свободная женщина и мукатаб вместе убивают человека?",
+        "key_terms": {
+          "اَلدِّيَةُ": "диyyа / компенсация за убийство",
+          "اَلْحُرِّ": "свободный мужчина",
+          "اَلْحُرَّةِ": "свободная женщина",
+          "اَلْمَمْلُوكِ": "раб",
+          "مُكَاتَبٍ": "мукатаб",
+          "مَوْلاَهُ": "его хозяин",
+          "عَتَقَ": "освобожденный / эмансипированный"
+        }
       },
       "zh": {
-        "summary": "此حديث对四个不同身份的人共同杀害一人时دیت的分配作出法律裁决：一名自由男子、一名自由女子、一名奴隶和一名部分获得自由的مکاتب。它明确了各方的份额，并说明مکاتب的责任根据其部分自由程度分配，而奴隶的情况则由其主人决定。",
-        "seo_question": "当一名自由男子、一名自由女子、一名奴隶和一名مکاتب共同杀害某人时，دیت如何分配？",
-        "key_terms": {}
+        "summary": "伊玛目贾法尔·萨迪格（愿主喜悦之）阐明了四名具有不同法律地位的行凶者之间血金麦（迪叶）的比例分配，突出了什叶派法学中个人自由如何影响经济责任的细微差别。该裁决特别涉及主人选择支付全额份额或接受奴隶获得自由的选择，而穆卡特的责任则在其个人财富和主人之间分摊，反映了其部分获得自由的状态。这段圣训强调了金麦份额由每个行凶者的个人地位决定，而非统一集体支付的原则。",
+        "seo_question": "当一名奴隶、一名自由人、一名自由女性和一名穆卡特共同杀害一人时，血麦如何分配？",
+        "key_terms": {
+          "اَلدِّيَةُ": "血麦",
+          "اَلْحُرِّ": "自由人",
+          "اَلْحُرَّةِ": "自由女性",
+          "اَلْمَمْلُوكِ": "奴隶",
+          "مُكَاتَبٍ": "穆卡特",
+          "مَوْلاَهُ": "其主人",
+          "عَتَقَ": "获得自由"
+        }
       }
     },
     "related_quran": [
       {
+        "ref": "2:178",
+        "relationship": "thematic"
+      },
+      {
         "ref": "4:92",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "5:45",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "24:33",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "سُئِلَ الصَّادِقُ عَلَيْهِ السَّلَامُ عَنْ أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلًا: مَمْلُوكٍ وَحُرٍّ وَحُرَّةٍ وَمُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ، فَقَالَ عَلَيْهِ السَّلَامُ: عَلَيْهِمُ الدِّيَةُ، عَلَى الْحُرِّ رُبُعُ الدِّيَةِ، وَعَلَى الْحُرَّةِ رُبُعُ الدِّيَةِ، وَعَلَى الْمَمْلُوكِ أَنْ يُخَيَّرَ مَوْلَاهُ، فَإِنْ شَاءَ أَدَّى عَنْهُ، وَإِنْ شَاءَ دَفَعَهُ بِرُمَّتِهِ، وَلَا يَغْرَمُ أَهْلُهُ شَيْئًا، وَعَلَى الْمُكَاتَبِ فِي مَالِهِ نِصْفُ الرُّبُعِ، وَعَلَى الَّذِينَ كَاتَبُوهُ نِصْفُ الرُّبُعِ، فَذَلِكَ الرُّبُعُ لِأَنَّهُ قَدْ عَتَقَ نِصْفُهُ.",
+    "diacritized_text": "سُئِلَ اَلصَّادِقُ عَلَيْهِ اَلسَّلاَمُ : عَنْ أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلاً مَمْلُوكٍ وَ حُرٍّ وَ حُرَّةٍ وَ مُكَ وَ حُرَّةٍ وَ مُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ فَقَالَ عَلَيْهِ اَلسَّلاَمُ \"عَلَيْهِمُ اَلدِّيَةُ عَلَى اَلْحُرِّ رُبُعُ اَلدِّيَةِ وَ عَلَى اَلْحُرَّةِ رُبُعُ اَلدِّيَةِ وَ عَلَى اَلْمَمْلُوكِ أَنْ يُخَيَّرَ مَوْلاَهُ فَإِنْ شَاءَ أَدَّى عَنْهُ وَ إِنْ شَاءَ دَفَعَهُ بِرُمَّتِهِ وَ لاَ يَغْرَمُ أَهْلُهُ شَيْئاً وَ عَلَى اَلْمُكَاتَبِ فِي مَالِهِ نِصْفُ اَلرُّبُعِ وَ عَلَى اَلَّذِينَ كَاتَبُوهُ نِصْفُ اَلرُّبُعِ فَذَلِكَ اَلرُّبُعُ لِأَنَّهُ قَدْ عَتَقَ نِصْفُهُ\".",
     "isnad_matn": {
       "isnad_ar": "5338 - سُئِلَ اَلصَّادِقُ عَلَيْهِ اَلسَّلاَمُ : عَنْ أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلاً مَمْلُوكٍ وَ حُرٍّ وَ حُرَّةٍ وَ مُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ فَقَالَ",
-      "matn_ar": "سُئِلَ الصَّادِقُ عَلَيْهِ السَّلَامُ عَنْ أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلًا: مَمْلُوكٍ وَحُرٍّ وَحُرَّةٍ وَمُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ، فَقَالَ عَلَيْهِ السَّلَامُ: عَلَيْهِمُ الدِّيَةُ، عَلَى الْحُرِّ رُبُعُ الدِّيَةِ، وَعَلَى الْحُرَّةِ رُبُعُ الدِّيَةِ، وَعَلَى الْمَمْلُوكِ أَنْ يُخَيَّرَ مَوْلَاهُ، فَإِنْ شَاءَ أَدَّى عَنْهُ، وَإِنْ شَاءَ دَفَعَهُ بِرُمَّتِهِ، وَلَا يَغْرَمُ أَهْلُهُ شَيْئًا، وَعَلَى الْمُكَاتَبِ فِي مَالِهِ نِصْفُ الرُّبُعِ، وَعَلَى الَّذِينَ كَاتَبُوهُ نِصْفُ الرُّبُعِ، فَذَلِكَ الرُّبُعُ لِأَنَّهُ قَدْ عَتَقَ نِصْفُهُ.",
+      "matn_ar": "سُئِلَ اَلصَّادِقُ عَلَيْهِ اَلسَّلاَمُ : عَنْ أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلاً مَمْلُوكٍ وَ حُرٍّ وَ حُرَّةٍ وَ مُكَ وَ حُرَّةٍ وَ مُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ فَقَالَ عَلَيْهِ اَلسَّلاَمُ \"عَلَيْهِمُ اَلدِّيَةُ عَلَى اَلْحُرِّ رُبُعُ اَلدِّيَةِ وَ عَلَى اَلْحُرَّةِ رُبُعُ اَلدِّيَةِ وَ عَلَى اَلْمَمْلُوكِ أَنْ يُخَيَّرَ مَوْلاَهُ فَإِنْ شَاءَ أَدَّى عَنْهُ وَ إِنْ شَاءَ دَفَعَهُ بِرُمَّتِهِ وَ لاَ يَغْرَمُ أَهْلُهُ شَيْئاً وَ عَلَى اَلْمُكَاتَبِ فِي مَالِهِ نِصْفُ اَلرُّبُعِ وَ عَلَى اَلَّذِينَ كَاتَبُوهُ نِصْفُ اَلرُّبُعِ فَذَلِكَ اَلرُّبُعُ لِأَنَّهُ قَدْ عَتَقَ نِصْفُهُ\".",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "سُئِلَ اَلصَّادِقُ عَلَيْهِ اَلسَّلاَمُ :",
-          "name_en": "",
+          "name_en": "al-Sadiq",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -160,7 +235,7 @@
         },
         {
           "name_ar": "أَرْبَعَةِ أَنْفُسٍ قَتَلُوا رَجُلاً مَمْلُوكٍ",
-          "name_en": "",
+          "name_en": "Arba'at Nufus",
           "role": "narrator",
           "position": 2,
           "identity_confidence": "ambiguous",
@@ -170,7 +245,7 @@
         },
         {
           "name_ar": "حُرٍّ",
-          "name_en": "",
+          "name_en": "Hur",
           "role": "narrator",
           "position": 3,
           "identity_confidence": "ambiguous",
@@ -180,7 +255,7 @@
         },
         {
           "name_ar": "حُرَّةٍ",
-          "name_en": "",
+          "name_en": "Hurra",
           "role": "narrator",
           "position": 4,
           "identity_confidence": "ambiguous",
@@ -190,7 +265,7 @@
         },
         {
           "name_ar": "مُكَاتَبٍ قَدْ أَدَّى نِصْفَ مُكَاتَبَتِهِ",
-          "name_en": "",
+          "name_en": "Mukatab",
           "role": "narrator",
           "position": 5,
           "identity_confidence": "ambiguous",
@@ -210,6 +285,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

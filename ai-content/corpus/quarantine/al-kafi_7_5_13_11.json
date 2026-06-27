@@ -1,0 +1,276 @@
+{
+  "verse_path": "/books/al-kafi:7:5:13:11",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 15 en words vs 1 ar words (ratio=15.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "judicial_rulings"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Ibn Mahboub, from Ibrahim al-Harithi, who said:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد سے، ابن محبوب سے، ابراہیم حارثی سے، انہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Ahmed b. Muhammed'den, İbn Mahbûb'dan, İbrahim el-Hârisî'den, o da şöyle dedi:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ، عَنِ ابْنِ مَحْبُوبٍ، عَنْ إِبْرَابِيمَ الْحَارِثِيِّ، قَالَ:",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Ibn Mahbub, dari Ibrahim al-Haritsi, yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ হতে, ইবনে মাহবুব হতে, ইব্রাহীম আল-হারিসী হতে, যিনি বলেছেন:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad de Ibn Mahbub de Ibrahim al-Harithi, quien dijo:",
+          "fr": "Muhammad ibn Yahya, d'Ahmad ibn Muhammad, d'Ibn Mahboub, d'Ibrahim al-Harithi, qui a dit :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Ibn Mahboub, von Ibrahim al-Harithi, der sagte:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от Ибн Махбуба, от Ибрахима аль-Хариси, который сказал:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德，传自伊本·马布乌，传自易卜拉欣·哈里西，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ: تَجُوزُ شَهَادَةُ النِّسَاءِ فِيمَا لَا يَسْتَطِيعُ الرِّجَالُ أَنْ يَنْظُرُوا إِلَيْهِ وَيَشْهَدُوا عَلَيْهِ، وَتَجُوزُ شَهَادَتُهُنَّ فِي النِّكَاحِ، وَلَا تَجُوزُ فِي الطَّلَاقِ، وَلَا فِي الدَّمِ، وَتَجُوزُ فِي حَدِّ الزِّنَى إِذَا كَانَ ثَلَاثَةُ رِجَالٍ وَامْرَأَتَانِ، وَلَا تَجُوزُ إِذَا كَانَ رَجُلَانِ وَأَرْبَعُ نِسْوَةٍ، وَلَا تَجُوزُ شَهَادَتُهُنَّ فِي الرَّجْمِ.",
+        "translations": {
+          "en": "I heard Abu Abdullah (peace be upon him) saying: The testimony of women is valid in matters that men cannot look at and testify upon; their testimony is valid in marriage, and not valid in divorce, nor in blood (diyah); it is valid in the hadd of adultery when there are three men and two women, and not valid when there are two men and four women; and their testimony is not valid in stoning.",
+          "ur": "میں نے ابو عبداللہ (علیہ السلام) کو فرماتے ہوئے سنا: عورتوں کی گواہی ان امور میں جائز ہے جن میں مرد دیکھ نہیں سکتے اور گواہی دے سکتے ہیں؛ ان کی گواہی نکاح میں جائز ہے اور طلاق میں جائز نہیں، نیز خون (دیہ) میں جائز نہیں؛ زنا کی حد میں جب تین مرد اور دو عورتیں ہوں تو جائز ہے، اور جب دو مرد اور چار عورتیں ہوں تو جائز نہیں؛ اور ان کی گواہی رجم میں جائز نہیں۔",
+          "tr": "Ebu Abdullah'dan (aleyhisselam) şunu söylerken işittim: Kadınların şahitliği, erkeklerin bakamayıp şahitlik edemeyecekleri hususlarda geçerlidir; evlilikte şahitlikleri geçerlidir, boşanmada ve kanda (diyet) geçerli değildir; zina haddinde üç erkek ve iki kadın olduğunda geçerlidir, iki erkek ve dört kadın olduğunda geçerli değildir; taşlama konusunda da şahitlikleri geçerli değildir.",
+          "fa": "ابان بن تغلب گفت: از امام صادق علیه‌السلام شنیدم که فرمود: شهادت زنان در اموری که مردان نمی‌توانند نگاه کنند و بر آن شهادت دهند، پذیرفته است؛ شهادت آنان در نکاح پذیرفته و در طلاق و دیه پذیرفته نیست؛ و در حد زنا، وقتی سه مرد و دو زن باشند پذیرفته است و وقتی دو مرد و چهار زن باشند پذیرفته نیست؛ و شهادت آنان در رجم پذیرفته نیست.",
+          "id": "Aku mendengar Abu Abdullah (alamaihisalam) berkata: Persaksian wanita sah dalam perkara yang tidak bisa dilihat dan disaksikan oleh pria; persaksian mereka sah dalam pernikahan, dan tidak sah dalam perceraian, maupun dalam darah (diyah); sah dalam hadd zina ketika ada tiga pria dan dua wanita, dan tidak sah ketika ada dua pria dan empat wanita; dan persaksian mereka tidak sah dalam rajam.",
+          "bn": "আমি আবু আবদুল্লাহ (আলাইহিস সালাম)-কে বলতে শুনেছি: নারীদের সাক্ষ্য সেই সকল বিষয়ে গ্রহণযোগ্য যেসব বিষয়ে পুরুষরা দেখতে ও সাক্ষ্য দিতে পারেন না; বিবাহের ক্ষেত্রে তাদের সাক্ষ্য গ্রহণযোগ্য, কিন্তু তালাক ও দামে (রক্তমূল্যের) ক্ষেত্রে গ্রহণযোগ্য নয়; জারিহের হদ্দে তিনজন পুরুষ ও দুইজন নারীর ক্ষেত্রে তাদের সাক্ষ্য গ্রহণযোগ্য, কিন্তু দুইজন পুরুষ ও চারজন নারীর ক্ষেত্রে গ্রহণযোগ্য নয়; এবং পাথর মারা (রجم) এর ক্ষেত্রে তাদের সাক্ষ্য গ্রহণযোগ্য নয়।",
+          "es": "Escuché a Abu Abdullah (que la paz sea con él) decir: El testimonio de las mujeres es válido en los asuntos que los hombres no pueden ver y testificar sobre ellos; su testimonio es válido en el matrimonio, y no es válido en el divorcio, ni en la sangre (diyah); es válido en el hadd del adulterio cuando hay tres hombres y dos mujeres, y no es válido cuando hay dos hombres y cuatro mujeres; y su testimonio no es válido en la lapidación.",
+          "fr": "J'ai entendu Abou Abdallah (que la paix soit sur lui) dire sur lui) dire : Le témoignage des femmes est valide dans les affaires que les hommes ne peuvent pas voir et attester ; leur témoignage est valide dans le mariage, et non valide dans le divorce, ni dans le sang (diyah) ; il est valide dans la hadd de l'adultère lorsqu'il y a trois hommes et deux femmes, et non valide lorsqu'il y a deux hommes et quatre femmes ; et leur témoignage n'est pas valide dans la lapidation.",
+          "de": "Ich hörte Abu Abdullah (friede sei mit ihm) sagen: Das Zeugnis der Frauen ist gültig in Angelegenheiten, die Männer nicht sehen und bezeugen können; ihr Zeugnis ist gültig in der Ehe, und nicht gültig in der Scheidung, noch im Blut (Diyah); es ist gültig beim Hadd der Ehebrecherin, wenn es drei Männer und zwei Frauen gibt, und nicht gültig, wenn es zwei Männer und vier Frauen gibt; und ihr Zeugnis ist nicht gültig beim Steinigen.",
+          "ru": "Я слышал, как Абу Абдуллах (да будет мир с ним) говорил: свидетельствo женщин принимается в вопросах, которые мужчины не могут видеть и свидетельствовать о них; их свидетельство принимается в браке, но не принимается в разводе, ни в выкупе (дия); оно принимается в хадде за прелюбодеяние, когда присутствуют три мужчины и две женщины, но не принимается, когда присутствуют два мужчины и четыре женщины; а их свидетельство не принимается при побивании камнями.",
+          "zh": "我听见阿卜杜拉（愿主喜悦之）说：妇女的证词在男子不能观看并作证的事项中是有效的；她们的证词在婚姻中有效，在离婚中无效，在血金（迪亚）中也无效；在通奸的固定刑罚中，当有三名男子和两名女子时，她们的证词有效，而当有两名男子和四名女子时，她们的证词无效；在石刑中，她们的证词无效。"
+        },
+        "word_start": 1,
+        "word_end": 54
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi details the jurisprudential nuances of women's testimony (shahadat al-nisa), distinguishing between contexts where their testimony stands alone versus those requiring a male-female ratio. It specifically notes the exclusion of women from stoning (rajm) and divorce (talaq), while permitting it in adultery (hadd al-zina) only when accompanied by three men, reflecting the Shia scholarly emphasis on contextual validity rather than a uniform standard.",
+        "seo_question": "When is the testimony of women considered valid or invalid in Shia Islamic jurisprudence?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "Testimony of women",
+          "النِّكَاح": "Marriage",
+          "الطَّلَاق": "Divorce",
+          "الدَّم": "Blood money (Diyah)",
+          "حَدِّ الزِّنَى": "Legal penalty for adultery",
+          "الرَّجْم": "Stoning"
+        }
+      },
+      "ur": {
+        "summary": "حدیث الکافی میں عورتوں کی شہادت کے فقہی نکات کی تفصیل ہے، جس میں ان کے سیاق و سباق کے مطابق ان کی شہادت کی اہمیت کو واضح کیا گیا ہے۔ اس میں خاص طور پر عورتوں کو رجم اور طلاق سے مستثنیٰ قرار دیا گیا ہے، جبکہ زنا کی حد میں صرف تین مردوں کی موجودگی میں ان کی شہادت کو جائز قرار دیا گیا ہے، جو شیعہ فقہی نقطہ نظر کے سیاقی اعتبار کو ظاہر کرتا ہے۔",
+        "seo_question": "شیعہ اسلامی فقہ میں عورتوں کی شہادت کب جائز یا غیر جائز سمجھی جاتی ہے؟",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "عورتوں کی شہادت",
+          "النِّكَاح": "شادی",
+          "الطَّلَاق": "طلاق",
+          "الدَّم": "خون کا مال",
+          "حَدِّ الزِّنَى": "زنا کی سزا",
+          "الرَّجْم": "رجم"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, el-Kâfî'den alınmış olup, kadınların şahitliği (şehâdü'n-nisâ) konusundaki fıkhi nüansları, kadınların şahitliğinin tek başına geçerli olduğu bağlamlarla erkek-kadın oranı gereken bağlamlar arasında ayrım yaparak detaylandırır. Özellikle kadınların taşlama (racm) ve boşanma (talak) konularında dışlandığını, ancak zina (haddü'z-zinâ) durumunda üç erkekle birlikte yalnızca bu bağlamda izin verildiğini belirtir; bu durum, Şii alimlerin homojen bir standart yerine bağlamsal geçerliliğe vurgu yapmasını yansıtır.",
+        "seo_question": "Şii İslam fıkhında kadınların şahitliği ne zaman geçerli veya geçersiz sayılır?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "Kadınların şahitliği",
+          "النِّكَاح": "Nikah",
+          "الطَّلَاق": "Talak",
+          "الدَّم": "Kânun-ı dam (Diyet)",
+          "حَدِّ الزِّنَى": "Zina cezası",
+          "الرَّجْم": "Racm"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، ظرافت‌های فقهی شهادت زنان (شهادت النساء) را با جزئیات بیان می‌کند و میان زمینه‌هایی که شهادت زنان به تنهایی معتبر است و زمینه‌هایی که نسبت مرد به زن را می‌طلبد، تمایز قائل می‌شود. به طور خاص، عدم اعتبار شهادت زنان در رجم و طلاق را یادآور شده و اعتبار آن را در حد زنا تنها در صورت همراهی با سه مرد مجاز می‌داند که این امر بازتاب‌دهنده تأکید علمای شیعه بر اعتبار زمینه‌محور به جای یک استاندارد یکنواخت است.",
+        "seo_question": "شهادت زنان در فقه اسلامی شیعه چه زمانی معتبر یا نامعتبر تلقی می‌شود؟",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "شهادت زنان",
+          "النِّكَاح": "ازدواج",
+          "الطَّلَاق": "طلاق",
+          "الدَّم": "دی",
+          "حَدِّ الزِّنَى": "حد زنا",
+          "الرَّجْم": "رجم"
+        }
+      },
+      "id": {
+        "summary": "Hadith dari al-Kafi ini merinci nuansa fikih mengenai kesaksian wanita (shahadat al-nisa), membedakan antara konteks di mana kesaksian mereka berdiri sendiri versus yang memerlukan rasio laki-laki dan wanita. Hadis ini secara khusus mencatat pengecualian wanita dari rajm dan talaq, sementara mengizinkannya dalam hadd al-zina hanya ketika disertai oleh tiga pria, mencerminkan penekanan ulama Syiah pada validitas kontekstual daripada standar seragam.",
+        "seo_question": "Kapan kesaksian wanita dianggap sah atau tidak sah dalam fikih Islam Syiah?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "Kesaksian wanita",
+          "النِّكَاح": "Nikah",
+          "الطَّلَاق": "Talaq",
+          "الدَّم": "Darah uang (Diyah)",
+          "حَدِّ الزِّنَى": "Hukuman hukum untuk zina",
+          "الرَّجْم": "Rajm"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে আল-কাফি থেকে নারীদের সাক্ষ্যের (শাহাদাতুল নিসা) ফিকহী সূক্ষ্মতাগুলো বিস্তারিতভাবে বর্ণনা করা হয়েছে, যেখানে তাদের সাক্ষ্য একা গ্রহণযোগ্য প্রসঙ্গ এবং যেখানে পুরুষ-নারী অনুপাত প্রয়োজন সেগুলোর মধ্যে পার্থক্য করা হয়েছে। এটি বিশেষভাবে নারীদের রজম (স্তোনিং) এবং তালাক থেকে বাদ দেওয়া হয়েছে, তবে জিনায় (অব্যভিচার) এর ক্ষেত্রে তিনজন পুরুষের উপস্থিতিতে তাদের সাক্ষ্য গ্রহণযোগ্য বলে উল্লেখ করা হয়েছে, যা শিয়া বিদ্বানদের প্রেক্ষাপটভিত্তিক বৈধতার উপর জোর দেওয়ার প্রতিফলন।",
+        "seo_question": "শিয়া ইসলামি ফিকহে নারীদের সাক্ষ্য কখন বৈধ বা অবৈধ বিবেচিত হয়?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "নারীদের সাক্ষ্য",
+          "النِّكَاح": "বিবাহ",
+          "الطَّلَاق": "তালাক",
+          "الدَّم": "খুন-বদলা",
+          "حَدِّ الزِّنَى": "জিনার শাস্তি",
+          "الرَّجْم": "রজম"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi detalla los matices jurisprudenciales del testimonio femenino (shahadat al-nisa), distinguiendo entre contextos donde su testimonio es suficiente por s solo y aquellos que requieren una proporci n de un hombre por cada dos mujeres. Se se ala espec ficamente la exclusi n de las mujeres del lapidaci n (rajm) y del divorcio (talaq), mientras que se permite en la adulterio (hadd al-zina) solo cuando acompa ada por tres hombres, reflejando el énfasis erudito chi a en la validez contextual en lugar de un est ndar uniforme.",
+        "seo_question": " Cu ndo se considera v lido o inv lido el testimonio de las mujeres en la jurisprudencia isl mica chi a?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "Testimonio de mujeres",
+          "النِّكَاح": "Matrimonio",
+          "الطَّلَاق": "Divorcio",
+          "الدَّم": "Dinero de sangre (Diyah)",
+          "حَدِّ الزِّنَى": "Penal legal por adulterio",
+          "الرَّجْم": "Lapidaci n"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith d'al-Kafi détaille les nuances jurisprudentielles du témoignage des femmes (shahadat al-nisa), distinguant les contextes où leur témoignage est autonome de ceux exigeant un ratio homme-femme. Il note spécifiquement l'exclusion des femmes du lapidation (rajm) et du divorce (talaq), tout en le permettant pour l'adultère (hadd al-zina) uniquement lorsqu'il est accompagné de trois hommes, reflétant l'accent mis par les savants chiites sur la validité contextuelle plutôt que sur une norme uniforme.",
+        "seo_question": "Quand le témoignage des femmes est-il considéré comme valide ou invalide dans la jurisprudence islamique chiite ?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "Témoignage des femmes",
+          "النِّكَاح": "Mariage",
+          "الطَّلَاق": "Divorce",
+          "الدَّم": "Indemnité sanguinaire (Diyah)",
+          "حَدِّ الزِّنَى": "Peine légale pour l'adultère",
+          "الرَّجْم": "Lapidation"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi erläutert die juristischen Feinheiten der Zeugenaussage von Frauen (Schahadat an-Nisa) im islamischen Recht, indem es zwischen Kontexten unterscheidet, in denen ihre Aussage allein gültig ist, und solchen, die ein Verhältnis von Mann zu Frau erfordern. Es weist speziell darauf hin, dass Frauen von der Steinigung (Radschm) und der Scheidung (Talaq) ausgeschlossen sind, während ihre Aussage bei der Ehebrecherstrafe (Hadd al-Zina) nur in Begleitung von drei Männern zugelassen wird, was die schiitische wissenschaftliche Betonung der kontextuellen Gültigkeit im Gegensatz zu einem einheitlichen Standard widerspiegelt.",
+        "seo_question": "Wann ist die Zeugenaussage von Frauen in der schiitischen islamischen Rechtswissenschaft gültig oder ungültig?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "Zeugenaussage von Frauen",
+          "النِّكَاح": "Ehe",
+          "الطَّلَاق": "Scheidung",
+          "الدَّم": "Blutgeld (Diyah)",
+          "حَدِّ الزِّنَى": "Rechtsstrafe für Ehebruch",
+          "الرَّجْم": "Steinigung"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из аль-Кафи подробно разбираются правовые нюансы свидетельских показаний женщин (шахадат ан-ниса’), проводя различие между ситуациями, где их показания принимаются самостоятельно, и случаями, где требуется соотношение одного мужчины к двум женщинам. В тексте особо отмечается недопустимость свидетельских показаний женщин в вопросах побивания камнями (раджм) и развода (талак), тогда как в случае прелюбодеяния (хадд аз-зина) их показания принимаются только в сопровождении показаний трех мужчин, что отражает акцент шиитских ученых на контекстуальной действительности, а не на едином универсальном стандарте.",
+        "seo_question": "Когда свидетельские показания женщин признаются действительными или недействительными в шиитском исламском праве?",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "свидетельские показания женщин",
+          "النِّكَاح": "брак",
+          "الطَّلَاق": "развод",
+          "الدَّم": "деньги крови (дия)",
+          "حَدِّ الزِّنَى": "правовое наказание за прелюбодеяние",
+          "الرَّجْم": "побивание камнями"
+        }
+      },
+      "zh": {
+        "summary": "《卡菲》中的这段圣训详细阐述了女性作证（shahadat al-nisa）的教法学细微差别，区分了女性单独作证与需要男女比例作证的不同情境。它特别指出女性被排除在石刑（rajm）和离婚（talaq）之外，而在通奸（hadd al-zina）中仅在与三名男性共同作证时才被允许，这反映了什叶派学者对情境有效性而非统一标准的强调。",
+        "seo_question": "在什叶派伊斯兰教法中，女性证词在何时被视为有效或无效？",
+        "key_terms": {
+          "شَهَادَةُ النِّسَاءِ": "女性作证",
+          "النِّكَاح": "婚姻",
+          "الطَّلَاق": "离婚",
+          "الدَّم": "血金",
+          "حَدِّ الزِّنَى": "通奸的法律惩罚",
+          "الرَّجْم": "石刑"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:282",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "65:2",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "24:4",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ: تَجُوزُ شَهَادَةُ النِّسَاءِ فِيمَا لَا يَسْتَطِيعُ الرِّجَالُ أَنْ يَنْظُرُوا إِلَيْهِ وَيَشْهَدُوا عَلَيْهِ، وَتَجُوزُ شَهَادَتُهُنَّ فِي النِّكَاحِ، وَلَا تَجُوزُ فِي الطَّلَاقِ، وَلَا فِي الدَّمِ، وَتَجُوزُ فِي حَدِّ الزِّنَى إِذَا كَانَ ثَلَاثَةُ رِجَالٍ وَامْرَأَتَانِ، وَلَا تَجُوزُ إِذَا كَانَ رَجُلَانِ وَأَرْبَعُ نِسْوَةٍ، وَلَا تَجُوزُ شَهَادَتُهُنَّ فِي الرَّجْمِ.",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "سَمِعْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) يَقُولُ: تَجُوزُ شَهَادَةُ النِّسَاءِ فِيمَا لَا يَسْتَطِيعُ الرِّجَالُ أَنْ يَنْظُرُوا إِلَيْهِ وَيَشْهَدُوا عَلَيْهِ، وَتَجُوزُ شَهَادَتُهُنَّ فِي النِّكَاحِ، وَلَا تَجُوزُ فِي الطَّلَاقِ، وَلَا فِي الدَّمِ، وَتَجُوزُ فِي حَدِّ الزِّنَى إِذَا كَانَ ثَلَاثَةُ رِجَالٍ وَامْرَأَتَانِ، وَلَا تَجُوزُ إِذَا كَانَ رَجُلَانِ وَأَرْبَعُ نِسْوَةٍ، وَلَا تَجُوزُ شَهَادَتُهُنَّ فِي الرَّجْمِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "ابْنِ مَحْبُوبٍ",
+          "name_en": "Ibn Mahbub",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 10
+        },
+        {
+          "name_ar": "إِبْرَاهِيمَ الْحَارِثِيِّ",
+          "name_en": "al-Harithi",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 1790
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

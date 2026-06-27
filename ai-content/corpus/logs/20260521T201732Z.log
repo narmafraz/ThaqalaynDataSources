@@ -1,0 +1,491 @@
+21:17:32 INFO Run log: /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/logs/20260521T201732Z.log
+21:17:32 INFO OPENED /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/logs/pipeline.jsonl
+21:17:32 INFO Word dictionary: 609 entries
+21:17:32 INFO Narrator templates: 1074 entries
+21:17:32 INFO Narrator registry: 4544 entries
+Pipeline v4 starting: 13 verses, 12 workers, mode=phased, backend=spark, p1=qwen36-fast, p4=qwen36-fast
+21:17:32 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+21:17:32 INFO P1-GEN risalat-al-huquq_2_3 (23 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_2_5 (13 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_2_6 (11 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_2_7 (24 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_2_9 (14 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_3_1 (45 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_3_3 (26 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_4_3 (21 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_6_1 (51 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_6_3 (44 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_6_4 (41 words, phased, spark/qwen36-fast)...
+21:17:32 INFO P1-GEN risalat-al-huquq_7_12 (15 words, phased, spark/qwen36-fast)...
+21:17:45 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:17:45 INFO P2-ENRICH risalat-al-huquq_2_6...
+21:17:45 INFO P1-GEN risalat-al-huquq_7_19 (13 words, phased, spark/qwen36-fast)...
+21:17:48 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:17:48 INFO P2-ENRICH risalat-al-huquq_2_5...
+21:17:48 INFO P3-SCHOLARLY risalat-al-huquq_2_6 (spark/qwen36-fast)...
+21:17:48 INFO P3-SCHOLARLY risalat-al-huquq_2_5 (spark/qwen36-fast)...
+21:17:49 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:17:49 INFO P2-ENRICH risalat-al-huquq_2_7...
+21:17:50 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:17:50 INFO P2-ENRICH risalat-al-huquq_2_3...
+21:17:50 INFO P3-SCHOLARLY risalat-al-huquq_2_7 (spark/qwen36-fast)...
+21:17:58 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:17:58 INFO P2-ENRICH risalat-al-huquq_3_1...
+21:18:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:01 INFO P2-ENRICH risalat-al-huquq_3_3...
+21:18:01 INFO P3-SCHOLARLY risalat-al-huquq_3_1 (spark/qwen36-fast)...
+21:18:01 INFO P3-SCHOLARLY risalat-al-huquq_3_3 (spark/qwen36-fast)...
+21:18:02 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:02 INFO P2-ENRICH risalat-al-huquq_6_1...
+21:18:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:06 INFO P2-ENRICH risalat-al-huquq_4_3...
+21:18:06 INFO P3-SCHOLARLY risalat-al-huquq_6_1 (spark/qwen36-fast)...
+21:18:06 INFO P3-SCHOLARLY risalat-al-huquq_4_3 (spark/qwen36-fast)...
+21:18:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:08 INFO P4-TRANSLATE risalat-al-huquq_2_6...
+21:18:08 INFO P2-ENRICH risalat-al-huquq_6_4...
+21:18:09 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:09 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:09 INFO P2-SPARK risalat-al-huquq_2_3: filled 3 unresolved narrator name_en
+21:18:09 INFO P3-SCHOLARLY risalat-al-huquq_2_3 (spark/qwen36-fast)...
+21:18:09 INFO P2-ENRICH risalat-al-huquq_6_3...
+21:18:09 INFO P3-SCHOLARLY risalat-al-huquq_6_4 (spark/qwen36-fast)...
+21:18:09 INFO P3-SCHOLARLY risalat-al-huquq_6_3 (spark/qwen36-fast)...
+21:18:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:11 INFO P2-ENRICH risalat-al-huquq_7_12...
+21:18:12 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:12 INFO P4-TRANSLATE risalat-al-huquq_2_5...
+21:18:12 INFO P3-SCHOLARLY risalat-al-huquq_7_12 (spark/qwen36-fast)...
+21:18:14 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:14 INFO P4-TRANSLATE risalat-al-huquq_3_1...
+21:18:15 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:15 INFO P2-ENRICH risalat-al-huquq_7_19...
+21:18:15 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:15 INFO P4-TRANSLATE risalat-al-huquq_3_3...
+21:18:15 INFO P3-SCHOLARLY risalat-al-huquq_7_19 (spark/qwen36-fast)...
+21:18:16 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:16 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:16 INFO P4-TRANSLATE risalat-al-huquq_2_7...
+21:18:16 INFO P4-TRANSLATE risalat-al-huquq_6_1...
+21:18:17 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:17 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:18 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:19 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:20 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:21 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:21 INFO P4-TRANSLATE risalat-al-huquq_4_3...
+21:18:21 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:23 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:24 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:26 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:26 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:27 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:27 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:28 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:31 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:31 INFO P4-TRANSLATE risalat-al-huquq_6_4...
+21:18:32 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:32 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:32 INFO P4-TRANSLATE risalat-al-huquq_6_3...
+21:18:33 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:33 INFO P4-TRANSLATE risalat-al-huquq_2_3...
+21:18:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:35 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:35 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:37 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:39 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:40 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:42 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:44 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:45 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:45 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:46 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:49 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:52 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:52 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:52 INFO P4-TRANSLATE risalat-al-huquq_7_12...
+21:18:53 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:55 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:56 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:57 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:57 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:58 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:59 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:18:59 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:00 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:02 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:03 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:03 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:07 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:07 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:09 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:12 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:12 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:12 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:12 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:14 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:15 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:16 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:16 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:18 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:19 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:20 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:20 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:22 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:22 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:26 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:27 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:28 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:28 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:29 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:31 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:32 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:32 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:33 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:33 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:35 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:35 INFO P4-TRANSLATE risalat-al-huquq_7_19...
+21:19:38 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:41 INFO WROTE /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/responses/risalat-al-huquq_2_6.json
+21:19:41 INFO OK risalat-al-huquq_2_6 [phased, $0.0000, 408 tok]
+21:19:42 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:45 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:46 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:49 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:49 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:56 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:58 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:19:59 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+
+--- Progress [3m] ---
+  Done: 1/13 (pass=1, fix=0, fixed=0, err=0)
+  Rate: 24/hr | ETA: 0.5h
+  Cost: $0.00 (avg $0.0000/verse)
+  Out tokens: 11,398
+---
+21:20:04 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:05 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:09 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:09 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:10 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:12 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:14 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:14 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:16 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:17 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:17 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:17 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:23 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:23 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:24 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:24 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:29 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:32 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:33 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:35 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:37 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:40 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:40 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:44 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:44 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:46 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:50 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:52 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:57 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:58 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:20:59 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:00 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:02 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:03 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:05 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:07 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:07 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:10 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:10 WARNING PHASED risalat-al-huquq_2_5: 2 validation errors: ["chunks[0] word 'أن' has no diacritics (must be fully diacritized)", "chunks[0] word 'لا' has no diacritics (must be fully diacritized)"]
+21:21:10 INFO QUARANTINED risalat-al-huquq_2_5 (2 errors)
+21:21:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:13 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:14 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:15 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:16 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:17 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:18 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:19 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:20 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:21 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:22 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:22 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:23 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:25 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:25 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:25 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:25 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:26 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:27 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:27 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:28 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:29 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:31 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+
+--- Progress [4m] ---
+  Done: 2/13 (pass=1, fix=0, fixed=0, err=1)
+  Rate: 30/hr | ETA: 0.4h
+  Cost: $0.00 (avg $0.0000/verse)
+  Out tokens: 14,108
+---
+21:21:33 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:35 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:37 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:38 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:38 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:38 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:38 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:39 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:42 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:43 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:44 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:44 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:45 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:46 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:48 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:48 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:50 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:52 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:55 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:56 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:57 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:58 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:58 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:58 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:21:58 WARNING PHASED risalat-al-huquq_2_7: 14 validation errors: ["chunks[1] word 'لا' has no diacritics (must be fully diacritized)", "chunks[1] word 'لا' has no diacritics (must be fully diacritized)", "chunks[1] word 'فيهما،' has no diacritics (must be fully diacritized)"]
+21:21:58 INFO QUARANTINED risalat-al-huquq_2_7 (14 errors)
+21:21:59 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+
+--- Progress [5m] ---
+  Done: 3/13 (pass=1, fix=0, fixed=0, err=2)
+  Rate: 40/hr | ETA: 0.3h
+  Cost: $0.00 (avg $0.0000/verse)
+  Out tokens: 17,643
+---
+21:22:03 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:04 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:04 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:07 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:08 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:13 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:14 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:15 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:16 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:17 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:18 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:18 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:21 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:22 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:24 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:24 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:24 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:25 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:25 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:26 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:27 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:28 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:28 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:29 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:33 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:34 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:37 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:37 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:40 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:42 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:42 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:43 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:44 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:45 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:47 INFO WROTE /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/responses/risalat-al-huquq_6_1.json
+21:22:47 INFO OK risalat-al-huquq_6_1 [phased, $0.0000, 775 tok]
+21:22:49 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:49 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:50 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:51 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:53 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:53 WARNING PHASED risalat-al-huquq_4_3: 1 validation errors: ["chunks[0] word 'لا' has no diacritics (must be fully diacritized)"]
+21:22:53 INFO QUARANTINED risalat-al-huquq_4_3 (1 errors)
+21:22:53 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:53 WARNING PHASED risalat-al-huquq_6_4: 11 validation errors: ["chunks[0] word 'ولا' has no diacritics (must be fully diacritized)", "chunks[0] word 'ولا' has no diacritics (must be fully diacritized)", "chunks[0] word 'وإلا' has no diacritics (must be fully diacritized)"]
+21:22:53 INFO QUARANTINED risalat-al-huquq_6_4 (11 errors)
+21:22:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:54 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:55 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:56 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:57 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:57 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:57 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:59 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:22:59 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:00 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:01 INFO WROTE /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/responses/risalat-al-huquq_6_3.json
+21:23:01 INFO OK risalat-al-huquq_6_3 [phased, $0.0000, 637 tok]
+21:23:01 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:02 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+
+--- Progress [6m] ---
+  Done: 7/13 (pass=3, fix=0, fixed=0, err=4)
+  Rate: 76/hr | ETA: 0.1h
+  Cost: $0.00 (avg $0.0000/verse)
+  Out tokens: 33,224
+---
+21:23:02 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:02 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:04 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:04 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:04 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:04 WARNING PHASED risalat-al-huquq_2_3: 1 validation errors: ["has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk"]
+21:23:04 INFO QUARANTINED risalat-al-huquq_2_3 (1 errors)
+21:23:04 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:05 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:05 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:05 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:06 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:09 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:09 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:11 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:13 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:13 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:14 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:14 INFO WROTE /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/responses/risalat-al-huquq_3_3.json
+21:23:14 INFO OK risalat-al-huquq_3_3 [phased, $0.0000, 567 tok]
+21:23:15 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:15 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:18 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:19 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:19 INFO WROTE /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/responses/risalat-al-huquq_7_12.json
+21:23:19 INFO OK risalat-al-huquq_7_12 [phased, $0.0000, 420 tok]
+21:23:20 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:20 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:22 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:22 INFO WROTE /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/responses/risalat-al-huquq_7_19.json
+21:23:22 INFO OK risalat-al-huquq_7_19 [phased, $0.0000, 442 tok]
+21:23:23 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:23 WARNING PHASED risalat-al-huquq_3_1: 1 validation errors: ["chunks[1] word 'فيها' has no diacritics (must be fully diacritized)"]
+21:23:23 INFO QUARANTINED risalat-al-huquq_3_1 (1 errors)
+21:23:24 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:24 INFO P2-ENRICH risalat-al-huquq_2_9...
+21:23:25 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:25 INFO P2-SPARK risalat-al-huquq_2_9: filled 1 unresolved narrator name_en
+21:23:25 INFO P3-SCHOLARLY risalat-al-huquq_2_9 (spark/qwen36-fast)...
+21:23:28 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:28 INFO P4-TRANSLATE risalat-al-huquq_2_9...
+21:23:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:30 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:31 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+
+--- Progress [6m] ---
+  Done: 12/13 (pass=6, fix=0, fixed=0, err=6)
+  Rate: 120/hr | ETA: 0.0h
+  Cost: $0.00 (avg $0.0000/verse)
+  Out tokens: 50,971
+---
+21:23:36 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:37 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:38 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:39 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:39 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:40 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:41 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:42 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:42 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:43 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:43 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:43 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:46 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:47 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:48 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:49 INFO HTTP Request: POST http://localhost:8000/v1/chat/completions "HTTP/1.1 200 OK"
+21:23:49 WARNING PHASED risalat-al-huquq_2_9: 1 validation errors: ["has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk"]
+21:23:49 INFO QUARANTINED risalat-al-huquq_2_9 (1 errors)
+
+============================================================
+Pipeline Complete (6.3 min)
+  Total: 13 processed, 0 skipped
+  Pass: 6 | Fixed: 0 | Errors: 7
+  Cost: $0.00 (avg $0.0000/verse)
+  Tokens: In: 150,876 | Out: 53,620
+============================================================
+21:23:49 INFO WROTE /home/pino/scripture/ThaqalaynDataGenerator/tmp/pipeline/pipeline_session.json
+21:23:49 INFO WROTE /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/sessions/20260521T201732Z.json
+21:23:49 INFO Run log saved: /home/pino/scripture/ThaqalaynDataSources/ai-content/corpus/logs/20260521T201732Z.log

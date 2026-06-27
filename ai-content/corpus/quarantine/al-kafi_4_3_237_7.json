@@ -1,0 +1,289 @@
+{
+  "verse_path": "/books/al-kafi:4:3:237:7",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] type='body' starts with chain transmission verb 'روي' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "worship",
+      "dua",
+      "quran_commentary"
+    ],
+    "content_type": "supplication",
+    "topics": [
+      "specific_supplications",
+      "quran_recitation",
+      "imams_biography",
+      "ritual_purity"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ مُحَمَّدٍ رَفَعَهُ قَالَ",
+        "translations": {
+          "en": "Ali ibn Muhammad, raising it, said:",
+          "ur": "علی بن محمد نے اسے بلند کیا اور کہا:",
+          "tr": "Ali b. Muhammed, onu yükselterek şöyle dedi:",
+          "fa": "عَلِيُّ بْنُ مُحَمَّدٍ رَفَعَهُ قَالَ",
+          "id": "Ali bin Muhammad, meriwayatkannya, berkata: ",
+          "bn": "আলী ইবনে মুহাম্মদ (র.) বর্ণনা করেছেন, তিনি বলেছেন:",
+          "es": "Alī ibn Muḥammad, elevándolo, dijo:",
+          "fr": "Ali ibn Muhammad, l'ayant élevé, a dit :",
+          "de": "Ali ibn Muhammad, der es erhob, sagte:",
+          "ru": "Али ибн Мухаммад, передавал, сказав:",
+          "zh": "阿里·本·穆罕默德传述说："
+        },
+        "word_start": 0,
+        "word_end": 5
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ الْخَتْمُ عَلَى طِينِ قَبْرِ الْحُسَيْنِ ( عليه السلام ) أَنْ يُقْرَأَ عَلَيْهِ إِنَّا أَنْزَلْنَاهُاهُ فِي لَيْلَةِ الْقَدْرِ",
+        "translations": {
+          "en": "He (peace be upon him) said: The sealing upon the clay of the grave of Al-Husayn (peace be upon him) is that one should recite over it: 'We have indeed revealed this in the Night of Predestination'.",
+          "ur": "آپ (صلی اللہ علیہ وآلہ وسلم) نے فرمایا: قبرِ حسین (رضی اللہ عنہ) کی مٹی پر مہر لگانے کا طریقہ یہ ہے کہ اس پر یہ آیت پڑھی جائے: 'بے شک ہم نے اسے تقدیم کی رات میں نازل کیا ہے'۔",
+          "tr": "O (aleyhisselam) şöyle buyurdu: Al-Hüseyin'in (aleyhisselam) kabrinin çamuru üzerine mühür olarak, üzerinde şu ayeti tilavet etmek vardır: 'Biz onu Kadir Gecesi'nde indirdik.'",
+          "fa": "او (صلی‌الله‌علیه‌وسلم) فرمود: مهر و موم شدن بر خاک قبر الحسین (علیه‌السلام) آن است که بر آن خوانده شود: «ما آن را در شب قدر نازل کردیم».",
+          "id": "Beliau (shalallahu ‘alaihi wasallam) bersabda: Disegelinya tanah liat kubur Al-Husain (shalallahu ‘alaihi wasallam) adalah dengan membacakan di atasnya: 'Sesungguhnya Kami telah menurunkannya pada malam Lailatul Qadar'.",
+          "bn": "তিনি (সা.) বলেছেন: আল-হুসাইন (রা.)-এর কবরের মাটির উপর মোহর লাগানোর বিষয়টি হলো, এর উপর এই আয়াত তিলাওয়াত করা: 'নিশ্চয়ই আমি এটি কদরের রাতে অবতীর্ণ করেছি'।",
+          "es": "Él (que la paz sea con él) dijo: El sello sobre la arcilla de la tumba de Al-Husayn (que la paz sea con él) es que se recite sobre ella: «Hemos revelado esto en la Noche del Destino».",
+          "fr": "Il (que la paix soit sur lui) a dit : Le sceau apposé sur la terre de la tombe d'Al-Husayn (que la paix soit sur lui) est que l'on récite par-dessus : « Nous avons certes fait descendre ce (Coran) durant la Nuit du Destin ».",
+          "de": "Er (Friede sei mit ihm) sagte: Das Versiegeln mit Lehm am Grab des Al-Husayn (Friede sei mit ihm) besteht darin, dass man darüber Folgendes rezitiert: „Wir haben es in der Nacht der Bestimmung offenbart.“",
+          "ru": "Он (да будет мир с ним) сказал: Печать на глине могилы аль-Хусейна (да будет мир с ним) заключается в том, чтобы читать над ней: «Воистину, Мы ниспослали это в ночь предопределенную ночь».",
+          "zh": "他（愿主福安之）说：在侯赛因（愿主福安之）的坟墓的泥土上封印的方法是，在其上诵读：‘我确已在高贵之夜降示此《古兰经》’。"
+        },
+        "word_start": 5,
+        "word_end": 23
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَرُوِيَ إِذَا أَخَذْتَهُ فَقُلْ بِسْمِ اللَّهِ اللَّهُمَّ بِحَقِّ هَذِهِ التُّرْبَةِ الطَّاهِرَةِ وَبِحَقِّ الْبُقْعَةِ الطَّيِّبَةِ وَبِحَقِّ الْوَصِيِّ الَّذِي تُوَارِيهِ وَبِحَقِّ جَدِّهِ وَأَبِيهِ وَأُمِّهِ وَأَخِيهِ وَالْمَلَائِكَةِ الَّذِينَ يَحُفُّونَ بِهِ وَالْمَلَائِكَةِ الْعُكُوفِ عَلَى قَبْرِ وَلِيِّكَ يَنْتَظِرُونَ نَصْرَهُ صَلَّى اللَّهُ عَلَيْهِمْ أَجْمَعِينَ اجْعَلْ لِي فِيهِ شِفَاءً مِنْ كُلِّ دَاءٍ وَأَمَاناً مِنْ كُلِّ خَوْفٍ وَعِزّاً مِنْ كُلِّ ذُلٍّ وَأَوْسِعْ بِهِ عَلَيَّ فِي رِزْقِي وَأَصِحَّ بِهِ جِسْمِي",
+        "translations": {
+          "en": "And it is reported that when you take it, say: 'In the Name of Allah. O Allah! By the right of this dust, and by the right of the purified spot, and by the right of the successor who is covered (buried), and by the right of his grandfather, and his father, and his mother, and his brother, and the Angels who are surrounding him, and the Angels devoted upon the grave of Your Guardian awaiting helping him, may Allah bless them all. Make a healing for me in it, from every disease, and a security from every fear, and honour from every disgrace, and Expand upon me in my sustenance, and correct my body for me'.",
+          "ur": "اور روایت ہے کہ جب تم اسے لو تو کہو: 'اللہ کے نام پر۔ اے اللہ! اس مٹی کے حق کے ساتھ، اور پاک جگہ کے حق کے ساتھ، اور اس جانشین کے حق کے ساتھ جو (دفن) ہے، اور اس کے دادا کے حق کے ساتھ، اور اس کے باپ کے حق کے ساتھ، اور اس کی ماں کے حق کے ساتھ، اور اس کے بھائی کے حق کے ساتھ، اور فرشتوں کے حق کے ساتھ جو اس کے گرد ہیں، اور فرشتوں کے حق کے ساتھ جو تمہارے والی کے قبر پر مامور ہیں اس کی مدد کا انتظار کر رہے ہیں، اللہ ان سب پر رحمت نازل فرمائے۔ اس میں میرے لیے ہر بیماری سے شفا، اور ہر خوف سے امان، اور ہر عیب سے عزت، اور میرے رزق میں وسعت، اور میرے جسم کی اصلاح فرما۔'",
+          "tr": "Ve rivayete göre, onu aldığında şunu de: 'Allah'ın ismiyle. Ey Allah! Bu toprağın hakkı, bu pak mekânın hakkı, örtülü (gömülü) olan velinin hakkı, ve onun dedesinin, babasının, annesinin, kardeşinin, onu çevreleyen meleklerin, ve Rabbinin makamının kabrinde, ona yardım etmeyi bekleyen meleklerin, ve Allah'ın onlara hepsine rahmet etmesi. İçinde bana her hastalıktan şifa, her korkudan emin olma, her rezilattan onur, ve rızkımı genişlet, ve bedenimi benim için düzelt.'",
+          "fa": "و روایت شده است که هنگامی که آن را می‌گیری، بگو: «به نام خدا. ای خدا! به حق این خاک، و به حق مکان پاک، و به حق جانشینی که پوشیده (دفن) شده، و به حق پدربزرگش، و پدرش، و مادرش، و برادرش، و فرشتگانی که او را احاطه کرده‌اند، و فرشتگانی که بر قبر حجتت منتظر کمک به او هستند، خداوند همه آن‌ها را برکت دهد. برای من در آن شفا از هر بیماری، و آرامش از هر ترس، و عزت از هر ذلت، و گشایش در رزقم، و اصلاح جسمم برایم قرار ده.»",
+          "id": "Dan telah diriwayatkan bahwa ketika kamu mengambilnya, ucapkanlah: 'Dengan Nama Allah. Wahai Allah! Dengan hak debu ini, dan dengan hak tempat yang suci, dan dengan hak penerus yang terkubur (dimakamkan), dan dengan hak kakeknya, dan bapaknya, dan ibunya, dan saudaranya, dan para Malaikat yang mengelilinginya, dan para Malaikat yang menjaga di atas kuburan Wali Allah menanti untuk menolongnya, semoga Allah memberkati mereka semua. Jadikanlah untukku penyembuhan di dalamnya dari setiap penyakit, dan ketenteraman dari setiap ketakutan, dan kemuliaan dari setiap aib, dan luaskanlah rezekiku, dan perbaiklah tubuhku untukku'.",
+          "bn": "এবং বর্ণিত হয়েছে যে, যখন আপনি এটি (কবরের ধূলি) নেন, তখন বলবেন: 'আল্লাহর নামে। হে আল্লাহ! এই ধূলির অধিকারের দ্বারা, এবং পবিত্র স্থানের অধিকারের দ্বারা, এবং যে উত্তরসূরি (কবরস্থ) আছেন, তার অধিকারের দ্বারা, এবং তার দাদার, তার বাবার, তার মায়ের, তার ভাইয়ের, এবং তাঁকে ঘিরে থাকা ফেরেশতাদের অধিকারের দ্বারা, এবং আপনার আয়তের কবরে তাঁর সাহায্যের অপেক্ষায় নিয়োজিত ফেরেশতাদের অধিকারের দ্বারা, আল্লাহ তাদের সকলকে বরকত দান করুন। এর মাধ্যমে আমার জন্য প্রতিটি রোগ থেকে শিফা, প্রতিটি ভয় থেকে নিরাপত্তা, প্রতিটি অপমান থেকে সম্মান, এবং আমার রিযিক বিস্তৃত করুন, এবং আমার শরীরকে সংশোধন করুন'।",
+          "es": "Y se ha transmitido que, cuando lo tomas, dices: 'En el Nombre de Alá. ¡Oh Alá! Por el derecho de este polvo, y por el derecho del lugar purificado, y por el derecho del sucesor que está cubierto (enterrado), y por el derecho de su abuelo, y su padre, y su madre, y su hermano, y los Ángeles que lo rodean, y los Ángeles dedicados a la tumba de tu Guardián, esperando ayudarle, que Alá los bendiga a todos. Concédeme en ello una curación de toda enfermedad, y una seguridad de todo temor, y honor de toda desgracia, y ensancha para mí mi sustento, y mejora mi cuerpo para mí'.",
+          "fr": "Et il est rapporté que lorsque vous l'appliquez, vous dites : « Au nom d'Allah. Ô Allah ! Par le droit de cette poussière, et par le droit de l'endroit purifié, et par le droit du successeur qui est couvert (enterré), et par le droit de son grand-père, et de son père, et de sa mère, et de son frère, et des Anges qui l'entourent, et des Anges dévoués à la tombe de votre Imam en attente de l'aider, qu'Allah les bénisse tous. Accorde-moi une guérison en elle, de toute maladie, et une sécurité contre toute crainte, et l'honneur contre tout déshonneur, et élargis ma subsistance, et corrige mon corps pour moi ».",
+          "de": "Und es wird berichtet, dass man, wenn man es nimmt, sagt: 'Im Namen Allahs. O Allah! Bei dem Recht dieses Staubes, und bei dem Recht des gereinigten Ortes, und bei dem Recht des Nachfolgenden, der (begraben) ist, und bei dem Recht seines Großvaters, und seines Vaters, und seiner Mutter, und seines Bruders, und der Engel, die ihn umgeben, und der Engel, die auf dem Grab deines Beschützers warten, um ihm zu helfen, möge Allah sie alle segnen. Schaffe mir darin Heilung von jeder Krankheit, und Sicherheit vor jeder Furcht, und Ehre vor jeder Schande, und weite mir meinen Unterhalt, und richte meinen Körper für mich.'",
+          "ru": "И сообщается, что когда вы берёте её, говорите: «Во имя Аллаха. О Аллах! По праву этой земли, по праву очищенного места, по праву преемника, который погребён (покоится), и по праву его деда, и его отца, и его матери, и его брата, и ангелов, которые окружают его, и ангелов, посвящённых могиле твоего Повелителя, в ожидании, чтобы помочь ему, да благословит их всех Аллах. Дай мне исцеление от каждой болезни, и защиту от каждого страха, и честь от каждого позора, и расширь мою пропитание, и исправь моё тело для меня».",
+          "zh": "据传，当你取土时，应说：'奉真主之名。真主啊！借这尘土的权利，借洁净之地方的权利，借被掩埋的继承人的权利，借他的祖父、父亲、母亲、兄弟的权利，借环绕他的天使的权利，以及那些忠于你的监护人之墓、等候着协助他的天使的权利（愿真主赐福他们全体）。求真主使我从中治愈一切疾病，获得一切恐惧中的安宁，摆脱一切耻辱中的尊荣，并为我扩充给养，使我身体康健。'"
+        },
+        "word_start": 23,
+        "word_end": 84
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In Shia tradition, this ritual highlights the spiritual potency of Turbah (clay) from Imam Al-Husayn’s grave in Karbala, serving as a tangible medium for connecting with the Ahl al-Bayt. The supplication integrates the concept of 'Haqq' (right/authority) of the Prophet’s family and the attendant angels, linking the physical act of taking clay with metaphysical blessings of healing, protection, and sustenance.",
+        "seo_question": "What is the recommended supplication and Quranic recitation for using the clay of Imam Al-Husayn's grave?",
+        "key_terms": {
+          "الْخَتْمُ": "Sealing",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "Clay of the grave of Al-Husayn",
+          "إِنَّا أَنْزَلْنَاهُ": "We have indeed revealed it (referring to the Quran)",
+          "لَيْلَةِ الْقَدْرِ": "The Night of Predestination",
+          "الْوَصِيِّ": "The Successor",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "The purified spot",
+          "الْعُكُوفِ": "Devoted/Abiding",
+          "شِفَاءً": "Healing"
+        }
+      },
+      "ur": {
+        "summary": "شیعہ روایت میں، یہ رسم کربلا میں امام الحسینؑ کے مزار سے ترہ (مٹی) کی روحانی قوت کو اجاگر کرتی ہے، جو اہل بیت سے جڑنے کے لیے ایک ملموس ذریعہ کے طور پر کام کرتی ہے۔ دعا میں نبی کی آل کے اور ان کے ساتھ موجود فرشتوں کے 'حق' کا تصور شامل ہے، جس سے مٹی لینے کی جسمانی عمل کو شفا، حفاظت اور رزق کی ماورائی برکتوں سے جوڑا گیا ہے۔",
+        "seo_question": "امام الحسینؑ کے مزار کی مٹی استعمال کرنے کے لیے مستحب دعا اور قرآنی تلاوت کیا ہے؟",
+        "key_terms": {
+          "الْخَتْمُ": "مہر لگانا",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "مزارِ حسین کی مٹی",
+          "إِنَّا أَنْزَلْنَاهُ": "ہم نے اسے نازل کیا",
+          "لَيْلَةِ الْقَدْرِ": "راتِ قدر",
+          "الْوَصِيِّ": "وصی",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "پاک جگہ",
+          "الْعُكُوفِ": "مجاہد/قائم رہنا",
+          "شِفَاءً": "شفا"
+        }
+      },
+      "tr": {
+        "summary": "Şii geleneğinde bu ritüel, Kerbela'daki İmam Hüseyin'in mezarından alınan Turbah'nın (kil) manevi gücünü vurgular ve Ehl-i Beyt ile bağlantı kurmak için somut bir araç olarak hizmet eder. Dua, Peygamber'in ailesinin ve onlarla ilişkili meleklerin 'Haqq' (hak/yetki) kavramını entegre eder, kilin alınması fiilini şifa, koruma ve rızık gibi metafizik bereketlerle ilişkilendirir.",
+        "seo_question": "İmam Hüseyin'in mezarının kilini kullanmak için önerilen dua ve Kur'an okuması nedir?",
+        "key_terms": {
+          "الْخَتْمُ": "Mühürleme",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "Hüseyin'in mezarının kilı",
+          "إِنَّا أَنْزَلْنَاهُ": "Biz onu gerçekten indirdik",
+          "لَيْلَةِ الْقَدْرِ": "Kadir Gecesi",
+          "الْوَصِيِّ": "Veli",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "Temizlenen yer",
+          "الْعُكُوفِ": "İbadet/İkamet",
+          "شِفَاءً": "Şifa"
+        }
+      },
+      "fa": {
+        "summary": "در سنت شیعه، این ritual بر قدرت معنوی تربت (خاک) از قبر امام حسین در کربلا تأکید دارد و به عنوان یک وسیله ملموس برای ارتباط با اهل بیت عمل می‌کند. این دعا مفهوم حق (حقوق/سلطنت) خاندان پیامبر و فرشتگان همراه را ادغام می‌کند و عمل فیزیکی گرفتن خاک را با برکات متافیزیکی شفا، حفاظت و روزی پیوند می‌زند.",
+        "seo_question": "دعای توصیه شده و تلاوت قرآنی برای استفاده از خاک قبر امام حسین چیست؟",
+        "key_terms": {
+          "الْخَتْمُ": "مُهر زدن",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "خاک قبر حسین",
+          "إِنَّا أَنْزَلْنَاهُ": "ما آن را نازل کردیم",
+          "لَيْلَةِ الْقَدْرِ": "شب قدر",
+          "الْوَصِيِّ": "جانشین",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "مکان پاک",
+          "الْعُكُوفِ": "معتکف/ثابت‌قدم",
+          "شِفَاءً": "شفا"
+        }
+      },
+      "id": {
+        "summary": "Dalam tradisi Syiah, ritual ini menyoroti kekuatan spiritual Turbah (tanah liat) dari makam Imam Al-Husayn di Karbala, yang berfungsi sebagai media nyata untuk terhubung dengan Ahl al-Bayt. Doa ini mengintegrasikan konsep 'Haqq' (hak/otoritas) keluarga Nabi dan malaikat yang menyertainya, menghubungkan tindakan fisik mengambil tanah liat dengan berkah metafisik penyembuhan, perlindungan, dan rezeki.",
+        "seo_question": "Apa doa dan bacaan Al-Quran yang direkomendasikan untuk menggunakan tanah liat dari makam Imam Al-Husayn?",
+        "key_terms": {
+          "الْخَتْمُ": "Penyegelan",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "Tanah liat dari makam Al-Husayn",
+          "إِنَّا أَنْزَلْنَاهُ": "Kami sungguh telah menurunkannya",
+          "لَيْلَةِ الْقَدْرِ": "Malam Qadar",
+          "الْوَصِيِّ": "Penerus",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "Tempat yang suci",
+          "الْعُكُوفِ": "Tetap/berdiam",
+          "شِفَاءً": "Penyembuhan"
+        }
+      },
+      "bn": {
+        "summary": "শিয়া ঐতিহ্যে, এই রীতিটি কারবালার ইমাম আল-হুসাইনের কবরের মাটি (তুরবা) এর আধ্যাত্মিক শক্তিকে তুলে ধরে, যা আহল আল-বাইতের সাথে সংযুক্ত হওয়ার একটি স্পর্শযোগ্য মাধ্যম হিসেবে কাজ করে। এই দোয়ায় নবীর পরিবার এবং তাদের সাথে সংযুক্ত ফেরেশতাদের 'হক্ক' (অধিকার/প্রাধান্য) এর ধারণা অন্তর্ভুক্ত রয়েছে, যা মাটি নেওয়ার শারীরিক কাজকে চিকিৎসা, সুরক্ষা এবং রিযিকের আধ্যাত্মিক আশীর্বাদগুলোর সাথে যুক্ত করে।",
+        "seo_question": "ইমাম আল-হুসাইনের কবরের মাটি ব্যবহারের জন্য সুপারিশকৃত দোয়া এবং কুরআনিক তিলাওয়াত কী?",
+        "key_terms": {
+          "الْخَتْمُ": "মুহরবদ্ধকরণ",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "হুসাইনের কবরের মাটি",
+          "إِنَّا أَنْزَلْنَاهُ": "আমরা অবশ্যই এটি অবতীর্ণ করেছি",
+          "لَيْلَةِ الْقَدْرِ": "নিয়তির রাত",
+          "الْوَصِيِّ": "উত্তরাধিকারী",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "পবিত্র স্থান",
+          "الْعُكُوفِ": "নিবেদিত/অবস্থানকারী",
+          "شِفَاءً": "চিকিৎসা"
+        }
+      },
+      "es": {
+        "summary": "En la tradición chií, este ritual destaca la potencia espiritual de la Turbah (arcilla) de la tumba del Imam Al-Husayn en Karbala, sirviendo como un medio tangible para conectar con los Ahl al-Bayt. La súplica integra el concepto de 'Haqq' (derecho/autoridad) de la familia del Profeta y los ángeles asistentes, vinculando el acto físico de tomar arcilla con las bendiciones metafísicas de sanación, protección y sustento.",
+        "seo_question": "¿Cuál es la súplica recomendada y la recitación coránica para usar la arcilla de la tumba del Imam Al-Husayn?",
+        "key_terms": {
+          "الْخَتْمُ": "Sellar",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "Arcilla de la tumba de Al-Husayn",
+          "إِنَّا أَنْزَلْنَاهُ": "Hemos revelado ciertamente",
+          "لَيْلَةِ الْقَدْرِ": "La Noche del Destino",
+          "الْوَصِيِّ": "El Sucesor",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "El lugar purificado",
+          "الْعُكُوفِ": "Devoto/Permanente",
+          "شِفَاءً": "Sanación"
+        }
+      },
+      "fr": {
+        "summary": "Dans la tradition chiite, ce rituel met en valeur la puissance spirituelle de la Turbah (argile) provenant de la tombe de l'Imam Al-Husayn à Karbala, servant de support tangible pour se connecter aux Ahl al-Bayt. La supplication intègre le concept de 'Haqq' (droit/autorité) de la famille du Prophète et des anges qui l'accompagnent, reliant l'acte physique de prendre l'argile aux bénédictions métaphysiques de guérison, de protection et de subsistance.",
+        "seo_question": "Quelle est la supplication et la récitation coranique recommandées pour utiliser l'argile de la tombe de l'Imam Al-Husayn ?",
+        "key_terms": {
+          "الْخَتْمُ": "Sceau",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "Argile de la tombe d'Al-Husayn",
+          "إِنَّا أَنْزَلْنَاهُ": "Nous l'avons certes fait descendre",
+          "لَيْلَةِ الْقَدْرِ": "La Nuit du Destin",
+          "الْوَصِيِّ": "Le Successeur",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "L'endroit purifié",
+          "الْعُكُوفِ": "Dévotion / Séjour",
+          "شِفَاءً": "Guérison"
+        }
+      },
+      "de": {
+        "summary": "In der schiitischen Tradition hebt dieses Ritual die spirituelle Kraft der Turbah (Lehm) vom Grab Imam Al-Husayns in Karbala hervor und dient als greifbares Medium zur Verbindung mit den Ahl al-Bayt. Die Supplik integriert das Konzept des 'Haqq' (Recht/Authority) der Familie des Propheten und der begleitenden Engel, wodurch die physische Handlung des Nehmens von Lehm mit metaphysischen Segnungen für Heilung, Schutz und Versorgung verknüpft wird.",
+        "seo_question": "Welches ist die empfohlene Supplik und der koranische Rezitationstext für die Verwendung des Lehms vom Grab Imam Al-Husayns?",
+        "key_terms": {
+          "الْخَتْمُ": "Versiegelung",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "Lehm des Grabes von Al-Husayn",
+          "إِنَّا أَنْزَلْنَاهُ": "Wir haben es wahrlich offenbart",
+          "لَيْلَةِ الْقَدْرِ": "Die Nacht der Bestimmung",
+          "الْوَصِيِّ": "Der Nachfolger",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "Die gereinigte Stätte",
+          "الْعُكُوفِ": "Andächtig/Verweilend",
+          "شِفَاءً": "Heilung"
+        }
+      },
+      "ru": {
+        "summary": "В шиитской традиции этот ритуал подчеркивает духовную силу турбы (глины) с могилы имама аль-Хусейна в Карбале, служа осязаемым средством связи с Ахль аль-Байт. Мольба интегрирует концепцию «хаqq» (права/власти) семьи Пророка и сопутствующих ангелов, связывая физический акт взятия глины с метафизическими благословениями исцеления, защиты и пропитания.",
+        "seo_question": "Какова рекомендуемая мольба и чтение Корана при использовании глины с могилы имама аль-Хусейна?",
+        "key_terms": {
+          "الْخَتْمُ": "Печать",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "Глина могилы аль-Хусейна",
+          "إِنَّا أَنْزَلْنَاهُ": "Воистину, Мы ниспослали его",
+          "لَيْلَةِ الْقَدْرِ": "Ночь предопределения",
+          "الْوَصِيِّ": "Преемник",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "Очищенное место",
+          "الْعُكُوفِ": "Пребывание",
+          "شِفَاءً": "Исцеление"
+        }
+      },
+      "zh": {
+        "summary": "在什叶派传统中，这一仪式突显了来自卡尔巴拉伊玛目侯赛因墓地的土（Turbah）的精神力量，作为与圣裔（Ahl al-Bayt）建立联系的有形媒介。祈祷文融合了先知家族及其随行天使的‘权利’（Haqq）概念，将取土的物理行为与治愈、保护和供养的形而上祝福联系起来。",
+        "seo_question": "使用伊玛目侯赛因墓地泥土的推荐祈祷文和古兰经诵读是什么？",
+        "key_terms": {
+          "الْخَتْمُ": "封印",
+          "طِينِ قَبْرِ الْحُسَيْنِ": "侯赛因墓地的泥土",
+          "إِنَّا أَنْزَلْنَاهُ": "我确已降示它",
+          "لَيْلَةِ الْقَدْرِ": "高贵之夜",
+          "الْوَصِيِّ": "继任者",
+          "الْبُقْعَةِ الطَّيِّبَةِ": "洁净之地",
+          "الْعُكُوفِ": "专注/居住",
+          "شِفَاءً": "治愈"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "97:1",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "36:12",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:10",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ مُحَمَّدٍ رَفَعَهُ قَالَ قَالَ الْخَتْمُ عَلَى طِينِ قَبْرِ الْحُسَيْنِ ( عليه السلام ) أَنْ يُقْرَأَ عَلَيْهِ إِنَّا أَنْزَلْنَاهُاهُ فِي لَيْلَةِ الْقَدْرِ وَرُوِيَ إِذَا أَخَذْتَهُ فَقُلْ بِسْمِ اللَّهِ اللَّهُمَّ بِحَقِّ هَذِهِ التُّرْبَةِ الطَّاهِرَةِ وَبِحَقِّ الْبُقْعَةِ الطَّيِّبَةِ وَبِحَقِّ الْوَصِيِّ الَّذِي تُوَارِيهِ وَبِحَقِّ جَدِّهِ وَأَبِيهِ وَأُمِّهِ وَأَخِيهِ وَالْمَلَائِكَةِ الَّذِينَ يَحُفُّونَ بِهِ وَالْمَلَائِكَةِ الْعُكُوفِ عَلَى قَبْرِ وَلِيِّكَ يَنْتَظِرُونَ نَصْرَهُ صَلَّى اللَّهُ عَلَيْهِمْ أَجْمَعِينَ اجْعَلْ لِي فِيهِ شِفَاءً مِنْ كُلِّ دَاءٍ وَأَمَاناً مِنْ كُلِّ خَوْفٍ وَعِزّاً مِنْ كُلِّ ذُلٍّ وَأَوْسِعْ بِهِ عَلَيَّ فِي رِزْقِي وَأَصِحَّ بِهِ جِسْمِي",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ مُحَمَّدٍ رَفَعَهُ قَالَ",
+      "matn_ar": "قَالَ الْخَتْمُ عَلَى طِينِ قَبْرِ الْحُسَيْنِ ( عليه السلام ) أَنْ يُقْرَأَ عَلَيْهِ إِنَّا أَنْزَلْنَاهُاهُ فِي لَيْلَةِ الْقَدْرِ وَرُوِيَ إِذَا أَخَذْتَهُ فَقُلْ بِسْمِ اللَّهِ اللَّهُمَّ بِحَقِّ هَذِهِ التُّرْبَةِ الطَّاهِرَةِ وَبِحَقِّ الْبُقْعَةِ الطَّيِّبَةِ وَبِحَقِّ الْوَصِيِّ الَّذِي تُوَارِيهِ وَبِحَقِّ جَدِّهِ وَأَبِيهِ وَأُمِّهِ وَأَخِيهِ وَالْمَلَائِكَةِ الَّذِينَ يَحُفُّونَ بِهِ وَالْمَلَائِكَةِ الْعُكُوفِ عَلَى قَبْرِ وَلِيِّكَ يَنْتَظِرُونَ نَصْرَهُ صَلَّى اللَّهُ عَلَيْهِمْ أَجْمَعِينَ اجْعَلْ لِي فِيهِ شِفَاءً مِنْ كُلِّ دَاءٍ وَأَمَاناً مِنْ كُلِّ خَوْفٍ وَعِزّاً مِنْ كُلِّ ذُلٍّ وَأَوْسِعْ بِهِ عَلَيَّ فِي رِزْقِي وَأَصِحَّ بِهِ جِسْمِي",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "علي بن محمد",
+          "name_en": "Ali ibn Muhammad",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 35
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

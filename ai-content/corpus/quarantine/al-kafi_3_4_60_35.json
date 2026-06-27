@@ -1,0 +1,289 @@
+{
+  "verse_path": "/books/al-kafi:3:4:60:35",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'صلى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وآله' has no diacritics (must be fully diacritized)",
+    "chunks[2] type='closing' starts with chain transmission verb 'روي' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "social_relations",
+      "worship",
+      "jurisprudence"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "prayer_rulings",
+      "etiquette",
+      "halal_haram"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ",
+        "translations": {
+          "en": "Ali, from his father, from Al-Nawfali, from Al-Sakuni, from Abu Abdullah (peace be upon him), who said:",
+          "ur": "علیؑ، اپنے والد سے، النوفلی سے، السکونی سے، ابو عبداللہؑ سے روایت ہے کہ انہوں نے فرمایا:",
+          "tr": "Ali, babasından, en-Nevfali'den, es-Sakuni'den, Ebu Abdullah (aleyhisselam)'dan, şöyle dedi: Peygamber (sallallahu aleyhi ve alihi) şöyle buyurdu: Adamın elinde demir yüzükken namaz kılması caiz değildir. Anahtar kılıfta ise sakınca yoktur.",
+          "fa": "علی از پدرش را از نوفلی از سکونی از ابوعبدالله (علیه السلام) روایت کرده است که فرمود:",
+          "id": "Ali, dari ayahnya, dari An-Nawfali, dari As-Sakuni, dari Abu Abdullah (alam Abdullah (alamah), yang berkata:",
+          "bn": "আলী, তাঁর পিতার নিকট হতে, আল-নওফালীর নিকট হতে, আল-সাকুনীর নিকট হতে, আবু আবদুল্লাহ (আলাইহিস সালাম)-এর নিকট হতে, যিনি বলেন:",
+          "es": "Ali, de su padre, de Al-Nawfali, de Al-Sakuni, de Abu Abdullah (que la paz sea con él), quien dijo:",
+          "fr": "Ali, de son père, d'Al-Nawfali, d'Al-Sakuni, d'Abou Abdullah (que la paix soit sur lui), qui a dit :",
+          "de": "Ali, von Ali, von seinem Vater, von Al-Nawfali, von Al-Sakuni, von Abu Abdullah (Friede sei mit ihm), der sagte:",
+          "ru": "Али, от его отца, от ан-Науфали, от ас-Сакуни, от Абу Абдуллаха (да будет мир с ним), который сказал:",
+          "zh": "阿里传自其父，传自诺法利，传自萨库尼，传自阿卜杜拉（愿主安宁之），他说："
+        },
+        "word_start": 0,
+        "word_end": 16
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ رَسُولُ اللَّهِ ( صلى الله عليه وآله ) لَا يُصَلِّ الرَّجُلُ وَ فِي يَدِهِ خَاتَمُ حَدِيدٍ .",
+        "translations": {
+          "en": "Rasool-Allah (peace be upon him and his family) said: 'A man should not pray while an iron ring is in his hand.'",
+          "ur": "رسول اللہ (صلی اللہ علیہ و آلہ وسلم) نے فرمایا: ''ایک آدمی کو چاہیے کہ وہ اس وقت تک نماز نہ پڑھے جب تک کہ اس کے ہاتھ میں لوہے کی انگوٹھی نہ ہو۔''",
+          "tr": "Rasûlullah (aleyhisselâm ve âlihi ve eshâbi) buyurdu: 'Bir adam, elinde demir yüzük varken namaz kılmamalıdır.'",
+          "fa": "رسول‌ول‌الله (صلی‌الله‌علیه‌وآله‌وسلم) فرمود: «مردی نباید در حالی که حلقه‌ای از آهن در دست دارد نماز بخواند.»",
+          "id": "Rasulullah (shalat dan salam atas beliau dan keluarganya) bersabda: 'Seorang pria tidak boleh shalat ketika ada cincin besi di tangannya.'",
+          "bn": "রাসুলুল্লাহ (আলাইহি ওয়া আলেহি সাল্লাম) বলেছেন: 'একজন মানুষের হাতে লোহার আংটি থাকাকালীন নামাজ পড়া উচিত নয়।'",
+          "es": "Dijo el Rasool-Allah (que la paz sea con él y con su familia): 'No debe orar un hombre mientras tiene un anillo de hierro en la mano.'",
+          "fr": "Le Messager d'Allah (que la paix soit sur lui et sur sa famille) a dit : « Qu'un homme ne prie pas alors qu'il a une bague de fer à la main. »",
+          "de": "Der Gesandte Allahs (Friede sei mit ihm und seiner Familie) sagte: 'Ein Mann soll nicht beten, während er einen Eisenring in der Hand hält.'",
+          "ru": "Посланник Аллаха (мир ему и его семье) сказал: «Не следует человеку молиться, когда в его руке железное кольцо».",
+          "zh": "真主的使者（愿主福安之及其家属）说：\"人不应手持铁环祈祷。\""
+        },
+        "word_start": 16,
+        "word_end": 34
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَرُوِيَ إِذَا كَانَ الْمِفْتَاحُ فِي غِلَافٍ فَلَا بَأْسَ .",
+        "translations": {
+          "en": "And it is reported: 'If the key is in a wrapping, there is no problem.'",
+          "ur": "اور روایت ہے کہ: 'اگر چابی پٹی میں ہو تو کوئی حرج نہیں۔'",
+          "tr": "Ve şöyle denilmiştir: 'Anahtar bir sargı içindeyse, bir sakınca yoktur.'",
+          "fa": "و روایت شده است: «اگر کلید در بسته‌ای باشد، اشکالی ندارد.»",
+          "id": "Dan telah diriwayatkan: \"Jika kuncinya berada dalam pembungkus, tidak ada masalah.\"",
+          "bn": "এবং এটি বর্ণিত হয়েছে: 'যদি চাবি কোনো মোড়কে থাকে, তবে কোনো সমস্যা নেই।'",
+          "es": "Y se ha transmitido: \"Si la llave está en un envoltorio, no hay ningún problema.\"",
+          "fr": "Et il est rapporté : « Si la clé est dans un emballage, il n'y a pas de problème. »",
+          "de": "Und es ist überliefert: „Wenn der Schlüssel in einer Umhüllung ist, gibt es kein Problem.“",
+          "ru": "И сообщается: «Если ключ находится в обёртке, то нет проблемы».",
+          "zh": "且据传：\"若钥匙若在包裹中，则无妨。\""
+        },
+        "word_start": 34,
+        "word_end": 43
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from *Al-Kafi* highlights the Shia juristic principle of *khushu'* (focus) in prayer, where physical distractions like an exposed iron ring are prohibited to prevent *lahw* (heedlessness). The exception for keys enclosed in a covering illustrates the legal nuance that containment neutralizes the distracting element, a distinction often debated in *usul al-fiqh* regarding the definition of 'holding' versus 'wearing' during ritual prayer.",
+        "seo_question": "What is the ruling on praying with a ring or key in hand according to Shia hadith?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "Iron ring",
+          "الْمِفْتَاحُ": "The key",
+          "غِلَافٍ": "Wrapping/Covering",
+          "فَلَا بَأْسَ": "There is no problem/It is permissible"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدث الکافی سے ہے جو نماز میں خشوع (توجہ) کے شیعہ فقہی اصول کو اجاگر کرتی ہے، جہاں کھلی ہوئی لوہے کی انگوٹھی جیسی جسمانی رکاوٹیں لہو (غفلت) سے بچنے کے لیے منع ہیں۔ انگوٹھی کے ڈھکنے میں ہونے کی استثنا یہ قانونی باریکی کو ظاہر کرتی ہے کہ احتباس رکاوٹ والے عنصر کو غیر مؤثر بنا دیتا ہے، یہ تمیز اصول الفقہ میں رسم نماز کے دوران 'پکڑنا' بمقابلہ 'پہننا' کی تعریف کے بارے میں اکثر بحث کا موضوع رہی ہے۔",
+        "seo_question": "شیعہ حدث کے مطابق ہاتھ میں انگوٹھی یا چابی رکھ کر نماز پڑھنے کا حکم کیا ہے؟",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "لوہے کی انگوٹھی",
+          "الْمِفْتَاحُ": "چابی",
+          "غِلَافٍ": "ڈھکنہ/پوشاک",
+          "فَلَا بَأْسَ": "کوئی حرج نہیں/جائز ہے"
+        }
+      },
+      "tr": {
+        "summary": "Bu *el-Kafi* hadisi, fiziksel rahatsızlıkların (örneğin çıplak bir demir yüzüğün) *lahv* (gaflet) yaratmaması için namazda *huşu* (odaklanma) ilkesini vurgular. Anahtarın bir kaplama içinde olması istisnası, içeriğin rahatsız edici unsuru nötr hale getirdiğini gösteren hukuki nüansı örnekler; bu ayrım, ritüel namazda 'tutma' ile 'giyme' tanımına ilişkin *usulülfıkıh* tartışmalarında sıkça ele alınır.",
+        "seo_question": "Şii hadislerine göre elinde yüzük veya anahtar ile namaz kılmanın hükmü nedir?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "Demir yüzük",
+          "الْمِفْتَاحُ": "Anahtar",
+          "غِلَافٍ": "Kaplama",
+          "فَلَا بَأْسَ": "Bir sakınca yoktur"
+        }
+      },
+      "fa": {
+        "summary": "این حدith از الکافی بر اصل فقهی شیعه یعنی خشوع در نماست که در آن، حواس‌پرتی‌های فیزیکی مانند حلقه آهنی برای جلوگیری از لهو (غفلت) ممنوع است. استثنا برای کلیدی که در پوشش قرار دارد، نشان‌دهنده ظرافت حقوقی است که در آن، محصور بودن عنصر حواس‌پرتی را خنثی می‌کند؛ تمایزی که اغلب در اصول فقه درباره تعریف «گرفتن» در مقابل «پوشیدن» در حین نما ritual مورد بحث قرار می‌گیرد.",
+        "seo_question": "حکم نماز خواندن با حلقه یا کلید در دست طبق حدith شیعه چیست؟",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "حلقه آهنی",
+          "الْمِفْتَاحُ": "کلید",
+          "غِلَافٍ": "پوشش",
+          "فَلَا بَأْسَ": "اشکالی نیست"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari *Al-Kafi* ini dari *Al-Kafi* menyoroti prinsip fikih Syiah mengenai *khushu'* (khusyuk) dalam shalat, di mana gangguan fisik seperti cincin besi yang terbuka dilarang untuk mencegah *lahw* (lupa). Pengecualian bagi kunci yang tertutup dalam sarungnya menunjukkan nuansa hukum bahwa pembungkusan menetralkan unsur pengganggu, sebuah pembedaan yang sering diperdebatkan dalam *usul al-fiqh* mengenai definisi 'memegang' versus 'memakai' selama shalat ritual.",
+        "seo_question": "Apa hukum shalat dengan cincin atau kunci di tangan menurut hadis Syiah?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "cincin besi",
+          "الْمِفْتَاحُ": "kunci",
+          "غِلَافٍ": "sarung/pembungkus",
+          "فَلَا بَأْسَ": "tidak mengapa/mubah"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে আল-কাফি থেকে শিয়া ফিকহের খুশু (মনোযোগ) নীতিটি তুলে ধরা হয়েছে, যেখানে প্রকাশ্য লোহা আংটি বা চাবি মতো শারীরিক বিচ্ছিন্নতা নিষিদ্ধ যাতে লাহ্ব (অবহেলা) না হয়। আবরণে রাখা চাবির ব্যতিক্রম আইনি সূক্ষ্মতা দেখায় যে আবরণ বিচ্ছিন্নকারী উপাদানকে নিষ্ক্রিয় করে, যা উসুল আল-ফিকহে নামাজের সময় 'ধারণ' বনাম 'পরা' এর সংজ্ঞা নিয়ে বিতর্কের বিষয়।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী হাতে আংটি বা চাবি নিয়ে নামাজ পড়ার হুকুম কী?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "লোহা আংটি",
+          "الْمِفْتَاحُ": "চাবি",
+          "غِلَافٍ": "আবরণ",
+          "فَلَا بَأْسَ": "কোনো সমস্যা নেই/এটি জায়েজ"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz hadiz de *Al-Kafi* destaca el principio jurístico chií de *jushú* (concentración) en la oración, donde las distracciones físicas como un anillo de hierro expuesto están prohibidas para evitar la *lahw* (descuido). La excepción para las llaves encerradas en una cubierta ilustra la sutileza legal de que el contenido neutraliza el elemento distractivo, una distinción a menudo debatida en *usul al-fiqh* respecto a la definición de 'sostener' versus 'llevar puesto' durante la oración ritual.",
+        "seo_question": "¿Cuál es la regla de orar con un anillo o llave en la mano según el hadiz chií?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "anillo de hierro",
+          "الْمِفْتَاحُ": "la llave",
+          "غِلَافٍ": "cubierta/envoltorio",
+          "فَلَا بَأْسَ": "no hay problema/está permitido"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith d'*Al-Kafi* met en lumière le principe jurisprudentiel chiite du *khushu'* (concentration) dans la prière, où les distractions physiques comme une bague de fer exposée sont interdites pour prévenir le *lahw* (insouciance). L'exception concernant les clés enfermées dans un étui illustre la nuance juridique selon laquelle le confinement neutralise l'élément distracteur, une distinction souvent débattue dans l'*usul al-fiqh* concernant la définition du 'port' par rapport au 'tenue' pendant la prière rituelle.",
+        "seo_question": "Quelle est la règle de prier avec une bague ou une clé à la main selon le hadith chiite ?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "bague de fer",
+          "الْمِفْتَاحُ": "la clé",
+          "غِلَافٍ": "étui/recouvrement",
+          "فَلَا بَأْسَ": "il n'y a pas de mal/c'est permis"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus *Al-Kafi* hebt das schiitische juristische Prinzip der *Khushu* (Andachtsvollständigkeit) im Gebet hervor, wobei körperliche Ablenkungen wie ein freiliegender Eisenring verboten sind, um *Lahw* (Unachtsamkeit) zu vermeiden. Die Ausnahme für Schlüssel in einer Hülle veranschaulicht die rechtliche Nuance, dass die Einschließung das ablenkende Element neutralisiert, eine Unterscheidung, die in der *Usul al-Fiqh* häufig bezüglich der Definition von 'Tragen' versus 'Halten' während des rituellen Gebets debattiert wird.",
+        "seo_question": "Was ist das Urteil über das Beten mit einem Ring oder Schlüssel in der Hand gemäß schiitischem Hadith?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "Eisenring",
+          "الْمِفْتَاحُ": "Der Schlüssel",
+          "غِلَافٍ": "Hülle/Umhüllung",
+          "فَلَا بَأْسَ": "Es ist kein Problem/Es ist erlaubt"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из «аль-Кафи» подчеркивает шиитский юридический принцип хушу (сосредоточенности) в молитве, при котором физические отвлекающие факторы, такие как обнаженное железное кольцо, запрещены во избежание лехв (небрежности). Исключение для ключей, заключенных в покрытие, иллюстрирует юридический нюанс, согласно которому содержание нейтрализует отвлекающий элемент; это различие часто обсуждается в усул аль-фикх относительно определения «удержания» versus «ношения» во время ритуальной молитвы.",
+        "seo_question": "Каково правило молитвы с кольцом или ключом в руке согласно шиитскому хадису?",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "Железное кольцо",
+          "الْمِفْتَاحُ": "Ключ",
+          "غِلَافٍ": "Покрытие",
+          "فَلَا بَأْسَ": "Нет проблемы/Это дозволено"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《卡米圣训集的圣训强调了什叶派法学中礼拜时的专注（khushu'）原则，指出如暴露的铁环等身体上的分散注意力之物是被禁止的，以防止分心（lahw）。将钥匙包裹在覆盖物中的例外情况说明了法律上的细微差别，即 containment 能消除分散注意力的因素，这一区别在关于礼拜时“持有”与“佩戴”定义的教法原理（usul al-fiqh）讨论中常被辩论。",
+        "seo_question": "根据什叶派圣训，手持戒指或钥匙礼拜的裁决是什么？",
+        "key_terms": {
+          "خَاتَمُ حَدِيدٍ": "铁环",
+          "الْمِفْتَاحُ": "钥匙",
+          "غِلَافٍ": "包裹/覆盖物",
+          "فَلَا بَأْسَ": "无妨/ permissible"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:205",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:62",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيٌّ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ قَالَ رَسُولُ اللَّهِ ( صلى الله عليه وآله ) لَا يُصَلِّ الرَّجُلُ وَ فِي يَدِهِ خَاتَمُ حَدِيدٍ . وَرُوِيَ إِذَا كَانَ الْمِفْتَاحُ فِي غِلَافٍ فَلَا بَأْسَ .",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيٌّ عَنْ أَبِيهِ عَنِ النَّوْفَلِيِّ عَنِ السَّكُونِيِّ عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) قَالَ",
+      "matn_ar": "قَالَ رَسُولُ اللَّهِ ( صلى الله عليه وآله ) لَا يُصَلِّ الرَّجُلُ وَ فِي يَدِهِ خَاتَمُ حَدِيدٍ . وَرُوِيَ إِذَا كَانَ الْمِفْتَاحُ فِي غِلَافٍ فَلَا بَأْسَ .",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيٌّ",
+          "name_en": "Ali",
+          "role": "imam",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 50
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "النَّوْفَلِيِّ",
+          "name_en": "al-Nawfali",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 32
+        },
+        {
+          "name_ar": "السَّكُونِيِّ",
+          "name_en": "Al-Sakuni",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 34
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+        "phrase_en": "The Messenger of Allah said",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

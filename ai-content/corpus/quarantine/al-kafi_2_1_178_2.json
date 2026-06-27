@@ -1,0 +1,398 @@
+{
+  "verse_path": "/books/al-kafi:2:1:178:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.fa is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[0] en translation length out of bounds: 3 en words vs 25 ar words (ratio=0.12, expected 10.0-100.0)",
+    "chunks[4] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[4] word 'لا' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "quran_commentary",
+      "afterlife"
+    ],
+    "content_type": "quranic_commentary",
+    "topics": [
+      "quran_interpretation_method",
+      "tawhid",
+      "imams_biography",
+      "paradise_hell"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ مُوسَى بْنِ بَكْرٍ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَام ) قَالَ",
+        "translations": {
+          "en": "Muhammad_ibn_yahya_from_ahmad_ibn_muhammad_from_ali_ibn_al_hakam_from_musa_ibn_bakr_from_zurara_from_abu_jaafar_(peace_be_upon_him)_said:} }, { ",
+          "tr": "Muhemmed ibn Yahya, Ahmed ibn Muhemmed'den, Ali ibn el-Hakam'dan, Musa ibn Bakr'den, Zurara'dan, Ebu Cafer (aleyhisselam)'dan rivayet eder: Ondan, Allah'ın azze ve celle buyurduğu \"Ve insanlardan öyleleri vardır ki, Allah'a harf üzerine kulluk eder\" ayetini sordum. O da şöyle dedi: Onlar, Allah'ı tevhid eden ve Allah'tan başka kulluk edilenlere kulluğu koparan bir topluluktur. Şirkten çıkmışlardır, ancak Muhammed'in (sallallahu aleyhi ve alihi) Allah'ın resulü olduğunu bilmemişlerdir. Onlar, Muhammed (sallallahu aleyhi ve alihi) ve getirdiği şey konusunda şüphe ile Allah'a kulluk ederler. Sonra Allah'ın resulüne gelip dediler ki: \"Biz bakacağız. Eğer mallarımız çoğalırsa ve kendilerimiz ile çocuklarımızda bir iyilik (afiyet) görürsek, onun doğru sözlü ve Allah'ın resulü olduğunu biliriz. Eğer durum böyle olmazsa, yine bakarız.\" Allah'ın azze ve celle buyurduğu: \"Eğer ona bir hayır dokunursa, bununla huzur bulur\" ifadesi, dünyada afiyeti ifade eder. \"Ve eğer ona bir fitne (belâ) dokunursa\", yani nefsi ve malında bir belâ, \"yüzü üzerinde döner\" ifadesi, şüpheye dönüp şirk haline gelmesi anlamındadır. \"Dünyayı ve ahireti kaybetmiştir, işte bu apaçık bir kayıptır.\" \"Allah'tan başka ona ne zarar verebilen ne de fayda sağlayabilen şeylere yalvarır.\" dedi. O da şöyle dedi: Müşrik olarak geri döner, Allah'tan başkasına yalvarır ve O'ndan başkasına kulluk eder. Onlardan öyleleri vardır ki iman kalbine girer, iman eder, tasdik eder ve şüphe makamından iman makamına geçer. Onlardan öyleleri vardır ki şüphesi üzerinde sabit kalır. Onlardan öyleleri vardır ki şirk haline geri döner. Ali ibn İbrahim, Muhemmed ibn İsa'dan, Yunus'tan, bir adamdan, Zurara'dan aynı şekilde rivayet eder.",
+          "id": "Muhammad ibn Yahya dari Ahmad ibn Muhammad dari Ali ibn Al-Hakam dari Musa ibn Bakr dari Zurara dari Abu Ja'far (alaihissalam) berkata: Aku bertanya kepadanya tentang firman Allah Azza wa Jalla: \"Dan di antara manusia ada orang yang beribadah kepada Allah di atas huruf (pondasi tipis)\". Beliau menjawab: \"Mereka adalah kaum yang menegakkan tauhid Allah dan melepaskan diri dari ibadah kepada selain Allah, sehingga mereka keluar dari syirik, namun mereka tidak mengetahui bahwa Muhammad (shallallahu 'alaihi wa alihi) adalah Rasulullah. Maka mereka beribadah kepada Allah dalam keadaan ragu-ragu terhadap Muhammad (shallallahu 'alaihi wa alihi) dan apa yang dibawanya. Kemudian mereka mendatangi Rasulullah (shallallahu 'alaihi wa alihi) dan berkata: 'Kami akan melihat. Jika harta kami banyak dan kami diberi kesehatan pada diri, harta, dan anak-anak kami, maka kami akan mengetahui bahwa beliau benar dan beliau adalah Rasulullah. Dan jika tidak demikian, kami akan melihat.' Allah Azza wa Jalla berfirman: 'Jika ia mendapat kebaikan, ia tenang karenanya,' yaitu kesehatan di dunia. 'Dan jika ia mendapat fitnah,' yaitu bencana pada diri dan hartanya, 'ia berbalik ke wajahnya,' yaitu berbalik dari keraguannya menjadi syirik. 'Rugi dunia dan akhirat,' itulah kerugian yang nyata. 'Mendekatkan kepada selain Allah apa yang tidak memberinya manfaat dan tidak pula mudarat.' Beliau berkata: 'Ia berbalik menjadi musyrik, mendekatkan kepada selain Allah dan beribadah kepada selain-Nya. Maka di antara mereka ada yang mengetahui dan iman masuk ke dalam hatinya, lalu ia beriman dan membenarkan, dan ia berpindah dari kedudukan keraguannya menjadi iman. Dan di antara mereka ada yang tetap pada keraguannya. Dan di antara mereka ada yang berbalik menjadi musyrik.' Ali ibn Ibrahim dari Muhammad ibn Isa dari Yunus dari seorang laki-laki dari Zurara, semisal dengan itu.",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Ali ibn al-Hakam, de Musa ibn Bakr, de Zurara, de Abu Ja'far (que la paz sea con él), dijo: Le pregunté sobre la palabra de Dios, el Exaltado y el Glorioso: «Y entre los hombres hay quien adora a Dios sobre una base incierta». Dijo: «Son un pueblo que unificaron a Dios y despojaron la adoración de quien es adorado aparte de Él, saliendo del politeísmo, pero no conocieron que Muhammad (que la paz sea con él y su familia) es el Mensajero de Dios. Por lo tanto, adoran a Dios con duda respecto a Muhammad (que la paz sea con él y su familia) y a lo que él trajo. Acudieron al Mensajero de Dios (que la paz sea con él y su familia) y dijeron: «Observaremos; si se multiplican nuestras riquezas y somos curados en nuestros cuerpos y en nuestros hijos, sabremos que es veraz y que es el Mensajero de Dios; y si no es así, observaremos». Dijo Dios, el Exaltado y el Glorioso: «Si le alcanza una prosperidad, se apacigua con ella», es decir, salud en la vida mundana; «y si le alcanza una prueba», es decir, aflicción en su persona y en sus bienes, «se vuelve sobre su rostro», es decir, vuelve su duda al politeísmo. «Perdió la vida mundanal y la otra», esa es la pérdida manifiesta. «Invoca a lo largo de Dios lo que no le perjudica ni le beneficia». Dijo: «Se vuelve politeísta, invoca a otro que no sea Dios y adora a otro que no sea Él». De ellos hay quien conoce y entra la fe en su corazón, por lo que cree y da crédito, y se aparta de su posición de duda hacia la fe; y de ellos hay quien permanece en su duda; y de ellos hay quien vuelve al politeísmo. Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus, de un hombre, de Zurara, algo similar.",
+          "fr": "Muhammad ibn Yahya, d'après Ahmad ibn Muhammad, d'après Ali ibn ibn al-Hakam, d'après Musa ibn Bakr, d'après Zurara, d'après Abou Jaafar (que la paix soit sur lui), qui a dit : Je l'ai interrogé au sujet de la parole d'Allah, le Tout-Puissant : « Et parmi les gens, il en est qui adorent Allah sur une base incertaine ». Il a dit : « Ce sont un peuple qui ont unifié Allah et ont rejeté l'adoration de ce qui est adoré en dehors d'Allah, ils sont sortis du polythéisme mais n'ont pas reconnu que Muhammad (que la paix soit sur lui et sa famille) est le Messager d'Allah ; ainsi, ils adorent Allah avec un doute concernant Muhammad (que la paix soit sur lui et sa famille) et ce qu'il a apporté. Ils sont venus au Messager d'Allah (que la paix soit sur lui et sa famille) et ont dit : « Nous allons regarder ; si nos biens se multiplient et si nous sommes épargnés dans nos personnes et nos enfants, nous saurons qu'il est véridique et qu'il est le Messager d'Allah ; et si ce n'est pas le cas, nous regarderons ». Allah, le Tout-Puissant, a dit : « Si le bien le touche, il s'en réjouit », c'est-à-dire la santé dans la vie d'ici-bas ; « Et si une épreuve le touche », c'est-à-dire un châtiment dans sa personne et ses biens, « il se retourne sur sa face », c'est-à-dire qu'il passe de son doute au polythéisme. « Il perd le bien et l'au-delà », c'est-à-dire la perte manifeste. « Il invoque autre qu'Allah ce qui ne lui nuit pas et ne lui profite pas ». Il a dit : « Il redevient polythéiste, il invoque autre qu'Allah et adore autre que Lui. Parmi eux, il en est qui reconnaissent et dont la foi pénètre le cœur, alors ils croient et confirment, et passent de leur position de doute à la foi ; et parmi eux, il en est qui persistent dans leur doute ; et parmi eux, il en est qui redeviennent polythéistes ». Ali ibn Ibrahim, d'après Muhammad ibn Isa, d'après Younès, d'après un homme, d'après Zurara, de manière similaire.",
+          "de": "Muhammad ibn Yahya von Ahmad ibn Muhammad von Ali ibn al-Hakam von Musa ibn Bakr von Zurara von Abu Ja'far (friede sei mit ihm) sagte: Ich fragte ihn über das Wort Allahs, des Erhabenen: »Und unter den Menschen gibt es einen, der Allah anbetet auf einer Kante.« Er sagte: Das sind eine Gruppe von Leuten, die Allah den Einen verehrten und die Anbetung dessen, was neben Allah angebetet wird, abschüttelten, sodass sie aus dem Schirk (Götterei) austraten, aber nicht erkannten, dass Muhammad (Friede sei mit ihm und seiner Familie) der Gesandte Allahs ist. Daher beten sie Allah an in Ungewissheit über Muhammad (Friede sei mit ihm und seiner Familie) und das, was er gebracht hat. Da kamen sie zum Gesandten Allahs (Friede sei mit ihm und seiner Familie) und sagten: Wir werden zusehen; wenn unser Vermehren sich vermehrt und wir in unseren Körpern und Kindern unversehrt bleiben, werden wir wissen, dass er wahrhaftig ist und dass er der Gesandte Allahs ist; und wenn es anders ist, werden wir zusehen. Allah, der Erhabene, sagt: »Wenn ihn ein Wohl ergeht, beruhigt er sich daran« – das bedeutet Gesundheit im Diesseits; »Und wenn ihn eine Prüfung trifft« – das bedeutet eine Plage an seinem Körper und seinem Vermögen, »kehrt er auf seinem Gesicht um« – er kehrt von seiner Ungewissheit zum Schirk zurück; »Er verliert das Diesseits und das Jenseits« – das ist der deutliche Verlust; »Er ruft an statt Allah das, was ihm weder schadet noch nützt«. Er sagte: Er wird zum Polytheisten, der außer Allah anruft und außer Allah anbetet. Und unter ihnen gibt es einen, der es erkennt und der Glaube in sein Herz eindringt, sodass er glaubt und bestätigt und von seiner Stellung der Ungewissheit zur Gewissheit übergeht; und unter ihnen gibt es einen, der auf seiner Ungewissheit beharrt; und unter ihnen gibt es einen, der zum Schirk zurückkehrt. Ali ibn Ibrahim von Muhammad ibn Isa von Yunus von einem Mann von Zurara, wie er.",
+          "ru": "Мухаммад ибн Яхья от Ахмада ибн Мухаммада от Али ибн аль-Хакама от Мусы ибн Бакры от Зурары от Абу Джафара (да будет мир с ним) сказал: «Я спросил его о словах Аллаха, Всевышнего и Великого: „И есть среди людей такие, которые поклоняются Аллаху, стоя на краю (сомнения)“. Он сказал: „Это люди, которые единобожничали Аллаху и отвергли поклонение тому, кому поклоняются помимо Аллаха, поэтому они вышли из ширка, но не узнали, что Мухаммад (да будет мир ему и его роду) — Посланник Аллаха. Поэтому они поклоняются Аллаху, находясь в сомнении относительно Мухаммада (да будет мир ему и его роду) и того, что он принёс. Они пришли к Посланнику Аллаха (да будет мир ему и его роду) и сказали: „Мы посмотрим. Если умножится наше имущество и мы будем здоровы сами, а также наши дети, мы узнаем, что он правдив и что он Посланник Аллаха. А если будет не так, мы посмотрим“. Аллах, Всевышний и Великий, сказал: „Если его постигнет благо, он успокоится им“ — то есть здоровьем в мире сем, „а если его постигнет испытание“ — то есть бедствием в его душе и имуществе, „он обернётся на своём лице“ — он обернётся со своим сомнением в ширк, „потеряет и мир, и загробную жизнь“ — это и есть явное падение. „Он будет звать помимо Аллаха то, что не причинит ему вреда и не принесёт ему пользы“. Он сказал: „Он станет многобожником, зовущим помимо Аллаха и поклоняющимся ему. И среди них есть такие, которые узнают и вера войдёт в их сердце, и они уверуют, и подтвердят, и перейдут от положения сомнения к положению веры. И среди них есть такие, которые останутся при своём сомнении, и среди них есть такие, которые обернутся в ширк“». Али ибн Ибрахим от Мухаммада ибн Иссы от Юнуса от человека от Зурары, подобно этому.",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德，传自阿里·本·哈克姆，传自穆萨·本·巴克尔，传自祖拉勒，传自艾布·贾法尔（愿主安宁），他说：\"我问他关于真主尊贵之言：‘有人以怀疑的态度崇拜真主’（2:120）的含义。他说：\"这是一群人，他们独一崇拜真主，摒弃了崇拜真主之外的人，从而脱离了以物配主，但他们不知道穆罕默德（愿主安宁并赐福于他及他的后裔）是真主的使者，所以他们是以怀疑的态度崇拜真主，怀疑他带来的启示。\"他们来到真主的使者（愿主安宁并赐福于他及他的后裔）面前说：\"让我们观察一下，如果我们的财产增多，我们在自身和子女上得到安康，我们就知道他是诚实的，是真主的使者；如果不是这样，我们再观察。\"真主尊贵之言说：\"如果他遭遇吉庆，他便心安意足\"，意指今世的安康；\"如果他遭遇考验\"，意指他自身和财产上的磨难，\"他便翻来覆去\"，即从怀疑转向以物配主，\"他丧失了今世和后世\"，这就是明显的亏损，\"他呼唤真主之外的人\"，\"不损害他，也不有益他\"。\"他说：\"他变成以物配主者，呼唤真主之外的人，崇拜真主之外的人。\"其中有人认识并让信仰进入心中，于是信仰并确认，从怀疑的地位转向信仰；其中有人坚持怀疑；其中有人转向以物配主。\"阿里·本·易卜拉欣传自穆罕默德·本·伊萨，传自优努斯，传自一人，传自祖拉勒，传述如前。\"",
+          "ur": "",
+          "fa": "",
+          "bn": ""
+        },
+        "word_start": 0,
+        "word_end": 25
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ مِنَ النَّاسِ مَنْ يَعْبُدُ اللَّهَ عَلى حَرْفٍ قَالَ هُمْ قَوْمٌ وَحَّدُوا اللَّهَ وَ خَلَعُوا عِبَادَةَ مَنْ يُعْبَدُ مِنْ دُونِ اللَّهِ فَخَرَجُوا مِنَ الشِّرْكِ وَ لَمْ يَعْرِفُوا أَنَّ مُحَمَّداً ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) رَسُولُ اللَّهِ فَهُمْ يَعْبُدُونَ اللَّهَ عَلَى شَكٍّ فِي مُحَمَّداً ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) وَ مَا جَاءَ بِهِ",
+        "translations": {
+          "en": "I asked him about the Words of Allah, Mighty and Majestic: 'And among men is he who worships Allah superficially.' He said: 'They are a people who affirmed the Oneness of Allah and discarded the worship of those worshipped besides Allah, so they exited from Shirk (polytheism), but did not recognize that Muhammad (peace be upon him and his family) is the Messenger of Allah. Thus, they worship Allah upon doubt regarding Muhammad (peace be upon him and his family) and what he brought.'",
+          "ur": "میں نے ان سے اللہ تعالیٰ کے ارشاد گرامی کے بارے میں پوچھا: 'اور لوگوں میں سے وہ بھی ہے جو اللہ کی عبادت ظاہری طور پر کرتا ہے۔' انہوں نے کہا: 'یہ وہ لوگ ہیں جنہوں نے اللہ کی توحید کی تصدیق کی اور اللہ کے سوا جن کی عبادت کی جاتی تھی ان کی عبادت چھوڑ دی، لہذا وہ شرک سے نکل گئے لیکن یہ نہیں سمجھ سکے کہ محمد (صلی اللہ علیہ وآلہ وسلم) اللہ کے رسول ہیں۔ پس وہ محمد (صلی اللہ علیہ وآلہ وسلم) اور اس کی لائی ہوئی چیزوں کے بارے میں شک کی حالت میں اللہ کی عبادت کرتے ہیں۔'",
+          "tr": "Ben ondan Allah'ın (Cenab-ı Allah'ın) yüce ve azîz sözleri olan 'İnsanlardan Allah'a yüzeysel olarak kulluk eden de vardır' mealindeki ayet hakkında sordum. O da dedi: 'Onlar, Allah'ın birliğini kabul edip Allah'tan başkalarına tapılanlara tapmayı bırakmışlardır; böylece şirkten çıkmışlardır, ancak Muhammed'in (Allah'ın ona ve âline selameti olsun) Allah'ın Rasûlü olduğunu tanımamışlardır. Bu yüzden Muhammed'e (Allah'ın ona ve âline selameti olsun) ve getirdiğine dair şüphe ile birlikte Allah'a kulluk etmişlerdir.'",
+          "fa": "از او درباره کلام خداوند متعال: «و از میان مردم کسی است که خدا را به صورت ظاهری می‌پرستد» پرسیدم. گفت: «مردمی هستند که یگانگی خدا را تصدیق کردند و پرستش معبودان دیگر را رها کردند، پس از شرک خارج شدند، اما پیروی از محمد (صلی الله علیه و آله) را نشناختند. بنابراین، خدا را با تردید نسبت به محمد (صلی الله علیه و آله) و آنچه او آورده است، می‌پرستند.»",
+          "id": "Aku bertanya kepadanya tentang firman Allah, Yang Maha Perkasa lagi Maha Mulia: 'Dan di antara manusia ada orang yang menyembah Allah dengan keadaan yang masih dangkal.' Ia menjawab: 'Mereka adalah kaum yang meyakini keesaan Allah dan meninggalkan penyembahan terhadap sembahan-sembahan selain Allah, sehingga mereka keluar dari syirik, tetapi tidak mengakui bahwa Muhammad (shallallahu 'alaihi wa sallam) adalah utusan Allah. Oleh karena itu, mereka menyembah Allah dalam keadaan ragu-ragu terhadap Muhammad (shallallahu 'alaihi wa sallam) dan apa yang dibawanya.'",
+          "bn": "আমি তাঁকে আল্লাহ তাআলার বাক্য সম্পর্কে জিজ্ঞাসা করলাম, মহিমান্বিত ও মাহাত্ম্যময়: 'এবং মানুষের মধ্যে এমন কেউ আছে যে আল্লাহর উপাসনা করে পৃষ্ঠপোষকতার ভিত্তিতে।' তিনি বললেন: 'এরা এমন এক সম্প্রদায় যারা আল্লাহর তৌহিদকে স্বীকার করেছে এবং আল্লাহর ছাড়া অন্যদের উপাসনা ত্যাগ করেছে, ফলে তারা শিরক থেকে বেরিয়ে এসেছে, কিন্তু মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সাল্লাম) আল্লাহর রাসূল তা-এ বিষয়ে সঠিকভাবে উপলব্ধি করেনি। অতএব, তারা মুহাম্মদ (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সাল্লাম) এবং তিনি যা নিয়ে এসেছেন তা নিয়ে সংশয়ের ভিত্তিতে আল্লাহর উপাসনা করে থাকেন।' ",
+          "es": "Le pregunté acerca de las palabras de Allah, Poderoso y Majestuoso: «Y entre los hombres hay aquel que adora a Allah superficialmente». Dijo: «Son un pueblo que afirmó la Unidad de Allah y descartó la adoración de los adorados junto a Allah, por lo que salieron del Shirk (politeísmo), pero no reconocieron que Muhammad (que la paz sea con él y su familia) es el Mensajero de Allah. Así, adoran a Allah con duda respecto a Muhammad (que la paz sea con él y su familia) y a lo que trajo».",
+          "fr": "Je lui ai demandé au sujet des paroles d'Allah, Puissant et Majestueux : « Et parmi les hommes, il en est qui adorent Allah superficiellement. » Il a dit : « Ce sont un peuple qui ont affirmé l'Unicité d'Allah et abandonné l'adoration de ceux qui sont adorés à côté d'Allah, de sorte qu'ils sont sortis du Chirk (polythéisme), mais n'ont pas reconnu que Muhammad (que la paix soit sur lui et sur sa famille) est le Messager d'Allah. Ainsi, ils adorent Allah dans le doute concernant Muhammad (que la paix soit sur lui et sur sa famille) et ce qu'il a apporté. »",
+          "de": "Ich fragte ihn nach den Worten Allahs, des Mächtigen und Erhabenen: „Und unter den Menschen gibt es einen, der Allah oberflächlich anbetet.“ Er sagte: „Sie sind ein Volk, das die Einzigkeit Allahs bejahte und die Anbetung der neben Allah angebeteten Wesen verwarf, sodass sie aus dem Schirk (Mehrgötterei) austraten, aber nicht erkannten, dass Muhammad (Friede sei mit ihm und seiner Familie) der Gesandte Allahs ist. Daher beten sie Allah im Zweifel über Muhammad (Friede sei mit ihm und seiner Familie) und das, was er brachte, an.“",
+          "ru": "Я спросил спросил его о словах Аллаха, Всевышнего и Величественного: «И среди людей есть тот, кто поклоняется Аллаху поверхностно». Он сказал: «Это люди, которые признали единобожие Аллаха и отвергли поклонение тем, кому поклоняются помимо Аллаха, поэтому они вышли из ширка (многобожия), но не признали, что Мухаммад (мир ему и его семье) является Посланником Аллаха. Таким образом, они поклоняются Аллаху в состоянии сомнения относительно Мухаммада (мир ему и его семье) и того, что он принёс».",
+          "zh": "我问及真主尊贵伟大的话语：‘众人中，有人崇拜真主，只是表面的。’他说：‘这是一群人，他们认主独一，弃绝崇拜真主之外的偶像，从而脱离多神教（什尔克），但未认识到穆罕默德（愿真主赐福他及其家属）是真主的使者。因此，他们对穆罕默德（愿真主赐福他及其家属）及其所带来的一切心存疑虑，在此疑虑中崇拜真主。’"
+        },
+        "word_start": 25,
+        "word_end": 88
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَتَوْا رَسُولَ اللَّهِ ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) وَ قَالُوا نَنْظُرُ فَإِنْ كَثُرَتْ أَمْوَالُنَا وَ عُوفِينَا فِي أَنْفُسِنَا وَ أَوْلَادِنَا عَلِمْنَا أَنَّهُ صَادِقٌ وَ أَنَّهُ رَسُولُ اللَّهِ وَ إِنْ كَانَ غَيْرَ ذَلِكَ نَظَرْنَا",
+        "translations": {
+          "en": "So they came to the Messenger of Allah (peace be upon him and his family) and said, 'We shall consider; if our wealth becomes abundant and we are with good health regarding ourselves and our children, we will know that he is truthful and that he is the Messenger of Allah; but if it is other than that, we shall reconsider.'",
+          "ur": "پھر وہ رسول اللہ (صلی اللہ علیہ و آلہ وسلم) کے پاس آئے اور بولے: ہم غور کریں گے، اگر ہماری دولت بڑھ جائے اور ہم اور ہماری اولاد صحت مند رہیں تو ہم جان لیں گے کہ وہ سچا ہے اور وہ اللہ کا رسول ہے؛ لیکن اگر ایسا نہ ہو تو ہم دوبارہ غور کریں گے۔",
+          "tr": "Sonra Allah'ın Rasûlü'ne (ona ve âline salât ve selâm olsun) geldiler ve: \"Biz mülkümüz bolluğa erer ve kendimiz ile çocuklarımızın sağlığı iyi olursa, onun doğru söylediğini ve Allah'ın Rasûlü olduğunu biliriz; aksi takdirde, yeniden düşünürüz\" dediler.",
+          "fa": "پس نزد پیامبر خدا (صلی‌الله‌علیه‌وآله‌وسلم) آمدند و گفتند: «ما تأمل می‌کنیم؛ اگر مالمان فراوان شود و ما از نظر خودمان و فرزندانمان در سلامت باشیم، می‌دانیم که او راستگو است و پیامبر خداست؛ اما اگر غیر این باشد، دوباره تأمل خواهیم کرد.»",
+          "id": "Maka mereka datanglah mereka kepada Rasulullah (shalat dan salam atas beliau dan keluarganya) lalu berkata, 'Kami akan mempertimbangkan; jika harta kami menjadi melimpah dan kami berada dalam keadaan sehat baik untuk diri kami maupun anak-anak kami, maka kami akan mengetahui bahwa ia adalah benar dan ia adalah Rasulullah; tetapi jika tidak demikian, kami akan mempertimbangkan kembali.'",
+          "bn": "অতঃপর তারা আল্লাহর রাসূল (সাল্লাল্লাহু আলাইহি ওয়া সাল্লাম)-এর নিকট আগমন করে বলল, 'আমরা বিবেচনা করব; যদি আমাদের সম্পদ বৃদ্ধি পায় এবং আমরা ও আমাদের সন্তানগণ সুস্থ থাকি, তবে আমরা জানব যে তিনি সত্যবাদী এবং তিনি আল্লাহর রাসূল; আর যদি তা না হয়, তবে আমরা পুনরায় বিবেচনা করব।'",
+          "es": "Entonces acudieron al Mensajero de Alá (que la paz sea con él y con su familia) y dijeron: «Consideraremos; si nuestra riqueza se multiplica y gozamos de buena salud nosotros y nuestros hijos, sabremos que es veraz y que es el Mensajero de Alá; pero si no es así, lo reconsideraremos».",
+          "fr": "Alors ils vinrent trouver le Messager d'Allah (que la paix soit sur lui et sur sa famille) et dirent : « Nous y réfléchirons ; si notre richesse s'abonde et que nous sommes en bonne santé, nous et nos enfants, nous saurons qu'il est véridique et qu'il est le Messager d'Allah ; mais si ce n'est pas le cas, nous reviendrons sur notre décision. »",
+          "de": "Da kamen sie zum Gesandten Allahs (Friede sei mit ihm und seiner Familie) und sprachen: »Wir werden es abwägen; wenn unser Vermögen reichlich wird und wir uns und unsere Kinder bei guter Gesundheit sind, werden wir wissen, dass er die Wahrheit sagt und dass er der Gesandte Allahs ist; aber wenn es anders ist, werden wir es überdenken.«",
+          "ru": "Так они пришли к Посланнику Аллаха (мир и его семья) и сказали: «Мы примем решение; если наше богатство увеличится и мы будем здоровы мы сами и наши дети, то мы узнаем, что он говорит правду и что он — Посланник Аллаха; но если будет иначе, мы пересмотрим наше решение».",
+          "zh": "于是他们来到真主的使者（愿主福安之及其家属）面前说：\"我们将考虑；如果我们的财富变得丰富，且我们自身和子女身体健康，我们就知道他是诚实的，他是真主的使者；否则，我们将重新考虑。\""
+        },
+        "word_start": 88,
+        "word_end": 123
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "فَإِنْ أَصابَهُ خَيْرٌ اطْمَأَنَّ بِهِ",
+        "translations": {
+          "en": "So if good befalls him, he is satisfied therewith",
+          "ur": "پس اگر اسے خیر پہنچے تو وہ اس سے راضی ہو جاتا ہے",
+          "tr": "İyi bir şey kendisine gelirse, onunla memnun olur",
+          "fa": "پس اگر خیری به او برسد، به آن راضی می‌شود",
+          "id": "Maka jika kebaikan menimpanya, ia merasa puas dengan itu",
+          "bn": "অতএব, যদি তাকে কল্যাণ লাভ করে, তবে সে তাতে সন্তুষ্ট হয়",
+          "es": "Así que si le sobreviene el bien, se conforma con ello",
+          "fr": "Ainsi, si le bien lui arrive, il s'en satisfait",
+          "de": "Wenn ihm also Gutes widerfährt, ist er damit zufrieden.",
+          "ru": "Если его постигает благо, он доволен этим",
+          "zh": "故若善事降临于他，他便对此感到满足"
+        },
+        "word_start": 123,
+        "word_end": 128
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يَعْنِي عَافِيَةً فِي الدُّنْيا وَ إِنْ أَصابَتْهُ فِتْنَةٌ يَعْنِي بَلَاءً فِي نَفْسِهِ وَ مَالِهِ انْقَلَبَ عَلى وَجْهِهِ انْقَلَبَ عَلَى شَكِّهِ إِلَى الشِّرْكِ خَسِرَ الدُّنْيا وَ الْآخِرَةَ ذلِكَ هُوَ الْخُسْرانُ الْمُبِينُ يَدْعُوا مِنْ دُونِ اللَّهِ ما لا يَضُرُّهُ وَ ما لا يَنْفَعُهُ",
+        "translations": {
+          "en": "Meaning well-being in the world. And if a trial afflicts him, meaning an affliction regarding himself and his wealth, he turns back headlong, overturning upon his doubt to Shirk (polytheism). He loses this world as well as the Hereafter; that is a manifest loss. He supplicates to those besides Allah who can neither harm him nor benefit him.",
+          "ur": "دنیا میں خوشحالی کی معنی۔ اور اگر اسے کوئی آزمائش پہنچے، یعنی اس کے اپنے آپ اور اس کی دولت کے حوالے سے کوئی مصیبت، تو وہ الٹا پلٹ کر اپنے شک کو شرک میں بدل دیتا ہے۔ وہ دنیا اور آخرت دونوں کھو دیتا ہے؛ یہ واضح نقصان ہے۔ وہ ان سے دعا کرتا ہے جو اللہ کے سوا ہیں، جو نہ اسے نقصان پہنچا سکتے ہیں اور نہ ہی فائدہ۔",
+          "tr": "Dünyada refah anlamına gelir. Eğer kendisine bir musibet (deneme) dokunursa, yani kendisi ve malı hakkında bir musibet, hemen arkasını döner ve şakaklarıyla birlikte şüpheye ve şirk (putperestliğe) düşer. Hem dünyayı hem de ahireti kaybeder; bu apaçık bir kayıptır. Allah'tan başka kendisine ne zarar verebilen ne de fayda sağlayabilenlere dua eder.",
+          "fa": "به معنای خوشبختی در دنیا. و اگر او را آزمایشی مبتلا کند، به معنای بلائی که متوجه خود او و مالش باشد، او به عقب برمی‌گردد و بر شک خود به شرک (چندپرستی) فرو می‌ریزد. او هم دنیا را از دست می‌دهد و هم آخرت را؛ این است زیان آشکار. او از کسانی غیر از خداوند دعا می‌کند که نه ضرری به او می‌رسانند و نه نفعی.",
+          "id": "Makna kesejahteraan di dunia. Dan jika suatu cobaan menimpanya, yaitu cobaan mengenai dirinya dan hartanya, ia kembali dengan tergesa-gesa, menjatuhkan dirinya dalam keraguan menuju syirk (kekafiran). Ia kehilangan dunia dan akhirat; itulah kerugian yang nyata. Ia berdoa kepada selain Allah yang tidak dapat memberinya manfaat maupun mudarat.",
+          "bn": "জগতে কল্যাণের অর্থ। আর যদি তাঁকে কোনো পরীক্ষা কষ্ট দেয়, অর্থাৎ নিজের ও ধন-সম্পদ সংক্রান্ত কোনো কষ্ট, তবে তিনি উল্টোপাল্টা ফিরে যান, তাঁর সন্দেহকে শিরকে (বহুঈশ্বরবাদে) পরিণত করেন। তিনি এই জগত ও পরলোক উভয়ই হারান; এটি স্পষ্ট ক্ষতি। তিনি আল্লাহর ছাড়া অন্যদের কাছে প্রার্থনা করেন, যারা তাঁকে না ক্ষতি করতে পারে, না উপকার করতে পারে।",
+          "es": "Significa bienestar en el mundo. Y si una prueba lo aflige, es decir, una aflicción respecto a sí mismo y a su riqueza, vuelve atrás precipitadamente, volcando su duda hacia el Shirk (politeísmo). Pierde este mundo y también la Hereafter; esa es una pérdida manifiesta. Suplica a aquellos distintos de Allah que ni pueden dañarlo ni beneficiarlo.",
+          "fr": "Le bien-être dans le monde. Et si une épreuve l'afflige, c'est-à-dire une affliction concernant lui-même et ses biens, il se retourne à reculons, renversant son doute vers le Chirk (polythéisme). Il perd ce monde ainsi que l'Autre ; voilà une perte manifeste. Il implore ceux qui sont en dehors d'Allah, qui ne peuvent ni lui nuire ni lui profiter.",
+          "de": "Das Wohlergehen im Diesseits. Und wenn ihn eine Prüfung heimsucht, das heißt eine Prüfung, die ihn selbst und sein Vermögen betrifft, so kehrt er kopfüber um und stürzt in seinen Zweifel und den Schirk (Polytheismus). Er verliert sowohl das Diesseits als auch das Jenseits; das ist ein offenkundiger Verlust. Er bittet diejenigen außer Allah an, die ihm weder Schaden zufügen noch Nutzen bringen können.",
+          "ru": "Смысл благополучия в мире. И если его постигает испытание, то есть испытание, касающееся его самого и его имущества, он обращается вспять, опрокидываясь в своём сомнении на ширк (многобожие). Он теряет и этот мир, и Будущую жизнь; это явная потеря. Он взывает к тем, помимо Аллаха, которые не могут ни причинить ему вреда, ни принести пользу.",
+          "zh": "意为今世的福祉。若他遭遇考验，即关于他自身和财富的磨难，他便头朝下地翻转，将他的怀疑转向多神教（Shirk）。他既失去了今世，也失去了后世；这是明显的损失。他向除真主以外的存在祈求，那些存在既不能使他受益，也不能使他受害。"
+        },
+        "word_start": 128,
+        "word_end": 169
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ يَنْقَلِبُ مُشْرِكاً يَدْعُو غَيْرَ اللَّهِ وَ يَعْبُدُ غَيْرَهُ فَمِنْهُمْ مَنْ يَعْرِفُ وَ يَدْخُلُ الْإِيمَانُ قَلْبَهُ فَيُؤْمِنُ وَ يُصَدِّقُ وَ يَزُولُ عَنْ مَنْزِلَتِهِ مِنَ الشَّكِّ إِلَى الْإِيمَانِ وَ مِنْهُمْ مَنْ يَثْبُتُ عَلَى شَكِّهِ وَ مِنْهُمْ مَنْ يَنْقَلِبُ إِلَى الشِّرْكِ",
+        "translations": {
+          "en": "He said: 'He overturns to be a Mushrik (polytheist), supplicating to other than Allah and worshipping other than Him. So from them is one who recognizes and Iman (faith) enters his heart, so he believes and ratifies and declines from his state of doubt to Iman. And from them is the one who remains affirmed upon his doubt, and from them is the one who overturns to Shirk (polytheism).'",
+          "ur": "انہوں نے کہا: وہ الٹ جاتے ہیں کہ مشرک بن جائیں، اللہ کے سوا کسی اور کی دعوت کریں اور اس کی عبادت کریں۔ تو ان میں سے کوئی ایسا ہے جو پہچان لیتا ہے اور اس کے دل میں ایمان داخل ہو جاتا ہے، پس وہ یقین کرتا ہے اور تصدیق کرتا ہے اور شک کی حالت سے ایمان کی طرف مڑ جاتا ہے۔ اور ان میں سے کوئی ایسا ہے جو اپنے شک پر قائم رہتا ہے، اور ان میں سے کوئی ایسا ہے جو شرک میں الٹ جاتا ہے۔",
+          "tr": "O şöyle dedi: 'O, Allah'tan başkasına dua eden ve O'ndan başkasına ibadet eden bir müşrik (çok tanrılı) olur. Onlardan bazıları, tanır ve kalbine iman girer, böylece inanır, tasdik eder ve şüphe halinden imana yönelir. Onlardan bazıları, şüphesi üzerinde ısrar eder; onlardan bazıları da şirk (çok tanrılılık) haline döner.'",
+          "fa": "گفت: «به مشرک (شرک (شرک) تبدیل می‌شود، که غیر از خدا را دعا می‌کند و غیر از او را می‌پرستد. پس از آنان کسی است که شناخت می‌کند و ایمان در دلش وارد می‌شود، پس ایمان می‌آورد و تصدیق می‌کند و از حالت شک خود به ایمان روی می‌ آورد. و از آنان کسی است که بر شک خود ثابت‌قدم می‌ماند، و از آنان کسی است که به شرک تبدیل می‌شود.»",
+          "id": "Ia berkata, 'Dia berubah menjadi seorang musyrik, berdoa kepada selain Allah dan menyembah selain-Nya. Maka di antara mereka ada yang mengenal dan iman masuk ke dalam hatinya, sehingga ia beriman dan mengikrarkan serta berpaling dari keadaan ragunya menuju iman. Dan di antara mereka ada yang tetap teguh dalam keraguannya, dan di antara mereka ada yang berubah menjadi syirk (kemukiran).'",
+          "bn": "তিনি বললেন: 'সে বিপরীত হয়ে যায় মুশরিক (বহুঈশ্বরবাদী) হতে, আল্লাহর ছাড়া অন্যের কাছে প্রার্থনা করে এবং তাঁর ছাড়া অন্যের ইবাদত করে। অতএব তাদের মধ্যে এমন কেউ আছে যে স্বীকার করে এবং তার হৃদয়ে ঈমান প্রবেশ করে, অতএব সে বিশ্বাস করে এবং স্বীকার করে এবং তার সন্দেহের অবস্থা থেকে ঈমানের দিকে ফিরে যায়। এবং তাদের মধ্যে এমন কেউ আছে যে তার সন্দেহে স্থির থাকে, এবং তাদের মধ্যে এমন কেউ আছে যে শিরকে (বহুঈশ্বরবাদে) বিপরীত হয়ে যায়।'",
+          "es": "Dijo: «Se convierte en mushrik (politeísta), suplicando a otros que Allah y adorando a otros que Él. Entonces, de ellos hay uno que reconoce y entra la iman (fe) en su corazón, así que cree y ratifica y se aparta de su estado de duda hacia la iman. Y de ellos hay el que permanece afirmado sobre su duda, y de ellos hay el que se convierte en shirk (politeísmo).»",
+          "fr": "Il a dit : « Il bascule pour devenir un Mushrik (polythéiste), suppliant autre qu'Allah et adorant autre que Lui. Parmi eux, il y a celui qui reconnaît et l'Iman (foi) entre dans son cœur, alors il croit, confirme et se détourne de son état de doute vers l'Iman. Et parmi eux, il y a celui qui demeure affermi dans son doute, et parmi eux, il y a celui qui bascule vers le Shirk (polythéisme). »",
+          "de": "Er sagte: Er wird zum Mushrik (Polytheisten), der zu anderen als Allah betet und andere als Ihn anbetet. Unter ihnen ist einer, der erkennt und der Iman (Glaube) in sein Herz eindringt, so dass er glaubt und bejaht und von seinem Zustand des Zweifels zum Iman übergeht. Und unter ihnen ist einer, der auf seinem Zweifel beharrt, und unter ihnen ist einer, der zum Schirk (Polytheismus) übergeht.",
+          "ru": "Он сказал: «Он становится мусшиком (многобожником), взывая к другим, кроме Аллаха, и поклоняясь другим, кроме Него. Среди них есть тот, кто осознаёт, и иман (вера) входит в его сердце, поэтому он верует, подтверждает и переходит от состояния сомнения к иману. Среди них есть тот, кто остаётся утверждённым на своём сомнении, и среди них есть тот, кто становится мусриком (многобожником).»",
+          "zh": "他说：'他翻转成为穆什里克（多神教徒），向真主以外的存在祈求并崇拜真主以外的存在。其中有人认主独一，伊玛尼（信仰）进入他的心中，他便确信并确认，从怀疑的状态转向伊玛尼。其中有人坚守其怀疑，其中有人翻转成为什尔克（多神教）。'"
+        },
+        "word_start": 169,
+        "word_end": 208
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنْ رَجُلٍ عَنْ زُرَارَةَ مِثْلَهُ",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from Muhammad ibn Isa, from Yunus, from a man, from Zurara – similar to it.",
+          "ur": "علی بن ابراہیم، محمد بن عیسٰی سے، یونس سے، ایک شخص سے، زرارہ سے — اسی طرح۔",
+          "tr": "Ali bin İbrahim, Muhammed bin İsa'dan, Yunus'dan, bir adamdan, Zurara'dan; benzeri.",
+          "fa": "علی بن ابراهیم، از محمد بن عیسی، از یونس، از یک مرد، از زراره – مانند آن.",
+          "id": "Ali bin Ibrahim, dari Muhammad bin Isa, dari Yunus, dari seorang laki-laki, dari Zurara – serupa dengannya.",
+          "bn": "আলী ইবনে ইবরাহীম, মুহাম্মাদ ইবনে ইসা থেকে, ইউনুস থেকে, এক ব্যক্তি থেকে, জুরারার থেকে — এর অনুরূপ।",
+          "es": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus, de un hombre, de Zurara — similar a ello.",
+          "fr": "Ali ibn Ibrahim, de Muhammad ibn Isa, de Yunus, d'un homme, de Zurara — semblable à cela.",
+          "de": "Ali ibn Ibrahim, von Muhammad ibn Isa, von Yunus, von einem Mann, von Zurara – ähnlich wie dies.",
+          "ru": "Али ибн Ибрахим, от Мухаммада ибн Исы, от Юнуса, от одного человека, от Зурары — аналогично.",
+          "zh": "阿里·本·易卜拉欣，从穆罕默德·本·伊萨，从优努斯，从一人，从祖拉勒——与之相似。"
+        },
+        "word_start": 208,
+        "word_end": 222
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi elucidates the concept of 'worshipping on the edge' (al-harf), describing early Arabs who accepted monotheism but remained skeptical of Prophet Muhammad’s (peace be upon him and his family) mission, making their faith contingent on worldly outcomes. It highlights the fragility of such conditional belief, noting that trials can cause a regression to polytheism, while prosperity may lead to full acceptance or mere stagnation in doubt. This interpretation is central to understanding the transition from pre-Islamic monotheism (Hanifs) to comprehensive Islamic faith.",
+        "seo_question": "What is the meaning of worshipping Allah 'upon a corner' (ala harf) in Surah Al-Hajj?",
+        "key_terms": {
+          "حَرْف": "Corner/edge, implying superficial or conditional worship",
+          "شَكٍّ": "Doubt",
+          "شِرْك": "Polytheism/Associating partners with God",
+          "إِيمَان": "Faith",
+          "مُنْقَلَب": "To turn back/revert",
+          "خُسْرانٌ مُبِين": "Manifest loss"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی سے 'کنارے پر عبادت' (الحرف) کے تصور کو واضح کرتی ہے، جس میں ابتدائی عربوں کا ذکر ہے جنہوں نے توحید کو قبول کیا لیکن نبی محمد (صلی اللہ علیہ و آلہ وسلم) کی رسالت پر شک کا اظہار کیا، اور ان کی ایمانداری دنیاوی نتائج پر منحصر تھی۔ یہ مشروط ایمان کی نازکی کو اجاگر کرتا ہے، یہ نوٹ کرتے ہوئے کہ آزمائشیں شرک کی طرف واپسی کا سبب بن سکتی ہیں، جبکہ خوشحالی مکمل قبولیت یا شک میں رک جانا لے سکتی ہے۔ یہ تفسیر جاهلیت کے توحید (حنفاء) سے جامع اسلامی ایمان کی طرف منتقلی کو سمجھنے کے لیے مرکزی اہمیت رکھتی ہے۔",
+        "seo_question": "سورۃ الحج میں اللہ کی 'کنارے پر' (علی حرف) عبادت کا کیا مطلب ہے؟",
+        "key_terms": {
+          "حَرْف": "کنارہ/سرحد، سطحی یا مشروط عبادت کی طرف اشارہ",
+          "شَكٍّ": "شک",
+          "شِرْك": "شرک/اللہ کے ساتھ شریک ٹھہرانا",
+          "إِيمَان": "ایمان",
+          "مُنْقَلَب": "پیچھے ہٹنا/واپس آنا",
+          "خُسْرانٌ مُبِين": "کھلا نقصان"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, el-Kâfî'de 'köşede ibadet etme' (el-harf) kavramını açıklar; erken Araplar tevhidi kabul etmişlerdi ancak Peygamber Muhammed'in (aleyhi ve âlihi sellem) misyonuna karşı şüpheli kalmışlar ve inançlarını dünyevi sonuçlara bağlamışlardır. Bu koşullu inancın kırılganlığını vurgular; denemeler çok tanrılılığa dönüşüm cause edebilirken, refah tam kabul veya şüphe içinde duraklama ile sonuçlanabilir. Bu yorum, İslam öncesi tevhid (Hanifler) ile kapsamlı İslam inancı arasındaki geçişi anlamak için merkezidir.",
+        "seo_question": "Hac Suresi'nde Allah'a 'bir köşede' (ala harf) ibadet etmek ne anlama gelir?",
+        "key_terms": {
+          "حَرْف": "Köşe/kenar, yüzeysel veya koşullu ibadeti ima eder",
+          "شَكٍّ": "Şüphe",
+          "شِرْك": "Çok tanrılılık/Allah'a ortak koşma",
+          "إِيمَان": "İnanç",
+          "مُنْقَلَب": "Geri dönmek/dönüş yapmak",
+          "خُسْرانٌ مُبِين": "Açık kayıp"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی، مفهوم «عبادت بر سر حد» (الحرف) را روشن می‌سازد و به اعراب اولیه‌ای اشاره دارد که توحید را پذیرفتند اما نسبت به رسالت پیامبر محمد (صلی الله علیه و آله) بدبین بودند و ایمان خود را مشروط به نتایج دنیوی می‌دانستند. این حدیث شکنندگی چنین ایمان مشروطی را برجسته می‌کند و یادآوری می‌کند که آزمایش‌ها می‌توانند باعث بازگشت به شرک شوند، در حالی که کامیابی ممکن است منجر به پذیرش کامل یا توقف در شک شود. این تفسیر برای درک گذار از توحید پیشاسلامی (حنفاها) به ایمان جامع اسلامی مرکزی است.",
+        "seo_question": "معنای عبادت خداوند «بر یک گوشه» (علی حرف) در سوره حج چیست؟",
+        "key_terms": {
+          "حَرْف": "گوشه/لبه، که نشان‌دهنده عبادت سطحی یا مشروط است",
+          "شَكٍّ": "شک",
+          "شِرْك": "شرک/هم‌پالوده‌انگاری با خدا",
+          "إِيمَان": "ایمان",
+          "مُنْقَلَب": "برگشتن/بازگشت",
+          "خُسْرانٌ مُبِين": "خسران آشکار"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari al-Kafi ini menjelaskan konsep 'beribadah di tepi' (al-harf), yang menggambarkan orang-orang Arab awal yang menerima tauhid namun tetap skeptis terhadap misi Nabi Muhammad (damahallahu 'alaihi wa aalihi), sehingga keimanan mereka bergantung pada hasil duniawi. Hal ini menyoroti rapuhnya keyakinan bersyarat tersebut, mencatat bahwa cobaan dapat menyebabkan kemunduran ke polytheisme, sementara kemakmuran dapat mengarah pada penerimaan penuh atau sekadar stagnasi dalam keraguan. Interpretasi ini sangat penting untuk memahami transisi dari monotheisme pra-Islam (Hanifs) ke iman Islam yang komprehensif.",
+        "seo_question": "Apa arti beribadah kepada Allah 'di atas sebuah sudut' (ala harf) dalam Surah Al-Hajj?",
+        "key_terms": {
+          "حَرْف": "Sudut/tepi, menyiratkan ibadah yang dangkal atau bersyarat",
+          "شَكٍّ": "Keraguan",
+          "شِرْك": "Polytheisme/Menyekutukan Tuhan",
+          "إِيمَان": "Keimanan",
+          "مُنْقَلَب": "Berbalik/murtad",
+          "خُسْرانٌ مُبِين": "Kehilangan yang nyata"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে আল-কাফি থেকে 'প্রান্তে উপাসনা' (আল-হারফ) ধারণাটি ব্যাখ্যা করা হয়েছে, যেখানে বলা হয়েছে প্রাচীন আরবরা তৌহিদ মেনে নিয়েছিল কিন্তু নবী মুহাম্মদ (সা.)-এর মিশন নিয়ে সন্দেহগ্রস্ত ছিল, ফলে তাদের ঈমান পৃথিবীভিত্তিক ফলাফলের ওপর নির্ভরশীল ছিল। এটি এমন শর্তসাপেক্ষ ঈামানের নাজুকত্ব তুলে ধরে, যেখানে পরীক্ষা-নিরীক্ষা তাদেরকে শিরকে ফিরিয়ে আনতে পারে, আর সমৃদ্ধি পূর্ণ গ্রহণ বা সন্দেহে স্থির থাকার দিকে নিয়ে যেতে পারে। এই ব্যাখ্যাটি প্রাক-ইসলামি তৌহিদ (হানিফ) থেকে সম্পূর্ণ ইসলামি ঈামানে রূপান্তর বোঝার জন্য কেন্দ্রীয়।",
+        "seo_question": "সূরা আল-হাজ্জে আল্লাহর 'প্রান্তে' (আলা হারফ) উপাসনার অর্থ কী?",
+        "key_terms": {
+          "حَرْف": "কোণ/প্রান্ত, যা পৃষ্ঠপোষক বা শর্তসাপেক্ষ উপাসনাকে নির্দেশ করে",
+          "شَكٍّ": "সন্দেহ",
+          "شِرْك": "শিরক/আল্লাহর সাথে অংশীদার স্থাপন",
+          "إِيمَان": "ঈমান",
+          "مُنْقَلَب": "পিছিয়ে যাওয়া/ফিরে যাওয়া",
+          "خُسْرانٌ مُبِين": "প্রকাশ্য ক্ষতি"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi aclara el concepto de 'adorar en el borde' (al-harf), describiendo a los primeros árabes que aceptaron el monoteísmo pero permanecieron escépticos ante la misión del Profeta Muhammad (que la paz sea con él y su familia), haciendo que su fe dependiera de los resultados mundanos. Destaca la fragilidad de dicha creencia condicional, señalando que las pruebas pueden causar un retroceso al politeísmo, mientras que la prosperidad puede llevar a una aceptación plena o a una mera estancación en la duda. Esta interpretación es central para comprender la transición del monoteísmo preislámico (Hanifs) a la fe islámica integral.",
+        "seo_question": "¿Cuál es el significado de adorar a Alá 'sobre una esquina' (ala harf) en la Surah Al-Hajj?",
+        "key_terms": {
+          "حَرْف": "Esquina/borde, implicando adoración superficial o condicional",
+          "شَكٍّ": "Duda",
+          "شِرْك": "Politeísmo/Asociar socios con Dios",
+          "إِيمَان": "Fe",
+          "مُنْقَلَب": "Volver atrás/revertir",
+          "خُسْرانٌ مُبِين": "Pérdida manifiesta"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tirâh d'al-Kâfi éclaire le concept du culte sur le bord (al-harf), décrivant les premiers Arabes qui ont accepté le monothéisme mais restaient sceptiques quant à la mission du Prophète Muhammad (que la paix soit sur lui et sa famille), rendant leur foi contingente aux résultats mondains. Il met en lumière la fragilité d'une telle croyance conditionnelle, notant que les épreuves peuvent entraîner un retour au polythéisme, tandis que la prospérité peut mener à une acceptation pleine ou à une stagnation dans le doute. Cette interprétation est centrale pour comprendre la transition du monothéisme préislamique (Hanifs) vers la foi islamique complète.",
+        "seo_question": "Quelle est la signification du culte d'Allah 'sur un coin' (ala harf) dans la sourate Al-Hajj ?",
+        "key_terms": {
+          "حَرْف": "Coin/bord, impliquant un culte superficiel ou conditionnel",
+          "شَكٍّ": "Doute",
+          "شِرْك": "Polythéisme/Association de partenaires à Dieu",
+          "إِيمَان": "Foi",
+          "مُنْقَلَب": "Se retourner/revenir",
+          "خُسْرانٌ مُبِين": "Perte manifeste"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi erläutert das Konzept des 'Anbetens am Rand' (al-harf) und beschreibt die frühen Araber, die den Monotheismus annahmen, aber der Mission des Propheten Muhammad (Friede sei mit ihm und seiner Familie) gegenüber skeptisch blieben, wodurch ihr Glaube von weltlichen Ergebnissen abhängig war. Es hebt die Zerbrechlichkeit eines solchen bedingten Glaubens hervor und stellt fest, dass Prüfungen zu einem Rückfall in den Polytheismus führen können, während Wohlstand entweder zur vollständigen Annahme oder zur bloßen Stagnation im Zweifel führen kann. Diese Interpretation ist zentral für das Verständnis des Übergangs vom vorislamischen Monotheismus (Hanifen) zum umfassenden islamischen Glauben.",
+        "seo_question": "Was bedeutet es, Allah 'auf einer Ecke' (ala harf) anzubeten, in Sure Al-Hajj?",
+        "key_terms": {
+          "حَرْف": "Ecke/Kante, was oberflächliche oder bedingte Anbetung impliziert",
+          "شَكٍّ": "Zweifel",
+          "شِرْك": "Polytheismus/Beigesellen Allahs",
+          "إِيمَان": "Glaube",
+          "مُنْقَلَب": "Zurückkehren/Rückfällig werden",
+          "خُسْرانٌ مُبِين": "Offensichtlicher Verlust"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи разъясняет концепцию «поклонения на краю» (аль-харф), описывая ранних арабов, принявших монотеизм, но относившихся с недоверием к миссии Пророка Мухаммада (мир ему и его семье), делая свою веру зависимой от мирских результатов. В нем подчеркивается хрупкость такой условной веры: испытания могут привести к возврату к многобожию, а процветание — либо к полному принятию, либо к застойному сомнению. Эта интерпретация имеет ключевое значение для понимания перехода от доисламского монотеизма (ханифы) к всеобъемлющей исламской вере.",
+        "seo_question": "Что означает поклонение Аллаху «на углу» (ала харф) в суре Аль-Хадж?",
+        "key_terms": {
+          "حَرْف": "угол/край, подразумевающий поверхностное или условное поклонение",
+          "شَكٍّ": "сомнение",
+          "شِرْك": "многобожие/придание сотоварищей Аллаху",
+          "إِيمَان": "вера",
+          "مُنْقَلَب": "возвращаться/отступать",
+          "خُسْرانٌ مُبِين": "явная потеря"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《卡菲》的圣训阐释了“在边缘崇拜”（al-harf）的概念，描述了早期阿拉伯人虽然接受了一神论，但对先知穆罕默德（愿主福安之及其家属）的使命持怀疑态度，其信仰取决于世俗的结果。它突出了这种有条件信仰的脆弱性，指出考验可能导致回归多神教，而繁荣可能导致完全接受或在怀疑中停滞不前。这一解释对于理解从伊斯兰前的一神论（Hanifs）到全面伊斯兰信仰的转变至关重要。",
+        "seo_question": "《古兰经》朝觐章中“在角落崇拜”安拉（ala harf）的含义是什么？",
+        "key_terms": {
+          "حَرْف": "角落/边缘，暗示肤浅或有条件的崇拜",
+          "شَكٍّ": "怀疑",
+          "شِرْك": "多神教/以物配主",
+          "إِيمَان": "信仰",
+          "مُنْقَلَب": "转身/回归",
+          "خُسْرانٌ مُبِين": "明显的损失"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "22:11",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "22:12",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:67",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ مُوسَى بْنِ بَكْرٍ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَام ) قَالَ سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ مِنَ النَّاسِ مَنْ يَعْبُدُ اللَّهَ عَلى حَرْفٍ قَالَ هُمْ قَوْمٌ وَحَّدُوا اللَّهَ وَ خَلَعُوا عِبَادَةَ مَنْ يُعْبَدُ مِنْ دُونِ اللَّهِ فَخَرَجُوا مِنَ الشِّرْكِ وَ لَمْ يَعْرِفُوا أَنَّ مُحَمَّداً ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) رَسُولُ اللَّهِ فَهُمْ يَعْبُدُونَ اللَّهَ عَلَى شَكٍّ فِي مُحَمَّداً ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) وَ مَا جَاءَ بِهِ فَأَتَوْا رَسُولَ اللَّهِ ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) وَ قَالُوا نَنْظُرُ فَإِنْ كَثُرَتْ أَمْوَالُنَا وَ عُوفِينَا فِي أَنْفُسِنَا وَ أَوْلَادِنَا عَلِمْنَا أَنَّهُ صَادِقٌ وَ أَنَّهُ رَسُولُ اللَّهِ وَ إِنْ كَانَ غَيْرَ ذَلِكَ نَظَرْنَا فَإِنْ أَصابَهُ خَيْرٌ اطْمَأَنَّ بِهِ يَعْنِي عَافِيَةً فِي الدُّنْيا وَ إِنْ أَصابَتْهُ فِتْنَةٌ يَعْنِي بَلَاءً فِي نَفْسِهِ وَ مَالِهِ انْقَلَبَ عَلى وَجْهِهِ انْقَلَبَ عَلَى شَكِّهِ إِلَى الشِّرْكِ خَسِرَ الدُّنْيا وَ الْآخِرَةَ ذلِكَ هُوَ الْخُسْرانُ الْمُبِينُ يَدْعُوا مِنْ دُونِ اللَّهِ ما لا يَضُرُّهُ وَ ما لا يَنْفَعُهُ قَالَ يَنْقَلِبُ مُشْرِكاً يَدْعُو غَيْرَ اللَّهِ وَ يَعْبُدُ غَيْرَهُ فَمِنْهُمْ مَنْ يَعْرِفُ وَ يَدْخُلُ الْإِيمَانُ قَلْبَهُ فَيُؤْمِنُ وَ يُصَدِّقُ وَ يَزُولُ عَنْ مَنْزِلَتِهِ مِنَ الشَّكِّ إِلَى الْإِيمَانِ وَ مِنْهُمْ مَنْ يَثْبُتُ عَلَى شَكِّهِ وَ مِنْهُمْ مَنْ يَنْقَلِبُ إِلَى الشِّرْكِ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنْ رَجُلٍ عَنْ زُرَارَةَ مِثْلَهُ",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنْ عَلِيِّ بْنِ الْحَكَمِ عَنْ مُوسَى بْنِ بَكْرٍ عَنْ زُرَارَةَ عَنْ أَبِي جَعْفَرٍ ( عَلَيْهِ السَّلَام ) قَالَ",
+      "matn_ar": "سَأَلْتُهُ عَنْ قَوْلِ اللَّهِ عَزَّ وَ جَلَّ وَ مِنَ النَّاسِ مَنْ يَعْبُدُ اللَّهَ عَلى حَرْفٍ قَالَ هُمْ قَوْمٌ وَحَّدُوا اللَّهَ وَ خَلَعُوا عِبَادَةَ مَنْ يُعْبَدُ مِنْ دُونِ اللَّهِ فَخَرَجُوا مِنَ الشِّرْكِ وَ لَمْ يَعْرِفُوا أَنَّ مُحَمَّداً ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) رَسُولُ اللَّهِ فَهُمْ يَعْبُدُونَ اللَّهَ عَلَى شَكٍّ فِي مُحَمَّداً ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) وَ مَا جَاءَ بِهِ فَأَتَوْا رَسُولَ اللَّهِ ( صَلَّى اللَّهُ عَلَيْهِ وَ آلِهِ ) وَ قَالُوا نَنْظُرُ فَإِنْ كَثُرَتْ أَمْوَالُنَا وَ عُوفِينَا فِي أَنْفُسِنَا وَ أَوْلَادِنَا عَلِمْنَا أَنَّهُ صَادِقٌ وَ أَنَّهُ رَسُولُ اللَّهِ وَ إِنْ كَانَ غَيْرَ ذَلِكَ نَظَرْنَا فَإِنْ أَصابَهُ خَيْرٌ اطْمَأَنَّ بِهِ يَعْنِي عَافِيَةً فِي الدُّنْيا وَ إِنْ أَصابَتْهُ فِتْنَةٌ يَعْنِي بَلَاءً فِي نَفْسِهِ وَ مَالِهِ انْقَلَبَ عَلى وَجْهِهِ انْقَلَبَ عَلَى شَكِّهِ إِلَى الشِّرْكِ خَسِرَ الدُّنْيا وَ الْآخِرَةَ ذلِكَ هُوَ الْخُسْرانُ الْمُبِينُ يَدْعُوا مِنْ دُونِ اللَّهِ ما لا يَضُرُّهُ وَ ما لا يَنْفَعُهُ قَالَ يَنْقَلِبُ مُشْرِكاً يَدْعُو غَيْرَ اللَّهِ وَ يَعْبُدُ غَيْرَهُ فَمِنْهُمْ مَنْ يَعْرِفُ وَ يَدْخُلُ الْإِيمَانُ قَلْبَهُ فَيُؤْمِنُ وَ يُصَدِّقُ وَ يَزُولُ عَنْ مَنْزِلَتِهِ مِنَ الشَّكِّ إِلَى الْإِيمَانِ وَ مِنْهُمْ مَنْ يَثْبُتُ عَلَى شَكِّهِ وَ مِنْهُمْ مَنْ يَنْقَلِبُ إِلَى الشِّرْكِ عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ مُحَمَّدِ بْنِ عِيسَى عَنْ يُونُسَ عَنْ رَجُلٍ عَنْ زُرَارَةَ مِثْلَهُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "عَلِيِّ بْنِ الْحَكَمِ",
+          "name_en": "'Ali ibn al-Hakam",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 15
+        },
+        {
+          "name_ar": "مُوسَى بْنِ بَكْرٍ",
+          "name_en": "Musa ibn Bakr",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 96
+        },
+        {
+          "name_ar": "زُرَارَةَ",
+          "name_en": "Zurara",
+          "role": "companion",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 18
+        },
+        {
+          "name_ar": "أَبِي جَعْفَرٍ ( عليه السلام )",
+          "name_en": "Abu Ja'far",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 9
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 3,
+    "_phase4_mode": "per_language"
+  }
+}

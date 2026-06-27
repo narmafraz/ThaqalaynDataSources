@@ -1,0 +1,263 @@
+{
+  "verse_path": "/books/al-kafi:7:4:55:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 16 en words vs 1 ar words (ratio=16.00, expected 0.2-8.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "financial_law",
+      "marriage_family_law",
+      "judicial_rulings"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "From him, from Muhammad ibn Aslam, from Harun ibn al-Jahm, from Muhammad ibn Muslim, who said:",
+          "ur": "وہ سے، محمد بن اسلم سے، ہارون بن جہم سے، محمد بن مسلم سے، انہوں نے کہا:",
+          "tr": "Onunla, Mühammed bin Eşlem, Harun bin el-Cehm, Mühammed bin Müslim'den; o da dedi ki:",
+          "fa": "عَنْهُ عَنْ مُحَمَّدِ بْنِ أَسْلَمَ عَنْ هَارُونَ بْنِ الْجَهْمِ عَنْ مُحَمَّدِ بْنِ مُسْلِمٍ قَالَ:",
+          "id": "Dari dia, dari Muhammad bin Aslam, dari Harun bin al-Jahm, dari Muhammad, dari Muhammad bin Muslim, yang berkata:",
+          "bn": "তিনি হতে, মুহাম্মাদ ইবনে আসলাম হতে, হারুন ইবনে আল-জাহম হতে, মুহাম্মাদ ইবনে মুসলিম হতে, যিনি বলেছেন:",
+          "es": "De él, de Muhammad ibn Aslam, de Harun ibn al-Jahm, de Muhammad ibn Muslim, quien dijo:",
+          "fr": "De lui, de Muhammad ibn Aslam, de Harun ibn al-Jahm, de Muhammad ibn Muslim, qui a dit :",
+          "de": "Von ihm, von ihm, von Muhammad ibn Aslam, von Harun ibn al-Jahm, von Muhammad ibn Muslim, der sagte:",
+          "ru": "От него, от Мухаммада ибн Аслама, от Харуна ибн аль-Джахма, от Мухаммада ибн Муслима, который сказал:",
+          "zh": "从他，从穆罕默德·本·阿斯拉姆，从哈伦·本·贾赫姆，从穆罕默德·本·穆斯林，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ أَبُو جَعْفَرٍ ( عليه السلام ) أَيُّمَا ظِئْرٍ قَوْمٍ قَتَلَتْ صَبِيّاً لَهُمْ وَ هِيَ نَائِمَةٌ فَانْقَلَبَتْ عَلَيْهِ فَقَتَلَتْهُ فَإِنَّ عَلَيْهَا الدِّيَةَ مِنْ مَالِهَا خَاصَّةً إِنْ كَانَتْ إِنَّمَا ظَاءَرَتْ طَلَبَ الْعِزِّ وَ الْفَخْرِ وَ إِنْ كَانَتْ إِنَّمَا ظَاءَرَتْ مِنَ الْفَقْرِ فَإِنَّ الدِّيَةَ عَلَى عَاقِلَتِهَا",
+        "translations": {
+          "en": "Abu Ja'far (peace be upon him) said: Whichever wet-nurse of a people kills a child of theirs while she is sleeping, turning over upon it so she kills it, then upon her is the blood-money (diyah) from her own wealth specifically, if she was wet-nursing seeking honour and pride; and if she was wet-nursing out of poverty, then the blood-money is upon her 'aqilah (blood relatives).",
+          "ur": "ابو جعفر (علیہ السلام) نے فرمایا: جس قوم کی دایہ سوتے ہوئے ان کے بچوں میں سے کسی کو مار دے، اپنے اوپر لیٹ کر اسے مارے، تو اس پر خون‌بہ (دیہ) اس کی اپنی جائیداد سے خاص طور پر ہے، اگر وہ دودھ پلانے کے لیے عزت و تکبر کی نیت سے تھی؛ اور اگر وہ دودھ پلانے کے لیے غربت کی وجہ سے تھی، تو خون‌بہ اس کی عاقلہ (خون کے رشتہ داروں) پر ہے۔",
+          "tr": "Ebu Cafer (aleyhisselam) buyurdu ki: Bir kavmin emzirdiği çocuğu, uyurken üzerine dönüp onu öldüren emzikli annenin kan parası (diye), eğer şeref ve gurur için emziryorsa, kendi malından; yoksulluk nedeniyle emziryorsa, kan parası onun akilesinden (kan akrabalarından) olur.",
+          "fa": "ابو جعفر (علیه السلام) فرمود: هرگاه دایه‌ی قوم، کودکی از آنان را در حالی که خوابیده است، بکشد و بر او غلتد تا او را بکشد، پس دیه‌ی آن از مال خود اوست، اگر دایگی را برای عزت و تکبر می‌کرد؛ و اگر دایگی را از روی فقر می‌کرد، پس دیه بر عاقله‌ی اوست.",
+          "id": "Abu Ja'far (alamaihis salam) berkata: \"Barapula susuan (wet-nurse) dari suatu kaum yang membunuh anak mereka saat ia sedang tidur, dengan membalikkan tubuhnya di atasnya sehingga ia mati, maka atas dirinya terdapat diyah dari hartanya sendiri secara khusus, jika ia menyusui untuk mencari kehormatan dan kebanggaan; dan jika ia menyusui karena kemiskinan, maka diyah berada di atas 'aqilah-nya (kerabat darah).\"",
+          "bn": "আবু জা'ফর (রহ.) বলেন, যখন কোনো জনপদের নারীরা তাদের শিশুদের দুধ খাওয়াত, এবং সে ঘুমিয়ে থাকাকালীন একটি শিশুকে মেরে ফেলত, তার উপর চাপ দিয়ে মেরে ফেলত, তবে তার উপর রক্ত-মূল্য (দিয়া) বর্তায়, তার নিজের সম্পদ থেকে, যদি সে সম্মান ও গর্বের জন্য দুধ খাওয়াত; আর যদি সে দারিদ্র্যের কারণে দুধ খাওয়াত, তবে রক্ত-মূল্য তার আকিলাহ (রক্ত-সম্পর্কীয়) এর উপর বর্তায়।",
+          "es": "Abu Ja'far (Spanish): Abu Ja'far (que la paz sea con él) dijo: Cualquiera que sea la nodriza de un pueblo que mate a uno de sus hijos mientras está dormida, al volcarse sobre él para matarlo, entonces sobre ella recae el precio de sangre (diyah) de su propia riqueza específicamente, si estaba amamantando buscando honor y orgullo; y si estaba amamantando por pobreza, entonces el precio de sangre recae sobre su 'aqilah (parientes de sangre).",
+          "fr": "Abou Ja'far (que Ja'far (que la paix soit sur lui) a dit : « Quelle que soit la nourrice d'un peuple qui tue un enfant de ce peuple alors qu'elle dort, en se retournant sur lui pour le tuer, alors la rançon (diyah) est à sa charge spécifiquement, si elle a allaité par quête d'honneur et de fierté ; et si elle a allaité par pauvreté, alors la rançon est à charge de son 'aqilah (ses parents du côté paternel).",
+          "de": "Abu Ja'far (friede sei mit ihm) sagte: Welche Amme eines Volkes auch immer ein Kind von ihnen tötet, während sie schläft, indem sie sich auf es wälzt, so dass sie es tötet, dann obliegt ihr das Blutgeld (Diyah) aus ihrem eigenen Vermögen spezifisch, wenn sie als Amme aus dem Streben nach Ehre und Stolz tätig war; und wenn sie aus Armut als Amme tätig war, dann obliegt das Blutgeld ihrer 'Aqilah (Blutsverwandten).",
+          "ru": "Абу Джафар (да будет мир с ним) сказал: whichever кормилица народа убьет ребенка из их числа, когда она спит, переворачиваясь на него, так что убивает его, то на ней лежит выкуп за кровь (дия) из ее собственного имущества конкретно, если она кормила грудью, стремясь к чести и гордости; а если она кормила грудью из-за бедности, то выкуп за кровь лежит на ее акиле (кровных родственниках).",
+          "zh": "阿布·贾法尔（愿主喜悦之）说：若某人的乳母在熟睡时翻身压死其婴儿，则其血金（迪叶）须从其个人财产中专门支付，若她为求荣耀与骄傲而哺乳；若她因贫困而哺乳，则血金由其阿基拉（血亲）承担。"
+        },
+        "word_start": 1,
+        "word_end": 45
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Abu Ja'far (as) distinguishes between wet-nurses who serve for social prestige and those who serve for financial necessity, assigning personal liability for the former and communal liability via the 'aqilah for the latter. This ruling highlights the Shia jurisprudential principle that the nature of the contractual intent (niyyah) and economic status determines whether the financial burden falls on the individual or the kinship group, reflecting a nuanced approach to accidental homicide (qatl al-khata).",
+        "seo_question": "Who pays the blood money if a wet nurse accidentally kills a baby while sleeping?",
+        "key_terms": {
+          "ظِئْر": "Wet-nurse",
+          "الدِّيَة": "Blood-money / Compensation for death",
+          "عَاقِلَتِهَا": "Her blood relatives (who pay her blood-money)",
+          "طَلَبَ الْعِزِّ": "Seeking honor/status",
+          "مِنَ الْفَقْرِ": "Out of poverty"
+        }
+      },
+      "ur": {
+        "summary": "امام ابو جعفر (علیہ السلام) ان دودھ پلانے والی ماؤں کے درمیان تمیز کرتے ہیں جو معاشرتی وقار کے لیے کام کرتی ہیں اور وہ جو مالی ضرورت کے لیے کام کرتی ہیں، پہلی گروہ کے لیے ذاتی ذمہ داری اور دوسری گروہ کے لیے عاقلہ کے ذریعے اجتماعی ذمہ داری مقرر کرتے ہیں۔ یہ حکم شیعہ فقہی اصول کو اجاگر کرتا ہے کہ عقد کی نیت (نیّت) اور معاشی حیثیت کا تعین کرتی ہے کہ مالی بوجھ فرد پر پڑے گا یا رشتہ داروں کے گروہ پر، جو کہ قتل الخطا کے لیے ایک باریک بین نقطہ نظر کی عکاسی کرتا ہے۔",
+        "seo_question": "اگر دودھ پلانے والی ماؤں میں سے کوئی ایک نیند میں بچے کو غلطی سے مار دے تو خون کی قیمت کون ادا کرے گا؟",
+        "key_terms": {
+          "ظِئْر": "دودھ پلانے والی ماں",
+          "الدِّيَة": "خون کی قیمت",
+          "عَاقِلَتِهَا": "اس کی عاقلہ",
+          "طَلَبَ الْعِزِّ": "عزت و وقار کی تلاش",
+          "مِنَ الْفَقْرِ": "فقر و نیازگی کی وجہ سے"
+        }
+      },
+      "tr": {
+        "summary": "İmam Ebu Cafer (a.s.), sosyal prestij için çalışan emziren anneler ile maddi zorunluluk nedeniyle çalışanları ayırarak, ilk grup için kişisel sorumluluk, ikinci grup için ise 'akile aracılığıyla toplumsal sorumluluk belirler. Bu hüküm, Şii hukukunda sözleşme niyetinin (niyyah) niteliğinin ve ekonomik durumun, maddi yükün bireye mi yoksa akrabalık grubuna mı ait olacağını belirlediğini vurgulayarak, kazaya bağlı öldürme (katl al-hata) konusunda ince bir yaklaşım sergiler.",
+        "seo_question": "Bir emziren anne uyurken bebeği kazayla öldürürse kan parasını kim öder?",
+        "key_terms": {
+          "ظِئْر": "Emziren anne",
+          "الدِّيَة": "Kan parası / Ölüm tazminatı",
+          "عَاقِلَتِهَا": "Kan parasını ödeyen kan akrabaları",
+          "طَلَبَ الْعِزِّ": "Onur/mertebeyi arama",
+          "مِنَ الْفَقْرِ": "Fakirlik nedeniyle"
+        }
+      },
+      "fa": {
+        "summary": "امام ابوجعفر (ع) میان پرستاران شیردهی که برای پرستیژ اجتماعی خدمت می‌کنند و آن‌هایی که برای نیاز مالی خدمت می‌کنند، تمایز قائل می‌شود و مسئولیت شخصی را برای نخستین گروه و مسئولیت جمعی از طریق عاقله را برای گروه دوم تعیین می‌کند. این حکم اصل فقهی شیعه را برجسته می‌سازد که ماهیت قصد قراردادی (نیت) و وضعیت اقتصادی تعیین می‌کند که آیا بار مالی بر دوش فرد است یا گروه خویشاوندی، که رویکردی ظریف در قتل خطا منعکس می‌کند.",
+        "seo_question": "اگر پرستار شیردهی در خواب نوزادی را به طور تصادفی بکشد، کی خون‌بها را می‌پردازد؟",
+        "key_terms": {
+          "ظِئْر": "پرستار شیردهی",
+          "الدِّيَة": "خون‌بها / غرامت مرگ",
+          "عَاقِلَتِهَا": "خویشاوندان زن (که خون‌بها را می‌پردازند)",
+          "طَلَبَ الْعِزِّ": "جستجوی عزت/جایگاه",
+          "مِنَ الْفَقْرِ": "از سر فقر"
+        }
+      },
+      "id": {
+        "summary": "Imam Abu Ja'far (as) membedakan antara pengasuh susu yang melayani untuk prestise sosial dan yang melayani karena kebutuhan finansial, menetapkan tanggung jawab pribadi untuk yang pertama dan tanggung jawab komunal melalui 'aqilah untuk yang terakhir. Hukum ini menyoroti prinsip jurisprudensi Syiah bahwa sifat niat kontrak (niyyah) dan status ekonomi menentukan apakah beban finansial jatuh pada individu atau kelompok kerabat, mencerminkan pendekatan yang halus terhadap pembunuhan tidak sengaja (qatl al-khata).",
+        "seo_question": "Siapa yang membayar darah jika pengasuh susu secara tidak sengaja membunuh bayi saat tidur?",
+        "key_terms": {
+          "ظِئْر": "Pengasuh susu",
+          "الدِّيَة": "Darah / Kompensasi kematian",
+          "عَاقِلَتِهَا": "Kerabat darahnya (yang membayar darahnya)",
+          "طَلَبَ الْعِزِّ": "Mencari kehormatan/status",
+          "مِنَ الْفَقْرِ": "Karena kemiskinan"
+        }
+      },
+      "bn": {
+        "summary": "Imam Abu Ja'far (as) wet-nurses-দের মধ্যে সামাজিক মর্যাদার জন্য কাজ করা এবং আর্থিক প্রয়োজনের জন্য কাজ করা-এর মধ্যে পার্থক্য করেন, প্রথমদের ব্যক্তিগত দায়িত্ব এবং দ্বিতীয়দের 'aqilah-এর মাধ্যমে সাম্প্রদায়িক দায়িত্ব নির্ধারণ করেন। এই রuling-টি Shia ফিকহের নীতিটি তুলে ধরে যে চুক্তির উদ্দেশ্য (niyyah) এবং অর্থনৈতিক অবস্থা নির্ধারণ করে যে আর্থিক বোঝা ব্যক্তির উপর নাকি রক্তের সম্পর্কের গোষ্ঠীর উপর পড়বে, যা আকস্মিক হত্যার (qatl al-khata) ক্ষেত্রে একটি সূক্ষ্ম পদ্ধতি প্রতিফলিত করে।",
+        "seo_question": "যদি একজন wet-nurse ঘুমের মধ্যে শিশুকে আকস্মিকভাবে মেরে ফেলে, তবে রক্তের মূল্য (blood-money) কে দেবে?",
+        "key_terms": {
+          "ظِئْر": "দুগ্ধদায়িনী",
+          "الدِّيَة": "রক্তের মূল্য / মৃত্যুর ক্ষতিপূরণ",
+          "عَاقِلَتِهَا": "তার রক্তের সম্পর্কের ব্যক্তিরা (যারা তার রক্তের মূল্য দেয়)",
+          "طَلَبَ الْعِزِّ": "মর্যাদা/সম্মান অর্জন করা",
+          "مِنَ الْفَقْرِ": "দারিদ্র্য থেকে"
+        }
+      },
+      "es": {
+        "summary": "El Imán Abū Yaʿfar (as) distingue entre las nodrizas que sirven por prestigio social y las que lo hacen por necesidad financiera, asignando responsabilidad personal para las primeras y responsabilidad comunitaria a través de la 'aqilah para las segundas. Este dictamen destaca el principio jurisprudencial chií de que la naturaleza de la intención contractual (niyyah) y el estatus económico determinan si la carga financiera recae en el individuo o en el grupo de parentesco, reflejando un enfoque matizado para la muerte accidental (qatl al-khata).",
+        "seo_question": "¿Quién paga el dinero de sangre si una nodriz mata accidentalmente a un bebé mientras duerme?",
+        "key_terms": {
+          "ظِئْر": "Nodriza",
+          "الدِّيَة": "Dinero de sangre / Compensación por muerte",
+          "عَاقِلَتِهَا": "Sus parientes sanguíneos (que pagan su dinero de sangre)",
+          "طَلَبَ الْعِزِّ": "Buscando honor/estatus",
+          "مِنَ الْفَقْرِ": "Por pobreza"
+        }
+      },
+      "fr": {
+        "summary": "L'imam Abou Ja'far (as) distingue les nourrices qui servent pour le prestige social de celles qui servent par nécessité financière, assignant la responsabilité personnelle pour les premières et la responsabilité communautaire via l'aqilah pour les secondes. Cette règle met en lumière le principe jurisprudentiel chiite selon lequel la nature de l'intention contractuelle (niyyah) et le statut économique déterminent si la charge financière incombe à l'individu ou au groupe de parenté, reflétant une approche nuancée de la mort accidentelle (qatl al-khata).",
+        "seo_question": "Qui paie le prix du sang si une nourrice tue accidentellement un bébé en dormant ?",
+        "key_terms": {
+          "ظِئْر": "Nourrice",
+          "الدِّيَة": "Prix du sang / Compensation pour la mort",
+          "عَاقِلَتِهَا": "Ses parents du sang (qui paient son prix du sang)",
+          "طَلَبَ الْعِزِّ": "Recherche d'honneur/statut",
+          "مِنَ الْفَقْرِ": "Par pauvreté"
+        }
+      },
+      "de": {
+        "summary": "Imam Abu Ja'far (as) unterscheidet zwischen Ammen, die aus sozialem Prestige dienen, und solchen, die aus finanzieller Notwendigkeit arbeiten, und weist der ersteren die persönliche Haftung und der letzteren die gemeinschaftliche Haftung über die 'Aqilah zu. Diese Regelung verdeutlicht das schiitische juristische Prinzip, dass die Art der vertraglichen Absicht (Niyyah) und der wirtschaftliche Status bestimmen, ob die finanzielle Last beim Individuum oder bei der Verwandtschaftsgruppe liegt, was einen differenzierten Ansatz zum zufälligen Totschlag (Qatl al-Khata) widerspiegelt.",
+        "seo_question": "Wer zahlt das Blutgeld, wenn eine Amme im Schlaf ein Baby versehentlich tötet?",
+        "key_terms": {
+          "ظِئْر": "Säugamme",
+          "الدِّيَة": "Blutgeld / Entschädigung für den Tod",
+          "عَاقِلَتِهَا": "Ihre Blutsverwandten (die ihr Blutgeld zahlen)",
+          "طَلَبَ الْعِزِّ": "Ehre/Status suchen",
+          "مِنَ الْفَقْرِ": "Aus Armut"
+        }
+      },
+      "ru": {
+        "summary": "Имам Абу Джафар (мир ему) проводит различие между корми между кормилицами, служащими ради социального престижа, и теми, кто делает это из-за финансовой необходимости, возлагая личную ответственность за первых и общинную ответственность через акиляту за вторых. Это постановление подчеркивает шиитский юридический принцип, согласно которому характер договорного намерения (нийят) и экономическое положение определяют, ложится ли финансовое бремя на индивидуума или на группу родственников, что отражает тонкий подход к случайному убийству (кятль аль-хата).",
+        "seo_question": "Кто платит дию, если кормилица случайно убьет ребенка во время сна?",
+        "key_terms": {
+          "ظِئْر": "кормилица",
+          "الدِّيَة": "дия / компенсация за смерть",
+          "عَاقِلَتِهَا": "ее кровные родственники (которые платят ее дию)",
+          "طَلَبَ الْعِزِّ": "стремление к чести/статусу",
+          "مِنَ الْفَقْرِ": "из-за бедности"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿布·贾法尔（愿主喜悦之）区分了为社会声望而服务的奶妈和为经济 necessities 而服务的奶妈，前者由个人承担个人责任，后者通过‘阿基拉’由社群承担连带责任。这一裁决凸显了什叶派法学原则，即合同意图（尼耶）和经济状况决定了财务负担是落在个人身上还是亲属群体身上，反映了对意外杀人（卡特勒·哈塔）的细致方法。",
+        "seo_question": "如果奶妈在睡觉时意外杀死婴儿，谁支付血钱？",
+        "key_terms": {
+          "ظِئْر": "奶妈",
+          "الدِّيَة": "血钱/死亡赔偿",
+          "عَاقِلَتِهَا": "她的血亲（支付她的血钱的人）",
+          "طَلَبَ الْعِزِّ": "寻求荣誉/地位",
+          "مِنَ الْفَقْرِ": "出于贫困"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:178",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:92",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad قَالَ أَبُو جَعْفَرٍ ( عليه السلام ) أَيُّمَا ظِئْرٍ قَوْمٍ قَتَلَتْ صَبِيّاً لَهُمْ وَ هِيَ نَائِمَةٌ فَانْقَلَبَتْ عَلَيْهِ فَقَتَلَتْهُ فَإِنَّ عَلَيْهَا الدِّيَةَ مِنْ مَالِهَا خَاصَّةً إِنْ كَانَتْ إِنَّمَا ظَاءَرَتْ طَلَبَ الْعِزِّ وَ الْفَخْرِ وَ إِنْ كَانَتْ إِنَّمَا ظَاءَرَتْ مِنَ الْفَقْرِ فَإِنَّ الدِّيَةَ عَلَى عَاقِلَتِهَا",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "قَالَ أَبُو جَعْفَرٍ ( عليه السلام ) أَيُّمَا ظِئْرٍ قَوْمٍ قَتَلَتْ صَبِيّاً لَهُمْ وَ هِيَ نَائِمَةٌ فَانْقَلَبَتْ عَلَيْهِ فَقَتَلَتْهُ فَإِنَّ عَلَيْهَا الدِّيَةَ مِنْ مَالِهَا خَاصَّةً إِنْ كَانَتْ إِنَّمَا ظَاءَرَتْ طَلَبَ الْعِزِّ وَ الْفَخْرِ وَ إِنْ كَانَتْ إِنَّمَا ظَاءَرَتْ مِنَ الْفَقْرِ فَإِنَّ الدِّيَةَ عَلَى عَاقِلَتِهَا",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَنْهُ",
+          "name_en": "from him",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 11
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ أَسْلَمَ",
+          "name_en": "Muhammad b. Aslam",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 362
+        },
+        {
+          "name_ar": "هَارُونَ بْنِ الْجَهْمِ",
+          "name_en": "Harun b. al-Jahm",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 329
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ مُسْلِمٍ",
+          "name_en": "Muhammad ibn Muslim",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 16
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

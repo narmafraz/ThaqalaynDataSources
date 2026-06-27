@@ -1,161 +1,196 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:5:210:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[2] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[0] word 'ما' has no diacritics (must be fully diacritized)",
-    "chunks[0] word 'في' has no diacritics (must be fully diacritized)"
+    "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "knowledge",
-      "prophetic_tradition",
-      "history"
+      "prophetic_tradition"
     ],
-    "content_type": "biographical",
+    "content_type": "narrative",
     "topics": [
       "hadith_sciences",
-      "religious_authority",
-      "teaching"
+      "scholars_virtues"
     ],
     "chunks": [
       {
-        "chunk_type": "opening",
-        "arabic_text": "وَ ما كانَ في هَ عَنِ الْحَسَنِ بْنِ راشِدٍ فَقَدْ رَوَيْتُهُ",
+        "chunk_type": "isnad",
+        "arabic_text": "وَمَا كَانَ فِيهِ عَنِ الْحَسَنِ بْنِ رَاشِدٍ فَقَدْ رَوَيْتُهُ عَن أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَن سَعْدِ بْنِ عَبْدِ اللَّهِ، وَأَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى، وَإِبْرَاهِيمَ بْنِ هَاشِمٍ جَمِيعًا عَنِ الْقَاسِمِ بْنِ يَحْيَى عَن جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ.",
         "translations": {
-          "en": "Whatever is in it from Al-Hasan ibn Rashid, I have indeed narrated it.",
-          "ur": "جو کچھ بھی اس میں الحسن بن راشد سے ہے، میں نے واقعی اسے روایت کیا ہے۔",
-          "tr": "İçinde Al-Hasan ibn Rashid'den ne varsa, gerçekten onu rivayet ettim.",
-          "fa": "هرچه در آن از الحسن بن راشد باشد، من آن را روایت کرده‌ام.",
-          "id": "Apa pun yang ada di dalamnya dari Al-Hasan ibn Rashid, saya memang telah meriwayatkannya.",
-          "bn": "যা কিছু এতে আল-হাসান ইবনে রাশিদ থেকে আছে, আমি তা অবশ্যই বর্ণনা করেছি।",
-          "es": "Lo que sea que haya en él de Al-Hasan ibn Rashid, ciertamente lo he narrado.",
-          "fr": "Tout ce qu'il contient d'Al-Hasan ibn Rashid, je l'ai en effet rapporté.",
-          "de": "Was auch immer darin von Al-Hasan ibn Rashid ist, habe ich tatsächlich überliefert.",
-          "ru": "Все, что в нем от Аль-Хасана ибн Рашида, я действительно передал.",
-          "zh": "无论其中有什么来自الحسنبنراشد，我确实已经传述。"
+          "en": "Everything in this book that is narrated from Al-Hasan ibn Rashid has been transmitted by me from my father - may Allah be pleased with him - from Sad ibn Abdullah, Ahmad ibn Muhammad ibn Isa, and Ibrahim ibn Hashim together, from Al-Qasim ibn Yahya, from his grandfather Al-Hasan ibn Rashid.",
+          "ur": "اور جو کچھ اس کتاب میں الحسن بن راشد سے روایت کیا گیا ہے، وہ میں نے اپنے والد سے روایت کیا ہے — اللہ ان سے راضی ہو — سعد بن عبداللہ، احمد بن محمد بن عیسیٰ، اور ابراہیم بن ہاشم سے، سب القاسم بن یحییٰ سے، ان کے دادا الحسن بن راشد سے روایت کرتے ہیں۔",
+          "tr": "Bu kitapta Hasan bin Râşid'den rivayet edilen her şey, babamdan -Allah ondan razı olsun- Sad bin Abdullah, Ahmed bin Muhammed bin İsa ve İbrahim bin Haşim'in birlikte, Kasım bin Yahya'dan, o da dedesi Hasan bin Râşid'den rivayet etmiştir.",
+          "fa": "و ما در این کتاب از حسن بن راشد روایت شده است، من آن را از پدرم - رضی اللّه عنه - از سعد بن عبدالله، احمد بن محمد بن عیسی، و ابراهیم بن هاشم، همه از القاسم بن یحیی، از پدربزرگش حسن بن راشد روایت کرده‌ام.",
+          "id": "Segala sesuatu dalam kitab ini yang diriwayatkan dari Al-Hasan ibn Rashid telah aku riwayatkan dari ayahku - semoga Allah ridha kepadanya - dari Sa'd ibn Abdullah, Ahmad ibn Muhammad ibn Isa, dan Ibrahim ibn Hashim secara bersama-sama, dari Al-Qasim ibn Yahya, dari kakeknya Al-Hasan ibn Rashid.",
+          "bn": "এই গ্রন্থে আল-হাসান ইবনে রাশিদ থেকে বর্ণিত সকল বিষয় আমি আমার পিতা থেকে বর্ণনা করেছি, যার প্রতি আল্লাহ সন্তুষ্ট; সাঈদ ইবনে আবদুল্লাহ, আহমদ ইবনে মুহাম্মদ ইবনে ইসা, এবং ইব্রাহিম ইবনে হাশিম একত্রে, আল-কাসিম ইবনে ইয়াহ্যা থেকে, তার দাদা আল-হাসান ইবনে রাশিদ থেকে।",
+          "es": "Todo lo que en este libro se narra de Al-Hasan ibn Rashid, lo he transmitido yo de mi padre -que Allah esté complacido con él- de Sad ibn Abdullah, Ahmad ibn Muhammad ibn Isa e Ibrahim ibn Hashim conjuntamente, de Al-Qasim ibn Yahya, de su abuelo Al-Hasan ibn Rashid.",
+          "fr": "Tout ce qui est rapporté dans ce livre d'Al-Hasan ibn Rashid a été transmis par moi, de mon père – qu'Allah l'agrée – de Sad ibn Abdullah, d'Ahmad ibn Muhammad ibn Isa, et d'Ibrahim ibn Hashim ensemble, d'Al-Qasim ibn Yahya, de son grand-père Al-Hasan ibn Rashid.",
+          "de": "Alles in diesem Buch, was von al-Hasan ibn Rashid überliefert wurde, habe ich von meinem Vater – möge Allah ihn zufrieden sein – von Sad ibn Abdullah, Ahmad ibn Muhammad ibn Isa und Ibrahim ibn Hashim gemeinsam, von al-Qasim ibn Yahya, von seinem Großvater al-Hasan ibn Rashid, überliefert.",
+          "ru": "Всё, что в этой книге передано от аль-Хасана ибн Рашида, я передал от моего отца — да будет доволен им Аллах — от Саада ибн Абдуллаха, Ахмада ибн Мухаммада ибн Исы и Ибрахима ибн Хашима совместно, от аль-Касима ибн Яхьи, от его деда аль-Хасана ибн Рашида.",
+          "zh": "书中凡从哈桑·本·拉希德传述的内容，均由我从我父亲（愿主喜悦他）处传述，由萨德·本·阿卜杜拉、艾哈迈德·本·穆罕默德·本·伊萨以及易卜拉欣·本·哈希姆共同传述，他们均从卡西姆·本·叶海亚处传述，由其祖父哈桑·本·拉希德传述。"
         },
         "word_start": 0,
-        "word_end": 11
+        "word_end": 39
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَ أَحْمَدِ بْنِ مُحَمَّدِ بْنِ عِيسى؛ وَ إِبْراهِيمَ بْنِ هاشِمٍ جَمِيعًا عَنِ الْقاسِمِ بْنِ يَحْيى عَنْ جَدِّهِ الْحَسَنِ بْنِ راشِدٍ.",
+        "arabic_text": "وَرَوَيْتُهُ عَن مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَن عَلِيِّ بْنِ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ، عَنِ الْقَاسِمِ بْنِ يَحْيَى، عَن جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ.",
         "translations": {
-          "en": "From my father—may Allah be pleased with him—from Sa'd ibn Abdullah, Ahmad ibn Muhammad ibn Isa, and Ibrahim ibn Hashim together, from Al-Qasim ibn Yahya, from his grandfather Al-Hasan ibn Rashid.",
-          "ur": "میرے والد سے—اللہ ان سے راضی ہو—سعد بن عبد اللہ، احمد بن محمد بن عیسیٰ، اور ابراہیم بن ہاشم سب نے، القاسم بن یحییٰ سے، ان کے دادا الحسن بن راشد سے روایت کی۔",
-          "tr": "Babamdan—Allah ondan razı olsun—Sa'd ibn Abdullah, Ahmed ibn Muhammed ibn İsa ve İbrahim ibn Haşim birlikte, Al-Kasim ibn Yahya'dan, onun dedesi Al-Hasan ibn Rashid'den rivayet ettiler.",
-          "fa": "از پدرم—رضی الله عنه—از سعد بن عبدالله، احمد بن محمد بن عیسی و ابراهیم بن هاشم همه با هم، از القاسم بن یحیی، از جدش الحسن بن راشد روایت شده است.",
-          "id": "Dari ayahku—semoga Allah meridhoi beliau—dari Sa'd ibn Abdullah, Ahmad ibn Muhammad ibn Isa, dan Ibrahim ibn Hashim bersama-sama, dari Al-Qasim ibn Yahya, dari kakeknya Al-Hasan ibn Rashid.",
-          "bn": "আমার পিতা থেকে—আল্লাহ তাঁকে রاضی হন—সাআদ ইবনে আবদুল্লাহ, আহমদ ইবনে মুহাম্মদ ইবনে ঈসা, এবং ইব্রাহিম ইবনে হাশিম সবাই মিলে, আল-কাসিম ইবনে ইয়াহিয়া থেকে, তাঁর দাদা আল-হাসান ইবনে রাশিদ থেকে বর্ণনা করা হয়েছে।",
-          "es": "De mi padre—que Allah esté complacido con él—de Sa'd ibn Abdullah, Ahmad ibn Muhammad ibn Isa, e Ibrahim ibn Hashim juntos, de Al-Qasim ibn Yahya, de su abuelo Al-Hasan ibn Rashid.",
-          "fr": "De mon père—qu'Allah soit satisfait de lui—de Sa'd ibn Abdullah, Ahmad ibn Muhammad ibn Isa, et Ibrahim ibn Hashim ensemble, de Al-Qasim ibn Yahya, de son grand-père Al-Hasan ibn Rashid.",
-          "de": "Von meinem Vater—möge Allah mit ihm zufrieden sein—von Sa'd ibn Abdullah, Ahmad ibn Muhammad ibn Isa und Ibrahim ibn Hashim gemeinsam, von Al-Qasim ibn Yahya, von seinem Großvater Al-Hasan ibn Rashid.",
-          "ru": "От моего отца—да будет доволен им Аллах—от Саада ибн Абдуллы, Ахмада ибн Мухаммада ибн Исы и Ибрахима ибн Хашима вместе, от Аль-Касима ибн Яхьи, от его деда Аль-Хасана ибн Рашида.",
-          "zh": "从我父亲—愿真主喜悦他—从سعدبنعبدالله、أحمدبنمحمدبنعيسى和إبراهيمبنهاشم一起，从القاسمبنيحيى，来自他祖父الحسنبنراشد。"
+          "en": "I have also narrated it from Muhammad ibn Ali Majilawayh - may Allah be pleased with him - from Ali ibn Ibrahim ibn Hashim, from his father, from Al-Qasim ibn Yahya, from his grandfather Al-Hasan ibn Rashid.",
+          "ur": "میں نے بھی اسے مجلویہ محمد بن علی سے روایت کیا ہے - اللہ ان سے راضی ہو - علی بن ابراہیم بن ہاشم سے، ان کے والد سے، القاسم بن یحییٰ سے، ان کے دادا الحسن بن راشد سے۔",
+          "tr": "Ben de onu, Allah ondan razı olsun, Mühammed b. Ali Mâcilâye'den, Ali b. İbrahim b. Haşim'den, babasından, el-Kasım b. Yahya'dan, dedesi el-Hasan b. Reşîd'den rivayet ettim.",
+          "fa": "من همچنین آن را از محمد بن علی مجیلیوه - رضی الله عنه - از علی بن ابراهیم بن هاشم، از پدرش، از القاسم بن یحیی، از پدربزرگش حسن بن راشد روایت کرده‌ام.",
+          "id": "Saya juga meriwayatkannya dari Muhammad bin Ali Majilawayh - semoga Allah ridha kepadanya - dari Ali bin Ibrahim bin Hashim, dari ayahnya, dari Al-Qasim bin Yahya, dari kakeknya Al-Hasan bin Rashid.",
+          "bn": "আমি এটি মুহাম্মাদ ইবনে আলী মাজিলোয়াহ (আল্লাহ তায়ালা তাঁর উপর সন্তুষ্ট হোন) থেকে বর্ণনা করেছি, আলী ইবনে ইব্রাহীম ইবনে হাশিম থেকে, তাঁর পিতা থেকে, আল-কাসিম ইবনে ইয়াহ্যা থেকে, এবং তাঁর দাদা আল-হাসান ইবনে রাশিদ থেকে।",
+          "es": "También lo he narrado de Muhammad ibn Ali al-Majilawayh —que Allah esté satisfecho con él—, de Ali ibn Ibrahim ibn Hashim, de su padre, de Al-Qasim ibn Yahya, de su abuelo Al-Hasan ibn Rashid.",
+          "fr": "Je l'ai également rapporté de Muhammad ibn Ali Majilawayh - qu'Allah l'agrée - d'Ali ibn Ibrahim ibn Hashim, de son père, d'Al-Qasim ibn Yahya, de son grand-père Al-Hasan ibn Rashid.",
+          "de": "Ich habe es auch von Muhammad ibn Ali Majilawayh – möge Allah ihn zufrieden sein – von Ali ibn Ibrahim ibn Hashim, von seinem Vater, von Al-Qasim ibn Yahya, von seinem Großvater Al-Hasan ibn Rashid überliefert.",
+          "ru": "Я также передал это от Мухаммада ибн Али Маджильавейха — да будет доволен им Аллах — от Али ибн Ибрахима ибн Хашима, от его отца, от аль-Касима ибн Яхьи, от его деда аль-Хасана ибн Рашида.",
+          "zh": "我还从穆罕默德·本·阿里·马吉拉韦赫（愿真主喜悦他）传述，从阿里·本·易卜拉欣·本·哈什姆，从他父亲，从卡西姆·本·叶海亚，从他祖父哈桑·本·拉希德传述。"
         },
-        "word_start": 11,
-        "word_end": 41
-      },
-      {
-        "chunk_type": "isnad",
-        "arabic_text": "وَ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ ماجِيلُوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَلِيِّ بْنِ إِبْراهِيمَ بْنِ هاشِمٍ، عَنْ أَبِيهِ، عَنِ الْقاسِمِ بْنِ يَحْيى، عَنْ جَدِّهِ الْحَسَنِ بْنِ راشِدٍ.",
-        "translations": {
-          "en": "And I have narrated it from Muhammad ibn Ali Majilawayh—may Allah be pleased with him—from Ali ibn Ibrahim ibn Hashim, from his father, from Al-Qasim ibn Yahya, from his grandfather Al-Hasan ibn Rashid.",
-          "ur": "اور میں نے اسے محمد بن علی ماجیلویہ—اللہ ان سے راضی ہو—سے روایت کیا ہے، جو علی بن ابراہیم بن ہاشم سے، ان کے والد سے، القاسم بن یحییٰ سے، ان کے دادا الحسن بن راشد سے روایت کرتے ہیں۔",
-          "tr": "Ve ben onu Muhammed ibn Ali Majilawayh—Allah ondan razı olsun—den, Ali ibn İbrahim ibn Haşim'den, babasından, Al-Kasim ibn Yahya'dan, dedesi Al-Hasan ibn Rashid'den rivayet ettim.",
-          "fa": "و من آن را از محمد بن علی ماجیلویه—رضی الله عنه—از علی بن ابراهیم بن هاشم، از پدرش، از القاسم بن یحیی، از جدش الحسن بن راشد روایت کرده‌ام.",
-          "id": "Dan saya telah meriwayatkannya dari Muhammad ibn Ali Majilawayh—semoga Allah meridhoi beliau—dari Ali ibn Ibrahim ibn Hashim, dari ayahnya, dari Al-Qasim ibn Yahya, dari kakeknya Al-Hasan ibn Rashid.",
-          "bn": "এবং আমি এটি মুহাম্মদ ইবনে আলী মজিলাওয়েহ—আল্লাহ তাঁকে রاضی হন—থেকে বর্ণনা করেছি, যিনি আলী ইবনে ইব্রাহিম ইবনে হাশিম থেকে, তাঁর পিতা থেকে, আল-কাসিম ইবনে ইয়াহিয়া থেকে, তাঁর দাদা আল-হাসান ইবনে রাশিদ থেকে বর্ণনা করেন।",
-          "es": "Y lo he narrado de Muhammad ibn Ali Majilawayh—que Allah esté complacido con él—de Ali ibn Ibrahim ibn Hashim, de su padre, de Al-Qasim ibn Yahya, de su abuelo Al-Hasan ibn Rashid.",
-          "fr": "Et je l'ai rapporté de Muhammad ibn Ali Majilawayh—qu'Allah soit satisfait de lui—d'Ali ibn Ibrahim ibn Hashim, de son père, de Al-Qasim ibn Yahya, de son grand-père Al-Hasan ibn Rashid.",
-          "de": "Und ich habe es von Muhammad ibn Ali Majilawayh—möge Allah mit ihm zufrieden sein—von Ali ibn Ibrahim ibn Haşim, von seinem Vater, von Al-Qasim ibn Yahya, von seinem Großvater Al-Hasan ibn Rashid überliefert.",
-          "ru": "И я передал это от Мухаммада ибн Али Маджилувайха—да будет доволен им Аллах—от Али ибн Ибрахима ибн Хашима, от его отца, от Аль-Касима ибн Яхьи, от его деда Аль-Хасана ибн Рашида.",
-          "zh": "我也从محمدبنعليماجيلويه—愿真主喜悦他—从عليبنإبراهيمبنهاشم，从他父亲，从القاسمبنيحيى，从他祖父الحسنبنراشد传述。"
-        },
-        "word_start": 41,
-        "word_end": 68
+        "word_start": 39,
+        "word_end": 67
       }
     ],
     "translations": {
       "en": {
-        "summary": "This passage clarifies the sanad/isnad through which the author transmits reports from Al-Hasan ibn Rashid in Man La Yahduruhu al-Faqih. It preserves two transmission routes, documenting the scholarly chain of narration and the author’s sources.",
-        "seo_question": "What is the transmission chain to Al-Hasan ibn Rashid in Man La Yahduruhu al-Faqih?",
+        "summary": "This passage exemplifies the rigorous methodology of *al-riwayah bi-l-ma’na* (transmission by meaning) and *al-riwayah bi-l-isnad* (transmission by chain) central to Shia hadith scholarship, as articulated by Shaykh al-Saduq. By detailing two distinct transmission routes—one through the network of Ahmad ibn Muhammad ibn Isa and another through Muhammad Ali Majilawayh—the author establishes the robustness and widespread acceptance of Al-Hasan ibn Rashid’s narrations among the Imami scholars. This dual-chain structure serves to authenticate the reliability of the source material within the broader context of the Four Books.",
+        "seo_question": "How is the chain of narration for Al-Hasan ibn Rashid verified in this text?",
         "key_terms": {
-          "رَوَيْتُهُ": "I transmitted it; a formal statement of narration by the compiler.",
-          "الْقاسِمِ بْنِ يَحْيى": "A key transmitter in the chain leading to Al-Hasan ibn Rashid.",
-          "جَدِّهِ": "His grandfather; indicating the familial link within the sanad/isnad.",
-          "الْحَسَنِ بْنِ راشِدٍ": "The narrator to whom this transmission chain leads."
+          "رَوَيْتُهُ": "I narrated it",
+          "سَنَد": "Chain of narrators",
+          "جَدِّهِ": "His grandfather",
+          "رَضِيَ اللَّهُ عَنْهُ": "May Allah be pleased with him"
         }
       },
       "ur": {
-        "summary": "یہ عبارت سند کی وضاحت کرتی ہے جس کے ذریعے مصنف الحسن بن راشد سے من لا يحضره الفقيہ میں روایات نقل کرتا ہے۔ یہ دو روایت کے راستے محفوظ رکھتی ہے، علمی سلسلہ روایت اور مصنف کے ذرائع کو دستاویزی شکل دیتی ہے۔",
-        "seo_question": "من لا يحضره الفقيه میں الحسن بن راشد تک روایت کا سلسلہ کیا ہے؟",
-        "key_terms": {}
+        "summary": "یہ متن شیخ صدوق کی بیان کردہ شیعہ حدیث کی تعلیم میں مرکزی حیثیت رکھنے والی *الروایۃ بالمعنی* (معنی کی بنیاد پر روایت) اور *الروایۃ بالاسناد* (سند کی بنیاد پر روایت) کی سخت طریقہ کار کی مثال پیش کرتا ہے۔ احمد بن محمد بن عیسی اور محمد علی مجیلیویہ کے ذریعے دو مختلف روایتی راستوں کی تفصیل بیان کر کے مصنف نے حسن بن رشیڈ کی روایات کی مضبوطی اور امامی علماء میں ان کی وسیع پذیرائی کو ثابت کیا ہے۔ یہ دوہری سند کی ساخت چار کتب کے وسیع سیاق و سباق میں ماخذ مواد کی اعتمادیت کو مستحکم کرتی ہے۔",
+        "seo_question": "اس متن میں حسن بن رشیڈ کی روایت کی سند کیسے تصدیق کی گئی ہے؟",
+        "key_terms": {
+          "رَوَيْتُهُ": "میں نے اسے روایت کیا",
+          "سَنَد": "روایت کرنے والوں کی زنجیر",
+          "جَدِّهِ": "ان کے دادا",
+          "رَضِيَ اللَّهُ عَنْهُ": "اللہ ان سے راضی ہو"
+        }
       },
       "tr": {
-        "summary": "Bu pasaj, yazarın Man La Yahduruhu al-Faqih'te Al-Hasan ibn Rashid'den rivayetleri aktardığı isnad zincirini açıklamaktadır. İki nakil yolunu koruyarak, ilmî rivayet zincirini ve yazarın kaynaklarını belgelemektedir.",
-        "seo_question": "Man La Yahduruhu al-Faqih'te Al-Hasan ibn Rashid'e olan rivayet zinciri nedir?",
-        "key_terms": {}
+        "summary": "Bu pasaj, Şeyh el-Saduk tarafından ifade edilen Şii hadis ilminin temelini oluşturan *el-riyave bi-l-ma’na* (anlamla rivayet) ve *el-riyave bi-l-isnad* (zincirle rivayet) metodolojisinin titizliğini örneklemektedir. Yazar, Ahmed bin Muhammed bin İsa ağı üzerinden giden ve diğer bir yol da Muhammed Ali Mecilveyh üzerinden giden iki farklı rivayet yolunu detaylandırarak, Hasan bin Reşid’in rivayetlerinin İmami alimler arasında ne kadar sağlam ve yaygın kabul gördüğünü ortaya koymaktadır. Bu çift zincir yapısı, Dört Kitap bağlamında kaynak materyalin güvenilirliğini teyit etmektedir.",
+        "seo_question": "Bu metinde Hasan bin Reşid'in rivayet zinciri nasıl doğrulanmaktadır?",
+        "key_terms": {
+          "رَوَيْتُهُ": "Onu rivayet ettim",
+          "سَنَد": "Ravi zinciri",
+          "جَدِّهِ": "Babası",
+          "رَضِيَ اللَّهُ عَنْهُ": "Allah ondan razı olsun"
+        }
       },
       "fa": {
-        "summary": "این بخش سندی را که نویسنده از طریق آن گزارش‌ها را از الحسن بن راشد در من لا یحضره الفقیه نقل می‌کند، روشن می‌سازد. دو مسیر نقل را حفظ کرده و زنجیره علمی روایت و منابع نویسنده را مستند می‌کند.",
-        "seo_question": "زنجیره انتقال به الحسن بن راشد در من لا یحضره الفقیه چیست؟",
-        "key_terms": {}
+        "summary": "این متن نمونه‌ای از روش‌شناسی دقیق روایت به معنا (الروایة بالمعنی) و روایت به سند (الروایة بالسند) است که در علم حدیث شیعه، همان‌گونه که شیخ صدوق بیان کرده، محوری است. با تشریح دو مسیر انتقال متمایز — یکی از طریق شبکه احمد بن محمد بن عیسی و دیگری از طریق محمدعلی مجیلی — نویسنده استحکام و پذیرش گسترده روایات حسن بن رشی در میان علمای امامیه را تثبیت می‌کند. این ساختار دوگانه سندی، اعتبار منبع را در بافت گسترده‌تر چهار کتاب تأیید می‌نماید.",
+        "seo_question": "زنجیره روایت برای حسن بن رشی در این متن چگونه تأیید می‌شود؟",
+        "key_terms": {
+          "رَوَيْتُهُ": "آن را روایت کردم",
+          "سَنَد": "زنجیره راویان",
+          "جَدِّهِ": "پدربزرگش",
+          "رَضِيَ اللَّهُ عَنْهُ": "خداوند از او خشنود باد"
+        }
       },
       "id": {
-        "summary": "Bagian ini menjelaskan sanad/isnad melalui mana penulis menyampaikan riwayat dari Al-Hasan ibn Rashid dalam Man La Yahduruhu al-Faqih. Ini mempertahankan dua jalur transmisi, mendokumentasikan rantai narasi ilmiah dan sumber penulis.",
-        "seo_question": "Apa rantai transmisi ke Al-Hasan ibn Rashid dalam Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Bagian ini merupakan contoh metodologi ketat dalam *al-riwayah bi-l-ma’na* (transmisi berdasarkan makna) dan *al-riwayah bi-l-isnad* (transmisi berdasarkan sanad) yang menjadi pusat kajian hadis Syiah, sebagaimana diuraikan oleh Syekh al-Shaduq. Dengan merinci dua jalur transmisi yang berbeda—satu melalui jaringan Ahmad bin Muhammad bin Isa dan lainnya melalui Muhammad Ali Majilawayh—penulis menegaskan keteguhan dan penerimaan luas terhadap riwayat Al-Hasan bin Rashid di kalangan ulama Imamiyah. Struktur dual-sanad ini berfungsi untuk mengautentikasi keandalan sumber materi dalam konteks yang lebih luas dari Empat Kitab.",
+        "seo_question": "Bagaimana sanad riwayat Al-Hasan bin Rashid diverifikasi dalam teks ini?",
+        "key_terms": {
+          "رَوَيْتُهُ": "Saya meriwayatkannya",
+          "سَنَد": "Rantai perawi",
+          "جَدِّهِ": "Kakeknya",
+          "رَضِيَ اللَّهُ عَنْهُ": "Semoga Allah ridha kepadanya"
+        }
       },
       "bn": {
-        "summary": "এই অংশটি সেই sanad/isnad স্পষ্ট করে যার মাধ্যমে লেখক ম্যান লা ইয়াহদুরুহু আল-ফাকিহ-এ আল-হাসান ইবনে রাশিদ থেকে প্রতিবেদনগুলি প্রেরণ করেন। এটি দুটি প্রেরণ পথ সংরক্ষণ করে, বর্ণনামূলক শৃঙ্খলা এবং লেখকের উৎসগুলি নথিভুক্ত করে।",
-        "seo_question": "ম্যান লা ইয়াহদুরুহু আল-ফাকিহ-এ আল-হাসান ইবনে রাশিদ পর্যন্ত প্রেরণ শৃঙ্খলা কী?",
-        "key_terms": {}
+        "summary": "এই অংশে শায়খ আল-সাদুকের মতামত অনুযায়ী শিয়া হাদিস বিদ্যায় কেন্দ্রীয় গুরুত্বপূর্ণ পদ্ধতি *আল-রিওয়াহ বিল-মা’না* (অর্থের মাধ্যমে বর্ণনা) এবং *আল-রিওয়াহ বিল-ইসনাদ* (সনদের মাধ্যমে বর্ণনা) এর কঠোর পদ্ধতিগত প্রয়োগ দেখা যায়। আহমদ ইবনে মুহাম্মদ ইবনে ইসা নেটওয়ার্কের মাধ্যমে এবং মুহাম্মদ আলী মাজিলওয়াইহের মাধ্যমে দুটি ভিন্ন বর্ণনা সনদ বিস্তারিতভাবে উল্লেখ করে, লেখক আল-হাসান ইবনে রশিদের বর্ণনাগুলি ইমামি বিদ্বানদের মধ্যে কতটা শক্তিশালী এবং ব্যাপকভাবে গ্রহণযোগ্য তা প্রতিষ্ঠা করেন। এই দ্বৈত-সনদ কাঠামো চারটি প্রধান গ্রন্থের (আল-কিতাব আল-আরবাআহ) প্রেক্ষাপটে উৎসের নির্ভরযোগ্যতা যাচাই করতে সাহায্য করে।",
+        "seo_question": "এই পাঠ্যে আল-হাসান ইবনে রশিদের বর্ণনা সনদ কীভাবে যাচাই করা হয়েছে?",
+        "key_terms": {
+          "رَوَيْتُهُ": "আমি এটি বর্ণনা করেছি",
+          "سَنَد": "বর্ণনাকারীদের সনদ",
+          "جَدِّهِ": "তার দাদা",
+          "رَضِيَ اللَّهُ عَنْهُ": "আল্লাহ তাকে সন্তুষ্ট হোন"
+        }
       },
       "es": {
-        "summary": "Este pasaje aclara la cadena de transmisión (sanad/isnad) a través de la cual el autor transmite relatos de Al-Hasan ibn Rashid en Man La Yahduruhu al-Faqih. Preserva dos rutas de transmisión, documentando la cadena de narración académica y las fuentes del autor.",
-        "seo_question": "¿Cuál es la cadena de transmisión a Al-Hasan ibn Rashid en Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Este pasaje ejemplifica la rigurosa metodología de *al-riwayah bi-l-ma’na* (transmisión por el significado) y *al-riwayah bi-l-isnad* (transmisión por la cadena) central en la erudición de los hadices chiíes, según lo articulado por Shaykh al-Saduq. Al detallar dos rutas de transmisión distintas —una a través de la red de Ahmad ibn Muhammad ibn Isa y otra a través de Muhammad Ali Majilawayh—, el autor establece la solidez y la amplia aceptación de las narraciones de Al-Hasan ibn Rashid entre los eruditos Imamíes. Esta estructura de doble cadena sirve para autenticar la fiabilidad del material fuente dentro del contexto más amplio de los Cuatro Libros.",
+        "seo_question": "¿Cómo se verifica la cadena de narración de Al-Hasan ibn Rashid en este texto?",
+        "key_terms": {
+          "رَوَيْتُهُ": "Lo narré",
+          "سَنَد": "Cadena de narradores",
+          "جَدِّهِ": "Su abuelo",
+          "رَضِيَ اللَّهُ عَنْهُ": "Que Allah esté complacido con él"
+        }
       },
       "fr": {
-        "summary": "Ce passage clarifie la chaîne de transmission (sanad/isnad) par laquelle l'auteur transmet des récits d'Al-Hasan ibn Rashid dans Man La Yahduruhu al-Faqih. Il préserve deux voies de transmission, documentant la chaîne savante de narration et les sources de l'auteur.",
-        "seo_question": "Quelle est la chaîne de transmission jusqu'à Al-Hasan ibn Rashid dans Man La Yahduruhu al-Faqih ?",
-        "key_terms": {}
+        "summary": "Ce passage illustre la méthodologie rigoureuse de l'al-riwayah bi-l-ma'na (transmission par le sens) et de l'al-riwayah bi-l-isnad (transmission par la chaîne), centrales dans la science des hadiths chiites, telle qu'articulée par Cheikh al-Saduq. En détaillant deux voies de transmission distinctes — l'une par le réseau d'Ahmad ibn Muhammad ibn Isa et l'autre par Muhammad Ali Majilawayh — l'auteur établit la robustesse et l'acceptation généralisée des narrations d'Al-Hasan ibn Rashid parmi les savants imamis. Cette structure à double chaîne sert à authentifier la fiabilité de la source dans le contexte plus large des Quatre Livres.",
+        "seo_question": "Comment la chaîne de narration d'Al-Hasan ibn Rashid est-elle vérifiée dans ce texte ?",
+        "key_terms": {
+          "رَوَيْتُهُ": "Je l'ai narré",
+          "سَنَد": "Chaîne de narrateurs",
+          "جَدِّهِ": "Son grand-père",
+          "رَضِيَ اللَّهُ عَنْهُ": "Qu'Allah soit satisfait de lui"
+        }
       },
       "de": {
-        "summary": "Dieser Abschnitt erläutert die Isnad, durch die der Autor Berichte von Al-Hasan ibn Rashid in Man La Yahduruhu al-Faqih überliefert. Er bewahrt zwei Übertragungswege und dokumentiert die wissenschaftliche Überlieferungskette sowie die Quellen des Autors.",
-        "seo_question": "Wie lautet die Überlieferungskette zu Al-Hasan ibn Rashid in Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Dieser Abschnitt veranschaulicht die strenge Methodik der *al-riwayah bi-l-ma’na* (Übermittlung durch die Bedeutung) und *al-riwayah bi-l-isnad* (Übermittlung durch die Kette), die für die schiitische Hadith-Wissenschaft zentral sind, wie sie von Scheich al-Saduq dargelegt wird. Durch die Darstellung zweier unterschiedlicher Überlieferungswege – einer durch das Netzwerk von Ahmad ibn Muhammad ibn Isa und ein anderer durch Muhammad Ali Majilawayh – etabliert der Autor die Robustheit und weit verbreitete Akzeptanz der Überlieferungen von Al-Hasan ibn Rashid unter den Imami-Scholarern. Diese Doppelkettenstruktur dient der Authentifizierung der Zuverlässigkeit des Quellenmaterials im weiteren Kontext der Vier Bücher.",
+        "seo_question": "Wie wird in diesem Text die Überlieferungskette für Al-Hasan ibn Rashid verifiziert?",
+        "key_terms": {
+          "رَوَيْتُهُ": "Ich überlieferte es",
+          "سَنَد": "Überliefererkette",
+          "جَدِّهِ": "Sein Großvater",
+          "رَضِيَ اللَّهُ عَنْهُ": "Möge Allah mit ihm zufrieden sein"
+        }
       },
       "ru": {
-        "summary": "Этот отрывок разъясняет цепочку передачи (санад/иснад), через которую автор передает сообщения от Аль-Хасана ибн Рашида в «Ман Ла Яхдуруху аль-Факих». Он сохраняет два пути передачи, документируя научную цепочку передачи и источники автора.",
-        "seo_question": "Какова цепочка передачи к Аль-Хасану ибн Рашиду в «Ман Ла Яхдуруху аль-Факих»?",
-        "key_terms": {}
+        "summary": "Этот отрывок иллюстрирует строгую методологию *аль-равиyah би-ль-ма’на* (передача по смыслу) и *аль-равиyah би-ль-иснад* (передача по цепи передатчиков*, центральную для шиитской хадисоведческой науки, как её изложил шейх ас-Садуq. Детально описывая два различных пути передачи — один через сеть Ахмада ибн Мухаммада ибн Исы, а другой через Мухаммада Али Маджильавейха, — автор устанавливает надёжность и широкое признание повествований аль-Хасана ибн Рашида среди имамитских учёных. Эта структура двойной цепи служит для подтверждения достоверности исходного материала в более широком контексте «Четырёх книг».",
+        "seo_question": "Как в данном тексте проверяется цепь передачи для аль-Хасана ибн Рашида?",
+        "key_terms": {
+          "رَوَيْتُهُ": "Я передал его",
+          "سَنَد": "Цепь передатчиков",
+          "جَدِّهِ": "Его дед",
+          "رَضِيَ اللَّهُ عَنْهُ": "Да будет доволен им Аллах"
+        }
       },
       "zh": {
-        "summary": "本段阐明作者在《منلايحضرهالفقیه》中传述来自الحسنبنراشد的传承链（sanad/isnad）。它保留了两条传递路径，记录了学术传述链和作者的来源。",
-        "seo_question": "《منلايحضرهالفقیه》中到الحسنبنراشد的传承链是什么？",
-        "key_terms": {}
+        "summary": "这段文字体现了沙赫·萨杜克所阐述的什叶派圣训学中核心的传述方法论，即意义传述（al-riwayah bi-l-ma’na）和链条传述（al-riwayah bi-l-isnad）。通过详述两条不同的传述路径——一条经由艾哈迈德·伊本·穆罕默德·伊本·伊萨的网络，另一条经由穆罕默德·阿里·马吉拉维海——作者确立了哈桑·伊本·拉希德的传述在伊玛目派学者中的可靠性和广泛接受度。这种双链条结构在四书的大背景下证实了资料来源的可靠性。",
+        "seo_question": "本文如何验证哈桑·伊本·拉希德的传述链条？",
+        "key_terms": {
+          "رَوَيْتُهُ": "我传述了它",
+          "سَنَد": "传述链条",
+          "جَدِّهِ": "他的祖父",
+          "رَضِيَ اللَّهُ عَنْهُ": "愿真主喜悦他"
+        }
       }
     },
-    "related_quran": [],
-    "diacritized_text": "وَ ما كانَ في هَ عَنِ الْحَسَنِ بْنِ راشِدٍ فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَ أَحْمَدِ بْنِ مُحَمَّدِ بْنِ عِيسى؛ وَ إِبْراهِيمَ بْنِ هاشِمٍ جَمِيعًا عَنِ الْقاسِمِ بْنِ يَحْيى عَنْ جَدِّهِ الْحَسَنِ بْنِ راشِدٍ. وَ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ ماجِيلُوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَلِيِّ بْنِ إِبْراهِيمَ بْنِ هاشِمٍ، عَنْ أَبِيهِ، عَنِ الْقاسِمِ بْنِ يَحْيى، عَنْ جَدِّهِ الْحَسَنِ بْنِ راشِدٍ.",
+    "related_quran": [
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:3",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا كَانَ فِيهِ عَنِ الْحَسَنِ بْنِ رَاشِدٍ فَقَدْ رَوَيْتُهُ عَن أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَن سَعْدِ بْنِ عَبْدِ اللَّهِ، وَأَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى، وَإِبْرَاهِيمَ بْنِ هَاشِمٍ جَمِيعًا عَنِ الْقَاسِمِ بْنِ يَحْيَى عَن جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ. وَرَوَيْتُهُ عَن مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَن عَلِيِّ بْنِ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ، عَنِ الْقَاسِمِ بْنِ يَحْيَى، عَن جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ.",
     "isnad_matn": {
-      "isnad_ar": "عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ؛ وَ أَحْمَدِ بْنِ مُحَمَّدِ بْنِ عِيسى؛ وَ إِبْراهِيمَ بْنِ هاشِمٍ جَمِيعًا عَنِ الْقاسِمِ بْنِ يَحْيى عَنْ جَدِّهِ الْحَسَنِ بْنِ راشِدٍ. وَ رَوَيْتُهُ عَنْ مُحَمَّدِ بْنِ عَلِيٍّ ماجِيلُوَيْهِ- رَضِيَ اللَّهُ عَنْهُ- عَنْ عَلِيِّ بْنِ إِبْراهِيمَ بْنِ هاشِمٍ، عَنْ أَبِيهِ، عَنِ الْقاسِمِ بْنِ يَحْيى، عَنْ جَدِّهِ الْحَسَنِ بْنِ راشِدٍ.",
-      "matn_ar": "وَ ما كانَ في هَ عَنِ الْحَسَنِ بْنِ راشِدٍ فَقَدْ رَوَيْتُهُ",
+      "isnad_ar": "وَمَا كَانَ فِيهِ عَنِ الْحَسَنِ بْنِ رَاشِدٍ فَقَدْ رَوَيْتُهُ عَن أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَن سَعْدِ بْنِ عَبْدِ اللَّهِ، وَأَحْمَدَ بْنِ مُحَمَّدِ بْنِ عِيسَى، وَإِبْرَاهِيمَ بْنِ هَاشِمٍ جَمِيعًا عَنِ الْقَاسِمِ بْنِ يَحْيَى عَن جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ. وَرَوَيْتُهُ عَن مُحَمَّدِ بْنِ عَلِيٍّ مَاجِيلَوَيْهَ - رَضِيَ اللَّهُ عَنْهُ - عَن عَلِيِّ بْنِ إِبْرَاهِيمَ بْنِ هَاشِمٍ، عَن أَبِيهِ، عَنِ الْقَاسِمِ بْنِ يَحْيَى، عَن جَدِّهِ الْحَسَنِ بْنِ رَاشِدٍ.",
+      "matn_ar": "ه عن الحسن بن راشد فقد رويته عن أبي- رضي اللّه عنه- عن سعد بن عبد اللّه؛ و أحمد بن محمّد بن عيسى؛ و إبراهيم بن هاشم جميعا عن القاسم بن يحيى عن جدّه الحسن بن راشد. و رويته عن محمّد بن عليّ ماجيلويه- رضي اللّه عنه- عن عليّ بن إبراهيم بن هاشم، عن أبيه، عن القاسم بن يحيى، عن جدّه الحسن بن راشد.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "ما كان في",
-          "name_en": "",
+          "name_en": "Ma kana fi",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -175,6 +210,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

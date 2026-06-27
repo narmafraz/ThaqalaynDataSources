@@ -1,0 +1,342 @@
+{
+  "verse_path": "/books/al-kafi:5:3:22:6",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-10",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[4] name_ar has 33 words (>14, بن-density 0.09 — likely a sentence fragment, not a name): 'أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّ عَلِيَّ بْنَ الْح'",
+    "chunks[0] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'صلى' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[2] word 'وآله' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[3] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "family",
+      "social_relations",
+      "history"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "marriage_family_law",
+      "imams_biography",
+      "events",
+      "spousal_rights"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ فَضَّالٍ عَنْ ثَعْلَبَةَ بْنِ مَيْمُونٍ عَمَّنْ يَرْوِي عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from his father, from Ibn Fazzal, from Thal'abah ibn Maymun, from the one who reports it, from Abu Abdillah (peace be upon him)",
+          "ur": "علی بن ابراہیم، ان کے والد سے، ابن فضال سے، ثعلبہ بن میمون سے، اس شخص سے جو یہ روایت کرتا ہے، ابوعبد اللہ (علیہ السلام) سے",
+          "tr": "Ali b. İbrahim, babasından, İbn Fazzal'dan, Tal'a b. Meymûn'dan, onu rivayet edenden, Ebu Abdillah'dan (aleyhisselam)",
+          "fa": "علی بن ابراهیم از پدرش از ابن فضال از ثعلبه بن میمون از آن کس که روایت می‌کند از ابوعبدالله (علیه السلام)",
+          "id": "Ali bin Ibrahim dari ayahnya, dari Ibn Fazzal, dari Thal'abah bin Maymun, dari orang yang meriwayatkannya, dari Abu Abdillah (alamah)",
+          "bn": "আলী ইবনে ইবরাহীম, তাঁর পিতার নিকট হতে, ইবনে ফাজ্জালের নিকট হতে, থা'লাবা ইবনে মাইমূনের নিকট হতে, যে ব্যক্তি তা বর্ণনা করেন, তিনি আবু আবদিল্লাহ (আলাইহিস সালাম) নিকট হতে বর্ণনা করেন",
+          "es": "Alí ibn Ibrāhīm, de su padre, de Ibn Fazzāl, de Thal'abah ibn Maymūn, de quien lo relata, de Abū 'Abdillāh (la paz sea con él)",
+          "fr": "Ali ibn Ibrahim, de son père, d'Ibn Fazzal, de Thal'abah ibn Maymun, de celui qui le rapporte, d'Abou Abdillah (que la paix soit sur lui)",
+          "de": "Ali ibn Ibrahim von seinem Vater, von Ibn Fazzal, von Thal'abah ibn Maymun, von dem, der es überliefert, von Abu Abdillah (Friede sei mit ihm)",
+          "ru": "Али ибн Ибрахим, от его отца, от Ибн Фаззала, от Саляба ибн Маймуна, от того, кто передает это, от Абу Абдилляха (да будет мир с ним)",
+          "zh": "阿里·本·易卜拉欣，从他父亲，从伊本·法扎勒，从萨阿勒巴·本·迈蒙，从传述者，从阿布·阿卜杜拉（愿主福安之）"
+        },
+        "word_start": 0,
+        "word_end": 22
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَنَّ عَلِيَّ بْنَ الْحُسَيْنِ ( عليه السلام ) تَزَوَّجَ سُرِّيَّةً كَانَتْ لِلْحَسَنِ بْنِ عَلِيٍّ ( عليه السلام ) فَبَلَغَ ذَلِكَ عَبْدَ الْمَلِكِ بْنِ مَرْوَانَ فَكَتَبَ إِلَيْهِ فِي ذَلِكَ كِتَاباً أَنَّكَ صِرْتَ بَعْلَ الْإِمَاءِ",
+        "translations": {
+          "en": "That Ali ibn al-Husayn (peace be upon him) married a slave-girl who belonged to al-Hasan ibn Ali (peace be upon him). So that news reached Abd al-Malik ibn Marwan, and he wrote to him a letter saying: 'You have become the master of slave-girls.'",
+          "ur": "یہ خبر ہوئی کہ علی بن الحسین (علیہ السلام) نے حسن بن علی (علیہ السلام) کی ایک غلامی سے شادی کی۔ تو یہ خبر عبدالملک بن مروان تک پہنچی، اور انہوں نے انہیں خط لکھا کہ: تم غلامیوں کے مالک ہو گئے ہو۔",
+          "tr": "Ali ibn el-Hüseyin (aleyhisselam), el-Hasan ibn Ali'nin (aleyhisselam) kölesi olan bir cariye ile evlendi. Bu haber Abdülmelik bin Mervan'a ulaştı ve ona şu mektubu yazdı: 'Sen cariyelerin efendisi oldun.'",
+          "fa": "آن علی بن الحسین (علیه السلام) کنیزی را که از آن حسن بن علی (علیه السلام) بود، به همسری گرفت. پس آن خبر به عبدالملک بن مروان رسید و او نامه‌ای برای او نوشت که گفت: «تو مالک کنیزان شده‌ای.»",
+          "id": "Bahwa Ali bin Husayn (alamah) menikahkan seorang budak perempuan yang milik al-Hasan bin Ali (alamah). Maka berita itu sampai kepada Abd al-Malik bin Marwan, dan ia menulis surat kepadanya yang berbunyi: 'Kau telah menjadi tuan para budak perempuan.'",
+          "bn": "আলী ইবনে হুসাইন (রহ.) আল-হাসান ইবনে আলী (রহ.)-এর এক দাসীকে বিবাহ করেন। তাই এই খবর আবদুল মালিক ইবনে মারওয়ানের কাছে পৌঁছায়, এবং তিনি তাঁকে একটি চিঠি লেখেন যে, 'তুমি দাসীদের মালিক হয়ে গেছ।'",
+          "es": "Que Ali ibn al-Husayn (la paz sea con él) se casó con una esclava que pertenecía a al-Hasan ibn Ali (la paz sea con él). Llegó esa noticia a Abd al-Malik ibn Marwan, y le escribió una carta diciendo: \"Te has convertido en el señor de las esclavas\".",
+          "fr": "Qu'Ali ibn al-Husayn (que la paix soit sur lui) a épousé une esclave qui appartenait à al-Hasan ibn Ali (que la paix soit sur lui). Cette nouvelle parvint à Abd al-Malik ibn Marwan, qui lui écrivit une lettre disant : « Tu es devenu le maître des esclaves. »",
+          "de": "Dass Ali ibn al-Hus-Husayn (friede sei mit ihm) ein Sklavenmädchen heiratete, das zu al-Hasan ibn Ali (friede sei mit ihm) gehörte. Diese Nachricht erreichte Abd al-Malik ibn Marwan, und er schrieb ihm einen Brief mit den Worten: 'Du bist zum Herrn der Sklavenmädchen geworden.'",
+          "ru": "То Али ибн аль-Хусайн (да будет над ним мир) женился на рабыне, принадлежавшей аль-Хасану ибн Али (да будет над ним мир). Эта весть достигла Абд аль-Малика ибн Марвана, и он написал ему письмо, сказав: «Ты стал хозяином рабынь».",
+          "zh": "阿里·本胡赛因（愿主喜悦之）娶了哈桑本阿里（愿主喜悦之）的一名婢女。此事的消息传到了阿卜杜勒马利克本马尔万那里，他便给他写了一封信说：你已成为婢女的主人。"
+        },
+        "word_start": 22,
+        "word_end": 55
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَكَتَبَ إِلَيْهِ عَلِيُّ بْنُ الْحُسَيْنِ ( عليه السلام ) أَنَّ اللَّهَ رَفَعَ بِالْإِسْلَامِ الْخَسِيسَةَ وَ أَتَمَّ بِهِ النَّاقِصَةَ فَأَكْرَمَ بِهِ مِنَ اللُّؤْمِ فَلَا لُؤْمَ عَلَى مُسْلِمٍ إِنَّمَا اللُّؤْمُ لُؤْمُ الْجَاهِلِيَّةِ إِنَّ رَسُولَ اللَّهِ ( صلى الله عليه وآله ) أَنْكَحَ عَبْدَهُ وَ نَكَحَ أَمَتَهُ",
+        "translations": {
+          "en": "So Ali ibn al-Husayn (peace be upon him) wrote to him: 'Allah has raised by Islam the lowly, and perfected with it the deficient, and honored it from the blame (of servitude). So there is no blame upon a Muslim; indeed, the blame is the blame of Ignorance. Verily, the Messenger of Allah (peace be upon him and his family) married off his slave and married his slave-girl.'",
+          "ur": "پس علی بن الحسین (علیہ السلام) نے انہیں لکھا: \"اللہ تعالیٰ نے اسلام کے ذریعے ذلیل کو عزت دی، اور اس کے ساتھ ناقص کو کامل بنایا، اور اسے عیب (غلامی) سے محفوظ رکھا۔ پس مسلمان پر کوئی عیب نہیں، بے شک عیب ہی عیبِ جاہلیت ہے۔ بے شک رسول اللہ (صلی اللہ علیہ و آلہ وسلم) نے اپنے غلام کی شادی کی اور اپنی غلامی کی شادی کی۔\"",
+          "tr": "Böylece Ali bin el-Hüseyin (aleyhisselam) ona) ona şunları yazdı: 'Allah, İslam ile alçakları yüceltti, eksik olanları onunla tamamladı ve onu (İslam'ı) köleliğin eleştirisinden onurlandırdı. Öyleyse bir Müslüman'ın üzerinde bir eleştiri yoktur; zira eleştiri, Cehalet'in eleştirisidir. Şüphesiz, Allah'ın Rasûlü (aleyhisselam ve âli) kölesini evlendirdi ve köle kızını evlendirdi.'",
+          "fa": "پس علی بن الحسین (علیه السلام) به او نوشت: «خداوند به وسیله اسلام، خواران را بلند کرد و با آن، ناقصان را کامل گردانید و آن را از سرزنج (بردگی) گرامی داشت. پس بر مسلمان سرزنجی نیست؛ که سرزنج، سرزنج جاهلیت است. بی‌گمان، پیامبر خدا (صلی الله علیه و آله و سلم) بنده خود را ازدواج داد و کنیز خود را به ازدواج درآورد.»",
+          "id": "Maka Ali bin al-Husayn (alamah) menulis kepadanya: 'Allah telah mengangkat yang hina dengan Islam, dan menyempurnakan yang kurang dengannya, dan memuliakannya dari cela (kerendahan). Maka tidak ada cela atas seorang Muslim; sesungguhnya, cela itu adalah cela Jahiliyah. Sesungguhnya, Rasulullah (shallallahu alaihi wa alihi) menikahkan hamba sahaya laki-lakinya dan menikahkan hamba sahaya perempuannya.'",
+          "bn": "অতএব আলী ইবনে হুসাইন (আলাইহিস সালাম) তাঁকে লিখলেন: 'আল্লাহ্ ইসলামের মাধ্যমে নীচশ্রেণিকে উন্নীত করেছেন, এর দ্বারা অভাবপূর্ণতাকে সম্পন্ন করেছেন এবং দাসত্বের দোষ থেকে এঁকে সম্মানিত করেছেন। অতএব মুসলমানের উপর কোনো দোষ নেই; নিশ্চয়ই দোষ হলো জাহিলিয়াতের দোষ। নিশ্চয়ই রাসুলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সালাম) তাঁর দাসকে বিবাহ দিয়েছিলেন এবং তাঁর দাসীকে বিবাহ করিয়েছিলেন।'",
+          "es": "Así, Ali ibn al-Husayn (la paz sea con él) le escribió: «Allah ha elevado por medio del Islam a los humildes, y lo ha perfeccionado con él para los deficientes, y lo ha honrado de la culpa (de la servidumbre). Por lo tanto, no hay culpa sobre un musulmán; en verdad, la culpa es la culpa de la Ignorancia. Ciertamente, el Mensajero de Allah (la paz sea con él y con su familia) casó a su esclavo y casó a su esclava.",
+          "fr": "Ainsi, Ali ibn al-Husayn (que la paix soit sur lui) lui écrivit : « Allah a élevé par l'islam les humbles, et perfectionné avec lui les déficients, et les a honorés de l'infamie (de la servitude). Ainsi, il n'y a point d'infamie sur un musulman ; en vérité, l'infamie est l'infamie de l'Ignorance. Certes, le Messager d'Allah (que la paix soit sur lui et sur sa famille) a marié son esclave et marié sa servante.",
+          "de": "So schrieb Ali ibn al-Husayn (Friede sei mit ihm) zu ihm: „Allah hat durch den Islam die Geringgeschätzten erhöht und durch ihn die Mangelhaften vervollkommnet und ihn von der Tadelbarkeit (der Sklaverei) befreit. Daher liegt kein Tadel auf einem Muslim; wahrlich, der Tadel ist der Tadel der Unwissenheit. Wahrlich, der Gesandte Allahs (Friede sei mit ihm und seiner Familie) verheiratete seinen Sklaven und verheiratete seine Sklavin.",
+          "ru": "Поэтому Али ибн аль-Хусайн (да будет мир с ним) написал ему: «Аллах возвысил посредством ислама униженных, завершил посредством него то, что было неполным, и прославил его от укоризны (рабства). Поэтому нет укоризны на мусульманине; поистине, укоризна — это укоризна невежества. Поистине, Посланник Аллаха (мир ему и его семье) выдал замуж свою рабыню и женил своего раба.",
+          "zh": "因此，阿里·本·侯赛因（愿主福安之）给他写信说：‘真主通过伊斯兰教抬举了卑微者，以它完善了不足者，并使其免于被奴役的耻辱。因此，穆斯林身上没有耻辱；确实，耻辱是蒙昧时代的耻辱。真主的使者（愿主福安之及其家人）曾为他的男奴娶妻，也为他的女奴嫁人。’"
+        },
+        "word_start": 55,
+        "word_end": 99
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمَّا انْتَهَى الْكِتابُ إِلَى عَبْدِ الْمَلِكِ قَالَ لِمَنْ عِنْدَهُ خَبِّرُونِي عَنْ رَجُلٍ إِذَا أَتَى مَا يَضَعُ النَّاسَ لَمْ يَزِدْهُ إِلَّا شَرَفاً قَالُوا ذَاكَ أَمِيرُ الْمُؤْمِنِينَ قَالَ لَا وَ اللَّهِ مَا هُوَ ذَاكَ قَالُوا مَا نَعْرِفُ إِلَّا أَمِيرَ الْمُؤْمِنِينَ قَالَ فَلَا وَ اللَّهِ مَا هُوَ بِأَمِيرِ الْمُؤْمِنِينَ وَ لَكِنَّهُ عَلِيُّ بْنُ الْحُسَيْنِ ( عليه السلام )",
+        "translations": {
+          "en": "So when the letter reached Abd al-Malik, he said to those around him: 'Inform me about a man, when what humbles the people comes upon him, it does not increase him except in nobility.' They said: 'That is the Commander of the Faithful.' He said: 'No, by Allah, he is not that.' They said: 'We know no one except the Commander of the Faithful.' He said: 'No, by Allah! He is not the Commander of the Faithful, but he is Ali ibn al-Husayn (peace be upon him).'",
+          "ur": "پس جب خط عبدالملک کے پاس پہنچا تو اس نے اپنے آس پاس والوں سے کہا: مجھے ایک شخص کے بارے میں بتاؤ جس پر جب لوگوں کو ذلیل کرنے والا حال طاری ہوتا ہے تو اس کی عزت میں اضافہ ہوتا ہے۔ انہوں نے کہا: یہ تو امیر المومنین ہیں۔ اس نے کہا: نہیں، اللہ کی قسم، وہ ایسا نہیں ہے۔ انہوں نے کہا: ہم امیر المومنین کے سوا کسی اور کو نہیں جانتے۔ اس نے کہا: نہیں، اللہ کی قسم! وہ امیر المومنین نہیں بلکہ وہ علی بن الحسین (علیہ السلام) ہیں۔",
+          "tr": "Böylece mektup Abdülmelik'e ulaştığında, etrafındakilere: 'İnsanları alçaltan şey ona geldiğinde, onu yalnızca asaletini artıran bir adamdan bahsedin,' dedi. Onlar da: 'O, Müminlerin Emiri'dir,' dediler. O da: 'Hayır, Allah'a yemin ederim ki, o öyle değildir,' dedi. Onlar: 'Müminlerin Emiri dışında kimse bilmiyoruz,' dediler. O da: 'Hayır, Allah'a yemin ederim! O Müminlerin Emiri değil, ama o Hüseyin oğlu Ali'dir (ona selam olsun),' dedi.",
+          "fa": "پس وقتی نامه به عبدالملک رسید، به اطرافیانش گفت: «مرا درباره مردی خبر دهید که هرگاه فروتنی بر او چیره شود، جز به شرافتش افزوده نشود.» گفتند: «آن فرمانده خلیفه است.» گفت: «نه، به خدا او چنین نیست.» گفتند: «جز فرمانده خلیفه کسی را نمی‌شناسیم.» گفت: «نه، به خدا! او فرمانده خلیفه نیست، بلکه علی بن الحسین (علیه السلام) است.",
+          "id": "Maka ketika surat itu sampai kepada Abd al-Malik, ia berkata kepada orang-orang di sekitarnya: 'Beritahukan kepadaku tentang seorang lelaki, ketika apa yang merendahkan hati manusia menimpanya, ia tidak menambahnya kecuali dengan kemuliaan.' Mereka menjawab: 'Itulah Amirul Mukminin.' Ia berkata: 'Tidak, demi Allah, ia bukan orang itu.' Mereka berkata: 'Kami tidak mengenal siapa pun selain Amirul Mukminin.' Ia berkata: 'Tidak, demi Allah! Ia bukan Amirul Mukminin, melainkan Ali ibn al-Husayn (alamahih salam).'",
+          "bn": "অতএব, যখন এই পত্র আবদুল মালিকের কাছে পৌঁছাল, তিনি তার আশেপাশের লোকদের বললেন: 'আমাকে একজন লোকের সম্পর্কে জানান, যার উপরে যখন মানুষকে নত করে দেওয়া হয়, তখন তা তাকে কেবলই মহিমান্বিত করে।' তারা বলল: 'তিনি হলেন বিশ্বাসীদের আমীর।' তিনি বললেন: 'না, আল্লাহর শপথ, তিনি তা নন।' তারা বলল: 'আমরা বিশ্বাসীদের আমীর ছাড়া আর কাউকে চিনি না।' তিনি বললেন: 'না, আল্লাহর শপথ! তিনি বিশ্বাসীদের আমীর নন, বরং তিনি হলেন আলী ইবনে হুসাইন (আলৈহিস সালাম)।'",
+          "es": "Cuando llegó la carta a Abd al-Malik, dijo a los que estaban a su alrededor: «Informadme sobre un hombre, cuando le sobreviene lo que humilla a la gente, no le hace más que aumentar en nobleza». Dijeron: «Ese es el Comandante de los Creyentes». Dijo: «No, por Allah, no es ese». Dijeron: «No conocemos a nadie más que al Comandante de los Creyentes». Dijo: «No, por Allah, no es el Comandante de los Creyentes, sino que es Ali ibn al-Husayn (que la paz sea con él)».",
+          "fr": "Alors, lorsque la lettre parvint à Abd al-Malik, qui dit à ceux qui l'entouraient : « Informez-moi d'un homme, lorsque ce qui humilie les gens s'abat sur lui, cela ne fait que l'augmenter en noblesse. » Ils dirent : « C'est le Commandeur des Croyants. » Il dit : « Non, par Allah, il n'est pas celui-là. » Ils dirent : « Nous ne connaissons personne d'autre que le Commandeur des Croyants. » Il dit : « Non, par Allah ! Il n'est pas le Commandeur des Croyants, mais c'est Ali ibn al-Husayn (que la paix soit sur lui). »",
+          "de": "Als der Brief Abd al-Malik erreichte, sagte er zu denen, die bei ihm waren: »Berichtet mir von einem Mann, wenn das, was die Menschen demütigt, über ihn kommt, so vermehrt es ihn nur an Edelmut.« Sie sagten: »Das ist der Kommandeur der Gläubigen.« Er sagte: »Nein, bei Allah, er ist nicht das.« Sie sagten: »Wir kennen niemanden außer dem Kommandeur der Gläubigen.« Er sagte: »Nein, bei Allah! Er ist nicht der Kommandeur der Gläubigen, sondern er ist Ali ibn al-Husayn (Friede sei mit ihm).«",
+          "ru": "Когда послание достигло Абд аль-Малика, он сказал находившимся рядом с ним: «Сообщите мне о человеке, когда к нему приходит то, что смиряет людей, это не увеличивает его, кроме как в благородстве». Они сказали: «Это Повелитель правоверных». Он сказал: «Нет, клянусь Аллахом, он не тот». Они сказали: «Мы не знаем никого, кроме Повелителя правоверных». Он сказал: «Нет, клянусь Аллахом! Он не Повелитель правоверных, но это Али ибн аль-Хусейн (да будет над ним мир)».",
+          "zh": "所以当这封信传到阿卜杜勒·马利克那里时，他对周围的人说：‘告诉我关于一个人的情况，当使他谦卑的事情降临到他身上时，除了使他更加高贵之外，并没有增加他什么。’他们说：‘那就是信士的长官。’他说：‘不，以真主的名义，他不是那样。’他们说：‘除了信士的长官之外，我们不知道任何人。’他说：‘不，以真主的名义！他不是信士的长官，而是阿里·本·侯赛因（愿他平安）。’"
+        },
+        "word_start": 99,
+        "word_end": 154
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from al-Kafi illustrates the Umayyad caliph Abd al-Malik’s political anxiety regarding the social elevation of the Ahl al-Bayt, as evidenced by his specific inquiry into whether the recipient was the 'Commander of the Faithful' or Ali ibn al-Husayn. It highlights the theological principle that Islam nullifies the pre-Islamic stigma of servitude (al-lu'm), a concept rooted in the Prophet’s precedent of marrying Zaynab bint Jahsh, thereby affirming the spiritual and social parity of the Imams regardless of their marital partners' status.",
+        "seo_question": "What was Ali ibn al-Husayn's response to Abd al-Malik ibn Marwan regarding his marriage to a slave-girl?",
+        "key_terms": {
+          "سُرِّيَّة": "Slave-girl",
+          "الْإِمَاء": "Slave-girls (plural)",
+          "بَعْل": "Master/Husband",
+          "اللُّؤْم": "Blame/Stigma of servitude",
+          "الْجَاهِلِيَّة": "Ignorance (pre-Islamic era)",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commander of the Faithful"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث الکافی سے ہے جو اموی خلیفہ عبدالملک کی اجتماعی طور پر اہل بیت کی بلندی کے بارے میں سیاسی بے چینی کو ظاہر کرتی ہے، جیسا کہ اس کے مخصوص سوال سے ثابت ہوتا ہے کہ آیا وصول کنندہ 'کامرانِ مومنین' ہیں یا علی ابن الحسین۔ یہ اصول کو اجاگر کرتا ہے کہ اسلام نے جاهلیت کے عہد کی غلامی کی رسوائی (اللؤم) کو ختم کر دیا، جو نبی کریم ﷺ کی زینب بنت جحش سے شادی کے سلسلے میں آپ ﷺ کے عمل سے ماخوذ ہے، جس سے اماموں کی روحانی اور اجتماعی مساوات کی تصدیق ہوتی ہے چاہے ان کی شادی شدہ ساتھیوں کا درجہ کچھ بھی ہو۔",
+        "seo_question": "عبدالملک بن مروان نے غلامی کی لڑکی سے شادی کے بارے میں علی ابن الحسین سے کیا جواب دیا؟",
+        "key_terms": {
+          "سُرِّيَّة": "غلامی کی لڑکی",
+          "الْإِمَاء": "غلامی کی لڑکیاں",
+          "بَعْل": "مالک/شوہر",
+          "اللُّؤْم": "غلامی کی رسوائی",
+          "الْجَاهِلِيَّة": "جاهلیت",
+          "أَمِيرُ الْمُؤْمِنِينَ": "کامرانِ مومنین"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, Emevi halifesi Abdülmelik'in, Ahl al-Beyt'in sosyal yükselişi konusunda siyasi kaygılarını, alıcının 'Müminlerin Emiri' mi yoksa Ali bin Hüseyin mi olduğu yönündeki özel sorusuyla ortaya koyar. Hz. Peygamber'in Zeyneb bint Cahş ile evlenmesi geleneğine dayanan, İslam'ın İslam öncesi kölelik damgasını (el-lüm) ortadan kaldırdığı ilkesini vurgular; bu da İmamların, eşlerinin statüsünden bağımsız olarak manevi ve sosyal eşitliğini onaylar.",
+        "seo_question": "Ali bin Hüseyin, Abdülmelik bin Mervan'ın bir cariye ile evliliği konusunda ne yanıt verdi?",
+        "key_terms": {
+          "سُرِّيَّة": "cariye",
+          "الْإِمَاء": "cariyeler",
+          "بَعْل": "efendi/koca",
+          "اللُّؤْم": "kölelik damgası",
+          "الْجَاهِلِيَّة": "cehiliye",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Müminlerin Emiri"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از الکافی نشان‌دهنده‌ی اضطراب سیاسی خلیفه اموی عبدالملک درباره‌ی ارتقای اجتماعی اهل بیت است که در پرسش خاص او از اینکه آیا مخاطب «امیر مؤمنان» است یا علی بن الحسین، مشهود است. این حدیث اصل الهیاتی را برجسته می‌کند که اسلام خدشه‌ی پیش از اسلامِ برده‌داری (اللم) را از بین می‌برد، مفهومی که ریشه در سنت پیامبر در ازدواج با زینب بنت جحش دارد و بر برابری معنوی و اجتماعی ائمة، صرف‌نظر از وضعیت همسرانشان، تأکید می‌ورزد.",
+        "seo_question": "پاسخ علی بن الحسین به عبدالملک بن مروان درباره‌ی ازدواجش با کنیز چه بود؟",
+        "key_terms": {
+          "سُرِّيَّة": "کنیز",
+          "الْإِمَاء": "کنیزان",
+          "بَعْل": "مادر شوهر/شوهر",
+          "اللُّؤْم": "خساست/برده‌داری",
+          "الْجَاهِلِيَّة": "جاهلیت",
+          "أَمِيرُ الْمُؤْمِنِينَ": "امیر مؤمنان"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari al-Kafi ini menggambarkan kecemasan politik Khalifah Umayyah Umayyah, Abd al-Malik, mengenai peningkatan status sosial Ahl al-Bayt, sebagaimana dibuktikan oleh pertanyaannya yang spesifik apakah penerima hadis tersebut adalah 'Amir al-Mu'minin' atau Ali ibn al-Husayn. Hadis ini menyoroti prinsip teologis bahwa Islam menghapus stigmatisasi pra-Islam berupa hamba (al-lu'm), sebuah konsep yang berakar pada teladan Nabi dalam menikahi Zaynab bint Jahsh, sehingga menegaskan kesetaraan spiritual dan sosial para Imam terlepas dari status pasangan pernikahan mereka.",
+        "seo_question": "Apa tanggapan Ali ibn al-Husayn kepada Abd al-Malik ibn Marwan mengenai pernikahannya dengan seorang hamba perempuan?",
+        "key_terms": {
+          "سُرِّيَّة": "hamba perempuan",
+          "الْإِمَاء": "hamba perempuan (jamak)",
+          "بَعْل": "tuan/pengantin laki-laki",
+          "اللُّؤْم": "Cela/Stigmatisasi hamba",
+          "الْجَاهِلِيَّة": "Kebodohan (era pra-Islam)",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Pemimpin Orang Beriman"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিস আল-কাফি থেকে উমাইয়া খলিফা আবদুল মালিকের সামাজিক উন্নয়ন সম্পর্কিত রাজনৈতিক উদ্বেগ তুলে ধরে, যা প্রাপকের প্রতি তাঁর নির্দিষ্ট প্রশ্নের মাধ্যমে প্রকাশ পায় যে তিনি 'আমিরুল মুমিনীন' নাকি আলী ইবনে হুসাইন। এটি ঐতিহ্যবাহী ধর্মীয় নীতি তুলে ধরে যে ইসলাম পূর্ব-ইসলামি দাসত্বের কলঙ্ক (আল-লুম) বাতিল করে, যা নবীজির (সা.) জায়নাব বিনত জাহশের সাথে বিবাহের মাধ্যমে নিশ্চিত হয়, ফলে ইমামদের আধ্যাত্মিক ও সামাজিক সমানত্ব তাদের বিবাহিত সঙ্গীদের মর্যাদার ওপর নির্ভরশীল নয়।",
+        "seo_question": "আলী ইবনে হুসাইন দাসী কন্যার সাথে বিবাহ সম্পর্কে আবদুল মালিক ইবনে মারওয়ানের কাছে কী উত্তর দিয়েছিলেন?",
+        "key_terms": {
+          "سُرِّيَّة": "দাসী কন্যা",
+          "الْإِمَاء": "দাসী কন্যাগণ",
+          "بَعْل": "মালিক/স্বামী",
+          "اللُّؤْم": "দাসত্বের কলঙ্ক",
+          "الْجَاهِلِيَّة": "জাহিলিয়াত (পূর্ব-ইসলামিক যুগ)",
+          "أَمِيرُ الْمُؤْمِنِينَ": "আমিরুল মুমিনীন"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de al-Kafi ilustra la ansiedad política del califa omeya Abd al-Malik respecto a la elevación social de los Ahl al-Bayt, evidenciada por su pregunta específica sobre si el destinatario era el 'Comandante de los Creyentes' o Ali ibn al-Husayn. Destaca el principio teológico de que el Islam anula el estigma preislámico de la servidumbre (al-lu'm), un concepto arraigado en el precedente del Profeta de casarse con Zaynab bint Jahsh, afirmando así la paridad espiritual y social de los Imames independientemente del estatus de sus parejas matrimoniales.",
+        "seo_question": "¿Cuál fue la respuesta de Ali ibn al-Husayn a Abd al-Malik ibn Marwan respecto a su matrimonio con una esclava?",
+        "key_terms": {
+          "سُرِّيَّة": "Esclava",
+          "الْإِمَاء": "Esclavas",
+          "بَعْل": "Amo/Esposo",
+          "اللُّؤْم": "Culpa/Estigma de servidumbre",
+          "الْجَاهِلِيَّة": "Ignorancia (era preislámica)",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Comandante de los Creyentes"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'al-Kafi illustre l'anxiété politique du calife omeyyade Abd al-Malik concernant l'élévation sociale des Ahl al-Bayt, comme en témoigne sa question spécifique sur le fait de savoir si le destinataire était le « Commandeur des Croyants » ou Ali ibn al-Husayn. Il met en lumière le principe théologique selon lequel l'islam annule la stigmatisation préislamique de la servitude (al-lu'm), un concept ancré dans le précédent du Prophète qui a épousé Zaynab bint Jahsh, affirmant ainsi la parité spirituelle et sociale des Imams indépendamment du statut de leurs épouses.",
+        "seo_question": "Quelle a été la réponse d'Ali ibn al-Husayn à Abd al-Malik ibn Marwan concernant son mariage avec une esclave ?",
+        "key_terms": {
+          "سُرِّيَّة": "Fille d'esclave",
+          "الْإِمَاء": "Esclaves",
+          "بَعْل": "Maître/Époux",
+          "اللُّؤْم": "Blâme/Stigmatisation de la servitude",
+          "الْجَاهِلِيَّة": "Ignorance (ère préislamique)",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commandeur des Croyants"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus al-Kafi veranschaulicht die politische Angst des Umayyaden-Kalifen Abd al-Malik bezüglich der sozialen Aufwertung der Ahl al-Bayt, wie sich in seiner spezifischen Frage zeigt, ob der Empfänger der 'Kommandeur der Gläubigen' oder Ali ibn al-Husayn sei. Es unterstreicht das theologische Prinzip, dass der Islam die vorislamische Stigmatisierung der Sklaverei (al-lu'm) aufhebt, ein Konzept, das auf dem Vorbild des Propheten bei der Heirat mit Zaynab bint Jahsh wurzelt, wodurch die spirituelle und soziale Gleichheit der Imame unabhängig vom Status ihrer Ehepartner bestätigt wird.",
+        "seo_question": "Wie lautete Ali ibn al-Husayns Antwort auf Abd al-Malik ibn Marwan bezüglich seiner Heirat mit einer Sklavin?",
+        "key_terms": {
+          "سُرِّيَّة": "Sklavin",
+          "الْإِمَاء": "Sklavinnen",
+          "بَعْل": "Herr/Ehemann",
+          "اللُّؤْم": "Tadel/Stigmatisierung der Sklaverei",
+          "الْجَاهِلِيَّة": "Unwissenheit (vorislamische Ära)",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Kommandeur der Gläubigen"
+        }
+      },
+      "ru": {
+        "summary": "Этот хадис из аль-Кафи иллюстрирует политическую тревогу омейядского халифа Абд аль-Малика относительно социального возвышения Ахль аль-Байт, что подтверждается его конкретным вопросом о том, был ли адресат «Повелителем верующих» или Али ибн аль-Хусайном. Он подчеркивает теологический принцип, согласно которому ислам аннулирует доисламское клеймо рабства (аль-лу'м), концепцию, укорененную в примере Пророка, женившегося на Зайнаб бинт Jahsh, тем самым утверждая духовное и социальное равенство Имамов независимо от статуса их брачных партнеров.",
+        "seo_question": "Каков был ответ Али ибн аль-Хусайна Абд аль-Малику ибн Марвану относительно его брака с рабыней?",
+        "key_terms": {
+          "سُرِّيَّة": "рабыня",
+          "الْإِمَاء": "рабыни",
+          "بَعْل": "хозяин/муж",
+          "اللُّؤْم": "клеймо рабства",
+          "الْجَاهِلِيَّة": "доисламская эпоха",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Повелитель верующих"
+        }
+      },
+      "zh": {
+        "summary": "这段来自《卡菲》的圣训展示了倭马亚哈里发阿卜杜勒·马利克对圣裔社会地位提升的政治焦虑，这体现在他具体询问受话者是否为“信士的长官”或侯赛因之子阿里。它强调了伊斯兰教消除前伊斯兰时代奴役耻辱（al-lu'm）的神学原则，这一概念植根于先知与宰奈卜·宾特·贾什结婚的先例，从而确认了伊玛目无论其配偶地位如何，在精神和社交上的平等。",
+        "seo_question": "阿里·本·侯赛因就与女奴结婚一事对阿卜杜勒·马利克·本·马尔万有何回应？",
+        "key_terms": {
+          "سُرِّيَّة": "女奴",
+          "الْإِمَاء": "女奴们",
+          "بَعْل": "主人/丈夫",
+          "اللُّؤْم": "奴役的耻辱",
+          "الْجَاهِلِيَّة": "蒙昧时期",
+          "أَمِيرُ الْمُؤْمِنِينَ": "信士的长官"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "4:3",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:60",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "47:2",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:71",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ فَضَّالٍ عَنْ ثَعْلَبَةَ بْنِ مَيْمُونٍ عَمَّنْ يَرْوِي عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّ عَلِيَّ بْنَ الْحُسَيْنِ ( عليه السلام ) تَزَوَّجَ سُرِّيَّةً كَانَتْ لِلْحَسَنِ بْنِ عَلِيٍّ ( عليه السلام ) فَبَلَغَ ذَلِكَ عَبْدَ الْمَلِكِ بْنِ مَرْوَانَ فَكَتَبَ إِلَيْهِ فِي ذَلِكَ كِتَاباً أَنَّكَ صِرْتَ بَعْلَ الْإِمَاءِ فَكَتَبَ إِلَيْهِ عَلِيُّ بْنُ الْحُسَيْنِ ( عليه السلام ) أَنَّ اللَّهَ رَفَعَ بِالْإِسْلَامِ الْخَسِيسَةَ وَ أَتَمَّ بِهِ النَّاقِصَةَ فَأَكْرَمَ بِهِ مِنَ اللُّؤْمِ فَلَا لُؤْمَ عَلَى مُسْلِمٍ إِنَّمَا اللُّؤْمُ لُؤْمُ الْجَاهِلِيَّةِ إِنَّ رَسُولَ اللَّهِ ( صلى الله عليه وآله ) أَنْكَحَ عَبْدَهُ وَ نَكَحَ أَمَتَهُ فَلَمَّا انْتَهَى الْكِتابُ إِلَى عَبْدِ الْمَلِكِ قَالَ لِمَنْ عِنْدَهُ خَبِّرُونِي عَنْ رَجُلٍ إِذَا أَتَى مَا يَضَعُ النَّاسَ لَمْ يَزِدْهُ إِلَّا شَرَفاً قَالُوا ذَاكَ أَمِيرُ الْمُؤْمِنِينَ قَالَ لَا وَ اللَّهِ مَا هُوَ ذَاكَ قَالُوا مَا نَعْرِفُ إِلَّا أَمِيرَ الْمُؤْمِنِينَ قَالَ فَلَا وَ اللَّهِ مَا هُوَ بِأَمِيرِ الْمُؤْمِنِينَ وَ لَكِنَّهُ عَلِيُّ بْنُ الْحُسَيْنِ ( عليه السلام )",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ أَبِيهِ عَنِ ابْنِ فَضَّالٍ عَنْ ثَعْلَبَةَ بْنِ مَيْمُونٍ عَمَّنْ يَرْوِي عَنْ أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+      "matn_ar": "أَنَّ عَلِيَّ بْنَ الْحُسَيْنِ ( عليه السلام ) تَزَوَّجَ سُرِّيَّةً كَانَتْ لِلْحَسَنِ بْنِ عَلِيٍّ ( عليه السلام ) فَبَلَغَ ذَلِكَ عَبْدَ الْمَلِكِ بْنِ مَرْوَانَ فَكَتَبَ إِلَيْهِ فِي ذَلِكَ كِتَاباً أَنَّكَ صِرْتَ بَعْلَ الْإِمَاءِ فَكَتَبَ إِلَيْهِ عَلِيُّ بْنُ الْحُسَيْنِ ( عليه السلام ) أَنَّ اللَّهَ رَفَعَ بِالْإِسْلَامِ الْخَسِيسَةَ وَ أَتَمَّ بِهِ النَّاقِصَةَ فَأَكْرَمَ بِهِ مِنَ اللُّؤْمِ فَلَا لُؤْمَ عَلَى مُسْلِمٍ إِنَّمَا اللُّؤْمُ لُؤْمُ الْجَاهِلِيَّةِ إِنَّ رَسُولَ اللَّهِ ( صلى الله عليه وآله ) أَنْكَحَ عَبْدَهُ وَ نَكَحَ أَمَتَهُ فَلَمَّا انْتَهَى الْكِتابُ إِلَى عَبْدِ الْمَلِكِ قَالَ لِمَنْ عِنْدَهُ خَبِّرُونِي عَنْ رَجُلٍ إِذَا أَتَى مَا يَضَعُ النَّاسَ لَمْ يَزِدْهُ إِلَّا شَرَفاً قَالُوا ذَاكَ أَمِيرُ الْمُؤْمِنِينَ قَالَ لَا وَ اللَّهِ مَا هُوَ ذَاكَ قَالُوا مَا نَعْرِفُ إِلَّا أَمِيرَ الْمُؤْمِنِينَ قَالَ فَلَا وَ اللَّهِ مَا هُوَ بِأَمِيرِ الْمُؤْمِنِينَ وَ لَكِنَّهُ عَلِيُّ بْنُ الْحُسَيْنِ ( عليه السلام )",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "أَبِيهِ",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "ابْنِ فَضَّالٍ",
+          "name_en": "Ibn Faddal",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 22
+        },
+        {
+          "name_ar": "ثَعْلَبَةَ بْنِ مَيْمُونٍ عَمَّنْ يَرْوِي",
+          "name_en": "Thalabah b. Maymun",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام ) أَنَّ عَلِيَّ بْنَ الْحُسَيْنِ ( عليه السلام ) تَزَوَّجَ سُرِّيَّةً كَانَتْ لِلْحَسَنِ بْنِ عَلِيٍّ ( عليه السلام ) فَبَلَغَ ذَلِكَ عَبْدَ الْمَلِكِ بْنِ مَرْوَانَ فَكَتَبَ إِلَيْهِ",
+          "name_en": "Abi Abdillah",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

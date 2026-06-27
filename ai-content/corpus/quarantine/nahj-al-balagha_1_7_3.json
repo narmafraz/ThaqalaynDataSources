@@ -1,0 +1,269 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:7:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 23 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'ما زلت أنتظر بكم عواقب الغدر، وأتوسمكم بحلية الـمغترين ، ستر'",
+    "chunks[2] word 'في' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "governance",
+      "history"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "imams_biography",
+      "patience",
+      "sincerity",
+      "leadership"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "مَا زِلْتُ أَنْتَظِرُ بِكُمْ عَوَاقِبَ الغَدْرِ، وَأَتَوَسَّمُكُمْ بِحِلْيَةِ الـمُغْتَرِّينَ ،",
+        "translations": {
+          "en": "I was always waiting for the consequences of treachery from you, and observing you with the appearance of the deceived,",
+          "ur": "میں ہمیشہ تم سے خیانت کے انجام کا انتظار کر رہا تھا، اور تمہیں گمراہوں کی طرح ظاہر دیکھ رہا تھا،",
+          "tr": "Sizden hıyanetin neticelerini bekliyor, sizi aldanmışların süsüyle gözlemliyordum.",
+          "fa": "من همواره منتظر عواقعه‌ی خیانت شما بودم و شما را با نشانه‌ی گمراه‌شدگان می‌پاییدم،",
+          "id": "Aku senantiasa menantikan akibat dari pengkhianatan kalian, dan memperhatikan kalian dengan penampilan orang-orang yang tertipu,",
+          "bn": "আমি সর্বদা আপনারা বিশ্বাসঘাতকের পরিণামের জন্য অপেক্ষা করছিলাম এবং প্রতারণাপূর্ণ চেহারায় আপনাদের পর্যবেক্ষণ করছিলাম,",
+          "es": "Siempre estuve esperando las consecuencias de la traición por vuestra parte, y os observaba con el aspecto de los engañados,",
+          "fr": "Je n'ai cessé d'attendre de vous les conséquences de la trahison, et je vous observais avec l'apparence des dupes,",
+          "de": "Ich wartete stets auf die Folgen des Verrats von eurer Seite und beobachtete euch mit dem Anblick der Getäuschten,",
+          "ru": "Я постоянно ожидал от вас последствий предательства и наблюдал за вами, как за обманутыми,",
+          "zh": "我始终在等待你们背叛的后果，并以受骗者的外表观察你们，"
+        },
+        "word_start": 0,
+        "word_end": 10
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَتَرَنِي عَنْكُمْ جِلْبَابُ الدِّينِ، وَبَصَّرَنِيكُمْ صِدْقُ النِّيَّةِ،",
+        "translations": {
+          "en": "The veil of religion kept me hidden from you, and the sincerity of my intention made you clear to me,",
+          "ur": "میرے دین کا پردہ مجھے تم سے پوشیدہ رکھتا تھا اور میری نیت کی خلوص نے مجھے تمہیں واضح کر دیا",
+          "tr": "Din perdesi beni senden gizledi, niyetimin samimiyeti ise beni sana açık kıldı.",
+          "fa": "حجاب دین مرا از تو پنهان داشت و خلوص نیت، تو را برایم آشکار کرد",
+          "id": "Tabir agama membuatku tersembunyi darimu, dan ketulusan niatku membuatmu jelas bagiku,",
+          "bn": "ধর্মের পর্দা আমাকে তোমার থেকে লুকিয়ে রেখেছিল, আর আমার ইচ্ছার সততা তোমাকে আমার কাছে স্পষ্ট করেছিল,",
+          "es": "El velo de la religión me mantuvo oculto de ti, y la sinceridad de mi intención te hizo claro para mí,",
+          "fr": "Le voile de la religion m'a tenu caché à tes yeux, et la sincérité de mon intention t'a rendu clair pour moi,",
+          "de": "Der Schleier der Religion hielt mich vor dir verborgen, und die Aufrichtigkeit meiner Absicht machte dich mir klar.",
+          "ru": "Пелена религии скрывала меня от тебя, а искренность моего намерения сделала тебя ясным для меня,",
+          "zh": "宗教的帷幕使我隐藏于你，而我的诚意的真诚使你对我清晰明了，"
+        },
+        "word_start": 10,
+        "word_end": 17
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَقَمْتُ لَكُمْ عَلَى سَنَنِ الحَقِّ في جَوَادِّ الـمَضَلَّةِ،",
+        "translations": {
+          "en": "I stood firm for you on the path of truth among the crossroads of misguidance,",
+          "ur": "میں نے تمہارے لیے حق کے راستے پر گمراہی کے سنگم میں کھڑے رہا",
+          "tr": "Yanılmacaların kavşaklarında, hak yolunda senin için dimdik ayakta durdum,",
+          "fa": "من برای تو در مسیر حق در میان چنارهای گمراهی ایستادگی کردم،",
+          "id": "Aku teguh menemani engkau di jalan kebenaran di tengah persimpangan kesesatan,",
+          "bn": "আমি তোমার জন্য সত্যের পথে দাঁড়িয়ে ছিলাম, বিভ্রান্তির চতুর্পথে,",
+          "es": "Me mantuve firme por ti en el camino de la verdad entre las encrucijadas del extravío,",
+          "fr": "Je me suis tenu ferme pour toi sur le chemin de la vérité parmi les carrefours de l'égarement,",
+          "de": "Ich stand für dich auf dem Pfad der Wahrheit inmitten der Kreuzwege der Irreführung,",
+          "ru": "Я стоял твердо за тебя на пути истины среди перепутья заблуждения,",
+          "zh": "我为你在真理之路上坚守，在迷误的十字路口中屹立不倒，"
+        },
+        "word_start": 17,
+        "word_end": 25
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "حَيْثُ تَلْتَقُونَ وَلا دَلِيلَ، وَتَحْفِرُونَ وَلا تُمِيعُونَ.",
+        "translations": {
+          "en": "Where you meet but have no guide, and you dig but find no water.",
+          "ur": "جہاں آپ ملتے ہیں مگر کوئی رہنما نہیں ہوتا، اور آپ کھودتے ہیں مگر پانی نہیں ملتا۔",
+          "tr": "Rehberin olmadığı yerde buluşur, su bulmak için kazar ama bulamazsın.",
+          "fa": "جایی که ملاقات می‌کنید اما راهنمایی ندارید، و حفر می‌کنید اما آبی نمی‌یابید.",
+          "id": "Di mana kamu bertemu tetapi tidak memiliki petunjuk, dan kamu menggali tetapi tidak menemukan air.",
+          "bn": "যেখানে তোমরা মিলিত হও কিন্তু কোনো পথপ্রদর্শক নেই নেই, এবং তোমরা খনন করো কিন্তু কোনো পানি পাই না।",
+          "es": "Donde os encontráis pero no tenéis guía, y caváis pero no halláis agua.",
+          "fr": "Là où vous vous réunissez sans guide, et où vous creusez sans trouver de l'eau.",
+          "de": "Wo ihr euch trefft, aber keinen Führer habt, und ihr gräbt, aber kein Wasser findet.",
+          "ru": "Где вы встречаетесь, но не имеете проводника, и копаете, но не находите воды.",
+          "zh": "你相遇却无向导，你挖掘却无水可寻。"
+        },
+        "word_start": 25,
+        "word_end": 32
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This passage from Nahj al-Balagha highlights Imam Ali’s strategic patience during the period of political quietism, where he concealed his true intentions behind the 'veil of religion' to avoid premature conflict with the Umayyads and other rivals. By observing their hypocrisy while remaining steadfast on the path of truth, he demonstrated the scholarly principle of *hikmah* (wisdom) in navigating the complexities of early Islamic governance and the transition of power.",
+        "seo_question": "What does Imam Ali mean by the 'veil of religion' keeping him hidden?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "consequences of treachery",
+          "جِلْبَابُ الدِّينِ": "veil of religion",
+          "صِدْقُ النِّيَّةِ": "sincerity of intention",
+          "سَنَنِ الحَقِّ": "path of truth",
+          "جَوَادِّ الـمَضَلَّةِ": "crossroads of misguidance"
+        }
+      },
+      "ur": {
+        "summary": "نہج البلاغہ کے اس حصے میں امام علیؑ کی سیاسی خاموشی کے دور میں حکمتِ عملی سے برداشت کی عکاسی کی گئی ہے، جہاں انہوں نے امویوں اور دیگر حریفوں کے ساتھ جلدی جھگڑے سے بچنے کے لیے اپنی حقیقی نیتوں کو 'حجابِ دین' کے پیچھے چھپا لیا۔ انہوں نے اپنی نیت کی سچائی کو برقرار رکھتے ہوئے ان کی نفاق کا مشاہدہ کیا اور حق کے راستے پر استقامت دکھائی، جس سے ابتدائی اسلامی حکومت اور اقتدار کی منتقلی کی پیچیدگیوں کو سمجھنے میں علمی اصولِ حکمت کا اظہار ہوا۔",
+        "seo_question": "امام علیؑ کا کہنا ہے کہ 'حجابِ دین' انہیں کس طرح چھپائے رکھتا ہے؟",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "خیانت کے عواقب",
+          "جِلْبَابُ الدِّينِ": "حجابِ دین",
+          "صِدْقُ النِّيَّةِ": "نیت کی سچائی",
+          "سَنَنِ الحَقِّ": "حق کا راستہ",
+          "جَوَادِّ الـمَضَلَّةِ": "گمراہی کے سنگِ محاذ"
+        }
+      },
+      "tr": {
+        "summary": "Bu Nahılcı'dan pasaj, İmam Ali'nin siyasi sessizlik dönemindeki stratejik sabrını vurgular; Emeviler ve diğer rakiplerle erken çatışmadan kaçınmak için gerçek niyetlerini 'din perdesi' arkasında gizlemiştir. Hipokrizilerini gözlemleyerek hak yolunda metanetle durarak, erken İslam yönetiminin karmaşıklıklarını ve iktidar devrini yönetirken *hikmet* (hikmet) ilkesini sergilemiştir.",
+        "seo_question": "İmam Ali'nin 'din perdesi' onu neden gizli tutuyor?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "hıyanetin sonuçları",
+          "جِلْبَابُ الدِّينِ": "din perdesi",
+          "صِدْقُ النِّيَّةِ": "niyetin samimiyeti",
+          "سَنَنِ الحَقِّ": "hak yolu",
+          "جَوَادِّ الـمَضَلَّةِ": "sapmanın kavşakları"
+        }
+      },
+      "fa": {
+        "summary": "این بخش از نهج‌البلاغه صبر استراتژیک امام علی را در دوره سکوت سیاسی برجسته می‌کند، جایی که او نیت‌های واقعی خود را پشت «حجاب دین» پنهان کرد تا از درگیری زودهنگام با امویان و سایر رقباء جلوگیری کند. با مشاهده ریاکاری آن‌ها در حالی که بر مسیر حق استوار بود، او اصل حکمت را در مدیریت پیچیدگی‌های حکومت اسلامی اولیه و انتقال قدرت نشان داد.",
+        "seo_question": "امام علی منظور خود از «حجاب دین» که او را پنهان نگه می‌داشت چیست؟",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "پیامدهای فریب",
+          "جِلْبَابُ الدِّينِ": "حجاب دین",
+          "صِدْقُ النِّيَّةِ": "صداقت نیت",
+          "سَنَنِ الحَقِّ": "مسیر حق",
+          "جَوَادِّ الـمَضَلَّةِ": "چهارراه گمراهی"
+        }
+      },
+      "id": {
+        "summary": "Bagian dari Nahj al-Balagha ini menyoroti kesabaran strategis Imam Ali selama periode ketenangan politik, di mana ia menyembunyikan niat sejatinya di balik 'tabir agama' untuk menghindari konflik dini dengan Bani Umayyah dan rival lainnya. Dengan mengamati kemunafikan mereka sambil tetap teguh di jalan kebenaran, ia menunjukkan prinsip keilmuan *hikmah* (kebijaksanaan) dalam menavigasi kompleksitas pemerintahan Islam awal dan transisi kekuasaan.",
+        "seo_question": "Apa maksud Imam Ali dengan 'tabir agama' yang membuatnya tersembunyi?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "konsekuensi pengkhianatan",
+          "جِلْبَابُ الدِّينِ": "tabir agama",
+          "صِدْقُ النِّيَّةِ": "ketulusan niat",
+          "سَنَنِ الحَقِّ": "jalan kebenaran",
+          "جَوَادِّ الـمَضَلَّةِ": "persimpangan kesesatan"
+        }
+      },
+      "bn": {
+        "summary": "এই পাঠে নহজুল বালাগহার ইমাম আলী (আ.)-এর রাজনৈতিক নীরবতার সময়কালে কৌশলগত ধৈর্যের বিষয়টি তুলে ধরে, যেখানে তিনি উমাইয়া বংশীয়দের এবং অন্যান্য প্রতিদ্বন্দ্বীদের সাথে সময়ের আগে সংঘাত এড়াতে 'ধর্মের পর্দা'র আড়ালে নিজের প্রকৃত উদ্দেশ্য লুকিয়ে রাখেন। তাদের কপটতা পর্যবেক্ষণ করেও সত্যের পথে অটল থাকার মাধ্যমে, তিনি প্রাথমিক ইসলামি শাসনব্যবস্থা এবং ক্ষমতার হস্তান্তরের জটিলতা মোকাবিলায় বিদ্বানদের নীতি *হিকমত* (প্রজ্ঞা) প্রদর্শন করেন।",
+        "seo_question": "ইমাম আলী (আ.) 'ধর্মের পর্দা'র মাধ্যমে নিজেকে লুকিয়ে রাখার বিষয়ে কী বোঝান?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "বিশ্বাসঘাতকতার পরিণাম",
+          "جِلْبَابُ الدِّينِ": "ধর্মের পর্দা",
+          "صِدْقُ النِّيَّةِ": "উদ্দেশ্যের সততা",
+          "سَنَنِ الحَقِّ": "সত্যের পথ",
+          "جَوَادِّ الـمَضَلَّةِ": "ভ্রান্তির চতুর্মুখী পথ"
+        }
+      },
+      "es": {
+        "summary": "Este pasaje de Nahj al-Balagha destaca la paciencia estratégica del Imam Ali durante el-Alí durante el periodo de quietismo político, donde ocultó sus verdaderas intenciones tras el 'velo de la religión' para evitar un conflicto prematuro con los omeyas y otros rivales. Al observar su hipocresía mientras permanecía firme en el camino de la verdad, demostró el principio erudito de la *hikmah* (sabiduría) para navegar las complejidades de la gobernanza islámica temprana y la transición del poder.",
+        "seo_question": "¿Qué significa el Imam el-Alí con que el 'velo de la religión' lo mantenía oculto?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "consecuencias de la traición",
+          "جِلْبَابُ الدِّينِ": "velo de la religión",
+          "صِدْقُ النِّيَّةِ": "sinceridad de la intención",
+          "سَنَنِ الحَقِّ": "camino de la verdad",
+          "جَوَادِّ الـمَضَلَّةِ": "cruce de la desviación"
+        }
+      },
+      "fr": {
+        "summary": "Ce passage de Nahj al-Balagha met en lumière la patience stratégique de l'Imam Ali pendant la période de quiétisme politique, où il dissimulait ses véritables intentions derrière le « voile de la religion » pour éviter un conflit prématuré avec les Omeyyades et autres rivaux. En observant leur hypocrisie tout en restant fermes sur la voie de la vérité, il a démontré le principe savant de la sagesse (*hikmah*) dans la navigation des complexités de la gouvernance islamique naissante et de la transition du pouvoir.",
+        "seo_question": "Que signifie l'Imam Ali par le « voile de la religion » qui le tient caché ?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "conséquences de la trahison",
+          "جِلْبَابُ الدِّينِ": "voile de la religion",
+          "صِدْقُ النِّيَّةِ": "sincérité de l'intention",
+          "سَنَنِ الحَقِّ": "voie de la vérité",
+          "جَوَادِّ الـمَضَلَّةِ": "carrefours de l'égarement"
+        }
+      },
+      "de": {
+        "summary": "Dieser Abschnitt aus Nahj al-Balagha hebt die strategische Geduld Imam Alis während der Periode der politischen Zurückhaltung hervor, in der er seine wahren Absichten hinter dem 'Schleier der Religion' verbarg, um einen vorzeitigen Konflikt mit den Umayyaden und anderen Rivalen zu vermeiden. Indem er ihre Heuchelei beobachtete, während er standhaft auf dem Pfad der Wahrheit blieb, demonstrierte er das gelehrte Prinzip der *hikmah* (Weisheit) bei der Bewältigung der Komplexitäten der frühen islamischen Herrschaft und des Machtübergangs.",
+        "seo_question": "Was bedeutet Imam Ali damit, dass der 'Schleier der Religion' ihn verborgen hält?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "Folgen der Tücke",
+          "جِلْبَابُ الدِّينِ": "Schleier der Religion",
+          "صِدْقُ النِّيَّةِ": "Aufrichtigkeit der Absicht",
+          "سَنَنِ الحَقِّ": "Pfad der Wahrheit",
+          "جَوَادِّ الـمَضَلَّةِ": "Kreuzwege der Irreführung"
+        }
+      },
+      "ru": {
+        "summary": "В этом отрывке из «Нахдж аль-Балаге» подчеркивается стратегическое терпение имама Али в период политического затишья, когда он скрывал свои истинные намерения за «покрывалом религии», чтобы избежать преждевременного конфликта с омейядами и другими соперниками. Наблюдая за их лицемерием, оставаясь твердым на пути истины, он продемонстрировал научный принцип *хикмы* (мудрости) в преодолении сложностей раннего исламского управления и перехода власти.",
+        "seo_question": "Что имам Али имеет в виду под «покрывалом религии», скрывающим его?",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "последствия предательства",
+          "جِلْبَابُ الدِّينِ": "покрывало религии",
+          "صِدْقُ النِّيَّةِ": "искренность намерения",
+          "سَنَنِ الحَقِّ": "путь истины",
+          "جَوَادِّ الـمَضَلَّةِ": "перекрестки заблуждения"
+        }
+      },
+      "zh": {
+        "summary": "这段出自《纳赫朱·布勒格》的经文强调了阿里伊玛目在政治静默在政治静默时期的战略耐心，他通过“宗教的面纱”隐藏真实意图，以避免与倭马亚家族及其他对手过早发生冲突。他在观察对手虚伪的同时坚守真理之路，展现了在早期伊斯兰治理和权力过渡的复杂性中运用*智慧*（hikmah）的学者原则。",
+        "seo_question": "阿里伊玛目默所说的‘宗教的面纱’使他隐藏是什么意思？",
+        "key_terms": {
+          "عَوَاقِبَ الغَدْرِ": "背叛的后果",
+          "جِلْبَابُ الدِّينِ": "宗教的面纱",
+          "صِدْقُ النِّيَّةِ": "意图的真诚",
+          "سَنَنِ الحَقِّ": "真理之路",
+          "جَوَادِّ الـمَضَلَّةِ": "迷误的十字路口"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "12:98",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "13:43",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:41",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مَا زِلْتُ أَنْتَظِرُ بِكُمْ عَوَاقِبَ الغَدْرِ، وَأَتَوَسَّمُكُمْ بِحِلْيَةِ الـمُغْتَرِّينَ ، سَتَرَنِي عَنْكُمْ جِلْبَابُ الدِّينِ، وَبَصَّرَنِيكُمْ صِدْقُ النِّيَّةِ، أَقَمْتُ لَكُمْ عَلَى سَنَنِ الحَقِّ في جَوَادِّ الـمَضَلَّةِ، حَيْثُ تَلْتَقُونَ وَلا دَلِيلَ، وَتَحْفِرُونَ وَلا تُمِيعُونَ.",
+    "isnad_matn": {
+      "isnad_ar": "مَا زِلتُ أَنْتَظِرُ بِكُمْ عَوَاقِبَ الغَدْرِ، وَأَتَوَسَّمُكُمْ بِحِلْيَةِ الـمُغْتَرِّينَ ، سَتَرَني عَنْكُمْ جِلْبَابُ الدِّينِ، وَبَصَّرَنِيكُمْ صِدْقُ النِّيَّةِ، أَقَمْتُ لَكُمْ عَلَى سَنَنِ الحَقِّ في",
+      "matn_ar": "مَا زِلْتُ أَنْتَظِرُ بِكُمْ عَوَاقِبَ الغَدْرِ، وَأَتَوَسَّمُكُمْ بِحِلْيَةِ الـمُغْتَرِّينَ ، سَتَرَنِي عَنْكُمْ جِلْبَابُ الدِّينِ، وَبَصَّرَنِيكُمْ صِدْقُ النِّيَّةِ، أَقَمْتُ لَكُمْ عَلَى سَنَنِ الحَقِّ في جَوَادِّ الـمَضَلَّةِ، حَيْثُ تَلْتَقُونَ وَلا دَلِيلَ، وَتَحْفِرُونَ وَلا تُمِيعُونَ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "ما زلت أنتظر بكم عواقب الغدر، وأتوسمكم بحلية الـمغترين ، سترني عنكم جلباب الدين، وبصرنيكم صدق النية، أقمت لكم على سنن الحق في",
+          "name_en": "Mā Zalat Antanṭar Bikum Awāqib al-Ghadar, wa Atusimkum biḥilyat al-Mughtarīn, Sataranī 'Anakum Jilbāb al-Dīn, wa Baṣaranīkum Ṣidq al-Niyya, Aqamta Lakum 'Alā Sunan al-Ḥaqq fī",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

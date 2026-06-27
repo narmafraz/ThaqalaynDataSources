@@ -1,0 +1,403 @@
+{
+  "verse_path": "/books/al-istibsar:2:55:36",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-26",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 20 words (>14, بن-density 0.15 — likely a sentence fragment, not a name): 'أخَبرَنَيِ الشّيخُ رَحِمَهُ اللّهُ عَن أَبِي القَاسِمِ جَعفَ'",
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 29 en words vs 1 ar words (ratio=29.00, expected 0.2-8.0)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "worship"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "hajj",
+      "halal_haram",
+      "ritual_purity"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Muhammad ibn Ya'qub narrated from Ahmad ibn Muhammad, from al-Hasan ibn Ali, from some of our companions, from Sa'id al-Araj, from Abu Abdillah (peace be upon him) who said:",
+          "ur": "محمد بن یعقوب نے احمد بن محمد سے، حسن بن علی سے، ہمارے بعض ہمراہیوں سے، سعید الاعرج سے، ابو عبداللہ (علیہ السلام) سے روایت کی کہ انہوں نے فرمایا:",
+          "tr": "Muham ibn Ya'qub, Ahmed ibn Muhammed'den, el-Hasan ibn Ali'den, bazı arkadaşlarımızdan, Sa'id el-Arec'ten, Ebu Abdillah (aleyhisselam)'dan rivayet etmiştir ki, şöyle buyurdu:",
+          "fa": "محمد بن یعقوب از احمد بن محمد، از حسن بن علی، از برخی از یاران ما، از سعید الاعرج، از ابو عبدالله (علیه السلام نقل کرده است که فرمود:",
+          "id": "Muhammad ibn Ya'qub meriwayatkan dari Ahmad ibn Muhammad, dari al-Hasan ibn Ali, dari sebagian sahabat kami, dari Sa'id al-Araj, dari Abu Abdillah (alamah) yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়া'কুব বর্ণনা করেছেন আহমাদ ইবনে মুহাম্মাদ থেকে, আল-হাসান ইবনে আলী থেকে, আমাদের সহচরবর্গ থেকে, সাঈদুল আরাজ থেকে, আবু আবদিল্লাহ (রহ.) থেকে, যিনি বলেছেন:",
+          "es": "Muhammad ibn Ya'qub narró de Ahmad ibn Muhammad, de al-Hasan ibn Ali, de algunos de nuestros compañeros, de Sa'id al-Araj, de Abu Abdillah (que la paz sea con él), quien dijo:",
+          "fr": "Muhammad ibn Ya'qub a raconté d'Ahmad ibn Muhammad, d'al-Hasan ibn Ali, de certains de nos compagnons, de Sa'id al-Araj, d'Abu Abdillah (que la paix soit sur lui), qui a dit :",
+          "de": "Muhammad ibn Ya'qub überlieferte von Ahmad ibn Muhammad, von al-Hasan ibn Ali, von einigen unserer Gefährten, von Sa'id al-Araj, von Abu Abdillah (friede sei mit ihm), der sagte:",
+          "ru": "Мухаммад ибн Я'куб передал от Ахмада ибн Мухаммада, от аль-Хасана ибн Али, от некоторых наших сподвижников, от Са'ида аль-Араджа, от Абу Абд-Дина (да будет мир с ним), который сказал:",
+          "zh": "穆罕默德·本·叶尔孤白传自艾哈迈德·本·穆罕默德，从哈桑·本·阿里，从我们的某些同伴，从赛义德·阿拉吉，从阿布·阿卜杜拉（愿主安宁）传述，他说："
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَا يَأخُذِ الرّجُلُ إِذَا رَأَي هِلَالَ ذِي القَعْدَةِ وَأَرَادَ الخُرُوجَ مِنْ رَأْسِهِ وَلَا مِنْ لِحْيَتِهِ",
+        "translations": {
+          "en": "A man should not cut hair if he sees the crescent of Dhi al-Qa'dah and intends to depart, neither from his head nor from his beard.",
+          "ur": "ایک مرد کو چاہیے کہ وہ ذوالقعدہ کی ہلال دیکھ لے اور قربانی کے لیے نیت کر لے، تو نہ سر کے بال کاٹے اور نہ ہی داڑھی کی۔",
+          "tr": "Bir adam, Zülkade ayının hilalini görüp kurban kesmeyi niyetlendiğinde, ne başından ne de sakalından saçını kesmemelidir.",
+          "fa": "مردی که هلال ذی‌القعده را ببیند و قصد قربت داشته باشد، نباید از سر و ریش خود مو ببرد.",
+          "id": "Seorang pria tidak boleh memotong rambutnya jika ia melihat bulan sabit Dzulqa'dah dan berniat untuk berangkat, baik dari kepalanya maupun dari jenggotnya.",
+          "bn": "একজন ব্যক্তি যদি দ্বিলক্বাদ মাসের চাঁদ দেখেন এবং হজ্জের জন্য প্রস্থানের ইচ্ছা করেন, তবে তিনি মাথার বা দাড়ির চুল কাটবেন না।",
+          "es": "Un hombre no debe cortarse el pelo si ve la media luna de Dhu de Dhi al-Qa'dah y tiene la intención de partir, ni de su cabeza ni de su barba.",
+          "fr": "Un homme ne doit pas se couper leser les cheveux s'il aperçoit le croissant de Dhi al-Qa'dah et a l'intention de partir, ni sur sa tête ni sur sa barbe.",
+          "de": "Ein Mann soll sich das Haar nicht schneiden, wenn er den Halbmond des Dhi al-Qa'dah sieht und die Absicht hat, abzureisen, weder am Kopf noch am Bart.",
+          "ru": "Мужчине не следует не стричь волосы, если он узрит полумесяц зуль-када и намеревается отправиться в путь, ни с головы, ни с бороды.",
+          "zh": "一个人从看到Dhi al-Qa'dah的新月并准备出发时，不应修剪头发，无论是头上的头发还是胡须。"
+        },
+        "word_start": 1,
+        "word_end": 16
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَمَّا مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ الحَسَنِ عَن زُرْعَةَ عَن سَمَاعَةَ عَن أَبِي عَبْدِ اللَّهِ ع قَالَ سَأَلْتُهُ عَنِ الحِجَامَةِ وَحَلْقِ القَفَا فِي أَشْهُرِ الحَجِّ فَقَالَ لَا بَأْسَ بِهِ وَالسِّوَاكِ وَالنُّورَةِ فَالْوَجْهُ فِي هَذَا الخَبَرِ أَنْ نَحْمِلَ جَوَازَ ذَلِكَ عَلَى أَشْهُرِ الحَجِّ الَّتِي هِيَ شَوَّالٌ",
+        "translations": {
+          "en": "As for what al-Husayn ibn Sa'id narrated from al-Hasan from Zur'ah from Sama'ah from Abu Abdillah (peace be upon him) who said: I asked him about cupping and shaving the nape of the neck during the months of Hajj, and he said: There is no harm in it, and the toothbrush and the henna. The approach in this narration is to hold the permissibility of that during the months of Hajj which are Shawwal.",
+          "ur": "وہ ماہرِ حدیث الحسین بن سعید سے حسن سے زرعہ سے سماعہ سے ابو عبداللہ (علیہ السلام) روایت کرتے ہیں جنہوں نے کہا: میں نے ان سے حج کے مہینوں میں حجام اور گردن کے بال کاٹنے کے بارے میں پوچھا، تو انہوں نے کہا: اس میں کوئی حرج نہیں، اور مسواک اور حنا بھی۔ اس روایت میں یہی رائے ہے کہ حج کے مہینوں یعنی شوال میں ان کا جواز ہے۔",
+          "tr": "Ebu Abdullah (aleyhisselam)'ın şöyle dediği rivayettir: Ben kendisine, hac aylarında (ziyaret aylarında) hicam ve boyun arkasını tıraş etmek hakkında sordum, o da: \"Bunda bir zarar yoktur; misvak ve henna da (gibi şeyler) vardır\" dedi. Bu rivayetteki yaklaşım, bu işlerin hac aylarında (şevval ayında) caiz olması yönündedir.",
+          "fa": "و اما آنچه الحسین بن سعید از الحسن از زُرعه از سماعه از ابو عبدالله (علیه السلام) روایت کرده که گفت: من از او درباره حجامت و تراشیدن پشت گردن در ماه‌های حج پرسیدم و او گفت: گناهی ندارد و مسواک و حنا نیز چنین است. رویه در این روایت این است که جواز آن را در ماه‌های حج که شوال است، معتبر بدانیم.",
+          "id": "Adapun apa yang diriwayatkan oleh al-Husayn ibn Sa'id dari al-Hasan dari Zur'ah dari Sama'ah dari Abu Abdillah (alaihissalam) yang berkata: Aku bertanya kepadanya tentang bekam dan mencukur tengkok pada bulan-bulan haji, maka beliau menjawab: Tidak ada dosa atasnya, dan (demikian pula) siwak serta henna. Pendapat dalam riwayat ini adalah bahwa yang dimaksud adalah kebolehan melakukan hal tersebut pada bulan-bulan haji, yaitu bulan Syawal.",
+          "bn": "আল-হুসাইন ইবনে সাঈদ থেকে আল-হাসান, জুরাহ, সামাআহ, আবু আবদিল্লাহ (আলাইহিস সালাম) পর্যন্ত সনদে বর্ণিত হাদিসে তিনি বলেন: আমি তাকে হজ্জের মাসে হিজামা এবং ঘাড়ের পিছনের চুল কাটার বিষয়ে জিজ্ঞাসা করলাম, তিনি উত্তর দিলেন: এতে কোনো ক্ষতি নেই, এবং সুয়ান এবং মেহেন্দির ব্যবহারও। এই বর্ণনার প্রেক্ষিতে শাওয়াল মাসে এগুলোর অনুমোদন গ্রহণযোগ্য বলে গণ্য হয়।",
+          "es": "En cuanto a lo que narró al-Husayn ibn Sa'id, de al-Hasan, de Zur'ah, de Sama'ah, de Abu Abdillah (que la paz sea con él), quien dijo: Le pregunté sobre la sangría y el afeitado de la nuca durante los meses del Hajj, y él respondió: No hay ningún perjuicio en ello, así como el uso del siwak y la henna. La conclusión en esta narración es la permisibilidad de ello durante los meses del Hajj, que son Shawwal.",
+          "fr": "Quant à ce qu’a rapporté al-Husayn ibn Sa‘id, d’al-Hasan, de Zur‘ah, de Sama‘ah, d’Abou Abdillah (que la paix soit sur lui), qui a dit : « Je lui ai demandé à propos de la saignée et du rasage de la nuque pendant les mois du Hajj, et il a répondu : Il n’y a aucun inconvénient, ainsi que pour la brosse à dents et le henné. L’approche dans cette narration est de considérer comme permis cela pendant les mois du Hajj, qui sont Shawwal. »",
+          "de": "Was al-Husayn ibn Sa'id von al-Hasan von Zur'ah von Sama'ah von Abu Abdillah (friede sei mit ihm) betrifft, der sagte: Ich fragte ihn nach dem Aderlass und dem Scheren des Nackens während der Monate des Haddsch, und er sagte: Es ist kein Schaden darin, und das Siwak und der Henna. Die Vorgehensweise in dieser Überlieferung ist, die Erlaubtheit dessen während der Monate des Haddsch, die Shawwal sind, zu halten.",
+          "ru": "Что касается того, что аль-Хусайн ибн Саид передал от альХасана от Зурах от Самаах от Абу Абдиллаха (да будет мир с ним), который сказал: Я спросил его о пускании крови и стрижке затылка в месяцы хаджа, и он сказал: В этом нет вреда, а также о зубной щетке и хне. Подход в этой передаче заключается в том, чтобы считать дозволенным это в месяцы хаджа, которые являются Шаввал.",
+          "zh": "至于侯赛因·本·赛义德传自哈桑、祖拉阿、萨迈阿、阿布·阿卜杜拉（愿主安他）的圣训，他说：我问他在朝觐月份（shawwal）期间放血和剃后颈的问题，他说：无妨，还有牙刷和指甲花。此段圣训的结论是：在shawwal这些朝觐月份中，这些行为是允许的。"
+        },
+        "word_start": 16,
+        "word_end": 62
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ لَا بَأْسَ أَنْ يَأخُذَ الإِنسَانُ مِنْ شَعْرِ رَأْسِهِ وَلِحْيَتِهِ فِي هَذَا الشَّهْرِ كُلِّهِ إِلَى غُرَّةِ ذِي القَعْدَةِ",
+        "translations": {
+          "en": "He said: There is no harm for a person to cut hair from his head and beard during this entire month until the first of Dhi al-Qa'dah.",
+          "ur": "انہوں نے کہا: اس پورے مہ مہینے میں، یعنی پہلی ذوالقعدہ تک، کسی شخص کے لیے اپنی داڑھی اور سر کے بال کاٹنے میں کوئی حرج نہیں ہے۔",
+          "tr": "Dedi ki: Bir kimse, Dhu'l-Ka'de ayının başlangıcına kadar bu ayın tamamında başından ve sakalından saç kesmesinde bir sakınca yoktur.",
+          "fa": "گفت: برای شخص در این ماه تا اول ذی‌القعدا حرجی نیست که موهای سر و ریش خود را کوتاه کند.",
+          "id": "Ia berkata: Tidak ada dosa bagi seseorang untuk memotong rambut dari kepalanya dan jenggotnya selama seluruh bulan tersebut hingga awal Dzulqa'dah.",
+          "bn": "তিনি বললেন, এই পুরো মাসে প্রথম ধুলকাদাহ পর্যন্ত একজন ব্যক্তি তার মাথার চুল ও দাড়ি কেটে নিতে পারেন, এর কোনো ক্ষতি নেই।",
+          "es": "Dijo: No hay perjuicio para una persona en cortarse el pelo de la cabeza y la barba durante todo este mes hasta el primero de Dhi al-Qa'dah.",
+          "fr": "Il a dit : Il n'y a pas de mal pour une personne à se couper les cheveux de la tête et la barbe pendant tout ce mois jusqu'au premier jour de Dhu al-Qa'dah.",
+          "de": "Er sagte: Es ist für eine Person kein Schaden, während des gesamten Monats bis zum ersten Tag von Dhi al-Qa'dah Haare von seinem Kopf und Bart zu schneiden.",
+          "ru": "Он сказал: Нет препятствия для человека стричь волосы на голове и бороде в течение всего этого месяца до начала месяца Зуль-Каада.",
+          "zh": "他说：在整个月份直到杜尔盖尔德月初之前，一个人从头上和胡须上剪下头发是没有害处的。"
+        },
+        "word_start": 62,
+        "word_end": 80
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يَدُلُّ عَلَى ذَلِكَ",
+        "translations": {
+          "en": "This indicates that.",
+          "ur": "یہ اس بات کی نشاندہی کرتا ہے۔",
+          "tr": "Bu, şunu göstermektedir.",
+          "fa": "این نشان می‌دهد که.",
+          "id": "Hal ini menunjukkan bahwa.",
+          "bn": "এটি নির্দেশ করে যে।",
+          "es": "Esto indica que.",
+          "fr": "Cela indique que.",
+          "de": "Dies deutet darauf hin.",
+          "ru": "Это указывает на то.",
+          "zh": "这表明"
+        },
+        "word_start": 80,
+        "word_end": 83
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ القَاسِمِ بْنِ مُحَمَّدٍ وَفَضَالَةَ عَن حُسَيْنِ بْنِ أَبِي العَلَاءِ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنِ الرّجُلِ يُرِيدُ الحَجَّ أَ يَأخُذُ مِنْ شَعْرِهِ فِي شَوَّالٍ كُلِّهِ مَا لَمْ يَرَ الهِلَالَ قَالَ نَعَمْ لَا بَأْسَ بِهِ",
+        "translations": {
+          "en": "What al-Husayn ibn Sa'id narrated from al-Qasim ibn Muhammad and Fadalah from Husayn ibn Abi al-A'la, who said: I asked Abu Abdillah (peace be upon him) about a man who intends Hajj, does he cut his hair during all of Shawwal as long as he has not seen the crescent? He said: Yes, there is no harm in it.",
+          "ur": "الحسین بن سعید نے القاسم بن محمد اور فضالہ سے، انہوں نے حسین بن ابی الاعلا سے روایت کی، انہوں نے کہا: میں نے ابو عبداللہ (علیہ السلام) سے ایک شخص کے بارے میں پوچھا جو حج کا ارادہ کرتا ہے، کیا وہ شوال کے تمام مہینے میں اپنا بال کاٹتا ہے جب تک کہ وہ ہلال نہ دیکھ لے؟ انہوں نے فرمایا: جی ہاں، اس میں کوئی حرج نہیں ہے۔",
+          "tr": "El-Hüseyin b. Said, El-Kasım b. Muhammed ve Fadâle, Hüseyin b. Ebi'l-Ala'dan; o da şöyle dedi: \"Ben, Ebu Abdillah'dan (aleyhisselâm), hac yapmayı niyetlenen birinin, hilali görene kadar Şevval ayının tamamında saçını alıp almayacağı hakkında sordum. O da, 'Evet, bir zarar yoktur' dedi.",
+          "fa": "حسین بن سعید از قاسم بن محمد و فضاله از حسین بن ابی الاعلا روایت کرده است که گفت: از ابو عبدالله (علیه السلام) درباره مردی پرسیدم که قصد حج دارد، آیا در تمام ماه شوال مویش را کوتاه می‌کند تا زمانی که هلال ماه را دیده باشد؟ فرمود: بله، اشکالی ندارد.",
+          "id": "Al-Husayn bin Sa'id telah meriwayatkan dari al-Qasim bin Muhammad dan Fadalah dari Husayn bin Abi al-A'la, yang berkata: Aku bertanya kepada Abu Abdillah (semoga dia damai) tentang seorang laki-laki yang berniat menunaikan haji, apakah dia memotong rambutnya sepanjang bulan Syawal selama dia belum melihat bulan sabit? Dia menjawab: Ya, tidak ada masalah dalam hal itu.",
+          "bn": "আল-হুসাইন ইবনে সাঈদ, আল-কাসিম ইবনে মুহাম্মাদ এবং ফাদালাহ, হুসাইন ইবনে আবি আল-আ'লা থেকে বর্ণনা করেন, তিনি বলেন: আমি আবু আবদিল্লাহ (আলাইহিস সালাম)-কে জিজ্ঞেস করলাম, যে ব্যক্তি হজ্জের ইচ্ছা করে, সে কি শাওয়াল মাসের শুরু থেকে চাঁদ দেখা পর্যন্ত তার চুল কেটে রাখতে পারে? তিনি বললেন: হ্যাঁ, তাতে কোনো ক্ষতি নেই।",
+          "es": "Narró al-Husó al-Husayn ibn Sa'id desde al-Qasim ibn Muhammad y Fadalah desde Husayn ibn Abi al-A'la, quien dijo: Pregunté a Abu Abdillah (que la paz sea con él) acerca de un hombre que tiene la intención de realizar el Hajj, ¿debe cortarse el cabello durante todo el mes de Shawwal mientras no haya visto la luna nueva? Dijo: Sí, no hay ningún perjuicio en ello.",
+          "fr": "Ce qu'a rapporté al-Husayn ibn Sa'id, de al-Qasim ibn Muhammad, et Fadalah, de Husayn ibn Abi al-A'la, qui a dit : J'ai demandé à Abou Abdillah (que la paix soit sur lui) au sujet d'un homme qui a l'intention de faire le Hajj, doit-il se couper les cheveux pendant tout le mois de Chawwal tant qu'il n'a pas vu le croissant ? Il a dit : Oui, il n'y a aucun inconvénient.",
+          "de": "Was al-Husayn ibn Sa'id von al-Qasim ibn Muhammad und al-Qasim ibn Muhammad sowie Fadalah von Husayn ibn Abi al-A'la überlieferte, der sagte: Ich fragte Abu Abdillah (friede sei mit ihm) über einen Mann, der den Haddsch beabsichtigt, ob er seine Haare während des gesamten Monats Schawwal schneidet, solange er den Halbmond nicht gesehen hat? Er sagte: Ja, daran ist kein Fehler.",
+          "ru": "Рассказал аль-Хусайн ибн Са'id от аль-Касима ибн Мухаммада и Фадальи от аль-Хусайна ибн Аби аль-А'ля, который сказал: «Я спросил Абу Абдуллаха (да будет он доволен) о человеке, который намеревается совершить хадж, стриг ли он волосы в течение всего месяца ша'ван, пока не узрит луну? Он сказал: Да, в этом нет вреда.",
+          "zh": "胡赛因·伊本·赛义德传自卡西姆·伊本·穆罕默德，法达莱传自胡赛因·伊本·阿卜拉·阿拉，他说：我问艾布·阿卜杜拉（愿主喜悦之）关于一个举意朝觐的人，在看见新月之前，他是否在整个舍尔邦月都可以剪发？他说：可以，无妨。"
+        },
+        "word_start": 83,
+        "word_end": 124
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مُوسَى بْنُ القَاسِمِ عَن عَبْدِ اللَّهِ بْنِ بُكَيْرٍ عَن مُحَمَّدِ بْنِ مُسْلِمٍ عَن أَبِي عَبْدِ اللَّهِ ع قَالَ خُذْ مِنْ شَعْرِكَ إِذَا أَزْمَعْتَ عَلَى الحَجِّ شَوَّالًا كُلَّهُ إِلَى غُرَّةِ ذِي القَعْدَةِ",
+        "translations": {
+          "en": "Musa ibn al-Qasim from Abdullah ibn Bukayr from Muhammad ibn Muslim from Abu Abdillah (peace be upon him) who said: Cut from your hair if you intend Hajj, all of Shawwal until the first of Dhi al-Qa'dah.",
+          "ur": "موسیٰ بن قاسم سے عبداللہ بن بکیر نے، محمد بن مسلم سے، ابو عبداللہ (علیہ السلام) سے روایت کی کہ انہوں نے فرمایا: جب آپ حج کا ارادہ کریں تو اپنی بالوں کو کاٹیں، پورے شوال سے لے کر ذوالقعدہ کی پہلی تاریخ تک۔",
+          "tr": "Musa ibn el-Kasim, Abdullah ibn Bükayr'dan, Muhammed ibn Müslim'den, Ebu Abdillah (aleyhisselam) rivayet etti; o da şöyle dedi: Hac niyetiyle tıraş olmanız için Saval ayının başından Zilka'd ayının birine kadar saçınızdan alın.",
+          "fa": "موسی بن قاسم از عبدالله بن بکیر از محمد بن مسلم از ابو عبدالله (علیه السلام) که فرمود: موهای سر خود را از آغاز شوال تا اول ذی‌القعده برای حج کوتاه کنید.",
+          "id": "Musa bin al-Qasim dari Abdullah bin Bukayr dari Muhammad bin Muslim dari Abu Abdillah (alam Abu Abdillah (shalatullahi 'alaihi) yang berkata: Potonglah rambutmu jika kamu berniat haji, sepanjang bulan Syawal hingga awal Dzulqa'dah.",
+          "bn": "মুসা ইবনুল কাসিম, আবদুল্লাহ ইবন বুকাইর থেকে, মুহাম্মাদ ইবন মুসলিম থেকে, আবু আবদিল্লাহ (রহ.) থেকে বর্ণিত, তিনি বলেন: যখন আপনি হজ্জের ইচ্ছা করেন, তবে শাওয়াল মাসের প্রথম থেকে যুলকদ মাসের প্রথম পর্যন্ত আপনার চুল কেটে ফেলুন।",
+          "es": "Musa ibn al-Qasim de Abdullah ibn Bukayr de Muhammad ibn Muslim de Abu Abdillah (que la paz sea con él) quien dijo: Cortad de vuestro cabello si tenéis la intención de realizar el Hajj, desde todo el mes de Shawwal hasta el primero de Dhi al-Qa'dah.",
+          "fr": "Moussa ibn al-Qasim, d'Abdallah ibn Boukayr, de Muhammad ibn Muslim, d'Abou Abdillah (que la paix soit sur lui), qui a dit : « Coupez vos cheveux si vous avez l'intention de faire le Hajj, depuis toute la fin du mois de Chawwal jusqu'au premier jour de Dhi al-Qa'dah. »",
+          "de": "Musa ibn al-Qasim von Abdullah ibn Bukayr von Muhammad ibn Muslim von Abu Abdillah (friede sei mit ihm), der sagte: Schneiden Sie von Ihrem Haar, wenn Sie Haddsch beabsichtigen, den gesamten Schawwal bis zum ersten Tag von Dhu al-Qa'dah.",
+          "ru": "Муса ибн аль-Касим от Абдуллаха ибн Букейра от Мухаммада ибн Муслима от Абу Абдуллаха (да будет мир с ним), который сказал: «Стригите волосы, если намереваетесь совершить хадж, начиная с начала шаваля до первого дня зуль-када».",
+          "zh": "穆萨·本·卡西姆从阿卜杜拉·本·布凯尔从穆罕默德·本·穆斯林从阿布·阿卜杜拉（愿主喜悦之）传述，他说：如果你 intends 朝觐，从 Shawwal 月初到 Dhi al-Qa'dah 月初，修剪你的头发。"
+        },
+        "word_start": 124,
+        "word_end": 155
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَأَمَّا مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ النُّضْرِ عَن زُرْعَةَ عَن مُحَمَّدِ بْنِ خَالِدٍ الخَزَّازِ قَالَ سَمِعْتُ أَبَا الحَسَنِ ع يَقُولُ أَمَّا أَنَا فَأَأخُذُ مِنْ شَعَرِي حِينَ أُرِيدُ الخُرُوجَ يَعْنِي إِلَى مَكَّةَ لِلْإِحْرَامِ فَالْوَجْهُ فِي هَذَا الخَبَرِ أَحَدُ شَيْئَيْنِ أَحَدُهُمَا أَنْ يَكُونَ أَخْذُهُ لِذَلِكَ فِي الشَّهْرِ الَّذِي قَبْلَ ذِي القَعْدَةِ عَلَى مَا بَيَّنَّاهُ لِأَنَّ الَّذِي لَا يَجُوزُ أَخْذُ الشَّعْرِ فِيهِ ذِي القَعْدَةِ وَذِي الحِجَّةِ إِلَى انْقِضَاءِ أَيَّامِ المَنَاسِكِ وَالْآخَرُ أَنْ يَكُونَ المُرَادُ بِذَلِكَ مَا عَدَا شَعْرَ الرّأْسِ وَاللّحْيَةِ مِنْ شَعْرِ البَدَنِ لِأَنَّ ذَلِكَ يَجُوزُ أَخْذُهُ إِلَى وَقْتِ الإِحْرَامِ يَدُلُّ عَلَى ذَلِكَ",
+        "translations": {
+          "en": "As for what al-Husayn ibn Sa'id narrated from al-Nadr from Zur'ah from Muhammad ibn Khalid al-Kazzaz, who said: I heard Abu al-Hasan (peace be upon him) saying: As for me, I cut from my hair when I intend to depart, meaning to Makkah for Ihram. The approach in this narration is one of two things: one is that his cutting it is in the month before Dhi al-Qa'dah, according to what we clarified, because the one in which cutting hair is not permitted is Dhi al-Qa'dah and Dhi al-Hijjah until the completion of the days of rituals. And the other is that what is meant by that is what is besides the hair of the head and the beard, from the hair of the body, because that is permitted to be cut until the time of Ihram. This indicates that.",
+          "ur": "جس چیز کی بات ہے جو حسین بن سعید نے النضر سے، اور النضر نے زرعہ سے، اور زرعہ نے محمد بن خالد الکزاز سے روایت کی ہے، جنہوں نے کہا: میں نے ابو الحسن (علیہ السلام) کو یہ کہتے ہوئے سنا: میرے لیے یہ بات ہے کہ میں اپنے بال کاٹتا ہوں جب میں سفر کا ارادہ کرتا ہوں، یعنی مکہ کے لیے احرام باندھنے کے لیے۔ اس روایت میں دو باتوں میں سے ایک مراد ہے: ایک یہ ہے کہ اس کے بال کاٹنا ذوالقعدہ کے مہینے میں ہے، جیسا کہ ہم نے واضح کیا ہے، کیونکہ جس مہینے میں بال کاٹنا جائز نہیں وہ ذوالقمد اور ذوالحجہ ہے، جب تک کہ مناسک کے دن مکمل نہ ہو جائیں۔ اور دوسری بات یہ ہے کہ مراد وہ ہے جو سر کے بال اور داڑھی کے سوا جسم کے بال ہیں، کیونکہ انہیں احرام کے وقت تک کاٹنا جائز ہے۔ یہ اس کی طرف اشارہ کرتا ہے۔",
+          "tr": "Ebu Bekr el-Hüseyin ibn Said, en-Nadr'den, Zur'a'dan, Muhammed ibn Halid el-Kazzaz'dan rivayet etmiştir; o da şöyle demiştir: Ebu'l-Hasan'ı (aleyhisselam) şöyle derken işittim: Ben, ihrama girmek üzere yola çıkmayı niyet ettiğimde, yani Mekke'ye ihram için giderken, saçlarımdan keserim. Bu rivayetteki yaklaşım iki şeyden biridir: Birincisi, bizim açıkladığımıza göre, saçın kesilmesi Zilka'de ayındadır; çünkü saç kesilmesine izin verilmeyen ay Zilka'de ve Zilhicce'dir, ritüellerin tamamlanmasına kadar. İkincisi ise, kastedilen şey, baş ve sakal saçları dışında, vücut saçlarıdır; çünkü bunların ihram zamanına kadar kesilmesine izin verilir. Bu da bunu gösterir.",
+          "fa": "امّا آنچه الحسین بن سعید از النضر از زُرعه از محمد بن خالد الکزّاز روایت کرده، که گفت: من شنیدم ابالحسن (علیه السلام) می‌فرمود: امّا من، هنگامی که قصد سفر دارم، یعنی برای احرام به مکه، از موی سرم می‌برم. وجه این روایت یکی از دو چیز است: یکی این است که بریدن مویش در ماه قبل از ذی‌القعده است، به آنچه ما تبیین کردیم، زیرا ماهی که بریدن مو در آن جایز نیست، ذی‌القعده و ذی‌الحجه تا پایان روزهای مناسک است. و دیگری این است که منظور از آن، موهای غیر سر و ریش، یعنی موهای بدن است، زیرا بریدن آن‌ها تا زمان احرام جایز است. این امر دلالت بر همین دارد.",
+          "id": "Adapun apa yang diriwayatkan oleh al-Husayn ibn Sa'id dari al-Nadr dari Zur'ah dari Muhammad ibn Khalid al-Kazzaz, yang berkata: Aku mendengar Abu al-Hasan (shalatullah 'alaih) berkata: Adapun aku, aku memotong rambutku ketika aku berniat untuk berangkat, yaitu menuju Makkah untuk Ihram. Pendekatan dalam riwayat ini adalah salah satu dari dua hal: yang pertama adalah bahwa pemotongannya dilakukan pada bulan sebelum Dzulqa'dah, sesuai dengan apa yang telah kami jelaskan, karena bulan yang tidak diperbolehkan memotong rambut adalah Dzulqa'dah dan Dzulhijjah hingga selesainya hari-hari ibadah. Yang kedua adalah yang dimaksud adalah selain rambut kepala dan jenggot, yaitu rambut badan, karena itu diperbolehkan untuk dipotong hingga waktu Ihram. Hal ini menunjukkan hal tersebut.",
+          "bn": "আল-হুসাইন ইবনে সাঈদ থেকে আল-নাদ্র, জুরাহ, মুহাম্মাদ ইবনে খালিদ আল-কাজ্জাজ পর্যন্ত বর্ণিত বিষয়ে তিনি বলেন: আমি আবু আল-হাসান (আলৈহি আল-সালাম)-কে বলতে শুনেছি: আমার ক্ষেত্রে আমি যখন প্রস্থানের ইচ্ছা করি, অর্থাৎ ইহরামের জন্য মক্কার উদ্দেশ্যে যাত্রা করি, তখন আমার চুল কাটি। এই বর্ণনায় দুটি বিষয়ের যেকোনো একটি বোঝানো হয়েছে: প্রথমত, চুল কাটা দ্বি আল-কা'দাহর আগের মাসে হয়, আমাদের যা স্পষ্ট করেছি তার উপর ভিত্তি করে, কারণ চুল কাটা নিষিদ্ধ মাস হলো দ্বি আল-কা'দাহ এবং দ্বি আল-হিজ্জাহ, যতক্ষণ না আনুষ্ঠানিক দিনগুলো সম্পন্ন হয়। দ্বিতীয়ত, এখানে যে চুলের কথা বলা হয়েছে তা মাথার চুল এবং দাড়ির বাইরের শরীরের চুল, কারণ তা ইহরামের সময় পর্যন্ত কাটা যায়। এটিই নির্দেশ করে।",
+          "es": "En cuanto a lo que narró al-Husayn ibn Sa'id, de al-Nadr, de Zur'ah, de Muhammad ibn Khalid al-Kazzaz, quien dijo: Oí a Abu al-Hasan (que la paz sea con él) decir: En cuanto a mí, me corto el cabello cuando tengo la intención de partir, es decir, hacia Makkah para el Ihram. El enfoque en esta narración es una de dos cosas: una es que su corte de cabello es en el mes anterior a Dhi al-Qa'dah, según lo que aclaramos, porque el mes en el que no se permite cortarse el cabello es Dhi al-Qa'dah y Dhi al-Hijjah hasta la conclusión de los días de los rituales. Y la otra es que lo que se entiende por eso es lo que está fuera del cabello de la cabeza y la barba, es decir, el vello del cuerpo, porque se permite cortarlo hasta el momento del Ihram. Esto lo indica.",
+          "fr": "Quant à ce qu’a rapporté al-Husayn ibn Sa‘id, de al-Nadr, de Zur‘ah, de Muhammad ibn Khalid al-Kazzaz, qui a dit : J’ai entendu Abou al-Hasan (que la paix soit sur lui) dire : « Quant à moi, je coupe mes cheveux lorsque j’ai l’intention de partir, c’est-à-dire pour la Mecah en vue de l’Ihram. » L’interprétation de cette narration peut relever de l’une des deux choses suivantes : soit il s’agit de la coupe des cheveux de la tête au mois précédant Dhi al-Qa‘dah, selon ce que nous avons établi, car le mois durant lequel la coupe des cheveux n’est pas permise est Dhi al-Qa‘dah et Dhi al-Hijjah jusqu’à l’achèvement des jours des rituels ; soit ce qui est visé par là concerne les poils du corps autres que ceux de la tête et de la barbe, car leur coupe est permise jusqu’au moment de l’Ihram. Cela l’indique.",
+          "de": "Was al-Husayn ibn Sa'id von al-Nadr, von Zur'ah, von Muhammad ibn Khalid al-Kazzaz überliefert, der sagte: Ich hörte Abu al-Hasan (friede sei mit ihm) sagen: Was mich betrifft, so schneide ich meine Haare, wenn ich beabsichtige, abzureisen, d. h. nach Makkah für den Ihram. Die Herangehensweise in dieser Überlieferung ist eine von zwei Dingen: Das eine ist, dass das Schneiden seiner Haare im Monat vor Dhi al-Qa'dah erfolgt, gemäß dem, was wir geklärt haben, denn der Monat, in dem das Schneiden der Haare nicht erlaubt ist, ist Dhi al-Qa'dah und Dhi al-Hijjah, bis die Verrichtung der Riten abgeschlossen ist. Und das andere ist, dass mit dem Gesagten das gemeint ist, was außer den Haaren des Kopfes und dem Bart von den Körperhaaren ist, denn diese dürfen bis zum Zeitpunkt des Ihram geschnitten werden. Dies deutet darauf hin.",
+          "ru": "Что касается того, что передал аль-Хусайн ибн Са'id от ан-Надра от Зур'а от Мухаммада ибн Халида аль-Каззаза, который сказал: «Я слышал, как Абу аль-Хасан (да будет мир с ним) говорил: что касается меня, то я стригу волосы, когда намереваюсь отправиться в путь, то есть в Мекку для ихрама». Подход в этой передаче может быть одним из двух: первый — что стрижка происходит в месяц, предшествующий Зуль-Ка'да, согласно тому, что мы разъяснили, поскольку месяц, в котором не разрешено стричь волосы, — это Зуль-Ка'да и Зуль--Хиджа до завершения дней ритуалов. А второй — что имеется в виду то, что находится за пределами волос на голове и бороды, а именно волосы тела, поскольку их разрешено стричь до времени вступления в ихрам. Это указывает на это.",
+          "zh": "至于侯赛因·本·赛义德从纳迪尔、祖赖尔、穆罕默德·本·哈利德·卡扎兹传述，他说：我听到艾布·哈桑（愿主安宁之）说：当我准备出发时，我会修剪头发，意指前往麦加受戒。此段传述的理解有两种可能：其一，修剪头发是在杜尔·盖尔德月之前，正如我们所阐明的那样，因为不允许修剪头发的月份是杜尔·盖尔德月和杜尔·希贾月，直到仪式日结束；其二，所指的是除头部头发和胡须之外的身体毛发，因为这些毛发在受戒前是可以修剪的。这便说明了这一点。"
+        },
+        "word_start": 155,
+        "word_end": 246
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ الفُضَيْلِ عَن أَبِي الصَّبَّاحِ الكِنَانِيِّ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنِ الرّجُلِ يُرِيدُ الحَجَّ أَ يَأخُذُ مِنْ شَعْرِهِ فِي أَشْهُرِ الحَجِّ قَالَ لَا وَلَا مِنْ لِحْيَتِهِ وَلَكِنْ يَأخُذُ مِنْ شَارِبِهِ وَمِنْ أَظْفَارِهِ وَلْيَطَّلِ إِن شَاءَ اللَّهُ",
+        "translations": {
+          "en": "What al-Husayn ibn Sa'id narrated from Ibn al-Fudayl from Abu al-Subah al-Kinani, who said: I asked Abu Abdillah (peace be upon him) about a man who intends Hajj, does he cut his hair during the months of Hajj? He said: No, and not from his beard, but he cuts from his mustache and from his nails, and let him look (at his appearance) if God wills.",
+          "ur": "الحسین بن سعید نے ابن فضیل سے روایت کی، انہوں نے ابو الصبح کینانی سے روایت کی، انہوں نے کہا: میں نے ابو عبداللہ (علیہ السلام) سے پوچھا کہ وہ شخص جو حج کا ارادہ کرتا ہے، کیا وہ حج کے مہینوں میں اپنے بال کاٹتا ہے؟ انہوں نے فرمایا: نہیں، اور نہ ہی داڑھی سے، بلکہ وہ اپنی مونچھوں سے اور اپنی ناخنوں سے کاٹتا ہے، اور اگر خدا چاہے تو اپنی ظاہری حالت کو دیکھ لے۔",
+          "tr": "El-Hüseyin b. Said, İbnü'l-Füdeyl'den, Ebü's-Subah el-Kinani'den rivayet etti; o da şöyle dedi: Ben, Ebu Abdillah'dan (aleyhisselam), hac yapmayı niyetlenen bir adamın, haccın aylarında saçını kesip kesmeyeceğini sordum. O da: Hayır, sakalından da değil, ancak bıyğından ve tırnaklarından keser; ve dilerse Allah, (görünüşüne) bakar dedi.",
+          "fa": "حسین بن سعید از ابن فضیل از ابو الصبح کنانی روایت کرده که گفت: از ابو عبدالله (علیه السلام) درباره مردی که قصد حج دارد پرسیدم، آیا در ماه‌های حج مویش را می‌برد؟ فرمود: نه، و نه از ریشش، بلکه از سبیلش و از ناخن‌هایش می‌برد، و اگر خدا بخواهد به ظاهرش بنگرد.",
+          "id": "Al-Husayn bin Sa'id telah meriwayatkan dari Ibn al-Fudayl dari Abu al-Subah al-Kinani, yang berkata: Aku bertanya kepada Abu Abdillah (shalatullahi 'alaihi) tentang seorang laki-laki yang berniat haji, apakah ia memotong rambutnya pada bulan-bulan haji? Ia menjawab: Tidak, dan juga bukan dari jenggotnya, tetapi ia memotong dari kumisnya dan dari kukunya, dan hendaklah ia memperhatikan (penampilannya) jika Allah menghendaki.",
+          "bn": "আল-হুসাইন ইবনে সাঈদ, ইবনে আল-ফুদাইল থেকে, আবু আস-সুবাহ আল-কিনানী থেকে বর্ণনা করেন, তিনি বলেন: আমি আবু আবদিল্লাহ (আলাইহিস সালাম)-কে জিজ্ঞেস করলাম, যে ব্যক্তি হজ্জের ইচ্ছা করে, সে কি হজ্জের মাসগুলোতে তার চুল কেটে ফেলে? তিনি বললেন: না, এবং তার দাড়ি থেকেও নয়, কিন্তু সে তার মাঝি এবং তার নখ থেকে কাটে, এবং আল্লাহ ইচ্ছা করলে সে তার চেহারা দেখে নিতে পারে।",
+          "es": "Narró al-Husayn ibn Sa'idn Sa'id, de Ibn al-Fudayl, de Abu al-Subah al-Kinani, quien dijo: Pregunté a Abu Abdillah (que la paz sea con él) acerca de un hombre que tiene la intención de realizar el Hajj, ¿debe cortarse el cabello durante los meses del Hajj? Dijo: No, ni de su barba, pero se corta el bigote y las uñas, y que observe su apariencia si Dios quiere.",
+          "fr": "Ce qu'a raconté al-Husayn ibn Sa'id, d'Ibn al-Fudayl, d'Abou al-Subah al-Kinani, qui a dit : J'ai demandé à Abou Abdillah (que la paix soit sur lui) au sujet d'un homme qui a l'intention de faire le Hajj, doit-il se couper les cheveux pendant les mois du Hajj ? Il a dit : Non, et non de sa barbe, mais il se coupe les poils des moustaches et ses ongles, et qu'il regarde (son apparence) si Dieu le veut.",
+          "de": "Was al-Husayn ibn Sa'id von Ibn al-Fudayl überliefert hat, von Abu al-Subah al-Kinani, der sagte: Ich fragte Abu Abdillah (friede sei mit ihm) über einen Mann, der den Haddsch beabsichtigt, ob er in den Monaten des Haddsch seine Haare schneidet. Er sagte: Nein, und nicht von seinem Bart, aber er schneidet von seinem Schnurrbart und von seinen Nägeln, und er soll (sein Aussehen) betrachten, wenn Gott will.",
+          "ru": "Аль-Хусайн ибн Саид передал от Ибн аль-Фудайля от Абу ас-Субах аль-Кинани, который сказал: «Я спросил Абу Абдуллаха (да будет мир с ним) о человеке, который намеревается совершить хадж, стрижет ли он волосы в месяцы хаджа? Он сказал: Нет, и не бороды, но он стрижет усы и ногти, и пусть он посмотрит (на свой вид), если пожелает Аллах».",
+          "zh": "胡赛因·伊本·赛义德传自伊本·富德尔，传自艾布·萨巴·基纳尼，他说：我问艾布·阿卜杜拉（愿主安宁之）关于一个举意朝觐的人，他是否在朝觐月份理发？他说：不，也不剃胡须，但他修剪胡须和指甲，若真主意欲，让他审视自己的仪容。"
+        },
+        "word_start": 246,
+        "word_end": 290
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith elaborates on the specific timeline for cutting hair and nails for those intending Hajj or Umrah, distinguishing between the permissibility in Shawwal and the restrictions beginning with the sighting of the Dhi al-Qa'dah crescent. It highlights scholarly nuances regarding whether the prohibition applies to head and beard hair specifically or all body hair, and clarifies that mustache trimming and nail cutting remain permissible throughout. The text reflects the practical application of the 'Ashur al-Ma'lumat' (known months) mentioned in the Quran, ensuring pilgrims enter the state of Ihram in a state of physical purity and grooming.",
+        "seo_question": "When can a pilgrim start cutting their hair before Hajj?",
+        "key_terms": {
+          "الهلال": "Crescent moon",
+          "ذي القعدة": "Dhi al-Qa'dah (the 11th month of the Islamic calendar)",
+          "ذي الحجة": "Dhi al-Hijjah (the 12th month of the Islamic calendar)",
+          "الإحرام": "Ihram (ritual state for Hajj/Umrah)",
+          "الحجامة": "Cupping",
+          "حلق القفا": "Shaving the nape of the neck",
+          "السواك": "Toothbrush (miswak)",
+          "النورة": "Henna"
+        }
+      },
+      "ur": {
+        "summary": "یہ حدیث حج یا عمرت کرنے والوں کے لیے بال اور ناخن کاٹنے کے مخصوص وقت پر روشنی ڈالتی ہے، جس میں شوال کی مہمانی اور ذوالقعدہ کے ہلال دیکھے جانے کے بعد سے پابندیوں کے درمیان تمیز کی گئی ہے۔ یہ اس بات پر بھی علمی باریکیوں کو اجاگر کرتی ہے کہ کیا یہ پابندی صرف سر اور داڑھی کے بالوں پر لاگو ہوتی ہے یا تمام جسم کے بالوں پر، اور واضح کرتی ہے کہ مونچھوں کو کاٹنا اور ناخن کاٹنا مکمل طور پر جائز ہے۔ یہ متن قرآن میں ذکر کردہ 'اشہر المعلومات' (معلوم مہینے) کے عملی اطلاق کو ظاہر کرتا ہے، تاکہ حاجی جسمانی پاکیزگی اور خوبصورتی کی حالت میں احرام کی حالت میں داخل ہوں۔",
+        "seo_question": "حاجی حج سے پہلے اپنے بال کب کاٹنا شروع کر سکتے ہیں؟",
+        "key_terms": {
+          "الهلال": "چاند",
+          "ذي القعدة": "ذوالقعدہ",
+          "ذي الحجة": "ذوالحجہ",
+          "الإحرام": "احرام",
+          "الحجامة": "حجامت",
+          "حلق القفا": "قفا کا بال کاٹنا",
+          "السواك": "سیواک",
+          "النورة": "حنا"
+        }
+      },
+      "tr": {
+        "summary": "Bu hadis, Hac veya Umra niyetiyle olanların saç ve tırnak kesimi için özel bir zaman çizelgesini detaylandırarak, Şevval ayında izin verileni ile Zilka'de hilalinin görülmesiyle başlayan kısıtlamalar arasında ayrım yapar. Yasağın özellikle kafa ve sakal saçlarına mı yoksa tüm vücut tüylerine mi uygulandığına dair ilmi nüansları vurgular ve bıyık kesimi ile tırnak kesiminin her zaman izinli olduğunu açıklar. Metin, Müslümanların fiziksel temizlik ve bakımlı bir halde ihram durumuna girmesini sağlayarak, Kur'an'da geçen 'Eşhurul Ma'lumat' (bilinen aylar)ın pratik uygulamasını yansıtır.",
+        "seo_question": "Hacc'tan önce hacı ne zaman saçını kesmeye başlayabilir?",
+        "key_terms": {
+          "الهلال": "Hilal",
+          "ذي القعدة": "Zilka'de",
+          "ذي الحجة": "Zilhicce",
+          "الإحرام": "İhram",
+          "الحجامة": "Hicam",
+          "حلق القفا": "Boyun arkası tıraşı",
+          "السواك": "Sıwak",
+          "النورة": "Hina"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث درباره زمان‌بندی خاص برای کوتاه کردن مو و ناخن برای کسانی که قصد حج یا عمره دارند، توضیح می‌دهد و بین جایز بودن در ماه شوال و محدودیت‌های آغازین با رویت هلال ماه ذی‌القعده تمایز قائل می‌شود. این متن ظرافت‌های علمی را در مورد اینکه آیا ممنوعیت خاصاً به موی سر و ریش مربوط است یا تمام موی بدن، برجسته می‌کند و روشن می‌سازد که کوتاه کردن سبیل و بریدن ناخن‌ها در طول مدت مجاز است. این متن کاربرد عملی «اشهر المعلومات» (ماه‌های معلوم) ذکر شده در قرآن را منعکس می‌کند و اطمینان حاصل می‌کند که زائران در حالت پاکی و آراستگی جسمانی وارد حالت احرام می‌شوند.",
+        "seo_question": "زائر چه زمانی می‌تواند قبل از حج موهای خود را کوتاه کند؟",
+        "key_terms": {
+          "الهلال": "هلال ماه",
+          "ذي القعدة": "ذی‌القعده",
+          "ذي الحجة": "ذی‌الحجه",
+          "الإحرام": "احرام",
+          "الحجامة": "حجامت",
+          "حلق القفا": "حلق قفا",
+          "السواك": "سواک",
+          "النورة": "حناء"
+        }
+      },
+      "id": {
+        "summary": "Hadis ini menguraikan jadwal spesifik untuk memotong rambut dan kuku bagi mereka yang berniat melaksanakan Haji atau Umrah, membedakan antara kebolehan pada bulan Syawal dan larangan yang dimulai sejak terlihatnya hilal Dzulqa'dah. Hadis ini menyoroti nuansa keilmuan mengenai apakah larangan tersebut berlaku khusus pada rambut kepala dan jenggot atau seluruh rambut tubuh, serta memperjelas bahwa memotong kumis dan kuku tetap diperbolehkan sepanjang waktu. Teks ini mencerminkan penerapan praktis dari 'Asyurul Ma'lumat' (bulan-bulan yang diketahui) yang disebutkan dalam Al-Qur'an, memastikan jamaah haji memasuki keadaan ihram dalam kondisi kebersihan dan perawatan fisik.",
+        "seo_question": "Kapan seorang jamaah haji boleh mulai memotong rambutnya sebelum Haji?",
+        "key_terms": {
+          "الهلال": "Bulan sabit",
+          "ذي القعدة": "Dzulqa'dah (bulan ke-11 dalam kalender Islam)",
+          "ذي الحجة": "Dzulhijjah (bulan ke-12 dalam kalender Islam)",
+          "الإحرام": "Ihram (keadaan ritual untuk Haji/Umrah)",
+          "الحجامة": "Hijamah",
+          "حلق القفا": "Mencukur tengkuk",
+          "السواك": "Sikat gigi (miswak)",
+          "النورة": "Pewarna rambut (hina)"
+        }
+      },
+      "bn": {
+        "summary": "এই হাদিসে হজ্জ বা উমরাহর ইচ্ছাকারীদের জন্য চুল ও নখ কাটার নির্দিষ্ট সময়সীমা বিস্তারিতভাবে বর্ণনা করা হয়েছে, যা শাওয়াল মাসে অনুমোদিত এবং ধু al-কা'দাহ চাঁদ দৃশ্যমান হওয়ার পর থেকে শুরু হওয়া নিষেধাজ্ঞার মধ্যে পার্থক্য করে। এটি বিশেষ করে মাথা ও দাড়ির চুলের ক্ষেত্রে নিষেধাজ্ঞা প্রযোজ্য কিনা নাকি এটি শরীরের সকল চুলের ক্ষেত্রে প্রযোজ্য, এই বিষয়ে বিদ্বানদের মতামতের সূক্ষ্মতা তুলে ধরে এবং পরিষ্কার করে যে দাড়ি কেটে এবং নখ কাটা সারা সময় অনুমোদিত। পাঠটি কুরআনে উল্লিখিত 'আশুরুল মা'লুমাত' (জানা মাসসমূহ) এর ব্যবহারিক প্রয়োগ প্রতিফলিত করে, যাতে তীর্থযাত্রীরা শারীরিক পবিত্রতা ও সাজসজ্জার অবস্থায় ইহরামের অবস্থায় প্রবেশ করেন।",
+        "seo_question": "তীর্থযাত্রীরা হজ্জের আগে কখন তাদের চুল কাটা শুরু করতে পারেন?",
+        "key_terms": {
+          "الهلال": "চাঁদ",
+          "ذي القعدة": "ধু al-কা'দাহ",
+          "ذي الحجة": "ধু al-হিজ্জাহ",
+          "الإحرام": "ইহরাম",
+          "الحجامة": "হিজামা",
+          "حلق القفا": "ঘাড়ের পিছনের চুল মুড়া",
+          "السواك": "সিয়াক",
+          "النورة": "হেনা"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz detalla el cronograma específico para cortarse el cabello y las uñas para quienes tienen la intención de realizar el Hajj o la Umrah, distinguiendo entre la permisibilidad en el mes de Shawwal y las restricciones que comienzan con el avistamiento del crepúsculo de Dhi al-Qa'dah. Destaca matices eruditos sobre si la prohibición se aplica específicamente al cabello de la cabeza y la barba o a todo el vello corporal, y aclara que recortarse el bigote y cortarse las uñas siguen siendo permisibles durante todo el período. El texto refleja la aplicación práctica de los 'Ashur al-Ma'lumat' (meses conocidos) mencionados en el Corán, asegurando que los peregrinos entren en el estado de Ihram en un estado de pureza física y arreglo personal.",
+        "seo_question": "¿Cuándo puede un peregrino empezar a cortarse el cabello antes del Hajj?",
+        "key_terms": {
+          "الهلال": "Luna creciente",
+          "ذي القعدة": "Dhi al-Qa'dah (el undécimo mes del calendario islámico)",
+          "ذي الحجة": "Dhi al-Hijjah (el duodécimo mes del calendario islámico)",
+          "الإحرام": "Ihram (estado ritual para el Hajj/Umrah)",
+          "الحجامة": "Hijama",
+          "حلق القفا": "Afeitar la nuca",
+          "السواك": "Sawak",
+          "النورة": "Henna"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith précise le calendrier pour la coupe des cheveux et des ongles pour ceux qui projettent de faire le Hajj ou de faire le Hajj ou l'Omra, distinguant la permission en Shawwal et les restrictions à partir de la sighting du croissant de Dhi al-Qa'dah. Il met en lumière les nuances savantes concernant si l'interdiction s'applique spécifiquement aux cheveux de la tête et de la barbe ou à tous les poils du corps, et clarifie que la coupe de la moustache et des ongles reste permise tout au long. Le texte reflète l'application pratique des 'Ashur al-Ma'lumat' (mois connus) mentionnés dans le Coran, assurant que les pèlerins entrent dans l'état d'Ihram dans un état de pureté physique et de toilettage.",
+        "seo_question": "Quand un pèlerin peut-il commencer à couper ses cheveux avant le Hajj ?",
+        "key_terms": {
+          "الهلال": "Lune croissante",
+          "ذي القعدة": "Dhi al-Qa'dah (le 11e mois du calendrier islamique)",
+          "ذي الحجة": "Dhi al-Hijjah (le 12e mois du calendrier islamique)",
+          "الإحرام": "Ihram (état rituel pour le Hajj/Umrah)",
+          "الحجامة": "Hégémonie",
+          "حلق القفا": "Rasage de la nuque",
+          "السواك": "Brosse à dents (miswak)",
+          "النورة": "Gomme"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith erläutert den spezifischen Zeitplan für das Schneiden von Haaren und Nägeln für diejenigen, die Haddsch oder Umrah beabsichtigen, und unterscheidet zwischen der Erlaubnis im Shawwal und den Einschränkungen ab dem Sichtbarwerden des Dhi al-Qa'dah-Neumonds. Es hebt die nuancierten Ansichten der Gelehrten hervor, ob das Verbot spezifisch das Kopf- und Barthaar oder alle Körperhaare betrifft, und klärt, dass das Kürzen der Schnurrbartes und das Schneiden der Nägel jederzeit erlaubt bleiben. Der Text spiegelt die praktische Anwendung der im Koran erwähnten 'Ashur al-Ma'lumat' (bekannte Monate) wider und stellt sicher, dass Pilger den Zustand des Ihram in körperlicher Reinheit und gepflegtem Zustand betreten.",
+        "seo_question": "Wann kann ein Pilger vor dem Haddsch mit dem Haarschneiden beginnen?",
+        "key_terms": {
+          "الهلال": "Neumond",
+          "ذي القعدة": "Dhi al-Qa'dah (der 11. Monat des islamischen Kalenders)",
+          "ذي الحجة": "Dhi al-Hijjah (der 12. Monat des islamischen Kalenders)",
+          "الإحرام": "Ihram (ritueller Zustand für Haddsch/Umrah)",
+          "الحجامة": "Hegazonie",
+          "حلق القفا": "Schneiden der Nackenhaare",
+          "السواك": "Miswak",
+          "النورة": "Henna"
+        }
+      },
+      "ru": {
+        "summary": "Энтони: ",
+        "seo_question": "Когда паломник может начать стричь волосы перед хаджем?",
+        "key_terms": {
+          "الهلال": "Лунный серп",
+          "ذي القعدة": "Зуль-Каада (11-й месяц исламского календаря)",
+          "ذي الحجة": "Зуль-Хиджа (12-й месяц исламского календаря)",
+          "الإحرام": "Ихрам (ритуальное состояние для хаджа/умры)",
+          "الحجامة": "Гиджама (кровопускание)",
+          "حلق القفا": "Стрижка затылочной части шеи",
+          "السواك": "Сияк (зубная щетка)",
+          "النورة": "Хна"
+        }
+      },
+      "zh": {
+        "summary": "这段圣训详细阐述了朝觐或副朝意图者在剪发和修指甲方面的具体时间线，区分了沙瓦勒月（Shawwal）的许可性与自祖尔·盖尔德（Dhi al-Qa'dah）新月出现起开始的限制。它突出了学者们关于禁止范围是特指头部和胡须毛发还是所有身体毛发的细微差别，并澄清修剪胡须和剪指甲在整个期间都是允许的。这段文字反映了《古兰经》中提到的“已知月份”（Ashur al-Ma'lumat）的实际应用，确保朝觐者以身体洁净和仪容整洁的状态进入伊赫拉姆（Ihram）状态。",
+        "seo_question": "朝觐者在朝觐前何时可以开始剪发？",
+        "key_terms": {
+          "الهلال": "新月",
+          "ذي القعدة": "祖尔·盖尔德（伊斯兰历第11个月）",
+          "ذي الحجة": "祖尔·希贾（伊斯兰历第12个月）",
+          "الإحرام": "伊赫拉姆（朝觐/副朝的仪式状态）",
+          "الحجامة": "拔罐",
+          "حلق القفا": "剃后颈",
+          "السواك": "牙刷（苏瓦克）",
+          "النورة": "海娜"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:197",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad لَا يَأخُذِ الرّجُلُ إِذَا رَأَي هِلَالَ ذِي القَعْدَةِ وَأَرَادَ الخُرُوجَ مِنْ رَأْسِهِ وَلَا مِنْ لِحْيَتِهِ فَأَمَّا مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ الحَسَنِ عَن زُرْعَةَ عَن سَمَاعَةَ عَن أَبِي عَبْدِ اللَّهِ ع قَالَ سَأَلْتُهُ عَنِ الحِجَامَةِ وَحَلْقِ القَفَا فِي أَشْهُرِ الحَجِّ فَقَالَ لَا بَأْسَ بِهِ وَالسِّوَاكِ وَالنُّورَةِ فَالْوَجْهُ فِي هَذَا الخَبَرِ أَنْ نَحْمِلَ جَوَازَ ذَلِكَ عَلَى أَشْهُرِ الحَجِّ الَّتِي هِيَ شَوَّالٌ قَالَ لَا بَأْسَ أَنْ يَأخُذَ الإِنسَانُ مِنْ شَعْرِ رَأْسِهِ وَلِحْيَتِهِ فِي هَذَا الشَّهْرِ كُلِّهِ إِلَى غُرَّةِ ذِي القَعْدَةِ يَدُلُّ عَلَى ذَلِكَ مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ القَاسِمِ بْنِ مُحَمَّدٍ وَفَضَالَةَ عَن حُسَيْنِ بْنِ أَبِي العَلَاءِ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنِ الرّجُلِ يُرِيدُ الحَجَّ أَ يَأخُذُ مِنْ شَعْرِهِ فِي شَوَّالٍ كُلِّهِ مَا لَمْ يَرَ الهِلَالَ قَالَ نَعَمْ لَا بَأْسَ بِهِ مُوسَى بْنُ القَاسِمِ عَن عَبْدِ اللَّهِ بْنِ بُكَيْرٍ عَن مُحَمَّدِ بْنِ مُسْلِمٍ عَن أَبِي عَبْدِ اللَّهِ ع قَالَ خُذْ مِنْ شَعْرِكَ إِذَا أَزْمَعْتَ عَلَى الحَجِّ شَوَّالًا كُلَّهُ إِلَى غُرَّةِ ذِي القَعْدَةِ فَأَمَّا مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ النُّضْرِ عَن زُرْعَةَ عَن مُحَمَّدِ بْنِ خَالِدٍ الخَزَّازِ قَالَ سَمِعْتُ أَبَا الحَسَنِ ع يَقُولُ أَمَّا أَنَا فَأَأخُذُ مِنْ شَعَرِي حِينَ أُرِيدُ الخُرُوجَ يَعْنِي إِلَى مَكَّةَ لِلْإِحْرَامِ فَالْوَجْهُ فِي هَذَا الخَبَرِ أَحَدُ شَيْئَيْنِ أَحَدُهُمَا أَنْ يَكُونَ أَخْذُهُ لِذَلِكَ فِي الشَّهْرِ الَّذِي قَبْلَ ذِي القَعْدَةِ عَلَى مَا بَيَّنَّاهُ لِأَنَّ الَّذِي لَا يَجُوزُ أَخْذُ الشَّعْرِ فِيهِ ذِي القَعْدَةِ وَذِي الحِجَّةِ إِلَى انْقِضَاءِ أَيَّامِ المَنَاسِكِ وَالْآخَرُ أَنْ يَكُونَ المُرَادُ بِذَلِكَ مَا عَدَا شَعْرَ الرّأْسِ وَاللّحْيَةِ مِنْ شَعْرِ البَدَنِ لِأَنَّ ذَلِكَ يَجُوزُ أَخْذُهُ إِلَى وَقْتِ الإِحْرَامِ يَدُلُّ عَلَى ذَلِكَ مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ الفُضَيْلِ عَن أَبِي الصَّبَّاحِ الكِنَانِيِّ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنِ الرّجُلِ يُرِيدُ الحَجَّ أَ يَأخُذُ مِنْ شَعْرِهِ فِي أَشْهُرِ الحَجِّ قَالَ لَا وَلَا مِنْ لِحْيَتِهِ وَلَكِنْ يَأخُذُ مِنْ شَارِبِهِ وَمِنْ أَظْفَارِهِ وَلْيَطَّلِ إِن شَاءَ اللَّهُ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "لَا يَأخُذِ الرّجُلُ إِذَا رَأَي هِلَالَ ذِي القَعْدَةِ وَأَرَادَ الخُرُوجَ مِنْ رَأْسِهِ وَلَا مِنْ لِحْيَتِهِ فَأَمَّا مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ الحَسَنِ عَن زُرْعَةَ عَن سَمَاعَةَ عَن أَبِي عَبْدِ اللَّهِ ع قَالَ سَأَلْتُهُ عَنِ الحِجَامَةِ وَحَلْقِ القَفَا فِي أَشْهُرِ الحَجِّ فَقَالَ لَا بَأْسَ بِهِ وَالسِّوَاكِ وَالنُّورَةِ فَالْوَجْهُ فِي هَذَا الخَبَرِ أَنْ نَحْمِلَ جَوَازَ ذَلِكَ عَلَى أَشْهُرِ الحَجِّ الَّتِي هِيَ شَوَّالٌ قَالَ لَا بَأْسَ أَنْ يَأخُذَ الإِنسَانُ مِنْ شَعْرِ رَأْسِهِ وَلِحْيَتِهِ فِي هَذَا الشَّهْرِ كُلِّهِ إِلَى غُرَّةِ ذِي القَعْدَةِ يَدُلُّ عَلَى ذَلِكَ مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ القَاسِمِ بْنِ مُحَمَّدٍ وَفَضَالَةَ عَن حُسَيْنِ بْنِ أَبِي العَلَاءِ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنِ الرّجُلِ يُرِيدُ الحَجَّ أَ يَأخُذُ مِنْ شَعْرِهِ فِي شَوَّالٍ كُلِّهِ مَا لَمْ يَرَ الهِلَالَ قَالَ نَعَمْ لَا بَأْسَ بِهِ مُوسَى بْنُ القَاسِمِ عَن عَبْدِ اللَّهِ بْنِ بُكَيْرٍ عَن مُحَمَّدِ بْنِ مُسْلِمٍ عَن أَبِي عَبْدِ اللَّهِ ع قَالَ خُذْ مِنْ شَعْرِكَ إِذَا أَزْمَعْتَ عَلَى الحَجِّ شَوَّالًا كُلَّهُ إِلَى غُرَّةِ ذِي القَعْدَةِ فَأَمَّا مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ النُّضْرِ عَن زُرْعَةَ عَن مُحَمَّدِ بْنِ خَالِدٍ الخَزَّازِ قَالَ سَمِعْتُ أَبَا الحَسَنِ ع يَقُولُ أَمَّا أَنَا فَأَأخُذُ مِنْ شَعَرِي حِينَ أُرِيدُ الخُرُوجَ يَعْنِي إِلَى مَكَّةَ لِلْإِحْرَامِ فَالْوَجْهُ فِي هَذَا الخَبَرِ أَحَدُ شَيْئَيْنِ أَحَدُهُمَا أَنْ يَكُونَ أَخْذُهُ لِذَلِكَ فِي الشَّهْرِ الَّذِي قَبْلَ ذِي القَعْدَةِ عَلَى مَا بَيَّنَّاهُ لِأَنَّ الَّذِي لَا يَجُوزُ أَخْذُ الشَّعْرِ فِيهِ ذِي القَعْدَةِ وَذِي الحِجَّةِ إِلَى انْقِضَاءِ أَيَّامِ المَنَاسِكِ وَالْآخَرُ أَنْ يَكُونَ المُرَادُ بِذَلِكَ مَا عَدَا شَعْرَ الرّأْسِ وَاللّحْيَةِ مِنْ شَعْرِ البَدَنِ لِأَنَّ ذَلِكَ يَجُوزُ أَخْذُهُ إِلَى وَقْتِ الإِحْرَامِ يَدُلُّ عَلَى ذَلِكَ مَا رَوَاهُ الحُسَيْنُ بْنُ سَعِيدٍ عَنِ ابْنِ الفُضَيْلِ عَن أَبِي الصَّبَّاحِ الكِنَانِيِّ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ع عَنِ الرّجُلِ يُرِيدُ الحَجَّ أَ يَأخُذُ مِنْ شَعْرِهِ فِي أَشْهُرِ الحَجِّ قَالَ لَا وَلَا مِنْ لِحْيَتِهِ وَلَكِنْ يَأخُذُ مِنْ شَارِبِهِ وَمِنْ أَظْفَارِهِ وَلْيَطَّلِ إِن شَاءَ اللَّهُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أخَبرَنَيِ الشّيخُ رَحِمَهُ اللّهُ عَن أَبِي القَاسِمِ جَعفَرِ بنِ مُحَمّدٍ عَن مُحَمّدِ بنِ يَعقُوبَ عَن عَلِيّ بنِ اِبرَاهِيمَ عَن أَبِيهِ",
+          "name_en": "al-Shaykh b. al-Hakam b. al-Qasim Ja'far b. Muhammad b. Ya'qub b. Ali b. Ibrahim b. Abihi",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "ابنِ أَبِي عُمَيرٍ عَن مُعَاوِيَةَ بنِ عَمّارٍ عَن أَبِي عَبدِ اللّهِ ع",
+          "name_en": "Ibn Abi Umayr b. Mu'awiya b. 'Ammar b. Abi 'Abd Allah",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "إِنْ شَاءَ اللَّهُ",
+        "phrase_en": "If Allah wills",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

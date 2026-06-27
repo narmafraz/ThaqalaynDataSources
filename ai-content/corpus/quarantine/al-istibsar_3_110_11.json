@@ -1,0 +1,330 @@
+{
+  "verse_path": "/books/al-istibsar:3:110:11",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 19 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'عَنهُ عَن فَضَالَةَ عَن أَبَانٍ عَن أَبِي الجَارُودِ عَن أَب'",
+    "chunks[6] type='closing' starts with chain transmission verb 'روي' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "family",
+      "quran_commentary"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "marriage_family_law",
+      "quran_interpretation_method",
+      "financial_law"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَنْهُ عَنْ فَضَالَةَ عَنْ أَبَانٍ عَنْ أَبِي الْجَارُودِ عَنْ أَبِي جَعْفَرٍ ع",
+        "translations": {
+          "en": "From him, from Fadalah, from Aban, from Abu al-Jarud, from Abu Ja'far (peace be upon him)",
+          "ur": "عَنْهُ عَنْ فَضَالَةَ عَنْ أَبَانٍ عَنْ أَبِي الْجَارُودِ عَنْ أَبِي جَعْفَرٍ (ع)",
+          "tr": "Onunla, Fadale, ondan Eban, ondan Ebu'l-Carud, ondan Ebu Cafer (aleyhisselam) rivayet etmiştir.",
+          "fa": "عَنهُ عَن فَضَالَةَ عَن أَبَانٍ عَن أَبِي الجَارُودِ عَن أَبِي جَعفَرٍ (ع)",
+          "id": "Dari beliau, dari Fadalah, dari Aban, dari Abu al-Jarud, dari Abu Ja'far (alamah)",
+          "bn": "তিনি হতে, ফাদালাহ হতে, আবান হতে, আবুল জারুদ হতে, আবু জাফর (আ.) হতে",
+          "es": "De él, de Fadalah, de Aban, de Abu al-Jarud, de Abu Ja'far (la paz sea con él)",
+          "fr": "De lui, de Fadala, de Aban, de Abou al-Jaroud, de Abou Ja'far (que la paix soit sur lui)",
+          "de": "Von ihm, von Fadala, von Aban, von Abu al-Jarud, von Abu Ja'far (friede sei mit ihm)",
+          "ru": "От него, от Фадальи, от Абана, от Абу аль-Джаруда, от Абу Джа'фара (да (да будет мир с ним)",
+          "zh": "从他，从法达拉，从阿班，从阿布·贾鲁德，从阿布·贾法尔（愿他平安）"
+        },
+        "word_start": 0,
+        "word_end": 12
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "مِثْلَهُ فَهَذِهِ الْأَخْبَارُ لَا يَجُوزُ الْعُدُولُ إِلَيْهَا عَنِ الْأَخْبَارِ الْأُولَى لِأَنَّ الْأَخْبَارَ الْأُولَى مُطَابِقَةٌ لِظَاهِرِ الْقُرْآنِ",
+        "translations": {
+          "en": "Like it. These narrations are not to be preferred over the first narrations because the first narrations are consistent with the apparent meaning of the Quran.",
+          "ur": "جیسا کہ پسند کیا۔ یہ روایات پہلی روایات پر ترجیح نہیں دی جائیں گی کیونکہ پہلی روایات قرآن کے ظاہری معنی کے مطابق ہیں۔",
+          "tr": "Beğenildi. Bu rivayetler, ilk rivayetlerin Kur'an'ın zahirî anlamıyla uyumlu olması nedeniyle ilk rivayetlerin önüne geçilmez.",
+          "fa": "پسندیده است. این روایات بر روایات اول ترجیح داده نمی‌شوند، زیرا روایات اول با ظاهر قرآن سازگارند.",
+          "id": "Sama saja. Hadis-hadis ini tidak lebih diutamakan daripada hadis-hadis pertama karena hadis-hadis pertama konsisten dengan makna zhahir Al-Qur'an.",
+          "bn": "এই হাদিসগুলো প্রথম হাদিসগুলোর উপরে পছন্দনীয় নয়, কারণ প্রথম হাদিসগুলো কুরআনের স্পষ্ট অর্থের সাথে সামঞ্জস্যপূর্ণ।",
+          "es": "Como es de gustar. Estas narraciones no deben preferirse sobre las primeras narraciones, porque las primeras narraciones son consistentes con el significado aparente del Corán.",
+          "fr": "Comme il se doit. Ces narrations ne sont pas à préférer aux premières narrations, car ces dernières sont conformes au sens apparent du Coran.",
+          "de": "Wie es gefällt. Diese Überlieferungen sind den ersten Überlieferungen nicht vorzuziehen, da die ersten Überlieferungen mit der scheinbaren Bedeutung des Quran übereinstimmen.",
+          "ru": "Как нравится. Эти предания не следует предпочитать первым преданиям, поскольку первые предания согласуются с очевидным смыслом Корана.",
+          "zh": "喜欢它。这些传述并不优于第一组传述，因为第一组传述与《古兰经》的显义一致。"
+        },
+        "word_start": 12,
+        "word_end": 28
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "قَالَ اللَّهُ تَعَالَى: آتُوا النِّسَاءَ صَدُقَاتِهِنَّ نِحْلَةً",
+        "translations": {
+          "en": "Allah, the Exalted, said: Give the women [your wives] their dowries graciously.",
+          "ur": "اللہ تعالیٰ نے فرمایا: عورتوں کو ان کے مہر خوشی سے دو۔",
+          "tr": "Allah, azze ve celle, şöyle buyurdu: Kadınlara (eşlerinize) meherlerini güzelce verin.",
+          "fa": "خداوند متعال فرمود: مهر زنان [همسرانتان] را به نیکی به آنان بدهید. ",
+          "id": "Allah Ta'ala berfirman: Berikanlah kepada para wanita (istri-istrimu) maskawin mereka dengan baik.",
+          "bn": "আল্লাহ তাআলা বলেন: নারীদেরকে তাদের দাওয গ্রহণযোগ্যভাবে প্রদান করো।",
+          "es": "Alá, el Exaltado, dijo: Dad a las mujeres [vuestras esposas esposas] sus dotes generosamente.",
+          "fr": "Allah, le Très-Haut, a dit : Donnez aux femmes [vos épouses] leurs dots avec bienveillance.",
+          "de": "Allah, der Erhabene, sprach: Gebt den Frauen [euren Ehefrauen] ihre Mitgift in liebenswürdiger Weise.",
+          "ru": "Аллах, Всевышний, сказал: «Даруйте женщинам [вашим женам] их брачные дары с благожелательностью».",
+          "zh": "真主至高无上说：你们当以优美的心情把嫁妆给予妇女[你们的妻子]。"
+        },
+        "word_start": 28,
+        "word_end": 35
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَلَمْ يَخُصَّ مِنْ ذَلِكَ غَيْرَ الْمَدْخُولِ بِهَا عَلَى أَنَّ زُرَارَةَ وَالْحَلَبَيَّ رَاوِيَانِ لِحَدِيثَيْنِ مِنْ جُمْلَةِ هَذِهِ الْأَحَادِيثِ قَدْ رُوِيَا عَنْهُمَا مُطَابِقًا لِلْأَخْبَارِ الْأُولَى فِي وُجُوبِ الْمَهْرِ كَامِلًا وَقَدْ قَدَّمْنَا الرِّوَايَةَ عَنْهُمَا بِذَلِكَ",
+        "translations": {
+          "en": "And He did not specify from that except the one who was entered into (consummated marriage with). Furthermore, Zurarah and al-Halabi are narrators of two hadiths from among these narrations, and it has been narrated from them in agreement with the first narrations regarding the obligation of the full dowry, and we have previously presented the narration from them regarding that.",
+          "ur": "اور انہوں نے اس میں سے صرف اس کی تخصیص کی جس سے نکاح کامل ہو گیا۔ مزید برآں، زرارة اور الحلبی ان روایات میں سے دو احادیث کے راوی ہیں، اور ان سے پہلی روایات کے مطابق مہرِ کامل کے وجوب کے بارے میں روایت کی گئی ہے، اور ہم نے پہلے ہی ان سے اس بارے میں روایت پیش کر دی ہے۔",
+          "tr": "Ve O, ondan yalnızca gırla (nikahı tamamlananı) istisna kıldı. Daha sonra Zurara ve el-Halabi, bu rivayetlerden iki hadisin ravileridir ve onlardan, ilk rivayetlerle uyumlu olarak tam mehirin farziyeti hakkında rivayet edilmiştir ve biz daha önce onlardan bu konudaki rivayeti sunmuştuk.",
+          "fa": "و او جز آن کسی که وارد آن شد (ازدواج کامل با او انجام شد) را مشخص نکرد. علاوه بر این، زراره و حلبی راویان دو حدیث از میان این روایات هستند، و از آن‌ها به اتفاق با روایات اول در مورد وجوب مهر کامل روایت شده است، و ما پیش‌تر روایت آن‌ها را در این باره ارائه داده‌ایم.",
+          "id": "Dan Dia tidak mensyariatkan selain bagi yang telah dicampuri (telah terjadi rukun nikah). Lebih lanjut, Zurarah dan al-Halabi adalah perawi dari dua hadis di antara riwayat-riwayat ini, dan telah diriwayatkan dari mereka yang selaras dengan riwayat-riwayat pertama mengenai kewajiban mas kawin penuh, dan kami telah sebelumnya mengemukakan riwayat dari mereka mengenai hal tersebut.",
+          "bn": "এবং তিনি সেই ব্যতীত অন্য কাউকে উল্লেখ করেননি, যার সাথে বিবাহ সম্পন্ন হয়েছে। আর জুরারার ও আল-হলাবী এই বর্ণনাসমূহের মধ্যে থেকে দুটি হাদিসের বর্ণনাকারী, এবং তাদের থেকে পূর্ববর্তী বর্ণনাসমূহের সাথে সম্মতিতে পূর্ণ মাহরির ওয়াজিব হওয়ার বিষয়ে বর্ণিত হয়েছে, এবং আমরা তাদের থেকে সেই বিষয়ে বর্ণনা পূর্বেই উপস্থাপন করেছি।",
+          "es": "Y no especificó de ello más que a quien fue contraído matrimonio (consumado). Además, Zurarah y al-Halabi son narradores de dos hadices entre estas narraciones, y se ha narrado de ellos en concordancia con las primeras narraciones respecto a la obligación de la dote completa, y previamente hemos presentado la narración de ellos al respecto.",
+          "fr": "Et Il n'a spécifié, à partir de cela, que celui qui a été introduit dans le mariage (consommé). De plus, Zourara et al-Halabi sont des narrateurs de deux hadiths parmi ces narrations, et il a été rapporté d'eux, en accord avec les premières narrations, concernant l'obligation de la dot complète, et nous avons précédemment présenté la narration d'eux à ce sujet.",
+          "de": "Und Er machte keine Ausnahme außer dem, der in die Ehe eingetreten war (die Ehe vollzogen wurde). Ferner sind Zurarah und al-Halabi Überlieferer von zwei Hadithen unter diesen Überlieferungen, und von ihnen ist übereinstimmend mit den ersten Überlieferungen bezüglich der Pflicht der vollständigen Mitgift überliefert worden, und wir haben zuvor die Überlieferung von ihnen dazu dargelegt.",
+          "ru": "И Он не исключил из этого того, с кем был совершился брачный союз (полное вступление в брак). Кроме того, Зурара и аль-Халаби являются передатчиками двух хадисов из числа этих преданий, и от них передано в согласии с первыми преданиями об обязательности полного махра, и мы ранее представили их предание об этом.",
+          "zh": "且他并未从中特别排除已完婚者（即已行房事者）。此外，祖拉勒和哈勒比是这些传述中的两位传述人，从他们那里传述的内容与最初的传述一致，关于全额聘礼的义务，我们之前已呈现了从他们那里传述的相关内容。"
+        },
+        "word_start": 35,
+        "word_end": 67
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَيَحْتَمِلُ أَنْ يَكُونَ ع قَالَ ذَلِكَ فِي الْمُطَلَّقَةِ الَّتِي لَمْ يُدْخَلْ بِهَا أَنَّ لَهَا نِصْفَ الْمَهْرِ فَظَنَّ الرَّوَّي فِي الْمُتَوَفَّى عَنْهَا زَوْجُهَا",
+        "translations": {
+          "en": "It is possible that he (peace be upon him) said that regarding the divorced woman who was not entered into, that she has half of the dowry, so the narrator assumed it regarding the one whose husband died.",
+          "ur": "یہ ممکن ہے کہ آپ صلی اللہ علیہ وسلم نے اس طلاق شدہ عورت کے بارے میں فرمایا جس سے دخول نہیں ہوا تھا، کہ اسے مہر کا آدھا حصہ ملتا ہے، اس لیے راوی نے اسے اس شخص کے بارے میں فرض کر لیا جس کا شوہر انتقال کر گیا۔",
+          "tr": "Onun (sallallahu aleyhi vesellem) boşanmış, fakat henüz içine girilmemiş kadının yarım mahrı alacağı yönünde söz ettiğini söylemesi mümkündür; bu nedenle rivayet eden, bunu evliliği ölümle sona eren kadın için varsaymıştır.",
+          "fa": "ممکن است او (صلی الله علیه و آله و سلم) درباره زنی که طلاق داده شده و دخول با او صورت نگرفته باشد، گفته باشد که او نصف مهریه را دارد، بنابراین راوی آن را درباره کسی که شوهرش فوت کرده است فرض گرفت.",
+          "id": "Mungkin beliau (shallallahu 'alaihi wasallam bersabda demikian mengenai wanita yang dicerai sebelum dicampur, bahwa ia mendapat separuh mahar, maka perawi mengasumsikan hal itu mengenai wanita yang suaminya meninggal.",
+          "bn": "সম্ভবত তিনি (সা.) বিবাহিতা নারীর বিষয়ে বলেছেন যার সাথে বিবাহ সম্পন্ন হয়নি, তার জন্য অর্ধেক মাহরি থাকে, তাই বর্ণনাকারী এ বিষয়টি সেই ব্যক্তির জন্য ধরে নিয়েছেন যার স্বামী মারা গেছেন।",
+          "es": "Es posible que él (que la paz sea con él) haya dicho esto respecto a la mujer divorciada que no había sido introducida en el matrimonio, en el sentido de que le corresponde la mitad de la dote, por lo que el narrador lo asumió respecto a aquella cuyo esposo falleció.",
+          "fr": "Il est possible qu'il (que la paix soit sur lui) ait dit cela concernant la femme divorcée qui n'avait pas été introduite dans le lit conjugal, à savoir qu'elle a la moitié de la dot, de sorte que le narrateur a supposé cela concernant celle dont le mari est décédé.",
+          "de": "Es ist möglich, ",
+          "ru": "Возможно, он (да будет мир и благословение Аллаха) сказал это относительно разведённой женщины, с которой не соит, что ей положена половина приданого, поэтому передатчик предположил это относительно той, чей муж умер.",
+          "zh": "有可能他（愿主福安之）针对未被圆房的被休妇女说，她应得一半的聘礼，因此叙述者将其推及于丈夫去世的妇女。"
+        },
+        "word_start": 67,
+        "word_end": 89
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَدْ رُوِيَ ذَلِكَ عَنْهُ ع حَيْثُ سَأَلَ السَّائِلُ وَحَكَى لَهُ مَا تَضَمَّنَتْهُ الْأَخْبَارُ الَّتِي ذَكَرْنَاهَا عَنْ بَعْضِ أَصْحَابِنَا فَقَالَ غَلِطَ عَلَيَّ إِنَّمَا قُلْتُ ذَلِكَ فِي الْمُطَلَّقَةِ الَّتِي لَمْ يُدْخَلْ بِهَا",
+        "translations": {
+          "en": "For it has been narrated from him (peace be upon him) where the questioner asked and related to him what the narrations we mentioned from some of our companions contained, so he said: 'I erred; I only said that regarding the divorced woman who was not entered into.'",
+          "ur": "کیونکہ اس سے (صلی اللہ علیہ وسلم) سے روایت ہے کہ جب سوال کرنے والے نے پوچھا اور اس نے ان احادیث کا ذکر کیا جو ہم نے اپنے بعض ہمراہیوں سے بیان کی تھیں، تو آپ نے فرمایا: 'میں نے خطا کی؛ میں نے صرف اس طلاق شدہ عورت کے بارے میں کہا جس سے دخول نہیں ہوا تھا۔'",
+          "tr": "Çünkü kendisinden (a (aleyhisselam) rivayet edilmiştir; soran kişi, bazı sahabilerimizden naklettiğimiz rivayetlerde geçen hususu kendisine sorduğu ve anlattığı yerde, o da: 'Ben hata ettim; ben sadece girilmeyen boşanmış kadın hakkında söyledim' dedi.",
+          "fa": "زیرا از او (صلی‌الله‌علیه‌وآله‌وسلم) روایت شده است که پرسشگر از او پرسید و آنچه را که از برخی از یارانمان در روایات ذکر کردیم برایش بیان نمود، پس او فرمود: «من خطا کردم؛ من تنها در مورد زنی که طلاق داده شده و با او دخول نشده است، چنین گفتم.»",
+          "id": "Karena telah diriwayatkan dari beliau (semoga Allah memberkati dan memberinya salam), di mana penanya bertanya dan menceritakan kepadanya apa yang terdapat dalam riwayat-riwayat yang kami sebutkan dari beberapa sahabat kami, maka beliau bersabda: 'Aku keliru; aku hanya mengatakan hal itu mengenai wanita yang ditalak dan belum digauli.'",
+          "bn": "কারণ তাঁর নিকট (তাঁর উপর শান্তি বর্ষিত হোক) থেকে বর্ণিত হয়েছে যে, যখন প্রশ্নকারী প্রশ্ন করেছিলেন এবং আমাদের সহচরবৃন্দ থেকে উল্লিখিত বর্ণনাসমূহের বিষয়ে তাঁকে জানানো হয়েছিল, তখন তিনি বলেছিলেন: 'আমি ভুল করেছি; আমি কেবল সেই বিবাহবিচ্ছিন্না নারীর বিষয়ে বলেছিলাম, যার সাথে প্রবেশ (জামায়াত) করা হয়নি।'",
+          "es": "Pues se ha narrado de él (que la paz sea con él) en el caso en que el interrogante le preguntó y le relató lo que las narraciones que mencionamos de algunos de nuestros compañeros contenían, por lo que él dijo: 'Me equivoqué; solo dije eso respecto a la mujer divorciada que no había sido introducida en el matrimonio.'",
+          "fr": "Car il a été rapporté de lui (que la paix soit sur lui) que le questionneur lui a posé une question et lui a question et lui a rapporté ce que les hadiths que nous avons mentionnés de la part de certains de nos compagnons contenaient, alors il a dit : « J'ai commis une erreur ; j'ai dit cela seulement à propos de la femme divorcée qui n'a pas été introduite dans le lit conjugal. »",
+          "de": "Denn es ist von ihm (fried von ihm (Friede sei mit ihm) überliefert, dass der Fragesteller ihm das vorlegte, was die von uns erwähnten Überlieferungen einiger unserer Gefährten enthielten, worauf er sagte: 'Ich habe mich geirrt; ich sagte dies nur bezüglich der Frau, die geschieden wurde, bevor sie betreten wurde.'",
+          "ru": "Ибо было передано от него (да от него (да будет мир с ним), когда вопрошающий задал вопрос и рассказал ему о том, что содержится в хадисах, которые мы упомянули от некоторых наших сподвижников, и он сказал: «Я ошибся; я сказал это лишь относительно разведённой женщины, с которой не совершили брачного соития».",
+          "zh": "因为从他（愿主福安之）那里传述，提问者向他询问并转述了我们从一些同伴那里传述的圣训内容，他说：‘我错了；我只对未进入洞房的被休妇女说过这样的话。’"
+        },
+        "word_start": 89,
+        "word_end": 119
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "رَوَى ذَلِكَ",
+        "translations": {
+          "en": "He narrated that.",
+          "ur": "انہوں نے روایت کی۔",
+          "tr": "O, bunu rivayet etti.",
+          "fa": "او آن را روایت کرد.",
+          "id": "Ia meriwayatkan hal itu.",
+          "bn": "তিনি বর্ণনা করেছেন যে।",
+          "es": "Él narró eso.",
+          "fr": "Il a rapporté cela.",
+          "de": "Er überlieferte das.",
+          "ru": "Он передал это.",
+          "zh": "他传述了这件事。"
+        },
+        "word_start": 119,
+        "word_end": 121
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi clarifies the jurisprudential distinction between the dowry due upon death versus divorce by reconciling apparent contradictions in the narrations of Abu Ja'far (al-Baqir). He posits that the narrator likely conflated the ruling for a woman divorced before consummation (half dowry) with that of a woman whose husband died (full dowry), emphasizing that the Quranic command to 'give' implies the full amount is owed regardless of consummation in the case of death.",
+        "seo_question": "What is the ruling on the full dowry if the husband dies before consummating the marriage?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "The woman who has been entered into (consummated marriage)",
+          "الْمُطَلَّقَةِ": "The divorced woman",
+          "الْمَهْرِ كَامِلًا": "The full dowry",
+          "ظَاهِرِ الْقُرْآنِ": "The apparent meaning of the Quran",
+          "وُجُوبِ": "Obligation"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی ابو جعفر (باقر) کی روایات میں ظاہری تضاد کو دور کرتے ہوئے موت اور طلاق کے بعد مہر کی شرعی تمیز کو واضح کرتے ہیں۔ ان کا کہنا ہے کہ راوی نے احتمالاً اس خاتون کے حکم (آدھا مہر) کو اس خاتون کے حکم (مکمل مہر) کے ساتھ ملا دیا جس کے شوہر کی موت ہو گئی، اور زور دیا کہ قرآن کا حکم 'دینا' اس بات کی طرف اشارہ کرتا ہے کہ موت کی صورت میں مکمل مہر واجب ہے چاہے دخول ہو یا نہ ہو۔",
+        "seo_question": "اگر شوہر نکاح سے قبل ہی فوت ہو جائے تو مکمل مہر کا حکم کیا ہے؟",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "وہ خاتون جس سے دخول ہو چکا ہو",
+          "الْمُطَلَّقَةِ": "طلاق شدہ خاتون",
+          "الْمَهْرِ كَامِلًا": "مکمل مہر",
+          "ظَاهِرِ الْقُرْآنِ": "قرآن کا ظاہری مطلب",
+          "وُجُوبِ": "وجوب"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh et-Tusi, Ebu Cafer (Bakır)'ın rivayetlerindeki görünürdeki çelişkileri uzlaştırarak, ölüm ve boşanma durumunda ödenen mehir arasındaki fiqhî ayrımı açıklar. Rivayetçinin, tükendiği evlilikten önce boşanan kadının (yarım mehir) hükmü ile kocası vefat eden kadının (tam mehir) hükmünü karıştırmış olabileceğini öne sürer ve ölüm durumunda tükendiği evlilik olsun ya da olmasın, Kur'an'ın 'vermek' emri nedeniyle tam mehirin borçlu olduğunu vurgular.",
+        "seo_question": "Eş, evliliği tükendirmeden önce vefat ederse tam mehir hükmü nedir?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "Evliliği tüketilmiş kadın",
+          "الْمُطَلَّقَةِ": "Boşanmış kadın",
+          "الْمَهْرِ كَامِلًا": "Tam mehir",
+          "ظَاهِرِ الْقُرْآنِ": "Kur'an'ın zahirî anlamı",
+          "وُجُوبِ": "Vücub"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی تمایز فقهی بین مهریه ناشی از مرگ و طلاق را با حل تناقض ظاهری در روایات ابوجعفر (باقر) روشن می‌کند. او فرض می‌کند راوی احتمالاً حکم زنی که پیش از دخول طلاق داده شده (نصف مهر) را با حکم زنی که شوهرش فوت کرده (مهر کامل) آمیخته است، و تأکید می‌کند که فرمان قرآنی «دادن» نشان می‌دهد که در صورت مرگ، مبلغ کامل فارغ از دخول واجب است.",
+        "seo_question": "حکم مهر کامل در صورت فوت شوهر پیش از دخول چیست؟",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "زنی که با او دخول شده است",
+          "الْمُطَلَّقَةِ": "زن طلاق‌داده",
+          "الْمَهْرِ كَامِلًا": "مهر کامل",
+          "ظَاهِرِ الْقُرْآنِ": "ظاهر قرآن",
+          "وُجُوبِ": "وجوب"
+        }
+      },
+      "id": {
+        "summary": "Syeikh al-Tusi menjelaskan perbedaan fikih antara mahar yang jatuh tempo karena kematian versus perceraian dengan merekonsiliasi kontradiksi yang tampak dalam riwayat Abu Ja'far (al-Baqir). Ia berpendapat bahwa perawi kemungkinan mencampuradukkan hukum bagi wanita yang dicerai sebelum hubungan intim (setengah mahar) dengan hukum bagi wanita yang suaminya meninggal (seluruh mahar), menekankan bahwa perintah Al-Qur'an untuk 'memberikan' menyiratkan bahwa jumlah penuh tetap wajib dibayar terlepas dari apakah hubungan intim telah terjadi dalam kasus kematian.",
+        "seo_question": "Apa hukum mengenai mahar penuh jika suami meninggal sebelum hubungan intim terjadi?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "Wanita yang telah digauli (hubungan intim telah terjadi)",
+          "الْمُطَلَّقَةِ": "Wanita yang dicerai",
+          "الْمَهْرِ كَامِلًا": "Mahr penuh",
+          "ظَاهِرِ الْقُرْآنِ": "Makna zhahir Al-Qur'an",
+          "وُجُوبِ": "Kewajiban"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-তুসি আবু জাফর (আল-বাকির)-এর বর্ণনায় প্রতীয়মান বৈসাদৃশ্যগুলোকে সামঞ্জস্যপূর্ণ করে মৃত্যু এবং তালাকের ক্ষেত্রে দোহন (মহর) প্রদানের ফিকহি পার্থক্য স্পষ্ট করেছেন। তিনি মনে করেন, বর্ণনাকারী সম্ভবত বিবাহের আগে তালাকপ্রাপ্ত নারীর (অর্ধেক দোহন) বিধানকে সেই নারীর বিধানের সাথে মিশিয়ে ফেলেছেন যার স্বামী মারা গেছেন (সম্পূর্ণ দোহন)। তিনি জোর দিয়ে বলেছেন যে, কুরআনের 'প্রদান' করার নির্দেশ মৃত্যুর ক্ষেত্রে বিবাহ সম্পন্ন হোক বা না হোক, পূর্ণ দোহন প্রদান বাধ্যতামূলক বলে ইঙ্গিত দেয়।",
+        "seo_question": "যদি বিবাহ সম্পন্ন হওয়ার আগে স্বামী মারা যান, তবে সম্পূর্ণ দোহনের বিধান কী?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "যার সাথে বিবাহ সম্পন্ন হয়েছে",
+          "الْمُطَلَّقَةِ": "তালাকপ্রাপ্ত নারী",
+          "الْمَهْرِ كَامِلًا": "সম্পূর্ণ দোহন",
+          "ظَاهِرِ الْقُرْآنِ": "কুরআনের প্রতীয়মান অর্থ",
+          "وُجُوبِ": "বাধ্যতামূলকতা"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi aclara la distinción jurisprudencial entre la dote debida por muerte y por divorcio, reconciliando las aparentes contradicciones en las narraciones de Abu Yáfar (al-Baqir). Plantea que el narrador probablemente confundió la norma para la mujer divorciada antes del consumo (mitad de la dote) con la de la mujer cuyo esposo murió (dote completa), enfatizando que el mandato coránico de 'dar' implica que se debe la cantidad completa independientemente del consumo en caso de muerte.",
+        "seo_question": "¿Cuál es la norma sobre la dote completa si el esposo muere antes de consumar el matrimonio?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "La mujer que ha sido introducida (matrimonio consumado)",
+          "الْمُطَلَّقَةِ": "La mujer divorciada",
+          "الْمَهْرِ كَامِلًا": "La dote completa",
+          "ظَاهِرِ الْقُرْآنِ": "El significado aparente del Corán",
+          "وُجُوبِ": "Obligación"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi clarifie la distinction jurisprudentielle entre la dot due en cas de décès et celle due en cas de divorce, en réconciliant les contradictions apparentes dans les narrations d'Abou Ja'far (al-Baqir). Il avance que le narrateur a probablement confondu la règle applicable à la femme divorcée avant la consommation du mariage (demi-dot) avec celle de la femme dont le mari est décédé (pleine dot), soulignant que l'ordre coranique de « donner » implique que le montant intégral est dû en cas de décès, indépendamment de la consommation.",
+        "seo_question": "Quelle est la règle concernant la dot complète si le mari meurt avant la consommation du mariage ?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "La femme qui a été entrée dans (consommation du mariage)",
+          "الْمُطَلَّقَةِ": "La femme divorcée",
+          "الْمَهْرِ كَامِلًا": "La dot complète",
+          "ظَاهِرِ الْقُرْآنِ": "Le sens apparent du Coran",
+          "وُجُوبِ": "Obligation"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi klärt die juristische Unterscheidung zwischen dem bei Tod und der bei Scheidung fälligen Mitgift, indem er scheinbare Widersprüche in den Überlieferungen von Abu Ja'far (al-Baqir) auflöst. Er geht davon aus, dass der Überlieferer die Regelung für eine vor der Vollziehung der Ehe Gschiedene (halbe Mitgift) mit der für eine Frau, deren Ehemann starb, verwechselt hat (volle Mitgift) und betont, dass der koranische Befehl, 'zu geben', impliziert, dass der volle Betrag unabhängig von der Vollziehung im Todesfall geschuldet ist.",
+        "seo_question": "Wie lautet das Urteil zur vollen Mitgift, wenn der Ehemann vor der Vollziehung der Ehe stirbt?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "Die Frau, in die eingegangen wurde (vollzogene Ehe)",
+          "الْمُطَلَّقَةِ": "Die geschiedene Frau",
+          "الْمَهْرِ كَامِلًا": "Die volle Mitgift",
+          "ظَاهِرِ الْقُرْآنِ": "Die offensichtliche Bedeutung des Korans",
+          "وُجُوبِ": "Verpflichtung"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Туси разъясняет правовое различие между приданым, выплачиваемым при смерти, и приданым при разводе, примиряя кажущиеся противоречия в преданиях Абу Джафара (аль-Бакира). Он предполагает, что рассказчик, вероятно, смешал правило для женщины, разведённой до совокупления (половина приданого), с правилом для женщины, чей муж умер (полное приданое), подчёркивая, что кораническая команда «дать» означает, что полная сумма причитается независимо от того, было ли совокупление в случае смерти.",
+        "seo_question": "Каково правило относительно полного приданого, если муж умирает до совершения брачного акта?",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "Женщина, с которой совершено совокупление",
+          "الْمُطَلَّقَةِ": "Разведённая женщина",
+          "الْمَهْرِ كَامِلًا": "Полное приданое",
+          "ظَاهِرِ الْقُرْآنِ": "Явный смысл Корана",
+          "وُجُوبِ": "Обязанность"
+        }
+      },
+      "zh": {
+        "summary": "图西谢赫澄清了因死亡与离婚而支付的嫁妆之间的教法区别，通过调和阿布贾法尔（巴基尔）传述中看似矛盾的叙述。他认为传述者可能将婚前离婚妇女（半份嫁妆）的规定与丈夫去世的妇女（全额嫁妆）的规定混淆，强调《古兰经》中“给予”的指令意味着在丈夫去世的情况下，无论是否完成房事，都应支付全额嫁妆。",
+        "seo_question": "如果丈夫在房事完成前去世，全额嫁妆的教法裁决是什么？",
+        "key_terms": {
+          "الْمَدْخُولِ بِهَا": "已同房的女子",
+          "الْمُطَلَّقَةِ": "被休妻",
+          "الْمَهْرِ كَامِلًا": "全额嫁妆",
+          "ظَاهِرِ الْقُرْآنِ": "《古兰经》的显义",
+          "وُجُوبِ": "义务"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "4:4",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "4:24",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَنْهُ عَنْ فَضَالَةَ عَنْ أَبَانٍ عَنْ أَبِي الْجَارُودِ عَنْ أَبِي جَعْفَرٍ ع مِثْلَهُ فَهَذِهِ الْأَخْبَارُ لَا يَجُوزُ الْعُدُولُ إِلَيْهَا عَنِ الْأَخْبَارِ الْأُولَى لِأَنَّ الْأَخْبَارَ الْأُولَى مُطَابِقَةٌ لِظَاهِرِ الْقُرْآنِ قَالَ اللَّهُ تَعَالَى: آتُوا النِّسَاءَ صَدُقَاتِهِنَّ نِحْلَةً وَلَمْ يَخُصَّ مِنْ ذَلِكَ غَيْرَ الْمَدْخُولِ بِهَا عَلَى أَنَّ زُرَارَةَ وَالْحَلَبَيَّ رَاوِيَانِ لِحَدِيثَيْنِ مِنْ جُمْلَةِ هَذِهِ الْأَحَادِيثِ قَدْ رُوِيَا عَنْهُمَا مُطَابِقًا لِلْأَخْبَارِ الْأُولَى فِي وُجُوبِ الْمَهْرِ كَامِلًا وَقَدْ قَدَّمْنَا الرِّوَايَةَ عَنْهُمَا بِذَلِكَ وَيَحْتَمِلُ أَنْ يَكُونَ ع قَالَ ذَلِكَ فِي الْمُطَلَّقَةِ الَّتِي لَمْ يُدْخَلْ بِهَا أَنَّ لَهَا نِصْفَ الْمَهْرِ فَظَنَّ الرَّوَّي فِي الْمُتَوَفَّى عَنْهَا زَوْجُهَا فَقَدْ رُوِيَ ذَلِكَ عَنْهُ ع حَيْثُ سَأَلَ السَّائِلُ وَحَكَى لَهُ مَا تَضَمَّنَتْهُ الْأَخْبَارُ الَّتِي ذَكَرْنَاهَا عَنْ بَعْضِ أَصْحَابِنَا فَقَالَ غَلِطَ عَلَيَّ إِنَّمَا قُلْتُ ذَلِكَ فِي الْمُطَلَّقَةِ الَّتِي لَمْ يُدْخَلْ بِهَا رَوَى ذَلِكَ",
+    "isnad_matn": {
+      "isnad_ar": "عَنْهُ عَنْ فَضَالَةَ عَنْ أَبَانٍ عَنْ أَبِي الْجَارُودِ عَنْ أَبِي جَعْفَرٍ ع",
+      "matn_ar": "مِثْلَهُ فَهَذِهِ الْأَخْبَارُ لَا يَجُوزُ الْعُدُولُ إِلَيْهَا عَنِ الْأَخْبَارِ الْأُولَى لِأَنَّ الْأَخْبَارَ الْأُولَى مُطَابِقَةٌ لِظَاهِرِ الْقُرْآنِ قَالَ اللَّهُ تَعَالَى: آتُوا النِّسَاءَ صَدُقَاتِهِنَّ نِحْلَةً وَلَمْ يَخُصَّ مِنْ ذَلِكَ غَيْرَ الْمَدْخُولِ بِهَا عَلَى أَنَّ زُرَارَةَ وَالْحَلَبَيَّ رَاوِيَانِ لِحَدِيثَيْنِ مِنْ جُمْلَةِ هَذِهِ الْأَحَادِيثِ قَدْ رُوِيَا عَنْهُمَا مُطَابِقًا لِلْأَخْبَارِ الْأُولَى فِي وُجُوبِ الْمَهْرِ كَامِلًا وَقَدْ قَدَّمْنَا الرِّوَايَةَ عَنْهُمَا بِذَلِكَ وَيَحْتَمِلُ أَنْ يَكُونَ ع قَالَ ذَلِكَ فِي الْمُطَلَّقَةِ الَّتِي لَمْ يُدْخَلْ بِهَا أَنَّ لَهَا نِصْفَ الْمَهْرِ فَظَنَّ الرَّوَّي فِي الْمُتَوَفَّى عَنْهَا زَوْجُهَا فَقَدْ رُوِيَ ذَلِكَ عَنْهُ ع حَيْثُ سَأَلَ السَّائِلُ وَحَكَى لَهُ مَا تَضَمَّنَتْهُ الْأَخْبَارُ الَّتِي ذَكَرْنَاهَا عَنْ بَعْضِ أَصْحَابِنَا فَقَالَ غَلِطَ عَلَيَّ إِنَّمَا قُلْتُ ذَلِكَ فِي الْمُطَلَّقَةِ الَّتِي لَمْ يُدْخَلْ بِهَا رَوَى ذَلِكَ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَنهُ عَن فَضَالَةَ عَن أَبَانٍ عَن أَبِي الجَارُودِ عَن أَبِي جَعفَرٍ ع مِثلَهُ فَهَذِهِ الأَخبَارُ لَا يَجُوزُ العُدُولُ إِلَيهَا",
+          "name_en": "Fudala b. Ayyub b. Aban b. Abi al-Jarud b. Abi Ja'far",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الأَخبَارِ الأَوّلَةِ لِأَنّ الأَخبَارَ الأَوّلَةَ مُطَابِقَةٌ لِظَاهِرِ القُرآنِ",
+          "name_en": "al-Akhabar al-awwal",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

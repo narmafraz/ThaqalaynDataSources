@@ -1,179 +1,227 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:5:178:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
     "chunks[1] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[2] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "chunks[3] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
+    "chunks[2] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "knowledge",
-      "prophetic_tradition",
-      "history"
+      "prophetic_tradition"
     ],
-    "content_type": "biographical",
+    "content_type": "narrative",
     "topics": [
       "hadith_sciences",
-      "religious_authority",
-      "imams_biography"
+      "scholars_virtues"
     ],
     "chunks": [
       {
-        "chunk_type": "opening",
-        "arabic_text": "وَ مَا كَانَ فِي هَ عَنْ حَفْصِ بْنِ غِيَاثٍ",
+        "chunk_type": "isnad",
+        "arabic_text": "وَمَا كَانَ فِيهِ عَنْ حَفْصِ بْنِ غَيْثٍ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ حَفْصِ بْنِ غَيْثٍ.",
         "translations": {
-          "en": "Whatever was in it from Hafs ibn Ghayath.",
-          "ur": "جو کچھ بھی اس میں تھا حفص بن غیاث سے۔",
-          "tr": "İçinde ne varsa, Hafs ibn Ghayath'tandır.",
-          "fa": "هرچه در آن بود از حفص بن غیاث بود.",
-          "id": "Apa pun yang ada di dalamnya dari Hafs ibn Ghayath.",
-          "bn": "যা কিছু তাতে ছিল, তা ছিল হাফস ইবনে গিয়াথ থেকে।",
-          "es": "Lo que sea que estuviera en él, provenía de Hafs ibn Ghayath.",
-          "fr": "Tout ce qu'il contenait venait de Hafs ibn Ghayath.",
-          "de": "Was auch immer darin war, stammte von Hafs ibn Ghayath.",
-          "ru": "Все, что в нем было, от Хафса ибн Гайята.",
-          "zh": "无论其中有什么，皆出自哈夫斯本盖亚斯。"
+          "en": "And everything in this book that is narrated from Hafs ibn Ghayath has been transmitted by me from my father - may Allah be pleased with him - from Sa'd ibn Abdullah, from Ahmad ibn Abi Abdullah, from his father, from Hafs ibn Ghayath.",
+          "ur": "اور اس کتاب میں جو کچھ حفص بن غیاث سے روایت کیا گیا ہے وہ مجھ سے میرے والد نے روایت کیا ہے - اللہ ان سے راضی ہو - سعد بن عبداللہ سے، احمد بن ابی عبداللہ سے، ان کے والد سے، حفص بن غیاث سے۔",
+          "tr": "Ve bu kitaptaki her şey, Hafs ibn Geyas'tan rivayet edilmiştir ki, onu babımdan - Allah ondan razı olsun - Sa'd ibn Abdullah'dan, Ahmed ibn Ebi Abdullah'dan, babasından, Hafs ibn Geyas'tan rivayet ettim.",
+          "fa": "و هر آنچه در این کتاب از حفص بن غیاث روایت شده، من آن را از پدرم - رضی الله عنه - از سعد بن عبدالله، از احمد بن ابی عبدالله، از پدرش، از حفص بن غیاث روایت کرده‌ام.",
+          "id": "Dan segala sesuatu dalam kitab ini yang diriwayatkan dari Hafs ibn Ghayath telah sampai kepadaku dari ayahku - semoga Allah meridhainya - dari Sa'd ibn Abdullah, dari Ahmad ibn Abi Abdullah, dari ayahnya, dari Hafs ibn Ghayath.",
+          "bn": "এবং এই গ্রন্থে যা হাফস ইবন গায়াথ থেকে বর্ণিত হয়েছে, তা আমাকে আমার পিতা - আল্লাহ তাঁর উপর সন্তুষ্ট হোন - থেকে বর্ণনা করেছেন সাঈদ ইবন আবদুল্লাহর মাধ্যমে, আহমদ ইবন আবি আবদুল্লাহর মাধ্যমে, তার পিতার মাধ্যমে, হাফস ইবন গায়াথ থেকে।",
+          "es": "Y todo lo de este libro que ha sido narrado por Hafs ibn Ghayath, yo lo he transmitido de mi padre - que Allah esté complacido con él - de Sa'd ibn Abdullah - de Sa'd ibn Abdullah, de Ahmad ibn Abi Abdullah, de su padre, de Hafs ibn Ghayath.",
+          "fr": "Et tout ce qui dans ce livre est rapporté de Hafs ibn Ghayath a été transmis par moi, de mon père – qu'Allah l'agrée – de Sa'd ibn Abdullah, d'Ahmad ibn Abi Abdullah, de son père, de Hafs ibn Ghayath.",
+          "de": "Und alles in diesem Buch, was von Hafs ibn Ghayath überliefert wurde, habe ich von meinem Vater – möge Allah ihn zufrieden sein – von Sa'd ibn Abdullah, von Ahmad ibn Abi Abdullah, von seinem Vater, von Hafs ibn Ghayath überliefert.",
+          "ru": "И всё, что в этой книге передано от Хафса ибн Гайяса, было передано мне от моего отца — да будет доволен им Аллах — от Саада ибн Абдуллаха, от Ахмада ибн Аби Абдуллаха, от его отца, от Хафса ибн Гайяса.",
+          "zh": "且本书中凡由哈夫斯·本·盖塔斯传述者，我皆从我父亲（愿真主喜悦他）处传述，他传述自萨德·本·阿卜杜拉，传述自艾哈迈德·本·艾布·阿卜杜拉，传述自其父，传述自哈夫斯·本·盖塔斯。"
         },
         "word_start": 0,
-        "word_end": 9
-      },
-      {
-        "chunk_type": "isnad",
-        "arabic_text": "فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ حَفْصِ بْنِ غِيَاثٍ.",
-        "translations": {
-          "en": "I have narrated it from my father—may Allah be pleased with him—from Sa'd ibn Abdullah, from Ahmad ibn Abi Abdullah, from his father, from Hafs ibn Ghayath.",
-          "ur": "میں نے اسے اپنے والد سے روایت کیا—اللہ ان سے راضی ہو—سعد بن عبد اللہ سے، احمد بن ابی عبد اللہ سے، ان کے والد سے، حفص بن غیاث سے۔",
-          "tr": "Onu babamdan rivayet ettim—Allah ondan razı olsun—Sa'd ibn Abdullah'dan, Ahmed ibn Ebi Abdullah'tan, onun babasından, Hafs ibn Ghayath'tan.",
-          "fa": "من آن را از پدرم روایت کرده‌ام—خداوند از او راضی باشد—از سعد بن عبدالله، از احمد بن ابی عبدالله، از پدرش، از حفص بن غیاث.",
-          "id": "Saya meriwayatkannya dari ayah saya—semoga Allah meridhoi beliau—dari Sa'd ibn Abdullah, dari Ahmad ibn Abi Abdullah, dari ayahnya, dari Hafs ibn Ghayath.",
-          "bn": "আমি এটি আমার পিতা থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি রاضی হন—সাআদ ইবনে আবদুল্লাহ থেকে, আহমদ ইবনে আবি আবদুল্লাহ থেকে, তাঁর পিতা থেকে, হাফস ইবনে গিয়াথ থেকে।",
-          "es": "Lo he narrado de mi padre—que Allah esté complacido con él—de Sa'd ibn Abdullah, de Ahmad ibn Abi Abdullah, de su padre, de Hafs ibn Ghayath.",
-          "fr": "Je l'ai narré de mon père—qu'Allah soit satisfait de lui—de Sa'd ibn Abdullah, d'Ahmad ibn Abi Abdullah, de son père, de Hafs ibn Ghayath.",
-          "de": "Ich habe es von meinem Vater überliefert—möge Allah mit ihm zufrieden sein—von Sa'd ibn Abdullah, von Ahmad ibn Abi Abdullah, von seinem Vater, von Hafs ibn Ghayath.",
-          "ru": "Я передал это от моего отца — да будет доволен им Аллах — от Са'да ибн Абдуллы, от Ахмада ибн Аби Абдуллы, от его отца, от Хафса ибн Гайята.",
-          "zh": "我从我父亲那里传述—愿安拉喜悦他—从萨德本阿卜杜拉，艾哈迈德本阿比阿卜杜拉，他的父亲，哈夫斯本盖亚斯。"
-        },
-        "word_start": 9,
         "word_end": 33
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَ رَوَيْتُهُ عَنْ عَلِيِّ بْنِ أَحْمَدَ بْنِ مُوسَى- رَحِمَهُ اللَّهُ- عَنْ مُحَمَّدِ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ مُحَمَّدِ بْنِ أَبِي بَشِيرٍ قَالَ: حَدَّثَنَا الْحُسَيْنُ بْنُ الْهَيْثَمِ قَالَ: حَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، عَنْ حَفْصِ بْنِ غِيَاثٍ.",
+        "arabic_text": "وَرَوَيْتُهُ عَنْ عَلِيِّ بْنِ أَحْمَدَ بْنِ مُوسَى - رَحِمَهُ اللَّهُ - عَنْ مُحَمَّدِ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ مُحَمَّدِ بْنِ أَبِي بِشْرٍ قَالَ: حَدَّثَنَا الْحُسَيْنُ بْنُ الْهَيْثَمِ قَالَ: حَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، عَنْ حَفْصِ بْنِ غَيْثٍ.",
         "translations": {
-          "en": "And I have narrated it from Ali ibn Ahmad ibn Musa—may Allah have mercy on him—from Muhammad ibn Abi Abdullah, from Muhammad ibn Abi Bashir, who said: Al-Husayn ibn al-Haytham narrated to us; he said: Sulayman ibn Dawud al-Munqari narrated to us, from Hafs ibn Ghayath.",
-          "ur": "اور میں نے اسے علی بن احمد بن موسیٰ سے روایت کیا—اللہ ان پر رحم کرے—محمد بن ابی عبد اللہ سے، محمد بن ابی بشیر سے، جنہوں نے کہا: الحُسین بن الہیثم نے ہمیں روایت کی؛ انہوں نے کہا: سلیمان بن داود المنقری نے ہمیں روایت کی، حفص بن غیاث سے۔",
-          "tr": "Ve onu Ali ibn Ahmed ibn Musa'dan rivayet ettim—Allah ona rahmet eylesin—Muhammed ibn Ebi Abdullah'tan, Muhammed ibn Ebi Beşir'den, şöyle dedi: El-Hüseyin ibn el-Haytham bize rivayet etti; dedi ki: Süleyman ibn Davud el-Munkari bize rivayet etti, Hafs ibn Ghayath'tan.",
-          "fa": "و آن را از علی بن احمد بن موسی—خدا بر او رحمت کند—از محمد بن ابی عبدالله، از محمد بن ابی بشیر، که گفت: الحُسین بن الهیثم برای ما روایت کرد؛ گفت: سلیمان بن داوود المنقری برای ما روایت کرد، از حفص بن غیاث.",
-          "id": "Dan saya meriwayatkannya dari Ali ibn Ahmad ibn Musa—semoga Allah merahmatinya—dari Muhammad ibn Abi Abdullah, dari Muhammad ibn Abi Bashir, yang berkata: Al-Husayn ibn al-Haytham meriwayatkan kepada kami; dia berkata: Sulayman ibn Dawud al-Munqari meriwayatkan kepada kami, dari Hafs ibn Ghayath.",
-          "bn": "এবং আমি এটি আলী ইবনে আহমদ ইবনে মূসা থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি রহমত করুন—মুহাম্মদ ইবনে আবি আবদুল্লাহ থেকে, মুহাম্মদ ইবনে আবি বশীর থেকে, যিনি বললেন: আল-হুসাইন ইবনে আল-হৈথম আমাদেরকে বর্ণনা করেছেন; তিনি বললেন: সুলেমান ইবনে দাউদ আল-মুনকারি আমাদেরকে বর্ণনা করেছেন, হাফস ইবনে গিয়াথ থেকে।",
-          "es": "Y lo he narrado de Ali ibn Ahmad ibn Musa—que Allah tenga misericordia de él—de Muhammad ibn Abi Abdullah, de Muhammad ibn Abi Bashir, quien dijo: Al-Husayn ibn al-Haytham nos narró; dijo: Sulayman ibn Dawud al-Munqari nos narró, de Hafs ibn Ghayath.",
-          "fr": "Et je l'ai narré d'Ali ibn Ahmad ibn Musa—qu'Allah ait pitié de lui—de Muhammad ibn Abi Abdullah, de Muhammad ibn Abi Bashir, qui a dit : Al-Husayn ibn al-Haytham nous a narré ; il a dit : Sulayman ibn Dawud al-Munqari nous a narré, de Hafs ibn Ghayath.",
-          "de": "Und ich habe es von Ali ibn Ahmad ibn Musa überliefert—möge Allah ihm Barmherzigkeit schenken—von Muhammad ibn Abi Abdullah, von Muhammad ibn Abi Bashir, der sagte: Al-Husayn ibn al-Haytham hat uns überliefert; er sagte: Sulayman ibn Dawud al-Munqari hat uns überliefert, von Hafs ibn Ghayath.",
-          "ru": "И я передал это от Али ибн Ахмада ибн Мусы — да помилует его Аллах — от Мухаммада ибн Аби Абдуллы, от Мухаммада ибн Аби Башира, который сказал: Аль-Хусейн ибн аль-Хайтам нам передал; он сказал: Сулейман ибн Давуд аль-Мункари нам передал, от Хафса ибн Гайята.",
-          "zh": "我也从阿里本艾哈迈德本穆萨传述—愿安拉怜悯他—从穆罕默德本阿比阿卜杜拉，穆罕默德本阿比巴希尔，他说：阿尔-侯赛因本哈伊瑟姆向我们传述；他说：苏莱曼本达乌德·穆恩卡里向我们传述，来自哈夫斯本盖亚斯。"
+          "en": "I have also narrated it from Ali ibn Ahmad ibn Musa - may Allah have mercy on him - from Muhammad ibn Abi Abdullah, from Muhammad ibn Abi Bashir, who said: Al-Husayn ibn Al-Haytham narrated to us, saying: Sulayman ibn Dawud Al-Munqari narrated to us, from Hafs ibn Ghayath.",
+          "ur": "میں نے بھی اسے علی بن احمد بن موسیٰ - رحمۃ اللہ علیہ - سے روایت کیا ہے، محمد بن ابی اللہ سے، محمد بن ابی بشیر سے، انہوں نے کہا: الحسین بن ہشام نے ہمیں روایت کی، انہوں نے کہا: سلیمان بن داؤد المنقری نے ہمیں روایت کی، حفص بن غیاث سے۔",
+          "tr": "Ben de onu Ali b. Ahmed b. Musa'dan (Allah ondan razı olsun) naklettim -), Muhammed b. Ebi Abdullah'tan, Muhammed b. Ebi Beşir'den, o da dedi ki: Hüseyin b. Haythem bize rivayet etti, dedi ki: Süleyman b. Davud el-Munkarî bize rivayet etti, Hafs b. Gayth'tan.",
+          "fa": "و من نیز آن را از علی بن احمد بن موسی - رحمه الله - از محمد بن ابی‌الله، از محمد بن ابی بشیر، که گفت: الحسین بن الهیثم برای ما روایت کرد، گفت: سلیمان بن داود منقری برای ما روایت کرد، از حفص بن غیاث.",
+          "id": "Saya juga telah meriwayatkannya dari Ali ibn Ahmad ibn Musa - semoga Allah merahmatinya - dari Muhammad ibn Abi Abdullah, dari Muhammad ibn Abi Bashir, yang berkata: Al-Husayn ibn Al-Haytham telah meriwayatkan kepada kami, ia berkata: Sulayman ibn Dawud Al-Munqari telah meriwayatkan kepada kami, dari Hafs ibn Ghayath. }  **Note:** - The honorific ",
+          "bn": "আমি এটি আলী ইবনে আহমদ ইবনে মুসা (আল্লাহ তায়ালা তাঁর উপর রহমত বর্ষণ করুন) থেকে বর্ণনা করেছি, তিনি মুহাম্মদ ইবনে আবি আবদুল্লাহ থেকে, তিনি মুহাম্মদ ইবনে আবি বশীর থেকে, যিনি বলেছেন: আল-হুসাইন ইবনে আল-হায়াথাম আমাদেরকে বর্ণনা করেছেন, তিনি বলেছেন: সুলাইমান ইবনে দাউদ আল-মুনকারী আমাদেরকে বর্ণনা করেছেন, হাফস ইবনে গায়াথ থেকে।",
+          "es": "También lo he narrado de Ali ibn Ahmad ibn Musa —que Allah tenga misericordia de él— de Muhammad ibn Abi Abdullah, de Muhammad ibn Abi Bashir, quien dijo: Al-Husayn ibn Al-Haytham nos narró, diciendo: Sulayman ibn Dawud Al-Munqari nos narró, de Hafs ibn Ghayath.",
+          "fr": "J'ai également le rapporter d'Ali ibn Ahmad ibn Musa — qu'Allah lui fasse miséricorde — de Muhammad ibn Abi Abdullah, de Muhammad ibn Abi Bashir, qui a dit : Al-Husayn ibn Al-Haytham nous a rapporté, disant : Sulayman ibn Dawud Al-Munqari nous a rapporté, de Hafs ibn Ghayath.",
+          "de": "Ich habe es auch von Ali ibn Ahmad ibn Musa – möge Allah ihn gnädig sein – von Muhammad ibn Abi Abdullah, von Muhammad ibn Abi Bashir, der sagte: Al-Husayn ibn Al-Haytham überlieferte uns, indem er sagte: Sulayman ibn Dawud Al-Munqari überlieferte uns von Hafs ibn Ghayath.",
+          "ru": "Я также передал это от Али ибн Ахмада ибн Мусы — да помилует его Аллах — от Мухаммада ибн Аби Абдуллаха, от Мухаммада ибн Аби Башира, который сказал: «Аль-Хусайн ибн аль-Хайтам передал нам, сказав: Сулейман ибн Дауд аль-Мункари передал нам от Хафса ибн Гияфа.",
+          "zh": "我也从阿里·本·艾哈迈德·本·穆萨（愿真主怜悯他）传述，从穆罕默德·本·艾布·阿卜杜拉，从穆罕默德·本·艾布·巴希尔传述，他说：侯赛因·本·海赛姆传给我们，他说：苏莱曼·本·达乌德·穆恩卡里传给我们，从哈夫斯·本·盖雅斯传述。"
         },
         "word_start": 33,
-        "word_end": 69
+        "word_end": 70
       },
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَ رَوَيْتُهُ عَنْ أَبِي- رَحِمَهُ اللَّهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ الْقَاسِمِ بْنِ مُحَمَّدٍ الْأَصْبَهَانِيِّ، عَنْ سُلَيْمَانَ بْنِ دَاوُدَ الْمُنْقَرِيِّ، عَنْ حَفْصِ بْنِ غِيَاثٍ النَّخَعِيِّ الْقَاضِيِ.",
+        "arabic_text": "وَرَوَيْتُهُ عَنْ أَبِي - رَحِمَهُ اللَّهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ الْأَصْبَهَانِيِّ، عَنْ سُلَيْمَانَ بْنِ دَاوُدَ الْمُنْقَرِيِّ، عَنْ حَفْصِ بْنِ غَيْثٍ النَّخَعِيِّ الْقَاضِي.",
         "translations": {
-          "en": "And I have narrated it from my father—may Allah have mercy on him—from Sa'd ibn Abdullah, from al-Qasim ibn Muhammad al-Isbahani, from Sulayman ibn Dawud al-Munqari, from Hafs ibn Ghayath al-Nakha'i, the judge.",
-          "ur": "اور میں نے اسے اپنے والد سے روایت کیا—اللہ ان پر رحم کرے—سعد بن عبد اللّه سے، القاسم بن محمد الاصبهانی سے، سلیمان بن داود المنقری سے، حفص بن غیاث النخعی، قاضی سے۔",
-          "tr": "Ve onu babamdan rivayet ettim—Allah ona rahmet eylesin—Sa'd ibn Abdullah'tan, al-Qasim ibn Muhammed al-Isbahani'den, Süleyman ibn Davud al-Munqari'den, Hafs ibn Ghayath al-Nakha'i, hakimden.",
-          "fa": "و آن را از پدرم روایت کرده‌ام—خدا بر او رحمت کند—از سعد بن عبدالله، از القاسم بن محمد الاصبهانی، از سلیمان بن داوود المنقری، از حفص بن غیاث النخعی، قاضی.",
-          "id": "Dan saya meriwayatkannya dari ayah saya—semoga Allah merahmatinya—dari Sa'd ibn Abdullah, dari al-Qasim ibn Muhammad al-Isbahani, dari Sulayman ibn Dawud al-Munqari, dari Hafs ibn Ghayath al-Nakha'i, hakim.",
-          "bn": "এবং আমি এটি আমার পিতা থেকে বর্ণনা করেছি—আল্লাহ তাঁর প্রতি রহমত করুন—সাআদ ইবনে আবদুল্লাহ থেকে, আল-কাসিম ইবনে মুহাম্মদ আল-ইস্‌বাহানি থেকে, সুলেমান ইবনে দাউদ আল-মুনকারি থেকে, হাফস ইবনে গিয়াথ আল-নখাঈ, বিচারক থেকে।",
-          "es": "Y lo he narrado de mi padre—que Allah tenga misericordia de él—de Sa'd ibn Abdullah, de al-Qasim ibn Muhammad al-Isbahani, de Sulayman ibn Dawud al-Munqari, de Hafs ibn Ghayath al-Nakha'i, el juez.",
-          "fr": "Et je l'ai narré de mon père—qu'Allah ait pitié de lui—de Sa'd ibn Abdullah, d'al-Qasim ibn Muhammad al-Isbahani, de Sulayman ibn Dawud al-Munqari, de Hafs ibn Ghayath al-Nakha'i, le juge.",
-          "de": "Und ich habe es von meinem Vater überliefert—möge Allah ihm Barmherzigkeit schenken—von Sa'd ibn Abdullah, von al-Qasim ibn Muhammad al-Isbahani, von Sulayman ibn Dawud al-Munqari, von Hafs ibn Ghayath al-Nakha'i, dem Richter.",
-          "ru": "И я передал это от моего отца — да помилует его Аллах — от Са'да ибн Абдуллы, от аль-Касима ибн Мухаммада аль-Исбахани, от Сулеймана ибн Давуда аль-Мункари, от Хафса ибн Гайята аль-Нахъа'и, судьи.",
-          "zh": "我也从我父亲那里传述—愿安拉怜悯他—从萨德本阿卜杜拉，阿尔-卡西姆本穆罕默德·阿尔-伊斯巴哈尼，苏莱曼本达乌德·穆恩卡里，来自哈夫斯本盖亚斯·纳赫艾，法官。"
+          "en": "Additionally, I have narrated it from my father - may Allah have mercy on him - from Sa'd ibn Abdullah, from Al-Qasim ibn Muhammad Al-Isfahani, from Sulayman ibn Dawud Al-Munqari, from Hafs ibn Ghayath Al-Nakha'i, the judge (qadi).",
+          "ur": "بیشتر، میں نے اسے اپنے والد سے روایت کیا ہے — اللہ ان پر رحم کرے — سعد بن عبداللہ سے، القاسم بن محمد الاسفہانی سے، سلیمان بن داؤد المنقری سے، حفص بن غیاث النخعی سے، جو قاضی تھے۔",
+          "tr": "Buna ek olarak, ben babamdan (Allah ondan razı olsun), Sa'd ibn Abdullah'dan, El-Kasım ibn Muhammed El-İsfahani'den, Süleyman ibn Davud El-Munkari'den, Hafs ibn Gayyath El-Nehaî'den, hâkimden (kadî) rivayet ettim.",
+          "fa": "علاوه بر این، آن را از پدرم - خداوند او را بیامرزد از سعد بن عبدالله، از القاسم بن محمد اصفهانی، از سلیمان بن داود منقری، از حفص بن غیاث نخعی، قاضی، روایت کرده‌ام.",
+          "id": "Selain itu, aku telah meriwayatkannya dari ayahku - semoga Allah merahmatinya - dari Sa'd bin Abdullah, dari Al-Qasim bin Muhammad Al-Isfahani, dari Sulayman bin Dawud Al-Munqari, dari Hafs bin Ghayath Al-Nakha'i, sang hakim (qadi).",
+          "bn": "আর আমি আমার পিতা হতে (আল্লাহ তায়ালা তাঁর রহমত করুন), সাঈদ ইবনে আবদুল্লাহ, আল-কাসিম ইবনে মুহাম্মাদ আল-ইসফাহানী, সুলাইমান ইবনে দাউদ আল-মুনকারী, হাফস ইবনে গায়াত আল-নখঈ, কাদী (বিচারক) হতে বর্ণনা করেছি।",
+          "es": "Además, lo he narrado de mi padre - que Allah tenga misericordia de él - de Sa'd ibn Abdullah, de Al-Qasim ibn Muhammad Al-Isfahani, de Sulayman ibn Dawud Al-Munqari, de Hafs ibn Ghayath Al-Nakha'i, el juez (qadi).",
+          "fr": "De plus, je l'ai rapporté cela de mon père - qu'Allah lui fasse miséricorde - de Sa'd ibn Abdullah, de Al-Qasim ibn Muhammad Al-Isfahani, de Sulayman ibn Dawud Al-Munqari, de Hafs ibn Ghayath Al-Nakha'i, le juge (qadi).",
+          "de": "Zusätzlich habe ich es von meinem Vater – möge Allah ihn gnädig sein lassen – von Sa'd ibn Abdullah, von Al-Qasim ibn Muhammad Al-Isfahani, von Sulayman ibn Dawud Al-Munqari, von Hafs ibn Ghayath Al-Nakha'i, dem Richter (Qadi), überliefert.",
+          "ru": "Кроме того, я передал это от моего отца — да помилует его Аллах — от Саада ибн Абдуллаха, от аль-Касима ибн Мухаммада аль-Исфахани, от Сулеймана ибн Дауда аль-Мункари, от Хафса ибн Гайята ан-Нахаи, судьи (кади).",
+          "zh": "此外，我从我父亲（愿真主怜悯他）传述，从萨德·本·阿卜杜拉，从卡西姆·本·穆罕默德·伊斯法哈尼，从苏莱曼·本·达乌德·蒙卡里，从哈夫斯·本·盖亚斯·纳赫伊，法官（卡迪）传述。"
         },
-        "word_start": 69,
-        "word_end": 96
+        "word_start": 70,
+        "word_end": 98
       }
     ],
     "translations": {
       "en": {
-        "summary": "This passage presents the transmission routes through which the author narrates reports from Hafs ibn Ghayath. Its significance lies in documenting the sanad/isnad for hadith attribution in Man La Yahduruhu al-Faqih and preserving multiple lines of transmission to the same narrator.",
-        "seo_question": "What is the transmission chain of Hafs ibn Ghayath in Man La Yahduruhu al-Faqih?",
+        "summary": "This passage from Shaykh al-Saduq’s *Man La Yahduruhu al-Faqih* demonstrates the rigorous methodology of hadith transmission by providing three independent chains (isnad) linking back to Hafs ibn Ghayath, a key narrator in Shia scholarship. By citing transmissions through his father, Ali ibn Ahmad ibn Musa, and other prominent scholars, al-Saduq establishes the reliability and widespread acceptance of these narrations within the early Shia scholarly tradition. This multi-chain verification underscores the importance of cross-referencing sources to authenticate legal and theological rulings derived from the Imams.",
+        "seo_question": "How is the narration chain for Hafs ibn Ghayath verified in this text?",
         "key_terms": {
-          "حَفْصِ بْنِ غِيَاثٍ": "A principal narrator whose transmission routes are being listed here.",
-          "الْمُنْقَرِيُّ": "A nisbah identifying Sulayman ibn Dawud al-Munqari in the chain.",
-          "النَّخَعِيِّ": "A nisbah identifying Hafs ibn Ghayath as al-Nakha'i.",
-          "الْقَاضِيِ": "The judge; a title describing Hafs ibn Ghayath."
+          "حَفْصُ بْنُ غَيْثٍ": "Hafs ibn Ghayath, a key narrator",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "Sa'd ibn Abdullah, a prominent narrator",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "Ahmad ibn Abi Abdullah, a narrator",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "Sulayman ibn Dawud Al-Munqari, a narrator",
+          "الْقَاضِي": "The judge, a title for Hafs ibn Ghayath"
         }
       },
       "ur": {
-        "summary": "یہ عبارت ان راستوں کو پیش کرتی ہے جن کے ذریعے مصنف نے حفص بن غیاث سے روایات نقل کی ہیں۔ اس کی اہمیت حدیث کی سند کی دستاویز بندی میں ہے اور ایک ہی راوی کے متعدد سلسلے کو محفوظ رکھنا ہے جو من لا یحضره الفقیہ میں موجود ہے۔",
-        "seo_question": "من لا یحضره الفقیہ میں حفص بن غیاث کی سند کیا ہے؟",
-        "key_terms": {}
+        "summary": "شیخ صدوق کی کتاب *من لا یحضرہ الفقیہ* سے یہ اقتباس حدیث کی روایت کے سخت معیار کو ظاہر کرتا ہے، کیونکہ اس میں حَفْصُ بْنُ غَيْثٍ، جو شیعہ علم میں ایک اہم راوی ہیں، کی طرف جڑے ہوئے تین آزاد سندیں (اسناد) فراہم کی گئی ہیں۔ اپنے والد، علی بن احمد بن موسیٰ، اور دیگر ممتاز علماء کے ذریعے روایات کا حوالہ دے کر، شیخ صدوق ان روایات کی اعتباریت اور ابتدائی شیعہ علمی روایت میں ان کی وسیع قبولیت کو ثابت کرتے ہیں۔ یہ کثیر السنتی تصدیق اماموں سے اخذ کردہ فقہی اور کلامی احکام کی توثیق کے لیے مصادر کا باہمی موازنہ کرنے کی اہمیت کو اجاگر کرتی ہے۔",
+        "seo_question": "اس متن میں حَفْصُ بْنُ غَيْثٍ کی روایت کی سند کیسے تصدیق کی گئی ہے؟",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "حَفْصُ بْنُ غَيْثٍ، ایک اہم راوی",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "سَعْدُ بْنُ عَبْدِ اللَّهِ، ایک ممتاز راوی",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ، ایک راوی",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، ایک راوی",
+          "الْقَاضِي": "القاضي، حَفْصُ بْنُ غَيْثٍ کے لیے ایک لقب"
+        }
       },
       "tr": {
-        "summary": "Bu pasaj, yazarın Hafs ibn Ghayath'tan rivayetleri aktardığı nakil yollarını sunar. Önemi, Man La Yahduruhu al-Faqih'teki hadis isnadının belgelenmesi ve aynı raviden birden fazla nakil hattının korunmasındadır.",
-        "seo_question": "Man La Yahduruhu al-Faqih'te Hafs ibn Ghayath'ın nakil zinciri nedir?",
-        "key_terms": {}
+        "summary": "Şeyh el-Saduk'un *Men La Yahduruhu'l-Fakih* eserinden bu pasaj, Şii ilminde kilit bir râvi olan Hafs b. Gays'a kadar uzanan üç bağımsız sened (isnad) sunarak hadis naklinin titiz metodolojisini göstermektedir. El-Saduk, babası Ali b. Ahmed b. Musa ve diğer önde gelen alimler aracılığıyla yapılan nakilleri zikrederek, bu rivayetlerin erken Şii ilmi geleneğinde güvenilirliğini ve yaygın kabulünü tesis etmektedir. Çoklu senedle doğrulama, İmamlardan türetilen hukuki ve kelami hükümlerin teyidi için kaynakların çapraz kontrolünün önemini vurgulamaktadır.",
+        "seo_question": "Bu metinde Hafs b. Gays'ın rivayet zinciri nasıl doğrulanmaktadır?",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "Hafs b. Gays, kilit bir râvi",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "Sa'd b. Abdullah, önde gelen bir râvi",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "Ahmed b. Ebi Abdullah, bir râvi",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "Süleyman b. Davud el-Munkari, bir râvi",
+          "الْقَاضِي": "Kadı, Hafs b. Gays için bir unvan"
+        }
       },
       "fa": {
-        "summary": "این بخش مسیرهای انتقالی را که نویسنده از حفص بن غیاث روایت کرده است، ارائه می‌دهد. اهمیت آن در مستندسازی سند حدیث در من لا یحضره الفقیه و حفظ چندین خط انتقال به همان راوی است.",
-        "seo_question": "زنجیره انتقال حفص بن غیاث در من لا یحضره الفقیه چیست؟",
-        "key_terms": {}
+        "summary": "این متن از کتاب «من لا یحضره الفقیه» شیخ صدوق، روش دقیق انتقال حدیث را با ارائه سه زنجیره مستقل (اسناد) که به حفص بن غیث، راوی کلیدی در علم شیعه، بازمی‌گردند، نشان می‌دهد. با استناد به روایات از طریق پدرش، علی بن احمد بن موسی و سایر علمای برجسته، صدوق اعتبار و پذیرش گسترده این روایات را در میان سنت علمی اولیه شیعه تثبیت می‌کند. این تأیید چندزنجیره‌ای بر اهمیت تطبیق منابع برای احراز احکام فقهی و کلامی استخراج شده از ائمه تأکید می‌ورزد.",
+        "seo_question": "زنجیره روایت برای حفص بن غیث در این متن چگونه تأیید می‌شود؟",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "حَفْصُ بْنُ غَيْثٍ، راوی کلیدی",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "سَعْدُ بْنُ عَبْدِ اللَّهِ، راوی برجسته",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ، راوی",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، راوی",
+          "الْقَاضِي": "القاضی، عنوانی برای حفص بن غیث"
+        }
       },
       "id": {
-        "summary": "Bagian ini menyajikan jalur transmisi yang digunakan penulis untuk meriwayatkan dari Hafs ibn Ghayath. Pentingnya terletak pada pendokumentasian sanad/isnad untuk atribusi hadits dalam Man La Yahduruhu al-Faqih dan menjaga beberapa jalur transmisi ke perawi yang sama.",
-        "seo_question": "Apa rantai transmisi Hafs ibn Ghayath dalam Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Kutipan dari Syekh al-Shaduq dalam kitab *Man La Yahduruhu al-Faqih* ini menunjukkan metodologi ketat dalam transmisi hadis dengan menyediakan tiga rantai sanad independen yang kembali kepada Hafs ibn Ghayath, seorang perawi kunci dalam kajian Syi'ah. Dengan mengutip transmisi melalui ayahnya, Ali ibn Ahmad ibn Musa, dan para ulama terkemuka lainnya, al-Shaduq menetapkan keandalan dan penerimaan luas dari riwayat-riwayat ini dalam tradisi keilmuan Syi'ah awal. Verifikasi multi-rantai ini menyoroti pentingnya merujuk silang sumber untuk mengautentikasi hukum dan keyakinan teologis yang berasal dari para Imam.",
+        "seo_question": "Bagaimana rantai riwayat untuk Hafs ibn Ghayath diverifikasi dalam teks ini?",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "Hafs ibn Ghayath, seorang perawi kunci",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "Sa'd ibn Abdullah, seorang perawi terkemuka",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "Ahmad ibn Abi Abdullah, seorang perawi",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "Sulayman ibn Dawud Al-Munqari, seorang perawi",
+          "الْقَاضِي": "Qadhi, sebuah gelar untuk Hafs ibn Ghayath"
+        }
       },
       "bn": {
-        "summary": "এই অংশটি সেই সংক্রমণ পথগুলি উপস্থাপন করে যার মাধ্যমে লেখক হাফস ইবনে গিয়াথ থেকে বর্ণনা করেছেন। এর গুরুত্ব ম্যান লা ইয়াহদুরুহু আল-ফাকিহে হাদিসের sanad/isnad নথিভুক্তকরণ এবং একই রাওয়ির একাধিক সংক্রমণ লাইন সংরক্ষণে নিহিত।",
-        "seo_question": "ম্যান লা ইয়াহদুরুহু আল-ফাকিহে হাফস ইবনে গিয়াথের সংক্রমণ শৃঙ্খলা কী?",
-        "key_terms": {}
+        "summary": "শায়খ আল-সাদুকের *মান লা যাহদুরুহুল ফাকিহ* গ্রন্থের এই অংশ হাফস ইবনে গায়েথের দিকে নিয়ে যাওয়া তিনটি স্বতন্ত্র সনদ (ইসনাদ) প্রদান করে হাদিস বর্ণনার কঠোর পদ্ধতি প্রদর্শন করে, যিনি শিয়া বিদ্যায় একজন প্রধান বর্ণনাকারী। তার পিতা, আলী ইবনে আহমদ ইবনে মুসা এবং অন্যান্য প্রখ্যাত আলেমদের মাধ্যমে বর্ণনা উদ্ধৃত করে, আল-সাদুক এই বর্ণনাগুলোর নির্ভরযোগ্যতা এবং প্রাথমিক শিয়া আলেমদের মধ্যে এর ব্যাপক গ্রহণযোগ্যতা প্রতিষ্ঠা করেন। এই বহু-সনদী যাচাইকরণ ইমামদের কাছ থেকে প্রাপ্ত আইনি ও তাত্ত্বিক রায়গুলোর প্রমাণীকরণের জন্য উৎসগুলোর পারস্পরিক তুলনা করার গুরুত্বকে তুলে ধরে।",
+        "seo_question": "এই পাঠ্যে হাফস ইবনে গায়েথের বর্ণনার সনদ কীভাবে যাচাই করা হয়েছে?",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "হাফস ইবনে গায়েথ, একজন প্রধান বর্ণনাকারী",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "সাদ ইবনে আবদুল্লাহ, একজন প্রখ্যাত বর্ণনাকারী",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "আহমদ ইবনে আবি আবদুল্লাহ, একজন বর্ণনাকারী",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "সুলাইমান ইবনে দাউদ আল-মুনকারি, একজন বর্ণনাকারী",
+          "الْقَاضِي": "আদালত, হাফস ইবনে গায়েথের জন্য একটি উপাধি"
+        }
       },
       "es": {
-        "summary": "Este pasaje presenta las rutas de transmisión a través de las cuales el autor narra informes de Hafs ibn Ghayath. Su importancia radica en documentar la sanad/isnad para la atribución de hadices en Man La Yahduruhu al-Faqih y preservar múltiples líneas de transmisión al mismo narrador.",
-        "seo_question": "¿Cuál es la cadena de transmisión de Hafs ibn Ghayath en Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Este pasaje del *Man La Yahduruhu al-Faqih* de Shaykh al-Saduq demuestra la rigurosa metodología de la transmisión del hadiz al proporcionar tres cadenas independientes (is de transmisión independientes (isnad) que se remontan a Hafs ibn Ghayath, un narrador clave en la erudición chií. Al citar transmisiones a través de su padre, Ali ibn Ahmad ibn Musa, y otros eruditos prominentes, al-Saduq establece la fiabilidad y la amplia aceptación de estas narraciones dentro de la tradición erudita chií temprana. Esta verificación de múltiples cadis subraya la importancia de cotejar las fuentes para autenticar las decisiones legales y teológicas derivadas de los Imames.",
+        "seo_question": "¿Cómo se verifica la cadena de narración para Hafs ibn Ghayath en este texto?",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "Hafs ibn Ghayath, un narrador clave",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "Sa'd ibn Abdullah, un narrador prominente",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "Ahmad ibn Abi Abdullah, un narrador",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "Sulayman ibn Dawud Al-Munqari, un narrador",
+          "الْقَاضِي": "El juez, un título para Hafs ibn Ghayath"
+        }
       },
       "fr": {
-        "summary": "Ce passage présente les chaînes de transmission par lesquelles l'auteur rapporte des récits de Hafs ibn Ghayath. Son importance réside dans la documentation de la sanad/isnad pour l'attribution des hadiths dans Man La Yahduruhu al-Faqih et la préservation de plusieurs lignes de transmission vers le même narrateur.",
-        "seo_question": "Quelle est la chaîne de transmission de Hafs ibn Ghayath dans Man La Yahduruhu al-Faqih ?",
-        "key_terms": {}
+        "summary": "Ce passage du Cheikh al-Saduq tiré de *Man La Yahduruhu al-Faqih* démontre la rigueur de la méthodologie de transmission des hadiths en fournissant trois chaînes indépendantes (isnad) reliant Hafs ibn Ghayath, un narrateur clé de la science chiite. En citant des transmissions par l'intermédiaire de son père, Ali ibn Ahmad ibn Musa, et d'autres érudits éminents, al-Saduq établit la fiabilité et l'acceptation généralisée de ces narrations au sein de la tradition savante chiite précoce. Cette vérification multi-chaîne souligne l'importance de la recroisement des sources pour authentifier les décisions juridiques et théologiques dérivées des Imams.",
+        "seo_question": "Comment la chaîne de narration pour Hafs ibn Ghayath est-elle vérifiée dans ce texte ?",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "Hafs ibn Ghayath, un narrateur clé",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "Sa'd ibn Abdullah, un narrateur éminent",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "Ahmad ibn Abi Abdullah, un narrateur",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "Sulayman ibn Dawud Al-Munqari, un narrateur",
+          "الْقَاضِي": "Le juge, un titre pour Hafs ibn Ghayath"
+        }
       },
       "de": {
-        "summary": "Dieser Abschnitt stellt die Überlieferungsketten dar, durch die der Autor Berichte von Hafs ibn Ghayath überliefert. Ihre Bedeutung liegt in der Dokumentation der Sanad/Isnad für die Hadith-Zuschreibung in Man La Yahduruhu al-Faqih und der Bewahrung mehrerer Überlieferungslinien zum selben Überlieferer.",
-        "seo_question": "Wie lautet die Überlieferungskette von Hafs ibn Ghayath in Man La Yahduruhu al-Faqih?",
-        "key_terms": {}
+        "summary": "Dieser Abschnitt aus Scheich al-Saduqs *Man La Yahduruhu al-Faqih* veranschaulicht die strenge Methodik der Hadith-Überlieferung, indem er drei unabhängige Überlieferungsketten (Isnad) vorlegt, die auf Hafs ibn Ghayath, einen zentralen Erzähler der schiitischen Gelehrsamkeit, zurückführen. Durch die Nennung von Überlieferungen über seinen Vater, Ali ibn Ahmad ibn Musa, und andere prominente Gelehrte, etabliert al-Saduq die Zuverlässigkeit und weit verbreitete Akzeptanz dieser Überlieferungen innerhalb der frühen schiitischen Gelehrtentradition. Diese mehrfache Kettenverifikation unterstreicht die Bedeutung der Querverweisung von Quellen zur Authentifizierung rechtlicher und theologischer Urteile, die von den Imamen abgeleitet wurden.",
+        "seo_question": "Wie wird die Überlieferungskette für Hafs ibn Ghayath in diesem Text überprüft?",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "Hafs ibn Ghayath, ein zentraler Erzähler",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "Sa'd ibn Abdullah, ein prominenter Erzähler",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "Ahmad ibn Abi Abdullah, ein Erzähler",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "Sulayman ibn Dawud Al-Munqari, ein Erzähler",
+          "الْقَاضِي": "Der Richter, ein Titel für Hafs ibn Ghayath"
+        }
       },
       "ru": {
-        "summary": "Этот отрывок представляет пути передачи, через которые автор передает сообщения от Хафса ибн Гайята. Его значение заключается в документировании санад/иснад для атрибуции хадисов в «Ман Ла Яхдуруху аль-Факих» и сохранении нескольких линий передачи одному и тому же рассказчику.",
-        "seo_question": "Какова цепочка передачи Хафса ибн Гайята в «Ман Ла Яхдуруху аль-Факих»?",
-        "key_terms": {}
+        "summary": "В этом отрывке из книги шейха ас-Садука «Ман ля йахдуруху аль-факих» демонстрируется строгая методология передачи хадисов посредством предоставления трех независимых цепочек передатчиков (иснад), ведущих к Хафсу ибн Гайсу, ключевому передатчику в шиитской науке. Цитируя передачи через его отца, Али ибн Ахмада ибн Мусу, и других видных ученых, ас-Садук устанавливает достоверность и широкое признание этих преданий в ранней шиитской научной традиции. Эта проверка по нескольким цепочкам подчеркивает важность перекрестного сопоставления источников для аутентификации правовых и богословских постановлений, выведенных от Имамов.",
+        "seo_question": "Как в данном тексте проверяется цепочка передачи для Хафса ибн Гайса?",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "Хафс ибн Гайс, ключевой передатчик",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "Саад ибн Абдуллах, видный передатчик",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "Ахмад ибн Аби Абдуллах, передатчик",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "Сулейман ибн Дауд аль-Мункари, передатчик",
+          "الْقَاضِي": "Кади, титул для Хафса ибн Гайса"
+        }
       },
       "zh": {
-        "summary": "本段展示了作者从哈夫斯本盖亚斯传述报告的传递路径。其重要性在于记录《Man La Yahduruhu al-Faqih》中圣训归属的sanad/isnad，并保存通往同一传述者的多条传递线路。",
-        "seo_question": "《Man La Yahduruhu al-Faqih》中哈夫斯本盖亚斯的传递链是什么？",
-        "key_terms": {}
+        "summary": "这段出自谢赫·萨杜克《法学家所不及者》的经文展示了圣训传述的严谨方法，提供了三条独立的传述链（isnad）追溯至哈夫斯·本·盖斯，他是什叶派学术中的关键传述者。通过引用通过其父亲阿里·本·艾哈迈德·本·穆萨以及其他著名学者的传述，萨杜克确立了这些传述在早期什叶派学术传统中的可靠性和广泛接受度。这种多链验证强调了对源自伊玛目的法律和神学裁决进行交叉引用以确认真实性的重要性。",
+        "seo_question": "本文本中如何验证哈夫斯·本·盖斯的传述链？",
+        "key_terms": {
+          "حَفْصُ بْنُ غَيْثٍ": "哈夫斯·本·盖斯，关键传述者",
+          "سَعْدُ بْنُ عَبْدِ اللَّهِ": "萨德·本·阿卜杜拉，著名传述者",
+          "أَحْمَدُ بْنُ أَبِي عَبْدِ اللَّهِ": "艾哈迈德·本·艾比·阿卜杜拉，传述者",
+          "سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ": "苏莱曼·本·达乌德·曼卡里，传述者",
+          "الْقَاضِي": "法官，哈夫斯·本·盖斯的头衔"
+        }
       }
     },
-    "related_quran": [],
-    "diacritized_text": "وَ مَا كَانَ فِي هَ عَنْ حَفْصِ بْنِ غِيَاثٍ فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ حَفْصِ بْنِ غِيَاثٍ. وَ رَوَيْتُهُ عَنْ عَلِيِّ بْنِ أَحْمَدَ بْنِ مُوسَى- رَحِمَهُ اللَّهُ- عَنْ مُحَمَّدِ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ مُحَمَّدِ بْنِ أَبِي بَشِيرٍ قَالَ: حَدَّثَنَا الْحُسَيْنُ بْنُ الْهَيْثَمِ قَالَ: حَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، عَنْ حَفْصِ بْنِ غِيَاثٍ. وَ رَوَيْتُهُ عَنْ أَبِي- رَحِمَهُ اللَّهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ الْقَاسِمِ بْنِ مُحَمَّدٍ الْأَصْبَهَانِيِّ، عَنْ سُلَيْمَانَ بْنِ دَاوُدَ الْمُنْقَرِيِّ، عَنْ حَفْصِ بْنِ غِيَاثٍ النَّخَعِيِّ الْقَاضِيِ.",
+    "related_quran": [
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "53:3",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَمَا كَانَ فِيهِ عَنْ حَفْصِ بْنِ غَيْثٍ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ حَفْصِ بْنِ غَيْثٍ. وَرَوَيْتُهُ عَنْ عَلِيِّ بْنِ أَحْمَدَ بْنِ مُوسَى - رَحِمَهُ اللَّهُ - عَنْ مُحَمَّدِ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ مُحَمَّدِ بْنِ أَبِي بِشْرٍ قَالَ: حَدَّثَنَا الْحُسَيْنُ بْنُ الْهَيْثَمِ قَالَ: حَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، عَنْ حَفْصِ بْنِ غَيْثٍ. وَرَوَيْتُهُ عَنْ أَبِي - رَحِمَهُ اللَّهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ الْأَصْبَهَانِيِّ، عَنْ سُلَيْمَانَ بْنِ دَاوُدَ الْمُنْقَرِيِّ، عَنْ حَفْصِ بْنِ غَيْثٍ النَّخَعِيِّ الْقَاضِي.",
     "isnad_matn": {
-      "isnad_ar": "فَقَدْ رَوَيْتُهُ عَنْ أَبِي- رَضِيَ اللَّهُ عَنْهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ حَفْصِ بْنِ غِيَاثٍ. وَ رَوَيْتُهُ عَنْ عَلِيِّ بْنِ أَحْمَدَ بْنِ مُوسَى- رَحِمَهُ اللَّهُ- عَنْ مُحَمَّدِ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ مُحَمَّدِ بْنِ أَبِي بَشِيرٍ قَالَ: حَدَّثَنَا الْحُسَيْنُ بْنُ الْهَيْثَمِ قَالَ: حَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، عَنْ حَفْصِ بْنِ غِيَاثٍ. وَ رَوَيْتُهُ عَنْ أَبِي- رَحِمَهُ اللَّهُ- عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ الْقَاسِمِ بْنِ مُحَمَّدٍ الْأَصْبَهَانِيِّ، عَنْ سُلَيْمَانَ بْنِ دَاوُدَ الْمُنْقَرِيِّ، عَنْ حَفْصِ بْنِ غِيَاثٍ النَّخَعِيِّ الْقَاضِيِ.",
-      "matn_ar": "وَ مَا كَانَ فِي هَ عَنْ حَفْصِ بْنِ غِيَاثٍ",
+      "isnad_ar": "وَمَا كَانَ فِيهِ عَنْ حَفْصِ بْنِ غَيْثٍ فَقَدْ رَوَيْتُهُ عَنْ أَبِي - رَضِيَ اللَّهُ عَنْهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنْ أَحْمَدَ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ أَبِيهِ، عَنْ حَفْصِ بْنِ غَيْثٍ. وَرَوَيْتُهُ عَنْ عَلِيِّ بْنِ أَحْمَدَ بْنِ مُوسَى - رَحِمَهُ اللَّهُ - عَنْ مُحَمَّدِ بْنِ أَبِي عَبْدِ اللَّهِ، عَنْ مُحَمَّدِ بْنِ أَبِي بِشْرٍ قَالَ: حَدَّثَنَا الْحُسَيْنُ بْنُ الْهَيْثَمِ قَالَ: حَدَّثَنَا سُلَيْمَانُ بْنُ دَاوُدَ الْمُنْقَرِيُّ، عَنْ حَفْصِ بْنِ غَيْثٍ. وَرَوَيْتُهُ عَنْ أَبِي - رَحِمَهُ اللَّهُ - عَنْ سَعْدِ بْنِ عَبْدِ اللَّهِ، عَنِ الْقَاسِمِ بْنِ مُحَمَّدٍ الْأَصْبَهَانِيِّ، عَنْ سُلَيْمَانَ بْنِ دَاوُدَ الْمُنْقَرِيِّ، عَنْ حَفْصِ بْنِ غَيْثٍ النَّخَعِيِّ الْقَاضِي.",
+      "matn_ar": "ه عن حفص بن غياث فقد رويته عن أبي- رضي اللّه عنه- عن سعد بن عبد اللّه، عن أحمد بن أبي عبد اللّه، عن أبيه، عن حفص بن غياث. و رويته عن عليّ بن أحمد بن موسى- رحمه اللّه- عن محمّد بن أبي عبد اللّه، عن محمّد بن أبي بشير قال: حدّثنا الحسين بن الهيثم قال: حدّثنا سليمان بن داود المنقريّ، عن حفص بن غياث.\nو رويته عن أبي- رحمه اللّه- عن سعد بن عبد اللّه، عن القاسم بن محمّد الاصبهانيّ، عن سليمان بن داود المنقريّ، عن حفص بن غياث النخعيّ القاضي‌.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "ما كان في",
-          "name_en": "",
+          "name_en": "Ma kana fi",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -193,6 +241,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }

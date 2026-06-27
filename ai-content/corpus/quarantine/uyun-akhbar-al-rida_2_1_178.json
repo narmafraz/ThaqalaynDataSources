@@ -1,0 +1,269 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:2:1:178",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 16 words (>14, بن-density 0.06 — likely a sentence fragment, not a name): 'وبهذا الإسناد قال: قال رسول الله صلى اللهعليه وآله: إن قاتل '",
+    "chunks[0] word 'الإسناد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لا' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "afterlife",
+      "prophetic_tradition",
+      "family"
+    ],
+    "content_type": "eschatological",
+    "topics": [
+      "paradise_hell",
+      "karbala",
+      "prophetic_character",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "وَبِهَذَا الإسناد قالَ: قالَ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ",
+        "translations": {
+          "en": "And with this chain of narration, he said: The Messenger of Allah (peace be upon him and his family) said:",
+          "ur": "اور اسی سند کے ساتھ انہوں نے کہا: رسول اللہ (صلی اللہ علیہ وآلہ وسلم) نے فرمایا:",
+          "tr": "Ve bu isnadla dedi: Allah'ın Rasûlü (aleyhi ve âlihi selâm) buyurdu ki:",
+          "fa": "و به این سند گفت: پیامبر خدا (صلی الله علیه و آله) فرمود:",
+          "id": "Dan dengan sanad ini, ia berkata: Rasulullah shallallahu 'alaihi wa ala alihi said:",
+          "bn": "এবং এই সনদে তিনি বলেছেন: আল্লাহর রাসূল (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সাল্লাম) বলেছেন:",
+          "es": "Y con esta cadena de narración, dijo: Dijo el Mensajero de Alá (que la paz sea con él y con su familia:",
+          "fr": "Et avec cette chaîne de narration, il a dit : Le Messager d'Allah (que la paix soit sur lui et sur sa famille) a dit :",
+          "de": "Und mit dieser Überlieferungskette sagte er: Der Gesandte Allahs (Friede sei mit ihm und seiner Familie) sagte:",
+          "ru": "И",
+          "zh": "以此传述系统，他说：真主的使者（愿主福安之及其家属）说："
+        },
+        "word_start": 0,
+        "word_end": 10
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ قاتِلَ الحُسَيْنِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ فِي تابُوتٍ مِن نارٍ عَلَيْهِ نِصْفُ عَذابِ أَهْل الدُّنْيا وَقَدْ شُدَّت يَداهُ وَرَجلاه بِسَلاسِلَ مِن نارٍ مُنكَسٌ النَّار حَتّى‏ يَقَعَ فِي قَعرِ جَهَنَّم وَلَهُ رِيحٌ يَتَعَوَّذُ أَهْل النَّارِ إِلى رَبِّهِمْ مِن شِدَّةِ نَتنِهِ وَهُوَفِيها خالِدٌ ذائِقُ العَذابِ الأَليمِ مَعَ جَمِيع مَن شايَعَ عَلَى قَتَلِهِ كُلَّما نَضِجَت جُلُودَهم بَدَّلَ اللَّه عَزَّ وَجَلَّ عَلَيْهِم الجُلُودَ حَتّى‏ يَذُوقوا العَذابَ الأَليمَ لا يُفَتَّرُ عَنْهُمْ ساعَةً وَيُسقَونَ مِن حَميمِ جَهَنَّمَ فَالوَيلُ لَهُم مِن عَذابِ [اللَّه تَعالى‏ فِي‏] النَّارِ.",
+        "translations": {
+          "en": "Indeed, the murderer of Al-Husayn ibn Ali (peace be upon him) will be in a coffin of fire, upon him is half the punishment of the people of the world. His hands and feet will be bound with chains of fire, upside down in the Fire until he falls to the bottom of Hell. He will have a smell from which the people of the Fire will seek refuge with their Lord from the intensity of his stench. He will reside therein forever, tasting the painful torture along with all those who assisted in his killing. Every time their skins are burned, Allah, the Exalted, will replace their skins so that they may taste the painful torture. Relief will not be taken away from them for a moment, and they will be given drink from the boiling water of Hell. So woe to them from the punishment of Allah (the Exalted) in the Fire.",
+          "ur": "بے شک الحسین بن علی (علیہ السلام) کے قاتل کی لاش آگ کے تابوت میں ہوگی، اس پر دنیا کے لوگوں کی سزا کا نصف ہوگا۔ اس کے ہاتھ اور پاؤں آگ کی زنجیروں سے بندھے ہوں گے، آگ میں الٹا لٹکایا جائے گا یہاں تک کہ وہ جہنم کی تہہ میں گر جائے گا۔ اس سے ایسی بدبو آئے گی جس سے جہنم کے لوگ اپنے رب کی پناہ مانگیں گے اس کی بدبو کی شدت سے۔ وہ اس میں ہمیشہ رہے گا، دردناک عذاب کا مزہ چکھتا رہے گا، ان تمام لوگو کے ساتھ جو اس کے قتل میں مددگار تھے۔ جب ان کی جلدیں جل جائیں گی تو اللہ تعالیٰ ان کی جلدیں بدل دے گا تاکہ وہ دردناک عذاب کا مزہ چکھ سکیں۔ ان سے لمحہ بھر کے لیے بھی عذاب نہ ہٹایا جائے گا، اور انہیں جہنم کے ابھرے ہوئے پانی سے پلایا جائے گا۔ پس ان کے لیے جہنم میں اللہ تعالیٰ (عزّوجلّ) کے عذاب سے بڑی بے خبری ہے۔",
+          "tr": "Şüphesiz, Hüseyin ibn Ali'nin (aleyhisselam) katili ateş tabutunda olacak, üzerine dünyanın insanlarının cezasının yarısı yüklenecektir. Elleri ve ayakları ateş zincirleriyle bağlanacak, ateşte baş aşağı olarak cehennemin dibine düşene kadar orada kalacaktır. Ondan çıkan koku, cehennem ehli, kokusunun şiddetinden Rablerine sığınacaklardır. Orada ebedî kalacaklar ve katılını yardımcı olanlarla birlikte acı verici azabı tadacaklardır. tenleri yanıp yıkandıkça, Allah azze ve celle, onlara acı verici azabı tatmaları için tenlerini yenileyecektir. onlardan azap bir an bile çekilmeyecek ve onlara cehennemin kaynar suyu içirilecektir. Öyleyse onlar, cehennemde Allah'ın (azze ve celle) azabından dolayı vay haline.",
+          "fa": "همانا قاتل الحسین بن علی (علیه السلام) در تابوتی از آتش خواهد بود و بر او نیمی از عذاب مردم جهان است. دست و پای او با زنجیرهای آتش بسته خواهد شد و بر وارونه در آتش تا آنکه به ته دوزخ فرود آید. بویی از او خواهد بود که مردم آتش از شدت بدبویی او به پروردگارش پناه می‌برند. او در آنجا جاودانه خواهد ماند و همراه با همه کسانی که در کشتن او یاری کردند، عذاب دردناک را خواهد چشید. هر بار که پوستشان بسوزد، خداوند بلندمرتبه پوستشان را جایگزین می‌کند تا عذاب دردناک را بچشند. از آنان لحظه‌ای آرامش گرفته نمی‌شود و از آب جوشان دوزخ به آنان نوشانده می‌شود. پس وای بر آنان از عذاب خداوند (بلندمرتبه) در آتش.",
+          "id": "Sesungguhnya, pembunuh Al-Husayn bin Ali (shalatullah ‘alaihi) akan berada dalam peti jenazah dari api, atasnya ditimpakan setengah dari azab penduduk dunia. Tangan dan kakinya diikat dengan rantai api, dalam keadaan terbalik di dalam Neraka hingga ia jatuh ke dasar Jahannam. Ia memiliki bau yang membuat penduduk Neraka berlindung kepada Tuhan mereka dari keparahan bau busuknya. Ia akan menetap di dalamnya selamanya, merasakan siksaan yang pedih bersama dengan semua orang yang membantu dalam pembunuhannya. Setiap kali kulit mereka hangus, Allah Yang Maha Tinggi akan mengganti kulit mereka agar mereka dapat merasakan siksaan yang pedih. Keringat tidak akan dilepaskan dari mereka sekejap pun, dan mereka akan diberi minum dari air mendidih Neraka. Maka celakalah mereka dari azab Allah (Yang Maha Tinggi) di dalam Neraka.",
+          "bn": "নিশ্চয়ই আল-হুসাইন ইবনে আলী (রহ.)-এর হত্যাকারী আগুনের বাক্সে থাকবে, পৃথিবীর মানুষের শাস্তির অর্ধেক তার উপর থাকবে। তার হাত ও পা আগুনের শৃঙ্খলে বেঁধে উল্টোভাবে জাহান্নামে রাখা হবে যতক্ষণ না সে জাহান্নামের তলদেশে পৌঁছায়। তার থেকে এমন একটি গন্ধ বের হবে যার তীব্রতা থেকে জাহান্নামের লোকরা তাদের রবের কাছে আশ্রয় চাইবে। সে সেখানে চিরকাল থাকবে এবং তার হত্যায় সহায়তাকারী সকলের সাথে কষ্টদায়ক শাস্তি ভোগ করবে। যখনই তাদের চামড়া পুড়ে যাবে, আল্লাহ তায়ালা তাদের চামড়া নতুন করে দেবেন যাতে তারা কষ্টদায়ক শাস্তি ভোগ করতে পারে। তাদের থেকে এক মুহূর্তের জন্যও শাস্তি সরানো হবে না, এবং তাদেরকে জাহান্নামের ফুটন্ত পানি পান করানো হবে। অতএব, তাদের জন্য জাহান্নামে আল্লাহ তায়ালের শাস্তির ওপর দুর্দশা।",
+          "es": "En verdad, el asesino de Al-Husayn ibn Ali (que la paz sea con él) estará en un ataúd de fuego, sobre él recae la mitad del castigo de la gente del mundo. Sus manos y pies estarán atados con cadenas de fuego, boca abajo en el Fuego hasta que caiga al fondo del Infierno. Tendrá un olor del cual la gente del Fuego buscará refugio ante su Señor debido a la intensidad de su hedor. Residirá en él para siempre, saboreando el doloroso tormento junto con todos aquellos que ayudaron en su muerte. Cada vez que sus piel sea quemada, Allah, el Exaltado, les reemplazará la piel para que puedan saborear el doloroso tormento. No se les retirará el alivio ni por un momento, y se les dará de beber del agua hirviente del Infierno. Así que ay de ellos por el castigo de Allah (el Exaltado) en el Fuego.",
+          "fr": "En vérité, le meurtrier d'Al-Husayn ibn Ali (que la paix soit sur lui) sera dans un cercueil de feu, sur lui pèse la moitié du châtiment des gens du monde. Ses mains et ses pieds seront liés par des chaînes de feu, la tête en bas dans le Feu, jusqu'à ce qu'il tombe au fond de l'Enfer. Il aura une odeur dont les gens du Feu chercheront refuge auprès de leur Seigneur à cause de l'intensité de sa puanteur. Il y résidera éternellement, goûtant la douloureuse torture avec tous ceux qui ont assisté à son meurtre. Chaque fois que leurs peaux seront brûlées, Allah, l'Exalté, les remplacera afin qu'ils goûtent la douloureuse torture. Le soulagement ne leur sera pas retiré un seul instant, et on leur donnera à boire de l'eau bouillante de l'Enfer. Ainsi, malheur à eux à cause du châtiment d'Allah (l'Exalté) dans le Feu.",
+          "de": "Wahrlich, der Mörder von Al-Husayn ibn Ali (Friede sei mit ihm) wird in einem Sarg aus Feuer sein, auf ihm lastet die Hälfte der Strafe der Menschen der Welt. Seine Hände und Füße werden mit Ketten aus Feuer gebunden sein, kopfüber im Feuer, bis er auf den Grund der Hölle fällt. Er wird einen Geruch haben, vor dessen Intensität die Bewohner des Feuers ihre Zuflucht bei ihrem Herrn suchen. Er wird ewig darin verweilen und die schmerzhafte Qual zusammen mit allen genießen, die bei seiner Tötung halfen. Jedes Mal, wenn ihre Haut verbrannt wird, ersetzt Allah, der Erhabene, ihre Haut, damit sie die schmerzhafte Qual schmecken. Ihre Erleichterung wird nicht für einen Moment entfernt werden, und sie werden mit dem kochenden Wasser der Hölle getränkt. So wehe ihnen vor der Strafe Allahs (des Erhabenen) im Feuer.",
+          "ru": "Поистине, убийца аль-Хусайна ибн Али (да будет мир с ним) будет в гробнице из огня, на него возложена половина наказания жителей мира. Его руки и ноги будут связаны цепями из огня, вверх ногами в Огне, пока он не упадет на дно Ада. От него будет исходить запах, от которого жители Огня будут искать прибежища у своего Господа из-за интенсивности его вони. Он будет пребывать там вечно, вкушая мучительное наказание вместе со всеми, кто помогал в его убийстве. Каждый раз, когда их кожа сгорит, Аллах, Всевышний, заменит их кожу, чтобы они могли вкушать мучительное наказание. Не будет им облегчения ни на мгновение, и их напоют кипятком из Ада. Итак, горе им от наказания Аллаха (Всевышнего) в Огне.",
+          "zh": "的确，杀害侯赛因·本·阿里（愿主福安之）的人将身处火棺之中，他承受着世人一半的刑罚。他的手脚被火链束缚，倒悬于火狱之中，直至坠入地狱底层。他身上散发出的恶臭令火狱中的人向主祈求庇护，以躲避其刺鼻的气味。他将永居其中，与所有协助杀害侯赛因的人一同品尝痛苦的刑罚。每当他们的皮肤被烧焦，真主——至尊者——便为他们更换新的皮肤，以便他们继续品尝痛苦的刑罚。刑罚一刻也不曾减轻，他们将被赐予火狱中沸腾的水。因此，祸哉！他们遭受真主（至尊者）在火狱中的刑罚。"
+        },
+        "word_start": 10,
+        "word_end": 90
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Saduq records this vivid description of the killer of Imam Al-Husayn (a.s.), emphasizing the unique severity of his punishment—confinement in a fiery coffin with half the torment of the world—as a direct consequence of the Ahl al-Bayt's status. The hadith highlights the perpetual renewal of skin (tabdīl al-judūd) and the shared fate of his accomplices, reinforcing the Shia theological view of the cosmic significance of the Battle of Karbala. This specific eschatological detail serves as a powerful reminder of divine justice for those who participated in or supported the martyrdom.",
+        "seo_question": "What is the specific punishment described for the killer of Imam Al-Husayn in Shia hadith?",
+        "key_terms": {
+          "قاتل الحسين": "The murderer of Al-Husayn",
+          "تابوت من نار": "A coffin of fire",
+          "سلاسل من نار": "Chains of fire",
+          "جهنم": "Hell",
+          "نضج الجلد": "Cooking/burning of the skin",
+          "حميم": "Boiling water",
+          "شايع": "Assisted/accompliced"
+        }
+      },
+      "ur": {
+        "summary": "شیخ صدوق نے امام حسین علیہ السلام کے قاتل کی اس زندہ تصویر کو محفوظ کیا ہے، جس میں اس کی سزا کی سنگینی پر زور دیا گیا ہے—دنیا کی آدھی عذاب کے ساتھ آگ کے تابوت میں قید—جو اہل بیت کی عظمت کا براہ راست نتیجہ ہے۔ یہ حدیث جلد کے بدلنے (تبديل الجلود) اور اس کے ساتھیوں کے مشترکہ انجام کی نشاندہی کرتی ہے، جو کربلا کی جنگ کی کائناتی اہمیت کے شیعہ کلامی نظریے کو مضبوط بناتی ہے۔ یہ خاص آخرت کی تفصیل ان کے لیے الٰہی انصاف کی ایک طاقتور یاد دہانی ہے جو شہادت میں شریک ہوئے یا اس کی حمایت کی۔",
+        "seo_question": "شیعہ احادیث میں امام حسین علیہ السلام کے قاتل کے لیے بیان کردہ خاص سزا کیا ہے؟",
+        "key_terms": {
+          "قاتل الحسين": "حسین کا قاتل",
+          "تابوت من نار": "آگ کا تابوت",
+          "سلاسل من نار": "آگ کی زنجیریں",
+          "جهنم": "جہنم",
+          "نضج الجلد": "جلد کا پکنا/جلنا",
+          "حميم": "غلیظ پانی",
+          "شايع": "ساتھی"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh el-Saduk, İmam Hüseyin'in (a.s.) katili hakkında canlı bir tasvir kaydederek, Ahl el-Beyt'in konumunun doğrudan bir sonucu olarak cezasının benzersiz şiddetini —dünyanın azabının yarısı ile alevli bir tabut içinde hapsedilmek— vurgulamaktadır. Hadis, cildin sürekli yenilenmesini (tabdīl el-cüdūd) ve ortağının da aynı kaderi paylaşmasını öne sürerek, Şii teolojik görüşte Kerbela Savaşı'nın kozmik önemini pekiştirmektedir. Bu spesifik ahiret detayı, şehitliğe katılanlara veya destekleyenlere ilahi adaletin güçlü bir hatırlatıcısı olarak hizmet etmektedir.",
+        "seo_question": "Şii hadislerinde İmam Hüseyin'in katili için tanımlanan özel ceza nedir?",
+        "key_terms": {
+          "قاتل الحسين": "Hüseyin'in katili",
+          "تابوت من نار": "Alevli bir tabut",
+          "سلاسل من نار": "Alevli zincirler",
+          "جهنم": "Cehennem",
+          "نضج الجلد": "Cildin pişmesi/yenilenmesi",
+          "حميم": "Haşır su",
+          "شايع": "Yardımcı olan"
+        }
+      },
+      "fa": {
+        "summary": "شیخ صدوق این توصیفی زنده از قاتل امام حسین (ع) ثبت کرده است که در آن شدت مجازات او را منحصر‌به‌فرد می‌داند: زندانی شدن در تابوتی آتشین با نیمی از عذاب دنیا، که نتیجه‌ای مستقیم از جایگاه اهل بیت است. این حدیث بر تجدید پیوسته پوست (تبديل الجلود) و سرنوشت مشترک یارانش تأکید دارد و دیدگاه کلامی شیعه درباره اهمیت کیهانی جنگ کربلا را تقویت می‌کند. این جزئیات آخرالزمانی خاص، یادآوری قدرتمندی از عدالت الهی برای کسانی است که در شهادت یا حمایت از آن مشارکت داشتند.",
+        "seo_question": "مجازات خاص توصیف شده برای قاتل امام حسین در احادیث شیعه چیست؟",
+        "key_terms": {
+          "قاتل الحسين": "قاتل حسین",
+          "تابوت من نار": "تابوت آتشین",
+          "سلاسل من نار": "زنجیرهای آتشین",
+          "جهنم": "جهنم",
+          "نضج الجلد": "پختن پوست",
+          "حميم": "حمیم",
+          "شايع": "همراهی کردن"
+        }
+      },
+      "id": {
+        "summary": "Syekh al-Shaduq mencatat deskripsi vivid tentang pembunuh Imam Al-Husain (a.s.) yang menekankan keparahan hukumannya—dikurung dalam peti mati berapi-api dengan setengah siksa dunia—sebagai konsekuensi langsung dari status Ahl al-Bayt. Hadis ini menyoroti pembaruan kulit (tabdīl al-judūd) dan nasib bersama rekan-rekannya, memperkuat pandangan teologis Syiah tentang signifikansi kosmik Perang Karbala. Detail eskatologis ini berfungsi sebagai pengingat kuat akan keadilan ilahi bagi mereka yang berpartisipasi atau mendukung syahidnya.",
+        "seo_question": "Apa hukuman spesifik yang dijelaskan untuk pembunuh Imam Al-Husain dalam hadis Syiah?",
+        "key_terms": {
+          "قاتل الحسين": "pembunuh Al-Husain",
+          "تابوت من نار": "peti mati dari api",
+          "سلاسل من نار": "rantai dari api",
+          "جهنم": "neraka",
+          "نضج الجلد": "pematangan kulit",
+          "حميم": "air mendidih",
+          "شايع": "membantu"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-সাদুক ইমাম আল-হুসাইন (আ.)-এর হত্যাকারীর এই জীবন্ত বর্ণনা রেকর্ড করেছেন, যেখানে তাঁর শাস্তির অনন্য তীব্রতা—পৃথিবীর যন্ত্রণার অর্ধেক সহকারে আগুনের বাক্সে আবদ্ধ থাকা—আহল আল-বাইতের মর্যাদার সরাসরি ফল হিসেবে উল্লেখ করা হয়েছে। এই হাদিসে তবদীল আল-জুদূদ (চামড়া পরিবর্তন) এবং তাঁর সহযোগীদের সাধারণ ভাগ্যের কথা তুলে ধরা হয়েছে, যা কারবালার যুদ্ধের মহাজাগতিক গুরুত্ব সম্পর্কে শিয়া তাত্ত্বিক দৃষ্টিভঙ্গিকে জোর দেয়। এই নির্দিষ্ট আখেরাতবিদ্যাগত বিবরণটি সেই সব ব্যক্তির জন্য ঈশ্বরের ন্যায়বিচারের একটি শক্তিশালী স্মারক, যারা শাহাদাতের ঘটনায় অংশ নিয়েছিলেন বা সমর্থন করেছিলেন।",
+        "seo_question": "শিয়া হাদিসে ইমাম আল-হুসাইনের হত্যাকারীর জন্য বর্ণিত নির্দিষ্ট শাস্তি কী?",
+        "key_terms": {
+          "قاتل الحسين": "আল-হুসাইনের হত্যাকারী",
+          "تابوت من نار": "আগুনের বাক্স",
+          "سلاسل من نار": "আগুনের শৃঙ্খল",
+          "جهنم": "জাহান্নাম",
+          "نضج الجلد": "চামড়া পাকানো/পোড়ানো",
+          "حميم": "ফেনাক্ত পানি",
+          "شايع": "সহায়তা করেছিলেন/সহযোগী"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Saduq registra esta vívida descripción del asesino del Imam Al-Husayn (a.s.), enfatizando la severidad única de su castigo —confinado en un ataúd de fuego con la mitad del tormento del mundo— como consecuencia directa del estatus de los Ahl al-Bayt. El hadiz destaca la renovación perpetua de la piel (tabdīl al-judūd) y el destino compartido de sus cómplices, reforzando la visión teológica chií de la significación cósmica de la Batalla de Karbala. Este detalle escatológico específico sirve como un poderoso recordatorio de la justicia divina para aquellos que participaron o apoyaron el martirio.",
+        "seo_question": "¿Cuál es el castigo específico descrito para el asesino del Imam Al-Husayn en el hadiz chií?",
+        "key_terms": {
+          "قاتل الحسين": "El asesino de Al-Husayn",
+          "تابوت من نار": "Un ataúd de fuego",
+          "سلاسل من نار": "Cadenas de fuego",
+          "جهنم": "Infierno",
+          "نضج الجلد": "Cocción/ardor de la piel",
+          "حميم": "Agua hirviendo",
+          "شايع": "Asistió/copartícipe"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Sadouq rapporte cette description vivante du tueur de l'imam Al-Husayn (a.s.), en soulignant la sévérité unique de sa punition — enfermé dans un cercueil de feu avec la moitié du châtiment du monde — comme conséquence directe du statut des Ahl al-Bayt. Le hadith met en lumière le renouvellement perpétuel de la peau (tabdīl al-judūd) et le sort partagé de ses complices, renforçant la vue théologique chiite de la signification cosmique de la bataille de Karbala. Ce détail eschatologique spécifique sert de puissant rappel de la justice divine pour ceux qui ont participé ou soutenu le martyre.",
+        "seo_question": "Quelle est la punition spécifique décrite pour le tueur de l'imam Al-Husayn dans le hadith chiite ?",
+        "key_terms": {
+          "قاتل الحسين": "Le meurtrier d'Al-Husayn",
+          "تابوت من نار": "Un cercueil de feu",
+          "سلاسل من نار": "Des chaînes de feu",
+          "جهنم": "L'enfer",
+          "نضج الجلد": "Cuisson/brûlure de la peau",
+          "حميم": "Eau bouillante",
+          "شايع": "A assisté/accomplicé"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Saduq überliefert diese lebendige Beschreibung des Mörders von Imam al-Husain (a.), wobei er die einzigartige Schwere seiner Bestrafung – eingeschlossen in einen feurigen Sarg mit der Hälfte der Qualen der Welt – als direkte Folge des Status der Ahl al-Bayt hervorhebt. Die Hadith betont die ständige Erneuerung der Haut (Tabdīl al-ǧudūd) und das gemeinsame Schicksal seiner Mitläufer, was die schiitische theologische Sicht der kosmologischen Bedeutung der Schlacht von Kerbala untermauert. Dieses spezifische eschatologische Detail dient als kraftvolle Erinnerung an die göttliche Gerechtigkeit für diejenigen, die an der Märtyrung teilgenommen oder sie unterstützt haben.",
+        "seo_question": "Welche spezifische Bestrafung wird für den Mörder von Imam al-Husain in der schiitischen Hadith-Literatur beschrieben?",
+        "key_terms": {
+          "قاتل الحسين": "Der Mörder von al-Husain",
+          "تابوت من نار": "Ein feuriger Sarg",
+          "سلاسل من نار": "Feuerketten",
+          "جهنم": "Hölle",
+          "نضج الجلد": "Garen/Verbrennen der Haut",
+          "حميم": "Siedendes Wasser",
+          "شايع": "Hilfreich/Mitläufer"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ас-Садук приводит это яркое описание убийцы имама аль-Хусейна (мир ему), подчеркивая уникальную суровость его наказания — заточение в огменном гробу с половиной мучений мира — как прямое следствие статуса Ахль аль-Байт. Хадис выделяет непрерывное обновление кожи (табдиль аль-джудуд) и общую судьбу его сообщников, укрепляя шиитское богословское представление о космическом значении битвы при Кербеле. Эта конкретная эсхатологическая деталь служит мощным напоминанием о божественной справедливости для тех, кто участвовал в мученичестве или поддержал его.",
+        "seo_question": "Какое конкретное наказание описывается для убийцы имама аль-Хусейна в шиитских хадисах?",
+        "key_terms": {
+          "قاتل الحسين": "убийца аль-Хусейна",
+          "تابوت من نار": "огненный гроб",
+          "سلاسل من نار": "огненные цепи",
+          "جهنم": "ад",
+          "نضج الجلد": "приготовление/обжигание кожи",
+          "حميم": "кипящая вода",
+          "شايع": "содействовал/сообщник"
+        }
+      },
+      "zh": {
+        "summary": "谢赫·萨杜克记录了关于伊玛目侯赛因（愿主安宁之）的凶手生动描述，强调其惩罚的独特严厉性——被囚禁在火棺中，承受世界一半的折磨——这是作为 Ahl al-Bayt 地位的直接后果。圣训突出了皮肤的持续更新（tabdīl al-judūd）及其同伙的共同命运，强化了什叶派关于卡尔巴拉战役宇宙意义的神学观点。这一特定的末世论细节作为对参与或支持殉道者的神圣正义的有力提醒。",
+        "seo_question": "什叶派圣训中描述的伊玛目侯赛因凶手的具体惩罚是什么？",
+        "key_terms": {
+          "قاتل الحسين": "侯赛因的凶手",
+          "تابوت من نار": "火棺",
+          "سلاسل من نار": "火链",
+          "جهنم": "地狱",
+          "نضج الجلد": "皮肤的烹煮/燃烧",
+          "حميم": "沸水",
+          "شايع": "协助/同伙"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:50",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "47:15",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "40:76",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَبِهَذَا الإسناد قالَ: قالَ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ إِنَّ قاتِلَ الحُسَيْنِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ فِي تابُوتٍ مِن نارٍ عَلَيْهِ نِصْفُ عَذابِ أَهْل الدُّنْيا وَقَدْ شُدَّت يَداهُ وَرَجلاه بِسَلاسِلَ مِن نارٍ مُنكَسٌ النَّار حَتّى‏ يَقَعَ فِي قَعرِ جَهَنَّم وَلَهُ رِيحٌ يَتَعَوَّذُ أَهْل النَّارِ إِلى رَبِّهِمْ مِن شِدَّةِ نَتنِهِ وَهُوَفِيها خالِدٌ ذائِقُ العَذابِ الأَليمِ مَعَ جَمِيع مَن شايَعَ عَلَى قَتَلِهِ كُلَّما نَضِجَت جُلُودَهم بَدَّلَ اللَّه عَزَّ وَجَلَّ عَلَيْهِم الجُلُودَ حَتّى‏ يَذُوقوا العَذابَ الأَليمَ لا يُفَتَّرُ عَنْهُمْ ساعَةً وَيُسقَونَ مِن حَميمِ جَهَنَّمَ فَالوَيلُ لَهُم مِن عَذابِ [اللَّه تَعالى‏ فِي‏] النَّارِ.",
+    "isnad_matn": {
+      "isnad_ar": "وَبِهَذَا الإسناد قالَ: قالَ رَسُولَ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ",
+      "matn_ar": "إِنَّ قاتِلَ الحُسَيْنِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ فِي تابُوتٍ مِن نارٍ عَلَيْهِ نِصْفُ عَذابِ أَهْل الدُّنْيا وَقَدْ شُدَّت يَداهُ وَرَجلاه بِسَلاسِلَ مِن نارٍ مُنكَسٌ النَّار حَتّى‏ يَقَعَ فِي قَعرِ جَهَنَّم وَلَهُ رِيحٌ يَتَعَوَّذُ أَهْل النَّارِ إِلى رَبِّهِمْ مِن شِدَّةِ نَتنِهِ وَهُوَفِيها خالِدٌ ذائِقُ العَذابِ الأَليمِ مَعَ جَمِيع مَن شايَعَ عَلَى قَتَلِهِ كُلَّما نَضِجَت جُلُودَهم بَدَّلَ اللَّه عَزَّ وَجَلَّ عَلَيْهِم الجُلُودَ حَتّى‏ يَذُوقوا العَذابَ الأَليمَ لا يُفَتَّرُ عَنْهُمْ ساعَةً وَيُسقَونَ مِن حَميمِ جَهَنَّمَ فَالوَيلُ لَهُم مِن عَذابِ [اللَّه تَعالى‏ فِي‏] النَّارِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وبهذا الإسناد قال: قال رسول الله صلى اللهعليه وآله: إن قاتل الحسين بن على‏ عليه السلام",
+          "name_en": "al-Husayn b. Ali",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+        "phrase_en": "The Messenger of Allah said",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

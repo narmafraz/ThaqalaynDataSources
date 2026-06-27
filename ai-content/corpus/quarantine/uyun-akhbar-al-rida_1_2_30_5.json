@@ -1,0 +1,272 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:30:5",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[1] name_ar has 16 words (>14, بن-density 0.06 — likely a sentence fragment, not a name): 'الرِّضا عَلَيْهِ السَّلامُ، عَن أَبيهِ مُوسَى بْنِ جَعْفَر ع'",
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 36 en words vs 1 ar words (ratio=36.00, expected 0.2-8.0)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "afterlife",
+      "ethics"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "divine_attributes",
+      "paradise_hell",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "And by this chain, from Al-Ridha (peace be upon him), from his father Musa ibn Ja'far (peace be upon him), who said: It was said to As-Sadiq (peace be upon him), 'Inform us about the plague.'",
+          "ur": "اور اسی سند سے الرضا علیہ السلام سے، ان کے والد موسیٰ بن جعفر علیہ السلام سے روایت ہے کہ انہوں نے کہا: الصادق علیہ السلام سے کہا گیا کہ ہمیں طاعون کے بارے میں بتائیں۔",
+          "tr": "Ve bu isnadla, Er-Rıdâ (aleyhisselâm), babası Musa b. Ca'far (aleyhisselâm)'dan rivayetle şöyle buyurdu: As-Sâdık (aleyhisselâm)'a, 'Bize veba hakkında bilgi ver' denildi.",
+          "fa": "وبهذا الإسناد عن الرضا عليه السلام، عن أبيه موسى بن جعفر عليه السلام، قال: قيل للصادق عليه السلام، أخبرنا عن الطاعون.",
+          "id": "Dan dengan sanad ini, dari Ar-Ridha (alaihissalam), dari ayahnya Musa bin Ja'far (alaihissalam), ia berkata: Dikatakan kepada As-Sadiq (alaihissalam), 'Beritahukanlah kepada kami tentang wabah.'",
+          "bn": "এবং এই সনদে, আল-রিদা (আলাইহিস সালাম), তাঁর পিতা মুসা ইবনে জাফর (আলাইহিস সালাম) থেকে, যিনি বলেছেন: আস-সাদিq (আলাইহিস সালাম)-কে বলা হয়েছিল, 'আমাদের জন্য প্লেগ সম্পর্কে জানান।'",
+          "es": "Y por esta cadena, de Al-Ridha (que la paz sea con él), de su padre Musa ibn Ja'far (que la paz sea con él), quien dijo: Se le dijo a As-Sadiq (que la paz sea con él): 'Infórmanos sobre la peste.'",
+          "fr": "Et par cette chaîne, d'Al-Ridha (que la paix soit sur lui), de son père Moussa ibn Ja'far (que la paix soit sur lui), qui a dit : On a dit à As-Sadiq (que la paix soit sur lui) : « Informe-nous au sujet de la peste. »",
+          "de": "Und mit dieser Überlieferungskette von ar-Rida (Friede sei mit ihm), von ihm), von seinem Vater Musa ibn Dscha'far (Friede sei mit ihm), der sagte: Es wurde As-Sadiq (Friede sei mit ihm) gesagt: 'Informiere uns über die Pest.'",
+          "ru": "И по этой цепи, от ар-Рида (да будет мир с ним), от его отца Мусы ибн Джафара (да будет мир с ним), который сказал: Было сказано ас-Садику (да будет мир с ним): «Расскажи нам о чуме».",
+          "zh": "据此传述，从里达（愿主福安），从他父亲穆萨·本·贾法尔（愿主福安），他说：有人问萨迪格（愿主福安）：请告诉我们关于瘟疫的事。"
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ: عَذَابُ اللَّهِ لِقَوْمٍ وَرَحْمَةٌ لآِخَرِينَ قَالُوا وَكَيْفَ تَكُونُ الرَّحْمَةُ عَذَاباً قَالَ: أَمَا تَعْرِفُونَ أَنَّ نِيرَانَ جَهَنَّمَ عَذَابٌ عَلَى الْكُفَّارِ وَخَزَنَةُ جَهَنَّمَ مَعَهُمْ فِيهَا فَهِيَ رَحْمَةٌ عَلَيْهِمْ.",
+        "translations": {
+          "en": "He said: 'It is God's punishment for some people and His mercy for others.' They asked, 'How can mercy be punishment?' He said: 'Do you not know that the Fire of Hell is a punishment for the disbelievers, and its keepers are with them in it, so it is mercy for them?'",
+          "ur": "انہوں نے کہا: یہ اللہ کی طرف سے بعض لوگوں کے لیے عذاب اور بعض کے لیے رحمت ہے۔ انہوں نے پوچھا: رحمت کیسے عذاب بن سکتی ہے؟ انہوں نے کہا: کیا تمہیں یہ نہیں معلوم کہ جہنم کی آگ کافروں کے لیے عذاب ہے اور اس کے نگہبان اس میں ان کے ساتھ ہیں، پس یہ ان کے لیے رحمت ہے؟",
+          "tr": "O, 'Bu, Allah'ın bazı insanlar için azabı, başkaları için ise rahmetidir' dedi. Onlar, 'Rahmet nasıl azab olabilir?' diye sordular. O, 'Cehennem ateşinin kâfirler için azap olduğunu, koruyucularının ise onlarla birlikte orada bulunduğunu bilmiyor musunuz? İşte bu, onlar için rahmettir' dedi.",
+          "fa": "گفت: عذاب خداست برای برخی و رحمت او برای برخی دیگر. پرسیدند: چگونه رحمت می‌تواند عذاب باشد؟ گفت: آیا نمی‌دانید که آتش دوزخ عذاب کافران است و نگهبانان آن با آنان در آن هستند، پس برای آنان رحمت است؟",
+          "id": "Ia berkata, 'Itu adalah azab Allah bagi sebagian orang dan rahmat-Nya bagi yang lain.' Mereka bertanya, 'Bagaimana rahmat bisa menjadi azab?' Ia berkata, 'Tidakkah kamu tahu bahwa Neraka Jahanam adalah azab bagi orang-orang kafir, dan para penjaganya bersama mereka di dalamnya, sehingga itu adalah rahmat bagi mereka?'",
+          "bn": "তিনি বললেন, 'এটি আল্লাহর কিছু লোকের জন্য শাস্তি এবং অন্যদের জন্য রহমত।' তারা জিজ্ঞাসা করল, 'কীভাবে রহমত শাস্তি হতে পারে?' তিনি বললেন, 'আপনারা কি জানেন না যে, জাহান্নামের আগুন অমুসলিমদের জন্য শাস্তি, আর তার প্রহরীরাও তাদের সাথেই থাকে, তাই তাদের জন্য এটি রহমত?'",
+          "es": "Dijo: «Es el castigo de Dios para algunos y Su misericordia para otros». Preguntaron: «¿Cómo puede la misericordia ser castigo?». Dijo: «¿No sabéis que el Fuego del Infierno es un castigo para los incrédulos, y sus guardianes están con ellos en él, por lo que es misericordia para ellos?»",
+          "fr": "Il dit : « C’est le châtiment d’Allah pour certains et Sa miséricorde pour d’autres. » Ils demandèrent : « Comment la miséricorde peut-elle être un châtiment ? » Il dit : « Ne savez-vous pas que le Feu de l’Enfer est un châtiment pour les mécréants, et que ses gardiens sont avec eux en son sein, de sorte qu’il est miséricorde pour eux ? »",
+          "de": "Er sagte: „Es ist die Strafe Gottes für einige und Seine Barmherzigkeit für andere.“ Sie fragten: „Wie kann Barmherzigkeit Strafe sein?“ Er sagte: „Wisst ihr nicht, dass das Höllenfeuer eine Strafe für die Ungläubigen ist und seine Hüter mit ihnen darin sind, so ist es für sie Barmherzigkeit?“",
+          "ru": "Он сказал: «Это наказание Аллаха для одних и Его милость для других». Они спросили: «Как милость может быть наказанием?» Он сказал: «Разве вы не знаете, что Огонь Ада является наказанием для неверующих, а его хранители находятся вместе с ними в нём, и тем самым это милость для них?»",
+          "zh": "他说：\"这是真主对某些人的惩罚，对另一些人的慈悯。\"他们问：\"慈悯怎能成为惩罚呢？\"他说：\"你们难道不知道火狱是对于不信道者的惩罚，而看守火狱的天使与他们同在火狱中，所以对于他们来说是慈悯吗？\""
+        },
+        "word_start": 1,
+        "word_end": 28
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam As-Sadiq (peace be upon him) elucidates the dual nature of the plague as both divine chastisement and mercy, employing a profound theological analogy: just as Hellfire is a punishment for the disbelievers but a mercy for its keepers who remain within it, the plague serves different spiritual purposes for different souls. This narration, recorded by Shaykh al-Saduq, highlights the Shia understanding of relative divine attributes, where the same phenomenon can be beneficial or detrimental depending on the recipient's spiritual state and eternal destiny.",
+        "seo_question": "How can the plague be both a punishment and a mercy according to Shia hadith?",
+        "key_terms": {
+          "الطَّاعُونِ": "Plague",
+          "عَذَابُ اللَّهِ": "Punishment of God",
+          "رَحْمَةٌ": "Mercy",
+          "نِيرَانَ جَهَنَّمَ": "Fire of Hell",
+          "الْخَزَنَةُ": "Keepers/Guards",
+          "الْكُفَّارِ": "Disbelievers"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (علیہ السلام) طاعون کی دوہری نوعیت کو الہیٰ عذاب اور رحمت دونوں کے طور پر بیان کرتے ہیں، ایک گہرے الہیٰ نظریاتی تشبیہ کے ذریعے: جیسے دوزخ کافروں کے لیے عذاب ہے لیکن اس کے رہنے والوں کے لیے رحمت ہے جو اس کے اندر رہتے ہیں، ویسے ہی طاعون مختلف روحانی مقاصد کے لیے مختلف جانوں کے لیے مختلف کام کرتا ہے۔ یہ روایت شیخ صدوق نے نقل کی ہے، جو نسبتی الہیٰ صفات کی شیعہ فہم کو اجاگر کرتی ہے، جہاں ایک ہی واقعہ موصول ہونے والے کی روحانی حالت اور ابدی تقدیر کے مطابق فائدہ مند یا نقصان دہ ہو سکتا ہے۔",
+        "seo_question": "شیعہ حدیث کے مطابق طاعون کیسے عذاب اور رحمت دونوں ہو سکتا ہے؟",
+        "key_terms": {
+          "الطَّاعُونِ": "طاعون",
+          "عَذَابُ اللَّهِ": "خدا کا عذاب",
+          "رَحْمَةٌ": "رحمت",
+          "نِيرَانَ جَهَنَّمَ": "دوزخ کی آگ",
+          "الْخَزَنَةُ": "نگہبان",
+          "الْكُفَّارِ": "کافر"
+        }
+      },
+      "tr": {
+        "summary": "İmam es-Sadık (aleyhisselam), vebayı hem ilazı ceza hem de rahmet olarak nitelendirerek derin bir teolojik benzetme sunar: Cehennem ateşi inkâr edenler için bir ceza iken, içinde kalan bekçiler için bir rahmet olduğu gibi, veba da farklı ruhlar için farklı manevi amaçlar taşır. Şeyh es-Saduk tarafından kaydedilen bu rivayet, aynı olayın alıcının manevi durumuna ve ebedi kaderine bağlı olarak faydalı veya zararlı olabileceği Şii anlayışındaki nispi ilahi sıfatları vurgular.",
+        "seo_question": "Şii hadislerine göre veba nasıl hem ceza hem de rahmet olabilir?",
+        "key_terms": {
+          "الطَّاعُونِ": "Veba",
+          "عَذَابُ اللَّهِ": "Allah'ın azabı",
+          "رَحْمَةٌ": "Rahmet",
+          "نِيرَانَ جَهَنَّمَ": "Cehennem ateşi",
+          "الْخَزَنَةُ": "Bekçiler",
+          "الْكُفَّارِ": "Kâfirler"
+        }
+      },
+      "fa": {
+        "summary": "امام صادق (علیه‌السلام ماهیت دوگانه طاعون را به عنوان هم عذاب الهی و هم رحمت، با به کارگیری یک تشبیه الهی عمیق تبیین می‌کند: همان‌گونه که آتش دوزخ برای کافران عذاب است اما برای نگهبانانی که در آن باقی می‌مانند رحمت است، طاعون نیز اهداف معنوی متفاوتی برای جان‌های مختلف دارد. این روایت که توسط شیخ صدوق ثبت شده، درک شیعی از صفات نسبی الهی را برجسته می‌کند، جایی که یک پدیده واحد بسته به حالت معنوی و سرنوشت ابدی گیرنده، می‌تواند مفید یا مضر باشد.",
+        "seo_question": "طاعون چگونه می‌تواند هم عذاب و هم رحمت باشد؟",
+        "key_terms": {
+          "الطَّاعُونِ": "طاعون",
+          "عَذَابُ اللَّهِ": "عذاب خدا",
+          "رَحْمَةٌ": "رحمت",
+          "نِيرَانَ جَهَنَّمَ": "آتش دوزخ",
+          "الْخَزَنَةُ": "نگهبانان",
+          "الْكُفَّارِ": "کافران"
+        }
+      },
+      "id": {
+        "summary": "Imam As-Sadiq (alamah) menjelaskan sifat ganda wabah sebagai siksa ilahi dan rahmat, menggunakan analogi teologis yang mendalam: sebagaimana Neraka Jahanam adalah hukuman bagi orang kafir tetapi rahmat bagi para penjaga yang tetap berada di dalamnya, wabah melayani tujuan spiritual yang berbeda bagi jiwa yang berbeda. Riwayat ini, yang dicatat oleh Syekh al-Saduq, menyoroti pemahaman Syiah tentang atribut ilahi yang relatif, di mana fenomena yang sama dapat bermanfaat atau merugikan tergantung pada keadaan spiritual dan takdir abadi penerima.",
+        "seo_question": "Bagaimana wabah dapat menjadi hukuman dan rahmat menurut hadis Syiah?",
+        "key_terms": {
+          "الطَّاعُونِ": "Wabah",
+          "عَذَابُ اللَّهِ": "Siksa Allah",
+          "رَحْمَةٌ": "Rahmat",
+          "نِيرَانَ جَهَنَّمَ": "Api Neraka",
+          "الْخَزَنَةُ": "Para Penjaga",
+          "الْكُفَّارِ": "Orang-orang Kafir"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিক (আ.) প্লাগুকে ঈশ্বরের শাস্তি ও রহমতের দ্বৈত প্রকৃতি হিসেবে ব্যাখ্যা করেছেন, একটি গভীর ঐতিহাসিক উপমা ব্যবহার করে: যেমন জাহান্নামের আগুন কাফিরদের জন্য শাস্তি কিন্তু যারা তার মধ্যে অবস্থান করে তাদের জন্য রহমত, তেমনি প্লাগুও বিভিন্ন আত্মার জন্য ভিন্ন আধ্যাত্মিক উদ্দেশ্য পূরণ করে। শায়খ আল-সাদুকের বর্ণিত এই হাদিস শিয়া মতবাদে ঈশ্বরের আপেক্ষিক গুণাবলীর বোঝাপড়াকে তুলে ধরে, যেখানে একই ঘটনা গ্রহীতার আধ্যাত্মিক অবস্থা ও চিরন্তন গতিপথের ওপর ভিত্তি করে উপকারী বা ক্ষতিকর হতে পারে।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী প্লাগু কীভাবে শাস্তি এবং রহমত উভয়ই হতে পারে?",
+        "key_terms": {
+          "الطَّاعُونِ": "প্লাগু",
+          "عَذَابُ اللَّهِ": "ঈশ্বরের শাস্তি",
+          "رَحْمَةٌ": "রহমত",
+          "نِيرَانَ جَهَنَّمَ": "জাহান্নামের আগুন",
+          "الْخَزَنَةُ": "রক্ষীরা",
+          "الْكُفَّارِ": "কাফিররা"
+        }
+      },
+      "es": {
+        "summary": "El Imam As-Sadiq (que la paz sea con él) aclara la naturaleza dual de la peste como castigo divino y misericordia y misericordia, empleando una profunda analogía teológica: así como el Fuego del Infierno es un castigo para los incrédulos pero una misericordia para sus guardianes que permanecen en él, la peste cumple diferentes propósitos espirituales para diferentes almas. Esta narración, registrada por Shaykh al-Saduq, destaca la comprensión chií de los atributos divinos relativos, donde el mismo fenómeno puede ser beneficioso o perjudicial dependiendo del estado espiritual del receptor y su destino eterno.",
+        "seo_question": "¿Cómo puede la peste ser tanto un castigo como una misericordia según el hadiz chií?",
+        "key_terms": {
+          "الطَّاعُونِ": "Peste",
+          "عَذَابُ اللَّهِ": "Castigo de Dios",
+          "رَحْمَةٌ": "Misericordia",
+          "نِيرَانَ جَهَنَّمَ": "Fuego del Infierno",
+          "الْخَزَنَةُ": "Guardianes",
+          "الْكُفَّارِ": "Incrédulos"
+        }
+      },
+      "fr": {
+        "summary": "L'Imam As-Sadiq (que la paix soit sur lui) éclaire la nature duè de la peste, à la fois châtiment divin et miséricorde, en utilisant une analogie théologique profonde : tout comme le Feu de l'Enfer est un châtiment pour les mécréants mais une miséricorde pour ses gardiens qui y restent, la peste sert des buts spirituels différents pour différentes âmes. Cette narration, rapportée par Cheikh al-Sadouq, met en lumière la compréhension chiite des attributs divins relatifs, où le même phénomène peut être bénéfique ou préjudiciable selon l'état spirituel du destinataire et sa destinée éternelle.",
+        "seo_question": "Comment la peste peut-elle être à la fois un châtiment et une miséricorde selon la hadith chiite ?",
+        "key_terms": {
+          "الطَّاعُونِ": "Peste",
+          "عَذَابُ اللَّهِ": "Châtiment de Dieu",
+          "رَحْمَةٌ": "Miséricorde",
+          "نِيرَانَ جَهَنَّمَ": "Feu de l'Enfer",
+          "الْخَزَنَةُ": "Gardiens",
+          "الْكُفَّارِ": "Mécréants"
+        }
+      },
+      "de": {
+        "summary": "Imam As-Sadiq (Friede sei mit ihm) erläutert die duale Natur der Pest als sowohl göttliche Strafe als auch Barmherzigkeit, indem er eine tiefgreifende theologische Analogie verwendet: So wie die Hölle eine Strafe für die Ungläubigen ist, aber eine Barmherzigkeit für ihre Hüter, die in ihr verbleiben, erfüllt die Pest unterschiedliche spirituelle Zwecke für verschiedene Seelen. Diese von Schekh al-Saduq überlieferte Erzählung unterstreicht das schiitische Verständnis relativer göttlicher Attribute, bei dem dasselbe Phänomen je nach dem spirituellen Zustand und dem ewigen Schicksal des Empfängers vorteilhaft oder nachteilig sein kann.",
+        "seo_question": "Wie kann die Pest gemäß schiitischer Hadithe sowohl Strafe als auch Barmherzigkeit sein?",
+        "key_terms": {
+          "الطَّاعُونِ": "Pest",
+          "عَذَابُ اللَّهِ": "Strafe Gottes",
+          "رَحْمَةٌ": "Barmherzigkeit",
+          "نِيرَانَ جَهَنَّمَ": "Feuer der Hölle",
+          "الْخَزَنَةُ": "Hüter",
+          "الْكُفَّارِ": "Ungläubige"
+        }
+      },
+      "ru": {
+        "summary": "Имам ас-Садык (да будет над ним мир) разъясняет двойственную природу чумы как божественного наказания и милости, используя глубокую теологическую аналогию: подобно тому, как Ад является наказанием для неверующих, но милостью для его хранителей, пребывающих в нем, чума служит различным духовным целям для разных душ. Этот хадис, записанный шейхом асСадуком, подчеркивает шиитское понимание относительности божественных атрибутов, при котором одно и то же явление может быть полезным или вредным в зависимости от духовного состояния и вечной судьбы получателя.",
+        "seo_question": "Как чума может быть одновременно наказанием и милостью согласно шиитскому хадису?",
+        "key_terms": {
+          "الطَّاعُونِ": "чума",
+          "عَذَابُ اللَّهِ": "наказание Аллаха",
+          "رَحْمَةٌ": "милость",
+          "نِيرَانَ جَهَنَّمَ": "огнь Ада",
+          "الْخَزَنَةُ": "хранители",
+          "الْكُفَّارِ": "неверующие"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目萨迪克（愿主福安之）阐释了瘟疫作为神圣惩罚与慈恩的双重性质，运用深刻的神学类比：正如地狱之火对不信道者是惩罚，但对留在其中的看守者却是慈恩，瘟疫对不同灵魂也发挥着不同的精神作用。这段由谢赫·萨杜克记录的圣训，突显了什叶派关于神圣属性相对性的理解，即同一现象根据接受者的精神状态和永恒命运，可能有益或有害。",
+        "seo_question": "根据什叶派圣训，瘟疫如何既是惩罚又是慈恩？",
+        "key_terms": {
+          "الطَّاعُونِ": "瘟疫",
+          "عَذَابُ اللَّهِ": "真主的惩罚",
+          "رَحْمَةٌ": "慈恩",
+          "نِيرَانَ جَهَنَّمَ": "地狱之火",
+          "الْخَزَنَةُ": "看守者",
+          "الْكُفَّارِ": "不信道者"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:96",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:107",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:73",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad فَقَالَ: عَذَابُ اللَّهِ لِقَوْمٍ وَرَحْمَةٌ لآِخَرِينَ قَالُوا وَكَيْفَ تَكُونُ الرَّحْمَةُ عَذَاباً قَالَ: أَمَا تَعْرِفُونَ أَنَّ نِيرَانَ جَهَنَّمَ عَذَابٌ عَلَى الْكُفَّارِ وَخَزَنَةُ جَهَنَّمَ مَعَهُمْ فِيهَا فَهِيَ رَحْمَةٌ عَلَيْهِمْ.",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "فَقَالَ: عَذَابُ اللَّهِ لِقَوْمٍ وَرَحْمَةٌ لآِخَرِينَ قَالُوا وَكَيْفَ تَكُونُ الرَّحْمَةُ عَذَاباً قَالَ: أَمَا تَعْرِفُونَ أَنَّ نِيرَانَ جَهَنَّمَ عَذَابٌ عَلَى الْكُفَّارِ وَخَزَنَةُ جَهَنَّمَ مَعَهُمْ فِيهَا فَهِيَ رَحْمَةٌ عَلَيْهِمْ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وَبِهذَا الإِسناد",
+          "name_en": "By this chain of transmission",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4521
+        },
+        {
+          "name_ar": "الرِّضا عَلَيْهِ السَّلامُ، عَن أَبيهِ مُوسَى بْنِ جَعْفَر عَلَيْهِ السَّلامُ قالَ: قِيلَ لِلصَّادِقِ‏ عَلَيْهِ السَّلامُ أَخْبِرْنَا",
+          "name_en": "al-Rida, 'an abih Musa b. Ja'far, qala: qila li-l-Sadiq",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الطَّاعُونِ",
+          "name_en": "al-Ta'un",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَذَابُ اللَّهِ",
+        "phrase_en": "Punishment of Allah",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

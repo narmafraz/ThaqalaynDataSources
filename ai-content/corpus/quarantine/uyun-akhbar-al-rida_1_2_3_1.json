@@ -1,0 +1,305 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:3:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 30 words (>14, بن-density 0.17 — likely a sentence fragment, not a name): 'حَدَّثَنا مُحَمَّدُ بْنُ إِبْراهيمَ بْنِ إِسْحاقَ الطَّالِقا'",
+    "chunks[1] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.fa is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.id is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.fr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.de is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "history",
+      "family",
+      "governance"
+    ],
+    "content_type": "biographical",
+    "topics": [
+      "imams_biography",
+      "imamate",
+      "events",
+      "ghadir"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنِي الْحَسَنُ بْنُ عَلِيِّ بْنِ زَكَرِيَّا بِمَدِينَةِ السَّلَامِ قَالَ: حَدَّثَنِي أَبُو عَبْدِ اللَّهِ مُحَمَّدُ بْنُ خَلِيلَانَ قَالَ: حَدَّثَنِي أَبِي، عَنْ أَبِيهِ، عَنْ جَدِّهِ، عَنْ عَتَّابِ بْنِ أُسَيْدٍ قَالَ: سَمِعْتُ جَمَاعَةً مِنْ أَهْلِ الْمَدِينَةِ يَقُولُونَ",
+        "translations": {
+          "en": "Muhammad ibn Ibrahim ibn Ishaq al-Talqani (may God be pleased with him) narrated to us, saying: Al-Hasan ibn Ali ibn Zakariyya narrated to me in Medina, saying: Abu Abdullah Muhammad ibn Khalilan narrated Abdullah Muhammad ibn Khalilan narrated to me, saying: My father narrated to me, from his father, from his grandfather, from Attab ibn Usayd, saying: I heard a group of the people of Medina saying",
+          "ur": "محمد بن ابراہیم بن اسحاق طالقانی رضی اللہ عنہ نے ہمیں بیان کیا، انہوں نے کہا: حسن بن علی بن زکریا نے مجھے مدینہ میں بیان کیا، انہوں نے کہا: ابو عبداللہ محمد بن خلیلان نے مجھے بیان کیا، انہوں نے کہا: میرے والد نے مجھے بیان کیا، ان کے والد سے، ان کے دادا سے، عتاب بن اسید سے، انہوں نے کہا: میں نے مدینہ کے لوگوں کے ایک گروہ کو یہ کہتے ہوئے سنا",
+          "tr": "Muhammed ibn İbrahim ibn İshak et-Talqânî (radıyallahu anh) bize şöyle rivayet etti: El-Hasan ibn Ali ibn Zekeriyya, Medine'de bana şöyle rivayet etti: Ebu Abdullah Muhammed ibn Halilan bana şöyle rivayet etti: Babam bana, babasından, dedesinden, Attab ibn Usayd'dan rivayet etti: Attab ibn Usayd şöyle dedi: Ben, Medine halkından bir grup şöyle derken işittim:",
+          "fa": "محمد بن ابراهيم بن اسحاق طالقاني رضی الله عنه لنا گفت: حسن بن علي بن زکريا به من در مدينه گفت: ابوعبدالله محمد بن خليلان به من گفت: پدرم به من گفت، از پدرش، از پدربزرگش، از عتاب بن اسيد، که گفت: گروهی از اهل مدينه را گفتن مي‌شنيدم:",
+          "id": "Muhammad ibn Ibrahim ibn Ishaq al-Talqani (rajkani (ra) telah menceritakan kepada kami, ia berkata: Al-Hasan ibn Ali ibn Zakariyya telah menceritakan kepada saya di Madinah, ia berkata: Abu Abdullah Muhammad ibn Khalil telah menceritakan kepada saya, ia berkata: Ayahku telah menceritakan kepada saya, dari ayahnya, dari kakeknya, dari Attab ibn Usayd, ia berkata: Saya mendengar sekelompok penduduk Madinah berkata",
+          "bn": "মুহাম্মাদ ইবনে ইব্রাহীম ইবনে ইসহাক আল-তালকানী (রাদিয়াল্লাহু আনহু) আমাদের নকল করেছেন, তিনি বলেছেন: আল-হাসান ইবনে আলী ইবনে জাকারিয়া মদিনায় আমাকে নকল করেছেন, তিনি বলেছেন: আবু আবদুল্লাহ মুহাম্মাদ ইবনে খালিলান আমাকে নকল করেছেন, তিনি বলেছেন: আমার পিতা আমাকে নকল করেছেন, তার পিতার নিকট থেকে, তার দাদার নিকট থেকে, আত্তাব ইবনে উসাইদের নিকট থেকে, তিনি বলেছেন: আমি মদিনার লোকদের একটি দলকে বলতে শুনেছি",
+          "es": "Muhammad ibn Ibrahim ibn Ishaq al-Talqani (que Dios esté complacido con él) nos narró, diciendo: Al-Hasan ibn Ali ibn Zakariyya me narró en Medina, diciendo: Abu Abdullah Muhammad ibn Khalilan me narró a mí, diciendo: Mi padre me narró, de su padre, de su abuelo, de Attab ibn Usayd, diciendo: Escuché a un grupo de la gente de Medina decir",
+          "fr": "Muhammad ibn Ibrahim ibn Ishaq al-Talqani (queani (que Dieu l'agrée) nous a raconté, disant : Al-Hasan ibn Ali ibn Zakariyya m'a raconté à Médine, disant : Abou Abdullah Muhammad ibn Khalilan m'a raconté, disant : Mon père m'a raconté, de son père, de son grand-père, d'Attab ibn Usayd, disant : J'ai entendu un groupe des gens de Médine dire :",
+          "de": "Muhammad ibn Ibrahim ibn Ishaq al-Talqani (may God be pleased with him) narrated to us, saying: Al-Hasan ibn Ali ibn Zakariyya narrated to me in Medina, saying: Abu Abdullah Muhammad ibn Khalilan narrated to me, saying: My father narrated to me, from his father, from his grandfather, from Attab ibn Usayd, saying: I heard a group of the people of Medina saying",
+          "ru": "Рассказал нам Мухаммад ибн Ибрахим ибн Исхак ат-Талькани (да будет доволен им Аллах), сказав: Рассказал мне аль-Хасан ибн Али ибн Закария в Медине, сказав: Абу Абдуллах Мухаммад ибн Халилан рассказал мне, сказав: Рассказал мне мой отец от своего отца от его деда от Аттаба ибн Усайда, сказав: Я слышал, как группа жителей Медины говорила:",
+          "zh": "穆罕默德·本·易卜拉欣·本·伊萨格·塔里卡尼（愿主喜悦之）传述给我们，他说：哈桑·本·阿里·本·扎卡里亚在麦地那传述给我，他说：阿布·阿卜杜拉·穆罕默德·本·哈利兰传述给我，他说：我父亲传述给我，从他父亲，从他祖父，从阿塔卜·本·乌赛德，他说：我听到一群麦地那的人说"
+        },
+        "word_start": 0,
+        "word_end": 45
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وُلِدَ الرِّضَا عَلِيُّ بْنُ مُوسَى عَلَيْهِمَا السَّلَامُ بِالْمَدِينَةِ يَوْمَ الْخَمِيسِ لِإِحْدَى عَشْرَةَ لَيْلَةً خَلَتْ مِنْ رَبِيعَ الْأَوَّلِ سَنَةَ ثَلَاثٍ وَخَمْسِينَ وَمِائَةٍ مِنَ الْهِجْرَةِ بَعْدَ وَفَاةِ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ بِخَمْسِ سِنِينَ وَتُوُفِّيَ بِطُوسَ فِي قَرْيَةٍ يُقَالُ لَهَا: سَنَابَاذَ مِنْ رُسْتاقِ نَوْقانَ، وَدُفِنَ فِي دَارِ حُمَيْدِ بْنِ قَحْطَبَةَ الطَّائِيِّ فِي الْقُبَّةِ الَّتِي فِيهَا هَارُونُ الرَّشِيدُ إِلَى جَانِبِهِ مِمَّا يَلِي الْقِبْلَةَ وَذَلِكَ فِي شَهْرِ رَمَضَانَ لِتِسْعٍ بَقِينَ مِنْهُ يَوْمَ الْجُمُعَةِ سَنَةَ ثَلَاثِ وَمِائَتَيْنِ، وَقَدْ تَمَّ عُمْرُهُ تِسْعًا وَأَرْبَعِينَ سِنَةً وَسِتَّةَ أَشْهُرٍ، مِنْهَا مَعَ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ تِسْعًا وَعِشْرِينَ سَنَةً وَشَهْرَيْنِ، وَبَعْدَ أَبِيهِ أَيَّامَ إِمَامَتِهِ عِشْرِينَ سَنَةً وَأَرْبَعَةَ أَشْهُرٍ، وَقَامَ عَلَيْهِ السَّلَامُ بِالْأَمْرِ وَلَهُ تِسْعٌ وَعِشْرُونَ سَنَةً وَشَهْرَانِ وَكَانَ فِي أَيَّامِ إِمَامَتِهِ عَلَيْهِ السَّلَامُ بَقِيَّةُ مُلْكِ الرَّشِيدِ ثُمَّ مَلَكَ بَعْدَ الرَّشِيدِ مُحَمَّدٌ الْمَعْرُوفُ بِالْأَمِينِ وَهُوَ ابْنُ زُبَيْدَةَ ثَلَاثَ سِنِينَ وَخَمْسَةً وَعِشْرِينَ يَوْمًا ثُمَّ خُلِعَ الْأَمِينُ وَأُجْلِسَ عَمُّهُ إِبْرَاهِيمُ بْنُ شَكْلَةَ أَرْبَعَةَ عَشَرَ يَوْمًا، ثُمَّ أُخْرِجَ مُحَمَّدُ بْنُ زُبَيْدَةَ مِنَ الْحَبْسِ وَبُويِعَ لَهُ ثَانِيَةً، وَجَلَسَ فِي الْمُلْكِ سَنَةً وَسِتَّةَ أَشْهُرٍ وَثَلَاثَةً وَعِشْرِينَ يَوْمًا، ثُمَّ مَلَكَ عَبْدُ اللَّهِ الْمَمُونُ عِشْرِينَ سَنَةً وَثَلَاثَةً وَعِشْرِينَ يَوْمًا، فَأَخَذَ الْبَيْعَةَ فِي مُلْكِهِ لِعَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِمَا السَّلَامُ بِعَهْدِ الْمُسْلِمِينَ مِنْ غَيْرِ رِضَاهُ وَذَلِكَ بَعْدَ أَنْ هَدَّدَهُ بِالْقَتْلِ وَأَلَحَّ عَلَيْهِ مَرَّةً بَعْدَ أُخْرَى، فِي كُلِّهَا يَأْبَى عَلَيْهِ حَتَّى أَشْرَفَ مِنْ تَأَبِّيهِ عَلَى الْهَلَكَةِ، فَقَالَ عَلَيْهِ السَّلَامُ: «اللَّهُمَّ إِنَّكَ قَدْ نَهَيْتَنِي عَنِ الْإِلْقَاءِ بِيَدِي إِلَى التَّهْلُكَةِ، وَقَدْ أُكْرِهْتُ وَاضْطُرَرْتُ كَمَا أُشْرِفْتُ مِنْ قِبَلِ عَبْدِ اللَّهِ الْمَمُونِ عَلَى الْقَتْلِ مَتَى لَمْ أَقْبَلْ وِلَايَةَ عَهْدِهِ، وَقَدْ أَكْرَهْتُ وَاضْطُرِرْتُ، كَمَا اضْطُرَّ يُوسُفُ وَدَانِيالُ عَلَيْهِمَا السَّلَامُ، إِذْ قَبْلَ كُلِّ وَاحِدٍ مِنْهُمَا الْوِلَايَةَ مِنْ طَاغِيَةَ زَمَانِهِ، اللَّهُمَّ لَا عَهْدَ لِي إِلَّا عَهْدَكَ وَلَا وِلَايَةَ لِي إِلَّا مِنْ قِبَلِكَ فَوَفِّقْنِي لِإِقَامَةِ دِينِكَ وَإِحْيَاءِ سُنَّةَ نَبِيِّكَ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَإِنَّكَ أَنْتَ الْمَوْلَى وَأَنْتَ النَّصِيرُ وَنِعْمَ الْمَوْلَى أَنْتَ وَنِعْمَ النَّصِيرُ».ثُمَّ قَبِلَ عَلَيْهِ السَّلَامُ وِلَايَةَ الْعَهْدِ مِنَ الْمَمُونِ – وَهُوَ بَاكٍ حَزِينٌ - عَلَى أَنْ لَا يُوَلِّيَ أَحَدًا وَلَا يَعْزِلَ أَحَدًا، وَلَا يُغَيِّرَ رَسْمًا وَلَا سُنَّةً، وَأَنْ يَكُونَ فِي الْأَمْرِ مُشِيرًا مِنْ بَعِيدٍ، فَأَخَذَ الْمَمُونُ لَهُ الْبَيْعَةَ عَلَى النَّاسِ، الْخَاصِّ مِنْهُمْ وَالْعَامَّ، فَكَانَ مَتَى مَا ظَهَرَ لِلْمَمُونِ مِنَ الرِّضَا عَلَيْهِ السَّلَامُ فَضْلٌ وَعِلْمٌ وَحُسْنُ تَدْبِيرٍ، حَسَدَهُ عَلَى ذَلِكَ وَحَقَدَهُ عَلَيْهِ حَتَّى ضَاقَ صَدْرُهُ مِنْهُ، فَغَدَرَ بِهِ وَقَتَلَهُ بِالسَّمَامِ وَمَضَى إِلَى رِضْوَانِ اللَّهِ تَعَالَى وَكَرَامَتِهِ.",
+        "translations": {
+          "en": "Al-Rida Ali ibn Musa (peace be upon them) was born in Medina on Thursday, the 11th night of Rabi' al-Awwal, in the year 153 AH, five years after the death of Abu Abdullah (peace be upon him). He died in Toos in a village called Sanabad in the town of Nawqan, and was buried in the house of Humayd ibn Qahtaba al-Ta'i in the dome where Harun al-Rashid was buried, next to him on the side facing the Qibla. This occurred on Friday, the 21st of Ramadan, in the year 203 AH. His lifespan was forty-nine years and six months, of which twenty-nine years and two months were with his father Musa ibn Ja'far (peace be upon them). After his father, he served as Imam for twenty years and four months. He assumed the Imamate at the age of twenty-nine years and two months. His Imamate coincided with the remaining rule of al-Rashid, then Muhammad known as al-Amin (son of Zubayda) ruled for three years and twenty-five days. Al-Amin was deposed and his uncle Ibrahim ibn al-Walid (Ibn Shaklah) ruled for fourteen days. Then Muhammad ibn Zubayda was released from prison and pledged allegiance to him again; he ruled for another year, six months, and twenty-three days. Then Abdullah al-Ma'mun ruled for twenty years and twenty-three days. He took the pledge of succession from Ali ibn Musa al-Rida (peace be upon him) on behalf of the Muslims without his consent, after threatening him with death and insisting repeatedly. The Imam refused until he faced the threat of destruction. He said: 'O God, You have admonished me against throwing myself into destruction, and I was compelled and forced, as I was threatened by Abdullah al-Ma'mun with death if I did not accept the guardianship of his covenant. I was compelled and forced, just as Joseph and Daniel (peace be upon them) were forced, when each accepted the guardianship from the tyrant of his time. O God, my covenant is only Your covenant, and my guardianship is only from You. Grant me success in establishing Your religion and reviving the tradition of Your Prophet Muhammad (peace be upon him and his family), for You are the Master and the Helper. How excellent a Master and Helper!' Then he (peace be upon him) accepted the guardianship of the covenant from al-Ma'mun — while weeping and sorrowful — on the condition that he would not appoint anyone, dismiss anyone, or change any custom or tradition, and that he would be a counselor from a distance. Al-Ma'mun then took the pledge of allegiance from the people, both special and general, for him. Whenever al-Ma'mun saw from al-Rida (peace be upon him) excellence, knowledge, and good management, he became jealous and envious of him, until his chest was constricted by it. He then betrayed him and killed him with poison, and he proceeded to the pleasure and grace of God Almighty.",
+          "zh": "阿里·本·穆萨·里达（愿他们平安）于153年拉比阿乌瓦尔月11日夜在麦地那出生，在阿布杜拉赫（愿他平安）去世五年后。他去世于图斯的纳瓦坎村萨纳巴德，被埋葬在哈伦·拉希德被埋葬的圆顶中，与他相邻，面向基卜拉的一侧。这发生在203年拉马丹月21日星期五。他的寿命为四十九年六个月，其中二十九年两个月与他的父亲穆萨·本·贾法尔（愿他们平安）在一起。在他父亲之后，他作为伊玛目服务了二十年四个月。他在二十九岁两个月时成为伊玛目。他的伊玛目任期与拉希德剩余的统治时期重合，然后是穆罕默德（祖拜达之子）统治了三年二十五天。阿明被废黜，他的叔叔易卜拉欣·本·瓦利德（伊本·沙克拉）统治了十四天。然后穆罕默德·本·祖拜达从监狱中被释放，再次向他宣誓效忠；他统治了另外一年六个月二十三天。然后阿卜杜拉·马蒙统治了二十年二十三天。他代表穆斯林从阿里·本·穆萨·里达（愿他平安）那里接受了继承誓约，未经他的同意，在威胁他死亡并反复坚持之后。伊玛目拒绝，直到他面临毁灭的威胁。他说：“真主啊，你告诫我不要自投罗网，我被迫和被迫，因为阿卜杜拉·马蒙威胁我，如果我不接受他的盟约监护，就处死我。我被迫和被迫，就像约瑟和丹尼尔（愿他们平安）被强迫一样，当他们各自接受当时暴君的监护时。真主啊，我的盟约只是你的盟约，我的监护只是来自你。赐予我成功，建立你的宗教，复兴你的先知穆罕默德（愿他及其家人平安）的传统，因为你是主和保护者。多么好的主和保护者！”然后他（愿他平安）接受了马蒙的盟约监护——带着哭泣和悲伤——条件是他不任命任何人，不罢免任何人，不改变任何习俗或传统，并且他将从远处作为顾问。马蒙随后从人民那里，无论是特殊还是普通，为他接受了效忠誓约。每当马蒙从里达（愿他平安）身上看到卓越、知识和良好的管理时，他就对他产生嫉妒和羡慕，直到他的胸部因它而收缩。然后他背叛了他，用毒药杀死了他，并 proceeded to 真主全能的喜悦和恩典。",
+          "ur": "",
+          "tr": "",
+          "fa": "",
+          "id": "",
+          "bn": "",
+          "es": "",
+          "fr": "",
+          "de": "",
+          "ru": ""
+        },
+        "word_start": 45,
+        "word_end": 406
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This narration from Shaykh al-Saduq’s *‘Uyun Akhbar al-Rida* meticulously records the birth and death of Imam al-Rida (AS), situating his Imamate within the turbulent Abbasid era of Harun al-Rashid, al-Amin, and al-Ma'mun. It highlights the theological nuance of his forced acceptance of the heir apparentship (*al-wilayah al-majbura*), drawing a parallel to Prophet Yusuf (AS) to justify accepting political authority under duress without compromising spiritual integrity, ultimately leading to his martyrdom by poisoning. This event underscores the Shia concept of *taqiyya* and the Imam’s strategic navigation of Abbasid power dynamics to preserve the community.",
+        "seo_question": "What are the key biographical details and political circumstances surrounding the Imamate of Imam Ali al-Rida (AS)?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida (The Satisfied/Content One), a title of Imam Ali ibn Musa",
+          "إِمَامَتِهِ": "His Imamate (leadership/guardianship)",
+          "الْمَمُونُ": "Al-Ma'mun, the Abbasid Caliph",
+          "الْبَيْعَةَ": "The pledge of allegiance",
+          "وِلَايَةَ الْعَهْدِ": "Guardianship of the covenant (succession)",
+          "طَاغِيَةَ زَمَانِهِ": "The tyrant of his time",
+          "سَنَابَاذَ": "Sanabad, the village in Toos where he was buried"
+        }
+      },
+      "ur": {
+        "summary": "شیخ صدوق کی 'عین اخبار الرضا' سے یہ روایت امام رضا علیہ السلام کی پیدائش اور وفات کو بہت احتیاط سے درج کرتی ہے، جس میں ان کی امامت کو ہارون الرشید، امین اور مامون کے دور عباسی میں رکھا گیا ہے۔ یہ روایت ان کے مجبوری میں ولی عہد بننے (الولایۃ المجبوری) کے الہیاتی پہلو کو اجاگر کرتی ہے، جو سیاسی اقتدار کو مجبوری میں قبول کرنے کے لیے حضرت یوسف علیہ السلام سے موازنہ کرتی ہے، جس سے روحانی سالمیت برقرار رہتی ہے، اور آخر کار زہر دے کر شہادت ہو جاتی ہے۔ یہ واقعہ شیعہ تصوف کے تصور 'تقیہ' اور امام کے عباسی طاقت کے دباؤ میں کمیونٹی کو محفوظ رکھنے کی حکمت عملی کو واضح کرتا ہے۔",
+        "seo_question": "امام علی الرضا (ع) کی امامت کے گرد گھومنے والی اہم حیاتیاتی تفصیلات اور سیاسی حالات کیا ہیں؟",
+        "key_terms": {
+          "الرِّضَا": "الرضا (سیرت والا/خوشحال)",
+          "إِمَامَتِهِ": "ان کی امامت (قیادت/حکمرانی)",
+          "الْمَمُونُ": "المامون، عباسی خلیفہ",
+          "الْبَيْعَةَ": "بیعت کا عہد",
+          "وِلَايَةَ الْعَهْدِ": "ولایتِ عہد (جانشینی)",
+          "طَاغِيَةَ زَمَانِهِ": "اس کے دور کا ظالم",
+          "سَنَابَاذَ": "سنباد، توس میں وہ گاؤں جہاں انہیں دفن کیا گیا"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh el-Saduk’un *‘Uyun Ehbar er-Rıza* eserinden bu rivayet, İmam er-Rıza’nın (AS) doğum ve ölümünü titizlikle kaydetmekte ve imametini Harun Reşid, el-Emin ve el-Memun dönemindeki kaotik Abbasi devri içinde konumlandırmaktadır. Zorunlu halefiyeti kabul etme (*el-vilayet el-mecbure*) teolojik inceliğini vurgulayarak, siyasi otoriteyi zorla kabul etmeyi manevi bütünlüğü korumak adına meşrulaştırmak için Peygamber Yusuf (AS) ile paralellik kurmakta ve sonunda zehirlenerek şehit edilmesine yol açmaktadır. Bu olay, Şii inancındaki *tekkie* kavramını ve İmam’ın toplumu korumak için Abbasi güç dinamiklerini stratejik olarak nasıl yönettiğini vurgulamaktadır.",
+        "seo_question": "İmam Ali er-Rıza’nın (AS) imametini çevreleyen temel biyografik detaylar ve siyasi koşullar nelerdir?",
+        "key_terms": {
+          "الرِّضَا": "Er-Rıza (Razı Olan/Kanmış Olan), İmam Ali b. Musa'nın unvanı",
+          "إِمَامَتِهِ": "İmameti (liderlik/miras alma)",
+          "الْمَمُونُ": "El-Memun, Abbasi Halifesi",
+          "الْبَيْعَةَ": "Bi'at (sadakat yemini)",
+          "وِلَايَةَ الْعَهْدِ": "Velayet el-Ahd (ahdın mirası/halefiyet)",
+          "طَاغِيَةَ زَمَانِهِ": "Zamanının zalimi",
+          "سَنَابَاذَ": "Sanabad, Toos'ta gömüldüğü köy"
+        }
+      },
+      "fa": {
+        "summary": "این روایت از شیخ صدوق در «عیون اخبار الرضا» به دقت تولد و وفات امام رضا (ع) را ثبت کرده و امامت ایشان را در دوران پرتلاطم عباسیِ هارون‌الرشید، امین و مأمون جای می‌دهد. این متن بر ظرافت کلامی پذیرش اجباری ولیّ‌عهدی (ولایت مجبوره) تأکید دارد و با استناد به حضرت یوسف (ع)، پذیرش حکومت سیاسی تحت فشار را بدون خدشه‌دار شدن تمامیت معنوی توجیه می‌کند که در نهایت به شهادت ایشان توسط زهر منجر شد. این رویداد مفهوم تقیه در مذهب شیعه و راهبرد امام در مدیریت پویایی‌های قدرت عباسی برای حفظ امت را برجسته می‌سازد.",
+        "seo_question": "جزئیات زندگی‌نامه و شرایط سیاسی پیرامون امامت امام علی الرضا (ع) چیست؟",
+        "key_terms": {
+          "الرِّضَا": "رضا",
+          "إِمَامَتِهِ": "امامت",
+          "الْمَمُونُ": "مأمون",
+          "الْبَيْعَةَ": "بیعت",
+          "وِلَايَةَ الْعَهْدِ": "ولایت عهد",
+          "طَاغِيَةَ زَمَانِهِ": "طاغی زمان",
+          "سَنَابَاذَ": "سنابد"
+        }
+      },
+      "id": {
+        "summary": "Riwayat dari Syekh al-Shaduq dalam *‘Uyun Akhbar al-Rida mencatat dengan teliti kelahiran dan kematian Imam al-Rida (AS), menempatkan imamah-nya di tengah era Abbasiyah yang bergejolak di bawah Harun al-Rashid, al-Amin, dan al-Ma'mun. Teks ini menyoroti nuansa teologis dari penerimaan paksa terhadap jabatan putra mahkota (al-wilayah al-majbura), dengan menarik paralel kepada Nabi Yusuf (AS) untuk membenarkan penerimaan otoritas politik di bawah tekanan tanpa mengorbankan integritas spiritual, yang pada akhirnya berujung pada syahidnya beliau karena racun. Peristiwa ini menegaskan konsep syi'ah tentang taqiyyah dan navigasi strategis Imam dalam dinamika kekuasaan Abbasiyah untuk menjaga komunitas.",
+        "seo_question": "Apa saja rincian biografi dan keadaan politik yang melingkari imamah Imam Ali al-Rida (AS)?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida (Yang Puas/Mengandung)",
+          "إِمَامَتِهِ": "Imamah-nya",
+          "الْمَمُونُ": "Al-Ma'mun",
+          "الْبَيْعَةَ": "Sumpah setia",
+          "وِلَايَةَ الْعَهْدِ": "Kepemimpinan perjanjian (suksesi)",
+          "طَاغِيَةَ زَمَانِهِ": "Penguasa zalim di zamannya",
+          "سَنَابَاذَ": "Sanabad"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-সাদুকের 'উয়ুন আল-আখবার আল-রিদা' হতে এই বর্ণনায় ইমাম আল-রিদা (আস)-এর জন্ম ও মৃত্যু সূক্ষ্মভাবে রেকর্ড করা হয়েছে, যা তাঁর ইমামতকে হারুন আল-রশিদ, আল-আমিন এবং আল--মামুন-এর উত্তরবীজ আব্বাসীয় যুগের উত্তেজনাপূর্ণ রাজনৈতিক পরিবেশের সাথে স্থাপন করে। এটি তাঁর জোরপূর্বক উত্তরাধিকারের মর্যাদা গ্রহণের (*আল-ওলায়াহ আল-মাজবুরা*) ঐতিহাসিক ও ধর্মতাত্ত্বিক সূক্ষ্মতা তুলে ধরে, যা আত্মিক অখণ্ডতা নষ্ট না করে জোরপূর্বক রাজনৈতিক কর্তৃত্ব গ্রহণের যৌক্তিকতা প্রদান করতে নবী ইউসুফ (আস)-এর সাথে তুলনা করে, যা শেষ পর্যন্ত বিষপ্রয়োগে তাঁর শাহাদতে পরিণত হয়। এই ঘটনা শিয়া ধর্মের 'তাকিয়া' (দক্ষতার সাথে গোপনীয়তা বা অবস্থা অনুযায়ী আচরণ) ধারণা এবং সম্প্রদায়কে রক্ষা করতে আব্বাসীয় ক্ষমতার গতিশীলতার মধ্যে ইমামের কৌশলগত নেতৃত্বকে তুলে ধরে।",
+        "seo_question": "ইমাম আলী আল-রিদা (আস)-এর ইমামতের চারপাশের প্রধান জীবনবৃত্তান্তের বিবরণ এবং রাজনৈতিক পরিস্থিতি কী?",
+        "key_terms": {
+          "الرِّضَا": "আল-রিদা (সন্তুষ্ট একজন), ইমাম আলী ইবনে মুসার একটি উপাধি",
+          "إِمَامَتِهِ": "তাঁর ইমামত (নেতৃত্ব/আধিপত্য)",
+          "الْمَمُونُ": "আল-মামুন, আব্বাসীয় খলিফা",
+          "الْبَيْعَةَ": "আনুগত্যের শপথ",
+          "وِلَايَةَ الْعَهْدِ": "চুক্তির আধিপত্য (উত্তরাধিকার)",
+          "طَاغِيَةَ زَمَانِهِ": "তাঁর সময়ের শাসক",
+          "سَنَابَاذَ": "সানাবাদ, তুসে যে গ্রামে তাঁকে সমাধিস্থ করা হয়েছিল"
+        }
+      },
+      "es": {
+        "summary": "Esta narración de Shaykh al-Saduq en *‘Uyun Akhbar al-Rida* registra meticulosamente el nacimiento y la muerte del Imam al-Rida (AS), situando su Imamato dentro de la turbulenta era abasí de Harun al-Rashid, al-Amin y al-Ma'mun. Destaca la sutileza teológica de su aceptación forzada de la heredabilidad (*al-wilayah al-majbura*), estableciendo un paralelo con el Profeta Yusuf (AS) para justificar la aceptación de la autoridad política bajo coacción sin comprometer la integridad espiritual, lo que finalmente conduce a su martirio por envenenamiento. Este evento subraya el concepto chií de *taqiyya* y la navegación estratégica del Imam por las dinámicas de poder abasí para preservar a la comunidad.",
+        "seo_question": "¿Cuáles son los detalles biográficos clave y las circunstancias políticas que rodean el Imamato del Imam Ali al-Rida (AS)?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida (El Satisfecho/Contenido), un título del Imam Ali ibn Musa",
+          "إِمَامَتِهِ": "Su Imamato (liderazgo/guardianato)",
+          "الْمَمُونُ": "Al-Ma'mun, el Califa abasí",
+          "الْبَيْعَةَ": "El juramento de lealtad",
+          "وِلَايَةَ الْعَهْدِ": "Guardianato del pacto (sucesión)",
+          "طَاغِيَةَ زَمَانِهِ": "El tirano de su tiempo",
+          "سَنَابَاذَ": "Sanabad, la aldea en Toos donde fue enterrado"
+        }
+      },
+      "fr": {
+        "summary": "Cette narration de Cheikh al-Sadouq dans *‘Uyun Akhbar al-Rida* enregistre avec précision la naissance et la mort de l’Imam al-Rida (AS), situant son imamat dans l’ère abbasside turbulente de Harun al-Rachid, al-Amin et al-Ma'mun. Elle met en lumière la nuance théologique de son acceptation forcée de la fonction de prince héritier (*al-wilayah al-majbura*), établissant un parallèle avec le Prophète Joseph (AS) pour justifier l'acceptation de l'autorité politique sous contrainte sans compromettre l'intégrité spirituelle, conduisant in fine à son martyre par empoisonnement. Cet événement souligne le concept chiite de *taqiyya* et la navigation stratégique de l'Imam dans les dynamiques de pouvoir abbassides pour préserver la communauté.",
+        "seo_question": "Quels sont les détails biographiques clés et les circonstances politiques entourant l'imamat de l'Imam Ali al-Rida (AS) ?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida (Celui qui est satisfait/content)",
+          "إِمَامَتِهِ": "Son imamat (leadership/guardiennat)",
+          "الْمَمُونُ": "Al-Ma'mun, le calife abbasside",
+          "الْبَيْعَةَ": "Le serment d'allégeance",
+          "وِلَايَةَ الْعَهْدِ": "Le gardiennat du pacte (succession)",
+          "طَاغِيَةَ زَمَانِهِ": "Le tyran de son époque",
+          "سَنَابَاذَ": "Sanabad, le village de Toos où il a été enterré"
+        }
+      },
+      "de": {
+        "summary": "Diese Überlieferung aus Scheych al-Saduqs *‘Uyun Akhbar al-Rida* hält die Geburt und den Tod von Imam al-Rida (AS) akribisch fest und verortet sein Imamat in der turbulenten abbasidischen Ära von Harun al-Rashid, al-Amin und al-Ma'mun. Sie hebt die theologische Nuance seiner erzwungenen Annahme der Thronfolgerschaft (*al-wilayah al-majbura*) hervor, zieht eine Parallele zu Prophet Yusuf (AS), um die Annahme politischer Autorität unter Zwang ohne Beeinträchtigung der spirituellen Integrität zu rechtfertigen, was letztlich zu seinem Martyrium durch Vergiftung führt. Dieses Ereignis unterstreicht das schiitische Konzept der *taqiyya* und die strategische Navigation des Imams durch die abbasidischen Machtverhältnisse zur Bewahrung der Gemeinschaft.",
+        "seo_question": "Welche sind die wichtigsten biografischen Details und politischen Umstände, die das Imamat von Imam Ali al-Rida (AS) umgeben?",
+        "key_terms": {
+          "الرِّضَا": "Al-Rida (Der Zufriedene/Inhaltliche)",
+          "إِمَامَتِهِ": "Sein Imamat (Führung/Herrschaft)",
+          "الْمَمُونُ": "Al-Ma'mun, der abbasidische Kalif",
+          "الْبَيْعَةَ": "Die Treueeid",
+          "وِلَايَةَ الْعَهْدِ": "Herrschaft des Bundes (Nachfolge)",
+          "طَاغِيَةَ زَمَانِهِ": "Der Tyrant seiner Zeit",
+          "سَنَابَاذَ": "Sanabad, das Dorf in Toos, wo er begraben wurde"
+        }
+      },
+      "ru": {
+        "summary": "Это предание из «Айин аль-ахбар ар-Рида» аш-Шаха аль-Садука тщательно фиксирует рождение и смерть имама ар-Рида (да будет с ним мир), помещая его имамат в эпоху аббасидов, правивших Харун ар-Рашид, аль-Амин и аль-Ма’мун. В нем подчеркивается теологическая тонкость его вынужденного принятия наследничества (*аль-вилая аль-маджура*), проводится параллель с пророком Юсуфом (да будет с ним мир) для обоснования принятия политической власти под давлением без ущерба для духовной целостности, что в конечном итоге привело к его мученической смерти от отравления. Это событие подчеркивает шиитскую концепцию *такъиyyи* и стратегическое маневрирование имама в аббасидской политической динамике для сохранения общины.",
+        "seo_question": "Каковы ключевые биографические детали и политические обстоятельства, окружающие имамат имама Али ар-Рида (да будет с ним мир)?",
+        "key_terms": {
+          "الرِّضَا": "Ар-Рида (Удовлетворенный/Содержащий)",
+          "إِمَامَتِهِ": "Его имамат (лидерство/попечительство)",
+          "الْمَمُونُ": "Аль-Ма’мун, аббасидский халиф",
+          "الْبَيْعَةَ": "Клятва верности",
+          "وِلَايَةَ الْعَهْدِ": "Попечительство о завете (преемственность)",
+          "طَاغِيَةَ زَمَانِهِ": "Тиран своего времени",
+          "سَنَابَاذَ": "Санабад, деревня в Тусе, где он был похоронен"
+        }
+      },
+      "zh": {
+        "summary": "这段来自谢赫·萨杜克的《里达传述精粹》的圣训详细记录了伊玛目·里达（愿主安之）的出生与逝世，将其伊玛目任期置于哈伦·拉希德、阿明和马蒙统治时期动荡的阿拔斯王朝背景中。它突出了其被迫接受储君地位（*al-wilayah al-majbura*）的神学细微差别，并援引优素福先知（愿主安之）作为类比，以证明在胁迫下接受政治权威而不损害精神完整性，最终导致其被毒害殉道。这一事件强调了什叶派的*taqiyya*（塔基亚/隐遁）概念，以及伊玛目在阿拔斯权力动态中为保护社群而进行的战略导航。",
+        "seo_question": "伊玛目阿里·里达（愿主安之）的伊玛目任期有哪些关键生平细节和政治背景？",
+        "key_terms": {
+          "الرِّضَا": "里达（满足者/知足者）",
+          "إِمَامَتِهِ": "其伊玛目任期（领导权/监护权）",
+          "الْمَمُونُ": "马蒙（阿拔斯哈里发）",
+          "الْبَيْعَةَ": "效忠誓约",
+          "وِلَايَةَ الْعَهْدِ": "继承监护权",
+          "طَاغِيَةَ زَمَانِهِ": "其时代的暴君",
+          "سَنَابَاذَ": "桑纳巴德（图斯附近其埋葬的村庄）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "12:31",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "37:130",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "12:101",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "39:23",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنِي الْحَسَنُ بْنُ عَلِيِّ بْنِ زَكَرِيَّا بِمَدِينَةِ السَّلَامِ قَالَ: حَدَّثَنِي أَبُو عَبْدِ اللَّهِ مُحَمَّدُ بْنُ خَلِيلَانَ قَالَ: حَدَّثَنِي أَبِي، عَنْ أَبِيهِ، عَنْ جَدِّهِ، عَنْ عَتَّابِ بْنِ أُسَيْدٍ قَالَ: سَمِعْتُ جَمَاعَةً مِنْ أَهْلِ الْمَدِينَةِ يَقُولُونَ وُلِدَ الرِّضَا عَلِيُّ بْنُ مُوسَى عَلَيْهِمَا السَّلَامُ بِالْمَدِينَةِ يَوْمَ الْخَمِيسِ لِإِحْدَى عَشْرَةَ لَيْلَةً خَلَتْ مِنْ رَبِيعَ الْأَوَّلِ سَنَةَ ثَلَاثٍ وَخَمْسِينَ وَمِائَةٍ مِنَ الْهِجْرَةِ بَعْدَ وَفَاةِ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ بِخَمْسِ سِنِينَ وَتُوُفِّيَ بِطُوسَ فِي قَرْيَةٍ يُقَالُ لَهَا: سَنَابَاذَ مِنْ رُسْتاقِ نَوْقانَ، وَدُفِنَ فِي دَارِ حُمَيْدِ بْنِ قَحْطَبَةَ الطَّائِيِّ فِي الْقُبَّةِ الَّتِي فِيهَا هَارُونُ الرَّشِيدُ إِلَى جَانِبِهِ مِمَّا يَلِي الْقِبْلَةَ وَذَلِكَ فِي شَهْرِ رَمَضَانَ لِتِسْعٍ بَقِينَ مِنْهُ يَوْمَ الْجُمُعَةِ سَنَةَ ثَلَاثِ وَمِائَتَيْنِ، وَقَدْ تَمَّ عُمْرُهُ تِسْعًا وَأَرْبَعِينَ سِنَةً وَسِتَّةَ أَشْهُرٍ، مِنْهَا مَعَ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ تِسْعًا وَعِشْرِينَ سَنَةً وَشَهْرَيْنِ، وَبَعْدَ أَبِيهِ أَيَّامَ إِمَامَتِهِ عِشْرِينَ سَنَةً وَأَرْبَعَةَ أَشْهُرٍ، وَقَامَ عَلَيْهِ السَّلَامُ بِالْأَمْرِ وَلَهُ تِسْعٌ وَعِشْرُونَ سَنَةً وَشَهْرَانِ وَكَانَ فِي أَيَّامِ إِمَامَتِهِ عَلَيْهِ السَّلَامُ بَقِيَّةُ مُلْكِ الرَّشِيدِ ثُمَّ مَلَكَ بَعْدَ الرَّشِيدِ مُحَمَّدٌ الْمَعْرُوفُ بِالْأَمِينِ وَهُوَ ابْنُ زُبَيْدَةَ ثَلَاثَ سِنِينَ وَخَمْسَةً وَعِشْرِينَ يَوْمًا ثُمَّ خُلِعَ الْأَمِينُ وَأُجْلِسَ عَمُّهُ إِبْرَاهِيمُ بْنُ شَكْلَةَ أَرْبَعَةَ عَشَرَ يَوْمًا، ثُمَّ أُخْرِجَ مُحَمَّدُ بْنُ زُبَيْدَةَ مِنَ الْحَبْسِ وَبُويِعَ لَهُ ثَانِيَةً، وَجَلَسَ فِي الْمُلْكِ سَنَةً وَسِتَّةَ أَشْهُرٍ وَثَلَاثَةً وَعِشْرِينَ يَوْمًا، ثُمَّ مَلَكَ عَبْدُ اللَّهِ الْمَمُونُ عِشْرِينَ سَنَةً وَثَلَاثَةً وَعِشْرِينَ يَوْمًا، فَأَخَذَ الْبَيْعَةَ فِي مُلْكِهِ لِعَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِمَا السَّلَامُ بِعَهْدِ الْمُسْلِمِينَ مِنْ غَيْرِ رِضَاهُ وَذَلِكَ بَعْدَ أَنْ هَدَّدَهُ بِالْقَتْلِ وَأَلَحَّ عَلَيْهِ مَرَّةً بَعْدَ أُخْرَى، فِي كُلِّهَا يَأْبَى عَلَيْهِ حَتَّى أَشْرَفَ مِنْ تَأَبِّيهِ عَلَى الْهَلَكَةِ، فَقَالَ عَلَيْهِ السَّلَامُ: «اللَّهُمَّ إِنَّكَ قَدْ نَهَيْتَنِي عَنِ الْإِلْقَاءِ بِيَدِي إِلَى التَّهْلُكَةِ، وَقَدْ أُكْرِهْتُ وَاضْطُرَرْتُ كَمَا أُشْرِفْتُ مِنْ قِبَلِ عَبْدِ اللَّهِ الْمَمُونِ عَلَى الْقَتْلِ مَتَى لَمْ أَقْبَلْ وِلَايَةَ عَهْدِهِ، وَقَدْ أَكْرَهْتُ وَاضْطُرِرْتُ، كَمَا اضْطُرَّ يُوسُفُ وَدَانِيالُ عَلَيْهِمَا السَّلَامُ، إِذْ قَبْلَ كُلِّ وَاحِدٍ مِنْهُمَا الْوِلَايَةَ مِنْ طَاغِيَةَ زَمَانِهِ، اللَّهُمَّ لَا عَهْدَ لِي إِلَّا عَهْدَكَ وَلَا وِلَايَةَ لِي إِلَّا مِنْ قِبَلِكَ فَوَفِّقْنِي لِإِقَامَةِ دِينِكَ وَإِحْيَاءِ سُنَّةَ نَبِيِّكَ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَإِنَّكَ أَنْتَ الْمَوْلَى وَأَنْتَ النَّصِيرُ وَنِعْمَ الْمَوْلَى أَنْتَ وَنِعْمَ النَّصِيرُ».ثُمَّ قَبِلَ عَلَيْهِ السَّلَامُ وِلَايَةَ الْعَهْدِ مِنَ الْمَمُونِ – وَهُوَ بَاكٍ حَزِينٌ - عَلَى أَنْ لَا يُوَلِّيَ أَحَدًا وَلَا يَعْزِلَ أَحَدًا، وَلَا يُغَيِّرَ رَسْمًا وَلَا سُنَّةً، وَأَنْ يَكُونَ فِي الْأَمْرِ مُشِيرًا مِنْ بَعِيدٍ، فَأَخَذَ الْمَمُونُ لَهُ الْبَيْعَةَ عَلَى النَّاسِ، الْخَاصِّ مِنْهُمْ وَالْعَامَّ، فَكَانَ مَتَى مَا ظَهَرَ لِلْمَمُونِ مِنَ الرِّضَا عَلَيْهِ السَّلَامُ فَضْلٌ وَعِلْمٌ وَحُسْنُ تَدْبِيرٍ، حَسَدَهُ عَلَى ذَلِكَ وَحَقَدَهُ عَلَيْهِ حَتَّى ضَاقَ صَدْرُهُ مِنْهُ، فَغَدَرَ بِهِ وَقَتَلَهُ بِالسَّمَامِ وَمَضَى إِلَى رِضْوَانِ اللَّهِ تَعَالَى وَكَرَامَتِهِ.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ إِبْرَاهِيمَ بْنِ إِسْحَاقَ الطَّالِقَانِيُّ رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنِي الْحَسَنُ بْنُ عَلِيِّ بْنِ زَكَرِيَّا بِمَدِينَةِ السَّلَامِ قَالَ: حَدَّثَنِي أَبُو عَبْدِ اللَّهِ مُحَمَّدُ بْنُ خَلِيلَانَ قَالَ: حَدَّثَنِي أَبِي، عَنْ أَبِيهِ، عَنْ جَدِّهِ، عَنْ عَتَّابِ بْنِ أُسَيْدٍ قَالَ: سَمِعْتُ جَمَاعَةً مِنْ أَهْلِ الْمَدِينَةِ يَقُولُونَ",
+      "matn_ar": "وُلِدَ الرِّضَا عَلِيُّ بْنُ مُوسَى عَلَيْهِمَا السَّلَامُ بِالْمَدِينَةِ يَوْمَ الْخَمِيسِ لِإِحْدَى عَشْرَةَ لَيْلَةً خَلَتْ مِنْ رَبِيعَ الْأَوَّلِ سَنَةَ ثَلَاثٍ وَخَمْسِينَ وَمِائَةٍ مِنَ الْهِجْرَةِ بَعْدَ وَفَاةِ أَبِي عَبْدِ اللَّهِ عَلَيْهِ السَّلَامُ بِخَمْسِ سِنِينَ وَتُوُفِّيَ بِطُوسَ فِي قَرْيَةٍ يُقَالُ لَهَا: سَنَابَاذَ مِنْ رُسْتاقِ نَوْقانَ، وَدُفِنَ فِي دَارِ حُمَيْدِ بْنِ قَحْطَبَةَ الطَّائِيِّ فِي الْقُبَّةِ الَّتِي فِيهَا هَارُونُ الرَّشِيدُ إِلَى جَانِبِهِ مِمَّا يَلِي الْقِبْلَةَ وَذَلِكَ فِي شَهْرِ رَمَضَانَ لِتِسْعٍ بَقِينَ مِنْهُ يَوْمَ الْجُمُعَةِ سَنَةَ ثَلَاثِ وَمِائَتَيْنِ، وَقَدْ تَمَّ عُمْرُهُ تِسْعًا وَأَرْبَعِينَ سِنَةً وَسِتَّةَ أَشْهُرٍ، مِنْهَا مَعَ أَبِيهِ مُوسَى بْنِ جَعْفَرٍ عَلَيْهِمَا السَّلَامُ تِسْعًا وَعِشْرِينَ سَنَةً وَشَهْرَيْنِ، وَبَعْدَ أَبِيهِ أَيَّامَ إِمَامَتِهِ عِشْرِينَ سَنَةً وَأَرْبَعَةَ أَشْهُرٍ، وَقَامَ عَلَيْهِ السَّلَامُ بِالْأَمْرِ وَلَهُ تِسْعٌ وَعِشْرُونَ سَنَةً وَشَهْرَانِ وَكَانَ فِي أَيَّامِ إِمَامَتِهِ عَلَيْهِ السَّلَامُ بَقِيَّةُ مُلْكِ الرَّشِيدِ ثُمَّ مَلَكَ بَعْدَ الرَّشِيدِ مُحَمَّدٌ الْمَعْرُوفُ بِالْأَمِينِ وَهُوَ ابْنُ زُبَيْدَةَ ثَلَاثَ سِنِينَ وَخَمْسَةً وَعِشْرِينَ يَوْمًا ثُمَّ خُلِعَ الْأَمِينُ وَأُجْلِسَ عَمُّهُ إِبْرَاهِيمُ بْنُ شَكْلَةَ أَرْبَعَةَ عَشَرَ يَوْمًا، ثُمَّ أُخْرِجَ مُحَمَّدُ بْنُ زُبَيْدَةَ مِنَ الْحَبْسِ وَبُويِعَ لَهُ ثَانِيَةً، وَجَلَسَ فِي الْمُلْكِ سَنَةً وَسِتَّةَ أَشْهُرٍ وَثَلَاثَةً وَعِشْرِينَ يَوْمًا، ثُمَّ مَلَكَ عَبْدُ اللَّهِ الْمَمُونُ عِشْرِينَ سَنَةً وَثَلَاثَةً وَعِشْرِينَ يَوْمًا، فَأَخَذَ الْبَيْعَةَ فِي مُلْكِهِ لِعَلِيِّ بْنِ مُوسَى الرِّضَا عَلَيْهِمَا السَّلَامُ بِعَهْدِ الْمُسْلِمِينَ مِنْ غَيْرِ رِضَاهُ وَذَلِكَ بَعْدَ أَنْ هَدَّدَهُ بِالْقَتْلِ وَأَلَحَّ عَلَيْهِ مَرَّةً بَعْدَ أُخْرَى، فِي كُلِّهَا يَأْبَى عَلَيْهِ حَتَّى أَشْرَفَ مِنْ تَأَبِّيهِ عَلَى الْهَلَكَةِ، فَقَالَ عَلَيْهِ السَّلَامُ: «اللَّهُمَّ إِنَّكَ قَدْ نَهَيْتَنِي عَنِ الْإِلْقَاءِ بِيَدِي إِلَى التَّهْلُكَةِ، وَقَدْ أُكْرِهْتُ وَاضْطُرَرْتُ كَمَا أُشْرِفْتُ مِنْ قِبَلِ عَبْدِ اللَّهِ الْمَمُونِ عَلَى الْقَتْلِ مَتَى لَمْ أَقْبَلْ وِلَايَةَ عَهْدِهِ، وَقَدْ أَكْرَهْتُ وَاضْطُرِرْتُ، كَمَا اضْطُرَّ يُوسُفُ وَدَانِيالُ عَلَيْهِمَا السَّلَامُ، إِذْ قَبْلَ كُلِّ وَاحِدٍ مِنْهُمَا الْوِلَايَةَ مِنْ طَاغِيَةَ زَمَانِهِ، اللَّهُمَّ لَا عَهْدَ لِي إِلَّا عَهْدَكَ وَلَا وِلَايَةَ لِي إِلَّا مِنْ قِبَلِكَ فَوَفِّقْنِي لِإِقَامَةِ دِينِكَ وَإِحْيَاءِ سُنَّةَ نَبِيِّكَ مُحَمَّدٍ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ فَإِنَّكَ أَنْتَ الْمَوْلَى وَأَنْتَ النَّصِيرُ وَنِعْمَ الْمَوْلَى أَنْتَ وَنِعْمَ النَّصِيرُ».ثُمَّ قَبِلَ عَلَيْهِ السَّلَامُ وِلَايَةَ الْعَهْدِ مِنَ الْمَمُونِ – وَهُوَ بَاكٍ حَزِينٌ - عَلَى أَنْ لَا يُوَلِّيَ أَحَدًا وَلَا يَعْزِلَ أَحَدًا، وَلَا يُغَيِّرَ رَسْمًا وَلَا سُنَّةً، وَأَنْ يَكُونَ فِي الْأَمْرِ مُشِيرًا مِنْ بَعِيدٍ، فَأَخَذَ الْمَمُونُ لَهُ الْبَيْعَةَ عَلَى النَّاسِ، الْخَاصِّ مِنْهُمْ وَالْعَامَّ، فَكَانَ مَتَى مَا ظَهَرَ لِلْمَمُونِ مِنَ الرِّضَا عَلَيْهِ السَّلَامُ فَضْلٌ وَعِلْمٌ وَحُسْنُ تَدْبِيرٍ، حَسَدَهُ عَلَى ذَلِكَ وَحَقَدَهُ عَلَيْهِ حَتَّى ضَاقَ صَدْرُهُ مِنْهُ، فَغَدَرَ بِهِ وَقَتَلَهُ بِالسَّمَامِ وَمَضَى إِلَى رِضْوَانِ اللَّهِ تَعَالَى وَكَرَامَتِهِ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا مُحَمَّدُ بْنُ إِبْراهيمَ بْنِ إِسْحاقَ الطَّالِقانِيُّ رَضِىَ اللهُ عَنْهُ قالَ: حَدَّثَني الحَسَنُ بْنُ عَلِىِّ بْنِ زَكَرِيَّا بِمَدِينَةِ السَّلامُ قالَ: حَدَّثَني أَبُو عَبْدِ اللَّهِ مُحَمَّدُ بْنُ خَلِيلان قالَ: حَدَّثَني أَبي،",
+          "name_en": "Muhammad b. Ibrahim b. Ishaq al-Talqani",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ،",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "جَدِّهِ،",
+          "name_en": "his grandfather",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 253
+        },
+        {
+          "name_ar": "عَتابِ بْنِ اُسَيِّد قالَ: سَمِعْتُ جَماعَةً من أَهْلِ المَدِينَةِ",
+          "name_en": "Attab b. Usayd",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "رِضْوَانُ اللَّهِ",
+        "phrase_en": "Pleasure of Allah",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 9,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,285 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:199:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 19 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'وقد عرف حقها رجال من المؤمنين الذين لا تشغلهم عنها زينة متاع'"
+  ],
+  "result": {
+    "tags": [
+      "worship",
+      "ethics",
+      "quran_commentary"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "prayer_rulings",
+      "zakat_khums",
+      "dhikr",
+      "poverty_wealth"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَقَدْ عَرَفَ حَقَّهَا رِجَالٌ مِنَ الْمُؤْمِنِينَ",
+        "translations": {
+          "en": "Its obligation is recognised by those believers",
+          "ur": "اس کی فرضیت کی پہچان ان مومنین نے کی ہے",
+          "tr": "Onun farziyeti, müminlerden bazı erkekler tarafından bilinmektedir.",
+          "fa": "حقیقت آن را مردانی از مؤمنان شناخته‌اند که",
+          "id": "Kewajibannya diketahui oleh sebagian orang dari kalangan mukmin",
+          "bn": "এর ফরজীয়তা মুমিনদের মধ্যে কয়েকজন পুরুষ জানেন যাদেরকে এর থেকে জিনিসপত্রের সাজসজ্জা, সন্তান বা ধন-সম্পদ চক্ষুর শীতলতা দেয় না, যাদের সম্পর্কে আল্লাহ তায়ালা বলেন: ﴿রিজালুন লা তুলহিহিম তিজারাতুন ওয়া লা বাইয়ুন আন জিক্রিল্লাহি ওয়া ইকামিস্‌সালাতি ওয়া ইতাইয়িল্‌জাকাত﴾",
+          "es": "Su obligación es reconocida por aquellos creyentes",
+          "fr": "Son obligation estipulation est reconnue par ces croyants",
+          "de": "Seine Verpflichtung wird von jenen Gläubigen erkannt",
+          "ru": "Его обязательность признана теми верующими,",
+          "zh": "其义务已被一些信士确知"
+        },
+        "word_start": 0,
+        "word_end": 6
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الَّذِينَ لَا تَشْغَلُهُمْ عَنْهَا زِينَةُ مَتَعٍ، وَلَا قُرَّةُ عَيْنٍ مِنْ وَلَدٍ وَلَا مَالٍ",
+        "translations": {
+          "en": "whom neither the adornment of property nor the coolness of the eyes produced by children or wealth can turn away from it",
+          "ur": "جسے نہ مال کیون مال کی زینت اور نہ آنکھوں کی ٹھنڈک پیدا کرنے والے بچے یا مال اس سے ہٹا سکتے ہیں",
+          "tr": "ne mal süsü ne de çocuklar veya zenginliğin gözlerin serinliğini sağlaması onu ondan alıkoyamaz",
+          "fa": "کسانی که نه زینت مال و نه خنای چشم‌ها که از فرزند یا ثروت حاصل می‌شود، از آن باز نمی‌دارد",
+          "id": "yang tidak dapat mengalihkan mereka dari (Allah) perumpamaan itu), baik dengan perhiasan harta benda maupun dengan kesejukan mata yang disebabkan oleh anak-anak atau kekayaan.",
+          "bn": "যাদের সম্পদ-সম্পত্তির অলংকার এবং সন্তান বা ধন-সম্পদজনিত চক্ষুশীতলতা তাকে থেকে দূরে সরিয়ে নিতে পারে না",
+          "es": "a quienes ni el adorno de los bienes ni la frescura de los ojos producida por los hijos o por los hijos o por la riqueza pueden apartar de ello",
+          "fr": "ceux que ni l'ornement des biens ni la fraîcheur des yeux procurée par les enfants ou la richesse ne peuvent en détourner",
+          "de": "den weder der Schmuck des Besitzes noch die Kühlung der Augen, die durch Kinder oder Reichtum entsteht, davon abhalten kann",
+          "ru": "которых не отвратят от этого ни украшение имущества, ни прохлада глаз, приносимая детьми или богатством",
+          "zh": "既非财产的装饰，也非子女或财富带来的眼目清凉，能使其远离它"
+        },
+        "word_start": 6,
+        "word_end": 19
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "يَقُولُ اللَّهُ سُبْحَانَهُ",
+        "translations": {
+          "en": "Allāh, the Glorified, says",
+          "ur": "اللہ تعالیٰ فرماتا ہے",
+          "tr": "Allāh, ",
+          "fa": "خداوند، جلیل‌القدر، می‌فرماید:",
+          "id": "Allah, Yang Maha Mulia, berfirman",
+          "bn": "আল্লাহ, মহিমান্বিত, বলেন",
+          "es": "Alā, el Glorificado, dice",
+          "fr": "Allāh, le Glorifié dit :",
+          "de": "Allāh, der Erhabene, sagt",
+          "ru": "Аллах, Всевышний, говорит:",
+          "zh": "text"
+        },
+        "word_start": 19,
+        "word_end": 22
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "﴿رِجَالٌ لَا تُلْهِيهِمْ تِجَارَةٌ وَلَا بَيْعٌ عَنْ ذِكْرِ اللَّهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ﴾‏",
+        "translations": {
+          "en": "“Men whom neither merchandise nor any sale diverteth from the remembrance of Allah and constancy in prayer and paying the poor-rate; ...”",
+          "ur": "«مرد جو نہ کوئی تجارت اور نہ ہی کوئی بیچنے کا کام انہیں اللہ کی یاد اور نماز کی پابندی اور زکوٰۃ ادا کرنے سے غافل کرتی ہے...»",
+          "tr": "Allah'ı zikretmekten, namazı kılmaktan ve zekâtı vermekten alıkonmayan, ...",
+          "fa": "مردانی که نه خرید و فروش و نه هیچ معامله‌ای آنان را از یاد خدا و برپایی نماز و پرداخت زکات باز می‌دارد؛ ...",
+          "id": "“(Laki-laki) yang tidak dilalaikan oleh jual beli dan perdagangan dari mengingat Allah dan mendirikan salat serta membayar zakat; ...”",
+          "bn": "যে পুরুষগণকে বাণিজ্য বা অন্য কোনো বিক্রয় আল্লাহর স্মরণ ও নামাজের স্থায়িত্ব ও যাকাত প্রদান থেকে বিরত রাখে না; ...",
+          "es": "Hombres a quienes ni el comercio ni ninguna venta distraen del recuerdo de Alá y de la constancia en la oración y del pago de la zakat; ...",
+          "fr": "« Des hommes que Allah n'ont d'autre souci que de se souvenir d'Allah, d'accomplir la salat et de s'acquitter de la zakat. »",
+          "de": "Männer, die weder Handel noch irgendein Verkauf von der Erinnerung an Allah und der Beständigkeit im Gebet und der Entrichtung der Armensteuer abhalten; ...",
+          "ru": "Мужчины, которых ни торговля, ни никакая другая продажа не отвлекают от поминания Аллаха и постоянства в молитве и выплаты закята; ...",
+          "zh": "“那些不因买卖或贸易而忽视记念真主、谨守拜功并缴纳天课的人；…”"
+        },
+        "word_start": 22,
+        "word_end": 35
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In Shia exegesis, this passage from Nahj al-Balagha identifies the 'rijal' (men) not merely as gendered individuals but as exemplars of spiritual constancy, specifically echoing the description of the faithful in Surah An-Nur. It underscores the practical implication that true religious fulfillment requires detachment from the dual distractions of commerce and progeny, a theme deeply resonant with the concept of *zuhd* (asceticism) in Imami tradition. The citation of Quran 24:37 serves to validate the triad of dhikr, salat, and zakat as the core pillars of this undistracted devotion.",
+        "seo_question": "What distinguishes believers who remain focused on God despite worldly distractions?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "adornment of property/worldly goods",
+          "قُرَّةُ عَيْنٍ": "coolness of the eyes (pleasure/delight)",
+          "تِلْهِي": "divert/distract",
+          "ذِكْرِ اللَّهِ": "remembrance of Allah",
+          "إِقَامِ الصَّلَاةِ": "constancy in prayer",
+          "إِيتَاءِ الزَّكَاةِ": "paying the alms-tax"
+        }
+      },
+      "ur": {
+        "summary": "شیعہ تفسیر میں، یہ نہج البلاغہ کا اقتباس 'رجال' (مردوں) کو محض جنسی حیثیت کے حامل افراد کے طور پر نہیں بلکہ روحانی استقامت کے نمونوں کے طور پر شناخت کرتا ہے، جو خاص طور پر سورہ النور میں مومنین کی توصیف کی عکاسی کرتا ہے۔ یہ اس عملی پہلو پر زور دیتا ہے کہ حقیقی مذہبی تکمیل کے لیے تجارت اور اولاد کی دوہری توجہ بھٹکانے والی چیزوں سے کنارہ کشی ضروری ہے، جو امامی روایت میں *زہد* (تقویٰ) کے تصور سے گہرا ہم آہنگ ہے۔ قرآن 24:37 کا حوالہ ذکر، نماز اور زکوٰۃ کے تین ستونوں کو اس بے توجہی سے پاک عبادت کے بنیادی ارکان کے طور پر ثابت کرنے کے لیے دیا گیا ہے۔",
+        "seo_question": "دنیاوی توجہ بھٹکانے والی چیزوں کے باوجود اللہ پر مرکوز رہنے والے مومنین کو کیا خاصیت حاصل ہے؟",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "مال کی زینت",
+          "قُرَّةُ عَيْنٍ": " آنکھوں کی ٹھنڈک",
+          "تِلْهِي": "توجہ بھٹکانا",
+          "ذِكْرِ اللَّهِ": "اللہ کا ذکر",
+          "إِقَامِ الصَّلَاةِ": "نماز کی پابندی",
+          "إِيتَاءِ الزَّكَاةِ": "زکوٰۃ ادا کرنا"
+        }
+      },
+      "tr": {
+        "summary": "Şii tefsirinde, Nahcülbela'dan bu pasaj, 'rijal'ı (erkekleri) cinsiyetli bireyler olarak değil, manevi istikrarın örnekleri olarak tanımlar; özellikle Nur Suresi'ndeki müminlerin tanımıyla yankılanır. Gerçek dini tatminin, ticaret ve nesil gibi iki tür dikkat dağıtıcı unsurdan kopmayı gerektirdiğini vurgular; bu tema, İmami geleneğinde *zuhd* (tasavvufi zühd) kavramıyla derin bir uyum içindedir. Kuran 24:37'nin atıfı, dhikr, salat ve zekât'ın bu dikkatli ibadetin temel direkleri olarak doğrulanmasını sağlar.",
+        "seo_question": "Dünyevi dikkat dağıtıcı unsurlara rağmen Allah'a odaklanan müminleri ayırt eden nedir?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "malın/zenginliğin süsü",
+          "قُرَّةُ عَيْنٍ": "gözlerin nuru (neşe/huzur)",
+          "تِلْهِي": "dikkatini dağıtmak/yalnız bırakmak",
+          "ذِكْرِ اللَّهِ": "Allah'ın zikri",
+          "إِقَامِ الصَّلَاةِ": "namazın ikamesi",
+          "إِيتَاءِ الزَّكَاةِ": "zekâtın verilmesi"
+        }
+      },
+      "fa": {
+        "summary": "در تفسیر شیعه، این بخش از نهج‌البلاغه «رجال» را نه صرفاً به‌عنوان افراد مذکر، بلکه به‌عنوان الگوهای ثبات معنوی معرفی می‌کند که به‌طور خاص با توصیف مؤمنان در سوره نور همخوانی دارد. این متن بر این نکته تأکید می‌کند که تحقق دینی واقعی نیازمند رهایی از دو حواس‌پرتی تجارت و فرزندان است، موضوعی که با مفهوم زهد در سنت امامیه هم‌خوانی عمیقی دارد. استناد به آیه ۳۷ سوره نور برای تأیید مثلث ذکر، نماز و زکات به‌عنوان ستون‌های اصلی این عبادت بی‌حواس‌پرتی انجام می‌شود.",
+        "seo_question": "چه چیزی مؤمنانی را که علی‌رغم حواس‌‌پرتی‌های دنیوی بر خدا متمرکز می‌مانند، متمایز می‌کند؟",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "زینت زندگی مادی",
+          "قُرَّةُ عَيْنٍ": "چشم‌نواز",
+          "تِلْهِي": "حواس‌پرتی",
+          "ذِكْرِ اللَّهِ": "ذکر خدا",
+          "إِقَامِ الصَّلَاةِ": "پایبندی به نماز",
+          "إِيتَاءِ الزَّكَاةِ": "پرداخت زکات"
+        }
+      },
+      "id": {
+        "summary": "Dalam tafsir Syiah, bagian dari Nahj al-Balagha ini mengidentifikasi 'rijal' (laki-laki) bukan sekadar individu berjenis kelamin pria, melainkan teladan dari keteguhan spiritual, khususnya yang mencerminkan deskripsi orang beriman dalam Surah An-Nur. Hal ini menekankan implikasi praktis bahwa pemenuhan agama yang sejati memerlukan keterlepasan dari dua gangguan utama, yaitu perdagangan dan keturunan, sebuah tema yang sangat selaras dengan konsep *zuhd* (kesufian) dalam tradisi Imami. Kutipan terhadap Al-Quran 24:37 berfungsi untuk memvalidasi triad dzikir, salat, dan zakat sebagai pilar inti dari pengabdian yang tidak terganggu.",
+        "seo_question": "Apa yang membedakan orang beriman yang tetap fokus pada Tuhan meskipun menghadapi gangguan duniawi?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "hiasan harta benda/barang duniawi",
+          "قُرَّةُ عَيْنٍ": "kesenangan/kegembiraan",
+          "تِلْهِي": "mengalihkan/mengganggu",
+          "ذِكْرِ اللَّهِ": "dzikir Allah",
+          "إِقَامِ الصَّلَاةِ": "menegakkan salat",
+          "إِيتَاءِ الزَّكَاةِ": "membayar zakat"
+        }
+      },
+      "bn": {
+        "summary": "শিয়া তাফসিরে, নহজুল বালাগহার এই অংশে 'রিজাল' (পুরুষ)দের কেবল লিঙ্গভিত্তিক ব্যক্তি হিসেবে নয়, বরং আধ্যাত্মিক স্থিরতার আদর্শ হিসেবে চিহ্নিত করা হয়েছে, যা বিশেষ করে সূরা আন-নূরে বিশ্বাসীদের বর্ণনার প্রতিধ্বনিত করে। এটি জোর দেয় যে প্রকৃত ধর্মীয় পূর্ণতা অর্জনের জন্য বাণিজ্য এবং সন্তানসন্ততির দ্বৈত বিচ্ছুরণ থেকে বিচ্ছিন্ন থাকা প্রয়োজন, যা ইমামি মতবাদে *যুহদ* (ত্যাগশীলতা) ধারণার সাথে গভীরভাবে সামঞ্জস্যপূর্ণ। কুরআন ২৪:৩৭-এর উদ্ধৃতি ধিক্র, সালাত এবং জাকাতকে এই অবিচ্ছিন্ন ভক্তির মূল স্তম্বর হিসেবে বৈধতা প্রদান করে।",
+        "seo_question": "কী বিষয়বস্তু বিশ্বাসীদেরকে পৃথিবীর বিচ্ছুরণের মধ্যেও আল্লাহর প্রতি কেন্দ্রীভূত থাকতে সাহায্য করে?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "সম্পদ/পৌথিক বস্তুর অলংকার",
+          "قُرَّةُ عَيْنٍ": "চোখের শীতলতা (আনন্দ/রস)",
+          "تِلْهِي": "বিচ্ছিন্ন করা/মনোযোগ ভঙ্গ করা",
+          "ذِكْرِ اللَّهِ": "আল্লাহর স্মরণ",
+          "إِقَامِ الصَّلَاةِ": "নামাজে স্থিরতা",
+          "إِيتَاءِ الزَّكَاةِ": "যাকাত প্রদান"
+        }
+      },
+      "es": {
+        "summary": "En la exégesis chií, este pasaje de Nahj al-Balagha identifica a los 'rijal' (hombres) no meramente como individuos de género, sino como ejemplos de constancia espiritual, evocando específicamente la descripción de los fieles en la Surah An-Nur. Subraya la implicación práctica de que el cumplimiento religioso verdadero requiere desapego de las distracciones duales del comercio y la descendencia, un tema profundamente resonante con elocuente con el concepto de *zuhd* (ascetismo) en la tradición imamí. La cita del Corán 24:37 sirve para validar la tríada de dhikr, salat y zakat como los pilares centrales de esta devoción sin distracciones.",
+        "seo_question": "¿Qué distingue a los creyentes que permanecen enfocados en Dios a pesar de las distracciones mundanas?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "adorno de bienes mundanos",
+          "قُرَّةُ عَيْنٍ": "frescura de los ojos (placer/delicia)",
+          "تِلْهِي": "divertir/distraer",
+          "ذِكْرِ اللَّهِ": "rememoración de Allah",
+          "إِقَامِ الصَّلَاةِ": "constancia en la oración",
+          "إِيتَاءِ الزَّكَاةِ": "pago del impuesto de limosna"
+        }
+      },
+      "fr": {
+        "summary": "Dans l'exégèse chiite, ce passage du Nahj al-Balagha identifie les 'rijal' (hommes) non pas simplement comme des individus de sexe masculin, mais comme des modèles de constance spirituelle, faisant écho à la description des fidèles dans la sourate An-Nur. Il souligne l'implication pratique selon laquelle l'accomplissement religieux véritable nécessite un détachement des distractions doubles du commerce et de la progéniture, un thème profondément résonant avec le concept de *zuhd* (ascétisme) dans la tradition imamite. La citation du Coran 24:37 sert à valider la triade du dhikr, de la salat et de la zakat comme piliers fondamentaux de cette dévotion sans distraction.",
+        "seo_question": "Qu'est-ce qui distingue les croyants qui restent concentrés sur Dieu malgré les distractions mondaines ?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "ornement des biens/du monde",
+          "قُرَّةُ عَيْنٍ": "frayeur des yeux (plaisir/délice)",
+          "تِلْهِي": "divertir/distraire",
+          "ذِكْرِ اللَّهِ": "commémoration d'Allah",
+          "إِقَامِ الصَّلَاةِ": "constance dans la prière",
+          "إِيتَاءِ الزَّكَاةِ": "acquittement de la zakat"
+        }
+      },
+      "de": {
+        "summary": "In der schiitischen Exegese identifiziert dieser Abschnitt aus Nahj al-Balagha die 'Rijal' (Männer) nicht nur als geschlechtlich definierte Individuen, sondern als Vorbilder geistiger Beständigkeit, die spezifisch die Beschreibung der Gläubigen in Sure An-Nur widerspiegeln. Er unterstreicht die praktische Implikation, dass wahre religiöse Erfüllung die Loslösung von den dualen Ablenkungen durch Handel und Nachkommen erfordert, ein Thema, das tief mit dem Konzept der *Zuhd* (Askese) in der Imami-Tradition resoniert. Die Zitation von Koran 24:37 dient dazu, die Triade aus Dhikr, Salat und Zakat als die Kernpfeiler dieser ungeteilten Hingabe zu validieren.",
+        "seo_question": "Was unterscheidet Gläubige, die trotz weltlicher Ablenkungen auf Gott fokussiert bleiben?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "Schmuck irdischer Güter",
+          "قُرَّةُ عَيْنٍ": "Augenweide (Freude/Entzücken)",
+          "تِلْهِي": "ablenken/zerstreuen",
+          "ذِكْرِ اللَّهِ": "Gedenken Allahs",
+          "إِقَامِ الصَّلَاةِ": "Beständigkeit im Gebet",
+          "إِيتَاءِ الزَّكَاةِ": "Zahlen der Almosensteuer"
+        }
+      },
+      "ru": {
+        "summary": "В шиитском тафсире этот отрывок из «Нахдж аль-Балаги» определяет «риджаль» (мужей) не просто как лиц мужского пола, но как образцы духовной постоянства, конкретно отражая описание верующих в суре Ан-Нур. Он подчеркивает практическое следствие: истинное религиозное исполнение требует отречения от двойных отвлечений, связанных с торговлей и потомством, что глубоко резонирует с концепцией *зухд* (аскетизма) в имамитской традиции. Цитирование Корана 24:37 служит для подтверждения триады зикр, салат и закят как основных столпов этого не отвлекаемого поклонения.",
+        "seo_question": "Что отличает верующих, которые остаются сосредоточенными на Аллахе, несмотря на мирские отвлечения?",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "украшение имущества/мирских благ",
+          "قُرَّةُ عَيْنٍ": "прохлада глаз (удовольствие/восторг)",
+          "تِلْهِي": "отвлекать/развлекать",
+          "ذِكْرِ اللَّهِ": "поминание Аллаха",
+          "إِقَامِ الصَّلَاةِ": "постоянство в молитве",
+          "إِيتَاءِ الزَّكَاةِ": "уплата закята"
+        }
+      },
+      "zh": {
+        "summary": "在什叶派经注学中，《纳赫哲·布拉格》的这段经文将“里贾尔”（男子）不仅视为性别个体，更视为精神恒常性的典范，特别呼应了《光之章》中对信士的描述。它强调了真正的宗教圆满需要摆脱商业和子嗣这两种分散注意力的事物，这一主题与伊玛目派传统中的“祖赫德”（苦修）概念产生深刻共鸣。引用《古兰经》24:37旨在验证念主、礼拜和天课作为这种无分心崇拜的核心支柱。",
+        "seo_question": "什么使信徒在世俗干扰中仍能专注于真主？",
+        "key_terms": {
+          "زِينَةُ مَتَعٍ": "财富的装饰",
+          "قُرَّةُ عَيْنٍ": "眼目的清凉",
+          "تِلْهِي": "分散注意力",
+          "ذِكْرِ اللَّهِ": "记念真主",
+          "إِقَامِ الصَّلَاةِ": "谨守拜功",
+          "إِيتَاءِ الزَّكَاةِ": "缴纳天课"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "24:37",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "9:55",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "63:9",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَقَدْ عَرَفَ حَقَّهَا رِجَالٌ مِنَ الْمُؤْمِنِينَ الَّذِينَ لَا تَشْغَلُهُمْ عَنْهَا زِينَةُ مَتَعٍ، وَلَا قُرَّةُ عَيْنٍ مِنْ وَلَدٍ وَلَا مَالٍ يَقُولُ اللَّهُ سُبْحَانَهُ ﴿رِجَالٌ لَا تُلْهِيهِمْ تِجَارَةٌ وَلَا بَيْعٌ عَنْ ذِكْرِ اللَّهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ﴾‏",
+    "isnad_matn": {
+      "isnad_ar": "وَقَدْ عَرَفَ حَقَّهَا رِجَالٌ مِنَ الْمُؤْمِنِينَ الَّذِينَ لاَ تَشْغَلُهُمْ عنْهَا زِينَةُ مَتَاع، وَلاَ قُرَّةُ عَيْن مِنْ وَلَد وَلاَ مَال، يَقُولُ",
+      "matn_ar": "وَقَدْ عَرَفَ حَقَّهَا رِجَالٌ مِنَ الْمُؤْمِنِينَ الَّذِينَ لَا تَشْغَلُهُمْ عَنْهَا زِينَةُ مَتَعٍ، وَلَا قُرَّةُ عَيْنٍ مِنْ وَلَدٍ وَلَا مَالٍ يَقُولُ اللَّهُ سُبْحَانَهُ ﴿رِجَالٌ لَا تُلْهِيهِمْ تِجَارَةٌ وَلَا بَيْعٌ عَنْ ذِكْرِ اللَّهِ وَإِقَامِ الصَّلَاةِ وَإِيتَاءِ الزَّكَاةِ﴾‏",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وقد عرف حقها رجال من المؤمنين الذين لا تشغلهم عنها زينة متاع، ولا قرة عين من ولد ولا مال،",
+          "name_en": "wa qad 'urifa haquha rijalun min al-mu'minina alladhina la tashghuluhum 'anha zinat matā', wa lā qurratu 'aynin min waladin wa lā māl",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "ذِكْرُ اللَّهِ",
+        "phrase_en": "Remembrance of Allah",
+        "category": "theological_concept"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

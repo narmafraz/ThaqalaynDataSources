@@ -1,0 +1,287 @@
+{
+  "verse_path": "/books/kitab-al-ghayba-tusi:33:28",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-23",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[0] name_ar has 57 words (>14, بن-density 0.02 — likely a sentence fragment, not a name): 'وأما القائلون بإمامة جعفر بن علي بعد أخيه عليه السلام، فقوله'"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "knowledge"
+    ],
+    "content_type": "creedal",
+    "topics": [
+      "imamate",
+      "imams_biography",
+      "divine_knowledge"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "وَأَمَّا الْقَائِلُونَ بِإِمَامَةِ جَعْفَرِ بْنِ عَلِيٍّ بَعْدَ أَخِيهِ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "As for those who say that Ja'far ibn Ali had the Imamate after his brother (peace be upon him),",
+          "ur": "اور جن لوگوں کا کہنا ہے کہ جعفر بن علی نے اپنے بھائی (علیہ السلام) کے بعد امامت کی،",
+          "tr": "İmamın kardeşi (aleyhisselam) vefat ettikten sonra Cefar ibn Ali'nin imamet sahibi olduğunu söyleyenlere gelince,",
+          "fa": "و اما قائلان به امامت جعفر بن علي پس از برادرش (علیه السلام)،",
+          "id": "Adapun orang-orang yang mengatakan bahwa Ja'far ibn Ali memiliki Imamah setelah saudaranya (semoga keselamatan atasnya),",
+          "bn": "যেমন, যারা বলে যে জাফর ইবনে আলী (আ.)-এর ভাইয়ের (আ.) পরে ইমামত লাভ করেছিলেন,",
+          "es": "En cuanto a los que afirman que Yafar ibn Alí tuvo el Imamat después de su hermano (que la paz sea con él),",
+          "fr": "Quant à ceux qui affirment que Ja'far ibn Ali a détenu l'Imamat après son frère (que la paix soit sur lui),",
+          "de": "Was diejenigen betrifft, die behaupten, dass Dscha'far ibn Ali nach seinem Bruder (Friede sei mit ihm) das Imamat innehatte,",
+          "ru": "Что касается тех, кто говорит, что Джафар ибн Али имел имамат после своего брата (да будет мир с ним),",
+          "zh": "至于那些说贾法尔·本·阿里在其兄弟（愿主福安之）之后担任伊玛目的人，"
+        },
+        "word_start": 0,
+        "word_end": 10
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَوْلُهُمْ بَاطِلٌ بِمَا دَلَّلْنَا عَلَيْهِ مِنْ أَنَّهُ يَجِبُ أَنْ يَكُونَ الْإِمَامُ مَعْصُومًا لَا يَجُوزُ عَلَيْهِ الْخَطَأُ، وَأَنَّهُ يَجِبُ أَنْ يَكُونَ أَعْلَمَ الْأُمَّةِ بِالْأَحْكَامِ.",
+        "translations": {
+          "en": "their statement is false based on what we have demonstrated, that it is necessary for the Imam to be infallible, error being impossible for him, and that it is necessary for him to be the most knowledgeable of the Ummah in the rulings.",
+          "ur": "ان کا قول اس بات کی بنیاد پر غلط ہے جو ہم نے ثابت کیا ہے کہ امام معصوم ہونا ضروری ہے، اور اس پر غلطی کا محال ہے، اور یہ بھی ضروری ہے کہ وہ احکام میں امت کا سب سے زیادہ عالم ہو۔",
+          "tr": "Bizim gösterdiğimiz üzere, İmam'ın mücerreb (hatasız) olması, kendisine hatanın mümkün olmaması ve Ummet'in hükümler konusunda en bilge olanın kendisi olması gerektiği için, onların sözü yanlıştır.",
+          "fa": "قول آنان بر اساساً با آنچه ما اثبات کردیم، نادرست است، یعنی ضرورت دارد که امام معصوم باشد و خطا از او محال است، و ضرورت دارد که او داناترین امت در احکام باشد.",
+          "id": "Pernyataan mereka adalah keliru berdasarkan apa yang telah kami jelaskan, bahwa Imam haruslah ma'shum, kesalahan tidak mungkin terjadi padanya, dan bahwa ia harus menjadi yang paling alim di antara umat dalam hukum-hukum.",
+          "bn": "আমাদের প্রদর্শিত বিষয়ের ভিত্তিতে তাদের বক্তব্য মিথ্যা, যে ইমামের অশ্রম্যতা আবশ্যক, তার ভুল হওয়া অসম্ভব, এবং তিনি উম্মাহর ফিকহে অধিক জ্ঞানী হওয়া আবশ্যক।",
+          "es": "Su afirmación es falsa según lo que hemos demostrado, que es necesario que el Imam sea infalible, siendo el error imposible para él, y que es necesario que sea el más conocedor de la Ummah en las normas.",
+          "fr": "Leur affirmation est fausse, à la lumière de ce que nous avons démontré, à savoir qu'il est nécessaire que l'Imam soit infaillible, l'erreur lui étant impossible, et qu'il est nécessaire qu'il soit le plus savant de l'Oumma en matière de fiqh.",
+          "de": "Ihre Aussage ist falsch, basierend auf dem, was wir dargelegt haben, dass es notwendig ist, dass der Imam unfehlbar ist, dass der Irrtum für ihn unmöglich ist, und dass es notwendig ist, dass er der wissendste der Ummah in den Rechtsentscheidungen ist.",
+          "ru": "Их утверждение ложно, исходя из того, что мы продемонстрировали: необходимо, чтобы Имам был масумом, и ошибка была невозможна для него, и что необходимо, чтобы он был наиболее знающим из уммы в вопросах фикха.",
+          "zh": "他们的陈述是错误的，基于我们所证明的，伊玛目必须是无谬的，错误对他而言是不可能的，并且他必须是乌玛中在教律方面最有知识的人。"
+        },
+        "word_start": 10,
+        "word_end": 33
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَجَعْفَرُ لَمْ يَكُنْ مَعْصُومًا بِلَا خِلَافٍ، وَمَا ظَهَرَ مِنْ أَفْعَالِهِ الَّتِي تَنَافِي الْعِصْمَةَ أَكْثَرَ مِنْ أَنْ يُحْصَى، لَا نُطِيلُ بِذِكْرِهَا الْكِتَابَ، وَإِنْ عَرَضَ فِيمَا بَعْدَ مَا يَقْتَضِي ذِكْرَ بَعْضِهَا ذَكَرْنَاهُ.",
+        "translations": {
+          "en": "And Ja'far was not infallible without dispute, and what appeared from his actions that contradict infallibility is more than can be counted; we will not prolong the book by mentioning them, and if something arises later that requires mentioning some of them, we will mention them.",
+          "ur": "اور جعفر علیہ السلام بلا اختلاف معصوم نہیں تھے، اور ان کے افعال سے جو کچھ معصومیت کے خلاف ظاہر ہوا وہ گنتی سے باہر ہے؛ ہم کتاب کو ان کی تفصیل سے طویل نہیں کریں گے، اور اگر بعد میں کوئی بات پیش آئے جس کے لیے ان میں سے کچھ کا ذکر ضروری ہو، تو ہم ان کا ذکر کریں گے۔",
+          "tr": "Ve Cafer, tartışmasız masum değildi; ve eylemlerinden masumiyete aykırı olarak ortaya çıkan şeyler sayılamayacak kadar çoktur; onları zikrederek kitabı uzatmayacağız, ve daha sonra onlardan bazılarını zikretmeyi gerektiren bir şey ortaya çıkarsa, onları zikredeceğiz.",
+          "fa": "و جعفر بی‌گمان معصوم نبود، و آنچه از اعمال او ظاهر شد که با عصمت در تضاد است، بیش از آن است که بشمار آید؛ ما کتاب را به ذکر آن‌ها طولانی نمی‌کنیم، و اگر بعداً چیزی پیش آید که ذکر برخی از آن‌ها را لازم کند، آن‌ها را ذکر خواهیم کرد.",
+          "id": "Dan Ja'far tidak bebas dari kesalahan tanpa perselisihan, dan apa yang tampak dari tindakannya yang bertentangan dengan ketidakbersalahan lebih banyak daripada yang dapat dihitung; kami tidak akan memperpanjang buku ini dengan menyebutkan semuanya, dan jika nanti muncul sesuatu yang memerlukan penyebutan sebagian darinya, kami akan menyebutkan hal tersebut.",
+          "bn": "এবং জাফর ছিলেন অমোঘ, এ বিষয়ে কোনো বিতর্ক ছিল না, এবং তাঁর কর্মকান্ড থেকে যা অমোঘত্বের বিরোধী প্রকাশ পেয়েছে তা গণনা করা যায় না; আমরা বইকে দীর্ঘ করতে চাই না এগুলো উল্লেখ করে, এবং যদি পরে কিছু উঠে আসে যা এগুলোর মধ্যে কিছু উল্লেখ করতে বাধ্য করে, তবে আমরা সেগুলো উল্লেখ করব।",
+          "es": "Y Ja'far no era infalible sin disputa, y lo que apareció de sus acciones que contradice la infalibilidad es más de lo que puede contarse; no alargaremos el libro mencionándolos, y si surge algo más tarde que requiera mencionar algunos de ellos, los mencionaremos.",
+          "fr": "Et Ja'far n'était pas infaillible sans contestation, et ce qui est apparu de ses actions contredisant l'infaillibilité est plus que ce qu'on peut compter ; nous ne prolongerons pas le livre en les mentionnant, et si quelque chose surgit plus tard qui nécessite de mentionner certaines d'entre elles, nous les mentionnerons.",
+          "de": "Und Dschafar war ohne Zweifel nicht unfehlbar, und das, was aus seinen Handlungen hervorgeht, was der Unfehlbarkeit widerspricht, ist mehr, als aufgezählt werden kann; wir werden das Buch nicht verlängern, indem wir sie erwähnen, und wenn später etwas auftaucht, das die Erwähnung einiger von ihnen erfordert, werden wir sie erwähnen.",
+          "ru": "И Джафар не был безошибочным (ма'sум) без споров, и то, что проявлялось из его действий, противоречащих безошибочности, более чем можно пересчитать; мы не будем удлинять книгу, перечисляя их, и если позже возникнет что-то, требующее упоминания некоторых из них, мы упомянем их.",
+          "zh": "贾法尔并非无可争议地无罪，从他行为中显现出的与无罪相矛盾之处不胜枚举；我们不再因列举它们而延长本书，若日后有需提及其中某些内容者，我们将予以提及。"
+        },
+        "word_start": 33,
+        "word_end": 63
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَأَمَّا كَوْنُهُ عَالِمًا فَإِنَّهُ كَانَ خَلِيًا مِنْهُ، فَكَيْفَ تُثْبِتُ إِمَامَتَهُ عَلَى أَنَّ الْقَائِلِينَ بِهَذِهِ الْمَقَالَةِ قَدْ انْقَرَضُوا أَيْضًا وَلِلَّهِ الْحَمْدُ وَالْمِنَّةُ.",
+        "translations": {
+          "en": "As for his being knowledgeable, he was devoid of it, so how can his Imamate be established? And those who held this creed have perished, and to Allah belongs all praise and grace.",
+          "ur": "جبکہ اس کی علم کی معرفت تھی، وہ اس سے خالی تھا، پس اس کی امامت کیسے قائم کی جا سکتی ہے؟ اور جن لوگوں نے یہ عقیدہ رکھا، وہ ہلاک ہو گئے، اور تمام تعریف اور فضل اللہ ہی کو ہے۔",
+          "tr": "Bilgili olması meselesine gelince, o bundan yoksundu, öyleyse İmameti nasıl ispat edilir? Bu inanca sahip olanlar helak oldu, tüm hamd ve lütuf Allah'a aittir.",
+          "fa": "و اما دانشمند بودن او، او از آن محروم بود، پس چگونه امامت او ثابت می‌شود؟ و کسانی که به این اعتقاد بودند هلاک شدند، و تمام ستایش و لطف از آنِ خداست.",
+          "id": "Adapun mengenai pengetahuannya, ia kekurangan ilmu, maka bagaimana mungkin Imamahnya dapat ditegakkan? Dan orang-orang yang berpegang pada keyakinan ini telah binasa, dan bagi Allah-lah segala puji dan anugerah.",
+          "bn": "তিনি জ্ঞানী ছিলেন, এ বিষয়ে তিনি ছিলেন শূন্য, তাহলে তাঁর ইমামত কীভাবে প্রতিষ্ঠিত হবে? আর যারা এই আকিদা পোষণ করেছেন, তারা হারিয়ে গেছে, এবং সমস্ত প্রশংসা ও অনুগ্রহ আল্লাহর জন্য।",
+          "es": "En cuanto a su conocimiento, carecía de él, ¿cómo puede establecerse su Imamato? Y aquellos que sostenían esta creencia han perecido, y a Alá pertenece toda alabanza y gracia.",
+          "fr": "Quant à son savoir, il en était dépourvu, alors comment son Imamat peut-il être établi ? Et ceux qui ont adhéré à cette croyance ont péri, et à Allah appartient toute louange et grâce.",
+          "de": "Was seine Gelehrsamkeit betrifft, so war er davon frei, wie also kann seine Imamah begründet werden? Und diejenigen, die an dieses Glaubensbekenntnis festhielten, sind zugrunde gegangen, und Allah gebührt all das Lob und die Gnade.",
+          "ru": "Что касается его знания, то он был лишён его, то как же может быть установлено его Имаматы? И те, кто придерживался этого вероубеждения, погибли, и вся хвала и милость принадлежат Аллаху.",
+          "zh": "至于他的学识，他毫无所知，那么他的伊玛目地位怎能确立呢？秉持这一信条的人已遭毁灭，一切赞颂与恩典归于真主。"
+        },
+        "word_start": 63,
+        "word_end": 84
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Shaykh al-Tusi refutes the Qutbiyya sect's claim that Ja'far ibn Ali succeeded Hasan al-Askari by emphasizing the necessity of 'ismah (infallibility) and supreme knowledge, noting that Ja'far's known actions contradicted these traits. He concludes that this view is obsolete, highlighting the distinct Shia position that distinguishes the infallible Imam from other family members who may be learned but not divinely protected from error.",
+        "seo_question": "Why is Ja'far ibn Ali considered to not have had the Imamate according to Shia scholars?",
+        "key_terms": {
+          "إِمَامَة": "Imamate (leadership/divine authority)",
+          "مَعْصُومًا": "Infallible",
+          "الْخَطَأُ": "Error/Mistake",
+          "الْأَحْكَام": "Rulings/Legal decrees",
+          "الْعِصْمَة": "Infallibility",
+          "الْمَقَالَة": "Creed/Statement"
+        }
+      },
+      "ur": {
+        "summary": "شیخ طوسی نے قوتبیہ فرقے کے دعویٰ کی تردید کی کہ جعفر بن علی نے حسن العسکری کی جانشینی کی، اس بات پر زور دیتے ہوئے کہ عصمت (بے عیبی) اور عالیٰ ترین علم کی ضرورت ہے، اور نوٹ کرتے ہوئے کہ جعفر کے معلوم اعمال ان صفات کے متضاد تھے۔ انہوں نے نتیجہ اخذ کیا کہ یہ نظریہ قدیم ہے، اور اس امتیازی شیعہ موقف کو اجاگر کیا جو معصوم امام کو دیگر خاندانی اراکین سے ممتاز کرتا ہے جو علم والے ہو سکتے ہیں لیکن خطا سے الہیٰ تحفظ یافتہ نہیں۔",
+        "seo_question": "شیعہ علماء کے نزدیک جعفر بن علی کو امامت سے محروم کیوں سمجھا جاتا ہے؟",
+        "key_terms": {
+          "إِمَامَة": "امامت",
+          "مَعْصُومًا": "معصوم",
+          "الْخَطَأُ": "خطا",
+          "الْأَحْكَام": "احکام",
+          "الْعِصْمَة": "عصمت",
+          "الْمَقَالَة": "مقالہ"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh et-Tusi, Cevfar b. Ali'nin Hasan el-Askari'nin yerine geçtiğini iddia eden Kutbiyya mezhebinin görüşünü, 'ismah (günahsızlık) ve üstün ilmin gerekliliğini vurgulayarak çürütür; Cevfar'ın bilinen eylemlerinin bu niteliklerle çeliştiğini belirtir. Sonuç olarak, bu görüşün eski olduğunu ve hata yapmaktan ilahi olarak korunmuş İmam ile öğrenimli olabilirler ama ilmi korunmuş olmayan diğer aile üyeleri arasında ayrım yapan belirgin Şii pozisyonunu vurgular.",
+        "seo_question": "Şii alimlerine göre Cevfar b. Ali'nin imametinin neden olmadığı kabul edilir?",
+        "key_terms": {
+          "إِمَامَة": "İmamet",
+          "مَعْصُومًا": "Günahsız",
+          "الْخَطَأُ": "Hata",
+          "الْأَحْكَام": "Hükümler",
+          "الْعِصْمَة": "İsmah",
+          "الْمَقَالَة": "Makale"
+        }
+      },
+      "fa": {
+        "summary": "شیخ طوسی ادعای قوطیه را که جعفر بن علی جانشین حسن عسکری است، با تأکید بر ضرارت عصمت (بی‌گناهی) و دانش برتر رد می‌کند و اشاره می‌کند که اقدامات شناخته‌شده جعفر با این ویژگی‌ها در تضاد بود. او نتیجه می‌گیرد که این دیدگاه منسوخ است و جایگاه متمایز شیعه را برجسته می‌سازد که امام بی‌گنا را از سایر اعضای خانواده که ممکن است دانشمند باشند اما از خطا معصوم نباشند، متمایز می‌کند.",
+        "seo_question": "چرا جعفر بن علی از نظر علمای شیعه امامت نداشته است؟",
+        "key_terms": {
+          "إِمَامَة": "امامت",
+          "مَعْصُومًا": "معصوم",
+          "الْخَطَأُ": "خطا",
+          "الْأَحْكَام": "احکام",
+          "الْعِصْمَة": "عصمت",
+          "الْمَقَالَة": "مقاله"
+        }
+      },
+      "id": {
+        "summary": "Syekh al-Thusi membantah klaim sekte Qutbiyya bahwa Ja'far bin Ali menggantikan Hasan al-Askari dengan menekankan pentingnya 'ismah (keterpeliharaan dari dosa) dan pengetahuan tertinggi, mencatat bahwa tindakan Ja'far yang diketahui bertentangan dengan sifat-sifat ini. Ia menyimpulkan bahwa pandangan ini sudah usang, menyoroti posisi Syiah yang khas yang membedakan Imam yang infallible dari anggota keluarga lainnya yang mungkin berpengetahuan tetapi tidak dilindungi secara ilahi dari kesalahan.",
+        "seo_question": "Mengapa Ja'far bin Ali dianggap tidak memiliki Imamah menurut ulama Syiah?",
+        "key_terms": {
+          "إِمَامَة": "Imamah",
+          "مَعْصُومًا": "Infallible",
+          "الْخَطَأُ": "Kesalahan",
+          "الْأَحْكَام": "Hukum",
+          "الْعِصْمَة": "Ismah",
+          "الْمَقَالَة": "Aqidah"
+        }
+      },
+      "bn": {
+        "summary": "শায়খ আল-তুসি জাফর ইবনে আলির হাসান আল-আসকারির উত্তরসূরি হওয়ার দাবিকে প্রত্যাখ্যান করেন, 'ইসমাহ' (অপরাহ্নতা) এবং সর্বোচ্চ জ্ঞানের প্রয়োজনীয়তা জোর দিয়ে, এটি লক্ষ্য করে যে জাফরের পরিচিত কাজগুলো এই বৈশিষ্ট্যগুলোর সাথে সাংঘর্ষিক ছিল। তিনি উপসংহারে বলেন যে এই দৃষ্টিভঙ্গি অবসন্ন, হিশা শিয়া অবস্থানকে তুলে ধরে যা অপরিসীম ইমামকে পরিবারের অন্যান্য সদস্যদের থেকে আলাদা করে, যারা শিক্ষিত হতে পারেন কিন্তু ভুল থেকে ঐশ্বরিকভাবে সুরক্ষিত নন।",
+        "seo_question": "শিয়া পণ্ডিতদের মতে জাফর ইবনে আলি ইমামতকে কেন না বলে গণ্য করা হয়?",
+        "key_terms": {
+          "إِمَامَة": "ইমামত",
+          "مَعْصُومًا": "অপরিসীম",
+          "الْخَطَأُ": "ভুল",
+          "الْأَحْكَام": "রulings",
+          "الْعِصْمَة": "ইসমাহ",
+          "الْمَقَالَة": "ক্রেড"
+        }
+      },
+      "es": {
+        "summary": "El jeque al-Tusi refuta la afirmación de la secta Qutbiyya de que Yafar ibn Ali sucedió a al-Hasan al-Askari, enfatizando la necesidad de la 'ismah (infallibilidad) y el conocimiento supremo, señalando que las acciones conocidas de Yafar contradecían estos rasgos. Concluye que esta visión es obsoleta, destacando la posición distintiva de los chiitas que distingue al Imam infalible de otros miembros de la familia que pueden ser eruditos pero no protegidos divinamente del error.",
+        "seo_question": "¿Por qué se considera que Yafar ibn Ali no tuvo el Imamato según los eruditos chiitas?",
+        "key_terms": {
+          "إِمَامَة": "Imamato",
+          "مَعْصُومًا": "Infalible",
+          "الْخَطَأُ": "Error",
+          "الْأَحْكَام": "Decretos legales",
+          "الْعِصْمَة": "Infallibilidad",
+          "الْمَقَالَة": "Creed"
+        }
+      },
+      "fr": {
+        "summary": "Le cheikh al-Tusi réfute l'affirmation de la secte Qutbiyya selon laquelle Ja'far ibn Ali a succédé à Hasan al-Askari, en soulignant la nécessité de l'ismah (infaillibilité) et de la connaissance suprême, notant que les actions connues de Ja'far contredisaient ces traits. Il conclut que cette vue est obsolète, mettant en évidence la position chiite distincte qui distingue l'Imam infaillible des autres membres de la famille qui peuvent être savants mais non protégés divinement de l'erreur.",
+        "seo_question": "Pourquoi Ja'far ibn Ali est-il considéré comme n'ayant pas eu l'Imamat selon les savants chiites ?",
+        "key_terms": {
+          "إِمَامَة": "Imamat",
+          "مَعْصُومًا": "Infaillible",
+          "الْخَطَأُ": "Erreur/Faute",
+          "الْأَحْكَام": "Règlements/Décrets juridiques",
+          "الْعِصْمَة": "Infaillibilité",
+          "الْمَقَالَة": "Croyance/Énoncé"
+        }
+      },
+      "de": {
+        "summary": "Scheych al-Tusi widerlegt die Behauptung der Qutbiyya-Sekte, dass Dschafar ibn Ali Hasan al-Askari nachfolgte, indem er die Notwendigkeit der 'Ismah (Unfehlbarkeit) und des höchsten Wissens betonte und feststellete, dass die bekannten Handlungen Dschafars diesen Eigenschaften widersprachen. Er kommt zu dem Schluss, dass diese Ansicht veraltet ist, und hebt die besondere schiitische Position hervor, die den unfehlbaren Imam von anderen Familienmitgliedern unterscheidet, die zwar gelehrte, aber nicht göttlich vor Irrtum geschützte Personen sind.",
+        "seo_question": "Warum wird Dschafar ibn Ali nach Ansicht der schiitischen Gelehrten nicht als Imam betrachtet?",
+        "key_terms": {
+          "إِمَامَة": "Imamat",
+          "مَعْصُومًا": "Unfehlbar",
+          "الْخَطَأُ": "Irrtum",
+          "الْأَحْكَام": "Rechtsentscheidungen",
+          "الْعِصْمَة": "Unfehlbarkeit",
+          "الْمَقَالَة": "Glaubensbekenntnis"
+        }
+      },
+      "ru": {
+        "summary": "Шейх ат-Туси опровергает утверждение секты Кутбия о том, что Джафар ибн Али наследовал Хасану аль-Аскари, подчеркивая необходимость исмы (беспорочности) и верховного знания, отмечая, что известные действия Джафара противоречили этим качествам. Он приходит к выводу, что эта точка зрения устарела, выделяя особую шиитскую позицию, которая отличает беспорочного имама от других членов семьи, которые могут быть образованными, но не защищены от ошибок божественно.",
+        "seo_question": "Почему Джафар ибн Али считается не имевшим имамата согласно шиитским ученым?",
+        "key_terms": {
+          "إِمَامَة": "Имамат",
+          "مَعْصُومًا": "Беспорочный",
+          "الْخَطَأُ": "Ошибка",
+          "الْأَحْكَام": "Рulings/Правовые постановления",
+          "الْعِصْمَة": "Исма",
+          "الْمَقَالَة": "Кредо/Утверждение"
+        }
+      },
+      "zh": {
+        "summary": "图译结果已生成，但根据指令要求，输出必须为有效的JSON。以下是符合要求的JSON对象。",
+        "seo_question": "为什么根据什叶派学者的观点，贾法尔·伊本·阿里被认为没有伊玛目职位？",
+        "key_terms": {
+          "إِمَامَة": "伊玛目",
+          "مَعْصُومًا": "无谬",
+          "الْخَطَأُ": "错误",
+          "الْأَحْكَام": "裁决",
+          "الْعِصْمَة": "无谬性",
+          "الْمَقَالَة": "信条"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:144",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:67",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "12:49",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:73",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "وَأَمَّا الْقَائِلُونَ بِإِمَامَةِ جَعْفَرِ بْنِ عَلِيٍّ بَعْدَ أَخِيهِ عَلَيْهِ السَّلَامُ فَقَوْلُهُمْ بَاطِلٌ بِمَا دَلَّلْنَا عَلَيْهِ مِنْ أَنَّهُ يَجِبُ أَنْ يَكُونَ الْإِمَامُ مَعْصُومًا لَا يَجُوزُ عَلَيْهِ الْخَطَأُ، وَأَنَّهُ يَجِبُ أَنْ يَكُونَ أَعْلَمَ الْأُمَّةِ بِالْأَحْكَامِ. وَجَعْفَرُ لَمْ يَكُنْ مَعْصُومًا بِلَا خِلَافٍ، وَمَا ظَهَرَ مِنْ أَفْعَالِهِ الَّتِي تَنَافِي الْعِصْمَةَ أَكْثَرَ مِنْ أَنْ يُحْصَى، لَا نُطِيلُ بِذِكْرِهَا الْكِتَابَ، وَإِنْ عَرَضَ فِيمَا بَعْدَ مَا يَقْتَضِي ذِكْرَ بَعْضِهَا ذَكَرْنَاهُ. وَأَمَّا كَوْنُهُ عَالِمًا فَإِنَّهُ كَانَ خَلِيًا مِنْهُ، فَكَيْفَ تُثْبِتُ إِمَامَتَهُ عَلَى أَنَّ الْقَائِلِينَ بِهَذِهِ الْمَقَالَةِ قَدْ انْقَرَضُوا أَيْضًا وَلِلَّهِ الْحَمْدُ وَالْمِنَّةُ.",
+    "isnad_matn": {
+      "isnad_ar": "وأما القائلون بإمامة جعفر بن علي بعد أخيه عليه السلام، فقولهم باطل بما دللنا عليه من أنه يجب أن يكون الإمام معصوما لا يجوز عليه الخطأ، وأنه يجب أن يكون أعلم الأمة بالأحكام. وجعفر لم يكن معصوما بلا خلاف، وما ظهر من أفعاله التي تنافي العصمة أكثر من أن يحصى، لا نطول بذكرها الكتاب، وإن عرض في",
+      "matn_ar": "وَأَمَّا الْقَائِلُونَ بِإِمَامَةِ جَعْفَرِ بْنِ عَلِيٍّ بَعْدَ أَخِيهِ عَلَيْهِ السَّلَامُ فَقَوْلُهُمْ بَاطِلٌ بِمَا دَلَّلْنَا عَلَيْهِ مِنْ أَنَّهُ يَجِبُ أَنْ يَكُونَ الْإِمَامُ مَعْصُومًا لَا يَجُوزُ عَلَيْهِ الْخَطَأُ، وَأَنَّهُ يَجِبُ أَنْ يَكُونَ أَعْلَمَ الْأُمَّةِ بِالْأَحْكَامِ. وَجَعْفَرُ لَمْ يَكُنْ مَعْصُومًا بِلَا خِلَافٍ، وَمَا ظَهَرَ مِنْ أَفْعَالِهِ الَّتِي تَنَافِي الْعِصْمَةَ أَكْثَرَ مِنْ أَنْ يُحْصَى، لَا نُطِيلُ بِذِكْرِهَا الْكِتَابَ، وَإِنْ عَرَضَ فِيمَا بَعْدَ مَا يَقْتَضِي ذِكْرَ بَعْضِهَا ذَكَرْنَاهُ. وَأَمَّا كَوْنُهُ عَالِمًا فَإِنَّهُ كَانَ خَلِيًا مِنْهُ، فَكَيْفَ تُثْبِتُ إِمَامَتَهُ عَلَى أَنَّ الْقَائِلِينَ بِهَذِهِ الْمَقَالَةِ قَدْ انْقَرَضُوا أَيْضًا وَلِلَّهِ الْحَمْدُ وَالْمِنَّةُ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "وأما القائلون بإمامة جعفر بن علي بعد أخيه عليه السلام، فقولهم باطل بما دللنا عليه من أنه يجب أن يكون الإمام معصوما لا يجوز عليه الخطأ، وأنه يجب أن يكون أعلم الأمة بالأحكام. وجعفر لم يكن معصوما بلا خلاف، وما ظهر من أفعاله التي تنافي العصمة أكثر من أن يحصى، لا نطول بذكرها الكتاب، وإن عرض في",
+          "name_en": "Ja'far b. 'Ali",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "added",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

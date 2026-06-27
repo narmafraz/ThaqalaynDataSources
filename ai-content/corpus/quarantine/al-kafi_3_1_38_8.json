@@ -1,0 +1,282 @@
+{
+  "verse_path": "/books/al-kafi:3:1:38:8",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-08",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "translations.id.summary is empty string (likely Phase 4 batch failure)",
+    "translations.id.seo_question is empty string (likely Phase 4 batch failure)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[2] type='closing' starts with chain transmission verb 'روي' — likely mis-typed isnad content"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "worship",
+      "prophetic_tradition"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "prayer_rulings",
+      "ritual_purity"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ سِنَانٍ عَنِ ابْنِ مُسْكَانَ عَنِ الْحَلَبِيِّ قَالَ",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Ibn Sinan, from Ibn Muskan, from Al-Halby, who said:",
+          "ur": "محمد بن یحییٰ، احمد بن محمد سے، ابن سینان سے، ابن مسکان سے، حلبی سے، انہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Ahmed b. Muhammed'den, İbn Sinan'dan, İbn Miskan'dan, el-Halbi'den, o da şöyle dedi:",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى، عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ، عَنِ ابْنِ سِنَانٍ، عَنِ ابْنِ مُسْكَانَ، عَنِ الْحَلَبِيِّ، قَالَ:",
+          "id": "Muhammad ibn Yahya, dari Ahmad ibn Muhammad, dari Ibn Sinan, dari Ibn Muskan, dari Al-Halby, yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ হতে, ইবনে সিনান হতে, ইবনে মুসকান হতে, আল-হলবী হতে, তিনি বলেন:",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Ibn Sinan, de Ibn Muskan Ibn Sinan, de Ibn Muskan, de Al-Halby, quien dijo:",
+          "fr": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, d'Ibn Sinan, d'Ibn Muskan, d'Al-Halby, qui a dit :",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Ibn Sinan, von Ibn Sinan, von Ibn Muskan, von Al-Halby, der sagte:",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от Ибн Синана, от Ибн Мускана, от аль-Хальби, который сказал:",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德，传自伊本·西南，传自伊本·穆斯卡恩，传自哈勒比，他说："
+        },
+        "word_start": 0,
+        "word_end": 16
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ دَمِ الْبَرَاغِيثِ يَكُونُ فِي الثَّوْبِ هَلْ يَمْنَعُهُ ذَلِكَ مِنَ الصَّلَاةِ فِيهِ قَالَ لَا وَ إِنْ كَثُرَ فَلَا بَأْسَ أَيْضاً بِشِبْهِهِ مِنَ الرُّعَافِ يَنْضَحُهُ وَ لَا يَغْسِلُهُ",
+        "translations": {
+          "en": "I asked Abu Abdullah (peace be upon him) about the blood of fleas that is in the garment; does that prevent him from praying in it? He (peace be upon him) said: 'No, and even if it is abundant, there is no harm. Also with its like from nosebleed: one sprinkles it and does not wash it.'",
+          "ur": "میں نے امام عبداللہ (علیہ السلام) سے کپڑے میں موجود مکھیوں کے خون کے بارے میں پوچھا، کیا یہ اس کی نماز پڑھنے میں رکاوٹ بنتا ہے؟ انہوں نے (علیہ السلام) فرمایا: نہیں، اور اگر یہ زیادہ مقدار میں بھی ہو تو کوئی حرج نہیں۔ نیز ناک سے خون بہنے والے کی مانند اس پر بھی پھونک مار دی جاتی ہے اور دھوئی نہیں جاتی۔",
+          "tr": "Ben, Ebu Abdullah'a (aleyhisselam) kıyafetteki pire kanı hakkında sordum; bu, onun içinde namaz kılmasını engeller mi? O (aleyhisselam) şöyle buyurdu: 'Hayır, hatta bol olsa da bir zararı yoktur. Burun kanamasının benzeri durumla da böyledir: Sıçar, yıkanmaz.'",
+          "fa": "از ابو عبدالله (علیه السلام) درباره خونی که از کک در لباس است پرسیدم؛ آیا این مانع نماز خواندن در آن می‌شود؟ فرمود: «خیر، و حتی اگر فراوان باشد، حرجی نیست. همچنین مانند آن از خون‌بینی: آن را می‌پاشند و شستن آن لازم نیست.»",
+          "id": "Aku bertanya kepada Abu Abdullah (alamaihissalam) tentang darah kutu yang ada pada pakaian; apakah itu menghalanginya untuk shalat di dalamnya? Beliau (alamaihissalam) menjawab: \"Tidak, dan bahkan jika jumlahnya banyak, tidak ada masalah. Demikian pula dengan yang serupa dari mimisan: cukup dipercikkan dan tidak perlu dicuci.\" }  \n\nNote: The honorific \"peace be upon him\" is translated as \"alamaihissalam\" in Indonesian, which is the conventional equivalent. Proper nouns like \"Abu Abdullah\" are transliterated. Islamic terms such as \"shalat\" (prayer) are preserved. The translation is faithful to the original text without adding commentary. Spaces are used appropriately in Indonesian. JSON format is valid. \n\nFinal JSON output: \n```json\n{\n  \"text\": \"Aku bertanya kepada Abu Abdullah (alamaihissalam) tentang darah kutu yang ada pada pakaian; apakah itu menghalanginya untuk shalat di dalamnya? Beliau (alamaihissalam) menjawab: \\\"Tidak, dan bahkan jika jumlahnya banyak, tidak ada masalah. Demikian pula dengan yang serupa dari mimisan: cukup dipercikkan dan tidak perlu dicuci.\\\"\"\n}\n```",
+          "bn": "আমি আবু আবদুল্লাহর (র.) কাছে কামিজের উপর থাকা মাছি-কামড়ের রক্ত সম্পর্কে জিজ্ঞাসা করলাম, তা কি নামাজে বাধা সৃষ্টি করে? তিনি (র.) বললেন: 'না, এবং যদি তা প্রচুর পরিমাণেও থাকে, তবুও কোনো ক্ষতি নেই। নাকের রক্তের ক্ষেত্রেও একই রকম; তা ছিটিয়ে দেওয়া হয়, ধোয়া হয় না।'",
+          "es": "Pregunté a Abu Abdullah (la paz sea con él) acerca de la sangre de las pulgas que está en la prenda; ¿impide que ore en ella? Él (la paz sea con él) dijo: «No, e incluso si es abundante, no hay perjuicio. Asimismo con lo similar de la epistaxis: se rocía y no se lava».",
+          "fr": "J’ai demandé à Abou Abdallah (que la paix soit sur lui) au sujet du sang de puces qui se trouve sur le vêtement ; est-ce que cela l’empêche de prier avec ? Il (que la paix soit sur lui) a lui) a dit : « Non, et même s’il est abondant, il n’y a pas de mal. De même pour ce qui est semblable, comme le sang de nez : on l’asperge et on ne le lave pas. »",
+          "de": "Ich fragte Abu Abdullah (friede sei mit ihm) über das Blut von Flöhen, das sich in der Kleidung befindet; hindert das ihn am Gebet darin? Er (friede sei mit ihm) sagte: \"Nein, und selbst wenn es reichlich vorhanden ist, gibt es keinen Schaden. Ebenso bei dergleichen von Nasenbluten: Man bespritzt es und wäscht es nicht.\"",
+          "ru": "Я спросил Абу Абдуллаха (да будет мир с ним) о крови блох, которая находится на одежде; препятствует ли это ему молиться в ней? Он (да будет мир с ним) сказал: «Нет, и даже если её много, вреда нет. То же самое касается и крови из носа: её опрыскивают, и не нужно её смывать».",
+          "zh": "我问阿卜杜拉（愿主福安之）关于衣服上的跳蚤血，这是否妨碍他在其中礼拜？他（愿主福安之）说：'不，即使很多，也无妨。还有像鼻血一样，洒一下即可，不必清洗。'"
+        },
+        "word_start": 16,
+        "word_end": 51
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "وَرُوِيَ أَيْضاً أَنَّهُ لَا يُغْسَلُ بِالرِّيقِ شَيْءٌ إِلَّا الدَّمُ",
+        "translations": {
+          "en": "And it is reported that nothing is washed with saliva except blood.",
+          "ur": "اور روایت ہے کہ لعاب سے خون کے سوا کچھ نہیں دھوتا جاتا۔",
+          "tr": "Ve kan dışında tükürükle yıkanan bir şey olmadığı rivayet edilmiştir.",
+          "fa": "و روایت شده است که جز خون، هیچ چیز با بزاق شسته نمی‌شود.",
+          "id": "Dan diriwayatkan bahwa tidak ada yang dibersihkan dengan air liur kecuali darah.",
+          "bn": "এবং এটি বর্ণিত হয়েছে যে লালারসের সাথে রক্ত ছাড়া অন্য কিছু ধোয়া হয় না।",
+          "es": "Y se ha transmitido que nada se lava con saliva excepto la sangre.",
+          "fr": "Et il est rapporté que rien n'est lavé avec la salive, sauf le sang.",
+          "de": "Und es wird berichtet, dass außer Blut wird nichts mit Speichel gewaschen.",
+          "ru": "И сообщается, что слюной смывается только кровь.",
+          "zh": "据传，且据传，唾液仅用于清洗血液。"
+        },
+        "word_start": 51,
+        "word_end": 60
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Sadiq (AS) clarifies that minor impurities like flea and nosebleed blood do not invalidate prayer, requiring only sprinkling (tanazzuh) rather than full washing (ghasl), reflecting the Shia principle of ease in ritual purity. The supplementary narration highlights the specific efficacy of saliva for blood removal, a detail often discussed in fiqh manuals regarding the distinction between major and minor najāsah. This ruling underscores the practical flexibility in maintaining ritual cleanliness without undue burden.",
+        "seo_question": "What is the ruling on blood from fleas or nosebleeds on clothing for prayer?",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "Fleas",
+          "الرُّعَافِ": "Nosebleed",
+          "يَنْضَحُهُ": "He sprinkles it (referring to the act of sprinkling water for purification)",
+          "وَلَا يَغْسِلُهُ": "And does not wash it (indicating full washing is not required)",
+          "بِالرِّيقِ": "With saliva"
+        }
+      },
+      "ur": {
+        "summary": "امام صادق (علیہ السلام) واضح کرتے ہیں کہ پرندے اور ناک سے خون جیسی معمولی نجاست نماز کو باطل نہیں کرتی، جس کے لیے مکمل دھونے (غسل) کے بجائے چھڑکاؤ (تنزہ) کافی ہے، جو طہارت میں آسانی کے شیعہ اصول کی عکاسی کرتا ہے۔ اضافی روایت میں خون کو دور کرنے کے لیے لعاب کی مخصوص تاثیر پر روشنی ڈالتی ہے، جو فقهی کتب میں کبیرہ و صغیرہ نجاست کے فرق کے حوالے سے اکثر بحث کا موضوع رہی ہے۔ یہ حکم عملی لچک کو اجاگر کرتا ہے تاکہ بوجھ ڈالے بغیر طہارت برقرار رکھی جا سکے۔",
+        "seo_question": "کپڑے پر پرندے یا ناک کے خون کا حکم کیا ہے؟",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "پرندے",
+          "الرُّعَافِ": "ناک کا خون",
+          "يَنْضَحُهُ": "وہ چھڑکتا ہے",
+          "وَلَا يَغْسِلُهُ": "اور اسے نہیں دھوتا",
+          "بِالرِّيقِ": "لعاب کے ساتھ"
+        }
+      },
+      "tr": {
+        "summary": "İngilizce özet",
+        "seo_question": "Giysilerdeki pire ve burun kanı için namaz hükmü nedir?",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "pireler",
+          "الرُّعَافِ": "burun kanı",
+          "يَنْضَحُهُ": "onu sılar",
+          "وَلَا يَغْسِلُهُ": "ve onu yıkamaz",
+          "بِالرِّيقِ": "tükürük ile"
+        }
+      },
+      "fa": {
+        "summary": "امام صادق (ع) بیان می‌می‌کند که نجاسات صغیر مانند خون کک و خون‌دماغ، نماز را باطل نمی‌کند و تنها پاشیدن آب (تنزّح) کافی است نه شستشوی کامل (غسل)، که نشان‌دهنده اصل تسهیل در طهارت در مذهب شیعه است. روایت تکمیلی بر کارآمدی خاص بزاق برای پاک‌سازی خون تأکید دارد، جزئی‌ای که در کتب فقهی درباره تمایز بین نجاست کبیره و صغیره مورد بحث قرار می‌گیرد. این حکم، انعطاف‌پذیری عملی در حفظ پاکی عبادی بدون بار اضافی را برجسته می‌کند.",
+        "seo_question": "حکم خون کک یا خون‌دماغ بر لباس برای نماز چیست؟",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "کک‌ها",
+          "الرُّعَافِ": "خون‌دماغ",
+          "يَنْضَحُهُ": "آن را می‌پاشد",
+          "وَلَا يَغْسِلُهُ": "و آن را نمی‌شوید",
+          "بِالرِّيقِ": "با بزاق"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আস-সাদিق (আ.) স্পষ্ট করেছেন যে, ছোট অশুচি যেমন পোকের রক্ত বা নাকের রক্ত নামাজকে বাতিল করে না, এর জন্য পূর্ণ ধোয়া (গাসল) এর পরিবর্তে শুধুমাত্র ছিটিয়ে পরিষ্কার করা (তানাজ্জুহ) যথেষ্ট, যা রীতিগত পবিত্রতায় সহজতার শিয়া নীতি প্রতিফলিত করে। অতিরিক্ত হাদিসটি রক্ত অপসারণের জন্য লালার বিশেষ কার্যকারিতার দিকটি তুলে ধরে, যা ফিকহের গ্রন্থগুলোতে প্রধান এবং গৌণ নাজাসাতের পার্থক্য নিয়ে আলোচিত একটি বিষয়। এই ফয়সালা রীতিগত পবিত্রতা বজায় রাখতে ব্যবহারিক নমনীয়তা এবং অতিরিক্ত বোঝা ছাড়াই তা নিশ্চিত করে।",
+        "seo_question": "নামাজের জন্য পোশাকে পোকের রক্ত বা নাকের রক্তের ফয়সালা কী?",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "পোক",
+          "الرُّعَافِ": "নাকের রক্ত",
+          "يَنْضَحُهُ": "সেটি ছিটিয়ে দেয় (পবিত্রতার জন্য পানি ছিটিয়ে দেওয়ার কাজকে নির্দেশ করে)",
+          "وَلَا يَغْسِلُهُ": "এবং সেটি ধোয় না (পূর্ণ ধোয়া প্রয়োজন নেই তা নির্দেশ করে)",
+          "بِالرِّيقِ": "লালা দিয়ে"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Sadiq (AS) aclara que las impurezas menores como la sangre de pulgas o de epistaxis no invalidan la oración, requiriendo solo rociado (tanazzuh) en lugar de lavado completo (ghasl), reflejando el principio chií de facilidad en la pureza ritual. La narración suplementaria destaca la eficacia específica de la saliva para la eliminación de la sangre, un detalle frecuentemente discutido en los manuales de fiqh respecto a la distinción entre najāsah mayor y menor. Este dictamen subraya la flexibilidad práctica para mantener la limpieza ritual sin carga indebida.",
+        "seo_question": "¿Cuál es el dictamen sobre la sangre de pulgas o de epistaxis en la ropa para la oración?",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "Pulgas",
+          "الرُّعَافِ": "Epistaxis",
+          "يَنْضَحُهُ": "Él la rocía",
+          "وَلَا يَغْسِلُهُ": "Y no la lava",
+          "بِالرِّيقِ": "Con saliva"
+        }
+      },
+      "fr": {
+        "summary": "L'imam al-Sadiq (AS) précise que les impuretés mineures, comme le sang de puce ou d'épiploque nasal, n'annulent pas la prière et nécessitent seulement une aspersion (tanazzuh) plutôt qu'un lavage complet (ghasl), reflétant le principe chiite de facilité en matière de pure rituelle. La narration complémentaire souligne l'efficacité spécifique de la salive pour l'élimination du sang, un détail souvent discuté dans les manuels de fiqh concernant la distinction entre la grande et la petite najāsah. Cette règle souligne la flexibilité pratique dans le maintien de la propreté rituelle sans charge excessive.",
+        "seo_question": "Quelle est la règle concernant le sang de puces ou d'épiploque nasal sur les vêtements pour la prière ?",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "Puces",
+          "الرُّعَافِ": "Épiploque nasal",
+          "يَنْضَحُهُ": "Il l'aspersion",
+          "وَلَا يَغْسِلُهُ": "Et ne le lave pas",
+          "بِالرِّيقِ": "Avec la salive"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Sadiq (AS) kladiq (AS) klärt, dass geringfügige Unreinheiten wie Floh- und Nasenblut das Gebet nicht ungültig machen und nur Besprengen (tanazzuh) statt vollständiges Waschen (ghasl) erfordern, was das schiitische Prinzip der Erleichterung bei der rituellen Reinheit widerspiegelt. Die ergänzende Überlieferung hebt die spezifische Wirksamkeit von Speichel zur Entfernung von Blut hervor, ein Detail, das in den Fiqh-Manuals häufig im Zusammenhang mit der Unterscheidung zwischen großer und kleiner Najāsah diskutiert wird. Diese Rechtsregel unterstreicht die praktische Flexibilität bei der Aufrechterhaltung der rituellen Sauberkeit ohne übermäßige Belastung.",
+        "seo_question": "Was ist die Rechtsregel für Blut von Flöhen oder Nasenbluten auf der Kleidung beim Gebet?",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "Flöhe",
+          "الرُّعَافِ": "Nasenbluten",
+          "يَنْضَحُهُ": "Er besprengt es",
+          "وَلَا يَغْسِلُهُ": "Und er wäscht es nicht",
+          "بِالرِّيقِ": "Mit Speichel"
+        }
+      },
+      "ru": {
+        "summary": "Имам ас-Садык (да будет над ним мир) разъясняет, что мелкие нечистоты, такие как кровь от блох или носовое кровотечение, не нарушают молитву, требуя лишь опрыскивания (таназзух), а не полного омовения (гасль), что отражает шиитский принцип облегчения в ритуальной чистоте. Дополнительное предание подчеркивает специфическую эффективность слюны для удаления крови, деталь, часто обсуждаемая в мануалах фикха относительно различия между большой и малой нечистотой. Это постановление подчеркивает практическую гибкость в поддержании ритуальной чистоты без чрезмерного бремени.",
+        "seo_question": "Каково правило относительно крови от блох или носового кровотечения на одежде для молитвы?",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "Блохи",
+          "الرُّعَافِ": "Носовое кровотечение",
+          "يَنْضَحُهُ": "Он опрыскивает его (относится к действию опрыскивания водой для очищения)",
+          "وَلَا يَغْسِلُهُ": "И не моет его (указывая, что полное омовение не требуется)",
+          "بِالرِّيقِ": "Слюной"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目萨迪格（愿主喜悦之）阐明，跳蚤血和鼻血等轻微不净物并不使拜功失效，只需洒水（tanazzuh）而非彻底清洗（ghasl），这体现了什叶派在仪式洁净方面的便利原则。补充圣训强调了唾液在去除血液方面的特定功效，这一细节在法格赫手册中常被讨论，用于区分大、小不净物。这一裁决强调了在保持仪式洁净时的实际灵活性，避免不必要的负担。",
+        "seo_question": "衣服上的跳蚤血或鼻血对拜功有何 rulings？",
+        "key_terms": {
+          "الْبَرَاغِيثِ": "跳蚤",
+          "الرُّعَافِ": "鼻血",
+          "يَنْضَحُهُ": "洒水",
+          "وَلَا يَغْسِلُهُ": "不清洗",
+          "بِالرِّيقِ": "唾液"
+        }
+      },
+      "id": {
+        "summary": "",
+        "seo_question": "",
+        "key_terms": {}
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "7:157",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ سِنَانٍ عَنِ ابْنِ مُسْكَانَ عَنِ الْحَلَبِيِّ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ دَمِ الْبَرَاغِيثِ يَكُونُ فِي الثَّوْبِ هَلْ يَمْنَعُهُ ذَلِكَ مِنَ الصَّلَاةِ فِيهِ قَالَ لَا وَ إِنْ كَثُرَ فَلَا بَأْسَ أَيْضاً بِشِبْهِهِ مِنَ الرُّعَافِ يَنْضَحُهُ وَ لَا يَغْسِلُهُ وَرُوِيَ أَيْضاً أَنَّهُ لَا يُغْسَلُ بِالرِّيقِ شَيْءٌ إِلَّا الدَّمُ",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ ابْنِ سِنَانٍ عَنِ ابْنِ مُسْكَانَ عَنِ الْحَلَبِيِّ قَالَ",
+      "matn_ar": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ دَمِ الْبَرَاغِيثِ يَكُونُ فِي الثَّوْبِ هَلْ يَمْنَعُهُ ذَلِكَ مِنَ الصَّلَاةِ فِيهِ قَالَ لَا وَ إِنْ كَثُرَ فَلَا بَأْسَ أَيْضاً بِشِبْهِهِ مِنَ الرُّعَافِ يَنْضَحُهُ وَ لَا يَغْسِلُهُ وَرُوِيَ أَيْضاً أَنَّهُ لَا يُغْسَلُ بِالرِّيقِ شَيْءٌ إِلَّا الدَّمُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "ابْنِ سِنَانٍ",
+          "name_en": "Ibn Sinan",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 104
+        },
+        {
+          "name_ar": "ابْنِ مُسْكَانَ",
+          "name_en": "Ibn Muskan",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 51
+        },
+        {
+          "name_ar": "الْحَلَبِيِّ",
+          "name_en": "al-Halabi",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 28
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

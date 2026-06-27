@@ -1,8 +1,8 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:163:1",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-22",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
@@ -10,141 +10,206 @@
   "validation_errors": [
     "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
     "narrators has 68 entries (>15 — real isnad chains rarely exceed 12; likely matn fragments)",
-    "narrator[16] name_ar has 16 words (>14 — likely a sentence fragment, not a name): 'الْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ و جَدَّةً لِأُمٍّ '",
-    "narrator[67] name_ar has 18 words (>14 — likely a sentence fragment, not a name): 'الْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ابْنِ '"
+    "narrator[16] name_ar has 16 words (>14, بن-density 0.06 — likely a sentence fragment, not a name): 'الْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ و جَدَّةً لِأُمٍّ '",
+    "narrator[67] name_ar has 18 words (>14, بن-density 0.11 — likely a sentence fragment, not a name): 'الْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ابْنِ '",
+    "chunks[0] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.id is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.es is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.fr is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.de is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.ru is empty string (likely Phase 4 batch failure)",
+    "chunks[0] translations.zh is empty string (likely Phase 4 batch failure)"
   ],
   "result": {
     "tags": [
       "jurisprudence",
-      "family",
-      "social_relations",
-      "economy"
+      "family"
     ],
     "content_type": "legal_ruling",
     "topics": [
       "inheritance",
-      "financial_law",
-      "marriage_family_law",
-      "judicial_rulings",
-      "kinship"
+      "marriage_family_law"
     ],
     "chunks": [
       {
         "chunk_type": "body",
-        "arabic_text": "ٱبْنُ ٱلْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ وَإِنَّمَا تَرِثُهُ أُمُّهُ وَإِخْوَتُهُ لِأُمِّهِ وَوُلْدُهُ وَأَخْوَالُهُ وَزَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَادًا فَٱلْمَالُ بَيْنَهُمْ عَلَىٰ سِهَامِ ٱللَّهِ عَزَّ وَجَلَّ فَإِنْ تَرَكَ أَبَاهُ وَأُمَّهُ فَٱلْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ وَٱبْنَهُ فَٱلْمَالُ لِٱبْنِهِ فَإِنْ تَرَكَ أَبَاهُ وَأَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا وَخَالَةً فَٱلْمَالُ بَيْنَهُمَا بِٱلسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا وَخَالَةً وَعَمًّا وَعَمَّةً فَٱلْمَالُ لِلْخَالِ وَٱلْخَالَةِ بَيْنَهُمَا بِٱلسَّوِيَّةِ وَسَقَطَ ٱلْعَمُّ وَٱلْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ وَجَدَّةً لِأُمٍّ فَٱلْمَالُ بَيْنَهُمْ بِٱلسَّوِيَّةِ فَإِنْ تَرَكَ ٱبْنَ أُخْتِهِ لِأُمِّهِ وَجَدَّهُ أَبَا أُمِّهِ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ أُمَّهُ وَٱمْرَأَتَهُ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ ٱمْرَأَةً وَجَدًّا أَبَا أُمِّهِ وَخَالَةً لِلْمَرْأَةِ ٱلرُّبُعُ وَلِلْجَدِّ ٱلْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالَاتٍ مُتَفَرِّقَاتٍ وَٱمْرَأَةً وَٱبْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِٱبْنِ ٱلْأَخِ فَإِنْ تَرَكَ ٱبْنَتَهُ وَأُمَّهُ فَلِلِٱبْنَةِ ٱلنِّصْفُ وَلِلْأُمِّ ٱلسُّدُسُ وَمَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَىٰ قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ وَأَخَاهُ فَٱلْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ ٱمْرَأَةً وَٱبْنَةً وَجَدًّا وَجَدَّةً لِأُمٍّ وَأَخًا وَأُخْتًا لِأُمٍّ فَلِلْمَرْأَةِ ٱلثُّمُنُ وَمَا بَقِيَ فَلِلِٱبْنَةِ فَإِنْ تَرَكَ ٱمْرَأَةً وَجَدًّا وَأُمًّا وَجَدَّةً وَٱبْنَ أَخٍ وَٱبْنَ أُخْتٍ وَخَالًا وَخَالَةً فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِلْأُمِّ وَسَقَطَ ٱلْبَاقُونَ فَإِنْ تَرَكَ ٱبْنَةً وَٱبْنَةَ ٱبْنٍ فَٱلْمَالُ لِلِٱبْنَةِ وَكَذَٰلِكَ إِنْ تَرَكَ ٱبْنَةً وَٱبْنَ ٱبْنٍ فَٱلْمَالُ لِلِٱبْنَةِ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ أَخًا لِأَبٍ وَأُمٍّ وَأَخًا لِأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ وَكَذَٰلِكَ إِنْ تَرَكَ أُخْتًا لِأُمٍّ وَأُخْتًا لِأَبٍ وَأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ٱبْنَ أَخٍ وَٱبْنَةَ أُخْتٍ لِأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ٱبْنَةُ ٱلْمُلَاعَنَةِ وَتَرَكَتِ ٱبْنَ ٱبْنَتِهَا وَٱبْنَ ٱبْنَةِ ٱبْنِهَا وَزَوْجَهَا وَخَالَهَا وَجَدَّهَا وَٱبْنَ أُخْتِهَا وَٱبْنَ أَخِيهَا فَلِلزَّوْجِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِٱبْنِ ٱلِٱبْنَةِ وَسَقَطَ ٱلْبَاقُونَ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ أُخْتَهُ وَٱبْنَةَ أَخِيهِ لِأُمِّهِ فَٱلْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ ٱمْرَأَةً وَجَدَّةً وَجَدًّا مِنْ قِبَلِ ٱلْأُمِّ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَبَيْنَ ٱلْجَدِّ وَٱلْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ٱبْنِ ٱلْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ مِيرَاثِ غَيْرِ ٱبْنِ ٱلْمُلَاعَنَةِ سَوَاءً فِي جَمِيعِ فَرَائِضِ ٱلْمَوَارِيثِ وَمِيرَاثُ وَلَدِ ٱلزِّنَا مِثْلُ مِيرَاثِ وَلَدِ ٱلْمُلَاعَنَةِ.",
+        "arabic_text": "ابْنُ الْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ وَ إِنَّمَا تَرِثُهُ أُمُّهُ وَ إِخْوَتُهُ لِأُمِّهِ وَ وُلْدُهُ وَ أَخْوَالُهُ وَ زَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَاداً فَالْمَالُ بَيْنَهُمْ عَلَى سِهَامِ اللَّهِ عَزَّ وَ جَلَ‌ فَإِنْ تَرَكَ أَبَاهُ وَ أُمَّهُ فَالْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ وَ ابْنَهُ فَالْمَالُ لِابْنِهِ فَإِنْ تَرَكَ أَبَاهُ وَ أَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً فَالْمَالُ بَيْنَهُمَا بِالسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً وَ عَمّاً وَ عَمَّةً فَالْمَالُ لِلْخَالِ وَ الْخَالَةِ بَيْنَهُمَا بِالسَّوِيَّةِ وَ سَقَطَ الْعَمُّ وَ الْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ و جَدَّةً لِأُمٍّ فَالْمَالُ بَيْنَهُمْ بِالسَّوِيَّةِ فَإِنْ تَرَكَ ابْنَ أُخْتِهِ لِأُمِّهِ وَ جَدَّهُ أَبَا أُمِّهِ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ‌ فَإِنْ تَرَكَ أُمَّهُ وَ امْرَأَتَهُ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ امْرَأَةً وَ جَدّاً أَبَا أُمَّةٍ وَ خَالَةً لِلْمَرْأَةِ الرُّبُعُ وَ لِلْجَدِّ الْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالاتٍ مُتَفَرِّقَاتٍ وَ امْرَأَةً وَ ابْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الْأَخِ فَإِنْ تَرَكَ ابْنَتَهُ وَ أُمَّهُ فَلِلِابْنَةِ النِّصْفُ وَ لِلْأُمِّ السُّدُسُ وَ مَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَى قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ وَ أَخَاهُ فَالْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ امْرَأَةً وَ ابْنَةً وَ جَدّاً وَ جَدَّةً لِأُمٍّ وَ أَخاً وَ أُخْتاً لِأُمٍّ فَلِلْمَرْأَةِ الثُّمُنُ وَ مَا بَقِيَ فَلِلِابْنَةِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدّاً وَ أُمّاً وَ جَدَّةً وَ ابْنَ أَخٍ وَ ابْنَ أُخْتٍ وَ خَالًا وَ خَالَةً فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنَةً وَ ابْنَةَ ابْنٍ فَالْمَالُ لِلِابْنَةِ وَ كَذَلِكَ إِنْ تَرَكَ ابْنَةً وَ ابْنَ ابْنٍ فَالْمَالُ لِلِابْنَةِ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أَخاً لِأَبٍ وَ أُمٍّ وَ أَخاً لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ وَ كَذَلِكَ إِنْ تَرَكَ أُخْتاً لِأُمٍّ وَ أُخْتاً لِأَبٍ وَ أُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ابْنَ أَخٍ وَ ابْنَةَ أُخْتٍ لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ابْنَةُ الْمُلَاعَنَةِ وَ تَرَكَتِ ابْنَ ابْنَتِهَا وَ ابْنَ ابْنَةِ ابْنِهَا وَ زَوْجَهَا وَ خَالَهَا وَ جَدَّهَا وَ ابْنَ أُخْتِهَا وَ ابْنَ أَخِيهَا فَلِلزَّوْجِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الِابْنَةِ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أُخْتَهُ وَ ابْنَةَ أَخِيهِ لِأُمِّهِ فَالْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدَّةً وَ جَدّاً مِنْ قِبَلِ الْأُمِّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَبَيْنَ الْجَدِّ وَ الْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ابْنِ الْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ‌ مِيرَاثِ غَيْرِ ابْنِ الْمُلَاعَنَةِ سَوَاءً فِي جَمِيعِ فَرَائِضِ الْمَوَارِيثِ‌ وَ مِيرَاثُ وَلَدِ الزِّنَا مِثْلُ مِيرَاثِ وَلَدِ الْمُلَاعَنَةِ.",
         "translations": {
-          "en": "The child of mula'anah has no inheritor from the side of his father. Rather, his mother, his maternal siblings, his children, his maternal uncles, and his wife inherit from him. If he leaves children, then the estate is divided among them according to the shares of Allah, Mighty and Majestic. If he leaves his father and his mother, then the estate belongs to his mother. If he leaves his father and his son, then the estate belongs to his son. If he leaves his father and his maternal uncles, then his estate belongs to his maternal uncles. If he leaves a maternal uncle and a maternal aunt, then the estate is divided equally between them. If he leaves a maternal uncle, a maternal aunt, a paternal uncle, and a paternal aunt, then the estate belongs to the maternal uncle and maternal aunt equally, and the paternal uncle and paternal aunt are excluded. If he leaves maternal siblings and a maternal grandmother, then the estate is divided equally among them. If he leaves his mother's sister's son and his maternal grandfather, then the estate is divided equally between them. If he leaves his mother and his wife, then the wife has one-fourth, and what remains belongs to the mother. If the child of mula'anah leaves a wife, a maternal grandfather, and a maternal aunt, then the wife has one-fourth and the grandfather has the remainder. If he leaves three maternal aunts of different lines, a wife, and a maternal half-brother's son, then the wife has one-fourth, and what remains belongs to the nephew. If he leaves his daughter and his mother, then the daughter has one-half, the mother has one-sixth, and what remains is returned to them in proportion to their shares. If he leaves his mother and his brother, then the estate belongs to the mother. If he leaves a wife, a daughter, a maternal grandfather, a maternal grandmother, and a maternal brother and sister, then the wife has one-eighth, and what remains belongs to the daughter. If he leaves a wife, a maternal grandfather, a mother, a grandmother, a nephew, a niece, a maternal uncle, and a maternal aunt, then the wife has one-fourth, and what remains belongs to the mother, and the rest are excluded. If he leaves a daughter and a son's daughter, then the estate belongs to the daughter; likewise, if he leaves a daughter and a son's son, then the estate belongs to the daughter. If the child of mula'anah leaves a brother by father and mother and a brother by mother, then the estate is divided equally between them. Likewise, if he leaves a sister by mother and a sister by father and mother, then the estate is divided equally between them. If he leaves a nephew and a niece by mother, then the estate is divided equally between them. If the daughter of the mula'anah child dies and leaves her daughter's son, her son's daughter's son, her husband, her maternal uncle, her grandfather, her sister's son, and her brother's son, then the husband has one-fourth, and what remains belongs to the daughter's son, and the rest are excluded. If the child of mula'anah leaves his sister and his maternal brother's daughter, then the entire estate belongs to the sister. If he leaves a wife, a maternal grandmother, and a maternal grandfather, then the wife has one-fourth, and what remains is divided equally between the maternal grandfather and maternal grandmother. As for the descendants of the child of mula'anah, when one of them dies, his inheritance is like the inheritance of one other than the child of mula'anah, equally in all the prescribed shares of inheritance. And the inheritance of the child of zina is like the inheritance of the child of mula'anah.",
-          "ur": "ابنِ مُلعَنہ کو اپنے والد کی طرف سے کوئی وارث نہیں ہوتا۔ بلکہ اس کی ماں، ماں کے بھائی بہن، اس کے بچے، ماں کے ماموں، اور اس کی بیوی اس کے وارث ہوتے ہیں۔ اگر وہ بچے چھوڑ جائے تو مال اللہ عزوجل کے حصوں کے مطابق ان میں تقسیم ہوتا ہے۔ اگر وہ اپنے والد اور ماں کو چھوڑ جائے تو مال ماں کا ہوتا ہے۔ اگر وہ اپنے والد اور بیٹے کو چھوڑ جائے تو مال بیٹے کا ہوتا ہے۔ اگر وہ اپنے والد اور ماں کے ماموں کو چھوڑ جائے تو مال ماں کے ماموں کا ہوتا ہے۔ اگر وہ ایک ماں کا ماموں اور ایک ماں کی خالہ چھوڑ جائے تو مال برابر تقسیم ہوتا ہے۔ اگر وہ ماں کا ماموں، ماں کی خالہ، والد کا چچا اور والد کی پھوپھی چھوڑ جائے تو مال ماں کے ماموں اور خالہ کے درمیان برابر تقسیم ہوتا ہے اور والد کے چچا اور پھوپھی کا حق ختم ہو جاتا ہے۔ اگر وہ ماں کے بھائی بہن اور ماں کی دادی چھوڑ جائے تو مال ان کے درمیان برابر تقسیم ہوتا ہے۔ اگر وہ اپنی ماں کی بہن کے بیٹے اور ماں کے دادا کو چھوڑ جائے تو مال ان دونوں کے درمیان برابر تقسیم ہوتا ہے۔ اگر وہ اپنی ماں اور بیوی کو چھوڑ جائے تو بیوی کو ایک چوتھائی ملتا ہے اور باقی ماں کا ہوتا ہے۔ اگر ابنِ مُلعَنہ بیوی، ماں کے دادا، اور ماں کی خالہ چھوڑ جائے تو بیوی کو ایک چوتھائی ملتا ہے اور باقی دادا کا ہوتا ہے۔ اگر وہ تین مختلف ماں کی خالائیں، بیوی، اور ماں کے بھائی کے بیٹے کو چھوڑ جائے تو بیوی کو ایک چوتھائی ملتا ہے اور باقی بھتیجے کا ہوتا ہے۔ اگر وہ اپنی بیٹی اور ماں کو چھوڑ جائے تو بیٹی کو نصف، ماں کو چھٹا حصہ ملتا ہے اور باقی ان کے حصوں کے تناسب سے واپس کیا جاتا ہے۔ اگر وہ اپنی ماں اور بھائی کو چھوڑ جائے تو مال ماں کا ہوتا ہے۔ اگر وہ بیوی، بیٹی، ماں کے دادا، ماں کی دادی، اور ماں کے بھائی بہن کو چھوڑ جائے تو بیوی کو آٹھواں حصہ ملتا ہے اور باقی بیٹی کا ہوتا ہے۔ اگر وہ بیوی، ماں کے دادا، ماں، دادی، بھتیجا، بھتیجی، ماں کا ماموں، اور ماں کی خالہ چھوڑ جائے تو بیوی کو ایک چوتھائی ملتا ہے اور باقی ماں کا ہوتا ہے اور باقی سب کا حق ختم ہو جاتا ہے۔ اگر وہ بیٹی اور پوتی چھوڑ جائے تو مال بیٹی کا ہوتا ہے؛ اسی طرح اگر وہ بیٹی اور پوتا چھوڑ جائے تو مال بیٹی کا ہوتا ہے۔ اگر ابنِ مُلعَنہ والد اور ماں کے بھائی اور ماں کے بھائی کو چھوڑ جائے تو مال ان دونوں کے درمیان برابر تقسیم ہوتا ہے۔ اسی طرح اگر وہ ماں کی بہن اور والد اور ماں کی بہن کو چھوڑ جائے تو مال ان دونوں کے درمیان برابر تقسیم ہوتا ہے۔ اگر وہ ماں کے بھتیجے اور بھتیجی کو چھوڑ جائے تو مال ان دونوں کے درمیان برابر تقسیم ہوتا ہے۔ اگر ابنِ مُلعَنہ کی بیٹی فوت ہو جائے اور اپنی بیٹی کے بیٹے، اپنے بیٹے کی بیٹی کے بیٹے، اپنے شوہر، ماں کے ماموں، دادا، بہن کے بیٹے، اور بھائی کے بیٹے کو چھوڑ جائے تو شوہر کو ایک چوتھائی ملتا ہے اور باقی بیٹی کے بیٹے کا ہوتا ہے اور باقی سب کا حق ختم ہو جاتا ہے۔ اگر ابنِ مُلعَنہ اپنی بہن اور ماں کے بھائی کی بیٹی کو چھوڑ جائے تو سارا مال بہن کا ہوتا ہے۔ اگر وہ بیوی، ماں کی دادی، اور ماں کے دادا کو چھوڑ جائے تو بیوی کو ایک چوتھائی ملتا ہے اور باقی دادا اور دادی کے درمیان برابر تقسیم ہوتا ہے۔ جہاں تک ابنِ مُلعَنہ کی اولاد کا تعلق ہے، جب ان میں سے کوئی فوت ہو جائے تو اس کی میراث دوسرے افراد کی طرح تمام مقررہ حصوں میں برابر تقسیم ہوتی ہے۔ اور زنا کے بچے کی میراث بھی ابنِ مُلعَنہ کے بچے کی میراث کی طرح ہوتی ہے۔",
-          "tr": "Mula'anah çocuğunun babasından mirasçısı yoktur. Onun yerine annesi, anne tarafından kardeşleri, çocukları, anne tarafından amcaları ve eşi ondan miras alır. Eğer çocuk bırakırsa, mal Allah'ın (Azze ve Celle) paylarına göre onlara bölünür. Eğer babasını ve annesini bırakırsa, mal annesine aittir. Eğer babasını ve oğlunu bırakırsa, mal oğluna aittir. Eğer babasını ve anne tarafından amcalarını bırakırsa, mal anne tarafından amcalarına aittir. Eğer bir anne tarafından amca ve bir anne tarafından hala bırakırsa, mal eşit olarak bölünür. Eğer anne tarafından amca, anne tarafından hala, baba tarafından amca ve baba tarafından hala bırakırsa, mal anne tarafından amca ve halaya eşit olarak aittir, baba tarafından amca ve hala mirastan düşer. Eğer anne tarafından kardeşler ve anne tarafından büyük anne bırakırsa, mal aralarında eşit olarak bölünür. Eğer annesinin kız kardeşinin oğlu ve anne tarafından dedesi bırakırsa, mal aralarında eşit olarak bölünür. Eğer annesini ve eşini bırakırsa, eşe dörtte bir, kalan anneye aittir. Eğer mula'anah çocuğu eş, anne tarafından dede ve anne tarafından hala bırakırsa, eşe dörtte bir, kalan dedeye aittir. Eğer üç farklı anne tarafından hala, eş ve anne tarafından kardeşin oğlu bırakırsa, eşe dörtte bir, kalan yeğene aittir. Eğer kızını ve annesini bırakırsa, kızına yarısı, annesine altıda biri, kalan payları oranında onlara iade edilir. Eğer annesini ve kardeşini bırakırsa, mal annesine aittir. Eğer eş, kız, anne tarafından dede, anne tarafından büyük anne ve anne tarafından kardeşler bırakırsa, eşe sekizde bir, kalan kıza aittir. Eğer eş, anne tarafından dede, anne, büyük anne, yeğen, yeğen kızı, anne tarafından amca ve anne tarafından hala bırakırsa, eşe dörtte bir, kalan anneye aittir ve diğerleri mirastan düşer. Eğer kız ve oğlun kızı bırakırsa, mal kıza aittir; aynı şekilde kız ve oğlun oğlu bırakırsa, mal kıza aittir. Eğer mula'anah çocuğu baba ve anneden bir kardeş ve anneden bir kardeş bırakırsa, mal aralarında eşit olarak bölünür. Aynı şekilde anneden bir kız kardeş ve baba ve anneden bir kız kardeş bırakırsa, mal aralarında eşit olarak bölünür. Eğer anneden yeğen ve yeğen kızı bırakırsa, mal aralarında eşit olarak bölünür. Eğer mula'anah çocuğunun kızı ölür ve kızının oğlu, oğlunun kızının oğlu, eşi, anne tarafından amcası, dedesi, kız kardeşinin oğlu ve erkek kardeşinin oğlu bırakırsa, eşe dörtte bir, kalan kızının oğluna aittir ve diğerleri mirastan düşer. Eğer mula'anah çocuğu kız kardeşini ve anneden erkek kardeşinin kızını bırakırsa, tüm mal kız kardeşin olur. Eğer eş, anne tarafından büyük anne ve anne tarafından dede bırakırsa, eşe dörtte bir, kalan anne tarafından dede ve büyük anne arasında eşit olarak bölünür. Mula'anah çocuğunun evlatları söz konusu olduğunda, onlardan biri ölürse, mirası mula'anah çocuğu olmayan diğer kişiler gibi tüm farazilere eşit olarak bölünür. Zina çocuğunun mirası da mula'anah çocuğunun mirası gibidir.",
-          "fa": "فرزند مُلعَنَه از طرف پدر وارثی ندارد. بلکه مادرش، برادران و خواهران مادری، فرزندانش، عموهای مادری و همسرش از او ارث می‌برند. اگر فرزند بگذارد، مال طبق سهم‌های الهی بین آنها تقسیم می‌شود. اگر پدر و مادرش را بگذارد، مال به مادر تعلق دارد. اگر پدر و پسرش را بگذارد، مال به پسر تعلق دارد. اگر پدر و عموهای مادری‌اش را بگذارد، مال به عموهای مادری تعلق دارد. اگر یک عمو و یک خاله مادری بگذارد، مال به طور مساوی بین آنها تقسیم می‌شود. اگر عمو و خاله مادری و عمو و خاله پدری بگذارد، مال به عمو و خاله مادری به طور مساوی تعلق دارد و عمو و خاله پدری حذف می‌شوند. اگر برادران و خواهران مادری و مادربزرگ مادری بگذارد، مال به طور مساوی بین آنها تقسیم می‌شود. اگر پسر خواهر مادر و جد مادری بگذارد، مال به طور مساوی بین آنها تقسیم می‌شود. اگر مادر و همسرش را بگذارد، همسر یک چهارم و بقیه به مادر می‌رسد. اگر فرزند مُلعَنَه همسر، جد مادری و خاله مادری بگذارد، همسر یک چهارم و بقیه به جد می‌رسد. اگر سه خاله مادری مختلف، همسر و پسر برادر ناتنی مادری بگذارد، همسر یک چهارم و بقیه به خواهرزاده می‌رسد. اگر دختر و مادرش را بگذارد، دختر نصف، مادر یک ششم و بقیه به نسبت سهمشان به آنها بازگردانده می‌شود. اگر مادر و برادرش را بگذارد، مال به مادر تعلق دارد. اگر همسر، دختر، جد مادری، مادربزرگ مادری و برادر و خواهر مادری بگذارد، همسر یک هشتم و بقیه به دختر می‌رسد. اگر همسر، جد مادری، مادر، مادربزرگ، خواهرزاده، برادرزاده، عمو و خاله مادری بگذارد، همسر یک چهارم و بقیه به مادر می‌رسد و دیگران حذف می‌شوند. اگر دختر و دختر پسر بگذارد، مال به دختر می‌رسد؛ همچنین اگر دختر و پسر پسر بگذارد، مال به دختر می‌رسد. اگر فرزند مُلعَنَه برادر از پدر و مادر و برادر از مادر بگذارد، مال به طور مساوی بین آنها تقسیم می‌شود. همچنین اگر خواهر از مادر و خواهر از پدر و مادر بگذارد، مال به طور مساوی بین آنها تقسیم می‌شود. اگر خواهرزاده و برادرزاده از مادر بگذارد، مال به طور مساوی بین آنها تقسیم می‌شود. اگر دختر فرزند مُلعَنَه بمیرد و پسر دخترش، پسر دختر پسرش، شوهرش، عمو مادری، جد، پسر خواهر و پسر برادرش را بگذارد، شوهر یک چهارم و بقیه به پسر دختر می‌رسد و دیگران حذف می‌شوند. اگر فرزند مُلعَنَه خواهر و دختر برادر مادری‌اش را بگذارد، تمام مال به خواهر می‌رسد. اگر همسر، مادربزرگ مادری و جد مادری بگذارد، همسر یک چهارم و بقیه بین جد و مادربزرگ مادری به طور مساوی تقسیم می‌شود. درباره اولاد فرزند مُلعَنَه، وقتی یکی از آنها می‌میرد، میراثش مانند میراث دیگران در تمام سهم‌های مقرر به طور مساوی تقسیم می‌شود. و میراث فرزند زنا مانند میراث فرزند مُلعَنَه است.",
-          "id": "Anak mula'anah tidak memiliki pewaris dari pihak ayahnya. Melainkan, ibunya, saudara-saudaranya dari pihak ibu, anak-anaknya, paman dari pihak ibu, dan istrinya yang mewarisinya. Jika ia meninggalkan anak, maka harta dibagi di antara mereka sesuai dengan bagian-bagian Allah Yang Maha Perkasa dan Maha Agung. Jika ia meninggalkan ayah dan ibunya, maka harta menjadi milik ibunya. Jika ia meninggalkan ayah dan anak laki-lakinya, maka harta menjadi milik anak laki-lakinya. Jika ia meninggalkan ayah dan paman dari pihak ibu, maka hartanya menjadi milik paman dari pihak ibu. Jika ia meninggalkan seorang paman dan seorang bibi dari pihak ibu, maka harta dibagi sama rata di antara keduanya. Jika ia meninggalkan paman dan bibi dari pihak ibu, serta paman dan bibi dari pihak ayah, maka harta menjadi milik paman dan bibi dari pihak ibu secara sama rata, dan paman serta bibi dari pihak ayah gugur haknya. Jika ia meninggalkan saudara-saudara dari pihak ibu dan nenek dari pihak ibu, maka harta dibagi sama rata di antara mereka. Jika ia meninggalkan anak saudara perempuan ibunya dan kakek dari pihak ibu, maka harta dibagi sama rata di antara keduanya. Jika ia meninggalkan ibunya dan istrinya, maka istri mendapat seperempat, dan sisanya menjadi milik ibu. Jika anak mula'anah meninggalkan istri, kakek dari pihak ibu, dan bibi dari pihak ibu, maka istri mendapat seperempat dan sisanya menjadi milik kakek. Jika ia meninggalkan tiga bibi dari pihak ibu yang berbeda, istri, dan anak saudara laki-laki dari pihak ibu, maka istri mendapat seperempat dan sisanya menjadi milik keponakan. Jika ia meninggalkan putrinya dan ibunya, maka putri mendapat setengah, ibu mendapat seperenam, dan sisanya dikembalikan kepada mereka sesuai dengan bagian mereka. Jika ia meninggalkan ibunya dan saudaranya, maka harta menjadi milik ibu. Jika ia meninggalkan istri, putri, kakek dari pihak ibu, nenek dari pihak ibu, dan saudara laki-laki serta perempuan dari pihak ibu, maka istri mendapat seperdelapan dan sisanya menjadi milik putri. Jika ia meninggalkan istri, kakek dari pihak ibu, ibu, nenek, keponakan laki-laki, keponakan perempuan, paman dari pihak ibu, dan bibi dari pihak ibu, maka istri mendapat seperempat dan sisanya menjadi milik ibu, dan yang lain gugur haknya. Jika ia meninggalkan putri dan putri anak laki-laki, maka harta menjadi milik putri; demikian juga jika ia meninggalkan putri dan putra anak laki-laki, maka harta menjadi milik putri. Jika anak mula'anah meninggalkan saudara laki-laki dari ayah dan ibu serta saudara laki-laki dari ibu, maka harta dibagi sama rata di antara mereka. Demikian juga jika ia meninggalkan saudara perempuan dari ibu dan saudara perempuan dari ayah dan ibu, maka harta dibagi sama rata di antara mereka. Jika ia meninggalkan keponakan laki-laki dan keponakan perempuan dari ibu, maka harta dibagi sama rata di antara mereka. Jika putri anak mula'anah meninggal dan meninggalkan putra putrinya, putra putri anak laki-lakinya, suaminya, paman dari pihak ibu, kakeknya, anak saudara perempuannya, dan anak saudara laki-lakinya, maka suami mendapat seperempat dan sisanya menjadi milik putra putrinya, dan yang lain gugur haknya. Jika anak mula'anah meninggalkan saudara perempuannya dan putri saudara laki-lakinya dari pihak ibu, maka seluruh harta menjadi milik saudara perempuannya. Jika ia meninggalkan istri, nenek dari pihak ibu, dan kakek dari pihak ibu, maka istri mendapat seperempat dan sisanya dibagi sama rata antara kakek dan nenek dari pihak ibu. Adapun keturunan anak mula'anah, ketika salah satu dari mereka meninggal, warisannya seperti warisan orang lain selain anak mula'anah, sama rata dalam semua bagian warisan yang ditentukan. Dan warisan anak zina sama seperti warisan anak mula'anah.",
-          "bn": "মুলআনাহ সন্তানের পিতার পক্ষ থেকে কোনো উত্তরাধিকারী থাকে না। বরং, তার মা, মাতৃ পক্ষের ভাইবোন, তার সন্তানরা, মাতৃ পক্ষের মামারা এবং তার স্ত্রী তার উত্তরাধিকারী হয়। যদি সে সন্তান রেখে যায়, তবে সম্পত্তি আল্লাহর (জালজাল) অংশ অনুযায়ী তাদের মধ্যে ভাগ করা হয়। যদি সে তার পিতা ও মাতাকে রেখে যায়, তবে সম্পত্তি মায়ের হয়। যদি সে তার পিতা ও পুত্রকে রেখে যায়, তবে সম্পত্তি পুত্রের হয়। যদি সে তার পিতা ও মাতৃ পক্ষের মামাদের রেখে যায়, তবে সম্পত্তি মাতৃ পক্ষের মামাদের হয়। যদি সে একটি মাতৃ পক্ষের মামা ও একটি মাতৃ পক্ষের খালা রেখে যায়, তবে সম্পত্তি সমানভাবে ভাগ হয়। যদি সে মাতৃ পক্ষের মামা, মাতৃ পক্ষের খালা, পিতৃ পক্ষের চাচা ও পিতৃ পক্ষের ফুফু রেখে যায়, তবে সম্পত্তি মাতৃ পক্ষের মামা ও খালার মধ্যে সমানভাবে ভাগ হয় এবং পিতৃ পক্ষের চাচা ও ফুফুর অধিকার বাতিল হয়। যদি সে মাতৃ পক্ষের ভাইবোন ও মাতৃ দাদী রেখে যায়, তবে সম্পত্তি তাদের মধ্যে সমানভাবে ভাগ হয়। যদি সে তার মায়ের বোনের ছেলে ও মাতৃ পক্ষের দাদাকে রেখে যায়, তবে সম্পত্তি তাদের মধ্যে সমানভাবে ভাগ হয়। যদি সে তার মা ও স্ত্রী রেখে যায়, তবে স্ত্রীর এক চতুর্থাংশ পাওয়া যায় এবং বাকি মায়ের হয়। যদি মুলআনাহ সন্তানের স্ত্রী, মাতৃ পক্ষের দাদা ও মাতৃ পক্ষের খালা থাকে, তবে স্ত্রীর এক চতুর্থাংশ এবং বাকি দাদার হয়। যদি সে তিনটি ভিন্ন মাতৃ পক্ষের খালা, স্ত্রী ও মাতৃ পক্ষের সৎভাইয়ের ছেলে রেখে যায়, তবে স্ত্রীর এক চতুর্থাংশ এবং বাকি ভাগ ভাগ্নের হয়। যদি সে তার মেয়ে ও মা রেখে যায়, তবে মেয়ের অর্ধাংশ, মায়ের ষষ্ঠাংশ এবং বাকি তাদের অংশ অনুযায়ী ফেরত দেওয়া হয়। যদি সে তার মা ও ভাই রেখে যায়, তবে সম্পত্তি মায়ের হয়। যদি সে স্ত্রী, মেয়ে, মাতৃ পক্ষের দাদা, মাতৃ পক্ষের দাদি এবং মাতৃ পক্ষের ভাইবোন রেখে যায়, তবে স্ত্রীর অষ্টমাংশ এবং বাকি মেয়ের হয়। যদি সে স্ত্রী, মাতৃ পক্ষের দাদা, মা, দাদি, ভাগ্নে, ভাগ্নি, মাতৃ পক্ষের মামা ও খালা রেখে যায়, তবে স্ত্রীর এক চতুর্থাংশ এবং বাকি মায়ের হয় এবং বাকিরা বাদ পড়ে। যদি সে মেয়ে ও পুত্রের মেয়ে রেখে যায়, তবে সম্পত্তি মেয়ের হয়; একইভাবে, যদি সে মেয়ে ও পুত্রের ছেলে রেখে যায়, তবে সম্পত্তি মেয়ের হয়। যদি মুলআনাহ সন্তানের পিতা-মাতা পক্ষের এক ভাই ও মাতৃ পক্ষের এক ভাই থাকে, তবে সম্পত্তি তাদের মধ্যে সমানভাবে ভাগ হয়। একইভাবে, যদি সে মাতৃ পক্ষের বোন ও পিতা-মাতা পক্ষের বোন থাকে, তবে সম্পত্তি তাদের মধ্যে সমানভাবে ভাগ হয়। যদি সে মাতৃ পক্ষের ভাগ্নে ও ভাগ্নি রেখে যায়, তবে সম্পত্তি তাদের মধ্যে সমানভাবে ভাগ হয়। যদি মুলআনাহ সন্তানের মেয়ে মারা যায় এবং তার মেয়ের ছেলে, পুত্রের মেয়ের ছেলে, স্বামী, মাতৃ পক্ষের মামা, দাদা, বোনের ছেলে ও ভাইয়ের ছেলে রেখে যায়, তবে স্বামী এক চতুর্থাংশ পায় এবং বাকি মেয়ের ছেলের হয় এবং বাকিরা বাদ পড়ে। যদি মুলআনাহ সন্তান তার বোন ও মাতৃ পক্ষের ভাইয়ের মেয়েকে রেখে যায়, তবে সম্পূর্ণ সম্পত্তি বোনের হয়। যদি সে স্ত্রী, মাতৃ পক্ষের দাদি ও মাতৃ পক্ষের দাদা রেখে যায়, তবে স্ত্রীর এক চতুর্থাংশ এবং বাকি দাদা ও দাদির মধ্যে সমানভাবে ভাগ হয়। মুলআনাহ সন্তানের বংশধরদের ক্ষেত্রে, যখন তাদের মধ্যে কেউ মারা যায়, তখন তার উত্তরাধিকার অন্যদের মতো সমস্ত নির্ধারিত অংশে সমানভাবে ভাগ হয়। এবং জিনার সন্তানের উত্তরাধিকার মুলআনাহ সন্তানের উত্তরাধিকার মতোই হয়।",
-          "es": "El hijo de mula'anah no tiene heredero por parte de su padre. Más bien, su madre, sus hermanos maternos, sus hijos, sus tíos maternos y su esposa heredan de él. Si deja hijos, la herencia se divide entre ellos según las porciones establecidas por Allah, el Poderoso y Majestuoso. Si deja a su padre y a su madre, la herencia pertenece a su madre. Si deja a su padre y a su hijo, la herencia pertenece a su hijo. Si deja a su padre y a sus tíos maternos, la herencia pertenece a sus tíos maternos. Si deja un tío materno y una tía materna, la herencia se divide por igual entre ellos. Si deja un tío materno, una tía materna, un tío paterno y una tía paterna, la herencia pertenece al tío y tía maternos por igual, y los tíos y tías paternos quedan excluidos. Si deja hermanos maternos y una abuela materna, la herencia se divide por igual entre ellos. Si deja al hijo de la hermana de su madre y a su abuelo materno, la herencia se divide por igual entre ellos. Si deja a su madre y a su esposa, la esposa recibe una cuarta parte y lo que queda pertenece a la madre. Si el hijo de mula'anah deja esposa, abuelo materno y tía materna, la esposa recibe una cuarta parte y el resto pertenece al abuelo. Si deja tres tías maternas de diferentes líneas, esposa y al hijo del medio hermano materno, la esposa recibe una cuarta parte y lo que queda pertenece al sobrino. Si deja a su hija y a su madre, la hija recibe la mitad, la madre un sexto y lo que queda se devuelve a ellas en proporción a sus partes. Si deja a su madre y a su hermano, la herencia pertenece a la madre. Si deja esposa, hija, abuelo materno, abuela materna y hermanos maternos, la esposa recibe un octavo y lo que queda pertenece a la hija. Si deja esposa, abuelo materno, madre, abuela, sobrino, sobrina, tío materno y tía materna, la esposa recibe una cuarta parte y lo que queda pertenece a la madre, y los demás quedan excluidos. Si deja hija y nieta paterna, la herencia pertenece a la hija; igualmente, si deja hija y nieto paterno, la herencia pertenece a la hija. Si el hijo de mula'anah deja un hermano por parte de padre y madre y un hermano por parte de madre, la herencia se divide por igual entre ellos. Igualmente, si deja una hermana por parte de madre y una hermana por parte de padre y madre, la herencia se divide por igual entre ellas. Si deja sobrino y sobrina por parte de madre, la herencia se divide por igual entre ellos. Si la hija del hijo de mula'anah muere y deja a su hijo, al hijo de su nieta, a su esposo, a su tío materno, a su abuelo, al hijo de su hermana y al hijo de su hermano, el esposo recibe una cuarta parte y lo que queda pertenece al hijo de la hija, y los demás quedan excluidos. Si el hijo de mula'anah deja a su hermana y a la hija de su hermano materno, toda la herencia pertenece a la hermana. Si deja esposa, abuela materna y abuelo materno, la esposa recibe una cuarta parte y lo que queda se divide por igual entre el abuelo y la abuela materna. En cuanto a los descendientes del hijo de mula'anah, cuando uno de ellos muere, su herencia es como la de cualquier otro, igual en todas las porciones prescritas de la herencia. Y la herencia del hijo de zina es igual a la herencia del hijo de mula'anah.",
-          "fr": "L'enfant de mula'anah n'a pas d'héritier du côté de son père. Au contraire, sa mère, ses frères et sœurs maternels, ses enfants, ses oncles maternels et sa femme héritent de lui. S'il laisse des enfants, la succession est partagée entre eux selon les parts d'Allah, le Tout-Puissant et Majestueux. S'il laisse son père et sa mère, la succession revient à sa mère. S'il laisse son père et son fils, la succession revient à son fils. S'il laisse son père et ses oncles maternels, la succession revient à ses oncles maternels. S'il laisse un oncle maternel et une tante maternelle, la succession est partagée également entre eux. S'il laisse un oncle maternel, une tante maternelle, un oncle paternel et une tante paternelle, la succession revient à l'oncle et à la tante maternels à parts égales, et les oncles et tantes paternels sont exclus. S'il laisse des frères et sœurs maternels et une grand-mère maternelle, la succession est partagée également entre eux. S'il laisse le fils de la sœur de sa mère et son grand-père maternel, la succession est partagée également entre eux. S'il laisse sa mère et sa femme, la femme reçoit un quart, et le reste revient à la mère. Si l'enfant de mula'anah laisse une femme, un grand-père maternel et une tante maternelle, la femme reçoit un quart et le reste revient au grand-père. S'il laisse trois tantes maternelles de lignées différentes, une femme et le fils d'un demi-frère maternel, la femme reçoit un quart et le reste revient au neveu. S'il laisse sa fille et sa mère, la fille reçoit la moitié, la mère un sixième, et le reste leur est rendu proportionnellement à leurs parts. S'il laisse sa mère et son frère, la succession revient à la mère. S'il laisse une femme, une fille, un grand-père maternel, une grand-mère maternelle et des frères et sœurs maternels, la femme reçoit un huitième, et le reste revient à la fille. S'il laisse une femme, un grand-père maternel, une mère, une grand-mère, un neveu, une nièce, un oncle maternel et une tante maternelle, la femme reçoit un quart, et le reste revient à la mère, les autres étant exclus. S'il laisse une fille et la fille de son fils, la succession revient à la fille ; de même, s'il laisse une fille et le fils de son fils, la succession revient à la fille. Si l'enfant de mula'anah laisse un frère paternel et maternel et un frère maternel, la succession est partagée également entre eux. De même, s'il laisse une sœur maternelle et une sœur paternelle et maternelle, la succession est partagée également entre elles. S'il laisse un neveu et une nièce maternels, la succession est partagée également entre eux. Si la fille de l'enfant de mula'anah meurt en laissant le fils de sa fille, le fils de la fille de son fils, son mari, son oncle maternel, son grand-père, le fils de sa sœur et le fils de son frère, le mari reçoit un quart, et le reste revient au fils de la fille, les autres étant exclus. Si l'enfant de mula'anah laisse sa sœur et la fille de son frère maternel, toute la succession revient à la sœur. S'il laisse une femme, une grand-mère maternelle et un grand-père maternel, la femme reçoit un quart, et le reste est partagé également entre le grand-père et la grand-mère maternels. Quant aux descendants de l'enfant de mula'anah, lorsqu'un d'eux meurt, son héritage est comme celui d'un autre, également réparti dans toutes les parts prescrites de l'héritage. Et l'héritage de l'enfant de zina est comme celui de l'enfant de mula'anah.",
-          "de": "Das Kind von mula'anah hat keinen Erben von der Seite seines Vaters. Vielmehr erben seine Mutter, seine mütterlichen Geschwister, seine Kinder, seine mütterlichen Onkel und seine Ehefrau von ihm. Wenn er Kinder hinterlässt, wird das Vermögen unter ihnen gemäß den Anteilen Allahs, des Mächtigen und Erhabenen, aufgeteilt. Wenn er seinen Vater und seine Mutter hinterlässt, gehört das Vermögen seiner Mutter. Wenn er seinen Vater und seinen Sohn hinterlässt, gehört das Vermögen seinem Sohn. Wenn er seinen Vater und seine mütterlichen Onkel hinterlässt, gehört das Vermögen den mütterlichen Onkeln. Wenn er einen mütterlichen Onkel und eine mütterliche Tante hinterlässt, wird das Vermögen gleichmäßig zwischen ihnen aufgeteilt. Wenn er einen mütterlichen Onkel, eine mütterliche Tante, einen väterlichen Onkel und eine väterliche Tante hinterlässt, gehört das Vermögen dem mütterlichen Onkel und der mütterlichen Tante zu gleichen Teilen, und der väterliche Onkel und die väterliche Tante fallen weg. Wenn er mütterliche Geschwister und eine mütterliche Großmutter hinterlässt, wird das Vermögen gleichmäßig unter ihnen aufgeteilt. Wenn er den Sohn der Schwester seiner Mutter und seinen mütterlichen Großvater hinterlässt, wird das Vermögen gleichmäßig zwischen ihnen aufgeteilt. Wenn er seine Mutter und seine Ehefrau hinterlässt, erhält die Ehefrau ein Viertel, und der Rest gehört der Mutter. Wenn das Kind von mula'anah eine Ehefrau, einen mütterlichen Großvater und eine mütterliche Tante hinterlässt, erhält die Ehefrau ein Viertel, und der Rest gehört dem Großvater. Wenn er drei mütterliche Tanten verschiedener Linien, eine Ehefrau und den Sohn eines mütterlichen Halbbruders hinterlässt, erhält die Ehefrau ein Viertel, und der Rest gehört dem Neffen. Wenn er seine Tochter und seine Mutter hinterlässt, erhält die Tochter die Hälfte, die Mutter ein Sechstel, und der Rest wird ihnen anteilig zurückgegeben. Wenn er seine Mutter und seinen Bruder hinterlässt, gehört das Vermögen der Mutter. Wenn er eine Ehefrau, eine Tochter, einen mütterlichen Großvater, eine mütterliche Großmutter und mütterliche Geschwister hinterlässt, erhält die Ehefrau ein Achtel, und der Rest gehört der Tochter. Wenn er eine Ehefrau, einen mütterlichen Großvater, eine Mutter, eine Großmutter, einen Neffen, eine Nichte, einen mütterlichen Onkel und eine mütterliche Tante hinterlässt, erhält die Ehefrau ein Viertel, und der Rest gehört der Mutter, und die anderen fallen weg. Wenn er eine Tochter und die Tochter seines Sohnes hinterlässt, gehört das Vermögen der Tochter; ebenso wenn er eine Tochter und den Sohn seines Sohnes hinterlässt, gehört das Vermögen der Tochter. Wenn das Kind von mula'anah einen Bruder von Vater und Mutter und einen Bruder von Mutter hinterlässt, wird das Vermögen gleichmäßig zwischen ihnen aufgeteilt. Ebenso wenn er eine Schwester von Mutter und eine Schwester von Vater und Mutter hinterlässt, wird das Vermögen gleichmäßig zwischen ihnen aufgeteilt. Wenn er einen Neffen und eine Nichte von Mutter hinterlässt, wird das Vermögen gleichmäßig zwischen ihnen aufgeteilt. Wenn die Tochter des Kindes von mula'anah stirbt und ihren Enkel, den Sohn ihrer Enkelin, ihren Ehemann, ihren mütterlichen Onkel, ihren Großvater, den Sohn ihrer Schwester und den Sohn ihres Bruders hinterlässt, erhält der Ehemann ein Viertel, und der Rest gehört dem Enkel, und die anderen fallen weg. Wenn das Kind von mula'anah seine Schwester und die Tochter seines mütterlichen Bruders hinterlässt, gehört das gesamte Vermögen der Schwester. Wenn er eine Ehefrau, eine mütterliche Großmutter und einen mütterlichen Großvater hinterlässt, erhält die Ehefrau ein Viertel, und der Rest wird gleichmäßig zwischen dem Großvater und der Großmutter aufgeteilt. Was die Nachkommen des Kindes von mula'anah betrifft, so wird, wenn einer von ihnen stirbt, sein Erbe wie das eines anderen, gleichmäßig in allen vorgeschriebenen Erbteilen aufgeteilt. Und das Erbe des Kindes von zina ist wie das Erbe des Kindes von mula'anah.",
-          "ru": "Ребенок мула'ана не имеет наследников со стороны отца. Вместо этого наследуют его мать, его братья и сестры по матери, его дети, дяди по матери и его жена. Если он оставляет детей, имущество делится между ними согласно долям Аллаха, Всемогущего и Великого. Если он оставляет отца и мать, имущество принадлежит матери. Если он оставляет отца и сына, имущество принадлежит сыну. Если он оставляет отца и дядей по матери, имущество принадлежит дядям по матери. Если он оставляет дядю и тетю по матери, имущество делится поровну между ними. Если он оставляет дядю и тетю по матери, а также дядю и тетю по отцу, имущество принадлежит дяде и тете по матери поровну, а дяди и тети по отцу исключаются из наследства. Если он оставляет братьев и сестер по матери и бабушку по матери, имущество делится поровну между ними. Если он оставляет сына сестры матери и деда по матери, имущество делится поровну между ними. Если он оставляет мать и жену, жена получает четверть, а остальное принадлежит матери. Если ребенок мула'ана оставляет жену, деда по матери и тетю по матери, жена получает четверть, а остальное принадлежит деду. Если он оставляет трех разных тетей по матери, жену и сына сводного брата по матери, жена получает четверть, а остальное принадлежит племяннику. Если он оставляет дочь и мать, дочь получает половину, мать одну шестую, а остальное возвращается им пропорционально их долям. Если он оставляет мать и брата, имущество принадлежит матери. Если он оставляет жену, дочь, деда по матери, бабушку по матери и братьев и сестер по матери, жена получает одну восьмую, а остальное принадлежит дочери. Если он оставляет жену, деда по матери, мать, бабушку, племянника, племянницу, дядю и тетю по матери, жена получает четверть, а остальное принадлежит матери, остальные исключаются. Если он оставляет дочь и дочь сына, имущество принадлежит дочери; так же если он оставляет дочь и сына сына, имущество принадлежит дочери. Если ребенок мула'ана оставляет брата по отцу и матери и брата по матери, имущество делится поровну между ними. Аналогично, если он оставляет сестру по матери и сестру по отцу и матери, имущество делится поровну между ними. Если он оставляет племянника и племянницу по матери, имущество делится поровну между ними. Если дочь ребенка мула'ана умирает и оставляет сына своей дочери, сына дочери своего сына, мужа, дядю по матери, деда, сына своей сестры и сына своего брата, муж получает четверть, а остальное принадлежит сыну дочери, остальные исключаются. Если ребенок мула'ана оставляет свою сестру и дочь брата по матери, все имущество принадлежит сестре. Если он оставляет жену, бабушку по матери и деда по матери, жена получает четверть, а остальное делится поровну между дедом и бабушкой по матери. Что касается потомков ребенка мула'ана, когда один из них умирает, его наследство такое же, как у других, равномерно во всех предписанных долях наследства. Наследство ребенка зина такое же, как наследство ребенка мула'ана.",
-          "zh": "mula'anah之子无父方继承人。其母、母方兄弟姐妹、子女、母方叔伯及妻子继承其遗产。若留子女，遗产依真主（至大至尊）之份额分配。若留父母，遗产归母。若留父与子，遗产归子。若留父与母方叔伯，遗产归母方叔伯。若留一母方叔伯与一母方姑妈，遗产均分。若留母方叔伯、母方姑妈、父方叔伯及父方姑妈，遗产均归母方叔伯与姑妈，父方叔伯与姑妈除外。若留母方兄弟姐妹与母方祖母，遗产均分。若留母之姊妹之子与母方祖父，遗产均分。若留母与妻，妻得四分之一，余归母。若mula'anah之子留妻、母方祖父及母方姑妈，妻得四分之一，余归祖父。若留三位不同母方姑妈、妻及母方同父异母兄之子，妻得四分之一，余归侄子。若留女与母，女得二分之一，母得六分之一，余按份额返还。若留母与兄，遗产归母。若留妻、女、母方祖父、母方祖母及母方兄弟姐妹，妻得八分之一，余归女。若留妻、母方祖父、母、祖母、侄子、侄女、母方叔伯及母方姑妈，妻得四分之一，余归母，其余除外。若留女及孙女，遗产归女；同理，若留女及孙子，遗产归女。若mula'anah之子留父母同胞兄弟及母方兄弟，遗产均分。若留母方姐妹及父母同胞姐妹，遗产均分。若留母方侄子侄女，遗产均分。若mula'anah之女亡，留女儿之子、儿子之女之子、夫、母方叔伯、祖父、姐妹之子及兄弟之子，夫得四分之一，余归女儿之子，其余除外。若mula'anah之子留姐妹及母方兄之女，遗产全归姐妹。若留妻、母方祖母及母方祖父，妻得四分之一，余均分于祖父与祖母。mula'anah之子后代若有人亡，其遗产如他人，均分所有法定继承份额。奸淫子女继承如mula'anah子女继承。"
+          "en": "The child of mula'anah has no heir from his father, and only his mother, maternal siblings, his children, maternal uncles, and his wife inherit him. If he leaves children, the wealth is divided among them according to the shares of Allah (swt). If he leaves his father and mother, the wealth goes to his mother. If he leaves his father and son, the wealth goes to his son. If he leaves his father and maternal uncles, the wealth goes to the maternal uncles. If he leaves a maternal uncle and aunt, the wealth is divided equally between them. If he leaves a maternal uncle, aunt, paternal uncle, and aunt, the wealth is divided equally between the maternal uncle and aunt, and the paternal uncle and aunt are excluded. If he leaves maternal siblings and a maternal grandmother, the wealth is divided equally among them. If he leaves his maternal aunt's son and his maternal grandfather, the wealth is divided equally between them. If he leaves his mother and wife, the wife receives one-fourth and the remainder goes to the mother. If the child of mula'anah leaves a wife, maternal grandfather, and maternal aunt, the wife receives one-fourth and the remainder goes to the grandfather. If he leaves three different maternal aunts, a wife, and a maternal nephew, the wife receives one-fourth and the remainder goes to the nephew. If he leaves a daughter and mother, the daughter receives half, the mother one-sixth, and the remainder is returned to them proportionally. If he leaves his mother and brother, the wealth goes to the mother. If he leaves a wife, daughter, grandfather, maternal grandmother, and maternal brother and sister, the wife receives one-eighth and the remainder goes to the daughter. If he leaves a wife, grandfather, mother, maternal grandmother, maternal nephew, niece, uncle, and aunt, the wife receives one-fourth, the remainder goes to the mother, and the rest are excluded. If he leaves a daughter and a son's daughter, the wealth goes to the daughter; similarly if he leaves a daughter and a son's son, it goes to the daughter. If the child of mula'anah leaves a full brother and a maternal brother, the wealth is divided equally; likewise if he leaves a maternal sister and a full sister. If he leaves a paternal nephew and a maternal niece, the wealth is divided equally. If the daughter of the mula'anah child dies and leaves her daughter's son, her son's daughter's son, her husband, maternal uncle, grandfather, maternal nephew, and paternal nephew, the husband receives one-fourth, the remainder goes to the daughter's son, and the rest are excluded. If the child of mula'anah leaves his sister and his maternal brother's daughter, all the wealth goes to the sister. If he leaves a wife, maternal grandmother, and maternal grandfather, the wife receives one-fourth, and the remainder is divided equally between the grandfather and grandmother. As for the descendants of the child of mula'anah, if they die, their inheritance is like that of non-mula'anah children, equal in all inheritance rulings. And the inheritance of the child of fornication is like the inheritance of the child of mula'anah.",
+          "fa": "ابن الملاعنة لا وارث له من قبل أبيه إلا أمه وإخوته لأمه وولده وأخواله وزوجته، فإن ترك أولاداً فالمال بينهم على سهام الله عز وجل، وإن ترك أباه وأمه فالمال لأمه، وإن ترك أباه وابنه فالمال لابنه، وإن ترك أباه وأخواله فماله لأخواله، وإن ترك خالاً وخالة فالمال بينهما بالسوية، وإن ترك خالاً وخالة وعماً وعمّة فالمال للخال والخالة بينهما بالسوية وسقط العم والعمّة، وإن ترك إخوة لأم وجدة لأم فالمال بينهم بالسوية، وإن ترك ابن أخته لأمه وجده أبا أمه فالمال بينهما نصفان، وإن ترك أمه وامرأته فللمرأة الربع وما بقي فللأم، وإن ترك ابن الملاعنة امرأة وجداً أبا أمّة وخالة فللمرأة الربع وللجد الباقي، وإن ترك ثلاث خالات مختلفات وامرأة وابن أخ لأم فللمرأة الربع وما بقي لابن الأخ، وإن ترك ابنته وأمّه فللابنة النصف وللأم السدس وما بقي ردّ عليهما على قدر سهامهما، وإن ترك أمه وأخاه فالمال للأم، وإن ترك امرأة وابنة وجداً وجدة لأم وأخاً وأختاً لأم فللمرأة الثمن وما بقي للابنة، وإن ترك امرأة وجداً وأمّاً وجدة وابن أخ وابن أخت وخالاً وخالة فللمرأة الربع وما بقي للأم وسقط الباقون، وإن ترك ابنة وابن ابن فالمال للابنة وكذلك إن ترك ابنة وابن ابن فالمال للابنة، وإن ترك ابن الملاعنة أخاً لأب وأم وأخاً لأم فالمال بينهما نصفان وكذلك إن ترك أختاً لأم وأختاً لأب وأم فالمال بينهما نصفان، وإن ترك ابن أخ وابن أخت لأم فالمال بينهما نصفان، فإن ماتت ابنة الملاعنة وتركت ابن ابنتها وابن ابنة ابنها وزوجها وخالها وجدها وابن أختها وابن أخيها فللزوج الربع وما بقي لابن البنت وسقط الباقون، وإن ترك ابن الملاعنة أخته وابنة أخيه لأمه فالمال كله للأخت، وإن ترك امرأة وجدة وجداً من قبل الأم فللمرأة الربع وما بقي بين الجد والجدة للأم نصفان، فأما ولد ولد ابن الملاعنة إذا مات فإن ميراثه مثل ميراث غير ابن الملاعنة سواء في جميع فرائض الموارث، وميراث ولد الزنا مثل ميراث ابن الملاعنة.",
+          "ur": "",
+          "tr": "",
+          "id": "",
+          "bn": "",
+          "es": "",
+          "fr": "",
+          "de": "",
+          "ru": "",
+          "zh": ""
         },
         "word_start": 0,
-        "word_end": 304
+        "word_end": 373
       }
     ],
     "translations": {
       "en": {
-        "summary": "This narration lays out inheritance rulings for the child of li'an or mula'anah, stating that paternal inheritance is severed and inheritance proceeds through the mother's side and certain specified relatives. It then details many case-based examples of estate division and concludes that the descendants of such a person inherit like others, while the inheritance of a child of zina follows the same rule as that of the child of mula'anah.",
-        "seo_question": "How is the inheritance of the child of li'an divided in Shia fiqh?",
+        "summary": "This hadith from *Man La Yahduruhu al-Faqih* elaborates on the *fara'id* (fixed shares) for the *ibn al-mula'anah*, establishing that he inherits exclusively through the maternal line, thereby excluding paternal relatives and the father himself. It provides a comprehensive jurisprudential breakdown of distribution scenarios involving maternal uncles, aunts, and grandparents, reflecting the Shia emphasis on maternal kinship in the absence of direct paternal lineage. The text concludes by noting that the descendants of the *ibn al-mula'anah* inherit similarly to non-*mula'anah* individuals, highlighting the stability of the maternal inheritance chain.",
+        "seo_question": "What are the inheritance rules for the child of mula'anah in Shia fiqh?",
         "key_terms": {
-          "ٱبْنُ ٱلْمُلَاعَنَةِ": "the child born in a case of mutual imprecation between spouses, whose paternal line is legally severed for inheritance",
-          "سِهَامِ ٱللَّهِ": "the divinely ordained inheritance shares",
-          "ٱلرُّبُعُ": "one-fourth share of an estate",
-          "ٱلثُّمُنُ": "one-eighth share of an estate",
-          "رَدٌّ عَلَيْهِمَا": "return of the remainder to eligible heirs in proportion to their shares",
-          "فَرَائِضِ ٱلْمَوَارِيثِ": "the prescribed rules and allotted shares of inheritance",
-          "وَلَدِ ٱلزِّنَا": "a child born from zina, whose inheritance ruling here is treated like that of the child of mula'anah"
+          "ابْنُ الْمُلَاعَنَةِ": "Child of mula'anah (resulting from mutual cursing)",
+          "مِيرَاثُ": "Inheritance",
+          "أَخْوَالُهُ": "Maternal uncles",
+          "السَّوِيَّةِ": "Equal shares",
+          "فَرَائِضِ الْمَوَارِيثِ": "Prescribed inheritance shares",
+          "وَلَدُ الزِّنَا": "Child of fornication"
         }
       },
       "ur": {
-        "summary": "یہ روایت ابنِ لِعان یا مُلعَنہ کے بچے کے وراثت کے احکام بیان کرتی ہے کہ پدری وراثت منقطع ہو جاتی ہے اور وراثت ماں کی طرف اور مخصوص رشتہ داروں کے ذریعے ہوتی ہے۔ اس میں مختلف صورتوں میں مال کی تقسیم کی تفصیل دی گئی ہے اور نتیجہ اخذ کیا گیا ہے کہ ایسے شخص کی اولاد دوسرے لوگوں کی طرح وراثت پاتی ہے جبکہ زنا کے بچے کی وراثت بھی ابنِ مُلعَنہ کی طرح ہوتی ہے۔",
-        "seo_question": "شیعہ فقہ میں ابنِ لِعان کی وراثت کیسے تقسیم ہوتی ہے؟",
-        "key_terms": {}
+        "summary": "یہ حدیث *من لا یحضرہ الفقیہ* سے ہے جو *ابْنُ الْمُلَاعَنَةِ* کے لیے *فرائض* (مقررہ حصے) پر روشنی ڈالتی ہے، اور اس بات کی تائید کرتی ہے کہ وہ صرف مادری سلسلے کے ذریعے وراثت پاتے ہیں، جس سے باپ اور باپ کی جانب کے رشتہ دار خارج ہو جاتے ہیں۔ یہ متن مادری چچا، خالہ اور دادا دادی جیسے رشتہ داروں کے ساتھ تقسیم کے مختلف منظرناموں کا جامع فقہی تجزیہ پیش کرتا ہے، جو براہ راست باپ کی نسلیں کے غیاب میں مادری رشتہ داری پر شیعہ زور کو ظاہر کرتا ہے۔ متن اس بات کی نوٹنگ کے ساتھ ختم ہوتا ہے کہ *ابْنُ الْمُلَاعَنَةِ* کے اولاد غیر *ملاعنہ* افراد کی طرح ہی وراثت پاتے ہیں، جس سے مادری وراثت کی زنجیر کی استحکام کو اجاگر کیا جاتا ہے۔",
+        "seo_question": "شیعہ فقہ میں ملاعنت کا بچہ وراثت کے کیا اصولوں کے تحت وراثت پاتا ہے؟",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "ملاعنت کا بچہ (باہمی لعنت سے پیدا ہونے والا)",
+          "مِيرَاثُ": "وراثت",
+          "أَخْوَالُهُ": "خالہ",
+          "السَّوِيَّةِ": "برابر حصے",
+          "فَرَائِضِ الْمَوَارِيثِ": "مقررہ وراثت کے حصے",
+          "وَلَدُ الزِّنَا": "زنا کا بچہ"
+        }
       },
       "tr": {
-        "summary": "Bu rivayet, li'an veya mula'anah çocuğunun miras hükümlerini açıklar; babadan miras kesilir ve miras anne tarafı ve belirli akrabalar üzerinden devam eder. Çeşitli durumlarda mal paylaşımı detaylandırılır ve sonuç olarak böyle bir kişinin soyunun diğerleri gibi miras aldığı, zina çocuğunun mirasının da mula'anah çocuğu mirasıyla aynı olduğu belirtilir.",
-        "seo_question": "Şii fıkhında li'an çocuğunun mirası nasıl bölünür?",
-        "key_terms": {}
+        "summary": "Bu hadis, *Man La Yahduruhu al-Faqih* kaynaklı olup, *ibn al-mula'anah* için *fara'id* (sabit paylar) üzerinde durarak, onun yalnızca anne tarafından miras aldığını ve bu nedenle baba tarafından akrabaları ile babanın kendisini hariç tuttuğunu belirtir. Anne dayıları, halaları ve büyükanneleri içeren dağıtım senaryolarının kapsamlı bir fıkıh analizini sunar ve doğrudan baba soyunun bulunmadığı durumlarda anne tarafı akrabalığına Shia vurgusunu yansıtır. Metin, *ibn al-mula'anah*'ın neslinin, *mula'anah* olmayan bireyler gibi miras aldığını not ederek, anne tarafından miras zincirinin istikrarını vurgular.",
+        "seo_question": "Şia fıkhında mula'anah'ın çocuğunun miras kuralları nelerdir?",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "Mula'anah sonucu doğan çocuk",
+          "مِيرَاثُ": "Miras",
+          "أَخْوَالُهُ": "Anne dayıları",
+          "السَّوِيَّةِ": "Eşit paylar",
+          "فَرَائِضِ الْمَوَارِيثِ": "Belirlenmiş miras payları",
+          "وَلَدُ الزِّنَا": "Zevcun çocuğu"
+        }
       },
       "fa": {
-        "summary": "این روایت احکام ارث فرزند لِعان یا مُلعَنَه را بیان می‌کند که ارث پدری قطع می‌شود و ارث از طرف مادر و برخی خویشاوندان مشخص صورت می‌گیرد. سپس نمونه‌های مختلف تقسیم اموال ذکر شده و نتیجه گرفته شده که نسل چنین فردی مانند دیگران ارث می‌برند و ارث فرزند زنا نیز مانند فرزند مُلعَنَه است.",
-        "seo_question": "در فقه شیعه ارث فرزند لِعان چگونه تقسیم می‌شود؟",
-        "key_terms": {}
+        "summary": "این حدیث از کتاب *من لا یحضره الفقیه* به تشریح ارث *ابن الملاعنه* در بخش *فرائض* (سهام ثابت) می‌پردازد و بر این نکته تأکید دارد که او تنها از طریق خط مادری ارث می‌برد، بدین ترتیب که خویشاوندان پدری و خود پدر از ارث محروم می‌شوند. این متن یک تحلیل فقهی جامع از سناریوهای توزیع ارث شامل عموهای مادری، خاله‌ها و پدربزرگ‌ها و مادربزرگ‌ها ارائه می‌دهد که نشان‌دهنده تأکید شیعه بر خویشاوندی مادری در غیاب خط مستقیم پدری است. متن در پایان با این نکته خاتمه می‌یابد که فرزندان *ابن الملاعنه* به همان شیوه افراد غیر *ملاعنه* ارث می‌برند که ثبات زنجیره ارث مادری را برجسته می‌سازد.",
+        "seo_question": "قوانین ارث برای فرزند ملاعنه در فقه شیعه چیست؟",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "فرزند ملاعنه",
+          "مِيرَاثُ": "ارث",
+          "أَخْوَالُهُ": "عموهای مادری",
+          "السَّوِيَّةِ": "سهام مساوی",
+          "فَرَائِضِ الْمَوَارِيثِ": "سهام مقرر ارث",
+          "وَلَدُ الزِّنَا": "فرزند زنا"
+        }
       },
       "id": {
-        "summary": "Riwayat ini menjelaskan hukum waris bagi anak li'an atau mula'anah, menyatakan bahwa warisan dari pihak ayah terputus dan warisan berjalan melalui pihak ibu dan kerabat tertentu. Kemudian dijelaskan berbagai contoh pembagian harta dan disimpulkan bahwa keturunan orang tersebut mewarisi seperti orang lain, sementara warisan anak zina mengikuti aturan yang sama dengan anak mula'anah.",
-        "seo_question": "Bagaimana pembagian warisan anak li'an dalam fikih Syiah?",
-        "key_terms": {}
+        "summary": "Hadis dari *Man La Yahduruhu al-Faqih* ini menguraikan *fara'id* (bagian tetap) untuk *ibn al-mula'anah*, menetapkan bahwa ia mewarisi secara eksklusif melalui garis ibu, sehingga menyingkirkan kerabat paternal dan ayah itu sendiri. Teks ini memberikan uraian fikih yang komprehensif mengenai skenario distribusi yang melibatkan paman dari pihak ibu, bibi dari pihak ibu, dan kakek-nenek, mencerminkan penekanan Syiah pada kekerabatan maternal dalam ketiadaan garis keturunan paternal langsung. Teks tersebut berakhir dengan catatan bahwa keturunan *ibn al-mula'anah* mewarisi secara serupa dengan individu non-*mula'anah*, menyoroti stabilitas rantai warisan maternal.",
+        "seo_question": "Apa saja aturan warisan untuk anak dari mula'anah dalam fikih Syiah?",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "Anak dari mula'anah (yang dihasilkan dari kutuk bersama)",
+          "مِيرَاثُ": "Warisan",
+          "أَخْوَالُهُ": "Paman dari pihak ibu",
+          "السَّوِيَّةِ": "Bagian yang sama",
+          "فَرَائِضِ الْمَوَارِيثِ": "Bagian warisan yang ditetapkan",
+          "وَلَدُ الزِّنَا": "Anak dari zina"
+        }
       },
       "bn": {
-        "summary": "এই বর্ণনায় লিয়ান বা মুলআনাহ সন্তানের উত্তরাধিকার বিধানগুলি বর্ণিত হয়েছে, যেখানে পিতার পক্ষ থেকে উত্তরাধিকার বন্ধ হয়ে যায় এবং উত্তরাধিকার মায়ের পক্ষ এবং নির্দিষ্ট আত্মীয়দের মাধ্যমে চলে। বিভিন্ন ক্ষেত্রে সম্পত্তি ভাগের উদাহরণ দেওয়া হয়েছে এবং উপসংহারে বলা হয়েছে যে এমন ব্যক্তির বংশধররা অন্যদের মতো উত্তরাধিকার পায়, এবং জিনার সন্তানের উত্তরাধিকারও মুলআনাহ সন্তানের মতোই হয়।",
-        "seo_question": "শিয়া ফিকহে লিয়ানের সন্তানের উত্তরাধিকার কিভাবে বিভক্ত হয়?",
-        "key_terms": {}
+        "summary": "এই হাদিসে *মান লা ইয়াহদুরুহুল ফাকিহ* থেকে *ইবনুল মুলআনাহ*-এর জন্য *ফরাইদ* (নির্দিষ্ট অংশ) নিয়ে বিস্তারিত আলোচনা করা হয়েছে, যা প্রতিষ্ঠা করে যে তিনি শুধুমাত্র মাতৃপক্ষের মাধ্যমে উত্তরাধিকারী হন, ফলে পিতৃপক্ষের আত্মীয় এবং পিতা নিজে বাদ পড়েন। এটি মাতামহ, মামুদ, খালা এবং খালাতো ভাইবোনের সাথে বন্টনের পরিস্থিতির একটি বিস্তৃত ফিকহী বিশ্লেষণ প্রদান করে, যা সরাসরি পিতৃপক্ষের বংশলতায় অনুপস্থিতিতে মাতৃপক্ষের আত্মীয়তাকে কেন্দ্র করে শিয়া মতামত প্রতিফলিত করে। পাঠটি শেষে উল্লেখ করা হয়েছে যে *ইবনুল মুলআনাহ*-এর সন্তানরা অ-মুলআনাহ ব্যক্তিদের মতোই উত্তরাধিকারী হন, যা মাতৃপক্ষের উত্তরাধিকারের শৃঙ্খলের স্থিতিশীলতা তুলে ধরে।",
+        "seo_question": "শিয়া ফিকহে মুলআনাহ-এর সন্তানের উত্তরাধিকারের নিয়ম কী?",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "মুলআনাহ-এর সন্তান (পারস্পরিক লাআনের ফলে সৃষ্ট)",
+          "مِيرَاثُ": "উত্তরাধিকার",
+          "أَخْوَالُهُ": "মামুদ",
+          "السَّوِيَّةِ": "সমান অংশ",
+          "فَرَائِضِ الْمَوَارِيثِ": "নির্ধারিত উত্তরাধিকারের অংশ",
+          "وَلَدُ الزِّنَا": "জরবিদ্বের সন্তান"
+        }
       },
       "es": {
-        "summary": "Esta narración establece las reglas de herencia para el hijo de li'an o mula'anah, indicando que la herencia paterna se corta y la herencia procede por parte de la madre y ciertos parientes especificados. Luego detalla muchos ejemplos basados en casos de división de bienes y concluye que los descendientes de tal persona heredan como los demás, mientras que la herencia del hijo de zina sigue la misma regla que la del hijo de mula'anah.",
-        "seo_question": "¿Cómo se divide la herencia del hijo de li'an en la jurisprudencia chií?",
-        "key_terms": {}
+        "summary": "Este hadiz de *Man La Yahduruhu al-Faqih* elabora sobre las *fara'id* (cuotas fijas) para el *ibn al-mula'anah*, estableciendo que hereda exclusivamente por la línea materna, excluyendo así a los parientes paternos y al padre mismo. Proporciona un desglose jurisprudencial exhaustivo de los escenarios de distribución que involucran a los tíos maternos, tías y abuelos, reflejando el énfasis chií en la parentela materna en ausencia de linaje paterno directo. El texto concluye señalando que los descendientes del *ibn al-mula'anah* heredan de manera similar a los individuos no *mula'anah*, destacando la estabilidad de la cadena de herencia materna.",
+        "seo_question": "¿Cuáles son las reglas de herencia para el hijo de mula'anah en la jurisprudencia chií?",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "Hijo de mula'anah (resultado de la maldición mutua)",
+          "مِيرَاثُ": "Herencia",
+          "أَخْوَالُهُ": "Tíos maternos",
+          "السَّوِيَّةِ": "Cuotas iguales",
+          "فَرَائِضِ الْمَوَارِيثِ": "Cuotas prescriptas de herencia",
+          "وَلَدُ الزِّنَا": "Hijo de fornicación"
+        }
       },
       "fr": {
-        "summary": "Cette narration expose les règles d'héritage pour l'enfant de li'an ou mula'anah, indiquant que l'héritage paternel est coupé et que l'héritage se fait par la mère et certains proches spécifiés. Elle détaille ensuite de nombreux exemples de division des biens selon les cas et conclut que les descendants d'une telle personne héritent comme les autres, tandis que l'héritage de l'enfant de zina suit la même règle que celui de l'enfant de mula'anah.",
-        "seo_question": "Comment est divisée l'héritage de l'enfant de li'an en jurisprudence chiite ?",
-        "key_terms": {}
+        "summary": "Ce hadith tiré de *Man La Yahduruhu al-Faqih* précise les *fara'id* (parts fixes) pour l'*ibn al-mula'anah*, établissant qu'il hérite exclusivement par la ligne maternelle, excluant ainsi les parents paternels et le père lui-même. Il offre une analyse jurisprudentielle complète des scénarios de répartition impliquant les oncles et tantes maternels, ainsi que les grands-parents, reflétant l'accent mis par le chiisme sur la parenté maternelle en l'absence de lignée paternelle directe. Le texte conclut en notant que les descendants de l'*ibn al-mula'anah* héritent de manière similaire aux individus non-*mula'anah*, soulignant la stabilité de la chaîne d'héritage maternelle.",
+        "seo_question": "Quelles sont les règles d'héritage pour l'enfant de mula'anah en fiqh chiite ?",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "Enfant de mula'anah (résultant de la malédiction mutuelle)",
+          "مِيرَاثُ": "Héritage",
+          "أَخْوَالُهُ": "Oncles maternels",
+          "السَّوِيَّةِ": "Parts égales",
+          "فَرَائِضِ الْمَوَارِيثِ": "Parts d'héritage prescrites",
+          "وَلَدُ الزِّنَا": "Enfant de fornication"
+        }
       },
       "de": {
-        "summary": "Diese Überlieferung legt die Erbregeln für das Kind von li'an oder mula'anah dar und besagt, dass das väterliche Erbe abgeschnitten ist und die Erbschaft über die Mutterseite und bestimmte angegebene Verwandte erfolgt. Es werden viele fallbezogene Beispiele für die Aufteilung des Nachlasses gegeben und es wird geschlossen, dass die Nachkommen einer solchen Person wie andere erben, während das Erbe eines Kindes von zina nach denselben Regeln wie das eines Kindes von mula'anah erfolgt.",
-        "seo_question": "Wie wird das Erbe des Kindes von li'an im schiitischen Fiqh aufgeteilt?",
-        "key_terms": {}
+        "summary": "Dieses Hadith aus *Man La Yahduruhu al-Faqih* erläutert die *fara'id* (festgelegten Anteile) für den *ibn al-mula'anah* und stellt fest, dass er ausschließlich über die mütterliche Linie erbt, wodurch väterliche Verwandte und der Vater selbst ausgeschlossen werden. Es bietet eine umfassende juristische Aufschlüsselung der Verteilungsszenarien, die mütterliche Onkel, Tanten und Großeltern einbeziehen, was die schiitische Betonung der mütterlichen Verwandtschaft bei Fehlen einer direkten väterlichen Linie widerspiegelt. Der Text schließt mit der Bemerkung, dass die Nachkommen des *ibn al-mula'anah* ähnlich wie Nicht-*mula'anah*-Personen erben, was die Stabilität der mütterlichen Erbschaftskette hervorhebt.",
+        "seo_question": "Was sind die Erbschaftsregeln für das Kind von Mula'anah im schiitischen Fiqh?",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "Kind von Mula'anah (aus dem gegenseitigen Fluch resultierend)",
+          "مِيرَاثُ": "Erbschaft",
+          "أَخْوَالُهُ": "Mütterliche Onkel",
+          "السَّوِيَّةِ": "Gleiche Anteile",
+          "فَرَائِضِ الْمَوَارِيثِ": "Vorgeschriebene Erbschaftsanteile",
+          "وَلَدُ الزِّنَا": "Kind der Unzucht"
+        }
       },
       "ru": {
-        "summary": "Этот хадис излагает правила наследования для ребенка ли'ан или мула'ана, указывая, что наследство по отцу прекращается, и наследование происходит по материнской линии и определенным родственникам. Затем приводятся многочисленные примеры раздела имущества и делается вывод, что потомки такого человека наследуют как другие, а наследство ребенка зина подчиняется тем же правилам, что и наследство ребенка мула'ана.",
-        "seo_question": "Как делится наследство ребенка ли'ан в шиистском фикхе?",
-        "key_terms": {}
+        "summary": "Этот хадис из книги «Ман ла йахдуруху аль-факих» подробно разъясняет правила наследования (фароид) для ибн аль-мула'ана, устанавливая, что он наследует исключительно по материнской линии, что исключает родственников со стороны отца и самого отца. В тексте представлен всесторонний фиqh-анализ сценариев распределения наследства с участием дядей и тётёк со стороны матери, а также бабушек и дедушек, что отражает шиитский акцент на родстве по материнской линии при отсутствии прямой отцовской линии. Текст завершается замечанием о том, что потомки ибн аль-мула'ана наследуют так же, как и не-мула'ана, подчеркивая стабильность цепи материнского наследования.",
+        "seo_question": "Каковы правила наследования для ребенка мула'ана в шиитском фикхе?",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "ребенок мула'ана (в результате взаимного проклятия)",
+          "مِيرَاثُ": "наследование",
+          "أَخْوَالُهُ": "дяди со стороны матери",
+          "السَّوِيَّةِ": "равные доли",
+          "فَرَائِضِ الْمَوَارِيثِ": "предписанные доли наследства",
+          "وَلَدُ الزِّنَا": "ребенок от прелюбодеяния"
+        }
       },
       "zh": {
-        "summary": "此传述阐明了利安或mula'anah之子继承规则，指出父系继承被切断，继承通过母系及特定亲属进行。随后详细列举多种遗产分配案例，结论是此类人后代继承如他人，奸淫子女继承规则同mula'anah子女。",
-        "seo_question": "什叶派法学中利安子女的继承如何分配？",
-        "key_terms": {}
+        "summary": "这段出自《法克赫不登场者》的圣训详细阐述了因相互诅咒而产生的子女（ibn al-mula'anah）的固定继承份额（fara'id），确立其仅通过母系继承，从而排除父系亲属及父亲本人。它提供了涉及母舅、母姨和祖父母的分配场景的全面教法学分析，反映了在缺乏直接父系血统时什叶派对母系亲属关系的重视。文本最后指出，该子女的子孙继承方式与非mula'anah个体相似，突出了母系继承链的稳定性。",
+        "seo_question": "什叶派教法中因诅咒而生的子女继承规则是什么？",
+        "key_terms": {
+          "ابْنُ الْمُلَاعَنَةِ": "因相互诅咒而产生的子女",
+          "مِيرَاثُ": "继承",
+          "أَخْوَالُهُ": "母舅",
+          "السَّوِيَّةِ": "均等份额",
+          "فَرَائِضِ الْمَوَارِيثِ": "法定继承份额",
+          "وَلَدُ الزِّنَا": "私生子"
+        }
       }
     },
     "related_quran": [
+      {
+        "ref": "2:233",
+        "relationship": "thematic"
+      },
       {
         "ref": "4:11",
         "relationship": "thematic"
       },
       {
-        "ref": "4:12",
-        "relationship": "thematic"
-      },
-      {
         "ref": "4:176",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "24:6",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "24:9",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "ٱبْنُ ٱلْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ وَإِنَّمَا تَرِثُهُ أُمُّهُ وَإِخْوَتُهُ لِأُمِّهِ وَوُلْدُهُ وَأَخْوَالُهُ وَزَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَادًا فَٱلْمَالُ بَيْنَهُمْ عَلَىٰ سِهَامِ ٱللَّهِ عَزَّ وَجَلَّ فَإِنْ تَرَكَ أَبَاهُ وَأُمَّهُ فَٱلْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ وَٱبْنَهُ فَٱلْمَالُ لِٱبْنِهِ فَإِنْ تَرَكَ أَبَاهُ وَأَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا وَخَالَةً فَٱلْمَالُ بَيْنَهُمَا بِٱلسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا وَخَالَةً وَعَمًّا وَعَمَّةً فَٱلْمَالُ لِلْخَالِ وَٱلْخَالَةِ بَيْنَهُمَا بِٱلسَّوِيَّةِ وَسَقَطَ ٱلْعَمُّ وَٱلْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ وَجَدَّةً لِأُمٍّ فَٱلْمَالُ بَيْنَهُمْ بِٱلسَّوِيَّةِ فَإِنْ تَرَكَ ٱبْنَ أُخْتِهِ لِأُمِّهِ وَجَدَّهُ أَبَا أُمِّهِ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ أُمَّهُ وَٱمْرَأَتَهُ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ ٱمْرَأَةً وَجَدًّا أَبَا أُمِّهِ وَخَالَةً لِلْمَرْأَةِ ٱلرُّبُعُ وَلِلْجَدِّ ٱلْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالَاتٍ مُتَفَرِّقَاتٍ وَٱمْرَأَةً وَٱبْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِٱبْنِ ٱلْأَخِ فَإِنْ تَرَكَ ٱبْنَتَهُ وَأُمَّهُ فَلِلِٱبْنَةِ ٱلنِّصْفُ وَلِلْأُمِّ ٱلسُّدُسُ وَمَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَىٰ قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ وَأَخَاهُ فَٱلْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ ٱمْرَأَةً وَٱبْنَةً وَجَدًّا وَجَدَّةً لِأُمٍّ وَأَخًا وَأُخْتًا لِأُمٍّ فَلِلْمَرْأَةِ ٱلثُّمُنُ وَمَا بَقِيَ فَلِلِٱبْنَةِ فَإِنْ تَرَكَ ٱمْرَأَةً وَجَدًّا وَأُمًّا وَجَدَّةً وَٱبْنَ أَخٍ وَٱبْنَ أُخْتٍ وَخَالًا وَخَالَةً فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِلْأُمِّ وَسَقَطَ ٱلْبَاقُونَ فَإِنْ تَرَكَ ٱبْنَةً وَٱبْنَةَ ٱبْنٍ فَٱلْمَالُ لِلِٱبْنَةِ وَكَذَٰلِكَ إِنْ تَرَكَ ٱبْنَةً وَٱبْنَ ٱبْنٍ فَٱلْمَالُ لِلِٱبْنَةِ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ أَخًا لِأَبٍ وَأُمٍّ وَأَخًا لِأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ وَكَذَٰلِكَ إِنْ تَرَكَ أُخْتًا لِأُمٍّ وَأُخْتًا لِأَبٍ وَأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ٱبْنَ أَخٍ وَٱبْنَةَ أُخْتٍ لِأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ٱبْنَةُ ٱلْمُلَاعَنَةِ وَتَرَكَتِ ٱبْنَ ٱبْنَتِهَا وَٱبْنَ ٱبْنَةِ ٱبْنِهَا وَزَوْجَهَا وَخَالَهَا وَجَدَّهَا وَٱبْنَ أُخْتِهَا وَٱبْنَ أَخِيهَا فَلِلزَّوْجِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِٱبْنِ ٱلِٱبْنَةِ وَسَقَطَ ٱلْبَاقُونَ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ أُخْتَهُ وَٱبْنَةَ أَخِيهِ لِأُمِّهِ فَٱلْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ ٱمْرَأَةً وَجَدَّةً وَجَدًّا مِنْ قِبَلِ ٱلْأُمِّ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَبَيْنَ ٱلْجَدِّ وَٱلْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ٱبْنِ ٱلْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ مِيرَاثِ غَيْرِ ٱبْنِ ٱلْمُلَاعَنَةِ سَوَاءً فِي جَمِيعِ فَرَائِضِ ٱلْمَوَارِيثِ وَمِيرَاثُ وَلَدِ ٱلزِّنَا مِثْلُ مِيرَاثِ وَلَدِ ٱلْمُلَاعَنَةِ.",
+    "diacritized_text": "ابْنُ الْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ وَ إِنَّمَا تَرِثُهُ أُمُّهُ وَ إِخْوَتُهُ لِأُمِّهِ وَ وُلْدُهُ وَ أَخْوَالُهُ وَ زَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَاداً فَالْمَالُ بَيْنَهُمْ عَلَى سِهَامِ اللَّهِ عَزَّ وَ جَلَ‌ فَإِنْ تَرَكَ أَبَاهُ وَ أُمَّهُ فَالْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ وَ ابْنَهُ فَالْمَالُ لِابْنِهِ فَإِنْ تَرَكَ أَبَاهُ وَ أَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً فَالْمَالُ بَيْنَهُمَا بِالسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً وَ عَمّاً وَ عَمَّةً فَالْمَالُ لِلْخَالِ وَ الْخَالَةِ بَيْنَهُمَا بِالسَّوِيَّةِ وَ سَقَطَ الْعَمُّ وَ الْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ و جَدَّةً لِأُمٍّ فَالْمَالُ بَيْنَهُمْ بِالسَّوِيَّةِ فَإِنْ تَرَكَ ابْنَ أُخْتِهِ لِأُمِّهِ وَ جَدَّهُ أَبَا أُمِّهِ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ‌ فَإِنْ تَرَكَ أُمَّهُ وَ امْرَأَتَهُ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ امْرَأَةً وَ جَدّاً أَبَا أُمَّةٍ وَ خَالَةً لِلْمَرْأَةِ الرُّبُعُ وَ لِلْجَدِّ الْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالاتٍ مُتَفَرِّقَاتٍ وَ امْرَأَةً وَ ابْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الْأَخِ فَإِنْ تَرَكَ ابْنَتَهُ وَ أُمَّهُ فَلِلِابْنَةِ النِّصْفُ وَ لِلْأُمِّ السُّدُسُ وَ مَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَى قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ وَ أَخَاهُ فَالْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ امْرَأَةً وَ ابْنَةً وَ جَدّاً وَ جَدَّةً لِأُمٍّ وَ أَخاً وَ أُخْتاً لِأُمٍّ فَلِلْمَرْأَةِ الثُّمُنُ وَ مَا بَقِيَ فَلِلِابْنَةِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدّاً وَ أُمّاً وَ جَدَّةً وَ ابْنَ أَخٍ وَ ابْنَ أُخْتٍ وَ خَالًا وَ خَالَةً فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنَةً وَ ابْنَةَ ابْنٍ فَالْمَالُ لِلِابْنَةِ وَ كَذَلِكَ إِنْ تَرَكَ ابْنَةً وَ ابْنَ ابْنٍ فَالْمَالُ لِلِابْنَةِ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أَخاً لِأَبٍ وَ أُمٍّ وَ أَخاً لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ وَ كَذَلِكَ إِنْ تَرَكَ أُخْتاً لِأُمٍّ وَ أُخْتاً لِأَبٍ وَ أُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ابْنَ أَخٍ وَ ابْنَةَ أُخْتٍ لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ابْنَةُ الْمُلَاعَنَةِ وَ تَرَكَتِ ابْنَ ابْنَتِهَا وَ ابْنَ ابْنَةِ ابْنِهَا وَ زَوْجَهَا وَ خَالَهَا وَ جَدَّهَا وَ ابْنَ أُخْتِهَا وَ ابْنَ أَخِيهَا فَلِلزَّوْجِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الِابْنَةِ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أُخْتَهُ وَ ابْنَةَ أَخِيهِ لِأُمِّهِ فَالْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدَّةً وَ جَدّاً مِنْ قِبَلِ الْأُمِّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَبَيْنَ الْجَدِّ وَ الْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ابْنِ الْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ‌ مِيرَاثِ غَيْرِ ابْنِ الْمُلَاعَنَةِ سَوَاءً فِي جَمِيعِ فَرَائِضِ الْمَوَارِيثِ‌ وَ مِيرَاثُ وَلَدِ الزِّنَا مِثْلُ مِيرَاثِ وَلَدِ الْمُلَاعَنَةِ.",
     "isnad_matn": {
       "isnad_ar": "ابْنُ الْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ وَ إِنَّمَا تَرِثُهُ أُمُّهُ وَ إِخْوَتُهُ لِأُمِّهِ وَ وُلْدُهُ وَ أَخْوَالُهُ وَ زَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَاداً فَالْمَالُ بَيْنَهُمْ عَلَى سِهَامِ اللَّهِ عَزَّ وَ جَلَ‌ فَإِنْ تَرَكَ أَبَاهُ وَ أُمَّهُ فَالْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ وَ ابْنَهُ فَالْمَالُ لِابْنِهِ فَإِنْ تَرَكَ أَبَاهُ وَ أَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً فَالْمَالُ بَيْنَهُمَا بِالسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً وَ عَمّاً وَ عَمَّةً فَالْمَالُ لِلْخَالِ وَ الْخَالَةِ بَيْنَهُمَا بِالسَّوِيَّةِ وَ سَقَطَ الْعَمُّ وَ الْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ و جَدَّةً لِأُمٍّ فَالْمَالُ بَيْنَهُمْ بِالسَّوِيَّةِ فَإِنْ تَرَكَ ابْنَ أُخْتِهِ لِأُمِّهِ وَ جَدَّهُ أَبَا أُمِّهِ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ‌ فَإِنْ تَرَكَ أُمَّهُ وَ امْرَأَتَهُ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ امْرَأَةً وَ جَدّاً أَبَا أُمَّةٍ وَ خَالَةً لِلْمَرْأَةِ الرُّبُعُ وَ لِلْجَدِّ الْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالاتٍ مُتَفَرِّقَاتٍ وَ امْرَأَةً وَ ابْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الْأَخِ فَإِنْ تَرَكَ ابْنَتَهُ وَ أُمَّهُ فَلِلِابْنَةِ النِّصْفُ وَ لِلْأُمِّ السُّدُسُ وَ مَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَى قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ وَ أَخَاهُ فَالْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ امْرَأَةً وَ ابْنَةً وَ جَدّاً وَ جَدَّةً لِأُمٍّ وَ أَخاً وَ أُخْتاً لِأُمٍّ فَلِلْمَرْأَةِ الثُّمُنُ وَ مَا بَقِيَ فَلِلِابْنَةِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدّاً وَ أُمّاً وَ جَدَّةً وَ ابْنَ أَخٍ وَ ابْنَ أُخْتٍ وَ خَالًا وَ خَالَةً فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنَةً وَ ابْنَةَ ابْنٍ فَالْمَالُ لِلِابْنَةِ وَ كَذَلِكَ إِنْ تَرَكَ ابْنَةً وَ ابْنَ ابْنٍ فَالْمَالُ لِلِابْنَةِ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أَخاً لِأَبٍ وَ أُمٍّ وَ أَخاً لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ وَ كَذَلِكَ إِنْ تَرَكَ أُخْتاً لِأُمٍّ وَ أُخْتاً لِأَبٍ وَ أُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ابْنَ أَخٍ وَ ابْنَةَ أُخْتٍ لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ابْنَةُ الْمُلَاعَنَةِ وَ تَرَكَتِ ابْنَ ابْنَتِهَا وَ ابْنَ ابْنَةِ ابْنِهَا وَ زَوْجَهَا وَ خَالَهَا وَ جَدَّهَا وَ ابْنَ أُخْتِهَا وَ ابْنَ أَخِيهَا فَلِلزَّوْجِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الِابْنَةِ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أُخْتَهُ وَ ابْنَةَ أَخِيهِ لِأُمِّهِ فَالْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدَّةً وَ جَدّاً مِنْ قِبَلِ الْأُمِّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَبَيْنَ الْجَدِّ وَ الْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ابْنِ الْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ‌ مِيرَاثِ غَيْرِ ابْنِ الْمُلَاعَنَةِ سَوَاءً فِي",
-      "matn_ar": "ٱبْنُ ٱلْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ وَإِنَّمَا تَرِثُهُ أُمُّهُ وَإِخْوَتُهُ لِأُمِّهِ وَوُلْدُهُ وَأَخْوَالُهُ وَزَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَادًا فَٱلْمَالُ بَيْنَهُمْ عَلَىٰ سِهَامِ ٱللَّهِ عَزَّ وَجَلَّ فَإِنْ تَرَكَ أَبَاهُ وَأُمَّهُ فَٱلْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ وَٱبْنَهُ فَٱلْمَالُ لِٱبْنِهِ فَإِنْ تَرَكَ أَبَاهُ وَأَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا وَخَالَةً فَٱلْمَالُ بَيْنَهُمَا بِٱلسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا وَخَالَةً وَعَمًّا وَعَمَّةً فَٱلْمَالُ لِلْخَالِ وَٱلْخَالَةِ بَيْنَهُمَا بِٱلسَّوِيَّةِ وَسَقَطَ ٱلْعَمُّ وَٱلْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ وَجَدَّةً لِأُمٍّ فَٱلْمَالُ بَيْنَهُمْ بِٱلسَّوِيَّةِ فَإِنْ تَرَكَ ٱبْنَ أُخْتِهِ لِأُمِّهِ وَجَدَّهُ أَبَا أُمِّهِ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ أُمَّهُ وَٱمْرَأَتَهُ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ ٱمْرَأَةً وَجَدًّا أَبَا أُمِّهِ وَخَالَةً لِلْمَرْأَةِ ٱلرُّبُعُ وَلِلْجَدِّ ٱلْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالَاتٍ مُتَفَرِّقَاتٍ وَٱمْرَأَةً وَٱبْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِٱبْنِ ٱلْأَخِ فَإِنْ تَرَكَ ٱبْنَتَهُ وَأُمَّهُ فَلِلِٱبْنَةِ ٱلنِّصْفُ وَلِلْأُمِّ ٱلسُّدُسُ وَمَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَىٰ قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ وَأَخَاهُ فَٱلْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ ٱمْرَأَةً وَٱبْنَةً وَجَدًّا وَجَدَّةً لِأُمٍّ وَأَخًا وَأُخْتًا لِأُمٍّ فَلِلْمَرْأَةِ ٱلثُّمُنُ وَمَا بَقِيَ فَلِلِٱبْنَةِ فَإِنْ تَرَكَ ٱمْرَأَةً وَجَدًّا وَأُمًّا وَجَدَّةً وَٱبْنَ أَخٍ وَٱبْنَ أُخْتٍ وَخَالًا وَخَالَةً فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِلْأُمِّ وَسَقَطَ ٱلْبَاقُونَ فَإِنْ تَرَكَ ٱبْنَةً وَٱبْنَةَ ٱبْنٍ فَٱلْمَالُ لِلِٱبْنَةِ وَكَذَٰلِكَ إِنْ تَرَكَ ٱبْنَةً وَٱبْنَ ٱبْنٍ فَٱلْمَالُ لِلِٱبْنَةِ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ أَخًا لِأَبٍ وَأُمٍّ وَأَخًا لِأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ وَكَذَٰلِكَ إِنْ تَرَكَ أُخْتًا لِأُمٍّ وَأُخْتًا لِأَبٍ وَأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ٱبْنَ أَخٍ وَٱبْنَةَ أُخْتٍ لِأُمٍّ فَٱلْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ٱبْنَةُ ٱلْمُلَاعَنَةِ وَتَرَكَتِ ٱبْنَ ٱبْنَتِهَا وَٱبْنَ ٱبْنَةِ ٱبْنِهَا وَزَوْجَهَا وَخَالَهَا وَجَدَّهَا وَٱبْنَ أُخْتِهَا وَٱبْنَ أَخِيهَا فَلِلزَّوْجِ ٱلرُّبُعُ وَمَا بَقِيَ فَلِٱبْنِ ٱلِٱبْنَةِ وَسَقَطَ ٱلْبَاقُونَ فَإِنْ تَرَكَ ٱبْنُ ٱلْمُلَاعَنَةِ أُخْتَهُ وَٱبْنَةَ أَخِيهِ لِأُمِّهِ فَٱلْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ ٱمْرَأَةً وَجَدَّةً وَجَدًّا مِنْ قِبَلِ ٱلْأُمِّ فَلِلْمَرْأَةِ ٱلرُّبُعُ وَمَا بَقِيَ فَبَيْنَ ٱلْجَدِّ وَٱلْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ٱبْنِ ٱلْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ مِيرَاثِ غَيْرِ ٱبْنِ ٱلْمُلَاعَنَةِ سَوَاءً فِي جَمِيعِ فَرَائِضِ ٱلْمَوَارِيثِ وَمِيرَاثُ وَلَدِ ٱلزِّنَا مِثْلُ مِيرَاثِ وَلَدِ ٱلْمُلَاعَنَةِ.",
+      "matn_ar": "ابْنُ الْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ وَ إِنَّمَا تَرِثُهُ أُمُّهُ وَ إِخْوَتُهُ لِأُمِّهِ وَ وُلْدُهُ وَ أَخْوَالُهُ وَ زَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَاداً فَالْمَالُ بَيْنَهُمْ عَلَى سِهَامِ اللَّهِ عَزَّ وَ جَلَ‌ فَإِنْ تَرَكَ أَبَاهُ وَ أُمَّهُ فَالْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ وَ ابْنَهُ فَالْمَالُ لِابْنِهِ فَإِنْ تَرَكَ أَبَاهُ وَ أَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً فَالْمَالُ بَيْنَهُمَا بِالسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا وَ خَالَةً وَ عَمّاً وَ عَمَّةً فَالْمَالُ لِلْخَالِ وَ الْخَالَةِ بَيْنَهُمَا بِالسَّوِيَّةِ وَ سَقَطَ الْعَمُّ وَ الْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ و جَدَّةً لِأُمٍّ فَالْمَالُ بَيْنَهُمْ بِالسَّوِيَّةِ فَإِنْ تَرَكَ ابْنَ أُخْتِهِ لِأُمِّهِ وَ جَدَّهُ أَبَا أُمِّهِ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ‌ فَإِنْ تَرَكَ أُمَّهُ وَ امْرَأَتَهُ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ امْرَأَةً وَ جَدّاً أَبَا أُمَّةٍ وَ خَالَةً لِلْمَرْأَةِ الرُّبُعُ وَ لِلْجَدِّ الْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالاتٍ مُتَفَرِّقَاتٍ وَ امْرَأَةً وَ ابْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الْأَخِ فَإِنْ تَرَكَ ابْنَتَهُ وَ أُمَّهُ فَلِلِابْنَةِ النِّصْفُ وَ لِلْأُمِّ السُّدُسُ وَ مَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَى قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ وَ أَخَاهُ فَالْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ امْرَأَةً وَ ابْنَةً وَ جَدّاً وَ جَدَّةً لِأُمٍّ وَ أَخاً وَ أُخْتاً لِأُمٍّ فَلِلْمَرْأَةِ الثُّمُنُ وَ مَا بَقِيَ فَلِلِابْنَةِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدّاً وَ أُمّاً وَ جَدَّةً وَ ابْنَ أَخٍ وَ ابْنَ أُخْتٍ وَ خَالًا وَ خَالَةً فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَلِلْأُمِّ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنَةً وَ ابْنَةَ ابْنٍ فَالْمَالُ لِلِابْنَةِ وَ كَذَلِكَ إِنْ تَرَكَ ابْنَةً وَ ابْنَ ابْنٍ فَالْمَالُ لِلِابْنَةِ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أَخاً لِأَبٍ وَ أُمٍّ وَ أَخاً لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ وَ كَذَلِكَ إِنْ تَرَكَ أُخْتاً لِأُمٍّ وَ أُخْتاً لِأَبٍ وَ أُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ابْنَ أَخٍ وَ ابْنَةَ أُخْتٍ لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ابْنَةُ الْمُلَاعَنَةِ وَ تَرَكَتِ ابْنَ ابْنَتِهَا وَ ابْنَ ابْنَةِ ابْنِهَا وَ زَوْجَهَا وَ خَالَهَا وَ جَدَّهَا وَ ابْنَ أُخْتِهَا وَ ابْنَ أَخِيهَا فَلِلزَّوْجِ الرُّبُعُ وَ مَا بَقِيَ فَلِابْنِ الِابْنَةِ وَ سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أُخْتَهُ وَ ابْنَةَ أَخِيهِ لِأُمِّهِ فَالْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ امْرَأَةً وَ جَدَّةً وَ جَدّاً مِنْ قِبَلِ الْأُمِّ فَلِلْمَرْأَةِ الرُّبُعُ وَ مَا بَقِيَ فَبَيْنَ الْجَدِّ وَ الْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ابْنِ الْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ‌ مِيرَاثِ غَيْرِ ابْنِ الْمُلَاعَنَةِ سَوَاءً فِي جَمِيعِ فَرَائِضِ الْمَوَارِيثِ‌ وَ مِيرَاثُ وَلَدِ الزِّنَا مِثْلُ مِيرَاثِ وَلَدِ الْمُلَاعَنَةِ.",
       "has_chain": true,
       "narrators": [
         {
           "name_ar": "ابْنُ الْمُلَاعَنَةِ لَا وَارِثَ لَهُ مِنْ قِبَلِ أَبِيهِ",
-          "name_en": "",
+          "name_en": "Ibn al-Mula'ana",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -154,7 +219,7 @@
         },
         {
           "name_ar": "إِنَّمَا تَرِثُهُ أُمُّهُ",
-          "name_en": "",
+          "name_en": "Ummuhu",
           "role": "narrator",
           "position": 2,
           "identity_confidence": "ambiguous",
@@ -164,7 +229,7 @@
         },
         {
           "name_ar": "إِخْوَتُهُ لِأُمِّهِ",
-          "name_en": "",
+          "name_en": "Ikhwatuhu li-ummihi",
           "role": "narrator",
           "position": 3,
           "identity_confidence": "ambiguous",
@@ -174,7 +239,7 @@
         },
         {
           "name_ar": "وُلْدُهُ",
-          "name_en": "",
+          "name_en": "Wulduhu",
           "role": "narrator",
           "position": 4,
           "identity_confidence": "ambiguous",
@@ -184,7 +249,7 @@
         },
         {
           "name_ar": "أَخْوَالُهُ",
-          "name_en": "",
+          "name_en": "Akhwaluhu",
           "role": "narrator",
           "position": 5,
           "identity_confidence": "ambiguous",
@@ -194,7 +259,7 @@
         },
         {
           "name_ar": "زَوْجَتُهُ فَإِنْ تَرَكَ أَوْلَاداً فَالْمَالُ بَيْنَهُمْ عَلَى سِهَامِ اللَّهِ عَزَّ",
-          "name_en": "",
+          "name_en": "Zawjatuha fa-in taraka awladan fa-al-malu baynahum ala siham Allah",
           "role": "narrator",
           "position": 6,
           "identity_confidence": "ambiguous",
@@ -204,7 +269,7 @@
         },
         {
           "name_ar": "جَلَ‌ فَإِنْ تَرَكَ أَبَاهُ",
-          "name_en": "",
+          "name_en": "Jala fa-in taraka abahu",
           "role": "narrator",
           "position": 7,
           "identity_confidence": "ambiguous",
@@ -214,7 +279,7 @@
         },
         {
           "name_ar": "أُمَّهُ فَالْمَالُ لِأُمِّهِ فَإِنْ تَرَكَ أَبَاهُ",
-          "name_en": "",
+          "name_en": "Ummuhu fa-al-malu li-ummihi fa-in taraka abahu",
           "role": "narrator",
           "position": 8,
           "identity_confidence": "ambiguous",
@@ -224,7 +289,7 @@
         },
         {
           "name_ar": "ابْنَهُ فَالْمَالُ لِابْنِهِ فَإِنْ تَرَكَ أَبَاهُ",
-          "name_en": "",
+          "name_en": "Ibnahu fa-al-malu li-ibnihi fa-in taraka abahu",
           "role": "narrator",
           "position": 9,
           "identity_confidence": "ambiguous",
@@ -234,7 +299,7 @@
         },
         {
           "name_ar": "أَخْوَالَهُ فَمَالُهُ لِأَخْوَالِهِ فَإِنْ تَرَكَ خَالًا",
-          "name_en": "",
+          "name_en": "Akhwalahu fa-maluhu li-akhwalih fa-in taraka khalan",
           "role": "narrator",
           "position": 10,
           "identity_confidence": "ambiguous",
@@ -244,7 +309,7 @@
         },
         {
           "name_ar": "خَالَةً فَالْمَالُ بَيْنَهُمَا بِالسَّوِيَّةِ فَإِنْ تَرَكَ خَالًا",
-          "name_en": "",
+          "name_en": "Khalatan fa-al-malu baynahuma bi-al-sawiyya fa-in taraka khalan",
           "role": "narrator",
           "position": 11,
           "identity_confidence": "ambiguous",
@@ -254,7 +319,7 @@
         },
         {
           "name_ar": "خَالَةً",
-          "name_en": null,
+          "name_en": "Khalatan",
           "role": "narrator",
           "position": 12,
           "identity_confidence": "definite",
@@ -264,7 +329,7 @@
         },
         {
           "name_ar": "عَمّاً",
-          "name_en": "",
+          "name_en": "Ammann",
           "role": "narrator",
           "position": 13,
           "identity_confidence": "ambiguous",
@@ -274,7 +339,7 @@
         },
         {
           "name_ar": "عَمَّةً فَالْمَالُ لِلْخَالِ",
-          "name_en": "",
+          "name_en": "Ammatan fa-al-malu li-al-khali",
           "role": "narrator",
           "position": 14,
           "identity_confidence": "ambiguous",
@@ -284,7 +349,7 @@
         },
         {
           "name_ar": "الْخَالَةِ بَيْنَهُمَا بِالسَّوِيَّةِ",
-          "name_en": "",
+          "name_en": "Al-khalati baynahuma bi-al-sawiyya",
           "role": "narrator",
           "position": 15,
           "identity_confidence": "ambiguous",
@@ -294,7 +359,7 @@
         },
         {
           "name_ar": "سَقَطَ الْعَمُّ",
-          "name_en": "",
+          "name_en": "Saqata al-ammmu",
           "role": "narrator",
           "position": 16,
           "identity_confidence": "ambiguous",
@@ -304,7 +369,7 @@
         },
         {
           "name_ar": "الْعَمَّةُ فَإِنْ تَرَكَ إِخْوَةً لِأُمٍّ و جَدَّةً لِأُمٍّ فَالْمَالُ بَيْنَهُمْ بِالسَّوِيَّةِ فَإِنْ تَرَكَ ابْنَ أُخْتِهِ لِأُمِّهِ",
-          "name_en": "",
+          "name_en": "Al-ammatu fa-in taraka ikhwanan li-ummin wa jaddatan li-ummin fa-al-malu baynahum bi-al-sawiyya fa-in taraka ibn ukhtihi li-ummihi",
           "role": "narrator",
           "position": 17,
           "identity_confidence": "ambiguous",
@@ -314,7 +379,7 @@
         },
         {
           "name_ar": "جَدَّهُ أَبَا أُمِّهِ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ‌ فَإِنْ تَرَكَ أُمَّهُ",
-          "name_en": "",
+          "name_en": "Jaddahu aba ummihi fa-al-malu baynahuma nisfani fa-in taraka ummahu",
           "role": "narrator",
           "position": 18,
           "identity_confidence": "ambiguous",
@@ -324,7 +389,7 @@
         },
         {
           "name_ar": "امْرَأَتَهُ فَلِلْمَرْأَةِ الرُّبُعُ",
-          "name_en": "",
+          "name_en": "Imra'atahu fa-lil-marati al-rub'u",
           "role": "narrator",
           "position": 19,
           "identity_confidence": "ambiguous",
@@ -334,7 +399,7 @@
         },
         {
           "name_ar": "مَا بَقِيَ فَلِلْأُمِّ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ امْرَأَةً",
-          "name_en": "",
+          "name_en": "Ma baqi fa-lil-ummi fa-in taraka ibn al-mula'ana imra'atan",
           "role": "narrator",
           "position": 20,
           "identity_confidence": "ambiguous",
@@ -344,7 +409,7 @@
         },
         {
           "name_ar": "جَدّاً أَبَا أُمَّةٍ",
-          "name_en": "",
+          "name_en": "Jaddan aba ummatin",
           "role": "narrator",
           "position": 21,
           "identity_confidence": "ambiguous",
@@ -354,7 +419,7 @@
         },
         {
           "name_ar": "خَالَةً لِلْمَرْأَةِ الرُّبُعُ",
-          "name_en": "",
+          "name_en": "Khalatan lil-marati al-rub'u",
           "role": "narrator",
           "position": 22,
           "identity_confidence": "ambiguous",
@@ -364,7 +429,7 @@
         },
         {
           "name_ar": "لِلْجَدِّ الْبَاقِي فَإِنْ تَرَكَ ثَلَاثَ خَالاتٍ مُتَفَرِّقَاتٍ",
-          "name_en": "",
+          "name_en": "Lil-jaddi al-baqi fa-in taraka thalatha khalatin mutafarriqatin",
           "role": "narrator",
           "position": 23,
           "identity_confidence": "ambiguous",
@@ -374,7 +439,7 @@
         },
         {
           "name_ar": "امْرَأَةً",
-          "name_en": "",
+          "name_en": "Imra'atan",
           "role": "narrator",
           "position": 24,
           "identity_confidence": "ambiguous",
@@ -384,7 +449,7 @@
         },
         {
           "name_ar": "ابْنَ أَخٍ لِأُمٍّ فَلِلْمَرْأَةِ الرُّبُعُ",
-          "name_en": "",
+          "name_en": "Ibn akhin li-ummin fa-lil-marati al-rub'u",
           "role": "narrator",
           "position": 25,
           "identity_confidence": "ambiguous",
@@ -394,7 +459,7 @@
         },
         {
           "name_ar": "مَا بَقِيَ فَلِابْنِ الْأَخِ فَإِنْ تَرَكَ ابْنَتَهُ",
-          "name_en": "",
+          "name_en": "Ma baqi fa-li-ibn al-akh fa-in taraka ibnatahu",
           "role": "narrator",
           "position": 26,
           "identity_confidence": "ambiguous",
@@ -404,7 +469,7 @@
         },
         {
           "name_ar": "أُمَّهُ فَلِلِابْنَةِ النِّصْفُ",
-          "name_en": "",
+          "name_en": "Ummahu fa-lil-ibnati al-nisf",
           "role": "narrator",
           "position": 27,
           "identity_confidence": "ambiguous",
@@ -414,7 +479,7 @@
         },
         {
           "name_ar": "لِلْأُمِّ السُّدُسُ",
-          "name_en": "",
+          "name_en": "Lil-ummi al-sudus",
           "role": "narrator",
           "position": 28,
           "identity_confidence": "ambiguous",
@@ -424,7 +489,7 @@
         },
         {
           "name_ar": "مَا بَقِيَ رَدٌّ عَلَيْهِمَا عَلَى قَدْرِ سِهَامِهِمَا فَإِنْ تَرَكَ أُمَّهُ",
-          "name_en": "",
+          "name_en": "Ma baqi radun alayhuma ala qadri sihamihima fa-in taraka ummahu",
           "role": "narrator",
           "position": 29,
           "identity_confidence": "ambiguous",
@@ -434,7 +499,7 @@
         },
         {
           "name_ar": "أَخَاهُ فَالْمَالُ لِلْأُمِّ فَإِنْ تَرَكَ امْرَأَةً",
-          "name_en": "",
+          "name_en": "Akhahu fa-al-malu lil-ummi fa-in taraka imra'atan",
           "role": "narrator",
           "position": 30,
           "identity_confidence": "ambiguous",
@@ -444,7 +509,7 @@
         },
         {
           "name_ar": "ابْنَةً",
-          "name_en": "",
+          "name_en": "Ibntan",
           "role": "narrator",
           "position": 31,
           "identity_confidence": "ambiguous",
@@ -454,7 +519,7 @@
         },
         {
           "name_ar": "جَدّاً",
-          "name_en": "",
+          "name_en": "Jaddan",
           "role": "narrator",
           "position": 32,
           "identity_confidence": "ambiguous",
@@ -464,7 +529,7 @@
         },
         {
           "name_ar": "جَدَّةً لِأُمٍّ",
-          "name_en": "",
+          "name_en": "Jaddatan li-ummin",
           "role": "narrator",
           "position": 33,
           "identity_confidence": "ambiguous",
@@ -474,7 +539,7 @@
         },
         {
           "name_ar": "أَخاً",
-          "name_en": "",
+          "name_en": "Akhann",
           "role": "narrator",
           "position": 34,
           "identity_confidence": "ambiguous",
@@ -484,7 +549,7 @@
         },
         {
           "name_ar": "أُخْتاً لِأُمٍّ فَلِلْمَرْأَةِ الثُّمُنُ",
-          "name_en": "",
+          "name_en": "Ukhtan li-ummin fa-lil-marati al-thunun",
           "role": "narrator",
           "position": 35,
           "identity_confidence": "ambiguous",
@@ -494,7 +559,7 @@
         },
         {
           "name_ar": "مَا بَقِيَ فَلِلِابْنَةِ فَإِنْ تَرَكَ امْرَأَةً",
-          "name_en": "",
+          "name_en": "Ma baqi fa-lil-ibnati fa-in taraka imra'atan",
           "role": "narrator",
           "position": 36,
           "identity_confidence": "ambiguous",
@@ -504,7 +569,7 @@
         },
         {
           "name_ar": "جَدّاً",
-          "name_en": "",
+          "name_en": "Jaddan",
           "role": "narrator",
           "position": 37,
           "identity_confidence": "ambiguous",
@@ -514,7 +579,7 @@
         },
         {
           "name_ar": "أُمّاً",
-          "name_en": "",
+          "name_en": "Ummann",
           "role": "narrator",
           "position": 38,
           "identity_confidence": "ambiguous",
@@ -534,7 +599,7 @@
         },
         {
           "name_ar": "ابْنَ أَخٍ",
-          "name_en": "",
+          "name_en": "Ibn akh",
           "role": "narrator",
           "position": 40,
           "identity_confidence": "ambiguous",
@@ -544,7 +609,7 @@
         },
         {
           "name_ar": "ابْنَ أُخْتٍ",
-          "name_en": "",
+          "name_en": "Ibn ukht",
           "role": "narrator",
           "position": 41,
           "identity_confidence": "ambiguous",
@@ -554,7 +619,7 @@
         },
         {
           "name_ar": "خَالًا",
-          "name_en": "",
+          "name_en": "Khalan",
           "role": "narrator",
           "position": 42,
           "identity_confidence": "ambiguous",
@@ -564,7 +629,7 @@
         },
         {
           "name_ar": "خَالَةً فَلِلْمَرْأَةِ الرُّبُعُ",
-          "name_en": "",
+          "name_en": "Khalatan fa-lil-marati al-rub'u",
           "role": "narrator",
           "position": 43,
           "identity_confidence": "ambiguous",
@@ -574,7 +639,7 @@
         },
         {
           "name_ar": "مَا بَقِيَ فَلِلْأُمِّ",
-          "name_en": "",
+          "name_en": "Ma baqi fa-lil-ummi",
           "role": "narrator",
           "position": 44,
           "identity_confidence": "ambiguous",
@@ -584,7 +649,7 @@
         },
         {
           "name_ar": "سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنَةً",
-          "name_en": "",
+          "name_en": "Saqata al-baquna fa-in taraka ibntan",
           "role": "narrator",
           "position": 45,
           "identity_confidence": "ambiguous",
@@ -594,7 +659,7 @@
         },
         {
           "name_ar": "ابْنَةَ ابْنٍ فَالْمَالُ لِلِابْنَةِ",
-          "name_en": "",
+          "name_en": "Ibnata ibnin fa-al-malu lil-ibnati",
           "role": "narrator",
           "position": 46,
           "identity_confidence": "ambiguous",
@@ -604,7 +669,7 @@
         },
         {
           "name_ar": "كَذَلِكَ إِنْ تَرَكَ ابْنَةً",
-          "name_en": "",
+          "name_en": "Kadhala in taraka ibntan",
           "role": "narrator",
           "position": 47,
           "identity_confidence": "ambiguous",
@@ -614,7 +679,7 @@
         },
         {
           "name_ar": "ابْنَ ابْنٍ فَالْمَالُ لِلِابْنَةِ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أَخاً لِأَبٍ",
-          "name_en": "",
+          "name_en": "Ibn ibnin fa-al-malu lil-ibnati fa-in taraka ibn al-mula'ana akhan li-ab",
           "role": "narrator",
           "position": 48,
           "identity_confidence": "ambiguous",
@@ -624,7 +689,7 @@
         },
         {
           "name_ar": "أُمٍّ",
-          "name_en": "",
+          "name_en": "Umm",
           "role": "narrator",
           "position": 49,
           "identity_confidence": "ambiguous",
@@ -634,7 +699,7 @@
         },
         {
           "name_ar": "أَخاً لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ",
-          "name_en": "",
+          "name_en": "Akhann li-ummin fa-al-malu baynahuma nisfani",
           "role": "narrator",
           "position": 50,
           "identity_confidence": "ambiguous",
@@ -644,7 +709,7 @@
         },
         {
           "name_ar": "كَذَلِكَ إِنْ تَرَكَ أُخْتاً لِأُمٍّ",
-          "name_en": "",
+          "name_en": "Kadhala in taraka ukhtan li-ummin",
           "role": "narrator",
           "position": 51,
           "identity_confidence": "ambiguous",
@@ -654,7 +719,7 @@
         },
         {
           "name_ar": "أُخْتاً لِأَبٍ",
-          "name_en": "",
+          "name_en": "Ukhtan li-ab",
           "role": "narrator",
           "position": 52,
           "identity_confidence": "ambiguous",
@@ -664,7 +729,7 @@
         },
         {
           "name_ar": "أُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ تَرَكَ ابْنَ أَخٍ",
-          "name_en": "",
+          "name_en": "Umm fa-al-malu baynahuma nisfani fa-in taraka ibn akh",
           "role": "narrator",
           "position": 53,
           "identity_confidence": "ambiguous",
@@ -674,7 +739,7 @@
         },
         {
           "name_ar": "ابْنَةَ أُخْتٍ لِأُمٍّ فَالْمَالُ بَيْنَهُمَا نِصْفَانِ فَإِنْ مَاتَتِ ابْنَةُ الْمُلَاعَنَةِ",
-          "name_en": "",
+          "name_en": "Ibnta ukhtin li-ummin fa-al-malu baynahuma nisfani fa-in matat ibnat al-mula'ana",
           "role": "narrator",
           "position": 54,
           "identity_confidence": "ambiguous",
@@ -684,7 +749,7 @@
         },
         {
           "name_ar": "تَرَكَتِ ابْنَ ابْنَتِهَا",
-          "name_en": "",
+          "name_en": "Tarakat ibn ibnatiha",
           "role": "narrator",
           "position": 55,
           "identity_confidence": "ambiguous",
@@ -694,7 +759,7 @@
         },
         {
           "name_ar": "ابْنَ ابْنَةِ ابْنِهَا",
-          "name_en": "",
+          "name_en": "Ibn ibnati ibniha",
           "role": "narrator",
           "position": 56,
           "identity_confidence": "ambiguous",
@@ -704,7 +769,7 @@
         },
         {
           "name_ar": "زَوْجَهَا",
-          "name_en": "",
+          "name_en": "Zawjaha",
           "role": "narrator",
           "position": 57,
           "identity_confidence": "ambiguous",
@@ -714,7 +779,7 @@
         },
         {
           "name_ar": "خَالَهَا",
-          "name_en": "",
+          "name_en": "Khaliha",
           "role": "narrator",
           "position": 58,
           "identity_confidence": "ambiguous",
@@ -724,7 +789,7 @@
         },
         {
           "name_ar": "جَدَّهَا",
-          "name_en": "",
+          "name_en": "Jaddaha",
           "role": "narrator",
           "position": 59,
           "identity_confidence": "ambiguous",
@@ -734,7 +799,7 @@
         },
         {
           "name_ar": "ابْنَ أُخْتِهَا",
-          "name_en": "",
+          "name_en": "Ibn ukhtiha",
           "role": "narrator",
           "position": 60,
           "identity_confidence": "ambiguous",
@@ -744,7 +809,7 @@
         },
         {
           "name_ar": "ابْنَ أَخِيهَا فَلِلزَّوْجِ الرُّبُعُ",
-          "name_en": "",
+          "name_en": "Ibn akhiha fa-lil-zawji al-rub'u",
           "role": "narrator",
           "position": 61,
           "identity_confidence": "ambiguous",
@@ -754,7 +819,7 @@
         },
         {
           "name_ar": "مَا بَقِيَ فَلِابْنِ الِابْنَةِ",
-          "name_en": "",
+          "name_en": "Ma baqi fa-li-ibn al-ibnati",
           "role": "narrator",
           "position": 62,
           "identity_confidence": "ambiguous",
@@ -764,7 +829,7 @@
         },
         {
           "name_ar": "سَقَطَ الْبَاقُونَ فَإِنْ تَرَكَ ابْنُ الْمُلَاعَنَةِ أُخْتَهُ",
-          "name_en": "",
+          "name_en": "Saqata al-baquna fa-in taraka ibn al-mula'ana ukhtahu",
           "role": "narrator",
           "position": 63,
           "identity_confidence": "ambiguous",
@@ -774,7 +839,7 @@
         },
         {
           "name_ar": "ابْنَةَ أَخِيهِ لِأُمِّهِ فَالْمَالُ كُلُّهُ لِلْأُخْتِ فَإِنْ تَرَكَ امْرَأَةً",
-          "name_en": "",
+          "name_en": "Ibnta akhihi li-ummihi fa-al-malu kulluhu lil-ukhti fa-in taraka imra'atan",
           "role": "narrator",
           "position": 64,
           "identity_confidence": "ambiguous",
@@ -794,7 +859,7 @@
         },
         {
           "name_ar": "جَدّاً مِنْ قِبَلِ الْأُمِّ فَلِلْمَرْأَةِ الرُّبُعُ",
-          "name_en": "",
+          "name_en": "Jaddan min qibali al-ummi fa-lil-marati al-rub'u",
           "role": "narrator",
           "position": 66,
           "identity_confidence": "ambiguous",
@@ -804,7 +869,7 @@
         },
         {
           "name_ar": "مَا بَقِيَ فَبَيْنَ الْجَدِّ",
-          "name_en": "",
+          "name_en": "Ma baqi fa-bayna al-jadd",
           "role": "narrator",
           "position": 67,
           "identity_confidence": "ambiguous",
@@ -814,7 +879,7 @@
         },
         {
           "name_ar": "الْجَدَّةِ لِلْأُمِّ نِصْفَانِ فَأَمَّا وَلَدُ وَلَدِ ابْنِ الْمُلَاعَنَةِ إِذَا مَاتَ فَإِنَّ مِيرَاثَهُ مِثْلُ‌ مِيرَاثِ غَيْرِ ابْنِ الْمُلَاعَنَةِ سَوَاءً",
-          "name_en": "",
+          "name_en": "Al-jaddati lil-ummi nisfani fa-amma waladu waladi ibn al-mula'ana idha mata fa-inna mirathahu mithlu mirathi ghayr ibn al-mula'ana sawa",
           "role": "narrator",
           "position": 68,
           "identity_confidence": "ambiguous",
@@ -828,6 +893,8 @@
     "diacritics_changes": [],
     "key_phrases": [],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 9,
+    "_phase4_mode": "per_language"
   }
 }

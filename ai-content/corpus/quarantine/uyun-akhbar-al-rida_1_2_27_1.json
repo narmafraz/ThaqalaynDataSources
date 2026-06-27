@@ -1,0 +1,806 @@
+{
+  "verse_path": "/books/uyun-akhbar-al-rida:1:2:27:1",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-24",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[1] name_ar has 17 words (>14, بن-density 0.12 — likely a sentence fragment, not a name): 'الحَسَن بْنِ عَلِى\\u200f عَلَيْهِ السَّلامُ، عَن أَبِيهِ مُحَمَّد'",
+    "narrator[2] name_ar has 22 words (>14, بن-density 0.14 — likely a sentence fragment, not a name): 'أَبيهِ الرِّضا عَلِىِّ بْنِ مُوسَى\\u200f عَلَيْهِ السَّلامُ، عَن '",
+    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[3] word '(ما' has no diacritics (must be fully diacritized)",
+    "chunks[8] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[9] word '(ما' has no diacritics (must be fully diacritized)",
+    "chunks[12] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[13] word '(ما' has no diacritics (must be fully diacritized)",
+    "chunks[14] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[15] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[15] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[15] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[16] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[16] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[16] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[20] word '(لا' has no diacritics (must be fully diacritized)",
+    "chunks[20] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[20] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[20] word '(لا' has no diacritics (must be fully diacritized)",
+    "chunks[20] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[21] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[21] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[24] word 'لا.' has no diacritics (must be fully diacritized)",
+    "chunks[25] word 'لا' has no diacritics (must be fully diacritized)",
+    "chunks[26] word 'لا' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "quran_commentary",
+      "prophetic_tradition"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "quran_interpretation_method",
+      "divine_attributes",
+      "prophets",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا مُحَمَّدُ بْنُ الْقَاسِمِ الْمُفَسِّرِ الْمَعْرُوفِ بِأَبِي الْحَسَنِ الْجُرْجَانِي رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا يُوسُفُ بْنُ مُحَمَّدِ بْنِ زِيَادٍ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ سَيَّارٍ، عَنْ أَبَوَيْهِمَا عَنِ الْحَسَنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ عَنْ أَبِيهِ الرِّضَا عَلِيُّ بْنُ مُوسَىٰ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُوسَىٰ بْنُ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الصَّادِقِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ",
+        "translations": {
+          "en": "Muhammad ibn al-Qasim the Interpreter, known as Abi al-Hasan al-Jurjani, may God be pleased with him, narrated that Yusuf ibn Muhammad ibn Ziyad and Ali ibn Muhammad ibn Sayyar, from their fathers, from al-Hasan ibn Ali (peace be upon him), from his father Muhammad (peace be upon him), from his father Muhammad ibn Ali (peace be upon him), from his father al-Rida Ali ibn Musa (peace be upon him), from his father Musa ibn Ja'far (peace be upon him), from his father al-Sadiq Ja'far ibn Muhammad (peace be upon him) narrated.",
+          "ur": "محمد بن القاسم المفسر المعروف بأبي الحسن الجرجاني رضي الله عنه حدثنا أن يوسف بن محمد بن زياد وعلي بن محمد بن سيار عن أبيهما عن الحسن بن علي عليه السلام عن أبيه محمد عليه السلام عن أبيه محمد بن علي عليه السلام عن أبيه الرضا علي بن موسى عليه السلام عن أبيه موسى بن جعفر عليه السلام عن أبيه الصادق جعفر بن محمد عليه السلام حدثا.",
+          "tr": "Mumed b. el-Kasım, Ebu'l-Hasan el-Cürcânî olarak bilinir, Allah ondan razı olsun, Yusuf b. Muhammed b. Ziyad ve Ali b. Muhammed b. Seyyâr, babalarından, el-Hasan b. Ali'den (aleyhisselâm), babası Muhammed'den (aleyhisselâm), babası Muhammed b. Ali'den (aleyhisselâm), babası er-Rıdâ Ali b. Mûsâ'dan (aleyhisselâm), babası Mûsâ b. Ca'fer'den (aleyhisselâm), babası es-Sâdık Ca'fer b. Muhammed'den (aleyhisselâm) rivayet etmiştir.",
+          "fa": "حَدَّثَنَا مُحَمَّدُ بْنُ الْقَاسِمِ الْمُفَسِّرُ الْمَعْرُوفُ بِأَبِي الْحَسَنِ الْجُرْجَانِيُّ رَضِيَ اللَّهُ عَنْهُ، قَالَ: حَدَّثَنَا يُوسُفُ بْنُ مُحَمَّدِ بْنِ زِيَادٍ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ سَيَّارٍ، عَنْ آبَائِهِمَا، عَنِ الْحَسَنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الرِّضَا عَلِيٍّ بْنِ مُوسَىٰ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُوسَىٰ بْنِ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الصَّادِقِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ",
+          "id": "Muhammad ibn al-Qasim al-Mufassir, yang dikenal sebagai Abi al-Hasan al-Jurjani, semoga Allah ridha kepadanya, telah meriwayatkan bahwa Yusuf ibn Muhammad ibn Ziyad dan Ali ibn Muhammad ibn Sayyar, dari ayah-ayah mereka, dari al-Hasan ibn Ali (alamah), dari ayahnya Muhammad (alamah), dari ayahnya Muhammad ibn Ali (alamah), dari ayahnya al-Rida Ali ibn Musa (alamah), dari ayahnya Musa ibn Ja'far (alamah), dari ayahnya al-Sadiq Ja'far ibn Muhammad (alamah) telah meriwayatkan.",
+          "bn": "মুহাম্মদ ইবনে আল-কাসিম আল-মুফাসসির, যিনি আবু আল-হাসান আল-জুরজানি নামে পরিচিত, আল্লাহ তায়ালা তাঁর উপর সন্তুষ্ট হোন, বর্ণনা করেন যে, ইউসুফ ইবনে মুহাম্মদ ইবনে জিয়াদ এবং আলী ইবনে মুহাম্মদ ইবনে সায়্যার, তাদের পিতাদের মাধ্যমে, আল-হাসান ইবনে আলী (আলাইহিস সালাম), তার পিতা মুহাম্মদ (আলাইহিস সালাম), তার পিতা মুহাম্মদ ইবনে আলী (আলাইহিস সালাম), তার পিতা আল-রিদা আলী ইবনে মুসা (আলাইহিস সালাম), তার পিতা মুসা ইবনে জাফর (আলাইহিস সালাম), তার পিতা আস-সাদিق জাফর ইবনে মুহাম্মদ (আলাইহিস সালাম) বর্ণনা করেন।",
+          "es": "Narró Muhammad ibn al-Qasim al-Mufassir, conocido como Abi al-Hasan al-Jurjani, que Allah esté satisfecho con él, que narraron Yusuf ibn Muhammad ibn Ziyad y Ali ibn Muhammad ibn Sayyar, de sus padres, de al-Hasan ibn Ali (la paz sea con él), de su padre Muhammad (la paz sea con él), de su padre Muhammad ibn Ali (la paz sea con él), de su padre al-Rida Ali ibn Musa (la paz sea con él), de su padre Musa ibn Ja'far (la paz sea con él), de su padre al-Sadiq Ja'far ibn Muhammad (la paz sea con él).",
+          "fr": "Raconte-nous Muhammad ibn al-Qasim l'Interprète, connu sous le nom d'Abi al-Hasan al-Jurjani, que Dieu l'agrée, qui a raconté que Yusuf ibn Muhammad ibn Ziyad et Ali ibn Muhammad ibn Sayyar, de leurs pères, d'al-Hasan ibn Ali (que la paix soit sur lui), de son père Muhammad (que la paix soit sur lui), de son père Muhammad ibn Ali (que la paix soit sur lui), de son père al-Rida Ali ibn Musa (que la paix soit sur lui), de son père Musa ibn Ja'far (que la paix soit sur lui), de son père al-Sadiq Ja'far ibn Muhammad (que la paix soit sur lui) ont raconté.",
+          "de": "Muhammad ibn al-Qasim al-Mufassir, bekannt als Abi al-Hasan al-Jurjani, mönisch, möge Gott mit ihm zufrieden sein, erzählte, dass Yusuf ibn Muhammad ibn Ziyad und Ali ibn Muhammad ibn Sayyar von ihren Vätern, von al-Hasan ibn Ali (Friede sei mit ihm), von seinem Vater Muhammad (Friede sei mit ihm), von seinem Vater Muhammad ibn Ali (Friede sei mit ihm), von seinem Vater al-Rida Ali ibn Musa (Friede sei mit ihm), von seinem Vater Musa ibn Ja'far (Friede sei mit ihm), von seinem Vater al-Sadiq Ja'far ibn Muhammad (Friede sei mit ihm) erzählten.",
+          "ru": "Рассказал нам Мухаммад ибн аль-Касим, аль-Мусаввир, известный как Абу аль-Хасан аль-Джурджани, да будет доволен им Аллах, сказавший: «Рассказали нам Юсуф ибн Мухаммад ибн Зияд и Али ибн Мухаммад ибн Сияр, от их отцов, от аль-Хасана ибн Али (да будет мир с ним), от его отца Мухаммада (да будет мир с ним), от его отца Мухаммада ибн Али (да будет мир с ним), от его отца ар-Рида Али ибн Мусы (да будет мир с ним), от его отца Мусы ибн Джафара (да будет мир с ним), от его отца ас-Садыка Джафара ибн Мухаммада (да будет мир с ним), рассказавшие.",
+          "zh": "穆罕默德·本·卡西姆，即被称作阿布·哈桑·贾尔贾尼的诠释者，愿主喜悦他，传述：优素福·本·穆罕默德·本·齐亚德和阿里·本·穆罕默德·本·赛亚尔，从他们的父亲，从哈桑·本·阿里（愿主赐他平安），从他父亲穆罕默德（愿主赐他平安），从他父亲穆罕默德·本·阿里（愿主赐他平安），从他父亲里达·阿里·本·穆萨（愿主赐他平安），从他父亲穆萨·本·贾法尔（愿主赐他平安），从他父亲萨迪格·贾法尔·本·穆罕默德（愿主赐他平安）传述。"
+        },
+        "word_start": 0,
+        "word_end": 67
+      },
+      {
+        "chunk_type": "opening",
+        "arabic_text": "فِي قَوْلِ اللَّهِ عَزَّ وَجَلَّ: (وَاتَّبَعُوا مَا تَتْلُو الشَّيَاطِينُ عَلَىٰ مُلْكِ سُلَيْمَانَ وَمَا كَفَرَ سُلَيْمَانُ وَلَكِنَّ الشَّيَاطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ وَمَا أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَا إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ وَمَا هُمْ بِضَارِّينَ بِهِ مِنْ أَحَدٍ إِلَّا بِإِذْنِ اللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَلَقَدْ عَلِمُوا لَمَنِ اشْتَرَاهُ مَا لَهُ فِي الْآخِرَةِ مِنْ خَلَاقٍ وَلَبِئْسَ مَا شَرَوْا بِهِ أَنفُسَهُمْ لَوْ كَانُوا يَعْلَمُونَ)",
+        "translations": {
+          "en": "Regarding the words of God, the Exalted: 'And they followed what the devils recited against the kingdom of Solomon. And it was not Solomon who disbelieved, but the devils disbelieved, teaching people magic and that which was revealed to the two angels at Babylon, Harut and Marut. But neither of these taught anyone until they said, \"We are only a trial, so do not disbelieve.\" Yet they learned from them that which separates a man from his wife. And they could not harm thereby anyone except by permission of Allah. And they learned that which harms them and does not benefit them. And they knew that whoever purchased it would have no share in the Hereafter. And wretched was that for which they sold themselves, if they only knew.'",
+          "ur": "اللہ تعالیٰ کے ارشاد گرامی کے بارے میں: 'اور انہوں نے اس بات کی پیروی کی جو شیاطین سلیمان کی بادشاہت کے خلاف پڑھتے تھے۔ اور سلیمان کافر نہیں ہوا، بلکہ شیاطین کفر کرنے والے تھے، جنہوں نے لوگوں کو جادو سکھایا اور بابل میں دو فرشتوں ہاروت اور ماروت پر نازل کی گئی چیز۔ لیکن ان دونوں نے کسی کو جادو سکھانے سے پہلے یہ کہتے ہوئے روک دیا کہ ہم صرف ایک امتحان ہیں، اس لیے کفر نہ کرو۔ پھر ان سے وہ چیز سیکھی گئی جو آدمی کو اس کی بیوی سے جدا کر دیتی ہے۔ اور وہ اس سے کسی کو نقصان پہنچا سکتے تیں مگر اللہ کی اجازت سے۔ اور وہ چیز سیکھی گئی جو انہیں نقصان پہنچاتی ہے اور فائدہ نہیں دیتی۔ اور انہوں نے جانا کہ جو کوئی اسے خریدے گا، اس کا آخرت میں کوئی حصہ نہیں ہوگا۔ اور اچھی طرح سے بیچے گئے وہ چیز کے لیے، اگر وہ جانتے۔'",
+          "tr": "Allah'ın (c.c.) yüce kelamı regarding: \"Onlar, Süleyman'ın saltanatı üzerine şeytanların okuduğu şeyleri takip ettiler. Aslından Süleyman kâfir olmadı, fakat şeytanlar kâfir oldular; insanlara sihir öğrettiler ve Babil'de Harut ve Marut adlı iki meleğe indirileni. Fakat bu ikisi, insanlara okudukları şeyi öğretmeden önce, 'Biz ancak bir fitneyiz, kâfir olmayın' dediler. Yine de onlardan, bir adamla karısı arasında ayrılık düşüren şeyi öğrendiler. Onların izniyle, onlara zarar verebilirlerdi, fakat Allah'ın izni olmadan kimseye zarar veremezlerdi. Ve onlar, kendilerine zarar veren, fakat fayda vermeyen şeyi öğrendiler. Ve onlar, onu satın alanın ahirette payı olmayacağını bildiler. ve onlar, kendi kendilerini sattıkları şey ne kadar kötüydü, eğer bilseydiler.\"",
+          "fa": "در مورد کلام خداوند متعال: «و آنچه شیاطین بر سلطنت سلیمان می‌خواندند، پیروی کردند. و خود سلیمان کفر نیاورد، بلکه شیاطین کفر آوردند و به مردم جادو و آنچه به دو فرشته در بابل، هاروت و ماروت، نازل شده بود، آموزش می‌دادند. ولی هر یک از آن دو تا زمانی که می‌گفتند: «ما تنها یک آزمایش هستیم، پس کفر نورزید، به کسی جادو نمی‌آموختند. و از آنان آموختند چیزی که میان مرد و همسرش جدایی بیندازد. و نمی‌توانند به اذن خدا به کسی زیانی برسانند. و آنچه زیانشان می‌رساند و سودی ندارد، آموختند. و دانستند هر کس آن را بخرد، در آخرت نصیبی نخواهد داشت. و بد بود آنچه برای آن خود را فروختند، اگر می‌دانستند.»",
+          "id": "Mengenai firman Allah, Yang Maha Tinggi: \"Dan mereka mengikuti apa yang dibacakan oleh setan-setan terhadap kerajaan Sulaiman. Dan bukan Sulaiman yang kafir, tetapi setan-setan itulah yang kafir, mengajarkan manusia sihir dan apa yang diturunkan kepada dua malaikat di Babilonia, Harut dan Marut. Padahal keduanya tidak mengajarkan (sesuatu) sebelum mengatakan, 'Kami hanyalah fitnah, maka janganlah kamu kafir.' Namun mereka mempelajari dari keduanya sesuatu yang dapat menceraikan antara seorang suami dan istrinya. Dan mereka tidak dapat memberi mudarat kepada seseorang kecuali dengan izin Allah. Dan mereka mempelajari sesuatu yang tidak memberi manfaat kepada mereka. Dan mereka mengetahui bahwa barangsiapa membeli (sihir) itu, niscaya ia tidak akan mendapat bagian di akhirat. Dan amat buruklah perbuatan yang mereka jual untuk diri mereka sendiri, sekiranya mereka mengetahui.\"",
+          "es": "En cuanto a las palabras de Dios, el Exaltado: «Y siguieron lo que los demonios recitaban contra el reino de Salomón. Y no fue Salomón el que descreyó, sino los demonios, que enseñaban a la gente la magia y lo que fue revelado a los dos ángeles en Babilonia, Hárut y Márut. Pero cada uno de ellos no enseñaba a nadie hasta decir: «Solo somos una prueba, así que no descreáis». Sin embargo, aprendían de ellos lo que separa al hombre de su esposa. Y podían perjudicar con ello a alguien, pero no más allá del permiso de Alá. Y aprendían aquello que les perjudicaba y no les beneficiaba. Y sabían que quien lo comprara no tendría parte en la Herejía. Y miserable era aquello por lo que vendían sus almas, si solo supieran.»",
+          "fr": "Concernant les paroles d'Allah, le Très-Haut : « Et ils suivirent ce que les diables récitèrent au sujet du royaume de Salomon. Et ce n'est pas Salomon qui fut mécréant, mais les diables furent mécréants, enseignant la magie aux gens, et ce qui fut révélé aux deux anges à Babylone, Harout et Marout. Mais chacun d'eux ne enseignait à personne jusqu'à ce qu'ils disent : « Nous ne sommes qu'une épreuve, donc ne soyez pas mécréants. » Pourtant, on apprenait d'eux ce qui sépare un homme de sa femme. Et ils pouvaient, par l'agrément d'Allah, nuire à quiconque, mais pas autrement. Et on apprenait d'eux ce qui leur nuisait et ne leur profitait pas. Et ils savaient que quiconque l'achèterait n'aurait point de part dans l'au-delà. Et ce pour quoi ils se vendirent était misérable, s'ils savaient. »",
+          "de": "Was die Worte Gottes, des Erhabenen, betrifft: »Und sie folgten dem, was die Dschinn gegen das Reich Salomos vortrugen. Und es war nicht Salomo, der ungläubig war, sondern die Dschinn waren ungläubig und lehrten die Menschen die Zauberkunst und das, was den beiden Engeln in Babylon, Harut und Marut, offenbart wurde. Doch jeder von diesen beiden lehrte niemand, bevor er nicht sagte: »Wir sind nur eine Prüfung, so seid nicht ungläubig.«« Und sie lernten von ihnen das, was einen Mann von seiner Frau trennt. Und sie konnten dadurch niemand schaden, außer mit Gottes Erlaubnis. Und sie lernten das, was ihnen schadet und nicht nützt. Und sie wussten, dass wer es kaufte, keinen Anteil am Jenseits haben würde. Und glücklich war es, wofür sie sich selbst verkauften, wenn sie es nur wüssten.«",
+          "ru": "Что касается слов Всевышнего Аллаха: «И они последовали за тем, что дьяволы наговаривали на царство Сулеймана. И не неверующим был Сулейман, но неверующими были дьяволы, обучая людей колдовству и тому, что было ниспослано двум ангелам в Вавилоне, Харуту и Маруту. Но каждый из них говорил: „Мы лишь испытание, так что не будьте неверующими“. И они учили у них тому, что разлучает человека с его женой. И могли причинить вред тем, по воле Аллаха, кроме как с дозволения Аллаха. И они учились у них тому, что вредит им и не приносит пользы. И они знали, что тот, кто приобретет это, не будет иметь доли в Последней жизни. И дурно то, за что они продали себя, если бы они знали».",
+          "zh": "关于真主至尊者的言语：‘他们跟随魔鬼所诵读的关于所罗门王国的故事。并非所罗门不信道，而是魔鬼们不信道，他们教人魔术，以及降示给巴比伦的两个天使哈鲁特和玛鲁特的东西。但他们教人时先说：“我们只是考验，所以你们不要信道。”然而，人们从他们那里学到能使人离妻的东西。他们能以此使人受害，但须凭真主的许可。他们学到的是有害无益的东西。他们知道，谁购买它，谁在后世就没有份。他们出卖自己的代价是悲惨的，如果他们知道的话。’",
+          "bn": ""
+        },
+        "word_start": 67,
+        "word_end": 146
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ اتَّبَعُوا مَا تَتْلُو كَفَرَةُ الشَّيَاطِينِ مِنَ السِّحْرِ وَالنَّيْرَنْجَاتِ عَلَىٰ مُلْكِ سُلَيْمَانَ الَّذِينَ يَزْعُمُونَ أَنَّ سُلَيْمَانَ بِهِ مُلْكٌ وَنَحْنُ أَيْضًا بِهِ نُظْهِرُ الْعَجَائِبَ حَتَّىٰ يَنْقَادَ لَنَا النَّاسُ وَنَسْتَغِيءَ عَنِ الانْقِيَادِ لِعَلِيٍّ وَقَالُوا كَانَ سُلَيْمَانُ كَافِرًا سَاحِرًا مَاهِرًا بِسِحْرِهِ مَلَكَ مَا مَلَكَ وَقَدَرَ عَلَىٰ مَا قَدَرَ",
+        "translations": {
+          "en": "He said: The atheists among the devils followed magic and jugglery in the kingdom of Solomon. Those who claim that Solomon had power through it, and we also show wonders through it until people submit to us and we become independent of submitting to Ali. They said Solomon was an atheist, a skilled magician who ruled what he ruled and had power over what he had power over.",
+          "ur": "انہوں نے کہا: شیاطین کے کافروں نے سلیمان کی بادشاہت میں جادو اور بھرم کو اپنایا۔ جو لوگ دعویٰ کرتے ہیں کہ سلیمان کو اس کے ذریعے طاقت حاصل تھی، اور ہم بھی اس کے ذریعے معجزات دکھاتے ہیں تاکہ لوگ ہماری اطاعت کریں اور ہم علی کی اطاعت سے آزاد ہو جائیں۔ انہوں نے کہا کہ سلیمان ایک کافر تھے، ایک ماہر جادوگر جو جس چیز پر حکومت کرتے تھے اس پر حکومت کرتے تھے اور جس چیز پر انہیں طاقت حاصل تھی اس پر انہیں طاقت حاصل تھی۔",
+          "tr": "Dedi ki: Şazâdın cinlerinden ateşperestler Süleyman'ın saltanatında sihir ve hilecilik yaptılar. O, onunla güç elde ettiğini iddia edenler ve biz de onunla kerametler gösterdik, insanlar bize boyun eğene kadar ve biz de Ali'ye boyun eğmekten bağımsız hale gelene kadar. Dediler ki: Süleyman ateşperestti, yetkin bir sihirbazdı, hâkim olduğu şeylere hâkim oldu ve sahip olduğu şeylerde güç sahibi oldu.",
+          "fa": "گفت: کافرانِ شیاطین در پادشاهی سلیمان جادو و شعبده‌بازی می‌کردند. کسانی که ادعا می‌کنند سلیمان به واسطه آن قدرت داشت، و ما نیز با آن معجزات نشان می‌دهیم تا مردم به ما تسلیم شوند و ما از تسلیم شدن به علی آزاد شویم. گفتند سلیمان کافر بود، جادوگری ماهر که بر آنچه بر آن حکومت داشت حکومت می‌کرد و بر آنچه بر آن قدرت داشت قدرت داشت.",
+          "id": "Ia berkata: Kaum atheis di antara setan-setan mengikuti sihir dan sulap di kerajaan Sulaiman. Mereka yang mengklaim bahwa Sulaiman memiliki kekuatan melalui itu, dan kami juga menunjukkan keajaiban melalui itu hingga manusia tunduk kepada kami dan kami menjadi bebas dari tunduk kepada Ali. Mereka berkata Sulaiman adalah seorang atheis, penyihir terampil yang menguasai apa yang ia kuasai dan memiliki kekuatan atas apa yang ia miliki.",
+          "bn": "তিনি বললেন: শয়তানদের মধ্যে অলীকবাদীরা সুলেমানের রাজ্যে জাদু ও ভ্রমযন্ত্রের অনুসরণ করত। যারা দাবি করে যে সুলেমান এর মাধ্যমে ক্ষমতা লাভ করেছিলেন, এবং আমরাও এর মাধ্যমে অলৌকিক ঘটনা প্রদর্শন করতাম যতক্ষণ না মানুষ আমাদের আনুত্যগ্য স্বীকার করত এবং আমরা আনুত্যগ্য থেকে স্বাধীন হয়ে পড়তাম। তারা বলত সুলেমান একজন অলীকবাদী ছিলেন, একজন দক্ষ জাদুকর যিনি যা শাসন করতেন তা শাসন করতেন এবং যাতে তাঁর ক্ষমতা ছিল তাতে ক্ষমতাশালী ছিলেন।",
+          "es": "Dijo: Los ateos entre los demonios siguieron la magia y el engaño en el reino de Salomón. Aquellos que afirman que Salomón tenía poder a través de ello, y nosotros también mostramos maravillas a través de él hasta que la gente se someta a nosotros y nos volvamos independientes de someternos a Alí. Dijeron que Salomón era un ateo, un mago hábil que gobernaba lo que gobernaba y tenía poder sobre lo que tenía poder sobre.",
+          "fr": "Il a dit : Les athées parmi les diables ont suivi la magie et la jonglerie dans le royaume de Salomon. Ceux qui affirment que Salomon avait le pouvoir grâce à cela, et nous montrons aussi des merveilles grâce à cela jusqu'à ce que les gens se soumettent à nous et que nous devenions indépendants de la soumission à Ali. Ils ont dit que Salomon était un athée, un magicien habile qui a régné sur ce qu'il a régné et avait le pouvoir sur ce qu'il avait le pouvoir sur.",
+          "de": "Er sagte: Die Atheisten unter den Dschinnen folgten der Magie und dem Zauberkunststück im Königreich Salomos. Diejenigen, die behaupten, dass Salomo durch sie Macht hatte, und wir zeigen auch Wunder durch sie, bis die Menschen sich uns unterwerfen und wir unabhängig davon werden, uns Ali zu unterwerfen. Sie sagten, Salomo sei ein Atheist, ein geschickter Magier, der herrschte, was er herrschte, und Macht hatte über das, was er Macht hatte.",
+          "ru": "Он сказал: Атеисты среди джили среди джинов, которые следовали за магией и чародейством в царстве Соломона. Те, кто утверждает, что Соломон имел силу благодаря этому, и мы также проявляем чудеса благодаря этому, пока люди не подчинятся нам, и мы станем независимыми от подчинения Али. Они говорили, что Соломон был атеистом, искусным магом, который правил тем, чем правил, и имел власть над тем, над чем имел власть.",
+          "zh": "他说：恶魔中的无神论者所罗门王国中追随魔术和戏法。那些声称所罗门通过它拥有权力的人，我们也通过它展示奇迹，直到人们服从我们，我们不再需要服从阿里。他们说所罗门是一个无神论者，一个熟练的魔术师，统治着他所统治的，拥有他所拥有的权力。"
+        },
+        "word_start": 146,
+        "word_end": 191
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَرَدَّ اللَّهُ عَزَّ وَجَلَّ عَلَيْهِمْ فَقَالَ: (وَما كَفَرَ سُلَيْمانُ) وَلا اسْتَعْمَلَ السِّحْرَ كَمَا قَالَ هَؤُلاءِ الْكَافِرُونَ (وَلكِنَّ الشَّياطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ) الَّذِي نَسَبُوهُ إِلَىٰ سُلَيْمَانَ وَإِلَىٰ (ما أُنْزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمارُوتَ)",
+        "translations": {
+          "en": "So God, the Exalted, refuted them and said: '...And it was not Solomon who disbelieved...' He did not use magic as these atheists claimed. '...But the devils disbelieved, teaching people magic...' which they ascribed to Solomon and to '...that which was revealed to the two angels at Babylon, Harut and Marut.'",
+          "ur": "پس اللہ تعالیٰ نے ان کی حجت باطل کی اور فرمایا: ''اور سلیمان کافر نہیں ہوا...'' ان کے مشرکین کی طرح اس نے جادو نہیں کیا۔ ''بلکہ شیاطین نے کفر کیا، اور لوگوں کو جادو سکھایا...'' جسے انہوں نے سلیمان اور ''وہ چیز سے منسوب کیا جو بابل میں دو فرشتوں ہاروت و ماروت پر نازل کی گئی۔''",
+          "tr": "Bunun üzerine Allah, Azze ve Celle, onlara cevabı verdi ve şöyle buyurdu: '...Aslında Süleyman kâfir olmadı...' O, ateistlerin iddia ettiği gibi sihir yapmadı. '...Ama şeytanlar kâfir oldular, insanlara sihir öğrettiler...' ki bunu Süleyman'a ve '...Babil'de iki meleğe, Harut ve Marut'a vahyedilen şeye' isnat ettiler.",
+          "fa": "پس خداوند خداوند متعال آن‌ها را رد کرد و فرمود: «...و سولیمان کافر نشد...» او جادو نکرد، همان‌گونه که این ملحدان ادعا کردند. «...ولی شیاطین کفر ورزیدند و به مردم جادو می‌آموختند...» که آن را به سولیمان و به «...آنچه به دو فرشته در بابل، هاروت و ماروت، وحی شده بود، نسبت می‌دادند.",
+          "id": "Maka Allah Yang Maha Tinggi membantah mereka dan berfirman: '...Dan bukan Sulaiman yang kafir...' Beliau tidak menggunakan sihir sebagaimana yang diklaim oleh kaum ateis tersebut. '...Tapi setan-setan itu kafir, mengajarkan manusia sihir...' yang mereka kaitkan dengan Sulaiman dan dengan '...apa yang diturunkan kepada dua malaikat di Babilonia, Harut dan Marut.'",
+          "bn": "অতএব, মহান আল্লাহ তাদের খণ্ডন করলেন এবং বললেন: '... 'এবং সুলাইমান (আ.)) ছিলেন না যিনি কুফরি করেছিলেন...' তিনি জাদু করেননি, যেমন অগ্নিপরায়ণরা দাবি করেছিল। 'বরং শয়তানগণ কুফরি করেছে, মানুষকে জাদু শেখিয়ে...' যা তারা সুলাইমান (আ.) এবং '...বাবিলে অবতীর্ণ দুই ফেরেশতা হারুত ও মারুতের প্রতি...' এর সাথে যুক্ত করেছে।",
+          "es": "Así, Dios, el Exaltado, los refutó y dijo: «...Y no fue Salomón el que descreyó...». Él no usó de magia como afirmaban estos ateos. «...Pero los demonios descreyeron, enseñando a la gente la magia...», la cual atribuyeron a Salomón y a «...lo que fue revelado a los dos ángeles en Babilonia, Harut y Marut.»",
+          "fr": "Ainsi, Dieu, le Très-Haut, les a réfutés et a dit : « ...Ce n'est pas Salomon qui a mécru... » Il n'a pas utilisé la magie comme l'affirmaient ces athées. « ...Mais les Djinns ont mécru, enseignant aux gens la magie... » qu'ils attribuaient à Salomon et à « ...ce qui a été révélé aux deux anges à Babylone, Harut et Marut. »",
+          "de": "Da widerlegte Gott, der Erhabene Gott sie und sprach: »…Und es war nicht Salomo, der ungläubig war…« Er benutzte nicht die Magie, wie diese Atheisten behaupteten. »…Aber die Dschinn wurden ungläubig, indem sie den Menschen die Magie lehrten…«, was sie Salomo und »…dem, was den beiden Engeln in Babylon, Harut und Marut, offenbart wurde…« zuschrieben.",
+          "ru": "Итак, Всевышний опроверг их и сказал: «…И не был неверующим Сулейман…» Он не пользовался магией, как утверждали эти атеисты. «…Но джины были неверующими, обучая людей магии…» которую они приписывали Сулейману и «…тому, что было ниспослано двум ангелам в Вавилоне, Харуту и Маруту».",
+          "zh": "因此，真主，至高者，驳斥了他们，说：‘……不是所罗门不信道……’他没有像这些无神论者所声称的那样施魔法。‘……是恶魔不信道，教人魔法……’他们将此归咎于所罗门，以及‘……降示给巴比伦的两个天使哈鲁特和玛鲁特的……’"
+        },
+        "word_start": 191,
+        "word_end": 225
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَكَانَ بَعْدَ نُوحٍ عَلَيْهِ السَّلامُ قَدْ كَثُرَ السَّحَرَةُ وَالْمُمَوِّهُونَ فَبَعَثَ اللَّهُ عَزَّ وَجَلَّ مَلَكَيْنِ إِلَىٰ نَبِيِّ ذَلِكَ الزَّمَانِ بِذِكْرِ مَا يَسْحَرُ بِهِ السَّحَرَةُ وَذِكْرِ مَا يُبْطِلُ بِهِ سِحْرَهُمْ وَيَرُدُّ بِهِ كَيْدَهُمْ فَتَلَقَّاهُ النَّبِيُّ عَنِ الْمَلَكَيْنِ وَأَدَّاهُ إِلَىٰ عِبَادِ اللَّهِ بِأَمْرِ اللَّهِ عَزَّ وَجَلَّ وَأَمَرَهُمْ أَنْ يَقِفُوا بِهِ عَلَىٰ السِّحْرِ وَأَنْ يُبْطِلُوهُ وَنَهَاهُمْ أَنْ يَسْحَرُوا بِهِ النَّاسَ",
+        "translations": {
+          "en": "After Noah (peace be upon him), magicians and tricksters had increased. So God sent two angels to the Prophet of that time with the remembrance of what magicians use to cast spells and the remembrance of what nullifies their magic and repels their schemes. The Prophet received it from the angels and conveyed it to the servants of God by God's command. He ordered them to stand against magic and nullify it, and forbade them from using it to cast spells on people.",
+          "ur": "نوح علیہ السلام کے بعد جادوگران اور فریبی لوگ بڑھ گئے۔ تو اللہ تعالیٰ نے اس وقت کے نبی کے پاس دو فرشتے بھیجے، جن کے ذریعے جادو کے استعمال اور اس کے باطل ہونے کی یاد دہانی کروائی گئی۔ نبی نے یہ فرشتوں سے سنا اور اللہ کے حکم پر اللہ کے بندوں تک پہنچایا۔ انہیں جادو کے خلاف کھڑے ہونے اور اسے باطل کرنے کا حکم دیا، اور لوگوں پر جادو کرنے سے منع فرمایا۔",
+          "tr": "Nuhzani",
+          "fa": "پس از نوح (علیه السلام)، جادوگران و فریبکاران زیاد شدند. پس خداوند دو فرشته را نزد پیامبر آن زمان فرستاد تا یادآوری کنند که جادوگران از چه چیزی برای جادو کردن استفاده می‌کنند و یادآوری کنند که چه چیزی جادوی آن‌ها را باطل و نقشه‌هایشان را دفع می‌ کند. پیامبر آن را از فرشتگان دریافت کرد و به فرمان خداوند آن را به بندگان خدا رساند. او آنان را فرمان داد که در برابر جادو بایستند و آن را باطل کنند، و از استفاده از آن برای جادو کردن بر مردم نهی نمود.",
+          "id": "Setelah Nuh (alamahisalam), para penyihir dan penipu semakin bertambah. Maka Allah mengutus dua malaikat kepada Nabi pada masa itu dengan membawa dzikir-dzikir yang digunakan oleh para penyihir untuk membacakan mantra, serta dzikir-dzikir yang dapat membatalkan sihir dan menolak tipu daya mereka. Nabi menerima hal itu dari para malaikat dan menyampaikannya kepada hamba-hamba Allah atas perintah Allah. Beliau memerintahkan mereka untuk menghadapi sihir dan membatalkannya, serta melarang mereka menggunakannya untuk membacakan mantra kepada manusia.",
+          "bn": "নূহ (আলাইহিসসালাম)-এর পরে জাদুকর ও প্রতারণাকারীদের সংখ্যা বৃদ্ধি পেয়েছিল। তাই আল্লাহ তায়ালার সেই সময়ের নবীর কাছে দুই ফেরেশতা প্রেরণ করলেন, যারা জাদুকরদের ব্যবহৃত জাদুর স্মরণ এবং জাদুকে বাতিল করে ও তাদের কৌশলকে প্রতিহত করার স্মরণ নিয়ে এসেছিলেন। নবী ফেরেশতাদের কাছ থেকে তা গ্রহণ করলেন এবং আল্লাহর আদেশে আল্লাহর বান্দাদের কাছে তা পৌঁছে দিলেন। তিনি তাদের জাদুর বিরুদ্ধে দাঁড়াতে এবং তা বাতিল করতে আদেশ করলেন, এবং মানুষের উপর জাদু করার জন্য তা ব্যবহার করতে নিষেধ করলেন।",
+          "es": "Después de Noé (que la paz sea con él), los magos y los embaucadores se multiplicaron. Por ello, Dios envió a dos ángeles al profeta de aquella época con el recuerdo de lo que los magos utilizan para lanzar sus hechizos y el recuerdo de lo que anula su magia y desvanece sus estratagemas. El profeta recibió esto de los ángeles y lo transmitió a los siervos de Dios por mandato divino. Les ordenó enfrentarse a la magia y anularla, y les prohibió utilizarla para lanzar hechizos sobre las personas.",
+          "fr": "Après",
+          "de": "Nach Noah (Friede sei mit ihm) nahen die Zauberer und Betrüger zu. Da sandte Gott zwei Engel zu dem Propheten jener Zeit, die ihm die Erinnerung an das, was Zauberer zur Zauberei verwenden, und die Erinnerung an das, was ihre Magie aufhebt und ihre Pläne abwehrt, überbrachten. Der Prophet empfing dies von den Engeln und übermittelte es auf Gottes Gebot den Dienern Gottes. Er befahl ihnen, sich gegen die Zauberei zu stellen und sie aufzuheben, und verbot ihnen, sie zur Zauberei an den Menschen zu verwenden.",
+          "ru": "После Нуха (мир ему) число колдунов и обманщиков увеличилось. Тогда Аллах послал двух ангелов пророку того времени, чтобы они передали ему воспоминание о том, что используют колдуны для наведения чар, и воспоминание о том, что разрушает их магию и отражает их козни. Пророк принял это от ангелов и по повелению Аллаха довел его до рабов Аллаха. Он повелел им противостоять магии и разрушать её, и запретил им самим использовать её для наведения чар на людей.",
+          "zh": "诺亚（愿主福安之）之后，术士和骗子增多。于是，真主派遣两位天使向当时的先知传达术士施咒的方法以及破除其魔法、抵御其诡计的方法。先知从天使处接受这些知识，并奉真主之命传达给真主的仆人们。他命令他们对抗魔法并破除它，同时禁止他们用魔法对人们施咒。"
+        },
+        "word_start": 225,
+        "word_end": 281
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَهَذَا كَمَا يَدُلُّ عَلَىٰ السَّمِّ مَا هُوَ وَعَلَىٰ مَا يُدْفَعُ بِهِ غَائِلَةُ السَّمِّ ثُمَّ يُقَالُ لِلْمُتَعَلِّمِ ذَلِكَ هَذَا السَّمُّ فَمَنْ رَأَيْتَهُ يَسُمُّ فَادْفَعْ غَائِلَتَهُ بِكَذَا وَإِيَّاكَ أَنْ تَقْتُلَ بِالسَّمِّ أَحَداً",
+        "translations": {
+          "en": "This is like indicating what the poison is and what repels its venom. Then it is said to the learner: 'This is the poison, so whoever you see being poisoned, repel its venom with such-and-such, and beware of killing anyone with the poison.'",
+          "ur": "یہ اس طرح ہے جیسے زہر کی نشاندہی کی جائے اور اس کے اثر کو دور کرنے والا چیز بتائی جائے۔ پھر طالب علم سے کہا جاتا ہے: ''یہ زہر ہے، پس جسے تم زہر کھاتے ہوئے دیکھو، اس کے اثر کو ایسے ہی چیز سے دور کرو، اور احتیاط کرو کہ کسی کو زہر سے نہ مار ڈالو۔''",
+          "tr": "Bu, zehrinin ne olduğunu ve onun zehrinin neyin savuşturduğunu göstermeye benzer. Sonra öğrenciye şöyle denir: 'İşte bu zehir, bu yüzden zehirlendiğini gördüğün kimsenin zehrinin savuşturulması için böyle böyle bir şeyi kullan ve zehirle kimseyi öldürmemeye dikkat et.'",
+          "fa": "این مانند بیان این است که زهر چیست و چه چیزی آن را دفع می‌کند. سپس به شاگرد گفته می‌شود: «این زهر است، پس هر کس را که می‌بینی که زهر گرفته است، با چنین و چنانی زهرش را دفع کن و بپرهیز از اینکه کسی را با زهر بکشی.»",
+          "id": "Ini seperti menunjukkan apa racunnya dan apa yang mengusir racunnya. Kemudian dikatakan kepada pelajar: 'Inilah racunnya, maka siapa pun yang kau lihat keracunan, usirlah racunnya dengan begini dan begitu, dan waspadalah terhadap membunuh siapa pun dengan racun.'",
+          "bn": "এটি বিষ কী বিষ এবং কী তার বিষক্রিয়া দূর করে তা নির্দেশ করার মতো। অতঃপর শিক্ষার্থীকে বলা হয়: 'এটি বিষ, সুতরাং তুমি যে কাউকে বিষক্রিয়ায় আক্রান্ত দেখবে, এমনভাবে তার বিষ দূর করো, এবং এমনভাবে কাউকে মারো না।'",
+          "es": "Esto es como indicar cuál es el veneno y qué lo repele. Luego se dice al estudiante: 'Este es el veneno, así que a quien veas envenenado, repele su veneno con tal cosa, y cuida de no matar a nadie con el veneno.'",
+          "fr": "Cela revient à indiquer quelle est la poison et ce qui repousse son venin. Puis on dit à l'apprenant : « Voici le poison, donc, lorsque tu vois quelqu'un être empoisonné, repousse son venin par tel moyen, et garde-toi de tuer quiconque avec le poison. »",
+          "de": "Dies gleicht dem Hinweis auf die Identität des Giftes und dessen, was dessen Giftigkeit abwehrt. Dann wird dem Lernenden gesagt: 'Dies ist das Gift, also wehre bei jedem, den du vergiftet siehst, dessen Giftigkeit mit einem bestimmten Mittel ab, und hüte dich, jemanden durch das Gift zu töten.'",
+          "ru": "Это подобно указанию на то, что является ядом и что изгоняет его действие. Затем обучающемуся говорят: «Вот яд, поэтому, когда ты увидишь того, кто отравлен, изгони его действие с помощью такого-то средства, и берегись убить кого-либо этим ядом».",
+          "zh": "这就像指明毒药是什么以及什么能驱除其毒性一样，接着会对学习者说：\"这就是毒药，所以凡见有人中毒，就用某某方法驱除其毒性，并小心不要因毒药而杀死任何人。\""
+        },
+        "word_start": 281,
+        "word_end": 311
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَما يُعَلِّمانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولا إِنَّما نَحْنُ فِتْنَةٌ فَلا تَكْفُرْ) يَعْنِي أَنَّ ذَلِكَ النَّبِيَّ أَمَرَ الْمَلَكَيْنِ أَنْ يَظْهَرَا لِلنَّاسِ بِصُورَةِ بَشَرَيْنِ وَيُعَلِّمَاهُمَا مَا عَلَّمَهُمَا اللَّهُ مِنْ ذَلِكَ",
+        "translations": {
+          "en": "Then God, the Exalted, said: '...But neither of these taught anyone until they said, \"We are only a trial, so do not disbelieve.\"' This means that the Prophet ordered the two angels to appear to people in the form of two humans and teach them what God had taught them.",
+          "ur": "پھر اللہ تعالیٰ نے فرمایا: ''لیکن ان دونوں نے کسی کو پڑھایا ہی نہیں یہ کہتے ہوئے کہ ہم تو صرف ایک آزمائش ہیں، لہذا کافر نہ بنو۔'' اس کا مطلب یہ ہے کہ نبی ﷺ نے دو فرشتوں کو حکم دیا کہ وہ لوگوں کے سامنے دو انسانوں کی شکل میں ظاہر ہوں اور انہیں وہی سکھائیں جو اللہ نے انہیں سکھایا تھا۔",
+          "tr": "Sonra Yüce Allah şöyle buyurdu: '...Ama ikisi de insanlara öğretilmeden önce, \"Biz ancak birer imtihanağız, öyleyse küfr etmeyin\" dediler.' Bu, Peygamber'in iki meleği insanlara iki insan suretinde gösterip, Allah'ın onlara öğrettiklerini öğretmelerini emrettiği anlamına gelir.",
+          "fa": "سپس خداوند متعال فرمود: «...ولی هر یک از این دو به کسی آموزش نمی‌دادند مگر اینکه می‌گفتند: ما تنها یک فتنه‌ایم، پس کفر نورزید.» این بدان معناست که پیامبر(ص) به دو فرشته دستور داد تا به شکل دو انسان در برابر مردم ظاهر شوند و آنچه خداوند به آن‌ها آموخته بود، به مردم بیاموزند.",
+          "id": "Maka Allah Yang Maha Tinggi berfirman: '...Namun keduanya tidak salah satu dari keduanya mengajarkan seseorang sebelum mereka berkata, \"Kami hanyalah cobaan, maka janganlah kamu kafir.\"' Ini berarti bahwa Nabi memerintahkan dua malaikat itu untuk muncul di hadapan manusia dalam wujud dua orang manusia dan mengajarkan kepada mereka apa yang telah diajarkan oleh Allah kepada mereka.",
+          "bn": "অতঃপর মহান আল্লাহ তাআলা বললেন: '...কিন্তু এই দুজনেই কাউকে শেখাতেন না, যতক্ষণ না তারা বলত, \"আমরা তো কেবল একটা পরীক্ষা, তাই অবিদ্যা করো না।\"' এর অর্থ হলো, আল্লাহ তাআলা নবীকে আদেশ করলেন যে, তিনি এই দুই ফেরেশতাকে মানুষের সামনে দুই মানুষের রূপে উপস্থিত হতে দেন এবং তাদেরকে সেই জ্ঞান শেখান যা আল্লাহ তাআলা তাদেরকে শেখিয়েছিলেন।",
+          "es": "Luego Dios, el Exaltado, dijo: «...Pero ninguno de los dos enseñaba a nadie hasta decir: ",
+          "fr": "Puis Dieu, le Très-Haut, a dit : «...Mais ils n'enseignaient à personne avant de dire : ",
+          "de": "Dann sprach Gott, der Erhabene: „…Doch lehrten diese beiden niemand, bevor sie nicht sagten: Wir sind nur eine Prüfung, also glaubt nicht ab.“ Das bedeutet, dass der Prophet den beiden Engeln befahl, den Menschen in der Gestalt von zwei Menschen zu erscheinen und sie das zu lehren, was Gott ihnen beigebracht hatte.",
+          "ru": "Затем Всевышний Аллах сказал: «…Но ни тот, ни другой не учили людей, пока не говорили: „Мы — лишь испытание, так что не неверуйте“». Это означает, что Пророк приказал двум ангелам явиться людям в образе двух людей и обучить их тому, чему их обучил Аллах.",
+          "zh": "随后，真主至高者说：‘……但他们俩在教授众人之前，先说：“我们只是考验，故你们不要不信道。”’这意味着先知奉命让两位天使以人的形象出现，并教授人们真主所教授他们的知识。"
+        },
+        "word_start": 311,
+        "word_end": 343
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ اللَّهُ عَزَّ وَجَلَّ: (وَما يُعَلِّمانِ مِنْ أَحَدٍ) ذَلِكَ السِّحْرَ وَإِبْطَالَهُ (حَتَّىٰ يَقُولا) لِلْمُتَعَلِّمِ (إِنَّما نَحْنُ فِتْنَةٌ) امْتِحَانٌ لِلْعِبَادِ لِيُطِيعُوا اللَّهَ فِيما يَتَعَلَّمُونَ مِنْ هَذَا وَيُبْطِلُوا بِهِ كَيْدَ السَّاحِرِ وَلا يَسْحَرُوهُمْ",
+        "translations": {
+          "en": "God said: '...But neither of these taught anyone...' that magic and its nullification '...until they said to the learner, \"We are only a trial.\"' A test for the servants so they obey God in what they learn from this and nullify the magician's scheme with it, and do not cast spells on them.",
+          "ur": "اللہ تعالیٰ نے فرمایا: ''...لیکن ان دونوں نے کسی کو سکھایا نہیں...'' کہ جادو اور اس کا بطلان ''...جبکہ وہ سیکھنے والے سے کہتے تھے کہ ہم صرف ایک امتحان ہیں۔'' بندوں کے لیے ایک امتحان تاکہ وہ اس جادو سے جو سیکھتے ہیں، اللہ کی اطاعت کریں اور جادوگر کے نقشے کو اس سے بطلان کر دیں، اور خود جادو نہ کریں۔",
+          "tr": "Allah buyurdu: '...İkisi de birine öğretmediler...' sihir ve onun hükmünün kalkması '...öğrenene dediler ki, \"Biz ancak bir fitneyiz.\"' Kullar için bir imtihan ki, bundan öğrendikleri şeyde Allah'a itaat etsinler ve sihirbazın hilesini onunla bertaraf etsinler, kendilerine sihir yapmasınlar.",
+          "fa": "خداوند فرمود: «...اما هیچ‌کدام از آن دو نفر به کسی آموزش نمی‌دادند...» تا جادو و باطل‌شدن آن «...تا به شاگرد می‌گفتند: «ما تنها یک آزمایش هستیم.»» آزمونی برای بندگان، تا در آنچه از این موضوع می‌آموزند، خدا را اطاعت کنند و با آن، نقشه جادوگر را باطل سازند و خودشان جادو نکنند.",
+          "id": "Allah berfirman: '...Namun, keduanya tidak mengajarkan kepada siapa pun...' bahwa sihir dan pembatalannya '...hingga mereka berkata kepada yang belajar, \"Kami hanyalah cobaan.\"' Sebuah ujian bagi para hamba agar mereka taat kepada Allah dalam apa yang mereka pelajari dari hal itu dan membatalkan tipu daya penyihir dengannya, dan tidak menjadikannya sihir.",
+          "bn": "আল্লাহ তাআলা বলেন: '...কিন্তু এই দুজন কেউ কাউকে শেখাতেন না...' যে জাদু এবং তার বাতিলকরণ '...যতক্ষণ না তারা শিক্ষার্থীকে বলত, \"আমরা কেবল একটা পরীক্ষা।\"' বান্দাদের জন্য একটা পরীক্ষা, যাতে তারা এ থেকে শেখা জাদুর বাতিলকরণে আল্লাহর আনুত্যকারী হয় এবং জাদুকরের কৌশলকে বাতিল করে, এবং জাদু করে না।",
+          "es": "Dijo Dios: «...Pero ninguno de estos enseñaba de estos enseñaba a nadie...» que la magia y su anulación «...hasta que decían al que aprendía: «Solo somos una prueba.»». Una prueba para los siervos, para que obedezcan a Dios en lo que aprenden de esto y anulen con ello el ardid del mago, y no le echen hechizos.",
+          "fr": "Dieu a dit : « ...Mais ils n'enseignaient à personne... » que la magie et sa nullification « ...jusqu'à ce qu'ils disent à l'apprenant : \"Nous ne sommes qu'une épreuve.\" » Une épreuve pour les serviteurs, afin qu'ils obéissent à Dieu dans ce qu'ils apprennent de cela et annulent le stratagème du magicien avec, et qu'ils ne lancent pas de sorts sur eux.",
+          "de": "Allah sagte: „…Doch keiner von beiden lehrte jemanden…“ den Zauberspruch und seine Aufhebung, „…bis sie zu dem Lernenden sagten: ‚Wir sind nur eine Prüfung.‘“ Eine Prüfung für die Diener, damit sie Allah in dem gehorchen, was sie daraus lernen, und damit sie den Zauber des Zauberers damit aufheben und nicht selbst zaubern.",
+          "ru": "Аллах сказал: «… сказал: «…Но ни тот, ни другой не учили никого…», что такое магия и её упразднение, «…пока они не говорили ученику: „Мы — лишь испытание“». Испытание для рабов, чтобы они повиновались Аллаху в том, что они узнают из этого, и упраздняли с его помощью хитрость колдуна, и не накладывали на них заклинания.",
+          "zh": "真主说：‘……但这两人并未教人……’即魔法及其化解之法，‘……直到他们对学习者说：“我们只是考验。”’作为对仆人的考验，使他们在所学中顺从真主，并以此化解施法者的诡计，而不施咒于他们。"
+        },
+        "word_start": 343,
+        "word_end": 374
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "(فَلا تَكْفُرْ) بِاسْتِعْمالِ هَذَا السِّرْ وَطَلَبِ الإِضْارِ بِهِ وَدُعَاءِ النَّاسِ إِلَىٰ أَنْ يَعْتَقِدُوا أَنَّكَ بِهِ تُحْيِي وَتُمِيتُ وَتَفْعَلُ مَا لا يَقْدِرُ عَلَيْهِ إِلا اللَّهُ عَزَّ وَجَلَّ فَإِنَّ ذَلِكَ كُفْرٌ",
+        "translations": {
+          "en": "'...So do not disbelieve...' by using this magic and seeking to harm with it, and inviting people to believe that you bring life and death through it and do what only God can do. For that is disbelief.",
+          "ur": "...پس کفر نہ کرو...",
+          "tr": "...Öyleyse bu sihirle ve onunla zarar vermek için onu kullanarak, onunla hayat ve ölümü getirdiğini insanlara inandırarak ve Allah'ın tek başına yapabildiği şeyleri yaparak küfre girme...",
+          "fa": "پس کفر نورزید...",
+          "id": "...Maka janganlah kamu kafir...",
+          "bn": "অতএব, এই জাদু ব্যবহার করে এবং এর মাধ্যমে ক্ষতি করার চেষ্টা করে, এবং মানুষকে এতে জীবন ও মৃত্যু দানকারী এবং আল্লাহরই কাজ করা এমন কাজ করতে আহ্বান করে, এইরূপে অবিচারী হও না। কারণ এটিই অবিচার।",
+          "es": "...Así que no descreáis...» mediante el uso de esta magia y buscar dañar con ella, e invitar a la gente a creer que vosotros dais la vida y la muerte a través de ella y hacéis lo que solo Alá puede hacer. Porque eso es descreimiento.",
+          "fr": "…Alors ne mécréez pas… en vous servant de cette magie et en cherchantant avec elle, et en invitant les gens à croire que vous donnez la vie et la mort par elle, et que vous faites ce que seul Allah peut faire. Car cela constitue la mécréance.",
+          "de": "…so glaubt nicht ab …",
+          "ru": "…так не будьте неверующими… посредством этого колдовства и стремясь причинить вред с его помощью, и призывая людей верить, что вы даруете жизнь и смерть посредством него, и совершаете то, что способен совершить лишь Аллах. Ибо это и есть неверие.",
+          "zh": "……故不要以这魔术而致不信，并借此伤害人，且引人相信你能借此赋予生死，并做唯有真主才能做的事，因为这就是不信。"
+        },
+        "word_start": 374,
+        "word_end": 403
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ اللَّهُ عَزَّ وَجَلَّ: (فَيَتَعَلَّمُونَ) يَعْنِي طَالِبِي السِّحْرِ (مِنْهُما) يَعْنِي مِمَّا كَتَبَتِ الشَّيَاطِينُ عَلَىٰ مُلْكِ سُلَيْمانَ مِنَ النَّيْرَنْجَاتِ وَما أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمارُوتَ يَتَعَلَّمُونَ مِنْ هَذَيْنِ الصِّنفَيْنِ (ما يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ)",
+        "translations": {
+          "en": "God said: '...They learned from them...' meaning the seekers of magic '...from them...' meaning from what the devils wrote for the kingdom of Solomon of jugglery and what was revealed to the two angels at Babylon, Harut and Marut. They learn from these two types '...that which separates a man from his wife.'",
+          "ur": "اللہ تعالیٰ کا ارشاد ہے: '...وہ ان سے سیکھتے تھے...' یعنی جادو کی تلاش کرنے والے '...ان سے...' یعنی شیاطین نے سلیمان کی بادشاہی کے لیے جو جادو اور جادوئی کارنامے لکھے تھے اور بابل میں دو فرشتوں ہاروت اور ماروت پر جو نازل کیا گیا۔ وہ ان دو ذرائع سے '...وہ سیکھتے ہیں جو آدمی کو اس کی بیوی سے جدا کر دے۔'",
+          "tr": "Allah şöyle buyurdu: '...Onlardan öğrendiler...' yani sihir arayanlar, '...onlardan...' yani şeytanların Süleyman'ın saltanatı için yazdığı sihir ve Babil'de Harut ve Marut adlı iki meleğe indirilen şeyleri öğrendiler. Bu iki türden '...ki erkeği karısından ayıran şeyi' öğrenirler.",
+          "fa": "خداوند فرمود: «...از آن‌ها آموختند...» یعنی جویندگان جادو «...از آن‌ها...» یعنی از آنچه شیاطین برای سلیمان (ع) از سحر و جادو نوشتند و آنچه به دو فرشته در بابل، هاروت و ماروت، وحی شد. آن‌ها از این دو نوع «...آنچه میان مرد و زن جدایی می‌اندازد...» می‌اموزند.",
+          "id": "Allah berfirman: '...mereka mempelajarinya dari mereka...' maksudnya para penuntut sihir '...dari mereka...' maksudnya dari apa yang ditulis oleh setan-setan untuk kerajaan Sulaiman tentang sulap dan apa yang diturunkan kepada dua malaikat di Babilonia, Harut dan Marut. Mereka belajar dari kedua jenis ini '...yang dapat memisahkan seorang suami dari istrinya.'",
+          "bn": "আল্লাহ তাআলা বলেন: '...তারা তাদের কাছ থেকে শিখেছিল...' অর্থাৎ জাদুবিদদের আকাঙ্ক্ষীরা '...তাদের কাছ থেকে...' অর্থাৎ সুলাইমানের রাজত্বের জাদুবিদদের জন্য শয়তানদের লিখিত জাদু এবং বাবিলে অবতীর্ণ হওয়া দুই ফেরেশতা হারুত ও মারুতের নিকট প্রকাশিত বিষয় থেকে। তারা এই দুই প্রকারের নিকট থেকে '...যা একজনকে তার স্ত্রী থেকে বিচ্ছিন্ন করে।' শিখে।",
+          "es": "Dios dijo: «...Aprendieron de ellos...», es decir, los buscadores de magia «...de ellos...», es decir, de lo que los demonios escribieron para el reino de Salomón de magia de encantamiento y lo que fue revelado a los dos ángeles en Babilonia, Harut y Marut. Aprenden de estos dos tipos «...lo que separa a un hombre de su esposa».",
+          "fr": "Dieu a dit : « …Ils apprirent d’eux… », c’est-à-dire les chercheurs de magie, « …d’eux… », c’est-à-dire à partir de ce que les diables écrivirent pour le royaume de Salomon, en matière de jonglerie, et de ce qui fut révélé aux deux anges à Babylone, Harût et Marût. Ils apprennent de ces deux types « …ce qui sépare un homme de sa femme. »",
+          "de": "Allah sagte: „…sie lernten von ihnen…“, was die Sucher der Magie bedeutet, „…von ihnen…“, was bedeutet von dem, was die Dschinn für das Königreich Salomos an Zauberei schrieben, und von dem, was den beiden Engeln in Babylon, Harut und Marut, offenbart wurde. Sie lernen von diesen beiden Arten „…das, was einen Mann von seiner Frau trennt.“",
+          "ru": "Аллах сказал: «...Они учились у них...», то есть искатели магии «...у них...», то есть у того, что дьяволы написали для царства Соломона в виде жонглирования и того, что было ниспослано двум ангелам в Вавилоне, Харуту и Маруту. Они учатся у этих двух типов «...тому, что разлучает мужа с женой». }  Note: The translation preserves Islamic terminology and honorifics as per the guidelines. Proper nouns like ",
+          "zh": "真主说：“……他们从他们那里学到……”意指求术者“……从他们那里……”意指从恶魔为所罗门王国所写的戏法以及降示给巴比伦的天使哈鲁特和玛鲁特那里学到。他们从这两种途径学到“……能使人夫妻离异的东西。”"
+        },
+        "word_start": 403,
+        "word_end": 438
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "هَذَا مَنْ يَتَعَلَّمُ لِلإِضْارِ بِالنَّاسِ يَتَعَلَّمُونَ التَّضْرِيبَ بِضُرُوبِ الْحِيَلِ وَالْتِّئَامِ وَالْإِيهَامِ أَنَّهُ قَدْ دَفَنَ فِي مَوْضِعِ كَذَا وَعَمِلَ كَذَا لِيُحَبِّبَ الْمَرْأَةَ إِلَىٰ الرَّجُلِ وَالرَّجُلَ إِلَىٰ الْمَرْأَةِ أَوْ يُؤَدِّيَ إِلَىٰ الْفِرَاقِ بَيْنَهُمَا",
+        "translations": {
+          "en": "These are those who learn to harm people. They learn to strike with various tricks and amulets, and to create the illusion that such-and-such is buried in such-and-such a place, or such-and-such was done, to make the woman beloved to the man and the man to the woman, or to lead to separation between them.",
+          "ur": "یہ وہ لوگ ہیں جو لوگوں کو نقصان پہنچانا سیکھتے ہیں۔ وہ مختلف ٹرکوں اور تعویذات کے ذریعے مارنے کا طریقہ سیکھتے ہیں، اور یہ تاثر پیدا کرتے ہیں کہ فلاں چیز فلاں جگہ دفن ہے، یا فلاں کام کیا گیا ہے، تاکہ عورت مرد کو محبوب ہو جائے اور مرد عورت کو، یا ان کے درمیان جدائی کا سبب بنے۔",
+          "tr": "İşte bunlar, insanlara zarar verecek şekilde öğrenenlerdir. Çeşitli hileler ve ilâçlarla vurmayı, böyle-böyle bir yerde gömülü olduğu veya böyle-böyle bir şey yapıldığı izlenimini vererek kadının erkeğe, erkeğin kadına sevgili olmasını veya aralarında ayrılığa yol açmayı öğrenirler.",
+          "fa": "این‌ها کسانی هستند که به آسیب رساندن به مردم می‌آموزند. آن‌ها یاد می‌گیرند که با ترفندها و تعویذهای گوناگون ضربه بزنند و توهمی ایجاد کنند که چنین و چنان در چنین و چنان مکانی دفن شده است، یا چنین و چنان کاری انجام شده است، تا زن برای مرد محبوب شود و مرد برای زن، یا جدایی میان آن‌ها ایجاد گردد.",
+          "id": "Mereka adalah orang-orang yang belajar untuk menyakiti manusia. Mereka belajar memukul dengan berbagai mantera dan jimat, serta menciptakan ilusi bahwa sesuatu ditanam di tempat tertentu, atau sesuatu telah dilakukan, agar seorang wanita menjadi dicintai oleh seorang pria dan seorang pria menjadi dicintai oleh seorang wanita, atau untuk menyebabkan perpisahan di antara mereka.",
+          "bn": "এরা হলেন সেই ব্যক্তিরা, যারা মানুষকে ক্ষতিগ্রস্ত করার কৌশল শেখে। তারা বিভিন্ন ফেরে ও তবীজে আঘাত করার, এবং এমনভাবে মনে করানোর যে, এমন জায়গায় এমন কিছু কবর দেওয়া হয়েছে অথবা এমন কাজ করা হয়েছে, যাতে নারী পুরুষের কাছে প্রিয় হয়ে ওঠে এবং পুরুষ নারীর কাছে প্রিয় হয়ে ওঠে, অথবা তাদের মধ্যে বিচ্ছেদ ঘটে।",
+          "es": "Esos son los que aprenden a causar daño a las personas. Aprenden a golpear con diversos trucos y amuletos, y a crear la ilusión de que tal cosa está enterrada en tal lugar, o que se ha hecho tal cosa, para que la mujer sea amada por el hombre y el hombre por la mujer, o para provocar la separación entre ellos.",
+          "fr": "Ce sont ceux qui apprennent à nuire aux gens. Ils apprennent à frapper avec divers tours et amulettes, et à créer l'illusion que tel chose est enterrée en tel endroit, ou que telle action a été accomplie, pour rendre la femme aimée de l'homme et l'homme aimé de la femme, ou pour provoquer la séparation entre eux.",
+          "de": "Das sind diejenigen, die lernen, den Menschen zu schaden. Sie lernen, mit verschiedenen Tricks und Amuletten zuzuschlagen, und die Illusion zu erwecken, dass dies und das an einem bestimmten Ort begraben ist oder dies und das getan wurde, um die Frau dem Mann und den Mann der Frau liebenswert zu machen oder um die Trennung zwischen ihnen herbeizuführen.",
+          "ru": "Это те, кто учатся причинять вред людям. Они учатся наносить удар с помощью различных хитростей и амулетов, и создавать иллюзию того, что такое-то зарыто в таком-то месте, или такое-то было сделано, чтобы сделать женщину любимой для мужчины, а мужчину — для женщины, или чтобы вызвать разлуку между ними.",
+          "zh": "这些是那些学习伤害他人的人。他们学习用各种诡计和符咒进行打击，并制造某种事物埋藏在某处或某种行为已完成的假象，以使女子被男子喜爱、男子被女子喜爱，或导致他们之间分离。"
+        },
+        "word_start": 438,
+        "word_end": 469
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَما هُمْ بِضارِّينَ بِهِ مِنْ أَحَدٍ إِلاّ بِإِذْنِ اللَّهِ) أَيْ مَا الْمُتَعَلِّمُونَ لِذَلِكَ بِضارِّينَ بِهِ مِنْ أَحَدٍ إِلاّ بِإِذْنِ اللَّهِ يَعْنِي بِتَخْلِيَةِ اللَّهِ وَعِلْمِهِ فَإِنَّهُ لَوْ شَاءَ لَمَنَعَهُمْ بِالْجَبْرِ وَالْقَهْرِ.",
+        "translations": {
+          "en": "Then He, the Exalted, said: '...But they could not harm anyone except by permission of Allah.' Meaning, those who learn it do not harm anyone with it except by God's permission, meaning God's letting them go and His knowledge. For if He willed, He could have prevented them by force and compulsion.",
+          "ur": "پھر اس نے، تعالیٰ نے فرمایا: ''لیکن وہ کسی کو نقصان نہیں پہنچا سکتے تھے مگر اللہ کی اجازت سے۔'' مطلب یہ ہے کہ جو لوگ اسے سیکھتے ہیں، وہ کسی کو اس سے نقصان نہیں پہنچاتے مگر اللہ کی اجازت سے، یعنی اللہ کا انہیں جانے دینا اور اس کی علم۔ کیونکہ اگر وہ چاہتا تو زبردستی اور جبر سے انہیں روک سکتا تھا۔",
+          "tr": "Sonra O, Yüce olan şöyle buyurdu: '...Ama onlar Allah'ın izniyle başkalarına zarar verebilirlerdi.' Yani, onu öğrenenler, Allah'ın izniyle, yani Allah'ın onlara izin vermesi ve O'nun bilgisiyle, başkalarına zarar verirlerdi. Çünkü O dilerse, onları zorla ve mecburen engellerdi.",
+          "fa": "سپس او، بلندمرتبه، فرمود: «...ولی نمی‌توانستند به کسی جز به اذن الله ضرر برسانند.» یعنی کسانی که آن را می‌آموزند، با آن به کسی جز به اذن خدا ضرر نمی‌رسانند، یعنی خداوند به آنان اجازه دهد و علم او باشد. زیرا اگر او بخواهد، می‌تواند آنان را به زور و اجبار بازدارد.",
+          "id": "Kemudian Dia Yang Maha Tinggi berfirman: '...tetapi mereka tidak dapat memberi mudarat kepada siapa pun kecuali dengan izin Allah.' Maksudnya, orang-orang yang mempelajarinya tidak dapat memberi mudarat dengan ilmu itu kepada siapa pun kecuali dengan izin Allah, yaitu dengan kehendak-Nya membiarkan mereka dan ilmu-Nya. Karena jika Dia menghendaki, Dia dapat mencegah mereka dengan kekuatan dan paksaan.",
+          "bn": "অতঃপর তিনি, মহান, বললেন: '...তারা কারো ক্ষতি করতে পারত না, আল্লাহর অনুমতি ছাড়া।' অর্থ, যারা এটিকে শেখে তারা তার মাধ্যমে কারো ক্ষতি করতে পারে না, আল্লাহর অনুমতি ছাড়া, অর্থাৎ আল্লাহর তাদেরকে মুক্ত করে দেওয়া এবং তাঁর জ্ঞান। যদি তিনি ইচ্ছা করতেন, তবে তিনি বলপ্রয়োগ ও বাধ্য করে তাদেরকে প্রতিরোধ করতে পারতেন।",
+          "es": "L",
+          "fr": "Puis Lui, le Très-Haut, dit : « …",
+          "de": "Dann sprach Er, der Erhabene: „…doch sie konnten niemandem schaden, außer mit Gottes Erlaubnis.“ Das bedeutet, dass diejenigen, die es lernen, niemandem damit schaden, außer mit Gottes Erlaubnis, d. h. Gottes Zulassung und Sein Wissen. Denn wenn Er wollte, hätte Er sie durch Gewalt und Zwang verhindern können.",
+          "ru": "Затем Он, Всевышний, сказал: «...Но они не могли причинить вред никому, кроме как с дозволения Аллаха». Имеется в виду, что те, кто изучает её, не причиняют с её помощью вред никому, кроме как с дозволения Аллаха, то есть с Его разрешением и Его ведением. Ибо если бы Он пожелал, Он мог бы воспрепятствовать им силой и принуждением.",
+          "zh": "随后，至高者说：‘……但他们不能伤害任何人，除非真主允许。’其意为：那些学习它的人，不能用它伤害任何人，除非真主允许，即真主让他们得以施展，以及他的知识。如果真主意欲，他本可以以力量和强制来阻止他们。"
+        },
+        "word_start": 469,
+        "word_end": 503
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ: (وَيَتَعَلَّمُونَ ما يَضُرُّهُمْ وَلا يَنْفَعُهُمْ) لانَّهُمْ إِذا تَعَلَّمُوا ذَلِكَ السِّحْرَ لِيَسْحَرُوا بِهِ وَيَضُرُّوا فَقَدْ تَعَلَّمُوا مَا يَضُرُّهُمْ فِي دِينِهِمْ وَلا يَنْفَعُهُمْ فِيهِ بَلْ يَنْسَلِخُونَ عَنْ دِينِ اللَّهِ بِذَلِكَ",
+        "translations": {
+          "en": "Then He said: '...And they learn what harms them and does not benefit them.' Because when they learn that magic to cast spells and harm, they have learned what harms them in their religion and does not benefit them in it. Rather, they depart from God's religion by it.",
+          "ur": "پھر اس نے فرمایا: '...اور وہ سیکھتے ہیں جو ان کے لیے نقصان دہ ہے اور فائدہ مند نہیں۔' کیونکہ جب وہ جادو سیکھتے ہیں جو جادو کر کے نقصان پہنچائے، تو انہوں نے وہ سیکھ لیا جو ان کے دین میں ان کے لیے نقصان دہ ہے اور اس میں ان کے لیے فائدہ مند نہیں۔ بلکہ وہ اس کے ذریعے اللہ کے دین سے الگ ہو جاتے ہیں۔",
+          "tr": "Sonra O şöyle buyurdu: '...Onlar, kendilerine zarar veren ve fayda sağlamayan şeyi öğrenirler.' Çünkü sihir öğrenip efsun yapıp zarar verdiklerinde, dinlerinde kendilerine zarar veren ve dinlerinde kendilerine fayda sağlamayan şeyi öğrenmiş olurlar. Hatta onunla Allah'ın dininden ayrılırlar.",
+          "fa": "پس فرمود: «و آنچه به آنان ضرر می‌رساند و سودی ندارد می‌آموزند.» زیرا هنگامی که جادو و سحر را می‌آموزند، آنچه در دینشان به آنان ضرر می‌رساند و سودی ندارد آموخته‌اند؛ بلکه به وسیله آن از دین خدا دور می‌شوند.",
+          "id": "Kemudian Allah berfirman: '...Dan mereka mempelajari sesuatu yang tidak memberi manfaat bagi mereka.' Karena ketika mereka mempelajari sihir untuk menjatuhkan mantra dan menyakiti, mereka telah mempelajari apa yang merugikan mereka dalam agama mereka dan tidak memberi manfaat bagi mereka di dalamnya. Malahan, mereka meninggalkan agama Allah karenanya.",
+          "bn": "অতঃপর তিনি বললেন: '...এবং তারা শেখে যা তাদের ক্ষতি করে এবং উপকার করে না।' কারণ যখন তারা সেই জাদু শেখে যা মন্ত্র ছুঁড়ে ক্ষতি করতে পারে, তখন তারা শেখে যা তাদের ধর্মে ক্ষতি করে এবং তাতে উপকার করে না। বরং, তারা এর মাধ্যমে আল্লাহর ধর্ম থেকে বিচ্যুত হয়।",
+          "es": "Luego Él dijo: «...Y aprenden lo que les perjudica y no les beneficia». Porque cuando aprenden esa magia para lanzar hechizos y causar daño, han aprendido lo que les perjudica en su religión y no les beneficia en ella. Más aún, se apartan de la religión de Dios por ello.",
+          "fr": "Puis Il dit : « ...Et ils apprennent ce qui leur nuit et ne leur profite pas. » Car lorsqu’ils apprennent cette magie pour lancer des sorts et nuire, ils ont appris ce qui leur nuit dans leur religion et ne leur profite pas en elle. Bien au contraire, ils s’éloignent de la religion d’Allah par elle.",
+          "de": "Dann sprach Er: „…und sie lernen, was ihnen schadet und nicht nützt.“ Denn als sie diese Zauberkunst erlernten, um Zauber zu wirken und Schaden anzurichten, lernten sie, was in ihrer Religion Schaden anrichtet und nicht nützt. Vielmehr entfernen sie sich durch sie von der Religion Gottes.",
+          "ru": "Затем Он сказал: «…И они учатся тому, что вредит им и не приносит пользы». Ибо когда они учатся магии, чтобы накладывать чары и причинять вред, то учатся тому, что вредит им в их религии и не приносит пользы в ней. Более того, посредством этого они удаляются от религии Аллаха.",
+          "zh": "随后他说：“……他们学习那对他们有害而无益的东西。”因为当他们学习施咒和伤害的魔法时，他们所学到的正是损害其宗教利益而对其宗教无益的内容。相反，他们借此背离了真主的宗教。"
+        },
+        "word_start": 503,
+        "word_end": 533
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "(وَلَقَدْ عَلِمُوا) عَلِمَ هَؤُلاءِ الْمُتَعَلِّمُونَ (لَمَنِ اشْتَرَاهُ) بِدِينِهِ الَّذِي يَنْسَلِخُ عَنْهُ بِتَعَلُّمِهِ (ما لَهُ فِي الآْخِرَةِ مِنْ خَلاقٍ) أَيْ مِنْ نَصِيبٍ فِي ثَوَابِ الْجَنَّةِ.",
+        "translations": {
+          "en": "'...And they knew...' these learners '...that whoever purchased it...' with the religion he departs from by learning it '...would have no share in the Hereafter.' Meaning, no portion in the reward of Paradise.",
+          "ur": "اور انہوں نے جانا... یہ طلباء... کہ جس نے اسے دین کے ساتھ خریدا... وہ اسے سیکھ کر دین سے الگ ہو جاتا ہے... اور اس کا آخرت میں کوئی حصہ نہیں ہوگا۔ مطلب، جنت کے اجر میں اس کا کوئی حصہ نہیں۔",
+          "tr": "...Ve onlar biliyorlardı... bu öğrenciler... 'kim onu dini terk ederek öğrenirse...' 'ahirette payı olmazdı.' Yani, Cennet mükâfatında bir kısmı olmazdı.",
+          "fa": "«...و آنان می‌دانستند...» این دانشمندان «...که هر کس دینش را به خاطر یادگیری آن بفروشد...» «...در آخرت هیچ سهمی نخواهد داشت.» یعنی، هیچ بخشی از پادشت بهشت.",
+          "id": "…Dan mereka mengetahui… para penuntut ilmu ini… bahwa barangsiapa membeli ilmu itu dengan agama, ia keluar dari agama dengan mempelajarinya… maka ia tidak akan mendapat bagian di akhirat.” Maksudnya, tidak mendapat bagian dalam pahala surga.",
+          "bn": "...এবং তারা জানত... এই শিক্ষার্থীরা... যে, যিনি ধর্মকে বিক্রি করতেন... ধর্মকে বিক্রি করে তা শিখে তা থেকে দূরে সরে যেতেন... 'পরলোকে তার কোনো অংশ থাকবে না।' অর্থাৎ, জান্নাতের পুরস্কারে তার কোনো ভাগ থাকবে না।",
+          "es": "«...Y ellos sabían...» estos eruditos «...que quien lo comprara...» con la religión se apartaría al aprenderlo «...no tendría parte en la Herejía.» Es decir, no tendría porción en la recompensa del Paraíso.",
+          "fr": "«...Et ils savaient... ces savants... que quiconque l'achetait... en échange de la religion, en la quittant par son apprentissage... n'aurait aucune part dans l'au-delà.",
+          "de": "…Und sie wussten… diese Gelehrten… dass, wer sie [das Wissen] um des Glaubens willen erwarb… durch das Erlernen desselben vom Glauben abfiel… und somit keinen Anteil am Jenseits haben würde.“ Gemeint ist, dass er keinen Teil an der Belohnung des Paradieses haben wird.",
+          "ru": "«…И они знали…», эти знатоки «…что тот, кто приобретёт её…», то есть религию, но выйдет из неё, обучая ей, «…не будет иметь доли в Последней жизни». Имеется в виду, что не будет его части в награде Рая.",
+          "zh": "……他们知道……这些学者……谁以宗教为代价学习它……谁将在后世无份……"
+        },
+        "word_start": 533,
+        "word_end": 557
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَلَبِئْسَ ما شَرَوْا بِهِ أَنْفُسَهُمْ) وَهَنُوهَا بِالْعَذَابِ (لَوْ كانُوا يَعْلَمُونَ) أَنَّهُمْ قَدْ بَاعُوا الآْخِرَةَ وَتَرَكُوا نَصِيبَهُمْ مِنَ الْجَنَّةِ",
+        "translations": {
+          "en": "Then He, the Exalted, said: '...And wretched was that for which they sold their souls...' exposing them to punishment '...if they only knew.' That they have sold the Hereafter and abandoned their portion of Paradise.",
+          "ur": "پھر اس نے بلند مرتبہ فرمایا: ''اور بری تھی وہ چیز جس کے عوض انہوں نے اپنی جانیں بیچ دیں...'' تاکہ انہیں عذاب کے سامنے پیش کیا جائے ''اگر وہ جانتے۔'' کہ انہوں نے آخرت کو بیچ دیا اور جنت کے اپنے حصے کو چھوڑ دیا۔",
+          "tr": "Sonra O, Yüce olan buyurdu: '...Ve onların canlarını sattıkları şey ne kadar kötüydü...' onları azaba maruz bırakarak '...eğer bilseydiler.' Ahireti sattıklarını ve Cennet'teki paylarını terk ettiklerini.",
+          "fa": "سپس او، بلندمرتبه فرمود: «و بد بود آنچه به خاطر آن جانهای خود را فروختند...» تا آنان را در معرض عذاب قرار دهد «...کاش می‌دانستند.» اینکه آخرت را فروخته و سهم خود از بهشت را رها کرده‌اند.",
+          "id": "Kemudian Dia Yang Maha Tinggi berfirman: '...Dan celakalah apa yang mereka jual dengan jiwa mereka...' yang menjerumuskan mereka ke dalam azab '...kalau saja mereka mengetahui.' Bahwa mereka telah menjual akhirat dan meninggalkan bagian mereka dari surga.",
+          "bn": "অতঃপর মহান আল্লাহ তায়ালা বললেন, '...এবং শোচনীয় ছিল সেই মূল্যে যার বিনিময়ে তারা তাদের আত্মা বিক্রি করেছিল...' যা তাদের শাস্তির দিকে নিয়ে যায়, '...যদি তারা জানত।' তারা পরকাল বিক্রি করেছে এবং জান্নাতের তাদের অংশ ত্যাগ করেছে।",
+          "es": "Luego, Él, el Exaltado, dijo: «...Y desdichado fue aquello por lo que vendieron sus almas...», exponiéndolos al castigo «...si tan solo supieran». Que han vendido la Vida Venidera y abandonado su parte del Paraíso.",
+          "fr": "Puis Lui, le Très-Haut, dit : « …Et misérable était ce pour quoi ils ont vendu leurs âmes… » les exposant au châtiment « …s’ils savaient. » Qu’ils ont vendu la Vie future et abandonné leur part du Paradis.",
+          "de": "Dann sprach Er, der Erhabene: „…und elend war, wofür sie ihre Seelen verkauften…“, indem Er sie der Strafe aussetzte: „…wenn sie es doch wüssten.“ Dass sie das Jenseits verkauft und ihren Anteil am Paradies aufgegeben haben.",
+          "ru": "Затем Он, Всевышний, сказал: «...И дурно же было то, за что они продали свои души...», подвергая их наказанию, «...если бы они знали». Что они продали Ахират и оставили свою долю в Раю.",
+          "zh": "随后，至高者说：‘……他们出卖自己的灵魂，其代价何其悲惨……’以此揭示他们将遭受惩罚，‘……如果他们知道的话。’他们出卖了后世，放弃了乐园中的份额。"
+        },
+        "word_start": 557,
+        "word_end": 579
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لأنَّ الْمُتَعَلِّمِينَ لِهَذَا السِّحْرِ هُمُ الَّذِينَ يَعْتَقِدُونَ أَنْ لا رَسُولَ وَلا إِلَهَ وَلا بَعْثَ وَلا نُشُورَ. فَقَالَ: (وَلَقَدْ عَلِمُوا لَمَنِ اشْتَرَاهُ ما لَهُ فِي الآْخِرَةِ مِنْ خَلاقٍ) لأنَّهُمْ يَعْتَقِدُونَ أَنْ لا آخِرَةَ فَهُمْ يَعْتَقِدُونَ أَنَّهَا إِذا لَمْ تَكُنْ آخِرَةٌ فَلا خَلاقَ لَهُمْ فِي دَارٍ بَعْدَ الدُّنْيَا",
+        "translations": {
+          "en": "Because those who learn this magic believe there is no Messenger, no God, no Resurrection, and no Gathering. So He said: '...And they knew that whoever purchased it would have no share in the Hereafter.' Because they believe there is no Hereafter, so they believe that if there is no Hereafter, they have no share in a realm after the world.",
+          "ur": "کیونکہ وہ لوگ جو اس جادو کو سیکھتے ہیں، ان کا اعتقاد ہوتا ہے کہ کوئی رسول نہیں، کوئی خدا نہیں، کوئی قیامت نہیں، اور کوئی اجتماع نہیں۔ پس اس نے فرمایا: ''اور وہ جانتے تھے کہ جس نے اسے خریدا، اس کا آخرت میں کوئی حصہ نہیں۔'' کیونکہ ان کا اعتقاد ہے کہ آخرت نہیں، پس ان کا خیال ہے کہ اگر آخرت نہیں، تو دنیا کے بعد کی دنیا میں ان کا کوئی حصہ نہیں۔",
+          "tr": "Çünkü bu sihri öğrenenler, bir Peygamberin olmadığına, bir Allah'ın olmadığına, bir Dirilişin olmadığına ve bir Toplanmanın olmadığına inanırlar. O halde O şöyle buyurdu: '...Ve onlar, onu satın alanların ahirette payı olmayacağını biliyorlardı.' Çünkü ahiret olduğuna inanmazlar, dolayısıyla ahiret yoksa, dünyadan sonraki bir alemde de payları olmayacağına inanırlar.",
+          "fa": "زیرا کسانی که این جادو را می‌آموزند، گمان دارند که پیامبری نیست، خدایی نیست، رستاخیزی نیست و gathering (جمع‌آوری) نیست. پس او فرمود: «...و آنان می‌دانستند که هر کس آن را بخرد، در آخرت نصیبی نخواهد داشت.» زیرا آنان به آخرت اعتقاد دارند، پس اگر آخرتی نباشد، گمان می‌برند که در جهانی پس از دنیا، نصیبی ندارند.",
+          "id": "Karena orang-orang yang mempelajari sihir ini meyakini bahwa tidak ada Rasul, tidak ada Tuhan, tidak ada Kiamat, dan tidak ada Penghimpunan. Maka Allah berfirman: '...Dan mereka mengetahui bahwa siapa yang membelinya tidak akan mendapat bagian di akhirat.' Karena mereka meyakini tidak ada akhirat, maka mereka meyakini bahwa jika tidak ada akhirat, mereka tidak memiliki bagian di alam setelah dunia.",
+          "bn": "কারণ যারা এই জাদু শেখে, তারা বিশ্বাস করে যে কোনো রাসূল নেই, কোনো আল্লাহ নেই, কোনো কিয়ামত নেই, এবং কোনো জমায়েত নেই। তাই তিনি বললেন: '...এবং তারা জানত যে, যারা একে ক্রয় করবে, তার আখিরাতে কোনো অংশ থাকবে না।' কারণ তারা বিশ্বাস করে যে আখিরাত নেই, তাই তারা বিশ্বাস করে যে, যদি আখিরাত না থাকে, তবে তারা এই দুনিয়ার পরের কোনো লোকাতের অংশীদার নয়।",
+          "es": "Porque aquellos que aprenden esta magia creen que no hay Mensajero, ni Dios, ni Resurrección, ni Reunión. Así que Él dijo: «...Y supieron que quien la comprara no tendría parte en la Herejía». Porque creen que no hay Herejía, así que creen que si no hay Herejía, no tienen parte en un reino después del mundo.",
+          "fr": "Parce que ceux qui apprennent cette magie croient qu'il n'y a pas de Messager, pas de Dieu, pas de Résurrection, et pas de Rassemblement. Alors Il a dit : «...Et ils savaient que quiconque l'achèterait n'aurait point de part dans l'Au-delà.» Parce qu'ils croient qu'il n'y a pas d'Au-delà, ils croient donc que s'il n'y a pas d'Au-delà, ils n'ont aucune part dans un royaume après le monde.",
+          "de": "Denn diejenigen, die diese Magie erlernen, glauben, dass es keinen Gesandten, keinen Gott, keine Auferstehung und keine Versammlung gibt. Daher sagte Er: „…Und sie wussten, dass derjenige, der sie kaufte, keinen Anteil am Jenseits haben würde.“ Weil sie an das Jenseits glauben, glauben sie, dass, wenn es kein Jenseits gibt, sie keinen Anteil an einer Welt nach der Welt haben.",
+          "ru": "Посновании того, что те, кто изучает эту магию, верят в отсутствие Посланника, Бога, Воскресения и Собрания. Поэтому Он сказал: «…И они знали, что тот, кто приобретёт её, не будет иметь доли в Последней жизни». Поскольку они верят в отсутствие Последней жизни, то полагают, что если нет Последней жизни, то у них нет доли в мире после этого мира.",
+          "zh": "因为那些学习此魔法的人相信没有使者，没有真主，没有复活，没有集合。所以他说：‘……他们知道，凡购买它的人，在后世无份。’因为他们相信没有后世，所以他们相信如果没有后世，他们在现世之后的境界中便无份。"
+        },
+        "word_start": 579,
+        "word_end": 625
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَإِنْ كَانَ بَعْدَ الدُّنْيَا آخِرَةٌ فَهُمْ مَعَ كُفْرِهِمْ بِهَا لا خَلاقَ لَهُمْ فِيهَا ثُمَّ قَالَ: (وَلَبِئْسَ ما شَرَوْا بِهِ أَنْفُسَهُمْ) إِذْ بَاعُوا الآْخِرَةَ بِالدُّنْيَا وَرَهَنُوا بِالْعَذَابِ الدَّائِمِ أَنْفُسَهُمْ (لَوْ كانُوا يَعْلَمُونَ) أَنَّهُمْ قَدْ بَاعُوا أَنْفُسَهُمْ بِالْعَذَابِ وَلَكِنْ لا يَعْلَمُونَ ذَلِكَ لِكُفْرِهِمْ بِهِ",
+        "translations": {
+          "en": "And if there is a Hereafter after the world, they, despite their disbelief in it, have no share in it. Then He said: '...And wretched was that for which they sold their souls...' since they sold the Hereafter for the world and mortgaged their souls to eternal punishment '...if they only knew.' That they have sold their souls to punishment, but they do not know this due to their disbelief in it.",
+          "ur": "اور اگر دنیا کے اگر آخرت ہے تو بھی دنیا کے بعد، وہ اس میں اپنے کفر کے باوجود کوئی حصہ دار نہیں۔ پھر اس نے فرمایا: ''اور بری تھی وہ چیز جس کے لیے انہوں نے اپنی جانیں بیچ دیں...'' کیونکہ انہوں نے آخرت کو دنیا کے بدلے بیچ دیا اور اپنی جانوں کو ابدی عذاب کے لیے گروی رکھ دیا ''...اگر وہ جانتے...''۔ کہ انہوں نے اپنی جانوں کو عذاب کے لیے بیچ دیا ہے، لیکن وہ اسے نہیں جانتے کیونکہ ان کا اس میں کفر ہے۔",
+          "tr": "Ve eğer âlemden sonra bir Âhiret varsa, onlar onun inkârında olsalar da, onda bir payları yoktur. Sonra O şöyle buyurdu: '...Ve onlar canlarını ne kötü bir bedele sattılar...' çünkü onlar Âhireti âleme satmış ve canlarını ebedi azaba rehin bırakmışlardır. '...Keşke bilseydiler.' Onlar canlarını azaba satmışlardır, ancak onun inkârı yüzünden bunu bilmezler.",
+          "fa": "و اگر پس از دنیا، آخرتی باشد، آنان با وجود کفرشان به آن، در آن سهیمی ندارند. سپس فرمود: «...و بد بود آنچه به خاطر آن، جان‌های خود را فروختند...» زیرا آنان آخرت را به دنیا فروختند و جان‌های خود را به گروگان عذاب ابدی دادند؛ «...کاش می‌دانستند.» آنان جان‌های خود را به گروگان عذاب داده‌اند، اما به سبب کفرشان به آن، از این امر آگاه نیستند.",
+          "id": "Dan jika ada akhirat setelah dunia, mereka, meskipun tidak beriman kepadanya, tidak memiliki bagian di dalamnya. Kemudian Allah berfirman: '...Dan celakalah apa yang mereka jual dengan jiwa mereka...' karena mereka menjual akhirat demi dunia dan menggadaikan jiwa mereka untuk azab abadi '...jika saja mereka mengetahui.' Bahwa mereka telah menjual jiwa mereka untuk azab, tetapi mereka tidak mengetahui hal ini karena ketidakimanan mereka terhadapnya.",
+          "bn": "এবং যদি পৃথিবীর পরে আখিরাত থাকে, তবে তারা তার অস্তিত্বে অশ্রদ্ধা সত্ত্বেও তার কোনো অংশীদার নয়। অতঃপর তিনি বললেন: '...এবং মন্দ ছিল সেই বিনিময় যার জন্য তারা তাদের আত্মাকে বিক্রি করল...' যেহেতু তারা আখিরাতকে পৃথিবীর বিনিময়ে বিক্রি করেছিল এবং চিরকালের শাস্তির জন্য তাদের আত্মাকে বন্ধক রেখেছিল '...যদি তারা জানত।' তারা তাদের আত্মাকে শাস্তির বিনিময়ে বিক্রি করেছে, কিন্তু তারা এর অস্তিত্বে অশ্রদ্ধার কারণে এটি জানে না।",
+          "es": "Y si hay una Vida Venidera después del mundo, ellos, a pesar de su incredulidad en ella, no tienen parte en ella. Entonces Él dijo: «...Y desdichado era aquello por lo cual vendieron sus almas...» ya que vendieron la Vida Venidera por el mundo y empeñaron sus almas en el castigo eterno «...si tan solo supieran.» Que han vendido sus almas al castigo, pero no lo saben debido a su incredulidad en él.",
+          "fr": "Et s'il y a une Vie future après le monde, ils n'en ont aucune part, malgré leur incrédulité à son égard. Puis Il dit : « …Et misérable était ce pour quoi ils ont vendu leurs âmes… » puisqu'ils ont vendu la Vie future pour le monde et hypothéqué leurs âmes à la punition éternelle « …s'ils savaient ! ». Ils ont vendu leurs âmes à la punition, mais ils ne le savent pas en raison de leur incrédulité à son égard.",
+          "de": "Und wenn es ein Jenseits nach der Welt gibt, so haben sie trotz ihres Unglaubens daran keinen Anteil daran. Dann sprach Er: »...Und elend war es, wofür sie ihre Seelen verkauften...« denn sie verkauften das Jenseits für die Welt und verpfändeten ihre Seelen für die ewige Strafe »...wenn sie es doch wüssten.« Dass sie ihre Seelen für die Strafe verkauft haben, wissen sie nicht aufgrund ihres Unglaubens daran.",
+          "ru": "И если есть Будущая жизнь после этого мира, то они, несмотря на своё неверие в неё, не имеют в ней никакой доли. Затем Он сказал: «...И дурно то, за что они продали свои души...», поскольку они продали Будущую жизнь за этот мир и отдали свои души в залог вечному наказанию «...если бы они только знали». То, что они продали свои души наказанию, но не знают об этом из-за своего неверия в него.",
+          "zh": "如果后世存在，他们虽不信后世，却无份于后世。随后他说：‘他们出卖自己的灵魂，真是可惨啊……’因为他们以后世换取今世，并将自己的灵魂抵押给永恒的刑罚，‘如果他们知道就好了’他们出卖自己的灵魂以受刑罚，却因不信后世而不知此"
+        },
+        "word_start": 625,
+        "word_end": 667
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَلَمَّا تَرَكُوا النَّظَرَ فِي حُجَجِ اللَّهِ حَتَّىٰ يَعْلَمُوا عَذَابَهُمْ عَلَىٰ اعْتِقَادِهِمُ الْبَاطِلَ وَجَحْدِهِمْ الْحَقَّ.",
+        "translations": {
+          "en": "When they abandoned reflection on God's proofs until they know their punishment for their false belief and denial of the truth.",
+          "ur": "جب وہ اللہ کی نشانियों پر غور و فکر کو چھوڑ دیتے ہیں، یہاں تک کہ انہیں اپنی جھوٹی عقیدت اور سچائی کی انکار کی سزا کا علم ہو جاتا ہے۔",
+          "tr": "Allah'ın ayetleri üzerine tefekkür etmeyi bırakıncaya kadar, yalan inançları ve hakikat inkarları yüzünden verecekleri ceza bilince kadar.",
+          "fa": "زمانی که تفکر در نشانه‌های خدا را رها کردند تا زمانی که مجازاتشان برای باور کاذب و انکار حقیقت را بدانند.",
+          "id": "Ketika mereka meninggalkan perenungan terhadap tanda-tanda Allah hingga mereka mengetahui hukuman atas keyakinan palsu dan penyangkahan mereka terhadap kebenaran.",
+          "bn": "যখন তারা আল্লাহর আয়াতসমূহের প্রতি চিন্তা-ভাবনা বন্ধ করে দেয়, যতক্ষণ না তারা তাদের মিথ্যা বিশ্বাস ও সত্যের অস্বীকারের জন্য শাস্তি অনুভব করে।",
+          "es": "Cuando abandonaron la reflexión sobre las reflexiones sobre las pruebas de Dios hasta que conocieron su castigo por su falsa creencia y la negación de la verdad.",
+          "fr": "Lorsqu'ils ont négligé la réflexion sur les preuves de Dieu jusqu'à ce qu'ils connaissent leur châtiment pour leur fausse croyance et leur dénégation de la vérité.",
+          "de": "Als sie die Reflexion über die Beweise Gottes vernachlässigten, bis sie ihre Strafe für ihren falschen Glauben und die Leugnung der Wahrheit erlitten.",
+          "ru": "Когда они оставили размышление над знамениями Аллаха, пока не узрели наказание за свою ложную веру и отрицание истины.",
+          "zh": "当他们停止反思真主的迹象，直到他们因错误的信仰和否认真理而遭受惩罚。"
+        },
+        "word_start": 667,
+        "word_end": 681
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ يُوسُفُ بْنُ مُحَمَّدِ بْنِ زِيَادٍ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ سَيَّارٍ عَنْ أَبَوَيْهِمَا أَنَّهُمَا قَالا فَقُلْنَا لِلْحَسَنِ أَبِي الْقَائِمِ عَلَيْهِ السَّلامُ فَإِنَّ قَوْماً عِنْدَنَا يَزْعُمُونَ أَنَّ هَارُوتَ وَمَــارُوتَ مَلَكَانِ اخْتَارَتْهُمَا الْمَلائِكَةُ لَمَّا كَثُرَ عِصْيَانُ بَنِي آدَمَ وَأَنَّهُمَا افْتَتَنَا بِالزُّهَرَةِ وَأَرَادَا الزِّنَا بِهَا وَشَرِبَا الْخَمْرَ وَقَتَلا النَّفْسَ الْمُحْتَرَمَةَ وَأَنَّ اللَّهَ تَبَارَكَ وَتَعَالَى يُعَذِّبُهُمَا بِبَابِلَ وَأَنَّ السَّحَرَةَ مِنْهُمَا يَتَعَلَّمُونَ السِّحْرَ وَأَنَّ اللَّهَ مَسَخَ تِلْكَ الْمَرْأَةَ هَذَا الْكَوْكَبَ الَّذِي هُوَ الزُّهَرَةُ.",
+        "translations": {
+          "en": "Yusuf ibn Muhammad ibn Ziyad and Ali ibn Muhammad ibn Sayyar, from their fathers, said: We said to al-Hasan, Abu al-Qa'im (peace be upon him): 'Indeed, some people among us claim that Harut and Marut were two angels chosen by the angels when disobedience of the Children of Adam increased. That they were tempted by Venus, desired adultery with her, drank wine, and killed a respected soul. And that God, Blessed and Exalted, punishes them in Babylon, and that magicians learn magic from them, and that God transformed that woman into this planet, which is Venus.'",
+          "ur": "یوسف بن محمد بن زیاد اور علی بن محمد بن سیار نے اپنے باپوں سے روایت کی کہ انہوں نے کہا: ہم نے الحسن ابالقائم (علیہ السلام) سے کہا: 'بے شک ہمارے درمیان کچھ لوگ یہ دعویٰ کرتے ہیں کہ ہاروت اور ماروت دو فرشتے تھے جو فرشتوں میں سے منتخب کیے گئے جب بنی آدم کی نافرمانی بڑھ گئی۔ انہیں زہرہ (سیارہ) نے فریب دیا، انہوں نے اس سے زنا کی خواہش کی، شراب پئی، اور ایک معزز جان کو قتل کیا۔ اور اللہ تعالیٰ نے انہیں بابل میں سزا دی، اور جادوگر ان سے جادو سیکھتے ہیں، اور اللہ تعالیٰ نے اس عورت کو اس سیارے میں بدل دیا جو زہرہ ہے۔'",
+          "tr": "Yusuf b. Muhammed b. Ziyad ve Ali b. Muhammed b. Seyyar, babalarından rivayet ettiler; dediler ki: \"Biz, Ebül Kayyim (aleyhisselam) Hasan'a sorduk: 'Bize göre, insan oğlunun isyanı artınca meleğin meleklere seçtiği iki meleğin Harut ve Marut olduğu, Venüs ile cinsi ilişkiye girdikleri, şarap içtikleri ve saygın bir canı öldürdükleri, Allah Teala'nın onları Babil'de ceza verdiği, sihirbazların onlardan sihir öğrendiği ve Allah'ın o kadını bu gezegene, yani Venüs'e çevirdiği söyleniyor.'",
+          "fa": "یوسف بن محمد بن زیاد و علی بن محمد بن سیار، از پدرانشان، گفتند: به حسن، اب‌القائم (علیه‌السلام) گفتیم: «درست است که برخی از ما ادعا می‌کنند حروت و مروت دو فرشته‌ای بودند که وقتی نافرمانی فرزندان آدم زیاد شد، توسط فرشتگان انتخاب شدند. آن‌ها توسط زهره وسوسه شدند، با او زنا خواستند، شراب نوشیدند و جان محترمی را کشتند. و خداوند، تعالی و برکت، آن‌ها را در بابل مجازات می‌کند، و جادوگران از آن‌ها جادو می‌ندوزند، و خداوند آن زن را به این سیاره تبدیل کرد که زهره است.»",
+          "id": "Yusuf ibn Muhammad ibn Ziyad dan Ali ibn Muhammad ibn Sayyar, dari ayah-ayah mereka, berkata: Kami berkata kepada al-Hasan, Abu al-Qa'im (alamaihissalam): \"Sesungguhnya sebagian orang di antara kami mengklaim bahwa Harut dan Marut adalah dua malaikat yang dipilih oleh para malaikat ketika ketidaktaatan Bani Adam meningkat. Bahwa mereka digoda oleh Venus, menginginkan berzina dengannya, minum anggur, dan membunuh jiwa yang terhormat. Dan bahwa Allah, Maha Suci dan Maha Tinggi, menghukum mereka di Babilonia, dan bahwa para penyihir belajar sihir dari mereka, dan bahwa Allah mengubah wanita itu menjadi planet ini, yaitu Venus.\"",
+          "bn": "ইউসুফ ইবনে মুহাম্মদ ইবনে জিয়াদ এবং আলী ইবনে মুহাম্মদ ইবনে সায়্যার, তাদের পিতাদের মাধ্যমে বর্ণনা করেছেন, তারা বলেছেন: আমরা আল-হাসান, আবুল কায়েম (আলৈহিস সালাম)-কে বললাম: 'নিশ্চয়ই আমাদের মধ্যে কিছু লোক দাবি করে যে, হারুত ও মারুত ছিলেন দুজন ফেরেশতা, যাদেরকে বনু আদমের অবাধ্যতা বৃদ্ধি পাওয়ার সময় ফেরেশতারা নির্বাচন করেছিল। তারা ভেনাস দ্বারা মোহিত হয়েছিল, তার সাথে ব্যভিচারের ইচ্ছা পোষণ করেছিল, মদ্যপান করেছিল এবং একজন সম্মানিত প্রাণীকে হত্যা করেছিল। এবং আল্লাহ তায়ালা, মহান ও উচ্চস্থানীয়, তাঁদেরকে বাবিলে শাস্তি দেন, এবং জাদুকররা তাঁদের কাছ থেকে জাদু শেখে, এবং আল্লাহ সেই নারীকে এই গ্রহে রূপান্তরিত করেছেন, যা হলো ভেনাস।'",
+          "es": "Yusuf ibn Muhammad ibn Ziyad y Ali ibn Muhammad ibn Sayyar, de sus padres, dijeron: Dijimos a al-Hasan, Abu al-Qa'im (que la paz sea con él): «En verdad, algunas personas entre nosotros afirman que Harut y Marut eran dos ángeles elegidos por los ángeles cuando aumentó la desobediencia de los hijos de Adán. Que fueron tentados por Venus, desearon cometer adulterio con ella, bebieron vino y mataron a un alma respetada. Y que Dios, Bendito y Exaltado, los castiga en Babilonia, y que los magos aprenden la magia de ellos, y que Dios transformó a esa mujer en este planeta, que es Venus.»",
+          "fr": "Yūsuf ibn Muḥammad ibn Ziyād et ʿAlī ibn Muḥammad ibn Sayyār, de leurs pères, ont dit : Nous avons dit à al-Ḥasan, Abū al-Qāʾim (que la paix soit sur lui) : « En vérité, certains parmi nous affirment que Hārūt et Mārūt étaient deux anges choisis par les anges lorsque la désobéissance des enfants d’Adam s’est accrue. Qu’ils ont été tentés par Vénus, ont désiré commettre l’adultère avec elle, ont bu du vin, et ont tué une âme respectée. Et que Dieu, Béni et Exalté, les punit à Babylone, et que les magiciens apprennent la magie auprès d’eux, et que Dieu a transformé cette femme en cette planète, qui est Vénus. »",
+          "de": "Yūsuf ibn Muḥerad ibn Ziyad und ʿAlī ibn Muᥳammad ibn Sayyar, von ihren Vätern, sagten: Wir sagten zu al-Ḥasan, Abū al-Qāʾim (Friede sei mit ihm): »Wahrlich, einige Leute unter uns behaupten, dass Harūt und Marūt zwei Engel waren, die von den Engeln auserwählt wurden, als der Ungehorsam der Söhne Adams zunahm. Dass sie von der Venus versucht wurden, mit ihr Ehebruch begehrten, Wein tranken und eine geachtete Seele töteten. Und dass Gott, Der Gepriesene und Erhabene, sie in Babylon bestraft, und dass die Magier von ihnen die Magie lernen, und dass Gott diese Frau in diesen Planeten verwandelte, der die Venus ist.«",
+          "ru": "Юсуф ибн Мухаммад ибн Зияд и Али ибн Мухаммад ибн Сайяр от своих отцов сказали: Мы сказали аль-Хасану, Абу аль-Каиму (да будет он в мире): «Поистине, некоторые люди из нас утверждают, что Хурут и Марут были двумя ангелами, избранными ангелами, когда увеличилось неповиновение сынов Адама. Что их искусила Венера, они возжелали прелюбодеяния с ней, пили вино и убили уважаемую душу. И что Аллах, Благословенный и Возвышенный, наказывает их в Вавилоне, и что колдуны учатся магии у них, и что Аллах превратил ту женщину в эту планету, которая есть Венера».",
+          "zh": "优素福·本·穆罕默德·本·齐亚德和阿里·本·穆罕默德·本·赛亚尔从他们的父亲传述说：我们对哈桑（愿主安宁）说：我们中确实有人声称，胡特和穆特是当亚当的后裔的悖逆增多时，天使们选出的两位天使。他们被金星诱惑，与她通奸，饮酒，并杀死了一位尊贵的灵魂。真主，受赞颂者，在巴比伦惩罚他们，魔法师从他们那里学习魔法，真主将那位女人变成了这颗行星，即金星。"
+        },
+        "word_start": 681,
+        "word_end": 749
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ الإِمَامُ عَلَيْهِ السَّلامُ: مَعَاذَ اللَّهِ مِنْ ذَلِكَ! إِنَّ مَلائِكَةَ اللَّهِ مَعْصُومُونَ مَحْفُوظُونَ مِنَ الْكُفْرِ وَالْقَبَائِحِ بِأَلْطَافِ اللَّهِ.",
+        "translations": {
+          "en": "The Imam (peace be upon him) said: 'Exalted be God from that! The angels of God are infallible, protected from disbelief and vices by God's grace.'",
+          "ur": "امام (علیہ السلام) نے فرمایا: اللہ تعالیٰ اس سے پاک ہے۔ اللہ کے فرشتے معصوم ہیں، اللہ کی رحمت سے کفر اور رذائل سے محفوظ ہیں۔",
+          "tr": "İmam (aleyhisselam) buyurdu: ",
+          "fa": "امام (علیه السلام) فرمود: خداوند منزه است از آن! فرشتگان خداوند معصومند و به لطف خداوند از کفر و رذایل مصون‌اند.",
+          "id": "Imam (alamahimussalam) berkata: 'Maha Suci Allah dari itu! Para malaikat Allah adalah ma'shum, dilindungi dari kekafiran dan keburukan oleh karunia Allah.'",
+          "bn": "ইমাম (আলাইহিসসালাম) বললেন: 'আল্লাহ্ সেই বিষয় থেকে পবিত্র। আল্লাহর ফেরেশতাগণ অশ্রুত, আল্লাহর অনুগ্রহে অবিদ্যা ও গুনাহ থেকে রক্ষিত।'",
+          "es": "Dijo el Imam (que el Imam (que la paz sea con él): «Glorificado sea Dios de ello. Son infalibles los ángeles de Dios, protegidos por la gracia divina de la incredulidad y los vicios».",
+          "fr": "L'Imam (que la paix soit sur lui) a dit : « Gloire à Dieu de cela ! Les anges de Dieu sont infaillibles, préservés de l'incrédulité et des vices par la grâce de Dieu. »",
+          "de": "Der Imam (friede sei mit ihm) sagte: \"Erhaben ist Gott davor! Die Engel Gottes sind unfehlbar, bewahrt vor dem Unglauben und den Lastern durch die Gnade Gottes.\"",
+          "ru": "Имам (да будет мир с ним) сказал: «Возвышенен Аллах от этого! Ангелы Аллаха безгрешны, защищены от неверия и пороков по милости Аллаха». }} ```json { ",
+          "zh": "伊玛目（愿主福安之）说：\"至高无上的真主超越此等！真主的天使们是无误的，蒙真主恩典庇护，远离不信与恶习。\""
+        },
+        "word_start": 749,
+        "word_end": 767
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ اللَّهُ عَزَّ وَجَلَّ فِيهِمْ: (لا يَعْصُونَ اللَّهَ ما أَمَرَهُمْ وَيَفْعَلُونَ ما يُؤْمَرُونَ) وَقَالَ عَزَّ وَجَلَّ: (وَلَهُ مَنْ فِي السَّماواتِ وَالأَرْضِ وَمَنْ عِنْدَهُ) يَعْنِي مِنَ الْمَلائِكَةِ (لا يَسْتَكْبِرُونَ عَنْ عِبادَتِهِ وَلا يَسْتَحْسِرُونَ يُسَبِّحُونَ اللَّيْلَ وَالنَّهارَ لا يَفْتُرُونَ)",
+        "translations": {
+          "en": "God said about them: '...They do not disobey Allah in what He commands them but do what they are commanded.' And He said: '...And to Him belongs all who are in the heavens and the earth, and those who are with Him...' meaning the angels '...who do not grow arrogant in their worship of Him, nor do they become weary. They glorify night and day, and do not flag.'",
+          "ur": "اللہ تعالیٰ نے ان کے بارے میں فرمایا: ''وہ اللہ کی اس بات کی نافرمانی نہیں کرتے جو انہیں حکم دی جاتی ہے اور جو حکم دیا جاتا ہے وہی کرتے ہیں۔'' اور اس نے فرمایا: ''اور آسمانوں اور زمین میں جو کچھ ہے سب اسی کا ہے، اور جو اس کے ساتھ ہیں...'' یعنی فرشتے ''جو اس کی عبادت میں تکبر نہیں کرتے اور نہ تھکتے ہیں، وہ رات دن تسبیح کرتے ہیں اور کبھی سستی نہیں کرتے۔''",
+          "tr": "Allah onlar hakkında şöyle buyurdu: «...Onlara emrettiği şeyde Allah'a isyan etmezler, emredildikleri şeyi yaparlar.» Ve şöyle buyurdu: «...Göklerde ve yerde olanların hepsi O'na aittir, O'nun yanında olanlar da...» melekleri kastetmiştir: «...Ibadetlerinde azmazlar, yorulmazlar. Gece gündü zikrederler, solmazlar.»",
+          "fa": "خداوند درباره آنان فرمود: «...آن‌ها در آنچه خداوند به آنان فرمان می‌دهد، سرپیچی نمی‌کنند و همان‌چه را که به آنان دستور داده شده، انجام می‌دهند.» و او فرمود: «...و تمام کسانی که در آسمان‌ها و زمین هستند، و کسانی که نزد او هستند...» یعنی فرشتگان «...که در عبادت او تکبّر نمی‌ورزند و خسته نمی‌شوند. آن‌ها شب و روز، تسبیح می‌گویند و هرگز فرونمی‌نشینند.»",
+          "id": "Allah berfirman tentang mereka: \"...Mereka tidak mendurhakai Allah dalam apa yang diperintahkan-Nya kepada mereka, tetapi mereka mengerjakan apa yang diperintahkan.\" Dan Allah berfirman: \"...Dan milik-Nyalah semua orang yang ada di langit dan di bumi, dan orang-orang yang bersama-Nya...\" yaitu para malaikat \"...yang tidak sombong dalam menyembah-Nya, dan tidak pula merasa lelah. Mereka bertasbih malam dan siang, dan tidak pernah putus asa.\"",
+          "bn": "আল্লাহ তায়ালা তাদের সম্পর্কে বলেছেন: '...তারা আল্লাহর আদেশে অবাধ্য হয় না, বরং যা আদেশ করা হয় তাই করে।' এবং তিনি বলেছেন: '...আকাশে ও পৃথিবীতে যারা আছে, এবং তাঁর সাথে যারা আছে...' অর্থাৎ ফেরেশতারা, '...যারা তাঁর ইবাদতে অহংকার করে না, এবং ক্লান্ত হয় না। তারা রাত ও দিনে তাঁর গুণগান করে এবং অবসন্ন হয় না।'",
+          "es": "Dios dijo acerca de ellos: «...No desobedecen a Alá en lo que les manda, sino que hacen lo que se les ordena». Y dijo: «...Y de Él es todo lo que está en los cielos y en la tierra, y los que están con Él...», es decir, los ángeles «...que no se envaneceen en su adoración a Él, ni se cansan. Glorifican de noche y de día, y no desfallecen».",
+          "fr": "Allah a dit à leur sujet : « Ils ne désobéissent pas à Allah en ce qu'Il leur ordonne, mais accomplissent ce qui leur est ordonné. » Et Il a dit : « Et à Lui appartient tout ce qui est dans les cieux et sur la terre, ainsi que ceux qui sont avec Lui... » c'est-à-dire les anges, « qui ne s'enorgueillissent pas dans leur adoration d'Il, ni ne se lassent. Ils glorifient Allah nuit et jour, et ne faiblissent pas. »",
+          "de": "Allah sagte über sie: »Sie gehorchen Allah in dem, was Er ihnen befiehlt, und tun, was ihnen befohlen wird.« Und Er sagte: »Und Ihm gehören alle, die in den Himmeln und auf der Erde sind, und diejenigen, die bei Ihm sind« — gemeint sind die Engel, »die sich in ihrer Anbetung Ihm nicht überheblich zeigen und nicht müde werden. Sie preisen Ihn Tag und Nacht und ermüden nicht.",
+          "ru": "Аллах сказал о них: «Они не ослушиваются Аллаха в том, что Он повелевает им, но исполняют то, что им повелено». И Он сказал: «…И Ему принадлежит всё, что на небесах и на земле, и те, кто с Ним…», то есть ангелы, «…которые не превозносятся в поклонении Ему и не устают. Они славят Его ночью и днём, и не ослабевают».",
+          "zh": "真主关于他们说：‘……他们不违抗真主所命令他们的，但他们顺从所命令他们的。’真主又说：‘……天地之间的一切，以及与他们同在的……’意指天使‘……他们在崇拜真主时不骄傲，也不疲倦。他们昼夜赞颂真主，毫不懈怠。’"
+        },
+        "word_start": 767,
+        "word_end": 804
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَقَالَ عَزَّ وَجَلَّ فِي الْمَلائِكَةِ أَيْضاً: (بَلْ عِبادٌ مُكْرَمُونَ لا يَسْبِقُونَهُ بِالْقَوْلِ وَهُمْ بِأَمْرِهِ يَعْمَلُونَ يَعْلُمُ ما بَيْنَ أَيْدِيهِمْ وَما خَلْفَهُمْ وَلا يَشْفَعُونَ إِلا لِمَنِ ارْتَضىٰ وَهُمْ مِنْ خَشْيَتِهِ مُشْفِقُونَ)",
+        "translations": {
+          "en": "And He said about the angels: '...But honored servants. They do not precede Him in speech, and they act by His command. He knows what is before them and what is behind them, and they do not intercede except for whom He approves, and they are from His fear apprehensive.'",
+          "ur": "اور اس نے فرشتوں کے بارے میں فرمایا: ''بلکہ عزت والے بندے۔ وہ اس کے سامنے بولنے میں سبقت نہیں لیتے، اور وہ اس کے حکم سے کام کرتے ہیں۔ وہ جانتا ہے جو ان کے آگے ہے اور جو ان کے پیچھے ہے، اور وہ صرف ان کے لیے شفاعت کرتے ہیں جن سے وہ راضی ہوتا ہے، اور وہ اس کے خوف سے گھبراے ہوئے ہیں۔''",
+          "tr": "Melekler hakkında şöyle buyurdu: «...Onlar, hürmetle görevlendirilen kullardır. O'nun sözünden önce konuşmazlar ve O'nun emriyle hareket ederler. Önlerindekileri de arkalarındakileri de O bilir. Onlar, O'nun rıza gösterdikleri kimse için şefaatte bulunurlar ve O'nun korkusundan ürperirler.»",
+          "fa": "و او درباره فرشتگان فرمود: «...بندگان شرافتمند. آنان پیش از خدا سخن نمی‌گویند و به فرمان او عمل می‌کنند. او آنچه پیش روی آنان است و آنچه پشت سر آنان است را می‌داند، و آنان جز برای کسی که او رضایت دارد شفاعت نمی‌کنند و از ترس او هراسان‌اند.»",
+          "id": "Dan Dia berfirman tentang para malaikat: '...Sebagai hamba-hamba yang dimuliakan. Mereka tidak mendahului-Nya dalam berbicara, dan mereka bertindak sesuai dengan perintah-Nya. Dia mengetahui apa yang ada di hadapan mereka dan apa yang ada di belakang mereka, dan mereka tidak memberi syafaat kecuali bagi orang yang Dia ridhai, dan mereka merasa takut kepada-Nya.'",
+          "bn": "এবং তিনি ফেরেশতাদের সম্পর্কে বললেন: '...আল্লাহর সম্মানিত বান্দারা। তারা তাঁর কথা থেকে আগে কথা বলে না, এবং তাঁর আদেশে কাজ করে। তিনি জানেন তাদের সামনে যা আছে এবং পেছনে যা আছে, এবং তারা শুধুমাত্র সেই ব্যক্তির জন্য শাফাআত করে যাকে তিনি পছন্দ করেন, এবং তারা তাঁর ভয়ে সতর্ক।'",
+          "es": "Y dijo acerca de los ángeles: «...Siervos honrados. No preceden a Él en el habla, y actúan por Su mandato. Él sabe lo que está delante de ellos y lo que está detrás de ellos, y no interceden excepto por quien Él aprueba, y de Su temor están aprehensivos.»",
+          "fr": "Et Il a dit au sujet des anges : «...Des serviteurs honorés. Ils ne précèdent pas Allah par la parole, et ils agissent par Son commandement. Il connaît ce qui est devant eux et ce qui est derrière eux, et ils n'intercèdent que pour celui qu'Il agrée, et ils sont dans la crainte de Lui appréhensifs.»",
+          "de": "Und Er sagte über die Engel: „…Sondern geehrte Diener. Sie gehen Ihm in der Rede nicht voraus, und sie handeln nach Seinem Befehl. Er weiß, was vor ihnen ist und was hinter ihnen ist, und sie sprechen nicht für jemanden Fürsprache, außer für den, den Er billigt, und sie sind aus Furcht vor Ihm besorgt.“",
+          "ru": "И Он сказал об ангелах: «…Почтенные рабы. Они не опережают Его речью и действуют по Его повелению. Он знает то, что перед ними и что позади них, и они не заступаются ни за кого, кроме как по Его удовольствию, и они испытывают страх перед Ним.",
+          "zh": "他说关于天使：‘……是尊贵的仆役。他们不在言语上先于他，他们依他的命令行事。他知道他们面前和背后的一切，他们只为他所喜悦的人代求，他们因他的敬畏而惶恐。’"
+        },
+        "word_start": 804,
+        "word_end": 834
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ عَلَيْهِ السَّلامُ: لَوْ كَانَ كَمَا يَقُولُونَ كَانَ اللَّهُ قَدْ جَعَلَ هَؤُلاءِ الْمَلائِكَةَ خُلَفَاءَ عَلَىٰ الأَرْضِ وَكَانُوا كَالأَنْبِيَاءِ فِي الدُّنْيَا أَوْ كَالأَئِمَّةِ فَيَكُونُ مِنَ الأَنْبِيَاءِ وَالأَئِمَّةِ عَلَيْهِ السَّلامُ قَتْلُ النَّفْسِ وَالزِّنَا.",
+        "translations": {
+          "en": "Then he (peace be upon him) said: 'If it were as they say, God would have made these angels vicegerents on earth, and they would be like the Prophets in the world or like the Imams. Then killing and adultery would be among the Prophets and the Imams (peace be upon them).' ",
+          "ur": "پھر انہوں نے (صلی اللہ علیہ وسلم) فرمایا: 'اگر ایسا ہی ہے جیسا کہ وہ کہتے ہیں، تو اللہ تعالیٰ ان فرشتوں کو زمین پر خلیفہ بنا دیتا، اور وہ دنیا میں انبیاء کی طرح یا ائمہ کی طرح ہوتے۔ پھر قتل اور زنا انبیاء اور ائمہ (علیہم السلام) میں سے ہوتا۔'",
+          "tr": "Sonra o (s.a.v.) şöyle buyurdu: 'Eğer onların dedikleri gibi olsaydı, Allah bu melekleri yeryüzünde halifeler yapardı ve onlar dünyada Peygamberler gibi veya İmamlar gibi olurdu. O zaman öldürmek ve zina, Peygamberler ve İmamların (a.s.) arasında olurdu.'",
+          "fa": "سپس او (صلی الله علیه وسلم فرمود: «اگر چنین بود که آنان می‌گویند، خداوند این فرشتگان را جانشینان خود در زمین قرار می‌داد و آنان مانند پیامبران در جهان یا مانند ائمه می‌شدند. پس کشتن و زنا در میان پیامبران و ائمه (علیهم السلام) بود.»",
+          "id": "Kemudian beliau (shalatullahi alaihi wa sallam) bersabda: 'Jika memang demikian apa yang mereka katakan, niscaya Allah menjadikan malaikat-malaikat ini sebagai wakil-Nya di bumi, dan mereka akan seperti para Nabi di dunia atau seperti para Imam. Maka pembunuhan dan zina akan terjadi pada diri para Nabi dan para Imam (shalatullahi alaihim wa sallam).'",
+          "bn": "অতঃপর তিনি (সা.) বললেন: 'যদি তাদের বলা সত্য হতো, তবে আল্লাহ তায়ালা এই ফেরেশতাদেরকে পৃথিবীতে খলিফা বানাতেন, এবং তারা পৃথিবীতে নবীদের মতো বা ইমামদের মতো হতো। অতঃপর হত্যা ও ব্যভিচার নবীদের মধ্যে এবং ইমামদের মধ্যে (আ.) হতো।'",
+          "es": "Luego dijo (la paz sea con él): «Si fuera como dicen, Dios habría hecho de estos ángeles vicegerentes en la tierra, y serían como los Profetas en el mundo o como los Imames. Entonces el asesinato y el adulterio estarían presentes entre los Profetas y los Imames (la paz sea con ellos»).",
+          "fr": "Puis il (que la paix soit sur lui) dit sur lui) dit : « Si cela était comme ils le disent, Dieu aurait fait de ces anges des vice-rois sur terre, et ils seraient comme les Prophètes dans le monde ou comme les Imams. Alors le meurtre et l'adultère seraient parmi les Prophètes et les Imams (que la paix soit sur eux). »",
+          "de": "Dann sagte er (Friede sei mit ihm): »Wenn es so wäre, wie sie sagen, hätte Gott diese Engel zu Stellvertretern auf der Erde gemacht, und sie wären wie die Propheten in der Welt oder wie die Imame. Dann wären Tötung und Ehebruch unter den Propheten und den Imamen (Friede sei mit ihnen).«",
+          "ru": "Затем он (да будет над ним мир) сказал: «Если бы так, как они говорят, то Аллах сделал бы этих ангелов наместниками на земле, и они были бы подобны пророкам в мире или подобны имамам. Тогда убийство и прелюбодеяние были бы среди пророков и имамов (да будет над ними мир).»",
+          "zh": "随后他（愿主福安之）说：\"倘若如他们所言，真主必会立这些天使为大地上的代治者，他们便会如同世间的先知或伊玛目一般。那么，杀戮与通奸便会出现在先知和伊玛目（愿主福安之）之中。\""
+        },
+        "word_start": 834,
+        "word_end": 866
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ثُمَّ قَالَ عَلَيْهِ السَّلامُ: أَوَلَسْتَ تَعْلَمُ أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُخْلِ الدُّنْيَا قَطُّ مِنْ نَبِيٍّ أَوْ إِمَامٍ مِنَ الْبَشَرِ؟ أَوَلَيْسَ اللَّهُ عَزَّ وَجَلَّ يَقُولُ: (وَما أَرْسَلْنا قَبْلَكَ يَعْنِي إِلَى الْخَلْقِ إِلا رِجالاً نُوحِي إِلَيْهِمْ مِنْ أَهْلِ الْقُرَى) فَأَخْبَرَ أَنَّهُ لَمْ يَبْعَثِ الْمَلائِكَةَ إِلَى الأَرْضِ لِيَكُونُوا أَئِمَّةً وَحُكَّاماً وَإِنَّمَا أُرْسِلُوا إِلَى أَنْبِيَاءِ اللَّهِ.",
+        "translations": {
+          "en": "Then he (peace be upon him) said: 'Do you not know that God has never left the world without a Prophet or an Imam from humans? Is it not that God says: \"...And We did not send before you (to the creation) except men whom We inspired from the people of the cities...\"?' He informed that He did not send angels to earth to be leaders and rulers, but they were sent to God's Prophets.",
+          "ur": "پھر انہوں نے (صلی اللہ علیہ وسلم) فرمایا: کیا تمہیں یہ نہیں معلوم کہ اللہ تعالیٰ نے کبھی بھی دنیا کو نبی یا امامِ بشریٰ سے خالی نہیں چھوڑا؟ کیا اللہ تعالیٰ کا یہ قول نہیں ہے: «اور ہم نے تم سے پہلے (خلقت کے لیے) کوئی بھی رسول نہیں بھیجا مگر وہ مرد تھے جنہیں ہم نے شہروں کے لوگوں سے وحی کی تھی...»؟ انہوں نے بتایا کہ اللہ تعالیٰ نے فرشتوں کو زمین پر حاکم اور سردار بن کر نہیں بھیجا، بلکہ انہیں اللہ کے انبیاء کے لیے بھیجا گیا۔",
+          "tr": "Sonra o (sallallahu aleyhi vesellem) şöyle dedi: \"Allah'ın insaniyetten bir Peygamber veya İmam'ı dünyadan hiç ayrılmadığını bilmiyor musunuz? Allah'ın '...Sana (insanlığa) önceden de, biz şehir halkından ilham verdiğimiz erkekler gönderdikten başka...' demediği söylenemez mi?\" O, Allah'ın meleklere yeryüzünde lider ve hükümdar olarak göndermediğini, onları sadece Allah'ın Peygamberlerine gönderdiğini bildirdi.",
+          "fa": "سپس او (صلی الله علیه و آله) فرمود: آیا نمی‌دانید که خداوند جهان را بدون پیامبر یا امامی از انسان‌ها رها نکرده است؟ آیا خداوند نمی‌فرماید: «...و پیش از تو جز مردانی را که از سوی ما وحی می‌شد، نفرستادیم، از اهل شهرها...»؟ او خبر داد که خداوند فرشتگان را برای اینکه رهبران و حاکمان باشند به زمین نفرستاد، بلکه آن‌ها را برای پیامبران خدا فرستاد.",
+          "id": "Kemudian beliau (shallallahu ‘alaihi wasallam) bersabda: \"Tidakkah kalian mengetahui bahwa Allah tidak pernah meninggalkan dunia ini tanpa seorang Nabi atau Imam dari kalangan manusia? Bukankah Allah berfirman: '...Dan Kami tidak mengutus sebelum kamu (kepada makhluk) kecuali orang-orang lelaki yang Kami ilhamkan kepada mereka dari penduduk kota...'?' Beliau menjelaskan bahwa Allah tidak mengutus malaikat ke bumi untuk menjadi pemimpin dan penguasa, melainkan mereka diutus kepada para Nabi Allah.",
+          "bn": "অতঃপর তিনি (সা.) বললেন: 'আপনি কি জানেন না যে, আল্লাহ কখনোই পৃথিবীকে কোনো নবী বা ইমাম (মানুষ) ছেড়ে রাখেননি? আল্লাহ তাআলা কি বলেন না: ",
+          "es": "Luego dijo (que la paz y las bendiciones de Alá sean con él): ¿No sabéis que Alá nunca ha dejado el mundo sin un Profeta o un Imam de entre los seres humanos? ¿No es cierto que Alá dice: «Y no enviamos antes que a ti (a la creación) más que hombres a quienes inspiramos de entre la gente de las ciudades...»? Informó que no envió ángeles a la tierra para que fueran líderes y gobernantes, sino que fueron enviados a los Profetas de Alá.",
+          "fr": "Puis il (que la paix soit sur lui) dit sur lui) dit : « Ne savez-vous pas que Dieu n’a jamais laissé le monde sans un Prophète ou un Imam issu des humains ? N’est-ce pas que Dieu dit : «…Et Nous n’avons envoyé avant toi (vers la création) que des hommes que Nous avons inspirés, issus des gens des villes… » ? Il a informé qu’Il n’a pas envoyé les anges sur terre pour être des leaders et des dirigeants, mais qu’ils ont été envoyés aux Prophètes de Dieu.",
+          "de": "Dann sagte er (Friede sei mit ihm): \"Wisst ihr nicht, dass Gott die Welt niemals ohne einen Propheten oder einen Imam aus den Menschen verlassen hat? Ist es nicht so, dass Gott sagt: ‚…Und Wir sandten vor dir (zu den Geschöpfen) nur Männer, die Wir aus den Bewohnern der Städte inspirierten…‘?\" Er informierte darüber, dass Gott keine Engel zur Erde sandte, um Führer und Herrscher zu sein, sondern sie wurden zu den Propheten Gottes gesandt.",
+          "ru": "Затем он (да будет над ним мир) сказал: «Разве вы не знаете, что Аллах никогда не оставлял мир без пророка или имама из людей? Разве Аллах не сказал: „Мы не посылали до тебя (к творениям) никого, кроме людей, которым Мы внушали (откровение) из жителей городов...“?» Он сообщил, что Аллах не посылал ангелов на землю в качестве лидеров и правителей, но они были посланы к пророкам Аллаха.",
+          "zh": "随后他（愿主福安之）说：‘难道你们不知道，真主从未让世间没有来自人类的先知或伊玛目吗？真主不是说：“我未曾在你之前（向众人）派遣使者，只派遣了我从城中的人们中启示的男人吗？”’他说明，真主并未派遣天使到地上作为领导者和统治者，而是将他们派遣给真主的先知们。"
+        },
+        "word_start": 866,
+        "word_end": 919
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالا: قُلْنَا لَهُ: فَعَلَى هَذَا لَمْ يَكُنْ إِبْلِيسُ أَيْضاً مَلَكاً.فَقَالَ: لا. بَلْ كَانَ مِنَ الْجِنِّ. أَمَا تَسْمَعَانِ اللَّهَ عَزَّ وَجَلَّ يَقُولُ: (وَإِذْ قُلْنا لِلْمَلائِكَةِ اسْجُدُوا لآدَمَ فَسَجَدُوا إِلا إِبْلِيسَ كانَ مِنَ الْجِنِّ) فَأَخْبَرَ عَزَّ وَجَلَّ أَنَّهُ كَانَ مِنَ الْجِنِّ. وَهُوَ الَّذِي قَالَ اللَّهُ عَزَّ وَجَلَّ وَالْجَانَّ خَلَقْناهُ مِنْ قَبْلُ مِنْ نارِ السَّمُومِ.",
+        "translations": {
+          "en": "They said: We said to him: 'On this basis, was Iblis not an angel?' He said: 'No. He was from the Jinn. Do you not hear God saying: \"...And when We said to the angels, \"Prostrate to Adam,\" they prostrated, except Iblis. He was from the Jinn...\"?' He informed that he was from the Jinn. And it is he about whom God said: '...And the Jinn We created before from the fire of a scorching wind.'",
+          "ur": "انہوں نے کہا: ہم نے اس سے کہا کہ: 'اس بنیاد پر، کیا ابلیس فرشتہ نہیں تھا؟' اس نے کہا: 'نہیں۔ وہ جنات میں سے تھا۔ کیا تم نے خدا کا یہ قول نہیں سنا کہ: \"اور جب ہم نے فرشتوں سے کہا کہ آدم کو سجدہ کرو، تو انہوں نے سجدہ کیا، سوائے ابلیس کے۔ وہ جنات میں سے تھا...\"؟' اس نے بتایا کہ وہ جنات میں سے تھا۔ اور وہی ہے جس کے بارے میں خدا نے فرمایا: '...اور جنات کو ہم نے آگ کے زوردار ہوا سے پہلے پیدا کیا تھا۔'",
+          "tr": "Dediler ki: «Biz ona: «İşte bu temele göre, İblis bir melek değil miydi?» dedik. O da: «Hayır. O cinlerden idi. Allah'ın: «...Melekler, ",
+          "fa": "گفتند: ما به او گفتیم: «بر این اساس، آیا ابلیس فرشته نبود؟» گفت: «نه. او از جنss بود. آیا نمی‌شنوی که خداوند می‌فرماید: «و هنگامی که به فرشتگان گفتیم: به آدم سجده کنید، سجده کردند، جز ابلیس. او از جنss بود...»؟» او خبر داد که او از جنss بود. و او کسی است که خداوند درباره‌اش فرموده: «و جنss را پیش از آن از آتش بادی سوزان آفریدیم.»",
+          "id": "Mereka berkata: Kami berkata kepadanya: 'Dengan dasar ini, bukankah Iblis itu seorang malaikat?' Ia berkata: 'Tidak. Ia termasuk dari golongan jin. Tidakkah kamu mendengar Allah berfirman: \"...Dan ketika Kami berfirman kepada para malaikat, 'Sujudlah kamu kepada Adam,' maka mereka sujud, kecuali Iblis. Ia termasuk dari golongan jin...'?\" Ia menginformasikan bahwa ia termasuk dari golongan jin. Dan dialah yang dimaksud dalam firman Allah: '...Dan jin Kami ciptakan sebelum itu dari api angin yang menyala-nyala.'",
+          "bn": "তারা বলল: আমরা তাঁকে বললাম, 'এ ভিত্তিতে ইবলিস কি ফেরেশতা ছিল না?' তিনি বললেন: 'না, সে জিনের অন্তর্ভুক্ত ছিল। তোমরা কি আল্লাহর বাক্য শোনোনি: “যখন আমি ফেরেশতাদের বললাম, ‘আদমকে সিজদা করো’, তারা সিজদা করল, কেবল ইবলিস বাদে। সে জিনের অন্তর্ভুক্ত ছিল…”?' তিনি জানালেন যে সে জিনের অন্তর্ভুক্ত ছিল। আর তিনিই সেই ব্যক্তি যার সম্পর্কে আল্লাহ বলেছেন: ‘আমি জিনকে স্ফুলিঙ্গ জ্বলন্ত বায়ুর অগ্নিতে সৃষ্টি করেছিলাম।’",
+          "es": "Dijeron: Dijimos nosotros: «¿No era Iblis un ángel sobre esta base?» Él dijo: «No. Él era de los Yinn. ¿No oís a Dios decir: «Y cuando dijimos a los ángeles: ",
+          "fr": "Ils dirent : « Nous lui avons dit : “Sur cette base de cela, Iblis n’était-il pas un ange ?” » Il dit : « Non. Il était des Djinn. N’entendez-vous pas Dieu dire : “Et lorsque Nous dîmes aux anges : “Prosternez-vous devant Adam,” ils se prosternèrent, sauf Iblis. Il était des Djinn…” ? » Il informa qu’il était des Djinn. Et c’est lui à propos de qui Dieu dit : « …Et les Djinn, Nous les créâmes auparavant à partir du feu d’un vent brûlant. »",
+          "de": "Sie sagten: Wir sagten zu ihm: »War Iblis nicht ein Engel?«? Er sagte: »Nein. Er war von den Dschinn. Hörst du nicht, wie Gott sagt: »Und als Wir zu den Engeln sprachen: »Fallt vor Adam nieder!«, da fielen sie nieder, außer Iblis. Er war von den Dschinn…«? Er informierte, dass er von den Dschinn war. Und es ist er, über den Gott sagt: »Und die Dschinn schufen Wir zuvor aus dem Feuer einer sengenden Windes.«",
+          "ru": "Они сказали: «Мы сказали ему: „На этом основании, разве Иблис не был ангелом?“ Он сказал: „Нет. Он был из джиннов. Разве ты не слышишь, как Аллах говорит: „И вот Мы сказали ангелам: „Падите ниц перед Адамом“, и они пали ниц, кроме Иблиса. Он был из джиннов…“?“ Он сообщил, что он был из джиннов. И о нем Аллах сказал: „И джиннов Мы создали прежде из огня пылающего ветра.“\"",
+          "zh": "他们说道：我们曾对他说：‘据此，伊卜利斯难道不是天使吗？’他说：‘不是。他是精灵（Jinn）中的一员。你们没有听到真主说：“当时，我对众天使说：‘你们向阿丹叩头吧！’他们就叩头了，唯有伊卜利斯不肯。他是精灵中的一员……”’他告知说，他是精灵中的一员。真主关于他说道：‘精灵，我们以前用炽热之火的风创造他们。’"
+        },
+        "word_start": 919,
+        "word_end": 971
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ الإِمَامُ الْحَسَنُ بْنُ عَلِيٍّ عَلَيْهِ السَّلامُ حَدَّثَنِي أَبِي، عَن جَدِّي عَنِ الرِّضَا، عَن آبَائِهِ، عَن عَلِيٍّ عَلَيْهِ السَّلامُ قالَ: قالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ إِنَّ اللَّهَ عَزَّ وَجَلَّ اخْتَارَنَا مَعَاشِرَ آلِ مُحَمَّدٍ وَاخْتَارَ النَّبِيِّينَ وَاخْتَارَ الْمَلائِكَةَ الْمُقَرَّبِينَ وَمَا اخْتَارَهُمْ إِلا عَلَىٰ عِلْمٍ مِنْهُ بِهِمْ أَنَّهُمْ لا يُوَاقِعُونَ مَا يَخْرُجُونَ بِهِ عَنْ وَلايَتِهِ وَيَنْقَلِعُونَ بِهِ عَنْ عِصْمَتِهِ وَيَنْتَمُونَ بِهِ إِلَى الْمُسْتَحِقِّينَ لِعَذَابِهِ وَنِقْمَتِهِ",
+        "translations": {
+          "en": "The Imam al-Hasan ibn Ali (peace be upon him) narrated to me from his father, from his grandfather, from al-Rida, from his forefathers, from Ali (peace be upon him) who said: The Messenger of God (peace be upon him and his family) said: 'Indeed, God chose us, the household of Muhammad, and chose the Prophets, and chose the near-stationed angels. And He did not choose them except based on His knowledge of them that they do not commit what takes them out of His guardianship, depart from His infallibility, and associate with those deserving His punishment and wrath.'",
+          "ur": "امام الحسن بن علی (علیہ السلام) نے مجھے اپنے والد سے، ان کے دادا سے، الرضا سے، ان کے اجداد سے، اور علی (علیہ السلام) سے روایت کی جنہوں نے کہا: رسول اللہ (صلی اللہ علیہ و آلہ وسلم) نے فرمایا: بے شک اللہ تعالیٰ نے ہمیں، اہل محمد کو، انبیاء کو، اور مقرب فرشتوں کو منتخب کیا۔ اور انہیں اس کی علم کے بنیاد پر منتخب کیا کہ وہ اس کی ولایت سے خارج ہونے والے کام نہیں کرتے، اس کی معصومیت سے منحرف نہیں ہوتے، اور اس کی سزا اور غضب کے مستحق لوگوں کے ساتھ شریک نہیں ہوتے۔",
+          "tr": "İmamü'l-Hasan ibn Ali (aleyhisselam) bana babasından, dedesinden, er-Rıdâ'dan, atalarından, Ali'den (aleyhisselam) rivayet etti; o da şöyle dedi: Peygamber-i Ekrem (sallallahu aleyhi ve âlihi ve sellem) şöyle buyurdu: \"Şüphesiz Allah, biz Ehl-i Beyt'i, yani Muhammed'in ailesini seçti; peygamberleri seçti; ve yakın melekleri seçti. Onları, Allah'ın ilmi gereği onlarda bulunan, Allah'ın velayetinden ayrılmayacak, masumiyetlerinden sapmayacak ve ceza ve gazabı hak edenlerle birleşmeyecek olmalarına dayanarak seçti.\"",
+          "fa": "امام حسن بن علی (علیه السلام) از پدرش، از پدربزرگش، از الرضا، از پدران ایشان، از علی (علیه السلام) نقل کرد که فرمود: پیامبر خدا (صلی الله علیه و آله) فرمود: «همانا خداوند ما را، خاندان محمد، و پیامبران را برگزید و فرشتگان مقرب را. و ایشان را جز بر پایه دانش خود از آنان که گناهان را مرتکب نمی‌شوند و از عصمت خارج نمی‌گردند و با مستحقین عذاب و غضب او شریک نمی‌شوند، برنگزید.»",
+          "id": "Imam al-Hasan ibn Ali al Hasan bin Ali (alamahih) meriwayatkan kepadaku dari ayahnya, dari kakeknya, dari al Ridha, dari para leluhurnya, dari Ali (alamahih) yang berkata: Rasulullah (shallallahu alaihi wa alihi) bersabda: 'Sesungguhnya Allah memilih kami, Ahl al Muhammad, dan memilih para Nabi, dan memilih para malaikat yang dekat. Dan Allah tidak memilih mereka kecuali berdasarkan ilmu-Nya kepada mereka bahwa mereka tidak melakukan apa yang mengeluarkan mereka dari wilayah kekuasaan-Nya, tidak meninggalkan kemaksuman-Nya, dan tidak menyertakan orang-orang yang layak mendapat hukuman dan murka-Nya.'",
+          "bn": "ইমাম আল-হাসান ইবনে আলী (রহ.) আমাকে বর্ণনা করেছেন তাঁর পিতা থেকে, তাঁর দাদা থেকে, আল-রিদা থেকে, তাঁর পূর্বপুরুষদের থেকে, আলী (রহ.) থেকে, যিনি বলেছেন: আল্লাহর রাসূল (স.আ.) বলেছেন: 'নিশ্চয়ই আল্লাহ তায়ালা আমাদের, মুহাম্মদের পরিবারকে, নবীদেরকে এবং কাছাকাছি অবস্থানকারী ফেরেশতাদেরকে নির্বাচন করেছেন। আর তিনি তাদেরকে নির্বাচন করেননি, বরং তাদের প্রতি তাঁর জ্ঞানের ভিত্তিতে যে তারা তাঁর ওলিয়ত থেকে বের হয়ে যায় এমন কাজ করবে না, তাঁর অমুসলত থেকে বিচ্যুত হবে না, এবং তাঁর শাস্তি ও ক্রোধের যোগ্য ব্যক্তিদের সাথে মিশবে না, সেই ভিত্তিতেই তাদেরকে নির্বাচন করেছেন।'",
+          "es": "Narróme el Imán al-Hasan ibn Ali (que la paz sea con él) de su padre, de su abuelo, de al-Rida, de sus antepasados, de Ali (que la paz sea con él), quien dijo: Dijo el Mensajero de Dios (que la paz sea con él y con su familia): «En verdad, Dios nos eligió a nosotros, la familia de Muhammad, y eligió a los Profetas, y eligió a los ángeles cercanos. Y no los eligió excepto basándose en Su conocimiento de que no cometen lo que los saca de Su tutela, se apartan de Su infalibilidad y se asocian con los merecedores de Su castigo y Su ira.»",
+          "fr": "L’Imam al-Hasan ibn Ali (que la paix soit sur lui) m’a rapporté de son père, de son grand-père, d’al-Rida, de ses ancêtres, d’Ali (que la paix soit sur lui), qui a dit : Le Messager de Dieu (que la paix soit sur lui et sur sa famille) a dit : « En vérité, Dieu nous a choisis, nous la famille de Muhammad, et Il a choisi les Prophètes, et Il a choisi les anges rapprochés. Et Il ne les a choisis que sur la base de Sa connaissance d’eux, à savoir qu’ils ne commettent pas ce qui les ferait sortir de Sa tutelle, s’éloigner de leur infaillibilité, et s’associer à ceux qui méritent Son châtiment et Sa colère. »",
+          "de": "Der Imam al-Hasan ibn Ali (friede sei mit ihm) überlieferte mir von seinem Vater, von seinem Großvater, von al-Rida, von seinen Vätern, von Ali (friede sei mit ihm), der sagte: Der Gesandte Gottes (friede sei mit ihm und seiner Familie) sagte: „Wahrlich, Gott erwählte uns, die Familie des Muhammad, und erwählte die Propheten, und erwählte die nahegestellten Engel. Und Er erwählte sie nicht, außer aufgrund Seines Wissens von ihnen, dass sie das nicht begehen, was sie aus Seiner Obhut entfernt, von ihrer Unfehlbarkeit abbringen und mit denen in Verbindung bringt, die Seiner Strafe und Seinem Zorn würdig sind.“",
+          "ru": "Имам аль-Хасан ибн Али (да будет мир с ним) рассказал мне от своего отца, от его деда, от ар-Рида, от его предков, от Али (да будет мир с ним), который сказал: Посланник Аллаха (да будет мир ему и его семье) сказал: «Поистине, Аллах избрал нас, род Мухаммада, и избрал пророков, и избрал приближенных ангелов. И Он не избрал их, кроме как на основе Его знания о том, что они не совершат того, что выведет их из-под Его покровительства, не отступят от их непогрешимости и не соединятся с теми, кто достоин Его наказания и гнева». }  Note: The JSON format has been adjusted to ensure proper escaping of quotes and newlines. The term ",
+          "zh": "伊玛目哈桑·本·阿里（愿主福安之）传述于其父，其父传述于其祖父，其祖父传述于里达，里达传述于其先祖，先祖传述于阿里（愿主福安之），阿里说：真主的使者（愿主福安之及其家属）说：真主确实拣选了我们要，即穆罕默德的家属，并拣选了众先知，并拣选了近侍天使。真主拣选他们，并非基于他们不做出使其脱离真主监护、背离其无谬性、并与应受其惩罚和愤怒者同流合污之事的知识。"
+        },
+        "word_start": 971,
+        "word_end": 1036
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالا فَقُلْنَا لَهُ فَقَدْ رُوِيَ لَنَا أَنَّ عَلِيّاً عَلَيْهِ السَّلامُ لَمَّا نَصَّ عَلَيْهِ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ بِالإِمَامَةِ عَرَضَ اللَّهُ عَزَّ وَجَلَّ وَلايَتَهُ فِي السَّمَاوَاتِ عَلَىٰ فِئامٍ مِنَ النَّاسِ وَفِئامٍ مِنَ الْمَلائِكَةِ فَأَبَوْهَا فَمَسَخَهُمُ اللَّهُ ضَفَادِعَ فَقَالَ عَلَيْهِ السَّلامُ مَعَاذَ اللَّهِ هَؤُلاءِ الْمُكَذِّبُونَ لَنَا الْمُفْتَرُونَ عَلَيْنَا الْمَلائِكَةُ هُمْ رُسُلُ اللَّهِ فَهُمْ كَسَائِرِ أَنْبِيَاءِ اللَّهِ وَرُسُلِهِ إِلَى الْخَلْقِ فَيَكُونُ مِنْهُمُ الْكُفْرُ بِاللَّهِ قُلْنَا لا قَالَ فَكَذَلِكَ الْمَلائِكَةُ إِنَّ شَأْنَ الْمَلائِكَةِ لَعَظِيمٌ وَإِنَّ خَطْبَهُمْ لَجَلِيلٌ.",
+        "translations": {
+          "en": "They said: We said to him: 'It has been narrated to us that when Ali (peace be upon him) was designated by the Messenger of God (peace be upon him and his family) for the Imamate, God presented his guardianship in the heavens to a group of people and a group of angels, but they refused, so God turned them into frogs.' He (peace be upon him) said: 'Exalted be God! These are the liars who ascribe to us. The angels are God's messengers, like all of God's Prophets and messengers to creation. Would disbelief in God come from them?' We said: 'No.' He said: 'So it is with the angels. The affair of the angels is great, and their matter is magnificent.'",
+          "ur": "انہوں نے کہا: ہم نے ان سے کہا کہ ہمیں روایت کی گئی ہے کہ جب علی (علیہ السلام) کو رسولِ خدا (صلی اللہ علیہ و آلہ وسلم) نے امامت کے لیے مقرر کیا تو خدا نے آسمانوں میں ان کی ولایت ایک گروہِ انسانوں اور ایک گروہِ فرشتوں کے سامنے پیش کی لیکن انہوں نے انکار کیا تو خدا نے انہیں میں تبدیل کر دیا۔ (علیہ السلام) نے فرمایا: خدا تعالیٰ بلند ہے! یہ وہ جھوٹے ہیں جو ہم سے منسوب کیے جاتے ہیں۔ فرشتے خدا کے رسول ہیں، جیسے خدا کے تمام انبیاء اور رسول مخلوق کے لیے ہیں۔ کیا ان سے کفر آ سکتا ہے؟ ہم نے کہا: نہیں۔ انہوں نے فرمایا: پس فرشتوں کا معاملہ بھی ایسا ہی ہے۔ فرشتوں کا معاملہ بڑا ہے اور ان کا کام عظیم ہے۔",
+          "tr": "Dediler ki: Ona dedik ki: Bize rivayet edildi ki, Ali (aleyhisselam) Rasûlullah (aleyhisselam ve âlihi) tarafından imamate tayin edildiğinde, Allah onun velayetini göklerde bir grup insana ve bir grup meleğe sundu, fakat onlar reddettiler, bunun üzerine Allah onları kurbağaya çevirdi. O (aleyhisselam) buyurdu ki: \"Allah yücedir! Bize isnat edenler yalancılardır. Melekler, Allah'ın bütün peygamberleri ve elçileri gibi Allah'ın elçileridir. Onlardan inkâr mı gelir?\" Dedik ki: \"Hayır.\" Buyurdu ki: \"İşte melekler de böyledir. Meleklerin işi büyüktür ve onların mevzusu azîmdir.\"",
+          "fa": "گفتند: به او گفتیم: «برای ما روایت شده است که هنگامی که علی (علیه السلام) توسط پیامبر خدا (صلی الله علیه و آله) برای امامت منصوب شد، خداوند ولایت او را در آسمان‌ها به گروهی از مردم و گروهی از فرشتگان عرضه کرد، اما آن‌ها امتناع ورزیدند، پس خداوند آن‌ها را به قورباغه تبدیل کرد.» (علیه السلام) فرمود: «خداوند برتر است! اینان دروغگانی هستند که به ما نسبت می‌دهند. فرشتگان پیامبران خدا هستند، مانند تمام پیامبران و فرستادگان خدا به خلق. آیا کفر از جانب آن‌ها سر می‌زند؟» گفتیم: «خیر.» فرمود: «پس این‌چنین است درباره فرشتگان. کار فرشتگان بزرگ است و شأن آن‌ها شگرف.»",
+          "id": "Mereka berkata: Kami berkata kepadanya, 'Telah sampai kepada kami bahwa ketika Ali (alamah) ditunjuk oleh Rasulullah (shallallahu alaihi wa aalihi) untuk imamah, Allah memperkenalkan walayah-Nya di langit kepada sekelompok manusia dan sekelompok malaikat, tetapi mereka menolak, maka Allah mengubah mereka menjadi katak.' Ia (alamah) berkata, 'Maha Suci Allah! Mereka adalah para pendusta yang menisbatkan kepada kami. Malaikat adalah utusan-utusan Allah, seperti semua Nabi dan utusan Allah kepada makhluk. Bisakah kekafiran berasal dari mereka?' Kami berkata, 'Tidak.' Ia berkata, 'Demikian pula dengan malaikat. Urusan malaikat itu agung, dan urusan mereka itu mulia.'",
+          "bn": "তারা বলল: আমরা তাঁকে বললাম, 'আমাদের কাছে বর্ণিত হয়েছে যে, যখন আলী (আলৈহিস সালাম)-কে রাসুলুল্লাহ (সাল্লাল্লাহু আলাইহি ওয়া আলেহি ওয়া সালাম) ইমামতের জন্য নির্বাচিত করেন, তখন আল্লাহ তাঁর ওলায়ত আকাশে এক দল মানুষ এবং এক দল ফেরেশতার কাছে উপস্থাপন করেন, কিন্তু তারা তা প্রত্যাখ্যান করে, তাই আল্লাহ তাদের ব্যাঙে পরিণত করেন।' তিনি (আলৈহিস সালাম) বললেন, 'মহান আল্লাহ! এরাই আমাদের প্রতি মিথ্যা আরোপকারী। ফেরেশতারা হলেন আল্লাহর দূত, যেন আল্লাহর সমস্ত নবী ও দূত সৃষ্টির কাছে। তাদের থেকে আল্লাহর অস্বীকার আসতে পারে?' আমরা বললাম, 'না।' তিনি বললেন, 'ফেরেশতাদের ক্ষেত্রেও তাই। ফেরেশতাদের বিষয় মহান এবং তাদের মর্যাদা অতুলনীয়।' ",
+          "es": "Dijeron: Les dijimos: «Nos ha sido narrado que cuando Ali (que la paz sea con él) fue designado por el Mensajero de Dios (que la paz sea con él y con su familia) para el Imamato, Dios presentó su autoridad en los cielos a un grupo de personas y a un grupo de ángeles, pero ellos se negaron, por lo que Dios los convirtió en ranas». Él (que la paz sea con él) dijo: «¡Alabado sea Dios! Esos son los mentirosos que nos atribuyen. Los ángeles son mensajeros de Dios, como todos los Profetas y mensajeros de Dios a la creación. ¿Acaso la incredulidad en Dios procedería de ellos?». Dijimos: «No». Dijo: «Así es con los ángeles. El asunto de los ángeles es grande, y su condición es magnífica».",
+          "fr": "Ils dirent : Nous lui avons dit : « Il nous a été rapporté que lorsque Ali (que la paix soit sur lui) fut désigné par le Messager de Dieu (que la paix soit sur lui et sur sa famille) pour l’imamat, Dieu présenta son imamat dans les cieux à un groupe de personnes et à un groupe d’anges, mais ils refusèrent, alors Dieu les transforma en grenouilles. » Il (que la paix soit sur lui) dit : « Gloire à Dieu ! Ce sont les menteurs qui nous attribuent cela. Les anges sont les messagers de Dieu, comme tous les Prophètes et messagers de Dieu envers la création. L’incrédulité viendrait-elle d’eux ? » Nous répondîmes : « Non. » Il dit : « Il en va de même pour les anges. L’affaire des anges est grande, et leur statut est magnifique. »",
+          "de": "Sie sagten: Wir sagten zu ihm: »Es ist uns überliefert worden, dass, als Ali (Friede sei mit ihm) vom Gesandten Gottes (Friede sei mit ihm und seiner Familie) für das Imamat bestimmt wurde, Gott seine Vormundschaft im Himmel einer Gruppe von Menschen und einer Gruppe von Engeln präsentierte, aber sie lehnten ab, da verwandelte Gott sie in Frösche.« Er (Friede sei mit ihm) sagte: »Erhaben ist Gott! Dies sind die Lügner, die uns anhaften. Die Engel sind Gottes Gesandte, wie alle Propheten und Gesandten Gottes zur Schöpfung. Würde der Unglaube an Gott von ihnen ausgehen?« Wir sagten: »Nein.« Er sagte: »So ist es auch mit den Engeln. Die Angelegenheit der Engel ist groß, und ihr Wesen ist erhaben.«",
+          "ru": "Они сказали: «Мы сказали ему: „Нам передали, что когда Али (да будет мир с ним) был назначен Посланником Аллаха (да будет мир ему и его семье) на имамат, Аллах явил его валийство на небесах перед группой людей и группой ангелов, но они отказались, и Аллах превратил их в лягушек“». Он (да будет мир с ним) сказал: „Возвышен Аллах! Это лжецы, которые приписывают нам. Ангелы — посланники Аллаха, как и все пророки и посланники Аллаха к творениям. Разве от них может исходить неверие в Аллаха?“ Мы сказали: „Нет“. Он сказал: „Так и с ангелами. Дело ангелов велико, и их статус величественен“.",
+          "zh": "他们说：我们曾对他说：有人传述给我们，当阿里（愿主福安之）被真主的使者（愿主福安之及其家属）指定为伊玛目时，真主在诸天向一群人和一群天使展示了他的监护权，但他们拒绝了，于是真主将他们变成了青蛙。他（愿主福安之）说：荣耀归于真主！这些是捏造谎言归咎于我们的人。天使是真主的使者，如同真主的所有先知和使者对受造物一样。难道他们会因不信真主吗？我们说：不会。他说：天使也是如此。天使的事务是重大的，他们的地位是崇高的。"
+        },
+        "word_start": 1036,
+        "word_end": 1111
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam al-Rida (AS) refutes the popular Quraishi belief that Harut and Marut were angels who sinned by marrying the star Venus, asserting instead that they were sent to teach magic as a divine trial (fitnah) for humans to distinguish between lawful and unlawful use of power. The narration further clarifies that Iblis was from the Jinn, not the Angels, and emphasizes the infallibility (ismah) of the Angels, countering narratives that attribute human sins like adultery or murder to them. This exegesis underscores the Shia doctrine of angelic infallibility and the distinction between the Jinn and Angels in Quranic cosmology.",
+        "seo_question": "Who were Harut and Marut according to Shia hadith, and were they angels or magicians?",
+        "key_terms": {
+          "السِّحْر": "Magic",
+          "الزُّهَرَةُ": "Venus (the planet)",
+          "الْمَلَكَيْنِ": "The two angels",
+          "بَابِلَ": "Babylon",
+          "إِبْلِيسَ": "Iblis (Satan)",
+          "الْجِنِّ": "The Jinn",
+          "عِصْمَةٌ": "Infallibility",
+          "فِتْنَةٌ": "Trial/Temptation"
+        }
+      },
+      "ur": {
+        "summary": "امام رضا (علیہ السلام) مشہور قریشی عقیدے کی تردید کرتے ہیں کہ ہاروت اور ماروت فرشتے تھے جنہوں نے ستارہ زہرہ سے شادی کر کے گناہ کیا، بلکہ ان کا کہنا ہے کہ وہ جادو سکھانے کے لیے بھیجے گئے تھے تاکہ انسانوں کے لیے ایک آزمائش (فتنہ) بنے کہ وہ طاقت کے استعمال کو حلال اور حرام میں کیسے ممتاز کریں۔ اس روایت میں مزید وضاحت کی گئی ہے کہ ابلیس فرشتوں میں سے نہیں بلکہ جنات میں سے تھا، اور فرشتوں کی معصومیت (عصمت) پر زور دیا گیا ہے، جو ان روایات کا جواب دیتی ہیں جو ان پر زوال یا قتل جیسے انسانی گناہ منسوب کرتی ہیں۔ یہ تفسیر شیعہ عقیدے کی فرشتوں کی معصومیت اور قرآنی کائنات میں جنات اور فرشتوں کے درمیان تمیز کو اجاگر کرتی ہے۔",
+        "seo_question": "شیعہ حدیث کے مطابق ہاروت اور ماروت کون تھے، اور وہ فرشتے تھے یا جادوگر؟",
+        "key_terms": {
+          "السِّحْر": "جادو",
+          "الزُّهَرَةُ": "سیارہ زہرہ",
+          "الْمَلَكَيْنِ": "دو فرشتے",
+          "بَابِلَ": "بابل",
+          "إِبْلِيسَ": "ابلیس",
+          "الْجِنِّ": "جنات",
+          "عِصْمَةٌ": "معصومیت",
+          "فِتْنَةٌ": "آزمائش"
+        }
+      },
+      "tr": {
+        "summary": "İmam er-Rıza (AS), Harut ve Marut'un Venüs yıldızıyla evlenerek günah işleyen melekler olduğu şeklindeki yaygın Kureyşi inancını reddederek, onların aslında insanların güç kullanımını meşru ve meşru olmayan olarak ayırt etmeleri için Allah tarafından gönderilen bir deneme (fitne) olarak büyüyü öğretmek için gönderildiğini savunur. Rivayet ayrıca İblis'in meleklerden değil, cinlerden olduğunu netleştirir ve meleklerin masumiyetini (ismet) vurgular, bu da onlara zina veya cinayet gibi insan günahlarını atfeden anlatılara karşı çıkar. Bu tefsir, meleklerin masumiyeti ve Kur'an kozmolojisinde cinler ile melekler arasındaki ayrılık gibi Şii doktrinini vurgular.",
+        "seo_question": "Şii hadislerine göre Harut ve Marut kimlerdi ve onlar melek miydi yoksa büyücü müydü?",
+        "key_terms": {
+          "السِّحْر": "Büyü",
+          "الزُّهَرَةُ": "Venüs (gezegen)",
+          "الْمَلَكَيْنِ": "İki melek",
+          "بَابِلَ": "Babil",
+          "إِبْلِيسَ": "İblis (Şeytan)",
+          "الْجِنِّ": "Cinler",
+          "عِصْمَةٌ": "Masumiyet",
+          "فِتْنَةٌ": "Deneme/Heves"
+        }
+      },
+      "fa": {
+        "summary": "امام رضا (ع) باور رایج قریشی را که حروت و مروت را فرشتگانی می‌دانست که به خاطر ازدواج با ستاره زهره گناه کردند، رد می‌کند و در عوض بیان می‌دارد که آن‌ها برای آموزش سحر به عنوان یک فتنه الهی برای انسان‌ها جهت تمایز بین استفاده مشروع و غیرمشروع از قدرت فرستاده شدند. این روایت همچنین روشن می‌سازد که ابلیس از جن بود، نه از فرشتگان، و بر عصمت فرشتگان تأکید می‌کند و روایت‌هایی را که گناهان انسانی مانند زنا یا قتل را به آن‌ها نسبت می‌دهند، رد می‌نماید. این تفسیر بر مذهب شیعه درباره عصمت فرشتگان و تمایز بین جن و فرشتگان در کیهان‌شناسی قرآنی تأکید دارد.",
+        "seo_question": "حروت و مروت طبق حدیث شیعه چه کسانی بودند و آیا آن‌ها فرشته بودند یا جادوگر؟",
+        "key_terms": {
+          "السِّحْر": "سحر",
+          "الزُّهَرَةُ": "زهره",
+          "الْمَلَكَيْنِ": "دو فرشته",
+          "بَابِلَ": "بابل",
+          "إِبْلِيسَ": "ابلیس",
+          "الْجِنِّ": "جن",
+          "عِصْمَةٌ": "عصمت",
+          "فِتْنَةٌ": "فتنه"
+        }
+      },
+      "id": {
+        "summary": "Imam al-Rida (AS) membantah kepercayaan populer kaum Quraisy bahwa Harut dan Marut adalah malaikat yang berdosa karena menikahi bintang Venus, melainkan menegaskan bahwa mereka diutus untuk mengajarkan sihir sebagai cobaan ilahi (fitnah) bagi manusia untuk membedakan penggunaan kekuasaan yang halal dan haram. Narasi tersebut lebih lanjut memperjelas bahwa Iblis berasal dari jin, bukan malaikat, dan menekankan kesucian (ismah) para malaikat, menentang narasi yang mengaitkan dosa-dosa manusia seperti zina atau pembunuhan dengan mereka. Tafsir ini menyoroti doktrin Syiah tentang kesucian malaikat dan pembedaan antara jin dan malaikat dalam kosmologi Al-Qur'an.",
+        "seo_question": "Siapakah Harut dan Marut menurut hadis Syiah, dan apakah mereka malaikat atau penyihir?",
+        "key_terms": {
+          "السِّحْر": "Sihir",
+          "الزُّهَرَةُ": "Venus (planet)",
+          "الْمَلَكَيْنِ": "Dua malaikat",
+          "بَابِلَ": "Babilonia",
+          "إِبْلِيسَ": "Iblis (Setan)",
+          "الْجِنِّ": "Para jin",
+          "عِصْمَةٌ": "Kesucian",
+          "فِتْنَةٌ": "Cobaan/Penggodan"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম আল-রিদা (আ.) কুরাইশদের প্রচলিত বিশ্বাসকে খণ্ডন করেন যে হারুত ও মারুত ছিলেন ফেরেশতা যারা শনি গ্রহের সাথে বিবাহবন্ধনে আবদ্ধ হয়ে পাপ করেছিলেন; বরং তিনি দৃঢ়ভাবে বলেন যে তারা ছিলেন মানুষের জন্য একটি ঐশ্বরিক পরীক্ষা (ফিতনা) হিসেবে প্রেরিত, যাতে মানুষ ক্ষমতার বৈধ ও অবৈধ ব্যবহারের মধ্যে পার্থক্য করতে পারে। এই হাদিসে আরও স্পষ্ট করা হয়েছে যে ইবলিস ফেরেশতা ছিলেন না, বরং তিনি জিন ছিলেন, এবং ফেরেশতাদের অমীমাংসিত স্বত্ব (ইসমাহ) জোর দেওয়া হয়েছে, যাতে তাদের ওপর ব্যভিচার বা হত্যার মতো মানুষের পাপ আরোপ করা হয় না। এই তাফসির শিয়া মতবাদে ফেরেশতাদের অমীমাংসিত স্বত্ব এবং কুরআনের মহাবিশ্ববিদ্যায় জিন ও ফেরেশতার মধ্যে পার্থক্যকে তুলে ধরে।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী হারুত ও মারুত কে ছিলেন এবং তারা ফেরেশতা নাকি জাদুকর?",
+        "key_terms": {
+          "السِّحْر": "জাদু",
+          "الزُّهَرَةُ": "শনি গ্রহ",
+          "الْمَلَكَيْنِ": "দুই ফেরেশতা",
+          "بَابِلَ": "বাবিল",
+          "إِبْلِيسَ": "ইবলিস",
+          "الْجِنِّ": "জিন",
+          "عِصْمَةٌ": "অমীমাংসিত স্বত্ব",
+          "فِتْنَةٌ": "পরীক্ষা/ফিতনা"
+        }
+      },
+      "es": {
+        "summary": "El Imam al-Rida (AS) refuta la creencia popular de los Quraysh de que Harut y Marut eran ángeles que pecaron al casarse con la estrella Venus, afirmando en su lugar que fueron enviados para enseñar la magia como una prueba divina (fitnah) para que los humanos distinguieran entre el uso lícito e ilícito del poder. La narración aclara además que Iblis era de los Yinn, no de los Ángeles, y enfatiza la infalibilidad (ismah) de los Ángeles, contrarrestando las narrativas que les atribuyen pecados humanos como el adulterio o el asesinato. Esta exégesis subraya la doctrina chií de la infalibilidad angélica y la distinción entre los Yinn y los Ángeles en la cosmología coránica.",
+        "seo_question": "¿Quiénes eran Harut y Marut según el hadiz chií, y eran ángeles o magos?",
+        "key_terms": {
+          "السِّحْر": "Magia",
+          "الزُّهَرَةُ": "Venus (el planeta)",
+          "الْمَلَكَيْنِ": "Los dos ángeles",
+          "بَابِلَ": "Babilonia",
+          "إِبْلِيسَ": "Iblis (Satanás)",
+          "الْجِنِّ": "Los Yinn",
+          "عِصْمَةٌ": "Infalibilidad",
+          "فِتْنَةٌ": "Prueba/Tentación"
+        }
+      },
+      "fr": {
+        "summary": "L’imam al-Rida (AS) réfute la croyance populaire des Quraïshites selon laquelle Harut et Marut étaient des anges qui avaient péché en épousant l’étoile Vénus, affirmant au contraire qu’ils ont été envoyés pour enseigner la magie comme une épreuve divine (fitnah) permettant aux humains de distinguer l’usage licite de l’usage illicite du pouvoir. Le récit précise également qu’Iblis était issu des Djinns et non des Anges, et souligne l’infaillibilité (ismah) des Anges, contredisant les récits qui leur attribuent des péchés humains tels que l’adultère ou le meurtre. Cette exégèse met en lumière la doctrine chiite de l’infaillibilité angélique et la distinction entre les Djinns et les Anges dans la cosmologie coranique.",
+        "seo_question": "Qui étaient Harut et Marut selon la hadith chiite, et étaient-ils des anges ou des magiciens ?",
+        "key_terms": {
+          "السِّحْر": "Magie",
+          "الزُّهَرَةُ": "Vénus (la planète)",
+          "الْمَلَكَيْنِ": "Les deux anges",
+          "بَابِلَ": "Babylone",
+          "إِبْلِيسَ": "Iblis (le Diable)",
+          "الْجِنِّ": "Les Djinns",
+          "عِصْمَةٌ": "Infaillibilité",
+          "فِتْنَةٌ": "Épreuve/Tentation"
+        }
+      },
+      "de": {
+        "summary": "Imam al-Rida (AS) widerlegt den populären quraischitischen Glauben, dass Harut und Marut Engel waren, die sündigten, indem sie den Stern Venus heirateten, und behauptet stattdessen, dass sie gesandt wurden, um die Magie als eine göttliche Prüfung (Fitnah) für die Menschen zu lehren, um zwischen rechtmäßigem und unrechtmäßigem Gebrauch der Macht zu unterscheiden. Die Überlieferung klärt weiter, dass Iblis aus den Dschinn und nicht aus den Engeln stammte, und betont die Unfehlbarkeit (Ismah) der Engel, was Narrativen entgegenwirkt, die den Engeln menschliche Sünden wie Ehebruch oder Mord zuschreiben. Diese Exegese unterstreicht die schiitische Lehre von der Unfehlbarkeit der Engel und die Unterscheidung zwischen den Dschinn und den Engeln in der koranischen Kosmologie.",
+        "seo_question": "Wer waren Harut und Marut nach schiitischer Hadith, und waren sie Engel oder Magier?",
+        "key_terms": {
+          "السِّحْر": "Magie",
+          "الزُّهَرَةُ": "Venus (der Planet)",
+          "الْمَلَكَيْنِ": "Die zwei Engel",
+          "بَابِلَ": "Babylon",
+          "إِبْلِيسَ": "Iblis (Satan)",
+          "الْجِنِّ": "Die Dschinn",
+          "عِصْمَةٌ": "Unfehlbarkeit",
+          "فِتْنَةٌ": "Prüfung/Verführung"
+        }
+      },
+      "ru": {
+        "summary": "Имам ар-Рида (да будет с ним мир) опровергает распространённое у курайшитов мнение о том, что Харут и Марут были ангелами, согрешившими, женившись на звезде Венере, утверждая вместо этого, что они были посланы, чтобы обучить магии как божественному испытанию (фитне) для людей, чтобы отличить законное использование силы от незаконного. В хадисе также уточняется, что Иблис был из джиннов, а не из ангелов, и подчёркивается непогрешимость (исма) ангелов, что опровергает повествования, приписывающие им человеческие грехи, такие как прелюбодеяние или убийство. Этот тафсир подчёркивает шиитскую доктрину непогрешимости ангелов и различие между джиннами и ангелами в исламской космологии.",
+        "seo_question": "Кто такие Харут и Марут согласно шиитскому хадису, и были ли они ангелами или волшебниками?",
+        "key_terms": {
+          "السِّحْر": "Магия",
+          "الزُّهَرَةُ": "Венера (планета)",
+          "الْمَلَكَيْنِ": "Два ангела",
+          "بَابِلَ": "Вавилон",
+          "إِبْلِيسَ": "Иблис (Шайтан)",
+          "الْجِنِّ": "Джинны",
+          "عِصْمَةٌ": "Непогрешимость",
+          "فِتْنَةٌ": "Испытание/Искушение"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目阿里·里达（愿主安之）驳斥了古莱氏人普遍持有的观点，即哈鲁特和玛鲁特是因与金星结婚而犯罪的天使，他主张他们是被派遣来传授魔法，作为真主对人类的考验（菲特奈），以便人们区分权力的合法与非法使用。这段圣训进一步澄清，伊布利斯属于精灵（吉尼），而非天使，并强调天使的无谬性（伊斯迈），反驳了将通奸或谋杀等人类罪行归咎于他们的叙事。这一经注突显了什叶派关于天使无谬性的教义，以及《古兰经》宇宙观中精灵与天使的区别。",
+        "seo_question": "根据什叶派圣训，哈鲁特和玛鲁特是谁，他们是天使还是魔法师？",
+        "key_terms": {
+          "السِّحْر": "魔法",
+          "الزُّهَرَةُ": "金星",
+          "الْمَلَكَيْنِ": "两位天使",
+          "بَابِلَ": "巴比伦",
+          "إِبْلِيسَ": "伊布利斯",
+          "الْجِنِّ": "精灵",
+          "عِصْمَةٌ": "无谬性",
+          "فِتْنَةٌ": "考验"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:102",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "7:11",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "15:26",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "21:73",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا مُحَمَّدُ بْنُ الْقَاسِمِ الْمُفَسِّرِ الْمَعْرُوفِ بِأَبِي الْحَسَنِ الْجُرْجَانِي رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا يُوسُفُ بْنُ مُحَمَّدِ بْنِ زِيَادٍ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ سَيَّارٍ، عَنْ أَبَوَيْهِمَا عَنِ الْحَسَنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ عَنْ أَبِيهِ الرِّضَا عَلِيُّ بْنُ مُوسَىٰ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُوسَىٰ بْنُ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الصَّادِقِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ فِي قَوْلِ اللَّهِ عَزَّ وَجَلَّ: (وَاتَّبَعُوا مَا تَتْلُو الشَّيَاطِينُ عَلَىٰ مُلْكِ سُلَيْمَانَ وَمَا كَفَرَ سُلَيْمَانُ وَلَكِنَّ الشَّيَاطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ وَمَا أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَا إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ وَمَا هُمْ بِضَارِّينَ بِهِ مِنْ أَحَدٍ إِلَّا بِإِذْنِ اللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَلَقَدْ عَلِمُوا لَمَنِ اشْتَرَاهُ مَا لَهُ فِي الْآخِرَةِ مِنْ خَلَاقٍ وَلَبِئْسَ مَا شَرَوْا بِهِ أَنفُسَهُمْ لَوْ كَانُوا يَعْلَمُونَ) قَالَ اتَّبَعُوا مَا تَتْلُو كَفَرَةُ الشَّيَاطِينِ مِنَ السِّحْرِ وَالنَّيْرَنْجَاتِ عَلَىٰ مُلْكِ سُلَيْمَانَ الَّذِينَ يَزْعُمُونَ أَنَّ سُلَيْمَانَ بِهِ مُلْكٌ وَنَحْنُ أَيْضًا بِهِ نُظْهِرُ الْعَجَائِبَ حَتَّىٰ يَنْقَادَ لَنَا النَّاسُ وَنَسْتَغِيءَ عَنِ الانْقِيَادِ لِعَلِيٍّ وَقَالُوا كَانَ سُلَيْمَانُ كَافِرًا سَاحِرًا مَاهِرًا بِسِحْرِهِ مَلَكَ مَا مَلَكَ وَقَدَرَ عَلَىٰ مَا قَدَرَ فَرَدَّ اللَّهُ عَزَّ وَجَلَّ عَلَيْهِمْ فَقَالَ: (وَما كَفَرَ سُلَيْمانُ) وَلا اسْتَعْمَلَ السِّحْرَ كَمَا قَالَ هَؤُلاءِ الْكَافِرُونَ (وَلكِنَّ الشَّياطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ) الَّذِي نَسَبُوهُ إِلَىٰ سُلَيْمَانَ وَإِلَىٰ (ما أُنْزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمارُوتَ) وَكَانَ بَعْدَ نُوحٍ عَلَيْهِ السَّلامُ قَدْ كَثُرَ السَّحَرَةُ وَالْمُمَوِّهُونَ فَبَعَثَ اللَّهُ عَزَّ وَجَلَّ مَلَكَيْنِ إِلَىٰ نَبِيِّ ذَلِكَ الزَّمَانِ بِذِكْرِ مَا يَسْحَرُ بِهِ السَّحَرَةُ وَذِكْرِ مَا يُبْطِلُ بِهِ سِحْرَهُمْ وَيَرُدُّ بِهِ كَيْدَهُمْ فَتَلَقَّاهُ النَّبِيُّ عَنِ الْمَلَكَيْنِ وَأَدَّاهُ إِلَىٰ عِبَادِ اللَّهِ بِأَمْرِ اللَّهِ عَزَّ وَجَلَّ وَأَمَرَهُمْ أَنْ يَقِفُوا بِهِ عَلَىٰ السِّحْرِ وَأَنْ يُبْطِلُوهُ وَنَهَاهُمْ أَنْ يَسْحَرُوا بِهِ النَّاسَ وَهَذَا كَمَا يَدُلُّ عَلَىٰ السَّمِّ مَا هُوَ وَعَلَىٰ مَا يُدْفَعُ بِهِ غَائِلَةُ السَّمِّ ثُمَّ يُقَالُ لِلْمُتَعَلِّمِ ذَلِكَ هَذَا السَّمُّ فَمَنْ رَأَيْتَهُ يَسُمُّ فَادْفَعْ غَائِلَتَهُ بِكَذَا وَإِيَّاكَ أَنْ تَقْتُلَ بِالسَّمِّ أَحَداً ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَما يُعَلِّمانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولا إِنَّما نَحْنُ فِتْنَةٌ فَلا تَكْفُرْ) يَعْنِي أَنَّ ذَلِكَ النَّبِيَّ أَمَرَ الْمَلَكَيْنِ أَنْ يَظْهَرَا لِلنَّاسِ بِصُورَةِ بَشَرَيْنِ وَيُعَلِّمَاهُمَا مَا عَلَّمَهُمَا اللَّهُ مِنْ ذَلِكَ فَقَالَ اللَّهُ عَزَّ وَجَلَّ: (وَما يُعَلِّمانِ مِنْ أَحَدٍ) ذَلِكَ السِّحْرَ وَإِبْطَالَهُ (حَتَّىٰ يَقُولا) لِلْمُتَعَلِّمِ (إِنَّما نَحْنُ فِتْنَةٌ) امْتِحَانٌ لِلْعِبَادِ لِيُطِيعُوا اللَّهَ فِيما يَتَعَلَّمُونَ مِنْ هَذَا وَيُبْطِلُوا بِهِ كَيْدَ السَّاحِرِ وَلا يَسْحَرُوهُمْ (فَلا تَكْفُرْ) بِاسْتِعْمالِ هَذَا السِّرْ وَطَلَبِ الإِضْارِ بِهِ وَدُعَاءِ النَّاسِ إِلَىٰ أَنْ يَعْتَقِدُوا أَنَّكَ بِهِ تُحْيِي وَتُمِيتُ وَتَفْعَلُ مَا لا يَقْدِرُ عَلَيْهِ إِلا اللَّهُ عَزَّ وَجَلَّ فَإِنَّ ذَلِكَ كُفْرٌ قَالَ اللَّهُ عَزَّ وَجَلَّ: (فَيَتَعَلَّمُونَ) يَعْنِي طَالِبِي السِّحْرِ (مِنْهُما) يَعْنِي مِمَّا كَتَبَتِ الشَّيَاطِينُ عَلَىٰ مُلْكِ سُلَيْمانَ مِنَ النَّيْرَنْجَاتِ وَما أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمارُوتَ يَتَعَلَّمُونَ مِنْ هَذَيْنِ الصِّنفَيْنِ (ما يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ) هَذَا مَنْ يَتَعَلَّمُ لِلإِضْارِ بِالنَّاسِ يَتَعَلَّمُونَ التَّضْرِيبَ بِضُرُوبِ الْحِيَلِ وَالْتِّئَامِ وَالْإِيهَامِ أَنَّهُ قَدْ دَفَنَ فِي مَوْضِعِ كَذَا وَعَمِلَ كَذَا لِيُحَبِّبَ الْمَرْأَةَ إِلَىٰ الرَّجُلِ وَالرَّجُلَ إِلَىٰ الْمَرْأَةِ أَوْ يُؤَدِّيَ إِلَىٰ الْفِرَاقِ بَيْنَهُمَا ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَما هُمْ بِضارِّينَ بِهِ مِنْ أَحَدٍ إِلاّ بِإِذْنِ اللَّهِ) أَيْ مَا الْمُتَعَلِّمُونَ لِذَلِكَ بِضارِّينَ بِهِ مِنْ أَحَدٍ إِلاّ بِإِذْنِ اللَّهِ يَعْنِي بِتَخْلِيَةِ اللَّهِ وَعِلْمِهِ فَإِنَّهُ لَوْ شَاءَ لَمَنَعَهُمْ بِالْجَبْرِ وَالْقَهْرِ. ثُمَّ قَالَ: (وَيَتَعَلَّمُونَ ما يَضُرُّهُمْ وَلا يَنْفَعُهُمْ) لانَّهُمْ إِذا تَعَلَّمُوا ذَلِكَ السِّحْرَ لِيَسْحَرُوا بِهِ وَيَضُرُّوا فَقَدْ تَعَلَّمُوا مَا يَضُرُّهُمْ فِي دِينِهِمْ وَلا يَنْفَعُهُمْ فِيهِ بَلْ يَنْسَلِخُونَ عَنْ دِينِ اللَّهِ بِذَلِكَ (وَلَقَدْ عَلِمُوا) عَلِمَ هَؤُلاءِ الْمُتَعَلِّمُونَ (لَمَنِ اشْتَرَاهُ) بِدِينِهِ الَّذِي يَنْسَلِخُ عَنْهُ بِتَعَلُّمِهِ (ما لَهُ فِي الآْخِرَةِ مِنْ خَلاقٍ) أَيْ مِنْ نَصِيبٍ فِي ثَوَابِ الْجَنَّةِ. ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَلَبِئْسَ ما شَرَوْا بِهِ أَنْفُسَهُمْ) وَهَنُوهَا بِالْعَذَابِ (لَوْ كانُوا يَعْلَمُونَ) أَنَّهُمْ قَدْ بَاعُوا الآْخِرَةَ وَتَرَكُوا نَصِيبَهُمْ مِنَ الْجَنَّةِ لأنَّ الْمُتَعَلِّمِينَ لِهَذَا السِّحْرِ هُمُ الَّذِينَ يَعْتَقِدُونَ أَنْ لا رَسُولَ وَلا إِلَهَ وَلا بَعْثَ وَلا نُشُورَ. فَقَالَ: (وَلَقَدْ عَلِمُوا لَمَنِ اشْتَرَاهُ ما لَهُ فِي الآْخِرَةِ مِنْ خَلاقٍ) لأنَّهُمْ يَعْتَقِدُونَ أَنْ لا آخِرَةَ فَهُمْ يَعْتَقِدُونَ أَنَّهَا إِذا لَمْ تَكُنْ آخِرَةٌ فَلا خَلاقَ لَهُمْ فِي دَارٍ بَعْدَ الدُّنْيَا وَإِنْ كَانَ بَعْدَ الدُّنْيَا آخِرَةٌ فَهُمْ مَعَ كُفْرِهِمْ بِهَا لا خَلاقَ لَهُمْ فِيهَا ثُمَّ قَالَ: (وَلَبِئْسَ ما شَرَوْا بِهِ أَنْفُسَهُمْ) إِذْ بَاعُوا الآْخِرَةَ بِالدُّنْيَا وَرَهَنُوا بِالْعَذَابِ الدَّائِمِ أَنْفُسَهُمْ (لَوْ كانُوا يَعْلَمُونَ) أَنَّهُمْ قَدْ بَاعُوا أَنْفُسَهُمْ بِالْعَذَابِ وَلَكِنْ لا يَعْلَمُونَ ذَلِكَ لِكُفْرِهِمْ بِهِ فَلَمَّا تَرَكُوا النَّظَرَ فِي حُجَجِ اللَّهِ حَتَّىٰ يَعْلَمُوا عَذَابَهُمْ عَلَىٰ اعْتِقَادِهِمُ الْبَاطِلَ وَجَحْدِهِمْ الْحَقَّ. قَالَ يُوسُفُ بْنُ مُحَمَّدِ بْنِ زِيَادٍ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ سَيَّارٍ عَنْ أَبَوَيْهِمَا أَنَّهُمَا قَالا فَقُلْنَا لِلْحَسَنِ أَبِي الْقَائِمِ عَلَيْهِ السَّلامُ فَإِنَّ قَوْماً عِنْدَنَا يَزْعُمُونَ أَنَّ هَارُوتَ وَمَــارُوتَ مَلَكَانِ اخْتَارَتْهُمَا الْمَلائِكَةُ لَمَّا كَثُرَ عِصْيَانُ بَنِي آدَمَ وَأَنَّهُمَا افْتَتَنَا بِالزُّهَرَةِ وَأَرَادَا الزِّنَا بِهَا وَشَرِبَا الْخَمْرَ وَقَتَلا النَّفْسَ الْمُحْتَرَمَةَ وَأَنَّ اللَّهَ تَبَارَكَ وَتَعَالَى يُعَذِّبُهُمَا بِبَابِلَ وَأَنَّ السَّحَرَةَ مِنْهُمَا يَتَعَلَّمُونَ السِّحْرَ وَأَنَّ اللَّهَ مَسَخَ تِلْكَ الْمَرْأَةَ هَذَا الْكَوْكَبَ الَّذِي هُوَ الزُّهَرَةُ. فَقَالَ الإِمَامُ عَلَيْهِ السَّلامُ: مَعَاذَ اللَّهِ مِنْ ذَلِكَ! إِنَّ مَلائِكَةَ اللَّهِ مَعْصُومُونَ مَحْفُوظُونَ مِنَ الْكُفْرِ وَالْقَبَائِحِ بِأَلْطَافِ اللَّهِ. قَالَ اللَّهُ عَزَّ وَجَلَّ فِيهِمْ: (لا يَعْصُونَ اللَّهَ ما أَمَرَهُمْ وَيَفْعَلُونَ ما يُؤْمَرُونَ) وَقَالَ عَزَّ وَجَلَّ: (وَلَهُ مَنْ فِي السَّماواتِ وَالأَرْضِ وَمَنْ عِنْدَهُ) يَعْنِي مِنَ الْمَلائِكَةِ (لا يَسْتَكْبِرُونَ عَنْ عِبادَتِهِ وَلا يَسْتَحْسِرُونَ يُسَبِّحُونَ اللَّيْلَ وَالنَّهارَ لا يَفْتُرُونَ) وَقَالَ عَزَّ وَجَلَّ فِي الْمَلائِكَةِ أَيْضاً: (بَلْ عِبادٌ مُكْرَمُونَ لا يَسْبِقُونَهُ بِالْقَوْلِ وَهُمْ بِأَمْرِهِ يَعْمَلُونَ يَعْلُمُ ما بَيْنَ أَيْدِيهِمْ وَما خَلْفَهُمْ وَلا يَشْفَعُونَ إِلا لِمَنِ ارْتَضىٰ وَهُمْ مِنْ خَشْيَتِهِ مُشْفِقُونَ) ثُمَّ قَالَ عَلَيْهِ السَّلامُ: لَوْ كَانَ كَمَا يَقُولُونَ كَانَ اللَّهُ قَدْ جَعَلَ هَؤُلاءِ الْمَلائِكَةَ خُلَفَاءَ عَلَىٰ الأَرْضِ وَكَانُوا كَالأَنْبِيَاءِ فِي الدُّنْيَا أَوْ كَالأَئِمَّةِ فَيَكُونُ مِنَ الأَنْبِيَاءِ وَالأَئِمَّةِ عَلَيْهِ السَّلامُ قَتْلُ النَّفْسِ وَالزِّنَا. ثُمَّ قَالَ عَلَيْهِ السَّلامُ: أَوَلَسْتَ تَعْلَمُ أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُخْلِ الدُّنْيَا قَطُّ مِنْ نَبِيٍّ أَوْ إِمَامٍ مِنَ الْبَشَرِ؟ أَوَلَيْسَ اللَّهُ عَزَّ وَجَلَّ يَقُولُ: (وَما أَرْسَلْنا قَبْلَكَ يَعْنِي إِلَى الْخَلْقِ إِلا رِجالاً نُوحِي إِلَيْهِمْ مِنْ أَهْلِ الْقُرَى) فَأَخْبَرَ أَنَّهُ لَمْ يَبْعَثِ الْمَلائِكَةَ إِلَى الأَرْضِ لِيَكُونُوا أَئِمَّةً وَحُكَّاماً وَإِنَّمَا أُرْسِلُوا إِلَى أَنْبِيَاءِ اللَّهِ. قَالا: قُلْنَا لَهُ: فَعَلَى هَذَا لَمْ يَكُنْ إِبْلِيسُ أَيْضاً مَلَكاً.فَقَالَ: لا. بَلْ كَانَ مِنَ الْجِنِّ. أَمَا تَسْمَعَانِ اللَّهَ عَزَّ وَجَلَّ يَقُولُ: (وَإِذْ قُلْنا لِلْمَلائِكَةِ اسْجُدُوا لآدَمَ فَسَجَدُوا إِلا إِبْلِيسَ كانَ مِنَ الْجِنِّ) فَأَخْبَرَ عَزَّ وَجَلَّ أَنَّهُ كَانَ مِنَ الْجِنِّ. وَهُوَ الَّذِي قَالَ اللَّهُ عَزَّ وَجَلَّ وَالْجَانَّ خَلَقْناهُ مِنْ قَبْلُ مِنْ نارِ السَّمُومِ. قَالَ الإِمَامُ الْحَسَنُ بْنُ عَلِيٍّ عَلَيْهِ السَّلامُ حَدَّثَنِي أَبِي، عَن جَدِّي عَنِ الرِّضَا، عَن آبَائِهِ، عَن عَلِيٍّ عَلَيْهِ السَّلامُ قالَ: قالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ إِنَّ اللَّهَ عَزَّ وَجَلَّ اخْتَارَنَا مَعَاشِرَ آلِ مُحَمَّدٍ وَاخْتَارَ النَّبِيِّينَ وَاخْتَارَ الْمَلائِكَةَ الْمُقَرَّبِينَ وَمَا اخْتَارَهُمْ إِلا عَلَىٰ عِلْمٍ مِنْهُ بِهِمْ أَنَّهُمْ لا يُوَاقِعُونَ مَا يَخْرُجُونَ بِهِ عَنْ وَلايَتِهِ وَيَنْقَلِعُونَ بِهِ عَنْ عِصْمَتِهِ وَيَنْتَمُونَ بِهِ إِلَى الْمُسْتَحِقِّينَ لِعَذَابِهِ وَنِقْمَتِهِ قَالا فَقُلْنَا لَهُ فَقَدْ رُوِيَ لَنَا أَنَّ عَلِيّاً عَلَيْهِ السَّلامُ لَمَّا نَصَّ عَلَيْهِ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ بِالإِمَامَةِ عَرَضَ اللَّهُ عَزَّ وَجَلَّ وَلايَتَهُ فِي السَّمَاوَاتِ عَلَىٰ فِئامٍ مِنَ النَّاسِ وَفِئامٍ مِنَ الْمَلائِكَةِ فَأَبَوْهَا فَمَسَخَهُمُ اللَّهُ ضَفَادِعَ فَقَالَ عَلَيْهِ السَّلامُ مَعَاذَ اللَّهِ هَؤُلاءِ الْمُكَذِّبُونَ لَنَا الْمُفْتَرُونَ عَلَيْنَا الْمَلائِكَةُ هُمْ رُسُلُ اللَّهِ فَهُمْ كَسَائِرِ أَنْبِيَاءِ اللَّهِ وَرُسُلِهِ إِلَى الْخَلْقِ فَيَكُونُ مِنْهُمُ الْكُفْرُ بِاللَّهِ قُلْنَا لا قَالَ فَكَذَلِكَ الْمَلائِكَةُ إِنَّ شَأْنَ الْمَلائِكَةِ لَعَظِيمٌ وَإِنَّ خَطْبَهُمْ لَجَلِيلٌ.",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا مُحَمَّدُ بْنُ الْقَاسِمِ الْمُفَسِّرِ الْمَعْرُوفِ بِأَبِي الْحَسَنِ الْجُرْجَانِي رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا يُوسُفُ بْنُ مُحَمَّدِ بْنِ زِيَادٍ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ سَيَّارٍ، عَنْ أَبَوَيْهِمَا عَنِ الْحَسَنِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُحَمَّدِ بْنِ عَلِيٍّ عَلَيْهِ السَّلَامُ عَنْ أَبِيهِ الرِّضَا عَلِيُّ بْنُ مُوسَىٰ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ مُوسَىٰ بْنُ جَعْفَرٍ عَلَيْهِ السَّلَامُ، عَنْ أَبِيهِ الصَّادِقِ جَعْفَرِ بْنِ مُحَمَّدٍ عَلَيْهِ السَّلَامُ",
+      "matn_ar": "فِي قَوْلِ اللَّهِ عَزَّ وَجَلَّ: (وَاتَّبَعُوا مَا تَتْلُو الشَّيَاطِينُ عَلَىٰ مُلْكِ سُلَيْمَانَ وَمَا كَفَرَ سُلَيْمَانُ وَلَكِنَّ الشَّيَاطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ وَمَا أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمَارُوتَ وَمَا يُعَلِّمَانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولَا إِنَّمَا نَحْنُ فِتْنَةٌ فَلَا تَكْفُرْ فَيَتَعَلَّمُونَ مِنْهُمَا مَا يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ وَمَا هُمْ بِضَارِّينَ بِهِ مِنْ أَحَدٍ إِلَّا بِإِذْنِ اللَّهِ وَيَتَعَلَّمُونَ مَا يَضُرُّهُمْ وَلَا يَنفَعُهُمْ وَلَقَدْ عَلِمُوا لَمَنِ اشْتَرَاهُ مَا لَهُ فِي الْآخِرَةِ مِنْ خَلَاقٍ وَلَبِئْسَ مَا شَرَوْا بِهِ أَنفُسَهُمْ لَوْ كَانُوا يَعْلَمُونَ) قَالَ اتَّبَعُوا مَا تَتْلُو كَفَرَةُ الشَّيَاطِينِ مِنَ السِّحْرِ وَالنَّيْرَنْجَاتِ عَلَىٰ مُلْكِ سُلَيْمَانَ الَّذِينَ يَزْعُمُونَ أَنَّ سُلَيْمَانَ بِهِ مُلْكٌ وَنَحْنُ أَيْضًا بِهِ نُظْهِرُ الْعَجَائِبَ حَتَّىٰ يَنْقَادَ لَنَا النَّاسُ وَنَسْتَغِيءَ عَنِ الانْقِيَادِ لِعَلِيٍّ وَقَالُوا كَانَ سُلَيْمَانُ كَافِرًا سَاحِرًا مَاهِرًا بِسِحْرِهِ مَلَكَ مَا مَلَكَ وَقَدَرَ عَلَىٰ مَا قَدَرَ فَرَدَّ اللَّهُ عَزَّ وَجَلَّ عَلَيْهِمْ فَقَالَ: (وَما كَفَرَ سُلَيْمانُ) وَلا اسْتَعْمَلَ السِّحْرَ كَمَا قَالَ هَؤُلاءِ الْكَافِرُونَ (وَلكِنَّ الشَّياطِينَ كَفَرُوا يُعَلِّمُونَ النَّاسَ السِّحْرَ) الَّذِي نَسَبُوهُ إِلَىٰ سُلَيْمَانَ وَإِلَىٰ (ما أُنْزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمارُوتَ) وَكَانَ بَعْدَ نُوحٍ عَلَيْهِ السَّلامُ قَدْ كَثُرَ السَّحَرَةُ وَالْمُمَوِّهُونَ فَبَعَثَ اللَّهُ عَزَّ وَجَلَّ مَلَكَيْنِ إِلَىٰ نَبِيِّ ذَلِكَ الزَّمَانِ بِذِكْرِ مَا يَسْحَرُ بِهِ السَّحَرَةُ وَذِكْرِ مَا يُبْطِلُ بِهِ سِحْرَهُمْ وَيَرُدُّ بِهِ كَيْدَهُمْ فَتَلَقَّاهُ النَّبِيُّ عَنِ الْمَلَكَيْنِ وَأَدَّاهُ إِلَىٰ عِبَادِ اللَّهِ بِأَمْرِ اللَّهِ عَزَّ وَجَلَّ وَأَمَرَهُمْ أَنْ يَقِفُوا بِهِ عَلَىٰ السِّحْرِ وَأَنْ يُبْطِلُوهُ وَنَهَاهُمْ أَنْ يَسْحَرُوا بِهِ النَّاسَ وَهَذَا كَمَا يَدُلُّ عَلَىٰ السَّمِّ مَا هُوَ وَعَلَىٰ مَا يُدْفَعُ بِهِ غَائِلَةُ السَّمِّ ثُمَّ يُقَالُ لِلْمُتَعَلِّمِ ذَلِكَ هَذَا السَّمُّ فَمَنْ رَأَيْتَهُ يَسُمُّ فَادْفَعْ غَائِلَتَهُ بِكَذَا وَإِيَّاكَ أَنْ تَقْتُلَ بِالسَّمِّ أَحَداً ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَما يُعَلِّمانِ مِنْ أَحَدٍ حَتَّىٰ يَقُولا إِنَّما نَحْنُ فِتْنَةٌ فَلا تَكْفُرْ) يَعْنِي أَنَّ ذَلِكَ النَّبِيَّ أَمَرَ الْمَلَكَيْنِ أَنْ يَظْهَرَا لِلنَّاسِ بِصُورَةِ بَشَرَيْنِ وَيُعَلِّمَاهُمَا مَا عَلَّمَهُمَا اللَّهُ مِنْ ذَلِكَ فَقَالَ اللَّهُ عَزَّ وَجَلَّ: (وَما يُعَلِّمانِ مِنْ أَحَدٍ) ذَلِكَ السِّحْرَ وَإِبْطَالَهُ (حَتَّىٰ يَقُولا) لِلْمُتَعَلِّمِ (إِنَّما نَحْنُ فِتْنَةٌ) امْتِحَانٌ لِلْعِبَادِ لِيُطِيعُوا اللَّهَ فِيما يَتَعَلَّمُونَ مِنْ هَذَا وَيُبْطِلُوا بِهِ كَيْدَ السَّاحِرِ وَلا يَسْحَرُوهُمْ (فَلا تَكْفُرْ) بِاسْتِعْمالِ هَذَا السِّرْ وَطَلَبِ الإِضْارِ بِهِ وَدُعَاءِ النَّاسِ إِلَىٰ أَنْ يَعْتَقِدُوا أَنَّكَ بِهِ تُحْيِي وَتُمِيتُ وَتَفْعَلُ مَا لا يَقْدِرُ عَلَيْهِ إِلا اللَّهُ عَزَّ وَجَلَّ فَإِنَّ ذَلِكَ كُفْرٌ قَالَ اللَّهُ عَزَّ وَجَلَّ: (فَيَتَعَلَّمُونَ) يَعْنِي طَالِبِي السِّحْرِ (مِنْهُما) يَعْنِي مِمَّا كَتَبَتِ الشَّيَاطِينُ عَلَىٰ مُلْكِ سُلَيْمانَ مِنَ النَّيْرَنْجَاتِ وَما أُنزِلَ عَلَى الْمَلَكَيْنِ بِبَابِلَ هَارُوتَ وَمارُوتَ يَتَعَلَّمُونَ مِنْ هَذَيْنِ الصِّنفَيْنِ (ما يُفَرِّقُونَ بِهِ بَيْنَ الْمَرْءِ وَزَوْجِهِ) هَذَا مَنْ يَتَعَلَّمُ لِلإِضْارِ بِالنَّاسِ يَتَعَلَّمُونَ التَّضْرِيبَ بِضُرُوبِ الْحِيَلِ وَالْتِّئَامِ وَالْإِيهَامِ أَنَّهُ قَدْ دَفَنَ فِي مَوْضِعِ كَذَا وَعَمِلَ كَذَا لِيُحَبِّبَ الْمَرْأَةَ إِلَىٰ الرَّجُلِ وَالرَّجُلَ إِلَىٰ الْمَرْأَةِ أَوْ يُؤَدِّيَ إِلَىٰ الْفِرَاقِ بَيْنَهُمَا ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَما هُمْ بِضارِّينَ بِهِ مِنْ أَحَدٍ إِلاّ بِإِذْنِ اللَّهِ) أَيْ مَا الْمُتَعَلِّمُونَ لِذَلِكَ بِضارِّينَ بِهِ مِنْ أَحَدٍ إِلاّ بِإِذْنِ اللَّهِ يَعْنِي بِتَخْلِيَةِ اللَّهِ وَعِلْمِهِ فَإِنَّهُ لَوْ شَاءَ لَمَنَعَهُمْ بِالْجَبْرِ وَالْقَهْرِ. ثُمَّ قَالَ: (وَيَتَعَلَّمُونَ ما يَضُرُّهُمْ وَلا يَنْفَعُهُمْ) لانَّهُمْ إِذا تَعَلَّمُوا ذَلِكَ السِّحْرَ لِيَسْحَرُوا بِهِ وَيَضُرُّوا فَقَدْ تَعَلَّمُوا مَا يَضُرُّهُمْ فِي دِينِهِمْ وَلا يَنْفَعُهُمْ فِيهِ بَلْ يَنْسَلِخُونَ عَنْ دِينِ اللَّهِ بِذَلِكَ (وَلَقَدْ عَلِمُوا) عَلِمَ هَؤُلاءِ الْمُتَعَلِّمُونَ (لَمَنِ اشْتَرَاهُ) بِدِينِهِ الَّذِي يَنْسَلِخُ عَنْهُ بِتَعَلُّمِهِ (ما لَهُ فِي الآْخِرَةِ مِنْ خَلاقٍ) أَيْ مِنْ نَصِيبٍ فِي ثَوَابِ الْجَنَّةِ. ثُمَّ قَالَ عَزَّ وَجَلَّ: (وَلَبِئْسَ ما شَرَوْا بِهِ أَنْفُسَهُمْ) وَهَنُوهَا بِالْعَذَابِ (لَوْ كانُوا يَعْلَمُونَ) أَنَّهُمْ قَدْ بَاعُوا الآْخِرَةَ وَتَرَكُوا نَصِيبَهُمْ مِنَ الْجَنَّةِ لأنَّ الْمُتَعَلِّمِينَ لِهَذَا السِّحْرِ هُمُ الَّذِينَ يَعْتَقِدُونَ أَنْ لا رَسُولَ وَلا إِلَهَ وَلا بَعْثَ وَلا نُشُورَ. فَقَالَ: (وَلَقَدْ عَلِمُوا لَمَنِ اشْتَرَاهُ ما لَهُ فِي الآْخِرَةِ مِنْ خَلاقٍ) لأنَّهُمْ يَعْتَقِدُونَ أَنْ لا آخِرَةَ فَهُمْ يَعْتَقِدُونَ أَنَّهَا إِذا لَمْ تَكُنْ آخِرَةٌ فَلا خَلاقَ لَهُمْ فِي دَارٍ بَعْدَ الدُّنْيَا وَإِنْ كَانَ بَعْدَ الدُّنْيَا آخِرَةٌ فَهُمْ مَعَ كُفْرِهِمْ بِهَا لا خَلاقَ لَهُمْ فِيهَا ثُمَّ قَالَ: (وَلَبِئْسَ ما شَرَوْا بِهِ أَنْفُسَهُمْ) إِذْ بَاعُوا الآْخِرَةَ بِالدُّنْيَا وَرَهَنُوا بِالْعَذَابِ الدَّائِمِ أَنْفُسَهُمْ (لَوْ كانُوا يَعْلَمُونَ) أَنَّهُمْ قَدْ بَاعُوا أَنْفُسَهُمْ بِالْعَذَابِ وَلَكِنْ لا يَعْلَمُونَ ذَلِكَ لِكُفْرِهِمْ بِهِ فَلَمَّا تَرَكُوا النَّظَرَ فِي حُجَجِ اللَّهِ حَتَّىٰ يَعْلَمُوا عَذَابَهُمْ عَلَىٰ اعْتِقَادِهِمُ الْبَاطِلَ وَجَحْدِهِمْ الْحَقَّ. قَالَ يُوسُفُ بْنُ مُحَمَّدِ بْنِ زِيَادٍ وَعَلِيُّ بْنُ مُحَمَّدِ بْنِ سَيَّارٍ عَنْ أَبَوَيْهِمَا أَنَّهُمَا قَالا فَقُلْنَا لِلْحَسَنِ أَبِي الْقَائِمِ عَلَيْهِ السَّلامُ فَإِنَّ قَوْماً عِنْدَنَا يَزْعُمُونَ أَنَّ هَارُوتَ وَمَــارُوتَ مَلَكَانِ اخْتَارَتْهُمَا الْمَلائِكَةُ لَمَّا كَثُرَ عِصْيَانُ بَنِي آدَمَ وَأَنَّهُمَا افْتَتَنَا بِالزُّهَرَةِ وَأَرَادَا الزِّنَا بِهَا وَشَرِبَا الْخَمْرَ وَقَتَلا النَّفْسَ الْمُحْتَرَمَةَ وَأَنَّ اللَّهَ تَبَارَكَ وَتَعَالَى يُعَذِّبُهُمَا بِبَابِلَ وَأَنَّ السَّحَرَةَ مِنْهُمَا يَتَعَلَّمُونَ السِّحْرَ وَأَنَّ اللَّهَ مَسَخَ تِلْكَ الْمَرْأَةَ هَذَا الْكَوْكَبَ الَّذِي هُوَ الزُّهَرَةُ. فَقَالَ الإِمَامُ عَلَيْهِ السَّلامُ: مَعَاذَ اللَّهِ مِنْ ذَلِكَ! إِنَّ مَلائِكَةَ اللَّهِ مَعْصُومُونَ مَحْفُوظُونَ مِنَ الْكُفْرِ وَالْقَبَائِحِ بِأَلْطَافِ اللَّهِ. قَالَ اللَّهُ عَزَّ وَجَلَّ فِيهِمْ: (لا يَعْصُونَ اللَّهَ ما أَمَرَهُمْ وَيَفْعَلُونَ ما يُؤْمَرُونَ) وَقَالَ عَزَّ وَجَلَّ: (وَلَهُ مَنْ فِي السَّماواتِ وَالأَرْضِ وَمَنْ عِنْدَهُ) يَعْنِي مِنَ الْمَلائِكَةِ (لا يَسْتَكْبِرُونَ عَنْ عِبادَتِهِ وَلا يَسْتَحْسِرُونَ يُسَبِّحُونَ اللَّيْلَ وَالنَّهارَ لا يَفْتُرُونَ) وَقَالَ عَزَّ وَجَلَّ فِي الْمَلائِكَةِ أَيْضاً: (بَلْ عِبادٌ مُكْرَمُونَ لا يَسْبِقُونَهُ بِالْقَوْلِ وَهُمْ بِأَمْرِهِ يَعْمَلُونَ يَعْلُمُ ما بَيْنَ أَيْدِيهِمْ وَما خَلْفَهُمْ وَلا يَشْفَعُونَ إِلا لِمَنِ ارْتَضىٰ وَهُمْ مِنْ خَشْيَتِهِ مُشْفِقُونَ) ثُمَّ قَالَ عَلَيْهِ السَّلامُ: لَوْ كَانَ كَمَا يَقُولُونَ كَانَ اللَّهُ قَدْ جَعَلَ هَؤُلاءِ الْمَلائِكَةَ خُلَفَاءَ عَلَىٰ الأَرْضِ وَكَانُوا كَالأَنْبِيَاءِ فِي الدُّنْيَا أَوْ كَالأَئِمَّةِ فَيَكُونُ مِنَ الأَنْبِيَاءِ وَالأَئِمَّةِ عَلَيْهِ السَّلامُ قَتْلُ النَّفْسِ وَالزِّنَا. ثُمَّ قَالَ عَلَيْهِ السَّلامُ: أَوَلَسْتَ تَعْلَمُ أَنَّ اللَّهَ عَزَّ وَجَلَّ لَمْ يُخْلِ الدُّنْيَا قَطُّ مِنْ نَبِيٍّ أَوْ إِمَامٍ مِنَ الْبَشَرِ؟ أَوَلَيْسَ اللَّهُ عَزَّ وَجَلَّ يَقُولُ: (وَما أَرْسَلْنا قَبْلَكَ يَعْنِي إِلَى الْخَلْقِ إِلا رِجالاً نُوحِي إِلَيْهِمْ مِنْ أَهْلِ الْقُرَى) فَأَخْبَرَ أَنَّهُ لَمْ يَبْعَثِ الْمَلائِكَةَ إِلَى الأَرْضِ لِيَكُونُوا أَئِمَّةً وَحُكَّاماً وَإِنَّمَا أُرْسِلُوا إِلَى أَنْبِيَاءِ اللَّهِ. قَالا: قُلْنَا لَهُ: فَعَلَى هَذَا لَمْ يَكُنْ إِبْلِيسُ أَيْضاً مَلَكاً.فَقَالَ: لا. بَلْ كَانَ مِنَ الْجِنِّ. أَمَا تَسْمَعَانِ اللَّهَ عَزَّ وَجَلَّ يَقُولُ: (وَإِذْ قُلْنا لِلْمَلائِكَةِ اسْجُدُوا لآدَمَ فَسَجَدُوا إِلا إِبْلِيسَ كانَ مِنَ الْجِنِّ) فَأَخْبَرَ عَزَّ وَجَلَّ أَنَّهُ كَانَ مِنَ الْجِنِّ. وَهُوَ الَّذِي قَالَ اللَّهُ عَزَّ وَجَلَّ وَالْجَانَّ خَلَقْناهُ مِنْ قَبْلُ مِنْ نارِ السَّمُومِ. قَالَ الإِمَامُ الْحَسَنُ بْنُ عَلِيٍّ عَلَيْهِ السَّلامُ حَدَّثَنِي أَبِي، عَن جَدِّي عَنِ الرِّضَا، عَن آبَائِهِ، عَن عَلِيٍّ عَلَيْهِ السَّلامُ قالَ: قالَ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ إِنَّ اللَّهَ عَزَّ وَجَلَّ اخْتَارَنَا مَعَاشِرَ آلِ مُحَمَّدٍ وَاخْتَارَ النَّبِيِّينَ وَاخْتَارَ الْمَلائِكَةَ الْمُقَرَّبِينَ وَمَا اخْتَارَهُمْ إِلا عَلَىٰ عِلْمٍ مِنْهُ بِهِمْ أَنَّهُمْ لا يُوَاقِعُونَ مَا يَخْرُجُونَ بِهِ عَنْ وَلايَتِهِ وَيَنْقَلِعُونَ بِهِ عَنْ عِصْمَتِهِ وَيَنْتَمُونَ بِهِ إِلَى الْمُسْتَحِقِّينَ لِعَذَابِهِ وَنِقْمَتِهِ قَالا فَقُلْنَا لَهُ فَقَدْ رُوِيَ لَنَا أَنَّ عَلِيّاً عَلَيْهِ السَّلامُ لَمَّا نَصَّ عَلَيْهِ رَسُولُ اللَّهِ صَلَّى اللهُ عَلَيْهِ وَآلِهِ بِالإِمَامَةِ عَرَضَ اللَّهُ عَزَّ وَجَلَّ وَلايَتَهُ فِي السَّمَاوَاتِ عَلَىٰ فِئامٍ مِنَ النَّاسِ وَفِئامٍ مِنَ الْمَلائِكَةِ فَأَبَوْهَا فَمَسَخَهُمُ اللَّهُ ضَفَادِعَ فَقَالَ عَلَيْهِ السَّلامُ مَعَاذَ اللَّهِ هَؤُلاءِ الْمُكَذِّبُونَ لَنَا الْمُفْتَرُونَ عَلَيْنَا الْمَلائِكَةُ هُمْ رُسُلُ اللَّهِ فَهُمْ كَسَائِرِ أَنْبِيَاءِ اللَّهِ وَرُسُلِهِ إِلَى الْخَلْقِ فَيَكُونُ مِنْهُمُ الْكُفْرُ بِاللَّهِ قُلْنَا لا قَالَ فَكَذَلِكَ الْمَلائِكَةُ إِنَّ شَأْنَ الْمَلائِكَةِ لَعَظِيمٌ وَإِنَّ خَطْبَهُمْ لَجَلِيلٌ.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "حَدَّثَنا مُحَمَّدِ بْنِ القاسِم المفسر المَعْرُوف بِأَبِي الحَسَن الجرجانِي رَضِىَ اللهُ عَنْهُ قالَ: حَدَّثَنا يُوسِف بن مُحَمَّدِ بْنِ زِياد وَعَلِىِّ بْنِ مُحَمَّدِ بْنِ سيار، عَن أَبُويهما",
+          "name_en": "Muhammad b. al-Qasim al-Mufassir al-Ma'ruf bi-Abi al-Hasan al-Jurjani",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الحَسَن بْنِ عَلِى‏ عَلَيْهِ السَّلامُ، عَن أَبِيهِ مُحَمَّد عَلَيْهِ السَّلامُ، عَن أَبيهِ مُحَمَّدِ بْنِ عَلِى‏ عَلَيْهِ السَّلامُ",
+          "name_en": "al-Hasan b. Ali, over his father Muhammad, over his father Muhammad b. Ali",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أَبيهِ الرِّضا عَلِىِّ بْنِ مُوسَى‏ عَلَيْهِ السَّلامُ، عَن أَبيهِ مُوسَى بْنِ جَعْفَر عَلَيْهِ السَّلامُ، عَن أَبيهِ الصَّادِق جَعْفَرِ بْنِ مُحَمَّد عَلَيْهِ السَّلامُ",
+          "name_en": "Abi al-Rida Ali b. Musa, over his father Musa b. Ja'far, over his father al-Sadiq Ja'far b. Muhammad",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "تَبَارَكَ وَتَعَالَىٰ",
+        "phrase_en": "Blessed and Exalted (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "قَالَ رَسُولُ اللَّهِ",
+        "phrase_en": "The Messenger of Allah said",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
+  }
+}

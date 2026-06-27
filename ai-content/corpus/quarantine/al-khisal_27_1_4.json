@@ -1,0 +1,399 @@
+{
+  "verse_path": "/books/al-khisal:27:1:4",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "narrator[0] name_ar has 17 words (>14, بن-density 0.18 — likely a sentence fragment, not a name): 'أبي رضي الله عنه قال: حدثنا سعد بن عبد الله قال: حدثني أحمد '",
+    "narrator[4] name_ar has 36 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'إلى بعض الصادقين من آل محمد عليهم السلام قال: جاء رجلان من ي'",
+    "narrator[6] name_ar has 120 words (>14, بن-density 0.01 — likely a sentence fragment, not a name): 'الواحد والاثنين والثلاث والاربعة والخمسة والستة والسبعة والث'",
+    "chunks[1] translations.ur is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.tr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.fa is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.id is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.es is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.fr is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.de is empty string (likely Phase 4 batch failure)",
+    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "quran_commentary",
+      "prophetic_tradition"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "quran_interpretation_method",
+      "divine_attributes",
+      "prophetic_character",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "حَدَّثَنَا أَبِي رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ قَالَ: حَدَّثَنِي أَحْمَدُ بْنُ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ أَبِيهِ، عَنْ جَعْفَرِ بْنِ يَحْيَى، عَنْ أَبِيهِ رَفَعَهُ إِلَى بَعْضِ الصَّادِقِينَ مِنْ آلِ مُحَمَّدٍ عَلَيْهِمُ السَّلَامُ",
+        "translations": {
+          "en": "My father narrated (may God be pleased with him) who said: Sa'd ibn Abdullah narrated to me who said: Ahmad ibn al-Husayn ibn Sa'id narrated to me, from his father, from Ja'far ibn Yahya, from his father, who linked it up to some of the Truthful ones from the Household of Muhammad (peace be upon them).",
+          "ur": "میرے والد نے بیان کیا (اللہ ان سے راضی ہو) انہوں نے کہا: سعد بن اللہ نے مجھ سے بیان کیا، انہوں نے کہا: احمد بن حسین بن سعید نے مجھ سے بیان کیا، اپنے والد سے، جعفر بن یحییٰ سے، اپنے والد سے، انہوں نے اسے محمد آل کی بعض صادقین تک پہنچایا (ان پر سلام ہو)۔",
+          "tr": "Babam (Allahü anh rivayet etti, dedi ki: Sa'd ibn Abdullah bana rivayet etti, dedi ki: Ahmed ibn el-Hüseyin ibn Saîd bana rivayet etti, babasından, Ca'fer ibn Yahya'dan, babasından, o da bunu Hz. Muhammed (aleyhimü's-selam) ailesinden bazı sadıklara ulaştırdı.",
+          "fa": "پدرم روایت کرد (رضی الله عنه) که گفت: سعد بن عبدالله به من روایت کرد که گفت: احمد بن حسین بن سعید به من روایت کرد، از پدرش، از جعفر بن یحیی، از پدرش، که آن را به برخی از صادقین از خاندان محمد (علیهم السلام) نسبت داد.",
+          "id": "Ayahku meriwayatkan (semoga Allah ridha kepadanya) yang berkata: Sa'd ibn Abdullah meriwayatkan kepadaku yang berkata: Ahmad ibn al-Husayn ibn Sa'id meriwayatkan kepadaku, dari ayahnya, dari Ja'far ibn Yahya, dari ayahnya, yang menyambungkannya kepada sebagian dari orang-orang yang benar dari Ahlul Muhammad (semoga salam atas mereka).",
+          "bn": "আমার পিতা (আল্লাহ তাঁহাতে সন্তুষ্ট) বর্ণনা করেছেন, তিনি বলেছেন: সাঈদ ইবনে আবদুল্লাহ আমাকে বর্ণনা করেছেন, তিনি বলেছেন: আহমদ ইবনে আল-হুসাইন ইবনে সাঈদ আমাকে বর্ণনা করেছেন, তাঁর পিতার নিকট হতে, জাফর ইবনে ইয়াহ্যার নিকট হতে, তাঁর পিতার নিকট হতে, যিনি এটিকে মুহাম্মদ (আলহুম) এর পরিবারের কয়েকজন সত্যবাদীর নিকট পর্যন্ত সংযুক্ত করেছেন।",
+          "es": "Me narró mi padre (que Allah esté complacido con él) quien lo narró) quien dijo: Sa'd ibn Abdullah me narró quien dijo: Ahmad ibn al-Husayn ibn Sa'id me narró, de su padre, de Ja'far ibn Yahya, de su padre, quien lo vinculó a algunos de los Fieles de la Familia de Muhammad (que la paz sea con ellos).",
+          "fr": "Mon père a rapporté (qu'Allah l'agrée) qui a dit : Sa'd ibn Abdullah m'a rapporté qui a dit : Ahmad ibn al-Husayn ibn Sa'id m'a rapporté, de son père, de Ja'far ibn Yahya, de son père, qui l'a relié à certains des Véridiques de la Maison de Muhammad (que la paix soit sur eux).",
+          "de": "Erzählte mir mein Vater (möge Gott mit ihm zufrieden sein), der sagte: Sa'd ibn Abdullah erzählte mir, der sagte: Ahmad ibn al-HHusayn ibn Sa'id erzählte mir, von seinem Vater, von Ja'far ibn Yahya, von seinem Vater, der es bis zu einigen der Wahrhaftigen aus dem Hause Muhammad (Friede sei mit ihnen) zurückführte.",
+          "ru": "Рассказал мне мой отец (да будет доволен им Аллах), который сказал: Саад ибн Абдуллах рассказал мне, который сказал: Ахмад ибн аль-Хусайн ибн Саид рассказал мне, от его отца, от Джафара ибн Яхьи, от его отца, который отнес это к одному из праведников из рода Мухаммада (мир им).",
+          "zh": "我父亲（愿主喜悦他）传述，他说：萨德·本·阿卜杜拉传述给我，他说：艾哈迈德·本·侯赛因·本·赛义德传述给我，从他父亲，从贾法尔·本·叶海亚，从他父亲，传述至穆罕默德家族（愿主赐福他们）中的一些诚实者。"
+        },
+        "word_start": 0,
+        "word_end": 35
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ: جَاءَ رَجُلَانِ مِنْ يَهُودِ خَيْبَرَ وَمَعَهُمَا التَّوْرَاةُ مَنْشُورَةٌ يُرِيدَانِ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ فَوَجَدَاهُ قَدْ قُبِضَ، فَأَتَيَا أَبَا بَكْرٍ فَقَالَا: إِنَّا قَدْ جِئْنَا نُرِيدُ النَّبِيَّ لِنَسْأَلَهُ عَنْ مَسْئَلَةٍ فَوَجَدْنَاهُ قَدْ قُبِضَ. فَقَالَ: وَمَا مَسْأَلَتُمَا؟ قَالَا: أَخْبِرْنَا عَنِ الْوَاحِدِ وَالِاثْنَيْنِ وَالثَّلَاثِ وَالْأَرْبَعَةِ وَالْخَمْسَةِ وَالسَّادِسَةِ وَالسَّابِعَةِ وَالثَّامِنَةِ وَالتَّاسِعَةِ وَالْعَشَرَةِ وَالْعِشْرِينَ وَالثَّلَاثِينَ وَالْأَرْبَعِينَ وَالْخَمْسِينَ وَالسِّتِّينَ وَالسَّبْعِينَ وَالثَّمَانِينَ وَالتِّسْعِينَ وَالْمِئَةِ. فَقَالَ لَهُمَا أَبُو بَكْرٍ: مَا عِنْدِي فِي هَذَا شَيْءٌ، ائْتِيَا عَلِيَّ بْنَ أَبِي طَالِبٍ. قَالَ: فَأَتَيَاهُ فَقَصَّا عَلَيْهِ الْقِصَّةَ مِنْ أَوَّلِهَا وَمَعَهُمَا التَّوْرَاةُ مَنْشُورَةٌ، فَقَالَ لَهُمَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ: إِنْ أَنَا أَخْبَرْتُكُمَا بِمَا تَجِدَانِهِ عِنْدَكُمَا تَسْلَمَا؟ قَالَا: نَعَمْ. قَالَ: أَمَّا الْوَاحِدُ فَهُوَ اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ. وَأَمَّا الِاثْنَانُ فَهُوَ قَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"لَا تَتَّخِذُوا إِلَهَيْنِ اثْنَيْنِ إِنَّمَا هُوَ إِلَهٌ وَاحِدٌ\". وَأَمَّا الثَّلَاثَةُ وَالْأَرْبَعَةُ وَالْخَمْسَةُ وَالسَّادِسَةُ وَالسَّابِعَةُ وَالثَّامِنَةُ فَهِنَّ قَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ فِي أَصْحَابِ الْكَهْفِ: \"سَيَقُولُونَ ثَلَاثَةٌ رَابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًا بِالْغَيْبِ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ قُلْ رَبِّي أَعْلَمُ بِعِدَّتِهِمْ مَا يَعْلَمُهُمْ إِلَّا قَلِيلٌ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَاءً ظَاهِرًا وَلَا تَسْتَفْتِ فِيهِمْ مِنْهُمْ أَحَدًا\". وَأَمَّا التَّسْعَةُ فَهُوَ قَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَكَانَ فِي الْمَدِينَةِ تِسْعَةُ رَهْطٍ يُفْسِدُونَ فِي الْأَرْضِ وَلَا يُصْلِحُونَ\". وَأَمَّا الْعَشَرَةُ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"تِلْكَ عَشَرَةٌ كَامِلَةٌ\". وَأَمَّا الْعِشْرُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"...إِن يَكُن مِّنكُمْ عِشْرُونَ صَابِرُونَ يَغْلِبُوا مِئَتَيْنِ\". وَأَمَّا الثَّلَاثُونَ وَالْأَرْبَعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَوَاعَدْنَا مُوسَى ثَلَاثِينَ لَيْلَةً وَأَتْمَمْنَاهَا بِعَشْرٍ فَتَمَّ مِيقَاتُ رَبِّهِ أَرْبَعِينَ لَيْلَةً\". وَأَمَّا الْخَمْسُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"فِي يَوْمٍ كَانَ مِقْدَارُهُ خَمْسِينَ أَلْفَ سَنَةٍ\". وَأَمَّا السِّتُّونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"...فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًا\". وَأَمَّا السَّبْعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَاخْتَارَ مُوسَى قَوْمَهُ سَبْعِينَ رَجُلًا لِمِيقَاتِنَا\". وَأَمَّا الثَّمَانُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَالَّذِينَ يَرْمُونَ الْمُحْصَنَاتِ ثُمَّ لَمْ يَأْتُوا بِأَرْبَعَةِ شُهَدَاءَ فَاجْلِدُوهُمْ ثَمَانِينَ جَلْدَةً\". وَأَمَّا التِّسْعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"إِنَّ هَذَا أَخِي لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً\". وَأَمَّا الْمِئَةُ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"الزَّانِيَةُ وَالزَّانِي فَاجْلِدُوا كُلَّ وَاحِدٍ مِنْهُمَا مِائَةَ جَلْدَةٍ\"",
+        "translations": {
+          "en": "He said: Two men from the Jews of Khaybar came with the Torah open, seeking the Prophet (peace be upon him and his family), but they found that he had passed away. So they went to Abu Bakr and said, 'We came to ask the Prophet a question, but found he had passed away.' He asked, 'What is your question?' They said, 'Inform us about the One, the Two, the Three, the Four, the Five, the Six, the Seven, the Eight, the Nine, the Ten, the Twenty, the Thirty, the Forty, the Fifty, the Sixty, the Seventy, the Eighty, the Ninety, and the Hundred.' Abu Bakr said to them, 'I have nothing regarding this; go to Ali ibn Abi Talib.' So they went to him and recounted the story from the beginning, with the Torah open before them. The Commander of the Faithful (peace be upon him) said to them, 'If I inform you of what you find with you, will you accept Islam?' They said, 'Yes.' He said: 'As for the One, it is God alone, with no partner. As for the Two, it is the word of God, the Exalted: \"Take not two gods, for He is but one God.\" As for the Three, Four, Five, Six, Seven, and Eight, they are the word of God in His Book regarding the Companions of the Cave: \"They will say there were three, their dog the fourth; and they will say there were five, their dog the sixth, by guesswork; and they will say there were seven, their dog the eighth.\" And as for the Nine, it is the word of God: \"And in the city were nine men who made mischief in the land and would not reform.\" And as for the Ten, it is the word of God: \"Those are ten complete.\" And as for the Twenty, it is the word of God: \"If there are twenty of you who are patient, they will overcome two hundred.\" And as for the Thirty and Forty, it is the word of God: \"And We appointed for Moses thirty nights and completed them with ten, so the term of his Lord was completed as forty nights.\" And as for the Fifty, it is the word of God: \"In a day the measure of which is fifty thousand years.\" And as for the Sixty, it is the word of God: \"But if he is unable, then the feeding of sixty poor people.\" And as for the Seventy, it is the word of God: \"And Moses chose seventy of his people for Our appointment.\" And as for the Eighty, it is the word of God: \"And those who chaste women and do not bring four witnesses, flog them with eighty stripes.\" And as for the Ninety, it is the word of God: \"This is my brother, he has ninety-nine ewes.\" And as for the Hundred, it is the word of God: \"The woman and the man guilty of adultery, flog each of them with a hundred stripes.\"",
+          "zh": "他说：两个来自海拜尔的犹太人拿着打开的《讨拉特》来寻找先知（愿主福安之及其家属），但发现他已经去世。于是他们去见艾布·伯克尔，说：‘我们本来想向先知提一个问题，但发现他已经去世了。’艾布·伯克尔问：‘你们的问题是什么？’他们说：‘请告诉我们关于一、二、三、四、五、六、七、八、九、十、二十、三十、四十、五十、六十、七十、八十、九十和一百的事。’艾布·伯克尔说：‘我对这些一无所知，你们去问阿里·本·阿比·塔利卜吧。’于是他们去见他，并从头讲述了经过，手中仍拿着打开的《讨拉特》。信士们的长官（愿主福安之）对他们说：‘如果我告诉你们你们手中所知的内容，你们会接受伊斯兰教吗？’他们说：‘会。’他说：‘至于“一”，那是独一的安拉，没有伙伴。至于“二”，是安拉至高无上的话语：“不要取两个神，因为祂只是独一的主。”至于“三、四、五、六、七、八”，是安拉在经典中关于山洞人的话语：“他们说他们是三个，他们的狗是第四个；他们说他们是五个，他们的狗是第六个，凭猜测；他们说他们是七个，他们的狗是第八个。”至于“九”，是安拉的话语：“城中有九个人，他们在地上作恶，不肯悔改。”至于“十”，是安拉的话语：“那是十全十美的。”至于“二十”，是安拉的话语：“如果你们中有二十人坚忍，他们就能战胜二百人。”至于“三十”和“四十”，是安拉的话语：“我为穆萨规定三十夜，并加以十夜，以便他主之期定为四十夜。”至于“五十”，是安拉的话语：“在那一日，其度量相当于五万年。”至于“六十”，是安拉的话语：“如果他无力，则需供养六十个穷人。”至于“七十”，是安拉的话语：“穆萨为他的人挑选了七十人，供我差遣。”至于“八十”，是安拉的话语：“对于贞洁的妇女，若不能带来四个见证人，则鞭打八十下。”至于“九十”，是安拉的话语：“这是我的兄弟，他有九十九只母羊。”至于“一百”，是安拉的话语：“行淫的男女，各打一百下。”",
+          "ur": "",
+          "tr": "",
+          "fa": "",
+          "id": "",
+          "bn": "",
+          "es": "",
+          "fr": "",
+          "de": "",
+          "ru": ""
+        },
+        "word_start": 35,
+        "word_end": 361
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This hadith from Shaykh al-Saduq’s *Al-Khisal* highlights Imam Ali’s (AS) profound knowledge of the Quran’s numerical symbolism, responding to Jewish scholars from Khaybar who sought to test his understanding of specific counts. By linking numbers one through one hundred to distinct Quranic verses, Ali demonstrates the text’s internal coherence and invites them to Islam, a narrative that underscores the Shia belief in the Imam’s divinely granted insight into scriptural depths.",
+        "seo_question": "What do the numbers one to one hundred refer to in the hadith of the Jews from Khaybar?",
+        "key_terms": {
+          "الصَّادِقِينَ": "The Truthful ones (a title for the Imams)",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "The Torah, open/unrolled",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commander of the Faithful",
+          "أَصْحَابُ الْكَهْفِ": "The Companions of the Cave",
+          "رَجْمًا بِالْغَيْبِ": "Guessing at the unknown/doubtfully",
+          "تِسْعَةُ رَهْطٍ": "Nine men of a family/clan",
+          "الزَّانِيَةُ وَالزَّانِي": "The woman and the man guilty of adultery"
+        }
+      },
+      "ur": {
+        "summary": "شیخ صدوق کی کتاب *الخصال* سے یہ حدیث امام علی (ع) کی قرآن کی عددی علامتوں کے گہرے علم کو اجاگر کرتی ہے، جو خیبر کے یہودی علماء کی جانب سے ان کی خاص گنتیوں کے بارے میں ان کے علم کا امتحان لینے کے لیے آئے تھے۔ ایک سے لے کر سو تک اعداد کو مختلف قرآنی آیات سے جوڑ کر، علی (ع) متن کی اندرونی ہم آہنگی کو ظاہر کرتے ہیں اور انہیں اسلام کی دعوت دیتے ہیں، جو ایک ایسا بیان ہے جو شیعہ عقیدے میں امام کے لیے قرآن کی گہرائیوں میں الہی طور پر عطا کردہ بصیرت پر زور دیتا ہے۔",
+        "seo_question": "خیبر کے یہودیوں کی حدیث میں ایک سے لے کر سو تک اعداد کا کیا مطلب ہے؟",
+        "key_terms": {
+          "الصَّادِقِينَ": "صدق والے",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "توراة کھلی ہوئی",
+          "أَمِيرُ الْمُؤْمِنِينَ": "امیر المومنین",
+          "أَصْحَابُ الْكَهْفِ": "اصحاب کہف",
+          "رَجْمًا بِالْغَيْبِ": "غیب کی طرف اندازہ لگانا",
+          "تِسْعَةُ رَهْطٍ": "نو مرد",
+          "الزَّانِيَةُ وَالزَّانِي": "زن و مرد زانی"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh el-Saduk’un *el-Hisal* eserinden bu hadis, İmam Ali'nin (AS) Kur'an'ın sayısal sembolizmine dair derin bilgisini vurgular; Khaybar'dan gelen Yahudi alimlerin, belirli sayıların anlamını test etmek amacıyla sorduğu sorulara yanıt verir. Bir ile yüz arasındaki sayıları farklı Kur'an ayetleriyle ilişkilendirerek Ali, metnin iç tutarlılığını gösterir ve onları İslam'a davet eder; bu anlatı, Şii inancında İmam'ın ayetlerin derinliklerine dair ilahi olarak verilmiş içgüsünü vurgular.",
+        "seo_question": "Khaybar Yahudileri hadisinde bir ile yüz arasındaki sayılar neyi ifade eder?",
+        "key_terms": {
+          "الصَّادِقِينَ": "Doğrular",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "Tevrat, açık/serilmiş",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Müminlerin Emiri",
+          "أَصْحَابُ الْكَهْفِ": "Mağarada Olanlar",
+          "رَجْمًا بِالْغَيْبِ": "Gizliye tahmin",
+          "تِسْعَةُ رَهْطٍ": "Dokuz erkek",
+          "الزَّانِيَةُ وَالزَّانِي": "Zina eden kadın ve zina eden erkek"
+        }
+      },
+      "fa": {
+        "summary": "این حدیث از شیخ صدوق در کتاب *الخصال*، دانش عمیق امام علی (ع) از نمادشناسی عددی قرآن را برجسته می‌کند و پاسخی است به دانشمندان یهودی خیبر که برای آزمون فهم ایشان از شمارش‌های خاص تلاش کردند. با پیوند دادن اعداد یک تا صد به آیات متمایز قرآنی، علی انسجام درونی متن را نشان می‌دهد و آنان را به اسلام دعوت می‌کند؛ روایتی که بر باور شیعه درباره بینش الهی امام به عمق متون دینی تأکید دارد.",
+        "seo_question": "اعداد یک تا صد در حدیث یهودیان خیبر به چه چیزی اشاره دارند؟",
+        "key_terms": {
+          "الصَّادِقِينَ": "صداقت‌مندان",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "تورات، گشوده/پهن‌شده",
+          "أَمِيرُ الْمُؤْمِنِينَ": "امیر مؤمنان",
+          "أَصْحَابُ الْكَهْفِ": "اصحاب کهف",
+          "رَجْمًا بِالْغَيْبِ": "گمان بردن از مجهول/با تردید",
+          "تِسْعَةُ رَهْطٍ": "نه مرد از یک خانواده/قبیله",
+          "الزَّانِيَةُ وَالزَّانِي": "زن و مرد گناهکار زنا"
+        }
+      },
+      "id": {
+        "summary": "Hadis dari Syekh al-Shaduq dalam *Al-Khisal* menyoroti pengetahuan mendalam Imam Ali (AS) tentang simbolisme numerik Al-Qur'an, sebagai respons terhadap para ulama Yahudi dari Khaybar yang ingin menguji pemahamannya terhadap hitungan tertentu. Dengan menghubungkan angka satu hingga seratus dengan ayat-ayat Al-Qur'an yang berbeda, Ali menunjukkan koherensi internal teks tersebut dan mengundang mereka masuk Islam, sebuah narasi yang menekankan keyakinan Syiah akan wawasan ilahi Imam terhadap kedalaman kitab suci.",
+        "seo_question": "Apa yang dimaksud dengan angka satu hingga seratus dalam hadis orang-orang Yahudi dari Khaybar?",
+        "key_terms": {
+          "الصَّادِقِينَ": "Orang-orang yang Benar (sebuah gelar untuk para Imam)",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "Taurat, terbuka/dibentangkan",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Pemimpin Orang-orang Beriman",
+          "أَصْحَابُ الْكَهْفِ": "Teman-teman Gua",
+          "رَجْمًا بِالْغَيْبِ": "Menebak-nebak tentang yang gaib/ragu-ragu",
+          "تِسْعَةُ رَهْطٍ": "Sembilan orang dari satu keluarga/klan",
+          "الزَّانِيَةُ وَالزَّانِي": "Wanita dan pria yang bersalah karena zina"
+        }
+      },
+      "bn": {
+        "summary": "শায়খুল সাদুকের 'আল-খিসাল' হাদিসে ইমাম আলীর (আস) কুরআনের সংখ্যাগত প্রতীকী জ্ঞানের গভীরতা তুলে ধরা হয়েছে, যখন খাইবারের ইহুদি পণ্ডিতগণ তাঁর নির্দিষ্ট গণনার বোঝাপড়া পরীক্ষা করার চেষ্টা করেছিলেন। এক থেকে শত পর্যন্ত সংখ্যাগুলোকে কুরআনের পৃথক আয়াতের সাথে যুক্ত করে আলী (আস) পাঠের অভ্যন্তরীণ সামঞ্জস্য প্রদর্শন করেন এবং তাদের ইসলামের দিকে আমন্ত্রণ জানান, যা শিয়া বিশ্বাসে ইমামের প্রতি দেওয়া আয়াতের গভীরতা সম্পর্কে ঐশ্বরিক অন্তর্দৃষ্টির উপর জোর দেয়।",
+        "seo_question": "খাইবারের ইহুদিদের হাদিসে এক থেকে শত পর্যন্ত সংখ্যাগুলো কীকে নির্দেশ করে?",
+        "key_terms": {
+          "الصَّادِقِينَ": "সিদ্দিকীন (ইমামদের জন্য একটি উপাধি)",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "তৌরাত, খোলা/বিস্তৃত",
+          "أَمِيرُ الْمُؤْمِنِينَ": "আমিরুল মুমিনীন",
+          "أَصْحَابُ الْكَهْفِ": "আসহাবুল কাহফ",
+          "رَجْمًا بِالْغَيْبِ": "রজমান বিল গাইব",
+          "تِسْعَةُ رَهْطٍ": "তিসআতু রহত",
+          "الزَّانِيَةُ وَالزَّانِي": "জানিয়াত ওয়াল জানি"
+        }
+      },
+      "es": {
+        "summary": "Este hadiz de Shaykh al-Saduq en *Al-Khisal* destaca el profundo conocimiento del Imam Ali (AS) sobre el simbolismo numérico del Corán, respondiendo a los eruditos judíos de Jaibar que buscaban poner a prueba su comprensión de cuentas específicas. Al vincular los números del uno al cien con versículos coránicos distintos, Ali demuestra la coherencia interna del texto y los invita al Islam, una narrativa que subraya la creencia chií en la percepción divinamente concedida del Imam sobre las profundidades de las escrituras.",
+        "seo_question": "¿A qué se refieren los números del uno al cien en el hadiz de los judíos de Jaibar?",
+        "key_terms": {
+          "الصَّادِقِينَ": "Los Fieles",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "La Torá, abierta/desenrollada",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Comandante de los Fieles",
+          "أَصْحَابُ الْكَهْفِ": "Los Compañeros de la Cueva",
+          "رَجْمًا بِالْغَيْبِ": "Adivinar lo desconocido/dudosamente",
+          "تِسْعَةُ رَهْطٍ": "Nueve hombres de una familia/clan",
+          "الزَّانِيَةُ وَالزَّانِي": "La mujer y el hombre culpables de adulterio"
+        }
+      },
+      "fr": {
+        "summary": "Ce hadith tiré d'*Al-Khisal* de Cheikh al-Sadouq met en lumière la connaissance profonde de l'Imam Ali (AS) du symbolisme numérique du Coran, en réponse aux savants juifs de Khaybar qui cherchaient à tester sa compréhension de comptes spécifiques. En reliant les nombres de un à cent à des versets coraniques distincts, Ali démontre la cohérence interne la cohérence du texte et les invite à l'islam, un récit qui souligne la croyance chiite en l'illumination divinement accordée de l'Imam aux profondeurs scripturaires.",
+        "seo_question": "À quoi font référence les nombres de un à cent dans le hadith des Juifs de Khaybar ?",
+        "key_terms": {
+          "الصَّادِقِينَ": "Les Vrais (un titre pour les Imams)",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "La Torah, ouverte/déroulée",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Commandeur des Croyants",
+          "أَصْحَابُ الْكَهْفِ": "Les Compagnons de la Grotte",
+          "رَجْمًا بِالْغَيْبِ": "Deviner l'inconnu / avec doute",
+          "تِسْعَةُ رَهْطٍ": "Neuf hommes d'une famille/tribu",
+          "الزَّانِيَةُ وَالزَّانِي": "La femme et l'homme coupables d'adultère"
+        }
+      },
+      "de": {
+        "summary": "Dieses Hadith aus Scheych al-Saduqs *Al-Khisal* unterstreicht Imams Alis (AS) tiefgreifendes Wissen über die numerische Symbolik des Korans. Er antwortet darauf den jüdischen Gelehrten aus Chajbar, die sein Verständnis spezifischer Zahlen prüfen wollten, indem er die Zahlen eins bis hundert mit bestimmten Koranversen verknüpft. Ali demonstriert damit die innere Kohärenz des Textes und lädt sie zum Islam ein, eine Erzählung, die den schiitischen Glauben an die Imam’s göttlich gewährte Einsicht in die Tiefen der Schrift unterstreicht.",
+        "seo_question": "Worauf beziehen sich die Zahlen eins bis hundert im Hadith der Juden aus Chajbar?",
+        "key_terms": {
+          "الصَّادِقِينَ": "Die Wahrhaftigen",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "Die Tora, offen/ausgerollt",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Führer der Gläubigen",
+          "أَصْحَابُ الْكَهْفِ": "Die Gefährten der Höhle",
+          "رَجْمًا بِالْغَيْبِ": "Vermuten des Unbekannten/zweifelhaft",
+          "تِسْعَةُ رَهْطٍ": "Neun Männer einer Familie/eines Clans",
+          "الزَّانِيَةُ وَالزَّانِي": "Die Frau und der Mann, die der Unzucht schuldig sind"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из «аль-Хисаля» шейха ас-Садука подчеркивается глубокое знание имама Али (мир ему) числового символизма Корана. Он ответил на вопросы еврейских ученых из Хайбара, которые хотели проверить его понимание конкретных чисел. Связывая числа от одного до ста с отдельными аятами Корана, Али демонстрирует внутреннюю согласованность текста и приглашает их в ислам, что подчеркивает шиитскую веру в божественно дарованное имаму проникновение в глубины Писания.",
+        "seo_question": "На что указывают числа от одного до ста в хадисе об евреях из Хайбара?",
+        "key_terms": {
+          "الصَّادِقِينَ": "Правдивые (титул для имамов)",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "Тора, раскрытая/раскатанная",
+          "أَمِيرُ الْمُؤْمِنِينَ": "Повелитель верующих",
+          "أَصْحَابُ الْكَهْفِ": "Спутники пещеры",
+          "رَجْمًا بِالْغَيْبِ": "Угадывание неизвестного/сомнительно",
+          "تِسْعَةُ رَهْطٍ": "Девять человек рода/клана",
+          "الزَّانِيَةُ وَالزَّانِي": "Женщина и мужчина, виновные в прелюбодеянии"
+        }
+      },
+      "zh": {
+        "summary": "谢赫·萨杜克《特性》中的这段圣训凸显了伊玛目阿里（愿主喜悦之）对《古兰经》数字象征意义的深刻认知，他回应了来自海拜尔的犹太学者，以测试他对特定计数的理解。通过将一到一百的数字与不同的《古兰经》经文联系起来，阿里展示了文本的内部连贯性，并邀请他们皈依伊斯兰教，这一叙事强调了什叶派关于伊玛目被赋予洞察经文深层含义的信念。",
+        "seo_question": "在海拜尔犹太人的圣训中，一到一百的数字指代什么？",
+        "key_terms": {
+          "الصَّادِقِينَ": "诚实者",
+          "التَّوْرَاةُ مَنْشُورَةٌ": "《讨拉特》展开",
+          "أَمِيرُ الْمُؤْمِنِينَ": "信士的长官",
+          "أَصْحَابُ الْكَهْفِ": "山洞中人",
+          "رَجْمًا بِالْغَيْبِ": "猜测未知",
+          "تِسْعَةُ رَهْطٍ": "九个男子",
+          "الزَّانِيَةُ وَالزَّانِي": "行淫的妇女和男子"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:185",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:91",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "18:22",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "27:48",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:196",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:24",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:183",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:219",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "20:14",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "70:4",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:179",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "20:83",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "24:4",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "38:23",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "24:2",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "112:1",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "28:46",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "حَدَّثَنَا أَبِي رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ قَالَ: حَدَّثَنِي أَحْمَدُ بْنُ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ أَبِيهِ، عَنْ جَعْفَرِ بْنِ يَحْيَى، عَنْ أَبِيهِ رَفَعَهُ إِلَى بَعْضِ الصَّادِقِينَ مِنْ آلِ مُحَمَّدٍ عَلَيْهِمُ السَّلَامُ قَالَ: جَاءَ رَجُلَانِ مِنْ يَهُودِ خَيْبَرَ وَمَعَهُمَا التَّوْرَاةُ مَنْشُورَةٌ يُرِيدَانِ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ فَوَجَدَاهُ قَدْ قُبِضَ، فَأَتَيَا أَبَا بَكْرٍ فَقَالَا: إِنَّا قَدْ جِئْنَا نُرِيدُ النَّبِيَّ لِنَسْأَلَهُ عَنْ مَسْئَلَةٍ فَوَجَدْنَاهُ قَدْ قُبِضَ. فَقَالَ: وَمَا مَسْأَلَتُمَا؟ قَالَا: أَخْبِرْنَا عَنِ الْوَاحِدِ وَالِاثْنَيْنِ وَالثَّلَاثِ وَالْأَرْبَعَةِ وَالْخَمْسَةِ وَالسَّادِسَةِ وَالسَّابِعَةِ وَالثَّامِنَةِ وَالتَّاسِعَةِ وَالْعَشَرَةِ وَالْعِشْرِينَ وَالثَّلَاثِينَ وَالْأَرْبَعِينَ وَالْخَمْسِينَ وَالسِّتِّينَ وَالسَّبْعِينَ وَالثَّمَانِينَ وَالتِّسْعِينَ وَالْمِئَةِ. فَقَالَ لَهُمَا أَبُو بَكْرٍ: مَا عِنْدِي فِي هَذَا شَيْءٌ، ائْتِيَا عَلِيَّ بْنَ أَبِي طَالِبٍ. قَالَ: فَأَتَيَاهُ فَقَصَّا عَلَيْهِ الْقِصَّةَ مِنْ أَوَّلِهَا وَمَعَهُمَا التَّوْرَاةُ مَنْشُورَةٌ، فَقَالَ لَهُمَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ: إِنْ أَنَا أَخْبَرْتُكُمَا بِمَا تَجِدَانِهِ عِنْدَكُمَا تَسْلَمَا؟ قَالَا: نَعَمْ. قَالَ: أَمَّا الْوَاحِدُ فَهُوَ اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ. وَأَمَّا الِاثْنَانُ فَهُوَ قَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"لَا تَتَّخِذُوا إِلَهَيْنِ اثْنَيْنِ إِنَّمَا هُوَ إِلَهٌ وَاحِدٌ\". وَأَمَّا الثَّلَاثَةُ وَالْأَرْبَعَةُ وَالْخَمْسَةُ وَالسَّادِسَةُ وَالسَّابِعَةُ وَالثَّامِنَةُ فَهِنَّ قَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ فِي أَصْحَابِ الْكَهْفِ: \"سَيَقُولُونَ ثَلَاثَةٌ رَابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًا بِالْغَيْبِ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ قُلْ رَبِّي أَعْلَمُ بِعِدَّتِهِمْ مَا يَعْلَمُهُمْ إِلَّا قَلِيلٌ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَاءً ظَاهِرًا وَلَا تَسْتَفْتِ فِيهِمْ مِنْهُمْ أَحَدًا\". وَأَمَّا التَّسْعَةُ فَهُوَ قَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَكَانَ فِي الْمَدِينَةِ تِسْعَةُ رَهْطٍ يُفْسِدُونَ فِي الْأَرْضِ وَلَا يُصْلِحُونَ\". وَأَمَّا الْعَشَرَةُ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"تِلْكَ عَشَرَةٌ كَامِلَةٌ\". وَأَمَّا الْعِشْرُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"...إِن يَكُن مِّنكُمْ عِشْرُونَ صَابِرُونَ يَغْلِبُوا مِئَتَيْنِ\". وَأَمَّا الثَّلَاثُونَ وَالْأَرْبَعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَوَاعَدْنَا مُوسَى ثَلَاثِينَ لَيْلَةً وَأَتْمَمْنَاهَا بِعَشْرٍ فَتَمَّ مِيقَاتُ رَبِّهِ أَرْبَعِينَ لَيْلَةً\". وَأَمَّا الْخَمْسُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"فِي يَوْمٍ كَانَ مِقْدَارُهُ خَمْسِينَ أَلْفَ سَنَةٍ\". وَأَمَّا السِّتُّونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"...فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًا\". وَأَمَّا السَّبْعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَاخْتَارَ مُوسَى قَوْمَهُ سَبْعِينَ رَجُلًا لِمِيقَاتِنَا\". وَأَمَّا الثَّمَانُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَالَّذِينَ يَرْمُونَ الْمُحْصَنَاتِ ثُمَّ لَمْ يَأْتُوا بِأَرْبَعَةِ شُهَدَاءَ فَاجْلِدُوهُمْ ثَمَانِينَ جَلْدَةً\". وَأَمَّا التِّسْعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"إِنَّ هَذَا أَخِي لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً\". وَأَمَّا الْمِئَةُ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"الزَّانِيَةُ وَالزَّانِي فَاجْلِدُوا كُلَّ وَاحِدٍ مِنْهُمَا مِائَةَ جَلْدَةٍ\"",
+    "isnad_matn": {
+      "isnad_ar": "حَدَّثَنَا أَبِي رَضِيَ اللَّهُ عَنْهُ قَالَ: حَدَّثَنَا سَعْدُ بْنُ عَبْدِ اللَّهِ قَالَ: حَدَّثَنِي أَحْمَدُ بْنُ الْحُسَيْنِ بْنِ سَعِيدٍ، عَنْ أَبِيهِ، عَنْ جَعْفَرِ بْنِ يَحْيَى، عَنْ أَبِيهِ رَفَعَهُ إِلَى بَعْضِ الصَّادِقِينَ مِنْ آلِ مُحَمَّدٍ عَلَيْهِمُ السَّلَامُ",
+      "matn_ar": "قَالَ: جَاءَ رَجُلَانِ مِنْ يَهُودِ خَيْبَرَ وَمَعَهُمَا التَّوْرَاةُ مَنْشُورَةٌ يُرِيدَانِ النَّبِيَّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ فَوَجَدَاهُ قَدْ قُبِضَ، فَأَتَيَا أَبَا بَكْرٍ فَقَالَا: إِنَّا قَدْ جِئْنَا نُرِيدُ النَّبِيَّ لِنَسْأَلَهُ عَنْ مَسْئَلَةٍ فَوَجَدْنَاهُ قَدْ قُبِضَ. فَقَالَ: وَمَا مَسْأَلَتُمَا؟ قَالَا: أَخْبِرْنَا عَنِ الْوَاحِدِ وَالِاثْنَيْنِ وَالثَّلَاثِ وَالْأَرْبَعَةِ وَالْخَمْسَةِ وَالسَّادِسَةِ وَالسَّابِعَةِ وَالثَّامِنَةِ وَالتَّاسِعَةِ وَالْعَشَرَةِ وَالْعِشْرِينَ وَالثَّلَاثِينَ وَالْأَرْبَعِينَ وَالْخَمْسِينَ وَالسِّتِّينَ وَالسَّبْعِينَ وَالثَّمَانِينَ وَالتِّسْعِينَ وَالْمِئَةِ. فَقَالَ لَهُمَا أَبُو بَكْرٍ: مَا عِنْدِي فِي هَذَا شَيْءٌ، ائْتِيَا عَلِيَّ بْنَ أَبِي طَالِبٍ. قَالَ: فَأَتَيَاهُ فَقَصَّا عَلَيْهِ الْقِصَّةَ مِنْ أَوَّلِهَا وَمَعَهُمَا التَّوْرَاةُ مَنْشُورَةٌ، فَقَالَ لَهُمَا أَمِيرُ الْمُؤْمِنِينَ عَلَيْهِ السَّلَامُ: إِنْ أَنَا أَخْبَرْتُكُمَا بِمَا تَجِدَانِهِ عِنْدَكُمَا تَسْلَمَا؟ قَالَا: نَعَمْ. قَالَ: أَمَّا الْوَاحِدُ فَهُوَ اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ. وَأَمَّا الِاثْنَانُ فَهُوَ قَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"لَا تَتَّخِذُوا إِلَهَيْنِ اثْنَيْنِ إِنَّمَا هُوَ إِلَهٌ وَاحِدٌ\". وَأَمَّا الثَّلَاثَةُ وَالْأَرْبَعَةُ وَالْخَمْسَةُ وَالسَّادِسَةُ وَالسَّابِعَةُ وَالثَّامِنَةُ فَهِنَّ قَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ فِي أَصْحَابِ الْكَهْفِ: \"سَيَقُولُونَ ثَلَاثَةٌ رَابِعُهُمْ كَلْبُهُمْ وَيَقُولُونَ خَمْسَةٌ سَادِسُهُمْ كَلْبُهُمْ رَجْمًا بِالْغَيْبِ وَيَقُولُونَ سَبْعَةٌ وَثَامِنُهُمْ كَلْبُهُمْ قُلْ رَبِّي أَعْلَمُ بِعِدَّتِهِمْ مَا يَعْلَمُهُمْ إِلَّا قَلِيلٌ فَلَا تُمَارِ فِيهِمْ إِلَّا مِرَاءً ظَاهِرًا وَلَا تَسْتَفْتِ فِيهِمْ مِنْهُمْ أَحَدًا\". وَأَمَّا التَّسْعَةُ فَهُوَ قَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَكَانَ فِي الْمَدِينَةِ تِسْعَةُ رَهْطٍ يُفْسِدُونَ فِي الْأَرْضِ وَلَا يُصْلِحُونَ\". وَأَمَّا الْعَشَرَةُ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"تِلْكَ عَشَرَةٌ كَامِلَةٌ\". وَأَمَّا الْعِشْرُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"...إِن يَكُن مِّنكُمْ عِشْرُونَ صَابِرُونَ يَغْلِبُوا مِئَتَيْنِ\". وَأَمَّا الثَّلَاثُونَ وَالْأَرْبَعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَوَاعَدْنَا مُوسَى ثَلَاثِينَ لَيْلَةً وَأَتْمَمْنَاهَا بِعَشْرٍ فَتَمَّ مِيقَاتُ رَبِّهِ أَرْبَعِينَ لَيْلَةً\". وَأَمَّا الْخَمْسُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ: \"فِي يَوْمٍ كَانَ مِقْدَارُهُ خَمْسِينَ أَلْفَ سَنَةٍ\". وَأَمَّا السِّتُّونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"...فَمَن لَّمْ يَسْتَطِعْ فَإِطْعَامُ سِتِّينَ مِسْكِينًا\". وَأَمَّا السَّبْعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَاخْتَارَ مُوسَى قَوْمَهُ سَبْعِينَ رَجُلًا لِمِيقَاتِنَا\". وَأَمَّا الثَّمَانُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"وَالَّذِينَ يَرْمُونَ الْمُحْصَنَاتِ ثُمَّ لَمْ يَأْتُوا بِأَرْبَعَةِ شُهَدَاءَ فَاجْلِدُوهُمْ ثَمَانِينَ جَلْدَةً\". وَأَمَّا التِّسْعُونَ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"إِنَّ هَذَا أَخِي لَهُ تِسْعٌ وَتِسْعُونَ نَعْجَةً\". وَأَمَّا الْمِئَةُ فَقَوْلُ اللَّهِ عَزَّ وَجَلَّ فِي كِتَابِهِ: \"الزَّانِيَةُ وَالزَّانِي فَاجْلِدُوا كُلَّ وَاحِدٍ مِنْهُمَا مِائَةَ جَلْدَةٍ\"",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "أبي رضي الله عنه قال: حدثنا سعد بن عبد الله قال: حدثني أحمد بن الحسين بن سعيد،",
+          "name_en": "Abu",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "أبيه،",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "جعفر بن يحيى،",
+          "name_en": "Sa'd b. 'Abd Allah",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 888
+        },
+        {
+          "name_ar": "أبيه",
+          "name_en": "his father",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 2
+        },
+        {
+          "name_ar": "إلى بعض الصادقين من آل محمد عليهم السلام قال: جاء رجلان من يهود خيبر ومعهما التوراة منشورة يريدان النبي صلى الله عليه وآله فوجداه قد قبض، فأتيا أبا بكر فقالا: إنا قد جئنا نريد النبي لنسأله",
+          "name_en": "Ahmad b. al-Husayn b. Sa'id",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "مسألة فوجدناه قد قبض. فقال: وما مسألتكما؟قالا: أخبرنا",
+          "name_en": "Ja'far b. Yahya",
+          "role": "narrator",
+          "position": 6,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "الواحد والاثنين والثلاث والاربعة والخمسة والستة والسبعة والثمانية والتسعة والعشرة والعشرين والثلاثين والاربعين والخمسين والستين والسبعين والثمانين والتسعين والمائةفقال لهما أبو بكر: ما عندي في هذا شيء ائتيا علي بن أبي طالبقال: فأتياه فقصا عليه القصة من أولها ومعهما التوراة منشورة، فقال لهما أمير المؤمنين عليه السلام: إن أنا أخبرتكما بما تجدانه عندكما تسلمان؟ قالا: نعمقال: أما الواحد فهو الله وحده لا شريك له. وأما الاثنان فهو قول الله عز وجل: \"لا تتخذوا إلهين اثنين إنما هو إله واحد.\" وأما الثلاثة والاربعة والخمسة والستة والسبعة والثمانية فهن قول الله عز وجل في كتابه في أصحاب الكهف \"سيقولون ثلاثة رابعهم كلبهم ويقولون خمسة سادسهم كلبهم رجما بالغيب ويقولون سبعة وثامنهم كلبهم قل ربي أعلم بعدتهم ما يعلمهم إلا قليل فلا تمار",
+          "name_en": "al-Sadiq",
+          "role": "narrator",
+          "position": 7,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+        "phrase_en": "Peace be upon them",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "رَضِيَ اللَّهُ عَنْهُ",
+        "phrase_en": "May Allah be pleased with him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 9,
+    "_phase4_mode": "per_language"
+  }
+}

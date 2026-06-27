@@ -1,0 +1,341 @@
+{
+  "verse_path": "/books/al-kafi:8:1:50:18",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[1] en translation length out of bounds: 11 en words vs 47 ar words (ratio=0.23, expected 18.8-188.0)",
+    "chunks[1] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام)' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "quran_commentary",
+      "history",
+      "theology"
+    ],
+    "content_type": "quranic_commentary",
+    "topics": [
+      "quran_interpretation_method",
+      "companions",
+      "events"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ صَالِحِ بْنِ السِّنْدِيِّ عَنْ جَعْفَرِ بْنِ بَشِيرٍ عَنْ فَيْضِ بْنِ الْمُخْتَارِ قَالَ",
+        "translations": {
+          "en": "Ali ibn Ibrahim, from Salih ibn al-Sanadi, from Ja'far ibn Bashir, from Fayz ibn al-Mukhtar, who said:",
+          "ur": "علی بن ابراہیم، صالح بن السندي سے، جعفر بن بشیر سے، فیض بن المختار سے، انہوں نے کہا:",
+          "tr": "Ali ibn İbrahim, Salih ibn es-Sendî'den, Cafer ibn Beşîr'den, Feyz ibn el-Mukhtar'dan, o da şöyle dedi:",
+          "fa": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ صَالِحِ بْنِ السِّنْدِيِّ عَنْ جَعْفَرِ بْنِ بَشِيرٍ عَنْ فَيْضِ بْنِ الْمُخْتَارِ قَالَ",
+          "id": "Ali ibn Ibrahim, dari Salih ibn al-Sanadi, dari Ja'far ibn Bashir, dari Fayz ibn al-Mukhtar, yang berkata:",
+          "bn": "আলী ইবনে ইব্রাহীম, সালিহ ইবনুস সানদী হতে, জাফর ইবনে বশীর হতে, ফাইয ইবনুল মুখতার হতে, তিনি বলেন:",
+          "es": "Ali ibn Ibrahim, de la traducción: ",
+          "fr": "Ali ibn Ibrahim, de Salih ibn al-Sanadi, de Ja'far ibn Bashir, de Fayz ibn al-Mukhtar, qui a dit :",
+          "de": "Ali ibn Ibrahim, von Salih ibn al-Sanadi, von Ja'far ibn Bashir, von Fayz ibn al-Mukhtar, der sagte:",
+          "ru": "Али ибн Ибрахим, от Салиха ибн ас-Синди, от Джафара ибн Башира, от Файза ибн аль-Мухтара, который сказал:",
+          "zh": "阿里·本·易卜拉欣，从萨利赫·本·桑迪，从贾法尔·本·巴希尔，从费伊兹·本·穆赫塔尔，他说："
+        },
+        "word_start": 0,
+        "word_end": 16
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ أَبُو عَبْدِ اللَّهِ (عليه السلام) كَيْفَ تَقْرَأُ وَ عَلَى الثَّلاثَةِ الَّذِينَ خُلِّفُوا قَالَ لَوْ كَانَ خُلِّفُوا لَكَانُوا فِي حَالِ طَاعَةٍ وَ لَكِنَّهُمْ خَالَفُوا عُثْمَانُ وَ صَاحِبَاهُ أَمَا وَ اللَّهِ مَا سَمِعُوا صَوْتَ حَافِرٍ وَ لَا قَعْقَعَةَ حَجَرٍ إِلَّا قَالُوا أُتِينَا فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا.",
+        "translations": {
+          "en": "Abu Abdillah (peace be upon him) said: 'How do you read ",
+          "ur": "ابو عبداللہ (علیہ السلام) نے فرمایا: آپ کیسے پڑھتے ہیں؟",
+          "tr": "Ebu Abdillah (aleyhisselam) buyurdu: 'Nasıl okursunuz?",
+          "fa": "ابو عبدالله (علیه السلام) فرمود: چگونه می‌خوانید؟",
+          "id": "Abu Abdillah (semoga Allah meridhainya) berkata: 'Bagaimana kalian membacanya'",
+          "bn": "আবু আব্দুল্লাহ (রহ.) বললেন: আপনি কীভাবে তিলাওয়াত করেন?",
+          "es": "Abu Abdillah (la paz sea con él) dijo: '¿Cómo lees?",
+          "fr": "Abou Abdillah (que la paix soit sur lui) a lui) a dit : « Comment lis-tu ? »",
+          "de": "Abu Abdillah (friede sei mit ihm) sagte: „Wie liest du?",
+          "ru": "Абу Абдуллах (да будет доволен им Аллах) сказал: «Как ты читаешь?",
+          "zh": "阿布杜拉（愿真主喜悦他）说：“你们如何诵读？”"
+        },
+        "word_start": 16,
+        "word_end": 63
+      },
+      {
+        "chunk_type": "quran_quote",
+        "arabic_text": "وَ عَلَى الثَّلاثَةِ الَّذِينَ خُلِّفُوا",
+        "translations": {
+          "en": "And to the three who were left behind",
+          "ur": "اور ان تین لوگوں کے لیے جو پیچھے رہ گئے",
+          "tr": "Ve geride kalan üç kişiye de",
+          "fa": "و به سه نفرات عقب‌مانده",
+          "id": "Dan kepada tiga orang yang tertinggal",
+          "bn": "এবং তাদের তিনজনকে যারা পিছিয়ে পড়েছিল",
+          "es": "Y a los tres que quedaron atrás",
+          "fr": "Et à ceux qui furent laissés pour compte",
+          "de": "Und zu den drei, die zurückgelassen wurden",
+          "ru": "А тем троим, которые остались позади",
+          "zh": "以及被留下的那三个人"
+        },
+        "word_start": 63,
+        "word_end": 68
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "قَالَ لَوْ كَانَ خُلِّفُوا لَكَانُوا فِي حَالِ طَاعَةٍ وَ لَكِنَّهُمْ خَالَفُوا عُثْمَانُ وَ صَاحِبَاهُ أَمَا وَ اللَّهِ مَا سَمِعُوا صَوْتَ حَافِرٍ وَ لَا قَعْقَعَةَ حَجَرٍ إِلَّا قَالُوا أُتِينَا فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا.",
+        "translations": {
+          "en": "He (peace be upon him) said: 'Had they been left behind (khullifu), they would have been in a state of obedience. But they opposed (khalafu) — Uthman and his two companions. By Allah, they did not hear the sound of a hoof or the clatter of a stone except that they said, ",
+          "ur": "انہوں نے (صلی اللہ علیہ وسلم) فرمایا: اگر انہیں پیچھے چھوڑ دیا جاتا (خُلّفوا) تو وہ اطاعت کی حالت میں ہوتے۔ لیکن انہوں نے مخالفت کی (خالفوا) — عثمان اور اس کے دو ساتھی۔ اللہ کی قسم، انہوں نے کسی گھوڑے کے نعل کی آواز یا پتھر کی ٹک ٹک کو سوا نہیں سوا سوائے اس کے کہ وہ کہتے،",
+          "tr": "O (sallallahu aleyhi vesellem) şöyle buyurdu: 'Geride bırakılsalardı (khullifu), itaat halinde olurlardı. Ama onlar muhalefet ettiler (khalafu) — Osman ve iki arkadaşı. Allah'a yemin ederim ki, bir nal sesini ya da bir taşın gürültüsünü duymadılar, hemen şunları söylediler,",
+          "fa": "او (صلی الله علیه و آله) فرمود: اگر تأخیر می‌افتادند (خُلّفوا)، در حالت اطاعت بودند. اما مخالرت کردند (خَلَفوا) — عثمان و دو یار او. به خدا سوگند، صدای سم یا صدای برخورد سنگی را نمی‌شنیدند مگر اینکه می‌ گفتند،",
+          "id": "Ia (shallallahu 'alaihi wasallam) bersabda: \"Seandainya mereka dibiarkan (khullifu), niscaya mereka akan berada dalam keadaan taat. Namun mereka menentang (khalafu) — Utsman dan dua sahabatnya. Demi Allah, mereka tidak mendengar suara tapak kaki atau gemerincing batu melainkan mereka berkata,",
+          "bn": "তিনি (সা.) বলেছেন: 'যদি তাদের পিছনে রাখা হতো (খুল্লিফু), তবে তারা আনুগত্যের অবস্থায় থাকত। কিন্তু তারা বিদ্রোহিতা করেছে (খালফাফু) — উসমান এবং তার দুই সাহাবী। আল্লাহর শপথ, তারা কোনো ঘোড়ার খুরের শব্দ বা পাথরের শব্দ শুনতেন না, তবে তারা বলতেন,",
+          "es": "Él (que la paz sea con él) dijo: «Si hubieran sido dejados atrás (khullifu), habrían estado en un estado de obediencia. Pero se opusieron (khalafu) —Uthman y sus dos compañeros. Por Allah, no escuchaban el sonido de un casco ni el estrépito de una piedra sin que dijeran,",
+          "fr": "Il (que la paix soit sur lui) a dit : « S'ils avaient été laissés derrière (khullifu), ils seraient restés dans un état d'obéissance. Mais ils se sont opposés (khalafu) — Othman et ses deux compagnons. Par Allah, ils n'entendaient pas le bruit d'un sabot ou le cliquetis d'une pierre sans dire :",
+          "de": "Er (friede sei mit ihm) sagte: »Hätten sie zurückgelassen werden (khullifu), so wären sie in einem Zustand des Gehorsams gewesen. Doch sie widersetzten sich (khalafu) – Uthman und seine zwei Gefährten. Bei Allah, sie hörten den Klang eines Hufes oder das Klappern eines Steins nicht, ohne dass sie sagten,",
+          "ru": "Он (да будет над ним мир) сказал: «Если бы их оставили (khullifu), они были бы в состоянии послушания. Но они противоречили (khalafu) — Усман и его два сподвижника. Клянусь Аллахом, они не слышали звука копыта или стука камня, кроме как говорили,",
+          "zh": "他（愿主福安之）说：‘如果他们被留下（khullifu），他们本会处于顺从的状态。但他们违背了——奥斯曼和他的两位同伴。以真主起誓，他们除了听到马蹄声或石子滚动的声音时，便说，"
+        },
+        "word_start": 68,
+        "word_end": 102
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا.",
+        "translations": {
+          "en": "So Allah sent fear upon them until morning.",
+          "ur": "پس اللہ نے ان پر صبح تک خوف ڈالا۔",
+          "tr": "Allah onlara sabaha kadar korku saldı.",
+          "fa": "پس خداوند ترس را بر آنان فرود آورد تا صبح. }```json{ ",
+          "id": "Maka Allah menurunkan ketakutan kepada mereka hingga pagi hari.",
+          "bn": "অতঃপর আল্লাহ তাআলা সকাল পর্যন্ত তাদের উপর ভয় প্রেরণ করলেন।",
+          "es": "Entonces Alá les infundió temor hasta la mañana.",
+          "fr": "Alors Allah fit descendre la crainte sur eux jusqu'au matin.",
+          "de": "Da sandte Allah Furcht auf sie bis zum Morgen.",
+          "ru": "И Аллах ниспослал им страх до утра.",
+          "zh": "真主使恐惧降临在他们身上，直到早晨。"
+        },
+        "word_start": 102,
+        "word_end": 108
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "Imam Ja' al-Din (as) clarifies the grammatical nuance of 'khulif' in Surah At-Tawbah, distinguishing between passive omission and active disobedience to identify the three as Uthman ibn Affan and his companions. He highlights their psychological state of paranoia, where even the sound of a horse's hoof or a stone rolling triggered the fear of being caught, illustrating the divine punishment of 'khauf' (fear) mentioned in the verse.",
+        "seo_question": "Who were the three companions left behind in the Battle of Tabuk and what was their state of mind?",
+        "key_terms": {
+          "خُلِّفُوا": "Were left behind (passive)",
+          "خَالَفُوا": "Opposed/Disobied",
+          "عُثْمَانُ": "Uthman ibn Affan",
+          "صَاحِبَاهُ": "His two companions",
+          "حَافِرٍ": "Hoof",
+          "قَعْقَعَةَ حَجَرٍ": "Clatter of stone",
+          "الْخَوْفَ": "Fear"
+        }
+      },
+      "ur": {
+        "summary": "امام جعفر الصادق (علیہ السلام) سورہ توبہ میں 'خُلِّفُوا' کے گرامیاتی پہلو کی وضاحت کرتے ہوئے غیر فعال چھوڑے جانے اور فعال نافرمانی کے درمیان تمیز کرتے ہیں تاکہ تینوں کو عثمان بن عفان اور ان کے ساتھیوں کے طور پر پہچانا جا سکے۔ وہ ان کی نفسیاتی کیفیت یعنی پریشانی کو اجاگر کرتے ہیں، جہاں گھوڑے کے نعل کی آواز یا پتھر کے ٹکرانے کی آواز بھی پکے جانے کے خوف کو بڑھا دیتی تھی، جو آیت میں ذکر کردہ الٰہی سزا 'خوف' کی عکاسی کرتی ہے۔",
+        "seo_question": "غزوہ تبوک میں پیچھے چھوڑے گئے تین ساتھی کون تھے اور ان کی ذہنی کیفیت کیا تھی؟",
+        "key_terms": {
+          "خُلِّفُوا": "پیچھے چھوڑ دیے گئے (غیر فعال)",
+          "خَالَفُوا": "نافرمانی کی",
+          "عُثْمَانُ": "عثمان بن عفان",
+          "صَاحِبَاهُ": "ان کے دو ساتھی",
+          "حَافِرٍ": "نعل",
+          "قَعْقَعَةَ حَجَرٍ": "پتھر کی ٹکرانے کی آواز",
+          "الْخَوْفَ": "خوف"
+        }
+      },
+      "tr": {
+        "summary": "İmam Cafer es-Sadık (as), Tevbe Suresindeki 'khulif' ifadesinin dilbilimsel nüansını açıklar; pasif olarak geride bırakılmak ile aktif isyân arasında ayrım yaparak, üç kişinin Osman bin Affan ve iki arkadaşı olduğunu belirtir. Onların psikolojik durumundaki paranoyayı vurgular; atın nal sesinin veya taşın yuvarlanma sesinin bile yakalanma korkusunu tetiklediğini göstererek, ayette geçen ilahi ceza olan 'khauf' (korku) kavramını örnekler.",
+        "seo_question": "Tabut Savaşı'nda geride bırakılan üç sahabe kimlerdi ve zihin durumları nasıldı?",
+        "key_terms": {
+          "خُلِّفُوا": "Geride bırakıldılar (pasif)",
+          "خَالَفُوا": "Karşı geldiler/İsyân ettiler",
+          "عُثْمَانُ": "Osman bin Affan",
+          "صَاحِبَاهُ": "İki arkadaşı",
+          "حَافِرٍ": "Nal",
+          "قَعْقَعَةَ حَجَرٍ": "Taşın gıcırtısı",
+          "الْخَوْفَ": "Korku"
+        }
+      },
+      "fa": {
+        "summary": "امام جعفر صادق (علیه‌السلام) ظرافت دستوری «خُلِّفُوا» را در سوره توبه روشن می‌کند و بین ترک فعل منفعل و نافرمانی فعال تمایز قائل می‌شود تا سه نفر را به عنوان عثمان بن عفان و دو یار او شناسایی کند. او حالت روانی پارانویا (خودبزرگ‌بینی/ترس) آن‌ها را برجسته می‌سازد؛ جایی که حتی صدای سم اسب یا غلتیدن سنگ باعث ترس از دست رفتن می‌شد که این امر مجازات الهی «خوف» (ترس) ذکر شده در آیه را به تصویر می‌کشد.",
+        "seo_question": "آن سه یار که در جنگ تبوک عقب ماندند چه کسانی بودند و حالت ذهنی آن‌ها چگونه بود؟",
+        "key_terms": {
+          "خُلِّفُوا": "عقب ماندند (منفعل)",
+          "خَالَفُوا": "مخالف شدند/نافرمانی کردند",
+          "عُثْمَانُ": "عثمان بن عفان",
+          "صَاحِبَاهُ": "دو یار او",
+          "حَافِرٍ": "سم",
+          "قَعْقَعَةَ حَجَرٍ": "صدای غلتیدن سنگ",
+          "الْخَوْفَ": "ترس"
+        }
+      },
+      "id": {
+        "summary": "Imam Ja'far al-Din (as) menjelaskan nuansa tata bahasa dari 'khulif' dalam Surah At-Tawbah, membedakan antara pengabaian pasif dan ketidaktaatan aktif untuk mengidentifikasi ketiganya sebagai Utsman bin Affan dan teman-temannya. Ia menyoroti keadaan psikologis mereka yang paranoia, di mana bahkan suara tapak kuda atau batu yang berguling memicu ketakutan akan tertangkap, yang menggambarkan hukuman ilahi berupa 'khauf' (takut) yang disebutkan dalam ayat tersebut.",
+        "seo_question": "Siapakah tiga sahabat yang tertinggal dalam Perang Tabuk dan bagaimana keadaan pikiran mereka?",
+        "key_terms": {
+          "خُلِّفُوا": "Tertinggal (pasif)",
+          "خَالَفُوا": "Berlawanan/Tidak taat",
+          "عُثْمَانُ": "Utsman bin Affan",
+          "صَاحِبَاهُ": "Dua sahabatnya",
+          "حَافِرٍ": "Tapak",
+          "قَعْقَعَةَ حَجَرٍ": "Bunyi batu bergesekan",
+          "الْخَوْفَ": "Takut"
+        }
+      },
+      "bn": {
+        "summary": "ইমাম জা'ফর আস-সাদিক (আ.) সূরা আত-তাওবায় 'খুল্লিফা' শব্দের ব্যাকরণগত সূক্ষ্মতা ব্যাখ্যা করে, নিষ্ক্রিয়ভাবে পিছিয়ে পড়া এবং সক্রিয়ভাবে অবাধ্যতার মধ্যে পার্থক্য করে, যাতে তিনি উসমান ইবনে আফফান এবং তার দুই সঙ্গীকে চিহ্নিত করতে পারেন। তিনি তাদের মানসিক অবস্থার বিষণ্ণতার দিকে ইঙ্গিত করেন, যেখানে ঘোড়ার খুরের শব্দ বা পথরের গড়াগড়ি খেতে দেখলেই ধরা পড়ার ভয় হতো, যা আয়াতে উল্লিখিত 'খাওফ' (ভয়) নামক ঐশ্বরিক শাস্তির উদাহরণ দেয়।",
+        "seo_question": "তাবুক যুদ্ধে যে তিনজন সঙ্গী পিছিয়ে ছিলেন তারা কে এবং তাদের মানসিক অবস্থা কেমন ছিল?",
+        "key_terms": {
+          "خُلِّفُوا": "পিছিয়ে রাখা হয়েছিল (নিষ্ক্রিয়)",
+          "خَالَفُوا": "বিরোধিতা করেছিল/অবাধ্য হয়েছিল",
+          "عُثْمَانُ": "উসমান ইবনে আফফান",
+          "صَاحِبَاهُ": "তার দুই সঙ্গী",
+          "حَافِرٍ": "খুর",
+          "قَعْقَعَةَ حَجَرٍ": "পথরের গড়াগড়ি শব্দ",
+          "الْخَوْفَ": "ভয়"
+        }
+      },
+      "es": {
+        "summary": "El Imam Ja'far al-Din (as) aclara la sutileza gramatical de 'khulif' en la Surah At-Tawbah, distinguiendo entre omisión pasiva y desobediencia activa para identificar a los tres como Uthman ibn Affan y sus compañeros. Destaca su estado psicológico de paranoia, donde incluso el sonido del casco de un caballo o una piedra rodando desencadenaba el miedo a ser descubiertos, ilustrando el castigo divino de 'khauf' (miedo) mencionado en el versículo.",
+        "seo_question": "¿Quiénes fueron los tres compañeros que quedaron atrás en la Batalla de Tabuk y cuál era su estado de ánimo?",
+        "key_terms": {
+          "خُلِّفُوا": "Quedaron atrás (pasivo)",
+          "خَالَفُوا": "Se opusieron/Desobedecieron",
+          "عُثْمَانُ": "Uthman ibn Affan",
+          "صَاحِبَاهُ": "Sus dos compañeros",
+          "حَافِرٍ": "Casco",
+          "قَعْقَعَةَ حَجَرٍ": "Crujido de piedra",
+          "الْخَوْفَ": "Miedo"
+        }
+      },
+      "fr": {
+        "summary": "L'imam Ja'far al-Din (as) clarie la nuance grammaticale de 'khulif' dans la sourate At-Tawbah, distinguant l'omission passive de la désobéissance active pour identifier les trois comme étant Othman ibn Affan et ses compagnons. Il met en lumière leur état psychologique de paranoïa, où même le son du sabot d'un cheval ou d'une pierre qui roulait déclenchait la peur d'être découverts, illustrant le châtiment divin de 'khauf' (peur) mentionné dans le verset.",
+        "seo_question": "Qui étaient les trois compagnons restés en arrière lors de la bataille de Tabouk et quel était leur état d'esprit ?",
+        "key_terms": {
+          "خُلِّفُوا": "Étaient laissés pour compte (passif)",
+          "خَالَفُوا": "S'opposèrent / Désobéirent",
+          "عُثْمَانُ": "Othman ibn Affan",
+          "صَاحِبَاهُ": "Ses deux compagnons",
+          "حَافِرٍ": "Sabot",
+          "قَعْقَعَةَ حَجَرٍ": "Bruit de pierre",
+          "الْخَوْفَ": "Peur"
+        }
+      },
+      "de": {
+        "summary": "Imam Dschafar as-Sadiq (as) erläutert die grammatikalische Nuance von 'khulif' in Sure At-Tawba, indem er zwischen passivem Zurückgelassenwerden und aktivem Ungehorsam unterscheidet, um die drei als Uthman ibn Affan und seine Gefährten zu identifizieren. Er hebt ihren psychologischen Zustand der Paranoia hervor, bei dem selbst das Geräusch eines Hufeisenschlags oder eines rollenden Steins die Angst auslöste, erwischt zu werden, was die göttliche Strafe des 'khauf' (Angst) aus dem Vers veranschaulicht.",
+        "seo_question": "Wer waren die drei Gefährten, die in der Schlacht von Tabuk zurückgelassen wurden, und wie war ihr Gemütszustand?",
+        "key_terms": {
+          "خُلِّفُوا": "Wurden zurückgelassen (passiv)",
+          "خَالَفُوا": "Entgegenstanden/Ungehorsam geleistet",
+          "عُثْمَانُ": "Uthman ibn Affan",
+          "صَاحِبَاهُ": "Seine zwei Gefährten",
+          "حَافِرٍ": "Huf",
+          "قَعْقَعَةَ حَجَرٍ": "Klappern eines Steins",
+          "الْخَوْفَ": "Angst"
+        }
+      },
+      "ru": {
+        "summary": "Имам Джафар ас-Садик (ас) разъясняет грамматический нюанс слова «хуллифу» в суре Ат-Тауба, проводя различие между пассивным оставлением и активным неповиновением, чтобы идентифицировать троих как Усмана ибн Аффана и его сподвижников. Он подчеркивает их психологическое состояние паранойи, при котором даже звук копыта лошади или катящегося камня вызывал страх быть пойманными, что иллюстрирует божественное наказание в виде «хауф» (страх), упомянутое в аяте.",
+        "seo_question": "Кто были трое сподвижников, оставшиеся позади в битве при Табуке, и каково было их душевное состояние?",
+        "key_terms": {
+          "خُلِّفُوا": "Остались позади (пассивно)",
+          "خَالَفُوا": "Противились/Не повиновались",
+          "عُثْمَانُ": "Усман ибн Аффан",
+          "صَاحِبَاهُ": "Его два сподвижника",
+          "حَافِرٍ": "Копыто",
+          "قَعْقَعَةَ حَجَرٍ": "Стук камня",
+          "الْخَوْفَ": "Страх"
+        }
+      },
+      "zh": {
+        "summary": "伊玛目贾法尔·迪尼（愿主安之）澄清了《忏悔章》中“khulif”一词的语法细微差别，区分了被动遗漏与主动违抗，从而确定被留下的是奥斯曼·本·阿凡及其两位同伴。他强调了他们偏执的心理状态，即使马蹄声或石头滚动的声音也会引发被发现的恐惧，以此说明经文中提到的神圣惩罚“khauf”（恐惧）。",
+        "seo_question": "塔布克战役中被留下的三位同伴是谁？他们的心理状态如何？",
+        "key_terms": {
+          "خُلِّفُوا": "被留下（被动）",
+          "خَالَفُوا": "反对/违抗",
+          "عُثْمَانُ": "奥斯曼·本·阿凡",
+          "صَاحِبَاهُ": "他的两位同伴",
+          "حَافِرٍ": "蹄子",
+          "قَعْقَعَةَ حَجَرٍ": "石头滚动的声音",
+          "الْخَوْفَ": "恐惧"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "9:118",
+        "relationship": "explicit"
+      },
+      {
+        "ref": "9:101",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ صَالِحِ بْنِ السِّنْدِيِّ عَنْ جَعْفَرِ بْنِ بَشِيرٍ عَنْ فَيْضِ بْنِ الْمُخْتَارِ قَالَ قَالَ أَبُو عَبْدِ اللَّهِ (عليه السلام) كَيْفَ تَقْرَأُ وَ عَلَى الثَّلاثَةِ الَّذِينَ خُلِّفُوا قَالَ لَوْ كَانَ خُلِّفُوا لَكَانُوا فِي حَالِ طَاعَةٍ وَ لَكِنَّهُمْ خَالَفُوا عُثْمَانُ وَ صَاحِبَاهُ أَمَا وَ اللَّهِ مَا سَمِعُوا صَوْتَ حَافِرٍ وَ لَا قَعْقَعَةَ حَجَرٍ إِلَّا قَالُوا أُتِينَا فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا. وَ عَلَى الثَّلاثَةِ الَّذِينَ خُلِّفُوا قَالَ لَوْ كَانَ خُلِّفُوا لَكَانُوا فِي حَالِ طَاعَةٍ وَ لَكِنَّهُمْ خَالَفُوا عُثْمَانُ وَ صَاحِبَاهُ أَمَا وَ اللَّهِ مَا سَمِعُوا صَوْتَ حَافِرٍ وَ لَا قَعْقَعَةَ حَجَرٍ إِلَّا قَالُوا أُتِينَا فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا. فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا.",
+    "isnad_matn": {
+      "isnad_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ عَنْ صَالِحِ بْنِ السِّنْدِيِّ عَنْ جَعْفَرِ بْنِ بَشِيرٍ عَنْ فَيْضِ بْنِ الْمُخْتَارِ قَالَ",
+      "matn_ar": "قَالَ أَبُو عَبْدِ اللَّهِ (عليه السلام) كَيْفَ تَقْرَأُ وَ عَلَى الثَّلاثَةِ الَّذِينَ خُلِّفُوا قَالَ لَوْ كَانَ خُلِّفُوا لَكَانُوا فِي حَالِ طَاعَةٍ وَ لَكِنَّهُمْ خَالَفُوا عُثْمَانُ وَ صَاحِبَاهُ أَمَا وَ اللَّهِ مَا سَمِعُوا صَوْتَ حَافِرٍ وَ لَا قَعْقَعَةَ حَجَرٍ إِلَّا قَالُوا أُتِينَا فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا. وَ عَلَى الثَّلاثَةِ الَّذِينَ خُلِّفُوا قَالَ لَوْ كَانَ خُلِّفُوا لَكَانُوا فِي حَالِ طَاعَةٍ وَ لَكِنَّهُمْ خَالَفُوا عُثْمَانُ وَ صَاحِبَاهُ أَمَا وَ اللَّهِ مَا سَمِعُوا صَوْتَ حَافِرٍ وَ لَا قَعْقَعَةَ حَجَرٍ إِلَّا قَالُوا أُتِينَا فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا. فَسَلَّطَ اللَّهُ عَلَيْهِمُ الْخَوْفَ حَتَّى أَصْبَحُوا.",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عَلِيُّ بْنُ إِبْرَاهِيمَ",
+          "name_en": "Ali ibn Ibrahim",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 3
+        },
+        {
+          "name_ar": "صَالِحِ بْنِ السِّنْدِيِّ",
+          "name_en": "Salih ibn al-Sindy",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 157
+        },
+        {
+          "name_ar": "جَعْفَرِ بْنِ بَشِيرٍ",
+          "name_en": "Ja'far ibn Bashir",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 143
+        },
+        {
+          "name_ar": "فَيْضِ بْنِ الْمُخْتَارِ",
+          "name_en": "Fa'id b. al-Mukhtār",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 945
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

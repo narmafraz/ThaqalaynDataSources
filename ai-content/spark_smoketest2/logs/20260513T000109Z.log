@@ -1,0 +1,149 @@
+01:01:09 INFO Run log: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\logs\20260513T000109Z.log
+01:01:09 INFO OPENED C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\logs\pipeline.jsonl
+01:01:09 INFO Word dictionary: 609 entries
+01:01:09 INFO Narrator templates: 1074 entries
+01:01:09 INFO Narrator registry: 4544 entries
+01:01:09 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\prompts\system_prompt_17ead77ac9a169b6.txt (system prompt, 10090 chars)
+Pipeline v4 starting: 5 verses, 4 workers, mode=phased, backend=openai, p1=qwen36-fast, p4=qwen36-fast
+01:01:10 INFO Phased pipeline: key_phrases=176, taxonomy=loaded
+01:01:10 INFO P1-GEN quran_1_1 (4 words, phased, openai/qwen36-fast)...
+01:01:11 INFO P1-GEN quran_1_2 (4 words, phased, openai/qwen36-fast)...
+01:01:12 INFO P1-GEN quran_1_3 (2 words, phased, openai/qwen36-fast)...
+01:01:12 INFO P1-GEN quran_1_4 (3 words, phased, openai/qwen36-fast)...
+01:01:20 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:20 INFO P2-ENRICH quran_1_2...
+01:01:20 INFO P4-TRANSLATE quran_1_2...
+01:01:20 INFO P1-GEN quran_1_5 (5 words, phased, openai/qwen36-fast)...
+01:01:22 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:22 INFO P2-ENRICH quran_1_4...
+01:01:22 INFO P4-TRANSLATE quran_1_4...
+01:01:28 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:28 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:28 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:28 INFO P2-ENRICH quran_1_5...
+01:01:28 INFO P4-TRANSLATE quran_1_5...
+01:01:28 INFO P2-ENRICH quran_1_3...
+01:01:28 INFO P4-TRANSLATE quran_1_3...
+01:01:28 INFO P2-ENRICH quran_1_1...
+01:01:28 INFO P4-TRANSLATE quran_1_1...
+01:01:46 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:46 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:47 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:47 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:48 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:48 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:49 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:49 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:50 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:50 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:50 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:51 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:51 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:52 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:52 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:52 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:52 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:53 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:53 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:53 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:54 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:54 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:55 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:57 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:57 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:57 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:57 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:57 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:58 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:58 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:59 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:59 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:59 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:59 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:01:59 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:00 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:00 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:01 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:02 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:02 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:03 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:03 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:04 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:04 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:05 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:05 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:06 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:06 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:06 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:07 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:07 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:07 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:08 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:08 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:09 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:10 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:11 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:11 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:11 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:11 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:11 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:12 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:12 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:12 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:12 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:13 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:14 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:14 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:15 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:15 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:16 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:16 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:16 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:17 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:17 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\responses\quran_1_2.json
+01:02:17 INFO OK quran_1_2 [phased, $0.0000, 336 tok]
+01:02:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:23 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:23 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\responses\quran_1_5.json
+01:02:23 INFO OK quran_1_5 [phased, $0.0000, 366 tok]
+01:02:23 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\responses\quran_1_4.json
+01:02:23 INFO OK quran_1_4 [phased, $0.0000, 333 tok]
+01:02:23 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\responses\quran_1_3.json
+01:02:23 INFO OK quran_1_3 [phased, $0.0000, 347 tok]
+01:02:24 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:24 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:25 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:25 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:26 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:26 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:26 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:27 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:27 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:28 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:28 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:28 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:29 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:30 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:30 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:30 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:31 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:31 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:32 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:33 INFO HTTP Request: POST http://192.168.0.66:8000/v1/chat/completions "HTTP/1.1 200 OK"
+01:02:33 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\responses\quran_1_1.json
+01:02:33 INFO OK quran_1_1 [phased, $0.0000, 378 tok]
+
+============================================================
+Pipeline Complete (1.4 min)
+  Total: 5 processed, 0 skipped
+  Pass: 5 | Fixed: 0 | Errors: 0
+  Cost: $0.00 (avg $0.0000/verse)
+  Tokens: In: 33,276 | Out: 8,217
+============================================================
+01:02:33 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataGenerator\tmp\pipeline\pipeline_session.json
+01:02:33 INFO WROTE C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\sessions\20260513T000109Z.json
+01:02:33 INFO Run log saved: C:\Users\TrainingGR03\Documents\Projects\scripture\ThaqalaynDataSources\ai-content\spark_smoketest2\logs\20260513T000109Z.log

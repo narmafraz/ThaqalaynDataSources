@@ -1,0 +1,259 @@
+{
+  "verse_path": "/books/al-kafi:7:5:21:3",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-11",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] en translation length out of bounds: 2 en words vs 16 ar words (ratio=0.12, expected 6.4-64.0)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "judicial_rulings",
+      "companions"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ دُرُسْتَ عَنْ جَمِيلٍ قَالَ",
+        "translations": {
+          "en": "A number: ",
+          "ur": "ہماری جماعت کے کچھ لوگ سہل بن زیاد سے، انہوں نے اسماعیل بن مہران سے، انہوں نے درستی سے، انہوں نے جمیل سے روایت کی کہ انہوں نے امام عبداللہ (علیہ السلام) سے قتل میں اندھے کی گواہی کے بارے میں پوچھا، تو آپ نے فرمایا: اس کے پہلے قول پر عمل کیا جائے گا اور دوسرے پر نہیں۔",
+          "tr": "Birkaçı:",
+          "fa": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ دُرُسْتَ عَنْ جَمِيلٍ قَالَ: سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ شَهَادَةِ الْأَصَمِّ فِي الْقَتْلِ، قَالَ: يُؤْخَذُ بِأَوَّلِ قَوْلِهِ وَلَا يُؤْخَذُ بِالثَّانِي.",
+          "id": "Sejumlah",
+          "bn": "আমাদের সহকর্মীদের মধ্যে কয়েকজন সাহল ইবনে যিয়াদ থেকে, তিনি ইসমাইল ইবনে মিরান থেকে, তিনি দুরাস্ত থেকে, তিনি জামিল থেকে বর্ণনা করেন যে, তিনি আবদুল্লাহ ইবনে মুহাম্মদ (আলাইহিস সালাম) থেকে জিজ্ঞাসা করলেন, হত্যা মামলায় বধিরের সাক্ষ্য সম্পর্কে। তিনি বললেন, তার প্রথম বক্তব্যের ওপর আমল করা হবে, কিন্তু দ্বিতীয়টির ওপর নয়।",
+          "es": "Un número de",
+          "fr": "Un nombre :",
+          "de": "Eine Anzahl:",
+          "ru": "Из числа наших сподвижников передают от Сахла ибн Зияда, от Исмаила ибн Мирана, от Дурста, от Джамиля, который сказал: «Я спросил Абу Абдуллаха (да будет мир с ним) о свидетельстве глухого в деле убийства. Он ответил: принимается его первое показание, а второе — нет».",
+          "zh": "数人"
+        },
+        "word_start": 0,
+        "word_end": 16
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ شَهَادَةِ الْأَصَمِّ فِي الْقَتْلِ قَالَ يُؤْخَذُ بِأَوَّلِ قَوْلِهِ وَ لَا يُؤْخَذُ بِالثَّانِي",
+        "translations": {
+          "en": "I asked Abu Abdullah (peace be upon him) about the testimony of the deaf regarding the killing. He (peace be upon him) said: 'He is taken with the first of his speech, and not taken with the second'.",
+          "ur": "میں نے ابو عبداللہ (علیہ السلام) سے بے شنو کی گواہی کے بارے میں پوچھا جو قتل کے متعلق ہے۔ انہوں نے (علیہ السلام) فرمایا: 'اس کی پہلی بات کے ساتھ لیا جاتا ہے، اور دوسری کے ساتھ نہیں لیا جاتا'۔",
+          "tr": "Ben, Ebu Abdullah'a (aleyhisselam) sağırın katl konusunda şahitliği hakkında sordum. O (aleyhisselam) şöyle buyurdu: 'Onun sözünün ilk kısmıyla alınır, ikinci kısmıyla alınmaz.'",
+          "fa": "از ابو عبدالله (علیه السلام درباره شهادت کر درباره قتل پرسیدم. فرمود: با نخستین سخنش گرفته می‌شود و با دومین سخنش گرفته نمی‌شود.",
+          "id": "Aku bertanya kepada Abu Abdullah (alamah) tentang kesaksian orang tuli dalam kasus pembunuhan. Ia (alamah) menjawab: 'Dia diambil sumpah berdasarkan ucapan pertamanya, dan tidak berdasarkan ucapannya yang kedua.'",
+          "bn": "আমি আবু আবদুল্লাহর (র.) কাছে কর্ণশ্রবণ ব্যক্তির হত্যা সংক্রান্ত সাক্ষ্য সম্পর্কে জিজ্ঞাসা করলাম। তিনি (র.) বললেন: 'তাকে তার প্রথম বক্তৃতা অনুযায়ী গৃহীত হয়, এবং দ্বিতীয়টির অনুযায়ী নয়'।",
+          "es": "Pregunté a Abu Abdullah (que la paz sea con él) sobre el testimonio del sordo respecto a la muerte. Él (que la paz sea con él) dijo: 'Se le toma con su primera palabra, y no se le toma con la segunda'.",
+          "fr": "J'ai demandé à Abou Abdullah (que la paix soit sur lui) au sujet du témoignage des sourds en matière de meurtre. Il (que la paix soit sur lui) a dit : « On se fie à sa première parole, et non à la seconde ».",
+          "de": "Ich fragte Abu Abdullah (friede sei mit ihm) über das Zeugnis des Tauben bezüglich der Tötung. Er (friede sei mit ihm) sagte: 'Er wird mit dem ersten seiner Aussage anerkannt, und nicht mit dem zweiten'.",
+          "ru": "Я спросил Абу Абдуллаха (да будет мир с ним) о свидетельстве глухого в случае убийства. Он (да будет мир с ним) сказал: «Его берутся за первое его слово, а не за второе».",
+          "zh": "我询问阿布·阿卜杜拉（愿主福安之）关于聋人在杀人案件中的证词问题。他（愿主福安之）说：'他的证词以第一句话为准，不以第二句话为准'。"
+        },
+        "word_start": 16,
+        "word_end": 37
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from al-Kafi, Imam al-Sadiq (peace be upon him) establishes the principle of 'taking the first statement' (al-awwal) for a deaf witness in homicide cases, reflecting the Shia juristic view that the initial declaration carries the most weight due to its immediacy and lack of deliberation. This ruling highlights the practical adaptation of evidentiary standards for those with sensory impairments, ensuring justice is not hindered by their inability to hear the court's proceedings. It underscores the flexibility within Shia fiqh in accommodating physical disabilities while maintaining the integrity of testimonial evidence.",
+        "seo_question": "What is the legal ruling for the testimony of a deaf person in Islamic jurisprudence?",
+        "key_terms": {
+          "شَهَادَة": "Testimony",
+          "الْأَصَمّ": "The deaf person",
+          "الْقَتْل": "Killing/Homicide",
+          "يُؤْخَذُ": "Is taken/relied upon"
+        }
+      },
+      "ur": {
+        "summary": "الکافی کی اس روایت میں امام صادق (علیہ السلام) قتل کے مقدمات میں بہرے گواہ کے لیے 'پہلے بیان' (الاول) کے اصول کو قائم کرتے ہیں، جو شیعہ فقہی نقطہ نظر کی عکاسی کرتا ہے کہ ابتدائی اعلان سب سے زیادہ اہمیت رکھتا ہے کیونکہ یہ فوری ہوتا ہے اور اس میں غور و فکر نہیں ہوتا۔ یہ حکم ان لوگوں کے لیے ثبوت کے معیارات کی عملی تطبیق کو اجاگر کرتا ہے جنہیں حسی کمزوری ہو، تاکہ ان کی سماعت نہ ہونے کی وجہ سے انصاف متاثر نہ ہو۔ یہ شیعہ فقہ میں لچک کو بھی ظاہر کرتا ہے جو جسمانی معذوریوں کو قبول کرتی ہے جبکہ گواہی کے ثبوت کی سالمیت برقرار رکھتی ہے۔",
+        "seo_question": "اسلامی فقہ میں بہرے شخص کی گواہی کا قانونی حکم کیا ہے؟",
+        "key_terms": {
+          "شَهَادَة": "گواہی",
+          "الْأَصَمّ": "بہرا شخص",
+          "الْقَتْل": "قتل",
+          "يُؤْخَذُ": "لیا جاتا ہے"
+        }
+      },
+      "tr": {
+        "summary": "El-Kâfî'deki rivayete göre, İmamü's-Sâdık (aleyhisselâm), cinayet davalarında sağır şahidin ifadesinde 'ilk sözü esas alma' (el-evvel) ilkesini ortaya koymuş olup, bu durum başlangıçtaki beyanın düşünce süresi ve acelecilik açısından en ağır basan ifade olarak görülmesi nedeniyle Şii fıkhî görüşünü yansıtmaktadır. Bu hüküm, duyusal engeli olan kişiler için delil standartlarının pratik uyarlanmasını vurgulayarak, mahkeme işlemlerini duyamamaları nedeniyle adaletin engellenmemesini sağlar. Şii fıkhında, şahitlik delillerinin bütünlüğünü korurken fiziksel engellere uyum sağlama esnekliğini altını çizmektedir.",
+        "seo_question": "İslam hukukunda sağır kişinin şahitliğinin hükmü nedir?",
+        "key_terms": {
+          "شَهَادَة": "Şahitlik",
+          "الْأَصَمّ": "Sağır kişi",
+          "الْقَتْل": "Cinayet",
+          "يُؤْخَذُ": "Esas alınır"
+        }
+      },
+      "fa": {
+        "summary": "در این روایت از الکافی، امام صادق (علیه السلام) اصل «گرفتن اولین اظهار» (اول) را برای شاهد کر در موارد قتل ثابت می‌کند که بازتاب‌دهنده دیدگاه فقهی شیعه است که بیان اولیه به دلیل فوریت و عدم تأمل، بیشترین وزن را دارد. این حکم، تطبیق عملی استانداردهای ادله را برای کسانی که نقص حسی دارند برجسته می‌کند و اطمینان حاصل می‌کند که عدالت به دلیل ناتوانی در شنیدن جلسات دادگاه مختل نمی‌شود. این امر انعطاف‌پذیری در فقه شیعه را در پذیرش ناتوانی‌های جسمی در حالی که یکپارچگی شهادت حفظ می‌شود، تأکید می‌کند.",
+        "seo_question": "حکم حقوقی شهادت فرد کر در فقه اسلامی چیست؟",
+        "key_terms": {
+          "شَهَادَة": "شهادت",
+          "الْأَصَمّ": "صم",
+          "الْقَتْل": "قتل",
+          "يُؤْخَذُ": "گرفته می‌شود"
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari al-Kafi, Imam al-Sadiq (alamah) menetapkan prinsip 'mengambil pernyataan pertama' (al-awwal) untuk saksi bisu dalam kasus pembunuhan, mencerminkan pandangan fikih Syiah bahwa deklarasi awal memiliki bobot paling besar karena sifatnya yang langsung dan tanpa deliberasi. Hukum ini menyoroti adaptasi praktis standar bukti bagi mereka yang memiliki gangguan indra, memastikan keadilan tidak terhambat oleh ketidakmampuan mereka untuk mendengar jalannya persidangan. Hal ini menekankan fleksibilitas dalam fikih Syiah dalam mengakomodasi disabilitas fisik sambil menjaga integritas bukti testimonial.",
+        "seo_question": "Apa hukum syariat untuk kesaksian orang bisu dalam fikih Islam?",
+        "key_terms": {
+          "شَهَادَة": "Kesaksian",
+          "الْأَصَمّ": "Orang bisu",
+          "الْقَتْل": "Pembunuhan",
+          "يُؤْخَذُ": "Diambil/diandalkan"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি হাদিসে ইমাম আস-সাদিق (আ.) শহীদ বা হত্যা মামলায় বধির সাক্ষীর ক্ষেত্রে 'প্রথম বক্তব্য' (আল-আওয়াল) গ্রহণের নীতি প্রতিষ্ঠা করেছেন, যা শিয়া ফিকহের দৃষ্টিভঙ্গি প্রতিফলিত করে যে প্রাথমিক ঘোষণাটি তার তাৎক্ষণিকতা এবং বিবেচনার অভাবের কারণে সর্বাধিক গুরুত্ব বহন করে। এই রায়টি ইন্দ্রিয়গত অক্ষমতা সম্পন্ন ব্যক্তিদের জন্য প্রমাণের মানদণ্ডের ব্যবহারিক অভিযোজন তুলে ধরে, যাতে আদালতের কার্যক্রম শোনার অক্ষমতার কারণে ন্যায়বিচার বাধাপ্রাপ্ত না হয়। এটি শিয়া ফিকহের নমনীয়তা তুলে ধরে, যা শারীরিক অক্ষমতাকে সামঞ্জস্য করে কিন্তু সাক্ষ্যের অখণ্ডনীয়তা বজায় রাখে।",
+        "seo_question": "ইসলামি ফিকহে বধির সাক্ষ্যের আইনি রায় কী?",
+        "key_terms": {
+          "شَهَادَة": "সাক্ষ্য",
+          "الْأَصَمّ": "বধির ব্যক্তি",
+          "الْقَتْل": "হত্যা",
+          "يُؤْخَذُ": "গ্রহণ করা হয়"
+        }
+      },
+      "es": {
+        "summary": "En esta narración de al-Kafi, el Imam al-Sadiq (que la paz sea con él) establece el principio de 'tomar la primera declaración' (al-awwal) para un testigo sordo en casos de homicidio, reflejando la visión jurisdiccional chií de que la declaración inicial tiene mayor peso debido a su inmediatez y falta de deliberación. Este dictamen destaca la adaptación práctica de los estándares probatorios para quienes tienen impedidos sensoriales, asegurando que la justicia no se vea obstaculizada por su incapacidad para escuchar los procedimientos del tribunal. Subraya la flexibilidad dentro de la fiqh chií para acomodar las discapacidades físicas mientras se mantiene la integridad de la evidencia testimonial.",
+        "seo_question": "¿Cuál es el dictamen legal sobre el testimonio de una persona sorda en la jurisprudencia islámica?",
+        "key_terms": {
+          "شَهَادَة": "Testimonio",
+          "الْأَصَمّ": "La persona sorda",
+          "الْقَتْل": "Homicidio",
+          "يُؤْخَذُ": "Se toma/se confía en"
+        }
+      },
+      "fr": {
+        "summary": "Dans cette narration du Kâfi, l’Imam al-Sâdiq (que la paix soit sur lui) établit le principe de la prise en compte de la première déclaration (al-awwal) pour le témoin aveugle d’oreille dans les cas d’homicide, reflétant l’avis jurisprudentiel chiite selon lequel la déclaration initiale porte le plus de poids en raison de son immédiateté et de l’absence de délibération. Cette règle met en lumière l’adaptation pratique des normes probatoires pour les personnes souffrant de déficiences sensorielles, assurant que la justice ne soit pas entravée par leur incapacité à entendre les débats judiciaires. Elle souligne la flexibilité du fiqh chiite pour accommoder les handicaps physiques tout en maintenant l’intégrité de la preuve testimoniale.",
+        "seo_question": "Quelle est la règle juridique concernant le témoignage d’une personne sourde en jurisprudence islamique ?",
+        "key_terms": {
+          "شَهَادَة": "Témoignage",
+          "الْأَصَمّ": "La personne sourde",
+          "الْقَتْل": "Meurtre/Homicide",
+          "يُؤْخَذُ": "Est pris/en compte"
+        }
+      },
+      "de": {
+        "summary": "In dieser Überlieferung aus al-Kafi legt Imam al-Sadiq (Friede sei mit ihm) das Prinzip der „Erstausage“ (al-awwal) für einen taugen Zeugen bei Tötungsdelikten fest, was die schiitische juristische Ansicht widerspiegelt, dass die erste Erklärung aufgrund ihrer Unmittelbarkeit und fehlenden Überlegung das größte Gewicht trägt. Diese Rechtsnorm unterstreicht die praktische Anpassung der Beweisstandards für Personen mit Sinnesbeeinträchtigungen und stellt sicher, dass die Gerechtigkeit nicht durch ihre Unfähigkeit, die Gerichtsverhandlungen zu hören, behindert wird. Sie verdeutlicht die Flexibilität im schiitischen Fiqh bei der Berücksichtigung körperlicher Behinderungen bei gleichzeitiger Wahrung der Integrität der Zeugenaussage.",
+        "seo_question": "Wie lautet das rechtliche Urteil für die Zeugenaussage eines Tauben in der islamischen Jurisprudenz?",
+        "key_terms": {
+          "شَهَادَة": "Zeugenaussage",
+          "الْأَصَمّ": "Der Taube",
+          "الْقَتْل": "Tötung/Totschlag",
+          "يُؤْخَذُ": "Wird herangezogen"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из аль-Кафи имам ас-Садык (да будет мир с ним) устанавливает принцип принятия первого заявления (аль-авваль) свидетеля-глухого в делах об убийстве, что отражает шиитскую юридическую точку зрения: первоначальное заявление имеет наибольший вес из-за своей непосредственности и отсутствия обдумывания. Это постановление подчеркивает практическую адаптацию стандартов доказывания для лиц с нарушениями слуха, обеспечивая, чтобы правосудие не страдало от их неспособности слышать судебные заседания. Оно демонстрирует гибкость шиитского фикха в учете физических ограничений при сохранении достоверности свидетельских показаний.",
+        "seo_question": "Каков правовой статус показаний глухого человека в исламском праве?",
+        "key_terms": {
+          "شَهَادَة": "свидетельские показания",
+          "الْأَصَمّ": "глухой человек",
+          "الْقَتْل": "убийство",
+          "يُؤْخَذُ": "принимается"
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲》的这段圣训中，伊玛目萨迪格（愿主福安之）确立了在凶杀案中采纳聋人证人“第一陈述”（al-awwal）的原则，反映了什叶派法学观点，即由于即时性且未经深思熟虑，初始声明具有最大权重。这一裁决凸显了对感官障碍者证据标准的实际调整，确保其无法聆听法庭程序不会阻碍正义的实现。它强调了什叶派教法在保持证词完整性的同时，对身体残疾的包容性。",
+        "seo_question": "伊斯兰教法中聋人证词的法律裁决是什么？",
+        "key_terms": {
+          "شَهَادَة": "证词",
+          "الْأَصَمّ": "聋人",
+          "الْقَتْل": "凶杀",
+          "يُؤْخَذُ": "被采纳"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:282",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:283",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ دُرُسْتَ عَنْ جَمِيلٍ قَالَ سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ شَهَادَةِ الْأَصَمِّ فِي الْقَتْلِ قَالَ يُؤْخَذُ بِأَوَّلِ قَوْلِهِ وَ لَا يُؤْخَذُ بِالثَّانِي",
+    "isnad_matn": {
+      "isnad_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا عَنْ سَهْلِ بْنِ زِيَادٍ عَنْ إِسْمَاعِيلَ بْنِ مِهْرَانَ عَنْ دُرُسْتَ عَنْ جَمِيلٍ قَالَ",
+      "matn_ar": "سَأَلْتُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ شَهَادَةِ الْأَصَمِّ فِي الْقَتْلِ قَالَ يُؤْخَذُ بِأَوَّلِ قَوْلِهِ وَ لَا يُؤْخَذُ بِالثَّانِي",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "عِدَّةٌ مِنْ أَصْحَابِنَا",
+          "name_en": "A number of our companions",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 6
+        },
+        {
+          "name_ar": "سَهْلِ بْنِ زِيَادٍ",
+          "name_en": "Sahl ibn Ziyad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 8
+        },
+        {
+          "name_ar": "إِسْمَاعِيلَ بْنِ مِهْرَانَ",
+          "name_en": "Isma'il ibn Mihran",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 119
+        },
+        {
+          "name_ar": "دُرُسْتَ",
+          "name_en": "Durust",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 245
+        },
+        {
+          "name_ar": "جَمِيلٍ",
+          "name_en": "Jamil",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 95
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

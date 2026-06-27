@@ -1,0 +1,566 @@
+{
+  "verse_path": "/books/al-khisal:28:1:9",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-25",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "narrator[1] name_ar has 228 words (>14, بن-density 0.00 — likely a sentence fragment, not a name): 'ذلكأنا مع رسول الله صلى الله عليه وآله ومعي عترتي وسبطي على '",
+    "key_phrases must have 0-5 items, got 8"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "ethics",
+      "family",
+      "worship",
+      "afterlife"
+    ],
+    "content_type": "ethical_teaching",
+    "topics": [
+      "ahlulbayt_virtues",
+      "etiquette",
+      "intercession",
+      "paradise_hell",
+      "specific_supplications"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "اطْرَحُوا سُوءَ الظَّنِّ بَيْنَكُمْ، فَإِنَّ اللَّهَ عَزَّ وَجَلَّ نَهَىٰ عَنْ ذَلِكَ",
+        "translations": {
+          "en": "Cast off ill-suspicions among yourselves, for indeed Allah, the Exalted, has prohibited it.",
+          "ur": "اپنے دلوں سے گمانِ بد کو دور کرو، بے شک اللہ تعالیٰ نے اس کی ممانعت فرمائی ہے۔",
+          "tr": "Aranızdaki kötü zanları bırakın, çünkü Allah Teâlâ onu yasaklamıştır.",
+          "fa": "سوء الظن را از میان خود برانید، که همانا خداوند عزوجل آن را نهی فرموده است.",
+          "id": "Buanglah prasangka buruk di antara kalian, karena sesungguhnya Allah, Yang Maha Tinggi, telah melarangnya.",
+          "bn": "তোমাদের মধ্যে মন্দ সন্দাসমূহ দূর করো, নিশ্চয়ই আল্লাহ তাআলা এটি নিষেধ করেছেন।",
+          "es": "Desayuno",
+          "fr": "Éloignez les mauvaises suppositions entre vous, car Allah, le Très-Haut, l'a interdit.",
+          "de": "B",
+          "ru": "Избавьтесь от дурного предположения друг от друга, ибо Аллах, Всевышний, запретил это.",
+          "zh": "27-9 你们要摒弃彼此间的恶念，因为真主至尊至贵已禁止此事。"
+        },
+        "word_start": 0,
+        "word_end": 11
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "أَنَا مَعَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ وَمَعِي عِتْرَتِي وَسَبَطِي عَلَى الْحَوْضِ، فَمَنْ أَرَادَنَا فَلْيَأْخُذْذْ بِقَوْلِنَا وَلْيَعْمَلْ عَمَلَنَا، فَإِنَّ لِكُلِّ أَهْلِ بَيْتٍ نَجِيبًا وَلَنَا شَفَاعَةٌ، وَلِأَهْلِ مَوَدَّتِنَا شَفَاعَةٌ، فَتَنَافَسُوا فِي لِقَائِنَا عَلَى الْحَوْضِ، فَإِنَّا نَذُودُ عَنْهُ أَعْدَاءَنَا وَنُسْقِي مِنْهُ أَحْبَاءَنَا وَأَوْلِيَاءَنَا، وَمَنْ شَرِبَ مِنْهُ شَرَبَةً لَمْ يَظْمَأْ بَعْدَهَا أَبَدًا",
+        "translations": {
+          "en": "I will be with the Messenger of Allah (peace be upon him and his family), and with me will be my household and my grandsons at the Pool. Whoever desires us should follow our sayings and deeds, for every household has a noble one, and we have intercession, and those who love us have intercession. So compete with one another to meet us at the Pool, for we shall ward off our enemies from it and give drink to our lovers and friends from it. Whoever drinks from it a sip will never thirst afterwards.",
+          "ur": "میں رسول اللہ (صلی اللہ علیہ و آلہ وسلم) کے ساتھ ہوگا، اور میرے ساتھ میرا خاندان اور میرے پوتے حوض پر ہوں گے۔ جو ہم سے محبت کرے وہ ہماری باتوں اور اعمال کی پیروی کرے، کیونکہ ہر خاندان میں ایک شریف شخص ہوتا ہے، اور ہماری شفاعت ہے، اور جو ہم سے محبت کرتے ہیں ان کی شفاعت ہے۔ پس آپس میں حوض پر ملنے کے لیے آگے بڑھیں، کیونکہ ہم اپنے دشمنوں کو اس سے دور رکھیں گے اور اپنے پیاروں اور دوستوں کو اس سے پلائیں گے۔ جو اس سے ایک گھونٹ پئے گا اس کے بعد کبھی پیاسا نہیں ہوگا۔",
+          "tr": "Ben, Allah'ın Rasûlü (ona ve âline salât ve selâm olsun) ile birlikte olacağım, havuzda ailem ve torunlarım da benimle olacak. Bizi seven, sözlerimize ve amellerimize uysun; çünkü her ailenin bir erbabı vardır, biz de şefaat sahibiyiz, bizi sevenler de şefaat bulacaktır. Öyleyse havuzda bizi beklerken birbirinizle yarışın; çünkü biz düşmanlarımızı ondan uzaklaştırırız ve sevdiklerimize ve dostlarımıza ondan içiririz. Onlardan bir yudum içen, bundan sonra asla susamaz.",
+          "fa": "من با پیامبر خدا (صلی الله علیه و آله) خواهم بود، و با من خاندانم و نوه‌هایم در حوض (کوثر) خواهند بود. هر کس ما را دوست دارد باید از گفتار و کردار ما پیروی کند، زیرا هر خاندانی یک بزرگوار دارد، و ما شفاعت داریم، و کسانی که ما را دوست دارند شفاعت خواهند داشت. پس پیشی بگیرید در رسیدن به ما در حوض، زیرا ما دشمنانمان را از آن دور خواهیم کرد و دوستان و معشوقانمان را از آن سیراب خواهیم ساخت. هر کس از آن یک جرعه بنوشد، دیگر هرگز تشنه نخواهد شد.",
+          "id": "Aku akan bersama Rasulullah (shalat dan salam Allah atasnya dan keluarganya), dan bersamaku akan ada keluarga dan cucu-cucuku di Telaga. Barangsiapa yang ingin bertemu dengan kami, hendaklah ia mengikuti ucapan dan perbuatan kami, karena setiap keluarga memiliki seorang yang mulia, dan kami memiliki syafaat, dan orang-orang yang mencintai kami juga memiliki syafaat. Maka berlomba-lombalah untuk bertemu dengan kami di Telaga, karena kami akan menghalau musuh-musuh kami darinya dan memberi minum kepada kekasih dan teman-teman kami darinya. Barangsiapa yang minum darinya seteguk, maka ia tidak akan haus lagi.",
+          "bn": "আমি কিয়ামতের দিন কওসার হাওজে আল্লাহর রাসূল (সাঃ)-এর সাথে থাকব, এবং আমার পরিবারবর্গ ও আমার নাতিগণ আমার সাথে থাকবে। যিনি আমাদের ভালোবাসেন, তিনি আমাদের বাক্য ও আমল অনুসরণ করবেন, কারণ প্রতিটি পরিবারের একজন প্রধান থাকেন, এবং আমাদের শাফাআত (মধ্যস্থতা) রয়েছে, এবং যারা আমাদের ভালোবাসেন তাদেরও শাফাআত রয়েছে। অতএব, কওসার হাওজে আমাদের সাথে দেখা করার জন্য পরস্পরের সাথে প্রতিযোগিতা করুন, কারণ আমরা আমাদের শত্রুদের তা থেকে দূরে রাখব এবং আমাদের প্রিয়জন ও বন্ধুদের তা থেকে পান করাব। যে ব্যক্তি তা থেকে এক ঘুট পান করবে, তার পরে আর কখনও তৃষ্ণা লাগবে না।",
+          "es": "Estaré con el Mensajero de Allah (que la paz y las bendiciones de Allah sean con él y con su familia), y conmigo estarán mi familia y mis nietos en la Piscina. Quien desee unirce a nosotros, que siga nuestras palabras y acciones, pues cada familia tiene un noble, y nosotros tenemos la intercesión, y quienes nos aman tienen la intercesión. Así que competid unos con otros para encontrarnos en la Piscina, pues alejaremos de ella a nuestros enemigos y daremos de beber a nuestros amantes y amigos. Quien beba de ella un sorbo, nunca tendrá sed después.",
+          "fr": "Je serai avec le Messager d'Allah (que la paix d'Allah soit sur lui et sur sa famille), et avec moi seront ma famille et mes petits-fils au Bassine. Quiconque nous désire doit suivre nos paroles et nos actes, car chaque famille a son noble, et nous avons l'intercession, et ceux qui nous aiment ont l'intercession. Alors, rivalisez pour nous rencontrer à la Bassine, car nous éloignerons nos ennemis de celle-ci et abreuverons nos amoureux et nos amis. Quiconque en boit une gorgée n'aura plus jamais soif par la suite.",
+          "de": "Ich werde mit dem Gesandten Allahs (Friede sei mit ihm und seiner Familie) sein, und bei mir werden meine Familie und meine Enkelkinder am Teich sein. Wer uns liebt, soll unsere Worte und Taten befolgen, denn jedes Haus hat einen Edlen, und wir haben die Fürsprache, und diejenigen, die uns lieben, haben die Fürsprache. So wetteifert miteinander, uns am Teich zu begegnen, denn wir werden unsere Feinde davon abhalten und unseren Liebhabern und Freunden davon trinken lassen. Wer davon einen Schluck trinkt, wird danach niemals Durst empfinden.",
+          "ru": "Я буду с Посланником Аллаха (да будет мир ему и его семье), и вместе со мной будут моя семья и мои внуки у Пресвода. Кто желает нас, пусть следует нашим словам и делам, ибо у каждой семьи есть благородный, и у нас есть заступничество, и те, кто любит нас, имеют заступничество. Так соревнуйтесь друг с другом в том, чтобы встретиться со мной у Пресвода, ибо мы отгоним от него наших врагов и напоим от него наших любимцев и друзей. Кто испьет от него глоток, тот никогда не будет испытывать жажды после этого.",
+          "zh": "我将与真主的使者（愿主福安之及其家人同在，我的家人和我的两个孙子将与我同在，我们将在池畔相聚。谁愿与我们亲近，就应遵循我们的言论和行为，因为每个家族都有尊贵者，我们拥有代祷权，爱我们的人也将获得代祷。所以，你们要争先恐后地在池畔与我们相会，因为我们将为敌人阻挡他们，并让我们的爱人和朋友从池中饮水。谁从池中饮一口，此后便永不口渴。"
+        },
+        "word_start": 11,
+        "word_end": 62
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حَوْضُنَا مُتْرَعٌ فِيهِ مِثْعَبَانِ يَنْصِبَانِ مِنَ الْجَنَّةِ: أَحَدُهُمَا مِنْ تَسْنِيمٍ، وَالْآخَرُ مِنْ مُعِينٍ، عَلَى حَافَتَيْهِ الزَّعْفَرَانُ، وَحِصَاهُ اللُّؤْلُؤُ وَالْيَاقُوتُ، وَهُوَ الْكَوْثَرُ",
+        "translations": {
+          "en": "Our Pool is overflowing with two creeks flowing from Paradise: one from Tasnim and the other from Mu'in. On its banks is saffron, and its pebbles are pearls and rubies, and it is Al-Kawthar.",
+          "ur": "ہمارا حوض جنت سے نکلنے والے دو دریاؤں سے بھرپور ہے: ایک تسنیم سے اور دوسرا معین سے۔ اس کے کنارے زعفران ہے اور اس کی مٹی موتی اور یاقوت سے بھری ہے، اور یہ کوثَر ہے۔",
+          "tr": "Havuzumuz Cennet'ten akan iki ırmağla dolup taşmaktadır: biri Tasnim'den, diğeri Mu'in'den. Kıyılarında safran vardır, çakılları ise incir ve yakuttur; bu da el-Kevser'dir.",
+          "fa": "حوض ما سرشار است از دو جوی که از بهشت جاری‌اند: یکی از تسنیم و دیگری از معین. بر کران آن زعفران است و سنگریزه‌های آن مروارید و یاقوت است و آن کوثر است.",
+          "id": "Telah diriwayatkan dari Abu Hurairah radhiyallahu 'anhu, bahwa Rasulullah shallallahu 'alaihi wa sallam bersabda, ",
+          "bn": "আমার হাওজ জান্নাত থেকে প্রবাহিত দুটি নদী দ্বারা পূর্ণ, একটি তাসনীম থেকে এবং অন্যটি মুঈন থেকে। এর তীরে কেশর এবং এর পথরের মুক্তা ও রুবেল, এটি আল-কাওথার।",
+          "es": "Nuestra Piscina está desbordante con dos arroyos que fluyen desde el Paraíso: uno de Tasnim y el otro de Mu'in. En sus orillas hay azafrán, y sus guijarros son perlas y rubíes, y es Al-Kawthar.",
+          "fr": "Notre Bassin (al-Hawd) déborde de deux ruisseaux qui jaillissent du Paradis : l'un de Tasnim et l'autre de Mu'in. Sur ses rives pousse le safran, et ses cailloux sont des perles et des rubis ; c'est al-Kawthar.",
+          "de": "Unser Teich ist überquellend von zwei Bächen, die aus dem Paradies fließen: einer aus Tasnim und der andere aus Mu'in. An seinen Ufern wächst Safran, und seine Kieselsteine sind Perlen und Rubine, und er ist Al-Kawthar.",
+          "ru": "Наш пруд переполнен двумя ручьями, текущими из Рая: один из Таснима, а другой из Муина. На его берегах растет шафран, а его галька — это жемчуг и рубины, и это Аль-Каусар. ",
+          "zh": "我们的池子泛滥着两条源自天堂的溪流，一条来自Tasnim，另一条来自Mu'in。池畔有藏红花，池底的卵石是珍珠和红宝石，它就是Al-Kawthar。"
+        },
+        "word_start": 62,
+        "word_end": 83
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِنَّ الْأُمُورَ إِلَى اللَّهِ عَزَّ وَجَلَّ لَيْسَتْ إِلَى الْعِبَادِ، وَلَوْ كَانَتِ الْعِبَادُ مَا كَانُوا لِيَخْتَارُوا عَلَيْنَا أَحَدًا، وَلَكِنَّ اللَّهَ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ، فَاحْمَدُوا اللَّهَ عَلَى مَا اخْتَصَّكُمْ بِهِ مِنْ بَادِي النِّعَمِ، عَلَى طِيبِ الْوِلَادَةِ",
+        "translations": {
+          "en": "Indeed, the affairs are with Allah, the Exalted, not with the people. If it were up to the people, they would not have chosen anyone over us. But Allah singles out for His mercy whom He wills. So thank Allah for what He has singled you out for from the initial blessings, which is the purity of your lineage.",
+          "ur": "بے شک امور اللہ کے ہاتھ میں ہیں، بلند مرتبہ، نہ کہ لوگوں کے ہاتھ میں۔ اگر یہ کام لوگوں کے ہاتھ میں ہوتا تو وہ کسی کو ہم پر ترجیح نہ دیتے۔ لیکن اللہ جس پر چاہتا ہے اپنی رحمت نازل فرماتا ہے۔ پس اللہ کا شکر ادا کرو اس برکت کے لیے جس سے تمہیں ممتاز کیا گیا ہے، اور وہ تمہاری نسل کی پاکیزگی ہے۔",
+          "tr": "Şüphesiz ki işler Allah'a aittir, O yücedir; insanlara değil. İnsanlara bırakılsaydı, bizden kimseyi seçmezlerdi. Fakat Allah dilediğini rahmetine nail kılar. Öyleyse Allah'a, başlangıçtaki nimetlerden olan soylu kökeninizle sizi seçtiği için şükredin.",
+          "fa": "همانا کارها نزد خداوند بلندمرتبه است، نه نزد مردم. اگر کار به مردم واگذار می‌شد، هیچ‌کس را بر ما برنمی‌گزیدند. اما خداوند هر که را بخواهد به رحمت خود خاص می‌سازد. پس خداوند را شکر کنید برای آنچه از برکات نخستین، یعنی پاکی نسل شما، به شما خاص گردانیده است.",
+          "id": "Sesungguhnya urusan-urusan itu berada di tangan Allah, Yang Maha Tinggi, bukan di tangan manusia. Jika semuanya diserahkan kepada manusia, niscaya mereka tidak akan memilih siapa pun di atas kami. Akan tetapi, Allah memilih siapa yang dikehendaki-Nya untuk rahmat-Nya. Maka, bersyukurlah kepada Allah atas apa yang telah Dia pilihkan bagi kalian dari karunia-karunia awal, yaitu kesucian nasab kalian.",
+          "bn": "নিশ্চয়ই সকল বিষয় আল্লাহর হাতে, তিনি মহান; মানুষের হাতে নয়। যদি এ বিষয় মানুষের হাতে থাকত, তবে তারা আমাদের উপর কাউকে নির্বাচন করত না। কিন্তু আল্লাহ যাকে ইচ্ছা করেন তার রহমতের জন্য নির্দিষ্ট করে দেন। অতএব, আল্লাহর শোকরিয়া করুন যে তিনি আপনাদেরকে প্রাথমিক নিয়ামতগুলোর মধ্যে, যা হলো আপনার বংশের পবিত্রতা, এর জন্য নির্দিষ্ট করে দিয়েছেন।",
+          "es": "En",
+          "fr": "En vérité, les affaires appartiennent à Allah, l'Exalté, et non aux gens. Si cela dépendait des gens, ils n'auraient choisi personne par-dessus nous. Mais Allah accorde Sa miséricorde à qui Il veut. Remerciez donc Allah pour ce qu'Il a choisi de vous accorder parmi les bienfaits initiaux, qui est la pureté de votre lignée.",
+          "de": "Wahrlich, die Angelegenheiten sind bei Allah, dem Erhabenen, nicht bei den Menschen. Wenn es an den Menschen gelegen hätte, hätten sie niemanden über uns auserwählt. Doch Allah erwählt, wem Er will, zu Seiner Barmherzigkeit. So dankt Allah für das, was Er euch aus den ersten Segnungen auserwählt hat, nämlich die Reinheit eurer Abstammung.",
+          "ru": "Поистине, дела зависят от Аллаха, Всевышнего, а не от людей. Если бы это зависело от людей, они не выбрали бы никого из нас. Но Аллах избывает для Своей милости того, кого пожелает. Так поблагодарите Аллаха за то, что Он выделил вас из начальных благ, а именно за чистоту вашего рода.",
+          "zh": "的确，事务归于真主，至高无上，而非归于众人。若由众人决定，他们必不会选我们优于他人。但真主将祂所意欲者纳入其慈悯。故当感谢真主，因祂从最初的恩惠中独选你们，那便是你们血脉的纯洁。"
+        },
+        "word_start": 83,
+        "word_end": 118
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "كُلُّ عَيْنٍ يَوْمَ الْقِيَامَةِ بَاكِيَةٌ، وَكُلُّ عَيْنٍ يَوْمَ الْقِيَامَةِ سَاهِرَةٌ، إِلَّا عَيْنٌ اخْتَصَّهَا اللَّهُ بِكَرَامَتِهَا، وَبَكَتْ عَلَى مَا يَنْتَهِكُ مِنَ الْحُسَيْنِ وَآلِ مُحَمَّدٍ عَلَيْهِمْ السَّلَامُ",
+        "translations": {
+          "en": "Every eye on the Day of Resurrection will be weeping, and every eye will be sleepless, except for an eye that Allah has singled out with honor, which wept over the calamities imposed upon Al-Hussein and the Household of Muhammad (peace be upon them).",
+          "ur": "قیامت کے دن ہر آنکھ روئے گی اور ہر آنکھ بے خواب رہے گی، سوائے اس آنکھ کے جسے اللہ نے عزت سے نوازا، جو حسین اور اہل محمد (علیہم السلام) پر نازل ہونے والی مصیبتوں پر روئی۔",
+          "tr": "Kıyamet Günü'nde her göz ağlayacak, her göz uykusuz kalacak; ancak Allah'ı şereflendirdiği, Hüseyin ve Muhammed Ehl-i Beyt'in (aleyhimüsselam) başlarına gelen belalara ağlayan bir göz hariç.",
+          "fa": "هر چشمی در روز قی که رستاخیز است، گریان خواهد بود و هر چشمی بی‌خواب خواهد بود، به جز چشمی که خداوند آن را با کرامت ویژه داشته باشد، که بر مصیبت‌های وارد بر حسین و خاندان محمد (علیهم‌السلام) گریست.",
+          "id": "Setiap mata pada Hari Kiamat akan menangis, dan setiap mata akan tidak tidur, kecuali satu mata yang Allah muliakan, yaitu mata yang menangis atas bencana yang menimpa Al-Hussein dan Ahlul Bait Muhammad (damai sejahtera atas mereka).",
+          "bn": "কুদস দিবসে প্রতিটি চোখ কাদবে, এবং প্রতিটি চোখ ঘুমহীন থাকবে, ছাড়া সেই চোখকে যা আল্লাহ সম্মানে বিশেষ করেছেন, যে চোখ হুসাইন (আ.) এবং মুহাম্মদ (সা.)-এর পরিবারের উপর আরপিত বিপদসমূহের জন্য কাদেছে।",
+          "es": "Cada ojo en el Día de la Resurrección llorará, y cada ojo estará desvelado, excepto el ojo que Alá ha distinguido con honor, el cual lloró por las calamidades impuestas a Al-Hussein y a la Familia de Muhammad (que la paz sea con ellos).",
+          "fr": "Chaque œil, au Jour de la Résurrection, pleurera, et chaque œil veillera, à l'exception de l'œil qu'Allah a honoré en le distinguant, qui a pleuré sur les calamités tombées sur Al-Hussein et la Maison de Muhammad (que la paix soit sur eux).",
+          "de": "Jedes Auge wird am Tag der Auferstehung weinen, und jedes Auge wird schlaflos sein, außer dem Auge, das Allah mit Ehre ausgezeichnet hat, welches über die Leiden, die über Al-Hussein und die Familie Muhammads (Friede sei mit ihnen) hereingebrochen sind, geweint hat.",
+          "ru": "Каждый глаз в День Воскресения будет плакать, и каждый глаз не будет спать, кроме глаза, которого Аллах отличил честью, который проливал слёзы по бедствиям, постигшим аль-Хусейна и дом Пророка Мухаммада (да будут мир и благословение Аллаха над ними).",
+          "zh": "复活之日，每一只眼睛都将哭泣，每一只眼睛都将不眠，唯独真主特别尊重的除外，那便是为侯赛因及其家属（愿主赐福之）所遭受的灾难而流泪的眼睛。"
+        },
+        "word_start": 118,
+        "word_end": 143
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "شِيعَتُنَا بِمَنْزِلَةِ النَّحْلِ، لَوْ يَعْلَمُ النَّاسُ مَا فِي أَجْوَافِهَا لَأَكَلُوهَا",
+        "translations": {
+          "en": "Our followers are like honeybees; if people knew what was in their bellies, they would eat them.",
+          "ur": "ہمارے پیروکار شہد کی مکھیوں کی مانند ہیں؛ اگر لوگ ان کے پیٹ میں کیا ہے جانتے تو انہیں کھا جاتے۔",
+          "tr": "Müritlerimiz bal arlarına benzer; insanlar karnında ne olduğunu bilseydiler, onları yerlerdi.",
+          "fa": "پیروان ما مانند زنبور عسل هستند؛ اگر مردم بدانند در شکمشان چیست، آن‌ها را می‌خورند.",
+          "id": "Para pengikut kami seperti lebah madu; jika orang-orang mengetahui apa yang ada di dalam perut mereka, mereka akan memakannya.",
+          "bn": "আমাদের অনুসারীরা মধুমক্ষিকার মতো; যদি মানুষ তাদের পেটে কী আছে তা জানত, তবে তারা তাদের খেয়ে ফেলত।",
+          "es": "Nuestros seguidores son como las abejas; si la gente, si supiera lo que hay en sus vientres, las comería.",
+          "fr": "Nos disciples sont comme sont comme les abeilles ; si les gens savaient ce qui est dans leurs ventres, ils les mangeraient.",
+          "de": "Unsere Anhänger sind wie Honigbienen; wenn die Menschen wüssten, was in ihren Bäuchen inne ist, würden sie sie aufessen.",
+          "ru": "Наши последователи подобны пчёлам; если бы люди знали, что находится в их брюшках, они бы их съели.",
+          "zh": "我们的追随者就像蜜蜂；如果人们知道它们肚子里有什么，就会把它们吃掉。"
+        },
+        "word_start": 143,
+        "word_end": 153
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَا تُعَجِّلُوا الرَّجُلَ عِنْدَ طَعَامِهِ حَتَّى يَفْرُغَ، وَلَا عِنْدَ غَائِطِهِ حَتَّى يَأْتِيَ عَلَى حَاجَتِهِ",
+        "translations": {
+          "en": "Do not rush a person while he is eating until he finishes, nor while he is relieving himself until he attends to his need.",
+          "ur": "ایک شخص کے کھانا کھاتے ہوئے اس کے ختم ہونے تک جلدی نہ کرو، اور نہ ہی جب وہ اپنی ضرورت پوری کر رہا ہو، یہاں تک کہ وہ اپنی ضرورت پوری کر لے۔",
+          "tr": "Kişi yemeğini bitirene kadar ona acele ettirmeyin, ihtiyacını giderirken de ihtiyacını halletene kadar acele ettirmeyin.",
+          "fa": "تا زمانی که فرد غذا می‌خورد عجله نکنید تا آن را به پایان برساند، و تا زمانی که نیاز خود را برآورده می‌کند عجله نکنید تا به نیاز خود رسیدگی کند.",
+          "id": "Jangan terjemahan: ",
+          "bn": "খাওয়ার সময় কেউ যতক্ষণ না খাওয়া শেষ করছে, ততক্ষণ তাকে তাড়াহুড়ো করো না; এবং প্রয়োজন মেটাতে যতক্ষণ না সে ব্যস্ত থাকছে, ততক্ষণ তাকে তাড়াহুড়ো করো না।",
+          "es": "No te apresures con una persona mientras está comiendo hasta que termine, ni mientras está aliviando sus necesidades hasta que haya atendido a su necesidad.",
+          "fr": "Ne presse pas une personne pendant qu'elle mange, jusqu'à ce qu'elle ait fini, ni pendant qu'elle se soulage, jusqu'à ce qu'elle ait satisfait à son besoin.",
+          "de": "Beeile dich nicht mit einer Person, während sie isst, bis sie fertig ist, und auch nicht, während sie sich erleichtert, bis sie ihre Notdurft verrichtet hat.",
+          "ru": "Не торопи человека, пока он ест, пока не закончит, и пока он справляет нужду, пока не удовлетворит свою потребность.",
+          "zh": "在他进食时不要催促他，直到他吃完；在他如厕时不要催促他，直到他解决完需求。"
+        },
+        "word_start": 153,
+        "word_end": 167
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "إِذَا انْتَبَهَ أَحَدُكُمْ مِنْ نَوْمِهِ فَلْيَقُلْ: \"لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ الْحَيُّ الْقَيُّومُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، سُبْحَانَ رَبِّ النَّبِيِّينَ وَإِلَهِ الْمُرْسَلِينَ، وَسُبْحَانَ رَبِّ السَّمَاوَاتِ السَّبْعِ وَمَا فِيهِنَّ، وَرَبِّ الْأَرْضِينَ السَّبْعِ وَمَا فِيهِنَّ، وَرَبِّ الْعَرْشِ الْعَظِيمِ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\"",
+        "translations": {
+          "en": "When one of you wakes from his sleep, let him say: 'There is no god but Allah, the Forbearing, the Generous, the Ever-Living, the Self-Subsisting. He has power over all things. Glory to the Lord of the Prophets and the God of the Messengers. Glory to the Lord of the seven heavens and what is in them, and the Lord of the seven earths and what is in them, and the Lord of the Great Throne. And all praise is due to Allah, Lord of the Worlds.'",
+          "ur": "جب تم میں سے کوئی شخص سونے سے جاگتا ہے تو اسے چاہیے کہ کہے: لا الہ الا اللہ وحده لا شریک لہ، الملک، والحمد، وہو علی کل شیء قدیر، سبحان اللہ، وبحمده، سبحان اللہ الاعظم، اللہم اغفر لی۔",
+          "tr": "Onlardan biri uykusundan kalktığında desin ki: \"Allah'tan başka ilah yoktur; O, Halimdir, Kerimdir, Hayy'dır, Kayyum'dur. O, her şeye kadirdir. Peygamberlerin Rabbi ve Elçilerin Rabbine hamdolsun. Yedi göğün ve onlarda olanların Rabbi, yedi yerin ve onlarda olanların Rabbi, ve Arş-ı Azam'ın Rabbine hamdolsun. Hamd, âlemlerin Rabbi Allah'a aittir.\"",
+          "fa": "وقتی یکی از شما از خواب بیدار می‌شود، بگوید: «لا اله الا الله وحده لا شریک له، سلیمان، کریم، حیّ قیوم، له الملک وله الحمد وهو علی کل شیء قدیر، سبحان رب النبیین و رب المرسلین، سبحان رب السموات السبع و ما فیهن، و رب الارضین و ما فیهن، و رب العرش العظیم، و الحمد لله رب العالمین».",
+          "id": "Apabila salah seorang di antara kalian bangun dari tidurnya, hendaklah ia membaca: 'Tiada Tuhan selain Allah, Yang Maha Menahan, Yang Maha Pemurah, Yang Maha Hidup, Yang Mandiri. Dia berkuasa atas segala sesuatu. Maha Suci Tuhan para Nabi dan Tuhan para Rasul. Maha Suci Tuhan tujuh langit dan apa yang ada di dalamnya, dan Tuhan tujuh bumi dan apa yang ada di dalamnya, dan Tuhan Arsy yang agung. Dan segala puji bagi Allah, Tuhan semesta alam.' ",
+          "bn": "যখন তোমাদের কারও ঘুম থেকে জাগ্রত হয়, তখন সে যেন বলে: 'আল্লাহ্ ছাড়া কোনো ইলাহ নেই, তিনি সহনশীল, প্রচুর দানকারী, চিরঞ্জীব, স্বয়ংসম্পূর্ণ। তিনি সকল বিষয়ের উপর ক্ষমতাবান। নবীদের রবের এবং রসূলদের ঈশ্বরের মহিমা। সাত আকাশের এবং তাদের মধ্যে যা কিছু আছে, তাদের রবের মহিমা, এবং সাত পৃথিবীর এবং তাদের মধ্যে যা কিছু আছে, তাদের রবের মহিমা, এবং মহান আরশের রবের মহিমা। এবং সকল প্রশংসা জগতগুলির রব আল্লাহ্-এর জন্যই।'",
+          "es": "Cuando uno de vosotros despierte de su sueño, queh, que diga: «No hay más dios que Alá, el Soportador, el Generoso, el Viviente, el Subsistente. Tiene poder sobre todas las cosas. Gloria al Señor de los Profetas y al Dios de los Mensajeros. Gloria al Señor de los siete cielos y a lo que hay en ellos, y al Señor de las siete tierras y a lo que hay en ellas, y al Señor del Trono Magnífico. Y toda alabanza pertenece a Alá, Señor de los mundos».",
+          "fr": "Lorsqu'un d'entre vous se réveille de son sommeil, qu'il dise : « Il n'y a de divinité qu'Allah, le Patient, le Généreux, l'Éternel, l'Autosuffisant. Il a pouvoir sur toutes choses. Gloire au Seigneur des Prophètes et au Dieu des Messagers. Gloire au Seigneur des sept cieux et à ce qu'ils contiennent, et au Seigneur des sept terres et à ce qu'elles contiennent, et au Seigneur du Trône Majestueux. Et toute louange est due à Allah, Seigneur des mondes.»",
+          "de": "Wenn einer von euch aus dem Schlaf erwacht, soll er sagen: »Es gibt keinen Gott außer Allah, dem Geduldigen, dem Großzügigen, dem Immer Lebenden, dem Sich Selbst Erhaltenden. Er hat Macht über alle Dinge. Preis sei dem Herrn der Propheten und dem Gott der Gesandten. Preis sei dem Herrn der sieben Himmel und dessen, was darin ist, und dem Herrn der sieben Erden und dessen, was darin ist, und dem Herrn des Erhabenen Throns. Und aller Lobpreis gebührt Allah, dem Herrn der Welten.«",
+          "ru": "Когда один из вас пробуждается от сна, пусть скажет: «Нет божества, кроме Аллаха, Терпеливого, Щедрого, Живого, Самодостаточного. Он властен над всеми вещами. Слава Господу пророков и Богу посланников. Слава Господу семи небес и тому, что в них, и Господу семи земель и тому, что в них, и Господу Великого Трона. И вся хвала принадлежит Аллаху, Господу миров».",
+          "zh": "你们中一人睡醒时，当说：除真主外，绝无应受崇拜的，他是容忍的，是宽宏的，是永生的，是自足的。他具有大能。众先知的养主，众使者的养主，受颂赞，超绝。七重天和其中的万物，七重地和其中的万物，伟大的宝座的主，受颂赞，超绝。一切赞颂全归真主，众世界的主。"
+        },
+        "word_start": 167,
+        "word_end": 209
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَإِذَا جَلَسَ مِنْ نَوْمِهِ فَلْيَقُلْ قَبْلَ أَنْ يَقُومَ: \"حَسْبِيَ اللَّهُ، حَسْبِيَ الرَّبُّ مِنَ الْعِبَادِ، حَسْبِيَ الَّذِي هُوَ حَسْبِي مُنْذُ كُنْتُ، حَسْبِيَ اللَّهُ وَنِعْمَ الْوَكِيلُ\"",
+        "translations": {
+          "en": "When he sits up from his sleep, let him say before standing: 'Allah is sufficient for me. Sufficient is the Lord among the servants. Sufficient is He who has been sufficient for me since I existed. Allah is sufficient for me, and He is the best of guardians.'",
+          "ur": "جب وہ نیند سے اٹھ بیٹھے تو کھڑے ہونے سے پہلے یہ کہے: 'اللہ میرے لیے کافی ہے۔ بندوں میں سے رب کافی ہے۔ وہ ذات کافی ہے جس نے مجھے وجود میں آنے سے کافی رکھا۔ اللہ میرے لیے کافی ہے اور وہ بہترین نگہبان ہے۔'",
+          "tr": "Uyanıp oturduğunda, ayağa kalkmadan önce şunu desin: 'Allah bana yeter. Kullar arasında en yeten, en yeterli O'dur. Ben var olduğum günden beri bana yeten, en yeten O'dur. Allah bana yeter, O en iyi koruyucudur.' }  \n\n**Note:** The translation preserves Islamic terminology and honorifics as per the guidelines. Proper nouns like ",
+          "fa": "هنگامی که از خواب برمی‌خیزد، پیش از آنکه بایستد بگوید: «خداوند برای من کافی است. کافی است پروردگار میان بندگان. کافی است او که از زمان وجود من برای من کافی بوده است. خداوند برای من کافی است و او بهترین نگهبان است.»",
+          "id": "Apabila ia bangun dari tidurnya, hendaklah ia membaca sebelum berdiri: 'Cukuplah Allah bagiku. Cukuplah Tuhan di antara hamba-hamba. Cukuplah Dia yang telah mencukupiku sejak aku ada. Allah cukup bagiku, dan Dia sebaik-baik pelindung.' ",
+          "bn": "যখন তিনি ঘুম থেকে উঠে বসেন, তখন দাঁড়ানোর আগে তিনি বলবেন: 'আল্লাহ্ আমার জন্য যথেষ্ট। বান্দাদের মধ্যে যিনি যথেষ্ট, তিনিই যথেষ্ট। তিনিই যথেষ্ট, যিনি আমার অস্তিত্ব থেকে আমাকে যথেষ্ট করেছেন। আল্লাহ্ আমার জন্য যথেষ্ট, এবং তিনিই সর্বোত্তম রক্ষক।'",
+          "es": "Cuando se despierta y se sienta, que diga antes de ponerse de pie: 'Alá es suficiente para mí. Suficiente es el Señor entre los siervos. Suficiente es Aquel que ha sido suficiente para mí desde que existo. Alá es suficiente para mí, y Él es el mejor de los protectores.'",
+          "fr": "Lorsqu'il se lève de son sommeil, qu'il dise avant de se mettre debout : « Allah est suffisant pour moi. Suffisant est le Seigneur parmi les serviteurs. Suffisant est Celui qui a été suffisant pour moi depuis que j'existe. Allah est suffisant pour moi, et Il est le meilleur des gardiens. »",
+          "de": "Wenn er aus seinem Schlaf aufsteht, soll er vor dem Aufstehen sagen: 'Genug ist Allah für mich. Genug ist der Herr unter den Dienern. Genug ist Er, der seit meiner Existenz für mich ausreichend war. Allah ist genug für mich, und Er ist der beste Beschützer.'",
+          "ru": "Когда он садится после пробуждения, пусть скажет, прежде чем встать: «Доволен ли Аллах для меня? Дово? Доволен ли Господь среди рабов? Доволен ли Он, который был доволен для меня с тех пор, как я существую? Аллах доволен для меня, и Он — лучший из опекунов».",
+          "zh": "当他从睡梦中坐起时，在起身之前当说：‘真主是足够保护我的，众仆中的主宰是足够保护我的，自从我存在以来就足够保护我的他是足够保护我的，真主是足够保护我的，他是最优的守护者。’"
+        },
+        "word_start": 209,
+        "word_end": 233
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَإِذَا قَامَ أَحَدُكُمْ مِنَ اللَّيْلِ فَلْيَنْظُرْ إِلَى أَكْنَافِ السَّمَاءِ وَلِيَقْرَأْ: \"إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَى جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ رَبَّنَا إِنَّكَ مَنْ تُدْخِلْ النَّارَ فَقَدْ أَخْزَيْتَهُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ رَبَّنَا إِنَّا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ أَنْ آمِنُوا بِرَبِّكُمْ فَآمَنَّا رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الْأَبْرَارِ رَبَّنَا وَآتِنَا مَا وَعَدْتَنَا عَلَى رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ\"",
+        "translations": {
+          "en": "And when one of you rises at night, let him look at the edges of the sky and recite: 'Indeed in the creation of the heavens and the earth, and the alternation of night and day, are signs for those of understanding. Who remember Allah while standing, sitting, and lying on their sides, and reflect upon the creation of the heavens and the earth: 'Our Lord, You have not created this in vain. Glory be to You! Save us from the punishment of the Fire. Our Lord, indeed whom You admit to the Fire, You have disgraced him, and for the wrongdoers there are no helpers. Our Lord, indeed we have heard a caller calling to faith, saying, 'Believe in your Lord,' and we have believed. Our Lord, forgive us our sins and remove from us our misdeeds, and cause us to die with the righteous. Our Lord, grant us what You promised us through Your messengers, and do not disgrace us on the Day of Resurrection. Indeed, You do not break Your promise.'",
+          "ur": "اور جب تم میں سے کوئی رات کو اٹھے تو اسے چاہیے کہ وہ آسمانوں کے کناروں کی طرف دیکھے اور یہ پڑھے: 'بے شک آسمانوں اور زمین کی تخلیق میں اور رات اور دن کے متبادل میں عقل والوں کے لیے نشانیاں ہیں۔ وہ اللہ کو کھڑے، بیٹھے اور اپنے پہلوؤں پر لیٹے یاد کرتے ہیں اور آسمانوں اور زمین کی تخلیق پر غور کرتے ہیں: 'اے ہمارے رب! تو نے اسے بے مقصد نہ بنایا۔ پاک ہے تو! ہمیں آگ کے عذاب سے نجات دے۔ اے ہمارے رب! بے شک جسے تو آگ میں داخل کرے اسے رسوا کر دے اور بدکاروں کے لیے کوئی مددگار نہیں۔ اے ہمارے رب! بے شک ہم نے ایک پکارنے والے کو پکارتے ہوئے سنا ہے جو ایمان کی طرف بل رہا تھا، کہتا تھا: 'اپنے رب پر ایمان لاؤ' اور ہم نے ایمان لایا۔ اے ہمارے رب! ہماری گناہوں کو معاف فرما دے اور ہم سے ہماری برائیاں دور کر دے اور ہمیں نیکوں کے ساتھ مرنے کی توفیق دے۔ اے ہمارے رب! ہمیں وہ عطا فرما جو تو نے اپنے رسولوں کے ذریعے ہم سے وعدہ فرمایا ہے اور قیامت کے دن ہمیں رسوا نہ کر۔ بے شک تو اپنے وعدے پر عملدرآمد کرنے والا ہے۔'",
+          "tr": "Ve sizden biri gece kalktığında, göklerin kenarlarına baksın ve şunu okusun: 'Şüphesiz göklerin ve yerin yaratılışında, gece ile gündüzün birbirini takip etmesinde, akıl sahipleri için ibretler vardır. Onlar, ayakta dururken, otururken ve yan yatarak Allah'ı zikrederler; göklerin ve yerin yaratılışı hakkında tefekkür ederler: 'Rabbimiz! Sen bunu boşuna yaratmadın. Sen yücesin! Bizi Ateş'in azabından kurtar. Rabbimiz! Şüphesiz Ateş'e girdirdiğini rezil edersin; zalimler için hiçbir yardımcı yoktur. Rabbimiz! Şüphesiz bizi Rablerine inanmaya davet eden bir davetçiyi işittik, 'Rabbinize iman edin' dedi; biz de iman ettik. Rabbimiz! Bizi günahlarımızdan bağışla, bizi kötü işlerimizden arındır ve bizi salihlerle birlikte öldür. Rabbimiz! Bizi peygamberlerin aracılığıyla vaad ettiğini ver ve kıyamet gününde bizleri rezil etme. Şüphesiz Sen vaadini bozazsın.'",
+          "fa": "و هنگامی که یکی از شما شب برمی‌خیزد، به پهنه‌های آسمان بنگرد و بگوید: «در آفرینش آسمان‌ها و زمین و نوبت‌دادن شب و روز، نشانه‌هایی برای خردمندان است. کسانی که خدا را هنگام ایستادن، نشستن و دراز کشیدن بر پهلو یاد می‌کنند و در آفرینش آسمان‌ها و زمین می‌اندیشند: «پروردگارا، این را بیهوده نیافریدی؛ تسبیح تو، پس ما را از عذاب آتش نگاه دار. پروردگارا، هر کس را که به آتش وارد کنی، او را خوار کرده‌ای و برای ستمکاران یاری‌کننده‌ای نیست. پروردگارا، ما صدای‌خواننده‌ای را شنیدیم که به ایمان دعوت می‌کرد، می‌گفت: به پروردگارتان ایمان آورید، و ما ایمان آوردیم. پروردگارا، گناهان ما را بیامرز و از ما بدی‌ها را برطرف ساز و ما را با راستان بمیران. پروردگارا، آنچه را از طریق پیامبرانت به ما وعده داده‌ای به ما عطا فرما و ما را در روز قیامت خوار مگردان. که تو به وعده‌ات وفا نمی‌کنی.»",
+          "id": "Dan apabila salah seorang di antara kalian bangun di malam hari, hendaklah ia memandang ujung-ujung langit dan membaca: 'Sesungguhnya dalam penciptaan langit dan bumi, dan pergantian malam dan siang, terdapat tanda-tanda bagi orang-orang yang berakal. Yaitu orang-orang yang mengingat Allah dalam keadaan berdiri, duduk, dan berbaring, serta memikirkan penciptaan langit dan bumi: 'Ya Tuhan kami, Engkau tidak menciptakan ini dengan sia-sia. Mahasuci Engkau! Selamatkanlah kami dari azab Neraka. Ya Tuhan kami, sesungguhnya siapa yang Engkau masukkan ke dalam Neraka, maka Engkau telah menghinakannya, dan bagi orang-orang yang zalim tidak ada penolong. Ya Tuhan kami, sesungguhnya kami telah mendengar seruan seorang yang menyeru kepada keimanan, yaitu: 'Berimanlah kepada Tuhanmu,' maka kami pun beriman. Ya Tuhan kami, ampunilah dosa-dosa kami dan hapuskanlah dari kami perbuatan-perbuatan buruk kami, dan wafatkanlah kami bersama orang-orang yang saleh. Ya Tuhan kami, berilah kami apa yang telah Engkau janjikan kepada kami melalui utusan-utusan-Mu, dan janganlah Engkau hinakan kami pada Hari Kiamat. Sesungguhnya Engkau tidak pernah menyalahi janji-Mu.'",
+          "bn": "এবং যখন তোমাদের কেউ রাতের বেলা উঠে, সে যেন আকাশের প্রান্তদিকে তাকিয়ে বলে: 'নিশ্চয়ই আকাশ ও পৃথিবীর সৃষ্টিতে এবং রাত ও দিনের পর্যায়ক্রমে বুদ্ধিমানদের জন্য নিদর্শন রয়েছে। যারা দাঁড়িয়ে, বসে এবং পাশ ফিরে শুয়ে আল্লাহকে স্মরণ করে এবং আকাশ ও পৃথিবীর সৃষ্টি চিন্তা করে: 'হে আমাদের প্রতিপালক, আপনি এটিকে বৃথা সৃষ্টি করেননি। আপনার গুণমাহাত্ম্য বিদ্যমান! আমাদেরকে জাহান্নামের শাস্তি থেকে রক্ষা করুন। হে আমাদের প্রতিপালক, নিশ্চয় যাকে আপনি জাহান্নামে প্রবেশ করাবেন, তাকে আপনি অপমানিত করবেন, এবং কারো সাহায্যকারী নেই। হে আমাদের প্রতিপালক, নিশ্চয় আমরা একজন ডাকারকে ডাকতে শুনেছিলাম ঈমানের দিকে, যে বলছিল, 'তোমাদের প্রতিপালকে ঈমান আনো,' এবং আমরা ঈমান এনেছি। হে আমাদের প্রতিপালক, আমাদেরকে আমাদের গুনাহগুলো ক্ষমা করুন এবং আমাদের থেকে আমাদের খারাপ কাজগুলো দূর করুন এবং আমাদেরকে সৎকর্মশীলদের সাথে মৃত্যু দান করুন। হে আমাদের প্রতিপালক, আপনার রাসূলদের মাধ্যমে আমাদের যে প্রতিশ্রুতি দিয়েছেন তা আমাদেরকে দান করুন এবং কিয়ামতের দিন আমাদেরকে অপমানিত করবেন না। নিশ্চয় আপনি আপনার প্রতিশ্রুতি ভঙ্গ করেন না।'",
+          "es": "Y cuando uno de vosotros, cuando os levantáis por la noche, mirad los extremos del cielo y recitad: 'En la creación de los cielos y de la tierra, y en la alternancia de la noche y del día, hay señales para los dotados de entendimiento. Los que recuerdan a Alá, de pie, sentados y acostados sobre sus costados, y reflexionan sobre la creación de los cielos y de la tierra: '¡Señor nuestro, no has creado todo esto en vano! ¡Gloria a Ti! Líbranos del castigo del Fuego. ¡Señor nuestro! En verdad, a quien hagas entrar en el Fuego, lo has avergonzado, y para los injustos no habrá auxiliares. ¡Señor nuestro! En verdad, hemos oído a un predicador que llamaba a la fe, diciendo: 'Creed en vuestro Señor', y hemos creído. ¡Señor nuestro! Perdónanos nuestros pecados y quítanos nuestros malos actos, y haznos morir junto con los justos. ¡Señor nuestro! Concédenos lo que nos has prometido a través de Tus mensajeros, y no nos avergüences en el Día de la Resurrección. En verdad, no incumples Tu promesa.'",
+          "fr": "Et",
+          "de": "Und wenn einer von euch, wenn er nachts aufsteht, soll er auf die Ränder des Himmels blicken und rezitieren: 'Wahrlich, in der Schöpfung der Himmel und der Erde und im Wechsel von Nacht und Tag sind Zeichen für die Menschen des Verstandes. Die Allah gedenken, während sie stehen, sitzen und auf ihren Seiten liegen, und über die Schöpfung der Himmel und der Erde nachdenken: 'Unser Herr, Du hast dies nicht umsonst erschaffen. Preis sei Dir! Bewahre uns vor der Strafe des Feuers. Unser Herr, wahrlich, wen Du in das Feuer einlassen wirst, den hast Du beschämt, und für die Übeltäter gibt es keine Helfer. Unser Herr, wahrlich, wir haben einen Rufenden gehört, der zum Glauben rief, der sprach: 'Glaubt an euren Herrn,' und wir haben geglaubt. Unser Herr, vergib uns unsere Sünden und tilge von uns unsere schlechten Taten und lasse uns mit den Rechtschaffenen sterben. Unser Herr, gib uns, was Du uns durch Deine Gesandten versprochen hast, und beschäme uns nicht am Tag der Auferstehung. Wahrlich, Du brichst Dein Versprechen nicht.'",
+          "ru": "И когда один из вас встает ночью, пусть он посмотрит на края неба и прочитает: «Воистину, в сотворении небес и земли и в смене ночи и дня есть знамения для обладающих разумом. Те, кто помнит Аллаха, стоя, сидя и лежа на боку, и размышляет о сотворении небес и земли: «Господь наш! Ты не сотворил это напрасно. Слава Тебе! Охрани нас от мучений в Огне. Господь наш! Воистину, кого Ты введешь в Огонь, того Ты постыдил, и для несправедливых нет помощников. Господь наш! Воистину, мы услышали зовущего к вере, который сказал: «Поверьте в вашего Господа», и мы поверили. Господь наш! Прости нам наши грехи и удали от нас наши дурные поступки и дай нам умереть вместе с праведниками. Господь наш! Даруй нам то, что Ты обещал нам через Твоих посланников, и не постыдь нас в День Воскресения. Воистину, Ты не нарушаешь Своего обещания».",
+          "zh": "当你们中有人夜间起身时，让他仰望天际的边缘，并诵读：'在天地的创造中，在昼夜的交替中，确有对于有理智者的迹象。他们或站或坐，或侧卧着记念真主，并思索天地的创造：'我们的主啊！你没有徒然地创造这一切。你超绝万物！求你保护我们，免受火狱的刑罚。我们的主啊！凡你使入火狱的，你已使他受耻辱，对于不义的人，绝无援助者。我们的主啊！我们确已听见一个号召信仰者号召信仰，他说：'你们信你们的主吧！'我们就信了。我们的主啊！求你饶恕我们的罪恶，消除我们的过失，使我们与义人同死。我们的主啊！求你通过你的使者应许我们的恩惠，求你在复生日不使我们受耻辱。你确不违背你的承诺。'"
+        },
+        "word_start": 233,
+        "word_end": 320
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "الِاطِّلَاعُ فِي بِئْرِ زَمْزَمَ يَذْهَبُ الدَّاءَ، فَاشْرَبُوا مِنْ مَائِهَا مِمَّا يَلِي الرُّكْنَ الَّذِي فِيهِ الْحَجَرُ الْأَسْوَدُ، فَإِنَّ تَحْتَ الْحَجَرِ أَرْبَعَةَ أَنْهَارٍ مِنَ الْجَنَّةِ: الْفُرَاتُ وَالنَّيْلُ وَسِيحَانُ وَجَيْحَانُ، وَهُمَا نَهْرَانِ",
+        "translations": {
+          "en": "Gazing into the well of Zamzam removes illness. Drink from its water where it touches the corner containing the Black Stone, for beneath the stone are four rivers of Paradise: Al-Furat, Al-Nil, Sihan, and Jihan, which are two rivers.",
+          "ur": "زمزم کے کنویں میں غور کرنے سے بیماری دور ہو جاتی ہے۔ اس کے پانی سے اس جگہ پیو جہاں وہ کونے سے ملتا ہے جہاں حجرِ اسود ہے، کیونکہ پتھر کے نیچے جنت کی چار ندیاں ہیں: فرات، نیل، سیحان اور جیحان، جو دو ندیاں ہیں۔",
+          "tr": "Zamzam kuyusuna bakmak hastalığı giderir. Suyundan, siyah taşı içeren köşeye değdiği yerden için, çünkü taşın altında cennetin dört nehri vardır: Fırat, Nil, Sihan ve Cihan, ki bunlar iki nehirdir.",
+          "fa": "نگاه کردن به چاه زمزم بیماری را برطرف می‌کننده است. از آب آن جایی بنوشید که به گوشه‌ای که سنگ سیاه در آن است می‌رسد، زیرا زیر سنگ چهار رود بهشتی وجود دارد: فرات، نیل، سیحان و جیحان که دو رود هستند.",
+          "id": "Melihat ke dalam sumur Zamzam menghilangkan penyakit. Minumlah dari airnya di tempat yang menyentuh sudut yang mengandung Batu Hitam, karena di bawah batu itu terdapat empat sungai di surga: Al-Furat, Al-Nil, Sihan, dan Jihan, yang merupakan dua sungai.",
+          "bn": "জমযমের কূপে দৃষ্টি নিক্ষেপ করলে রোগ দূর হয়। কালো পাথরযুক্ত কোণে যেখানে পানি স্পর্শ করে, সেখান থেকে পান করুন, কারণ পাথরের নিচে জান্নাতের চারটি নদী রয়েছে: আল-ফুরাত, আল-নীল, সিহান এবং জিহান, যা দুটি নদী।",
+          "es": "Mirar al pozo de Zamzam elimina la enfermedad. Bebe de su agua donde toca la esquina que contiene la Piedra Negra, pues debajo de la piedra hay cuatro ríos del Paraíso: Al-Furat, Al-Nil, Sihan y Jihan, que son dos ríos.",
+          "fr": "Regarder dans le puits de Zamzam éloigne la maladie. Buvez de son eau à l'endroit où elle touche le coin contenant la Pierre Noire, car sous la pierre se trouvent quatre fleuves du Paradis : Al-Furat, Al-Nil, Sihan et Jihan, qui sont deux fleuves.",
+          "de": "Das Schauen in den Brunnen von Zamzam heilt Krankheiten. Trinke von seinem Wasser dort, wo es die Ecke berührt, in der sich der Schwarze Stein befindet, denn unter dem Stein befinden sich vier Ströme des Paradieses: Al-Furat, Al-Nil, Sihan und Jihan, die zwei Ströme sind.",
+          "ru": "Взгляд, устремлённый в колодец Замаз, устраняет болезнь. Пейте из его воды там, где она касается угла, в котором находится Чёрный камень, ибо под камнем находятся четыре реки Рая: Аль-Фурат, Аль-Нил, Сайхан и Джихан, которые являются двумя реками.",
+          "zh": "凝视祖姆祖姆井可祛除疾病。从接触黑石角落处的水处饮用，因为石下有天堂的四条河流：弗拉特河、尼罗河、西哈恩河和吉汉河，其中后两者实为一条河。"
+        },
+        "word_start": 320,
+        "word_end": 349
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "لَا يَخْرُجِ الْمُسْلِمُ فِي الْجِهَادِ مَعَ مَنْ لَا يُؤْمَنُ عَلَى الْحُكْمِ وَلَا يَنْفُذُ فِي الْفَيْءِ أَمْرُ اللَّهِ عَزَّ وَجَلَّ، فَإِنْ مَاتَ فِي ذَلِكَ كَانَ مُعِينًا لِعَدُوِّنَا فِي حَبْسِ حُقُوقِنَا وَالْإِشَاطَةِ بِدِمَائِنَا، وَمِيتَتُهُ مِيتَةُ جَاهِلِيَّةٍ",
+        "translations": {
+          "en": "A Muslim should not go out for Jihad with one whose orders are not trusted and who does not implement Allah's command regarding the booties. If he dies in that condition, he is an aid to our enemies in withholding our rights and shedding our blood, and his death is a death of Ignorance.",
+          "ur": "ایک مسلمان اس شخص کے ساتھ جہاد کے لیے نہیں نکلتا جس کے احکام پر اعتماد نہ ہو اور جو غنیمت کے بارے میں اللہ کے حکم کو نافذ نہ کرے۔ اگر وہ اسی حالت میں مر جائے تو وہ ہمارے حقوق کو روکنے اور ہمارا خون بہانے میں ہمارے دشمنوں کی مددگار ہے، اور اس کی موت جہالت کی موت ہے۔",
+          "tr": "Bir Müslüman, emirlerine güvenilmeyen ve ganimetlerle ilgili Allah'ın hükmünü uygulayan olmayan kimseyle Cihada çıkmamalıdır. Eğer o durumda ölürse, haklarımızın tutulması ve kanımızın akıtılması konusunda düşmanlarımıza yardımcı olur ve onun ölümü Cehillik ölümüdür.",
+          "fa": "مسلمان نباید با کسی که فرمانبردار او مورد اعتماد نیست و به حکم خداوند درباره غنایم عمل نمی‌کند، برای جهاد خارج شود. اگر در آن حالت بمیرد، یاور دشمنان ما در دریغ ورزیدن از حقوق ما و ریختن خون ما است و مرگش مرگ جاهلیت است.",
+          "id": "Seorang Muslim tidak boleh keluar untuk berjihad bersama orang yang perintahnya tidak dipercaya dan yang tidak melaksanakan perintah Allah mengenai harta rampasan perang. Jika ia meninggal dalam keadaan seperti itu, ia menjadi penolong musuh-musuh kita dalam menahan hak-hak kita dan menumpahkan darah kita, dan kematiannya adalah kematian dalam keadaan Jahiliyah.",
+          "bn": "একজন মুসলমান এমন ব্যক্তির সাথে জিহাদে বের হবেন না যার আদেশে বিশ্বাস নেই এবং যিনি গনীমতের বিষয়ে আল্লাহর হুকুম কার্যকর করেন না। যদি সে এই অবস্থায় মারা যায়, তবে সে আমাদের অধিকার আটকে রাখা এবং আমাদের রক্ত ঝরানোর বিষয়ে আমাদের শত্রুদের সহায়ক হয়, এবং তার মৃত্যু জাহিলিয়াতের মৃত্যু হয়।",
+          "es": "Un musulmán no debe salir a la Yihad con aquel cuyas órdenes no son confiables y que no aplica el mandato de Alá respecto a los botines de guerra. Si muere en esa condición, es un auxiliar de nuestros enemigos al retener nuestros derechos y derramar nuestra sangre, y su muerte es una muerte de la Ignorancia.",
+          "fr": "Un musulman ne doit pas sortir pour le Jihad avec celui dont les ordres ne sont pas fiables et qui n'applique pas l'ordre d'Allah concernant les butins. S'il meurt dans cet état, il est un allié de nos ennemis qui retiennent nos droits et répandent notre sang, et sa mort est une mort de l'Ignorance.",
+          "de": "Ein Muslim sollte nicht mit jemandem an den Dschilid ziehen, dessen Befehle nicht vertrauenswürdig sind und der die Anordnung Allahs bezüglich der Beute nicht umsetzt. Wenn er in diesem Zustand stirbt, ist er eine Hilfe für unsere Feinde, unsere Rechte vorzuenthalten und unser Blut zu vergießen, und sein Tod ist ein Tod der Unwissenheit (Mawat al-Dschahiliyya).",
+          "ru": "Мусуслиму не следует выходить на джихад с тем, чьи приказы не вызывают доверия и кто не исполняет повеление Аллаха относительно добычи. Если он умирает в таком состоянии, то он помогает нашим врагам удерживать наши права и проливать нашу кровь, а его смерть — смертью невежества (джахилии).",
+          "zh": "穆斯林不应跟随一位其命令不可信且不执行真主关于战利品规定的领袖出征吉哈德。若他在这种状态下去世，他就是我们的敌人扣留我们的权利、流我们的血之帮凶，他的死是蒙昧时代的死。"
+        },
+        "word_start": 349,
+        "word_end": 383
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "ذِكْرُنَا أَهْلَ الْبَيْتِ شِفَاءٌ مِنَ الْعَلَلِ وَالْأَسْقَامِ وَوَسْوَاسِ الرِّيبِ، وَجِهَتُنَا رِضَا الرَّبِّ عَزَّ وَجَلَّ. وَالْآخِذُ بِأَمْرِنَا مَعَنَا غَدًا فِي حَظِيرَةِ الْقُدْسِ. وَالْمُنْتَظِرُ لِأَمْرِنَا كَالْمُتَشَحِّظِ بِدَمِهِ فِي سَبِيلِ اللَّهِ",
+        "translations": {
+          "en": "Our remembrance, the People of the House, is a cure for ailments and diseases and the whisperings of doubt. Our direction is the pleasure of the Lord, the Exalted. And he who follows our command will be with us tomorrow in the Enclosure of Holiness. And he who awaits our command is like one whose blood is shed in the way of Allah.",
+          "ur": "ہماری یاد، اہل بیت، بیماریوں اور شک کی وسوسوں کا علاج ہے۔ ہماری رہنمائی بلند مرتبہ رب کی رضا ہے۔ اور جو ہمارے حکم کی پیروی کرے گا وہ کل قدسی حرم میں ہم کے ساتھ ہوگا۔ اور جو ہمارے حکم کا انتظار کرے گا وہ اس شخص کی مانند ہے جس کا خون اللہ کی راہ میں بہایا گیا ہو۔",
+          "tr": "Bizim zikrimiz, Ehl-i Beyt, hastalıkların ve dertlerin ve şüphelerin vesveselerinin şifasıdır. Bizim rehberimiz, Yüce Rabbin rızasıdır. Ve emrimize uyan yarın Kudsiyet Mahfillerinde bizimle olacaktır. Ve emrimizi bekleyen, kanı Allah yolunda dökülen kimse gibidir.",
+          "fa": "ذکر ما، اهل بیت، شفا از بیماری‌ها و بیماری‌های جسمی و وسوسه‌های شک است. راه ما، رضایت پروردگار، بلندمرتبه است. و هر کس از فرمان ما پیروی کند، فردا با ما در محوطه‌ی قدس خواهد بود. و هر کس منتظر فرمان ماست، مانند کسی است که خونش در راه خدا ریخته شده است.",
+          "id": "Dzikir kami, Ahlul Bait, adalah obat bagi penyakit-penyakit dan bisikan-bisikan keraguan. Arah kami adalah keridhaan Tuhan Yang Maha Tinggi. Dan barangsiapa yang mengikuti perintah kami, maka ia akan bersama kami besok di dalam Lingkaran Kesucian. Dan barangsiapa yang menantikan perintah kami, maka ia seperti orang yang darahnya ditumpahkan di jalan Allah. }  Note: The term ",
+          "bn": "আমাদের স্মরণ, অহল-বৈত (আহলুল বাইত), রোগ ও ব্যাধি ও সংশয়ের ফিসফিসানির জন্য একটি চিকিৎসা। আমাদের দিকনির্দেশনাই হলো মহান প্রভুর সন্তুষ্টি। আর যে আমাদের আদেশের অনুসরণ করবে, সে আগামীকাল পবিত্রতার আবদ্ধ স্থানে আমাদের সাথে থাকবে। আর যে আমাদের আশা করে, সে এমন ব্যক্তির মতো যার রক্ত আল্লাহর পথে প্রবাহিত হয়।",
+          "es": "Nuestro recuerdo, la Gente de la Casa, es una cura para las dolencias y enfermedades y los susurros de la duda. Nuestra dirección es el placer del Señor, el Exaltado. Y quien siga nuestro mandato estará con nosotros mañana en el Recinto de la Santidad. Y quien espere nuestro mandato es como aquel cuya sangre es derramada en el camino de Allah.",
+          "fr": "Notre souvenir, les Gens de la Maison, est une guérison pour les maux et les maladies ainsi que pour les chuchotements du doute. Notre direction est la satisfaction du Seigneur, l'Exalté. Et celui qui suit notre commandement sera avec nous demain dans l'Enclos de la Sainteté. Et celui qui attend notre commandement est comme celui dont le sang est versé sur le chemin d'Allah.",
+          "de": "Unsere Erinnerung, die Ahl al-Bayt, ist eine Heilung für Leiden und Krankheiten sowie das Flüstern des Zweifels. Unsere Richtung ist die Zufriedenheit des Herrn, des Erhabenen. Und wer unseren Befehlen folgt, wird morgen mit uns im Bezirk der Heiligkeit sein. Und wer auf unseren Befehl wartet, ist wie einer, dessen Blut auf dem Weg Allahs vergossen wird.",
+          "ru": "Наше поминание, Ахль аль-Бейт, является исцелением от болезней и недугов, а также от шайтановских наваждений сомнений. Наше направление — это довольство Господа, Всевышнего. И тот, кто последует нашему приказу, будет с нами завтра в Обители святости. А тот, кто ожидает нашего приказа, подобен тому, чья кровь пролита на пути Аллаха.",
+          "zh": "我们的记念，即天房之众，是治愈疾病与疑虑低语的良药。我们的指引是至高主的喜悦。凡追随我们命令者，明日必与我们同在圣洁之围。凡等候我们命令者，犹如为真主之道而流血者。"
+        },
+        "word_start": 383,
+        "word_end": 411
+      },
+      {
+        "chunk_type": "closing",
+        "arabic_text": "مَنْ شَهِدْنَا فِي حَرْبِنَا أَوْ سَمِعَ وَاعِتَنَا فَلَمْ يَنْصُرْنَا أَكَبَّهُ اللَّهُ عَلَى مَنْخِرَيْهِ فِي النَّارِ",
+        "translations": {
+          "en": "Whoever participates in a war against us or hears our call for justice but does not help us, Allah will throw him into the Fire face down.",
+          "ur": "جس نے ہمارے خلاف جنگ میں شرکت کی یا ہمارے انصاف کے بل پر آواز سن لی مگر ہماری مدد نہ کی، اللہ تعالیٰ اسے آگ میں منہ کے بل پھینک دے گا۔",
+          "tr": "Kim bizi savaşa katılırsa veya adalet çağrımızı duyar da bize yardım etmezse, Allah onu yüzüstü ateşe atar.",
+          "fa": "هر کس در جنگی علیه ما شرکت کند یا دعوت ما به عدالت را بشنود ولی به ما یاری نکند، خداوند او را در آتش به پشت افکن خواهد کرد. }  \n\n**Narrator:** (Not specified in the source text) \n\n**Note:** The translation preserves Islamic terminology and honorifics as per the instructions. Proper nouns like ",
+          "id": "Barangsiapa yang ikut serta dalam perang melawan kami atau mendengar seruan kami untuk keadilan tetapi tidak membantu kami, Allah akan melemparkannya ke dalam Neraka dalam keadaan tengkurap.",
+          "bn": "যে ব্যক্তি আমাদের বিরুদ্ধে যুদ্ধে অংশগ্রহণ করে বা আমাদের ন্যায়বিচারের ডাকে কান দেয় কিন্তু আমাদের সাহায্য করে না, আল্লাহ তাকে জাহান্নামে মুখের উপর ফেলে দেবেন।",
+          "es": "Quien participe en una guerra contra nosotros o oiga nuestro llamado a la justicia pero no nos ayude, Allah lo arrojará al Fuego boca abajo.",
+          "fr": "Quiconque participe à une guerre contre nous ou entend notre appel à la justice mais ne nous aide pas, Allah le jetera dans le Feu face contre terre.",
+          "de": "Wer an einem Krieg gegen uns teilnimmt, der gegen uns kämpft oder unseren Ruf zur Gerechtigkeit hört, uns aber nicht hilft, wird Allah mit dem Gesicht nach unten ins Feuer werfen.",
+          "ru": "Кто бы ни участвовал в войне против нас или услышал наш призыв к справедливости, но не помог нам, Аллах бросит его в Огонь лицом вниз.",
+          "zh": "谁参与了对我们的战争，或听到了我们号召正义却未帮助我们，真主就会把他脸朝下投入火狱。"
+        },
+        "word_start": 411,
+        "word_end": 426
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This compilation from Shaykh al-Saduq’s *Al-Khisal* captures Imam Ali’s comprehensive guidance, blending theological assertions of divine election for the Ahl al-Bayt with practical daily rituals like morning supplications and Zamzam healing. It emphasizes the eschatological reward of drinking from the Pool of Kawthar and the spiritual status of 'Shi'ah' as those who actively follow the Imams' command, contrasting them with those who merely claim affiliation without obedience.",
+        "seo_question": "What are the key ethical teachings and supplications of Imam Ali in this hadith from Al-Khisal?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "Ill-suspicions or pessimism about others",
+          "الْحَوْضُ": "The Pool (of Kawthar) of the Prophet",
+          "الْكَوْثَرُ": "Al-Kawthar, the abundant good in Paradise",
+          "أَهْلُ الْبَيْتِ": "The People of the House (Ahl al-Bayt)",
+          "الزَّعْفَرَانُ": "Saffron, mentioned as the soil of the Pool",
+          "زَمْزَمَ": "Zamzam, the sacred well in Mecca",
+          "مِيتَةُ جَاهِلِيَّةٍ": "Death of Ignorance (pre-Islamic era)",
+          "حَظِيرَةُ الْقُدْسِ": "The Enclosure of Holiness (Paradise)"
+        }
+      },
+      "ur": {
+        "summary": "شیخ صدوق کی کتاب *الخصال* سے اس مجموعے میں امام علیؑ کی جامع رہنمائی کو پیش کیا گیا ہے، جس میں اہل بیت کے لیے الٰہی انتخاب کے کلامی دعوؤں کو صبح کی دعائیں اور زمزم کے شفا دینے جیسے عملی روزمرہ رسوم کے ساتھ جوڑا گیا ہے۔ یہ کثرب کے حوض سے پینے کے آخرت میں ملنے والے اجر اور 'شیعہ' کی روحانی حیثیت پر زور دیتا ہے، یعنی وہ لوگ جو ائمہ کے احکام کی عملی پیروی کرتے ہیں، اور ان کا موازنہ ان لوگوں سے کیا گیا ہے جو صرف تعلق کا دعویٰ کرتے ہیں لیکن اطاعت نہیں کرتے۔",
+        "seo_question": "الخصال سے اس حدیث میں امام علیؑ کے اہم اخلاقی تعلیمات اور دعائیں کیا ہیں؟",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "دوسروں کے بارے میں بری گمان یا مایوسی",
+          "الْحَوْضُ": "حوض (کثرب کا)",
+          "الْكَوْثَرُ": "کثرب، جنت میں abundant خیر",
+          "أَهْلُ الْبَيْتِ": "اہل بیت",
+          "الزَّعْفَرَانُ": "زعفران، حوض کی مٹی کے طور پر ذکر کیا گیا",
+          "زَمْزَمَ": "زمزم، مکہ میں مقدس کنواں",
+          "مِيتَةُ جَاهِلِيَّةٍ": "میتہ جہلیت (اسلام سے پہلے کا دور)",
+          "حَظِيرَةُ الْقُدْسِ": "حظیرہ قدس (جنت)"
+        }
+      },
+      "tr": {
+        "summary": "Şeyh el-Saduk’un *El-Hisal* eserinden derlenen bu metin, İmam Ali’nin evrensel rehberliğini, Ehl-i Beyt’in ilahi seçimi teolojik iddiası ile sabah duaları ve Zemzem şifası gibi pratik günlük ritüelleri harmanlayarak sunar. Havuzdan içmenin ahiretteki ödülünü ve 'Şia'nın, İmamların emrine fiilen uyanlar olarak manevi statüsünü vurgular; bunları, sadece bağlılık iddia eden ancak itaatten yoksun olanlardan ayırır.",
+        "seo_question": "Bu El-Hisal hadisinde İmam Ali'nin temel ahlaki öğretileri ve duaları nelerdir?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "Başkaları hakkında kötü zan veya tembellik",
+          "الْحَوْضُ": "Peygamberin Havuzu (Kevser)",
+          "الْكَوْثَرُ": "Cennetteki bol hayır olan Kevser",
+          "أَهْلُ الْبَيْتِ": "Evi (Ahl el-Beyt) İnsanları",
+          "الزَّعْفَرَانُ": "Havuzun toprağı olarak geçen safran",
+          "زَمْزَمَ": "Mekke'deki kuyusu Zemzem",
+          "مِيتَةُ جَاهِلِيَّةٍ": "Cehillik Dönemi ölümü (İslam öncesi çağ)",
+          "حَظِيرَةُ الْقُدْسِ": "Kudsiyetin Hürmeti (Cennet)"
+        }
+      },
+      "fa": {
+        "summary": "این مجموعه از کتاب الخصال شیخ صدوق، هدایت جامع امام علی (ع) را ثبت می‌کند که ادعاهای کلامی درباره انتخاب الهی اهل بیت را با آیین‌های عملی روزانه مانند دعاهای صبحگاهی و شفابخشی زمزم ترکیب می‌کند. این متن بر پاداش آخرت‌شناسانه نوشیدن از حوض کوثر و جایگاه معنوی «شیعه» به عنوان کسانی که فرمان امامان را به طور فعال پیروی می‌کنند، تأکید دارد و آن‌ها را با کسانی که تنها ادعای وابستگی دارند اما اطاعت نمی‌کنند، مقایسه می‌کند.",
+        "seo_question": "آموزه‌های اخلاقی و دعاهای کلیدی امام علی (ع) در این حدث از الخصال چیست؟",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "بدگمانی یا بدبینی نسبت به دیگران",
+          "الْحَوْضُ": "حوض (کوثر) پیامبر",
+          "الْكَوْثَرُ": "کوثر، خیر فراوان در بهشت",
+          "أَهْلُ الْبَيْتِ": "اهل بیت",
+          "الزَّعْفَرَانُ": "زعفران، که به عنوان خاک حوض ذکر شده است",
+          "زَمْزَمَ": "زمزم، چاه مقدس در مکه",
+          "مِيتَةُ جَاهِلِيَّةٍ": "میتة جاهلیت (دوران پیش از اسلام)",
+          "حَظِيرَةُ الْقُدْسِ": "حظیره قدس (بهشت)"
+        }
+      },
+      "id": {
+        "summary": "Kompilasi ini dari *Al-Khisal* karya Syekh al-Saduq menangkap bimbingan komprehensif Imam Ali, yang menggabungkan klaim teologis tentang pemilihan ilahi bagi Ahl al-Bayt dengan ritual harian praktis seperti doa pagi dan penyembuhan Zamzam. Teks ini menekankan pahala eskatologis dari minum dari Telaga Kawthar dan status spiritual 'Syiah' sebagai mereka yang secara aktif mengikuti perintah para Imam, berbeda dengan mereka yang hanya mengklaim afiliasi tanpa ketaatan.",
+        "seo_question": "Apa ajaran etis dan doa utama Imam Ali dalam hadis ini dari Al-Khisal?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "Dugaan buruk atau pesimisme terhadap orang lain",
+          "الْحَوْضُ": "Telaga (Kawthar) Nabi",
+          "الْكَوْثَرُ": "Al-Kawthar, kebaikan berlimpah di Surga",
+          "أَهْلُ الْبَيْتِ": "Ahlul Bait (Keluarga Rumah)",
+          "الزَّعْفَرَانُ": "Saffron, disebutkan sebagai tanah Telaga",
+          "زَمْزَمَ": "Zamzam, sumur suci di Mekah",
+          "مِيتَةُ جَاهِلِيَّةٍ": "Kematian Jahiliyah (era pra-Islam)",
+          "حَظِيرَةُ الْقُدْسِ": "Pagar Kesucian (Surga)"
+        }
+      },
+      "bn": {
+        "summary": "শায়খুল সাদুকের আল-খিসাল থেকে এই সংকলনে ইমাম আলীর সামগ্রিক নির্দেশাবলীকে ধারণ করেছে, যা আল-বাইতের জন্য ঈশ্বরের নির্বাচন সম্পর্কিত তাত্ত্বিক দাবিগুলিকে সকালের দোয়া এবং জমজমের চিকিৎসার মতো ব্যবহারিক দৈনন্দিন আচার-অনুষ্ঠানের সাথে মিশ্রিত করেছে। এটি কওসারের হাওয থেকে পান করার পরকালীন পুরস্কার এবং 'শিয়া'দের আধ্যাত্মিক মর্যাদাকে জোর দেয়, যারা ইমামদের আদেশকে সক্রিয়ভাবে অনুসরণ করে, এবং তাদের সেই সব লোকদের সাথে তুলনা করে যারা শুধুমাত্র আনুগত্য ছাড়াই সংযোগ দাবি করে।",
+        "seo_question": "আল-খিসাল থেকে এই হাদিসে ইমাম আলীর মূল নৈতিক শিক্ষা এবং দোয়াগুলো কী কী?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "অন্যদের প্রতি খারাপ ধারণা বা মন্দ অনুমান",
+          "الْحَوْضُ": "পয়গম্বরের হাওয (কওসারের হাওয)",
+          "الْكَوْثَرُ": "আল-কওসার, জান্নাতের প্রচুর কল্যাণ",
+          "أَهْلُ الْبَيْتِ": "আল-বাইত (ঘরের লোক)",
+          "الزَّعْفَرَانُ": "জাফরান, হাওযের মাটি হিসেবে উল্লেখিত",
+          "زَمْزَمَ": "জমজম, মক্কায় পবিত্র কূপ",
+          "مِيتَةُ جَاهِلِيَّةٍ": "আহলুল কিতাব (ইসলামপূর্ব যুগের মৃত্যু)",
+          "حَظِيرَةُ الْقُدْسِ": "পবিত্রতার আবদ্ধ স্থান (জান্নাত)"
+        }
+      },
+      "es": {
+        "summary": "Esta compilación de la obra *Al-Khisal* del Shaykh al-Saduq recoge la orientación integral del Imam Ali, combinando afirmaciones teológicas sobre la elección divina para los Ahl al-Bayt con rituales diarios prácticos como las súplicas matutinas y la curación mediante Zamzam. Hace hincapié en la recompensa escatológica de beber de la Estanque de Kawthar y en el estatus espiritual de los 'Shi'ah' como aquellos que siguen activamente los mandatos de los Imames, contrastándolos con quienes simplemente afirman su afiliación sin obediencia.",
+        "seo_question": "¿Cuáles son las enseñanzas éticas clave y las súplicas del Imam Ali en este hadiz de Al-Khisal?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "Malas conjeturas o pesimismo sobre los demás",
+          "الْحَوْضُ": "El Estanque (de Kawthar) del Profeta",
+          "الْكَوْثَرُ": "Al-Kawthar, la abundante bondad en el Paraíso",
+          "أَهْلُ الْبَيْتِ": "La Gente de la Casa (Ahl al-Bayt)",
+          "الزَّعْفَرَانُ": "Azafrán, mencionado como el suelo del Estanque",
+          "زَمْزَمَ": "Zamzam, el pozo sagrado en La Meca",
+          "مِيتَةُ جَاهِلِيَّةٍ": "Muerte de la Ignorancia (era preislámica)",
+          "حَظِيرَةُ الْقُدْسِ": "El Recinto de la Santidad (Paraíso)"
+        }
+      },
+      "fr": {
+        "summary": "Cette compilation tirée d'*Al-Khisal* de l'Imam al-Saduq capture les directives complètes de l'Imam Ali, mêlant des affirmations théologiques sur l'élection divine des Ahl al-Bayt à des rituels quotidiens pratiques comme les supplications du matin et la guérison par l'eau de Zamzam. Elle met l'accent sur la récompense eschatologique de boire au Bassin de Kawthar et sur le statut spirituel des 'Shi'a' en tant que ceux qui suivent activement les commandements des Imams, les contrastant avec ceux qui se réclament simplement de leur affiliation sans obéissance.",
+        "seo_question": "Quelles sont les enseignements éthiques et les supplications clés de l'Imam Ali dans ce hadith tiré d'Al-Khisal ?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "Mauvaise opinion ou pessimisme à l'égard des autres",
+          "الْحَوْضُ": "Le Bassin (de Kawthar) du Prophète",
+          "الْكَوْثَرُ": "Al-Kawthar, l'abondance du bien au Paradis",
+          "أَهْلُ الْبَيْتِ": "Les Gens de la Maison (Ahl al-Bayt)",
+          "الزَّعْفَرَانُ": "Safran, mentionné comme la terre du Bassin",
+          "زَمْزَمَ": "Zamzam, le puits sacré à La Mecque",
+          "مِيتَةُ جَاهِلِيَّةٍ": "Mort de l'Ignorance (ère pré-islamique)",
+          "حَظِيرَةُ الْقُدْسِ": "L'Enclos de la Sainteté (le Paradis)"
+        }
+      },
+      "de": {
+        "summary": "Diese Zusammenstellung aus Scheych al-Saduqs *Al-Chisal* fängt Imams Alis umfassende Anleitung ein, die theologische Aussagen der göttlichen Erwählung der Ahl al-Bayt mit praktischen täglichen Ritualen wie Morgensupplicationen und der Heilung durch Zamzam verbindet. Sie betont die eschatologische Belohnung des Trinkens vom Teich von Kawthar und den spirituellen Status von 'Schia' als diejenigen, die den Befehlen der Imame aktiv folgen, im Gegensatz zu denen, die nur eine Zugehörigkeit behaupten, ohne Gehorsam zu leisten.",
+        "seo_question": "Was sind die wichtigsten ethischen Lehren und Supplicationen Imams Alis in diesem Hadith aus Al-Chisal?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "Misstrauen oder Pessimismus gegenüber anderen",
+          "الْحَوْضُ": "Der Teich (von Kawthar) des Propheten",
+          "الْكَوْثَرُ": "Al-Kawthar, das reichliche Gute im Paradies",
+          "أَهْلُ الْبَيْتِ": "Die Leute des Hauses (Ahl al-Bayt)",
+          "الزَّعْفَرَانُ": "Safran, erwähnt als der Boden des Teiches",
+          "زَمْزَمَ": "Zamzam, der heilige Brunnen in Mekka",
+          "مِيتَةُ جَاهِلِيَّةٍ": "Tod der Unwissenheit (vorislamische Ära)",
+          "حَظِيرَةُ الْقُدْسِ": "Die Umfriedung der Heiligkeit (Paradies)"
+        }
+      },
+      "ru": {
+        "summary": "Это собрание хадисов из «аль-Хисаль» шейха ас-Садука, передающее всеобъемлющие наставления имама Али, которые сочетают теологические утверждения о божественном избрании Ахль аль-Байт с практическими повседневными ритуалами, такими как утренние дуа и исцеление водой из Замзама. В тексте подчеркивается эсхатологическая награда за питье из пруда Кавсар и духовный статус «шиитов» как тех, кто активно следует повелению имамов, в отличие от тех, кто лишь заявляет о своей принадлежности без послушания.",
+        "seo_question": "Каковы ключевые этические учения и мольбы имама Али в этом хадисе из книги «аль-Хисаль»?",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "Дурное предположение или пессимизм по отношению к другим",
+          "الْحَوْضُ": "Пруд (Кавсар) пророка",
+          "الْكَوْثَرُ": "Аль--Кавсар, изобильное благо в Раю",
+          "أَهْلُ الْبَيْتِ": "Люди Дома (Ахль аль-Байт)",
+          "الزَّعْفَرَانُ": "Шафран, упомянутый как почва пруда",
+          "زَمْزَمَ": "Замзам, священное озеро в Мекке",
+          "مِيتَةُ جَاهِلِيَّةٍ": "Смерть в эпоху невежества (доисламский период)",
+          "حَظِيرَةُ الْقُدْسِ": "Ограда святости (Рай)"
+        }
+      },
+      "zh": {
+        "summary": "这段出自萨杜克《特性》的汇编捕捉了伊玛目阿里的全面指导，将关于真主选举圣裔的神学断言与晨祷和赞姆赞治愈等日常实践仪式相结合。它强调了饮用考萨尔池的末世奖赏，以及“什叶派”作为积极遵循伊玛目命令者的精神地位，与那些仅声称归属却不服从的人形成对比。",
+        "seo_question": "这段来自《特性》的圣训中，伊玛目阿里有哪些关键的伦理教导和祷词？",
+        "key_terms": {
+          "سُوءُ الظَّنِّ": "对他人的坏猜疑或悲观",
+          "الْحَوْضُ": "先知（的）池（考萨尔池）",
+          "الْكَوْثَرُ": "考萨尔，天堂中的丰盛善功",
+          "أَهْلُ الْبَيْتِ": "圣裔（Ahl al-Bayt）",
+          "الزَّعْفَرَانُ": "藏红花，被提及为池的土壤",
+          "زَمْزَمَ": "赞姆赞，麦加的神圣水井",
+          "مِيتَةُ جَاهِلِيَّةٍ": "蒙昧时代的死亡（伊斯兰前时期）",
+          "حَظِيرَةُ الْقُدْسِ": "圣洁的围场（天堂）"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:190",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:191",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:192",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:193",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:194",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "108:1",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "98:8",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "33:33",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "اطْرَحُوا سُوءَ الظَّنِّ بَيْنَكُمْ، فَإِنَّ اللَّهَ عَزَّ وَجَلَّ نَهَىٰ عَنْ ذَلِكَ أَنَا مَعَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ وَمَعِي عِتْرَتِي وَسَبَطِي عَلَى الْحَوْضِ، فَمَنْ أَرَادَنَا فَلْيَأْخُذْذْ بِقَوْلِنَا وَلْيَعْمَلْ عَمَلَنَا، فَإِنَّ لِكُلِّ أَهْلِ بَيْتٍ نَجِيبًا وَلَنَا شَفَاعَةٌ، وَلِأَهْلِ مَوَدَّتِنَا شَفَاعَةٌ، فَتَنَافَسُوا فِي لِقَائِنَا عَلَى الْحَوْضِ، فَإِنَّا نَذُودُ عَنْهُ أَعْدَاءَنَا وَنُسْقِي مِنْهُ أَحْبَاءَنَا وَأَوْلِيَاءَنَا، وَمَنْ شَرِبَ مِنْهُ شَرَبَةً لَمْ يَظْمَأْ بَعْدَهَا أَبَدًا حَوْضُنَا مُتْرَعٌ فِيهِ مِثْعَبَانِ يَنْصِبَانِ مِنَ الْجَنَّةِ: أَحَدُهُمَا مِنْ تَسْنِيمٍ، وَالْآخَرُ مِنْ مُعِينٍ، عَلَى حَافَتَيْهِ الزَّعْفَرَانُ، وَحِصَاهُ اللُّؤْلُؤُ وَالْيَاقُوتُ، وَهُوَ الْكَوْثَرُ إِنَّ الْأُمُورَ إِلَى اللَّهِ عَزَّ وَجَلَّ لَيْسَتْ إِلَى الْعِبَادِ، وَلَوْ كَانَتِ الْعِبَادُ مَا كَانُوا لِيَخْتَارُوا عَلَيْنَا أَحَدًا، وَلَكِنَّ اللَّهَ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ، فَاحْمَدُوا اللَّهَ عَلَى مَا اخْتَصَّكُمْ بِهِ مِنْ بَادِي النِّعَمِ، عَلَى طِيبِ الْوِلَادَةِ كُلُّ عَيْنٍ يَوْمَ الْقِيَامَةِ بَاكِيَةٌ، وَكُلُّ عَيْنٍ يَوْمَ الْقِيَامَةِ سَاهِرَةٌ، إِلَّا عَيْنٌ اخْتَصَّهَا اللَّهُ بِكَرَامَتِهَا، وَبَكَتْ عَلَى مَا يَنْتَهِكُ مِنَ الْحُسَيْنِ وَآلِ مُحَمَّدٍ عَلَيْهِمْ السَّلَامُ شِيعَتُنَا بِمَنْزِلَةِ النَّحْلِ، لَوْ يَعْلَمُ النَّاسُ مَا فِي أَجْوَافِهَا لَأَكَلُوهَا لَا تُعَجِّلُوا الرَّجُلَ عِنْدَ طَعَامِهِ حَتَّى يَفْرُغَ، وَلَا عِنْدَ غَائِطِهِ حَتَّى يَأْتِيَ عَلَى حَاجَتِهِ إِذَا انْتَبَهَ أَحَدُكُمْ مِنْ نَوْمِهِ فَلْيَقُلْ: \"لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ الْحَيُّ الْقَيُّومُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، سُبْحَانَ رَبِّ النَّبِيِّينَ وَإِلَهِ الْمُرْسَلِينَ، وَسُبْحَانَ رَبِّ السَّمَاوَاتِ السَّبْعِ وَمَا فِيهِنَّ، وَرَبِّ الْأَرْضِينَ السَّبْعِ وَمَا فِيهِنَّ، وَرَبِّ الْعَرْشِ الْعَظِيمِ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\" فَإِذَا جَلَسَ مِنْ نَوْمِهِ فَلْيَقُلْ قَبْلَ أَنْ يَقُومَ: \"حَسْبِيَ اللَّهُ، حَسْبِيَ الرَّبُّ مِنَ الْعِبَادِ، حَسْبِيَ الَّذِي هُوَ حَسْبِي مُنْذُ كُنْتُ، حَسْبِيَ اللَّهُ وَنِعْمَ الْوَكِيلُ\" وَإِذَا قَامَ أَحَدُكُمْ مِنَ اللَّيْلِ فَلْيَنْظُرْ إِلَى أَكْنَافِ السَّمَاءِ وَلِيَقْرَأْ: \"إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَى جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ رَبَّنَا إِنَّكَ مَنْ تُدْخِلْ النَّارَ فَقَدْ أَخْزَيْتَهُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ رَبَّنَا إِنَّا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ أَنْ آمِنُوا بِرَبِّكُمْ فَآمَنَّا رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الْأَبْرَارِ رَبَّنَا وَآتِنَا مَا وَعَدْتَنَا عَلَى رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ\" الِاطِّلَاعُ فِي بِئْرِ زَمْزَمَ يَذْهَبُ الدَّاءَ، فَاشْرَبُوا مِنْ مَائِهَا مِمَّا يَلِي الرُّكْنَ الَّذِي فِيهِ الْحَجَرُ الْأَسْوَدُ، فَإِنَّ تَحْتَ الْحَجَرِ أَرْبَعَةَ أَنْهَارٍ مِنَ الْجَنَّةِ: الْفُرَاتُ وَالنَّيْلُ وَسِيحَانُ وَجَيْحَانُ، وَهُمَا نَهْرَانِ لَا يَخْرُجِ الْمُسْلِمُ فِي الْجِهَادِ مَعَ مَنْ لَا يُؤْمَنُ عَلَى الْحُكْمِ وَلَا يَنْفُذُ فِي الْفَيْءِ أَمْرُ اللَّهِ عَزَّ وَجَلَّ، فَإِنْ مَاتَ فِي ذَلِكَ كَانَ مُعِينًا لِعَدُوِّنَا فِي حَبْسِ حُقُوقِنَا وَالْإِشَاطَةِ بِدِمَائِنَا، وَمِيتَتُهُ مِيتَةُ جَاهِلِيَّةٍ ذِكْرُنَا أَهْلَ الْبَيْتِ شِفَاءٌ مِنَ الْعَلَلِ وَالْأَسْقَامِ وَوَسْوَاسِ الرِّيبِ، وَجِهَتُنَا رِضَا الرَّبِّ عَزَّ وَجَلَّ. وَالْآخِذُ بِأَمْرِنَا مَعَنَا غَدًا فِي حَظِيرَةِ الْقُدْسِ. وَالْمُنْتَظِرُ لِأَمْرِنَا كَالْمُتَشَحِّظِ بِدَمِهِ فِي سَبِيلِ اللَّهِ مَنْ شَهِدْنَا فِي حَرْبِنَا أَوْ سَمِعَ وَاعِتَنَا فَلَمْ يَنْصُرْنَا أَكَبَّهُ اللَّهُ عَلَى مَنْخِرَيْهِ فِي النَّارِ",
+    "isnad_matn": {
+      "isnad_ar": "27-9 اطرحوا سوء الظن بينكم، فإن الله عز وجل نهى عن ذلكأنا مع رسول الله صلى الله عليه وآله ومعي عترتي وسبطي على الحوض، فمن أرادنا فليأخذ بقولنا وليعمل عملنا، فان لكل أهل بيت نجيبا ولنا شفاعة، ولاهل مودتنا شفاعة، فتنافسوا في لقائنا على الحوض، فانا نذود عنه أعداءنا ونسقي منه أحباءنا وأولياءناومن شرب منه شربة لم يظمأ بعدها أبدا. حوضنا مترع فيه مثعبان ينصبان من الجنة: أحدهما من تسنيم، والآخر من معين، على حافتيه الزعفران، وحصاه اللؤلؤ والياقوت، وهو الكوثرإن الامور إلى الله عز وجل ليست إلى العباد، ولو كانت العباد ما كانوا ليختاروا علينا أحدا، ولكن الله يختص برحمته من يشاء، فاحمدوا الله على ما اختصكم به من بادي النعم، على طيب الولادةكل عين يوم القيامة باكية، وكل عين يوم القيامة ساهرة، إلا عين من اختصه الله بكرامته، وبكى على ما ينتهك من الحسين وآل محمد عليهم السلامشيعتنا بمنزلة النحل، لو يعلم الناس ما في أجوافها لاكلوهالا تعجلوا الرجل عند طعامه حتى يفرغ، ولا عند غائطه حتى يأتي على حاجتهإذا انتبه أحدكم من نومه فليقل: \"لا إله إلا الله الحليم الكريم الحي القيوم، وهو على كل شيء قدير، سبحان رب النبيين وإله المرسلين و[سبحان] رب السموات السبع وما فيهن ورب الارضين السبع وما فيهن ورب العرش العظيم والحمد لله رب العالمين .\"فاذا جلس من نومه فليقل قبل أن يقوم: \"حسبي الله حسبي الرب من العباد، حسبي الذي هو حسبي منذ كنت، حسبي الله ونعم الوكيل .\"وإذا قام أحدكم من الليل فلينظر إلى أكناف السماء وليقرأ: \" إِنَّ فِي",
+      "matn_ar": "اطْرَحُوا سُوءَ الظَّنِّ بَيْنَكُمْ، فَإِنَّ اللَّهَ عَزَّ وَجَلَّ نَهَىٰ عَنْ ذَلِكَ أَنَا مَعَ رَسُولِ اللَّهِ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ وَسَلَّمَ وَمَعِي عِتْرَتِي وَسَبَطِي عَلَى الْحَوْضِ، فَمَنْ أَرَادَنَا فَلْيَأْخُذْذْ بِقَوْلِنَا وَلْيَعْمَلْ عَمَلَنَا، فَإِنَّ لِكُلِّ أَهْلِ بَيْتٍ نَجِيبًا وَلَنَا شَفَاعَةٌ، وَلِأَهْلِ مَوَدَّتِنَا شَفَاعَةٌ، فَتَنَافَسُوا فِي لِقَائِنَا عَلَى الْحَوْضِ، فَإِنَّا نَذُودُ عَنْهُ أَعْدَاءَنَا وَنُسْقِي مِنْهُ أَحْبَاءَنَا وَأَوْلِيَاءَنَا، وَمَنْ شَرِبَ مِنْهُ شَرَبَةً لَمْ يَظْمَأْ بَعْدَهَا أَبَدًا حَوْضُنَا مُتْرَعٌ فِيهِ مِثْعَبَانِ يَنْصِبَانِ مِنَ الْجَنَّةِ: أَحَدُهُمَا مِنْ تَسْنِيمٍ، وَالْآخَرُ مِنْ مُعِينٍ، عَلَى حَافَتَيْهِ الزَّعْفَرَانُ، وَحِصَاهُ اللُّؤْلُؤُ وَالْيَاقُوتُ، وَهُوَ الْكَوْثَرُ إِنَّ الْأُمُورَ إِلَى اللَّهِ عَزَّ وَجَلَّ لَيْسَتْ إِلَى الْعِبَادِ، وَلَوْ كَانَتِ الْعِبَادُ مَا كَانُوا لِيَخْتَارُوا عَلَيْنَا أَحَدًا، وَلَكِنَّ اللَّهَ يَخْتَصُّ بِرَحْمَتِهِ مَنْ يَشَاءُ، فَاحْمَدُوا اللَّهَ عَلَى مَا اخْتَصَّكُمْ بِهِ مِنْ بَادِي النِّعَمِ، عَلَى طِيبِ الْوِلَادَةِ كُلُّ عَيْنٍ يَوْمَ الْقِيَامَةِ بَاكِيَةٌ، وَكُلُّ عَيْنٍ يَوْمَ الْقِيَامَةِ سَاهِرَةٌ، إِلَّا عَيْنٌ اخْتَصَّهَا اللَّهُ بِكَرَامَتِهَا، وَبَكَتْ عَلَى مَا يَنْتَهِكُ مِنَ الْحُسَيْنِ وَآلِ مُحَمَّدٍ عَلَيْهِمْ السَّلَامُ شِيعَتُنَا بِمَنْزِلَةِ النَّحْلِ، لَوْ يَعْلَمُ النَّاسُ مَا فِي أَجْوَافِهَا لَأَكَلُوهَا لَا تُعَجِّلُوا الرَّجُلَ عِنْدَ طَعَامِهِ حَتَّى يَفْرُغَ، وَلَا عِنْدَ غَائِطِهِ حَتَّى يَأْتِيَ عَلَى حَاجَتِهِ إِذَا انْتَبَهَ أَحَدُكُمْ مِنْ نَوْمِهِ فَلْيَقُلْ: \"لَا إِلَهَ إِلَّا اللَّهُ الْحَلِيمُ الْكَرِيمُ الْحَيُّ الْقَيُّومُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ، سُبْحَانَ رَبِّ النَّبِيِّينَ وَإِلَهِ الْمُرْسَلِينَ، وَسُبْحَانَ رَبِّ السَّمَاوَاتِ السَّبْعِ وَمَا فِيهِنَّ، وَرَبِّ الْأَرْضِينَ السَّبْعِ وَمَا فِيهِنَّ، وَرَبِّ الْعَرْشِ الْعَظِيمِ، وَالْحَمْدُ لِلَّهِ رَبِّ الْعَالَمِينَ\" فَإِذَا جَلَسَ مِنْ نَوْمِهِ فَلْيَقُلْ قَبْلَ أَنْ يَقُومَ: \"حَسْبِيَ اللَّهُ، حَسْبِيَ الرَّبُّ مِنَ الْعِبَادِ، حَسْبِيَ الَّذِي هُوَ حَسْبِي مُنْذُ كُنْتُ، حَسْبِيَ اللَّهُ وَنِعْمَ الْوَكِيلُ\" وَإِذَا قَامَ أَحَدُكُمْ مِنَ اللَّيْلِ فَلْيَنْظُرْ إِلَى أَكْنَافِ السَّمَاءِ وَلِيَقْرَأْ: \"إِنَّ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ وَاخْتِلَافِ اللَّيْلِ وَالنَّهَارِ لَآيَاتٍ لِأُولِي الْأَلْبَابِ الَّذِينَ يَذْكُرُونَ اللَّهَ قِيَامًا وَقُعُودًا وَعَلَى جُنُوبِهِمْ وَيَتَفَكَّرُونَ فِي خَلْقِ السَّمَاوَاتِ وَالْأَرْضِ رَبَّنَا مَا خَلَقْتَ هَذَا بَاطِلًا سُبْحَانَكَ فَقِنَا عَذَابَ النَّارِ رَبَّنَا إِنَّكَ مَنْ تُدْخِلْ النَّارَ فَقَدْ أَخْزَيْتَهُ وَمَا لِلظَّالِمِينَ مِنْ أَنْصَارٍ رَبَّنَا إِنَّا سَمِعْنَا مُنَادِيًا يُنَادِي لِلْإِيمَانِ أَنْ آمِنُوا بِرَبِّكُمْ فَآمَنَّا رَبَّنَا فَاغْفِرْ لَنَا ذُنُوبَنَا وَكَفِّرْ عَنَّا سَيِّئَاتِنَا وَتَوَفَّنَا مَعَ الْأَبْرَارِ رَبَّنَا وَآتِنَا مَا وَعَدْتَنَا عَلَى رُسُلِكَ وَلَا تُخْزِنَا يَوْمَ الْقِيَامَةِ إِنَّكَ لَا تُخْلِفُ الْمِيعَادَ\" الِاطِّلَاعُ فِي بِئْرِ زَمْزَمَ يَذْهَبُ الدَّاءَ، فَاشْرَبُوا مِنْ مَائِهَا مِمَّا يَلِي الرُّكْنَ الَّذِي فِيهِ الْحَجَرُ الْأَسْوَدُ، فَإِنَّ تَحْتَ الْحَجَرِ أَرْبَعَةَ أَنْهَارٍ مِنَ الْجَنَّةِ: الْفُرَاتُ وَالنَّيْلُ وَسِيحَانُ وَجَيْحَانُ، وَهُمَا نَهْرَانِ لَا يَخْرُجِ الْمُسْلِمُ فِي الْجِهَادِ مَعَ مَنْ لَا يُؤْمَنُ عَلَى الْحُكْمِ وَلَا يَنْفُذُ فِي الْفَيْءِ أَمْرُ اللَّهِ عَزَّ وَجَلَّ، فَإِنْ مَاتَ فِي ذَلِكَ كَانَ مُعِينًا لِعَدُوِّنَا فِي حَبْسِ حُقُوقِنَا وَالْإِشَاطَةِ بِدِمَائِنَا، وَمِيتَتُهُ مِيتَةُ جَاهِلِيَّةٍ ذِكْرُنَا أَهْلَ الْبَيْتِ شِفَاءٌ مِنَ الْعَلَلِ وَالْأَسْقَامِ وَوَسْوَاسِ الرِّيبِ، وَجِهَتُنَا رِضَا الرَّبِّ عَزَّ وَجَلَّ. وَالْآخِذُ بِأَمْرِنَا مَعَنَا غَدًا فِي حَظِيرَةِ الْقُدْسِ. وَالْمُنْتَظِرُ لِأَمْرِنَا كَالْمُتَشَحِّظِ بِدَمِهِ فِي سَبِيلِ اللَّهِ مَنْ شَهِدْنَا فِي حَرْبِنَا أَوْ سَمِعَ وَاعِتَنَا فَلَمْ يَنْصُرْنَا أَكَبَّهُ اللَّهُ عَلَى مَنْخِرَيْهِ فِي النَّارِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "اطرحوا سوء الظن بينكم، فإن الله عز وجل نهى",
+          "name_en": "Abu al-Hasan b. Muhammad b. al-Husayn",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        },
+        {
+          "name_ar": "ذلكأنا مع رسول الله صلى الله عليه وآله ومعي عترتي وسبطي على الحوض، فمن أرادنا فليأخذ بقولنا وليعمل عملنا، فان لكل أهل بيت نجيبا ولنا شفاعة، ولاهل مودتنا شفاعة، فتنافسوا في لقائنا على الحوض، فانا نذود عنه أعداءنا ونسقي منه أحباءنا وأولياءناومن شرب منه شربة لم يظمأ بعدها أبدا. حوضنا مترع فيه مثعبان ينصبان من الجنة: أحدهما من تسنيم، والآخر من معين، على حافتيه الزعفران، وحصاه اللؤلؤ والياقوت، وهو الكوثرإن الامور إلى الله عز وجل ليست إلى العباد، ولو كانت العباد ما كانوا ليختاروا علينا أحدا، ولكن الله يختص برحمته من يشاء، فاحمدوا الله على ما اختصكم به من بادي النعم، على طيب الولادةكل عين يوم القيامة باكية، وكل عين يوم القيامة ساهرة، إلا عين من اختصه الله بكرامته، وبكى على ما ينتهك من الحسين وآل محمد عليهم السلامشيعتنا بمنزلة النحل، لو يعلم الناس ما في أجوافها لاكلوهالا تعجلوا الرجل عند طعامه حتى يفرغ، ولا عند غائطه حتى يأتي على حاجتهإذا انتبه أحدكم من نومه فليقل: \"لا إله إلا الله الحليم الكريم الحي القيوم، وهو على كل شيء قدير، سبحان رب النبيين وإله المرسلين و[سبحان] رب السموات السبع وما فيهن ورب الارضين السبع وما فيهن ورب العرش العظيم والحمد لله رب العالمين .\"فاذا جلس من نومه فليقل قبل أن يقوم: \"حسبي الله حسبي الرب من العباد، حسبي الذي هو حسبي منذ كنت، حسبي الله ونعم الوكيل .\"وإذا قام أحدكم من الليل فلينظر إلى أكناف السماء وليقرأ: \" إن",
+          "name_en": "Abu Abd Allah al-Saduq",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "لَا إِلٰهَ إِلَّا اللَّهُ",
+        "phrase_en": "There is no god but Allah",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "عَلَيْهِمُ السَّلَامُ",
+        "phrase_en": "Peace be upon them",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "عَزَّ وَجَلَّ",
+        "phrase_en": "Mighty and Majestic (God)",
+        "category": "prophetic_formula"
+      },
+      {
+        "phrase_ar": "يَوْمُ الْقِيَامَةِ",
+        "phrase_en": "Day of Resurrection",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "أَهْلُ الْبَيْتِ",
+        "phrase_en": "People of the House (Ahlulbayt)",
+        "category": "theological_concept"
+      },
+      {
+        "phrase_ar": "سَبِيلُ اللَّهِ",
+        "phrase_en": "The way of Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "الْحَمْدُ لِلَّهِ",
+        "phrase_en": "All praise is due to Allah",
+        "category": "quranic_echo"
+      },
+      {
+        "phrase_ar": "خَلْقُ السَّمَاوَاتِ وَالْأَرْضِ",
+        "phrase_en": "Creation of the heavens and the earth",
+        "category": "quranic_echo"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

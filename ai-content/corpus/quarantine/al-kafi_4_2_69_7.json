@@ -1,0 +1,260 @@
+{
+  "verse_path": "/books/al-kafi:4:2:69:7",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] en translation length out of bounds: 1 en words vs 17 ar words (ratio=0.06, expected 6.8-68.0)",
+    "chunks[1] type='body' starts with chain transmission verb 'حدثني' — likely mis-typed isnad content",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "theology",
+      "quran_commentary"
+    ],
+    "content_type": "theological",
+    "topics": [
+      "quran_virtues",
+      "divine_decree",
+      "imams_biography"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنِ السَّيَّارِيِّ عَنْ بَعْضِ أَصْحَابِنَا عَنْ دَاوُدَ بْنِ فَرْقَدٍ قَالَ",
+        "translations": {
+          "en": "Muhammad_ibn_yahya_from_muhammad_ibn_ahmad_from_al_sayyari_from_one_of_our_companions_from_dawood_ibn_farqad_who_said: ",
+          "ur": "محمد بن یحییٰ نے محمد بن احمد سے، انہوں نے السیاری سے، انہوں نے ہمارے اصحاب میں سے ایک سے، انہوں نے داؤد بن فرقد سے روایت کی کہ انہوں نے کہا:",
+          "tr": "Muhammed b. Yahya, Muhammed b. Ahmed'den, es-Seyyari'den, bizden birinden, Davud b. Farkad'dan; o da şöyle dedi:",
+          "fa": "محمد بن یحیی از محمد بن احمد از سیاری از یکی از یاران ما از داوود بن فرقد که گفت:",
+          "id": "Muhammad ibn Yahya dari Muhammad ibn Ahmad dari As-Sayyari dari salah satu sahabat kami dari Dawud ibn Farqad yang berkata:",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, মুহাম্মাদ ইবনে আহমাদ হতে, আস-সায়্যারী হতে, আমাদের সাহাবীদের একজন হতে, দাউদ ইবনে ফারকাদ হতে বর্ণনা করেন, তিনি বলেন:",
+          "es": "Muhammad ibn Yahya, de Muhammad ibn Ahmad, de al-Sayyari, de uno de nuestros compañeros, de Dawud ibn Farqad, quien dijo:",
+          "fr": "Muhammad ibn Yahya, de Muhammad ibn Ahmad, de al-Sayyari, de l'un de nos compagnons, de Dawood ibn Farqad, qui a dit :",
+          "de": "Muhammad ibn Yahya von Muhammad ibn Ahmad von as-Sayyari von einem unserer Gefährten von Dawud ibn Farqad, der sagte:",
+          "ru": "Мухаммад ибн Яхья от Мухаммад ибн Ахмад ас-Сайяри от одного из наших сподвижников от Дауда ибн Фаркада, который сказал:",
+          "zh": "穆罕默德·本·叶海亚传自穆罕玛德·本·艾哈迈德，传自赛雅里，传自我们的一位同伴，传自达乌德·本·法尔格德，他说："
+        },
+        "word_start": 0,
+        "word_end": 17
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "حَدَّثَنِي يَعْقُوبُ قَالَ سَمِعْتُ رَجُلًا يَسْأَلُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ لَيْلَةِ الْقَدْرِ فَقَالَ أَخْبِرْنِي عَنْ لَيْلَةِ الْقَدْرِ كَانَتْ أَوْ تَكُونُ فِي كُلِّ عَامٍ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) لَوْ رُفِعَتْ لَيْلَةُ الْقَدْرِ لَرُفِعَ الْقُرْآنُ",
+        "translations": {
+          "en": "Yaqoub narrated to me saying, 'I heard a man ask Abu Abdullah (peace be upon him) about the Night of Pre-determination, so he said, 'Inform me about the Night of Pre-determination. Has it already occurred or would it be occurring during every year?' So Abu Abdullah (peace be upon him) said: 'Had Allah Raised up the Night of Pre-determination, the Quran would have been Raised up (too).'",
+          "ur": "یعقوب نے مجھ سے روایت کی کہ انہوں نے ایک شخص کو امام عبداللہ (علیہ السلام) سے لیلۃ القدر کے بارے میں پوچھتے ہوئے سنا، تو انہوں نے فرمایا: \"مجھے لیلۃ القدر کے بارے میں بتاؤ، کیا یہ پہلے ہی واقع ہو چکی ہے یا ہر سال ہوتی رہے گی؟\" تو امام عبداللہ (علیہ السلام) نے فرمایا: \"اگر اللہ تعالیٰ نے لیلۃ القدر کو بلند کیا ہوتا تو قرآن بھی بلند کیا ہوتا۔\"",
+          "tr": "Yâkûb, bana şöyle rivayet etti: \"Bir adam, Ebu Abdillah'a (aleyhisselâm) Kadir Gecesi hakkında sordu, o da şöyle dedi: 'Bana Kadir Gecesi'nden bahset. Zaten oldu mu, yoksa her yıl mı olacak?' Ebu Abdillah (aleyhisselâm) şöyle dedi: 'Allah Kadir Gecesi'ni yükseltseydi, Kur'an da yükseltilirdi.'",
+          "fa": "یعقوب برایم روایت کرد که گفت: «مردی را شنیدم که از ابو عبدالله (علیه‌السلام) درباره‌ی شب قدر پرسید، پس او گفت: «مرا درباره‌ی شب قدر آگاه کن. آیا این شب پیش‌تر رخ داده است یا در هر سالی رخ خواهد داد؟» پس ابو عبدالله (علیه‌السلام) فرمود: «اگر خداوند شب قدر را برمی‌انگیخت، قرآن نیز برمی‌انگیخته می‌شد.»",
+          "id": "Ya'qub telah meriwayatkan kepadaku, ia berkata, 'Aku mendengar seorang pria bertanya kepada Abu Abdullah (alamah) tentang Malam Takdir, maka ia menjawab, 'Beritahukan kepadaku tentang Malam Takdir. Apakah ia telah terjadi atau akan terjadi setiap tahun?' Maka Abu Abdullah (alamah) berkata, 'Seandainya Allah mengangkat Malam Takdir, maka Al-Qur'an juga akan diangkat.'",
+          "bn": "ইয়াকুব আমাকে বর্ণনা করেছেন, তিনি বলেন, 'আমি এক ব্যক্তিকে আবু আবদুল্লাহ (আলৈহিহিসসালাম)-কে লাইলাতুল কদর (নিশ্চয়তার রজনী) সম্পর্কে জিজ্ঞাসা করতে শুনেছিলাম। তিনি বললেন, 'আমাকে লাইলাতুল কদর সম্পর্কে জানান। এটি ইতিমধ্যেই সংঘটিত হয়েছে নাকি প্রতি বছর এটি সংঘটিত হবে?' তাহলে আবু আবদুল্লাহ (আলৈহিহিসসালাম) বললেন, 'যদি আল্লাহ তায়ালা লাইলাতুল কদরকে উত্থাপিত করতেন, তবে কুরআনও উত্থাপিত হতো।'",
+          "es": "Yaqūb me narró diciendo: «Oí a un hombre preguntar a Abū ʿAbdillāh (que la paz sea con él) sobre la Noche del Determinismo, y él dijo: «Infórmame sobre la Noche del Determinismo. ¿Ya ha ocurrido o ocurrirá cada año?» Entonces Abū ʿAbdillāh (que la paz sea con él) dijo: «Si Alá hubiera elevado la Noche del Determinismo, el Corán también habría sido elevado.»»",
+          "fr": "Yaqoub m'a rapporté en disant : « J'ai entendu un homme demander à Abu Abdullah (que la paix soit sur lui) au sujet de la Nuit du Destin, alors il dit : « Informe-moi au sujet de la Nuit du Destin. Est-elle déjà survenue ou se produira-t-elle chaque année ? » Alors Abu Abdullah (que la paix soit sur lui) dit : « Si Allah avait élevé la Nuit du Destin, le Coran aurait également été élevé. »",
+          "de": "Yaqūb überlieferte mir und sagte: „Ich hörte einen Mann Abū ʿAbdillāh (friede sei mit ihm) über die Nacht der Bestimmung (Laylat al-Qadr) fragen, woraufhin er sagte: „Berichte mir von der Nacht der Bestimmung. Ist sie bereits geschehen oder wird sie jedes Jahr stattfinden?“ Da sagte Abū ʿAbdillāh (friede sei mit ihm): „Hätte Allah die Nacht der Bestimmung heraufsteigen lassen, so wäre auch der Quran heraufgestiegen.“",
+          "ru": "Якуб рассказал мне, сказав: «Я слышал, как один человек спросил Абу Абдуллаха (мир ему) о Ночи Предопределения, и он сказал: „Расскажи мне о Ноче Предопределения. Уже ли она наступила, или же она будет наступать каждый год?“ Тогда Абу Абдуллах (мир ему) сказал: „Если бы Аллах возвысил Ночь Предопределения, то Коран был бы также возвышен“.",
+          "zh": "雅各布向我叙述说：\"我听见有人问阿卜杜拉（愿主安宁于他）关于预定之夜，他便说：\"告诉我关于预定之夜的事，它已经发生，还是每年都会发生？\"阿卜杜拉（愿主安宁于他）说：\"如果真主提升了预定之夜，古兰经也会被提升。\""
+        },
+        "word_start": 17,
+        "word_end": 58
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In this narration from *Al-Kafi*, Imam al-Sadiq (AS) clarifies the ontological status of Laylat al-Qadr by linking it directly to the Quran, suggesting that the night is not merely a temporal event but an eternal reality intrinsic to the Divine Book. This implies that just as the Quran is the uncreated speech of God, the Night of Decree is similarly elevated beyond simple annual recurrence, serving as the spiritual axis of revelation. This view underscores the Shia emphasis on the deep metaphysical connection between the Quran and the Imams, who are the living interpreters of that eternal decree.",
+        "seo_question": "What is the relationship between the Night of Pre-determination and the Quran according to Shia hadith?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "The Night of Pre-determination or Night of Decree, a significant night in Islam often associated with the 27th of Ramadan.",
+          "رُفِعَتْ": "Raised or elevated, referring to the concept of something being taken up or removed from its current state or location.",
+          "الْقُرْآنُ": "The Quran, the holy book of Islam."
+        }
+      },
+      "ur": {
+        "summary": "اس روایت میں امام صادق (علیہ السلام) نے السلام) نے لیلۃ القدر کی وجودی حیثیت کو قرآن سے جوڑ کر واضح کیا ہے، جس سے ظاہر ہوتا ہے کہ یہ رات محض ایک زمانی واقعہ نہیں بلکہ الٰہی کتاب میں موجود ایک ابدی حقیقت ہے۔ اس سے یہ مفہوم نکلتا ہے کہ جیسے قرآن اللہ کا غیر مخلوق کلام ہے، ویسے ہی لیلۃ القدر بھی معمولی سالانہ تکرار سے بلند ہو کر وحی کی روحانی محور کا درجہ رکھتی ہے۔ یہ نظریہ شیعہ کے قرآن اور ائمہ کے درمیان گہرے مابعد الطبیعیاتی تعلق پر زور دیتا ہے، جو اس ابدی حکم کے زندہ مفسر ہیں۔",
+        "seo_question": "شیعہ حدیث کے مطابق لیلۃ القدر اور قرآن کا کیا تعلق ہے؟",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "لیلۃ القدر یا لیلۃ الجبرائیل، اسلام میں ایک اہم رات جو اکثر رمضان کے 27ویں دن سے منسوب کی جاتی ہے۔",
+          "رُفِعَتْ": "بلند یا اٹھایا گیا، کسی چیز کو اس کی موجودہ حالت یا مقام سے اٹھا لینے یا ہٹانے کے تصور کی طرف اشارہ کرتا ہے۔",
+          "الْقُرْآنُ": "قرآن، اسلام کی مقدس کتاب۔"
+        }
+      },
+      "tr": {
+        "summary": "Bu rivayete göre *el-Kâfî*’de İmamü’l-Sâdık (AS), Kadr Gecesi’nin ontolojik statüsünü Kur’an’a doğrudan bağlayarak açıklar; gecenin yalnızca zamansal bir olay değil, ilahi kitaba içkin ebedi bir gerçeklik olduğunu öne sürer. Bu durum, Kur’an’ın Allah’ın yaratılmamış kelamı olduğu gibi, Kadr Gecesi’nin de basit yıllık tekrarın ötesinde yükseltilmiş olduğunu ima eder ve vahyin manevi eksenini oluşturur. Bu görüş, Şiilikte Kur’an ile İmamlar arasındaki derin metafizik bağı vurgular; İmamlar, bu ebedi hüküm yaşayan yorumcularıdır.",
+        "seo_question": "Şii hadislerine göre Kadir Gecesi ile Kur’an arasındaki ilişki nedir?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "Kadir Gecesi veya Kader Gecesi, İslam’da önemli bir gece olup genellikle Ramazan’ın 27. günü ile ilişkilendirilir.",
+          "رُفِعَتْ": "Yükseltilmiş veya yükseltilmiş, bir şeyin mevcut durumundan veya yerinden kaldırılması veya yükseltilmesi kavramına atıfta bulunur.",
+          "الْقُرْآنُ": "Kur’an, İslam’ın kutsal kitabı."
+        }
+      },
+      "fa": {
+        "summary": "در این روایت از الکافی، امام صادق(ع) جایگاه هستی‌شناختی شب قدر را با پیوند مستقیم آن به قرآن روشن می‌سازد و پیشنهاد می‌کند که این شب تنها یک رویداد زمانی نیست، بلکه حقیقتی جاودان و ذاتی در کتاب الهی است. این امر نشان می‌دهد که همان‌گونه که قرآن کلام غیرمخلوق خداست، شب قدر نیز فراتر از تکرار سالانه ساده ارتقا یافته و به عنوان محور معنوی وحی عمل می‌کند. این دیدگاه بر تأکید شیعه درباره پیوند متافیزیکی عمیق میان قرآن و ائمه، که مفسران زنده آن فرمان جاودان هستند، تأکید می‌ورزد.",
+        "seo_question": "رابطه میان شب قدر و قرآن بر اساس حدیث شیعه چیست؟",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "شب قدر یا شب سرنوشت، شبی مهم در اسلام که اغلب با بیست و هفتم رمضان مرتبط است.",
+          "رُفِعَتْ": "بالا برده شده یا ارتقا یافته، اشاره به مفهوم چیزی که از وضعیت یا مکان فعلی خود برداشته یا بالا برده شده است.",
+          "الْقُرْآنُ": "قرآن، کتاب مقدس اسلام."
+        }
+      },
+      "id": {
+        "summary": "Dalam riwayat dari *Al-Kafi*, Imam al-Sadiq (AS) menjelaskan status ontologis Lailatul Qadar dengan mengaitkannya secara langsung dengan Al-Quran, yang menunjukkan bahwa malam tersebut bukan sekadar peristiwa temporal melainkan realitas abadi yang melekat pada Kitab Ilahi. Hal ini menyiratkan bahwa sebagaimana Al-Quran adalah firman Allah yang tidak diciptakan, Malam Takdir juga ditinggikan melampaui pengulangan tahunan sederhana, berfungsi sebagai poros spiritual wahyu. Pandangan ini menekankan penekanan Syiah pada hubungan metafisik yang mendalam antara Al-Quran dan para Imam, yang merupakan penafsir hidup dari ketetapan abadi tersebut.",
+        "seo_question": "Apa hubungan antara Malam Takdir dan Al-Quran menurut hadis Syiah?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "Malam Takdir atau Malam Qadar, malam penting dalam Islam yang sering dikaitkan dengan tanggal 27 Ramadan.",
+          "رُفِعَتْ": "Ditinggikan atau diangkat, merujuk pada konsep sesuatu yang diangkat atau dipindahkan dari keadaan atau lokasinya saat ini.",
+          "الْقُرْآنُ": "Al-Quran, kitab suci Islam."
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি হাদিসে ইমাম আস-সাদিق (আ.) লাইলাতুল কদরের অস্তিত্বগত মর্যাদা ব্যাখ্যা করেছেন, এটিকে সরাসরি কুরআনের সাথে যুক্ত করে। তিনি বলেছেন যে এই রাতটি কেবল একটি সাময়িক ঘটনা নয়, বরং ঈশ্বরের পবিত্র গ্রন্থের সাথে অন্তর্নিহিত একটি চিরন্তন সত্য। এর অর্থ হলো, ঠিক যেমন কুরআন হলো ঈশ্বরের অসৃষ্ট বাক্য, তেমনি কদরের রাতটিও সাধারণ বার্ষিক পুনরাবৃত্তির বাইরে উন্নীত, যা প্রকাশের আধ্যাত্মিক অক্ষ। এই দৃষ্টিভঙ্গি শিয়া মতবাদে কুরআন এবং ইমামদের মধ্যে গভীর আধ্যাত্মিক সংযোগের ওপর জোর দেয়, যারা এই চিরন্তন কদরের জীবন্ত ব্যাখাকারী।",
+        "seo_question": "শিয়া হাদিস অনুযায়ী কদরের রাত এবং কুরআনের মধ্যে সম্পর্ক কী?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "কদরের রাত বা লাইলাতুল কদর, ইসলামে একটি গুরুত্বপূর্ণ রাত যা প্রায়শই রমজানের ২৭শ তারিখের সাথে যুক্ত।",
+          "رُفِعَتْ": "উন্নীত বা উত্তোলিত, কোনো কিছুকে বর্তমান অবস্থা বা স্থান থেকে সরিয়ে নেওয়ার ধারণাকে নির্দেশ করে।",
+          "الْقُرْآنُ": "কুরআন, ইসলামের পবিত্র গ্রন্থ।"
+        }
+      },
+      "es": {
+        "summary": "En esta narración de *Al-Kafi *Al-Kafi*, el Imam al-Sadiq (AS) aclara el estatus ontológico de la Noche del Decreto al vincularla directamente con el Corán, sugiriendo que la noche no es meramente un evento temporal, sino una realidad eterna intrínseca al Libro Divino. Esto implica que, al igual que el Corán es la palabra no creada de Dios, la Noche del Decreto está igualmente elevada más allá de la simple recurrencia anual, sirviendo como el eje espiritual de la revelación. Esta visión subraya el énfasis chií en la profunda conexión metafísica entre el Corán y los Imames, quienes son los intérpretes vivos de ese decreto eterno.",
+        "seo_question": "¿Cuál es la relación entre la Noche del Predestino y el Corán según el hadiz chií?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "La Noche del Predestino o Noche del Decreto, una noche significativa en el Islam a menudo asociada con el 27 de Ramadán.",
+          "رُفِعَتْ": "Elevada o elevada, refiriéndose al concepto de algo que es llevado arriba o removido de su estado o ubicación actual.",
+          "الْقُرْآنُ": "El Corán, el libro sagrado del Islam."
+        }
+      },
+      "fr": {
+        "summary": "Dans cette narration d'*Al-Kafi*, l'Imam al-Sadiq (AS) clarifie le statut ontologique de la Nuit du Destin en la liant directement au Coran, suggérant que cette nuit n'est pas seulement un événement temporel, mais une réalité éternelle intrinsèque au Livre Divin. Cela implique que, tout comme le Coran est la parole incréée de Dieu, la Nuit du Décret est également élevée au-delà d'une simple récurrence annuelle, servant d'axe spirituel de la révélation. Cette vue souligne l'accent mis par les Chiites sur la profonde connexion métaphysique entre le Coran et les Imams, qui sont les interprètes vivants de ce décret éternel.",
+        "seo_question": "Quelle est la relation entre la Nuit du Destin et le Coran selon la hadith chiite ?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "La Nuit du Destin ou Nuit du Décret, une nuit importante en Islam souvent associée au 27ème jour du Ramadan.",
+          "رُفِعَتْ": "Élevée ou exaltée, faisant référence au concept de quelque chose qui est pris ou retiré de son état ou lieu actuel.",
+          "الْقُرْآنُ": "Le Coran, le livre saint de l'Islam."
+        }
+      },
+      "de": {
+        "summary": "In dieser Überlieferung aus *Al-Kafi* klärt Imam al-Sadiq (AS) den ontologischen Status der Laylat al-Qadr, indem er sie direkt mit dem Koran verbindet, was darauf hindeutet, dass die Nacht nicht nur ein zeitliches Ereignis, sondern eine ewige Realität ist, die dem göttlichen Buch innewohnt. Dies impliziert, dass die Nacht der Bestimmung, ähnlich wie der Koran das ungeschaffene Wort Gottes, über die einfache jährliche Wiederholung hinaus erhöht ist und als spirituelle Achse der Offenbarung dient. Diese Ansicht unterstreicht die schiitische Betonung der tiefen metaphysischen Verbindung zwischen dem Koran und den Imamen, die die lebendigen Ausleger dieses ewigen Dekrets sind.",
+        "seo_question": "Was ist die Beziehung zwischen der Nacht der Bestimmung und dem Koran gemäß schiitischer Hadith?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "Die Nacht der Bestimmung oder Nacht des Dekrets, eine bedeutende Nacht im Islam, die oft mit dem 27. Ramadan in Verbindung gebracht wird.",
+          "رُفِعَتْ": "Erhoben oder erhöht, bezieht sich auf das Konzept, dass etwas von seinem aktuellen Zustand oder Standort entfernt oder emporgehoben wird.",
+          "الْقُرْآنُ": "Der Koran, das heilige Buch des Islam."
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из «аль-Кафи» Имама ас-Садыка (да будет с ним мир) разъясняет онтологический статус Ляйлят аль-Кадр, напрямую связывая её с Кораном, что предполагает: эта ночь — не просто временное событие, а вечная реальность, присущая Божественной Книге. Это означает, что подобно тому, как Коран является несотворённой речью Аллаха, Ночь Предопределения также возвышена над простым ежегодным повторением, служа духовной осью откровения. Эта точка зрения подчёркивает шиитский акцент на глубокой метафизической связи между Кораном и Имамами, которые являются живыми толкователями этого вечного предопределения.",
+        "seo_question": "Какова связь между Ночью Ночью Предопределения и Кораном согласно шиитскому хадису?",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "Ночь Предопределения или Ночь Деяния, значимая ночь в исламе, часто ассоциируемая с 27-м рамадана.",
+          "رُفِعَتْ": "Возвышена или поднята, относящаяся к концепции чего-либо, поднятого или удалённого из текущего состояния или местоположения.",
+          "الْقُرْآنُ": "Коран, священная книга ислама."
+        }
+      },
+      "zh": {
+        "summary": "在《卡菲》的这段圣训中，伊玛目萨迪格（愿他平安）通过将拉伊拉特·盖德尔（Laylat al-Qadr）直接与《古兰经》联系起来，阐明了其本体论地位，暗示这一夜不仅仅是一个时间性事件，而是内在于神圣经典中的永恒现实。这意味着正如《古兰经》是真主未受造的语言，法德之夜（Laylat al-Qadr）同样超越了简单的年度循环，成为启示的精神轴心。这一观点强调了什叶派对《古兰经》与伊玛目之间深刻形而上联系的重视，伊玛目作为那永恒法度的活生生诠释者。",
+        "seo_question": "根据什叶派圣训，法德之夜（Laylat al-Qadr）与《古兰经》之间有何关系？",
+        "key_terms": {
+          "لَيْلَةُ الْقَدْرِ": "法德之夜或尊贵之夜，伊斯兰教中一个重要的夜晚，通常与斋月的第27天相关联。",
+          "رُفِعَتْ": "提升或抬高，指某物被举起或从其当前状态或位置移除的概念。",
+          "الْقُرْآنُ": "《古兰经》，伊斯兰教的圣书。"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "97:1",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:7",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "54:49",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "97:3",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنِ السَّيَّارِيِّ عَنْ بَعْضِ أَصْحَابِنَا عَنْ دَاوُدَ بْنِ فَرْقَدٍ قَالَ حَدَّثَنِي يَعْقُوبُ قَالَ سَمِعْتُ رَجُلًا يَسْأَلُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ لَيْلَةِ الْقَدْرِ فَقَالَ أَخْبِرْنِي عَنْ لَيْلَةِ الْقَدْرِ كَانَتْ أَوْ تَكُونُ فِي كُلِّ عَامٍ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) لَوْ رُفِعَتْ لَيْلَةُ الْقَدْرِ لَرُفِعَ الْقُرْآنُ",
+    "isnad_matn": {
+      "isnad_ar": "مُحَمَّدُ بْنُ يَحْيَى عَنْ مُحَمَّدِ بْنِ أَحْمَدَ عَنِ السَّيَّارِيِّ عَنْ بَعْضِ أَصْحَابِنَا عَنْ دَاوُدَ بْنِ فَرْقَدٍ قَالَ",
+      "matn_ar": "حَدَّثَنِي يَعْقُوبُ قَالَ سَمِعْتُ رَجُلًا يَسْأَلُ أَبَا عَبْدِ اللَّهِ ( عليه السلام ) عَنْ لَيْلَةِ الْقَدْرِ فَقَالَ أَخْبِرْنِي عَنْ لَيْلَةِ الْقَدْرِ كَانَتْ أَوْ تَكُونُ فِي كُلِّ عَامٍ فَقَالَ أَبُو عَبْدِ اللَّهِ ( عليه السلام ) لَوْ رُفِعَتْ لَيْلَةُ الْقَدْرِ لَرُفِعَ الْقُرْآنُ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "مُحَمَّدِ بْنِ أَحْمَدَ",
+          "name_en": "Muhammad ibn Ahmad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 59
+        },
+        {
+          "name_ar": "السَّيَّارِيِّ",
+          "name_en": "al-Sayyari",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 230
+        },
+        {
+          "name_ar": "بَعْضِ أَصْحَابِنَا",
+          "name_en": "some of our companions",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 36
+        },
+        {
+          "name_ar": "دَاوُدَ بْنِ فَرْقَدٍ",
+          "name_en": "Dawud ibn Farqad",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 178
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

@@ -1,0 +1,260 @@
+{
+  "verse_path": "/books/al-kafi:5:2:22:2",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-06-09",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
+    "chunks[0] en translation length out of bounds: 41 en words vs 1 ar words (ratio=41.00, expected 0.2-8.0)"
+  ],
+  "result": {
+    "tags": [
+      "jurisprudence",
+      "economy",
+      "social_relations"
+    ],
+    "content_type": "legal_ruling",
+    "topics": [
+      "financial_law",
+      "death_dying",
+      "rights_of_others"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "isnad",
+        "arabic_text": "isnad",
+        "translations": {
+          "en": "Muhammad ibn Yahya, from Ahmad ibn Muhammad, from Al-Hasan ibn Mahboub, from Abdullah ibn Sinan, from Abu Abdillah (peace be upon him), regarding the man who dies and upon him is a debt, so a guarantor undertakes responsibility for the creditors.",
+          "ur": "محمد بن یحییٰ، احمد بن محمد سے، حسن بن محبوب سے، عبداللہ بن سینان سے، ابو عبداللہ (علیہ السلام) سے، اس شخص کے بارے میں جو مر جاتا ہے اور اس پر قرض ہوتا ہے، تو ایک ضمانت لینے والا قرضاء کے لیے ذمہ داری لے لیتا ہے۔",
+          "tr": "Muhemmed b. Yahya, Ahmed b. Muhammed'den, el-Hasan b. Mahbub'dan, Abdullah b. Sinan'dan, Ebu Abdillah'dan (aleyhisselam), borcu olan bir adamın ölümü ve alacaklılar için bir kefilin sorumluluk üstlenmesi hakkında.",
+          "fa": "مُحَمَّدُ بْنُ يَحْيَى عَنْ أَحْمَدَ بْنِ مُحَمَّدٍ عَنِ الْحَسَنِ بْنِ مَحْبُوبٍ عَنْ عَبْدِ اللَّهِ بْنِ سِنَانٍ عَنْ أَبِي عَبْدِ اللَّهِ (ع) فِي الرَّجُلِ يَمُوتُ وَعَلَيْهِ دَيْنٌ فَضَمِنَهُ ضَامِنٌ لِلْغُرَمَاءِ",
+          "id": "Muhammad binar",
+          "bn": "মুহাম্মাদ ইবনে ইয়াহ্যা, আহমাদ ইবনে মুহাম্মাদ হতে, আল-হাসান ইবনে মাহবুব হতে, আবদুল্লাহ ইবনে সিনান হতে, আবু আবদিল্লাহ (আলাইহিস সালাম) হতে, যে ব্যক্তি মৃত্যুবরণ করে এবং তার উপর ঋণ থাকে, তাই একজন জামিন ঋণদাতাদের জন্য দায়িত্ব গ্রহণ করেন।",
+          "es": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Al-Hasan ibn Mahboub, de Abdullah ibn Sinan, de Abu Abdillah (la paz sea con él), respecto al hombre que muere y sobre él hay una deuda, entonces un garante asume la responsabilidad ante los acreedores.",
+          "fr": "Muhammad ibn Yahya, de Ahmad ibn Muhammad, de Al-Hasan ibn Mahboub, de Abdullah ibn Sinan, d'Sinan, d'Abu Abdillah (que la paix soit sur lui), concernant l'homme qui meurt et sur lui est une dette, donc un garant assume la responsabilité pour les créanciers.",
+          "de": "Muhammad ibn Yahya, von Ahmad ibn Muhammad, von Al-Hasan ibn Mahboub, von Abdullah ibn Sinan, von Abu Abdillah (friede sei mit ihm), bezüglich des Mannes, der stirbt und bei dem eine Schuld besteht, sodass ein Bürge die Verantwortung für die Gläubiger übernimmt.",
+          "ru": "Мухаммад ибн Яхья, от Ахмада ибн Мухаммада, от аль-Хасана ибн Махбуба, от Абдуллаха ибн Синана, от Абу Абдуллаха (да будет мир с ним), о человеке, который умирает, имея на себе долг, и поручитель берет на себя ответственность перед кредиторами.",
+          "zh": "穆罕默德·本·叶海亚传自艾哈迈德·本·穆罕默德，传自哈桑·本·马布卜，传自阿卜杜拉·本·西南，传自艾布·阿卜杜拉（愿主福安之），关于一人去世时负有债务，保证人为债权人承担担保责任的情况。"
+        },
+        "word_start": 0,
+        "word_end": 1
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "فَقَالَ إِذَا رَضِيَ بِهِ الْغُرَمَاءُ فَقَدْ بَرِئَتْ ذِمَّةُ الْمَيِّتِ",
+        "translations": {
+          "en": "He (peace be upon him) said: 'When the creditors are pleased with it, then the liability of the deceased is freed.'",
+          "ur": "انہوں نے (صلی اللہ علیہ وسلم) فرمایا: ''جب قرض دار اس سے راضی ہو جائیں تو مرنے والے کی ذمہ داری سے نجات ہو جاتی ہے۔''",
+          "tr": "O (aleyhisselam) şöyle buyurdu: 'Alacaklılar razı olduğunda, ölenin borcu düşer.'",
+          "fa": "او (صلی الله علیه و آله) فرمود: «زمانی که طلبکاران راضی شوند، پس مسئولیت متوفی برطرف می‌شود.»",
+          "id": "Beliau (shallallahu 'alaihi wasallam) bersabda, 'Apabila para kreditor ridha dengan itu, maka tanggungan orang yang meninggal dunia gugur.'",
+          "bn": "তিনি (সা.) বললেন: 'যখন ঋণদাতারা সন্তুষ্ট হন, তখন মৃতের দায়মুক্তি হয়।'",
+          "es": "Él (que la paz sea con él) dijo: 'Cuando los acreedores estén satisfechos con ello, entonces se libera la responsabilidad del difunto.'",
+          "fr": "Il (que la paix soit sur lui) a dit : « Lorsque les créanciers sont satisfaits, alors la dette du défunt est acquittée. »",
+          "de": "Er (Friede sei mit ihm) sagte: „Wenn die Gläubiger damit zufrieden sind, dann ist die Haftung des Verstorbenen aufgehoben.“",
+          "ru": "Он (да будет мир с ним) сказал: «Когда кредиторы довольны этим, то долг умершего снимается».",
+          "zh": "他（愿主福安之）说：\"当债权人满意时，死者的债务责任即被免除。\""
+        },
+        "word_start": 1,
+        "word_end": 10
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "This narration from al-Kafi clarifies that the discharge of a deceased's debt through a guarantor is contingent upon the creditors' acceptance (riḍā), reflecting the Shia legal principle that debt obligations are personal and require creditor consent for transfer. This mechanism ensures that the deceased's estate is cleared of liabilities, allowing heirs to inherit the remainder without encumbrance, provided the guarantor's assumption is validly ratified by the creditors.",
+        "seo_question": "How are a deceased person's debts handled if a guarantor takes responsibility?",
+        "key_terms": {
+          "دَيْنٌ": "debt",
+          "ضَامِنٌ": "guarantor",
+          "الْغُرَمَاءُ": "creditors",
+          "بَرِئَتْ ذِمَّةُ": "liability freed/discharged"
+        }
+      },
+      "ur": {
+        "summary": "یہ روایت الکافی سے واضح کرتی ہے کہ میت کے قرض کی ادائیگی ضمانت گزار کے ذریعے قرض دہندگان کی رضامندی (رضا) پر منحصر ہے، جو شیعہ قانونی اصول کی عکاسی کرتا ہے کہ قرض کی ذمہ داری ذاتی ہوتی ہے اور منتقلی کے لیے قرض دہندگان کی رضامندی ضروری ہے۔ یہ نظام یقینی بناتا ہے کہ میت کی جائیداد ذمہ داریوں سے پاک ہو جائے، جس سے ورثاء باقی حصہ بغیر کسی رکاوٹ کے وراثت میں لے سکتے ہیں، بشرطیکہ ضمانت گزار کی ذمہ داری قرض دہندگان کی جانب سے درستگی سے منظور کی گئی ہو۔",
+        "seo_question": "اگر ضمانت گزار ذمہ داری لے لے تو میت کے قرضوں کا کیا ہوتا ہے؟",
+        "key_terms": {
+          "دَيْنٌ": "قرض",
+          "ضَامِنٌ": "ضمانت گزار",
+          "الْغُرَمَاءُ": "قرض دہندگان",
+          "بَرِئَتْ ذِمَّةُ": "ذمہ داری پاک/برآمد"
+        }
+      },
+      "tr": {
+        "summary": "el-Kâfî'den gelen bu rivayet, ölen kişinin borcunun bir kefil tarafından ödenmesinin alacaklıların rızasına (rıdâ) bağlı olduğunu, Şii hukuk ilkelerine göre borç yükümlülüklerinin kişisel olduğunu ve devri için alacaklı onayı gerektiğini açıklar. Bu mekanizma, kefilin üstlenmesinin alacaklılar tarafından geçerli bir şekilde tasdik edilmesi kaydıyla, ölen kişinin mirasının yükümlülüklerden arınmasını ve varislerin bakiyeyi engelsiz miras almasını sağlar.",
+        "seo_question": "Bir kefil sorumluluk üstlenirse, ölen kişinin borçları nasıl halledilir?",
+        "key_terms": {
+          "دَيْنٌ": "borç",
+          "ضَامِنٌ": "kefil",
+          "الْغُرَمَاءُ": "alacaklılar",
+          "بَرِئَتْ ذِمَّةُ": "sorumluluk kaldırıldı/sona erdi"
+        }
+      },
+      "fa": {
+        "summary": "این روایت از الکافی روشن می‌سازد که پرداخت بدهی متوفی توسط ضامن منوط به رضای طلبکاران است که نشان‌دهنده اصل حقوقی شیعه است که تکالیف بدهی شخصی هستند و برای انتقال نیاز به رضایت طلبکار دارند. این مکانیسم تضمین می‌کند که اموال متوفی از تعهدات پاک شود و ورثه باقی‌مانده را بدون بار مالی ارث ببرند، مشروط بر اینکه پذیرش ضامن به درستی توسط طلبکاران تأیید شود.",
+        "seo_question": "اگر ضامن مسئولیت بدهی را بر عهده بگیرد، بدهی فرد متوفی چگونه مدیریت می‌شود؟",
+        "key_terms": {
+          "دَيْنٌ": "بدهی",
+          "ضَامِنٌ": "ضامن",
+          "الْغُرَمَاءُ": "طلبکاران",
+          "بَرِئَتْ ذِمَّةُ": "ذمه بری شد"
+        }
+      },
+      "id": {
+        "summary": "Riwayat dari al-Kafi ini menjelaskan bahwa pelunasan utang orang yang telah meninggal melalui penjamin bergantung pada penerimaan para kreditor (riḍā), mencerminkan prinsip hukum Syiah bahwa kewajiban utang bersifat pribadi dan memerlukan persetujuan kreditor untuk dialihkan. Mekanisme ini memastikan bahwa harta warisan orang yang meninggal dibebaskan dari liabilitas, sehingga ahli waris dapat mewarisi sisa harta tanpa beban, asalkan pengalihan oleh penjamin telah disahkan secara sah oleh para kreditor.",
+        "seo_question": "Bagaimana utang orang yang telah meninggal ditangani jika seorang penjamin mengambil tanggung jawab?",
+        "key_terms": {
+          "دَيْنٌ": "utang",
+          "ضَامِنٌ": "penjamin",
+          "الْغُرَمَاءُ": "kreditor",
+          "بَرِئَتْ ذِمَّةُ": "liabilitas dibebaskan/dilunasi"
+        }
+      },
+      "bn": {
+        "summary": "আল-কাফি থেকে এই বর্ণনা স্পষ্ট করে যে, মৃতের ঋণ পরিশোধের জন্য একজন জামিনের মাধ্যমে ঋণ পরিশোধ করা ঋণদাতাদের গ্রহণের (রিদা) উপর নির্ভরশীল, যা শিয়া আইনি নীতি প্রতিফলিত করে যে ঋণের দায়িত্ব ব্যক্তিগত এবং স্থানান্তরের জন্য ঋণদাতার সম্মতি প্রয়োজন। এই ব্যবস্থা নিশ্চিত করে যে মৃতের সম্পদ থেকে দায়িত্ব মুক্ত হয়, ফলে উত্তরাধিকারীরা অবরুদ্ধ ছাড়াই অবশিষ্টাংশ উত্তরাধিকার সূত্রে পান, যতক্ষণ না জামিনের দায়িত্ব গ্রহণ ঋণদাতাদের দ্বারা বৈধভাবে অনুমোদিত হয়।",
+        "seo_question": "যদি একজন জামিন দায়িত্ব নেন, তবে মৃত ব্যক্তির ঋণ কীভাবে পরিচালনা করা হয়?",
+        "key_terms": {
+          "دَيْنٌ": "ঋণ",
+          "ضَامِنٌ": "জামিন",
+          "الْغُرَمَاءُ": "ঋণদাতারা",
+          "بَرِئَتْ ذِمَّةُ": "দায়িত্ব মুক্ত/পরিশোধিত"
+        }
+      },
+      "es": {
+        "summary": "Esta narración de al-Kafi aclara que el pago de la deuda del difunto por un fiador está condicionado a la aceptación de los acreedores (riḍores (riḍā), reflejando el principio legal chií de que las obligaciones de deuda son personales y requieren el consentimiento de los acreedores para su transferencia. Este mecanismo asegura que la herencia del difunto se libere de las responsabilidades, permitiendo a los herederos heredar el remanente sin cargas, siempre que la asunción del fiador sea válidamente ratificada por los acreedores.",
+        "seo_question": "¿Cómo se gestionan las deudas de una persona fallecida si un fiador asume la responsabilidad?",
+        "key_terms": {
+          "دَيْنٌ": "deuda",
+          "ضَامِنٌ": "fiador",
+          "الْغُرَمَاءُ": "acreedores",
+          "بَرِئَتْ ذِمَّةُ": "se libera la responsabilidad"
+        }
+      },
+      "fr": {
+        "summary": "Cette narration du Kafi clarifie que le paiement de la dette d'un défunt par un garant est subordonné à l'acceptation des créanciers (riḍā), reflétant le principe juridique chiite selon lequel les obligations de dette sont personnelles et nécessitent le consentement des créanciers pour être transférées. Ce mécanisme garantit que le patrimoine du défunt est libéré des passifs, permettant aux héritiers d'hériter du solde sans charge, à condition que la prise en charge par le garant soit valablement ratifiée par les créanciers.",
+        "seo_question": "Comment les dettes d'une personne décédée sont-elles gérées si un garant prend la responsabilité ?",
+        "key_terms": {
+          "دَيْنٌ": "dette",
+          "ضَامِنٌ": "garant",
+          "الْغُرَمَاءُ": "créanciers",
+          "بَرِئَتْ ذِمَّةُ": "la dette est acquittée"
+        }
+      },
+      "de": {
+        "summary": "Diese Überlieferung aus al-Kāfī verdeutlicht, dass die Tilgung der Schulden eines Verstorbenen durch einen Bürgen von der Zustimmung (riḍā) der Gläubiger abhängt, was das schiitische Rechtsprinzip widerspiegelt, dass Schuldverpflichtungen persönlich sind und für die Übertragung die Zustimmung der Gläubiger erfordern. Dieser Mechanismus stellt sicher, dass das Vermögen des Verstorbenen von seinen Verbindlichkeiten befreit wird, sodass die Erben den Rest unbelastet erben können, vorausgesetzt, die Übernahme durch den Bürgen wird von den Gläubigern wirksam ratifiziert.",
+        "seo_question": "Wie werden die Schulden eines Verstorbenen gehandhabt, wenn ein Bürge die Verantwortung übernimmt?",
+        "key_terms": {
+          "دَيْنٌ": "Schuld",
+          "ضَامِنٌ": "Bürge",
+          "الْغُرَمَاءُ": "Gläubiger",
+          "بَرِئَتْ ذِمَّةُ": "die Haftung ist erloschen/die Schuld tilgen"
+        }
+      },
+      "ru": {
+        "summary": "В этом хадисе из аль-Кафи уточняется, что погашение долга умершего поручителем зависит от согласия кредиторов (рида), что отражает шиитский правовой принцип: долговые обязательства являются личными и требуют согласия кредитора для передачи. Этот механизм обеспечивает очистку наследства умершего от обязательств, позволяя наследникам получить остаток без обременения, при условии, что принятие обязательств поручителем будет действительным образом ратифицировано кредиторами.",
+        "seo_question": "Как обрабатываются долги умершего, если поручитель берет на себя ответственность?",
+        "key_terms": {
+          "دَيْنٌ": "долг",
+          "ضَامِنٌ": "поручитель",
+          "الْغُرَمَاءُ": "кредиторы",
+          "بَرِئَتْ ذِمَّةُ": "обязательство освобождено/погашено"
+        }
+      },
+      "zh": {
+        "summary": "《卡菲》中的这段圣训阐明，由保证人代为清偿死者债务需以债权人的接受（里达）为条件，这反映了什叶派法律原则：债务义务具有人身性质，转移需经债权人同意。该机制确保死者遗产在免除负债后，继承人可继承剩余部分，前提是保证人的承担已获债权人有效认可。",
+        "seo_question": "若由保证人承担责任，死者的债务如何处理？",
+        "key_terms": {
+          "دَيْنٌ": "债务",
+          "ضَامِنٌ": "保证人",
+          "الْغُرَمَاءُ": "债权人",
+          "بَرِئَتْ ذِمَّةُ": "债务免除"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "2:282",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "2:280",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "isnad فَقَالَ إِذَا رَضِيَ بِهِ الْغُرَمَاءُ فَقَدْ بَرِئَتْ ذِمَّةُ الْمَيِّتِ",
+    "isnad_matn": {
+      "isnad_ar": "isnad",
+      "matn_ar": "فَقَالَ إِذَا رَضِيَ بِهِ الْغُرَمَاءُ فَقَدْ بَرِئَتْ ذِمَّةُ الْمَيِّتِ",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "مُحَمَّدُ بْنُ يَحْيَى",
+          "name_en": "Muhammad ibn Yahya",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 4
+        },
+        {
+          "name_ar": "أَحْمَدَ بْنِ مُحَمَّدٍ",
+          "name_en": "Ahmad ibn Muhammad",
+          "role": "narrator",
+          "position": 2,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 5
+        },
+        {
+          "name_ar": "الْحَسَنِ بْنِ مَحْبُوبٍ",
+          "name_en": "al-Hasan ibn Mahbub",
+          "role": "narrator",
+          "position": 3,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 53
+        },
+        {
+          "name_ar": "عَبْدِ اللَّهِ بْنِ سِنَانٍ",
+          "name_en": "Abdullah b. Sinan",
+          "role": "narrator",
+          "position": 4,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 31
+        },
+        {
+          "name_ar": "أَبِي عَبْدِ اللَّهِ ( عليه السلام )",
+          "name_en": "Abu Abdullah (AS)",
+          "role": "narrator",
+          "position": 5,
+          "identity_confidence": "definite",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": 669
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

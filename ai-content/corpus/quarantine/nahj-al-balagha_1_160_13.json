@@ -1,0 +1,335 @@
+{
+  "verse_path": "/books/nahj-al-balagha:1:160:13",
+  "ai_attribution": {
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-27",
+    "pipeline_version": "4.0.0",
+    "generation_method": "phased_pipeline"
+  },
+  "generation_attempts": 1,
+  "validation_errors": [
+    "has_chain is true but no chunk has chunk_type='isnad' — the Phase 1 prompt requires the chain to live in an isnad chunk",
+    "chunks[0] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'السلام):' has no diacritics (must be fully diacritized)",
+    "chunks[1] word '(عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'السلام)،' has no diacritics (must be fully diacritized)"
+  ],
+  "result": {
+    "tags": [
+      "ethics",
+      "prophetic_tradition",
+      "worship"
+    ],
+    "content_type": "narrative",
+    "topics": [
+      "prophets",
+      "prophetic_character",
+      "poverty_wealth",
+      "humility"
+    ],
+    "chunks": [
+      {
+        "chunk_type": "opening",
+        "arabic_text": "عِيسَى (عليه السلام):",
+        "translations": {
+          "en": "‘Īsā (peace be upon him):",
+          "ur": "عیسیٰ (علیہ السلام):",
+          "tr": "“Îsâ (aleyhisselâm):",
+          "fa": "عیسی (علیه السلام):",
+          "id": "‘Īsā (alaihissalam):",
+          "bn": "ঈসা (আলাইহিস সালাম):",
+          "es": "‘Īsā (la paz sea con él):",
+          "fr": "‘Īsā (que la paix soit sur lui) :",
+          "de": "ʿĪsā (Friede sei mit ihm):",
+          "ru": "Иса (да будет мир с ним):",
+          "zh": "尔撒（愿主福安之）："
+        },
+        "word_start": 0,
+        "word_end": 3
+      },
+      {
+        "chunk_type": "body",
+        "arabic_text": "وَإِنْ شِئْتَ قُلْتُ فِي عِيسَى بْنِ مَرْيَمَ (عليه السلام)، فَلَقَدْ كَانَ يَتَوَسَّدُ الْحَجَرَ، وَيَلْبَسُ الْخَشِنَ، وَيَأْكُلُ الْجَشِبَ، وَكَانَ إِدَامُهُ الْجُوعَ، وَسِرَاجُهُ بِاللَّيْلِ الْقَمَرَ، وَظِلَالُهُ فِي الشِّتَاءِ مَشَارِقَ الْأَرْضِ وَمَغَارِبَهَا، وَفَاكِهَتُهُ وَرَيْحَانُهُ مَا تُنْبِتُ الْأَرْضُ لِلْبَهَائِمِ، وَلَمْ تَكُنْ لَهُ زَوْجَةٌ تَفْتِنُهُ، وَلَا وَلَدٌ يَحْزُنُهُ، وَلَا مَالٌ يَلْفِتُهُ، وَلَا طَمَعٌ يُذِلُّهُ، دَابَّتُهُ رِجْلَاهُ، وَخَادِمُهُ يَدَاهُ!",
+        "translations": {
+          "en": "If you desire, I will tell you about ‘Īsā (peace be upon him), son of Maryam (Mary). He used a stone for his pillow, put on coarse clothes, and ate rough food. His condiment was hunger. His lamp at night was the moon. His shade during the winter was the expanse of the earth, its east and west. His fruits and flowers were only what the earth produces for the cattle. He had no wife to allure him, nor any son to give him grief, nor wealth to deviate his attention, nor greed to disgrace him. His two feet were his conveyance, and his two hands his servant!",
+          "ur": "اگر تم چاہو تو میں تمہیں عیسیٰ (علیہ السلام) بن مریم (مریم) کے بارے میں بتا سکتا ہوں۔ وہ اپنا تکیہ پتھر سے بناتے تھے، کپڑے خشن پہنتے تھے اور کھانا کھاتے تھے۔ ان کا مسالہ بھوک تھا۔ ان کی رات کی مٹی چاند تھی۔ ان کا سردیوں میں سایہ زمین کی وسعت، مشرق اور مغرب تھی۔ ان کے پھل اور پھول صرف وہی تھے جو زمین مویشیوں کے لیے پیدا کرتی ہے۔ ان کی کوئی بیوی نہ تھی جو انہیں لالچ دے، نہ کوئی بیٹا تھا جو انہیں غم دے، نہ کوئی مال تھا جو ان کی توجہ بھٹکا دے، نہ کوئی لالچ تھا جو انہیں رسوا کرے۔ ان کے دو پاؤں ان کا ذریعہ سفر تھے، اور ان کے دو ہاتھ ان کے خادم تھے!",
+          "tr": "İstersen sana Meryem oğlu İsa'dan (aleyhisselam) bahsederim. Yastığı taş, giysisi kaba kumaştan, yediği yiyecekler sertti. Baharatı açlık, geceleri lambası aydı. Kışın gölgesi, doğusu ve batısıyla yerin genişliği idi. Meyveleri ve çiçekleri, yerin hayvanlar için ürettiği şeylerdi. Onu cazibe eden bir eş, üzüntü veren bir oğul, dikkatini dağıtan bir mal, utanca düşüren bir hırsı yoktu. İki ayağı onun taşıyıcısı, iki eli ise onun hizmetkârıydı.",
+          "fa": "اگر بخواهی، برایت از عیسی (علیه‌السلام)، پسر مریم (سلام‌الله‌علیها) سخن می‌گویم. او سنگ را به عنوان بالش خود قرار می‌داد، لباس‌های درشت می‌پوشید و غذای زبر می‌خورد. چاشنی غذای او گرسنگی بود. چراغ شب او ماه بود. سایه‌بان او در زمستان، وسعت زمین، از مشرق تا مغرب بود. میوه و گل او تنها آنچه زمین برای چهارپایان می‌روید بود. همسری نداشت که او را مجذوب کند، فرزندی نداشت که غمگینش سازد، ثروتی نداشت که توجهش را منحرف کند، و طمعی نداشت که باعث رسوایی‌اش شود. دو پای او وسیله نقلیه‌اش بودند و دو دستش خادمش!",
+          "id": "Jika kamu menghendaki, aku akan menceritakan tentang ‘Īsā (alamahisalam), putra Maryam (Maria). Ia menggunakan batu sebagai bantal, memakai pakaian kasar, dan memakan makanan yang kasar. Bumbu makanannya adalah rasa lapar. Lampunya di malam hari adalah bulan. Naungannya di musim dingin adalah luasnya bumi, dari timur hingga barat. Buah-buahan dan bunganya hanyalah apa yang dihasilkan bumi untuk ternak. Ia tidak memiliki istri yang memikatnya, tidak memiliki anak yang menyedihkannya, tidak memiliki harta yang mengalihkan perhatiannya, dan tidak memiliki keserakahan yang mempermalukannya. Kedua kakinya adalah kendaraannya, dan kedua tangannya adalah pelayannya!",
+          "bn": "যদি আপনি চান, তবে আমি আপনাকে মারিয়মের পুত্র ঈসা (আ.) সম্পর্কে বলব। তিনি তাঁর তাকিয়া হিসেবে পাথর ব্যবহার করতেন, মোটা পোশাক পরিধান করতেন এবং খসখসে খাবার খেতেন। তাঁর মসলা ছিল ক্ষুধা। তাঁর রাতের বাতি ছিল চাঁদ। শীতকালে তাঁর ছায়া ছিল পৃথিবীর বিস্তীর্ণ ক্ষেত্র, পূর্ব ও পশ্চিম। তাঁর ফল ও ফুল ছিল কেবল সেই সব, যা পৃথিবী গবাদি পশুদের জন্য উৎপন্ন করে। তাঁর এমন কোনো স্ত্রী ছিলেন না, যিনি তাঁকে মোহিত করতেন, এমন কোনো পুত্র ছিলেন না, যিনি তাঁকে দুঃখ দিতেন, এমন কোনো ধন-সম্পদ ছিল না, যা তাঁর মনোযোগ বিচ্যুত করত, এমন কোনো লোভ ছিল না, যা তাঁকে অপমানিত করত। তাঁর দুই পা ছিল তাঁর বাহন, এবং দুই হাত ছিল তাঁর সেবক।",
+          "es": "Si quieres, te hablaré de ‘Īsā (que la paz sea con él), hijo de Maryam (María). Usaba una piedra como almohada, vestía ropas ásperas y comía alimentos rústicos. Su condimento era el hambre. Su lámpara por la noche era la luna. Su sombra durante el invierno era la extensión de la tierra, de oriente a occidente. Sus frutos y flores eran solo lo que la tierra produce para el ganado. No tenía esposa que lo tentara, ni hijo que le causara pena, ni riqueza que desviara su atención, ni avaricia que lo avergonzara. Sus dos pies eran su medio de transporte, y sus dos manos su sirviente.",
+          "fr": "Si vous le souhaitez, je vous parlerai d’‘Īsā (que la paix soit sur lui), fils de Maryam (Marie). Il se servait d’une pierre comme oreiller, portait des vêtements grossiers et mangeait une nourriture rustique. Son assaisonnement était la faim. Sa lampe la nuit était la lune. Son ombre en hiver était l’étendue de la terre, d’orient en occident. Ses fruits et ses fleurs n’étaient que ce que la terre produit pour le bétail. Il n’avait ni femme pour le séduire, ni fils pour lui causer de la peine, ni richesse pour détourner son attention, ni avidité pour le déshonorer. Ses deux pieds étaient son moyen de transport, et ses deux mains son serviteur !",
+          "de": "Wenn du willst, werde ich dir von ʿĪsā (Friede sei mit ihm), dem Sohn der Maryam (Maria), erzählen. Er legte sich auf einen Stein als Kissen, trug grobe Kleider und aß rauhe Nahrung. Sein Gewürz war der Hunger. Seine Lampe bei Nacht war der Mond. Sein Schatten im Winter war die Weite der Erde, ihr Osten und Westen. Seine Früchte und Blumen waren nur das, was die Erde für das Vieh hervorbringt. Er hatte keine Frau, die ihn verführte, keinen Sohn, der ihm Kummer bereitete, kein Vermögen, das seine Aufmerksamkeit ablenkte, und keine Gier, die ihn entehrte. Seine zwei Füße waren sein Transportmittel, und seine zwei Hände sein Diener!",
+          "ru": "Если хочешь, я расскажу тебе об Исе (да будет мир с ним), сыне Марьям. Он использовал камень в качестве подушки, носил грубую одежду и ел простую пищу. Его приправой был голод. Его светильником ночью была луна. Его тенью зимой была бескрайняя земля, от востока до запада. Его плодами и цветами было лишь то, что земля производит для скота. У него не было жены, которая бы соблазняла его, ни сына, который бы приносил ему горе, ни богатства, которое бы отвлекало его внимание, ни жадности, которая бы унижала его. Его двумя ногами было его средство передвижения, а двумя руками — его слуга!",
+          "zh": "你若愿意，我可以为你讲述尔萨（愿主福安之），麦尔彦之子。他以石头为枕，身着粗布，食用粗糙的食物。他的佐料是饥饿，他夜间的灯是月亮。冬季他的荫蔽是广阔的大地，从东到西。他的果实和花朵只是大地为牲畜所产之物。他没有妻子诱惑他，没有儿子使他忧愁，没有财富分散他的注意力，没有贪婪使他蒙羞。他的双脚是他的交通工具，他的双手是他的仆人！"
+        },
+        "word_start": 3,
+        "word_end": 56
+      }
+    ],
+    "translations": {
+      "en": {
+        "summary": "In Nahj al-Balagha, Imam Ali (peace be upon him) uses this vivid description of Prophet ‘Īsā’s asceticism (zuhd) to illustrate the ideal spiritual detachment for believers, contrasting material poverty with spiritual richness. This passage serves as a practical model for navigating worldly life without being enslaved by it, a core theme in Shia ethical teachings. The emphasis on self-sufficiency and freedom from desire underscores the prophetic tradition of simplicity as a means to preserve divine focus.",
+        "seo_question": "What was the ascetic lifestyle of Prophet Jesus (Isa) like according to Nahj al-Balagha?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "used a stone for a pillow",
+          "الْخَشِنَ": "coarse/rough clothing",
+          "الْجَشِبَ": "rough/hard food",
+          "إِدَامُهُ": "his condiment/accompaniment",
+          "السِّرَاجُ": "lamp/light",
+          "الظِّلَالُ": "shades/shelter",
+          "الرَّيْحَانُ": "fragrant plants/flowers",
+          "الْبَهَائِمُ": "cattle/beasts",
+          "تَفْتِنُهُ": "to allure/test him",
+          "يَلْفِتُهُ": "to divert/deviate him",
+          "يُذِلُّهُ": "to humble/disgrace him",
+          "دَابَّتُهُ": "his beast/conveyance",
+          "خَادِمُهُ": "his servant"
+        }
+      },
+      "ur": {
+        "summary": "نہج البلاغہ میں امام علی (علیہ السلام) نے نبی عیسیٰ (علیہ السلام) کی زہد کی اس زندہ تصویر کو پیش کرتے ہوئے مومنین کے لیے روحانی بے رغبتی کا مثالی نمونہ پیش کیا ہے، جس میں مادی غربت اور روحانی دولت کا تقابل کیا گیا ہے۔ یہ اقتباس دنیاوی زندگی میں اس طرح رہنے کا عملی نمونہ فراہم کرتا ہے کہ انسان اس کا غلام نہ بنے، جو شیعہ اخلاقی تعلیمات کا ایک بنیادی موضوع ہے۔ خود کفالت اور خواہشوں سے آزادی پر زور دینا سادگی کی نبوی روایت کو واضح کرتا ہے جو الٰہی توجہ کو برقرار رکھنے کا ذریعہ ہے۔",
+        "seo_question": "نہج البلاغہ کے مطابق نبی عیسیٰ (علیہ السلام) کی زہدانہ زندگی کیسی تھی؟",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "تکیے کے لیے پتھر استعمال کرتے",
+          "الْخَشِنَ": "کھردرا کپڑا",
+          "الْجَشِبَ": "کھردرا/سخت کھانا",
+          "إِدَامُهُ": "ان کا مصالہ/ساتھی کھانا",
+          "السِّرَاجُ": "مشرق/روشنی",
+          "الظِّلَالُ": "سایے/پناہ گاہ",
+          "الرَّيْحَانُ": "خوشبو دار پودے/پھول",
+          "الْبَهَائِمُ": "مویشی/حیوانات",
+          "تَفْتِنُهُ": "اسے لالچ دینا/آزمائش کرنا",
+          "يَلْفِتُهُ": "اسے موڑنا/گمراہ کرنا",
+          "يُذِلُّهُ": "اسے ذلیل کرنا",
+          "دَابَّتُهُ": "ان کا جانور/سوار",
+          "خَادِمُهُ": "ان کا نوکر"
+        }
+      },
+      "tr": {
+        "summary": "Nahcü'l-Belâgâ'da İmam Ali (aleyhisselâm), müminler için ideal manevi zühdü (dünyadan kopukluğu) göstermek üzere Peygamber İsa'nın (aleyhisselâm) zühdünü canlı bir betimleme ile anlatır; maddi yoksulluk ile manevi zenginlik arasında bir karşıtlık kurar. Bu pasaj, dünyevi hayata onun kölesi olmadan nasıl geçileceğine dair pratik bir model sunar ve Şii ahlaki öğretilerinin temel temasıdır. Kendi kendine yeterlilik ve arzudan özgürlük vurgusu, ilahi odaklanmayı korumak için sadeliğin peygamberi geleneğini altını çizer.",
+        "seo_question": "Nahcü'l-Belâgâ'ya göre Peygamber İsa'nın (aleyhisselâm) zühd (dünyadan kopukluk) yaşam tarzı nasıldı?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "yastık olarak taş kullanır",
+          "الْخَشِنَ": "kaba/ham giysi",
+          "الْجَشِبَ": "kaba/sert yiyecek",
+          "إِدَامُهُ": "yemeği eşlik eden sos/ikram",
+          "السِّرَاجُ": "lamba/ışık",
+          "الظِّلَالُ": "gölgeler/barınak",
+          "الرَّيْحَانُ": "kokulu bitkiler/çiçekler",
+          "الْبَهَائِمُ": "hayvanlar/avar",
+          "تَفْتِنُهُ": "onu aldatır/sınar",
+          "يَلْفِتُهُ": "onu saptırır/odaktan uzaklaştırır",
+          "يُذِلُّهُ": "onu horlar/utandırır",
+          "دَابَّتُهُ": "onun bineği/taşıtı",
+          "خَادِمُهُ": "onun kölesi/hizmetçisi"
+        }
+      },
+      "fa": {
+        "summary": "در نهج‌البلاغه، امام علی (علیه‌السلام) با این توصیف پویا از زهد پیامبر عیسی (علیه‌السلام)، گسستگی معنوی ایده‌آل برای مؤمنان را به تصویر می‌کشد و فقر مادی را با غنای معنوی در تضاد قرار می‌دهد. این بخش به عنوان الگویی عملی برای زیستن در دنیا بدون اسارت در آن، که موضوعی محوری در آموزه‌های اخلاقی شیعه است، خدمت می‌کند. تأکید بر خودکفایی و رهایی از هوس، سنت نبوی سادگی را به عنوان وسیله‌ای برای حفظ تمرکز بر خداوند برجسته می‌سازد.",
+        "seo_question": "سبک زندگی زهدآمیز پیامبر عیسی (عیسی) بر اساس نهج‌البلاغه چگونه بود؟",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "سنگ را به عنوان بالش به کار می‌برد",
+          "الْخَشِنَ": "لباس زبر/خشن",
+          "الْجَشِبَ": "غذای زبر/سخت",
+          "إِدَامُهُ": "مایه طعم‌دهنده/همراه او",
+          "السِّرَاجُ": "چراغ/نور",
+          "الظِّلَالُ": "سایه‌ها/پناهگاه",
+          "الرَّيْحَانُ": "گیاهان خوشبو/گل‌ها",
+          "الْبَهَائِمُ": "چهارپایان/حیوانات",
+          "تَفْتِنُهُ": "او را فریبد/test کند",
+          "يَلْفِتُهُ": "او را منحرف کند",
+          "يُذِلُّهُ": "او را ذلیل کند",
+          "دَابَّتُهُ": "حیوان/وسیله نقلیه او",
+          "خَادِمُهُ": "خدمتکار او"
+        }
+      },
+      "id": {
+        "summary": "Dalam Nahj al-Balagha, Imam Ali (alamahis salam) menggunakan deskripsi vivid tentang zuhd Nabi Isa untuk menggambarkan keterpisahan spiritual ideal bagi orang beriman, dengan membandingkan kemiskinan materi dengan kekayaan spiritual. Kutipan ini berfungsi sebagai model praktis untuk menjalani kehidupan dunia tanpa terbelenggu olehnya, sebuah tema inti dalam ajaran etika Syiah. Penekanan pada kemandirian dan kebebasan dari hawa nafsu menyoroti tradisi kenabian tentang kesederhanaan sebagai sarana untuk mempertahankan fokus ilahi.",
+        "seo_question": "Bagaimana gaya hidup zuhd Nabi Isa menurut Nahj al-Balagha?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "menggunakan batu sebagai bantal",
+          "الْخَشِنَ": "pakaian kasar",
+          "الْجَشِبَ": "makanan kasar",
+          "إِدَامُهُ": "pelengkapnya",
+          "السِّرَاجُ": "pelita",
+          "الظِّلَالُ": "naungan",
+          "الرَّيْحَانُ": "tumbuhan harum",
+          "الْبَهَائِمُ": "ternak",
+          "تَفْتِنُهُ": "memikatnya",
+          "يَلْفِتُهُ": "mengalihkan perhatiannya",
+          "يُذِلُّهُ": "merendahkan martabatnya",
+          "دَابَّتُهُ": "hewan tunggangannya",
+          "خَادِمُهُ": "pelayannya"
+        }
+      },
+      "bn": {
+        "summary": "নহজুল বালাগহায়, ইমাম আলী (আ.) নবী ঈসা (আ.)-এর জuhদ বা ত্যাগশীলতার এই জীবন্ত বর্ণনা ব্যবহার করে বিশ্বাসীদের জন্য আদর্শ আধ্যাত্মিক বিচ্ছিন্নতা চিত্রিত করেছেন, যা পদার্থবাদীন দারিদ্র্যকে আধ্যাত্মিক সমৃদ্ধির সাথে তুলনা করে। এই অংশটি পৃথিবীর জীবনকে এর দাসত্ব থেকে মুক্তভাবে পরিচালনা করার একটি ব্যবহারিক মডেল হিসেবে কাজ করে, যা শিয়া নৈতিক শিক্ষার একটি মূল বিষয়। আত্মনির্ভরশীলতা এবং ইচ্ছার মুক্তির উপর জোর দেওয়া ঐশ্বরিক ফোকাস বজায় রাখার মাধ্যম হিসেবে সহজ জীবনের নবীপরম্পরার গুরুত্ব তুলে ধরে।",
+        "seo_question": "নহজুল বালাগহা অনুযায়ী নবী ঈসা (আ.)-এর ত্যাগশীল জীবনযাত্রা কেমন ছিল?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "একটি পাথরকে বালিশ হিসেবে ব্যবহার করতেন",
+          "الْخَشِنَ": "খসখসে/মোটা পোশাক",
+          "الْجَشِبَ": "খসখসে/কঠিন খাবার",
+          "إِدَامُهُ": "তার মসলা/সঙ্গী খাবার",
+          "السِّرَاجُ": "বাতি/আলো",
+          "الظِّلَالُ": "ছায়া/আশ্রয়",
+          "الرَّيْحَانُ": "সুগন্ধি উদ্ভিদ/ফুল",
+          "الْبَهَائِمُ": "গবাদি পশু/পশু",
+          "تَفْتِنُهُ": "তাকে মুগ্ধ করা/পরীক্ষা করা",
+          "يَلْفِتُهُ": "তাকে বিভ্রান্ত করা/পথভ্রষ্ট করা",
+          "يُذِلُّهُ": "তাকে অবনত করা/অপমান করা",
+          "دَابَّتُهُ": "তার পশু/যানবাহন",
+          "خَادِمُهُ": "তার দাস/সেবক"
+        }
+      },
+      "es": {
+        "summary": "En Nahj al-Balagha, el Imam Alí (que la paz sea con él) utiliza esta vívida descripción del ascetismo (zuhd) del Profeta ‘Īsā para ilustrar el desapego espiritual ideal para los creyentes, contrastando la pobreza material con la riqueza espiritual. Este pasaje sirve como un modelo práctico para navegar la vida mundana sin ser esclavizado por ella, un tema central en las enseñanzas éticas chiíes. El énfasis en la autosuficiencia y la libertad del deseo subraya la tradición profética de la simplicidad como medio para preservar el enfoque divino.",
+        "seo_question": "¿Cómo era el estilo de vida ascético del Profeta Jesús (Isa) según Nahj al-Balagha?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "usaba una piedra como almohada",
+          "الْخَشِنَ": "ropa áspera/ruda",
+          "الْجَشِبَ": "comida ruda/dura",
+          "إِدَامُهُ": "su condimento/acompañamiento",
+          "السِّرَاجُ": "lámpara/luz",
+          "الظِّلَالُ": "sombras/abrigo",
+          "الرَّيْحَانُ": "plantas fragantes/flores",
+          "الْبَهَائِمُ": "ganado/fieras",
+          "تَفْتِنُهُ": "tentarlo/prueba",
+          "يَلْفِتُهُ": "desviar/desviarlo",
+          "يُذِلُّهُ": "humillar/desgraciarlo",
+          "دَابَّتُهُ": "su bestia/transporte",
+          "خَادِمُهُ": "su sirviente"
+        }
+      },
+      "fr": {
+        "summary": "Dans Nahj al-Balagha, l’imam Ali (que la paix soit sur lui) utilise cette description vivante de l’ascétisme (zuhd) du prophète ‘Īsā pour illustrer le détachement spirituel idéal des croyants, opposant la pauvreté matérielle à la richesse spirituelle. Ce passage sert de modèle pratique pour naviguer dans la vie mondaine sans en être esclave, un thème central des enseignements éthiques chiites. L’accent mis sur l’autosuffisance et la liberté des désirs souligne la tradition prophétique de la simplicité comme moyen de préserver la focalisation divine.",
+        "seo_question": "Quel était le mode de vie ascétique du prophète Jésus (Isa) selon Nahj al-Balagha ?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "utilisait une pierre comme oreiller",
+          "الْخَشِنَ": "vêtements grossiers/rugueux",
+          "الْجَشِبَ": "nourriture rude/dure",
+          "إِدَامُهُ": "son condiment/accompagnement",
+          "السِّرَاجُ": "lampe/lumière",
+          "الظِّلَالُ": "ombres/abri",
+          "الرَّيْحَانُ": "plantes/flowers parfumées",
+          "الْبَهَائِمُ": "bétail/bêtes",
+          "تَفْتِنُهُ": "pour l’attirer/le mettre à l’épreuve",
+          "يَلْفِتُهُ": "pour le détourner/le faire dévier",
+          "يُذِلُّهُ": "pour l’humilier/le déshonorer",
+          "دَابَّتُهُ": "sa bête/moyen de transport",
+          "خَادِمُهُ": "son serviteur"
+        }
+      },
+      "de": {
+        "summary": "Im Nahj al-Balagha nutzt Imam Ali (F Ali (Friede sei mit ihm) diese lebendige Beschreibung der Askese (Zuhd) des Propheten Isa, um die ideale spirituelle Losgelöstheit der Gläubigen zu veranschaulichen, indem er materielle Armut mit spirituellem Reichtum kontrastiert. Diese Passage dient als praktisches Modell, um das weltliche Leben zu navigieren, ohne von ihm versklavt zu werden, ein Kernthema in der schiitischen ethischen Lehre. Die Betonung der Selbstversorgung und Freiheit von Begierden unterstreicht die prophetische Tradition der Einfachheit als Mittel, um die Fokussierung auf das Göttliche zu bewahren.",
+        "seo_question": "Wie war der asketische Lebensstil des Propheten Jesus (Isa) laut Nahj al-Balagha?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "ein Stein als Kissen",
+          "الْخَشِنَ": "raue/raue Kleidung",
+          "الْجَشِبَ": "rahes/hartes Essen",
+          "إِدَامُهُ": "seine Beilage",
+          "السِّرَاجُ": "Lampe/Licht",
+          "الظِّلَالُ": "Schatten/Unterschlupf",
+          "الرَّيْحَانُ": "duftende Pflanzen/Blumen",
+          "الْبَهَائِمُ": "Vieh/Bestien",
+          "تَفْتِنُهُ": "ihn verführen/prüfen",
+          "يَلْفِتُهُ": "ihn ablenken/abirren lassen",
+          "يُذِلُّهُ": "ihn demütigen/entehren",
+          "دَابَّتُهُ": "sein Tier/Transportmittel",
+          "خَادِمُهُ": "sein Diener"
+        }
+      },
+      "ru": {
+        "summary": "В «Хиляль аль-Балагха» Имама Али (мир ему) использует это яркое описание аскетизма (зухд) пророка Исы (мир ему) как пример идеальной духовной отрешенности для верующих, противопоставляя материальную бедность духовному богатству. Этот отрывок служит практической моделью жизни в мире, не будучи рабом материальных благ, что является ключевой темой в шиитском учении об этике. Акцент на самодостаточности и свободе от желаний подчеркивает пророческую традицию простоты как средства сохранения сосредоточенности на Боге.",
+        "seo_question": "Каков был аскетичный образ жизни пророка Исы (Иса) согласно «Хиляль аль-Балагха»?",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "опирался на камень как на подушку",
+          "الْخَشِنَ": "грубая/шероховатая одежда",
+          "الْجَشِبَ": "грубая/жесткая пища",
+          "إِدَامُهُ": "его приправа/сопутствующая еда",
+          "السِّرَاجُ": "лампа/свет",
+          "الظِّلَالُ": "тени/укрытие",
+          "الرَّيْحَانُ": "ароматные растения/цветы",
+          "الْبَهَائِمُ": "скот/животные",
+          "تَفْتِنُهُ": "искушать/испытывать его",
+          "يَلْفِتُهُ": "отвлекать/сбивать с пути",
+          "يُذِلُّهُ": "унижать/опозорить его",
+          "دَابَّتُهُ": "его животное/средство передвижения",
+          "خَادِمُهُ": "его слуга"
+        }
+      },
+      "zh": {
+        "summary": "在《布哈里格》中，阿里伊玛目（愿主福安之）用这段对先知尔萨苦修（zuhd）的生动描述，来说明信徒理想的灵性超脱，将物质贫困与灵性富足相对比。这段经文为在不被世俗奴役的情况下驾驭尘世生活提供了实践典范，这是什叶派伦理教导的核心主题。对自足和摆脱欲望的强调，突显了以简朴为手段以保持对真主专注的先知传统。",
+        "seo_question": "根据《布哈里格》，耶稣（尔萨）先知的苦修生活方式是怎样的？",
+        "key_terms": {
+          "يَتَوَسَّدُ الْحَجَرَ": "以石为枕",
+          "الْخَشِنَ": "粗布/粗糙衣物",
+          "الْجَشِبَ": "粗糙/坚硬食物",
+          "إِدَامُهُ": "他的佐餐/配菜",
+          "السِّرَاجُ": "灯/光",
+          "الظِّلَالُ": "树荫/遮蔽",
+          "الرَّيْحَانُ": "芳香植物/花卉",
+          "الْبَهَائِمُ": "牲畜/野兽",
+          "تَفْتِنُهُ": "诱惑/考验他",
+          "يَلْفِتُهُ": "使...分心/偏离",
+          "يُذِلُّهُ": "使...谦卑/羞辱",
+          "دَابَّتُهُ": "他的坐骑/交通工具",
+          "خَادِمُهُ": "他的仆人"
+        }
+      }
+    },
+    "related_quran": [
+      {
+        "ref": "3:55",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:110",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "19:30",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "3:79",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "57:23",
+        "relationship": "thematic"
+      }
+    ],
+    "diacritized_text": "عِيسَى (عليه السلام): وَإِنْ شِئْتَ قُلْتُ فِي عِيسَى بْنِ مَرْيَمَ (عليه السلام)، فَلَقَدْ كَانَ يَتَوَسَّدُ الْحَجَرَ، وَيَلْبَسُ الْخَشِنَ، وَيَأْكُلُ الْجَشِبَ، وَكَانَ إِدَامُهُ الْجُوعَ، وَسِرَاجُهُ بِاللَّيْلِ الْقَمَرَ، وَظِلَالُهُ فِي الشِّتَاءِ مَشَارِقَ الْأَرْضِ وَمَغَارِبَهَا، وَفَاكِهَتُهُ وَرَيْحَانُهُ مَا تُنْبِتُ الْأَرْضُ لِلْبَهَائِمِ، وَلَمْ تَكُنْ لَهُ زَوْجَةٌ تَفْتِنُهُ، وَلَا وَلَدٌ يَحْزُنُهُ، وَلَا مَالٌ يَلْفِتُهُ، وَلَا طَمَعٌ يُذِلُّهُ، دَابَّتُهُ رِجْلَاهُ، وَخَادِمُهُ يَدَاهُ!",
+    "isnad_matn": {
+      "isnad_ar": "[عيسى (عليه السلام) :] وَإِنْ شِئْتَ قُلْتُ فِي",
+      "matn_ar": "عِيسَى (عليه السلام): وَإِنْ شِئْتَ قُلْتُ فِي عِيسَى بْنِ مَرْيَمَ (عليه السلام)، فَلَقَدْ كَانَ يَتَوَسَّدُ الْحَجَرَ، وَيَلْبَسُ الْخَشِنَ، وَيَأْكُلُ الْجَشِبَ، وَكَانَ إِدَامُهُ الْجُوعَ، وَسِرَاجُهُ بِاللَّيْلِ الْقَمَرَ، وَظِلَالُهُ فِي الشِّتَاءِ مَشَارِقَ الْأَرْضِ وَمَغَارِبَهَا، وَفَاكِهَتُهُ وَرَيْحَانُهُ مَا تُنْبِتُ الْأَرْضُ لِلْبَهَائِمِ، وَلَمْ تَكُنْ لَهُ زَوْجَةٌ تَفْتِنُهُ، وَلَا وَلَدٌ يَحْزُنُهُ، وَلَا مَالٌ يَلْفِتُهُ، وَلَا طَمَعٌ يُذِلُّهُ، دَابَّتُهُ رِجْلَاهُ، وَخَادِمُهُ يَدَاهُ!",
+      "has_chain": true,
+      "narrators": [
+        {
+          "name_ar": "[عيسى (عليه السلام) :] وإن شئت قلت",
+          "name_en": "Isa",
+          "role": "narrator",
+          "position": 1,
+          "identity_confidence": "ambiguous",
+          "ambiguity_note": "Not resolved against canonical narrator registry",
+          "known_identity": null,
+          "canonical_id": null
+        }
+      ]
+    },
+    "diacritics_status": "corrected",
+    "diacritics_changes": [],
+    "key_phrases": [
+      {
+        "phrase_ar": "عَلَيْهِ السَّلَامُ",
+        "phrase_en": "Peace be upon him",
+        "category": "prophetic_formula"
+      }
+    ],
+    "seo_question": {},
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
+  }
+}

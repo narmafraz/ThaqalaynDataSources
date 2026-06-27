@@ -1,237 +1,219 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:3:2:36:63",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-09",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[6] translations.en is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.ur is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.tr is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.fa is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.id is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.bn is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.es is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.fr is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.de is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[6] translations.zh is empty string (likely Phase 4 batch failure)"
+    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)"
   ],
   "result": {
     "tags": [
       "jurisprudence",
-      "quran_commentary",
-      "knowledge"
+      "quran_commentary"
     ],
     "content_type": "legal_ruling",
     "topics": [
       "halal_haram",
-      "judicial_rulings",
-      "quran_interpretation_method",
-      "seeking_knowledge"
+      "quran_interpretation_method"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "وَ رَوَى أَبُو بَكْرٍ الْحَضْرَمِيُّ عَنِ الْوَرْدِ بْنِ زَيْدٍ قَالَ:",
+        "arabic_text": "وَرَوَى أَبُو بَكْرٍ الْحَضْرَمِيُّ عَنِ الْوَرْدِ بْنِ زَيْدٍ قَالَ",
         "translations": {
-          "en": "And Abū Bakr al-Ḥaḍramī narrated from al-Ward ibn Zayd, who said:",
-          "ur": "اور ابو بکر الحضرامی نے الورڈ ابن زید سے روایت کی، جنہوں نے کہا:",
-          "tr": "Ve Ebû Bekr el-Hadramî, el-Verd bin Zeyd'den rivayet etti, dedi ki:",
-          "fa": "و ابوبکر حضرمی از الورْد بن زید روایت کرد که گفت:",
-          "id": "Dan Abū Bakr al-Ḥaḍramī meriwayat dari al-Ward ibn Zayd, yang berkata:",
-          "bn": "এবং আবু বকর হাদ্রমী আল-ওয়ার্দ ইবনে জায়দ থেকে বর্ণনা করেছেন, যিনি বললেন:",
-          "es": "Y Abū Bakr al-Ḥaḍramī narró de al-Ward ibn Zayd, quien dijo:",
-          "fr": "Et Abū Bakr al-Ḥaḍramī a rapporté de al-Ward ibn Zayd, qui a dit :",
-          "de": "Und Abū Bakr al-Ḥaḍramī berichtete von al-Ward ibn Zayd, der sagte:",
-          "ru": "Абу Бакр аль-Хадрами передал от аль-Варда ибн Зайда, который сказал:",
-          "zh": "阿布巴克尔哈德拉米从瓦尔德本扎伊德传述，他说："
+          "en": "And Abu Bakr al-Hadrami narrated from Al-Ward bin Zaid, who said:",
+          "ur": "اور ابو بکر الحضرمی نے الور بن زید سے روایت کی، انہوں نے کہا:",
+          "tr": "Ve Ebû Bekr el-Hadramî, el-Vard b. Zeyd'den rivayet etti, o da dedi ki:",
+          "fa": "و أبو بكر الحضرمي روى عن الورد بن زيد، قال:",
+          "id": "Dan Abu Bakar al-Hadrami meriwayatkan dari Al-Ward bin Zaid, ia berkata:",
+          "bn": "আর আবু বকর আল-হাদরামী হতে বর্ণনা করেছেন, আল-ওয়ার্দ ইবনে জায়েদ থেকে, তিনি বলেছেন:",
+          "es": "Y narró Abu Bakr al-Hadrami desde Al-Ward bin Zaid, quien dijo:",
+          "fr": "Et Abou Bakr al-Hadrami a rapporté d'après Al-Ward ibn Zayd, qui a dit :",
+          "de": "Und Abu Bakr al-Hadrami überlieferte von al-Ward ibn Zaid, der sagte:",
+          "ru": "И Абу Бакр аль-Хадрами передал от аль-Варда ибн Зайда, который сказал:",
+          "zh": "阿布·巴克尔·哈德拉米从瓦德·本·宰德传述，他说："
         },
         "word_start": 0,
-        "word_end": 10
-      },
-      {
-        "chunk_type": "opening",
-        "arabic_text": "قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ حَدِّثْنِي حَدِيثًا وَ أَمْلِ عَلَيَّ حَتَّى أَكْتُبَهُ فَقَالَ «أَيْنَ حِفْظُكُمْ يَا أَهْلَ الْكُوفَةِ» قُلْتُ حَتَّى لَا يَرُدَّهُ عَلَيَّ أَحَدٌ،",
-        "translations": {
-          "en": "I said to Abī Jaʿfar عليه السلام, “Relate to me a hadith and dictate it to me so that I may write it down.” So he said, “Where is your memory, O people of Kūfah?” I said, “So that no one may reject it against me.”",
-          "ur": "میں نے ابو جعفر علیہ السلام سے کہا، “میرے لیے ایک حدیث بیان کریں اور مجھے تحریر کرنے کے لیے پڑھ کر سنائیں۔” تو انہوں نے کہا، “تمہاری یادداشت کہاں ہے اے کوفہ کے لوگ؟” میں نے کہا، “تاکہ کوئی میرے خلاف اسے رد نہ کرے۔”",
-          "tr": "Ben Abî Caʿfer عليه السلام'a, “Bana bir hadis rivayet et ve yazmam için bana dikte et,” dedim. O da, “Hafızanız nerede ey Kûfe halkı?” dedi. Ben, “Kimse bana karşı onu reddetmesin diye,” dedim.",
-          "fa": "به ابی جعفر علیه السلام گفتم: «برایم حدیثی بگو و برایم دیکته کن تا بنویسم.» فرمود: «حافظه‌تان کجاست ای اهل کوفه؟» گفتم: «تا هیچ‌کس آن را بر من رد نکند.»",
-          "id": "Aku berkata kepada Abī Jaʿfar عليه السلام, “Ceritakan hadits kepadaku dan bacakan agar aku dapat menuliskannya.” Maka beliau berkata, “Di mana ingatan kalian, wahai penduduk Kufah?” Aku berkata, “Agar tidak ada yang menolaknya dariku.”",
-          "bn": "আমি আবী জাফর عليه السلام কে বললাম, “আমার জন্য একটি হাদিস বর্ণনা করুন এবং আমাকে তা লিখতে বলুন।” তিনি বললেন, “তোমাদের স্মৃতি কোথায়, ও কুফার মানুষ?” আমি বললাম, “যাতে কেউ আমার বিরুদ্ধে তা প্রত্যাখ্যান করতে না পারে।”",
-          "es": "Le dije a Abī Jaʿfar عليه السلام: “Relátame un hadiz y dictámelo para que pueda escribirlo.” Él dijo: “¿Dónde está vuestra memoria, oh gente de Kūfah?” Dije: “Para que nadie me lo rechace.”",
-          "fr": "Je dis à Abī Jaʿfar عليه السلام : « Raconte-moi un hadith et dicte-le-moi pour que je puisse l’écrire. » Il dit : « Où est votre mémoire, ô gens de Koufa ? » Je dis : « Afin que personne ne me le rejette. »",
-          "de": "Ich sagte zu Abī Jaʿfar عليه السلام: „Erzähle mir einen Hadith und diktiere ihn mir, damit ich ihn aufschreiben kann.“ Er sagte: „Wo ist euer Gedächtnis, o Leute von Kūfah?“ Ich sagte: „Damit ihn niemand mir gegenüber zurückweist.“",
-          "ru": "Я сказал Аби Джафару عليه السلام: «Расскажи мне хадис и продиктуй его, чтобы я мог записать.» Он сказал: «Где ваша память, о люди Куфы?» Я ответил: «Чтобы никто не мог опровергнуть меня.»",
-          "zh": "我对阿比贾法尔 عليه السلام说：“给我讲一则圣训并口述给我，以便我写下。”他说：“你们的记忆在哪里，库法的人们？”我说：“以免有人反驳我。”"
-        },
-        "word_start": 10,
-        "word_end": 34
+        "word_end": 9
       },
       {
         "chunk_type": "body",
-        "arabic_text": "مَا تَقُولُ فِي مَجُوسِيٍّ قَالَ بِسْمِ اللَّهِ وَ ذَبَحَ فَقَالَ «كُلْ» فَقُلْتُ مُسْلِمٌ ذَبَحَ وَ لَمْ يُسَمِّ فَقَالَ «لَا تَأْكُلْ إِنَّ اللَّهَ تَعَالَى يَقُولُ:",
+        "arabic_text": "قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ حَدِّثْنِي حَدِيثًا وَأَمْلِ عَلَيَّ حَتَّى أَكْتُبَهُ فَقَالَ \"أَيْنَ حِفْظُكُمْ يَا أَهْلَ الْكُوفَةِ\" قُلْتُ حَتَّى لَا يَرُدَّهُ عَلَيَّ أَحَدٌ، مَا تَقُولُ فِي مَجُوسِيٍّ قَالَ بِسْمِ اللَّهِ وَذَبَحَ فَقَالَ \"كُلْ\" قُلْتُ مُسْلِم قُلْتُ مُسْلِمٌ ذَبَحَ وَلَمْ يُسَمِّ فَقَالَ \"لَا تَأْكُلْ إِنَّ اللَّهَ تَعَالَى يَقُولُ: ۝ فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ ۝ وَيَقُولُ ۝ وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ ۝\".",
         "translations": {
-          "en": "What do you say about a Majūsī who says, “Bismillāh,” and slaughters? He said, “Eat.” I said: A Muslim slaughtered and did not mention the name of Allah, so he said, “Do not eat. Indeed Allah, the Exalted, says:",
-          "ur": "آپ کیا کہتے ہیں ایک مجوسی کے بارے میں جو کہتا ہے، “بسم اللہ” اور ذبح کرتا ہے؟ انہوں نے کہا، “کھاؤ۔” میں نے کہا: ایک مسلمان نے ذبح کیا اور اللہ کا نام نہیں لیا، تو انہوں نے کہا، “مت کھاؤ۔ بے شک اللہ تعالیٰ فرماتا ہے:",
-          "tr": "Bir Mecusî hakkında ne dersin ki “Bismillâh” der ve keser? O dedi ki: “Ye.” Ben dedim: Bir Müslüman kesti ve Allah’ın adını anmadı, o dedi ki: “Yeme. Şüphesiz Allah Teâlâ şöyle buyurur:",
-          "fa": "درباره یک مجوسی که می‌گوید «بسم‌الله» و ذبح می‌کند، چه می‌گویی؟ فرمود: «بخور.» گفتم: مسلمانی ذبح کرد و نام خدا را نبرد، فرمود: «نخور. همانا خداوند متعال می‌فرماید:",
-          "id": "Apa pendapatmu tentang seorang Majūsī yang berkata, “Bismillāh,” dan menyembelih? Dia berkata, “Makanlah.” Aku berkata: Seorang Muslim menyembelih dan tidak menyebut nama Allah, maka dia berkata, “Jangan makan. Sesungguhnya Allah Yang Maha Tinggi berfirman:",
-          "bn": "তুমি কী বলো এমন এক মজুসী সম্পর্কে যে বলে, “বিসমিল্লাহ” এবং পশু কোরবানি করে? তিনি বললেন, “খাও।” আমি বললাম: একজন মুসলিম কোরবানি করল এবং আল্লাহর নাম উল্লেখ করল না, তিনি বললেন, “খাও না। নিশ্চয় আল্লাহ তাআলা বলেন:",
-          "es": "¿Qué dices de un Majūsī que dice “Bismillāh” y sacrifica? Él dijo: “Come.” Dije: Un musulmán sacrificó y no mencionó el nombre de Allah, entonces dijo: “No comas. En verdad Allah, el Exaltado, dice:",
-          "fr": "Que dis-tu d’un Majūsī qui dit « Bismillāh » et égorge ? Il dit : « Mange. » Je dis : Un musulman a égorgé sans mentionner le nom d’Allah, il dit : « Ne mange pas. En vérité, Allah, le Très-Haut, dit :",
-          "de": "Was sagst du zu einem Majūsī, der „Bismillāh“ sagt und schlachtet? Er sagte: „Iss.“ Ich sagte: Ein Muslim schlachtete und nannte den Namen Allahs nicht, er sagte: „Iss nicht. Wahrlich, Allah, der Erhabene, sagt:",
-          "ru": "Что скажешь о мажусие, который говорит «Бисмилля» и забивает? Он сказал: «Ешь.» Я сказал: Мусульманин забил и не упомянул имя Аллаха, он сказал: «Не ешь. Воистину, Аллах, Возвышенный, говорит:",
-          "zh": "你如何看待一个说“奉真主之名”并宰杀的祆教徒？他说：“吃吧。”我说：一个穆斯林宰杀却未念真主之名，他说：“不要吃。真主至高无上说："
+          "en": "I said to Abu Ja'far (peace be upon him), 'Relate to me a narration and dictate it to me so that I may write it down.' He said, 'Where is your memory, O people of Kufa?' I said, 'So that no one disputes it with me later.' I asked, 'What do you say about a Magian who says \"In the name of Allah\" and slaughters?' He said, 'Eat.' I said, 'What if a Muslim slaughters but does not mention the name of Allah?' He replied, 'Do not eat. Indeed, Allah, the Exalted, says: \"So eat of that upon which the name of Allah has been mentioned\" and He also says: \"And do not eat of that upon which the name of Allah has not been mentioned.\"'",
+          "ur": "میں نے ابو جعفر (علیہ السلام) سے کہا: مجھے ایک حدیث سنائیں اور اسے مجھے دیکٹیت کریں تاکہ میں اسے لکھ سکوں۔ انہوں نے فرمایا: اے کوفہ والو! تمہاری یادداشت کہاں ہے؟ میں نے کہا: تاکہ بعد میں کوئی شخص اس پر مجھ سے اختلاف نہ کرے۔ میں نے پوچھا: آپ کا کیا خیال ہے کہ ایک مجوسی (ماجوسی) اللہ کے نام لے کر ذبح کرے؟ انہوں نے فرمایا: کھا لو۔ میں نے کہا: اگر ایک مسلمان ذبح کرے لیکن اللہ کا نام نہ لے؟ انہوں نے جواب دیا: نہ کھاؤ۔ بے شک اللہ تعالیٰ کا فرمان ہے: \"پس اس چیز کو کھاؤ جس پر اللہ کا نام لیا گیا ہو\" اور وہ بھی فرماتا ہے: \"اور اس چیز کو نہ کھاؤ جس پر اللہ کا نام نہ لیا گیا ہو۔\"",
+          "tr": "Ben, Ebu Cafer'e (aleyhisselam) dedim ki: 'Bana bir hadisi rivayet et ve onu bana dicta et ki ben de yazayım.' O da dedi ki: 'Ey Kûfeli halk, hafızan nerede?' Ben dedim ki: 'Sonra bana karşı itiraz edilmesin diye.' Sordum: 'Mecus, \"Allah'ın adıyla\" diyerek kurban ettiğinde ne dersin?' O dedi ki: 'Ye.' Ben dedim ki: 'Bir Müslüman, Allah'ın adını zikretmeden kurban ederse ne olur?' O da cevap verdi ki: 'Yeme. Şüphesiz Allah, Azize şöyle buyurur: \"Allah'ın adını zikrettiğinden yiyin\" ve O şöyle de buyurur: \"Allah'ın adını zikretmediğinden yeme.\"'",
+          "fa": "گفتم به ابوجعفر (علیه‌السلام): «برای من حدیث بگو و آن را تحمّل کن تا من بنویسم.» گفت: «حافظه‌ات کجاست، ای اهل کوفه؟» گفتم: «تا بعد کسی با من در آن مجادله نکند.» پرسیدم: «در مورد مجوسی که بگوید «به نام خدا» و ذبح کند، چه می‌گویید؟» گفت: «بخورید.» گفتم: «اگر مسلمان ذبح کند اما نام خدا را نبرد چه؟» پاسخ داد: «نخورید. همانا خداوند متعال می‌فرماید: «پس از آن بخورید که نام خدا بر آن برده شده» و همچنین می‌فرماید: «و از آن نخورید که نام خدا بر آن برده نشده است.»»",
+          "id": "Aku berkata kepada Abu Ja'far (alamah), \"Sampaikan kepadaku sebuah hadis dan bacakanlah kepadaku agar aku dapat menuliskannya.\" Ia menjawab, \"Di mana ingatanmu, wahai penduduk Kufah?\" Aku berkata, \"Agar tidak ada yang membantahnya setelah ini.\" Aku bertanya, \"Apa pendapatmu tentang seorang Majusi yang menyembelih dengan menyebut 'Bismillah'?\" Ia menjawab, \"Makanlah.\" Aku berkata, \"Bagaimana jika seorang Muslim menyembelih tetapi tidak menyebut nama Allah?\" Ia menjawab, \"Jangan dimakan. Sesungguhnya Allah Yang Maha Tinggi berfirman, 'Maka makanlah dari (daging hewan) yang disebut nama Allah atasnya,' dan Ia juga berfirman, 'Dan janganlah kamu memakan (daging hewan) yang tidak disebut nama Allah atasnya.'\"",
+          "es": "Dije a Abu Ja'far (que la paz sea con él): «Cuéntame una narración y dictádmela para que la anote». Dijo: «¿Dónde está tu memoria, oh gente de Kufa?». Dije: «Para que nadie dispute conmigo después». Pregunté: «¿Qué dices sobre un magio que dice «En el nombre de Alá» y sacrifica?». Dijo: «Comed». Dije: «¿Y si un musulmán sacrifica pero no menciona el nombre de Alá?». Respondió: «No comáis. Ciertamente, Alá, el Exaltado, dice: «Comed, pues, de lo sobre lo cual se ha mencionado el nombre de Alá» y también dice: «Y no comáis de lo sobre lo cual no se ha mencionado el nombre de Alá»».",
+          "fr": "J’ai dit à Abou Ja’far (que la paix soit sur lui) : « Raconte-moi une narration et dicte-la-moi afin que je l’écrive. » Il a répondu : « Où est ta mémoire, ô gens de Koufa ? » J’ai dit : « Afin que personne ne la conteste après moi. » J’ai demandé : « Que dis-tu à propos d’un Magéen qui égorge en disant « Au nom d’Allah » ? » Il a dit : « Mangez-en. » J’ai dit : « Et si un Musulman égorge sans mentionner le nom d’Allah ? » Il a répondu : « Ne mangez-en pas. En vérité, Allah, le Très-Haut, dit : « Mangez donc de ce sur lequel le nom d’Allah a été mentionné » et Il dit aussi : « Et ne mangez pas de ce sur lequel le nom d’Allah n’a pas été mentionné. » »",
+          "de": "Ich sagte zu Abu Ja'far (friede sei mit ihm): \"Erzähle mir eine Überlieferung und diktiere sie mir diese, damit ich sie aufschreiben kann.\" Er sagte: \"Wo ist dein Gedächtnis, o Leute von Kufa?\" Ich sagte: \"Damit mir später niemand es streitig macht.\" Ich fragte: \"Was sagst du über einen Magier, der 'Im Namen Allahs' schlachtet?\" Er sagte: \"Esst.\" Ich sagte: \"Was ist, wenn ein Muslim schlachtet, aber den Namen Allahs nicht erwähnt?\" Er antwortete: \"Ist nicht zu essen. Wahrlich, Allah, der Erhabene, sagt: 'So esst von dem, worauf der Name Allahs erwähnt wurde', und Er sagt auch: 'Und esst nicht von dem, worauf der Name Allahs nicht erwähnt wurde.'\"",
+          "ru": "Сказал я Абу Джафару (да будет он в мире): «Расскажи мне хадис и продиктуй его мне, чтобы я записал его». Он сказал: «Где же твоя память, о люди Куфы?» Я сказал: «Чтобы никто впоследствии не поспорил со мной». Спросил я: «Что ты скажешь о маджусее, который закалывает, произнеся: „Во имя Аллаха“?» Он сказал: «Ешьте». Я сказал: «А если мусульманин заколет, но не упомянет имя Аллаха?» Он ответил: «Не ешьте. Поистине, Аллах, Всевышний, говорит: „Ешьте же из того, на чем упомянуто имя Аллаха“, и также говорит: „И не ешьте из того, на чем не упомянуто имя Аллаха“».",
+          "zh": "我对艾布·贾法尔（愿主安之）说：\"给我讲一段圣训，并口述给我，以便我记录下来。\"他说：\"库法的人们啊，你们的记忆在哪里？\"我说：\"以便日后无人与我争辩。\"我问：\"关于一个祆教徒说\"奉真主之名\"并宰杀牲畜，你说如何？\"他说：\"吃。\"我说：\"如果穆斯林宰杀了牲畜但没有念真主之名呢？\"他回答：\"不吃。的确，至尊的真主说：\"所以你们当吃真主之名所祝颂的\"，他还说：\"你们不要吃真主之名未曾祝颂的。\"",
+          "bn": ""
         },
-        "word_start": 34,
-        "word_end": 58
-      },
-      {
-        "chunk_type": "quran_quote",
-        "arabic_text": "فَكُلُوا مِمَّا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ",
-        "translations": {
-          "en": "“So eat of that over which the Name of Allah has been mentioned.”",
-          "ur": "“پس کھاؤ اس چیز میں جس پر اللہ کا نام لیا گیا ہو۔”",
-          "tr": "“Öyleyse Allah’ın adı anılan şeylerden ye.”",
-          "fa": "«پس از آنچه نام خدا بر آن برده شده بخورید.»",
-          "id": "“Maka makanlah dari apa yang telah disebut nama Allah padanya.”",
-          "bn": "“তাহলে খাও সেই যা-তে আল্লাহর নাম উচ্চারিত হয়েছে।”",
-          "es": "“Así que comed de aquello sobre lo que se ha mencionado el Nombre de Allah.”",
-          "fr": "« Mangez donc de ce sur quoi le Nom d’Allah a été mentionné. »",
-          "de": "„So esst von dem, über das der Name Allahs erwähnt wurde.“",
-          "ru": "«Итак, ешьте из того, над чем упомянуто имя Аллаха.»",
-          "zh": "“所以吃那上面已提及真主之名的东西。”"
-        },
-        "word_start": 58,
-        "word_end": 64
-      },
-      {
-        "chunk_type": "body",
-        "arabic_text": "وَ يَقُولُ",
-        "translations": {
-          "en": "and He says,",
-          "ur": "اور وہ فرماتا ہے،",
-          "tr": "Ve O şöyle der,",
-          "fa": "و او می‌فرماید،",
-          "id": "Dan Dia berfirman,",
-          "bn": "এবং তিনি বলেন,",
-          "es": "Y Él dice,",
-          "fr": "Et Il dit,",
-          "de": "Und Er sagt,",
-          "ru": "И Он говорит,",
-          "zh": "他说，"
-        },
-        "word_start": 64,
-        "word_end": 66
-      },
-      {
-        "chunk_type": "quran_quote",
-        "arabic_text": "وَ لَا تَأْكُلُوا مِمَّا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ",
-        "translations": {
-          "en": "“And do not eat of that over which the Name of Allah has not been mentioned.”",
-          "ur": "“اور اس چیز کو نہ کھاؤ جس پر اللہ کا نام نہ لیا گیا ہو۔”",
-          "tr": "“Ve Allah’ın adı anılmayan şeylerden yemeyin.”",
-          "fa": "«و از آنچه نام خدا بر آن برده نشده است، نخورید.»",
-          "id": "“Dan janganlah kamu makan dari apa yang tidak disebut nama Allah padanya.”",
-          "bn": "“আর যার উপর আল্লাহর নাম উচ্চারিত হয়নি তা খাওয়া যাবে না।”",
-          "es": "“Y no comáis de aquello sobre lo que no se haya mencionado el Nombre de Allah.”",
-          "fr": "«Et ne mangez pas de ce sur quoi le Nom d’Allah n’a pas été invoqué.»",
-          "de": "„Und esst nicht von dem, über das nicht der Name Allahs erwähnt wurde.“",
-          "ru": "«И не ешьте того, над чем не был произнесён имя Аллаха.»",
-          "zh": "“不要吃未提及真主之名的东西。”"
-        },
-        "word_start": 66,
+        "word_start": 9,
         "word_end": 75
-      },
-      {
-        "chunk_type": "closing",
-        "arabic_text": "».",
-        "translations": {
-          "en": "",
-          "ur": "",
-          "tr": "",
-          "fa": "",
-          "id": "",
-          "bn": "",
-          "es": "",
-          "fr": "",
-          "de": "",
-          "ru": "",
-          "zh": ""
-        },
-        "word_start": 75,
-        "word_end": 76
       }
     ],
     "translations": {
       "en": {
-        "summary": "This hadith gives a legal ruling on slaughtered animals, making the mention of Allah’s Name the decisive criterion for permissibility in the case presented. It also directly grounds the ruling in Qur’anic verses, showing the Imam’s use of the Qur’an as the basis for legal judgment.",
-        "seo_question": "Does meat become halal if Allah’s Name is mentioned at slaughter, even if the slaughterer is a Magian?",
+        "summary": "Imam al-Sadiq (AS) distinguishes between the Magians, whose invocation of Allah renders their slaughter permissible, and Muslims, whose omission of the name invalidates it, illustrating the principle that explicit recitation is a condition for validity. This ruling underscores the Shia jurisprudential emphasis on the precise performance of ritual acts (Taqiyya and Ibadah) and the theological status of Ahl al-Kitab in dietary laws. The dialogue reflects the scholarly rigor of Kufan transmitters in verifying legal nuances through direct questioning of the Imams.",
+        "seo_question": "What is the ruling on eating meat slaughtered by a Magian compared to a Muslim who forgets to say Bismillah?",
         "key_terms": {
-          "حَدِيثًا": "a narrated report being requested for preservation and transmission",
-          "حِفْظُكُمْ": "your memorization or retention of transmitted knowledge",
-          "مَجُوسِيٍّ": "a Magian; here, a non-Muslim slaughterer mentioned in a legal case",
-          "بِسْمِ اللَّهِ": "the invocation of Allah’s Name at the time of slaughter",
-          "ذَبَحَ": "he slaughtered an animal",
-          "كُلْ": "eat; an expression of permissibility",
-          "لَا تَأْكُلْ": "do not eat; an expression of prohibition",
-          "اسْمُ اللَّهِ": "the Name of Allah, whose mention is tied to the legal ruling"
+          "مَجُوسِيّ": "Magian (Zoroastrian)",
+          "بِسْمِ اللَّهِ": "In the name of Allah",
+          "ذَبَحَ": "He slaughtered",
+          "كُلْ": "Eat",
+          "مُسْلِمٌ": "Muslim",
+          "لَمْ يُسَمِّ": "Did not mention the name",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "So eat of that upon which the name of Allah has been mentioned",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "And do not eat of that upon which the name of Allah has not been mentioned"
         }
       },
       "ur": {
-        "summary": "یہ حدیث ذبح شدہ جانوروں کے بارے میں شرعی حکم دیتی ہے، جس میں اللہ کے نام کا ذکر کرنا اجازت کی فیصلہ کن شرط ہے۔ یہ حکم براہ راست قرآن کی آیات پر مبنی ہے، جو امام کے شرعی فیصلے میں قرآن کے استعمال کو ظاہر کرتا ہے۔",
-        "seo_question": "کیا گوشت حلال ہو جاتا ہے اگر ذبح کے وقت اللہ کا نام لیا جائے، چاہے ذبح کرنے والا مجوسی ہی کیوں نہ ہو؟",
-        "key_terms": {}
+        "summary": "امام صادق (عسب مَجُوسِيّ اور مسلمان کے درمیان تمیز کرتے ہیں، جن کی ذبح کرنے والے کا اللہ کا نام لینا ان کی ذبح کو جائز بناتا ہے، جبکہ مسلمان کا نام لینا چھوڑ دینا اسے باطل کر دیتا ہے، یہ اصول واضح کرتا ہے کہ صراحت سے پڑھنا شرط ہے۔ یہ حکم شیعہ فقہی زور کو واضح کرتا ہے کہ عبادت اور تقیہ کی درستگی اور اہل کتاب کی کھانے کے قوانین میں الٰہی حیثیت۔ یہ گفتگو کوفی راویوں کی شافی تحقیق کو ظاہر کرتی ہے کہ وہ ائمہ سے براہ راست سوال کر کے قانونی نکات کی تصدیق کرتے ہیں۔",
+        "seo_question": "مَجُوسِيّ کے ذبح کردہ گوشت کھانے کا حکم کیا ہے جبکہ مسلمان بِسْمِ اللَّهِ بھول جاتا ہے؟",
+        "key_terms": {
+          "مَجُوسِيّ": "مَجُوسِيّ (زرادشتی)",
+          "بِسْمِ اللَّهِ": "اللہ کے نام",
+          "ذَبَحَ": "اس نے ذبح کیا",
+          "كُلْ": "کھاؤ",
+          "مُسْلِمٌ": "مسلمان",
+          "لَمْ يُسَمِّ": "اس نے نام نہیں لیا",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "پس کھاؤ اس میں سے جس پر اللہ کا نام لیا گیا ہو",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "اور نہ کھاؤ اس میں سے جس پر اللہ کا نام نہ لیا گیا ہو"
+        }
       },
       "tr": {
-        "summary": "Bu hadis, kesilen hayvanlar hakkında yasal bir hüküm verir ve Allah’ın adının anılmasını izin verilebilirliğin belirleyici ölçütü yapar. Hüküm doğrudan Kur’ân ayetlerine dayanır ve İmam’ın yasal hükümde Kur’ân’ı temel aldığını gösterir.",
-        "seo_question": "Kesim sırasında Allah’ın adı anılırsa, kesen kişi Mecusî olsa bile et helal olur mu?",
-        "key_terms": {}
+        "summary": "İmam es-Sadık (AS, Allah'ı zikreden Mecusilerin kestiği etin helal olduğunu, Müslümanların ise ismi unutması durumunda kesimin geçersiz olduğunu ayırt ederek, açık zikrin geçerlilik şartı olduğunu gösterir. Bu hüküm, Şii hukukunda ibadetlerin ve takıyyenin hassas yerine getirilmesine ve Ahl el-Kitab'ın diyet kanunlarındaki teolojik konumuna vurgu yapar. Diyalog, Kufe nakillerinin İmamlara doğrudan sorularla hukuki nüansları doğrulamadaki akademik titizliğini yansıtır.",
+        "seo_question": "Bir Mecusinin kestiği et ile Bismillah demeyi unutmuş bir Müslümanın kestiği eti yeme hükmü nedir?",
+        "key_terms": {
+          "مَجُوسِيّ": "Mecusi (Zerdüşti)",
+          "بِسْمِ اللَّهِ": "Allah'ın adıyla",
+          "ذَبَحَ": "Kesti",
+          "كُلْ": "Ye",
+          "مُسْلِمٌ": "Müslüman",
+          "لَمْ يُسَمِّ": "İsmi zikretmedi",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "Allah'ın ismi anılarak kesilenin yiyin",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "Allah'ın ismi anılmadan kesilenin yemeyin"
+        }
       },
       "fa": {
-        "summary": "این حدیث حکم شرعی درباره حیوانات ذبح شده را بیان می‌کند که ذکر نام خدا معیار قطعی جواز است. این حکم مستقیماً بر آیات قرآن استوار است و نشان‌دهنده استفاده امام از قرآن به عنوان مبنای حکم شرعی است.",
-        "seo_question": "آیا گوشت حلال می‌شود اگر هنگام ذبح نام خدا برده شود، حتی اگر ذابح مجوسی باشد؟",
-        "key_terms": {}
+        "summary": "امام صادق (ع) میان مجوسیان را که ذکر خداوند ذبح آن‌ها را جایز می‌کند، از مسلمانان متمایز می‌سازد که فراموش ذکر نام، ذبح آن‌ها را باطل می‌کند؛ این اصل را نشان می‌دهد که ذکر صریح شرط صحت است. این حکم بر تأکید فقه شیعه بر انجام دقیق اعمال عبادی (تقیه و عبادت) و وضعیت الهی اهل کتاب در احکام غذایی تأکید دارد. این گفتگو نشان‌دهنده دقت علمی راویان کوفی در بررسی ظرایف حقوقی از طریق پرسش مستقیم از ائمه است.",
+        "seo_question": "حکم خوردن گوشت ذبح شده توسط مجوسی در مقایسه با مسلمانانی که فراموش می‌کنند بسم‌الله بگویند چیست؟",
+        "key_terms": {
+          "مَجُوسِيّ": "مَجُوسِيّ",
+          "بِسْمِ اللَّهِ": "بِسْمِ اللَّهِ",
+          "ذَبَحَ": "ذَبَحَ",
+          "كُلْ": "كُلْ",
+          "مُسْلِمٌ": "مُسْلِمٌ",
+          "لَمْ يُسَمِّ": "لَمْ يُسَمِّ",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ"
+        }
       },
       "id": {
-        "summary": "Hadits ini memberikan hukum tentang hewan yang disembelih, menjadikan penyebutan Nama Allah sebagai kriteria utama untuk kehalalan dalam kasus yang disajikan. Hukum ini juga langsung berlandaskan ayat-ayat Al-Qur'an, menunjukkan penggunaan Al-Qur'an oleh Imam sebagai dasar penilaian hukum.",
-        "seo_question": "Apakah daging menjadi halal jika Nama Allah disebut saat penyembelihan, meskipun penyembelihnya seorang Majusi?",
-        "key_terms": {}
+        "summary": "Imam al-Sadiq (AS) membedakan antara kaum Majusi, yang penyembelihan mereka menjadi halal karena menyebut nama Allah, dan Muslim, yang kelalaian menyebut nama Allah membuat penyembelihan mereka tidak sah, sehingga menunjukkan prinsip bahwa bacaan eksplisit adalah syarat keabsahan. Hukum ini menegaskan penekanan fikih Syiah pada ketepatan pelaksanaan ibadah (Taqiyyah dan Ibadah) serta status teologis Ahl al-Kitab dalam hukum makanan. Dialog ini mencerminkan ketelitian para perawi Kufah dalam memverifikasi nuansa hukum melalui pertanyaan langsung kepada para Imam.",
+        "seo_question": "Apa hukum memakan daging yang disembelih oleh kaum Majusi dibandingkan dengan Muslim yang lupa mengucapkan Bismillah?",
+        "key_terms": {
+          "مَجُوسِيّ": "Majusi (Zoroastrian)",
+          "بِسْمِ اللَّهِ": "Bismillah",
+          "ذَبَحَ": "Menyembelih",
+          "كُلْ": "Makan",
+          "مُسْلِمٌ": "Muslim",
+          "لَمْ يُسَمِّ": "Tidak menyebut nama",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "Maka makanlah dari apa yang disebut nama Allah di atasnya",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "Dan janganlah kamu makan dari apa yang tidak disebut nama Allah di atasnya"
+        }
       },
       "bn": {
-        "summary": "এই হাদিস পশু কোরবানি সম্পর্কে একটি শারঈ সিদ্ধান্ত প্রদান করে, যেখানে আল্লাহর নাম উচ্চারণ করা অনুমতির নির্ধারক শর্ত হিসেবে বিবেচিত হয়। এটি সরাসরি কুরআনের আয়াতের উপর ভিত্তি করে, যা ইমামের শারঈ সিদ্ধান্তে কুরআনের ব্যবহার প্রদর্শন করে।",
-        "seo_question": "যদি জবাইয়ের সময় আল্লাহর নাম উচ্চারিত হয়, তবে মাংস কি হালাল হয়, এমনকি যদি জবাইকারী মজুসী হয়?",
-        "key_terms": {}
+        "summary": "ইমাম আস-সাদিق (আ.) মাজুসিদের এবং মুসলমানদের মধ্যে পার্থক্য করেন; মাজুসিদের ক্ষেত্রে আল্লাহর নাম উল্লেখ করলেই তাদের ছাঁকা মাছ খাওয়া জায়েজ হয়, কিন্তু মুসলমানের ক্ষেত্রে নাম উল্লেখ না করলে তা বাতিল হয়ে যায়, যা স্পষ্টভাবে নাম উল্লেখকে শর্ত হিসেবে প্রতিষ্ঠিত করে। এই ফতওয়া শিয়া ফিকহের রীতিগত আমলগুলোর (তাকিয়া ও ইবাদাত) সঠিক পালন এবং খাদ্য আইনে আহলুল কিতাবের ঐতিহাসিক মর্যাদার ওপর জোর দেয়। এই আলোচনা কুফার হাদিস বর্ণনাকারীদের ইমামদের কাছে সরাসরি প্রশ্নের মাধ্যমে আইনি সূক্ষ্মতা যাচাইয়ের বৌদ্ধিক কঠোরতাকে প্রতিফলিত করে।",
+        "seo_question": "মাজুসি দ্বারা ছাঁকা মাছ খাওয়ার হুকুম কী এবং মুসলমান যদি বিসমিল্লাহ বলা ভুলে যায় তবে তার ছাঁকা মাছ খাওয়ার হুকুম কী?",
+        "key_terms": {
+          "مَجُوسِيّ": "মাজুসি (জরথুস্ত্রবাদী)",
+          "بِسْمِ اللَّهِ": "আল্লাহর নামে",
+          "ذَبَحَ": "সে ছাঁকল",
+          "كُلْ": "খাও",
+          "مُسْلِمٌ": "মুসলমান",
+          "لَمْ يُسَمِّ": "নাম উল্লেখ করল না",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "অতএব, যেটির উপর আল্লাহর নাম উল্লেখ করা হয়েছে তা থেকে খাও",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "এবং সেই থেকে খাও না যার উপর আল্লাহর নাম উল্লেখ করা হয়নি"
+        }
       },
       "es": {
-        "summary": "Este hadiz da un fallo legal sobre animales sacrificados, haciendo que la mención del Nombre de Allah sea el criterio decisivo para la permisibilidad en el caso presentado. También fundamenta directamente el fallo en versos coránicos, mostrando el uso del Corán por parte del Imán como base para el juicio legal.",
-        "seo_question": "¿Se vuelve halal la carne si se menciona el Nombre de Allah al sacrificar, incluso si el que sacrifica es un mago?",
-        "key_terms": {}
+        "summary": "El Imam al-Sadiq (AS) distingue entre los magianos, cuya invocación de Allah hace permisible su sacrificio, y los musulmanes, cuya omisión del nombre lo invalida, ilustrando el principio de que la recitación explícita es una condición para la validez. Este dictamen subraya el énfasis jurisprudencial chií en el desempeño preciso de los actos rituales (Taqiyya e Ibadah) y el estatus teológico de los Ahl al-Kitab en las leyes dietéticas. El diálogo refleja el rigor erudito de los transmisores de Kufa al verificar matices legales mediante preguntas directas a los Imames.",
+        "seo_question": "¿Cuál es el dictamen sobre comer carne sacrificada por un magiano en comparación con un musulmán que olvida decir Bismillah?",
+        "key_terms": {
+          "مَجُوسِيّ": "magiano (zoroastrista)",
+          "بِسْمِ اللَّهِ": "En el nombre de Allah",
+          "ذَبَحَ": "Él sacrificó",
+          "كُلْ": "Come",
+          "مُسْلِمٌ": "musulmán",
+          "لَمْ يُسَمِّ": "No mencionó el nombre",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "Así que comed de aquello sobre lo cual se ha mencionado el nombre de Allah",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "Y no comed de aquello sobre lo cual no se ha mencionado el nombre de Allah"
+        }
       },
       "fr": {
-        "summary": "Ce hadith donne un jugement légal sur les animaux abattus, faisant de la mention du Nom d’Allah le critère décisif pour la permissibilité dans le cas présenté. Il fonde également directement le jugement sur des versets coraniques, montrant l’utilisation du Coran par l’Imam comme base du jugement légal.",
-        "seo_question": "La viande devient-elle halal si le Nom d’Allah est mentionné lors de l’abattage, même si l’abatteur est un Majūsī ?",
-        "key_terms": {}
+        "summary": "L’imam al-Sadiq (AS) distingue les mages, dont l’invocation d’Allah rend leur abattage licite, des musulmans, dont l’omission du nom invalide l’abattage, illustrant le principe selon lequel la récitation explicite est une condition de validité. Cette règle souligne l’accent mis par la jurisprudence chiite sur la précision des actes rituels (Taqiyya et Ibadah) et le statut théologique des Gens du Livre dans les lois alimentaires. Le dialogue reflète la rigueur savante des transmetteurs de Kufa qui vérifient les nuances juridiques par des questions directes aux Imams.",
+        "seo_question": "Quelle est la règle concernant la consommation de la viande abattue par un mage comparée à celle d’un musulman qui oublie de dire Bismillah ?",
+        "key_terms": {
+          "مَجُوسِيّ": "Mage (zoroastrien)",
+          "بِسْمِ اللَّهِ": "Au nom d’Allah",
+          "ذَبَحَ": "Il a abattu",
+          "كُلْ": "Mange",
+          "مُسْلِمٌ": "Mus",
+          "لَمْ يُسَمِّ": "Musulman",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "N’a pas mentionné le nom",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "Mangez donc de ce sur lequel le nom d’Allah a été mentionné"
+        }
       },
       "de": {
-        "summary": "Dieser Hadith gibt eine rechtliche Regelung zu geschlachteten Tieren, wobei die Erwähnung des Namens Allahs das entscheidende Kriterium für die Erlaubnis im vorliegenden Fall ist. Er stützt die Regelung direkt auf Koranverse und zeigt die Verwendung des Korans durch den Imam als Grundlage für das Rechtsurteil.",
-        "seo_question": "Wird Fleisch halal, wenn beim Schlachten der Name Allahs genannt wird, auch wenn der Schlachter ein Magier ist?",
-        "key_terms": {}
+        "summary": "Imam al-Sadiq (AS) unterscheidet zwischen den Magiern, deren Anrufung Allahs ihr Schlachten erlaubt macht, und Muslimen, deren Unterlassung des Namens es ungültig macht, und veranschaulicht damit das Prinzip, dass das explizite Rezitieren eine Bedingung für die Gültigkeit ist. Diese Rechtsregel unterstreicht die schiitisch-jurisprudentielle Betonung der präzisen Ausführung ritueller Handlungen (Taqiyya und Ibadah) sowie den theologischen Status der Ahl al-Kitab in den Speisegesetzen. Der Dialog spiegelt die wissenschaftliche Strenge der kuflischen Überlieferer wider, die rechtliche Nuancen durch direkte Befragung der Imame verifizierten.",
+        "seo_question": "Wie lautet das Urteil beim Verzehr von Fleisch, das von einem Magier im Vergleich zu einem Muslim geschlachtet wurde, der vergaß, Bismillah zu sagen?",
+        "key_terms": {
+          "مَجُوسِيّ": "Magier (Zoroastrer)",
+          "بِسْمِ اللَّهِ": "Im Namen Allahs",
+          "ذَبَحَ": "Er schlachtete",
+          "كُلْ": "Iss",
+          "مُسْلِمٌ": "Muslim",
+          "لَمْ يُسَمِّ": "Erwähnte den Namen nicht",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "So esst von dem, worauf der Name Allahs erwähnt wurde",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "Und esst nicht von dem, worauf der Name Allahs nicht erwähnt wurde"
+        }
       },
       "ru": {
-        "summary": "Этот хадис даёт правовое постановление о забитых животных, делая упоминание имени Аллаха решающим критерием дозволенности в представленном случае. Он также непосредственно основывает постановление на аятах Корана, показывая использование Имамом Корана как основы для правового суждения.",
-        "seo_question": "Становится ли мясо халяльным, если при забое упоминается имя Аллаха, даже если забойщик — магус?",
-        "key_terms": {}
+        "summary": "Имам ас-Садык (да будет с ним мир) проводит различие между маджусиями (зороастрийцами), чье упоминание имени Аллаха делает их забой дозволенным, и мусульманами, чье пропускание имени делает забой недействительным, иллюстрируя принцип, согласно которому явное произнесение является условием действительности. Этот фетх подчеркивает шиитский акцент на точном совершении ритуальных актов (такья и ибадат) и теологическом статусе ахль аль-китаб в законах о пище. Диалог отражает научную строгость куфийских передатчиков в проверке правовых нюансов через прямые вопросы к имамам.",
+        "seo_question": "Каково правило относительно употребления мяса, забитого маджусием, по сравнению с мусульманином, который забыл сказать «Бисмиллях»?",
+        "key_terms": {
+          "مَجُوسِيّ": "маджусий (зороастриец)",
+          "بِسْمِ اللَّهِ": "«Бисмиллях» (во имя Аллаха)",
+          "ذَبَحَ": "заколоть",
+          "كُلْ": "ешь",
+          "مُسْلِمٌ": "мусульманин",
+          "لَمْ يُسَمِّ": "не упомянул имя",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "так ешьте из того, на чем упомянуто имя Аллаха",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "и не ешьте из того, на чем не упомянуто имя Аллаха"
+        }
       },
       "zh": {
-        "summary": "此圣训对被宰杀的动物给出法律裁决，将提及真主之名作为该情况下许可的决定性标准。它也直接以古兰经经文为依据，显示了伊玛目以古兰经作为法律判决基础。",
-        "seo_question": "如果宰杀时念及真主之名，即使宰杀者是祆教徒，肉类会变成清真吗？",
-        "key_terms": {}
+        "summary": "伊玛目萨迪格（愿主安之）区分了马吉斯人（拜火教徒）与穆斯林，前者对真主的祈念使其屠宰合法，而后者若遗忘祈念则使屠宰无效，这阐明了明确诵读是合法性的条件。这一裁决凸显了什叶派法学对仪式行为精确执行（塔基亚与伊巴达）以及天启经典拥有者在饮食律法中神学地位的重视。这段对话反映了库法传述者通过直接向伊玛目提问来验证法律细微之处的学术严谨性。",
+        "seo_question": "食用马吉斯人屠宰的肉与食用忘记念比斯米拉的穆斯林屠宰的肉，其律例有何不同？",
+        "key_terms": {
+          "مَجُوسِيّ": "马吉斯人（拜火教徒）",
+          "بِسْمِ اللَّهِ": "奉真主之名",
+          "ذَبَحَ": "他屠宰",
+          "كُلْ": "吃",
+          "مُسْلِمٌ": "穆斯林",
+          "لَمْ يُسَمِّ": "未念其名",
+          "فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ": "故吃真主之名被诵念的那部分",
+          "وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ": "且不要吃真主之名未被诵念的那部分"
+        }
       }
     },
     "related_quran": [
@@ -242,323 +224,21 @@
       {
         "ref": "6:121",
         "relationship": "thematic"
+      },
+      {
+        "ref": "2:173",
+        "relationship": "thematic"
       }
     ],
-    "diacritized_text": "وَ رَوَى أَبُو بَكْرٍ الْحَضْرَمِيُّ عَنِ الْوَرْدِ بْنِ زَيْدٍ قَالَ: قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ حَدِّثْنِي حَدِيثًا وَ أَمْلِ عَلَيَّ حَتَّى أَكْتُبَهُ فَقَالَ «أَيْنَ حِفْظُكُمْ يَا أَهْلَ الْكُوفَةِ» قُلْتُ حَتَّى لَا يَرُدَّهُ عَلَيَّ أَحَدٌ، مَا تَقُولُ فِي مَجُوسِيٍّ قَالَ بِسْمِ اللَّهِ وَ ذَبَحَ فَقَالَ «كُلْ» فَقُلْتُ مُسْلِمٌ ذَبَحَ وَ لَمْ يُسَمِّ فَقَالَ «لَا تَأْكُلْ إِنَّ اللَّهَ تَعَالَى يَقُولُ: فَكُلُوا مِمَّا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ وَ يَقُولُ وَ لَا تَأْكُلُوا مِمَّا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ ».",
-    "word_tags": [
-      [
-        "وَ",
-        "N"
-      ],
-      [
-        "رَوَى",
-        "N"
-      ],
-      [
-        "أَبُو",
-        "N"
-      ],
-      [
-        "بَكْرٍ",
-        "N"
-      ],
-      [
-        "الْحَضْرَمِيُّ",
-        "N"
-      ],
-      [
-        "عَنِ",
-        "N"
-      ],
-      [
-        "الْوَرْدِ",
-        "N"
-      ],
-      [
-        "بْنِ",
-        "N"
-      ],
-      [
-        "زَيْدٍ",
-        "N"
-      ],
-      [
-        "قَالَ:",
-        "N"
-      ],
-      [
-        "قُلْتُ",
-        "N"
-      ],
-      [
-        "لِأَبِي",
-        "N"
-      ],
-      [
-        "جَعْفَرٍ",
-        "N"
-      ],
-      [
-        "عَلَيْهِ",
-        "N"
-      ],
-      [
-        "السَّلَامُ",
-        "N"
-      ],
-      [
-        "حَدِّثْنِي",
-        "N"
-      ],
-      [
-        "حَدِيثًا",
-        "N"
-      ],
-      [
-        "وَ",
-        "N"
-      ],
-      [
-        "أَمْلِ",
-        "N"
-      ],
-      [
-        "عَلَيَّ",
-        "N"
-      ],
-      [
-        "حَتَّى",
-        "N"
-      ],
-      [
-        "أَكْتُبَهُ",
-        "N"
-      ],
-      [
-        "فَقَالَ",
-        "N"
-      ],
-      [
-        "«أَيْنَ",
-        "N"
-      ],
-      [
-        "حِفْظُكُمْ",
-        "N"
-      ],
-      [
-        "يَا",
-        "N"
-      ],
-      [
-        "أَهْلَ",
-        "N"
-      ],
-      [
-        "الْكُوفَةِ»",
-        "N"
-      ],
-      [
-        "قُلْتُ",
-        "N"
-      ],
-      [
-        "حَتَّى",
-        "N"
-      ],
-      [
-        "لَا",
-        "N"
-      ],
-      [
-        "يَرُدَّهُ",
-        "N"
-      ],
-      [
-        "عَلَيَّ",
-        "N"
-      ],
-      [
-        "أَحَدٌ،",
-        "N"
-      ],
-      [
-        "مَا",
-        "N"
-      ],
-      [
-        "تَقُولُ",
-        "N"
-      ],
-      [
-        "فِي",
-        "N"
-      ],
-      [
-        "مَجُوسِيٍّ",
-        "N"
-      ],
-      [
-        "قَالَ",
-        "N"
-      ],
-      [
-        "بِسْمِ",
-        "N"
-      ],
-      [
-        "اللَّهِ",
-        "N"
-      ],
-      [
-        "وَ",
-        "N"
-      ],
-      [
-        "ذَبَحَ",
-        "N"
-      ],
-      [
-        "فَقَالَ",
-        "N"
-      ],
-      [
-        "«كُلْ»",
-        "N"
-      ],
-      [
-        "فَقُلْتُ",
-        "N"
-      ],
-      [
-        "مُسْلِمٌ",
-        "N"
-      ],
-      [
-        "ذَبَحَ",
-        "N"
-      ],
-      [
-        "وَ",
-        "N"
-      ],
-      [
-        "لَمْ",
-        "N"
-      ],
-      [
-        "يُسَمِّ",
-        "N"
-      ],
-      [
-        "فَقَالَ",
-        "N"
-      ],
-      [
-        "«لَا",
-        "N"
-      ],
-      [
-        "تَأْكُلْ",
-        "N"
-      ],
-      [
-        "إِنَّ",
-        "N"
-      ],
-      [
-        "اللَّهَ",
-        "N"
-      ],
-      [
-        "تَعَالَى",
-        "N"
-      ],
-      [
-        "يَقُولُ:",
-        "N"
-      ],
-      [
-        "فَكُلُوا",
-        "N"
-      ],
-      [
-        "مِمَّا",
-        "N"
-      ],
-      [
-        "ذُكِرَ",
-        "N"
-      ],
-      [
-        "اسْمُ",
-        "N"
-      ],
-      [
-        "اللَّهِ",
-        "N"
-      ],
-      [
-        "عَلَيْهِ",
-        "N"
-      ],
-      [
-        "وَ",
-        "N"
-      ],
-      [
-        "يَقُولُ",
-        "N"
-      ],
-      [
-        "وَ",
-        "N"
-      ],
-      [
-        "لَا",
-        "N"
-      ],
-      [
-        "تَأْكُلُوا",
-        "N"
-      ],
-      [
-        "مِمَّا",
-        "N"
-      ],
-      [
-        "لَمْ",
-        "N"
-      ],
-      [
-        "يُذْكَرِ",
-        "N"
-      ],
-      [
-        "اسْمُ",
-        "N"
-      ],
-      [
-        "اللَّهِ",
-        "N"
-      ],
-      [
-        "عَلَيْهِ",
-        "N"
-      ],
-      [
-        "».",
-        "N"
-      ]
-    ],
+    "diacritized_text": "وَرَوَى أَبُو بَكْرٍ الْحَضْرَمِيُّ عَنِ الْوَرْدِ بْنِ زَيْدٍ قَالَ قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ حَدِّثْنِي حَدِيثًا وَأَمْلِ عَلَيَّ حَتَّى أَكْتُبَهُ فَقَالَ \"أَيْنَ حِفْظُكُمْ يَا أَهْلَ الْكُوفَةِ\" قُلْتُ حَتَّى لَا يَرُدَّهُ عَلَيَّ أَحَدٌ، مَا تَقُولُ فِي مَجُوسِيٍّ قَالَ بِسْمِ اللَّهِ وَذَبَحَ فَقَالَ \"كُلْ\" قُلْتُ مُسْلِم قُلْتُ مُسْلِمٌ ذَبَحَ وَلَمْ يُسَمِّ فَقَالَ \"لَا تَأْكُلْ إِنَّ اللَّهَ تَعَالَى يَقُولُ: ۝ فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ ۝ وَيَقُولُ ۝ وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ ۝\".",
     "isnad_matn": {
-      "isnad_ar": "وَ رَوَى أَبُو بَكْرٍ الْحَضْرَمِيُّ عَنِ الْوَرْدِ بْنِ زَيْدٍ قَالَ:",
-      "matn_ar": "قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ حَدِّثْنِي حَدِيثًا وَ أَمْلِ عَلَيَّ حَتَّى أَكْتُبَهُ فَقَالَ «أَيْنَ حِفْظُكُمْ يَا أَهْلَ الْكُوفَةِ» قُلْتُ حَتَّى لَا يَرُدَّهُ عَلَيَّ أَحَدٌ، مَا تَقُولُ فِي مَجُوسِيٍّ قَالَ بِسْمِ اللَّهِ وَ ذَبَحَ فَقَالَ «كُلْ» فَقُلْتُ مُسْلِمٌ ذَبَحَ وَ لَمْ يُسَمِّ فَقَالَ «لَا تَأْكُلْ إِنَّ اللَّهَ تَعَالَى يَقُولُ: فَكُلُوا مِمَّا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ وَ يَقُولُ وَ لَا تَأْكُلُوا مِمَّا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ ».",
+      "isnad_ar": "وَرَوَى أَبُو بَكْرٍ الْحَضْرَمِيُّ عَنِ الْوَرْدِ بْنِ زَيْدٍ قَالَ",
+      "matn_ar": "قُلْتُ لِأَبِي جَعْفَرٍ عَلَيْهِ السَّلَامُ حَدِّثْنِي حَدِيثًا وَأَمْلِ عَلَيَّ حَتَّى أَكْتُبَهُ فَقَالَ \"أَيْنَ حِفْظُكُمْ يَا أَهْلَ الْكُوفَةِ\" قُلْتُ حَتَّى لَا يَرُدَّهُ عَلَيَّ أَحَدٌ، مَا تَقُولُ فِي مَجُوسِيٍّ قَالَ بِسْمِ اللَّهِ وَذَبَحَ فَقَالَ \"كُلْ\" قُلْتُ مُسْلِم قُلْتُ مُسْلِمٌ ذَبَحَ وَلَمْ يُسَمِّ فَقَالَ \"لَا تَأْكُلْ إِنَّ اللَّهَ تَعَالَى يَقُولُ: ۝ فَكُلُوا مِمَّٰا ذُكِرَ اسْمُ اللَّهِ عَلَيْهِ ۝ وَيَقُولُ ۝ وَلَا تَأْكُلُوا مِمَّٰا لَمْ يُذْكَرِ اسْمُ اللَّهِ عَلَيْهِ ۝\".",
       "has_chain": true,
       "narrators": [
         {
-          "name_ar": "رَوَى أَبُو بَكْرٍ اَلْحَضْرَمِيُّ",
-          "name_en": "",
+          "name_ar": "أَبُو بَكْرٍ اَلْحَضْرَمِيُّ",
+          "name_en": "Abu Bakr al-Hadrami",
           "role": "narrator",
           "position": 1,
           "identity_confidence": "ambiguous",
@@ -568,7 +248,7 @@
         },
         {
           "name_ar": "اَلْوَرْدِ بْنِ زَيْدٍ",
-          "name_en": "",
+          "name_en": "al-Ward b. Zayd",
           "role": "narrator",
           "position": 2,
           "identity_confidence": "ambiguous",
@@ -588,6 +268,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
   }
 }

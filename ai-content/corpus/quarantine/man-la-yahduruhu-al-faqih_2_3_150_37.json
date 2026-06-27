@@ -1,956 +1,412 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:2:3:150:37",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-04",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[1] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[1] translations.zh is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.ru is empty string (likely Phase 4 batch failure)",
-    "chunks[2] translations.zh is empty string (likely Phase 4 batch failure)"
+    "chunks[0] word '[وداع' has no diacritics (must be fully diacritized)",
+    "chunks[0] word 'البيت]' has no diacritics (must be fully diacritized)",
+    "chunks[1] translations.bn is empty string (likely Phase 4 batch failure)",
+    "chunks[1] word 'فإذا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أردت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وداع' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'البيت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فطف' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'به' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أسبوعا،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وصل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ركعتين' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'حيث' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أحببت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'من' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الحرم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وائت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الحطيم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'والحطيم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ما' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'بين' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'باب' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الكعبة' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'والحجر' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الأسود' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فتعلق' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'بأستار' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الكعبة' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وأنت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'قائم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'واحمد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عز' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وجل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'واثن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وصل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'على' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'النبي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'صلى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عليه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وآله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ثم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'قل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word '\"اللهم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'إني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عبدك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وابن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عبدك،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ابن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أمتك،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'حملته' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'على' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'دوابك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وسيرته' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'في' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'بلادك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وأقدمته' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'المسجد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الحرام،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'اللهم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وقد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'كان' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'في' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أملي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ورجائي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تغفر' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فان' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'كنت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'رب' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'قد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فعلت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ذلك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فازدد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'رضا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وقربني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'إليك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'زلفى،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وإن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تكن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فعلت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'رب' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ذلك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فمن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الآن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فاغفر' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'قبل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تنأى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'داري' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'بيتك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'غير' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'راغب' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عنه' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ولا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'مستبدل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'به،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'هذا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أو' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ان' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'انصرافي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'إن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'كنت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'قد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أذنت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لي،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'اللهم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فاحفظني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'من' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'بين' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يدي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ومن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'خلفي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ومن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تحتي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ومن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فوقي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يميني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وعن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'شمالي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'حتى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تقدمني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أهلي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'صالحا،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فإذا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أقدمتني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أهلي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فلا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تتخل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'مني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وأكفني' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'مؤونة' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عيالي' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ومؤونة' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'خلقك.' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فإذا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'بلغت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'باب' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الحناطين' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'فاستقبل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الكعبة' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'بوجهك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وخر' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ساجدا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'واسأل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'عز' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وجل' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'أن' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يتقبله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'منك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ولا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'يجعله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'آخر' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'العهد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'منك' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ثم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تقول' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وأنت' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'مار:' has no diacritics (must be fully diacritized)",
+    "chunks[1] word '\"آئبون' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'تائبون' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'حامدون' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'لربنا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'شاكرون،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'إلى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'راغبون،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وإلى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'راجعون،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وصلى' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'على' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'محمد' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وآله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وسلم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'كثيرا،' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'وحسبنا' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الله' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'ونعم' has no diacritics (must be fully diacritized)",
+    "chunks[1] word 'الوكيل.' has no diacritics (must be fully diacritized)"
   ],
   "result": {
     "tags": [
       "worship",
-      "jurisprudence",
-      "dua"
+      "dua",
+      "jurisprudence"
     ],
     "content_type": "supplication",
     "topics": [
       "hajj",
       "specific_supplications",
+      "etiquette_of_dua",
       "seeking_forgiveness",
-      "seeking_refuge",
-      "etiquette_of_dua"
+      "gratitude"
     ],
     "chunks": [
       {
         "chunk_type": "opening",
-        "arabic_text": "وَدَاعُ الْبَيْتِ",
+        "arabic_text": "[وداع البيت]",
         "translations": {
-          "en": "Farewell to the House.",
-          "ur": "وداعِ بیتِ اللہ۔",
-          "tr": "Evelete Veda.",
-          "fa": "وداع به خانه.",
-          "id": "Perpisahan dengan Rumah.",
-          "bn": "বাড়ির বিদায়।",
-          "es": "Despedida de la Casa.",
-          "fr": "Adieu à la Maison.",
-          "de": "Abschied vom Haus.",
-          "ru": "Прощание с Домом.",
-          "zh": "告别圣殿。"
+          "en": "[Farewell to the House]",
+          "ur": "[خدا کا گھر سے وداع]",
+          "tr": "[Evden Vedâ]",
+          "fa": "[وداع البيت]",
+          "id": "[Pamit kepada Baitullah]",
+          "bn": "কাবা ঘরের বিদায়",
+          "es": "[Despedida de la Casa]",
+          "fr": "[Adieu à la Maison]",
+          "de": "[Abschied vom Haus]",
+          "ru": "[Прощание с Домом]",
+          "zh": "[辞别天房]"
         },
         "word_start": 0,
         "word_end": 2
       },
       {
         "chunk_type": "body",
-        "arabic_text": "فَإِذَا أَرَدْتَ وَدَاعَ الْبَيْتِ فَطُفْ بِهِ أُسْبُوعًا، وَصَلِّ رَكْعَتَيْنِ حَيْثُ أَحْبَبْتَ مِنَ الْحَرَمِ وَائْتِ الْحَطِيمَ - وَالْحَطِيمُ مَا بَيْنَ بَابِ الْكَعْبَةِ وَالْحَجَرِ الْأَسْوَدِ - فَتَعَلَّقْ بِأَسْتَارِ الْكَعْبَةِ وَأَنْتَ قَائِمٌ وَاحْمَدِ اللَّهَ عَزَّ وَجَلَّ وَأَثْنِ عَلَيْهِ وَصَلِّ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ ثُمَّ قُلْ \"اللَّهُمَّ إِنِّي عَبْدُكَ وَابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، حَمَلْتَهُ عَلَى دَوَابِّكَ وَسَيَّرْتَهُ فِي بِلَادِكَ وَأَقْدَمْتَهُ الْمَسْجِدَ الْحَرَامَ، اللَّهُمَّ وَقَدْ كَانَ فِي أَمَلِي وَرَجَائِي أَنْ تَغْفِرَ لِي فَإِنْ كُنْتَ يَا رَبِّ قَدْ فَعَلْتَ ذَلِكَ فَازْدَدْ عَنِّي رِضًا وَقَرِّبْنِي إِلَيْكَ زُلْفَى، وَإِنْ لَمْ تَكُنْ فَعَلْتَ يَا رَبِّ ذَلِكَ فَمِنَ الْآنَ فَاغْفِرْ لِي قَبْلَ أَنْ تَنْأَى دَارِي عَنْ بَيْتِكَ غَيْرَ رَاغِبٍ عَنْهُ وَلَا مُسْتَبْدِلٍ بِهِ، هَذَا أَوْ أَنْ انْصِرَافِي إِنْ كُنْتَ قَدْ أَذِنْتَ لِي، اللَّهُمَّ فَاحْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَمِنْ تَحْتِي وَمِنْ فَوْقِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي حَتَّى تُقْدِمَنِي أَهْلِي صَالِحًا، فَإِذَا أَقْدَمْتَنِي أَهْلِي فَلَا تَتَخَلَّ مِنِّي وَاكْفِنِي مَؤُونَةَ عِيَالِي وَمَؤُونَةَ خَلْقِكَ.",
+        "arabic_text": "فإذا أردت وداع البيت فطف به أسبوعا، وصل ركعتين حيث أحببت من الحرم وائت الحطيم - والحطيم ما بين باب الكعبة والحجر الأسود - فتعلق بأستار الكعبة وأنت قائم واحمد الله عز وجل واثن عليه وصل على النبي صلى الله عليه وآله ثم قل \"اللهم إني عبدك وابن عبدك، ابن أمتك، حملته على دوابك وسيرته في بلادك وأقدمته المسجد الحرام، اللهم وقد كان في أملي ورجائي أن تغفر لي فان كنت يا رب قد فعلت ذلك فازدد عني رضا وقربني إليك زلفى، وإن لم تكن فعلت يا رب ذلك فمن الآن فاغفر لي قبل أن تنأى داري عن بيتك غير راغب عنه ولا مستبدل به، هذا أو ان انصرافي إن كنت قد أذنت لي، اللهم فاحفظني من بين يدي ومن خلفي ومن تحتي ومن فوقي و عن يميني وعن شمالي حتى تقدمني أهلي صالحا، فإذا أقدمتني أهلي فلا تتخل مني وأكفني مؤونة عيالي ومؤونة خلقك. فإذا بلغت باب الحناطين فاستقبل الكعبة بوجهك وخر ساجدا واسأل الله عز وجل أن يتقبله منك ولا يجعله آخر العهد منك ثم تقول وأنت مار: \"آئبون تائبون حامدون لربنا شاكرون، إلى الله راغبون، وإلى الله راجعون، وصلى الله على محمد وآله وسلم كثيرا، وحسبنا الله ونعم الوكيل.",
         "translations": {
-          "en": "When you wish to bid farewell to the House, perform seven circuits around it, and pray two rak'ahs wherever you wish in the Haram. Then go to al-Hatim—and al-Hatim is what lies between the door of the Ka'bah and the Black Stone—then cling to the curtains of the Ka'bah while standing, praise Allah, Mighty and Majestic, extol Him, and send blessings upon the Prophet صلى الله عليه وآله, then say: \"O Allah, I am Your servant and the son of Your servant, the son of Your maidservant. You carried him upon Your riding animals, caused him to travel through Your lands, and brought him to al-Masjid al-Haram. O Allah, it had been among my hope and my expectation that You would forgive me. So if You, O my Lord, have done that, then increase Your pleasure with me and bring me near to You in closeness. And if You have not done that, O my Lord, then from now forgive me before my abode grows distant from Your House, not turning away from it nor seeking a substitute for it. This—or my departure—if You have permitted me. O Allah, protect me from before me, from behind me, from beneath me, from above me, from my right, and from my left, until You bring me to my family in a righteous state. Then when You bring me to my family, do not withdraw from me, and suffice me regarding the provision of my dependents and the provision concerning Your creation.\"",
-          "ur": "جب آپ بیت اللہ کو وداع کہنا چاہیں تو اس کے گرد سات چکر لگائیں، اور جہاں چاہیں حرم میں دو رکعت نماز پڑھیں۔ پھر الحطیم کی طرف جائیں — اور الحطیم وہ جگہ ہے جو کعبہ کے دروازے اور حجر اسود کے درمیان ہے — پھر کھڑے ہو کر کعبہ کے پردوں سے لگ جائیں، اللہ تعالیٰ کی حمد و ثنا کریں، نبی صلی اللہ علیہ وآلہ وسلم پر درود بھیجیں، پھر کہیں: \"اے اللہ! میں تیرا بندہ اور تیرے بندے کا بیٹا، تیری مملکت کی بیٹی کا بیٹا ہوں۔ تو نے اسے اپنی سواریوں پر سوار کیا، اپنی زمینوں میں سفر کرایا، اور اسے مسجد الحرام پہنچایا۔ اے اللہ! میری امید اور توقع تھی کہ تو مجھے معاف کرے گا۔ اگر تو نے ایسا کیا ہے تو اپنی رضا مجھ پر بڑھا دے اور مجھے اپنے قریب کر۔ اور اگر تو نے ایسا نہیں کیا تو اب سے مجھے معاف کر، اس سے پہلے کہ میرا گھر تیرے گھر سے دور ہو جائے، نہ اس سے منہ موڑوں اور نہ اس کا متبادل تلاش کروں۔ یہ یا میرا رخصت ہونا، اگر تو نے اجازت دی ہو۔ اے اللہ! مجھے میرے سامنے سے، پیچھے سے، نیچے سے، اوپر سے، میرے دائیں اور بائیں سے محفوظ رکھ، یہاں تک کہ تو مجھے میرے اہل خانہ کے پاس نیک حالت میں پہنچا دے۔ پھر جب تو مجھے میرے اہل خانہ کے پاس پہنچائے تو مجھ سے منہ نہ موڑ اور میرے اہل خانہ کی کفالت اور تیری مخلوق کی کفالت کر۔\"",
-          "tr": "Evi veda etmek istediğinde, etrafında yedi tur dön, Haram'da istediğin yerde iki rekat namaz kıl. Sonra el-Hatim'e git—el-Hatim, Kabe kapısı ile Hacerü'l-Esved arasında olan yerdir—sonra ayakta dururken Kabe'nin perdelerine tutun, Allah'ı yüce ve azametli olarak öv, O'nu yücelt ve Peygamber'e صلى الله عليه وآله salat ve selam gönder, sonra şöyle de: “Allah’ım, ben Senin kulun ve kulunun oğluyum, cariyenin oğluyum. Onu bineklerine bindirdin, topraklarında gezdirdin ve onu Mescid-i Haram’a getirdin. Allah’ım, umudum ve beklentim Senin beni affetmendi. Eğer bunu yaptıysan, o zaman Senin rızanı bende artır ve beni Sana yakınlaştır. Eğer yapmadıysan, ey Rabbim, o zaman şimdi beni affet, evim Senin Evinden uzaklaşmadan önce, ondan yüz çevirmeden ve onun yerine başka bir şey aramadan. Bu ya da izin verirsen ayrılışım. Allah’ım, beni önümden, arkamdan, altımdan, üstümden, sağımdan ve solumdan koru, ta ki beni aileme salih olarak getir. Sonra beni aileme getirdiğinde benden yüz çevirme ve geçimimi ve yaratıklarının geçimini bana yeterli kıl.”",
-          "fa": "هنگامی که می‌خواهی از خانه وداع کنی، هفت طواف به دور آن انجام بده و در هر جایی که در حرم خواستی دو رکعت نماز بخوان. سپس به الحطیم برو — و الحطیم آن چیزی است که بین درب کعبه و حجرالاسود قرار دارد — سپس ایستاده به پرده‌های کعبه چنگ بزن، خداوند عزوجل را ستایش کن، بر او ثنا بگو و بر پیامبر صلى الله عليه وآله درود بفرست، سپس بگو: «خدایا، من بنده تو و پسر بنده تو، پسر کنیز تو هستم. تو او را بر مرکب‌های خود سوار کردی، در سرزمین‌های خود سفرش دادی و او را به مسجدالحرام آوردی. خدایا، امید و انتظار من این بود که مرا ببخشی. پس اگر ای پروردگار من این کار را کرده‌ای، پس رضایتت را نسبت به من افزون کن و مرا به خود نزدیک ساز. و اگر این کار را نکرده‌ای، ای پروردگار من، از اکنون مرا ببخش پیش از آنکه خانه‌ام از خانه تو دور شود، نه روی برگردانم و نه جایگزینی برای آن بجویم. این یا رفتنم، اگر اجازه داده‌ای. خدایا، مرا از پیش رو، از پشت سر، از زیر، از بالا، از سمت راست و از سمت چپ حفظ کن تا مرا به خانواده‌ام در حال صالح برسانی. سپس وقتی مرا به خانواده‌ام رساندی، از من روی برنگردان و کفایت روزی خانواده‌ام و روزی مخلوقاتت را به من عطا کن.»",
-          "id": "Ketika kamu ingin mengucapkan perpisahan dengan Rumah, lakukan tujuh putaran mengelilinginya, dan shalat dua rakaat di mana pun kamu mau di dalam Haram. Kemudian pergilah ke al-Hatim—dan al-Hatim adalah bagian yang terletak antara pintu Ka'bah dan Batu Hitam—kemudian berpeganganlah pada tirai Ka'bah sambil berdiri, puji Allah Yang Maha Perkasa dan Maha Agung, muliakan Dia, dan kirimkan shalawat kepada Nabi صلى الله عليه وآله, lalu katakan: \"Ya Allah, aku hamba-Mu dan anak hamba-Mu, anak budak perempuan-Mu. Engkau membawanya dengan tunggangan-Mu, membawanya berkeliling di negeri-Mu, dan membawanya ke Masjidil Haram. Ya Allah, aku berharap dan mengharapkan Engkau mengampuniku. Jika Engkau, ya Tuhanku, telah melakukan itu, maka tambahkan keridhaan-Mu kepadaku dan dekatkan aku kepada-Mu. Dan jika Engkau belum melakukannya, ya Tuhanku, maka dari sekarang ampunilah aku sebelum tempat tinggalku menjauh dari Rumah-Mu, tidak berpaling darinya dan tidak mencari penggantinya. Ini—atau kepergianku—jika Engkau mengizinkanku. Ya Allah, lindungilah aku dari depan, dari belakang, dari bawah, dari atas, dari kanan dan dari kiri, sampai Engkau membawaku kepada keluargaku dalam keadaan saleh. Kemudian ketika Engkau membawaku kepada keluargaku, jangan Engkau tinggalkan aku dan cukupkanlah aku dalam rezeki keluargaku dan rezeki makhluk-Mu.\"",
-          "bn": "যখন তুমি ঘরকে বিদায় জানাতে চাও, তখন তার চারপাশে সাতবার তাওয়াফ করো, এবং হারামের যেকোনো স্থানে দুই রাকাত নামাজ পড়ো। তারপর আল-হাতিমের কাছে যাও—আল-হাতিম হলো কাবার দরজা এবং কালো পাথরের মধ্যে যা অবস্থিত—তারপর দাঁড়িয়ে কাবার পর্দায় আঁকড়ে ধরো, আল্লাহকে মহিমান্বিত করো, তার প্রশংসা করো, এবং নবী صلى الله عليه وآله-র উপর দরুদ পাঠ করো, তারপর বলো: “হে আল্লাহ, আমি তোমার দাস এবং তোমার দাসের পুত্র, তোমার দাসীর পুত্র। তুমি তাকে তোমার যানের উপর বহন করেছ, তোমার দেশে তাকে ভ্রমণ করিয়েছ, এবং তাকে মসজিদুল হারামে নিয়ে এসেছ। হে আল্লাহ, আমার আশা ও প্রত্যাশা ছিল যে তুমি আমাকে ক্ষমা করবে। যদি তুমি, হে আমার রব, তা করেছ, তবে আমার প্রতি তোমার সন্তুষ্টি বাড়াও এবং আমাকে তোমার কাছে নিকট করো। আর যদি তুমি তা করো নি, হে আমার রব, তবে এখন থেকে আমাকে ক্ষমা করো যতক্ষণ না আমার আবাস তোমার ঘর থেকে দূরে সরে যায়, না তা থেকে মুখ ফিরিয়ে নেবো এবং না তার পরিবর্তে অন্য কিছু খুঁজবো। এটা অথবা আমার প্রস্থান—যদি তুমি আমাকে অনুমতি দাও। হে আল্লাহ, আমাকে আমার সামনে, পেছনে, নিচে, উপরে, ডান এবং বাম থেকে রক্ষা করো, যতক্ষণ না তুমি আমাকে আমার পরিবারে সৎ অবস্থায় পৌঁছে দাও। তারপর যখন তুমি আমাকে আমার পরিবারের কাছে নিয়ে যাবে, তখন আমার থেকে মুখ ফিরিয়ে নেবেন না এবং আমার পরিবারের রোজগার এবং তোমার সৃষ্টি সম্পর্কে রোজগার আমাকে যথেষ্ট করো।",
-          "es": "Cuando desees despedirte de la Casa, realiza siete vueltas alrededor de ella, y reza dos rak'ahs donde quieras en el Haram. Luego dirígete al al-Hatim — y al-Hatim es lo que está entre la puerta de la Ka'bah y la Piedra Negra — luego aférrate a las cortinas de la Ka'bah mientras estás de pie, alaba a Allah, el Poderoso y Majestuoso, ensálzalo, y envía bendiciones sobre el Profeta صلى الله عليه وآله, luego di: “Oh Allah, soy Tu siervo y el hijo de Tu siervo, el hijo de Tu sierva. Lo llevaste sobre Tus monturas, lo hiciste viajar por Tus tierras, y lo trajiste a al-Masjid al-Haram. Oh Allah, había en mi esperanza y expectativa que me perdonarías. Así que si Tú, oh Señor mío, has hecho eso, entonces aumenta Tu complacencia conmigo y acércame a Ti. Y si no lo has hecho, oh Señor mío, entonces desde ahora perdóname antes de que mi morada se aleje de Tu Casa, sin apartarme de ella ni buscar un sustituto. Esto — o mi partida — si me has permitido. Oh Allah, protégeme de delante, de detrás, de abajo, de arriba, de mi derecha y de mi izquierda, hasta que me lleves a mi familia en un estado recto. Luego, cuando me lleves a mi familia, no te alejes de mí y suffíceme en la provisión de mis dependientes y la provisión respecto a Tu creación.”",
-          "fr": "Lorsque tu souhaites faire tes adieux à la Maison, fais sept tours autour d'elle, et prie deux rak'ahs où tu veux dans le Haram. Puis rends-toi à al-Hatim — et al-Hatim est ce qui se trouve entre la porte de la Ka'bah et la Pierre Noire — puis accroche-toi aux rideaux de la Ka'bah en étant debout, loue Allah, le Puissant et Majestueux, glorifie-Le, et envoie des bénédictions sur le Prophète صلى الله عليه وآله, puis dis : « Ô Allah, je suis Ton serviteur et le fils de Ton serviteur, le fils de Ta servante. Tu l'as porté sur Tes montures, l'as fait voyager dans Tes terres, et l'as amené à al-Masjid al-Haram. Ô Allah, j'avais l'espoir et l'attente que Tu me pardonnes. Alors si Tu l'as fait, ô mon Seigneur, augmente Ta satisfaction envers moi et rapproche-moi de Toi. Et si Tu ne l'as pas fait, ô mon Seigneur, pardonne-moi dès maintenant avant que ma demeure ne s'éloigne de Ta Maison, sans m'en détourner ni chercher un substitut. Ceci — ou mon départ — si Tu me l'as permis. Ô Allah, protège-moi de devant, de derrière, d'en dessous, d'au-dessus, de ma droite et de ma gauche, jusqu'à ce que Tu me ramènes à ma famille en état de droiture. Puis, quand Tu me ramèneras à ma famille, ne Te détourne pas de moi et suffi-moi pour la subsistance de mes dépendants et la subsistance concernant Ta création. »",
-          "de": "Wenn du dich vom Haus verabschieden möchtest, umrunde es siebenmal und bete zwei Rak'ah, wo immer du im Haram möchtest. Dann gehe zum al-Hatim — und al-Hatim ist das, was zwischen der Tür der Ka'bah und dem Schwarzen Stein liegt — dann halte dich im Stehen an den Vorhängen der Ka'bah fest, preise Allah, den Mächtigen und Erhabenen, lobe Ihn und sende Segenswünsche auf den Propheten صلى الله عليه وآله, dann sage: „O Allah, ich bin Dein Diener und der Sohn Deines Dieners, der Sohn Deiner Magd. Du hast ihn auf Deinen Reittieren getragen, hast ihn durch Deine Länder reisen lassen und hast ihn zur al-Masjid al-Haram gebracht. O Allah, es war meine Hoffnung und Erwartung, dass Du mich vergibst. Wenn Du das getan hast, o mein Herr, dann erhöhe Deine Zufriedenheit mit mir und bringe mich Dir nahe. Und wenn Du das nicht getan hast, o mein Herr, dann vergib mir von jetzt an, bevor meine Wohnung sich von Deinem Haus entfernt, ohne mich von ihm abzuwenden oder einen Ersatz dafür zu suchen. Dies — oder mein Weggang — wenn Du mir erlaubt hast. O Allah, schütze mich von vorne, von hinten, von unten, von oben, von meiner rechten und meiner linken Seite, bis Du mich in einem rechtschaffenen Zustand zu meiner Familie bringst. Wenn Du mich dann zu meiner Familie bringst, wende Dich nicht von mir ab und versorge mich mit dem Unterhalt meiner Angehörigen und dem Unterhalt Deiner Geschöpfe.“",
-          "ru": "",
-          "zh": ""
+          "en": "When you wish to bid farewell to the House, perform seven circumambulations around it, and pray two rak'ahs anywhere you like within the Haram. Then proceed to the Hatim—the area between the door of the Kaaba and the Black Stone. Cling to the Kaaba’s curtains while standing, praise Allah (swt), extol Him, and send blessings upon the Prophet (SAWW). Then say: \"O Allah, I am Your servant, the child of Your servant, the child of Your maidservant. You carried me on Your mounts, allowed me to traverse Your lands, and brought me to Your Sacred House. O Allah, it was within my hopes and expectations that You would forgive me. If, O my Lord, You have already done so, then increase Your satisfaction with me and draw me closer to You. But if You have not yet done so, O my Lord, then forgive me now, before my home becomes distant from Your House, while I remain neither disinclined to it nor seeking a substitute for it. This is the moment of my departure if You have granted me permission. O Allah, protect me from in front of me, behind me, beneath me, above me, to my right, and to my left, until You return me safely to my family. And when You bring me back to my family, do not forsake me. Suffice me with the provisions I need for my family and protect me from the burdens of Your creation.\" When you reach the Bab al-Hanatin, turn your face toward the Kaaba, prostrate to Allah, and ask Him to accept your pilgrimage and not make it your last visit to His House. Then, as you depart, say: \"Returning, repentant, praising, grateful to our Lord, longing for Allah and returning to Him. Peace and blessings be upon Muhammad and his family in abundance. Allah is sufficient for us, and He is the best disposer of affairs.\"",
+          "ur": "جب تم خانہ کعبہ سے رخصت ہونے کا ارادہ کرو تو اس کے گرد سات طواف کرو اور حرم کے اندر جہاں چاہو دو رکعت نماز پڑھو۔ پھر حطیم کی طرف جاؤ—جو کہ کعبہ کے دروازے اور حجر اسود کے درمیان کا علاقہ ہے۔ کعبہ کے پردے سے تھامے کھڑے رہو، اللہ کی تعریف کرو، اس کی ستائش کرو اور نبی کریم ﷺ پر درود بھیجو۔ پھر کہو: اے اللہ! میں تیرا بندہ، تیرے بندے کا بیٹا، تیری قنبت (غلام) کی بیٹی کا بیٹا ہوں۔ تو نے مجھے اپنے بھاری جانوروں پر سوار کیا، میرے لیے اپنی زمینوں میں سفر ممکن بنایا اور مجھے اپنی مقدس گھر تک پہنچایا۔ اے اللہ! میری امید اور خواہش یہی تھی کہ تو مجھے بخش دے گا۔ اے میرے رب! اگر تو نے مجھے پہلے ہی بخش دیا ہے تو میرے ساتھ اپنی رضا کو بڑھا اور مجھے اپنے قریب تر کر۔ اور اگر تو نے ابھی تک مجھے نہیں بخشا تو اے میرے رب! اب مجھے بخش دے، اس سے پہلے کہ میرا گھر تیرے گھر سے دور ہو جائے، جبکہ میں نہ تو اس سے منہ پھیروں اور نہ ہی اس کا متبادل تلاش کروں۔ یہ میری رخصت کا وقت ہے اگر تو نے اجازت دی ہو۔ اے اللہ! مجھے میرے آگے، پیچھے، نیچے، اوپر، دائیں اور بائیں سے محفوظ رکھ جب تک تو مجھے سلامت اپنے خاندان کے پاس نہ لوٹا دے۔ اور جب تو مجھے اپنے خاندان کے پاس لوٹاؤ تو مجھے نہ چھوڑنا۔ میرے خاندان کے لیے میری ضروریات کا کافی ہونا اور میرے لیے مخلوق کے بوجھ سے حفاظت کرنا۔",
+          "tr": "Evinize veda etmek istediğinizde, etrafında yedi tavaf yapın ve Harem içinde istediğiniz herhangi bir yerde iki rekat namaz kılın. Ardından Hatim'e gidin — bu, Kâbe'nin kapası ile Hâssa taşı arasındaki alandır. Kâbe'nin perdelerine tutunurken ayakta durun, Allah'a (c.c.) hamd edin, O'nu tenzih edin ve Peygamber'e (s.a.v.) salât gönderin. Sonra şunu deyin: \"Ey Allah! Sen kulum, kulunun oğlu, kulunun kızının oğlusun. Beni senin bineklerine bindirdin, senin memleketlerinde gezdirdin ve beni senin Mübarek Evin'e getirdin. Ey Allah! Senden affımı bekliyordum. Ey Rabbim, eğer affettiysen, beni memnun et ve bana yakınlığını artır. Ama eğer henüz affetmediysen, ey Rabbim, şimdi affet, evim senin Evin'den uzaklaşmadan önce, ben de ona karşı isteksiz değilim ve onun yerine başka bir şey aramıyorum. Bu, izin verdiysen benim ayrılma anımdır. Ey Allah! Beni önden, arkadan, alttan, üstten, sağdan ve soldan koru, aileme güvenle döndürünceye kadar. Ve beni aileme getirdiğinde, beni terk etme. Ailem için ihtiyacım olan rızıkları bana yeter kıl ve yaratıklarının yüklerinden koru.\" Babü'l-Hanatin'e ulaştığınızda, yüzünüzü Kâbe'ye çevirin, Allah'a secde edin ve hacınızı kabul etmesini ve onu son ziyaretiniz yapmasını isteme. Sonra ayrılırken şunu deyin: \"Dönüyoruz, tövbe eden, hamd eden, Rabbimize şükreden, Allah'a hasretle dönen ve O'na yönelen. Muhammed ve ailesine bolca selam ve salât olsun. Allah bize yeter, O işlerin en hayırlısıdır.\"",
+          "fa": "هنگامی که می‌خواهید به خانه خدا خداحافظی کنید، هفت طواف حول آن انجام دهید و در هر کجا که در حرم مایل هستید، دو رکعت نماز بخوانید. سپس به سمت حطیم بروید؛ ناحیه‌ای بین در کعبه و سنگ سیاه. هنگام ایستادن به پرده‌های کعبه بچسبید، خداوند را ستایش کنید، او را تعظیم نمایید و بر پیامبر درود فرستید. سپس بگویید: «ای خدا، من بنده تو، فرزند بنده تو، فرزند کنیز تو هستم. تو مرا بر مرکب‌هایت سوار کردی، به من اجازه دادی سرزمین‌هایت را طی کنم و مرا به خانه مقدست رسانیدی. ای خدا، در آرزوها و انتظاراتم این بود که مرا ببخشی. اگر ای پروردگار، از پیش این کار را کرده‌ای، پس رضایتت را نسبت به من زیاد کن و مرا به سوی خود نزدیک‌تر ساز. اما اگر هنوز این کار را نکرده‌ی، ای پروردگار، اکنون مرا ببخش، پیش از آنکه خانه‌ام از خانه تو دور شود، در حالی که نه از آن دوری جویم و نه جایگزینی برای آن بجویم. این لحظه رفتن من است اگر اجازه داده باشی. ای خدا، مرا از جلوم، از پشت سرم، از زیرم، از بالای سرم، از سمت راستم و از سمت چپم حفظ کن، تا زمانی که به سلامت به خانواده‌ام بازگردانی. و هنگامی که مرا به خانواده‌ام بازگردانی، مرا رها نکن. مرا به آنچه برای خانواده‌ام لازم است قوت ده و از بارهای آفریدگانت حفظم کن.» هنگامی که به باب‌الحناتین رسیدید، رو به کعبه کنید، به خدا سجده کنید و از او بخواهید حج شما را بپذیرد و آن را آخرین بازدید شما از خانه‌اش قرار ندهد. سپس هنگام رفتن بگویید: «برگشتیم، توبه‌کننده، ستایش‌کننده، شکرگزار پروردگاری که به خداوند امیدواریم و به سوی او بازمی‌گردیم. صلوات و درود بر محمد و خاندانش فراوان باد. خداوند برای ما کافی است و او بهترین مدیر امور است.»",
+          "id": "Apabila kamu ingin berpisah dengan Baitullah, lakukan tujuh kali tawaf mengelilinginya, dan shalat dua rakaat di mana saja yang kamu sukai di dalam Haram. Kemudian pergilah ke Hatim—area antara pintu Ka'bah dan Hajar Aswad. Berpeganglah pada gorden Ka'bah sambil berdiri, pujilah Allah (swt), agungkan Dia, dan kirimkan shalawat kepada Nabi (SAWW). Kemudian ucapkan: \"Ya Allah, hamba-Mu, anak dari hamba-Mu, anak dari hamba perempuan-Mu. Engkau mengangkutku dengan kendaraan-Mu, membiarkanku melintasi negeri-negeri-Mu, dan membawaku ke Rumah-Mu yang Mulia. Ya Allah, dalam harapanku dan ekspektasiku adalah bahwa Engkau akan mengampuni aku. Jika, wahai Tuhanku, Engkau telah melakukannya, maka tingkatkanlah keridaan-Mu kepadaku dan dekatkanlah aku kepada-Mu. Tetapi jika Engkau belum melakukannya, wahai Tuhanku, maka ampunilah aku sekarang, sebelum rumahku menjadi jauh dari Rumah-Mu, sementara aku tetap tidak enggan terhadapnya maupun mencari pengganti untuknya. Ini adalah saat kepergianku jika Engkau telah memberikan izin. Ya Allah, lindungi aku dari di depanku, di belakangku, di bawahku, di atasku, di sebelah kananku, dan di sebelah kiriku, hingga Engkau mengembalikan aku dengan selamat kepada keluargaku. Dan ketika Engkau membawa aku kembali kepada keluargaku, janganlah Engkau meninggalkan aku. Cukupkanlah aku dengan bekal yang aku butuhkan untuk keluargaku dan lindungi aku dari beban ciptaan-Mu.\" Apabila kamu mencapai Bab al-Hanatin, hadapkan wajahmu ke Ka'bah, sujudlah kepada Allah, dan mohonlah kepada-Nya untuk menerima ibadah hajimu dan jangan jadikan ini kunjungan terakhirmu ke Rumah-Nya. Kemudian, saat kamu berangkat, ucapkan: \"Pulang, bertaubat, memuji, bersyukur kepada Tuhan kami, rindu kepada Allah dan kembali kepada-Nya. Salam dan shalawat semoga tercurah kepada Muhammad dan keluarganya secara melimpah. Allah cukup bagi kami, dan Dia sebaik-baik pelindung urusan.\"",
+          "es": "Cuando desees despedirte de la Casa, realiza siete vueltas (tawaf) a su alrededor y reza dos rak'ahs en cualquier lugar que desees dentro del Haram. Luego dirígete al Hatim —el área entre la puerta de la Kaaba y la Piedra Negra—. Aférrate a las cortinas de la Kaaba mientras estás de pie, alaba a Allah (swt), ensálzalo y envía bendiciones sobre el Profeta (SAWW). Luego di: \"Oh Allah, soy Tu siervo, hijo de Tu siervo, hijo de Tu sierva. Tú me llevaste sobre Tus monturas, me permitiste recorrer Tus tierras y me trajiste a Tu Sagrada Casa. Oh Allah, estaba dentro de mis esperanzas y expectativas que me perdonaras. Si, oh Señor, ya lo has hecho, entonces aumenta Tu satisfacción conmigo y acércame a Ti. Pero si aún no lo has hecho, oh Señor, perdóname ahora, antes de que mi hogar se aleje de Tu Casa, mientras no me muestre reacio a ello ni busque un sustituto para él. Este es el momento de mi partida si me has concedido permiso. Oh Allah, protégeme de lo que está delante de mí, detrás de mí, debajo de mí, encima de mí, a mi derecha y a mi izquierda, hasta que me devuelvas sano y salvo a mi familia. Y cuando me traigas de vuelta a mi familia, no me abandones. Sufícame con los provisiones que necesito para mi familia y protégeme de las cargas de Tu creación.\" Cuando llegues al Bab al-Hanatin, gira tu rostro hacia la Kaaba, postrate ante Allah y pídele que acepte tu peregrinación y no la convierta en tu última visita a Su Casa. Luego, mientras te marchas, di: \"Regresando, arrepentidos, alabando, agradecidos a nuestro Señor, ansiosos por Allah y regresando a Él. La paz y las bendiciones sean sobre Muhammad y su familia en abundancia. Allah es suficiente para nosotros, y Él es el mejor dispensador de asuntos.\"",
+          "fr": "Lorsque vous souhaitez prendre congé de la Maison, effectuez sept circumambulations autour d’elle, puis priez deux rak’as n’importe où dans le Haram. Ensuite, dirigez-vous vers le Hatim — l’espace situé entre la porte de la Kaaba et la Pierre Noire. Tenez-vous fermement aux rideaux de la Kaaba en position debout, louez Allah (swt), exaltez-Le, et envoyez des bénédictions sur le Prophète (SAWW). Puis dites : « Ô Allah, je suis Ton serviteur, le fils de Ton serviteur, le fils de Ton esclave. Tu m’as porté sur Tes montures, Tu m’as permis de parcourir Tes terres, et Tu m’as conduit à Ta Maison Sacrée. Ô Allah, j’espérais et attendais que Tu me pardonnes. Si, ô mon Seigneur, Tu l’as déjà fait, alors augmente Ta satisfaction à mon égard et rapproche-moi de Toi. Mais si Tu ne l’as pas encore fait, ô mon Seigneur, alors pardonne-moi maintenant, avant que ma demeure ne s’éloigne de Ta Maison, alors que je ne suis ni réticent envers elle ni à la recherche d’un substitut. Voici le moment de mon départ si Tu m’as accordé Ton autorisation. Ô Allah, protège-moi de ce qui est devant moi, derrière moi, sous moi, au-dessus de moi, à ma droite et à ma gauche, jusqu’à ce que Tu me ramènes sain et sauf à ma famille. Et lorsque Tu me ramènes à ma famille, ne m’abandonne pas. Satisfais-moi avec les provisions dont j’ai besoin pour ma famille et protège-moi des fardeaux de Ta création. » Lorsque vous atteignez Bab al-Hanatin, tournez votre visage vers la Kaaba, prosternez-vous devant Allah, et demandez-Lui d’accepter votre pèlerinage et de ne pas en faire votre dernière visite à Sa Maison. Puis, en partant, dites : « De retour, repentants, louant, reconnaissants envers notre Seigneur, avides d’Allah et retournant à Lui. Que la paix et les bénédictions soient abondantes sur Muhammad et sur sa famille. Allah nous suffit, et Il est le meilleur des dispensateurs d’affaires. »",
+          "de": "Wenn du",
+          "ru": "Когда вы пожелаете покинуть Дом (Каабы, совершите вокруг него семь кругов (таваф) и помолитесь двумя ракаатами в любом месте в пределах Харам. Затем направьтесь к Хатим — пространству между дверью Каабы и Чёрным камнем. Держитесь за покрывала Каабы, стоя, восхваляйте Аллаха (субханаху ва та'ала), превозносите Его и посылаете благословения Пророку (салляллаху алейхи ва саллям). Затем скажите: «О Аллах, я Твой раб, сын Твоего раба, сын Твоей рабыни. Ты носил меня на Своих верблюдах, позволил мне странствовать по Своим землям и привёл меня к Твоему Священному Дому. О Аллах, я надеялся и ожидал, что Ты простишь меня. Если, о Господь мой, Ты уже простил меня, то увеличь Свою довольство мной и приблизи меня к Себе. Но если Ты ещё не простил меня, о Господь мой, то прости меня теперь, пока мой дом не стал далёк от Твоего Дома, пока я не утратил желания к нему и не стал искать ему замену. Это момент моего отправления, если Ты даровал мне разрешение. О Аллах, защити меня спереди, сзади, снизу, сверху, справа и слева, пока Ты не вернёшь меня безопасно к моей семье. И когда Ты вернёшь меня к моей семье, не оставь меня. Удостой меня достаточными средствами для моей семьи и защити от тягот Твоих творений». Когда вы достигнете Баба аль-Ханатин, поверните лицо к Каабе, совершите земной поклон Аллаху и попросите Его принять ваше паломничество и не сделать его последним посещением Его Дома. Затем, отправляясь в путь, скажите: «Возвращаемся, покаявшись, восхваляя, благодарствуя нашему Господу, тоскуя по Аллаху и возвращаясь к Нему. Мир и благословения да будут на Мухаммаде и его семье в изобилии. Аллах достаточен нам, и Он — лучший Покровитель». ",
+          "zh": "当你欲辞别天房时，围绕它行七圈环游，并在禁寺内任何你喜欢的位置礼两拜。然后前往哈提姆——即天房门与黑石之间的区域。站立时紧抓天房的帷幔，赞颂真主（SWT），称扬祂，并向先知（SAWW）降福。然后说：\"真主啊，我是你的仆人，你仆人的儿子，你女仆的孩子。你让我骑乘你的坐骑，让我穿越你的土地，并带我来到你的禁寺。真主啊，我曾希望并期待你能赦免我。如果，我的主啊，你已赦免了我，那么请增加你对我的喜悦，并使我更亲近你。但如果，我的主啊，你尚未赦免我，那么请在我离你的禁寺尚远、且我对它既不疏远也不寻求替代之时，现在就赦免我。若你已准允，这便是我离去的时刻。真主啊，求你保护我免受前后、上下、左右之害，直到你使我安全回到家人身边。当你使我回到家人身边时，不要抛弃我。以我家人所需之资粮满足我，并保护我免受你创造之物的重负。\"当你到达巴卜·哈纳廷门时，面向天房，向真主叩头，并祈求祂接受你的朝觐，且不要让它成为你最后一次拜访祂的禁寺。然后，在离开时说道：\"回归，悔悟，赞美，感谢我们的主，渴望真主并回归于祂。愿平安与祝福多多地降临于穆罕默德及其家属。真主足以做我们的监护者，祂是最佳的处置者。\"",
+          "bn": ""
         },
         "word_start": 2,
-        "word_end": 146
-      },
-      {
-        "chunk_type": "closing",
-        "arabic_text": "فَإِذَا بَلَغْتَ بَابَ الْحَنَّاطِينَ فَاسْتَقْبِلِ الْكَعْبَةَ بِوَجْهِكَ وَخِرَّ سَاجِدًا وَاسْأَلِ اللَّهَ عَزَّ وَجَلَّ أَنْ يَتَقَبَّلَهُ مِنْكَ وَلَا يَجْعَلَهُ آخِرَ الْعَهْدِ مِنْكَ ثُمَّ تَقُولُ وَأَنْتَ مَارٌّ: \"آئِبُونَ تَائِبُونَ حَامِدُونَ لِرَبِّنَا شَاكِرُونَ، إِلَى اللَّهِ رَاغِبُونَ، وَإِلَى اللَّهِ رَاجِعُونَ، وَصَلَّى اللَّهُ عَلَى مُحَمَّدٍ وَآلِهِ وَسَلَّمَ كَثِيرًا، وَحَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ.",
-        "translations": {
-          "en": "Then when you reach Bab al-Hannatin, face the Ka'bah with your face, fall in prostration, and ask Allah, Mighty and Majestic, to accept it from you and not make it the last of your عهد. Then say while passing on: \"Returning, repenting, praising, grateful to our Lord; toward Allah we are desirous, and to Allah we are returning. And may Allah bless Muhammad and his family and grant abundant peace; and Allah is sufficient for us, and He is the best trustee.\"",
-          "ur": "پھر جب آپ باب الحناطین پر پہنچیں تو اپنے چہرے سے کعبہ کی طرف رخ کریں، سجدہ کریں اور اللہ تعالیٰ سے دعا کریں کہ وہ اسے آپ کی طرف سے قبول فرمائے اور اسے آپ کے آخری عہد نہ بنائے۔ پھر جاتے ہوئے کہیں: \"توبہ کرنے والے، بازگشت کرنے والے، اپنے رب کی حمد کرنے والے، شکر گزار، اللہ کی طرف راغب، اور اللہ کی طرف رجوع کرنے والے۔ اللہ تعالیٰ محمد اور ان کے اہل بیت پر بہت درود بھیجے اور سلام دے۔ اور اللہ ہمارے لیے کافی ہے اور وہ بہترین کارساز ہے۔\"",
-          "tr": "Sonra Bab el-Hannatin'e ulaştığında, yüzünü Kabe'ye dön, secdeye kapan ve Allah'a, yüce ve azametli olana, bunu senden kabul etmesini ve son ahdini yapmamasını dile. Sonra geçerken şöyle de: “Tövbe eden, pişman olan, Rabbimizi hamdeden, şükreden, Allah'a yönelen ve Allah'a dönenleriz. Allah, Muhammed ve ailesine bolca salat ve selam eylesin. Allah bize yeter ve O en iyi vekildir.”",
-          "fa": "سپس هنگامی که به باب الحناطین رسیدی، روی خود را به سمت کعبه کن، سجده کن و از خداوند عزوجل بخواه که آن را از تو قبول کند و آن را آخرین عهد تو قرار ندهد. سپس هنگام عبور بگو: «بازگشت‌کنندگان، توبه‌کنندگان، ستایش‌کنندگان پروردگارمان، شاکران، به سوی خدا مشتاقیم و به سوی خدا بازمی‌گردیم. و خدا بر محمد و آل او بسیار درود فرستد و سلام بسیار. و خدا برای ما کافی است و بهترین وکیل است.»",
-          "id": "Kemudian ketika kamu sampai di Bab al-Hannatin, hadapkan wajahmu ke Ka'bah, sujudlah, dan mohonlah kepada Allah Yang Maha Perkasa dan Maha Agung agar menerima amalan itu darimu dan tidak menjadikannya sebagai akad terakhirmu. Kemudian katakan saat berjalan: \"Kami kembali, bertaubat, memuji, bersyukur kepada Tuhan kami; kepada Allah kami menginginkan, dan kepada Allah kami kembali. Semoga Allah memberkati Muhammad dan keluarganya serta memberikan damai yang melimpah; dan Allah cukup bagi kami, dan Dia adalah sebaik-baik wali.\"",
-          "bn": "তারপর যখন তুমি বাব আল-হানাতিনে পৌঁছাবে, তোমার মুখ কাবার দিকে করো, সেজদা করো এবং আল্লাহর কাছে প্রার্থনা করো যে তিনি তা তোমার পক্ষ থেকে কবুল করুন এবং এটি তোমার শেষ عهد না করেন। তারপর যাওয়ার সময় বলো: “আমরা ফিরে আসছি, তওবা করছি, আমাদের রবকে প্রশংসা করছি, কৃতজ্ঞ, আল্লাহর প্রতি আকাঙ্ক্ষী এবং আল্লাহর কাছে ফিরে আসছি। আল্লাহ মুহাম্মদ ও তাঁর পরিবারে অনেক দরুদ ও সালাম বর্ষিত করুন। আল্লাহ আমাদের জন্য যথেষ্ট এবং তিনি সেরা অভিভাবক।”",
-          "es": "Luego, cuando llegues a Bab al-Hannatin, vuelve tu rostro hacia la Ka'bah, postra y pide a Allah, el Poderoso y Majestuoso, que lo acepte de ti y que no lo convierta en el último de tus عهد. Luego di mientras avanzas: “Volviendo, arrepintiéndonos, alabando, agradecidos a nuestro Señor; hacia Allah deseamos, y hacia Allah regresamos. Y que Allah bendiga abundantemente a Muhammad y a su familia y les conceda mucha paz; y Allah es suficiente para nosotros, y Él es el mejor protector.”",
-          "fr": "Puis, lorsque tu atteins Bab al-Hannatin, tourne ton visage vers la Ka'bah, prosterne-toi et demande à Allah, le Puissant et Majestueux, d'accepter cela de toi et de ne pas en faire le dernier de tes engagements. Puis dis en passant : « Revenants, repentants, louant, reconnaissants envers notre Seigneur ; vers Allah nous aspirons, et vers Allah nous retournons. Qu'Allah bénisse abondamment Muhammad et sa famille et leur accorde une grande paix ; et Allah nous suffit, et Il est le meilleur garant. »",
-          "de": "Wenn du dann Bab al-Hannatin erreichst, wende dein Gesicht zur Ka'bah, falle in die Niederwerfung und bitte Allah, den Mächtigen und Erhabenen, es von dir anzunehmen und es nicht zu deinem letzten Bund zu machen. Dann sage beim Vorbeigehen: „Wir kehren um, bereuen, preisen, sind dankbar unserem Herrn; zu Allah sind wir geneigt und zu Allah kehren wir zurück. Und Allah segne Muhammad und seine Familie reichlich und schenke viel Frieden; und Allah ist für uns ausreichend, und Er ist der beste Bevollmächtigte.“",
-          "ru": "",
-          "zh": ""
-        },
-        "word_start": 146,
-        "word_end": 193
+        "word_end": 194
       }
     ],
     "translations": {
       "en": {
-        "summary": "This text describes the recommended manner of bidding farewell to the Ka'bah after completing the rites of hajj. It combines ritual actions with a deeply humble du'a seeking forgiveness, divine protection, acceptance of the pilgrimage, and a safe return to one's family without losing spiritual proximity to Allah.",
-        "seo_question": "How should one perform the farewell to the Ka'bah and what du'a should be recited?",
+        "summary": "This passage from *Man La Yahduruhu al-Faqih* outlines the specific Sunnah of the Farewell Tawaf, emphasizing the spiritual transition from the sacred precincts back to the world through acts like praying in the Hatim and supplicating at the Bani Shaybah gate. It reflects the Shia emphasis on maintaining a continuous spiritual connection with the Kaaba, viewing the departure not as an end but as a plea for the pilgrimage's acceptance and protection during the return journey.",
+        "seo_question": "What are the recommended supplications and rituals for bidding farewell to the Kaaba after Hajj?",
         "key_terms": {
-          "وَدَاعَ الْبَيْتِ": "farewell to the Ka'bah at the conclusion of the pilgrimage rites",
-          "أُسْبُوعًا": "seven complete circuits of tawaf",
-          "الْحَطِيمَ": "the area between the door of the Ka'bah and al-Ḥajar al-Aswad as defined in this text",
-          "أَسْتَارِ الْكَعْبَةِ": "the curtains covering the Ka'bah, to which one clings during the supplication",
-          "زُلْفَى": "nearness and closeness to Allah",
-          "تَائِبُونَ": "those returning in repentance",
-          "حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ": "Allah is sufficient for us, and He is the best disposer of affairs"
+          "وداع البيت": "Farewell to the House (Kaaba)",
+          "طواف": "Circumambulation",
+          "الحطيم": "The Hatim (area between Kaaba door and Black Stone)",
+          "باب الحناطين": "Bab al-Hanatin (a gate near the Haram)",
+          "آئبون": "Returning",
+          "تائبون": "Repentant"
         }
       },
       "ur": {
-        "summary": "یہ متن حج کے مناسک مکمل کرنے کے بعد کعبہ کو وداع کہنے کے مستحب طریقہ کی وضاحت کرتا ہے۔ یہ عبادتی اعمال کو ایک عاجزانہ دعا کے ساتھ جوڑتا ہے جو معافی، الہی حفاظت، حج کی قبولیت، اور اللہ کے قرب کو برقرار رکھتے ہوئے اپنے خاندان کے پاس محفوظ واپسی کی دعا ہے۔",
-        "seo_question": "کعبہ کو وداع کیسے کیا جائے اور کون سی دعا پڑھی جائے؟",
-        "key_terms": {}
+        "summary": "یہ متن *من لا یحضرہ الفقیہ* سے ہے جو وداعی طواف کی خاص سنت کی وضاحت کرتا ہے، جس میں حرم سے دنیا کی طرف روحانی سفر کے طور پر حطیم میں نماز پڑھنا اور بنی شیبہ کے دروازے پر دعا مانگنا شامل ہے۔ یہ شیعہ نقطہ نظر کی عکاسی کرتا ہے کہ کعبہ سے مسلسل روحانی تعلق برقرار رکھنا ضروری ہے، اور جدائی کو اختتام نہیں بلکہ حج کی قبولیت اور واپسی کے سفر میں حفاظت کی اپیل سمجھا جاتا ہے۔",
+        "seo_question": "حج کے بعد کعبہ سے الوداع کہنے کے لیے مستحب دعائیں اور اعمال کیا ہیں؟",
+        "key_terms": {
+          "وداع البيت": "کعبہ سے الوداع",
+          "طواف": "طواف",
+          "الحطيم": "حطیم",
+          "باب الحناطين": "باب الحناطین",
+          "آئبون": "واپس آنے والے",
+          "تائبون": "توبہ کرنے والے"
+        }
       },
       "tr": {
-        "summary": "Bu metin, hac ibadetini tamamladıktan sonra Kabe'ye veda etmenin tavsiye edilen şeklini açıklar. Ritüel eylemleri, af dileme, ilahi koruma, hacın kabulü ve Allah’a yakınlığı kaybetmeden ailesine güvenli dönüş için derin bir dua ile birleştirir.",
-        "seo_question": "Kabe'ye veda nasıl yapılır ve hangi dua okunmalıdır?",
-        "key_terms": {}
+        "summary": "Bu metin, *Men la Yahduruhu'l-Fakih* adlı eserden alınmış olup, Veda Tavafı'nın özel sünnetini, Hattim'de namaz kılma ve Beni Şeybe kapısında dua etme gibi eylemler aracılığıyla kutsal mescidlerden dünyaya geçişi vurgulayarak açıklar. Çıkışı bir son olarak değil, hacın kabulü için bir yalvarış ve dönüş yolunda korunma olarak gören Şiilerin Kâbe ile sürekli manevi bir bağ kurma vurgusunu yansıtır.",
+        "seo_question": "Haccın ardından Kâbe'le vedalaşmak için önerilen dualar ve ritüeller nelerdir?",
+        "key_terms": {
+          "وداع البيت": "Evle Vedalaşma",
+          "طواف": "Tavaf",
+          "الحطيم": "Hatim",
+          "باب الحناطين": "Babü'l-Henatin",
+          "آئبون": "Dönenler",
+          "تائبون": "Tövbe Edenler"
+        }
       },
       "fa": {
-        "summary": "این متن روش مستحب وداع با کعبه پس از انجام مناسک حج را توصیف می‌کند. این متن اعمال عبادی را با دعایی فروتنانه ترکیب می‌کند که طلب بخشش، حفاظت الهی، قبول حج و بازگشت ایمن به خانواده بدون از دست دادن نزدیکی معنوی به خداوند را شامل می‌شود.",
-        "seo_question": "چگونه باید از کعبه وداع کرد و چه دعایی خوانده شود؟",
-        "key_terms": {}
+        "summary": "این بخش از کتاب *من لا یحضره الفقیه* سنت خاص طواف وداع را ترسیم می‌کند و بر انتقال معنوی از حریم مقدس به سوی جهان از طریق اعمالی مانند نماز خواندن در حطیم و دعا کردن در دروازه بنی شیباه تأکید دارد. این امر تأکید شیعه بر حفظ پیوند معنوی مستمر با کعبه را بازتاب می‌دهد و خروج را نه به عنوان پایان، بلکه به عنوان درخواست پذیرش حج و حفظ آن در طول بازگن به عنوان می‌بیند.",
+        "seo_question": "دعاها و اعمال توصیه‌شده برای خداحافظی با کعبه پس از حج چیست؟",
+        "key_terms": {
+          "وداع البيت": "خداحافظی با خانه",
+          "طواف": "طواف",
+          "الحطيم": "حطیم",
+          "باب الحناطين": "باب الحناطین",
+          "آئبون": "بازگشت‌کنندگان",
+          "تائبون": "توبه‌کنندگان"
+        }
       },
       "id": {
-        "summary": "Teks ini menjelaskan cara yang dianjurkan untuk mengucapkan perpisahan dengan Ka'bah setelah menyelesaikan ibadah haji. Ini menggabungkan tindakan ritual dengan doa yang sangat rendah hati memohon ampunan, perlindungan ilahi, penerimaan haji, dan kembali dengan selamat kepada keluarga tanpa kehilangan kedekatan spiritual dengan Allah.",
-        "seo_question": "Bagaimana cara melakukan perpisahan dengan Ka'bah dan doa apa yang harus dibaca?",
-        "key_terms": {}
+        "summary": "Bagian dari *Man La Yahduruhu al-Faqih* ini menguraikan Sunnah khusus dalam Tawaf Wada', yang menekankan transisi spiritual dari tempat suci kembali ke dunia melalui tindakan seperti shalat di Hatim dan berdoa di gerbang Bani Syabah. Hal ini mencerminkan penekanan Syiah pada pemeliharaan hubungan spiritual yang berkelanjutan dengan Ka'bah, memandang keberangkatan bukan sebagai akhir, melainkan sebagai permohonan agar ibadah diterima dan dilindungi selama perjalanan pulang.",
+        "seo_question": "Apa saja doa dan ritual yang dianjurkan untuk berpisah dengan Ka'bah setelah Haji?",
+        "key_terms": {
+          "وداع البيت": "Berpisah dengan Baitullah",
+          "طواف": "Tawaf",
+          "الحطيم": "Area antara pintu Ka'bah dan Hajar Aswad",
+          "باب الحناطين": "Bab al-Hanatin (sebuah gerbang dekat Masjidil Haram)",
+          "آئبون": "Para kembali",
+          "تائبون": "Para bertaubat"
+        }
       },
       "bn": {
-        "summary": "এই পাঠটি হজের রীতিনীতি সম্পন্ন করার পর কাবাকে বিদায় জানানোর সুপারিশকৃত পদ্ধতি বর্ণনা করে। এটি আনুষ্ঠানিক ক্রিয়াকলাপকে একটি গভীর বিনীত দোয়ার সঙ্গে সংযুক্ত করে যা ক্ষমা, ঐশ্বরিক সুরক্ষা, হজের গ্রহণযোগ্যতা এবং আল্লাহর নৈকট্য হারানো ছাড়াই পরিবারের কাছে নিরাপদ প্রত্যাবর্তনের জন্য প্রার্থনা করে।",
-        "seo_question": "কাবাকে কীভাবে বিদায় জানানো উচিত এবং কোন দোয়া পাঠ করা উচিত?",
-        "key_terms": {}
+        "summary": "মান লা ইয়াহদুরুহুল ফাকিহ গ্রন্থের এই অংশে বিদায়ী তাওয়াফের নির্দিষ্ট সুন্নাহ বর্ণনা করা হয়েছে, যেখানে হাতিমের মধ্যে নামাজ পড়া এবং বানি শা'বা দরজায় দোয়া করার মাধ্যমে পবিত্র স্থান থেকে পৃথিবীতে ফিরে যাওয়ার আধ্যাত্মিক পরিবর্তনের ওপর জোর দেওয়া হয়েছে। এটি শিয়া মতাদর্শের কাবাশ্রয়ী নিরন্তর আধ্যাত্মিক সম্পর্ক বজায় রাখার গুরুত্বকে প্রতিফলিত করে, যেখানে বিদায়কে শেষ না মনে করে হজের কবুলিয়ত এবং ফেরত পথে সুরক্ষার জন্য একটি আবেদন হিসেবে দেখা হয়।",
+        "seo_question": "হজের পর কাবাকে বিদায় জানাতে কী কী সুপারিশকৃত দোয়া ও রীতিনীতি অনুসরণ করা হয়?",
+        "key_terms": {
+          "وداع البيت": "কাবাকে বিদায় জানানো",
+          "طواف": "তাওয়াফ",
+          "الحطيم": "হাতিম",
+          "باب الحناطين": "বাবুল হানাতিন",
+          "آئبون": "প্রত্যাবর্তনকারী",
+          "تائبون": "তওবাকারী"
+        }
       },
       "es": {
-        "summary": "Este texto describe la manera recomendada de despedirse de la Ka'bah después de completar los ritos del hajj. Combina acciones rituales con una súplica profundamente humilde que busca perdón, protección divina, aceptación de la peregrinación y un regreso seguro a la familia sin perder la cercanía espiritual a Allah.",
-        "seo_question": "¿Cómo se debe realizar la despedida a la Ka'bah y qué du'a se debe recitar?",
-        "key_terms": {}
+        "summary": "Este pasaje de *Man La Yahduruhu al-Faqih* describe la Sunnah específica del Tawaf de despedida, enfatizando la transición espiritual desde los recintos sagrados de vuelta al mundo mediante actos como la oración en el Hatim y la súplica en la puerta de Bani Shaybah. Refleja la énfasis chií en mantener una conexión espiritual continua con la Kaaba, viendo la partida no como un final sino como una súplica por la aceptación de la peregrinación y la protección durante el viaje de regreso.",
+        "seo_question": "¿Cuáles son las súplicas y rituales recomendados para despedirse de la Kaaba después del Hajj?",
+        "key_terms": {
+          "وداع البيت": "Despedida de la Casa (Kaaba)",
+          "طواف": "Circunvalación",
+          "الحطيم": "El Hatim (área entre la puerta de la Kaaba y la Piedra Negra)",
+          "باب الحناطين": "Bab al-Hanatin (una puerta cerca del Haram)",
+          "آئبون": "Regresando",
+          "تائبون": "Arrepentidos"
+        }
       },
       "fr": {
-        "summary": "Ce texte décrit la manière recommandée de faire ses adieux à la Ka'bah après avoir accompli les rites du hajj. Il combine des actions rituelles avec une invocation profondément humble demandant pardon, protection divine, acceptation du pèlerinage et un retour sûr auprès de sa famille sans perdre la proximité spirituelle avec Allah.",
-        "seo_question": "Comment effectuer les adieux à la Ka'bah et quelle du'a doit être récitée ?",
-        "key_terms": {}
+        "summary": "Ce passage de *Man La Yahduruhu al-Faqih* décrit la Sunnah spécifique du Tawaf d'adieu, soulignant la transition spirituelle des lieux sacrés vers le monde par des actes tels que la prière dans le Hatim et la Hatim et la supplication à la porte des Bani Shaybah. Il reflète l'accent mis par les Chiites sur le maintien d'une connexion spirituelle continue avec la Kaaba, considérant le départ non comme une fin, mais comme une demande d'acceptation du pèlerinage et de protection lors du retour.",
+        "seo_question": "Quelles sont les supplications et rituels recommandés pour dire adieu à la Kaaba après le Hajj ?",
+        "key_terms": {
+          "وداع البيت": "Adieu à la Maison (Kaaba)",
+          "طواف": "Cirumambulation",
+          "الحطيم": "Le Hatim (zone entre la porte de la Kaaba et la Pierre Noire)",
+          "باب الحناطين": "Bab al-Hanatin (une porte près du Haram)",
+          "آئبون": "Retour",
+          "تائبون": "Repentant"
+        }
       },
       "de": {
-        "summary": "Dieser Text beschreibt die empfohlene Art, sich nach Abschluss der Hajj-Riten von der Ka'bah zu verabschieden. Er verbindet rituelle Handlungen mit einem tief demütigen Du'a, der um Vergebung, göttlichen Schutz, Annahme der Pilgerfahrt und eine sichere Rückkehr zur Familie bittet, ohne die spirituelle Nähe zu Allah zu verlieren.",
-        "seo_question": "Wie sollte man den Abschied von der Ka'bah vollziehen und welches Du'a sollte rezitiert werden?",
-        "key_terms": {}
+        "summary": "Dieser Abschnitt aus *Man La Yahduruhu al-Faqih* beschreibt die spezifische Sunnah des Abschieds-Tawaf und betont den spirituellen Übergang von den heiligen Stätten zurück in die Welt durch Handlungen wie das Gebet im Hatim und das Bitten um Vergebung am Tor der Bani Shaybah. Er spiegelt die schiitische Betonung wider, eine kontinuierliche spirituelle Verbindung zur Kaaba aufrechtzuerhalten, wobei die Abreise nicht als Ende, sondern als Bitte um die Annahme der Pilgerfahrt und den Schutz auf der Rückreise betrachtet wird.",
+        "seo_question": "Welche sind die empfohlenen Bittgebete und Rituale zum Abschied von der Kaaba nach dem Haddsch?",
+        "key_terms": {
+          "وداع البيت": "Abschied vom Haus (Kaaba)",
+          "طواف": "Umkreisen",
+          "الحطيم": "Der Hatim (Bereich zwischen der Tür der Kaaba und dem Schwarzen Stein)",
+          "باب الحناطين": "Bab al-Hanatin (ein Tor in der Nähe des Haram)",
+          "آئبون": "Rückkehrend",
+          "تائبون": "Bußfertige"
+        }
       },
       "ru": {
-        "summary": "Этот текст описывает рекомендуемый способ прощания с Каабой после завершения обрядов хаджа. Он сочетает ритуальные действия с глубоко смиренной мольбой о прощении, божественной защите, принятии паломничества и безопасном возвращении к семье, не теряя духовной близости к Аллаху.",
-        "seo_question": "Как правильно проводить прощание с Каабой и какую дуа следует читать?",
-        "key_terms": {}
+        "summary": "В этом отрывке из «Ман ля йахдуруху аль-факих» излагается конкретная сунна прощального тавафа, подчеркивая духовный переход от священных пределов обратно в мир через такие действия, как молитва в хатиме и чтение дуа у ворот Бану Шайба. Это отражает шиитский акцент на поддержании непрерывной духовной связи с Каабой, рассматривая отправление не как конец, а как мольбу о принятии хаджа и защите во время обратного пути.",
+        "seo_question": "Какие рекомендуются дуа и обряды для прощания с Каабой после хаджа?",
+        "key_terms": {
+          "وداع البيت": "Прощание с Домом (Каабой)",
+          "طواف": "Таваф (обход вокруг Каабы)",
+          "الحطيم": "Хатим (участок между дверью Каабы и Черным камнем)",
+          "باب الحناطين": "Баб аль-Ханатин (ворота недалеко от Харама)",
+          "آئبون": "Возвращающиеся",
+          "تائبون": "Кающиеся"
+        }
       },
       "zh": {
-        "summary": "本文描述了完成朝觐仪式后告别圣殿的推荐方式。它将仪式行为与深切谦卑的祈祷结合，祈求宽恕、神圣保护、朝觐的接受以及安全返回家人，同时不失与安拉的精神亲近。",
-        "seo_question": "如何进行告别圣殿仪式及应诵读何种祈祷？",
-        "key_terms": {}
+        "summary": "这段出自《法格赫之书》的经文概述了辞朝环游（Tawaf al-Wada）的具体圣行，强调通过在海提姆（Hatim）礼拜和在巴尼·舍巴（Bani Shaybah）门祈祷等行为，从神圣区域回归世俗世界的精神过渡。它反映了什叶派强调与克尔白保持持续保持精神联系的观点，将 departure 视为祈求朝觐被接受并在返程途中得到保护的恳求，而非终点。",
+        "seo_question": "朝觐结束后向克尔白辞行时有哪些推荐的祈祷和仪式？",
+        "key_terms": {
+          "وداع البيت": "辞别天房",
+          "طواف": "环游",
+          "الحطيم": "海提姆",
+          "باب الحناطين": "哈纳廷门",
+          "آئبون": "归返者",
+          "تائبون": "悔罪者"
+        }
       }
     },
     "related_quran": [
+      {
+        "ref": "2:197",
+        "relationship": "thematic"
+      },
       {
         "ref": "2:125",
         "relationship": "thematic"
       },
       {
-        "ref": "2:128",
-        "relationship": "thematic"
-      },
-      {
         "ref": "3:97",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "14:37",
-        "relationship": "thematic"
-      },
-      {
-        "ref": "66:8",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "وَدَاعُ الْبَيْتِ فَإِذَا أَرَدْتَ وَدَاعَ الْبَيْتِ فَطُفْ بِهِ أُسْبُوعًا، وَصَلِّ رَكْعَتَيْنِ حَيْثُ أَحْبَبْتَ مِنَ الْحَرَمِ وَائْتِ الْحَطِيمَ - وَالْحَطِيمُ مَا بَيْنَ بَابِ الْكَعْبَةِ وَالْحَجَرِ الْأَسْوَدِ - فَتَعَلَّقْ بِأَسْتَارِ الْكَعْبَةِ وَأَنْتَ قَائِمٌ وَاحْمَدِ اللَّهَ عَزَّ وَجَلَّ وَأَثْنِ عَلَيْهِ وَصَلِّ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ ثُمَّ قُلْ \"اللَّهُمَّ إِنِّي عَبْدُكَ وَابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، حَمَلْتَهُ عَلَى دَوَابِّكَ وَسَيَّرْتَهُ فِي بِلَادِكَ وَأَقْدَمْتَهُ الْمَسْجِدَ الْحَرَامَ، اللَّهُمَّ وَقَدْ كَانَ فِي أَمَلِي وَرَجَائِي أَنْ تَغْفِرَ لِي فَإِنْ كُنْتَ يَا رَبِّ قَدْ فَعَلْتَ ذَلِكَ فَازْدَدْ عَنِّي رِضًا وَقَرِّبْنِي إِلَيْكَ زُلْفَى، وَإِنْ لَمْ تَكُنْ فَعَلْتَ يَا رَبِّ ذَلِكَ فَمِنَ الْآنَ فَاغْفِرْ لِي قَبْلَ أَنْ تَنْأَى دَارِي عَنْ بَيْتِكَ غَيْرَ رَاغِبٍ عَنْهُ وَلَا مُسْتَبْدِلٍ بِهِ، هَذَا أَوْ أَنْ انْصِرَافِي إِنْ كُنْتَ قَدْ أَذِنْتَ لِي، اللَّهُمَّ فَاحْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَمِنْ تَحْتِي وَمِنْ فَوْقِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي حَتَّى تُقْدِمَنِي أَهْلِي صَالِحًا، فَإِذَا أَقْدَمْتَنِي أَهْلِي فَلَا تَتَخَلَّ مِنِّي وَاكْفِنِي مَؤُونَةَ عِيَالِي وَمَؤُونَةَ خَلْقِكَ. فَإِذَا بَلَغْتَ بَابَ الْحَنَّاطِينَ فَاسْتَقْبِلِ الْكَعْبَةَ بِوَجْهِكَ وَخِرَّ سَاجِدًا وَاسْأَلِ اللَّهَ عَزَّ وَجَلَّ أَنْ يَتَقَبَّلَهُ مِنْكَ وَلَا يَجْعَلَهُ آخِرَ الْعَهْدِ مِنْكَ ثُمَّ تَقُولُ وَأَنْتَ مَارٌّ: \"آئِبُونَ تَائِبُونَ حَامِدُونَ لِرَبِّنَا شَاكِرُونَ، إِلَى اللَّهِ رَاغِبُونَ، وَإِلَى اللَّهِ رَاجِعُونَ، وَصَلَّى اللَّهُ عَلَى مُحَمَّدٍ وَآلِهِ وَسَلَّمَ كَثِيرًا، وَحَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ.",
-    "word_tags": [
-      [
-        "وَدَاعُ",
-        "N"
-      ],
-      [
-        "الْبَيْتِ",
-        "N"
-      ],
-      [
-        "فَإِذَا",
-        "N"
-      ],
-      [
-        "أَرَدْتَ",
-        "N"
-      ],
-      [
-        "وَدَاعَ",
-        "N"
-      ],
-      [
-        "الْبَيْتِ",
-        "N"
-      ],
-      [
-        "فَطُفْ",
-        "N"
-      ],
-      [
-        "بِهِ",
-        "N"
-      ],
-      [
-        "أُسْبُوعًا،",
-        "N"
-      ],
-      [
-        "وَصَلِّ",
-        "N"
-      ],
-      [
-        "رَكْعَتَيْنِ",
-        "N"
-      ],
-      [
-        "حَيْثُ",
-        "N"
-      ],
-      [
-        "أَحْبَبْتَ",
-        "N"
-      ],
-      [
-        "مِنَ",
-        "N"
-      ],
-      [
-        "الْحَرَمِ",
-        "N"
-      ],
-      [
-        "وَائْتِ",
-        "N"
-      ],
-      [
-        "الْحَطِيمَ",
-        "N"
-      ],
-      [
-        "-",
-        "N"
-      ],
-      [
-        "وَالْحَطِيمُ",
-        "N"
-      ],
-      [
-        "مَا",
-        "N"
-      ],
-      [
-        "بَيْنَ",
-        "N"
-      ],
-      [
-        "بَابِ",
-        "N"
-      ],
-      [
-        "الْكَعْبَةِ",
-        "N"
-      ],
-      [
-        "وَالْحَجَرِ",
-        "N"
-      ],
-      [
-        "الْأَسْوَدِ",
-        "N"
-      ],
-      [
-        "-",
-        "N"
-      ],
-      [
-        "فَتَعَلَّقْ",
-        "N"
-      ],
-      [
-        "بِأَسْتَارِ",
-        "N"
-      ],
-      [
-        "الْكَعْبَةِ",
-        "N"
-      ],
-      [
-        "وَأَنْتَ",
-        "N"
-      ],
-      [
-        "قَائِمٌ",
-        "N"
-      ],
-      [
-        "وَاحْمَدِ",
-        "N"
-      ],
-      [
-        "اللَّهَ",
-        "N"
-      ],
-      [
-        "عَزَّ",
-        "N"
-      ],
-      [
-        "وَجَلَّ",
-        "N"
-      ],
-      [
-        "وَأَثْنِ",
-        "N"
-      ],
-      [
-        "عَلَيْهِ",
-        "N"
-      ],
-      [
-        "وَصَلِّ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "النَّبِيِّ",
-        "N"
-      ],
-      [
-        "صَلَّى",
-        "N"
-      ],
-      [
-        "اللَّهُ",
-        "N"
-      ],
-      [
-        "عَلَيْهِ",
-        "N"
-      ],
-      [
-        "وَآلِهِ",
-        "N"
-      ],
-      [
-        "ثُمَّ",
-        "N"
-      ],
-      [
-        "قُلْ",
-        "N"
-      ],
-      [
-        "\"اللَّهُمَّ",
-        "N"
-      ],
-      [
-        "إِنِّي",
-        "N"
-      ],
-      [
-        "عَبْدُكَ",
-        "N"
-      ],
-      [
-        "وَابْنُ",
-        "N"
-      ],
-      [
-        "عَبْدِكَ،",
-        "N"
-      ],
-      [
-        "ابْنُ",
-        "N"
-      ],
-      [
-        "أَمَتِكَ،",
-        "N"
-      ],
-      [
-        "حَمَلْتَهُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "دَوَابِّكَ",
-        "N"
-      ],
-      [
-        "وَسَيَّرْتَهُ",
-        "N"
-      ],
-      [
-        "فِي",
-        "N"
-      ],
-      [
-        "بِلَادِكَ",
-        "N"
-      ],
-      [
-        "وَأَقْدَمْتَهُ",
-        "N"
-      ],
-      [
-        "الْمَسْجِدَ",
-        "N"
-      ],
-      [
-        "الْحَرَامَ،",
-        "N"
-      ],
-      [
-        "اللَّهُمَّ",
-        "N"
-      ],
-      [
-        "وَقَدْ",
-        "N"
-      ],
-      [
-        "كَانَ",
-        "N"
-      ],
-      [
-        "فِي",
-        "N"
-      ],
-      [
-        "أَمَلِي",
-        "N"
-      ],
-      [
-        "وَرَجَائِي",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "تَغْفِرَ",
-        "N"
-      ],
-      [
-        "لِي",
-        "N"
-      ],
-      [
-        "فَإِنْ",
-        "N"
-      ],
-      [
-        "كُنْتَ",
-        "N"
-      ],
-      [
-        "يَا",
-        "N"
-      ],
-      [
-        "رَبِّ",
-        "N"
-      ],
-      [
-        "قَدْ",
-        "N"
-      ],
-      [
-        "فَعَلْتَ",
-        "N"
-      ],
-      [
-        "ذَلِكَ",
-        "N"
-      ],
-      [
-        "فَازْدَدْ",
-        "N"
-      ],
-      [
-        "عَنِّي",
-        "N"
-      ],
-      [
-        "رِضًا",
-        "N"
-      ],
-      [
-        "وَقَرِّبْنِي",
-        "N"
-      ],
-      [
-        "إِلَيْكَ",
-        "N"
-      ],
-      [
-        "زُلْفَى،",
-        "N"
-      ],
-      [
-        "وَإِنْ",
-        "N"
-      ],
-      [
-        "لَمْ",
-        "N"
-      ],
-      [
-        "تَكُنْ",
-        "N"
-      ],
-      [
-        "فَعَلْتَ",
-        "N"
-      ],
-      [
-        "يَا",
-        "N"
-      ],
-      [
-        "رَبِّ",
-        "N"
-      ],
-      [
-        "ذَلِكَ",
-        "N"
-      ],
-      [
-        "فَمِنَ",
-        "N"
-      ],
-      [
-        "الْآنَ",
-        "N"
-      ],
-      [
-        "فَاغْفِرْ",
-        "N"
-      ],
-      [
-        "لِي",
-        "N"
-      ],
-      [
-        "قَبْلَ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "تَنْأَى",
-        "N"
-      ],
-      [
-        "دَارِي",
-        "N"
-      ],
-      [
-        "عَنْ",
-        "N"
-      ],
-      [
-        "بَيْتِكَ",
-        "N"
-      ],
-      [
-        "غَيْرَ",
-        "N"
-      ],
-      [
-        "رَاغِبٍ",
-        "N"
-      ],
-      [
-        "عَنْهُ",
-        "N"
-      ],
-      [
-        "وَلَا",
-        "N"
-      ],
-      [
-        "مُسْتَبْدِلٍ",
-        "N"
-      ],
-      [
-        "بِهِ،",
-        "N"
-      ],
-      [
-        "هَذَا",
-        "N"
-      ],
-      [
-        "أَوْ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "انْصِرَافِي",
-        "N"
-      ],
-      [
-        "إِنْ",
-        "N"
-      ],
-      [
-        "كُنْتَ",
-        "N"
-      ],
-      [
-        "قَدْ",
-        "N"
-      ],
-      [
-        "أَذِنْتَ",
-        "N"
-      ],
-      [
-        "لِي،",
-        "N"
-      ],
-      [
-        "اللَّهُمَّ",
-        "N"
-      ],
-      [
-        "فَاحْفَظْنِي",
-        "N"
-      ],
-      [
-        "مِنْ",
-        "N"
-      ],
-      [
-        "بَيْنِ",
-        "N"
-      ],
-      [
-        "يَدَيَّ",
-        "N"
-      ],
-      [
-        "وَمِنْ",
-        "N"
-      ],
-      [
-        "خَلْفِي",
-        "N"
-      ],
-      [
-        "وَمِنْ",
-        "N"
-      ],
-      [
-        "تَحْتِي",
-        "N"
-      ],
-      [
-        "وَمِنْ",
-        "N"
-      ],
-      [
-        "فَوْقِي",
-        "N"
-      ],
-      [
-        "وَعَنْ",
-        "N"
-      ],
-      [
-        "يَمِينِي",
-        "N"
-      ],
-      [
-        "وَعَنْ",
-        "N"
-      ],
-      [
-        "شِمَالِي",
-        "N"
-      ],
-      [
-        "حَتَّى",
-        "N"
-      ],
-      [
-        "تُقْدِمَنِي",
-        "N"
-      ],
-      [
-        "أَهْلِي",
-        "N"
-      ],
-      [
-        "صَالِحًا،",
-        "N"
-      ],
-      [
-        "فَإِذَا",
-        "N"
-      ],
-      [
-        "أَقْدَمْتَنِي",
-        "N"
-      ],
-      [
-        "أَهْلِي",
-        "N"
-      ],
-      [
-        "فَلَا",
-        "N"
-      ],
-      [
-        "تَتَخَلَّ",
-        "N"
-      ],
-      [
-        "مِنِّي",
-        "N"
-      ],
-      [
-        "وَاكْفِنِي",
-        "N"
-      ],
-      [
-        "مَؤُونَةَ",
-        "N"
-      ],
-      [
-        "عِيَالِي",
-        "N"
-      ],
-      [
-        "وَمَؤُونَةَ",
-        "N"
-      ],
-      [
-        "خَلْقِكَ.",
-        "N"
-      ],
-      [
-        "فَإِذَا",
-        "N"
-      ],
-      [
-        "بَلَغْتَ",
-        "N"
-      ],
-      [
-        "بَابَ",
-        "N"
-      ],
-      [
-        "الْحَنَّاطِينَ",
-        "N"
-      ],
-      [
-        "فَاسْتَقْبِلِ",
-        "N"
-      ],
-      [
-        "الْكَعْبَةَ",
-        "N"
-      ],
-      [
-        "بِوَجْهِكَ",
-        "N"
-      ],
-      [
-        "وَخِرَّ",
-        "N"
-      ],
-      [
-        "سَاجِدًا",
-        "N"
-      ],
-      [
-        "وَاسْأَلِ",
-        "N"
-      ],
-      [
-        "اللَّهَ",
-        "N"
-      ],
-      [
-        "عَزَّ",
-        "N"
-      ],
-      [
-        "وَجَلَّ",
-        "N"
-      ],
-      [
-        "أَنْ",
-        "N"
-      ],
-      [
-        "يَتَقَبَّلَهُ",
-        "N"
-      ],
-      [
-        "مِنْكَ",
-        "N"
-      ],
-      [
-        "وَلَا",
-        "N"
-      ],
-      [
-        "يَجْعَلَهُ",
-        "N"
-      ],
-      [
-        "آخِرَ",
-        "N"
-      ],
-      [
-        "الْعَهْدِ",
-        "N"
-      ],
-      [
-        "مِنْكَ",
-        "N"
-      ],
-      [
-        "ثُمَّ",
-        "N"
-      ],
-      [
-        "تَقُولُ",
-        "N"
-      ],
-      [
-        "وَأَنْتَ",
-        "N"
-      ],
-      [
-        "مَارٌّ:",
-        "N"
-      ],
-      [
-        "\"آئِبُونَ",
-        "N"
-      ],
-      [
-        "تَائِبُونَ",
-        "N"
-      ],
-      [
-        "حَامِدُونَ",
-        "N"
-      ],
-      [
-        "لِرَبِّنَا",
-        "N"
-      ],
-      [
-        "شَاكِرُونَ،",
-        "N"
-      ],
-      [
-        "إِلَى",
-        "N"
-      ],
-      [
-        "اللَّهِ",
-        "N"
-      ],
-      [
-        "رَاغِبُونَ،",
-        "N"
-      ],
-      [
-        "وَإِلَى",
-        "N"
-      ],
-      [
-        "اللَّهِ",
-        "N"
-      ],
-      [
-        "رَاجِعُونَ،",
-        "N"
-      ],
-      [
-        "وَصَلَّى",
-        "N"
-      ],
-      [
-        "اللَّهُ",
-        "N"
-      ],
-      [
-        "عَلَى",
-        "N"
-      ],
-      [
-        "مُحَمَّدٍ",
-        "N"
-      ],
-      [
-        "وَآلِهِ",
-        "N"
-      ],
-      [
-        "وَسَلَّمَ",
-        "N"
-      ],
-      [
-        "كَثِيرًا،",
-        "N"
-      ],
-      [
-        "وَحَسْبُنَا",
-        "N"
-      ],
-      [
-        "اللَّهُ",
-        "N"
-      ],
-      [
-        "وَنِعْمَ",
-        "N"
-      ],
-      [
-        "الْوَكِيلُ.",
-        "N"
-      ]
-    ],
+    "diacritized_text": "[وداع البيت] فإذا أردت وداع البيت فطف به أسبوعا، وصل ركعتين حيث أحببت من الحرم وائت الحطيم - والحطيم ما بين باب الكعبة والحجر الأسود - فتعلق بأستار الكعبة وأنت قائم واحمد الله عز وجل واثن عليه وصل على النبي صلى الله عليه وآله ثم قل \"اللهم إني عبدك وابن عبدك، ابن أمتك، حملته على دوابك وسيرته في بلادك وأقدمته المسجد الحرام، اللهم وقد كان في أملي ورجائي أن تغفر لي فان كنت يا رب قد فعلت ذلك فازدد عني رضا وقربني إليك زلفى، وإن لم تكن فعلت يا رب ذلك فمن الآن فاغفر لي قبل أن تنأى داري عن بيتك غير راغب عنه ولا مستبدل به، هذا أو ان انصرافي إن كنت قد أذنت لي، اللهم فاحفظني من بين يدي ومن خلفي ومن تحتي ومن فوقي و عن يميني وعن شمالي حتى تقدمني أهلي صالحا، فإذا أقدمتني أهلي فلا تتخل مني وأكفني مؤونة عيالي ومؤونة خلقك. فإذا بلغت باب الحناطين فاستقبل الكعبة بوجهك وخر ساجدا واسأل الله عز وجل أن يتقبله منك ولا يجعله آخر العهد منك ثم تقول وأنت مار: \"آئبون تائبون حامدون لربنا شاكرون، إلى الله راغبون، وإلى الله راجعون، وصلى الله على محمد وآله وسلم كثيرا، وحسبنا الله ونعم الوكيل.",
     "isnad_matn": {
       "isnad_ar": "",
-      "matn_ar": "وَدَاعُ الْبَيْتِ فَإِذَا أَرَدْتَ وَدَاعَ الْبَيْتِ فَطُفْ بِهِ أُسْبُوعًا، وَصَلِّ رَكْعَتَيْنِ حَيْثُ أَحْبَبْتَ مِنَ الْحَرَمِ وَائْتِ الْحَطِيمَ - وَالْحَطِيمُ مَا بَيْنَ بَابِ الْكَعْبَةِ وَالْحَجَرِ الْأَسْوَدِ - فَتَعَلَّقْ بِأَسْتَارِ الْكَعْبَةِ وَأَنْتَ قَائِمٌ وَاحْمَدِ اللَّهَ عَزَّ وَجَلَّ وَأَثْنِ عَلَيْهِ وَصَلِّ عَلَى النَّبِيِّ صَلَّى اللَّهُ عَلَيْهِ وَآلِهِ ثُمَّ قُلْ \"اللَّهُمَّ إِنِّي عَبْدُكَ وَابْنُ عَبْدِكَ، ابْنُ أَمَتِكَ، حَمَلْتَهُ عَلَى دَوَابِّكَ وَسَيَّرْتَهُ فِي بِلَادِكَ وَأَقْدَمْتَهُ الْمَسْجِدَ الْحَرَامَ، اللَّهُمَّ وَقَدْ كَانَ فِي أَمَلِي وَرَجَائِي أَنْ تَغْفِرَ لِي فَإِنْ كُنْتَ يَا رَبِّ قَدْ فَعَلْتَ ذَلِكَ فَازْدَدْ عَنِّي رِضًا وَقَرِّبْنِي إِلَيْكَ زُلْفَى، وَإِنْ لَمْ تَكُنْ فَعَلْتَ يَا رَبِّ ذَلِكَ فَمِنَ الْآنَ فَاغْفِرْ لِي قَبْلَ أَنْ تَنْأَى دَارِي عَنْ بَيْتِكَ غَيْرَ رَاغِبٍ عَنْهُ وَلَا مُسْتَبْدِلٍ بِهِ، هَذَا أَوْ أَنْ انْصِرَافِي إِنْ كُنْتَ قَدْ أَذِنْتَ لِي، اللَّهُمَّ فَاحْفَظْنِي مِنْ بَيْنِ يَدَيَّ وَمِنْ خَلْفِي وَمِنْ تَحْتِي وَمِنْ فَوْقِي وَعَنْ يَمِينِي وَعَنْ شِمَالِي حَتَّى تُقْدِمَنِي أَهْلِي صَالِحًا، فَإِذَا أَقْدَمْتَنِي أَهْلِي فَلَا تَتَخَلَّ مِنِّي وَاكْفِنِي مَؤُونَةَ عِيَالِي وَمَؤُونَةَ خَلْقِكَ. فَإِذَا بَلَغْتَ بَابَ الْحَنَّاطِينَ فَاسْتَقْبِلِ الْكَعْبَةَ بِوَجْهِكَ وَخِرَّ سَاجِدًا وَاسْأَلِ اللَّهَ عَزَّ وَجَلَّ أَنْ يَتَقَبَّلَهُ مِنْكَ وَلَا يَجْعَلَهُ آخِرَ الْعَهْدِ مِنْكَ ثُمَّ تَقُولُ وَأَنْتَ مَارٌّ: \"آئِبُونَ تَائِبُونَ حَامِدُونَ لِرَبِّنَا شَاكِرُونَ، إِلَى اللَّهِ رَاغِبُونَ، وَإِلَى اللَّهِ رَاجِعُونَ، وَصَلَّى اللَّهُ عَلَى مُحَمَّدٍ وَآلِهِ وَسَلَّمَ كَثِيرًا، وَحَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ.",
+      "matn_ar": "[وداع البيت] فإذا أردت وداع البيت فطف به أسبوعا، وصل ركعتين حيث أحببت من الحرم وائت الحطيم - والحطيم ما بين باب الكعبة والحجر الأسود - فتعلق بأستار الكعبة وأنت قائم واحمد الله عز وجل واثن عليه وصل على النبي صلى الله عليه وآله ثم قل \"اللهم إني عبدك وابن عبدك، ابن أمتك، حملته على دوابك وسيرته في بلادك وأقدمته المسجد الحرام، اللهم وقد كان في أملي ورجائي أن تغفر لي فان كنت يا رب قد فعلت ذلك فازدد عني رضا وقربني إليك زلفى، وإن لم تكن فعلت يا رب ذلك فمن الآن فاغفر لي قبل أن تنأى داري عن بيتك غير راغب عنه ولا مستبدل به، هذا أو ان انصرافي إن كنت قد أذنت لي، اللهم فاحفظني من بين يدي ومن خلفي ومن تحتي ومن فوقي و عن يميني وعن شمالي حتى تقدمني أهلي صالحا، فإذا أقدمتني أهلي فلا تتخل مني وأكفني مؤونة عيالي ومؤونة خلقك. فإذا بلغت باب الحناطين فاستقبل الكعبة بوجهك وخر ساجدا واسأل الله عز وجل أن يتقبله منك ولا يجعله آخر العهد منك ثم تقول وأنت مار: \"آئبون تائبون حامدون لربنا شاكرون، إلى الله راغبون، وإلى الله راجعون، وصلى الله على محمد وآله وسلم كثيرا، وحسبنا الله ونعم الوكيل.",
       "has_chain": false,
       "narrators": []
     },
@@ -969,6 +425,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 1,
+    "_phase4_mode": "per_language"
   }
 }

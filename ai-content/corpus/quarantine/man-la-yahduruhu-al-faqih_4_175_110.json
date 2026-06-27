@@ -1,150 +1,190 @@
 {
   "verse_path": "/books/man-la-yahduruhu-al-faqih:4:175:110",
   "ai_attribution": {
-    "model": "phased_gpt-5.4+gpt-4.1-mini",
-    "generated_date": "2026-05-10",
+    "model": "phased_qwen36-35b-heretic+qwen36-35b-heretic",
+    "generated_date": "2026-05-21",
     "pipeline_version": "4.0.0",
     "generation_method": "phased_pipeline"
   },
   "generation_attempts": 1,
   "validation_errors": [
-    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content",
-    "invalid topic: guidance"
+    "chunks[0] type='isnad' contains no narrator surface from isnad_matn.narrators[] — narrators[] disagrees with chunk content"
   ],
   "result": {
     "tags": [
       "theology",
-      "knowledge",
-      "governance"
+      "social_relations",
+      "prophetic_tradition"
     ],
-    "content_type": "theological",
+    "content_type": "narrative",
     "topics": [
       "imamate",
-      "religious_authority",
-      "ahlulbayt_virtues",
-      "guidance",
+      "imams_biography",
       "community"
     ],
     "chunks": [
       {
         "chunk_type": "isnad",
-        "arabic_text": "قَالَ الْمُفَضَّلُ وَسَمِعْتُ الصَّادِقَ عَلَيْهِ السَّلَامُ يَقُولُ",
+        "arabic_text": "قَالَ  اَلْمُفَضَّلُ وَ سَمِعْتُ اَلصَّادِقَ عَلَيْهِ اَلسَّلاَمُ يَقُولُ",
         "translations": {
-          "en": "Al-Mufaddal said: I heard al-Sadiq عليه السلام say:",
-          "ur": "المفضل نے کہا: میں نے الصادق علیہ السلام کو کہتے سنا:",
-          "tr": "El-Mufaddal dedi ki: Ben, el-Sadık عليه السلام'in şöyle dediğini duydum:",
-          "fa": "المفضل گفت: شنیدم که الصادق علیه السلام فرمود:",
-          "id": "Al-Mufaddal berkata: Saya mendengar al-Sadiq علیه السلام berkata:",
-          "bn": "আল-মুফাদ্দল বললেন: আমি আল-সাদিক عليه السلام কে বলতে শুনেছি:",
-          "es": "Al-Mufaddal dijo: Escuché a al-Sadiq عليه السلام decir:",
-          "fr": "Al-Mufaddal a dit : J'ai entendu al-Sadiq عليه السلام dire :",
-          "de": "Al-Mufaddal sagte: Ich hörte al-Sadiq عليه السلام sagen:",
-          "ru": "Аль-Муфаддаль сказал: Я слышал, как аль-Садик عليه السلام сказал:",
-          "zh": "المفضل说：我听到الصادقعليهالسلام说："
+          "en": "Al-Mufaddal said: I heard Al-Sadiq (peace be upon him) say:",
+          "ur": "المفضل قال: سمعت الصادق (عليه السلام) يقول:",
+          "tr": "El-Mufâdıl dedi: El-Sâdık'ı (aleyhüsselâm) şöyle derken işittim:",
+          "fa": "قال المفضل: سمعت الصادق (عليه السلام) يقول:",
+          "id": "Al-Mufaddal berkata Al-Mufaddal: Aku mendengar Al-Sadiq (alamah) berkata:",
+          "bn": "আল-মুফাদ্দাল বললেন: আমি আল-সাদিক (আস)-কে বলতে শুনেছি: ",
+          "es": "Dijo Al-Mufaddal: Oí a Al-Sadiq (que la paz sea con él) decir:",
+          "fr": "Al-Mufaddal a dit : J'ai entendu Al-Sadiq (que la paix soit sur lui) dire :",
+          "de": "Al-Mufaddal sagte: Ich hörte Al-Sadiq (Friede sei mit ihm) sagen:",
+          "ru": "5875 - сказал Аль-Мупфаззаль: «Я слышал, как ас-Садык (да будет над ним мир) сказал: \"Велика беда для людей из-за нас: если мы призовём их, они не ответят нам, а если мы оставим их, они не обретут верное руководство без нас\"».",
+          "zh": "5875 - 穆法杜勒说：我听到萨迪克（愿主赐福之）说："
         },
         "word_start": 0,
-        "word_end": 7
+        "word_end": 8
       },
       {
         "chunk_type": "body",
-        "arabic_text": "بَلِيَّةُ النَّاسِ عَلَيْنَا عَظِيمَةٌ إِنْ دَعَوْنَاهُمْ لَمْ يُجِيبُونَا وَإِنْ تَرَكْنَاهُمْ لَمْ يَهْتَدُوا بِغَيْرِنَا",
+        "arabic_text": "\"بَلِيَّةُ اَلنَّاسِ عَلَيْنَا عَظِيمَةٌ إِنْ دَعَوْنَاهُمْ لَمْ يُجِيبُونَا وَ إِنْ تَرَكْنَاهُمْ لَمْ يَهْتَدُوا بِغَيْرِنَا\"",
         "translations": {
-          "en": "The trial of the people concerning us is severe. If we call them, they do not respond to us, and if we leave them, they will not find guidance without us.",
-          "ur": "لوگوں کا ہمارے بارے میں امتحان بہت سخت ہے۔ اگر ہم انہیں بلائیں تو وہ جواب نہیں دیتے، اور اگر ہم انہیں چھوڑ دیں تو وہ ہمارے بغیر ہدایت نہیں پاتے۔",
-          "tr": "Halkın bizimle ilgili imtihanı çok şiddetlidir. Onları çağırırsak cevap vermezler, bırakırsak bizsiz doğru yolu bulamazlar.",
-          "fa": "آزمون مردم نسبت به ما بسیار سخت است. اگر آنها را بخوانیم پاسخ نمی‌دهند و اگر رهایشان کنیم بدون ما هدایت نمی‌یابند.",
-          "id": "Ujian orang-orang terhadap kami sangat berat. Jika kami memanggil mereka, mereka tidak menjawab, dan jika kami meninggalkan mereka, mereka tidak akan mendapatkan petunjuk tanpa kami.",
-          "bn": "মানুষদের আমাদের প্রতি পরীক্ষা কঠিন। আমরা যদি তাদের ডাকি, তারা সাড়া দেয় না, আর আমরা যদি তাদের ছেড়ে দিই, তারা আমাদের ছাড়া সঠিক পথ পায় না।",
-          "es": "La prueba de la gente con respecto a nosotros es severa. Si los llamamos, no responden, y si los dejamos, no encontrarán guía sin nosotros.",
-          "fr": "L'épreuve des gens à notre égard est sévère. Si nous les appelons, ils ne répondent pas, et si nous les laissons, ils ne trouveront pas la guidance sans nous.",
-          "de": "Die Prüfung der Menschen in Bezug auf uns ist schwer. Wenn wir sie rufen, antworten sie nicht, und wenn wir sie verlassen, finden sie ohne uns keine Führung.",
-          "ru": "Испытание людей по отношению к нам тяжело. Если мы зовем их, они не отвечают, а если мы оставим их, они не найдут руководство без нас.",
-          "zh": "人们对我们的考验很严峻。如果我们呼唤他们，他们不回应；如果我们离开他们，他们没有我们就找不到引导。"
+          "en": "\"The trial of the people concerning us is severe. If we call them, they do not respond to us, and if we leave them, they will not find guidance without us.\"",
+          "ur": "لوگوں کا ہم پر امتحان سخت ہے۔ اگر ہم انہیں بلاتے ہیں تو وہ ہماری طرف جواب نہیں دیتے، اور اگر ہم انہیں چھوڑ دیتے ہیں تو وہ ہمارے بغیر ہدایت نہیں پاتے۔",
+          "tr": "Ümmetimizin bizimle ilgili imtihanı şiddetlidir. Onları çağırdığımızda bize cevap vermezler, onları bıraktığımızda ise bizim rehberliğimiz olmadan hidayete eremezler.",
+          "fa": "آزمایش مردم نسبت به ما سخت است. اگر آنان را بخوانیم، به ما پاسخ نمی‌دهند و اگر آنان را رها کنیم، بدون ما هدایت نمی‌یابند.",
+          "id": "Cobaan umat terhadap kami adalah berat. Jika kami memanggil mereka, mereka tidak menjawab kami, dan jika kami meninggalkan mereka, mereka tidak akan menemukan petunjuk tanpa kami.",
+          "bn": "আমাদের বিষয়ে লোকদের পরীক্ষা কঠিন। আমরা তাদেরকে ডাকলে তারা আমাদেরকে সাড়া দেয় না, আর আমরা তাদেরকে ছেড়ে দিলে তারা আমাদের ছাড়া হিদায়াত পাবে না।",
+          "es": "La prueba del pueblo en cuanto a nosotros es severa. Si los llamamos, no nos responden, y si los dejamos, no encontrarán la guía sin nosotros. ",
+          "fr": "L'épreuve du peuple à notre égard est sévère. Si nous les appelons, ils ne nous répondent pas, et si nous les laissons, ils ne trouveront pas la guidance sans nous.",
+          "de": "Die Bewährung der Menschen uns gegenüber ist schwer. Wenn wir sie rufen, antworten sie uns nicht, und wenn wir sie allein lassen, werden sie ohne uns keine Rechtleitung finden.",
+          "ru": "Испытание народа относительно нас сурово. Если мы призываем их, они не отвечают нам, а если мы оставляем их, то они не обретут руководство без нас.",
+          "zh": "众人对我们的考验是严峻的考验。如果我们召唤他们，他们不回应我们；如果我们离开他们，他们便无法获得指引。"
         },
-        "word_start": 7,
-        "word_end": 20
+        "word_start": 8,
+        "word_end": 22
       }
     ],
     "translations": {
       "en": {
-        "summary": "Imam al-Sadiq عليه السلام describes the gravity of the people's condition in relation to the Ahl al-Bayt عليهم السلام. The report conveys that true guidance is tied to responding to them, and that without them people do not attain right guidance.",
-        "seo_question": "What does Imam al-Sadiq عليه السلام say about people's need for guidance through the Ahl al-Bayt?",
+        "summary": "This hadith from *Man La Yahduruhu al-Faqih* highlights the unique burden of the Imams as the exclusive conduits of divine guidance, a concept central to Shia theology regarding their role as *Hujjah* (proof) of God. The 'trial' (*baliyyah*) reflects the tension between the Imams' readiness to teach and the public's spiritual inertia, emphasizing that true *hidayah* is contingent upon the Imam's presence and call. This dynamic underscores the Shia belief that the Imam is not merely a political leader but the essential spiritual axis without whom the community cannot attain correct understanding of the faith.",
+        "seo_question": "What is the meaning of the 'trial' (balillah) of the Imams regarding the people?",
         "key_terms": {
-          "بَلِيَّةُ النَّاسِ": "the grave trial or affliction of the people",
-          "عَلَيْنَا": "in relation to us, referring to the Ahl al-Bayt عليهم السلام",
-          "لَمْ يُجِيبُونَا": "they do not answer or respond to our call",
-          "لَمْ يَهْتَدُوا بِغَيْرِنَا": "they do not find guidance without us"
+          "بَلِيَّةُ": "Trial, affliction, or difficult situation",
+          "اَلصَّادِقُ": "Al-Sadiq (The Truthful), a title for Imam Jafar ibn Muhammad (peace be upon him)",
+          "يَهْتَدُوا": "They find guidance"
         }
       },
       "ur": {
-        "summary": "امام الصادق علیہ السلام لوگوں کی حالت کی سنگینی کو اہل بیت علیہم السلام کے حوالے سے بیان فرماتے ہیں کہ حقیقی ہدایت ان کی طرف رجوع کرنے سے منسلک ہے اور ان کے بغیر لوگ صحیح ہدایت حاصل نہیں کرتے۔",
-        "seo_question": "امام الصادق علیہ السلام اہل بیت کے ذریعے لوگوں کی ہدایت کی ضرورت کے بارے میں کیا فرماتے ہیں؟",
-        "key_terms": {}
+        "summary": "یہ حدث *من لا یحضرہ الفقیہ* سے ہے جو ائمہ کی الگ پہچان کو اجاگر کرتی ہے جو کہ الہی ہدایت کے انحصاری ذرائع ہیں، یہ تصور شیعہ کلامیات میں ان کے کردار کے طور پر *حجت* (خدا کی دلیل) کے حوالے سے مرکزی اہمیت رکھتا ہے۔ 'بلیہ' (بلیہ) ائمہ کی تدریس کی تیاری اور عوام کی روحانی سستی کے درمیان کشیدگی کو ظاہر کرتا ہے، جس سے یہ واضح ہوتا ہے کہ صحیح *ہدایت* امام کی موجودگی اور دعوت پر منحصر ہے۔ یہ پوچھ گچھ شیعہ عقیدے کو مضبوط بناتی ہے کہ امام صرف ایک سیاسی رہنما نہیں بلکہ وہ ضروری روحانی محور ہیں جن کے بغیر امت دین کی صحیح سمجھ حاصل نہیں کر سکتی۔",
+        "seo_question": "لوگوں کے حوالے سے ائمہ کی 'بلیہ' (بلیہ) کیا ہے؟",
+        "key_terms": {
+          "بَلِيَّةُ": "بلیہ، مصیبت یا مشکل حالت",
+          "اَلصَّادِقُ": "الصادق (سچا)، امام جعفر بن محمد (صلی اللہ علیہ وسلم) کا لقب",
+          "يَهْتَدُوا": "وہ ہدایت پاتے ہیں"
+        }
       },
       "tr": {
-        "summary": "İmam el-Sadık عليه السلام, insanların durumunun Ahl al-Bayt عليهم السلام ile ilişkisini ciddiyetle anlatır; gerçek rehberliğin onlara yönelmekle bağlantılı olduğunu ve onsuz insanların doğru rehberliğe ulaşamayacağını bildirir.",
-        "seo_question": "İmam el-Sadık عليه السلام, insanların rehberlik için Ahl al-Bayt'e ihtiyaçları hakkında ne diyor?",
-        "key_terms": {}
+        "summary": "Bu hadis, *Men La Yahduruhu'l-Fakih* adlı eserden alınmış olup, İmamların ilahi rehberliğin tek kanalları olarak benzersiz yükünü vurgular; bu kavram, İmamların Allah'ın *Hücceti* (kanıtı) olarak rollerine dair Şii teolojisinin merkezindedir. 'Deneme' (*baliyye*), İmamların öğretmeye hazır olmaları ile halkın manevi tembelliği arasındaki gerilimi yansıtır ve doğru *hidayetin* İmamın varlığına ve çağrısına bağlı olduğunu vurgular. Bu dinamik, Şii inancının İmamın sadece siyasi bir lider değil, aynı zamanda topluluğun dini doğru anlayışa ulaşması için vazgeçilmez manevi eksen olduğunu altını çizer.",
+        "seo_question": "İmamların insanlar açısından 'deneme' (baliyye) anlamı nedir?",
+        "key_terms": {
+          "بَلِيَّةُ": "Deneme, musibet veya zor durum",
+          "اَلصَّادِقُ": "Es-Sadık (Doğru Söyleyen), İmam Cafer bin Muhammed'e (ona selam olsun) verilen bir unvan",
+          "يَهْتَدُوا": "Rehberlik bulurlar"
+        }
       },
       "fa": {
-        "summary": "امام الصادق علیه السلام شدت وضعیت مردم را نسبت به اهل بیت علیهم السلام بیان می‌کند و گزارش می‌دهد که هدایت واقعی به پاسخ دادن به آنان وابسته است و بدون آنان مردم هدایت صحیح نمی‌یابند.",
-        "seo_question": "امام الصادق علیه السلام درباره نیاز مردم به هدایت از طریق اهل بیت چه می‌گوید؟",
-        "key_terms": {}
+        "summary": "این حدیث از *من لا یحضره الفقیه* بار یگانه و سنگین امامان را به عنوان تنها مجاری هدایت الهی برجسته می‌کند، مفهومی که در کلام شیعه درباره نقش آن‌ها به عنوان حجت خدا محوری است. «آزمایش» (بلیه) نشان‌دهنده تنش میان آمادگی امامان برای آموزش و کندی معنوی مردم است و تأکید می‌کند که هدایت واقعی منوط به حضور و دعوت امام است. این پویایی بر باور شیعه تأکید دارد که امام نه تنها یک رهبر سیاسی، بلکه محور ضروری معنوی است که بدون آن جامعه نمی‌تواند به درک صحیح از دین دست یابد.",
+        "seo_question": "معنای «آزمایش» (بلیه) امامان در قبال مردم چیست؟",
+        "key_terms": {
+          "بَلِيَّةُ": "آزمایش، مصیبت یا وضعیت دشوار",
+          "اَلصَّادِقُ": "الصادق (درستکار/راستگو)، لقبی برای امام جعفر بن محمد (علیه السلام)",
+          "يَهْتَدُوا": "هدایت می‌یابند"
+        }
       },
       "id": {
-        "summary": "Imam al-Sadiq علیه السلام menggambarkan beratnya kondisi orang-orang terkait Ahl al-Bayt علیهم السلام. Laporan ini menyampaikan bahwa petunjuk sejati terkait dengan merespon mereka, dan tanpa mereka orang tidak mendapatkan petunjuk yang benar.",
-        "seo_question": "Apa yang dikatakan Imam al-Sadiq علیه السلام tentang kebutuhan orang akan petunjuk melalui Ahl al-Bayt؟",
-        "key_terms": {}
+        "summary": "Hadith dari *Man La Yahduruhu al-Faqih* ini menyoroti beban unik para Imam sebagai satu-satunya saluran bimbingan ilahi, sebuah konsep sentral dalam teologi Syiah mengenai peran mereka sebagai *Hujjah* (bukti) Allah. 'Cobaan' (*baliyyah*) mencerminkan ketegangan antara kesiapan para Imam untuk mengajar dan inersia spiritual publik, menekankan bahwa *hidayah* sejati bergantung pada kehadiran dan panggilan Imam. Dinamika ini menegaskan keyakinan Syiah bahwa Imam bukan sekadar pemimpin politik, tetapi poros spiritual esensial yang tanpanya komunitas tidak dapat mencapai pemahaman yang benar tentang agama.",
+        "seo_question": "Apa makna 'cobaan' (balillah) para Imam terhadap umat?",
+        "key_terms": {
+          "بَلِيَّةُ": "Cobaan, musibah, atau situasi sulit",
+          "اَلصَّادِقُ": "Al-Shadiq (Yang Benar), gelar untuk Imam Ja'far bin Muhammad (damallah 'alaihi)",
+          "يَهْتَدُوا": "Mereka mendapatkan bimbingan"
+        }
       },
       "bn": {
-        "summary": "ইমাম আল-সাদিক عليه السلام মানুষের অবস্থার গুরুত্ব আহলুল বাইত عليهم السلام এর সাথে সম্পর্কিতভাবে বর্ণনা করেন। এই বর্ণনা জানায় যে প্রকৃত পথপ্রদর্শন তাদের প্রতি সাড়া দেওয়ার সাথে যুক্ত, এবং তাদের ছাড়া মানুষ সঠিক পথপ্রদর্শন পায় না।",
-        "seo_question": "ইমাম আল-সাদিক عليه السلام আহলুল বাইত এর মাধ্যমে মানুষের পথপ্রদর্শনের প্রয়োজনীয়তা সম্পর্কে কী বলেন?",
-        "key_terms": {}
+        "summary": "এই হাদিসটি *মান লা ইয়াহদুরুহুল ফাকিহ* গ্রন্থ থেকে নেওয়া, যা ইমামদের ঈশ্বরের নির্দেশনার একমাত্র বাহক হওয়ার অনন্য দায়িত্ব তুলে ধরে, যা শিয়া তত্ত্বে তাদের *হুজ্জাহ* (ঈশ্বরের প্রমাণ) হিসেবে ভূমিকার কেন্দ্রীয় ধারণা। 'পরীক্ষা' বা *বালিয়াহ* ইমামদের শিক্ষাদানের প্রস্তুতি এবং জনগণের আধ্যাত্মিক স্থিরতার মধ্যে উত্তেজনা প্রতিফলিত করে, যা জোর দেয় যে সত্যিকারের *হিদায়াত* ইমামের উপস্থিতি এবং আহ্বানের ওপর নির্ভরশীল। এই গতিশীলতা শিয়া বিশ্বাসকে তুলে ধরে যে ইমাম কেবল একটি রাজনৈতিক নেতা নন, বরং অপরিহার্য আধ্যাত্মিক অক্ষ, যিনি ছাড়া সম্প্রদায় ঈমানের সঠিক বোঝাপড়া অর্জন করতে পারে না।",
+        "seo_question": "জনগণের সাপেক্ষে ইমামদের 'পরীক্ষা' (বালিয়াহ)-এর অর্থ কী?",
+        "key_terms": {
+          "بَلِيَّةُ": "পরীক্ষা, কষ্ট বা কঠিন পরিস্থিতি",
+          "اَلصَّادِقُ": "আস-সাদিখ (সত্যবাদী), ইমাম জাফর ইবনে মুহাম্মদ (আলৈহিস সালাম)-এর একটি উপাধি",
+          "يَهْتَدُوا": "তারা পথ পায় বা হিদায়াত লাভ করে"
+        }
       },
       "es": {
-        "summary": "El Imam al-Sadiq عليه السلام describe la gravedad de la condición de la gente en relación con los Ahl al-Bayt عليهم السلام. El informe transmite que la verdadera guía está ligada a responderles, y que sin ellos la gente no alcanza la guía correcta.",
-        "seo_question": "¿Qué dice el Imam al-Sadiq عليه السلام sobre la necesidad de las personas de guía a través de los Ahl al-Bayt؟",
-        "key_terms": {}
+        "summary": "Este hadiz de *Man La Yahduruhu al-Faqih* destaca la carga única de los Imames como conductores exclusivos de la guía divina, un concepto central en la teología chií respecto a su papel como *Hujjah* (prueba) de Dios. La 'prueba' (*baliyyah*) refleja la tensión entre la disposición de los Imames para enseñar y la inercia espiritual del público, enfatizando que la verdadera *hidayah* depende de la presencia y el llamado del Imam. Esta dinámica subraya la creencia chií de que el Imam no es meramente un líder político, sino el eje espiritual esencial sin el cual la comunidad no puede alcanzar la comprensión correcta de la fe.",
+        "seo_question": "¿Cuál es el significado de la 'prueba' (balillah) de los Imames respecto a la gente?",
+        "key_terms": {
+          "بَلِيَّةُ": "Prueba, aflicción o situación difícil",
+          "اَلصَّادِقُ": "Al-Sadiq (El Veraz), un título para el Imam Jafar ibn Muhammad (que la paz sea con él)",
+          "يَهْتَدُوا": "Ellos encuentran guía"
+        }
       },
       "fr": {
-        "summary": "L'Imam al-Sadiq عليه السلام décrit la gravité de la condition des gens en relation avec les Ahl al-Bayt عليهم السلام. Le rapport indique que la véritable guidance est liée à leur réponse, et qu'en leur absence, les gens ne trouvent pas la bonne guidance.",
-        "seo_question": "Que dit l'Imam al-Sadiq عليه السلام sur le besoin des gens de guidance à travers les Ahl al-Bayt؟",
-        "key_terms": {}
+        "summary": "Ce hadith tiré de *Man La Yahya al-Faqih met en lumière le fardeau unique des Imams en tant que canaux exclusifs du guide divin, un concept central dans la théologie chiite concernant leur rôle de Hujjah (preuve) de Dieu. L'épreuve (baliyyah) reflète la tension entre la disponibilité des Imams à enseigner et l'inertie spirituelle du public, soulignant que la vraie guidance (hidayah) est conditionnée par la présence et l'appel de l'Imam. Cette dynamique souligne la croyance chiite selon laquelle l'Imam n'est pas seulement un leader politique, mais l'axe spirituel essentiel sans lequel la communauté ne peut atteindre une compréhension correcte de la foi.",
+        "seo_question": "Quelle est la signification de l'épreuve (balillah) des Imams concernant les gens ?",
+        "key_terms": {
+          "بَلِيَّةُ": "Épreuve, affliction ou situation difficile",
+          "اَلصَّادِقُ": "Al-Sadiq (Le Véridique), un titre pour l'Imam Jafar ibn Muhammad (que la paix soit sur lui)",
+          "يَهْتَدُوا": "Ils trouvent la guidance"
+        }
       },
       "de": {
-        "summary": "Imam al-Sadiq عليه السلام beschreibt die Schwere der Lage der Menschen in Bezug auf die Ahl al-Bayt عليهم السلام. Der Bericht vermittelt, dass wahre Führung mit der Antwort auf sie verbunden ist und dass die Menschen ohne sie keine richtige Führung finden.",
-        "seo_question": "Was sagt Imam al-Sadiq عليه السلام über das Bedürfnis der Menschen nach Führung durch die Ahl al-Bayt؟",
-        "key_terms": {}
+        "summary": "Dieses Hadith aus *Man La Yahduruhu al-Faqih* hebt die einzigartige Last der Imame als ausschließliche Vermittler der göttlichen Führung hervor, ein Konzept, das für die schiitische Theologie bezüglich ihrer Rolle als *Hujjah* (Beweis) Gottes zentral ist. Die „Prüfung“ (*baliyyah*) spiegelt die Spannung zwischen der Bereitschaft der Imame zu lehren und der spirituellen Trägheit der Öffentlichkeit wider und betont, dass wahre *hidayah* von der Gegenwart und dem Ruf des Imams abhängt. Diese Dynamik unterstreicht den schiitischen Glauben, dass der Imam nicht nur ein politischer Führer, sondern die essentielle spirituelle Achse ist, ohne die die Gemeinschaft das Verständnis des Glaubens nicht korrekt erreichen kann.",
+        "seo_question": "Was ist die Bedeutung der „Prüfung“ (balillah) der Imame bezüglich der Menschen?",
+        "key_terms": {
+          "بَلِيَّةُ": "Prüfung, Leid oder schwierige Situation",
+          "اَلصَّادِقُ": "Al-Sadiq (Der Wahrhaftige), ein Titel für Imam Dscha'far ibn Muhammad (Friede sei mit ihm)",
+          "يَهْتَدُوا": "Sie finden Führung"
+        }
       },
       "ru": {
-        "summary": "Имам аль-Садик عليه السلام описывает серьёзность положения людей в отношении Ахль аль-Байт عليهم السلام. В отчёте говорится, что истинное руководство связано с ответом им, и без них люди не достигают правильного руководства.",
-        "seo_question": "Что говорит Имам аль-Садик عليه السلام о необходимости людей в руководстве через Ахль аль-Байт؟",
-        "key_terms": {}
+        "summary": "Этот хадис из «Ман ля йахдурху аль-факих» подчеркивает уникальное бремя Имамов как исключительных проводников божественного руководства, что является центральной концепцией шиитской теологии относительно их роли как «Худжа» (доказательства) Бога. «Испытание» (балия) отражает напряжение между готовностью Имамов учить и духовной инерцией публики, подчеркивая, что истинное «хидаят» зависит от присутствия и призыва Имама. Эта динамика подчеркивает шиитскую веру в то, что Имам — это не просто политический лидер, а необходимая духовная ось, без которой община не может достичь правильного понимания веры.",
+        "seo_question": "Каков смысл «испытания» (балия) Имамов относительно людей?",
+        "key_terms": {
+          "بَلِيَّةُ": "Испытание, беда или трудная ситуация",
+          "اَلصَّادِقُ": "Ас-Садык (Истинный), титул Имама Джафара ибн Мухаммада (мир ему)",
+          "يَهْتَدُوا": "Они обретают руководство"
+        }
       },
       "zh": {
-        "summary": "伊玛目الصادقعليهالسلام描述了人们与أهلالبيتعليهمالسلام关系的严重状况。报告传达了真正的引导与回应他们相关，没有他们人们无法获得正确的引导。",
-        "seo_question": "伊玛目الصادقعليهالسلام关于人们通过أهلالبيت获得引导的需求说了什么？",
-        "key_terms": {}
+        "summary": "这段出自《法赫德不哈》的圣训强调了伊玛目作为神圣指引唯一通道的独特负担，这是什叶派神学中关于他们作为真主‘哈吉’（证明）角色的核心概念。‘考验’（巴利叶）反映了伊玛目准备教导与公众精神惰性之间的张力，强调真正的‘希达亚’（指引）取决于伊玛目的存在和召唤。这种动态突显了什叶派的信念，即伊玛目不仅是政治领袖，更是不可或缺的精神轴心，没有他，社区无法获得对信仰的正确理解。",
+        "seo_question": "伊玛目对民众的‘考验’（巴利叶）是什么意思？",
+        "key_terms": {
+          "بَلِيَّةُ": "考验、磨难或困境",
+          "اَلصَّادِقُ": "萨迪格（诚实者），伊玛目贾法尔·本·穆罕默德（愿主福安之）的称号",
+          "يَهْتَدُوا": "他们获得指引"
+        }
       }
     },
     "related_quran": [
       {
-        "ref": "2:38",
+        "ref": "13:33",
         "relationship": "thematic"
       },
       {
-        "ref": "4:59",
+        "ref": "16:9",
         "relationship": "thematic"
       },
       {
-        "ref": "5:35",
+        "ref": "39:3",
+        "relationship": "thematic"
+      },
+      {
+        "ref": "5:67",
         "relationship": "thematic"
       }
     ],
-    "diacritized_text": "قَالَ الْمُفَضَّلُ وَسَمِعْتُ الصَّادِقَ عَلَيْهِ السَّلَامُ يَقُولُ بَلِيَّةُ النَّاسِ عَلَيْنَا عَظِيمَةٌ إِنْ دَعَوْنَاهُمْ لَمْ يُجِيبُونَا وَإِنْ تَرَكْنَاهُمْ لَمْ يَهْتَدُوا بِغَيْرِنَا",
+    "diacritized_text": "قَالَ اَلْمُفَضَّلُ وَ سَمِعْتُ اَلصَّادِقَ عَلَيْهِ اَلسَّلاَمُ يَقُولُ \"بَلِيَّةُ اَلنَّاسِ عَلَيْنَا عَظِيمَةٌ إِنْ دَعَوْنَاهُمْ لَمْ يُجِيبُونَا وَ إِنْ تَرَكْنَاهُمْ لَمْ يَهْتَدُوا بِغَيْرِنَا\"",
     "isnad_matn": {
-      "isnad_ar": "قَالَ الْمُفَضَّلُ وَسَمِعْتُ الصَّادِقَ عَلَيْهِ السَّلَامُ يَقُولُ",
-      "matn_ar": "بَلِيَّةُ النَّاسِ عَلَيْنَا عَظِيمَةٌ إِنْ دَعَوْنَاهُمْ لَمْ يُجِيبُونَا وَإِنْ تَرَكْنَاهُمْ لَمْ يَهْتَدُوا بِغَيْرِنَا",
+      "isnad_ar": "قَالَ  اَلْمُفَضَّلُ وَ سَمِعْتُ اَلصَّادِقَ عَلَيْهِ اَلسَّلاَمُ يَقُولُ",
+      "matn_ar": "\"بَلِيَّةُ اَلنَّاسِ عَلَيْنَا عَظِيمَةٌ إِنْ دَعَوْنَاهُمْ لَمْ يُجِيبُونَا وَ إِنْ تَرَكْنَاهُمْ لَمْ يَهْتَدُوا بِغَيْرِنَا\"",
       "has_chain": true,
       "narrators": [
         {
@@ -169,6 +209,8 @@
       }
     ],
     "seo_question": {},
-    "key_terms": {}
+    "key_terms": {},
+    "_phase4_calls_failed": 0,
+    "_phase4_mode": "per_language"
   }
 }
