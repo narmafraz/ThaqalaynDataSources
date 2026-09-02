@@ -1,11 +1,18 @@
 {
   "verse_path": "/books/al-kafi:1:2:1:5",
   "model": "qwen36-fast",
-  "generated_date": "2026-07-05",
+  "generated_date": "2026-08-20",
   "num_chunks": 5,
-  "aligned": {},
+  "aligned": {
+    "en.sarwar": [
+      " 5. A number of our people has narrated has narrated from Ahmad ibn Muhammad al-Barqi from Ya’qub ibn Yazid from abu ‘Abdallah, a man of our people narrated in a marfu‘ manner from abu ‘Abdallah (a.s.) from the Holy Prophet (s.a) who has said the following. “",
+      "Seeking knowledge is obligatory.”",
+      " In another Hadith Imam abu ‘Abdallah has narrated from the holy Prophet who said, “",
+      "Seeking knowledge is obligatory for every Muslim. Let it be known that Allah loves those who seek knowledge.”",
+      ""
+    ]
+  },
   "quarantined": {
-    "en.hubeali": "strict revalidation 2026-08-16: not verbatim: rejoined parts diverge at char 444 (orig 446 chars, got 446): 'oftheknowledge’’.' vs 'oftheknowledge’.’'",
-    "en.sarwar": "strict revalidation 2026-08-16: not verbatim: rejoined parts diverge at char 0 (orig 403 chars, got 401): '5.Anumberofourpeoplehasna' vs 'Anumberofourpeoplehasnarr'"
+    "en.hubeali": "not verbatim: rejoined parts diverge at char 156 (orig 446 chars, got 436): 'asws</sup>said:‘Rasool-Allah<sup>saww</s' vs 'asws</sup>said:Rasool-Allah<sup>saww</su'"
   }
 }
