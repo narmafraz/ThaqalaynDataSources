@@ -1,7 +1,7 @@
 {
   "verse_path": "/books/quran:11:43",
   "model": "qwen36-fast",
-  "generated_date": "2026-08-20",
+  "generated_date": "2026-09-02",
   "num_chunks": 3,
   "aligned": {
     "en.ahmedali": [
@@ -78,10 +78,17 @@
       "The son replied: \"I will betake myself to some mountain: it will save me from the water.\"",
       " Noah said: \"This day nothing can save, from the command of Allah, any but those on whom He hath mercy! \"",
       "And the waves came between them, and the son was among those overwhelmed in the Flood."
+    ],
+    "en.ahmedraza": [
+      "He said, “I shall take the refuge of a mountain – it will save me from the water”; ",
+      "said Nooh, “Today there is none who can rescue from the punishment of Allah, except upon whom He has mercy”; ",
+      "and the wave came in between them, so he remained amongst the drowning."
+    ],
+    "en.qaribullah": [
+      "But he replied: 'I shall seek refuge on a mountain, which will protect me from the water'",
+      " He (Noah) said: 'Today, there is no defender from the command of Allah, except those to whom He has mercy'",
+      " And the waves came between them, and he was drowned."
     ]
   },
-  "quarantined": {
-    "en.ahmedraza": "not verbatim: rejoined parts diverge at char 64 (orig 213 chars, got 211): 'mefromthewater”;saidNooh,“Todaythereisno' vs 'mefromthewater”saidNooh,“Todaythereisnon'",
-    "en.qaribullah": "not verbatim: rejoined parts diverge at char 0 (orig 203 chars, got 189): \"Buthereplied:'Ishallseekr\" vs 'Ishallseekrefugeonamounta'"
-  }
+  "quarantined": {}
 }
